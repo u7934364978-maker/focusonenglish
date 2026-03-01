@@ -9,15 +9,15 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'maleta' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'maleta' en inglés?",
           "options": [
-            "[[Suitcase|]]",
-            "[[Backpack|]]",
-            "[[Handbag|]]"
+            "[[Suitcase|Suitcase]]",
+            "[[Backpack|Backpack]]",
+            "[[Handbag|Handbag]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -34,46 +34,46 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une los objetos con su traducción:",
       "questions": [
         {
           "question": "Sunscreen",
           "options": [
-            "[[Protector solar|]]",
-            "[[Bañador|]]",
-            "[[Gafas de sol|]]",
-            "[[Cargador|]]"
+            "[[Protector solar|Protector solar]]",
+            "[[Bañador|Bañador]]",
+            "[[Gafas de sol|Gafas de sol]]",
+            "[[Cargador|Cargador]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Sunglasses",
           "options": [
-            "[[Cargador|]]",
-            "[[Gafas de sol|]]",
-            "[[Protector solar|]]",
-            "[[Bañador|]]"
+            "[[Cargador|Cargador]]",
+            "[[Gafas de sol|Gafas de sol]]",
+            "[[Protector solar|Protector solar]]",
+            "[[Bañador|Bañador]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Charger",
           "options": [
-            "[[Gafas de sol|]]",
-            "[[Cargador|]]",
-            "[[Protector solar|]]",
-            "[[Bañador|]]"
+            "[[Gafas de sol|Gafas de sol]]",
+            "[[Cargador|Cargador]]",
+            "[[Protector solar|Protector solar]]",
+            "[[Bañador|Bañador]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Swimsuit",
           "options": [
-            "[[Protector solar|]]",
-            "[[Bañador|]]",
-            "[[Gafas de sol|]]",
-            "[[Cargador|]]"
+            "[[Protector solar|Protector solar]]",
+            "[[Bañador|Bañador]]",
+            "[[Gafas de sol|Gafas de sol]]",
+            "[[Cargador|Cargador]]"
           ],
           "correctAnswer": 1
         }
@@ -95,8 +95,8 @@ export const UNIT_49_EXERCISES: Exercise[] = [
         {
           "question": "Escribe 'adaptador' en inglés:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -113,15 +113,15 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "Selecciona la opción para 'artículos de aseo':",
       "questions": [
         {
           "question": "Selecciona la opción para 'artículos de aseo':",
           "options": [
-            "[[Toiletries|]]",
-            "[[Clothes|]]",
-            "[[Documents|]]"
+            "[[Toiletries|Toiletries]]",
+            "[[Clothes|Clothes]]",
+            "[[Documents|Documents]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -145,8 +145,8 @@ export const UNIT_49_EXERCISES: Exercise[] = [
         {
           "question": "Escucha y repite el vocabulario:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -162,16 +162,16 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con el verbo 'necesitar':",
       "questions": [
         {
           "question": "I ________ my phone charger.",
           "options": [
-            "[[I need to pack my suitcase.|]]",
-            "[[I need a universal adapter.|]]",
-            "[[o1|]]",
-            "[[need|]]"
+            "[[I need to pack my suitcase.|I need to pack my suitcase.]]",
+            "[[I need a universal adapter.|I need a universal adapter.]]",
+            "[[o1|opción 1]]",
+            "[[need|need]]"
           ],
           "correctAnswer": 3
         }
@@ -192,7 +192,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
         {
           "question": "I need my swimsuit",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -207,16 +207,16 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa la frase: 'No olvides tus documentos'",
       "questions": [
         {
           "question": "Don't ________ your documents.",
           "options": [
-            "[[Where are my sunglasses?|]]",
-            "[[o1|]]",
-            "[[Adapter|]]",
-            "[[forget|]]"
+            "[[Where are my sunglasses?|Where are my sunglasses?]]",
+            "[[o1|opción 1]]",
+            "[[Adapter|Adapter]]",
+            "[[forget|forget]]"
           ],
           "correctAnswer": 3
         }
@@ -238,8 +238,8 @@ export const UNIT_49_EXERCISES: Exercise[] = [
         {
           "question": "Escucha la frase:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -262,8 +262,8 @@ export const UNIT_49_EXERCISES: Exercise[] = [
         {
           "question": "Clasifica los objetos:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -286,8 +286,8 @@ export const UNIT_49_EXERCISES: Exercise[] = [
         {
           "question": "En la frase 'My suitcase is too full', ¿significa que la maleta está vacía?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -310,8 +310,8 @@ export const UNIT_49_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'Estoy haciendo mi maleta'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -328,15 +328,15 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Qué objeto es esencial para una playa soleada?",
       "questions": [
         {
           "question": "¿Qué objeto es esencial para una playa soleada?",
           "options": [
-            "[[Sunscreen|]]",
-            "[[A heavy coat|]]",
-            "[[An umbrella|]]"
+            "[[Sunscreen|Sunscreen]]",
+            "[[A heavy coat|A heavy coat]]",
+            "[[An umbrella|An umbrella]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -353,16 +353,16 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa el texto:",
       "questions": [
         {
           "question": "I am ________ my suitcase for the trip. I ________ my passport.",
           "options": [
-            "[[o1|]]",
-            "[[o1|]]",
-            "[[packing, need|]]",
-            "[[clothes|]]"
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]",
+            "[[packing, need|packing, need]]",
+            "[[clothes|clothes]]"
           ],
           "correctAnswer": 2
         }
@@ -384,8 +384,8 @@ export const UNIT_49_EXERCISES: Exercise[] = [
         {
           "question": "Escribe una frase corta diciendo que necesitas tu cargador:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -402,15 +402,15 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "Si tu maleta pesa mucho, dices:",
       "questions": [
         {
           "question": "Si tu maleta pesa mucho, dices:",
           "options": [
-            "[[My suitcase is heavy.|]]",
-            "[[My suitcase is light.|]]",
-            "[[My suitcase is empty.|]]"
+            "[[My suitcase is heavy.|My suitcase is heavy.]]",
+            "[[My suitcase is light.|My suitcase is light.]]",
+            "[[My suitcase is empty.|My suitcase is empty.]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -434,8 +434,8 @@ export const UNIT_49_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[I need to pack my suitcase.|]]",
-            "[[Gafas de sol|]]"
+            "[[I need to pack my suitcase.|I need to pack my suitcase.]]",
+            "[[Gafas de sol|Gafas de sol]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -459,8 +459,8 @@ export const UNIT_49_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[need|]]",
-            "[[Don't forget your phone charger.|]]"
+            "[[need|need]]",
+            "[[Don't forget your phone charger.|Don't forget your phone charger.]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -484,8 +484,8 @@ export const UNIT_49_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[I have my passport and tickets.|]]",
-            "[[o1|]]"
+            "[[I have my passport and tickets.|I have my passport and tickets.]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -509,8 +509,8 @@ export const UNIT_49_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Is your luggage heavy or light?|]]",
-            "[[I am packing my suitcase|]]"
+            "[[Is your luggage heavy or light?|Is your luggage heavy or light?]]",
+            "[[I am packing my suitcase|I am packing my suitcase]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -534,8 +534,8 @@ export const UNIT_49_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[I need a universal adapter.|]]",
-            "[[packing, need|]]"
+            "[[I need a universal adapter.|I need a universal adapter.]]",
+            "[[packing, need|packing, need]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -559,8 +559,8 @@ export const UNIT_49_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Pack your swimsuit for the beach.|]]",
-            "[[forget|]]"
+            "[[Pack your swimsuit for the beach.|Pack your swimsuit for the beach.]]",
+            "[[forget|forget]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -584,8 +584,8 @@ export const UNIT_49_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Where are my sunglasses?|]]",
-            "[[o1|]]"
+            "[[Where are my sunglasses?|Where are my sunglasses?]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -731,15 +731,15 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'suitcase' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'suitcase' en inglés?",
           "options": [
-            "[[Suitcase|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Suitcase|Suitcase]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -757,15 +757,15 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'clothes' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'clothes' en inglés?",
           "options": [
-            "[[Clothes|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Clothes|Clothes]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -783,15 +783,15 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'toiletries' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'toiletries' en inglés?",
           "options": [
-            "[[Toiletries|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Toiletries|Toiletries]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -809,15 +809,15 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'camera' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'camera' en inglés?",
           "options": [
-            "[[Camera|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Camera|Cámara]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -835,15 +835,15 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'charger' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'charger' en inglés?",
           "options": [
-            "[[Charger|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Charger|Cargador]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -861,15 +861,15 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'shoes' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'shoes' en inglés?",
           "options": [
-            "[[Shoes|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Shoes|Zapatos]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -887,15 +887,15 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'map' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'map' en inglés?",
           "options": [
-            "[[Map|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Map|Mapa]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -913,15 +913,15 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'suitcase' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'suitcase' en inglés?",
           "options": [
-            "[[Suitcase|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Suitcase|Suitcase]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -939,15 +939,15 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'clothes' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'clothes' en inglés?",
           "options": [
-            "[[Clothes|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Clothes|Clothes]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -965,15 +965,15 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'toiletries' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'toiletries' en inglés?",
           "options": [
-            "[[Toiletries|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Toiletries|Toiletries]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -991,15 +991,15 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'camera' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'camera' en inglés?",
           "options": [
-            "[[Camera|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Camera|Cámara]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1017,15 +1017,15 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'charger' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'charger' en inglés?",
           "options": [
-            "[[Charger|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Charger|Cargador]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1043,15 +1043,15 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'shoes' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'shoes' en inglés?",
           "options": [
-            "[[Shoes|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Shoes|Zapatos]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1069,15 +1069,15 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'map' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'map' en inglés?",
           "options": [
-            "[[Map|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Map|Mapa]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1095,15 +1095,15 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'suitcase' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'suitcase' en inglés?",
           "options": [
-            "[[Suitcase|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Suitcase|Suitcase]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1121,15 +1121,15 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'clothes' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'clothes' en inglés?",
           "options": [
-            "[[Clothes|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Clothes|Clothes]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1147,15 +1147,15 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'toiletries' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'toiletries' en inglés?",
           "options": [
-            "[[Toiletries|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Toiletries|Toiletries]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1173,15 +1173,15 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'camera' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'camera' en inglés?",
           "options": [
-            "[[Camera|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Camera|Cámara]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1199,15 +1199,15 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'charger' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'charger' en inglés?",
           "options": [
-            "[[Charger|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Charger|Cargador]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1225,15 +1225,15 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'shoes' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'shoes' en inglés?",
           "options": [
-            "[[Shoes|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Shoes|Zapatos]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1251,15 +1251,15 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'map' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'map' en inglés?",
           "options": [
-            "[[Map|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Map|Mapa]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1277,15 +1277,15 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'suitcase' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'suitcase' en inglés?",
           "options": [
-            "[[Suitcase|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Suitcase|Suitcase]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1303,15 +1303,15 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'clothes' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'clothes' en inglés?",
           "options": [
-            "[[Clothes|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Clothes|Clothes]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1329,15 +1329,15 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'toiletries' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'toiletries' en inglés?",
           "options": [
-            "[[Toiletries|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Toiletries|Toiletries]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1355,15 +1355,15 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'camera' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'camera' en inglés?",
           "options": [
-            "[[Camera|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Camera|Cámara]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1381,15 +1381,15 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'charger' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'charger' en inglés?",
           "options": [
-            "[[Charger|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Charger|Cargador]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1407,15 +1407,15 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'shoes' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'shoes' en inglés?",
           "options": [
-            "[[Shoes|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Shoes|Zapatos]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1433,15 +1433,15 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'map' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'map' en inglés?",
           "options": [
-            "[[Map|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Map|Mapa]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1459,15 +1459,15 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'suitcase' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'suitcase' en inglés?",
           "options": [
-            "[[Suitcase|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Suitcase|Suitcase]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1489,10 +1489,10 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[suitcase|]] is here.",
+          "question": "The [[suitcase|suitcase]] is here.",
           "options": [
-            "[[suitcase|]]",
-            "[[Adapter|]]"
+            "[[suitcase|suitcase]]",
+            "[[Adapter|Adapter]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1514,10 +1514,10 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[clothes|]] is here.",
+          "question": "The [[clothes|clothes]] is here.",
           "options": [
-            "[[clothes|]]",
-            "[[o1|]]"
+            "[[clothes|clothes]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1539,10 +1539,10 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[toiletries|]] is here.",
+          "question": "The [[toiletries|toiletries]] is here.",
           "options": [
-            "[[shoes|]]",
-            "[[toiletries|]]"
+            "[[shoes|zapatos]]",
+            "[[toiletries|toiletries]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1564,10 +1564,10 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[camera|]] is here.",
+          "question": "The [[camera|camera]] is here.",
           "options": [
-            "[[I have my passport and tickets.|]]",
-            "[[camera|]]"
+            "[[I have my passport and tickets.|I have my passport and tickets.]]",
+            "[[camera|camera]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1589,10 +1589,10 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[charger|]] is here.",
+          "question": "The [[charger|charger]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[charger|]]"
+            "[[o1|opción 1]]",
+            "[[charger|charger]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1614,10 +1614,10 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[shoes|]] is here.",
+          "question": "The [[shoes|zapatos]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[shoes|]]"
+            "[[o1|opción 1]]",
+            "[[shoes|zapatos]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1639,10 +1639,10 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[map|]] is here.",
+          "question": "The [[map|map]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[map|]]"
+            "[[o1|opción 1]]",
+            "[[map|map]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

@@ -8,46 +8,46 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Relaciona la tarea doméstica:",
       "questions": [
         {
           "question": "Wash the dishes",
           "options": [
-            "[[Barrer el suelo|]]",
-            "[[Lavar los platos|]]",
-            "[[Hacer la cama|]]",
-            "[[Hacer la colada|]]"
+            "[[Barrer el suelo|Barrer el suelo]]",
+            "[[Lavar los platos|Lavar los platos]]",
+            "[[Hacer la cama|Hacer la cama]]",
+            "[[Hacer la colada|Hacer la colada]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Sweep the floor",
           "options": [
-            "[[Hacer la cama|]]",
-            "[[Lavar los platos|]]",
-            "[[Hacer la colada|]]",
-            "[[Barrer el suelo|]]"
+            "[[Hacer la cama|Hacer la cama]]",
+            "[[Lavar los platos|Lavar los platos]]",
+            "[[Hacer la colada|Hacer la colada]]",
+            "[[Barrer el suelo|Barrer el suelo]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Do the laundry",
           "options": [
-            "[[Hacer la colada|]]",
-            "[[Hacer la cama|]]",
-            "[[Barrer el suelo|]]",
-            "[[Lavar los platos|]]"
+            "[[Hacer la colada|Hacer la colada]]",
+            "[[Hacer la cama|Hacer la cama]]",
+            "[[Barrer el suelo|Barrer el suelo]]",
+            "[[Lavar los platos|Lavar los platos]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Make the bed",
           "options": [
-            "[[Lavar los platos|]]",
-            "[[Hacer la colada|]]",
-            "[[Barrer el suelo|]]",
-            "[[Hacer la cama|]]"
+            "[[Lavar los platos|Lavar los platos]]",
+            "[[Hacer la colada|Hacer la colada]]",
+            "[[Barrer el suelo|Barrer el suelo]]",
+            "[[Hacer la cama|Hacer la cama]]"
           ],
           "correctAnswer": 3
         }
@@ -63,15 +63,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'Regar las plantas'?",
       "questions": [
         {
           "question": "¿Cómo se dice 'Regar las plantas'?",
           "options": [
-            "[[Water the plants|]]",
-            "[[Clean the plants|]]",
-            "[[Feed the plants|]]"
+            "[[Water the plants|Water the plants]]",
+            "[[Clean the plants|Clean the plants]]",
+            "[[Feed the plants|Feed the plants]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -88,16 +88,16 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con el verbo adecuado:",
       "questions": [
         {
           "question": "Please ________ the bathroom. It's dirty.",
           "options": [
-            "[[o1|]]",
-            "[[o1|]]",
-            "[[clean|]]",
-            "[[o1|]]"
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]",
+            "[[clean|clean]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 2
         }
@@ -119,8 +119,8 @@ export const UNIT_38_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'Barrer el suelo'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -143,8 +143,8 @@ export const UNIT_38_EXERCISES: Exercise[] = [
         {
           "question": "Chores",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -160,16 +160,16 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con 'has to' o 'have to':",
       "questions": [
         {
           "question": "My mother ________ cook dinner today.",
           "options": [
-            "[[o1|]]",
-            "[[o1|]]",
-            "[[has to|]]",
-            "[[o1|]]"
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]",
+            "[[has to|has to]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 2
         }
@@ -190,7 +190,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
         {
           "question": "You must clean your room",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -212,8 +212,8 @@ export const UNIT_38_EXERCISES: Exercise[] = [
         {
           "question": "¿'Must' es más fuerte que 'have to'?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -235,7 +235,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
         {
           "question": "Do you have to do the laundry ?",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -250,16 +250,16 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con 'does' o 'do':",
       "questions": [
         {
           "question": "________ he have to water the plants?",
           "options": [
-            "[[Hacer la colada|]]",
-            "[[o1|]]",
-            "[[Does|]]",
-            "[[o1|]]"
+            "[[Hacer la colada|Hacer la colada]]",
+            "[[o1|opción 1]]",
+            "[[Does|Does]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 2
         }
@@ -281,8 +281,8 @@ export const UNIT_38_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'Ella no tiene que cocinar'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -305,8 +305,8 @@ export const UNIT_38_EXERCISES: Exercise[] = [
         {
           "question": "¿'Don't have to' significa que algo está prohibido?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -323,15 +323,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "Tom's sister has to water the plants. She does this every morning. Tom helps her sometimes. Their mother tells them to take care of the garden. The plants are in the backyard. They like to watch the plants grow.",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Quién tiene que regar las plantas?",
       "questions": [
         {
           "question": "Tom's sister has to water the plants. She does this every morning. Tom helps her sometimes. Their mother tells them to take care of the garden. The plants are in the backyard. They like to watch the plants grow.",
           "options": [
-            "[[Tom|]]",
-            "[[La hermana|]]",
-            "[[La madre|]]"
+            "[[Tom|Tom]]",
+            "[[La hermana|La hermana]]",
+            "[[La madre|La madre]]"
           ],
           "correctAnswer": 1,
           "explanation": ""
@@ -349,15 +349,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'can I' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'can I' en inglés?",
           "options": [
-            "[[Can I|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Can I|Can I]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -375,15 +375,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'may I' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'may I' en inglés?",
           "options": [
-            "[[May I|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[May I|May I]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -401,15 +401,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'borrow' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'borrow' en inglés?",
           "options": [
-            "[[Borrow|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Borrow|Borrow]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -427,15 +427,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'help' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'help' en inglés?",
           "options": [
-            "[[Help|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Help|Help]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -453,15 +453,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'open' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'open' en inglés?",
           "options": [
-            "[[Open|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Open|Abierto]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -479,15 +479,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'close' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'close' en inglés?",
           "options": [
-            "[[Close|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Close|Close]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -505,15 +505,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'come in' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'come in' en inglés?",
           "options": [
-            "[[Come in|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Come in|Come in]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -531,15 +531,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'can I' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'can I' en inglés?",
           "options": [
-            "[[Can I|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Can I|Can I]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -557,15 +557,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'may I' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'may I' en inglés?",
           "options": [
-            "[[May I|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[May I|May I]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -583,15 +583,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'borrow' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'borrow' en inglés?",
           "options": [
-            "[[Borrow|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Borrow|Borrow]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -609,15 +609,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'help' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'help' en inglés?",
           "options": [
-            "[[Help|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Help|Help]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -635,15 +635,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'open' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'open' en inglés?",
           "options": [
-            "[[Open|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Open|Abierto]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -661,15 +661,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'close' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'close' en inglés?",
           "options": [
-            "[[Close|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Close|Close]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -687,15 +687,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'come in' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'come in' en inglés?",
           "options": [
-            "[[Come in|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Come in|Come in]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -713,15 +713,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'can I' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'can I' en inglés?",
           "options": [
-            "[[Can I|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Can I|Can I]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -739,15 +739,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'may I' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'may I' en inglés?",
           "options": [
-            "[[May I|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[May I|May I]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -765,15 +765,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'borrow' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'borrow' en inglés?",
           "options": [
-            "[[Borrow|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Borrow|Borrow]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -791,15 +791,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'help' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'help' en inglés?",
           "options": [
-            "[[Help|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Help|Help]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -817,15 +817,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'open' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'open' en inglés?",
           "options": [
-            "[[Open|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Open|Abierto]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -843,15 +843,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'close' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'close' en inglés?",
           "options": [
-            "[[Close|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Close|Close]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -869,15 +869,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'come in' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'come in' en inglés?",
           "options": [
-            "[[Come in|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Come in|Come in]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -895,15 +895,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'can I' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'can I' en inglés?",
           "options": [
-            "[[Can I|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Can I|Can I]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -921,15 +921,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'may I' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'may I' en inglés?",
           "options": [
-            "[[May I|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[May I|May I]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -947,15 +947,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'borrow' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'borrow' en inglés?",
           "options": [
-            "[[Borrow|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Borrow|Borrow]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -973,15 +973,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'help' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'help' en inglés?",
           "options": [
-            "[[Help|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Help|Help]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -999,15 +999,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'open' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'open' en inglés?",
           "options": [
-            "[[Open|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Open|Abierto]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1025,15 +1025,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'close' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'close' en inglés?",
           "options": [
-            "[[Close|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Close|Close]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1051,15 +1051,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'come in' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'come in' en inglés?",
           "options": [
-            "[[Come in|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Come in|Come in]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1077,15 +1077,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'can I' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'can I' en inglés?",
           "options": [
-            "[[Can I|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Can I|Can I]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1103,15 +1103,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'may I' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'may I' en inglés?",
           "options": [
-            "[[May I|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[May I|May I]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1129,15 +1129,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'borrow' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'borrow' en inglés?",
           "options": [
-            "[[Borrow|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Borrow|Borrow]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1155,15 +1155,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'help' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'help' en inglés?",
           "options": [
-            "[[Help|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Help|Help]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1181,15 +1181,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'open' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'open' en inglés?",
           "options": [
-            "[[Open|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Open|Abierto]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1207,15 +1207,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'close' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'close' en inglés?",
           "options": [
-            "[[Close|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Close|Close]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1233,15 +1233,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'come in' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'come in' en inglés?",
           "options": [
-            "[[Come in|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Come in|Come in]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1259,15 +1259,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'can I' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'can I' en inglés?",
           "options": [
-            "[[Can I|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Can I|Can I]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1285,15 +1285,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'may I' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'may I' en inglés?",
           "options": [
-            "[[May I|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[May I|May I]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1311,15 +1311,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'borrow' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'borrow' en inglés?",
           "options": [
-            "[[Borrow|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Borrow|Borrow]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1337,15 +1337,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'help' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'help' en inglés?",
           "options": [
-            "[[Help|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Help|Help]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1363,15 +1363,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'open' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'open' en inglés?",
           "options": [
-            "[[Open|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Open|Abierto]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1389,15 +1389,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'close' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'close' en inglés?",
           "options": [
-            "[[Close|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Close|Close]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1415,15 +1415,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'come in' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'come in' en inglés?",
           "options": [
-            "[[Come in|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Come in|Come in]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1441,15 +1441,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'can I' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'can I' en inglés?",
           "options": [
-            "[[Can I|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Can I|Can I]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1467,15 +1467,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'may I' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'may I' en inglés?",
           "options": [
-            "[[May I|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[May I|May I]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1493,15 +1493,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'borrow' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'borrow' en inglés?",
           "options": [
-            "[[Borrow|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Borrow|Borrow]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1519,15 +1519,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'help' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'help' en inglés?",
           "options": [
-            "[[Help|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Help|Help]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1545,15 +1545,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'open' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'open' en inglés?",
           "options": [
-            "[[Open|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Open|Abierto]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1575,10 +1575,10 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[can I|]] is here.",
+          "question": "The [[can I|can I]] is here.",
           "options": [
-            "[[can I|]]",
-            "[[o1|]]"
+            "[[can I|can I]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1600,10 +1600,10 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[may I|]] is here.",
+          "question": "The [[may I|may I]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[may I|]]"
+            "[[o1|opción 1]]",
+            "[[may I|may I]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1625,10 +1625,10 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[borrow|]] is here.",
+          "question": "The [[borrow|borrow]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[borrow|]]"
+            "[[o1|opción 1]]",
+            "[[borrow|borrow]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1650,10 +1650,10 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[help|]] is here.",
+          "question": "The [[help|help]] is here.",
           "options": [
-            "[[can I|]]",
-            "[[help|]]"
+            "[[can I|can I]]",
+            "[[help|help]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1675,10 +1675,10 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[open|]] is here.",
+          "question": "The [[open|open]] is here.",
           "options": [
-            "[[open|]]",
-            "[[o1|]]"
+            "[[open|open]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1700,10 +1700,10 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[close|]] is here.",
+          "question": "The [[close|close]] is here.",
           "options": [
-            "[[close|]]",
-            "[[o1|]]"
+            "[[close|close]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1725,10 +1725,10 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[come in|]] is here.",
+          "question": "The [[come in|come in]] is here.",
           "options": [
-            "[[come in|]]",
-            "[[o1|]]"
+            "[[come in|come in]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

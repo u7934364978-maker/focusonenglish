@@ -9,15 +9,15 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Dónde guardas la leche?",
       "questions": [
         {
           "question": "¿Dónde guardas la leche?",
           "options": [
-            "[[In the fridge|]]",
-            "[[In the oven|]]",
-            "[[In the sink|]]"
+            "[[In the fridge|En la nevera]]",
+            "[[In the oven|In the oven]]",
+            "[[In the sink|In the sink]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -34,46 +34,46 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une los electrodomésticos:",
       "questions": [
         {
           "question": "Oven",
           "options": [
-            "[[Horno|]]",
-            "[[Microondas|]]",
-            "[[Lavavajillas|]]",
-            "[[Fregadero|]]"
+            "[[Horno|Horno]]",
+            "[[Microondas|Microondas]]",
+            "[[Lavavajillas|Lavavajillas]]",
+            "[[Fregadero|Fregadero]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Microwave",
           "options": [
-            "[[Microondas|]]",
-            "[[Horno|]]",
-            "[[Fregadero|]]",
-            "[[Lavavajillas|]]"
+            "[[Microondas|Microondas]]",
+            "[[Horno|Horno]]",
+            "[[Fregadero|Fregadero]]",
+            "[[Lavavajillas|Lavavajillas]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Sink",
           "options": [
-            "[[Horno|]]",
-            "[[Microondas|]]",
-            "[[Lavavajillas|]]",
-            "[[Fregadero|]]"
+            "[[Horno|Horno]]",
+            "[[Microondas|Microondas]]",
+            "[[Lavavajillas|Lavavajillas]]",
+            "[[Fregadero|Fregadero]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Dishwasher",
           "options": [
-            "[[Horno|]]",
-            "[[Fregadero|]]",
-            "[[Microondas|]]",
-            "[[Lavavajillas|]]"
+            "[[Horno|Horno]]",
+            "[[Fregadero|Fregadero]]",
+            "[[Microondas|Microondas]]",
+            "[[Lavavajillas|Lavavajillas]]"
           ],
           "correctAnswer": 3
         }
@@ -95,8 +95,8 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "Escribe 'encimera' en inglés:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -113,15 +113,15 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Dónde pones los platos sucios?",
       "questions": [
         {
           "question": "¿Dónde pones los platos sucios?",
           "options": [
-            "[[In the sink|]]",
-            "[[In the cupboard|]]",
-            "[[In the microwave|]]"
+            "[[In the sink|In the sink]]",
+            "[[In the cupboard|In the cupboard]]",
+            "[[In the microwave|In the microwave]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -138,16 +138,16 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa: 'El café está EN el armario'",
       "questions": [
         {
           "question": "The coffee is ________ the cupboard.",
           "options": [
-            "[[Estante|]]",
-            "[[in|]]",
-            "[[o1|]]",
-            "[[o1|]]"
+            "[[Estante|Estante]]",
+            "[[in|in]]",
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 1
         }
@@ -168,7 +168,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "The cup is on the counter",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -184,15 +184,15 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Qué significa 'under the sink'?",
       "questions": [
         {
           "question": "¿Qué significa 'under the sink'?",
           "options": [
-            "[[Debajo del fregadero|]]",
-            "[[Encima del fregadero|]]",
-            "[[Detrás del fregadero|]]"
+            "[[Debajo del fregadero|Debajo del fregadero]]",
+            "[[Encima del fregadero|Encima del fregadero]]",
+            "[[Detrás del fregadero|Detrás del fregadero]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -209,16 +209,16 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa: 'La mesa está AL LADO de la ventana'",
       "questions": [
         {
           "question": "The table is ________ ________ the window.",
           "options": [
-            "[[o1|]]",
-            "[[next to|]]",
-            "[[waiter|]]",
-            "[[Lavavajillas|]]"
+            "[[o1|opción 1]]",
+            "[[next to|al lado de]]",
+            "[[waiter|waiter]]",
+            "[[Lavavajillas|Lavavajillas]]"
           ],
           "correctAnswer": 1
         }
@@ -233,46 +233,46 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une los muebles de cocina:",
       "questions": [
         {
           "question": "Cupboard",
           "options": [
-            "[[Cubo de basura|]]",
-            "[[Cajón|]]",
-            "[[Estante|]]",
-            "[[Armario|]]"
+            "[[Cubo de basura|Cubo de basura]]",
+            "[[Cajón|Cajón]]",
+            "[[Estante|Estante]]",
+            "[[Wardrobe|Armario]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Shelf",
           "options": [
-            "[[Cajón|]]",
-            "[[Armario|]]",
-            "[[Cubo de basura|]]",
-            "[[Estante|]]"
+            "[[Cajón|Cajón]]",
+            "[[Wardrobe|Armario]]",
+            "[[Cubo de basura|Cubo de basura]]",
+            "[[Estante|Estante]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Drawer",
           "options": [
-            "[[Cubo de basura|]]",
-            "[[Armario|]]",
-            "[[Estante|]]",
-            "[[Cajón|]]"
+            "[[Cubo de basura|Cubo de basura]]",
+            "[[Wardrobe|Armario]]",
+            "[[Estante|Estante]]",
+            "[[Cajón|Cajón]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Bin",
           "options": [
-            "[[Cubo de basura|]]",
-            "[[Armario|]]",
-            "[[Estante|]]",
-            "[[Cajón|]]"
+            "[[Cubo de basura|Cubo de basura]]",
+            "[[Wardrobe|Armario]]",
+            "[[Estante|Estante]]",
+            "[[Cajón|Cajón]]"
           ],
           "correctAnswer": 0
         }
@@ -288,15 +288,15 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Dónde guardas los cubiertos?",
       "questions": [
         {
           "question": "¿Dónde guardas los cubiertos?",
           "options": [
-            "[[In a drawer|]]",
-            "[[In the oven|]]",
-            "[[On a shelf|]]"
+            "[[In a drawer|In a drawer]]",
+            "[[In the oven|In the oven]]",
+            "[[On a shelf|On a shelf]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -320,8 +320,8 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "Escribe 'estante' en inglés:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -344,8 +344,8 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "'Cupboard' se usa para guardar platos y vasos.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -361,16 +361,16 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "topic": "General",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con preposiciones:",
       "questions": [
         {
           "question": "The milk is ________ the fridge and the cups are ________ the shelf.",
           "options": [
-            "[[Put it in the oven.|]]",
-            "[[water|]]",
-            "[[o1|]]",
-            "[[in, on|]]"
+            "[[Put it in the oven.|Put it in the oven.]]",
+            "[[water|water]]",
+            "[[o1|opción 1]]",
+            "[[in, on|in, on]]"
           ],
           "correctAnswer": 3
         }
@@ -392,8 +392,8 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'El microondas está sobre la encimera'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -410,15 +410,15 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Dónde cocinas una pizza?",
       "questions": [
         {
           "question": "¿Dónde cocinas una pizza?",
           "options": [
-            "[[In the oven|]]",
-            "[[In the sink|]]",
-            "[[In the drawer|]]"
+            "[[In the oven|In the oven]]",
+            "[[In the sink|In the sink]]",
+            "[[In the drawer|In the drawer]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -442,8 +442,8 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Horno|]]",
-            "[[The milk is in the fridge.|]]"
+            "[[Horno|Horno]]",
+            "[[The milk is in the fridge.|The milk is in the fridge.]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -467,8 +467,8 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Put it in the oven.|]]",
-            "[[o1|]]"
+            "[[Put it in the oven.|Put it in the oven.]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -492,8 +492,8 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Cubo de basura|]]",
-            "[[The cups are on the shelf.|]]"
+            "[[Cubo de basura|Cubo de basura]]",
+            "[[The cups are on the shelf.|The cups are on the shelf.]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -517,8 +517,8 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|]]",
-            "[[Where is the microwave?|]]"
+            "[[o1|opción 1]]",
+            "[[Where is the microwave?|Where is the microwave?]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -542,8 +542,8 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Wash the dishes in the sink.|]]",
-            "[[o1|]]"
+            "[[Wash the dishes in the sink.|Wash the dishes in the sink.]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -567,8 +567,8 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[The forks are in the drawer.|]]",
-            "[[o1|]]"
+            "[[The forks are in the drawer.|The forks are in the drawer.]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -592,8 +592,8 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[I need a clean cupboard.|]]",
-            "[[Where is the microwave?|]]"
+            "[[I need a clean cupboard.|I need a clean cupboard.]]",
+            "[[Where is the microwave?|Where is the microwave?]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -739,15 +739,15 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'menu' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'menu' en inglés?",
           "options": [
-            "[[Menu|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Menu|Menú]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -765,15 +765,15 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'waiter' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'waiter' en inglés?",
           "options": [
-            "[[Waiter|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Waiter|Camarero]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -791,15 +791,15 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'order' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'order' en inglés?",
           "options": [
-            "[[Order|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Order|Pedir]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -817,15 +817,15 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'bill' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'bill' en inglés?",
           "options": [
-            "[[Bill|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Bill|Cuenta]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -843,15 +843,15 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'water' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'water' en inglés?",
           "options": [
-            "[[Water|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Water|Agua]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -869,15 +869,15 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'food' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'food' en inglés?",
           "options": [
-            "[[Food|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Food|Food]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -895,15 +895,15 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'table' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'table' en inglés?",
           "options": [
-            "[[Table|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Table|Table]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -921,15 +921,15 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'menu' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'menu' en inglés?",
           "options": [
-            "[[Menu|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Menu|Menú]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -947,15 +947,15 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'waiter' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'waiter' en inglés?",
           "options": [
-            "[[Waiter|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Waiter|Camarero]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -973,15 +973,15 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'order' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'order' en inglés?",
           "options": [
-            "[[Order|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Order|Pedir]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -999,15 +999,15 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'bill' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'bill' en inglés?",
           "options": [
-            "[[Bill|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Bill|Cuenta]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1025,15 +1025,15 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'water' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'water' en inglés?",
           "options": [
-            "[[Water|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Water|Agua]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1051,15 +1051,15 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'food' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'food' en inglés?",
           "options": [
-            "[[Food|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Food|Food]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1077,15 +1077,15 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'table' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'table' en inglés?",
           "options": [
-            "[[Table|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Table|Table]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1103,15 +1103,15 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'menu' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'menu' en inglés?",
           "options": [
-            "[[Menu|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Menu|Menú]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1129,15 +1129,15 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'waiter' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'waiter' en inglés?",
           "options": [
-            "[[Waiter|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Waiter|Camarero]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1155,15 +1155,15 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'order' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'order' en inglés?",
           "options": [
-            "[[Order|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Order|Pedir]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1181,15 +1181,15 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'bill' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'bill' en inglés?",
           "options": [
-            "[[Bill|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Bill|Cuenta]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1207,15 +1207,15 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'water' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'water' en inglés?",
           "options": [
-            "[[Water|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Water|Agua]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1233,15 +1233,15 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'food' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'food' en inglés?",
           "options": [
-            "[[Food|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Food|Food]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1259,15 +1259,15 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'table' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'table' en inglés?",
           "options": [
-            "[[Table|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Table|Table]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1285,15 +1285,15 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'menu' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'menu' en inglés?",
           "options": [
-            "[[Menu|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Menu|Menú]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1311,15 +1311,15 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'waiter' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'waiter' en inglés?",
           "options": [
-            "[[Waiter|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Waiter|Camarero]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1337,15 +1337,15 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'order' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'order' en inglés?",
           "options": [
-            "[[Order|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Order|Pedir]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1363,15 +1363,15 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'bill' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'bill' en inglés?",
           "options": [
-            "[[Bill|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Bill|Cuenta]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1389,15 +1389,15 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'water' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'water' en inglés?",
           "options": [
-            "[[Water|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Water|Agua]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1415,15 +1415,15 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'food' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'food' en inglés?",
           "options": [
-            "[[Food|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Food|Food]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1441,15 +1441,15 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'table' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'table' en inglés?",
           "options": [
-            "[[Table|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Table|Table]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1467,15 +1467,15 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'menu' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'menu' en inglés?",
           "options": [
-            "[[Menu|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Menu|Menú]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1493,15 +1493,15 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'waiter' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'waiter' en inglés?",
           "options": [
-            "[[Waiter|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Waiter|Camarero]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1523,10 +1523,10 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[menu|]] is here.",
+          "question": "The [[menu|menu]] is here.",
           "options": [
-            "[[bill|]]",
-            "[[menu|]]"
+            "[[bill|bill]]",
+            "[[menu|menu]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1548,10 +1548,10 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[waiter|]] is here.",
+          "question": "The [[waiter|waiter]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[waiter|]]"
+            "[[o1|opción 1]]",
+            "[[waiter|waiter]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1573,10 +1573,10 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[order|]] is here.",
+          "question": "The [[order|order]] is here.",
           "options": [
-            "[[order|]]",
-            "[[Fregadero|]]"
+            "[[order|order]]",
+            "[[Fregadero|Fregadero]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1598,10 +1598,10 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[bill|]] is here.",
+          "question": "The [[bill|bill]] is here.",
           "options": [
-            "[[The cups are on the shelf.|]]",
-            "[[bill|]]"
+            "[[The cups are on the shelf.|The cups are on the shelf.]]",
+            "[[bill|bill]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1623,10 +1623,10 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[water|]] is here.",
+          "question": "The [[water|water]] is here.",
           "options": [
-            "[[water|]]",
-            "[[Lavavajillas|]]"
+            "[[water|water]]",
+            "[[Lavavajillas|Lavavajillas]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1648,10 +1648,10 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[food|]] is here.",
+          "question": "The [[food|food]] is here.",
           "options": [
-            "[[food|]]",
-            "[[The cups are on the shelf.|]]"
+            "[[food|food]]",
+            "[[The cups are on the shelf.|The cups are on the shelf.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1673,10 +1673,10 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[table|]] is here.",
+          "question": "The [[table|table]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[table|]]"
+            "[[o1|opción 1]]",
+            "[[table|table]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

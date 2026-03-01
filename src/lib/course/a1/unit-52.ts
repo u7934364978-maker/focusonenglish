@@ -9,15 +9,15 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cuál de estos es un sustantivo contable?",
       "questions": [
         {
           "question": "¿Cuál de estos es un sustantivo contable?",
           "options": [
-            "[[Apple|]]",
-            "[[Water|]]",
-            "[[Rice|]]"
+            "[[Apple|Apple]]",
+            "[[Water|Agua]]",
+            "[[Rice|Arroz]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -34,16 +34,16 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Usa 'a' o 'an':",
       "questions": [
         {
           "question": "I have ________ orange and ________ banana.",
           "options": [
-            "[[o1|]]",
-            "[[o1|]]",
-            "[[o1|]]",
-            "[[an, a|]]"
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]",
+            "[[an, a|an, a]]"
           ],
           "correctAnswer": 3
         }
@@ -64,7 +64,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
         {
           "question": "There are three eggs",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -79,36 +79,36 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une el singular con el plural:",
       "questions": [
         {
           "question": "One apple",
           "options": [
-            "[[Two potatoes|]]",
-            "[[Two eggs|]]",
-            "[[Two apples|]]",
-            "[[o1|]]"
+            "[[Two potatoes|Two potatoes]]",
+            "[[Two eggs|Two eggs]]",
+            "[[Two apples|Two apples]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "One egg",
           "options": [
-            "[[Two apples|]]",
-            "[[Two potatoes|]]",
-            "[[o1|]]",
-            "[[Two eggs|]]"
+            "[[Two apples|Two apples]]",
+            "[[Two potatoes|Two potatoes]]",
+            "[[o1|opción 1]]",
+            "[[Two eggs|Two eggs]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "One potato",
           "options": [
-            "[[Two potatoes|]]",
-            "[[o1|]]",
-            "[[Two apples|]]",
-            "[[Two eggs|]]"
+            "[[Two potatoes|Two potatoes]]",
+            "[[o1|opción 1]]",
+            "[[Two apples|Two apples]]",
+            "[[Two eggs|Two eggs]]"
           ],
           "correctAnswer": 0
         }
@@ -124,15 +124,15 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cuál de estos NO se puede contar?",
       "questions": [
         {
           "question": "¿Cuál de estos NO se puede contar?",
           "options": [
-            "[[Milk|]]",
-            "[[Carrot|]]",
-            "[[Tomato|]]"
+            "[[Milk|Leche]]",
+            "[[Carrot|Carrot]]",
+            "[[Tomato|Tomato]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -149,16 +149,16 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Usa 'some' para sustantivos incontables:",
       "questions": [
         {
           "question": "I want ________ water and ________ bread.",
           "options": [
-            "[[o1|]]",
-            "[[o1|]]",
-            "[[some, some|]]",
-            "[[o1|]]"
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]",
+            "[[some, some|some, some]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 2
         }
@@ -180,8 +180,8 @@ export const UNIT_52_EXERCISES: Exercise[] = [
         {
           "question": "¿Es correcto decir 'two waters' en inglés general?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -204,8 +204,8 @@ export const UNIT_52_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'Tengo algo de leche'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -228,8 +228,8 @@ export const UNIT_52_EXERCISES: Exercise[] = [
         {
           "question": "Clasifica los alimentos:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -246,15 +246,15 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "Selecciona la frase correcta:",
       "questions": [
         {
           "question": "Selecciona la frase correcta:",
           "options": [
-            "[[I have an apple.|]]",
-            "[[I have a milk.|]]",
-            "[[I have some orange.|]]"
+            "[[I have an apple.|I have an apple.]]",
+            "[[I have a milk.|I have a milk.]]",
+            "[[I have some orange.|I have some orange.]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -277,7 +277,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
         {
           "question": "We want some bread",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -299,8 +299,8 @@ export const UNIT_52_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'Necesito una naranja'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -316,16 +316,16 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa el texto:",
       "questions": [
         {
           "question": "Please buy ________ milk and ________ apples at the supermarket.",
           "options": [
-            "[[o1|]]",
-            "[[o1|]]",
-            "[[She eats an orange.|]]",
-            "[[some, some|]]"
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]",
+            "[[She eats an orange.|She eats an orange.]]",
+            "[[some, some|some, some]]"
           ],
           "correctAnswer": 3
         }
@@ -347,8 +347,8 @@ export const UNIT_52_EXERCISES: Exercise[] = [
         {
           "question": "La palabra 'Rice' (arroz) es contable.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -371,8 +371,8 @@ export const UNIT_52_EXERCISES: Exercise[] = [
         {
           "question": "Escribe una frase diciendo que tienes una manzana:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -395,8 +395,8 @@ export const UNIT_52_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[I want an apple.|]]",
-            "[[o1|]]"
+            "[[I want an apple.|I want an apple.]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -420,8 +420,8 @@ export const UNIT_52_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[I have some milk.|]]",
-            "[[o1|]]"
+            "[[I have some milk.|I have some milk.]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -445,8 +445,8 @@ export const UNIT_52_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[some, some|]]",
-            "[[There is some bread.|]]"
+            "[[some, some|some, some]]",
+            "[[There is some bread.|There is some bread.]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -470,8 +470,8 @@ export const UNIT_52_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Two apples|]]",
-            "[[She eats an orange.|]]"
+            "[[Two apples|Two apples]]",
+            "[[She eats an orange.|She eats an orange.]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -495,8 +495,8 @@ export const UNIT_52_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Do you want some water?|]]",
-            "[[o1|]]"
+            "[[Do you want some water?|Do you want some water?]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -520,8 +520,8 @@ export const UNIT_52_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Two apples|]]",
-            "[[We have some rice.|]]"
+            "[[Two apples|Two apples]]",
+            "[[We have some rice.|We have some rice.]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -545,8 +545,8 @@ export const UNIT_52_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[They need some sugar.|]]",
-            "[[o1|]]"
+            "[[They need some sugar.|They need some sugar.]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -692,15 +692,15 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'sugar' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'sugar' en inglés?",
           "options": [
-            "[[Sugar|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Sugar|Azúcar]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -718,15 +718,15 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'salt' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'salt' en inglés?",
           "options": [
-            "[[Salt|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Salt|Sal]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -744,15 +744,15 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'water' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'water' en inglés?",
           "options": [
-            "[[Water|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Water|Agua]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -770,15 +770,15 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'apple' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'apple' en inglés?",
           "options": [
-            "[[Apple|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Apple|Apple]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -796,15 +796,15 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'banana' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'banana' en inglés?",
           "options": [
-            "[[Banana|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Banana|Banana]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -822,15 +822,15 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'some' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'some' en inglés?",
           "options": [
-            "[[Some|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Some|Some]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -848,15 +848,15 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'any' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'any' en inglés?",
           "options": [
-            "[[Any|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Any|Any]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -874,15 +874,15 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'sugar' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'sugar' en inglés?",
           "options": [
-            "[[Sugar|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Sugar|Azúcar]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -900,15 +900,15 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'salt' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'salt' en inglés?",
           "options": [
-            "[[Salt|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Salt|Sal]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -926,15 +926,15 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'water' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'water' en inglés?",
           "options": [
-            "[[Water|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Water|Agua]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -952,15 +952,15 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'apple' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'apple' en inglés?",
           "options": [
-            "[[Apple|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Apple|Apple]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -978,15 +978,15 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'banana' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'banana' en inglés?",
           "options": [
-            "[[Banana|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Banana|Banana]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1004,15 +1004,15 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'some' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'some' en inglés?",
           "options": [
-            "[[Some|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Some|Some]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1030,15 +1030,15 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'any' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'any' en inglés?",
           "options": [
-            "[[Any|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Any|Any]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1056,15 +1056,15 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'sugar' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'sugar' en inglés?",
           "options": [
-            "[[Sugar|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Sugar|Azúcar]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1082,15 +1082,15 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'salt' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'salt' en inglés?",
           "options": [
-            "[[Salt|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Salt|Sal]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1108,15 +1108,15 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'water' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'water' en inglés?",
           "options": [
-            "[[Water|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Water|Agua]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1134,15 +1134,15 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'apple' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'apple' en inglés?",
           "options": [
-            "[[Apple|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Apple|Apple]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1160,15 +1160,15 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'banana' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'banana' en inglés?",
           "options": [
-            "[[Banana|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Banana|Banana]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1186,15 +1186,15 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'some' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'some' en inglés?",
           "options": [
-            "[[Some|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Some|Some]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1212,15 +1212,15 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'any' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'any' en inglés?",
           "options": [
-            "[[Any|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Any|Any]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1238,15 +1238,15 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'sugar' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'sugar' en inglés?",
           "options": [
-            "[[Sugar|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Sugar|Azúcar]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1264,15 +1264,15 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'salt' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'salt' en inglés?",
           "options": [
-            "[[Salt|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Salt|Sal]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1290,15 +1290,15 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'water' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'water' en inglés?",
           "options": [
-            "[[Water|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Water|Agua]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1316,15 +1316,15 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'apple' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'apple' en inglés?",
           "options": [
-            "[[Apple|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Apple|Apple]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1342,15 +1342,15 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'banana' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'banana' en inglés?",
           "options": [
-            "[[Banana|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Banana|Banana]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1368,15 +1368,15 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'some' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'some' en inglés?",
           "options": [
-            "[[Some|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Some|Some]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1394,15 +1394,15 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'any' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'any' en inglés?",
           "options": [
-            "[[Any|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Any|Any]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1420,15 +1420,15 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'sugar' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'sugar' en inglés?",
           "options": [
-            "[[Sugar|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Sugar|Azúcar]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1446,15 +1446,15 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'salt' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'salt' en inglés?",
           "options": [
-            "[[Salt|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Salt|Sal]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1476,10 +1476,10 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[sugar|]] is here.",
+          "question": "The [[sugar|sugar]] is here.",
           "options": [
-            "[[some, some|]]",
-            "[[sugar|]]"
+            "[[some, some|some, some]]",
+            "[[sugar|sugar]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1501,10 +1501,10 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[salt|]] is here.",
+          "question": "The [[salt|salt]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[salt|]]"
+            "[[o1|opción 1]]",
+            "[[salt|salt]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1526,10 +1526,10 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[water|]] is here.",
+          "question": "The [[water|water]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[water|]]"
+            "[[o1|opción 1]]",
+            "[[water|water]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1551,10 +1551,10 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[apple|]] is here.",
+          "question": "The [[apple|apple]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[apple|]]"
+            "[[o1|opción 1]]",
+            "[[apple|apple]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1576,10 +1576,10 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[banana|]] is here.",
+          "question": "The [[banana|banana]] is here.",
           "options": [
-            "[[banana|]]",
-            "[[water|]]"
+            "[[banana|banana]]",
+            "[[water|water]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1601,10 +1601,10 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[some|]] is here.",
+          "question": "The [[some|some]] is here.",
           "options": [
-            "[[some|]]",
-            "[[o1|]]"
+            "[[some|some]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1626,10 +1626,10 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[any|]] is here.",
+          "question": "The [[any|alguno/a]] is here.",
           "options": [
-            "[[any|]]",
-            "[[water|]]"
+            "[[any|alguno/a]]",
+            "[[water|water]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

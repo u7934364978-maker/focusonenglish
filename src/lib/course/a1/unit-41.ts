@@ -8,46 +8,46 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Empareja el vocabulario del aeropuerto:",
       "questions": [
         {
           "question": "Passport",
           "options": [
-            "[[Pasaporte|]]",
-            "[[Puerta de embarque|]]",
-            "[[Equipaje|]]",
-            "[[Tarjeta de embarque|]]"
+            "[[Pasaporte|Pasaporte]]",
+            "[[Puerta de embarque|Puerta de embarque]]",
+            "[[Equipaje|Equipaje]]",
+            "[[Tarjeta de embarque|Tarjeta de embarque]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Boarding pass",
           "options": [
-            "[[Equipaje|]]",
-            "[[Tarjeta de embarque|]]",
-            "[[Pasaporte|]]",
-            "[[Puerta de embarque|]]"
+            "[[Equipaje|Equipaje]]",
+            "[[Tarjeta de embarque|Tarjeta de embarque]]",
+            "[[Pasaporte|Pasaporte]]",
+            "[[Puerta de embarque|Puerta de embarque]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Gate",
           "options": [
-            "[[Pasaporte|]]",
-            "[[Equipaje|]]",
-            "[[Puerta de embarque|]]",
-            "[[Tarjeta de embarque|]]"
+            "[[Pasaporte|Pasaporte]]",
+            "[[Equipaje|Equipaje]]",
+            "[[Puerta de embarque|Puerta de embarque]]",
+            "[[Tarjeta de embarque|Tarjeta de embarque]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Luggage",
           "options": [
-            "[[Tarjeta de embarque|]]",
-            "[[Pasaporte|]]",
-            "[[Puerta de embarque|]]",
-            "[[Equipaje|]]"
+            "[[Tarjeta de embarque|Tarjeta de embarque]]",
+            "[[Pasaporte|Pasaporte]]",
+            "[[Puerta de embarque|Puerta de embarque]]",
+            "[[Equipaje|Equipaje]]"
           ],
           "correctAnswer": 3
         }
@@ -63,15 +63,15 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Dónde entregas tus maletas?",
       "questions": [
         {
           "question": "¿Dónde entregas tus maletas?",
           "options": [
-            "[[Check-in desk|]]",
-            "[[Toilet|]]",
-            "[[Cafe|]]"
+            "[[Check-in desk|Check-in desk]]",
+            "[[Toilet|Toilet]]",
+            "[[Cafe|Cafe]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -88,16 +88,16 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa la palabra:",
       "questions": [
         {
           "question": "I have a ticket for my ________. (vuelo)",
           "options": [
-            "[[flight|]]",
-            "[[Is this your luggage?|]]",
-            "[[at|]]",
-            "[[o1|]]"
+            "[[flight|flight]]",
+            "[[Is this your luggage?|Is this your luggage?]]",
+            "[[at|at]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0
         }
@@ -119,8 +119,8 @@ export const UNIT_41_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'Tarjeta de embarque'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -143,8 +143,8 @@ export const UNIT_41_EXERCISES: Exercise[] = [
         {
           "question": "Passenger",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -160,16 +160,16 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con la preposición correcta (at/in):",
       "questions": [
         {
           "question": "I am ________ the airport.",
           "options": [
-            "[[Boarding pass|]]",
-            "[[o1|]]",
-            "[[o1|]]",
-            "[[at|]]"
+            "[[Boarding pass|Boarding pass]]",
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]",
+            "[[at|at]]"
           ],
           "correctAnswer": 3
         }
@@ -191,8 +191,8 @@ export const UNIT_41_EXERCISES: Exercise[] = [
         {
           "question": "¿Es correcto decir 'My luggages are heavy'?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -208,16 +208,16 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa la frase:",
       "questions": [
         {
           "question": "Please ________ your boarding pass. (muestra)",
           "options": [
-            "[[Wait in the lounge.|]]",
-            "[[o1|]]",
-            "[[flight|]]",
-            "[[show|]]"
+            "[[Wait in the lounge.|Wait in the lounge.]]",
+            "[[o1|opción 1]]",
+            "[[flight|flight]]",
+            "[[show|show]]"
           ],
           "correctAnswer": 3
         }
@@ -238,7 +238,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
         {
           "question": "Where is gate number ten?",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -254,15 +254,15 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "Official: 'Passport, please.' - You:",
       "questions": [
         {
           "question": "Official: 'Passport, please.' - You:",
           "options": [
-            "[[Here it is.|]]",
-            "[[Goodbye.|]]",
-            "[[I am hungry.|]]"
+            "[[Here it is.|Here it is.]]",
+            "[[Goodbye.|Goodbye.]]",
+            "[[I am hungry.|I am hungry.]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -279,16 +279,16 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa el diálogo:",
       "questions": [
         {
           "question": "A: Is your flight on time?\nB: No, it is ________. (retrasado)",
           "options": [
-            "[[o1|]]",
-            "[[o1|]]",
-            "[[late|]]",
-            "[[o1|]]"
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]",
+            "[[late|late]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 2
         }
@@ -310,8 +310,8 @@ export const UNIT_41_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: '¿Dónde está mi maleta?'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -334,8 +334,8 @@ export const UNIT_41_EXERCISES: Exercise[] = [
         {
           "question": "You need a passport to travel to another country.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -358,8 +358,8 @@ export const UNIT_41_EXERCISES: Exercise[] = [
         {
           "question": "Escucha la instrucción:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -376,15 +376,15 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "Maria has a small suitcase. It is blue and light. She packs her clothes and a book. Maria is ready for her trip. She smiles and leaves for the airport.",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "Según el texto, ¿cómo es la maleta de Maria?",
       "questions": [
         {
           "question": "Maria has a small suitcase. It is blue and light. She packs her clothes and a book. Maria is ready for her trip. She smiles and leaves for the airport.",
           "options": [
-            "[[Small|]]",
-            "[[Big|]]",
-            "[[Heavy|]]"
+            "[[Small|Pequeño]]",
+            "[[Big|Grande]]",
+            "[[Heavy|Pesado]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -408,8 +408,8 @@ export const UNIT_41_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Where is the boarding gate?|]]",
-            "[[late|]]"
+            "[[Where is the boarding gate?|Where is the boarding gate?]]",
+            "[[late|late]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -433,8 +433,8 @@ export const UNIT_41_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Please show your passport.|]]",
-            "[[o1|]]"
+            "[[Please show your passport.|Please show your passport.]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -458,8 +458,8 @@ export const UNIT_41_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|]]",
-            "[[The flight is on time.|]]"
+            "[[o1|opción 1]]",
+            "[[The flight is on time.|The flight is on time.]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -483,8 +483,8 @@ export const UNIT_41_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Is this your luggage?|]]",
-            "[[o1|]]"
+            "[[Is this your luggage?|Is this your luggage?]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -508,8 +508,8 @@ export const UNIT_41_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[The check-in desk is closed.|]]",
-            "[[o1|]]"
+            "[[The check-in desk is closed.|The check-in desk is closed.]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -533,8 +533,8 @@ export const UNIT_41_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|]]",
-            "[[Take your boarding pass.|]]"
+            "[[o1|opción 1]]",
+            "[[Take your boarding pass.|Take your boarding pass.]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -558,8 +558,8 @@ export const UNIT_41_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Wait in the lounge.|]]",
-            "[[o1|]]"
+            "[[Wait in the lounge.|Wait in the lounge.]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -705,15 +705,15 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'airport' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'airport' en inglés?",
           "options": [
-            "[[Airport|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Airport|Aeropuerto]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -731,15 +731,15 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'check-in' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'check-in' en inglés?",
           "options": [
-            "[[Check-in|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Check-in|Check-in]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -757,15 +757,15 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'passport' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'passport' en inglés?",
           "options": [
-            "[[Passport|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Passport|Pasaporte]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -783,15 +783,15 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'gate' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'gate' en inglés?",
           "options": [
-            "[[Gate|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Gate|Gate]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -809,15 +809,15 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'flight' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'flight' en inglés?",
           "options": [
-            "[[Flight|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Flight|Vuelo]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -835,15 +835,15 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'boarding' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'boarding' en inglés?",
           "options": [
-            "[[Boarding|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Boarding|Boarding]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -861,15 +861,15 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'luggage' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'luggage' en inglés?",
           "options": [
-            "[[Luggage|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Luggage|Luggage]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -887,15 +887,15 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'airport' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'airport' en inglés?",
           "options": [
-            "[[Airport|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Airport|Aeropuerto]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -913,15 +913,15 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'check-in' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'check-in' en inglés?",
           "options": [
-            "[[Check-in|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Check-in|Check-in]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -939,15 +939,15 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'passport' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'passport' en inglés?",
           "options": [
-            "[[Passport|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Passport|Pasaporte]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -965,15 +965,15 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'gate' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'gate' en inglés?",
           "options": [
-            "[[Gate|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Gate|Gate]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -991,15 +991,15 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'flight' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'flight' en inglés?",
           "options": [
-            "[[Flight|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Flight|Vuelo]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1017,15 +1017,15 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'boarding' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'boarding' en inglés?",
           "options": [
-            "[[Boarding|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Boarding|Boarding]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1043,15 +1043,15 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'luggage' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'luggage' en inglés?",
           "options": [
-            "[[Luggage|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Luggage|Luggage]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1069,15 +1069,15 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'airport' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'airport' en inglés?",
           "options": [
-            "[[Airport|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Airport|Aeropuerto]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1095,15 +1095,15 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'check-in' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'check-in' en inglés?",
           "options": [
-            "[[Check-in|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Check-in|Check-in]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1121,15 +1121,15 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'passport' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'passport' en inglés?",
           "options": [
-            "[[Passport|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Passport|Pasaporte]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1147,15 +1147,15 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'gate' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'gate' en inglés?",
           "options": [
-            "[[Gate|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Gate|Gate]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1173,15 +1173,15 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'flight' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'flight' en inglés?",
           "options": [
-            "[[Flight|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Flight|Vuelo]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1199,15 +1199,15 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'boarding' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'boarding' en inglés?",
           "options": [
-            "[[Boarding|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Boarding|Boarding]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1225,15 +1225,15 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'luggage' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'luggage' en inglés?",
           "options": [
-            "[[Luggage|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Luggage|Luggage]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1251,15 +1251,15 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'airport' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'airport' en inglés?",
           "options": [
-            "[[Airport|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Airport|Aeropuerto]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1277,15 +1277,15 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'check-in' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'check-in' en inglés?",
           "options": [
-            "[[Check-in|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Check-in|Check-in]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1303,15 +1303,15 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'passport' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'passport' en inglés?",
           "options": [
-            "[[Passport|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Passport|Pasaporte]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1329,15 +1329,15 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'gate' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'gate' en inglés?",
           "options": [
-            "[[Gate|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Gate|Gate]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1355,15 +1355,15 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'flight' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'flight' en inglés?",
           "options": [
-            "[[Flight|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Flight|Vuelo]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1381,15 +1381,15 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'boarding' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'boarding' en inglés?",
           "options": [
-            "[[Boarding|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Boarding|Boarding]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1407,15 +1407,15 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'luggage' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'luggage' en inglés?",
           "options": [
-            "[[Luggage|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Luggage|Luggage]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1433,15 +1433,15 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'airport' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'airport' en inglés?",
           "options": [
-            "[[Airport|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Airport|Aeropuerto]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1459,15 +1459,15 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'check-in' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'check-in' en inglés?",
           "options": [
-            "[[Check-in|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Check-in|Check-in]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1489,10 +1489,10 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[airport|]] is here.",
+          "question": "The [[airport|airport]] is here.",
           "options": [
-            "[[airport|]]",
-            "[[o1|]]"
+            "[[airport|airport]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1514,10 +1514,10 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[check-in|]] is here.",
+          "question": "The [[check-in|check-in]] is here.",
           "options": [
-            "[[check-in|]]",
-            "[[The flight is on time.|]]"
+            "[[check-in|check-in]]",
+            "[[The flight is on time.|The flight is on time.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1539,10 +1539,10 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[passport|]] is here.",
+          "question": "The [[passport|passport]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[passport|]]"
+            "[[o1|opción 1]]",
+            "[[passport|passport]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1564,10 +1564,10 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[gate|]] is here.",
+          "question": "The [[gate|gate]] is here.",
           "options": [
-            "[[flight|]]",
-            "[[gate|]]"
+            "[[flight|flight]]",
+            "[[gate|gate]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1589,10 +1589,10 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[flight|]] is here.",
+          "question": "The [[flight|flight]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[flight|]]"
+            "[[o1|opción 1]]",
+            "[[flight|flight]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1614,10 +1614,10 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[boarding|]] is here.",
+          "question": "The [[boarding|boarding]] is here.",
           "options": [
-            "[[boarding|]]",
-            "[[flight|]]"
+            "[[boarding|boarding]]",
+            "[[flight|flight]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1639,10 +1639,10 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[luggage|]] is here.",
+          "question": "The [[luggage|luggage]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[luggage|]]"
+            "[[o1|opción 1]]",
+            "[[luggage|luggage]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

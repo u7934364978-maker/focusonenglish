@@ -8,46 +8,46 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Empareja el vocabulario de turismo:",
       "questions": [
         {
           "question": "Museum",
           "options": [
-            "[[Mapa|]]",
-            "[[Museo|]]",
-            "[[Guía turístico/a|]]",
-            "[[Monumento|]]"
+            "[[Mapa|Mapa]]",
+            "[[Museo|Museo]]",
+            "[[Guía turístico/a|Guía turístico/a]]",
+            "[[Monumento|Monumento]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Monument",
           "options": [
-            "[[Mapa|]]",
-            "[[Guía turístico/a|]]",
-            "[[Monumento|]]",
-            "[[Museo|]]"
+            "[[Mapa|Mapa]]",
+            "[[Guía turístico/a|Guía turístico/a]]",
+            "[[Monumento|Monumento]]",
+            "[[Museo|Museo]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Tour guide",
           "options": [
-            "[[Monumento|]]",
-            "[[Guía turístico/a|]]",
-            "[[Mapa|]]",
-            "[[Museo|]]"
+            "[[Monumento|Monumento]]",
+            "[[Guía turístico/a|Guía turístico/a]]",
+            "[[Mapa|Mapa]]",
+            "[[Museo|Museo]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Map",
           "options": [
-            "[[Monumento|]]",
-            "[[Mapa|]]",
-            "[[Guía turístico/a|]]",
-            "[[Museo|]]"
+            "[[Monumento|Monumento]]",
+            "[[Mapa|Mapa]]",
+            "[[Guía turístico/a|Guía turístico/a]]",
+            "[[Museo|Museo]]"
           ],
           "correctAnswer": 1
         }
@@ -63,15 +63,15 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Qué usas para sacar fotos?",
       "questions": [
         {
           "question": "¿Qué usas para sacar fotos?",
           "options": [
-            "[[Camera|]]",
-            "[[Map|]]",
-            "[[Ticket|]]"
+            "[[Camera|Cámara]]",
+            "[[Map|Mapa]]",
+            "[[Ticket|Billete]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -95,8 +95,8 @@ export const UNIT_48_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'Recuerdo / Souvenir'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -119,8 +119,8 @@ export const UNIT_48_EXERCISES: Exercise[] = [
         {
           "question": "Art gallery",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -137,15 +137,15 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "________ forget your passport!",
       "questions": [
         {
           "question": "________ forget your passport!",
           "options": [
-            "[[Don't|]]",
-            "[[Not|]]",
-            "[[No|]]"
+            "[[Don't|Don't]]",
+            "[[Not|Not]]",
+            "[[No|No]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -162,16 +162,16 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con el verbo correcto (Take/Visit):",
       "questions": [
         {
           "question": "________ the museum, it is beautiful!",
           "options": [
-            "[[o1|]]",
-            "[[Don't forget your camera.|]]",
-            "[[Visit|]]",
-            "[[o1|]]"
+            "[[o1|opción 1]]",
+            "[[Don't forget your camera.|Don't forget your camera.]]",
+            "[[Visit|Visit]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 2
         }
@@ -193,8 +193,8 @@ export const UNIT_48_EXERCISES: Exercise[] = [
         {
           "question": "¿Es correcto decir 'Buying a souvenir' como una instrucción?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -210,16 +210,16 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa el imperativo negativo:",
       "questions": [
         {
           "question": "________ (no) drink the water in the park.",
           "options": [
-            "[[Follow the tour guide|]]",
-            "[[o1|]]",
-            "[[Don't|]]",
-            "[[o1|]]"
+            "[[Follow the tour guide|Follow the tour guide]]",
+            "[[o1|opción 1]]",
+            "[[Don't|Don't]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 2
         }
@@ -240,7 +240,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
         {
           "question": "What time does the tour start?",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -256,15 +256,15 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "Tourist: 'Excuse me, is the museum open today?' - Staff:",
       "questions": [
         {
           "question": "Tourist: 'Excuse me, is the museum open today?' - Staff:",
           "options": [
-            "[[Yes, it is. It opens at 10 AM.|]]",
-            "[[No, it is closed on Mondays.|]]",
-            "[[The tickets are expensive.|]]"
+            "[[Yes, it is. It opens at 10 AM.|Yes, it is. It opens at 10 AM.]]",
+            "[[No, it is closed on Mondays.|No, it is closed on Mondays.]]",
+            "[[The tickets are expensive.|The tickets are expensive.]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -281,16 +281,16 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa el diálogo:",
       "questions": [
         {
           "question": "A: Can I take photos here?\nB: No, ________. (no saque fotos)",
           "options": [
-            "[[don't|]]",
-            "[[o1|]]",
-            "[[o1|]]",
-            "[[o1|]]"
+            "[[don't|don't]]",
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0
         }
@@ -312,8 +312,8 @@ export const UNIT_48_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'Sigue al guía turístico'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -336,8 +336,8 @@ export const UNIT_48_EXERCISES: Exercise[] = [
         {
           "question": "A map helps you find places in a city.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -360,8 +360,8 @@ export const UNIT_48_EXERCISES: Exercise[] = [
         {
           "question": "Escucha y escribe el consejo:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -384,8 +384,8 @@ export const UNIT_48_EXERCISES: Exercise[] = [
         {
           "question": "Escucha la instrucción del tour:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -402,15 +402,15 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "Anna buys a souvenir before she leaves the city. She visits a small shop. The shop has many colorful souvenirs. Anna likes a red mug. It has a picture of the city on it. She pays for the mug and smiles. Now, she has a gift to remember her trip.",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Qué debes comprar antes de irte?",
       "questions": [
         {
           "question": "Anna buys a souvenir before she leaves the city. She visits a small shop. The shop has many colorful souvenirs. Anna likes a red mug. It has a picture of the city on it. She pays for the mug and smiles. Now, she has a gift to remember her trip.",
           "options": [
-            "[[A souvenir|]]",
-            "[[A map|]]",
-            "[[A ticket|]]"
+            "[[A souvenir|A souvenir]]",
+            "[[A map|A map]]",
+            "[[A ticket|A ticket]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -434,8 +434,8 @@ export const UNIT_48_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Take a map of the city.|]]",
-            "[[Don't forget your camera.|]]"
+            "[[Take a map of the city.|Take a map of the city.]]",
+            "[[Don't forget your camera.|Don't forget your camera.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -459,8 +459,8 @@ export const UNIT_48_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Don't forget your camera.|]]",
-            "[[Museo|]]"
+            "[[Don't forget your camera.|Don't forget your camera.]]",
+            "[[Museo|Museo]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -484,8 +484,8 @@ export const UNIT_48_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[statue|]]",
-            "[[Buy the tickets online.|]]"
+            "[[statue|statue]]",
+            "[[Buy the tickets online.|Buy the tickets online.]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -509,8 +509,8 @@ export const UNIT_48_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|]]",
-            "[[The museum opens at ten.|]]"
+            "[[o1|opción 1]]",
+            "[[The museum opens at ten.|The museum opens at ten.]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -534,8 +534,8 @@ export const UNIT_48_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[don't|]]",
-            "[[Is there a tour guide?|]]"
+            "[[don't|don't]]",
+            "[[Is there a tour guide?|Is there a tour guide?]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -559,8 +559,8 @@ export const UNIT_48_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Wait for the bus here.|]]",
-            "[[Don't forget your camera.|]]"
+            "[[Wait for the bus here.|Wait for the bus here.]]",
+            "[[Don't forget your camera.|Don't forget your camera.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -584,8 +584,8 @@ export const UNIT_48_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|]]",
-            "[[Look at that old monument.|]]"
+            "[[o1|opción 1]]",
+            "[[Look at that old monument.|Look at that old monument.]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -731,15 +731,15 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'museum' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'museum' en inglés?",
           "options": [
-            "[[Museum|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Museum|Museo]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -757,15 +757,15 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'statue' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'statue' en inglés?",
           "options": [
-            "[[Statue|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Statue|Estatua]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -783,15 +783,15 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'bridge' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'bridge' en inglés?",
           "options": [
-            "[[Bridge|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Bridge|Puente]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -809,15 +809,15 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'tower' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'tower' en inglés?",
           "options": [
-            "[[Tower|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Tower|Torre]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -835,15 +835,15 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'castle' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'castle' en inglés?",
           "options": [
-            "[[Castle|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Castle|Castillo]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -861,15 +861,15 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'tour' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'tour' en inglés?",
           "options": [
-            "[[Tour|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Tour|Tour]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -887,15 +887,15 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'guide' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'guide' en inglés?",
           "options": [
-            "[[Guide|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Guide|Guía]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -913,15 +913,15 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'museum' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'museum' en inglés?",
           "options": [
-            "[[Museum|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Museum|Museo]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -939,15 +939,15 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'statue' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'statue' en inglés?",
           "options": [
-            "[[Statue|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Statue|Estatua]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -965,15 +965,15 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'bridge' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'bridge' en inglés?",
           "options": [
-            "[[Bridge|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Bridge|Puente]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -991,15 +991,15 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'tower' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'tower' en inglés?",
           "options": [
-            "[[Tower|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Tower|Torre]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1017,15 +1017,15 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'castle' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'castle' en inglés?",
           "options": [
-            "[[Castle|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Castle|Castillo]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1043,15 +1043,15 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'tour' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'tour' en inglés?",
           "options": [
-            "[[Tour|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Tour|Tour]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1069,15 +1069,15 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'guide' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'guide' en inglés?",
           "options": [
-            "[[Guide|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Guide|Guía]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1095,15 +1095,15 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'museum' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'museum' en inglés?",
           "options": [
-            "[[Museum|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Museum|Museo]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1121,15 +1121,15 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'statue' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'statue' en inglés?",
           "options": [
-            "[[Statue|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Statue|Estatua]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1147,15 +1147,15 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'bridge' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'bridge' en inglés?",
           "options": [
-            "[[Bridge|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Bridge|Puente]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1173,15 +1173,15 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'tower' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'tower' en inglés?",
           "options": [
-            "[[Tower|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Tower|Torre]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1199,15 +1199,15 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'castle' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'castle' en inglés?",
           "options": [
-            "[[Castle|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Castle|Castillo]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1225,15 +1225,15 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'tour' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'tour' en inglés?",
           "options": [
-            "[[Tour|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Tour|Tour]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1251,15 +1251,15 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'guide' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'guide' en inglés?",
           "options": [
-            "[[Guide|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Guide|Guía]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1277,15 +1277,15 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'museum' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'museum' en inglés?",
           "options": [
-            "[[Museum|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Museum|Museo]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1303,15 +1303,15 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'statue' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'statue' en inglés?",
           "options": [
-            "[[Statue|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Statue|Estatua]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1329,15 +1329,15 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'bridge' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'bridge' en inglés?",
           "options": [
-            "[[Bridge|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Bridge|Puente]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1355,15 +1355,15 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'tower' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'tower' en inglés?",
           "options": [
-            "[[Tower|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Tower|Torre]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1381,15 +1381,15 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'castle' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'castle' en inglés?",
           "options": [
-            "[[Castle|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Castle|Castillo]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1407,15 +1407,15 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'tour' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'tour' en inglés?",
           "options": [
-            "[[Tour|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Tour|Tour]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1433,15 +1433,15 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'guide' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'guide' en inglés?",
           "options": [
-            "[[Guide|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Guide|Guía]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1459,15 +1459,15 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'museum' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'museum' en inglés?",
           "options": [
-            "[[Museum|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Museum|Museo]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1489,10 +1489,10 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[museum|]] is here.",
+          "question": "The [[museum|museum]] is here.",
           "options": [
-            "[[guide|]]",
-            "[[museum|]]"
+            "[[guide|guide]]",
+            "[[museum|museum]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1514,10 +1514,10 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[statue|]] is here.",
+          "question": "The [[statue|statue]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[statue|]]"
+            "[[o1|opción 1]]",
+            "[[statue|statue]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1539,10 +1539,10 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[bridge|]] is here.",
+          "question": "The [[bridge|bridge]] is here.",
           "options": [
-            "[[Look at that old monument.|]]",
-            "[[bridge|]]"
+            "[[Look at that old monument.|Look at that old monument.]]",
+            "[[bridge|bridge]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1564,10 +1564,10 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[tower|]] is here.",
+          "question": "The [[tower|tower]] is here.",
           "options": [
-            "[[museum|]]",
-            "[[tower|]]"
+            "[[museum|museum]]",
+            "[[tower|tower]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1589,10 +1589,10 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[castle|]] is here.",
+          "question": "The [[castle|castle]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[castle|]]"
+            "[[o1|opción 1]]",
+            "[[castle|castle]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1614,10 +1614,10 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[tour|]] is here.",
+          "question": "The [[tour|tour]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[tour|]]"
+            "[[o1|opción 1]]",
+            "[[tour|tour]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1639,10 +1639,10 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[guide|]] is here.",
+          "question": "The [[guide|guide]] is here.",
           "options": [
-            "[[guide|]]",
-            "[[o1|]]"
+            "[[guide|guide]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

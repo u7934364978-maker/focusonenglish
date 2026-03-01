@@ -9,15 +9,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "I ________ at school yesterday.",
       "questions": [
         {
           "question": "I ________ at school yesterday.",
           "options": [
-            "[[was|]]",
-            "[[were|]]",
-            "[[am|]]"
+            "[[was|was]]",
+            "[[were|were]]",
+            "[[am|am]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -34,16 +34,16 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con 'was' o 'were':",
       "questions": [
         {
           "question": "They ________ very happy last night.",
           "options": [
-            "[[o1|]]",
-            "[[o1|]]",
-            "[[o1|]]",
-            "[[were|]]"
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]",
+            "[[were|were]]"
           ],
           "correctAnswer": 3
         }
@@ -65,8 +65,8 @@ export const UNIT_39_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'Ayer'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -89,8 +89,8 @@ export const UNIT_39_EXERCISES: Exercise[] = [
         {
           "question": "Last week",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -106,16 +106,16 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con 'wasn't' o 'weren't':",
       "questions": [
         {
           "question": "We ________ at the party on Friday.",
           "options": [
-            "[[o1|]]",
-            "[[o1|]]",
-            "[[o1|]]",
-            "[[weren't|]]"
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]",
+            "[[weren't|weren't]]"
           ],
           "correctAnswer": 3
         }
@@ -137,8 +137,8 @@ export const UNIT_39_EXERCISES: Exercise[] = [
         {
           "question": "¿'Weren't' es la contracción de 'were not'?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -160,7 +160,7 @@ export const UNIT_39_EXERCISES: Exercise[] = [
         {
           "question": "Were you at the cinema ?",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -175,16 +175,16 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con 'Was' o 'Were':",
       "questions": [
         {
           "question": "________ the weather good yesterday?",
           "options": [
-            "[[o1|]]",
-            "[[Was|]]",
-            "[[o1|]]",
-            "[[fishing|]]"
+            "[[o1|opción 1]]",
+            "[[Was|Was]]",
+            "[[o1|opción 1]]",
+            "[[fishing|fishing]]"
           ],
           "correctAnswer": 1
         }
@@ -206,8 +206,8 @@ export const UNIT_39_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: '¿Dónde estuviste ayer?'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -230,8 +230,8 @@ export const UNIT_39_EXERCISES: Exercise[] = [
         {
           "question": "¿En las preguntas el verbo 'was/were' va antes que el sujeto?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -254,8 +254,8 @@ export const UNIT_39_EXERCISES: Exercise[] = [
         {
           "question": "Last night there was a power cut at our house. My mother was in the kitchen. My father was in the living room. My brother was in his bedroom. It was very dark, but we were all safe.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -272,15 +272,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "Last night there was a power cut at our house. My mother was in the kitchen. My father was in the living room. My brother was in his bedroom. It was very dark, but we were all safe.",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Dónde estaba el hermano?",
       "questions": [
         {
           "question": "Last night there was a power cut at our house. My mother was in the kitchen. My father was in the living room. My brother was in his bedroom. It was very dark, but we were all safe.",
           "options": [
-            "[[In the kitchen|]]",
-            "[[In his bedroom|]]",
-            "[[At the restaurant|]]"
+            "[[In the kitchen|In the kitchen]]",
+            "[[In his bedroom|In his bedroom]]",
+            "[[At the restaurant|At the restaurant]]"
           ],
           "correctAnswer": 1,
           "explanation": ""
@@ -298,15 +298,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'hiking' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'hiking' en inglés?",
           "options": [
-            "[[Hiking|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Hiking|Senderismo]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -324,15 +324,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'camping' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'camping' en inglés?",
           "options": [
-            "[[Camping|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Camping|Camping]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -350,15 +350,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'fishing' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'fishing' en inglés?",
           "options": [
-            "[[Fishing|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Fishing|Fishing]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -376,15 +376,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'running' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'running' en inglés?",
           "options": [
-            "[[Running|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Running|Running]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -402,15 +402,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'walking' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'walking' en inglés?",
           "options": [
-            "[[Walking|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Walking|Walking]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -428,15 +428,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'cycling' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'cycling' en inglés?",
           "options": [
-            "[[Cycling|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Cycling|Ciclismo]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -454,15 +454,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'climbing' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'climbing' en inglés?",
           "options": [
-            "[[Climbing|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Climbing|Climbing]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -480,15 +480,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'hiking' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'hiking' en inglés?",
           "options": [
-            "[[Hiking|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Hiking|Senderismo]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -506,15 +506,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'camping' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'camping' en inglés?",
           "options": [
-            "[[Camping|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Camping|Camping]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -532,15 +532,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'fishing' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'fishing' en inglés?",
           "options": [
-            "[[Fishing|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Fishing|Fishing]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -558,15 +558,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'running' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'running' en inglés?",
           "options": [
-            "[[Running|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Running|Running]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -584,15 +584,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'walking' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'walking' en inglés?",
           "options": [
-            "[[Walking|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Walking|Walking]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -610,15 +610,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'cycling' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'cycling' en inglés?",
           "options": [
-            "[[Cycling|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Cycling|Ciclismo]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -636,15 +636,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'climbing' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'climbing' en inglés?",
           "options": [
-            "[[Climbing|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Climbing|Climbing]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -662,15 +662,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'hiking' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'hiking' en inglés?",
           "options": [
-            "[[Hiking|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Hiking|Senderismo]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -688,15 +688,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'camping' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'camping' en inglés?",
           "options": [
-            "[[Camping|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Camping|Camping]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -714,15 +714,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'fishing' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'fishing' en inglés?",
           "options": [
-            "[[Fishing|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Fishing|Fishing]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -740,15 +740,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'running' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'running' en inglés?",
           "options": [
-            "[[Running|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Running|Running]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -766,15 +766,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'walking' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'walking' en inglés?",
           "options": [
-            "[[Walking|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Walking|Walking]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -792,15 +792,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'cycling' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'cycling' en inglés?",
           "options": [
-            "[[Cycling|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Cycling|Ciclismo]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -818,15 +818,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'climbing' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'climbing' en inglés?",
           "options": [
-            "[[Climbing|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Climbing|Climbing]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -844,15 +844,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'hiking' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'hiking' en inglés?",
           "options": [
-            "[[Hiking|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Hiking|Senderismo]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -870,15 +870,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'camping' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'camping' en inglés?",
           "options": [
-            "[[Camping|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Camping|Camping]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -896,15 +896,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'fishing' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'fishing' en inglés?",
           "options": [
-            "[[Fishing|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Fishing|Fishing]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -922,15 +922,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'running' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'running' en inglés?",
           "options": [
-            "[[Running|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Running|Running]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -948,15 +948,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'walking' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'walking' en inglés?",
           "options": [
-            "[[Walking|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Walking|Walking]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -974,15 +974,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'cycling' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'cycling' en inglés?",
           "options": [
-            "[[Cycling|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Cycling|Ciclismo]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1000,15 +1000,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'climbing' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'climbing' en inglés?",
           "options": [
-            "[[Climbing|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Climbing|Climbing]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1026,15 +1026,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'hiking' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'hiking' en inglés?",
           "options": [
-            "[[Hiking|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Hiking|Senderismo]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1052,15 +1052,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'camping' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'camping' en inglés?",
           "options": [
-            "[[Camping|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Camping|Camping]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1078,15 +1078,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'fishing' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'fishing' en inglés?",
           "options": [
-            "[[Fishing|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Fishing|Fishing]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1104,15 +1104,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'running' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'running' en inglés?",
           "options": [
-            "[[Running|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Running|Running]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1130,15 +1130,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'walking' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'walking' en inglés?",
           "options": [
-            "[[Walking|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Walking|Walking]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1156,15 +1156,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'cycling' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'cycling' en inglés?",
           "options": [
-            "[[Cycling|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Cycling|Ciclismo]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1182,15 +1182,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'climbing' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'climbing' en inglés?",
           "options": [
-            "[[Climbing|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Climbing|Climbing]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1208,15 +1208,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'hiking' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'hiking' en inglés?",
           "options": [
-            "[[Hiking|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Hiking|Senderismo]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1234,15 +1234,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'camping' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'camping' en inglés?",
           "options": [
-            "[[Camping|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Camping|Camping]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1260,15 +1260,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'fishing' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'fishing' en inglés?",
           "options": [
-            "[[Fishing|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Fishing|Fishing]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1286,15 +1286,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'running' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'running' en inglés?",
           "options": [
-            "[[Running|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Running|Running]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1312,15 +1312,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'walking' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'walking' en inglés?",
           "options": [
-            "[[Walking|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Walking|Walking]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1338,15 +1338,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'cycling' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'cycling' en inglés?",
           "options": [
-            "[[Cycling|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Cycling|Ciclismo]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1364,15 +1364,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'climbing' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'climbing' en inglés?",
           "options": [
-            "[[Climbing|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Climbing|Climbing]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1390,15 +1390,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'hiking' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'hiking' en inglés?",
           "options": [
-            "[[Hiking|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Hiking|Senderismo]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1416,15 +1416,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'camping' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'camping' en inglés?",
           "options": [
-            "[[Camping|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Camping|Camping]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1442,15 +1442,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'fishing' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'fishing' en inglés?",
           "options": [
-            "[[Fishing|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Fishing|Fishing]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1468,15 +1468,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'running' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'running' en inglés?",
           "options": [
-            "[[Running|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Running|Running]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1494,15 +1494,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'walking' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'walking' en inglés?",
           "options": [
-            "[[Walking|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Walking|Walking]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1520,15 +1520,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'cycling' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'cycling' en inglés?",
           "options": [
-            "[[Cycling|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Cycling|Ciclismo]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1550,10 +1550,10 @@ export const UNIT_39_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[hiking|]] is here.",
+          "question": "The [[hiking|hiking]] is here.",
           "options": [
-            "[[hiking|]]",
-            "[[o1|]]"
+            "[[hiking|hiking]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1575,10 +1575,10 @@ export const UNIT_39_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[camping|]] is here.",
+          "question": "The [[camping|camping]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[camping|]]"
+            "[[o1|opción 1]]",
+            "[[camping|camping]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1600,10 +1600,10 @@ export const UNIT_39_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[fishing|]] is here.",
+          "question": "The [[fishing|fishing]] is here.",
           "options": [
-            "[[walking|]]",
-            "[[fishing|]]"
+            "[[walking|walking]]",
+            "[[fishing|fishing]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1625,10 +1625,10 @@ export const UNIT_39_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[running|]] is here.",
+          "question": "The [[running|running]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[running|]]"
+            "[[o1|opción 1]]",
+            "[[running|running]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1650,10 +1650,10 @@ export const UNIT_39_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[walking|]] is here.",
+          "question": "The [[walking|walking]] is here.",
           "options": [
-            "[[walking|]]",
-            "[[o1|]]"
+            "[[walking|walking]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1675,10 +1675,10 @@ export const UNIT_39_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[cycling|]] is here.",
+          "question": "The [[cycling|cycling]] is here.",
           "options": [
-            "[[cycling|]]",
-            "[[o1|]]"
+            "[[cycling|cycling]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1700,10 +1700,10 @@ export const UNIT_39_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[climbing|]] is here.",
+          "question": "The [[climbing|climbing]] is here.",
           "options": [
-            "[[climbing|]]",
-            "[[o1|]]"
+            "[[climbing|climbing]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

@@ -8,46 +8,46 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Empareja el adverbio con su frecuencia aproximada:",
       "questions": [
         {
           "question": "Always",
           "options": [
-            "[[100% de las veces|]]",
-            "[[Frecuentemente (60-70%)|]]",
-            "[[0% de las veces|]]",
-            "[[A veces (40-50%)|]]"
+            "[[100% de las veces|100% de las veces]]",
+            "[[Frecuentemente (60-70%)|Frecuentemente (60-70%)]]",
+            "[[0% de las veces|0% de las veces]]",
+            "[[A veces (40-50%)|A veces (40-50%)]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Often",
           "options": [
-            "[[100% de las veces|]]",
-            "[[Frecuentemente (60-70%)|]]",
-            "[[0% de las veces|]]",
-            "[[A veces (40-50%)|]]"
+            "[[100% de las veces|100% de las veces]]",
+            "[[Frecuentemente (60-70%)|Frecuentemente (60-70%)]]",
+            "[[0% de las veces|0% de las veces]]",
+            "[[A veces (40-50%)|A veces (40-50%)]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Sometimes",
           "options": [
-            "[[Frecuentemente (60-70%)|]]",
-            "[[A veces (40-50%)|]]",
-            "[[0% de las veces|]]",
-            "[[100% de las veces|]]"
+            "[[Frecuentemente (60-70%)|Frecuentemente (60-70%)]]",
+            "[[A veces (40-50%)|A veces (40-50%)]]",
+            "[[0% de las veces|0% de las veces]]",
+            "[[100% de las veces|100% de las veces]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Never",
           "options": [
-            "[[A veces (40-50%)|]]",
-            "[[100% de las veces|]]",
-            "[[Frecuentemente (60-70%)|]]",
-            "[[0% de las veces|]]"
+            "[[A veces (40-50%)|A veces (40-50%)]]",
+            "[[100% de las veces|100% de las veces]]",
+            "[[Frecuentemente (60-70%)|Frecuentemente (60-70%)]]",
+            "[[0% de las veces|0% de las veces]]"
           ],
           "correctAnswer": 3
         }
@@ -63,15 +63,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'Normalmente'?",
       "questions": [
         {
           "question": "¿Cómo se dice 'Normalmente'?",
           "options": [
-            "[[Usually|]]",
-            "[[Always|]]",
-            "[[Never|]]"
+            "[[Usually|Usually]]",
+            "[[Always|Siempre]]",
+            "[[Never|Nunca]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -88,16 +88,16 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con el adverbio que significa '0%':",
       "questions": [
         {
           "question": "I ________ eat meat. I am a vegetarian.",
           "options": [
-            "[[never|]]",
-            "[[How often|]]",
-            "[[o1|]]",
-            "[[o1|]]"
+            "[[never|never]]",
+            "[[How often|How often]]",
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0
         }
@@ -119,8 +119,8 @@ export const UNIT_33_EXERCISES: Exercise[] = [
         {
           "question": "Ordena de mayor a menor frecuencia:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -143,8 +143,8 @@ export const UNIT_33_EXERCISES: Exercise[] = [
         {
           "question": "Often",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -160,16 +160,16 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa el orden (sujeto + adverbio + verbo):",
       "questions": [
         {
           "question": "We ________ ________ (usually / walk) to school.",
           "options": [
-            "[[o1|]]",
-            "[[o1|]]",
-            "[[sometimes|]]",
-            "[[usually walk|]]"
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]",
+            "[[sometimes|sometimes]]",
+            "[[usually walk|usually walk]]"
           ],
           "correctAnswer": 3
         }
@@ -191,8 +191,8 @@ export const UNIT_33_EXERCISES: Exercise[] = [
         {
           "question": "¿Es gramaticalmente correcto? 'I am never late.'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -208,36 +208,36 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Relaciona las expresiones de frecuencia:",
       "questions": [
         {
           "question": "Once a week",
           "options": [
-            "[[Cada día|]]",
-            "[[Dos veces al mes|]]",
-            "[[Una vez por semana|]]",
-            "[[o1|]]"
+            "[[Cada día|Cada día]]",
+            "[[Dos veces al mes|Dos veces al mes]]",
+            "[[Una vez por semana|Una vez por semana]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Twice a month",
           "options": [
-            "[[o1|]]",
-            "[[Una vez por semana|]]",
-            "[[Cada día|]]",
-            "[[Dos veces al mes|]]"
+            "[[o1|opción 1]]",
+            "[[Una vez por semana|Una vez por semana]]",
+            "[[Cada día|Cada día]]",
+            "[[Dos veces al mes|Dos veces al mes]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Every day",
           "options": [
-            "[[Cada día|]]",
-            "[[always|]]",
-            "[[Dos veces al mes|]]",
-            "[[Una vez por semana|]]"
+            "[[Cada día|Cada día]]",
+            "[[always|always]]",
+            "[[Dos veces al mes|Dos veces al mes]]",
+            "[[Una vez por semana|Una vez por semana]]"
           ],
           "correctAnswer": 0
         }
@@ -253,15 +253,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo respondes a 'How often do you go to the gym?'?",
       "questions": [
         {
           "question": "¿Cómo respondes a 'How often do you go to the gym?'?",
           "options": [
-            "[[Three times a week|]]",
-            "[[Yes, I do|]]",
-            "[[At 5 o'clock|]]"
+            "[[Three times a week|Three times a week]]",
+            "[[Yes, I do|Yes, I do]]",
+            "[[At 5 o'clock|At 5 o'clock]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -285,8 +285,8 @@ export const UNIT_33_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'Dos veces al año.'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -302,16 +302,16 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa la pregunta:",
       "questions": [
         {
           "question": "________ ________ does he call you?",
           "options": [
-            "[[o1|]]",
-            "[[How often|]]",
-            "[[Frecuentemente (60-70%)|]]",
-            "[[o1|]]"
+            "[[o1|opción 1]]",
+            "[[How often|How often]]",
+            "[[Frecuentemente (60-70%)|Frecuentemente (60-70%)]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 1
         }
@@ -333,8 +333,8 @@ export const UNIT_33_EXERCISES: Exercise[] = [
         {
           "question": "Anna goes to the gym three times a week. She likes to exercise on Monday, Wednesday, and Friday. At the gym, she runs, lifts weights, and does yoga. Anna feels happy and healthy. Her friend Lisa joins her sometimes. After the gym, Anna drinks a smoothie. She enjoys her routine and always looks forward to the next workout.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -357,8 +357,8 @@ export const UNIT_33_EXERCISES: Exercise[] = [
         {
           "question": "Anna goes to the gym three times a week. She likes to exercise on Monday, Wednesday, and Friday. At the gym, she runs, lifts weights, and does yoga. Anna feels happy and healthy. Her friend Lisa joins her sometimes. After the gym, Anna drinks a smoothie. She enjoys her routine and always looks forward to the next workout.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -375,15 +375,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'always' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'always' en inglés?",
           "options": [
-            "[[Always|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Always|Siempre]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -401,15 +401,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'sometimes' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'sometimes' en inglés?",
           "options": [
-            "[[Sometimes|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Sometimes|A veces]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -427,15 +427,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'never' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'never' en inglés?",
           "options": [
-            "[[Never|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Never|Nunca]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -453,15 +453,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'often' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'often' en inglés?",
           "options": [
-            "[[Often|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Often|A menudo]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -479,15 +479,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'usually' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'usually' en inglés?",
           "options": [
-            "[[Usually|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Usually|Usually]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -505,15 +505,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'seldom' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'seldom' en inglés?",
           "options": [
-            "[[Seldom|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Seldom|Seldom]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -531,15 +531,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'rarely' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'rarely' en inglés?",
           "options": [
-            "[[Rarely|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Rarely|Rara vez]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -557,15 +557,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'always' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'always' en inglés?",
           "options": [
-            "[[Always|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Always|Siempre]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -583,15 +583,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'sometimes' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'sometimes' en inglés?",
           "options": [
-            "[[Sometimes|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Sometimes|A veces]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -609,15 +609,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'never' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'never' en inglés?",
           "options": [
-            "[[Never|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Never|Nunca]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -635,15 +635,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'often' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'often' en inglés?",
           "options": [
-            "[[Often|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Often|A menudo]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -661,15 +661,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'usually' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'usually' en inglés?",
           "options": [
-            "[[Usually|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Usually|Usually]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -687,15 +687,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'seldom' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'seldom' en inglés?",
           "options": [
-            "[[Seldom|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Seldom|Seldom]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -713,15 +713,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'rarely' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'rarely' en inglés?",
           "options": [
-            "[[Rarely|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Rarely|Rara vez]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -739,15 +739,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'always' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'always' en inglés?",
           "options": [
-            "[[Always|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Always|Siempre]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -765,15 +765,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'sometimes' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'sometimes' en inglés?",
           "options": [
-            "[[Sometimes|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Sometimes|A veces]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -791,15 +791,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'never' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'never' en inglés?",
           "options": [
-            "[[Never|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Never|Nunca]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -817,15 +817,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'often' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'often' en inglés?",
           "options": [
-            "[[Often|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Often|A menudo]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -843,15 +843,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'usually' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'usually' en inglés?",
           "options": [
-            "[[Usually|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Usually|Usually]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -869,15 +869,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'seldom' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'seldom' en inglés?",
           "options": [
-            "[[Seldom|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Seldom|Seldom]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -895,15 +895,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'rarely' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'rarely' en inglés?",
           "options": [
-            "[[Rarely|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Rarely|Rara vez]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -921,15 +921,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'always' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'always' en inglés?",
           "options": [
-            "[[Always|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Always|Siempre]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -947,15 +947,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'sometimes' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'sometimes' en inglés?",
           "options": [
-            "[[Sometimes|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Sometimes|A veces]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -973,15 +973,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'never' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'never' en inglés?",
           "options": [
-            "[[Never|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Never|Nunca]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -999,15 +999,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'often' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'often' en inglés?",
           "options": [
-            "[[Often|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Often|A menudo]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1025,15 +1025,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'usually' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'usually' en inglés?",
           "options": [
-            "[[Usually|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Usually|Usually]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1051,15 +1051,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'seldom' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'seldom' en inglés?",
           "options": [
-            "[[Seldom|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Seldom|Seldom]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1077,15 +1077,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'rarely' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'rarely' en inglés?",
           "options": [
-            "[[Rarely|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Rarely|Rara vez]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1103,15 +1103,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'always' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'always' en inglés?",
           "options": [
-            "[[Always|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Always|Siempre]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1129,15 +1129,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'sometimes' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'sometimes' en inglés?",
           "options": [
-            "[[Sometimes|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Sometimes|A veces]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1155,15 +1155,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'never' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'never' en inglés?",
           "options": [
-            "[[Never|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Never|Nunca]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1181,15 +1181,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'often' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'often' en inglés?",
           "options": [
-            "[[Often|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Often|A menudo]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1207,15 +1207,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'usually' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'usually' en inglés?",
           "options": [
-            "[[Usually|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Usually|Usually]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1233,15 +1233,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'seldom' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'seldom' en inglés?",
           "options": [
-            "[[Seldom|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Seldom|Seldom]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1259,15 +1259,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'rarely' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'rarely' en inglés?",
           "options": [
-            "[[Rarely|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Rarely|Rara vez]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1285,15 +1285,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'always' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'always' en inglés?",
           "options": [
-            "[[Always|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Always|Siempre]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1311,15 +1311,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'sometimes' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'sometimes' en inglés?",
           "options": [
-            "[[Sometimes|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Sometimes|A veces]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1337,15 +1337,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'never' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'never' en inglés?",
           "options": [
-            "[[Never|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Never|Nunca]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1363,15 +1363,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'often' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'often' en inglés?",
           "options": [
-            "[[Often|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Often|A menudo]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1389,15 +1389,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'usually' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'usually' en inglés?",
           "options": [
-            "[[Usually|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Usually|Usually]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1415,15 +1415,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'seldom' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'seldom' en inglés?",
           "options": [
-            "[[Seldom|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Seldom|Seldom]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1441,15 +1441,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'rarely' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'rarely' en inglés?",
           "options": [
-            "[[Rarely|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Rarely|Rara vez]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1467,15 +1467,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'always' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'always' en inglés?",
           "options": [
-            "[[Always|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Always|Siempre]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1493,15 +1493,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'sometimes' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'sometimes' en inglés?",
           "options": [
-            "[[Sometimes|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Sometimes|A veces]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1519,15 +1519,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'never' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'never' en inglés?",
           "options": [
-            "[[Never|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Never|Nunca]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1545,15 +1545,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'often' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'often' en inglés?",
           "options": [
-            "[[Often|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Often|A menudo]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1571,15 +1571,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'usually' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'usually' en inglés?",
           "options": [
-            "[[Usually|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Usually|Usually]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1601,10 +1601,10 @@ export const UNIT_33_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[always|]] is here.",
+          "question": "The [[always|always]] is here.",
           "options": [
-            "[[always|]]",
-            "[[o1|]]"
+            "[[always|always]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1626,10 +1626,10 @@ export const UNIT_33_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[sometimes|]] is here.",
+          "question": "The [[sometimes|sometimes]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[sometimes|]]"
+            "[[o1|opción 1]]",
+            "[[sometimes|sometimes]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1651,10 +1651,10 @@ export const UNIT_33_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[never|]] is here.",
+          "question": "The [[never|never]] is here.",
           "options": [
-            "[[0% de las veces|]]",
-            "[[never|]]"
+            "[[0% de las veces|0% de las veces]]",
+            "[[never|never]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1676,10 +1676,10 @@ export const UNIT_33_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[often|]] is here.",
+          "question": "The [[often|often]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[often|]]"
+            "[[o1|opción 1]]",
+            "[[often|often]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1701,10 +1701,10 @@ export const UNIT_33_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[usually|]] is here.",
+          "question": "The [[usually|usually]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[usually|]]"
+            "[[o1|opción 1]]",
+            "[[usually|usually]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1726,10 +1726,10 @@ export const UNIT_33_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[seldom|]] is here.",
+          "question": "The [[seldom|seldom]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[seldom|]]"
+            "[[o1|opción 1]]",
+            "[[seldom|seldom]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1751,10 +1751,10 @@ export const UNIT_33_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[rarely|]] is here.",
+          "question": "The [[rarely|rarely]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[rarely|]]"
+            "[[o1|opción 1]]",
+            "[[rarely|rarely]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

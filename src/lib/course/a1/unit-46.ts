@@ -9,15 +9,15 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Dónde pides información al llegar?",
       "questions": [
         {
           "question": "¿Dónde pides información al llegar?",
           "options": [
-            "[[Reception|]]",
-            "[[The bed|]]",
-            "[[The shower|]]"
+            "[[Reception|Recepción]]",
+            "[[The bed|The bed]]",
+            "[[The shower|The shower]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -34,16 +34,16 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa la palabra:",
       "questions": [
         {
           "question": "My room is on the third ________. (piso/planta)",
           "options": [
-            "[[o1|]]",
-            "[[floor|]]",
-            "[[o1|]]",
-            "[[o1|]]"
+            "[[o1|opción 1]]",
+            "[[floor|floor]]",
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 1
         }
@@ -65,8 +65,8 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'Habitación'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -89,8 +89,8 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "Check-out",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -107,15 +107,15 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "I ________ like a double room, please.",
       "questions": [
         {
           "question": "I ________ like a double room, please.",
           "options": [
-            "[[would|]]",
-            "[[do|]]",
-            "[[am|]]"
+            "[[would|would]]",
+            "[[do|hacer]]",
+            "[[am|am]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -132,16 +132,16 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con 'have' o 'has':",
       "questions": [
         {
           "question": "Does the room ________ a TV?",
           "options": [
-            "[[o1|]]",
-            "[[My room is on the fourth floor.|]]",
-            "[[have|]]",
-            "[[o1|]]"
+            "[[o1|opción 1]]",
+            "[[My room is on the fourth floor.|My room is on the fourth floor.]]",
+            "[[have|have]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 2
         }
@@ -163,8 +163,8 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "¿Es correcto decir 'My room is in the first floor'?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -180,16 +180,16 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa la frase:",
       "questions": [
         {
           "question": "Is breakfast ________ in the price? (incluido)",
           "options": [
-            "[[o1|]]",
-            "[[breakfast|]]",
-            "[[included|]]",
-            "[[o1|]]"
+            "[[o1|opción 1]]",
+            "[[breakfast|breakfast]]",
+            "[[included|included]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 2
         }
@@ -210,7 +210,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "What is the wifi password?",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -226,15 +226,15 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "Receptionist: 'Your room is 204. Here is the key.' - You:",
       "questions": [
         {
           "question": "Receptionist: 'Your room is 204. Here is the key.' - You:",
           "options": [
-            "[[Thank you very much.|]]",
-            "[[I am from Spain.|]]",
-            "[[Good luck.|]]"
+            "[[Thank you very much.|Thank you very much.]]",
+            "[[I am from Spain.|I am from Spain.]]",
+            "[[Good luck.|Good luck.]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -251,16 +251,16 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa el diálogo:",
       "questions": [
         {
           "question": "A: I would like to ________ in, please.\nB: Certainly. What is your name?",
           "options": [
-            "[[check|]]",
-            "[[breakfast|]]",
-            "[[included|]]",
-            "[[o1|]]"
+            "[[check|check]]",
+            "[[breakfast|breakfast]]",
+            "[[included|included]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0
         }
@@ -282,8 +282,8 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: '¿Dónde está el ascensor?'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -306,8 +306,8 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "The receptionist works at the reception desk.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -330,8 +330,8 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "Escucha y escribe la frase:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -354,8 +354,8 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "Escucha la frase del recepcionista:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -372,15 +372,15 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "Breakfast ends at 10:00 AM in the small cafe. Emily sits at a table. She drinks orange juice and eats toast. The sun shines through the window. She looks at her watch. It says 9:30 AM. She smiles because she has more time to enjoy her breakfast. She likes quiet mornings.",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿A qué hora termina el desayuno?",
       "questions": [
         {
           "question": "Breakfast ends at 10:00 AM in the small cafe. Emily sits at a table. She drinks orange juice and eats toast. The sun shines through the window. She looks at her watch. It says 9:30 AM. She smiles because she has more time to enjoy her breakfast. She likes quiet mornings.",
           "options": [
-            "[[10:00 AM|]]",
-            "[[7:00 AM|]]",
-            "[[12:00 PM|]]"
+            "[[10:00 AM|10:00 AM]]",
+            "[[7:00 AM|7:00 AM]]",
+            "[[12:00 PM|12:00 PM]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -404,8 +404,8 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[I would like a quiet room, please.|]]",
-            "[[o1|]]"
+            "[[I would like a quiet room, please.|I would like a quiet room, please.]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -429,8 +429,8 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|]]",
-            "[[Where is the reception desk?|]]"
+            "[[o1|opción 1]]",
+            "[[Where is the reception desk?|Where is the reception desk?]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -454,8 +454,8 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[The wifi password is on the card.|]]",
-            "[[I would like a quiet room, please.|]]"
+            "[[The wifi password is on the card.|The wifi password is on the card.]]",
+            "[[I would like a quiet room, please.|I would like a quiet room, please.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -479,8 +479,8 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[key|]]",
-            "[[Breakfast is from seven to ten.|]]"
+            "[[key|key]]",
+            "[[Breakfast is from seven to ten.|Breakfast is from seven to ten.]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -504,8 +504,8 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Please call a taxi for me.|]]",
-            "[[Can I have another towel?|]]"
+            "[[Please call a taxi for me.|Please call a taxi for me.]]",
+            "[[Can I have another towel?|Can I have another towel?]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -529,8 +529,8 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[key|]]",
-            "[[My room is on the fourth floor.|]]"
+            "[[key|key]]",
+            "[[My room is on the fourth floor.|My room is on the fourth floor.]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -554,8 +554,8 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Please call a taxi for me.|]]",
-            "[[o1|]]"
+            "[[Please call a taxi for me.|Please call a taxi for me.]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -701,15 +701,15 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'hotel' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'hotel' en inglés?",
           "options": [
-            "[[Hotel|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Hotel|Hotel]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -727,15 +727,15 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'room' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'room' en inglés?",
           "options": [
-            "[[Room|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Room|Habitación]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -753,15 +753,15 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'key' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'key' en inglés?",
           "options": [
-            "[[Key|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Key|Llave]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -779,15 +779,15 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'reservation' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'reservation' en inglés?",
           "options": [
-            "[[Reservation|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Reservation|Reservation]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -805,15 +805,15 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'reception' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'reception' en inglés?",
           "options": [
-            "[[Reception|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Reception|Recepción]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -831,15 +831,15 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'breakfast' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'breakfast' en inglés?",
           "options": [
-            "[[Breakfast|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Breakfast|Desayuno]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -857,15 +857,15 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'shower' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'shower' en inglés?",
           "options": [
-            "[[Shower|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Shower|Shower]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -883,15 +883,15 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'hotel' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'hotel' en inglés?",
           "options": [
-            "[[Hotel|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Hotel|Hotel]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -909,15 +909,15 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'room' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'room' en inglés?",
           "options": [
-            "[[Room|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Room|Habitación]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -935,15 +935,15 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'key' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'key' en inglés?",
           "options": [
-            "[[Key|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Key|Llave]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -961,15 +961,15 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'reservation' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'reservation' en inglés?",
           "options": [
-            "[[Reservation|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Reservation|Reservation]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -987,15 +987,15 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'reception' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'reception' en inglés?",
           "options": [
-            "[[Reception|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Reception|Recepción]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1013,15 +1013,15 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'breakfast' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'breakfast' en inglés?",
           "options": [
-            "[[Breakfast|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Breakfast|Desayuno]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1039,15 +1039,15 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'shower' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'shower' en inglés?",
           "options": [
-            "[[Shower|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Shower|Shower]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1065,15 +1065,15 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'hotel' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'hotel' en inglés?",
           "options": [
-            "[[Hotel|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Hotel|Hotel]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1091,15 +1091,15 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'room' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'room' en inglés?",
           "options": [
-            "[[Room|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Room|Habitación]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1117,15 +1117,15 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'key' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'key' en inglés?",
           "options": [
-            "[[Key|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Key|Llave]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1143,15 +1143,15 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'reservation' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'reservation' en inglés?",
           "options": [
-            "[[Reservation|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Reservation|Reservation]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1169,15 +1169,15 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'reception' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'reception' en inglés?",
           "options": [
-            "[[Reception|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Reception|Recepción]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1195,15 +1195,15 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'breakfast' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'breakfast' en inglés?",
           "options": [
-            "[[Breakfast|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Breakfast|Desayuno]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1221,15 +1221,15 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'shower' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'shower' en inglés?",
           "options": [
-            "[[Shower|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Shower|Shower]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1247,15 +1247,15 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'hotel' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'hotel' en inglés?",
           "options": [
-            "[[Hotel|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Hotel|Hotel]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1273,15 +1273,15 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'room' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'room' en inglés?",
           "options": [
-            "[[Room|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Room|Habitación]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1299,15 +1299,15 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'key' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'key' en inglés?",
           "options": [
-            "[[Key|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Key|Llave]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1325,15 +1325,15 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'reservation' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'reservation' en inglés?",
           "options": [
-            "[[Reservation|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Reservation|Reservation]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1351,15 +1351,15 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'reception' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'reception' en inglés?",
           "options": [
-            "[[Reception|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Reception|Recepción]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1377,15 +1377,15 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'breakfast' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'breakfast' en inglés?",
           "options": [
-            "[[Breakfast|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Breakfast|Desayuno]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1403,15 +1403,15 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'shower' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'shower' en inglés?",
           "options": [
-            "[[Shower|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Shower|Shower]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1429,15 +1429,15 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'hotel' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'hotel' en inglés?",
           "options": [
-            "[[Hotel|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Hotel|Hotel]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1459,10 +1459,10 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[hotel|]] is here.",
+          "question": "The [[hotel|hotel]] is here.",
           "options": [
-            "[[Where is the reception desk?|]]",
-            "[[hotel|]]"
+            "[[Where is the reception desk?|Where is the reception desk?]]",
+            "[[hotel|hotel]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1484,10 +1484,10 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[room|]] is here.",
+          "question": "The [[room|habitación]] is here.",
           "options": [
-            "[[room|]]",
-            "[[key|]]"
+            "[[room|habitación]]",
+            "[[key|key]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1509,10 +1509,10 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[key|]] is here.",
+          "question": "The [[key|key]] is here.",
           "options": [
-            "[[key|]]",
-            "[[breakfast|]]"
+            "[[key|key]]",
+            "[[breakfast|breakfast]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1534,10 +1534,10 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[reservation|]] is here.",
+          "question": "The [[reservation|reservation]] is here.",
           "options": [
-            "[[reservation|]]",
-            "[[I would like a quiet room, please.|]]"
+            "[[reservation|reservation]]",
+            "[[I would like a quiet room, please.|I would like a quiet room, please.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1559,10 +1559,10 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[reception|]] is here.",
+          "question": "The [[reception|reception]] is here.",
           "options": [
-            "[[reception|]]",
-            "[[check|]]"
+            "[[reception|reception]]",
+            "[[check|check]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1584,10 +1584,10 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[breakfast|]] is here.",
+          "question": "The [[breakfast|breakfast]] is here.",
           "options": [
-            "[[breakfast|]]",
-            "[[o1|]]"
+            "[[breakfast|breakfast]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1609,10 +1609,10 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[shower|]] is here.",
+          "question": "The [[shower|shower]] is here.",
           "options": [
-            "[[shower|]]",
-            "[[Where is the elevator?|]]"
+            "[[shower|shower]]",
+            "[[Where is the elevator?|Where is the elevator?]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

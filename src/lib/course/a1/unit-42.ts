@@ -8,46 +8,46 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Empareja los medios de transporte:",
       "questions": [
         {
           "question": "Train",
           "options": [
-            "[[Avión|]]",
-            "[[Barco|]]",
-            "[[Tren|]]",
-            "[[Autobús|]]"
+            "[[Avión|Avión]]",
+            "[[Barco|Barco]]",
+            "[[Tren|Tren]]",
+            "[[Autobús|Autobús]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Bus",
           "options": [
-            "[[Barco|]]",
-            "[[Tren|]]",
-            "[[Avión|]]",
-            "[[Autobús|]]"
+            "[[Barco|Barco]]",
+            "[[Tren|Tren]]",
+            "[[Avión|Avión]]",
+            "[[Autobús|Autobús]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Plane",
           "options": [
-            "[[Avión|]]",
-            "[[Barco|]]",
-            "[[Autobús|]]",
-            "[[Tren|]]"
+            "[[Avión|Avión]]",
+            "[[Barco|Barco]]",
+            "[[Autobús|Autobús]]",
+            "[[Tren|Tren]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Boat",
           "options": [
-            "[[Tren|]]",
-            "[[Avión|]]",
-            "[[Barco|]]",
-            "[[Autobús|]]"
+            "[[Tren|Tren]]",
+            "[[Avión|Avión]]",
+            "[[Barco|Barco]]",
+            "[[Autobús|Autobús]]"
           ],
           "correctAnswer": 2
         }
@@ -63,15 +63,15 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Dónde esperas el tren?",
       "questions": [
         {
           "question": "¿Dónde esperas el tren?",
           "options": [
-            "[[Platform|]]",
-            "[[Kitchen|]]",
-            "[[Park|]]"
+            "[[Platform|Platform]]",
+            "[[Kitchen|Cocina]]",
+            "[[Park|Parque]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -88,16 +88,16 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa el lugar:",
       "questions": [
         {
           "question": "I buy my ticket at the bus ________. (estación)",
           "options": [
-            "[[Please buy your ticket.|]]",
-            "[[station|]]",
-            "[[train|]]",
-            "[[bicycle|]]"
+            "[[Please buy your ticket.|Please buy your ticket.]]",
+            "[[station|station]]",
+            "[[train|train]]",
+            "[[bicycle|bicycle]]"
           ],
           "correctAnswer": 1
         }
@@ -119,8 +119,8 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'Bicicleta'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -143,8 +143,8 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "Taxi",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -161,15 +161,15 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "I go to London ________ train.",
       "questions": [
         {
           "question": "I go to London ________ train.",
           "options": [
-            "[[by|]]",
-            "[[in|]]",
-            "[[on|]]"
+            "[[by|by]]",
+            "[[in|in]]",
+            "[[on|on]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -186,16 +186,16 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con la preposición (on/at):",
       "questions": [
         {
           "question": "Wait for me ________ the station.",
           "options": [
-            "[[o1|]]",
-            "[[o1|]]",
-            "[[station|]]",
-            "[[at|]]"
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]",
+            "[[station|station]]",
+            "[[at|at]]"
           ],
           "correctAnswer": 3
         }
@@ -217,8 +217,8 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "¿Es natural decir 'I am on the bus'?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -234,16 +234,16 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa la frase:",
       "questions": [
         {
           "question": "The train ________ at 9:00 AM. (sale)",
           "options": [
-            "[[o1|]]",
-            "[[o1|]]",
-            "[[leaves|]]",
-            "[[o1|]]"
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]",
+            "[[leaves|hojas]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 2
         }
@@ -264,7 +264,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "A ticket to Oxford, please.",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -280,15 +280,15 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "Announcement: 'The 10:30 bus is delayed.' - Meaning:",
       "questions": [
         {
           "question": "Announcement: 'The 10:30 bus is delayed.' - Meaning:",
           "options": [
-            "[[The bus is late.|]]",
-            "[[The bus is on time.|]]",
-            "[[The bus is fast.|]]"
+            "[[The bus is late.|The bus is late.]]",
+            "[[The bus is on time.|The bus is on time.]]",
+            "[[The bus is fast.|The bus is fast.]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -305,16 +305,16 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa el diálogo:",
       "questions": [
         {
           "question": "A: Which platform for the London train?\nB: Platform ________ 4. (número)",
           "options": [
-            "[[o1|]]",
-            "[[number|]]",
-            "[[leaves|]]",
-            "[[at|]]"
+            "[[o1|opción 1]]",
+            "[[number|number]]",
+            "[[leaves|hojas]]",
+            "[[at|at]]"
           ],
           "correctAnswer": 1
         }
@@ -336,8 +336,8 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'Voy en coche'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -360,8 +360,8 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "Trains leave from a station.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -384,8 +384,8 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "Escucha el anuncio:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -402,15 +402,15 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "David is on the train. He sits by the window. He has a book in his hands. David opens the book and starts to read. The train is quiet. David likes reading. The book is about animals. David smiles as he reads. The train moves fast, but David is happy with his book.",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Qué hace David en el tren?",
       "questions": [
         {
           "question": "David is on the train. He sits by the window. He has a book in his hands. David opens the book and starts to read. The train is quiet. David likes reading. The book is about animals. David smiles as he reads. The train moves fast, but David is happy with his book.",
           "options": [
-            "[[Reads a book|]]",
-            "[[Sleeps|]]",
-            "[[Eats breakfast|]]"
+            "[[Reads a book|Reads a book]]",
+            "[[Sleeps|Sleeps]]",
+            "[[Eats breakfast|Eats breakfast]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -434,8 +434,8 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[The train arrives at platform two.|]]",
-            "[[The ferry leaves at noon.|]]"
+            "[[The train arrives at platform two.|The train arrives at platform two.]]",
+            "[[The ferry leaves at noon.|The ferry leaves at noon.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -459,8 +459,8 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|]]",
-            "[[I go to work by bus.|]]"
+            "[[o1|opción 1]]",
+            "[[I go to work by bus.|I go to work by bus.]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -484,8 +484,8 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[The next bus is in ten minutes.|]]",
-            "[[o1|]]"
+            "[[The next bus is in ten minutes.|The next bus is in ten minutes.]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -509,8 +509,8 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Please buy your ticket.|]]",
-            "[[leaves|]]"
+            "[[Please buy your ticket.|Please buy your ticket.]]",
+            "[[leaves|hojas]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -534,8 +534,8 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[The station is very crowded.|]]",
-            "[[o1|]]"
+            "[[The station is very crowded.|The station is very crowded.]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -559,8 +559,8 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|]]",
-            "[[Where is the bus stop?|]]"
+            "[[o1|opción 1]]",
+            "[[Where is the bus stop?|Where is the bus stop?]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -584,8 +584,8 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Where is the bus stop?|]]",
-            "[[The ferry leaves at noon.|]]"
+            "[[Where is the bus stop?|Where is the bus stop?]]",
+            "[[The ferry leaves at noon.|The ferry leaves at noon.]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -731,15 +731,15 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'bus' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'bus' en inglés?",
           "options": [
-            "[[Bus|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Bus|Autobús]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -757,15 +757,15 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'train' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'train' en inglés?",
           "options": [
-            "[[Train|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Train|Tren]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -783,15 +783,15 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'plane' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'plane' en inglés?",
           "options": [
-            "[[Plane|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Plane|Avión]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -809,15 +809,15 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'taxi' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'taxi' en inglés?",
           "options": [
-            "[[Taxi|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Taxi|Taxi]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -835,15 +835,15 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'bicycle' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'bicycle' en inglés?",
           "options": [
-            "[[Bicycle|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Bicycle|Bicycle]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -861,15 +861,15 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'station' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'station' en inglés?",
           "options": [
-            "[[Station|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Station|Estación]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -887,15 +887,15 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'ticket' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'ticket' en inglés?",
           "options": [
-            "[[Ticket|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Ticket|Billete]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -913,15 +913,15 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'bus' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'bus' en inglés?",
           "options": [
-            "[[Bus|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Bus|Autobús]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -939,15 +939,15 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'train' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'train' en inglés?",
           "options": [
-            "[[Train|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Train|Tren]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -965,15 +965,15 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'plane' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'plane' en inglés?",
           "options": [
-            "[[Plane|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Plane|Avión]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -991,15 +991,15 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'taxi' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'taxi' en inglés?",
           "options": [
-            "[[Taxi|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Taxi|Taxi]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1017,15 +1017,15 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'bicycle' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'bicycle' en inglés?",
           "options": [
-            "[[Bicycle|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Bicycle|Bicycle]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1043,15 +1043,15 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'station' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'station' en inglés?",
           "options": [
-            "[[Station|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Station|Estación]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1069,15 +1069,15 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'ticket' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'ticket' en inglés?",
           "options": [
-            "[[Ticket|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Ticket|Billete]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1095,15 +1095,15 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'bus' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'bus' en inglés?",
           "options": [
-            "[[Bus|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Bus|Autobús]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1121,15 +1121,15 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'train' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'train' en inglés?",
           "options": [
-            "[[Train|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Train|Tren]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1147,15 +1147,15 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'plane' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'plane' en inglés?",
           "options": [
-            "[[Plane|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Plane|Avión]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1173,15 +1173,15 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'taxi' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'taxi' en inglés?",
           "options": [
-            "[[Taxi|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Taxi|Taxi]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1199,15 +1199,15 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'bicycle' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'bicycle' en inglés?",
           "options": [
-            "[[Bicycle|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Bicycle|Bicycle]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1225,15 +1225,15 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'station' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'station' en inglés?",
           "options": [
-            "[[Station|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Station|Estación]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1251,15 +1251,15 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'ticket' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'ticket' en inglés?",
           "options": [
-            "[[Ticket|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Ticket|Billete]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1277,15 +1277,15 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'bus' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'bus' en inglés?",
           "options": [
-            "[[Bus|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Bus|Autobús]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1303,15 +1303,15 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'train' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'train' en inglés?",
           "options": [
-            "[[Train|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Train|Tren]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1329,15 +1329,15 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'plane' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'plane' en inglés?",
           "options": [
-            "[[Plane|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Plane|Avión]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1355,15 +1355,15 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'taxi' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'taxi' en inglés?",
           "options": [
-            "[[Taxi|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Taxi|Taxi]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1381,15 +1381,15 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'bicycle' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'bicycle' en inglés?",
           "options": [
-            "[[Bicycle|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Bicycle|Bicycle]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1407,15 +1407,15 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'station' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'station' en inglés?",
           "options": [
-            "[[Station|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Station|Estación]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1433,15 +1433,15 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'ticket' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'ticket' en inglés?",
           "options": [
-            "[[Ticket|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Ticket|Billete]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1459,15 +1459,15 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'bus' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'bus' en inglés?",
           "options": [
-            "[[Bus|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Bus|Autobús]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1489,10 +1489,10 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[bus|]] is here.",
+          "question": "The [[bus|bus]] is here.",
           "options": [
-            "[[train|]]",
-            "[[bus|]]"
+            "[[train|train]]",
+            "[[bus|bus]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1514,10 +1514,10 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[train|]] is here.",
+          "question": "The [[train|train]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[train|]]"
+            "[[o1|opción 1]]",
+            "[[train|train]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1539,10 +1539,10 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[plane|]] is here.",
+          "question": "The [[plane|plane]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[plane|]]"
+            "[[o1|opción 1]]",
+            "[[plane|plane]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1564,10 +1564,10 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[taxi|]] is here.",
+          "question": "The [[taxi|taxi]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[taxi|]]"
+            "[[o1|opción 1]]",
+            "[[taxi|taxi]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1589,10 +1589,10 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[bicycle|]] is here.",
+          "question": "The [[bicycle|bicycle]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[bicycle|]]"
+            "[[o1|opción 1]]",
+            "[[bicycle|bicycle]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1614,10 +1614,10 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[station|]] is here.",
+          "question": "The [[station|station]] is here.",
           "options": [
-            "[[station|]]",
-            "[[The station is very crowded.|]]"
+            "[[station|station]]",
+            "[[The station is very crowded.|The station is very crowded.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1639,10 +1639,10 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[ticket|]] is here.",
+          "question": "The [[ticket|ticket]] is here.",
           "options": [
-            "[[leaves|]]",
-            "[[ticket|]]"
+            "[[leaves|hojas]]",
+            "[[ticket|ticket]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

@@ -8,36 +8,36 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Empareja cada conector con su función:",
       "questions": [
         {
           "question": "And",
           "options": [
-            "[[Añadir información (+)|]]",
-            "[[Dar una razón (¿Por qué?)|]]",
-            "[[Contrastar ideas (+/-)|]]",
-            "[[o1|]]"
+            "[[Añadir información (+)|Añadir información (+)]]",
+            "[[Dar una razón (¿Por qué?)|Dar una razón (¿Por qué?)]]",
+            "[[Contrastar ideas (+/-)|Contrastar ideas (+/-)]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "But",
           "options": [
-            "[[Dar una razón (¿Por qué?)|]]",
-            "[[Añadir información (+)|]]",
-            "[[Contrastar ideas (+/-)|]]",
-            "[[o1|]]"
+            "[[Dar una razón (¿Por qué?)|Dar una razón (¿Por qué?)]]",
+            "[[Añadir información (+)|Añadir información (+)]]",
+            "[[Contrastar ideas (+/-)|Contrastar ideas (+/-)]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Because",
           "options": [
-            "[[o1|]]",
-            "[[Contrastar ideas (+/-)|]]",
-            "[[Dar una razón (¿Por qué?)|]]",
-            "[[Añadir información (+)|]]"
+            "[[o1|opción 1]]",
+            "[[Contrastar ideas (+/-)|Contrastar ideas (+/-)]]",
+            "[[Dar una razón (¿Por qué?)|Dar una razón (¿Por qué?)]]",
+            "[[Añadir información (+)|Añadir información (+)]]"
           ],
           "correctAnswer": 2
         }
@@ -53,15 +53,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cuál significa 'O' (elección)?",
       "questions": [
         {
           "question": "¿Cuál significa 'O' (elección)?",
           "options": [
-            "[[Or|]]",
-            "[[And|]]",
-            "[[But|]]"
+            "[[Or|Or]]",
+            "[[And|And]]",
+            "[[But|But]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -78,16 +78,16 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con el conector de adición:",
       "questions": [
         {
           "question": "I speak English ________ Spanish.",
           "options": [
-            "[[o1|]]",
-            "[[o1|]]",
-            "[[o1|]]",
-            "[[and|]]"
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]",
+            "[[and|and]]"
           ],
           "correctAnswer": 3
         }
@@ -109,8 +109,8 @@ export const UNIT_34_EXERCISES: Exercise[] = [
         {
           "question": "Because",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -132,7 +132,7 @@ export const UNIT_34_EXERCISES: Exercise[] = [
         {
           "question": "She is tall and beautiful",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -147,16 +147,16 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con 'and' o 'but':",
       "questions": [
         {
           "question": "I can swim ________ I can't drive.",
           "options": [
-            "[[or|]]",
-            "[[o1|]]",
-            "[[but|]]",
-            "[[because|]]"
+            "[[or|or]]",
+            "[[o1|opción 1]]",
+            "[[but|but]]",
+            "[[because|because]]"
           ],
           "correctAnswer": 2
         }
@@ -178,8 +178,8 @@ export const UNIT_34_EXERCISES: Exercise[] = [
         {
           "question": "¿Es gramaticalmente correcto? 'I want an apple and an orange.'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -195,16 +195,16 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con el conector de razón:",
       "questions": [
         {
           "question": "I am happy ________ it is my birthday.",
           "options": [
-            "[[o1|]]",
-            "[[and|]]",
-            "[[because|]]",
-            "[[o1|]]"
+            "[[o1|opción 1]]",
+            "[[and|and]]",
+            "[[because|because]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 2
         }
@@ -220,15 +220,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cuál responde a la pregunta 'Why are you late?'?",
       "questions": [
         {
           "question": "¿Cuál responde a la pregunta 'Why are you late?'?",
           "options": [
-            "[[Because the bus was late|]]",
-            "[[But the bus was late|]]",
-            "[[And the bus was late|]]"
+            "[[Because the bus was late|Because the bus was late]]",
+            "[[But the bus was late|But the bus was late]]",
+            "[[And the bus was late|And the bus was late]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -251,7 +251,7 @@ export const UNIT_34_EXERCISES: Exercise[] = [
         {
           "question": "He is tired because he is at work",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -273,8 +273,8 @@ export const UNIT_34_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'Estudio inglés porque me gusta.'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -297,8 +297,8 @@ export const UNIT_34_EXERCISES: Exercise[] = [
         {
           "question": "¿'Because' se usa para contrastar ideas opuestas?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -315,15 +315,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "Tom visits the city for the first time. He meets many people. They smile and say hello. Tom feels happy. The people in the city are friendly. Tom likes the city. He thinks the city is nice. He walks in the park and sees children playing. He eats lunch in a small café. The city is busy, but Tom enjoys it.",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cuál es la actitud del narrador hacia la gente de la ciudad?",
       "questions": [
         {
           "question": "Tom visits the city for the first time. He meets many people. They smile and say hello. Tom feels happy. The people in the city are friendly. Tom likes the city. He thinks the city is nice. He walks in the park and sees children playing. He eats lunch in a small café. The city is busy, but Tom enjoys it.",
           "options": [
-            "[[They are friendly|]]",
-            "[[They are unfriendly|]]",
-            "[[The text doesn't say|]]"
+            "[[They are friendly|They are friendly]]",
+            "[[They are unfriendly|They are unfriendly]]",
+            "[[The text doesn't say|The text doesn't say]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -341,15 +341,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'and' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'and' en inglés?",
           "options": [
-            "[[And|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[And|And]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -367,15 +367,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'but' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'but' en inglés?",
           "options": [
-            "[[But|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[But|But]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -393,15 +393,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'because' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'because' en inglés?",
           "options": [
-            "[[Because|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Because|Because]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -419,15 +419,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'so' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'so' en inglés?",
           "options": [
-            "[[So|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[So|So]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -445,15 +445,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'or' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'or' en inglés?",
           "options": [
-            "[[Or|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Or|Or]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -471,15 +471,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'then' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'then' en inglés?",
           "options": [
-            "[[Then|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Then|Then]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -497,15 +497,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'finally' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'finally' en inglés?",
           "options": [
-            "[[Finally|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Finally|Finally]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -523,15 +523,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'and' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'and' en inglés?",
           "options": [
-            "[[And|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[And|And]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -549,15 +549,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'but' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'but' en inglés?",
           "options": [
-            "[[But|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[But|But]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -575,15 +575,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'because' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'because' en inglés?",
           "options": [
-            "[[Because|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Because|Because]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -601,15 +601,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'so' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'so' en inglés?",
           "options": [
-            "[[So|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[So|So]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -627,15 +627,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'or' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'or' en inglés?",
           "options": [
-            "[[Or|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Or|Or]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -653,15 +653,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'then' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'then' en inglés?",
           "options": [
-            "[[Then|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Then|Then]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -679,15 +679,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'finally' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'finally' en inglés?",
           "options": [
-            "[[Finally|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Finally|Finally]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -705,15 +705,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'and' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'and' en inglés?",
           "options": [
-            "[[And|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[And|And]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -731,15 +731,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'but' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'but' en inglés?",
           "options": [
-            "[[But|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[But|But]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -757,15 +757,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'because' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'because' en inglés?",
           "options": [
-            "[[Because|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Because|Because]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -783,15 +783,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'so' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'so' en inglés?",
           "options": [
-            "[[So|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[So|So]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -809,15 +809,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'or' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'or' en inglés?",
           "options": [
-            "[[Or|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Or|Or]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -835,15 +835,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'then' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'then' en inglés?",
           "options": [
-            "[[Then|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Then|Then]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -861,15 +861,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'finally' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'finally' en inglés?",
           "options": [
-            "[[Finally|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Finally|Finally]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -887,15 +887,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'and' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'and' en inglés?",
           "options": [
-            "[[And|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[And|And]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -913,15 +913,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'but' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'but' en inglés?",
           "options": [
-            "[[But|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[But|But]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -939,15 +939,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'because' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'because' en inglés?",
           "options": [
-            "[[Because|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Because|Because]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -965,15 +965,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'so' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'so' en inglés?",
           "options": [
-            "[[So|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[So|So]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -991,15 +991,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'or' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'or' en inglés?",
           "options": [
-            "[[Or|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Or|Or]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1017,15 +1017,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'then' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'then' en inglés?",
           "options": [
-            "[[Then|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Then|Then]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1043,15 +1043,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'finally' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'finally' en inglés?",
           "options": [
-            "[[Finally|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Finally|Finally]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1069,15 +1069,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'and' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'and' en inglés?",
           "options": [
-            "[[And|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[And|And]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1095,15 +1095,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'but' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'but' en inglés?",
           "options": [
-            "[[But|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[But|But]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1121,15 +1121,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'because' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'because' en inglés?",
           "options": [
-            "[[Because|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Because|Because]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1147,15 +1147,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'so' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'so' en inglés?",
           "options": [
-            "[[So|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[So|So]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1173,15 +1173,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'or' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'or' en inglés?",
           "options": [
-            "[[Or|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Or|Or]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1199,15 +1199,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'then' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'then' en inglés?",
           "options": [
-            "[[Then|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Then|Then]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1225,15 +1225,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'finally' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'finally' en inglés?",
           "options": [
-            "[[Finally|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Finally|Finally]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1251,15 +1251,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'and' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'and' en inglés?",
           "options": [
-            "[[And|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[And|And]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1277,15 +1277,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'but' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'but' en inglés?",
           "options": [
-            "[[But|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[But|But]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1303,15 +1303,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'because' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'because' en inglés?",
           "options": [
-            "[[Because|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Because|Because]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1329,15 +1329,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'so' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'so' en inglés?",
           "options": [
-            "[[So|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[So|So]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1355,15 +1355,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'or' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'or' en inglés?",
           "options": [
-            "[[Or|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Or|Or]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1381,15 +1381,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'then' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'then' en inglés?",
           "options": [
-            "[[Then|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Then|Then]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1407,15 +1407,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'finally' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'finally' en inglés?",
           "options": [
-            "[[Finally|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Finally|Finally]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1433,15 +1433,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'and' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'and' en inglés?",
           "options": [
-            "[[And|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[And|And]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1459,15 +1459,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'but' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'but' en inglés?",
           "options": [
-            "[[But|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[But|But]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1485,15 +1485,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'because' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'because' en inglés?",
           "options": [
-            "[[Because|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Because|Because]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1511,15 +1511,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'so' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'so' en inglés?",
           "options": [
-            "[[So|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[So|So]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1537,15 +1537,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'or' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'or' en inglés?",
           "options": [
-            "[[Or|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Or|Or]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1567,10 +1567,10 @@ export const UNIT_34_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[and|]] is here.",
+          "question": "The [[and|and]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[and|]]"
+            "[[o1|opción 1]]",
+            "[[and|and]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1592,10 +1592,10 @@ export const UNIT_34_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[but|]] is here.",
+          "question": "The [[but|but]] is here.",
           "options": [
-            "[[because|]]",
-            "[[but|]]"
+            "[[because|because]]",
+            "[[but|but]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1617,10 +1617,10 @@ export const UNIT_34_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[because|]] is here.",
+          "question": "The [[because|because]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[because|]]"
+            "[[o1|opción 1]]",
+            "[[because|because]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1642,10 +1642,10 @@ export const UNIT_34_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[so|]] is here.",
+          "question": "The [[so|so]] is here.",
           "options": [
-            "[[Añadir información (+)|]]",
-            "[[so|]]"
+            "[[Añadir información (+)|Añadir información (+)]]",
+            "[[so|so]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1667,10 +1667,10 @@ export const UNIT_34_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[or|]] is here.",
+          "question": "The [[or|or]] is here.",
           "options": [
-            "[[or|]]",
-            "[[o1|]]"
+            "[[or|or]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1692,10 +1692,10 @@ export const UNIT_34_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[then|]] is here.",
+          "question": "The [[then|then]] is here.",
           "options": [
-            "[[because|]]",
-            "[[then|]]"
+            "[[because|because]]",
+            "[[then|then]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1717,10 +1717,10 @@ export const UNIT_34_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[finally|]] is here.",
+          "question": "The [[finally|finally]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[finally|]]"
+            "[[o1|opción 1]]",
+            "[[finally|finally]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

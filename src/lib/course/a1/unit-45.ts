@@ -8,46 +8,46 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Empareja las estaciones:",
       "questions": [
         {
           "question": "Spring",
           "options": [
-            "[[Primavera|]]",
-            "[[Invierno|]]",
-            "[[Verano|]]",
-            "[[Otoño|]]"
+            "[[Primavera|Primavera]]",
+            "[[Invierno|Invierno]]",
+            "[[Verano|Verano]]",
+            "[[Otoño|Otoño]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Summer",
           "options": [
-            "[[Otoño|]]",
-            "[[Verano|]]",
-            "[[Primavera|]]",
-            "[[Invierno|]]"
+            "[[Otoño|Otoño]]",
+            "[[Verano|Verano]]",
+            "[[Primavera|Primavera]]",
+            "[[Invierno|Invierno]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Autumn",
           "options": [
-            "[[Otoño|]]",
-            "[[Primavera|]]",
-            "[[Verano|]]",
-            "[[Invierno|]]"
+            "[[Otoño|Otoño]]",
+            "[[Primavera|Primavera]]",
+            "[[Verano|Verano]]",
+            "[[Invierno|Invierno]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Winter",
           "options": [
-            "[[Verano|]]",
-            "[[Otoño|]]",
-            "[[Invierno|]]",
-            "[[Primavera|]]"
+            "[[Verano|Verano]]",
+            "[[Otoño|Otoño]]",
+            "[[Invierno|Invierno]]",
+            "[[Primavera|Primavera]]"
           ],
           "correctAnswer": 2
         }
@@ -63,15 +63,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿En qué estación hay flores?",
       "questions": [
         {
           "question": "¿En qué estación hay flores?",
           "options": [
-            "[[Spring|]]",
-            "[[Winter|]]",
-            "[[Autumn|]]"
+            "[[Spring|Spring]]",
+            "[[Winter|Winter]]",
+            "[[Autumn|Autumn]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -88,16 +88,16 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa la estación:",
       "questions": [
         {
           "question": "It is December. It is ________. (invierno)",
           "options": [
-            "[[autumn|]]",
-            "[[o1|]]",
-            "[[winter|]]",
-            "[[leaves|]]"
+            "[[autumn|otoño]]",
+            "[[o1|opción 1]]",
+            "[[winter|invierno]]",
+            "[[leaves|hojas]]"
           ],
           "correctAnswer": 2
         }
@@ -119,8 +119,8 @@ export const UNIT_45_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'Verano'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -143,8 +143,8 @@ export const UNIT_45_EXERCISES: Exercise[] = [
         {
           "question": "Autumn",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -161,15 +161,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "I go to the beach ________ summer.",
       "questions": [
         {
           "question": "I go to the beach ________ summer.",
           "options": [
-            "[[in|]]",
-            "[[on|]]",
-            "[[at|]]"
+            "[[in|in]]",
+            "[[on|on]]",
+            "[[at|at]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -186,16 +186,16 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con la forma -ing:",
       "questions": [
         {
           "question": "I like ________ in winter. (esquiar/ski)",
           "options": [
-            "[[skiing|]]",
-            "[[o1|]]",
-            "[[o1|]]",
-            "[[o1|]]"
+            "[[skiing|skiing]]",
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0
         }
@@ -217,8 +217,8 @@ export const UNIT_45_EXERCISES: Exercise[] = [
         {
           "question": "¿Es correcto: 'On autumn the leaves fall'?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -234,16 +234,16 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa la pregunta:",
       "questions": [
         {
           "question": "Which season ________ you like best?",
           "options": [
-            "[[It is very cold in winter.|]]",
-            "[[Do you like winter?|]]",
-            "[[do|]]",
-            "[[I like spring|]]"
+            "[[It is very cold in winter.|Hace mucho frío en invierno.]]",
+            "[[Do you like winter?|¿Te gusta el invierno?]]",
+            "[[do|hacer]]",
+            "[[I like spring|Me gusta la primavera]]"
           ],
           "correctAnswer": 2
         }
@@ -264,7 +264,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
         {
           "question": "My favorite season is autumn.",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -280,15 +280,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "In winter, you can:",
       "questions": [
         {
           "question": "In winter, you can:",
           "options": [
-            "[[See snow|]]",
-            "[[Go to the beach|]]",
-            "[[See flowers blossom|]]"
+            "[[See snow|Ver nieve]]",
+            "[[Go to the beach|Ir a la playa]]",
+            "[[See flowers blossom|Ver las flores florecer]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -305,16 +305,16 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa la frase:",
       "questions": [
         {
           "question": "In autumn, the ________ are brown and orange. (hojas)",
           "options": [
-            "[[o1|]]",
-            "[[o1|]]",
-            "[[o1|]]",
-            "[[leaves|]]"
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]",
+            "[[leaves|hojas]]"
           ],
           "correctAnswer": 3
         }
@@ -336,8 +336,8 @@ export const UNIT_45_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'Me gusta la primavera'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -360,8 +360,8 @@ export const UNIT_45_EXERCISES: Exercise[] = [
         {
           "question": "Summer is usually hot.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -378,15 +378,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "Alice stays at home in winter because it is cold. She likes to sit by the fire and drink hot chocolate. She reads books and watches movies. Her cat, Snowy, sits on her lap. Alice is happy and warm inside her house when the winter wind blows outside.",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Por qué Alice se queda en casa en invierno?",
       "questions": [
         {
           "question": "Alice stays at home in winter because it is cold. She likes to sit by the fire and drink hot chocolate. She reads books and watches movies. Her cat, Snowy, sits on her lap. Alice is happy and warm inside her house when the winter wind blows outside.",
           "options": [
-            "[[Because it is cold|]]",
-            "[[Because she is busy|]]",
-            "[[Because it is rainy|]]"
+            "[[Because it is cold|Porque hace frío]]",
+            "[[Because she is busy|Porque ella está ocupada]]",
+            "[[Because it is rainy|Porque está lluvioso]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -410,8 +410,8 @@ export const UNIT_45_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[My favorite season is spring.|]]",
-            "[[o1|]]"
+            "[[My favorite season is spring.|Mi estación favorita es la primavera.]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -435,8 +435,8 @@ export const UNIT_45_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[In summer, the weather is hot.|]]",
-            "[[skiing|]]"
+            "[[In summer, the weather is hot.|En verano, el clima es caluroso.]]",
+            "[[skiing|skiing]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -460,8 +460,8 @@ export const UNIT_45_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Leaves fall in autumn.|]]",
-            "[[o1|]]"
+            "[[Leaves fall in autumn.|Las hojas caen en otoño.]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -485,8 +485,8 @@ export const UNIT_45_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[It is very cold in winter.|]]",
-            "[[beach|]]"
+            "[[It is very cold in winter.|Hace mucho frío en invierno.]]",
+            "[[beach|beach]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -510,8 +510,8 @@ export const UNIT_45_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|]]",
-            "[[We go to the beach in August.|]]"
+            "[[o1|opción 1]]",
+            "[[We go to the beach in August.|Vamos a la playa en agosto.]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -535,8 +535,8 @@ export const UNIT_45_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|]]",
-            "[[Plants grow in the spring.|]]"
+            "[[o1|opción 1]]",
+            "[[Plants grow in the spring.|Las plantas crecen en la primavera.]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -560,8 +560,8 @@ export const UNIT_45_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Do you like winter?|]]",
-            "[[o1|]]"
+            "[[Do you like winter?|¿Te gusta el invierno?]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -707,15 +707,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'spring' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'spring' en inglés?",
           "options": [
-            "[[Spring|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Spring|Spring]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -733,15 +733,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'summer' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'summer' en inglés?",
           "options": [
-            "[[Summer|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Summer|Summer]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -759,15 +759,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'autumn' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'autumn' en inglés?",
           "options": [
-            "[[Autumn|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Autumn|Autumn]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -785,15 +785,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'winter' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'winter' en inglés?",
           "options": [
-            "[[Winter|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Winter|Winter]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -811,15 +811,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'beach' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'beach' en inglés?",
           "options": [
-            "[[Beach|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Beach|Playa]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -837,15 +837,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'flowers' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'flowers' en inglés?",
           "options": [
-            "[[Flowers|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Flowers|Flowers]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -863,15 +863,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'leaves' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'leaves' en inglés?",
           "options": [
-            "[[Leaves|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Leaves|Leaves]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -889,15 +889,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'spring' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'spring' en inglés?",
           "options": [
-            "[[Spring|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Spring|Spring]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -915,15 +915,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'summer' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'summer' en inglés?",
           "options": [
-            "[[Summer|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Summer|Summer]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -941,15 +941,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'autumn' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'autumn' en inglés?",
           "options": [
-            "[[Autumn|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Autumn|Autumn]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -967,15 +967,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'winter' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'winter' en inglés?",
           "options": [
-            "[[Winter|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Winter|Winter]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -993,15 +993,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'beach' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'beach' en inglés?",
           "options": [
-            "[[Beach|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Beach|Playa]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1019,15 +1019,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'flowers' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'flowers' en inglés?",
           "options": [
-            "[[Flowers|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Flowers|Flowers]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1045,15 +1045,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'leaves' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'leaves' en inglés?",
           "options": [
-            "[[Leaves|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Leaves|Leaves]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1071,15 +1071,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'spring' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'spring' en inglés?",
           "options": [
-            "[[Spring|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Spring|Spring]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1097,15 +1097,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'summer' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'summer' en inglés?",
           "options": [
-            "[[Summer|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Summer|Summer]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1123,15 +1123,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'autumn' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'autumn' en inglés?",
           "options": [
-            "[[Autumn|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Autumn|Autumn]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1149,15 +1149,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'winter' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'winter' en inglés?",
           "options": [
-            "[[Winter|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Winter|Winter]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1175,15 +1175,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'beach' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'beach' en inglés?",
           "options": [
-            "[[Beach|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Beach|Playa]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1201,15 +1201,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'flowers' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'flowers' en inglés?",
           "options": [
-            "[[Flowers|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Flowers|Flowers]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1227,15 +1227,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'leaves' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'leaves' en inglés?",
           "options": [
-            "[[Leaves|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Leaves|Leaves]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1253,15 +1253,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'spring' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'spring' en inglés?",
           "options": [
-            "[[Spring|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Spring|Spring]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1279,15 +1279,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'summer' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'summer' en inglés?",
           "options": [
-            "[[Summer|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Summer|Summer]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1305,15 +1305,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'autumn' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'autumn' en inglés?",
           "options": [
-            "[[Autumn|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Autumn|Autumn]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1331,15 +1331,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'winter' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'winter' en inglés?",
           "options": [
-            "[[Winter|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Winter|Winter]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1357,15 +1357,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'beach' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'beach' en inglés?",
           "options": [
-            "[[Beach|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Beach|Playa]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1383,15 +1383,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'flowers' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'flowers' en inglés?",
           "options": [
-            "[[Flowers|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Flowers|Flowers]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1409,15 +1409,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'leaves' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'leaves' en inglés?",
           "options": [
-            "[[Leaves|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Leaves|Leaves]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1435,15 +1435,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'spring' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'spring' en inglés?",
           "options": [
-            "[[Spring|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Spring|Spring]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1461,15 +1461,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'summer' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'summer' en inglés?",
           "options": [
-            "[[Summer|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Summer|Summer]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1491,10 +1491,10 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[spring|]] is here.",
+          "question": "The [[spring|primavera]] is here.",
           "options": [
-            "[[Do you like winter?|]]",
-            "[[spring|]]"
+            "[[Do you like winter?|¿Te gusta el invierno?]]",
+            "[[spring|primavera]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1516,10 +1516,10 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[summer|]] is here.",
+          "question": "The [[summer|verano]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[summer|]]"
+            "[[o1|opción 1]]",
+            "[[summer|verano]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1541,10 +1541,10 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[autumn|]] is here.",
+          "question": "The [[autumn|otoño]] is here.",
           "options": [
-            "[[autumn|]]",
-            "[[beach|]]"
+            "[[autumn|otoño]]",
+            "[[beach|beach]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1566,10 +1566,10 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[winter|]] is here.",
+          "question": "The [[winter|invierno]] is here.",
           "options": [
-            "[[winter|]]",
-            "[[o1|]]"
+            "[[winter|invierno]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1591,10 +1591,10 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[beach|]] is here.",
+          "question": "The [[beach|beach]] is here.",
           "options": [
-            "[[beach|]]",
-            "[[o1|]]"
+            "[[beach|beach]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1616,10 +1616,10 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[flowers|]] is here.",
+          "question": "The [[flowers|flowers]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[flowers|]]"
+            "[[o1|opción 1]]",
+            "[[flowers|flowers]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1641,10 +1641,10 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[leaves|]] is here.",
+          "question": "The [[leaves|hojas]] is here.",
           "options": [
-            "[[leaves|]]",
-            "[[Otoño|]]"
+            "[[leaves|hojas]]",
+            "[[Otoño|Otoño]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

@@ -8,46 +8,46 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Relaciona la actividad con su traducción:",
       "questions": [
         {
           "question": "Watch TV",
           "options": [
-            "[[Salir|]]",
-            "[[Navegar por internet|]]",
-            "[[Ver la televisión|]]",
-            "[[Quedar con amigos|]]"
+            "[[Salir|Salir]]",
+            "[[Navegar por internet|Navegar por internet]]",
+            "[[Ver la televisión|Ver la televisión]]",
+            "[[Quedar con amigos|Quedar con amigos]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Meet friends",
           "options": [
-            "[[Navegar por internet|]]",
-            "[[Salir|]]",
-            "[[Ver la televisión|]]",
-            "[[Quedar con amigos|]]"
+            "[[Navegar por internet|Navegar por internet]]",
+            "[[Salir|Salir]]",
+            "[[Ver la televisión|Ver la televisión]]",
+            "[[Quedar con amigos|Quedar con amigos]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Surf the internet",
           "options": [
-            "[[Salir|]]",
-            "[[Quedar con amigos|]]",
-            "[[Navegar por internet|]]",
-            "[[Ver la televisión|]]"
+            "[[Salir|Salir]]",
+            "[[Quedar con amigos|Quedar con amigos]]",
+            "[[Navegar por internet|Navegar por internet]]",
+            "[[Ver la televisión|Ver la televisión]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Go out",
           "options": [
-            "[[Quedar con amigos|]]",
-            "[[Salir|]]",
-            "[[Ver la televisión|]]",
-            "[[Navegar por internet|]]"
+            "[[Quedar con amigos|Quedar con amigos]]",
+            "[[Salir|Salir]]",
+            "[[Ver la televisión|Ver la televisión]]",
+            "[[Navegar por internet|Navegar por internet]]"
           ],
           "correctAnswer": 1
         }
@@ -63,15 +63,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'Escuchar música'?",
       "questions": [
         {
           "question": "¿Cómo se dice 'Escuchar música'?",
           "options": [
-            "[[Listen to music|]]",
-            "[[Hear music|]]",
-            "[[Listen music|]]"
+            "[[Listen to music|Escuchar música]]",
+            "[[Hear music|Oír música]]",
+            "[[Listen music|Escuchar música]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -88,16 +88,16 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con el verbo correcto:",
       "questions": [
         {
           "question": "I ________ video games on Saturdays.",
           "options": [
-            "[[play|]]",
-            "[[o1|]]",
-            "[[o1|]]",
-            "[[o1|]]"
+            "[[play|jugar]]",
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0
         }
@@ -119,8 +119,8 @@ export const UNIT_35_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'Quedar con amigos.'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -143,8 +143,8 @@ export const UNIT_35_EXERCISES: Exercise[] = [
         {
           "question": "Go to the cinema",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -167,8 +167,8 @@ export const UNIT_35_EXERCISES: Exercise[] = [
         {
           "question": "Clasifica las actividades:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -185,15 +185,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cuál es una actividad que sueles hacer solo?",
       "questions": [
         {
           "question": "¿Cuál es una actividad que sueles hacer solo?",
           "options": [
-            "[[Surfing the internet|]]",
-            "[[Playing football|]]",
-            "[[Going out with friends|]]"
+            "[[Surfing the internet|Navegar por internet]]",
+            "[[Playing football|Jugar al fútbol]]",
+            "[[Going out with friends|Salir con amigos]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -210,16 +210,16 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa la categoría:",
       "questions": [
         {
           "question": "Meeting friends is a ________ activity.",
           "options": [
-            "[[social|]]",
-            "[[goes|]]",
-            "[[o1|]]",
-            "[[o1|]]"
+            "[[social|social]]",
+            "[[goes|va]]",
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0
         }
@@ -241,8 +241,8 @@ export const UNIT_35_EXERCISES: Exercise[] = [
         {
           "question": "¿'Go out' significa quedarse en casa?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -258,16 +258,16 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con la forma correcta del verbo:",
       "questions": [
         {
           "question": "She ________ (go) to the cinema on Fridays.",
           "options": [
-            "[[goes|]]",
-            "[[o1|]]",
-            "[[o1|]]",
-            "[[Meet friends|]]"
+            "[[goes|va]]",
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]",
+            "[[Meet friends|Quedar con amigos]]"
           ],
           "correctAnswer": 0
         }
@@ -288,7 +288,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
         {
           "question": "They don't play video games",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -310,8 +310,8 @@ export const UNIT_35_EXERCISES: Exercise[] = [
         {
           "question": "¿Es gramaticalmente correcto? 'My brother meets his friends every weekend.'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -328,15 +328,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "Anna and her brother, Tom, like to relax on Sunday afternoons. They sit on the sofa and watch TV together. They enjoy watching cartoons and funny shows. Their favorite show is on at 4 o'clock. After TV, they sometimes eat popcorn. Sunday is their favorite day to spend time together.",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Qué hacen el domingo por la tarde según el texto?",
       "questions": [
         {
           "question": "Anna and her brother, Tom, like to relax on Sunday afternoons. They sit on the sofa and watch TV together. They enjoy watching cartoons and funny shows. Their favorite show is on at 4 o'clock. After TV, they sometimes eat popcorn. Sunday is their favorite day to spend time together.",
           "options": [
-            "[[They watch TV|]]",
-            "[[They go to the cinema|]]",
-            "[[They meet friends|]]"
+            "[[They watch TV|Ellos ven la televisión]]",
+            "[[They go to the cinema|Ellos van al cine]]",
+            "[[They meet friends|Ellos quedan con amigos]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -354,15 +354,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'watching TV' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'watching TV' en inglés?",
           "options": [
-            "[[Watching TV|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Watching TV|Ver la televisión]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -380,15 +380,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'reading' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'reading' en inglés?",
           "options": [
-            "[[Reading|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Reading|Lectura]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -406,15 +406,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'books' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'books' en inglés?",
           "options": [
-            "[[Books|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Books|Libros]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -432,15 +432,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'games' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'games' en inglés?",
           "options": [
-            "[[Games|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Games|Juegos]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -458,15 +458,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'friends' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'friends' en inglés?",
           "options": [
-            "[[Friends|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Friends|Amigos]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -484,15 +484,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'cinema' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'cinema' en inglés?",
           "options": [
-            "[[Cinema|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Cinema|Cine]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -510,15 +510,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'music' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'music' en inglés?",
           "options": [
-            "[[Music|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Music|Música]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -536,15 +536,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'watching TV' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'watching TV' en inglés?",
           "options": [
-            "[[Watching TV|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Watching TV|Ver la televisión]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -562,15 +562,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'reading' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'reading' en inglés?",
           "options": [
-            "[[Reading|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Reading|Lectura]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -588,15 +588,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'books' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'books' en inglés?",
           "options": [
-            "[[Books|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Books|Libros]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -614,15 +614,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'games' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'games' en inglés?",
           "options": [
-            "[[Games|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Games|Juegos]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -640,15 +640,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'friends' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'friends' en inglés?",
           "options": [
-            "[[Friends|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Friends|Amigos]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -666,15 +666,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'cinema' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'cinema' en inglés?",
           "options": [
-            "[[Cinema|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Cinema|Cine]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -692,15 +692,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'music' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'music' en inglés?",
           "options": [
-            "[[Music|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Music|Música]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -718,15 +718,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'watching TV' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'watching TV' en inglés?",
           "options": [
-            "[[Watching TV|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Watching TV|Ver la televisión]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -744,15 +744,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'reading' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'reading' en inglés?",
           "options": [
-            "[[Reading|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Reading|Lectura]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -770,15 +770,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'books' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'books' en inglés?",
           "options": [
-            "[[Books|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Books|Libros]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -796,15 +796,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'games' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'games' en inglés?",
           "options": [
-            "[[Games|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Games|Juegos]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -822,15 +822,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'friends' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'friends' en inglés?",
           "options": [
-            "[[Friends|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Friends|Amigos]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -848,15 +848,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'cinema' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'cinema' en inglés?",
           "options": [
-            "[[Cinema|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Cinema|Cine]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -874,15 +874,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'music' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'music' en inglés?",
           "options": [
-            "[[Music|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Music|Música]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -900,15 +900,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'watching TV' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'watching TV' en inglés?",
           "options": [
-            "[[Watching TV|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Watching TV|Ver la televisión]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -926,15 +926,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'reading' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'reading' en inglés?",
           "options": [
-            "[[Reading|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Reading|Lectura]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -952,15 +952,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'books' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'books' en inglés?",
           "options": [
-            "[[Books|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Books|Libros]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -978,15 +978,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'games' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'games' en inglés?",
           "options": [
-            "[[Games|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Games|Juegos]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1004,15 +1004,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'friends' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'friends' en inglés?",
           "options": [
-            "[[Friends|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Friends|Amigos]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1030,15 +1030,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'cinema' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'cinema' en inglés?",
           "options": [
-            "[[Cinema|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Cinema|Cine]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1056,15 +1056,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'music' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'music' en inglés?",
           "options": [
-            "[[Music|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Music|Música]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1082,15 +1082,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'watching TV' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'watching TV' en inglés?",
           "options": [
-            "[[Watching TV|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Watching TV|Ver la televisión]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1108,15 +1108,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'reading' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'reading' en inglés?",
           "options": [
-            "[[Reading|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Reading|Lectura]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1134,15 +1134,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'books' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'books' en inglés?",
           "options": [
-            "[[Books|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Books|Libros]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1160,15 +1160,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'games' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'games' en inglés?",
           "options": [
-            "[[Games|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Games|Juegos]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1186,15 +1186,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'friends' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'friends' en inglés?",
           "options": [
-            "[[Friends|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Friends|Amigos]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1212,15 +1212,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'cinema' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'cinema' en inglés?",
           "options": [
-            "[[Cinema|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Cinema|Cine]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1238,15 +1238,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'music' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'music' en inglés?",
           "options": [
-            "[[Music|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Music|Música]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1264,15 +1264,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'watching TV' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'watching TV' en inglés?",
           "options": [
-            "[[Watching TV|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Watching TV|Ver la televisión]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1290,15 +1290,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'reading' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'reading' en inglés?",
           "options": [
-            "[[Reading|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Reading|Lectura]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1316,15 +1316,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'books' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'books' en inglés?",
           "options": [
-            "[[Books|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Books|Libros]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1342,15 +1342,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'games' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'games' en inglés?",
           "options": [
-            "[[Games|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Games|Juegos]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1368,15 +1368,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'friends' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'friends' en inglés?",
           "options": [
-            "[[Friends|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Friends|Amigos]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1394,15 +1394,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'cinema' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'cinema' en inglés?",
           "options": [
-            "[[Cinema|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Cinema|Cine]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1420,15 +1420,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'music' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'music' en inglés?",
           "options": [
-            "[[Music|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Music|Música]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1446,15 +1446,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'watching TV' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'watching TV' en inglés?",
           "options": [
-            "[[Watching TV|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Watching TV|Ver la televisión]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1472,15 +1472,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'reading' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'reading' en inglés?",
           "options": [
-            "[[Reading|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Reading|Lectura]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1498,15 +1498,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'books' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'books' en inglés?",
           "options": [
-            "[[Books|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Books|Libros]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1524,15 +1524,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'games' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'games' en inglés?",
           "options": [
-            "[[Games|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Games|Juegos]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1550,15 +1550,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'friends' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'friends' en inglés?",
           "options": [
-            "[[Friends|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Friends|Amigos]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1580,10 +1580,10 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[watching TV|]] is here.",
+          "question": "The [[watching TV|watching TV]] is here.",
           "options": [
-            "[[watching TV|]]",
-            "[[o1|]]"
+            "[[watching TV|watching TV]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1605,10 +1605,10 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[reading|]] is here.",
+          "question": "The [[reading|reading]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[reading|]]"
+            "[[o1|opción 1]]",
+            "[[reading|reading]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1630,10 +1630,10 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[books|]] is here.",
+          "question": "The [[books|books]] is here.",
           "options": [
-            "[[books|]]",
-            "[[o1|]]"
+            "[[books|books]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1655,10 +1655,10 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[games|]] is here.",
+          "question": "The [[games|games]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[games|]]"
+            "[[o1|opción 1]]",
+            "[[games|games]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1680,10 +1680,10 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[friends|]] is here.",
+          "question": "The [[friends|friends]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[friends|]]"
+            "[[o1|opción 1]]",
+            "[[friends|friends]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1705,10 +1705,10 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[cinema|]] is here.",
+          "question": "The [[cinema|cinema]] is here.",
           "options": [
-            "[[Meet friends|]]",
-            "[[cinema|]]"
+            "[[Meet friends|Quedar con amigos]]",
+            "[[cinema|cinema]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1730,10 +1730,10 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[music|]] is here.",
+          "question": "The [[music|music]] is here.",
           "options": [
-            "[[music|]]",
-            "[[categorization_logic|]]"
+            "[[music|music]]",
+            "[[categorization_logic|categorization_logic]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

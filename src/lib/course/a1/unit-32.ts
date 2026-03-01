@@ -8,46 +8,46 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une cada deporte con su imagen (palabra):",
       "questions": [
         {
           "question": "Football",
           "options": [
-            "[[Baloncesto|]]",
-            "[[Ciclismo|]]",
-            "[[Natación|]]",
-            "[[Fútbol|]]"
+            "[[Baloncesto|Baloncesto]]",
+            "[[Ciclismo|Ciclismo]]",
+            "[[Natación|Natación]]",
+            "[[Fútbol|Fútbol]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Swimming",
           "options": [
-            "[[Natación|]]",
-            "[[Baloncesto|]]",
-            "[[Fútbol|]]",
-            "[[Ciclismo|]]"
+            "[[Natación|Natación]]",
+            "[[Baloncesto|Baloncesto]]",
+            "[[Fútbol|Fútbol]]",
+            "[[Ciclismo|Ciclismo]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Basketball",
           "options": [
-            "[[Fútbol|]]",
-            "[[Baloncesto|]]",
-            "[[Ciclismo|]]",
-            "[[Natación|]]"
+            "[[Fútbol|Fútbol]]",
+            "[[Baloncesto|Baloncesto]]",
+            "[[Ciclismo|Ciclismo]]",
+            "[[Natación|Natación]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Cycling",
           "options": [
-            "[[Natación|]]",
-            "[[Ciclismo|]]",
-            "[[Baloncesto|]]",
-            "[[Fútbol|]]"
+            "[[Natación|Natación]]",
+            "[[Ciclismo|Ciclismo]]",
+            "[[Baloncesto|Baloncesto]]",
+            "[[Fútbol|Fútbol]]"
           ],
           "correctAnswer": 1
         }
@@ -62,16 +62,16 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con 'play' o 'go':",
       "questions": [
         {
           "question": "Every morning I ________ swimming.",
           "options": [
-            "[[hobbies|]]",
-            "[[o1|]]",
-            "[[go|]]",
-            "[[playing|]]"
+            "[[hobbies|aficiones]]",
+            "[[o1|opción 1]]",
+            "[[go|ir]]",
+            "[[playing|jugando]]"
           ],
           "correctAnswer": 2
         }
@@ -87,15 +87,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'Hacer senderismo'?",
       "questions": [
         {
           "question": "¿Cómo se dice 'Hacer senderismo'?",
           "options": [
-            "[[Go hiking|]]",
-            "[[Play hiking|]]",
-            "[[Do hiking|]]"
+            "[[Go hiking|Hacer senderismo]]",
+            "[[Play hiking|Hacer senderismo]]",
+            "[[Do hiking|Hacer senderismo]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -112,46 +112,46 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Relaciona los hobbies:",
       "questions": [
         {
           "question": "Reading",
           "options": [
-            "[[Jardinería|]]",
-            "[[Cocinar|]]",
-            "[[Lectura|]]",
-            "[[Pintura|]]"
+            "[[Jardinería|Jardinería]]",
+            "[[Cocinar|Cocinar]]",
+            "[[Lectura|Lectura]]",
+            "[[Pintura|Pintura]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Painting",
           "options": [
-            "[[Lectura|]]",
-            "[[Pintura|]]",
-            "[[Cocinar|]]",
-            "[[Jardinería|]]"
+            "[[Lectura|Lectura]]",
+            "[[Pintura|Pintura]]",
+            "[[Cocinar|Cocinar]]",
+            "[[Jardinería|Jardinería]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Cooking",
           "options": [
-            "[[Cocinar|]]",
-            "[[Lectura|]]",
-            "[[Pintura|]]",
-            "[[Jardinería|]]"
+            "[[Cocinar|Cocinar]]",
+            "[[Lectura|Lectura]]",
+            "[[Pintura|Pintura]]",
+            "[[Jardinería|Jardinería]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Gardening",
           "options": [
-            "[[Lectura|]]",
-            "[[Pintura|]]",
-            "[[Cocinar|]]",
-            "[[Jardinería|]]"
+            "[[Lectura|Lectura]]",
+            "[[Pintura|Pintura]]",
+            "[[Cocinar|Cocinar]]",
+            "[[Jardinería|Jardinería]]"
           ],
           "correctAnswer": 3
         }
@@ -166,16 +166,16 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con el verbo de interés:",
       "questions": [
         {
           "question": "I ________ listening to music. (me encanta)",
           "options": [
-            "[[love|]]",
-            "[[o1|]]",
-            "[[Jardinería|]]",
-            "[[o1|]]"
+            "[[love|encantar]]",
+            "[[o1|opción 1]]",
+            "[[Jardinería|Jardinería]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0
         }
@@ -191,15 +191,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cuál es un hobby de interior?",
       "questions": [
         {
           "question": "¿Cuál es un hobby de interior?",
           "options": [
-            "[[Watching TV|]]",
-            "[[Hiking|]]",
-            "[[Cycling|]]"
+            "[[Watching TV|Ver la televisión]]",
+            "[[Hiking|Senderismo]]",
+            "[[Cycling|Ciclismo]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -223,8 +223,8 @@ export const UNIT_32_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'Mi hobby es viajar.'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -247,8 +247,8 @@ export const UNIT_32_EXERCISES: Exercise[] = [
         {
           "question": "Photography",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -264,16 +264,16 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con la forma -ing:",
       "questions": [
         {
           "question": "He likes ________ (paint) pictures.",
           "options": [
-            "[[painting|]]",
-            "[[o1|]]",
-            "[[o1|]]",
-            "[[o1|]]"
+            "[[painting|pintar]]",
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0
         }
@@ -295,8 +295,8 @@ export const UNIT_32_EXERCISES: Exercise[] = [
         {
           "question": "¿Es gramaticalmente correcto? 'They don't like playing tennis.'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -319,8 +319,8 @@ export const UNIT_32_EXERCISES: Exercise[] = [
         {
           "question": "Clasifica los verbos según si necesitan 'play' o 'go':",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -337,15 +337,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "Anna loves reading. She sits in her garden with a good book. Reading is her favorite hobby because it is quiet and relaxing. Sometimes, she swims in the pool or plays tennis with her friends. But reading is the most peaceful activity for her. She feels happy when she reads her favorite stories.",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cuál de estas opciones es un hobby tranquilo según el texto?",
       "questions": [
         {
           "question": "Anna loves reading. She sits in her garden with a good book. Reading is her favorite hobby because it is quiet and relaxing. Sometimes, she swims in the pool or plays tennis with her friends. But reading is the most peaceful activity for her. She feels happy when she reads her favorite stories.",
           "options": [
-            "[[Swimming|]]",
-            "[[Reading|]]",
-            "[[Tennis|]]"
+            "[[Swimming|Natación]]",
+            "[[Reading|Lectura]]",
+            "[[Tennis|Tenis]]"
           ],
           "correctAnswer": 1,
           "explanation": ""
@@ -363,15 +363,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'football' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'football' en inglés?",
           "options": [
-            "[[Football|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Football|Fútbol]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -389,15 +389,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'tennis' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'tennis' en inglés?",
           "options": [
-            "[[Tennis|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Tennis|Tenis]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -415,15 +415,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'guitar' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'guitar' en inglés?",
           "options": [
-            "[[Guitar|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Guitar|Guitarra]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -441,15 +441,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'piano' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'piano' en inglés?",
           "options": [
-            "[[Piano|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Piano|Piano]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -467,15 +467,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'hobbies' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'hobbies' en inglés?",
           "options": [
-            "[[Hobbies|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Hobbies|Aficiones]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -493,15 +493,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'sports' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'sports' en inglés?",
           "options": [
-            "[[Sports|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Sports|Deportes]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -519,15 +519,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'playing' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'playing' en inglés?",
           "options": [
-            "[[Playing|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Playing|Playing]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -545,15 +545,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'football' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'football' en inglés?",
           "options": [
-            "[[Football|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Football|Fútbol]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -571,15 +571,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'tennis' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'tennis' en inglés?",
           "options": [
-            "[[Tennis|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Tennis|Tenis]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -597,15 +597,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'guitar' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'guitar' en inglés?",
           "options": [
-            "[[Guitar|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Guitar|Guitarra]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -623,15 +623,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'piano' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'piano' en inglés?",
           "options": [
-            "[[Piano|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Piano|Piano]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -649,15 +649,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'hobbies' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'hobbies' en inglés?",
           "options": [
-            "[[Hobbies|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Hobbies|Aficiones]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -675,15 +675,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'sports' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'sports' en inglés?",
           "options": [
-            "[[Sports|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Sports|Deportes]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -701,15 +701,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'playing' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'playing' en inglés?",
           "options": [
-            "[[Playing|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Playing|Playing]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -727,15 +727,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'football' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'football' en inglés?",
           "options": [
-            "[[Football|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Football|Fútbol]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -753,15 +753,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'tennis' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'tennis' en inglés?",
           "options": [
-            "[[Tennis|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Tennis|Tenis]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -779,15 +779,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'guitar' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'guitar' en inglés?",
           "options": [
-            "[[Guitar|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Guitar|Guitarra]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -805,15 +805,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'piano' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'piano' en inglés?",
           "options": [
-            "[[Piano|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Piano|Piano]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -831,15 +831,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'hobbies' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'hobbies' en inglés?",
           "options": [
-            "[[Hobbies|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Hobbies|Aficiones]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -857,15 +857,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'sports' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'sports' en inglés?",
           "options": [
-            "[[Sports|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Sports|Deportes]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -883,15 +883,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'playing' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'playing' en inglés?",
           "options": [
-            "[[Playing|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Playing|Playing]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -909,15 +909,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'football' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'football' en inglés?",
           "options": [
-            "[[Football|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Football|Fútbol]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -935,15 +935,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'tennis' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'tennis' en inglés?",
           "options": [
-            "[[Tennis|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Tennis|Tenis]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -961,15 +961,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'guitar' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'guitar' en inglés?",
           "options": [
-            "[[Guitar|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Guitar|Guitarra]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -987,15 +987,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'piano' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'piano' en inglés?",
           "options": [
-            "[[Piano|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Piano|Piano]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1013,15 +1013,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'hobbies' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'hobbies' en inglés?",
           "options": [
-            "[[Hobbies|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Hobbies|Aficiones]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1039,15 +1039,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'sports' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'sports' en inglés?",
           "options": [
-            "[[Sports|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Sports|Deportes]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1065,15 +1065,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'playing' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'playing' en inglés?",
           "options": [
-            "[[Playing|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Playing|Playing]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1091,15 +1091,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'football' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'football' en inglés?",
           "options": [
-            "[[Football|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Football|Fútbol]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1117,15 +1117,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'tennis' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'tennis' en inglés?",
           "options": [
-            "[[Tennis|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Tennis|Tenis]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1143,15 +1143,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'guitar' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'guitar' en inglés?",
           "options": [
-            "[[Guitar|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Guitar|Guitarra]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1169,15 +1169,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'piano' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'piano' en inglés?",
           "options": [
-            "[[Piano|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Piano|Piano]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1195,15 +1195,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'hobbies' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'hobbies' en inglés?",
           "options": [
-            "[[Hobbies|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Hobbies|Aficiones]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1221,15 +1221,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'sports' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'sports' en inglés?",
           "options": [
-            "[[Sports|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Sports|Deportes]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1247,15 +1247,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'playing' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'playing' en inglés?",
           "options": [
-            "[[Playing|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Playing|Playing]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1273,15 +1273,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'football' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'football' en inglés?",
           "options": [
-            "[[Football|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Football|Fútbol]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1299,15 +1299,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'tennis' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'tennis' en inglés?",
           "options": [
-            "[[Tennis|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Tennis|Tenis]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1325,15 +1325,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'guitar' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'guitar' en inglés?",
           "options": [
-            "[[Guitar|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Guitar|Guitarra]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1351,15 +1351,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'piano' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'piano' en inglés?",
           "options": [
-            "[[Piano|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Piano|Piano]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1377,15 +1377,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'hobbies' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'hobbies' en inglés?",
           "options": [
-            "[[Hobbies|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Hobbies|Aficiones]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1403,15 +1403,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'sports' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'sports' en inglés?",
           "options": [
-            "[[Sports|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Sports|Deportes]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1429,15 +1429,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'playing' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'playing' en inglés?",
           "options": [
-            "[[Playing|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Playing|Playing]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1455,15 +1455,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'football' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'football' en inglés?",
           "options": [
-            "[[Football|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Football|Fútbol]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1481,15 +1481,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'tennis' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'tennis' en inglés?",
           "options": [
-            "[[Tennis|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Tennis|Tenis]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1507,15 +1507,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'guitar' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'guitar' en inglés?",
           "options": [
-            "[[Guitar|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Guitar|Guitarra]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1533,15 +1533,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'piano' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'piano' en inglés?",
           "options": [
-            "[[Piano|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Piano|Piano]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1559,15 +1559,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'hobbies' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'hobbies' en inglés?",
           "options": [
-            "[[Hobbies|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Hobbies|Aficiones]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1585,15 +1585,15 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'sports' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'sports' en inglés?",
           "options": [
-            "[[Sports|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Sports|Deportes]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1615,10 +1615,10 @@ export const UNIT_32_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[football|]] is here.",
+          "question": "The [[football|football]] is here.",
           "options": [
-            "[[football|]]",
-            "[[o1|]]"
+            "[[football|football]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1640,10 +1640,10 @@ export const UNIT_32_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[tennis|]] is here.",
+          "question": "The [[tennis|tennis]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[tennis|]]"
+            "[[o1|opción 1]]",
+            "[[tennis|tennis]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1665,10 +1665,10 @@ export const UNIT_32_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[guitar|]] is here.",
+          "question": "The [[guitar|guitar]] is here.",
           "options": [
-            "[[guitar|]]",
-            "[[o1|]]"
+            "[[guitar|guitar]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1690,10 +1690,10 @@ export const UNIT_32_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[piano|]] is here.",
+          "question": "The [[piano|piano]] is here.",
           "options": [
-            "[[piano|]]",
-            "[[o1|]]"
+            "[[piano|piano]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1715,10 +1715,10 @@ export const UNIT_32_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[hobbies|]] is here.",
+          "question": "The [[hobbies|aficiones]] is here.",
           "options": [
-            "[[football|]]",
-            "[[hobbies|]]"
+            "[[football|football]]",
+            "[[hobbies|aficiones]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1740,10 +1740,10 @@ export const UNIT_32_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[sports|]] is here.",
+          "question": "The [[sports|sports]] is here.",
           "options": [
-            "[[o2|]]",
-            "[[sports|]]"
+            "[[o2|o2]]",
+            "[[sports|sports]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1765,10 +1765,10 @@ export const UNIT_32_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[playing|]] is here.",
+          "question": "The [[playing|jugando]] is here.",
           "options": [
-            "[[go|]]",
-            "[[playing|]]"
+            "[[go|ir]]",
+            "[[playing|jugando]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

@@ -8,46 +8,46 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Empareja los verbos de viaje:",
       "questions": [
         {
           "question": "Visit",
           "options": [
-            "[[Quedarse / Alojarse|]]",
-            "[[Visitar|]]",
-            "[[Llegar|]]",
-            "[[Viajar|]]"
+            "[[Quedarse / Alojarse|Quedarse / Alojarse]]",
+            "[[Visitar|Visitar]]",
+            "[[Llegar|Llegar]]",
+            "[[Viajar|Viajar]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Stay",
           "options": [
-            "[[Visitar|]]",
-            "[[Viajar|]]",
-            "[[Quedarse / Alojarse|]]",
-            "[[Llegar|]]"
+            "[[Visitar|Visitar]]",
+            "[[Viajar|Viajar]]",
+            "[[Quedarse / Alojarse|Quedarse / Alojarse]]",
+            "[[Llegar|Llegar]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Arrive",
           "options": [
-            "[[Llegar|]]",
-            "[[Viajar|]]",
-            "[[Quedarse / Alojarse|]]",
-            "[[Visitar|]]"
+            "[[Llegar|Llegar]]",
+            "[[Viajar|Viajar]]",
+            "[[Quedarse / Alojarse|Quedarse / Alojarse]]",
+            "[[Visitar|Visitar]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Travel",
           "options": [
-            "[[Llegar|]]",
-            "[[Viajar|]]",
-            "[[Visitar|]]",
-            "[[Quedarse / Alojarse|]]"
+            "[[Llegar|Llegar]]",
+            "[[Viajar|Viajar]]",
+            "[[Visitar|Visitar]]",
+            "[[Quedarse / Alojarse|Quedarse / Alojarse]]"
           ],
           "correctAnswer": 1
         }
@@ -63,15 +63,15 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Qué haces con una cámara?",
       "questions": [
         {
           "question": "¿Qué haces con una cámara?",
           "options": [
-            "[[Take photos|]]",
-            "[[Eat dinner|]]",
-            "[[Sleep|]]"
+            "[[Take photos|Take photos]]",
+            "[[Eat dinner|Eat dinner]]",
+            "[[Sleep|Sleep]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -88,16 +88,16 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa la frase:",
       "questions": [
         {
           "question": "I buy ________ for my family. (recuerdos/souvenirs)",
           "options": [
-            "[[souvenirs|]]",
-            "[[o1|]]",
-            "[[visit|]]",
-            "[[o1|]]"
+            "[[souvenirs|souvenirs]]",
+            "[[o1|opción 1]]",
+            "[[visit|visit]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0
         }
@@ -119,8 +119,8 @@ export const UNIT_43_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'Vacaciones'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -143,8 +143,8 @@ export const UNIT_43_EXERCISES: Exercise[] = [
         {
           "question": "Leave",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -160,16 +160,16 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con 'at' o 'in':",
       "questions": [
         {
           "question": "We arrive ________ London in the morning.",
           "options": [
-            "[[in|]]",
-            "[[o1|]]",
-            "[[stay|]]",
-            "[[souvenirs|]]"
+            "[[in|in]]",
+            "[[o1|opción 1]]",
+            "[[stay|stay]]",
+            "[[souvenirs|souvenirs]]"
           ],
           "correctAnswer": 0
         }
@@ -191,8 +191,8 @@ export const UNIT_43_EXERCISES: Exercise[] = [
         {
           "question": "¿Es correcto: 'I stays at a hotel'?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -208,16 +208,16 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa la frase negativa:",
       "questions": [
         {
           "question": "I ________ (not) stay in expensive hotels.",
           "options": [
-            "[[don't|]]",
-            "[[o1|]]",
-            "[[o1|]]",
-            "[[Holiday|]]"
+            "[[don't|don't]]",
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]",
+            "[[Holiday|Holiday]]"
           ],
           "correctAnswer": 0
         }
@@ -238,7 +238,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
         {
           "question": "We always take many photos.",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -254,15 +254,15 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "Friend: 'Where do you stay?' - You:",
       "questions": [
         {
           "question": "Friend: 'Where do you stay?' - You:",
           "options": [
-            "[[I stay at a small hotel.|]]",
-            "[[I stay at 9:00 AM.|]]",
-            "[[I stay by bus.|]]"
+            "[[I stay at a small hotel.|I stay at a small hotel.]]",
+            "[[I stay at 9:00 AM.|I stay at 9:00 AM.]]",
+            "[[I stay by bus.|I stay by bus.]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -279,16 +279,16 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa el mensaje:",
       "questions": [
         {
           "question": "Dear Mom, I ________ London today. It is beautiful! (visitar)",
           "options": [
-            "[[o1|]]",
-            "[[visit|]]",
-            "[[They stay at a hotel.|]]",
-            "[[travel|]]"
+            "[[o1|opción 1]]",
+            "[[visit|visit]]",
+            "[[They stay at a hotel.|They stay at a hotel.]]",
+            "[[travel|travel]]"
           ],
           "correctAnswer": 1
         }
@@ -310,8 +310,8 @@ export const UNIT_43_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'Viajo con mis amigos'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -334,8 +334,8 @@ export const UNIT_43_EXERCISES: Exercise[] = [
         {
           "question": "You stay at a hotel when you travel.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -358,8 +358,8 @@ export const UNIT_43_EXERCISES: Exercise[] = [
         {
           "question": "Escucha la actividad:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -376,15 +376,15 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "John and Mary are on vacation. They stay at a hotel. It is big and nice. They have a room with a view of the sea. Every morning, they eat breakfast in the hotel restaurant. They are happy and enjoy their time.",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Dónde se alojan?",
       "questions": [
         {
           "question": "John and Mary are on vacation. They stay at a hotel. It is big and nice. They have a room with a view of the sea. Every morning, they eat breakfast in the hotel restaurant. They are happy and enjoy their time.",
           "options": [
-            "[[At a hotel|]]",
-            "[[At a friend's house|]]",
-            "[[In a car|]]"
+            "[[At a hotel|At a hotel]]",
+            "[[At a friend's house|At a friend's house]]",
+            "[[In a car|In a car]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -408,8 +408,8 @@ export const UNIT_43_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[I visit many museums.|]]",
-            "[[o1|]]"
+            "[[I visit many museums.|I visit many museums.]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -433,8 +433,8 @@ export const UNIT_43_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|]]",
-            "[[They stay at a hotel.|]]"
+            "[[o1|opción 1]]",
+            "[[They stay at a hotel.|They stay at a hotel.]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -458,8 +458,8 @@ export const UNIT_43_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|]]",
-            "[[We take many photos.|]]"
+            "[[o1|opción 1]]",
+            "[[We take many photos.|We take many photos.]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -483,8 +483,8 @@ export const UNIT_43_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[He travels around the world.|]]",
-            "[[o1|]]"
+            "[[He travels around the world.|He travels around the world.]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -508,8 +508,8 @@ export const UNIT_43_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[She buys souvenirs for her friends.|]]",
-            "[[o1|]]"
+            "[[She buys souvenirs for her friends.|She buys souvenirs for her friends.]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -533,8 +533,8 @@ export const UNIT_43_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Visitar|]]",
-            "[[We arrive at the airport early.|]]"
+            "[[Visitar|Visitar]]",
+            "[[We arrive at the airport early.|We arrive at the airport early.]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -558,8 +558,8 @@ export const UNIT_43_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[They enjoy their vacation.|]]",
-            "[[They stay at a hotel.|]]"
+            "[[They enjoy their vacation.|They enjoy their vacation.]]",
+            "[[They stay at a hotel.|They stay at a hotel.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -705,15 +705,15 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'go' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'go' en inglés?",
           "options": [
-            "[[Go|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Go|Go]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -731,15 +731,15 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'stay' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'stay' en inglés?",
           "options": [
-            "[[Stay|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Stay|Stay]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -757,15 +757,15 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'visit' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'visit' en inglés?",
           "options": [
-            "[[Visit|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Visit|Visit]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -783,15 +783,15 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'arrive' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'arrive' en inglés?",
           "options": [
-            "[[Arrive|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Arrive|Arrive]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -809,15 +809,15 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'depart' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'depart' en inglés?",
           "options": [
-            "[[Depart|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Depart|Depart]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -835,15 +835,15 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'travel' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'travel' en inglés?",
           "options": [
-            "[[Travel|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Travel|Viajar]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -861,15 +861,15 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'book' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'book' en inglés?",
           "options": [
-            "[[Book|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Book|Book]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -887,15 +887,15 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'go' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'go' en inglés?",
           "options": [
-            "[[Go|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Go|Go]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -913,15 +913,15 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'stay' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'stay' en inglés?",
           "options": [
-            "[[Stay|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Stay|Stay]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -939,15 +939,15 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'visit' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'visit' en inglés?",
           "options": [
-            "[[Visit|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Visit|Visit]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -965,15 +965,15 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'arrive' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'arrive' en inglés?",
           "options": [
-            "[[Arrive|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Arrive|Arrive]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -991,15 +991,15 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'depart' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'depart' en inglés?",
           "options": [
-            "[[Depart|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Depart|Depart]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1017,15 +1017,15 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'travel' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'travel' en inglés?",
           "options": [
-            "[[Travel|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Travel|Viajar]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1043,15 +1043,15 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'book' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'book' en inglés?",
           "options": [
-            "[[Book|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Book|Book]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1069,15 +1069,15 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'go' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'go' en inglés?",
           "options": [
-            "[[Go|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Go|Go]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1095,15 +1095,15 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'stay' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'stay' en inglés?",
           "options": [
-            "[[Stay|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Stay|Stay]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1121,15 +1121,15 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'visit' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'visit' en inglés?",
           "options": [
-            "[[Visit|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Visit|Visit]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1147,15 +1147,15 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'arrive' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'arrive' en inglés?",
           "options": [
-            "[[Arrive|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Arrive|Arrive]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1173,15 +1173,15 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'depart' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'depart' en inglés?",
           "options": [
-            "[[Depart|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Depart|Depart]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1199,15 +1199,15 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'travel' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'travel' en inglés?",
           "options": [
-            "[[Travel|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Travel|Viajar]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1225,15 +1225,15 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'book' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'book' en inglés?",
           "options": [
-            "[[Book|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Book|Book]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1251,15 +1251,15 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'go' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'go' en inglés?",
           "options": [
-            "[[Go|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Go|Go]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1277,15 +1277,15 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'stay' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'stay' en inglés?",
           "options": [
-            "[[Stay|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Stay|Stay]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1303,15 +1303,15 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'visit' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'visit' en inglés?",
           "options": [
-            "[[Visit|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Visit|Visit]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1329,15 +1329,15 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'arrive' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'arrive' en inglés?",
           "options": [
-            "[[Arrive|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Arrive|Arrive]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1355,15 +1355,15 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'depart' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'depart' en inglés?",
           "options": [
-            "[[Depart|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Depart|Depart]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1381,15 +1381,15 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'travel' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'travel' en inglés?",
           "options": [
-            "[[Travel|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Travel|Viajar]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1407,15 +1407,15 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'book' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'book' en inglés?",
           "options": [
-            "[[Book|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Book|Book]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1433,15 +1433,15 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'go' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'go' en inglés?",
           "options": [
-            "[[Go|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Go|Go]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1459,15 +1459,15 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'stay' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'stay' en inglés?",
           "options": [
-            "[[Stay|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Stay|Stay]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1489,10 +1489,10 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[go|]] is here.",
+          "question": "The [[go|ir]] is here.",
           "options": [
-            "[[go|]]",
-            "[[o1|]]"
+            "[[go|ir]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1514,10 +1514,10 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[stay|]] is here.",
+          "question": "The [[stay|stay]] is here.",
           "options": [
-            "[[I visit many museums.|]]",
-            "[[stay|]]"
+            "[[I visit many museums.|I visit many museums.]]",
+            "[[stay|stay]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1539,10 +1539,10 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[visit|]] is here.",
+          "question": "The [[visit|visit]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[visit|]]"
+            "[[o1|opción 1]]",
+            "[[visit|visit]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1564,10 +1564,10 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[arrive|]] is here.",
+          "question": "The [[arrive|arrive]] is here.",
           "options": [
-            "[[She buys souvenirs for her friends.|]]",
-            "[[arrive|]]"
+            "[[She buys souvenirs for her friends.|She buys souvenirs for her friends.]]",
+            "[[arrive|arrive]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1589,10 +1589,10 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[depart|]] is here.",
+          "question": "The [[depart|depart]] is here.",
           "options": [
-            "[[depart|]]",
-            "[[o1|]]"
+            "[[depart|depart]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1614,10 +1614,10 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[travel|]] is here.",
+          "question": "The [[travel|travel]] is here.",
           "options": [
-            "[[travel|]]",
-            "[[o1|]]"
+            "[[travel|travel]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1639,10 +1639,10 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[book|]] is here.",
+          "question": "The [[book|book]] is here.",
           "options": [
-            "[[book|]]",
-            "[[travel|]]"
+            "[[book|book]]",
+            "[[travel|travel]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

@@ -9,15 +9,15 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cuál usas para preguntar por la cantidad de dinero?",
       "questions": [
         {
           "question": "¿Cuál usas para preguntar por la cantidad de dinero?",
           "options": [
-            "[[How much money?|]]",
-            "[[How many money?|]]",
-            "[[How lot of money?|]]"
+            "[[How much money?|How much money?]]",
+            "[[How many money?|How many money?]]",
+            "[[How lot of money?|How lot of money?]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -34,16 +34,16 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con 'much' o 'many':",
       "questions": [
         {
           "question": "I don't have ________ time, but I have ________ books.",
           "options": [
-            "[[o1|]]",
-            "[[o1|]]",
-            "[[much, many|]]",
-            "[[I have a lot of friends.|]]"
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]",
+            "[[much, many|much, many]]",
+            "[[I have a lot of friends.|I have a lot of friends.]]"
           ],
           "correctAnswer": 2
         }
@@ -64,7 +64,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
         {
           "question": "How many apples do you have",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -79,36 +79,36 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une el cuantificador con el tipo de nombre:",
       "questions": [
         {
           "question": "Much",
           "options": [
-            "[[much, many|]]",
-            "[[Both types|]]",
-            "[[Countable (plural)|]]",
-            "[[Uncountable (singular)|]]"
+            "[[much, many|much, many]]",
+            "[[Both types|Both types]]",
+            "[[Countable (plural)|Countable (plural)]]",
+            "[[Uncountable (singular)|Uncountable (singular)]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Many",
           "options": [
-            "[[o1|]]",
-            "[[Both types|]]",
-            "[[Countable (plural)|]]",
-            "[[Uncountable (singular)|]]"
+            "[[o1|opción 1]]",
+            "[[Both types|Both types]]",
+            "[[Countable (plural)|Countable (plural)]]",
+            "[[Uncountable (singular)|Uncountable (singular)]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "A lot of",
           "options": [
-            "[[Both types|]]",
-            "[[Uncountable (singular)|]]",
-            "[[o1|]]",
-            "[[Countable (plural)|]]"
+            "[[Both types|Both types]]",
+            "[[Uncountable (singular)|Uncountable (singular)]]",
+            "[[o1|opción 1]]",
+            "[[Countable (plural)|Countable (plural)]]"
           ],
           "correctAnswer": 0
         }
@@ -124,15 +124,15 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cuál usas para decir que tienes 'un poco' de agua?",
       "questions": [
         {
           "question": "¿Cuál usas para decir que tienes 'un poco' de agua?",
           "options": [
-            "[[A little water|]]",
-            "[[A few water|]]",
-            "[[Many water|]]"
+            "[[A little water|A little water]]",
+            "[[A few water|A few water]]",
+            "[[Many water|Many water]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -149,16 +149,16 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa: 'Tengo unos pocos amigos'",
       "questions": [
         {
           "question": "I have ________ friends.",
           "options": [
-            "[[o1|]]",
-            "[[o1|]]",
-            "[[I have a lot of water|]]",
-            "[[a few|]]"
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]",
+            "[[I have a lot of water|I have a lot of water]]",
+            "[[a few|a few]]"
           ],
           "correctAnswer": 3
         }
@@ -180,8 +180,8 @@ export const UNIT_54_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'Tenemos mucha comida'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -204,8 +204,8 @@ export const UNIT_54_EXERCISES: Exercise[] = [
         {
           "question": "Usamos 'a few' con sustantivos incontables.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -228,8 +228,8 @@ export const UNIT_54_EXERCISES: Exercise[] = [
         {
           "question": "Escucha la diferencia:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -252,8 +252,8 @@ export const UNIT_54_EXERCISES: Exercise[] = [
         {
           "question": "Clasifica según el cuantificador:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -270,15 +270,15 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "Si no tienes mucho dinero, dices:",
       "questions": [
         {
           "question": "Si no tienes mucho dinero, dices:",
           "options": [
-            "[[I don't have much money.|]]",
-            "[[I don't have many money.|]]",
-            "[[I have many money.|]]"
+            "[[I don't have much money.|I don't have much money.]]",
+            "[[I don't have many money.|I don't have many money.]]",
+            "[[I have many money.|I have many money.]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -301,7 +301,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
         {
           "question": "There are a lot of people today",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -323,8 +323,8 @@ export const UNIT_54_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: '¿Cuánto tiempo tenemos?'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -340,16 +340,16 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa el texto:",
       "questions": [
         {
           "question": "How ________ people are there? There aren't ________, only ________.",
           "options": [
-            "[[o1|]]",
-            "[[many, many, a few|]]",
-            "[[time|]]",
-            "[[o1|]]"
+            "[[o1|opción 1]]",
+            "[[many, many, a few|many, many, a few]]",
+            "[[time|time]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 1
         }
@@ -371,8 +371,8 @@ export const UNIT_54_EXERCISES: Exercise[] = [
         {
           "question": "Escribe 'Tengo mucha agua' usando 'a lot of':",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -395,8 +395,8 @@ export const UNIT_54_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[How much money do you have?|]]",
-            "[[categorization_logic|]]"
+            "[[How much money do you have?|How much money do you have?]]",
+            "[[categorization_logic|categorization_logic]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -420,8 +420,8 @@ export const UNIT_54_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[How many books are there?|]]",
-            "[[o1|]]"
+            "[[How many books are there?|How many books are there?]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -445,8 +445,8 @@ export const UNIT_54_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[I have a lot of friends.|]]",
-            "[[o1|]]"
+            "[[I have a lot of friends.|I have a lot of friends.]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -470,8 +470,8 @@ export const UNIT_54_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|]]",
-            "[[There is a little milk.|]]"
+            "[[o1|opción 1]]",
+            "[[There is a little milk.|There is a little milk.]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -495,8 +495,8 @@ export const UNIT_54_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[many|]]",
-            "[[We have a few cookies.|]]"
+            "[[many|many]]",
+            "[[We have a few cookies.|We have a few cookies.]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -520,8 +520,8 @@ export const UNIT_54_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[I don't have much time.|]]",
-            "[[categorization_logic|]]"
+            "[[I don't have much time.|I don't have much time.]]",
+            "[[categorization_logic|categorization_logic]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -545,8 +545,8 @@ export const UNIT_54_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Are there many people?|]]",
-            "[[How many books are there?|]]"
+            "[[Are there many people?|Are there many people?]]",
+            "[[How many books are there?|How many books are there?]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -692,15 +692,15 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'much' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'much' en inglés?",
           "options": [
-            "[[Much|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Much|Much]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -718,15 +718,15 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'many' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'many' en inglés?",
           "options": [
-            "[[Many|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Many|Many]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -744,15 +744,15 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'how much' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'how much' en inglés?",
           "options": [
-            "[[How much|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[How much|How much]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -770,15 +770,15 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'how many' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'how many' en inglés?",
           "options": [
-            "[[How many|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[How many|How many]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -796,15 +796,15 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'money' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'money' en inglés?",
           "options": [
-            "[[Money|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Money|Dinero]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -822,15 +822,15 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'friends' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'friends' en inglés?",
           "options": [
-            "[[Friends|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Friends|Amigos]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -848,15 +848,15 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'time' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'time' en inglés?",
           "options": [
-            "[[Time|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Time|Time]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -874,15 +874,15 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'much' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'much' en inglés?",
           "options": [
-            "[[Much|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Much|Much]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -900,15 +900,15 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'many' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'many' en inglés?",
           "options": [
-            "[[Many|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Many|Many]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -926,15 +926,15 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'how much' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'how much' en inglés?",
           "options": [
-            "[[How much|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[How much|How much]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -952,15 +952,15 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'how many' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'how many' en inglés?",
           "options": [
-            "[[How many|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[How many|How many]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -978,15 +978,15 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'money' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'money' en inglés?",
           "options": [
-            "[[Money|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Money|Dinero]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1004,15 +1004,15 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'friends' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'friends' en inglés?",
           "options": [
-            "[[Friends|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Friends|Amigos]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1030,15 +1030,15 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'time' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'time' en inglés?",
           "options": [
-            "[[Time|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Time|Time]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1056,15 +1056,15 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'much' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'much' en inglés?",
           "options": [
-            "[[Much|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Much|Much]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1082,15 +1082,15 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'many' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'many' en inglés?",
           "options": [
-            "[[Many|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Many|Many]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1108,15 +1108,15 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'how much' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'how much' en inglés?",
           "options": [
-            "[[How much|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[How much|How much]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1134,15 +1134,15 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'how many' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'how many' en inglés?",
           "options": [
-            "[[How many|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[How many|How many]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1160,15 +1160,15 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'money' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'money' en inglés?",
           "options": [
-            "[[Money|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Money|Dinero]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1186,15 +1186,15 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'friends' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'friends' en inglés?",
           "options": [
-            "[[Friends|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Friends|Amigos]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1212,15 +1212,15 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'time' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'time' en inglés?",
           "options": [
-            "[[Time|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Time|Time]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1238,15 +1238,15 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'much' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'much' en inglés?",
           "options": [
-            "[[Much|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Much|Much]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1264,15 +1264,15 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'many' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'many' en inglés?",
           "options": [
-            "[[Many|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Many|Many]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1290,15 +1290,15 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'how much' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'how much' en inglés?",
           "options": [
-            "[[How much|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[How much|How much]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1316,15 +1316,15 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'how many' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'how many' en inglés?",
           "options": [
-            "[[How many|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[How many|How many]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1342,15 +1342,15 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'money' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'money' en inglés?",
           "options": [
-            "[[Money|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Money|Dinero]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1368,15 +1368,15 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'friends' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'friends' en inglés?",
           "options": [
-            "[[Friends|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Friends|Amigos]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1394,15 +1394,15 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'time' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'time' en inglés?",
           "options": [
-            "[[Time|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Time|Time]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1420,15 +1420,15 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'much' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'much' en inglés?",
           "options": [
-            "[[Much|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Much|Much]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1446,15 +1446,15 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'many' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'many' en inglés?",
           "options": [
-            "[[Many|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Many|Many]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1476,10 +1476,10 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[much|]] is here.",
+          "question": "The [[much|much]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[much|]]"
+            "[[o1|opción 1]]",
+            "[[much|much]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1501,10 +1501,10 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[many|]] is here.",
+          "question": "The [[many|many]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[many|]]"
+            "[[o1|opción 1]]",
+            "[[many|many]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1526,10 +1526,10 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[how much|]] is here.",
+          "question": "The [[how much|how much]] is here.",
           "options": [
-            "[[how much|]]",
-            "[[o1|]]"
+            "[[how much|how much]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1551,10 +1551,10 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[how many|]] is here.",
+          "question": "The [[how many|how many]] is here.",
           "options": [
-            "[[how many|]]",
-            "[[o1|]]"
+            "[[how many|how many]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1576,10 +1576,10 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[money|]] is here.",
+          "question": "The [[money|money]] is here.",
           "options": [
-            "[[money|]]",
-            "[[o1|]]"
+            "[[money|money]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1601,10 +1601,10 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[friends|]] is here.",
+          "question": "The [[friends|friends]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[friends|]]"
+            "[[o1|opción 1]]",
+            "[[friends|friends]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1626,10 +1626,10 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[time|]] is here.",
+          "question": "The [[time|time]] is here.",
           "options": [
-            "[[time|]]",
-            "[[o1|]]"
+            "[[time|time]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

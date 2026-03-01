@@ -8,46 +8,46 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
           "question": "Weather",
           "options": [
-            "[[Aeropuerto|]]",
-            "[[Estación|]]",
-            "[[Tiempo|]]",
-            "[[Viaje|]]"
+            "[[Aeropuerto|Aeropuerto]]",
+            "[[Estación|Estación]]",
+            "[[Tiempo|Tiempo]]",
+            "[[Viaje|Viaje]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Season",
           "options": [
-            "[[Estación|]]",
-            "[[Aeropuerto|]]",
-            "[[Tiempo|]]",
-            "[[Viaje|]]"
+            "[[Estación|Estación]]",
+            "[[Aeropuerto|Aeropuerto]]",
+            "[[Tiempo|Tiempo]]",
+            "[[Viaje|Viaje]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Airport",
           "options": [
-            "[[Viaje|]]",
-            "[[Estación|]]",
-            "[[Aeropuerto|]]",
-            "[[Tiempo|]]"
+            "[[Viaje|Viaje]]",
+            "[[Estación|Estación]]",
+            "[[Aeropuerto|Aeropuerto]]",
+            "[[Tiempo|Tiempo]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Travel",
           "options": [
-            "[[Viaje|]]",
-            "[[Tiempo|]]",
-            "[[Aeropuerto|]]",
-            "[[Estación|]]"
+            "[[Viaje|Viaje]]",
+            "[[Tiempo|Tiempo]]",
+            "[[Aeropuerto|Aeropuerto]]",
+            "[[Estación|Estación]]"
           ],
           "correctAnswer": 0
         }
@@ -62,16 +62,16 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "I go (en) ________ train.",
           "options": [
-            "[[Estación|]]",
-            "[[by|]]",
-            "[[Estación|]]",
-            "[[is|]]"
+            "[[Estación|Estación]]",
+            "[[by|by]]",
+            "[[Estación|Estación]]",
+            "[[is|is]]"
           ],
           "correctAnswer": 1
         }
@@ -93,8 +93,8 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "¿Es correcta esta frase?: \"Book a hotel room.\"",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -116,7 +116,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "holiday for a Prepare",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -138,8 +138,8 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -156,15 +156,15 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'Estación' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'Estación' en inglés?",
           "options": [
-            "[[Airport|]]",
-            "[[Season|]]",
-            "[[Weather|]]"
+            "[[Airport|Aeropuerto]]",
+            "[[Season|Season]]",
+            "[[Weather|Tiempo]]"
           ],
           "correctAnswer": 1,
           "explanation": ""
@@ -181,46 +181,46 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
           "question": "Season",
           "options": [
-            "[[Estación|]]",
-            "[[Hotel|]]",
-            "[[Viaje|]]",
-            "[[Aeropuerto|]]"
+            "[[Estación|Estación]]",
+            "[[Hotel|Hotel]]",
+            "[[Viaje|Viaje]]",
+            "[[Aeropuerto|Aeropuerto]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Airport",
           "options": [
-            "[[Aeropuerto|]]",
-            "[[Viaje|]]",
-            "[[Hotel|]]",
-            "[[Estación|]]"
+            "[[Aeropuerto|Aeropuerto]]",
+            "[[Viaje|Viaje]]",
+            "[[Hotel|Hotel]]",
+            "[[Estación|Estación]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Travel",
           "options": [
-            "[[Estación|]]",
-            "[[Aeropuerto|]]",
-            "[[Hotel|]]",
-            "[[Viaje|]]"
+            "[[Estación|Estación]]",
+            "[[Aeropuerto|Aeropuerto]]",
+            "[[Hotel|Hotel]]",
+            "[[Viaje|Viaje]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Hotel",
           "options": [
-            "[[Hotel|]]",
-            "[[Estación|]]",
-            "[[Viaje|]]",
-            "[[Aeropuerto|]]"
+            "[[Hotel|Hotel]]",
+            "[[Estación|Estación]]",
+            "[[Viaje|Viaje]]",
+            "[[Aeropuerto|Aeropuerto]]"
           ],
           "correctAnswer": 0
         }
@@ -235,16 +235,16 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "It (ser/estar - ello) ________ sunny.",
           "options": [
-            "[[Airport|]]",
-            "[[Estación|]]",
-            "[[is|]]",
-            "[[Viaje|]]"
+            "[[Airport|Aeropuerto]]",
+            "[[Estación|Estación]]",
+            "[[is|is]]",
+            "[[Viaje|Viaje]]"
           ],
           "correctAnswer": 2
         }
@@ -266,8 +266,8 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "¿Es correcta esta frase?: \"For prepare a holiday\"",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -289,7 +289,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "of five This a module is review",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -311,8 +311,8 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -329,15 +329,15 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'Aeropuerto' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'Aeropuerto' en inglés?",
           "options": [
-            "[[Airport|]]",
-            "[[Hotel|]]",
-            "[[Weather|]]"
+            "[[Airport|Aeropuerto]]",
+            "[[Hotel|Hotel]]",
+            "[[Weather|Tiempo]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -354,46 +354,46 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
           "question": "Airport",
           "options": [
-            "[[Viaje|]]",
-            "[[Hotel|]]",
-            "[[Tiempo|]]",
-            "[[Aeropuerto|]]"
+            "[[Viaje|Viaje]]",
+            "[[Hotel|Hotel]]",
+            "[[Tiempo|Tiempo]]",
+            "[[Aeropuerto|Aeropuerto]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Travel",
           "options": [
-            "[[Aeropuerto|]]",
-            "[[Viaje|]]",
-            "[[Tiempo|]]",
-            "[[Hotel|]]"
+            "[[Aeropuerto|Aeropuerto]]",
+            "[[Viaje|Viaje]]",
+            "[[Tiempo|Tiempo]]",
+            "[[Hotel|Hotel]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Hotel",
           "options": [
-            "[[Tiempo|]]",
-            "[[Hotel|]]",
-            "[[Viaje|]]",
-            "[[Aeropuerto|]]"
+            "[[Tiempo|Tiempo]]",
+            "[[Hotel|Hotel]]",
+            "[[Viaje|Viaje]]",
+            "[[Aeropuerto|Aeropuerto]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Weather",
           "options": [
-            "[[Tiempo|]]",
-            "[[Hotel|]]",
-            "[[Viaje|]]",
-            "[[Aeropuerto|]]"
+            "[[Tiempo|Tiempo]]",
+            "[[Hotel|Hotel]]",
+            "[[Viaje|Viaje]]",
+            "[[Aeropuerto|Aeropuerto]]"
           ],
           "correctAnswer": 0
         }
@@ -408,16 +408,16 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "I go (en) ________ train.",
           "options": [
-            "[[Viaje|]]",
-            "[[by|]]",
-            "[[Season|]]",
-            "[[Tiempo|]]"
+            "[[Viaje|Viaje]]",
+            "[[by|by]]",
+            "[[Season|Season]]",
+            "[[Tiempo|Tiempo]]"
           ],
           "correctAnswer": 1
         }
@@ -439,8 +439,8 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "¿Es correcta esta frase?: \"This is a review of module five.\"",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -462,7 +462,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "Talk travel and about transport",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -484,8 +484,8 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -502,15 +502,15 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'Viaje' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'Viaje' en inglés?",
           "options": [
-            "[[Weather|]]",
-            "[[Season|]]",
-            "[[Travel|]]"
+            "[[Weather|Tiempo]]",
+            "[[Season|Season]]",
+            "[[Travel|Viajar]]"
           ],
           "correctAnswer": 2,
           "explanation": ""
@@ -527,46 +527,46 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
           "question": "Travel",
           "options": [
-            "[[Tiempo|]]",
-            "[[Hotel|]]",
-            "[[Viaje|]]",
-            "[[Estación|]]"
+            "[[Tiempo|Tiempo]]",
+            "[[Hotel|Hotel]]",
+            "[[Viaje|Viaje]]",
+            "[[Estación|Estación]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Hotel",
           "options": [
-            "[[Tiempo|]]",
-            "[[Estación|]]",
-            "[[Viaje|]]",
-            "[[Hotel|]]"
+            "[[Tiempo|Tiempo]]",
+            "[[Estación|Estación]]",
+            "[[Viaje|Viaje]]",
+            "[[Hotel|Hotel]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Weather",
           "options": [
-            "[[Hotel|]]",
-            "[[Viaje|]]",
-            "[[Estación|]]",
-            "[[Tiempo|]]"
+            "[[Hotel|Hotel]]",
+            "[[Viaje|Viaje]]",
+            "[[Estación|Estación]]",
+            "[[Tiempo|Tiempo]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Season",
           "options": [
-            "[[Viaje|]]",
-            "[[Hotel|]]",
-            "[[Estación|]]",
-            "[[Tiempo|]]"
+            "[[Viaje|Viaje]]",
+            "[[Hotel|Hotel]]",
+            "[[Estación|Estación]]",
+            "[[Tiempo|Tiempo]]"
           ],
           "correctAnswer": 2
         }
@@ -581,16 +581,16 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "It (ser/estar - ello) ________ sunny.",
           "options": [
-            "[[is|]]",
-            "[[o1|]]",
-            "[[o1|]]",
-            "[[Estación|]]"
+            "[[is|is]]",
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]",
+            "[[Estación|Estación]]"
           ],
           "correctAnswer": 0
         }
@@ -612,8 +612,8 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "¿Es correcta esta frase?: \"About talk transport and travel\"",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -635,7 +635,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "the weather Describe and seasons",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -657,8 +657,8 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -675,15 +675,15 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'Hotel' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'Hotel' en inglés?",
           "options": [
-            "[[Airport|]]",
-            "[[Hotel|]]",
-            "[[Travel|]]"
+            "[[Airport|Aeropuerto]]",
+            "[[Hotel|Hotel]]",
+            "[[Travel|Viajar]]"
           ],
           "correctAnswer": 1,
           "explanation": ""
@@ -700,46 +700,46 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
           "question": "Hotel",
           "options": [
-            "[[Aeropuerto|]]",
-            "[[Estación|]]",
-            "[[Tiempo|]]",
-            "[[Hotel|]]"
+            "[[Aeropuerto|Aeropuerto]]",
+            "[[Estación|Estación]]",
+            "[[Tiempo|Tiempo]]",
+            "[[Hotel|Hotel]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Weather",
           "options": [
-            "[[Hotel|]]",
-            "[[Aeropuerto|]]",
-            "[[Estación|]]",
-            "[[Tiempo|]]"
+            "[[Hotel|Hotel]]",
+            "[[Aeropuerto|Aeropuerto]]",
+            "[[Estación|Estación]]",
+            "[[Tiempo|Tiempo]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Season",
           "options": [
-            "[[Hotel|]]",
-            "[[Estación|]]",
-            "[[Tiempo|]]",
-            "[[Aeropuerto|]]"
+            "[[Hotel|Hotel]]",
+            "[[Estación|Estación]]",
+            "[[Tiempo|Tiempo]]",
+            "[[Aeropuerto|Aeropuerto]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Airport",
           "options": [
-            "[[Tiempo|]]",
-            "[[Hotel|]]",
-            "[[Estación|]]",
-            "[[Aeropuerto|]]"
+            "[[Tiempo|Tiempo]]",
+            "[[Hotel|Hotel]]",
+            "[[Estación|Estación]]",
+            "[[Aeropuerto|Aeropuerto]]"
           ],
           "correctAnswer": 3
         }
@@ -754,16 +754,16 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "I go (en) ________ train.",
           "options": [
-            "[[Tiempo|]]",
-            "[[Season|]]",
-            "[[by|]]",
-            "[[Aeropuerto|]]"
+            "[[Tiempo|Tiempo]]",
+            "[[Season|Season]]",
+            "[[by|by]]",
+            "[[Aeropuerto|Aeropuerto]]"
           ],
           "correctAnswer": 2
         }
@@ -785,8 +785,8 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "¿Es correcta esta frase?: \"Describe the weather and seasons.\"",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -808,7 +808,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "Book room a hotel",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -830,8 +830,8 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -848,15 +848,15 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'Tiempo' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'Tiempo' en inglés?",
           "options": [
-            "[[Hotel|]]",
-            "[[Travel|]]",
-            "[[Weather|]]"
+            "[[Hotel|Hotel]]",
+            "[[Travel|Viajar]]",
+            "[[Weather|Tiempo]]"
           ],
           "correctAnswer": 2,
           "explanation": ""
@@ -873,46 +873,46 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
           "question": "Weather",
           "options": [
-            "[[Tiempo|]]",
-            "[[Estación|]]",
-            "[[Viaje|]]",
-            "[[Aeropuerto|]]"
+            "[[Tiempo|Tiempo]]",
+            "[[Estación|Estación]]",
+            "[[Viaje|Viaje]]",
+            "[[Aeropuerto|Aeropuerto]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Season",
           "options": [
-            "[[Tiempo|]]",
-            "[[Aeropuerto|]]",
-            "[[Viaje|]]",
-            "[[Estación|]]"
+            "[[Tiempo|Tiempo]]",
+            "[[Aeropuerto|Aeropuerto]]",
+            "[[Viaje|Viaje]]",
+            "[[Estación|Estación]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Airport",
           "options": [
-            "[[Tiempo|]]",
-            "[[Estación|]]",
-            "[[Aeropuerto|]]",
-            "[[Viaje|]]"
+            "[[Tiempo|Tiempo]]",
+            "[[Estación|Estación]]",
+            "[[Aeropuerto|Aeropuerto]]",
+            "[[Viaje|Viaje]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Travel",
           "options": [
-            "[[Estación|]]",
-            "[[Viaje|]]",
-            "[[Aeropuerto|]]",
-            "[[Tiempo|]]"
+            "[[Estación|Estación]]",
+            "[[Viaje|Viaje]]",
+            "[[Aeropuerto|Aeropuerto]]",
+            "[[Tiempo|Tiempo]]"
           ],
           "correctAnswer": 1
         }
@@ -927,16 +927,16 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "It (ser/estar - ello) ________ sunny.",
           "options": [
-            "[[Tiempo|]]",
-            "[[is|]]",
-            "[[Tiempo|]]",
-            "[[Estación|]]"
+            "[[Tiempo|Tiempo]]",
+            "[[is|is]]",
+            "[[Tiempo|Tiempo]]",
+            "[[Estación|Estación]]"
           ],
           "correctAnswer": 1
         }
@@ -958,8 +958,8 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "¿Es correcta esta frase?: \"A book hotel room\"",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -981,7 +981,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "Prepare for holiday a",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -1003,8 +1003,8 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -1021,15 +1021,15 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'Estación' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'Estación' en inglés?",
           "options": [
-            "[[Travel|]]",
-            "[[Airport|]]",
-            "[[Season|]]"
+            "[[Travel|Viajar]]",
+            "[[Airport|Aeropuerto]]",
+            "[[Season|Season]]"
           ],
           "correctAnswer": 2,
           "explanation": ""
@@ -1046,46 +1046,46 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
           "question": "Season",
           "options": [
-            "[[Aeropuerto|]]",
-            "[[Hotel|]]",
-            "[[Viaje|]]",
-            "[[Estación|]]"
+            "[[Aeropuerto|Aeropuerto]]",
+            "[[Hotel|Hotel]]",
+            "[[Viaje|Viaje]]",
+            "[[Estación|Estación]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Airport",
           "options": [
-            "[[Aeropuerto|]]",
-            "[[Hotel|]]",
-            "[[Estación|]]",
-            "[[Viaje|]]"
+            "[[Aeropuerto|Aeropuerto]]",
+            "[[Hotel|Hotel]]",
+            "[[Estación|Estación]]",
+            "[[Viaje|Viaje]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Travel",
           "options": [
-            "[[Hotel|]]",
-            "[[Aeropuerto|]]",
-            "[[Viaje|]]",
-            "[[Estación|]]"
+            "[[Hotel|Hotel]]",
+            "[[Aeropuerto|Aeropuerto]]",
+            "[[Viaje|Viaje]]",
+            "[[Estación|Estación]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Hotel",
           "options": [
-            "[[Hotel|]]",
-            "[[Aeropuerto|]]",
-            "[[Estación|]]",
-            "[[Viaje|]]"
+            "[[Hotel|Hotel]]",
+            "[[Aeropuerto|Aeropuerto]]",
+            "[[Estación|Estación]]",
+            "[[Viaje|Viaje]]"
           ],
           "correctAnswer": 0
         }
@@ -1100,16 +1100,16 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "I go (en) ________ train.",
           "options": [
-            "[[by|]]",
-            "[[Aeropuerto|]]",
-            "[[Viaje|]]",
-            "[[seasons|]]"
+            "[[by|by]]",
+            "[[Aeropuerto|Aeropuerto]]",
+            "[[Viaje|Viaje]]",
+            "[[seasons|seasons]]"
           ],
           "correctAnswer": 0
         }
@@ -1131,8 +1131,8 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "¿Es correcta esta frase?: \"Prepare for a holiday.\"",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -1154,7 +1154,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "module is five of review This a",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -1176,8 +1176,8 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -1194,15 +1194,15 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'Aeropuerto' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'Aeropuerto' en inglés?",
           "options": [
-            "[[Weather|]]",
-            "[[Hotel|]]",
-            "[[Airport|]]"
+            "[[Weather|Tiempo]]",
+            "[[Hotel|Hotel]]",
+            "[[Airport|Aeropuerto]]"
           ],
           "correctAnswer": 2,
           "explanation": ""
@@ -1219,46 +1219,46 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
           "question": "Airport",
           "options": [
-            "[[Aeropuerto|]]",
-            "[[Hotel|]]",
-            "[[Tiempo|]]",
-            "[[Viaje|]]"
+            "[[Aeropuerto|Aeropuerto]]",
+            "[[Hotel|Hotel]]",
+            "[[Tiempo|Tiempo]]",
+            "[[Viaje|Viaje]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Travel",
           "options": [
-            "[[Tiempo|]]",
-            "[[Viaje|]]",
-            "[[Hotel|]]",
-            "[[Aeropuerto|]]"
+            "[[Tiempo|Tiempo]]",
+            "[[Viaje|Viaje]]",
+            "[[Hotel|Hotel]]",
+            "[[Aeropuerto|Aeropuerto]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Hotel",
           "options": [
-            "[[Viaje|]]",
-            "[[Hotel|]]",
-            "[[Tiempo|]]",
-            "[[Aeropuerto|]]"
+            "[[Viaje|Viaje]]",
+            "[[Hotel|Hotel]]",
+            "[[Tiempo|Tiempo]]",
+            "[[Aeropuerto|Aeropuerto]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Weather",
           "options": [
-            "[[Viaje|]]",
-            "[[Tiempo|]]",
-            "[[Hotel|]]",
-            "[[Aeropuerto|]]"
+            "[[Viaje|Viaje]]",
+            "[[Tiempo|Tiempo]]",
+            "[[Hotel|Hotel]]",
+            "[[Aeropuerto|Aeropuerto]]"
           ],
           "correctAnswer": 1
         }
@@ -1273,16 +1273,16 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "It (ser/estar - ello) ________ sunny.",
           "options": [
-            "[[o1|]]",
-            "[[is|]]",
-            "[[transport|]]",
-            "[[o1|]]"
+            "[[o1|opción 1]]",
+            "[[is|is]]",
+            "[[transport|transport]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 1
         }
@@ -1304,8 +1304,8 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "¿Es correcta esta frase?: \"Is this a review of module five\"",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -1327,7 +1327,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "about Talk travel transport and",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -1349,8 +1349,8 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -1367,15 +1367,15 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'Viaje' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'Viaje' en inglés?",
           "options": [
-            "[[Hotel|]]",
-            "[[Season|]]",
-            "[[Travel|]]"
+            "[[Hotel|Hotel]]",
+            "[[Season|Season]]",
+            "[[Travel|Viajar]]"
           ],
           "correctAnswer": 2,
           "explanation": ""
@@ -1392,46 +1392,46 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
           "question": "Travel",
           "options": [
-            "[[Estación|]]",
-            "[[Viaje|]]",
-            "[[Tiempo|]]",
-            "[[Hotel|]]"
+            "[[Estación|Estación]]",
+            "[[Viaje|Viaje]]",
+            "[[Tiempo|Tiempo]]",
+            "[[Hotel|Hotel]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Hotel",
           "options": [
-            "[[Estación|]]",
-            "[[Hotel|]]",
-            "[[Tiempo|]]",
-            "[[Viaje|]]"
+            "[[Estación|Estación]]",
+            "[[Hotel|Hotel]]",
+            "[[Tiempo|Tiempo]]",
+            "[[Viaje|Viaje]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Weather",
           "options": [
-            "[[Estación|]]",
-            "[[Tiempo|]]",
-            "[[Hotel|]]",
-            "[[Viaje|]]"
+            "[[Estación|Estación]]",
+            "[[Tiempo|Tiempo]]",
+            "[[Hotel|Hotel]]",
+            "[[Viaje|Viaje]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Season",
           "options": [
-            "[[Tiempo|]]",
-            "[[Viaje|]]",
-            "[[Estación|]]",
-            "[[Hotel|]]"
+            "[[Tiempo|Tiempo]]",
+            "[[Viaje|Viaje]]",
+            "[[Estación|Estación]]",
+            "[[Hotel|Hotel]]"
           ],
           "correctAnswer": 2
         }
@@ -1446,16 +1446,16 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "I go (en) ________ train.",
           "options": [
-            "[[by|]]",
-            "[[Hotel|]]",
-            "[[Weather|]]",
-            "[[Estación|]]"
+            "[[by|by]]",
+            "[[Hotel|Hotel]]",
+            "[[Weather|Tiempo]]",
+            "[[Estación|Estación]]"
           ],
           "correctAnswer": 0
         }
@@ -1477,8 +1477,8 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "¿Es correcta esta frase?: \"Talk about transport and travel.\"",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -1500,7 +1500,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "weather the seasons Describe and",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -1522,8 +1522,8 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -1540,15 +1540,15 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'Hotel' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'Hotel' en inglés?",
           "options": [
-            "[[Hotel|]]",
-            "[[Airport|]]",
-            "[[Season|]]"
+            "[[Hotel|Hotel]]",
+            "[[Airport|Aeropuerto]]",
+            "[[Season|Season]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1565,46 +1565,46 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
           "question": "Hotel",
           "options": [
-            "[[Aeropuerto|]]",
-            "[[Hotel|]]",
-            "[[Tiempo|]]",
-            "[[Estación|]]"
+            "[[Aeropuerto|Aeropuerto]]",
+            "[[Hotel|Hotel]]",
+            "[[Tiempo|Tiempo]]",
+            "[[Estación|Estación]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Weather",
           "options": [
-            "[[Estación|]]",
-            "[[Aeropuerto|]]",
-            "[[Hotel|]]",
-            "[[Tiempo|]]"
+            "[[Estación|Estación]]",
+            "[[Aeropuerto|Aeropuerto]]",
+            "[[Hotel|Hotel]]",
+            "[[Tiempo|Tiempo]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Season",
           "options": [
-            "[[Tiempo|]]",
-            "[[Aeropuerto|]]",
-            "[[Hotel|]]",
-            "[[Estación|]]"
+            "[[Tiempo|Tiempo]]",
+            "[[Aeropuerto|Aeropuerto]]",
+            "[[Hotel|Hotel]]",
+            "[[Estación|Estación]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Airport",
           "options": [
-            "[[Hotel|]]",
-            "[[Estación|]]",
-            "[[Aeropuerto|]]",
-            "[[Tiempo|]]"
+            "[[Hotel|Hotel]]",
+            "[[Estación|Estación]]",
+            "[[Aeropuerto|Aeropuerto]]",
+            "[[Tiempo|Tiempo]]"
           ],
           "correctAnswer": 2
         }
@@ -1619,16 +1619,16 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "It (ser/estar - ello) ________ sunny.",
           "options": [
-            "[[Viaje|]]",
-            "[[Viaje|]]",
-            "[[is|]]",
-            "[[Tiempo|]]"
+            "[[Viaje|Viaje]]",
+            "[[Viaje|Viaje]]",
+            "[[is|is]]",
+            "[[Tiempo|Tiempo]]"
           ],
           "correctAnswer": 2
         }
@@ -1650,8 +1650,8 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "¿Es correcta esta frase?: \"The describe weather and seasons\"",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -1673,7 +1673,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "hotel Book room a",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -1695,8 +1695,8 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -1713,15 +1713,15 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'Tiempo' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'Tiempo' en inglés?",
           "options": [
-            "[[Weather|]]",
-            "[[Season|]]",
-            "[[Airport|]]"
+            "[[Weather|Tiempo]]",
+            "[[Season|Season]]",
+            "[[Airport|Aeropuerto]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1743,10 +1743,10 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[airport|]] is here.",
+          "question": "The [[airport|airport]] is here.",
           "options": [
-            "[[Weather|]]",
-            "[[airport|]]"
+            "[[Weather|Tiempo]]",
+            "[[airport|airport]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1768,10 +1768,10 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[transport|]] is here.",
+          "question": "The [[transport|transport]] is here.",
           "options": [
-            "[[transport|]]",
-            "[[by|]]"
+            "[[transport|transport]]",
+            "[[by|by]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1793,10 +1793,10 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[weather|]] is here.",
+          "question": "The [[weather|clima]] is here.",
           "options": [
-            "[[weather|]]",
-            "[[Tiempo|]]"
+            "[[weather|clima]]",
+            "[[Tiempo|Tiempo]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1818,10 +1818,10 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[seasons|]] is here.",
+          "question": "The [[seasons|seasons]] is here.",
           "options": [
-            "[[seasons|]]",
-            "[[by|]]"
+            "[[seasons|seasons]]",
+            "[[by|by]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1843,10 +1843,10 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[hotel|]] is here.",
+          "question": "The [[hotel|hotel]] is here.",
           "options": [
-            "[[hotel|]]",
-            "[[is|]]"
+            "[[hotel|hotel]]",
+            "[[is|is]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1868,10 +1868,10 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[travel|]] is here.",
+          "question": "The [[travel|travel]] is here.",
           "options": [
-            "[[Estación|]]",
-            "[[travel|]]"
+            "[[Estación|Estación]]",
+            "[[travel|travel]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1893,10 +1893,10 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[packing|]] is here.",
+          "question": "The [[packing|packing]] is here.",
           "options": [
-            "[[packing|]]",
-            "[[Airport|]]"
+            "[[packing|packing]]",
+            "[[Airport|Aeropuerto]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

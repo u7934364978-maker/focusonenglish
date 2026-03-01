@@ -9,15 +9,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Dónde te pruebas la ropa?",
       "questions": [
         {
           "question": "¿Dónde te pruebas la ropa?",
           "options": [
-            "[[In the fitting room|]]",
-            "[[In the kitchen|]]",
-            "[[At the checkout|]]"
+            "[[In the fitting room|In the fitting room]]",
+            "[[In the kitchen|In the kitchen]]",
+            "[[At the checkout|At the checkout]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -34,46 +34,46 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une los términos de la tienda:",
       "questions": [
         {
           "question": "Shop assistant",
           "options": [
-            "[[Dependiente/a|]]",
-            "[[Etiqueta|]]",
-            "[[Rebajas|]]",
-            "[[Cliente|]]"
+            "[[Dependiente/a|Dependiente/a]]",
+            "[[Etiqueta|Etiqueta]]",
+            "[[Rebajas|Rebajas]]",
+            "[[Cliente|Cliente]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Customer",
           "options": [
-            "[[Rebajas|]]",
-            "[[Cliente|]]",
-            "[[Etiqueta|]]",
-            "[[Dependiente/a|]]"
+            "[[Rebajas|Rebajas]]",
+            "[[Cliente|Cliente]]",
+            "[[Etiqueta|Etiqueta]]",
+            "[[Dependiente/a|Dependiente/a]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Price tag",
           "options": [
-            "[[Etiqueta|]]",
-            "[[Cliente|]]",
-            "[[Rebajas|]]",
-            "[[Dependiente/a|]]"
+            "[[Etiqueta|Etiqueta]]",
+            "[[Cliente|Cliente]]",
+            "[[Rebajas|Rebajas]]",
+            "[[Dependiente/a|Dependiente/a]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Sale",
           "options": [
-            "[[Etiqueta|]]",
-            "[[Rebajas|]]",
-            "[[Dependiente/a|]]",
-            "[[Cliente|]]"
+            "[[Etiqueta|Etiqueta]]",
+            "[[Rebajas|Rebajas]]",
+            "[[Dependiente/a|Dependiente/a]]",
+            "[[Cliente|Cliente]]"
           ],
           "correctAnswer": 1
         }
@@ -95,8 +95,8 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "Escribe 'talla' en inglés:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -113,15 +113,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Qué significa 'on sale'?",
       "questions": [
         {
           "question": "¿Qué significa 'on sale'?",
           "options": [
-            "[[En oferta / rebajado|]]",
-            "[[Cerrado|]]",
-            "[[Nuevo|]]"
+            "[[En oferta / rebajado|En oferta / rebajado]]",
+            "[[Cerrado|Cerrado]]",
+            "[[Nuevo|Nuevo]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -138,16 +138,16 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa: '¿Puedo probarme esto?'",
       "questions": [
         {
           "question": "________ I try this on?",
           "options": [
-            "[[Can|]]",
-            "[[o1|]]",
-            "[[Cliente|]]",
-            "[[Do you have this in blue?|]]"
+            "[[Can|Can]]",
+            "[[o1|opción 1]]",
+            "[[Cliente|Cliente]]",
+            "[[Do you have this in blue?|Do you have this in blue?]]"
           ],
           "correctAnswer": 0
         }
@@ -168,7 +168,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "I need a small size",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -184,15 +184,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo preguntas el precio?",
       "questions": [
         {
           "question": "¿Cómo preguntas el precio?",
           "options": [
-            "[[How much is this?|]]",
-            "[[How many is this?|]]",
-            "[[What price is this?|]]"
+            "[[How much is this?|How much is this?]]",
+            "[[How many is this?|How many is this?]]",
+            "[[What price is this?|What price is this?]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -209,16 +209,16 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa: '¿Lo tienes en azul?'",
       "questions": [
         {
           "question": "Do you ________ this in blue?",
           "options": [
-            "[[have|]]",
-            "[[try on|]]",
-            "[[Cliente|]]",
-            "[[o1|]]"
+            "[[have|have]]",
+            "[[try on|probarse]]",
+            "[[Cliente|Cliente]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0
         }
@@ -240,8 +240,8 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "Escucha la petición:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -264,8 +264,8 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "Clasifica según quién lo dice:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -282,15 +282,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "Si la ropa es muy barata, dices que está en:",
       "questions": [
         {
           "question": "Si la ropa es muy barata, dices que está en:",
           "options": [
-            "[[Sale|]]",
-            "[[Size|]]",
-            "[[Fitting room|]]"
+            "[[Sale|Rebaja]]",
+            "[[Size|Tamaño]]",
+            "[[Fitting room|Fitting room]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -314,8 +314,8 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: '¿Cuánto cuesta esta camisa?'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -338,8 +338,8 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "'I'll take it' significa que vas a comprar el artículo.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -355,16 +355,16 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa el diálogo:",
       "questions": [
         {
           "question": "Can I ________ this on? Yes, the ________ room is over there.",
           "options": [
-            "[[o1|]]",
-            "[[try, fitting|]]",
-            "[[Can I try this on?|]]",
-            "[[Where are the fitting rooms?|]]"
+            "[[o1|opción 1]]",
+            "[[try, fitting|try, fitting]]",
+            "[[Can I try this on?|¿Puedo probarme esto?]]",
+            "[[Where are the fitting rooms?|¿Dónde están los probadores?]]"
           ],
           "correctAnswer": 1
         }
@@ -386,8 +386,8 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "Pregunta si tienen una talla grande (L):",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -404,15 +404,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "Si quieres pagar, vas a:",
       "questions": [
         {
           "question": "Si quieres pagar, vas a:",
           "options": [
-            "[[The checkout|]]",
-            "[[The fitting room|]]",
-            "[[The sale|]]"
+            "[[The checkout|La caja]]",
+            "[[The fitting room|El probador]]",
+            "[[The sale|Las rebajas]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -436,8 +436,8 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[categorization_logic|]]",
-            "[[Where are the fitting rooms?|]]"
+            "[[categorization_logic|categorization_logic]]",
+            "[[Where are the fitting rooms?|¿Dónde están los probadores?]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -461,8 +461,8 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[fitting room|]]",
-            "[[Can I try this on?|]]"
+            "[[fitting room|probador]]",
+            "[[Can I try this on?|¿Puedo probarme esto?]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -486,8 +486,8 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[try, fitting|]]",
-            "[[I need a medium size.|]]"
+            "[[try, fitting|try, fitting]]",
+            "[[I need a medium size.|Necesito una talla mediana.]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -511,8 +511,8 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[How much is this shirt?|]]",
-            "[[expensive|]]"
+            "[[How much is this shirt?|How much is this shirt?]]",
+            "[[expensive|expensive]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -536,8 +536,8 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[It is on sale today.|]]",
-            "[[o1|]]"
+            "[[It is on sale today.|It is on sale today.]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -561,8 +561,8 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[How much is this shirt?|]]",
-            "[[Do you have this in blue?|]]"
+            "[[How much is this shirt?|How much is this shirt?]]",
+            "[[Do you have this in blue?|Do you have this in blue?]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -586,8 +586,8 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Rebajas|]]",
-            "[[I will take it.|]]"
+            "[[Rebajas|Rebajas]]",
+            "[[I will take it.|I will take it.]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -733,15 +733,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'shirt' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'shirt' en inglés?",
           "options": [
-            "[[Shirt|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Shirt|Camisa]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -759,15 +759,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'jeans' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'jeans' en inglés?",
           "options": [
-            "[[Jeans|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Jeans|Vaqueros]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -785,15 +785,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'size' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'size' en inglés?",
           "options": [
-            "[[Size|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Size|Tamaño]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -811,15 +811,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'price' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'price' en inglés?",
           "options": [
-            "[[Price|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Price|Precio]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -837,15 +837,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'fitting room' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'fitting room' en inglés?",
           "options": [
-            "[[Fitting room|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Fitting room|Fitting room]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -863,15 +863,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'try on' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'try on' en inglés?",
           "options": [
-            "[[Try on|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Try on|Try on]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -889,15 +889,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'expensive' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'expensive' en inglés?",
           "options": [
-            "[[Expensive|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Expensive|Caro]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -915,15 +915,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'shirt' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'shirt' en inglés?",
           "options": [
-            "[[Shirt|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Shirt|Camisa]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -941,15 +941,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'jeans' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'jeans' en inglés?",
           "options": [
-            "[[Jeans|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Jeans|Vaqueros]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -967,15 +967,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'size' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'size' en inglés?",
           "options": [
-            "[[Size|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Size|Tamaño]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -993,15 +993,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'price' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'price' en inglés?",
           "options": [
-            "[[Price|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Price|Precio]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1019,15 +1019,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'fitting room' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'fitting room' en inglés?",
           "options": [
-            "[[Fitting room|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Fitting room|Fitting room]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1045,15 +1045,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'try on' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'try on' en inglés?",
           "options": [
-            "[[Try on|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Try on|Try on]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1071,15 +1071,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'expensive' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'expensive' en inglés?",
           "options": [
-            "[[Expensive|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Expensive|Caro]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1097,15 +1097,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'shirt' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'shirt' en inglés?",
           "options": [
-            "[[Shirt|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Shirt|Camisa]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1123,15 +1123,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'jeans' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'jeans' en inglés?",
           "options": [
-            "[[Jeans|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Jeans|Vaqueros]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1149,15 +1149,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'size' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'size' en inglés?",
           "options": [
-            "[[Size|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Size|Tamaño]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1175,15 +1175,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'price' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'price' en inglés?",
           "options": [
-            "[[Price|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Price|Precio]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1201,15 +1201,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'fitting room' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'fitting room' en inglés?",
           "options": [
-            "[[Fitting room|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Fitting room|Fitting room]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1227,15 +1227,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'try on' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'try on' en inglés?",
           "options": [
-            "[[Try on|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Try on|Try on]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1253,15 +1253,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'expensive' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'expensive' en inglés?",
           "options": [
-            "[[Expensive|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Expensive|Caro]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1279,15 +1279,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'shirt' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'shirt' en inglés?",
           "options": [
-            "[[Shirt|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Shirt|Camisa]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1305,15 +1305,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'jeans' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'jeans' en inglés?",
           "options": [
-            "[[Jeans|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Jeans|Vaqueros]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1331,15 +1331,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'size' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'size' en inglés?",
           "options": [
-            "[[Size|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Size|Tamaño]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1357,15 +1357,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'price' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'price' en inglés?",
           "options": [
-            "[[Price|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Price|Precio]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1383,15 +1383,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'fitting room' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'fitting room' en inglés?",
           "options": [
-            "[[Fitting room|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Fitting room|Fitting room]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1409,15 +1409,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'try on' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'try on' en inglés?",
           "options": [
-            "[[Try on|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Try on|Try on]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1435,15 +1435,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'expensive' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'expensive' en inglés?",
           "options": [
-            "[[Expensive|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Expensive|Caro]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1461,15 +1461,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'shirt' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'shirt' en inglés?",
           "options": [
-            "[[Shirt|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Shirt|Camisa]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1491,10 +1491,10 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[shirt|]] is here.",
+          "question": "The [[shirt|shirt]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[shirt|]]"
+            "[[o1|opción 1]]",
+            "[[shirt|shirt]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1516,10 +1516,10 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[jeans|]] is here.",
+          "question": "The [[jeans|jeans]] is here.",
           "options": [
-            "[[jeans|]]",
-            "[[o1|]]"
+            "[[jeans|jeans]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1541,10 +1541,10 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[size|]] is here.",
+          "question": "The [[size|talla]] is here.",
           "options": [
-            "[[have|]]",
-            "[[size|]]"
+            "[[have|have]]",
+            "[[size|talla]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1566,10 +1566,10 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[price|]] is here.",
+          "question": "The [[price|price]] is here.",
           "options": [
-            "[[Size|]]",
-            "[[price|]]"
+            "[[Size|Tamaño]]",
+            "[[price|price]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1591,10 +1591,10 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[fitting room|]] is here.",
+          "question": "The [[fitting room|probador]] is here.",
           "options": [
-            "[[fitting room|]]",
-            "[[o1|]]"
+            "[[fitting room|probador]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1616,10 +1616,10 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[try on|]] is here.",
+          "question": "The [[try on|probarse]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[try on|]]"
+            "[[o1|opción 1]]",
+            "[[try on|probarse]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1641,10 +1641,10 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[expensive|]] is here.",
+          "question": "The [[expensive|expensive]] is here.",
           "options": [
-            "[[expensive|]]",
-            "[[Where are the fitting rooms?|]]"
+            "[[expensive|expensive]]",
+            "[[Where are the fitting rooms?|¿Dónde están los probadores?]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

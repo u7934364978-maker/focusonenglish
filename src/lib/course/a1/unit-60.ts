@@ -8,46 +8,46 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
           "question": "Food",
           "options": [
-            "[[Dinero|]]",
-            "[[Comida|]]",
-            "[[Salud|]]",
-            "[[Compras|]]"
+            "[[Dinero|Dinero]]",
+            "[[Comida|Comida]]",
+            "[[Salud|Salud]]",
+            "[[Compras|Compras]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Money",
           "options": [
-            "[[Compras|]]",
-            "[[Comida|]]",
-            "[[Dinero|]]",
-            "[[Salud|]]"
+            "[[Compras|Compras]]",
+            "[[Comida|Comida]]",
+            "[[Dinero|Dinero]]",
+            "[[Salud|Salud]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Health",
           "options": [
-            "[[Dinero|]]",
-            "[[Salud|]]",
-            "[[Compras|]]",
-            "[[Comida|]]"
+            "[[Dinero|Dinero]]",
+            "[[Salud|Salud]]",
+            "[[Compras|Compras]]",
+            "[[Comida|Comida]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Shopping",
           "options": [
-            "[[Comida|]]",
-            "[[Dinero|]]",
-            "[[Compras|]]",
-            "[[Salud|]]"
+            "[[Comida|Comida]]",
+            "[[Dinero|Dinero]]",
+            "[[Compras|Compras]]",
+            "[[Salud|Salud]]"
           ],
           "correctAnswer": 2
         }
@@ -62,16 +62,16 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "I have (algo de) ________ cheese.",
           "options": [
-            "[[Dinero|]]",
-            "[[some|]]",
-            "[[o1|]]",
-            "[[Health|]]"
+            "[[Dinero|Dinero]]",
+            "[[some|some]]",
+            "[[o1|opción 1]]",
+            "[[Health|Health]]"
           ],
           "correctAnswer": 1
         }
@@ -93,8 +93,8 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "¿Es correcta esta frase?: \"Describe health issues.\"",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -116,7 +116,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "in a restaurant Order",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -138,8 +138,8 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -156,15 +156,15 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'Dinero' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'Dinero' en inglés?",
           "options": [
-            "[[Restaurant|]]",
-            "[[Money|]]",
-            "[[Health|]]"
+            "[[Restaurant|Restaurante]]",
+            "[[Money|Dinero]]",
+            "[[Health|Health]]"
           ],
           "correctAnswer": 1,
           "explanation": ""
@@ -181,46 +181,46 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
           "question": "Money",
           "options": [
-            "[[Salud|]]",
-            "[[Restaurante|]]",
-            "[[Compras|]]",
-            "[[Dinero|]]"
+            "[[Salud|Salud]]",
+            "[[Restaurante|Restaurante]]",
+            "[[Compras|Compras]]",
+            "[[Dinero|Dinero]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Health",
           "options": [
-            "[[Restaurante|]]",
-            "[[Dinero|]]",
-            "[[Compras|]]",
-            "[[Salud|]]"
+            "[[Restaurante|Restaurante]]",
+            "[[Dinero|Dinero]]",
+            "[[Compras|Compras]]",
+            "[[Salud|Salud]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Shopping",
           "options": [
-            "[[Salud|]]",
-            "[[Compras|]]",
-            "[[Dinero|]]",
-            "[[Restaurante|]]"
+            "[[Salud|Salud]]",
+            "[[Compras|Compras]]",
+            "[[Dinero|Dinero]]",
+            "[[Restaurante|Restaurante]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Restaurant",
           "options": [
-            "[[Compras|]]",
-            "[[Salud|]]",
-            "[[Dinero|]]",
-            "[[Restaurante|]]"
+            "[[Compras|Compras]]",
+            "[[Salud|Salud]]",
+            "[[Dinero|Dinero]]",
+            "[[Restaurante|Restaurante]]"
           ],
           "correctAnswer": 3
         }
@@ -235,16 +235,16 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "How (mucho) ________ milk?",
           "options": [
-            "[[Food|]]",
-            "[[o1|]]",
-            "[[o1|]]",
-            "[[much|]]"
+            "[[Food|Food]]",
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]",
+            "[[much|much]]"
           ],
           "correctAnswer": 3
         }
@@ -266,8 +266,8 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "¿Es correcta esta frase?: \"In order a restaurant\"",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -289,7 +289,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "Manage money payments and",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -311,8 +311,8 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -329,15 +329,15 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'Salud' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'Salud' en inglés?",
           "options": [
-            "[[Health|]]",
-            "[[Shopping|]]",
-            "[[Restaurant|]]"
+            "[[Health|Health]]",
+            "[[Shopping|Compras]]",
+            "[[Restaurant|Restaurante]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -354,46 +354,46 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
           "question": "Health",
           "options": [
-            "[[Salud|]]",
-            "[[Compras|]]",
-            "[[Restaurante|]]",
-            "[[Comida|]]"
+            "[[Salud|Salud]]",
+            "[[Compras|Compras]]",
+            "[[Restaurante|Restaurante]]",
+            "[[Comida|Comida]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Shopping",
           "options": [
-            "[[Compras|]]",
-            "[[Restaurante|]]",
-            "[[Comida|]]",
-            "[[Salud|]]"
+            "[[Compras|Compras]]",
+            "[[Restaurante|Restaurante]]",
+            "[[Comida|Comida]]",
+            "[[Salud|Salud]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Restaurant",
           "options": [
-            "[[Restaurante|]]",
-            "[[Salud|]]",
-            "[[Compras|]]",
-            "[[Comida|]]"
+            "[[Restaurante|Restaurante]]",
+            "[[Salud|Salud]]",
+            "[[Compras|Compras]]",
+            "[[Comida|Comida]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Food",
           "options": [
-            "[[Restaurante|]]",
-            "[[Compras|]]",
-            "[[Comida|]]",
-            "[[Salud|]]"
+            "[[Restaurante|Restaurante]]",
+            "[[Compras|Compras]]",
+            "[[Comida|Comida]]",
+            "[[Salud|Salud]]"
           ],
           "correctAnswer": 2
         }
@@ -408,16 +408,16 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "I have (algo de) ________ cheese.",
           "options": [
-            "[[some|]]",
-            "[[Dinero|]]",
-            "[[Shopping|]]",
-            "[[supermarket|]]"
+            "[[some|some]]",
+            "[[Dinero|Dinero]]",
+            "[[Shopping|Compras]]",
+            "[[supermarket|supermercado]]"
           ],
           "correctAnswer": 0
         }
@@ -439,8 +439,8 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "¿Es correcta esta frase?: \"Manage money and payments.\"",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -462,7 +462,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "and Talk about shopping food",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -484,8 +484,8 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -502,15 +502,15 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'Compras' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'Compras' en inglés?",
           "options": [
-            "[[Shopping|]]",
-            "[[Restaurant|]]",
-            "[[Health|]]"
+            "[[Shopping|Compras]]",
+            "[[Restaurant|Restaurante]]",
+            "[[Health|Health]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -527,46 +527,46 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
           "question": "Shopping",
           "options": [
-            "[[Dinero|]]",
-            "[[Comida|]]",
-            "[[Compras|]]",
-            "[[Restaurante|]]"
+            "[[Dinero|Dinero]]",
+            "[[Comida|Comida]]",
+            "[[Compras|Compras]]",
+            "[[Restaurante|Restaurante]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Restaurant",
           "options": [
-            "[[Comida|]]",
-            "[[Compras|]]",
-            "[[Dinero|]]",
-            "[[Restaurante|]]"
+            "[[Comida|Comida]]",
+            "[[Compras|Compras]]",
+            "[[Dinero|Dinero]]",
+            "[[Restaurante|Restaurante]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Food",
           "options": [
-            "[[Compras|]]",
-            "[[Dinero|]]",
-            "[[Comida|]]",
-            "[[Restaurante|]]"
+            "[[Compras|Compras]]",
+            "[[Dinero|Dinero]]",
+            "[[Comida|Comida]]",
+            "[[Restaurante|Restaurante]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Money",
           "options": [
-            "[[Dinero|]]",
-            "[[Restaurante|]]",
-            "[[Compras|]]",
-            "[[Comida|]]"
+            "[[Dinero|Dinero]]",
+            "[[Restaurante|Restaurante]]",
+            "[[Compras|Compras]]",
+            "[[Comida|Comida]]"
           ],
           "correctAnswer": 0
         }
@@ -581,16 +581,16 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "How (mucho) ________ milk?",
           "options": [
-            "[[Dinero|]]",
-            "[[Salud|]]",
-            "[[much|]]",
-            "[[Compras|]]"
+            "[[Dinero|Dinero]]",
+            "[[Salud|Salud]]",
+            "[[much|much]]",
+            "[[Compras|Compras]]"
           ],
           "correctAnswer": 2
         }
@@ -612,8 +612,8 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "¿Es correcta esta frase?: \"About talk shopping and food\"",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -635,7 +635,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "final the is This review",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -657,8 +657,8 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -675,15 +675,15 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'Restaurante' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'Restaurante' en inglés?",
           "options": [
-            "[[Food|]]",
-            "[[Health|]]",
-            "[[Restaurant|]]"
+            "[[Food|Food]]",
+            "[[Health|Health]]",
+            "[[Restaurant|Restaurante]]"
           ],
           "correctAnswer": 2,
           "explanation": ""
@@ -700,46 +700,46 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
           "question": "Restaurant",
           "options": [
-            "[[Salud|]]",
-            "[[Dinero|]]",
-            "[[Comida|]]",
-            "[[Restaurante|]]"
+            "[[Salud|Salud]]",
+            "[[Dinero|Dinero]]",
+            "[[Comida|Comida]]",
+            "[[Restaurante|Restaurante]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Food",
           "options": [
-            "[[Dinero|]]",
-            "[[Salud|]]",
-            "[[Restaurante|]]",
-            "[[Comida|]]"
+            "[[Dinero|Dinero]]",
+            "[[Salud|Salud]]",
+            "[[Restaurante|Restaurante]]",
+            "[[Comida|Comida]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Money",
           "options": [
-            "[[Dinero|]]",
-            "[[Comida|]]",
-            "[[Salud|]]",
-            "[[Restaurante|]]"
+            "[[Dinero|Dinero]]",
+            "[[Comida|Comida]]",
+            "[[Salud|Salud]]",
+            "[[Restaurante|Restaurante]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Health",
           "options": [
-            "[[Comida|]]",
-            "[[Dinero|]]",
-            "[[Restaurante|]]",
-            "[[Salud|]]"
+            "[[Comida|Comida]]",
+            "[[Dinero|Dinero]]",
+            "[[Restaurante|Restaurante]]",
+            "[[Salud|Salud]]"
           ],
           "correctAnswer": 3
         }
@@ -754,16 +754,16 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "I have (algo de) ________ cheese.",
           "options": [
-            "[[Salud|]]",
-            "[[some|]]",
-            "[[food|]]",
-            "[[Restaurante|]]"
+            "[[Salud|Salud]]",
+            "[[some|some]]",
+            "[[food|food]]",
+            "[[Restaurante|Restaurante]]"
           ],
           "correctAnswer": 1
         }
@@ -785,8 +785,8 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "¿Es correcta esta frase?: \"This is the final review.\"",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -808,7 +808,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "issues health Describe",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -830,8 +830,8 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -848,15 +848,15 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'Comida' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'Comida' en inglés?",
           "options": [
-            "[[Restaurant|]]",
-            "[[Food|]]",
-            "[[Money|]]"
+            "[[Restaurant|Restaurante]]",
+            "[[Food|Food]]",
+            "[[Money|Dinero]]"
           ],
           "correctAnswer": 1,
           "explanation": ""
@@ -873,46 +873,46 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
           "question": "Food",
           "options": [
-            "[[Salud|]]",
-            "[[Compras|]]",
-            "[[Comida|]]",
-            "[[Dinero|]]"
+            "[[Salud|Salud]]",
+            "[[Compras|Compras]]",
+            "[[Comida|Comida]]",
+            "[[Dinero|Dinero]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Money",
           "options": [
-            "[[Salud|]]",
-            "[[Compras|]]",
-            "[[Comida|]]",
-            "[[Dinero|]]"
+            "[[Salud|Salud]]",
+            "[[Compras|Compras]]",
+            "[[Comida|Comida]]",
+            "[[Dinero|Dinero]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Health",
           "options": [
-            "[[Salud|]]",
-            "[[Comida|]]",
-            "[[Dinero|]]",
-            "[[Compras|]]"
+            "[[Salud|Salud]]",
+            "[[Comida|Comida]]",
+            "[[Dinero|Dinero]]",
+            "[[Compras|Compras]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Shopping",
           "options": [
-            "[[Dinero|]]",
-            "[[Compras|]]",
-            "[[Salud|]]",
-            "[[Comida|]]"
+            "[[Dinero|Dinero]]",
+            "[[Compras|Compras]]",
+            "[[Salud|Salud]]",
+            "[[Comida|Comida]]"
           ],
           "correctAnswer": 1
         }
@@ -927,16 +927,16 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "How (mucho) ________ milk?",
           "options": [
-            "[[o1|]]",
-            "[[much|]]",
-            "[[Compras|]]",
-            "[[o1|]]"
+            "[[o1|opción 1]]",
+            "[[much|much]]",
+            "[[Compras|Compras]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 1
         }
@@ -958,8 +958,8 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "¿Es correcta esta frase?: \"Health describe issues\"",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -981,7 +981,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "a in Order restaurant",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -1003,8 +1003,8 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -1021,15 +1021,15 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'Dinero' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'Dinero' en inglés?",
           "options": [
-            "[[Money|]]",
-            "[[Health|]]",
-            "[[Shopping|]]"
+            "[[Money|Dinero]]",
+            "[[Health|Health]]",
+            "[[Shopping|Compras]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1046,46 +1046,46 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
           "question": "Money",
           "options": [
-            "[[Compras|]]",
-            "[[Dinero|]]",
-            "[[Restaurante|]]",
-            "[[Salud|]]"
+            "[[Compras|Compras]]",
+            "[[Dinero|Dinero]]",
+            "[[Restaurante|Restaurante]]",
+            "[[Salud|Salud]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Health",
           "options": [
-            "[[Salud|]]",
-            "[[Dinero|]]",
-            "[[Restaurante|]]",
-            "[[Compras|]]"
+            "[[Salud|Salud]]",
+            "[[Dinero|Dinero]]",
+            "[[Restaurante|Restaurante]]",
+            "[[Compras|Compras]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Shopping",
           "options": [
-            "[[Compras|]]",
-            "[[Salud|]]",
-            "[[Dinero|]]",
-            "[[Restaurante|]]"
+            "[[Compras|Compras]]",
+            "[[Salud|Salud]]",
+            "[[Dinero|Dinero]]",
+            "[[Restaurante|Restaurante]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Restaurant",
           "options": [
-            "[[Salud|]]",
-            "[[Compras|]]",
-            "[[Restaurante|]]",
-            "[[Dinero|]]"
+            "[[Salud|Salud]]",
+            "[[Compras|Compras]]",
+            "[[Restaurante|Restaurante]]",
+            "[[Dinero|Dinero]]"
           ],
           "correctAnswer": 2
         }
@@ -1100,16 +1100,16 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "I have (algo de) ________ cheese.",
           "options": [
-            "[[some|]]",
-            "[[Compras|]]",
-            "[[Dinero|]]",
-            "[[Salud|]]"
+            "[[some|some]]",
+            "[[Compras|Compras]]",
+            "[[Dinero|Dinero]]",
+            "[[Salud|Salud]]"
           ],
           "correctAnswer": 0
         }
@@ -1131,8 +1131,8 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "¿Es correcta esta frase?: \"Order in a restaurant.\"",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -1154,7 +1154,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "payments money Manage and",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -1176,8 +1176,8 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -1194,15 +1194,15 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'Salud' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'Salud' en inglés?",
           "options": [
-            "[[Money|]]",
-            "[[Shopping|]]",
-            "[[Health|]]"
+            "[[Money|Dinero]]",
+            "[[Shopping|Compras]]",
+            "[[Health|Health]]"
           ],
           "correctAnswer": 2,
           "explanation": ""
@@ -1219,46 +1219,46 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
           "question": "Health",
           "options": [
-            "[[Comida|]]",
-            "[[Salud|]]",
-            "[[Restaurante|]]",
-            "[[Compras|]]"
+            "[[Comida|Comida]]",
+            "[[Salud|Salud]]",
+            "[[Restaurante|Restaurante]]",
+            "[[Compras|Compras]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Shopping",
           "options": [
-            "[[Salud|]]",
-            "[[Compras|]]",
-            "[[Comida|]]",
-            "[[Restaurante|]]"
+            "[[Salud|Salud]]",
+            "[[Compras|Compras]]",
+            "[[Comida|Comida]]",
+            "[[Restaurante|Restaurante]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Restaurant",
           "options": [
-            "[[Compras|]]",
-            "[[Comida|]]",
-            "[[Restaurante|]]",
-            "[[Salud|]]"
+            "[[Compras|Compras]]",
+            "[[Comida|Comida]]",
+            "[[Restaurante|Restaurante]]",
+            "[[Salud|Salud]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Food",
           "options": [
-            "[[Restaurante|]]",
-            "[[Comida|]]",
-            "[[Salud|]]",
-            "[[Compras|]]"
+            "[[Restaurante|Restaurante]]",
+            "[[Comida|Comida]]",
+            "[[Salud|Salud]]",
+            "[[Compras|Compras]]"
           ],
           "correctAnswer": 1
         }
@@ -1273,16 +1273,16 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "How (mucho) ________ milk?",
           "options": [
-            "[[Salud|]]",
-            "[[much|]]",
-            "[[Salud|]]",
-            "[[Dinero|]]"
+            "[[Salud|Salud]]",
+            "[[much|much]]",
+            "[[Salud|Salud]]",
+            "[[Dinero|Dinero]]"
           ],
           "correctAnswer": 1
         }
@@ -1304,8 +1304,8 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "¿Es correcta esta frase?: \"Money manage and payments\"",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -1327,7 +1327,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "and Talk about food shopping",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -1349,8 +1349,8 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -1367,15 +1367,15 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'Compras' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'Compras' en inglés?",
           "options": [
-            "[[Shopping|]]",
-            "[[Health|]]",
-            "[[Food|]]"
+            "[[Shopping|Compras]]",
+            "[[Health|Health]]",
+            "[[Food|Food]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1392,46 +1392,46 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
           "question": "Shopping",
           "options": [
-            "[[Compras|]]",
-            "[[Comida|]]",
-            "[[Restaurante|]]",
-            "[[Dinero|]]"
+            "[[Compras|Compras]]",
+            "[[Comida|Comida]]",
+            "[[Restaurante|Restaurante]]",
+            "[[Dinero|Dinero]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Restaurant",
           "options": [
-            "[[Comida|]]",
-            "[[Restaurante|]]",
-            "[[Compras|]]",
-            "[[Dinero|]]"
+            "[[Comida|Comida]]",
+            "[[Restaurante|Restaurante]]",
+            "[[Compras|Compras]]",
+            "[[Dinero|Dinero]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Food",
           "options": [
-            "[[Comida|]]",
-            "[[Dinero|]]",
-            "[[Restaurante|]]",
-            "[[Compras|]]"
+            "[[Comida|Comida]]",
+            "[[Dinero|Dinero]]",
+            "[[Restaurante|Restaurante]]",
+            "[[Compras|Compras]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Money",
           "options": [
-            "[[Restaurante|]]",
-            "[[Dinero|]]",
-            "[[Compras|]]",
-            "[[Comida|]]"
+            "[[Restaurante|Restaurante]]",
+            "[[Dinero|Dinero]]",
+            "[[Compras|Compras]]",
+            "[[Comida|Comida]]"
           ],
           "correctAnswer": 1
         }
@@ -1446,16 +1446,16 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "I have (algo de) ________ cheese.",
           "options": [
-            "[[some|]]",
-            "[[much|]]",
-            "[[Health|]]",
-            "[[Money|]]"
+            "[[some|some]]",
+            "[[much|much]]",
+            "[[Health|Health]]",
+            "[[Money|Dinero]]"
           ],
           "correctAnswer": 0
         }
@@ -1477,8 +1477,8 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "¿Es correcta esta frase?: \"Talk about shopping and food.\"",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -1500,7 +1500,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "This the final is review",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -1522,8 +1522,8 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -1540,15 +1540,15 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'Restaurante' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'Restaurante' en inglés?",
           "options": [
-            "[[Health|]]",
-            "[[Restaurant|]]",
-            "[[Shopping|]]"
+            "[[Health|Health]]",
+            "[[Restaurant|Restaurante]]",
+            "[[Shopping|Compras]]"
           ],
           "correctAnswer": 1,
           "explanation": ""
@@ -1565,46 +1565,46 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
           "question": "Restaurant",
           "options": [
-            "[[Dinero|]]",
-            "[[Restaurante|]]",
-            "[[Comida|]]",
-            "[[Salud|]]"
+            "[[Dinero|Dinero]]",
+            "[[Restaurante|Restaurante]]",
+            "[[Comida|Comida]]",
+            "[[Salud|Salud]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Food",
           "options": [
-            "[[Comida|]]",
-            "[[Restaurante|]]",
-            "[[Salud|]]",
-            "[[Dinero|]]"
+            "[[Comida|Comida]]",
+            "[[Restaurante|Restaurante]]",
+            "[[Salud|Salud]]",
+            "[[Dinero|Dinero]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Money",
           "options": [
-            "[[Dinero|]]",
-            "[[Salud|]]",
-            "[[Comida|]]",
-            "[[Restaurante|]]"
+            "[[Dinero|Dinero]]",
+            "[[Salud|Salud]]",
+            "[[Comida|Comida]]",
+            "[[Restaurante|Restaurante]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Health",
           "options": [
-            "[[Dinero|]]",
-            "[[Salud|]]",
-            "[[Restaurante|]]",
-            "[[Comida|]]"
+            "[[Dinero|Dinero]]",
+            "[[Salud|Salud]]",
+            "[[Restaurante|Restaurante]]",
+            "[[Comida|Comida]]"
           ],
           "correctAnswer": 1
         }
@@ -1619,16 +1619,16 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "How (mucho) ________ milk?",
           "options": [
-            "[[much|]]",
-            "[[Salud|]]",
-            "[[o1|]]",
-            "[[Restaurante|]]"
+            "[[much|much]]",
+            "[[Salud|Salud]]",
+            "[[o1|opción 1]]",
+            "[[Restaurante|Restaurante]]"
           ],
           "correctAnswer": 0
         }
@@ -1650,8 +1650,8 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "¿Es correcta esta frase?: \"Is this the final review\"",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -1673,7 +1673,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "Describe issues health",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -1695,8 +1695,8 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -1713,15 +1713,15 @@ export const UNIT_60_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'Comida' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'Comida' en inglés?",
           "options": [
-            "[[Food|]]",
-            "[[Money|]]",
-            "[[Restaurant|]]"
+            "[[Food|Food]]",
+            "[[Money|Dinero]]",
+            "[[Restaurant|Restaurante]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1743,10 +1743,10 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[food|]] is here.",
+          "question": "The [[food|food]] is here.",
           "options": [
-            "[[food|]]",
-            "[[Salud|]]"
+            "[[food|food]]",
+            "[[Salud|Salud]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1768,10 +1768,10 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[shopping|]] is here.",
+          "question": "The [[shopping|shopping]] is here.",
           "options": [
-            "[[shopping|]]",
-            "[[Dinero|]]"
+            "[[shopping|shopping]]",
+            "[[Dinero|Dinero]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1793,10 +1793,10 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[restaurant|]] is here.",
+          "question": "The [[restaurant|restaurant]] is here.",
           "options": [
-            "[[restaurant|]]",
-            "[[some|]]"
+            "[[restaurant|restaurant]]",
+            "[[some|some]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1818,10 +1818,10 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[cooking|]] is here.",
+          "question": "The [[cooking|cooking]] is here.",
           "options": [
-            "[[food|]]",
-            "[[cooking|]]"
+            "[[food|food]]",
+            "[[cooking|cooking]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1843,10 +1843,10 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[health|]] is here.",
+          "question": "The [[health|health]] is here.",
           "options": [
-            "[[Restaurante|]]",
-            "[[health|]]"
+            "[[Restaurante|Restaurante]]",
+            "[[health|health]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1868,10 +1868,10 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[money|]] is here.",
+          "question": "The [[money|money]] is here.",
           "options": [
-            "[[Health|]]",
-            "[[money|]]"
+            "[[Health|Health]]",
+            "[[money|money]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1893,10 +1893,10 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[supermarket|]] is here.",
+          "question": "The [[supermarket|supermercado]] is here.",
           "options": [
-            "[[supermarket|]]",
-            "[[Salud|]]"
+            "[[supermarket|supermercado]]",
+            "[[Salud|Salud]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

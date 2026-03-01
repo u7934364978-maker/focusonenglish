@@ -9,15 +9,15 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Qué actividad haces con un libro?",
       "questions": [
         {
           "question": "¿Qué actividad haces con un libro?",
           "options": [
-            "[[I read a book|]]",
-            "[[I listen to music|]]",
-            "[[I swim|]]"
+            "[[I read a book|I read a book]]",
+            "[[I listen to music|I listen to music]]",
+            "[[I swim|I swim]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -34,46 +34,46 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une las aficiones:",
       "questions": [
         {
           "question": "Paint",
           "options": [
-            "[[Bailar|]]",
-            "[[Cocinar|]]",
-            "[[Nadar|]]",
-            "[[Pintar|]]"
+            "[[Bailar|Bailar]]",
+            "[[Cocinar|Cocinar]]",
+            "[[Nadar|Nadar]]",
+            "[[Pintar|Pintar]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Dance",
           "options": [
-            "[[Bailar|]]",
-            "[[Nadar|]]",
-            "[[Pintar|]]",
-            "[[Cocinar|]]"
+            "[[Bailar|Bailar]]",
+            "[[Nadar|Nadar]]",
+            "[[Pintar|Pintar]]",
+            "[[Cocinar|Cocinar]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Cook",
           "options": [
-            "[[Nadar|]]",
-            "[[Bailar|]]",
-            "[[Pintar|]]",
-            "[[Cocinar|]]"
+            "[[Nadar|Nadar]]",
+            "[[Bailar|Bailar]]",
+            "[[Pintar|Pintar]]",
+            "[[Cocinar|Cocinar]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Swim",
           "options": [
-            "[[Pintar|]]",
-            "[[Cocinar|]]",
-            "[[Bailar|]]",
-            "[[Nadar|]]"
+            "[[Pintar|Pintar]]",
+            "[[Cocinar|Cocinar]]",
+            "[[Bailar|Bailar]]",
+            "[[Nadar|Nadar]]"
           ],
           "correctAnswer": 3
         }
@@ -95,8 +95,8 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "Escribe 'bailar' en inglés:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -113,15 +113,15 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Qué haces con una consola?",
       "questions": [
         {
           "question": "¿Qué haces con una consola?",
           "options": [
-            "[[Play video games|]]",
-            "[[Go for a walk|]]",
-            "[[Listen to music|]]"
+            "[[Play video games|Play video games]]",
+            "[[Go for a walk|Go for a walk]]",
+            "[[Listen to music|Escuchar música]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -138,16 +138,16 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa: 'Me gusta NADAR'",
       "questions": [
         {
           "question": "I like ________.",
           "options": [
-            "[[swimming|]]",
-            "[[He likes playing video games.|]]",
-            "[[o1|]]",
-            "[[o1|]]"
+            "[[swimming|swimming]]",
+            "[[He likes playing video games.|He likes playing video games.]]",
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0
         }
@@ -168,7 +168,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "She loves cooking for her friends",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -184,15 +184,15 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo dices que 'odias' algo?",
       "questions": [
         {
           "question": "¿Cómo dices que 'odias' algo?",
           "options": [
-            "[[I hate it|]]",
-            "[[I love it|]]",
-            "[[I enjoy it|]]"
+            "[[I hate it|I hate it]]",
+            "[[I love it|I love it]]",
+            "[[I enjoy it|I enjoy it]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -209,16 +209,16 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa: 'No me gusta ESCUCHAR música rock'",
       "questions": [
         {
           "question": "I don't like ________ to rock music.",
           "options": [
-            "[[Dar un paseo|]]",
-            "[[o1|]]",
-            "[[listening|]]",
-            "[[o1|]]"
+            "[[Dar un paseo|Dar un paseo]]",
+            "[[o1|opción 1]]",
+            "[[listening|listening]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 2
         }
@@ -240,8 +240,8 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "Escucha las preferencias:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -257,46 +257,46 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une las actividades de tiempo libre:",
       "questions": [
         {
           "question": "Go for a walk",
           "options": [
-            "[[Dar un paseo|]]",
-            "[[Escuchar música|]]",
-            "[[Quedar con amigos|]]",
-            "[[Ver una peli|]]"
+            "[[Dar un paseo|Dar un paseo]]",
+            "[[Escuchar música|Escuchar música]]",
+            "[[Quedar con amigos|Quedar con amigos]]",
+            "[[Ver una peli|Ver una peli]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Watch a movie",
           "options": [
-            "[[Ver una peli|]]",
-            "[[Escuchar música|]]",
-            "[[Dar un paseo|]]",
-            "[[Quedar con amigos|]]"
+            "[[Ver una peli|Ver una peli]]",
+            "[[Escuchar música|Escuchar música]]",
+            "[[Dar un paseo|Dar un paseo]]",
+            "[[Quedar con amigos|Quedar con amigos]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Meet friends",
           "options": [
-            "[[Quedar con amigos|]]",
-            "[[Escuchar música|]]",
-            "[[Ver una peli|]]",
-            "[[Dar un paseo|]]"
+            "[[Quedar con amigos|Quedar con amigos]]",
+            "[[Escuchar música|Escuchar música]]",
+            "[[Ver una peli|Ver una peli]]",
+            "[[Dar un paseo|Dar un paseo]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Listen to music",
           "options": [
-            "[[Dar un paseo|]]",
-            "[[Quedar con amigos|]]",
-            "[[Escuchar música|]]",
-            "[[Ver una peli|]]"
+            "[[Dar un paseo|Dar un paseo]]",
+            "[[Quedar con amigos|Quedar con amigos]]",
+            "[[Escuchar música|Escuchar música]]",
+            "[[Ver una peli|Ver una peli]]"
           ],
           "correctAnswer": 2
         }
@@ -312,15 +312,15 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Qué haces en el cine?",
       "questions": [
         {
           "question": "¿Qué haces en el cine?",
           "options": [
-            "[[Watch a movie|]]",
-            "[[Play video games|]]",
-            "[[Cook dinner|]]"
+            "[[Watch a movie|Watch a movie]]",
+            "[[Play video games|Play video games]]",
+            "[[Cook dinner|Cook dinner]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -344,8 +344,8 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "Escribe 'escuchar música' en inglés:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -368,8 +368,8 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "'Spare time' significa tiempo libre.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -385,16 +385,16 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con la forma -ing:",
       "questions": [
         {
           "question": "I love ________ (read) and I enjoy ________ (dance).",
           "options": [
-            "[[Cocinar|]]",
-            "[[I like listening to music|]]",
-            "[[reading, dancing|]]",
-            "[[o1|]]"
+            "[[Cocinar|Cocinar]]",
+            "[[I like listening to music|I like listening to music]]",
+            "[[reading, dancing|reading, dancing]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 2
         }
@@ -416,8 +416,8 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'Me gusta escuchar música'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -434,15 +434,15 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cuál de estos es un hobby?",
       "questions": [
         {
           "question": "¿Cuál de estos es un hobby?",
           "options": [
-            "[[Swimming|]]",
-            "[[Working|]]",
-            "[[Sleeping|]]"
+            "[[Swimming|Natación]]",
+            "[[Working|Working]]",
+            "[[Sleeping|Sleeping]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -466,8 +466,8 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|]]",
-            "[[I like reading books.|]]"
+            "[[o1|opción 1]]",
+            "[[I like reading books.|I like reading books.]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -491,8 +491,8 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[They enjoy swimming.|]]",
-            "[[She loves cooking dinner.|]]"
+            "[[They enjoy swimming.|They enjoy swimming.]]",
+            "[[She loves cooking dinner.|She loves cooking dinner.]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -516,8 +516,8 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[They enjoy swimming.|]]",
-            "[[o1|]]"
+            "[[They enjoy swimming.|They enjoy swimming.]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -541,8 +541,8 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|]]",
-            "[[I hate dancing.|]]"
+            "[[o1|opción 1]]",
+            "[[I hate dancing.|I hate dancing.]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -566,8 +566,8 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|]]",
-            "[[We meet friends on Sunday.|]]"
+            "[[o1|opción 1]]",
+            "[[We meet friends on Sunday.|We meet friends on Sunday.]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -591,8 +591,8 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|]]",
-            "[[I watch movies in my spare time.|]]"
+            "[[o1|opción 1]]",
+            "[[I watch movies in my spare time.|I watch movies in my spare time.]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -616,8 +616,8 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[He likes playing video games.|]]",
-            "[[Escuchar música|]]"
+            "[[He likes playing video games.|He likes playing video games.]]",
+            "[[Escuchar música|Escuchar música]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -763,15 +763,15 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'pounds' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'pounds' en inglés?",
           "options": [
-            "[[Pounds|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Pounds|Pounds]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -789,15 +789,15 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'dollars' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'dollars' en inglés?",
           "options": [
-            "[[Dollars|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Dollars|Dollars]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -815,15 +815,15 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'euros' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'euros' en inglés?",
           "options": [
-            "[[Euros|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Euros|Euros]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -841,15 +841,15 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'cash' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'cash' en inglés?",
           "options": [
-            "[[Cash|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Cash|Efectivo]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -867,15 +867,15 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'card' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'card' en inglés?",
           "options": [
-            "[[Card|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Card|Tarjeta]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -893,15 +893,15 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'change' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'change' en inglés?",
           "options": [
-            "[[Change|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Change|Cambio]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -919,15 +919,15 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'price' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'price' en inglés?",
           "options": [
-            "[[Price|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Price|Precio]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -945,15 +945,15 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'pounds' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'pounds' en inglés?",
           "options": [
-            "[[Pounds|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Pounds|Pounds]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -971,15 +971,15 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'dollars' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'dollars' en inglés?",
           "options": [
-            "[[Dollars|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Dollars|Dollars]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -997,15 +997,15 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'euros' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'euros' en inglés?",
           "options": [
-            "[[Euros|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Euros|Euros]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1023,15 +1023,15 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'cash' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'cash' en inglés?",
           "options": [
-            "[[Cash|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Cash|Efectivo]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1049,15 +1049,15 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'card' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'card' en inglés?",
           "options": [
-            "[[Card|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Card|Tarjeta]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1075,15 +1075,15 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'change' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'change' en inglés?",
           "options": [
-            "[[Change|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Change|Cambio]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1101,15 +1101,15 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'price' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'price' en inglés?",
           "options": [
-            "[[Price|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Price|Precio]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1127,15 +1127,15 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'pounds' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'pounds' en inglés?",
           "options": [
-            "[[Pounds|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Pounds|Pounds]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1153,15 +1153,15 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'dollars' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'dollars' en inglés?",
           "options": [
-            "[[Dollars|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Dollars|Dollars]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1179,15 +1179,15 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'euros' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'euros' en inglés?",
           "options": [
-            "[[Euros|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Euros|Euros]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1205,15 +1205,15 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'cash' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'cash' en inglés?",
           "options": [
-            "[[Cash|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Cash|Efectivo]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1231,15 +1231,15 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'card' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'card' en inglés?",
           "options": [
-            "[[Card|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Card|Tarjeta]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1257,15 +1257,15 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'change' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'change' en inglés?",
           "options": [
-            "[[Change|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Change|Cambio]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1283,15 +1283,15 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'price' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'price' en inglés?",
           "options": [
-            "[[Price|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Price|Precio]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1309,15 +1309,15 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'pounds' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'pounds' en inglés?",
           "options": [
-            "[[Pounds|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Pounds|Pounds]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1335,15 +1335,15 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'dollars' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'dollars' en inglés?",
           "options": [
-            "[[Dollars|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Dollars|Dollars]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1361,15 +1361,15 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'euros' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'euros' en inglés?",
           "options": [
-            "[[Euros|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Euros|Euros]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1387,15 +1387,15 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'cash' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'cash' en inglés?",
           "options": [
-            "[[Cash|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Cash|Efectivo]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1413,15 +1413,15 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'card' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'card' en inglés?",
           "options": [
-            "[[Card|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Card|Tarjeta]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1439,15 +1439,15 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'change' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'change' en inglés?",
           "options": [
-            "[[Change|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Change|Cambio]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1465,15 +1465,15 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'price' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'price' en inglés?",
           "options": [
-            "[[Price|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Price|Precio]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1491,15 +1491,15 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'pounds' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'pounds' en inglés?",
           "options": [
-            "[[Pounds|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Pounds|Pounds]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1521,10 +1521,10 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[pounds|]] is here.",
+          "question": "The [[pounds|pounds]] is here.",
           "options": [
-            "[[Pintar|]]",
-            "[[pounds|]]"
+            "[[Pintar|Pintar]]",
+            "[[pounds|pounds]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1546,10 +1546,10 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[dollars|]] is here.",
+          "question": "The [[dollars|dollars]] is here.",
           "options": [
-            "[[dollars|]]",
-            "[[They enjoy swimming.|]]"
+            "[[dollars|dollars]]",
+            "[[They enjoy swimming.|They enjoy swimming.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1571,10 +1571,10 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[euros|]] is here.",
+          "question": "The [[euros|euros]] is here.",
           "options": [
-            "[[I like listening to music|]]",
-            "[[euros|]]"
+            "[[I like listening to music|I like listening to music]]",
+            "[[euros|euros]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1596,10 +1596,10 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[cash|]] is here.",
+          "question": "The [[cash|cash]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[cash|]]"
+            "[[o1|opción 1]]",
+            "[[cash|cash]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1621,10 +1621,10 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[card|]] is here.",
+          "question": "The [[card|card]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[card|]]"
+            "[[o1|opción 1]]",
+            "[[card|card]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1646,10 +1646,10 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[change|]] is here.",
+          "question": "The [[change|change]] is here.",
           "options": [
-            "[[I like reading books.|]]",
-            "[[change|]]"
+            "[[I like reading books.|I like reading books.]]",
+            "[[change|change]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1671,10 +1671,10 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[price|]] is here.",
+          "question": "The [[price|price]] is here.",
           "options": [
-            "[[dollars|]]",
-            "[[price|]]"
+            "[[dollars|dollars]]",
+            "[[price|price]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

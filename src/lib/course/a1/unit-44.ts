@@ -8,46 +8,46 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Empareja el clima:",
       "questions": [
         {
           "question": "Sunny",
           "options": [
-            "[[Nublado|]]",
-            "[[Soleado|]]",
-            "[[Lluvioso|]]",
-            "[[Ventoso|]]"
+            "[[Nublado|Nublado]]",
+            "[[Soleado|Soleado]]",
+            "[[Lluvioso|Lluvioso]]",
+            "[[Ventoso|Ventoso]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Rainy",
           "options": [
-            "[[Lluvioso|]]",
-            "[[Soleado|]]",
-            "[[Ventoso|]]",
-            "[[Nublado|]]"
+            "[[Lluvioso|Lluvioso]]",
+            "[[Soleado|Soleado]]",
+            "[[Ventoso|Ventoso]]",
+            "[[Nublado|Nublado]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Cloudy",
           "options": [
-            "[[Lluvioso|]]",
-            "[[Ventoso|]]",
-            "[[Nublado|]]",
-            "[[Soleado|]]"
+            "[[Lluvioso|Lluvioso]]",
+            "[[Ventoso|Ventoso]]",
+            "[[Nublado|Nublado]]",
+            "[[Soleado|Soleado]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Windy",
           "options": [
-            "[[Nublado|]]",
-            "[[Lluvioso|]]",
-            "[[Soleado|]]",
-            "[[Ventoso|]]"
+            "[[Nublado|Nublado]]",
+            "[[Lluvioso|Lluvioso]]",
+            "[[Soleado|Soleado]]",
+            "[[Ventoso|Ventoso]]"
           ],
           "correctAnswer": 3
         }
@@ -63,15 +63,15 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Qué necesitas cuando llueve?",
       "questions": [
         {
           "question": "¿Qué necesitas cuando llueve?",
           "options": [
-            "[[An umbrella|]]",
-            "[[Sunglasses|]]",
-            "[[A swimsuit|]]"
+            "[[An umbrella|An umbrella]]",
+            "[[Sunglasses|Sunglasses]]",
+            "[[A swimsuit|A swimsuit]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -88,16 +88,16 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa el estado del clima:",
       "questions": [
         {
           "question": "It is 0 degrees. It is very ________. (frío)",
           "options": [
-            "[[raining|]]",
-            "[[o1|]]",
-            "[[cold|]]",
-            "[[o1|]]"
+            "[[raining|raining]]",
+            "[[o1|opción 1]]",
+            "[[cold|frío]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 2
         }
@@ -119,8 +119,8 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'Hace calor'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -143,8 +143,8 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "Snowing",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -161,15 +161,15 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "________ is raining today.",
       "questions": [
         {
           "question": "________ is raining today.",
           "options": [
-            "[[It|]]",
-            "[[He|]]",
-            "[[There|]]"
+            "[[It|It]]",
+            "[[He|He]]",
+            "[[There|There]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -186,16 +186,16 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa la pregunta:",
       "questions": [
         {
           "question": "What ________ the weather like?",
           "options": [
-            "[[o1|]]",
-            "[[cloudy|]]",
-            "[[is|]]",
-            "[[o1|]]"
+            "[[o1|opción 1]]",
+            "[[cloudy|cloudy]]",
+            "[[is|is]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 2
         }
@@ -217,8 +217,8 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "¿Es correcto: 'It is sun today'?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -234,16 +234,16 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa la frase negativa:",
       "questions": [
         {
           "question": "It ________ windy this afternoon. (no está)",
           "options": [
-            "[[o1|]]",
-            "[[isn't|]]",
-            "[[o1|]]",
-            "[[cold|]]"
+            "[[o1|opción 1]]",
+            "[[isn't|isn't]]",
+            "[[o1|opción 1]]",
+            "[[cold|frío]]"
           ],
           "correctAnswer": 1
         }
@@ -264,7 +264,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "What is the weather like today?",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -280,15 +280,15 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "Weather forecast: 'Cloudy with rain.' - You take:",
       "questions": [
         {
           "question": "Weather forecast: 'Cloudy with rain.' - You take:",
           "options": [
-            "[[A raincoat|]]",
-            "[[A swimsuit|]]",
-            "[[Sunglasses|]]"
+            "[[A raincoat|A raincoat]]",
+            "[[A swimsuit|A swimsuit]]",
+            "[[Sunglasses|Sunglasses]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -305,16 +305,16 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa el reporte:",
       "questions": [
         {
           "question": "In London, it is often ________. (lluvioso)",
           "options": [
-            "[[o1|]]",
-            "[[rainy|]]",
-            "[[o1|]]",
-            "[[hot|]]"
+            "[[o1|opción 1]]",
+            "[[rainy|lluvioso]]",
+            "[[o1|opción 1]]",
+            "[[hot|caluroso]]"
           ],
           "correctAnswer": 1
         }
@@ -336,8 +336,8 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'Hoy está muy nublado'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -360,8 +360,8 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "It is hot in the Sahara Desert.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -384,8 +384,8 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "Escucha la descripción:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -402,15 +402,15 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "People are in the park in Madrid. They walk and talk. Children play with a ball. Some people sit on benches. They eat ice cream and enjoy the sun. Birds sing in the trees. It is a happy day in the park.",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "En Madrid, la gente está en...",
       "questions": [
         {
           "question": "People are in the park in Madrid. They walk and talk. Children play with a ball. Some people sit on benches. They eat ice cream and enjoy the sun. Birds sing in the trees. It is a happy day in the park.",
           "options": [
-            "[[The park|]]",
-            "[[The office|]]",
-            "[[Home|]]"
+            "[[The park|The park]]",
+            "[[The office|The office]]",
+            "[[Home|Home]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -434,8 +434,8 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[It is sunny and hot today.|]]",
-            "[[The forecast says it is going to rain.|]]"
+            "[[It is sunny and hot today.|It is sunny and hot today.]]",
+            "[[The forecast says it is going to rain.|The forecast says it is going to rain.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -459,8 +459,8 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Take your umbrella, it is raining.|]]",
-            "[[is|]]"
+            "[[Take your umbrella, it is raining.|Take your umbrella, it is raining.]]",
+            "[[is|is]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -484,8 +484,8 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|]]",
-            "[[The weather is cloudy and cool.|]]"
+            "[[o1|opción 1]]",
+            "[[The weather is cloudy and cool.|The weather is cloudy and cool.]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -509,8 +509,8 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|]]",
-            "[[It is very windy in the afternoon.|]]"
+            "[[o1|opción 1]]",
+            "[[It is very windy in the afternoon.|It is very windy in the afternoon.]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -534,8 +534,8 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|]]",
-            "[[What is the weather like?|]]"
+            "[[o1|opción 1]]",
+            "[[What is the weather like?|What is the weather like?]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -559,8 +559,8 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[There is snow on the mountains.|]]",
-            "[[o1|]]"
+            "[[There is snow on the mountains.|There is snow on the mountains.]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -584,8 +584,8 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[The forecast says it is going to rain.|]]",
-            "[[o1|]]"
+            "[[The forecast says it is going to rain.|The forecast says it is going to rain.]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -731,15 +731,15 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'sunny' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'sunny' en inglés?",
           "options": [
-            "[[Sunny|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Sunny|Sunny]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -757,15 +757,15 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'raining' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'raining' en inglés?",
           "options": [
-            "[[Raining|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Raining|Raining]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -783,15 +783,15 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'windy' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'windy' en inglés?",
           "options": [
-            "[[Windy|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Windy|Windy]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -809,15 +809,15 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'cold' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'cold' en inglés?",
           "options": [
-            "[[Cold|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Cold|Frío]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -835,15 +835,15 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'hot' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'hot' en inglés?",
           "options": [
-            "[[Hot|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Hot|Caliente]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -861,15 +861,15 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'snowing' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'snowing' en inglés?",
           "options": [
-            "[[Snowing|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Snowing|Snowing]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -887,15 +887,15 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'cloudy' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'cloudy' en inglés?",
           "options": [
-            "[[Cloudy|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Cloudy|Cloudy]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -913,15 +913,15 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'sunny' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'sunny' en inglés?",
           "options": [
-            "[[Sunny|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Sunny|Sunny]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -939,15 +939,15 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'raining' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'raining' en inglés?",
           "options": [
-            "[[Raining|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Raining|Raining]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -965,15 +965,15 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'windy' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'windy' en inglés?",
           "options": [
-            "[[Windy|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Windy|Windy]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -991,15 +991,15 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'cold' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'cold' en inglés?",
           "options": [
-            "[[Cold|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Cold|Frío]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1017,15 +1017,15 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'hot' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'hot' en inglés?",
           "options": [
-            "[[Hot|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Hot|Caliente]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1043,15 +1043,15 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'snowing' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'snowing' en inglés?",
           "options": [
-            "[[Snowing|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Snowing|Snowing]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1069,15 +1069,15 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'cloudy' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'cloudy' en inglés?",
           "options": [
-            "[[Cloudy|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Cloudy|Cloudy]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1095,15 +1095,15 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'sunny' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'sunny' en inglés?",
           "options": [
-            "[[Sunny|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Sunny|Sunny]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1121,15 +1121,15 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'raining' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'raining' en inglés?",
           "options": [
-            "[[Raining|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Raining|Raining]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1147,15 +1147,15 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'windy' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'windy' en inglés?",
           "options": [
-            "[[Windy|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Windy|Windy]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1173,15 +1173,15 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'cold' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'cold' en inglés?",
           "options": [
-            "[[Cold|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Cold|Frío]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1199,15 +1199,15 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'hot' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'hot' en inglés?",
           "options": [
-            "[[Hot|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Hot|Caliente]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1225,15 +1225,15 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'snowing' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'snowing' en inglés?",
           "options": [
-            "[[Snowing|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Snowing|Snowing]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1251,15 +1251,15 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'cloudy' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'cloudy' en inglés?",
           "options": [
-            "[[Cloudy|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Cloudy|Cloudy]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1277,15 +1277,15 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'sunny' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'sunny' en inglés?",
           "options": [
-            "[[Sunny|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Sunny|Sunny]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1303,15 +1303,15 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'raining' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'raining' en inglés?",
           "options": [
-            "[[Raining|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Raining|Raining]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1329,15 +1329,15 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'windy' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'windy' en inglés?",
           "options": [
-            "[[Windy|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Windy|Windy]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1355,15 +1355,15 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'cold' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'cold' en inglés?",
           "options": [
-            "[[Cold|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Cold|Frío]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1381,15 +1381,15 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'hot' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'hot' en inglés?",
           "options": [
-            "[[Hot|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Hot|Caliente]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1407,15 +1407,15 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'snowing' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'snowing' en inglés?",
           "options": [
-            "[[Snowing|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Snowing|Snowing]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1433,15 +1433,15 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'cloudy' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'cloudy' en inglés?",
           "options": [
-            "[[Cloudy|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Cloudy|Cloudy]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1459,15 +1459,15 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'sunny' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'sunny' en inglés?",
           "options": [
-            "[[Sunny|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Sunny|Sunny]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1489,10 +1489,10 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[sunny|]] is here.",
+          "question": "The [[sunny|sunny]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[sunny|]]"
+            "[[o1|opción 1]]",
+            "[[sunny|sunny]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1514,10 +1514,10 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[raining|]] is here.",
+          "question": "The [[raining|raining]] is here.",
           "options": [
-            "[[What is the weather like?|]]",
-            "[[raining|]]"
+            "[[What is the weather like?|What is the weather like?]]",
+            "[[raining|raining]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1539,10 +1539,10 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[windy|]] is here.",
+          "question": "The [[windy|windy]] is here.",
           "options": [
-            "[[Lluvioso|]]",
-            "[[windy|]]"
+            "[[Lluvioso|Lluvioso]]",
+            "[[windy|windy]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1564,10 +1564,10 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[cold|]] is here.",
+          "question": "The [[cold|frío]] is here.",
           "options": [
-            "[[cold|]]",
-            "[[raining|]]"
+            "[[cold|frío]]",
+            "[[raining|raining]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1589,10 +1589,10 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[hot|]] is here.",
+          "question": "The [[hot|caluroso]] is here.",
           "options": [
-            "[[hot|]]",
-            "[[o1|]]"
+            "[[hot|caluroso]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1614,10 +1614,10 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[snowing|]] is here.",
+          "question": "The [[snowing|snowing]] is here.",
           "options": [
-            "[[snowing|]]",
-            "[[hot|]]"
+            "[[snowing|snowing]]",
+            "[[hot|caluroso]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1639,10 +1639,10 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[cloudy|]] is here.",
+          "question": "The [[cloudy|cloudy]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[cloudy|]]"
+            "[[o1|opción 1]]",
+            "[[cloudy|cloudy]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

@@ -9,15 +9,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'Trompeta'?",
       "questions": [
         {
           "question": "¿Cómo se dice 'Trompeta'?",
           "options": [
-            "[[Trumpet|]]",
-            "[[Trump|]]",
-            "[[Trombon|]]"
+            "[[Trumpet|Trumpet]]",
+            "[[Trump|Trump]]",
+            "[[Trombon|Trombon]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -34,16 +34,16 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con el instrumento de viento:",
       "questions": [
         {
           "question": "She plays the ________ (flauta).",
           "options": [
-            "[[o1|]]",
-            "[[o1|]]",
-            "[[flute|]]",
-            "[[piano|]]"
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]",
+            "[[flute|flute]]",
+            "[[piano|piano]]"
           ],
           "correctAnswer": 2
         }
@@ -65,8 +65,8 @@ export const UNIT_36_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'Batería'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -89,8 +89,8 @@ export const UNIT_36_EXERCISES: Exercise[] = [
         {
           "question": "Saxophone",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -112,7 +112,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
         {
           "question": "He plays the piano beautifully",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -127,16 +127,16 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con el artículo necesario:",
       "questions": [
         {
           "question": "We are learning to play ________ violin.",
           "options": [
-            "[[o1|]]",
-            "[[o1|]]",
-            "[[the|]]",
-            "[[o1|]]"
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]",
+            "[[the|the]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 2
         }
@@ -158,8 +158,8 @@ export const UNIT_36_EXERCISES: Exercise[] = [
         {
           "question": "¿En inglés se debe usar 'the' antes de un instrumento musical?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -182,8 +182,8 @@ export const UNIT_36_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'Ella toca la trompeta.'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -206,8 +206,8 @@ export const UNIT_36_EXERCISES: Exercise[] = [
         {
           "question": "Clasifica los instrumentos:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -224,15 +224,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Qué adjetivo describe mejor a la batería?",
       "questions": [
         {
           "question": "¿Qué adjetivo describe mejor a la batería?",
           "options": [
-            "[[Loud|]]",
-            "[[Quiet|]]",
-            "[[Small|]]"
+            "[[Loud|Ruidoso]]",
+            "[[Quiet|Tranquilo]]",
+            "[[Small|Pequeño]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -249,16 +249,16 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa la descripción:",
       "questions": [
         {
           "question": "The violin is a ________ instrument to learn. (difícil)",
           "options": [
-            "[[drums|]]",
-            "[[Saxofón|]]",
-            "[[difficult|]]",
-            "[[o1|]]"
+            "[[drums|drums]]",
+            "[[Saxofón|Saxofón]]",
+            "[[difficult|difficult]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 2
         }
@@ -274,15 +274,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "Tom plays the drums in a big room. The room is very loud when he plays. Tom’s friends like to listen. They sit and clap. Tom is happy. He smiles and keeps playing. The loud music fills the room. Everyone has fun.",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo es la sala donde tocan la batería?",
       "questions": [
         {
           "question": "Tom plays the drums in a big room. The room is very loud when he plays. Tom’s friends like to listen. They sit and clap. Tom is happy. He smiles and keeps playing. The loud music fills the room. Everyone has fun.",
           "options": [
-            "[[Very loud|]]",
-            "[[Very quiet|]]",
-            "[[Very small|]]"
+            "[[Very loud|Very loud]]",
+            "[[Very quiet|Very quiet]]",
+            "[[Very small|Very small]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -300,15 +300,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'piano' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'piano' en inglés?",
           "options": [
-            "[[Piano|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Piano|Piano]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -326,15 +326,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'violin' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'violin' en inglés?",
           "options": [
-            "[[Violin|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Violin|Violin]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -352,15 +352,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'drums' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'drums' en inglés?",
           "options": [
-            "[[Drums|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Drums|Drums]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -378,15 +378,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'guitar' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'guitar' en inglés?",
           "options": [
-            "[[Guitar|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Guitar|Guitarra]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -404,15 +404,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'trumpet' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'trumpet' en inglés?",
           "options": [
-            "[[Trumpet|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Trumpet|Trumpet]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -430,15 +430,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'flute' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'flute' en inglés?",
           "options": [
-            "[[Flute|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Flute|Flute]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -456,15 +456,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'keyboard' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'keyboard' en inglés?",
           "options": [
-            "[[Keyboard|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Keyboard|Teclado]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -482,15 +482,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'piano' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'piano' en inglés?",
           "options": [
-            "[[Piano|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Piano|Piano]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -508,15 +508,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'violin' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'violin' en inglés?",
           "options": [
-            "[[Violin|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Violin|Violin]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -534,15 +534,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'drums' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'drums' en inglés?",
           "options": [
-            "[[Drums|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Drums|Drums]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -560,15 +560,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'guitar' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'guitar' en inglés?",
           "options": [
-            "[[Guitar|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Guitar|Guitarra]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -586,15 +586,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'trumpet' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'trumpet' en inglés?",
           "options": [
-            "[[Trumpet|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Trumpet|Trumpet]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -612,15 +612,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'flute' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'flute' en inglés?",
           "options": [
-            "[[Flute|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Flute|Flute]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -638,15 +638,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'keyboard' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'keyboard' en inglés?",
           "options": [
-            "[[Keyboard|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Keyboard|Teclado]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -664,15 +664,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'piano' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'piano' en inglés?",
           "options": [
-            "[[Piano|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Piano|Piano]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -690,15 +690,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'violin' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'violin' en inglés?",
           "options": [
-            "[[Violin|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Violin|Violin]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -716,15 +716,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'drums' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'drums' en inglés?",
           "options": [
-            "[[Drums|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Drums|Drums]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -742,15 +742,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'guitar' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'guitar' en inglés?",
           "options": [
-            "[[Guitar|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Guitar|Guitarra]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -768,15 +768,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'trumpet' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'trumpet' en inglés?",
           "options": [
-            "[[Trumpet|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Trumpet|Trumpet]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -794,15 +794,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'flute' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'flute' en inglés?",
           "options": [
-            "[[Flute|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Flute|Flute]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -820,15 +820,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'keyboard' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'keyboard' en inglés?",
           "options": [
-            "[[Keyboard|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Keyboard|Teclado]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -846,15 +846,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'piano' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'piano' en inglés?",
           "options": [
-            "[[Piano|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Piano|Piano]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -872,15 +872,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'violin' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'violin' en inglés?",
           "options": [
-            "[[Violin|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Violin|Violin]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -898,15 +898,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'drums' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'drums' en inglés?",
           "options": [
-            "[[Drums|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Drums|Drums]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -924,15 +924,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'guitar' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'guitar' en inglés?",
           "options": [
-            "[[Guitar|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Guitar|Guitarra]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -950,15 +950,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'trumpet' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'trumpet' en inglés?",
           "options": [
-            "[[Trumpet|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Trumpet|Trumpet]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -976,15 +976,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'flute' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'flute' en inglés?",
           "options": [
-            "[[Flute|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Flute|Flute]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1002,15 +1002,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'keyboard' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'keyboard' en inglés?",
           "options": [
-            "[[Keyboard|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Keyboard|Teclado]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1028,15 +1028,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'piano' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'piano' en inglés?",
           "options": [
-            "[[Piano|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Piano|Piano]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1054,15 +1054,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'violin' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'violin' en inglés?",
           "options": [
-            "[[Violin|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Violin|Violin]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1080,15 +1080,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'drums' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'drums' en inglés?",
           "options": [
-            "[[Drums|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Drums|Drums]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1106,15 +1106,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'guitar' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'guitar' en inglés?",
           "options": [
-            "[[Guitar|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Guitar|Guitarra]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1132,15 +1132,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'trumpet' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'trumpet' en inglés?",
           "options": [
-            "[[Trumpet|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Trumpet|Trumpet]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1158,15 +1158,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'flute' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'flute' en inglés?",
           "options": [
-            "[[Flute|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Flute|Flute]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1184,15 +1184,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'keyboard' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'keyboard' en inglés?",
           "options": [
-            "[[Keyboard|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Keyboard|Teclado]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1210,15 +1210,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'piano' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'piano' en inglés?",
           "options": [
-            "[[Piano|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Piano|Piano]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1236,15 +1236,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'violin' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'violin' en inglés?",
           "options": [
-            "[[Violin|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Violin|Violin]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1262,15 +1262,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'drums' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'drums' en inglés?",
           "options": [
-            "[[Drums|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Drums|Drums]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1288,15 +1288,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'guitar' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'guitar' en inglés?",
           "options": [
-            "[[Guitar|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Guitar|Guitarra]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1314,15 +1314,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'trumpet' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'trumpet' en inglés?",
           "options": [
-            "[[Trumpet|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Trumpet|Trumpet]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1340,15 +1340,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'flute' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'flute' en inglés?",
           "options": [
-            "[[Flute|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Flute|Flute]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1366,15 +1366,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'keyboard' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'keyboard' en inglés?",
           "options": [
-            "[[Keyboard|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Keyboard|Teclado]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1392,15 +1392,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'piano' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'piano' en inglés?",
           "options": [
-            "[[Piano|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Piano|Piano]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1418,15 +1418,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'violin' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'violin' en inglés?",
           "options": [
-            "[[Violin|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Violin|Violin]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1444,15 +1444,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'drums' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'drums' en inglés?",
           "options": [
-            "[[Drums|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Drums|Drums]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1470,15 +1470,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'guitar' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'guitar' en inglés?",
           "options": [
-            "[[Guitar|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Guitar|Guitarra]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1496,15 +1496,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'trumpet' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'trumpet' en inglés?",
           "options": [
-            "[[Trumpet|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Trumpet|Trumpet]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1522,15 +1522,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'flute' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'flute' en inglés?",
           "options": [
-            "[[Flute|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Flute|Flute]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1552,10 +1552,10 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[piano|]] is here.",
+          "question": "The [[piano|piano]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[piano|]]"
+            "[[o1|opción 1]]",
+            "[[piano|piano]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1577,10 +1577,10 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[violin|]] is here.",
+          "question": "The [[violin|violin]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[violin|]]"
+            "[[o1|opción 1]]",
+            "[[violin|violin]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1602,10 +1602,10 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[drums|]] is here.",
+          "question": "The [[drums|drums]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[drums|]]"
+            "[[o1|opción 1]]",
+            "[[drums|drums]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1627,10 +1627,10 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[guitar|]] is here.",
+          "question": "The [[guitar|guitar]] is here.",
           "options": [
-            "[[guitar|]]",
-            "[[o1|]]"
+            "[[guitar|guitar]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1652,10 +1652,10 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[trumpet|]] is here.",
+          "question": "The [[trumpet|trumpet]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[trumpet|]]"
+            "[[o1|opción 1]]",
+            "[[trumpet|trumpet]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1677,10 +1677,10 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[flute|]] is here.",
+          "question": "The [[flute|flute]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[flute|]]"
+            "[[o1|opción 1]]",
+            "[[flute|flute]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1702,10 +1702,10 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[keyboard|]] is here.",
+          "question": "The [[keyboard|keyboard]] is here.",
           "options": [
-            "[[keyboard|]]",
-            "[[the|]]"
+            "[[keyboard|keyboard]]",
+            "[[the|the]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

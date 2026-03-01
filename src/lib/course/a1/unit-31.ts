@@ -8,46 +8,46 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Relaciona los verbos de habilidad con su traducción:",
       "questions": [
         {
           "question": "Swim",
           "options": [
-            "[[Dibujar|]]",
-            "[[Bailar|]]",
-            "[[Nadar|]]",
-            "[[Cocinar|]]"
+            "[[Dibujar|Dibujar]]",
+            "[[Bailar|Bailar]]",
+            "[[Nadar|Nadar]]",
+            "[[Cocinar|Cocinar]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Dance",
           "options": [
-            "[[Bailar|]]",
-            "[[Nadar|]]",
-            "[[Cocinar|]]",
-            "[[Dibujar|]]"
+            "[[Bailar|Bailar]]",
+            "[[Nadar|Nadar]]",
+            "[[Cocinar|Cocinar]]",
+            "[[Dibujar|Dibujar]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Draw",
           "options": [
-            "[[Bailar|]]",
-            "[[Cocinar|]]",
-            "[[Dibujar|]]",
-            "[[Nadar|]]"
+            "[[Bailar|Bailar]]",
+            "[[Cocinar|Cocinar]]",
+            "[[Dibujar|Dibujar]]",
+            "[[Nadar|Nadar]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Cook",
           "options": [
-            "[[Nadar|]]",
-            "[[Bailar|]]",
-            "[[Cocinar|]]",
-            "[[Dibujar|]]"
+            "[[Nadar|Nadar]]",
+            "[[Bailar|Bailar]]",
+            "[[Cocinar|Cocinar]]",
+            "[[Dibujar|Dibujar]]"
           ],
           "correctAnswer": 2
         }
@@ -62,16 +62,16 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con 'can' para expresar habilidad:",
       "questions": [
         {
           "question": "She ________ speak three languages.",
           "options": [
-            "[[o1|]]",
-            "[[o1|]]",
-            "[[can|]]",
-            "[[o1|]]"
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]",
+            "[[can|poder]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 2
         }
@@ -92,7 +92,7 @@ export const UNIT_31_EXERCISES: Exercise[] = [
         {
           "question": "I can play the piano",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -108,15 +108,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cuál es la forma correcta de decir 'Él sabe conducir'?",
       "questions": [
         {
           "question": "¿Cuál es la forma correcta de decir 'Él sabe conducir'?",
           "options": [
-            "[[He can drive|]]",
-            "[[He cans drive|]]",
-            "[[He can to drive|]]"
+            "[[He can drive|He can drive]]",
+            "[[He cans drive|He cans drive]]",
+            "[[He can to drive|He can to drive]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -140,8 +140,8 @@ export const UNIT_31_EXERCISES: Exercise[] = [
         {
           "question": "Sing",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -158,15 +158,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cuál es la forma negativa de 'can'?",
       "questions": [
         {
           "question": "¿Cuál es la forma negativa de 'can'?",
           "options": [
-            "[[Can't (cannot)|]]",
-            "[[Don't can|]]",
-            "[[Not can|]]"
+            "[[Can't (cannot)|Can't (cannot)]]",
+            "[[Don't can|Don't can]]",
+            "[[Not can|Not can]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -183,16 +183,16 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa la frase negativa (imposibilidad):",
       "questions": [
         {
           "question": "Penguins ________ fly.",
           "options": [
-            "[[Can|]]",
-            "[[can't|]]",
-            "[[o1|]]",
-            "[[o1|]]"
+            "[[Can|Can]]",
+            "[[can't|can't]]",
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 1
         }
@@ -213,7 +213,7 @@ export const UNIT_31_EXERCISES: Exercise[] = [
         {
           "question": "Can you help me ?",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -235,8 +235,8 @@ export const UNIT_31_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'No puedo hablar francés.'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -259,8 +259,8 @@ export const UNIT_31_EXERCISES: Exercise[] = [
         {
           "question": "Fish live in the water. They have gills. Gills help fish to breathe underwater. Fish do not have lungs like people. They swim and breathe in rivers, lakes, and oceans. Fish are happy in the water. They do not need air like humans. Fish can stay underwater all the time.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -283,8 +283,8 @@ export const UNIT_31_EXERCISES: Exercise[] = [
         {
           "question": "Clasifica según lo que pueden o no pueden hacer:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -307,8 +307,8 @@ export const UNIT_31_EXERCISES: Exercise[] = [
         {
           "question": "Escribe la habilidad: 'A monkey can...'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -324,16 +324,16 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa la pregunta sobre animales:",
       "questions": [
         {
           "question": "________ dogs swim?",
           "options": [
-            "[[Can|]]",
-            "[[o1|]]",
-            "[[o1|]]",
-            "[[Nadar|]]"
+            "[[Can|Can]]",
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]",
+            "[[Nadar|Nadar]]"
           ],
           "correctAnswer": 0
         }
@@ -355,8 +355,8 @@ export const UNIT_31_EXERCISES: Exercise[] = [
         {
           "question": "Lee el texto y responde:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -379,8 +379,8 @@ export const UNIT_31_EXERCISES: Exercise[] = [
         {
           "question": "Lee el texto y responde:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -403,8 +403,8 @@ export const UNIT_31_EXERCISES: Exercise[] = [
         {
           "question": "Escucha atentamente:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -421,15 +421,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Qué frase es correcta según el texto anterior?",
       "questions": [
         {
           "question": "¿Qué frase es correcta según el texto anterior?",
           "options": [
-            "[[The narrator can speak two languages.|]]",
-            "[[The sister can't dance.|]]",
-            "[[The brother can play the violin.|]]"
+            "[[The narrator can speak two languages.|The narrator can speak two languages.]]",
+            "[[The sister can't dance.|The sister can't dance.]]",
+            "[[The brother can play the violin.|The brother can play the violin.]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -447,15 +447,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'can' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'can' en inglés?",
           "options": [
-            "[[Can|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Can|Can]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -473,15 +473,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'can't' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'can't' en inglés?",
           "options": [
-            "[[Can't|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Can't|Can't]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -499,15 +499,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'swim' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'swim' en inglés?",
           "options": [
-            "[[Swim|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Swim|Nadar]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -525,15 +525,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'fly' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'fly' en inglés?",
           "options": [
-            "[[Fly|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Fly|Volar]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -551,15 +551,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'sing' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'sing' en inglés?",
           "options": [
-            "[[Sing|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Sing|Cantar]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -577,15 +577,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'dance' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'dance' en inglés?",
           "options": [
-            "[[Dance|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Dance|Bailar]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -603,15 +603,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'drive' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'drive' en inglés?",
           "options": [
-            "[[Drive|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Drive|Conducir]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -629,15 +629,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'speak' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'speak' en inglés?",
           "options": [
-            "[[Speak|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Speak|Speak]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -655,15 +655,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'can' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'can' en inglés?",
           "options": [
-            "[[Can|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Can|Can]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -681,15 +681,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'can't' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'can't' en inglés?",
           "options": [
-            "[[Can't|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Can't|Can't]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -707,15 +707,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'swim' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'swim' en inglés?",
           "options": [
-            "[[Swim|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Swim|Nadar]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -733,15 +733,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'fly' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'fly' en inglés?",
           "options": [
-            "[[Fly|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Fly|Volar]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -759,15 +759,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'sing' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'sing' en inglés?",
           "options": [
-            "[[Sing|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Sing|Cantar]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -785,15 +785,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'dance' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'dance' en inglés?",
           "options": [
-            "[[Dance|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Dance|Bailar]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -811,15 +811,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'drive' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'drive' en inglés?",
           "options": [
-            "[[Drive|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Drive|Conducir]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -837,15 +837,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'speak' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'speak' en inglés?",
           "options": [
-            "[[Speak|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Speak|Speak]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -863,15 +863,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'can' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'can' en inglés?",
           "options": [
-            "[[Can|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Can|Can]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -889,15 +889,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'can't' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'can't' en inglés?",
           "options": [
-            "[[Can't|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Can't|Can't]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -915,15 +915,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'swim' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'swim' en inglés?",
           "options": [
-            "[[Swim|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Swim|Nadar]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -941,15 +941,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'fly' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'fly' en inglés?",
           "options": [
-            "[[Fly|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Fly|Volar]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -967,15 +967,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'sing' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'sing' en inglés?",
           "options": [
-            "[[Sing|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Sing|Cantar]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -993,15 +993,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'dance' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'dance' en inglés?",
           "options": [
-            "[[Dance|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Dance|Bailar]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1019,15 +1019,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'drive' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'drive' en inglés?",
           "options": [
-            "[[Drive|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Drive|Conducir]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1045,15 +1045,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'speak' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'speak' en inglés?",
           "options": [
-            "[[Speak|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Speak|Speak]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1071,15 +1071,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'can' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'can' en inglés?",
           "options": [
-            "[[Can|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Can|Can]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1097,15 +1097,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'can't' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'can't' en inglés?",
           "options": [
-            "[[Can't|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Can't|Can't]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1123,15 +1123,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'swim' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'swim' en inglés?",
           "options": [
-            "[[Swim|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Swim|Nadar]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1149,15 +1149,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'fly' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'fly' en inglés?",
           "options": [
-            "[[Fly|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Fly|Volar]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1175,15 +1175,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'sing' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'sing' en inglés?",
           "options": [
-            "[[Sing|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Sing|Cantar]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1201,15 +1201,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'dance' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'dance' en inglés?",
           "options": [
-            "[[Dance|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Dance|Bailar]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1227,15 +1227,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'drive' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'drive' en inglés?",
           "options": [
-            "[[Drive|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Drive|Conducir]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1253,15 +1253,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'speak' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'speak' en inglés?",
           "options": [
-            "[[Speak|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Speak|Speak]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1279,15 +1279,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'can' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'can' en inglés?",
           "options": [
-            "[[Can|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Can|Can]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1305,15 +1305,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'can't' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'can't' en inglés?",
           "options": [
-            "[[Can't|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Can't|Can't]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1331,15 +1331,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'swim' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'swim' en inglés?",
           "options": [
-            "[[Swim|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Swim|Nadar]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1357,15 +1357,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'fly' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'fly' en inglés?",
           "options": [
-            "[[Fly|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Fly|Volar]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1383,15 +1383,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'sing' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'sing' en inglés?",
           "options": [
-            "[[Sing|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Sing|Cantar]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1409,15 +1409,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'dance' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'dance' en inglés?",
           "options": [
-            "[[Dance|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Dance|Bailar]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1435,15 +1435,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'drive' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'drive' en inglés?",
           "options": [
-            "[[Drive|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Drive|Conducir]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1461,15 +1461,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'speak' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'speak' en inglés?",
           "options": [
-            "[[Speak|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Speak|Speak]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1487,15 +1487,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'can' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'can' en inglés?",
           "options": [
-            "[[Can|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Can|Can]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1513,15 +1513,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'can't' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'can't' en inglés?",
           "options": [
-            "[[Can't|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Can't|Can't]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1539,15 +1539,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'swim' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'swim' en inglés?",
           "options": [
-            "[[Swim|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Swim|Nadar]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1569,10 +1569,10 @@ export const UNIT_31_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[can|]] is here.",
+          "question": "The [[can|poder]] is here.",
           "options": [
-            "[[can|]]",
-            "[[o1|]]"
+            "[[can|poder]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1594,10 +1594,10 @@ export const UNIT_31_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[can't|]] is here.",
+          "question": "The [[can't|can't]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[can't|]]"
+            "[[o1|opción 1]]",
+            "[[can't|can't]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1619,10 +1619,10 @@ export const UNIT_31_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[swim|]] is here.",
+          "question": "The [[swim|swim]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[swim|]]"
+            "[[o1|opción 1]]",
+            "[[swim|swim]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1644,10 +1644,10 @@ export const UNIT_31_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[fly|]] is here.",
+          "question": "The [[fly|fly]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[fly|]]"
+            "[[o1|opción 1]]",
+            "[[fly|fly]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1669,10 +1669,10 @@ export const UNIT_31_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[sing|]] is here.",
+          "question": "The [[sing|sing]] is here.",
           "options": [
-            "[[sing|]]",
-            "[[o1|]]"
+            "[[sing|sing]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1694,10 +1694,10 @@ export const UNIT_31_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[dance|]] is here.",
+          "question": "The [[dance|dance]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[dance|]]"
+            "[[o1|opción 1]]",
+            "[[dance|dance]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1719,10 +1719,10 @@ export const UNIT_31_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[drive|]] is here.",
+          "question": "The [[drive|drive]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[drive|]]"
+            "[[o1|opción 1]]",
+            "[[drive|drive]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

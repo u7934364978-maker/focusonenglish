@@ -37,4 +37,28 @@
 - [x] Present test plan for approval before writing any new E2E tests.
 
 ### [x] Step: Completion
-- [x] Commit and push changes. (Commit: d9f81a70)
+- [x] Commit and push changes. (Commit: 1c13471a)
+
+## Phase 2: Fix Missing Translations (Units 30-60)
+
+### [x] Step: Requirements
+- Create PRD: [requirements.md](./requirements.md)
+
+### [x] Step: Technical Specification
+- Create Spec: [spec.md](./spec.md)
+
+### [x] Step: Planning
+- [x] Break down the work into unit batches.
+
+### [x] Step: Implementation
+- [x] Fix Unit 30
+- [x] Fix Units 31-40
+- [x] Fix Units 41-50
+- [x] Fix Units 51-60
+
+### [x] Step: Verification
+- [x] Run validation scripts.
+- [x] Visual check in browser. (Manual verification of file contents)
+
+### [ ] Step: Completion
+- [ ] Commit and push changes.

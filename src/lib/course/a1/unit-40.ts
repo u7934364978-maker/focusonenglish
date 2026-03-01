@@ -8,46 +8,46 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
           "question": "Ability",
           "options": [
-            "[[Habilidad|]]",
-            "[[Talento|]]",
-            "[[Frecuencia|]]",
-            "[[Actividad|]]"
+            "[[Habilidad|Habilidad]]",
+            "[[Talento|Talento]]",
+            "[[Frecuencia|Frecuencia]]",
+            "[[Actividad|Actividad]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Talent",
           "options": [
-            "[[Actividad|]]",
-            "[[Talento|]]",
-            "[[Frecuencia|]]",
-            "[[Habilidad|]]"
+            "[[Actividad|Actividad]]",
+            "[[Talento|Talento]]",
+            "[[Frecuencia|Frecuencia]]",
+            "[[Habilidad|Habilidad]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Frequency",
           "options": [
-            "[[Frecuencia|]]",
-            "[[Talento|]]",
-            "[[Actividad|]]",
-            "[[Habilidad|]]"
+            "[[Frecuencia|Frecuencia]]",
+            "[[Talento|Talento]]",
+            "[[Actividad|Actividad]]",
+            "[[Habilidad|Habilidad]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Activity",
           "options": [
-            "[[Talento|]]",
-            "[[Frecuencia|]]",
-            "[[Actividad|]]",
-            "[[Habilidad|]]"
+            "[[Talento|Talento]]",
+            "[[Frecuencia|Frecuencia]]",
+            "[[Actividad|Actividad]]",
+            "[[Habilidad|Habilidad]]"
           ],
           "correctAnswer": 2
         }
@@ -62,16 +62,16 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "I (poder) ________ swim.",
           "options": [
-            "[[Habilidad|]]",
-            "[[Talento|]]",
-            "[[talent|]]",
-            "[[can|]]"
+            "[[Habilidad|Habilidad]]",
+            "[[Talento|Talento]]",
+            "[[talent|talento]]",
+            "[[can|poder]]"
           ],
           "correctAnswer": 3
         }
@@ -93,8 +93,8 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "¿Es correcta esta frase?: \"Ask for permission politely.\"",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -116,7 +116,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "with Connect 'but', 'and', sentences and 'because'",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -138,8 +138,8 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -156,15 +156,15 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'Frecuencia' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'Frecuencia' en inglés?",
           "options": [
-            "[[Ability|]]",
-            "[[Frequency|]]",
-            "[[Activity|]]"
+            "[[Ability|Habilidad]]",
+            "[[Frequency|Frecuencia]]",
+            "[[Activity|Actividad]]"
           ],
           "correctAnswer": 1,
           "explanation": ""
@@ -181,46 +181,46 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
           "question": "Talent",
           "options": [
-            "[[Frecuencia|]]",
-            "[[Habilidad|]]",
-            "[[Talento|]]",
-            "[[Actividad|]]"
+            "[[Frecuencia|Frecuencia]]",
+            "[[Habilidad|Habilidad]]",
+            "[[Talento|Talento]]",
+            "[[Actividad|Actividad]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Frequency",
           "options": [
-            "[[Frecuencia|]]",
-            "[[Talento|]]",
-            "[[Habilidad|]]",
-            "[[Actividad|]]"
+            "[[Frecuencia|Frecuencia]]",
+            "[[Talento|Talento]]",
+            "[[Habilidad|Habilidad]]",
+            "[[Actividad|Actividad]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Activity",
           "options": [
-            "[[Habilidad|]]",
-            "[[Actividad|]]",
-            "[[Talento|]]",
-            "[[Frecuencia|]]"
+            "[[Habilidad|Habilidad]]",
+            "[[Actividad|Actividad]]",
+            "[[Talento|Talento]]",
+            "[[Frecuencia|Frecuencia]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Ability",
           "options": [
-            "[[Frecuencia|]]",
-            "[[Habilidad|]]",
-            "[[Talento|]]",
-            "[[Actividad|]]"
+            "[[Frecuencia|Frecuencia]]",
+            "[[Habilidad|Habilidad]]",
+            "[[Talento|Talento]]",
+            "[[Actividad|Actividad]]"
           ],
           "correctAnswer": 1
         }
@@ -235,16 +235,16 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "He (tocar) ________ the piano.",
           "options": [
-            "[[Activity|]]",
-            "[[o1|]]",
-            "[[Frecuencia|]]",
-            "[[plays|]]"
+            "[[Activity|Actividad]]",
+            "[[o1|opción 1]]",
+            "[[Frecuencia|Frecuencia]]",
+            "[[plays|plays]]"
           ],
           "correctAnswer": 3
         }
@@ -266,8 +266,8 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "¿Es correcta esta frase?: \"Sentences connect with 'and', 'but', and 'because'\"",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -289,7 +289,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "of module a is review four This",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -311,8 +311,8 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -329,15 +329,15 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'Habilidad' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'Habilidad' en inglés?",
           "options": [
-            "[[Ability|]]",
-            "[[Activity|]]",
-            "[[Frequency|]]"
+            "[[Ability|Habilidad]]",
+            "[[Activity|Actividad]]",
+            "[[Frequency|Frecuencia]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -354,46 +354,46 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
           "question": "Frequency",
           "options": [
-            "[[Habilidad|]]",
-            "[[Frecuencia|]]",
-            "[[Talento|]]",
-            "[[Actividad|]]"
+            "[[Habilidad|Habilidad]]",
+            "[[Frecuencia|Frecuencia]]",
+            "[[Talento|Talento]]",
+            "[[Actividad|Actividad]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Activity",
           "options": [
-            "[[Actividad|]]",
-            "[[Talento|]]",
-            "[[Frecuencia|]]",
-            "[[Habilidad|]]"
+            "[[Actividad|Actividad]]",
+            "[[Talento|Talento]]",
+            "[[Frecuencia|Frecuencia]]",
+            "[[Habilidad|Habilidad]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Ability",
           "options": [
-            "[[Habilidad|]]",
-            "[[Talento|]]",
-            "[[Actividad|]]",
-            "[[Frecuencia|]]"
+            "[[Habilidad|Habilidad]]",
+            "[[Talento|Talento]]",
+            "[[Actividad|Actividad]]",
+            "[[Frecuencia|Frecuencia]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Talent",
           "options": [
-            "[[Actividad|]]",
-            "[[Talento|]]",
-            "[[Habilidad|]]",
-            "[[Frecuencia|]]"
+            "[[Actividad|Actividad]]",
+            "[[Talento|Talento]]",
+            "[[Habilidad|Habilidad]]",
+            "[[Frecuencia|Frecuencia]]"
           ],
           "correctAnswer": 1
         }
@@ -408,16 +408,16 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "I (poder) ________ swim.",
           "options": [
-            "[[Talento|]]",
-            "[[can|]]",
-            "[[o1|]]",
-            "[[Habilidad|]]"
+            "[[Talento|Talento]]",
+            "[[can|poder]]",
+            "[[o1|opción 1]]",
+            "[[Habilidad|Habilidad]]"
           ],
           "correctAnswer": 1
         }
@@ -439,8 +439,8 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "¿Es correcta esta frase?: \"This is a review of module four.\"",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -462,7 +462,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "of Use adverbs frequency",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -484,8 +484,8 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -502,15 +502,15 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'Frecuencia' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'Frecuencia' en inglés?",
           "options": [
-            "[[Frequency|]]",
-            "[[Ability|]]",
-            "[[Talent|]]"
+            "[[Frequency|Frecuencia]]",
+            "[[Ability|Habilidad]]",
+            "[[Talent|Talento]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -527,46 +527,46 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
           "question": "Activity",
           "options": [
-            "[[Habilidad|]]",
-            "[[Actividad|]]",
-            "[[Talento|]]",
-            "[[Frecuencia|]]"
+            "[[Habilidad|Habilidad]]",
+            "[[Actividad|Actividad]]",
+            "[[Talento|Talento]]",
+            "[[Frecuencia|Frecuencia]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Ability",
           "options": [
-            "[[Frecuencia|]]",
-            "[[Actividad|]]",
-            "[[Talento|]]",
-            "[[Habilidad|]]"
+            "[[Frecuencia|Frecuencia]]",
+            "[[Actividad|Actividad]]",
+            "[[Talento|Talento]]",
+            "[[Habilidad|Habilidad]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Talent",
           "options": [
-            "[[Talento|]]",
-            "[[Actividad|]]",
-            "[[Habilidad|]]",
-            "[[Frecuencia|]]"
+            "[[Talento|Talento]]",
+            "[[Actividad|Actividad]]",
+            "[[Habilidad|Habilidad]]",
+            "[[Frecuencia|Frecuencia]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Frequency",
           "options": [
-            "[[Talento|]]",
-            "[[Habilidad|]]",
-            "[[Frecuencia|]]",
-            "[[Actividad|]]"
+            "[[Talento|Talento]]",
+            "[[Habilidad|Habilidad]]",
+            "[[Frecuencia|Frecuencia]]",
+            "[[Actividad|Actividad]]"
           ],
           "correctAnswer": 2
         }
@@ -581,16 +581,16 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "He (tocar) ________ the piano.",
           "options": [
-            "[[plays|]]",
-            "[[can|]]",
-            "[[Habilidad|]]",
-            "[[can|]]"
+            "[[plays|plays]]",
+            "[[can|poder]]",
+            "[[Habilidad|Habilidad]]",
+            "[[can|poder]]"
           ],
           "correctAnswer": 0
         }
@@ -612,8 +612,8 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "¿Es correcta esta frase?: \"Adverbs use of frequency\"",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -635,7 +635,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "and about Talk skills abilities your",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -657,8 +657,8 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -675,15 +675,15 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'Habilidad' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'Habilidad' en inglés?",
           "options": [
-            "[[Activity|]]",
-            "[[Ability|]]",
-            "[[Frequency|]]"
+            "[[Activity|Actividad]]",
+            "[[Ability|Habilidad]]",
+            "[[Frequency|Frecuencia]]"
           ],
           "correctAnswer": 1,
           "explanation": ""
@@ -700,46 +700,46 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
           "question": "Ability",
           "options": [
-            "[[Frecuencia|]]",
-            "[[Actividad|]]",
-            "[[Talento|]]",
-            "[[Habilidad|]]"
+            "[[Frecuencia|Frecuencia]]",
+            "[[Actividad|Actividad]]",
+            "[[Talento|Talento]]",
+            "[[Habilidad|Habilidad]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Talent",
           "options": [
-            "[[Habilidad|]]",
-            "[[Talento|]]",
-            "[[Actividad|]]",
-            "[[Frecuencia|]]"
+            "[[Habilidad|Habilidad]]",
+            "[[Talento|Talento]]",
+            "[[Actividad|Actividad]]",
+            "[[Frecuencia|Frecuencia]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Frequency",
           "options": [
-            "[[Actividad|]]",
-            "[[Habilidad|]]",
-            "[[Talento|]]",
-            "[[Frecuencia|]]"
+            "[[Actividad|Actividad]]",
+            "[[Habilidad|Habilidad]]",
+            "[[Talento|Talento]]",
+            "[[Frecuencia|Frecuencia]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Activity",
           "options": [
-            "[[Frecuencia|]]",
-            "[[Talento|]]",
-            "[[Habilidad|]]",
-            "[[Actividad|]]"
+            "[[Frecuencia|Frecuencia]]",
+            "[[Talento|Talento]]",
+            "[[Habilidad|Habilidad]]",
+            "[[Actividad|Actividad]]"
           ],
           "correctAnswer": 3
         }
@@ -754,16 +754,16 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "I (poder) ________ swim.",
           "options": [
-            "[[o1|]]",
-            "[[can|]]",
-            "[[Habilidad|]]",
-            "[[Talento|]]"
+            "[[o1|opción 1]]",
+            "[[can|poder]]",
+            "[[Habilidad|Habilidad]]",
+            "[[Talento|Talento]]"
           ],
           "correctAnswer": 1
         }
@@ -785,8 +785,8 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "¿Es correcta esta frase?: \"Talk about your abilities and skills.\"",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -808,7 +808,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "politely Ask for permission",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -830,8 +830,8 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -848,15 +848,15 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'Frecuencia' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'Frecuencia' en inglés?",
           "options": [
-            "[[Frequency|]]",
-            "[[Ability|]]",
-            "[[Activity|]]"
+            "[[Frequency|Frecuencia]]",
+            "[[Ability|Habilidad]]",
+            "[[Activity|Actividad]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -873,46 +873,46 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
           "question": "Talent",
           "options": [
-            "[[Talento|]]",
-            "[[Frecuencia|]]",
-            "[[Actividad|]]",
-            "[[Habilidad|]]"
+            "[[Talento|Talento]]",
+            "[[Frecuencia|Frecuencia]]",
+            "[[Actividad|Actividad]]",
+            "[[Habilidad|Habilidad]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Frequency",
           "options": [
-            "[[Actividad|]]",
-            "[[Habilidad|]]",
-            "[[Frecuencia|]]",
-            "[[Talento|]]"
+            "[[Actividad|Actividad]]",
+            "[[Habilidad|Habilidad]]",
+            "[[Frecuencia|Frecuencia]]",
+            "[[Talento|Talento]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Activity",
           "options": [
-            "[[Talento|]]",
-            "[[Habilidad|]]",
-            "[[Frecuencia|]]",
-            "[[Actividad|]]"
+            "[[Talento|Talento]]",
+            "[[Habilidad|Habilidad]]",
+            "[[Frecuencia|Frecuencia]]",
+            "[[Actividad|Actividad]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Ability",
           "options": [
-            "[[Talento|]]",
-            "[[Habilidad|]]",
-            "[[Frecuencia|]]",
-            "[[Actividad|]]"
+            "[[Talento|Talento]]",
+            "[[Habilidad|Habilidad]]",
+            "[[Frecuencia|Frecuencia]]",
+            "[[Actividad|Actividad]]"
           ],
           "correctAnswer": 1
         }
@@ -927,16 +927,16 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "He (tocar) ________ the piano.",
           "options": [
-            "[[Frecuencia|]]",
-            "[[plays|]]",
-            "[[free time|]]",
-            "[[Activity|]]"
+            "[[Frecuencia|Frecuencia]]",
+            "[[plays|plays]]",
+            "[[free time|free time]]",
+            "[[Activity|Actividad]]"
           ],
           "correctAnswer": 1
         }
@@ -958,8 +958,8 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "¿Es correcta esta frase?: \"For ask permission politely\"",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -981,7 +981,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "'and', 'because' sentences Connect and 'but', with",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -1003,8 +1003,8 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -1021,15 +1021,15 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'Habilidad' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'Habilidad' en inglés?",
           "options": [
-            "[[Frequency|]]",
-            "[[Talent|]]",
-            "[[Ability|]]"
+            "[[Frequency|Frecuencia]]",
+            "[[Talent|Talento]]",
+            "[[Ability|Habilidad]]"
           ],
           "correctAnswer": 2,
           "explanation": ""
@@ -1046,46 +1046,46 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
           "question": "Frequency",
           "options": [
-            "[[Habilidad|]]",
-            "[[Actividad|]]",
-            "[[Talento|]]",
-            "[[Frecuencia|]]"
+            "[[Habilidad|Habilidad]]",
+            "[[Actividad|Actividad]]",
+            "[[Talento|Talento]]",
+            "[[Frecuencia|Frecuencia]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Activity",
           "options": [
-            "[[Talento|]]",
-            "[[Frecuencia|]]",
-            "[[Actividad|]]",
-            "[[Habilidad|]]"
+            "[[Talento|Talento]]",
+            "[[Frecuencia|Frecuencia]]",
+            "[[Actividad|Actividad]]",
+            "[[Habilidad|Habilidad]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Ability",
           "options": [
-            "[[Talento|]]",
-            "[[Habilidad|]]",
-            "[[Actividad|]]",
-            "[[Frecuencia|]]"
+            "[[Talento|Talento]]",
+            "[[Habilidad|Habilidad]]",
+            "[[Actividad|Actividad]]",
+            "[[Frecuencia|Frecuencia]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Talent",
           "options": [
-            "[[Habilidad|]]",
-            "[[Frecuencia|]]",
-            "[[Talento|]]",
-            "[[Actividad|]]"
+            "[[Habilidad|Habilidad]]",
+            "[[Frecuencia|Frecuencia]]",
+            "[[Talento|Talento]]",
+            "[[Actividad|Actividad]]"
           ],
           "correctAnswer": 2
         }
@@ -1100,16 +1100,16 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "I (poder) ________ swim.",
           "options": [
-            "[[can|]]",
-            "[[Talent|]]",
-            "[[o1|]]",
-            "[[Habilidad|]]"
+            "[[can|poder]]",
+            "[[Talent|Talento]]",
+            "[[o1|opción 1]]",
+            "[[Habilidad|Habilidad]]"
           ],
           "correctAnswer": 0
         }
@@ -1131,8 +1131,8 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "¿Es correcta esta frase?: \"Connect sentences with 'and', 'but', and 'because'.\"",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -1154,7 +1154,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "of review This a four is module",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -1176,8 +1176,8 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -1194,15 +1194,15 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'Frecuencia' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'Frecuencia' en inglés?",
           "options": [
-            "[[Frequency|]]",
-            "[[Talent|]]",
-            "[[Activity|]]"
+            "[[Frequency|Frecuencia]]",
+            "[[Talent|Talento]]",
+            "[[Activity|Actividad]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1219,46 +1219,46 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
           "question": "Activity",
           "options": [
-            "[[Actividad|]]",
-            "[[Habilidad|]]",
-            "[[Frecuencia|]]",
-            "[[Talento|]]"
+            "[[Actividad|Actividad]]",
+            "[[Habilidad|Habilidad]]",
+            "[[Frecuencia|Frecuencia]]",
+            "[[Talento|Talento]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Ability",
           "options": [
-            "[[Frecuencia|]]",
-            "[[Talento|]]",
-            "[[Habilidad|]]",
-            "[[Actividad|]]"
+            "[[Frecuencia|Frecuencia]]",
+            "[[Talento|Talento]]",
+            "[[Habilidad|Habilidad]]",
+            "[[Actividad|Actividad]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Talent",
           "options": [
-            "[[Frecuencia|]]",
-            "[[Actividad|]]",
-            "[[Habilidad|]]",
-            "[[Talento|]]"
+            "[[Frecuencia|Frecuencia]]",
+            "[[Actividad|Actividad]]",
+            "[[Habilidad|Habilidad]]",
+            "[[Talento|Talento]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Frequency",
           "options": [
-            "[[Habilidad|]]",
-            "[[Actividad|]]",
-            "[[Frecuencia|]]",
-            "[[Talento|]]"
+            "[[Habilidad|Habilidad]]",
+            "[[Actividad|Actividad]]",
+            "[[Frecuencia|Frecuencia]]",
+            "[[Talento|Talento]]"
           ],
           "correctAnswer": 2
         }
@@ -1273,16 +1273,16 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "He (tocar) ________ the piano.",
           "options": [
-            "[[o1|]]",
-            "[[plays|]]",
-            "[[Activity|]]",
-            "[[Talento|]]"
+            "[[o1|opción 1]]",
+            "[[plays|plays]]",
+            "[[Activity|Actividad]]",
+            "[[Talento|Talento]]"
           ],
           "correctAnswer": 1
         }
@@ -1304,8 +1304,8 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "¿Es correcta esta frase?: \"Is this a review of module four\"",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -1327,7 +1327,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "Use of adverbs frequency",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -1349,8 +1349,8 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -1367,15 +1367,15 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'Habilidad' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'Habilidad' en inglés?",
           "options": [
-            "[[Ability|]]",
-            "[[Activity|]]",
-            "[[Frequency|]]"
+            "[[Ability|Habilidad]]",
+            "[[Activity|Actividad]]",
+            "[[Frequency|Frecuencia]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1392,46 +1392,46 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
           "question": "Ability",
           "options": [
-            "[[Frecuencia|]]",
-            "[[Habilidad|]]",
-            "[[Actividad|]]",
-            "[[Talento|]]"
+            "[[Frecuencia|Frecuencia]]",
+            "[[Habilidad|Habilidad]]",
+            "[[Actividad|Actividad]]",
+            "[[Talento|Talento]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Talent",
           "options": [
-            "[[Talento|]]",
-            "[[Habilidad|]]",
-            "[[Actividad|]]",
-            "[[Frecuencia|]]"
+            "[[Talento|Talento]]",
+            "[[Habilidad|Habilidad]]",
+            "[[Actividad|Actividad]]",
+            "[[Frecuencia|Frecuencia]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Frequency",
           "options": [
-            "[[Frecuencia|]]",
-            "[[Talento|]]",
-            "[[Actividad|]]",
-            "[[Habilidad|]]"
+            "[[Frecuencia|Frecuencia]]",
+            "[[Talento|Talento]]",
+            "[[Actividad|Actividad]]",
+            "[[Habilidad|Habilidad]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Activity",
           "options": [
-            "[[Actividad|]]",
-            "[[Frecuencia|]]",
-            "[[Habilidad|]]",
-            "[[Talento|]]"
+            "[[Actividad|Actividad]]",
+            "[[Frecuencia|Frecuencia]]",
+            "[[Habilidad|Habilidad]]",
+            "[[Talento|Talento]]"
           ],
           "correctAnswer": 0
         }
@@ -1446,16 +1446,16 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "I (poder) ________ swim.",
           "options": [
-            "[[Frecuencia|]]",
-            "[[Frecuencia|]]",
-            "[[Frecuencia|]]",
-            "[[can|]]"
+            "[[Frecuencia|Frecuencia]]",
+            "[[Frecuencia|Frecuencia]]",
+            "[[Frecuencia|Frecuencia]]",
+            "[[can|poder]]"
           ],
           "correctAnswer": 3
         }
@@ -1477,8 +1477,8 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "¿Es correcta esta frase?: \"Use adverbs of frequency.\"",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -1500,7 +1500,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "Talk abilities skills about and your",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -1522,8 +1522,8 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -1540,15 +1540,15 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'Frecuencia' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'Frecuencia' en inglés?",
           "options": [
-            "[[Ability|]]",
-            "[[Frequency|]]",
-            "[[Activity|]]"
+            "[[Ability|Habilidad]]",
+            "[[Frequency|Frecuencia]]",
+            "[[Activity|Actividad]]"
           ],
           "correctAnswer": 1,
           "explanation": ""
@@ -1565,46 +1565,46 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une la palabra con su traducción correcta:",
       "questions": [
         {
           "question": "Talent",
           "options": [
-            "[[Talento|]]",
-            "[[Frecuencia|]]",
-            "[[Actividad|]]",
-            "[[Habilidad|]]"
+            "[[Talento|Talento]]",
+            "[[Frecuencia|Frecuencia]]",
+            "[[Actividad|Actividad]]",
+            "[[Habilidad|Habilidad]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Frequency",
           "options": [
-            "[[Actividad|]]",
-            "[[Talento|]]",
-            "[[Habilidad|]]",
-            "[[Frecuencia|]]"
+            "[[Actividad|Actividad]]",
+            "[[Talento|Talento]]",
+            "[[Habilidad|Habilidad]]",
+            "[[Frecuencia|Frecuencia]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Activity",
           "options": [
-            "[[Talento|]]",
-            "[[Habilidad|]]",
-            "[[Actividad|]]",
-            "[[Frecuencia|]]"
+            "[[Talento|Talento]]",
+            "[[Habilidad|Habilidad]]",
+            "[[Actividad|Actividad]]",
+            "[[Frecuencia|Frecuencia]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Ability",
           "options": [
-            "[[Talento|]]",
-            "[[Frecuencia|]]",
-            "[[Actividad|]]",
-            "[[Habilidad|]]"
+            "[[Talento|Talento]]",
+            "[[Frecuencia|Frecuencia]]",
+            "[[Actividad|Actividad]]",
+            "[[Habilidad|Habilidad]]"
           ],
           "correctAnswer": 3
         }
@@ -1619,16 +1619,16 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa con la forma correcta:",
       "questions": [
         {
           "question": "He (tocar) ________ the piano.",
           "options": [
-            "[[plays|]]",
-            "[[frequency|]]",
-            "[[o1|]]",
-            "[[o1|]]"
+            "[[plays|plays]]",
+            "[[frequency|frequency]]",
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0
         }
@@ -1650,8 +1650,8 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "¿Es correcta esta frase?: \"About talk your abilities and skills\"",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -1673,7 +1673,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "Ask politely for permission",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -1695,8 +1695,8 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -1713,15 +1713,15 @@ export const UNIT_40_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'Habilidad' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'Habilidad' en inglés?",
           "options": [
-            "[[Activity|]]",
-            "[[Ability|]]",
-            "[[Talent|]]"
+            "[[Activity|Actividad]]",
+            "[[Ability|Habilidad]]",
+            "[[Talent|Talento]]"
           ],
           "correctAnswer": 1,
           "explanation": ""
@@ -1743,10 +1743,10 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[can|]] is here.",
+          "question": "The [[can|poder]] is here.",
           "options": [
-            "[[Talento|]]",
-            "[[can|]]"
+            "[[Talento|Talento]]",
+            "[[can|poder]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1768,10 +1768,10 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[sports|]] is here.",
+          "question": "The [[sports|sports]] is here.",
           "options": [
-            "[[sports|]]",
-            "[[Habilidad|]]"
+            "[[sports|sports]]",
+            "[[Habilidad|Habilidad]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1793,10 +1793,10 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[frequency|]] is here.",
+          "question": "The [[frequency|frequency]] is here.",
           "options": [
-            "[[Talento|]]",
-            "[[frequency|]]"
+            "[[Talento|Talento]]",
+            "[[frequency|frequency]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1818,10 +1818,10 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[connectors|]] is here.",
+          "question": "The [[connectors|connectors]] is here.",
           "options": [
-            "[[connectors|]]",
-            "[[Activity|]]"
+            "[[connectors|connectors]]",
+            "[[Activity|Actividad]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1843,10 +1843,10 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[free time|]] is here.",
+          "question": "The [[free time|free time]] is here.",
           "options": [
-            "[[connectors|]]",
-            "[[free time|]]"
+            "[[connectors|connectors]]",
+            "[[free time|free time]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1868,10 +1868,10 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[instruments|]] is here.",
+          "question": "The [[instruments|instruments]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[instruments|]]"
+            "[[o1|opción 1]]",
+            "[[instruments|instruments]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1893,10 +1893,10 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[talent|]] is here.",
+          "question": "The [[talent|talento]] is here.",
           "options": [
-            "[[talent|]]",
-            "[[Actividad|]]"
+            "[[talent|talento]]",
+            "[[Actividad|Actividad]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

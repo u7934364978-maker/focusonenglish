@@ -8,46 +8,46 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Empareja las actividades de vacaciones:",
       "questions": [
         {
           "question": "Sunbathing",
           "options": [
-            "[[Nadar|]]",
-            "[[Relajarse|]]",
-            "[[Tomar el sol|]]",
-            "[[Hacer turismo|]]"
+            "[[Nadar|Nadar]]",
+            "[[Relajarse|Relajarse]]",
+            "[[Tomar el sol|Tomar el sol]]",
+            "[[Hacer turismo|Hacer turismo]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Swimming",
           "options": [
-            "[[Tomar el sol|]]",
-            "[[Relajarse|]]",
-            "[[Hacer turismo|]]",
-            "[[Nadar|]]"
+            "[[Tomar el sol|Tomar el sol]]",
+            "[[Relajarse|Relajarse]]",
+            "[[Hacer turismo|Hacer turismo]]",
+            "[[Nadar|Nadar]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Sightseeing",
           "options": [
-            "[[Nadar|]]",
-            "[[Hacer turismo|]]",
-            "[[Tomar el sol|]]",
-            "[[Relajarse|]]"
+            "[[Nadar|Nadar]]",
+            "[[Hacer turismo|Hacer turismo]]",
+            "[[Tomar el sol|Tomar el sol]]",
+            "[[Relajarse|Relajarse]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Relaxing",
           "options": [
-            "[[Tomar el sol|]]",
-            "[[Hacer turismo|]]",
-            "[[Relajarse|]]",
-            "[[Nadar|]]"
+            "[[Tomar el sol|Tomar el sol]]",
+            "[[Hacer turismo|Hacer turismo]]",
+            "[[Relajarse|Relajarse]]",
+            "[[Nadar|Nadar]]"
           ],
           "correctAnswer": 2
         }
@@ -63,15 +63,15 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Qué haces en las montañas?",
       "questions": [
         {
           "question": "¿Qué haces en las montañas?",
           "options": [
-            "[[Hiking|]]",
-            "[[Sunbathing|]]",
-            "[[Buying milk|]]"
+            "[[Hiking|Senderismo]]",
+            "[[Sunbathing|Sunbathing]]",
+            "[[Buying milk|Buying milk]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -88,16 +88,16 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa el objeto:",
       "questions": [
         {
           "question": "I write a ________ to my family. (postal)",
           "options": [
-            "[[vacation|]]",
-            "[[sightseeing|]]",
-            "[[Hacer turismo|]]",
-            "[[postcard|]]"
+            "[[vacation|vacation]]",
+            "[[sightseeing|sightseeing]]",
+            "[[Hacer turismo|Hacer turismo]]",
+            "[[postcard|postcard]]"
           ],
           "correctAnswer": 3
         }
@@ -119,8 +119,8 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'Hacer turismo'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -143,8 +143,8 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         {
           "question": "Souvenirs",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -160,16 +160,16 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa el contraste:",
       "questions": [
         {
           "question": "Usually I work, but today I am ________. (relajándome)",
           "options": [
-            "[[mountains|]]",
-            "[[o1|]]",
-            "[[o1|]]",
-            "[[relaxing|]]"
+            "[[mountains|mountains]]",
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]",
+            "[[relaxing|relaxing]]"
           ],
           "correctAnswer": 3
         }
@@ -191,8 +191,8 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         {
           "question": "¿Es correcto: 'I enjoy to take photos'?",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -208,16 +208,16 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa la frase:",
       "questions": [
         {
           "question": "We ________ visit museums on holiday. (a menudo)",
           "options": [
-            "[[o1|]]",
-            "[[o1|]]",
-            "[[Are you relaxing on vacation?|]]",
-            "[[often|]]"
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]",
+            "[[Are you relaxing on vacation?|Are you relaxing on vacation?]]",
+            "[[often|often]]"
           ],
           "correctAnswer": 3
         }
@@ -238,7 +238,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         {
           "question": "I am sunbathing on the beach.",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -254,15 +254,15 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "Friend: 'What are you doing today?' - You:",
       "questions": [
         {
           "question": "Friend: 'What are you doing today?' - You:",
           "options": [
-            "[[I am relaxing at the pool.|]]",
-            "[[I am a teacher.|]]",
-            "[[I usually eat pasta.|]]"
+            "[[I am relaxing at the pool.|I am relaxing at the pool.]]",
+            "[[I am a teacher.|I am a teacher.]]",
+            "[[I usually eat pasta.|I usually eat pasta.]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -279,16 +279,16 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa la postal:",
       "questions": [
         {
           "question": "The weather is hot. We ________ many photos of the city. (sacamos/tomamos)",
           "options": [
-            "[[o1|]]",
-            "[[take|]]",
-            "[[o1|]]",
-            "[[o1|]]"
+            "[[o1|opción 1]]",
+            "[[take|take]]",
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 1
         }
@@ -310,8 +310,8 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'Odio hacer turismo'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -334,8 +334,8 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         {
           "question": "You buy souvenirs for your family and friends.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -358,8 +358,8 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         {
           "question": "Escucha la preferencia:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -376,15 +376,15 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "Sarah loves eating Italian food. She enjoys pizza and pasta. Every Friday, she goes to a small Italian restaurant near her house. The restaurant has a friendly chef who makes delicious meals. Sarah always feels happy when she eats there. She does not like working at the office or rainy weather, but Italian food always makes her smile.",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Qué le gusta a Sarah?",
       "questions": [
         {
           "question": "Sarah loves eating Italian food. She enjoys pizza and pasta. Every Friday, she goes to a small Italian restaurant near her house. The restaurant has a friendly chef who makes delicious meals. Sarah always feels happy when she eats there. She does not like working at the office or rainy weather, but Italian food always makes her smile.",
           "options": [
-            "[[Eating Italian food|]]",
-            "[[Working at the office|]]",
-            "[[Rainy weather|]]"
+            "[[Eating Italian food|Eating Italian food]]",
+            "[[Working at the office|Working at the office]]",
+            "[[Rainy weather|Rainy weather]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -408,8 +408,8 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|]]",
-            "[[I love sunbathing on the beach.|]]"
+            "[[o1|opción 1]]",
+            "[[I love sunbathing on the beach.|I love sunbathing on the beach.]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -433,8 +433,8 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[They enjoy sightseeing in Paris.|]]",
-            "[[She hates long flights.|]]"
+            "[[They enjoy sightseeing in Paris.|They enjoy sightseeing in Paris.]]",
+            "[[She hates long flights.|She hates long flights.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -458,8 +458,8 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[We go hiking in the mountains.|]]",
-            "[[o1|]]"
+            "[[We go hiking in the mountains.|We go hiking in the mountains.]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -483,8 +483,8 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[She hates long flights.|]]",
-            "[[Tomar el sol|]]"
+            "[[She hates long flights.|She hates long flights.]]",
+            "[[Tomar el sol|Tomar el sol]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -508,8 +508,8 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[photos|]]",
-            "[[I send a postcard to my mother.|]]"
+            "[[photos|photos]]",
+            "[[I send a postcard to my mother.|I send a postcard to my mother.]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -533,8 +533,8 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[often|]]",
-            "[[Are you relaxing on vacation?|]]"
+            "[[often|often]]",
+            "[[Are you relaxing on vacation?|Are you relaxing on vacation?]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -558,8 +558,8 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[We eat local food in the evening.|]]",
-            "[[o1|]]"
+            "[[We eat local food in the evening.|We eat local food in the evening.]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -705,15 +705,15 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'holiday' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'holiday' en inglés?",
           "options": [
-            "[[Holiday|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Holiday|Holiday]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -731,15 +731,15 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'vacation' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'vacation' en inglés?",
           "options": [
-            "[[Vacation|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Vacation|Vacation]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -757,15 +757,15 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'beach' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'beach' en inglés?",
           "options": [
-            "[[Beach|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Beach|Playa]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -783,15 +783,15 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'mountains' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'mountains' en inglés?",
           "options": [
-            "[[Mountains|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Mountains|Mountains]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -809,15 +809,15 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'sightseeing' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'sightseeing' en inglés?",
           "options": [
-            "[[Sightseeing|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Sightseeing|Sightseeing]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -835,15 +835,15 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'relax' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'relax' en inglés?",
           "options": [
-            "[[Relax|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Relax|Relax]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -861,15 +861,15 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'photos' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'photos' en inglés?",
           "options": [
-            "[[Photos|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Photos|Photos]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -887,15 +887,15 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'holiday' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'holiday' en inglés?",
           "options": [
-            "[[Holiday|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Holiday|Holiday]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -913,15 +913,15 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'vacation' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'vacation' en inglés?",
           "options": [
-            "[[Vacation|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Vacation|Vacation]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -939,15 +939,15 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'beach' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'beach' en inglés?",
           "options": [
-            "[[Beach|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Beach|Playa]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -965,15 +965,15 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'mountains' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'mountains' en inglés?",
           "options": [
-            "[[Mountains|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Mountains|Mountains]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -991,15 +991,15 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'sightseeing' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'sightseeing' en inglés?",
           "options": [
-            "[[Sightseeing|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Sightseeing|Sightseeing]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1017,15 +1017,15 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'relax' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'relax' en inglés?",
           "options": [
-            "[[Relax|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Relax|Relax]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1043,15 +1043,15 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'photos' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'photos' en inglés?",
           "options": [
-            "[[Photos|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Photos|Photos]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1069,15 +1069,15 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'holiday' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'holiday' en inglés?",
           "options": [
-            "[[Holiday|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Holiday|Holiday]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1095,15 +1095,15 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'vacation' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'vacation' en inglés?",
           "options": [
-            "[[Vacation|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Vacation|Vacation]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1121,15 +1121,15 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'beach' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'beach' en inglés?",
           "options": [
-            "[[Beach|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Beach|Playa]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1147,15 +1147,15 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'mountains' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'mountains' en inglés?",
           "options": [
-            "[[Mountains|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Mountains|Mountains]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1173,15 +1173,15 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'sightseeing' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'sightseeing' en inglés?",
           "options": [
-            "[[Sightseeing|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Sightseeing|Sightseeing]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1199,15 +1199,15 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'relax' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'relax' en inglés?",
           "options": [
-            "[[Relax|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Relax|Relax]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1225,15 +1225,15 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'photos' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'photos' en inglés?",
           "options": [
-            "[[Photos|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Photos|Photos]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1251,15 +1251,15 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'holiday' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'holiday' en inglés?",
           "options": [
-            "[[Holiday|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Holiday|Holiday]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1277,15 +1277,15 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'vacation' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'vacation' en inglés?",
           "options": [
-            "[[Vacation|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Vacation|Vacation]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1303,15 +1303,15 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'beach' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'beach' en inglés?",
           "options": [
-            "[[Beach|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Beach|Playa]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1329,15 +1329,15 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'mountains' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'mountains' en inglés?",
           "options": [
-            "[[Mountains|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Mountains|Mountains]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1355,15 +1355,15 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'sightseeing' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'sightseeing' en inglés?",
           "options": [
-            "[[Sightseeing|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Sightseeing|Sightseeing]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1381,15 +1381,15 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'relax' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'relax' en inglés?",
           "options": [
-            "[[Relax|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Relax|Relax]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1407,15 +1407,15 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'photos' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'photos' en inglés?",
           "options": [
-            "[[Photos|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Photos|Photos]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1433,15 +1433,15 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'holiday' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'holiday' en inglés?",
           "options": [
-            "[[Holiday|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Holiday|Holiday]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1459,15 +1459,15 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'vacation' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'vacation' en inglés?",
           "options": [
-            "[[Vacation|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Vacation|Vacation]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1489,10 +1489,10 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[holiday|]] is here.",
+          "question": "The [[holiday|holiday]] is here.",
           "options": [
-            "[[holiday|]]",
-            "[[o1|]]"
+            "[[holiday|holiday]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1514,10 +1514,10 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[vacation|]] is here.",
+          "question": "The [[vacation|vacation]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[vacation|]]"
+            "[[o1|opción 1]]",
+            "[[vacation|vacation]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1539,10 +1539,10 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[beach|]] is here.",
+          "question": "The [[beach|beach]] is here.",
           "options": [
-            "[[beach|]]",
-            "[[relax|]]"
+            "[[beach|beach]]",
+            "[[relax|relax]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1564,10 +1564,10 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[mountains|]] is here.",
+          "question": "The [[mountains|mountains]] is here.",
           "options": [
-            "[[mountains|]]",
-            "[[o1|]]"
+            "[[mountains|mountains]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1589,10 +1589,10 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[sightseeing|]] is here.",
+          "question": "The [[sightseeing|sightseeing]] is here.",
           "options": [
-            "[[sightseeing|]]",
-            "[[We eat local food in the evening.|]]"
+            "[[sightseeing|sightseeing]]",
+            "[[We eat local food in the evening.|We eat local food in the evening.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1614,10 +1614,10 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[relax|]] is here.",
+          "question": "The [[relax|relax]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[relax|]]"
+            "[[o1|opción 1]]",
+            "[[relax|relax]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1639,10 +1639,10 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[photos|]] is here.",
+          "question": "The [[photos|photos]] is here.",
           "options": [
-            "[[photos|]]",
-            "[[o1|]]"
+            "[[photos|photos]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

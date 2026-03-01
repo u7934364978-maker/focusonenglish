@@ -9,15 +9,15 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Qué haces primero al despertar?",
       "questions": [
         {
           "question": "¿Qué haces primero al despertar?",
           "options": [
-            "[[I wake up|]]",
-            "[[I go to work|]]",
-            "[[I have dinner|]]"
+            "[[I wake up|I wake up]]",
+            "[[I go to work|I go to work]]",
+            "[[I have dinner|I have dinner]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -34,46 +34,46 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une las acciones de la mañana:",
       "questions": [
         {
           "question": "Get up",
           "options": [
-            "[[Levantarse|]]",
-            "[[Cepillarse los dientes|]]",
-            "[[Ducharse|]]",
-            "[[Desayunar|]]"
+            "[[Levantarse|Levantarse]]",
+            "[[Cepillarse los dientes|Cepillarse los dientes]]",
+            "[[Ducharse|Ducharse]]",
+            "[[Desayunar|Desayunar]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Brush teeth",
           "options": [
-            "[[Levantarse|]]",
-            "[[Desayunar|]]",
-            "[[Cepillarse los dientes|]]",
-            "[[Ducharse|]]"
+            "[[Levantarse|Levantarse]]",
+            "[[Desayunar|Desayunar]]",
+            "[[Cepillarse los dientes|Cepillarse los dientes]]",
+            "[[Ducharse|Ducharse]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Have breakfast",
           "options": [
-            "[[Ducharse|]]",
-            "[[Desayunar|]]",
-            "[[Cepillarse los dientes|]]",
-            "[[Levantarse|]]"
+            "[[Ducharse|Ducharse]]",
+            "[[Desayunar|Desayunar]]",
+            "[[Cepillarse los dientes|Cepillarse los dientes]]",
+            "[[Levantarse|Levantarse]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Take a shower",
           "options": [
-            "[[Desayunar|]]",
-            "[[Levantarse|]]",
-            "[[Ducharse|]]",
-            "[[Cepillarse los dientes|]]"
+            "[[Desayunar|Desayunar]]",
+            "[[Levantarse|Levantarse]]",
+            "[[Ducharse|Ducharse]]",
+            "[[Cepillarse los dientes|Cepillarse los dientes]]"
           ],
           "correctAnswer": 2
         }
@@ -95,8 +95,8 @@ export const UNIT_58_EXERCISES: Exercise[] = [
         {
           "question": "Escribe 'desayunar' en inglés:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -113,15 +113,15 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿A qué hora sueles desayunar?",
       "questions": [
         {
           "question": "¿A qué hora sueles desayunar?",
           "options": [
-            "[[At 8 am|]]",
-            "[[In the evening|]]",
-            "[[At midnight|]]"
+            "[[At 8 am|At 8 am]]",
+            "[[In the evening|In the evening]]",
+            "[[At midnight|At midnight]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -138,16 +138,16 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa: 'Yo VOY al trabajo a las 9 am'",
       "questions": [
         {
           "question": "I ________ to work at 9 am.",
           "options": [
-            "[[o1|]]",
-            "[[Have dinner|]]",
-            "[[o1|]]",
-            "[[go|]]"
+            "[[o1|opción 1]]",
+            "[[Have dinner|Have dinner]]",
+            "[[o1|opción 1]]",
+            "[[go|ir]]"
           ],
           "correctAnswer": 3
         }
@@ -168,7 +168,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
         {
           "question": "We have lunch at 1 pm",
           "options": [
-            "[[correct|]]"
+            "[[correct|correcto]]"
           ],
           "correctAnswer": 0
         }
@@ -183,16 +183,16 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa: 'Ellos LLEGAN a casa tarde'",
       "questions": [
         {
           "question": "They ________ home late.",
           "options": [
-            "[[o1|]]",
-            "[[o1|]]",
-            "[[get|]]",
-            "[[Ver la tele|]]"
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]",
+            "[[get|get]]",
+            "[[Ver la tele|Ver la tele]]"
           ],
           "correctAnswer": 2
         }
@@ -214,8 +214,8 @@ export const UNIT_58_EXERCISES: Exercise[] = [
         {
           "question": "Escucha la rutina:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -231,46 +231,46 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
-      "title": "Matching",
+      "title": "[[Matching|Relacionar]]",
       "instructions": "Une las acciones de la tarde/noche:",
       "questions": [
         {
           "question": "Get home",
           "options": [
-            "[[Irse a la cama|]]",
-            "[[Llegar a casa|]]",
-            "[[Cenar|]]",
-            "[[Ver la tele|]]"
+            "[[Irse a la cama|Irse a la cama]]",
+            "[[Llegar a casa|Llegar a casa]]",
+            "[[Cenar|Cenar]]",
+            "[[Ver la tele|Ver la tele]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Have dinner",
           "options": [
-            "[[Cenar|]]",
-            "[[Llegar a casa|]]",
-            "[[Irse a la cama|]]",
-            "[[Ver la tele|]]"
+            "[[Cenar|Cenar]]",
+            "[[Llegar a casa|Llegar a casa]]",
+            "[[Irse a la cama|Irse a la cama]]",
+            "[[Ver la tele|Ver la tele]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Watch TV",
           "options": [
-            "[[Ver la tele|]]",
-            "[[Irse a la cama|]]",
-            "[[Llegar a casa|]]",
-            "[[Cenar|]]"
+            "[[Ver la tele|Ver la tele]]",
+            "[[Irse a la cama|Irse a la cama]]",
+            "[[Llegar a casa|Llegar a casa]]",
+            "[[Cenar|Cenar]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Go to bed",
           "options": [
-            "[[Irse a la cama|]]",
-            "[[Cenar|]]",
-            "[[Llegar a casa|]]",
-            "[[Ver la tele|]]"
+            "[[Irse a la cama|Irse a la cama]]",
+            "[[Cenar|Cenar]]",
+            "[[Llegar a casa|Llegar a casa]]",
+            "[[Ver la tele|Ver la tele]]"
           ],
           "correctAnswer": 0
         }
@@ -286,15 +286,15 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Qué haces antes de dormir?",
       "questions": [
         {
           "question": "¿Qué haces antes de dormir?",
           "options": [
-            "[[I go to bed|]]",
-            "[[I go to work|]]",
-            "[[I wake up|]]"
+            "[[I go to bed|I go to bed]]",
+            "[[I go to work|I go to work]]",
+            "[[I wake up|I wake up]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -318,8 +318,8 @@ export const UNIT_58_EXERCISES: Exercise[] = [
         {
           "question": "Escribe 'cenar' en inglés:",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -342,8 +342,8 @@ export const UNIT_58_EXERCISES: Exercise[] = [
         {
           "question": "'Get home' significa salir de casa.",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -359,16 +359,16 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "topic": "grammar",
     "difficulty": "medium",
     "content": {
-      "title": "Fill in the blanks",
+      "title": "[[Fill in the blanks|Completa los espacios]]",
       "instructions": "Completa tu rutina:",
       "questions": [
         {
           "question": "I ________ up at 7, I ________ breakfast and then I ________ to school.",
           "options": [
-            "[[o1|]]",
-            "[[o1|]]",
-            "[[wake, have, go|]]",
-            "[[o1|]]"
+            "[[o1|opción 1]]",
+            "[[o1|opción 1]]",
+            "[[wake, have, go|wake, have, go]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 2
         }
@@ -390,8 +390,8 @@ export const UNIT_58_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'Nosotros cenamos a las 8 pm'",
           "options": [
-            "[[Option 1|]]",
-            "[[Option 2|]]"
+            "[[Option 1|Opción 1]]",
+            "[[Option 2|Opción 2]]"
           ],
           "correctAnswer": 0
         }
@@ -408,15 +408,15 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cuál es una actividad de la noche?",
       "questions": [
         {
           "question": "¿Cuál es una actividad de la noche?",
           "options": [
-            "[[Go to bed|]]",
-            "[[Wake up|]]",
-            "[[Start work|]]"
+            "[[Go to bed|Go to bed]]",
+            "[[Wake up|Wake up]]",
+            "[[Start work|Start work]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -440,8 +440,8 @@ export const UNIT_58_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[I wake up at seven.|]]",
-            "[[o1|]]"
+            "[[I wake up at seven.|I wake up at seven.]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -465,8 +465,8 @@ export const UNIT_58_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|]]",
-            "[[I have breakfast in the kitchen.|]]"
+            "[[o1|opción 1]]",
+            "[[I have breakfast in the kitchen.|I have breakfast in the kitchen.]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -490,8 +490,8 @@ export const UNIT_58_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|]]",
-            "[[We go to work by bus.|]]"
+            "[[o1|opción 1]]",
+            "[[We go to work by bus.|We go to work by bus.]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -515,8 +515,8 @@ export const UNIT_58_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Llegar a casa|]]",
-            "[[I finish work at five.|]]"
+            "[[Llegar a casa|Llegar a casa]]",
+            "[[I finish work at five.|I finish work at five.]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -540,8 +540,8 @@ export const UNIT_58_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|]]",
-            "[[They have dinner at eight.|]]"
+            "[[o1|opción 1]]",
+            "[[They have dinner at eight.|They have dinner at eight.]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -565,8 +565,8 @@ export const UNIT_58_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[I finish work at five.|]]",
-            "[[I watch TV in the evening.|]]"
+            "[[I finish work at five.|I finish work at five.]]",
+            "[[I watch TV in the evening.|I watch TV in the evening.]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -590,8 +590,8 @@ export const UNIT_58_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[I go to bed at ten.|]]",
-            "[[medicine|]]"
+            "[[I go to bed at ten.|I go to bed at ten.]]",
+            "[[medicine|medicine]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -737,15 +737,15 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'headache' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'headache' en inglés?",
           "options": [
-            "[[Headache|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Headache|Headache]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -763,15 +763,15 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'cold' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'cold' en inglés?",
           "options": [
-            "[[Cold|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Cold|Frío]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -789,15 +789,15 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'doctor' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'doctor' en inglés?",
           "options": [
-            "[[Doctor|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Doctor|Doctor]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -815,15 +815,15 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'medicine' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'medicine' en inglés?",
           "options": [
-            "[[Medicine|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Medicine|Medicine]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -841,15 +841,15 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'sore throat' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'sore throat' en inglés?",
           "options": [
-            "[[Sore throat|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Sore throat|Sore throat]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -867,15 +867,15 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'fever' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'fever' en inglés?",
           "options": [
-            "[[Fever|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Fever|Fever]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -893,15 +893,15 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'better' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'better' en inglés?",
           "options": [
-            "[[Better|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Better|Mejor]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -919,15 +919,15 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'headache' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'headache' en inglés?",
           "options": [
-            "[[Headache|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Headache|Headache]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -945,15 +945,15 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'cold' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'cold' en inglés?",
           "options": [
-            "[[Cold|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Cold|Frío]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -971,15 +971,15 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'doctor' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'doctor' en inglés?",
           "options": [
-            "[[Doctor|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Doctor|Doctor]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -997,15 +997,15 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'medicine' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'medicine' en inglés?",
           "options": [
-            "[[Medicine|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Medicine|Medicine]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1023,15 +1023,15 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'sore throat' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'sore throat' en inglés?",
           "options": [
-            "[[Sore throat|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Sore throat|Sore throat]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1049,15 +1049,15 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'fever' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'fever' en inglés?",
           "options": [
-            "[[Fever|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Fever|Fever]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1075,15 +1075,15 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'better' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'better' en inglés?",
           "options": [
-            "[[Better|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Better|Mejor]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1101,15 +1101,15 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'headache' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'headache' en inglés?",
           "options": [
-            "[[Headache|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Headache|Headache]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1127,15 +1127,15 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'cold' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'cold' en inglés?",
           "options": [
-            "[[Cold|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Cold|Frío]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1153,15 +1153,15 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'doctor' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'doctor' en inglés?",
           "options": [
-            "[[Doctor|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Doctor|Doctor]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1179,15 +1179,15 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'medicine' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'medicine' en inglés?",
           "options": [
-            "[[Medicine|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Medicine|Medicine]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1205,15 +1205,15 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'sore throat' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'sore throat' en inglés?",
           "options": [
-            "[[Sore throat|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Sore throat|Sore throat]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1231,15 +1231,15 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'fever' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'fever' en inglés?",
           "options": [
-            "[[Fever|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Fever|Fever]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1257,15 +1257,15 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'better' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'better' en inglés?",
           "options": [
-            "[[Better|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Better|Mejor]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1283,15 +1283,15 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'headache' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'headache' en inglés?",
           "options": [
-            "[[Headache|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Headache|Headache]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1309,15 +1309,15 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'cold' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'cold' en inglés?",
           "options": [
-            "[[Cold|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Cold|Frío]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1335,15 +1335,15 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'doctor' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'doctor' en inglés?",
           "options": [
-            "[[Doctor|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Doctor|Doctor]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1361,15 +1361,15 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'medicine' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'medicine' en inglés?",
           "options": [
-            "[[Medicine|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Medicine|Medicine]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1387,15 +1387,15 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'sore throat' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'sore throat' en inglés?",
           "options": [
-            "[[Sore throat|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Sore throat|Sore throat]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1413,15 +1413,15 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'fever' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'fever' en inglés?",
           "options": [
-            "[[Fever|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Fever|Fever]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1439,15 +1439,15 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'better' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'better' en inglés?",
           "options": [
-            "[[Better|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Better|Mejor]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1465,15 +1465,15 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'headache' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'headache' en inglés?",
           "options": [
-            "[[Headache|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Headache|Headache]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1491,15 +1491,15 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "Multiple Choice",
+      "title": "[[Multiple Choice|Opción múltiple]]",
       "instructions": "¿Cómo se dice 'cold' en inglés?",
       "questions": [
         {
           "question": "¿Cómo se dice 'cold' en inglés?",
           "options": [
-            "[[Cold|]]",
-            "[[Wrong word|]]",
-            "[[Other word|]]"
+            "[[Cold|Frío]]",
+            "[[Wrong word|Palabra incorrecta]]",
+            "[[Other word|Otra palabra]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1521,10 +1521,10 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[headache|]] is here.",
+          "question": "The [[headache|headache]] is here.",
           "options": [
-            "[[headache|]]",
-            "[[o1|]]"
+            "[[headache|headache]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1546,10 +1546,10 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[cold|]] is here.",
+          "question": "The [[cold|frío]] is here.",
           "options": [
-            "[[Irse a la cama|]]",
-            "[[cold|]]"
+            "[[Irse a la cama|Irse a la cama]]",
+            "[[cold|frío]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1571,10 +1571,10 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[doctor|]] is here.",
+          "question": "The [[doctor|doctor]] is here.",
           "options": [
-            "[[doctor|]]",
-            "[[I watch TV in the evening.|]]"
+            "[[doctor|doctor]]",
+            "[[I watch TV in the evening.|I watch TV in the evening.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1596,10 +1596,10 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[medicine|]] is here.",
+          "question": "The [[medicine|medicine]] is here.",
           "options": [
-            "[[o1|]]",
-            "[[medicine|]]"
+            "[[o1|opción 1]]",
+            "[[medicine|medicine]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1621,10 +1621,10 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[sore throat|]] is here.",
+          "question": "The [[sore throat|sore throat]] is here.",
           "options": [
-            "[[sore throat|]]",
-            "[[doctor|]]"
+            "[[sore throat|sore throat]]",
+            "[[doctor|doctor]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1646,10 +1646,10 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[fever|]] is here.",
+          "question": "The [[fever|fever]] is here.",
           "options": [
-            "[[I have breakfast in the kitchen.|]]",
-            "[[fever|]]"
+            "[[I have breakfast in the kitchen.|I have breakfast in the kitchen.]]",
+            "[[fever|fever]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1671,10 +1671,10 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[better|]] is here.",
+          "question": "The [[better|better]] is here.",
           "options": [
-            "[[better|]]",
-            "[[o1|]]"
+            "[[better|better]]",
+            "[[o1|opción 1]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
