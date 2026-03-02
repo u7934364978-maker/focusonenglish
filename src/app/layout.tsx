@@ -126,19 +126,7 @@ export default function RootLayout({
               }
             });
             
-            // Console protection
-            (function() {
-              const devtools = /./;
-              devtools.toString = function() {
-                this.opened = true;
-              }
-              const checkDevTools = setInterval(function() {
-                if (devtools.opened) {
-                  console.clear();
-                  devtools.opened = false;
-                }
-              }, 1000);
-            })();
+
           `
         }} />
       </head>

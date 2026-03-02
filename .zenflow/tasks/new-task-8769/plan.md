@@ -86,7 +86,8 @@ Ampliar `src/app/robots.ts` para incluir explícitamente las páginas SEO import
 
 ---
 
-### [ ] Step: Fix layout.tsx — Eliminar setInterval Bloqueante
+### [x] Step: Fix layout.tsx — Eliminar setInterval Bloqueante
+<!-- chat-id: 378e2cb2-8e61-414d-a0d1-6e5fd6632b13 -->
 
 Mejorar performance eliminando código problemático en `src/app/layout.tsx`:
 
