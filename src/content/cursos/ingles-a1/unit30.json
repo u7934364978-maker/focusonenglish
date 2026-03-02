@@ -977,262 +977,214 @@
       "content": [
         {
           "interaction_id": "U30_V3_I1",
-          "type": "matching",
-          "prompt_es": "Más lugares del barrio:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "Supermarket",
-              "right": "Supermercado"
-            },
-            {
-              "id": "p2",
-              "left": "Pharmacy",
-              "right": "Farmacia"
-            },
-            {
-              "id": "p3",
-              "left": "Park",
-              "right": "Parque"
-            },
-            {
-              "id": "p4",
-              "left": "Library",
-              "right": "Biblioteca"
-            }
+          "type": "fill_blanks",
+          "prompt_es": "Completa la frase: 'I want to borrow a book. I am going to the ________.'",
+          "stimulus_en": "I want to borrow a book. I am going to the ________.",
+          "correct_answer": "library",
+          "options": [
+            "library",
+            "pharmacy",
+            "supermarket",
+            "cinema"
           ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "neighbourhood"
+          ]
         },
         {
           "interaction_id": "U30_V3_I2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué te pones en los pies?",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la frase: 'My ________ are too small. I need to buy new ones.'",
+          "stimulus_en": "My ________ are too small. I need to buy new ones.",
+          "correct_answer": "shoes",
           "options": [
-            {
-              "id": "o1",
-              "text": "Shoes"
-            },
-            {
-              "id": "o2",
-              "text": "Hat"
-            },
-            {
-              "id": "o3",
-              "text": "Shirt"
-            }
+            "shoes",
+            "gloves",
+            "socks",
+            "boots"
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "clothes"
+          ]
         },
         {
           "interaction_id": "U30_V3_I3",
-          "type": "matching",
-          "prompt_es": "Muebles del salón:",
-          "pairs": [
+          "type": "categorization",
+          "prompt_es": "Clasifica los muebles por habitación:",
+          "categories": [
             {
-              "id": "p1",
-              "left": "Sofa",
-              "right": "Sofá"
+              "id": "c1",
+              "title": "Living Room",
+              "items": [
+                "Sofa",
+                "Television",
+                "Armchair",
+                "Rug"
+              ]
             },
             {
-              "id": "p2",
-              "left": "Television",
-              "right": "Televisión"
-            },
-            {
-              "id": "p3",
-              "left": "Armchair",
-              "right": "Sillón"
-            },
-            {
-              "id": "p4",
-              "left": "Rug",
-              "right": "Alfombra"
+              "id": "c2",
+              "title": "Bedroom",
+              "items": [
+                "Bed",
+                "Wardrobe",
+                "Pillow",
+                "Mirror"
+              ]
             }
           ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary"
+          "correct_answer": "categorization_logic",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "furniture",
+            "rooms"
+          ]
         },
         {
           "interaction_id": "U30_V3_I4",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'espejo'?",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la frase: 'She looks at herself in the ________ every morning.'",
+          "stimulus_en": "She looks at herself in the ________ every morning.",
+          "correct_answer": "mirror",
           "options": [
-            {
-              "id": "o1",
-              "text": "Mirror"
-            },
-            {
-              "id": "o2",
-              "text": "Window"
-            },
-            {
-              "id": "o3",
-              "text": "Door"
-            }
+            "mirror",
+            "window",
+            "door",
+            "wall"
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "furniture"
+          ]
         },
         {
           "interaction_id": "U30_V3_I5",
-          "type": "matching",
-          "prompt_es": "Partes del brazo y la mano:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "Arm",
-              "right": "Brazo"
-            },
-            {
-              "id": "p2",
-              "left": "Hand",
-              "right": "Mano"
-            },
-            {
-              "id": "p3",
-              "left": "Finger",
-              "right": "Dedo"
-            },
-            {
-              "id": "p4",
-              "left": "Shoulder",
-              "right": "Hombro"
-            }
+          "type": "fill_blanks",
+          "prompt_es": "Completa la frase: 'He broke his ________ playing football and now he can't write.'",
+          "stimulus_en": "He broke his ________ playing football and now he can't write.",
+          "correct_answer": "arm",
+          "options": [
+            "arm",
+            "leg",
+            "foot",
+            "neck"
           ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "body_parts"
+          ]
         },
         {
           "interaction_id": "U30_V3_I6",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuál es un animal de granja?",
+          "prompt_es": "¿Qué animal produce leche en una granja?",
           "options": [
             {
               "id": "o1",
-              "text": "Horse"
+              "text": "Cow"
             },
             {
               "id": "o2",
-              "text": "Lion"
+              "text": "Tiger"
             },
             {
               "id": "o3",
-              "text": "Tiger"
+              "text": "Dog"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "animals"
+          ]
         },
         {
           "interaction_id": "U30_V3_I7",
-          "type": "matching",
-          "prompt_es": "Ropa de invierno:",
-          "pairs": [
+          "type": "categorization",
+          "prompt_es": "Clasifica la ropa por temporada:",
+          "categories": [
             {
-              "id": "p1",
-              "left": "Jacket",
-              "right": "Chaqueta"
+              "id": "c1",
+              "title": "Winter",
+              "items": [
+                "Jacket",
+                "Scarf",
+                "Gloves",
+                "Boots"
+              ]
             },
             {
-              "id": "p2",
-              "left": "Scarf",
-              "right": "Bufanda"
-            },
-            {
-              "id": "p3",
-              "left": "Gloves",
-              "right": "Guantes"
-            },
-            {
-              "id": "p4",
-              "left": "Boots",
-              "right": "Botas"
+              "id": "c2",
+              "title": "Summer",
+              "items": [
+                "T-shirt",
+                "Shorts",
+                "Dress",
+                "Sandals"
+              ]
             }
           ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary"
+          "correct_answer": "categorization_logic",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "clothes",
+            "seasons"
+          ]
         },
         {
           "interaction_id": "U30_V3_I8",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cocina'?",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la frase: 'We prepare all our food in the ________.'",
+          "stimulus_en": "We prepare all our food in the ________.",
+          "correct_answer": "kitchen",
           "options": [
-            {
-              "id": "o1",
-              "text": "Kitchen"
-            },
-            {
-              "id": "o2",
-              "text": "Chicken"
-            },
-            {
-              "id": "o3",
-              "text": "Kitten"
-            }
+            "kitchen",
+            "bedroom",
+            "bathroom",
+            "garden"
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "rooms"
+          ]
         },
         {
           "interaction_id": "U30_V3_I9",
-          "type": "matching",
-          "prompt_es": "Más partes del cuerpo:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "Back",
-              "right": "Espalda"
-            },
-            {
-              "id": "p2",
-              "left": "Chest",
-              "right": "Pecho"
-            },
-            {
-              "id": "p3",
-              "left": "Stomach",
-              "right": "Estómago"
-            },
-            {
-              "id": "p4",
-              "left": "Neck",
-              "right": "Cuello"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary"
+          "type": "short_writing",
+          "prompt_es": "Describe tu casa: menciona dos habitaciones y qué hay en ellas. Escribe al menos dos oraciones.",
+          "stimulus_en": "In my ________ there is / there are ________.",
+          "correct_answer": "In my [room] there is/are [furniture/objects]. In my [room] there is/are [furniture/objects].",
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "vocabulary",
+            "rooms",
+            "furniture",
+            "there_is_there_are"
+          ]
         },
         {
           "interaction_id": "U30_V3_I10",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué usas cuando llueve?",
+          "prompt_es": "It is raining outside. What do you put on before going out?",
           "options": [
             {
               "id": "o1",
@@ -1244,11 +1196,17 @@
             },
             {
               "id": "o3",
-              "text": "T-shirt"
+              "text": "Shorts"
             }
           ],
           "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "clothes",
+            "weather"
+          ]
         }
       ]
     },

@@ -83,7 +83,8 @@ All new exercises must include: `mastery_tag: "vocabulary"`, `complexity`, `conc
 
 Verify: JSON parse passes.
 
-### [ ] Step: Replace B30_V3 exercises in unit30.json
+### [x] Step: Replace B30_V3 exercises in unit30.json
+<!-- chat-id: c704d6b1-8cd6-4c87-a23f-255de327c1d7 -->
 
 File: `src/content/cursos/ingles-a1/unit30.json`
 
