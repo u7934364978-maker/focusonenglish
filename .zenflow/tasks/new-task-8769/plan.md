@@ -75,7 +75,8 @@ Reducir canibalización entre artículos de apps para aprender inglés:
 
 ---
 
-### [ ] Step: Fix robots.ts — Añadir Allows Explícitos
+### [x] Step: Fix robots.ts — Añadir Allows Explícitos
+<!-- chat-id: 428b2e95-6395-4e61-a5f3-80f0efea2184 -->
 
 Ampliar `src/app/robots.ts` para incluir explícitamente las páginas SEO importantes:
 

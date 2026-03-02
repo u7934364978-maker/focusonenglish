@@ -7,7 +7,18 @@ export default function robots(): MetadataRoute.Robots {
     rules: [
       {
         userAgent: "*",
-        allow: ["/", "/blog/"],
+        allow: [
+          "/",
+          "/blog/",
+          "/aprender-ingles",
+          "/aplicaciones-para-aprender-ingles",
+          "/certificaciones-ingles-oficiales",
+          "/frases-en-ingles/",
+          "/planes",
+          "/test-nivel",
+          "/contacto",
+          "/herramientas/",
+        ],
         disallow: [
           "/cuenta/",
           "/dashboard/",
