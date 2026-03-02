@@ -12,9 +12,9 @@ keywords:
   - duolingo vs babbel
   - focus english app
   - app para aprender ingles adultos
-date: '2026-02-07'
+date: '2026-03-02'
 category: metodos
-author: Focus English
+author: Sara Méndez
 image: 'https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg'
 canonical: 'https://www.focus-on-english.com/blog/metodos/mejor-app-aprender-ingles'
 ---

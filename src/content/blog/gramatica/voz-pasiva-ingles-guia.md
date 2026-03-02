@@ -19,9 +19,9 @@ keywords:
   - practicar gramatica ingles
   - causative have get
   - impersonal passive english
-date: '2026-02-06'
+date: '2026-03-02'
 category: gramatica
-author: Focus English
+author: David Torres
 image: 'https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg'
 ---
 

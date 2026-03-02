@@ -16,8 +16,8 @@ keywords:
   - gramatica b2 c1
   - backshift ingles
   - reporting verbs list
-author: Equipo Focus English
-date: '2026-02-06'
+author: David Torres
+date: '2026-03-02'
 image: 'https://images.pexels.com/photos/301920/pexels-photo-301920.jpeg'
 category: gramatica
 canonical: 'https://www.focus-on-english.com/blog/gramatica/reported-speech-guia-uso'

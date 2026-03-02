@@ -1,7 +1,7 @@
 ---
 category: examenes
-date: '2026-02-07'
-author: Focus English
+date: '2026-03-02'
+author: David Torres
 title: 'Precios Exámenes Cambridge 2026: Tasas, Gastos Extra y Comparativa'
 description: >-
   Consulta los precios actualizados de los exámenes Cambridge para 2026. Tasas

@@ -14,9 +14,9 @@ keywords:
   - mejor inversion aprender ingles
   - focus english vs apps gratis
   - focus-english-vs-apps-gratis
-date: '2026-02-07'
+date: '2026-03-02'
 category: metodos
-author: Focus English
+author: Sara Méndez
 image: 'https://images.pexels.com/photos/4050315/pexels-photo-4050315.jpeg'
 canonical: 'https://www.focus-on-english.com/blog/metodos/apps-ingles-gratuitas-vs-pago'
 ---

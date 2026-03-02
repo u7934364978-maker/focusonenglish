@@ -1,7 +1,7 @@
 ---
 category: gramatica
-date: '2026-02-08'
-author: Focus English
+date: '2026-03-02'
+author: David Torres
 title: 'Guia Maestra de Reported Speech y Reporting Verbs: De B2 a C2'
 description: >-
   Domina el Reported Speech y los Reporting Verbs con nuestra guía completa para

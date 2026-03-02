@@ -13,8 +13,8 @@ keywords:
   - have something done grammar
   - it is said that passive
   - gramatica c1 advanced
-author: Equipo Focus English
-date: '2026-02-06'
+author: David Torres
+date: '2026-03-02'
 image: 'https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg'
 category: gramatica
 ---
