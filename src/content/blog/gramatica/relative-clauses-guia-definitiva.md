@@ -12,8 +12,8 @@ keywords:
   - relative pronouns english
   - uso de who whom whose
   - gramatica b2 c1
-author: Equipo Focus English
-date: '2026-02-06'
+author: David Torres
+date: '2026-03-02'
 image: 'https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg'
 category: gramatica
 ---

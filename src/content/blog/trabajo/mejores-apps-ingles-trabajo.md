@@ -17,9 +17,9 @@ keywords:
   - herramientas ingles corporativo
   - estudiar ingles oficina
   - mejor app ingles negocios
-date: '2026-02-04'
+date: '2026-03-02'
 category: trabajo
-author: Focus English
+author: Sara Méndez
 image: 'https://images.pexels.com/photos/3184328/pexels-photo-3184328.jpeg'
 canonical: 'https://www.focus-on-english.com/blog/trabajo/mejores-apps-ingles-trabajo'
 ---

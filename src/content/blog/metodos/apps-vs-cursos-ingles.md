@@ -15,9 +15,9 @@ keywords:
   - aplicaciones para aprender ingles efectivas
   - estudiar ingles por tu cuenta
   - academia ingles online vs app
-date: '2026-02-07'
+date: '2026-03-02'
 category: metodos
-author: Focus English
+author: Sara Méndez
 image: 'https://images.pexels.com/photos/5905709/pexels-photo-5905709.jpeg'
 canonical: 'https://www.focus-on-english.com/blog/metodos/apps-vs-cursos-ingles'
 ---

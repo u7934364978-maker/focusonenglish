@@ -1,7 +1,7 @@
 ---
 category: gramatica
-date: '2026-02-08'
-author: Focus English
+date: '2026-03-02'
+author: David Torres
 title: 'Passive Reporting Verbs: Estructuras Avanzadas (C1-C2)'
 description: >-
   Guía detallada sobre la voz pasiva con verbos de reporte. Aprende estructuras

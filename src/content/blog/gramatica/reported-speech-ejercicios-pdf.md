@@ -1,7 +1,7 @@
 ---
 category: gramatica
-date: '2026-02-08'
-author: Focus English
+date: '2026-03-02'
+author: David Torres
 title: 'Reported Speech Ejercicios PDF: Practica y Descarga'
 description: >-
   Descarga los mejores ejercicios de Reported Speech en PDF. Hojas de trabajo

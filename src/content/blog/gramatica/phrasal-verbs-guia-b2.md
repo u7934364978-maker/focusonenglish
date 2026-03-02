@@ -15,8 +15,8 @@ keywords:
   - gramatica b2
   - ejercicios de verbos en ingles
   - aprender vocabulario ingles
-author: Equipo Focus English
-date: '2026-02-06'
+author: David Torres
+date: '2026-03-02'
 image: 'https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg'
 category: gramatica
 ---

@@ -14,8 +14,8 @@ keywords:
   - across vs through
   - ejercicios de gramatica en ingles
   - aprender vocabulario ingles
-author: Equipo Focus English
-date: '2026-02-06'
+author: David Torres
+date: '2026-03-02'
 image: 'https://images.pexels.com/photos/157811/pexels-photo-157811.jpeg'
 category: gramatica
 ---

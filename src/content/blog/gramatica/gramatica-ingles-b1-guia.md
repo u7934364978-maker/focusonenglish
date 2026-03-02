@@ -1,7 +1,7 @@
 ---
 category: gramatica
-date: '2026-02-07'
-author: Focus English
+date: '2026-03-02'
+author: David Torres
 title: 'Gramática Inglés B1: Guía Completa de Temas, Reglas y Ejercicios'
 description: >-
   Domina la gramática del nivel B1 de inglés. Tiempos verbales, condicionales,

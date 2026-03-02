@@ -1,7 +1,7 @@
 ---
 category: gramatica
-date: '2026-02-08'
-author: Focus English
+date: '2026-03-02'
+author: David Torres
 title: 'Reported Speech: Preguntas, Órdenes y Peticiones'
 description: >-
   Guía completa sobre cómo reportar preguntas (interrogativas) y órdenes

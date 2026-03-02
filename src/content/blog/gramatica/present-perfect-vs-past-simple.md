@@ -16,9 +16,9 @@ keywords:
   - gramatica inglesa
   - ejercicios gramatica ingles
   - clases de gramatica en ingles gratis
-date: '2026-02-06'
+date: '2026-03-02'
 category: gramatica
-author: Focus English
+author: David Torres
 image: 'https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg'
 faqs:
   - question: ¿Cuál es la diferencia principal entre Present Perfect y Past Simple?
