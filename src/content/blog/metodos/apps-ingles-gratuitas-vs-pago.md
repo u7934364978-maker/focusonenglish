@@ -14,7 +14,6 @@ keywords:
   - mejor inversion aprender ingles
   - focus english vs apps gratis
   - focus-english-vs-apps-gratis
-  - mejor metodo ingles
 date: '2026-02-07'
 category: metodos
 author: Focus English

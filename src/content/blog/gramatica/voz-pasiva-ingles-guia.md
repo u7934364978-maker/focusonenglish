@@ -20,7 +20,7 @@ keywords:
   - causative have get
   - impersonal passive english
 date: '2026-02-06'
-category: metodos
+category: gramatica
 author: Focus English
 image: 'https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg'
 ---

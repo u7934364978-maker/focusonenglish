@@ -14,12 +14,7 @@ keywords:
   - mejor metodo ingles
   - aplicaciones para aprender ingles efectivas
   - estudiar ingles por tu cuenta
-  - apps para aprender ingles gratis
-  - aplicaciones ingles de pago
-  - duolingo gratis vs premium
-  - mejor inversion aprender ingles
-  - focus english vs apps gratis
-  - academia de ingles vs online
+  - academia ingles online vs app
 date: '2026-02-07'
 category: metodos
 author: Focus English
