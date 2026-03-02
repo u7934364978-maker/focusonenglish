@@ -98,7 +98,8 @@ Mejorar performance eliminando código problemático en `src/app/layout.tsx`:
 
 ---
 
-### [ ] Step: Reporte Final
+### [x] Step: Reporte Final
+<!-- chat-id: 972bd4d0-2287-437a-b9ee-b0035b03399d -->
 
 Escribir `{@artifacts_path}/report.md` con:
 - Resumen de todos los cambios realizados
