@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
+const path = require('path');
 const nextConfig = {
   compress: true,
+  output: 'standalone',
+  outputFileTracingRoot: path.join(__dirname, '../../'),
   // Vercel deployment - native Next.js support
   typescript: {
     ignoreBuildErrors: true,
