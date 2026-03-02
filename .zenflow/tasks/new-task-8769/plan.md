@@ -30,7 +30,8 @@ Full spec saved to `.zenflow/tasks/new-task-8769/spec.md`.
 
 ---
 
-### [ ] Step: Fix Category Frontmatter en carpeta gramatica (CRÍTICO)
+### [x] Step: Fix Category Frontmatter en carpeta gramatica (CRÍTICO)
+<!-- chat-id: ac8b520d-2324-463f-a819-89c747ea9f18 -->
 
 Corregir los 15 archivos `.md` en `src/content/blog/gramatica/` que tienen `category: metodos` incorrecto.
 

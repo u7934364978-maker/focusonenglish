@@ -1,5 +1,5 @@
 ---
-category: metodos
+category: gramatica
 date: '2026-02-08'
 author: Focus English
 title: 'Passive Reporting Verbs: Estructuras Avanzadas (C1-C2)'
