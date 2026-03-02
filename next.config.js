@@ -2,8 +2,6 @@
 const path = require('path');
 const nextConfig = {
   compress: true,
-  output: 'standalone',
-  outputFileTracingRoot: process.env.VERCEL ? path.join(__dirname) : undefined,
   // Vercel deployment - native Next.js support
   typescript: {
     ignoreBuildErrors: true,
