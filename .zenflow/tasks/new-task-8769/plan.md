@@ -1,7 +1,7 @@
 # Spec and build
 
 ## Configuration
-- **Artifacts Path**: {@artifacts_path} → `.zenflow/tasks/{task_id}`
+- **Artifacts Path**: `.zenflow/tasks/new-task-8769`
 
 ---
 
@@ -20,50 +20,85 @@ If you are blocked and need user clarification, mark the current step with `[!]`
 
 ## Workflow Steps
 
-### [ ] Step: Technical Specification
+### [x] Step: Technical Specification
 
-Assess the task's difficulty, as underestimating it leads to poor outcomes.
-- easy: Straightforward implementation, trivial bug fix or feature
-- medium: Moderate complexity, some edge cases or caveats to consider
-- hard: Complex logic, many caveats, architectural considerations, or high-risk changes
+Full spec saved to `.zenflow/tasks/new-task-8769/spec.md`.
 
-Create a technical specification for the task that is appropriate for the complexity level:
-- Review the existing codebase architecture and identify reusable components.
-- Define the implementation approach based on established patterns in the project.
-- Identify all source code files that will be created or modified.
-- Define any necessary data model, API, or interface changes.
-- Describe verification steps using the project's test and lint commands.
+**Root cause identified**: 15 artículos en `src/content/blog/gramatica/` tienen `category: metodos` en el frontmatter. El sistema genera URLs en `/blog/metodos/[slug]` pero las canonicals apuntan a `/blog/gramatica/[slug]` (404). Google desindexó todos esos artículos.
 
-Save the output to `{@artifacts_path}/spec.md` with:
-- Technical context (language, dependencies)
-- Implementation approach
-- Source code structure changes
-- Data model / API / interface changes
-- Verification approach
-
-If the task is complex enough, create a detailed implementation plan based on `{@artifacts_path}/spec.md`:
-- Break down the work into concrete tasks (incrementable, testable milestones)
-- Each task should reference relevant contracts and include verification steps
-- Replace the Implementation step below with the planned tasks
-
-Rule of thumb for step size: each step should represent a coherent unit of work (e.g., implement a component, add an API endpoint, write tests for a module). Avoid steps that are too granular (single function).
-
-Important: unit tests must be part of each implementation task, not separate tasks. Each task should implement the code and its tests together, if relevant.
-
-Save to `{@artifacts_path}/plan.md`. If the feature is trivial and doesn't warrant this breakdown, keep the Implementation step below as is.
+**Complejidad**: Hard (múltiples causas combinadas: canonical→404, canibalización, performance)
 
 ---
 
-### [ ] Step: Implementation
+### [ ] Step: Fix Category Frontmatter en carpeta gramatica (CRÍTICO)
 
-Implement the task according to the technical specification and general engineering best practices.
+Corregir los 15 archivos `.md` en `src/content/blog/gramatica/` que tienen `category: metodos` incorrecto.
 
-1. Break the task into steps where possible.
-2. Implement the required changes in the codebase
-3. If relevant, write unit tests alongside each change.
-4. Run relevant tests and linters in the end of each step.
-5. Perform basic manual verification if applicable.
-6. After completion, write a report to `{@artifacts_path}/report.md` describing:
-   - What was implemented
-   - How the solution was tested
-   - The biggest issues or challenges encountered
+- Cambiar `category: metodos` → `category: gramatica` en todos los archivos de la carpeta `gramatica/`
+- Archivos afectados:
+  - `condicionales-ingles-guia-completa.md`
+  - `gramatica-ingles-b1-guia.md`
+  - `guia-maestra-reported-speech.md`
+  - `passive-reporting-verbs-guia-avanzada.md`
+  - `phrasal-verbs-guia-b2.md`
+  - `preposiciones-movimiento-ingles.md`
+  - `present-perfect-vs-past-simple.md`
+  - `relative-clauses-guia-definitiva.md`
+  - `reported-speech-ejercicios-pdf.md`
+  - `reported-speech-guia-uso.md`
+  - `reported-speech-questions-commands.md`
+  - `reporting-verbs-patterns-list.md`
+  - `verbos-modales-ingles-guia.md`
+  - `voz-pasiva-avanzada-guia.md`
+  - `voz-pasiva-ingles-guia.md`
+- Verificar que las canonicals en frontmatter ya apunten a `/blog/gramatica/[slug]` (correcto tras el fix)
+- Run: `npm run build` para confirmar que las rutas `/blog/gramatica/[slug]` se generan
+- Run: `npm run lint`
+
+---
+
+### [ ] Step: Fix Canibalización de Keywords — Apps
+
+Reducir canibalización entre artículos de apps para aprender inglés:
+
+- `src/content/blog/metodos/apps-ingles-gratuitas-vs-pago.md`:
+  - Eliminar keywords duplicadas con `apps-vs-cursos-ingles.md`
+  - Dejar solo keywords de intención "gratis vs pago": `apps para aprender ingles gratis`, `duolingo gratis vs premium`
+- `src/content/blog/metodos/apps-vs-cursos-ingles.md`:
+  - Eliminar keywords duplicadas
+  - Dejar solo keywords de intención "academia vs app": `academia ingles online vs app`, `aprender ingles C1`, `mejor metodo ingles`
+  - Añadir `canonical` explícito si no tiene
+- Verificar que `mejor-app-aprender-ingles.md` sea el artículo más fuerte con las keywords principales
+- Run: `npm run lint`
+
+---
+
+### [ ] Step: Fix robots.ts — Añadir Allows Explícitos
+
+Ampliar `src/app/robots.ts` para incluir explícitamente las páginas SEO importantes:
+
+- Añadir al array `allow`: `/aprender-ingles`, `/aplicaciones-para-aprender-ingles`, `/certificaciones-ingles-oficiales`, `/frases-en-ingles/`, `/planes`, `/test-nivel`, `/contacto`, `/herramientas/`
+- Verificar que el robots.txt generado en producción no bloquee ninguna página indexable
+- Run: `npm run build` y verificar `/robots.txt`
+
+---
+
+### [ ] Step: Fix layout.tsx — Eliminar setInterval Bloqueante
+
+Mejorar performance eliminando código problemático en `src/app/layout.tsx`:
+
+- Eliminar el bloque `setInterval` con `checkDevTools` (ejecuta `console.clear()` cada 1 segundo)
+- Mantener las otras protecciones básicas si el cliente lo requiere (contextmenu, atajos de teclado)
+- Verificar que la página sigue funcionando correctamente
+- Run: `npm run build` y `npm run lint`
+
+---
+
+### [ ] Step: Reporte Final
+
+Escribir `{@artifacts_path}/report.md` con:
+- Resumen de todos los cambios realizados
+- Diagnóstico de causa raíz confirmado
+- Cambios en código con referencias a archivos
+- Pasos de verificación completados
+- Próximos pasos recomendados (resubmit sitemap en GSC, monitoreo 4-8 semanas)
