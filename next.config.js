@@ -1,5 +1,4 @@
 /** @type {import('next').NextConfig} */
-const path = require('path');
 const nextConfig = {
   compress: true,
   // Vercel deployment - native Next.js support
@@ -521,16 +520,6 @@ const nextConfig = {
   },
   // Paquetes externos que deben ejecutarse en el servidor
   serverExternalPackages: ['@google-cloud/text-to-speech', 'elevenlabs-node', 'resend'],
-  // Webpack options to exclude styled-jsx
-  webpack: (config, { isServer }) => {
-    // Alias para excluir styled-jsx del bundle
-    config.resolve.alias = {
-      ...config.resolve.alias,
-      'styled-jsx': false,
-      'styled-jsx/style': false,
-    };
-    return config;
-  },
 }
 
 module.exports = nextConfig
