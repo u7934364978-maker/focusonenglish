@@ -149,7 +149,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "[[How do you say 'shirt'?|¿Cómo se dice 'camisa'?]]",
           "options": [
-            "[[Shirt|Camisa]]",
+            "[[Camisa|Camisa]]",
             "[[Zapatos|Zapatos]]",
             "[[Falda|Falda]]"
           ],
