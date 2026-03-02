@@ -151,26 +151,7 @@ const nextConfig = {
         destination: '/blog/trabajo/ingles-para-ingenieros',
         statusCode: 301,
       },
-      {
-        source: '/blog/gramatica',
-        destination: '/blog/metodos',
-        statusCode: 301,
-      },
-      {
-        source: '/blog/gramatica/:slug*',
-        destination: '/blog/metodos/:slug*',
-        statusCode: 301,
-      },
-      {
-        source: '/blog/Gramatica/:slug*',
-        destination: '/blog/metodos/:slug*',
-        statusCode: 301,
-      },
-      {
-        source: '/blog/Gramática/:slug*',
-        destination: '/blog/metodos/:slug*',
-        statusCode: 301,
-      },
+
       {
         source: '/blog/vocabulario',
         destination: '/blog/metodos',
