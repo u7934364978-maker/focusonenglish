@@ -490,9 +490,9 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "This [[bed|cama]] is [[mine|________]].",
           "options": [
-            "[[mine|mine]]",
+            "[[mine|mío]]",
             "[[Falda|Falda]]",
-            "[[o1|opción 1]]",
+            "[[yours|tuyo]]",
             "[[Cabeza|Cabeza]]"
           ],
           "correctAnswer": 0
