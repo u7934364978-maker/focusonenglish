@@ -3,53 +3,33 @@ import { Exercise } from '@/lib/exercise-generator';
 export const UNIT_30_EXERCISES: Exercise[] = [
   {
     "id": "a1-u30-u30_v1_i1",
-    "type": "multiple-choice",
+    "type": "matching",
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
       "title": "[[Matching|Relacionar]]",
       "instructions": "[[Match the rooms with their translation|Une las habitaciones con su traducción]]:",
-      "questions": [
+      "pairs": [
         {
-          "question": "[[Kitchen|Cocina]]",
-          "options": [
-            "[[Baño|Baño]]",
-            "[[Salón|Salón]]",
-            "[[Dormitorio|Dormitorio]]",
-            "[[Cocina|Cocina]]"
-          ],
-          "correctAnswer": 3
+          "id": "p1",
+          "left": "[[Kitchen|Cocina]]",
+          "right": "Cocina"
         },
         {
-          "question": "[[Living room|Salón]]",
-          "options": [
-            "[[Baño|Baño]]",
-            "[[Salón|Salón]]",
-            "[[Dormitorio|Dormitorio]]",
-            "[[Cocina|Cocina]]"
-          ],
-          "correctAnswer": 1
+          "id": "p2",
+          "left": "[[Living room|Salón]]",
+          "right": "Salón"
         },
         {
-          "question": "[[Bedroom|Dormitorio]]",
-          "options": [
-            "[[Dormitorio|Dormitorio]]",
-            "[[Cocina|Cocina]]",
-            "[[Salón|Salón]]",
-            "[[Baño|Baño]]"
-          ],
-          "correctAnswer": 0
+          "id": "p3",
+          "left": "[[Bedroom|Dormitorio]]",
+          "right": "Dormitorio"
         },
         {
-          "question": "[[Bathroom|Baño]]",
-          "options": [
-            "[[Dormitorio|Dormitorio]]",
-            "[[Cocina|Cocina]]",
-            "[[Salón|Salón]]",
-            "[[Baño|Baño]]"
-          ],
-          "correctAnswer": 3
+          "id": "p4",
+          "left": "[[Bathroom|Baño]]",
+          "right": "Baño"
         }
       ]
     },
@@ -71,7 +51,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
           "options": [
             "[[Wardrobe|Armario]]",
             "[[Garden|Jardín]]",
-            "[[Farmacia|Farmacia]]"
+            "[[Street|Calle]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -83,53 +63,33 @@ export const UNIT_30_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u30-u30_v1_i3",
-    "type": "multiple-choice",
+    "type": "matching",
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
       "title": "[[Matching|Relacionar]]",
       "instructions": "[[Match the parts of the body|Une las partes del cuerpo]]:",
-      "questions": [
+      "pairs": [
         {
-          "question": "[[Head|Cabeza]]",
-          "options": [
-            "[[Cabeza|Cabeza]]",
-            "[[Pierna|Pierna]]",
-            "[[Hombro|Hombro]]",
-            "[[Mano|Mano]]"
-          ],
-          "correctAnswer": 0
+          "id": "p1",
+          "left": "[[Head|Cabeza]]",
+          "right": "Cabeza"
         },
         {
-          "question": "[[Shoulder|Hombro]]",
-          "options": [
-            "[[Hombro|Hombro]]",
-            "[[Mano|Mano]]",
-            "[[Pierna|Pierna]]",
-            "[[Cabeza|Cabeza]]"
-          ],
-          "correctAnswer": 0
+          "id": "p2",
+          "left": "[[Shoulder|Hombro]]",
+          "right": "Hombro"
         },
         {
-          "question": "[[Leg|Pierna]]",
-          "options": [
-            "[[Mano|Mano]]",
-            "[[Cabeza|Cabeza]]",
-            "[[Pierna|Pierna]]",
-            "[[Hombro|Hombro]]"
-          ],
-          "correctAnswer": 2
+          "id": "p3",
+          "left": "[[Leg|Pierna]]",
+          "right": "Pierna"
         },
         {
-          "question": "[[Hand|Mano]]",
-          "options": [
-            "[[Pierna|Pierna]]",
-            "[[Cabeza|Cabeza]]",
-            "[[Hombro|Hombro]]",
-            "[[Mano|Mano]]"
-          ],
-          "correctAnswer": 3
+          "id": "p4",
+          "left": "[[Hand|Mano]]",
+          "right": "Mano"
         }
       ]
     },
@@ -163,53 +123,33 @@ export const UNIT_30_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u30-u30_v1_i5",
-    "type": "multiple-choice",
+    "type": "matching",
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
       "title": "[[Matching|Relacionar]]",
       "instructions": "[[Match the animals with their translation|Une los animales con su traducción]]:",
-      "questions": [
+      "pairs": [
         {
-          "question": "[[Rabbit|Conejo]]",
-          "options": [
-            "[[Conejo|Conejo]]",
-            "[[Pájaro|Pájaro]]",
-            "[[León|León]]",
-            "[[Caballo|Caballo]]"
-          ],
-          "correctAnswer": 0
+          "id": "p1",
+          "left": "[[Rabbit|Conejo]]",
+          "right": "Conejo"
         },
         {
-          "question": "[[Horse|Caballo]]",
-          "options": [
-            "[[Conejo|Conejo]]",
-            "[[Caballo|Caballo]]",
-            "[[Pájaro|Pájaro]]",
-            "[[León|León]]"
-          ],
-          "correctAnswer": 1
+          "id": "p2",
+          "left": "[[Horse|Caballo]]",
+          "right": "Caballo"
         },
         {
-          "question": "[[Lion|León]]",
-          "options": [
-            "[[León|León]]",
-            "[[Caballo|Caballo]]",
-            "[[Conejo|Conejo]]",
-            "[[Pájaro|Pájaro]]"
-          ],
-          "correctAnswer": 0
+          "id": "p3",
+          "left": "[[Lion|León]]",
+          "right": "León"
         },
         {
-          "question": "[[Bird|Pájaro]]",
-          "options": [
-            "[[Conejo|Conejo]]",
-            "[[León|León]]",
-            "[[Pájaro|Pájaro]]",
-            "[[Caballo|Caballo]]"
-          ],
-          "correctAnswer": 2
+          "id": "p4",
+          "left": "[[Bird|Pájaro]]",
+          "right": "Pájaro"
         }
       ]
     },
@@ -217,53 +157,33 @@ export const UNIT_30_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u30-u30_v1_i6",
-    "type": "multiple-choice",
+    "type": "matching",
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
       "title": "[[Matching|Relacionar]]",
       "instructions": "[[Match the clothes with their translation|Une la ropa con su traducción]]:",
-      "questions": [
+      "pairs": [
         {
-          "question": "[[Shoes|Zapatos]]",
-          "options": [
-            "[[Chaqueta|Chaqueta]]",
-            "[[Zapatos|Zapatos]]",
-            "[[Calcetines|Calcetines]]",
-            "[[Falda|Falda]]"
-          ],
-          "correctAnswer": 1
+          "id": "p1",
+          "left": "[[Shoes|Zapatos]]",
+          "right": "Zapatos"
         },
         {
-          "question": "[[Skirt|Falda]]",
-          "options": [
-            "[[Chaqueta|Chaqueta]]",
-            "[[Calcetines|Calcetines]]",
-            "[[Falda|Falda]]",
-            "[[Zapatos|Zapatos]]"
-          ],
-          "correctAnswer": 2
+          "id": "p2",
+          "left": "[[Skirt|Falda]]",
+          "right": "Falda"
         },
         {
-          "question": "[[Jacket|Chaqueta]]",
-          "options": [
-            "[[Falda|Falda]]",
-            "[[Zapatos|Zapatos]]",
-            "[[Calcetines|Calcetines]]",
-            "[[Chaqueta|Chaqueta]]"
-          ],
-          "correctAnswer": 3
+          "id": "p3",
+          "left": "[[Jacket|Chaqueta]]",
+          "right": "Chaqueta"
         },
         {
-          "question": "[[Socks|Calcetines]]",
-          "options": [
-            "[[Calcetines|Calcetines]]",
-            "[[Zapatos|Zapatos]]",
-            "[[Falda|Falda]]",
-            "[[Chaqueta|Chaqueta]]"
-          ],
-          "correctAnswer": 0
+          "id": "p4",
+          "left": "[[Socks|Calcetines]]",
+          "right": "Calcetines"
         }
       ]
     },
@@ -297,53 +217,33 @@ export const UNIT_30_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u30-u30_v1_i8",
-    "type": "multiple-choice",
+    "type": "matching",
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
       "title": "[[Matching|Relacionar]]",
       "instructions": "[[Places in the neighborhood|Lugares del barrio]]:",
-      "questions": [
+      "pairs": [
         {
-          "question": "[[Pharmacy|Farmacia]]",
-          "options": [
-            "[[Cine|Cine]]",
-            "[[Biblioteca|Biblioteca]]",
-            "[[Farmacia|Farmacia]]",
-            "[[Banco|Banco]]"
-          ],
-          "correctAnswer": 2
+          "id": "p1",
+          "left": "[[Pharmacy|Farmacia]]",
+          "right": "Farmacia"
         },
         {
-          "question": "[[Library|Biblioteca]]",
-          "options": [
-            "[[Banco|Banco]]",
-            "[[Farmacia|Farmacia]]",
-            "[[Cine|Cine]]",
-            "[[Biblioteca|Biblioteca]]"
-          ],
-          "correctAnswer": 3
+          "id": "p2",
+          "left": "[[Library|Biblioteca]]",
+          "right": "Biblioteca"
         },
         {
-          "question": "[[Cinema|Cine]]",
-          "options": [
-            "[[Banco|Banco]]",
-            "[[Biblioteca|Biblioteca]]",
-            "[[Cine|Cine]]",
-            "[[Farmacia|Farmacia]]"
-          ],
-          "correctAnswer": 2
+          "id": "p3",
+          "left": "[[Cinema|Cine]]",
+          "right": "Cine"
         },
         {
-          "question": "[[Bank|Banco]]",
-          "options": [
-            "[[Biblioteca|Biblioteca]]",
-            "[[Cine|Cine]]",
-            "[[Banco|Banco]]",
-            "[[Farmacia|Farmacia]]"
-          ],
-          "correctAnswer": 2
+          "id": "p4",
+          "left": "[[Bank|Banco]]",
+          "right": "Banco"
         }
       ]
     },
@@ -377,53 +277,33 @@ export const UNIT_30_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u30-u30_v1_i10",
-    "type": "multiple-choice",
+    "type": "matching",
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
       "title": "[[Matching|Relacionar]]",
       "instructions": "[[House adjectives|Adjetivos de la casa]]:",
-      "questions": [
+      "pairs": [
         {
-          "question": "[[Modern|Moderno]]",
-          "options": [
-            "[[Moderno|Moderno]]",
-            "[[Tradicional|Tradicional]]",
-            "[[Luminoso|Luminoso]]",
-            "[[Acogedor|Acogedor]]"
-          ],
-          "correctAnswer": 0
+          "id": "p1",
+          "left": "[[Modern|Moderno]]",
+          "right": "Moderno"
         },
         {
-          "question": "[[Traditional|Tradicional]]",
-          "options": [
-            "[[Tradicional|Tradicional]]",
-            "[[Acogedor|Acogedor]]",
-            "[[Moderno|Moderno]]",
-            "[[Luminoso|Luminoso]]"
-          ],
-          "correctAnswer": 0
+          "id": "p2",
+          "left": "[[Traditional|Tradicional]]",
+          "right": "Tradicional"
         },
         {
-          "question": "[[Cozy|Acogedor]]",
-          "options": [
-            "[[Acogedor|Acogedor]]",
-            "[[Tradicional|Tradicional]]",
-            "[[Moderno|Moderno]]",
-            "[[Luminoso|Luminoso]]"
-          ],
-          "correctAnswer": 0
+          "id": "p3",
+          "left": "[[Cozy|Acogedor]]",
+          "right": "Acogedor"
         },
         {
-          "question": "[[Bright|Luminoso]]",
-          "options": [
-            "[[Tradicional|Tradicional]]",
-            "[[Acogedor|Acogedor]]",
-            "[[Moderno|Moderno]]",
-            "[[Luminoso|Luminoso]]"
-          ],
-          "correctAnswer": 3
+          "id": "p4",
+          "left": "[[Bright|Luminoso]]",
+          "right": "Luminoso"
         }
       ]
     },
@@ -442,10 +322,10 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "________ [[three|tres]] [[chairs|sillas]] in the [[kitchen|cocina]].",
           "options": [
-            "[[There is a dog in the garden|There is a dog in the garden]]",
-            "[[There are|Hay]]",
-            "[[in front of|in front of]]",
-            "[[Camiseta|Camiseta]]"
+            "[[There is|Hay (sing.)]]",
+            "[[There are|Hay (pl.)]]",
+            "[[There was|Había]]",
+            "[[Is there|¿Hay?]]"
           ],
           "correctAnswer": 1
         }
@@ -466,10 +346,10 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "The [[cat|gato]] is ________ the [[table|mesa]].",
           "options": [
-            "[[some|some]]",
+            "[[on|sobre]]",
             "[[next to|al lado de]]",
-            "[[an|an]]",
-            "[[under|under]]"
+            "[[in front of|delante de]]",
+            "[[under|debajo de]]"
           ],
           "correctAnswer": 3
         }
@@ -491,9 +371,9 @@ export const UNIT_30_EXERCISES: Exercise[] = [
           "question": "This [[bed|cama]] is [[mine|________]].",
           "options": [
             "[[mine|mío]]",
-            "[[Falda|Falda]]",
             "[[yours|tuyo]]",
-            "[[Cabeza|Cabeza]]"
+            "[[his|suyo (de él)]]",
+            "[[hers|suyo (de ella)]]"
           ],
           "correctAnswer": 0
         }
@@ -514,10 +394,10 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "I [[am wearing|llevo puesto]] a [[red|rojo]] [[hat|sombrero]] today.",
           "options": [
-            "[[Falda|Falda]]",
+            "[[wear|llevo]]",
             "[[am wearing|llevo puesto]]",
-            "[[There are|Hay]]",
-            "[[Espalda|Espalda]]"
+            "[[is wearing|lleva puesto]]",
+            "[[are wearing|llevan puesto]]"
           ],
           "correctAnswer": 1
         }
@@ -538,10 +418,10 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "________ [[supermarket|supermercado]] is [[next to|al lado de]] the [[bank|banco]].",
           "options": [
-            "[[León|León]]",
+            "[[A|Un/Una]]",
             "[[The|El/La]]",
-            "[[Salón|Salón]]",
-            "[[Cross|Cruzar]]"
+            "[[An|Un/Una (vocal)]]",
+            "[[Some|Algunos/as]]"
           ],
           "correctAnswer": 1
         }
@@ -562,10 +442,10 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "________ [[any|alguno/a]] [[chair|silla]] in the [[room|habitación]]?",
           "options": [
-            "[[Salón|Salón]]",
-            "[[Mouth|Boca]]",
+            "[[Are there|¿Hay? (plural)]]",
+            "[[There is|Hay]]",
             "[[Is there|¿Hay?]]",
-            "[[o1|opción 1]]"
+            "[[Have there|¿Tiene?]]"
           ],
           "correctAnswer": 2
         }
@@ -586,10 +466,10 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "The [[garden|jardín]] is ________ the [[house|casa]].",
           "options": [
-            "[[Zapatos|Zapatos]]",
-            "[[Salón|Salón]]",
+            "[[next to|al lado de]]",
+            "[[in front of|delante de]]",
             "[[behind|detrás]]",
-            "[[Banco|Banco]]"
+            "[[under|debajo de]]"
           ],
           "correctAnswer": 2
         }
@@ -611,9 +491,9 @@ export const UNIT_30_EXERCISES: Exercise[] = [
           "question": "He ________ [[blue|azul]] [[eyes|ojos]].",
           "options": [
             "[[has|tiene]]",
-            "[[Pierna|Pierna]]",
-            "[[Pierna|Pierna]]",
-            "[[o1|opción 1]]"
+            "[[have|tienen]]",
+            "[[had|tenía]]",
+            "[[is|es]]"
           ],
           "correctAnswer": 0
         }
@@ -659,9 +539,9 @@ export const UNIT_30_EXERCISES: Exercise[] = [
           "question": "________ [[are|son]] my [[shoes|zapatos]].",
           "options": [
             "[[These|Estos/Estas]]",
-            "[[o1|opción 1]]",
-            "[[Brazo|Brazo]]",
-            "[[o1|opción 1]]"
+            "[[This|Este/Esta]]",
+            "[[Those|Aquellos/as]]",
+            "[[That|Aquel/Aquella]]"
           ],
           "correctAnswer": 0
         }
@@ -678,7 +558,15 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena para dar una instrucción:",
-      "sentence": "Turn left at the corner"
+      "correctSentence": "[[Turn|Gira]] [[left|a la izquierda]] [[at|en]] [[the|la]] [[corner|esquina]]",
+      "words": [
+        "[[corner|esquina]]",
+        "[[Turn|Gira]]",
+        "[[the|la]]",
+        "[[at|en]]",
+        "[[left|a la izquierda]]"
+      ],
+      "translation": "Gira a la izquierda en la esquina"
     },
     "topicName": "syntax"
   },
@@ -697,7 +585,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
           "question": "¿Cómo dices 'sigue recto'?",
           "options": [
             "[[Go straight ahead|Sigue recto]]",
-            "[[Turn straight ahead|Gira recto]]",
+            "[[Walk straight ahead|Camina recto]]",
             "[[Go right ahead|Sigue a la derecha]]"
           ],
           "correctAnswer": 0,
@@ -741,7 +629,14 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena la frase:",
-      "sentence": "Go past the supermarket"
+      "correctSentence": "[[Go|Pasa]] [[past|por delante de]] [[the|el]] [[supermarket|supermercado]]",
+      "words": [
+        "[[the|el]]",
+        "[[past|por delante de]]",
+        "[[supermarket|supermercado]]",
+        "[[Go|Pasa]]"
+      ],
+      "translation": "Pasa por delante del supermercado"
     },
     "topicName": "syntax"
   },
@@ -760,8 +655,8 @@ export const UNIT_30_EXERCISES: Exercise[] = [
           "question": "¿Cómo se pregunta '¿Cómo llego al hospital?'?",
           "options": [
             "[[How do I get to the hospital?|¿Cómo llego al hospital?]]",
-            "[[Where is get the hospital?|¿Dónde está el hospital?]]",
-            "[[How get I the hospital?|¿Cómo llego al hospital?]]"
+            "[[Where is the hospital?|¿Dónde está el hospital?]]",
+            "[[How get I the hospital?|¿Cómo llego? (incorrecto)]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -785,8 +680,8 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "Para decir 'gira a la derecha' decimos 'turn right'.",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[True|Verdadero]]",
+            "[[False|Falso]]"
           ],
           "correctAnswer": 0
         }
@@ -804,7 +699,15 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena:",
-      "sentence": "It is on the left"
+      "correctSentence": "[[It|Eso]] [[is|está]] [[on|a]] [[the|la]] [[left|izquierda]]",
+      "words": [
+        "[[the|la]]",
+        "[[It|Eso]]",
+        "[[on|a]]",
+        "[[left|izquierda]]",
+        "[[is|está]]"
+      ],
+      "translation": "Está a la izquierda"
     },
     "topicName": "syntax"
   },
@@ -878,8 +781,8 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "¿Es el salón una de las cinco habitaciones mencionadas?",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[True|Verdadero]]",
+            "[[False|Falso]]"
           ],
           "correctAnswer": 0
         }
@@ -890,53 +793,33 @@ export const UNIT_30_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u30-u30_v2_i1",
-    "type": "multiple-choice",
+    "type": "matching",
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
       "title": "[[Matching|Relacionar]]",
-      "instructions": "Más animales:",
-      "questions": [
+      "instructions": "[[More animals|Más animales]]:",
+      "pairs": [
         {
-          "question": "[[Cow|Vaca]]",
-          "options": [
-            "[[Tigre|Tigre]]",
-            "[[Elefante|Elefante]]",
-            "[[Pez|Pez]]",
-            "[[Vaca|Vaca]]"
-          ],
-          "correctAnswer": 3
+          "id": "p1",
+          "left": "[[Cow|Vaca]]",
+          "right": "Vaca"
         },
         {
-          "question": "[[Elephant|Elefante]]",
-          "options": [
-            "[[Elefante|Elefante]]",
-            "[[Vaca|Vaca]]",
-            "[[Tigre|Tigre]]",
-            "[[Pez|Pez]]"
-          ],
-          "correctAnswer": 0
+          "id": "p2",
+          "left": "[[Elephant|Elefante]]",
+          "right": "Elefante"
         },
         {
-          "question": "[[Tiger|Tigre]]",
-          "options": [
-            "[[Vaca|Vaca]]",
-            "[[Pez|Pez]]",
-            "[[Tigre|Tigre]]",
-            "[[Elefante|Elefante]]"
-          ],
-          "correctAnswer": 2
+          "id": "p3",
+          "left": "[[Tiger|Tigre]]",
+          "right": "Tigre"
         },
         {
-          "question": "[[Fish|Pescado]]",
-          "options": [
-            "[[Tigre|Tigre]]",
-            "[[Pez|Pez]]",
-            "[[Elefante|Elefante]]",
-            "[[Vaca|Vaca]]"
-          ],
-          "correctAnswer": 1
+          "id": "p4",
+          "left": "[[Fish|Pez]]",
+          "right": "Pez"
         }
       ]
     },
@@ -944,53 +827,33 @@ export const UNIT_30_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u30-u30_v2_i2",
-    "type": "multiple-choice",
+    "type": "matching",
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
       "title": "[[Matching|Relacionar]]",
-      "instructions": "Más ropa:",
-      "questions": [
+      "instructions": "[[More clothes|Más ropa]]:",
+      "pairs": [
         {
-          "question": "[[Dress|Vestido]]",
-          "options": [
-            "[[Vestido|Vestido]]",
-            "[[Camiseta|Camiseta]]",
-            "[[Vaqueros|Vaqueros]]",
-            "[[Sombrero|Sombrero]]"
-          ],
-          "correctAnswer": 0
+          "id": "p1",
+          "left": "[[Dress|Vestido]]",
+          "right": "Vestido"
         },
         {
-          "question": "[[T-shirt|Camiseta]]",
-          "options": [
-            "[[Camiseta|Camiseta]]",
-            "[[Vaqueros|Vaqueros]]",
-            "[[Vestido|Vestido]]",
-            "[[Sombrero|Sombrero]]"
-          ],
-          "correctAnswer": 0
+          "id": "p2",
+          "left": "[[T-shirt|Camiseta]]",
+          "right": "Camiseta"
         },
         {
-          "question": "[[Jeans|Vaqueros]]",
-          "options": [
-            "[[Camiseta|Camiseta]]",
-            "[[Sombrero|Sombrero]]",
-            "[[Vestido|Vestido]]",
-            "[[Vaqueros|Vaqueros]]"
-          ],
-          "correctAnswer": 3
+          "id": "p3",
+          "left": "[[Jeans|Vaqueros]]",
+          "right": "Vaqueros"
         },
         {
-          "question": "[[Hat|Sombrero]]",
-          "options": [
-            "[[Vaqueros|Vaqueros]]",
-            "[[Camiseta|Camiseta]]",
-            "[[Sombrero|Sombrero]]",
-            "[[Vestido|Vestido]]"
-          ],
-          "correctAnswer": 2
+          "id": "p4",
+          "left": "[[Hat|Sombrero]]",
+          "right": "Sombrero"
         }
       ]
     },
@@ -998,53 +861,33 @@ export const UNIT_30_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u30-u30_v2_i3",
-    "type": "multiple-choice",
+    "type": "matching",
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
       "title": "[[Matching|Relacionar]]",
-      "instructions": "Partes de la cara:",
-      "questions": [
+      "instructions": "[[Parts of the face|Partes de la cara]]:",
+      "pairs": [
         {
-          "question": "Nose",
-          "options": [
-            "[[Oreja|Oreja]]",
-            "[[Nariz|Nariz]]",
-            "[[Mouth|Boca]]",
-            "[[Cara|Cara]]"
-          ],
-          "correctAnswer": 1
+          "id": "p1",
+          "left": "[[Nose|Nariz]]",
+          "right": "Nariz"
         },
         {
-          "question": "[[Mouth|Boca]]",
-          "options": [
-            "[[Oreja|Oreja]]",
-            "[[Nariz|Nariz]]",
-            "[[Cara|Cara]]",
-            "[[Mouth|Boca]]"
-          ],
-          "correctAnswer": 3
+          "id": "p2",
+          "left": "[[Mouth|Boca]]",
+          "right": "Boca"
         },
         {
-          "question": "Ear",
-          "options": [
-            "[[Nariz|Nariz]]",
-            "[[Oreja|Oreja]]",
-            "[[Mouth|Boca]]",
-            "[[Cara|Cara]]"
-          ],
-          "correctAnswer": 1
+          "id": "p3",
+          "left": "[[Ear|Oreja]]",
+          "right": "Oreja"
         },
         {
-          "question": "Face",
-          "options": [
-            "[[Nariz|Nariz]]",
-            "[[Cara|Cara]]",
-            "[[Oreja|Oreja]]",
-            "[[Mouth|Boca]]"
-          ],
-          "correctAnswer": 1
+          "id": "p4",
+          "left": "[[Face|Cara]]",
+          "right": "Cara"
         }
       ]
     },
@@ -1052,53 +895,33 @@ export const UNIT_30_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u30-u30_v2_i4",
-    "type": "multiple-choice",
+    "type": "matching",
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
       "title": "[[Matching|Relacionar]]",
-      "instructions": "Muebles y más:",
-      "questions": [
+      "instructions": "[[Furniture|Muebles y más]]:",
+      "pairs": [
         {
-          "question": "Shelf",
-          "options": [
-            "[[Espejo|Espejo]]",
-            "[[Sofá|Sofá]]",
-            "[[Lámpara|Lámpara]]",
-            "[[Estante|Estante]]"
-          ],
-          "correctAnswer": 3
+          "id": "p1",
+          "left": "[[Shelf|Estante]]",
+          "right": "Estante"
         },
         {
-          "question": "Lamp",
-          "options": [
-            "[[Sofá|Sofá]]",
-            "[[Espejo|Espejo]]",
-            "[[Estante|Estante]]",
-            "[[Lámpara|Lámpara]]"
-          ],
-          "correctAnswer": 3
+          "id": "p2",
+          "left": "[[Lamp|Lámpara]]",
+          "right": "Lámpara"
         },
         {
-          "question": "Sofa",
-          "options": [
-            "[[Sofá|Sofá]]",
-            "[[Espejo|Espejo]]",
-            "[[Lámpara|Lámpara]]",
-            "[[Estante|Estante]]"
-          ],
-          "correctAnswer": 0
+          "id": "p3",
+          "left": "[[Sofa|Sofá]]",
+          "right": "Sofá"
         },
         {
-          "question": "Mirror",
-          "options": [
-            "[[Lámpara|Lámpara]]",
-            "[[Estante|Estante]]",
-            "[[Espejo|Espejo]]",
-            "[[Sofá|Sofá]]"
-          ],
-          "correctAnswer": 2
+          "id": "p4",
+          "left": "[[Mirror|Espejo]]",
+          "right": "Espejo"
         }
       ]
     },
@@ -1118,7 +941,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'cómodo'?",
           "options": [
-            "[[Comfortable|Comfortable]]",
+            "[[Comfortable|Cómodo]]",
             "[[Quiet|Tranquilo]]",
             "[[Noisy|Ruidoso]]"
           ],
@@ -1132,53 +955,33 @@ export const UNIT_30_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u30-u30_v2_i6",
-    "type": "multiple-choice",
+    "type": "matching",
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
       "title": "[[Matching|Relacionar]]",
-      "instructions": "Lugares:",
-      "questions": [
+      "instructions": "[[Places|Lugares]]:",
+      "pairs": [
         {
-          "question": "[[Hospital|Hospital]]",
-          "options": [
-            "[[Restaurante|Restaurante]]",
-            "[[Park|Parque]]",
-            "[[Hospital|Hospital]]",
-            "[[Escuela|Escuela]]"
-          ],
-          "correctAnswer": 2
+          "id": "p1",
+          "left": "[[Hospital|Hospital]]",
+          "right": "Hospital"
         },
         {
-          "question": "School",
-          "options": [
-            "[[Park|Parque]]",
-            "[[Hospital|Hospital]]",
-            "[[Escuela|Escuela]]",
-            "[[Restaurante|Restaurante]]"
-          ],
-          "correctAnswer": 2
+          "id": "p2",
+          "left": "[[School|Escuela]]",
+          "right": "Escuela"
         },
         {
-          "question": "Restaurant",
-          "options": [
-            "[[Park|Parque]]",
-            "[[Hospital|Hospital]]",
-            "[[Restaurante|Restaurante]]",
-            "[[Escuela|Escuela]]"
-          ],
-          "correctAnswer": 2
+          "id": "p3",
+          "left": "[[Restaurant|Restaurante]]",
+          "right": "Restaurante"
         },
         {
-          "question": "[[Park|Parque]]",
-          "options": [
-            "[[Escuela|Escuela]]",
-            "[[Park|Parque]]",
-            "[[Restaurante|Restaurante]]",
-            "[[Hospital|Hospital]]"
-          ],
-          "correctAnswer": 1
+          "id": "p4",
+          "left": "[[Park|Parque]]",
+          "right": "Parque"
         }
       ]
     },
@@ -1238,53 +1041,33 @@ export const UNIT_30_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u30-u30_v2_i9",
-    "type": "multiple-choice",
+    "type": "matching",
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
       "title": "[[Matching|Relacionar]]",
-      "instructions": "Partes de la pierna y el pie:",
-      "questions": [
+      "instructions": "[[Parts of the leg and foot|Partes de la pierna y el pie]]:",
+      "pairs": [
         {
-          "question": "Knee",
-          "options": [
-            "[[Pie|Pie]]",
-            "[[Dedos del pie|Dedos del pie]]",
-            "[[Rodilla|Rodilla]]",
-            "[[Pierna|Pierna]]"
-          ],
-          "correctAnswer": 2
+          "id": "p1",
+          "left": "[[Knee|Rodilla]]",
+          "right": "Rodilla"
         },
         {
-          "question": "Foot",
-          "options": [
-            "[[Rodilla|Rodilla]]",
-            "[[Pie|Pie]]",
-            "[[Pierna|Pierna]]",
-            "[[Dedos del pie|Dedos del pie]]"
-          ],
-          "correctAnswer": 1
+          "id": "p2",
+          "left": "[[Foot|Pie]]",
+          "right": "Pie"
         },
         {
-          "question": "Toes",
-          "options": [
-            "[[Pie|Pie]]",
-            "[[Rodilla|Rodilla]]",
-            "[[Dedos del pie|Dedos del pie]]",
-            "[[Pierna|Pierna]]"
-          ],
-          "correctAnswer": 2
+          "id": "p3",
+          "left": "[[Toes|Dedos del pie]]",
+          "right": "Dedos del pie"
         },
         {
-          "question": "[[Leg|Pierna]]",
-          "options": [
-            "[[Pierna|Pierna]]",
-            "[[Dedos del pie|Dedos del pie]]",
-            "[[Pie|Pie]]",
-            "[[Rodilla|Rodilla]]"
-          ],
-          "correctAnswer": 0
+          "id": "p4",
+          "left": "[[Leg|Pierna]]",
+          "right": "Pierna"
         }
       ]
     },
@@ -1329,10 +1112,10 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "I [[have|tengo]] ________ [[elephant|elefante]] and [[a|un]] [[dog|perro]].",
           "options": [
-            "[[Luminoso|Luminoso]]",
-            "[[Biblioteca|Biblioteca]]",
-            "[[o1|opción 1]]",
-            "[[an|an]]"
+            "[[a|un]]",
+            "[[the|el]]",
+            "[[some|alguno/a]]",
+            "[[an|un/una]]"
           ],
           "correctAnswer": 3
         }
@@ -1353,10 +1136,10 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "________ [[got|tienes]] [[a|una]] [[new|nueva]] [[house|casa]]?",
           "options": [
-            "[[Have you|Have you]]",
-            "[[Camiseta|Camiseta]]",
-            "[[o1|opción 1]]",
-            "[[Vaca|Vaca]]"
+            "[[Have you|¿Tienes?]]",
+            "[[Do you|¿Haces tú?]]",
+            "[[Are you|¿Eres?]]",
+            "[[Has he|¿Tiene él?]]"
           ],
           "correctAnswer": 0
         }
@@ -1377,10 +1160,10 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "The [[park|parque]] is ________ the [[school|escuela]].",
           "options": [
-            "[[has|tiene]]",
-            "[[Rodilla|Rodilla]]",
-            "[[o1|opción 1]]",
-            "[[in front of|in front of]]"
+            "[[behind|detrás de]]",
+            "[[next to|al lado de]]",
+            "[[under|debajo de]]",
+            "[[in front of|delante de]]"
           ],
           "correctAnswer": 3
         }
@@ -1401,10 +1184,10 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "She ________ [[a|un]] [[green|verde]] [[dress|vestido]].",
           "options": [
-            "[[The|El/La]]",
-            "[[Sombrero|Sombrero]]",
-            "[[Hombro|Hombro]]",
-            "[[is wearing|is wearing]]"
+            "[[wear|lleva]]",
+            "[[are wearing|llevan puesto]]",
+            "[[am wearing|llevo puesto]]",
+            "[[is wearing|lleva puesto]]"
           ],
           "correctAnswer": 3
         }
@@ -1421,7 +1204,14 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena la pregunta:",
-      "sentence": "Is there a cinema here?"
+      "correctSentence": "[[Is there|¿Hay]] [[a|un]] [[cinema|cine]] [[here|aquí]]?",
+      "words": [
+        "[[here|aquí]]",
+        "[[Is there|¿Hay]]",
+        "[[cinema|cine]]",
+        "[[a|un]]"
+      ],
+      "translation": "¿Hay un cine aquí?"
     },
     "topicName": "syntax"
   },
@@ -1438,10 +1228,10 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "There are ________ [[books|libros]] [[on|en]] the [[shelf|estante]].",
           "options": [
-            "[[Acogedor|Acogedor]]",
-            "[[o1|opción 1]]",
-            "[[Botas|Botas]]",
-            "[[some|some]]"
+            "[[any|alguno/a (neg)]]",
+            "[[a|un]]",
+            "[[the|el]]",
+            "[[some|alguno/a]]"
           ],
           "correctAnswer": 3
         }
@@ -1462,10 +1252,10 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "________ [[are|son]] my [[favorite|favorito]] [[shoes|zapatos]].",
           "options": [
-            "[[Farmacia|Farmacia]]",
-            "[[next to|al lado de]]",
-            "[[Those|Those]]",
-            "[[o1|opción 1]]"
+            "[[These|Estos/Estas]]",
+            "[[This|Este/Esta]]",
+            "[[Those|Aquellos/as]]",
+            "[[That|Aquel/Aquella]]"
           ],
           "correctAnswer": 2
         }
@@ -1486,10 +1276,10 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "That [[car|coche]] is [[his|________]].",
           "options": [
-            "[[his|his]]",
-            "[[o1|opción 1]]",
-            "[[Escuela|Escuela]]",
-            "[[Dormitorio|Dormitorio]]"
+            "[[his|suyo (de él)]]",
+            "[[hers|suyo (de ella)]]",
+            "[[mine|mío]]",
+            "[[yours|tuyo]]"
           ],
           "correctAnswer": 0
         }
@@ -1506,7 +1296,14 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena la frase negativa:",
-      "sentence": "There isn't a fridge here"
+      "correctSentence": "[[There isn't|No hay]] [[a|una]] [[fridge|nevera]] [[here|aquí]]",
+      "words": [
+        "[[fridge|nevera]]",
+        "[[There isn't|No hay]]",
+        "[[here|aquí]]",
+        "[[a|una]]"
+      ],
+      "translation": "No hay una nevera aquí"
     },
     "topicName": "syntax"
   },
@@ -1523,10 +1320,10 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "The [[table|mesa]] is ________ the [[two|dos]] [[chairs|sillas]].",
           "options": [
-            "[[Vaqueros|Vaqueros]]",
-            "[[between|between]]",
-            "[[Baño|Baño]]",
-            "[[o1|opción 1]]"
+            "[[behind|detrás de]]",
+            "[[between|entre]]",
+            "[[next to|al lado de]]",
+            "[[in front of|delante de]]"
           ],
           "correctAnswer": 1
         }
@@ -1536,53 +1333,33 @@ export const UNIT_30_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u30-u30_v3_i1",
-    "type": "multiple-choice",
+    "type": "matching",
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
       "title": "[[Matching|Relacionar]]",
-      "instructions": "Más lugares del barrio:",
-      "questions": [
+      "instructions": "[[More places in the neighborhood|Más lugares del barrio]]:",
+      "pairs": [
         {
-          "question": "[[Supermarket|Supermercado]]",
-          "options": [
-            "[[Park|Parque]]",
-            "[[Biblioteca|Biblioteca]]",
-            "[[Farmacia|Farmacia]]",
-            "[[Supermarket|Supermercado]]"
-          ],
-          "correctAnswer": 3
+          "id": "p1",
+          "left": "[[Supermarket|Supermercado]]",
+          "right": "Supermercado"
         },
         {
-          "question": "[[Pharmacy|Farmacia]]",
-          "options": [
-            "[[Supermarket|Supermercado]]",
-            "[[Biblioteca|Biblioteca]]",
-            "[[Farmacia|Farmacia]]",
-            "[[Park|Parque]]"
-          ],
-          "correctAnswer": 2
+          "id": "p2",
+          "left": "[[Pharmacy|Farmacia]]",
+          "right": "Farmacia"
         },
         {
-          "question": "[[Park|Parque]]",
-          "options": [
-            "[[Supermarket|Supermercado]]",
-            "[[Farmacia|Farmacia]]",
-            "[[Park|Parque]]",
-            "[[Biblioteca|Biblioteca]]"
-          ],
-          "correctAnswer": 2
+          "id": "p3",
+          "left": "[[Park|Parque]]",
+          "right": "Parque"
         },
         {
-          "question": "[[Library|Biblioteca]]",
-          "options": [
-            "[[Farmacia|Farmacia]]",
-            "[[Park|Parque]]",
-            "[[Biblioteca|Biblioteca]]",
-            "[[Supermarket|Supermercado]]"
-          ],
-          "correctAnswer": 2
+          "id": "p4",
+          "left": "[[Library|Biblioteca]]",
+          "right": "Biblioteca"
         }
       ]
     },
@@ -1603,8 +1380,8 @@ export const UNIT_30_EXERCISES: Exercise[] = [
           "question": "¿Qué te pones en los pies?",
           "options": [
             "[[Zapatos|Zapatos]]",
-            "[[Hat|Sombrero]]",
-            "[[Shirt|Camisa]]"
+            "[[Sombrero|Sombrero]]",
+            "[[Camisa|Camisa]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1616,53 +1393,33 @@ export const UNIT_30_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u30-u30_v3_i3",
-    "type": "multiple-choice",
+    "type": "matching",
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
       "title": "[[Matching|Relacionar]]",
-      "instructions": "Muebles del salón:",
-      "questions": [
+      "instructions": "[[Living room furniture|Muebles del salón]]:",
+      "pairs": [
         {
-          "question": "Sofa",
-          "options": [
-            "[[Alfombra|Alfombra]]",
-            "[[Sillón|Sillón]]",
-            "[[Televisión|Televisión]]",
-            "[[Sofá|Sofá]]"
-          ],
-          "correctAnswer": 3
+          "id": "p1",
+          "left": "[[Sofa|Sofá]]",
+          "right": "Sofá"
         },
         {
-          "question": "Television",
-          "options": [
-            "[[Alfombra|Alfombra]]",
-            "[[Sofá|Sofá]]",
-            "[[Televisión|Televisión]]",
-            "[[Sillón|Sillón]]"
-          ],
-          "correctAnswer": 2
+          "id": "p2",
+          "left": "[[Television|Televisión]]",
+          "right": "Televisión"
         },
         {
-          "question": "Armchair",
-          "options": [
-            "[[Televisión|Televisión]]",
-            "[[Sofá|Sofá]]",
-            "[[Alfombra|Alfombra]]",
-            "[[Sillón|Sillón]]"
-          ],
-          "correctAnswer": 3
+          "id": "p3",
+          "left": "[[Armchair|Sillón]]",
+          "right": "Sillón"
         },
         {
-          "question": "Rug",
-          "options": [
-            "[[Sillón|Sillón]]",
-            "[[Televisión|Televisión]]",
-            "[[Alfombra|Alfombra]]",
-            "[[Sofá|Sofá]]"
-          ],
-          "correctAnswer": 2
+          "id": "p4",
+          "left": "[[Rug|Alfombra]]",
+          "right": "Alfombra"
         }
       ]
     },
@@ -1682,9 +1439,9 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'espejo'?",
           "options": [
-            "[[Mirror|Mirror]]",
-            "[[Window|Window]]",
-            "[[Door|Door]]"
+            "[[Mirror|Espejo]]",
+            "[[Window|Ventana]]",
+            "[[Door|Puerta]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1696,53 +1453,33 @@ export const UNIT_30_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u30-u30_v3_i5",
-    "type": "multiple-choice",
+    "type": "matching",
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
       "title": "[[Matching|Relacionar]]",
-      "instructions": "Partes del brazo y la mano:",
-      "questions": [
+      "instructions": "[[Parts of the arm and hand|Partes del brazo y la mano]]:",
+      "pairs": [
         {
-          "question": "Arm",
-          "options": [
-            "[[Dedo|Dedo]]",
-            "[[Hombro|Hombro]]",
-            "[[Mano|Mano]]",
-            "[[Brazo|Brazo]]"
-          ],
-          "correctAnswer": 3
+          "id": "p1",
+          "left": "[[Arm|Brazo]]",
+          "right": "Brazo"
         },
         {
-          "question": "[[Hand|Mano]]",
-          "options": [
-            "[[Brazo|Brazo]]",
-            "[[Dedo|Dedo]]",
-            "[[Mano|Mano]]",
-            "[[Hombro|Hombro]]"
-          ],
-          "correctAnswer": 2
+          "id": "p2",
+          "left": "[[Hand|Mano]]",
+          "right": "Mano"
         },
         {
-          "question": "Finger",
-          "options": [
-            "[[Dedo|Dedo]]",
-            "[[Brazo|Brazo]]",
-            "[[Mano|Mano]]",
-            "[[Hombro|Hombro]]"
-          ],
-          "correctAnswer": 0
+          "id": "p3",
+          "left": "[[Finger|Dedo]]",
+          "right": "Dedo"
         },
         {
-          "question": "[[Shoulder|Hombro]]",
-          "options": [
-            "[[Hombro|Hombro]]",
-            "[[Brazo|Brazo]]",
-            "[[Mano|Mano]]",
-            "[[Dedo|Dedo]]"
-          ],
-          "correctAnswer": 0
+          "id": "p4",
+          "left": "[[Shoulder|Hombro]]",
+          "right": "Hombro"
         }
       ]
     },
@@ -1776,53 +1513,33 @@ export const UNIT_30_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u30-u30_v3_i7",
-    "type": "multiple-choice",
+    "type": "matching",
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
       "title": "[[Matching|Relacionar]]",
-      "instructions": "Ropa de invierno:",
-      "questions": [
+      "instructions": "[[Winter clothes|Ropa de invierno]]:",
+      "pairs": [
         {
-          "question": "[[Jacket|Chaqueta]]",
-          "options": [
-            "[[Chaqueta|Chaqueta]]",
-            "[[Botas|Botas]]",
-            "[[Guantes|Guantes]]",
-            "[[Bufanda|Bufanda]]"
-          ],
-          "correctAnswer": 0
+          "id": "p1",
+          "left": "[[Jacket|Chaqueta]]",
+          "right": "Chaqueta"
         },
         {
-          "question": "Scarf",
-          "options": [
-            "[[Guantes|Guantes]]",
-            "[[Chaqueta|Chaqueta]]",
-            "[[Botas|Botas]]",
-            "[[Bufanda|Bufanda]]"
-          ],
-          "correctAnswer": 3
+          "id": "p2",
+          "left": "[[Scarf|Bufanda]]",
+          "right": "Bufanda"
         },
         {
-          "question": "Gloves",
-          "options": [
-            "[[Botas|Botas]]",
-            "[[Chaqueta|Chaqueta]]",
-            "[[Bufanda|Bufanda]]",
-            "[[Guantes|Guantes]]"
-          ],
-          "correctAnswer": 3
+          "id": "p3",
+          "left": "[[Gloves|Guantes]]",
+          "right": "Guantes"
         },
         {
-          "question": "Boots",
-          "options": [
-            "[[Chaqueta|Chaqueta]]",
-            "[[Botas|Botas]]",
-            "[[Bufanda|Bufanda]]",
-            "[[Guantes|Guantes]]"
-          ],
-          "correctAnswer": 1
+          "id": "p4",
+          "left": "[[Boots|Botas]]",
+          "right": "Botas"
         }
       ]
     },
@@ -1843,8 +1560,8 @@ export const UNIT_30_EXERCISES: Exercise[] = [
           "question": "¿Cómo se dice 'cocina'?",
           "options": [
             "[[Cocina|Cocina]]",
-            "[[Chicken|Pollo]]",
-            "[[Kitten|Kitten]]"
+            "[[Baño|Baño]]",
+            "[[Dormitorio|Dormitorio]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1856,53 +1573,33 @@ export const UNIT_30_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u30-u30_v3_i9",
-    "type": "multiple-choice",
+    "type": "matching",
     "level": "A1",
     "topic": "vocabulary",
     "difficulty": "medium",
     "content": {
       "title": "[[Matching|Relacionar]]",
-      "instructions": "Más partes del cuerpo:",
-      "questions": [
+      "instructions": "[[More body parts|Más partes del cuerpo]]:",
+      "pairs": [
         {
-          "question": "Back",
-          "options": [
-            "[[Cuello|Cuello]]",
-            "[[Pecho|Pecho]]",
-            "[[Estómago|Estómago]]",
-            "[[Espalda|Espalda]]"
-          ],
-          "correctAnswer": 3
+          "id": "p1",
+          "left": "[[Back|Espalda]]",
+          "right": "Espalda"
         },
         {
-          "question": "Chest",
-          "options": [
-            "[[Cuello|Cuello]]",
-            "[[Espalda|Espalda]]",
-            "[[Pecho|Pecho]]",
-            "[[Estómago|Estómago]]"
-          ],
-          "correctAnswer": 2
+          "id": "p2",
+          "left": "[[Chest|Pecho]]",
+          "right": "Pecho"
         },
         {
-          "question": "Stomach",
-          "options": [
-            "[[Cuello|Cuello]]",
-            "[[Pecho|Pecho]]",
-            "[[Estómago|Estómago]]",
-            "[[Espalda|Espalda]]"
-          ],
-          "correctAnswer": 2
+          "id": "p3",
+          "left": "[[Stomach|Estómago]]",
+          "right": "Estómago"
         },
         {
-          "question": "Neck",
-          "options": [
-            "[[Cuello|Cuello]]",
-            "[[Espalda|Espalda]]",
-            "[[Pecho|Pecho]]",
-            "[[Estómago|Estómago]]"
-          ],
-          "correctAnswer": 0
+          "id": "p4",
+          "left": "[[Neck|Cuello]]",
+          "right": "Cuello"
         }
       ]
     },
@@ -1922,8 +1619,8 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "¿Qué usas cuando llueve?",
           "options": [
-            "[[Raincoat|Raincoat]]",
-            "[[Sunglasses|Sunglasses]]",
+            "[[Raincoat|Impermeable]]",
+            "[[Sunglasses|Gafas de sol]]",
             "[[T-shirt|Camiseta]]"
           ],
           "correctAnswer": 0,
@@ -1947,10 +1644,10 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "________ [[is|es]] my [[new|nuevo]] [[car|coche]].",
           "options": [
-            "[[This|This]]",
-            "[[Espalda|Espalda]]",
-            "[[Is there|¿Hay?]]",
-            "[[Cara|Cara]]"
+            "[[This|Este/Esta]]",
+            "[[These|Estos/Estas]]",
+            "[[That|Aquel/Aquella]]",
+            "[[Those|Aquellos/as]]"
           ],
           "correctAnswer": 0
         }
@@ -1971,10 +1668,10 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "________ [[he|él]] [[have|tiene]] [[a|un]] [[pet|mascota]]?",
           "options": [
-            "[[Baño|Baño]]",
-            "[[Does|Does]]",
-            "[[Elefante|Elefante]]",
-            "[[Alfombra|Alfombra]]"
+            "[[Do|¿Hace?]]",
+            "[[Does|¿Hace? (3sg)]]",
+            "[[Is|¿Es?]]",
+            "[[Has|¿Tiene?]]"
           ],
           "correctAnswer": 1
         }
@@ -1991,7 +1688,16 @@ export const UNIT_30_EXERCISES: Exercise[] = [
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena para describir una habitación:",
-      "sentence": "There is a lamp on the table"
+      "correctSentence": "[[There is|Hay]] [[a|una]] [[lamp|lámpara]] [[on|en]] [[the|la]] [[table|mesa]]",
+      "words": [
+        "[[a|una]]",
+        "[[table|mesa]]",
+        "[[There is|Hay]]",
+        "[[on|en]]",
+        "[[the|la]]",
+        "[[lamp|lámpara]]"
+      ],
+      "translation": "Hay una lámpara en la mesa"
     },
     "topicName": "syntax"
   },
@@ -2008,9 +1714,9 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "The [[bank|banco]] is ________ the [[pharmacy|farmacia]].",
           "options": [
-            "[[Mano|Mano]]",
-            "[[o1|opción 1]]",
-            "[[Dormitorio|Dormitorio]]",
+            "[[in front of|delante de]]",
+            "[[behind|detrás de]]",
+            "[[under|debajo de]]",
             "[[next to|al lado de]]"
           ],
           "correctAnswer": 3
@@ -2033,9 +1739,9 @@ export const UNIT_30_EXERCISES: Exercise[] = [
           "question": "The [[children|________]] [[are|son]] in the [[park|parque]].",
           "options": [
             "[[children|children]]",
-            "[[Pierna|Pierna]]",
-            "[[Botas|Botas]]",
-            "[[Biblioteca|Biblioteca]]"
+            "[[childs|childs]]",
+            "[[childrens|childrens]]",
+            "[[child|child (sing.)]]"
           ],
           "correctAnswer": 0
         }
@@ -2057,8 +1763,8 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "There is a [[dog|perro]] in the [[garden|jardín]].",
           "options": [
-            "[[There is a dog in the garden|There is a dog in the garden]]",
-            "[[Baño|Baño]]"
+            "[[There is a dog in the garden|Hay un perro en el jardín]]",
+            "[[There is a cat in the house|Hay un gato en la casa]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
