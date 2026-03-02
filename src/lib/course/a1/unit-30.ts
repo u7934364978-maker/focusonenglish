@@ -671,15 +671,14 @@ export const UNIT_30_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u30-u30_d1_i1",
-    "type": "sentence-reordering",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena para dar una instrucción:",
-      "sentences": ["Turn", "left", "at", "the", "corner"],
-      "correctOrder": [0, 1, 2, 3, 4]
+      "sentence": "Turn left at the corner"
     },
     "topicName": "syntax"
   },
@@ -735,15 +734,14 @@ export const UNIT_30_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u30-u30_d1_i4",
-    "type": "sentence-reordering",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena la frase:",
-      "sentences": ["Go", "past", "the", "supermarket"],
-      "correctOrder": [0, 1, 2, 3]
+      "sentence": "Go past the supermarket"
     },
     "topicName": "syntax"
   },
@@ -799,15 +797,14 @@ export const UNIT_30_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u30-u30_d1_i7",
-    "type": "sentence-reordering",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena:",
-      "sentences": ["It", "is", "on", "the", "left"],
-      "correctOrder": [0, 1, 2, 3, 4]
+      "sentence": "It is on the left"
     },
     "topicName": "syntax"
   },
@@ -1417,15 +1414,14 @@ export const UNIT_30_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u30-u30_g2_i5",
-    "type": "sentence-reordering",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena la pregunta:",
-      "sentences": ["Is", "there", "a", "cinema", "here", "?"],
-      "correctOrder": [0, 1, 2, 3, 4, 5]
+      "sentence": "Is there a cinema here?"
     },
     "topicName": "syntax"
   },
@@ -1503,15 +1499,14 @@ export const UNIT_30_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u30-u30_g2_i9",
-    "type": "sentence-reordering",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena la frase negativa:",
-      "sentences": ["There", "isn't", "a", "fridge", "here"],
-      "correctOrder": [0, 1, 2, 3, 4]
+      "sentence": "There isn't a fridge here"
     },
     "topicName": "syntax"
   },
@@ -1989,15 +1984,14 @@ export const UNIT_30_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u30-u30_g3_i3",
-    "type": "sentence-reordering",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena para describir una habitación:",
-      "sentences": ["There", "is", "a", "lamp", "on", "the", "table"],
-      "correctOrder": [0, 1, 2, 3, 4, 5, 6]
+      "sentence": "There is a lamp on the table"
     },
     "topicName": "syntax"
   },
