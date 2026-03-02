@@ -19,7 +19,7 @@ keywords:
 author: Equipo Focus English
 date: '2026-02-06'
 image: 'https://images.pexels.com/photos/301920/pexels-photo-301920.jpeg'
-category: gramatica
+category: metodos
 canonical: 'https://www.focus-on-english.com/blog/gramatica/reported-speech-guia-uso'
 ---
 

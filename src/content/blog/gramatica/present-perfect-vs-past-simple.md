@@ -17,7 +17,7 @@ keywords:
   - ejercicios gramatica ingles
   - clases de gramatica en ingles gratis
 date: '2026-02-06'
-category: gramatica
+category: metodos
 author: Focus English
 image: 'https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg'
 faqs:

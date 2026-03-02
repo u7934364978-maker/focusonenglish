@@ -15,7 +15,7 @@ keywords:
 author: Equipo Focus English
 date: '2026-02-06'
 image: 'https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg'
-category: gramatica
+category: metodos
 ---
 
 Las **Relative Clauses** (oraciones de relativo) son fundamentales para unir ideas y dar información adicional sobre personas, cosas o lugares sin tener que empezar una frase nueva. En el nivel académico, su uso correcto es señal de una escritura fluida y madura.

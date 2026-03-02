@@ -3,7 +3,7 @@ title: "Inglés para Camareros: Guía para el Sector Hostelería"
 date: "2026-02-06"
 author: "Focus English Team"
 excerpt: "Domina el vocabulario y las frases clave para trabajar como camarero en entornos internacionales. Desde tomar nota hasta gestionar pagos con seguridad."
-category: "viajes"
+category: viajes
 readTime: "15 min"
 image: "https://images.pexels.com/photos/1036857/pexels-photo-1036857.jpeg?auto=compress&cs=tinysrgb&w=1200"
 alt: "Camarero profesional sonriente atendiendo a clientes en un restaurante moderno"

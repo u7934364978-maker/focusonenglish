@@ -15,10 +15,21 @@ const PUBLIC_ROUTES = new Set([
   "/test-nivel",
   "/pilot",
   "/test-toefl",
+  "/aprender-ingles",
+  "/frases-en-ingles",
+  "/aplicaciones-para-aprender-ingles",
+  "/certificaciones-ingles-oficiales",
 ]);
 
 function isBlogRoute(pathname: string) {
   return pathname === "/blog" || pathname.startsWith("/blog/");
+}
+
+function isPublicSEORoute(pathname: string) {
+  return (
+    pathname.startsWith("/frases-en-ingles/") ||
+    pathname.startsWith("/herramientas/")
+  );
 }
 
 export async function middleware(request: NextRequest) {
@@ -127,7 +138,8 @@ export async function middleware(request: NextRequest) {
   // Rutas públicas generales
   if (
     PUBLIC_ROUTES.has(pathname) || 
-    isBlogRoute(pathname)
+    isBlogRoute(pathname) ||
+    isPublicSEORoute(pathname)
   ) {
     return response;
   }

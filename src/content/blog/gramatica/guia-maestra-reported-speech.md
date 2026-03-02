@@ -1,5 +1,5 @@
 ---
-category: gramatica
+category: metodos
 date: '2026-02-08'
 author: Focus English
 title: 'Guia Maestra de Reported Speech y Reporting Verbs: De B2 a C2'

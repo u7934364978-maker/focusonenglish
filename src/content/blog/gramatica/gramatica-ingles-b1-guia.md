@@ -1,5 +1,5 @@
 ---
-category: gramatica
+category: metodos
 date: '2026-02-07'
 author: Focus English
 title: 'Gramática Inglés B1: Guía Completa de Temas, Reglas y Ejercicios'

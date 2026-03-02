@@ -1,5 +1,5 @@
 ---
-category: gramatica
+category: metodos
 date: '2026-02-08'
 author: Focus English
 title: 'Reporting Verbs Patterns: Lista Completa y Guía de Uso'
