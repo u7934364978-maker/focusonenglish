@@ -42,24 +42,24 @@ Save to `{@artifacts_path}/spec.md` with:
 - Delivery phases (incremental, testable milestones)
 - Verification approach using project lint/test commands
 
-### [ ] Step: Planning
+### [x] Step: Planning
+<!-- chat-id: 75b3c508-4b16-4023-af5a-67634ceaaee8 -->
 
-Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
+This is a trivial single-file data edit. No additional breakdown is needed beyond a single implementation step.
 
-1. Break down the work into concrete tasks
-2. Each task should reference relevant contracts and include verification steps
-3. Replace the Implementation step below with the planned tasks
+### [ ] Step: Fix trivial matching exercises in unit-30.ts
+<!-- chat-id: 84a251f5-b6d4-40aa-a334-00cb2e4d9fd8 -->
 
-Rule of thumb for step size: each step should represent a coherent unit of work (e.g., implement a component, add an API endpoint). Avoid steps that are too granular (single function) or too broad (entire feature).
+Edit `src/lib/course/a1/unit-30.ts` to fix 6 matching exercises where options show English words instead of Spanish.
 
-Important: unit tests must be part of each implementation task, not separate tasks. Each task should implement the code and its tests together, if relevant.
+For each of these exercises, change every option from `[[English|Spanish]]` to `[[Spanish|Spanish]]`:
+- `a1-u30-u30_v1_i1` — Rooms: Kitchen→Cocina, Living room→Salón, Bedroom→Dormitorio, Bathroom→Baño
+- `a1-u30-u30_v1_i3` — Body parts: Head→Cabeza, Leg→Pierna, Shoulder→Hombro, Hand→Mano
+- `a1-u30-u30_v1_i5` — Animals: Rabbit→Conejo, Bird→Pájaro, Lion→León, Horse→Caballo
+- `a1-u30-u30_v1_i6` — Clothes: Shoes→Zapatos, Jacket→Chaqueta, Socks→Calcetines, Skirt→Falda
+- `a1-u30-u30_v1_i8` — Neighbourhood: Pharmacy→Farmacia, Library→Biblioteca, Cinema→Cine, Bank→Banco
+- `a1-u30-u30_v1_i10` — Adjectives: Modern→Moderno, Traditional→Tradicional, Bright→Luminoso, Cozy→Acogedor
 
-If the feature is trivial and doesn't warrant full specification, update this workflow to remove unnecessary steps and explain the reasoning to the user.
+Questions and `correctAnswer` indices stay unchanged.
 
-Save to `{@artifacts_path}/plan.md`.
-
-### [ ] Step: Implementation
-
-This step should be replaced with detailed implementation tasks from the Planning step.
-
-If Planning didn't replace this step, execute the tasks in `{@artifacts_path}/plan.md`, updating checkboxes as you go. Run planned tests/lint and record results in plan.md.
+Verification: run `npm run build` to confirm no TypeScript errors.
