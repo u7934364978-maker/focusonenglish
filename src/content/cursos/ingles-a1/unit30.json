@@ -608,139 +608,94 @@
       "content": [
         {
           "interaction_id": "U30_V2_I1",
-          "type": "matching",
-          "prompt_es": "Más animales:",
-          "pairs": [
+          "type": "categorization",
+          "prompt_es": "Clasifica los animales:",
+          "categories": [
             {
-              "id": "p1",
-              "left": "Cow",
-              "right": "Vaca"
+              "id": "c1",
+              "title": "Farm Animals",
+              "items": [
+                "Cow",
+                "Horse",
+                "Pig",
+                "Chicken"
+              ]
             },
             {
-              "id": "p2",
-              "left": "Elephant",
-              "right": "Elefante"
-            },
-            {
-              "id": "p3",
-              "left": "Tiger",
-              "right": "Tigre"
-            },
-            {
-              "id": "p4",
-              "left": "Fish",
-              "right": "Pez"
+              "id": "c2",
+              "title": "Wild Animals",
+              "items": [
+                "Elephant",
+                "Tiger",
+                "Lion",
+                "Bear"
+              ]
             }
           ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary"
+          "correct_answer": "categorization_logic",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "animals"
+          ]
         },
         {
           "interaction_id": "U30_V2_I2",
-          "type": "matching",
-          "prompt_es": "Más ropa:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "Dress",
-              "right": "Vestido"
-            },
-            {
-              "id": "p2",
-              "left": "T-shirt",
-              "right": "Camiseta"
-            },
-            {
-              "id": "p3",
-              "left": "Jeans",
-              "right": "Vaqueros"
-            },
-            {
-              "id": "p4",
-              "left": "Hat",
-              "right": "Sombrero"
-            }
+          "type": "fill_blanks",
+          "prompt_es": "Completa la frase: 'It is summer. She is wearing a light ________ and sandals.'",
+          "stimulus_en": "It is summer. She is wearing a light ________ and sandals.",
+          "correct_answer": "dress",
+          "options": [
+            "dress",
+            "jeans",
+            "jacket",
+            "scarf"
           ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "clothes"
+          ]
         },
         {
           "interaction_id": "U30_V2_I3",
-          "type": "matching",
-          "prompt_es": "Partes de la cara:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "Nose",
-              "right": "Nariz"
-            },
-            {
-              "id": "p2",
-              "left": "Mouth",
-              "right": "Boca"
-            },
-            {
-              "id": "p3",
-              "left": "Ear",
-              "right": "Oreja"
-            },
-            {
-              "id": "p4",
-              "left": "Face",
-              "right": "Cara"
-            }
+          "type": "fill_blanks",
+          "prompt_es": "Completa la frase: 'He has a big ________ and small ears.'",
+          "stimulus_en": "He has a big ________ and small ears.",
+          "correct_answer": "nose",
+          "options": [
+            "nose",
+            "mouth",
+            "hand",
+            "knee"
           ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "body_parts"
+          ]
         },
         {
           "interaction_id": "U30_V2_I4",
-          "type": "matching",
-          "prompt_es": "Muebles y más:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "Shelf",
-              "right": "Estante"
-            },
-            {
-              "id": "p2",
-              "left": "Lamp",
-              "right": "Lámpara"
-            },
-            {
-              "id": "p3",
-              "left": "Sofa",
-              "right": "Sofá"
-            },
-            {
-              "id": "p4",
-              "left": "Mirror",
-              "right": "Espejo"
-            }
+          "type": "fill_blanks",
+          "prompt_es": "Completa la frase: 'I can see my face in the ________.'",
+          "stimulus_en": "I can see my face in the ________.",
+          "correct_answer": "mirror",
+          "options": [
+            "mirror",
+            "lamp",
+            "shelf",
+            "sofa"
           ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "furniture"
+          ]
         },
         {
           "interaction_id": "U30_V2_I5",
@@ -765,37 +720,37 @@
         },
         {
           "interaction_id": "U30_V2_I6",
-          "type": "matching",
-          "prompt_es": "Lugares:",
-          "pairs": [
+          "type": "categorization",
+          "prompt_es": "Clasifica los lugares:",
+          "categories": [
             {
-              "id": "p1",
-              "left": "Hospital",
-              "right": "Hospital"
+              "id": "c1",
+              "title": "Health & Education",
+              "items": [
+                "Hospital",
+                "School",
+                "Pharmacy",
+                "Library"
+              ]
             },
             {
-              "id": "p2",
-              "left": "School",
-              "right": "Escuela"
-            },
-            {
-              "id": "p3",
-              "left": "Restaurant",
-              "right": "Restaurante"
-            },
-            {
-              "id": "p4",
-              "left": "Park",
-              "right": "Parque"
+              "id": "c2",
+              "title": "Leisure & Food",
+              "items": [
+                "Restaurant",
+                "Park",
+                "Cinema",
+                "Café"
+              ]
             }
           ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary"
+          "correct_answer": "categorization_logic",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "neighbourhood"
+          ]
         },
         {
           "interaction_id": "U30_V2_I7",
@@ -841,37 +796,17 @@
         },
         {
           "interaction_id": "U30_V2_I9",
-          "type": "matching",
-          "prompt_es": "Partes de la pierna y el pie:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "Knee",
-              "right": "Rodilla"
-            },
-            {
-              "id": "p2",
-              "left": "Foot",
-              "right": "Pie"
-            },
-            {
-              "id": "p3",
-              "left": "Toes",
-              "right": "Dedos del pie"
-            },
-            {
-              "id": "p4",
-              "left": "Leg",
-              "right": "Pierna"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary"
+          "type": "short_writing",
+          "prompt_es": "Describe a una persona: ¿qué ropa lleva y qué color tiene? Escribe al menos una oración completa.",
+          "stimulus_en": "She / He is wearing ________.",
+          "correct_answer": "She/He is wearing [colour] [clothing item].",
+          "mastery_tag": "vocabulary",
+          "complexity": 4,
+          "concept_tags": [
+            "vocabulary",
+            "clothes",
+            "present_continuous"
+          ]
         },
         {
           "interaction_id": "U30_V2_I10",

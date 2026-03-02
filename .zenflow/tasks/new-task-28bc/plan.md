@@ -66,7 +66,8 @@ All new exercises must include: `mastery_tag: "vocabulary"`, `complexity`, `conc
 
 Verify: `python3 -c "import json; json.load(open('src/content/cursos/ingles-a1/unit30.json'))"` passes.
 
-### [ ] Step: Replace B30_V2 exercises in unit30.json
+### [x] Step: Replace B30_V2 exercises in unit30.json
+<!-- chat-id: 40e4b9dd-db4f-43ae-ab24-5d3849013343 -->
 
 File: `src/content/cursos/ingles-a1/unit30.json`
 
