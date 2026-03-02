@@ -34,5 +34,5 @@ Investigate and fix the persistent "Internal Error" occurring during "Deploying 
 2. [x] Check for multiple lockfiles: Confirmed existence and handled.
 3. [x] Analyze project root and `vercel.json` for conflicts: Simplified `vercel.json`.
 4. [x] Check for large files or directories that might exceed deployment limits: Verified `public/` and `.gitignore`.
-5. [x] Implement fixes (e.g., simplifying `vercel.json`, refining `.gitignore`): Done.
+5. [x] Implement fixes (e.g., simplifying `vercel.json`, refining `.gitignore`, aligned Next.js and SWC versions to 15.5.12): Done.
 6. [ ] Push and verify.
