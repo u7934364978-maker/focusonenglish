@@ -12,42 +12,42 @@ export const UNIT_30_EXERCISES: Exercise[] = [
       "instructions": "[[Match the rooms with their translation|Une las habitaciones con su traducción]]:",
       "questions": [
         {
-          "question": "[[Kitchen|Cocina]]",
+          "question": "Kitchen",
           "options": [
-            "[[Bathroom|Baño]]",
-            "[[Living room|Salón]]",
-            "[[Bedroom|Dormitorio]]",
-            "[[Kitchen|Cocina]]"
+            "[[Baño|Baño]]",
+            "[[Salón|Salón]]",
+            "[[Dormitorio|Dormitorio]]",
+            "[[Cocina|Cocina]]"
           ],
           "correctAnswer": 3
         },
         {
-          "question": "[[Living room|Salón]]",
+          "question": "Living room",
           "options": [
-            "[[Bathroom|Baño]]",
-            "[[Living room|Salón]]",
-            "[[Bedroom|Dormitorio]]",
-            "[[Kitchen|Cocina]]"
+            "[[Baño|Baño]]",
+            "[[Salón|Salón]]",
+            "[[Dormitorio|Dormitorio]]",
+            "[[Cocina|Cocina]]"
           ],
           "correctAnswer": 1
         },
         {
-          "question": "[[Bedroom|Dormitorio]]",
+          "question": "Bedroom",
           "options": [
-            "[[Bedroom|Dormitorio]]",
-            "[[Kitchen|Cocina]]",
-            "[[Living room|Salón]]",
-            "[[Bathroom|Baño]]"
+            "[[Dormitorio|Dormitorio]]",
+            "[[Cocina|Cocina]]",
+            "[[Salón|Salón]]",
+            "[[Baño|Baño]]"
           ],
           "correctAnswer": 0
         },
         {
-          "question": "[[Bathroom|Baño]]",
+          "question": "Bathroom",
           "options": [
-            "[[Bedroom|Dormitorio]]",
-            "[[Kitchen|Cocina]]",
-            "[[Living room|Salón]]",
-            "[[Bathroom|Baño]]"
+            "[[Dormitorio|Dormitorio]]",
+            "[[Cocina|Cocina]]",
+            "[[Salón|Salón]]",
+            "[[Baño|Baño]]"
           ],
           "correctAnswer": 3
         }
@@ -92,42 +92,42 @@ export const UNIT_30_EXERCISES: Exercise[] = [
       "instructions": "[[Match the parts of the body|Une las partes del cuerpo]]:",
       "questions": [
         {
-          "question": "[[Head|Cabeza]]",
+          "question": "Head",
           "options": [
-            "[[Head|Cabeza]]",
-            "[[Leg|Pierna]]",
-            "[[Shoulder|Hombro]]",
-            "[[Hand|Mano]]"
+            "[[Cabeza|Cabeza]]",
+            "[[Pierna|Pierna]]",
+            "[[Hombro|Hombro]]",
+            "[[Mano|Mano]]"
           ],
           "correctAnswer": 0
         },
         {
-          "question": "[[Shoulder|Hombro]]",
+          "question": "Shoulder",
           "options": [
-            "[[Shoulder|Hombro]]",
-            "[[Hand|Mano]]",
-            "[[Leg|Pierna]]",
-            "[[Head|Cabeza]]"
+            "[[Hombro|Hombro]]",
+            "[[Mano|Mano]]",
+            "[[Pierna|Pierna]]",
+            "[[Cabeza|Cabeza]]"
           ],
           "correctAnswer": 0
         },
         {
-          "question": "[[Leg|Pierna]]",
+          "question": "Leg",
           "options": [
-            "[[Hand|Mano]]",
-            "[[Head|Cabeza]]",
-            "[[Leg|Pierna]]",
-            "[[Shoulder|Hombro]]"
+            "[[Mano|Mano]]",
+            "[[Cabeza|Cabeza]]",
+            "[[Pierna|Pierna]]",
+            "[[Hombro|Hombro]]"
           ],
           "correctAnswer": 2
         },
         {
-          "question": "[[Hand|Mano]]",
+          "question": "Hand",
           "options": [
-            "[[Leg|Pierna]]",
-            "[[Head|Cabeza]]",
-            "[[Shoulder|Hombro]]",
-            "[[Hand|Mano]]"
+            "[[Pierna|Pierna]]",
+            "[[Cabeza|Cabeza]]",
+            "[[Hombro|Hombro]]",
+            "[[Mano|Mano]]"
           ],
           "correctAnswer": 3
         }
@@ -172,42 +172,42 @@ export const UNIT_30_EXERCISES: Exercise[] = [
       "instructions": "[[Match the animals with their translation|Une los animales con su traducción]]:",
       "questions": [
         {
-          "question": "[[Rabbit|Conejo]]",
+          "question": "Rabbit",
           "options": [
-            "[[Rabbit|Conejo]]",
-            "[[Bird|Pájaro]]",
-            "[[Lion|León]]",
-            "[[Horse|Caballo]]"
+            "[[Conejo|Conejo]]",
+            "[[Pájaro|Pájaro]]",
+            "[[León|León]]",
+            "[[Caballo|Caballo]]"
           ],
           "correctAnswer": 0
         },
         {
-          "question": "[[Horse|Caballo]]",
+          "question": "Horse",
           "options": [
-            "[[Rabbit|Conejo]]",
-            "[[Horse|Caballo]]",
-            "[[Bird|Pájaro]]",
-            "[[Lion|León]]"
+            "[[Conejo|Conejo]]",
+            "[[Caballo|Caballo]]",
+            "[[Pájaro|Pájaro]]",
+            "[[León|León]]"
           ],
           "correctAnswer": 1
         },
         {
-          "question": "[[Lion|León]]",
+          "question": "Lion",
           "options": [
-            "[[Lion|León]]",
-            "[[Horse|Caballo]]",
-            "[[Rabbit|Conejo]]",
-            "[[Bird|Pájaro]]"
+            "[[León|León]]",
+            "[[Caballo|Caballo]]",
+            "[[Conejo|Conejo]]",
+            "[[Pájaro|Pájaro]]"
           ],
           "correctAnswer": 0
         },
         {
-          "question": "[[Bird|Pájaro]]",
+          "question": "Bird",
           "options": [
-            "[[Rabbit|Conejo]]",
-            "[[Lion|León]]",
-            "[[Bird|Pájaro]]",
-            "[[Horse|Caballo]]"
+            "[[Conejo|Conejo]]",
+            "[[León|León]]",
+            "[[Pájaro|Pájaro]]",
+            "[[Caballo|Caballo]]"
           ],
           "correctAnswer": 2
         }
@@ -226,42 +226,42 @@ export const UNIT_30_EXERCISES: Exercise[] = [
       "instructions": "[[Match the clothes with their translation|Une la ropa con su traducción]]:",
       "questions": [
         {
-          "question": "[[Shoes|Zapatos]]",
+          "question": "Shoes",
           "options": [
-            "[[Jacket|Chaqueta]]",
-            "[[Shoes|Zapatos]]",
-            "[[Socks|Calcetines]]",
-            "[[Skirt|Falda]]"
+            "[[Chaqueta|Chaqueta]]",
+            "[[Zapatos|Zapatos]]",
+            "[[Calcetines|Calcetines]]",
+            "[[Falda|Falda]]"
           ],
           "correctAnswer": 1
         },
         {
-          "question": "[[Skirt|Falda]]",
+          "question": "Skirt",
           "options": [
-            "[[Jacket|Chaqueta]]",
-            "[[Socks|Calcetines]]",
-            "[[Skirt|Falda]]",
-            "[[Shoes|Zapatos]]"
+            "[[Chaqueta|Chaqueta]]",
+            "[[Calcetines|Calcetines]]",
+            "[[Falda|Falda]]",
+            "[[Zapatos|Zapatos]]"
           ],
           "correctAnswer": 2
         },
         {
-          "question": "[[Jacket|Chaqueta]]",
+          "question": "Jacket",
           "options": [
-            "[[Skirt|Falda]]",
-            "[[Shoes|Zapatos]]",
-            "[[Socks|Calcetines]]",
-            "[[Jacket|Chaqueta]]"
+            "[[Falda|Falda]]",
+            "[[Zapatos|Zapatos]]",
+            "[[Calcetines|Calcetines]]",
+            "[[Chaqueta|Chaqueta]]"
           ],
           "correctAnswer": 3
         },
         {
-          "question": "[[Socks|Calcetines]]",
+          "question": "Socks",
           "options": [
-            "[[Socks|Calcetines]]",
-            "[[Shoes|Zapatos]]",
-            "[[Skirt|Falda]]",
-            "[[Jacket|Chaqueta]]"
+            "[[Calcetines|Calcetines]]",
+            "[[Zapatos|Zapatos]]",
+            "[[Falda|Falda]]",
+            "[[Chaqueta|Chaqueta]]"
           ],
           "correctAnswer": 0
         }
@@ -306,42 +306,42 @@ export const UNIT_30_EXERCISES: Exercise[] = [
       "instructions": "[[Places in the neighborhood|Lugares del barrio]]:",
       "questions": [
         {
-          "question": "[[Pharmacy|Farmacia]]",
+          "question": "Pharmacy",
           "options": [
-            "[[Cinema|Cine]]",
-            "[[Library|Biblioteca]]",
-            "[[Pharmacy|Farmacia]]",
-            "[[Bank|Banco]]"
+            "[[Cine|Cine]]",
+            "[[Biblioteca|Biblioteca]]",
+            "[[Farmacia|Farmacia]]",
+            "[[Banco|Banco]]"
           ],
           "correctAnswer": 2
         },
         {
-          "question": "[[Library|Biblioteca]]",
+          "question": "Library",
           "options": [
-            "[[Bank|Banco]]",
-            "[[Pharmacy|Farmacia]]",
-            "[[Cinema|Cine]]",
-            "[[Library|Biblioteca]]"
+            "[[Banco|Banco]]",
+            "[[Farmacia|Farmacia]]",
+            "[[Cine|Cine]]",
+            "[[Biblioteca|Biblioteca]]"
           ],
           "correctAnswer": 3
         },
         {
-          "question": "[[Cinema|Cine]]",
+          "question": "Cinema",
           "options": [
-            "[[Bank|Banco]]",
-            "[[Library|Biblioteca]]",
-            "[[Cinema|Cine]]",
-            "[[Pharmacy|Farmacia]]"
+            "[[Banco|Banco]]",
+            "[[Biblioteca|Biblioteca]]",
+            "[[Cine|Cine]]",
+            "[[Farmacia|Farmacia]]"
           ],
           "correctAnswer": 2
         },
         {
-          "question": "[[Bank|Banco]]",
+          "question": "Bank",
           "options": [
-            "[[Library|Biblioteca]]",
-            "[[Cinema|Cine]]",
-            "[[Bank|Banco]]",
-            "[[Pharmacy|Farmacia]]"
+            "[[Biblioteca|Biblioteca]]",
+            "[[Cine|Cine]]",
+            "[[Banco|Banco]]",
+            "[[Farmacia|Farmacia]]"
           ],
           "correctAnswer": 2
         }
@@ -386,42 +386,42 @@ export const UNIT_30_EXERCISES: Exercise[] = [
       "instructions": "[[House adjectives|Adjetivos de la casa]]:",
       "questions": [
         {
-          "question": "[[Modern|Moderno]]",
+          "question": "Modern",
           "options": [
-            "[[Modern|Moderno]]",
-            "[[Traditional|Tradicional]]",
-            "[[Bright|Luminoso]]",
-            "[[Cozy|Acogedor]]"
+            "[[Moderno|Moderno]]",
+            "[[Tradicional|Tradicional]]",
+            "[[Luminoso|Luminoso]]",
+            "[[Acogedor|Acogedor]]"
           ],
           "correctAnswer": 0
         },
         {
-          "question": "[[Traditional|Tradicional]]",
+          "question": "Traditional",
           "options": [
-            "[[Traditional|Tradicional]]",
-            "[[Cozy|Acogedor]]",
-            "[[Modern|Moderno]]",
-            "[[Bright|Luminoso]]"
+            "[[Tradicional|Tradicional]]",
+            "[[Acogedor|Acogedor]]",
+            "[[Moderno|Moderno]]",
+            "[[Luminoso|Luminoso]]"
           ],
           "correctAnswer": 0
         },
         {
-          "question": "[[Cozy|Acogedor]]",
+          "question": "Cozy",
           "options": [
-            "[[Cozy|Acogedor]]",
-            "[[Traditional|Tradicional]]",
-            "[[Modern|Moderno]]",
-            "[[Bright|Luminoso]]"
+            "[[Acogedor|Acogedor]]",
+            "[[Tradicional|Tradicional]]",
+            "[[Moderno|Moderno]]",
+            "[[Luminoso|Luminoso]]"
           ],
           "correctAnswer": 0
         },
         {
-          "question": "[[Bright|Luminoso]]",
+          "question": "Bright",
           "options": [
-            "[[Traditional|Tradicional]]",
-            "[[Cozy|Acogedor]]",
-            "[[Modern|Moderno]]",
-            "[[Bright|Luminoso]]"
+            "[[Tradicional|Tradicional]]",
+            "[[Acogedor|Acogedor]]",
+            "[[Moderno|Moderno]]",
+            "[[Luminoso|Luminoso]]"
           ],
           "correctAnswer": 3
         }
@@ -1041,12 +1041,12 @@ export const UNIT_30_EXERCISES: Exercise[] = [
           "correctAnswer": 1
         },
         {
-          "question": "[[Mouth|Boca]]",
+          "question": "Mouth",
           "options": [
             "[[Oreja|Oreja]]",
             "[[Nariz|Nariz]]",
             "[[Cara|Cara]]",
-            "[[Mouth|Boca]]"
+            "[[Boca|Boca]]"
           ],
           "correctAnswer": 3
         },
@@ -1165,10 +1165,10 @@ export const UNIT_30_EXERCISES: Exercise[] = [
       "instructions": "Lugares:",
       "questions": [
         {
-          "question": "[[Hospital|Hospital]]",
+          "question": "Hospital",
           "options": [
             "[[Restaurante|Restaurante]]",
-            "[[Park|Parque]]",
+            "[[Parque|Parque]]",
             "[[Hospital|Hospital]]",
             "[[Escuela|Escuela]]"
           ],
@@ -1177,7 +1177,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "School",
           "options": [
-            "[[Park|Parque]]",
+            "[[Parque|Parque]]",
             "[[Hospital|Hospital]]",
             "[[Escuela|Escuela]]",
             "[[Restaurante|Restaurante]]"
@@ -1187,7 +1187,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "Restaurant",
           "options": [
-            "[[Park|Parque]]",
+            "[[Parque|Parque]]",
             "[[Hospital|Hospital]]",
             "[[Restaurante|Restaurante]]",
             "[[Escuela|Escuela]]"
@@ -1195,10 +1195,10 @@ export const UNIT_30_EXERCISES: Exercise[] = [
           "correctAnswer": 2
         },
         {
-          "question": "[[Park|Parque]]",
+          "question": "Park",
           "options": [
             "[[Escuela|Escuela]]",
-            "[[Park|Parque]]",
+            "[[Parque|Parque]]",
             "[[Restaurante|Restaurante]]",
             "[[Hospital|Hospital]]"
           ],
@@ -1301,9 +1301,9 @@ export const UNIT_30_EXERCISES: Exercise[] = [
           "correctAnswer": 2
         },
         {
-          "question": "[[Leg|Pierna]]",
+          "question": "Leg",
           "options": [
-            "[[Leg|Pierna]]",
+            "[[Pierna|Pierna]]",
             "[[Dedos del pie|Dedos del pie]]",
             "[[Pie|Pie]]",
             "[[Rodilla|Rodilla]]"
@@ -1585,42 +1585,42 @@ export const UNIT_30_EXERCISES: Exercise[] = [
       "instructions": "Más lugares del barrio:",
       "questions": [
         {
-          "question": "[[Supermarket|Supermercado]]",
+          "question": "Supermarket",
           "options": [
-            "[[Park|Parque]]",
-            "[[Library|Biblioteca]]",
-            "[[Pharmacy|Farmacia]]",
-            "[[Supermarket|Supermercado]]"
+            "[[Parque|Parque]]",
+            "[[Biblioteca|Biblioteca]]",
+            "[[Farmacia|Farmacia]]",
+            "[[Supermercado|Supermercado]]"
           ],
           "correctAnswer": 3
         },
         {
-          "question": "[[Pharmacy|Farmacia]]",
+          "question": "Pharmacy",
           "options": [
-            "[[Supermarket|Supermercado]]",
-            "[[Library|Biblioteca]]",
-            "[[Pharmacy|Farmacia]]",
-            "[[Park|Parque]]"
+            "[[Supermercado|Supermercado]]",
+            "[[Biblioteca|Biblioteca]]",
+            "[[Farmacia|Farmacia]]",
+            "[[Parque|Parque]]"
           ],
           "correctAnswer": 2
         },
         {
-          "question": "[[Park|Parque]]",
+          "question": "Park",
           "options": [
-            "[[Supermarket|Supermercado]]",
-            "[[Pharmacy|Farmacia]]",
-            "[[Park|Parque]]",
-            "[[Library|Biblioteca]]"
+            "[[Supermercado|Supermercado]]",
+            "[[Farmacia|Farmacia]]",
+            "[[Parque|Parque]]",
+            "[[Biblioteca|Biblioteca]]"
           ],
           "correctAnswer": 2
         },
         {
-          "question": "[[Library|Biblioteca]]",
+          "question": "Library",
           "options": [
-            "[[Pharmacy|Farmacia]]",
-            "[[Park|Parque]]",
-            "[[Library|Biblioteca]]",
-            "[[Supermarket|Supermercado]]"
+            "[[Farmacia|Farmacia]]",
+            "[[Parque|Parque]]",
+            "[[Biblioteca|Biblioteca]]",
+            "[[Supermercado|Supermercado]]"
           ],
           "correctAnswer": 2
         }
@@ -1755,12 +1755,12 @@ export const UNIT_30_EXERCISES: Exercise[] = [
           "correctAnswer": 3
         },
         {
-          "question": "[[Hand|Mano]]",
+          "question": "Hand",
           "options": [
             "[[Brazo|Brazo]]",
             "[[Dedo|Dedo]]",
-            "[[Hand|Mano]]",
-            "[[Shoulder|Hombro]]"
+            "[[Mano|Mano]]",
+            "[[Hombro|Hombro]]"
           ],
           "correctAnswer": 2
         },
@@ -1769,17 +1769,17 @@ export const UNIT_30_EXERCISES: Exercise[] = [
           "options": [
             "[[Dedo|Dedo]]",
             "[[Brazo|Brazo]]",
-            "[[Hand|Mano]]",
-            "[[Shoulder|Hombro]]"
+            "[[Mano|Mano]]",
+            "[[Hombro|Hombro]]"
           ],
           "correctAnswer": 0
         },
         {
-          "question": "[[Shoulder|Hombro]]",
+          "question": "Shoulder",
           "options": [
-            "[[Shoulder|Hombro]]",
+            "[[Hombro|Hombro]]",
             "[[Brazo|Brazo]]",
-            "[[Hand|Mano]]",
+            "[[Mano|Mano]]",
             "[[Dedo|Dedo]]"
           ],
           "correctAnswer": 0
@@ -1825,9 +1825,9 @@ export const UNIT_30_EXERCISES: Exercise[] = [
       "instructions": "Ropa de invierno:",
       "questions": [
         {
-          "question": "[[Jacket|Chaqueta]]",
+          "question": "Jacket",
           "options": [
-            "[[Jacket|Chaqueta]]",
+            "[[Chaqueta|Chaqueta]]",
             "[[Botas|Botas]]",
             "[[Guantes|Guantes]]",
             "[[Bufanda|Bufanda]]"
