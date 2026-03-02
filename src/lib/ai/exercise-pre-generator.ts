@@ -164,7 +164,12 @@ export function getExercisePreGenerator(): ExercisePreGenerator {
 // ============================================
 
 // Si estamos en Node.js (servidor), iniciar pre-generación automáticamente
-if (typeof window === 'undefined' && process.env.NODE_ENV === 'production') {
+// No iniciar durante el build (detectado por process.env.CI o process.env.NEXT_PHASE)
+if (typeof window === 'undefined' && 
+    process.env.NODE_ENV === 'production' && 
+    !process.env.CI && 
+    !process.env.VERCEL &&
+    process.env.NEXT_PHASE !== 'phase-production-build') {
   // Iniciar después de 10 segundos para no interferir con el arranque
   setTimeout(() => {
     const preGen = getExercisePreGenerator();

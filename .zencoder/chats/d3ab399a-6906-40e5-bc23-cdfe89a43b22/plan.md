@@ -54,7 +54,8 @@ Create a detailed implementation plan based on `/Users/lidia/Documents/focusonen
 2. [x] Expand Vocabulary and Grammar content to reach 60 exercises (Lessons 1-4).
 3. [x] Relocate all Listening and Reading exercises to start from index 60 (Lesson 5).
 
-### [x] Step: Verification & Finishing
-1. [x] Run `npm run lint` and `npm run type-check` (noted widespread unrelated failures).
-2. [x] Final review of content quality and consistency in the new format.
-3. [x] Create and run E2E test to verify Unit 32 audio visibility and lesson organization.
+### [ ] Step: Implementation - Phase 5: Content Refinement & UI Fixes
+1. [ ] Remove interactive translations for 'go', 'play', 'do' in sports exercises; only keep 'hiking' as 'senderismo'.
+2. [ ] Translate sports names in the matching exercise and remove "ENGLISH"/"SPANISH" headers.
+3. [ ] Fix exercises with `undefined` correct answers (e.g., Vowels exercise).
+4. [ ] Ensure all listening exercises have correct `audioUrl` structure.

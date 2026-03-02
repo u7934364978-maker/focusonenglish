@@ -39,7 +39,7 @@ function UnitPreviewContent() {
         try {
           unitModule = await import(`@/lib/course/a1/unit-${unitNumber}`);
         } catch (e) {
-          unitModule = await import(`../../../../lib/course/a1/unit-${unitNumber}`);
+          unitModule = await import(`../../../lib/course/a1/unit-${unitNumber}`);
         }
         
         const exportName = `UNIT_${unitNumber.toUpperCase().replace('-', '_')}_EXERCISES`;

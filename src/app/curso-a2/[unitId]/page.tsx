@@ -39,7 +39,8 @@ function UnitPreviewContent() {
         try {
           unitModule = await import(`@/lib/course/a2/unit-${unitNumber}`);
         } catch (e) {
-          unitModule = await import(`../../../../lib/course/a2/unit-${unitNumber}`);
+          console.warn(`Failed to import with alias, trying relative path for unit-${unitNumber}`);
+          unitModule = await import(`../../../lib/course/a2/unit-${unitNumber}`);
         }
         
         const exportName = `UNIT_${unitNumber.toUpperCase().replace('-', '_')}_EXERCISES`;

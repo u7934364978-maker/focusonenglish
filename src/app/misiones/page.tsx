@@ -5,6 +5,8 @@ import MisionesClient from './MisionesClient';
 import { Navigation } from '@/components/sections/Navigation';
 import { MissionProvider } from '@/context/MissionContext';
 
+export const dynamic = 'force-dynamic';
+
 export default async function MisionesPage() {
   // Bypass para testing E2E
   const isTest = process.env.NODE_ENV === 'development';
@@ -14,8 +16,11 @@ export default async function MisionesPage() {
     const supabase = await createClient();
     const { data } = await supabase.auth.getUser();
     user = data.user;
-  } catch (error) {
-    console.error("Supabase error in MisionesPage:", error);
+  } catch (error: any) {
+    // Silenciar error de cookies durante el build estático de Next.js
+    if (error?.digest !== 'DYNAMIC_SERVER_USAGE') {
+      console.error("Supabase error in MisionesPage:", error);
+    }
   }
 
   const finalUser = user || (isTest ? { id: 'test-user-id' } : null);
