@@ -102,7 +102,8 @@ Replace all 10 exercises in block B30_V3 (all are trivial matching or trivial MC
 
 All new exercises must include: `mastery_tag: "vocabulary"`, `complexity`, `concept_tags`.
 
-### [ ] Step: Validate unit30.json
+### [x] Step: Validate unit30.json
+<!-- chat-id: bdef0110-0cd2-40bd-bc0a-a960ee1fd8fc -->
 
 Run validation to confirm the file is correct:
 1. `python3 -c "import json; json.load(open('src/content/cursos/ingles-a1/unit30.json'))"` — confirms valid JSON
