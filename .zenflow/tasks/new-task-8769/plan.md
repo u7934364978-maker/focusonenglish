@@ -58,7 +58,8 @@ Corregir los 15 archivos `.md` en `src/content/blog/gramatica/` que tienen `cate
 
 ---
 
-### [ ] Step: Fix Canibalización de Keywords — Apps
+### [x] Step: Fix Canibalización de Keywords — Apps
+<!-- chat-id: 8f5fc74b-1f8c-4d7b-bf3f-2cfdcd10a4a4 -->
 
 Reducir canibalización entre artículos de apps para aprender inglés:
 
