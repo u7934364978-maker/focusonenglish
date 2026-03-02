@@ -47,7 +47,7 @@ Save to `{@artifacts_path}/spec.md` with:
 
 This is a trivial single-file data edit. No additional breakdown is needed beyond a single implementation step.
 
-### [ ] Step: Fix trivial matching exercises in unit-30.ts
+### [x] Step: Fix trivial matching exercises in unit-30.ts
 <!-- chat-id: 84a251f5-b6d4-40aa-a334-00cb2e4d9fd8 -->
 
 Edit `src/lib/course/a1/unit-30.ts` to fix 6 matching exercises where options show English words instead of Spanish.
