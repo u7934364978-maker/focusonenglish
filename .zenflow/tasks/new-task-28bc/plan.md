@@ -47,7 +47,8 @@ Save to `{@artifacts_path}/spec.md` with:
 
 Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 
-### [ ] Step: Replace B30_V1 exercises in unit30.json
+### [x] Step: Replace B30_V1 exercises in unit30.json
+<!-- chat-id: 5ebd982f-5c68-4567-a5e0-01667be51caf -->
 
 File: `src/content/cursos/ingles-a1/unit30.json`
 

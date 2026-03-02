@@ -21,37 +21,22 @@
       "content": [
         {
           "interaction_id": "U30_V1_I1",
-          "type": "matching",
-          "prompt_es": "Une las habitaciones con su traducción:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "Kitchen",
-              "right": "Cocina"
-            },
-            {
-              "id": "p2",
-              "left": "Living room",
-              "right": "Salón"
-            },
-            {
-              "id": "p3",
-              "left": "Bedroom",
-              "right": "Dormitorio"
-            },
-            {
-              "id": "p4",
-              "left": "Bathroom",
-              "right": "Baño"
-            }
+          "type": "fill_blanks",
+          "prompt_es": "Completa la frase: 'We cook dinner in the ________.'",
+          "stimulus_en": "We cook dinner in the ________.",
+          "correct_answer": "kitchen",
+          "options": [
+            "kitchen",
+            "bedroom",
+            "bathroom",
+            "living room"
           ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "rooms"
+          ]
         },
         {
           "interaction_id": "U30_V1_I2",
@@ -76,178 +61,188 @@
         },
         {
           "interaction_id": "U30_V1_I3",
-          "type": "matching",
-          "prompt_es": "Une las partes del cuerpo:",
-          "pairs": [
+          "type": "categorization",
+          "prompt_es": "Clasifica las partes del cuerpo:",
+          "categories": [
             {
-              "id": "p1",
-              "left": "Head",
-              "right": "Cabeza"
+              "id": "c1",
+              "title": "Head",
+              "items": [
+                "Eyes",
+                "Nose",
+                "Mouth",
+                "Ears"
+              ]
             },
             {
-              "id": "p2",
-              "left": "Shoulder",
-              "right": "Hombro"
-            },
-            {
-              "id": "p3",
-              "left": "Leg",
-              "right": "Pierna"
-            },
-            {
-              "id": "p4",
-              "left": "Hand",
-              "right": "Mano"
+              "id": "c2",
+              "title": "Body",
+              "items": [
+                "Arm",
+                "Leg",
+                "Hand",
+                "Foot"
+              ]
             }
           ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary"
+          "correct_answer": "categorization_logic",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "body_parts"
+          ]
         },
         {
           "interaction_id": "U30_V1_I4",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'camisa'?",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la frase: 'It is cold today. He is wearing a warm ________ and a scarf.'",
+          "stimulus_en": "It is cold today. He is wearing a warm ________ and a scarf.",
+          "correct_answer": "jacket",
           "options": [
-            {
-              "id": "o1",
-              "text": "Shirt"
-            },
-            {
-              "id": "o2",
-              "text": "Shoes"
-            },
-            {
-              "id": "o3",
-              "text": "Skirt"
-            }
+            "jacket",
+            "shirt",
+            "dress",
+            "skirt"
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "clothes"
+          ]
         },
         {
           "interaction_id": "U30_V1_I5",
-          "type": "matching",
-          "prompt_es": "Une los animales con su traducción:",
-          "pairs": [
+          "type": "categorization",
+          "prompt_es": "Clasifica los animales:",
+          "categories": [
             {
-              "id": "p1",
-              "left": "Rabbit",
-              "right": "Conejo"
+              "id": "c1",
+              "title": "Pets",
+              "items": [
+                "Rabbit",
+                "Dog",
+                "Cat",
+                "Fish"
+              ]
             },
             {
-              "id": "p2",
-              "left": "Horse",
-              "right": "Caballo"
-            },
-            {
-              "id": "p3",
-              "left": "Lion",
-              "right": "León"
-            },
-            {
-              "id": "p4",
-              "left": "Bird",
-              "right": "Pájaro"
+              "id": "c2",
+              "title": "Wild Animals",
+              "items": [
+                "Lion",
+                "Tiger",
+                "Horse",
+                "Bird"
+              ]
             }
           ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary"
+          "correct_answer": "categorization_logic",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary",
+            "animals"
+          ]
         },
         {
           "interaction_id": "U30_V1_I6",
-          "type": "matching",
-          "prompt_es": "Une la ropa con su traducción:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "Shoes",
-              "right": "Zapatos"
-            },
-            {
-              "id": "p2",
-              "left": "Skirt",
-              "right": "Falda"
-            },
-            {
-              "id": "p3",
-              "left": "Jacket",
-              "right": "Chaqueta"
-            },
-            {
-              "id": "p4",
-              "left": "Socks",
-              "right": "Calcetines"
-            }
+          "type": "fill_blanks",
+          "prompt_es": "Completa la frase: 'She is wearing a blue ________ and black shoes.'",
+          "stimulus_en": "She is wearing a blue ________ and black shoes.",
+          "correct_answer": "skirt",
+          "options": [
+            "skirt",
+            "jacket",
+            "socks",
+            "shirt"
           ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "clothes"
+          ]
         },
         {
           "interaction_id": "U30_V1_I7",
           "type": "multiple_choice",
           "prompt_es": "¿Dónde guardas la comida fría?",
           "options": [
-            { "id": "o1", "text": "In the fridge" },
-            { "id": "o2", "text": "In the wardrobe" },
-            { "id": "o3", "text": "In the bed" }
+            {
+              "id": "o1",
+              "text": "In the fridge"
+            },
+            {
+              "id": "o2",
+              "text": "In the wardrobe"
+            },
+            {
+              "id": "o3",
+              "text": "In the bed"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U30_V1_I8",
-          "type": "matching",
-          "prompt_es": "Lugares del barrio:",
-          "pairs": [
-            { "id": "p1", "left": "Pharmacy", "right": "Farmacia" },
-            { "id": "p2", "left": "Library", "right": "Biblioteca" },
-            { "id": "p3", "left": "Cinema", "right": "Cine" },
-            { "id": "p4", "left": "Bank", "right": "Banco" }
+          "type": "fill_blanks",
+          "prompt_es": "Completa la frase: 'I need medicine. Let's go to the ________.'",
+          "stimulus_en": "I need medicine. Let's go to the ________.",
+          "correct_answer": "pharmacy",
+          "options": [
+            "pharmacy",
+            "library",
+            "cinema",
+            "bank"
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "neighbourhood"
+          ]
         },
         {
           "interaction_id": "U30_V1_I9",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué parte del cuerpo usas para ver?",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la frase: 'She has beautiful green ________ and long hair.'",
+          "stimulus_en": "She has beautiful green ________ and long hair.",
+          "correct_answer": "eyes",
           "options": [
-            { "id": "o1", "text": "Eyes" },
-            { "id": "o2", "text": "Ears" },
-            { "id": "o3", "text": "Mouth" }
+            "eyes",
+            "ears",
+            "nose",
+            "mouth"
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "body_parts"
+          ]
         },
         {
           "interaction_id": "U30_V1_I10",
-          "type": "matching",
-          "prompt_es": "Adjetivos de la casa:",
-          "pairs": [
-            { "id": "p1", "left": "Modern", "right": "Moderno" },
-            { "id": "p2", "left": "Traditional", "right": "Tradicional" },
-            { "id": "p3", "left": "Cozy", "right": "Acogedor" },
-            { "id": "p4", "left": "Bright", "right": "Luminoso" }
+          "type": "fill_blanks",
+          "prompt_es": "Completa la frase: 'This house has lots of natural light. It is a very ________ house.'",
+          "stimulus_en": "This house has lots of natural light. It is a very ________ house.",
+          "correct_answer": "bright",
+          "options": [
+            "bright",
+            "cozy",
+            "modern",
+            "traditional"
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 3,
+          "concept_tags": [
+            "vocabulary",
+            "adjectives"
+          ]
         }
-
       ]
     },
     {
@@ -334,7 +329,6 @@
           "correct_answer": "These",
           "mastery_tag": "grammar"
         }
-
       ]
     },
     {
@@ -346,13 +340,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena para dar una instrucción:",
           "options": [
-            { "id": "w1", "text": "Turn" },
-            { "id": "w2", "text": "left" },
-            { "id": "w3", "text": "at" },
-            { "id": "w4", "text": "the" },
-            { "id": "w5", "text": "corner" }
+            {
+              "id": "w1",
+              "text": "Turn"
+            },
+            {
+              "id": "w2",
+              "text": "left"
+            },
+            {
+              "id": "w3",
+              "text": "at"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "corner"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -360,9 +375,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices 'sigue recto'?",
           "options": [
-            { "id": "o1", "text": "Go straight ahead" },
-            { "id": "o2", "text": "Turn straight ahead" },
-            { "id": "o3", "text": "Go right ahead" }
+            {
+              "id": "o1",
+              "text": "Go straight ahead"
+            },
+            {
+              "id": "o2",
+              "text": "Turn straight ahead"
+            },
+            {
+              "id": "o3",
+              "text": "Go right ahead"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -380,12 +404,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena la frase:",
           "options": [
-            { "id": "w1", "text": "Go" },
-            { "id": "w2", "text": "past" },
-            { "id": "id3", "text": "the" },
-            { "id": "w4", "text": "supermarket" }
+            {
+              "id": "w1",
+              "text": "Go"
+            },
+            {
+              "id": "w2",
+              "text": "past"
+            },
+            {
+              "id": "id3",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "supermarket"
+            }
           ],
-          "correct_answer": ["w1", "w2", "id3", "w4"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "id3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -393,9 +434,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se pregunta '¿Cómo llego al hospital?'?",
           "options": [
-            { "id": "o1", "text": "How do I get to the hospital?" },
-            { "id": "o2", "text": "Where is get the hospital?" },
-            { "id": "o3", "text": "How get I the hospital?" }
+            {
+              "id": "o1",
+              "text": "How do I get to the hospital?"
+            },
+            {
+              "id": "o2",
+              "text": "Where is get the hospital?"
+            },
+            {
+              "id": "o3",
+              "text": "How get I the hospital?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "syntax"
@@ -412,16 +462,36 @@
           "type": "reorder_words",
           "prompt_es": "Ordena:",
           "options": [
-            { "id": "w1", "text": "It" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "on" },
-            { "id": "w4", "text": "the" },
-            { "id": "w5", "text": "left" }
+            {
+              "id": "w1",
+              "text": "It"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "on"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "left"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "syntax"
         }
-
       ]
     },
     {
@@ -439,9 +509,18 @@
               "type": "multiple_choice",
               "prompt_es": "¿Cuántas habitaciones tiene la casa?",
               "options": [
-                { "id": "o1", "text": "Four" },
-                { "id": "o2", "text": "Five" },
-                { "id": "o3", "text": "Six" }
+                {
+                  "id": "o1",
+                  "text": "Four"
+                },
+                {
+                  "id": "o2",
+                  "text": "Five"
+                },
+                {
+                  "id": "o3",
+                  "text": "Six"
+                }
               ],
               "correct_answer": "o2"
             },
@@ -456,9 +535,18 @@
               "type": "multiple_choice",
               "prompt_es": "¿Qué hay enfrente de la casa?",
               "options": [
-                { "id": "o1", "text": "A supermarket" },
-                { "id": "o2", "text": "A park" },
-                { "id": "o3", "text": "A cinema" }
+                {
+                  "id": "o1",
+                  "text": "A supermarket"
+                },
+                {
+                  "id": "o2",
+                  "text": "A park"
+                },
+                {
+                  "id": "o3",
+                  "text": "A cinema"
+                }
               ],
               "correct_answer": "o2"
             },
@@ -467,9 +555,18 @@
               "type": "multiple_choice",
               "prompt_es": "¿De qué color son los pantalones?",
               "options": [
-                { "id": "o1", "text": "Blue" },
-                { "id": "o2", "text": "Black" },
-                { "id": "o3", "text": "White" }
+                {
+                  "id": "o1",
+                  "text": "Blue"
+                },
+                {
+                  "id": "o2",
+                  "text": "Black"
+                },
+                {
+                  "id": "o3",
+                  "text": "White"
+                }
               ],
               "correct_answer": "o2"
             },
@@ -478,9 +575,18 @@
               "type": "multiple_choice",
               "prompt_es": "¿Qué mascotas tiene la persona?",
               "options": [
-                { "id": "o1", "text": "A dog and a bird" },
-                { "id": "o2", "text": "A dog and a cat" },
-                { "id": "o3", "text": "A cat and a rabbit" }
+                {
+                  "id": "o1",
+                  "text": "A dog and a bird"
+                },
+                {
+                  "id": "o2",
+                  "text": "A dog and a cat"
+                },
+                {
+                  "id": "o3",
+                  "text": "A cat and a rabbit"
+                }
               ],
               "correct_answer": "o2"
             }
@@ -505,12 +611,33 @@
           "type": "matching",
           "prompt_es": "Más animales:",
           "pairs": [
-            { "id": "p1", "left": "Cow", "right": "Vaca" },
-            { "id": "p2", "left": "Elephant", "right": "Elefante" },
-            { "id": "p3", "left": "Tiger", "right": "Tigre" },
-            { "id": "p4", "left": "Fish", "right": "Pez" }
+            {
+              "id": "p1",
+              "left": "Cow",
+              "right": "Vaca"
+            },
+            {
+              "id": "p2",
+              "left": "Elephant",
+              "right": "Elefante"
+            },
+            {
+              "id": "p3",
+              "left": "Tiger",
+              "right": "Tigre"
+            },
+            {
+              "id": "p4",
+              "left": "Fish",
+              "right": "Pez"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -518,12 +645,33 @@
           "type": "matching",
           "prompt_es": "Más ropa:",
           "pairs": [
-            { "id": "p1", "left": "Dress", "right": "Vestido" },
-            { "id": "p2", "left": "T-shirt", "right": "Camiseta" },
-            { "id": "p3", "left": "Jeans", "right": "Vaqueros" },
-            { "id": "p4", "left": "Hat", "right": "Sombrero" }
+            {
+              "id": "p1",
+              "left": "Dress",
+              "right": "Vestido"
+            },
+            {
+              "id": "p2",
+              "left": "T-shirt",
+              "right": "Camiseta"
+            },
+            {
+              "id": "p3",
+              "left": "Jeans",
+              "right": "Vaqueros"
+            },
+            {
+              "id": "p4",
+              "left": "Hat",
+              "right": "Sombrero"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -531,12 +679,33 @@
           "type": "matching",
           "prompt_es": "Partes de la cara:",
           "pairs": [
-            { "id": "p1", "left": "Nose", "right": "Nariz" },
-            { "id": "p2", "left": "Mouth", "right": "Boca" },
-            { "id": "p3", "left": "Ear", "right": "Oreja" },
-            { "id": "p4", "left": "Face", "right": "Cara" }
+            {
+              "id": "p1",
+              "left": "Nose",
+              "right": "Nariz"
+            },
+            {
+              "id": "p2",
+              "left": "Mouth",
+              "right": "Boca"
+            },
+            {
+              "id": "p3",
+              "left": "Ear",
+              "right": "Oreja"
+            },
+            {
+              "id": "p4",
+              "left": "Face",
+              "right": "Cara"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -544,12 +713,33 @@
           "type": "matching",
           "prompt_es": "Muebles y más:",
           "pairs": [
-            { "id": "p1", "left": "Shelf", "right": "Estante" },
-            { "id": "p2", "left": "Lamp", "right": "Lámpara" },
-            { "id": "p3", "left": "Sofa", "right": "Sofá" },
-            { "id": "p4", "left": "Mirror", "right": "Espejo" }
+            {
+              "id": "p1",
+              "left": "Shelf",
+              "right": "Estante"
+            },
+            {
+              "id": "p2",
+              "left": "Lamp",
+              "right": "Lámpara"
+            },
+            {
+              "id": "p3",
+              "left": "Sofa",
+              "right": "Sofá"
+            },
+            {
+              "id": "p4",
+              "left": "Mirror",
+              "right": "Espejo"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -557,9 +747,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cómodo'?",
           "options": [
-            { "id": "o1", "text": "Comfortable" },
-            { "id": "o2", "text": "Quiet" },
-            { "id": "o3", "text": "Noisy" }
+            {
+              "id": "o1",
+              "text": "Comfortable"
+            },
+            {
+              "id": "o2",
+              "text": "Quiet"
+            },
+            {
+              "id": "o3",
+              "text": "Noisy"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -569,12 +768,33 @@
           "type": "matching",
           "prompt_es": "Lugares:",
           "pairs": [
-            { "id": "p1", "left": "Hospital", "right": "Hospital" },
-            { "id": "p2", "left": "School", "right": "Escuela" },
-            { "id": "p3", "left": "Restaurant", "right": "Restaurante" },
-            { "id": "p4", "left": "Park", "right": "Parque" }
+            {
+              "id": "p1",
+              "left": "Hospital",
+              "right": "Hospital"
+            },
+            {
+              "id": "p2",
+              "left": "School",
+              "right": "Escuela"
+            },
+            {
+              "id": "p3",
+              "left": "Restaurant",
+              "right": "Restaurante"
+            },
+            {
+              "id": "p4",
+              "left": "Park",
+              "right": "Parque"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -582,9 +802,18 @@
           "type": "multiple_choice",
           "prompt_es": "Un animal peligroso es un:",
           "options": [
-            { "id": "o1", "text": "Tiger" },
-            { "id": "o2", "text": "Rabbit" },
-            { "id": "o3", "text": "Hamster" }
+            {
+              "id": "o1",
+              "text": "Tiger"
+            },
+            {
+              "id": "o2",
+              "text": "Rabbit"
+            },
+            {
+              "id": "o3",
+              "text": "Hamster"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -594,9 +823,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué habitación es para dormir?",
           "options": [
-            { "id": "o1", "text": "Bedroom" },
-            { "id": "o2", "text": "Kitchen" },
-            { "id": "o3", "text": "Bathroom" }
+            {
+              "id": "o1",
+              "text": "Bedroom"
+            },
+            {
+              "id": "o2",
+              "text": "Kitchen"
+            },
+            {
+              "id": "o3",
+              "text": "Bathroom"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -606,12 +844,33 @@
           "type": "matching",
           "prompt_es": "Partes de la pierna y el pie:",
           "pairs": [
-            { "id": "p1", "left": "Knee", "right": "Rodilla" },
-            { "id": "p2", "left": "Foot", "right": "Pie" },
-            { "id": "p3", "left": "Toes", "right": "Dedos del pie" },
-            { "id": "p4", "left": "Leg", "right": "Pierna" }
+            {
+              "id": "p1",
+              "left": "Knee",
+              "right": "Rodilla"
+            },
+            {
+              "id": "p2",
+              "left": "Foot",
+              "right": "Pie"
+            },
+            {
+              "id": "p3",
+              "left": "Toes",
+              "right": "Dedos del pie"
+            },
+            {
+              "id": "p4",
+              "left": "Leg",
+              "right": "Pierna"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -619,9 +878,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ruidoso'?",
           "options": [
-            { "id": "o1", "text": "Noisy" },
-            { "id": "o2", "text": "Quiet" },
-            { "id": "o3", "text": "Bright" }
+            {
+              "id": "o1",
+              "text": "Noisy"
+            },
+            {
+              "id": "o2",
+              "text": "Quiet"
+            },
+            {
+              "id": "o3",
+              "text": "Bright"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -669,13 +937,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena la pregunta:",
           "options": [
-            { "id": "w1", "text": "Is" },
-            { "id": "w2", "text": "there" },
-            { "id": "w3", "text": "a" },
-            { "id": "w4", "text": "cinema" },
-            { "id": "w5", "text": "here?" }
+            {
+              "id": "w1",
+              "text": "Is"
+            },
+            {
+              "id": "w2",
+              "text": "there"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "cinema"
+            },
+            {
+              "id": "w5",
+              "text": "here?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -707,13 +996,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena la frase negativa:",
           "options": [
-            { "id": "w1", "text": "There" },
-            { "id": "w2", "text": "isn't" },
-            { "id": "w3", "text": "a" },
-            { "id": "w4", "text": "fridge" },
-            { "id": "w5", "text": "here" }
+            {
+              "id": "w1",
+              "text": "There"
+            },
+            {
+              "id": "w2",
+              "text": "isn't"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "fridge"
+            },
+            {
+              "id": "w5",
+              "text": "here"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -735,12 +1045,33 @@
           "type": "matching",
           "prompt_es": "Más lugares del barrio:",
           "pairs": [
-            { "id": "p1", "left": "Supermarket", "right": "Supermercado" },
-            { "id": "p2", "left": "Pharmacy", "right": "Farmacia" },
-            { "id": "p3", "left": "Park", "right": "Parque" },
-            { "id": "p4", "left": "Library", "right": "Biblioteca" }
+            {
+              "id": "p1",
+              "left": "Supermarket",
+              "right": "Supermercado"
+            },
+            {
+              "id": "p2",
+              "left": "Pharmacy",
+              "right": "Farmacia"
+            },
+            {
+              "id": "p3",
+              "left": "Park",
+              "right": "Parque"
+            },
+            {
+              "id": "p4",
+              "left": "Library",
+              "right": "Biblioteca"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -748,9 +1079,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué te pones en los pies?",
           "options": [
-            { "id": "o1", "text": "Shoes" },
-            { "id": "o2", "text": "Hat" },
-            { "id": "o3", "text": "Shirt" }
+            {
+              "id": "o1",
+              "text": "Shoes"
+            },
+            {
+              "id": "o2",
+              "text": "Hat"
+            },
+            {
+              "id": "o3",
+              "text": "Shirt"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -760,12 +1100,33 @@
           "type": "matching",
           "prompt_es": "Muebles del salón:",
           "pairs": [
-            { "id": "p1", "left": "Sofa", "right": "Sofá" },
-            { "id": "p2", "left": "Television", "right": "Televisión" },
-            { "id": "p3", "left": "Armchair", "right": "Sillón" },
-            { "id": "p4", "left": "Rug", "right": "Alfombra" }
+            {
+              "id": "p1",
+              "left": "Sofa",
+              "right": "Sofá"
+            },
+            {
+              "id": "p2",
+              "left": "Television",
+              "right": "Televisión"
+            },
+            {
+              "id": "p3",
+              "left": "Armchair",
+              "right": "Sillón"
+            },
+            {
+              "id": "p4",
+              "left": "Rug",
+              "right": "Alfombra"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -773,9 +1134,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'espejo'?",
           "options": [
-            { "id": "o1", "text": "Mirror" },
-            { "id": "o2", "text": "Window" },
-            { "id": "o3", "text": "Door" }
+            {
+              "id": "o1",
+              "text": "Mirror"
+            },
+            {
+              "id": "o2",
+              "text": "Window"
+            },
+            {
+              "id": "o3",
+              "text": "Door"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -785,12 +1155,33 @@
           "type": "matching",
           "prompt_es": "Partes del brazo y la mano:",
           "pairs": [
-            { "id": "p1", "left": "Arm", "right": "Brazo" },
-            { "id": "p2", "left": "Hand", "right": "Mano" },
-            { "id": "p3", "left": "Finger", "right": "Dedo" },
-            { "id": "p4", "left": "Shoulder", "right": "Hombro" }
+            {
+              "id": "p1",
+              "left": "Arm",
+              "right": "Brazo"
+            },
+            {
+              "id": "p2",
+              "left": "Hand",
+              "right": "Mano"
+            },
+            {
+              "id": "p3",
+              "left": "Finger",
+              "right": "Dedo"
+            },
+            {
+              "id": "p4",
+              "left": "Shoulder",
+              "right": "Hombro"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -798,9 +1189,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es un animal de granja?",
           "options": [
-            { "id": "o1", "text": "Horse" },
-            { "id": "o2", "text": "Lion" },
-            { "id": "o3", "text": "Tiger" }
+            {
+              "id": "o1",
+              "text": "Horse"
+            },
+            {
+              "id": "o2",
+              "text": "Lion"
+            },
+            {
+              "id": "o3",
+              "text": "Tiger"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -810,12 +1210,33 @@
           "type": "matching",
           "prompt_es": "Ropa de invierno:",
           "pairs": [
-            { "id": "p1", "left": "Jacket", "right": "Chaqueta" },
-            { "id": "p2", "left": "Scarf", "right": "Bufanda" },
-            { "id": "p3", "left": "Gloves", "right": "Guantes" },
-            { "id": "p4", "left": "Boots", "right": "Botas" }
+            {
+              "id": "p1",
+              "left": "Jacket",
+              "right": "Chaqueta"
+            },
+            {
+              "id": "p2",
+              "left": "Scarf",
+              "right": "Bufanda"
+            },
+            {
+              "id": "p3",
+              "left": "Gloves",
+              "right": "Guantes"
+            },
+            {
+              "id": "p4",
+              "left": "Boots",
+              "right": "Botas"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -823,9 +1244,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cocina'?",
           "options": [
-            { "id": "o1", "text": "Kitchen" },
-            { "id": "o2", "text": "Chicken" },
-            { "id": "o3", "text": "Kitten" }
+            {
+              "id": "o1",
+              "text": "Kitchen"
+            },
+            {
+              "id": "o2",
+              "text": "Chicken"
+            },
+            {
+              "id": "o3",
+              "text": "Kitten"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -835,12 +1265,33 @@
           "type": "matching",
           "prompt_es": "Más partes del cuerpo:",
           "pairs": [
-            { "id": "p1", "left": "Back", "right": "Espalda" },
-            { "id": "p2", "left": "Chest", "right": "Pecho" },
-            { "id": "p3", "left": "Stomach", "right": "Estómago" },
-            { "id": "p4", "left": "Neck", "right": "Cuello" }
+            {
+              "id": "p1",
+              "left": "Back",
+              "right": "Espalda"
+            },
+            {
+              "id": "p2",
+              "left": "Chest",
+              "right": "Pecho"
+            },
+            {
+              "id": "p3",
+              "left": "Stomach",
+              "right": "Estómago"
+            },
+            {
+              "id": "p4",
+              "left": "Neck",
+              "right": "Cuello"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p1",
+            "p2": "p2",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -848,9 +1299,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué usas cuando llueve?",
           "options": [
-            { "id": "o1", "text": "Raincoat" },
-            { "id": "o2", "text": "Sunglasses" },
-            { "id": "o3", "text": "T-shirt" }
+            {
+              "id": "o1",
+              "text": "Raincoat"
+            },
+            {
+              "id": "o2",
+              "text": "Sunglasses"
+            },
+            {
+              "id": "o3",
+              "text": "T-shirt"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -882,15 +1342,44 @@
           "type": "reorder_words",
           "prompt_es": "Ordena para describir una habitación:",
           "options": [
-            { "id": "w1", "text": "There" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "a" },
-            { "id": "w4", "text": "lamp" },
-            { "id": "w5", "text": "on" },
-            { "id": "w6", "text": "the" },
-            { "id": "w7", "text": "table" }
+            {
+              "id": "w1",
+              "text": "There"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "lamp"
+            },
+            {
+              "id": "w5",
+              "text": "on"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w7",
+              "text": "table"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
           "mastery_tag": "syntax"
         },
         {
