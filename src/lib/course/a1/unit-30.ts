@@ -671,22 +671,15 @@ export const UNIT_30_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u30-u30_d1_i1",
-    "type": "multiple-choice",
+    "type": "sentence-reordering",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena para dar una instrucción:",
-      "questions": [
-        {
-          "question": "[[Turn left at the corner|Gira a la izquierda en la esquina]]",
-          "options": [
-            "[[correct|correcto]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "sentences": ["Turn", "left", "at", "the", "corner"],
+      "correctOrder": [0, 1, 2, 3, 4]
     },
     "topicName": "syntax"
   },
@@ -742,22 +735,15 @@ export const UNIT_30_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u30-u30_d1_i4",
-    "type": "multiple-choice",
+    "type": "sentence-reordering",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena la frase:",
-      "questions": [
-        {
-          "question": "[[Go past the supermarket|Pasa por delante del supermercado]]",
-          "options": [
-            "[[correct|correcto]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "sentences": ["Go", "past", "the", "supermarket"],
+      "correctOrder": [0, 1, 2, 3]
     },
     "topicName": "syntax"
   },
@@ -813,22 +799,15 @@ export const UNIT_30_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u30-u30_d1_i7",
-    "type": "multiple-choice",
+    "type": "sentence-reordering",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena:",
-      "questions": [
-        {
-          "question": "[[It is on the left|Está a la izquierda]]",
-          "options": [
-            "[[correct|correcto]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "sentences": ["It", "is", "on", "the", "left"],
+      "correctOrder": [0, 1, 2, 3, 4]
     },
     "topicName": "syntax"
   },
@@ -1438,22 +1417,15 @@ export const UNIT_30_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u30-u30_g2_i5",
-    "type": "multiple-choice",
+    "type": "sentence-reordering",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena la pregunta:",
-      "questions": [
-        {
-          "question": "Is there a cinema here?",
-          "options": [
-            "[[correct|correcto]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "sentences": ["Is", "there", "a", "cinema", "here", "?"],
+      "correctOrder": [0, 1, 2, 3, 4, 5]
     },
     "topicName": "syntax"
   },
@@ -1531,22 +1503,15 @@ export const UNIT_30_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u30-u30_g2_i9",
-    "type": "multiple-choice",
+    "type": "sentence-reordering",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena la frase negativa:",
-      "questions": [
-        {
-          "question": "There isn't a fridge here",
-          "options": [
-            "[[correct|correcto]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "sentences": ["There", "isn't", "a", "fridge", "here"],
+      "correctOrder": [0, 1, 2, 3, 4]
     },
     "topicName": "syntax"
   },
@@ -2024,22 +1989,15 @@ export const UNIT_30_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u30-u30_g3_i3",
-    "type": "multiple-choice",
+    "type": "sentence-reordering",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena para describir una habitación:",
-      "questions": [
-        {
-          "question": "There is a lamp on the table",
-          "options": [
-            "[[correct|correcto]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "sentences": ["There", "is", "a", "lamp", "on", "the", "table"],
+      "correctOrder": [0, 1, 2, 3, 4, 5, 6]
     },
     "topicName": "syntax"
   },
