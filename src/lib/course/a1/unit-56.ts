@@ -240,8 +240,8 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "Cupboard",
           "options": [
-            "[[Bin|Cubo de basura]]",
-            "[[Drawer|Cajón]]",
+            "[[Cubo de basura|Bin]]",
+            "[[Cajón|Drawer]]",
             "[[Estante|Estante]]",
             "[[Wardrobe|Armario]]"
           ],
@@ -250,9 +250,9 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "Shelf",
           "options": [
-            "[[Drawer|Cajón]]",
+            "[[Cajón|Drawer]]",
             "[[Wardrobe|Armario]]",
-            "[[Bin|Cubo de basura]]",
+            "[[Cubo de basura|Bin]]",
             "[[Estante|Estante]]"
           ],
           "correctAnswer": 3
@@ -260,20 +260,20 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "Drawer",
           "options": [
-            "[[Bin|Cubo de basura]]",
-            "[[Wardrobe|Armario]]",
+            "[[Cubo de basura|Bin]]",
+            "[[Armario|Wardrobe]]",
             "[[Estante|Estante]]",
-            "[[Drawer|Cajón]]"
+            "[[Cajón|Drawer]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Bin",
           "options": [
-            "[[Bin|Cubo de basura]]",
-            "[[Wardrobe|Armario]]",
+            "[[Cubo de basura|Bin]]",
+            "[[Armario|Wardrobe]]",
             "[[Estante|Estante]]",
-            "[[Drawer|Cajón]]"
+            "[[Cajón|Drawer]]"
           ],
           "correctAnswer": 0
         }
@@ -322,7 +322,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
           "question": "Escribe 'estante' en inglés:",
           "options": [
             "[[Shelf|Estante]]",
-            "[[Drawer|Cajón]]",
+            "[[Cajón|Drawer]]",
             "[[Cupboard|Armario]]"
           ],
           "correctAnswer": 0
@@ -394,9 +394,9 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'El microondas está sobre la encimera'",
           "options": [
-            "[[The microwave is on the worktop.|El microondas está sobre la encimera.]]",
-            "[[The microwave is in the cupboard.|El microondas está en el armario.]]",
-            "[[The microwave is under the shelf.|El microondas está bajo el estante.]]"
+            "[[El microondas está sobre la encimera.|The microwave is on the worktop.]]",
+            "[[El microondas está en el armario.|The microwave is in the cupboard.]]",
+            "[[El microondas está bajo el estante.|The microwave is under the shelf.]]"
           ],
           "correctAnswer": 0
         }
@@ -748,7 +748,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'menu' en inglés?",
           "options": [
-            "[[Menu|Menú]]",
+            "[[Menú|Menu]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -930,7 +930,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'menu' en inglés?",
           "options": [
-            "[[Menu|Menú]]",
+            "[[Menú|Menu]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1112,7 +1112,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'menu' en inglés?",
           "options": [
-            "[[Menu|Menú]]",
+            "[[Menú|Menu]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1294,7 +1294,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'menu' en inglés?",
           "options": [
-            "[[Menu|Menú]]",
+            "[[Menú|Menu]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1476,7 +1476,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'menu' en inglés?",
           "options": [
-            "[[Menu|Menú]]",
+            "[[Menú|Menu]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],

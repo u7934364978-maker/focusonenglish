@@ -88,7 +88,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
             "[[Two potatoes|Two potatoes]]",
             "[[Two eggs|Two eggs]]",
             "[[Two apples|Two apples]]",
-            "[[o1|opción 1]]"
+            "[[opción 1|o1]]"
           ],
           "correctAnswer": 2
         },
@@ -97,7 +97,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
           "options": [
             "[[Two apples|Two apples]]",
             "[[Two potatoes|Two potatoes]]",
-            "[[o1|opción 1]]",
+            "[[opción 1|o1]]",
             "[[Two eggs|Two eggs]]"
           ],
           "correctAnswer": 3
@@ -106,7 +106,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
           "question": "One potato",
           "options": [
             "[[Two potatoes|Two potatoes]]",
-            "[[o1|opción 1]]",
+            "[[opción 1|o1]]",
             "[[Two apples|Two apples]]",
             "[[Two eggs|Two eggs]]"
           ],
@@ -302,7 +302,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
           "options": [
             "[[I need an orange.|Necesito una naranja.]]",
             "[[I need an apple.|Necesito una manzana.]]",
-            "[[I need a banana.|Necesito un plátano.]]"
+            "[[Necesito un plátano.|I need a banana.]]"
           ],
           "correctAnswer": 0
         }
@@ -701,7 +701,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'sugar' en inglés?",
           "options": [
-            "[[Sugar|Azúcar]]",
+            "[[Azúcar|Sugar]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -883,7 +883,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'sugar' en inglés?",
           "options": [
-            "[[Sugar|Azúcar]]",
+            "[[Azúcar|Sugar]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1065,7 +1065,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'sugar' en inglés?",
           "options": [
-            "[[Sugar|Azúcar]]",
+            "[[Azúcar|Sugar]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1247,7 +1247,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'sugar' en inglés?",
           "options": [
-            "[[Sugar|Azúcar]]",
+            "[[Azúcar|Sugar]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1429,7 +1429,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'sugar' en inglés?",
           "options": [
-            "[[Sugar|Azúcar]]",
+            "[[Azúcar|Sugar]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],

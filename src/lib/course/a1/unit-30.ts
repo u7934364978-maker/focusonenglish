@@ -941,7 +941,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'cómodo'?",
           "options": [
-            "[[Comfortable|Cómodo]]",
+            "[[Cómodo|Comfortable]]",
             "[[Quiet|Tranquilo]]",
             "[[Noisy|Ruidoso]]"
           ],
@@ -1560,7 +1560,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
           "question": "¿Cómo se dice 'cocina'?",
           "options": [
             "[[Kitchen|Cocina]]",
-            "[[Bathroom|Baño]]",
+            "[[Baño|Bathroom]]",
             "[[Bedroom|Dormitorio]]"
           ],
           "correctAnswer": 0,

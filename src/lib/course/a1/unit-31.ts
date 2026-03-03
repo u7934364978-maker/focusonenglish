@@ -14,40 +14,40 @@ export const UNIT_31_EXERCISES: Exercise[] = [
         {
           "question": "Swim",
           "options": [
-            "[[Draw|Dibujar]]",
-            "[[Dance|Bailar]]",
-            "[[Swim|Nadar]]",
-            "[[Cook|Cocinar]]"
+            "[[Dibujar|Draw]]",
+            "[[Bailar|Dance]]",
+            "[[Nadar|Swim]]",
+            "[[Cocinar|Cook]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Dance",
           "options": [
-            "[[Dance|Bailar]]",
-            "[[Swim|Nadar]]",
-            "[[Cook|Cocinar]]",
-            "[[Draw|Dibujar]]"
+            "[[Bailar|Dance]]",
+            "[[Nadar|Swim]]",
+            "[[Cocinar|Cook]]",
+            "[[Dibujar|Draw]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Draw",
           "options": [
-            "[[Dance|Bailar]]",
-            "[[Cook|Cocinar]]",
-            "[[Draw|Dibujar]]",
-            "[[Swim|Nadar]]"
+            "[[Bailar|Dance]]",
+            "[[Cocinar|Cook]]",
+            "[[Dibujar|Draw]]",
+            "[[Nadar|Swim]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Cook",
           "options": [
-            "[[Swim|Nadar]]",
-            "[[Dance|Bailar]]",
-            "[[Cook|Cocinar]]",
-            "[[Draw|Dibujar]]"
+            "[[Nadar|Swim]]",
+            "[[Bailar|Dance]]",
+            "[[Cocinar|Cook]]",
+            "[[Dibujar|Draw]]"
           ],
           "correctAnswer": 2
         }
@@ -235,9 +235,9 @@ export const UNIT_31_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'No puedo hablar francés.'",
           "options": [
-            "[[I can't speak French.|No puedo hablar francés.]]",
-            "[[I can't speak English.|No puedo hablar inglés.]]",
-            "[[I don't speak French.|No hablo francés.]]"
+            "[[No puedo hablar francés.|I can't speak French.]]",
+            "[[No puedo hablar inglés.|I can't speak English.]]",
+            "[[No hablo francés.|I don't speak French.]]"
           ],
           "correctAnswer": 0
         }

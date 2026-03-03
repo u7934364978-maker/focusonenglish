@@ -61,7 +61,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
           "options": [
             "[[Harina|Harina]]",
             "[[Sal|Sal]]",
-            "[[Sugar|Azúcar]]",
+            "[[Azúcar|Sugar]]",
             "[[I don't have any salt.|I don't have any salt.]]"
           ],
           "correctAnswer": 1
@@ -71,8 +71,8 @@ export const UNIT_53_EXERCISES: Exercise[] = [
           "options": [
             "[[Sal|Sal]]",
             "[[Harina|Harina]]",
-            "[[o1|opción 1]]",
-            "[[Sugar|Azúcar]]"
+            "[[opción 1|o1]]",
+            "[[Azúcar|Sugar]]"
           ],
           "correctAnswer": 3
         },
@@ -81,7 +81,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
           "options": [
             "[[Harina|Harina]]",
             "[[coffee|coffee]]",
-            "[[Sugar|Azúcar]]",
+            "[[Azúcar|Sugar]]",
             "[[Sal|Sal]]"
           ],
           "correctAnswer": 0
@@ -178,7 +178,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'No hay ningún huevo'",
           "options": [
-            "[[There aren't any eggs.|No hay ningún huevo.]]",
+            "[[No hay ningún huevo.|There aren't any eggs.]]",
             "[[There are some eggs.|Hay algunos huevos.]]",
             "[[I don't have eggs.|No tengo huevos.]]"
           ],
@@ -805,7 +805,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'coffee' en inglés?",
           "options": [
-            "[[Coffee|Café]]",
+            "[[Café|Coffee]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -987,7 +987,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'coffee' en inglés?",
           "options": [
-            "[[Coffee|Café]]",
+            "[[Café|Coffee]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1169,7 +1169,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'coffee' en inglés?",
           "options": [
-            "[[Coffee|Café]]",
+            "[[Café|Coffee]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1351,7 +1351,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'coffee' en inglés?",
           "options": [
-            "[[Coffee|Café]]",
+            "[[Café|Coffee]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],

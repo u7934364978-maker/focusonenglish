@@ -16,7 +16,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
           "options": [
             "[[Salir|Salir]]",
             "[[Navegar por internet|Navegar por internet]]",
-            "[[Watch TV|Ver la televisión]]",
+            "[[Ver la televisión|Watch TV]]",
             "[[Quedar con amigos|Quedar con amigos]]"
           ],
           "correctAnswer": 2
@@ -26,7 +26,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
           "options": [
             "[[Navegar por internet|Navegar por internet]]",
             "[[Salir|Salir]]",
-            "[[Watch TV|Ver la televisión]]",
+            "[[Ver la televisión|Watch TV]]",
             "[[Quedar con amigos|Quedar con amigos]]"
           ],
           "correctAnswer": 3
@@ -37,7 +37,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
             "[[Salir|Salir]]",
             "[[Quedar con amigos|Quedar con amigos]]",
             "[[Navegar por internet|Navegar por internet]]",
-            "[[Watch TV|Ver la televisión]]"
+            "[[Ver la televisión|Watch TV]]"
           ],
           "correctAnswer": 2
         },
@@ -46,7 +46,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
           "options": [
             "[[Quedar con amigos|Quedar con amigos]]",
             "[[Salir|Salir]]",
-            "[[Watch TV|Ver la televisión]]",
+            "[[Ver la televisión|Watch TV]]",
             "[[Navegar por internet|Navegar por internet]]"
           ],
           "correctAnswer": 1
@@ -69,9 +69,9 @@ export const UNIT_35_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'Escuchar música'?",
           "options": [
-            "[[Listen to music|Escuchar música]]",
-            "[[Hear music|Oír música]]",
-            "[[Listen music|Escuchar música]]"
+            "[[Escuchar música|Listen to music]]",
+            "[[Oír música|Hear music]]",
+            "[[Escuchar música|Listen music]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -361,7 +361,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'watching TV' en inglés?",
           "options": [
-            "[[Watching TV|Ver la televisión]]",
+            "[[Ver la televisión|Watching TV]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -517,7 +517,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'music' en inglés?",
           "options": [
-            "[[Music|Música]]",
+            "[[Música|Music]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -543,7 +543,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'watching TV' en inglés?",
           "options": [
-            "[[Watching TV|Ver la televisión]]",
+            "[[Ver la televisión|Watching TV]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -699,7 +699,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'music' en inglés?",
           "options": [
-            "[[Music|Música]]",
+            "[[Música|Music]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -725,7 +725,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'watching TV' en inglés?",
           "options": [
-            "[[Watching TV|Ver la televisión]]",
+            "[[Ver la televisión|Watching TV]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -881,7 +881,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'music' en inglés?",
           "options": [
-            "[[Music|Música]]",
+            "[[Música|Music]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -907,7 +907,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'watching TV' en inglés?",
           "options": [
-            "[[Watching TV|Ver la televisión]]",
+            "[[Ver la televisión|Watching TV]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1063,7 +1063,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'music' en inglés?",
           "options": [
-            "[[Music|Música]]",
+            "[[Música|Music]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1089,7 +1089,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'watching TV' en inglés?",
           "options": [
-            "[[Watching TV|Ver la televisión]]",
+            "[[Ver la televisión|Watching TV]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1245,7 +1245,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'music' en inglés?",
           "options": [
-            "[[Music|Música]]",
+            "[[Música|Music]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1271,7 +1271,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'watching TV' en inglés?",
           "options": [
-            "[[Watching TV|Ver la televisión]]",
+            "[[Ver la televisión|Watching TV]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1427,7 +1427,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'music' en inglés?",
           "options": [
-            "[[Music|Música]]",
+            "[[Música|Music]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1453,7 +1453,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'watching TV' en inglés?",
           "options": [
-            "[[Watching TV|Ver la televisión]]",
+            "[[Ver la televisión|Watching TV]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],

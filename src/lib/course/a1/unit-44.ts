@@ -17,7 +17,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
             "[[Nublado|Nublado]]",
             "[[Soleado|Soleado]]",
             "[[Lluvioso|Lluvioso]]",
-            "[[Windy|Ventoso]]"
+            "[[Ventoso|Windy]]"
           ],
           "correctAnswer": 1
         },
@@ -26,7 +26,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
           "options": [
             "[[Lluvioso|Lluvioso]]",
             "[[Soleado|Soleado]]",
-            "[[Windy|Ventoso]]",
+            "[[Ventoso|Windy]]",
             "[[Nublado|Nublado]]"
           ],
           "correctAnswer": 0
@@ -35,7 +35,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
           "question": "Cloudy",
           "options": [
             "[[Lluvioso|Lluvioso]]",
-            "[[Windy|Ventoso]]",
+            "[[Ventoso|Windy]]",
             "[[Nublado|Nublado]]",
             "[[Soleado|Soleado]]"
           ],
@@ -47,7 +47,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
             "[[Nublado|Nublado]]",
             "[[Lluvioso|Lluvioso]]",
             "[[Soleado|Soleado]]",
-            "[[Windy|Ventoso]]"
+            "[[Ventoso|Windy]]"
           ],
           "correctAnswer": 3
         }
@@ -120,8 +120,8 @@ export const UNIT_44_EXERCISES: Exercise[] = [
           "question": "Traduce: 'Hace calor'",
           "options": [
             "[[It's hot.|Hace calor.]]",
-            "[[It's cold.|Hace frío.]]",
-            "[[It's warm.|Está templado.]]"
+            "[[Hace frío.|It's cold.]]",
+            "[[Está templado.|It's warm.]]"
           ],
           "correctAnswer": 0
         }
@@ -337,7 +337,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'Hoy está muy nublado'",
           "options": [
-            "[[It's very cloudy today.|Hoy está muy nublado.]]",
+            "[[Hoy está muy nublado.|It's very cloudy today.]]",
             "[[It's very sunny today.|Hoy hace mucho sol.]]",
             "[[It's very windy today.|Hoy hace mucho viento.]]"
           ],
@@ -817,7 +817,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'cold' en inglés?",
           "options": [
-            "[[Cold|Frío]]",
+            "[[Frío|Cold]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -999,7 +999,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'cold' en inglés?",
           "options": [
-            "[[Cold|Frío]]",
+            "[[Frío|Cold]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1181,7 +1181,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'cold' en inglés?",
           "options": [
-            "[[Cold|Frío]]",
+            "[[Frío|Cold]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1363,7 +1363,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'cold' en inglés?",
           "options": [
-            "[[Cold|Frío]]",
+            "[[Frío|Cold]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],

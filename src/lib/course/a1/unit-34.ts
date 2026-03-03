@@ -14,30 +14,30 @@ export const UNIT_34_EXERCISES: Exercise[] = [
         {
           "question": "And",
           "options": [
-            "[[Adding information (+)|Añadir información (+)]]",
-            "[[Giving a reason (Why?)|Dar una razón (¿Por qué?)]]",
+            "[[Añadir información (+)|Adding information (+)]]",
+            "[[Dar una razón (¿Por qué?)|Giving a reason (Why?)]]",
             "[[Contrasting ideas (+/-)|Contrastar ideas (+/-)]]",
-            "[[o1|opción 1]]"
+            "[[opción 1|o1]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "But",
           "options": [
-            "[[Giving a reason (Why?)|Dar una razón (¿Por qué?)]]",
-            "[[Adding information (+)|Añadir información (+)]]",
+            "[[Dar una razón (¿Por qué?)|Giving a reason (Why?)]]",
+            "[[Añadir información (+)|Adding information (+)]]",
             "[[Contrasting ideas (+/-)|Contrastar ideas (+/-)]]",
-            "[[o1|opción 1]]"
+            "[[opción 1|o1]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Because",
           "options": [
-            "[[o1|opción 1]]",
+            "[[opción 1|o1]]",
             "[[Contrasting ideas (+/-)|Contrastar ideas (+/-)]]",
-            "[[Giving a reason (Why?)|Dar una razón (¿Por qué?)]]",
-            "[[Adding information (+)|Añadir información (+)]]"
+            "[[Dar una razón (¿Por qué?)|Giving a reason (Why?)]]",
+            "[[Añadir información (+)|Adding information (+)]]"
           ],
           "correctAnswer": 2
         }
@@ -273,9 +273,9 @@ export const UNIT_34_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'Estudio inglés porque me gusta.'",
           "options": [
-            "[[I study English because I like it.|Estudio inglés porque me gusta.]]",
-            "[[I study English but I don't like it.|Estudio inglés pero no me gusta.]]",
-            "[[I study English and it is easy.|Estudio inglés y es fácil.]]"
+            "[[Estudio inglés porque me gusta.|I study English because I like it.]]",
+            "[[Estudio inglés pero no me gusta.|I study English but I don't like it.]]",
+            "[[Estudio inglés y es fácil.|I study English and it is easy.]]"
           ],
           "correctAnswer": 0
         }

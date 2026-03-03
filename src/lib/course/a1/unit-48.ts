@@ -313,9 +313,9 @@ export const UNIT_48_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'Sigue al guía turístico'",
           "options": [
-            "[[Follow the tour guide.|Sigue al guía turístico.]]",
-            "[[Find the tour guide.|Encuentra al guía.]]",
-            "[[Call the tour guide.|Llama al guía.]]"
+            "[[Sigue al guía turístico.|Follow the tour guide.]]",
+            "[[Encuentra al guía.|Find the tour guide.]]",
+            "[[Llama al guía.|Call the tour guide.]]"
           ],
           "correctAnswer": 0
         }
@@ -895,7 +895,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'guide' en inglés?",
           "options": [
-            "[[Guide|Guía]]",
+            "[[Guía|Guide]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1077,7 +1077,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'guide' en inglés?",
           "options": [
-            "[[Guide|Guía]]",
+            "[[Guía|Guide]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1259,7 +1259,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'guide' en inglés?",
           "options": [
-            "[[Guide|Guía]]",
+            "[[Guía|Guide]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1441,7 +1441,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'guide' en inglés?",
           "options": [
-            "[[Guide|Guía]]",
+            "[[Guía|Guide]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],

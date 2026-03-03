@@ -65,8 +65,8 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'Habitación'",
           "options": [
-            "[[Room|Habitación]]",
-            "[[Lobby|Vestíbulo]]",
+            "[[Habitación|Room]]",
+            "[[Vestíbulo|Lobby]]",
             "[[Floor|Planta]]"
           ],
           "correctAnswer": 0
@@ -283,9 +283,9 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: '¿Dónde está el ascensor?'",
           "options": [
-            "[[Where is the lift?|¿Dónde está el ascensor?]]",
-            "[[Where is the reception?|¿Dónde está la recepción?]]",
-            "[[Where is the restaurant?|¿Dónde está el restaurante?]]"
+            "[[¿Dónde está el ascensor?|Where is the lift?]]",
+            "[[¿Dónde está la recepción?|Where is the reception?]]",
+            "[[¿Dónde está el restaurante?|Where is the restaurant?]]"
           ],
           "correctAnswer": 0
         }
@@ -735,7 +735,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'room' en inglés?",
           "options": [
-            "[[Room|Habitación]]",
+            "[[Habitación|Room]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -813,7 +813,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'reception' en inglés?",
           "options": [
-            "[[Reception|Recepción]]",
+            "[[Recepción|Reception]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -917,7 +917,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'room' en inglés?",
           "options": [
-            "[[Room|Habitación]]",
+            "[[Habitación|Room]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -995,7 +995,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'reception' en inglés?",
           "options": [
-            "[[Reception|Recepción]]",
+            "[[Recepción|Reception]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1099,7 +1099,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'room' en inglés?",
           "options": [
-            "[[Room|Habitación]]",
+            "[[Habitación|Room]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1177,7 +1177,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'reception' en inglés?",
           "options": [
-            "[[Reception|Recepción]]",
+            "[[Recepción|Reception]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1281,7 +1281,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'room' en inglés?",
           "options": [
-            "[[Room|Habitación]]",
+            "[[Habitación|Room]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1359,7 +1359,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'reception' en inglés?",
           "options": [
-            "[[Reception|Recepción]]",
+            "[[Recepción|Reception]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],

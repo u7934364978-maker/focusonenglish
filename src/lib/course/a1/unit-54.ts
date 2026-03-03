@@ -95,7 +95,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
         {
           "question": "Many",
           "options": [
-            "[[o1|opción 1]]",
+            "[[opción 1|o1]]",
             "[[Both types|Both types]]",
             "[[Countable (plural)|Countable (plural)]]",
             "[[Uncountable (singular)|Uncountable (singular)]]"
@@ -107,7 +107,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
           "options": [
             "[[Both types|Both types]]",
             "[[Uncountable (singular)|Uncountable (singular)]]",
-            "[[o1|opción 1]]",
+            "[[opción 1|o1]]",
             "[[Countable (plural)|Countable (plural)]]"
           ],
           "correctAnswer": 0
@@ -324,9 +324,9 @@ export const UNIT_54_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: '¿Cuánto tiempo tenemos?'",
           "options": [
-            "[[How much time do we have?|¿Cuánto tiempo tenemos?]]",
-            "[[How many times do we have?|¿Cuántas veces tenemos?]]",
-            "[[What time do we have?|¿Qué hora tenemos?]]"
+            "[[¿Cuánto tiempo tenemos?|How much time do we have?]]",
+            "[[¿Cuántas veces tenemos?|How many times do we have?]]",
+            "[[¿Qué hora tenemos?|What time do we have?]]"
           ],
           "correctAnswer": 0
         }

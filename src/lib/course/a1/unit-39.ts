@@ -67,7 +67,7 @@ export const UNIT_39_EXERCISES: Exercise[] = [
           "options": [
             "[[Yesterday|Ayer]]",
             "[[Today|Hoy]]",
-            "[[Tomorrow|Mañana]]"
+            "[[Mañana|Tomorrow]]"
           ],
           "correctAnswer": 0
         }
@@ -207,9 +207,9 @@ export const UNIT_39_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: '¿Dónde estuviste ayer?'",
           "options": [
-            "[[Where were you yesterday?|¿Dónde estuviste ayer?]]",
-            "[[Where are you today?|¿Dónde estás hoy?]]",
-            "[[Where were you last week?|¿Dónde estuviste la semana pasada?]]"
+            "[[¿Dónde estuviste ayer?|Where were you yesterday?]]",
+            "[[¿Dónde estás hoy?|Where are you today?]]",
+            "[[¿Dónde estuviste la semana pasada?|Where were you last week?]]"
           ],
           "correctAnswer": 0
         }

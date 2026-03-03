@@ -15,19 +15,19 @@ export const UNIT_37_EXERCISES: Exercise[] = [
           "question": "Paint",
           "options": [
             "[[Programar|Programar]]",
-            "[[Cook|Cocinar]]",
-            "[[Type|Escribir a máquina]]",
-            "[[Paint|Pintar]]"
+            "[[Cocinar|Cook]]",
+            "[[Escribir a máquina|Type]]",
+            "[[Pintar|Paint]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Type",
           "options": [
-            "[[Cook|Cocinar]]",
+            "[[Cocinar|Cook]]",
             "[[Programar|Programar]]",
-            "[[Type|Escribir a máquina]]",
-            "[[Paint|Pintar]]"
+            "[[Escribir a máquina|Type]]",
+            "[[Pintar|Paint]]"
           ],
           "correctAnswer": 2
         },
@@ -35,19 +35,19 @@ export const UNIT_37_EXERCISES: Exercise[] = [
           "question": "Code",
           "options": [
             "[[Programar|Programar]]",
-            "[[Type|Escribir a máquina]]",
-            "[[Paint|Pintar]]",
-            "[[Cook|Cocinar]]"
+            "[[Escribir a máquina|Type]]",
+            "[[Pintar|Paint]]",
+            "[[Cocinar|Cook]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Cook",
           "options": [
-            "[[Type|Escribir a máquina]]",
-            "[[Cook|Cocinar]]",
+            "[[Escribir a máquina|Type]]",
+            "[[Cocinar|Cook]]",
             "[[Programar|Programar]]",
-            "[[Paint|Pintar]]"
+            "[[Pintar|Paint]]"
           ],
           "correctAnswer": 1
         }
@@ -287,9 +287,9 @@ export const UNIT_37_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: '¿Quién puede hablar inglés?'",
           "options": [
-            "[[Who can speak English?|¿Quién puede hablar inglés?]]",
-            "[[Who speaks Spanish?|¿Quién habla español?]]",
-            "[[Who can sing?|¿Quién puede cantar?]]"
+            "[[¿Quién puede hablar inglés?|Who can speak English?]]",
+            "[[¿Quién habla español?|Who speaks Spanish?]]",
+            "[[¿Quién puede cantar?|Who can sing?]]"
           ],
           "correctAnswer": 0
         }

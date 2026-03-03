@@ -65,7 +65,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'Batería'",
           "options": [
-            "[[Drums|Batería]]",
+            "[[Batería|Drums]]",
             "[[Guitar|Guitarra]]",
             "[[Piano|Piano]]"
           ],

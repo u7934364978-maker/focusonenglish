@@ -40,40 +40,40 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "Paint",
           "options": [
-            "[[Dance|Bailar]]",
-            "[[Cook|Cocinar]]",
-            "[[Swim|Nadar]]",
-            "[[Paint|Pintar]]"
+            "[[Bailar|Dance]]",
+            "[[Cocinar|Cook]]",
+            "[[Nadar|Swim]]",
+            "[[Pintar|Paint]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Dance",
           "options": [
-            "[[Dance|Bailar]]",
-            "[[Swim|Nadar]]",
-            "[[Paint|Pintar]]",
-            "[[Cook|Cocinar]]"
+            "[[Bailar|Dance]]",
+            "[[Nadar|Swim]]",
+            "[[Pintar|Paint]]",
+            "[[Cocinar|Cook]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Cook",
           "options": [
-            "[[Swim|Nadar]]",
-            "[[Dance|Bailar]]",
-            "[[Paint|Pintar]]",
-            "[[Cook|Cocinar]]"
+            "[[Nadar|Swim]]",
+            "[[Bailar|Dance]]",
+            "[[Pintar|Paint]]",
+            "[[Cocinar|Cook]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Swim",
           "options": [
-            "[[Paint|Pintar]]",
-            "[[Cook|Cocinar]]",
-            "[[Dance|Bailar]]",
-            "[[Swim|Nadar]]"
+            "[[Pintar|Paint]]",
+            "[[Cocinar|Cook]]",
+            "[[Bailar|Dance]]",
+            "[[Nadar|Swim]]"
           ],
           "correctAnswer": 3
         }
@@ -264,10 +264,10 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "Go for a walk",
           "options": [
-            "[[Go for a walk|Dar un paseo]]",
-            "[[Listen to music|Escuchar música]]",
+            "[[Dar un paseo|Go for a walk]]",
+            "[[Escuchar música|Listen to music]]",
             "[[Quedar con amigos|Quedar con amigos]]",
-            "[[Watch a film|Ver una peli]]"
+            "[[Ver una peli|Watch a film]]"
           ],
           "correctAnswer": 0
         },
@@ -275,8 +275,8 @@ export const UNIT_59_EXERCISES: Exercise[] = [
           "question": "Watch a movie",
           "options": [
             "[[Watch a film|Ver una peli]]",
-            "[[Listen to music|Escuchar música]]",
-            "[[Go for a walk|Dar un paseo]]",
+            "[[Escuchar música|Listen to music]]",
+            "[[Dar un paseo|Go for a walk]]",
             "[[Quedar con amigos|Quedar con amigos]]"
           ],
           "correctAnswer": 0
@@ -285,19 +285,19 @@ export const UNIT_59_EXERCISES: Exercise[] = [
           "question": "Meet friends",
           "options": [
             "[[Quedar con amigos|Quedar con amigos]]",
-            "[[Listen to music|Escuchar música]]",
+            "[[Escuchar música|Listen to music]]",
             "[[Watch a film|Ver una peli]]",
-            "[[Go for a walk|Dar un paseo]]"
+            "[[Dar un paseo|Go for a walk]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Listen to music",
           "options": [
-            "[[Go for a walk|Dar un paseo]]",
+            "[[Dar un paseo|Go for a walk]]",
             "[[Quedar con amigos|Quedar con amigos]]",
-            "[[Listen to music|Escuchar música]]",
-            "[[Watch a film|Ver una peli]]"
+            "[[Escuchar música|Listen to music]]",
+            "[[Ver una peli|Watch a film]]"
           ],
           "correctAnswer": 2
         }
@@ -345,9 +345,9 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "Escribe 'escuchar música' en inglés:",
           "options": [
-            "[[Listen to music|Escuchar música]]",
-            "[[Watch TV|Ver la televisión]]",
-            "[[Play music|Tocar música]]"
+            "[[Escuchar música|Listen to music]]",
+            "[[Ver la televisión|Watch TV]]",
+            "[[Tocar música|Play music]]"
           ],
           "correctAnswer": 0
         }
@@ -418,8 +418,8 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'Me gusta escuchar música'",
           "options": [
-            "[[I like listening to music.|Me gusta escuchar música.]]",
-            "[[I like watching TV.|Me gusta ver la televisión.]]",
+            "[[Me gusta escuchar música.|I like listening to music.]]",
+            "[[Me gusta ver la televisión.|I like watching TV.]]",
             "[[I like dancing.|Me gusta bailar.]]"
           ],
           "correctAnswer": 0

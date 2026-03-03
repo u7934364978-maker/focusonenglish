@@ -24,8 +24,8 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "Talent",
           "options": [
-            "[[Activity|Actividad]]",
-            "[[Talent|Talento]]",
+            "[[Actividad|Activity]]",
+            "[[Talento|Talent]]",
             "[[Frecuencia|Frecuencia]]",
             "[[Habilidad|Habilidad]]"
           ],
@@ -44,9 +44,9 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "Activity",
           "options": [
-            "[[Talent|Talento]]",
+            "[[Talento|Talent]]",
             "[[Frecuencia|Frecuencia]]",
-            "[[Activity|Actividad]]",
+            "[[Actividad|Activity]]",
             "[[Habilidad|Habilidad]]"
           ],
           "correctAnswer": 2
@@ -190,8 +190,8 @@ export const UNIT_40_EXERCISES: Exercise[] = [
           "options": [
             "[[Frecuencia|Frecuencia]]",
             "[[Habilidad|Habilidad]]",
-            "[[Talent|Talento]]",
-            "[[Activity|Actividad]]"
+            "[[Talento|Talent]]",
+            "[[Actividad|Activity]]"
           ],
           "correctAnswer": 2
         },
@@ -209,8 +209,8 @@ export const UNIT_40_EXERCISES: Exercise[] = [
           "question": "Activity",
           "options": [
             "[[Habilidad|Habilidad]]",
-            "[[Activity|Actividad]]",
-            "[[Talent|Talento]]",
+            "[[Actividad|Activity]]",
+            "[[Talento|Talent]]",
             "[[Frecuencia|Frecuencia]]"
           ],
           "correctAnswer": 1
@@ -372,8 +372,8 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "Activity",
           "options": [
-            "[[Activity|Actividad]]",
-            "[[Talent|Talento]]",
+            "[[Actividad|Activity]]",
+            "[[Talento|Talent]]",
             "[[Frecuencia|Frecuencia]]",
             "[[Habilidad|Habilidad]]"
           ],
@@ -392,8 +392,8 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "Talent",
           "options": [
-            "[[Activity|Actividad]]",
-            "[[Talent|Talento]]",
+            "[[Actividad|Activity]]",
+            "[[Talento|Talent]]",
             "[[Habilidad|Habilidad]]",
             "[[Frecuencia|Frecuencia]]"
           ],
@@ -537,8 +537,8 @@ export const UNIT_40_EXERCISES: Exercise[] = [
           "question": "Activity",
           "options": [
             "[[Habilidad|Habilidad]]",
-            "[[Activity|Actividad]]",
-            "[[Talent|Talento]]",
+            "[[Actividad|Activity]]",
+            "[[Talento|Talent]]",
             "[[Frecuencia|Frecuencia]]"
           ],
           "correctAnswer": 1
@@ -556,8 +556,8 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "Talent",
           "options": [
-            "[[Talent|Talento]]",
-            "[[Activity|Actividad]]",
+            "[[Talento|Talent]]",
+            "[[Actividad|Activity]]",
             "[[Habilidad|Habilidad]]",
             "[[Frecuencia|Frecuencia]]"
           ],
@@ -721,8 +721,8 @@ export const UNIT_40_EXERCISES: Exercise[] = [
           "question": "Talent",
           "options": [
             "[[Habilidad|Habilidad]]",
-            "[[Talent|Talento]]",
-            "[[Activity|Actividad]]",
+            "[[Talento|Talent]]",
+            "[[Actividad|Activity]]",
             "[[Frecuencia|Frecuencia]]"
           ],
           "correctAnswer": 1
@@ -741,9 +741,9 @@ export const UNIT_40_EXERCISES: Exercise[] = [
           "question": "Activity",
           "options": [
             "[[Frecuencia|Frecuencia]]",
-            "[[Talent|Talento]]",
+            "[[Talento|Talent]]",
             "[[Habilidad|Habilidad]]",
-            "[[Activity|Actividad]]"
+            "[[Actividad|Activity]]"
           ],
           "correctAnswer": 3
         }
@@ -884,9 +884,9 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "Talent",
           "options": [
-            "[[Talent|Talento]]",
+            "[[Talento|Talent]]",
             "[[Frecuencia|Frecuencia]]",
-            "[[Activity|Actividad]]",
+            "[[Actividad|Activity]]",
             "[[Habilidad|Habilidad]]"
           ],
           "correctAnswer": 0
@@ -904,10 +904,10 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "Activity",
           "options": [
-            "[[Talent|Talento]]",
+            "[[Talento|Talent]]",
             "[[Habilidad|Habilidad]]",
             "[[Frecuencia|Frecuencia]]",
-            "[[Activity|Actividad]]"
+            "[[Actividad|Activity]]"
           ],
           "correctAnswer": 3
         },
@@ -1068,9 +1068,9 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "Activity",
           "options": [
-            "[[Talent|Talento]]",
+            "[[Talento|Talent]]",
             "[[Frecuencia|Frecuencia]]",
-            "[[Activity|Actividad]]",
+            "[[Actividad|Activity]]",
             "[[Habilidad|Habilidad]]"
           ],
           "correctAnswer": 2
@@ -1090,8 +1090,8 @@ export const UNIT_40_EXERCISES: Exercise[] = [
           "options": [
             "[[Habilidad|Habilidad]]",
             "[[Frecuencia|Frecuencia]]",
-            "[[Talent|Talento]]",
-            "[[Activity|Actividad]]"
+            "[[Talento|Talent]]",
+            "[[Actividad|Activity]]"
           ],
           "correctAnswer": 2
         }
@@ -1232,10 +1232,10 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "Activity",
           "options": [
-            "[[Activity|Actividad]]",
+            "[[Actividad|Activity]]",
             "[[Habilidad|Habilidad]]",
             "[[Frecuencia|Frecuencia]]",
-            "[[Talent|Talento]]"
+            "[[Talento|Talent]]"
           ],
           "correctAnswer": 0
         },
@@ -1253,9 +1253,9 @@ export const UNIT_40_EXERCISES: Exercise[] = [
           "question": "Talent",
           "options": [
             "[[Frecuencia|Frecuencia]]",
-            "[[Activity|Actividad]]",
+            "[[Actividad|Activity]]",
             "[[Habilidad|Habilidad]]",
-            "[[Talent|Talento]]"
+            "[[Talento|Talent]]"
           ],
           "correctAnswer": 3
         },
@@ -1416,9 +1416,9 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "Talent",
           "options": [
-            "[[Talent|Talento]]",
+            "[[Talento|Talent]]",
             "[[Habilidad|Habilidad]]",
-            "[[Activity|Actividad]]",
+            "[[Actividad|Activity]]",
             "[[Frecuencia|Frecuencia]]"
           ],
           "correctAnswer": 0
@@ -1436,10 +1436,10 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "Activity",
           "options": [
-            "[[Activity|Actividad]]",
+            "[[Actividad|Activity]]",
             "[[Frecuencia|Frecuencia]]",
             "[[Habilidad|Habilidad]]",
-            "[[Talent|Talento]]"
+            "[[Talento|Talent]]"
           ],
           "correctAnswer": 0
         }
@@ -1580,9 +1580,9 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "Talent",
           "options": [
-            "[[Talent|Talento]]",
+            "[[Talento|Talent]]",
             "[[Frecuencia|Frecuencia]]",
-            "[[Activity|Actividad]]",
+            "[[Actividad|Activity]]",
             "[[Habilidad|Habilidad]]"
           ],
           "correctAnswer": 0
@@ -1600,9 +1600,9 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "Activity",
           "options": [
-            "[[Talent|Talento]]",
+            "[[Talento|Talent]]",
             "[[Habilidad|Habilidad]]",
-            "[[Activity|Actividad]]",
+            "[[Actividad|Activity]]",
             "[[Frecuencia|Frecuencia]]"
           ],
           "correctAnswer": 2

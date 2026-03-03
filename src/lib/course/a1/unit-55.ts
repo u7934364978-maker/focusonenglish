@@ -40,10 +40,10 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "Shop assistant",
           "options": [
-            "[[Shop assistant|Dependiente/a]]",
+            "[[Dependiente/a|Shop assistant]]",
             "[[Etiqueta|Etiqueta]]",
             "[[Rebajas|Rebajas]]",
-            "[[Customer|Cliente]]"
+            "[[Cliente|Customer]]"
           ],
           "correctAnswer": 0
         },
@@ -51,9 +51,9 @@ export const UNIT_55_EXERCISES: Exercise[] = [
           "question": "Customer",
           "options": [
             "[[Rebajas|Rebajas]]",
-            "[[Customer|Cliente]]",
+            "[[Cliente|Customer]]",
             "[[Etiqueta|Etiqueta]]",
-            "[[Shop assistant|Dependiente/a]]"
+            "[[Dependiente/a|Shop assistant]]"
           ],
           "correctAnswer": 1
         },
@@ -61,9 +61,9 @@ export const UNIT_55_EXERCISES: Exercise[] = [
           "question": "Price tag",
           "options": [
             "[[Etiqueta|Etiqueta]]",
-            "[[Customer|Cliente]]",
+            "[[Cliente|Customer]]",
             "[[Rebajas|Rebajas]]",
-            "[[Shop assistant|Dependiente/a]]"
+            "[[Dependiente/a|Shop assistant]]"
           ],
           "correctAnswer": 0
         },
@@ -72,8 +72,8 @@ export const UNIT_55_EXERCISES: Exercise[] = [
           "options": [
             "[[Etiqueta|Etiqueta]]",
             "[[Rebajas|Rebajas]]",
-            "[[Shop assistant|Dependiente/a]]",
-            "[[Customer|Cliente]]"
+            "[[Dependiente/a|Shop assistant]]",
+            "[[Cliente|Customer]]"
           ],
           "correctAnswer": 1
         }
@@ -315,9 +315,9 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: '¿Cuánto cuesta esta camisa?'",
           "options": [
-            "[[How much does this shirt cost?|¿Cuánto cuesta esta camisa?]]",
-            "[[How much is this dress?|¿Cuánto cuesta este vestido?]]",
-            "[[How much are these shoes?|¿Cuánto cuestan estos zapatos?]]"
+            "[[¿Cuánto cuesta esta camisa?|How much does this shirt cost?]]",
+            "[[¿Cuánto cuesta este vestido?|How much is this dress?]]",
+            "[[¿Cuánto cuestan estos zapatos?|How much are these shoes?]]"
           ],
           "correctAnswer": 0
         }
@@ -794,7 +794,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'size' en inglés?",
           "options": [
-            "[[Size|Tamaño]]",
+            "[[Tamaño|Size]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -976,7 +976,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'size' en inglés?",
           "options": [
-            "[[Size|Tamaño]]",
+            "[[Tamaño|Size]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1158,7 +1158,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'size' en inglés?",
           "options": [
-            "[[Size|Tamaño]]",
+            "[[Tamaño|Size]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1340,7 +1340,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'size' en inglés?",
           "options": [
-            "[[Size|Tamaño]]",
+            "[[Tamaño|Size]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],

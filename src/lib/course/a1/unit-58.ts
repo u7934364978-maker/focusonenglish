@@ -43,7 +43,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
             "[[Levantarse|Levantarse]]",
             "[[Brush your teeth|Cepillarse los dientes]]",
             "[[Have a shower|Ducharse]]",
-            "[[Have breakfast|Desayunar]]"
+            "[[Desayunar|Have breakfast]]"
           ],
           "correctAnswer": 0
         },
@@ -51,7 +51,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
           "question": "Brush teeth",
           "options": [
             "[[Levantarse|Levantarse]]",
-            "[[Have breakfast|Desayunar]]",
+            "[[Desayunar|Have breakfast]]",
             "[[Brush your teeth|Cepillarse los dientes]]",
             "[[Have a shower|Ducharse]]"
           ],
@@ -60,9 +60,9 @@ export const UNIT_58_EXERCISES: Exercise[] = [
         {
           "question": "Have breakfast",
           "options": [
-            "[[Have a shower|Ducharse]]",
-            "[[Have breakfast|Desayunar]]",
-            "[[Brush your teeth|Cepillarse los dientes]]",
+            "[[Ducharse|Have a shower]]",
+            "[[Desayunar|Have breakfast]]",
+            "[[Cepillarse los dientes|Brush your teeth]]",
             "[[Levantarse|Levantarse]]"
           ],
           "correctAnswer": 1
@@ -70,7 +70,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
         {
           "question": "Take a shower",
           "options": [
-            "[[Have breakfast|Desayunar]]",
+            "[[Desayunar|Have breakfast]]",
             "[[Levantarse|Levantarse]]",
             "[[Have a shower|Ducharse]]",
             "[[Brush your teeth|Cepillarse los dientes]]"
@@ -240,28 +240,28 @@ export const UNIT_58_EXERCISES: Exercise[] = [
           "options": [
             "[[Irse a la cama|Irse a la cama]]",
             "[[Llegar a casa|Llegar a casa]]",
-            "[[Have dinner|Cenar]]",
-            "[[Watch TV|Ver la tele]]"
+            "[[Cenar|Have dinner]]",
+            "[[Ver la tele|Watch TV]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Have dinner",
           "options": [
-            "[[Have dinner|Cenar]]",
+            "[[Cenar|Have dinner]]",
             "[[Llegar a casa|Llegar a casa]]",
             "[[Irse a la cama|Irse a la cama]]",
-            "[[Watch TV|Ver la tele]]"
+            "[[Ver la tele|Watch TV]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Watch TV",
           "options": [
-            "[[Watch TV|Ver la tele]]",
+            "[[Ver la tele|Watch TV]]",
             "[[Irse a la cama|Irse a la cama]]",
             "[[Llegar a casa|Llegar a casa]]",
-            "[[Have dinner|Cenar]]"
+            "[[Cenar|Have dinner]]"
           ],
           "correctAnswer": 0
         },
@@ -269,9 +269,9 @@ export const UNIT_58_EXERCISES: Exercise[] = [
           "question": "Go to bed",
           "options": [
             "[[Irse a la cama|Irse a la cama]]",
-            "[[Have dinner|Cenar]]",
+            "[[Cenar|Have dinner]]",
             "[[Llegar a casa|Llegar a casa]]",
-            "[[Watch TV|Ver la tele]]"
+            "[[Ver la tele|Watch TV]]"
           ],
           "correctAnswer": 0
         }
@@ -772,7 +772,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'cold' en inglés?",
           "options": [
-            "[[Cold|Frío]]",
+            "[[Frío|Cold]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -954,7 +954,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'cold' en inglés?",
           "options": [
-            "[[Cold|Frío]]",
+            "[[Frío|Cold]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1136,7 +1136,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'cold' en inglés?",
           "options": [
-            "[[Cold|Frío]]",
+            "[[Frío|Cold]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1318,7 +1318,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'cold' en inglés?",
           "options": [
-            "[[Cold|Frío]]",
+            "[[Frío|Cold]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1500,7 +1500,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'cold' en inglés?",
           "options": [
-            "[[Cold|Frío]]",
+            "[[Frío|Cold]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],

@@ -40,10 +40,10 @@ export const UNIT_51_EXERCISES: Exercise[] = [
         {
           "question": "Trolley",
           "options": [
-            "[[Basket|Cesta]]",
+            "[[Cesta|Basket]]",
             "[[Estante|Estante]]",
-            "[[Trolley|Carrito]]",
-            "[[Checkout|Caja]]"
+            "[[Carrito|Trolley]]",
+            "[[Caja|Checkout]]"
           ],
           "correctAnswer": 2
         },
@@ -51,9 +51,9 @@ export const UNIT_51_EXERCISES: Exercise[] = [
           "question": "Basket",
           "options": [
             "[[Estante|Estante]]",
-            "[[Checkout|Caja]]",
-            "[[Basket|Cesta]]",
-            "[[Trolley|Carrito]]"
+            "[[Caja|Checkout]]",
+            "[[Cesta|Basket]]",
+            "[[Carrito|Trolley]]"
           ],
           "correctAnswer": 2
         },
@@ -61,9 +61,9 @@ export const UNIT_51_EXERCISES: Exercise[] = [
           "question": "Checkout",
           "options": [
             "[[Estante|Estante]]",
-            "[[Checkout|Caja]]",
-            "[[Basket|Cesta]]",
-            "[[Trolley|Carrito]]"
+            "[[Caja|Checkout]]",
+            "[[Cesta|Basket]]",
+            "[[Carrito|Trolley]]"
           ],
           "correctAnswer": 1
         },
@@ -71,9 +71,9 @@ export const UNIT_51_EXERCISES: Exercise[] = [
           "question": "Shelf",
           "options": [
             "[[Estante|Estante]]",
-            "[[Checkout|Caja]]",
-            "[[Basket|Cesta]]",
-            "[[Trolley|Carrito]]"
+            "[[Caja|Checkout]]",
+            "[[Cesta|Basket]]",
+            "[[Carrito|Trolley]]"
           ],
           "correctAnswer": 0
         }

@@ -41,19 +41,19 @@ export const UNIT_49_EXERCISES: Exercise[] = [
           "question": "Sunscreen",
           "options": [
             "[[Protector solar|Protector solar]]",
-            "[[Swimsuit|Bañador]]",
+            "[[Bañador|Swimsuit]]",
             "[[Gafas de sol|Gafas de sol]]",
-            "[[Charger|Cargador]]"
+            "[[Cargador|Charger]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Sunglasses",
           "options": [
-            "[[Charger|Cargador]]",
+            "[[Cargador|Charger]]",
             "[[Gafas de sol|Gafas de sol]]",
             "[[Protector solar|Protector solar]]",
-            "[[Swimsuit|Bañador]]"
+            "[[Bañador|Swimsuit]]"
           ],
           "correctAnswer": 1
         },
@@ -61,9 +61,9 @@ export const UNIT_49_EXERCISES: Exercise[] = [
           "question": "Charger",
           "options": [
             "[[Gafas de sol|Gafas de sol]]",
-            "[[Charger|Cargador]]",
+            "[[Cargador|Charger]]",
             "[[Protector solar|Protector solar]]",
-            "[[Swimsuit|Bañador]]"
+            "[[Bañador|Swimsuit]]"
           ],
           "correctAnswer": 1
         },
@@ -71,9 +71,9 @@ export const UNIT_49_EXERCISES: Exercise[] = [
           "question": "Swimsuit",
           "options": [
             "[[Protector solar|Protector solar]]",
-            "[[Swimsuit|Bañador]]",
+            "[[Bañador|Swimsuit]]",
             "[[Gafas de sol|Gafas de sol]]",
-            "[[Charger|Cargador]]"
+            "[[Cargador|Charger]]"
           ],
           "correctAnswer": 1
         }
@@ -818,7 +818,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'camera' en inglés?",
           "options": [
-            "[[Camera|Cámara]]",
+            "[[Cámara|Camera]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1000,7 +1000,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'camera' en inglés?",
           "options": [
-            "[[Camera|Cámara]]",
+            "[[Cámara|Camera]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1182,7 +1182,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'camera' en inglés?",
           "options": [
-            "[[Camera|Cámara]]",
+            "[[Cámara|Camera]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1364,7 +1364,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'camera' en inglés?",
           "options": [
-            "[[Camera|Cámara]]",
+            "[[Cámara|Camera]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],

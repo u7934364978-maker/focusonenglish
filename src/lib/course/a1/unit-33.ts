@@ -214,30 +214,30 @@ export const UNIT_33_EXERCISES: Exercise[] = [
         {
           "question": "Once a week",
           "options": [
-            "[[Every day|Cada día]]",
-            "[[Twice a month|Dos veces al mes]]",
-            "[[Once a week|Una vez por semana]]",
-            "[[o1|opción 1]]"
+            "[[Cada día|Every day]]",
+            "[[Dos veces al mes|Twice a month]]",
+            "[[Una vez por semana|Once a week]]",
+            "[[opción 1|o1]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Twice a month",
           "options": [
-            "[[o1|opción 1]]",
-            "[[Once a week|Una vez por semana]]",
-            "[[Every day|Cada día]]",
-            "[[Twice a month|Dos veces al mes]]"
+            "[[opción 1|o1]]",
+            "[[Una vez por semana|Once a week]]",
+            "[[Cada día|Every day]]",
+            "[[Dos veces al mes|Twice a month]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Every day",
           "options": [
-            "[[Every day|Cada día]]",
+            "[[Cada día|Every day]]",
             "[[always|always]]",
-            "[[Twice a month|Dos veces al mes]]",
-            "[[Once a week|Una vez por semana]]"
+            "[[Dos veces al mes|Twice a month]]",
+            "[[Una vez por semana|Once a week]]"
           ],
           "correctAnswer": 0
         }
@@ -285,9 +285,9 @@ export const UNIT_33_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'Dos veces al año.'",
           "options": [
-            "[[Twice a year.|Dos veces al año.]]",
-            "[[Once a year.|Una vez al año.]]",
-            "[[Three times a year.|Tres veces al año.]]"
+            "[[Dos veces al año.|Twice a year.]]",
+            "[[Una vez al año.|Once a year.]]",
+            "[[Tres veces al año.|Three times a year.]]"
           ],
           "correctAnswer": 0
         }

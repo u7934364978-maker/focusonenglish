@@ -442,9 +442,9 @@ export const UNIT_57_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: 'Los niños están felices'",
           "options": [
-            "[[The children are happy.|Los niños están felices.]]",
-            "[[The children are sad.|Los niños están tristes.]]",
-            "[[The childs are happy.|Los niños están felices. (incorrecto)]]"
+            "[[Los niños están felices.|The children are happy.]]",
+            "[[Los niños están tristes.|The children are sad.]]",
+            "[[Los niños están felices. (incorrecto)|The childs are happy.]]"
           ],
           "correctAnswer": 0
         }

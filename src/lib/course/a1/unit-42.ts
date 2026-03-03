@@ -14,40 +14,40 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "Train",
           "options": [
-            "[[Plane|Avión]]",
-            "[[Ship|Barco]]",
-            "[[Train|Tren]]",
-            "[[Bus|Autobús]]"
+            "[[Avión|Plane]]",
+            "[[Barco|Ship]]",
+            "[[Tren|Train]]",
+            "[[Autobús|Bus]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Bus",
           "options": [
-            "[[Ship|Barco]]",
-            "[[Train|Tren]]",
-            "[[Plane|Avión]]",
-            "[[Bus|Autobús]]"
+            "[[Barco|Ship]]",
+            "[[Tren|Train]]",
+            "[[Avión|Plane]]",
+            "[[Autobús|Bus]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Plane",
           "options": [
-            "[[Plane|Avión]]",
-            "[[Ship|Barco]]",
-            "[[Bus|Autobús]]",
-            "[[Train|Tren]]"
+            "[[Avión|Plane]]",
+            "[[Barco|Ship]]",
+            "[[Autobús|Bus]]",
+            "[[Tren|Train]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Boat",
           "options": [
-            "[[Train|Tren]]",
-            "[[Plane|Avión]]",
+            "[[Tren|Train]]",
+            "[[Avión|Plane]]",
             "[[Ship|Barco]]",
-            "[[Bus|Autobús]]"
+            "[[Autobús|Bus]]"
           ],
           "correctAnswer": 2
         }
@@ -338,7 +338,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
           "question": "Traduce: 'Voy en coche'",
           "options": [
             "[[I go by car.|Voy en coche.]]",
-            "[[I go by bus.|Voy en autobús.]]",
+            "[[Voy en autobús.|I go by bus.]]",
             "[[I go by train.|Voy en tren.]]"
           ],
           "correctAnswer": 0
@@ -739,7 +739,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'bus' en inglés?",
           "options": [
-            "[[Bus|Autobús]]",
+            "[[Autobús|Bus]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -791,7 +791,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'plane' en inglés?",
           "options": [
-            "[[Plane|Avión]]",
+            "[[Avión|Plane]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -869,7 +869,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'station' en inglés?",
           "options": [
-            "[[Station|Estación]]",
+            "[[Estación|Station]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -921,7 +921,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'bus' en inglés?",
           "options": [
-            "[[Bus|Autobús]]",
+            "[[Autobús|Bus]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -973,7 +973,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'plane' en inglés?",
           "options": [
-            "[[Plane|Avión]]",
+            "[[Avión|Plane]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1051,7 +1051,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'station' en inglés?",
           "options": [
-            "[[Station|Estación]]",
+            "[[Estación|Station]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1103,7 +1103,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'bus' en inglés?",
           "options": [
-            "[[Bus|Autobús]]",
+            "[[Autobús|Bus]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1155,7 +1155,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'plane' en inglés?",
           "options": [
-            "[[Plane|Avión]]",
+            "[[Avión|Plane]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1233,7 +1233,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'station' en inglés?",
           "options": [
-            "[[Station|Estación]]",
+            "[[Estación|Station]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1285,7 +1285,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'bus' en inglés?",
           "options": [
-            "[[Bus|Autobús]]",
+            "[[Autobús|Bus]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1337,7 +1337,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'plane' en inglés?",
           "options": [
-            "[[Plane|Avión]]",
+            "[[Avión|Plane]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1415,7 +1415,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'station' en inglés?",
           "options": [
-            "[[Station|Estación]]",
+            "[[Estación|Station]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1467,7 +1467,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'bus' en inglés?",
           "options": [
-            "[[Bus|Autobús]]",
+            "[[Autobús|Bus]]",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],

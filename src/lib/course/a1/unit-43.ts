@@ -15,17 +15,17 @@ export const UNIT_43_EXERCISES: Exercise[] = [
           "question": "Visit",
           "options": [
             "[[Quedarse / Alojarse|Quedarse / Alojarse]]",
-            "[[Visit|Visitar]]",
+            "[[Visitar|Visit]]",
             "[[Llegar|Llegar]]",
-            "[[Travel|Viajar]]"
+            "[[Viajar|Travel]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Stay",
           "options": [
-            "[[Visit|Visitar]]",
-            "[[Travel|Viajar]]",
+            "[[Visitar|Visit]]",
+            "[[Viajar|Travel]]",
             "[[Quedarse / Alojarse|Quedarse / Alojarse]]",
             "[[Llegar|Llegar]]"
           ],
@@ -35,9 +35,9 @@ export const UNIT_43_EXERCISES: Exercise[] = [
           "question": "Arrive",
           "options": [
             "[[Llegar|Llegar]]",
-            "[[Travel|Viajar]]",
+            "[[Viajar|Travel]]",
             "[[Quedarse / Alojarse|Quedarse / Alojarse]]",
-            "[[Visit|Visitar]]"
+            "[[Visitar|Visit]]"
           ],
           "correctAnswer": 0
         },
@@ -45,8 +45,8 @@ export const UNIT_43_EXERCISES: Exercise[] = [
           "question": "Travel",
           "options": [
             "[[Llegar|Llegar]]",
-            "[[Travel|Viajar]]",
-            "[[Visit|Visitar]]",
+            "[[Viajar|Travel]]",
+            "[[Visitar|Visit]]",
             "[[Quedarse / Alojarse|Quedarse / Alojarse]]"
           ],
           "correctAnswer": 1
@@ -121,7 +121,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
           "options": [
             "[[Holiday|Vacaciones]]",
             "[[Weekend|Fin de semana]]",
-            "[[Day off|Día libre]]"
+            "[[Día libre|Day off]]"
           ],
           "correctAnswer": 0
         }

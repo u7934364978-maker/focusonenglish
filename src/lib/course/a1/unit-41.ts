@@ -16,16 +16,16 @@ export const UNIT_41_EXERCISES: Exercise[] = [
           "options": [
             "[[Pasaporte|Pasaporte]]",
             "[[Puerta de embarque|Puerta de embarque]]",
-            "[[Luggage|Equipaje]]",
-            "[[Boarding pass|Tarjeta de embarque]]"
+            "[[Equipaje|Luggage]]",
+            "[[Tarjeta de embarque|Boarding pass]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Boarding pass",
           "options": [
-            "[[Luggage|Equipaje]]",
-            "[[Boarding pass|Tarjeta de embarque]]",
+            "[[Equipaje|Luggage]]",
+            "[[Tarjeta de embarque|Boarding pass]]",
             "[[Pasaporte|Pasaporte]]",
             "[[Puerta de embarque|Puerta de embarque]]"
           ],
@@ -35,19 +35,19 @@ export const UNIT_41_EXERCISES: Exercise[] = [
           "question": "Gate",
           "options": [
             "[[Pasaporte|Pasaporte]]",
-            "[[Luggage|Equipaje]]",
+            "[[Equipaje|Luggage]]",
             "[[Puerta de embarque|Puerta de embarque]]",
-            "[[Boarding pass|Tarjeta de embarque]]"
+            "[[Tarjeta de embarque|Boarding pass]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Luggage",
           "options": [
-            "[[Boarding pass|Tarjeta de embarque]]",
+            "[[Tarjeta de embarque|Boarding pass]]",
             "[[Pasaporte|Pasaporte]]",
             "[[Puerta de embarque|Puerta de embarque]]",
-            "[[Luggage|Equipaje]]"
+            "[[Equipaje|Luggage]]"
           ],
           "correctAnswer": 3
         }
@@ -311,9 +311,9 @@ export const UNIT_41_EXERCISES: Exercise[] = [
         {
           "question": "Traduce: '¿Dónde está mi maleta?'",
           "options": [
-            "[[Where is my suitcase?|¿Dónde está mi maleta?]]",
-            "[[Where is my passport?|¿Dónde está mi pasaporte?]]",
-            "[[Where is my bag?|¿Dónde está mi bolsa?]]"
+            "[[¿Dónde está mi maleta?|Where is my suitcase?]]",
+            "[[¿Dónde está mi pasaporte?|Where is my passport?]]",
+            "[[¿Dónde está mi bolsa?|Where is my bag?]]"
           ],
           "correctAnswer": 0
         }
