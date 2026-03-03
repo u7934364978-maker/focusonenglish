@@ -40,8 +40,8 @@ export const UNIT_36_EXERCISES: Exercise[] = [
         {
           "question": "She plays the ________ (flauta).",
           "options": [
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]",
+            "[[can|can]]",
+            "[[can't|can't]]",
             "[[flute|flute]]",
             "[[piano|piano]]"
           ],
@@ -134,10 +134,10 @@ export const UNIT_36_EXERCISES: Exercise[] = [
         {
           "question": "We are learning to play ________ violin.",
           "options": [
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]",
+            "[[a|a]]",
+            "[[an|an]]",
             "[[the|the]]",
-            "[[o1|opción 1]]"
+            "[[some|some]]"
           ],
           "correctAnswer": 2
         }
@@ -260,7 +260,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
             "[[drums|drums]]",
             "[[Saxofón|Saxofón]]",
             "[[difficult|difficult]]",
-            "[[o1|opción 1]]"
+            "[[can|can]]"
           ],
           "correctAnswer": 2
         }
@@ -1554,10 +1554,12 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[piano|piano]] is here.",
+          "question": "¿Cómo se dice 'piano' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[piano|piano]]"
+            "[[big|big]]",
+            "[[piano|piano]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1579,10 +1581,12 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[violin|violin]] is here.",
+          "question": "¿Cómo se dice 'violin' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[violin|violin]]"
+            "[[big|big]]",
+            "[[violin|violin]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1604,10 +1608,12 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[drums|drums]] is here.",
+          "question": "¿Cómo se dice 'drums' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[drums|drums]]"
+            "[[big|big]]",
+            "[[drums|drums]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1629,10 +1635,12 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[guitar|guitar]] is here.",
+          "question": "¿Cómo se dice 'guitar' en inglés?",
           "options": [
             "[[guitar|guitar]]",
-            "[[o1|opción 1]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1654,10 +1662,12 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[trumpet|trumpet]] is here.",
+          "question": "¿Cómo se dice 'trumpet' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[trumpet|trumpet]]"
+            "[[big|big]]",
+            "[[trumpet|trumpet]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1679,10 +1689,12 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[flute|flute]] is here.",
+          "question": "¿Cómo se dice 'flute' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[flute|flute]]"
+            "[[big|big]]",
+            "[[flute|flute]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1704,10 +1716,12 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[keyboard|keyboard]] is here.",
+          "question": "¿Cómo se dice 'keyboard' en inglés?",
           "options": [
             "[[keyboard|keyboard]]",
-            "[[the|the]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

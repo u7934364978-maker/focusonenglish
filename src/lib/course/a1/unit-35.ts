@@ -95,9 +95,9 @@ export const UNIT_35_EXERCISES: Exercise[] = [
           "question": "I ________ video games on Saturdays.",
           "options": [
             "[[play|jugar]]",
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]"
+            "[[can|can]]",
+            "[[can't|can't]]",
+            "[[could|could]]"
           ],
           "correctAnswer": 0
         }
@@ -219,8 +219,8 @@ export const UNIT_35_EXERCISES: Exercise[] = [
           "options": [
             "[[social|social]]",
             "[[goes|va]]",
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]"
+            "[[can|can]]",
+            "[[can't|can't]]"
           ],
           "correctAnswer": 0
         }
@@ -266,8 +266,8 @@ export const UNIT_35_EXERCISES: Exercise[] = [
           "question": "She ________ (go) to the cinema on Fridays.",
           "options": [
             "[[goes|va]]",
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]",
+            "[[can|can]]",
+            "[[can't|can't]]",
             "[[Meet friends|Quedar con amigos]]"
           ],
           "correctAnswer": 0
@@ -1581,10 +1581,12 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[watching TV|watching TV]] is here.",
+          "question": "¿Cómo se dice 'watching TV' en inglés?",
           "options": [
             "[[watching TV|watching TV]]",
-            "[[o1|opción 1]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1606,10 +1608,12 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[reading|reading]] is here.",
+          "question": "¿Cómo se dice 'reading' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[reading|reading]]"
+            "[[big|big]]",
+            "[[reading|reading]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1631,10 +1635,12 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[books|books]] is here.",
+          "question": "¿Cómo se dice 'books' en inglés?",
           "options": [
             "[[books|books]]",
-            "[[o1|opción 1]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1656,10 +1662,12 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[games|games]] is here.",
+          "question": "¿Cómo se dice 'games' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[games|games]]"
+            "[[big|big]]",
+            "[[games|games]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1681,10 +1689,12 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[friends|friends]] is here.",
+          "question": "¿Cómo se dice 'friends' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[friends|friends]]"
+            "[[big|big]]",
+            "[[friends|friends]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1706,10 +1716,12 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[cinema|cinema]] is here.",
+          "question": "¿Cómo se dice 'cinema' en inglés?",
           "options": [
-            "[[Meet friends|Quedar con amigos]]",
-            "[[cinema|cinema]]"
+            "[[big|big]]",
+            "[[cinema|cinema]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1731,10 +1743,12 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[music|music]] is here.",
+          "question": "¿Cómo se dice 'music' en inglés?",
           "options": [
             "[[music|music]]",
-            "[[categorization_logic|categorization_logic]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

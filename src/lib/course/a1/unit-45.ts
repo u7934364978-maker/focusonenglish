@@ -95,7 +95,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
           "question": "It is December. It is ________. (invierno)",
           "options": [
             "[[autumn|otoño]]",
-            "[[o1|opción 1]]",
+            "[[can|can]]",
             "[[winter|invierno]]",
             "[[leaves|hojas]]"
           ],
@@ -194,9 +194,9 @@ export const UNIT_45_EXERCISES: Exercise[] = [
           "question": "I like ________ in winter. (esquiar/ski)",
           "options": [
             "[[skiing|skiing]]",
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]"
+            "[[can|can]]",
+            "[[can't|can't]]",
+            "[[could|could]]"
           ],
           "correctAnswer": 0
         }
@@ -312,9 +312,9 @@ export const UNIT_45_EXERCISES: Exercise[] = [
         {
           "question": "In autumn, the ________ are brown and orange. (hojas)",
           "options": [
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]",
+            "[[can|can]]",
+            "[[can't|can't]]",
+            "[[could|could]]",
             "[[leaves|hojas]]"
           ],
           "correctAnswer": 3
@@ -413,7 +413,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[My favorite season is spring.|Mi estación favorita es la primavera.]]",
-            "[[o1|opción 1]]"
+            ""[[My favorite season isn't spring.|My favorite season isn't spring.]]""
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -463,7 +463,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Leaves fall in autumn.|Las hojas caen en otoño.]]",
-            "[[o1|opción 1]]"
+            ""[[Leaves fall in autumn here.|Leaves fall in autumn here.]]""
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -512,7 +512,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|opción 1]]",
+            ""[[We come to the beach in August.|We come to the beach in August.]]"",
             "[[We go to the beach in August.|Vamos a la playa en agosto.]]"
           ],
           "correctAnswer": 1,
@@ -537,7 +537,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|opción 1]]",
+            ""[[Plants grow in the spring here.|Plants grow in the spring here.]]"",
             "[[Plants grow in the spring.|Las plantas crecen en la primavera.]]"
           ],
           "correctAnswer": 1,
@@ -563,7 +563,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Do you like winter?|¿Te gusta el invierno?]]",
-            "[[o1|opción 1]]"
+            ""[[Do you like winter here.|Do you like winter here.]]""
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1493,10 +1493,12 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[spring|primavera]] is here.",
+          "question": "¿Cómo se dice 'primavera' en inglés?",
           "options": [
-            "[[Do you like winter?|¿Te gusta el invierno?]]",
-            "[[spring|primavera]]"
+            "[[big|big]]",
+            "[[spring|primavera]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1518,10 +1520,12 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[summer|verano]] is here.",
+          "question": "¿Cómo se dice 'verano' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[summer|verano]]"
+            "[[big|big]]",
+            "[[summer|verano]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1543,10 +1547,12 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[autumn|otoño]] is here.",
+          "question": "¿Cómo se dice 'otoño' en inglés?",
           "options": [
             "[[autumn|otoño]]",
-            "[[beach|beach]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1568,10 +1574,12 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[winter|invierno]] is here.",
+          "question": "¿Cómo se dice 'invierno' en inglés?",
           "options": [
             "[[winter|invierno]]",
-            "[[o1|opción 1]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1593,10 +1601,12 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[beach|beach]] is here.",
+          "question": "¿Cómo se dice 'beach' en inglés?",
           "options": [
             "[[beach|beach]]",
-            "[[o1|opción 1]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1618,10 +1628,12 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[flowers|flowers]] is here.",
+          "question": "¿Cómo se dice 'flowers' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[flowers|flowers]]"
+            "[[big|big]]",
+            "[[flowers|flowers]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1643,10 +1655,12 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[leaves|hojas]] is here.",
+          "question": "¿Cómo se dice 'hojas' en inglés?",
           "options": [
             "[[leaves|hojas]]",
-            "[[Otoño|Otoño]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

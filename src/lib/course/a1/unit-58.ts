@@ -145,9 +145,9 @@ export const UNIT_58_EXERCISES: Exercise[] = [
         {
           "question": "I ________ to work at 9 am.",
           "options": [
-            "[[o1|opción 1]]",
+            "[[can|can]]",
             "[[Have dinner|Have dinner]]",
-            "[[o1|opción 1]]",
+            "[[can't|can't]]",
             "[[go|ir]]"
           ],
           "correctAnswer": 3
@@ -190,8 +190,8 @@ export const UNIT_58_EXERCISES: Exercise[] = [
         {
           "question": "They ________ home late.",
           "options": [
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]",
+            "[[can|can]]",
+            "[[can't|can't]]",
             "[[get|get]]",
             "[[Watch TV|Ver la tele]]"
           ],
@@ -367,10 +367,10 @@ export const UNIT_58_EXERCISES: Exercise[] = [
         {
           "question": "I ________ up at 7, I ________ breakfast and then I ________ to school.",
           "options": [
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]",
+            "[[can|can]]",
+            "[[can't|can't]]",
             "[[wake, have, go|wake, have, go]]",
-            "[[o1|opción 1]]"
+            "[[could|could]]"
           ],
           "correctAnswer": 2
         }
@@ -444,7 +444,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[I wake up at seven.|I wake up at seven.]]",
-            "[[o1|opción 1]]"
+            ""[[I wake up at seven here.|I wake up at seven here.]]""
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -468,7 +468,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|opción 1]]",
+            ""[[I have breakfast in the bedroom.|I have breakfast in the bedroom.]]"",
             "[[I have breakfast in the kitchen.|I have breakfast in the kitchen.]]"
           ],
           "correctAnswer": 1,
@@ -493,7 +493,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|opción 1]]",
+            ""[[We come to work by bus.|We come to work by bus.]]"",
             "[[We go to work by bus.|We go to work by bus.]]"
           ],
           "correctAnswer": 1,
@@ -543,7 +543,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|opción 1]]",
+            ""[[They have dinner at eight here.|They have dinner at eight here.]]"",
             "[[They have dinner at eight.|They have dinner at eight.]]"
           ],
           "correctAnswer": 1,
@@ -1524,10 +1524,12 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[headache|headache]] is here.",
+          "question": "¿Cómo se dice 'headache' en inglés?",
           "options": [
             "[[headache|headache]]",
-            "[[o1|opción 1]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1549,10 +1551,12 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[cold|frío]] is here.",
+          "question": "¿Cómo se dice 'frío' en inglés?",
           "options": [
-            "[[Irse a la cama|Irse a la cama]]",
-            "[[cold|frío]]"
+            "[[big|big]]",
+            "[[cold|frío]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1574,10 +1578,12 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[doctor|doctor]] is here.",
+          "question": "¿Cómo se dice 'doctor' en inglés?",
           "options": [
             "[[doctor|doctor]]",
-            "[[I watch TV in the evening.|I watch TV in the evening.]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1599,10 +1605,12 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[medicine|medicine]] is here.",
+          "question": "¿Cómo se dice 'medicine' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[medicine|medicine]]"
+            "[[big|big]]",
+            "[[medicine|medicine]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1624,10 +1632,12 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[sore throat|sore throat]] is here.",
+          "question": "¿Cómo se dice 'sore throat' en inglés?",
           "options": [
             "[[sore throat|sore throat]]",
-            "[[doctor|doctor]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1649,10 +1659,12 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[fever|fever]] is here.",
+          "question": "¿Cómo se dice 'fever' en inglés?",
           "options": [
-            "[[I have breakfast in the kitchen.|I have breakfast in the kitchen.]]",
-            "[[fever|fever]]"
+            "[[big|big]]",
+            "[[fever|fever]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1674,10 +1686,12 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[better|better]] is here.",
+          "question": "¿Cómo se dice 'better' en inglés?",
           "options": [
             "[[better|better]]",
-            "[[o1|opción 1]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

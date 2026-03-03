@@ -591,8 +591,8 @@ export const UNIT_50_EXERCISES: Exercise[] = [
           "question": "It (ser/estar - ello) ________ sunny.",
           "options": [
             "[[is|is]]",
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]",
+            "[[am|am]]",
+            "[[are|are]]",
             "[[Estación|Estación]]"
           ],
           "correctAnswer": 0
@@ -1286,10 +1286,10 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "It (ser/estar - ello) ________ sunny.",
           "options": [
-            "[[o1|opción 1]]",
+            "[[am|am]]",
             "[[is|is]]",
             "[[transport|transport]]",
-            "[[o1|opción 1]]"
+            "[[are|are]]"
           ],
           "correctAnswer": 1
         }
@@ -1753,10 +1753,12 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[airport|airport]] is here.",
+          "question": "¿Cómo se dice 'airport' en inglés?",
           "options": [
-            "[[Weather|Tiempo]]",
-            "[[airport|airport]]"
+            "[[big|big]]",
+            "[[airport|airport]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1778,10 +1780,12 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[transport|transport]] is here.",
+          "question": "¿Cómo se dice 'transport' en inglés?",
           "options": [
             "[[transport|transport]]",
-            "[[by|by]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1803,10 +1807,12 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[weather|clima]] is here.",
+          "question": "¿Cómo se dice 'clima' en inglés?",
           "options": [
             "[[weather|clima]]",
-            "[[Weather|Tiempo]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1828,10 +1834,12 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[seasons|seasons]] is here.",
+          "question": "¿Cómo se dice 'seasons' en inglés?",
           "options": [
             "[[seasons|seasons]]",
-            "[[by|by]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1853,10 +1861,12 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[hotel|hotel]] is here.",
+          "question": "¿Cómo se dice 'hotel' en inglés?",
           "options": [
             "[[hotel|hotel]]",
-            "[[is|is]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1878,10 +1888,12 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[travel|travel]] is here.",
+          "question": "¿Cómo se dice 'travel' en inglés?",
           "options": [
-            "[[Estación|Estación]]",
-            "[[travel|travel]]"
+            "[[big|big]]",
+            "[[travel|travel]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1903,10 +1915,12 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[packing|packing]] is here.",
+          "question": "¿Cómo se dice 'packing' en inglés?",
           "options": [
             "[[packing|packing]]",
-            "[[Airport|Aeropuerto]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

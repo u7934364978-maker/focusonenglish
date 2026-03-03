@@ -95,9 +95,9 @@ export const UNIT_43_EXERCISES: Exercise[] = [
           "question": "I buy ________ for my family. (recuerdos/souvenirs)",
           "options": [
             "[[souvenirs|souvenirs]]",
-            "[[o1|opción 1]]",
+            "[[can|can]]",
             "[[visit|visit]]",
-            "[[o1|opción 1]]"
+            "[[can't|can't]]"
           ],
           "correctAnswer": 0
         }
@@ -168,7 +168,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
           "question": "We arrive ________ London in the morning.",
           "options": [
             "[[in|in]]",
-            "[[o1|opción 1]]",
+            "[[at|at]]",
             "[[stay|stay]]",
             "[[souvenirs|souvenirs]]"
           ],
@@ -216,8 +216,8 @@ export const UNIT_43_EXERCISES: Exercise[] = [
           "question": "I ________ (not) stay in expensive hotels.",
           "options": [
             "[[don't|don't]]",
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]",
+            "[[do|do]]",
+            "[[does|does]]",
             "[[Holiday|Holiday]]"
           ],
           "correctAnswer": 0
@@ -286,7 +286,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
         {
           "question": "Dear Mom, I ________ London today. It is beautiful! (visitar)",
           "options": [
-            "[[o1|opción 1]]",
+            "[[can|can]]",
             "[[visit|visit]]",
             "[[They stay at a hotel.|They stay at a hotel.]]",
             "[[travel|travel]]"
@@ -411,7 +411,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[I visit many museums.|I visit many museums.]]",
-            "[[o1|opción 1]]"
+            ""[[I visit many museums here.|I visit many museums here.]]""
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -435,7 +435,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|opción 1]]",
+            ""[[They stay at a hotel here.|They stay at a hotel here.]]"",
             "[[They stay at a hotel.|They stay at a hotel.]]"
           ],
           "correctAnswer": 1,
@@ -460,7 +460,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|opción 1]]",
+            ""[[We take many photos here.|We take many photos here.]]"",
             "[[We take many photos.|We take many photos.]]"
           ],
           "correctAnswer": 1,
@@ -486,7 +486,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[He travels around the world.|He travels around the world.]]",
-            "[[o1|opción 1]]"
+            ""[[He travels around the world here.|He travels around the world here.]]""
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -511,7 +511,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[She buys souvenirs for her friends.|She buys souvenirs for her friends.]]",
-            "[[o1|opción 1]]"
+            ""[[She buys souvenirs for her friends here.|She buys souvenirs for her friends here.]]""
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1491,10 +1491,12 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[go|ir]] is here.",
+          "question": "¿Cómo se dice 'ir' en inglés?",
           "options": [
             "[[go|ir]]",
-            "[[o1|opción 1]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1516,10 +1518,12 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[stay|stay]] is here.",
+          "question": "¿Cómo se dice 'stay' en inglés?",
           "options": [
-            "[[I visit many museums.|I visit many museums.]]",
-            "[[stay|stay]]"
+            "[[big|big]]",
+            "[[stay|stay]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1541,10 +1545,12 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[visit|visit]] is here.",
+          "question": "¿Cómo se dice 'visit' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[visit|visit]]"
+            "[[big|big]]",
+            "[[visit|visit]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1566,10 +1572,12 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[arrive|arrive]] is here.",
+          "question": "¿Cómo se dice 'arrive' en inglés?",
           "options": [
-            "[[She buys souvenirs for her friends.|She buys souvenirs for her friends.]]",
-            "[[arrive|arrive]]"
+            "[[big|big]]",
+            "[[arrive|arrive]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1591,10 +1599,12 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[depart|depart]] is here.",
+          "question": "¿Cómo se dice 'depart' en inglés?",
           "options": [
             "[[depart|depart]]",
-            "[[o1|opción 1]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1616,10 +1626,12 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[travel|travel]] is here.",
+          "question": "¿Cómo se dice 'travel' en inglés?",
           "options": [
             "[[travel|travel]]",
-            "[[o1|opción 1]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1641,10 +1653,12 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[book|book]] is here.",
+          "question": "¿Cómo se dice 'book' en inglés?",
           "options": [
             "[[book|book]]",
-            "[[travel|travel]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

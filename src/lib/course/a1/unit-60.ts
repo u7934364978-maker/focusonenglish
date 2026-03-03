@@ -70,7 +70,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
           "options": [
             "[[Money|Dinero]]",
             "[[some|some]]",
-            "[[o1|opción 1]]",
+            "[[a|a]]",
             "[[Health|Health]]"
           ],
           "correctAnswer": 1
@@ -243,8 +243,8 @@ export const UNIT_60_EXERCISES: Exercise[] = [
           "question": "How (mucho) ________ milk?",
           "options": [
             "[[Food|Food]]",
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]",
+            "[[can|can]]",
+            "[[can't|can't]]",
             "[[much|much]]"
           ],
           "correctAnswer": 3
@@ -938,10 +938,10 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "How (mucho) ________ milk?",
           "options": [
-            "[[o1|opción 1]]",
+            "[[can|can]]",
             "[[much|much]]",
             "[[Shopping|Compras]]",
-            "[[o1|opción 1]]"
+            "[[can't|can't]]"
           ],
           "correctAnswer": 1
         }
@@ -1636,7 +1636,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
           "options": [
             "[[much|much]]",
             "[[Salud|Salud]]",
-            "[[o1|opción 1]]",
+            "[[can|can]]",
             "[[Restaurante|Restaurante]]"
           ],
           "correctAnswer": 0
@@ -1753,10 +1753,12 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[food|food]] is here.",
+          "question": "¿Cómo se dice 'food' en inglés?",
           "options": [
             "[[food|food]]",
-            "[[Salud|Salud]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1778,10 +1780,12 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[shopping|shopping]] is here.",
+          "question": "¿Cómo se dice 'shopping' en inglés?",
           "options": [
             "[[shopping|shopping]]",
-            "[[Money|Dinero]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1803,10 +1807,12 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[restaurant|restaurant]] is here.",
+          "question": "¿Cómo se dice 'restaurant' en inglés?",
           "options": [
             "[[restaurant|restaurant]]",
-            "[[some|some]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1828,10 +1834,12 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[cooking|cooking]] is here.",
+          "question": "¿Cómo se dice 'cooking' en inglés?",
           "options": [
-            "[[food|food]]",
-            "[[cooking|cooking]]"
+            "[[big|big]]",
+            "[[cooking|cooking]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1853,10 +1861,12 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[health|health]] is here.",
+          "question": "¿Cómo se dice 'health' en inglés?",
           "options": [
-            "[[Restaurante|Restaurante]]",
-            "[[health|health]]"
+            "[[big|big]]",
+            "[[health|health]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1878,10 +1888,12 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[money|money]] is here.",
+          "question": "¿Cómo se dice 'money' en inglés?",
           "options": [
-            "[[Health|Health]]",
-            "[[money|money]]"
+            "[[big|big]]",
+            "[[money|money]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1903,10 +1915,12 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[supermarket|supermercado]] is here.",
+          "question": "¿Cómo se dice 'supermercado' en inglés?",
           "options": [
             "[[supermarket|supermercado]]",
-            "[[Salud|Salud]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

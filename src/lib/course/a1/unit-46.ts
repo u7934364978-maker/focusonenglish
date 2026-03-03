@@ -40,10 +40,10 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "My room is on the third ________. (piso/planta)",
           "options": [
-            "[[o1|opción 1]]",
+            "[[can|can]]",
             "[[floor|floor]]",
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]"
+            "[[can't|can't]]",
+            "[[could|could]]"
           ],
           "correctAnswer": 1
         }
@@ -139,10 +139,10 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "Does the room ________ a TV?",
           "options": [
-            "[[o1|opción 1]]",
+            "[[has|has]]",
             "[[My room is on the fourth floor.|My room is on the fourth floor.]]",
             "[[have|have]]",
-            "[[o1|opción 1]]"
+            "[[had|had]]"
           ],
           "correctAnswer": 2
         }
@@ -187,10 +187,10 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "Is breakfast ________ in the price? (incluido)",
           "options": [
-            "[[o1|opción 1]]",
+            "[[can|can]]",
             "[[breakfast|breakfast]]",
             "[[included|included]]",
-            "[[o1|opción 1]]"
+            "[[can't|can't]]"
           ],
           "correctAnswer": 2
         }
@@ -261,7 +261,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
             "[[check|check]]",
             "[[breakfast|breakfast]]",
             "[[included|included]]",
-            "[[o1|opción 1]]"
+            "[[can|can]]"
           ],
           "correctAnswer": 0
         }
@@ -407,7 +407,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[I would like a quiet room, please.|I would like a quiet room, please.]]",
-            "[[o1|opción 1]]"
+            ""[[I would like a quiet room, sorry.|I would like a quiet room, sorry.]]""
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -431,7 +431,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|opción 1]]",
+            ""[[Where isn't the reception desk?|Where isn't the reception desk?]]"",
             "[[Where is the reception desk?|Where is the reception desk?]]"
           ],
           "correctAnswer": 1,
@@ -557,7 +557,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Please call a taxi for me.|Please call a taxi for me.]]",
-            "[[o1|opción 1]]"
+            ""[[sorry call a taxi for me.|sorry call a taxi for me.]]""
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1461,10 +1461,12 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[hotel|hotel]] is here.",
+          "question": "¿Cómo se dice 'hotel' en inglés?",
           "options": [
-            "[[Where is the reception desk?|Where is the reception desk?]]",
-            "[[hotel|hotel]]"
+            "[[big|big]]",
+            "[[hotel|hotel]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1486,10 +1488,12 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[room|habitación]] is here.",
+          "question": "¿Cómo se dice 'habitación' en inglés?",
           "options": [
             "[[room|habitación]]",
-            "[[key|key]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1511,10 +1515,12 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[key|key]] is here.",
+          "question": "¿Cómo se dice 'key' en inglés?",
           "options": [
             "[[key|key]]",
-            "[[breakfast|breakfast]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1536,10 +1542,12 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[reservation|reservation]] is here.",
+          "question": "¿Cómo se dice 'reservation' en inglés?",
           "options": [
             "[[reservation|reservation]]",
-            "[[I would like a quiet room, please.|I would like a quiet room, please.]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1561,10 +1569,12 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[reception|reception]] is here.",
+          "question": "¿Cómo se dice 'reception' en inglés?",
           "options": [
             "[[reception|reception]]",
-            "[[check|check]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1586,10 +1596,12 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[breakfast|breakfast]] is here.",
+          "question": "¿Cómo se dice 'breakfast' en inglés?",
           "options": [
             "[[breakfast|breakfast]]",
-            "[[o1|opción 1]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1611,10 +1623,12 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[shower|shower]] is here.",
+          "question": "¿Cómo se dice 'shower' en inglés?",
           "options": [
             "[[shower|shower]]",
-            "[[Where is the elevator?|Where is the elevator?]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

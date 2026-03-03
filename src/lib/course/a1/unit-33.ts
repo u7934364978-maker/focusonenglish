@@ -96,8 +96,8 @@ export const UNIT_33_EXERCISES: Exercise[] = [
           "options": [
             "[[never|never]]",
             "[[How often|How often]]",
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]"
+            "[[always|always]]",
+            "[[usually|usually]]"
           ],
           "correctAnswer": 0
         }
@@ -166,8 +166,8 @@ export const UNIT_33_EXERCISES: Exercise[] = [
         {
           "question": "We ________ ________ (usually / walk) to school.",
           "options": [
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]",
+            "[[can|can]]",
+            "[[can't|can't]]",
             "[[sometimes|sometimes]]",
             "[[usually walk|usually walk]]"
           ],
@@ -309,10 +309,10 @@ export const UNIT_33_EXERCISES: Exercise[] = [
         {
           "question": "________ ________ does he call you?",
           "options": [
-            "[[o1|opción 1]]",
+            "[[can|can]]",
             "[[How often|How often]]",
             "[[Frecuentemente (60-70%)|Frecuentemente (60-70%)]]",
-            "[[o1|opción 1]]"
+            "[[can't|can't]]"
           ],
           "correctAnswer": 1
         }
@@ -1602,10 +1602,12 @@ export const UNIT_33_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[always|always]] is here.",
+          "question": "¿Cómo se dice 'always' en inglés?",
           "options": [
             "[[always|always]]",
-            "[[o1|opción 1]]"
+            "[[usually|usually]]",
+            "[[often|often]]",
+            "[[sometimes|sometimes]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1627,10 +1629,12 @@ export const UNIT_33_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[sometimes|sometimes]] is here.",
+          "question": "¿Cómo se dice 'sometimes' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[sometimes|sometimes]]"
+            "[[always|always]]",
+            "[[sometimes|sometimes]]",
+            "[[usually|usually]]",
+            "[[often|often]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1652,10 +1656,12 @@ export const UNIT_33_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[never|never]] is here.",
+          "question": "¿Cómo se dice 'never' en inglés?",
           "options": [
-            "[[0% de las veces|0% de las veces]]",
-            "[[never|never]]"
+            "[[always|always]]",
+            "[[never|never]]",
+            "[[usually|usually]]",
+            "[[often|often]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1677,10 +1683,12 @@ export const UNIT_33_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[often|often]] is here.",
+          "question": "¿Cómo se dice 'often' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[often|often]]"
+            "[[always|always]]",
+            "[[often|often]]",
+            "[[usually|usually]]",
+            "[[sometimes|sometimes]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1702,10 +1710,12 @@ export const UNIT_33_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[usually|usually]] is here.",
+          "question": "¿Cómo se dice 'usually' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[usually|usually]]"
+            "[[always|always]]",
+            "[[usually|usually]]",
+            "[[often|often]]",
+            "[[sometimes|sometimes]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1727,10 +1737,12 @@ export const UNIT_33_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[seldom|seldom]] is here.",
+          "question": "¿Cómo se dice 'seldom' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[seldom|seldom]]"
+            "[[always|always]]",
+            "[[seldom|seldom]]",
+            "[[usually|usually]]",
+            "[[often|often]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1752,10 +1764,12 @@ export const UNIT_33_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[rarely|rarely]] is here.",
+          "question": "¿Cómo se dice 'rarely' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[rarely|rarely]]"
+            "[[always|always]]",
+            "[[rarely|rarely]]",
+            "[[usually|usually]]",
+            "[[often|often]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

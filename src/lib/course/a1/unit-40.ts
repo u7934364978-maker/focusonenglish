@@ -243,7 +243,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
           "question": "He (tocar) ________ the piano.",
           "options": [
             "[[Activity|Actividad]]",
-            "[[o1|opción 1]]",
+            "[[can|can]]",
             "[[Frecuencia|Frecuencia]]",
             "[[plays|plays]]"
           ],
@@ -418,7 +418,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
           "options": [
             "[[Talent|Talento]]",
             "[[can|poder]]",
-            "[[o1|opción 1]]",
+            "[[can't|can't]]",
             "[[Habilidad|Habilidad]]"
           ],
           "correctAnswer": 1
@@ -764,7 +764,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "I (poder) ________ swim.",
           "options": [
-            "[[o1|opción 1]]",
+            "[[can't|can't]]",
             "[[can|poder]]",
             "[[Habilidad|Habilidad]]",
             "[[Talent|Talento]]"
@@ -1114,7 +1114,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
           "options": [
             "[[can|poder]]",
             "[[Talent|Talento]]",
-            "[[o1|opción 1]]",
+            "[[can't|can't]]",
             "[[Habilidad|Habilidad]]"
           ],
           "correctAnswer": 0
@@ -1286,7 +1286,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "He (tocar) ________ the piano.",
           "options": [
-            "[[o1|opción 1]]",
+            "[[can|can]]",
             "[[plays|plays]]",
             "[[Activity|Actividad]]",
             "[[Talent|Talento]]"
@@ -1636,8 +1636,8 @@ export const UNIT_40_EXERCISES: Exercise[] = [
           "options": [
             "[[plays|plays]]",
             "[[frequency|frequency]]",
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]"
+            "[[can|can]]",
+            "[[can't|can't]]"
           ],
           "correctAnswer": 0
         }
@@ -1753,10 +1753,12 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[can|poder]] is here.",
+          "question": "¿Cómo se dice 'poder' en inglés?",
           "options": [
-            "[[Talent|Talento]]",
-            "[[can|poder]]"
+            "[[can't|can't]]",
+            "[[can|poder]]",
+            "[[could|could]]",
+            "[[should|should]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1778,10 +1780,12 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[sports|sports]] is here.",
+          "question": "¿Cómo se dice 'sports' en inglés?",
           "options": [
             "[[sports|sports]]",
-            "[[Habilidad|Habilidad]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1803,10 +1807,12 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[frequency|frequency]] is here.",
+          "question": "¿Cómo se dice 'frequency' en inglés?",
           "options": [
-            "[[Talent|Talento]]",
-            "[[frequency|frequency]]"
+            "[[big|big]]",
+            "[[frequency|frequency]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1828,10 +1834,12 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[connectors|connectors]] is here.",
+          "question": "¿Cómo se dice 'connectors' en inglés?",
           "options": [
             "[[connectors|connectors]]",
-            "[[Activity|Actividad]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1853,10 +1861,12 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[free time|free time]] is here.",
+          "question": "¿Cómo se dice 'free time' en inglés?",
           "options": [
-            "[[connectors|connectors]]",
-            "[[free time|free time]]"
+            "[[big|big]]",
+            "[[free time|free time]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1878,10 +1888,12 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[instruments|instruments]] is here.",
+          "question": "¿Cómo se dice 'instruments' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[instruments|instruments]]"
+            "[[big|big]]",
+            "[[instruments|instruments]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1903,10 +1915,12 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[talent|talento]] is here.",
+          "question": "¿Cómo se dice 'talento' en inglés?",
           "options": [
             "[[talent|talento]]",
-            "[[Activity|Actividad]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

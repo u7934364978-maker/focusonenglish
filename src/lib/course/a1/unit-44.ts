@@ -95,9 +95,9 @@ export const UNIT_44_EXERCISES: Exercise[] = [
           "question": "It is 0 degrees. It is very ________. (frío)",
           "options": [
             "[[raining|raining]]",
-            "[[o1|opción 1]]",
+            "[[big|big]]",
             "[[cold|frío]]",
-            "[[o1|opción 1]]"
+            "[[small|small]]"
           ],
           "correctAnswer": 2
         }
@@ -193,10 +193,10 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "What ________ the weather like?",
           "options": [
-            "[[o1|opción 1]]",
+            "[[am|am]]",
             "[[cloudy|cloudy]]",
             "[[is|is]]",
-            "[[o1|opción 1]]"
+            "[[are|are]]"
           ],
           "correctAnswer": 2
         }
@@ -241,9 +241,9 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "It ________ windy this afternoon. (no está)",
           "options": [
-            "[[o1|opción 1]]",
+            "[[am|am]]",
             "[[isn't|isn't]]",
-            "[[o1|opción 1]]",
+            "[[is|is]]",
             "[[cold|frío]]"
           ],
           "correctAnswer": 1
@@ -312,9 +312,9 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "In London, it is often ________. (lluvioso)",
           "options": [
-            "[[o1|opción 1]]",
+            "[[can|can]]",
             "[[rainy|lluvioso]]",
-            "[[o1|opción 1]]",
+            "[[can't|can't]]",
             "[[hot|caluroso]]"
           ],
           "correctAnswer": 1
@@ -486,7 +486,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|opción 1]]",
+            ""[[The weather isn't cloudy and cool.|The weather isn't cloudy and cool.]]"",
             "[[The weather is cloudy and cool.|The weather is cloudy and cool.]]"
           ],
           "correctAnswer": 1,
@@ -511,7 +511,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|opción 1]]",
+            ""[[It is very windy in the morning.|It is very windy in the morning.]]"",
             "[[It is very windy in the afternoon.|It is very windy in the afternoon.]]"
           ],
           "correctAnswer": 1,
@@ -536,7 +536,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|opción 1]]",
+            ""[[What isn't the weather like?|What isn't the weather like?]]"",
             "[[What is the weather like?|What is the weather like?]]"
           ],
           "correctAnswer": 1,
@@ -562,7 +562,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[There is snow on the mountains.|There is snow on the mountains.]]",
-            "[[o1|opción 1]]"
+            ""[[There isn't snow on the mountains.|There isn't snow on the mountains.]]""
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -587,7 +587,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[The forecast says it is going to rain.|The forecast says it is going to rain.]]",
-            "[[o1|opción 1]]"
+            ""[[The forecast says it isn't going to rain.|The forecast says it isn't going to rain.]]""
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1491,10 +1491,12 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[sunny|sunny]] is here.",
+          "question": "¿Cómo se dice 'sunny' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[sunny|sunny]]"
+            "[[big|big]]",
+            "[[sunny|sunny]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1516,10 +1518,12 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[raining|raining]] is here.",
+          "question": "¿Cómo se dice 'raining' en inglés?",
           "options": [
-            "[[What is the weather like?|What is the weather like?]]",
-            "[[raining|raining]]"
+            "[[big|big]]",
+            "[[raining|raining]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1541,10 +1545,12 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[windy|windy]] is here.",
+          "question": "¿Cómo se dice 'windy' en inglés?",
           "options": [
-            "[[Lluvioso|Lluvioso]]",
-            "[[windy|windy]]"
+            "[[big|big]]",
+            "[[windy|windy]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1566,10 +1572,12 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[cold|frío]] is here.",
+          "question": "¿Cómo se dice 'frío' en inglés?",
           "options": [
             "[[cold|frío]]",
-            "[[raining|raining]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1591,10 +1599,12 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[hot|caluroso]] is here.",
+          "question": "¿Cómo se dice 'caluroso' en inglés?",
           "options": [
             "[[hot|caluroso]]",
-            "[[o1|opción 1]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1616,10 +1626,12 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[snowing|snowing]] is here.",
+          "question": "¿Cómo se dice 'snowing' en inglés?",
           "options": [
             "[[snowing|snowing]]",
-            "[[hot|caluroso]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1641,10 +1653,12 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[cloudy|cloudy]] is here.",
+          "question": "¿Cómo se dice 'cloudy' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[cloudy|cloudy]]"
+            "[[big|big]]",
+            "[[cloudy|cloudy]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

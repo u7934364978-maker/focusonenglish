@@ -147,8 +147,8 @@ export const UNIT_56_EXERCISES: Exercise[] = [
           "options": [
             "[[Estante|Estante]]",
             "[[in|in]]",
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]"
+            "[[at|at]]",
+            "[[on|on]]"
           ],
           "correctAnswer": 1
         }
@@ -216,7 +216,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "The table is ________ ________ the window.",
           "options": [
-            "[[o1|opción 1]]",
+            "[[can|can]]",
             "[[next to|al lado de]]",
             "[[waiter|waiter]]",
             "[[Lavavajillas|Lavavajillas]]"
@@ -371,7 +371,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
           "options": [
             "[[Put it in the oven.|Put it in the oven.]]",
             "[[water|water]]",
-            "[[o1|opción 1]]",
+            "[[can|can]]",
             "[[in, on|in, on]]"
           ],
           "correctAnswer": 3
@@ -471,7 +471,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Put it in the oven.|Put it in the oven.]]",
-            "[[o1|opción 1]]"
+            ""[[Put it in the oven here.|Put it in the oven here.]]""
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -520,7 +520,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|opción 1]]",
+            ""[[Where isn't the microwave?|Where isn't the microwave?]]"",
             "[[Where is the microwave?|Where is the microwave?]]"
           ],
           "correctAnswer": 1,
@@ -546,7 +546,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Wash the dishes in the sink.|Wash the dishes in the sink.]]",
-            "[[o1|opción 1]]"
+            ""[[Wash the dishes in the sink here.|Wash the dishes in the sink here.]]""
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -571,7 +571,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[The forks are in the drawer.|The forks are in the drawer.]]",
-            "[[o1|opción 1]]"
+            ""[[The forks aren't in the drawer.|The forks aren't in the drawer.]]""
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1526,10 +1526,12 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[menu|menu]] is here.",
+          "question": "¿Cómo se dice 'menu' en inglés?",
           "options": [
-            "[[bill|bill]]",
-            "[[menu|menu]]"
+            "[[big|big]]",
+            "[[menu|menu]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1551,10 +1553,12 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[waiter|waiter]] is here.",
+          "question": "¿Cómo se dice 'waiter' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[waiter|waiter]]"
+            "[[big|big]]",
+            "[[waiter|waiter]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1576,10 +1580,12 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[order|order]] is here.",
+          "question": "¿Cómo se dice 'order' en inglés?",
           "options": [
             "[[order|order]]",
-            "[[Fregadero|Fregadero]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1601,10 +1607,12 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[bill|bill]] is here.",
+          "question": "¿Cómo se dice 'bill' en inglés?",
           "options": [
-            "[[The cups are on the shelf.|The cups are on the shelf.]]",
-            "[[bill|bill]]"
+            "[[big|big]]",
+            "[[bill|bill]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1626,10 +1634,12 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[water|water]] is here.",
+          "question": "¿Cómo se dice 'water' en inglés?",
           "options": [
             "[[water|water]]",
-            "[[Lavavajillas|Lavavajillas]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1651,10 +1661,12 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[food|food]] is here.",
+          "question": "¿Cómo se dice 'food' en inglés?",
           "options": [
             "[[food|food]]",
-            "[[The cups are on the shelf.|The cups are on the shelf.]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1676,10 +1688,12 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[table|table]] is here.",
+          "question": "¿Cómo se dice 'table' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[table|table]]"
+            "[[big|big]]",
+            "[[table|table]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

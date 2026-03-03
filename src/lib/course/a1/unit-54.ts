@@ -40,8 +40,8 @@ export const UNIT_54_EXERCISES: Exercise[] = [
         {
           "question": "I don't have ________ time, but I have ________ books.",
           "options": [
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]",
+            "[[can|can]]",
+            "[[can't|can't]]",
             "[[much, many|much, many]]",
             "[[I have a lot of friends.|I have a lot of friends.]]"
           ],
@@ -155,8 +155,8 @@ export const UNIT_54_EXERCISES: Exercise[] = [
         {
           "question": "I have ________ friends.",
           "options": [
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]",
+            "[[can|can]]",
+            "[[can't|can't]]",
             "[[I have a lot of water|I have a lot of water]]",
             "[[a few|a few]]"
           ],
@@ -348,10 +348,10 @@ export const UNIT_54_EXERCISES: Exercise[] = [
         {
           "question": "How ________ people are there? There aren't ________, only ________.",
           "options": [
-            "[[o1|opción 1]]",
+            "[[can|can]]",
             "[[many, many, a few|many, many, a few]]",
             "[[time|time]]",
-            "[[o1|opción 1]]"
+            "[[can't|can't]]"
           ],
           "correctAnswer": 1
         }
@@ -424,7 +424,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[How many books are there?|How many books are there?]]",
-            "[[o1|opción 1]]"
+            ""[[How many books aren't there?|How many books aren't there?]]""
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -449,7 +449,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[I have a lot of friends.|I have a lot of friends.]]",
-            "[[o1|opción 1]]"
+            ""[[I have a lot of friends here.|I have a lot of friends here.]]""
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -473,7 +473,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|opción 1]]",
+            ""[[There isn't a little milk.|There isn't a little milk.]]"",
             "[[There is a little milk.|There is a little milk.]]"
           ],
           "correctAnswer": 1,
@@ -1479,10 +1479,12 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[much|much]] is here.",
+          "question": "¿Cómo se dice 'much' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[much|much]]"
+            "[[big|big]]",
+            "[[much|much]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1504,10 +1506,12 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[many|many]] is here.",
+          "question": "¿Cómo se dice 'many' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[many|many]]"
+            "[[big|big]]",
+            "[[many|many]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1529,10 +1533,12 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[how much|how much]] is here.",
+          "question": "¿Cómo se dice 'how much' en inglés?",
           "options": [
             "[[how much|how much]]",
-            "[[o1|opción 1]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1554,10 +1560,12 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[how many|how many]] is here.",
+          "question": "¿Cómo se dice 'how many' en inglés?",
           "options": [
             "[[how many|how many]]",
-            "[[o1|opción 1]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1579,10 +1587,12 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[money|money]] is here.",
+          "question": "¿Cómo se dice 'money' en inglés?",
           "options": [
             "[[money|money]]",
-            "[[o1|opción 1]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1604,10 +1614,12 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[friends|friends]] is here.",
+          "question": "¿Cómo se dice 'friends' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[friends|friends]]"
+            "[[big|big]]",
+            "[[friends|friends]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1629,10 +1641,12 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[time|time]] is here.",
+          "question": "¿Cómo se dice 'time' en inglés?",
           "options": [
             "[[time|time]]",
-            "[[o1|opción 1]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

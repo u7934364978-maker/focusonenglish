@@ -84,9 +84,9 @@ export const UNIT_34_EXERCISES: Exercise[] = [
         {
           "question": "I speak English ________ Spanish.",
           "options": [
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]",
+            "[[but|but]]",
+            "[[because|because]]",
+            "[[so|so]]",
             "[[and|and]]"
           ],
           "correctAnswer": 3
@@ -154,7 +154,7 @@ export const UNIT_34_EXERCISES: Exercise[] = [
           "question": "I can swim ________ I can't drive.",
           "options": [
             "[[or|or]]",
-            "[[o1|opción 1]]",
+            "[[and|and]]",
             "[[but|but]]",
             "[[because|because]]"
           ],
@@ -201,10 +201,10 @@ export const UNIT_34_EXERCISES: Exercise[] = [
         {
           "question": "I am happy ________ it is my birthday.",
           "options": [
-            "[[o1|opción 1]]",
+            "[[but|but]]",
             "[[and|and]]",
             "[[because|because]]",
-            "[[o1|opción 1]]"
+            "[[so|so]]"
           ],
           "correctAnswer": 2
         }
@@ -1568,10 +1568,12 @@ export const UNIT_34_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[and|and]] is here.",
+          "question": "¿Cómo se dice 'and' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[and|and]]"
+            "[[but|but]]",
+            "[[and|and]]",
+            "[[because|because]]",
+            "[[so|so]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1593,10 +1595,12 @@ export const UNIT_34_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[but|but]] is here.",
+          "question": "¿Cómo se dice 'but' en inglés?",
           "options": [
+            "[[and|and]]",
+            "[[but|but]]",
             "[[because|because]]",
-            "[[but|but]]"
+            "[[so|so]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1618,10 +1622,12 @@ export const UNIT_34_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[because|because]] is here.",
+          "question": "¿Cómo se dice 'because' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[because|because]]"
+            "[[and|and]]",
+            "[[because|because]]",
+            "[[but|but]]",
+            "[[so|so]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1643,10 +1649,12 @@ export const UNIT_34_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[so|so]] is here.",
+          "question": "¿Cómo se dice 'so' en inglés?",
           "options": [
-            "[[Adding information (+)|Añadir información (+)]]",
-            "[[so|so]]"
+            "[[and|and]]",
+            "[[so|so]]",
+            "[[but|but]]",
+            "[[because|because]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1668,10 +1676,12 @@ export const UNIT_34_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[or|or]] is here.",
+          "question": "¿Cómo se dice 'or' en inglés?",
           "options": [
             "[[or|or]]",
-            "[[o1|opción 1]]"
+            "[[and|and]]",
+            "[[but|but]]",
+            "[[because|because]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1693,10 +1703,12 @@ export const UNIT_34_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[then|then]] is here.",
+          "question": "¿Cómo se dice 'then' en inglés?",
           "options": [
-            "[[because|because]]",
-            "[[then|then]]"
+            "[[today|today]]",
+            "[[then|then]]",
+            "[[yesterday|yesterday]]",
+            "[[tomorrow|tomorrow]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1718,10 +1730,12 @@ export const UNIT_34_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[finally|finally]] is here.",
+          "question": "¿Cómo se dice 'finally' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[finally|finally]]"
+            "[[big|big]]",
+            "[[finally|finally]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

@@ -146,9 +146,9 @@ export const UNIT_57_EXERCISES: Exercise[] = [
           "question": "One lamp, two ________.",
           "options": [
             "[[lamps|lamps]]",
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]"
+            "[[can|can]]",
+            "[[can't|can't]]",
+            "[[could|could]]"
           ],
           "correctAnswer": 0
         }
@@ -217,8 +217,8 @@ export const UNIT_57_EXERCISES: Exercise[] = [
           "question": "One box, many ________.",
           "options": [
             "[[boxes|boxes]]",
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]",
+            "[[can|can]]",
+            "[[can't|can't]]",
             "[[There is a mirror on the wall.|There is a mirror on the wall.]]"
           ],
           "correctAnswer": 0
@@ -417,10 +417,10 @@ export const UNIT_57_EXERCISES: Exercise[] = [
         {
           "question": "There are many ________ (person) in the room and five ________ (mirror) on the wall.",
           "options": [
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]",
+            "[[can|can]]",
+            "[[can't|can't]]",
             "[[people, mirrors|people, mirrors]]",
-            "[[o1|opción 1]]"
+            "[[could|could]]"
           ],
           "correctAnswer": 2
         }
@@ -568,7 +568,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|opción 1]]",
+            ""[[Are there any people here here.|Are there any people here here.]]"",
             "[[Are there any people here?|Are there any people here?]]"
           ],
           "correctAnswer": 1,
@@ -643,7 +643,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|opción 1]]",
+            ""[[The women aren't talking.|The women aren't talking.]]"",
             "[[The women are talking.|The women are talking.]]"
           ],
           "correctAnswer": 1,
@@ -1522,10 +1522,12 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[cook|cook]] is here.",
+          "question": "¿Cómo se dice 'cook' en inglés?",
           "options": [
             "[[cook|cook]]",
-            "[[boil|boil]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1547,10 +1549,12 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[boil|boil]] is here.",
+          "question": "¿Cómo se dice 'boil' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[boil|boil]]"
+            "[[big|big]]",
+            "[[boil|boil]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1572,10 +1576,12 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[fry|fry]] is here.",
+          "question": "¿Cómo se dice 'fry' en inglés?",
           "options": [
             "[[fry|fry]]",
-            "[[Carpet|Alfombra]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1597,10 +1603,12 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[mix|mix]] is here.",
+          "question": "¿Cómo se dice 'mix' en inglés?",
           "options": [
             "[[mix|mix]]",
-            "[[cook|cook]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1622,10 +1630,12 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[add|add]] is here.",
+          "question": "¿Cómo se dice 'add' en inglés?",
           "options": [
             "[[add|add]]",
-            "[[o1|opción 1]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1647,10 +1657,12 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[ingredients|ingredients]] is here.",
+          "question": "¿Cómo se dice 'ingredients' en inglés?",
           "options": [
             "[[ingredients|ingredients]]",
-            "[[o1|opción 1]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1672,10 +1684,12 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[oven|oven]] is here.",
+          "question": "¿Cómo se dice 'oven' en inglés?",
           "options": [
-            "[[People|Gente]]",
-            "[[oven|oven]]"
+            "[[big|big]]",
+            "[[oven|oven]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

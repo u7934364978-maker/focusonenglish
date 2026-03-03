@@ -147,8 +147,8 @@ export const UNIT_59_EXERCISES: Exercise[] = [
           "options": [
             "[[swimming|swimming]]",
             "[[He likes playing video games.|He likes playing video games.]]",
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]"
+            "[[can|can]]",
+            "[[can't|can't]]"
           ],
           "correctAnswer": 0
         }
@@ -217,9 +217,8 @@ export const UNIT_59_EXERCISES: Exercise[] = [
           "question": "I don't like ________ to rock music.",
           "options": [
             "[[Go for a walk|Dar un paseo]]",
-            "[[o1|opción 1]]",
-            "[[listening|listening]]",
-            "[[o1|opción 1]]"
+            ""[[come for a walk|come for a walk]]"",
+            "[[listening|listening]]"
           ],
           "correctAnswer": 2
         }
@@ -396,7 +395,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
             "[[Cook|Cocinar]]",
             "[[I like listening to music|I like listening to music]]",
             "[[reading, dancing|reading, dancing]]",
-            "[[o1|opción 1]]"
+            "[[can|can]]"
           ],
           "correctAnswer": 2
         }
@@ -469,7 +468,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|opción 1]]",
+            ""[[I like reading books here.|I like reading books here.]]"",
             "[[I like reading books.|I like reading books.]]"
           ],
           "correctAnswer": 1,
@@ -520,7 +519,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[They enjoy swimming.|They enjoy swimming.]]",
-            "[[o1|opción 1]]"
+            ""[[They enjoy swimming here.|They enjoy swimming here.]]""
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -544,7 +543,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|opción 1]]",
+            ""[[I hate dancing here.|I hate dancing here.]]"",
             "[[I hate dancing.|I hate dancing.]]"
           ],
           "correctAnswer": 1,
@@ -569,7 +568,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|opción 1]]",
+            ""[[We meet friends on Sunday here.|We meet friends on Sunday here.]]"",
             "[[We meet friends on Sunday.|We meet friends on Sunday.]]"
           ],
           "correctAnswer": 1,
@@ -594,7 +593,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|opción 1]]",
+            ""[[I watch movies in my spare time here.|I watch movies in my spare time here.]]"",
             "[[I watch movies in my spare time.|I watch movies in my spare time.]]"
           ],
           "correctAnswer": 1,
@@ -1524,10 +1523,12 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[pounds|pounds]] is here.",
+          "question": "¿Cómo se dice 'pounds' en inglés?",
           "options": [
-            "[[Paint|Pintar]]",
-            "[[pounds|pounds]]"
+            "[[big|big]]",
+            "[[pounds|pounds]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1549,10 +1550,12 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[dollars|dollars]] is here.",
+          "question": "¿Cómo se dice 'dollars' en inglés?",
           "options": [
             "[[dollars|dollars]]",
-            "[[They enjoy swimming.|They enjoy swimming.]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1574,10 +1577,12 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[euros|euros]] is here.",
+          "question": "¿Cómo se dice 'euros' en inglés?",
           "options": [
-            "[[I like listening to music|I like listening to music]]",
-            "[[euros|euros]]"
+            "[[big|big]]",
+            "[[euros|euros]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1599,10 +1604,12 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[cash|cash]] is here.",
+          "question": "¿Cómo se dice 'cash' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[cash|cash]]"
+            "[[big|big]]",
+            "[[cash|cash]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1624,10 +1631,12 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[card|card]] is here.",
+          "question": "¿Cómo se dice 'card' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[card|card]]"
+            "[[big|big]]",
+            "[[card|card]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1649,10 +1658,12 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[change|change]] is here.",
+          "question": "¿Cómo se dice 'change' en inglés?",
           "options": [
-            "[[I like reading books.|I like reading books.]]",
-            "[[change|change]]"
+            "[[big|big]]",
+            "[[change|change]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1674,10 +1685,12 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[price|price]] is here.",
+          "question": "¿Cómo se dice 'price' en inglés?",
           "options": [
-            "[[dollars|dollars]]",
-            "[[price|price]]"
+            "[[big|big]]",
+            "[[price|price]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

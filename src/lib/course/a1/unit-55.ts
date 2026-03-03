@@ -146,9 +146,9 @@ export const UNIT_55_EXERCISES: Exercise[] = [
           "question": "________ I try this on?",
           "options": [
             "[[Can|Can]]",
-            "[[o1|opción 1]]",
-            "[[Customer|Cliente]]",
-            "[[Do you have this in blue?|Do you have this in blue?]]"
+            "[[Should|Should]]",
+            "[[Must|Must]]",
+            "[[Would|Would]]"
           ],
           "correctAnswer": 0
         }
@@ -217,9 +217,9 @@ export const UNIT_55_EXERCISES: Exercise[] = [
           "question": "Do you ________ this in blue?",
           "options": [
             "[[have|have]]",
-            "[[try on|probarse]]",
-            "[[Customer|Cliente]]",
-            "[[o1|opción 1]]"
+            "[[want|want]]",
+            "[[need|need]]",
+            "[[like|like]]"
           ],
           "correctAnswer": 0
         }
@@ -363,7 +363,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "Can I ________ this on? Yes, the ________ room is over there.",
           "options": [
-            "[[o1|opción 1]]",
+            "[[can|can]]",
             "[[try, fitting|try, fitting]]",
             "[[Can I try this on?|¿Puedo probarme esto?]]",
             "[[Where are the fitting rooms?|¿Dónde están los probadores?]]"
@@ -540,7 +540,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[It is on sale today.|It is on sale today.]]",
-            "[[o1|opción 1]]"
+            ""[[It is on sale yesterday.|It is on sale yesterday.]]""
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1494,10 +1494,12 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[shirt|shirt]] is here.",
+          "question": "¿Cómo se dice 'shirt' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[shirt|shirt]]"
+            "[[big|big]]",
+            "[[shirt|shirt]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1519,10 +1521,12 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[jeans|jeans]] is here.",
+          "question": "¿Cómo se dice 'jeans' en inglés?",
           "options": [
             "[[jeans|jeans]]",
-            "[[o1|opción 1]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1544,10 +1548,12 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[size|talla]] is here.",
+          "question": "¿Cómo se dice 'talla' en inglés?",
           "options": [
-            "[[have|have]]",
-            "[[size|talla]]"
+            "[[big|big]]",
+            "[[size|talla]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1569,10 +1575,12 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[price|price]] is here.",
+          "question": "¿Cómo se dice 'price' en inglés?",
           "options": [
-            "[[Size|Tamaño]]",
-            "[[price|price]]"
+            "[[big|big]]",
+            "[[price|price]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1594,10 +1602,12 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[fitting room|probador]] is here.",
+          "question": "¿Cómo se dice 'probador' en inglés?",
           "options": [
             "[[fitting room|probador]]",
-            "[[o1|opción 1]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1619,10 +1629,12 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[try on|probarse]] is here.",
+          "question": "¿Cómo se dice 'probarse' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[try on|probarse]]"
+            "[[big|big]]",
+            "[[try on|probarse]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1644,10 +1656,12 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[expensive|expensive]] is here.",
+          "question": "¿Cómo se dice 'expensive' en inglés?",
           "options": [
             "[[expensive|expensive]]",
-            "[[Where are the fitting rooms?|¿Dónde están los probadores?]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

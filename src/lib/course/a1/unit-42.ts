@@ -193,8 +193,8 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "Wait for me ________ the station.",
           "options": [
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]",
+            "[[in|in]]",
+            "[[on|on]]",
             "[[station|station]]",
             "[[at|at]]"
           ],
@@ -241,10 +241,10 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "The train ________ at 9:00 AM. (sale)",
           "options": [
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]",
+            "[[can|can]]",
+            "[[can't|can't]]",
             "[[leaves|hojas]]",
-            "[[o1|opción 1]]"
+            "[[could|could]]"
           ],
           "correctAnswer": 2
         }
@@ -312,7 +312,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "A: Which platform for the London train?\nB: Platform ________ 4. (número)",
           "options": [
-            "[[o1|opción 1]]",
+            "[[can|can]]",
             "[[number|number]]",
             "[[leaves|hojas]]",
             "[[at|at]]"
@@ -461,7 +461,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|opción 1]]",
+            ""[[I come to work by bus.|I come to work by bus.]]"",
             "[[I go to work by bus.|I go to work by bus.]]"
           ],
           "correctAnswer": 1,
@@ -487,7 +487,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[The next bus is in ten minutes.|The next bus is in ten minutes.]]",
-            "[[o1|opción 1]]"
+            ""[[The next bus isn't in ten minutes.|The next bus isn't in ten minutes.]]""
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -537,7 +537,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[The station is very crowded.|The station is very crowded.]]",
-            "[[o1|opción 1]]"
+            ""[[The station isn't very crowded.|The station isn't very crowded.]]""
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -561,7 +561,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|opción 1]]",
+            ""[[Where isn't the bus stop?|Where isn't the bus stop?]]"",
             "[[Where is the bus stop?|Where is the bus stop?]]"
           ],
           "correctAnswer": 1,
@@ -1491,10 +1491,12 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[bus|bus]] is here.",
+          "question": "¿Cómo se dice 'bus' en inglés?",
           "options": [
-            "[[train|train]]",
-            "[[bus|bus]]"
+            "[[big|big]]",
+            "[[bus|bus]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1516,10 +1518,12 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[train|train]] is here.",
+          "question": "¿Cómo se dice 'train' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[train|train]]"
+            "[[big|big]]",
+            "[[train|train]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1541,10 +1545,12 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[plane|plane]] is here.",
+          "question": "¿Cómo se dice 'plane' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[plane|plane]]"
+            "[[big|big]]",
+            "[[plane|plane]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1566,10 +1572,12 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[taxi|taxi]] is here.",
+          "question": "¿Cómo se dice 'taxi' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[taxi|taxi]]"
+            "[[big|big]]",
+            "[[taxi|taxi]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1591,10 +1599,12 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[bicycle|bicycle]] is here.",
+          "question": "¿Cómo se dice 'bicycle' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[bicycle|bicycle]]"
+            "[[big|big]]",
+            "[[bicycle|bicycle]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1616,10 +1626,12 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[station|station]] is here.",
+          "question": "¿Cómo se dice 'station' en inglés?",
           "options": [
             "[[station|station]]",
-            "[[The station is very crowded.|The station is very crowded.]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1641,10 +1653,12 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[ticket|ticket]] is here.",
+          "question": "¿Cómo se dice 'ticket' en inglés?",
           "options": [
-            "[[leaves|hojas]]",
-            "[[ticket|ticket]]"
+            "[[big|big]]",
+            "[[ticket|ticket]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

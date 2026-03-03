@@ -17,7 +17,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
             "[[I have some butter.|I have some butter.]]",
             "[[some|some]]",
             "[[some, any|some, any]]",
-            "[[o1|opción 1]]"
+            "[[a|a]]"
           ],
           "correctAnswer": 1
         }
@@ -130,8 +130,8 @@ export const UNIT_53_EXERCISES: Exercise[] = [
           "question": "Do you have ________ apples?",
           "options": [
             "[[any|alguno/a]]",
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]",
+            "[[a|a]]",
+            "[[an|an]]",
             "[[some|some]]"
           ],
           "correctAnswer": 0
@@ -226,7 +226,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
         {
           "question": "I have ________ cookies, but I don't have ________ milk.",
           "options": [
-            "[[o1|opción 1]]",
+            "[[can|can]]",
             "[[coffee|coffee]]",
             "[[some, any|some, any]]",
             "[[Sugar|Azúcar]]"
@@ -296,9 +296,9 @@ export const UNIT_53_EXERCISES: Exercise[] = [
         {
           "question": "I don't have ________ money. Do you have ________?",
           "options": [
-            "[[o1|opción 1]]",
+            "[[can|can]]",
             "[[Are there any bananas?|Are there any bananas?]]",
-            "[[o1|opción 1]]",
+            "[[can't|can't]]",
             "[[any, any|any, any]]"
           ],
           "correctAnswer": 3
@@ -447,7 +447,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[There isn't any cheese.|There isn't any cheese.]]",
-            "[[o1|opción 1]]"
+            ""[[There isn't any cheese here.|There isn't any cheese here.]]""
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -472,7 +472,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[I want some eggs.|I want some eggs.]]",
-            "[[o1|opción 1]]"
+            ""[[I want some eggs here.|I want some eggs here.]]""
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1479,10 +1479,12 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[some|some]] is here.",
+          "question": "¿Cómo se dice 'some' en inglés?",
           "options": [
             "[[some|some]]",
-            "[[o1|opción 1]]"
+            "[[a|a]]",
+            "[[an|an]]",
+            "[[the|the]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1504,10 +1506,12 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[any|alguno/a]] is here.",
+          "question": "¿Cómo se dice 'alguno/a' en inglés?",
           "options": [
             "[[any|alguno/a]]",
-            "[[o1|opción 1]]"
+            "[[a|a]]",
+            "[[an|an]]",
+            "[[the|the]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1529,10 +1533,12 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[bread|bread]] is here.",
+          "question": "¿Cómo se dice 'bread' en inglés?",
           "options": [
             "[[bread|bread]]",
-            "[[o1|opción 1]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1554,10 +1560,12 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[cheese|cheese]] is here.",
+          "question": "¿Cómo se dice 'cheese' en inglés?",
           "options": [
             "[[cheese|cheese]]",
-            "[[some, any|some, any]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1579,10 +1587,12 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[tomatoes|tomatoes]] is here.",
+          "question": "¿Cómo se dice 'tomatoes' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[tomatoes|tomatoes]]"
+            "[[big|big]]",
+            "[[tomatoes|tomatoes]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1604,10 +1614,12 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[milk|milk]] is here.",
+          "question": "¿Cómo se dice 'milk' en inglés?",
           "options": [
-            "[[some|some]]",
-            "[[milk|milk]]"
+            "[[big|big]]",
+            "[[milk|milk]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1629,10 +1641,12 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[coffee|coffee]] is here.",
+          "question": "¿Cómo se dice 'coffee' en inglés?",
           "options": [
             "[[coffee|coffee]]",
-            "[[o1|opción 1]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

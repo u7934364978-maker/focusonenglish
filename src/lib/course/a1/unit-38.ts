@@ -94,10 +94,10 @@ export const UNIT_38_EXERCISES: Exercise[] = [
         {
           "question": "Please ________ the bathroom. It's dirty.",
           "options": [
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]",
+            "[[can|can]]",
+            "[[can't|can't]]",
             "[[clean|clean]]",
-            "[[o1|opción 1]]"
+            "[[could|could]]"
           ],
           "correctAnswer": 2
         }
@@ -167,10 +167,10 @@ export const UNIT_38_EXERCISES: Exercise[] = [
         {
           "question": "My mother ________ cook dinner today.",
           "options": [
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]",
+            "[[can|can]]",
+            "[[can't|can't]]",
             "[[has to|has to]]",
-            "[[o1|opción 1]]"
+            "[[could|could]]"
           ],
           "correctAnswer": 2
         }
@@ -258,9 +258,9 @@ export const UNIT_38_EXERCISES: Exercise[] = [
           "question": "________ he have to water the plants?",
           "options": [
             "[[Hacer la colada|Hacer la colada]]",
-            "[[o1|opción 1]]",
+            "[[do|do]]",
             "[[Does|Does]]",
-            "[[o1|opción 1]]"
+            "[[don't|don't]]"
           ],
           "correctAnswer": 2
         }
@@ -1577,10 +1577,12 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[can I|can I]] is here.",
+          "question": "¿Cómo se dice 'can I' en inglés?",
           "options": [
             "[[can I|can I]]",
-            "[[o1|opción 1]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1602,10 +1604,12 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[may I|may I]] is here.",
+          "question": "¿Cómo se dice 'may I' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[may I|may I]]"
+            "[[big|big]]",
+            "[[may I|may I]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1627,10 +1631,12 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[borrow|borrow]] is here.",
+          "question": "¿Cómo se dice 'borrow' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[borrow|borrow]]"
+            "[[big|big]]",
+            "[[borrow|borrow]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1652,10 +1658,12 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[help|help]] is here.",
+          "question": "¿Cómo se dice 'help' en inglés?",
           "options": [
-            "[[can I|can I]]",
-            "[[help|help]]"
+            "[[big|big]]",
+            "[[help|help]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1677,10 +1685,12 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[open|open]] is here.",
+          "question": "¿Cómo se dice 'open' en inglés?",
           "options": [
             "[[open|open]]",
-            "[[o1|opción 1]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1702,10 +1712,12 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[close|close]] is here.",
+          "question": "¿Cómo se dice 'close' en inglés?",
           "options": [
             "[[close|close]]",
-            "[[o1|opción 1]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1727,10 +1739,12 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[come in|come in]] is here.",
+          "question": "¿Cómo se dice 'come in' en inglés?",
           "options": [
             "[[come in|come in]]",
-            "[[o1|opción 1]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

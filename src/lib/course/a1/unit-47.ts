@@ -168,8 +168,8 @@ export const UNIT_47_EXERCISES: Exercise[] = [
           "question": "Usually I work, but today I am ________. (relajándome)",
           "options": [
             "[[mountains|mountains]]",
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]",
+            "[[can|can]]",
+            "[[can't|can't]]",
             "[[relaxing|relaxing]]"
           ],
           "correctAnswer": 3
@@ -215,8 +215,8 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         {
           "question": "We ________ visit museums on holiday. (a menudo)",
           "options": [
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]",
+            "[[always|always]]",
+            "[[usually|usually]]",
             "[[Are you relaxing on vacation?|Are you relaxing on vacation?]]",
             "[[often|often]]"
           ],
@@ -286,10 +286,10 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         {
           "question": "The weather is hot. We ________ many photos of the city. (sacamos/tomamos)",
           "options": [
-            "[[o1|opción 1]]",
+            "[[can|can]]",
             "[[take|take]]",
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]"
+            "[[can't|can't]]",
+            "[[could|could]]"
           ],
           "correctAnswer": 1
         }
@@ -410,7 +410,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|opción 1]]",
+            ""[[I love sunbathing on the beach here.|I love sunbathing on the beach here.]]"",
             "[[I love sunbathing on the beach.|I love sunbathing on the beach.]]"
           ],
           "correctAnswer": 1,
@@ -461,7 +461,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[We go hiking in the mountains.|We go hiking in the mountains.]]",
-            "[[o1|opción 1]]"
+            ""[[We come hiking in the mountains.|We come hiking in the mountains.]]""
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -561,7 +561,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[We eat local food in the evening.|We eat local food in the evening.]]",
-            "[[o1|opción 1]]"
+            ""[[We drink local food in the evening.|We drink local food in the evening.]]""
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1491,10 +1491,12 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[holiday|holiday]] is here.",
+          "question": "¿Cómo se dice 'holiday' en inglés?",
           "options": [
             "[[holiday|holiday]]",
-            "[[o1|opción 1]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1516,10 +1518,12 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[vacation|vacation]] is here.",
+          "question": "¿Cómo se dice 'vacation' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[vacation|vacation]]"
+            "[[big|big]]",
+            "[[vacation|vacation]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1541,10 +1545,12 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[beach|beach]] is here.",
+          "question": "¿Cómo se dice 'beach' en inglés?",
           "options": [
             "[[beach|beach]]",
-            "[[relax|relax]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1566,10 +1572,12 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[mountains|mountains]] is here.",
+          "question": "¿Cómo se dice 'mountains' en inglés?",
           "options": [
             "[[mountains|mountains]]",
-            "[[o1|opción 1]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1591,10 +1599,12 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[sightseeing|sightseeing]] is here.",
+          "question": "¿Cómo se dice 'sightseeing' en inglés?",
           "options": [
             "[[sightseeing|sightseeing]]",
-            "[[We eat local food in the evening.|We eat local food in the evening.]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1616,10 +1626,12 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[relax|relax]] is here.",
+          "question": "¿Cómo se dice 'relax' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[relax|relax]]"
+            "[[big|big]]",
+            "[[relax|relax]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1641,10 +1653,12 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[photos|photos]] is here.",
+          "question": "¿Cómo se dice 'photos' en inglés?",
           "options": [
             "[[photos|photos]]",
-            "[[o1|opción 1]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

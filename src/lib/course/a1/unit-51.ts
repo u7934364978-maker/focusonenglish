@@ -169,10 +169,10 @@ export const UNIT_51_EXERCISES: Exercise[] = [
         {
           "question": "Where ________ the bread?",
           "options": [
-            "[[o1|opción 1]]",
+            "[[am|am]]",
             "[[is|is]]",
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]"
+            "[[are|are]]",
+            "[[was|was]]"
           ],
           "correctAnswer": 1
         }
@@ -242,7 +242,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
           "options": [
             "[[Checkout|Caja]]",
             "[[eggs|eggs]]",
-            "[[o1|opción 1]]",
+            "[[at|at]]",
             "[[on|on]]"
           ],
           "correctAnswer": 3
@@ -409,8 +409,8 @@ export const UNIT_51_EXERCISES: Exercise[] = [
           "question": "I put my groceries in the ________. I pay at the ________.",
           "options": [
             "[[basket, checkout|basket, checkout]]",
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]",
+            "[[can|can]]",
+            "[[can't|can't]]",
             "[[Where is the checkout?|Where is the checkout?]]"
           ],
           "correctAnswer": 0
@@ -532,7 +532,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Where is the checkout?|Where is the checkout?]]",
-            "[[o1|opción 1]]"
+            ""[[Where isn't the checkout?|Where isn't the checkout?]]""
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -556,7 +556,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|opción 1]]",
+            ""[[I have my receipt here.|I have my receipt here.]]"",
             "[[I have my receipt.|I have my receipt.]]"
           ],
           "correctAnswer": 1,
@@ -631,7 +631,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|opción 1]]",
+            ""[[The aisle isn't very long.|The aisle isn't very long.]]"",
             "[[The aisle is very long.|The aisle is very long.]]"
           ],
           "correctAnswer": 1,
@@ -656,7 +656,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[o1|opción 1]]",
+            ""[[Where isn't the fruit section?|Where isn't the fruit section?]]"",
             "[[Where is the fruit section?|Where is the fruit section?]]"
           ],
           "correctAnswer": 1,
@@ -1483,10 +1483,12 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[fruit|fruit]] is here.",
+          "question": "¿Cómo se dice 'fruit' en inglés?",
           "options": [
             "[[fruit|fruit]]",
-            "[[Receipt|Recibo]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1508,10 +1510,12 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[vegetables|vegetables]] is here.",
+          "question": "¿Cómo se dice 'vegetables' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[vegetables|vegetables]]"
+            "[[big|big]]",
+            "[[vegetables|vegetables]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1533,10 +1537,12 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[milk|milk]] is here.",
+          "question": "¿Cómo se dice 'milk' en inglés?",
           "options": [
             "[[milk|milk]]",
-            "[[Do you need a bag|Do you need a bag]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1558,10 +1564,12 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[bread|bread]] is here.",
+          "question": "¿Cómo se dice 'bread' en inglés?",
           "options": [
             "[[bread|bread]]",
-            "[[o1|opción 1]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1583,10 +1591,12 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[eggs|eggs]] is here.",
+          "question": "¿Cómo se dice 'eggs' en inglés?",
           "options": [
             "[[eggs|eggs]]",
-            "[[o1|opción 1]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1608,10 +1618,12 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[basket|basket]] is here.",
+          "question": "¿Cómo se dice 'basket' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[basket|basket]]"
+            "[[big|big]]",
+            "[[basket|basket]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1633,10 +1645,12 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[checkout|caja/pago]] is here.",
+          "question": "¿Cómo se dice 'caja/pago' en inglés?",
           "options": [
-            "[[categorization_logic|categorization_logic]]",
-            "[[checkout|caja/pago]]"
+            "[[big|big]]",
+            "[[checkout|caja/pago]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

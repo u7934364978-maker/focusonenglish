@@ -96,8 +96,8 @@ export const UNIT_37_EXERCISES: Exercise[] = [
           "options": [
             "[[swim|swim]]",
             "[[Type|Escribir a máquina]]",
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]"
+            "[[can|can]]",
+            "[[can't|can't]]"
           ],
           "correctAnswer": 0
         }
@@ -193,10 +193,10 @@ export const UNIT_37_EXERCISES: Exercise[] = [
         {
           "question": "I am ________ at remembering names.",
           "options": [
-            "[[o1|opción 1]]",
-            "[[o1|opción 1]]",
+            "[[big|big]]",
+            "[[small|small]]",
             "[[bad|bad]]",
-            "[[o1|opción 1]]"
+            "[[old|old]]"
           ],
           "correctAnswer": 2
         }
@@ -263,9 +263,9 @@ export const UNIT_37_EXERCISES: Exercise[] = [
           "question": "________ can help me with this computer?",
           "options": [
             "[[Who|Who]]",
-            "[[o1|opción 1]]",
+            "[[what|what]]",
             "[[bad|bad]]",
-            "[[o1|opción 1]]"
+            "[[where|where]]"
           ],
           "correctAnswer": 0
         }
@@ -1582,10 +1582,12 @@ export const UNIT_37_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[sing|sing]] is here.",
+          "question": "¿Cómo se dice 'sing' en inglés?",
           "options": [
             "[[sing|sing]]",
-            "[[write|write]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1607,10 +1609,12 @@ export const UNIT_37_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[dance|dance]] is here.",
+          "question": "¿Cómo se dice 'dance' en inglés?",
           "options": [
-            "[[o1|opción 1]]",
-            "[[dance|dance]]"
+            "[[big|big]]",
+            "[[dance|dance]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1632,10 +1636,12 @@ export const UNIT_37_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[paint|paint]] is here.",
+          "question": "¿Cómo se dice 'paint' en inglés?",
           "options": [
             "[[paint|paint]]",
-            "[[o1|opción 1]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1657,10 +1663,12 @@ export const UNIT_37_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[cook|cook]] is here.",
+          "question": "¿Cómo se dice 'cook' en inglés?",
           "options": [
-            "[[Programar|Programar]]",
-            "[[cook|cook]]"
+            "[[big|big]]",
+            "[[cook|cook]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1682,10 +1690,12 @@ export const UNIT_37_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[write|write]] is here.",
+          "question": "¿Cómo se dice 'write' en inglés?",
           "options": [
             "[[write|write]]",
-            "[[o1|opción 1]]"
+            "[[big|big]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1707,10 +1717,12 @@ export const UNIT_37_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[act|act]] is here.",
+          "question": "¿Cómo se dice 'act' en inglés?",
           "options": [
-            "[[Type|Escribir a máquina]]",
-            "[[act|act]]"
+            "[[big|big]]",
+            "[[act|act]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1732,10 +1744,12 @@ export const UNIT_37_EXERCISES: Exercise[] = [
       "instructions": "Escucha y completa la frase:",
       "questions": [
         {
-          "question": "The [[talent|talento]] is here.",
+          "question": "¿Cómo se dice 'talento' en inglés?",
           "options": [
-            "[[sing|sing]]",
-            "[[talent|talento]]"
+            "[[big|big]]",
+            "[[talent|talento]]",
+            "[[small|small]]",
+            "[[old|old]]"
           ],
           "correctAnswer": 1,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
