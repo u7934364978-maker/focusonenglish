@@ -239,7 +239,10 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         {
           "question": "I am sunbathing on the beach.",
           "options": [
-            "[[correct|correcto]]"
+            "[[I am sunbathing on the beach.|I am sunbathing on the beach.]]",
+            "[[am I sunbathing on the beach.|am I sunbathing on the beach.]]",
+            "[[beach I am sunbathing on the.|beach I am sunbathing on the.]]",
+            "[[I am sunbathing on beach the.|I am sunbathing on beach the.]]"
           ],
           "correctAnswer": 0
         }

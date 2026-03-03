@@ -265,7 +265,10 @@ export const UNIT_45_EXERCISES: Exercise[] = [
         {
           "question": "My favorite season is autumn.",
           "options": [
-            "[[correct|correcto]]"
+            "[[My favorite season is autumn.|My favorite season is autumn.]]",
+            "[[favorite My season is autumn.|favorite My season is autumn.]]",
+            "[[autumn My favorite season is.|autumn My favorite season is.]]",
+            "[[My favorite season autumn is.|My favorite season autumn is.]]"
           ],
           "correctAnswer": 0
         }

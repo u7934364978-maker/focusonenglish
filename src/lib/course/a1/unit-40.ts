@@ -116,7 +116,10 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "with Connect 'but', 'and', sentences and 'because'",
           "options": [
-            "[[correct|correcto]]"
+            "[[with Connect 'but', 'and', sentences and 'because'|with Connect 'but', 'and', sentences and 'because']]",
+            "[[Connect with 'but', 'and', sentences and 'because'|Connect with 'but', 'and', sentences and 'because']]",
+            "[['because' with Connect 'but', 'and', sentences and|'because' with Connect 'but', 'and', sentences and]]",
+            "[[with Connect 'but', 'and', sentences 'because' and|with Connect 'but', 'and', sentences 'because' and]]"
           ],
           "correctAnswer": 0
         }
@@ -290,7 +293,10 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "of module a is review four This",
           "options": [
-            "[[correct|correcto]]"
+            "[[of module a is review four This|of module a is review four This]]",
+            "[[module of a is review four This|module of a is review four This]]",
+            "[[This of module a is review four|This of module a is review four]]",
+            "[[of module a is review This four|of module a is review This four]]"
           ],
           "correctAnswer": 0
         }
@@ -464,7 +470,10 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "of Use adverbs frequency",
           "options": [
-            "[[correct|correcto]]"
+            "[[of Use adverbs frequency|of Use adverbs frequency]]",
+            "[[Use of adverbs frequency|Use of adverbs frequency]]",
+            "[[frequency of Use adverbs|frequency of Use adverbs]]",
+            "[[of Use frequency adverbs|of Use frequency adverbs]]"
           ],
           "correctAnswer": 0
         }
@@ -638,7 +647,10 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "and about Talk skills abilities your",
           "options": [
-            "[[correct|correcto]]"
+            "[[and about Talk skills abilities your|and about Talk skills abilities your]]",
+            "[[about and Talk skills abilities your|about and Talk skills abilities your]]",
+            "[[your and about Talk skills abilities|your and about Talk skills abilities]]",
+            "[[and about Talk skills your abilities|and about Talk skills your abilities]]"
           ],
           "correctAnswer": 0
         }
@@ -812,7 +824,10 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "politely Ask for permission",
           "options": [
-            "[[correct|correcto]]"
+            "[[politely Ask for permission|politely Ask for permission]]",
+            "[[Ask politely for permission|Ask politely for permission]]",
+            "[[permission politely Ask for|permission politely Ask for]]",
+            "[[politely Ask permission for|politely Ask permission for]]"
           ],
           "correctAnswer": 0
         }
@@ -986,7 +1001,10 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "'and', 'because' sentences Connect and 'but', with",
           "options": [
-            "[[correct|correcto]]"
+            "[['and', 'because' sentences Connect and 'but', with|'and', 'because' sentences Connect and 'but', with]]",
+            "[['because' 'and', sentences Connect and 'but', with|'because' 'and', sentences Connect and 'but', with]]",
+            "[[with 'and', 'because' sentences Connect and 'but',|with 'and', 'because' sentences Connect and 'but',]]",
+            "[['and', 'because' sentences Connect and with 'but',|'and', 'because' sentences Connect and with 'but',]]"
           ],
           "correctAnswer": 0
         }
@@ -1160,7 +1178,10 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "of review This a four is module",
           "options": [
-            "[[correct|correcto]]"
+            "[[of review This a four is module|of review This a four is module]]",
+            "[[review of This a four is module|review of This a four is module]]",
+            "[[module of review This a four is|module of review This a four is]]",
+            "[[of review This a four module is|of review This a four module is]]"
           ],
           "correctAnswer": 0
         }
@@ -1334,7 +1355,10 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "Use of adverbs frequency",
           "options": [
-            "[[correct|correcto]]"
+            "[[Use of adverbs frequency|Use of adverbs frequency]]",
+            "[[of Use adverbs frequency|of Use adverbs frequency]]",
+            "[[frequency Use of adverbs|frequency Use of adverbs]]",
+            "[[Use of frequency adverbs|Use of frequency adverbs]]"
           ],
           "correctAnswer": 0
         }
@@ -1508,7 +1532,10 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "Talk abilities skills about and your",
           "options": [
-            "[[correct|correcto]]"
+            "[[Talk abilities skills about and your|Talk abilities skills about and your]]",
+            "[[abilities Talk skills about and your|abilities Talk skills about and your]]",
+            "[[your Talk abilities skills about and|your Talk abilities skills about and]]",
+            "[[Talk abilities skills about your and|Talk abilities skills about your and]]"
           ],
           "correctAnswer": 0
         }
@@ -1682,7 +1709,10 @@ export const UNIT_40_EXERCISES: Exercise[] = [
         {
           "question": "Ask politely for permission",
           "options": [
-            "[[correct|correcto]]"
+            "[[Ask politely for permission|Ask politely for permission]]",
+            "[[politely Ask for permission|politely Ask for permission]]",
+            "[[permission Ask politely for|permission Ask politely for]]",
+            "[[Ask politely permission for|Ask politely permission for]]"
           ],
           "correctAnswer": 0
         }

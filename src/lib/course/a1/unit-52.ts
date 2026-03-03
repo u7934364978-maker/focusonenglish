@@ -64,7 +64,10 @@ export const UNIT_52_EXERCISES: Exercise[] = [
         {
           "question": "There are three eggs",
           "options": [
-            "[[correct|correcto]]"
+            "[[There are three eggs|There are three eggs]]",
+            "[[are There three eggs|are There three eggs]]",
+            "[[eggs There are three|eggs There are three]]",
+            "[[There are eggs three|There are eggs three]]"
           ],
           "correctAnswer": 0
         }
@@ -278,7 +281,10 @@ export const UNIT_52_EXERCISES: Exercise[] = [
         {
           "question": "We want some bread",
           "options": [
-            "[[correct|correcto]]"
+            "[[We want some bread|We want some bread]]",
+            "[[want We some bread|want We some bread]]",
+            "[[bread We want some|bread We want some]]",
+            "[[We want bread some|We want bread some]]"
           ],
           "correctAnswer": 0
         }

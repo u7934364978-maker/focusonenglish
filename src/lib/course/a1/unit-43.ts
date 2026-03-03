@@ -239,7 +239,10 @@ export const UNIT_43_EXERCISES: Exercise[] = [
         {
           "question": "We always take many photos.",
           "options": [
-            "[[correct|correcto]]"
+            "[[We always take many photos.|We always take many photos.]]",
+            "[[always We take many photos.|always We take many photos.]]",
+            "[[photos We always take many.|photos We always take many.]]",
+            "[[We always take photos many.|We always take photos many.]]"
           ],
           "correctAnswer": 0
         }

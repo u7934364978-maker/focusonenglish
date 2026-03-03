@@ -38,7 +38,10 @@ export const UNIT_53_EXERCISES: Exercise[] = [
         {
           "question": "We need some cheese",
           "options": [
-            "[[correct|correcto]]"
+            "[[We need some cheese|We need some cheese]]",
+            "[[need We some cheese|need We some cheese]]",
+            "[[cheese We need some|cheese We need some]]",
+            "[[We need cheese some|We need cheese some]]"
           ],
           "correctAnswer": 0
         }
@@ -250,7 +253,10 @@ export const UNIT_53_EXERCISES: Exercise[] = [
         {
           "question": "Do you have any bananas",
           "options": [
-            "[[correct|correcto]]"
+            "[[Do you have any bananas|Do you have any bananas]]",
+            "[[you Do have any bananas|you Do have any bananas]]",
+            "[[bananas Do you have any|bananas Do you have any]]",
+            "[[Do you have bananas any|Do you have bananas any]]"
           ],
           "correctAnswer": 0
         }

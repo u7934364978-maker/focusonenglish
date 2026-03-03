@@ -116,7 +116,10 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "holiday for a Prepare",
           "options": [
-            "[[correct|correcto]]"
+            "[[holiday for a Prepare|holiday for a Prepare]]",
+            "[[for holiday a Prepare|for holiday a Prepare]]",
+            "[[Prepare holiday for a|Prepare holiday for a]]",
+            "[[holiday for Prepare a|holiday for Prepare a]]"
           ],
           "correctAnswer": 0
         }
@@ -290,7 +293,10 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "of five This a module is review",
           "options": [
-            "[[correct|correcto]]"
+            "[[of five This a module is review|of five This a module is review]]",
+            "[[five of This a module is review|five of This a module is review]]",
+            "[[review of five This a module is|review of five This a module is]]",
+            "[[of five This a module review is|of five This a module review is]]"
           ],
           "correctAnswer": 0
         }
@@ -464,7 +470,10 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "Talk travel and about transport",
           "options": [
-            "[[correct|correcto]]"
+            "[[Talk travel and about transport|Talk travel and about transport]]",
+            "[[travel Talk and about transport|travel Talk and about transport]]",
+            "[[transport Talk travel and about|transport Talk travel and about]]",
+            "[[Talk travel and transport about|Talk travel and transport about]]"
           ],
           "correctAnswer": 0
         }
@@ -638,7 +647,10 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "the weather Describe and seasons",
           "options": [
-            "[[correct|correcto]]"
+            "[[the weather Describe and seasons|the weather Describe and seasons]]",
+            "[[weather the Describe and seasons|weather the Describe and seasons]]",
+            "[[seasons the weather Describe and|seasons the weather Describe and]]",
+            "[[the weather Describe seasons and|the weather Describe seasons and]]"
           ],
           "correctAnswer": 0
         }
@@ -812,7 +824,10 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "Book room a hotel",
           "options": [
-            "[[correct|correcto]]"
+            "[[Book room a hotel|Book room a hotel]]",
+            "[[room Book a hotel|room Book a hotel]]",
+            "[[hotel Book room a|hotel Book room a]]",
+            "[[Book room hotel a|Book room hotel a]]"
           ],
           "correctAnswer": 0
         }
@@ -986,7 +1001,10 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "Prepare for holiday a",
           "options": [
-            "[[correct|correcto]]"
+            "[[Prepare for holiday a|Prepare for holiday a]]",
+            "[[for Prepare holiday a|for Prepare holiday a]]",
+            "[[a Prepare for holiday|a Prepare for holiday]]",
+            "[[Prepare for a holiday|Prepare for a holiday]]"
           ],
           "correctAnswer": 0
         }
@@ -1160,7 +1178,10 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "module is five of review This a",
           "options": [
-            "[[correct|correcto]]"
+            "[[module is five of review This a|module is five of review This a]]",
+            "[[is module five of review This a|is module five of review This a]]",
+            "[[a module is five of review This|a module is five of review This]]",
+            "[[module is five of review a This|module is five of review a This]]"
           ],
           "correctAnswer": 0
         }
@@ -1334,7 +1355,10 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "about Talk travel transport and",
           "options": [
-            "[[correct|correcto]]"
+            "[[about Talk travel transport and|about Talk travel transport and]]",
+            "[[Talk about travel transport and|Talk about travel transport and]]",
+            "[[and about Talk travel transport|and about Talk travel transport]]",
+            "[[about Talk travel and transport|about Talk travel and transport]]"
           ],
           "correctAnswer": 0
         }
@@ -1508,7 +1532,10 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "weather the seasons Describe and",
           "options": [
-            "[[correct|correcto]]"
+            "[[weather the seasons Describe and|weather the seasons Describe and]]",
+            "[[the weather seasons Describe and|the weather seasons Describe and]]",
+            "[[and weather the seasons Describe|and weather the seasons Describe]]",
+            "[[weather the seasons and Describe|weather the seasons and Describe]]"
           ],
           "correctAnswer": 0
         }
@@ -1682,7 +1709,10 @@ export const UNIT_50_EXERCISES: Exercise[] = [
         {
           "question": "hotel Book room a",
           "options": [
-            "[[correct|correcto]]"
+            "[[hotel Book room a|hotel Book room a]]",
+            "[[Book hotel room a|Book hotel room a]]",
+            "[[a hotel Book room|a hotel Book room]]",
+            "[[hotel Book a room|hotel Book a room]]"
           ],
           "correctAnswer": 0
         }

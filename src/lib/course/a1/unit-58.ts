@@ -169,7 +169,10 @@ export const UNIT_58_EXERCISES: Exercise[] = [
         {
           "question": "We have lunch at 1 pm",
           "options": [
-            "[[correct|correcto]]"
+            "[[We have lunch at 1 pm|We have lunch at 1 pm]]",
+            "[[have We lunch at 1 pm|have We lunch at 1 pm]]",
+            "[[pm We have lunch at 1|pm We have lunch at 1]]",
+            "[[We have lunch at pm 1|We have lunch at pm 1]]"
           ],
           "correctAnswer": 0
         }

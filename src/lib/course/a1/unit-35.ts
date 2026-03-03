@@ -289,7 +289,10 @@ export const UNIT_35_EXERCISES: Exercise[] = [
         {
           "question": "They don't play video games",
           "options": [
-            "[[correct|correcto]]"
+            "[[They don't play video games|They don't play video games]]",
+            "[[don't They play video games|don't They play video games]]",
+            "[[games They don't play video|games They don't play video]]",
+            "[[They don't play games video|They don't play games video]]"
           ],
           "correctAnswer": 0
         }

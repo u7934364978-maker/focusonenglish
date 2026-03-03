@@ -239,7 +239,10 @@ export const UNIT_41_EXERCISES: Exercise[] = [
         {
           "question": "Where is gate number ten?",
           "options": [
-            "[[correct|correcto]]"
+            "[[Where is gate number ten?|Where is gate number ten?]]",
+            "[[is Where gate number ten?|is Where gate number ten?]]",
+            "[[ten Where is gate number?|ten Where is gate number?]]",
+            "[[Where is gate ten number?|Where is gate ten number?]]"
           ],
           "correctAnswer": 0
         }

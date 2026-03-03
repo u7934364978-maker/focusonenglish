@@ -169,7 +169,10 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "The cup is on the counter",
           "options": [
-            "[[correct|correcto]]"
+            "[[The cup is on the counter|The cup is on the counter]]",
+            "[[cup The is on the counter|cup The is on the counter]]",
+            "[[counter The cup is on the|counter The cup is on the]]",
+            "[[The cup is on counter the|The cup is on counter the]]"
           ],
           "correctAnswer": 0
         }

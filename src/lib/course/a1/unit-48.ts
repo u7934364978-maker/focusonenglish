@@ -241,7 +241,10 @@ export const UNIT_48_EXERCISES: Exercise[] = [
         {
           "question": "What time does the tour start?",
           "options": [
-            "[[correct|correcto]]"
+            "[[What time does the tour start?|What time does the tour start?]]",
+            "[[time What does the tour start?|time What does the tour start?]]",
+            "[[start What time does the tour?|start What time does the tour?]]",
+            "[[What time does the start tour?|What time does the start tour?]]"
           ],
           "correctAnswer": 0
         }

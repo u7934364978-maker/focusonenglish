@@ -191,7 +191,10 @@ export const UNIT_38_EXERCISES: Exercise[] = [
         {
           "question": "You must clean your room",
           "options": [
-            "[[correct|correcto]]"
+            "[[You must clean your room|You must clean your room]]",
+            "[[must You clean your room|must You clean your room]]",
+            "[[room You must clean your|room You must clean your]]",
+            "[[You must clean room your|You must clean room your]]"
           ],
           "correctAnswer": 0
         }
@@ -236,7 +239,10 @@ export const UNIT_38_EXERCISES: Exercise[] = [
         {
           "question": "Do you have to do the laundry ?",
           "options": [
-            "[[correct|correcto]]"
+            "[[Do you have to do the laundry ?|Do you have to do the laundry ?]]",
+            "[[you Do have to do the laundry?|you Do have to do the laundry?]]",
+            "[[laundry Do you have to do the?|laundry Do you have to do the?]]",
+            "[[Do you have to do laundry the?|Do you have to do laundry the?]]"
           ],
           "correctAnswer": 0
         }

@@ -265,7 +265,10 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "What is the weather like today?",
           "options": [
-            "[[correct|correcto]]"
+            "[[What is the weather like today?|What is the weather like today?]]",
+            "[[is What the weather like today?|is What the weather like today?]]",
+            "[[today What is the weather like?|today What is the weather like?]]",
+            "[[What is the weather today like?|What is the weather today like?]]"
           ],
           "correctAnswer": 0
         }

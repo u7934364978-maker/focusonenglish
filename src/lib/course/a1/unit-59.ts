@@ -169,7 +169,10 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "She loves cooking for her friends",
           "options": [
-            "[[correct|correcto]]"
+            "[[She loves cooking for her friends|She loves cooking for her friends]]",
+            "[[loves She cooking for her friends|loves She cooking for her friends]]",
+            "[[friends She loves cooking for her|friends She loves cooking for her]]",
+            "[[She loves cooking for friends her|She loves cooking for friends her]]"
           ],
           "correctAnswer": 0
         }

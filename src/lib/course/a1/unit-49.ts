@@ -193,7 +193,10 @@ export const UNIT_49_EXERCISES: Exercise[] = [
         {
           "question": "I need my swimsuit",
           "options": [
-            "[[correct|correcto]]"
+            "[[I need my swimsuit|I need my swimsuit]]",
+            "[[need I my swimsuit|need I my swimsuit]]",
+            "[[swimsuit I need my|swimsuit I need my]]",
+            "[[I need swimsuit my|I need swimsuit my]]"
           ],
           "correctAnswer": 0
         }

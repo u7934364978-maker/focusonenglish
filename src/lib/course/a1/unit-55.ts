@@ -169,7 +169,10 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "I need a small size",
           "options": [
-            "[[correct|correcto]]"
+            "[[I need a small size|I need a small size]]",
+            "[[need I a small size|need I a small size]]",
+            "[[size I need a small|size I need a small]]",
+            "[[I need a size small|I need a size small]]"
           ],
           "correctAnswer": 0
         }

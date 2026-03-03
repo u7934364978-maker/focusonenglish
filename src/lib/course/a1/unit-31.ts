@@ -92,7 +92,10 @@ export const UNIT_31_EXERCISES: Exercise[] = [
         {
           "question": "I can play the piano",
           "options": [
-            "[[correct|correcto]]"
+            "[[I can play the piano|I can play the piano]]",
+            "[[can I play the piano|can I play the piano]]",
+            "[[piano I can play the|piano I can play the]]",
+            "[[I can play piano the|I can play piano the]]"
           ],
           "correctAnswer": 0
         }
@@ -213,7 +216,10 @@ export const UNIT_31_EXERCISES: Exercise[] = [
         {
           "question": "Can you help me ?",
           "options": [
-            "[[correct|correcto]]"
+            "[[Can you help me ?|Can you help me ?]]",
+            "[[you Can help me?|you Can help me?]]",
+            "[[me Can you help?|me Can you help?]]",
+            "[[Can you me help?|Can you me help?]]"
           ],
           "correctAnswer": 0
         }

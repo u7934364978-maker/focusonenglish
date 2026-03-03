@@ -113,7 +113,10 @@ export const UNIT_36_EXERCISES: Exercise[] = [
         {
           "question": "He plays the piano beautifully",
           "options": [
-            "[[correct|correcto]]"
+            "[[He plays the piano beautifully|He plays the piano beautifully]]",
+            "[[plays He the piano beautifully|plays He the piano beautifully]]",
+            "[[beautifully He plays the piano|beautifully He plays the piano]]",
+            "[[He plays the beautifully piano|He plays the beautifully piano]]"
           ],
           "correctAnswer": 0
         }

@@ -161,7 +161,10 @@ export const UNIT_39_EXERCISES: Exercise[] = [
         {
           "question": "Were you at the cinema ?",
           "options": [
-            "[[correct|correcto]]"
+            "[[Were you at the cinema ?|Were you at the cinema ?]]",
+            "[[you Were at the cinema?|you Were at the cinema?]]",
+            "[[cinema Were you at the?|cinema Were you at the?]]",
+            "[[Were you at cinema the?|Were you at cinema the?]]"
           ],
           "correctAnswer": 0
         }

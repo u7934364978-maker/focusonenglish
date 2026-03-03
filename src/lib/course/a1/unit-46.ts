@@ -211,7 +211,10 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "What is the wifi password?",
           "options": [
-            "[[correct|correcto]]"
+            "[[What is the wifi password?|What is the wifi password?]]",
+            "[[is What the wifi password?|is What the wifi password?]]",
+            "[[password What is the wifi?|password What is the wifi?]]",
+            "[[What is the password wifi?|What is the password wifi?]]"
           ],
           "correctAnswer": 0
         }

@@ -193,7 +193,10 @@ export const UNIT_51_EXERCISES: Exercise[] = [
         {
           "question": "It is in aisle five",
           "options": [
-            "[[correct|correcto]]"
+            "[[It is in aisle five|It is in aisle five]]",
+            "[[is It in aisle five|is It in aisle five]]",
+            "[[five It is in aisle|five It is in aisle]]",
+            "[[It is in five aisle|It is in five aisle]]"
           ],
           "correctAnswer": 0
         }
@@ -363,7 +366,10 @@ export const UNIT_51_EXERCISES: Exercise[] = [
         {
           "question": "Pay at the checkout",
           "options": [
-            "[[correct|correcto]]"
+            "[[Pay at the checkout|Pay at the checkout]]",
+            "[[at Pay the checkout|at Pay the checkout]]",
+            "[[checkout Pay at the|checkout Pay at the]]",
+            "[[Pay at checkout the|Pay at checkout the]]"
           ],
           "correctAnswer": 0
         }

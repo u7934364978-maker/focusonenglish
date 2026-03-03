@@ -116,7 +116,10 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "in a restaurant Order",
           "options": [
-            "[[correct|correcto]]"
+            "[[in a restaurant Order|in a restaurant Order]]",
+            "[[a in restaurant Order|a in restaurant Order]]",
+            "[[Order in a restaurant|Order in a restaurant]]",
+            "[[in a Order restaurant|in a Order restaurant]]"
           ],
           "correctAnswer": 0
         }
@@ -290,7 +293,10 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "Manage money payments and",
           "options": [
-            "[[correct|correcto]]"
+            "[[Manage money payments and|Manage money payments and]]",
+            "[[money Manage payments and|money Manage payments and]]",
+            "[[and Manage money payments|and Manage money payments]]",
+            "[[Manage money and payments|Manage money and payments]]"
           ],
           "correctAnswer": 0
         }
@@ -464,7 +470,10 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "and Talk about shopping food",
           "options": [
-            "[[correct|correcto]]"
+            "[[and Talk about shopping food|and Talk about shopping food]]",
+            "[[Talk and about shopping food|Talk and about shopping food]]",
+            "[[food and Talk about shopping|food and Talk about shopping]]",
+            "[[and Talk about food shopping|and Talk about food shopping]]"
           ],
           "correctAnswer": 0
         }
@@ -638,7 +647,10 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "final the is This review",
           "options": [
-            "[[correct|correcto]]"
+            "[[final the is This review|final the is This review]]",
+            "[[the final is This review|the final is This review]]",
+            "[[review final the is This|review final the is This]]",
+            "[[final the is review This|final the is review This]]"
           ],
           "correctAnswer": 0
         }
@@ -812,7 +824,10 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "issues health Describe",
           "options": [
-            "[[correct|correcto]]"
+            "[[issues health Describe|issues health Describe]]",
+            "[[health issues Describe|health issues Describe]]",
+            "[[Describe issues health|Describe issues health]]",
+            "[[issues Describe health|issues Describe health]]"
           ],
           "correctAnswer": 0
         }
@@ -986,7 +1001,10 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "a in Order restaurant",
           "options": [
-            "[[correct|correcto]]"
+            "[[a in Order restaurant|a in Order restaurant]]",
+            "[[in a Order restaurant|in a Order restaurant]]",
+            "[[restaurant a in Order|restaurant a in Order]]",
+            "[[a in restaurant Order|a in restaurant Order]]"
           ],
           "correctAnswer": 0
         }
@@ -1160,7 +1178,10 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "payments money Manage and",
           "options": [
-            "[[correct|correcto]]"
+            "[[payments money Manage and|payments money Manage and]]",
+            "[[money payments Manage and|money payments Manage and]]",
+            "[[and payments money Manage|and payments money Manage]]",
+            "[[payments money and Manage|payments money and Manage]]"
           ],
           "correctAnswer": 0
         }
@@ -1334,7 +1355,10 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "and Talk about food shopping",
           "options": [
-            "[[correct|correcto]]"
+            "[[and Talk about food shopping|and Talk about food shopping]]",
+            "[[Talk and about food shopping|Talk and about food shopping]]",
+            "[[shopping and Talk about food|shopping and Talk about food]]",
+            "[[and Talk about shopping food|and Talk about shopping food]]"
           ],
           "correctAnswer": 0
         }
@@ -1508,7 +1532,10 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "This the final is review",
           "options": [
-            "[[correct|correcto]]"
+            "[[This the final is review|This the final is review]]",
+            "[[the This final is review|the This final is review]]",
+            "[[review This the final is|review This the final is]]",
+            "[[This the final review is|This the final review is]]"
           ],
           "correctAnswer": 0
         }
@@ -1682,7 +1709,10 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "Describe issues health",
           "options": [
-            "[[correct|correcto]]"
+            "[[Describe issues health|Describe issues health]]",
+            "[[issues Describe health|issues Describe health]]",
+            "[[health Describe issues|health Describe issues]]",
+            "[[Describe health issues|Describe health issues]]"
           ],
           "correctAnswer": 0
         }

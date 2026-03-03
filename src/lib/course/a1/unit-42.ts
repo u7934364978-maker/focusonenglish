@@ -265,7 +265,10 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "A ticket to Oxford, please.",
           "options": [
-            "[[correct|correcto]]"
+            "[[A ticket to Oxford, please.|A ticket to Oxford, please.]]",
+            "[[ticket A to Oxford, please.|ticket A to Oxford, please.]]",
+            "[[please A ticket to Oxford,.|please A ticket to Oxford,.]]",
+            "[[A ticket to please Oxford,.|A ticket to please Oxford,.]]"
           ],
           "correctAnswer": 0
         }

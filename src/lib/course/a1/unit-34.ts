@@ -132,7 +132,10 @@ export const UNIT_34_EXERCISES: Exercise[] = [
         {
           "question": "She is tall and beautiful",
           "options": [
-            "[[correct|correcto]]"
+            "[[She is tall and beautiful|She is tall and beautiful]]",
+            "[[is She tall and beautiful|is She tall and beautiful]]",
+            "[[beautiful She is tall and|beautiful She is tall and]]",
+            "[[She is tall beautiful and|She is tall beautiful and]]"
           ],
           "correctAnswer": 0
         }
@@ -251,7 +254,10 @@ export const UNIT_34_EXERCISES: Exercise[] = [
         {
           "question": "He is tired because he is at work",
           "options": [
-            "[[correct|correcto]]"
+            "[[He is tired because he is at work|He is tired because he is at work]]",
+            "[[is He tired because he is at work|is He tired because he is at work]]",
+            "[[work He is tired because he is at|work He is tired because he is at]]",
+            "[[He is tired because he is work at|He is tired because he is work at]]"
           ],
           "correctAnswer": 0
         }

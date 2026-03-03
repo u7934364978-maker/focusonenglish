@@ -64,7 +64,10 @@ export const UNIT_54_EXERCISES: Exercise[] = [
         {
           "question": "How many apples do you have",
           "options": [
-            "[[correct|correcto]]"
+            "[[How many apples do you have|How many apples do you have]]",
+            "[[many How apples do you have|many How apples do you have]]",
+            "[[have How many apples do you|have How many apples do you]]",
+            "[[How many apples do have you|How many apples do have you]]"
           ],
           "correctAnswer": 0
         }
@@ -302,7 +305,10 @@ export const UNIT_54_EXERCISES: Exercise[] = [
         {
           "question": "There are a lot of people today",
           "options": [
-            "[[correct|correcto]]"
+            "[[There are a lot of people today|There are a lot of people today]]",
+            "[[are There a lot of people today|are There a lot of people today]]",
+            "[[today There are a lot of people|today There are a lot of people]]",
+            "[[There are a lot of today people|There are a lot of today people]]"
           ],
           "correctAnswer": 0
         }

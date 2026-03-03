@@ -169,7 +169,10 @@ export const UNIT_57_EXERCISES: Exercise[] = [
         {
           "question": "There are three clocks on the wall",
           "options": [
-            "[[correct|correcto]]"
+            "[[There are three clocks on the wall|There are three clocks on the wall]]",
+            "[[are There three clocks on the wall|are There three clocks on the wall]]",
+            "[[wall There are three clocks on the|wall There are three clocks on the]]",
+            "[[There are three clocks on wall the|There are three clocks on wall the]]"
           ],
           "correctAnswer": 0
         }
