@@ -154,7 +154,8 @@ Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 - **Unit 60** (FIX-7): Restructure as final A1 course review covering all 6 modules
 - Verify: `node scripts/audit-a1-full.mjs --units=41-60` → zero critical errors
 
-### [ ] Step: Final Validation
+### [x] Step: Final Validation
+<!-- chat-id: 25ba14f4-768b-4157-a29f-17f825d3fe6b -->
 - Run `node scripts/audit-a1-full.mjs --units=1-60` and confirm zero critical issues
 - Run `npm run validate-exercises` and confirm all unit files pass schema validation
 - Run `npm run lint` and confirm no JSON syntax or linter errors
