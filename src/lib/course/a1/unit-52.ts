@@ -198,14 +198,15 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: 'Tengo algo de leche'",
       "questions": [
         {
           "question": "Traduce: 'Tengo algo de leche'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[I have some milk.|Tengo algo de leche.]]",
+            "[[I have some water.|Tengo algo de agua.]]",
+            "[[I have some juice.|Tengo algo de zumo.]]"
           ],
           "correctAnswer": 0
         }
@@ -293,14 +294,15 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: 'Necesito una naranja'",
       "questions": [
         {
           "question": "Traduce: 'Necesito una naranja'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[I need an orange.|Necesito una naranja.]]",
+            "[[I need an apple.|Necesito una manzana.]]",
+            "[[I need a banana.|Necesito un plátano.]]"
           ],
           "correctAnswer": 0
         }
@@ -365,14 +367,15 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Escribe una frase diciendo que tienes una manzana:",
       "questions": [
         {
           "question": "Escribe una frase diciendo que tienes una manzana:",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[I have an apple.|Tengo una manzana.]]",
+            "[[I want an apple.|Quiero una manzana.]]",
+            "[[I ate an apple.|Comí una manzana.]]"
           ],
           "correctAnswer": 0
         }

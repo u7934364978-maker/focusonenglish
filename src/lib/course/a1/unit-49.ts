@@ -89,14 +89,15 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Escribe 'adaptador' en inglés:",
       "questions": [
         {
           "question": "Escribe 'adaptador' en inglés:",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[Adapter|Adaptador]]",
+            "[[Charger|Cargador]]",
+            "[[Cable|Cable]]"
           ],
           "correctAnswer": 0
         }
@@ -304,14 +305,15 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: 'Estoy haciendo mi maleta'",
       "questions": [
         {
           "question": "Traduce: 'Estoy haciendo mi maleta'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[I'm packing my suitcase.|Estoy haciendo mi maleta.]]",
+            "[[I'm unpacking my suitcase.|Estoy deshaciendo mi maleta.]]",
+            "[[I'm closing my suitcase.|Estoy cerrando mi maleta.]]"
           ],
           "correctAnswer": 0
         }
@@ -378,14 +380,15 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Escribe una frase corta diciendo que necesitas tu cargador:",
       "questions": [
         {
           "question": "Escribe una frase corta diciendo que necesitas tu cargador:",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[I need my charger.|Necesito mi cargador.]]",
+            "[[I have my charger.|Tengo mi cargador.]]",
+            "[[I lost my charger.|Perdí mi cargador.]]"
           ],
           "correctAnswer": 0
         }

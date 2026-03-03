@@ -59,14 +59,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: 'Ayer'",
       "questions": [
         {
           "question": "Traduce: 'Ayer'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[Yesterday|Ayer]]",
+            "[[Today|Hoy]]",
+            "[[Tomorrow|Mañana]]"
           ],
           "correctAnswer": 0
         }
@@ -200,14 +201,15 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: '¿Dónde estuviste ayer?'",
       "questions": [
         {
           "question": "Traduce: '¿Dónde estuviste ayer?'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[Where were you yesterday?|¿Dónde estuviste ayer?]]",
+            "[[Where are you today?|¿Dónde estás hoy?]]",
+            "[[Where were you last week?|¿Dónde estuviste la semana pasada?]]"
           ],
           "correctAnswer": 0
         }

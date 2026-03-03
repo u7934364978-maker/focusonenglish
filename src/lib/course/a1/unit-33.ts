@@ -279,14 +279,15 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: 'Dos veces al año.'",
       "questions": [
         {
           "question": "Traduce: 'Dos veces al año.'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[Twice a year.|Dos veces al año.]]",
+            "[[Once a year.|Una vez al año.]]",
+            "[[Three times a year.|Tres veces al año.]]"
           ],
           "correctAnswer": 0
         }
@@ -327,7 +328,7 @@ export const UNIT_33_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "Anna goes to the gym three times a week. She likes to exercise on Monday, Wednesday, and Friday. At the gym, she runs, lifts weights, and does yoga. Anna feels happy and healthy. Her friend Lisa joins her sometimes. After the gym, Anna drinks a smoothie. She enjoys her routine and always looks forward to the next workout.",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Basado en el texto, ¿con qué frecuencia va al gimnasio?",
       "questions": [
         {

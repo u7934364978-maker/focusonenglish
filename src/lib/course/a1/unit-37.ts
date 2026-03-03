@@ -113,14 +113,15 @@ export const UNIT_37_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: 'Cantar'",
       "questions": [
         {
           "question": "Traduce: 'Cantar'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[Sing|Cantar]]",
+            "[[Dance|Bailar]]",
+            "[[Cook|Cocinar]]"
           ],
           "correctAnswer": 0
         }
@@ -280,14 +281,15 @@ export const UNIT_37_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: '¿Quién puede hablar inglés?'",
       "questions": [
         {
           "question": "Traduce: '¿Quién puede hablar inglés?'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[Who can speak English?|¿Quién puede hablar inglés?]]",
+            "[[Who speaks Spanish?|¿Quién habla español?]]",
+            "[[Who can sing?|¿Quién puede cantar?]]"
           ],
           "correctAnswer": 0
         }

@@ -113,14 +113,15 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: 'Hace calor'",
       "questions": [
         {
           "question": "Traduce: 'Hace calor'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[It's hot.|Hace calor.]]",
+            "[[It's cold.|Hace frío.]]",
+            "[[It's warm.|Está templado.]]"
           ],
           "correctAnswer": 0
         }
@@ -330,14 +331,15 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: 'Hoy está muy nublado'",
       "questions": [
         {
           "question": "Traduce: 'Hoy está muy nublado'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[It's very cloudy today.|Hoy está muy nublado.]]",
+            "[[It's very sunny today.|Hoy hace mucho sol.]]",
+            "[[It's very windy today.|Hoy hace mucho viento.]]"
           ],
           "correctAnswer": 0
         }

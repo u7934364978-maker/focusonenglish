@@ -89,14 +89,15 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Escribe 'bailar' en inglés:",
       "questions": [
         {
           "question": "Escribe 'bailar' en inglés:",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[Dance|Bailar]]",
+            "[[Sing|Cantar]]",
+            "[[Cook|Cocinar]]"
           ],
           "correctAnswer": 0
         }
@@ -338,14 +339,15 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Escribe 'escuchar música' en inglés:",
       "questions": [
         {
           "question": "Escribe 'escuchar música' en inglés:",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[Listen to music|Escuchar música]]",
+            "[[Watch TV|Ver la televisión]]",
+            "[[Play music|Tocar música]]"
           ],
           "correctAnswer": 0
         }
@@ -410,14 +412,15 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: 'Me gusta escuchar música'",
       "questions": [
         {
           "question": "Traduce: 'Me gusta escuchar música'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[I like listening to music.|Me gusta escuchar música.]]",
+            "[[I like watching TV.|Me gusta ver la televisión.]]",
+            "[[I like dancing.|Me gusta bailar.]]"
           ],
           "correctAnswer": 0
         }

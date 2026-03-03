@@ -89,14 +89,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Escribe 'talla' en inglés:",
       "questions": [
         {
           "question": "Escribe 'talla' en inglés:",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[Size|Talla]]",
+            "[[Colour|Color]]",
+            "[[Price|Precio]]"
           ],
           "correctAnswer": 0
         }
@@ -308,14 +309,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: '¿Cuánto cuesta esta camisa?'",
       "questions": [
         {
           "question": "Traduce: '¿Cuánto cuesta esta camisa?'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[How much does this shirt cost?|¿Cuánto cuesta esta camisa?]]",
+            "[[How much is this dress?|¿Cuánto cuesta este vestido?]]",
+            "[[How much are these shoes?|¿Cuánto cuestan estos zapatos?]]"
           ],
           "correctAnswer": 0
         }
@@ -380,14 +382,15 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Pregunta si tienen una talla grande (L):",
       "questions": [
         {
           "question": "Pregunta si tienen una talla grande (L):",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[Do you have this in a large?|¿Tienen esto en talla grande?]]",
+            "[[Do you have this in a small?|¿Tienen esto en talla pequeña?]]",
+            "[[Do you have this in a medium?|¿Tienen esto en talla mediana?]]"
           ],
           "correctAnswer": 0
         }

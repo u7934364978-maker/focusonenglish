@@ -89,14 +89,15 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Escribe 'encimera' en inglés:",
       "questions": [
         {
           "question": "Escribe 'encimera' en inglés:",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[Worktop|Encimera]]",
+            "[[Shelf|Estante]]",
+            "[[Cupboard|Armario]]"
           ],
           "correctAnswer": 0
         }
@@ -314,14 +315,15 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Escribe 'estante' en inglés:",
       "questions": [
         {
           "question": "Escribe 'estante' en inglés:",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[Shelf|Estante]]",
+            "[[Drawer|Cajón]]",
+            "[[Cupboard|Armario]]"
           ],
           "correctAnswer": 0
         }
@@ -386,14 +388,15 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: 'El microondas está sobre la encimera'",
       "questions": [
         {
           "question": "Traduce: 'El microondas está sobre la encimera'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[The microwave is on the worktop.|El microondas está sobre la encimera.]]",
+            "[[The microwave is in the cupboard.|El microondas está en el armario.]]",
+            "[[The microwave is under the shelf.|El microondas está bajo el estante.]]"
           ],
           "correctAnswer": 0
         }

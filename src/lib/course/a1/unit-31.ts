@@ -229,14 +229,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: 'No puedo hablar francés.'",
       "questions": [
         {
           "question": "Traduce: 'No puedo hablar francés.'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[I can't speak French.|No puedo hablar francés.]]",
+            "[[I can't speak English.|No puedo hablar inglés.]]",
+            "[[I don't speak French.|No hablo francés.]]"
           ],
           "correctAnswer": 0
         }
@@ -301,14 +302,15 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Escribe la habilidad: 'A monkey can...'",
       "questions": [
         {
           "question": "Escribe la habilidad: 'A monkey can...'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[A monkey can climb.|Un mono puede escalar.]]",
+            "[[A monkey can fly.|Un mono puede volar.]]",
+            "[[A monkey can swim.|Un mono puede nadar.]]"
           ],
           "correctAnswer": 0
         }

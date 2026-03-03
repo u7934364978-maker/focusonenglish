@@ -113,14 +113,15 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: 'Tarjeta de embarque'",
       "questions": [
         {
           "question": "Traduce: 'Tarjeta de embarque'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[Boarding pass|Tarjeta de embarque]]",
+            "[[Passport|Pasaporte]]",
+            "[[Luggage|Equipaje]]"
           ],
           "correctAnswer": 0
         }
@@ -304,14 +305,15 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: '¿Dónde está mi maleta?'",
       "questions": [
         {
           "question": "Traduce: '¿Dónde está mi maleta?'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[Where is my suitcase?|¿Dónde está mi maleta?]]",
+            "[[Where is my passport?|¿Dónde está mi pasaporte?]]",
+            "[[Where is my bag?|¿Dónde está mi bolsa?]]"
           ],
           "correctAnswer": 0
         }

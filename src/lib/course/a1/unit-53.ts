@@ -172,14 +172,15 @@ export const UNIT_53_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: 'No hay ningún huevo'",
       "questions": [
         {
           "question": "Traduce: 'No hay ningún huevo'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[There aren't any eggs.|No hay ningún huevo.]]",
+            "[[There are some eggs.|Hay algunos huevos.]]",
+            "[[I don't have eggs.|No tengo huevos.]]"
           ],
           "correctAnswer": 0
         }
@@ -265,14 +266,15 @@ export const UNIT_53_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: 'Tengo algunas galletas'",
       "questions": [
         {
           "question": "Traduce: 'Tengo algunas galletas'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[I have some cookies.|Tengo algunas galletas.]]",
+            "[[I have any cookies.|Tengo galletas.]]",
+            "[[I have many cookies.|Tengo muchas galletas.]]"
           ],
           "correctAnswer": 0
         }
@@ -313,14 +315,15 @@ export const UNIT_53_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Escribe '¿Tienes algo de sal?' en inglés:",
       "questions": [
         {
           "question": "Escribe '¿Tienes algo de sal?' en inglés:",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[Do you have any salt?|¿Tienes algo de sal?]]",
+            "[[Do you want some salt?|¿Quieres algo de sal?]]",
+            "[[Have you got salt?|¿Tienes sal?]]"
           ],
           "correctAnswer": 0
         }

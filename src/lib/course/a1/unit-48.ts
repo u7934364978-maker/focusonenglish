@@ -89,14 +89,15 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: 'Recuerdo / Souvenir'",
       "questions": [
         {
           "question": "Traduce: 'Recuerdo / Souvenir'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[Souvenir|Recuerdo]]",
+            "[[Gift|Regalo]]",
+            "[[Map|Mapa]]"
           ],
           "correctAnswer": 0
         }
@@ -306,14 +307,15 @@ export const UNIT_48_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: 'Sigue al guía turístico'",
       "questions": [
         {
           "question": "Traduce: 'Sigue al guía turístico'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[Follow the tour guide.|Sigue al guía turístico.]]",
+            "[[Find the tour guide.|Encuentra al guía.]]",
+            "[[Call the tour guide.|Llama al guía.]]"
           ],
           "correctAnswer": 0
         }

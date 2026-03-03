@@ -113,14 +113,15 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: 'Hacer turismo'",
       "questions": [
         {
           "question": "Traduce: 'Hacer turismo'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[Go sightseeing|Hacer turismo]]",
+            "[[Go shopping|Ir de compras]]",
+            "[[Go camping|Ir de camping]]"
           ],
           "correctAnswer": 0
         }
@@ -304,14 +305,15 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: 'Odio hacer turismo'",
       "questions": [
         {
           "question": "Traduce: 'Odio hacer turismo'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[I hate sightseeing.|Odio hacer turismo.]]",
+            "[[I love sightseeing.|Me encanta hacer turismo.]]",
+            "[[I like going shopping.|Me gusta ir de compras.]]"
           ],
           "correctAnswer": 0
         }

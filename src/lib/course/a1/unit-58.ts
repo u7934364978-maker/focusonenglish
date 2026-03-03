@@ -89,14 +89,15 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Escribe 'desayunar' en inglés:",
       "questions": [
         {
           "question": "Escribe 'desayunar' en inglés:",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[Have breakfast|Desayunar]]",
+            "[[Have lunch|Almorzar]]",
+            "[[Have dinner|Cenar]]"
           ],
           "correctAnswer": 0
         }
@@ -312,14 +313,15 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Escribe 'cenar' en inglés:",
       "questions": [
         {
           "question": "Escribe 'cenar' en inglés:",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[Have dinner|Cenar]]",
+            "[[Have lunch|Almorzar]]",
+            "[[Have breakfast|Desayunar]]"
           ],
           "correctAnswer": 0
         }
@@ -384,14 +386,15 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: 'Nosotros cenamos a las 8 pm'",
       "questions": [
         {
           "question": "Traduce: 'Nosotros cenamos a las 8 pm'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[We have dinner at 8 pm.|Nosotros cenamos a las 8 pm.]]",
+            "[[We have lunch at 8 pm.|Nosotros almorzamos a las 8 pm.]]",
+            "[[We have breakfast at 8 pm.|Nosotros desayunamos a las 8 pm.]]"
           ],
           "correctAnswer": 0
         }

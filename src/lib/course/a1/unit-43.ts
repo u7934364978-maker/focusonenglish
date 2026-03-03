@@ -113,14 +113,15 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: 'Vacaciones'",
       "questions": [
         {
           "question": "Traduce: 'Vacaciones'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[Holiday|Vacaciones]]",
+            "[[Weekend|Fin de semana]]",
+            "[[Day off|Día libre]]"
           ],
           "correctAnswer": 0
         }
@@ -304,14 +305,15 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: 'Viajo con mis amigos'",
       "questions": [
         {
           "question": "Traduce: 'Viajo con mis amigos'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[I travel with my friends.|Viajo con mis amigos.]]",
+            "[[I travel alone.|Viajo solo.]]",
+            "[[I travel with my family.|Viajo con mi familia.]]"
           ],
           "correctAnswer": 0
         }

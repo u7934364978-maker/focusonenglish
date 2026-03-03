@@ -113,14 +113,15 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: 'Bicicleta'",
       "questions": [
         {
           "question": "Traduce: 'Bicicleta'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[Bicycle|Bicicleta]]",
+            "[[Motorcycle|Motocicleta]]",
+            "[[Scooter|Patinete]]"
           ],
           "correctAnswer": 0
         }
@@ -330,14 +331,15 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: 'Voy en coche'",
       "questions": [
         {
           "question": "Traduce: 'Voy en coche'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[I go by car.|Voy en coche.]]",
+            "[[I go by bus.|Voy en autobús.]]",
+            "[[I go by train.|Voy en tren.]]"
           ],
           "correctAnswer": 0
         }

@@ -174,14 +174,15 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: 'Tenemos mucha comida'",
       "questions": [
         {
           "question": "Traduce: 'Tenemos mucha comida'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[We have a lot of food.|Tenemos mucha comida.]]",
+            "[[We have some food.|Tenemos algo de comida.]]",
+            "[[We have any food.|Tenemos comida.]]"
           ],
           "correctAnswer": 0
         }
@@ -317,14 +318,15 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: '¿Cuánto tiempo tenemos?'",
       "questions": [
         {
           "question": "Traduce: '¿Cuánto tiempo tenemos?'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[How much time do we have?|¿Cuánto tiempo tenemos?]]",
+            "[[How many times do we have?|¿Cuántas veces tenemos?]]",
+            "[[What time do we have?|¿Qué hora tenemos?]]"
           ],
           "correctAnswer": 0
         }
@@ -365,14 +367,15 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Escribe 'Tengo mucha agua' usando 'a lot of':",
       "questions": [
         {
           "question": "Escribe 'Tengo mucha agua' usando 'a lot of':",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[I have a lot of water.|Tengo mucha agua.]]",
+            "[[I have some water.|Tengo algo de agua.]]",
+            "[[I have many water.|Tengo mucha agua.]]"
           ],
           "correctAnswer": 0
         }

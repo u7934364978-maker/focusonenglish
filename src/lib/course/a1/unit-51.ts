@@ -89,14 +89,15 @@ export const UNIT_51_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Escribe 'recibo' o 'ticket' en inglés:",
       "questions": [
         {
           "question": "Escribe 'recibo' o 'ticket' en inglés:",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[Receipt|Recibo]]",
+            "[[Bill|Factura]]",
+            "[[Invoice|Factura detallada]]"
           ],
           "correctAnswer": 0
         }
@@ -332,14 +333,15 @@ export const UNIT_51_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: '¿Necesitas una bolsa?'",
       "questions": [
         {
           "question": "Traduce: '¿Necesitas una bolsa?'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[Do you need a bag?|¿Necesitas una bolsa?]]",
+            "[[Do you want a bag?|¿Quieres una bolsa?]]",
+            "[[Have you got a bag?|¿Tienes una bolsa?]]"
           ],
           "correctAnswer": 0
         }
@@ -425,14 +427,15 @@ export const UNIT_51_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Pregunta dónde está la leche:",
       "questions": [
         {
           "question": "Pregunta dónde está la leche:",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[Where is the milk?|¿Dónde está la leche?]]",
+            "[[Where is the bread?|¿Dónde está el pan?]]",
+            "[[Where is the butter?|¿Dónde está la mantequilla?]]"
           ],
           "correctAnswer": 0
         }

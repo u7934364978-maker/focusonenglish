@@ -113,14 +113,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: 'Verano'",
       "questions": [
         {
           "question": "Traduce: 'Verano'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[Summer|Verano]]",
+            "[[Winter|Invierno]]",
+            "[[Autumn|Otoño]]"
           ],
           "correctAnswer": 0
         }
@@ -330,14 +331,15 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: 'Me gusta la primavera'",
       "questions": [
         {
           "question": "Traduce: 'Me gusta la primavera'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[I like spring.|Me gusta la primavera.]]",
+            "[[I like summer.|Me gusta el verano.]]",
+            "[[I like winter.|Me gusta el invierno.]]"
           ],
           "correctAnswer": 0
         }

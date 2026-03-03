@@ -59,14 +59,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: 'Batería'",
       "questions": [
         {
           "question": "Traduce: 'Batería'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[Drums|Batería]]",
+            "[[Guitar|Guitarra]]",
+            "[[Piano|Piano]]"
           ],
           "correctAnswer": 0
         }
@@ -176,14 +177,15 @@ export const UNIT_36_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: 'Ella toca la trompeta.'",
       "questions": [
         {
           "question": "Traduce: 'Ella toca la trompeta.'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[She plays the trumpet.|Ella toca la trompeta.]]",
+            "[[She plays the guitar.|Ella toca la guitarra.]]",
+            "[[She plays the piano.|Ella toca el piano.]]"
           ],
           "correctAnswer": 0
         }

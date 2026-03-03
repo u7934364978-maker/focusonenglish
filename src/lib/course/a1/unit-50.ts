@@ -132,14 +132,15 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce al inglés:",
       "questions": [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[I can swim.|Puedo nadar.]]",
+            "[[I can't dance.|No puedo bailar.]]",
+            "[[She can sing.|Ella puede cantar.]]"
           ],
           "correctAnswer": 0
         }
@@ -305,14 +306,15 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce al inglés:",
       "questions": [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[I can swim.|Puedo nadar.]]",
+            "[[I can't dance.|No puedo bailar.]]",
+            "[[She can sing.|Ella puede cantar.]]"
           ],
           "correctAnswer": 0
         }
@@ -478,14 +480,15 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce al inglés:",
       "questions": [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[I can swim.|Puedo nadar.]]",
+            "[[I can't dance.|No puedo bailar.]]",
+            "[[She can sing.|Ella puede cantar.]]"
           ],
           "correctAnswer": 0
         }
@@ -651,14 +654,15 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce al inglés:",
       "questions": [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[I can swim.|Puedo nadar.]]",
+            "[[I can't dance.|No puedo bailar.]]",
+            "[[She can sing.|Ella puede cantar.]]"
           ],
           "correctAnswer": 0
         }
@@ -824,14 +828,15 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce al inglés:",
       "questions": [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[I can swim.|Puedo nadar.]]",
+            "[[I can't dance.|No puedo bailar.]]",
+            "[[She can sing.|Ella puede cantar.]]"
           ],
           "correctAnswer": 0
         }
@@ -997,14 +1002,15 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce al inglés:",
       "questions": [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[I can swim.|Puedo nadar.]]",
+            "[[I can't dance.|No puedo bailar.]]",
+            "[[She can sing.|Ella puede cantar.]]"
           ],
           "correctAnswer": 0
         }
@@ -1170,14 +1176,15 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce al inglés:",
       "questions": [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[I can swim.|Puedo nadar.]]",
+            "[[I can't dance.|No puedo bailar.]]",
+            "[[She can sing.|Ella puede cantar.]]"
           ],
           "correctAnswer": 0
         }
@@ -1343,14 +1350,15 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce al inglés:",
       "questions": [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[I can swim.|Puedo nadar.]]",
+            "[[I can't dance.|No puedo bailar.]]",
+            "[[She can sing.|Ella puede cantar.]]"
           ],
           "correctAnswer": 0
         }
@@ -1516,14 +1524,15 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce al inglés:",
       "questions": [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[I can swim.|Puedo nadar.]]",
+            "[[I can't dance.|No puedo bailar.]]",
+            "[[She can sing.|Ella puede cantar.]]"
           ],
           "correctAnswer": 0
         }
@@ -1689,14 +1698,15 @@ export const UNIT_50_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce al inglés:",
       "questions": [
         {
           "question": "Traduce al inglés:",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[I can swim.|Puedo nadar.]]",
+            "[[I can't dance.|No puedo bailar.]]",
+            "[[She can sing.|Ella puede cantar.]]"
           ],
           "correctAnswer": 0
         }

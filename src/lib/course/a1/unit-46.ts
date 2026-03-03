@@ -59,14 +59,15 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: 'Habitación'",
       "questions": [
         {
           "question": "Traduce: 'Habitación'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[Room|Habitación]]",
+            "[[Lobby|Vestíbulo]]",
+            "[[Floor|Planta]]"
           ],
           "correctAnswer": 0
         }
@@ -276,14 +277,15 @@ export const UNIT_46_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: '¿Dónde está el ascensor?'",
       "questions": [
         {
           "question": "Traduce: '¿Dónde está el ascensor?'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[Where is the lift?|¿Dónde está el ascensor?]]",
+            "[[Where is the reception?|¿Dónde está la recepción?]]",
+            "[[Where is the restaurant?|¿Dónde está el restaurante?]]"
           ],
           "correctAnswer": 0
         }

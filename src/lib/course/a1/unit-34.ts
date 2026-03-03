@@ -267,14 +267,15 @@ export const UNIT_34_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: 'Estudio inglés porque me gusta.'",
       "questions": [
         {
           "question": "Traduce: 'Estudio inglés porque me gusta.'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[I study English because I like it.|Estudio inglés porque me gusta.]]",
+            "[[I study English but I don't like it.|Estudio inglés pero no me gusta.]]",
+            "[[I study English and it is easy.|Estudio inglés y es fácil.]]"
           ],
           "correctAnswer": 0
         }

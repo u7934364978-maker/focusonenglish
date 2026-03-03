@@ -89,14 +89,15 @@ export const UNIT_57_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Escribe 'espejo' en inglés:",
       "questions": [
         {
           "question": "Escribe 'espejo' en inglés:",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[Mirror|Espejo]]",
+            "[[Window|Ventana]]",
+            "[[Door|Puerta]]"
           ],
           "correctAnswer": 0
         }
@@ -338,14 +339,15 @@ export const UNIT_57_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Irregular Plurals|Plurales irregulares]]",
       "instructions": "Escribe el plural de 'woman':",
       "questions": [
         {
           "question": "Escribe el plural de 'woman':",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[Women|Mujeres]]",
+            "[[Womans|Mujeres (incorrecto)]]",
+            "[[Womens|Mujeres (incorrecto)]]"
           ],
           "correctAnswer": 0
         }
@@ -434,14 +436,15 @@ export const UNIT_57_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: 'Los niños están felices'",
       "questions": [
         {
           "question": "Traduce: 'Los niños están felices'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[The children are happy.|Los niños están felices.]]",
+            "[[The children are sad.|Los niños están tristes.]]",
+            "[[The childs are happy.|Los niños están felices. (incorrecto)]]"
           ],
           "correctAnswer": 0
         }

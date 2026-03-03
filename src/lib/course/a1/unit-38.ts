@@ -113,14 +113,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: 'Barrer el suelo'",
       "questions": [
         {
           "question": "Traduce: 'Barrer el suelo'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[Sweep the floor|Barrer el suelo]]",
+            "[[Mop the floor|Fregar el suelo]]",
+            "[[Wash the dishes|Fregar los platos]]"
           ],
           "correctAnswer": 0
         }
@@ -275,14 +276,15 @@ export const UNIT_38_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: 'Ella no tiene que cocinar'",
       "questions": [
         {
           "question": "Traduce: 'Ella no tiene que cocinar'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[She doesn't have to cook.|Ella no tiene que cocinar.]]",
+            "[[She can't cook.|Ella no puede cocinar.]]",
+            "[[She doesn't cook.|Ella no cocina.]]"
           ],
           "correctAnswer": 0
         }

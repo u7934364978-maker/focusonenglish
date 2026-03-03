@@ -113,14 +113,15 @@ export const UNIT_35_EXERCISES: Exercise[] = [
     "difficulty": "medium",
     "transcript": "",
     "content": {
-      "title": "short_writing",
+      "title": "[[Translation|Traducción]]",
       "instructions": "Traduce: 'Quedar con amigos.'",
       "questions": [
         {
           "question": "Traduce: 'Quedar con amigos.'",
           "options": [
-            "[[Option 1|Opción 1]]",
-            "[[Option 2|Opción 2]]"
+            "[[Meet friends.|Quedar con amigos.]]",
+            "[[Go out alone.|Salir solo.]]",
+            "[[Stay at home.|Quedarse en casa.]]"
           ],
           "correctAnswer": 0
         }
