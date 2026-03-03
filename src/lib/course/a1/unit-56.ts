@@ -191,9 +191,9 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "¿Qué significa 'under the sink'?",
           "options": [
-            "[[Under the sink|Debajo del fregadero]]",
-            "[[Above the sink|Encima del fregadero]]",
-            "[[Behind the sink|Detrás del fregadero]]"
+            "[[Debajo del fregadero|Under the sink]]",
+            "[[Encima del fregadero|Above the sink]]",
+            "[[Detrás del fregadero|Behind the sink]]"
           ],
           "correctAnswer": 0,
           "explanation": ""

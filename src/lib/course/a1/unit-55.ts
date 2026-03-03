@@ -120,8 +120,8 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "¿Qué significa 'on sale'?",
           "options": [
-            "[[On sale / reduced|En oferta / rebajado]]",
-            "[[Closed|Cerrado]]",
+            "[[En oferta / rebajado|On sale / reduced]]",
+            "[[Cerrado|Closed]]",
             "[[Nuevo|Nuevo]]"
           ],
           "correctAnswer": 0,

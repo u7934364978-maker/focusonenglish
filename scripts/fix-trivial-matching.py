@@ -33,9 +33,23 @@ VOCAB_INSTRUCTION_PATTERNS = [
 ]
 VOCAB_RE = re.compile('|'.join(VOCAB_INSTRUCTION_PATTERNS), re.IGNORECASE)
 
+# Patterns where ALL options must show Spanish (right side)
+# "¿Qué significa '...'?" → answer is the Spanish meaning
+FORCE_SPANISH_PATTERNS = [
+    r'qué significa',
+]
+FORCE_SPANISH_RE = re.compile('|'.join(FORCE_SPANISH_PATTERNS), re.IGNORECASE)
+
 
 def has_spanish_chars(s):
-    return bool(re.search(r'[áéíóúñüÁÉÍÓÚÑÜ/]', s))
+    """Return True if s contains definitive Spanish markers."""
+    # Accented chars
+    if re.search(r'[áéíóúñüÁÉÍÓÚÑÜ]', s):
+        return True
+    # Spanish gender marker like "Dependiente/a" (slash with no spaces, ≤3 chars after)
+    if re.search(r'\w+/\w{1,3}$', s.strip()):
+        return True
+    return False
 
 
 def should_swap(tok, all_question_texts):
@@ -63,9 +77,24 @@ def should_swap(tok, all_question_texts):
     return False
 
 
-def fix_options_str(opts_str, all_question_texts):
+def force_swap_token(tok):
+    """Swap [[A|B]] → [[B|A]] if A ≠ B and A has no confirmed Spanish chars."""
+    m = TOKEN_RE.match(tok)
+    if not m:
+        return tok
+    left, right = m.group(1), m.group(2)
+    if left == right:
+        return tok
+    if has_spanish_chars(left):
+        return tok  # already showing Spanish
+    return f'[[{right}|{left}]]'
+
+
+def fix_options_str(opts_str, all_question_texts, force_spanish=False):
     def replacer(m):
         full = m.group(0)
+        if force_spanish:
+            return force_swap_token(full)
         if should_swap(full, all_question_texts):
             return f'[[{m.group(2)}|{m.group(1)}]]'
         return full
@@ -98,7 +127,10 @@ def fix_file(filepath):
         questions_body = m.group(3)
         footer = m.group(4)
 
-        if not VOCAB_RE.search(instruction):
+        is_vocab = VOCAB_RE.search(instruction)
+        is_force = FORCE_SPANISH_RE.search(instruction)
+
+        if not is_vocab and not is_force:
             return m.group(0)
 
         # Collect all question texts in this exercise (normalised to lowercase)
@@ -110,7 +142,7 @@ def fix_file(filepath):
         fixed_body = questions_body
         for qm in QFULL_RE.finditer(questions_body):
             opts_str = qm.group(2)
-            new_opts = fix_options_str(opts_str, all_question_texts)
+            new_opts = fix_options_str(opts_str, all_question_texts, force_spanish=bool(is_force))
             if new_opts != opts_str:
                 count += 1
                 fixed_body = fixed_body.replace(
