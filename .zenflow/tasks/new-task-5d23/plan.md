@@ -102,7 +102,7 @@ Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
   - Apply `[[English|Spanish]]` throughout
 - Verify: `node scripts/audit-a1-full.mjs --units=4-7` → zero critical errors
 
-### [ ] Step: Fix Module 1 — Units 8–10 (ID fixes, content fixes, review restructure)
+### [x] Step: Fix Module 1 — Units 8–10 (ID fixes, content fixes, review restructure)
 <!-- chat-id: 96b0c25f-16a7-4bc4-a1cf-f2e0b3484a75 -->
 - **Unit 8** (FIX-1, FIX-3, FIX-5, FIX-7):
   - Rename incorrect ID `U14_I10` → `U8_I10`
