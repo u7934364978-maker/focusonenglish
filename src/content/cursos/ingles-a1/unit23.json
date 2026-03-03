@@ -1,488 +1,1072 @@
 {
   "course": {
-    "unit_id": "unit23",
-    "unit_title": "Adjectives for the Home",
-    "level": "A1",
-    "total_duration_minutes": 120,
     "language_ui": "es-ES",
-    "target_language": "en"
+    "target_language": "en",
+    "level": "A1",
+    "unit_id": "U23",
+    "unit_title": "There is / There are",
+    "total_duration_minutes": 120
   },
   "learning_outcomes": [
-    "Describe a house and rooms using common adjectives",
-    "Understand the correct position of adjectives in English",
-    "Use opposites to describe different environments",
-    "Apply 'very' to intensify descriptions"
+    "Use 'There is' for singular and 'There are' for plural",
+    "Form negative and interrogative sentences with there is/are",
+    "Use prepositions of place: in, on, under, behind, next to",
+    "Describe the contents of a room or bag"
   ],
   "blocks": [
     {
       "block_id": "B1",
-      "title": "Vocabulary: Describing Your Space",
+      "title": "There is / There are: Affirmative",
       "content": [
         {
-          "interaction_id": "A1_U23_B1_I1",
-          "type": "matching",
-          "prompt_es": "Une los adjetivos opuestos:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "Big",
-              "right": "Small"
-            },
-            {
-              "id": "p2",
-              "left": "New",
-              "right": "Old"
-            },
-            {
-              "id": "p3",
-              "left": "Modern",
-              "right": "Traditional"
-            },
-            {
-              "id": "p4",
-              "left": "Clean",
-              "right": "Dirty"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U23_B1_I2",
+          "interaction_id": "U23_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Cómodo'?",
+          "prompt_es": "¿Cuál usamos para singular?",
           "options": [
             {
               "id": "o1",
-              "text": "Comfortable"
+              "text": "[[There are|Hay (plural)]]"
             },
             {
               "id": "o2",
-              "text": "Common"
+              "text": "[[There is|Hay (singular)]]"
             },
             {
               "id": "o3",
-              "text": "Confident"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U23_B1_I3",
-          "type": "flashcard",
-          "prompt_es": "Adjetivos de sonido:",
-          "stimulus_en": "Quiet vs. Noisy",
-          "correct_answer": "Tranquilo/Silencioso vs. Ruidoso",
-          "mastery_tag": "vocabulary",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U23_B1_I4",
-          "type": "multiple_choice",
-          "prompt_es": "Si una casa es 'beautiful', es:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Fea"
-            },
-            {
-              "id": "o2",
-              "text": "Bonita/Hermosa"
-            },
-            {
-              "id": "o3",
-              "text": "Grande"
+              "text": "[[There have|Hay (incorrecto)]]"
             }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "mastery_tag": "grammar",
+          "complexity": 1
         },
         {
-          "interaction_id": "A1_U23_B1_I5",
-          "type": "matching",
-          "prompt_es": "Asocia cada adjetivo con su significado:",
-          "pairs": [
+          "interaction_id": "U23_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcta? 'Hay tres sillas en la cocina.'",
+          "options": [
             {
-              "id": "p1",
-              "left": "Small",
-              "right": "Pequeño"
+              "id": "o1",
+              "text": "[[There is three chairs in the kitchen|Hay tres sillas en la cocina (incorrecto)]]"
             },
             {
-              "id": "p2",
-              "left": "Expensive",
-              "right": "Caro"
+              "id": "o2",
+              "text": "[[There has three chairs in the kitchen|Hay tres sillas (incorrecto)]]"
             },
             {
-              "id": "p3",
-              "left": "Cheap",
-              "right": "Barato"
-            },
-            {
-              "id": "p4",
-              "left": "Bright",
-              "right": "Luminoso"
+              "id": "o3",
+              "text": "[[There are three chairs in the kitchen|Hay tres sillas en la cocina]]"
             }
           ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "correct_answer": "o3",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U23_I3",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ a big [[window|ventana]] in the [[bedroom|dormitorio]].'",
+          "correct_answer": "There is",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U23_I4",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ four [[books|libros]] on the [[table|mesa]].'",
+          "correct_answer": "There are",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U23_I5",
+          "type": "multiple_choice",
+          "prompt_es": "'Hay una lámpara en el salón.' ¿Cómo se dice?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[There is a lamp in the living room|Hay una lámpara en el salón]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[There are a lamp in the living room|Hay una lámpara (incorrecto)]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[A lamp is there in the living room|Incorrecto]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U23_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Con qué va 'there are'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Nombres singulares"
+            },
+            {
+              "id": "o2",
+              "text": "Nombres plurales"
+            },
+            {
+              "id": "o3",
+              "text": "Solo con personas"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U23_I7",
+          "type": "sentence_building",
+          "prompt_es": "Forma: 'Hay un perro en el jardín.'",
+          "words": [
+            {
+              "id": "w1",
+              "text": "[[There|Hay]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[is|is]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[a|un]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[dog|perro]]"
+            },
+            {
+              "id": "w5",
+              "text": "[[in|en]]"
+            },
+            {
+              "id": "w6",
+              "text": "[[the|el]]"
+            },
+            {
+              "id": "w7",
+              "text": "[[garden|jardín]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U23_I8",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ some [[apples|manzanas]] in the [[fridge|nevera]].'",
+          "correct_answer": "There are",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U23_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcta? 'Hay un gato y dos perros.'",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[There are a cat and two dogs|Hay un gato y dos perros]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[There is a cat and two dogs|Hay un gato y dos perros]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Both can be correct|Las dos pueden ser correctas]]"
+            }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar",
+          "complexity": 3
+        },
+        {
+          "interaction_id": "U23_I10",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ an [[orange|naranja]] on the [[desk|escritorio]].'",
+          "correct_answer": "There is",
+          "mastery_tag": "grammar",
+          "complexity": 1
         }
       ]
     },
     {
       "block_id": "B2",
-      "title": "Grammar: Adjective Position",
+      "title": "There is / There are: Negative & Questions",
       "content": [
         {
-          "interaction_id": "A1_U23_B2_I1",
+          "interaction_id": "U23_I11",
           "type": "multiple_choice",
-          "prompt_es": "En inglés, el adjetivo suele ir ANTES del sustantivo. 'Una casa grande' es:",
+          "prompt_es": "¿Cómo se dice 'No hay ningún libro aquí'?",
           "options": [
             {
               "id": "o1",
-              "text": "A house big"
+              "text": "[[There is not a book here|No hay un libro aquí]]"
             },
             {
               "id": "o2",
-              "text": "A big house"
+              "text": "[[There isn't any book here|No hay ningún libro aquí]]"
             },
             {
               "id": "o3",
-              "text": "Big a house"
+              "text": "[[Both are correct|Las dos son correctas]]"
+            }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U23_I12",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la negativa: '[[There|Hay]] ___ a [[bathroom|baño]] on this [[floor|planta]].' (negativa de is)",
+          "correct_answer": "isn't",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U23_I13",
+          "type": "multiple_choice",
+          "prompt_es": "'¿Hay sillas en la cocina?' ¿Cómo preguntas?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Are there any chairs in the kitchen?|¿Hay sillas en la cocina?]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Is there any chairs in the kitchen?|¿Hay sillas? (incorrecto)]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[There are chairs in the kitchen?|Hay sillas en la cocina? (incorrecto)]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U23_I14",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la pregunta: '___ there a [[supermarket|supermercado]] near [[here|aquí]]?'",
+          "correct_answer": "Is",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U23_I15",
+          "type": "multiple_choice",
+          "prompt_es": "Respuesta a '[[Is there a park nearby?|¿Hay un parque cerca?]]' — (sí)",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Yes, there is|Sí, lo hay]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Yes, there are|Sí, los hay (plural — incorrecto)]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Yes, it is|Sí, lo es (incorrecto)]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U23_I16",
+          "type": "multiple_choice",
+          "prompt_es": "Respuesta a '[[Are there any students in the class?|¿Hay estudiantes en la clase?]]' — (no)",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[No, there isn't|No, no hay (singular — incorrecto)]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[No, there aren't|No, no hay]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[No, there aren't any|No, no hay ninguno]]"
+            }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U23_I17",
+          "type": "sentence_building",
+          "prompt_es": "Forma la pregunta: '¿Hay una piscina en el hotel?'",
+          "words": [
+            {
+              "id": "w1",
+              "text": "[[Is|Hay]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[there|hay (interr.)]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[a|una]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[swimming pool|piscina]]"
+            },
+            {
+              "id": "w5",
+              "text": "[[in|en]]"
+            },
+            {
+              "id": "w6",
+              "text": "[[the|el]]"
+            },
+            {
+              "id": "w7",
+              "text": "[[hotel?|hotel?]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U23_I18",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'There ___ any [[windows|ventanas]] in the [[bathroom|baño]].' (negativa de are)",
+          "correct_answer": "aren't",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U23_I19",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcta para preguntar por varias cosas?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Is there any chairs?|¿Hay sillas? (incorrecto)]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Are there any chairs?|¿Hay sillas?]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Have there any chairs?|¿Hay sillas? (incorrecto)]]"
             }
           ],
           "correct_answer": "o2",
           "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
+          "complexity": 2
         },
         {
-          "interaction_id": "A1_U23_B2_I2",
+          "interaction_id": "U23_I20",
           "type": "fill_blanks",
-          "prompt_es": "Completa con el adjetivo en el lugar correcto:",
-          "stimulus_en": "I have a ________ (new) sofa.",
-          "correct_answer": "new",
+          "prompt_es": "Completa: '___ there a [[lift|ascensor]] in the [[building|edificio]]?' — 'Yes, there ___.'",
+          "correct_answer": "Is / is",
           "mastery_tag": "grammar",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U23_B2_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es correcto decir 'The kitchen is modern'?",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U23_B2_I4",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo dirías 'Es una habitación muy ruidosa'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "It is a room very noisy"
-            },
-            {
-              "id": "o2",
-              "text": "It is a very noisy room"
-            },
-            {
-              "id": "o3",
-              "text": "It is a noisy very room"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U23_B2_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con el opuesto de 'Old':",
-          "stimulus_en": "My house isn't old, it is ________.",
-          "correct_answer": "new",
-          "mastery_tag": "vocabulary",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "complexity": 2
         }
       ]
     },
     {
       "block_id": "B3",
-      "title": "Syntax & Comparison",
+      "title": "Prepositions of Place: in, on, under, behind",
       "content": [
         {
-          "interaction_id": "A1_U23_B3_I1",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'El salón es muy grande'",
-          "options": [
+          "interaction_id": "U23_I21",
+          "type": "matching",
+          "prompt_es": "Une la preposición con su significado:",
+          "pairs": [
             {
-              "id": "w1",
-              "text": "The"
+              "id": "p1",
+              "left": "[[in|en (dentro)]]",
+              "right": "encima de"
             },
             {
-              "id": "w2",
-              "text": "living room"
+              "id": "p2",
+              "left": "[[on|en (encima)]]",
+              "right": "detrás de"
             },
             {
-              "id": "w3",
-              "text": "is"
+              "id": "p3",
+              "left": "[[under|debajo de]]",
+              "right": "dentro de"
             },
             {
-              "id": "w4",
-              "text": "very"
-            },
-            {
-              "id": "w5",
-              "text": "big"
+              "id": "p4",
+              "left": "[[behind|detrás de]]",
+              "right": "debajo de"
             }
           ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
-        },
-        {
-          "interaction_id": "A1_U23_B3_I2",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'Tengo un dormitorio cómodo'",
-          "options": [
-            {
-              "id": "w1",
-              "text": "I"
-            },
-            {
-              "id": "w2",
-              "text": "have"
-            },
-            {
-              "id": "w3",
-              "text": "a"
-            },
-            {
-              "id": "w4",
-              "text": "comfortable"
-            },
-            {
-              "id": "w5",
-              "text": "bedroom"
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
-        },
-        {
-          "interaction_id": "A1_U23_B3_I3",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'La cocina es pequeña y limpia'",
-          "stimulus_en": "The kitchen is small and clean",
-          "correct_answer": "The kitchen is small and clean",
-          "mastery_tag": "syntax",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
-        },
-        {
-          "interaction_id": "A1_U23_B3_I4",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con 'a' o 'an':",
-          "stimulus_en": "There is ________ old mirror in the hall.",
-          "correct_answer": "an",
+          "correct_answer": {
+            "p1": "p3",
+            "p2": "p1",
+            "p3": "p4",
+            "p4": "p2"
+          },
           "mastery_tag": "grammar",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
+          "complexity": 1
         },
         {
-          "interaction_id": "A1_U23_B3_I5",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: '¿Es tu casa moderna?'",
+          "interaction_id": "U23_I22",
+          "type": "multiple_choice",
+          "prompt_es": "'[[The cat|El gato]] is ___ the [[bed|cama]].' ¿Qué preposición significa 'debajo de'?",
           "options": [
             {
+              "id": "o1",
+              "text": "[[on|encima de]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[in|dentro de]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[under|debajo de]]"
+            }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U23_I23",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '[[The|El]] [[book|libro]] is ___ the [[table|mesa]].' (encima de)",
+          "correct_answer": "on",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U23_I24",
+          "type": "multiple_choice",
+          "prompt_es": "'[[The keys|Las llaves]] are ___ the [[bag|bolsa]].' ¿Qué preposición usamos para dentro?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[on|encima]]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[in|dentro de]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[behind|detrás de]]"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U23_I25",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '[[The|El]] [[dog|perro]] is ___ the [[sofa|sofá]].' (detrás del)",
+          "correct_answer": "behind",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U23_I26",
+          "type": "matching",
+          "prompt_es": "Une cada frase con la preposición correcta:",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "[[The pen is ___ the box|El bolígrafo está dentro de la caja]]",
+              "right": "behind"
+            },
+            {
+              "id": "p2",
+              "left": "[[The cat is ___ the chair|El gato está detrás de la silla]]",
+              "right": "on"
+            },
+            {
+              "id": "p3",
+              "left": "[[The lamp is ___ the table|La lámpara está encima de la mesa]]",
+              "right": "under"
+            },
+            {
+              "id": "p4",
+              "left": "[[The shoes are ___ the bed|Los zapatos están debajo de la cama]]",
+              "right": "in"
+            }
+          ],
+          "correct_answer": {
+            "p1": "p4",
+            "p2": "p1",
+            "p3": "p2",
+            "p4": "p3"
+          },
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U23_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Dónde está el gato? '[[The cat|El gato]] is ___ the [[sofa|sofá]].' (encima)",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[under|debajo de]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[behind|detrás de]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[on|encima de]]"
+            }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U23_I28",
+          "type": "sentence_building",
+          "prompt_es": "Forma: 'El libro está debajo de la mesa.'",
+          "words": [
+            {
               "id": "w1",
-              "text": "Is"
+              "text": "[[The|El]]"
             },
             {
               "id": "w2",
-              "text": "your"
+              "text": "[[book|libro]]"
             },
             {
               "id": "w3",
-              "text": "house"
+              "text": "[[is|está]]"
             },
             {
               "id": "w4",
-              "text": "modern?"
+              "text": "[[under|debajo de]]"
+            },
+            {
+              "id": "w5",
+              "text": "[[the|la]]"
+            },
+            {
+              "id": "w6",
+              "text": "[[table|mesa]]"
             }
           ],
           "correct_answer": [
             "w1",
             "w2",
             "w3",
-            "w4"
+            "w4",
+            "w5",
+            "w6"
           ],
-          "mastery_tag": "syntax",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U23_I29",
+          "type": "multiple_choice",
+          "prompt_es": "'[[There is a picture|Hay un cuadro]] ___ the [[wall|pared]].' (en/sobre)",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[in|dentro de la pared]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[under|debajo de la pared]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[on|en/sobre la pared]]"
+            }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U23_I30",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '[[My|Mi]] [[phone|teléfono]] is ___ my [[bag|bolso]].' (dentro de)",
+          "correct_answer": "in",
+          "mastery_tag": "grammar",
+          "complexity": 1
         }
       ]
     },
     {
       "block_id": "B4",
-      "title": "Reading & Reviewing Descriptions",
+      "title": "Practice: What's in the Room?",
       "content": [
         {
-          "interaction_id": "A1_U23_B4_I2",
+          "interaction_id": "U23_I31",
           "type": "multiple_choice",
-          "prompt_es": "Según el texto, la casa es:",
+          "prompt_es": "'[[There is a lamp next to the bed|Hay una lámpara al lado de la cama]].' ¿Qué significa '[[next to|al lado de]]'?",
           "options": [
             {
               "id": "o1",
-              "text": "Cheap"
+              "text": "Debajo de"
             },
             {
               "id": "o2",
-              "text": "Expensive"
+              "text": "Encima de"
             },
             {
               "id": "o3",
-              "text": "Old"
+              "text": "Al lado de"
+            }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U23_I32",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '[[There are|Hay]] two [[pillows|almohadas]] ___ the [[bed|cama]].' (encima/sobre)",
+          "correct_answer": "on",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U23_I33",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál describe correctamente esta situación: 'El gato está detrás del sofá'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[The cat is under the sofa|El gato está debajo del sofá]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[The cat is behind the sofa|El gato está detrás del sofá]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[The cat is on the sofa|El gato está encima del sofá]]"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U23_I34",
+          "type": "sentence_building",
+          "prompt_es": "Forma: 'Hay un cuadro en la pared del salón.'",
+          "words": [
+            {
+              "id": "w1",
+              "text": "[[There|Hay]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[is|is]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[a|un]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[picture|cuadro]]"
+            },
+            {
+              "id": "w5",
+              "text": "[[on|en]]"
+            },
+            {
+              "id": "w6",
+              "text": "[[the|la]]"
+            },
+            {
+              "id": "w7",
+              "text": "[[wall|pared]]"
+            },
+            {
+              "id": "w8",
+              "text": "[[of|del]]"
+            },
+            {
+              "id": "w9",
+              "text": "[[the|el]]"
+            },
+            {
+              "id": "w10",
+              "text": "[[living room|salón]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8",
+            "w9",
+            "w10"
+          ],
+          "mastery_tag": "grammar",
+          "complexity": 3
+        },
+        {
+          "interaction_id": "U23_I35",
+          "type": "multiple_choice",
+          "prompt_es": "'[[Where|Dónde]] is the [[remote control|mando a distancia]]?' — '[[It's|Está]] ___ the sofa.' (debajo)",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[on|encima de]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[under|debajo de]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[behind|detrás de]]"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U23_I36",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '[[Is|Hay]] there anything ___ the [[wardrobe|armario]]?' — '[[Yes|Sí]], there ___ some [[shoes|zapatos]].'",
+          "correct_answer": "in / are",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U23_I37",
+          "type": "multiple_choice",
+          "prompt_es": "'[[There isn't|No hay]] a [[table|mesa]] ___ the [[bedroom|dormitorio]].' ¿Qué preposición?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[in|en]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[on|encima]]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[under|debajo de]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U23_I38",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '[[The|El]] [[cat|gato]] is sleeping ___ the [[chair|silla]].' (encima)",
+          "correct_answer": "on",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U23_I39",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la pregunta correcta para saber si hay una televisión en la habitación?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Is there a television in the room?|¿Hay una televisión en la habitación?]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Are there a television in the room?|¿Hay televisión? (incorrecto)]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Has there a television in the room?|¿Hay televisión? (incorrecto)]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U23_I40",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '[[There|Hay]] ___ three [[lamps|lámparas]] in the [[flat|piso]].' (afirmativa plural)",
+          "correct_answer": "are",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        }
+      ]
+    },
+    {
+      "block_id": "B5",
+      "title": "Reading: My Bedroom",
+      "content": [
+        {
+          "interaction_id": "U23_READ1",
+          "type": "reading_phase",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[carefully|con atención]].",
+          "transcript": "[[This|Esta]] is [[my|mi]] [[bedroom|dormitorio]]. [[There is|Hay]] a [[big|grande]] [[bed|cama]] [[in the middle|en el centro]] of the [[room|habitación]]. [[On|Encima de]] the [[bed|cama]], [[there are|hay]] two [[pillows|almohadas]] and a [[blue|azul]] [[blanket|manta]]. [[There is|Hay]] a [[wardrobe|armario]] [[behind|detrás de]] the [[door|puerta]]. [[In|En]] the [[wardrobe|armario]], [[there are|hay]] all my [[clothes|ropa]]. [[Next to|Al lado de]] the [[bed|cama]], [[there is|hay]] a [[small|pequeña]] [[table|mesita]] with a [[lamp|lámpara]] [[on|encima de]] it. [[Under|Debajo de]] the [[bed|cama]], [[there are|hay]] my [[shoes|zapatos]]. [[There is|Hay]] also a [[window|ventana]] [[above|encima de]] the [[desk|escritorio]]. [[I love|Me encanta]] [[my|mi]] [[bedroom|dormitorio]] — it is very [[cozy|acogedor]]!",
+          "mastery_tag": "reading",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U23_I41",
+          "type": "multiple_choice",
+          "prompt_es": "¿Dónde están las almohadas?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Debajo de la cama"
+            },
+            {
+              "id": "o2",
+              "text": "En el armario"
+            },
+            {
+              "id": "o3",
+              "text": "Encima de la cama"
+            }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "reading",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U23_I42",
+          "type": "multiple_choice",
+          "prompt_es": "¿Dónde está el armario?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Behind the door|Detrás de la puerta]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Next to the bed|Al lado de la cama]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Under the window|Debajo de la ventana]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U23_I43",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué hay debajo de la cama?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Una lámpara"
+            },
+            {
+              "id": "o2",
+              "text": "Los zapatos"
+            },
+            {
+              "id": "o3",
+              "text": "La manta"
             }
           ],
           "correct_answer": "o2",
           "mastery_tag": "reading",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ],
-          "stimulus_en": "The house is big and old. It is in the city. The walls are white, and the roof is red. There are two trees in the garden. A cat sleeps on the porch. People say the house is very expensive because it is very old. Many people want to buy it, but the owner does not sell it."
+          "complexity": 1
         },
         {
-          "interaction_id": "A1_U23_B4_I4",
-          "type": "short_writing",
-          "prompt_es": "Describe tu habitación en 3 palabras (ej. Small, clean, quiet):",
-          "stimulus_es": "Mi habitación es...",
-          "correct_answer": "^[A-Za-z]+, [A-Za-z]+, [A-Za-z]+$",
-          "mastery_tag": "syntax",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
-        },
-        {
-          "interaction_id": "A1_U23_B4_I5",
-          "type": "categorization",
-          "prompt_es": "Clasifica en Adjetivos Positivos o Negativos (según el contexto general):",
-          "categories": [
+          "interaction_id": "U23_I44",
+          "type": "multiple_choice",
+          "prompt_es": "¿Dónde está la lámpara?",
+          "options": [
             {
-              "id": "c1",
-              "title": "Positive",
-              "items": [
-                "Comfortable",
-                "Beautiful",
-                "Clean",
-                "Quiet"
-              ]
+              "id": "o1",
+              "text": "Encima de la mesita"
             },
             {
-              "id": "c2",
-              "title": "Negative",
-              "items": [
-                "Dirty",
-                "Noisy",
-                "Expensive",
-                "Small"
-              ]
+              "id": "o2",
+              "text": "Detrás de la puerta"
+            },
+            {
+              "id": "o3",
+              "text": "Debajo de la cama"
             }
           ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "correct_answer": "o1",
+          "mastery_tag": "reading",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U23_I45",
+          "type": "fill_blanks",
+          "prompt_es": "Según el texto, la ventana está encima del ___.",
+          "correct_answer": "desk",
+          "mastery_tag": "reading",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U23_I46",
+          "type": "multiple_choice",
+          "prompt_es": "¿De qué color es la manta (blanket)?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Red|Roja]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Green|Verde]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Blue|Azul]]"
+            }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "reading",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U23_I47",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué hay en el armario?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Libros y zapatos"
+            },
+            {
+              "id": "o2",
+              "text": "Ropa"
+            },
+            {
+              "id": "o3",
+              "text": "Almohadas y manta"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "reading",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U23_I48",
+          "type": "sentence_building",
+          "prompt_es": "Forma: '¿Hay una lámpara en tu dormitorio?'",
+          "words": [
+            {
+              "id": "w1",
+              "text": "[[Is|Hay]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[there|hay (interr.)]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[a|una]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[lamp|lámpara]]"
+            },
+            {
+              "id": "w5",
+              "text": "[[in|en]]"
+            },
+            {
+              "id": "w6",
+              "text": "[[your|tu]]"
+            },
+            {
+              "id": "w7",
+              "text": "[[bedroom?|dormitorio?]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "reading",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U23_I49",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo describe el narrador su dormitorio?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Grande y luminoso"
+            },
+            {
+              "id": "o2",
+              "text": "Pequeño y oscuro"
+            },
+            {
+              "id": "o3",
+              "text": "Muy acogedor"
+            }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "reading",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U23_I50",
+          "type": "fill_blanks",
+          "prompt_es": "Completa según el texto: 'Next to the bed, there is a small ___ with a lamp on it.'",
+          "correct_answer": "table",
+          "mastery_tag": "reading",
+          "complexity": 2
         }
       ]
     }

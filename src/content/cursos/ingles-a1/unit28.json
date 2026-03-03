@@ -7,5378 +7,1042 @@
     "unit_title": "Body Parts",
     "total_duration_minutes": 120
   },
+  "learning_outcomes": [
+    "Name the main body parts in English",
+    "Use have/has got to describe physical features",
+    "Use This/These to point at body parts",
+    "Read descriptions of people's appearance and physical capabilities"
+  ],
   "blocks": [
     {
-      "block_id": "B28",
-      "title": "Body Parts",
+      "block_id": "B1",
+      "title": "Vocabulary: Head & Face",
       "content": [
         {
           "interaction_id": "U28_I1",
           "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
+          "prompt_es": "Une cada parte de la cara con su traducción:",
           "pairs": [
             {
-              "id": "p0",
-              "left": "Arm",
-              "right": "Brazo"
-            },
-            {
               "id": "p1",
-              "left": "Head",
-              "right": "Cabeza"
+              "left": "[[Eyes|Ojos]]",
+              "right": "Nariz"
             },
             {
               "id": "p2",
-              "left": "Shoulder",
-              "right": "Hombro"
+              "left": "[[Nose|Nariz]]",
+              "right": "Boca"
             },
             {
               "id": "p3",
-              "left": "Leg",
-              "right": "Pierna"
+              "left": "[[Mouth|Boca]]",
+              "right": "Oreja"
+            },
+            {
+              "id": "p4",
+              "left": "[[Ear|Oreja]]",
+              "right": "Ojos"
             }
           ],
           "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
+            "p1": "p4",
+            "p2": "p1",
+            "p3": "p2",
+            "p4": "p3"
           },
-          "mastery_tag": "vocabulary"
+          "mastery_tag": "vocabulary",
+          "complexity": 1
         },
         {
           "interaction_id": "U28_I2",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She has (largo) ________ hair.",
-          "correct_answer": "long",
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuántos ojos tiene una persona normal?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[One|Uno]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Two|Dos]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Three|Tres]]"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
         },
         {
           "interaction_id": "U28_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"He has blue eyes.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '[[hair|pelo]]'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Chin|Barbilla]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Forehead|Frente]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Hair|Pelo]]"
+            }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
         },
         {
           "interaction_id": "U28_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "your"
-            },
-            {
-              "id": "w2",
-              "text": "mouth,"
-            },
-            {
-              "id": "w0",
-              "text": "Open"
-            },
-            {
-              "id": "w3",
-              "text": "please"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I [[brush|me cepillo]] my ___ every morning.' (los dientes = teeth)",
+          "correct_answer": "teeth",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
         },
         {
           "interaction_id": "U28_I5",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ojo",
-          "correct_answer": "Eye",
-          "mastery_tag": "vocabulary"
+          "type": "matching",
+          "prompt_es": "Une la parte de la cara con su descripción:",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "[[Forehead|Frente]]",
+              "right": "usamos para comer"
+            },
+            {
+              "id": "p2",
+              "left": "[[Cheeks|Mejillas]]",
+              "right": "encima de los ojos"
+            },
+            {
+              "id": "p3",
+              "left": "[[Lips|Labios]]",
+              "right": "parte lateral de la cara"
+            },
+            {
+              "id": "p4",
+              "left": "[[Chin|Barbilla]]",
+              "right": "parte inferior de la cara"
+            }
+          ],
+          "correct_answer": {
+            "p1": "p2",
+            "p2": "p3",
+            "p3": "p1",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 2
         },
         {
           "interaction_id": "U28_I6",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Mano' en inglés?",
+          "prompt_es": "¿Con qué escuchas (listen)?",
           "options": [
             {
-              "id": "o3",
-              "text": "Mouth"
-            },
-            {
               "id": "o1",
-              "text": "Hand"
+              "text": "[[With your eyes|Con los ojos]]"
             },
             {
               "id": "o2",
-              "text": "Shoulder"
+              "text": "[[With your ears|Con las orejas]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[With your nose|Con la nariz]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
         },
         {
           "interaction_id": "U28_I7",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Head",
-              "right": "Cabeza"
-            },
-            {
-              "id": "p1",
-              "left": "Shoulder",
-              "right": "Hombro"
-            },
-            {
-              "id": "p2",
-              "left": "Leg",
-              "right": "Pierna"
-            },
-            {
-              "id": "p3",
-              "left": "Mouth",
-              "right": "Boca"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She has beautiful blue ___.' (ojos = eyes)",
+          "correct_answer": "eyes",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
         },
         {
           "interaction_id": "U28_I8",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "My (piernas) ________ are tired.",
-          "correct_answer": "legs",
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué parte de la cara usamos para oler (smell)?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Mouth|Boca]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Eyes|Ojos]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Nose|Nariz]]"
+            }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
         },
         {
           "interaction_id": "U28_I9",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Your open mouth, please\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'My ___ is very long and brown.' (pelo = hair)",
+          "correct_answer": "hair",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
         },
         {
           "interaction_id": "U28_I10",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuántas orejas tiene una persona?",
           "options": [
             {
-              "id": "w0",
-              "text": "Her"
+              "id": "o1",
+              "text": "[[One|Una]]"
             },
             {
-              "id": "w1",
-              "text": "hair"
+              "id": "o2",
+              "text": "[[Three|Tres]]"
             },
             {
-              "id": "w3",
-              "text": "blonde"
-            },
-            {
-              "id": "w2",
-              "text": "is"
+              "id": "o3",
+              "text": "[[Two|Dos]]"
             }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Vocabulary: Body Parts",
+      "content": [
         {
           "interaction_id": "U28_I11",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Cabeza",
-          "correct_answer": "Head",
-          "mastery_tag": "vocabulary"
+          "type": "matching",
+          "prompt_es": "Une cada parte del cuerpo con su traducción:",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "[[Arm|Brazo]]",
+              "right": "Pierna"
+            },
+            {
+              "id": "p2",
+              "left": "[[Leg|Pierna]]",
+              "right": "Mano"
+            },
+            {
+              "id": "p3",
+              "left": "[[Hand|Mano]]",
+              "right": "Pie"
+            },
+            {
+              "id": "p4",
+              "left": "[[Foot|Pie]]",
+              "right": "Brazo"
+            }
+          ],
+          "correct_answer": {
+            "p1": "p4",
+            "p2": "p1",
+            "p3": "p2",
+            "p4": "p3"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1
         },
         {
           "interaction_id": "U28_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Hombro' en inglés?",
+          "prompt_es": "¿Con qué escribes (write)?",
           "options": [
             {
-              "id": "o3",
-              "text": "Arm"
-            },
-            {
               "id": "o1",
-              "text": "Shoulder"
+              "text": "[[With your feet|Con los pies]]"
             },
             {
               "id": "o2",
-              "text": "Leg"
+              "text": "[[With your hand|Con la mano]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[With your knee|Con la rodilla]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
         },
         {
           "interaction_id": "U28_I13",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Shoulder",
-              "right": "Hombro"
-            },
-            {
-              "id": "p1",
-              "left": "Leg",
-              "right": "Pierna"
-            },
-            {
-              "id": "p2",
-              "left": "Mouth",
-              "right": "Boca"
-            },
-            {
-              "id": "p3",
-              "left": "Eye",
-              "right": "Ojo"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'She [[runs|corre]] with her ___.' (las piernas = legs)",
+          "correct_answer": "legs",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
         },
         {
           "interaction_id": "U28_I14",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She has (largo) ________ hair.",
-          "correct_answer": "long",
-          "mastery_tag": "grammar"
+          "type": "matching",
+          "prompt_es": "Une la parte del cuerpo con su plural:",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "[[foot → feet|pie → pies]]",
+              "right": "teeth"
+            },
+            {
+              "id": "p2",
+              "left": "[[tooth → teeth|diente → dientes]]",
+              "right": "hands"
+            },
+            {
+              "id": "p3",
+              "left": "[[hand → hands|mano → manos]]",
+              "right": "feet"
+            },
+            {
+              "id": "p4",
+              "left": "[[arm → arms|brazo → brazos]]",
+              "right": "arms"
+            }
+          ],
+          "correct_answer": {
+            "p1": "p3",
+            "p2": "p1",
+            "p3": "p2",
+            "p4": "p4"
+          },
+          "mastery_tag": "grammar",
+          "complexity": 2
         },
         {
           "interaction_id": "U28_I15",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Her hair is blonde.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el plural irregular de '[[foot|pie]]'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[foots|pies (incorrecto)]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[feets|pies (incorrecto)]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[feet|pies]]"
+            }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar",
+          "complexity": 2
         },
         {
           "interaction_id": "U28_I16",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "your"
-            },
-            {
-              "id": "w0",
-              "text": "Wash"
-            },
-            {
-              "id": "w2",
-              "text": "hands"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
-          ],
-          "mastery_tag": "syntax"
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '[[She|Ella]] [[uses|usa]] her ___ to [[type|teclear]].' (los dedos = fingers)",
+          "correct_answer": "fingers",
+          "mastery_tag": "vocabulary",
+          "complexity": 2
         },
         {
           "interaction_id": "U28_I17",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Nariz",
-          "correct_answer": "Nose",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '[[shoulder|hombro]]'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Elbow|Codo]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Shoulder|Hombro]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Knee|Rodilla]]"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
         },
         {
           "interaction_id": "U28_I18",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Oreja' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Arm"
-            },
-            {
-              "id": "o2",
-              "text": "Nose"
-            },
-            {
-              "id": "o1",
-              "text": "Ear"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I have ten ___ on my hands.' (dedos = fingers)",
+          "correct_answer": "fingers",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
         },
         {
           "interaction_id": "U28_I19",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué parte del cuerpo está entre (between) el muslo y el pie?",
+          "options": [
             {
-              "id": "p0",
-              "left": "Leg",
-              "right": "Pierna"
+              "id": "o1",
+              "text": "[[The knee|La rodilla]]"
             },
             {
-              "id": "p1",
-              "left": "Mouth",
-              "right": "Boca"
+              "id": "o2",
+              "text": "[[The elbow|El codo]]"
             },
             {
-              "id": "p2",
-              "left": "Eye",
-              "right": "Ojo"
-            },
-            {
-              "id": "p3",
-              "left": "Hand",
-              "right": "Mano"
+              "id": "o3",
+              "text": "[[The shoulder|El hombro]]"
             }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 2
         },
         {
           "interaction_id": "U28_I20",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "My (piernas) ________ are tired.",
-          "correct_answer": "legs",
-          "mastery_tag": "grammar"
-        },
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'I [[bend|doblo]] my ___ to pick up something.' (rodilla = knee)",
+          "correct_answer": "knee",
+          "mastery_tag": "vocabulary",
+          "complexity": 2
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Have/Has Got: Physical Descriptions",
+      "content": [
         {
           "interaction_id": "U28_I21",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Your wash hands\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
+          "type": "multiple_choice",
+          "prompt_es": "'[[She|Ella]] ___ long brown hair.' ¿Qué forma?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[have got|tengo (1ª)]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[has got|tiene (3ª)]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[is got|incorrecto]]"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar",
+          "complexity": 1
         },
         {
           "interaction_id": "U28_I22",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "small"
-            },
-            {
-              "id": "w2",
-              "text": "are"
-            },
-            {
-              "id": "w1",
-              "text": "ears"
-            },
-            {
-              "id": "w0",
-              "text": "My"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'My brother ___ big blue eyes.' (has got)",
+          "correct_answer": "has got",
+          "mastery_tag": "grammar",
+          "complexity": 1
         },
         {
           "interaction_id": "U28_I23",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Pierna",
-          "correct_answer": "Leg",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "'[[I|Yo]] ___ short black hair and brown eyes.'",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[have got|tengo]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[has got|tiene]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[is got|incorrecto]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 1
         },
         {
           "interaction_id": "U28_I24",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Boca' en inglés?",
-          "options": [
+          "type": "sentence_building",
+          "prompt_es": "Forma: 'Ella tiene el pelo largo y rizado.'",
+          "words": [
             {
-              "id": "o3",
-              "text": "Eye"
+              "id": "w1",
+              "text": "[[She|Ella]]"
             },
             {
-              "id": "o2",
-              "text": "Shoulder"
+              "id": "w2",
+              "text": "[[has got|tiene]]"
             },
             {
-              "id": "o1",
-              "text": "Mouth"
+              "id": "w3",
+              "text": "[[long|largo]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[curly|rizado]]"
+            },
+            {
+              "id": "w5",
+              "text": "[[hair|pelo]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "grammar",
+          "complexity": 2
         },
         {
           "interaction_id": "U28_I25",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál describe correctamente a alguien con ojos verdes y pelo corto?",
+          "options": [
             {
-              "id": "p0",
-              "left": "Mouth",
-              "right": "Boca"
+              "id": "o1",
+              "text": "[[He has got long hair and blue eyes|Tiene el pelo largo y los ojos azules]]"
             },
             {
-              "id": "p1",
-              "left": "Eye",
-              "right": "Ojo"
+              "id": "o2",
+              "text": "[[He has got green eyes and short hair|Tiene los ojos verdes y el pelo corto]]"
             },
             {
-              "id": "p2",
-              "left": "Hand",
-              "right": "Mano"
-            },
-            {
-              "id": "p3",
-              "left": "Nose",
-              "right": "Nariz"
+              "id": "o3",
+              "text": "[[He has got dark eyes and long hair|Tiene los ojos oscuros y el pelo largo]]"
             }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o2",
+          "mastery_tag": "grammar",
+          "complexity": 2
         },
         {
           "interaction_id": "U28_I26",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She has (largo) ________ hair.",
-          "correct_answer": "long",
-          "mastery_tag": "grammar"
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '[[The baby|El bebé]] ___ tiny little fingers and toes.' (has got)",
+          "correct_answer": "has got",
+          "mastery_tag": "grammar",
+          "complexity": 1
         },
         {
           "interaction_id": "U28_I27",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"My ears are small.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
+          "type": "multiple_choice",
+          "prompt_es": "Pregunta: '___ she got blue eyes?' ¿Cómo preguntas?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Have|Tiene (incorrecto)]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Does|¿Tiene? (simple present — también válido)]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Has|¿Tiene? (have got)]]"
+            }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar",
+          "complexity": 2
         },
         {
           "interaction_id": "U28_I28",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "He"
-            },
-            {
-              "id": "w2",
-              "text": "blue"
-            },
-            {
-              "id": "w3",
-              "text": "eyes"
-            },
-            {
-              "id": "w1",
-              "text": "has"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'My dad ___ a beard and a moustache.' (has got)",
+          "correct_answer": "has got",
+          "mastery_tag": "grammar",
+          "complexity": 1
         },
         {
           "interaction_id": "U28_I29",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Pie",
-          "correct_answer": "Foot",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "Respuesta a '[[Has she got freckles?|¿Tiene pecas?]]' — (sí)",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Yes, she has|Sí, las tiene]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Yes, she have|Sí (incorrecto)]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Yes, she is|Sí (incorrecto)]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2
         },
         {
           "interaction_id": "U28_I30",
+          "type": "sentence_building",
+          "prompt_es": "Forma: '¿Tiene tu padre el pelo rizado?'",
+          "words": [
+            {
+              "id": "w1",
+              "text": "[[Has|Tiene]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[your|tu]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[father|padre]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[got|got]]"
+            },
+            {
+              "id": "w5",
+              "text": "[[curly|rizado]]"
+            },
+            {
+              "id": "w6",
+              "text": "[[hair?|pelo?]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "grammar",
+          "complexity": 2
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "This/These + Body Parts",
+      "content": [
+        {
+          "interaction_id": "U28_I31",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Brazo' en inglés?",
+          "prompt_es": "Usamos '[[this|este/esta]]' para singular y '[[these|estos/estas]]' para plural. '¿Qué es esto?' (señalando una mano)",
           "options": [
             {
-              "id": "o3",
-              "text": "Nose"
+              "id": "o1",
+              "text": "[[These are my hands|Estas son mis manos (plural — incorrecto para una)]]"
             },
             {
               "id": "o2",
-              "text": "Mouth"
+              "text": "[[This is my hand|Esta es mi mano]]"
             },
             {
-              "id": "o1",
-              "text": "Arm"
+              "id": "o3",
+              "text": "[[Those are my hands|Esas son mis manos (lejos)]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I31",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Eye",
-              "right": "Ojo"
-            },
-            {
-              "id": "p1",
-              "left": "Hand",
-              "right": "Mano"
-            },
-            {
-              "id": "p2",
-              "left": "Nose",
-              "right": "Nariz"
-            },
-            {
-              "id": "p3",
-              "left": "Ear",
-              "right": "Oreja"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o2",
+          "mastery_tag": "grammar",
+          "complexity": 1
         },
         {
           "interaction_id": "U28_I32",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "My (piernas) ________ are tired.",
-          "correct_answer": "legs",
-          "mastery_tag": "grammar"
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ are my feet.' (señalando los dos pies — plural)",
+          "correct_answer": "These",
+          "mastery_tag": "grammar",
+          "complexity": 1
         },
         {
           "interaction_id": "U28_I33",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Has he blue eyes\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I34",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "please"
-            },
-            {
-              "id": "w2",
-              "text": "mouth,"
-            },
-            {
-              "id": "w1",
-              "text": "your"
-            },
-            {
-              "id": "w0",
-              "text": "Open"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I35",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ojo",
-          "correct_answer": "Eye",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I36",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Mano' en inglés?",
+          "prompt_es": "Señalando los brazos de alguien, ¿qué dices?",
           "options": [
-            {
-              "id": "o3",
-              "text": "Arm"
-            },
             {
               "id": "o1",
-              "text": "Hand"
+              "text": "[[This is her arm|Este es su brazo (singular)]]"
             },
             {
               "id": "o2",
-              "text": "Eye"
+              "text": "[[These are her arms|Estos son sus brazos (plural)]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[This are her arms|Estos son sus brazos (incorrecto)]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o2",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U28_I34",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ is my nose.' (señalando la nariz — singular)",
+          "correct_answer": "This",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U28_I35",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcta? (señalando los ojos)",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[This are my eyes|Estos son mis ojos (incorrecto)]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[These are my eyes|Estos son mis ojos]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[This is my eyes|Estos son mis ojos (incorrecto)]]"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U28_I36",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ is my elbow. It hurts!' (singular)",
+          "correct_answer": "This",
+          "mastery_tag": "grammar",
+          "complexity": 1
         },
         {
           "interaction_id": "U28_I37",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
+          "type": "multiple_choice",
+          "prompt_es": "'___ fingers are very long.' ¿These o This?",
+          "options": [
             {
-              "id": "p0",
-              "left": "Hand",
-              "right": "Mano"
+              "id": "o1",
+              "text": "[[This|Este (singular — incorrecto)]]"
             },
             {
-              "id": "p1",
-              "left": "Nose",
-              "right": "Nariz"
+              "id": "o2",
+              "text": "[[These|Estos (plural)]]"
             },
             {
-              "id": "p2",
-              "left": "Ear",
-              "right": "Oreja"
-            },
-            {
-              "id": "p3",
-              "left": "Foot",
-              "right": "Pie"
+              "id": "o3",
+              "text": "[[Those|Esos (lejos — también posible)]]"
             }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o2",
+          "mastery_tag": "grammar",
+          "complexity": 1
         },
         {
           "interaction_id": "U28_I38",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She has (largo) ________ hair.",
-          "correct_answer": "long",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I39",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Open your mouth, please.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I40",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
+          "type": "sentence_building",
+          "prompt_es": "Forma: 'Este es mi hombro derecho.'",
+          "words": [
             {
-              "id": "w0",
-              "text": "Her"
+              "id": "w1",
+              "text": "[[This|Este]]"
             },
             {
               "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w1",
-              "text": "hair"
+              "text": "[[is|es]]"
             },
             {
               "id": "w3",
-              "text": "blonde"
+              "text": "[[my|mi]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[right|derecho]]"
+            },
+            {
+              "id": "w5",
+              "text": "[[shoulder|hombro]]"
             }
           ],
           "correct_answer": [
-            "w0",
             "w1",
             "w2",
-            "w3"
+            "w3",
+            "w4",
+            "w5"
           ],
-          "mastery_tag": "syntax"
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U28_I39",
+          "type": "multiple_choice",
+          "prompt_es": "'___ are my teeth.' ¿Cuál?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[This|Este (singular — incorrecto)]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[These|Estos (plural)]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[That|Ese (lejos — incorrecto contexto)]]"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U28_I40",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: '___ is my knee — it is a bit [[sore|dolorida]].' (singular = This)",
+          "correct_answer": "This",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        }
+      ]
+    },
+    {
+      "block_id": "B5",
+      "title": "Reading: At the Doctor's",
+      "content": [
+        {
+          "interaction_id": "U28_READ1",
+          "type": "reading_phase",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[carefully|con atención]].",
+          "transcript": "[[Tom|Tom]] is at the [[doctor's|médico]]. [[He|Él]] has a [[sore|dolorida]] [[throat|garganta]] and [[his|su]] [[head|cabeza]] [[hurts|duele]]. '[[Good morning|Buenos días]], [[Tom|Tom]],' [[says|dice]] [[Dr Smith|Dr Smith]]. '[[What's|Qué te]] the [[matter|pasa]]?' '[[I've got|Tengo]] a [[bad|fuerte]] [[headache|dolor de cabeza]] and a [[sore throat|dolor de garganta]],' [[says|dice]] [[Tom|Tom]]. [[Dr Smith|Dr Smith]] [[examines|examina]] [[Tom|Tom]]. '[[Open|Abre]] your [[mouth|boca]], [[please|por favor]],' [[says|dice]] the [[doctor|médico]]. '[[Your|Tu]] [[throat|garganta]] is [[red|roja]] and your [[glands|glándulas]] are [[swollen|hinchadas]]. [[Can you|Puedes]] [[touch|tocar]] your [[toes|dedos de los pies]]?' '[[No|No]], my [[back|espalda]] [[also|también]] [[hurts|duele]],' [[says|dice]] [[Tom|Tom]]. '[[You need|Necesitas]] to [[rest|descansar]] for a [[few|unos]] [[days|días]],' [[says|dice]] [[Dr Smith|Dr Smith]]. '[[Here is|Aquí tienes]] a [[prescription|receta]] for [[some|algo de]] [[medicine|medicina]].'",
+          "mastery_tag": "reading",
+          "complexity": 1
         },
         {
           "interaction_id": "U28_I41",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Cabeza",
-          "correct_answer": "Head",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué le duele a Tom?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Los pies y las manos"
+            },
+            {
+              "id": "o2",
+              "text": "La cabeza y la garganta"
+            },
+            {
+              "id": "o3",
+              "text": "El estómago y los brazos"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "reading",
+          "complexity": 1
         },
         {
           "interaction_id": "U28_I42",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Hombro' en inglés?",
+          "prompt_es": "¿Qué le pide el doctor a Tom que haga?",
           "options": [
             {
+              "id": "o1",
+              "text": "[[Close his mouth|Que cierre la boca]]"
+            },
+            {
               "id": "o2",
-              "text": "Mouth"
+              "text": "[[Open his mouth|Que abra la boca]]"
             },
             {
               "id": "o3",
-              "text": "Ear"
-            },
-            {
-              "id": "o1",
-              "text": "Shoulder"
+              "text": "[[Raise his arms|Que levante los brazos]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o2",
+          "mastery_tag": "reading",
+          "complexity": 1
         },
         {
           "interaction_id": "U28_I43",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo está la garganta de Tom?",
+          "options": [
             {
-              "id": "p0",
-              "left": "Nose",
-              "right": "Nariz"
+              "id": "o1",
+              "text": "Azul y fría"
             },
             {
-              "id": "p1",
-              "left": "Ear",
-              "right": "Oreja"
+              "id": "o2",
+              "text": "Roja y con las glándulas hinchadas"
             },
             {
-              "id": "p2",
-              "left": "Foot",
-              "right": "Pie"
-            },
-            {
-              "id": "p3",
-              "left": "Arm",
-              "right": "Brazo"
+              "id": "o3",
+              "text": "Normal, sin problemas"
             }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o2",
+          "mastery_tag": "reading",
+          "complexity": 2
         },
         {
           "interaction_id": "U28_I44",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "My (piernas) ________ are tired.",
-          "correct_answer": "legs",
-          "mastery_tag": "grammar"
+          "type": "multiple_choice",
+          "prompt_es": "¿Puede Tom tocar los dedos de los pies?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sí, fácilmente"
+            },
+            {
+              "id": "o2",
+              "text": "No, porque también le duele la espalda"
+            },
+            {
+              "id": "o3",
+              "text": "No lo intenta"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "reading",
+          "complexity": 2
         },
         {
           "interaction_id": "U28_I45",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Hair her is blonde\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
+          "type": "fill_blanks",
+          "prompt_es": "El doctor le da a Tom una ___ para comprar medicamentos. (receta = prescription)",
+          "correct_answer": "prescription",
+          "mastery_tag": "reading",
+          "complexity": 2
         },
         {
           "interaction_id": "U28_I46",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué recomienda el médico a Tom?",
           "options": [
             {
-              "id": "w2",
-              "text": "hands"
+              "id": "o1",
+              "text": "Hacer ejercicio"
             },
             {
-              "id": "w1",
-              "text": "your"
+              "id": "o2",
+              "text": "Descansar unos días"
             },
             {
-              "id": "w0",
-              "text": "Wash"
+              "id": "o3",
+              "text": "Trabajar más"
             }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
-          ],
-          "mastery_tag": "syntax"
+          "correct_answer": "o2",
+          "mastery_tag": "reading",
+          "complexity": 1
         },
         {
           "interaction_id": "U28_I47",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Nariz",
-          "correct_answer": "Nose",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se llama el médico?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Dr Jones|Dr Jones]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Dr Brown|Dr Brown]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Dr Smith|Dr Smith]]"
+            }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "reading",
+          "complexity": 1
         },
         {
           "interaction_id": "U28_I48",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Oreja' en inglés?",
-          "options": [
+          "type": "sentence_building",
+          "prompt_es": "Forma: 'Me duele la cabeza y la garganta.'",
+          "words": [
             {
-              "id": "o2",
-              "text": "Foot"
+              "id": "w1",
+              "text": "[[My|Mi]]"
             },
             {
-              "id": "o3",
-              "text": "Mouth"
+              "id": "w2",
+              "text": "[[head|cabeza]]"
             },
             {
-              "id": "o1",
-              "text": "Ear"
+              "id": "w3",
+              "text": "[[and|y]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[my|mi]]"
+            },
+            {
+              "id": "w5",
+              "text": "[[throat|garganta]]"
+            },
+            {
+              "id": "w6",
+              "text": "[[hurt|duelen]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "reading",
+          "complexity": 2
         },
         {
           "interaction_id": "U28_I49",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué parte del cuerpo NO se menciona en el texto?",
+          "options": [
             {
-              "id": "p0",
-              "left": "Ear",
-              "right": "Oreja"
+              "id": "o1",
+              "text": "[[Throat|Garganta]]"
             },
             {
-              "id": "p1",
-              "left": "Foot",
-              "right": "Pie"
+              "id": "o2",
+              "text": "[[Back|Espalda]]"
             },
             {
-              "id": "p2",
-              "left": "Arm",
-              "right": "Brazo"
-            },
-            {
-              "id": "p3",
-              "left": "Head",
-              "right": "Cabeza"
+              "id": "o3",
+              "text": "[[Knee|Rodilla]]"
             }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o3",
+          "mastery_tag": "reading",
+          "complexity": 2
         },
         {
           "interaction_id": "U28_I50",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She has (largo) ________ hair.",
-          "correct_answer": "long",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I51",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Wash your hands.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I52",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "My"
-            },
-            {
-              "id": "w3",
-              "text": "small"
-            },
-            {
-              "id": "w2",
-              "text": "are"
-            },
-            {
-              "id": "w1",
-              "text": "ears"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I53",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Pierna",
-          "correct_answer": "Leg",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I54",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Boca' en inglés?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Shoulder"
-            },
-            {
-              "id": "o3",
-              "text": "Arm"
-            },
-            {
-              "id": "o1",
-              "text": "Mouth"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I55",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Foot",
-              "right": "Pie"
-            },
-            {
-              "id": "p1",
-              "left": "Arm",
-              "right": "Brazo"
-            },
-            {
-              "id": "p2",
-              "left": "Head",
-              "right": "Cabeza"
-            },
-            {
-              "id": "p3",
-              "left": "Shoulder",
-              "right": "Hombro"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I56",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "My (piernas) ________ are tired.",
-          "correct_answer": "legs",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I57",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Ears my are small\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I58",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "He"
-            },
-            {
-              "id": "w2",
-              "text": "blue"
-            },
-            {
-              "id": "w3",
-              "text": "eyes"
-            },
-            {
-              "id": "w1",
-              "text": "has"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I59",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Pie",
-          "correct_answer": "Foot",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I60",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Brazo' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Ear"
-            },
-            {
-              "id": "o1",
-              "text": "Arm"
-            },
-            {
-              "id": "o2",
-              "text": "Leg"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I61",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Arm",
-              "right": "Brazo"
-            },
-            {
-              "id": "p1",
-              "left": "Head",
-              "right": "Cabeza"
-            },
-            {
-              "id": "p2",
-              "left": "Shoulder",
-              "right": "Hombro"
-            },
-            {
-              "id": "p3",
-              "left": "Leg",
-              "right": "Pierna"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I62",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She has (largo) ________ hair.",
-          "correct_answer": "long",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I63",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"He has blue eyes.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I64",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "your"
-            },
-            {
-              "id": "w3",
-              "text": "please"
-            },
-            {
-              "id": "w0",
-              "text": "Open"
-            },
-            {
-              "id": "w2",
-              "text": "mouth,"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I65",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ojo",
-          "correct_answer": "Eye",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I66",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Mano' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Hand"
-            },
-            {
-              "id": "o3",
-              "text": "Arm"
-            },
-            {
-              "id": "o2",
-              "text": "Mouth"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I67",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Head",
-              "right": "Cabeza"
-            },
-            {
-              "id": "p1",
-              "left": "Shoulder",
-              "right": "Hombro"
-            },
-            {
-              "id": "p2",
-              "left": "Leg",
-              "right": "Pierna"
-            },
-            {
-              "id": "p3",
-              "left": "Mouth",
-              "right": "Boca"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I68",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "My (piernas) ________ are tired.",
-          "correct_answer": "legs",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I69",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Your open mouth, please\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I70",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "blonde"
-            },
-            {
-              "id": "w1",
-              "text": "hair"
-            },
-            {
-              "id": "w0",
-              "text": "Her"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I71",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Cabeza",
-          "correct_answer": "Head",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I72",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Hombro' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Nose"
-            },
-            {
-              "id": "o1",
-              "text": "Shoulder"
-            },
-            {
-              "id": "o2",
-              "text": "Hand"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I73",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Shoulder",
-              "right": "Hombro"
-            },
-            {
-              "id": "p1",
-              "left": "Leg",
-              "right": "Pierna"
-            },
-            {
-              "id": "p2",
-              "left": "Mouth",
-              "right": "Boca"
-            },
-            {
-              "id": "p3",
-              "left": "Eye",
-              "right": "Ojo"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I74",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She has (largo) ________ hair.",
-          "correct_answer": "long",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I75",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Her hair is blonde.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I76",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "your"
-            },
-            {
-              "id": "w2",
-              "text": "hands"
-            },
-            {
-              "id": "w0",
-              "text": "Wash"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I77",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Nariz",
-          "correct_answer": "Nose",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I78",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Oreja' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Head"
-            },
-            {
-              "id": "o1",
-              "text": "Ear"
-            },
-            {
-              "id": "o2",
-              "text": "Eye"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I79",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Leg",
-              "right": "Pierna"
-            },
-            {
-              "id": "p1",
-              "left": "Mouth",
-              "right": "Boca"
-            },
-            {
-              "id": "p2",
-              "left": "Eye",
-              "right": "Ojo"
-            },
-            {
-              "id": "p3",
-              "left": "Hand",
-              "right": "Mano"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I80",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "My (piernas) ________ are tired.",
-          "correct_answer": "legs",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I81",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Your wash hands\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I82",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "small"
-            },
-            {
-              "id": "w2",
-              "text": "are"
-            },
-            {
-              "id": "w0",
-              "text": "My"
-            },
-            {
-              "id": "w1",
-              "text": "ears"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I83",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Pierna",
-          "correct_answer": "Leg",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I84",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Boca' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Mouth"
-            },
-            {
-              "id": "o3",
-              "text": "Nose"
-            },
-            {
-              "id": "o2",
-              "text": "Eye"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I85",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Mouth",
-              "right": "Boca"
-            },
-            {
-              "id": "p1",
-              "left": "Eye",
-              "right": "Ojo"
-            },
-            {
-              "id": "p2",
-              "left": "Hand",
-              "right": "Mano"
-            },
-            {
-              "id": "p3",
-              "left": "Nose",
-              "right": "Nariz"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I86",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She has (largo) ________ hair.",
-          "correct_answer": "long",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I87",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"My ears are small.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I88",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "blue"
-            },
-            {
-              "id": "w0",
-              "text": "He"
-            },
-            {
-              "id": "w3",
-              "text": "eyes"
-            },
-            {
-              "id": "w1",
-              "text": "has"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I89",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Pie",
-          "correct_answer": "Foot",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I90",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Brazo' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Ear"
-            },
-            {
-              "id": "o2",
-              "text": "Hand"
-            },
-            {
-              "id": "o1",
-              "text": "Arm"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I91",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Eye",
-              "right": "Ojo"
-            },
-            {
-              "id": "p1",
-              "left": "Hand",
-              "right": "Mano"
-            },
-            {
-              "id": "p2",
-              "left": "Nose",
-              "right": "Nariz"
-            },
-            {
-              "id": "p3",
-              "left": "Ear",
-              "right": "Oreja"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I92",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "My (piernas) ________ are tired.",
-          "correct_answer": "legs",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I93",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Has he blue eyes\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I94",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "your"
-            },
-            {
-              "id": "w3",
-              "text": "please"
-            },
-            {
-              "id": "w0",
-              "text": "Open"
-            },
-            {
-              "id": "w2",
-              "text": "mouth,"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I95",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ojo",
-          "correct_answer": "Eye",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I96",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Mano' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Hand"
-            },
-            {
-              "id": "o3",
-              "text": "Nose"
-            },
-            {
-              "id": "o2",
-              "text": "Head"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I97",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Hand",
-              "right": "Mano"
-            },
-            {
-              "id": "p1",
-              "left": "Nose",
-              "right": "Nariz"
-            },
-            {
-              "id": "p2",
-              "left": "Ear",
-              "right": "Oreja"
-            },
-            {
-              "id": "p3",
-              "left": "Foot",
-              "right": "Pie"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I98",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She has (largo) ________ hair.",
-          "correct_answer": "long",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I99",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Open your mouth, please.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I100",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "Her"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w1",
-              "text": "hair"
-            },
-            {
-              "id": "w3",
-              "text": "blonde"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I101",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Cabeza",
-          "correct_answer": "Head",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I102",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Hombro' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Leg"
-            },
-            {
-              "id": "o2",
-              "text": "Eye"
-            },
-            {
-              "id": "o1",
-              "text": "Shoulder"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I103",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Nose",
-              "right": "Nariz"
-            },
-            {
-              "id": "p1",
-              "left": "Ear",
-              "right": "Oreja"
-            },
-            {
-              "id": "p2",
-              "left": "Foot",
-              "right": "Pie"
-            },
-            {
-              "id": "p3",
-              "left": "Arm",
-              "right": "Brazo"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I104",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "My (piernas) ________ are tired.",
-          "correct_answer": "legs",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I105",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Hair her is blonde\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I106",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "hands"
-            },
-            {
-              "id": "w1",
-              "text": "your"
-            },
-            {
-              "id": "w0",
-              "text": "Wash"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I107",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Nariz",
-          "correct_answer": "Nose",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I108",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Oreja' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Ear"
-            },
-            {
-              "id": "o2",
-              "text": "Nose"
-            },
-            {
-              "id": "o3",
-              "text": "Hand"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I109",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Ear",
-              "right": "Oreja"
-            },
-            {
-              "id": "p1",
-              "left": "Foot",
-              "right": "Pie"
-            },
-            {
-              "id": "p2",
-              "left": "Arm",
-              "right": "Brazo"
-            },
-            {
-              "id": "p3",
-              "left": "Head",
-              "right": "Cabeza"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I110",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She has (largo) ________ hair.",
-          "correct_answer": "long",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I111",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Wash your hands.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I112",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "small"
-            },
-            {
-              "id": "w0",
-              "text": "My"
-            },
-            {
-              "id": "w2",
-              "text": "are"
-            },
-            {
-              "id": "w1",
-              "text": "ears"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I113",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Pierna",
-          "correct_answer": "Leg",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I114",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Boca' en inglés?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Nose"
-            },
-            {
-              "id": "o1",
-              "text": "Mouth"
-            },
-            {
-              "id": "o3",
-              "text": "Shoulder"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I115",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Foot",
-              "right": "Pie"
-            },
-            {
-              "id": "p1",
-              "left": "Arm",
-              "right": "Brazo"
-            },
-            {
-              "id": "p2",
-              "left": "Head",
-              "right": "Cabeza"
-            },
-            {
-              "id": "p3",
-              "left": "Shoulder",
-              "right": "Hombro"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I116",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "My (piernas) ________ are tired.",
-          "correct_answer": "legs",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I117",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Ears my are small\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I118",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "He"
-            },
-            {
-              "id": "w3",
-              "text": "eyes"
-            },
-            {
-              "id": "w2",
-              "text": "blue"
-            },
-            {
-              "id": "w1",
-              "text": "has"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I119",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Pie",
-          "correct_answer": "Foot",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I120",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Brazo' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Head"
-            },
-            {
-              "id": "o1",
-              "text": "Arm"
-            },
-            {
-              "id": "o2",
-              "text": "Foot"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I121",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Arm",
-              "right": "Brazo"
-            },
-            {
-              "id": "p1",
-              "left": "Head",
-              "right": "Cabeza"
-            },
-            {
-              "id": "p2",
-              "left": "Shoulder",
-              "right": "Hombro"
-            },
-            {
-              "id": "p3",
-              "left": "Leg",
-              "right": "Pierna"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I122",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She has (largo) ________ hair.",
-          "correct_answer": "long",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I123",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"He has blue eyes.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I124",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "Open"
-            },
-            {
-              "id": "w2",
-              "text": "mouth,"
-            },
-            {
-              "id": "w1",
-              "text": "your"
-            },
-            {
-              "id": "w3",
-              "text": "please"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I125",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ojo",
-          "correct_answer": "Eye",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I126",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Mano' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Hand"
-            },
-            {
-              "id": "o2",
-              "text": "Foot"
-            },
-            {
-              "id": "o3",
-              "text": "Shoulder"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I127",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Head",
-              "right": "Cabeza"
-            },
-            {
-              "id": "p1",
-              "left": "Shoulder",
-              "right": "Hombro"
-            },
-            {
-              "id": "p2",
-              "left": "Leg",
-              "right": "Pierna"
-            },
-            {
-              "id": "p3",
-              "left": "Mouth",
-              "right": "Boca"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I128",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "My (piernas) ________ are tired.",
-          "correct_answer": "legs",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I129",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Your open mouth, please\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I130",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w1",
-              "text": "hair"
-            },
-            {
-              "id": "w3",
-              "text": "blonde"
-            },
-            {
-              "id": "w0",
-              "text": "Her"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I131",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Cabeza",
-          "correct_answer": "Head",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I132",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Hombro' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Eye"
-            },
-            {
-              "id": "o1",
-              "text": "Shoulder"
-            },
-            {
-              "id": "o2",
-              "text": "Foot"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I133",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Shoulder",
-              "right": "Hombro"
-            },
-            {
-              "id": "p1",
-              "left": "Leg",
-              "right": "Pierna"
-            },
-            {
-              "id": "p2",
-              "left": "Mouth",
-              "right": "Boca"
-            },
-            {
-              "id": "p3",
-              "left": "Eye",
-              "right": "Ojo"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I134",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She has (largo) ________ hair.",
-          "correct_answer": "long",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I135",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Her hair is blonde.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I136",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "your"
-            },
-            {
-              "id": "w2",
-              "text": "hands"
-            },
-            {
-              "id": "w0",
-              "text": "Wash"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I137",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Nariz",
-          "correct_answer": "Nose",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I138",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Oreja' en inglés?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Nose"
-            },
-            {
-              "id": "o3",
-              "text": "Foot"
-            },
-            {
-              "id": "o1",
-              "text": "Ear"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I139",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Leg",
-              "right": "Pierna"
-            },
-            {
-              "id": "p1",
-              "left": "Mouth",
-              "right": "Boca"
-            },
-            {
-              "id": "p2",
-              "left": "Eye",
-              "right": "Ojo"
-            },
-            {
-              "id": "p3",
-              "left": "Hand",
-              "right": "Mano"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I140",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "My (piernas) ________ are tired.",
-          "correct_answer": "legs",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I141",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Your wash hands\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I142",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "small"
-            },
-            {
-              "id": "w2",
-              "text": "are"
-            },
-            {
-              "id": "w0",
-              "text": "My"
-            },
-            {
-              "id": "w1",
-              "text": "ears"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I143",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Pierna",
-          "correct_answer": "Leg",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I144",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Boca' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Mouth"
-            },
-            {
-              "id": "o2",
-              "text": "Eye"
-            },
-            {
-              "id": "o3",
-              "text": "Head"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I145",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Mouth",
-              "right": "Boca"
-            },
-            {
-              "id": "p1",
-              "left": "Eye",
-              "right": "Ojo"
-            },
-            {
-              "id": "p2",
-              "left": "Hand",
-              "right": "Mano"
-            },
-            {
-              "id": "p3",
-              "left": "Nose",
-              "right": "Nariz"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I146",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She has (largo) ________ hair.",
-          "correct_answer": "long",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I147",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"My ears are small.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I148",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "has"
-            },
-            {
-              "id": "w2",
-              "text": "blue"
-            },
-            {
-              "id": "w3",
-              "text": "eyes"
-            },
-            {
-              "id": "w0",
-              "text": "He"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I149",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Pie",
-          "correct_answer": "Foot",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I150",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Brazo' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Arm"
-            },
-            {
-              "id": "o2",
-              "text": "Mouth"
-            },
-            {
-              "id": "o3",
-              "text": "Head"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I151",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Eye",
-              "right": "Ojo"
-            },
-            {
-              "id": "p1",
-              "left": "Hand",
-              "right": "Mano"
-            },
-            {
-              "id": "p2",
-              "left": "Nose",
-              "right": "Nariz"
-            },
-            {
-              "id": "p3",
-              "left": "Ear",
-              "right": "Oreja"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I152",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "My (piernas) ________ are tired.",
-          "correct_answer": "legs",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I153",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Has he blue eyes\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I154",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "your"
-            },
-            {
-              "id": "w2",
-              "text": "mouth,"
-            },
-            {
-              "id": "w3",
-              "text": "please"
-            },
-            {
-              "id": "w0",
-              "text": "Open"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I155",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ojo",
-          "correct_answer": "Eye",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I156",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Mano' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Nose"
-            },
-            {
-              "id": "o2",
-              "text": "Shoulder"
-            },
-            {
-              "id": "o1",
-              "text": "Hand"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I157",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Hand",
-              "right": "Mano"
-            },
-            {
-              "id": "p1",
-              "left": "Nose",
-              "right": "Nariz"
-            },
-            {
-              "id": "p2",
-              "left": "Ear",
-              "right": "Oreja"
-            },
-            {
-              "id": "p3",
-              "left": "Foot",
-              "right": "Pie"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I158",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She has (largo) ________ hair.",
-          "correct_answer": "long",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I159",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Open your mouth, please.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I160",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "Her"
-            },
-            {
-              "id": "w1",
-              "text": "hair"
-            },
-            {
-              "id": "w3",
-              "text": "blonde"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I161",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Cabeza",
-          "correct_answer": "Head",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I162",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Hombro' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Shoulder"
-            },
-            {
-              "id": "o2",
-              "text": "Mouth"
-            },
-            {
-              "id": "o3",
-              "text": "Head"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I163",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Nose",
-              "right": "Nariz"
-            },
-            {
-              "id": "p1",
-              "left": "Ear",
-              "right": "Oreja"
-            },
-            {
-              "id": "p2",
-              "left": "Foot",
-              "right": "Pie"
-            },
-            {
-              "id": "p3",
-              "left": "Arm",
-              "right": "Brazo"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I164",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "My (piernas) ________ are tired.",
-          "correct_answer": "legs",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I165",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Hair her is blonde\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I166",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "Wash"
-            },
-            {
-              "id": "w2",
-              "text": "hands"
-            },
-            {
-              "id": "w1",
-              "text": "your"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I167",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Nariz",
-          "correct_answer": "Nose",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I168",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Oreja' en inglés?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Head"
-            },
-            {
-              "id": "o1",
-              "text": "Ear"
-            },
-            {
-              "id": "o3",
-              "text": "Arm"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I169",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Ear",
-              "right": "Oreja"
-            },
-            {
-              "id": "p1",
-              "left": "Foot",
-              "right": "Pie"
-            },
-            {
-              "id": "p2",
-              "left": "Arm",
-              "right": "Brazo"
-            },
-            {
-              "id": "p3",
-              "left": "Head",
-              "right": "Cabeza"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I170",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She has (largo) ________ hair.",
-          "correct_answer": "long",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I171",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Wash your hands.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I172",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "are"
-            },
-            {
-              "id": "w0",
-              "text": "My"
-            },
-            {
-              "id": "w3",
-              "text": "small"
-            },
-            {
-              "id": "w1",
-              "text": "ears"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I173",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Pierna",
-          "correct_answer": "Leg",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I174",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Boca' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Mouth"
-            },
-            {
-              "id": "o2",
-              "text": "Eye"
-            },
-            {
-              "id": "o3",
-              "text": "Arm"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I175",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Foot",
-              "right": "Pie"
-            },
-            {
-              "id": "p1",
-              "left": "Arm",
-              "right": "Brazo"
-            },
-            {
-              "id": "p2",
-              "left": "Head",
-              "right": "Cabeza"
-            },
-            {
-              "id": "p3",
-              "left": "Shoulder",
-              "right": "Hombro"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I176",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "My (piernas) ________ are tired.",
-          "correct_answer": "legs",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I177",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Ears my are small\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I178",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "eyes"
-            },
-            {
-              "id": "w0",
-              "text": "He"
-            },
-            {
-              "id": "w1",
-              "text": "has"
-            },
-            {
-              "id": "w2",
-              "text": "blue"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I179",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Pie",
-          "correct_answer": "Foot",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I180",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Brazo' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Arm"
-            },
-            {
-              "id": "o3",
-              "text": "Shoulder"
-            },
-            {
-              "id": "o2",
-              "text": "Head"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I181",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Arm",
-              "right": "Brazo"
-            },
-            {
-              "id": "p1",
-              "left": "Head",
-              "right": "Cabeza"
-            },
-            {
-              "id": "p2",
-              "left": "Shoulder",
-              "right": "Hombro"
-            },
-            {
-              "id": "p3",
-              "left": "Leg",
-              "right": "Pierna"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I182",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She has (largo) ________ hair.",
-          "correct_answer": "long",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I183",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"He has blue eyes.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I184",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "your"
-            },
-            {
-              "id": "w2",
-              "text": "mouth,"
-            },
-            {
-              "id": "w3",
-              "text": "please"
-            },
-            {
-              "id": "w0",
-              "text": "Open"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I185",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ojo",
-          "correct_answer": "Eye",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I186",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Mano' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Hand"
-            },
-            {
-              "id": "o2",
-              "text": "Mouth"
-            },
-            {
-              "id": "o3",
-              "text": "Ear"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I187",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Head",
-              "right": "Cabeza"
-            },
-            {
-              "id": "p1",
-              "left": "Shoulder",
-              "right": "Hombro"
-            },
-            {
-              "id": "p2",
-              "left": "Leg",
-              "right": "Pierna"
-            },
-            {
-              "id": "p3",
-              "left": "Mouth",
-              "right": "Boca"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I188",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "My (piernas) ________ are tired.",
-          "correct_answer": "legs",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I189",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Your open mouth, please\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I190",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "blonde"
-            },
-            {
-              "id": "w1",
-              "text": "hair"
-            },
-            {
-              "id": "w0",
-              "text": "Her"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I191",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Cabeza",
-          "correct_answer": "Head",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I192",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Hombro' en inglés?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Foot"
-            },
-            {
-              "id": "o1",
-              "text": "Shoulder"
-            },
-            {
-              "id": "o3",
-              "text": "Nose"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I193",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Shoulder",
-              "right": "Hombro"
-            },
-            {
-              "id": "p1",
-              "left": "Leg",
-              "right": "Pierna"
-            },
-            {
-              "id": "p2",
-              "left": "Mouth",
-              "right": "Boca"
-            },
-            {
-              "id": "p3",
-              "left": "Eye",
-              "right": "Ojo"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I194",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She has (largo) ________ hair.",
-          "correct_answer": "long",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I195",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Her hair is blonde.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I196",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "hands"
-            },
-            {
-              "id": "w0",
-              "text": "Wash"
-            },
-            {
-              "id": "w1",
-              "text": "your"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I197",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Nariz",
-          "correct_answer": "Nose",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I198",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Oreja' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Mouth"
-            },
-            {
-              "id": "o2",
-              "text": "Eye"
-            },
-            {
-              "id": "o1",
-              "text": "Ear"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I199",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Leg",
-              "right": "Pierna"
-            },
-            {
-              "id": "p1",
-              "left": "Mouth",
-              "right": "Boca"
-            },
-            {
-              "id": "p2",
-              "left": "Eye",
-              "right": "Ojo"
-            },
-            {
-              "id": "p3",
-              "left": "Hand",
-              "right": "Mano"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I200",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "My (piernas) ________ are tired.",
-          "correct_answer": "legs",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I201",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Your wash hands\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I202",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "small"
-            },
-            {
-              "id": "w1",
-              "text": "ears"
-            },
-            {
-              "id": "w2",
-              "text": "are"
-            },
-            {
-              "id": "w0",
-              "text": "My"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I203",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Pierna",
-          "correct_answer": "Leg",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I204",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Boca' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Mouth"
-            },
-            {
-              "id": "o3",
-              "text": "Arm"
-            },
-            {
-              "id": "o2",
-              "text": "Shoulder"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I205",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Mouth",
-              "right": "Boca"
-            },
-            {
-              "id": "p1",
-              "left": "Eye",
-              "right": "Ojo"
-            },
-            {
-              "id": "p2",
-              "left": "Hand",
-              "right": "Mano"
-            },
-            {
-              "id": "p3",
-              "left": "Nose",
-              "right": "Nariz"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I206",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She has (largo) ________ hair.",
-          "correct_answer": "long",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I207",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"My ears are small.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I208",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "has"
-            },
-            {
-              "id": "w0",
-              "text": "He"
-            },
-            {
-              "id": "w3",
-              "text": "eyes"
-            },
-            {
-              "id": "w2",
-              "text": "blue"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I209",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Pie",
-          "correct_answer": "Foot",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I210",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Brazo' en inglés?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Nose"
-            },
-            {
-              "id": "o3",
-              "text": "Ear"
-            },
-            {
-              "id": "o1",
-              "text": "Arm"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I211",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Eye",
-              "right": "Ojo"
-            },
-            {
-              "id": "p1",
-              "left": "Hand",
-              "right": "Mano"
-            },
-            {
-              "id": "p2",
-              "left": "Nose",
-              "right": "Nariz"
-            },
-            {
-              "id": "p3",
-              "left": "Ear",
-              "right": "Oreja"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I212",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "My (piernas) ________ are tired.",
-          "correct_answer": "legs",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I213",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Has he blue eyes\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I214",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "please"
-            },
-            {
-              "id": "w2",
-              "text": "mouth,"
-            },
-            {
-              "id": "w0",
-              "text": "Open"
-            },
-            {
-              "id": "w1",
-              "text": "your"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I215",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ojo",
-          "correct_answer": "Eye",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I216",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Mano' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Ear"
-            },
-            {
-              "id": "o2",
-              "text": "Mouth"
-            },
-            {
-              "id": "o1",
-              "text": "Hand"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I217",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Hand",
-              "right": "Mano"
-            },
-            {
-              "id": "p1",
-              "left": "Nose",
-              "right": "Nariz"
-            },
-            {
-              "id": "p2",
-              "left": "Ear",
-              "right": "Oreja"
-            },
-            {
-              "id": "p3",
-              "left": "Foot",
-              "right": "Pie"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I218",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She has (largo) ________ hair.",
-          "correct_answer": "long",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I219",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Open your mouth, please.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I220",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "Her"
-            },
-            {
-              "id": "w1",
-              "text": "hair"
-            },
-            {
-              "id": "w3",
-              "text": "blonde"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I221",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Cabeza",
-          "correct_answer": "Head",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I222",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Hombro' en inglés?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Nose"
-            },
-            {
-              "id": "o1",
-              "text": "Shoulder"
-            },
-            {
-              "id": "o3",
-              "text": "Arm"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I223",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Nose",
-              "right": "Nariz"
-            },
-            {
-              "id": "p1",
-              "left": "Ear",
-              "right": "Oreja"
-            },
-            {
-              "id": "p2",
-              "left": "Foot",
-              "right": "Pie"
-            },
-            {
-              "id": "p3",
-              "left": "Arm",
-              "right": "Brazo"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I224",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "My (piernas) ________ are tired.",
-          "correct_answer": "legs",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I225",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Hair her is blonde\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I226",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "hands"
-            },
-            {
-              "id": "w1",
-              "text": "your"
-            },
-            {
-              "id": "w0",
-              "text": "Wash"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I227",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Nariz",
-          "correct_answer": "Nose",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I228",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Oreja' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Hand"
-            },
-            {
-              "id": "o2",
-              "text": "Mouth"
-            },
-            {
-              "id": "o1",
-              "text": "Ear"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I229",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Ear",
-              "right": "Oreja"
-            },
-            {
-              "id": "p1",
-              "left": "Foot",
-              "right": "Pie"
-            },
-            {
-              "id": "p2",
-              "left": "Arm",
-              "right": "Brazo"
-            },
-            {
-              "id": "p3",
-              "left": "Head",
-              "right": "Cabeza"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I230",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She has (largo) ________ hair.",
-          "correct_answer": "long",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I231",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Wash your hands.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I232",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "ears"
-            },
-            {
-              "id": "w2",
-              "text": "are"
-            },
-            {
-              "id": "w0",
-              "text": "My"
-            },
-            {
-              "id": "w3",
-              "text": "small"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I233",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Pierna",
-          "correct_answer": "Leg",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I234",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Boca' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Leg"
-            },
-            {
-              "id": "o1",
-              "text": "Mouth"
-            },
-            {
-              "id": "o2",
-              "text": "Eye"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I235",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Foot",
-              "right": "Pie"
-            },
-            {
-              "id": "p1",
-              "left": "Arm",
-              "right": "Brazo"
-            },
-            {
-              "id": "p2",
-              "left": "Head",
-              "right": "Cabeza"
-            },
-            {
-              "id": "p3",
-              "left": "Shoulder",
-              "right": "Hombro"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I236",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "My (piernas) ________ are tired.",
-          "correct_answer": "legs",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I237",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Ears my are small\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I238",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "has"
-            },
-            {
-              "id": "w2",
-              "text": "blue"
-            },
-            {
-              "id": "w3",
-              "text": "eyes"
-            },
-            {
-              "id": "w0",
-              "text": "He"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I239",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Pie",
-          "correct_answer": "Foot",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I240",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Brazo' en inglés?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Eye"
-            },
-            {
-              "id": "o3",
-              "text": "Ear"
-            },
-            {
-              "id": "o1",
-              "text": "Arm"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I241",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Arm",
-              "right": "Brazo"
-            },
-            {
-              "id": "p1",
-              "left": "Head",
-              "right": "Cabeza"
-            },
-            {
-              "id": "p2",
-              "left": "Shoulder",
-              "right": "Hombro"
-            },
-            {
-              "id": "p3",
-              "left": "Leg",
-              "right": "Pierna"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I242",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She has (largo) ________ hair.",
-          "correct_answer": "long",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I243",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"He has blue eyes.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I244",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "please"
-            },
-            {
-              "id": "w1",
-              "text": "your"
-            },
-            {
-              "id": "w2",
-              "text": "mouth,"
-            },
-            {
-              "id": "w0",
-              "text": "Open"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I245",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ojo",
-          "correct_answer": "Eye",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I246",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Mano' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Nose"
-            },
-            {
-              "id": "o1",
-              "text": "Hand"
-            },
-            {
-              "id": "o2",
-              "text": "Mouth"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I247",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Head",
-              "right": "Cabeza"
-            },
-            {
-              "id": "p1",
-              "left": "Shoulder",
-              "right": "Hombro"
-            },
-            {
-              "id": "p2",
-              "left": "Leg",
-              "right": "Pierna"
-            },
-            {
-              "id": "p3",
-              "left": "Mouth",
-              "right": "Boca"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I248",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "My (piernas) ________ are tired.",
-          "correct_answer": "legs",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I249",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Your open mouth, please\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I250",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "blonde"
-            },
-            {
-              "id": "w1",
-              "text": "hair"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w0",
-              "text": "Her"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I251",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Cabeza",
-          "correct_answer": "Head",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I252",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Hombro' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Shoulder"
-            },
-            {
-              "id": "o3",
-              "text": "Head"
-            },
-            {
-              "id": "o2",
-              "text": "Foot"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I253",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Shoulder",
-              "right": "Hombro"
-            },
-            {
-              "id": "p1",
-              "left": "Leg",
-              "right": "Pierna"
-            },
-            {
-              "id": "p2",
-              "left": "Mouth",
-              "right": "Boca"
-            },
-            {
-              "id": "p3",
-              "left": "Eye",
-              "right": "Ojo"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I254",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She has (largo) ________ hair.",
-          "correct_answer": "long",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I255",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Her hair is blonde.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I256",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "hands"
-            },
-            {
-              "id": "w0",
-              "text": "Wash"
-            },
-            {
-              "id": "w1",
-              "text": "your"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I257",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Nariz",
-          "correct_answer": "Nose",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I258",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Oreja' en inglés?",
-          "options": [
-            {
-              "id": "o2",
-              "text": "Shoulder"
-            },
-            {
-              "id": "o1",
-              "text": "Ear"
-            },
-            {
-              "id": "o3",
-              "text": "Nose"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I259",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Leg",
-              "right": "Pierna"
-            },
-            {
-              "id": "p1",
-              "left": "Mouth",
-              "right": "Boca"
-            },
-            {
-              "id": "p2",
-              "left": "Eye",
-              "right": "Ojo"
-            },
-            {
-              "id": "p3",
-              "left": "Hand",
-              "right": "Mano"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I260",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "My (piernas) ________ are tired.",
-          "correct_answer": "legs",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I261",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Your wash hands\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I262",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "ears"
-            },
-            {
-              "id": "w3",
-              "text": "small"
-            },
-            {
-              "id": "w2",
-              "text": "are"
-            },
-            {
-              "id": "w0",
-              "text": "My"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I263",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Pierna",
-          "correct_answer": "Leg",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I264",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Boca' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Eye"
-            },
-            {
-              "id": "o2",
-              "text": "Leg"
-            },
-            {
-              "id": "o1",
-              "text": "Mouth"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I265",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Mouth",
-              "right": "Boca"
-            },
-            {
-              "id": "p1",
-              "left": "Eye",
-              "right": "Ojo"
-            },
-            {
-              "id": "p2",
-              "left": "Hand",
-              "right": "Mano"
-            },
-            {
-              "id": "p3",
-              "left": "Nose",
-              "right": "Nariz"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I266",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She has (largo) ________ hair.",
-          "correct_answer": "long",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I267",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"My ears are small.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I268",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w1",
-              "text": "has"
-            },
-            {
-              "id": "w0",
-              "text": "He"
-            },
-            {
-              "id": "w2",
-              "text": "blue"
-            },
-            {
-              "id": "w3",
-              "text": "eyes"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I269",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Pie",
-          "correct_answer": "Foot",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I270",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Brazo' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Ear"
-            },
-            {
-              "id": "o2",
-              "text": "Mouth"
-            },
-            {
-              "id": "o1",
-              "text": "Arm"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I271",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Eye",
-              "right": "Ojo"
-            },
-            {
-              "id": "p1",
-              "left": "Hand",
-              "right": "Mano"
-            },
-            {
-              "id": "p2",
-              "left": "Nose",
-              "right": "Nariz"
-            },
-            {
-              "id": "p3",
-              "left": "Ear",
-              "right": "Oreja"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I272",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "My (piernas) ________ are tired.",
-          "correct_answer": "legs",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I273",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Has he blue eyes\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I274",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "mouth,"
-            },
-            {
-              "id": "w3",
-              "text": "please"
-            },
-            {
-              "id": "w0",
-              "text": "Open"
-            },
-            {
-              "id": "w1",
-              "text": "your"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I275",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Ojo",
-          "correct_answer": "Eye",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I276",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Mano' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Hand"
-            },
-            {
-              "id": "o3",
-              "text": "Leg"
-            },
-            {
-              "id": "o2",
-              "text": "Arm"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I277",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Hand",
-              "right": "Mano"
-            },
-            {
-              "id": "p1",
-              "left": "Nose",
-              "right": "Nariz"
-            },
-            {
-              "id": "p2",
-              "left": "Ear",
-              "right": "Oreja"
-            },
-            {
-              "id": "p3",
-              "left": "Foot",
-              "right": "Pie"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I278",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She has (largo) ________ hair.",
-          "correct_answer": "long",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I279",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Open your mouth, please.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I280",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "blonde"
-            },
-            {
-              "id": "w0",
-              "text": "Her"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w1",
-              "text": "hair"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I281",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Cabeza",
-          "correct_answer": "Head",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I282",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Hombro' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Mouth"
-            },
-            {
-              "id": "o2",
-              "text": "Head"
-            },
-            {
-              "id": "o1",
-              "text": "Shoulder"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I283",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Nose",
-              "right": "Nariz"
-            },
-            {
-              "id": "p1",
-              "left": "Ear",
-              "right": "Oreja"
-            },
-            {
-              "id": "p2",
-              "left": "Foot",
-              "right": "Pie"
-            },
-            {
-              "id": "p3",
-              "left": "Arm",
-              "right": "Brazo"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I284",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "My (piernas) ________ are tired.",
-          "correct_answer": "legs",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I285",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Hair her is blonde\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I286",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "Wash"
-            },
-            {
-              "id": "w2",
-              "text": "hands"
-            },
-            {
-              "id": "w1",
-              "text": "your"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I287",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Nariz",
-          "correct_answer": "Nose",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I288",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Oreja' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Ear"
-            },
-            {
-              "id": "o3",
-              "text": "Leg"
-            },
-            {
-              "id": "o2",
-              "text": "Foot"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I289",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Ear",
-              "right": "Oreja"
-            },
-            {
-              "id": "p1",
-              "left": "Foot",
-              "right": "Pie"
-            },
-            {
-              "id": "p2",
-              "left": "Arm",
-              "right": "Brazo"
-            },
-            {
-              "id": "p3",
-              "left": "Head",
-              "right": "Cabeza"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I290",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "She has (largo) ________ hair.",
-          "correct_answer": "long",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I291",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Wash your hands.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I292",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w2",
-              "text": "are"
-            },
-            {
-              "id": "w3",
-              "text": "small"
-            },
-            {
-              "id": "w0",
-              "text": "My"
-            },
-            {
-              "id": "w1",
-              "text": "ears"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I293",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Pierna",
-          "correct_answer": "Leg",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I294",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Boca' en inglés?",
-          "options": [
-            {
-              "id": "o3",
-              "text": "Eye"
-            },
-            {
-              "id": "o2",
-              "text": "Hand"
-            },
-            {
-              "id": "o1",
-              "text": "Mouth"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I295",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Foot",
-              "right": "Pie"
-            },
-            {
-              "id": "p1",
-              "left": "Arm",
-              "right": "Brazo"
-            },
-            {
-              "id": "p2",
-              "left": "Head",
-              "right": "Cabeza"
-            },
-            {
-              "id": "p3",
-              "left": "Shoulder",
-              "right": "Hombro"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I296",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "My (piernas) ________ are tired.",
-          "correct_answer": "legs",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U28_I297",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Ears my are small\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I298",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
-          "options": [
-            {
-              "id": "w3",
-              "text": "eyes"
-            },
-            {
-              "id": "w1",
-              "text": "has"
-            },
-            {
-              "id": "w0",
-              "text": "He"
-            },
-            {
-              "id": "w2",
-              "text": "blue"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U28_I299",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
-          "stimulus_es": "Pie",
-          "correct_answer": "Foot",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I300",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Brazo' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Arm"
-            },
-            {
-              "id": "o2",
-              "text": "Leg"
-            },
-            {
-              "id": "o3",
-              "text": "Nose"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U28_I301",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
-          "audio_url": "/audio/a1/unit28/more.mp3",
-          "transcript_template": "I need ___ time.",
-          "correct_answer": "more",
-          "mastery_tag": "listening"
-        },
-        {
-          "interaction_id": "U28_I302",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
-          "audio_url": "/audio/a1/unit28/than.mp3",
-          "transcript_template": "This is better ___ that.",
-          "correct_answer": "than",
-          "mastery_tag": "listening"
+          "type": "fill_blanks",
+          "prompt_es": "Según el texto, Tom tiene un dolor de cabeza muy ___ (fuerte = bad).",
+          "correct_answer": "bad",
+          "mastery_tag": "reading",
+          "complexity": 1
         }
       ]
     }
