@@ -158,25 +158,16 @@ export const UNIT_57_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u57-a1_u57_b2_i2",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena: 'Hay tres relojes en la pared'",
-      "questions": [
-        {
-          "question": "are three clocks on the wall There",
-          "options": [
-            "[[There are three clocks on the wall|There are three clocks on the wall]]",
-            "[[are There three clocks on the wall|are There three clocks on the wall]]",
-            "[[wall There are three clocks on the|wall There are three clocks on the]]",
-            "[[There are three clocks on wall the|There are three clocks on wall the]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "There are three clocks on the wall"
+        }]
     },
     "topicName": "syntax"
   },

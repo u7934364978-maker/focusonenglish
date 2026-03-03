@@ -53,25 +53,16 @@ export const UNIT_54_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u54-a1_u54_b1_i3",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena: '¿Cuántas manzanas tienes?'",
-      "questions": [
-        {
-          "question": "many apples do you have How",
-          "options": [
-            "[[How many apples do you have|How many apples do you have]]",
-            "[[many How apples do you have|many How apples do you have]]",
-            "[[have How many apples do you|have How many apples do you]]",
-            "[[How many apples do have you|How many apples do have you]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "How many apples do you have"
+        }]
     },
     "topicName": "syntax"
   },
@@ -294,25 +285,16 @@ export const UNIT_54_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u54-a1_u54_b3_i3",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena: 'Hay mucha gente hoy'",
-      "questions": [
-        {
-          "question": "are a lot of people today There",
-          "options": [
-            "[[There are a lot of people today|There are a lot of people today]]",
-            "[[are There a lot of people today|are There a lot of people today]]",
-            "[[today There are a lot of people|today There are a lot of people]]",
-            "[[There are a lot of today people|There are a lot of today people]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "There are a lot of people today"
+        }]
     },
     "topicName": "syntax"
   },

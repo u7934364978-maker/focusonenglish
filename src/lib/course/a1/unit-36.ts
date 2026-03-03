@@ -102,25 +102,16 @@ export const UNIT_36_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u36-a1_u36_b36_2_i2",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena la frase:",
-      "questions": [
-        {
-          "question": "plays the piano beautifully He",
-          "options": [
-            "[[He plays the piano beautifully|He plays the piano beautifully]]",
-            "[[plays He the piano beautifully|plays He the piano beautifully]]",
-            "[[beautifully He plays the piano|beautifully He plays the piano]]",
-            "[[He plays the beautifully piano|He plays the beautifully piano]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "He plays the piano beautifully"
+        }]
     },
     "topicName": "syntax"
   },

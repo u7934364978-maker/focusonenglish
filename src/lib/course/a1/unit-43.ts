@@ -228,25 +228,16 @@ export const UNIT_43_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u43-a1_u43_b43_3_i1",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena la actividad:",
-      "questions": [
-        {
-          "question": "always take many photos We.",
-          "options": [
-            "[[We always take many photos.|We always take many photos.]]",
-            "[[always We take many photos.|always We take many photos.]]",
-            "[[photos We always take many.|photos We always take many.]]",
-            "[[We always take photos many.|We always take photos many.]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "We always take many photos."
+        }]
     },
     "topicName": "syntax"
   },

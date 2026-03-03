@@ -278,25 +278,16 @@ export const UNIT_35_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u35-a1_u35_b35_3_i3",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena la frase negativa:",
-      "questions": [
-        {
-          "question": "don't play video games They",
-          "options": [
-            "[[They don't play video games|They don't play video games]]",
-            "[[don't They play video games|don't They play video games]]",
-            "[[games They don't play video|games They don't play video]]",
-            "[[They don't play games video|They don't play games video]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "They don't play video games"
+        }]
     },
     "topicName": "syntax"
   },

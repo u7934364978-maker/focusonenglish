@@ -105,25 +105,16 @@ export const UNIT_60_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u60-u60_i4",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
-      "questions": [
-        {
-          "question": "a restaurant Order in",
-          "options": [
-            "[[in a restaurant Order|in a restaurant Order]]",
-            "[[a in restaurant Order|a in restaurant Order]]",
-            "[[Order in a restaurant|Order in a restaurant]]",
-            "[[in a Order restaurant|in a Order restaurant]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "in a restaurant Order"
+        }]
     },
     "topicName": "syntax"
   },
@@ -282,25 +273,16 @@ export const UNIT_60_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u60-u60_i10",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
-      "questions": [
-        {
-          "question": "money payments and Manage",
-          "options": [
-            "[[Manage money payments and|Manage money payments and]]",
-            "[[money Manage payments and|money Manage payments and]]",
-            "[[and Manage money payments|and Manage money payments]]",
-            "[[Manage money and payments|Manage money and payments]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "Manage money payments and"
+        }]
     },
     "topicName": "syntax"
   },
@@ -459,25 +441,16 @@ export const UNIT_60_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u60-u60_i16",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
-      "questions": [
-        {
-          "question": "Talk about shopping food and",
-          "options": [
-            "[[and Talk about shopping food|and Talk about shopping food]]",
-            "[[Talk and about shopping food|Talk and about shopping food]]",
-            "[[food and Talk about shopping|food and Talk about shopping]]",
-            "[[and Talk about food shopping|and Talk about food shopping]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "and Talk about shopping food"
+        }]
     },
     "topicName": "syntax"
   },
@@ -636,25 +609,16 @@ export const UNIT_60_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u60-u60_i22",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
-      "questions": [
-        {
-          "question": "the is This review final",
-          "options": [
-            "[[final the is This review|final the is This review]]",
-            "[[the final is This review|the final is This review]]",
-            "[[review final the is This|review final the is This]]",
-            "[[final the is review This|final the is review This]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "final the is This review"
+        }]
     },
     "topicName": "syntax"
   },
@@ -813,25 +777,16 @@ export const UNIT_60_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u60-u60_i28",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
-      "questions": [
-        {
-          "question": "health Describe issues",
-          "options": [
-            "[[issues health Describe|issues health Describe]]",
-            "[[health issues Describe|health issues Describe]]",
-            "[[Describe issues health|Describe issues health]]",
-            "[[issues Describe health|issues Describe health]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "issues health Describe"
+        }]
     },
     "topicName": "syntax"
   },
@@ -990,25 +945,16 @@ export const UNIT_60_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u60-u60_i34",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
-      "questions": [
-        {
-          "question": "in Order restaurant a",
-          "options": [
-            "[[a in Order restaurant|a in Order restaurant]]",
-            "[[in a Order restaurant|in a Order restaurant]]",
-            "[[restaurant a in Order|restaurant a in Order]]",
-            "[[a in restaurant Order|a in restaurant Order]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "a in Order restaurant"
+        }]
     },
     "topicName": "syntax"
   },
@@ -1167,25 +1113,16 @@ export const UNIT_60_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u60-u60_i40",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
-      "questions": [
-        {
-          "question": "money Manage and payments",
-          "options": [
-            "[[payments money Manage and|payments money Manage and]]",
-            "[[money payments Manage and|money payments Manage and]]",
-            "[[and payments money Manage|and payments money Manage]]",
-            "[[payments money and Manage|payments money and Manage]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "payments money Manage and"
+        }]
     },
     "topicName": "syntax"
   },
@@ -1344,25 +1281,16 @@ export const UNIT_60_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u60-u60_i46",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
-      "questions": [
-        {
-          "question": "Talk about food shopping and",
-          "options": [
-            "[[and Talk about food shopping|and Talk about food shopping]]",
-            "[[Talk and about food shopping|Talk and about food shopping]]",
-            "[[shopping and Talk about food|shopping and Talk about food]]",
-            "[[and Talk about shopping food|and Talk about shopping food]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "and Talk about food shopping"
+        }]
     },
     "topicName": "syntax"
   },
@@ -1521,25 +1449,16 @@ export const UNIT_60_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u60-u60_i52",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
-      "questions": [
-        {
-          "question": "the final is review This",
-          "options": [
-            "[[This the final is review|This the final is review]]",
-            "[[the This final is review|the This final is review]]",
-            "[[review This the final is|review This the final is]]",
-            "[[This the final review is|This the final review is]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "This the final is review"
+        }]
     },
     "topicName": "syntax"
   },
@@ -1698,25 +1617,16 @@ export const UNIT_60_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u60-u60_i58",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
-      "questions": [
-        {
-          "question": "issues health Describe",
-          "options": [
-            "[[Describe issues health|Describe issues health]]",
-            "[[issues Describe health|issues Describe health]]",
-            "[[health Describe issues|health Describe issues]]",
-            "[[Describe health issues|Describe health issues]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "Describe issues health"
+        }]
     },
     "topicName": "syntax"
   },

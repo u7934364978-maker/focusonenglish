@@ -254,25 +254,16 @@ export const UNIT_44_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u44-a1_u44_b44_3_i1",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Pregunta por el clima:",
-      "questions": [
-        {
-          "question": "is the weather like today What?",
-          "options": [
-            "[[What is the weather like today?|What is the weather like today?]]",
-            "[[is What the weather like today?|is What the weather like today?]]",
-            "[[today What is the weather like?|today What is the weather like?]]",
-            "[[What is the weather today like?|What is the weather today like?]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "What is the weather like today?"
+        }]
     },
     "topicName": "syntax"
   },

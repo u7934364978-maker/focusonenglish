@@ -200,25 +200,16 @@ export const UNIT_46_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u46-a1_u46_b46_3_i1",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Pide la contraseña del wifi:",
-      "questions": [
-        {
-          "question": "is the wifi password What?",
-          "options": [
-            "[[What is the wifi password?|What is the wifi password?]]",
-            "[[is What the wifi password?|is What the wifi password?]]",
-            "[[password What is the wifi?|password What is the wifi?]]",
-            "[[What is the password wifi?|What is the password wifi?]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "What is the wifi password?"
+        }]
     },
     "topicName": "syntax"
   },

@@ -53,25 +53,16 @@ export const UNIT_52_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u52-a1_u52_b1_i3",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena: 'Hay tres huevos'",
-      "questions": [
-        {
-          "question": "are three eggs There",
-          "options": [
-            "[[There are three eggs|There are three eggs]]",
-            "[[are There three eggs|are There three eggs]]",
-            "[[eggs There are three|eggs There are three]]",
-            "[[There are eggs three|There are eggs three]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "There are three eggs"
+        }]
     },
     "topicName": "syntax"
   },
@@ -270,25 +261,16 @@ export const UNIT_52_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u52-a1_u52_b3_i3",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena: 'Queremos algo de pan'",
-      "questions": [
-        {
-          "question": "want some bread We",
-          "options": [
-            "[[We want some bread|We want some bread]]",
-            "[[want We some bread|want We some bread]]",
-            "[[bread We want some|bread We want some]]",
-            "[[We want bread some|We want bread some]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "We want some bread"
+        }]
     },
     "topicName": "syntax"
   },

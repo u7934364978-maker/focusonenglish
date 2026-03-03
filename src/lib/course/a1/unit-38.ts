@@ -180,25 +180,16 @@ export const UNIT_38_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u38-a1_u38_b38_2_i3",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena la frase de obligación:",
-      "questions": [
-        {
-          "question": "must clean your room You",
-          "options": [
-            "[[You must clean your room|You must clean your room]]",
-            "[[must You clean your room|must You clean your room]]",
-            "[[room You must clean your|room You must clean your]]",
-            "[[You must clean room your|You must clean room your]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "You must clean your room"
+        }]
     },
     "topicName": "syntax"
   },
@@ -228,25 +219,16 @@ export const UNIT_38_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u38-a1_u38_b38_3_i1",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena la pregunta:",
-      "questions": [
-        {
-          "question": "you have to do the laundry Do?",
-          "options": [
-            "[[Do you have to do the laundry ?|Do you have to do the laundry ?]]",
-            "[[you Do have to do the laundry?|you Do have to do the laundry?]]",
-            "[[laundry Do you have to do the?|laundry Do you have to do the?]]",
-            "[[Do you have to do laundry the?|Do you have to do laundry the?]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "Do you have to do the laundry ?"
+        }]
     },
     "topicName": "syntax"
   },

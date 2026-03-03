@@ -254,25 +254,16 @@ export const UNIT_42_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u42-a1_u42_b42_3_i1",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Compra un billete:",
-      "questions": [
-        {
-          "question": "ticket to Oxford, please A.",
-          "options": [
-            "[[A ticket to Oxford, please.|A ticket to Oxford, please.]]",
-            "[[ticket A to Oxford, please.|ticket A to Oxford, please.]]",
-            "[[please A ticket to Oxford,.|please A ticket to Oxford,.]]",
-            "[[A ticket to please Oxford,.|A ticket to please Oxford,.]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "A ticket to Oxford, please."
+        }]
     },
     "topicName": "syntax"
   },

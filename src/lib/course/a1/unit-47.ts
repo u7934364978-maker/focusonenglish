@@ -228,25 +228,16 @@ export const UNIT_47_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u47-a1_u47_b47_3_i1",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Describe tus vacaciones:",
-      "questions": [
-        {
-          "question": "am sunbathing on the beach I.",
-          "options": [
-            "[[I am sunbathing on the beach.|I am sunbathing on the beach.]]",
-            "[[am I sunbathing on the beach.|am I sunbathing on the beach.]]",
-            "[[beach I am sunbathing on the.|beach I am sunbathing on the.]]",
-            "[[I am sunbathing on beach the.|I am sunbathing on beach the.]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "I am sunbathing on the beach."
+        }]
     },
     "topicName": "syntax"
   },

@@ -158,25 +158,16 @@ export const UNIT_56_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u56-a1_u56_b2_i2",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena: 'La taza está sobre la encimera'",
-      "questions": [
-        {
-          "question": "cup is on the counter The",
-          "options": [
-            "[[The cup is on the counter|The cup is on the counter]]",
-            "[[cup The is on the counter|cup The is on the counter]]",
-            "[[counter The cup is on the|counter The cup is on the]]",
-            "[[The cup is on counter the|The cup is on counter the]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "The cup is on the counter"
+        }]
     },
     "topicName": "syntax"
   },

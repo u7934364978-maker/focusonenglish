@@ -105,25 +105,16 @@ export const UNIT_50_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u50-u50_i4",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
-      "questions": [
-        {
-          "question": "for a Prepare holiday",
-          "options": [
-            "[[holiday for a Prepare|holiday for a Prepare]]",
-            "[[for holiday a Prepare|for holiday a Prepare]]",
-            "[[Prepare holiday for a|Prepare holiday for a]]",
-            "[[holiday for Prepare a|holiday for Prepare a]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "holiday for a Prepare"
+        }]
     },
     "topicName": "syntax"
   },
@@ -282,25 +273,16 @@ export const UNIT_50_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u50-u50_i10",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
-      "questions": [
-        {
-          "question": "five This a module is review of",
-          "options": [
-            "[[of five This a module is review|of five This a module is review]]",
-            "[[five of This a module is review|five of This a module is review]]",
-            "[[review of five This a module is|review of five This a module is]]",
-            "[[of five This a module review is|of five This a module review is]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "of five This a module is review"
+        }]
     },
     "topicName": "syntax"
   },
@@ -459,25 +441,16 @@ export const UNIT_50_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u50-u50_i16",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
-      "questions": [
-        {
-          "question": "travel and about transport Talk",
-          "options": [
-            "[[Talk travel and about transport|Talk travel and about transport]]",
-            "[[travel Talk and about transport|travel Talk and about transport]]",
-            "[[transport Talk travel and about|transport Talk travel and about]]",
-            "[[Talk travel and transport about|Talk travel and transport about]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "Talk travel and about transport"
+        }]
     },
     "topicName": "syntax"
   },
@@ -636,25 +609,16 @@ export const UNIT_50_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u50-u50_i22",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
-      "questions": [
-        {
-          "question": "weather Describe and seasons the",
-          "options": [
-            "[[the weather Describe and seasons|the weather Describe and seasons]]",
-            "[[weather the Describe and seasons|weather the Describe and seasons]]",
-            "[[seasons the weather Describe and|seasons the weather Describe and]]",
-            "[[the weather Describe seasons and|the weather Describe seasons and]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "the weather Describe and seasons"
+        }]
     },
     "topicName": "syntax"
   },
@@ -813,25 +777,16 @@ export const UNIT_50_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u50-u50_i28",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
-      "questions": [
-        {
-          "question": "room a hotel Book",
-          "options": [
-            "[[Book room a hotel|Book room a hotel]]",
-            "[[room Book a hotel|room Book a hotel]]",
-            "[[hotel Book room a|hotel Book room a]]",
-            "[[Book room hotel a|Book room hotel a]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "Book room a hotel"
+        }]
     },
     "topicName": "syntax"
   },
@@ -990,25 +945,16 @@ export const UNIT_50_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u50-u50_i34",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
-      "questions": [
-        {
-          "question": "for holiday a Prepare",
-          "options": [
-            "[[Prepare for holiday a|Prepare for holiday a]]",
-            "[[for Prepare holiday a|for Prepare holiday a]]",
-            "[[a Prepare for holiday|a Prepare for holiday]]",
-            "[[Prepare for a holiday|Prepare for a holiday]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "Prepare for holiday a"
+        }]
     },
     "topicName": "syntax"
   },
@@ -1167,25 +1113,16 @@ export const UNIT_50_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u50-u50_i40",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
-      "questions": [
-        {
-          "question": "is five of review This a module",
-          "options": [
-            "[[module is five of review This a|module is five of review This a]]",
-            "[[is module five of review This a|is module five of review This a]]",
-            "[[a module is five of review This|a module is five of review This]]",
-            "[[module is five of review a This|module is five of review a This]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "module is five of review This a"
+        }]
     },
     "topicName": "syntax"
   },
@@ -1344,25 +1281,16 @@ export const UNIT_50_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u50-u50_i46",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
-      "questions": [
-        {
-          "question": "Talk travel transport and about",
-          "options": [
-            "[[about Talk travel transport and|about Talk travel transport and]]",
-            "[[Talk about travel transport and|Talk about travel transport and]]",
-            "[[and about Talk travel transport|and about Talk travel transport]]",
-            "[[about Talk travel and transport|about Talk travel and transport]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "about Talk travel transport and"
+        }]
     },
     "topicName": "syntax"
   },
@@ -1521,25 +1449,16 @@ export const UNIT_50_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u50-u50_i52",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
-      "questions": [
-        {
-          "question": "the seasons Describe and weather",
-          "options": [
-            "[[weather the seasons Describe and|weather the seasons Describe and]]",
-            "[[the weather seasons Describe and|the weather seasons Describe and]]",
-            "[[and weather the seasons Describe|and weather the seasons Describe]]",
-            "[[weather the seasons and Describe|weather the seasons and Describe]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "weather the seasons Describe and"
+        }]
     },
     "topicName": "syntax"
   },
@@ -1698,25 +1617,16 @@ export const UNIT_50_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u50-u50_i58",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
-      "questions": [
-        {
-          "question": "Book room a hotel",
-          "options": [
-            "[[hotel Book room a|hotel Book room a]]",
-            "[[Book hotel room a|Book hotel room a]]",
-            "[[a hotel Book room|a hotel Book room]]",
-            "[[hotel Book a room|hotel Book a room]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "hotel Book room a"
+        }]
     },
     "topicName": "syntax"
   },

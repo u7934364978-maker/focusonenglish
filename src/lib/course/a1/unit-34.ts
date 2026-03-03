@@ -121,25 +121,16 @@ export const UNIT_34_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u34-a1_u34_b34_2_i2",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena la frase con 'and':",
-      "questions": [
-        {
-          "question": "is tall and beautiful She",
-          "options": [
-            "[[She is tall and beautiful|She is tall and beautiful]]",
-            "[[is She tall and beautiful|is She tall and beautiful]]",
-            "[[beautiful She is tall and|beautiful She is tall and]]",
-            "[[She is tall beautiful and|She is tall beautiful and]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "She is tall and beautiful"
+        }]
     },
     "topicName": "syntax"
   },
@@ -243,25 +234,16 @@ export const UNIT_34_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u34-a1_u34_b34_3_i3",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena la frase:",
-      "questions": [
-        {
-          "question": "is tired because he is at work He",
-          "options": [
-            "[[He is tired because he is at work|He is tired because he is at work]]",
-            "[[is He tired because he is at work|is He tired because he is at work]]",
-            "[[work He is tired because he is at|work He is tired because he is at]]",
-            "[[He is tired because he is work at|He is tired because he is work at]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "He is tired because he is at work"
+        }]
     },
     "topicName": "syntax"
   },

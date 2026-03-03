@@ -158,25 +158,16 @@ export const UNIT_55_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u55-a1_u55_b2_i2",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena: 'Necesito una talla pequeña (S)'",
-      "questions": [
-        {
-          "question": "need a small size I",
-          "options": [
-            "[[I need a small size|I need a small size]]",
-            "[[need I a small size|need I a small size]]",
-            "[[size I need a small|size I need a small]]",
-            "[[I need a size small|I need a size small]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "I need a small size"
+        }]
     },
     "topicName": "syntax"
   },

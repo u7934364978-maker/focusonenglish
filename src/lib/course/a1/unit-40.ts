@@ -105,25 +105,16 @@ export const UNIT_40_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u40-u40_i4",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
-      "questions": [
-        {
-          "question": "Connect 'but', 'and', sentences and 'because' with",
-          "options": [
-            "[[with Connect 'but', 'and', sentences and 'because'|with Connect 'but', 'and', sentences and 'because']]",
-            "[[Connect with 'but', 'and', sentences and 'because'|Connect with 'but', 'and', sentences and 'because']]",
-            "[['because' with Connect 'but', 'and', sentences and|'because' with Connect 'but', 'and', sentences and]]",
-            "[[with Connect 'but', 'and', sentences 'because' and|with Connect 'but', 'and', sentences 'because' and]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "with Connect 'but', 'and', sentences and 'because'"
+        }]
     },
     "topicName": "syntax"
   },
@@ -282,25 +273,16 @@ export const UNIT_40_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u40-u40_i10",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
-      "questions": [
-        {
-          "question": "module a is review four This of",
-          "options": [
-            "[[of module a is review four This|of module a is review four This]]",
-            "[[module of a is review four This|module of a is review four This]]",
-            "[[This of module a is review four|This of module a is review four]]",
-            "[[of module a is review This four|of module a is review This four]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "of module a is review four This"
+        }]
     },
     "topicName": "syntax"
   },
@@ -459,25 +441,16 @@ export const UNIT_40_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u40-u40_i16",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
-      "questions": [
-        {
-          "question": "Use adverbs frequency of",
-          "options": [
-            "[[of Use adverbs frequency|of Use adverbs frequency]]",
-            "[[Use of adverbs frequency|Use of adverbs frequency]]",
-            "[[frequency of Use adverbs|frequency of Use adverbs]]",
-            "[[of Use frequency adverbs|of Use frequency adverbs]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "of Use adverbs frequency"
+        }]
     },
     "topicName": "syntax"
   },
@@ -636,25 +609,16 @@ export const UNIT_40_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u40-u40_i22",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
-      "questions": [
-        {
-          "question": "about Talk skills abilities your and",
-          "options": [
-            "[[and about Talk skills abilities your|and about Talk skills abilities your]]",
-            "[[about and Talk skills abilities your|about and Talk skills abilities your]]",
-            "[[your and about Talk skills abilities|your and about Talk skills abilities]]",
-            "[[and about Talk skills your abilities|and about Talk skills your abilities]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "and about Talk skills abilities your"
+        }]
     },
     "topicName": "syntax"
   },
@@ -813,25 +777,16 @@ export const UNIT_40_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u40-u40_i28",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
-      "questions": [
-        {
-          "question": "Ask for permission politely",
-          "options": [
-            "[[politely Ask for permission|politely Ask for permission]]",
-            "[[Ask politely for permission|Ask politely for permission]]",
-            "[[permission politely Ask for|permission politely Ask for]]",
-            "[[politely Ask permission for|politely Ask permission for]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "politely Ask for permission"
+        }]
     },
     "topicName": "syntax"
   },
@@ -990,25 +945,16 @@ export const UNIT_40_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u40-u40_i34",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
-      "questions": [
-        {
-          "question": "'because' sentences Connect and 'but', with 'and',",
-          "options": [
-            "[['and', 'because' sentences Connect and 'but', with|'and', 'because' sentences Connect and 'but', with]]",
-            "[['because' 'and', sentences Connect and 'but', with|'because' 'and', sentences Connect and 'but', with]]",
-            "[[with 'and', 'because' sentences Connect and 'but',|with 'and', 'because' sentences Connect and 'but',]]",
-            "[['and', 'because' sentences Connect and with 'but',|'and', 'because' sentences Connect and with 'but',]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "'and', 'because' sentences Connect and 'but', with"
+        }]
     },
     "topicName": "syntax"
   },
@@ -1167,25 +1113,16 @@ export const UNIT_40_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u40-u40_i40",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
-      "questions": [
-        {
-          "question": "review This a four is module of",
-          "options": [
-            "[[of review This a four is module|of review This a four is module]]",
-            "[[review of This a four is module|review of This a four is module]]",
-            "[[module of review This a four is|module of review This a four is]]",
-            "[[of review This a four module is|of review This a four module is]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "of review This a four is module"
+        }]
     },
     "topicName": "syntax"
   },
@@ -1344,25 +1281,16 @@ export const UNIT_40_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u40-u40_i46",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
-      "questions": [
-        {
-          "question": "of adverbs frequency Use",
-          "options": [
-            "[[Use of adverbs frequency|Use of adverbs frequency]]",
-            "[[of Use adverbs frequency|of Use adverbs frequency]]",
-            "[[frequency Use of adverbs|frequency Use of adverbs]]",
-            "[[Use of frequency adverbs|Use of frequency adverbs]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "Use of adverbs frequency"
+        }]
     },
     "topicName": "syntax"
   },
@@ -1521,25 +1449,16 @@ export const UNIT_40_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u40-u40_i52",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
-      "questions": [
-        {
-          "question": "abilities skills about and your Talk",
-          "options": [
-            "[[Talk abilities skills about and your|Talk abilities skills about and your]]",
-            "[[abilities Talk skills about and your|abilities Talk skills about and your]]",
-            "[[your Talk abilities skills about and|your Talk abilities skills about and]]",
-            "[[Talk abilities skills about your and|Talk abilities skills about your and]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "Talk abilities skills about and your"
+        }]
     },
     "topicName": "syntax"
   },
@@ -1698,25 +1617,16 @@ export const UNIT_40_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u40-u40_i58",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena las palabras para formar una frase correcta:",
-      "questions": [
-        {
-          "question": "politely for permission Ask",
-          "options": [
-            "[[Ask politely for permission|Ask politely for permission]]",
-            "[[politely Ask for permission|politely Ask for permission]]",
-            "[[permission Ask politely for|permission Ask politely for]]",
-            "[[Ask politely permission for|Ask politely permission for]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "Ask politely for permission"
+        }]
     },
     "topicName": "syntax"
   },

@@ -182,25 +182,16 @@ export const UNIT_51_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u51-a1_u51_b2_i2",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena la frase: 'Está en el pasillo 5'",
-      "questions": [
-        {
-          "question": "is in aisle five It",
-          "options": [
-            "[[It is in aisle five|It is in aisle five]]",
-            "[[is It in aisle five|is It in aisle five]]",
-            "[[five It is in aisle|five It is in aisle]]",
-            "[[It is in five aisle|It is in five aisle]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "It is in aisle five"
+        }]
     },
     "topicName": "syntax"
   },
@@ -355,25 +346,16 @@ export const UNIT_51_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u51-a1_u51_b3_i4",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena: 'Paga en la caja'",
-      "questions": [
-        {
-          "question": "at the checkout Pay",
-          "options": [
-            "[[Pay at the checkout|Pay at the checkout]]",
-            "[[at Pay the checkout|at Pay the checkout]]",
-            "[[checkout Pay at the|checkout Pay at the]]",
-            "[[Pay at checkout the|Pay at checkout the]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "Pay at the checkout"
+        }]
     },
     "topicName": "syntax"
   },

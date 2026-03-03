@@ -158,25 +158,16 @@ export const UNIT_59_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u59-a1_u59_b2_i2",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena: 'Ella ama cocinar para sus amigos'",
-      "questions": [
-        {
-          "question": "loves cooking for her friends She",
-          "options": [
-            "[[She loves cooking for her friends|She loves cooking for her friends]]",
-            "[[loves She cooking for her friends|loves She cooking for her friends]]",
-            "[[friends She loves cooking for her|friends She loves cooking for her]]",
-            "[[She loves cooking for friends her|She loves cooking for friends her]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "She loves cooking for her friends"
+        }]
     },
     "topicName": "syntax"
   },

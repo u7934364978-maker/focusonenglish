@@ -81,25 +81,16 @@ export const UNIT_31_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u31-a1_u31_b31_1_i3",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena la frase afirmativa:",
-      "questions": [
-        {
-          "question": "can play the piano I",
-          "options": [
-            "[[I can play the piano|I can play the piano]]",
-            "[[can I play the piano|can I play the piano]]",
-            "[[piano I can play the|piano I can play the]]",
-            "[[I can play piano the|I can play piano the]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "I can play the piano"
+        }]
     },
     "topicName": "syntax"
   },
@@ -205,25 +196,16 @@ export const UNIT_31_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u31-a1_u31_b31_2_i3",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena la pregunta:",
-      "questions": [
-        {
-          "question": "you help me Can?",
-          "options": [
-            "[[Can you help me ?|Can you help me ?]]",
-            "[[you Can help me?|you Can help me?]]",
-            "[[me Can you help?|me Can you help?]]",
-            "[[Can you me help?|Can you me help?]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "Can you help me ?"
+        }]
     },
     "topicName": "syntax"
   },

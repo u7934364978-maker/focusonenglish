@@ -254,25 +254,16 @@ export const UNIT_45_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u45-a1_u45_b45_3_i1",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Describe tu estación favorita:",
-      "questions": [
-        {
-          "question": "favorite season is autumn My.",
-          "options": [
-            "[[My favorite season is autumn.|My favorite season is autumn.]]",
-            "[[favorite My season is autumn.|favorite My season is autumn.]]",
-            "[[autumn My favorite season is.|autumn My favorite season is.]]",
-            "[[My favorite season autumn is.|My favorite season autumn is.]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "My favorite season is autumn."
+        }]
     },
     "topicName": "syntax"
   },

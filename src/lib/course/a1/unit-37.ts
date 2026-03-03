@@ -230,25 +230,16 @@ export const UNIT_37_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u37-a1_u37_b37_3_i1",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena la pregunta:",
-      "questions": [
-        {
-          "question": "can sing in your family Who?",
-          "options": [
-            "[[Who can sing in your family ?|Who can sing in your family ?]]",
-            "[[can Who sing in your family?|can Who sing in your family?]]",
-            "[[family Who can sing in your?|family Who can sing in your?]]",
-            "[[Who can sing in family your?|Who can sing in family your?]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "Who can sing in your family ?"
+        }]
     },
     "topicName": "syntax"
   },

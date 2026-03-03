@@ -27,25 +27,16 @@ export const UNIT_53_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u53-a1_u53_b1_i3",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena: 'Necesitamos algo de queso'",
-      "questions": [
-        {
-          "question": "need some cheese We",
-          "options": [
-            "[[We need some cheese|We need some cheese]]",
-            "[[need We some cheese|need We some cheese]]",
-            "[[cheese We need some|cheese We need some]]",
-            "[[We need cheese some|We need cheese some]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "We need some cheese"
+        }]
     },
     "topicName": "syntax"
   },
@@ -242,25 +233,16 @@ export const UNIT_53_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u53-a1_u53_b3_i3",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena: '¿Tienes algún plátano?'",
-      "questions": [
-        {
-          "question": "you have any bananas Do",
-          "options": [
-            "[[Do you have any bananas|Do you have any bananas]]",
-            "[[you Do have any bananas|you Do have any bananas]]",
-            "[[bananas Do you have any|bananas Do you have any]]",
-            "[[Do you have bananas any|Do you have bananas any]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "Do you have any bananas"
+        }]
     },
     "topicName": "syntax"
   },

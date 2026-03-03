@@ -228,25 +228,16 @@ export const UNIT_41_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u41-a1_u41_b41_3_i1",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Pregunta por la puerta de embarque:",
-      "questions": [
-        {
-          "question": "is gate number ten Where?",
-          "options": [
-            "[[Where is gate number ten?|Where is gate number ten?]]",
-            "[[is Where gate number ten?|is Where gate number ten?]]",
-            "[[ten Where is gate number?|ten Where is gate number?]]",
-            "[[Where is gate ten number?|Where is gate ten number?]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "Where is gate number ten?"
+        }]
     },
     "topicName": "syntax"
   },

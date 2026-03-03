@@ -158,25 +158,16 @@ export const UNIT_58_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u58-a1_u58_b2_i2",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena: 'Nosotros almorzamos a las 1 pm'",
-      "questions": [
-        {
-          "question": "have lunch at 1 pm We",
-          "options": [
-            "[[We have lunch at 1 pm|We have lunch at 1 pm]]",
-            "[[have We lunch at 1 pm|have We lunch at 1 pm]]",
-            "[[pm We have lunch at 1|pm We have lunch at 1]]",
-            "[[We have lunch at pm 1|We have lunch at pm 1]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "We have lunch at 1 pm"
+        }]
     },
     "topicName": "syntax"
   },

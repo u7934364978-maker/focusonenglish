@@ -182,25 +182,16 @@ export const UNIT_49_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u49-a1_u49_b2_i2",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena la frase: 'Necesito mi bañador'",
-      "questions": [
-        {
-          "question": "need my swimsuit I",
-          "options": [
-            "[[I need my swimsuit|I need my swimsuit]]",
-            "[[need I my swimsuit|need I my swimsuit]]",
-            "[[swimsuit I need my|swimsuit I need my]]",
-            "[[I need swimsuit my|I need swimsuit my]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "I need my swimsuit"
+        }]
     },
     "topicName": "syntax"
   },

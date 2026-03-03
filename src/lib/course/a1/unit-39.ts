@@ -150,25 +150,16 @@ export const UNIT_39_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u39-a1_u39_b39_3_i1",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Ordena la pregunta:",
-      "questions": [
-        {
-          "question": "you at the cinema Were?",
-          "options": [
-            "[[Were you at the cinema ?|Were you at the cinema ?]]",
-            "[[you Were at the cinema?|you Were at the cinema?]]",
-            "[[cinema Were you at the?|cinema Were you at the?]]",
-            "[[Were you at cinema the?|Were you at cinema the?]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "Were you at the cinema ?"
+        }]
     },
     "topicName": "syntax"
   },

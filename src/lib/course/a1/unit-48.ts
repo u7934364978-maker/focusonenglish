@@ -230,25 +230,16 @@ export const UNIT_48_EXERCISES: Exercise[] = [
   },
   {
     "id": "a1-u48-a1_u48_b48_3_i1",
-    "type": "multiple-choice",
+    "type": "sentence-building",
     "level": "A1",
     "topic": "syntax",
     "difficulty": "medium",
     "content": {
       "title": "Reorder Words",
       "instructions": "Pregunta por el inicio del tour:",
-      "questions": [
-        {
-          "question": "time does the tour start What?",
-          "options": [
-            "[[What time does the tour start?|What time does the tour start?]]",
-            "[[time What does the tour start?|time What does the tour start?]]",
-            "[[start What time does the tour?|start What time does the tour?]]",
-            "[[What time does the start tour?|What time does the start tour?]]"
-          ],
-          "correctAnswer": 0
-        }
-      ]
+      "questions": [{
+          "question": "What time does the tour start?"
+        }]
     },
     "topicName": "syntax"
   },
