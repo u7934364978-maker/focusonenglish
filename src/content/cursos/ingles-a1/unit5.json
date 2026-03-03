@@ -1,56 +1,694 @@
 {
   "course": {
-    "unit_id": "unit5",
-    "unit_title": "Travel and Places",
-    "level": "A1",
-    "total_duration_minutes": 60,
     "language_ui": "es-ES",
-    "target_language": "en"
+    "target_language": "en",
+    "level": "A1",
+    "unit_id": "U5",
+    "unit_title": "Action Verbs & Simple Present",
+    "total_duration_minutes": 120
   },
   "learning_outcomes": [
-    "Identify travel items visually",
-    "Recognize common travel locations",
-    "Associate travel concepts with English words without translation"
+    "Identify and use common action verbs in English",
+    "Form affirmative sentences in Simple Present with I/You/We/They",
+    "Apply the third person singular -s rule (He/She/It)",
+    "Read and understand a short text about daily routines"
   ],
   "blocks": [
     {
       "block_id": "B1",
-      "title": "Travel Essentials",
+      "title": "Action Verbs Vocabulary",
       "content": [
         {
-          "interaction_id": "A1_U5_B1_I1",
+          "interaction_id": "U5_I1",
           "type": "matching",
-          "prompt_es": "Une la imagen con el objeto de viaje:",
+          "prompt_es": "Une los verbos con su traducción:",
           "pairs": [
-            {
-              "id": "p1",
-              "left": "",
-              "right": "Suitcase",
-              "left_image": "https://images.pexels.com/photos/3370153/pexels-photo-3370153.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
-            },
-            {
-              "id": "p2",
-              "left": "",
-              "right": "Passport",
-              "left_image": "https://images.pexels.com/photos/385998/pexels-photo-385998.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
-            },
-            {
-              "id": "p3",
-              "left": "",
-              "right": "Map",
-              "left_image": "https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
-            },
-            {
-              "id": "p4",
-              "left": "",
-              "right": "Ticket",
-              "left_image": "https://images.pexels.com/photos/157520/pexels-photo-157520.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
-            }
+            { "id": "p1", "left": "[[Work|Trabajar]]", "right": "Comer" },
+            { "id": "p2", "left": "[[Study|Estudiar]]", "right": "Dormir" },
+            { "id": "p3", "left": "[[Eat|Comer]]", "right": "Trabajar" },
+            { "id": "p4", "left": "[[Sleep|Dormir]]", "right": "Estudiar" }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary:travel",
-          "concept_tags": ["vocabulary", "travel"],
+          "correct_answer": { "p1": "p3", "p2": "p4", "p3": "p1", "p4": "p2" },
+          "mastery_tag": "vocabulary",
           "complexity": 1
+        },
+        {
+          "interaction_id": "U5_I2",
+          "type": "matching",
+          "prompt_es": "Une los verbos con su traducción:",
+          "pairs": [
+            { "id": "p1", "left": "[[Drink|Beber]]", "right": "Jugar" },
+            { "id": "p2", "left": "[[Play|Jugar]]", "right": "Escribir" },
+            { "id": "p3", "left": "[[Read|Leer]]", "right": "Beber" },
+            { "id": "p4", "left": "[[Write|Escribir]]", "right": "Leer" }
+          ],
+          "correct_answer": { "p1": "p3", "p2": "p1", "p3": "p4", "p4": "p2" },
+          "mastery_tag": "vocabulary",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U5_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '[[eat|comer]]' en [[English|inglés]]?",
+          "options": [
+            { "id": "o1", "text": "[[eat|comer]]" },
+            { "id": "o2", "text": "[[drink|beber]]" },
+            { "id": "o3", "text": "[[sleep|dormir]]" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U5_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '[[work|trabajar]]' en [[English|inglés]]?",
+          "options": [
+            { "id": "o1", "text": "[[work|trabajar]]" },
+            { "id": "o2", "text": "[[play|jugar]]" },
+            { "id": "o3", "text": "[[study|estudiar]]" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U5_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '[[sleep|dormir]]' en [[English|inglés]]?",
+          "options": [
+            { "id": "o1", "text": "[[eat|comer]]" },
+            { "id": "o2", "text": "[[play|jugar]]" },
+            { "id": "o3", "text": "[[sleep|dormir]]" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U5_I6",
+          "type": "transformation",
+          "prompt_es": "Completa con el verbo correcto: 'Yo ___ [[English|inglés]] cada día.' ([[study|estudiar]])",
+          "stimulus_en": "I ___ English every day.",
+          "correct_answer": "study",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U5_I7",
+          "type": "transformation",
+          "prompt_es": "Completa: '[[They|Ellos]] ___ [[football|fútbol]].' ([[play|jugar]])",
+          "stimulus_en": "They ___ football.",
+          "correct_answer": "play",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U5_I8",
+          "type": "fill_blank",
+          "prompt_es": "Completa: '[[I|Yo]] ___ [[coffee|café]] every [[morning|mañana]].'",
+          "stimulus_en": "I ___ coffee every morning.",
+          "correct_answer": "drink",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U5_I9",
+          "type": "true_false",
+          "prompt_es": "¿'[[Sleep|Dormir]]' significa '[[play|jugar]]'?",
+          "correct_answer": false,
+          "mastery_tag": "vocabulary",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U5_I10",
+          "type": "true_false",
+          "prompt_es": "¿'[[Read|Leer]]' significa 'leer'?",
+          "correct_answer": true,
+          "mastery_tag": "vocabulary",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U5_I11",
+          "type": "sentence_building",
+          "prompt_es": "Ordena la frase: 'Yo trabajo cada día.'",
+          "words": [
+            { "id": "w1", "text": "[[work|trabajo]]" },
+            { "id": "w2", "text": "[[I|Yo]]" },
+            { "id": "w3", "text": "[[every|cada]]" },
+            { "id": "w4", "text": "[[day|día]]" }
+          ],
+          "correct_answer": ["w2", "w1", "w3", "w4"],
+          "mastery_tag": "syntax",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U5_I12",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Yo estudio inglés.'",
+          "stimulus_es": "Yo estudio inglés.",
+          "correct_answer": "I study English.",
+          "mastery_tag": "vocabulary",
+          "complexity": 2
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Simple Present: I / You / We / They",
+      "content": [
+        {
+          "interaction_id": "U5_I13",
+          "type": "transformation",
+          "prompt_es": "Completa: '[[You|Tú]] ___ [[English|inglés]] every [[day|día]].' ([[study|estudiar]])",
+          "stimulus_en": "You ___ English every day.",
+          "correct_answer": "study",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U5_I14",
+          "type": "transformation",
+          "prompt_es": "Completa: '[[We|Nosotros]] ___ [[at home|en casa]].' ([[work|trabajar]])",
+          "stimulus_en": "We ___ at home.",
+          "correct_answer": "work",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U5_I15",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma correcta con '[[I|yo]]'?",
+          "options": [
+            { "id": "o1", "text": "[[I|Yo]] [[eat|como]]" },
+            { "id": "o2", "text": "[[I|Yo]] [[eats|como]]" },
+            { "id": "o3", "text": "[[I|Yo]] [[eating|comiendo]]" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U5_I16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma correcta con '[[You|tú]]'?",
+          "options": [
+            { "id": "o1", "text": "[[You|Tú]] [[studies|estudias]]" },
+            { "id": "o2", "text": "[[You|Tú]] [[study|estudias]]" },
+            { "id": "o3", "text": "[[You|Tú]] [[studys|estudias]]" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U5_I17",
+          "type": "sentence_building",
+          "prompt_es": "Ordena la frase: 'Nosotros comemos arroz cada día.'",
+          "words": [
+            { "id": "w1", "text": "[[rice|arroz]]" },
+            { "id": "w2", "text": "[[eat|comemos]]" },
+            { "id": "w3", "text": "[[We|Nosotros]]" },
+            { "id": "w4", "text": "[[every|cada]]" },
+            { "id": "w5", "text": "[[day|día]]" }
+          ],
+          "correct_answer": ["w3", "w2", "w1", "w4", "w5"],
+          "mastery_tag": "syntax",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U5_I18",
+          "type": "sentence_building",
+          "prompt_es": "Ordena la frase: 'Ellos juegan fútbol los domingos.'",
+          "words": [
+            { "id": "w1", "text": "[[play|juegan]]" },
+            { "id": "w2", "text": "[[football|fútbol]]" },
+            { "id": "w3", "text": "[[They|Ellos]]" },
+            { "id": "w4", "text": "[[on|los]]" },
+            { "id": "w5", "text": "[[Sundays|domingos]]" }
+          ],
+          "correct_answer": ["w3", "w1", "w2", "w4", "w5"],
+          "mastery_tag": "syntax",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U5_I19",
+          "type": "true_false",
+          "prompt_es": "¿'[[I|Yo]] [[work|trabajo]]' es correcto en [[Simple Present|Presente Simple]]?",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U5_I20",
+          "type": "true_false",
+          "prompt_es": "¿'[[We|Nosotros]] [[works|trabajamos]]' es correcto en [[Simple Present|Presente Simple]]?",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U5_I21",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma correcta de '[[play|jugar]]' con '[[You|tú]]'?",
+          "options": [
+            { "id": "o1", "text": "[[You|Tú]] [[plays|juegas]]" },
+            { "id": "o2", "text": "[[You|Tú]] [[playes|juegas]]" },
+            { "id": "o3", "text": "[[You|Tú]] [[play|juegas]]" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U5_I22",
+          "type": "transformation",
+          "prompt_es": "Completa: '[[They|Ellos]] ___ [[water|agua]].' ([[drink|beber]])",
+          "stimulus_en": "They ___ water.",
+          "correct_answer": "drink",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U5_I23",
+          "type": "fill_blank",
+          "prompt_es": "Completa: '[[I|Yo]] ___ [[English|inglés]].' ([[study|estudiar]])",
+          "stimulus_en": "I ___ English.",
+          "correct_answer": "study",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U5_I24",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Ellos trabajan aquí.'",
+          "stimulus_es": "Ellos trabajan aquí.",
+          "correct_answer": "They work here.",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Third Person Singular: He / She / It",
+      "content": [
+        {
+          "interaction_id": "U5_I25",
+          "type": "transformation",
+          "prompt_es": "Completa: '[[She|Ella]] ___ [[English|inglés]].' ([[study|estudiar]] → He/She)",
+          "stimulus_en": "She ___ English.",
+          "correct_answer": "studies",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U5_I26",
+          "type": "transformation",
+          "prompt_es": "Completa: '[[He|Él]] ___ [[football|fútbol]].' ([[play|jugar]] → He/She)",
+          "stimulus_en": "He ___ football.",
+          "correct_answer": "plays",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U5_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcto con '[[He|él]]'?",
+          "options": [
+            { "id": "o1", "text": "[[He|Él]] [[work|trabaja]]" },
+            { "id": "o2", "text": "[[He|Él]] [[works|trabaja]]" },
+            { "id": "o3", "text": "[[He|Él]] [[working|trabajando]]" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U5_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcto con '[[She|ella]]'?",
+          "options": [
+            { "id": "o1", "text": "[[She|Ella]] [[eats|come]]" },
+            { "id": "o2", "text": "[[She|Ella]] [[eat|come]]" },
+            { "id": "o3", "text": "[[She|Ella]] [[eating|comiendo]]" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U5_I29",
+          "type": "transformation",
+          "prompt_es": "Completa: '[[She|Ella]] ___ [[coffee|café]].' ([[drink|beber]] → He/She)",
+          "stimulus_en": "She ___ coffee.",
+          "correct_answer": "drinks",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U5_I30",
+          "type": "sentence_building",
+          "prompt_es": "Ordena la frase: 'Él bebe agua cada día.'",
+          "words": [
+            { "id": "w1", "text": "[[drinks|bebe]]" },
+            { "id": "w2", "text": "[[water|agua]]" },
+            { "id": "w3", "text": "[[He|Él]]" },
+            { "id": "w4", "text": "[[every|cada]]" },
+            { "id": "w5", "text": "[[day|día]]" }
+          ],
+          "correct_answer": ["w3", "w1", "w2", "w4", "w5"],
+          "mastery_tag": "syntax",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U5_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma de '[[study|estudiar]]' con [[He|él]] / [[She|ella]]?",
+          "options": [
+            { "id": "o1", "text": "[[studys|estudia]]" },
+            { "id": "o2", "text": "[[studyes|estudia]]" },
+            { "id": "o3", "text": "[[studies|estudia]]" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U5_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma de '[[go|ir]]' con [[He|él]] / [[She|ella]]?",
+          "options": [
+            { "id": "o1", "text": "[[gos|va]]" },
+            { "id": "o2", "text": "[[goies|va]]" },
+            { "id": "o3", "text": "[[goes|va]]" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U5_I33",
+          "type": "transformation",
+          "prompt_es": "Completa: '[[She|Ella]] ___ [[to school|al colegio]].' ([[go|ir]] → He/She)",
+          "stimulus_en": "She ___ to school.",
+          "correct_answer": "goes",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U5_I34",
+          "type": "fill_blank",
+          "prompt_es": "Completa: '[[He|Él]] ___ [[a lot|mucho]].' ([[read|leer]] → He/She)",
+          "stimulus_en": "He ___ a lot.",
+          "correct_answer": "reads",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U5_I35",
+          "type": "true_false",
+          "prompt_es": "¿'[[He|Él]] [[eat|come]]' es correcto en [[Simple Present|Presente Simple]]?",
+          "correct_answer": false,
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U5_I36",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Ella trabaja aquí.'",
+          "stimulus_es": "Ella trabaja aquí.",
+          "correct_answer": "She works here.",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Mixed Practice",
+      "content": [
+        {
+          "interaction_id": "U5_I37",
+          "type": "transformation",
+          "prompt_es": "Completa: '[[You|Tú]] ___ [[coffee|café]].' ([[drink|beber]])",
+          "stimulus_en": "You ___ coffee.",
+          "correct_answer": "drink",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U5_I38",
+          "type": "transformation",
+          "prompt_es": "Completa: '[[She|Ella]] ___ [[in an office|en una oficina]].' ([[work|trabajar]])",
+          "stimulus_en": "She ___ in an office.",
+          "correct_answer": "works",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U5_I39",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál de estas frases es incorrecta?",
+          "options": [
+            { "id": "o1", "text": "[[I|Yo]] [[eat|como]]" },
+            { "id": "o2", "text": "[[She|Ella]] [[eat|come]]" },
+            { "id": "o3", "text": "[[We|Nosotros]] [[eat|comemos]]" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U5_I40",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál de estas frases es correcta?",
+          "options": [
+            { "id": "o1", "text": "[[They|Ellos]] [[works|trabajan]]" },
+            { "id": "o2", "text": "[[He|Él]] [[plays|juega]]" },
+            { "id": "o3", "text": "[[She|Ella]] [[read|lee]]" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U5_I41",
+          "type": "sentence_building",
+          "prompt_es": "Ordena la frase: 'Yo como desayuno a las ocho.'",
+          "words": [
+            { "id": "w1", "text": "[[eat|como]]" },
+            { "id": "w2", "text": "[[at|a las]]" },
+            { "id": "w3", "text": "[[I|Yo]]" },
+            { "id": "w4", "text": "[[breakfast|desayuno]]" },
+            { "id": "w5", "text": "[[eight|ocho]]" }
+          ],
+          "correct_answer": ["w3", "w1", "w4", "w2", "w5"],
+          "mastery_tag": "syntax",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U5_I42",
+          "type": "sentence_building",
+          "prompt_es": "Ordena la frase: 'Ella estudia cada noche.'",
+          "words": [
+            { "id": "w1", "text": "[[studies|estudia]]" },
+            { "id": "w2", "text": "[[She|Ella]]" },
+            { "id": "w3", "text": "[[every|cada]]" },
+            { "id": "w4", "text": "[[night|noche]]" }
+          ],
+          "correct_answer": ["w2", "w1", "w3", "w4"],
+          "mastery_tag": "syntax",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U5_I43",
+          "type": "true_false",
+          "prompt_es": "¿'[[They|Ellos]] [[play|juegan]]' es correcto?",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U5_I44",
+          "type": "true_false",
+          "prompt_es": "¿'[[It|Eso]] [[works|funciona]]' puede ser correcto?",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U5_I45",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál de estas frases es correcta?",
+          "options": [
+            { "id": "o1", "text": "[[She|Ella]] [[sleeps|duerme]] [[well|bien]]" },
+            { "id": "o2", "text": "[[He|Él]] [[drink|bebe]] [[tea|té]]" },
+            { "id": "o3", "text": "[[I|Yo]] [[works|trabajo]] [[hard|mucho]]" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U5_I46",
+          "type": "fill_blank",
+          "prompt_es": "Completa: '[[We|Nosotros]] ___ [[breakfast|desayuno]] [[at|a las]] [[seven|siete]].' ([[eat|comer]])",
+          "stimulus_en": "We ___ breakfast at seven.",
+          "correct_answer": "eat",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U5_I47",
+          "type": "transformation",
+          "prompt_es": "Completa: '[[She|Ella]] ___ [[every|cada]] [[night|noche]].' ([[sleep|dormir]] → He/She)",
+          "stimulus_en": "She ___ every night.",
+          "correct_answer": "sleeps",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U5_I48",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Él estudia cada día.'",
+          "stimulus_es": "Él estudia cada día.",
+          "correct_answer": "He studies every day.",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        }
+      ]
+    },
+    {
+      "block_id": "B5",
+      "title": "Reading: A Day in Maria's Life",
+      "content": [
+        {
+          "interaction_id": "U5_I49",
+          "type": "reading_phase",
+          "prompt_es": "[[Read|Lee]] el [[text|texto]] [[carefully|con atención]].",
+          "transcript": "[[Maria|María]] [[is|es]] [[a|una]] [[student|estudiante]]. [[She|Ella]] [[wakes up|se despierta]] [[at|a las]] [[seven|siete]]. [[She|Ella]] [[eats|come]] [[breakfast|desayuno]] [[and|y]] [[drinks|bebe]] [[coffee|café]]. [[Then|Después]], [[she|ella]] [[studies|estudia]] [[English|inglés]] [[for|durante]] [[two|dos]] [[hours|horas]]. [[In|Por]] [[the|la]] [[afternoon|tarde]], [[she|ella]] [[plays|juega]] [[football|fútbol]] [[with|con]] [[her|sus]] [[friends|amigos]]. [[At|Por]] [[night|la noche]], [[she|ella]] [[reads|lee]] [[a|un]] [[book|libro]] [[and|y]] [[sleeps|duerme]] [[well|bien]].",
+          "mastery_tag": "reading",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U5_I50",
+          "type": "multiple_choice",
+          "prompt_es": "¿A qué hora se levanta María?",
+          "options": [
+            { "id": "o1", "text": "[[at eight|a las ocho]]" },
+            { "id": "o2", "text": "[[at seven|a las siete]]" },
+            { "id": "o3", "text": "[[at six|a las seis]]" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "reading",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U5_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué bebe María por la mañana?",
+          "options": [
+            { "id": "o1", "text": "[[tea|té]]" },
+            { "id": "o2", "text": "[[water|agua]]" },
+            { "id": "o3", "text": "[[coffee|café]]" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "reading",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U5_I52",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuántas horas estudia [[English|inglés]] María?",
+          "options": [
+            { "id": "o1", "text": "[[three|tres]]" },
+            { "id": "o2", "text": "[[one|una]]" },
+            { "id": "o3", "text": "[[two|dos]]" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "reading",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U5_I53",
+          "type": "true_false",
+          "prompt_es": "¿María [[plays|juega]] [[football|fútbol]] por la tarde?",
+          "correct_answer": true,
+          "mastery_tag": "reading",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U5_I54",
+          "type": "true_false",
+          "prompt_es": "¿María [[reads|lee]] un libro por la noche?",
+          "correct_answer": true,
+          "mastery_tag": "reading",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U5_I55",
+          "type": "transformation",
+          "prompt_es": "Completa según el texto: '[[She|Ella]] ___ [[English|inglés]] [[for|durante]] [[two|dos]] [[hours|horas]].' ([[study|estudiar]])",
+          "stimulus_en": "She ___ English for two hours.",
+          "correct_answer": "studies",
+          "mastery_tag": "reading",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U5_I56",
+          "type": "transformation",
+          "prompt_es": "Completa según el texto: '[[She|Ella]] ___ [[football|fútbol]] [[in|por]] [[the afternoon|la tarde]].' ([[play|jugar]])",
+          "stimulus_en": "She ___ football in the afternoon.",
+          "correct_answer": "plays",
+          "mastery_tag": "reading",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U5_I57",
+          "type": "fill_blank",
+          "prompt_es": "Completa: '[[Maria|María]] ___ [[breakfast|desayuno]] [[every|cada]] [[morning|mañana]].' ([[eat|comer]])",
+          "stimulus_en": "Maria ___ breakfast every morning.",
+          "correct_answer": "eats",
+          "mastery_tag": "reading",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U5_I58",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué hace María por la noche?",
+          "options": [
+            { "id": "o1", "text": "[[plays football|juega al fútbol]]" },
+            { "id": "o2", "text": "[[reads a book|lee un libro]]" },
+            { "id": "o3", "text": "[[studies|estudia]]" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "reading",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U5_I59",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Ella duerme bien.'",
+          "stimulus_es": "Ella duerme bien.",
+          "correct_answer": "She sleeps well.",
+          "mastery_tag": "reading",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U5_I60",
+          "type": "sentence_building",
+          "prompt_es": "Ordena la frase: 'Ella bebe café cada mañana.'",
+          "words": [
+            { "id": "w1", "text": "[[coffee|café]]" },
+            { "id": "w2", "text": "[[She|Ella]]" },
+            { "id": "w3", "text": "[[drinks|bebe]]" },
+            { "id": "w4", "text": "[[every|cada]]" },
+            { "id": "w5", "text": "[[morning|mañana]]" }
+          ],
+          "correct_answer": ["w2", "w3", "w1", "w4", "w5"],
+          "mastery_tag": "syntax",
+          "complexity": 2
         }
       ]
     }

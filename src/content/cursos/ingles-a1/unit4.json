@@ -4,291 +4,717 @@
     "target_language": "en",
     "level": "A1",
     "unit_id": "U4",
-    "unit_title": "Alphabet & Spelling",
+    "unit_title": "Numbers, Classroom Objects & Colors",
     "total_duration_minutes": 120
   },
+  "learning_outcomes": [
+    "Count and use numbers 1–10 in English",
+    "Name classroom objects and use A/An correctly",
+    "Identify basic colors in English",
+    "Use This/That and regular plural forms (-s)"
+  ],
   "blocks": [
     {
       "block_id": "B1",
-      "title": "The Alphabet",
+      "title": "Numbers 1–10",
       "content": [
         {
           "interaction_id": "U4_I1",
           "type": "matching",
-          "prompt_es": "Une los conceptos:",
+          "prompt_es": "Une los números con sus nombres en [[English|inglés]]:",
           "pairs": [
-            { "id": "p1", "left": "Alphabet", "right": "Alfabeto" },
-            { "id": "p2", "left": "Letter", "right": "Letra" },
-            { "id": "p3", "left": "Vowel", "right": "Vocal" },
-            { "id": "p4", "left": "Consonant", "right": "Consonante" }
+            { "id": "p1", "left": "[[One|Uno]]", "right": "Tres" },
+            { "id": "p2", "left": "[[Two|Dos]]", "right": "Uno" },
+            { "id": "p3", "left": "[[Three|Tres]]", "right": "Cinco" },
+            { "id": "p4", "left": "[[Four|Cuatro]]", "right": "Dos" },
+            { "id": "p5", "left": "[[Five|Cinco]]", "right": "Cuatro" }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": { "p1": "p2", "p2": "p4", "p3": "p1", "p4": "p5", "p5": "p3" },
+          "mastery_tag": "vocabulary",
+          "complexity": 1
         },
         {
           "interaction_id": "U4_I2",
-          "type": "transformation",
-          "prompt_es": "Completa con 'vowel' o 'consonant':",
-          "stimulus_en": "The letter 'B' is a ________.",
-          "correct_answer": "consonant",
-          "mastery_tag": "grammar"
+          "type": "matching",
+          "prompt_es": "Une los números con sus nombres en [[English|inglés]]:",
+          "pairs": [
+            { "id": "p1", "left": "[[Six|Seis]]", "right": "Ocho" },
+            { "id": "p2", "left": "[[Seven|Siete]]", "right": "Diez" },
+            { "id": "p3", "left": "[[Eight|Ocho]]", "right": "Seis" },
+            { "id": "p4", "left": "[[Nine|Nueve]]", "right": "Siete" },
+            { "id": "p5", "left": "[[Ten|Diez]]", "right": "Nueve" }
+          ],
+          "correct_answer": { "p1": "p3", "p2": "p4", "p3": "p1", "p4": "p5", "p5": "p2" },
+          "mastery_tag": "vocabulary",
+          "complexity": 1
         },
         {
           "interaction_id": "U4_I3",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuál de estas es una vocal?",
+          "prompt_es": "¿Cómo se dice '[[five|cinco]]' en [[English|inglés]]?",
           "options": [
-            { "id": "o1", "text": "E" },
-            { "id": "o2", "text": "M" },
-            { "id": "o3", "text": "S" }
+            { "id": "o1", "text": "[[Four|Cuatro]]" },
+            { "id": "o2", "text": "[[Six|Seis]]" },
+            { "id": "o3", "text": "[[Five|Cinco]]" }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
         },
         {
           "interaction_id": "U4_I4",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Deletrea tu nombre'",
-          "stimulus_es": "Deletrea tu nombre",
-          "correct_answer": "Spell your name",
-          "mastery_tag": "vocabulary"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuántos dedos tiene una mano en [[English|inglés]]?",
+          "options": [
+            { "id": "o1", "text": "[[Five|Cinco]]" },
+            { "id": "o2", "text": "[[Ten|Diez]]" },
+            { "id": "o3", "text": "[[Three|Tres]]" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
         },
         {
           "interaction_id": "U4_I5",
-          "type": "true_false",
-          "prompt_es": "¿'Apple' comienza con una vocal?",
-          "correct_answer": true,
-          "mastery_tag": "phonics"
+          "type": "transformation",
+          "prompt_es": "Escribe en [[English|inglés]]: 'Tengo [[three|tres]] libros.'",
+          "stimulus_en": "I have ___ books.",
+          "correct_answer": "three",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
         },
         {
           "interaction_id": "U4_I6",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la pregunta:",
-          "options": [
-            { "id": "w1", "text": "How" },
-            { "id": "w2", "text": "do" },
-            { "id": "w3", "text": "you" },
-            { "id": "w4", "text": "spell" },
-            { "id": "w5", "text": "that?" }
-          ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
-          "mastery_tag": "syntax"
+          "type": "transformation",
+          "prompt_es": "Escribe en [[English|inglés]]: 'Hay [[ten|diez]] estudiantes.'",
+          "stimulus_en": "There are ___ students.",
+          "correct_answer": "ten",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
         },
         {
           "interaction_id": "U4_I7",
-          "type": "matching",
-          "prompt_es": "Letras y sonidos:",
-          "pairs": [
-            { "id": "p1", "left": "Spell", "right": "Deletrear" },
-            { "id": "p2", "left": "Word", "right": "Palabra" },
-            { "id": "p3", "left": "First name", "right": "Nombre" },
-            { "id": "p4", "left": "Last name", "right": "Apellido" }
+          "type": "sentence_building",
+          "prompt_es": "Ordena la frase: 'Tengo dos bolígrafos.'",
+          "words": [
+            { "id": "w1", "text": "[[pens|bolígrafos]]" },
+            { "id": "w2", "text": "[[I|Yo]]" },
+            { "id": "w3", "text": "[[have|tengo]]" },
+            { "id": "w4", "text": "[[two|dos]]" }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "correct_answer": ["w2", "w3", "w4", "w1"],
+          "mastery_tag": "syntax",
+          "complexity": 2
         },
         {
           "interaction_id": "U4_I8",
-          "type": "transformation",
-          "prompt_es": "Completa con la letra que falta en 'A-P-P-L-E':",
-          "stimulus_en": "A - P - P - ________ - E",
-          "correct_answer": "L",
-          "mastery_tag": "spelling"
+          "type": "sentence_building",
+          "prompt_es": "Ordena la frase: 'Hay siete sillas.'",
+          "words": [
+            { "id": "w1", "text": "[[seven|siete]]" },
+            { "id": "w2", "text": "[[are|hay]]" },
+            { "id": "w3", "text": "[[chairs|sillas]]" },
+            { "id": "w4", "text": "[[There|Hay]]" }
+          ],
+          "correct_answer": ["w4", "w2", "w1", "w3"],
+          "mastery_tag": "syntax",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U4_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '[[eight|ocho]]' en [[English|inglés]]?",
+          "options": [
+            { "id": "o1", "text": "[[Eight|Ocho]]" },
+            { "id": "o2", "text": "[[Nine|Nueve]]" },
+            { "id": "o3", "text": "[[Seven|Siete]]" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U4_I10",
+          "type": "true_false",
+          "prompt_es": "¿'[[Six|Seis]]' significa '[[five|cinco]]'?",
+          "correct_answer": false,
+          "mastery_tag": "vocabulary",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U4_I11",
+          "type": "true_false",
+          "prompt_es": "¿'[[Two|Dos]]' + '[[three|tres]]' = '[[five|cinco]]'?",
+          "correct_answer": true,
+          "mastery_tag": "vocabulary",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U4_I12",
+          "type": "fill_blank",
+          "prompt_es": "Completa la serie: '[[one|uno]], [[two|dos]], ___, [[four|cuatro]].''",
+          "stimulus_en": "one, two, ___, four",
+          "correct_answer": "three",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
         }
       ]
     },
     {
       "block_id": "B2",
-      "title": "Spelling and Names",
+      "title": "Classroom Objects & A/An",
       "content": [
         {
-          "interaction_id": "U4_I9",
-          "type": "matching",
-          "prompt_es": "Vocabulario de identificación:",
-          "pairs": [
-            { "id": "p1", "left": "Full name", "right": "Nombre completo" },
-            { "id": "p2", "left": "Mr.", "right": "Señor" },
-            { "id": "p3", "left": "Ms.", "right": "Señora/ita" },
-            { "id": "p4", "left": "Signature", "right": "Firma" }
-          ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U4_I10",
-          "type": "transformation",
-          "prompt_es": "Completa con 'a' o 'an':",
-          "stimulus_en": "This is ________ apple.",
-          "correct_answer": "an",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U4_I11",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'apellido'?",
-          "options": [
-            { "id": "o1", "text": "Last name" },
-            { "id": "o2", "text": "Old name" },
-            { "id": "o3", "text": "Next name" }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U4_I12",
-          "type": "short_writing",
-          "prompt_es": "Traduce: '¿Cuál es tu apellido?'",
-          "stimulus_es": "¿Cuál es tu apellido?",
-          "correct_answer": "What is your last name?",
-          "mastery_tag": "vocabulary"
-        },
-        {
           "interaction_id": "U4_I13",
-          "type": "true_false",
-          "prompt_es": "¿La letra 'Y' es siempre una consonante en inglés?",
-          "correct_answer": false,
-          "mastery_tag": "phonics"
+          "type": "matching",
+          "prompt_es": "Une los objetos de clase con su traducción:",
+          "pairs": [
+            { "id": "p1", "left": "[[Pen|Bolígrafo]]", "right": "Cuaderno" },
+            { "id": "p2", "left": "[[Eraser|Goma]]", "right": "Regla" },
+            { "id": "p3", "left": "[[Notebook|Cuaderno]]", "right": "Goma" },
+            { "id": "p4", "left": "[[Ruler|Regla]]", "right": "Bolígrafo" }
+          ],
+          "correct_answer": { "p1": "p4", "p2": "p3", "p3": "p1", "p4": "p2" },
+          "mastery_tag": "vocabulary",
+          "complexity": 1
         },
         {
           "interaction_id": "U4_I14",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase:",
-          "options": [
-            { "id": "w1", "text": "My" },
-            { "id": "w2", "text": "name" },
-            { "id": "w3", "text": "is" },
-            { "id": "w4", "text": "John" }
+          "type": "matching",
+          "prompt_es": "Une los objetos de clase con su traducción:",
+          "pairs": [
+            { "id": "p1", "left": "[[Desk|Escritorio]]", "right": "Pizarra" },
+            { "id": "p2", "left": "[[Chair|Silla]]", "right": "Libro" },
+            { "id": "p3", "left": "[[Board|Pizarra]]", "right": "Silla" },
+            { "id": "p4", "left": "[[Book|Libro]]", "right": "Escritorio" }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
-          "mastery_tag": "syntax"
+          "correct_answer": { "p1": "p4", "p2": "p3", "p3": "p1", "p4": "p2" },
+          "mastery_tag": "vocabulary",
+          "complexity": 1
         },
         {
           "interaction_id": "U4_I15",
-          "type": "matching",
-          "prompt_es": "Deletreo de objetos:",
-          "pairs": [
-            { "id": "p1", "left": "B-O-O-K", "right": "Libro" },
-            { "id": "p2", "left": "H-O-U-S-E", "right": "Casa" },
-            { "id": "p3", "left": "P-E-N", "right": "Bolígrafo" },
-            { "id": "p4", "left": "C-A-R", "right": "Coche" }
-          ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
+          "type": "transformation",
+          "prompt_es": "Completa con '[[a|un]]' o '[[an|un]]': 'This is ___ book.'",
+          "stimulus_en": "This is ___ book.",
+          "correct_answer": "a",
+          "mastery_tag": "grammar",
+          "complexity": 1
         },
         {
           "interaction_id": "U4_I16",
           "type": "transformation",
-          "prompt_es": "Completa con la letra que falta en 'W-O-R-D':",
-          "stimulus_en": "W - O - ________ - D",
-          "correct_answer": "R",
-          "mastery_tag": "spelling"
+          "prompt_es": "Completa con '[[a|un]]' o '[[an|una]]': 'This is ___ eraser.'",
+          "stimulus_en": "This is ___ eraser.",
+          "correct_answer": "an",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U4_I17",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál de estas frases es correcta?",
+          "options": [
+            { "id": "o1", "text": "[[a|un]] [[eraser|goma]]" },
+            { "id": "o2", "text": "[[an|un]] [[book|libro]]" },
+            { "id": "o3", "text": "[[an|una]] [[eraser|goma]]" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U4_I18",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'un bolígrafo' en [[English|inglés]]?",
+          "options": [
+            { "id": "o1", "text": "[[a|un]] [[pen|bolígrafo]]" },
+            { "id": "o2", "text": "[[an|un]] [[pen|bolígrafo]]" },
+            { "id": "o3", "text": "[[the|el]] [[pen|bolígrafo]]" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U4_I19",
+          "type": "sentence_building",
+          "prompt_es": "Ordena la frase: 'Esto es un cuaderno.'",
+          "words": [
+            { "id": "w1", "text": "[[notebook|cuaderno]]" },
+            { "id": "w2", "text": "[[is|es]]" },
+            { "id": "w3", "text": "[[This|Esto]]" },
+            { "id": "w4", "text": "[[a|un]]" }
+          ],
+          "correct_answer": ["w3", "w2", "w4", "w1"],
+          "mastery_tag": "syntax",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U4_I20",
+          "type": "transformation",
+          "prompt_es": "Haz el plural: '[[one|uno]] [[pen|bolígrafo]], [[two|dos]] ___.'",
+          "stimulus_en": "one pen, two ___",
+          "correct_answer": "pens",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U4_I21",
+          "type": "true_false",
+          "prompt_es": "¿Se usa '[[a|un]]' antes de palabras que empiezan por consonante?",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U4_I22",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'cuaderno' en [[English|inglés]]?",
+          "options": [
+            { "id": "o1", "text": "[[note|nota]]" },
+            { "id": "o2", "text": "[[notebook|cuaderno]]" },
+            { "id": "o3", "text": "[[notepad|bloc]]" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U4_I23",
+          "type": "fill_blank",
+          "prompt_es": "Completa: 'I need ___ [[eraser|goma]].'",
+          "stimulus_en": "I need ___ eraser.",
+          "correct_answer": "an",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U4_I24",
+          "type": "sentence_building",
+          "prompt_es": "Ordena la pregunta: '¿Dónde está la regla?'",
+          "words": [
+            { "id": "w1", "text": "[[ruler|regla]]" },
+            { "id": "w2", "text": "[[Where|Dónde]]" },
+            { "id": "w3", "text": "[[is|está]]" },
+            { "id": "w4", "text": "[[the|la]]" }
+          ],
+          "correct_answer": ["w2", "w3", "w4", "w1"],
+          "mastery_tag": "syntax",
+          "complexity": 2
         }
       ]
     },
     {
       "block_id": "B3",
-      "title": "Practice and Review",
+      "title": "Basic Colors",
       "content": [
         {
-          "interaction_id": "U4_I17",
-          "type": "matching",
-          "prompt_es": "Más términos:",
-          "pairs": [
-            { "id": "p1", "left": "Vowels", "right": "Vocales" },
-            { "id": "p2", "left": "Consonants", "right": "Consonantes" },
-            { "id": "p3", "left": "Small letter", "right": "Minúscula" },
-            { "id": "p4", "left": "Capital letter", "right": "Mayúscula" }
-          ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U4_I18",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Deletrear'?",
-          "options": [
-            { "id": "o1", "text": "Spell" },
-            { "id": "o2", "text": "Speak" },
-            { "id": "o3", "text": "Space" }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U4_I19",
-          "type": "short_writing",
-          "prompt_es": "Traduce: '¿Puedes deletrear eso, por favor?'",
-          "stimulus_es": "¿Puedes deletrear eso, por favor?",
-          "correct_answer": "Can you spell that, please?",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U4_I20",
-          "type": "true_false",
-          "prompt_es": "¿'Name' tiene cuatro letras?",
-          "correct_answer": true,
-          "mastery_tag": "logic"
-        },
-        {
-          "interaction_id": "U4_I21",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la pregunta:",
-          "options": [
-            { "id": "w1", "text": "What" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "the" },
-            { "id": "w4", "text": "first" },
-            { "id": "w5", "text": "letter?" }
-          ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U4_I22",
-          "type": "transformation",
-          "prompt_es": "Escribe la vocal que falta en 'H-O-L-A': (en inglés)",
-          "stimulus_en": "H - E - L - L - ________",
-          "correct_answer": "O",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U4_I23",
-          "type": "matching",
-          "prompt_es": "Asocia letras y palabras:",
-          "pairs": [
-            { "id": "p1", "left": "B", "right": "Boy" },
-            { "id": "p2", "left": "G", "right": "Girl" },
-            { "id": "p3", "left": "T", "right": "Teacher" },
-            { "id": "p4", "left": "S", "right": "Student" }
-          ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U4_I24",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Mi nombre es Sarah'",
-          "stimulus_es": "Mi nombre es Sarah",
-          "correct_answer": "My name is Sarah",
-          "mastery_tag": "vocabulary"
-        },
-        {
           "interaction_id": "U4_I25",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
-          "audio_url": "/audio/a1/unit4/spell-name.mp3",
-          "transcript_template": "How do you ___ your name?",
-          "correct_answer": "spell",
-          "mastery_tag": "listening"
+          "type": "matching",
+          "prompt_es": "Une los colores con su traducción:",
+          "pairs": [
+            { "id": "p1", "left": "[[Red|Rojo]]", "right": "Azul" },
+            { "id": "p2", "left": "[[Blue|Azul]]", "right": "Verde" },
+            { "id": "p3", "left": "[[Green|Verde]]", "right": "Amarillo" },
+            { "id": "p4", "left": "[[Yellow|Amarillo]]", "right": "Rojo" }
+          ],
+          "correct_answer": { "p1": "p4", "p2": "p1", "p3": "p2", "p4": "p3" },
+          "mastery_tag": "vocabulary",
+          "complexity": 1
         },
         {
           "interaction_id": "U4_I26",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
-          "audio_url": "/audio/a1/unit4/letter.mp3",
-          "transcript_template": "What ___ comes after 'K'?",
-          "correct_answer": "letter",
-          "mastery_tag": "listening"
+          "type": "matching",
+          "prompt_es": "Une los colores con su traducción:",
+          "pairs": [
+            { "id": "p1", "left": "[[Black|Negro]]", "right": "Blanco" },
+            { "id": "p2", "left": "[[White|Blanco]]", "right": "Marrón" },
+            { "id": "p3", "left": "[[Brown|Marrón]]", "right": "Naranja" },
+            { "id": "p4", "left": "[[Orange|Naranja]]", "right": "Negro" }
+          ],
+          "correct_answer": { "p1": "p4", "p2": "p1", "p3": "p2", "p4": "p3" },
+          "mastery_tag": "vocabulary",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U4_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿De qué color es la hierba?",
+          "options": [
+            { "id": "o1", "text": "[[yellow|amarillo]]" },
+            { "id": "o2", "text": "[[red|rojo]]" },
+            { "id": "o3", "text": "[[green|verde]]" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U4_I28",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice '[[blue|azul]]' en [[English|inglés]]?",
+          "options": [
+            { "id": "o1", "text": "[[blue|azul]]" },
+            { "id": "o2", "text": "[[black|negro]]" },
+            { "id": "o3", "text": "[[brown|marrón]]" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U4_I29",
+          "type": "transformation",
+          "prompt_es": "Completa: 'El cielo es ___.' ([[blue|azul]])",
+          "stimulus_en": "The sky is ___.",
+          "correct_answer": "blue",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U4_I30",
+          "type": "transformation",
+          "prompt_es": "Completa: 'Una manzana suele ser ___.' ([[red|roja]])",
+          "stimulus_en": "An apple is often ___.",
+          "correct_answer": "red",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U4_I31",
+          "type": "fill_blank",
+          "prompt_es": "Completa: 'El sol es ___ y redondo.' ([[yellow|amarillo]])",
+          "stimulus_en": "The sun is ___ and round.",
+          "correct_answer": "yellow",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U4_I32",
+          "type": "true_false",
+          "prompt_es": "¿'[[White|Blanco]]' significa '[[black|negro]]'?",
+          "correct_answer": false,
+          "mastery_tag": "vocabulary",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U4_I33",
+          "type": "true_false",
+          "prompt_es": "¿'[[Red|Rojo]]' y 'rojo' significan lo mismo?",
+          "correct_answer": true,
+          "mastery_tag": "vocabulary",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U4_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿De qué color es el chocolate?",
+          "options": [
+            { "id": "o1", "text": "[[purple|morado]]" },
+            { "id": "o2", "text": "[[brown|marrón]]" },
+            { "id": "o3", "text": "[[orange|naranja]]" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U4_I35",
+          "type": "sentence_building",
+          "prompt_es": "Ordena la frase: 'Tengo un bolígrafo azul.'",
+          "words": [
+            { "id": "w1", "text": "[[blue|azul]]" },
+            { "id": "w2", "text": "[[pen|bolígrafo]]" },
+            { "id": "w3", "text": "[[I|Yo]]" },
+            { "id": "w4", "text": "[[have|tengo]]" },
+            { "id": "w5", "text": "[[a|un]]" }
+          ],
+          "correct_answer": ["w3", "w4", "w5", "w1", "w2"],
+          "mastery_tag": "syntax",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U4_I36",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'El libro es verde.'",
+          "stimulus_es": "El libro es verde.",
+          "correct_answer": "The book is green.",
+          "mastery_tag": "vocabulary",
+          "complexity": 2
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "This/That & Plurals",
+      "content": [
+        {
+          "interaction_id": "U4_I37",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuándo usas '[[this|este/esta]]'?",
+          "options": [
+            { "id": "o1", "text": "Para algo [[far|lejos]]" },
+            { "id": "o2", "text": "Para algo [[invisible|invisible]]" },
+            { "id": "o3", "text": "Para algo [[near|cerca]]" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U4_I38",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuándo usas '[[that|ese/esa]]'?",
+          "options": [
+            { "id": "o1", "text": "Para objetos [[far|lejanos]]" },
+            { "id": "o2", "text": "Para [[questions|preguntas]]" },
+            { "id": "o3", "text": "Para objetos [[near|cercanos]]" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U4_I39",
+          "type": "transformation",
+          "prompt_es": "Haz el plural: '[[one|uno]] [[pen|bolígrafo]], [[two|dos]] ___.'",
+          "stimulus_en": "one pen, two ___",
+          "correct_answer": "pens",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U4_I40",
+          "type": "transformation",
+          "prompt_es": "Haz el plural: 'There is one [[chair|silla]]. There are three ___.'",
+          "stimulus_en": "There is one chair. There are three ___.",
+          "correct_answer": "chairs",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U4_I41",
+          "type": "transformation",
+          "prompt_es": "¿'[[this|este]]' o '[[that|ese]]'? (objeto lejano)",
+          "stimulus_en": "___ is a book. (far away)",
+          "correct_answer": "That",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U4_I42",
+          "type": "transformation",
+          "prompt_es": "¿'[[this|este]]' o '[[that|ese]]'? (objeto cercano)",
+          "stimulus_en": "___ is my pen. (near)",
+          "correct_answer": "This",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U4_I43",
+          "type": "matching",
+          "prompt_es": "Une cada palabra con su uso:",
+          "pairs": [
+            { "id": "p1", "left": "[[This|Este/Esta]]", "right": "Objeto lejano en plural" },
+            { "id": "p2", "left": "[[That|Ese/Esa]]", "right": "Objeto cercano singular" },
+            { "id": "p3", "left": "[[These|Estos/Estas]]", "right": "Objeto lejano singular" },
+            { "id": "p4", "left": "[[Those|Esos/Esas]]", "right": "Objetos cercanos en plural" }
+          ],
+          "correct_answer": { "p1": "p2", "p2": "p3", "p3": "p4", "p4": "p1" },
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U4_I44",
+          "type": "sentence_building",
+          "prompt_es": "Ordena la frase: 'Ese es un libro rojo.'",
+          "words": [
+            { "id": "w1", "text": "[[red|rojo]]" },
+            { "id": "w2", "text": "[[book|libro]]" },
+            { "id": "w3", "text": "[[That|Ese]]" },
+            { "id": "w4", "text": "[[is|es]]" },
+            { "id": "w5", "text": "[[a|un]]" }
+          ],
+          "correct_answer": ["w3", "w4", "w5", "w1", "w2"],
+          "mastery_tag": "syntax",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U4_I45",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el plural de '[[book|libro]]'?",
+          "options": [
+            { "id": "o1", "text": "[[books|libros]]" },
+            { "id": "o2", "text": "[[bookes|libros]]" },
+            { "id": "o3", "text": "[[booky|libros]]" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U4_I46",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el plural de '[[chair|silla]]'?",
+          "options": [
+            { "id": "o1", "text": "[[chairies|sillas]]" },
+            { "id": "o2", "text": "[[chairs|sillas]]" },
+            { "id": "o3", "text": "[[chairz|sillas]]" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U4_I47",
+          "type": "true_false",
+          "prompt_es": "¿'[[These|Estos]]' es el plural de '[[this|este]]'?",
+          "correct_answer": true,
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U4_I48",
+          "type": "fill_blank",
+          "prompt_es": "Completa: '[[This|Esto]] is ___ [[orange|naranja]] [[eraser|goma]].'",
+          "stimulus_en": "This is ___ orange eraser.",
+          "correct_answer": "an",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        }
+      ]
+    },
+    {
+      "block_id": "B5",
+      "title": "Reading: In My Bag",
+      "content": [
+        {
+          "interaction_id": "U4_I49",
+          "type": "reading_phase",
+          "prompt_es": "[[Read|Lee]] el [[text|texto]] [[carefully|con atención]].",
+          "transcript": "[[In|En]] [[my|mi]] [[bag|mochila]] [[I|yo]] [[have|tengo]] [[a|un]] [[notebook|cuaderno]], [[two|dos]] [[pens|bolígrafos]] [[and|y]] [[an|una]] [[eraser|goma]]. [[The|El]] [[notebook|cuaderno]] [[is|es]] [[blue|azul]] [[and|y]] [[the|los]] [[pens|bolígrafos]] [[are|son]] [[red|rojos]]. [[My|Mi]] [[eraser|goma]] [[is|es]] [[white|blanca]].",
+          "mastery_tag": "reading",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U4_I50",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué objetos hay en la mochila?",
+          "options": [
+            { "id": "o1", "text": "[[A pen|Un bolígrafo]] and [[a notebook|un cuaderno]]" },
+            { "id": "o2", "text": "[[A notebook|Un cuaderno]], [[two pens|dos bolígrafos]] and [[an eraser|una goma]]" },
+            { "id": "o3", "text": "[[Only books|Solo libros]]" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "reading",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U4_I51",
+          "type": "multiple_choice",
+          "prompt_es": "¿De qué color es el cuaderno?",
+          "options": [
+            { "id": "o1", "text": "[[red|rojo]]" },
+            { "id": "o2", "text": "[[green|verde]]" },
+            { "id": "o3", "text": "[[blue|azul]]" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "reading",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U4_I52",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuántos bolígrafos hay en la mochila?",
+          "options": [
+            { "id": "o1", "text": "[[three|tres]]" },
+            { "id": "o2", "text": "[[two|dos]]" },
+            { "id": "o3", "text": "[[one|uno]]" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "reading",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U4_I53",
+          "type": "true_false",
+          "prompt_es": "¿Los bolígrafos son [[blue|azules]]?",
+          "correct_answer": false,
+          "mastery_tag": "reading",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U4_I54",
+          "type": "true_false",
+          "prompt_es": "¿La [[eraser|goma]] es [[white|blanca]]?",
+          "correct_answer": true,
+          "mastery_tag": "reading",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U4_I55",
+          "type": "transformation",
+          "prompt_es": "Completa según el texto: '[[The|Los]] [[pens|bolígrafos]] [[are|son]] ___.'",
+          "stimulus_en": "The pens are ___.",
+          "correct_answer": "red",
+          "mastery_tag": "reading",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U4_I56",
+          "type": "transformation",
+          "prompt_es": "Completa según el texto: '[[There|Hay]] [[are|hay]] ___ [[pens|bolígrafos]].'",
+          "stimulus_en": "There are ___ pens.",
+          "correct_answer": "two",
+          "mastery_tag": "reading",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U4_I57",
+          "type": "fill_blank",
+          "prompt_es": "Completa: '[[My|Mi]] [[eraser|goma]] is ___.' ([[white|blanca]])",
+          "stimulus_en": "My eraser is ___.",
+          "correct_answer": "white",
+          "mastery_tag": "reading",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U4_I58",
+          "type": "multiple_choice",
+          "prompt_es": "¿De qué color es la [[eraser|goma]]?",
+          "options": [
+            { "id": "o1", "text": "[[blue|azul]]" },
+            { "id": "o2", "text": "[[red|rojo]]" },
+            { "id": "o3", "text": "[[white|blanca]]" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "reading",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U4_I59",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Tengo un cuaderno azul.'",
+          "stimulus_es": "Tengo un cuaderno azul.",
+          "correct_answer": "I have a blue notebook.",
+          "mastery_tag": "reading",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "U4_I60",
+          "type": "sentence_building",
+          "prompt_es": "Ordena la frase: 'Tengo un cuaderno azul.'",
+          "words": [
+            { "id": "w1", "text": "[[notebook|cuaderno]]" },
+            { "id": "w2", "text": "[[blue|azul]]" },
+            { "id": "w3", "text": "[[I|Yo]]" },
+            { "id": "w4", "text": "[[have|tengo]]" },
+            { "id": "w5", "text": "[[a|un]]" }
+          ],
+          "correct_answer": ["w3", "w4", "w5", "w2", "w1"],
+          "mastery_tag": "syntax",
+          "complexity": 2
         }
       ]
     }
