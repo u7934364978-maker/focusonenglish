@@ -86,6 +86,12 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
       (exercise.topicName?.toLowerCase().includes('reading') ||
        exercise.topic?.toLowerCase().includes('reading')) &&
       exercise.type !== 'multiple-choice'
+    ) ||
+    (
+      !!exercise.transcript &&
+      !exercise.audioUrl &&
+      (exercise.topicName?.toLowerCase().includes('reading') ||
+       exercise.topic?.toLowerCase().includes('reading'))
     )
   ) && (!!exercise.transcript || !!exerciseContent.text);
 
