@@ -213,12 +213,12 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "id": "a1-u54-a1_u54_b2_i5",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "audio_player",
-      "instructions": "Escucha la diferencia:",
+      "instructions": "¿Cuál es la respuesta correcta?",
       "questions": [
         {
           "question": "Escucha la diferencia:",
@@ -231,7 +231,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/shared/few_little_examples.mp3",
-    "topicName": "listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u54-a1_u54_b3_i1",
@@ -376,12 +376,12 @@ export const UNIT_54_EXERCISES: Exercise[] = [
     "id": "a1-u54-u54_i101",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -395,18 +395,18 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-1.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u54-u54_i102",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -420,18 +420,18 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-2.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u54-u54_i103",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -445,18 +445,18 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-3.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u54-u54_i104",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -470,18 +470,18 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-4.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u54-u54_i105",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -495,18 +495,18 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-5.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u54-u54_i106",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -520,18 +520,18 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-6.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u54-u54_i107",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -545,135 +545,135 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-7.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u54-u54_i108",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "How much?",
     "content": {
       "title": "Pronunciación: Much",
-      "instructions": "Escucha y repite la 'u' corta.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "How much?",
       "phonetic": "/mʌtʃ/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-8.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u54-u54_i109",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "How many?",
     "content": {
       "title": "Pronunciación: Many",
-      "instructions": "La 'a' suena como /ɛ/.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "How many?",
       "phonetic": "/ˈmɛni/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-9.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u54-u54_i110",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "A little water.",
     "content": {
       "title": "Pronunciación: Little",
-      "instructions": "Escucha y repite la 'i' corta.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "A little water.",
       "phonetic": "/ˈlɪtl/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-10.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u54-u54_i111",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "A few books.",
     "content": {
       "title": "Pronunciación: Few",
-      "instructions": "La 'ew' suena como /juː/.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "A few books.",
       "phonetic": "/fjuː/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-11.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u54-u54_i112",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Many people.",
     "content": {
       "title": "Pronunciación: People",
-      "instructions": "La 'eo' suena como /iː/.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Many people.",
       "phonetic": "/ˈpiːpl/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-12.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u54-u54_i113",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "How much money?",
     "content": {
       "title": "Pronunciación: Money",
-      "instructions": "La 'o' suena como /ʌ/.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "How much money?",
       "phonetic": "/ˈmʌni/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-13.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u54-u54_i114",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "A few friends.",
     "content": {
       "title": "Pronunciación: Friends",
-      "instructions": "La 'ie' suena como /ɛ/.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "A few friends.",
       "phonetic": "/frɛndz/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-14.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u54-u54_i115",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Much time.",
     "content": {
       "title": "Pronunciación: Time",
-      "instructions": "La 'i' suena como /aɪ/.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Much time.",
       "phonetic": "/taɪm/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-15.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u54-u54_filler_0",

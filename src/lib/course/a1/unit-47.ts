@@ -344,12 +344,12 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "id": "a1-u47-a1_u47_b47_4_i4",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "audio_player",
-      "instructions": "Escucha la preferencia:",
+      "instructions": "¿Cuál es la respuesta correcta?",
       "questions": [
         {
           "question": "Escucha la preferencia:",
@@ -362,7 +362,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/shared/a167098e792e3a89e167669818815124.mp3",
-    "topicName": "listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u47-a1_u47_b47_4_i5",
@@ -394,12 +394,12 @@ export const UNIT_47_EXERCISES: Exercise[] = [
     "id": "a1-u47-u47_i301",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -413,18 +413,18 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-1.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u47-u47_i302",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -438,18 +438,18 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-2.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u47-u47_i303",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -463,18 +463,18 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-3.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u47-u47_i304",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -488,18 +488,18 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-4.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u47-u47_i305",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -513,18 +513,18 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-5.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u47-u47_i306",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -538,18 +538,18 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-6.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u47-u47_i307",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -563,135 +563,135 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-7.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u47-u47_i308",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Happy holidays!",
     "content": {
       "title": "Pronunciación: Holidays",
-      "instructions": "Escucha y repite enfocándote en la 'h'.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Happy holidays!",
       "phonetic": "/ˈhæpi ˈhɒlədeɪz/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-8.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u47-u47_i309",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "I go to the beach.",
     "content": {
       "title": "Pronunciación: Beach",
-      "instructions": "Escucha y repite la 'i' larga.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "I go to the beach.",
       "phonetic": "/aɪ ɡəʊ tə ðə biːtʃ/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-9.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u47-u47_i310",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "We enjoy sightseeing.",
     "content": {
       "title": "Pronunciación: Sightseeing",
-      "instructions": "Escucha y repite la palabra larga.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "We enjoy sightseeing.",
       "phonetic": "/wi ɪnˈdʒɔɪ ˈsaɪtsiːɪŋ/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-10.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u47-u47_i311",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Go hiking.",
     "content": {
       "title": "Pronunciación: Hiking",
-      "instructions": "Escucha y repite la 'h' y la 'i' larga.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Go hiking.",
       "phonetic": "/ɡəʊ ˈhaɪkɪŋ/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-11.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u47-u47_i312",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Send a postcard.",
     "content": {
       "title": "Pronunciación: Postcard",
-      "instructions": "Escucha y repite la palabra compuesta.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Send a postcard.",
       "phonetic": "/sɛnd ə ˈpəʊstkɑːd/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-12.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u47-u47_i313",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "I love swimming.",
     "content": {
       "title": "Pronunciación: Love",
-      "instructions": "Escucha y repite la vocal relajada.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "I love swimming.",
       "phonetic": "/aɪ lʌv ˈswɪmɪŋ/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-13.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u47-u47_i314",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "I hate waiting.",
     "content": {
       "title": "Pronunciación: Hate",
-      "instructions": "Escucha y repite el diptongo 'a_e'.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "I hate waiting.",
       "phonetic": "/aɪ heɪt ˈweɪtɪŋ/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-14.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u47-u47_i315",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "We enjoy the local food.",
     "content": {
       "title": "Pronunciación: Repaso Holidays",
-      "instructions": "Escucha y repite la frase completa.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "We enjoy the local food.",
       "phonetic": "/wi ɪnˈdʒɔɪ ðə ˈləʊkl fuːd/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-15.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u47-u47_filler_0",

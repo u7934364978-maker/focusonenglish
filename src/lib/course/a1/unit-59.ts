@@ -224,12 +224,12 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "id": "a1-u59-a1_u59_b2_i5",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "audio_player",
-      "instructions": "Escucha las preferencias:",
+      "instructions": "¿Cuál es la respuesta correcta?",
       "questions": [
         {
           "question": "Escucha las preferencias:",
@@ -242,7 +242,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/shared/preferences_ing.mp3",
-    "topicName": "listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u59-a1_u59_b3_i1",
@@ -452,12 +452,12 @@ export const UNIT_59_EXERCISES: Exercise[] = [
     "id": "a1-u59-u59_i101",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -471,18 +471,18 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-1.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u59-u59_i102",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -496,18 +496,18 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-2.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u59-u59_i103",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -521,18 +521,18 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-3.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u59-u59_i104",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -546,18 +546,18 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-4.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u59-u59_i105",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -571,18 +571,18 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-5.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u59-u59_i106",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -596,18 +596,18 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-6.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u59-u59_i107",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -621,135 +621,135 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-7.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u59-u59_i108",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "I like reading.",
     "content": {
       "title": "Pronunciación: Reading",
-      "instructions": "La 'ea' suena como /iː/.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "I like reading.",
       "phonetic": "/ˈriːdɪŋ/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-8.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u59-u59_i109",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "I like dancing.",
     "content": {
       "title": "Pronunciación: Dancing",
-      "instructions": "Escucha y repite la 'a' larga en inglés británico.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "I like dancing.",
       "phonetic": "/ˈdɑːnsɪŋ/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-9.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u59-u59_i110",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "I enjoy swimming.",
     "content": {
       "title": "Pronunciación: Swimming",
-      "instructions": "Escucha y repite la 'i' corta.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "I enjoy swimming.",
       "phonetic": "/ˈswɪmɪŋ/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-10.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u59-u59_i111",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "My hobby is art.",
     "content": {
       "title": "Pronunciación: Hobby",
-      "instructions": "Escucha y repite la 'h' aspirada.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "My hobby is art.",
       "phonetic": "/ˈhɒbi/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-11.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u59-u59_i112",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "In my spare time.",
     "content": {
       "title": "Pronunciación: Spare time",
-      "instructions": "Escucha y repite la frase.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "In my spare time.",
       "phonetic": "/speə taɪm/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-12.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u59-u59_i113",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Watch a movie.",
     "content": {
       "title": "Pronunciación: Movie",
-      "instructions": "La 'ie' suena como /i/.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Watch a movie.",
       "phonetic": "/ˈmuːvi/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-13.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u59-u59_i114",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "I love cooking.",
     "content": {
       "title": "Pronunciación: Cooking",
-      "instructions": "La 'oo' suena como /ʊ/ corta.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "I love cooking.",
       "phonetic": "/ˈkʊkɪŋ/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-14.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u59-u59_i115",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Talk about preferences.",
     "content": {
       "title": "Pronunciación: Preferences",
-      "instructions": "Escucha y repite la palabra completa.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Talk about preferences.",
       "phonetic": "/ˈprɛfrənsɪz/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-15.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u59-u59_filler_0",

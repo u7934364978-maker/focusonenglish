@@ -370,12 +370,12 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "id": "a1-u42-a1_u42_b42_4_i4",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "audio_player",
-      "instructions": "Escucha el anuncio:",
+      "instructions": "¿Cuál es la respuesta correcta?",
       "questions": [
         {
           "question": "Escucha el anuncio:",
@@ -388,7 +388,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/shared/a167098e792e3a89e167669818815124.mp3",
-    "topicName": "listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u42-a1_u42_b42_4_i5",
@@ -420,12 +420,12 @@ export const UNIT_42_EXERCISES: Exercise[] = [
     "id": "a1-u42-u42_i301",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -439,18 +439,18 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-1.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u42-u42_i302",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -464,18 +464,18 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-2.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u42-u42_i303",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -489,18 +489,18 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-3.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u42-u42_i304",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -514,18 +514,18 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-4.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u42-u42_i305",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -539,18 +539,18 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-5.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u42-u42_i306",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -564,18 +564,18 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-6.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u42-u42_i307",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -589,135 +589,135 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-7.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u42-u42_i308",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "The train is fast.",
     "content": {
       "title": "Pronunciación: Train",
-      "instructions": "Escucha y repite la 'tr'.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "The train is fast.",
       "phonetic": "/ðə treɪn ɪz fɑːst/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-8.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u42-u42_i309",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "I take the bus.",
     "content": {
       "title": "Pronunciación: Bus",
-      "instructions": "Escucha y repite la vocal corta.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "I take the bus.",
       "phonetic": "/aɪ teɪk ðə bʌs/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-9.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u42-u42_i310",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "The station is big.",
     "content": {
       "title": "Pronunciación: Station",
-      "instructions": "Escucha y repite la terminación '-tion'.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "The station is big.",
       "phonetic": "/ðə ˈsteɪʃn ɪz bɪɡ/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-10.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u42-u42_i311",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Go to the platform.",
     "content": {
       "title": "Pronunciación: Platform",
-      "instructions": "Escucha y repite el acento de la palabra.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Go to the platform.",
       "phonetic": "/ɡəʊ tə ðə ˈplætfɔːm/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-11.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u42-u42_i312",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "I ride my bicycle.",
     "content": {
       "title": "Pronunciación: Bicycle",
-      "instructions": "Escucha y repite la pronunciación de 'bicycle'.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "I ride my bicycle.",
       "phonetic": "/aɪ raɪd maɪ ˈbaɪsɪkl/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-12.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u42-u42_i313",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "The ferry is here.",
     "content": {
       "title": "Pronunciación: Ferry",
-      "instructions": "Escucha y repite enfocándote en la 'f' inicial.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "The ferry is here.",
       "phonetic": "/ðə ˈfɛri ɪz hɪə/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-13.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u42-u42_i314",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "He rides a motorbike.",
     "content": {
       "title": "Pronunciación: Motorbike",
-      "instructions": "Escucha y repite la palabra compuesta.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "He rides a motorbike.",
       "phonetic": "/hi raɪdz ə ˈməʊtəbaɪk/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-14.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u42-u42_i315",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "I travel by plane.",
     "content": {
       "title": "Pronunciación: Repaso Transport",
-      "instructions": "Escucha y repite la frase completa.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "I travel by plane.",
       "phonetic": "/aɪ ˈtrævl baɪ pleɪn/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-15.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u42-u42_filler_0",

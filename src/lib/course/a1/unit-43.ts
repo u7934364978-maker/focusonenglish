@@ -344,12 +344,12 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "id": "a1-u43-a1_u43_b43_4_i4",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "audio_player",
-      "instructions": "Escucha la actividad:",
+      "instructions": "¿Cuál es la respuesta correcta?",
       "questions": [
         {
           "question": "Escucha la actividad:",
@@ -362,7 +362,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/shared/f61f52fb04851fe96a0f3b149ec679db.mp3",
-    "topicName": "listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u43-a1_u43_b43_4_i5",
@@ -394,12 +394,12 @@ export const UNIT_43_EXERCISES: Exercise[] = [
     "id": "a1-u43-u43_i301",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -413,18 +413,18 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-1.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u43-u43_i302",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -438,18 +438,18 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-2.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u43-u43_i303",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -463,18 +463,18 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-3.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u43-u43_i304",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -488,18 +488,18 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-4.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u43-u43_i305",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -513,18 +513,18 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-5.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u43-u43_i306",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -538,18 +538,18 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-6.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u43-u43_i307",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -563,135 +563,135 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-7.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u43-u43_i308",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "I visit London.",
     "content": {
       "title": "Pronunciación: Visit",
-      "instructions": "Escucha y repite enfocándote en la 'v' vibrante.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "I visit London.",
       "phonetic": "/aɪ ˈvɪzɪt ˈlʌndən/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-8.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u43-u43_i309",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "They stay here.",
     "content": {
       "title": "Pronunciación: Stay",
-      "instructions": "Escucha y repite el diptongo.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "They stay here.",
       "phonetic": "/ðeɪ steɪ hɪə/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-9.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u43-u43_i310",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "We travel by train.",
     "content": {
       "title": "Pronunciación: Travel",
-      "instructions": "Escucha y repite la 'l' final.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "We travel by train.",
       "phonetic": "/wi ˈtrævl baɪ treɪn/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-10.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u43-u43_i311",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "We arrive at noon.",
     "content": {
       "title": "Pronunciación: Arrive",
-      "instructions": "Escucha y repite el acento.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "We arrive at noon.",
       "phonetic": "/wi əˈraɪv æt nuːn/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-11.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u43-u43_i312",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Take a photo.",
     "content": {
       "title": "Pronunciación: Photo",
-      "instructions": "Escucha y repite la 'ph'.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Take a photo.",
       "phonetic": "/teɪk ə ˈfəʊtəʊ/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-12.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u43-u43_i313",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Buy a souvenir.",
     "content": {
       "title": "Pronunciación: Souvenir",
-      "instructions": "Escucha y repite el acento francés.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Buy a souvenir.",
       "phonetic": "/ˌsuːvəˈnɪə/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-13.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u43-u43_i314",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Enjoy your trip.",
     "content": {
       "title": "Pronunciación: Enjoy",
-      "instructions": "Escucha y repite la 'j'.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Enjoy your trip.",
       "phonetic": "/ɪnˈdʒɔɪ jɔː trɪp/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-14.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u43-u43_i315",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "They stay at a nice hotel.",
     "content": {
       "title": "Pronunciación: Repaso Travel Verbs",
-      "instructions": "Escucha y repite la frase completa.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "They stay at a nice hotel.",
       "phonetic": "/ðeɪ steɪ æt ə naɪs həʊˈtɛl/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-15.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u43-u43_filler_0",

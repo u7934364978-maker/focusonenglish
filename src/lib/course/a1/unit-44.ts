@@ -370,12 +370,12 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "id": "a1-u44-a1_u44_b44_4_i4",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "audio_player",
-      "instructions": "Escucha la descripción:",
+      "instructions": "¿Cuál es la respuesta correcta?",
       "questions": [
         {
           "question": "Escucha la descripción:",
@@ -388,7 +388,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/shared/a167098e792e3a89e167669818815124.mp3",
-    "topicName": "listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u44-a1_u44_b44_4_i5",
@@ -420,12 +420,12 @@ export const UNIT_44_EXERCISES: Exercise[] = [
     "id": "a1-u44-u44_i301",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -439,18 +439,18 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-1.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u44-u44_i302",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -464,18 +464,18 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-2.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u44-u44_i303",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -489,18 +489,18 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-3.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u44-u44_i304",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -514,18 +514,18 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-4.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u44-u44_i305",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -539,18 +539,18 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-5.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u44-u44_i306",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -564,18 +564,18 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-6.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u44-u44_i307",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -589,135 +589,135 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-7.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u44-u44_i308",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "The weather is nice.",
     "content": {
       "title": "Pronunciación: Weather",
-      "instructions": "Escucha y repite la 'th'.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "The weather is nice.",
       "phonetic": "/ðə ˈwɛðə rɪz naɪs/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-8.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u44-u44_i309",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "It is sunny.",
     "content": {
       "title": "Pronunciación: Sunny",
-      "instructions": "Escucha y repite la 'u' corta.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "It is sunny.",
       "phonetic": "/ɪt ɪz ˈsʌni/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-9.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u44-u44_i310",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "It is a rainy day.",
     "content": {
       "title": "Pronunciación: Rainy",
-      "instructions": "Escucha y repite el diptongo 'ai'.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "It is a rainy day.",
       "phonetic": "/ɪt ɪz ə ˈreɪni deɪ/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-10.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u44-u44_i311",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "It is cloudy.",
     "content": {
       "title": "Pronunciación: Cloudy",
-      "instructions": "Escucha y repite el diptongo 'ou'.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "It is cloudy.",
       "phonetic": "/ɪt ɪz ˈklaʊdi/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-11.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u44-u44_i312",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "It is very windy.",
     "content": {
       "title": "Pronunciación: Windy",
-      "instructions": "Escucha y repite la 'w'.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "It is very windy.",
       "phonetic": "/ɪt ɪz ˈvɛri ˈwɪndi/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-12.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u44-u44_i313",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "It is cold.",
     "content": {
       "title": "Pronunciación: Cold",
-      "instructions": "Escucha y repite la 'o' larga.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "It is cold.",
       "phonetic": "/ɪt ɪz kəʊld/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-13.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u44-u44_i314",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "I see the snow.",
     "content": {
       "title": "Pronunciación: Snow",
-      "instructions": "Escucha y repite el grupo consonántico 'sn'.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "I see the snow.",
       "phonetic": "/aɪ siː ðə snəʊ/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-14.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u44-u44_i315",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "The sun is shining.",
     "content": {
       "title": "Pronunciación: Repaso Weather",
-      "instructions": "Escucha y repite la frase completa.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "The sun is shining.",
       "phonetic": "/ðə sʌn ɪz ˈʃaɪnɪŋ/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-15.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u44-u44_filler_0",

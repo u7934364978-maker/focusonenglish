@@ -344,12 +344,12 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "id": "a1-u41-a1_u41_b41_4_i4",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "audio_player",
-      "instructions": "Escucha la instrucción:",
+      "instructions": "¿Cuál es la instrucción correcta?",
       "questions": [
         {
           "question": "Escucha la instrucción:",
@@ -362,7 +362,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/shared/e6c99c3629f6266007f311f92591b61b.mp3",
-    "topicName": "listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u41-a1_u41_b41_4_i5",
@@ -394,12 +394,12 @@ export const UNIT_41_EXERCISES: Exercise[] = [
     "id": "a1-u41-u41_i301",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -413,18 +413,18 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-1.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u41-u41_i302",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -438,18 +438,18 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-2.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u41-u41_i303",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -463,18 +463,18 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-3.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u41-u41_i304",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -488,18 +488,18 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-4.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u41-u41_i305",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -513,18 +513,18 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-5.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u41-u41_i306",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -538,18 +538,18 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-6.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u41-u41_i307",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -563,135 +563,135 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-7.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u41-u41_i308",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "The airport is busy.",
     "content": {
       "title": "Pronunciación: Airport",
-      "instructions": "Escucha y repite enfocándote en la 'r'.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "The airport is busy.",
       "phonetic": "/ði ˈeəpɔːt ɪz ˈbɪzi/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-8.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u41-u41_i309",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Here is my passport.",
     "content": {
       "title": "Pronunciación: Passport",
-      "instructions": "Practica la 'p' aspirada.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Here is my passport.",
       "phonetic": "/hɪə rɪz maɪ ˈpɑːspɔːt/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-9.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u41-u41_i310",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "My flight is at nine.",
     "content": {
       "title": "Pronunciación: Flight",
-      "instructions": "Escucha y repite la 'i' larga.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "My flight is at nine.",
       "phonetic": "/maɪ flaɪt ɪz æt naɪn/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-10.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u41-u41_i311",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Where is my luggage?",
     "content": {
       "title": "Pronunciación: Luggage",
-      "instructions": "Escucha y repite la 'g' final.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Where is my luggage?",
       "phonetic": "/weə rɪz maɪ ˈlʌɡɪdʒ/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-11.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u41-u41_i312",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Go to gate ten.",
     "content": {
       "title": "Pronunciación: Gate",
-      "instructions": "Escucha y repite la 'a' larga.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Go to gate ten.",
       "phonetic": "/ɡəʊ tə ɡeɪt tɛn/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-12.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u41-u41_i313",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Show your ticket.",
     "content": {
       "title": "Pronunciación: Ticket",
-      "instructions": "Escucha y repite la 'i' corta.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Show your ticket.",
       "phonetic": "/ʃəʊ jɔː ˈtɪkɪt/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-13.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u41-u41_i314",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "This is my suitcase.",
     "content": {
       "title": "Pronunciación: Suitcase",
-      "instructions": "Escucha y repite enfocándote en la 's'.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "This is my suitcase.",
       "phonetic": "/ðɪs ɪz maɪ ˈsuːtkeɪs/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-14.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u41-u41_i315",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "I have my boarding pass.",
     "content": {
       "title": "Pronunciación: Repaso Airport",
-      "instructions": "Escucha y repite la frase completa.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "I have my boarding pass.",
       "phonetic": "/aɪ hæv maɪ ˈbɔːdɪŋ pɑːs/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-15.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u41-u41_filler_0",

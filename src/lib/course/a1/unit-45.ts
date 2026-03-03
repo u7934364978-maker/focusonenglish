@@ -396,12 +396,12 @@ export const UNIT_45_EXERCISES: Exercise[] = [
     "id": "a1-u45-u45_i301",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -415,18 +415,18 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit45/lesson5-task-1.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u45-u45_i302",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -440,18 +440,18 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit45/lesson5-task-2.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u45-u45_i303",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -465,18 +465,18 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit45/lesson5-task-3.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u45-u45_i304",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -490,18 +490,18 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit45/lesson5-task-4.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u45-u45_i305",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -515,18 +515,18 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit45/lesson5-task-5.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u45-u45_i306",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -540,18 +540,18 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit45/lesson5-task-6.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u45-u45_i307",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -565,135 +565,135 @@ export const UNIT_45_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit45/lesson5-task-7.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u45-u45_i308",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "The four seasons.",
     "content": {
       "title": "Pronunciación: Seasons",
-      "instructions": "Escucha y repite enfocándote en la 's' final.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "The four seasons.",
       "phonetic": "/ðə fɔː ˈsiːznz/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit45/lesson5-task-8.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u45-u45_i309",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Spring is here.",
     "content": {
       "title": "Pronunciación: Spring",
-      "instructions": "Escucha y repite el grupo consonántico 'spr'.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Spring is here.",
       "phonetic": "/sprɪŋ ɪz hɪə/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit45/lesson5-task-9.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u45-u45_i310",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "The summer is hot.",
     "content": {
       "title": "Pronunciación: Summer",
-      "instructions": "Escucha y repite la 'm' doble.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "The summer is hot.",
       "phonetic": "/ðə ˈsʌmə rɪz hɒt/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit45/lesson5-task-10.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u45-u45_i311",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "It is autumn.",
     "content": {
       "title": "Pronunciación: Autumn",
-      "instructions": "Escucha y repite la terminación '-mn'.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "It is autumn.",
       "phonetic": "/ˈɔːtəm/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit45/lesson5-task-11.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u45-u45_i312",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Winter is cold.",
     "content": {
       "title": "Pronunciación: Winter",
-      "instructions": "Escucha y repite la 'w' inicial.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Winter is cold.",
       "phonetic": "/ˈwɪntə rɪz kəʊld/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit45/lesson5-task-12.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u45-u45_i313",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "It is August.",
     "content": {
       "title": "Pronunciación: August",
-      "instructions": "Escucha y repite el acento.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "It is August.",
       "phonetic": "/ˈɔːɡəst/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit45/lesson5-task-13.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u45-u45_i314",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "It is December.",
     "content": {
       "title": "Pronunciación: December",
-      "instructions": "Escucha y repite la sílaba tónica.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "It is December.",
       "phonetic": "/dɪˈsɛmbə/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit45/lesson5-task-14.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u45-u45_i315",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "The weather changes in autumn.",
     "content": {
       "title": "Pronunciación: Repaso Seasons",
-      "instructions": "Escucha y repite la frase completa.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "The weather changes in autumn.",
       "phonetic": "/ðə ˈwɛðə ˈtʃeɪndʒɪz ɪn ˈɔːtəm/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit45/lesson5-task-15.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u45-u45_filler_0",

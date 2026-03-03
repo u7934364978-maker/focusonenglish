@@ -187,12 +187,12 @@ export const UNIT_53_EXERCISES: Exercise[] = [
     "id": "a1-u53-a1_u53_b2_i5",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "audio_player",
-      "instructions": "Escucha la pregunta:",
+      "instructions": "¿Cuál es la respuesta correcta?",
       "questions": [
         {
           "question": "Escucha la pregunta:",
@@ -205,7 +205,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/shared/any_water_question.mp3",
-    "topicName": "listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u53-a1_u53_b3_i1",
@@ -324,12 +324,12 @@ export const UNIT_53_EXERCISES: Exercise[] = [
     "id": "a1-u53-u53_i101",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -343,18 +343,18 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit53/lesson5-task-1.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u53-u53_i102",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -368,18 +368,18 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit53/lesson5-task-2.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u53-u53_i103",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -393,18 +393,18 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit53/lesson5-task-3.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u53-u53_i104",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -418,18 +418,18 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit53/lesson5-task-4.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u53-u53_i105",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -443,18 +443,18 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit53/lesson5-task-5.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u53-u53_i106",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -468,18 +468,18 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit53/lesson5-task-6.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u53-u53_i107",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -493,135 +493,135 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit53/lesson5-task-7.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u53-u53_i108",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "I need some flour.",
     "content": {
       "title": "Pronunciación: Flour",
-      "instructions": "Suena igual que 'flower'.",
+      "instructions": "¿Cuál es la respuesta correcta?",
       "expectedResponse": "I need some flour.",
       "phonetic": "/ˈflaʊə/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit53/lesson5-task-8.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u53-u53_i109",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Get some butter.",
     "content": {
       "title": "Pronunciación: Butter",
-      "instructions": "Escucha y repite la 'u' corta.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Get some butter.",
       "phonetic": "/ˈbʌtə/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit53/lesson5-task-9.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u53-u53_i110",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "I like cheese.",
     "content": {
       "title": "Pronunciación: Cheese",
-      "instructions": "Escucha y repite la 'ee' larga.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "I like cheese.",
       "phonetic": "/tʃiːz/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit53/lesson5-task-10.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u53-u53_i111",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "I don't have any salt.",
     "content": {
       "title": "Pronunciación: Any",
-      "instructions": "La 'a' suena como /ɛ/.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "I don't have any salt.",
       "phonetic": "/ˈɛni/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit53/lesson5-task-11.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u53-u53_i112",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Eat some bread.",
     "content": {
       "title": "Pronunciación: Bread",
-      "instructions": "Escucha y repite.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Eat some bread.",
       "phonetic": "/brɛd/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit53/lesson5-task-12.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u53-u53_i113",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "I have some cookies.",
     "content": {
       "title": "Pronunciación: Cookies",
-      "instructions": "Escucha y repite la 'oo'.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "I have some cookies.",
       "phonetic": "/ˈkʊkiz/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit53/lesson5-task-13.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u53-u53_i114",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "There are some bananas.",
     "content": {
       "title": "Pronunciación: Banana",
-      "instructions": "Escucha y repite la acentuación.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "There are some bananas.",
       "phonetic": "/bəˈnɑːnəz/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit53/lesson5-task-14.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u53-u53_i115",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "A bottle of water.",
     "content": {
       "title": "Pronunciación: Bottle",
-      "instructions": "Escucha y repite la 'o'.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "A bottle of water.",
       "phonetic": "/ˈbɒtl/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit53/lesson5-task-15.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u53-u53_filler_0",

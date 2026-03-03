@@ -199,12 +199,12 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "id": "a1-u58-a1_u58_b2_i5",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "audio_player",
-      "instructions": "Escucha la rutina:",
+      "instructions": "¿Cuál es la respuesta correcta?",
       "questions": [
         {
           "question": "Escucha la rutina:",
@@ -217,7 +217,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/shared/routine_habits.mp3",
-    "topicName": "listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u58-a1_u58_b3_i1",
@@ -427,12 +427,12 @@ export const UNIT_58_EXERCISES: Exercise[] = [
     "id": "a1-u58-u58_i101",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -446,18 +446,18 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-1.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u58-u58_i102",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -471,18 +471,18 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-2.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u58-u58_i103",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -496,18 +496,18 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-3.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u58-u58_i104",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -521,18 +521,18 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-4.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u58-u58_i105",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -546,18 +546,18 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-5.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u58-u58_i106",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -571,18 +571,18 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-6.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u58-u58_i107",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -596,135 +596,135 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-7.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u58-u58_i108",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Eat breakfast.",
     "content": {
       "title": "Pronunciación: Breakfast",
-      "instructions": "La 'ea' suena como /ɛ/.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Eat breakfast.",
       "phonetic": "/ˈbrɛkfəst/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-8.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u58-u58_i109",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "My daily routine.",
     "content": {
       "title": "Pronunciación: Routine",
-      "instructions": "La 'ou' suena como /uː/ y el acento está al final.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "My daily routine.",
       "phonetic": "/ruːˈtiːn/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-9.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u58-u58_i110",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Take a shower.",
     "content": {
       "title": "Pronunciación: Shower",
-      "instructions": "La 'sh' es sorda y la 'ow' suena como /aʊ/.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Take a shower.",
       "phonetic": "/ˈʃaʊə/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-10.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u58-u58_i111",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Have dinner.",
     "content": {
       "title": "Pronunciación: Dinner",
-      "instructions": "Escucha y repite la 'i' corta.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Have dinner.",
       "phonetic": "/ˈdɪnə/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-11.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u58-u58_i112",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "At seven o'clock.",
     "content": {
       "title": "Pronunciación: O'clock",
-      "instructions": "Escucha y repite enfocándote en la 'o'.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "At seven o'clock.",
       "phonetic": "/əˈklɒk/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-12.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u58-u58_i113",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "I finish work.",
     "content": {
       "title": "Pronunciación: Finish",
-      "instructions": "Dos 'i' cortas.",
+      "instructions": "¿Cuál es la respuesta correcta?",
       "expectedResponse": "I finish work.",
       "phonetic": "/ˈfɪnɪʃ/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-13.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u58-u58_i114",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "In the evening.",
     "content": {
       "title": "Pronunciación: Evening",
-      "instructions": "La primera 'e' es larga y la segunda es silenciosa.",
+      "instructions": "¿Cuál es la respuesta correcta?",
       "expectedResponse": "In the evening.",
       "phonetic": "/ˈiːvnɪŋ/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-14.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u58-u58_i115",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "A good habit.",
     "content": {
       "title": "Pronunciación: Habit",
-      "instructions": "La 'a' es abierta (/æ/).",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "A good habit.",
       "phonetic": "/ˈhæbɪt/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-15.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u58-u58_filler_0",

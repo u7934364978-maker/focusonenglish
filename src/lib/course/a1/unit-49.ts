@@ -136,12 +136,12 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "id": "a1-u49-a1_u49_b1_i5",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "audio_player",
-      "instructions": "Escucha y repite el vocabulario:",
+      "instructions": "Identifica el patrón de pronunciación:",
       "questions": [
         {
           "question": "Escucha y repite el vocabulario:",
@@ -154,7 +154,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/shared/suitcase_toiletries.mp3",
-    "topicName": "listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u49-a1_u49_b2_i1",
@@ -223,12 +223,12 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "id": "a1-u49-a1_u49_b2_i5",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "audio_player",
-      "instructions": "Escucha la frase:",
+      "instructions": "¿Cuál es la respuesta correcta?",
       "questions": [
         {
           "question": "Escucha la frase:",
@@ -241,7 +241,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/shared/dont_forget_charger.mp3",
-    "topicName": "listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u49-a1_u49_b3_i1",
@@ -421,12 +421,12 @@ export const UNIT_49_EXERCISES: Exercise[] = [
     "id": "a1-u49-u49_i301",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -440,18 +440,18 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-1.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u49-u49_i302",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -465,18 +465,18 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-2.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u49-u49_i303",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -490,18 +490,18 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-3.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u49-u49_i304",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -515,18 +515,18 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-4.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u49-u49_i305",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -540,18 +540,18 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-5.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u49-u49_i306",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -565,18 +565,18 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-6.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u49-u49_i307",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -590,135 +590,135 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-7.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u49-u49_i308",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "My suitcase is blue.",
     "content": {
       "title": "Pronunciación: Suitcase",
-      "instructions": "Escucha y repite enfocándote en la 's'.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "My suitcase is blue.",
       "phonetic": "/maɪ ˈsuːtkeɪs ɪz bluː/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-8.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u49-u49_i309",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "I need my charger.",
     "content": {
       "title": "Pronunciación: Charger",
-      "instructions": "Escucha y repite la 'ch'.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "I need my charger.",
       "phonetic": "/aɪ niːd maɪ ˈtʃɑːdʒə/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-9.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u49-u49_i310",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Take your passport.",
     "content": {
       "title": "Pronunciación: Passport",
-      "instructions": "Escucha y repite la 'p' aspirada.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Take your passport.",
       "phonetic": "/teɪk jɔː ˈpɑːspɔːt/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-10.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u49-u49_i311",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "A universal adapter.",
     "content": {
       "title": "Pronunciación: Adapter",
-      "instructions": "Escucha y repite el acento.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "A universal adapter.",
       "phonetic": "/ˌjuːnɪˈvɜːsl əˈdæptə/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-11.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u49-u49_i312",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Wear your sunglasses.",
     "content": {
       "title": "Pronunciación: Sunglasses",
-      "instructions": "Escucha y repite la palabra compuesta.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Wear your sunglasses.",
       "phonetic": "/weə jɔː ˈsʌnɡlɑːsɪz/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-12.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u49-u49_i313",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "It is very heavy.",
     "content": {
       "title": "Pronunciación: Heavy",
-      "instructions": "Escucha y repite la 'h' aspirada.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "It is very heavy.",
       "phonetic": "/ɪt ɪz ˈvɛri ˈhɛvi/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-13.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u49-u49_i314",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "It is light.",
     "content": {
       "title": "Pronunciación: Light",
-      "instructions": "Escucha y repite la 'i' larga.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "It is light.",
       "phonetic": "/ɪt ɪz laɪt/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-14.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u49-u49_i315",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "I pack my bag.",
     "content": {
       "title": "Pronunciación: Repaso Packing",
-      "instructions": "Escucha y repite la frase completa.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "I pack my bag.",
       "phonetic": "/aɪ pæk maɪ bæɡ/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-15.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u49-u49_filler_0",

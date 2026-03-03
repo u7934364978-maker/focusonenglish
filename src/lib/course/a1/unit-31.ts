@@ -383,12 +383,12 @@ export const UNIT_31_EXERCISES: Exercise[] = [
     "id": "a1-u31-a1_u31_b31_4_i4",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "audio_player",
-      "instructions": "Escucha atentamente:",
+      "instructions": "¿Cuál es la respuesta correcta?",
       "questions": [
         {
           "question": "Escucha atentamente:",
@@ -401,7 +401,7 @@ export const UNIT_31_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/shared/892c5213812d45ff26f8c99247d3bfbb.mp3",
-    "topicName": "listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u31-a1_u31_b31_4_i5",

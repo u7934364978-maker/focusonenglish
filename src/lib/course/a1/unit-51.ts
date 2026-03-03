@@ -136,12 +136,12 @@ export const UNIT_51_EXERCISES: Exercise[] = [
     "id": "a1-u51-a1_u51_b1_i5",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "audio_player",
-      "instructions": "Escucha y repite:",
+      "instructions": "Identifica el patrón de pronunciación:",
       "questions": [
         {
           "question": "Escucha y repite:",
@@ -154,7 +154,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/shared/supermarket_vocab.mp3",
-    "topicName": "listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u51-a1_u51_b2_i1",
@@ -249,12 +249,12 @@ export const UNIT_51_EXERCISES: Exercise[] = [
     "id": "a1-u51-a1_u51_b2_i5",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "audio_player",
-      "instructions": "Escucha la ubicación:",
+      "instructions": "¿Cuál es la respuesta correcta?",
       "questions": [
         {
           "question": "Escucha la ubicación:",
@@ -267,7 +267,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/shared/milk_aisle.mp3",
-    "topicName": "listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u51-a1_u51_b3_i1",
@@ -363,12 +363,12 @@ export const UNIT_51_EXERCISES: Exercise[] = [
     "id": "a1-u51-a1_u51_b3_i5",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "audio_player",
-      "instructions": "Escucha y responde:",
+      "instructions": "¿Cuál es la respuesta correcta?",
       "questions": [
         {
           "question": "Escucha y responde:",
@@ -381,7 +381,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/shared/cashier_receipt.mp3",
-    "topicName": "listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u51-a1_u51_b4_i2",
@@ -460,12 +460,12 @@ export const UNIT_51_EXERCISES: Exercise[] = [
     "id": "a1-u51-a1_u51_b4_i5",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "audio_player",
-      "instructions": "Escucha el resumen final:",
+      "instructions": "¿Cuál es la respuesta correcta?",
       "questions": [
         {
           "question": "Escucha el resumen final:",
@@ -478,18 +478,18 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/shared/unit51_summary.mp3",
-    "topicName": "listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u51-u51_i101",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -503,18 +503,18 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-1.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u51-u51_i102",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -528,18 +528,18 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-2.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u51-u51_i103",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -553,18 +553,18 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-3.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u51-u51_i104",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -578,18 +578,18 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-4.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u51-u51_i105",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -603,18 +603,18 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-5.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u51-u51_i106",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -628,18 +628,18 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-6.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u51-u51_i107",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -653,135 +653,135 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-7.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u51-u51_i108",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Here is your receipt.",
     "content": {
       "title": "Pronunciación: Receipt",
-      "instructions": "La 'p' es silenciosa.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Here is your receipt.",
       "phonetic": "/rɪˈsiːt/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-8.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u51-u51_i109",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Go to aisle four.",
     "content": {
       "title": "Pronunciación: Aisle",
-      "instructions": "La 's' es silenciosa.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Go to aisle four.",
       "phonetic": "/aɪl/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-9.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u51-u51_i110",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Get a trolley.",
     "content": {
       "title": "Pronunciación: Trolley",
-      "instructions": "Escucha y repite enfocándote en la 'o'.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Get a trolley.",
       "phonetic": "/ˈtrɒli/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-10.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u51-u51_i111",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Where is the checkout?",
     "content": {
       "title": "Pronunciación: Checkout",
-      "instructions": "Escucha y repite la palabra compuesta.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Where is the checkout?",
       "phonetic": "/ˈtʃɛkaʊt/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-11.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u51-u51_i112",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Take a basket.",
     "content": {
       "title": "Pronunciación: Basket",
-      "instructions": "Escucha y repite enfocándote en la 'a'.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Take a basket.",
       "phonetic": "/ˈbɑːskɪt/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-12.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u51-u51_i113",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "I like fruit.",
     "content": {
       "title": "Pronunciación: Fruits",
-      "instructions": "La 'ui' suena como /uː/.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "I like fruit.",
       "phonetic": "/fruːt/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-13.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u51-u51_i114",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "A grocery store.",
     "content": {
       "title": "Pronunciación: Grocery",
-      "instructions": "Escucha y repite enfocándote en la 'o'.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "A grocery store.",
       "phonetic": "/ˈɡrəʊsəri/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-14.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u51-u51_i115",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "I pay in cash.",
     "content": {
       "title": "Pronunciación: Cash",
-      "instructions": "Escucha y repite la 'sh' final.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "I pay in cash.",
       "phonetic": "/kæʃ/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-15.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u51-u51_filler_0",

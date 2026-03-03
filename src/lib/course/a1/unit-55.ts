@@ -225,12 +225,12 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "id": "a1-u55-a1_u55_b2_i5",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "audio_player",
-      "instructions": "Escucha la petición:",
+      "instructions": "¿Cuál es la respuesta correcta?",
       "questions": [
         {
           "question": "Escucha la petición:",
@@ -243,7 +243,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/shared/can_i_help_you.mp3",
-    "topicName": "listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u55-a1_u55_b3_i1",
@@ -423,12 +423,12 @@ export const UNIT_55_EXERCISES: Exercise[] = [
     "id": "a1-u55-u55_i101",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -442,18 +442,18 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-1.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u55-u55_i102",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -467,18 +467,18 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-2.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u55-u55_i103",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -492,18 +492,18 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-3.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u55-u55_i104",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -517,18 +517,18 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-4.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u55-u55_i105",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -542,18 +542,18 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-5.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u55-u55_i106",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -567,18 +567,18 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-6.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u55-u55_i107",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -592,135 +592,135 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-7.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u55-u55_i108",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "I buy clothes.",
     "content": {
       "title": "Pronunciación: Clothes",
-      "instructions": "La 'th' es sonora y la 'e' es silenciosa.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "I buy clothes.",
       "phonetic": "/kləʊðz/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-8.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u55-u55_i109",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "What size?",
     "content": {
       "title": "Pronunciación: Size",
-      "instructions": "Escucha y repite la 's' vibrante final.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "What size?",
       "phonetic": "/saɪz/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-9.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u55-u55_i110",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "A blue shirt.",
     "content": {
       "title": "Pronunciación: Shirt",
-      "instructions": "La 'ir' suena como /ɜː/.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "A blue shirt.",
       "phonetic": "/ʃɜːt/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-10.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u55-u55_i111",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "The fitting room.",
     "content": {
       "title": "Pronunciación: Fitting Room",
-      "instructions": "Escucha y repite la palabra compuesta.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "The fitting room.",
       "phonetic": "/ˈfɪtɪŋ ruːm/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-11.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u55-u55_i112",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Happy customer.",
     "content": {
       "title": "Pronunciación: Customer",
-      "instructions": "Escucha y repite enfocándote en la primera sílaba.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Happy customer.",
       "phonetic": "/ˈkʌstəmə/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-12.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u55-u55_i113",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Get the receipt.",
     "content": {
       "title": "Pronunciación: Receipt",
-      "instructions": "Recordatorio: la 'p' es silenciosa.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Get the receipt.",
       "phonetic": "/rɪˈsiːt/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-13.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u55-u55_i114",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "A small size.",
     "content": {
       "title": "Pronunciación: Small",
-      "instructions": "La 'a' suena como /ɔː/.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "A small size.",
       "phonetic": "/smɔːl/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-14.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u55-u55_i115",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Pay at the checkout.",
     "content": {
       "title": "Pronunciación: Checkout",
-      "instructions": "Escucha y repite.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Pay at the checkout.",
       "phonetic": "/ˈtʃɛkaʊt/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-15.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u55-u55_filler_0",

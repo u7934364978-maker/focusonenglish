@@ -429,12 +429,12 @@ export const UNIT_56_EXERCISES: Exercise[] = [
     "id": "a1-u56-u56_i101",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -448,18 +448,18 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-1.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u56-u56_i102",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -473,18 +473,18 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-2.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u56-u56_i103",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -498,18 +498,18 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-3.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u56-u56_i104",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -523,18 +523,18 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-4.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u56-u56_i105",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -548,18 +548,18 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-5.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u56-u56_i106",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -573,18 +573,18 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-6.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u56-u56_i107",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -598,135 +598,135 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-7.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u56-u56_i108",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Open the fridge.",
     "content": {
       "title": "Pronunciación: Fridge",
-      "instructions": "La 'dg' suena como /dʒ/.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Open the fridge.",
       "phonetic": "/frɪdʒ/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-8.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u56-u56_i109",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "The microwave is hot.",
     "content": {
       "title": "Pronunciación: Microwave",
-      "instructions": "Escucha y repite la 'i' larga.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "The microwave is hot.",
       "phonetic": "/ˈmaɪkrəweɪv/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-9.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u56-u56_i110",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "It is in the cupboard.",
     "content": {
       "title": "Pronunciación: Cupboard",
-      "instructions": "La 'p' es silenciosa.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "It is in the cupboard.",
       "phonetic": "/ˈkʌbəd/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-10.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u56-u56_i111",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "The sink is full.",
     "content": {
       "title": "Pronunciación: Sink",
-      "instructions": "Escucha y repite la 'i' corta.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "The sink is full.",
       "phonetic": "/sɪŋk/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-11.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u56-u56_i112",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Turn on the oven.",
     "content": {
       "title": "Pronunciación: Oven",
-      "instructions": "La 'o' inicial suena como /ʌ/.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Turn on the oven.",
       "phonetic": "/ˈʌvn/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-12.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u56-u56_i113",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Open the drawer.",
     "content": {
       "title": "Pronunciación: Drawer",
-      "instructions": "Escucha y repite.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Open the drawer.",
       "phonetic": "/drɔː/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-13.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u56-u56_i114",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Put it on the shelf.",
     "content": {
       "title": "Pronunciación: Shelf",
-      "instructions": "Escucha y repite la 'sh' inicial.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Put it on the shelf.",
       "phonetic": "/ʃɛlf/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-14.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u56-u56_i115",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Clean the kitchen.",
     "content": {
       "title": "Pronunciación: Kitchen",
-      "instructions": "Escucha y repite.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Clean the kitchen.",
       "phonetic": "/ˈkɪtʃɪn/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-15.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u56-u56_filler_0",

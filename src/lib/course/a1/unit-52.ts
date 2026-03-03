@@ -376,12 +376,12 @@ export const UNIT_52_EXERCISES: Exercise[] = [
     "id": "a1-u52-u52_i101",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -395,18 +395,18 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-1.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u52-u52_i102",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -420,18 +420,18 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-2.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u52-u52_i103",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -445,18 +445,18 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-3.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u52-u52_i104",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -470,18 +470,18 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-4.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u52-u52_i105",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -495,18 +495,18 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-5.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u52-u52_i106",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -520,18 +520,18 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-6.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u52-u52_i107",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "Listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "",
     "content": {
       "title": "Listening Practice",
-      "instructions": "Escucha y escribe lo que oyes:",
+      "instructions": "¿Cuál es la frase correcta?",
       "questions": [
         {
           "question": "",
@@ -545,135 +545,135 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-7.mp3",
-    "topicName": "Listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u52-u52_i108",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "I like bread.",
     "content": {
       "title": "Pronunciación: Bread",
-      "instructions": "Escucha y repite la 'ea'.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "I like bread.",
       "phonetic": "/brɛd/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-8.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u52-u52_i109",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Do you have sugar?",
     "content": {
       "title": "Pronunciación: Sugar",
-      "instructions": "La 's' inicial suena como /ʃ/.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Do you have sugar?",
       "phonetic": "/ˈʃʊɡə/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-9.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u52-u52_i110",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "I drink water.",
     "content": {
       "title": "Pronunciación: Water",
-      "instructions": "Escucha y repite enfocándote en la 't'.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "I drink water.",
       "phonetic": "/ˈwɔːtə/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-10.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u52-u52_i111",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "I drink milk.",
     "content": {
       "title": "Pronunciación: Milk",
-      "instructions": "Escucha y repite la 'i' corta.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "I drink milk.",
       "phonetic": "/mɪlk/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-11.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u52-u52_i112",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Eat an orange.",
     "content": {
       "title": "Pronunciación: Orange",
-      "instructions": "Escucha y repite la 'g' final.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "Eat an orange.",
       "phonetic": "/ˈɒrɪndʒ/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-12.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u52-u52_i113",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "I eat rice.",
     "content": {
       "title": "Pronunciación: Rice",
-      "instructions": "La 'c' suena como /s/.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "I eat rice.",
       "phonetic": "/raɪs/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-13.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u52-u52_i114",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "I have an apple.",
     "content": {
       "title": "Pronunciación: Apple",
-      "instructions": "La 'a' suena como /æ/.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "I have an apple.",
       "phonetic": "/ˈæpl/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-14.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u52-u52_i115",
     "type": "pronunciation",
     "level": "A1",
-    "topic": "Pronunciation",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "I need some coffee.",
     "content": {
       "title": "Pronunciación: Some",
-      "instructions": "Escucha y repite.",
+      "instructions": "Identifica el patrón de pronunciación:",
       "expectedResponse": "I need some coffee.",
       "phonetic": "/sʌm/"
     },
     "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-15.mp3",
-    "topicName": "Pronunciation"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u52-u52_filler_0",

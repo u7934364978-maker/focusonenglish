@@ -240,12 +240,12 @@ export const UNIT_39_EXERCISES: Exercise[] = [
     "id": "a1-u39-a1_u39_b39_4_i1",
     "type": "multiple-choice",
     "level": "A1",
-    "topic": "listening",
+    "topic": "vocabulary",
     "difficulty": "medium",
     "transcript": "Last night there was a power cut at our house. My mother was in the kitchen. My father was in the living room. My brother was in his bedroom. It was very dark, but we were all safe.",
     "content": {
       "title": "audio_player",
-      "instructions": "Escucha y escribe:",
+      "instructions": "¿Cuál es la respuesta correcta?",
       "questions": [
         {
           "question": "Last night there was a power cut at our house. My mother was in the kitchen. My father was in the living room. My brother was in his bedroom. It was very dark, but we were all safe.",
@@ -258,7 +258,7 @@ export const UNIT_39_EXERCISES: Exercise[] = [
       ]
     },
     "audioUrl": "/audio/courses/ingles-a1/shared/e1676698188151249767098e792e3a89.mp3",
-    "topicName": "listening"
+    "topicName": "vocabulary"
   },
   {
     "id": "a1-u39-a1_u39_b39_4_i5",
