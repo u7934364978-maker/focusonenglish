@@ -132,6 +132,7 @@ Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 - Verify: `node scripts/audit-a1-full.mjs --units=11-20` → zero critical errors
 
 ### [ ] Step: Fix Module 3 — Units 21–30 (FIX-8 deduplication + standard fixes)
+<!-- chat-id: 099062c9-fa49-4748-9243-8c07d30e8df1 -->
 - **Units 22, 24, 26, 27, 28** (FIX-8 — deduplication):
   - Identify and remove duplicate interaction objects (same `prompt_es` and `correct_answer`)
   - Cap each unit at 80 interactions (target 60); preserve the most pedagogically valuable exercises
