@@ -46,3 +46,6 @@ __MACOSX/
 
 # Admin credentials (SENSITIVE - DO NOT COMMIT)
 ADMIN_CREDENTIALS.md
+
+# Generated audit reports
+/reports/

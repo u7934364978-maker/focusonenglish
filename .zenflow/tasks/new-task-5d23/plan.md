@@ -47,7 +47,8 @@ Save to `{@artifacts_path}/spec.md` with:
 
 Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 
-### [ ] Step: Build Audit Script
+### [x] Step: Build Audit Script
+<!-- chat-id: 0f1e8804-7163-4f2a-aaf0-8f5d767ee016 -->
 - Create `scripts/audit-a1-full.mjs` that scans all 60 unit JSON files
 - Detections to implement:
   - Missing `[[...]]` translations in English-language fields
