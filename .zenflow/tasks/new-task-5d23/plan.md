@@ -81,6 +81,7 @@ Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 - Verify: `node scripts/audit-a1-full.mjs --units=1-3` → zero critical errors
 
 ### [ ] Step: Fix Module 1 — Units 4–7 (full rewrites)
+<!-- chat-id: 293e53dc-8df0-447a-8ece-3c8932a7387d -->
 - **Unit 4** (FIX-7 — full rewrite):
   - Replace alphabet/spelling content with: Numbers 1–10, Classroom objects + A/An (a pen, an eraser, a notebook), Basic colors (red, blue, green, yellow, white, black), This/That + regular plurals (-s), Reading: "In My Bag"
   - 60 interactions, `[[English|Spanish]]` throughout
