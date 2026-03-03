@@ -399,7 +399,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[I want an apple.|I want an apple.]]",
-            ""[[I want an apple here.|I want an apple here.]]""
+            "[[I want an apple here.|I want an apple here.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -424,7 +424,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[I have some milk.|I have some milk.]]",
-            ""[[I have some milk here.|I have some milk here.]]""
+            "[[I have some milk here.|I have some milk here.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -499,7 +499,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Do you want some water?|Do you want some water?]]",
-            ""[[Do you want some water here.|Do you want some water here.]]""
+            "[[Do you want some water here.|Do you want some water here.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -549,7 +549,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[They need some sugar.|They need some sugar.]]",
-            ""[[They need some sugar here.|They need some sugar here.]]""
+            "[[They need some sugar here.|They need some sugar here.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

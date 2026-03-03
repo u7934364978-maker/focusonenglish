@@ -413,7 +413,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[My favorite season is spring.|Mi estación favorita es la primavera.]]",
-            ""[[My favorite season isn't spring.|My favorite season isn't spring.]]""
+            "[[My favorite season isn't spring.|My favorite season isn't spring.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -463,7 +463,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Leaves fall in autumn.|Las hojas caen en otoño.]]",
-            ""[[Leaves fall in autumn here.|Leaves fall in autumn here.]]""
+            "[[Leaves fall in autumn here.|Leaves fall in autumn here.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -512,7 +512,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            ""[[We come to the beach in August.|We come to the beach in August.]]"",
+            "[[We come to the beach in August.|We come to the beach in August.]]",
             "[[We go to the beach in August.|Vamos a la playa en agosto.]]"
           ],
           "correctAnswer": 1,
@@ -537,7 +537,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            ""[[Plants grow in the spring here.|Plants grow in the spring here.]]"",
+            "[[Plants grow in the spring here.|Plants grow in the spring here.]]",
             "[[Plants grow in the spring.|Las plantas crecen en la primavera.]]"
           ],
           "correctAnswer": 1,
@@ -563,7 +563,7 @@ export const UNIT_45_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Do you like winter?|¿Te gusta el invierno?]]",
-            ""[[Do you like winter here.|Do you like winter here.]]""
+            "[[Do you like winter here.|Do you like winter here.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

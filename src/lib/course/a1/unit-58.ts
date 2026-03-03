@@ -444,7 +444,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[I wake up at seven.|I wake up at seven.]]",
-            ""[[I wake up at seven here.|I wake up at seven here.]]""
+            "[[I wake up at seven here.|I wake up at seven here.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -468,7 +468,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            ""[[I have breakfast in the bedroom.|I have breakfast in the bedroom.]]"",
+            "[[I have breakfast in the bedroom.|I have breakfast in the bedroom.]]",
             "[[I have breakfast in the kitchen.|I have breakfast in the kitchen.]]"
           ],
           "correctAnswer": 1,
@@ -493,7 +493,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            ""[[We come to work by bus.|We come to work by bus.]]"",
+            "[[We come to work by bus.|We come to work by bus.]]",
             "[[We go to work by bus.|We go to work by bus.]]"
           ],
           "correctAnswer": 1,
@@ -543,7 +543,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            ""[[They have dinner at eight here.|They have dinner at eight here.]]"",
+            "[[They have dinner at eight here.|They have dinner at eight here.]]",
             "[[They have dinner at eight.|They have dinner at eight.]]"
           ],
           "correctAnswer": 1,

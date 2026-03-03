@@ -461,7 +461,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            ""[[I come to work by bus.|I come to work by bus.]]"",
+            "[[I come to work by bus.|I come to work by bus.]]",
             "[[I go to work by bus.|I go to work by bus.]]"
           ],
           "correctAnswer": 1,
@@ -487,7 +487,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[The next bus is in ten minutes.|The next bus is in ten minutes.]]",
-            ""[[The next bus isn't in ten minutes.|The next bus isn't in ten minutes.]]""
+            "[[The next bus isn't in ten minutes.|The next bus isn't in ten minutes.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -537,7 +537,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[The station is very crowded.|The station is very crowded.]]",
-            ""[[The station isn't very crowded.|The station isn't very crowded.]]""
+            "[[The station isn't very crowded.|The station isn't very crowded.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -561,7 +561,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            ""[[Where isn't the bus stop?|Where isn't the bus stop?]]"",
+            "[[Where isn't the bus stop?|Where isn't the bus stop?]]",
             "[[Where is the bus stop?|Where is the bus stop?]]"
           ],
           "correctAnswer": 1,

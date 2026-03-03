@@ -436,7 +436,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Please show your passport.|Please show your passport.]]",
-            ""[[Please show your ticket.|Please show your ticket.]]""
+            "[[Please show your ticket.|Please show your ticket.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -460,7 +460,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            ""[[The train is on time.|The train is on time.]]"",
+            "[[The train is on time.|The train is on time.]]",
             "[[The flight is on time.|The flight is on time.]]"
           ],
           "correctAnswer": 1,
@@ -486,7 +486,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Is this your luggage?|Is this your luggage?]]",
-            ""[[Is this your passport?|Is this your passport?]]""
+            "[[Is this your passport?|Is this your passport?]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -511,7 +511,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[The check-in desk is closed.|The check-in desk is closed.]]",
-            ""[[The check-in desk is open.|The check-in desk is open.]]""
+            "[[The check-in desk is open.|The check-in desk is open.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -535,7 +535,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            ""[[Take your boarding pass here.|Take your boarding pass here.]]"",
+            "[[Take your boarding pass here.|Take your boarding pass here.]]",
             "[[Take your boarding pass.|Take your boarding pass.]]"
           ],
           "correctAnswer": 1,
@@ -561,7 +561,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Wait in the lounge.|Wait in the lounge.]]",
-            ""[[Wait in the lounge here.|Wait in the lounge here.]]""
+            "[[Wait in the lounge here.|Wait in the lounge here.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

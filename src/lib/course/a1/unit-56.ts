@@ -471,7 +471,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Put it in the oven.|Put it in the oven.]]",
-            ""[[Put it in the oven here.|Put it in the oven here.]]""
+            "[[Put it in the oven here.|Put it in the oven here.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -520,7 +520,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            ""[[Where isn't the microwave?|Where isn't the microwave?]]"",
+            "[[Where isn't the microwave?|Where isn't the microwave?]]",
             "[[Where is the microwave?|Where is the microwave?]]"
           ],
           "correctAnswer": 1,
@@ -546,7 +546,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Wash the dishes in the sink.|Wash the dishes in the sink.]]",
-            ""[[Wash the dishes in the sink here.|Wash the dishes in the sink here.]]""
+            "[[Wash the dishes in the sink here.|Wash the dishes in the sink here.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -571,7 +571,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[The forks are in the drawer.|The forks are in the drawer.]]",
-            ""[[The forks aren't in the drawer.|The forks aren't in the drawer.]]""
+            "[[The forks aren't in the drawer.|The forks aren't in the drawer.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

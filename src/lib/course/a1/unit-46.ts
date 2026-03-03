@@ -407,7 +407,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[I would like a quiet room, please.|I would like a quiet room, please.]]",
-            ""[[I would like a quiet room, sorry.|I would like a quiet room, sorry.]]""
+            "[[I would like a quiet room, sorry.|I would like a quiet room, sorry.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -431,7 +431,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            ""[[Where isn't the reception desk?|Where isn't the reception desk?]]"",
+            "[[Where isn't the reception desk?|Where isn't the reception desk?]]",
             "[[Where is the reception desk?|Where is the reception desk?]]"
           ],
           "correctAnswer": 1,
@@ -557,7 +557,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Please call a taxi for me.|Please call a taxi for me.]]",
-            ""[[sorry call a taxi for me.|sorry call a taxi for me.]]""
+            "[[sorry call a taxi for me.|sorry call a taxi for me.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

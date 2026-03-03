@@ -532,7 +532,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Where is the checkout?|Where is the checkout?]]",
-            ""[[Where isn't the checkout?|Where isn't the checkout?]]""
+            "[[Where isn't the checkout?|Where isn't the checkout?]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -556,7 +556,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            ""[[I have my receipt here.|I have my receipt here.]]"",
+            "[[I have my receipt here.|I have my receipt here.]]",
             "[[I have my receipt.|I have my receipt.]]"
           ],
           "correctAnswer": 1,
@@ -631,7 +631,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            ""[[The aisle isn't very long.|The aisle isn't very long.]]"",
+            "[[The aisle isn't very long.|The aisle isn't very long.]]",
             "[[The aisle is very long.|The aisle is very long.]]"
           ],
           "correctAnswer": 1,
@@ -656,7 +656,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            ""[[Where isn't the fruit section?|Where isn't the fruit section?]]"",
+            "[[Where isn't the fruit section?|Where isn't the fruit section?]]",
             "[[Where is the fruit section?|Where is the fruit section?]]"
           ],
           "correctAnswer": 1,

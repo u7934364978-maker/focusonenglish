@@ -411,7 +411,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[I visit many museums.|I visit many museums.]]",
-            ""[[I visit many museums here.|I visit many museums here.]]""
+            "[[I visit many museums here.|I visit many museums here.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -435,7 +435,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            ""[[They stay at a hotel here.|They stay at a hotel here.]]"",
+            "[[They stay at a hotel here.|They stay at a hotel here.]]",
             "[[They stay at a hotel.|They stay at a hotel.]]"
           ],
           "correctAnswer": 1,
@@ -460,7 +460,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            ""[[We take many photos here.|We take many photos here.]]"",
+            "[[We take many photos here.|We take many photos here.]]",
             "[[We take many photos.|We take many photos.]]"
           ],
           "correctAnswer": 1,
@@ -486,7 +486,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[He travels around the world.|He travels around the world.]]",
-            ""[[He travels around the world here.|He travels around the world here.]]""
+            "[[He travels around the world here.|He travels around the world here.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -511,7 +511,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[She buys souvenirs for her friends.|She buys souvenirs for her friends.]]",
-            ""[[She buys souvenirs for her friends here.|She buys souvenirs for her friends here.]]""
+            "[[She buys souvenirs for her friends here.|She buys souvenirs for her friends here.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

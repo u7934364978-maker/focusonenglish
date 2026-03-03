@@ -568,7 +568,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            ""[[Are there any people here here.|Are there any people here here.]]"",
+            "[[Are there any people here here.|Are there any people here here.]]",
             "[[Are there any people here?|Are there any people here?]]"
           ],
           "correctAnswer": 1,
@@ -643,7 +643,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            ""[[The women aren't talking.|The women aren't talking.]]"",
+            "[[The women aren't talking.|The women aren't talking.]]",
             "[[The women are talking.|The women are talking.]]"
           ],
           "correctAnswer": 1,

@@ -486,7 +486,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            ""[[The weather isn't cloudy and cool.|The weather isn't cloudy and cool.]]"",
+            "[[The weather isn't cloudy and cool.|The weather isn't cloudy and cool.]]",
             "[[The weather is cloudy and cool.|The weather is cloudy and cool.]]"
           ],
           "correctAnswer": 1,
@@ -511,7 +511,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            ""[[It is very windy in the morning.|It is very windy in the morning.]]"",
+            "[[It is very windy in the morning.|It is very windy in the morning.]]",
             "[[It is very windy in the afternoon.|It is very windy in the afternoon.]]"
           ],
           "correctAnswer": 1,
@@ -536,7 +536,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            ""[[What isn't the weather like?|What isn't the weather like?]]"",
+            "[[What isn't the weather like?|What isn't the weather like?]]",
             "[[What is the weather like?|What is the weather like?]]"
           ],
           "correctAnswer": 1,
@@ -562,7 +562,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[There is snow on the mountains.|There is snow on the mountains.]]",
-            ""[[There isn't snow on the mountains.|There isn't snow on the mountains.]]""
+            "[[There isn't snow on the mountains.|There isn't snow on the mountains.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -587,7 +587,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[The forecast says it is going to rain.|The forecast says it is going to rain.]]",
-            ""[[The forecast says it isn't going to rain.|The forecast says it isn't going to rain.]]""
+            "[[The forecast says it isn't going to rain.|The forecast says it isn't going to rain.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

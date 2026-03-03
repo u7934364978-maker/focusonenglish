@@ -447,7 +447,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[There isn't any cheese.|There isn't any cheese.]]",
-            ""[[There isn't any cheese here.|There isn't any cheese here.]]""
+            "[[There isn't any cheese here.|There isn't any cheese here.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -472,7 +472,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[I want some eggs.|I want some eggs.]]",
-            ""[[I want some eggs here.|I want some eggs here.]]""
+            "[[I want some eggs here.|I want some eggs here.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

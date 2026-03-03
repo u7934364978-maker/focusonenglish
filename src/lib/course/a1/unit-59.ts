@@ -217,7 +217,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
           "question": "I don't like ________ to rock music.",
           "options": [
             "[[Go for a walk|Dar un paseo]]",
-            ""[[come for a walk|come for a walk]]"",
+            "[[come for a walk|come for a walk]]",
             "[[listening|listening]]"
           ],
           "correctAnswer": 2
@@ -468,7 +468,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            ""[[I like reading books here.|I like reading books here.]]"",
+            "[[I like reading books here.|I like reading books here.]]",
             "[[I like reading books.|I like reading books.]]"
           ],
           "correctAnswer": 1,
@@ -519,7 +519,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[They enjoy swimming.|They enjoy swimming.]]",
-            ""[[They enjoy swimming here.|They enjoy swimming here.]]""
+            "[[They enjoy swimming here.|They enjoy swimming here.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -543,7 +543,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            ""[[I hate dancing here.|I hate dancing here.]]"",
+            "[[I hate dancing here.|I hate dancing here.]]",
             "[[I hate dancing.|I hate dancing.]]"
           ],
           "correctAnswer": 1,
@@ -568,7 +568,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            ""[[We meet friends on Sunday here.|We meet friends on Sunday here.]]"",
+            "[[We meet friends on Sunday here.|We meet friends on Sunday here.]]",
             "[[We meet friends on Sunday.|We meet friends on Sunday.]]"
           ],
           "correctAnswer": 1,
@@ -593,7 +593,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            ""[[I watch movies in my spare time here.|I watch movies in my spare time here.]]"",
+            "[[I watch movies in my spare time here.|I watch movies in my spare time here.]]",
             "[[I watch movies in my spare time.|I watch movies in my spare time.]]"
           ],
           "correctAnswer": 1,

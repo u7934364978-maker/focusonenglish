@@ -488,7 +488,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[I have my passport and tickets.|I have my passport and tickets.]]",
-            ""[[I have my ticket and tickets.|I have my ticket and tickets.]]""
+            "[[I have my ticket and tickets.|I have my ticket and tickets.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -588,7 +588,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[Where are my sunglasses?|Where are my sunglasses?]]",
-            ""[[Where aren't my sunglasses?|Where aren't my sunglasses?]]""
+            "[[Where aren't my sunglasses?|Where aren't my sunglasses?]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

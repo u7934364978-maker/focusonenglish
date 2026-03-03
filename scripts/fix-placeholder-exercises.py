@@ -225,7 +225,7 @@ def fix_file(filepath):
                     if real_text:
                         wrong_sent = make_wrong_sentence(real_text.group(1))
                         wrong_tok = f'[[{wrong_sent}|{wrong_sent}]]'
-                        new_opts_str = PLACEHOLDER_RE.sub(f'"{wrong_tok}"', opts_str, count=1)
+                        new_opts_str = PLACEHOLDER_RE.sub(wrong_tok, opts_str, count=1)
                         # Remove any remaining placeholders
                         new_opts_str = re.sub(r',?\s*"\[\[o1\|opción 1\]\]"', '', new_opts_str)
                         if new_opts_str != opts_str:

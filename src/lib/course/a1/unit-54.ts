@@ -424,7 +424,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[How many books are there?|How many books are there?]]",
-            ""[[How many books aren't there?|How many books aren't there?]]""
+            "[[How many books aren't there?|How many books aren't there?]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -449,7 +449,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[I have a lot of friends.|I have a lot of friends.]]",
-            ""[[I have a lot of friends here.|I have a lot of friends here.]]""
+            "[[I have a lot of friends here.|I have a lot of friends here.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -473,7 +473,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            ""[[There isn't a little milk.|There isn't a little milk.]]"",
+            "[[There isn't a little milk.|There isn't a little milk.]]",
             "[[There is a little milk.|There is a little milk.]]"
           ],
           "correctAnswer": 1,

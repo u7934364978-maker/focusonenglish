@@ -410,7 +410,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            ""[[I love sunbathing on the beach here.|I love sunbathing on the beach here.]]"",
+            "[[I love sunbathing on the beach here.|I love sunbathing on the beach here.]]",
             "[[I love sunbathing on the beach.|I love sunbathing on the beach.]]"
           ],
           "correctAnswer": 1,
@@ -461,7 +461,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[We go hiking in the mountains.|We go hiking in the mountains.]]",
-            ""[[We come hiking in the mountains.|We come hiking in the mountains.]]""
+            "[[We come hiking in the mountains.|We come hiking in the mountains.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -561,7 +561,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[We eat local food in the evening.|We eat local food in the evening.]]",
-            ""[[We drink local food in the evening.|We drink local food in the evening.]]""
+            "[[We drink local food in the evening.|We drink local food in the evening.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

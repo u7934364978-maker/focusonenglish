@@ -511,7 +511,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            ""[[The museum opens at ten here.|The museum opens at ten here.]]"",
+            "[[The museum opens at ten here.|The museum opens at ten here.]]",
             "[[The museum opens at ten.|The museum opens at ten.]]"
           ],
           "correctAnswer": 1,
@@ -586,7 +586,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            ""[[Look at that old monument here.|Look at that old monument here.]]"",
+            "[[Look at that old monument here.|Look at that old monument here.]]",
             "[[Look at that old monument.|Look at that old monument.]]"
           ],
           "correctAnswer": 1,

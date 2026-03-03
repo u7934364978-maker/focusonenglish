@@ -540,7 +540,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[It is on sale today.|It is on sale today.]]",
-            ""[[It is on sale yesterday.|It is on sale yesterday.]]""
+            "[[It is on sale yesterday.|It is on sale yesterday.]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
