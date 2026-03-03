@@ -437,6 +437,82 @@ const nextConfig = {
         destination: '/',
         statusCode: 301,
       },
+
+      // PÁGINAS FALTANTES
+      {
+        source: '/proximamente',
+        destination: '/',
+        statusCode: 301,
+      },
+      {
+        source: '/about',
+        destination: '/',
+        statusCode: 301,
+      },
+      {
+        source: '/apple-app-site-association',
+        destination: '/',
+        statusCode: 301,
+      },
+      {
+        source: '/.well-known/apple-app-site-association',
+        destination: '/',
+        statusCode: 301,
+      },
+
+      // BLOG - Artículos eliminados o renombrados
+      {
+        source: '/blog/pronunciacion',
+        destination: '/blog',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/Gram%C3%A1tica',
+        destination: '/blog',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/ingles-profesional-sectores',
+        destination: '/blog/trabajo/ingles-para-trabajo',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/preparar-examenes-oficiales',
+        destination: '/certificaciones-ingles-oficiales',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/ingles-esencial-viajar',
+        destination: '/blog/viajes/ingles-para-viajar',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/tiempos-verbales-ingles-a1-presente',
+        destination: '/blog/metodos/ingles-a1',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/vocabulario-esencial-ingles-a1-principiantes',
+        destination: '/blog/metodos/ingles-a1',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/gramatica-basica-ingles-a1-principiantes',
+        destination: '/blog/metodos/ingles-a1',
+        statusCode: 301,
+      },
+
+      // FAVICON Y LOGO
+      {
+        source: '/favicon.ico',
+        destination: '/icon.svg',
+        statusCode: 301,
+      },
+      {
+        source: '/logo.png',
+        destination: '/',
+        statusCode: 301,
+      },
     ];
   },
   

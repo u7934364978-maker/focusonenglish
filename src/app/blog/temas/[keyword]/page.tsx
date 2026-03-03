@@ -1,7 +1,7 @@
 import { Navigation } from "@/components/sections/Navigation";
 import Link from "next/link";
 import Image from "next/image";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { getArticlesByKeyword, getAllKeywords, slugify, getHubContent } from "@/lib/blog";
 import { Metadata } from "next";
 import ReactMarkdown from "react-markdown";
@@ -54,7 +54,7 @@ export default async function KeywordHubPage({ params }: { params: Promise<{ key
   }
 
   if (articles.length === 0 && !hubContent) {
-    notFound();
+    redirect('/blog');
   }
 
   return (
