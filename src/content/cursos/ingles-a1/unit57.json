@@ -20,7 +20,7 @@
         {
           "interaction_id": "A1_U57_B1_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿En qué te sientas para estar cómodo?",
+          "prompt_es": "¿En qué te sientas para estar cómodo? ([[cushion|cojín]])",
           "options": [
             {
               "id": "o1",
@@ -85,7 +85,7 @@
         {
           "interaction_id": "A1_U57_B1_I3",
           "type": "short_writing",
-          "prompt_es": "Escribe 'espejo' en inglés:",
+          "prompt_es": "Escribe 'espejo' en inglés: ([[sofa|sofá]])",
           "stimulus_es": "Espejo",
           "correct_answer": "Mirror",
           "mastery_tag": "vocabulary",
@@ -98,7 +98,7 @@
         {
           "interaction_id": "A1_U57_B1_I4",
           "type": "multiple_choice",
-          "prompt_es": "¿Dónde pones las flores?",
+          "prompt_es": "¿Dónde pones las flores? ([[sofa|sofá]])",
           "options": [
             {
               "id": "o1",
@@ -130,7 +130,7 @@
         {
           "interaction_id": "A1_U57_B2_I1",
           "type": "fill_blanks",
-          "prompt_es": "Completa el plural de 'lamp':",
+          "prompt_es": "Completa el plural de 'lamp': ([[lamp|lámpara]])",
           "stimulus_en": "One lamp, two ________.",
           "correct_answer": "lamps",
           "mastery_tag": "grammar",
@@ -143,7 +143,7 @@
         {
           "interaction_id": "A1_U57_B2_I2",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Hay tres relojes en la pared'",
+          "prompt_es": "Ordena: 'Hay tres relojes en la pared' ([[sofa|sofá]])",
           "options": [
             {
               "id": "w1",
@@ -193,7 +193,7 @@
         {
           "interaction_id": "A1_U57_B2_I3",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuál es el plural de 'watch'?",
+          "prompt_es": "¿Cuál es el plural de 'watch'? ([[sofa|sofá]])",
           "options": [
             {
               "id": "o1",
@@ -219,7 +219,7 @@
         {
           "interaction_id": "A1_U57_B2_I4",
           "type": "fill_blanks",
-          "prompt_es": "Completa el plural de 'box':",
+          "prompt_es": "Completa el plural de 'box': ([[many|muchos/as]])",
           "stimulus_en": "One box, many ________.",
           "correct_answer": "boxes",
           "mastery_tag": "grammar",
@@ -232,7 +232,7 @@
         {
           "interaction_id": "A1_U57_B2_I5",
           "type": "audio_player",
-          "prompt_es": "Escucha los plurales:",
+          "prompt_es": "Escucha los plurales: ([[sofa|sofá]])",
           "audioUrl": "/audio/courses/ingles-a1/shared/plurals_s_es.mp3",
           "text": "One rug, two rugs. One clock, two clocks.",
           "mastery_tag": "listening",
@@ -290,7 +290,7 @@
         {
           "interaction_id": "A1_U57_B3_I2",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuál es el plural de 'man'?",
+          "prompt_es": "¿Cuál es el plural de 'man'? ([[sofa|sofá]])",
           "options": [
             {
               "id": "o1",
@@ -316,7 +316,7 @@
         {
           "interaction_id": "A1_U57_B3_I3",
           "type": "short_writing",
-          "prompt_es": "Escribe el plural de 'woman':",
+          "prompt_es": "Escribe el plural de 'woman': ([[sofa|sofá]])",
           "stimulus_es": "Mujeres",
           "correct_answer": "Women",
           "mastery_tag": "grammar",
@@ -329,7 +329,7 @@
         {
           "interaction_id": "A1_U57_B3_I4",
           "type": "true_false",
-          "prompt_es": "El plural de 'mouse' (ratón) es 'mice'.",
+          "prompt_es": "El plural de 'mouse' (ratón) es 'mice'. ([[sofa|sofá]])",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "complexity": 1,
@@ -341,7 +341,7 @@
         {
           "interaction_id": "A1_U57_B3_I5",
           "type": "audio_player",
-          "prompt_es": "Escucha y repite los irregulares:",
+          "prompt_es": "Escucha y repite los irregulares: ([[sofa|sofá]])",
           "audioUrl": "/audio/courses/ingles-a1/shared/irregular_plurals.mp3",
           "text": "Person, people. Child, children. Woman, women.",
           "mastery_tag": "listening",
@@ -360,7 +360,7 @@
         {
           "interaction_id": "A1_U57_B4_I2",
           "type": "fill_blanks",
-          "prompt_es": "Escribe el plural correcto:",
+          "prompt_es": "Escribe el plural correcto: ([[mirror|espejo]])",
           "stimulus_en": "There are many ________ (person) in the room and five ________ (mirror) on the wall.",
           "correct_answer": "people, mirrors",
           "mastery_tag": "grammar",
@@ -373,7 +373,7 @@
         {
           "interaction_id": "A1_U57_B4_I3",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Los niños están felices'",
+          "prompt_es": "Traduce: 'Los niños están felices' ([[sofa|sofá]])",
           "stimulus_es": "The children are happy.",
           "correct_answer": "The children are happy",
           "mastery_tag": "grammar",
@@ -386,7 +386,7 @@
         {
           "interaction_id": "A1_U57_B4_I4",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuál es el plural de 'leaf' (hoja)?",
+          "prompt_es": "¿Cuál es el plural de 'leaf' (hoja)? ([[sofa|sofá]])",
           "options": [
             {
               "id": "o1",
@@ -418,7 +418,7 @@
         {
           "interaction_id": "U57_I101",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[mirror|espejo]])",
           "stimulus_en": "There is a mirror on the wall.",
           "correct_answer": "There is a mirror on the wall.",
           "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-1.mp3",
@@ -432,7 +432,7 @@
         {
           "interaction_id": "U57_I102",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[lamp|lámpara]])",
           "stimulus_en": "I have two lamps.",
           "correct_answer": "I have two lamps.",
           "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-2.mp3",
@@ -446,7 +446,7 @@
         {
           "interaction_id": "U57_I103",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[sofa|sofá]])",
           "stimulus_en": "The children are in the garden.",
           "correct_answer": "The children are in the garden.",
           "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-3.mp3",
@@ -460,7 +460,7 @@
         {
           "interaction_id": "U57_I104",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[any|algún/ningún]])",
           "stimulus_en": "Are there any people here?",
           "correct_answer": "Are there any people here?",
           "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-4.mp3",
@@ -474,7 +474,7 @@
         {
           "interaction_id": "U57_I105",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[sofa|sofá]])",
           "stimulus_en": "I need a new rug.",
           "correct_answer": "I need a new rug.",
           "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-5.mp3",
@@ -488,7 +488,7 @@
         {
           "interaction_id": "U57_I106",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[sofa|sofá]])",
           "stimulus_en": "Those are nice watches.",
           "correct_answer": "Those are nice watches.",
           "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-6.mp3",
@@ -502,7 +502,7 @@
         {
           "interaction_id": "U57_I107",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[sofa|sofá]])",
           "stimulus_en": "The women are talking.",
           "correct_answer": "The women are talking.",
           "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-7.mp3",
@@ -516,7 +516,7 @@
         {
           "interaction_id": "U57_I108",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[sofa|sofá]])",
           "title": "Pronunciación: Children",
           "instructions": "La 'i' es corta.",
           "targetSentences": [
@@ -555,7 +555,7 @@
         {
           "interaction_id": "U57_I109",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[sofa|sofá]])",
           "title": "Pronunciación: Women",
           "instructions": "Atención: la primera 'o' suena como /ɪ/.",
           "targetSentences": [
@@ -594,7 +594,7 @@
         {
           "interaction_id": "U57_I110",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[sofa|sofá]])",
           "title": "Pronunciación: Mirror",
           "instructions": "Escucha y repite la 'r' suave.",
           "targetSentences": [
@@ -633,7 +633,7 @@
         {
           "interaction_id": "U57_I111",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[sofa|sofá]])",
           "title": "Pronunciación: People",
           "instructions": "Escucha y repite la 'p' inicial.",
           "targetSentences": [
@@ -672,7 +672,7 @@
         {
           "interaction_id": "U57_I112",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[sofa|sofá]])",
           "title": "Pronunciación: Watches",
           "instructions": "La terminación '-es' suena como /ɪz/.",
           "targetSentences": [
@@ -711,7 +711,7 @@
         {
           "interaction_id": "U57_I113",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[sofa|sofá]])",
           "title": "Pronunciación: Cushion",
           "instructions": "La 'sh' suena como /ʃ/.",
           "targetSentences": [
@@ -750,7 +750,7 @@
         {
           "interaction_id": "U57_I114",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[sofa|sofá]])",
           "title": "Pronunciación: Vase",
           "instructions": "Escucha y repite la 'v' (no 'b').",
           "targetSentences": [
@@ -789,7 +789,7 @@
         {
           "interaction_id": "U57_I115",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[sofa|sofá]])",
           "title": "Pronunciación: Household",
           "instructions": "Escucha y repite la palabra compuesta.",
           "targetSentences": [
@@ -837,18 +837,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Sofa"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Cushion"
             },
             {
               "id": "o3",
-              "text": "Cook"
+              "text": "Curtain"
+            },
+            {
+              "id": "o4",
+              "text": "[[Cook|cocinar]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -858,18 +862,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Boil"
+              "text": "Curtain"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Carpet"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Boil|boil]]"
+            },
+            {
+              "id": "o4",
+              "text": "Television"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -879,18 +887,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Clock"
             },
             {
               "id": "o2",
-              "text": "Fry"
+              "text": "Curtain"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Fry|fry]]"
+            },
+            {
+              "id": "o4",
+              "text": "Mirror"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -900,18 +912,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Mix|mix]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Curtain"
             },
             {
               "id": "o3",
-              "text": "Mix"
+              "text": "Desk"
+            },
+            {
+              "id": "o4",
+              "text": "Sofa"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -921,18 +937,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Add"
+              "text": "Mirror"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Add|add]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Cushion"
+            },
+            {
+              "id": "o4",
+              "text": "Lamp"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -942,15 +962,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Wardrobe"
             },
             {
               "id": "o2",
-              "text": "Ingredients"
+              "text": "[[Ingredients|ingredients]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Desk"
+            },
+            {
+              "id": "o4",
+              "text": "Carpet"
             }
           ],
           "correct_answer": "o2",
@@ -963,18 +987,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Oven|horno]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Bookcase"
             },
             {
               "id": "o3",
-              "text": "Oven"
+              "text": "Desk"
+            },
+            {
+              "id": "o4",
+              "text": "Cushion"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -984,18 +1012,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Cook"
+              "text": "Lamp"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Wardrobe"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Clock"
+            },
+            {
+              "id": "o4",
+              "text": "[[Cook|cocinar]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1005,15 +1037,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Mirror"
             },
             {
               "id": "o2",
-              "text": "Boil"
+              "text": "[[Boil|boil]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Curtain"
+            },
+            {
+              "id": "o4",
+              "text": "Television"
             }
           ],
           "correct_answer": "o2",
@@ -1026,15 +1062,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Bookcase"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Curtain"
             },
             {
               "id": "o3",
-              "text": "Fry"
+              "text": "[[Fry|fry]]"
+            },
+            {
+              "id": "o4",
+              "text": "Cushion"
             }
           ],
           "correct_answer": "o3",
@@ -1047,18 +1087,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Mix"
+              "text": "Sofa"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Mix|mix]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Cushion"
+            },
+            {
+              "id": "o4",
+              "text": "Carpet"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1068,15 +1112,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Curtain"
             },
             {
               "id": "o2",
-              "text": "Add"
+              "text": "[[Add|add]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Cushion"
+            },
+            {
+              "id": "o4",
+              "text": "Sofa"
             }
           ],
           "correct_answer": "o2",
@@ -1089,18 +1137,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Ingredients|ingredients]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Bookcase"
             },
             {
               "id": "o3",
-              "text": "Ingredients"
+              "text": "Sofa"
+            },
+            {
+              "id": "o4",
+              "text": "Shelf"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1110,18 +1162,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Oven"
+              "text": "Desk"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Mirror"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Sofa"
+            },
+            {
+              "id": "o4",
+              "text": "[[Oven|horno]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1131,18 +1187,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Desk"
             },
             {
               "id": "o2",
-              "text": "Cook"
+              "text": "Lamp"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Mirror"
+            },
+            {
+              "id": "o4",
+              "text": "[[Cook|cocinar]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1152,18 +1212,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Desk"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Boil|boil]]"
             },
             {
               "id": "o3",
-              "text": "Boil"
+              "text": "Lamp"
+            },
+            {
+              "id": "o4",
+              "text": "Clock"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1173,18 +1237,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Fry"
+              "text": "Mirror"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Fry|fry]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Desk"
+            },
+            {
+              "id": "o4",
+              "text": "Bookcase"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1194,15 +1262,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Carpet"
             },
             {
               "id": "o2",
-              "text": "Mix"
+              "text": "[[Mix|mix]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Bookcase"
+            },
+            {
+              "id": "o4",
+              "text": "Television"
             }
           ],
           "correct_answer": "o2",
@@ -1215,18 +1287,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Lamp"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Add|add]]"
             },
             {
               "id": "o3",
-              "text": "Add"
+              "text": "Television"
+            },
+            {
+              "id": "o4",
+              "text": "Carpet"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1236,15 +1312,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Ingredients"
+              "text": "[[Ingredients|ingredients]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Television"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Lamp"
+            },
+            {
+              "id": "o4",
+              "text": "Carpet"
             }
           ],
           "correct_answer": "o1",
@@ -1257,18 +1337,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Sofa"
             },
             {
               "id": "o2",
-              "text": "Oven"
+              "text": "Shelf"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Cushion"
+            },
+            {
+              "id": "o4",
+              "text": "[[Oven|horno]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1278,18 +1362,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Mirror"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Wardrobe"
             },
             {
               "id": "o3",
-              "text": "Cook"
+              "text": "Lamp"
+            },
+            {
+              "id": "o4",
+              "text": "[[Cook|cocinar]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1299,18 +1387,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Boil"
+              "text": "Desk"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Curtain"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Television"
+            },
+            {
+              "id": "o4",
+              "text": "[[Boil|boil]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1320,18 +1412,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Fry|fry]]"
             },
             {
               "id": "o2",
-              "text": "Fry"
+              "text": "Wardrobe"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Carpet"
+            },
+            {
+              "id": "o4",
+              "text": "Curtain"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1341,18 +1437,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Television"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Mix|mix]]"
             },
             {
               "id": "o3",
-              "text": "Mix"
+              "text": "Mirror"
+            },
+            {
+              "id": "o4",
+              "text": "Sofa"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1362,15 +1462,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Add"
+              "text": "[[Add|add]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Shelf"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Lamp"
+            },
+            {
+              "id": "o4",
+              "text": "Carpet"
             }
           ],
           "correct_answer": "o1",
@@ -1383,18 +1487,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Lamp"
             },
             {
               "id": "o2",
-              "text": "Ingredients"
+              "text": "Clock"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Ingredients|ingredients]]"
+            },
+            {
+              "id": "o4",
+              "text": "Mirror"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1404,18 +1512,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Bookcase"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Oven|horno]]"
             },
             {
               "id": "o3",
-              "text": "Oven"
+              "text": "Mirror"
+            },
+            {
+              "id": "o4",
+              "text": "Curtain"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         }
       ]
@@ -1427,7 +1539,7 @@
         {
           "interaction_id": "U57_L5_I1",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[sofa|sofá]])",
           "audio_url": "/audio/courses/ingles-a1/unit57/lesson5-task-1.mp3",
           "transcript_template": "The [[cook|]] is here.",
           "correct_answer": "cook",
@@ -1441,7 +1553,7 @@
         {
           "interaction_id": "U57_L5_I2",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[sofa|sofá]])",
           "audio_url": "/audio/courses/ingles-a1/unit57/lesson5-task-2.mp3",
           "transcript_template": "The [[boil|]] is here.",
           "correct_answer": "boil",
@@ -1455,7 +1567,7 @@
         {
           "interaction_id": "U57_L5_I3",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[sofa|sofá]])",
           "audio_url": "/audio/courses/ingles-a1/unit57/lesson5-task-3.mp3",
           "transcript_template": "The [[fry|]] is here.",
           "correct_answer": "fry",
@@ -1469,7 +1581,7 @@
         {
           "interaction_id": "U57_L5_I4",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[sofa|sofá]])",
           "audio_url": "/audio/courses/ingles-a1/unit57/lesson5-task-4.mp3",
           "transcript_template": "The [[mix|]] is here.",
           "correct_answer": "mix",
@@ -1483,7 +1595,7 @@
         {
           "interaction_id": "U57_L5_I5",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[sofa|sofá]])",
           "audio_url": "/audio/courses/ingles-a1/unit57/lesson5-task-5.mp3",
           "transcript_template": "The [[add|]] is here.",
           "correct_answer": "add",
@@ -1497,7 +1609,7 @@
         {
           "interaction_id": "U57_L5_I6",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[sofa|sofá]])",
           "audio_url": "/audio/courses/ingles-a1/unit57/lesson5-task-6.mp3",
           "transcript_template": "The [[ingredients|]] is here.",
           "correct_answer": "ingredients",
@@ -1511,7 +1623,7 @@
         {
           "interaction_id": "U57_L5_I7",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[sofa|sofá]])",
           "audio_url": "/audio/courses/ingles-a1/unit57/lesson5-task-7.mp3",
           "transcript_template": "The [[oven|]] is here.",
           "correct_answer": "oven",
@@ -1525,7 +1637,7 @@
         {
           "interaction_id": "U57_L5_I8",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[sofa|sofá]])",
           "title": "Pronunciación: Cooking & Recipes",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1564,7 +1676,7 @@
         {
           "interaction_id": "U57_L5_I9",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[sofa|sofá]])",
           "title": "Pronunciación: Cooking & Recipes",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1603,7 +1715,7 @@
         {
           "interaction_id": "U57_L5_I10",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[sofa|sofá]])",
           "title": "Pronunciación: Cooking & Recipes",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1642,7 +1754,7 @@
         {
           "interaction_id": "U57_L5_I11",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[sofa|sofá]])",
           "title": "Pronunciación: Cooking & Recipes",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1681,7 +1793,7 @@
         {
           "interaction_id": "U57_L5_I12",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[sofa|sofá]])",
           "title": "Pronunciación: Cooking & Recipes",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1720,7 +1832,7 @@
         {
           "interaction_id": "U57_L5_I13",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[sofa|sofá]])",
           "title": "Pronunciación: Cooking & Recipes",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1759,7 +1871,7 @@
         {
           "interaction_id": "U57_L5_I14",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[sofa|sofá]])",
           "title": "Pronunciación: Cooking & Recipes",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1798,7 +1910,7 @@
         {
           "interaction_id": "U57_L5_I15",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[sofa|sofá]])",
           "title": "Pronunciación: Cooking & Recipes",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [

@@ -103,7 +103,7 @@
         {
           "interaction_id": "U23_I6",
           "type": "multiple_choice",
-          "prompt_es": "¿Con qué va 'there are'?",
+          "prompt_es": "¿Con qué va 'there are'? ([[work|trabajo]])",
           "options": [
             {
               "id": "o1",
@@ -125,7 +125,7 @@
         {
           "interaction_id": "U23_I7",
           "type": "sentence_building",
-          "prompt_es": "Forma: 'Hay un perro en el jardín.'",
+          "prompt_es": "Forma: 'Hay un perro en el jardín.' ([[work|trabajo]])",
           "words": [
             {
               "id": "w1",
@@ -319,7 +319,7 @@
         {
           "interaction_id": "U23_I17",
           "type": "sentence_building",
-          "prompt_es": "Forma la pregunta: '¿Hay una piscina en el hotel?'",
+          "prompt_es": "Forma la pregunta: '¿Hay una piscina en el hotel?' ([[hotel|hotel]])",
           "words": [
             {
               "id": "w1",
@@ -561,7 +561,7 @@
         {
           "interaction_id": "U23_I28",
           "type": "sentence_building",
-          "prompt_es": "Forma: 'El libro está debajo de la mesa.'",
+          "prompt_es": "Forma: 'El libro está debajo de la mesa.' ([[work|trabajo]])",
           "words": [
             {
               "id": "w1",
@@ -690,7 +690,7 @@
         {
           "interaction_id": "U23_I34",
           "type": "sentence_building",
-          "prompt_es": "Forma: 'Hay un cuadro en la pared del salón.'",
+          "prompt_es": "Forma: 'Hay un cuadro en la pared del salón.' ([[work|trabajo]])",
           "words": [
             {
               "id": "w1",
@@ -815,18 +815,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Is there a television in the room?|¿Hay una televisión en la habitación?]]"
+              "text": "[[Are there a television in the room?|¿Hay televisión? (incorrecto)]]"
             },
             {
               "id": "o2",
-              "text": "[[Are there a television in the room?|¿Hay televisión? (incorrecto)]]"
+              "text": "[[Is there a television in the room?|¿Hay una televisión en la habitación?]]"
             },
             {
               "id": "o3",
               "text": "[[Has there a television in the room?|¿Hay televisión? (incorrecto)]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "grammar",
           "complexity": 2
         },
@@ -855,7 +855,7 @@
         {
           "interaction_id": "U23_I41",
           "type": "multiple_choice",
-          "prompt_es": "¿Dónde están las almohadas?",
+          "prompt_es": "¿Dónde están las almohadas? ([[work|trabajo]])",
           "options": [
             {
               "id": "o1",
@@ -899,7 +899,7 @@
         {
           "interaction_id": "U23_I43",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué hay debajo de la cama?",
+          "prompt_es": "¿Qué hay debajo de la cama? ([[work|trabajo]])",
           "options": [
             {
               "id": "o1",
@@ -921,7 +921,7 @@
         {
           "interaction_id": "U23_I44",
           "type": "multiple_choice",
-          "prompt_es": "¿Dónde está la lámpara?",
+          "prompt_es": "¿Dónde está la lámpara? ([[work|trabajo]])",
           "options": [
             {
               "id": "o1",
@@ -943,7 +943,7 @@
         {
           "interaction_id": "U23_I45",
           "type": "fill_blanks",
-          "prompt_es": "Según el texto, la ventana está encima del ___.",
+          "prompt_es": "Según el texto, la ventana está encima del ___. ([[work|trabajo]])",
           "correct_answer": "desk",
           "mastery_tag": "reading",
           "complexity": 2
@@ -955,7 +955,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Red|Roja]]"
+              "text": "[[Blue|Azul]]"
             },
             {
               "id": "o2",
@@ -963,17 +963,17 @@
             },
             {
               "id": "o3",
-              "text": "[[Blue|Azul]]"
+              "text": "[[Red|Roja]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "reading",
           "complexity": 1
         },
         {
           "interaction_id": "U23_I47",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué hay en el armario?",
+          "prompt_es": "¿Qué hay en el armario? ([[work|trabajo]])",
           "options": [
             {
               "id": "o1",
@@ -995,7 +995,7 @@
         {
           "interaction_id": "U23_I48",
           "type": "sentence_building",
-          "prompt_es": "Forma: '¿Hay una lámpara en tu dormitorio?'",
+          "prompt_es": "Forma: '¿Hay una lámpara en tu dormitorio?' ([[work|trabajo]])",
           "words": [
             {
               "id": "w1",
@@ -1041,7 +1041,7 @@
         {
           "interaction_id": "U23_I49",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo describe el narrador su dormitorio?",
+          "prompt_es": "¿Cómo describe el narrador su dormitorio? ([[work|trabajo]])",
           "options": [
             {
               "id": "o1",
@@ -1063,10 +1063,204 @@
         {
           "interaction_id": "U23_I50",
           "type": "fill_blanks",
-          "prompt_es": "Completa según el texto: 'Next to the bed, there is a small ___ with a lamp on it.'",
+          "prompt_es": "Completa según el texto: 'Next to the bed, there is a small ___ with a lamp on it.' ([[lamp|lámpara]])",
           "correct_answer": "table",
           "mastery_tag": "reading",
           "complexity": 2
+        }
+      ]
+    },
+    {
+      "block_id": "B23_REC",
+      "title": "Block 6: Recycling & Production – Body & Health",
+      "content": [
+        {
+          "interaction_id": "A1_U23_B23_REC_MC1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué dices cuando tienes [[a headache|dolor de cabeza]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[I have a headache|Tengo dolor de cabeza]]"
+            },
+            {
+              "id": "o2",
+              "text": "My head is hurt"
+            },
+            {
+              "id": "o3",
+              "text": "I headache have"
+            },
+            {
+              "id": "o4",
+              "text": "My head hurt"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "health"
+          ]
+        },
+        {
+          "interaction_id": "A1_U23_B23_REC_MC2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la frase correcta para ir al médico?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[I'd like to see a doctor|Quisiera ver a un médico]]"
+            },
+            {
+              "id": "o2",
+              "text": "I want doctor see"
+            },
+            {
+              "id": "o3",
+              "text": "See me doctor please"
+            },
+            {
+              "id": "o4",
+              "text": "I go doctor"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "health"
+          ]
+        },
+        {
+          "interaction_id": "A1_U23_B23_REC_FB3",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: \"[[My|Mi]] ___ [[hurts|duele]]. [[I need|Necesito]] some [[medicine|medicina]].\"",
+          "stimulus_en": "My ___ hurts. I need some medicine.",
+          "correct_answer": "stomach",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "body",
+            "health"
+          ]
+        },
+        {
+          "interaction_id": "A1_U23_B23_REC_SW4",
+          "type": "short_writing",
+          "prompt_es": "Describe cómo te sientes hoy. Usa [[I feel|me siento]], [[I have|tengo]], [[I'm|estoy]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "concept_tags": [
+            "production",
+            "free_writing"
+          ],
+          "example_answer": "I feel tired today. I have a small headache. I'm not very well but I'm better than yesterday."
+        },
+        {
+          "interaction_id": "A1_U23_B23_REC_SW5",
+          "type": "short_writing",
+          "prompt_es": "Escribe un email corto a tu médico explicando tus síntomas. Usa [[I have|tengo]], [[My...hurts|Me duele]], [[I feel|me siento]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "concept_tags": [
+            "production",
+            "free_writing"
+          ],
+          "example_answer": "Dear Doctor, I am writing because I have a sore throat and a fever. My back hurts and I feel very tired. Can I make an appointment? Thank you."
+        },
+        {
+          "interaction_id": "A1_U23_B23_REC_MC6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuántos dedos tiene una mano?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Five|Cinco]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Four|Cuatro]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Six|Seis]]"
+            },
+            {
+              "id": "o4",
+              "text": "[[Three|Tres]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "body"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B23_EX",
+      "title": "Block 7: Extra Practice – Body & Health",
+      "content": [
+        {
+          "interaction_id": "A1_U23_B23_EX_MC1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál de estas palabras describe una emoción?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Happy|Feliz]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Arm|Brazo]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Walk|Caminar]]"
+            },
+            {
+              "id": "o4",
+              "text": "[[Medicine|Medicina]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "emotions"
+          ]
+        },
+        {
+          "interaction_id": "A1_U23_B23_EX_MC2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se pregunta \"[[How are you feeling?|¿Cómo te encuentras?]]\"?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[How are you feeling?|¿Cómo te encuentras?]]"
+            },
+            {
+              "id": "o2",
+              "text": "How you feel?"
+            },
+            {
+              "id": "o3",
+              "text": "What you feel?"
+            },
+            {
+              "id": "o4",
+              "text": "Are you feel?"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "health"
+          ]
         }
       ]
     }

@@ -21,7 +21,7 @@
         {
           "interaction_id": "A1_U54_B1_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuál usas para preguntar por la cantidad de dinero?",
+          "prompt_es": "¿Cuál usas para preguntar por la cantidad de dinero? ([[much|mucho]])",
           "options": [
             {
               "id": "o1",
@@ -47,7 +47,7 @@
         {
           "interaction_id": "A1_U54_B1_I2",
           "type": "fill_blanks",
-          "prompt_es": "Completa con 'much' o 'many':",
+          "prompt_es": "Completa con 'much' o 'many': ([[much|mucho]])",
           "stimulus_en": "I don't have ________ time, but I have ________ books.",
           "correct_answer": "much, many",
           "mastery_tag": "grammar",
@@ -68,7 +68,7 @@
             },
             {
               "id": "w2",
-              "text": "many"
+              "text": "[[many|muchos/as]]"
             },
             {
               "id": "w3",
@@ -144,7 +144,7 @@
         {
           "interaction_id": "A1_U54_B2_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuál usas para decir que tienes 'un poco' de agua?",
+          "prompt_es": "¿Cuál usas para decir que tienes 'un poco' de agua? ([[a little|un poco de]])",
           "options": [
             {
               "id": "o1",
@@ -170,7 +170,7 @@
         {
           "interaction_id": "A1_U54_B2_I2",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'Tengo unos pocos amigos'",
+          "prompt_es": "Completa: 'Tengo unos pocos amigos' ([[much|mucho]])",
           "stimulus_en": "I have ________ friends.",
           "correct_answer": "a few",
           "mastery_tag": "grammar",
@@ -183,7 +183,7 @@
         {
           "interaction_id": "A1_U54_B2_I3",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Tenemos mucha comida'",
+          "prompt_es": "Traduce: 'Tenemos mucha comida' ([[much|mucho]])",
           "stimulus_es": "We have a lot of food.",
           "correct_answer": "We have a lot of food",
           "mastery_tag": "grammar",
@@ -196,7 +196,7 @@
         {
           "interaction_id": "A1_U54_B2_I4",
           "type": "true_false",
-          "prompt_es": "Usamos 'a few' con sustantivos incontables.",
+          "prompt_es": "Usamos 'a few' con sustantivos incontables. ([[a few|unos pocos]])",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "complexity": 1,
@@ -208,7 +208,7 @@
         {
           "interaction_id": "A1_U54_B2_I5",
           "type": "audio_player",
-          "prompt_es": "Escucha la diferencia:",
+          "prompt_es": "Escucha la diferencia: ([[much|mucho]])",
           "audioUrl": "/audio/courses/ingles-a1/shared/few_little_examples.mp3",
           "text": "A few cookies, a little milk, and a lot of sugar.",
           "mastery_tag": "listening",
@@ -227,7 +227,7 @@
         {
           "interaction_id": "A1_U54_B3_I1",
           "type": "categorization",
-          "prompt_es": "Clasifica según el cuantificador:",
+          "prompt_es": "Clasifica según el cuantificador: ([[much|mucho]])",
           "categories": [
             {
               "id": "many_few",
@@ -261,7 +261,7 @@
         {
           "interaction_id": "A1_U54_B3_I2",
           "type": "multiple_choice",
-          "prompt_es": "Si no tienes mucho dinero, dices:",
+          "prompt_es": "Si no tienes mucho dinero, dices: ([[much|mucho]])",
           "options": [
             {
               "id": "o1",
@@ -287,7 +287,7 @@
         {
           "interaction_id": "A1_U54_B3_I3",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Hay mucha gente hoy'",
+          "prompt_es": "Ordena: 'Hay mucha gente hoy' ([[much|mucho]])",
           "options": [
             {
               "id": "w1",
@@ -337,7 +337,7 @@
         {
           "interaction_id": "A1_U54_B3_I4",
           "type": "short_writing",
-          "prompt_es": "Traduce: '¿Cuánto tiempo tenemos?'",
+          "prompt_es": "Traduce: '¿Cuánto tiempo tenemos?' ([[much|mucho]])",
           "stimulus_es": "How much time do we have?",
           "correct_answer": "How much time do we have",
           "mastery_tag": "grammar",
@@ -356,7 +356,7 @@
         {
           "interaction_id": "A1_U54_B4_I2",
           "type": "fill_blanks",
-          "prompt_es": "Completa el texto:",
+          "prompt_es": "Completa el texto: ([[much|mucho]])",
           "stimulus_en": "How ________ people are there? There aren't ________, only ________.",
           "correct_answer": "many, many, a few",
           "mastery_tag": "grammar",
@@ -369,7 +369,7 @@
         {
           "interaction_id": "A1_U54_B4_I3",
           "type": "short_writing",
-          "prompt_es": "Escribe 'Tengo mucha agua' usando 'a lot of':",
+          "prompt_es": "Escribe 'Tengo mucha agua' usando 'a lot of': ([[much|mucho]])",
           "stimulus_es": "I have a lot of water.",
           "correct_answer": "I have a lot of water",
           "mastery_tag": "grammar",
@@ -388,7 +388,7 @@
         {
           "interaction_id": "U54_I101",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[much|mucho]])",
           "stimulus_en": "How much money do you have?",
           "correct_answer": "How much money do you have?",
           "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-1.mp3",
@@ -402,7 +402,7 @@
         {
           "interaction_id": "U54_I102",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[book|reservar]])",
           "stimulus_en": "How many books are there?",
           "correct_answer": "How many books are there?",
           "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-2.mp3",
@@ -416,7 +416,7 @@
         {
           "interaction_id": "U54_I103",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[a lot of|mucho/s]])",
           "stimulus_en": "I have a lot of friends.",
           "correct_answer": "I have a lot of friends.",
           "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-3.mp3",
@@ -430,7 +430,7 @@
         {
           "interaction_id": "U54_I104",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[a little|un poco de]])",
           "stimulus_en": "There is a little milk.",
           "correct_answer": "There is a little milk.",
           "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-4.mp3",
@@ -444,7 +444,7 @@
         {
           "interaction_id": "U54_I105",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[a few|unos pocos]])",
           "stimulus_en": "We have a few cookies.",
           "correct_answer": "We have a few cookies.",
           "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-5.mp3",
@@ -458,7 +458,7 @@
         {
           "interaction_id": "U54_I106",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[much|mucho]])",
           "stimulus_en": "I don't have much time.",
           "correct_answer": "I don't have much time.",
           "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-6.mp3",
@@ -472,7 +472,7 @@
         {
           "interaction_id": "U54_I107",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[many|muchos/as]])",
           "stimulus_en": "Are there many people?",
           "correct_answer": "Are there many people?",
           "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-7.mp3",
@@ -486,7 +486,7 @@
         {
           "interaction_id": "U54_I108",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[much|mucho]])",
           "title": "Pronunciación: Much",
           "instructions": "Escucha y repite la 'u' corta.",
           "targetSentences": [
@@ -525,7 +525,7 @@
         {
           "interaction_id": "U54_I109",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[much|mucho]])",
           "title": "Pronunciación: Many",
           "instructions": "La 'a' suena como /ɛ/.",
           "targetSentences": [
@@ -564,7 +564,7 @@
         {
           "interaction_id": "U54_I110",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[much|mucho]])",
           "title": "Pronunciación: Little",
           "instructions": "Escucha y repite la 'i' corta.",
           "targetSentences": [
@@ -603,7 +603,7 @@
         {
           "interaction_id": "U54_I111",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[much|mucho]])",
           "title": "Pronunciación: Few",
           "instructions": "La 'ew' suena como /juː/.",
           "targetSentences": [
@@ -642,7 +642,7 @@
         {
           "interaction_id": "U54_I112",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[much|mucho]])",
           "title": "Pronunciación: People",
           "instructions": "La 'eo' suena como /iː/.",
           "targetSentences": [
@@ -681,7 +681,7 @@
         {
           "interaction_id": "U54_I113",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[much|mucho]])",
           "title": "Pronunciación: Money",
           "instructions": "La 'o' suena como /ʌ/.",
           "targetSentences": [
@@ -720,7 +720,7 @@
         {
           "interaction_id": "U54_I114",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[much|mucho]])",
           "title": "Pronunciación: Friends",
           "instructions": "La 'ie' suena como /ɛ/.",
           "targetSentences": [
@@ -759,7 +759,7 @@
         {
           "interaction_id": "U54_I115",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[much|mucho]])",
           "title": "Pronunciación: Time",
           "instructions": "La 'i' suena como /aɪ/.",
           "targetSentences": [
@@ -807,18 +807,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Much"
+              "text": "Enough"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "A little"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Much|mucho]]"
+            },
+            {
+              "id": "o4",
+              "text": "A few"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -828,18 +832,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Many|muchos/as]]"
             },
             {
               "id": "o2",
-              "text": "Many"
+              "text": "Much"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Enough"
+            },
+            {
+              "id": "o4",
+              "text": "A little"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -849,18 +857,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[How much|how much]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Enough"
             },
             {
               "id": "o3",
-              "text": "How much"
+              "text": "Much"
+            },
+            {
+              "id": "o4",
+              "text": "A little"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -870,18 +882,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "How many"
+              "text": "A little"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Enough"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[How many|how many]]"
+            },
+            {
+              "id": "o4",
+              "text": "Much"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -891,18 +907,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Many"
             },
             {
               "id": "o2",
-              "text": "Money"
+              "text": "A lot of"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Much"
+            },
+            {
+              "id": "o4",
+              "text": "[[Money|money]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -912,18 +932,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "A little"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "[[Friends|friends]]"
             },
             {
               "id": "o3",
-              "text": "Friends"
+              "text": "A lot of"
+            },
+            {
+              "id": "o4",
+              "text": "Many"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -933,18 +957,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Time"
+              "text": "A few"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Many"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "A lot of"
+            },
+            {
+              "id": "o4",
+              "text": "[[Time|time]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -954,15 +982,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "A little"
             },
             {
               "id": "o2",
-              "text": "Much"
+              "text": "[[Much|mucho]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Many"
+            },
+            {
+              "id": "o4",
+              "text": "A lot of"
             }
           ],
           "correct_answer": "o2",
@@ -975,18 +1007,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Much"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "[[Many|muchos/as]]"
             },
             {
               "id": "o3",
-              "text": "Many"
+              "text": "A few"
+            },
+            {
+              "id": "o4",
+              "text": "Enough"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -996,18 +1032,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "How much"
+              "text": "Many"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Much"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[How much|how much]]"
+            },
+            {
+              "id": "o4",
+              "text": "A lot of"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1017,18 +1057,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "A little"
             },
             {
               "id": "o2",
-              "text": "How many"
+              "text": "Many"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[How many|how many]]"
+            },
+            {
+              "id": "o4",
+              "text": "A few"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1038,15 +1082,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "A little"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Many"
             },
             {
               "id": "o3",
-              "text": "Money"
+              "text": "[[Money|money]]"
+            },
+            {
+              "id": "o4",
+              "text": "Much"
             }
           ],
           "correct_answer": "o3",
@@ -1059,18 +1107,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Friends"
+              "text": "A little"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Friends|friends]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Many"
+            },
+            {
+              "id": "o4",
+              "text": "Much"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1080,18 +1132,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "A few"
             },
             {
               "id": "o2",
-              "text": "Time"
+              "text": "A little"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Many"
+            },
+            {
+              "id": "o4",
+              "text": "[[Time|time]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1101,18 +1157,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Many"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "[[Much|mucho]]"
             },
             {
               "id": "o3",
-              "text": "Much"
+              "text": "A lot of"
+            },
+            {
+              "id": "o4",
+              "text": "Enough"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1122,18 +1182,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Many"
+              "text": "Much"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Many|muchos/as]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "A few"
+            },
+            {
+              "id": "o4",
+              "text": "A little"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1143,18 +1207,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[How much|how much]]"
             },
             {
               "id": "o2",
-              "text": "How much"
+              "text": "A few"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Much"
+            },
+            {
+              "id": "o4",
+              "text": "A lot of"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1164,18 +1232,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Enough"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "A lot of"
             },
             {
               "id": "o3",
-              "text": "How many"
+              "text": "A few"
+            },
+            {
+              "id": "o4",
+              "text": "[[How many|how many]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1185,15 +1257,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Money"
+              "text": "[[Money|money]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "A lot of"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "A few"
+            },
+            {
+              "id": "o4",
+              "text": "Much"
             }
           ],
           "correct_answer": "o1",
@@ -1206,18 +1282,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Friends|friends]]"
             },
             {
               "id": "o2",
-              "text": "Friends"
+              "text": "A lot of"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Much"
+            },
+            {
+              "id": "o4",
+              "text": "Many"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1227,18 +1307,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "[[Time|time]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "A few"
             },
             {
               "id": "o3",
-              "text": "Time"
+              "text": "A lot of"
+            },
+            {
+              "id": "o4",
+              "text": "Much"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1248,18 +1332,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Much"
+              "text": "A few"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Much|mucho]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Enough"
+            },
+            {
+              "id": "o4",
+              "text": "A little"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1269,18 +1357,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Enough"
             },
             {
               "id": "o2",
-              "text": "Many"
+              "text": "A few"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Much"
+            },
+            {
+              "id": "o4",
+              "text": "[[Many|muchos/as]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1290,18 +1382,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Enough"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "A little"
             },
             {
               "id": "o3",
-              "text": "How much"
+              "text": "Many"
+            },
+            {
+              "id": "o4",
+              "text": "[[How much|how much]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1311,18 +1407,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "How many"
+              "text": "Much"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Many"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[How many|how many]]"
+            },
+            {
+              "id": "o4",
+              "text": "A little"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1332,18 +1432,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Many"
             },
             {
               "id": "o2",
-              "text": "Money"
+              "text": "A little"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Money|money]]"
+            },
+            {
+              "id": "o4",
+              "text": "Enough"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1353,18 +1457,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "[[Friends|friends]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Enough"
             },
             {
               "id": "o3",
-              "text": "Friends"
+              "text": "Many"
+            },
+            {
+              "id": "o4",
+              "text": "A little"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1374,18 +1482,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Time"
+              "text": "Enough"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Many"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Time|time]]"
+            },
+            {
+              "id": "o4",
+              "text": "Much"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1395,18 +1507,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Many"
             },
             {
               "id": "o2",
-              "text": "Much"
+              "text": "A little"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "A lot of"
+            },
+            {
+              "id": "o4",
+              "text": "[[Much|mucho]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1416,18 +1532,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Enough"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Much"
             },
             {
               "id": "o3",
-              "text": "Many"
+              "text": "A little"
+            },
+            {
+              "id": "o4",
+              "text": "[[Many|muchos/as]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         }
       ]
@@ -1439,7 +1559,7 @@
         {
           "interaction_id": "U54_L5_I1",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[much|mucho]])",
           "audio_url": "/audio/courses/ingles-a1/unit54/lesson5-task-1.mp3",
           "transcript_template": "The [[much|]] is here.",
           "correct_answer": "much",
@@ -1453,7 +1573,7 @@
         {
           "interaction_id": "U54_L5_I2",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[much|mucho]])",
           "audio_url": "/audio/courses/ingles-a1/unit54/lesson5-task-2.mp3",
           "transcript_template": "The [[many|]] is here.",
           "correct_answer": "many",
@@ -1467,7 +1587,7 @@
         {
           "interaction_id": "U54_L5_I3",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[much|mucho]])",
           "audio_url": "/audio/courses/ingles-a1/unit54/lesson5-task-3.mp3",
           "transcript_template": "The [[how much|]] is here.",
           "correct_answer": "how much",
@@ -1481,7 +1601,7 @@
         {
           "interaction_id": "U54_L5_I4",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[much|mucho]])",
           "audio_url": "/audio/courses/ingles-a1/unit54/lesson5-task-4.mp3",
           "transcript_template": "The [[how many|]] is here.",
           "correct_answer": "how many",
@@ -1495,7 +1615,7 @@
         {
           "interaction_id": "U54_L5_I5",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[much|mucho]])",
           "audio_url": "/audio/courses/ingles-a1/unit54/lesson5-task-5.mp3",
           "transcript_template": "The [[money|]] is here.",
           "correct_answer": "money",
@@ -1509,7 +1629,7 @@
         {
           "interaction_id": "U54_L5_I6",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[much|mucho]])",
           "audio_url": "/audio/courses/ingles-a1/unit54/lesson5-task-6.mp3",
           "transcript_template": "The [[friends|]] is here.",
           "correct_answer": "friends",
@@ -1523,7 +1643,7 @@
         {
           "interaction_id": "U54_L5_I7",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[much|mucho]])",
           "audio_url": "/audio/courses/ingles-a1/unit54/lesson5-task-7.mp3",
           "transcript_template": "The [[time|]] is here.",
           "correct_answer": "time",
@@ -1537,7 +1657,7 @@
         {
           "interaction_id": "U54_L5_I8",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[much|mucho]])",
           "title": "Pronunciación: Much & Many",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1576,7 +1696,7 @@
         {
           "interaction_id": "U54_L5_I9",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[much|mucho]])",
           "title": "Pronunciación: Much & Many",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1615,7 +1735,7 @@
         {
           "interaction_id": "U54_L5_I10",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[much|mucho]])",
           "title": "Pronunciación: Much & Many",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1654,7 +1774,7 @@
         {
           "interaction_id": "U54_L5_I11",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[much|mucho]])",
           "title": "Pronunciación: Much & Many",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1693,7 +1813,7 @@
         {
           "interaction_id": "U54_L5_I12",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[much|mucho]])",
           "title": "Pronunciación: Much & Many",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1732,7 +1852,7 @@
         {
           "interaction_id": "U54_L5_I13",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[much|mucho]])",
           "title": "Pronunciación: Much & Many",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1771,7 +1891,7 @@
         {
           "interaction_id": "U54_L5_I14",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[much|mucho]])",
           "title": "Pronunciación: Much & Many",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1810,7 +1930,7 @@
         {
           "interaction_id": "U54_L5_I15",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[much|mucho]])",
           "title": "Pronunciación: Much & Many",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [

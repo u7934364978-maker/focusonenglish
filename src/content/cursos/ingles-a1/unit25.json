@@ -147,18 +147,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Train station|Estación de tren]]"
+              "text": "[[Bus stop|Parada de autobús]]"
             },
             {
               "id": "o2",
-              "text": "[[Bus stop|Parada de autobús]]"
+              "text": "[[Train station|Estación de tren]]"
             },
             {
               "id": "o3",
               "text": "[[Airport|Aeropuerto]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary",
           "complexity": 1
         },
@@ -177,18 +177,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[At the gym|En el gimnasio]]"
-            },
-            {
-              "id": "o2",
               "text": "[[At the cinema|En el cine]]"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "[[At the post office|En correos]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[At the gym|En el gimnasio]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary",
           "complexity": 1
         },
@@ -280,7 +280,7 @@
         {
           "interaction_id": "U25_I12",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'There is ___ pharmacy on this street.' (una — primera mención)",
+          "prompt_es": "Completa: 'There is ___ pharmacy on this street.' (una — primera mención) ([[travel|viajar]])",
           "correct_answer": "a",
           "mastery_tag": "grammar",
           "complexity": 1
@@ -310,7 +310,7 @@
         {
           "interaction_id": "U25_I14",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'I work in ___ office in the city centre.' (una oficina — primera mención)",
+          "prompt_es": "Completa: 'I work in ___ office in the city centre.' (una oficina — primera mención) ([[travel|viajar]])",
           "correct_answer": "an",
           "mastery_tag": "grammar",
           "complexity": 1
@@ -322,25 +322,25 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[the / a|el (específico) / un (nuevo)]]"
+              "text": "[[a / the|un (nueva mención) / el (segunda mención)]]"
             },
             {
               "id": "o2",
-              "text": "[[a / the|un (nueva mención) / el (segunda mención)]]"
+              "text": "[[the / a|el (específico) / un (nuevo)]]"
             },
             {
               "id": "o3",
               "text": "[[the / the|el / el]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "grammar",
           "complexity": 2
         },
         {
           "interaction_id": "U25_I16",
           "type": "fill_blanks",
-          "prompt_es": "Completa: '___ library opens at 9 am.' (La biblioteca — conocida, única)",
+          "prompt_es": "Completa: '___ library opens at 9 am.' (La biblioteca — conocida, única) ([[travel|viajar]])",
           "correct_answer": "The",
           "mastery_tag": "grammar",
           "complexity": 1
@@ -348,7 +348,7 @@
         {
           "interaction_id": "U25_I17",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuándo usamos 'an' en vez de 'a'?",
+          "prompt_es": "¿Cuándo usamos 'an' en vez de 'a'? ([[travel|viajar]])",
           "options": [
             {
               "id": "o1",
@@ -370,7 +370,7 @@
         {
           "interaction_id": "U25_I18",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'There is ___ enormous park near the hotel.' (un enorme)",
+          "prompt_es": "Completa: 'There is ___ enormous park near the hotel.' (un enorme) ([[park|parque]])",
           "correct_answer": "an",
           "mastery_tag": "grammar",
           "complexity": 2
@@ -400,7 +400,7 @@
         {
           "interaction_id": "U25_I20",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'Is there ___ cinema in this area?' (un cine — pregunta general)",
+          "prompt_es": "Completa: 'Is there ___ cinema in this area?' (un cine — pregunta general) ([[travel|viajar]])",
           "correct_answer": "a",
           "mastery_tag": "grammar",
           "complexity": 1
@@ -436,7 +436,7 @@
         {
           "interaction_id": "U25_I22",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'There are ___ nice cafés in my neighbourhood.' (algunos)",
+          "prompt_es": "Completa: 'There are ___ nice cafés in my neighbourhood.' (algunos) ([[travel|viajar]])",
           "correct_answer": "some",
           "mastery_tag": "grammar",
           "complexity": 1
@@ -619,7 +619,7 @@
         {
           "interaction_id": "U25_I32",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'My neighbourhood is very ___.' (conveniente = convenient)",
+          "prompt_es": "Completa: 'My neighbourhood is very ___.' (conveniente = convenient) ([[travel|viajar]])",
           "correct_answer": "convenient",
           "mastery_tag": "vocabulary",
           "complexity": 2
@@ -627,7 +627,7 @@
         {
           "interaction_id": "U25_I33",
           "type": "sentence_building",
-          "prompt_es": "Forma: 'Hay un parque grande al lado de mi casa.'",
+          "prompt_es": "Forma: 'Hay un parque grande al lado de mi casa.' ([[travel|viajar]])",
           "words": [
             {
               "id": "w1",
@@ -700,7 +700,7 @@
         {
           "interaction_id": "U25_I35",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'In my neighbourhood, there are ___ restaurants and cafés.' (muchos)",
+          "prompt_es": "Completa: 'In my neighbourhood, there are ___ restaurants and cafés.' (muchos) ([[and|y]])",
           "correct_answer": "a lot of",
           "mastery_tag": "grammar",
           "complexity": 1
@@ -730,7 +730,7 @@
         {
           "interaction_id": "U25_I37",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'My neighbourhood is ___ from the city centre.' (lejos = far)",
+          "prompt_es": "Completa: 'My neighbourhood is ___ from the city centre.' (lejos = far) ([[travel|viajar]])",
           "correct_answer": "far",
           "mastery_tag": "vocabulary",
           "complexity": 2
@@ -892,7 +892,7 @@
         {
           "interaction_id": "U25_I45",
           "type": "fill_blanks",
-          "prompt_es": "La biblioteca está a cinco minutos ___ de la casa de Sofía. (a pie = on foot)",
+          "prompt_es": "La biblioteca está a cinco minutos ___ de la casa de Sofía. (a pie = on foot) ([[travel|viajar]])",
           "correct_answer": "on foot",
           "mastery_tag": "reading",
           "complexity": 2
@@ -900,7 +900,7 @@
         {
           "interaction_id": "U25_I46",
           "type": "multiple_choice",
-          "prompt_es": "¿Para qué usa Sofía el parque?",
+          "prompt_es": "¿Para qué usa Sofía el parque? ([[travel|viajar]])",
           "options": [
             {
               "id": "o1",
@@ -922,7 +922,7 @@
         {
           "interaction_id": "U25_I47",
           "type": "multiple_choice",
-          "prompt_es": "¿Dónde puede ver Sofía una película?",
+          "prompt_es": "¿Dónde puede ver Sofía una película? ([[travel|viajar]])",
           "options": [
             {
               "id": "o1",
@@ -944,7 +944,7 @@
         {
           "interaction_id": "U25_I48",
           "type": "sentence_building",
-          "prompt_es": "Forma: '¿Hay algún café cerca de tu casa?'",
+          "prompt_es": "Forma: '¿Hay algún café cerca de tu casa?' ([[travel|viajar]])",
           "words": [
             {
               "id": "w1",
@@ -990,7 +990,7 @@
         {
           "interaction_id": "U25_I49",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué tiene el parque del barrio de Sofía?",
+          "prompt_es": "¿Qué tiene el parque del barrio de Sofía? ([[travel|viajar]])",
           "options": [
             {
               "id": "o1",
@@ -1012,10 +1012,244 @@
         {
           "interaction_id": "U25_I50",
           "type": "fill_blanks",
-          "prompt_es": "Sofía says: 'There is a ___ of things to do here!' (mucho = lot)",
+          "prompt_es": "Sofía says: 'There is a ___ of things to do here!' (mucho = lot) ([[travel|viajar]])",
           "correct_answer": "lot",
           "mastery_tag": "reading",
           "complexity": 1
+        }
+      ]
+    },
+    {
+      "block_id": "B25_REC",
+      "title": "Block 6: Recycling – Mid-Course Review (Units 1-24)",
+      "content": [
+        {
+          "interaction_id": "A1_U25_B25_REC_MC1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la respuesta correcta a \"[[Where are you from?|¿De dónde eres?]]\"?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[I'm from Spain|Soy de España]]"
+            },
+            {
+              "id": "o2",
+              "text": "I am Spain"
+            },
+            {
+              "id": "o3",
+              "text": "I from Spain am"
+            },
+            {
+              "id": "o4",
+              "text": "Spain I am from"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "introductions"
+          ]
+        },
+        {
+          "interaction_id": "A1_U25_B25_REC_MC2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la 3ª persona singular de \"[[to go|ir]]\"?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[goes|va]]"
+            },
+            {
+              "id": "o2",
+              "text": "go"
+            },
+            {
+              "id": "o3",
+              "text": "gos"
+            },
+            {
+              "id": "o4",
+              "text": "goess"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "present_simple"
+          ]
+        },
+        {
+          "interaction_id": "A1_U25_B25_REC_FB3",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con [[can|poder]]: \"She ___ speak three languages but she ___ drive.\"",
+          "stimulus_en": "She ___ speak three languages but she ___ drive.",
+          "correct_answer": "can / can't",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "modal_can"
+          ]
+        },
+        {
+          "interaction_id": "A1_U25_B25_REC_MC4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el genitivo sajón correcto?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Maria's book|El libro de María]]"
+            },
+            {
+              "id": "o2",
+              "text": "Marias book"
+            },
+            {
+              "id": "o3",
+              "text": "The book of Maria"
+            },
+            {
+              "id": "o4",
+              "text": "Maria book"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "saxon_genitive"
+          ]
+        },
+        {
+          "interaction_id": "A1_U25_B25_REC_MC5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice \"[[There aren't any parks|No hay ningún parque]]\"?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[There aren't any parks|No hay ningún parque]]"
+            },
+            {
+              "id": "o2",
+              "text": "There isn't any parks"
+            },
+            {
+              "id": "o3",
+              "text": "There no are parks"
+            },
+            {
+              "id": "o4",
+              "text": "There are no park"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "there_is_there_are"
+          ]
+        },
+        {
+          "interaction_id": "A1_U25_B25_REC_SW6",
+          "type": "short_writing",
+          "prompt_es": "Escribe un párrafo sobre ti mismo/a usando: presentación, familia, rutina diaria y habilidades. Mínimo 6 oraciones. ([[travel|viajar]])",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "concept_tags": [
+            "production",
+            "free_writing"
+          ],
+          "example_answer": "My name is Ana and I'm from Madrid. I live with my family - my parents and my sister. Every morning I wake up at seven and have breakfast. I study English at university. I can speak Spanish and English. I love reading and playing tennis at weekends."
+        },
+        {
+          "interaction_id": "A1_U25_B25_REC_SW7",
+          "type": "short_writing",
+          "prompt_es": "Escribe una postal desde tu ciudad a un amigo/a extranjero/a. Incluye descripción de la ciudad, actividades y clima. ([[travel|viajar]])",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "concept_tags": [
+            "production",
+            "free_writing"
+          ],
+          "example_answer": "Hi Tom! I'm in Madrid this week. It's a big and beautiful city. There are lots of museums and parks. The weather is warm and sunny. The food is delicious! Hope to see you soon. Ana."
+        }
+      ]
+    },
+    {
+      "block_id": "B25_EX",
+      "title": "Block 7: Extra Practice – Mid-Course Review (Units 1-24)",
+      "content": [
+        {
+          "interaction_id": "A1_U25_B25_EX_MC1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál de estas preguntas es correcta en [[Present Simple|Presente Simple]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Do they work here?|¿Trabajan aquí?]]"
+            },
+            {
+              "id": "o2",
+              "text": "Are they work here?"
+            },
+            {
+              "id": "o3",
+              "text": "They do work here?"
+            },
+            {
+              "id": "o4",
+              "text": "Work they here?"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "present_simple",
+            "questions"
+          ]
+        },
+        {
+          "interaction_id": "A1_U25_B25_EX_RO2",
+          "type": "reorder_words",
+          "prompt_es": "Ordena la oración: [[She doesn't like|Ella no le gusta]]...",
+          "options": [
+            {
+              "id": "w1",
+              "text": "not"
+            },
+            {
+              "id": "w2",
+              "text": "She"
+            },
+            {
+              "id": "w3",
+              "text": "does"
+            },
+            {
+              "id": "w4",
+              "text": "[[coffee|café]]"
+            },
+            {
+              "id": "w5",
+              "text": "like"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w3",
+            "w1",
+            "w5",
+            "w4"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         }
       ]
     }

@@ -79,7 +79,7 @@
             },
             {
               "id": "w2",
-              "text": "can"
+              "text": "[[can|poder]]"
             },
             {
               "id": "w3",
@@ -111,7 +111,7 @@
         {
           "interaction_id": "A1_U31_B31_1_I4",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la forma correcta de decir 'Él sabe conducir'?",
+          "prompt_es": "¿Cuál es la forma correcta de decir 'Él sabe conducir'? ([[drive|conducir]])",
           "options": [
             {
               "id": "o1",
@@ -136,7 +136,7 @@
         {
           "interaction_id": "A1_U31_B31_1_I5",
           "type": "flashcard",
-          "prompt_es": "Aprende el verbo:",
+          "prompt_es": "Aprende el verbo: ([[sing|cantar]])",
           "stimulus_en": "[[Sing|cantar]]",
           "correct_answer": "Cantar",
           "mastery_tag": "vocabulary",
@@ -180,7 +180,7 @@
         {
           "interaction_id": "A1_U31_B31_2_I2",
           "type": "fill_blanks",
-          "prompt_es": "Completa la frase negativa (imposibilidad):",
+          "prompt_es": "Completa la frase negativa (imposibilidad): ([[can|poder]])",
           "stimulus_en": "Penguins ________ fly.",
           "correct_answer": "can't",
           "mastery_tag": "grammar",
@@ -196,7 +196,7 @@
           "options": [
             {
               "id": "w1",
-              "text": "Can"
+              "text": "[[Can|poder]]"
             },
             {
               "id": "w2",
@@ -232,7 +232,7 @@
         {
           "interaction_id": "A1_U31_B31_2_I5",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'No puedo hablar francés.'",
+          "prompt_es": "Traduce: 'No puedo hablar francés.' ([[can|poder]])",
           "stimulus_es": "No puedo hablar francés.",
           "correct_answer": "I can't speak French",
           "mastery_tag": "vocabulary",
@@ -257,7 +257,7 @@
         {
           "interaction_id": "A1_U31_B31_3_I1",
           "type": "true_false",
-          "prompt_es": "¿Es verdad? 'Fish can breathe underwater.'",
+          "prompt_es": "¿Es verdad? 'Fish can breathe underwater.' ([[water|agua]])",
           "correct_answer": true,
           "mastery_tag": "reading",
           "complexity": 1,
@@ -270,7 +270,7 @@
         {
           "interaction_id": "A1_U31_B31_3_I2",
           "type": "categorization",
-          "prompt_es": "Clasifica según lo que pueden o no pueden hacer:",
+          "prompt_es": "Clasifica según lo que pueden o no pueden hacer: ([[can|poder]])",
           "categories": [
             {
               "id": "c1",
@@ -300,7 +300,7 @@
         {
           "interaction_id": "A1_U31_B31_3_I4",
           "type": "short_writing",
-          "prompt_es": "Escribe la habilidad: 'A monkey can...'",
+          "prompt_es": "Escribe la habilidad: 'A monkey can...' ([[can|poder]])",
           "stimulus_es": "trepar árboles",
           "correct_answer": "climb trees",
           "mastery_tag": "vocabulary",
@@ -313,7 +313,7 @@
         {
           "interaction_id": "A1_U31_B31_3_I5",
           "type": "fill_blanks",
-          "prompt_es": "Completa la pregunta sobre animales:",
+          "prompt_es": "Completa la pregunta sobre animales: ([[swim|nadar]])",
           "stimulus_en": "________ dogs [[swim|nadar]]?",
           "correct_answer": "Can",
           "mastery_tag": "grammar",
@@ -337,7 +337,7 @@
         {
           "interaction_id": "A1_U31_B31_4_I2",
           "type": "reading-comprehension",
-          "prompt_es": "Lee el texto y responde:",
+          "prompt_es": "Lee el texto y responde: ([[cook|cocinar]])",
           "title": "My Talented Family",
           "text": "My sister is very talented. She can play the violin and she can dance ballet. My brother can't dance, but he can cook delicious Italian food. I can't play an instrument, but I can speak English and Spanish.",
           "question": "What can the brother do?",
@@ -366,7 +366,7 @@
         {
           "interaction_id": "A1_U31_B31_4_I3",
           "type": "reading-comprehension",
-          "prompt_es": "Lee el texto y responde:",
+          "prompt_es": "Lee el texto y responde: ([[can|poder]])",
           "title": "My Talented Family",
           "text": "My sister is very talented. She can play the violin and she can dance ballet. My brother can't dance, but he can cook delicious Italian food. I can't play an instrument, but I can speak English and Spanish.",
           "question": "Who can play an instrument?",
@@ -395,7 +395,7 @@
         {
           "interaction_id": "A1_U31_B31_4_I4",
           "type": "audio_player",
-          "prompt_es": "Escucha atentamente:",
+          "prompt_es": "Escucha atentamente: ([[can|poder]])",
           "audioUrl": "/audio/courses/ingles-a1/shared/892c5213812d45ff26f8c99247d3bfbb.mp3",
           "text": "She can play the guitar.",
           "mastery_tag": "listening",
@@ -408,7 +408,7 @@
         {
           "interaction_id": "A1_U31_B31_4_I5",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué frase es correcta según el texto anterior?",
+          "prompt_es": "¿Qué frase es correcta según el texto anterior? ([[can|poder]])",
           "options": [
             {
               "id": "o1",
@@ -443,18 +443,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Can|poder]]"
+              "text": "Cook"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Speak"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[[[can|poder]]|[[can|poder]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Write"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -464,18 +468,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[can|poder]]|[[can|poder]]]]"
             },
             {
               "id": "o2",
-              "text": "[[Can't|no poder]]"
+              "text": "Dance"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Read"
+            },
+            {
+              "id": "o4",
+              "text": "Ski"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -485,18 +493,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Paint"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "[[[[swim|nadar]]|[[swim|nadar]]]]"
             },
             {
               "id": "o3",
-              "text": "[[Swim|nadar]]"
+              "text": "Swim"
+            },
+            {
+              "id": "o4",
+              "text": "Cook"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -506,18 +518,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Fly|volar]]"
+              "text": "Jump"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[[[fly|volar]]|[[fly|volar]]]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Ski"
+            },
+            {
+              "id": "o4",
+              "text": "Write"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -527,15 +543,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Draw"
             },
             {
               "id": "o2",
-              "text": "[[Sing|cantar]]"
+              "text": "[[[[sing|cantar]]|[[sing|cantar]]]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Read"
+            },
+            {
+              "id": "o4",
+              "text": "Drive"
             }
           ],
           "correct_answer": "o2",
@@ -548,18 +568,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Dance"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Paint"
             },
             {
               "id": "o3",
-              "text": "[[Dance|bailar]]"
+              "text": "Ski"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[dance|bailar]]|[[dance|bailar]]]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -569,18 +593,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Drive|conducir]]"
+              "text": "Run"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[[[drive|conducir]]|[[drive|conducir]]]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Paint"
+            },
+            {
+              "id": "o4",
+              "text": "Ski"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -590,18 +618,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Run"
             },
             {
               "id": "o2",
-              "text": "[[Speak|hablar]]"
+              "text": "Cook"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[[[speak|hablar]]|[[speak|hablar]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Speak"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -611,18 +643,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[can|poder]]|[[can|poder]]]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Sing"
             },
             {
               "id": "o3",
-              "text": "[[Can|poder]]"
+              "text": "Draw"
+            },
+            {
+              "id": "o4",
+              "text": "Paint"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -632,18 +668,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Can't|no poder]]"
+              "text": "Draw"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Cook"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[[[can|poder]]|[[can|poder]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Skate"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -653,18 +693,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Write"
             },
             {
               "id": "o2",
-              "text": "[[Swim|nadar]]"
+              "text": "Read"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Skate"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[swim|nadar]]|[[swim|nadar]]]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -674,15 +718,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Run"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Dance"
             },
             {
               "id": "o3",
-              "text": "[[Fly|volar]]"
+              "text": "[[[[fly|volar]]|[[fly|volar]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Climb"
             }
           ],
           "correct_answer": "o3",
@@ -695,18 +743,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Sing|cantar]]"
+              "text": "Drive"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Draw"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[[[sing|cantar]]|[[sing|cantar]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Skate"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -716,18 +768,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Climb"
             },
             {
               "id": "o2",
-              "text": "[[Dance|bailar]]"
+              "text": "Ski"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[[[dance|bailar]]|[[dance|bailar]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Play"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -737,15 +793,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Sing"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Play"
             },
             {
               "id": "o3",
-              "text": "[[Drive|conducir]]"
+              "text": "[[[[drive|conducir]]|[[drive|conducir]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Ski"
             }
           ],
           "correct_answer": "o3",
@@ -758,18 +818,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Speak|hablar]]"
+              "text": "Dance"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Skate"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Write"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[speak|hablar]]|[[speak|hablar]]]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -779,18 +843,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Swim"
             },
             {
               "id": "o2",
-              "text": "[[Can|poder]]"
+              "text": "Drive"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[[[can|poder]]|[[can|poder]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Paint"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -800,18 +868,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Dance"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Speak"
             },
             {
               "id": "o3",
-              "text": "[[Can't|no poder]]"
+              "text": "Drive"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[can|poder]]|[[can|poder]]]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -821,18 +893,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Swim|nadar]]"
+              "text": "Run"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Cook"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Climb"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[swim|nadar]]|[[swim|nadar]]]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -842,18 +918,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Drive"
             },
             {
               "id": "o2",
-              "text": "[[Fly|volar]]"
+              "text": "Climb"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[[[fly|volar]]|[[fly|volar]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Read"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -863,18 +943,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[sing|cantar]]|[[sing|cantar]]]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Sing"
             },
             {
               "id": "o3",
-              "text": "[[Sing|cantar]]"
+              "text": "Write"
+            },
+            {
+              "id": "o4",
+              "text": "Paint"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -884,18 +968,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Dance|bailar]]"
+              "text": "Jump"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[[[dance|bailar]]|[[dance|bailar]]]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Play"
+            },
+            {
+              "id": "o4",
+              "text": "Drive"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -905,18 +993,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[drive|conducir]]|[[drive|conducir]]]]"
             },
             {
               "id": "o2",
-              "text": "[[Drive|conducir]]"
+              "text": "Dance"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Paint"
+            },
+            {
+              "id": "o4",
+              "text": "Drive"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -926,18 +1018,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Paint"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "[[[[speak|hablar]]|[[speak|hablar]]]]"
             },
             {
               "id": "o3",
-              "text": "[[Speak|hablar]]"
+              "text": "Drive"
+            },
+            {
+              "id": "o4",
+              "text": "Swim"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -947,18 +1043,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Can|poder]]"
+              "text": "Draw"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Swim"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Sing"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[can|poder]]|[[can|poder]]]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -968,15 +1068,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Jump"
             },
             {
               "id": "o2",
-              "text": "[[Can't|no poder]]"
+              "text": "[[[[can|poder]]|[[can|poder]]]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Speak"
+            },
+            {
+              "id": "o4",
+              "text": "Drive"
             }
           ],
           "correct_answer": "o2",
@@ -989,18 +1093,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Speak"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Read"
             },
             {
               "id": "o3",
-              "text": "[[Swim|nadar]]"
+              "text": "Jump"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[swim|nadar]]|[[swim|nadar]]]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1010,18 +1118,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Fly|volar]]"
+              "text": "Climb"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[[[fly|volar]]|[[fly|volar]]]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Swim"
+            },
+            {
+              "id": "o4",
+              "text": "Draw"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1031,15 +1143,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Sing"
             },
             {
               "id": "o2",
-              "text": "[[Sing|cantar]]"
+              "text": "[[[[sing|cantar]]|[[sing|cantar]]]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Read"
+            },
+            {
+              "id": "o4",
+              "text": "Skate"
             }
           ],
           "correct_answer": "o2",
@@ -1052,18 +1168,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[dance|bailar]]|[[dance|bailar]]]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Swim"
             },
             {
               "id": "o3",
-              "text": "[[Dance|bailar]]"
+              "text": "Play"
+            },
+            {
+              "id": "o4",
+              "text": "Jump"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1073,15 +1193,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Drive|conducir]]"
+              "text": "[[[[drive|conducir]]|[[drive|conducir]]]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Write"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Draw"
+            },
+            {
+              "id": "o4",
+              "text": "Ski"
             }
           ],
           "correct_answer": "o1",
@@ -1094,18 +1218,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Play"
             },
             {
               "id": "o2",
-              "text": "[[Speak|hablar]]"
+              "text": "Dance"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Skate"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[speak|hablar]]|[[speak|hablar]]]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1115,15 +1243,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Dance"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Speak"
             },
             {
               "id": "o3",
-              "text": "[[Can|poder]]"
+              "text": "[[[[can|poder]]|[[can|poder]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Write"
             }
           ],
           "correct_answer": "o3",
@@ -1136,18 +1268,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Can't|no poder]]"
+              "text": "Write"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[[[can|poder]]|[[can|poder]]]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Draw"
+            },
+            {
+              "id": "o4",
+              "text": "Run"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1157,15 +1293,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Cook"
             },
             {
               "id": "o2",
-              "text": "[[Swim|nadar]]"
+              "text": "[[[[swim|nadar]]|[[swim|nadar]]]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Climb"
+            },
+            {
+              "id": "o4",
+              "text": "Play"
             }
           ],
           "correct_answer": "o2",
@@ -1178,18 +1318,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Drive"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Play"
             },
             {
               "id": "o3",
-              "text": "[[Fly|volar]]"
+              "text": "Jump"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[fly|volar]]|[[fly|volar]]]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1199,18 +1343,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Sing|cantar]]"
+              "text": "Swim"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Dance"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[[[sing|cantar]]|[[sing|cantar]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Play"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1220,18 +1368,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[dance|bailar]]|[[dance|bailar]]]]"
             },
             {
               "id": "o2",
-              "text": "[[Dance|bailar]]"
+              "text": "Speak"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Run"
+            },
+            {
+              "id": "o4",
+              "text": "Climb"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1241,18 +1393,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[drive|conducir]]|[[drive|conducir]]]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Jump"
             },
             {
               "id": "o3",
-              "text": "[[Drive|conducir]]"
+              "text": "Sing"
+            },
+            {
+              "id": "o4",
+              "text": "Draw"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1262,15 +1418,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Speak|hablar]]"
+              "text": "[[[[speak|hablar]]|[[speak|hablar]]]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Skate"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Climb"
+            },
+            {
+              "id": "o4",
+              "text": "Read"
             }
           ],
           "correct_answer": "o1",
@@ -1283,18 +1443,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[can|poder]]|[[can|poder]]]]"
             },
             {
               "id": "o2",
-              "text": "[[Can|poder]]"
+              "text": "Sing"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Skate"
+            },
+            {
+              "id": "o4",
+              "text": "Jump"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1304,18 +1468,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Sing"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "[[[[can|poder]]|[[can|poder]]]]"
             },
             {
               "id": "o3",
-              "text": "[[Can't|no poder]]"
+              "text": "Drive"
+            },
+            {
+              "id": "o4",
+              "text": "Speak"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1325,18 +1493,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Swim|nadar]]"
+              "text": "Jump"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Write"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Cook"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[swim|nadar]]|[[swim|nadar]]]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         }
       ]
@@ -1348,7 +1520,7 @@
         {
           "interaction_id": "U31_L5_I1",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[can|poder]])",
           "audio_url": "/audio/courses/ingles-a1/unit31/lesson5-task-1.mp3",
           "transcript_template": "The [[can|]] is here.",
           "correct_answer": "can",
@@ -1362,7 +1534,7 @@
         {
           "interaction_id": "U31_L5_I2",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[can|poder]])",
           "audio_url": "/audio/courses/ingles-a1/unit31/lesson5-task-2.mp3",
           "transcript_template": "The [[can't|]] is here.",
           "correct_answer": "can't",
@@ -1376,7 +1548,7 @@
         {
           "interaction_id": "U31_L5_I3",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[can|poder]])",
           "audio_url": "/audio/courses/ingles-a1/unit31/lesson5-task-3.mp3",
           "transcript_template": "The [[swim|]] is here.",
           "correct_answer": "swim",
@@ -1390,7 +1562,7 @@
         {
           "interaction_id": "U31_L5_I4",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[can|poder]])",
           "audio_url": "/audio/courses/ingles-a1/unit31/lesson5-task-4.mp3",
           "transcript_template": "The [[fly|]] is here.",
           "correct_answer": "fly",
@@ -1404,7 +1576,7 @@
         {
           "interaction_id": "U31_L5_I5",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[can|poder]])",
           "audio_url": "/audio/courses/ingles-a1/unit31/lesson5-task-5.mp3",
           "transcript_template": "The [[sing|]] is here.",
           "correct_answer": "sing",
@@ -1418,7 +1590,7 @@
         {
           "interaction_id": "U31_L5_I6",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[can|poder]])",
           "audio_url": "/audio/courses/ingles-a1/unit31/lesson5-task-6.mp3",
           "transcript_template": "The [[dance|]] is here.",
           "correct_answer": "dance",
@@ -1432,7 +1604,7 @@
         {
           "interaction_id": "U31_L5_I7",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[can|poder]])",
           "audio_url": "/audio/courses/ingles-a1/unit31/lesson5-task-7.mp3",
           "transcript_template": "The [[drive|]] is here.",
           "correct_answer": "drive",
@@ -1446,7 +1618,7 @@
         {
           "interaction_id": "U31_L5_I8",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[can|poder]])",
           "title": "Pronunciación: Can for Ability",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1485,7 +1657,7 @@
         {
           "interaction_id": "U31_L5_I9",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[can|poder]])",
           "title": "Pronunciación: Can for Ability",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1524,7 +1696,7 @@
         {
           "interaction_id": "U31_L5_I10",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[can|poder]])",
           "title": "Pronunciación: Can for Ability",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1563,7 +1735,7 @@
         {
           "interaction_id": "U31_L5_I11",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[can|poder]])",
           "title": "Pronunciación: Can for Ability",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1602,7 +1774,7 @@
         {
           "interaction_id": "U31_L5_I12",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[can|poder]])",
           "title": "Pronunciación: Can for Ability",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1641,7 +1813,7 @@
         {
           "interaction_id": "U31_L5_I13",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[can|poder]])",
           "title": "Pronunciación: Can for Ability",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1680,7 +1852,7 @@
         {
           "interaction_id": "U31_L5_I14",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[can|poder]])",
           "title": "Pronunciación: Can for Ability",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1719,7 +1891,7 @@
         {
           "interaction_id": "U31_L5_I15",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[can|poder]])",
           "title": "Pronunciación: Can for Ability",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [

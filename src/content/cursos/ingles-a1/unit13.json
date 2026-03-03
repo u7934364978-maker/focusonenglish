@@ -23,12 +23,33 @@
           "type": "matching",
           "prompt_es": "Une las actividades de la mañana con su traducción:",
           "pairs": [
-            { "id": "p1", "left": "[[Wake up|Despertarse]]", "right": "Ducharse" },
-            { "id": "p2", "left": "[[Have a shower|Ducharse]]", "right": "Desayunar" },
-            { "id": "p3", "left": "[[Have breakfast|Desayunar]]", "right": "Lavarse los dientes" },
-            { "id": "p4", "left": "[[Brush my teeth|Lavarse los dientes]]", "right": "Despertarse" }
+            {
+              "id": "p1",
+              "left": "[[Wake up|Despertarse]]",
+              "right": "Ducharse"
+            },
+            {
+              "id": "p2",
+              "left": "[[Have a shower|Ducharse]]",
+              "right": "Desayunar"
+            },
+            {
+              "id": "p3",
+              "left": "[[Have breakfast|Desayunar]]",
+              "right": "Lavarse los dientes"
+            },
+            {
+              "id": "p4",
+              "left": "[[Brush my teeth|Lavarse los dientes]]",
+              "right": "Despertarse"
+            }
           ],
-          "correct_answer": { "p1": "p4", "p2": "p1", "p3": "p2", "p4": "p3" },
+          "correct_answer": {
+            "p1": "p4",
+            "p2": "p1",
+            "p3": "p2",
+            "p4": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -36,9 +57,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'ducharse' en inglés?",
           "options": [
-            { "id": "o1", "text": "[[Have a bath|Darse un baño]]" },
-            { "id": "o2", "text": "[[Have a shower|Ducharse]]" },
-            { "id": "o3", "text": "[[Have a swim|Nadar]]" }
+            {
+              "id": "o1",
+              "text": "[[Have a bath|Darse un baño]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Have a shower|Ducharse]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Have a swim|Nadar]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "vocabulary"
@@ -46,7 +76,7 @@
         {
           "interaction_id": "U13_I3",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'Me lavo los dientes cada mañana.'",
+          "prompt_es": "Completa: 'Me lavo los dientes cada mañana.' ([[time|tiempo]])",
           "stimulus_en": "I ________ my teeth every morning.",
           "correct_answer": "brush",
           "mastery_tag": "vocabulary"
@@ -61,16 +91,41 @@
         {
           "interaction_id": "U13_I5",
           "type": "reorder_words",
-          "prompt_es": "Ordena la rutina mañanera correctamente:",
+          "prompt_es": "Ordena la rutina mañanera correctamente: ([[time|tiempo]])",
           "options": [
-            { "id": "w1", "text": "I" },
-            { "id": "w2", "text": "wake" },
-            { "id": "w3", "text": "up" },
-            { "id": "w4", "text": "at" },
-            { "id": "w5", "text": "seven" },
-            { "id": "w6", "text": "o'clock." }
+            {
+              "id": "w1",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "wake"
+            },
+            {
+              "id": "w3",
+              "text": "up"
+            },
+            {
+              "id": "w4",
+              "text": "at"
+            },
+            {
+              "id": "w5",
+              "text": "seven"
+            },
+            {
+              "id": "w6",
+              "text": "o'clock."
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -78,9 +133,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la secuencia correcta de la mañana?",
           "options": [
-            { "id": "o1", "text": "[[Wake up → shower → breakfast|Despertar → ducha → desayuno]]" },
-            { "id": "o2", "text": "[[Breakfast → shower → wake up|Desayuno → ducha → despertar]]" },
-            { "id": "o3", "text": "[[Shower → wake up → breakfast|Ducha → despertar → desayuno]]" }
+            {
+              "id": "o1",
+              "text": "[[Wake up → shower → breakfast|Despertar → ducha → desayuno]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Breakfast → shower → wake up|Desayuno → ducha → despertar]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Shower → wake up → breakfast|Ducha → despertar → desayuno]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -88,7 +152,7 @@
         {
           "interaction_id": "U13_I7",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'Me visto después de la ducha.'",
+          "prompt_es": "Completa: 'Me visto después de la ducha.' ([[shower|ducharse]])",
           "stimulus_en": "I ________ dressed after the shower.",
           "correct_answer": "get",
           "mastery_tag": "grammar"
@@ -96,7 +160,7 @@
         {
           "interaction_id": "U13_I8",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Me ducho por la mañana.'",
+          "prompt_es": "Traduce: 'Me ducho por la mañana.' ([[time|tiempo]])",
           "correct_answer": "I have a shower in the morning",
           "mastery_tag": "syntax"
         },
@@ -105,9 +169,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'despertarse'?",
           "options": [
-            { "id": "o1", "text": "[[Stand up|Levantarse]]" },
-            { "id": "o2", "text": "[[Get up|Levantarse de la cama]]" },
-            { "id": "o3", "text": "[[Wake up|Despertarse]]" }
+            {
+              "id": "o1",
+              "text": "[[Stand up|Levantarse]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Get up|Levantarse de la cama]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Wake up|Despertarse]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -130,9 +203,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'almorzar' en inglés?",
           "options": [
-            { "id": "o1", "text": "[[Have dinner|Cenar]]" },
-            { "id": "o2", "text": "[[Have breakfast|Desayunar]]" },
-            { "id": "o3", "text": "[[Have lunch|Almorzar]]" }
+            {
+              "id": "o1",
+              "text": "[[Have dinner|Cenar]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Have breakfast|Desayunar]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Have lunch|Almorzar]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -140,7 +222,7 @@
         {
           "interaction_id": "U13_I12",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'Voy al trabajo en autobús.'",
+          "prompt_es": "Completa: 'Voy al trabajo en autobús.' ([[bus|autobús]])",
           "stimulus_en": "I ________ to work by bus.",
           "correct_answer": "go",
           "mastery_tag": "grammar"
@@ -150,12 +232,33 @@
           "type": "matching",
           "prompt_es": "Une el lugar con la acción típica:",
           "pairs": [
-            { "id": "p1", "left": "[[Office|Oficina]]", "right": "Cocinar" },
-            { "id": "p2", "left": "[[Kitchen|Cocina]]", "right": "Almorzar" },
-            { "id": "p3", "left": "[[Restaurant|Restaurante]]", "right": "Trabajar" },
-            { "id": "p4", "left": "[[School|Escuela]]", "right": "Estudiar" }
+            {
+              "id": "p1",
+              "left": "[[Office|Oficina]]",
+              "right": "Cocinar"
+            },
+            {
+              "id": "p2",
+              "left": "[[Kitchen|Cocina]]",
+              "right": "Almorzar"
+            },
+            {
+              "id": "p3",
+              "left": "[[Restaurant|Restaurante]]",
+              "right": "Trabajar"
+            },
+            {
+              "id": "p4",
+              "left": "[[School|Escuela]]",
+              "right": "Estudiar"
+            }
           ],
-          "correct_answer": { "p1": "p3", "p2": "p1", "p3": "p2", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p3",
+            "p2": "p1",
+            "p3": "p2",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -168,16 +271,41 @@
         {
           "interaction_id": "U13_I15",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Vuelvo a casa a las seis.'",
+          "prompt_es": "Ordena: 'Vuelvo a casa a las seis.' ([[time|tiempo]])",
           "options": [
-            { "id": "w1", "text": "I" },
-            { "id": "w2", "text": "come" },
-            { "id": "w3", "text": "home" },
-            { "id": "w4", "text": "at" },
-            { "id": "w5", "text": "six" },
-            { "id": "w6", "text": "o'clock." }
+            {
+              "id": "w1",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "come"
+            },
+            {
+              "id": "w3",
+              "text": "home"
+            },
+            {
+              "id": "w4",
+              "text": "at"
+            },
+            {
+              "id": "w5",
+              "text": "six"
+            },
+            {
+              "id": "w6",
+              "text": "o'clock."
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -185,9 +313,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué preposición usamos en '[[I go ___ work|Voy al trabajo]]'?",
           "options": [
-            { "id": "o1", "text": "[[To|A]]" },
-            { "id": "o2", "text": "[[At|En]]" },
-            { "id": "o3", "text": "[[In|En]]" }
+            {
+              "id": "o1",
+              "text": "[[To|A]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[At|En]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[In|En]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -195,14 +332,14 @@
         {
           "interaction_id": "U13_I17",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Vuelvo del trabajo a las cinco.'",
+          "prompt_es": "Traduce: 'Vuelvo del trabajo a las cinco.' ([[time|tiempo]])",
           "correct_answer": "I come home from work at five o'clock",
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U13_I18",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'Almuerzo a la una.'",
+          "prompt_es": "Completa: 'Almuerzo a la una.' ([[clock|reloj]])",
           "stimulus_en": "I have ________ at one o'clock.",
           "correct_answer": "lunch",
           "mastery_tag": "vocabulary"
@@ -218,9 +355,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'cenar' en inglés?",
           "options": [
-            { "id": "o1", "text": "[[Have dinner|Cenar]]" },
-            { "id": "o2", "text": "[[Have lunch|Almorzar]]" },
-            { "id": "o3", "text": "[[Have a snack|Merendar]]" }
+            {
+              "id": "o1",
+              "text": "[[Have dinner|Cenar]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Have lunch|Almorzar]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Have a snack|Merendar]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -235,7 +381,7 @@
         {
           "interaction_id": "U13_I21",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'Veo la televisión por la tarde.'",
+          "prompt_es": "Completa: 'Veo la televisión por la tarde.' ([[time|tiempo]])",
           "stimulus_en": "I watch ________ in the evening.",
           "correct_answer": "TV",
           "mastery_tag": "vocabulary"
@@ -243,16 +389,41 @@
         {
           "interaction_id": "U13_I22",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Ceno con mi familia.'",
+          "prompt_es": "Ordena: 'Ceno con mi familia.' ([[time|tiempo]])",
           "options": [
-            { "id": "w1", "text": "I" },
-            { "id": "w2", "text": "have" },
-            { "id": "w3", "text": "dinner" },
-            { "id": "w4", "text": "with" },
-            { "id": "w5", "text": "my" },
-            { "id": "w6", "text": "family." }
+            {
+              "id": "w1",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "have"
+            },
+            {
+              "id": "w3",
+              "text": "dinner"
+            },
+            {
+              "id": "w4",
+              "text": "with"
+            },
+            {
+              "id": "w5",
+              "text": "my"
+            },
+            {
+              "id": "w6",
+              "text": "family."
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -260,12 +431,33 @@
           "type": "matching",
           "prompt_es": "Une la actividad nocturna con su significado:",
           "pairs": [
-            { "id": "p1", "left": "[[Watch TV|Ver la tele]]", "right": "Leer un libro" },
-            { "id": "p2", "left": "[[Read a book|Leer un libro]]", "right": "Acostarse" },
-            { "id": "p3", "left": "[[Go to bed|Acostarse]]", "right": "Relajarse" },
-            { "id": "p4", "left": "[[Relax|Relajarse]]", "right": "Ver la tele" }
+            {
+              "id": "p1",
+              "left": "[[Watch TV|Ver la tele]]",
+              "right": "Leer un libro"
+            },
+            {
+              "id": "p2",
+              "left": "[[Read a book|Leer un libro]]",
+              "right": "Acostarse"
+            },
+            {
+              "id": "p3",
+              "left": "[[Go to bed|Acostarse]]",
+              "right": "Relajarse"
+            },
+            {
+              "id": "p4",
+              "left": "[[Relax|Relajarse]]",
+              "right": "Ver la tele"
+            }
           ],
-          "correct_answer": { "p1": "p4", "p2": "p1", "p3": "p2", "p4": "p3" },
+          "correct_answer": {
+            "p1": "p4",
+            "p2": "p1",
+            "p3": "p2",
+            "p4": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -273,17 +465,26 @@
           "type": "multiple_choice",
           "prompt_es": "¿A qué hora se suele cenar (dinner) en el Reino Unido?",
           "options": [
-            { "id": "o1", "text": "[[At 10 PM|A las 10 de la noche]]" },
-            { "id": "o2", "text": "[[At 6 or 7 PM|A las 6 o 7 de la tarde]]" },
-            { "id": "o3", "text": "[[At midnight|A medianoche]]" }
+            {
+              "id": "o1",
+              "text": "[[At 10 PM|A las 10 de la noche]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[At midnight|A medianoche]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[At 6 or 7 PM|A las 6 o 7 de la tarde]]"
+            }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "culture"
         },
         {
           "interaction_id": "U13_I25",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'Me voy a la cama a las once.'",
+          "prompt_es": "Completa: 'Me voy a la cama a las once.' ([[clock|reloj]])",
           "stimulus_en": "I go to ________ at eleven o'clock.",
           "correct_answer": "bed",
           "mastery_tag": "grammar"
@@ -291,7 +492,7 @@
         {
           "interaction_id": "U13_I26",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Ceno con mi familia.'",
+          "prompt_es": "Traduce: 'Ceno con mi familia.' ([[time|tiempo]])",
           "correct_answer": "I have dinner with my family",
           "mastery_tag": "syntax"
         }
@@ -305,7 +506,7 @@
           "interaction_id": "U13_READ1",
           "type": "reading_phase",
           "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[carefully|con atención]].",
-          "transcript": "[[John|John]] wakes up at [[seven o'clock|las siete en punto]] every day. After waking up, he [[takes a shower|se ducha]]. Then, he [[has breakfast|desayuna]]. He eats [[eggs|huevos]] and [[drinks|bebe]] orange juice. After breakfast, [[John|John]] goes to work. He works in an [[office|oficina]]. He has [[lunch|almuerza]] at one o'clock. He comes [[home|a casa]] at six o'clock. In the [[evening|tarde]], he [[watches|ve]] TV. He goes to bed at [[eleven|las once]].",
+          "transcript": "[[John|John]] wakes up [[at|a las]] [[seven o'clock|las siete]] every day. After waking up, he [[takes|se da]] a [[shower|ducha]] and gets [[dressed|vestido]]. At [[half past seven|las siete y media]], he has [[breakfast|el desayuno]] — usually [[cereal|cereales]] and a cup of [[tea|té]]. He [[leaves|sale de]] home at [[eight|las ocho]] and [[takes|coge]] the bus to work. He [[starts|empieza]] work at [[nine o'clock|las nueve]]. At [[lunchtime|la hora del almuerzo]], he [[eats|come]] a [[sandwich|sándwich]] in the office. He [[finishes|termina]] work at [[five thirty|las cinco y media]]. In the evening, he [[goes|va]] to the gym on Tuesdays and Thursdays. He [[has|cena]] dinner at [[seven|las siete]] and [[goes|se va]] to bed at [[ten thirty|las diez y media]].",
           "mastery_tag": "reading",
           "complexity": 1
         },
@@ -314,9 +515,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué hace John después de la ducha?",
           "options": [
-            { "id": "o1", "text": "[[He goes to work|Va al trabajo]]" },
-            { "id": "o2", "text": "[[He has breakfast|Desayuna]]" },
-            { "id": "o3", "text": "[[He has lunch|Almuerza]]" }
+            {
+              "id": "o1",
+              "text": "[[He goes to work|Va al trabajo]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[He has breakfast|Desayuna]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[He has lunch|Almuerza]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "reading"
@@ -324,7 +534,7 @@
         {
           "interaction_id": "U13_I28",
           "type": "true_false",
-          "prompt_es": "Según el texto, John se levanta a las ocho en punto.",
+          "prompt_es": "Según el texto, John se levanta a las ocho en punto. ([[time|tiempo]])",
           "correct_answer": false,
           "mastery_tag": "reading"
         },
@@ -333,9 +543,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿A qué hora almuerza John?",
           "options": [
-            { "id": "o1", "text": "[[At one o'clock|A la una en punto]]" },
-            { "id": "o2", "text": "[[At twelve o'clock|A las doce en punto]]" },
-            { "id": "o3", "text": "[[At two o'clock|A las dos en punto]]" }
+            {
+              "id": "o1",
+              "text": "[[At one o'clock|A la una en punto]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[At twelve o'clock|A las doce en punto]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[At two o'clock|A las dos en punto]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
@@ -343,7 +562,7 @@
         {
           "interaction_id": "U13_I30",
           "type": "fill_blanks",
-          "prompt_es": "Según el texto, John vuelve a casa a las '________'.",
+          "prompt_es": "Según el texto, John vuelve a casa a las '________'. ([[clock|reloj]])",
           "stimulus_en": "John comes home at ________ o'clock.",
           "correct_answer": "six",
           "mastery_tag": "reading"
@@ -353,9 +572,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué hace John por la tarde?",
           "options": [
-            { "id": "o1", "text": "[[He reads a book|Lee un libro]]" },
-            { "id": "o2", "text": "[[He watches TV|Ve la televisión]]" },
-            { "id": "o3", "text": "[[He cooks dinner|Cocina la cena]]" }
+            {
+              "id": "o1",
+              "text": "[[He reads a book|Lee un libro]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[He watches TV|Ve la televisión]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[He cooks dinner|Cocina la cena]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "reading"
@@ -363,24 +591,53 @@
         {
           "interaction_id": "U13_I32",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Me levanto a las siete.'",
+          "prompt_es": "Traduce: 'Me levanto a las siete.' ([[time|tiempo]])",
           "correct_answer": "I wake up at seven o'clock",
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U13_I33",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Finalmente, me voy a la cama a las once.'",
+          "prompt_es": "Ordena: 'Finalmente, me voy a la cama a las once.' ([[time|tiempo]])",
           "options": [
-            { "id": "w1", "text": "Finally," },
-            { "id": "w2", "text": "I" },
-            { "id": "w3", "text": "go" },
-            { "id": "w4", "text": "to" },
-            { "id": "w5", "text": "bed" },
-            { "id": "w6", "text": "at" },
-            { "id": "w7", "text": "eleven." }
+            {
+              "id": "w1",
+              "text": "Finally,"
+            },
+            {
+              "id": "w2",
+              "text": "I"
+            },
+            {
+              "id": "w3",
+              "text": "go"
+            },
+            {
+              "id": "w4",
+              "text": "to"
+            },
+            {
+              "id": "w5",
+              "text": "bed"
+            },
+            {
+              "id": "w6",
+              "text": "at"
+            },
+            {
+              "id": "w7",
+              "text": "eleven."
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -388,12 +645,33 @@
           "type": "matching",
           "prompt_es": "Une la hora con la actividad de John:",
           "pairs": [
-            { "id": "p1", "left": "[[7:00 AM|Siete de la mañana]]", "right": "Va al trabajo" },
-            { "id": "p2", "left": "[[After breakfast|Después del desayuno]]", "right": "Se levanta" },
-            { "id": "p3", "left": "[[1:00 PM|La una de la tarde]]", "right": "Almuerza" },
-            { "id": "p4", "left": "[[6:00 PM|Seis de la tarde]]", "right": "Vuelve a casa" }
+            {
+              "id": "p1",
+              "left": "[[7:00 AM|Siete de la mañana]]",
+              "right": "Va al trabajo"
+            },
+            {
+              "id": "p2",
+              "left": "[[After breakfast|Después del desayuno]]",
+              "right": "Se levanta"
+            },
+            {
+              "id": "p3",
+              "left": "[[1:00 PM|La una de la tarde]]",
+              "right": "Almuerza"
+            },
+            {
+              "id": "p4",
+              "left": "[[6:00 PM|Seis de la tarde]]",
+              "right": "Vuelve a casa"
+            }
           ],
-          "correct_answer": { "p1": "p2", "p2": "p1", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p2",
+            "p2": "p1",
+            "p3": "p3",
+            "p4": "p4"
+          },
           "mastery_tag": "reading"
         },
         {
@@ -401,9 +679,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Dónde trabaja John?",
           "options": [
-            { "id": "o1", "text": "[[In a school|En una escuela]]" },
-            { "id": "o2", "text": "[[In an office|En una oficina]]" },
-            { "id": "o3", "text": "[[In a hospital|En un hospital]]" }
+            {
+              "id": "o1",
+              "text": "[[In a school|En una escuela]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[In an office|En una oficina]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[In a hospital|En un hospital]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "reading"
@@ -419,17 +706,26 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué frase describe bien una rutina?",
           "options": [
-            { "id": "o1", "text": "[[I usually wake up at 7 AM|Normalmente me despierto a las 7]]" },
-            { "id": "o2", "text": "[[I woke up at 7 AM yesterday|Ayer me desperté a las 7]]" },
-            { "id": "o3", "text": "[[I will wake up at 7 AM|Me despertaré a las 7]]" }
+            {
+              "id": "o1",
+              "text": "[[I will wake up at 7 AM|Me despertaré a las 7]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[I woke up at 7 AM yesterday|Ayer me desperté a las 7]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[I usually wake up at 7 AM|Normalmente me despierto a las 7]]"
+            }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U13_I37",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'Normalmente salgo de casa a las ocho.'",
+          "prompt_es": "Completa: 'Normalmente salgo de casa a las ocho.' ([[usually|normalmente]])",
           "stimulus_en": "I usually ________ home at eight o'clock.",
           "correct_answer": "leave",
           "mastery_tag": "vocabulary"
@@ -439,12 +735,33 @@
           "type": "matching",
           "prompt_es": "Une el adverbio de frecuencia con su uso:",
           "pairs": [
-            { "id": "p1", "left": "[[Always|Siempre]]", "right": "A veces" },
-            { "id": "p2", "left": "[[Usually|Normalmente]]", "right": "Nunca" },
-            { "id": "p3", "left": "[[Sometimes|A veces]]", "right": "Siempre" },
-            { "id": "p4", "left": "[[Never|Nunca]]", "right": "Normalmente" }
+            {
+              "id": "p1",
+              "left": "[[Always|Siempre]]",
+              "right": "A veces"
+            },
+            {
+              "id": "p2",
+              "left": "[[Usually|Normalmente]]",
+              "right": "Nunca"
+            },
+            {
+              "id": "p3",
+              "left": "[[Sometimes|A veces]]",
+              "right": "Siempre"
+            },
+            {
+              "id": "p4",
+              "left": "[[Never|Nunca]]",
+              "right": "Normalmente"
+            }
           ],
-          "correct_answer": { "p1": "p3", "p2": "p4", "p3": "p1", "p4": "p2" },
+          "correct_answer": {
+            "p1": "p3",
+            "p2": "p4",
+            "p3": "p1",
+            "p4": "p2"
+          },
           "mastery_tag": "grammar"
         },
         {
@@ -452,14 +769,39 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'Normalmente desayuno a las siete.'",
           "options": [
-            { "id": "w1", "text": "I" },
-            { "id": "w2", "text": "usually" },
-            { "id": "w3", "text": "have" },
-            { "id": "w4", "text": "breakfast" },
-            { "id": "w5", "text": "at" },
-            { "id": "w6", "text": "seven." }
+            {
+              "id": "w1",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "[[usually|normalmente]]"
+            },
+            {
+              "id": "w3",
+              "text": "have"
+            },
+            {
+              "id": "w4",
+              "text": "breakfast"
+            },
+            {
+              "id": "w5",
+              "text": "at"
+            },
+            {
+              "id": "w6",
+              "text": "seven."
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -467,9 +809,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es el orden lógico de la rutina nocturna?",
           "options": [
-            { "id": "o1", "text": "[[Dinner → TV → bed|Cenar → TV → cama]]" },
-            { "id": "o2", "text": "[[Bed → TV → dinner|Cama → TV → cenar]]" },
-            { "id": "o3", "text": "[[TV → bed → dinner|TV → cama → cenar]]" }
+            {
+              "id": "o1",
+              "text": "[[Dinner → TV → bed|Cenar → TV → cama]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Bed → TV → dinner|Cama → TV → cenar]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[TV → bed → dinner|TV → cama → cenar]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -491,10 +842,403 @@
         {
           "interaction_id": "U13_I43",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'Después de cenar, me relajo.'",
+          "prompt_es": "Completa: 'Después de cenar, me relajo.' ([[time|tiempo]])",
           "stimulus_en": "After dinner, I ________.",
           "correct_answer": "relax",
           "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B13_6",
+      "title": "Block 6: Routine Verbs & Times",
+      "content": [
+        {
+          "interaction_id": "A1_U13_B13_6_E1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué hace alguien que \"[[wakes up|se despierta]]\" a las 7?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sleeps at 7"
+            },
+            {
+              "id": "o2",
+              "text": "[[Gets out of bed at 7|Se levanta a las 7]]"
+            },
+            {
+              "id": "o3",
+              "text": "Eats at 7"
+            },
+            {
+              "id": "o4",
+              "text": "Works at 7"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "A1_U13_B13_6_F1",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: I [[brush|cepillarme]] ________ my teeth every morning.",
+          "stimulus_en": "I ________ my teeth every morning.",
+          "correct_answer": "brush",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar"
+          ]
+        },
+        {
+          "interaction_id": "A1_U13_B13_6_F2",
+          "type": "fill_blanks",
+          "prompt_es": "Usa el verbo correcto: She [[has|tomar]] ________ breakfast at 8 o'clock.",
+          "stimulus_en": "She ________ breakfast at 8 o'clock.",
+          "correct_answer": "has",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar"
+          ]
+        },
+        {
+          "interaction_id": "A1_U13_B13_6_R1",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: \"Me ducho todos los días\"",
+          "options": [
+            {
+              "id": "w1",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "have"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "[[shower|ducharse]]"
+            },
+            {
+              "id": "w5",
+              "text": "every"
+            },
+            {
+              "id": "w6",
+              "text": "day"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
+        },
+        {
+          "interaction_id": "A1_U13_B13_6_E2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál de estos verbos describe una acción de la mañana?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Go to bed"
+            },
+            {
+              "id": "o2",
+              "text": "Have dinner"
+            },
+            {
+              "id": "o3",
+              "text": "Watch TV"
+            },
+            {
+              "id": "o4",
+              "text": "[[Get dressed|Vestirse]]"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "A1_U13_B13_6_T1",
+          "type": "true_false",
+          "prompt_es": "\"[[I go to bed at night|Me voy a dormir por la noche]]\" es una rutina nocturna. ¿Verdadero o falso?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[True|Verdadero]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[False|Falso]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar"
+          ]
+        },
+        {
+          "interaction_id": "A1_U13_B13_6_E3",
+          "type": "multiple_choice",
+          "prompt_es": "\"What time do you ________ work?\" ¿Qué verbo falta?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "to start"
+            },
+            {
+              "id": "o2",
+              "text": "[[start|empezar]]"
+            },
+            {
+              "id": "o3",
+              "text": "starts"
+            },
+            {
+              "id": "o4",
+              "text": "starting"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "A1_U13_B13_6_F3",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: I [[get|llegar]] ________ home at 6 pm.",
+          "stimulus_en": "I ________ home at 6 pm.",
+          "correct_answer": "get",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar"
+          ]
+        },
+        {
+          "interaction_id": "A1_U13_B13_6_E4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la respuesta correcta a \"What do you do in the evening?\"",
+          "options": [
+            {
+              "id": "o1",
+              "text": "I go school"
+            },
+            {
+              "id": "o2",
+              "text": "I at work"
+            },
+            {
+              "id": "o3",
+              "text": "I sleep morning"
+            },
+            {
+              "id": "o4",
+              "text": "[[I watch TV and relax|Veo la tele y descanso]]"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "speaking",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "A1_U13_B13_6_T2",
+          "type": "true_false",
+          "prompt_es": "\"[[Have lunch|Almorzar]]\" es una actividad de mediodía. ¿Verdadero o falso?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[True|Verdadero]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[False|Falso]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar"
+          ]
+        },
+        {
+          "interaction_id": "A1_U13_B13_6_R2",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: \"Ella trabaja de lunes a viernes\" ([[time|tiempo]])",
+          "options": [
+            {
+              "id": "w1",
+              "text": "She"
+            },
+            {
+              "id": "w2",
+              "text": "works"
+            },
+            {
+              "id": "w3",
+              "text": "from"
+            },
+            {
+              "id": "w4",
+              "text": "Monday"
+            },
+            {
+              "id": "w5",
+              "text": "to"
+            },
+            {
+              "id": "w6",
+              "text": "Friday"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
+        },
+        {
+          "interaction_id": "A1_U13_B13_6_F4",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la hora: I [[have|tomar]] dinner ________ eight o'clock.",
+          "stimulus_en": "I have dinner ________ eight o'clock.",
+          "correct_answer": "at",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar"
+          ]
+        },
+        {
+          "interaction_id": "A1_U13_B13_6_E5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa \"[[commute|desplazarse al trabajo]]\"?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sleep"
+            },
+            {
+              "id": "o2",
+              "text": "[[Travel to work|Ir al trabajo en transporte]]"
+            },
+            {
+              "id": "o3",
+              "text": "Have breakfast"
+            },
+            {
+              "id": "o4",
+              "text": "Cook dinner"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "A1_U13_B13_6_E6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice \"Después del desayuno\" en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[After breakfast|Después del desayuno]]"
+            },
+            {
+              "id": "o2",
+              "text": "Before dinner"
+            },
+            {
+              "id": "o3",
+              "text": "In the morning start"
+            },
+            {
+              "id": "o4",
+              "text": "At breakfast"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "A1_U13_B13_6_T3",
+          "type": "true_false",
+          "prompt_es": "\"[[I brush my teeth before bed|Me cepillo los dientes antes de dormir]]\" es correcto. ¿Verdadero o falso?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[False|Falso]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[True|Verdadero]]"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar"
+          ]
+        },
+        {
+          "interaction_id": "A1_U13_B13_6_F5",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: He [[goes|ir]] ________ to bed at eleven.",
+          "stimulus_en": "He ________ to bed at eleven.",
+          "correct_answer": "goes",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar"
+          ]
         }
       ]
     }

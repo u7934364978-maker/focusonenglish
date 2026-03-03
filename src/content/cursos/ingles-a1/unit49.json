@@ -25,7 +25,7 @@
           "options": [
             {
               "id": "o2",
-              "text": "Suitcase"
+              "text": "[[Suitcase|maleta]]"
             },
             {
               "id": "o1",
@@ -86,7 +86,7 @@
         {
           "interaction_id": "A1_U49_B1_I3",
           "type": "short_writing",
-          "prompt_es": "Escribe 'adaptador' en inglés:",
+          "prompt_es": "Escribe 'adaptador' en inglés: ([[suitcase|maleta]])",
           "stimulus_es": "Adaptador",
           "correct_answer": "Adapter",
           "mastery_tag": "vocabulary",
@@ -99,7 +99,7 @@
         {
           "interaction_id": "A1_U49_B1_I4",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la opción para 'artículos de aseo':",
+          "prompt_es": "Selecciona la opción para 'artículos de aseo': ([[suitcase|maleta]])",
           "options": [
             {
               "id": "o2",
@@ -125,7 +125,7 @@
         {
           "interaction_id": "A1_U49_B1_I5",
           "type": "audio_player",
-          "prompt_es": "Escucha y repite el vocabulario:",
+          "prompt_es": "Escucha y repite el vocabulario: ([[suitcase|maleta]])",
           "audioUrl": "/audio/courses/ingles-a1/shared/suitcase_toiletries.mp3",
           "text": "Suitcase, sunscreen, and toiletries.",
           "mastery_tag": "listening",
@@ -144,7 +144,7 @@
         {
           "interaction_id": "A1_U49_B2_I1",
           "type": "fill_blanks",
-          "prompt_es": "Completa con el verbo 'necesitar':",
+          "prompt_es": "Completa con el verbo 'necesitar': ([[charger|cargador]])",
           "stimulus_en": "I ________ my phone charger.",
           "correct_answer": "need",
           "mastery_tag": "grammar",
@@ -157,7 +157,7 @@
         {
           "interaction_id": "A1_U49_B2_I2",
           "type": "reorder_words",
-          "prompt_es": "Ordena la frase: 'Necesito mi bañador'",
+          "prompt_es": "Ordena la frase: 'Necesito mi bañador' ([[suitcase|maleta]])",
           "options": [
             {
               "id": "w1",
@@ -192,7 +192,7 @@
         {
           "interaction_id": "A1_U49_B2_I4",
           "type": "fill_blanks",
-          "prompt_es": "Completa la frase: 'No olvides tus documentos'",
+          "prompt_es": "Completa la frase: 'No olvides tus documentos' ([[suitcase|maleta]])",
           "stimulus_en": "Don't ________ your documents.",
           "correct_answer": "forget",
           "mastery_tag": "grammar",
@@ -205,7 +205,7 @@
         {
           "interaction_id": "A1_U49_B2_I5",
           "type": "audio_player",
-          "prompt_es": "Escucha la frase:",
+          "prompt_es": "Escucha la frase: ([[suitcase|maleta]])",
           "audioUrl": "/audio/courses/ingles-a1/shared/dont_forget_charger.mp3",
           "text": "Don't forget your phone charger.",
           "mastery_tag": "listening",
@@ -224,7 +224,7 @@
         {
           "interaction_id": "A1_U49_B3_I1",
           "type": "categorization",
-          "prompt_es": "Clasifica los objetos:",
+          "prompt_es": "Clasifica los objetos: ([[suitcase|maleta]])",
           "categories": [
             {
               "id": "clothes",
@@ -256,7 +256,7 @@
         {
           "interaction_id": "A1_U49_B3_I2",
           "type": "true_false",
-          "prompt_es": "En la frase 'My suitcase is too full', ¿significa que la maleta está vacía?",
+          "prompt_es": "En la frase 'My suitcase is too full', ¿significa que la maleta está vacía? ([[suitcase|maleta]])",
           "correct_answer": false,
           "mastery_tag": "vocabulary",
           "complexity": 1,
@@ -268,7 +268,7 @@
         {
           "interaction_id": "A1_U49_B3_I3",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Estoy haciendo mi maleta'",
+          "prompt_es": "Traduce: 'Estoy haciendo mi maleta' ([[suitcase|maleta]])",
           "stimulus_es": "I am packing my suitcase.",
           "correct_answer": "I am packing my suitcase",
           "mastery_tag": "grammar",
@@ -293,7 +293,7 @@
             },
             {
               "id": "o3",
-              "text": "Sunscreen"
+              "text": "[[Sunscreen|protector solar]]"
             }
           ],
           "correct_answer": "o3",
@@ -313,7 +313,7 @@
         {
           "interaction_id": "A1_U49_B4_I2",
           "type": "fill_blanks",
-          "prompt_es": "Completa el texto:",
+          "prompt_es": "Completa el texto: ([[passport|pasaporte]])",
           "stimulus_en": "I am ________ my suitcase for the trip. I ________ my passport.",
           "correct_answer": "packing, need",
           "mastery_tag": "grammar",
@@ -326,7 +326,7 @@
         {
           "interaction_id": "A1_U49_B4_I3",
           "type": "short_writing",
-          "prompt_es": "Escribe una frase corta diciendo que necesitas tu cargador:",
+          "prompt_es": "Escribe una frase corta diciendo que necesitas tu cargador: ([[suitcase|maleta]])",
           "stimulus_es": "I need my charger.",
           "correct_answer": "I need my charger",
           "mastery_tag": "grammar",
@@ -339,7 +339,7 @@
         {
           "interaction_id": "A1_U49_B4_I4",
           "type": "multiple_choice",
-          "prompt_es": "Si tu maleta pesa mucho, dices:",
+          "prompt_es": "Si tu maleta pesa mucho, dices: ([[suitcase|maleta]])",
           "options": [
             {
               "id": "o2",
@@ -371,7 +371,7 @@
         {
           "interaction_id": "U49_I301",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[suitcase|maleta]])",
           "stimulus_en": "I need to pack my suitcase.",
           "correct_answer": "I need to pack my suitcase.",
           "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-1.mp3",
@@ -385,7 +385,7 @@
         {
           "interaction_id": "U49_I302",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[charger|cargador]])",
           "stimulus_en": "Don't forget your phone charger.",
           "correct_answer": "Don't forget your phone charger.",
           "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-2.mp3",
@@ -399,7 +399,7 @@
         {
           "interaction_id": "U49_I303",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[passport|pasaporte]])",
           "stimulus_en": "I have my passport and tickets.",
           "correct_answer": "I have my passport and tickets.",
           "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-3.mp3",
@@ -413,7 +413,7 @@
         {
           "interaction_id": "U49_I304",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[luggage|equipaje]])",
           "stimulus_en": "Is your luggage heavy or light?",
           "correct_answer": "Is your luggage heavy or light?",
           "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-4.mp3",
@@ -427,7 +427,7 @@
         {
           "interaction_id": "U49_I305",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[suitcase|maleta]])",
           "stimulus_en": "I need a universal adapter.",
           "correct_answer": "I need a universal adapter.",
           "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-5.mp3",
@@ -441,7 +441,7 @@
         {
           "interaction_id": "U49_I306",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[beach|playa]])",
           "stimulus_en": "Pack your swimsuit for the beach.",
           "correct_answer": "Pack your swimsuit for the beach.",
           "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-6.mp3",
@@ -455,7 +455,7 @@
         {
           "interaction_id": "U49_I307",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[sunglasses|gafas de sol]])",
           "stimulus_en": "Where are my sunglasses?",
           "correct_answer": "Where are my sunglasses?",
           "audioUrl": "/audio/courses/ingles-a1/unit49/lesson5-task-7.mp3",
@@ -469,7 +469,7 @@
         {
           "interaction_id": "U49_I308",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[suitcase|maleta]])",
           "title": "Pronunciación: Suitcase",
           "instructions": "Escucha y repite enfocándote en la 's'.",
           "targetSentences": [
@@ -508,7 +508,7 @@
         {
           "interaction_id": "U49_I309",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[suitcase|maleta]])",
           "title": "Pronunciación: Charger",
           "instructions": "Escucha y repite la 'ch'.",
           "targetSentences": [
@@ -547,7 +547,7 @@
         {
           "interaction_id": "U49_I310",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[suitcase|maleta]])",
           "title": "Pronunciación: Passport",
           "instructions": "Escucha y repite la 'p' aspirada.",
           "targetSentences": [
@@ -586,7 +586,7 @@
         {
           "interaction_id": "U49_I311",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[suitcase|maleta]])",
           "title": "Pronunciación: Adapter",
           "instructions": "Escucha y repite el acento.",
           "targetSentences": [
@@ -625,7 +625,7 @@
         {
           "interaction_id": "U49_I312",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[suitcase|maleta]])",
           "title": "Pronunciación: Sunglasses",
           "instructions": "Escucha y repite la palabra compuesta.",
           "targetSentences": [
@@ -664,7 +664,7 @@
         {
           "interaction_id": "U49_I313",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[suitcase|maleta]])",
           "title": "Pronunciación: Heavy",
           "instructions": "Escucha y repite la 'h' aspirada.",
           "targetSentences": [
@@ -703,7 +703,7 @@
         {
           "interaction_id": "U49_I314",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[suitcase|maleta]])",
           "title": "Pronunciación: Light",
           "instructions": "Escucha y repite la 'i' larga.",
           "targetSentences": [
@@ -742,7 +742,7 @@
         {
           "interaction_id": "U49_I315",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[suitcase|maleta]])",
           "title": "Pronunciación: Repaso Packing",
           "instructions": "Escucha y repite la frase completa.",
           "targetSentences": [
@@ -789,19 +789,23 @@
           "prompt_es": "¿Cómo se dice 'suitcase' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Charger"
             },
             {
-              "id": "o1",
-              "text": "Suitcase"
+              "id": "o2",
+              "text": "Shampoo"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Suitcase|maleta]]"
+            },
+            {
+              "id": "o4",
+              "text": "Camera"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -810,19 +814,23 @@
           "prompt_es": "¿Cómo se dice 'clothes' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "[[Clothes|ropa]]"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Map"
             },
             {
               "id": "o3",
-              "text": "Clothes"
+              "text": "Charger"
+            },
+            {
+              "id": "o4",
+              "text": "Sunscreen"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -831,19 +839,23 @@
           "prompt_es": "¿Cómo se dice 'toiletries' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Toiletries"
+              "id": "o1",
+              "text": "[[Toiletries|toiletries]]"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Map"
             },
             {
               "id": "o3",
-              "text": "Wrong word"
+              "text": "Camera"
+            },
+            {
+              "id": "o4",
+              "text": "Clothes"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -852,19 +864,23 @@
           "prompt_es": "¿Cómo se dice 'camera' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Towel"
             },
             {
-              "id": "o1",
-              "text": "Camera"
+              "id": "o2",
+              "text": "[[Camera|cámara]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Toothbrush"
+            },
+            {
+              "id": "o4",
+              "text": "Suitcase"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -873,19 +889,23 @@
           "prompt_es": "¿Cómo se dice 'charger' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Shampoo"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "[[Charger|cargador]]"
             },
             {
               "id": "o3",
-              "text": "Charger"
+              "text": "Map"
+            },
+            {
+              "id": "o4",
+              "text": "Toothbrush"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -894,19 +914,23 @@
           "prompt_es": "¿Cómo se dice 'shoes' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Shoes"
+              "id": "o1",
+              "text": "Sunglasses"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Suitcase"
             },
             {
               "id": "o3",
-              "text": "Wrong word"
+              "text": "Clothes"
+            },
+            {
+              "id": "o4",
+              "text": "[[Shoes|zapatos]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -915,19 +939,23 @@
           "prompt_es": "¿Cómo se dice 'map' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Charger"
             },
             {
-              "id": "o1",
-              "text": "Map"
+              "id": "o2",
+              "text": "Clothes"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Map|mapa]]"
+            },
+            {
+              "id": "o4",
+              "text": "Sunglasses"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -936,19 +964,23 @@
           "prompt_es": "¿Cómo se dice 'suitcase' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "[[Suitcase|maleta]]"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Charger"
             },
             {
               "id": "o3",
-              "text": "Suitcase"
+              "text": "Towel"
+            },
+            {
+              "id": "o4",
+              "text": "Sunscreen"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -957,16 +989,20 @@
           "prompt_es": "¿Cómo se dice 'clothes' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Clothes"
+              "id": "o1",
+              "text": "Toothbrush"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "[[Clothes|ropa]]"
             },
             {
               "id": "o3",
-              "text": "Wrong word"
+              "text": "Sunglasses"
+            },
+            {
+              "id": "o4",
+              "text": "Sunscreen"
             }
           ],
           "correct_answer": "o2",
@@ -978,19 +1014,23 @@
           "prompt_es": "¿Cómo se dice 'toiletries' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Sunscreen"
             },
             {
-              "id": "o1",
-              "text": "Toiletries"
+              "id": "o2",
+              "text": "Toothbrush"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Toiletries|toiletries]]"
+            },
+            {
+              "id": "o4",
+              "text": "Towel"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -999,19 +1039,23 @@
           "prompt_es": "¿Cómo se dice 'camera' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Map"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "[[Camera|cámara]]"
             },
             {
               "id": "o3",
-              "text": "Camera"
+              "text": "Sunscreen"
+            },
+            {
+              "id": "o4",
+              "text": "Toothbrush"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1020,16 +1064,20 @@
           "prompt_es": "¿Cómo se dice 'charger' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Charger"
+              "id": "o1",
+              "text": "Towel"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "[[Charger|cargador]]"
             },
             {
               "id": "o3",
-              "text": "Wrong word"
+              "text": "Shampoo"
+            },
+            {
+              "id": "o4",
+              "text": "Sunglasses"
             }
           ],
           "correct_answer": "o2",
@@ -1041,16 +1089,20 @@
           "prompt_es": "¿Cómo se dice 'shoes' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "[[Shoes|zapatos]]"
             },
             {
-              "id": "o1",
-              "text": "Shoes"
+              "id": "o2",
+              "text": "Toothbrush"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Sunscreen"
+            },
+            {
+              "id": "o4",
+              "text": "Suitcase"
             }
           ],
           "correct_answer": "o1",
@@ -1062,19 +1114,23 @@
           "prompt_es": "¿Cómo se dice 'map' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "[[Map|mapa]]"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Clothes"
             },
             {
               "id": "o3",
-              "text": "Map"
+              "text": "Camera"
+            },
+            {
+              "id": "o4",
+              "text": "Towel"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1083,19 +1139,23 @@
           "prompt_es": "¿Cómo se dice 'suitcase' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Suitcase"
+              "id": "o1",
+              "text": "[[Suitcase|maleta]]"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Sunglasses"
             },
             {
               "id": "o3",
-              "text": "Wrong word"
+              "text": "Camera"
+            },
+            {
+              "id": "o4",
+              "text": "Map"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1104,19 +1164,23 @@
           "prompt_es": "¿Cómo se dice 'clothes' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Camera"
             },
             {
-              "id": "o1",
-              "text": "Clothes"
+              "id": "o2",
+              "text": "[[Clothes|ropa]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Charger"
+            },
+            {
+              "id": "o4",
+              "text": "Map"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1126,18 +1190,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "[[Toiletries|toiletries]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Camera"
             },
             {
               "id": "o3",
-              "text": "Toiletries"
+              "text": "Shampoo"
+            },
+            {
+              "id": "o4",
+              "text": "Toothbrush"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1147,18 +1215,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Camera"
+              "text": "Sunscreen"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Charger"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Map"
+            },
+            {
+              "id": "o4",
+              "text": "[[Camera|cámara]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1168,18 +1240,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Sunscreen"
             },
             {
               "id": "o2",
-              "text": "Charger"
+              "text": "Sunglasses"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Charger|cargador]]"
+            },
+            {
+              "id": "o4",
+              "text": "Map"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1189,15 +1265,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Camera"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Toothbrush"
             },
             {
               "id": "o3",
-              "text": "Shoes"
+              "text": "[[Shoes|zapatos]]"
+            },
+            {
+              "id": "o4",
+              "text": "Sunscreen"
             }
           ],
           "correct_answer": "o3",
@@ -1210,15 +1290,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Map"
+              "text": "[[Map|mapa]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Suitcase"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Sunscreen"
+            },
+            {
+              "id": "o4",
+              "text": "Charger"
             }
           ],
           "correct_answer": "o1",
@@ -1231,18 +1315,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Map"
             },
             {
               "id": "o2",
-              "text": "Suitcase"
+              "text": "Sunscreen"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Suitcase|maleta]]"
+            },
+            {
+              "id": "o4",
+              "text": "Towel"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1252,18 +1340,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Sunscreen"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Suitcase"
             },
             {
               "id": "o3",
-              "text": "Clothes"
+              "text": "Toothbrush"
+            },
+            {
+              "id": "o4",
+              "text": "[[Clothes|ropa]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1273,18 +1365,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Toiletries"
+              "text": "Toothbrush"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Charger"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Toiletries|toiletries]]"
+            },
+            {
+              "id": "o4",
+              "text": "Sunglasses"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1294,18 +1390,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Sunglasses"
             },
             {
               "id": "o2",
-              "text": "Camera"
+              "text": "Map"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Charger"
+            },
+            {
+              "id": "o4",
+              "text": "[[Camera|cámara]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1315,18 +1415,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "[[Charger|cargador]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Clothes"
             },
             {
               "id": "o3",
-              "text": "Charger"
+              "text": "Sunscreen"
+            },
+            {
+              "id": "o4",
+              "text": "Map"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1336,18 +1440,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Shoes"
+              "text": "Shampoo"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Map"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Shoes|zapatos]]"
+            },
+            {
+              "id": "o4",
+              "text": "Towel"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1357,18 +1465,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Shampoo"
             },
             {
               "id": "o2",
-              "text": "Map"
+              "text": "Towel"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Camera"
+            },
+            {
+              "id": "o4",
+              "text": "[[Map|mapa]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1378,18 +1490,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Map"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Camera"
             },
             {
               "id": "o3",
-              "text": "Suitcase"
+              "text": "Sunscreen"
+            },
+            {
+              "id": "o4",
+              "text": "[[Suitcase|maleta]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         }
       ]
@@ -1401,7 +1517,7 @@
         {
           "interaction_id": "U49_L5_I1",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[suitcase|maleta]])",
           "audio_url": "/audio/courses/ingles-a1/unit49/lesson5-task-1.mp3",
           "transcript_template": "The [[suitcase|]] is here.",
           "correct_answer": "suitcase",
@@ -1415,7 +1531,7 @@
         {
           "interaction_id": "U49_L5_I2",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[suitcase|maleta]])",
           "audio_url": "/audio/courses/ingles-a1/unit49/lesson5-task-2.mp3",
           "transcript_template": "The [[clothes|]] is here.",
           "correct_answer": "clothes",
@@ -1429,7 +1545,7 @@
         {
           "interaction_id": "U49_L5_I3",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[suitcase|maleta]])",
           "audio_url": "/audio/courses/ingles-a1/unit49/lesson5-task-3.mp3",
           "transcript_template": "The [[toiletries|]] is here.",
           "correct_answer": "toiletries",
@@ -1443,7 +1559,7 @@
         {
           "interaction_id": "U49_L5_I4",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[suitcase|maleta]])",
           "audio_url": "/audio/courses/ingles-a1/unit49/lesson5-task-4.mp3",
           "transcript_template": "The [[camera|]] is here.",
           "correct_answer": "camera",
@@ -1457,7 +1573,7 @@
         {
           "interaction_id": "U49_L5_I5",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[suitcase|maleta]])",
           "audio_url": "/audio/courses/ingles-a1/unit49/lesson5-task-5.mp3",
           "transcript_template": "The [[charger|]] is here.",
           "correct_answer": "charger",
@@ -1471,7 +1587,7 @@
         {
           "interaction_id": "U49_L5_I6",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[suitcase|maleta]])",
           "audio_url": "/audio/courses/ingles-a1/unit49/lesson5-task-6.mp3",
           "transcript_template": "The [[shoes|]] is here.",
           "correct_answer": "shoes",
@@ -1485,7 +1601,7 @@
         {
           "interaction_id": "U49_L5_I7",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[suitcase|maleta]])",
           "audio_url": "/audio/courses/ingles-a1/unit49/lesson5-task-7.mp3",
           "transcript_template": "The [[map|]] is here.",
           "correct_answer": "map",
@@ -1499,7 +1615,7 @@
         {
           "interaction_id": "U49_L5_I8",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[suitcase|maleta]])",
           "title": "Pronunciación: Packing a Suitcase",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1538,7 +1654,7 @@
         {
           "interaction_id": "U49_L5_I9",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[suitcase|maleta]])",
           "title": "Pronunciación: Packing a Suitcase",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1577,7 +1693,7 @@
         {
           "interaction_id": "U49_L5_I10",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[suitcase|maleta]])",
           "title": "Pronunciación: Packing a Suitcase",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1616,7 +1732,7 @@
         {
           "interaction_id": "U49_L5_I11",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[suitcase|maleta]])",
           "title": "Pronunciación: Packing a Suitcase",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1655,7 +1771,7 @@
         {
           "interaction_id": "U49_L5_I12",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[suitcase|maleta]])",
           "title": "Pronunciación: Packing a Suitcase",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1694,7 +1810,7 @@
         {
           "interaction_id": "U49_L5_I13",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[suitcase|maleta]])",
           "title": "Pronunciación: Packing a Suitcase",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1733,7 +1849,7 @@
         {
           "interaction_id": "U49_L5_I14",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[suitcase|maleta]])",
           "title": "Pronunciación: Packing a Suitcase",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1772,7 +1888,7 @@
         {
           "interaction_id": "U49_L5_I15",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[suitcase|maleta]])",
           "title": "Pronunciación: Packing a Suitcase",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [

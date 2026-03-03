@@ -1250,6 +1250,91 @@
           "correct_answer": "you"
         }
       ]
+    },
+    {
+      "block_id": "B1_PROD",
+      "title": "Block 5: Production – Greetings & Introductions",
+      "content": [
+        {
+          "interaction_id": "A1_U1_B1_PROD_SW1",
+          "type": "short_writing",
+          "prompt_es": "Escribe 2 oraciones presentándote: tu nombre y de dónde eres. Usa [[I am|soy]] y [[I'm from|soy de]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "concept_tags": [
+            "production",
+            "free_writing"
+          ],
+          "example_answer": "My name is Ana. I'm from Madrid."
+        },
+        {
+          "interaction_id": "A1_U1_B1_PROD_SW2",
+          "type": "short_writing",
+          "prompt_es": "Escribe un breve diálogo de saludo (3 líneas). Usa [[Hello|Hola]], [[How are you?|¿Cómo estás?]] y [[Fine, thanks|Bien, gracias]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "concept_tags": [
+            "production",
+            "free_writing"
+          ],
+          "example_answer": "A: Hello! How are you? B: Fine, thanks. And you? A: I'm great, thank you!"
+        },
+        {
+          "interaction_id": "A1_U1_B1_PROD_SW3",
+          "type": "short_writing",
+          "prompt_es": "Presenta a un amigo/a imaginario/a: su nombre, edad y país. Usa [[This is|Este/Esta es]], [[He/She is|Él/Ella tiene]] y [[He/She's from|Él/Ella es de]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "concept_tags": [
+            "production",
+            "free_writing"
+          ],
+          "example_answer": "This is my friend Carlos. He is twenty years old. He's from Spain."
+        },
+        {
+          "interaction_id": "A1_U1_B1_PROD_MC4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo responderías a \"[[Nice to meet you!|¡Encantado de conocerte!]]\"?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Nice to meet you too!|¡Encantado de conocerte también!]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Goodbye!|¡Adiós!]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[I am Spanish|Soy español/a]]"
+            },
+            {
+              "id": "o4",
+              "text": "[[My name is Ana|Me llamo Ana]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "pragmatics",
+          "complexity": 2,
+          "concept_tags": [
+            "communication",
+            "greetings"
+          ]
+        },
+        {
+          "interaction_id": "A1_U1_B1_PROD_FB5",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: \"[[My|Mi]] ___ is Pedro. I ___ from [[Mexico|México]].\"",
+          "stimulus_en": "My ___ is Pedro. I ___ from Mexico.",
+          "correct_answer": "name / am",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "verb_to_be",
+            "introductions"
+          ]
+        }
+      ]
     }
   ]
 }

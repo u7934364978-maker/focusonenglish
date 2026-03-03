@@ -64,14 +64,14 @@
             },
             {
               "id": "o2",
-              "text": "[[Shoes|Zapatos]]"
+              "text": "[[A jacket|Una chaqueta]]"
             },
             {
               "id": "o3",
-              "text": "[[A jacket|Una chaqueta]]"
+              "text": "[[Shoes|Zapatos]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary",
           "complexity": 1
         },
@@ -147,18 +147,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[T-shirt|Camiseta]]"
+              "text": "[[Jumper|Jersey]]"
             },
             {
               "id": "o2",
-              "text": "[[Jumper|Jersey]]"
+              "text": "[[T-shirt|Camiseta]]"
             },
             {
               "id": "o3",
               "text": "[[Blouse|Blusa]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary",
           "complexity": 1
         },
@@ -252,14 +252,14 @@
             },
             {
               "id": "o2",
-              "text": "Presente continuo"
+              "text": "Futuro"
             },
             {
               "id": "o3",
-              "text": "Futuro"
+              "text": "Presente continuo"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "grammar",
           "complexity": 1
         },
@@ -288,7 +288,7 @@
         {
           "interaction_id": "U29_I13",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'I ___ a blue shirt and black trousers today.' (am wearing)",
+          "prompt_es": "Completa: 'I ___ a blue shirt and black trousers today.' (am wearing) ([[shirt|camisa]])",
           "correct_answer": "am wearing",
           "mastery_tag": "grammar",
           "complexity": 1
@@ -348,7 +348,7 @@
         {
           "interaction_id": "U29_I17",
           "type": "sentence_building",
-          "prompt_es": "Forma: 'María lleva puesto un jersey azul y pantalón negro.'",
+          "prompt_es": "Forma: 'María lleva puesto un jersey azul y pantalón negro.' ([[feelings|sentimientos]])",
           "words": [
             {
               "id": "w1",
@@ -412,14 +412,14 @@
             },
             {
               "id": "o2",
-              "text": "[[are wearing|llevan]]"
+              "text": "[[am wearing|llevo (1ª pers — incorrecto)]]"
             },
             {
               "id": "o3",
-              "text": "[[am wearing|llevo (1ª pers — incorrecto)]]"
+              "text": "[[are wearing|llevan]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "grammar",
           "complexity": 2
         },
@@ -438,18 +438,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[What you are wearing?|¿Qué llevas? (incorrecto orden)]]"
+              "text": "[[What are you wearing?|¿Qué llevas puesto?]]"
             },
             {
               "id": "o2",
-              "text": "[[What are you wearing?|¿Qué llevas puesto?]]"
+              "text": "[[What you are wearing?|¿Qué llevas? (incorrecto orden)]]"
             },
             {
               "id": "o3",
               "text": "[[What is you wearing?|¿Qué llevas? (incorrecto)]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "grammar",
           "complexity": 2
         }
@@ -549,7 +549,7 @@
         {
           "interaction_id": "U29_I25",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'Don't forget your ___! It's going to rain.' (impermeable = raincoat)",
+          "prompt_es": "Completa: 'Don't forget your ___! It's going to rain.' (impermeable = raincoat) ([[feelings|sentimientos]])",
           "correct_answer": "raincoat",
           "mastery_tag": "vocabulary",
           "complexity": 1
@@ -579,7 +579,7 @@
         {
           "interaction_id": "U29_I27",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'She is wearing a warm ___ because it is very cold today.' (abrigo = coat)",
+          "prompt_es": "Completa: 'She is wearing a warm ___ because it is very cold today.' (abrigo = coat) ([[warm|cálido]])",
           "correct_answer": "coat",
           "mastery_tag": "vocabulary",
           "complexity": 1
@@ -667,7 +667,7 @@
         {
           "interaction_id": "U29_I32",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'He is wearing a ___ jacket and grey trousers.' (negro = black)",
+          "prompt_es": "Completa: 'He is wearing a ___ jacket and grey trousers.' (negro = black) ([[jacket|chaqueta]])",
           "correct_answer": "black",
           "mastery_tag": "vocabulary",
           "complexity": 1
@@ -697,7 +697,7 @@
         {
           "interaction_id": "U29_I34",
           "type": "sentence_building",
-          "prompt_es": "Forma: 'Llevo puesto un jersey verde y unos vaqueros azules.'",
+          "prompt_es": "Forma: 'Llevo puesto un jersey verde y unos vaqueros azules.' ([[feelings|sentimientos]])",
           "words": [
             {
               "id": "w1",
@@ -753,7 +753,7 @@
         {
           "interaction_id": "U29_I35",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'The children are wearing ___ school uniforms.' (azul = blue)",
+          "prompt_es": "Completa: 'The children are wearing ___ school uniforms.' (azul = blue) ([[feelings|sentimientos]])",
           "correct_answer": "blue",
           "mastery_tag": "vocabulary",
           "complexity": 1
@@ -783,7 +783,7 @@
         {
           "interaction_id": "U29_I37",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'He is wearing a ___ shirt and white trousers.' (roja = red)",
+          "prompt_es": "Completa: 'He is wearing a ___ shirt and white trousers.' (roja = red) ([[shirt|camisa]])",
           "correct_answer": "red",
           "mastery_tag": "vocabulary",
           "complexity": 1
@@ -813,7 +813,7 @@
         {
           "interaction_id": "U29_I39",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'I love my new ___ dress.' (rojo = red — antes del nombre)",
+          "prompt_es": "Completa: 'I love my new ___ dress.' (rojo = red — antes del nombre) ([[dress|vestido]])",
           "correct_answer": "red",
           "mastery_tag": "vocabulary",
           "complexity": 1
@@ -857,7 +857,7 @@
         {
           "interaction_id": "U29_I41",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué lleva Lucy a una entrevista de trabajo?",
+          "prompt_es": "¿Qué lleva Lucy a una entrevista de trabajo? ([[feelings|sentimientos]])",
           "options": [
             {
               "id": "o1",
@@ -879,7 +879,7 @@
         {
           "interaction_id": "U29_I42",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué lleva Lucy en verano?",
+          "prompt_es": "¿Qué lleva Lucy en verano? ([[feelings|sentimientos]])",
           "options": [
             {
               "id": "o1",
@@ -901,7 +901,7 @@
         {
           "interaction_id": "U29_I43",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuál es el conjunto favorito de Lucy?",
+          "prompt_es": "¿Cuál es el conjunto favorito de Lucy? ([[feelings|sentimientos]])",
           "options": [
             {
               "id": "o1",
@@ -923,7 +923,7 @@
         {
           "interaction_id": "U29_I44",
           "type": "multiple_choice",
-          "prompt_es": "¿Para qué ocasión lleva Lucy su conjunto favorito?",
+          "prompt_es": "¿Para qué ocasión lleva Lucy su conjunto favorito? ([[feelings|sentimientos]])",
           "options": [
             {
               "id": "o1",
@@ -945,7 +945,7 @@
         {
           "interaction_id": "U29_I45",
           "type": "fill_blanks",
-          "prompt_es": "En invierno, Lucy siempre lleva un abrigo, una bufanda y ___. (guantes = gloves)",
+          "prompt_es": "En invierno, Lucy siempre lleva un abrigo, una bufanda y ___. (guantes = gloves) ([[gloves|guantes]])",
           "correct_answer": "gloves",
           "mastery_tag": "reading",
           "complexity": 2
@@ -953,7 +953,7 @@
         {
           "interaction_id": "U29_I46",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué lleva Lucy en un día informal (casual)?",
+          "prompt_es": "¿Qué lleva Lucy en un día informal (casual)? ([[feelings|sentimientos]])",
           "options": [
             {
               "id": "o1",
@@ -979,25 +979,25 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Heavy and dark clothes|Ropa gruesa y oscura]]"
+              "text": "[[Light clothes|Ropa ligera]]"
             },
             {
               "id": "o2",
-              "text": "[[Light clothes|Ropa ligera]]"
+              "text": "[[Heavy and dark clothes|Ropa gruesa y oscura]]"
             },
             {
               "id": "o3",
               "text": "[[Warm and thick clothes|Ropa abrigada y gruesa]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "reading",
           "complexity": 1
         },
         {
           "interaction_id": "U29_I48",
           "type": "sentence_building",
-          "prompt_es": "Forma: '¿Qué llevas puesto para las ocasiones especiales?'",
+          "prompt_es": "Forma: '¿Qué llevas puesto para las ocasiones especiales?' ([[feelings|sentimientos]])",
           "words": [
             {
               "id": "w1",
@@ -1065,10 +1065,204 @@
         {
           "interaction_id": "U29_I50",
           "type": "fill_blanks",
-          "prompt_es": "Lucy dice: 'For a job ___, I always wear a smart suit.' (entrevista = interview)",
+          "prompt_es": "Lucy dice: 'For a job ___, I always wear a smart suit.' (entrevista = interview) ([[always|siempre]])",
           "correct_answer": "interview",
           "mastery_tag": "reading",
           "complexity": 1
+        }
+      ]
+    },
+    {
+      "block_id": "B29_REC",
+      "title": "Block 6: Recycling – Plans & Future",
+      "content": [
+        {
+          "interaction_id": "A1_U29_B29_REC_MC1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma correcta para hablar de [[plans|planes]] futuros?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[I'm going to travel|Voy a viajar]]"
+            },
+            {
+              "id": "o2",
+              "text": "I will go travel"
+            },
+            {
+              "id": "o3",
+              "text": "I going travel"
+            },
+            {
+              "id": "o4",
+              "text": "I go to travel future"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "going_to"
+          ]
+        },
+        {
+          "interaction_id": "A1_U29_B29_REC_FB2",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: \"She ___ [[going|]] [[to|]] [[study|estudiar]] [[abroad|en el extranjero]] next [[year|año]].\"",
+          "stimulus_en": "She ___ going to study abroad next year.",
+          "correct_answer": "is",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "going_to"
+          ]
+        },
+        {
+          "interaction_id": "A1_U29_B29_REC_MC3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la pregunta correcta con \"[[going to|ir a]]\"?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Are you going to visit London?|¿Vas a visitar Londres?]]"
+            },
+            {
+              "id": "o2",
+              "text": "You are going visit?"
+            },
+            {
+              "id": "o3",
+              "text": "Do you going to visit?"
+            },
+            {
+              "id": "o4",
+              "text": "Going you to visit London?"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "going_to",
+            "questions"
+          ]
+        },
+        {
+          "interaction_id": "A1_U29_B29_REC_SW4",
+          "type": "short_writing",
+          "prompt_es": "Escribe sobre tus planes para el próximo fin de semana. Usa [[I'm going to|voy a]], [[We're going to|vamos a]], [[I'm not going to|no voy a]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "concept_tags": [
+            "production",
+            "free_writing"
+          ],
+          "example_answer": "This weekend I'm going to visit my grandparents. We're going to have lunch together. In the afternoon, I'm going to play football with my friends. I'm not going to study this Saturday!"
+        },
+        {
+          "interaction_id": "A1_U29_B29_REC_SW5",
+          "type": "short_writing",
+          "prompt_es": "Escribe una lista de propósitos de año nuevo. Usa [[I'm going to|voy a]], [[I want to|quiero]], [[I'd like to|me gustaría]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "concept_tags": [
+            "production",
+            "free_writing"
+          ],
+          "example_answer": "I'm going to exercise three times a week. I want to learn to cook new dishes. I'd like to travel to Japan. I'm going to read more books this year."
+        },
+        {
+          "interaction_id": "A1_U29_B29_REC_MC6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuándo se usa \"[[going to|ir a]]\" en lugar de [[will|will]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Never"
+            },
+            {
+              "id": "o2",
+              "text": "For predictions only"
+            },
+            {
+              "id": "o3",
+              "text": "For past events"
+            },
+            {
+              "id": "o4",
+              "text": "[[For plans and intentions|Para planes e intenciones]]"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "going_to"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B29_EX",
+      "title": "Block 7: Extra Practice – Plans & Future",
+      "content": [
+        {
+          "interaction_id": "A1_U29_B29_EX_MC1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la negativa de \"[[I'm going to travel|Voy a viajar]]\"?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[I'm not going to travel|No voy a viajar]]"
+            },
+            {
+              "id": "o2",
+              "text": "I not going travel"
+            },
+            {
+              "id": "o3",
+              "text": "I'm going not travel"
+            },
+            {
+              "id": "o4",
+              "text": "I don't going travel"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "going_to"
+          ]
+        },
+        {
+          "interaction_id": "A1_U29_B29_EX_MC2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál expresa un plan futuro?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[She's going to study medicine|Va a estudiar medicina]]"
+            },
+            {
+              "id": "o2",
+              "text": "She study medicine tomorrow"
+            },
+            {
+              "id": "o3",
+              "text": "She studies medicine next year"
+            },
+            {
+              "id": "o4",
+              "text": "She will studied medicine"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "going_to"
+          ]
         }
       ]
     }

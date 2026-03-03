@@ -59,18 +59,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Football|Fútbol]]"
+              "text": "[[Tennis|Tenis]]"
             },
             {
               "id": "o2",
-              "text": "[[Tennis|Tenis]]"
+              "text": "[[Football|Fútbol]]"
             },
             {
               "id": "o3",
               "text": "[[Basketball|Baloncesto]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary",
           "complexity": 1
         },
@@ -90,18 +90,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Swimming|Natación]]"
+              "text": "[[Reading|Leer]]"
             },
             {
               "id": "o2",
-              "text": "[[Reading|Leer]]"
+              "text": "[[Swimming|Natación]]"
             },
             {
               "id": "o3",
               "text": "[[Running|Correr]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary",
           "complexity": 1
         },
@@ -172,25 +172,25 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[I go football|Voy fútbol]]"
+              "text": "[[I play football|Juego al fútbol]]"
             },
             {
               "id": "o2",
-              "text": "[[I play football|Juego al fútbol]]"
+              "text": "[[I go football|Voy fútbol]]"
             },
             {
               "id": "o3",
               "text": "[[I do football|Hago fútbol]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "grammar",
           "complexity": 2
         },
         {
           "interaction_id": "A1_U32_B32_1_I9",
           "type": "fill_blanks",
-          "prompt_es": "Completa: They ________ swimming at the pool.",
+          "prompt_es": "Completa: They ________ swimming at the pool. ([[swimming|natación]])",
           "stimulus_en": "They ________ swimming at the pool.",
           "correct_answer": "go",
           "mastery_tag": "grammar",
@@ -284,7 +284,7 @@
         {
           "interaction_id": "A1_U32_B32_2_I3",
           "type": "fill_blanks",
-          "prompt_es": "Completa: My ________ is playing the guitar.",
+          "prompt_es": "Completa: My ________ is playing the guitar. ([[guitar|guitarra]])",
           "stimulus_en": "My ________ is playing the guitar.",
           "correct_answer": "hobby",
           "mastery_tag": "vocabulary",
@@ -315,7 +315,7 @@
         {
           "interaction_id": "A1_U32_B32_2_I5",
           "type": "fill_blanks",
-          "prompt_es": "Completa: He ________ photography on weekends.",
+          "prompt_es": "Completa: He ________ photography on weekends. ([[photography|fotografía]])",
           "stimulus_en": "He ________ photography on weekends.",
           "correct_answer": "does",
           "mastery_tag": "grammar",
@@ -346,7 +346,7 @@
         {
           "interaction_id": "A1_U32_B32_2_I7",
           "type": "fill_blanks",
-          "prompt_es": "Completa: She loves ________ books in her free time.",
+          "prompt_es": "Completa: She loves ________ books in her free time. ([[book|reservar]])",
           "stimulus_en": "She loves ________ books in her free time.",
           "correct_answer": "reading",
           "mastery_tag": "grammar",
@@ -377,7 +377,7 @@
         {
           "interaction_id": "A1_U32_B32_2_I9",
           "type": "fill_blanks",
-          "prompt_es": "Completa: We ________ yoga every morning.",
+          "prompt_es": "Completa: We ________ yoga every morning. ([[yoga|yoga]])",
           "stimulus_en": "We ________ yoga every morning.",
           "correct_answer": "do",
           "mastery_tag": "grammar",
@@ -475,7 +475,7 @@
         {
           "interaction_id": "A1_U32_B32_3_I5",
           "type": "fill_blanks",
-          "prompt_es": "Completa: I ________ playing chess. (encantar)",
+          "prompt_es": "Completa: I ________ playing chess. (encantar) ([[chess|ajedrez]])",
           "stimulus_en": "I ________ playing chess.",
           "correct_answer": "love",
           "mastery_tag": "grammar",
@@ -506,7 +506,7 @@
         {
           "interaction_id": "A1_U32_B32_3_I7",
           "type": "fill_blanks",
-          "prompt_es": "Completa: She ________ watching films at the cinema.",
+          "prompt_es": "Completa: She ________ watching films at the cinema. ([[sport|deporte]])",
           "stimulus_en": "She ________ watching films at the cinema.",
           "correct_answer": "enjoys",
           "mastery_tag": "grammar",
@@ -537,7 +537,7 @@
         {
           "interaction_id": "A1_U32_B32_3_I9",
           "type": "fill_blanks",
-          "prompt_es": "Completa: He ________ (not like) playing video games.",
+          "prompt_es": "Completa: He ________ (not like) playing video games. ([[play|jugar/tocar]])",
           "stimulus_en": "He ________ playing video games.",
           "correct_answer": "doesn't like",
           "mastery_tag": "grammar",
@@ -621,7 +621,7 @@
             },
             {
               "id": "w4",
-              "text": "basketball"
+              "text": "[[basketball|baloncesto]]"
             },
             {
               "id": "w5",
@@ -789,7 +789,7 @@
         {
           "interaction_id": "A1_U32_B32_5_I2",
           "type": "fill_blanks",
-          "prompt_es": "Completa: She ________ (do) gymnastics at school.",
+          "prompt_es": "Completa: She ________ (do) gymnastics at school. ([[sport|deporte]])",
           "stimulus_en": "She ________ gymnastics at school.",
           "correct_answer": "does",
           "mastery_tag": "grammar",
@@ -820,7 +820,7 @@
         {
           "interaction_id": "A1_U32_B32_5_I4",
           "type": "fill_blanks",
-          "prompt_es": "Completa: What ________ you like doing on weekends?",
+          "prompt_es": "Completa: What ________ you like doing on weekends? ([[sport|deporte]])",
           "stimulus_en": "What ________ you like doing on weekends?",
           "correct_answer": "do",
           "mastery_tag": "grammar",
@@ -851,7 +851,7 @@
         {
           "interaction_id": "A1_U32_B32_5_I6",
           "type": "fill_blanks",
-          "prompt_es": "Completa: He loves ________ photos at the weekend.",
+          "prompt_es": "Completa: He loves ________ photos at the weekend. ([[sport|deporte]])",
           "stimulus_en": "He loves ________ photos at the weekend.",
           "correct_answer": "taking",
           "mastery_tag": "grammar",
@@ -882,7 +882,7 @@
         {
           "interaction_id": "A1_U32_B32_5_I8",
           "type": "fill_blanks",
-          "prompt_es": "Completa: My ________ sport is swimming.",
+          "prompt_es": "Completa: My ________ sport is swimming. ([[swimming|natación]])",
           "stimulus_en": "My ________ sport is swimming.",
           "correct_answer": "favourite",
           "mastery_tag": "vocabulary",

@@ -25,12 +25,33 @@
           "type": "matching",
           "prompt_es": "Une el saludo con la situación correcta:",
           "pairs": [
-            { "id": "p0", "left": "[[Good morning|Buenos días]]", "right": "Al despedirse" },
-            { "id": "p1", "left": "[[Goodbye|Adiós]]", "right": "Por la noche" },
-            { "id": "p2", "left": "[[Good evening|Buenas noches/tardes]]", "right": "Por la mañana" },
-            { "id": "p3", "left": "[[Hello|Hola]]", "right": "Saludo informal" }
+            {
+              "id": "p0",
+              "left": "[[Good morning|Buenos días]]",
+              "right": "Al despedirse"
+            },
+            {
+              "id": "p1",
+              "left": "[[Goodbye|Adiós]]",
+              "right": "Por la noche"
+            },
+            {
+              "id": "p2",
+              "left": "[[Good evening|Buenas noches/tardes]]",
+              "right": "Por la mañana"
+            },
+            {
+              "id": "p3",
+              "left": "[[Hello|Hola]]",
+              "right": "Saludo informal"
+            }
           ],
-          "correct_answer": { "p0": "p2", "p1": "p0", "p2": "p1", "p3": "p3" },
+          "correct_answer": {
+            "p0": "p2",
+            "p1": "p0",
+            "p2": "p1",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -38,9 +59,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la forma correcta de 'to be' con 'she'?",
           "options": [
-            { "id": "o1", "text": "[[She am|She am]]" },
-            { "id": "o2", "text": "[[She are|She are]]" },
-            { "id": "o3", "text": "[[She is|She is]]" }
+            {
+              "id": "o1",
+              "text": "[[She am|She am]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[She are|She are]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[She is|She is]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "grammar"
@@ -48,7 +78,7 @@
         {
           "interaction_id": "U10_I3",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta de 'to be':",
+          "prompt_es": "Completa con la forma correcta de 'to be': ([[review|repaso]])",
           "stimulus_en": "We ________ students from Spain.",
           "correct_answer": "are",
           "mastery_tag": "grammar"
@@ -63,20 +93,37 @@
         {
           "interaction_id": "U10_I5",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para hacer una pregunta:",
+          "prompt_es": "Ordena las palabras para hacer una pregunta: ([[review|repaso]])",
           "options": [
-            { "id": "w0", "text": "Are" },
-            { "id": "w1", "text": "you" },
-            { "id": "w2", "text": "from" },
-            { "id": "w3", "text": "Spain?" }
+            {
+              "id": "w0",
+              "text": "Are"
+            },
+            {
+              "id": "w1",
+              "text": "you"
+            },
+            {
+              "id": "w2",
+              "text": "from"
+            },
+            {
+              "id": "w3",
+              "text": "Spain?"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U10_I6",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés: 'Ella no es triste. Ella está feliz.'",
+          "prompt_es": "Traduce al inglés: 'Ella no es triste. Ella está feliz.' ([[review|repaso]])",
           "correct_answer": "She is not sad. She is happy.",
           "mastery_tag": "grammar"
         },
@@ -85,12 +132,33 @@
           "type": "matching",
           "prompt_es": "Une el pronombre con la forma correcta de 'to be':",
           "pairs": [
-            { "id": "p0", "left": "[[I|Yo]]", "right": "are" },
-            { "id": "p1", "left": "[[They|Ellos]]", "right": "is" },
-            { "id": "p2", "left": "[[He|Él]]", "right": "am" },
-            { "id": "p3", "left": "[[We|Nosotros]]", "right": "are (nosotros)" }
+            {
+              "id": "p0",
+              "left": "[[I|Yo]]",
+              "right": "are"
+            },
+            {
+              "id": "p1",
+              "left": "[[They|Ellos]]",
+              "right": "is"
+            },
+            {
+              "id": "p2",
+              "left": "[[He|Él]]",
+              "right": "am"
+            },
+            {
+              "id": "p3",
+              "left": "[[We|Nosotros]]",
+              "right": "are (nosotros)"
+            }
           ],
-          "correct_answer": { "p0": "p2", "p1": "p0", "p2": "p1", "p3": "p3" },
+          "correct_answer": {
+            "p0": "p2",
+            "p1": "p0",
+            "p2": "p1",
+            "p3": "p3"
+          },
           "mastery_tag": "grammar"
         },
         {
@@ -98,9 +166,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la pregunta correcta para preguntar el nombre?",
           "options": [
-            { "id": "o1", "text": "[[What is your name?|¿Cómo te llamas?]]" },
-            { "id": "o2", "text": "[[Where are you from?|¿De dónde eres?]]" },
-            { "id": "o3", "text": "[[How are you?|¿Cómo estás?]]" }
+            {
+              "id": "o1",
+              "text": "[[What is your name?|¿Cómo te llamas?]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Where are you from?|¿De dónde eres?]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[How are you?|¿Cómo estás?]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -108,7 +185,7 @@
         {
           "interaction_id": "U10_I9",
           "type": "transformation",
-          "prompt_es": "Haz la frase negativa:",
+          "prompt_es": "Haz la frase negativa: ([[review|repaso]])",
           "stimulus_en": "He is tired. → He ________ tired.",
           "correct_answer": "isn't",
           "mastery_tag": "grammar"
@@ -131,12 +208,33 @@
           "type": "matching",
           "prompt_es": "Une el objeto con su traducción:",
           "pairs": [
-            { "id": "p0", "left": "[[Pen|Bolígrafo]]", "right": "Cuaderno" },
-            { "id": "p1", "left": "[[Notebook|Cuaderno]]", "right": "Goma de borrar" },
-            { "id": "p2", "left": "[[Eraser|Goma de borrar]]", "right": "Libro" },
-            { "id": "p3", "left": "[[Book|Libro]]", "right": "Bolígrafo" }
+            {
+              "id": "p0",
+              "left": "[[Pen|Bolígrafo]]",
+              "right": "Cuaderno"
+            },
+            {
+              "id": "p1",
+              "left": "[[Notebook|Cuaderno]]",
+              "right": "Goma de borrar"
+            },
+            {
+              "id": "p2",
+              "left": "[[Eraser|Goma de borrar]]",
+              "right": "Libro"
+            },
+            {
+              "id": "p3",
+              "left": "[[Book|Libro]]",
+              "right": "Bolígrafo"
+            }
           ],
-          "correct_answer": { "p0": "p3", "p1": "p0", "p2": "p1", "p3": "p2" },
+          "correct_answer": {
+            "p0": "p3",
+            "p1": "p0",
+            "p2": "p1",
+            "p3": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -144,9 +242,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es el artículo correcto para 'apple'?",
           "options": [
-            { "id": "o1", "text": "[[a apple|a apple]]" },
-            { "id": "o2", "text": "[[an apple|una manzana]]" },
-            { "id": "o3", "text": "[[the apple|la manzana]]" }
+            {
+              "id": "o1",
+              "text": "[[a apple|a apple]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[an apple|una manzana]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[the apple|la manzana]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "grammar"
@@ -154,7 +261,7 @@
         {
           "interaction_id": "U10_I13",
           "type": "transformation",
-          "prompt_es": "Añade la 's' de 3ª persona si es necesario:",
+          "prompt_es": "Añade la 's' de 3ª persona si es necesario: ([[every day|todos los días]])",
           "stimulus_en": "She ________ (study) English every day.",
           "correct_answer": "studies",
           "mastery_tag": "grammar"
@@ -164,19 +271,40 @@
           "type": "reorder_words",
           "prompt_es": "Ordena las palabras para formar una frase:",
           "options": [
-            { "id": "w0", "text": "He" },
-            { "id": "w1", "text": "eats" },
-            { "id": "w2", "text": "breakfast" },
-            { "id": "w3", "text": "every" },
-            { "id": "w4", "text": "morning." }
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w1",
+              "text": "eats"
+            },
+            {
+              "id": "w2",
+              "text": "[[breakfast|desayuno]]"
+            },
+            {
+              "id": "w3",
+              "text": "every"
+            },
+            {
+              "id": "w4",
+              "text": "morning."
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U10_I15",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés: 'Ellas estudian inglés'",
+          "prompt_es": "Traduce al inglés: 'Ellas estudian inglés' ([[review|repaso]])",
           "correct_answer": "They study English.",
           "mastery_tag": "grammar"
         },
@@ -192,12 +320,33 @@
           "type": "matching",
           "prompt_es": "Une el verbo con su traducción:",
           "pairs": [
-            { "id": "p0", "left": "[[Work|Trabajar]]", "right": "Dormir" },
-            { "id": "p1", "left": "[[Sleep|Dormir]]", "right": "Jugar" },
-            { "id": "p2", "left": "[[Play|Jugar]]", "right": "Beber" },
-            { "id": "p3", "left": "[[Drink|Beber]]", "right": "Trabajar" }
+            {
+              "id": "p0",
+              "left": "[[Work|Trabajar]]",
+              "right": "Dormir"
+            },
+            {
+              "id": "p1",
+              "left": "[[Sleep|Dormir]]",
+              "right": "Jugar"
+            },
+            {
+              "id": "p2",
+              "left": "[[Play|Jugar]]",
+              "right": "Beber"
+            },
+            {
+              "id": "p3",
+              "left": "[[Drink|Beber]]",
+              "right": "Trabajar"
+            }
           ],
-          "correct_answer": { "p0": "p3", "p1": "p0", "p2": "p1", "p3": "p2" },
+          "correct_answer": {
+            "p0": "p3",
+            "p1": "p0",
+            "p2": "p1",
+            "p3": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -205,9 +354,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es el plural correcto de 'class'?",
           "options": [
-            { "id": "o1", "text": "[[classs|classs]]" },
-            { "id": "o2", "text": "[[classis|classis]]" },
-            { "id": "o3", "text": "[[classes|clases]]" }
+            {
+              "id": "o1",
+              "text": "[[classs|classs]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[classis|classis]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[classes|clases]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "grammar"
@@ -215,7 +373,7 @@
         {
           "interaction_id": "U10_I19",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta del verbo:",
+          "prompt_es": "Completa con la forma correcta del verbo: ([[football|fútbol]])",
           "stimulus_en": "My brother ________ (play) football on Sundays.",
           "correct_answer": "plays",
           "mastery_tag": "grammar"
@@ -225,13 +383,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena las palabras para formar una frase:",
           "options": [
-            { "id": "w0", "text": "I" },
-            { "id": "w1", "text": "drink" },
-            { "id": "w2", "text": "coffee" },
-            { "id": "w3", "text": "every" },
-            { "id": "w4", "text": "morning." }
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w1",
+              "text": "drink"
+            },
+            {
+              "id": "w2",
+              "text": "[[coffee|café]]"
+            },
+            {
+              "id": "w3",
+              "text": "every"
+            },
+            {
+              "id": "w4",
+              "text": "morning."
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         }
       ]
@@ -245,12 +424,33 @@
           "type": "matching",
           "prompt_es": "Une el miembro de la familia con su traducción:",
           "pairs": [
-            { "id": "p0", "left": "[[Mother|Madre]]", "right": "Abuelo/a" },
-            { "id": "p1", "left": "[[Grandfather|Abuelo/a]]", "right": "Hermana" },
-            { "id": "p2", "left": "[[Sister|Hermana]]", "right": "Madre" },
-            { "id": "p3", "left": "[[Uncle|Tío]]", "right": "Tío" }
+            {
+              "id": "p0",
+              "left": "[[Mother|Madre]]",
+              "right": "Abuelo/a"
+            },
+            {
+              "id": "p1",
+              "left": "[[Grandfather|Abuelo/a]]",
+              "right": "Hermana"
+            },
+            {
+              "id": "p2",
+              "left": "[[Sister|Hermana]]",
+              "right": "Madre"
+            },
+            {
+              "id": "p3",
+              "left": "[[Uncle|Tío]]",
+              "right": "Tío"
+            }
           ],
-          "correct_answer": { "p0": "p2", "p1": "p0", "p2": "p1", "p3": "p3" },
+          "correct_answer": {
+            "p0": "p2",
+            "p1": "p0",
+            "p2": "p1",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -258,9 +458,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'El libro de Maria' en inglés?",
           "options": [
-            { "id": "o1", "text": "[[Maria's book|El libro de Maria]]" },
-            { "id": "o2", "text": "[[The book of Maria|El libro de Maria]]" },
-            { "id": "o3", "text": "[[Maria book|Libro Maria]]" }
+            {
+              "id": "o1",
+              "text": "[[Maria's book|El libro de Maria]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[The book of Maria|El libro de Maria]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Maria book|Libro Maria]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -268,7 +477,7 @@
         {
           "interaction_id": "U10_I23",
           "type": "transformation",
-          "prompt_es": "Completa con el posesivo correcto:",
+          "prompt_es": "Completa con el posesivo correcto: ([[review|repaso]])",
           "stimulus_en": "Tom ________ sister is tall.",
           "correct_answer": "'s",
           "mastery_tag": "grammar"
@@ -276,15 +485,36 @@
         {
           "interaction_id": "U10_I24",
           "type": "reorder_words",
-          "prompt_es": "Ordena para describir a alguien:",
+          "prompt_es": "Ordena para describir a alguien: ([[review|repaso]])",
           "options": [
-            { "id": "w0", "text": "She" },
-            { "id": "w1", "text": "has" },
-            { "id": "w2", "text": "long" },
-            { "id": "w3", "text": "brown" },
-            { "id": "w4", "text": "hair." }
+            {
+              "id": "w0",
+              "text": "She"
+            },
+            {
+              "id": "w1",
+              "text": "has"
+            },
+            {
+              "id": "w2",
+              "text": "long"
+            },
+            {
+              "id": "w3",
+              "text": "brown"
+            },
+            {
+              "id": "w4",
+              "text": "hair."
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -297,7 +527,7 @@
         {
           "interaction_id": "U10_I26",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés: 'El perro de Pedro'",
+          "prompt_es": "Traduce al inglés: 'El perro de Pedro' ([[review|repaso]])",
           "correct_answer": "Pedro's dog",
           "mastery_tag": "grammar"
         },
@@ -306,12 +536,33 @@
           "type": "matching",
           "prompt_es": "Une el color con su traducción:",
           "pairs": [
-            { "id": "p0", "left": "[[Red|Rojo]]", "right": "Verde" },
-            { "id": "p1", "left": "[[Green|Verde]]", "right": "Azul" },
-            { "id": "p2", "left": "[[Blue|Azul]]", "right": "Amarillo" },
-            { "id": "p3", "left": "[[Yellow|Amarillo]]", "right": "Rojo" }
+            {
+              "id": "p0",
+              "left": "[[Red|Rojo]]",
+              "right": "Verde"
+            },
+            {
+              "id": "p1",
+              "left": "[[Green|Verde]]",
+              "right": "Azul"
+            },
+            {
+              "id": "p2",
+              "left": "[[Blue|Azul]]",
+              "right": "Amarillo"
+            },
+            {
+              "id": "p3",
+              "left": "[[Yellow|Amarillo]]",
+              "right": "Rojo"
+            }
           ],
-          "correct_answer": { "p0": "p3", "p1": "p0", "p2": "p1", "p3": "p2" },
+          "correct_answer": {
+            "p0": "p3",
+            "p1": "p0",
+            "p2": "p1",
+            "p3": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -319,9 +570,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la descripción correcta en inglés?",
           "options": [
-            { "id": "o1", "text": "[[He has eyes blue.|Tiene ojos azules.]]" },
-            { "id": "o2", "text": "[[He has blue eyes.|Tiene ojos azules.]]" },
-            { "id": "o3", "text": "[[He is blue eyes.|Es ojos azules.]]" }
+            {
+              "id": "o1",
+              "text": "[[He has eyes blue.|Tiene ojos azules.]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[He has blue eyes.|Tiene ojos azules.]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[He is blue eyes.|Es ojos azules.]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "grammar"
@@ -329,7 +589,7 @@
         {
           "interaction_id": "U10_I29",
           "type": "transformation",
-          "prompt_es": "Completa la descripción:",
+          "prompt_es": "Completa la descripción: ([[and|y]])",
           "stimulus_en": "She is ________ and slim. She has short blonde hair.",
           "correct_answer": "tall",
           "mastery_tag": "vocabulary"
@@ -337,7 +597,7 @@
         {
           "interaction_id": "U10_I30",
           "type": "short_writing",
-          "prompt_es": "Describe a alguien con pelo largo negro en inglés:",
+          "prompt_es": "Describe a alguien con pelo largo negro en inglés: ([[review|repaso]])",
           "correct_answer": "She/He has long black hair.",
           "mastery_tag": "vocabulary"
         }
@@ -352,12 +612,33 @@
           "type": "matching",
           "prompt_es": "Une el número con su traducción:",
           "pairs": [
-            { "id": "p0", "left": "[[Twenty-five|Veinticinco]]", "right": "Cincuenta" },
-            { "id": "p1", "left": "[[Fifty|Cincuenta]]", "right": "Ochenta y nueve" },
-            { "id": "p2", "left": "[[Seventy|Setenta]]", "right": "Veinticinco" },
-            { "id": "p3", "left": "[[Eighty-nine|Ochenta y nueve]]", "right": "Setenta" }
+            {
+              "id": "p0",
+              "left": "[[Twenty-five|Veinticinco]]",
+              "right": "Cincuenta"
+            },
+            {
+              "id": "p1",
+              "left": "[[Fifty|Cincuenta]]",
+              "right": "Ochenta y nueve"
+            },
+            {
+              "id": "p2",
+              "left": "[[Seventy|Setenta]]",
+              "right": "Veinticinco"
+            },
+            {
+              "id": "p3",
+              "left": "[[Eighty-nine|Ochenta y nueve]]",
+              "right": "Setenta"
+            }
           ],
-          "correct_answer": { "p0": "p2", "p1": "p0", "p2": "p3", "p3": "p1" },
+          "correct_answer": {
+            "p0": "p2",
+            "p1": "p0",
+            "p2": "p3",
+            "p3": "p1"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -365,9 +646,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se pregunta el precio en inglés?",
           "options": [
-            { "id": "o1", "text": "[[How old is it?|¿Cuántos años tiene?]]" },
-            { "id": "o2", "text": "[[How much is it?|¿Cuánto cuesta?]]" },
-            { "id": "o3", "text": "[[What is it?|¿Qué es?]]" }
+            {
+              "id": "o1",
+              "text": "[[How old is it?|¿Cuántos años tiene?]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[How much is it?|¿Cuánto cuesta?]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[What is it?|¿Qué es?]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "grammar"
@@ -375,7 +665,7 @@
         {
           "interaction_id": "U10_I33",
           "type": "transformation",
-          "prompt_es": "Completa con el número en inglés:",
+          "prompt_es": "Completa con el número en inglés: ([[review|repaso]])",
           "stimulus_en": "He is (cuarenta y ocho) ________ years old.",
           "correct_answer": "forty-eight",
           "mastery_tag": "grammar"
@@ -383,20 +673,37 @@
         {
           "interaction_id": "U10_I34",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para preguntar la edad:",
+          "prompt_es": "Ordena las palabras para preguntar la edad: ([[review|repaso]])",
           "options": [
-            { "id": "w0", "text": "How" },
-            { "id": "w1", "text": "old" },
-            { "id": "w2", "text": "are" },
-            { "id": "w3", "text": "you?" }
+            {
+              "id": "w0",
+              "text": "How"
+            },
+            {
+              "id": "w1",
+              "text": "old"
+            },
+            {
+              "id": "w2",
+              "text": "are"
+            },
+            {
+              "id": "w3",
+              "text": "you?"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U10_I35",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés: 'Sesenta y tres euros'",
+          "prompt_es": "Traduce al inglés: 'Sesenta y tres euros' ([[review|repaso]])",
           "correct_answer": "Sixty-three euros",
           "mastery_tag": "vocabulary"
         },
@@ -412,12 +719,33 @@
           "type": "matching",
           "prompt_es": "Une la moneda con su país:",
           "pairs": [
-            { "id": "p0", "left": "[[Euro|Euro]]", "right": "Reino Unido" },
-            { "id": "p1", "left": "[[Pound|Libra]]", "right": "Estados Unidos" },
-            { "id": "p2", "left": "[[Dollar|Dólar]]", "right": "Japón" },
-            { "id": "p3", "left": "[[Yen|Yen]]", "right": "Europa" }
+            {
+              "id": "p0",
+              "left": "[[Euro|Euro]]",
+              "right": "Reino Unido"
+            },
+            {
+              "id": "p1",
+              "left": "[[Pound|Libra]]",
+              "right": "Estados Unidos"
+            },
+            {
+              "id": "p2",
+              "left": "[[Dollar|Dólar]]",
+              "right": "Japón"
+            },
+            {
+              "id": "p3",
+              "left": "[[Yen|Yen]]",
+              "right": "Europa"
+            }
           ],
-          "correct_answer": { "p0": "p3", "p1": "p0", "p2": "p1", "p3": "p2" },
+          "correct_answer": {
+            "p0": "p3",
+            "p1": "p0",
+            "p2": "p1",
+            "p3": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -425,9 +753,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuánto es 40 + 33?",
           "options": [
-            { "id": "o1", "text": "[[Seventy-four|Setenta y cuatro]]" },
-            { "id": "o2", "text": "[[Sixty-three|Sesenta y tres]]" },
-            { "id": "o3", "text": "[[Seventy-three|Setenta y tres]]" }
+            {
+              "id": "o1",
+              "text": "[[Seventy-four|Setenta y cuatro]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Sixty-three|Sesenta y tres]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Seventy-three|Setenta y tres]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -435,7 +772,7 @@
         {
           "interaction_id": "U10_I39",
           "type": "transformation",
-          "prompt_es": "Completa la pregunta sobre el precio:",
+          "prompt_es": "Completa la pregunta sobre el precio: ([[review|repaso]])",
           "stimulus_en": "How ________ is the ticket?",
           "correct_answer": "much",
           "mastery_tag": "grammar"
@@ -443,14 +780,31 @@
         {
           "interaction_id": "U10_I40",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para decir el precio:",
+          "prompt_es": "Ordena las palabras para decir el precio: ([[review|repaso]])",
           "options": [
-            { "id": "w0", "text": "It" },
-            { "id": "w1", "text": "costs" },
-            { "id": "w2", "text": "twenty" },
-            { "id": "w3", "text": "euros." }
+            {
+              "id": "w0",
+              "text": "It"
+            },
+            {
+              "id": "w1",
+              "text": "costs"
+            },
+            {
+              "id": "w2",
+              "text": "twenty"
+            },
+            {
+              "id": "w3",
+              "text": "euros."
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
           "mastery_tag": "syntax"
         }
       ]
@@ -464,12 +818,33 @@
           "type": "matching",
           "prompt_es": "Une la profesión con su lugar de trabajo:",
           "pairs": [
-            { "id": "p0", "left": "[[Teacher|Profesor/a]]", "right": "Hospital" },
-            { "id": "p1", "left": "[[Doctor|Médico/a]]", "right": "Granja" },
-            { "id": "p2", "left": "[[Farmer|Agricultor/a]]", "right": "Restaurante" },
-            { "id": "p3", "left": "[[Chef|Cocinero/a]]", "right": "Escuela" }
+            {
+              "id": "p0",
+              "left": "[[Teacher|Profesor/a]]",
+              "right": "Hospital"
+            },
+            {
+              "id": "p1",
+              "left": "[[Doctor|Médico/a]]",
+              "right": "Granja"
+            },
+            {
+              "id": "p2",
+              "left": "[[Farmer|Agricultor/a]]",
+              "right": "Restaurante"
+            },
+            {
+              "id": "p3",
+              "left": "[[Chef|Cocinero/a]]",
+              "right": "Escuela"
+            }
           ],
-          "correct_answer": { "p0": "p3", "p1": "p0", "p2": "p1", "p3": "p2" },
+          "correct_answer": {
+            "p0": "p3",
+            "p1": "p0",
+            "p2": "p1",
+            "p3": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -477,9 +852,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué artículo se usa antes de 'engineer'?",
           "options": [
-            { "id": "o1", "text": "[[an engineer|un/a ingeniero/a]]" },
-            { "id": "o2", "text": "[[a engineer|a engineer]]" },
-            { "id": "o3", "text": "[[the engineer|el/la ingeniero/a]]" }
+            {
+              "id": "o1",
+              "text": "[[an engineer|un/a ingeniero/a]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[a engineer|a engineer]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[the engineer|el/la ingeniero/a]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -487,7 +871,7 @@
         {
           "interaction_id": "U10_I43",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta de 'to be':",
+          "prompt_es": "Completa con la forma correcta de 'to be': ([[review|repaso]])",
           "stimulus_en": "She ________ a nurse. She works in a hospital.",
           "correct_answer": "is",
           "mastery_tag": "grammar"
@@ -495,20 +879,37 @@
         {
           "interaction_id": "U10_I44",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para preguntar la profesión:",
+          "prompt_es": "Ordena las palabras para preguntar la profesión: ([[review|repaso]])",
           "options": [
-            { "id": "w0", "text": "What" },
-            { "id": "w1", "text": "do" },
-            { "id": "w2", "text": "you" },
-            { "id": "w3", "text": "do?" }
+            {
+              "id": "w0",
+              "text": "What"
+            },
+            {
+              "id": "w1",
+              "text": "do"
+            },
+            {
+              "id": "w2",
+              "text": "you"
+            },
+            {
+              "id": "w3",
+              "text": "do?"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U10_I45",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés: 'Soy médico. Trabajo en un hospital.'",
+          "prompt_es": "Traduce al inglés: 'Soy médico. Trabajo en un hospital.' ([[review|repaso]])",
           "correct_answer": "I am a doctor. I work in a hospital.",
           "mastery_tag": "grammar"
         },
@@ -524,12 +925,33 @@
           "type": "matching",
           "prompt_es": "Une la profesión con su descripción:",
           "pairs": [
-            { "id": "p0", "left": "[[Firefighter|Bombero/a]]", "right": "Enseña a los estudiantes." },
-            { "id": "p1", "left": "[[Teacher|Profesor/a]]", "right": "Diseña edificios." },
-            { "id": "p2", "left": "[[Architect|Arquitecto/a]]", "right": "Apaga incendios." },
-            { "id": "p3", "left": "[[Writer|Escritor/a]]", "right": "Escribe libros." }
+            {
+              "id": "p0",
+              "left": "[[Firefighter|Bombero/a]]",
+              "right": "Enseña a los estudiantes."
+            },
+            {
+              "id": "p1",
+              "left": "[[Teacher|Profesor/a]]",
+              "right": "Diseña edificios."
+            },
+            {
+              "id": "p2",
+              "left": "[[Architect|Arquitecto/a]]",
+              "right": "Apaga incendios."
+            },
+            {
+              "id": "p3",
+              "left": "[[Writer|Escritor/a]]",
+              "right": "Escribe libros."
+            }
           ],
-          "correct_answer": { "p0": "p2", "p1": "p0", "p2": "p1", "p3": "p3" },
+          "correct_answer": {
+            "p0": "p2",
+            "p1": "p0",
+            "p2": "p1",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -537,9 +959,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la pregunta correcta para preguntar dónde trabaja alguien?",
           "options": [
-            { "id": "o1", "text": "[[What do you do?|¿A qué te dedicas?]]" },
-            { "id": "o2", "text": "[[How old are you?|¿Cuántos años tienes?]]" },
-            { "id": "o3", "text": "[[Where do you work?|¿Dónde trabajas?]]" }
+            {
+              "id": "o1",
+              "text": "[[What do you do?|¿A qué te dedicas?]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[How old are you?|¿Cuántos años tienes?]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Where do you work?|¿Dónde trabajas?]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "grammar"
@@ -547,7 +978,7 @@
         {
           "interaction_id": "U10_I49",
           "type": "transformation",
-          "prompt_es": "Completa la frase:",
+          "prompt_es": "Completa la frase: ([[review|repaso]])",
           "stimulus_en": "I am ________ artist. I work in a studio.",
           "correct_answer": "an",
           "mastery_tag": "grammar"
@@ -555,15 +986,36 @@
         {
           "interaction_id": "U10_I50",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para decir la profesión de alguien:",
+          "prompt_es": "Ordena las palabras para decir la profesión de alguien: ([[review|repaso]])",
           "options": [
-            { "id": "w0", "text": "He" },
-            { "id": "w1", "text": "is" },
-            { "id": "w2", "text": "a" },
-            { "id": "w3", "text": "police" },
-            { "id": "w4", "text": "officer." }
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "police"
+            },
+            {
+              "id": "w4",
+              "text": "officer."
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         }
       ]
@@ -584,9 +1036,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuántos años tiene María?",
           "options": [
-            { "id": "o1", "text": "[[Twenty-five|Veinticinco]]" },
-            { "id": "o2", "text": "[[Twenty-eight|Veintiocho]]" },
-            { "id": "o3", "text": "[[Thirty-five|Treinta y cinco]]" }
+            {
+              "id": "o1",
+              "text": "[[Twenty-five|Veinticinco]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Twenty-eight|Veintiocho]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Thirty-five|Treinta y cinco]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "reading"
@@ -596,9 +1057,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la profesión de María?",
           "options": [
-            { "id": "o1", "text": "[[Teacher|Profesora]]" },
-            { "id": "o2", "text": "[[Doctor|Médica]]" },
-            { "id": "o3", "text": "[[Scientist|Científica]]" }
+            {
+              "id": "o1",
+              "text": "[[Teacher|Profesora]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Doctor|Médica]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Scientist|Científica]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
@@ -606,14 +1076,14 @@
         {
           "interaction_id": "U10_I53",
           "type": "true_false",
-          "prompt_es": "¿Es verdad que el hermano de María es médico?",
+          "prompt_es": "¿Es verdad que el hermano de María es médico? ([[review|repaso]])",
           "correct_answer": true,
           "mastery_tag": "reading"
         },
         {
           "interaction_id": "U10_I54",
           "type": "transformation",
-          "prompt_es": "Completa según el texto:",
+          "prompt_es": "Completa según el texto: ([[and|y]])",
           "stimulus_en": "Maria's sister has long brown hair and ________ eyes.",
           "correct_answer": "green",
           "mastery_tag": "reading"
@@ -623,9 +1093,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuántos estudiantes tiene la escuela de María?",
           "options": [
-            { "id": "o1", "text": "[[Sixty|Sesenta]]" },
-            { "id": "o2", "text": "[[Seventy|Setenta]]" },
-            { "id": "o3", "text": "[[Fifty|Cincuenta]]" }
+            {
+              "id": "o1",
+              "text": "[[Sixty|Sesenta]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Seventy|Setenta]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Fifty|Cincuenta]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
@@ -633,35 +1112,56 @@
         {
           "interaction_id": "U10_I56",
           "type": "short_writing",
-          "prompt_es": "¿De dónde es María? Escribe la respuesta en inglés.",
+          "prompt_es": "¿De dónde es María? Escribe la respuesta en inglés. ([[review|repaso]])",
           "correct_answer": "She is from Spain.",
           "mastery_tag": "reading"
         },
         {
           "interaction_id": "U10_I57",
           "type": "reorder_words",
-          "prompt_es": "Ordena para describir a la hermana de María:",
+          "prompt_es": "Ordena para describir a la hermana de María: ([[review|repaso]])",
           "options": [
-            { "id": "w0", "text": "She" },
-            { "id": "w1", "text": "has" },
-            { "id": "w2", "text": "long" },
-            { "id": "w3", "text": "brown" },
-            { "id": "w4", "text": "hair." }
+            {
+              "id": "w0",
+              "text": "She"
+            },
+            {
+              "id": "w1",
+              "text": "has"
+            },
+            {
+              "id": "w2",
+              "text": "long"
+            },
+            {
+              "id": "w3",
+              "text": "brown"
+            },
+            {
+              "id": "w4",
+              "text": "hair."
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "reading"
         },
         {
           "interaction_id": "U10_I58",
           "type": "true_false",
-          "prompt_es": "¿Es verdad que María toca la guitarra en su tiempo libre?",
+          "prompt_es": "¿Es verdad que María toca la guitarra en su tiempo libre? ([[review|repaso]])",
           "correct_answer": true,
           "mastery_tag": "reading"
         },
         {
           "interaction_id": "U10_I59",
           "type": "transformation",
-          "prompt_es": "Completa según el texto sobre Carlos:",
+          "prompt_es": "Completa según el texto sobre Carlos: ([[review|repaso]])",
           "stimulus_en": "Carlos is ________ years old.",
           "correct_answer": "thirty-five",
           "mastery_tag": "reading"
@@ -671,9 +1171,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es el color favorito de María?",
           "options": [
-            { "id": "o1", "text": "[[Green|Verde]]" },
-            { "id": "o2", "text": "[[Red|Rojo]]" },
-            { "id": "o3", "text": "[[Blue|Azul]]" }
+            {
+              "id": "o1",
+              "text": "[[Green|Verde]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Red|Rojo]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Blue|Azul]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "reading"

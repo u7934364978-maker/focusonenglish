@@ -25,7 +25,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Apple"
+              "text": "[[Apple|manzana]]"
             },
             {
               "id": "o2",
@@ -47,7 +47,7 @@
         {
           "interaction_id": "A1_U52_B1_I2",
           "type": "fill_blanks",
-          "prompt_es": "Usa 'a' o 'an':",
+          "prompt_es": "Usa 'a' o 'an': ([[orange|naranja]])",
           "stimulus_en": "I have ________ orange and ________ banana.",
           "correct_answer": "an, a",
           "mastery_tag": "grammar",
@@ -60,7 +60,7 @@
         {
           "interaction_id": "A1_U52_B1_I3",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Hay tres huevos'",
+          "prompt_es": "Ordena: 'Hay tres huevos' ([[milk|leche]])",
           "options": [
             {
               "id": "w1",
@@ -142,7 +142,7 @@
             },
             {
               "id": "o2",
-              "text": "Milk"
+              "text": "[[Milk|leche]]"
             },
             {
               "id": "o3",
@@ -160,7 +160,7 @@
         {
           "interaction_id": "A1_U52_B2_I2",
           "type": "fill_blanks",
-          "prompt_es": "Usa 'some' para sustantivos incontables:",
+          "prompt_es": "Usa 'some' para sustantivos incontables: ([[some|algo/algunos]])",
           "stimulus_en": "I want ________ water and ________ bread.",
           "correct_answer": "some, some",
           "mastery_tag": "grammar",
@@ -173,7 +173,7 @@
         {
           "interaction_id": "A1_U52_B2_I3",
           "type": "true_false",
-          "prompt_es": "¿Es correcto decir 'two waters' en inglés general?",
+          "prompt_es": "¿Es correcto decir 'two waters' en inglés general? ([[milk|leche]])",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "complexity": 1,
@@ -185,7 +185,7 @@
         {
           "interaction_id": "A1_U52_B2_I4",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Tengo algo de leche'",
+          "prompt_es": "Traduce: 'Tengo algo de leche' ([[milk|leche]])",
           "stimulus_es": "I have some milk.",
           "correct_answer": "I have some milk",
           "mastery_tag": "grammar",
@@ -204,7 +204,7 @@
         {
           "interaction_id": "A1_U52_B3_I1",
           "type": "categorization",
-          "prompt_es": "Clasifica los alimentos:",
+          "prompt_es": "Clasifica los alimentos: ([[milk|leche]])",
           "categories": [
             {
               "id": "countable",
@@ -238,7 +238,7 @@
         {
           "interaction_id": "A1_U52_B3_I2",
           "type": "multiple_choice",
-          "prompt_es": "Selecciona la frase correcta:",
+          "prompt_es": "Selecciona la frase correcta: ([[apple|manzana]])",
           "options": [
             {
               "id": "o1",
@@ -276,7 +276,7 @@
             },
             {
               "id": "w3",
-              "text": "some"
+              "text": "[[some|algo/algunos]]"
             },
             {
               "id": "w4",
@@ -299,7 +299,7 @@
         {
           "interaction_id": "A1_U52_B3_I4",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Necesito una naranja'",
+          "prompt_es": "Traduce: 'Necesito una naranja' ([[milk|leche]])",
           "stimulus_es": "I need an orange.",
           "correct_answer": "I need an orange",
           "mastery_tag": "grammar",
@@ -318,7 +318,7 @@
         {
           "interaction_id": "A1_U52_B4_I2",
           "type": "fill_blanks",
-          "prompt_es": "Completa el texto:",
+          "prompt_es": "Completa el texto: ([[supermarket|supermercado]])",
           "stimulus_en": "Please buy ________ milk and ________ apples at the supermarket.",
           "correct_answer": "some, some",
           "mastery_tag": "grammar",
@@ -331,7 +331,7 @@
         {
           "interaction_id": "A1_U52_B4_I3",
           "type": "true_false",
-          "prompt_es": "La palabra 'Rice' (arroz) es contable.",
+          "prompt_es": "La palabra 'Rice' (arroz) es contable. ([[Rice|arroz]])",
           "correct_answer": false,
           "mastery_tag": "vocabulary",
           "complexity": 1,
@@ -343,7 +343,7 @@
         {
           "interaction_id": "A1_U52_B4_I4",
           "type": "short_writing",
-          "prompt_es": "Escribe una frase diciendo que tienes una manzana:",
+          "prompt_es": "Escribe una frase diciendo que tienes una manzana: ([[milk|leche]])",
           "stimulus_es": "I have an apple.",
           "correct_answer": "I have an apple",
           "mastery_tag": "grammar",
@@ -362,7 +362,7 @@
         {
           "interaction_id": "U52_I101",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[apple|manzana]])",
           "stimulus_en": "I want an apple.",
           "correct_answer": "I want an apple.",
           "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-1.mp3",
@@ -376,7 +376,7 @@
         {
           "interaction_id": "U52_I102",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[milk|leche]])",
           "stimulus_en": "I have some milk.",
           "correct_answer": "I have some milk.",
           "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-2.mp3",
@@ -390,7 +390,7 @@
         {
           "interaction_id": "U52_I103",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[bread|pan]])",
           "stimulus_en": "There is some bread.",
           "correct_answer": "There is some bread.",
           "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-3.mp3",
@@ -404,7 +404,7 @@
         {
           "interaction_id": "U52_I104",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[orange|naranja]])",
           "stimulus_en": "She eats an orange.",
           "correct_answer": "She eats an orange.",
           "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-4.mp3",
@@ -418,7 +418,7 @@
         {
           "interaction_id": "U52_I105",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[water|agua]])",
           "stimulus_en": "Do you want some water?",
           "correct_answer": "Do you want some water?",
           "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-5.mp3",
@@ -432,7 +432,7 @@
         {
           "interaction_id": "U52_I106",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[rice|arroz]])",
           "stimulus_en": "We have some rice.",
           "correct_answer": "We have some rice.",
           "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-6.mp3",
@@ -446,7 +446,7 @@
         {
           "interaction_id": "U52_I107",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[sugar|azúcar]])",
           "stimulus_en": "They need some sugar.",
           "correct_answer": "They need some sugar.",
           "audioUrl": "/audio/courses/ingles-a1/unit52/lesson5-task-7.mp3",
@@ -460,7 +460,7 @@
         {
           "interaction_id": "U52_I108",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[milk|leche]])",
           "title": "Pronunciación: Bread",
           "instructions": "Escucha y repite la 'ea'.",
           "targetSentences": [
@@ -499,7 +499,7 @@
         {
           "interaction_id": "U52_I109",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[milk|leche]])",
           "title": "Pronunciación: Sugar",
           "instructions": "La 's' inicial suena como /ʃ/.",
           "targetSentences": [
@@ -538,7 +538,7 @@
         {
           "interaction_id": "U52_I110",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[milk|leche]])",
           "title": "Pronunciación: Water",
           "instructions": "Escucha y repite enfocándote en la 't'.",
           "targetSentences": [
@@ -577,7 +577,7 @@
         {
           "interaction_id": "U52_I111",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[milk|leche]])",
           "title": "Pronunciación: Milk",
           "instructions": "Escucha y repite la 'i' corta.",
           "targetSentences": [
@@ -616,7 +616,7 @@
         {
           "interaction_id": "U52_I112",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[milk|leche]])",
           "title": "Pronunciación: Orange",
           "instructions": "Escucha y repite la 'g' final.",
           "targetSentences": [
@@ -655,7 +655,7 @@
         {
           "interaction_id": "U52_I113",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[milk|leche]])",
           "title": "Pronunciación: Rice",
           "instructions": "La 'c' suena como /s/.",
           "targetSentences": [
@@ -694,7 +694,7 @@
         {
           "interaction_id": "U52_I114",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[milk|leche]])",
           "title": "Pronunciación: Apple",
           "instructions": "La 'a' suena como /æ/.",
           "targetSentences": [
@@ -733,7 +733,7 @@
         {
           "interaction_id": "U52_I115",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[milk|leche]])",
           "title": "Pronunciación: Some",
           "instructions": "Escucha y repite.",
           "targetSentences": [
@@ -781,18 +781,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Sugar"
+              "text": "Flour"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Orange"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Cheese"
+            },
+            {
+              "id": "o4",
+              "text": "[[Sugar|azúcar]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -802,18 +806,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Salt|sal]]"
             },
             {
               "id": "o2",
-              "text": "Salt"
+              "text": "Tea"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Water"
+            },
+            {
+              "id": "o4",
+              "text": "Apple"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -823,18 +831,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Water|agua]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Orange"
             },
             {
               "id": "o3",
-              "text": "Water"
+              "text": "Butter"
+            },
+            {
+              "id": "o4",
+              "text": "Flour"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -844,18 +856,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Apple"
+              "text": "Egg"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Apple|manzana]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Orange"
+            },
+            {
+              "id": "o4",
+              "text": "Cheese"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -865,15 +881,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Flour"
             },
             {
               "id": "o2",
-              "text": "Banana"
+              "text": "[[Banana|banana]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Orange"
+            },
+            {
+              "id": "o4",
+              "text": "Cheese"
             }
           ],
           "correct_answer": "o2",
@@ -886,18 +906,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Orange"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "[[Some|algo/algunos]]"
             },
             {
               "id": "o3",
-              "text": "Some"
+              "text": "Bread"
+            },
+            {
+              "id": "o4",
+              "text": "Sugar"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -907,15 +931,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Any"
+              "text": "[[Any|algún/ningún]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Butter"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Apple"
+            },
+            {
+              "id": "o4",
+              "text": "Milk"
             }
           ],
           "correct_answer": "o1",
@@ -928,18 +956,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Sugar|azúcar]]"
             },
             {
               "id": "o2",
-              "text": "Sugar"
+              "text": "Cheese"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Milk"
+            },
+            {
+              "id": "o4",
+              "text": "Apple"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -949,18 +981,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Salt|sal]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Sugar"
             },
             {
               "id": "o3",
-              "text": "Salt"
+              "text": "Rice"
+            },
+            {
+              "id": "o4",
+              "text": "Flour"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -970,18 +1006,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Water"
+              "text": "Orange"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Water|agua]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Flour"
+            },
+            {
+              "id": "o4",
+              "text": "Egg"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -991,18 +1031,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Apple|manzana]]"
             },
             {
               "id": "o2",
-              "text": "Apple"
+              "text": "Coffee"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Butter"
+            },
+            {
+              "id": "o4",
+              "text": "Bread"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1012,18 +1056,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Orange"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Butter"
             },
             {
               "id": "o3",
-              "text": "Banana"
+              "text": "Apple"
+            },
+            {
+              "id": "o4",
+              "text": "[[Banana|banana]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1033,18 +1081,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Some"
+              "text": "Tea"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Cheese"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Rice"
+            },
+            {
+              "id": "o4",
+              "text": "[[Some|algo/algunos]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1054,18 +1106,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Sugar"
             },
             {
               "id": "o2",
-              "text": "Any"
+              "text": "Apple"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Any|algún/ningún]]"
+            },
+            {
+              "id": "o4",
+              "text": "Milk"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1075,18 +1131,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Coffee"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Rice"
             },
             {
               "id": "o3",
-              "text": "Sugar"
+              "text": "Tea"
+            },
+            {
+              "id": "o4",
+              "text": "[[Sugar|azúcar]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1096,18 +1156,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Salt"
+              "text": "Rice"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Egg"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Sugar"
+            },
+            {
+              "id": "o4",
+              "text": "[[Salt|sal]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1117,18 +1181,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Coffee"
             },
             {
               "id": "o2",
-              "text": "Water"
+              "text": "Apple"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Water|agua]]"
+            },
+            {
+              "id": "o4",
+              "text": "Egg"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1138,15 +1206,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Water"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Rice"
             },
             {
               "id": "o3",
-              "text": "Apple"
+              "text": "[[Apple|manzana]]"
+            },
+            {
+              "id": "o4",
+              "text": "Butter"
             }
           ],
           "correct_answer": "o3",
@@ -1159,15 +1231,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Banana"
+              "text": "[[Banana|banana]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Tea"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Coffee"
+            },
+            {
+              "id": "o4",
+              "text": "Milk"
             }
           ],
           "correct_answer": "o1",
@@ -1180,18 +1256,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Coffee"
             },
             {
               "id": "o2",
-              "text": "Some"
+              "text": "Orange"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Egg"
+            },
+            {
+              "id": "o4",
+              "text": "[[Some|algo/algunos]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1201,18 +1281,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Tea"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Any|algún/ningún]]"
             },
             {
               "id": "o3",
-              "text": "Any"
+              "text": "Sugar"
+            },
+            {
+              "id": "o4",
+              "text": "Rice"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1222,15 +1306,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Sugar"
+              "text": "[[Sugar|azúcar]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Milk"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Rice"
+            },
+            {
+              "id": "o4",
+              "text": "Flour"
             }
           ],
           "correct_answer": "o1",
@@ -1243,18 +1331,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Cheese"
             },
             {
               "id": "o2",
-              "text": "Salt"
+              "text": "Sugar"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Apple"
+            },
+            {
+              "id": "o4",
+              "text": "[[Salt|sal]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1264,18 +1356,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Butter"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Orange"
             },
             {
               "id": "o3",
-              "text": "Water"
+              "text": "Sugar"
+            },
+            {
+              "id": "o4",
+              "text": "[[Water|agua]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1285,18 +1381,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Apple"
+              "text": "Milk"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Apple|manzana]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Egg"
+            },
+            {
+              "id": "o4",
+              "text": "Rice"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1306,15 +1406,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Egg"
             },
             {
               "id": "o2",
-              "text": "Banana"
+              "text": "[[Banana|banana]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Flour"
+            },
+            {
+              "id": "o4",
+              "text": "Sugar"
             }
           ],
           "correct_answer": "o2",
@@ -1327,18 +1431,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "[[Some|algo/algunos]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Rice"
             },
             {
               "id": "o3",
-              "text": "Some"
+              "text": "Cheese"
+            },
+            {
+              "id": "o4",
+              "text": "Sugar"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1348,18 +1456,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Any"
+              "text": "Orange"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Water"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Any|algún/ningún]]"
+            },
+            {
+              "id": "o4",
+              "text": "Bread"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1369,18 +1481,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Milk"
             },
             {
               "id": "o2",
-              "text": "Sugar"
+              "text": "Flour"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Cheese"
+            },
+            {
+              "id": "o4",
+              "text": "[[Sugar|azúcar]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1390,18 +1506,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Sugar"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Salt|sal]]"
             },
             {
               "id": "o3",
-              "text": "Salt"
+              "text": "Butter"
+            },
+            {
+              "id": "o4",
+              "text": "Apple"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         }
       ]
@@ -1413,7 +1533,7 @@
         {
           "interaction_id": "U52_L5_I1",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[milk|leche]])",
           "audio_url": "/audio/courses/ingles-a1/unit52/lesson5-task-1.mp3",
           "transcript_template": "The [[sugar|]] is here.",
           "correct_answer": "sugar",
@@ -1427,7 +1547,7 @@
         {
           "interaction_id": "U52_L5_I2",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[milk|leche]])",
           "audio_url": "/audio/courses/ingles-a1/unit52/lesson5-task-2.mp3",
           "transcript_template": "The [[salt|]] is here.",
           "correct_answer": "salt",
@@ -1441,7 +1561,7 @@
         {
           "interaction_id": "U52_L5_I3",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[milk|leche]])",
           "audio_url": "/audio/courses/ingles-a1/unit52/lesson5-task-3.mp3",
           "transcript_template": "The [[water|]] is here.",
           "correct_answer": "water",
@@ -1455,7 +1575,7 @@
         {
           "interaction_id": "U52_L5_I4",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[milk|leche]])",
           "audio_url": "/audio/courses/ingles-a1/unit52/lesson5-task-4.mp3",
           "transcript_template": "The [[apple|]] is here.",
           "correct_answer": "apple",
@@ -1469,7 +1589,7 @@
         {
           "interaction_id": "U52_L5_I5",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[milk|leche]])",
           "audio_url": "/audio/courses/ingles-a1/unit52/lesson5-task-5.mp3",
           "transcript_template": "The [[banana|]] is here.",
           "correct_answer": "banana",
@@ -1483,7 +1603,7 @@
         {
           "interaction_id": "U52_L5_I6",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[milk|leche]])",
           "audio_url": "/audio/courses/ingles-a1/unit52/lesson5-task-6.mp3",
           "transcript_template": "The [[some|]] is here.",
           "correct_answer": "some",
@@ -1497,7 +1617,7 @@
         {
           "interaction_id": "U52_L5_I7",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[milk|leche]])",
           "audio_url": "/audio/courses/ingles-a1/unit52/lesson5-task-7.mp3",
           "transcript_template": "The [[any|]] is here.",
           "correct_answer": "any",
@@ -1511,7 +1631,7 @@
         {
           "interaction_id": "U52_L5_I8",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[milk|leche]])",
           "title": "Pronunciación: Countable & Uncountable",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1550,7 +1670,7 @@
         {
           "interaction_id": "U52_L5_I9",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[milk|leche]])",
           "title": "Pronunciación: Countable & Uncountable",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1589,7 +1709,7 @@
         {
           "interaction_id": "U52_L5_I10",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[milk|leche]])",
           "title": "Pronunciación: Countable & Uncountable",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1628,7 +1748,7 @@
         {
           "interaction_id": "U52_L5_I11",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[milk|leche]])",
           "title": "Pronunciación: Countable & Uncountable",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1667,7 +1787,7 @@
         {
           "interaction_id": "U52_L5_I12",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[milk|leche]])",
           "title": "Pronunciación: Countable & Uncountable",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1706,7 +1826,7 @@
         {
           "interaction_id": "U52_L5_I13",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[milk|leche]])",
           "title": "Pronunciación: Countable & Uncountable",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1745,7 +1865,7 @@
         {
           "interaction_id": "U52_L5_I14",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[milk|leche]])",
           "title": "Pronunciación: Countable & Uncountable",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1784,7 +1904,7 @@
         {
           "interaction_id": "U52_L5_I15",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[milk|leche]])",
           "title": "Pronunciación: Countable & Uncountable",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [

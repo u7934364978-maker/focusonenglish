@@ -49,7 +49,7 @@
         {
           "interaction_id": "U40_I2",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Completa con la forma correcta: ([[swim|nadar]])",
           "stimulus_en": "I (poder) ________ swim.",
           "correct_answer": "can",
           "mastery_tag": "grammar"
@@ -57,14 +57,14 @@
         {
           "interaction_id": "U40_I3",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Ask for permission politely.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Ask for permission politely.\" ([[review|repaso]])",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U40_I4",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[review|repaso]])",
           "options": [
             {
               "id": "w2",
@@ -109,7 +109,7 @@
         {
           "interaction_id": "U40_I5",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
           "stimulus_es": "Talento",
           "correct_answer": "Talent",
           "mastery_tag": "vocabulary"
@@ -172,7 +172,7 @@
         {
           "interaction_id": "U40_I8",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Completa con la forma correcta: ([[piano|piano]])",
           "stimulus_en": "He (tocar) ________ the piano.",
           "correct_answer": "plays",
           "mastery_tag": "grammar"
@@ -187,7 +187,7 @@
         {
           "interaction_id": "U40_I10",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[review|repaso]])",
           "options": [
             {
               "id": "w4",
@@ -232,7 +232,7 @@
         {
           "interaction_id": "U40_I11",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
           "stimulus_es": "Actividad",
           "correct_answer": "Activity",
           "mastery_tag": "vocabulary"
@@ -295,7 +295,7 @@
         {
           "interaction_id": "U40_I14",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Completa con la forma correcta: ([[swim|nadar]])",
           "stimulus_en": "I (poder) ________ swim.",
           "correct_answer": "can",
           "mastery_tag": "grammar"
@@ -303,14 +303,14 @@
         {
           "interaction_id": "U40_I15",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This is a review of module four.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"This is a review of module four.\" ([[review|repaso]])",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U40_I16",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[review|repaso]])",
           "options": [
             {
               "id": "w2",
@@ -340,7 +340,7 @@
         {
           "interaction_id": "U40_I17",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
           "stimulus_es": "Talento",
           "correct_answer": "Talent",
           "mastery_tag": "vocabulary"
@@ -403,7 +403,7 @@
         {
           "interaction_id": "U40_I20",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Completa con la forma correcta: ([[piano|piano]])",
           "stimulus_en": "He (tocar) ________ the piano.",
           "correct_answer": "plays",
           "mastery_tag": "grammar"
@@ -411,14 +411,14 @@
         {
           "interaction_id": "U40_I21",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Adverbs use of frequency\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Adverbs use of frequency\" ([[review|repaso]])",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U40_I22",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[review|repaso]])",
           "options": [
             {
               "id": "w4",
@@ -458,7 +458,7 @@
         {
           "interaction_id": "U40_I23",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
           "stimulus_es": "Actividad",
           "correct_answer": "Activity",
           "mastery_tag": "vocabulary"
@@ -521,7 +521,7 @@
         {
           "interaction_id": "U40_I26",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Completa con la forma correcta: ([[swim|nadar]])",
           "stimulus_en": "I (poder) ________ swim.",
           "correct_answer": "can",
           "mastery_tag": "grammar"
@@ -529,14 +529,14 @@
         {
           "interaction_id": "U40_I27",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Talk about your abilities and skills.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Talk about your abilities and skills.\" ([[and|y]])",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U40_I28",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[review|repaso]])",
           "options": [
             {
               "id": "w3",
@@ -566,7 +566,7 @@
         {
           "interaction_id": "U40_I29",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
           "stimulus_es": "Talento",
           "correct_answer": "Talent",
           "mastery_tag": "vocabulary"
@@ -629,7 +629,7 @@
         {
           "interaction_id": "U40_I32",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Completa con la forma correcta: ([[piano|piano]])",
           "stimulus_en": "He (tocar) ________ the piano.",
           "correct_answer": "plays",
           "mastery_tag": "grammar"
@@ -637,14 +637,14 @@
         {
           "interaction_id": "U40_I33",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"For ask permission politely\"",
+          "prompt_es": "¿Es correcta esta frase?: \"For ask permission politely\" ([[review|repaso]])",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U40_I34",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[review|repaso]])",
           "options": [
             {
               "id": "w3",
@@ -689,7 +689,7 @@
         {
           "interaction_id": "U40_I35",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
           "stimulus_es": "Actividad",
           "correct_answer": "Activity",
           "mastery_tag": "vocabulary"
@@ -752,7 +752,7 @@
         {
           "interaction_id": "U40_I38",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Completa con la forma correcta: ([[swim|nadar]])",
           "stimulus_en": "I (poder) ________ swim.",
           "correct_answer": "can",
           "mastery_tag": "grammar"
@@ -767,7 +767,7 @@
         {
           "interaction_id": "U40_I40",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[review|repaso]])",
           "options": [
             {
               "id": "w4",
@@ -812,7 +812,7 @@
         {
           "interaction_id": "U40_I41",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
           "stimulus_es": "Talento",
           "correct_answer": "Talent",
           "mastery_tag": "vocabulary"
@@ -875,7 +875,7 @@
         {
           "interaction_id": "U40_I44",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Completa con la forma correcta: ([[piano|piano]])",
           "stimulus_en": "He (tocar) ________ the piano.",
           "correct_answer": "plays",
           "mastery_tag": "grammar"
@@ -883,14 +883,14 @@
         {
           "interaction_id": "U40_I45",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Is this a review of module four\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Is this a review of module four\" ([[review|repaso]])",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U40_I46",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[review|repaso]])",
           "options": [
             {
               "id": "w0",
@@ -920,7 +920,7 @@
         {
           "interaction_id": "U40_I47",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
           "stimulus_es": "Actividad",
           "correct_answer": "Activity",
           "mastery_tag": "vocabulary"
@@ -983,7 +983,7 @@
         {
           "interaction_id": "U40_I50",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Completa con la forma correcta: ([[swim|nadar]])",
           "stimulus_en": "I (poder) ________ swim.",
           "correct_answer": "can",
           "mastery_tag": "grammar"
@@ -991,14 +991,14 @@
         {
           "interaction_id": "U40_I51",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Use adverbs of frequency.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Use adverbs of frequency.\" ([[review|repaso]])",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U40_I52",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[review|repaso]])",
           "options": [
             {
               "id": "w0",
@@ -1038,7 +1038,7 @@
         {
           "interaction_id": "U40_I53",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
           "stimulus_es": "Talento",
           "correct_answer": "Talent",
           "mastery_tag": "vocabulary"
@@ -1101,7 +1101,7 @@
         {
           "interaction_id": "U40_I56",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Completa con la forma correcta: ([[piano|piano]])",
           "stimulus_en": "He (tocar) ________ the piano.",
           "correct_answer": "plays",
           "mastery_tag": "grammar"
@@ -1109,14 +1109,14 @@
         {
           "interaction_id": "U40_I57",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"About talk your abilities and skills\"",
+          "prompt_es": "¿Es correcta esta frase?: \"About talk your abilities and skills\" ([[and|y]])",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U40_I58",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[review|repaso]])",
           "options": [
             {
               "id": "w0",
@@ -1146,7 +1146,7 @@
         {
           "interaction_id": "U40_I59",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
           "stimulus_es": "Actividad",
           "correct_answer": "Activity",
           "mastery_tag": "vocabulary"
@@ -1181,7 +1181,7 @@
         {
           "interaction_id": "U40_L5_I1",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[review|repaso]])",
           "audio_url": "/audio/courses/ingles-a1/unit40/lesson5-task-1.mp3",
           "transcript_template": "The [[can|]] is here.",
           "correct_answer": "can",
@@ -1195,7 +1195,7 @@
         {
           "interaction_id": "U40_L5_I2",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[review|repaso]])",
           "audio_url": "/audio/courses/ingles-a1/unit40/lesson5-task-2.mp3",
           "transcript_template": "The [[sports|]] is here.",
           "correct_answer": "sports",
@@ -1209,7 +1209,7 @@
         {
           "interaction_id": "U40_L5_I3",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[review|repaso]])",
           "audio_url": "/audio/courses/ingles-a1/unit40/lesson5-task-3.mp3",
           "transcript_template": "The [[frequency|]] is here.",
           "correct_answer": "frequency",
@@ -1223,7 +1223,7 @@
         {
           "interaction_id": "U40_L5_I4",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[review|repaso]])",
           "audio_url": "/audio/courses/ingles-a1/unit40/lesson5-task-4.mp3",
           "transcript_template": "The [[connectors|]] is here.",
           "correct_answer": "connectors",
@@ -1237,7 +1237,7 @@
         {
           "interaction_id": "U40_L5_I5",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[review|repaso]])",
           "audio_url": "/audio/courses/ingles-a1/unit40/lesson5-task-5.mp3",
           "transcript_template": "The [[free time|]] is here.",
           "correct_answer": "free time",
@@ -1251,7 +1251,7 @@
         {
           "interaction_id": "U40_L5_I6",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[review|repaso]])",
           "audio_url": "/audio/courses/ingles-a1/unit40/lesson5-task-6.mp3",
           "transcript_template": "The [[instruments|]] is here.",
           "correct_answer": "instruments",
@@ -1265,7 +1265,7 @@
         {
           "interaction_id": "U40_L5_I7",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[review|repaso]])",
           "audio_url": "/audio/courses/ingles-a1/unit40/lesson5-task-7.mp3",
           "transcript_template": "The [[talent|]] is here.",
           "correct_answer": "talent",
@@ -1279,7 +1279,7 @@
         {
           "interaction_id": "U40_L5_I8",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[review|repaso]])",
           "title": "Pronunciación: Module 4 Review",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1318,7 +1318,7 @@
         {
           "interaction_id": "U40_L5_I9",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[review|repaso]])",
           "title": "Pronunciación: Module 4 Review",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1357,7 +1357,7 @@
         {
           "interaction_id": "U40_L5_I10",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[review|repaso]])",
           "title": "Pronunciación: Module 4 Review",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1396,7 +1396,7 @@
         {
           "interaction_id": "U40_L5_I11",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[review|repaso]])",
           "title": "Pronunciación: Module 4 Review",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1435,7 +1435,7 @@
         {
           "interaction_id": "U40_L5_I12",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[review|repaso]])",
           "title": "Pronunciación: Module 4 Review",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1474,7 +1474,7 @@
         {
           "interaction_id": "U40_L5_I13",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[review|repaso]])",
           "title": "Pronunciación: Module 4 Review",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1513,7 +1513,7 @@
         {
           "interaction_id": "U40_L5_I14",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[review|repaso]])",
           "title": "Pronunciación: Module 4 Review",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1552,7 +1552,7 @@
         {
           "interaction_id": "U40_L5_I15",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[review|repaso]])",
           "title": "Pronunciación: Module 4 Review",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [

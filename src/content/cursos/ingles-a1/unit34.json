@@ -79,7 +79,7 @@
         {
           "interaction_id": "A1_U34_B34_1_I3",
           "type": "fill_blanks",
-          "prompt_es": "Completa con el conector de adición:",
+          "prompt_es": "Completa con el conector de adición: ([[but|pero]])",
           "stimulus_en": "I speak English ________ Spanish.",
           "correct_answer": "and",
           "mastery_tag": "vocabulary",
@@ -92,7 +92,7 @@
         {
           "interaction_id": "A1_U34_B34_1_I4",
           "type": "flashcard",
-          "prompt_es": "Memoriza el conector:",
+          "prompt_es": "Memoriza el conector: ([[because|porque]])",
           "stimulus_en": "[[Because|porque]]",
           "correct_answer": "Porque",
           "mastery_tag": "vocabulary",
@@ -164,7 +164,7 @@
         {
           "interaction_id": "A1_U34_B34_2_I4",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcto? 'I want an apple and an orange.'",
+          "prompt_es": "¿Es gramaticalmente correcto? 'I want an apple and an orange.' ([[apple|manzana]])",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "complexity": 1,
@@ -182,7 +182,7 @@
         {
           "interaction_id": "A1_U34_B34_3_I1",
           "type": "fill_blanks",
-          "prompt_es": "Completa con el conector de razón:",
+          "prompt_es": "Completa con el conector de razón: ([[but|pero]])",
           "stimulus_en": "I am [[happy|feliz]] ________ it is my birthday.",
           "correct_answer": "because",
           "mastery_tag": "grammar",
@@ -195,7 +195,7 @@
         {
           "interaction_id": "A1_U34_B34_3_I2",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuál responde a la pregunta 'Why are you late?'?",
+          "prompt_es": "¿Cuál responde a la pregunta 'Why are you late?'? ([[because|porque]])",
           "options": [
             {
               "id": "o1",
@@ -237,7 +237,7 @@
             },
             {
               "id": "w4",
-              "text": "because"
+              "text": "[[because|porque]]"
             },
             {
               "id": "w5",
@@ -276,7 +276,7 @@
         {
           "interaction_id": "A1_U34_B34_3_I4",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Estudio inglés porque me gusta.'",
+          "prompt_es": "Traduce: 'Estudio inglés porque me gusta.' ([[but|pero]])",
           "stimulus_es": "Estudio inglés porque me gusta.",
           "correct_answer": "I study English because I like it",
           "mastery_tag": "vocabulary",
@@ -313,7 +313,7 @@
         {
           "interaction_id": "A1_U34_B34_4_I5",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la actitud del narrador hacia la gente de la ciudad?",
+          "prompt_es": "¿Cuál es la actitud del narrador hacia la gente de la ciudad? ([[hello|hola]])",
           "options": [
             {
               "id": "o1",
@@ -349,15 +349,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[And|y]]"
+              "text": "[[[[and|y]]|[[and|y]]]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "And"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "So"
+            },
+            {
+              "id": "o4",
+              "text": "Because"
             }
           ],
           "correct_answer": "o1",
@@ -370,18 +374,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[but|pero]]|[[but|pero]]]]"
             },
             {
               "id": "o2",
-              "text": "[[But|pero]]"
+              "text": "Although"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "And"
+            },
+            {
+              "id": "o4",
+              "text": "Because"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -391,15 +399,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "But"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "So"
             },
             {
               "id": "o3",
-              "text": "[[Because|porque]]"
+              "text": "[[[[because|porque]]|[[because|porque]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Or"
             }
           ],
           "correct_answer": "o3",
@@ -412,18 +424,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[So|así que]]"
+              "text": "So"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Although"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[[[so|así que]]|[[so|así que]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "But"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -433,18 +449,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Although"
             },
             {
               "id": "o2",
-              "text": "Or"
+              "text": "But"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Because"
+            },
+            {
+              "id": "o4",
+              "text": "[[Or|o]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -454,15 +474,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Because"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "And"
             },
             {
               "id": "o3",
-              "text": "Then"
+              "text": "[[Then|then]]"
+            },
+            {
+              "id": "o4",
+              "text": "So"
             }
           ],
           "correct_answer": "o3",
@@ -475,15 +499,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Finally"
+              "text": "[[Finally|finally]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Although"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "So"
+            },
+            {
+              "id": "o4",
+              "text": "Because"
             }
           ],
           "correct_answer": "o1",
@@ -496,18 +524,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "So"
             },
             {
               "id": "o2",
-              "text": "[[And|y]]"
+              "text": "Although"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[[[and|y]]|[[and|y]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Because"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -517,18 +549,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Or"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "[[[[but|pero]]|[[but|pero]]]]"
             },
             {
               "id": "o3",
-              "text": "[[But|pero]]"
+              "text": "So"
+            },
+            {
+              "id": "o4",
+              "text": "Although"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -538,18 +574,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Because|porque]]"
+              "text": "Because"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "But"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Or"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[because|porque]]|[[because|porque]]]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -559,18 +599,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "But"
             },
             {
               "id": "o2",
-              "text": "[[So|así que]]"
+              "text": "Although"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "So"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[so|así que]]|[[so|así que]]]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -580,18 +624,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Because"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Although"
             },
             {
               "id": "o3",
-              "text": "Or"
+              "text": "But"
+            },
+            {
+              "id": "o4",
+              "text": "[[Or|o]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -601,15 +649,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Then"
+              "text": "[[Then|then]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "So"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Because"
+            },
+            {
+              "id": "o4",
+              "text": "Although"
             }
           ],
           "correct_answer": "o1",
@@ -622,18 +674,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Finally|finally]]"
             },
             {
               "id": "o2",
-              "text": "Finally"
+              "text": "Because"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "And"
+            },
+            {
+              "id": "o4",
+              "text": "But"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -643,18 +699,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "And"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "[[[[and|y]]|[[and|y]]]]"
             },
             {
               "id": "o3",
-              "text": "[[And|y]]"
+              "text": "Or"
+            },
+            {
+              "id": "o4",
+              "text": "Although"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -664,18 +724,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[But|pero]]"
+              "text": "Or"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "And"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[[[but|pero]]|[[but|pero]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "But"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -685,18 +749,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "So"
             },
             {
               "id": "o2",
-              "text": "[[Because|porque]]"
+              "text": "Because"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "But"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[because|porque]]|[[because|porque]]]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -706,18 +774,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Because"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Although"
             },
             {
               "id": "o3",
-              "text": "[[So|así que]]"
+              "text": "So"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[so|así que]]|[[so|así que]]]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -727,18 +799,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Or"
+              "text": "Although"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "But"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Or|o]]"
+            },
+            {
+              "id": "o4",
+              "text": "Because"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -748,18 +824,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "And"
             },
             {
               "id": "o2",
-              "text": "Then"
+              "text": "Because"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Then|then]]"
+            },
+            {
+              "id": "o4",
+              "text": "Or"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -769,15 +849,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Although"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Because"
             },
             {
               "id": "o3",
-              "text": "Finally"
+              "text": "[[Finally|finally]]"
+            },
+            {
+              "id": "o4",
+              "text": "And"
             }
           ],
           "correct_answer": "o3",
@@ -790,18 +874,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[And|y]]"
+              "text": "And"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "But"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[[[and|y]]|[[and|y]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "So"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -811,18 +899,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[but|pero]]|[[but|pero]]]]"
             },
             {
               "id": "o2",
-              "text": "[[But|pero]]"
+              "text": "Because"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Or"
+            },
+            {
+              "id": "o4",
+              "text": "So"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -832,18 +924,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "And"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "So"
             },
             {
               "id": "o3",
-              "text": "[[Because|porque]]"
+              "text": "Or"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[because|porque]]|[[because|porque]]]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -853,15 +949,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[So|así que]]"
+              "text": "[[[[so|así que]]|[[so|así que]]]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Because"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Although"
+            },
+            {
+              "id": "o4",
+              "text": "So"
             }
           ],
           "correct_answer": "o1",
@@ -874,15 +974,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "But"
             },
             {
               "id": "o2",
-              "text": "Or"
+              "text": "[[Or|o]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Because"
+            },
+            {
+              "id": "o4",
+              "text": "And"
             }
           ],
           "correct_answer": "o2",
@@ -895,15 +999,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Or"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "But"
             },
             {
               "id": "o3",
-              "text": "Then"
+              "text": "[[Then|then]]"
+            },
+            {
+              "id": "o4",
+              "text": "Although"
             }
           ],
           "correct_answer": "o3",
@@ -916,18 +1024,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Finally"
+              "text": "But"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Although"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Finally|finally]]"
+            },
+            {
+              "id": "o4",
+              "text": "Because"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -937,18 +1049,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[and|y]]|[[and|y]]]]"
             },
             {
               "id": "o2",
-              "text": "[[And|y]]"
+              "text": "But"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "So"
+            },
+            {
+              "id": "o4",
+              "text": "And"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -958,15 +1074,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Because"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Or"
             },
             {
               "id": "o3",
-              "text": "[[But|pero]]"
+              "text": "[[[[but|pero]]|[[but|pero]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "And"
             }
           ],
           "correct_answer": "o3",
@@ -979,18 +1099,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Because|porque]]"
+              "text": "Or"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "But"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Because"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[because|porque]]|[[because|porque]]]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1000,18 +1124,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "And"
             },
             {
               "id": "o2",
-              "text": "[[So|así que]]"
+              "text": "Because"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[[[so|así que]]|[[so|así que]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "But"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1021,18 +1149,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Although"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Because"
             },
             {
               "id": "o3",
-              "text": "Or"
+              "text": "And"
+            },
+            {
+              "id": "o4",
+              "text": "[[Or|o]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1042,15 +1174,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Then"
+              "text": "[[Then|then]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "And"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Although"
+            },
+            {
+              "id": "o4",
+              "text": "Because"
             }
           ],
           "correct_answer": "o1",
@@ -1063,18 +1199,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Finally|finally]]"
             },
             {
               "id": "o2",
-              "text": "Finally"
+              "text": "Or"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "And"
+            },
+            {
+              "id": "o4",
+              "text": "So"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1084,15 +1224,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "So"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "And"
             },
             {
               "id": "o3",
-              "text": "[[And|y]]"
+              "text": "[[[[and|y]]|[[and|y]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Because"
             }
           ],
           "correct_answer": "o3",
@@ -1105,15 +1249,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[But|pero]]"
+              "text": "[[[[but|pero]]|[[but|pero]]]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Because"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Although"
+            },
+            {
+              "id": "o4",
+              "text": "So"
             }
           ],
           "correct_answer": "o1",
@@ -1126,15 +1274,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "But"
             },
             {
               "id": "o2",
-              "text": "[[Because|porque]]"
+              "text": "[[[[because|porque]]|[[because|porque]]]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "So"
+            },
+            {
+              "id": "o4",
+              "text": "And"
             }
           ],
           "correct_answer": "o2",
@@ -1147,18 +1299,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Or"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "[[[[so|así que]]|[[so|así que]]]]"
             },
             {
               "id": "o3",
-              "text": "[[So|así que]]"
+              "text": "But"
+            },
+            {
+              "id": "o4",
+              "text": "And"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1168,18 +1324,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Or"
+              "text": "But"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "And"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Although"
+            },
+            {
+              "id": "o4",
+              "text": "[[Or|o]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1189,15 +1349,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Because"
             },
             {
               "id": "o2",
-              "text": "Then"
+              "text": "[[Then|then]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Or"
+            },
+            {
+              "id": "o4",
+              "text": "But"
             }
           ],
           "correct_answer": "o2",
@@ -1210,18 +1374,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "And"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Although"
             },
             {
               "id": "o3",
-              "text": "Finally"
+              "text": "But"
+            },
+            {
+              "id": "o4",
+              "text": "[[Finally|finally]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1231,18 +1399,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[And|y]]"
+              "text": "Although"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[[[and|y]]|[[and|y]]]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "So"
+            },
+            {
+              "id": "o4",
+              "text": "Or"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1252,15 +1424,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "And"
             },
             {
               "id": "o2",
-              "text": "[[But|pero]]"
+              "text": "[[[[but|pero]]|[[but|pero]]]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "But"
+            },
+            {
+              "id": "o4",
+              "text": "So"
             }
           ],
           "correct_answer": "o2",
@@ -1273,18 +1449,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[because|porque]]|[[because|porque]]]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "So"
             },
             {
               "id": "o3",
-              "text": "[[Because|porque]]"
+              "text": "Or"
+            },
+            {
+              "id": "o4",
+              "text": "But"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1294,15 +1474,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[So|así que]]"
+              "text": "[[[[so|así que]]|[[so|así que]]]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "And"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "So"
+            },
+            {
+              "id": "o4",
+              "text": "Because"
             }
           ],
           "correct_answer": "o1",
@@ -1315,18 +1499,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Or|o]]"
             },
             {
               "id": "o2",
-              "text": "Or"
+              "text": "Although"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Because"
+            },
+            {
+              "id": "o4",
+              "text": "And"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         }
       ]
@@ -1338,7 +1526,7 @@
         {
           "interaction_id": "U34_L5_I1",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[but|pero]])",
           "audio_url": "/audio/courses/ingles-a1/unit34/lesson5-task-1.mp3",
           "transcript_template": "The [[and|]] is here.",
           "correct_answer": "and",
@@ -1352,7 +1540,7 @@
         {
           "interaction_id": "U34_L5_I2",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[but|pero]])",
           "audio_url": "/audio/courses/ingles-a1/unit34/lesson5-task-2.mp3",
           "transcript_template": "The [[but|]] is here.",
           "correct_answer": "but",
@@ -1366,7 +1554,7 @@
         {
           "interaction_id": "U34_L5_I3",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[but|pero]])",
           "audio_url": "/audio/courses/ingles-a1/unit34/lesson5-task-3.mp3",
           "transcript_template": "The [[because|]] is here.",
           "correct_answer": "because",
@@ -1380,7 +1568,7 @@
         {
           "interaction_id": "U34_L5_I4",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[but|pero]])",
           "audio_url": "/audio/courses/ingles-a1/unit34/lesson5-task-4.mp3",
           "transcript_template": "The [[so|]] is here.",
           "correct_answer": "so",
@@ -1394,7 +1582,7 @@
         {
           "interaction_id": "U34_L5_I5",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[but|pero]])",
           "audio_url": "/audio/courses/ingles-a1/unit34/lesson5-task-5.mp3",
           "transcript_template": "The [[or|]] is here.",
           "correct_answer": "or",
@@ -1408,7 +1596,7 @@
         {
           "interaction_id": "U34_L5_I6",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[but|pero]])",
           "audio_url": "/audio/courses/ingles-a1/unit34/lesson5-task-6.mp3",
           "transcript_template": "The [[then|]] is here.",
           "correct_answer": "then",
@@ -1422,7 +1610,7 @@
         {
           "interaction_id": "U34_L5_I7",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[but|pero]])",
           "audio_url": "/audio/courses/ingles-a1/unit34/lesson5-task-7.mp3",
           "transcript_template": "The [[finally|]] is here.",
           "correct_answer": "finally",
@@ -1436,7 +1624,7 @@
         {
           "interaction_id": "U34_L5_I8",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[but|pero]])",
           "title": "Pronunciación: Connectors",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1475,7 +1663,7 @@
         {
           "interaction_id": "U34_L5_I9",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[but|pero]])",
           "title": "Pronunciación: Connectors",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1514,7 +1702,7 @@
         {
           "interaction_id": "U34_L5_I10",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[but|pero]])",
           "title": "Pronunciación: Connectors",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1553,7 +1741,7 @@
         {
           "interaction_id": "U34_L5_I11",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[but|pero]])",
           "title": "Pronunciación: Connectors",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1592,7 +1780,7 @@
         {
           "interaction_id": "U34_L5_I12",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[but|pero]])",
           "title": "Pronunciación: Connectors",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1631,7 +1819,7 @@
         {
           "interaction_id": "U34_L5_I13",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[but|pero]])",
           "title": "Pronunciación: Connectors",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1670,7 +1858,7 @@
         {
           "interaction_id": "U34_L5_I14",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[but|pero]])",
           "title": "Pronunciación: Connectors",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1709,7 +1897,7 @@
         {
           "interaction_id": "U34_L5_I15",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[but|pero]])",
           "title": "Pronunciación: Connectors",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [

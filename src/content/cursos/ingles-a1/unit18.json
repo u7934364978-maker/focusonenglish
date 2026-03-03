@@ -23,12 +23,33 @@
           "type": "matching",
           "prompt_es": "Une la fruta con su traducción:",
           "pairs": [
-            { "id": "p1", "left": "[[Apple|Manzana]]", "right": "Uva" },
-            { "id": "p2", "left": "[[Banana|Plátano]]", "right": "Naranja" },
-            { "id": "p3", "left": "[[Orange|Naranja]]", "right": "Manzana" },
-            { "id": "p4", "left": "[[Grapes|Uva]]", "right": "Plátano" }
+            {
+              "id": "p1",
+              "left": "[[Apple|Manzana]]",
+              "right": "Uva"
+            },
+            {
+              "id": "p2",
+              "left": "[[Banana|Plátano]]",
+              "right": "Naranja"
+            },
+            {
+              "id": "p3",
+              "left": "[[Orange|Naranja]]",
+              "right": "Manzana"
+            },
+            {
+              "id": "p4",
+              "left": "[[Grapes|Uva]]",
+              "right": "Plátano"
+            }
           ],
-          "correct_answer": { "p1": "p3", "p2": "p4", "p3": "p2", "p4": "p1" },
+          "correct_answer": {
+            "p1": "p3",
+            "p2": "p4",
+            "p3": "p2",
+            "p4": "p1"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -36,12 +57,33 @@
           "type": "matching",
           "prompt_es": "Une la verdura con su traducción:",
           "pairs": [
-            { "id": "p1", "left": "[[Carrot|Zanahoria]]", "right": "Lechuga" },
-            { "id": "p2", "left": "[[Tomato|Tomate]]", "right": "Pepino" },
-            { "id": "p3", "left": "[[Lettuce|Lechuga]]", "right": "Tomate" },
-            { "id": "p4", "left": "[[Cucumber|Pepino]]", "right": "Zanahoria" }
+            {
+              "id": "p1",
+              "left": "[[Carrot|Zanahoria]]",
+              "right": "Lechuga"
+            },
+            {
+              "id": "p2",
+              "left": "[[Tomato|Tomate]]",
+              "right": "Pepino"
+            },
+            {
+              "id": "p3",
+              "left": "[[Lettuce|Lechuga]]",
+              "right": "Tomate"
+            },
+            {
+              "id": "p4",
+              "left": "[[Cucumber|Pepino]]",
+              "right": "Zanahoria"
+            }
           ],
-          "correct_answer": { "p1": "p4", "p2": "p3", "p3": "p1", "p4": "p2" },
+          "correct_answer": {
+            "p1": "p4",
+            "p2": "p3",
+            "p3": "p1",
+            "p4": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -49,11 +91,20 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'fresa' en inglés?",
           "options": [
-            { "id": "o1", "text": "[[Lemon|Limón]]" },
-            { "id": "o2", "text": "[[Strawberry|Fresa]]" },
-            { "id": "o3", "text": "[[Peach|Melocotón]]" }
+            {
+              "id": "o1",
+              "text": "[[Peach|Melocotón]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Lemon|Limón]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Strawberry|Fresa]]"
+            }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -68,17 +119,26 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál de estos es una fruta?",
           "options": [
-            { "id": "o1", "text": "[[Potato|Patata]]" },
-            { "id": "o2", "text": "[[Pear|Pera]]" },
-            { "id": "o3", "text": "[[Broccoli|Brócoli]]" }
+            {
+              "id": "o1",
+              "text": "[[Broccoli|Brócoli]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Potato|Patata]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Pear|Pera]]"
+            }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U18_I6",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'Me gustan las zanahorias y las ________ (lechugas).'",
+          "prompt_es": "Completa: 'Me gustan las zanahorias y las ________ (lechugas).' ([[and|y]])",
           "stimulus_en": "I like carrots and ________.",
           "correct_answer": "lettuce",
           "mastery_tag": "vocabulary"
@@ -86,7 +146,7 @@
         {
           "interaction_id": "U18_I7",
           "type": "short_writing",
-          "prompt_es": "Nombra tres frutas en inglés.",
+          "prompt_es": "Nombra tres frutas en inglés. ([[city|ciudad]])",
           "correct_answer": "apple, banana, orange",
           "mastery_tag": "vocabulary"
         }
@@ -101,12 +161,33 @@
           "type": "matching",
           "prompt_es": "Clasifica los alimentos: sano o no sano:",
           "pairs": [
-            { "id": "p1", "left": "[[Salad|Ensalada]]", "right": "Unhealthy" },
-            { "id": "p2", "left": "[[Chips|Patatas fritas]]", "right": "Healthy" },
-            { "id": "p3", "left": "[[Fruit|Fruta]]", "right": "Unhealthy (muy dulce)" },
-            { "id": "p4", "left": "[[Chocolate cake|Tarta de chocolate]]", "right": "Healthy" }
+            {
+              "id": "p1",
+              "left": "[[Salad|Ensalada]]",
+              "right": "Unhealthy"
+            },
+            {
+              "id": "p2",
+              "left": "[[Chips|Patatas fritas]]",
+              "right": "Healthy"
+            },
+            {
+              "id": "p3",
+              "left": "[[Fruit|Fruta]]",
+              "right": "Unhealthy (muy dulce)"
+            },
+            {
+              "id": "p4",
+              "left": "[[Chocolate cake|Tarta de chocolate]]",
+              "right": "Healthy"
+            }
           ],
-          "correct_answer": { "p1": "p2", "p2": "p1", "p3": "p4", "p4": "p3" },
+          "correct_answer": {
+            "p1": "p2",
+            "p2": "p1",
+            "p3": "p4",
+            "p4": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -114,11 +195,20 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es una comida sana?",
           "options": [
-            { "id": "o1", "text": "[[A burger and chips|Una hamburguesa y patatas fritas]]" },
-            { "id": "o2", "text": "[[A grilled chicken salad|Una ensalada de pollo a la plancha]]" },
-            { "id": "o3", "text": "[[A large pizza|Una pizza grande]]" }
+            {
+              "id": "o1",
+              "text": "[[A grilled chicken salad|Una ensalada de pollo a la plancha]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[A burger and chips|Una hamburguesa y patatas fritas]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[A large pizza|Una pizza grande]]"
+            }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -131,7 +221,7 @@
         {
           "interaction_id": "U18_I11",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'Las frutas y verduras son ________ (saludables).'",
+          "prompt_es": "Completa: 'Las frutas y verduras son ________ (saludables).' ([[and|y]])",
           "stimulus_en": "Fruits and vegetables are ________.",
           "correct_answer": "healthy",
           "mastery_tag": "vocabulary"
@@ -141,9 +231,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa '[[junk food|comida basura]]'?",
           "options": [
-            { "id": "o1", "text": "[[Comida sana y nutritiva|Healthy and nutritious food]]" },
-            { "id": "o2", "text": "[[Comida casera|Home-cooked food]]" },
-            { "id": "o3", "text": "[[Comida poco nutritiva como hamburguesas o patatas fritas|Fast food like burgers and chips]]" }
+            {
+              "id": "o1",
+              "text": "[[Comida sana y nutritiva|Healthy and nutritious food]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Comida casera|Home-cooked food]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Comida poco nutritiva como hamburguesas o patatas fritas|Fast food like burgers and chips]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -151,7 +250,7 @@
         {
           "interaction_id": "U18_I13",
           "type": "short_writing",
-          "prompt_es": "Escribe una frase: 'Las patatas fritas no son saludables.'",
+          "prompt_es": "Escribe una frase: 'Las patatas fritas no son saludables.' ([[city|ciudad]])",
           "correct_answer": "Chips are not healthy",
           "mastery_tag": "vocabulary"
         }
@@ -166,12 +265,33 @@
           "type": "matching",
           "prompt_es": "Une el adjetivo con su significado:",
           "pairs": [
-            { "id": "p1", "left": "[[Sweet|Dulce]]", "right": "Con especias" },
-            { "id": "p2", "left": "[[Salty|Salado]]", "right": "Dulce" },
-            { "id": "p3", "left": "[[Spicy|Picante]]", "right": "Fresco/natural" },
-            { "id": "p4", "left": "[[Fresh|Fresco]]", "right": "Salado" }
+            {
+              "id": "p1",
+              "left": "[[Sweet|Dulce]]",
+              "right": "Con especias"
+            },
+            {
+              "id": "p2",
+              "left": "[[Salty|Salado]]",
+              "right": "Dulce"
+            },
+            {
+              "id": "p3",
+              "left": "[[Spicy|Picante]]",
+              "right": "Fresco/natural"
+            },
+            {
+              "id": "p4",
+              "left": "[[Fresh|Fresco]]",
+              "right": "Salado"
+            }
           ],
-          "correct_answer": { "p1": "p2", "p2": "p4", "p3": "p1", "p4": "p3" },
+          "correct_answer": {
+            "p1": "p2",
+            "p2": "p4",
+            "p3": "p1",
+            "p4": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -179,17 +299,26 @@
           "type": "multiple_choice",
           "prompt_es": "El chocolate es normalmente…",
           "options": [
-            { "id": "o1", "text": "[[Spicy|Picante]]" },
-            { "id": "o2", "text": "[[Sweet|Dulce]]" },
-            { "id": "o3", "text": "[[Salty|Salado]]" }
+            {
+              "id": "o1",
+              "text": "[[Sweet|Dulce]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Spicy|Picante]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Salty|Salado]]"
+            }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U18_I16",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'Las aceitunas son ________ (saladas).'",
+          "prompt_es": "Completa: 'Las aceitunas son ________ (saladas).' ([[city|ciudad]])",
           "stimulus_en": "Olives are ________.",
           "correct_answer": "salty",
           "mastery_tag": "vocabulary"
@@ -206,9 +335,18 @@
           "type": "multiple_choice",
           "prompt_es": "La comida mexicana es normalmente…",
           "options": [
-            { "id": "o1", "text": "[[Sweet|Dulce]]" },
-            { "id": "o2", "text": "[[Spicy|Picante]]" },
-            { "id": "o3", "text": "[[Bland|Sosa]]" }
+            {
+              "id": "o1",
+              "text": "[[Sweet|Dulce]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Spicy|Picante]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Bland|Sosa]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "vocabulary"
@@ -216,21 +354,42 @@
         {
           "interaction_id": "U18_I19",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'A mí no me gusta la comida picante.'",
+          "prompt_es": "Ordena: 'A mí no me gusta la comida picante.' ([[city|ciudad]])",
           "options": [
-            { "id": "w1", "text": "I" },
-            { "id": "w2", "text": "don't" },
-            { "id": "w3", "text": "like" },
-            { "id": "w4", "text": "spicy" },
-            { "id": "w5", "text": "food." }
+            {
+              "id": "w1",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "don't"
+            },
+            {
+              "id": "w3",
+              "text": "like"
+            },
+            {
+              "id": "w4",
+              "text": "spicy"
+            },
+            {
+              "id": "w5",
+              "text": "food."
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U18_I20",
           "type": "short_writing",
-          "prompt_es": "Describe un limón usando un adjetivo.",
+          "prompt_es": "Describe un limón usando un adjetivo. ([[city|ciudad]])",
           "correct_answer": "A lemon is sour",
           "mastery_tag": "vocabulary"
         }
@@ -245,9 +404,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál describe un buen hábito alimenticio?",
           "options": [
-            { "id": "o1", "text": "[[She eats chips every day|Ella come patatas fritas cada día]]" },
-            { "id": "o2", "text": "[[She eats fruit and vegetables every day|Ella come fruta y verduras cada día]]" },
-            { "id": "o3", "text": "[[She skips breakfast|Ella se salta el desayuno]]" }
+            {
+              "id": "o1",
+              "text": "[[She eats chips every day|Ella come patatas fritas cada día]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[She eats fruit and vegetables every day|Ella come fruta y verduras cada día]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[She skips breakfast|Ella se salta el desayuno]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "grammar"
@@ -255,7 +423,7 @@
         {
           "interaction_id": "U18_I22",
           "type": "fill_blanks",
-          "prompt_es": "Completa: '¿Cuánta fruta comes al día?'",
+          "prompt_es": "Completa: '¿Cuánta fruta comes al día?' ([[every day|todos los días]])",
           "stimulus_en": "How much ________ do you eat every day?",
           "correct_answer": "fruit",
           "mastery_tag": "grammar"
@@ -265,12 +433,33 @@
           "type": "matching",
           "prompt_es": "Une la persona con su hábito:",
           "pairs": [
-            { "id": "p1", "left": "[[Mark|Mark]]", "right": "drinks fresh juice every morning" },
-            { "id": "p2", "left": "[[Sara|Sara]]", "right": "eats a big lunch" },
-            { "id": "p3", "left": "[[Tom|Tom]]", "right": "doesn't eat junk food" },
-            { "id": "p4", "left": "[[Ana|Ana]]", "right": "loves spicy food" }
+            {
+              "id": "p1",
+              "left": "[[Mark|Mark]]",
+              "right": "drinks fresh juice every morning"
+            },
+            {
+              "id": "p2",
+              "left": "[[Sara|Sara]]",
+              "right": "eats a big lunch"
+            },
+            {
+              "id": "p3",
+              "left": "[[Tom|Tom]]",
+              "right": "doesn't eat junk food"
+            },
+            {
+              "id": "p4",
+              "left": "[[Ana|Ana]]",
+              "right": "loves spicy food"
+            }
           ],
-          "correct_answer": { "p1": "p3", "p2": "p1", "p3": "p4", "p4": "p2" },
+          "correct_answer": {
+            "p1": "p3",
+            "p2": "p1",
+            "p3": "p4",
+            "p4": "p2"
+          },
           "mastery_tag": "grammar"
         },
         {
@@ -283,23 +472,52 @@
         {
           "interaction_id": "U18_I25",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Mi hermana come mucha fruta.'",
+          "prompt_es": "Ordena: 'Mi hermana come mucha fruta.' ([[city|ciudad]])",
           "options": [
-            { "id": "w1", "text": "My" },
-            { "id": "w2", "text": "sister" },
-            { "id": "w3", "text": "eats" },
-            { "id": "w4", "text": "a" },
-            { "id": "w5", "text": "lot" },
-            { "id": "w6", "text": "of" },
-            { "id": "w7", "text": "fruit." }
+            {
+              "id": "w1",
+              "text": "My"
+            },
+            {
+              "id": "w2",
+              "text": "sister"
+            },
+            {
+              "id": "w3",
+              "text": "eats"
+            },
+            {
+              "id": "w4",
+              "text": "a"
+            },
+            {
+              "id": "w5",
+              "text": "lot"
+            },
+            {
+              "id": "w6",
+              "text": "of"
+            },
+            {
+              "id": "w7",
+              "text": "fruit."
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U18_I26",
           "type": "short_writing",
-          "prompt_es": "Traduce: '¿Come ella verduras cada día?'",
+          "prompt_es": "Traduce: '¿Come ella verduras cada día?' ([[city|ciudad]])",
           "correct_answer": "Does she eat vegetables every day?",
           "mastery_tag": "grammar"
         }
@@ -322,9 +540,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué fruta come David por la mañana?",
           "options": [
-            { "id": "o1", "text": "[[Apples and pears|Manzanas y peras]]" },
-            { "id": "o2", "text": "[[Strawberries, blueberries and banana|Fresas, arándanos y plátano]]" },
-            { "id": "o3", "text": "[[Oranges and grapes|Naranjas y uvas]]" }
+            {
+              "id": "o1",
+              "text": "[[Apples and pears|Manzanas y peras]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Strawberries, blueberries and banana|Fresas, arándanos y plátano]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Oranges and grapes|Naranjas y uvas]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "reading"
@@ -332,7 +559,7 @@
         {
           "interaction_id": "U18_I28",
           "type": "true_false",
-          "prompt_es": "David bebe café por la mañana.",
+          "prompt_es": "David bebe café por la mañana. ([[city|ciudad]])",
           "correct_answer": false,
           "mastery_tag": "reading"
         },
@@ -341,17 +568,26 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué come David para comer?",
           "options": [
-            { "id": "o1", "text": "[[A big salad with grilled chicken|Una gran ensalada con pollo a la plancha]]" },
-            { "id": "o2", "text": "[[A burger and chips|Una hamburguesa con patatas]]" },
-            { "id": "o3", "text": "[[Pasta with sauce|Pasta con salsa]]" }
+            {
+              "id": "o1",
+              "text": "[[Pasta with sauce|Pasta con salsa]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[A burger and chips|Una hamburguesa con patatas]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[A big salad with grilled chicken|Una gran ensalada con pollo a la plancha]]"
+            }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "reading"
         },
         {
           "interaction_id": "U18_I30",
           "type": "fill_blanks",
-          "prompt_es": "David no come ________ (comida basura).",
+          "prompt_es": "David no come ________ (comida basura). ([[any|algún/ningún]])",
           "stimulus_en": "He doesn't eat any ________.",
           "correct_answer": "junk food",
           "mastery_tag": "reading"
@@ -361,9 +597,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la profesión de David?",
           "options": [
-            { "id": "o1", "text": "[[Teacher|Profesor]]" },
-            { "id": "o2", "text": "[[Doctor|Médico]]" },
-            { "id": "o3", "text": "[[Chef|Cocinero]]" }
+            {
+              "id": "o1",
+              "text": "[[Teacher|Profesor]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Doctor|Médico]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Chef|Cocinero]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "reading"
@@ -371,7 +616,7 @@
         {
           "interaction_id": "U18_I32",
           "type": "short_writing",
-          "prompt_es": "Escribe el consejo que da David.",
+          "prompt_es": "Escribe el consejo que da David. ([[city|ciudad]])",
           "correct_answer": "Eat more fruit and vegetables",
           "mastery_tag": "reading"
         },
@@ -380,26 +625,68 @@
           "type": "matching",
           "prompt_es": "Une el adjetivo de comida con un ejemplo:",
           "pairs": [
-            { "id": "p1", "left": "[[Sweet|Dulce]]", "right": "Lettuce, cucumber" },
-            { "id": "p2", "left": "[[Fresh|Fresco]]", "right": "Lemon, lime" },
-            { "id": "p3", "left": "[[Sour|Ácido]]", "right": "Honey, chocolate" },
-            { "id": "p4", "left": "[[Crunchy|Crujiente]]", "right": "Carrots, apples" }
+            {
+              "id": "p1",
+              "left": "[[Sweet|Dulce]]",
+              "right": "Lettuce, cucumber"
+            },
+            {
+              "id": "p2",
+              "left": "[[Fresh|Fresco]]",
+              "right": "Lemon, lime"
+            },
+            {
+              "id": "p3",
+              "left": "[[Sour|Ácido]]",
+              "right": "Honey, chocolate"
+            },
+            {
+              "id": "p4",
+              "left": "[[Crunchy|Crujiente]]",
+              "right": "Carrots, apples"
+            }
           ],
-          "correct_answer": { "p1": "p3", "p2": "p1", "p3": "p2", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p3",
+            "p2": "p1",
+            "p3": "p2",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U18_I34",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Comer sano es muy importante.'",
+          "prompt_es": "Ordena: 'Comer sano es muy importante.' ([[city|ciudad]])",
           "options": [
-            { "id": "w1", "text": "Eating" },
-            { "id": "w2", "text": "well" },
-            { "id": "w3", "text": "is" },
-            { "id": "w4", "text": "very" },
-            { "id": "w5", "text": "important." }
+            {
+              "id": "w1",
+              "text": "Eating"
+            },
+            {
+              "id": "w2",
+              "text": "well"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "very"
+            },
+            {
+              "id": "w5",
+              "text": "important."
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -407,9 +694,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es un ejemplo de comida 'crunchy' (crujiente)?",
           "options": [
-            { "id": "o1", "text": "[[Yogurt|Yogur]]" },
-            { "id": "o2", "text": "[[Soup|Sopa]]" },
-            { "id": "o3", "text": "[[Carrot|Zanahoria]]" }
+            {
+              "id": "o1",
+              "text": "[[Yogurt|Yogur]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Soup|Sopa]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Carrot|Zanahoria]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -417,7 +713,7 @@
         {
           "interaction_id": "U18_I36",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'Como fruta y verduras para estar ________ (sano).'",
+          "prompt_es": "Completa: 'Como fruta y verduras para estar ________ (sano).' ([[and|y]])",
           "stimulus_en": "I eat fruit and vegetables to stay ________.",
           "correct_answer": "healthy",
           "mastery_tag": "vocabulary"
@@ -432,7 +728,7 @@
         {
           "interaction_id": "U18_I38",
           "type": "short_writing",
-          "prompt_es": "Escribe: '¿Comes verduras cada día?'",
+          "prompt_es": "Escribe: '¿Comes verduras cada día?' ([[city|ciudad]])",
           "correct_answer": "Do you eat vegetables every day?",
           "mastery_tag": "grammar"
         },
@@ -441,25 +737,602 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué adjetivo describe una naranja?",
           "options": [
-            { "id": "o1", "text": "[[Spicy|Picante]]" },
-            { "id": "o2", "text": "[[Sweet and juicy|Dulce y jugosa]]" },
-            { "id": "o3", "text": "[[Salty|Salada]]" }
+            {
+              "id": "o1",
+              "text": "[[Spicy|Picante]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Salty|Salada]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Sweet and juicy|Dulce y jugosa]]"
+            }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U18_I40",
           "type": "reorder_words",
-          "prompt_es": "Ordena: '¿Le gustan las fresas a ella?'",
+          "prompt_es": "Ordena: '¿Le gustan las fresas a ella?' ([[city|ciudad]])",
           "options": [
-            { "id": "w1", "text": "Does" },
-            { "id": "w2", "text": "she" },
-            { "id": "w3", "text": "like" },
-            { "id": "w4", "text": "strawberries?" }
+            {
+              "id": "w1",
+              "text": "Does"
+            },
+            {
+              "id": "w2",
+              "text": "she"
+            },
+            {
+              "id": "w3",
+              "text": "like"
+            },
+            {
+              "id": "w4",
+              "text": "strawberries?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
+        }
+      ]
+    },
+    {
+      "block_id": "B18_6",
+      "title": "Block 6: Healthy Habits Extended",
+      "content": [
+        {
+          "interaction_id": "A1_U18_B18_6_E1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál de estos alimentos es más [[healthy|saludable]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Broccoli|Brócoli]]"
+            },
+            {
+              "id": "o2",
+              "text": "Chips"
+            },
+            {
+              "id": "o3",
+              "text": "Cake"
+            },
+            {
+              "id": "o4",
+              "text": "Cola"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "A1_U18_B18_6_F1",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: [[Fruit|Fruta]] and ________ are good for your health. ([[vegetables|verduras]])",
+          "stimulus_en": "Fruit and ________ are good for your health.",
+          "correct_answer": "vegetables",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar"
+          ]
+        },
+        {
+          "interaction_id": "A1_U18_B18_6_E2",
+          "type": "multiple_choice",
+          "prompt_es": "\"[[Protein|Proteína]]\" is found mainly in:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Sweets"
+            },
+            {
+              "id": "o2",
+              "text": "[[Meat, fish and eggs|Carne, pescado y huevos]]"
+            },
+            {
+              "id": "o3",
+              "text": "Bread and pasta"
+            },
+            {
+              "id": "o4",
+              "text": "Sugar and oil"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "A1_U18_B18_6_F2",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: I [[try|intentar]] to ________ five portions of fruit and vegetables a day. (eat)",
+          "stimulus_en": "I try to ________ five portions of fruit and vegetables a day.",
+          "correct_answer": "eat",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar"
+          ]
+        },
+        {
+          "interaction_id": "A1_U18_B18_6_T1",
+          "type": "true_false",
+          "prompt_es": "\"[[Water|Agua]]\" is the healthiest drink. ¿Verdadero o falso?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[True|Verdadero]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[False|Falso]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar"
+          ]
+        },
+        {
+          "interaction_id": "A1_U18_B18_6_E3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál de estos alimentos tiene más [[sugar|azúcar]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[A fizzy drink|Una bebida con gas]]"
+            },
+            {
+              "id": "o2",
+              "text": "A glass of water"
+            },
+            {
+              "id": "o3",
+              "text": "A boiled egg"
+            },
+            {
+              "id": "o4",
+              "text": "A grilled chicken"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "A1_U18_B18_6_R1",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: \"Como verduras todos los días\" ([[city|ciudad]])",
+          "options": [
+            {
+              "id": "w1",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "eat"
+            },
+            {
+              "id": "w3",
+              "text": "vegetables"
+            },
+            {
+              "id": "w4",
+              "text": "every"
+            },
+            {
+              "id": "w5",
+              "text": "day"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
+        },
+        {
+          "interaction_id": "A1_U18_B18_6_E4",
+          "type": "multiple_choice",
+          "prompt_es": "\"[[Organic food|Alimentos orgánicos]]\" means:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Very expensive food"
+            },
+            {
+              "id": "o2",
+              "text": "[[Grown without chemicals|Cultivado sin químicos]]"
+            },
+            {
+              "id": "o3",
+              "text": "Frozen food"
+            },
+            {
+              "id": "o4",
+              "text": "Fast food"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "A1_U18_B18_6_F3",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: She [[doesn't|no]] ________ junk food. (eat)",
+          "stimulus_en": "She ________ eat junk food.",
+          "correct_answer": "doesn't",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar"
+          ]
+        },
+        {
+          "interaction_id": "A1_U18_B18_6_E5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es un alimento rico en [[fibre|fibra]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Wholemeal bread|Pan integral]]"
+            },
+            {
+              "id": "o2",
+              "text": "White rice"
+            },
+            {
+              "id": "o3",
+              "text": "Butter"
+            },
+            {
+              "id": "o4",
+              "text": "Cheese"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "A1_U18_B18_6_T2",
+          "type": "true_false",
+          "prompt_es": "\"[[Junk food|Comida basura]]\" es saludable. ¿Verdadero o falso?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[True|Verdadero]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[False|Falso]]"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar"
+          ]
+        },
+        {
+          "interaction_id": "A1_U18_B18_6_F4",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: He ________ [[eats|comer]] fast food because he wants to be healthy. (rarely)",
+          "stimulus_en": "He ________ eats fast food because he wants to be healthy.",
+          "correct_answer": "rarely",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar"
+          ]
+        },
+        {
+          "interaction_id": "A1_U18_B18_6_E6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué hace una persona que es \"[[vegan|vegano]]\"?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Eats only meat"
+            },
+            {
+              "id": "o2",
+              "text": "[[Doesn't eat any animal products|No come ningún producto animal]]"
+            },
+            {
+              "id": "o3",
+              "text": "Eats only fish"
+            },
+            {
+              "id": "o4",
+              "text": "Drinks only water"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "A1_U18_B18_6_R2",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: \"Es importante beber mucha agua\"",
+          "options": [
+            {
+              "id": "w1",
+              "text": "It"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "important"
+            },
+            {
+              "id": "w4",
+              "text": "to"
+            },
+            {
+              "id": "w5",
+              "text": "drink"
+            },
+            {
+              "id": "w6",
+              "text": "lots"
+            },
+            {
+              "id": "w7",
+              "text": "of"
+            },
+            {
+              "id": "w8",
+              "text": "[[water|agua]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7",
+            "w8"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
+        },
+        {
+          "interaction_id": "A1_U18_B18_6_F5",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: [[Vitamin|Vitamina]] C is found in ________ ([[oranges|naranjas]]).",
+          "stimulus_en": "Vitamin C is found in ________.",
+          "correct_answer": "oranges",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar"
+          ]
+        },
+        {
+          "interaction_id": "A1_U18_B18_6_E7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuántas porciones de fruta al día recomienda la OMS?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "One"
+            },
+            {
+              "id": "o2",
+              "text": "[[Five|Cinco]]"
+            },
+            {
+              "id": "o3",
+              "text": "Ten"
+            },
+            {
+              "id": "o4",
+              "text": "Two"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "A1_U18_B18_6_T3",
+          "type": "true_false",
+          "prompt_es": "\"[[Skipping meals|Saltarse comidas]]\" es una buena práctica de salud. ¿Verdadero o falso?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[False|Falso]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[True|Verdadero]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar"
+          ]
+        },
+        {
+          "interaction_id": "A1_U18_B18_6_F6",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: ________ [[sugar|azúcar]] is bad for your teeth. (Too much)",
+          "stimulus_en": "________ sugar is bad for your teeth.",
+          "correct_answer": "Too much",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar"
+          ]
+        },
+        {
+          "interaction_id": "A1_U18_B18_6_E8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál de estos es un [[dairy|lácteo]] product?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Yoghurt|Yogur]]"
+            },
+            {
+              "id": "o2",
+              "text": "Spinach"
+            },
+            {
+              "id": "o3",
+              "text": "Olive oil"
+            },
+            {
+              "id": "o4",
+              "text": "Beans"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B18_PROD",
+      "title": "Block 6: Production – There is / There are",
+      "content": [
+        {
+          "interaction_id": "A1_U18_B18_PROD_SW1",
+          "type": "short_writing",
+          "prompt_es": "Describe tu dormitorio usando [[There is|Hay (singular)]] y [[There are|Hay (plural)]]. Mínimo 4 oraciones.",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "concept_tags": [
+            "production",
+            "free_writing"
+          ],
+          "example_answer": "There is a bed and a desk in my room. There are two windows. There is a lamp on the desk. There are some books on the shelf."
+        },
+        {
+          "interaction_id": "A1_U18_B18_PROD_SW2",
+          "type": "short_writing",
+          "prompt_es": "Describe el [[neighbourhood|barrio]] donde vives. Usa [[There is a|Hay un/una]], [[There are some|Hay algunos/as]], [[There isn't|No hay]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "concept_tags": [
+            "production",
+            "free_writing"
+          ],
+          "example_answer": "There is a supermarket near my house. There are some cafés in my street. There isn't a cinema but there is a theatre."
+        },
+        {
+          "interaction_id": "A1_U18_B18_PROD_MC3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma negativa correcta de \"There is a chair\"?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[There isn't a chair|No hay una silla]]"
+            },
+            {
+              "id": "o2",
+              "text": "There aren't a chair"
+            },
+            {
+              "id": "o3",
+              "text": "There is not chairs"
+            },
+            {
+              "id": "o4",
+              "text": "There no is a chair"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "there_is_there_are"
+          ]
+        },
+        {
+          "interaction_id": "A1_U18_B18_PROD_FB4",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: \"___ [[a supermarket|un supermercado]] near my house but ___ [[any parks|ningún parque]].\"",
+          "stimulus_en": "___ a supermarket near my house but ___ any parks.",
+          "correct_answer": "There is / there aren't",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "there_is_there_are"
+          ]
+        },
+        {
+          "interaction_id": "A1_U18_B18_PROD_SW5",
+          "type": "short_writing",
+          "prompt_es": "Escribe 3 preguntas sobre una ciudad usando [[Is there...?|¿Hay...?]] y [[Are there...?|¿Hay...?]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "concept_tags": [
+            "production",
+            "free_writing"
+          ],
+          "example_answer": "Is there a good restaurant near here? Are there any parks in the city centre? Is there a bus stop on this street?"
         }
       ]
     }

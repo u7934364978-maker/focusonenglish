@@ -23,12 +23,33 @@
           "type": "matching",
           "prompt_es": "Asocia los miembros de la familia con su traducción:",
           "pairs": [
-            { "id": "p1", "left": "[[Father|Padre]]", "right": "Hermano" },
-            { "id": "p2", "left": "[[Mother|Madre]]", "right": "Padre" },
-            { "id": "p3", "left": "[[Brother|Hermano]]", "right": "Hermana" },
-            { "id": "p4", "left": "[[Sister|Hermana]]", "right": "Madre" }
+            {
+              "id": "p1",
+              "left": "[[Father|Padre]]",
+              "right": "Hermano"
+            },
+            {
+              "id": "p2",
+              "left": "[[Mother|Madre]]",
+              "right": "Padre"
+            },
+            {
+              "id": "p3",
+              "left": "[[Brother|Hermano]]",
+              "right": "Hermana"
+            },
+            {
+              "id": "p4",
+              "left": "[[Sister|Hermana]]",
+              "right": "Madre"
+            }
           ],
-          "correct_answer": { "p1": "p2", "p2": "p4", "p3": "p1", "p4": "p3" },
+          "correct_answer": {
+            "p1": "p2",
+            "p2": "p4",
+            "p3": "p1",
+            "p4": "p3"
+          },
           "mastery_tag": "vocabulary",
           "complexity": 1
         },
@@ -46,9 +67,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '[[son|hijo]]' en [[English|inglés]]?",
           "options": [
-            { "id": "o1", "text": "[[Sun|Sol]]" },
-            { "id": "o2", "text": "[[Son|Hijo]]" },
-            { "id": "o3", "text": "[[Daughter|Hija]]" }
+            {
+              "id": "o1",
+              "text": "[[Sun|Sol]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Son|Hijo]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Daughter|Hija]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "vocabulary",
@@ -74,15 +104,36 @@
         {
           "interaction_id": "U6_I6",
           "type": "sentence_building",
-          "prompt_es": "Ordena la frase: 'Su padre está en el trabajo.'",
+          "prompt_es": "Ordena la frase: 'Su padre está en el trabajo.' ([[possessive|posesivo]])",
           "words": [
-            { "id": "w1", "text": "[[His|Su]]" },
-            { "id": "w2", "text": "[[father|padre]]" },
-            { "id": "w3", "text": "[[is|está]]" },
-            { "id": "w4", "text": "[[at|en]]" },
-            { "id": "w5", "text": "[[work|el trabajo]]" }
+            {
+              "id": "w1",
+              "text": "[[His|Su]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[father|padre]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[is|está]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[at|en]]"
+            },
+            {
+              "id": "w5",
+              "text": "[[work|el trabajo]]"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "syntax",
           "complexity": 2
         },
@@ -91,12 +142,33 @@
           "type": "matching",
           "prompt_es": "Une los miembros de la familia con su traducción:",
           "pairs": [
-            { "id": "p1", "left": "[[Son|Hijo]]", "right": "Padres" },
-            { "id": "p2", "left": "[[Daughter|Hija]]", "right": "Bebé" },
-            { "id": "p3", "left": "[[Baby|Bebé]]", "right": "Hijo" },
-            { "id": "p4", "left": "[[Parents|Padres]]", "right": "Hija" }
+            {
+              "id": "p1",
+              "left": "[[Son|Hijo]]",
+              "right": "Padres"
+            },
+            {
+              "id": "p2",
+              "left": "[[Daughter|Hija]]",
+              "right": "Bebé"
+            },
+            {
+              "id": "p3",
+              "left": "[[Baby|Bebé]]",
+              "right": "Hijo"
+            },
+            {
+              "id": "p4",
+              "left": "[[Parents|Padres]]",
+              "right": "Hija"
+            }
           ],
-          "correct_answer": { "p1": "p3", "p2": "p4", "p3": "p2", "p4": "p1" },
+          "correct_answer": {
+            "p1": "p3",
+            "p2": "p4",
+            "p3": "p2",
+            "p4": "p1"
+          },
           "mastery_tag": "vocabulary",
           "complexity": 1
         },
@@ -114,9 +186,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '[[sister|hermana]]' en [[English|inglés]]?",
           "options": [
-            { "id": "o1", "text": "[[sister|hermana]]" },
-            { "id": "o2", "text": "[[cousin|primo/a]]" },
-            { "id": "o3", "text": "[[brother|hermano]]" }
+            {
+              "id": "o1",
+              "text": "[[sister|hermana]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[cousin|primo/a]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[brother|hermano]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary",
@@ -134,15 +215,36 @@
         {
           "interaction_id": "U6_I11",
           "type": "sentence_building",
-          "prompt_es": "Ordena la frase: 'Su madre es profesora.'",
+          "prompt_es": "Ordena la frase: 'Su madre es profesora.' ([[possessive|posesivo]])",
           "words": [
-            { "id": "w1", "text": "[[teacher|profesora]]" },
-            { "id": "w2", "text": "[[mother|madre]]" },
-            { "id": "w3", "text": "[[Her|Su]]" },
-            { "id": "w4", "text": "[[is|es]]" },
-            { "id": "w5", "text": "[[a|una]]" }
+            {
+              "id": "w1",
+              "text": "[[teacher|profesora]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[mother|madre]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Her|Su]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[is|es]]"
+            },
+            {
+              "id": "w5",
+              "text": "[[a|una]]"
+            }
           ],
-          "correct_answer": ["w3", "w2", "w4", "w5", "w1"],
+          "correct_answer": [
+            "w3",
+            "w2",
+            "w4",
+            "w5",
+            "w1"
+          ],
           "mastery_tag": "syntax",
           "complexity": 2
         },
@@ -151,9 +253,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '[[daughter|hija]]' en [[English|inglés]]?",
           "options": [
-            { "id": "o1", "text": "[[son|hijo]]" },
-            { "id": "o2", "text": "[[girl|chica]]" },
-            { "id": "o3", "text": "[[daughter|hija]]" }
+            {
+              "id": "o1",
+              "text": "[[son|hijo]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[girl|chica]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[daughter|hija]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary",
@@ -170,12 +281,33 @@
           "type": "matching",
           "prompt_es": "Une los miembros de la familia extensa con su traducción:",
           "pairs": [
-            { "id": "p1", "left": "[[Grandfather|Abuelo]]", "right": "Tía" },
-            { "id": "p2", "left": "[[Grandmother|Abuela]]", "right": "Abuelo" },
-            { "id": "p3", "left": "[[Uncle|Tío]]", "right": "Abuela" },
-            { "id": "p4", "left": "[[Aunt|Tía]]", "right": "Tío" }
+            {
+              "id": "p1",
+              "left": "[[Grandfather|Abuelo]]",
+              "right": "Tía"
+            },
+            {
+              "id": "p2",
+              "left": "[[Grandmother|Abuela]]",
+              "right": "Abuelo"
+            },
+            {
+              "id": "p3",
+              "left": "[[Uncle|Tío]]",
+              "right": "Abuela"
+            },
+            {
+              "id": "p4",
+              "left": "[[Aunt|Tía]]",
+              "right": "Tío"
+            }
           ],
-          "correct_answer": { "p1": "p2", "p2": "p3", "p3": "p4", "p4": "p1" },
+          "correct_answer": {
+            "p1": "p2",
+            "p2": "p3",
+            "p3": "p4",
+            "p4": "p1"
+          },
           "mastery_tag": "vocabulary",
           "complexity": 1
         },
@@ -193,9 +325,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '[[cousins|primos]]' en [[English|inglés]]?",
           "options": [
-            { "id": "o1", "text": "[[cousins|primos]]" },
-            { "id": "o2", "text": "[[children|hijos/niños]]" },
-            { "id": "o3", "text": "[[friends|amigos]]" }
+            {
+              "id": "o1",
+              "text": "[[cousins|primos]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[children|hijos/niños]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[friends|amigos]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary",
@@ -221,14 +362,31 @@
         {
           "interaction_id": "U6_I18",
           "type": "sentence_building",
-          "prompt_es": "Ordena la pregunta: '¿Quién es ese hombre?'",
+          "prompt_es": "Ordena la pregunta: '¿Quién es ese hombre?' ([[possessive|posesivo]])",
           "words": [
-            { "id": "w1", "text": "[[Who|Quién]]" },
-            { "id": "w2", "text": "[[is|es]]" },
-            { "id": "w3", "text": "[[that|ese]]" },
-            { "id": "w4", "text": "[[man|hombre]]?" }
+            {
+              "id": "w1",
+              "text": "[[Who|Quién]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[is|es]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[that|ese]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[man|hombre]]?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax",
           "complexity": 2
         },
@@ -237,12 +395,33 @@
           "type": "matching",
           "prompt_es": "Une los miembros de la familia con su traducción:",
           "pairs": [
-            { "id": "p1", "left": "[[Cousin|Primo/a]]", "right": "Familia" },
-            { "id": "p2", "left": "[[Children|Hijos/Niños]]", "right": "Abuelos" },
-            { "id": "p3", "left": "[[Grandparents|Abuelos]]", "right": "Primo/a" },
-            { "id": "p4", "left": "[[Family|Familia]]", "right": "Hijos/Niños" }
+            {
+              "id": "p1",
+              "left": "[[Cousin|Primo/a]]",
+              "right": "Familia"
+            },
+            {
+              "id": "p2",
+              "left": "[[Children|Hijos/Niños]]",
+              "right": "Abuelos"
+            },
+            {
+              "id": "p3",
+              "left": "[[Grandparents|Abuelos]]",
+              "right": "Primo/a"
+            },
+            {
+              "id": "p4",
+              "left": "[[Family|Familia]]",
+              "right": "Hijos/Niños"
+            }
           ],
-          "correct_answer": { "p1": "p3", "p2": "p4", "p3": "p2", "p4": "p1" },
+          "correct_answer": {
+            "p1": "p3",
+            "p2": "p4",
+            "p3": "p2",
+            "p4": "p1"
+          },
           "mastery_tag": "vocabulary",
           "complexity": 1
         },
@@ -260,9 +439,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es el posesivo de '[[She|ella]]'?",
           "options": [
-            { "id": "o1", "text": "[[His|Su (él)]]" },
-            { "id": "o2", "text": "[[Hers|Suyo]]" },
-            { "id": "o3", "text": "[[Her|Su (ella)]]" }
+            {
+              "id": "o1",
+              "text": "[[His|Su (él)]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Hers|Suyo]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Her|Su (ella)]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "grammar",
@@ -282,12 +470,33 @@
           "type": "matching",
           "prompt_es": "Une cada palabra con su traducción:",
           "pairs": [
-            { "id": "p1", "left": "[[Husband|Esposo]]", "right": "Esposa" },
-            { "id": "p2", "left": "[[Wife|Esposa]]", "right": "Hombre" },
-            { "id": "p3", "left": "[[Man|Hombre]]", "right": "Mujer" },
-            { "id": "p4", "left": "[[Woman|Mujer]]", "right": "Esposo" }
+            {
+              "id": "p1",
+              "left": "[[Husband|Esposo]]",
+              "right": "Esposa"
+            },
+            {
+              "id": "p2",
+              "left": "[[Wife|Esposa]]",
+              "right": "Hombre"
+            },
+            {
+              "id": "p3",
+              "left": "[[Man|Hombre]]",
+              "right": "Mujer"
+            },
+            {
+              "id": "p4",
+              "left": "[[Woman|Mujer]]",
+              "right": "Esposo"
+            }
           ],
-          "correct_answer": { "p1": "p4", "p2": "p1", "p3": "p2", "p4": "p3" },
+          "correct_answer": {
+            "p1": "p4",
+            "p2": "p1",
+            "p3": "p2",
+            "p4": "p3"
+          },
           "mastery_tag": "vocabulary",
           "complexity": 1
         },
@@ -311,12 +520,33 @@
           "type": "matching",
           "prompt_es": "Une el pronombre con su posesivo:",
           "pairs": [
-            { "id": "p1", "left": "[[I|Yo]]", "right": "Your" },
-            { "id": "p2", "left": "[[You|Tú]]", "right": "Her" },
-            { "id": "p3", "left": "[[He|Él]]", "right": "My" },
-            { "id": "p4", "left": "[[She|Ella]]", "right": "His" }
+            {
+              "id": "p1",
+              "left": "[[I|Yo]]",
+              "right": "Your"
+            },
+            {
+              "id": "p2",
+              "left": "[[You|Tú]]",
+              "right": "Her"
+            },
+            {
+              "id": "p3",
+              "left": "[[He|Él]]",
+              "right": "My"
+            },
+            {
+              "id": "p4",
+              "left": "[[She|Ella]]",
+              "right": "His"
+            }
           ],
-          "correct_answer": { "p1": "p3", "p2": "p1", "p3": "p4", "p4": "p2" },
+          "correct_answer": {
+            "p1": "p3",
+            "p2": "p1",
+            "p3": "p4",
+            "p4": "p2"
+          },
           "mastery_tag": "grammar",
           "complexity": 1
         },
@@ -325,9 +555,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es el posesivo de '[[He|él]]'?",
           "options": [
-            { "id": "o1", "text": "[[Her|Su (ella)]]" },
-            { "id": "o2", "text": "[[His|Su (él)]]" },
-            { "id": "o3", "text": "[[Its|Su (ello)]]" }
+            {
+              "id": "o1",
+              "text": "[[Her|Su (ella)]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[His|Su (él)]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Its|Su (ello)]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "grammar",
@@ -353,15 +592,36 @@
         {
           "interaction_id": "U6_I29",
           "type": "sentence_building",
-          "prompt_es": "Ordena la frase: 'Su hermana tiene diez años.'",
+          "prompt_es": "Ordena la frase: 'Su hermana tiene diez años.' ([[possessive|posesivo]])",
           "words": [
-            { "id": "w1", "text": "[[Her|Su]]" },
-            { "id": "w2", "text": "[[sister|hermana]]" },
-            { "id": "w3", "text": "[[is|tiene]]" },
-            { "id": "w4", "text": "[[ten|diez]]" },
-            { "id": "w5", "text": "[[years old|años]]" }
+            {
+              "id": "w1",
+              "text": "[[Her|Su]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[sister|hermana]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[is|tiene]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[ten|diez]]"
+            },
+            {
+              "id": "w5",
+              "text": "[[years old|años]]"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "syntax",
           "complexity": 2
         },
@@ -379,12 +639,33 @@
           "type": "matching",
           "prompt_es": "Une el pronombre con su posesivo:",
           "pairs": [
-            { "id": "p1", "left": "[[We|Nosotros]]", "right": "Your" },
-            { "id": "p2", "left": "[[They|Ellos]]", "right": "Our" },
-            { "id": "p3", "left": "[[It|Eso]]", "right": "Their" },
-            { "id": "p4", "left": "[[You (plural)|Vosotros]]", "right": "Its" }
+            {
+              "id": "p1",
+              "left": "[[We|Nosotros]]",
+              "right": "Your"
+            },
+            {
+              "id": "p2",
+              "left": "[[They|Ellos]]",
+              "right": "Our"
+            },
+            {
+              "id": "p3",
+              "left": "[[It|Eso]]",
+              "right": "Their"
+            },
+            {
+              "id": "p4",
+              "left": "[[You (plural)|Vosotros]]",
+              "right": "Its"
+            }
           ],
-          "correct_answer": { "p1": "p2", "p2": "p3", "p3": "p4", "p4": "p1" },
+          "correct_answer": {
+            "p1": "p2",
+            "p2": "p3",
+            "p3": "p4",
+            "p4": "p1"
+          },
           "mastery_tag": "grammar",
           "complexity": 2
         },
@@ -411,9 +692,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es el posesivo de '[[We|nosotros]]'?",
           "options": [
-            { "id": "o1", "text": "[[Our|Nuestro]]" },
-            { "id": "o2", "text": "[[Their|Su (ellos)]]" },
-            { "id": "o3", "text": "[[Its|Su (ello)]]" }
+            {
+              "id": "o1",
+              "text": "[[Our|Nuestro]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Their|Su (ellos)]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Its|Su (ello)]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar",
@@ -424,9 +714,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es el posesivo de '[[They|ellos]]'?",
           "options": [
-            { "id": "o1", "text": "[[Our|Nuestro]]" },
-            { "id": "o2", "text": "[[Its|Su (ello)]]" },
-            { "id": "o3", "text": "[[Their|Su (ellos)]]" }
+            {
+              "id": "o1",
+              "text": "[[Our|Nuestro]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Its|Su (ello)]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Their|Su (ellos)]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "grammar",
@@ -435,15 +734,36 @@
         {
           "interaction_id": "U6_I36",
           "type": "sentence_building",
-          "prompt_es": "Ordena la frase: 'Su casa es muy grande.'",
+          "prompt_es": "Ordena la frase: 'Su casa es muy grande.' ([[possessive|posesivo]])",
           "words": [
-            { "id": "w1", "text": "[[house|casa]]" },
-            { "id": "w2", "text": "[[Their|Su]]" },
-            { "id": "w3", "text": "[[is|es]]" },
-            { "id": "w4", "text": "[[very|muy]]" },
-            { "id": "w5", "text": "[[big|grande]]" }
+            {
+              "id": "w1",
+              "text": "[[house|casa]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Their|Su]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[is|es]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[very|muy]]"
+            },
+            {
+              "id": "w5",
+              "text": "[[big|grande]]"
+            }
           ],
-          "correct_answer": ["w2", "w1", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "syntax",
           "complexity": 2
         }
@@ -456,7 +776,7 @@
         {
           "interaction_id": "U6_I37",
           "type": "short_writing",
-          "prompt_es": "Traduce usando el Genitivo Sajón: 'El padre de María es médico.'",
+          "prompt_es": "Traduce usando el Genitivo Sajón: 'El padre de María es médico.' ([[possessive|posesivo]])",
           "stimulus_es": "El padre de María es médico.",
           "correct_answer": "Maria's father is a doctor.",
           "mastery_tag": "grammar",
@@ -476,9 +796,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'el libro de Ana' en [[English|inglés]]?",
           "options": [
-            { "id": "o1", "text": "[[the Ana book|el libro de Ana]]" },
-            { "id": "o2", "text": "[[Ana's book|el libro de Ana]]" },
-            { "id": "o3", "text": "[[book of Ana|libro de Ana]]" }
+            {
+              "id": "o1",
+              "text": "[[the Ana book|el libro de Ana]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Ana's book|el libro de Ana]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[book of Ana|libro de Ana]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "grammar",
@@ -489,9 +818,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la forma correcta del Genitivo Sajón?",
           "options": [
-            { "id": "o1", "text": "[[father's house|la casa del padre]]" },
-            { "id": "o2", "text": "[[fathers house|la casa del padre]]" },
-            { "id": "o3", "text": "[[house's father|la casa del padre]]" }
+            {
+              "id": "o1",
+              "text": "[[father's house|la casa del padre]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[fathers house|la casa del padre]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[house's father|la casa del padre]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar",
@@ -509,14 +847,31 @@
         {
           "interaction_id": "U6_I42",
           "type": "sentence_building",
-          "prompt_es": "Ordena la frase: 'Esta es la hermana de Tom.'",
+          "prompt_es": "Ordena la frase: 'Esta es la hermana de Tom.' ([[possessive|posesivo]])",
           "words": [
-            { "id": "w1", "text": "[[Tom's|de Tom]]" },
-            { "id": "w2", "text": "[[is|es]]" },
-            { "id": "w3", "text": "[[This|Esta]]" },
-            { "id": "w4", "text": "[[sister|hermana]]" }
+            {
+              "id": "w1",
+              "text": "[[Tom's|de Tom]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[is|es]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[This|Esta]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[sister|hermana]]"
+            }
           ],
-          "correct_answer": ["w3", "w2", "w1", "w4"],
+          "correct_answer": [
+            "w3",
+            "w2",
+            "w1",
+            "w4"
+          ],
           "mastery_tag": "syntax",
           "complexity": 2
         },
@@ -525,12 +880,33 @@
           "type": "matching",
           "prompt_es": "Une la expresión en [[English|inglés]] con su equivalente en español:",
           "pairs": [
-            { "id": "p1", "left": "[[Maria's father|El padre de María]]", "right": "El libro de Ana" },
-            { "id": "p2", "left": "[[Tom's sister|La hermana de Tom]]", "right": "El coche de John" },
-            { "id": "p3", "left": "[[Ana's book|El libro de Ana]]", "right": "El padre de María" },
-            { "id": "p4", "left": "[[John's car|El coche de John]]", "right": "La hermana de Tom" }
+            {
+              "id": "p1",
+              "left": "[[Maria's father|El padre de María]]",
+              "right": "El libro de Ana"
+            },
+            {
+              "id": "p2",
+              "left": "[[Tom's sister|La hermana de Tom]]",
+              "right": "El coche de John"
+            },
+            {
+              "id": "p3",
+              "left": "[[Ana's book|El libro de Ana]]",
+              "right": "El padre de María"
+            },
+            {
+              "id": "p4",
+              "left": "[[John's car|El coche de John]]",
+              "right": "La hermana de Tom"
+            }
           ],
-          "correct_answer": { "p1": "p3", "p2": "p4", "p3": "p1", "p4": "p2" },
+          "correct_answer": {
+            "p1": "p3",
+            "p2": "p4",
+            "p3": "p1",
+            "p4": "p2"
+          },
           "mastery_tag": "grammar",
           "complexity": 2
         },
@@ -553,7 +929,7 @@
         {
           "interaction_id": "U6_I46",
           "type": "short_writing",
-          "prompt_es": "Traduce usando el Genitivo Sajón: 'El hermano de Luis.'",
+          "prompt_es": "Traduce usando el Genitivo Sajón: 'El hermano de Luis.' ([[possessive|posesivo]])",
           "stimulus_es": "El hermano de Luis.",
           "correct_answer": "Luis's brother.",
           "mastery_tag": "grammar",
@@ -571,7 +947,7 @@
         {
           "interaction_id": "U6_I48",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'El coche de mi padre es rojo.'",
+          "prompt_es": "Traduce: 'El coche de mi padre es rojo.' ([[possessive|posesivo]])",
           "stimulus_es": "El coche de mi padre es rojo.",
           "correct_answer": "My father's car is red.",
           "mastery_tag": "grammar",
@@ -587,7 +963,7 @@
           "interaction_id": "U6_I49",
           "type": "reading_phase",
           "prompt_es": "[[Read|Lee]] el [[text|texto]] [[carefully|con atención]].",
-          "transcript": "[[My|Mi]] [[name|nombre]] [[is|es]] [[Sofia|Sofía]]. [[I|Yo]] [[have|tengo]] [[a|una]] [[big|grande]] [[family|familia]]. [[My|Mi]] [[father|padre]]'s [[name|nombre]] [[is|es]] [[Carlos|Carlos]] [[and|y]] [[he|él]] [[is|es]] [[a|un]] [[doctor|médico]]. [[My|Mi]] [[mother|madre]]'s [[name|nombre]] [[is|es]] [[Elena|Elena]] [[and|y]] [[she|ella]] [[is|es]] [[a|una]] [[teacher|profesora]]. [[I|Yo]] [[have|tengo]] [[one|un]] [[brother|hermano]] [[and|y]] [[one|una]] [[sister|hermana]]. [[My|Mi]] [[brother|hermano]]'s [[name|nombre]] [[is|es]] [[Luis|Luis]] [[and|y]] [[my|mi]] [[sister|hermana]]'s [[name|nombre]] [[is|es]] [[Ana|Ana]]. [[Our|Nuestros]] [[grandparents|abuelos]] [[live|viven]] [[near|cerca]] [[our|nuestra]] [[house|casa]].",
+          "transcript": "[[My|Mi]] [[name|nombre]] [[is|es]] [[Sofia|Sofía]]. [[I|Yo]] [[have|tengo]] [[a|una]] [[big|grande]] [[family|familia]]. [[My|Mi]] [[father's|padre se llama]] [[name|nombre]] [[is|es]] [[Carlos|Carlos]] [[and|y]] [[he|él]] [[is|es]] [[a|un]] [[doctor|médico]]. [[My|Mi]] [[mother's|madre se llama]] [[name|nombre]] [[is|es]] [[Elena|Elena]] [[and|y]] [[she|ella]] [[is|es]] [[a|una]] [[teacher|profesora]]. [[I|Yo]] [[have|tengo]] [[one|un]] [[brother|hermano]] [[and|y]] [[two|dos]] [[sisters|hermanas]]. [[My|Mi]] [[brother|hermano]] [[Luis|Luis]] [[is|es]] [[fifteen|quince]] [[years|años]]. [[He|Él]] [[loves|adora]] [[playing|jugar al]] [[football|fútbol]]. [[My|Mis]] [[sisters|hermanas]] [[are|se llaman]] [[Marta|Marta]] [[and|y]] [[Rosa|Rosa]]. [[They|Ellas]] [[are|son]] [[twins|gemelas]] — [[they|ellas]] [[are|tienen]] [[ten|diez]] [[years|años]] [[old|de edad]]. [[We|Nosotros]] [[live|vivimos]] [[in|en]] [[a|un]] [[big|grande]] [[house|casa]] [[with|con]] [[a|un]] [[garden|jardín]]. [[On|Los]] [[weekends|fines de semana]], [[we|nosotros]] [[always|siempre]] [[have|tenemos]] [[lunch|almuerzo]] [[together|juntos]]!",
           "mastery_tag": "reading",
           "complexity": 1
         },
@@ -596,9 +972,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se llama el padre de Sofía?",
           "options": [
-            { "id": "o1", "text": "[[Luis|Luis]]" },
-            { "id": "o2", "text": "[[Carlos|Carlos]]" },
-            { "id": "o3", "text": "[[Elena|Elena]]" }
+            {
+              "id": "o1",
+              "text": "[[Luis|Luis]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Carlos|Carlos]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Elena|Elena]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "reading",
@@ -609,9 +994,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la profesión de la madre de Sofía?",
           "options": [
-            { "id": "o1", "text": "[[doctor|médica]]" },
-            { "id": "o2", "text": "[[nurse|enfermera]]" },
-            { "id": "o3", "text": "[[teacher|profesora]]" }
+            {
+              "id": "o1",
+              "text": "[[doctor|médica]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[nurse|enfermera]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[teacher|profesora]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "reading",
@@ -622,9 +1016,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuántos hermanos tiene Sofía?",
           "options": [
-            { "id": "o1", "text": "[[Two sisters|Dos hermanas]]" },
-            { "id": "o2", "text": "[[Two brothers|Dos hermanos]]" },
-            { "id": "o3", "text": "[[One brother and one sister|Un hermano y una hermana]]" }
+            {
+              "id": "o1",
+              "text": "[[Two sisters|Dos hermanas]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Two brothers|Dos hermanos]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[One brother and one sister|Un hermano y una hermana]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "reading",
@@ -678,9 +1081,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Dónde viven los abuelos de Sofía?",
           "options": [
-            { "id": "o1", "text": "[[In another city|En otra ciudad]]" },
-            { "id": "o2", "text": "[[Near their house|Cerca de su casa]]" },
-            { "id": "o3", "text": "[[Far away|Muy lejos]]" }
+            {
+              "id": "o1",
+              "text": "[[In another city|En otra ciudad]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Near their house|Cerca de su casa]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Far away|Muy lejos]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "reading",
@@ -689,7 +1101,7 @@
         {
           "interaction_id": "U6_I59",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'El nombre de mi madre es Elena.'",
+          "prompt_es": "Traduce: 'El nombre de mi madre es Elena.' ([[possessive|posesivo]])",
           "stimulus_es": "El nombre de mi madre es Elena.",
           "correct_answer": "My mother's name is Elena.",
           "mastery_tag": "reading",
@@ -698,17 +1110,122 @@
         {
           "interaction_id": "U6_I60",
           "type": "sentence_building",
-          "prompt_es": "Ordena la frase: 'El coche de mi padre es rojo.'",
+          "prompt_es": "Ordena la frase: 'El coche de mi padre es rojo.' ([[possessive|posesivo]])",
           "words": [
-            { "id": "w1", "text": "[[car|coche]]" },
-            { "id": "w2", "text": "[[My|Mi]]" },
-            { "id": "w3", "text": "[[is|es]]" },
-            { "id": "w4", "text": "[[father's|del padre]]" },
-            { "id": "w5", "text": "[[red|rojo]]" }
+            {
+              "id": "w1",
+              "text": "[[car|coche]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[My|Mi]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[is|es]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[father's|del padre]]"
+            },
+            {
+              "id": "w5",
+              "text": "[[red|rojo]]"
+            }
           ],
-          "correct_answer": ["w2", "w4", "w1", "w3", "w5"],
+          "correct_answer": [
+            "w2",
+            "w4",
+            "w1",
+            "w3",
+            "w5"
+          ],
           "mastery_tag": "syntax",
           "complexity": 2
+        }
+      ]
+    },
+    {
+      "block_id": "B6_PROD",
+      "title": "Block 6: Production – My Family",
+      "content": [
+        {
+          "interaction_id": "A1_U6_B6_PROD_SW1",
+          "type": "short_writing",
+          "prompt_es": "Describe tu familia (real o imaginaria). Escribe 3 oraciones usando [[My|Mi]], [[His/Her|Su]] y [['s|de (posesivo)]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "concept_tags": [
+            "production",
+            "free_writing"
+          ],
+          "example_answer": "My father's name is Carlos. My sister is twelve years old. My mother's job is nurse."
+        },
+        {
+          "interaction_id": "A1_U6_B6_PROD_SW2",
+          "type": "short_writing",
+          "prompt_es": "Escribe una oración para cada miembro: [[father|padre]], [[mother|madre]], [[brother|hermano]], [[sister|hermana]]. Usa el genitivo sajón.",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "concept_tags": [
+            "production",
+            "free_writing"
+          ],
+          "example_answer": "My father's car is red. My mother's job is teaching. My brother's school is near. My sister's friend is Ana."
+        },
+        {
+          "interaction_id": "A1_U6_B6_PROD_SW3",
+          "type": "short_writing",
+          "prompt_es": "Describe una foto de familia imaginaria usando [[tall|alto/a]], [[young|joven]], [[old|mayor]], [[short|bajo/a]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "concept_tags": [
+            "production",
+            "free_writing"
+          ],
+          "example_answer": "In the photo, my grandfather is tall and old. My little sister is short and young. My parents are in the middle."
+        },
+        {
+          "interaction_id": "A1_U6_B6_PROD_MC4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma correcta del genitivo sajón para \"el coche de mi padre\"?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[My father's car|El coche de mi padre]]"
+            },
+            {
+              "id": "o2",
+              "text": "My father car"
+            },
+            {
+              "id": "o3",
+              "text": "The car of father my"
+            },
+            {
+              "id": "o4",
+              "text": "My fathers car"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "saxon_genitive"
+          ]
+        },
+        {
+          "interaction_id": "A1_U6_B6_PROD_FB5",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: \"[[This|Este]] is [[Anna|Anna]]. [[She|Ella]] is my sister. [[Anna's|De Anna]] [[mother|madre]] is a [[teacher|profesora]].\"",
+          "stimulus_en": "This is Anna. She is my ___. Anna's ___ is a teacher.",
+          "correct_answer": "sister / mother",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "saxon_genitive",
+            "family"
+          ]
         }
       ]
     }

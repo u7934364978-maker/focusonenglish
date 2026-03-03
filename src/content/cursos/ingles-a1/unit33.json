@@ -85,7 +85,7 @@
         {
           "interaction_id": "A1_U33_B33_1_I3",
           "type": "fill_blanks",
-          "prompt_es": "Completa con el adverbio que significa '0%':",
+          "prompt_es": "Completa con el adverbio que significa '0%': ([[always|siempre]])",
           "stimulus_en": "I ________ eat meat. I am a vegetarian.",
           "correct_answer": "never",
           "mastery_tag": "vocabulary",
@@ -98,7 +98,7 @@
         {
           "interaction_id": "A1_U33_B33_1_I4",
           "type": "categorization",
-          "prompt_es": "Ordena de mayor a menor frecuencia:",
+          "prompt_es": "Ordena de mayor a menor frecuencia: ([[always|siempre]])",
           "categories": [
             {
               "id": "c1",
@@ -128,7 +128,7 @@
         {
           "interaction_id": "A1_U33_B33_1_I5",
           "type": "flashcard",
-          "prompt_es": "Memoriza:",
+          "prompt_es": "Memoriza: ([[often|a menudo]])",
           "stimulus_en": "[[Often|a menudo]]",
           "correct_answer": "A menudo",
           "mastery_tag": "vocabulary",
@@ -147,7 +147,7 @@
         {
           "interaction_id": "A1_U33_B33_2_I4",
           "type": "fill_blanks",
-          "prompt_es": "Completa el orden (sujeto + adverbio + verbo):",
+          "prompt_es": "Completa el orden (sujeto + adverbio + verbo): ([[usually|normalmente]])",
           "stimulus_en": "We ________ ________ ([[usually|normalmente]] / walk) to school.",
           "correct_answer": "usually walk",
           "mastery_tag": "grammar",
@@ -160,7 +160,7 @@
         {
           "interaction_id": "A1_U33_B33_2_I5",
           "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcto? 'I am never late.'",
+          "prompt_es": "¿Es gramaticalmente correcto? 'I am never late.' ([[never|nunca]])",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "complexity": 1,
@@ -211,7 +211,7 @@
         {
           "interaction_id": "A1_U33_B33_3_I3",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo respondes a 'How often do you go to the gym?'?",
+          "prompt_es": "¿Cómo respondes a 'How often do you go to the gym?'? ([[often|a menudo]])",
           "options": [
             {
               "id": "o1",
@@ -237,7 +237,7 @@
         {
           "interaction_id": "A1_U33_B33_3_I4",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Dos veces al año.'",
+          "prompt_es": "Traduce: 'Dos veces al año.' ([[always|siempre]])",
           "stimulus_es": "Dos veces al año.",
           "correct_answer": "Twice a year",
           "mastery_tag": "vocabulary",
@@ -250,7 +250,7 @@
         {
           "interaction_id": "A1_U33_B33_3_I5",
           "type": "fill_blanks",
-          "prompt_es": "Completa la pregunta:",
+          "prompt_es": "Completa la pregunta: ([[always|siempre]])",
           "stimulus_en": "________ ________ does he call you?",
           "correct_answer": "How often",
           "mastery_tag": "grammar",
@@ -275,7 +275,7 @@
         {
           "interaction_id": "A1_U33_B33_4_I4",
           "type": "short_writing",
-          "prompt_es": "Basado en el texto, ¿con qué frecuencia va al gimnasio?",
+          "prompt_es": "Basado en el texto, ¿con qué frecuencia va al gimnasio? ([[sometimes|a veces]])",
           "stimulus_es": "Tres veces por semana",
           "correct_answer": "Three times a week",
           "mastery_tag": "reading",
@@ -289,7 +289,7 @@
         {
           "interaction_id": "A1_U33_B33_4_I5",
           "type": "true_false",
-          "prompt_es": "¿Anna va al gimnasio todos los días?",
+          "prompt_es": "¿Anna va al gimnasio todos los días? ([[sometimes|a veces]])",
           "correct_answer": false,
           "mastery_tag": "reading",
           "complexity": 1,
@@ -311,18 +311,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Always"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Never"
             },
             {
               "id": "o3",
-              "text": "[[Always|siempre]]"
+              "text": "Sometimes"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[always|siempre]]|[[always|siempre]]]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -332,15 +336,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Sometimes|a veces]]"
+              "text": "[[[[sometimes|a veces]]|[[sometimes|a veces]]]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Sometimes"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Always"
+            },
+            {
+              "id": "o4",
+              "text": "Often"
             }
           ],
           "correct_answer": "o1",
@@ -353,18 +361,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Usually"
             },
             {
               "id": "o2",
-              "text": "[[Never|nunca]]"
+              "text": "Always"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Never"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[never|nunca]]|[[never|nunca]]]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -374,18 +386,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Sometimes"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Never"
             },
             {
               "id": "o3",
-              "text": "[[Often|a menudo]]"
+              "text": "Rarely"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[often|a menudo]]|[[often|a menudo]]]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -395,15 +411,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Usually|normalmente]]"
+              "text": "[[[[usually|normalmente]]|[[usually|normalmente]]]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Always"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Usually"
+            },
+            {
+              "id": "o4",
+              "text": "Often"
             }
           ],
           "correct_answer": "o1",
@@ -416,15 +436,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Usually"
             },
             {
               "id": "o2",
-              "text": "Seldom"
+              "text": "[[Seldom|seldom]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Often"
+            },
+            {
+              "id": "o4",
+              "text": "Rarely"
             }
           ],
           "correct_answer": "o2",
@@ -437,15 +461,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Never"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Often"
             },
             {
               "id": "o3",
-              "text": "[[Rarely|raramente]]"
+              "text": "[[[[rarely|raramente]]|[[rarely|raramente]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Rarely"
             }
           ],
           "correct_answer": "o3",
@@ -458,18 +486,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Always|siempre]]"
+              "text": "Rarely"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Never"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[[[always|siempre]]|[[always|siempre]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Sometimes"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -479,18 +511,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Always"
             },
             {
               "id": "o2",
-              "text": "[[Sometimes|a veces]]"
+              "text": "Rarely"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[[[sometimes|a veces]]|[[sometimes|a veces]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Usually"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -500,18 +536,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Always"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "[[[[never|nunca]]|[[never|nunca]]]]"
             },
             {
               "id": "o3",
-              "text": "[[Never|nunca]]"
+              "text": "Never"
+            },
+            {
+              "id": "o4",
+              "text": "Usually"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -521,18 +561,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Often|a menudo]]"
+              "text": "Usually"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[[[often|a menudo]]|[[often|a menudo]]]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Rarely"
+            },
+            {
+              "id": "o4",
+              "text": "Sometimes"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -542,18 +586,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[usually|normalmente]]|[[usually|normalmente]]]]"
             },
             {
               "id": "o2",
-              "text": "[[Usually|normalmente]]"
+              "text": "Always"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Often"
+            },
+            {
+              "id": "o4",
+              "text": "Usually"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -563,18 +611,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Seldom|seldom]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Never"
             },
             {
               "id": "o3",
-              "text": "Seldom"
+              "text": "Rarely"
+            },
+            {
+              "id": "o4",
+              "text": "Sometimes"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -584,18 +636,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Rarely|raramente]]"
+              "text": "Never"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[[[rarely|raramente]]|[[rarely|raramente]]]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Often"
+            },
+            {
+              "id": "o4",
+              "text": "Usually"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -605,18 +661,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Never"
             },
             {
               "id": "o2",
-              "text": "[[Always|siempre]]"
+              "text": "Usually"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[[[always|siempre]]|[[always|siempre]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Often"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -626,18 +686,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Usually"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Always"
             },
             {
               "id": "o3",
-              "text": "[[Sometimes|a veces]]"
+              "text": "Never"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[sometimes|a veces]]|[[sometimes|a veces]]]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -647,18 +711,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Never|nunca]]"
+              "text": "Always"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Sometimes"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Never"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[never|nunca]]|[[never|nunca]]]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -668,18 +736,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Rarely"
             },
             {
               "id": "o2",
-              "text": "[[Often|a menudo]]"
+              "text": "Always"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[[[often|a menudo]]|[[often|a menudo]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Sometimes"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -689,18 +761,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[usually|normalmente]]|[[usually|normalmente]]]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Usually"
             },
             {
               "id": "o3",
-              "text": "[[Usually|normalmente]]"
+              "text": "Rarely"
+            },
+            {
+              "id": "o4",
+              "text": "Often"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -710,18 +786,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Seldom"
+              "text": "Never"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Seldom|seldom]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Usually"
+            },
+            {
+              "id": "o4",
+              "text": "Always"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -731,18 +811,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[rarely|raramente]]|[[rarely|raramente]]]]"
             },
             {
               "id": "o2",
-              "text": "[[Rarely|raramente]]"
+              "text": "Never"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Often"
+            },
+            {
+              "id": "o4",
+              "text": "Always"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -752,18 +836,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[always|siempre]]|[[always|siempre]]]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Usually"
             },
             {
               "id": "o3",
-              "text": "[[Always|siempre]]"
+              "text": "Sometimes"
+            },
+            {
+              "id": "o4",
+              "text": "Never"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -773,18 +861,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Sometimes|a veces]]"
+              "text": "Usually"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[[[sometimes|a veces]]|[[sometimes|a veces]]]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Rarely"
+            },
+            {
+              "id": "o4",
+              "text": "Always"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -794,18 +886,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[never|nunca]]|[[never|nunca]]]]"
             },
             {
               "id": "o2",
-              "text": "[[Never|nunca]]"
+              "text": "Often"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Never"
+            },
+            {
+              "id": "o4",
+              "text": "Always"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -815,15 +911,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Usually"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Always"
             },
             {
               "id": "o3",
-              "text": "[[Often|a menudo]]"
+              "text": "[[[[often|a menudo]]|[[often|a menudo]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Often"
             }
           ],
           "correct_answer": "o3",
@@ -836,18 +936,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Usually|normalmente]]"
+              "text": "Always"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Sometimes"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Usually"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[usually|normalmente]]|[[usually|normalmente]]]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -857,18 +961,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Often"
             },
             {
               "id": "o2",
-              "text": "Seldom"
+              "text": "Never"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Rarely"
+            },
+            {
+              "id": "o4",
+              "text": "[[Seldom|seldom]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -878,18 +986,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[rarely|raramente]]|[[rarely|raramente]]]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Usually"
             },
             {
               "id": "o3",
-              "text": "[[Rarely|raramente]]"
+              "text": "Never"
+            },
+            {
+              "id": "o4",
+              "text": "Always"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -899,15 +1011,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Always|siempre]]"
+              "text": "[[[[always|siempre]]|[[always|siempre]]]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Never"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Rarely"
+            },
+            {
+              "id": "o4",
+              "text": "Usually"
             }
           ],
           "correct_answer": "o1",
@@ -920,18 +1036,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Often"
             },
             {
               "id": "o2",
-              "text": "[[Sometimes|a veces]]"
+              "text": "Never"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[[[sometimes|a veces]]|[[sometimes|a veces]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Rarely"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -941,18 +1061,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[never|nunca]]|[[never|nunca]]]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Rarely"
             },
             {
               "id": "o3",
-              "text": "[[Never|nunca]]"
+              "text": "Sometimes"
+            },
+            {
+              "id": "o4",
+              "text": "Usually"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -962,18 +1086,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Often|a menudo]]"
+              "text": "Often"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Always"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[[[often|a menudo]]|[[often|a menudo]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Rarely"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -983,18 +1111,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[usually|normalmente]]|[[usually|normalmente]]]]"
             },
             {
               "id": "o2",
-              "text": "[[Usually|normalmente]]"
+              "text": "Always"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Never"
+            },
+            {
+              "id": "o4",
+              "text": "Often"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1004,15 +1136,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Rarely"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Usually"
             },
             {
               "id": "o3",
-              "text": "Seldom"
+              "text": "[[Seldom|seldom]]"
+            },
+            {
+              "id": "o4",
+              "text": "Never"
             }
           ],
           "correct_answer": "o3",
@@ -1025,15 +1161,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Rarely|raramente]]"
+              "text": "[[[[rarely|raramente]]|[[rarely|raramente]]]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Sometimes"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Always"
+            },
+            {
+              "id": "o4",
+              "text": "Usually"
             }
           ],
           "correct_answer": "o1",
@@ -1046,18 +1186,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[always|siempre]]|[[always|siempre]]]]"
             },
             {
               "id": "o2",
-              "text": "[[Always|siempre]]"
+              "text": "Never"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Often"
+            },
+            {
+              "id": "o4",
+              "text": "Always"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1067,15 +1211,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Sometimes"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Always"
             },
             {
               "id": "o3",
-              "text": "[[Sometimes|a veces]]"
+              "text": "[[[[sometimes|a veces]]|[[sometimes|a veces]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Usually"
             }
           ],
           "correct_answer": "o3",
@@ -1088,18 +1236,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Never|nunca]]"
+              "text": "Always"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[[[never|nunca]]|[[never|nunca]]]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Usually"
+            },
+            {
+              "id": "o4",
+              "text": "Never"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1109,18 +1261,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Never"
             },
             {
               "id": "o2",
-              "text": "[[Often|a menudo]]"
+              "text": "Always"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Sometimes"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[often|a menudo]]|[[often|a menudo]]]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1130,18 +1286,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Sometimes"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Never"
             },
             {
               "id": "o3",
-              "text": "[[Usually|normalmente]]"
+              "text": "Usually"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[usually|normalmente]]|[[usually|normalmente]]]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1151,15 +1311,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Seldom"
+              "text": "[[Seldom|seldom]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Rarely"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Always"
+            },
+            {
+              "id": "o4",
+              "text": "Often"
             }
           ],
           "correct_answer": "o1",
@@ -1172,18 +1336,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Rarely"
             },
             {
               "id": "o2",
-              "text": "[[Rarely|raramente]]"
+              "text": "Never"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Always"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[rarely|raramente]]|[[rarely|raramente]]]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1193,18 +1361,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Rarely"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Often"
             },
             {
               "id": "o3",
-              "text": "[[Always|siempre]]"
+              "text": "Always"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[always|siempre]]|[[always|siempre]]]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1214,15 +1386,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Sometimes|a veces]]"
+              "text": "[[[[sometimes|a veces]]|[[sometimes|a veces]]]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Sometimes"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Usually"
+            },
+            {
+              "id": "o4",
+              "text": "Never"
             }
           ],
           "correct_answer": "o1",
@@ -1235,18 +1411,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Sometimes"
             },
             {
               "id": "o2",
-              "text": "[[Never|nunca]]"
+              "text": "Usually"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[[[never|nunca]]|[[never|nunca]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Rarely"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1256,18 +1436,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[often|a menudo]]|[[often|a menudo]]]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Sometimes"
             },
             {
               "id": "o3",
-              "text": "[[Often|a menudo]]"
+              "text": "Often"
+            },
+            {
+              "id": "o4",
+              "text": "Never"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1277,18 +1461,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Usually|normalmente]]"
+              "text": "Often"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Rarely"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[[[usually|normalmente]]|[[usually|normalmente]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Sometimes"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         }
       ]
@@ -1300,7 +1488,7 @@
         {
           "interaction_id": "U33_L5_I1",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[always|siempre]])",
           "audio_url": "/audio/courses/ingles-a1/unit33/lesson5-task-1.mp3",
           "transcript_template": "The [[always|]] is here.",
           "correct_answer": "always",
@@ -1314,7 +1502,7 @@
         {
           "interaction_id": "U33_L5_I2",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[always|siempre]])",
           "audio_url": "/audio/courses/ingles-a1/unit33/lesson5-task-2.mp3",
           "transcript_template": "The [[sometimes|]] is here.",
           "correct_answer": "sometimes",
@@ -1328,7 +1516,7 @@
         {
           "interaction_id": "U33_L5_I3",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[always|siempre]])",
           "audio_url": "/audio/courses/ingles-a1/unit33/lesson5-task-3.mp3",
           "transcript_template": "The [[never|]] is here.",
           "correct_answer": "never",
@@ -1342,7 +1530,7 @@
         {
           "interaction_id": "U33_L5_I4",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[always|siempre]])",
           "audio_url": "/audio/courses/ingles-a1/unit33/lesson5-task-4.mp3",
           "transcript_template": "The [[often|]] is here.",
           "correct_answer": "often",
@@ -1356,7 +1544,7 @@
         {
           "interaction_id": "U33_L5_I5",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[always|siempre]])",
           "audio_url": "/audio/courses/ingles-a1/unit33/lesson5-task-5.mp3",
           "transcript_template": "The [[usually|]] is here.",
           "correct_answer": "usually",
@@ -1370,7 +1558,7 @@
         {
           "interaction_id": "U33_L5_I6",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[always|siempre]])",
           "audio_url": "/audio/courses/ingles-a1/unit33/lesson5-task-6.mp3",
           "transcript_template": "The [[seldom|]] is here.",
           "correct_answer": "seldom",
@@ -1384,7 +1572,7 @@
         {
           "interaction_id": "U33_L5_I7",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[always|siempre]])",
           "audio_url": "/audio/courses/ingles-a1/unit33/lesson5-task-7.mp3",
           "transcript_template": "The [[rarely|]] is here.",
           "correct_answer": "rarely",
@@ -1398,7 +1586,7 @@
         {
           "interaction_id": "U33_L5_I8",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[always|siempre]])",
           "title": "Pronunciación: Adverbs of Frequency",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1437,7 +1625,7 @@
         {
           "interaction_id": "U33_L5_I9",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[always|siempre]])",
           "title": "Pronunciación: Adverbs of Frequency",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1476,7 +1664,7 @@
         {
           "interaction_id": "U33_L5_I10",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[always|siempre]])",
           "title": "Pronunciación: Adverbs of Frequency",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1515,7 +1703,7 @@
         {
           "interaction_id": "U33_L5_I11",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[always|siempre]])",
           "title": "Pronunciación: Adverbs of Frequency",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1554,7 +1742,7 @@
         {
           "interaction_id": "U33_L5_I12",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[always|siempre]])",
           "title": "Pronunciación: Adverbs of Frequency",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1593,7 +1781,7 @@
         {
           "interaction_id": "U33_L5_I13",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[always|siempre]])",
           "title": "Pronunciación: Adverbs of Frequency",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1632,7 +1820,7 @@
         {
           "interaction_id": "U33_L5_I14",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[always|siempre]])",
           "title": "Pronunciación: Adverbs of Frequency",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1671,7 +1859,7 @@
         {
           "interaction_id": "U33_L5_I15",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[always|siempre]])",
           "title": "Pronunciación: Adverbs of Frequency",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [

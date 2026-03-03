@@ -64,14 +64,14 @@
             },
             {
               "id": "o2",
-              "text": "Cocina"
+              "text": "Dormitorio"
             },
             {
               "id": "o3",
-              "text": "Dormitorio"
+              "text": "Cocina"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary",
           "complexity": 1
         },
@@ -217,7 +217,7 @@
         {
           "interaction_id": "U21_I10",
           "type": "sentence_building",
-          "prompt_es": "Forma la frase: 'La cocina es pequeña.'",
+          "prompt_es": "Forma la frase: 'La cocina es pequeña.' ([[clothes|ropa]])",
           "words": [
             {
               "id": "w1",
@@ -340,18 +340,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Yes, there are|Sí, hay (plural — incorrecto)]]"
+              "text": "[[Yes, there is|Sí, lo hay]]"
             },
             {
               "id": "o2",
-              "text": "[[Yes, there is|Sí, lo hay]]"
+              "text": "[[Yes, there are|Sí, hay (plural — incorrecto)]]"
             },
             {
               "id": "o3",
               "text": "[[Yes, it is|Sí, es (incorrecto)]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "grammar",
           "complexity": 2
         },
@@ -366,7 +366,7 @@
         {
           "interaction_id": "U21_I18",
           "type": "sentence_building",
-          "prompt_es": "Forma la frase: 'Hay dos baños en mi casa.'",
+          "prompt_es": "Forma la frase: 'Hay dos baños en mi casa.' ([[clothes|ropa]])",
           "words": [
             {
               "id": "w1",
@@ -571,7 +571,7 @@
         {
           "interaction_id": "U21_I26",
           "type": "sentence_building",
-          "prompt_es": "Forma la frase: 'El baño es pequeño pero acogedor.'",
+          "prompt_es": "Forma la frase: 'El baño es pequeño pero acogedor.' ([[clothes|ropa]])",
           "words": [
             {
               "id": "w1",
@@ -816,7 +816,7 @@
         {
           "interaction_id": "U21_I37",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'They are ___ home right now.' (en casa)",
+          "prompt_es": "Completa: 'They are ___ home right now.' (en casa) ([[clothes|ropa]])",
           "correct_answer": "at",
           "mastery_tag": "grammar",
           "complexity": 2
@@ -846,7 +846,7 @@
         {
           "interaction_id": "U21_I39",
           "type": "sentence_building",
-          "prompt_es": "Forma: 'El gato está encima de la cama.'",
+          "prompt_es": "Forma: 'El gato está encima de la cama.' ([[clothes|ropa]])",
           "words": [
             {
               "id": "w1",
@@ -989,7 +989,7 @@
         {
           "interaction_id": "U21_I44",
           "type": "multiple_choice",
-          "prompt_es": "¿Por qué le gusta el salón a Clara?",
+          "prompt_es": "¿Por qué le gusta el salón a Clara? ([[clothes|ropa]])",
           "options": [
             {
               "id": "o1",
@@ -1011,7 +1011,7 @@
         {
           "interaction_id": "U21_I45",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué hay en el dormitorio de Clara?",
+          "prompt_es": "¿Qué hay en el dormitorio de Clara? ([[clothes|ropa]])",
           "options": [
             {
               "id": "o1",
@@ -1063,7 +1063,7 @@
         {
           "interaction_id": "U21_I48",
           "type": "sentence_building",
-          "prompt_es": "Forma: '¿Hay un balcón en tu piso?'",
+          "prompt_es": "Forma: '¿Hay un balcón en tu piso?' ([[clothes|ropa]])",
           "words": [
             {
               "id": "w1",
@@ -1109,7 +1109,7 @@
         {
           "interaction_id": "U21_I49",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué hay en el salón de Clara?",
+          "prompt_es": "¿Qué hay en el salón de Clara? ([[clothes|ropa]])",
           "options": [
             {
               "id": "o1",
@@ -1131,10 +1131,342 @@
         {
           "interaction_id": "U21_I50",
           "type": "fill_blanks",
-          "prompt_es": "Completa según el texto: 'My favourite room is the ___ because it is bright and cozy.'",
+          "prompt_es": "Completa según el texto: 'My favourite room is the ___ because it is bright and cozy.' ([[room|habitación]])",
           "correct_answer": "living room",
           "mastery_tag": "reading",
           "complexity": 2
+        }
+      ]
+    },
+    {
+      "block_id": "B21_REC",
+      "title": "Block 6: Recycling – Vocabulary from Units 11-20",
+      "content": [
+        {
+          "interaction_id": "A1_U21_B21_REC_MC1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la hora correcta para \"[[quarter past three|las tres y cuarto]]\"?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "3:15"
+            },
+            {
+              "id": "o2",
+              "text": "3:45"
+            },
+            {
+              "id": "o3",
+              "text": "3:30"
+            },
+            {
+              "id": "o4",
+              "text": "3:05"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "time"
+          ]
+        },
+        {
+          "interaction_id": "A1_U21_B21_REC_MC2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué día sigue al [[Wednesday|miércoles]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Thursday|Jueves]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Tuesday|Martes]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Friday|Viernes]]"
+            },
+            {
+              "id": "o4",
+              "text": "[[Monday|Lunes]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "days"
+          ]
+        },
+        {
+          "interaction_id": "A1_U21_B21_REC_FB3",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la forma correcta: \"He ___ (go) to work by [[bus|autobús]] every [[day|día]].\"",
+          "stimulus_en": "He ___ to work by bus every day.",
+          "correct_answer": "goes",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "present_simple"
+          ]
+        },
+        {
+          "interaction_id": "A1_U21_B21_REC_MC4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál de estos alimentos es una [[vegetable|verdura]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Carrot|Zanahoria]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Apple|Manzana]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Steak|Filete]]"
+            },
+            {
+              "id": "o4",
+              "text": "[[Bread|Pan]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "food"
+          ]
+        },
+        {
+          "interaction_id": "A1_U21_B21_REC_MC5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la pregunta para pedir el [[price|precio]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[How much is it?|¿Cuánto cuesta?]]"
+            },
+            {
+              "id": "o2",
+              "text": "Where is it?"
+            },
+            {
+              "id": "o3",
+              "text": "What is it?"
+            },
+            {
+              "id": "o4",
+              "text": "Who has it?"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "shopping"
+          ]
+        },
+        {
+          "interaction_id": "A1_U21_B21_REC_SW6",
+          "type": "short_writing",
+          "prompt_es": "Escribe 3 oraciones sobre lo que comes y bebes normalmente. Usa [[I eat|como]], [[I drink|bebo]], [[I don't eat|no como]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "concept_tags": [
+            "production",
+            "free_writing"
+          ],
+          "example_answer": "I eat rice and vegetables every day. I drink water and orange juice. I don't eat meat."
+        },
+        {
+          "interaction_id": "A1_U21_B21_REC_SW7",
+          "type": "short_writing",
+          "prompt_es": "Describe tu horario escolar o laboral de esta semana. Usa [[On Monday|El lunes]], [[From...to|De...a]], [[At|A las]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "concept_tags": [
+            "production",
+            "free_writing"
+          ],
+          "example_answer": "On Monday I have English class from nine to eleven. On Wednesday I work from two to six. On Friday I finish at four o'clock."
+        }
+      ]
+    },
+    {
+      "block_id": "B21_EX",
+      "title": "Block 7: Extra Practice – Vocabulary from Units 11-20",
+      "content": [
+        {
+          "interaction_id": "A1_U21_B21_EX_MC1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma correcta de [[Present Simple|Presente Simple]] para \"[[they|ellos]]\"?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[They work|Ellos trabajan]]"
+            },
+            {
+              "id": "o2",
+              "text": "They works"
+            },
+            {
+              "id": "o3",
+              "text": "They is work"
+            },
+            {
+              "id": "o4",
+              "text": "They working"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "present_simple"
+          ]
+        },
+        {
+          "interaction_id": "A1_U21_B21_EX_MC2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué expresión usas para [[giving directions|dar indicaciones]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Turn left|Gira a la izquierda]]"
+            },
+            {
+              "id": "o2",
+              "text": "Is here"
+            },
+            {
+              "id": "o3",
+              "text": "Go the left"
+            },
+            {
+              "id": "o4",
+              "text": "Left you turn"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "directions"
+          ]
+        },
+        {
+          "interaction_id": "A1_U21_B21_EX_FB3",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: \"[[The bank|El banco]] is ___ [[the|la]] [[corner|esquina]].\"",
+          "stimulus_en": "The bank is ___ the corner.",
+          "correct_answer": "on",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "prepositions"
+          ]
+        },
+        {
+          "interaction_id": "A1_U21_B21_EX_MC4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál significa \"[[straight ahead|todo recto]]\"?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Go straight ahead|Sigue recto]]"
+            },
+            {
+              "id": "o2",
+              "text": "Turn left"
+            },
+            {
+              "id": "o3",
+              "text": "Turn right"
+            },
+            {
+              "id": "o4",
+              "text": "Go back"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "directions"
+          ]
+        },
+        {
+          "interaction_id": "A1_U21_B21_EX_RO5",
+          "type": "reorder_words",
+          "prompt_es": "Ordena para pedir [[directions|indicaciones]]:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "the"
+            },
+            {
+              "id": "w2",
+              "text": "Where"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "station?"
+            },
+            {
+              "id": "w5",
+              "text": "[[train|tren]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3",
+            "w5",
+            "w4"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
+        },
+        {
+          "interaction_id": "A1_U21_B21_EX_MC6",
+          "type": "multiple_choice",
+          "prompt_es": "Para decir \"[[next to|al lado de]]\" usas:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[next to|al lado de]]"
+            },
+            {
+              "id": "o2",
+              "text": "in front"
+            },
+            {
+              "id": "o3",
+              "text": "behind of"
+            },
+            {
+              "id": "o4",
+              "text": "near of"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "prepositions"
+          ]
         }
       ]
     }

@@ -24,12 +24,33 @@
           "type": "matching",
           "prompt_es": "Une la profesión con su traducción:",
           "pairs": [
-            { "id": "p0", "left": "[[Teacher|Profesor/a]]", "right": "Médico/a" },
-            { "id": "p1", "left": "[[Doctor|Médico/a]]", "right": "Cocinero/a" },
-            { "id": "p2", "left": "[[Chef|Cocinero/a]]", "right": "Enfermero/a" },
-            { "id": "p3", "left": "[[Nurse|Enfermero/a]]", "right": "Profesor/a" }
+            {
+              "id": "p0",
+              "left": "[[Teacher|Profesor/a]]",
+              "right": "Médico/a"
+            },
+            {
+              "id": "p1",
+              "left": "[[Doctor|Médico/a]]",
+              "right": "Cocinero/a"
+            },
+            {
+              "id": "p2",
+              "left": "[[Chef|Cocinero/a]]",
+              "right": "Enfermero/a"
+            },
+            {
+              "id": "p3",
+              "left": "[[Nurse|Enfermero/a]]",
+              "right": "Profesor/a"
+            }
           ],
-          "correct_answer": { "p0": "p3", "p1": "p0", "p2": "p1", "p3": "p2" },
+          "correct_answer": {
+            "p0": "p3",
+            "p1": "p0",
+            "p2": "p1",
+            "p3": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -37,9 +58,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué artículo se usa antes de 'engineer'?",
           "options": [
-            { "id": "o1", "text": "[[a engineer|a engineer]]" },
-            { "id": "o2", "text": "[[an engineer|un ingeniero/a]]" },
-            { "id": "o3", "text": "[[the engineer|el ingeniero/a]]" }
+            {
+              "id": "o1",
+              "text": "[[a engineer|a engineer]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[an engineer|un ingeniero/a]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[the engineer|el ingeniero/a]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "grammar"
@@ -47,7 +77,7 @@
         {
           "interaction_id": "U9_I3",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta de 'to be':",
+          "prompt_es": "Completa con la forma correcta de 'to be': ([[like|gustar]])",
           "stimulus_en": "She ________ a doctor.",
           "correct_answer": "is",
           "mastery_tag": "grammar"
@@ -62,21 +92,38 @@
         {
           "interaction_id": "U9_I5",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés: 'Bombero/a'",
+          "prompt_es": "Traduce al inglés: 'Bombero/a' ([[like|gustar]])",
           "correct_answer": "Firefighter",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U9_I6",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[like|gustar]])",
           "options": [
-            { "id": "w0", "text": "She" },
-            { "id": "w1", "text": "is" },
-            { "id": "w2", "text": "a" },
-            { "id": "w3", "text": "nurse." }
+            {
+              "id": "w0",
+              "text": "She"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "nurse."
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -84,12 +131,33 @@
           "type": "matching",
           "prompt_es": "Une la profesión con su traducción:",
           "pairs": [
-            { "id": "p0", "left": "[[Engineer|Ingeniero/a]]", "right": "Abogado/a" },
-            { "id": "p1", "left": "[[Lawyer|Abogado/a]]", "right": "Conductor/a" },
-            { "id": "p2", "left": "[[Driver|Conductor/a]]", "right": "Ingeniero/a" },
-            { "id": "p3", "left": "[[Architect|Arquitecto/a]]", "right": "Arquitecto/a" }
+            {
+              "id": "p0",
+              "left": "[[Engineer|Ingeniero/a]]",
+              "right": "Abogado/a"
+            },
+            {
+              "id": "p1",
+              "left": "[[Lawyer|Abogado/a]]",
+              "right": "Conductor/a"
+            },
+            {
+              "id": "p2",
+              "left": "[[Driver|Conductor/a]]",
+              "right": "Ingeniero/a"
+            },
+            {
+              "id": "p3",
+              "left": "[[Architect|Arquitecto/a]]",
+              "right": "Arquitecto/a"
+            }
           ],
-          "correct_answer": { "p0": "p2", "p1": "p0", "p2": "p1", "p3": "p3" },
+          "correct_answer": {
+            "p0": "p2",
+            "p1": "p0",
+            "p2": "p1",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -97,9 +165,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Cocinero/a' en inglés?",
           "options": [
-            { "id": "o1", "text": "[[Cooker|Cocina]]" },
-            { "id": "o2", "text": "[[Kitchen|Cocina]]" },
-            { "id": "o3", "text": "[[Chef|Cocinero/a]]" }
+            {
+              "id": "o1",
+              "text": "[[Cooker|Cocina]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Kitchen|Cocina]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Chef|Cocinero/a]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -107,7 +184,7 @@
         {
           "interaction_id": "U9_I9",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta de 'to be':",
+          "prompt_es": "Completa con la forma correcta de 'to be': ([[like|gustar]])",
           "stimulus_en": "They ________ police officers.",
           "correct_answer": "are",
           "mastery_tag": "grammar"
@@ -115,20 +192,37 @@
         {
           "interaction_id": "U9_I10",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[like|gustar]])",
           "options": [
-            { "id": "w0", "text": "He" },
-            { "id": "w1", "text": "is" },
-            { "id": "w2", "text": "an" },
-            { "id": "w3", "text": "architect." }
+            {
+              "id": "w0",
+              "text": "He"
+            },
+            {
+              "id": "w1",
+              "text": "is"
+            },
+            {
+              "id": "w2",
+              "text": "an"
+            },
+            {
+              "id": "w3",
+              "text": "architect."
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U9_I11",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés: 'Vendedor/a'",
+          "prompt_es": "Traduce al inglés: 'Vendedor/a' ([[like|gustar]])",
           "correct_answer": "Salesperson",
           "mastery_tag": "vocabulary"
         },
@@ -137,12 +231,33 @@
           "type": "matching",
           "prompt_es": "Une la profesión con su traducción:",
           "pairs": [
-            { "id": "p0", "left": "[[Scientist|Científico/a]]", "right": "Escritor/a" },
-            { "id": "p1", "left": "[[Writer|Escritor/a]]", "right": "Dentista" },
-            { "id": "p2", "left": "[[Dentist|Dentista]]", "right": "Científico/a" },
-            { "id": "p3", "left": "[[Artist|Artista]]", "right": "Artista" }
+            {
+              "id": "p0",
+              "left": "[[Scientist|Científico/a]]",
+              "right": "Escritor/a"
+            },
+            {
+              "id": "p1",
+              "left": "[[Writer|Escritor/a]]",
+              "right": "Dentista"
+            },
+            {
+              "id": "p2",
+              "left": "[[Dentist|Dentista]]",
+              "right": "Científico/a"
+            },
+            {
+              "id": "p3",
+              "left": "[[Artist|Artista]]",
+              "right": "Artista"
+            }
           ],
-          "correct_answer": { "p0": "p2", "p1": "p0", "p2": "p1", "p3": "p3" },
+          "correct_answer": {
+            "p0": "p2",
+            "p1": "p0",
+            "p2": "p1",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -150,9 +265,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué artículo se usa antes de 'artist'?",
           "options": [
-            { "id": "o1", "text": "[[an artist|un/a artista]]" },
-            { "id": "o2", "text": "[[a artist|a artist]]" },
-            { "id": "o3", "text": "[[the artist|el/la artista]]" }
+            {
+              "id": "o1",
+              "text": "[[an artist|un/a artista]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[a artist|a artist]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[the artist|el/la artista]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -160,7 +284,7 @@
         {
           "interaction_id": "U9_I14",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta de 'to be':",
+          "prompt_es": "Completa con la forma correcta de 'to be': ([[like|gustar]])",
           "stimulus_en": "My sister ________ a dentist.",
           "correct_answer": "is",
           "mastery_tag": "grammar"
@@ -183,12 +307,33 @@
           "type": "matching",
           "prompt_es": "Une la profesión con su lugar de trabajo:",
           "pairs": [
-            { "id": "p0", "left": "[[Teacher|Profesor/a]]", "right": "Restaurante" },
-            { "id": "p1", "left": "[[Chef|Cocinero/a]]", "right": "Granja" },
-            { "id": "p2", "left": "[[Farmer|Agricultor/a]]", "right": "Hospital" },
-            { "id": "p3", "left": "[[Doctor|Médico/a]]", "right": "Escuela" }
+            {
+              "id": "p0",
+              "left": "[[Teacher|Profesor/a]]",
+              "right": "Restaurante"
+            },
+            {
+              "id": "p1",
+              "left": "[[Chef|Cocinero/a]]",
+              "right": "Granja"
+            },
+            {
+              "id": "p2",
+              "left": "[[Farmer|Agricultor/a]]",
+              "right": "Hospital"
+            },
+            {
+              "id": "p3",
+              "left": "[[Doctor|Médico/a]]",
+              "right": "Escuela"
+            }
           ],
-          "correct_answer": { "p0": "p3", "p1": "p0", "p2": "p1", "p3": "p2" },
+          "correct_answer": {
+            "p0": "p3",
+            "p1": "p0",
+            "p2": "p1",
+            "p3": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -196,9 +341,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Dónde trabaja un [[pilot|piloto]]?",
           "options": [
-            { "id": "o1", "text": "[[In a hospital|En un hospital]]" },
-            { "id": "o2", "text": "[[On a plane|En un avión]]" },
-            { "id": "o3", "text": "[[In a school|En una escuela]]" }
+            {
+              "id": "o1",
+              "text": "[[In a hospital|En un hospital]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[On a plane|En un avión]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[In a school|En una escuela]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "vocabulary"
@@ -206,7 +360,7 @@
         {
           "interaction_id": "U9_I18",
           "type": "transformation",
-          "prompt_es": "Completa la frase con la profesión correcta:",
+          "prompt_es": "Completa la frase con la profesión correcta: ([[like|gustar]])",
           "stimulus_en": "A ________ works in a bank.",
           "correct_answer": "banker",
           "mastery_tag": "vocabulary"
@@ -214,20 +368,37 @@
         {
           "interaction_id": "U9_I19",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[like|gustar]])",
           "options": [
-            { "id": "w0", "text": "Police" },
-            { "id": "w1", "text": "officers" },
-            { "id": "w2", "text": "help" },
-            { "id": "w3", "text": "people." }
+            {
+              "id": "w0",
+              "text": "Police"
+            },
+            {
+              "id": "w1",
+              "text": "officers"
+            },
+            {
+              "id": "w2",
+              "text": "help"
+            },
+            {
+              "id": "w3",
+              "text": "people."
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U9_I20",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés: 'Mesero/a'",
+          "prompt_es": "Traduce al inglés: 'Mesero/a' ([[like|gustar]])",
           "correct_answer": "Waiter",
           "mastery_tag": "vocabulary"
         },
@@ -236,12 +407,33 @@
           "type": "matching",
           "prompt_es": "Une la profesión con su lugar de trabajo:",
           "pairs": [
-            { "id": "p0", "left": "[[Lawyer|Abogado/a]]", "right": "Estudio" },
-            { "id": "p1", "left": "[[Artist|Artista]]", "right": "Laboratorio" },
-            { "id": "p2", "left": "[[Scientist|Científico/a]]", "right": "Edificio de oficinas" },
-            { "id": "p3", "left": "[[Office worker|Oficinista]]", "right": "Tribunal" }
+            {
+              "id": "p0",
+              "left": "[[Lawyer|Abogado/a]]",
+              "right": "Estudio"
+            },
+            {
+              "id": "p1",
+              "left": "[[Artist|Artista]]",
+              "right": "Laboratorio"
+            },
+            {
+              "id": "p2",
+              "left": "[[Scientist|Científico/a]]",
+              "right": "Edificio de oficinas"
+            },
+            {
+              "id": "p3",
+              "left": "[[Office worker|Oficinista]]",
+              "right": "Tribunal"
+            }
           ],
-          "correct_answer": { "p0": "p3", "p1": "p0", "p2": "p1", "p3": "p2" },
+          "correct_answer": {
+            "p0": "p3",
+            "p1": "p0",
+            "p2": "p1",
+            "p3": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -249,9 +441,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Mesero/a' en inglés?",
           "options": [
-            { "id": "o1", "text": "[[Waiter|Mesero/a]]" },
-            { "id": "o2", "text": "[[Wait|Esperar]]" },
-            { "id": "o3", "text": "[[Table|Mesa]]" }
+            {
+              "id": "o1",
+              "text": "[[Waiter|Mesero/a]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Wait|Esperar]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Table|Mesa]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -266,20 +467,37 @@
         {
           "interaction_id": "U9_I24",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[like|gustar]])",
           "options": [
-            { "id": "w0", "text": "An" },
-            { "id": "w1", "text": "architect" },
-            { "id": "w2", "text": "designs" },
-            { "id": "w3", "text": "buildings." }
+            {
+              "id": "w0",
+              "text": "An"
+            },
+            {
+              "id": "w1",
+              "text": "architect"
+            },
+            {
+              "id": "w2",
+              "text": "designs"
+            },
+            {
+              "id": "w3",
+              "text": "buildings."
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U9_I25",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta de 'to be':",
+          "prompt_es": "Completa con la forma correcta de 'to be': ([[like|gustar]])",
           "stimulus_en": "They ________ in a hospital.",
           "correct_answer": "work",
           "mastery_tag": "grammar"
@@ -287,7 +505,7 @@
         {
           "interaction_id": "U9_I26",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés: 'Ingeniero/a'",
+          "prompt_es": "Traduce al inglés: 'Ingeniero/a' ([[like|gustar]])",
           "correct_answer": "Engineer",
           "mastery_tag": "vocabulary"
         },
@@ -296,12 +514,33 @@
           "type": "matching",
           "prompt_es": "Une la profesión con su lugar de trabajo:",
           "pairs": [
-            { "id": "p0", "left": "[[Nurse|Enfermero/a]]", "right": "Cuartel de bomberos" },
-            { "id": "p1", "left": "[[Firefighter|Bombero/a]]", "right": "Comisaría" },
-            { "id": "p2", "left": "[[Police officer|Policía]]", "right": "Hospital" },
-            { "id": "p3", "left": "[[Driver|Conductor/a]]", "right": "Carretera/Autobús" }
+            {
+              "id": "p0",
+              "left": "[[Nurse|Enfermero/a]]",
+              "right": "Cuartel de bomberos"
+            },
+            {
+              "id": "p1",
+              "left": "[[Firefighter|Bombero/a]]",
+              "right": "Comisaría"
+            },
+            {
+              "id": "p2",
+              "left": "[[Police officer|Policía]]",
+              "right": "Hospital"
+            },
+            {
+              "id": "p3",
+              "left": "[[Driver|Conductor/a]]",
+              "right": "Carretera/Autobús"
+            }
           ],
-          "correct_answer": { "p0": "p2", "p1": "p0", "p2": "p1", "p3": "p3" },
+          "correct_answer": {
+            "p0": "p2",
+            "p1": "p0",
+            "p2": "p1",
+            "p3": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -309,9 +548,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Dónde trabaja un [[farmer|agricultor]]?",
           "options": [
-            { "id": "o1", "text": "[[In an office|En una oficina]]" },
-            { "id": "o2", "text": "[[In a school|En una escuela]]" },
-            { "id": "o3", "text": "[[On a farm|En una granja]]" }
+            {
+              "id": "o1",
+              "text": "[[In an office|En una oficina]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[In a school|En una escuela]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[On a farm|En una granja]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -319,7 +567,7 @@
         {
           "interaction_id": "U9_I29",
           "type": "transformation",
-          "prompt_es": "Completa la frase con la palabra correcta:",
+          "prompt_es": "Completa la frase con la palabra correcta: ([[like|gustar]])",
           "stimulus_en": "A teacher works in a ________.",
           "correct_answer": "school",
           "mastery_tag": "vocabulary"
@@ -342,12 +590,33 @@
           "type": "matching",
           "prompt_es": "Une la pregunta con la respuesta correcta:",
           "pairs": [
-            { "id": "p0", "left": "[[What do you do?|¿A qué te dedicas?]]", "right": "En un restaurante." },
-            { "id": "p1", "left": "[[Where do you work?|¿Dónde trabajas?]]", "right": "Soy médico/a." },
-            { "id": "p2", "left": "[[Do you like your job?|¿Te gusta tu trabajo?]]", "right": "Sí, es muy interesante." },
-            { "id": "p3", "left": "[[Are you a nurse?|¿Eres enfermero/a?]]", "right": "No, soy médico/a." }
+            {
+              "id": "p0",
+              "left": "[[What do you do?|¿A qué te dedicas?]]",
+              "right": "En un restaurante."
+            },
+            {
+              "id": "p1",
+              "left": "[[Where do you work?|¿Dónde trabajas?]]",
+              "right": "Soy médico/a."
+            },
+            {
+              "id": "p2",
+              "left": "[[Do you like your job?|¿Te gusta tu trabajo?]]",
+              "right": "Sí, es muy interesante."
+            },
+            {
+              "id": "p3",
+              "left": "[[Are you a nurse?|¿Eres enfermero/a?]]",
+              "right": "No, soy médico/a."
+            }
           ],
-          "correct_answer": { "p0": "p1", "p1": "p0", "p2": "p3", "p3": "p2" },
+          "correct_answer": {
+            "p0": "p1",
+            "p1": "p0",
+            "p2": "p3",
+            "p3": "p2"
+          },
           "mastery_tag": "grammar"
         },
         {
@@ -355,9 +624,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se pregunta '¿A qué te dedicas?' en inglés?",
           "options": [
-            { "id": "o1", "text": "[[Where do you work?|¿Dónde trabajas?]]" },
-            { "id": "o2", "text": "[[What do you do?|¿A qué te dedicas?]]" },
-            { "id": "o3", "text": "[[How old are you?|¿Cuántos años tienes?]]" }
+            {
+              "id": "o1",
+              "text": "[[Where do you work?|¿Dónde trabajas?]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[What do you do?|¿A qué te dedicas?]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[How old are you?|¿Cuántos años tienes?]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "grammar"
@@ -365,7 +643,7 @@
         {
           "interaction_id": "U9_I33",
           "type": "transformation",
-          "prompt_es": "Completa la respuesta:",
+          "prompt_es": "Completa la respuesta: ([[like|gustar]])",
           "stimulus_en": "What do you do? — I ________ a teacher.",
           "correct_answer": "am",
           "mastery_tag": "grammar"
@@ -373,20 +651,37 @@
         {
           "interaction_id": "U9_I34",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para preguntar el trabajo de alguien:",
+          "prompt_es": "Ordena las palabras para preguntar el trabajo de alguien: ([[like|gustar]])",
           "options": [
-            { "id": "w0", "text": "What" },
-            { "id": "w1", "text": "do" },
-            { "id": "w2", "text": "you" },
-            { "id": "w3", "text": "do?" }
+            {
+              "id": "w0",
+              "text": "What"
+            },
+            {
+              "id": "w1",
+              "text": "do"
+            },
+            {
+              "id": "w2",
+              "text": "you"
+            },
+            {
+              "id": "w3",
+              "text": "do?"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I35",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés: 'Soy estudiante'",
+          "prompt_es": "Traduce al inglés: 'Soy estudiante' ([[like|gustar]])",
           "correct_answer": "I am a student.",
           "mastery_tag": "grammar"
         },
@@ -402,9 +697,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la forma correcta para un [[engineer|ingeniero]]?",
           "options": [
-            { "id": "o1", "text": "[[I am a engineer.|Soy ingeniero/a.]]" },
-            { "id": "o2", "text": "[[I am engineer.|Soy ingeniero/a.]]" },
-            { "id": "o3", "text": "[[I am an engineer.|Soy ingeniero/a.]]" }
+            {
+              "id": "o1",
+              "text": "[[I am a engineer.|Soy ingeniero/a.]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[I am engineer.|Soy ingeniero/a.]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[I am an engineer.|Soy ingeniero/a.]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "grammar"
@@ -412,7 +716,7 @@
         {
           "interaction_id": "U9_I38",
           "type": "transformation",
-          "prompt_es": "Completa la pregunta:",
+          "prompt_es": "Completa la pregunta: ([[like|gustar]])",
           "stimulus_en": "________ do you work?",
           "correct_answer": "Where",
           "mastery_tag": "grammar"
@@ -420,15 +724,36 @@
         {
           "interaction_id": "U9_I39",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para responder sobre el trabajo:",
+          "prompt_es": "Ordena las palabras para responder sobre el trabajo: ([[like|gustar]])",
           "options": [
-            { "id": "w0", "text": "I" },
-            { "id": "w1", "text": "work" },
-            { "id": "w2", "text": "in" },
-            { "id": "w3", "text": "a" },
-            { "id": "w4", "text": "hospital." }
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w1",
+              "text": "work"
+            },
+            {
+              "id": "w2",
+              "text": "in"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "hospital."
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -436,18 +761,39 @@
           "type": "matching",
           "prompt_es": "Une la profesión con la frase correcta:",
           "pairs": [
-            { "id": "p0", "left": "[[Pilot|Piloto]]", "right": "Ayuda a los enfermos." },
-            { "id": "p1", "left": "[[Doctor|Médico/a]]", "right": "Enseña a los alumnos." },
-            { "id": "p2", "left": "[[Teacher|Profesor/a]]", "right": "Construye casas." },
-            { "id": "p3", "left": "[[Builder|Constructor/a]]", "right": "Vuela aviones." }
+            {
+              "id": "p0",
+              "left": "[[Pilot|Piloto]]",
+              "right": "Ayuda a los enfermos."
+            },
+            {
+              "id": "p1",
+              "left": "[[Doctor|Médico/a]]",
+              "right": "Enseña a los alumnos."
+            },
+            {
+              "id": "p2",
+              "left": "[[Teacher|Profesor/a]]",
+              "right": "Construye casas."
+            },
+            {
+              "id": "p3",
+              "left": "[[Builder|Constructor/a]]",
+              "right": "Vuela aviones."
+            }
           ],
-          "correct_answer": { "p0": "p3", "p1": "p0", "p2": "p1", "p3": "p2" },
+          "correct_answer": {
+            "p0": "p3",
+            "p1": "p0",
+            "p2": "p1",
+            "p3": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U9_I41",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés: '¿Dónde trabajas?'",
+          "prompt_es": "Traduce al inglés: '¿Dónde trabajas?' ([[like|gustar]])",
           "correct_answer": "Where do you work?",
           "mastery_tag": "grammar"
         },
@@ -456,9 +802,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué frase es correcta?",
           "options": [
-            { "id": "o1", "text": "[[He is doctor.|Él es doctor.]]" },
-            { "id": "o2", "text": "[[He is a doctor.|Él es médico.]]" },
-            { "id": "o3", "text": "[[He is an doctor.|Él es médico.]]" }
+            {
+              "id": "o1",
+              "text": "[[He is doctor.|Él es doctor.]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[He is a doctor.|Él es médico.]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[He is an doctor.|Él es médico.]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "grammar"
@@ -466,7 +821,7 @@
         {
           "interaction_id": "U9_I43",
           "type": "transformation",
-          "prompt_es": "Completa la pregunta correctamente:",
+          "prompt_es": "Completa la pregunta correctamente: ([[like|gustar]])",
           "stimulus_en": "________ you a nurse?",
           "correct_answer": "Are",
           "mastery_tag": "grammar"
@@ -474,16 +829,41 @@
         {
           "interaction_id": "U9_I44",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para responder sobre la profesión:",
+          "prompt_es": "Ordena las palabras para responder sobre la profesión: ([[like|gustar]])",
           "options": [
-            { "id": "w0", "text": "She" },
-            { "id": "w1", "text": "works" },
-            { "id": "w2", "text": "in" },
-            { "id": "w3", "text": "a" },
-            { "id": "w4", "text": "big" },
-            { "id": "w5", "text": "office." }
+            {
+              "id": "w0",
+              "text": "She"
+            },
+            {
+              "id": "w1",
+              "text": "works"
+            },
+            {
+              "id": "w2",
+              "text": "in"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "big"
+            },
+            {
+              "id": "w5",
+              "text": "office."
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -511,9 +891,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la profesión de María?",
           "options": [
-            { "id": "o1", "text": "[[Doctor|Médica]]" },
-            { "id": "o2", "text": "[[Scientist|Científica]]" },
-            { "id": "o3", "text": "[[Teacher|Profesora]]" }
+            {
+              "id": "o1",
+              "text": "[[Doctor|Médica]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Scientist|Científica]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Teacher|Profesora]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "reading"
@@ -523,9 +912,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Dónde trabaja Carlos?",
           "options": [
-            { "id": "o1", "text": "[[In a school|En una escuela]]" },
-            { "id": "o2", "text": "[[In a hospital|En un hospital]]" },
-            { "id": "o3", "text": "[[In a laboratory|En un laboratorio]]" }
+            {
+              "id": "o1",
+              "text": "[[In a school|En una escuela]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[In a hospital|En un hospital]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[In a laboratory|En un laboratorio]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "reading"
@@ -533,7 +931,7 @@
         {
           "interaction_id": "U9_I48",
           "type": "true_false",
-          "prompt_es": "¿Es verdad que Ana es enfermera?",
+          "prompt_es": "¿Es verdad que Ana es enfermera? ([[like|gustar]])",
           "correct_answer": false,
           "mastery_tag": "reading"
         },
@@ -542,9 +940,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuántos años tiene Carlos?",
           "options": [
-            { "id": "o1", "text": "[[Twenty-five|Veinticinco]]" },
-            { "id": "o2", "text": "[[Forty-five|Cuarenta y cinco]]" },
-            { "id": "o3", "text": "[[Thirty-five|Treinta y cinco]]" }
+            {
+              "id": "o1",
+              "text": "[[Twenty-five|Veinticinco]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Forty-five|Cuarenta y cinco]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Thirty-five|Treinta y cinco]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "reading"
@@ -552,7 +959,7 @@
         {
           "interaction_id": "U9_I50",
           "type": "transformation",
-          "prompt_es": "Completa según la entrevista de María:",
+          "prompt_es": "Completa según la entrevista de María: ([[like|gustar]])",
           "stimulus_en": "Maria is a ________ . She works in a primary school.",
           "correct_answer": "teacher",
           "mastery_tag": "reading"
@@ -560,21 +967,38 @@
         {
           "interaction_id": "U9_I51",
           "type": "short_writing",
-          "prompt_es": "¿Dónde trabaja Ana? Escribe la respuesta en inglés.",
+          "prompt_es": "¿Dónde trabaja Ana? Escribe la respuesta en inglés. ([[like|gustar]])",
           "correct_answer": "In a laboratory.",
           "mastery_tag": "reading"
         },
         {
           "interaction_id": "U9_I52",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras según lo que dijo Carlos:",
+          "prompt_es": "Ordena las palabras según lo que dijo Carlos: ([[like|gustar]])",
           "options": [
-            { "id": "w0", "text": "I" },
-            { "id": "w1", "text": "am" },
-            { "id": "w2", "text": "a" },
-            { "id": "w3", "text": "doctor." }
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w1",
+              "text": "am"
+            },
+            {
+              "id": "w2",
+              "text": "a"
+            },
+            {
+              "id": "w3",
+              "text": "doctor."
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
           "mastery_tag": "reading"
         },
         {
@@ -582,9 +1006,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué dice María sobre su trabajo?",
           "options": [
-            { "id": "o1", "text": "[[She loves working with children.|Le encanta trabajar con niños.]]" },
-            { "id": "o2", "text": "[[She hates it.|Lo odia.]]" },
-            { "id": "o3", "text": "[[She wants a different job.|Quiere un trabajo diferente.]]" }
+            {
+              "id": "o1",
+              "text": "[[She loves working with children.|Le encanta trabajar con niños.]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[She hates it.|Lo odia.]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[She wants a different job.|Quiere un trabajo diferente.]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
@@ -594,25 +1027,46 @@
           "type": "matching",
           "prompt_es": "Une cada persona con su profesión:",
           "pairs": [
-            { "id": "p0", "left": "[[Maria|María]]", "right": "Médico/a" },
-            { "id": "p1", "left": "[[Carlos|Carlos]]", "right": "Científica" },
-            { "id": "p2", "left": "[[Ana|Ana]]", "right": "Profesora" },
-            { "id": "p3", "left": "[[Ana's workplace|El lugar de trabajo de Ana]]", "right": "Laboratorio" }
+            {
+              "id": "p0",
+              "left": "[[Maria|María]]",
+              "right": "Médico/a"
+            },
+            {
+              "id": "p1",
+              "left": "[[Carlos|Carlos]]",
+              "right": "Científica"
+            },
+            {
+              "id": "p2",
+              "left": "[[Ana|Ana]]",
+              "right": "Profesora"
+            },
+            {
+              "id": "p3",
+              "left": "[[Ana's workplace|El lugar de trabajo de Ana]]",
+              "right": "Laboratorio"
+            }
           ],
-          "correct_answer": { "p0": "p2", "p1": "p0", "p2": "p1", "p3": "p3" },
+          "correct_answer": {
+            "p0": "p2",
+            "p1": "p0",
+            "p2": "p1",
+            "p3": "p3"
+          },
           "mastery_tag": "reading"
         },
         {
           "interaction_id": "U9_I55",
           "type": "true_false",
-          "prompt_es": "¿Es verdad que Carlos trabaja en Madrid?",
+          "prompt_es": "¿Es verdad que Carlos trabaja en Madrid? ([[like|gustar]])",
           "correct_answer": true,
           "mastery_tag": "reading"
         },
         {
           "interaction_id": "U9_I56",
           "type": "short_writing",
-          "prompt_es": "Escribe en inglés: '¿Te gusta tu trabajo?'",
+          "prompt_es": "Escribe en inglés: '¿Te gusta tu trabajo?' ([[like|gustar]])",
           "correct_answer": "Do you like your job?",
           "mastery_tag": "grammar"
         },
@@ -621,9 +1075,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la pregunta correcta para preguntar la profesión?",
           "options": [
-            { "id": "o1", "text": "[[What do you do?|¿A qué te dedicas?]]" },
-            { "id": "o2", "text": "[[How old are you?|¿Cuántos años tienes?]]" },
-            { "id": "o3", "text": "[[Where are you from?|¿De dónde eres?]]" }
+            {
+              "id": "o1",
+              "text": "[[What do you do?|¿A qué te dedicas?]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[How old are you?|¿Cuántos años tienes?]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Where are you from?|¿De dónde eres?]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -631,20 +1094,37 @@
         {
           "interaction_id": "U9_I58",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para preguntar dónde trabaja alguien:",
+          "prompt_es": "Ordena las palabras para preguntar dónde trabaja alguien: ([[like|gustar]])",
           "options": [
-            { "id": "w0", "text": "Where" },
-            { "id": "w1", "text": "do" },
-            { "id": "w2", "text": "you" },
-            { "id": "w3", "text": "work?" }
+            {
+              "id": "w0",
+              "text": "Where"
+            },
+            {
+              "id": "w1",
+              "text": "do"
+            },
+            {
+              "id": "w2",
+              "text": "you"
+            },
+            {
+              "id": "w3",
+              "text": "work?"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U9_I59",
           "type": "transformation",
-          "prompt_es": "Completa la frase sobre Ana:",
+          "prompt_es": "Completa la frase sobre Ana: ([[like|gustar]])",
           "stimulus_en": "Ana is a ________ . She works in a laboratory.",
           "correct_answer": "scientist",
           "mastery_tag": "reading"
@@ -654,9 +1134,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál de estas frases describe mejor a María?",
           "options": [
-            { "id": "o1", "text": "[[She is a teacher in a primary school.|Es profesora en una escuela primaria.]]" },
-            { "id": "o2", "text": "[[She is a doctor in a hospital.|Es médica en un hospital.]]" },
-            { "id": "o3", "text": "[[She is a scientist in a laboratory.|Es científica en un laboratorio.]]" }
+            {
+              "id": "o1",
+              "text": "[[She is a teacher in a primary school.|Es profesora en una escuela primaria.]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[She is a doctor in a hospital.|Es médica en un hospital.]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[She is a scientist in a laboratory.|Es científica en un laboratorio.]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"

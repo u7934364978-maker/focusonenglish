@@ -25,18 +25,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[There is two bedrooms|Hay dos dormitorios incorrecto]]"
+              "text": "[[There are two bedrooms|Hay dos dormitorios]]"
             },
             {
               "id": "o2",
-              "text": "[[There are two bedrooms|Hay dos dormitorios]]"
+              "text": "[[There is two bedrooms|Hay dos dormitorios incorrecto]]"
             },
             {
               "id": "o3",
               "text": "[[There have two bedrooms|Hay dos dormitorios incorrecto]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "review",
           "complexity": 1
         },
@@ -78,7 +78,7 @@
         {
           "interaction_id": "U30_I3",
           "type": "fill_blanks",
-          "prompt_es": "Completa: The lamp is ___ the table. (encima de = on)",
+          "prompt_es": "Completa: The lamp is ___ the table. (encima de = on) ([[lamp|lámpara]])",
           "correct_answer": "on",
           "mastery_tag": "review",
           "complexity": 1
@@ -86,7 +86,7 @@
         {
           "interaction_id": "U30_I4",
           "type": "multiple_choice",
-          "prompt_es": "Es correcta esta pregunta? Is there a fridge in the kitchen?",
+          "prompt_es": "Es correcta esta pregunta? Is there a fridge in the kitchen? ([[fridge|nevera]])",
           "options": [
             {
               "id": "o1",
@@ -108,7 +108,7 @@
         {
           "interaction_id": "U30_I5",
           "type": "fill_blanks",
-          "prompt_es": "Completa: The cat is ___ the sofa. (debajo del = under)",
+          "prompt_es": "Completa: The cat is ___ the sofa. (debajo del = under) ([[sofa|sofá]])",
           "correct_answer": "under",
           "mastery_tag": "review",
           "complexity": 1
@@ -138,7 +138,7 @@
         {
           "interaction_id": "U30_I7",
           "type": "fill_blanks",
-          "prompt_es": "Completa: Mine, yours, his, ___, ours, theirs. (de ella = hers)",
+          "prompt_es": "Completa: Mine, yours, his, ___, ours, theirs. (de ella = hers) ([[review|repaso]])",
           "correct_answer": "hers",
           "mastery_tag": "review",
           "complexity": 1
@@ -150,18 +150,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[above|encima]]"
+              "text": "[[between|entre]]"
             },
             {
               "id": "o2",
-              "text": "[[between|entre]]"
+              "text": "[[above|encima]]"
             },
             {
               "id": "o3",
               "text": "[[behind|detras de]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "review",
           "complexity": 1
         }
@@ -231,7 +231,7 @@
         {
           "interaction_id": "U30_I11",
           "type": "fill_blanks",
-          "prompt_es": "Completa: There is ___ supermarket in my neighbourhood. (un = a)",
+          "prompt_es": "Completa: There is ___ supermarket in my neighbourhood. (un = a) ([[supermarket|supermercado]])",
           "correct_answer": "a",
           "mastery_tag": "review",
           "complexity": 1
@@ -239,29 +239,29 @@
         {
           "interaction_id": "U30_I12",
           "type": "multiple_choice",
-          "prompt_es": "Cuando usamos any en vez de some?",
+          "prompt_es": "Cuando usamos any en vez de some? ([[any|algún/ningún]])",
           "options": [
             {
               "id": "o1",
-              "text": "En frases afirmativas"
+              "text": "En frases negativas e interrogativas"
             },
             {
               "id": "o2",
-              "text": "En frases negativas e interrogativas"
+              "text": "En frases afirmativas"
             },
             {
               "id": "o3",
               "text": "Solo con nombres contables"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "review",
           "complexity": 2
         },
         {
           "interaction_id": "U30_I13",
           "type": "fill_blanks",
-          "prompt_es": "There are not ___ cinemas in my town. (ninguno = any)",
+          "prompt_es": "There are not ___ cinemas in my town. (ninguno = any) ([[any|algún/ningún]])",
           "correct_answer": "any",
           "mastery_tag": "review",
           "complexity": 1
@@ -277,21 +277,21 @@
             },
             {
               "id": "o2",
-              "text": "[[There are a lot of shops|Hay muchas tiendas]]"
+              "text": "[[There are lots shops|Hay muchas tiendas incorrecto falta of]]"
             },
             {
               "id": "o3",
-              "text": "[[There are lots shops|Hay muchas tiendas incorrecto falta of]]"
+              "text": "[[There are a lot of shops|Hay muchas tiendas]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "review",
           "complexity": 2
         },
         {
           "interaction_id": "U30_I15",
           "type": "fill_blanks",
-          "prompt_es": "Completa: The library is ___ the post office. (enfrente de = opposite)",
+          "prompt_es": "Completa: The library is ___ the post office. (enfrente de = opposite) ([[review|repaso]])",
           "correct_answer": "opposite",
           "mastery_tag": "review",
           "complexity": 1
@@ -303,18 +303,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[The park is between my house|El parque esta entre mi casa incorrecto]]"
+              "text": "[[The park is next to my house|El parque esta al lado de mi casa]]"
             },
             {
               "id": "o2",
-              "text": "[[The park is next to my house|El parque esta al lado de mi casa]]"
+              "text": "[[The park is between my house|El parque esta entre mi casa incorrecto]]"
             },
             {
               "id": "o3",
               "text": "[[The park is above my house|El parque esta encima de mi casa incorrecto]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "review",
           "complexity": 1
         }
@@ -349,7 +349,7 @@
         {
           "interaction_id": "U30_I18",
           "type": "fill_blanks",
-          "prompt_es": "Completa: ___ straight on and turn right at the roundabout. (Ve = Go)",
+          "prompt_es": "Completa: ___ straight on and turn right at the roundabout. (Ve = Go) ([[and|y]])",
           "correct_answer": "Go",
           "mastery_tag": "review",
           "complexity": 1
@@ -365,14 +365,14 @@
             },
             {
               "id": "o2",
-              "text": "[[end|final]]"
+              "text": "[[start|inicio]]"
             },
             {
               "id": "o3",
-              "text": "[[start|inicio]]"
+              "text": "[[end|final]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "review",
           "complexity": 1
         },
@@ -414,7 +414,7 @@
         {
           "interaction_id": "U30_I21",
           "type": "fill_blanks",
-          "prompt_es": "Completa: She ___ a friendly golden retriever. (has got)",
+          "prompt_es": "Completa: She ___ a friendly golden retriever. (has got) ([[got|obtuvo/obtuve]])",
           "correct_answer": "has got",
           "mastery_tag": "review",
           "complexity": 1
@@ -444,7 +444,7 @@
         {
           "interaction_id": "U30_I23",
           "type": "fill_blanks",
-          "prompt_es": "Completa: How do I get to the ___? (banco = bank)",
+          "prompt_es": "Completa: How do I get to the ___? (banco = bank) ([[review|repaso]])",
           "correct_answer": "bank",
           "mastery_tag": "review",
           "complexity": 1
@@ -537,7 +537,7 @@
         {
           "interaction_id": "U30_I27",
           "type": "fill_blanks",
-          "prompt_es": "Completa: The plural of foot is ___. (feet)",
+          "prompt_es": "Completa: The plural of foot is ___. (feet) ([[review|repaso]])",
           "correct_answer": "feet",
           "mastery_tag": "review",
           "complexity": 1
@@ -567,7 +567,7 @@
         {
           "interaction_id": "U30_I29",
           "type": "fill_blanks",
-          "prompt_es": "Completa: It is snowing. She is wearing a warm ___ and a scarf. (abrigo = coat)",
+          "prompt_es": "Completa: It is snowing. She is wearing a warm ___ and a scarf. (abrigo = coat) ([[warm|cálido]])",
           "correct_answer": "coat",
           "mastery_tag": "review",
           "complexity": 1
@@ -597,7 +597,7 @@
         {
           "interaction_id": "U30_I31",
           "type": "fill_blanks",
-          "prompt_es": "These are ___ feet. (mis = my)",
+          "prompt_es": "These are ___ feet. (mis = my) ([[review|repaso]])",
           "correct_answer": "my",
           "mastery_tag": "review",
           "complexity": 1
@@ -729,7 +729,7 @@
         {
           "interaction_id": "U30_I37",
           "type": "multiple_choice",
-          "prompt_es": "Que lleva Pedro puesto hoy?",
+          "prompt_es": "Que lleva Pedro puesto hoy? ([[review|repaso]])",
           "options": [
             {
               "id": "o1",
@@ -751,7 +751,7 @@
         {
           "interaction_id": "U30_I38",
           "type": "fill_blanks",
-          "prompt_es": "Segun el texto, el gato de Pedro es de color ___. (blanca = white)",
+          "prompt_es": "Segun el texto, el gato de Pedro es de color ___. (blanca = white) ([[review|repaso]])",
           "correct_answer": "white",
           "mastery_tag": "reading",
           "complexity": 1
@@ -759,7 +759,7 @@
         {
           "interaction_id": "U30_I39",
           "type": "multiple_choice",
-          "prompt_es": "Como va Pedro al trabajo cada manana?",
+          "prompt_es": "Como va Pedro al trabajo cada manana? ([[review|repaso]])",
           "options": [
             {
               "id": "o1",
@@ -781,7 +781,7 @@
         {
           "interaction_id": "U30_I40",
           "type": "fill_blanks",
-          "prompt_es": "La parada de autobus esta entre el piso de Pedro y el ___. (parque = park)",
+          "prompt_es": "La parada de autobus esta entre el piso de Pedro y el ___. (parque = park) ([[park|parque]])",
           "correct_answer": "park",
           "mastery_tag": "reading",
           "complexity": 2
@@ -789,7 +789,7 @@
         {
           "interaction_id": "U30_I41",
           "type": "sentence_building",
-          "prompt_es": "Forma: Tengo un gato amigable llamado Luna.",
+          "prompt_es": "Forma: Tengo un gato amigable llamado Luna. ([[review|repaso]])",
           "words": [
             {
               "id": "w1",

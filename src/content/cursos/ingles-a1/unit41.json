@@ -59,7 +59,7 @@
         {
           "interaction_id": "A1_U41_B41_1_I2",
           "type": "multiple_choice",
-          "prompt_es": "¿Dónde entregas tus maletas?",
+          "prompt_es": "¿Dónde entregas tus maletas? ([[check-in|facturación]])",
           "options": [
             {
               "id": "o2",
@@ -85,7 +85,7 @@
         {
           "interaction_id": "A1_U41_B41_1_I3",
           "type": "fill_blanks",
-          "prompt_es": "Completa la palabra:",
+          "prompt_es": "Completa la palabra: ([[airport|aeropuerto]])",
           "stimulus_en": "I have a ticket for my ________. (vuelo)",
           "correct_answer": "flight",
           "mastery_tag": "vocabulary",
@@ -98,7 +98,7 @@
         {
           "interaction_id": "A1_U41_B41_1_I4",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Tarjeta de embarque'",
+          "prompt_es": "Traduce: 'Tarjeta de embarque' ([[airport|aeropuerto]])",
           "stimulus_es": "Tarjeta de embarque",
           "correct_answer": "Boarding pass",
           "mastery_tag": "vocabulary",
@@ -111,7 +111,7 @@
         {
           "interaction_id": "A1_U41_B41_1_I5",
           "type": "flashcard",
-          "prompt_es": "Repaso de vocabulario:",
+          "prompt_es": "Repaso de vocabulario: ([[airport|aeropuerto]])",
           "stimulus_en": "Passenger",
           "correct_answer": "Pasajero/a",
           "mastery_tag": "vocabulary",
@@ -130,7 +130,7 @@
         {
           "interaction_id": "A1_U41_B41_2_I2",
           "type": "fill_blanks",
-          "prompt_es": "Completa con la preposición correcta (at/in):",
+          "prompt_es": "Completa con la preposición correcta (at/in): ([[airport|aeropuerto]])",
           "stimulus_en": "I am ________ the airport.",
           "correct_answer": "at",
           "mastery_tag": "grammar",
@@ -143,7 +143,7 @@
         {
           "interaction_id": "A1_U41_B41_2_I3",
           "type": "true_false",
-          "prompt_es": "¿Es correcto decir 'My luggages are heavy'?",
+          "prompt_es": "¿Es correcto decir 'My luggages are heavy'? ([[airport|aeropuerto]])",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "complexity": 1,
@@ -155,7 +155,7 @@
         {
           "interaction_id": "A1_U41_B41_2_I5",
           "type": "fill_blanks",
-          "prompt_es": "Completa la frase:",
+          "prompt_es": "Completa la frase: ([[boarding pass|tarjeta de embarque]])",
           "stimulus_en": "Please ________ your boarding pass. (muestra)",
           "correct_answer": "show",
           "mastery_tag": "grammar",
@@ -186,7 +186,7 @@
             },
             {
               "id": "w3",
-              "text": "gate"
+              "text": "[[gate|puerta de embarque]]"
             },
             {
               "id": "w4",
@@ -214,7 +214,7 @@
         {
           "interaction_id": "A1_U41_B41_3_I2",
           "type": "multiple_choice",
-          "prompt_es": "Official: 'Passport, please.' - You:",
+          "prompt_es": "Official: 'Passport, please.' - You: ([[Passport|pasaporte]])",
           "options": [
             {
               "id": "o2",
@@ -240,7 +240,7 @@
         {
           "interaction_id": "A1_U41_B41_3_I3",
           "type": "fill_blanks",
-          "prompt_es": "Completa el diálogo:",
+          "prompt_es": "Completa el diálogo: ([[flight|vuelo]])",
           "stimulus_en": "A: Is your flight on time?\nB: No, it is ________. (retrasado)",
           "correct_answer": "late",
           "mastery_tag": "syntax",
@@ -253,7 +253,7 @@
         {
           "interaction_id": "A1_U41_B41_3_I4",
           "type": "short_writing",
-          "prompt_es": "Traduce: '¿Dónde está mi maleta?'",
+          "prompt_es": "Traduce: '¿Dónde está mi maleta?' ([[airport|aeropuerto]])",
           "stimulus_es": "¿Dónde está mi maleta?",
           "correct_answer": "Where is my suitcase?",
           "mastery_tag": "syntax",
@@ -266,7 +266,7 @@
         {
           "interaction_id": "A1_U41_B41_3_I5",
           "type": "true_false",
-          "prompt_es": "You need a passport to travel to another country.",
+          "prompt_es": "You need a passport to travel to another country. ([[passport|pasaporte]])",
           "correct_answer": true,
           "mastery_tag": "syntax",
           "complexity": 1,
@@ -284,7 +284,7 @@
         {
           "interaction_id": "A1_U41_B41_4_I4",
           "type": "audio_player",
-          "prompt_es": "Escucha la instrucción:",
+          "prompt_es": "Escucha la instrucción: ([[airport|aeropuerto]])",
           "audioUrl": "/audio/courses/ingles-a1/shared/e6c99c3629f6266007f311f92591b61b.mp3",
           "text": "Show your passport, please.",
           "mastery_tag": "listening",
@@ -303,7 +303,7 @@
         {
           "interaction_id": "A1_U41_B41_4_I5",
           "type": "multiple_choice",
-          "prompt_es": "Según el texto, ¿cómo es la maleta de Maria?",
+          "prompt_es": "Según el texto, ¿cómo es la maleta de Maria? ([[airport|aeropuerto]])",
           "options": [
             {
               "id": "o2",
@@ -335,7 +335,7 @@
         {
           "interaction_id": "U41_I301",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[boarding|embarque]])",
           "stimulus_en": "Where is the boarding gate?",
           "correct_answer": "Where is the boarding gate?",
           "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-1.mp3",
@@ -349,7 +349,7 @@
         {
           "interaction_id": "U41_I302",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[passport|pasaporte]])",
           "stimulus_en": "Please show your passport.",
           "correct_answer": "Please show your passport.",
           "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-2.mp3",
@@ -363,7 +363,7 @@
         {
           "interaction_id": "U41_I303",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[flight|vuelo]])",
           "stimulus_en": "The flight is on time.",
           "correct_answer": "The flight is on time.",
           "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-3.mp3",
@@ -377,7 +377,7 @@
         {
           "interaction_id": "U41_I304",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[luggage|equipaje]])",
           "stimulus_en": "Is this your luggage?",
           "correct_answer": "Is this your luggage?",
           "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-4.mp3",
@@ -391,7 +391,7 @@
         {
           "interaction_id": "U41_I305",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[check-in|facturación]])",
           "stimulus_en": "The check-in desk is closed.",
           "correct_answer": "The check-in desk is closed.",
           "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-5.mp3",
@@ -405,7 +405,7 @@
         {
           "interaction_id": "U41_I306",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[boarding pass|tarjeta de embarque]])",
           "stimulus_en": "Take your boarding pass.",
           "correct_answer": "Take your boarding pass.",
           "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-6.mp3",
@@ -419,7 +419,7 @@
         {
           "interaction_id": "U41_I307",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[airport|aeropuerto]])",
           "stimulus_en": "Wait in the lounge.",
           "correct_answer": "Wait in the lounge.",
           "audioUrl": "/audio/courses/ingles-a1/unit41/lesson5-task-7.mp3",
@@ -433,7 +433,7 @@
         {
           "interaction_id": "U41_I308",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[airport|aeropuerto]])",
           "title": "Pronunciación: Airport",
           "instructions": "Escucha y repite enfocándote en la 'r'.",
           "targetSentences": [
@@ -472,7 +472,7 @@
         {
           "interaction_id": "U41_I309",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[airport|aeropuerto]])",
           "title": "Pronunciación: Passport",
           "instructions": "Practica la 'p' aspirada.",
           "targetSentences": [
@@ -511,7 +511,7 @@
         {
           "interaction_id": "U41_I310",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[airport|aeropuerto]])",
           "title": "Pronunciación: Flight",
           "instructions": "Escucha y repite la 'i' larga.",
           "targetSentences": [
@@ -550,7 +550,7 @@
         {
           "interaction_id": "U41_I311",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[airport|aeropuerto]])",
           "title": "Pronunciación: Luggage",
           "instructions": "Escucha y repite la 'g' final.",
           "targetSentences": [
@@ -589,7 +589,7 @@
         {
           "interaction_id": "U41_I312",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[airport|aeropuerto]])",
           "title": "Pronunciación: Gate",
           "instructions": "Escucha y repite la 'a' larga.",
           "targetSentences": [
@@ -628,7 +628,7 @@
         {
           "interaction_id": "U41_I313",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[airport|aeropuerto]])",
           "title": "Pronunciación: Ticket",
           "instructions": "Escucha y repite la 'i' corta.",
           "targetSentences": [
@@ -667,7 +667,7 @@
         {
           "interaction_id": "U41_I314",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[airport|aeropuerto]])",
           "title": "Pronunciación: Suitcase",
           "instructions": "Escucha y repite enfocándote en la 's'.",
           "targetSentences": [
@@ -706,7 +706,7 @@
         {
           "interaction_id": "U41_I315",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[airport|aeropuerto]])",
           "title": "Pronunciación: Repaso Airport",
           "instructions": "Escucha y repite la frase completa.",
           "targetSentences": [
@@ -753,16 +753,20 @@
           "prompt_es": "¿Cómo se dice 'airport' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Airport"
+              "id": "o1",
+              "text": "Arrival"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "[[Airport|aeropuerto]]"
             },
             {
               "id": "o3",
-              "text": "Wrong word"
+              "text": "Passport"
+            },
+            {
+              "id": "o4",
+              "text": "Departure"
             }
           ],
           "correct_answer": "o2",
@@ -774,19 +778,23 @@
           "prompt_es": "¿Cómo se dice 'check-in' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Airport"
             },
             {
-              "id": "o1",
-              "text": "Check-in"
+              "id": "o2",
+              "text": "Gate"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Check-in|facturación]]"
+            },
+            {
+              "id": "o4",
+              "text": "Passport"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -795,19 +803,23 @@
           "prompt_es": "¿Cómo se dice 'passport' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "[[Passport|pasaporte]]"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Flight"
             },
             {
               "id": "o3",
-              "text": "Passport"
+              "text": "Terminal"
+            },
+            {
+              "id": "o4",
+              "text": "Boarding pass"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -816,16 +828,20 @@
           "prompt_es": "¿Cómo se dice 'gate' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Gate"
+              "id": "o1",
+              "text": "Check-in"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "[[Gate|puerta de embarque]]"
             },
             {
               "id": "o3",
-              "text": "Wrong word"
+              "text": "Boarding pass"
+            },
+            {
+              "id": "o4",
+              "text": "Luggage"
             }
           ],
           "correct_answer": "o2",
@@ -837,19 +853,23 @@
           "prompt_es": "¿Cómo se dice 'flight' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Gate"
             },
             {
-              "id": "o1",
-              "text": "Flight"
+              "id": "o2",
+              "text": "Terminal"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Customs"
+            },
+            {
+              "id": "o4",
+              "text": "[[Flight|vuelo]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -858,19 +878,23 @@
           "prompt_es": "¿Cómo se dice 'boarding' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "[[Boarding|embarque]]"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Customs"
             },
             {
               "id": "o3",
-              "text": "Boarding"
+              "text": "Arrival"
+            },
+            {
+              "id": "o4",
+              "text": "Passport"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -879,16 +903,20 @@
           "prompt_es": "¿Cómo se dice 'luggage' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Luggage"
+              "id": "o1",
+              "text": "Boarding pass"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "[[Luggage|equipaje]]"
             },
             {
               "id": "o3",
-              "text": "Wrong word"
+              "text": "Check-in"
+            },
+            {
+              "id": "o4",
+              "text": "Security"
             }
           ],
           "correct_answer": "o2",
@@ -900,16 +928,20 @@
           "prompt_es": "¿Cómo se dice 'airport' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "[[Airport|aeropuerto]]"
             },
             {
-              "id": "o1",
-              "text": "Airport"
+              "id": "o2",
+              "text": "Flight"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Arrival"
+            },
+            {
+              "id": "o4",
+              "text": "Check-in"
             }
           ],
           "correct_answer": "o1",
@@ -921,19 +953,23 @@
           "prompt_es": "¿Cómo se dice 'check-in' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Luggage"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Customs"
             },
             {
               "id": "o3",
-              "text": "Check-in"
+              "text": "Arrival"
+            },
+            {
+              "id": "o4",
+              "text": "[[Check-in|facturación]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -942,19 +978,23 @@
           "prompt_es": "¿Cómo se dice 'passport' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Passport"
+              "id": "o1",
+              "text": "[[Passport|pasaporte]]"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Luggage"
             },
             {
               "id": "o3",
-              "text": "Wrong word"
+              "text": "Customs"
+            },
+            {
+              "id": "o4",
+              "text": "Flight"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -963,19 +1003,23 @@
           "prompt_es": "¿Cómo se dice 'gate' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Departure"
             },
             {
-              "id": "o1",
-              "text": "Gate"
+              "id": "o2",
+              "text": "[[Gate|puerta de embarque]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Airport"
+            },
+            {
+              "id": "o4",
+              "text": "Security"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -984,16 +1028,20 @@
           "prompt_es": "¿Cómo se dice 'flight' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Arrival"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Boarding pass"
             },
             {
               "id": "o3",
-              "text": "Flight"
+              "text": "[[Flight|vuelo]]"
+            },
+            {
+              "id": "o4",
+              "text": "Airport"
             }
           ],
           "correct_answer": "o3",
@@ -1005,16 +1053,20 @@
           "prompt_es": "¿Cómo se dice 'boarding' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Boarding"
+              "id": "o1",
+              "text": "Passport"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "[[Boarding|embarque]]"
             },
             {
               "id": "o3",
-              "text": "Wrong word"
+              "text": "Terminal"
+            },
+            {
+              "id": "o4",
+              "text": "Boarding pass"
             }
           ],
           "correct_answer": "o2",
@@ -1026,19 +1078,23 @@
           "prompt_es": "¿Cómo se dice 'luggage' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Gate"
             },
             {
-              "id": "o1",
-              "text": "Luggage"
+              "id": "o2",
+              "text": "Customs"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Terminal"
+            },
+            {
+              "id": "o4",
+              "text": "[[Luggage|equipaje]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1047,19 +1103,23 @@
           "prompt_es": "¿Cómo se dice 'airport' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Luggage"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Terminal"
             },
             {
               "id": "o3",
-              "text": "Airport"
+              "text": "Customs"
+            },
+            {
+              "id": "o4",
+              "text": "[[Airport|aeropuerto]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1068,19 +1128,23 @@
           "prompt_es": "¿Cómo se dice 'check-in' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Check-in"
+              "id": "o1",
+              "text": "Boarding pass"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Terminal"
             },
             {
               "id": "o3",
-              "text": "Wrong word"
+              "text": "Airport"
+            },
+            {
+              "id": "o4",
+              "text": "[[Check-in|facturación]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1089,19 +1153,23 @@
           "prompt_es": "¿Cómo se dice 'passport' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Security"
             },
             {
-              "id": "o1",
-              "text": "Passport"
+              "id": "o2",
+              "text": "Luggage"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Flight"
+            },
+            {
+              "id": "o4",
+              "text": "[[Passport|pasaporte]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1111,18 +1179,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Arrival"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Gate|puerta de embarque]]"
             },
             {
               "id": "o3",
-              "text": "Gate"
+              "text": "Boarding pass"
+            },
+            {
+              "id": "o4",
+              "text": "Flight"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1132,18 +1204,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Flight"
+              "text": "Departure"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Passport"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Flight|vuelo]]"
+            },
+            {
+              "id": "o4",
+              "text": "Security"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1153,15 +1229,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Airport"
             },
             {
               "id": "o2",
-              "text": "Boarding"
+              "text": "[[Boarding|embarque]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Security"
+            },
+            {
+              "id": "o4",
+              "text": "Luggage"
             }
           ],
           "correct_answer": "o2",
@@ -1174,18 +1254,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "[[Luggage|equipaje]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Gate"
             },
             {
               "id": "o3",
-              "text": "Luggage"
+              "text": "Terminal"
+            },
+            {
+              "id": "o4",
+              "text": "Flight"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1195,15 +1279,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Airport"
+              "text": "[[Airport|aeropuerto]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Check-in"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Customs"
+            },
+            {
+              "id": "o4",
+              "text": "Terminal"
             }
           ],
           "correct_answer": "o1",
@@ -1216,18 +1304,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Check-in|facturación]]"
             },
             {
               "id": "o2",
-              "text": "Check-in"
+              "text": "Customs"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Departure"
+            },
+            {
+              "id": "o4",
+              "text": "Flight"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1237,18 +1329,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Luggage"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Passport|pasaporte]]"
             },
             {
               "id": "o3",
-              "text": "Passport"
+              "text": "Airport"
+            },
+            {
+              "id": "o4",
+              "text": "Boarding pass"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1258,18 +1354,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Gate"
+              "text": "Passport"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Gate|puerta de embarque]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Customs"
+            },
+            {
+              "id": "o4",
+              "text": "Departure"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1279,15 +1379,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Customs"
             },
             {
               "id": "o2",
-              "text": "Flight"
+              "text": "[[Flight|vuelo]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Security"
+            },
+            {
+              "id": "o4",
+              "text": "Terminal"
             }
           ],
           "correct_answer": "o2",
@@ -1300,18 +1404,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Customs"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Boarding|embarque]]"
             },
             {
               "id": "o3",
-              "text": "Boarding"
+              "text": "Arrival"
+            },
+            {
+              "id": "o4",
+              "text": "Boarding pass"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1321,18 +1429,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Luggage"
+              "text": "Flight"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Boarding pass"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Luggage|equipaje]]"
+            },
+            {
+              "id": "o4",
+              "text": "Terminal"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1342,15 +1454,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Security"
             },
             {
               "id": "o2",
-              "text": "Airport"
+              "text": "[[Airport|aeropuerto]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Luggage"
+            },
+            {
+              "id": "o4",
+              "text": "Boarding pass"
             }
           ],
           "correct_answer": "o2",
@@ -1363,18 +1479,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "[[Check-in|facturación]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Arrival"
             },
             {
               "id": "o3",
-              "text": "Check-in"
+              "text": "Airport"
+            },
+            {
+              "id": "o4",
+              "text": "Terminal"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         }
       ]
@@ -1386,7 +1506,7 @@
         {
           "interaction_id": "U41_L5_I1",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[airport|aeropuerto]])",
           "audio_url": "/audio/courses/ingles-a1/unit41/lesson5-task-1.mp3",
           "transcript_template": "The [[airport|]] is here.",
           "correct_answer": "airport",
@@ -1400,7 +1520,7 @@
         {
           "interaction_id": "U41_L5_I2",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[airport|aeropuerto]])",
           "audio_url": "/audio/courses/ingles-a1/unit41/lesson5-task-2.mp3",
           "transcript_template": "The [[check-in|]] is here.",
           "correct_answer": "check-in",
@@ -1414,7 +1534,7 @@
         {
           "interaction_id": "U41_L5_I3",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[airport|aeropuerto]])",
           "audio_url": "/audio/courses/ingles-a1/unit41/lesson5-task-3.mp3",
           "transcript_template": "The [[passport|]] is here.",
           "correct_answer": "passport",
@@ -1428,7 +1548,7 @@
         {
           "interaction_id": "U41_L5_I4",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[airport|aeropuerto]])",
           "audio_url": "/audio/courses/ingles-a1/unit41/lesson5-task-4.mp3",
           "transcript_template": "The [[gate|]] is here.",
           "correct_answer": "gate",
@@ -1442,7 +1562,7 @@
         {
           "interaction_id": "U41_L5_I5",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[airport|aeropuerto]])",
           "audio_url": "/audio/courses/ingles-a1/unit41/lesson5-task-5.mp3",
           "transcript_template": "The [[flight|]] is here.",
           "correct_answer": "flight",
@@ -1456,7 +1576,7 @@
         {
           "interaction_id": "U41_L5_I6",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[airport|aeropuerto]])",
           "audio_url": "/audio/courses/ingles-a1/unit41/lesson5-task-6.mp3",
           "transcript_template": "The [[boarding|]] is here.",
           "correct_answer": "boarding",
@@ -1470,7 +1590,7 @@
         {
           "interaction_id": "U41_L5_I7",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[airport|aeropuerto]])",
           "audio_url": "/audio/courses/ingles-a1/unit41/lesson5-task-7.mp3",
           "transcript_template": "The [[luggage|]] is here.",
           "correct_answer": "luggage",
@@ -1484,7 +1604,7 @@
         {
           "interaction_id": "U41_L5_I8",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[airport|aeropuerto]])",
           "title": "Pronunciación: At the Airport",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1523,7 +1643,7 @@
         {
           "interaction_id": "U41_L5_I9",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[airport|aeropuerto]])",
           "title": "Pronunciación: At the Airport",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1562,7 +1682,7 @@
         {
           "interaction_id": "U41_L5_I10",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[airport|aeropuerto]])",
           "title": "Pronunciación: At the Airport",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1601,7 +1721,7 @@
         {
           "interaction_id": "U41_L5_I11",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[airport|aeropuerto]])",
           "title": "Pronunciación: At the Airport",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1640,7 +1760,7 @@
         {
           "interaction_id": "U41_L5_I12",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[airport|aeropuerto]])",
           "title": "Pronunciación: At the Airport",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1679,7 +1799,7 @@
         {
           "interaction_id": "U41_L5_I13",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[airport|aeropuerto]])",
           "title": "Pronunciación: At the Airport",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1718,7 +1838,7 @@
         {
           "interaction_id": "U41_L5_I14",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[airport|aeropuerto]])",
           "title": "Pronunciación: At the Airport",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1757,7 +1877,7 @@
         {
           "interaction_id": "U41_L5_I15",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[airport|aeropuerto]])",
           "title": "Pronunciación: At the Airport",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [

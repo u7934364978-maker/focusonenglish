@@ -283,7 +283,7 @@
         {
           "interaction_id": "U24_I14",
           "type": "sentence_building",
-          "prompt_es": "Forma: 'Hay un parque entre el hospital y el colegio.'",
+          "prompt_es": "Forma: 'Hay un parque entre el hospital y el colegio.' ([[home|hogar]])",
           "words": [
             {
               "id": "w1",
@@ -426,7 +426,7 @@
         {
           "interaction_id": "U24_I20",
           "type": "sentence_building",
-          "prompt_es": "Forma: '¿Hay algo encima de la estantería?'",
+          "prompt_es": "Forma: '¿Hay algo encima de la estantería?' ([[home|hogar]])",
           "words": [
             {
               "id": "w1",
@@ -590,7 +590,7 @@
         {
           "interaction_id": "U24_I27",
           "type": "sentence_building",
-          "prompt_es": "Forma: 'La biblioteca está enfrente de la farmacia.'",
+          "prompt_es": "Forma: 'La biblioteca está enfrente de la farmacia.' ([[home|hogar]])",
           "words": [
             {
               "id": "w1",
@@ -757,7 +757,7 @@
         {
           "interaction_id": "U24_I36",
           "type": "sentence_building",
-          "prompt_es": "Forma: '¿Dónde está mi libro? Está al lado del ordenador.'",
+          "prompt_es": "Forma: '¿Dónde está mi libro? Está al lado del ordenador.' ([[home|hogar]])",
           "words": [
             {
               "id": "w1",
@@ -835,18 +835,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[above|encima de]]"
+              "text": "[[of|de]]"
             },
             {
               "id": "o2",
-              "text": "[[of|de]]"
+              "text": "[[above|encima de]]"
             },
             {
               "id": "o3",
               "text": "[[next to|al lado de]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "grammar",
           "complexity": 3
         }
@@ -911,7 +911,7 @@
         {
           "interaction_id": "U24_I43",
           "type": "multiple_choice",
-          "prompt_es": "¿Dónde está la cartera al final?",
+          "prompt_es": "¿Dónde está la cartera al final? ([[home|hogar]])",
           "options": [
             {
               "id": "o1",
@@ -933,7 +933,7 @@
         {
           "interaction_id": "U24_I44",
           "type": "multiple_choice",
-          "prompt_es": "¿Quién ayuda a Tom a encontrar su cartera?",
+          "prompt_es": "¿Quién ayuda a Tom a encontrar su cartera? ([[home|hogar]])",
           "options": [
             {
               "id": "o1",
@@ -955,7 +955,7 @@
         {
           "interaction_id": "U24_I45",
           "type": "fill_blanks",
-          "prompt_es": "Según el texto, Tom buscó primero en la ___ de la cocina.",
+          "prompt_es": "Según el texto, Tom buscó primero en la ___ de la cocina. ([[home|hogar]])",
           "correct_answer": "table",
           "mastery_tag": "reading",
           "complexity": 2
@@ -967,7 +967,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Angry|Enfadado]]"
+              "text": "[[Relieved|Aliviado]]"
             },
             {
               "id": "o2",
@@ -975,10 +975,10 @@
             },
             {
               "id": "o3",
-              "text": "[[Relieved|Aliviado]]"
+              "text": "[[Angry|Enfadado]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "reading",
           "complexity": 1
         },
@@ -1007,7 +1007,7 @@
         {
           "interaction_id": "U24_I48",
           "type": "sentence_building",
-          "prompt_es": "Forma: 'La cartera está debajo del abrigo.'",
+          "prompt_es": "Forma: 'La cartera está debajo del abrigo.' ([[home|hogar]])",
           "words": [
             {
               "id": "w1",
@@ -1070,10 +1070,204 @@
         {
           "interaction_id": "U24_I50",
           "type": "fill_blanks",
-          "prompt_es": "Tom encontró su cartera ___ his coat. (preposición = debajo de)",
+          "prompt_es": "Tom encontró su cartera ___ his coat. (preposición = debajo de) ([[coat|abrigo]])",
           "correct_answer": "under",
           "mastery_tag": "reading",
           "complexity": 1
+        }
+      ]
+    },
+    {
+      "block_id": "B24_REC",
+      "title": "Block 6: Recycling – Jobs & Workplaces",
+      "content": [
+        {
+          "interaction_id": "A1_U24_B24_REC_MC1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Dónde trabaja un [[doctor|médico]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[In a hospital|En un hospital]]"
+            },
+            {
+              "id": "o2",
+              "text": "In a school"
+            },
+            {
+              "id": "o3",
+              "text": "In a bank"
+            },
+            {
+              "id": "o4",
+              "text": "In a shop"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "jobs"
+          ]
+        },
+        {
+          "interaction_id": "A1_U24_B24_REC_MC2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la pregunta para preguntar la profesión?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[What do you do?|¿A qué te dedicas?]]"
+            },
+            {
+              "id": "o2",
+              "text": "What you are?"
+            },
+            {
+              "id": "o3",
+              "text": "Who you work?"
+            },
+            {
+              "id": "o4",
+              "text": "What is your do?"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "jobs"
+          ]
+        },
+        {
+          "interaction_id": "A1_U24_B24_REC_FB3",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: \"[[She|Ella]] is a ___ (nurse/nurses). She ___ (work/works) in a hospital.\"",
+          "stimulus_en": "She is a ___. She ___ in a hospital.",
+          "correct_answer": "nurse / works",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "jobs",
+            "present_simple"
+          ]
+        },
+        {
+          "interaction_id": "A1_U24_B24_REC_SW4",
+          "type": "short_writing",
+          "prompt_es": "Describe tu trabajo ideal. Usa [[I want to be|quiero ser]], [[I would like to work|me gustaría trabajar]], [[because|porque]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "concept_tags": [
+            "production",
+            "free_writing"
+          ],
+          "example_answer": "I want to be a teacher because I love helping people. I would like to work in a big school. I think it is a very important job."
+        },
+        {
+          "interaction_id": "A1_U24_B24_REC_SW5",
+          "type": "short_writing",
+          "prompt_es": "Escribe una presentación profesional breve (3-4 oraciones). Usa [[I am|soy]], [[I work|trabajo]], [[I have|tengo]] y [[My job|Mi trabajo]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "concept_tags": [
+            "production",
+            "free_writing"
+          ],
+          "example_answer": "I am Sofia and I am a graphic designer. I work for a small company in Madrid. I have five years of experience. My job is creative and interesting."
+        },
+        {
+          "interaction_id": "A1_U24_B24_REC_MC6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Dónde trabaja un [[chef|chef/cocinero]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[In a restaurant|En un restaurante]]"
+            },
+            {
+              "id": "o2",
+              "text": "In a hospital"
+            },
+            {
+              "id": "o3",
+              "text": "In a school"
+            },
+            {
+              "id": "o4",
+              "text": "In a library"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "jobs"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B24_EX",
+      "title": "Block 7: Extra Practice – Jobs & Workplaces",
+      "content": [
+        {
+          "interaction_id": "A1_U24_B24_EX_MC1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál de estos es un verbo de [[obligation|obligación]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[must|deber/tener que]]"
+            },
+            {
+              "id": "o2",
+              "text": "can"
+            },
+            {
+              "id": "o3",
+              "text": "should maybe"
+            },
+            {
+              "id": "o4",
+              "text": "will perhaps"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "modal_must"
+          ]
+        },
+        {
+          "interaction_id": "A1_U24_B24_EX_MC2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma correcta de \"[[to have|tener]]\" para [[they|ellos]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[They have|Ellos tienen]]"
+            },
+            {
+              "id": "o2",
+              "text": "They has"
+            },
+            {
+              "id": "o3",
+              "text": "They haves"
+            },
+            {
+              "id": "o4",
+              "text": "They are have"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "verb_have"
+          ]
         }
       ]
     }

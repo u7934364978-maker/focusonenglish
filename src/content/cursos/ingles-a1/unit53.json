@@ -21,7 +21,7 @@
         {
           "interaction_id": "A1_U53_B1_I2",
           "type": "fill_blanks",
-          "prompt_es": "Completa con 'some':",
+          "prompt_es": "Completa con 'some': ([[some|algo/algunos]])",
           "stimulus_en": "There is ________ butter in the fridge.",
           "correct_answer": "some",
           "mastery_tag": "grammar",
@@ -46,7 +46,7 @@
             },
             {
               "id": "w3",
-              "text": "some"
+              "text": "[[some|algo/algunos]]"
             },
             {
               "id": "w4",
@@ -108,7 +108,7 @@
         {
           "interaction_id": "A1_U53_B2_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la forma negativa correcta?",
+          "prompt_es": "¿Cuál es la forma negativa correcta? ([[milk|leche]])",
           "options": [
             {
               "id": "o1",
@@ -134,7 +134,7 @@
         {
           "interaction_id": "A1_U53_B2_I2",
           "type": "fill_blanks",
-          "prompt_es": "Completa la pregunta:",
+          "prompt_es": "Completa la pregunta: ([[apple|manzana]])",
           "stimulus_en": "Do you have ________ apples?",
           "correct_answer": "any",
           "mastery_tag": "grammar",
@@ -147,7 +147,7 @@
         {
           "interaction_id": "A1_U53_B2_I3",
           "type": "true_false",
-          "prompt_es": "En la frase 'Is there any salt?', ¿usamos 'any' porque es una pregunta?",
+          "prompt_es": "En la frase 'Is there any salt?', ¿usamos 'any' porque es una pregunta? ([[any|algún/ningún]])",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "complexity": 1,
@@ -159,7 +159,7 @@
         {
           "interaction_id": "A1_U53_B2_I4",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'No hay ningún huevo'",
+          "prompt_es": "Traduce: 'No hay ningún huevo' ([[some|algunos]])",
           "stimulus_es": "There aren't any eggs.",
           "correct_answer": "There aren't any eggs",
           "mastery_tag": "grammar",
@@ -172,7 +172,7 @@
         {
           "interaction_id": "A1_U53_B2_I5",
           "type": "audio_player",
-          "prompt_es": "Escucha la pregunta:",
+          "prompt_es": "Escucha la pregunta: ([[some|algunos]])",
           "audioUrl": "/audio/courses/ingles-a1/shared/any_water_question.mp3",
           "text": "Is there any water in the bottle?",
           "mastery_tag": "listening",
@@ -191,7 +191,7 @@
         {
           "interaction_id": "A1_U53_B3_I1",
           "type": "fill_blanks",
-          "prompt_es": "Completa con 'some' o 'any':",
+          "prompt_es": "Completa con 'some' o 'any': ([[some|algo/algunos]])",
           "stimulus_en": "I have ________ cookies, but I don't have ________ milk.",
           "correct_answer": "some, any",
           "mastery_tag": "grammar",
@@ -220,7 +220,7 @@
             },
             {
               "id": "w4",
-              "text": "any"
+              "text": "[[any|algún/ningún]]"
             },
             {
               "id": "w5",
@@ -244,7 +244,7 @@
         {
           "interaction_id": "A1_U53_B3_I4",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Tengo algunas galletas'",
+          "prompt_es": "Traduce: 'Tengo algunas galletas' ([[some|algunos]])",
           "stimulus_es": "I have some cookies.",
           "correct_answer": "I have some cookies",
           "mastery_tag": "grammar",
@@ -263,7 +263,7 @@
         {
           "interaction_id": "A1_U53_B4_I2",
           "type": "fill_blanks",
-          "prompt_es": "Completa el texto:",
+          "prompt_es": "Completa el texto: ([[some|algunos]])",
           "stimulus_en": "I don't have ________ money. Do you have ________?",
           "correct_answer": "any, any",
           "mastery_tag": "grammar",
@@ -276,7 +276,7 @@
         {
           "interaction_id": "A1_U53_B4_I4",
           "type": "short_writing",
-          "prompt_es": "Escribe '¿Tienes algo de sal?' en inglés:",
+          "prompt_es": "Escribe '¿Tienes algo de sal?' en inglés: ([[some|algunos]])",
           "stimulus_es": "Do you have any salt?",
           "correct_answer": "Do you have any salt",
           "mastery_tag": "grammar",
@@ -295,7 +295,7 @@
         {
           "interaction_id": "U53_I101",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[butter|mantequilla]])",
           "stimulus_en": "I have some butter.",
           "correct_answer": "I have some butter.",
           "audioUrl": "/audio/courses/ingles-a1/unit53/lesson5-task-1.mp3",
@@ -309,7 +309,7 @@
         {
           "interaction_id": "U53_I102",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[salt|sal]])",
           "stimulus_en": "I don't have any salt.",
           "correct_answer": "I don't have any salt.",
           "audioUrl": "/audio/courses/ingles-a1/unit53/lesson5-task-2.mp3",
@@ -323,7 +323,7 @@
         {
           "interaction_id": "U53_I103",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[sugar|azúcar]])",
           "stimulus_en": "Do you have any sugar?",
           "correct_answer": "Do you have any sugar?",
           "audioUrl": "/audio/courses/ingles-a1/unit53/lesson5-task-3.mp3",
@@ -337,7 +337,7 @@
         {
           "interaction_id": "U53_I104",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[flour|harina]])",
           "stimulus_en": "We need some flour.",
           "correct_answer": "We need some flour.",
           "audioUrl": "/audio/courses/ingles-a1/unit53/lesson5-task-4.mp3",
@@ -351,7 +351,7 @@
         {
           "interaction_id": "U53_I105",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[cheese|queso]])",
           "stimulus_en": "There isn't any cheese.",
           "correct_answer": "There isn't any cheese.",
           "audioUrl": "/audio/courses/ingles-a1/unit53/lesson5-task-5.mp3",
@@ -365,7 +365,7 @@
         {
           "interaction_id": "U53_I106",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[some|algo/algunos]])",
           "stimulus_en": "I want some eggs.",
           "correct_answer": "I want some eggs.",
           "audioUrl": "/audio/courses/ingles-a1/unit53/lesson5-task-6.mp3",
@@ -379,7 +379,7 @@
         {
           "interaction_id": "U53_I107",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[any|algún/ningún]])",
           "stimulus_en": "Are there any bananas?",
           "correct_answer": "Are there any bananas?",
           "audioUrl": "/audio/courses/ingles-a1/unit53/lesson5-task-7.mp3",
@@ -393,7 +393,7 @@
         {
           "interaction_id": "U53_I108",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[some|algunos]])",
           "title": "Pronunciación: Flour",
           "instructions": "Suena igual que 'flower'.",
           "targetSentences": [
@@ -432,7 +432,7 @@
         {
           "interaction_id": "U53_I109",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[some|algunos]])",
           "title": "Pronunciación: Butter",
           "instructions": "Escucha y repite la 'u' corta.",
           "targetSentences": [
@@ -471,7 +471,7 @@
         {
           "interaction_id": "U53_I110",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[some|algunos]])",
           "title": "Pronunciación: Cheese",
           "instructions": "Escucha y repite la 'ee' larga.",
           "targetSentences": [
@@ -510,7 +510,7 @@
         {
           "interaction_id": "U53_I111",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[some|algunos]])",
           "title": "Pronunciación: Any",
           "instructions": "La 'a' suena como /ɛ/.",
           "targetSentences": [
@@ -549,7 +549,7 @@
         {
           "interaction_id": "U53_I112",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[some|algunos]])",
           "title": "Pronunciación: Bread",
           "instructions": "Escucha y repite.",
           "targetSentences": [
@@ -588,7 +588,7 @@
         {
           "interaction_id": "U53_I113",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[some|algunos]])",
           "title": "Pronunciación: Cookies",
           "instructions": "Escucha y repite la 'oo'.",
           "targetSentences": [
@@ -627,7 +627,7 @@
         {
           "interaction_id": "U53_I114",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[some|algunos]])",
           "title": "Pronunciación: Banana",
           "instructions": "Escucha y repite la acentuación.",
           "targetSentences": [
@@ -666,7 +666,7 @@
         {
           "interaction_id": "U53_I115",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[some|algunos]])",
           "title": "Pronunciación: Bottle",
           "instructions": "Escucha y repite la 'o'.",
           "targetSentences": [
@@ -714,18 +714,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Some|algo/algunos]]"
             },
             {
               "id": "o2",
-              "text": "Some"
+              "text": "Nothing"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Any"
+            },
+            {
+              "id": "o4",
+              "text": "Anything"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -735,18 +739,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Something"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "[[Any|algún/ningún]]"
             },
             {
               "id": "o3",
-              "text": "Any"
+              "text": "Some"
+            },
+            {
+              "id": "o4",
+              "text": "No"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -756,18 +764,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Bread"
+              "text": "No"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Bread|pan]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Any"
+            },
+            {
+              "id": "o4",
+              "text": "Anything"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -777,18 +789,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Cheese|queso]]"
             },
             {
               "id": "o2",
-              "text": "Cheese"
+              "text": "No"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Anything"
+            },
+            {
+              "id": "o4",
+              "text": "Some"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -798,15 +814,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Nothing"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Any"
             },
             {
               "id": "o3",
-              "text": "Tomatoes"
+              "text": "[[Tomatoes|tomatoes]]"
+            },
+            {
+              "id": "o4",
+              "text": "Anything"
             }
           ],
           "correct_answer": "o3",
@@ -819,18 +839,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Milk"
+              "text": "Any"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Nothing"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Something"
+            },
+            {
+              "id": "o4",
+              "text": "[[Milk|leche]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -840,18 +864,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Coffee|café]]"
             },
             {
               "id": "o2",
-              "text": "Coffee"
+              "text": "Some"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "No"
+            },
+            {
+              "id": "o4",
+              "text": "Any"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -861,18 +889,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Something"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "No"
             },
             {
               "id": "o3",
-              "text": "Some"
+              "text": "Anything"
+            },
+            {
+              "id": "o4",
+              "text": "[[Some|algo/algunos]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -882,18 +914,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Any"
+              "text": "Anything"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Some"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Something"
+            },
+            {
+              "id": "o4",
+              "text": "[[Any|algún/ningún]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -903,15 +939,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Nothing"
             },
             {
               "id": "o2",
-              "text": "Bread"
+              "text": "[[Bread|pan]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Some"
+            },
+            {
+              "id": "o4",
+              "text": "Any"
             }
           ],
           "correct_answer": "o2",
@@ -924,18 +964,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Anything"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "No"
             },
             {
               "id": "o3",
-              "text": "Cheese"
+              "text": "Something"
+            },
+            {
+              "id": "o4",
+              "text": "[[Cheese|queso]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -945,15 +989,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Tomatoes"
+              "text": "[[Tomatoes|tomatoes]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "No"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Any"
+            },
+            {
+              "id": "o4",
+              "text": "Anything"
             }
           ],
           "correct_answer": "o1",
@@ -966,15 +1014,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "No"
             },
             {
               "id": "o2",
-              "text": "Milk"
+              "text": "[[Milk|leche]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Some"
+            },
+            {
+              "id": "o4",
+              "text": "Any"
             }
           ],
           "correct_answer": "o2",
@@ -987,18 +1039,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Anything"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Something"
             },
             {
               "id": "o3",
-              "text": "Coffee"
+              "text": "No"
+            },
+            {
+              "id": "o4",
+              "text": "[[Coffee|café]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1008,18 +1064,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Some"
+              "text": "Nothing"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Some|algo/algunos]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Anything"
+            },
+            {
+              "id": "o4",
+              "text": "Something"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1029,15 +1089,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Nothing"
             },
             {
               "id": "o2",
-              "text": "Any"
+              "text": "[[Any|algún/ningún]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Anything"
+            },
+            {
+              "id": "o4",
+              "text": "No"
             }
           ],
           "correct_answer": "o2",
@@ -1050,18 +1114,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Something"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "[[Bread|pan]]"
             },
             {
               "id": "o3",
-              "text": "Bread"
+              "text": "Nothing"
+            },
+            {
+              "id": "o4",
+              "text": "No"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1071,18 +1139,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Cheese"
+              "text": "Nothing"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "No"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Cheese|queso]]"
+            },
+            {
+              "id": "o4",
+              "text": "Some"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1092,18 +1164,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Any"
             },
             {
               "id": "o2",
-              "text": "Tomatoes"
+              "text": "Anything"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Tomatoes|tomatoes]]"
+            },
+            {
+              "id": "o4",
+              "text": "No"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1113,18 +1189,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Some"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "No"
             },
             {
               "id": "o3",
-              "text": "Milk"
+              "text": "Any"
+            },
+            {
+              "id": "o4",
+              "text": "[[Milk|leche]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1134,18 +1214,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Coffee"
+              "text": "Any"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Nothing"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Coffee|café]]"
+            },
+            {
+              "id": "o4",
+              "text": "Something"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1155,18 +1239,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Anything"
             },
             {
               "id": "o2",
-              "text": "Some"
+              "text": "Any"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "No"
+            },
+            {
+              "id": "o4",
+              "text": "[[Some|algo/algunos]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1176,18 +1264,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Nothing"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Any|algún/ningún]]"
             },
             {
               "id": "o3",
-              "text": "Any"
+              "text": "Something"
+            },
+            {
+              "id": "o4",
+              "text": "Some"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1197,15 +1289,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Bread"
+              "text": "[[Bread|pan]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Any"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Nothing"
+            },
+            {
+              "id": "o4",
+              "text": "Some"
             }
           ],
           "correct_answer": "o1",
@@ -1218,18 +1314,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "No"
             },
             {
               "id": "o2",
-              "text": "Cheese"
+              "text": "Some"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Cheese|queso]]"
+            },
+            {
+              "id": "o4",
+              "text": "Nothing"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1239,18 +1339,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Anything"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Tomatoes|tomatoes]]"
             },
             {
               "id": "o3",
-              "text": "Tomatoes"
+              "text": "No"
+            },
+            {
+              "id": "o4",
+              "text": "Some"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1260,18 +1364,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Milk"
+              "text": "Something"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Milk|leche]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "No"
+            },
+            {
+              "id": "o4",
+              "text": "Nothing"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1281,18 +1389,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "No"
             },
             {
               "id": "o2",
-              "text": "Coffee"
+              "text": "Nothing"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Coffee|café]]"
+            },
+            {
+              "id": "o4",
+              "text": "Something"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1302,18 +1414,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Anything"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Some|algo/algunos]]"
             },
             {
               "id": "o3",
-              "text": "Some"
+              "text": "Nothing"
+            },
+            {
+              "id": "o4",
+              "text": "Something"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1323,18 +1439,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Any"
+              "text": "Some"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Anything"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "No"
+            },
+            {
+              "id": "o4",
+              "text": "[[Any|algún/ningún]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1344,18 +1464,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Any"
             },
             {
               "id": "o2",
-              "text": "Bread"
+              "text": "Something"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "No"
+            },
+            {
+              "id": "o4",
+              "text": "[[Bread|pan]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1365,18 +1489,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "[[Cheese|queso]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Some"
             },
             {
               "id": "o3",
-              "text": "Cheese"
+              "text": "Something"
+            },
+            {
+              "id": "o4",
+              "text": "Anything"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         }
       ]
@@ -1388,7 +1516,7 @@
         {
           "interaction_id": "U53_L5_I1",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[some|algunos]])",
           "audio_url": "/audio/courses/ingles-a1/unit53/lesson5-task-1.mp3",
           "transcript_template": "The [[some|]] is here.",
           "correct_answer": "some",
@@ -1402,7 +1530,7 @@
         {
           "interaction_id": "U53_L5_I2",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[some|algunos]])",
           "audio_url": "/audio/courses/ingles-a1/unit53/lesson5-task-2.mp3",
           "transcript_template": "The [[any|]] is here.",
           "correct_answer": "any",
@@ -1416,7 +1544,7 @@
         {
           "interaction_id": "U53_L5_I3",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[some|algunos]])",
           "audio_url": "/audio/courses/ingles-a1/unit53/lesson5-task-3.mp3",
           "transcript_template": "The [[bread|]] is here.",
           "correct_answer": "bread",
@@ -1430,7 +1558,7 @@
         {
           "interaction_id": "U53_L5_I4",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[some|algunos]])",
           "audio_url": "/audio/courses/ingles-a1/unit53/lesson5-task-4.mp3",
           "transcript_template": "The [[cheese|]] is here.",
           "correct_answer": "cheese",
@@ -1444,7 +1572,7 @@
         {
           "interaction_id": "U53_L5_I5",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[some|algunos]])",
           "audio_url": "/audio/courses/ingles-a1/unit53/lesson5-task-5.mp3",
           "transcript_template": "The [[tomatoes|]] is here.",
           "correct_answer": "tomatoes",
@@ -1458,7 +1586,7 @@
         {
           "interaction_id": "U53_L5_I6",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[some|algunos]])",
           "audio_url": "/audio/courses/ingles-a1/unit53/lesson5-task-6.mp3",
           "transcript_template": "The [[milk|]] is here.",
           "correct_answer": "milk",
@@ -1472,7 +1600,7 @@
         {
           "interaction_id": "U53_L5_I7",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[some|algunos]])",
           "audio_url": "/audio/courses/ingles-a1/unit53/lesson5-task-7.mp3",
           "transcript_template": "The [[coffee|]] is here.",
           "correct_answer": "coffee",
@@ -1486,7 +1614,7 @@
         {
           "interaction_id": "U53_L5_I8",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[some|algunos]])",
           "title": "Pronunciación: Some & Any",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1525,7 +1653,7 @@
         {
           "interaction_id": "U53_L5_I9",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[some|algunos]])",
           "title": "Pronunciación: Some & Any",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1564,7 +1692,7 @@
         {
           "interaction_id": "U53_L5_I10",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[some|algunos]])",
           "title": "Pronunciación: Some & Any",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1603,7 +1731,7 @@
         {
           "interaction_id": "U53_L5_I11",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[some|algunos]])",
           "title": "Pronunciación: Some & Any",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1642,7 +1770,7 @@
         {
           "interaction_id": "U53_L5_I12",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[some|algunos]])",
           "title": "Pronunciación: Some & Any",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1681,7 +1809,7 @@
         {
           "interaction_id": "U53_L5_I13",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[some|algunos]])",
           "title": "Pronunciación: Some & Any",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1720,7 +1848,7 @@
         {
           "interaction_id": "U53_L5_I14",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[some|algunos]])",
           "title": "Pronunciación: Some & Any",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1759,7 +1887,7 @@
         {
           "interaction_id": "U53_L5_I15",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[some|algunos]])",
           "title": "Pronunciación: Some & Any",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [

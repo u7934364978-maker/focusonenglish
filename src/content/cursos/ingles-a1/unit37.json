@@ -85,7 +85,7 @@
         {
           "interaction_id": "A1_U37_B37_1_I3",
           "type": "fill_blanks",
-          "prompt_es": "Completa con la habilidad física:",
+          "prompt_es": "Completa con la habilidad física: ([[water|agua]])",
           "stimulus_en": "Fish can ________ underwater. (nadar)",
           "correct_answer": "swim",
           "mastery_tag": "vocabulary",
@@ -98,7 +98,7 @@
         {
           "interaction_id": "A1_U37_B37_1_I4",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Cantar'",
+          "prompt_es": "Traduce: 'Cantar' ([[swim|nadar]])",
           "stimulus_es": "Cantar",
           "correct_answer": "Sing",
           "mastery_tag": "vocabulary",
@@ -111,7 +111,7 @@
         {
           "interaction_id": "A1_U37_B37_1_I5",
           "type": "flashcard",
-          "prompt_es": "Aprende el adjetivo:",
+          "prompt_es": "Aprende el adjetivo: ([[swim|nadar]])",
           "stimulus_en": "[[Talented|talentoso]]",
           "correct_answer": "Talentoso/a",
           "mastery_tag": "vocabulary",
@@ -130,7 +130,7 @@
         {
           "interaction_id": "A1_U37_B37_2_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la forma correcta?",
+          "prompt_es": "¿Cuál es la forma correcta? ([[cook|cocinar]])",
           "options": [
             {
               "id": "o1",
@@ -195,7 +195,7 @@
             },
             {
               "id": "w2",
-              "text": "can"
+              "text": "[[can|poder]]"
             },
             {
               "id": "w3",
@@ -250,7 +250,7 @@
         {
           "interaction_id": "A1_U37_B37_3_I4",
           "type": "short_writing",
-          "prompt_es": "Traduce: '¿Quién puede hablar inglés?'",
+          "prompt_es": "Traduce: '¿Quién puede hablar inglés?' ([[swim|nadar]])",
           "stimulus_es": "¿Quién puede hablar inglés?",
           "correct_answer": "Who can speak English?",
           "mastery_tag": "syntax",
@@ -263,7 +263,7 @@
         {
           "interaction_id": "A1_U37_B37_3_I5",
           "type": "true_false",
-          "prompt_es": "¿'Practice makes perfect' significa que la práctica lleva a la perfección?",
+          "prompt_es": "¿'Practice makes perfect' significa que la práctica lleva a la perfección? ([[swim|nadar]])",
           "correct_answer": true,
           "mastery_tag": "vocabulary",
           "complexity": 1,
@@ -287,7 +287,7 @@
         {
           "interaction_id": "A1_U37_B37_4_I5",
           "type": "multiple_choice",
-          "prompt_es": "¿Quién es el bailarín en el texto?",
+          "prompt_es": "¿Quién es el bailarín en el texto? ([[every day|todos los días]])",
           "options": [
             {
               "id": "o1",
@@ -323,18 +323,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Sing|cantar]]"
+              "text": "Swim"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Sing"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Write"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[sing|cantar]]|[[sing|cantar]]]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -344,18 +348,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[dance|bailar]]|[[dance|bailar]]]]"
             },
             {
               "id": "o2",
-              "text": "[[Dance|bailar]]"
+              "text": "Sing"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Play guitar"
+            },
+            {
+              "id": "o4",
+              "text": "Draw"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -365,18 +373,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Cook"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Sing"
             },
             {
               "id": "o3",
-              "text": "[[Paint|pintar]]"
+              "text": "Write"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[paint|pintar]]|[[paint|pintar]]]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -386,18 +398,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Cook|cocinar]]"
+              "text": "Draw"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Play guitar"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[[[cook|cocinar]]|[[cook|cocinar]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Cook"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -407,18 +423,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Write"
             },
             {
               "id": "o2",
-              "text": "[[Write|escribir]]"
+              "text": "Dance"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Swim"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[write|escribir]]|[[write|escribir]]]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -428,18 +448,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Act|act]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Write"
             },
             {
               "id": "o3",
-              "text": "Act"
+              "text": "Draw"
+            },
+            {
+              "id": "o4",
+              "text": "Cook"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -449,18 +473,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Talent|talento]]"
+              "text": "Swim"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[[[talent|talento]]|[[talent|talento]]]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Paint"
+            },
+            {
+              "id": "o4",
+              "text": "Sing"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -470,18 +498,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Swim"
             },
             {
               "id": "o2",
-              "text": "[[Sing|cantar]]"
+              "text": "Write"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Paint"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[sing|cantar]]|[[sing|cantar]]]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -491,18 +523,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[dance|bailar]]|[[dance|bailar]]]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Paint"
             },
             {
               "id": "o3",
-              "text": "[[Dance|bailar]]"
+              "text": "Play guitar"
+            },
+            {
+              "id": "o4",
+              "text": "Speak"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -512,15 +548,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Paint|pintar]]"
+              "text": "[[[[paint|pintar]]|[[paint|pintar]]]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Write"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Play guitar"
+            },
+            {
+              "id": "o4",
+              "text": "Cook"
             }
           ],
           "correct_answer": "o1",
@@ -533,18 +573,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[cook|cocinar]]|[[cook|cocinar]]]]"
             },
             {
               "id": "o2",
-              "text": "[[Cook|cocinar]]"
+              "text": "Swim"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Cook"
+            },
+            {
+              "id": "o4",
+              "text": "Sing"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -554,18 +598,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Run"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Draw"
             },
             {
               "id": "o3",
-              "text": "[[Write|escribir]]"
+              "text": "Swim"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[write|escribir]]|[[write|escribir]]]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -575,15 +623,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Act"
+              "text": "[[Act|act]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Run"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Cook"
+            },
+            {
+              "id": "o4",
+              "text": "Draw"
             }
           ],
           "correct_answer": "o1",
@@ -596,18 +648,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[talent|talento]]|[[talent|talento]]]]"
             },
             {
               "id": "o2",
-              "text": "[[Talent|talento]]"
+              "text": "Sing"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Run"
+            },
+            {
+              "id": "o4",
+              "text": "Swim"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -617,18 +673,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[sing|cantar]]|[[sing|cantar]]]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Draw"
             },
             {
               "id": "o3",
-              "text": "[[Sing|cantar]]"
+              "text": "Swim"
+            },
+            {
+              "id": "o4",
+              "text": "Paint"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -638,18 +698,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Dance|bailar]]"
+              "text": "Run"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[[[dance|bailar]]|[[dance|bailar]]]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Speak"
+            },
+            {
+              "id": "o4",
+              "text": "Write"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -659,15 +723,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Swim"
             },
             {
               "id": "o2",
-              "text": "[[Paint|pintar]]"
+              "text": "[[[[paint|pintar]]|[[paint|pintar]]]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Draw"
+            },
+            {
+              "id": "o4",
+              "text": "Play guitar"
             }
           ],
           "correct_answer": "o2",
@@ -680,18 +748,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Cook"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Sing"
             },
             {
               "id": "o3",
-              "text": "[[Cook|cocinar]]"
+              "text": "Dance"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[cook|cocinar]]|[[cook|cocinar]]]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -701,18 +773,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Write|escribir]]"
+              "text": "Dance"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Draw"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[[[write|escribir]]|[[write|escribir]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Cook"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -722,18 +798,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Swim"
             },
             {
               "id": "o2",
-              "text": "Act"
+              "text": "Sing"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Act|act]]"
+            },
+            {
+              "id": "o4",
+              "text": "Speak"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -743,15 +823,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Play guitar"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Swim"
             },
             {
               "id": "o3",
-              "text": "[[Talent|talento]]"
+              "text": "[[[[talent|talento]]|[[talent|talento]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Draw"
             }
           ],
           "correct_answer": "o3",
@@ -764,18 +848,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Sing|cantar]]"
+              "text": "Draw"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Swim"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Paint"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[sing|cantar]]|[[sing|cantar]]]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -785,18 +873,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[dance|bailar]]|[[dance|bailar]]]]"
             },
             {
               "id": "o2",
-              "text": "[[Dance|bailar]]"
+              "text": "Play guitar"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Sing"
+            },
+            {
+              "id": "o4",
+              "text": "Speak"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -806,18 +898,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[paint|pintar]]|[[paint|pintar]]]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Swim"
             },
             {
               "id": "o3",
-              "text": "[[Paint|pintar]]"
+              "text": "Draw"
+            },
+            {
+              "id": "o4",
+              "text": "Sing"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -827,18 +923,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Cook|cocinar]]"
+              "text": "Cook"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[[[cook|cocinar]]|[[cook|cocinar]]]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Speak"
+            },
+            {
+              "id": "o4",
+              "text": "Write"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -848,15 +948,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Swim"
             },
             {
               "id": "o2",
-              "text": "[[Write|escribir]]"
+              "text": "[[[[write|escribir]]|[[write|escribir]]]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Paint"
+            },
+            {
+              "id": "o4",
+              "text": "Run"
             }
           ],
           "correct_answer": "o2",
@@ -869,15 +973,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Paint"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Run"
             },
             {
               "id": "o3",
-              "text": "Act"
+              "text": "[[Act|act]]"
+            },
+            {
+              "id": "o4",
+              "text": "Play guitar"
             }
           ],
           "correct_answer": "o3",
@@ -890,18 +998,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Talent|talento]]"
+              "text": "Swim"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[[[talent|talento]]|[[talent|talento]]]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Run"
+            },
+            {
+              "id": "o4",
+              "text": "Speak"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -911,15 +1023,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Swim"
             },
             {
               "id": "o2",
-              "text": "[[Sing|cantar]]"
+              "text": "[[[[sing|cantar]]|[[sing|cantar]]]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Cook"
+            },
+            {
+              "id": "o4",
+              "text": "Run"
             }
           ],
           "correct_answer": "o2",
@@ -932,18 +1048,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[dance|bailar]]|[[dance|bailar]]]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Paint"
             },
             {
               "id": "o3",
-              "text": "[[Dance|bailar]]"
+              "text": "Sing"
+            },
+            {
+              "id": "o4",
+              "text": "Speak"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -953,15 +1073,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Paint|pintar]]"
+              "text": "[[[[paint|pintar]]|[[paint|pintar]]]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Cook"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Run"
+            },
+            {
+              "id": "o4",
+              "text": "Play guitar"
             }
           ],
           "correct_answer": "o1",
@@ -974,18 +1098,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Dance"
             },
             {
               "id": "o2",
-              "text": "[[Cook|cocinar]]"
+              "text": "Play guitar"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Speak"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[cook|cocinar]]|[[cook|cocinar]]]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -995,18 +1123,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Write"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "[[[[write|escribir]]|[[write|escribir]]]]"
             },
             {
               "id": "o3",
-              "text": "[[Write|escribir]]"
+              "text": "Speak"
+            },
+            {
+              "id": "o4",
+              "text": "Draw"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1016,18 +1148,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Act"
+              "text": "Speak"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Act|act]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Run"
+            },
+            {
+              "id": "o4",
+              "text": "Swim"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1037,18 +1173,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[talent|talento]]|[[talent|talento]]]]"
             },
             {
               "id": "o2",
-              "text": "[[Talent|talento]]"
+              "text": "Dance"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Paint"
+            },
+            {
+              "id": "o4",
+              "text": "Write"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1058,15 +1198,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Cook"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Paint"
             },
             {
               "id": "o3",
-              "text": "[[Sing|cantar]]"
+              "text": "[[[[sing|cantar]]|[[sing|cantar]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Run"
             }
           ],
           "correct_answer": "o3",
@@ -1079,18 +1223,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Dance|bailar]]"
+              "text": "Speak"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[[[dance|bailar]]|[[dance|bailar]]]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Swim"
+            },
+            {
+              "id": "o4",
+              "text": "Write"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1100,18 +1248,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Speak"
             },
             {
               "id": "o2",
-              "text": "[[Paint|pintar]]"
+              "text": "Paint"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Swim"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[paint|pintar]]|[[paint|pintar]]]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1121,18 +1273,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Draw"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "[[[[cook|cocinar]]|[[cook|cocinar]]]]"
             },
             {
               "id": "o3",
-              "text": "[[Cook|cocinar]]"
+              "text": "Swim"
+            },
+            {
+              "id": "o4",
+              "text": "Sing"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1142,18 +1298,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Write|escribir]]"
+              "text": "Play guitar"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Dance"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Sing"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[write|escribir]]|[[write|escribir]]]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1163,18 +1323,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Paint"
             },
             {
               "id": "o2",
-              "text": "Act"
+              "text": "Run"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Draw"
+            },
+            {
+              "id": "o4",
+              "text": "[[Act|act]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1184,18 +1348,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Sing"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "[[[[talent|talento]]|[[talent|talento]]]]"
             },
             {
               "id": "o3",
-              "text": "[[Talent|talento]]"
+              "text": "Speak"
+            },
+            {
+              "id": "o4",
+              "text": "Play guitar"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1205,18 +1373,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Sing|cantar]]"
+              "text": "Run"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Cook"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Sing"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[sing|cantar]]|[[sing|cantar]]]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1226,18 +1398,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Cook"
             },
             {
               "id": "o2",
-              "text": "[[Dance|bailar]]"
+              "text": "Write"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Draw"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[dance|bailar]]|[[dance|bailar]]]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1247,18 +1423,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[paint|pintar]]|[[paint|pintar]]]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Play guitar"
             },
             {
               "id": "o3",
-              "text": "[[Paint|pintar]]"
+              "text": "Paint"
+            },
+            {
+              "id": "o4",
+              "text": "Speak"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1268,18 +1448,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Cook|cocinar]]"
+              "text": "Paint"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Swim"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[[[cook|cocinar]]|[[cook|cocinar]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Write"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1289,18 +1473,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[write|escribir]]|[[write|escribir]]]]"
             },
             {
               "id": "o2",
-              "text": "[[Write|escribir]]"
+              "text": "Play guitar"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Swim"
+            },
+            {
+              "id": "o4",
+              "text": "Draw"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         }
       ]
@@ -1312,7 +1500,7 @@
         {
           "interaction_id": "U37_L5_I1",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[swim|nadar]])",
           "audio_url": "/audio/courses/ingles-a1/unit37/lesson5-task-1.mp3",
           "transcript_template": "The [[sing|]] is here.",
           "correct_answer": "sing",
@@ -1326,7 +1514,7 @@
         {
           "interaction_id": "U37_L5_I2",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[swim|nadar]])",
           "audio_url": "/audio/courses/ingles-a1/unit37/lesson5-task-2.mp3",
           "transcript_template": "The [[dance|]] is here.",
           "correct_answer": "dance",
@@ -1340,7 +1528,7 @@
         {
           "interaction_id": "U37_L5_I3",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[swim|nadar]])",
           "audio_url": "/audio/courses/ingles-a1/unit37/lesson5-task-3.mp3",
           "transcript_template": "The [[paint|]] is here.",
           "correct_answer": "paint",
@@ -1354,7 +1542,7 @@
         {
           "interaction_id": "U37_L5_I4",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[swim|nadar]])",
           "audio_url": "/audio/courses/ingles-a1/unit37/lesson5-task-4.mp3",
           "transcript_template": "The [[cook|]] is here.",
           "correct_answer": "cook",
@@ -1368,7 +1556,7 @@
         {
           "interaction_id": "U37_L5_I5",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[swim|nadar]])",
           "audio_url": "/audio/courses/ingles-a1/unit37/lesson5-task-5.mp3",
           "transcript_template": "The [[write|]] is here.",
           "correct_answer": "write",
@@ -1382,7 +1570,7 @@
         {
           "interaction_id": "U37_L5_I6",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[swim|nadar]])",
           "audio_url": "/audio/courses/ingles-a1/unit37/lesson5-task-6.mp3",
           "transcript_template": "The [[act|]] is here.",
           "correct_answer": "act",
@@ -1396,7 +1584,7 @@
         {
           "interaction_id": "U37_L5_I7",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[swim|nadar]])",
           "audio_url": "/audio/courses/ingles-a1/unit37/lesson5-task-7.mp3",
           "transcript_template": "The [[talent|]] is here.",
           "correct_answer": "talent",
@@ -1410,7 +1598,7 @@
         {
           "interaction_id": "U37_L5_I8",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[swim|nadar]])",
           "title": "Pronunciación: Talent & Skills",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1449,7 +1637,7 @@
         {
           "interaction_id": "U37_L5_I9",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[swim|nadar]])",
           "title": "Pronunciación: Talent & Skills",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1488,7 +1676,7 @@
         {
           "interaction_id": "U37_L5_I10",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[swim|nadar]])",
           "title": "Pronunciación: Talent & Skills",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1527,7 +1715,7 @@
         {
           "interaction_id": "U37_L5_I11",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[swim|nadar]])",
           "title": "Pronunciación: Talent & Skills",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1566,7 +1754,7 @@
         {
           "interaction_id": "U37_L5_I12",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[swim|nadar]])",
           "title": "Pronunciación: Talent & Skills",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1605,7 +1793,7 @@
         {
           "interaction_id": "U37_L5_I13",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[swim|nadar]])",
           "title": "Pronunciación: Talent & Skills",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1644,7 +1832,7 @@
         {
           "interaction_id": "U37_L5_I14",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[swim|nadar]])",
           "title": "Pronunciación: Talent & Skills",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1683,7 +1871,7 @@
         {
           "interaction_id": "U37_L5_I15",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[swim|nadar]])",
           "title": "Pronunciación: Talent & Skills",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [

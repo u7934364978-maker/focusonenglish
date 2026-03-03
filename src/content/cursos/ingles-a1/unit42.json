@@ -59,7 +59,7 @@
         {
           "interaction_id": "A1_U42_B42_1_I2",
           "type": "multiple_choice",
-          "prompt_es": "¿Dónde esperas el tren?",
+          "prompt_es": "¿Dónde esperas el tren? ([[bus|autobús]])",
           "options": [
             {
               "id": "o2",
@@ -85,7 +85,7 @@
         {
           "interaction_id": "A1_U42_B42_1_I3",
           "type": "fill_blanks",
-          "prompt_es": "Completa el lugar:",
+          "prompt_es": "Completa el lugar: ([[bus|autobús]])",
           "stimulus_en": "I buy my ticket at the bus ________. (estación)",
           "correct_answer": "station",
           "mastery_tag": "vocabulary",
@@ -98,7 +98,7 @@
         {
           "interaction_id": "A1_U42_B42_1_I4",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Bicicleta'",
+          "prompt_es": "Traduce: 'Bicicleta' ([[bus|autobús]])",
           "stimulus_es": "Bicicleta",
           "correct_answer": "Bicycle",
           "mastery_tag": "vocabulary",
@@ -111,7 +111,7 @@
         {
           "interaction_id": "A1_U42_B42_1_I5",
           "type": "flashcard",
-          "prompt_es": "Repaso de transporte:",
+          "prompt_es": "Repaso de transporte: ([[taxi|taxi]])",
           "stimulus_en": "Taxi",
           "correct_answer": "Taxi",
           "mastery_tag": "vocabulary",
@@ -130,7 +130,7 @@
         {
           "interaction_id": "A1_U42_B42_2_I1",
           "type": "multiple_choice",
-          "prompt_es": "I go to London ________ train.",
+          "prompt_es": "I go to London ________ train. ([[train|tren]])",
           "options": [
             {
               "id": "o2",
@@ -156,7 +156,7 @@
         {
           "interaction_id": "A1_U42_B42_2_I2",
           "type": "fill_blanks",
-          "prompt_es": "Completa con la preposición (on/at):",
+          "prompt_es": "Completa con la preposición (on/at): ([[bus|autobús]])",
           "stimulus_en": "Wait for me ________ the station.",
           "correct_answer": "at",
           "mastery_tag": "grammar",
@@ -169,7 +169,7 @@
         {
           "interaction_id": "A1_U42_B42_2_I3",
           "type": "true_false",
-          "prompt_es": "¿Es natural decir 'I am on the bus'?",
+          "prompt_es": "¿Es natural decir 'I am on the bus'? ([[bus|autobús]])",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "complexity": 1,
@@ -181,7 +181,7 @@
         {
           "interaction_id": "A1_U42_B42_2_I5",
           "type": "fill_blanks",
-          "prompt_es": "Completa la frase:",
+          "prompt_es": "Completa la frase: ([[train|tren]])",
           "stimulus_en": "The train ________ at 9:00 AM. (sale)",
           "correct_answer": "leaves",
           "mastery_tag": "grammar",
@@ -200,7 +200,7 @@
         {
           "interaction_id": "A1_U42_B42_3_I1",
           "type": "reorder_words",
-          "prompt_es": "Compra un billete:",
+          "prompt_es": "Compra un billete: ([[bus|autobús]])",
           "options": [
             {
               "id": "w1",
@@ -240,7 +240,7 @@
         {
           "interaction_id": "A1_U42_B42_3_I2",
           "type": "multiple_choice",
-          "prompt_es": "Announcement: 'The 10:30 bus is delayed.' - Meaning:",
+          "prompt_es": "Announcement: 'The 10:30 bus is delayed.' - Meaning: ([[bus|autobús]])",
           "options": [
             {
               "id": "o2",
@@ -266,7 +266,7 @@
         {
           "interaction_id": "A1_U42_B42_3_I3",
           "type": "fill_blanks",
-          "prompt_es": "Completa el diálogo:",
+          "prompt_es": "Completa el diálogo: ([[train|tren]])",
           "stimulus_en": "A: Which platform for the London train?\nB: Platform ________ 4. (número)",
           "correct_answer": "number",
           "mastery_tag": "syntax",
@@ -279,7 +279,7 @@
         {
           "interaction_id": "A1_U42_B42_3_I4",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Voy en coche'",
+          "prompt_es": "Traduce: 'Voy en coche' ([[bus|autobús]])",
           "stimulus_es": "Voy en coche",
           "correct_answer": "I go by car",
           "mastery_tag": "syntax",
@@ -292,7 +292,7 @@
         {
           "interaction_id": "A1_U42_B42_3_I5",
           "type": "true_false",
-          "prompt_es": "Trains leave from a station.",
+          "prompt_es": "Trains leave from a station. ([[bus|autobús]])",
           "correct_answer": true,
           "mastery_tag": "syntax",
           "complexity": 1,
@@ -310,7 +310,7 @@
         {
           "interaction_id": "A1_U42_B42_4_I4",
           "type": "audio_player",
-          "prompt_es": "Escucha el anuncio:",
+          "prompt_es": "Escucha el anuncio: ([[bus|autobús]])",
           "audioUrl": "/audio/courses/ingles-a1/shared/a167098e792e3a89e167669818815124.mp3",
           "text": "The next bus is in ten minutes.",
           "mastery_tag": "listening",
@@ -329,7 +329,7 @@
         {
           "interaction_id": "A1_U42_B42_4_I5",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué hace David en el tren?",
+          "prompt_es": "¿Qué hace David en el tren? ([[book|reservar]])",
           "options": [
             {
               "id": "o2",
@@ -361,7 +361,7 @@
         {
           "interaction_id": "U42_I301",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[arrive|llegar]])",
           "stimulus_en": "The train arrives at platform two.",
           "correct_answer": "The train arrives at platform two.",
           "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-1.mp3",
@@ -375,7 +375,7 @@
         {
           "interaction_id": "U42_I302",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[go to work|ir al trabajo]])",
           "stimulus_en": "I go to work by bus.",
           "correct_answer": "I go to work by bus.",
           "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-2.mp3",
@@ -389,7 +389,7 @@
         {
           "interaction_id": "U42_I303",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[bus|autobús]])",
           "stimulus_en": "The next bus is in ten minutes.",
           "correct_answer": "The next bus is in ten minutes.",
           "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-3.mp3",
@@ -403,7 +403,7 @@
         {
           "interaction_id": "U42_I304",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[please|por favor]])",
           "stimulus_en": "Please buy your ticket.",
           "correct_answer": "Please buy your ticket.",
           "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-4.mp3",
@@ -417,7 +417,7 @@
         {
           "interaction_id": "U42_I305",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[bus|autobús]])",
           "stimulus_en": "The station is very crowded.",
           "correct_answer": "The station is very crowded.",
           "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-5.mp3",
@@ -431,7 +431,7 @@
         {
           "interaction_id": "U42_I306",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[bus|autobús]])",
           "stimulus_en": "Where is the bus stop?",
           "correct_answer": "Where is the bus stop?",
           "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-6.mp3",
@@ -445,7 +445,7 @@
         {
           "interaction_id": "U42_I307",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[ferry|ferry]])",
           "stimulus_en": "The ferry leaves at noon.",
           "correct_answer": "The ferry leaves at noon.",
           "audioUrl": "/audio/courses/ingles-a1/unit42/lesson5-task-7.mp3",
@@ -459,7 +459,7 @@
         {
           "interaction_id": "U42_I308",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[bus|autobús]])",
           "title": "Pronunciación: Train",
           "instructions": "Escucha y repite la 'tr'.",
           "targetSentences": [
@@ -498,7 +498,7 @@
         {
           "interaction_id": "U42_I309",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[bus|autobús]])",
           "title": "Pronunciación: Bus",
           "instructions": "Escucha y repite la vocal corta.",
           "targetSentences": [
@@ -537,7 +537,7 @@
         {
           "interaction_id": "U42_I310",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[bus|autobús]])",
           "title": "Pronunciación: Station",
           "instructions": "Escucha y repite la terminación '-tion'.",
           "targetSentences": [
@@ -576,7 +576,7 @@
         {
           "interaction_id": "U42_I311",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[bus|autobús]])",
           "title": "Pronunciación: Platform",
           "instructions": "Escucha y repite el acento de la palabra.",
           "targetSentences": [
@@ -615,7 +615,7 @@
         {
           "interaction_id": "U42_I312",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[bus|autobús]])",
           "title": "Pronunciación: Bicycle",
           "instructions": "Escucha y repite la pronunciación de 'bicycle'.",
           "targetSentences": [
@@ -654,7 +654,7 @@
         {
           "interaction_id": "U42_I313",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[bus|autobús]])",
           "title": "Pronunciación: Ferry",
           "instructions": "Escucha y repite enfocándote en la 'f' inicial.",
           "targetSentences": [
@@ -693,7 +693,7 @@
         {
           "interaction_id": "U42_I314",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[bus|autobús]])",
           "title": "Pronunciación: Motorbike",
           "instructions": "Escucha y repite la palabra compuesta.",
           "targetSentences": [
@@ -732,7 +732,7 @@
         {
           "interaction_id": "U42_I315",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[bus|autobús]])",
           "title": "Pronunciación: Repaso Transport",
           "instructions": "Escucha y repite la frase completa.",
           "targetSentences": [
@@ -779,19 +779,23 @@
           "prompt_es": "¿Cómo se dice 'bus' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Ferry"
             },
             {
-              "id": "o1",
-              "text": "Bus"
+              "id": "o2",
+              "text": "Motorcycle"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Bus|autobús]]"
+            },
+            {
+              "id": "o4",
+              "text": "Ship"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -800,19 +804,23 @@
           "prompt_es": "¿Cómo se dice 'train' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "[[Train|tren]]"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Ship"
             },
             {
               "id": "o3",
-              "text": "Train"
+              "text": "Bus"
+            },
+            {
+              "id": "o4",
+              "text": "Motorcycle"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -821,19 +829,23 @@
           "prompt_es": "¿Cómo se dice 'plane' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Plane"
+              "id": "o1",
+              "text": "Bicycle"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Ferry"
             },
             {
               "id": "o3",
-              "text": "Wrong word"
+              "text": "[[Plane|avión]]"
+            },
+            {
+              "id": "o4",
+              "text": "Ship"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -842,19 +854,23 @@
           "prompt_es": "¿Cómo se dice 'taxi' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Motorcycle"
             },
             {
-              "id": "o1",
-              "text": "Taxi"
+              "id": "o2",
+              "text": "Plane"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Taxi|taxi]]"
+            },
+            {
+              "id": "o4",
+              "text": "Underground"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -863,16 +879,20 @@
           "prompt_es": "¿Cómo se dice 'bicycle' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Car"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Motorcycle"
             },
             {
               "id": "o3",
-              "text": "Bicycle"
+              "text": "[[Bicycle|bicicleta]]"
+            },
+            {
+              "id": "o4",
+              "text": "Bus"
             }
           ],
           "correct_answer": "o3",
@@ -884,19 +904,23 @@
           "prompt_es": "¿Cómo se dice 'station' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Station"
+              "id": "o1",
+              "text": "Bicycle"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Car"
             },
             {
               "id": "o3",
-              "text": "Wrong word"
+              "text": "[[Station|station]]"
+            },
+            {
+              "id": "o4",
+              "text": "Motorcycle"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -905,19 +929,23 @@
           "prompt_es": "¿Cómo se dice 'ticket' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Bicycle"
             },
             {
-              "id": "o1",
-              "text": "Ticket"
+              "id": "o2",
+              "text": "[[Ticket|ticket]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Motorcycle"
+            },
+            {
+              "id": "o4",
+              "text": "Ferry"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -926,16 +954,20 @@
           "prompt_es": "¿Cómo se dice 'bus' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Train"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Car"
             },
             {
               "id": "o3",
-              "text": "Bus"
+              "text": "[[Bus|autobús]]"
+            },
+            {
+              "id": "o4",
+              "text": "Motorcycle"
             }
           ],
           "correct_answer": "o3",
@@ -947,19 +979,23 @@
           "prompt_es": "¿Cómo se dice 'train' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Train"
+              "id": "o1",
+              "text": "Ship"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Ferry"
             },
             {
               "id": "o3",
-              "text": "Wrong word"
+              "text": "Bus"
+            },
+            {
+              "id": "o4",
+              "text": "[[Train|tren]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -968,19 +1004,23 @@
           "prompt_es": "¿Cómo se dice 'plane' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Ship"
             },
             {
-              "id": "o1",
-              "text": "Plane"
+              "id": "o2",
+              "text": "[[Plane|avión]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Motorcycle"
+            },
+            {
+              "id": "o4",
+              "text": "Car"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -989,16 +1029,20 @@
           "prompt_es": "¿Cómo se dice 'taxi' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Train"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Bus"
             },
             {
               "id": "o3",
-              "text": "Taxi"
+              "text": "[[Taxi|taxi]]"
+            },
+            {
+              "id": "o4",
+              "text": "Plane"
             }
           ],
           "correct_answer": "o3",
@@ -1010,19 +1054,23 @@
           "prompt_es": "¿Cómo se dice 'bicycle' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Bicycle"
+              "id": "o1",
+              "text": "[[Bicycle|bicicleta]]"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Bus"
             },
             {
               "id": "o3",
-              "text": "Wrong word"
+              "text": "Ship"
+            },
+            {
+              "id": "o4",
+              "text": "Plane"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1031,19 +1079,23 @@
           "prompt_es": "¿Cómo se dice 'station' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Ferry"
             },
             {
-              "id": "o1",
-              "text": "Station"
+              "id": "o2",
+              "text": "[[Station|station]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Underground"
+            },
+            {
+              "id": "o4",
+              "text": "Bicycle"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1052,16 +1104,20 @@
           "prompt_es": "¿Cómo se dice 'ticket' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Underground"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Motorcycle"
             },
             {
               "id": "o3",
-              "text": "Ticket"
+              "text": "[[Ticket|ticket]]"
+            },
+            {
+              "id": "o4",
+              "text": "Ferry"
             }
           ],
           "correct_answer": "o3",
@@ -1073,19 +1129,23 @@
           "prompt_es": "¿Cómo se dice 'bus' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Bus"
+              "id": "o1",
+              "text": "[[Bus|autobús]]"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Underground"
             },
             {
               "id": "o3",
-              "text": "Wrong word"
+              "text": "Tram"
+            },
+            {
+              "id": "o4",
+              "text": "Ferry"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1094,19 +1154,23 @@
           "prompt_es": "¿Cómo se dice 'train' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Tram"
             },
             {
-              "id": "o1",
-              "text": "Train"
+              "id": "o2",
+              "text": "[[Train|tren]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Ferry"
+            },
+            {
+              "id": "o4",
+              "text": "Car"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1116,18 +1180,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "[[Plane|avión]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Underground"
             },
             {
               "id": "o3",
-              "text": "Plane"
+              "text": "Bicycle"
+            },
+            {
+              "id": "o4",
+              "text": "Car"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1137,15 +1205,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Taxi"
+              "text": "[[Taxi|taxi]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Car"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Tram"
+            },
+            {
+              "id": "o4",
+              "text": "Train"
             }
           ],
           "correct_answer": "o1",
@@ -1158,18 +1230,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Ship"
             },
             {
               "id": "o2",
-              "text": "Bicycle"
+              "text": "Plane"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Train"
+            },
+            {
+              "id": "o4",
+              "text": "[[Bicycle|bicicleta]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1179,18 +1255,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "[[Station|station]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Bus"
             },
             {
               "id": "o3",
-              "text": "Station"
+              "text": "Ship"
+            },
+            {
+              "id": "o4",
+              "text": "Taxi"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1200,18 +1280,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Ticket"
+              "text": "Car"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Ticket|ticket]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Plane"
+            },
+            {
+              "id": "o4",
+              "text": "Train"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1221,15 +1305,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Car"
             },
             {
               "id": "o2",
-              "text": "Bus"
+              "text": "[[Bus|autobús]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Underground"
+            },
+            {
+              "id": "o4",
+              "text": "Ferry"
             }
           ],
           "correct_answer": "o2",
@@ -1242,15 +1330,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Ferry"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Tram"
             },
             {
               "id": "o3",
-              "text": "Train"
+              "text": "[[Train|tren]]"
+            },
+            {
+              "id": "o4",
+              "text": "Bus"
             }
           ],
           "correct_answer": "o3",
@@ -1263,15 +1355,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Plane"
+              "text": "[[Plane|avión]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Bus"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Bicycle"
+            },
+            {
+              "id": "o4",
+              "text": "Ferry"
             }
           ],
           "correct_answer": "o1",
@@ -1284,18 +1380,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Taxi|taxi]]"
             },
             {
               "id": "o2",
-              "text": "Taxi"
+              "text": "Motorcycle"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Underground"
+            },
+            {
+              "id": "o4",
+              "text": "Ferry"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1305,18 +1405,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Bus"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Ship"
             },
             {
               "id": "o3",
-              "text": "Bicycle"
+              "text": "Plane"
+            },
+            {
+              "id": "o4",
+              "text": "[[Bicycle|bicicleta]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1326,18 +1430,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Station"
+              "text": "Car"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Station|station]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Tram"
+            },
+            {
+              "id": "o4",
+              "text": "Bicycle"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1347,18 +1455,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Ticket|ticket]]"
             },
             {
               "id": "o2",
-              "text": "Ticket"
+              "text": "Ship"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Ferry"
+            },
+            {
+              "id": "o4",
+              "text": "Tram"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1368,18 +1480,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "[[Bus|autobús]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Motorcycle"
             },
             {
               "id": "o3",
-              "text": "Bus"
+              "text": "Train"
+            },
+            {
+              "id": "o4",
+              "text": "Taxi"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         }
       ]
@@ -1391,7 +1507,7 @@
         {
           "interaction_id": "U42_L5_I1",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[bus|autobús]])",
           "audio_url": "/audio/courses/ingles-a1/unit42/lesson5-task-1.mp3",
           "transcript_template": "The [[bus|]] is here.",
           "correct_answer": "bus",
@@ -1405,7 +1521,7 @@
         {
           "interaction_id": "U42_L5_I2",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[bus|autobús]])",
           "audio_url": "/audio/courses/ingles-a1/unit42/lesson5-task-2.mp3",
           "transcript_template": "The [[train|]] is here.",
           "correct_answer": "train",
@@ -1419,7 +1535,7 @@
         {
           "interaction_id": "U42_L5_I3",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[bus|autobús]])",
           "audio_url": "/audio/courses/ingles-a1/unit42/lesson5-task-3.mp3",
           "transcript_template": "The [[plane|]] is here.",
           "correct_answer": "plane",
@@ -1433,7 +1549,7 @@
         {
           "interaction_id": "U42_L5_I4",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[bus|autobús]])",
           "audio_url": "/audio/courses/ingles-a1/unit42/lesson5-task-4.mp3",
           "transcript_template": "The [[taxi|]] is here.",
           "correct_answer": "taxi",
@@ -1447,7 +1563,7 @@
         {
           "interaction_id": "U42_L5_I5",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[bus|autobús]])",
           "audio_url": "/audio/courses/ingles-a1/unit42/lesson5-task-5.mp3",
           "transcript_template": "The [[bicycle|]] is here.",
           "correct_answer": "bicycle",
@@ -1461,7 +1577,7 @@
         {
           "interaction_id": "U42_L5_I6",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[bus|autobús]])",
           "audio_url": "/audio/courses/ingles-a1/unit42/lesson5-task-6.mp3",
           "transcript_template": "The [[station|]] is here.",
           "correct_answer": "station",
@@ -1475,7 +1591,7 @@
         {
           "interaction_id": "U42_L5_I7",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[bus|autobús]])",
           "audio_url": "/audio/courses/ingles-a1/unit42/lesson5-task-7.mp3",
           "transcript_template": "The [[ticket|]] is here.",
           "correct_answer": "ticket",
@@ -1489,7 +1605,7 @@
         {
           "interaction_id": "U42_L5_I8",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[bus|autobús]])",
           "title": "Pronunciación: Transport",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1528,7 +1644,7 @@
         {
           "interaction_id": "U42_L5_I9",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[bus|autobús]])",
           "title": "Pronunciación: Transport",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1567,7 +1683,7 @@
         {
           "interaction_id": "U42_L5_I10",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[bus|autobús]])",
           "title": "Pronunciación: Transport",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1606,7 +1722,7 @@
         {
           "interaction_id": "U42_L5_I11",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[bus|autobús]])",
           "title": "Pronunciación: Transport",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1645,7 +1761,7 @@
         {
           "interaction_id": "U42_L5_I12",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[bus|autobús]])",
           "title": "Pronunciación: Transport",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1684,7 +1800,7 @@
         {
           "interaction_id": "U42_L5_I13",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[bus|autobús]])",
           "title": "Pronunciación: Transport",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1723,7 +1839,7 @@
         {
           "interaction_id": "U42_L5_I14",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[bus|autobús]])",
           "title": "Pronunciación: Transport",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1762,7 +1878,7 @@
         {
           "interaction_id": "U42_L5_I15",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[bus|autobús]])",
           "title": "Pronunciación: Transport",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [

@@ -59,7 +59,7 @@
         {
           "interaction_id": "A1_U38_B38_1_I2",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Regar las plantas'?",
+          "prompt_es": "¿Cómo se dice 'Regar las plantas'? ([[water|agua]])",
           "options": [
             {
               "id": "o1",
@@ -85,7 +85,7 @@
         {
           "interaction_id": "A1_U38_B38_1_I3",
           "type": "fill_blanks",
-          "prompt_es": "Completa con el verbo adecuado:",
+          "prompt_es": "Completa con el verbo adecuado: ([[please|por favor]])",
           "stimulus_en": "Please ________ the [[bathroom|baño]]. It's dirty.",
           "correct_answer": "clean",
           "mastery_tag": "vocabulary",
@@ -98,7 +98,7 @@
         {
           "interaction_id": "A1_U38_B38_1_I4",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Barrer el suelo'",
+          "prompt_es": "Traduce: 'Barrer el suelo' ([[clean|limpiar]])",
           "stimulus_es": "Barrer el suelo",
           "correct_answer": "Sweep the floor",
           "mastery_tag": "vocabulary",
@@ -111,7 +111,7 @@
         {
           "interaction_id": "A1_U38_B38_1_I5",
           "type": "flashcard",
-          "prompt_es": "Aprende el sustantivo:",
+          "prompt_es": "Aprende el sustantivo: ([[clean|limpiar]])",
           "stimulus_en": "[[Chores|tareas domésticas]]",
           "correct_answer": "Tareas domésticas / Quehaceres",
           "mastery_tag": "vocabulary",
@@ -155,7 +155,7 @@
             },
             {
               "id": "w3",
-              "text": "clean"
+              "text": "[[clean|limpiar]]"
             },
             {
               "id": "w4",
@@ -201,7 +201,7 @@
         {
           "interaction_id": "A1_U38_B38_3_I1",
           "type": "reorder_words",
-          "prompt_es": "Ordena la pregunta:",
+          "prompt_es": "Ordena la pregunta: ([[clean|limpiar]])",
           "options": [
             {
               "id": "w1",
@@ -256,7 +256,7 @@
         {
           "interaction_id": "A1_U38_B38_3_I3",
           "type": "fill_blanks",
-          "prompt_es": "Completa con 'does' o 'do':",
+          "prompt_es": "Completa con 'does' o 'do': ([[water|agua]])",
           "stimulus_en": "________ he [[have to|tener que]] water the plants?",
           "correct_answer": "Does",
           "mastery_tag": "grammar",
@@ -269,7 +269,7 @@
         {
           "interaction_id": "A1_U38_B38_3_I4",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Ella no tiene que cocinar'",
+          "prompt_es": "Traduce: 'Ella no tiene que cocinar' ([[clean|limpiar]])",
           "stimulus_es": "Ella no tiene que cocinar",
           "correct_answer": "She doesn't have to cook",
           "mastery_tag": "syntax",
@@ -282,7 +282,7 @@
         {
           "interaction_id": "A1_U38_B38_3_I5",
           "type": "true_false",
-          "prompt_es": "¿'Don't have to' significa que algo está prohibido?",
+          "prompt_es": "¿'Don't have to' significa que algo está prohibido? ([[clean|limpiar]])",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "complexity": 1,
@@ -306,7 +306,7 @@
         {
           "interaction_id": "A1_U38_B38_4_I5",
           "type": "multiple_choice",
-          "prompt_es": "¿Quién tiene que regar las plantas?",
+          "prompt_es": "¿Quién tiene que regar las plantas? ([[sometimes|a veces]])",
           "options": [
             {
               "id": "o1",
@@ -342,18 +342,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Dust"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "[[Can i|can I]]"
             },
             {
               "id": "o3",
-              "text": "Can I"
+              "text": "Vacuum"
+            },
+            {
+              "id": "o4",
+              "text": "Clean"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -363,18 +367,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "May I"
+              "text": "Vacuum"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[May i|may I]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Do laundry"
+            },
+            {
+              "id": "o4",
+              "text": "Cook dinner"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -384,18 +392,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Vacuum"
             },
             {
               "id": "o2",
-              "text": "Borrow"
+              "text": "Mop"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wash dishes"
+            },
+            {
+              "id": "o4",
+              "text": "[[Borrow|borrow]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -405,18 +417,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[help|ayudar]]|[[help|ayudar]]]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Clean"
             },
             {
               "id": "o3",
-              "text": "[[Help|ayudar]]"
+              "text": "Sweep"
+            },
+            {
+              "id": "o4",
+              "text": "Do laundry"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -426,15 +442,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Open"
+              "text": "[[Open|open]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Cook dinner"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Make the bed"
+            },
+            {
+              "id": "o4",
+              "text": "Dust"
             }
           ],
           "correct_answer": "o1",
@@ -447,18 +467,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Vacuum"
             },
             {
               "id": "o2",
-              "text": "Close"
+              "text": "Clean"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Close|close]]"
+            },
+            {
+              "id": "o4",
+              "text": "Dust"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -468,18 +492,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Vacuum"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Clean"
             },
             {
               "id": "o3",
-              "text": "Come in"
+              "text": "Make the bed"
+            },
+            {
+              "id": "o4",
+              "text": "[[Come in|come in]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -489,18 +517,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Can I"
+              "text": "Make the bed"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Wash dishes"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Clean"
+            },
+            {
+              "id": "o4",
+              "text": "[[Can i|can I]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -510,18 +542,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Clean"
             },
             {
               "id": "o2",
-              "text": "May I"
+              "text": "Make the bed"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[May i|may I]]"
+            },
+            {
+              "id": "o4",
+              "text": "Iron"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -531,18 +567,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Iron"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Clean"
             },
             {
               "id": "o3",
-              "text": "Borrow"
+              "text": "Make the bed"
+            },
+            {
+              "id": "o4",
+              "text": "[[Borrow|borrow]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -552,18 +592,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Help|ayudar]]"
+              "text": "Cook dinner"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[[[help|ayudar]]|[[help|ayudar]]]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Vacuum"
+            },
+            {
+              "id": "o4",
+              "text": "Iron"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -573,18 +617,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Mop"
             },
             {
               "id": "o2",
-              "text": "Open"
+              "text": "Make the bed"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Open|open]]"
+            },
+            {
+              "id": "o4",
+              "text": "Sweep"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -594,18 +642,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Mop"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Wash dishes"
             },
             {
               "id": "o3",
-              "text": "Close"
+              "text": "Make the bed"
+            },
+            {
+              "id": "o4",
+              "text": "[[Close|close]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -615,18 +667,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Come in"
+              "text": "Do laundry"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Wash dishes"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Come in|come in]]"
+            },
+            {
+              "id": "o4",
+              "text": "Sweep"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -636,18 +692,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Mop"
             },
             {
               "id": "o2",
-              "text": "Can I"
+              "text": "Cook dinner"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Can i|can I]]"
+            },
+            {
+              "id": "o4",
+              "text": "Sweep"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -657,18 +717,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[May i|may I]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Do laundry"
             },
             {
               "id": "o3",
-              "text": "May I"
+              "text": "Clean"
+            },
+            {
+              "id": "o4",
+              "text": "Cook dinner"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -678,18 +742,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Borrow"
+              "text": "Dust"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Vacuum"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Make the bed"
+            },
+            {
+              "id": "o4",
+              "text": "[[Borrow|borrow]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -699,18 +767,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[help|ayudar]]|[[help|ayudar]]]]"
             },
             {
               "id": "o2",
-              "text": "[[Help|ayudar]]"
+              "text": "Cook dinner"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wash dishes"
+            },
+            {
+              "id": "o4",
+              "text": "Sweep"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -720,18 +792,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Open|open]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Vacuum"
             },
             {
               "id": "o3",
-              "text": "Open"
+              "text": "Clean"
+            },
+            {
+              "id": "o4",
+              "text": "Do laundry"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -741,18 +817,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Close"
+              "text": "Wash dishes"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Cook dinner"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Clean"
+            },
+            {
+              "id": "o4",
+              "text": "[[Close|close]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -762,15 +842,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Do laundry"
             },
             {
               "id": "o2",
-              "text": "Come in"
+              "text": "[[Come in|come in]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Dust"
+            },
+            {
+              "id": "o4",
+              "text": "Clean"
             }
           ],
           "correct_answer": "o2",
@@ -783,18 +867,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Clean"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Mop"
             },
             {
               "id": "o3",
-              "text": "Can I"
+              "text": "Iron"
+            },
+            {
+              "id": "o4",
+              "text": "[[Can i|can I]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -804,18 +892,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "May I"
+              "text": "Do laundry"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Cook dinner"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[May i|may I]]"
+            },
+            {
+              "id": "o4",
+              "text": "Mop"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -825,18 +917,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Do laundry"
             },
             {
               "id": "o2",
-              "text": "Borrow"
+              "text": "Mop"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Borrow|borrow]]"
+            },
+            {
+              "id": "o4",
+              "text": "Cook dinner"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -846,15 +942,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Sweep"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Do laundry"
             },
             {
               "id": "o3",
-              "text": "[[Help|ayudar]]"
+              "text": "[[[[help|ayudar]]|[[help|ayudar]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Vacuum"
             }
           ],
           "correct_answer": "o3",
@@ -867,15 +967,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Open"
+              "text": "[[Open|open]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Make the bed"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Iron"
+            },
+            {
+              "id": "o4",
+              "text": "Mop"
             }
           ],
           "correct_answer": "o1",
@@ -888,18 +992,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Vacuum"
             },
             {
               "id": "o2",
-              "text": "Close"
+              "text": "Dust"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Clean"
+            },
+            {
+              "id": "o4",
+              "text": "[[Close|close]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -909,15 +1017,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Make the bed"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Sweep"
             },
             {
               "id": "o3",
-              "text": "Come in"
+              "text": "[[Come in|come in]]"
+            },
+            {
+              "id": "o4",
+              "text": "Wash dishes"
             }
           ],
           "correct_answer": "o3",
@@ -930,18 +1042,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Can I"
+              "text": "Do laundry"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Sweep"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Can i|can I]]"
+            },
+            {
+              "id": "o4",
+              "text": "Cook dinner"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -951,18 +1067,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Iron"
             },
             {
               "id": "o2",
-              "text": "May I"
+              "text": "Vacuum"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[May i|may I]]"
+            },
+            {
+              "id": "o4",
+              "text": "Mop"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -972,18 +1092,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Borrow|borrow]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Dust"
             },
             {
               "id": "o3",
-              "text": "Borrow"
+              "text": "Clean"
+            },
+            {
+              "id": "o4",
+              "text": "Iron"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -993,18 +1117,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Help|ayudar]]"
+              "text": "Make the bed"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Do laundry"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Dust"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[help|ayudar]]|[[help|ayudar]]]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1014,18 +1142,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Make the bed"
             },
             {
               "id": "o2",
-              "text": "Open"
+              "text": "Sweep"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Mop"
+            },
+            {
+              "id": "o4",
+              "text": "[[Open|open]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1035,18 +1167,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Close|close]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Dust"
             },
             {
               "id": "o3",
-              "text": "Close"
+              "text": "Mop"
+            },
+            {
+              "id": "o4",
+              "text": "Make the bed"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1056,15 +1192,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Come in"
+              "text": "[[Come in|come in]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Make the bed"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Sweep"
+            },
+            {
+              "id": "o4",
+              "text": "Wash dishes"
             }
           ],
           "correct_answer": "o1",
@@ -1077,15 +1217,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Iron"
             },
             {
               "id": "o2",
-              "text": "Can I"
+              "text": "[[Can i|can I]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Sweep"
+            },
+            {
+              "id": "o4",
+              "text": "Mop"
             }
           ],
           "correct_answer": "o2",
@@ -1098,18 +1242,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Cook dinner"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Make the bed"
             },
             {
               "id": "o3",
-              "text": "May I"
+              "text": "Iron"
+            },
+            {
+              "id": "o4",
+              "text": "[[May i|may I]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1119,18 +1267,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Borrow"
+              "text": "Dust"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Make the bed"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Do laundry"
+            },
+            {
+              "id": "o4",
+              "text": "[[Borrow|borrow]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1140,18 +1292,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Sweep"
             },
             {
               "id": "o2",
-              "text": "[[Help|ayudar]]"
+              "text": "Cook dinner"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wash dishes"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[help|ayudar]]|[[help|ayudar]]]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1161,18 +1317,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Cook dinner"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Make the bed"
             },
             {
               "id": "o3",
-              "text": "Open"
+              "text": "Mop"
+            },
+            {
+              "id": "o4",
+              "text": "[[Open|open]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1182,18 +1342,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Close"
+              "text": "Clean"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Sweep"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Make the bed"
+            },
+            {
+              "id": "o4",
+              "text": "[[Close|close]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1203,18 +1367,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Come in|come in]]"
             },
             {
               "id": "o2",
-              "text": "Come in"
+              "text": "Cook dinner"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Do laundry"
+            },
+            {
+              "id": "o4",
+              "text": "Make the bed"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1224,15 +1392,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Iron"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Clean"
             },
             {
               "id": "o3",
-              "text": "Can I"
+              "text": "[[Can i|can I]]"
+            },
+            {
+              "id": "o4",
+              "text": "Vacuum"
             }
           ],
           "correct_answer": "o3",
@@ -1245,18 +1417,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "May I"
+              "text": "Make the bed"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Mop"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Vacuum"
+            },
+            {
+              "id": "o4",
+              "text": "[[May i|may I]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1266,18 +1442,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Borrow|borrow]]"
             },
             {
               "id": "o2",
-              "text": "Borrow"
+              "text": "Sweep"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Dust"
+            },
+            {
+              "id": "o4",
+              "text": "Mop"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1287,18 +1467,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Dust"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "[[[[help|ayudar]]|[[help|ayudar]]]]"
             },
             {
               "id": "o3",
-              "text": "[[Help|ayudar]]"
+              "text": "Sweep"
+            },
+            {
+              "id": "o4",
+              "text": "Iron"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1308,18 +1492,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Open"
+              "text": "Iron"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Wash dishes"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Clean"
+            },
+            {
+              "id": "o4",
+              "text": "[[Open|open]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         }
       ]
@@ -1331,7 +1519,7 @@
         {
           "interaction_id": "U38_L5_I1",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[clean|limpiar]])",
           "audio_url": "/audio/courses/ingles-a1/unit38/lesson5-task-1.mp3",
           "transcript_template": "The [[can I|]] is here.",
           "correct_answer": "can I",
@@ -1345,7 +1533,7 @@
         {
           "interaction_id": "U38_L5_I2",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[clean|limpiar]])",
           "audio_url": "/audio/courses/ingles-a1/unit38/lesson5-task-2.mp3",
           "transcript_template": "The [[may I|]] is here.",
           "correct_answer": "may I",
@@ -1359,7 +1547,7 @@
         {
           "interaction_id": "U38_L5_I3",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[clean|limpiar]])",
           "audio_url": "/audio/courses/ingles-a1/unit38/lesson5-task-3.mp3",
           "transcript_template": "The [[borrow|]] is here.",
           "correct_answer": "borrow",
@@ -1373,7 +1561,7 @@
         {
           "interaction_id": "U38_L5_I4",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[clean|limpiar]])",
           "audio_url": "/audio/courses/ingles-a1/unit38/lesson5-task-4.mp3",
           "transcript_template": "The [[help|]] is here.",
           "correct_answer": "help",
@@ -1387,7 +1575,7 @@
         {
           "interaction_id": "U38_L5_I5",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[clean|limpiar]])",
           "audio_url": "/audio/courses/ingles-a1/unit38/lesson5-task-5.mp3",
           "transcript_template": "The [[open|]] is here.",
           "correct_answer": "open",
@@ -1401,7 +1589,7 @@
         {
           "interaction_id": "U38_L5_I6",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[clean|limpiar]])",
           "audio_url": "/audio/courses/ingles-a1/unit38/lesson5-task-6.mp3",
           "transcript_template": "The [[close|]] is here.",
           "correct_answer": "close",
@@ -1415,7 +1603,7 @@
         {
           "interaction_id": "U38_L5_I7",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[clean|limpiar]])",
           "audio_url": "/audio/courses/ingles-a1/unit38/lesson5-task-7.mp3",
           "transcript_template": "The [[come in|]] is here.",
           "correct_answer": "come in",
@@ -1429,7 +1617,7 @@
         {
           "interaction_id": "U38_L5_I8",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[clean|limpiar]])",
           "title": "Pronunciación: Asking for Permission",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1468,7 +1656,7 @@
         {
           "interaction_id": "U38_L5_I9",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[clean|limpiar]])",
           "title": "Pronunciación: Asking for Permission",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1507,7 +1695,7 @@
         {
           "interaction_id": "U38_L5_I10",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[clean|limpiar]])",
           "title": "Pronunciación: Asking for Permission",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1546,7 +1734,7 @@
         {
           "interaction_id": "U38_L5_I11",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[clean|limpiar]])",
           "title": "Pronunciación: Asking for Permission",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1585,7 +1773,7 @@
         {
           "interaction_id": "U38_L5_I12",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[clean|limpiar]])",
           "title": "Pronunciación: Asking for Permission",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1624,7 +1812,7 @@
         {
           "interaction_id": "U38_L5_I13",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[clean|limpiar]])",
           "title": "Pronunciación: Asking for Permission",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1663,7 +1851,7 @@
         {
           "interaction_id": "U38_L5_I14",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[clean|limpiar]])",
           "title": "Pronunciación: Asking for Permission",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1702,7 +1890,7 @@
         {
           "interaction_id": "U38_L5_I15",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[clean|limpiar]])",
           "title": "Pronunciación: Asking for Permission",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [

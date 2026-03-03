@@ -117,18 +117,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Pig|Cerdo]]"
+              "text": "[[Cow|Vaca]]"
             },
             {
               "id": "o2",
-              "text": "[[Cow|Vaca]]"
+              "text": "[[Pig|Cerdo]]"
             },
             {
               "id": "o3",
               "text": "[[Horse|Caballo]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary",
           "complexity": 1
         },
@@ -182,18 +182,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Fish|Pez]]"
+              "text": "[[Bird|Pájaro]]"
             },
             {
               "id": "o2",
-              "text": "[[Bird|Pájaro]]"
+              "text": "[[Fish|Pez]]"
             },
             {
               "id": "o3",
               "text": "[[Turtle|Tortuga]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary",
           "complexity": 1
         },
@@ -216,14 +216,14 @@
             },
             {
               "id": "o2",
-              "text": "[[Whale|Ballena]]"
+              "text": "[[Lion|León]]"
             },
             {
               "id": "o3",
-              "text": "[[Lion|León]]"
+              "text": "[[Whale|Ballena]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary",
           "complexity": 2
         },
@@ -283,18 +283,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Cute|Adorable]]"
+              "text": "[[Dangerous|Peligroso]]"
             },
             {
               "id": "o2",
-              "text": "[[Dangerous|Peligroso]]"
+              "text": "[[Cute|Adorable]]"
             },
             {
               "id": "o3",
               "text": "[[Tame|Domesticado]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary",
           "complexity": 1
         },
@@ -404,14 +404,14 @@
             },
             {
               "id": "o2",
-              "text": "[[Pet dog|Perro doméstico]]"
+              "text": "[[Wild bear|Oso salvaje]]"
             },
             {
               "id": "o3",
-              "text": "[[Wild bear|Oso salvaje]]"
+              "text": "[[Pet dog|Perro doméstico]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary",
           "complexity": 2
         },
@@ -476,7 +476,7 @@
         {
           "interaction_id": "U27_I22",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'She ___ a beautiful white cat.' (has got)",
+          "prompt_es": "Completa: 'She ___ a beautiful white cat.' (has got) ([[got|obtuvo/obtuve]])",
           "correct_answer": "has got",
           "mastery_tag": "grammar",
           "complexity": 1
@@ -536,7 +536,7 @@
         {
           "interaction_id": "U27_I26",
           "type": "sentence_building",
-          "prompt_es": "Forma: '¿Tiene tu hermana un conejo?'",
+          "prompt_es": "Forma: '¿Tiene tu hermana un conejo?' ([[animals|animales]])",
           "words": [
             {
               "id": "w1",
@@ -577,7 +577,7 @@
         {
           "interaction_id": "U27_I27",
           "type": "fill_blanks",
-          "prompt_es": "Completa la negativa: 'They ___ got any farm animals.' (haven't)",
+          "prompt_es": "Completa la negativa: 'They ___ got any farm animals.' (haven't) ([[got|obtuvo/obtuve]])",
           "correct_answer": "haven't",
           "mastery_tag": "grammar",
           "complexity": 1
@@ -647,18 +647,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Once a day|Una vez al día]]"
+              "text": "[[Twice a day|Dos veces al día]]"
             },
             {
               "id": "o2",
-              "text": "[[Twice a day|Dos veces al día]]"
+              "text": "[[Once a day|Una vez al día]]"
             },
             {
               "id": "o3",
               "text": "[[Five times a day|Cinco veces al día]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary",
           "complexity": 2
         },
@@ -738,7 +738,7 @@
         {
           "interaction_id": "U27_I36",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué hace un veterinario (vet)?",
+          "prompt_es": "¿Qué hace un veterinario (vet)? ([[animals|animales]])",
           "options": [
             {
               "id": "o1",
@@ -790,7 +790,7 @@
         {
           "interaction_id": "U27_I39",
           "type": "sentence_building",
-          "prompt_es": "Forma: 'Tengo un perro amigable y dos gatos adorables.'",
+          "prompt_es": "Forma: 'Tengo un perro amigable y dos gatos adorables.' ([[animals|animales]])",
           "words": [
             {
               "id": "w1",
@@ -846,7 +846,7 @@
         {
           "interaction_id": "U27_I40",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué necesita hacer un buen dueño de mascotas?",
+          "prompt_es": "¿Qué necesita hacer un buen dueño de mascotas? ([[animals|animales]])",
           "options": [
             {
               "id": "o1",
@@ -926,7 +926,7 @@
         {
           "interaction_id": "U27_I43",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuánto ejercicio necesita Max cada día?",
+          "prompt_es": "¿Cuánto ejercicio necesita Max cada día? ([[animals|animales]])",
           "options": [
             {
               "id": "o1",
@@ -948,7 +948,7 @@
         {
           "interaction_id": "U27_I44",
           "type": "multiple_choice",
-          "prompt_es": "¿Dónde duerme Max?",
+          "prompt_es": "¿Dónde duerme Max? ([[animals|animales]])",
           "options": [
             {
               "id": "o1",
@@ -970,7 +970,7 @@
         {
           "interaction_id": "U27_I45",
           "type": "fill_blanks",
-          "prompt_es": "Max le gusta ___ en el agua. (nadar = swimming)",
+          "prompt_es": "Max le gusta ___ en el agua. (nadar = swimming) ([[swimming|natación]])",
           "correct_answer": "swimming",
           "mastery_tag": "reading",
           "complexity": 2
@@ -1000,7 +1000,7 @@
         {
           "interaction_id": "U27_I47",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo describe Jake a Max?",
+          "prompt_es": "¿Cómo describe Jake a Max? ([[animals|animales]])",
           "options": [
             {
               "id": "o1",
@@ -1022,7 +1022,7 @@
         {
           "interaction_id": "U27_I48",
           "type": "sentence_building",
-          "prompt_es": "Forma: '¿Tiene tu familia alguna mascota?'",
+          "prompt_es": "Forma: '¿Tiene tu familia alguna mascota?' ([[animals|animales]])",
           "words": [
             {
               "id": "w1",
@@ -1085,10 +1085,206 @@
         {
           "interaction_id": "U27_I50",
           "type": "fill_blanks",
-          "prompt_es": "Según el texto, Max is a very good ___ dog. (guardián = guard)",
+          "prompt_es": "Según el texto, Max is a very good ___ dog. (guardián = guard) ([[animals|animales]])",
           "correct_answer": "guard",
           "mastery_tag": "reading",
           "complexity": 2
+        }
+      ]
+    },
+    {
+      "block_id": "B27_REC",
+      "title": "Block 6: Recycling – Transport & Movement",
+      "content": [
+        {
+          "interaction_id": "A1_U27_B27_REC_MC1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué transporte usas para cruzar el [[English Channel|Canal de la Mancha]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Ferry|Ferry]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Bus|Autobús]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Train|Tren]]"
+            },
+            {
+              "id": "o4",
+              "text": "[[Car|Coche]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "transport"
+          ]
+        },
+        {
+          "interaction_id": "A1_U27_B27_REC_FB2",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: \"I [[go|ir]] to work ___ [[bus|autobús]]. She [[goes|ir]] ___ [[car|coche]].\"",
+          "stimulus_en": "I go to work ___ bus. She goes ___ car.",
+          "correct_answer": "by / by",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "transport",
+            "prepositions"
+          ]
+        },
+        {
+          "interaction_id": "A1_U27_B27_REC_MC3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma correcta para decir que vas en transporte?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[I go by train|Voy en tren]]"
+            },
+            {
+              "id": "o2",
+              "text": "I go with train"
+            },
+            {
+              "id": "o3",
+              "text": "I go on train"
+            },
+            {
+              "id": "o4",
+              "text": "I go in train"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "transport",
+            "prepositions"
+          ]
+        },
+        {
+          "interaction_id": "A1_U27_B27_REC_SW4",
+          "type": "short_writing",
+          "prompt_es": "Describe cómo vas al trabajo o a la escuela. Usa [[I go by|voy en]], [[It takes|tarda]], [[It's about|son unos]] y [[minutes/hours|minutos/horas]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "concept_tags": [
+            "production",
+            "free_writing"
+          ],
+          "example_answer": "I go to university by bus. The journey takes about thirty minutes. The bus stop is near my house. Sometimes I walk if the weather is good - it's about fifteen minutes on foot."
+        },
+        {
+          "interaction_id": "A1_U27_B27_REC_MC5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas dónde comprar un billete?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Where can I buy a ticket?|¿Dónde puedo comprar un billete?]]"
+            },
+            {
+              "id": "o2",
+              "text": "Where ticket is?"
+            },
+            {
+              "id": "o3",
+              "text": "Can where ticket buy?"
+            },
+            {
+              "id": "o4",
+              "text": "How do I ticket?"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "transport"
+          ]
+        },
+        {
+          "interaction_id": "A1_U27_B27_REC_SW6",
+          "type": "short_writing",
+          "prompt_es": "Escribe sobre un viaje que haces regularmente. Incluye: medio de transporte, duración y lo que ves durante el trayecto. ([[animals|animales]])",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "concept_tags": [
+            "production",
+            "free_writing"
+          ],
+          "example_answer": "Every morning I take the bus to school. The journey takes twenty minutes. I see the park and the market from the window. The bus is usually full on Monday mornings."
+        }
+      ]
+    },
+    {
+      "block_id": "B27_EX",
+      "title": "Block 7: Extra Practice – Transport & Movement",
+      "content": [
+        {
+          "interaction_id": "A1_U27_B27_EX_MC1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál de estos es un [[irregular verb|verbo irregular]] en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[go → went|ir → fui]]"
+            },
+            {
+              "id": "o2",
+              "text": "walk → walked"
+            },
+            {
+              "id": "o3",
+              "text": "play → played"
+            },
+            {
+              "id": "o4",
+              "text": "work → worked"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "past_simple",
+            "irregular_verbs"
+          ]
+        },
+        {
+          "interaction_id": "A1_U27_B27_EX_MC2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice \"[[turn right|gira a la derecha]]\"?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Turn right|Gira a la derecha]]"
+            },
+            {
+              "id": "o2",
+              "text": "Go right turn"
+            },
+            {
+              "id": "o3",
+              "text": "Right turning"
+            },
+            {
+              "id": "o4",
+              "text": "You turn to right"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "directions"
+          ]
         }
       ]
     }

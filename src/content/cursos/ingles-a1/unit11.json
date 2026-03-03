@@ -23,9 +23,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '[[It is eight o'clock|Son las ocho en punto]]'?",
           "options": [
-            { "id": "o1", "text": "[[It is eight o'clock|Son las ocho en punto]]" },
-            { "id": "o2", "text": "[[It is eight hours|Son las ocho horas]]" },
-            { "id": "o3", "text": "[[It is eight in point|Son las ocho en punto así]]" }
+            {
+              "id": "o1",
+              "text": "[[It is eight o'clock|Son las ocho en punto]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[It is eight hours|Son las ocho horas]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[It is eight in point|Son las ocho en punto así]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar",
@@ -36,19 +45,40 @@
           "type": "matching",
           "prompt_es": "Une el número con la hora en inglés:",
           "pairs": [
-            { "id": "p1", "left": "[[One o'clock|La una en punto]]", "right": "Las dos en punto" },
-            { "id": "p2", "left": "[[Two o'clock|Las dos en punto]]", "right": "Las cuatro en punto" },
-            { "id": "p3", "left": "[[Three o'clock|Las tres en punto]]", "right": "La una en punto" },
-            { "id": "p4", "left": "[[Four o'clock|Las cuatro en punto]]", "right": "Las tres en punto" }
+            {
+              "id": "p1",
+              "left": "[[One o'clock|La una en punto]]",
+              "right": "Las dos en punto"
+            },
+            {
+              "id": "p2",
+              "left": "[[Two o'clock|Las dos en punto]]",
+              "right": "Las cuatro en punto"
+            },
+            {
+              "id": "p3",
+              "left": "[[Three o'clock|Las tres en punto]]",
+              "right": "La una en punto"
+            },
+            {
+              "id": "p4",
+              "left": "[[Four o'clock|Las cuatro en punto]]",
+              "right": "Las tres en punto"
+            }
           ],
-          "correct_answer": { "p1": "p3", "p2": "p1", "p3": "p4", "p4": "p2" },
+          "correct_answer": {
+            "p1": "p3",
+            "p2": "p1",
+            "p3": "p4",
+            "p4": "p2"
+          },
           "mastery_tag": "vocabulary",
           "complexity": 1
         },
         {
           "interaction_id": "U11_I3",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'Son las nueve en punto.'",
+          "prompt_es": "Completa: 'Son las nueve en punto.' ([[food|comida]])",
           "stimulus_en": "It is nine ________.",
           "correct_answer": "o'clock",
           "mastery_tag": "grammar",
@@ -59,9 +89,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la forma correcta de preguntar la hora?",
           "options": [
-            { "id": "o1", "text": "[[What hour is it?|¿Qué hora es?]]" },
-            { "id": "o2", "text": "[[What time is it?|¿Qué hora es?]]" },
-            { "id": "o3", "text": "[[Which time have you?|¿Qué hora tienes?]]" }
+            {
+              "id": "o1",
+              "text": "[[What hour is it?|¿Qué hora es?]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[What time is it?|¿Qué hora es?]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Which time have you?|¿Qué hora tienes?]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "phrases",
@@ -78,14 +117,31 @@
         {
           "interaction_id": "U11_I6",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Son las diez en punto.'",
+          "prompt_es": "Ordena: 'Son las diez en punto.' ([[food|comida]])",
           "options": [
-            { "id": "w1", "text": "It" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "ten" },
-            { "id": "w4", "text": "o'clock." }
+            {
+              "id": "w1",
+              "text": "It"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "ten"
+            },
+            {
+              "id": "w4",
+              "text": "o'clock."
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax",
           "complexity": 2
         },
@@ -94,9 +150,18 @@
           "type": "multiple_choice",
           "prompt_es": "Son las 12:00 del mediodía. ¿Cómo se dice en inglés?",
           "options": [
-            { "id": "o1", "text": "[[Midnight|Medianoche]]" },
-            { "id": "o2", "text": "[[Midday|Mediodía]]" },
-            { "id": "o3", "text": "[[Mid-morning|Media mañana]]" }
+            {
+              "id": "o1",
+              "text": "[[Midnight|Medianoche]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Midday|Mediodía]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Mid-morning|Media mañana]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "vocabulary",
@@ -105,7 +170,7 @@
         {
           "interaction_id": "U11_I8",
           "type": "fill_blanks",
-          "prompt_es": "Las 12:00 de la noche se llama '________' en inglés.",
+          "prompt_es": "Las 12:00 de la noche se llama '________' en inglés. ([[food|comida]])",
           "stimulus_en": "12:00 AM is called ________.",
           "correct_answer": "midnight",
           "mastery_tag": "vocabulary",
@@ -116,23 +181,53 @@
           "type": "matching",
           "prompt_es": "Une el momento del día con su significado:",
           "pairs": [
-            { "id": "p1", "left": "[[AM|De la mañana]]", "right": "De la tarde/noche" },
-            { "id": "p2", "left": "[[PM|De la tarde/noche]]", "right": "Mediodía" },
-            { "id": "p3", "left": "[[Midday|Mediodía]]", "right": "Medianoche" },
-            { "id": "p4", "left": "[[Midnight|Medianoche]]", "right": "De la mañana" }
+            {
+              "id": "p1",
+              "left": "[[AM|De la mañana]]",
+              "right": "De la tarde/noche"
+            },
+            {
+              "id": "p2",
+              "left": "[[PM|De la tarde/noche]]",
+              "right": "Mediodía"
+            },
+            {
+              "id": "p3",
+              "left": "[[Midday|Mediodía]]",
+              "right": "Medianoche"
+            },
+            {
+              "id": "p4",
+              "left": "[[Midnight|Medianoche]]",
+              "right": "De la mañana"
+            }
           ],
-          "correct_answer": { "p1": "p4", "p2": "p1", "p3": "p2", "p4": "p3" },
+          "correct_answer": {
+            "p1": "p4",
+            "p2": "p1",
+            "p3": "p2",
+            "p4": "p3"
+          },
           "mastery_tag": "vocabulary",
           "complexity": 1
         },
         {
           "interaction_id": "U11_I10",
           "type": "multiple_choice",
-          "prompt_es": "Son las 3:00 PM. ¿Qué significa PM?",
+          "prompt_es": "Son las 3:00 PM. ¿Qué significa PM? ([[food|comida]])",
           "options": [
-            { "id": "o1", "text": "De la mañana (antes del mediodía)" },
-            { "id": "o2", "text": "En punto (exactamente)" },
-            { "id": "o3", "text": "De la tarde/noche (después del mediodía)" }
+            {
+              "id": "o1",
+              "text": "De la mañana (antes del mediodía)"
+            },
+            {
+              "id": "o2",
+              "text": "En punto (exactamente)"
+            },
+            {
+              "id": "o3",
+              "text": "De la tarde/noche (después del mediodía)"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary",
@@ -149,7 +244,7 @@
         {
           "interaction_id": "U11_I12",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Son las cinco en punto.'",
+          "prompt_es": "Traduce: 'Son las cinco en punto.' ([[food|comida]])",
           "correct_answer": "It is five o'clock",
           "mastery_tag": "syntax",
           "complexity": 3
@@ -165,9 +260,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '8:15' en inglés?",
           "options": [
-            { "id": "o1", "text": "[[A quarter to eight|Las ocho menos cuarto]]" },
-            { "id": "o2", "text": "[[Half past eight|Las ocho y media]]" },
-            { "id": "o3", "text": "[[A quarter past eight|Las ocho y cuarto]]" }
+            {
+              "id": "o1",
+              "text": "[[A quarter to eight|Las ocho menos cuarto]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Half past eight|Las ocho y media]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[A quarter past eight|Las ocho y cuarto]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary",
@@ -176,21 +280,42 @@
         {
           "interaction_id": "U11_I14",
           "type": "matching",
-          "prompt_es": "Une la hora con su expresión en inglés:",
+          "prompt_es": "Une la hora con su expresión en inglés: ([[food|comida]])",
           "pairs": [
-            { "id": "p1", "left": "8:15", "right": "Half past eight" },
-            { "id": "p2", "left": "8:30", "right": "A quarter to nine" },
-            { "id": "p3", "left": "8:45", "right": "Eight o'clock" },
-            { "id": "p4", "left": "8:00", "right": "A quarter past eight" }
+            {
+              "id": "p1",
+              "left": "8:15",
+              "right": "Half past eight"
+            },
+            {
+              "id": "p2",
+              "left": "8:30",
+              "right": "A quarter to nine"
+            },
+            {
+              "id": "p3",
+              "left": "8:45",
+              "right": "Eight o'clock"
+            },
+            {
+              "id": "p4",
+              "left": "8:00",
+              "right": "A quarter past eight"
+            }
           ],
-          "correct_answer": { "p1": "p4", "p2": "p1", "p3": "p2", "p4": "p3" },
+          "correct_answer": {
+            "p1": "p4",
+            "p2": "p1",
+            "p3": "p2",
+            "p4": "p3"
+          },
           "mastery_tag": "vocabulary",
           "complexity": 1
         },
         {
           "interaction_id": "U11_I15",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'Son las seis y media.'",
+          "prompt_es": "Completa: 'Son las seis y media.' ([[food|comida]])",
           "stimulus_en": "It is half ________ six.",
           "correct_answer": "past",
           "mastery_tag": "grammar",
@@ -201,9 +326,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '7:45'?",
           "options": [
-            { "id": "o1", "text": "[[A quarter past seven|Las siete y cuarto]]" },
-            { "id": "o2", "text": "[[A quarter to eight|Las ocho menos cuarto]]" },
-            { "id": "o3", "text": "[[Half past seven|Las siete y media]]" }
+            {
+              "id": "o1",
+              "text": "[[A quarter past seven|Las siete y cuarto]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[A quarter to eight|Las ocho menos cuarto]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Half past seven|Las siete y media]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "vocabulary",
@@ -220,16 +354,41 @@
         {
           "interaction_id": "U11_I18",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Son las diez y cuarto.'",
+          "prompt_es": "Ordena: 'Son las diez y cuarto.' ([[food|comida]])",
           "options": [
-            { "id": "w1", "text": "It" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "a" },
-            { "id": "w4", "text": "quarter" },
-            { "id": "w5", "text": "past" },
-            { "id": "w6", "text": "ten." }
+            {
+              "id": "w1",
+              "text": "It"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "a"
+            },
+            {
+              "id": "w4",
+              "text": "quarter"
+            },
+            {
+              "id": "w5",
+              "text": "past"
+            },
+            {
+              "id": "w6",
+              "text": "ten."
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
           "mastery_tag": "syntax",
           "complexity": 2
         },
@@ -238,9 +397,18 @@
           "type": "multiple_choice",
           "prompt_es": "Son las 3:30. ¿Cómo se dice?",
           "options": [
-            { "id": "o1", "text": "[[Half past three|Las tres y media]]" },
-            { "id": "o2", "text": "[[A quarter past three|Las tres y cuarto]]" },
-            { "id": "o3", "text": "[[A quarter to three|Las tres menos cuarto]]" }
+            {
+              "id": "o1",
+              "text": "[[Half past three|Las tres y media]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[A quarter past three|Las tres y cuarto]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[A quarter to three|Las tres menos cuarto]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary",
@@ -249,7 +417,7 @@
         {
           "interaction_id": "U11_I20",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'Son las once menos cuarto.'",
+          "prompt_es": "Completa: 'Son las once menos cuarto.' ([[food|comida]])",
           "stimulus_en": "It is a quarter ________ eleven.",
           "correct_answer": "to",
           "mastery_tag": "grammar",
@@ -258,7 +426,7 @@
         {
           "interaction_id": "U11_I21",
           "type": "short_writing",
-          "prompt_es": "Escribe en inglés: '9:30'",
+          "prompt_es": "Escribe en inglés: '9:30' ([[food|comida]])",
           "correct_answer": "Half past nine",
           "mastery_tag": "vocabulary",
           "complexity": 3
@@ -268,9 +436,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál de estas formas NO es correcta para decir '10:15'?",
           "options": [
-            { "id": "o1", "text": "[[Ten fifteen|Las diez quince]]" },
-            { "id": "o2", "text": "[[A quarter past ten|Las diez y cuarto]]" },
-            { "id": "o3", "text": "[[A quarter to ten|Las diez menos cuarto]]" }
+            {
+              "id": "o1",
+              "text": "[[Ten fifteen|Las diez quince]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[A quarter past ten|Las diez y cuarto]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[A quarter to ten|Las diez menos cuarto]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary",
@@ -287,9 +464,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué preposición usamos para hablar de horas específicas?",
           "options": [
-            { "id": "o1", "text": "[[In|En]]" },
-            { "id": "o2", "text": "[[On|En/Sobre]]" },
-            { "id": "o3", "text": "[[At|A las]]" }
+            {
+              "id": "o1",
+              "text": "[[In|En]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[On|En/Sobre]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[At|A las]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "grammar",
@@ -298,7 +484,7 @@
         {
           "interaction_id": "U11_I24",
           "type": "fill_blanks",
-          "prompt_es": "Completa con la preposición correcta:",
+          "prompt_es": "Completa con la preposición correcta: ([[food|comida]])",
           "stimulus_en": "The class starts ________ 9:00 AM.",
           "correct_answer": "at",
           "mastery_tag": "grammar",
@@ -315,16 +501,41 @@
         {
           "interaction_id": "U11_I26",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Me voy a la cama a las once.'",
+          "prompt_es": "Ordena: 'Me voy a la cama a las once.' ([[food|comida]])",
           "options": [
-            { "id": "w1", "text": "I" },
-            { "id": "w2", "text": "go" },
-            { "id": "w3", "text": "to" },
-            { "id": "w4", "text": "bed" },
-            { "id": "w5", "text": "at" },
-            { "id": "w6", "text": "eleven." }
+            {
+              "id": "w1",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "go"
+            },
+            {
+              "id": "w3",
+              "text": "to"
+            },
+            {
+              "id": "w4",
+              "text": "bed"
+            },
+            {
+              "id": "w5",
+              "text": "at"
+            },
+            {
+              "id": "w6",
+              "text": "eleven."
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
           "mastery_tag": "syntax",
           "complexity": 2
         },
@@ -333,12 +544,33 @@
           "type": "matching",
           "prompt_es": "Une el saludo con el momento del día:",
           "pairs": [
-            { "id": "p1", "left": "[[Good morning|Buenos días]]", "right": "Buenas tardes" },
-            { "id": "p2", "left": "[[Good afternoon|Buenas tardes]]", "right": "Buenas noches (saludo)" },
-            { "id": "p3", "left": "[[Good evening|Buenas noches (saludo)]]", "right": "Buenas noches (despedida)" },
-            { "id": "p4", "left": "[[Good night|Buenas noches (despedida)]]", "right": "Buenos días" }
+            {
+              "id": "p1",
+              "left": "[[Good morning|Buenos días]]",
+              "right": "Buenas tardes"
+            },
+            {
+              "id": "p2",
+              "left": "[[Good afternoon|Buenas tardes]]",
+              "right": "Buenas noches (saludo)"
+            },
+            {
+              "id": "p3",
+              "left": "[[Good evening|Buenas noches (saludo)]]",
+              "right": "Buenas noches (despedida)"
+            },
+            {
+              "id": "p4",
+              "left": "[[Good night|Buenas noches (despedida)]]",
+              "right": "Buenos días"
+            }
           ],
-          "correct_answer": { "p1": "p4", "p2": "p1", "p3": "p2", "p4": "p3" },
+          "correct_answer": {
+            "p1": "p4",
+            "p2": "p1",
+            "p3": "p2",
+            "p4": "p3"
+          },
           "mastery_tag": "vocabulary",
           "complexity": 1
         },
@@ -347,9 +579,18 @@
           "type": "multiple_choice",
           "prompt_es": "La tienda cierra '[[at midnight|a medianoche]]'. ¿A qué hora cierra?",
           "options": [
-            { "id": "o1", "text": "A las 12:00 de la tarde" },
-            { "id": "o2", "text": "A las 00:00 (medianoche)" },
-            { "id": "o3", "text": "A las 11:00 de la noche" }
+            {
+              "id": "o1",
+              "text": "A las 12:00 de la tarde"
+            },
+            {
+              "id": "o2",
+              "text": "A las 00:00 (medianoche)"
+            },
+            {
+              "id": "o3",
+              "text": "A las 11:00 de la noche"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "vocabulary",
@@ -358,7 +599,7 @@
         {
           "interaction_id": "U11_I29",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'El tren sale a las 6:00 AM.'",
+          "prompt_es": "Completa: 'El tren sale a las 6:00 AM.' ([[train|tren]])",
           "stimulus_en": "The train leaves ________ 6:00 AM.",
           "correct_answer": "at",
           "mastery_tag": "grammar",
@@ -369,9 +610,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo preguntas la hora de forma informal?",
           "options": [
-            { "id": "o1", "text": "[[What's the time?|¿Qué hora es?]]" },
-            { "id": "o2", "text": "[[Where is the time?|¿Dónde está la hora?]]" },
-            { "id": "o3", "text": "[[How is the time?|¿Cómo es la hora?]]" }
+            {
+              "id": "o1",
+              "text": "[[What's the time?|¿Qué hora es?]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Where is the time?|¿Dónde está la hora?]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[How is the time?|¿Cómo es la hora?]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "phrases",
@@ -380,7 +630,7 @@
         {
           "interaction_id": "U11_I31",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'La película empieza a las 8:00 PM.'",
+          "prompt_es": "Traduce: 'La película empieza a las 8:00 PM.' ([[food|comida]])",
           "correct_answer": "The film starts at 8:00 PM",
           "mastery_tag": "syntax",
           "complexity": 3
@@ -404,18 +654,27 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se escribe '45 minutos' en la estructura de horas?",
           "options": [
-            { "id": "o1", "text": "[[Forty-five past|Cuarenta y cinco pasadas]]" },
-            { "id": "o2", "text": "[[A quarter to|Menos cuarto]]" },
-            { "id": "o3", "text": "[[Forty-five to|Cuarenta y cinco para]]" }
+            {
+              "id": "o1",
+              "text": "[[Forty-five past|Cuarenta y cinco pasadas]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Forty-five to|Cuarenta y cinco para]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[A quarter to|Menos cuarto]]"
+            }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary",
           "complexity": 2
         },
         {
           "interaction_id": "U11_I34",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'Son las doce en punto del mediodía.'",
+          "prompt_es": "Completa: 'Son las doce en punto del mediodía.' ([[food|comida]])",
           "stimulus_en": "It is twelve ________ — midday.",
           "correct_answer": "o'clock",
           "mastery_tag": "grammar",
@@ -426,28 +685,74 @@
           "type": "matching",
           "prompt_es": "Une las horas con su traducción:",
           "pairs": [
-            { "id": "p1", "left": "[[Half past two|Las dos y media]]", "right": "Las tres menos cuarto" },
-            { "id": "p2", "left": "[[A quarter to three|Las tres menos cuarto]]", "right": "Las cuatro en punto" },
-            { "id": "p3", "left": "[[Four o'clock|Las cuatro en punto]]", "right": "Las cuatro y cuarto" },
-            { "id": "p4", "left": "[[A quarter past four|Las cuatro y cuarto]]", "right": "Las dos y media" }
+            {
+              "id": "p1",
+              "left": "[[Half past two|Las dos y media]]",
+              "right": "Las tres menos cuarto"
+            },
+            {
+              "id": "p2",
+              "left": "[[A quarter to three|Las tres menos cuarto]]",
+              "right": "Las cuatro en punto"
+            },
+            {
+              "id": "p3",
+              "left": "[[Four o'clock|Las cuatro en punto]]",
+              "right": "Las cuatro y cuarto"
+            },
+            {
+              "id": "p4",
+              "left": "[[A quarter past four|Las cuatro y cuarto]]",
+              "right": "Las dos y media"
+            }
           ],
-          "correct_answer": { "p1": "p4", "p2": "p1", "p3": "p2", "p4": "p3" },
+          "correct_answer": {
+            "p1": "p4",
+            "p2": "p1",
+            "p3": "p2",
+            "p4": "p3"
+          },
           "mastery_tag": "vocabulary",
           "complexity": 1
         },
         {
           "interaction_id": "U11_I36",
           "type": "reorder_words",
-          "prompt_es": "Ordena: '¿A qué hora empieza el partido?'",
+          "prompt_es": "Ordena: '¿A qué hora empieza el partido?' ([[food|comida]])",
           "options": [
-            { "id": "w1", "text": "What" },
-            { "id": "w2", "text": "time" },
-            { "id": "w3", "text": "does" },
-            { "id": "w4", "text": "the" },
-            { "id": "w5", "text": "match" },
-            { "id": "w6", "text": "start?" }
+            {
+              "id": "w1",
+              "text": "What"
+            },
+            {
+              "id": "w2",
+              "text": "time"
+            },
+            {
+              "id": "w3",
+              "text": "does"
+            },
+            {
+              "id": "w4",
+              "text": "the"
+            },
+            {
+              "id": "w5",
+              "text": "match"
+            },
+            {
+              "id": "w6",
+              "text": "start?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
           "mastery_tag": "syntax",
           "complexity": 2
         },
@@ -456,9 +761,18 @@
           "type": "multiple_choice",
           "prompt_es": "Son las 2:00 de la mañana. ¿Cómo se dice?",
           "options": [
-            { "id": "o1", "text": "[[Two o'clock AM|Las dos en punto de la mañana]]" },
-            { "id": "o2", "text": "[[Two o'clock PM|Las dos en punto de la tarde]]" },
-            { "id": "o3", "text": "[[Two o'clock midday|Las dos en punto del mediodía]]" }
+            {
+              "id": "o1",
+              "text": "[[Two o'clock AM|Las dos en punto de la mañana]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Two o'clock PM|Las dos en punto de la tarde]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Two o'clock midday|Las dos en punto del mediodía]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary",
@@ -467,7 +781,7 @@
         {
           "interaction_id": "U11_I38",
           "type": "fill_blanks",
-          "prompt_es": "Completa la pregunta: '¿A qué hora es tu clase?'",
+          "prompt_es": "Completa la pregunta: '¿A qué hora es tu clase?' ([[food|comida]])",
           "stimulus_en": "What ________ is your class?",
           "correct_answer": "time",
           "mastery_tag": "phrases",
@@ -484,7 +798,7 @@
         {
           "interaction_id": "U11_I40",
           "type": "short_writing",
-          "prompt_es": "Escribe en inglés: '¿A qué hora es la cena?'",
+          "prompt_es": "Escribe en inglés: '¿A qué hora es la cena?' ([[food|comida]])",
           "correct_answer": "What time is dinner?",
           "mastery_tag": "phrases",
           "complexity": 3
@@ -499,7 +813,7 @@
           "interaction_id": "U11_READ1",
           "type": "reading_phase",
           "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[carefully|con atención]].",
-          "transcript": "My name is [[Emma|Emma]]. I am a student. I wake up [[at|a las]] seven [[o'clock|en punto]] every morning. My first class starts [[at|a las]] nine o'clock. It is an English class. At half past twelve, I have lunch. My afternoon classes finish [[at|a las]] four o'clock. In the evening, I study [[at|en]] home. I go to bed [[at|a las]] half past ten.",
+          "transcript": "My name is [[Emma|Emma]]. I am a [[student|estudiante]] at City [[College|colegio universitario]]. My day is very busy. I [[wake up|me despierto]] [[at|a las]] [[half past six|seis y media]] in the morning. My first class [[starts|empieza]] [[at|a las]] nine [[o'clock|en punto]]. At [[quarter past twelve|las doce y cuarto]], I have lunch with my friends in the café. In the afternoon, I have classes [[from|desde]] two [[o'clock|en punto]] [[to|hasta]] [[four o'clock|las cuatro]]. After class, I go to the library. I [[usually|normalmente]] study until [[half past six|las seis y media]]. Then I go home, have dinner at [[eight|las ocho]], and go to bed [[at|a las]] [[eleven o'clock|las once]]. I love my busy student life!",
           "mastery_tag": "reading",
           "complexity": 1
         },
@@ -508,9 +822,18 @@
           "type": "multiple_choice",
           "prompt_es": "Según el texto, ¿a qué hora se despierta Emma?",
           "options": [
-            { "id": "o1", "text": "[[At seven o'clock|A las siete en punto]]" },
-            { "id": "o2", "text": "[[At half past seven|A las siete y media]]" },
-            { "id": "o3", "text": "[[At nine o'clock|A las nueve en punto]]" }
+            {
+              "id": "o1",
+              "text": "[[At seven o'clock|A las siete en punto]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[At half past seven|A las siete y media]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[At nine o'clock|A las nueve en punto]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading",
@@ -519,7 +842,7 @@
         {
           "interaction_id": "U11_I42",
           "type": "true_false",
-          "prompt_es": "Según el texto, la primera clase de Emma empieza a las nueve.",
+          "prompt_es": "Según el texto, la primera clase de Emma empieza a las nueve. ([[food|comida]])",
           "correct_answer": true,
           "mastery_tag": "reading",
           "complexity": 1
@@ -529,9 +852,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuándo almuerza Emma?",
           "options": [
-            { "id": "o1", "text": "[[At twelve o'clock|A las doce en punto]]" },
-            { "id": "o2", "text": "[[At a quarter past twelve|A las doce y cuarto]]" },
-            { "id": "o3", "text": "[[At half past twelve|A las doce y media]]" }
+            {
+              "id": "o1",
+              "text": "[[At twelve o'clock|A las doce en punto]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[At a quarter past twelve|A las doce y cuarto]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[At half past twelve|A las doce y media]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "reading",
@@ -551,9 +883,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿A qué hora se va a la cama Emma?",
           "options": [
-            { "id": "o1", "text": "[[At ten o'clock|A las diez en punto]]" },
-            { "id": "o2", "text": "[[At half past ten|A las diez y media]]" },
-            { "id": "o3", "text": "[[At a quarter to ten|A las diez menos cuarto]]" }
+            {
+              "id": "o1",
+              "text": "[[At ten o'clock|A las diez en punto]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[At half past ten|A las diez y media]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[At a quarter to ten|A las diez menos cuarto]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "reading",
@@ -562,7 +903,7 @@
         {
           "interaction_id": "U11_I46",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Desayuno a las siete y media.'",
+          "prompt_es": "Traduce: 'Desayuno a las siete y media.' ([[food|comida]])",
           "correct_answer": "I have breakfast at half past seven",
           "mastery_tag": "syntax",
           "complexity": 3
@@ -570,15 +911,36 @@
         {
           "interaction_id": "U11_I47",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'La escuela empieza a las nueve.'",
+          "prompt_es": "Ordena: 'La escuela empieza a las nueve.' ([[food|comida]])",
           "options": [
-            { "id": "w1", "text": "School" },
-            { "id": "w2", "text": "starts" },
-            { "id": "w3", "text": "at" },
-            { "id": "w4", "text": "nine" },
-            { "id": "w5", "text": "o'clock." }
+            {
+              "id": "w1",
+              "text": "School"
+            },
+            {
+              "id": "w2",
+              "text": "starts"
+            },
+            {
+              "id": "w3",
+              "text": "at"
+            },
+            {
+              "id": "w4",
+              "text": "nine"
+            },
+            {
+              "id": "w5",
+              "text": "o'clock."
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "syntax",
           "complexity": 2
         },
@@ -587,9 +949,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa '[[a quarter past|y cuarto]]' en español?",
           "options": [
-            { "id": "o1", "text": "Y cuarto (15 minutos después de la hora)" },
-            { "id": "o2", "text": "Menos cuarto (15 minutos antes de la hora)" },
-            { "id": "o3", "text": "Y media (30 minutos después de la hora)" }
+            {
+              "id": "o1",
+              "text": "Y cuarto (15 minutos después de la hora)"
+            },
+            {
+              "id": "o2",
+              "text": "Menos cuarto (15 minutos antes de la hora)"
+            },
+            {
+              "id": "o3",
+              "text": "Y media (30 minutos después de la hora)"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary",
@@ -598,24 +969,261 @@
         {
           "interaction_id": "U11_I49",
           "type": "matching",
-          "prompt_es": "Une la hora con su expresión correcta:",
+          "prompt_es": "Une la hora con su expresión correcta: ([[food|comida]])",
           "pairs": [
-            { "id": "p1", "left": "11:45", "right": "Half past eleven" },
-            { "id": "p2", "left": "11:30", "right": "A quarter past eleven" },
-            { "id": "p3", "left": "11:15", "right": "A quarter to twelve" },
-            { "id": "p4", "left": "11:00", "right": "Eleven o'clock" }
+            {
+              "id": "p1",
+              "left": "11:45",
+              "right": "Half past eleven"
+            },
+            {
+              "id": "p2",
+              "left": "11:30",
+              "right": "A quarter past eleven"
+            },
+            {
+              "id": "p3",
+              "left": "11:15",
+              "right": "A quarter to twelve"
+            },
+            {
+              "id": "p4",
+              "left": "11:00",
+              "right": "Eleven o'clock"
+            }
           ],
-          "correct_answer": { "p1": "p3", "p2": "p1", "p3": "p2", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p3",
+            "p2": "p1",
+            "p3": "p2",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary",
           "complexity": 1
         },
         {
           "interaction_id": "U11_I50",
           "type": "short_writing",
-          "prompt_es": "Escribe la pregunta completa: '¿A qué hora te despiertas?'",
+          "prompt_es": "Escribe la pregunta completa: '¿A qué hora te despiertas?' ([[food|comida]])",
           "correct_answer": "What time do you wake up?",
           "mastery_tag": "phrases",
           "complexity": 3
+        }
+      ]
+    },
+    {
+      "block_id": "B11_6",
+      "title": "Block 6: Extended Time Practice",
+      "content": [
+        {
+          "interaction_id": "A1_U11_B11_6_E1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice \"8:05\" en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Five past eight|Las ocho y cinco]]"
+            },
+            {
+              "id": "o2",
+              "text": "Eight five"
+            },
+            {
+              "id": "o3",
+              "text": "Five to eight"
+            },
+            {
+              "id": "o4",
+              "text": "Eight and five"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "A1_U11_B11_6_E2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se lee \"9:45\"?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Nine forty-five"
+            },
+            {
+              "id": "o2",
+              "text": "[[Quarter to ten|Cuarto para las diez]]"
+            },
+            {
+              "id": "o3",
+              "text": "Quarter past nine"
+            },
+            {
+              "id": "o4",
+              "text": "Nine and quarter"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "A1_U11_B11_6_F1",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con la hora correcta ([[at|a las]]): The train leaves ________ six [[o'clock|en punto]].",
+          "stimulus_en": "The train leaves ________ six o'clock.",
+          "correct_answer": "at",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar"
+          ]
+        },
+        {
+          "interaction_id": "A1_U11_B11_6_F2",
+          "type": "fill_blanks",
+          "prompt_es": "Usa \"[[half past|y media]]\" para completar: Lunch is ________ one.",
+          "stimulus_en": "Lunch is ________ one.",
+          "correct_answer": "half past",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar"
+          ]
+        },
+        {
+          "interaction_id": "A1_U11_B11_6_E3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas la hora en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "What is clock?"
+            },
+            {
+              "id": "o2",
+              "text": "[[What time is it?|¿Qué hora es?]]"
+            },
+            {
+              "id": "o3",
+              "text": "How is the time?"
+            },
+            {
+              "id": "o4",
+              "text": "Which hour is?"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "speaking",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "A1_U11_B11_6_F3",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: \"[[It's|Son las]] ________ past three.\" (20 minutos)",
+          "stimulus_en": "It's ________ past three.",
+          "correct_answer": "twenty",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar"
+          ]
+        },
+        {
+          "interaction_id": "A1_U11_B11_6_T1",
+          "type": "true_false",
+          "prompt_es": "\"[[It's quarter to seven|Son las siete menos cuarto]]\" = 6:45. ¿Verdadero o falso?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[True|Verdadero]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[False|Falso]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar"
+          ]
+        },
+        {
+          "interaction_id": "A1_U11_B11_6_T2",
+          "type": "true_false",
+          "prompt_es": "\"[[It's half past eleven|Son las once y media]]\" = 11:00. ¿Verdadero o falso?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[True|Verdadero]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[False|Falso]]"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar"
+          ]
+        },
+        {
+          "interaction_id": "A1_U11_B11_6_R1",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: \"La reunión es a las nueve en punto\" ([[food|comida]])",
+          "options": [
+            {
+              "id": "w1",
+              "text": "The"
+            },
+            {
+              "id": "w2",
+              "text": "meeting"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "at"
+            },
+            {
+              "id": "w5",
+              "text": "nine"
+            },
+            {
+              "id": "w6",
+              "text": "o'clock"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
         }
       ]
     }

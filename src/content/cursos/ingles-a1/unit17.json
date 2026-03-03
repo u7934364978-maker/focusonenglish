@@ -23,12 +23,33 @@
           "type": "matching",
           "prompt_es": "Une el alimento con su traducción:",
           "pairs": [
-            { "id": "p1", "left": "[[Eggs|Huevos]]", "right": "Zumo de naranja" },
-            { "id": "p2", "left": "[[Toast|Tostada]]", "right": "Cereales" },
-            { "id": "p3", "left": "[[Cereal|Cereales]]", "right": "Huevos" },
-            { "id": "p4", "left": "[[Orange juice|Zumo de naranja]]", "right": "Tostada" }
+            {
+              "id": "p1",
+              "left": "[[Eggs|Huevos]]",
+              "right": "Zumo de naranja"
+            },
+            {
+              "id": "p2",
+              "left": "[[Toast|Tostada]]",
+              "right": "Cereales"
+            },
+            {
+              "id": "p3",
+              "left": "[[Cereal|Cereales]]",
+              "right": "Huevos"
+            },
+            {
+              "id": "p4",
+              "left": "[[Orange juice|Zumo de naranja]]",
+              "right": "Tostada"
+            }
           ],
-          "correct_answer": { "p1": "p3", "p2": "p4", "p3": "p2", "p4": "p1" },
+          "correct_answer": {
+            "p1": "p3",
+            "p2": "p4",
+            "p3": "p2",
+            "p4": "p1"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -36,17 +57,26 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál de estos es un alimento típico del desayuno británico?",
           "options": [
-            { "id": "o1", "text": "[[Bacon|Beicon]]" },
-            { "id": "o2", "text": "[[Pizza|Pizza]]" },
-            { "id": "o3", "text": "[[Rice|Arroz]]" }
+            {
+              "id": "o1",
+              "text": "[[Pizza|Pizza]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Rice|Arroz]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Bacon|Beicon]]"
+            }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U17_I3",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'Yo desayuno ________ (cereales) cada mañana.'",
+          "prompt_es": "Completa: 'Yo desayuno ________ (cereales) cada mañana.' ([[sport|deporte]])",
           "stimulus_en": "I have ________ every morning.",
           "correct_answer": "cereal",
           "mastery_tag": "vocabulary"
@@ -63,9 +93,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la forma correcta de decir 'desayuno'?",
           "options": [
-            { "id": "o1", "text": "[[Lunch|Almuerzo]]" },
-            { "id": "o2", "text": "[[Dinner|Cena]]" },
-            { "id": "o3", "text": "[[Breakfast|Desayuno]]" }
+            {
+              "id": "o1",
+              "text": "[[Lunch|Almuerzo]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Dinner|Cena]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Breakfast|Desayuno]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -73,7 +112,7 @@
         {
           "interaction_id": "U17_I6",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Tomo tostadas y zumo de naranja.'",
+          "prompt_es": "Traduce: 'Tomo tostadas y zumo de naranja.' ([[sport|deporte]])",
           "correct_answer": "I have toast and orange juice",
           "mastery_tag": "vocabulary"
         }
@@ -88,12 +127,33 @@
           "type": "matching",
           "prompt_es": "Une la comida con su traducción:",
           "pairs": [
-            { "id": "p1", "left": "[[Salad|Ensalada]]", "right": "Sopa" },
-            { "id": "p2", "left": "[[Soup|Sopa]]", "right": "Pasta" },
-            { "id": "p3", "left": "[[Pasta|Pasta]]", "right": "Pollo" },
-            { "id": "p4", "left": "[[Chicken|Pollo]]", "right": "Ensalada" }
+            {
+              "id": "p1",
+              "left": "[[Salad|Ensalada]]",
+              "right": "Sopa"
+            },
+            {
+              "id": "p2",
+              "left": "[[Soup|Sopa]]",
+              "right": "Pasta"
+            },
+            {
+              "id": "p3",
+              "left": "[[Pasta|Pasta]]",
+              "right": "Pollo"
+            },
+            {
+              "id": "p4",
+              "left": "[[Chicken|Pollo]]",
+              "right": "Ensalada"
+            }
           ],
-          "correct_answer": { "p1": "p4", "p2": "p1", "p3": "p2", "p4": "p3" },
+          "correct_answer": {
+            "p1": "p4",
+            "p2": "p1",
+            "p3": "p2",
+            "p4": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -101,9 +161,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la diferencia entre '[[lunch|almuerzo]]' y '[[dinner|cena]]'?",
           "options": [
-            { "id": "o1", "text": "[[Lunch es por la tarde, dinner por la mañana|Incorrecto]]" },
-            { "id": "o2", "text": "[[Lunch es al mediodía, dinner es por la noche|Correcto]]" },
-            { "id": "o3", "text": "[[Son iguales|Incorrecto]]" }
+            {
+              "id": "o1",
+              "text": "[[Lunch es por la tarde, dinner por la mañana|Incorrecto]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Lunch es al mediodía, dinner es por la noche|Correcto]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Son iguales|Incorrecto]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "vocabulary"
@@ -111,7 +180,7 @@
         {
           "interaction_id": "U17_I9",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'Para cenar como ________ (pollo) con verduras.'",
+          "prompt_es": "Completa: 'Para cenar como ________ (pollo) con verduras.' ([[sport|deporte]])",
           "stimulus_en": "For dinner, I eat ________ with vegetables.",
           "correct_answer": "chicken",
           "mastery_tag": "vocabulary"
@@ -128,18 +197,39 @@
           "type": "matching",
           "prompt_es": "Une los platos con la comida del día:",
           "pairs": [
-            { "id": "p1", "left": "[[Scrambled eggs & toast|Huevos revueltos y tostada]]", "right": "Dinner" },
-            { "id": "p2", "left": "[[Pasta with tomato sauce|Pasta con salsa de tomate]]", "right": "Breakfast" },
-            { "id": "p3", "left": "[[Chicken & vegetables|Pollo con verduras]]", "right": "Lunch" },
-            { "id": "p4", "left": "[[Sandwich & salad|Sándwich y ensalada]]", "right": "Dinner (alternativo)" }
+            {
+              "id": "p1",
+              "left": "[[Scrambled eggs & toast|Huevos revueltos y tostada]]",
+              "right": "Dinner"
+            },
+            {
+              "id": "p2",
+              "left": "[[Pasta with tomato sauce|Pasta con salsa de tomate]]",
+              "right": "Breakfast"
+            },
+            {
+              "id": "p3",
+              "left": "[[Chicken & vegetables|Pollo con verduras]]",
+              "right": "Lunch"
+            },
+            {
+              "id": "p4",
+              "left": "[[Sandwich & salad|Sándwich y ensalada]]",
+              "right": "Dinner (alternativo)"
+            }
           ],
-          "correct_answer": { "p1": "p2", "p2": "p3", "p3": "p1", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p2",
+            "p2": "p3",
+            "p3": "p1",
+            "p4": "p4"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U17_I12",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Para comer como una ensalada y sopa.'",
+          "prompt_es": "Traduce: 'Para comer como una ensalada y sopa.' ([[sport|deporte]])",
           "correct_answer": "For lunch I eat a salad and soup",
           "mastery_tag": "vocabulary"
         }
@@ -154,9 +244,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es el uso correcto de '[[have|tener/tomar]]' para comidas?",
           "options": [
-            { "id": "o1", "text": "[[I have breakfast at 8am|Desayuno a las 8]]" },
-            { "id": "o2", "text": "[[I drink breakfast|Incorrecto]]" },
-            { "id": "o3", "text": "[[I eat breakfast|Menos común con 'breakfast']]" }
+            {
+              "id": "o1",
+              "text": "[[I have breakfast at 8am|Desayuno a las 8]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[I drink breakfast|Incorrecto]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[I eat breakfast|Menos común con 'breakfast']]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -164,7 +263,7 @@
         {
           "interaction_id": "U17_I14",
           "type": "fill_blanks",
-          "prompt_es": "Completa: '¿Qué bebes con el desayuno?'",
+          "prompt_es": "Completa: '¿Qué bebes con el desayuno?' ([[breakfast|desayuno]])",
           "stimulus_en": "What do you ________ with breakfast?",
           "correct_answer": "drink",
           "mastery_tag": "grammar"
@@ -174,12 +273,33 @@
           "type": "matching",
           "prompt_es": "Une el verbo con su uso correcto:",
           "pairs": [
-            { "id": "p1", "left": "[[Have|Tomar]]", "right": "pasta, pizza, salad" },
-            { "id": "p2", "left": "[[Eat|Comer]]", "right": "water, tea, juice" },
-            { "id": "p3", "left": "[[Drink|Beber]]", "right": "lunch, dinner, breakfast" },
-            { "id": "p4", "left": "[[Make|Hacer]]", "right": "a sandwich, dinner" }
+            {
+              "id": "p1",
+              "left": "[[Have|Tomar]]",
+              "right": "pasta, pizza, salad"
+            },
+            {
+              "id": "p2",
+              "left": "[[Eat|Comer]]",
+              "right": "water, tea, juice"
+            },
+            {
+              "id": "p3",
+              "left": "[[Drink|Beber]]",
+              "right": "lunch, dinner, breakfast"
+            },
+            {
+              "id": "p4",
+              "left": "[[Make|Hacer]]",
+              "right": "a sandwich, dinner"
+            }
           ],
-          "correct_answer": { "p1": "p3", "p2": "p1", "p3": "p2", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p3",
+            "p2": "p1",
+            "p3": "p2",
+            "p4": "p4"
+          },
           "mastery_tag": "grammar"
         },
         {
@@ -192,21 +312,42 @@
         {
           "interaction_id": "U17_I17",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Él come pasta para cenar.'",
+          "prompt_es": "Ordena: 'Él come pasta para cenar.' ([[sport|deporte]])",
           "options": [
-            { "id": "w1", "text": "He" },
-            { "id": "w2", "text": "eats" },
-            { "id": "w3", "text": "pasta" },
-            { "id": "w4", "text": "for" },
-            { "id": "w5", "text": "dinner." }
+            {
+              "id": "w1",
+              "text": "He"
+            },
+            {
+              "id": "w2",
+              "text": "eats"
+            },
+            {
+              "id": "w3",
+              "text": "pasta"
+            },
+            {
+              "id": "w4",
+              "text": "for"
+            },
+            {
+              "id": "w5",
+              "text": "dinner."
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U17_I18",
           "type": "short_writing",
-          "prompt_es": "Traduce: '¿Qué come ella para comer?'",
+          "prompt_es": "Traduce: '¿Qué come ella para comer?' ([[sport|deporte]])",
           "correct_answer": "What does she eat for lunch?",
           "mastery_tag": "grammar"
         }
@@ -221,9 +362,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuándo usamos '[[some|algo/unos]]' y '[[any|ninguno/algo]]'?",
           "options": [
-            { "id": "o1", "text": "[[Some en afirmativas; any en negativas y preguntas|Correcto]]" },
-            { "id": "o2", "text": "[[Any en afirmativas; some en preguntas|Incorrecto]]" },
-            { "id": "o3", "text": "[[Son iguales siempre|Incorrecto]]" }
+            {
+              "id": "o1",
+              "text": "[[Some en afirmativas; any en negativas y preguntas|Correcto]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Any en afirmativas; some en preguntas|Incorrecto]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Son iguales siempre|Incorrecto]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -231,7 +381,7 @@
         {
           "interaction_id": "U17_I20",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'Tengo ________ pan pero no tengo mantequilla.'",
+          "prompt_es": "Completa: 'Tengo ________ pan pero no tengo mantequilla.' ([[butter|mantequilla]])",
           "stimulus_en": "I have ________ bread but I don't have any butter.",
           "correct_answer": "some",
           "mastery_tag": "grammar"
@@ -241,11 +391,20 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es correcto?",
           "options": [
-            { "id": "o1", "text": "[[I don't have some milk|Incorrecto]]" },
-            { "id": "o2", "text": "[[I don't have any milk|Correcto]]" },
-            { "id": "o3", "text": "[[I have any milk|Incorrecto en afirmativa]]" }
+            {
+              "id": "o1",
+              "text": "[[I don't have some milk|Incorrecto]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[I have any milk|Incorrecto en afirmativa]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[I don't have any milk|Correcto]]"
+            }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "grammar"
         },
         {
@@ -258,7 +417,7 @@
         {
           "interaction_id": "U17_I23",
           "type": "fill_blanks",
-          "prompt_es": "Completa: '¿Hay ________ leche en la nevera?'",
+          "prompt_es": "Completa: '¿Hay ________ leche en la nevera?' ([[fridge|nevera]])",
           "stimulus_en": "Is there ________ milk in the fridge?",
           "correct_answer": "any",
           "mastery_tag": "grammar"
@@ -268,19 +427,40 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: 'No tengo nada de zumo.'",
           "options": [
-            { "id": "w1", "text": "I" },
-            { "id": "w2", "text": "don't" },
-            { "id": "w3", "text": "have" },
-            { "id": "w4", "text": "any" },
-            { "id": "w5", "text": "juice." }
+            {
+              "id": "w1",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "don't"
+            },
+            {
+              "id": "w3",
+              "text": "have"
+            },
+            {
+              "id": "w4",
+              "text": "[[any|algún/ningún]]"
+            },
+            {
+              "id": "w5",
+              "text": "juice."
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U17_I25",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Hay algo de pan.'",
+          "prompt_es": "Traduce: 'Hay algo de pan.' ([[pan|sartén]])",
           "correct_answer": "There is some bread",
           "mastery_tag": "grammar"
         }
@@ -294,7 +474,7 @@
           "interaction_id": "U17_READ1",
           "type": "reading_phase",
           "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[carefully|con atención]].",
-          "transcript": "[[Emma|Emma]] [[starts|empieza]] her day at 7am. For [[breakfast|desayuno]], she [[has|toma]] some [[toast|tostada]] with [[jam|mermelada]] and [[drinks|bebe]] a glass of [[orange juice|zumo de naranja]]. She [[doesn't|no]] drink [[coffee|café]] in the [[morning|mañana]]. At [[lunchtime|mediodía]], Emma [[eats|come]] a [[chicken|pollo]] [[salad|ensalada]] and [[drinks|bebe]] some [[water|agua]]. She [[doesn't|no]] eat any [[meat|carne]] at [[dinner|cena]]. In the [[evening|tarde/noche]], she [[has|tiene]] [[pasta|pasta]] with [[vegetables|verduras]] and a [[glass|vaso]] of [[milk|leche]]. Emma [[thinks|cree]] it's [[important|importante]] to [[eat|comer]] [[healthily|sano]].",
+          "transcript": "[[Emma|Emma]] [[starts|empieza]] her day at 7am. For [[breakfast|el desayuno]], she [[has|toma]] some [[toast|tostadas]] with [[butter|mantequilla]] and a glass of [[orange juice|zumo de naranja]]. She [[doesn't|no]] drink coffee in the morning. At [[lunchtime|la hora del almuerzo]], she usually [[has|come]] a [[salad|ensalada]] or a [[sandwich|sándwich]] at the university café. Sometimes she [[eats|come]] [[soup|sopa]] when it is cold. In the evening, Emma [[cooks|cocina]] dinner for herself. She [[likes|gusta]] making [[pasta|pasta]] dishes or [[grilled chicken|pollo a la plancha]] with [[vegetables|verduras]]. At weekends, she [[goes out|sale]] for brunch with her friends. They love trying different [[restaurants|restaurantes]] in the city!",
           "mastery_tag": "reading",
           "complexity": 1
         },
@@ -303,9 +483,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué bebe Emma en el desayuno?",
           "options": [
-            { "id": "o1", "text": "[[Tea|Té]]" },
-            { "id": "o2", "text": "[[Orange juice|Zumo de naranja]]" },
-            { "id": "o3", "text": "[[Coffee|Café]]" }
+            {
+              "id": "o1",
+              "text": "[[Tea|Té]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Orange juice|Zumo de naranja]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Coffee|Café]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "reading"
@@ -313,7 +502,7 @@
         {
           "interaction_id": "U17_I27",
           "type": "true_false",
-          "prompt_es": "Emma bebe café por la mañana.",
+          "prompt_es": "Emma bebe café por la mañana. ([[sport|deporte]])",
           "correct_answer": false,
           "mastery_tag": "reading"
         },
@@ -322,17 +511,26 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué come Emma para comer al mediodía?",
           "options": [
-            { "id": "o1", "text": "[[Chicken salad|Ensalada de pollo]]" },
-            { "id": "o2", "text": "[[Pasta with vegetables|Pasta con verduras]]" },
-            { "id": "o3", "text": "[[Soup and bread|Sopa y pan]]" }
+            {
+              "id": "o1",
+              "text": "[[Soup and bread|Sopa y pan]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Pasta with vegetables|Pasta con verduras]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Chicken salad|Ensalada de pollo]]"
+            }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "reading"
         },
         {
           "interaction_id": "U17_I29",
           "type": "fill_blanks",
-          "prompt_es": "Para cenar Emma tiene ________ con verduras.",
+          "prompt_es": "Para cenar Emma tiene ________ con verduras. ([[sport|deporte]])",
           "stimulus_en": "For dinner, Emma has ________ with vegetables.",
           "correct_answer": "pasta",
           "mastery_tag": "reading"
@@ -342,17 +540,26 @@
           "type": "multiple_choice",
           "prompt_es": "¿Come Emma carne en la cena?",
           "options": [
-            { "id": "o1", "text": "[[Yes, always|Sí, siempre]]" },
-            { "id": "o2", "text": "[[No, she doesn't eat any meat at dinner|No, no come carne en la cena]]" },
-            { "id": "o3", "text": "[[Sometimes|A veces]]" }
+            {
+              "id": "o1",
+              "text": "[[Yes, always|Sí, siempre]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Sometimes|A veces]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[No, she doesn't eat any meat at dinner|No, no come carne en la cena]]"
+            }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "reading"
         },
         {
           "interaction_id": "U17_I31",
           "type": "short_writing",
-          "prompt_es": "Traduce: '¿Tiene ella pan en el desayuno?'",
+          "prompt_es": "Traduce: '¿Tiene ella pan en el desayuno?' ([[pan|sartén]])",
           "correct_answer": "Does she have bread at breakfast?",
           "mastery_tag": "reading"
         },
@@ -361,26 +568,68 @@
           "type": "matching",
           "prompt_es": "Une la comida del día con lo que toma Emma:",
           "pairs": [
-            { "id": "p1", "left": "[[Breakfast|Desayuno]]", "right": "Pasta with vegetables" },
-            { "id": "p2", "left": "[[Lunch|Almuerzo]]", "right": "Toast with jam + orange juice" },
-            { "id": "p3", "left": "[[Dinner|Cena]]", "right": "Chicken salad + water" },
-            { "id": "p4", "left": "[[After dinner|Tras la cena]]", "right": "A glass of milk" }
+            {
+              "id": "p1",
+              "left": "[[Breakfast|Desayuno]]",
+              "right": "Pasta with vegetables"
+            },
+            {
+              "id": "p2",
+              "left": "[[Lunch|Almuerzo]]",
+              "right": "Toast with jam + orange juice"
+            },
+            {
+              "id": "p3",
+              "left": "[[Dinner|Cena]]",
+              "right": "Chicken salad + water"
+            },
+            {
+              "id": "p4",
+              "left": "[[After dinner|Tras la cena]]",
+              "right": "A glass of milk"
+            }
           ],
-          "correct_answer": { "p1": "p2", "p2": "p3", "p3": "p1", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p2",
+            "p2": "p3",
+            "p3": "p1",
+            "p4": "p4"
+          },
           "mastery_tag": "reading"
         },
         {
           "interaction_id": "U17_I33",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Ella toma tostada con mermelada.'",
+          "prompt_es": "Ordena: 'Ella toma tostada con mermelada.' ([[sport|deporte]])",
           "options": [
-            { "id": "w1", "text": "She" },
-            { "id": "w2", "text": "has" },
-            { "id": "w3", "text": "toast" },
-            { "id": "w4", "text": "with" },
-            { "id": "w5", "text": "jam." }
+            {
+              "id": "w1",
+              "text": "She"
+            },
+            {
+              "id": "w2",
+              "text": "has"
+            },
+            {
+              "id": "w3",
+              "text": "toast"
+            },
+            {
+              "id": "w4",
+              "text": "with"
+            },
+            {
+              "id": "w5",
+              "text": "jam."
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -388,9 +637,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué es lo que Emma cree importante?",
           "options": [
-            { "id": "o1", "text": "[[To eat healthily|Comer sano]]" },
-            { "id": "o2", "text": "[[To eat quickly|Comer rápido]]" },
-            { "id": "o3", "text": "[[To cook every day|Cocinar cada día]]" }
+            {
+              "id": "o1",
+              "text": "[[To eat healthily|Comer sano]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[To eat quickly|Comer rápido]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[To cook every day|Cocinar cada día]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
@@ -398,7 +656,7 @@
         {
           "interaction_id": "U17_I35",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'Para el desayuno tomo ________ (huevos) revueltos.'",
+          "prompt_es": "Completa: 'Para el desayuno tomo ________ (huevos) revueltos.' ([[breakfast|desayuno]])",
           "stimulus_en": "For breakfast I have scrambled ________.",
           "correct_answer": "eggs",
           "mastery_tag": "vocabulary"
@@ -408,9 +666,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál de estos es una comida del desayuno?",
           "options": [
-            { "id": "o1", "text": "[[Chicken soup|Sopa de pollo]]" },
-            { "id": "o2", "text": "[[Porridge|Gachas]]" },
-            { "id": "o3", "text": "[[Pasta salad|Ensalada de pasta]]" }
+            {
+              "id": "o1",
+              "text": "[[Chicken soup|Sopa de pollo]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Porridge|Gachas]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Pasta salad|Ensalada de pasta]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "vocabulary"
@@ -425,14 +692,14 @@
         {
           "interaction_id": "U17_I38",
           "type": "short_writing",
-          "prompt_es": "Escribe: '¿Desayunas cada día?'",
+          "prompt_es": "Escribe: '¿Desayunas cada día?' ([[sport|deporte]])",
           "correct_answer": "Do you have breakfast every day?",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U17_I39",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'No hay ________ (nada de) leche en la nevera.'",
+          "prompt_es": "Completa: 'No hay ________ (nada de) leche en la nevera.' ([[fridge|nevera]])",
           "stimulus_en": "There isn't ________ milk in the fridge.",
           "correct_answer": "any",
           "mastery_tag": "grammar"
@@ -442,12 +709,494 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es correcto?",
           "options": [
-            { "id": "o1", "text": "[[She has some soup for lunch|Ella toma algo de sopa para comer]]" },
-            { "id": "o2", "text": "[[She has any soup for lunch|Incorrecto en afirmativa]]" },
-            { "id": "o3", "text": "[[She have some soup for lunch|Incorrecto (conjugación)]]" }
+            {
+              "id": "o1",
+              "text": "[[She has some soup for lunch|Ella toma algo de sopa para comer]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[She has any soup for lunch|Incorrecto en afirmativa]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[She have some soup for lunch|Incorrecto (conjugación)]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B17_6",
+      "title": "Block 6: Meals & Food Habits Extended",
+      "content": [
+        {
+          "interaction_id": "A1_U17_B17_6_E1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué suelen comer los ingleses en el [[breakfast|desayuno]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Pizza and pasta"
+            },
+            {
+              "id": "o2",
+              "text": "Soup and bread"
+            },
+            {
+              "id": "o3",
+              "text": "Rice and beans"
+            },
+            {
+              "id": "o4",
+              "text": "[[Toast and eggs|Tostadas y huevos]]"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "A1_U17_B17_6_F1",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: I usually [[have|tomar]] ________ for breakfast. ([[cereal|cereales]])",
+          "stimulus_en": "I usually have ________ for breakfast.",
+          "correct_answer": "cereal",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar"
+          ]
+        },
+        {
+          "interaction_id": "A1_U17_B17_6_E2",
+          "type": "multiple_choice",
+          "prompt_es": "\"[[Lunch|El almuerzo]]\" is the meal we have:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "In the morning"
+            },
+            {
+              "id": "o2",
+              "text": "At night"
+            },
+            {
+              "id": "o3",
+              "text": "In the evening"
+            },
+            {
+              "id": "o4",
+              "text": "[[In the middle of the day|A mediodía]]"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "A1_U17_B17_6_F2",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: She [[eats|comer]] ________ salad for lunch. (a)",
+          "stimulus_en": "She eats ________ salad for lunch.",
+          "correct_answer": "a",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar"
+          ]
+        },
+        {
+          "interaction_id": "A1_U17_B17_6_E3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice \"Tengo hambre\" en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "I am hungry food"
+            },
+            {
+              "id": "o2",
+              "text": "I want food now"
+            },
+            {
+              "id": "o3",
+              "text": "I have hunger"
+            },
+            {
+              "id": "o4",
+              "text": "[[I'm hungry|Tengo hambre]]"
+            }
+          ],
+          "correct_answer": "o4",
+          "mastery_tag": "speaking",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "A1_U17_B17_6_R1",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: \"¿Qué desayunas normalmente?\"",
+          "options": [
+            {
+              "id": "w1",
+              "text": "What"
+            },
+            {
+              "id": "w2",
+              "text": "do"
+            },
+            {
+              "id": "w3",
+              "text": "you"
+            },
+            {
+              "id": "w4",
+              "text": "[[usually|normalmente]]"
+            },
+            {
+              "id": "w5",
+              "text": "have"
+            },
+            {
+              "id": "w6",
+              "text": "for"
+            },
+            {
+              "id": "w7",
+              "text": "breakfast"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
+        },
+        {
+          "interaction_id": "A1_U17_B17_6_T1",
+          "type": "true_false",
+          "prompt_es": "\"[[Dinner|La cena]]\" is the last meal of the day. ¿Verdadero o falso?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[True|Verdadero]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[False|Falso]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar"
+          ]
+        },
+        {
+          "interaction_id": "A1_U17_B17_6_F3",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: There is ________ [[milk|leche]] in the fridge. (some/any)",
+          "stimulus_en": "There is ________ milk in the fridge.",
+          "correct_answer": "some",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar"
+          ]
+        },
+        {
+          "interaction_id": "A1_U17_B17_6_E4",
+          "type": "multiple_choice",
+          "prompt_es": "\"Is there ________ [[bread|pan]] left?\" ¿Qué palabra falta?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "some"
+            },
+            {
+              "id": "o2",
+              "text": "[[any|algún]]"
+            },
+            {
+              "id": "o3",
+              "text": "a"
+            },
+            {
+              "id": "o4",
+              "text": "the"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "A1_U17_B17_6_E5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál de estos es un [[snack|merienda/snack]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Full roast dinner"
+            },
+            {
+              "id": "o2",
+              "text": "[[A piece of fruit|Un trozo de fruta]]"
+            },
+            {
+              "id": "o3",
+              "text": "Three-course meal"
+            },
+            {
+              "id": "o4",
+              "text": "Sunday lunch"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "A1_U17_B17_6_F4",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: We don't [[have|tener]] ________ sugar. (any/some)",
+          "stimulus_en": "We don't have ________ sugar.",
+          "correct_answer": "any",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar"
+          ]
+        },
+        {
+          "interaction_id": "A1_U17_B17_6_R2",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: \"Ella bebe zumo de naranja por las mañanas\"",
+          "options": [
+            {
+              "id": "w1",
+              "text": "She"
+            },
+            {
+              "id": "w2",
+              "text": "drinks"
+            },
+            {
+              "id": "w3",
+              "text": "[[orange|naranja]]"
+            },
+            {
+              "id": "w4",
+              "text": "juice"
+            },
+            {
+              "id": "w5",
+              "text": "in"
+            },
+            {
+              "id": "w6",
+              "text": "the"
+            },
+            {
+              "id": "w7",
+              "text": "morning"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
+        },
+        {
+          "interaction_id": "A1_U17_B17_6_T2",
+          "type": "true_false",
+          "prompt_es": "\"[[I eat|Yo como]] three meals a day\" es una afirmación correcta. ¿Verdadero o falso?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[True|Verdadero]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[False|Falso]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar"
+          ]
+        },
+        {
+          "interaction_id": "A1_U17_B17_6_E6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la traducción de \"[[leftovers|sobras]]\"?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Fresh food"
+            },
+            {
+              "id": "o2",
+              "text": "[[Food remaining after a meal|Comida que sobra]]"
+            },
+            {
+              "id": "o3",
+              "text": "Frozen food"
+            },
+            {
+              "id": "o4",
+              "text": "Fast food"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "A1_U17_B17_6_F5",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: He [[drinks|beber]] ________ coffee every morning. (a cup of)",
+          "stimulus_en": "He drinks ________ coffee every morning.",
+          "correct_answer": "a cup of",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar"
+          ]
+        },
+        {
+          "interaction_id": "A1_U17_B17_6_E7",
+          "type": "multiple_choice",
+          "prompt_es": "\"[[I'm full|Estoy lleno/a]]\" significa:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "I am empty"
+            },
+            {
+              "id": "o2",
+              "text": "[[I have eaten enough|He comido suficiente]]"
+            },
+            {
+              "id": "o3",
+              "text": "I am hungry"
+            },
+            {
+              "id": "o4",
+              "text": "I want more food"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "A1_U17_B17_6_F6",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con [[some|algo]]: Would you like ________ cake?",
+          "stimulus_en": "Would you like ________ cake?",
+          "correct_answer": "some",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar"
+          ]
+        },
+        {
+          "interaction_id": "A1_U17_B17_6_T3",
+          "type": "true_false",
+          "prompt_es": "\"[[Vegetarian food|Comida vegetariana]]\" no contiene carne. ¿Verdadero o falso?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[True|Verdadero]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[False|Falso]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar"
+          ]
+        },
+        {
+          "interaction_id": "A1_U17_B17_6_E8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa \"[[skip breakfast|saltarse el desayuno]]\"?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Eat a big breakfast"
+            },
+            {
+              "id": "o2",
+              "text": "[[Not eat breakfast|No desayunar]]"
+            },
+            {
+              "id": "o3",
+              "text": "Have breakfast in bed"
+            },
+            {
+              "id": "o4",
+              "text": "Eat very fast"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary"
+          ]
         }
       ]
     }

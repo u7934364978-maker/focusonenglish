@@ -23,12 +23,33 @@
           "type": "matching",
           "prompt_es": "Une los días de la semana (Lunes a Jueves):",
           "pairs": [
-            { "id": "p1", "left": "[[Monday|Lunes]]", "right": "Martes" },
-            { "id": "p2", "left": "[[Tuesday|Martes]]", "right": "Jueves" },
-            { "id": "p3", "left": "[[Wednesday|Miércoles]]", "right": "Lunes" },
-            { "id": "p4", "left": "[[Thursday|Jueves]]", "right": "Miércoles" }
+            {
+              "id": "p1",
+              "left": "[[Monday|Lunes]]",
+              "right": "Martes"
+            },
+            {
+              "id": "p2",
+              "left": "[[Tuesday|Martes]]",
+              "right": "Jueves"
+            },
+            {
+              "id": "p3",
+              "left": "[[Wednesday|Miércoles]]",
+              "right": "Lunes"
+            },
+            {
+              "id": "p4",
+              "left": "[[Thursday|Jueves]]",
+              "right": "Miércoles"
+            }
           ],
-          "correct_answer": { "p1": "p3", "p2": "p1", "p3": "p4", "p4": "p2" },
+          "correct_answer": {
+            "p1": "p3",
+            "p2": "p1",
+            "p3": "p4",
+            "p4": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -36,12 +57,33 @@
           "type": "matching",
           "prompt_es": "Une los días del fin de semana y otros:",
           "pairs": [
-            { "id": "p1", "left": "[[Friday|Viernes]]", "right": "Domingo" },
-            { "id": "p2", "left": "[[Saturday|Sábado]]", "right": "Fin de semana" },
-            { "id": "p3", "left": "[[Sunday|Domingo]]", "right": "Viernes" },
-            { "id": "p4", "left": "[[Weekend|Fin de semana]]", "right": "Sábado" }
+            {
+              "id": "p1",
+              "left": "[[Friday|Viernes]]",
+              "right": "Domingo"
+            },
+            {
+              "id": "p2",
+              "left": "[[Saturday|Sábado]]",
+              "right": "Fin de semana"
+            },
+            {
+              "id": "p3",
+              "left": "[[Sunday|Domingo]]",
+              "right": "Viernes"
+            },
+            {
+              "id": "p4",
+              "left": "[[Weekend|Fin de semana]]",
+              "right": "Sábado"
+            }
           ],
-          "correct_answer": { "p1": "p3", "p2": "p4", "p3": "p1", "p4": "p2" },
+          "correct_answer": {
+            "p1": "p3",
+            "p2": "p4",
+            "p3": "p1",
+            "p4": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -49,17 +91,26 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se pregunta '¿Qué día es hoy?'?",
           "options": [
-            { "id": "o1", "text": "[[Which day is today?|¿Cuál es el día hoy?]]" },
-            { "id": "o2", "text": "[[What time is today?|¿Qué hora es hoy?]]" },
-            { "id": "o3", "text": "[[What day is it today?|¿Qué día es hoy?]]" }
+            {
+              "id": "o1",
+              "text": "[[What day is it today?|¿Qué día es hoy?]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[What time is today?|¿Qué hora es hoy?]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Which day is today?|¿Cuál es el día hoy?]]"
+            }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "phrases"
         },
         {
           "interaction_id": "U12_I4",
           "type": "true_false",
-          "prompt_es": "En inglés, los días de la semana siempre se escriben con mayúscula inicial.",
+          "prompt_es": "En inglés, los días de la semana siempre se escriben con mayúscula inicial. ([[house|casa]])",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
@@ -68,9 +119,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es el primer día de la semana laboral en el mundo anglosajón?",
           "options": [
-            { "id": "o1", "text": "[[Sunday|Domingo]]" },
-            { "id": "o2", "text": "[[Monday|Lunes]]" },
-            { "id": "o3", "text": "[[Tuesday|Martes]]" }
+            {
+              "id": "o1",
+              "text": "[[Sunday|Domingo]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Monday|Lunes]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Tuesday|Martes]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "culture"
@@ -78,7 +138,7 @@
         {
           "interaction_id": "U12_I6",
           "type": "fill_blanks",
-          "prompt_es": "Completa la secuencia: Monday, Tuesday, ________, Thursday.",
+          "prompt_es": "Completa la secuencia: Monday, Tuesday, ________, Thursday. ([[house|casa]])",
           "stimulus_en": "Monday, Tuesday, ________, Thursday",
           "correct_answer": "Wednesday",
           "mastery_tag": "vocabulary"
@@ -88,17 +148,26 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es el último día de la semana laboral típica?",
           "options": [
-            { "id": "o1", "text": "[[Saturday|Sábado]]" },
-            { "id": "o2", "text": "[[Sunday|Domingo]]" },
-            { "id": "o3", "text": "[[Friday|Viernes]]" }
+            {
+              "id": "o1",
+              "text": "[[Friday|Viernes]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Sunday|Domingo]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Saturday|Sábado]]"
+            }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U12_I8",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Hoy es viernes.'",
+          "prompt_es": "Traduce: 'Hoy es viernes.' ([[house|casa]])",
           "correct_answer": "Today is Friday",
           "mastery_tag": "syntax"
         },
@@ -112,17 +181,46 @@
         {
           "interaction_id": "U12_I10",
           "type": "reorder_words",
-          "prompt_es": "Ordena todos los días de la semana. Empieza por Monday:",
+          "prompt_es": "Ordena todos los días de la semana. Empieza por Monday: ([[house|casa]])",
           "options": [
-            { "id": "w1", "text": "Monday," },
-            { "id": "w2", "text": "Tuesday," },
-            { "id": "w3", "text": "Wednesday," },
-            { "id": "w4", "text": "Thursday," },
-            { "id": "w5", "text": "Friday," },
-            { "id": "w6", "text": "Saturday," },
-            { "id": "w7", "text": "Sunday" }
+            {
+              "id": "w1",
+              "text": "Monday,"
+            },
+            {
+              "id": "w2",
+              "text": "Tuesday,"
+            },
+            {
+              "id": "w3",
+              "text": "Wednesday,"
+            },
+            {
+              "id": "w4",
+              "text": "Thursday,"
+            },
+            {
+              "id": "w5",
+              "text": "Friday,"
+            },
+            {
+              "id": "w6",
+              "text": "Saturday,"
+            },
+            {
+              "id": "w7",
+              "text": "Sunday"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6",
+            "w7"
+          ],
           "mastery_tag": "vocabulary"
         }
       ]
@@ -136,9 +234,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué preposición usamos con los días de la semana?",
           "options": [
-            { "id": "o1", "text": "[[In|En]]" },
-            { "id": "o2", "text": "[[At|A las]]" },
-            { "id": "o3", "text": "[[On|El/Los]]" }
+            {
+              "id": "o1",
+              "text": "[[In|En]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[At|A las]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[On|El/Los]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "grammar"
@@ -146,7 +253,7 @@
         {
           "interaction_id": "U12_I12",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'Nos vemos el lunes.'",
+          "prompt_es": "Completa: 'Nos vemos el lunes.' ([[house|casa]])",
           "stimulus_en": "See you ________ Monday.",
           "correct_answer": "on",
           "mastery_tag": "grammar"
@@ -154,14 +261,31 @@
         {
           "interaction_id": "U12_I13",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Trabajo los lunes.'",
+          "prompt_es": "Ordena: 'Trabajo los lunes.' ([[house|casa]])",
           "options": [
-            { "id": "w0", "text": "I" },
-            { "id": "w1", "text": "work" },
-            { "id": "w2", "text": "on" },
-            { "id": "w3", "text": "Mondays." }
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w1",
+              "text": "work"
+            },
+            {
+              "id": "w2",
+              "text": "on"
+            },
+            {
+              "id": "w3",
+              "text": "Mondays."
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -176,9 +300,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la frase correcta?",
           "options": [
-            { "id": "o1", "text": "[[She works at Saturdays|Trabaja los sábados]]" },
-            { "id": "o2", "text": "[[She works on Saturdays|Trabaja los sábados]]" },
-            { "id": "o3", "text": "[[She works in Saturdays|Trabaja los sábados]]" }
+            {
+              "id": "o1",
+              "text": "[[She works at Saturdays|Trabaja los sábados]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[She works on Saturdays|Trabaja los sábados]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[She works in Saturdays|Trabaja los sábados]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "grammar"
@@ -186,14 +319,14 @@
         {
           "interaction_id": "U12_I16",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Nos vemos el domingo.'",
+          "prompt_es": "Traduce: 'Nos vemos el domingo.' ([[house|casa]])",
           "correct_answer": "See you on Sunday",
           "mastery_tag": "phrases"
         },
         {
           "interaction_id": "U12_I17",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'La clase es el miércoles.'",
+          "prompt_es": "Completa: 'La clase es el miércoles.' ([[house|casa]])",
           "stimulus_en": "The class is ________ Wednesday.",
           "correct_answer": "on",
           "mastery_tag": "grammar"
@@ -203,9 +336,18 @@
           "type": "multiple_choice",
           "prompt_es": "Si hoy es martes, ¿qué día fue ayer?",
           "options": [
-            { "id": "o1", "text": "[[Wednesday|Miércoles]]" },
-            { "id": "o2", "text": "[[Monday|Lunes]]" },
-            { "id": "o3", "text": "[[Thursday|Jueves]]" }
+            {
+              "id": "o1",
+              "text": "[[Wednesday|Miércoles]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Monday|Lunes]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Thursday|Jueves]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "vocabulary"
@@ -221,12 +363,33 @@
           "type": "matching",
           "prompt_es": "Une los conceptos temporales:",
           "pairs": [
-            { "id": "p1", "left": "[[Today|Hoy]]", "right": "Mañana" },
-            { "id": "p2", "left": "[[Yesterday|Ayer]]", "right": "La próxima semana" },
-            { "id": "p3", "left": "[[Tomorrow|Mañana]]", "right": "Hoy" },
-            { "id": "p4", "left": "[[Next week|La próxima semana]]", "right": "Ayer" }
+            {
+              "id": "p1",
+              "left": "[[Today|Hoy]]",
+              "right": "Mañana"
+            },
+            {
+              "id": "p2",
+              "left": "[[Yesterday|Ayer]]",
+              "right": "La próxima semana"
+            },
+            {
+              "id": "p3",
+              "left": "[[Tomorrow|Mañana]]",
+              "right": "Hoy"
+            },
+            {
+              "id": "p4",
+              "left": "[[Next week|La próxima semana]]",
+              "right": "Ayer"
+            }
           ],
-          "correct_answer": { "p1": "p3", "p2": "p4", "p3": "p1", "p4": "p2" },
+          "correct_answer": {
+            "p1": "p3",
+            "p2": "p4",
+            "p3": "p1",
+            "p4": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -234,9 +397,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa '[[Yesterday|Ayer]]'?",
           "options": [
-            { "id": "o1", "text": "Mañana" },
-            { "id": "o2", "text": "La semana pasada" },
-            { "id": "o3", "text": "Ayer" }
+            {
+              "id": "o1",
+              "text": "Mañana"
+            },
+            {
+              "id": "o2",
+              "text": "La semana pasada"
+            },
+            {
+              "id": "o3",
+              "text": "Ayer"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -251,7 +423,7 @@
         {
           "interaction_id": "U12_I22",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'Mañana es jueves.'",
+          "prompt_es": "Completa: 'Mañana es jueves.' ([[house|casa]])",
           "stimulus_en": "________ is Thursday.",
           "correct_answer": "Tomorrow",
           "mastery_tag": "vocabulary"
@@ -259,14 +431,31 @@
         {
           "interaction_id": "U12_I23",
           "type": "reorder_words",
-          "prompt_es": "Ordena: '¿Es hoy jueves?'",
+          "prompt_es": "Ordena: '¿Es hoy jueves?' ([[house|casa]])",
           "options": [
-            { "id": "w0", "text": "Is" },
-            { "id": "w1", "text": "it" },
-            { "id": "w2", "text": "Thursday" },
-            { "id": "w3", "text": "today?" }
+            {
+              "id": "w0",
+              "text": "Is"
+            },
+            {
+              "id": "w1",
+              "text": "it"
+            },
+            {
+              "id": "w2",
+              "text": "Thursday"
+            },
+            {
+              "id": "w3",
+              "text": "today?"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -274,9 +463,18 @@
           "type": "multiple_choice",
           "prompt_es": "Hoy es miércoles. ¿Qué día es mañana?",
           "options": [
-            { "id": "o1", "text": "[[Tuesday|Martes]]" },
-            { "id": "o2", "text": "[[Friday|Viernes]]" },
-            { "id": "o3", "text": "[[Thursday|Jueves]]" }
+            {
+              "id": "o1",
+              "text": "[[Tuesday|Martes]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Friday|Viernes]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Thursday|Jueves]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -286,18 +484,39 @@
           "type": "matching",
           "prompt_es": "Une las abreviaturas de los días:",
           "pairs": [
-            { "id": "p1", "left": "[[Mon|Lunes (abr.)]]", "right": "Thursday" },
-            { "id": "p2", "left": "[[Tue|Martes (abr.)]]", "right": "Monday" },
-            { "id": "p3", "left": "[[Wed|Miércoles (abr.)]]", "right": "Tuesday" },
-            { "id": "p4", "left": "[[Thu|Jueves (abr.)]]", "right": "Wednesday" }
+            {
+              "id": "p1",
+              "left": "[[Mon|Lunes (abr.)]]",
+              "right": "Thursday"
+            },
+            {
+              "id": "p2",
+              "left": "[[Tue|Martes (abr.)]]",
+              "right": "Monday"
+            },
+            {
+              "id": "p3",
+              "left": "[[Wed|Miércoles (abr.)]]",
+              "right": "Tuesday"
+            },
+            {
+              "id": "p4",
+              "left": "[[Thu|Jueves (abr.)]]",
+              "right": "Wednesday"
+            }
           ],
-          "correct_answer": { "p1": "p2", "p2": "p3", "p3": "p4", "p4": "p1" },
+          "correct_answer": {
+            "p1": "p2",
+            "p2": "p3",
+            "p3": "p4",
+            "p4": "p1"
+          },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U12_I26",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Ayer fue lunes.'",
+          "prompt_es": "Traduce: 'Ayer fue lunes.' ([[house|casa]])",
           "correct_answer": "Yesterday was Monday",
           "mastery_tag": "syntax"
         },
@@ -306,9 +525,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa '[[Last week|La semana pasada]]'?",
           "options": [
-            { "id": "o1", "text": "La semana pasada" },
-            { "id": "o2", "text": "La próxima semana" },
-            { "id": "o3", "text": "Esta semana" }
+            {
+              "id": "o1",
+              "text": "La semana pasada"
+            },
+            {
+              "id": "o2",
+              "text": "La próxima semana"
+            },
+            {
+              "id": "o3",
+              "text": "Esta semana"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -324,9 +552,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la pregunta correcta para saber el día?",
           "options": [
-            { "id": "o1", "text": "[[What day is today?|¿Qué día es hoy?]]" },
-            { "id": "o2", "text": "[[How day is it?|¿Cómo es el día?]]" },
-            { "id": "o3", "text": "[[When day is it?|¿Cuándo es el día?]]" }
+            {
+              "id": "o1",
+              "text": "[[What day is today?|¿Qué día es hoy?]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[How day is it?|¿Cómo es el día?]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[When day is it?|¿Cuándo es el día?]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "phrases"
@@ -334,7 +571,7 @@
         {
           "interaction_id": "U12_I29",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'Mi día favorito es el sábado.'",
+          "prompt_es": "Completa: 'Mi día favorito es el sábado.' ([[house|casa]])",
           "stimulus_en": "My favorite day is ________.",
           "correct_answer": "Saturday",
           "mastery_tag": "vocabulary"
@@ -342,15 +579,36 @@
         {
           "interaction_id": "U12_I30",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Mi día favorito es el sábado.'",
+          "prompt_es": "Ordena: 'Mi día favorito es el sábado.' ([[house|casa]])",
           "options": [
-            { "id": "w0", "text": "My" },
-            { "id": "w1", "text": "favorite" },
-            { "id": "w2", "text": "day" },
-            { "id": "w3", "text": "is" },
-            { "id": "w4", "text": "Saturday." }
+            {
+              "id": "w0",
+              "text": "My"
+            },
+            {
+              "id": "w1",
+              "text": "favorite"
+            },
+            {
+              "id": "w2",
+              "text": "day"
+            },
+            {
+              "id": "w3",
+              "text": "is"
+            },
+            {
+              "id": "w4",
+              "text": "Saturday."
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -365,12 +623,33 @@
           "type": "matching",
           "prompt_es": "Une los días con su posición en la semana:",
           "pairs": [
-            { "id": "p1", "left": "[[First day of the week|Primer día]]", "right": "Wednesday" },
-            { "id": "p2", "left": "[[Middle of the week|Mitad de la semana]]", "right": "Friday" },
-            { "id": "p3", "left": "[[Last working day|Último día laboral]]", "right": "Sunday" },
-            { "id": "p4", "left": "[[Day of rest|Día de descanso]]", "right": "Monday" }
+            {
+              "id": "p1",
+              "left": "[[First day of the week|Primer día]]",
+              "right": "Wednesday"
+            },
+            {
+              "id": "p2",
+              "left": "[[Middle of the week|Mitad de la semana]]",
+              "right": "Friday"
+            },
+            {
+              "id": "p3",
+              "left": "[[Last working day|Último día laboral]]",
+              "right": "Sunday"
+            },
+            {
+              "id": "p4",
+              "left": "[[Day of rest|Día de descanso]]",
+              "right": "Monday"
+            }
           ],
-          "correct_answer": { "p1": "p4", "p2": "p1", "p3": "p2", "p4": "p3" },
+          "correct_answer": {
+            "p1": "p4",
+            "p2": "p1",
+            "p3": "p2",
+            "p4": "p3"
+          },
           "mastery_tag": "culture"
         },
         {
@@ -378,9 +657,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo dices '¿Qué día es mañana?'?",
           "options": [
-            { "id": "o1", "text": "[[What day is tomorrow?|¿Qué día es mañana?]]" },
-            { "id": "o2", "text": "[[Which is tomorrow day?|¿Cuál es el día mañana?]]" },
-            { "id": "o3", "text": "[[Tomorrow what day?|Mañana qué día?]]" }
+            {
+              "id": "o1",
+              "text": "[[What day is tomorrow?|¿Qué día es mañana?]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Which is tomorrow day?|¿Cuál es el día mañana?]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Tomorrow what day?|Mañana qué día?]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "phrases"
@@ -388,14 +676,14 @@
         {
           "interaction_id": "U12_I34",
           "type": "short_writing",
-          "prompt_es": "Escribe: '¿Tienes clase los viernes?'",
+          "prompt_es": "Escribe: '¿Tienes clase los viernes?' ([[house|casa]])",
           "correct_answer": "Do you have class on Fridays?",
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U12_I35",
           "type": "fill_blanks",
-          "prompt_es": "Completa el diálogo: '¿Qué día es hoy?' → '________.'",
+          "prompt_es": "Completa el diálogo: '¿Qué día es hoy?' → '________.' ([[house|casa]])",
           "stimulus_en": "What day is it today? — It is ________.",
           "correct_answer": "Wednesday",
           "mastery_tag": "phrases"
@@ -410,7 +698,7 @@
           "interaction_id": "U12_READ1",
           "type": "reading_phase",
           "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[carefully|con atención]].",
-          "transcript": "Hello! My name is [[Carlos|Carlos]]. I am a student. [[On|Los]] Mondays, Tuesdays, and Wednesdays, I go to school. [[On|Los]] Thursdays, I play football with my friends. [[On|Los]] Fridays, I go to English class. [[On|El]] Saturday, I stay at home and [[watch|veo]] TV or [[read|leo]] books. [[On|El]] Sunday, I visit my grandparents. My favourite day is [[Saturday|sábado]] because I can [[relax|descansar]].",
+          "transcript": "Hello! My name is [[Carlos|Carlos]]. I am a [[student|estudiante]] at the University of Madrid. My week is very organised. [[On|Los]] Mondays, Tuesdays, and Wednesdays, I have classes in the morning. [[On|Los]] Thursdays, I work [[part-time|a tiempo parcial]] at a bookshop from ten to five. [[On|Los]] Fridays, I have a free afternoon. [[At|Los]] weekends, I love [[going out|salir]] with my friends. [[On|Los]] Saturdays, we usually go to the cinema or a café. [[On|Los]] Sundays, I stay home and study for the next week. My favourite day is [[Friday|el viernes]] because I can relax and do what I like!",
           "mastery_tag": "reading",
           "complexity": 1
         },
@@ -419,9 +707,18 @@
           "type": "multiple_choice",
           "prompt_es": "Según el texto, ¿qué hace Carlos los jueves?",
           "options": [
-            { "id": "o1", "text": "[[He goes to school|Va a la escuela]]" },
-            { "id": "o2", "text": "[[He visits his grandparents|Visita a sus abuelos]]" },
-            { "id": "o3", "text": "[[He plays football|Juega al fútbol]]" }
+            {
+              "id": "o1",
+              "text": "[[He goes to school|Va a la escuela]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[He visits his grandparents|Visita a sus abuelos]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[He plays football|Juega al fútbol]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "reading"
@@ -429,7 +726,7 @@
         {
           "interaction_id": "U12_I37",
           "type": "true_false",
-          "prompt_es": "Según el texto, Carlos tiene clase de inglés los viernes.",
+          "prompt_es": "Según el texto, Carlos tiene clase de inglés los viernes. ([[house|casa]])",
           "correct_answer": true,
           "mastery_tag": "reading"
         },
@@ -438,9 +735,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es el día favorito de Carlos?",
           "options": [
-            { "id": "o1", "text": "[[Friday|Viernes]]" },
-            { "id": "o2", "text": "[[Sunday|Domingo]]" },
-            { "id": "o3", "text": "[[Saturday|Sábado]]" }
+            {
+              "id": "o1",
+              "text": "[[Friday|Viernes]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Sunday|Domingo]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Saturday|Sábado]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "reading"
@@ -448,7 +754,7 @@
         {
           "interaction_id": "U12_I39",
           "type": "fill_blanks",
-          "prompt_es": "Según el texto, Carlos visita a sus abuelos el '________'.",
+          "prompt_es": "Según el texto, Carlos visita a sus abuelos el '________'. ([[house|casa]])",
           "stimulus_en": "Carlos visits his grandparents on ________.",
           "correct_answer": "Sunday",
           "mastery_tag": "reading"
@@ -458,9 +764,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué días va Carlos a la escuela?",
           "options": [
-            { "id": "o1", "text": "[[Monday, Wednesday, Friday|Lunes, miércoles y viernes]]" },
-            { "id": "o2", "text": "[[Monday, Tuesday, Wednesday|Lunes, martes y miércoles]]" },
-            { "id": "o3", "text": "[[Tuesday, Thursday, Friday|Martes, jueves y viernes]]" }
+            {
+              "id": "o1",
+              "text": "[[Monday, Wednesday, Friday|Lunes, miércoles y viernes]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Monday, Tuesday, Wednesday|Lunes, martes y miércoles]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Tuesday, Thursday, Friday|Martes, jueves y viernes]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "reading"
@@ -468,23 +783,48 @@
         {
           "interaction_id": "U12_I41",
           "type": "short_writing",
-          "prompt_es": "Escribe en inglés: '¿Qué haces los sábados?'",
+          "prompt_es": "Escribe en inglés: '¿Qué haces los sábados?' ([[house|casa]])",
           "correct_answer": "What do you do on Saturdays?",
           "mastery_tag": "phrases"
         },
         {
           "interaction_id": "U12_I42",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Voy a la escuela los martes.'",
+          "prompt_es": "Ordena: 'Voy a la escuela los martes.' ([[house|casa]])",
           "options": [
-            { "id": "w1", "text": "I" },
-            { "id": "w2", "text": "go" },
-            { "id": "w3", "text": "to" },
-            { "id": "w4", "text": "school" },
-            { "id": "w5", "text": "on" },
-            { "id": "w6", "text": "Tuesdays." }
+            {
+              "id": "w1",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "go"
+            },
+            {
+              "id": "w3",
+              "text": "to"
+            },
+            {
+              "id": "w4",
+              "text": "school"
+            },
+            {
+              "id": "w5",
+              "text": "on"
+            },
+            {
+              "id": "w6",
+              "text": "Tuesdays."
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -492,12 +832,33 @@
           "type": "matching",
           "prompt_es": "Une el día con la actividad de Carlos:",
           "pairs": [
-            { "id": "p1", "left": "[[Thursday|Jueves]]", "right": "Visita abuelos" },
-            { "id": "p2", "left": "[[Friday|Viernes]]", "right": "Ve la tele / lee" },
-            { "id": "p3", "left": "[[Saturday|Sábado]]", "right": "Juega al fútbol" },
-            { "id": "p4", "left": "[[Sunday|Domingo]]", "right": "Clase de inglés" }
+            {
+              "id": "p1",
+              "left": "[[Thursday|Jueves]]",
+              "right": "Visita abuelos"
+            },
+            {
+              "id": "p2",
+              "left": "[[Friday|Viernes]]",
+              "right": "Ve la tele / lee"
+            },
+            {
+              "id": "p3",
+              "left": "[[Saturday|Sábado]]",
+              "right": "Juega al fútbol"
+            },
+            {
+              "id": "p4",
+              "left": "[[Sunday|Domingo]]",
+              "right": "Clase de inglés"
+            }
           ],
-          "correct_answer": { "p1": "p3", "p2": "p4", "p3": "p2", "p4": "p1" },
+          "correct_answer": {
+            "p1": "p3",
+            "p2": "p4",
+            "p3": "p2",
+            "p4": "p1"
+          },
           "mastery_tag": "reading"
         },
         {
@@ -505,9 +866,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'fin de semana' en inglés?",
           "options": [
-            { "id": "o1", "text": "[[Weekdays|Días de la semana]]" },
-            { "id": "o2", "text": "[[Week end|Final de semana]]" },
-            { "id": "o3", "text": "[[Weekend|Fin de semana]]" }
+            {
+              "id": "o1",
+              "text": "[[Weekdays|Días de la semana]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Week end|Final de semana]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Weekend|Fin de semana]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -515,9 +885,349 @@
         {
           "interaction_id": "U12_I45",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'El lunes tengo inglés.'",
+          "prompt_es": "Traduce: 'El lunes tengo inglés.' ([[house|casa]])",
           "correct_answer": "On Monday I have English",
           "mastery_tag": "syntax"
+        }
+      ]
+    },
+    {
+      "block_id": "B12_6",
+      "title": "Block 6: Days & Routines Extended",
+      "content": [
+        {
+          "interaction_id": "A1_U12_B12_6_E1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué día es después del [[Wednesday|miércoles]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Thursday|Jueves]]"
+            },
+            {
+              "id": "o2",
+              "text": "Tuesday"
+            },
+            {
+              "id": "o3",
+              "text": "Friday"
+            },
+            {
+              "id": "o4",
+              "text": "Monday"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "A1_U12_B12_6_E2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuáles son los días del fin de semana?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Monday and Tuesday"
+            },
+            {
+              "id": "o2",
+              "text": "[[Saturday and Sunday|Sábado y domingo]]"
+            },
+            {
+              "id": "o3",
+              "text": "Friday and Saturday"
+            },
+            {
+              "id": "o4",
+              "text": "Sunday and Monday"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "A1_U12_B12_6_F1",
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el día correcto: \"[[On|El]] ________ I go to the gym. [[On Monday|Los lunes]]\"",
+          "stimulus_en": "On ________ I go to the gym.",
+          "correct_answer": "Monday",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar"
+          ]
+        },
+        {
+          "interaction_id": "A1_U12_B12_6_F2",
+          "type": "fill_blanks",
+          "prompt_es": "Usa \"[[on|el]]\": The class is ________ [[Thursday|el jueves]].",
+          "stimulus_en": "The class is ________ Thursday.",
+          "correct_answer": "on",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar"
+          ]
+        },
+        {
+          "interaction_id": "A1_U12_B12_6_M1",
+          "type": "matching",
+          "prompt_es": "Relaciona el día con el número de orden:",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "[[Monday|Lunes]]",
+              "right": "3.º"
+            },
+            {
+              "id": "p2",
+              "left": "[[Wednesday|Miércoles]]",
+              "right": "5.º"
+            },
+            {
+              "id": "p3",
+              "left": "[[Friday|Viernes]]",
+              "right": "1.º"
+            },
+            {
+              "id": "p4",
+              "left": "[[Sunday|Domingo]]",
+              "right": "7.º"
+            }
+          ],
+          "correct_answer": {
+            "p1": "p3",
+            "p2": "p1",
+            "p3": "p2",
+            "p4": "p4"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "A1_U12_B12_6_T1",
+          "type": "true_false",
+          "prompt_es": "\"[[Tuesday|Martes]]\" viene después de \"[[Monday|Lunes]]\". ¿Verdadero o falso?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[True|Verdadero]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[False|Falso]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar"
+          ]
+        },
+        {
+          "interaction_id": "A1_U12_B12_6_T2",
+          "type": "true_false",
+          "prompt_es": "\"[[Weekend|Fin de semana]]\" incluye el [[Friday|viernes]]. ¿Verdadero o falso?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[True|Verdadero]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[False|Falso]]"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar"
+          ]
+        },
+        {
+          "interaction_id": "A1_U12_B12_6_R1",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: \"Los sábados voy de compras\" ([[house|casa]])",
+          "options": [
+            {
+              "id": "w1",
+              "text": "On"
+            },
+            {
+              "id": "w2",
+              "text": "Saturdays"
+            },
+            {
+              "id": "w3",
+              "text": "I"
+            },
+            {
+              "id": "w4",
+              "text": "go"
+            },
+            {
+              "id": "w5",
+              "text": "shopping"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
+          "mastery_tag": "syntax",
+          "complexity": 3,
+          "concept_tags": [
+            "grammar",
+            "syntax"
+          ]
+        },
+        {
+          "interaction_id": "A1_U12_B12_6_E3",
+          "type": "multiple_choice",
+          "prompt_es": "\"I work [[from|desde]] [[Monday|lunes]] ________ Friday.\" ¿Qué palabra falta?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "to"
+            },
+            {
+              "id": "o2",
+              "text": "[[to|hasta]]"
+            },
+            {
+              "id": "o3",
+              "text": "at"
+            },
+            {
+              "id": "o4",
+              "text": "in"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "A1_U12_B12_6_F3",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: [[Today|Hoy]] is [[Monday|lunes]], so [[tomorrow|mañana]] is ________.",
+          "stimulus_en": "Today is Monday, so tomorrow is ________.",
+          "correct_answer": "Tuesday",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar"
+          ]
+        },
+        {
+          "interaction_id": "A1_U12_B12_6_E4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas qué día es hoy?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "What time is today?"
+            },
+            {
+              "id": "o2",
+              "text": "[[What day is it today?|¿Qué día es hoy?]]"
+            },
+            {
+              "id": "o3",
+              "text": "Which is the day?"
+            },
+            {
+              "id": "o4",
+              "text": "Day is what?"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "speaking",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "A1_U12_B12_6_E5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el primer día de la semana laboral?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Monday|Lunes]]"
+            },
+            {
+              "id": "o2",
+              "text": "Sunday"
+            },
+            {
+              "id": "o3",
+              "text": "Saturday"
+            },
+            {
+              "id": "o4",
+              "text": "Friday"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "vocabulary"
+          ]
+        },
+        {
+          "interaction_id": "A1_U12_B12_6_T3",
+          "type": "true_false",
+          "prompt_es": "\"[[Yesterday|Ayer]]\" significa el día antes de hoy. ¿Verdadero o falso?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[True|Verdadero]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[False|Falso]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar"
+          ]
+        },
+        {
+          "interaction_id": "A1_U12_B12_6_F4",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: [[Yesterday|Ayer]] was [[Wednesday|miércoles]], so today is ________.",
+          "stimulus_en": "Yesterday was Wednesday, so today is ________.",
+          "correct_answer": "Thursday",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "grammar"
+          ]
         }
       ]
     }

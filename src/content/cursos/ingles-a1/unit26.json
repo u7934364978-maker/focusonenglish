@@ -64,14 +64,14 @@
             },
             {
               "id": "o2",
-              "text": "Ve recto sin girar"
+              "text": "Vuelve atrás"
             },
             {
               "id": "o3",
-              "text": "Vuelve atrás"
+              "text": "Ve recto sin girar"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary",
           "complexity": 1
         },
@@ -147,7 +147,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[past|pasando]]"
+              "text": "[[under|debajo de]]"
             },
             {
               "id": "o2",
@@ -155,10 +155,10 @@
             },
             {
               "id": "o3",
-              "text": "[[under|debajo de]]"
+              "text": "[[past|pasando]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary",
           "complexity": 2
         },
@@ -181,14 +181,14 @@
             },
             {
               "id": "o2",
-              "text": "Toma la segunda calle a la derecha"
+              "text": "Ve recto dos calles a la derecha"
             },
             {
               "id": "o3",
-              "text": "Ve recto dos calles a la derecha"
+              "text": "Toma la segunda calle a la derecha"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary",
           "complexity": 2
         },
@@ -207,18 +207,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Es difícil de encontrar"
+              "text": "Es fácil de ver / no puedes perderte"
             },
             {
               "id": "o2",
-              "text": "Es fácil de ver / no puedes perderte"
+              "text": "Es difícil de encontrar"
             },
             {
               "id": "o3",
               "text": "Está muy lejos"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary",
           "complexity": 2
         }
@@ -231,22 +231,22 @@
         {
           "interaction_id": "U26_I11",
           "type": "multiple_choice",
-          "prompt_es": "El imperativo en inglés se forma con:",
+          "prompt_es": "El imperativo en inglés se forma con: ([[food|comida]])",
           "options": [
             {
               "id": "o1",
-              "text": "Pronombre + verbo (You turn...)"
+              "text": "Solo el infinitivo sin 'to' (Turn...)"
             },
             {
               "id": "o2",
-              "text": "Solo el infinitivo sin 'to' (Turn...)"
+              "text": "Pronombre + verbo (You turn...)"
             },
             {
               "id": "o3",
               "text": "'Please' + infinitivo + 'you'"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "grammar",
           "complexity": 1
         },
@@ -261,14 +261,14 @@
             },
             {
               "id": "o2",
-              "text": "[[Go straight on|Ve recto (imperativo)]]"
+              "text": "[[Going straight on|Yendo recto (gerundio — incorrecto)]]"
             },
             {
               "id": "o3",
-              "text": "[[Going straight on|Yendo recto (gerundio — incorrecto)]]"
+              "text": "[[Go straight on|Ve recto (imperativo)]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "grammar",
           "complexity": 1
         },
@@ -305,7 +305,7 @@
         {
           "interaction_id": "U26_I15",
           "type": "sentence_building",
-          "prompt_es": "Forma el imperativo: 'Toma la primera a la izquierda.'",
+          "prompt_es": "Forma el imperativo: 'Toma la primera a la izquierda.' ([[food|comida]])",
           "words": [
             {
               "id": "w1",
@@ -396,7 +396,7 @@
         {
           "interaction_id": "U26_I20",
           "type": "sentence_building",
-          "prompt_es": "Forma: 'No gires a la izquierda en el semáforo.'",
+          "prompt_es": "Forma: 'No gires a la izquierda en el semáforo.' ([[food|comida]])",
           "words": [
             {
               "id": "w1",
@@ -495,7 +495,7 @@
         {
           "interaction_id": "U26_I24",
           "type": "sentence_building",
-          "prompt_es": "Forma: 'Ve recto y gira a la derecha en la esquina.'",
+          "prompt_es": "Forma: 'Ve recto y gira a la derecha en la esquina.' ([[food|comida]])",
           "words": [
             {
               "id": "w1",
@@ -669,7 +669,7 @@
         {
           "interaction_id": "U26_I32",
           "type": "fill_blanks",
-          "prompt_es": "Instrucción completa: '___ straight on, ___ left at the traffic lights, and the ___ is on your right.'",
+          "prompt_es": "Instrucción completa: '___ straight on, ___ left at the traffic lights, and the ___ is on your right.' ([[and|y]])",
           "correct_answer": "Go / turn / bank",
           "mastery_tag": "grammar",
           "complexity": 2
@@ -699,7 +699,7 @@
         {
           "interaction_id": "U26_I34",
           "type": "sentence_building",
-          "prompt_es": "Forma: 'Pasa el parque y gira a la derecha.'",
+          "prompt_es": "Forma: 'Pasa el parque y gira a la derecha.' ([[food|comida]])",
           "words": [
             {
               "id": "w1",
@@ -783,14 +783,14 @@
             },
             {
               "id": "o2",
-              "text": "[[Turn|Gira]]"
+              "text": "[[Go|Ve]]"
             },
             {
               "id": "o3",
-              "text": "[[Go|Ve]]"
+              "text": "[[Turn|Gira]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "grammar",
           "complexity": 2
         },
@@ -849,7 +849,7 @@
         {
           "interaction_id": "U26_I41",
           "type": "multiple_choice",
-          "prompt_es": "¿Desde dónde parten las indicaciones?",
+          "prompt_es": "¿Desde dónde parten las indicaciones? ([[food|comida]])",
           "options": [
             {
               "id": "o1",
@@ -871,7 +871,7 @@
         {
           "interaction_id": "U26_I42",
           "type": "multiple_choice",
-          "prompt_es": "¿En qué dirección giras al salir de la estación?",
+          "prompt_es": "¿En qué dirección giras al salir de la estación? ([[food|comida]])",
           "options": [
             {
               "id": "o1",
@@ -893,7 +893,7 @@
         {
           "interaction_id": "U26_I43",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué hay a la derecha del camino al museo?",
+          "prompt_es": "¿Qué hay a la derecha del camino al museo? ([[food|comida]])",
           "options": [
             {
               "id": "o1",
@@ -915,7 +915,7 @@
         {
           "interaction_id": "U26_I44",
           "type": "multiple_choice",
-          "prompt_es": "¿Dónde está el museo?",
+          "prompt_es": "¿Dónde está el museo? ([[museum|museo]])",
           "options": [
             {
               "id": "o1",
@@ -937,7 +937,7 @@
         {
           "interaction_id": "U26_I45",
           "type": "fill_blanks",
-          "prompt_es": "El museo es un edificio grande de color ___ (rojo = red).",
+          "prompt_es": "El museo es un edificio grande de color ___ (rojo = red). ([[food|comida]])",
           "correct_answer": "red",
           "mastery_tag": "reading",
           "complexity": 1
@@ -945,7 +945,7 @@
         {
           "interaction_id": "U26_I46",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuánto tiempo se tarda en llegar desde la estación?",
+          "prompt_es": "¿Cuánto tiempo se tarda en llegar desde la estación? ([[food|comida]])",
           "options": [
             {
               "id": "o1",
@@ -967,7 +967,7 @@
         {
           "interaction_id": "U26_I47",
           "type": "multiple_choice",
-          "prompt_es": "¿Dónde giras para entrar en Museum Street?",
+          "prompt_es": "¿Dónde giras para entrar en Museum Street? ([[Museum|museo]])",
           "options": [
             {
               "id": "o1",
@@ -989,7 +989,7 @@
         {
           "interaction_id": "U26_I48",
           "type": "sentence_building",
-          "prompt_es": "Forma: 'Gira a la derecha en el semáforo.'",
+          "prompt_es": "Forma: 'Gira a la derecha en el semáforo.' ([[food|comida]])",
           "words": [
             {
               "id": "w1",
@@ -1025,7 +1025,7 @@
         {
           "interaction_id": "U26_I49",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué significa 'you can't miss it' en el texto?",
+          "prompt_es": "¿Qué significa 'you can't miss it' en el texto? ([[can|poder]])",
           "options": [
             {
               "id": "o1",
@@ -1047,10 +1047,204 @@
         {
           "interaction_id": "U26_I50",
           "type": "fill_blanks",
-          "prompt_es": "Según el texto, el parque está a la ___ del camino al museo. (izquierda = left)",
+          "prompt_es": "Según el texto, el parque está a la ___ del camino al museo. (izquierda = left) ([[food|comida]])",
           "correct_answer": "left",
           "mastery_tag": "reading",
           "complexity": 1
+        }
+      ]
+    },
+    {
+      "block_id": "B26_REC",
+      "title": "Block 6: Recycling – Shopping & Money",
+      "content": [
+        {
+          "interaction_id": "A1_U26_B26_REC_MC1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuánto es [[fifteen plus eight|quince más ocho]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Twenty-three|Veintitrés]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Twenty-two|Veintidós]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Twenty-four|Veinticuatro]]"
+            },
+            {
+              "id": "o4",
+              "text": "[[Twenty-one|Veintiuno]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "numbers"
+          ]
+        },
+        {
+          "interaction_id": "A1_U26_B26_REC_FB2",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: \"That's ___ [[pounds|libras]] and ___ [[pence|peniques]], [[please|por favor]].\"",
+          "stimulus_en": "That's ___ pounds and ___ pence, please.",
+          "correct_answer": "five / fifty",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "shopping",
+            "numbers"
+          ]
+        },
+        {
+          "interaction_id": "A1_U26_B26_REC_MC3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo preguntas el precio en una tienda?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[How much does it cost?|¿Cuánto cuesta?]]"
+            },
+            {
+              "id": "o2",
+              "text": "What price is?"
+            },
+            {
+              "id": "o3",
+              "text": "How many cost?"
+            },
+            {
+              "id": "o4",
+              "text": "What is money?"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "shopping"
+          ]
+        },
+        {
+          "interaction_id": "A1_U26_B26_REC_SW4",
+          "type": "short_writing",
+          "prompt_es": "Escribe un diálogo en una tienda. Incluye: preguntar el precio, pedir una talla/tamaño y pagar. Usa [[How much|Cuánto]], [[Can I have|¿Me pone?]], [[Here you are|Aquí tiene]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "concept_tags": [
+            "production",
+            "free_writing"
+          ],
+          "example_answer": "A: Can I help you? B: Yes, how much is this jacket? A: It's forty-five pounds. B: Can I try it on? A: Of course! B: I'll take it. A: Here you are. Goodbye!"
+        },
+        {
+          "interaction_id": "A1_U26_B26_REC_MC5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la respuesta correcta a \"[[Can I help you?|¿Le puedo ayudar?]]\"?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Yes, I'm looking for a shirt|Sí, estoy buscando una camisa]]"
+            },
+            {
+              "id": "o2",
+              "text": "Yes I want shirt"
+            },
+            {
+              "id": "o3",
+              "text": "Give me shirt please"
+            },
+            {
+              "id": "o4",
+              "text": "I shirt look for"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "shopping"
+          ]
+        },
+        {
+          "interaction_id": "A1_U26_B26_REC_SW6",
+          "type": "short_writing",
+          "prompt_es": "Escribe una lista de la compra para una semana. Usa [[I need|necesito]], [[some|algo de]], [[a|un/una]], [[a few|unos pocos]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "concept_tags": [
+            "production",
+            "free_writing"
+          ],
+          "example_answer": "I need some milk and a loaf of bread. I need a few apples and some oranges. I also need a bottle of water and some pasta."
+        }
+      ]
+    },
+    {
+      "block_id": "B26_EX",
+      "title": "Block 7: Extra Practice – Shopping & Money",
+      "content": [
+        {
+          "interaction_id": "A1_U26_B26_EX_MC1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué expresión usas para [[trying on clothes|probarse ropa]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Can I try it on?|¿Me lo puedo probar?]]"
+            },
+            {
+              "id": "o2",
+              "text": "I test this please"
+            },
+            {
+              "id": "o3",
+              "text": "Can I wear this now?"
+            },
+            {
+              "id": "o4",
+              "text": "Give me try it"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "shopping"
+          ]
+        },
+        {
+          "interaction_id": "A1_U26_B26_EX_MC2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el color del [[traffic light|semáforo]] cuando debes parar?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Red|Rojo]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Green|Verde]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Yellow|Amarillo]]"
+            },
+            {
+              "id": "o4",
+              "text": "[[Blue|Azul]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "colours"
+          ]
         }
       ]
     }

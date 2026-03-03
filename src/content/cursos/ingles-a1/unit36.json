@@ -46,7 +46,7 @@
         {
           "interaction_id": "A1_U36_B36_1_I3",
           "type": "fill_blanks",
-          "prompt_es": "Completa con el instrumento de viento:",
+          "prompt_es": "Completa con el instrumento de viento: ([[play|jugar/tocar]])",
           "stimulus_en": "She plays the ________ (flauta).",
           "correct_answer": "flute",
           "mastery_tag": "vocabulary",
@@ -59,7 +59,7 @@
         {
           "interaction_id": "A1_U36_B36_1_I4",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Batería'",
+          "prompt_es": "Traduce: 'Batería' ([[guitar|guitarra]])",
           "stimulus_es": "Batería",
           "correct_answer": "Drums",
           "mastery_tag": "vocabulary",
@@ -72,7 +72,7 @@
         {
           "interaction_id": "A1_U36_B36_1_I5",
           "type": "flashcard",
-          "prompt_es": "Aprende el instrumento:",
+          "prompt_es": "Aprende el instrumento: ([[saxophone|saxofón]])",
           "stimulus_en": "[[Saxophone|saxofón]]",
           "correct_answer": "Saxofón",
           "mastery_tag": "vocabulary",
@@ -107,7 +107,7 @@
             },
             {
               "id": "w4",
-              "text": "piano"
+              "text": "[[piano|piano]]"
             },
             {
               "id": "w5",
@@ -131,7 +131,7 @@
         {
           "interaction_id": "A1_U36_B36_2_I3",
           "type": "fill_blanks",
-          "prompt_es": "Completa con el artículo necesario:",
+          "prompt_es": "Completa con el artículo necesario: ([[violin|violín]])",
           "stimulus_en": "We are learning to play ________ [[violin|violín]].",
           "correct_answer": "the",
           "mastery_tag": "grammar",
@@ -144,7 +144,7 @@
         {
           "interaction_id": "A1_U36_B36_2_I4",
           "type": "true_false",
-          "prompt_es": "¿En inglés se debe usar 'the' antes de un instrumento musical?",
+          "prompt_es": "¿En inglés se debe usar 'the' antes de un instrumento musical? ([[guitar|guitarra]])",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "complexity": 1,
@@ -156,7 +156,7 @@
         {
           "interaction_id": "A1_U36_B36_2_I5",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Ella toca la trompeta.'",
+          "prompt_es": "Traduce: 'Ella toca la trompeta.' ([[guitar|guitarra]])",
           "stimulus_es": "Ella toca la trompeta.",
           "correct_answer": "She plays the trumpet",
           "mastery_tag": "grammar",
@@ -175,7 +175,7 @@
         {
           "interaction_id": "A1_U36_B36_3_I1",
           "type": "categorization",
-          "prompt_es": "Clasifica los instrumentos:",
+          "prompt_es": "Clasifica los instrumentos: ([[guitar|guitarra]])",
           "categories": [
             {
               "id": "c1",
@@ -205,7 +205,7 @@
         {
           "interaction_id": "A1_U36_B36_3_I2",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué adjetivo describe mejor a la batería?",
+          "prompt_es": "¿Qué adjetivo describe mejor a la batería? ([[guitar|guitarra]])",
           "options": [
             {
               "id": "o1",
@@ -231,7 +231,7 @@
         {
           "interaction_id": "A1_U36_B36_3_I4",
           "type": "fill_blanks",
-          "prompt_es": "Completa la descripción:",
+          "prompt_es": "Completa la descripción: ([[violin|violín]])",
           "stimulus_en": "The [[violin|violín]] is a ________ instrument to learn. (difícil)",
           "correct_answer": "difficult",
           "mastery_tag": "vocabulary",
@@ -256,7 +256,7 @@
         {
           "interaction_id": "A1_U36_B36_4_I5",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo es la sala donde tocan la batería?",
+          "prompt_es": "¿Cómo es la sala donde tocan la batería? ([[drums|batería]])",
           "options": [
             {
               "id": "o1",
@@ -292,18 +292,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Piano|piano]]"
+              "text": "Cello"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[[[piano|piano]]|[[piano|piano]]]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Trumpet"
+            },
+            {
+              "id": "o4",
+              "text": "Guitar"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -313,15 +317,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Flute"
             },
             {
               "id": "o2",
-              "text": "[[Violin|violín]]"
+              "text": "[[[[violin|violín]]|[[violin|violín]]]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Trumpet"
+            },
+            {
+              "id": "o4",
+              "text": "Cello"
             }
           ],
           "correct_answer": "o2",
@@ -334,18 +342,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[drums|batería]]|[[drums|batería]]]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Guitar"
             },
             {
               "id": "o3",
-              "text": "[[Drums|batería]]"
+              "text": "Trumpet"
+            },
+            {
+              "id": "o4",
+              "text": "Cello"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -355,18 +367,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Guitar|guitarra]]"
+              "text": "Saxophone"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Flute"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Piano"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[guitar|guitarra]]|[[guitar|guitarra]]]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -376,15 +392,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Trumpet"
             },
             {
               "id": "o2",
-              "text": "[[Trumpet|trompeta]]"
+              "text": "[[[[trumpet|trompeta]]|[[trumpet|trompeta]]]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Piano"
+            },
+            {
+              "id": "o4",
+              "text": "Violin"
             }
           ],
           "correct_answer": "o2",
@@ -397,18 +417,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Flute"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "[[[[flute|flauta]]|[[flute|flauta]]]]"
             },
             {
               "id": "o3",
-              "text": "[[Flute|flauta]]"
+              "text": "Saxophone"
+            },
+            {
+              "id": "o4",
+              "text": "Trumpet"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -418,15 +442,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Keyboard|teclado]]"
+              "text": "[[[[keyboard|teclado]]|[[keyboard|teclado]]]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Drums"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Violin"
+            },
+            {
+              "id": "o4",
+              "text": "Flute"
             }
           ],
           "correct_answer": "o1",
@@ -439,18 +467,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[piano|piano]]|[[piano|piano]]]]"
             },
             {
               "id": "o2",
-              "text": "[[Piano|piano]]"
+              "text": "Guitar"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Flute"
+            },
+            {
+              "id": "o4",
+              "text": "Saxophone"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -460,18 +492,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[violin|violín]]|[[violin|violín]]]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Cello"
             },
             {
               "id": "o3",
-              "text": "[[Violin|violín]]"
+              "text": "Saxophone"
+            },
+            {
+              "id": "o4",
+              "text": "Guitar"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -481,18 +517,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Drums|batería]]"
+              "text": "Piano"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[[[drums|batería]]|[[drums|batería]]]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Drums"
+            },
+            {
+              "id": "o4",
+              "text": "Guitar"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -502,18 +542,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Clarinet"
             },
             {
               "id": "o2",
-              "text": "[[Guitar|guitarra]]"
+              "text": "Drums"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[[[guitar|guitarra]]|[[guitar|guitarra]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Piano"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -523,15 +567,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Guitar"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Trumpet"
             },
             {
               "id": "o3",
-              "text": "[[Trumpet|trompeta]]"
+              "text": "[[[[trumpet|trompeta]]|[[trumpet|trompeta]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Drums"
             }
           ],
           "correct_answer": "o3",
@@ -544,18 +592,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Flute|flauta]]"
+              "text": "Piano"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Trumpet"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Flute"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[flute|flauta]]|[[flute|flauta]]]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -565,18 +617,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Guitar"
             },
             {
               "id": "o2",
-              "text": "[[Keyboard|teclado]]"
+              "text": "Clarinet"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Flute"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[keyboard|teclado]]|[[keyboard|teclado]]]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -586,18 +642,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[piano|piano]]|[[piano|piano]]]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Flute"
             },
             {
               "id": "o3",
-              "text": "[[Piano|piano]]"
+              "text": "Violin"
+            },
+            {
+              "id": "o4",
+              "text": "Saxophone"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -607,15 +667,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Violin|violín]]"
+              "text": "[[[[violin|violín]]|[[violin|violín]]]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Drums"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Trumpet"
+            },
+            {
+              "id": "o4",
+              "text": "Piano"
             }
           ],
           "correct_answer": "o1",
@@ -628,15 +692,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Drums"
             },
             {
               "id": "o2",
-              "text": "[[Drums|batería]]"
+              "text": "[[[[drums|batería]]|[[drums|batería]]]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Flute"
+            },
+            {
+              "id": "o4",
+              "text": "Saxophone"
             }
           ],
           "correct_answer": "o2",
@@ -649,18 +717,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[guitar|guitarra]]|[[guitar|guitarra]]]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Cello"
             },
             {
               "id": "o3",
-              "text": "[[Guitar|guitarra]]"
+              "text": "Drums"
+            },
+            {
+              "id": "o4",
+              "text": "Clarinet"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -670,18 +742,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Trumpet|trompeta]]"
+              "text": "Violin"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Drums"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[[[trumpet|trompeta]]|[[trumpet|trompeta]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Cello"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -691,18 +767,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[flute|flauta]]|[[flute|flauta]]]]"
             },
             {
               "id": "o2",
-              "text": "[[Flute|flauta]]"
+              "text": "Piano"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Clarinet"
+            },
+            {
+              "id": "o4",
+              "text": "Guitar"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -712,18 +792,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Flute"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "[[[[keyboard|teclado]]|[[keyboard|teclado]]]]"
             },
             {
               "id": "o3",
-              "text": "[[Keyboard|teclado]]"
+              "text": "Trumpet"
+            },
+            {
+              "id": "o4",
+              "text": "Piano"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -733,15 +817,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Piano|piano]]"
+              "text": "[[[[piano|piano]]|[[piano|piano]]]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Violin"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Guitar"
+            },
+            {
+              "id": "o4",
+              "text": "Drums"
             }
           ],
           "correct_answer": "o1",
@@ -754,18 +842,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[violin|violín]]|[[violin|violín]]]]"
             },
             {
               "id": "o2",
-              "text": "[[Violin|violín]]"
+              "text": "Drums"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Guitar"
+            },
+            {
+              "id": "o4",
+              "text": "Violin"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -775,18 +867,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[drums|batería]]|[[drums|batería]]]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Trumpet"
             },
             {
               "id": "o3",
-              "text": "[[Drums|batería]]"
+              "text": "Violin"
+            },
+            {
+              "id": "o4",
+              "text": "Drums"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -796,18 +892,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Guitar|guitarra]]"
+              "text": "Clarinet"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Violin"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Trumpet"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[guitar|guitarra]]|[[guitar|guitarra]]]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -817,18 +917,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Violin"
             },
             {
               "id": "o2",
-              "text": "[[Trumpet|trompeta]]"
+              "text": "Piano"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Saxophone"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[trumpet|trompeta]]|[[trumpet|trompeta]]]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -838,18 +942,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Trumpet"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Violin"
             },
             {
               "id": "o3",
-              "text": "[[Flute|flauta]]"
+              "text": "Piano"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[flute|flauta]]|[[flute|flauta]]]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -859,15 +967,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Keyboard|teclado]]"
+              "text": "[[[[keyboard|teclado]]|[[keyboard|teclado]]]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Violin"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Clarinet"
+            },
+            {
+              "id": "o4",
+              "text": "Cello"
             }
           ],
           "correct_answer": "o1",
@@ -880,15 +992,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Trumpet"
             },
             {
               "id": "o2",
-              "text": "[[Piano|piano]]"
+              "text": "[[[[piano|piano]]|[[piano|piano]]]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Drums"
+            },
+            {
+              "id": "o4",
+              "text": "Flute"
             }
           ],
           "correct_answer": "o2",
@@ -901,15 +1017,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Piano"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Trumpet"
             },
             {
               "id": "o3",
-              "text": "[[Violin|violín]]"
+              "text": "[[[[violin|violín]]|[[violin|violín]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Cello"
             }
           ],
           "correct_answer": "o3",
@@ -922,18 +1042,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Drums|batería]]"
+              "text": "Drums"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Clarinet"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Trumpet"
+            },
+            {
+              "id": "o4",
+              "text": "[[[[drums|batería]]|[[drums|batería]]]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -943,15 +1067,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Violin"
             },
             {
               "id": "o2",
-              "text": "[[Guitar|guitarra]]"
+              "text": "[[[[guitar|guitarra]]|[[guitar|guitarra]]]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Cello"
+            },
+            {
+              "id": "o4",
+              "text": "Trumpet"
             }
           ],
           "correct_answer": "o2",
@@ -964,15 +1092,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Saxophone"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Cello"
             },
             {
               "id": "o3",
-              "text": "[[Trumpet|trompeta]]"
+              "text": "[[[[trumpet|trompeta]]|[[trumpet|trompeta]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Flute"
             }
           ],
           "correct_answer": "o3",
@@ -985,15 +1117,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Flute|flauta]]"
+              "text": "[[[[flute|flauta]]|[[flute|flauta]]]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Piano"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Trumpet"
+            },
+            {
+              "id": "o4",
+              "text": "Flute"
             }
           ],
           "correct_answer": "o1",
@@ -1006,18 +1142,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Piano"
             },
             {
               "id": "o2",
-              "text": "[[Keyboard|teclado]]"
+              "text": "Clarinet"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[[[keyboard|teclado]]|[[keyboard|teclado]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Flute"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1027,18 +1167,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Saxophone"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "[[[[piano|piano]]|[[piano|piano]]]]"
             },
             {
               "id": "o3",
-              "text": "[[Piano|piano]]"
+              "text": "Guitar"
+            },
+            {
+              "id": "o4",
+              "text": "Cello"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1048,18 +1192,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Violin|violín]]"
+              "text": "Cello"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Violin"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[[[violin|violín]]|[[violin|violín]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Guitar"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1069,15 +1217,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Saxophone"
             },
             {
               "id": "o2",
-              "text": "[[Drums|batería]]"
+              "text": "[[[[drums|batería]]|[[drums|batería]]]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Drums"
+            },
+            {
+              "id": "o4",
+              "text": "Flute"
             }
           ],
           "correct_answer": "o2",
@@ -1090,18 +1242,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Cello"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "[[[[guitar|guitarra]]|[[guitar|guitarra]]]]"
             },
             {
               "id": "o3",
-              "text": "[[Guitar|guitarra]]"
+              "text": "Violin"
+            },
+            {
+              "id": "o4",
+              "text": "Guitar"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1111,18 +1267,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Trumpet|trompeta]]"
+              "text": "Trumpet"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Flute"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[[[trumpet|trompeta]]|[[trumpet|trompeta]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Violin"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1132,15 +1292,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Cello"
             },
             {
               "id": "o2",
-              "text": "[[Flute|flauta]]"
+              "text": "[[[[flute|flauta]]|[[flute|flauta]]]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Guitar"
+            },
+            {
+              "id": "o4",
+              "text": "Piano"
             }
           ],
           "correct_answer": "o2",
@@ -1153,15 +1317,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Flute"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Guitar"
             },
             {
               "id": "o3",
-              "text": "[[Keyboard|teclado]]"
+              "text": "[[[[keyboard|teclado]]|[[keyboard|teclado]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Trumpet"
             }
           ],
           "correct_answer": "o3",
@@ -1174,15 +1342,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Piano|piano]]"
+              "text": "[[[[piano|piano]]|[[piano|piano]]]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Flute"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Guitar"
+            },
+            {
+              "id": "o4",
+              "text": "Drums"
             }
           ],
           "correct_answer": "o1",
@@ -1195,18 +1367,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Piano"
             },
             {
               "id": "o2",
-              "text": "[[Violin|violín]]"
+              "text": "Guitar"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[[[violin|violín]]|[[violin|violín]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Violin"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1216,18 +1392,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Drums"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "[[[[drums|batería]]|[[drums|batería]]]]"
             },
             {
               "id": "o3",
-              "text": "[[Drums|batería]]"
+              "text": "Piano"
+            },
+            {
+              "id": "o4",
+              "text": "Clarinet"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1237,15 +1417,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Guitar|guitarra]]"
+              "text": "[[[[guitar|guitarra]]|[[guitar|guitarra]]]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Cello"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Trumpet"
+            },
+            {
+              "id": "o4",
+              "text": "Saxophone"
             }
           ],
           "correct_answer": "o1",
@@ -1258,18 +1442,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Saxophone"
             },
             {
               "id": "o2",
-              "text": "[[Trumpet|trompeta]]"
+              "text": "Violin"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[[[trumpet|trompeta]]|[[trumpet|trompeta]]]]"
+            },
+            {
+              "id": "o4",
+              "text": "Piano"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1279,18 +1467,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[[[flute|flauta]]|[[flute|flauta]]]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Trumpet"
             },
             {
               "id": "o3",
-              "text": "[[Flute|flauta]]"
+              "text": "Clarinet"
+            },
+            {
+              "id": "o4",
+              "text": "Drums"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         }
       ]
@@ -1302,7 +1494,7 @@
         {
           "interaction_id": "U36_L5_I1",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[guitar|guitarra]])",
           "audio_url": "/audio/courses/ingles-a1/unit36/lesson5-task-1.mp3",
           "transcript_template": "The [[piano|]] is here.",
           "correct_answer": "piano",
@@ -1316,7 +1508,7 @@
         {
           "interaction_id": "U36_L5_I2",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[guitar|guitarra]])",
           "audio_url": "/audio/courses/ingles-a1/unit36/lesson5-task-2.mp3",
           "transcript_template": "The [[violin|]] is here.",
           "correct_answer": "violin",
@@ -1330,7 +1522,7 @@
         {
           "interaction_id": "U36_L5_I3",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[guitar|guitarra]])",
           "audio_url": "/audio/courses/ingles-a1/unit36/lesson5-task-3.mp3",
           "transcript_template": "The [[drums|]] is here.",
           "correct_answer": "drums",
@@ -1344,7 +1536,7 @@
         {
           "interaction_id": "U36_L5_I4",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[guitar|guitarra]])",
           "audio_url": "/audio/courses/ingles-a1/unit36/lesson5-task-4.mp3",
           "transcript_template": "The [[guitar|]] is here.",
           "correct_answer": "guitar",
@@ -1358,7 +1550,7 @@
         {
           "interaction_id": "U36_L5_I5",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[guitar|guitarra]])",
           "audio_url": "/audio/courses/ingles-a1/unit36/lesson5-task-5.mp3",
           "transcript_template": "The [[trumpet|]] is here.",
           "correct_answer": "trumpet",
@@ -1372,7 +1564,7 @@
         {
           "interaction_id": "U36_L5_I6",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[guitar|guitarra]])",
           "audio_url": "/audio/courses/ingles-a1/unit36/lesson5-task-6.mp3",
           "transcript_template": "The [[flute|]] is here.",
           "correct_answer": "flute",
@@ -1386,7 +1578,7 @@
         {
           "interaction_id": "U36_L5_I7",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[guitar|guitarra]])",
           "audio_url": "/audio/courses/ingles-a1/unit36/lesson5-task-7.mp3",
           "transcript_template": "The [[keyboard|]] is here.",
           "correct_answer": "keyboard",
@@ -1400,7 +1592,7 @@
         {
           "interaction_id": "U36_L5_I8",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[guitar|guitarra]])",
           "title": "Pronunciación: Musical Instruments",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1439,7 +1631,7 @@
         {
           "interaction_id": "U36_L5_I9",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[guitar|guitarra]])",
           "title": "Pronunciación: Musical Instruments",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1478,7 +1670,7 @@
         {
           "interaction_id": "U36_L5_I10",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[guitar|guitarra]])",
           "title": "Pronunciación: Musical Instruments",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1517,7 +1709,7 @@
         {
           "interaction_id": "U36_L5_I11",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[guitar|guitarra]])",
           "title": "Pronunciación: Musical Instruments",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1556,7 +1748,7 @@
         {
           "interaction_id": "U36_L5_I12",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[guitar|guitarra]])",
           "title": "Pronunciación: Musical Instruments",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1595,7 +1787,7 @@
         {
           "interaction_id": "U36_L5_I13",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[guitar|guitarra]])",
           "title": "Pronunciación: Musical Instruments",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1634,7 +1826,7 @@
         {
           "interaction_id": "U36_L5_I14",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[guitar|guitarra]])",
           "title": "Pronunciación: Musical Instruments",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1673,7 +1865,7 @@
         {
           "interaction_id": "U36_L5_I15",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[guitar|guitarra]])",
           "title": "Pronunciación: Musical Instruments",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [

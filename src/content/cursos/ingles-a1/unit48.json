@@ -63,7 +63,7 @@
           "options": [
             {
               "id": "o2",
-              "text": "Camera"
+              "text": "[[Camera|cámara]]"
             },
             {
               "id": "o1",
@@ -85,7 +85,7 @@
         {
           "interaction_id": "A1_U48_B48_1_I4",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Recuerdo / Souvenir'",
+          "prompt_es": "Traduce: 'Recuerdo / Souvenir' ([[Souvenir|recuerdo]])",
           "stimulus_es": "Recuerdo",
           "correct_answer": "Souvenir",
           "mastery_tag": "vocabulary",
@@ -98,7 +98,7 @@
         {
           "interaction_id": "A1_U48_B48_1_I5",
           "type": "flashcard",
-          "prompt_es": "Repaso de turismo:",
+          "prompt_es": "Repaso de turismo: ([[gallery|galería]])",
           "stimulus_en": "Art gallery",
           "correct_answer": "Galería de arte",
           "mastery_tag": "vocabulary",
@@ -117,7 +117,7 @@
         {
           "interaction_id": "A1_U48_B48_2_I1",
           "type": "multiple_choice",
-          "prompt_es": "________ forget your passport!",
+          "prompt_es": "________ forget your passport! ([[passport|pasaporte]])",
           "options": [
             {
               "id": "o2",
@@ -143,7 +143,7 @@
         {
           "interaction_id": "A1_U48_B48_2_I2",
           "type": "fill_blanks",
-          "prompt_es": "Completa con el verbo correcto (Take/Visit):",
+          "prompt_es": "Completa con el verbo correcto (Take/Visit): ([[museum|museo]])",
           "stimulus_en": "________ the museum, it is beautiful!",
           "correct_answer": "Visit",
           "mastery_tag": "grammar",
@@ -156,7 +156,7 @@
         {
           "interaction_id": "A1_U48_B48_2_I3",
           "type": "true_false",
-          "prompt_es": "¿Es correcto decir 'Buying a souvenir' como una instrucción?",
+          "prompt_es": "¿Es correcto decir 'Buying a souvenir' como una instrucción? ([[souvenir|recuerdo]])",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "complexity": 1,
@@ -168,7 +168,7 @@
         {
           "interaction_id": "A1_U48_B48_2_I5",
           "type": "fill_blanks",
-          "prompt_es": "Completa el imperativo negativo:",
+          "prompt_es": "Completa el imperativo negativo: ([[water|agua]])",
           "stimulus_en": "________ (no) drink the water in the park.",
           "correct_answer": "Don't",
           "mastery_tag": "grammar",
@@ -207,7 +207,7 @@
             },
             {
               "id": "w5",
-              "text": "tour"
+              "text": "[[tour|visita guiada]]"
             },
             {
               "id": "w6",
@@ -232,7 +232,7 @@
         {
           "interaction_id": "A1_U48_B48_3_I2",
           "type": "multiple_choice",
-          "prompt_es": "Tourist: 'Excuse me, is the museum open today?' - Staff:",
+          "prompt_es": "Tourist: 'Excuse me, is the museum open today?' - Staff: ([[Tourist|turista]])",
           "options": [
             {
               "id": "o2",
@@ -258,7 +258,7 @@
         {
           "interaction_id": "A1_U48_B48_3_I3",
           "type": "fill_blanks",
-          "prompt_es": "Completa el diálogo:",
+          "prompt_es": "Completa el diálogo: ([[Can|poder]])",
           "stimulus_en": "A: Can I take photos here?\nB: No, ________. (no saque fotos)",
           "correct_answer": "don't",
           "mastery_tag": "syntax",
@@ -271,7 +271,7 @@
         {
           "interaction_id": "A1_U48_B48_3_I4",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Sigue al guía turístico'",
+          "prompt_es": "Traduce: 'Sigue al guía turístico' ([[museum|museo]])",
           "stimulus_es": "Sigue al guía turístico",
           "correct_answer": "Follow the tour guide",
           "mastery_tag": "syntax",
@@ -284,7 +284,7 @@
         {
           "interaction_id": "A1_U48_B48_3_I5",
           "type": "true_false",
-          "prompt_es": "A map helps you find places in a city.",
+          "prompt_es": "A map helps you find places in a city. ([[map|mapa]])",
           "correct_answer": true,
           "mastery_tag": "syntax",
           "complexity": 1,
@@ -302,7 +302,7 @@
         {
           "interaction_id": "A1_U48_B48_4_I1",
           "type": "audio_player",
-          "prompt_es": "Escucha y escribe el consejo:",
+          "prompt_es": "Escucha y escribe el consejo: ([[museum|museo]])",
           "audioUrl": "/audio/courses/ingles-a1/shared/6453f0c781738edb75b25d827ec547c2.mp3",
           "text": "Don't forget your camera.",
           "mastery_tag": "listening",
@@ -315,7 +315,7 @@
         {
           "interaction_id": "A1_U48_B48_4_I4",
           "type": "audio_player",
-          "prompt_es": "Escucha la instrucción del tour:",
+          "prompt_es": "Escucha la instrucción del tour: ([[tour|visita guiada]])",
           "audioUrl": "/audio/courses/ingles-a1/shared/2b5d162a6c2ddeadbe4b7a19b0b34f20.mp3",
           "text": "The tour starts at 10 AM.",
           "mastery_tag": "listening",
@@ -334,7 +334,7 @@
         {
           "interaction_id": "A1_U48_B48_4_I5",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué debes comprar antes de irte?",
+          "prompt_es": "¿Qué debes comprar antes de irte? ([[souvenir|recuerdo]])",
           "options": [
             {
               "id": "o2",
@@ -366,7 +366,7 @@
         {
           "interaction_id": "U48_I301",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[map|mapa]])",
           "stimulus_en": "Take a map of the city.",
           "correct_answer": "Take a map of the city.",
           "audioUrl": "/audio/courses/ingles-a1/unit48/lesson5-task-1.mp3",
@@ -380,7 +380,7 @@
         {
           "interaction_id": "U48_I302",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[camera|cámara]])",
           "stimulus_en": "Don't forget your camera.",
           "correct_answer": "Don't forget your camera.",
           "audioUrl": "/audio/courses/ingles-a1/unit48/lesson5-task-2.mp3",
@@ -394,7 +394,7 @@
         {
           "interaction_id": "U48_I303",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[museum|museo]])",
           "stimulus_en": "Buy the tickets online.",
           "correct_answer": "Buy the tickets online.",
           "audioUrl": "/audio/courses/ingles-a1/unit48/lesson5-task-3.mp3",
@@ -408,7 +408,7 @@
         {
           "interaction_id": "U48_I304",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[museum|museo]])",
           "stimulus_en": "The museum opens at ten.",
           "correct_answer": "The museum opens at ten.",
           "audioUrl": "/audio/courses/ingles-a1/unit48/lesson5-task-4.mp3",
@@ -422,7 +422,7 @@
         {
           "interaction_id": "U48_I305",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[tour|visita guiada]])",
           "stimulus_en": "Is there a tour guide?",
           "correct_answer": "Is there a tour guide?",
           "audioUrl": "/audio/courses/ingles-a1/unit48/lesson5-task-5.mp3",
@@ -436,7 +436,7 @@
         {
           "interaction_id": "U48_I306",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[bus|autobús]])",
           "stimulus_en": "Wait for the bus here.",
           "correct_answer": "Wait for the bus here.",
           "audioUrl": "/audio/courses/ingles-a1/unit48/lesson5-task-6.mp3",
@@ -450,7 +450,7 @@
         {
           "interaction_id": "U48_I307",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[monument|monumento]])",
           "stimulus_en": "Look at that old monument.",
           "correct_answer": "Look at that old monument.",
           "audioUrl": "/audio/courses/ingles-a1/unit48/lesson5-task-7.mp3",
@@ -464,7 +464,7 @@
         {
           "interaction_id": "U48_I308",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[museum|museo]])",
           "title": "Pronunciación: Museum",
           "instructions": "Escucha y repite el acento.",
           "targetSentences": [
@@ -503,7 +503,7 @@
         {
           "interaction_id": "U48_I309",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[museum|museo]])",
           "title": "Pronunciación: Monument",
           "instructions": "Escucha y repite el acento.",
           "targetSentences": [
@@ -542,7 +542,7 @@
         {
           "interaction_id": "U48_I310",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[museum|museo]])",
           "title": "Pronunciación: Guide",
           "instructions": "Escucha y repite la vocal larga.",
           "targetSentences": [
@@ -581,7 +581,7 @@
         {
           "interaction_id": "U48_I311",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[museum|museo]])",
           "title": "Pronunciación: Map",
           "instructions": "Escucha y repite la 'a' abierta.",
           "targetSentences": [
@@ -620,7 +620,7 @@
         {
           "interaction_id": "U48_I312",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[museum|museo]])",
           "title": "Pronunciación: Camera",
           "instructions": "Escucha y repite la palabra de tres sílabas.",
           "targetSentences": [
@@ -659,7 +659,7 @@
         {
           "interaction_id": "U48_I313",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[museum|museo]])",
           "title": "Pronunciación: Ticket",
           "instructions": "Escucha y repite la 't' final.",
           "targetSentences": [
@@ -698,7 +698,7 @@
         {
           "interaction_id": "U48_I314",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[museum|museo]])",
           "title": "Pronunciación: Tour",
           "instructions": "Escucha y repite el diptongo.",
           "targetSentences": [
@@ -737,7 +737,7 @@
         {
           "interaction_id": "U48_I315",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[museum|museo]])",
           "title": "Pronunciación: Repaso Sightseeing",
           "instructions": "Escucha y repite la frase completa.",
           "targetSentences": [
@@ -784,16 +784,20 @@
           "prompt_es": "¿Cómo se dice 'museum' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "[[Museum|museo]]"
             },
             {
-              "id": "o1",
-              "text": "Museum"
+              "id": "o2",
+              "text": "Statue"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Park"
+            },
+            {
+              "id": "o4",
+              "text": "Bridge"
             }
           ],
           "correct_answer": "o1",
@@ -805,19 +809,23 @@
           "prompt_es": "¿Cómo se dice 'statue' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "[[Statue|estatua]]"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Monument"
             },
             {
               "id": "o3",
-              "text": "Statue"
+              "text": "Park"
+            },
+            {
+              "id": "o4",
+              "text": "Cathedral"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -826,16 +834,20 @@
           "prompt_es": "¿Cómo se dice 'bridge' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Bridge"
+              "id": "o1",
+              "text": "Gallery"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "[[Bridge|puente]]"
             },
             {
               "id": "o3",
-              "text": "Wrong word"
+              "text": "Statue"
+            },
+            {
+              "id": "o4",
+              "text": "Park"
             }
           ],
           "correct_answer": "o2",
@@ -847,19 +859,23 @@
           "prompt_es": "¿Cómo se dice 'tower' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Fountain"
             },
             {
-              "id": "o1",
-              "text": "Tower"
+              "id": "o2",
+              "text": "Cathedral"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Tower|tower]]"
+            },
+            {
+              "id": "o4",
+              "text": "Castle"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -868,19 +884,23 @@
           "prompt_es": "¿Cómo se dice 'castle' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Market"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Bridge"
             },
             {
               "id": "o3",
-              "text": "Castle"
+              "text": "Fountain"
+            },
+            {
+              "id": "o4",
+              "text": "[[Castle|castillo]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -889,19 +909,23 @@
           "prompt_es": "¿Cómo se dice 'tour' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Tour"
+              "id": "o1",
+              "text": "Castle"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Park"
             },
             {
               "id": "o3",
-              "text": "Wrong word"
+              "text": "Bridge"
+            },
+            {
+              "id": "o4",
+              "text": "[[Tour|visita guiada]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -910,19 +934,23 @@
           "prompt_es": "¿Cómo se dice 'guide' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Cathedral"
             },
             {
-              "id": "o1",
-              "text": "Guide"
+              "id": "o2",
+              "text": "[[Guide|guide]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Gallery"
+            },
+            {
+              "id": "o4",
+              "text": "Museum"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -931,16 +959,20 @@
           "prompt_es": "¿Cómo se dice 'museum' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Castle"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Bridge"
             },
             {
               "id": "o3",
-              "text": "Museum"
+              "text": "[[Museum|museo]]"
+            },
+            {
+              "id": "o4",
+              "text": "Statue"
             }
           ],
           "correct_answer": "o3",
@@ -952,19 +984,23 @@
           "prompt_es": "¿Cómo se dice 'statue' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Statue"
+              "id": "o1",
+              "text": "Monument"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Park"
             },
             {
               "id": "o3",
-              "text": "Wrong word"
+              "text": "[[Statue|estatua]]"
+            },
+            {
+              "id": "o4",
+              "text": "Gallery"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -973,19 +1009,23 @@
           "prompt_es": "¿Cómo se dice 'bridge' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Fountain"
             },
             {
-              "id": "o1",
-              "text": "Bridge"
+              "id": "o2",
+              "text": "[[Bridge|puente]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Gallery"
+            },
+            {
+              "id": "o4",
+              "text": "Castle"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -994,19 +1034,23 @@
           "prompt_es": "¿Cómo se dice 'tower' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Park"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "[[Tower|tower]]"
             },
             {
               "id": "o3",
-              "text": "Tower"
+              "text": "Statue"
+            },
+            {
+              "id": "o4",
+              "text": "Castle"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1015,19 +1059,23 @@
           "prompt_es": "¿Cómo se dice 'castle' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Castle"
+              "id": "o1",
+              "text": "Statue"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Market"
             },
             {
               "id": "o3",
-              "text": "Wrong word"
+              "text": "[[Castle|castillo]]"
+            },
+            {
+              "id": "o4",
+              "text": "Fountain"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1036,19 +1084,23 @@
           "prompt_es": "¿Cómo se dice 'tour' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Bridge"
             },
             {
-              "id": "o1",
-              "text": "Tour"
+              "id": "o2",
+              "text": "Cathedral"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Statue"
+            },
+            {
+              "id": "o4",
+              "text": "[[Tour|visita guiada]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1057,19 +1109,23 @@
           "prompt_es": "¿Cómo se dice 'guide' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "[[Guide|guide]]"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Monument"
             },
             {
               "id": "o3",
-              "text": "Guide"
+              "text": "Statue"
+            },
+            {
+              "id": "o4",
+              "text": "Cathedral"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1078,19 +1134,23 @@
           "prompt_es": "¿Cómo se dice 'museum' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Museum"
+              "id": "o1",
+              "text": "Monument"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Bridge"
             },
             {
               "id": "o3",
-              "text": "Wrong word"
+              "text": "[[Museum|museo]]"
+            },
+            {
+              "id": "o4",
+              "text": "Market"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1099,19 +1159,23 @@
           "prompt_es": "¿Cómo se dice 'statue' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Market"
             },
             {
-              "id": "o1",
-              "text": "Statue"
+              "id": "o2",
+              "text": "Castle"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Cathedral"
+            },
+            {
+              "id": "o4",
+              "text": "[[Statue|estatua]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1121,18 +1185,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Market"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Bridge|puente]]"
             },
             {
               "id": "o3",
-              "text": "Bridge"
+              "text": "Cathedral"
+            },
+            {
+              "id": "o4",
+              "text": "Museum"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1142,15 +1210,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Tower"
+              "text": "[[Tower|tower]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Park"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Monument"
+            },
+            {
+              "id": "o4",
+              "text": "Gallery"
             }
           ],
           "correct_answer": "o1",
@@ -1163,18 +1235,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Museum"
             },
             {
               "id": "o2",
-              "text": "Castle"
+              "text": "Bridge"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Castle|castillo]]"
+            },
+            {
+              "id": "o4",
+              "text": "Cathedral"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1184,15 +1260,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Monument"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Museum"
             },
             {
               "id": "o3",
-              "text": "Tour"
+              "text": "[[Tour|visita guiada]]"
+            },
+            {
+              "id": "o4",
+              "text": "Gallery"
             }
           ],
           "correct_answer": "o3",
@@ -1205,18 +1285,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Guide"
+              "text": "Fountain"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Monument"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Statue"
+            },
+            {
+              "id": "o4",
+              "text": "[[Guide|guide]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1226,18 +1310,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Market"
             },
             {
               "id": "o2",
-              "text": "Museum"
+              "text": "Gallery"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Museum|museo]]"
+            },
+            {
+              "id": "o4",
+              "text": "Park"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1247,18 +1335,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "[[Statue|estatua]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Gallery"
             },
             {
               "id": "o3",
-              "text": "Statue"
+              "text": "Castle"
+            },
+            {
+              "id": "o4",
+              "text": "Park"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1268,18 +1360,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Bridge"
+              "text": "Fountain"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Cathedral"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Castle"
+            },
+            {
+              "id": "o4",
+              "text": "[[Bridge|puente]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1289,15 +1385,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Bridge"
             },
             {
               "id": "o2",
-              "text": "Tower"
+              "text": "[[Tower|tower]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Cathedral"
+            },
+            {
+              "id": "o4",
+              "text": "Statue"
             }
           ],
           "correct_answer": "o2",
@@ -1310,18 +1410,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Monument"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Castle|castillo]]"
             },
             {
               "id": "o3",
-              "text": "Castle"
+              "text": "Market"
+            },
+            {
+              "id": "o4",
+              "text": "Bridge"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1331,18 +1435,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Tour"
+              "text": "Market"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Tour|visita guiada]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Cathedral"
+            },
+            {
+              "id": "o4",
+              "text": "Statue"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1352,18 +1460,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Guide|guide]]"
             },
             {
               "id": "o2",
-              "text": "Guide"
+              "text": "Museum"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Monument"
+            },
+            {
+              "id": "o4",
+              "text": "Gallery"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1373,18 +1485,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Statue"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Monument"
             },
             {
               "id": "o3",
-              "text": "Museum"
+              "text": "Fountain"
+            },
+            {
+              "id": "o4",
+              "text": "[[Museum|museo]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         }
       ]
@@ -1396,7 +1512,7 @@
         {
           "interaction_id": "U48_L5_I1",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[museum|museo]])",
           "audio_url": "/audio/courses/ingles-a1/unit48/lesson5-task-1.mp3",
           "transcript_template": "The [[museum|]] is here.",
           "correct_answer": "museum",
@@ -1410,7 +1526,7 @@
         {
           "interaction_id": "U48_L5_I2",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[museum|museo]])",
           "audio_url": "/audio/courses/ingles-a1/unit48/lesson5-task-2.mp3",
           "transcript_template": "The [[statue|]] is here.",
           "correct_answer": "statue",
@@ -1424,7 +1540,7 @@
         {
           "interaction_id": "U48_L5_I3",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[museum|museo]])",
           "audio_url": "/audio/courses/ingles-a1/unit48/lesson5-task-3.mp3",
           "transcript_template": "The [[bridge|]] is here.",
           "correct_answer": "bridge",
@@ -1438,7 +1554,7 @@
         {
           "interaction_id": "U48_L5_I4",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[museum|museo]])",
           "audio_url": "/audio/courses/ingles-a1/unit48/lesson5-task-4.mp3",
           "transcript_template": "The [[tower|]] is here.",
           "correct_answer": "tower",
@@ -1452,7 +1568,7 @@
         {
           "interaction_id": "U48_L5_I5",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[museum|museo]])",
           "audio_url": "/audio/courses/ingles-a1/unit48/lesson5-task-5.mp3",
           "transcript_template": "The [[castle|]] is here.",
           "correct_answer": "castle",
@@ -1466,7 +1582,7 @@
         {
           "interaction_id": "U48_L5_I6",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[museum|museo]])",
           "audio_url": "/audio/courses/ingles-a1/unit48/lesson5-task-6.mp3",
           "transcript_template": "The [[tour|]] is here.",
           "correct_answer": "tour",
@@ -1480,7 +1596,7 @@
         {
           "interaction_id": "U48_L5_I7",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[museum|museo]])",
           "audio_url": "/audio/courses/ingles-a1/unit48/lesson5-task-7.mp3",
           "transcript_template": "The [[guide|]] is here.",
           "correct_answer": "guide",
@@ -1494,7 +1610,7 @@
         {
           "interaction_id": "U48_L5_I8",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[museum|museo]])",
           "title": "Pronunciación: Sightseeing",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1533,7 +1649,7 @@
         {
           "interaction_id": "U48_L5_I9",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[museum|museo]])",
           "title": "Pronunciación: Sightseeing",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1572,7 +1688,7 @@
         {
           "interaction_id": "U48_L5_I10",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[museum|museo]])",
           "title": "Pronunciación: Sightseeing",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1611,7 +1727,7 @@
         {
           "interaction_id": "U48_L5_I11",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[museum|museo]])",
           "title": "Pronunciación: Sightseeing",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1650,7 +1766,7 @@
         {
           "interaction_id": "U48_L5_I12",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[museum|museo]])",
           "title": "Pronunciación: Sightseeing",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1689,7 +1805,7 @@
         {
           "interaction_id": "U48_L5_I13",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[museum|museo]])",
           "title": "Pronunciación: Sightseeing",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1728,7 +1844,7 @@
         {
           "interaction_id": "U48_L5_I14",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[museum|museo]])",
           "title": "Pronunciación: Sightseeing",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1767,7 +1883,7 @@
         {
           "interaction_id": "U48_L5_I15",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[museum|museo]])",
           "title": "Pronunciación: Sightseeing",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [

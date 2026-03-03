@@ -64,14 +64,14 @@
             },
             {
               "id": "o2",
-              "text": "[[Two|Dos]]"
+              "text": "[[Three|Tres]]"
             },
             {
               "id": "o3",
-              "text": "[[Three|Tres]]"
+              "text": "[[Two|Dos]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary",
           "complexity": 1
         },
@@ -151,21 +151,21 @@
             },
             {
               "id": "o2",
-              "text": "[[With your ears|Con las orejas]]"
+              "text": "[[With your nose|Con la nariz]]"
             },
             {
               "id": "o3",
-              "text": "[[With your nose|Con la nariz]]"
+              "text": "[[With your ears|Con las orejas]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary",
           "complexity": 1
         },
         {
           "interaction_id": "U28_I7",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'She has beautiful blue ___.' (ojos = eyes)",
+          "prompt_es": "Completa: 'She has beautiful blue ___.' (ojos = eyes) ([[weather|tiempo]])",
           "correct_answer": "eyes",
           "mastery_tag": "vocabulary",
           "complexity": 1
@@ -195,7 +195,7 @@
         {
           "interaction_id": "U28_I9",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'My ___ is very long and brown.' (pelo = hair)",
+          "prompt_es": "Completa: 'My ___ is very long and brown.' (pelo = hair) ([[and|y]])",
           "correct_answer": "hair",
           "mastery_tag": "vocabulary",
           "complexity": 1
@@ -270,18 +270,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[With your feet|Con los pies]]"
+              "text": "[[With your hand|Con la mano]]"
             },
             {
               "id": "o2",
-              "text": "[[With your hand|Con la mano]]"
+              "text": "[[With your feet|Con los pies]]"
             },
             {
               "id": "o3",
               "text": "[[With your knee|Con la rodilla]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary",
           "complexity": 1
         },
@@ -369,21 +369,21 @@
             },
             {
               "id": "o2",
-              "text": "[[Shoulder|Hombro]]"
+              "text": "[[Knee|Rodilla]]"
             },
             {
               "id": "o3",
-              "text": "[[Knee|Rodilla]]"
+              "text": "[[Shoulder|Hombro]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary",
           "complexity": 1
         },
         {
           "interaction_id": "U28_I18",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'I have ten ___ on my hands.' (dedos = fingers)",
+          "prompt_es": "Completa: 'I have ten ___ on my hands.' (dedos = fingers) ([[weather|tiempo]])",
           "correct_answer": "fingers",
           "mastery_tag": "vocabulary",
           "complexity": 1
@@ -431,25 +431,25 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[have got|tengo (1ª)]]"
+              "text": "[[has got|tiene (3ª)]]"
             },
             {
               "id": "o2",
-              "text": "[[has got|tiene (3ª)]]"
+              "text": "[[have got|tengo (1ª)]]"
             },
             {
               "id": "o3",
               "text": "[[is got|incorrecto]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "grammar",
           "complexity": 1
         },
         {
           "interaction_id": "U28_I22",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'My brother ___ big blue eyes.' (has got)",
+          "prompt_es": "Completa: 'My brother ___ big blue eyes.' (has got) ([[got|obtuvo/obtuve]])",
           "correct_answer": "has got",
           "mastery_tag": "grammar",
           "complexity": 1
@@ -479,7 +479,7 @@
         {
           "interaction_id": "U28_I24",
           "type": "sentence_building",
-          "prompt_es": "Forma: 'Ella tiene el pelo largo y rizado.'",
+          "prompt_es": "Forma: 'Ella tiene el pelo largo y rizado.' ([[weather|tiempo]])",
           "words": [
             {
               "id": "w1",
@@ -567,7 +567,7 @@
         {
           "interaction_id": "U28_I28",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'My dad ___ a beard and a moustache.' (has got)",
+          "prompt_es": "Completa: 'My dad ___ a beard and a moustache.' (has got) ([[and|y]])",
           "correct_answer": "has got",
           "mastery_tag": "grammar",
           "complexity": 1
@@ -597,7 +597,7 @@
         {
           "interaction_id": "U28_I30",
           "type": "sentence_building",
-          "prompt_es": "Forma: '¿Tiene tu padre el pelo rizado?'",
+          "prompt_es": "Forma: '¿Tiene tu padre el pelo rizado?' ([[weather|tiempo]])",
           "words": [
             {
               "id": "w1",
@@ -648,25 +648,25 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[These are my hands|Estas son mis manos (plural — incorrecto para una)]]"
+              "text": "[[This is my hand|Esta es mi mano]]"
             },
             {
               "id": "o2",
-              "text": "[[This is my hand|Esta es mi mano]]"
+              "text": "[[These are my hands|Estas son mis manos (plural — incorrecto para una)]]"
             },
             {
               "id": "o3",
               "text": "[[Those are my hands|Esas son mis manos (lejos)]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "grammar",
           "complexity": 1
         },
         {
           "interaction_id": "U28_I32",
           "type": "fill_blanks",
-          "prompt_es": "Completa: '___ are my feet.' (señalando los dos pies — plural)",
+          "prompt_es": "Completa: '___ are my feet.' (señalando los dos pies — plural) ([[weather|tiempo]])",
           "correct_answer": "These",
           "mastery_tag": "grammar",
           "complexity": 1
@@ -696,7 +696,7 @@
         {
           "interaction_id": "U28_I34",
           "type": "fill_blanks",
-          "prompt_es": "Completa: '___ is my nose.' (señalando la nariz — singular)",
+          "prompt_es": "Completa: '___ is my nose.' (señalando la nariz — singular) ([[weather|tiempo]])",
           "correct_answer": "This",
           "mastery_tag": "grammar",
           "complexity": 1
@@ -726,7 +726,7 @@
         {
           "interaction_id": "U28_I36",
           "type": "fill_blanks",
-          "prompt_es": "Completa: '___ is my elbow. It hurts!' (singular)",
+          "prompt_es": "Completa: '___ is my elbow. It hurts!' (singular) ([[weather|tiempo]])",
           "correct_answer": "This",
           "mastery_tag": "grammar",
           "complexity": 1
@@ -756,7 +756,7 @@
         {
           "interaction_id": "U28_I38",
           "type": "sentence_building",
-          "prompt_es": "Forma: 'Este es mi hombro derecho.'",
+          "prompt_es": "Forma: 'Este es mi hombro derecho.' ([[weather|tiempo]])",
           "words": [
             {
               "id": "w1",
@@ -836,7 +836,7 @@
         {
           "interaction_id": "U28_I41",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué le duele a Tom?",
+          "prompt_es": "¿Qué le duele a Tom? ([[weather|tiempo]])",
           "options": [
             {
               "id": "o1",
@@ -880,7 +880,7 @@
         {
           "interaction_id": "U28_I43",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo está la garganta de Tom?",
+          "prompt_es": "¿Cómo está la garganta de Tom? ([[weather|tiempo]])",
           "options": [
             {
               "id": "o1",
@@ -902,7 +902,7 @@
         {
           "interaction_id": "U28_I44",
           "type": "multiple_choice",
-          "prompt_es": "¿Puede Tom tocar los dedos de los pies?",
+          "prompt_es": "¿Puede Tom tocar los dedos de los pies? ([[weather|tiempo]])",
           "options": [
             {
               "id": "o1",
@@ -924,7 +924,7 @@
         {
           "interaction_id": "U28_I45",
           "type": "fill_blanks",
-          "prompt_es": "El doctor le da a Tom una ___ para comprar medicamentos. (receta = prescription)",
+          "prompt_es": "El doctor le da a Tom una ___ para comprar medicamentos. (receta = prescription) ([[weather|tiempo]])",
           "correct_answer": "prescription",
           "mastery_tag": "reading",
           "complexity": 2
@@ -932,7 +932,7 @@
         {
           "interaction_id": "U28_I46",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué recomienda el médico a Tom?",
+          "prompt_es": "¿Qué recomienda el médico a Tom? ([[weather|tiempo]])",
           "options": [
             {
               "id": "o1",
@@ -976,7 +976,7 @@
         {
           "interaction_id": "U28_I48",
           "type": "sentence_building",
-          "prompt_es": "Forma: 'Me duele la cabeza y la garganta.'",
+          "prompt_es": "Forma: 'Me duele la cabeza y la garganta.' ([[weather|tiempo]])",
           "words": [
             {
               "id": "w1",
@@ -1039,10 +1039,206 @@
         {
           "interaction_id": "U28_I50",
           "type": "fill_blanks",
-          "prompt_es": "Según el texto, Tom tiene un dolor de cabeza muy ___ (fuerte = bad).",
+          "prompt_es": "Según el texto, Tom tiene un dolor de cabeza muy ___ (fuerte = bad). ([[weather|tiempo]])",
           "correct_answer": "bad",
           "mastery_tag": "reading",
           "complexity": 1
+        }
+      ]
+    },
+    {
+      "block_id": "B28_REC",
+      "title": "Block 6: Recycling – Past Events",
+      "content": [
+        {
+          "interaction_id": "A1_U28_B28_REC_MC1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el [[past simple|pasado simple]] de \"[[to be|ser/estar]]\"?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[was/were|era/estaba - eran/estaban]]"
+            },
+            {
+              "id": "o2",
+              "text": "is/are"
+            },
+            {
+              "id": "o3",
+              "text": "be/beed"
+            },
+            {
+              "id": "o4",
+              "text": "wased/wered"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "past_simple"
+          ]
+        },
+        {
+          "interaction_id": "A1_U28_B28_REC_FB2",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: \"[[Yesterday|Ayer]] she ___ (go) to the [[market|mercado]] and ___ (buy) some [[vegetables|verduras]].\"",
+          "stimulus_en": "Yesterday she ___ to the market and ___ some vegetables.",
+          "correct_answer": "went / bought",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "past_simple"
+          ]
+        },
+        {
+          "interaction_id": "A1_U28_B28_REC_MC3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se forma la negativa del [[past simple|pasado simple]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[didn't + verb|didn't + verbo]]"
+            },
+            {
+              "id": "o2",
+              "text": "don't + verb"
+            },
+            {
+              "id": "o3",
+              "text": "not + past verb"
+            },
+            {
+              "id": "o4",
+              "text": "did not + past verb"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "past_simple"
+          ]
+        },
+        {
+          "interaction_id": "A1_U28_B28_REC_SW4",
+          "type": "short_writing",
+          "prompt_es": "Escribe sobre lo que hiciste el fin de semana pasado. Usa [[I went|fui]], [[I saw|vi]], [[I ate|comí]], [[I met|quedé con]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "concept_tags": [
+            "production",
+            "free_writing"
+          ],
+          "example_answer": "Last weekend I went to the cinema with my friends. We saw a great film. After the cinema we ate pizza at a restaurant. I met my cousin in the city centre. It was a great day!"
+        },
+        {
+          "interaction_id": "A1_U28_B28_REC_SW5",
+          "type": "short_writing",
+          "prompt_es": "Escribe un correo contando tus vacaciones del año pasado. Usa [[I visited|visité]], [[The weather was|El tiempo estaba]], [[I stayed|me alojé]], [[I loved|me encantó]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "concept_tags": [
+            "production",
+            "free_writing"
+          ],
+          "example_answer": "Hi Maria! Last summer I visited London. The weather was cool but dry. I stayed in a small hotel near the centre. I visited the British Museum and the Tower of London. I loved the city! Love, Ana."
+        },
+        {
+          "interaction_id": "A1_U28_B28_REC_MC6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la pregunta correcta en [[past simple|pasado simple]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Did you go to the party?|¿Fuiste a la fiesta?]]"
+            },
+            {
+              "id": "o2",
+              "text": "Did you went?"
+            },
+            {
+              "id": "o3",
+              "text": "You did go?"
+            },
+            {
+              "id": "o4",
+              "text": "Went you to party?"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "past_simple",
+            "questions"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B28_EX",
+      "title": "Block 7: Extra Practice – Past Events",
+      "content": [
+        {
+          "interaction_id": "A1_U28_B28_EX_MC1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el [[past simple|pasado simple]] de \"[[to see|ver]]\"?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[saw|vi/vio]]"
+            },
+            {
+              "id": "o2",
+              "text": "seen"
+            },
+            {
+              "id": "o3",
+              "text": "sawed"
+            },
+            {
+              "id": "o4",
+              "text": "seed"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "past_simple",
+            "irregular_verbs"
+          ]
+        },
+        {
+          "interaction_id": "A1_U28_B28_EX_MC2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el [[past simple|pasado simple]] de \"[[to eat|comer]]\"?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[ate|comí/comió]]"
+            },
+            {
+              "id": "o2",
+              "text": "eated"
+            },
+            {
+              "id": "o3",
+              "text": "eaten"
+            },
+            {
+              "id": "o4",
+              "text": "ated"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "past_simple",
+            "irregular_verbs"
+          ]
         }
       ]
     }

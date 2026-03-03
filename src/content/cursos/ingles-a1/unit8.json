@@ -23,12 +23,33 @@
           "type": "matching",
           "prompt_es": "Une el número en inglés con su traducción:",
           "pairs": [
-            { "id": "p0", "left": "[[Twenty|Veinte]]", "right": "Cincuenta" },
-            { "id": "p1", "left": "[[Thirty|Treinta]]", "right": "Cien" },
-            { "id": "p2", "left": "[[Forty|Cuarenta]]", "right": "Veinte" },
-            { "id": "p3", "left": "[[Fifty|Cincuenta]]", "right": "Treinta" }
+            {
+              "id": "p0",
+              "left": "[[Twenty|Veinte]]",
+              "right": "Cincuenta"
+            },
+            {
+              "id": "p1",
+              "left": "[[Thirty|Treinta]]",
+              "right": "Cien"
+            },
+            {
+              "id": "p2",
+              "left": "[[Forty|Cuarenta]]",
+              "right": "Veinte"
+            },
+            {
+              "id": "p3",
+              "left": "[[Fifty|Cincuenta]]",
+              "right": "Treinta"
+            }
           ],
-          "correct_answer": { "p0": "p2", "p1": "p3", "p2": "p0", "p3": "p1" },
+          "correct_answer": {
+            "p0": "p2",
+            "p1": "p3",
+            "p2": "p0",
+            "p3": "p1"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -36,9 +57,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'Sesenta' en inglés?",
           "options": [
-            { "id": "o1", "text": "[[Sixteen|Dieciséis]]" },
-            { "id": "o2", "text": "[[Sixty|Sesenta]]" },
-            { "id": "o3", "text": "[[Six|Seis]]" }
+            {
+              "id": "o1",
+              "text": "[[Sixteen|Dieciséis]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Sixty|Sesenta]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Six|Seis]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "vocabulary"
@@ -46,7 +76,7 @@
         {
           "interaction_id": "U8_I3",
           "type": "transformation",
-          "prompt_es": "Completa con el número en inglés:",
+          "prompt_es": "Completa con el número en inglés: ([[bus|autobús]])",
           "stimulus_en": "The bus has (treinta) ________ seats.",
           "correct_answer": "thirty",
           "mastery_tag": "grammar"
@@ -61,21 +91,38 @@
         {
           "interaction_id": "U8_I5",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés: 'Noventa'",
+          "prompt_es": "Traduce al inglés: 'Noventa' ([[number|número]])",
           "correct_answer": "Ninety",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U8_I6",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[number|número]])",
           "options": [
-            { "id": "w0", "text": "There" },
-            { "id": "w1", "text": "are" },
-            { "id": "w2", "text": "fifty" },
-            { "id": "w3", "text": "students" }
+            {
+              "id": "w0",
+              "text": "There"
+            },
+            {
+              "id": "w1",
+              "text": "are"
+            },
+            {
+              "id": "w2",
+              "text": "fifty"
+            },
+            {
+              "id": "w3",
+              "text": "students"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -83,12 +130,33 @@
           "type": "matching",
           "prompt_es": "Une el número en inglés con su traducción:",
           "pairs": [
-            { "id": "p0", "left": "[[Sixty|Sesenta]]", "right": "Ochenta" },
-            { "id": "p1", "left": "[[Seventy|Setenta]]", "right": "Sesenta" },
-            { "id": "p2", "left": "[[Eighty|Ochenta]]", "right": "Noventa" },
-            { "id": "p3", "left": "[[Ninety|Noventa]]", "right": "Setenta" }
+            {
+              "id": "p0",
+              "left": "[[Sixty|Sesenta]]",
+              "right": "Ochenta"
+            },
+            {
+              "id": "p1",
+              "left": "[[Seventy|Setenta]]",
+              "right": "Sesenta"
+            },
+            {
+              "id": "p2",
+              "left": "[[Eighty|Ochenta]]",
+              "right": "Noventa"
+            },
+            {
+              "id": "p3",
+              "left": "[[Ninety|Noventa]]",
+              "right": "Setenta"
+            }
           ],
-          "correct_answer": { "p0": "p1", "p1": "p3", "p2": "p0", "p3": "p2" },
+          "correct_answer": {
+            "p0": "p1",
+            "p1": "p3",
+            "p2": "p0",
+            "p3": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -96,9 +164,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuánto es 40 + 40?",
           "options": [
-            { "id": "o1", "text": "[[Seventy|Setenta]]" },
-            { "id": "o2", "text": "[[Ninety|Noventa]]" },
-            { "id": "o3", "text": "[[Eighty|Ochenta]]" }
+            {
+              "id": "o1",
+              "text": "[[Seventy|Setenta]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Ninety|Noventa]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Eighty|Ochenta]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary"
@@ -106,7 +183,7 @@
         {
           "interaction_id": "U8_I9",
           "type": "transformation",
-          "prompt_es": "Completa con el número en inglés:",
+          "prompt_es": "Completa con el número en inglés: ([[book|reservar]])",
           "stimulus_en": "I have (ochenta) ________ books.",
           "correct_answer": "eighty",
           "mastery_tag": "grammar"
@@ -114,20 +191,37 @@
         {
           "interaction_id": "U8_I10",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[number|número]])",
           "options": [
-            { "id": "w0", "text": "We" },
-            { "id": "w1", "text": "need" },
-            { "id": "w2", "text": "ninety" },
-            { "id": "w3", "text": "pages" }
+            {
+              "id": "w0",
+              "text": "We"
+            },
+            {
+              "id": "w1",
+              "text": "need"
+            },
+            {
+              "id": "w2",
+              "text": "ninety"
+            },
+            {
+              "id": "w3",
+              "text": "pages"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U8_I11",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés: 'Setenta y cinco'",
+          "prompt_es": "Traduce al inglés: 'Setenta y cinco' ([[number|número]])",
           "correct_answer": "Seventy-five",
           "mastery_tag": "vocabulary"
         },
@@ -136,12 +230,33 @@
           "type": "matching",
           "prompt_es": "Une el número en inglés con su traducción:",
           "pairs": [
-            { "id": "p0", "left": "[[One hundred|Cien]]", "right": "Treinta y dos" },
-            { "id": "p1", "left": "[[Twenty-one|Veintiuno]]", "right": "Cien" },
-            { "id": "p2", "left": "[[Thirty-two|Treinta y dos]]", "right": "Cuarenta y tres" },
-            { "id": "p3", "left": "[[Forty-three|Cuarenta y tres]]", "right": "Veintiuno" }
+            {
+              "id": "p0",
+              "left": "[[One hundred|Cien]]",
+              "right": "Treinta y dos"
+            },
+            {
+              "id": "p1",
+              "left": "[[Twenty-one|Veintiuno]]",
+              "right": "Cien"
+            },
+            {
+              "id": "p2",
+              "left": "[[Thirty-two|Treinta y dos]]",
+              "right": "Cuarenta y tres"
+            },
+            {
+              "id": "p3",
+              "left": "[[Forty-three|Cuarenta y tres]]",
+              "right": "Veintiuno"
+            }
           ],
-          "correct_answer": { "p0": "p1", "p1": "p3", "p2": "p0", "p3": "p2" },
+          "correct_answer": {
+            "p0": "p1",
+            "p1": "p3",
+            "p2": "p0",
+            "p3": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -149,9 +264,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se escribe el número 85?",
           "options": [
-            { "id": "o1", "text": "[[Eighty-five|Ochenta y cinco]]" },
-            { "id": "o2", "text": "[[Fifty-eight|Cincuenta y ocho]]" },
-            { "id": "o3", "text": "[[Eight-five|Ocho-cinco]]" }
+            {
+              "id": "o1",
+              "text": "[[Eighty-five|Ochenta y cinco]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Fifty-eight|Cincuenta y ocho]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Eight-five|Ocho-cinco]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -159,7 +283,7 @@
         {
           "interaction_id": "U8_I14",
           "type": "transformation",
-          "prompt_es": "Completa con el número en inglés:",
+          "prompt_es": "Completa con el número en inglés: ([[room|habitación]])",
           "stimulus_en": "There are (cuarenta y cinco) ________ chairs in the room.",
           "correct_answer": "forty-five",
           "mastery_tag": "grammar"
@@ -182,12 +306,33 @@
           "type": "matching",
           "prompt_es": "Une la palabra con su traducción:",
           "pairs": [
-            { "id": "p0", "left": "[[Dollar|Dólar]]", "right": "Libra esterlina" },
-            { "id": "p1", "left": "[[Euro|Euro]]", "right": "Dólar" },
-            { "id": "p2", "left": "[[Pound|Libra esterlina]]", "right": "Céntimo" },
-            { "id": "p3", "left": "[[Cent|Céntimo]]", "right": "Euro" }
+            {
+              "id": "p0",
+              "left": "[[Dollar|Dólar]]",
+              "right": "Libra esterlina"
+            },
+            {
+              "id": "p1",
+              "left": "[[Euro|Euro]]",
+              "right": "Dólar"
+            },
+            {
+              "id": "p2",
+              "left": "[[Pound|Libra esterlina]]",
+              "right": "Céntimo"
+            },
+            {
+              "id": "p3",
+              "left": "[[Cent|Céntimo]]",
+              "right": "Euro"
+            }
           ],
-          "correct_answer": { "p0": "p1", "p1": "p3", "p2": "p0", "p3": "p2" },
+          "correct_answer": {
+            "p0": "p1",
+            "p1": "p3",
+            "p2": "p0",
+            "p3": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -195,9 +340,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'barato' en inglés?",
           "options": [
-            { "id": "o1", "text": "[[Expensive|Caro]]" },
-            { "id": "o2", "text": "[[Cheap|Barato]]" },
-            { "id": "o3", "text": "[[Free|Gratis]]" }
+            {
+              "id": "o1",
+              "text": "[[Expensive|Caro]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Cheap|Barato]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Free|Gratis]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "vocabulary"
@@ -205,7 +359,7 @@
         {
           "interaction_id": "U8_I18",
           "type": "transformation",
-          "prompt_es": "Completa con el número en inglés:",
+          "prompt_es": "Completa con el número en inglés: ([[apple|manzana]])",
           "stimulus_en": "The apple costs (cincuenta) ________ cents.",
           "correct_answer": "fifty",
           "mastery_tag": "grammar"
@@ -215,18 +369,35 @@
           "type": "reorder_words",
           "prompt_es": "Ordena las palabras para preguntar el precio:",
           "options": [
-            { "id": "w0", "text": "How" },
-            { "id": "w1", "text": "much" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "this?" }
+            {
+              "id": "w0",
+              "text": "How"
+            },
+            {
+              "id": "w1",
+              "text": "[[much|mucho]]"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "this?"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3"
+          ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U8_I20",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés: 'Treinta euros'",
+          "prompt_es": "Traduce al inglés: 'Treinta euros' ([[number|número]])",
           "correct_answer": "Thirty euros",
           "mastery_tag": "vocabulary"
         },
@@ -235,12 +406,33 @@
           "type": "matching",
           "prompt_es": "Une la palabra con su traducción:",
           "pairs": [
-            { "id": "p0", "left": "[[Price|Precio]]", "right": "Mercado" },
-            { "id": "p1", "left": "[[Shop|Tienda]]", "right": "Recibo" },
-            { "id": "p2", "left": "[[Market|Mercado]]", "right": "Precio" },
-            { "id": "p3", "left": "[[Receipt|Recibo]]", "right": "Tienda" }
+            {
+              "id": "p0",
+              "left": "[[Price|Precio]]",
+              "right": "Mercado"
+            },
+            {
+              "id": "p1",
+              "left": "[[Shop|Tienda]]",
+              "right": "Recibo"
+            },
+            {
+              "id": "p2",
+              "left": "[[Market|Mercado]]",
+              "right": "Precio"
+            },
+            {
+              "id": "p3",
+              "left": "[[Receipt|Recibo]]",
+              "right": "Tienda"
+            }
           ],
-          "correct_answer": { "p0": "p2", "p1": "p3", "p2": "p0", "p3": "p1" },
+          "correct_answer": {
+            "p0": "p2",
+            "p1": "p3",
+            "p2": "p0",
+            "p3": "p1"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -248,9 +440,18 @@
           "type": "multiple_choice",
           "prompt_es": "La camisa cuesta 25 euros. ¿Es cara o barata?",
           "options": [
-            { "id": "o1", "text": "[[Expensive|Cara]]" },
-            { "id": "o2", "text": "[[Cheap|Barata]]" },
-            { "id": "o3", "text": "[[Free|Gratis]]" }
+            {
+              "id": "o1",
+              "text": "[[Expensive|Cara]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Cheap|Barata]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Free|Gratis]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "vocabulary"
@@ -258,7 +459,7 @@
         {
           "interaction_id": "U8_I23",
           "type": "transformation",
-          "prompt_es": "Completa con el número en inglés:",
+          "prompt_es": "Completa con el número en inglés: ([[number|número]])",
           "stimulus_en": "I have (veinte) ________ dollars.",
           "correct_answer": "twenty",
           "mastery_tag": "grammar"
@@ -275,19 +476,40 @@
           "type": "reorder_words",
           "prompt_es": "Ordena las palabras para formar una frase correcta:",
           "options": [
-            { "id": "w0", "text": "The" },
-            { "id": "w1", "text": "shoes" },
-            { "id": "w2", "text": "cost" },
-            { "id": "w3", "text": "forty" },
-            { "id": "w4", "text": "euros." }
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "[[shoes|zapatos]]"
+            },
+            {
+              "id": "w2",
+              "text": "cost"
+            },
+            {
+              "id": "w3",
+              "text": "forty"
+            },
+            {
+              "id": "w4",
+              "text": "euros."
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U8_I26",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés: 'Setenta y cinco céntimos'",
+          "prompt_es": "Traduce al inglés: 'Setenta y cinco céntimos' ([[number|número]])",
           "correct_answer": "Seventy-five cents",
           "mastery_tag": "vocabulary"
         },
@@ -296,12 +518,33 @@
           "type": "matching",
           "prompt_es": "Une la palabra con su traducción:",
           "pairs": [
-            { "id": "p0", "left": "[[Cheap|Barato]]", "right": "Caro" },
-            { "id": "p1", "left": "[[Expensive|Caro]]", "right": "Gratis" },
-            { "id": "p2", "left": "[[Free|Gratis]]", "right": "Descuento" },
-            { "id": "p3", "left": "[[Discount|Descuento]]", "right": "Barato" }
+            {
+              "id": "p0",
+              "left": "[[Cheap|Barato]]",
+              "right": "Caro"
+            },
+            {
+              "id": "p1",
+              "left": "[[Expensive|Caro]]",
+              "right": "Gratis"
+            },
+            {
+              "id": "p2",
+              "left": "[[Free|Gratis]]",
+              "right": "Descuento"
+            },
+            {
+              "id": "p3",
+              "left": "[[Discount|Descuento]]",
+              "right": "Barato"
+            }
           ],
-          "correct_answer": { "p0": "p3", "p1": "p0", "p2": "p1", "p3": "p2" },
+          "correct_answer": {
+            "p0": "p3",
+            "p1": "p0",
+            "p2": "p1",
+            "p3": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -309,9 +552,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se pregunta '¿Cuánto cuesta?' en inglés?",
           "options": [
-            { "id": "o1", "text": "[[How old is it?|¿Cuántos años tiene?]]" },
-            { "id": "o2", "text": "[[What is this?|¿Qué es esto?]]" },
-            { "id": "o3", "text": "[[How much is it?|¿Cuánto cuesta?]]" }
+            {
+              "id": "o1",
+              "text": "[[How old is it?|¿Cuántos años tiene?]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[What is this?|¿Qué es esto?]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[How much is it?|¿Cuánto cuesta?]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "grammar"
@@ -319,7 +571,7 @@
         {
           "interaction_id": "U8_I29",
           "type": "transformation",
-          "prompt_es": "Completa con el número en inglés:",
+          "prompt_es": "Completa con el número en inglés: ([[shoes|zapatos]])",
           "stimulus_en": "The shoes cost (noventa) ________ euros.",
           "correct_answer": "ninety",
           "mastery_tag": "grammar"
@@ -342,12 +594,33 @@
           "type": "matching",
           "prompt_es": "Une la palabra con su traducción:",
           "pairs": [
-            { "id": "p0", "left": "[[Age|Edad]]", "right": "Joven" },
-            { "id": "p1", "left": "[[Young|Joven]]", "right": "Cumpleaños" },
-            { "id": "p2", "left": "[[Old|Viejo/a]]", "right": "Edad" },
-            { "id": "p3", "left": "[[Birthday|Cumpleaños]]", "right": "Viejo/a" }
+            {
+              "id": "p0",
+              "left": "[[Age|Edad]]",
+              "right": "Joven"
+            },
+            {
+              "id": "p1",
+              "left": "[[Young|Joven]]",
+              "right": "Cumpleaños"
+            },
+            {
+              "id": "p2",
+              "left": "[[Old|Viejo/a]]",
+              "right": "Edad"
+            },
+            {
+              "id": "p3",
+              "left": "[[Birthday|Cumpleaños]]",
+              "right": "Viejo/a"
+            }
           ],
-          "correct_answer": { "p0": "p2", "p1": "p0", "p2": "p3", "p3": "p1" },
+          "correct_answer": {
+            "p0": "p2",
+            "p1": "p0",
+            "p2": "p3",
+            "p3": "p1"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -355,9 +628,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la respuesta correcta a '[[How old are you?|¿Cuántos años tienes?]]'",
           "options": [
-            { "id": "o1", "text": "[[I am fine, thanks.|Estoy bien, gracias.]]" },
-            { "id": "o2", "text": "[[My name is Ana.|Me llamo Ana.]]" },
-            { "id": "o3", "text": "[[I am twenty years old.|Tengo veinte años.]]" }
+            {
+              "id": "o1",
+              "text": "[[I am fine, thanks.|Estoy bien, gracias.]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[My name is Ana.|Me llamo Ana.]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[I am twenty years old.|Tengo veinte años.]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "grammar"
@@ -365,7 +647,7 @@
         {
           "interaction_id": "U8_I33",
           "type": "transformation",
-          "prompt_es": "Completa con el número en inglés:",
+          "prompt_es": "Completa con el número en inglés: ([[number|número]])",
           "stimulus_en": "She is (treinta y dos) ________ years old.",
           "correct_answer": "thirty-two",
           "mastery_tag": "grammar"
@@ -373,15 +655,36 @@
         {
           "interaction_id": "U8_I34",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para preguntar la edad:",
+          "prompt_es": "Ordena las palabras para preguntar la edad: ([[number|número]])",
           "options": [
-            { "id": "w0", "text": "How" },
-            { "id": "w1", "text": "old" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "your" },
-            { "id": "w4", "text": "father?" }
+            {
+              "id": "w0",
+              "text": "How"
+            },
+            {
+              "id": "w1",
+              "text": "old"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "your"
+            },
+            {
+              "id": "w4",
+              "text": "father?"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -394,7 +697,7 @@
         {
           "interaction_id": "U8_I36",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés: '¿Cuántos años tienes?'",
+          "prompt_es": "Traduce al inglés: '¿Cuántos años tienes?' ([[number|número]])",
           "correct_answer": "How old are you?",
           "mastery_tag": "grammar"
         },
@@ -403,12 +706,33 @@
           "type": "matching",
           "prompt_es": "Une el número con su forma escrita en inglés:",
           "pairs": [
-            { "id": "p0", "left": "[[21|Veintiuno]]", "right": "Treinta y cinco" },
-            { "id": "p1", "left": "[[35|Treinta y cinco]]", "right": "Sesenta y dos" },
-            { "id": "p2", "left": "[[48|Cuarenta y ocho]]", "right": "Veintiuno" },
-            { "id": "p3", "left": "[[62|Sesenta y dos]]", "right": "Cuarenta y ocho" }
+            {
+              "id": "p0",
+              "left": "[[21|Veintiuno]]",
+              "right": "Treinta y cinco"
+            },
+            {
+              "id": "p1",
+              "left": "[[35|Treinta y cinco]]",
+              "right": "Sesenta y dos"
+            },
+            {
+              "id": "p2",
+              "left": "[[48|Cuarenta y ocho]]",
+              "right": "Veintiuno"
+            },
+            {
+              "id": "p3",
+              "left": "[[62|Sesenta y dos]]",
+              "right": "Cuarenta y ocho"
+            }
           ],
-          "correct_answer": { "p0": "p2", "p1": "p3", "p2": "p0", "p3": "p1" },
+          "correct_answer": {
+            "p0": "p2",
+            "p1": "p3",
+            "p2": "p0",
+            "p3": "p1"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -416,9 +740,18 @@
           "type": "multiple_choice",
           "prompt_es": "Mi abuelo tiene 78 años. ¿Cómo se dice esto en inglés?",
           "options": [
-            { "id": "o1", "text": "[[My grandfather is seventy-eight years old.|Mi abuelo tiene setenta y ocho años.]]" },
-            { "id": "o2", "text": "[[My grandfather is eighty-seven years old.|Mi abuelo tiene ochenta y siete años.]]" },
-            { "id": "o3", "text": "[[My grandfather has seventy-eight years.|Mi abuelo tiene setenta y ocho años.]]" }
+            {
+              "id": "o1",
+              "text": "[[My grandfather is seventy-eight years old.|Mi abuelo tiene setenta y ocho años.]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[My grandfather is eighty-seven years old.|Mi abuelo tiene ochenta y siete años.]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[My grandfather has seventy-eight years.|Mi abuelo tiene setenta y ocho años.]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -426,7 +759,7 @@
         {
           "interaction_id": "U8_I39",
           "type": "transformation",
-          "prompt_es": "Completa con el número en inglés:",
+          "prompt_es": "Completa con el número en inglés: ([[number|número]])",
           "stimulus_en": "The bag costs (veintinueve) ________ euros.",
           "correct_answer": "twenty-nine",
           "mastery_tag": "grammar"
@@ -434,21 +767,42 @@
         {
           "interaction_id": "U8_I40",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[number|número]])",
           "options": [
-            { "id": "w0", "text": "I" },
-            { "id": "w1", "text": "am" },
-            { "id": "w2", "text": "thirty" },
-            { "id": "w3", "text": "years" },
-            { "id": "w4", "text": "old." }
+            {
+              "id": "w0",
+              "text": "I"
+            },
+            {
+              "id": "w1",
+              "text": "am"
+            },
+            {
+              "id": "w2",
+              "text": "thirty"
+            },
+            {
+              "id": "w3",
+              "text": "years"
+            },
+            {
+              "id": "w4",
+              "text": "old."
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U8_I41",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés: 'Cuarenta y cuatro'",
+          "prompt_es": "Traduce al inglés: 'Cuarenta y cuatro' ([[number|número]])",
           "correct_answer": "Forty-four",
           "mastery_tag": "vocabulary"
         },
@@ -457,9 +811,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuánto es 30 + 20 + 22?",
           "options": [
-            { "id": "o1", "text": "[[Seventy-two|Setenta y dos]]" },
-            { "id": "o2", "text": "[[Sixty-two|Sesenta y dos]]" },
-            { "id": "o3", "text": "[[Seventy|Setenta]]" }
+            {
+              "id": "o1",
+              "text": "[[Seventy-two|Setenta y dos]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Sixty-two|Sesenta y dos]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Seventy|Setenta]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary"
@@ -467,7 +830,7 @@
         {
           "interaction_id": "U8_I43",
           "type": "transformation",
-          "prompt_es": "Completa con el número en inglés:",
+          "prompt_es": "Completa con el número en inglés: ([[number|número]])",
           "stimulus_en": "My grandfather is (setenta y ocho) ________ years old.",
           "correct_answer": "seventy-eight",
           "mastery_tag": "grammar"
@@ -477,13 +840,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena las palabras para preguntar el precio:",
           "options": [
-            { "id": "w0", "text": "How" },
-            { "id": "w1", "text": "much" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "the" },
-            { "id": "w4", "text": "coffee?" }
+            {
+              "id": "w0",
+              "text": "How"
+            },
+            {
+              "id": "w1",
+              "text": "[[much|mucho]]"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "coffee?"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -511,9 +895,18 @@
           "type": "multiple_choice",
           "prompt_es": "Según el menú, ¿cuánto cuesta el té?",
           "options": [
-            { "id": "o1", "text": "[[€1.50|Un euro cincuenta]]" },
-            { "id": "o2", "text": "[[€1.20|Un euro veinte]]" },
-            { "id": "o3", "text": "[[€2.00|Dos euros]]" }
+            {
+              "id": "o1",
+              "text": "[[€1.50|Un euro cincuenta]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[€1.20|Un euro veinte]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[€2.00|Dos euros]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "reading"
@@ -523,9 +916,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuánto cuesta el especial del día (sándwich + café)?",
           "options": [
-            { "id": "o1", "text": "[[€6.00|Seis euros]]" },
-            { "id": "o2", "text": "[[€4.50|Cuatro euros cincuenta]]" },
-            { "id": "o3", "text": "[[€5.50|Cinco euros cincuenta]]" }
+            {
+              "id": "o1",
+              "text": "[[€6.00|Seis euros]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[€4.50|Cuatro euros cincuenta]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[€5.50|Cinco euros cincuenta]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "reading"
@@ -533,7 +935,7 @@
         {
           "interaction_id": "U8_I48",
           "type": "true_false",
-          "prompt_es": "¿Es verdad que el agua cuesta sesenta céntimos?",
+          "prompt_es": "¿Es verdad que el agua cuesta sesenta céntimos? ([[number|número]])",
           "correct_answer": true,
           "mastery_tag": "reading"
         },
@@ -542,9 +944,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuánto cuesta la ensalada?",
           "options": [
-            { "id": "o1", "text": "[[€5.30|Cinco euros treinta]]" },
-            { "id": "o2", "text": "[[€3.00|Tres euros]]" },
-            { "id": "o3", "text": "[[€4.50|Cuatro euros cincuenta]]" }
+            {
+              "id": "o1",
+              "text": "[[€5.30|Cinco euros treinta]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[€3.00|Tres euros]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[€4.50|Cuatro euros cincuenta]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
@@ -552,7 +963,7 @@
         {
           "interaction_id": "U8_I50",
           "type": "transformation",
-          "prompt_es": "Completa con el número en inglés según el menú:",
+          "prompt_es": "Completa con el número en inglés según el menú: ([[coffee|café]])",
           "stimulus_en": "A coffee costs one euro and (cincuenta) ________ cents.",
           "correct_answer": "fifty",
           "mastery_tag": "reading"
@@ -560,7 +971,7 @@
         {
           "interaction_id": "U8_I51",
           "type": "short_writing",
-          "prompt_es": "¿Cuántos años tiene el café? Escribe la respuesta en inglés.",
+          "prompt_es": "¿Cuántos años tiene el café? Escribe la respuesta en inglés. ([[number|número]])",
           "correct_answer": "Twenty years old",
           "mastery_tag": "reading"
         },
@@ -569,13 +980,34 @@
           "type": "reorder_words",
           "prompt_es": "Ordena las palabras para preguntar el precio del pastel:",
           "options": [
-            { "id": "w0", "text": "How" },
-            { "id": "w1", "text": "much" },
-            { "id": "w2", "text": "is" },
-            { "id": "w3", "text": "the" },
-            { "id": "w4", "text": "cake?" }
+            {
+              "id": "w0",
+              "text": "How"
+            },
+            {
+              "id": "w1",
+              "text": "[[much|mucho]]"
+            },
+            {
+              "id": "w2",
+              "text": "is"
+            },
+            {
+              "id": "w3",
+              "text": "the"
+            },
+            {
+              "id": "w4",
+              "text": "cake?"
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "reading"
         },
         {
@@ -583,9 +1015,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué responde el camarero cuando le preguntan el precio del pastel?",
           "options": [
-            { "id": "o1", "text": "[[It's four euros.|Son cuatro euros.]]" },
-            { "id": "o2", "text": "[[It's five euros.|Son cinco euros.]]" },
-            { "id": "o3", "text": "[[It's three euros.|Son tres euros.]]" }
+            {
+              "id": "o1",
+              "text": "[[It's four euros.|Son cuatro euros.]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[It's five euros.|Son cinco euros.]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[It's three euros.|Son tres euros.]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "reading"
@@ -595,25 +1036,46 @@
           "type": "matching",
           "prompt_es": "Une el producto con su precio según el menú:",
           "pairs": [
-            { "id": "p0", "left": "[[Coffee|Café]]", "right": "€0.60" },
-            { "id": "p1", "left": "[[Water|Agua]]", "right": "€3.00" },
-            { "id": "p2", "left": "[[Cake|Pastel]]", "right": "€1.50" },
-            { "id": "p3", "left": "[[Orange juice|Zumo de naranja]]", "right": "€2.00" }
+            {
+              "id": "p0",
+              "left": "[[Coffee|Café]]",
+              "right": "€0.60"
+            },
+            {
+              "id": "p1",
+              "left": "[[Water|Agua]]",
+              "right": "€3.00"
+            },
+            {
+              "id": "p2",
+              "left": "[[Cake|Pastel]]",
+              "right": "€1.50"
+            },
+            {
+              "id": "p3",
+              "left": "[[Orange juice|Zumo de naranja]]",
+              "right": "€2.00"
+            }
           ],
-          "correct_answer": { "p0": "p2", "p1": "p0", "p2": "p1", "p3": "p3" },
+          "correct_answer": {
+            "p0": "p2",
+            "p1": "p0",
+            "p2": "p1",
+            "p3": "p3"
+          },
           "mastery_tag": "reading"
         },
         {
           "interaction_id": "U8_I55",
           "type": "true_false",
-          "prompt_es": "¿Es verdad que el sándwich solo cuesta dos euros?",
+          "prompt_es": "¿Es verdad que el sándwich solo cuesta dos euros? ([[number|número]])",
           "correct_answer": false,
           "mastery_tag": "reading"
         },
         {
           "interaction_id": "U8_I56",
           "type": "short_writing",
-          "prompt_es": "Escribe en inglés cuánto cuesta el zumo de naranja.",
+          "prompt_es": "Escribe en inglés cuánto cuesta el zumo de naranja. ([[number|número]])",
           "correct_answer": "Two euros",
           "mastery_tag": "reading"
         },
@@ -622,9 +1084,18 @@
           "type": "multiple_choice",
           "prompt_es": "Si compras un té y un pastel, ¿cuánto pagas en total?",
           "options": [
-            { "id": "o1", "text": "[[Four euros twenty cents|Cuatro euros veinte céntimos]]" },
-            { "id": "o2", "text": "[[Four euros fifty cents|Cuatro euros cincuenta céntimos]]" },
-            { "id": "o3", "text": "[[Five euros|Cinco euros]]" }
+            {
+              "id": "o1",
+              "text": "[[Four euros twenty cents|Cuatro euros veinte céntimos]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Four euros fifty cents|Cuatro euros cincuenta céntimos]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Five euros|Cinco euros]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading"
@@ -634,20 +1105,45 @@
           "type": "reorder_words",
           "prompt_es": "Ordena las palabras para decir cuánto cuesta el café:",
           "options": [
-            { "id": "w0", "text": "The" },
-            { "id": "w1", "text": "coffee" },
-            { "id": "w2", "text": "costs" },
-            { "id": "w3", "text": "one" },
-            { "id": "w4", "text": "euro" },
-            { "id": "w5", "text": "fifty." }
+            {
+              "id": "w0",
+              "text": "The"
+            },
+            {
+              "id": "w1",
+              "text": "[[coffee|café]]"
+            },
+            {
+              "id": "w2",
+              "text": "costs"
+            },
+            {
+              "id": "w3",
+              "text": "one"
+            },
+            {
+              "id": "w4",
+              "text": "euro"
+            },
+            {
+              "id": "w5",
+              "text": "fifty."
+            }
           ],
-          "correct_answer": ["w0", "w1", "w2", "w3", "w4", "w5"],
+          "correct_answer": [
+            "w0",
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5"
+          ],
           "mastery_tag": "reading"
         },
         {
           "interaction_id": "U8_I59",
           "type": "transformation",
-          "prompt_es": "Completa la pregunta en inglés:",
+          "prompt_es": "Completa la pregunta en inglés: ([[much|mucho]])",
           "stimulus_en": "________ much is the sandwich?",
           "correct_answer": "How",
           "mastery_tag": "grammar"
@@ -657,9 +1153,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la forma correcta de decir el precio €4.50 en inglés?",
           "options": [
-            { "id": "o1", "text": "[[Forty-five euros|Cuarenta y cinco euros]]" },
-            { "id": "o2", "text": "[[Four euros fifty cents|Cuatro euros cincuenta céntimos]]" },
-            { "id": "o3", "text": "[[Four fifty euros|Cuatro cincuenta euros]]" }
+            {
+              "id": "o1",
+              "text": "[[Forty-five euros|Cuarenta y cinco euros]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Four euros fifty cents|Cuatro euros cincuenta céntimos]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Four fifty euros|Cuatro cincuenta euros]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "grammar"

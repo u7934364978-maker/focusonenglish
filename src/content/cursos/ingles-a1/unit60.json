@@ -49,7 +49,7 @@
         {
           "interaction_id": "U60_I2",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Completa con la forma correcta: ([[cheese|queso]])",
           "stimulus_en": "I have (algo de) ________ cheese.",
           "correct_answer": "some",
           "mastery_tag": "grammar"
@@ -57,14 +57,14 @@
         {
           "interaction_id": "U60_I3",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Describe health issues.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Describe health issues.\" ([[review|repaso]])",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I4",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[review|repaso]])",
           "options": [
             {
               "id": "w1",
@@ -94,7 +94,7 @@
         {
           "interaction_id": "U60_I5",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
           "stimulus_es": "Comida",
           "correct_answer": "Food",
           "mastery_tag": "vocabulary"
@@ -102,7 +102,7 @@
         {
           "interaction_id": "U60_I6",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Dinero' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Dinero' en inglés? ([[review|repaso]])",
           "options": [
             {
               "id": "o2",
@@ -157,7 +157,7 @@
         {
           "interaction_id": "U60_I8",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Completa con la forma correcta: ([[milk|leche]])",
           "stimulus_en": "How (mucho) ________ milk?",
           "correct_answer": "much",
           "mastery_tag": "grammar"
@@ -165,14 +165,14 @@
         {
           "interaction_id": "U60_I9",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"In order a restaurant\"",
+          "prompt_es": "¿Es correcta esta frase?: \"In order a restaurant\" ([[review|repaso]])",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I10",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[review|repaso]])",
           "options": [
             {
               "id": "w0",
@@ -202,7 +202,7 @@
         {
           "interaction_id": "U60_I11",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
           "stimulus_es": "Dinero",
           "correct_answer": "Money",
           "mastery_tag": "vocabulary"
@@ -210,7 +210,7 @@
         {
           "interaction_id": "U60_I12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Salud' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Salud' en inglés? ([[review|repaso]])",
           "options": [
             {
               "id": "o1",
@@ -265,7 +265,7 @@
         {
           "interaction_id": "U60_I14",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Completa con la forma correcta: ([[cheese|queso]])",
           "stimulus_en": "I have (algo de) ________ cheese.",
           "correct_answer": "some",
           "mastery_tag": "grammar"
@@ -273,14 +273,14 @@
         {
           "interaction_id": "U60_I15",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Manage money and payments.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Manage money and payments.\" ([[and|y]])",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I16",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[review|repaso]])",
           "options": [
             {
               "id": "w3",
@@ -315,7 +315,7 @@
         {
           "interaction_id": "U60_I17",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
           "stimulus_es": "Salud",
           "correct_answer": "Health",
           "mastery_tag": "vocabulary"
@@ -323,7 +323,7 @@
         {
           "interaction_id": "U60_I18",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Compras' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Compras' en inglés? ([[review|repaso]])",
           "options": [
             {
               "id": "o1",
@@ -378,7 +378,7 @@
         {
           "interaction_id": "U60_I20",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Completa con la forma correcta: ([[milk|leche]])",
           "stimulus_en": "How (mucho) ________ milk?",
           "correct_answer": "much",
           "mastery_tag": "grammar"
@@ -386,14 +386,14 @@
         {
           "interaction_id": "U60_I21",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"About talk shopping and food\"",
+          "prompt_es": "¿Es correcta esta frase?: \"About talk shopping and food\" ([[and|y]])",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I22",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[review|repaso]])",
           "options": [
             {
               "id": "w3",
@@ -428,7 +428,7 @@
         {
           "interaction_id": "U60_I23",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
           "stimulus_es": "Compras",
           "correct_answer": "Shopping",
           "mastery_tag": "vocabulary"
@@ -436,7 +436,7 @@
         {
           "interaction_id": "U60_I24",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Restaurante' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Restaurante' en inglés? ([[review|repaso]])",
           "options": [
             {
               "id": "o3",
@@ -491,7 +491,7 @@
         {
           "interaction_id": "U60_I26",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Completa con la forma correcta: ([[cheese|queso]])",
           "stimulus_en": "I have (algo de) ________ cheese.",
           "correct_answer": "some",
           "mastery_tag": "grammar"
@@ -499,14 +499,14 @@
         {
           "interaction_id": "U60_I27",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This is the final review.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"This is the final review.\" ([[review|repaso]])",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I28",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[review|repaso]])",
           "options": [
             {
               "id": "w2",
@@ -531,7 +531,7 @@
         {
           "interaction_id": "U60_I29",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
           "stimulus_es": "Restaurante",
           "correct_answer": "Restaurant",
           "mastery_tag": "vocabulary"
@@ -539,7 +539,7 @@
         {
           "interaction_id": "U60_I30",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Comida' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Comida' en inglés? ([[review|repaso]])",
           "options": [
             {
               "id": "o2",
@@ -594,7 +594,7 @@
         {
           "interaction_id": "U60_I32",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Completa con la forma correcta: ([[milk|leche]])",
           "stimulus_en": "How (mucho) ________ milk?",
           "correct_answer": "much",
           "mastery_tag": "grammar"
@@ -602,14 +602,14 @@
         {
           "interaction_id": "U60_I33",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Health describe issues\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Health describe issues\" ([[review|repaso]])",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I34",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[review|repaso]])",
           "options": [
             {
               "id": "w2",
@@ -639,7 +639,7 @@
         {
           "interaction_id": "U60_I35",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
           "stimulus_es": "Comida",
           "correct_answer": "Food",
           "mastery_tag": "vocabulary"
@@ -647,7 +647,7 @@
         {
           "interaction_id": "U60_I36",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Dinero' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Dinero' en inglés? ([[review|repaso]])",
           "options": [
             {
               "id": "o1",
@@ -702,7 +702,7 @@
         {
           "interaction_id": "U60_I38",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Completa con la forma correcta: ([[cheese|queso]])",
           "stimulus_en": "I have (algo de) ________ cheese.",
           "correct_answer": "some",
           "mastery_tag": "grammar"
@@ -710,14 +710,14 @@
         {
           "interaction_id": "U60_I39",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Order in a restaurant.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Order in a restaurant.\" ([[review|repaso]])",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I40",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[review|repaso]])",
           "options": [
             {
               "id": "w3",
@@ -747,7 +747,7 @@
         {
           "interaction_id": "U60_I41",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
           "stimulus_es": "Dinero",
           "correct_answer": "Money",
           "mastery_tag": "vocabulary"
@@ -755,7 +755,7 @@
         {
           "interaction_id": "U60_I42",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Salud' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Salud' en inglés? ([[review|repaso]])",
           "options": [
             {
               "id": "o3",
@@ -810,7 +810,7 @@
         {
           "interaction_id": "U60_I44",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Completa con la forma correcta: ([[milk|leche]])",
           "stimulus_en": "How (mucho) ________ milk?",
           "correct_answer": "much",
           "mastery_tag": "grammar"
@@ -818,14 +818,14 @@
         {
           "interaction_id": "U60_I45",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Money manage and payments\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Money manage and payments\" ([[and|y]])",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I46",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[review|repaso]])",
           "options": [
             {
               "id": "w3",
@@ -860,7 +860,7 @@
         {
           "interaction_id": "U60_I47",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
           "stimulus_es": "Salud",
           "correct_answer": "Health",
           "mastery_tag": "vocabulary"
@@ -868,7 +868,7 @@
         {
           "interaction_id": "U60_I48",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Compras' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Compras' en inglés? ([[review|repaso]])",
           "options": [
             {
               "id": "o1",
@@ -923,7 +923,7 @@
         {
           "interaction_id": "U60_I50",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Completa con la forma correcta: ([[cheese|queso]])",
           "stimulus_en": "I have (algo de) ________ cheese.",
           "correct_answer": "some",
           "mastery_tag": "grammar"
@@ -931,14 +931,14 @@
         {
           "interaction_id": "U60_I51",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Talk about shopping and food.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Talk about shopping and food.\" ([[and|y]])",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I52",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[review|repaso]])",
           "options": [
             {
               "id": "w0",
@@ -973,7 +973,7 @@
         {
           "interaction_id": "U60_I53",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
           "stimulus_es": "Compras",
           "correct_answer": "Shopping",
           "mastery_tag": "vocabulary"
@@ -981,7 +981,7 @@
         {
           "interaction_id": "U60_I54",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Restaurante' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Restaurante' en inglés? ([[review|repaso]])",
           "options": [
             {
               "id": "o3",
@@ -1036,7 +1036,7 @@
         {
           "interaction_id": "U60_I56",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Completa con la forma correcta: ([[milk|leche]])",
           "stimulus_en": "How (mucho) ________ milk?",
           "correct_answer": "much",
           "mastery_tag": "grammar"
@@ -1044,14 +1044,14 @@
         {
           "interaction_id": "U60_I57",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Is this the final review\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Is this the final review\" ([[review|repaso]])",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U60_I58",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[review|repaso]])",
           "options": [
             {
               "id": "w0",
@@ -1076,7 +1076,7 @@
         {
           "interaction_id": "U60_I59",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
           "stimulus_es": "Restaurante",
           "correct_answer": "Restaurant",
           "mastery_tag": "vocabulary"
@@ -1084,7 +1084,7 @@
         {
           "interaction_id": "U60_I60",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Comida' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Comida' en inglés? ([[review|repaso]])",
           "options": [
             {
               "id": "o1",
@@ -1111,7 +1111,7 @@
         {
           "interaction_id": "U60_L5_I1",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[review|repaso]])",
           "audio_url": "/audio/courses/ingles-a1/unit60/lesson5-task-1.mp3",
           "transcript_template": "The [[food|]] is here.",
           "correct_answer": "food",
@@ -1125,7 +1125,7 @@
         {
           "interaction_id": "U60_L5_I2",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[review|repaso]])",
           "audio_url": "/audio/courses/ingles-a1/unit60/lesson5-task-2.mp3",
           "transcript_template": "The [[shopping|]] is here.",
           "correct_answer": "shopping",
@@ -1139,7 +1139,7 @@
         {
           "interaction_id": "U60_L5_I3",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[review|repaso]])",
           "audio_url": "/audio/courses/ingles-a1/unit60/lesson5-task-3.mp3",
           "transcript_template": "The [[restaurant|]] is here.",
           "correct_answer": "restaurant",
@@ -1153,7 +1153,7 @@
         {
           "interaction_id": "U60_L5_I4",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[review|repaso]])",
           "audio_url": "/audio/courses/ingles-a1/unit60/lesson5-task-4.mp3",
           "transcript_template": "The [[cooking|]] is here.",
           "correct_answer": "cooking",
@@ -1167,7 +1167,7 @@
         {
           "interaction_id": "U60_L5_I5",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[review|repaso]])",
           "audio_url": "/audio/courses/ingles-a1/unit60/lesson5-task-5.mp3",
           "transcript_template": "The [[health|]] is here.",
           "correct_answer": "health",
@@ -1181,7 +1181,7 @@
         {
           "interaction_id": "U60_L5_I6",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[review|repaso]])",
           "audio_url": "/audio/courses/ingles-a1/unit60/lesson5-task-6.mp3",
           "transcript_template": "The [[money|]] is here.",
           "correct_answer": "money",
@@ -1195,7 +1195,7 @@
         {
           "interaction_id": "U60_L5_I7",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[review|repaso]])",
           "audio_url": "/audio/courses/ingles-a1/unit60/lesson5-task-7.mp3",
           "transcript_template": "The [[supermarket|]] is here.",
           "correct_answer": "supermarket",
@@ -1209,7 +1209,7 @@
         {
           "interaction_id": "U60_L5_I8",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[review|repaso]])",
           "title": "Pronunciación: Module 6 Review",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1248,7 +1248,7 @@
         {
           "interaction_id": "U60_L5_I9",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[review|repaso]])",
           "title": "Pronunciación: Module 6 Review",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1287,7 +1287,7 @@
         {
           "interaction_id": "U60_L5_I10",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[review|repaso]])",
           "title": "Pronunciación: Module 6 Review",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1326,7 +1326,7 @@
         {
           "interaction_id": "U60_L5_I11",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[review|repaso]])",
           "title": "Pronunciación: Module 6 Review",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1365,7 +1365,7 @@
         {
           "interaction_id": "U60_L5_I12",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[review|repaso]])",
           "title": "Pronunciación: Module 6 Review",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1404,7 +1404,7 @@
         {
           "interaction_id": "U60_L5_I13",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[review|repaso]])",
           "title": "Pronunciación: Module 6 Review",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1443,7 +1443,7 @@
         {
           "interaction_id": "U60_L5_I14",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[review|repaso]])",
           "title": "Pronunciación: Module 6 Review",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1482,7 +1482,7 @@
         {
           "interaction_id": "U60_L5_I15",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[review|repaso]])",
           "title": "Pronunciación: Module 6 Review",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [

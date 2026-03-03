@@ -20,7 +20,7 @@
         {
           "interaction_id": "A1_U56_B1_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Dónde guardas la leche?",
+          "prompt_es": "¿Dónde guardas la leche? ([[fridge|nevera]])",
           "options": [
             {
               "id": "o1",
@@ -85,7 +85,7 @@
         {
           "interaction_id": "A1_U56_B1_I3",
           "type": "short_writing",
-          "prompt_es": "Escribe 'encimera' en inglés:",
+          "prompt_es": "Escribe 'encimera' en inglés: ([[oven|horno]])",
           "stimulus_es": "Encimera",
           "correct_answer": "Counter",
           "mastery_tag": "vocabulary",
@@ -98,7 +98,7 @@
         {
           "interaction_id": "A1_U56_B1_I4",
           "type": "multiple_choice",
-          "prompt_es": "¿Dónde pones los platos sucios?",
+          "prompt_es": "¿Dónde pones los platos sucios? ([[sink|fregadero]])",
           "options": [
             {
               "id": "o1",
@@ -130,7 +130,7 @@
         {
           "interaction_id": "A1_U56_B2_I1",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'El café está EN el armario'",
+          "prompt_es": "Completa: 'El café está EN el armario' ([[coffee|café]])",
           "stimulus_en": "The coffee is ________ the cupboard.",
           "correct_answer": "in",
           "mastery_tag": "grammar",
@@ -151,7 +151,7 @@
             },
             {
               "id": "w2",
-              "text": "cup"
+              "text": "[[cup|taza]]"
             },
             {
               "id": "w3",
@@ -188,7 +188,7 @@
         {
           "interaction_id": "A1_U56_B2_I3",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué significa 'under the sink'?",
+          "prompt_es": "¿Qué significa 'under the sink'? ([[sink|fregadero]])",
           "options": [
             {
               "id": "o1",
@@ -214,7 +214,7 @@
         {
           "interaction_id": "A1_U56_B2_I4",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'La mesa está AL LADO de la ventana'",
+          "prompt_es": "Completa: 'La mesa está AL LADO de la ventana' ([[oven|horno]])",
           "stimulus_en": "The table is ________ ________ the window.",
           "correct_answer": "next to",
           "mastery_tag": "grammar",
@@ -272,7 +272,7 @@
         {
           "interaction_id": "A1_U56_B3_I2",
           "type": "multiple_choice",
-          "prompt_es": "¿Dónde guardas los cubiertos?",
+          "prompt_es": "¿Dónde guardas los cubiertos? ([[draw|dibujar]])",
           "options": [
             {
               "id": "o1",
@@ -298,7 +298,7 @@
         {
           "interaction_id": "A1_U56_B3_I3",
           "type": "short_writing",
-          "prompt_es": "Escribe 'estante' en inglés:",
+          "prompt_es": "Escribe 'estante' en inglés: ([[oven|horno]])",
           "stimulus_es": "Estante",
           "correct_answer": "Shelf",
           "mastery_tag": "vocabulary",
@@ -311,7 +311,7 @@
         {
           "interaction_id": "A1_U56_B3_I4",
           "type": "true_false",
-          "prompt_es": "'Cupboard' se usa para guardar platos y vasos.",
+          "prompt_es": "'Cupboard' se usa para guardar platos y vasos. ([[oven|horno]])",
           "correct_answer": true,
           "mastery_tag": "vocabulary",
           "complexity": 1,
@@ -329,7 +329,7 @@
         {
           "interaction_id": "A1_U56_B4_I2",
           "type": "fill_blanks",
-          "prompt_es": "Completa con preposiciones:",
+          "prompt_es": "Completa con preposiciones: ([[fridge|nevera]])",
           "stimulus_en": "The milk is ________ the fridge and the cups are ________ the shelf.",
           "correct_answer": "in, on",
           "master_tag": "grammar",
@@ -341,7 +341,7 @@
         {
           "interaction_id": "A1_U56_B4_I3",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'El microondas está sobre la encimera'",
+          "prompt_es": "Traduce: 'El microondas está sobre la encimera' ([[oven|horno]])",
           "stimulus_es": "The microwave is on the counter.",
           "correct_answer": "The microwave is on the counter",
           "mastery_tag": "grammar",
@@ -354,7 +354,7 @@
         {
           "interaction_id": "A1_U56_B4_I4",
           "type": "multiple_choice",
-          "prompt_es": "¿Dónde cocinas una pizza?",
+          "prompt_es": "¿Dónde cocinas una pizza? ([[oven|horno]])",
           "options": [
             {
               "id": "o1",
@@ -386,7 +386,7 @@
         {
           "interaction_id": "U56_I101",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[fridge|nevera]])",
           "stimulus_en": "The milk is in the fridge.",
           "correct_answer": "The milk is in the fridge.",
           "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-1.mp3",
@@ -400,7 +400,7 @@
         {
           "interaction_id": "U56_I102",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[oven|horno]])",
           "stimulus_en": "Put it in the oven.",
           "correct_answer": "Put it in the oven.",
           "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-2.mp3",
@@ -414,7 +414,7 @@
         {
           "interaction_id": "U56_I103",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[shelf|estantería]])",
           "stimulus_en": "The cups are on the shelf.",
           "correct_answer": "The cups are on the shelf.",
           "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-3.mp3",
@@ -428,7 +428,7 @@
         {
           "interaction_id": "U56_I104",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[microwave|microondas]])",
           "stimulus_en": "Where is the microwave?",
           "correct_answer": "Where is the microwave?",
           "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-4.mp3",
@@ -442,7 +442,7 @@
         {
           "interaction_id": "U56_I105",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[sink|fregadero]])",
           "stimulus_en": "Wash the dishes in the sink.",
           "correct_answer": "Wash the dishes in the sink.",
           "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-5.mp3",
@@ -456,7 +456,7 @@
         {
           "interaction_id": "U56_I106",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[draw|dibujar]])",
           "stimulus_en": "The forks are in the drawer.",
           "correct_answer": "The forks are in the drawer.",
           "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-6.mp3",
@@ -470,7 +470,7 @@
         {
           "interaction_id": "U56_I107",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[clean|limpiar]])",
           "stimulus_en": "I need a clean cupboard.",
           "correct_answer": "I need a clean cupboard.",
           "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-7.mp3",
@@ -484,7 +484,7 @@
         {
           "interaction_id": "U56_I108",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[oven|horno]])",
           "title": "Pronunciación: Fridge",
           "instructions": "La 'dg' suena como /dʒ/.",
           "targetSentences": [
@@ -523,7 +523,7 @@
         {
           "interaction_id": "U56_I109",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[oven|horno]])",
           "title": "Pronunciación: Microwave",
           "instructions": "Escucha y repite la 'i' larga.",
           "targetSentences": [
@@ -562,7 +562,7 @@
         {
           "interaction_id": "U56_I110",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[oven|horno]])",
           "title": "Pronunciación: Cupboard",
           "instructions": "La 'p' es silenciosa.",
           "targetSentences": [
@@ -601,7 +601,7 @@
         {
           "interaction_id": "U56_I111",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[oven|horno]])",
           "title": "Pronunciación: Sink",
           "instructions": "Escucha y repite la 'i' corta.",
           "targetSentences": [
@@ -640,7 +640,7 @@
         {
           "interaction_id": "U56_I112",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[oven|horno]])",
           "title": "Pronunciación: Oven",
           "instructions": "La 'o' inicial suena como /ʌ/.",
           "targetSentences": [
@@ -679,7 +679,7 @@
         {
           "interaction_id": "U56_I113",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[oven|horno]])",
           "title": "Pronunciación: Drawer",
           "instructions": "Escucha y repite.",
           "targetSentences": [
@@ -718,7 +718,7 @@
         {
           "interaction_id": "U56_I114",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[oven|horno]])",
           "title": "Pronunciación: Shelf",
           "instructions": "Escucha y repite la 'sh' inicial.",
           "targetSentences": [
@@ -757,7 +757,7 @@
         {
           "interaction_id": "U56_I115",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[oven|horno]])",
           "title": "Pronunciación: Kitchen",
           "instructions": "Escucha y repite.",
           "targetSentences": [
@@ -805,18 +805,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Cup"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "[[Menu|menu]]"
             },
             {
               "id": "o3",
-              "text": "Menu"
+              "text": "Plate"
+            },
+            {
+              "id": "o4",
+              "text": "Microwave"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -826,18 +830,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Waiter"
+              "text": "Microwave"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Waiter|waiter]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Knife"
+            },
+            {
+              "id": "o4",
+              "text": "Bowl"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -847,18 +855,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Cup"
             },
             {
               "id": "o2",
-              "text": "Order"
+              "text": "Oven"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Microwave"
+            },
+            {
+              "id": "o4",
+              "text": "[[Order|order]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -868,15 +880,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Oven"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Bowl"
             },
             {
               "id": "o3",
-              "text": "Bill"
+              "text": "[[Bill|bill]]"
+            },
+            {
+              "id": "o4",
+              "text": "Cup"
             }
           ],
           "correct_answer": "o3",
@@ -889,15 +905,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Water"
+              "text": "[[Water|agua]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Plate"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Cup"
+            },
+            {
+              "id": "o4",
+              "text": "Spoon"
             }
           ],
           "correct_answer": "o1",
@@ -910,18 +930,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Food|food]]"
             },
             {
               "id": "o2",
-              "text": "Food"
+              "text": "Spoon"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Oven"
+            },
+            {
+              "id": "o4",
+              "text": "Knife"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -931,18 +955,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Knife"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "[[Table|table]]"
             },
             {
               "id": "o3",
-              "text": "Table"
+              "text": "Sink"
+            },
+            {
+              "id": "o4",
+              "text": "Microwave"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -952,18 +980,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Menu"
+              "text": "Kettle"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Menu|menu]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Cup"
+            },
+            {
+              "id": "o4",
+              "text": "Microwave"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -973,18 +1005,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Waiter|waiter]]"
             },
             {
               "id": "o2",
-              "text": "Waiter"
+              "text": "Fridge"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Oven"
+            },
+            {
+              "id": "o4",
+              "text": "Sink"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -994,15 +1030,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Cup"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Fridge"
             },
             {
               "id": "o3",
-              "text": "Order"
+              "text": "[[Order|order]]"
+            },
+            {
+              "id": "o4",
+              "text": "Plate"
             }
           ],
           "correct_answer": "o3",
@@ -1015,18 +1055,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Bill"
+              "text": "Cup"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Bill|bill]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Bowl"
+            },
+            {
+              "id": "o4",
+              "text": "Plate"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1036,15 +1080,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Fridge"
             },
             {
               "id": "o2",
-              "text": "Water"
+              "text": "[[Water|agua]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Kettle"
+            },
+            {
+              "id": "o4",
+              "text": "Fork"
             }
           ],
           "correct_answer": "o2",
@@ -1057,15 +1105,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Sink"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Oven"
             },
             {
               "id": "o3",
-              "text": "Food"
+              "text": "[[Food|food]]"
+            },
+            {
+              "id": "o4",
+              "text": "Microwave"
             }
           ],
           "correct_answer": "o3",
@@ -1078,18 +1130,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Table"
+              "text": "Fridge"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Table|table]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Fork"
+            },
+            {
+              "id": "o4",
+              "text": "Cup"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1099,18 +1155,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Knife"
             },
             {
               "id": "o2",
-              "text": "Menu"
+              "text": "Oven"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Fridge"
+            },
+            {
+              "id": "o4",
+              "text": "[[Menu|menu]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1120,18 +1180,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Knife"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Bowl"
             },
             {
               "id": "o3",
-              "text": "Waiter"
+              "text": "Sink"
+            },
+            {
+              "id": "o4",
+              "text": "[[Waiter|waiter]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1141,18 +1205,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Order"
+              "text": "Pan"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Spoon"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Plate"
+            },
+            {
+              "id": "o4",
+              "text": "[[Order|order]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1162,15 +1230,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Kettle"
             },
             {
               "id": "o2",
-              "text": "Bill"
+              "text": "[[Bill|bill]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Microwave"
+            },
+            {
+              "id": "o4",
+              "text": "Bowl"
             }
           ],
           "correct_answer": "o2",
@@ -1183,15 +1255,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Bowl"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Plate"
             },
             {
               "id": "o3",
-              "text": "Water"
+              "text": "[[Water|agua]]"
+            },
+            {
+              "id": "o4",
+              "text": "Kettle"
             }
           ],
           "correct_answer": "o3",
@@ -1204,18 +1280,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Food"
+              "text": "Oven"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Fork"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Food|food]]"
+            },
+            {
+              "id": "o4",
+              "text": "Microwave"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1225,18 +1305,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Oven"
             },
             {
               "id": "o2",
-              "text": "Table"
+              "text": "Cup"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Fork"
+            },
+            {
+              "id": "o4",
+              "text": "[[Table|table]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1246,18 +1330,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "[[Menu|menu]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Sink"
             },
             {
               "id": "o3",
-              "text": "Menu"
+              "text": "Plate"
+            },
+            {
+              "id": "o4",
+              "text": "Oven"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1267,18 +1355,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Waiter"
+              "text": "Bowl"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Pan"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Microwave"
+            },
+            {
+              "id": "o4",
+              "text": "[[Waiter|waiter]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1288,15 +1380,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Pan"
             },
             {
               "id": "o2",
-              "text": "Order"
+              "text": "[[Order|order]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Cup"
+            },
+            {
+              "id": "o4",
+              "text": "Microwave"
             }
           ],
           "correct_answer": "o2",
@@ -1309,18 +1405,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Sink"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Bill|bill]]"
             },
             {
               "id": "o3",
-              "text": "Bill"
+              "text": "Cup"
+            },
+            {
+              "id": "o4",
+              "text": "Microwave"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1330,18 +1430,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Water"
+              "text": "Plate"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Cup"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Microwave"
+            },
+            {
+              "id": "o4",
+              "text": "[[Water|agua]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1351,15 +1455,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Pan"
             },
             {
               "id": "o2",
-              "text": "Food"
+              "text": "[[Food|food]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Cup"
+            },
+            {
+              "id": "o4",
+              "text": "Plate"
             }
           ],
           "correct_answer": "o2",
@@ -1372,18 +1480,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Knife"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Table|table]]"
             },
             {
               "id": "o3",
-              "text": "Table"
+              "text": "Bowl"
+            },
+            {
+              "id": "o4",
+              "text": "Kettle"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1393,18 +1505,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Menu"
+              "text": "Cup"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Sink"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Menu|menu]]"
+            },
+            {
+              "id": "o4",
+              "text": "Fridge"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1414,18 +1530,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Plate"
             },
             {
               "id": "o2",
-              "text": "Waiter"
+              "text": "Bowl"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Sink"
+            },
+            {
+              "id": "o4",
+              "text": "[[Waiter|waiter]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         }
       ]
@@ -1437,7 +1557,7 @@
         {
           "interaction_id": "U56_L5_I1",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[oven|horno]])",
           "audio_url": "/audio/courses/ingles-a1/unit56/lesson5-task-1.mp3",
           "transcript_template": "The [[menu|]] is here.",
           "correct_answer": "menu",
@@ -1451,7 +1571,7 @@
         {
           "interaction_id": "U56_L5_I2",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[oven|horno]])",
           "audio_url": "/audio/courses/ingles-a1/unit56/lesson5-task-2.mp3",
           "transcript_template": "The [[waiter|]] is here.",
           "correct_answer": "waiter",
@@ -1465,7 +1585,7 @@
         {
           "interaction_id": "U56_L5_I3",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[oven|horno]])",
           "audio_url": "/audio/courses/ingles-a1/unit56/lesson5-task-3.mp3",
           "transcript_template": "The [[order|]] is here.",
           "correct_answer": "order",
@@ -1479,7 +1599,7 @@
         {
           "interaction_id": "U56_L5_I4",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[oven|horno]])",
           "audio_url": "/audio/courses/ingles-a1/unit56/lesson5-task-4.mp3",
           "transcript_template": "The [[bill|]] is here.",
           "correct_answer": "bill",
@@ -1493,7 +1613,7 @@
         {
           "interaction_id": "U56_L5_I5",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[oven|horno]])",
           "audio_url": "/audio/courses/ingles-a1/unit56/lesson5-task-5.mp3",
           "transcript_template": "The [[water|]] is here.",
           "correct_answer": "water",
@@ -1507,7 +1627,7 @@
         {
           "interaction_id": "U56_L5_I6",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[oven|horno]])",
           "audio_url": "/audio/courses/ingles-a1/unit56/lesson5-task-6.mp3",
           "transcript_template": "The [[food|]] is here.",
           "correct_answer": "food",
@@ -1521,7 +1641,7 @@
         {
           "interaction_id": "U56_L5_I7",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[oven|horno]])",
           "audio_url": "/audio/courses/ingles-a1/unit56/lesson5-task-7.mp3",
           "transcript_template": "The [[table|]] is here.",
           "correct_answer": "table",
@@ -1535,7 +1655,7 @@
         {
           "interaction_id": "U56_L5_I8",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[oven|horno]])",
           "title": "Pronunciación: At the Restaurant",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1574,7 +1694,7 @@
         {
           "interaction_id": "U56_L5_I9",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[oven|horno]])",
           "title": "Pronunciación: At the Restaurant",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1613,7 +1733,7 @@
         {
           "interaction_id": "U56_L5_I10",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[oven|horno]])",
           "title": "Pronunciación: At the Restaurant",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1652,7 +1772,7 @@
         {
           "interaction_id": "U56_L5_I11",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[oven|horno]])",
           "title": "Pronunciación: At the Restaurant",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1691,7 +1811,7 @@
         {
           "interaction_id": "U56_L5_I12",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[oven|horno]])",
           "title": "Pronunciación: At the Restaurant",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1730,7 +1850,7 @@
         {
           "interaction_id": "U56_L5_I13",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[oven|horno]])",
           "title": "Pronunciación: At the Restaurant",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1769,7 +1889,7 @@
         {
           "interaction_id": "U56_L5_I14",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[oven|horno]])",
           "title": "Pronunciación: At the Restaurant",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1808,7 +1928,7 @@
         {
           "interaction_id": "U56_L5_I15",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[oven|horno]])",
           "title": "Pronunciación: At the Restaurant",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [

@@ -23,12 +23,33 @@
           "type": "matching",
           "prompt_es": "Une los colores con su traducción:",
           "pairs": [
-            { "id": "p1", "left": "[[Red|Rojo]]", "right": "Azul" },
-            { "id": "p2", "left": "[[Blue|Azul]]", "right": "Verde" },
-            { "id": "p3", "left": "[[Green|Verde]]", "right": "Amarillo" },
-            { "id": "p4", "left": "[[Yellow|Amarillo]]", "right": "Rojo" }
+            {
+              "id": "p1",
+              "left": "[[Red|Rojo]]",
+              "right": "Azul"
+            },
+            {
+              "id": "p2",
+              "left": "[[Blue|Azul]]",
+              "right": "Verde"
+            },
+            {
+              "id": "p3",
+              "left": "[[Green|Verde]]",
+              "right": "Amarillo"
+            },
+            {
+              "id": "p4",
+              "left": "[[Yellow|Amarillo]]",
+              "right": "Rojo"
+            }
           ],
-          "correct_answer": { "p1": "p4", "p2": "p1", "p3": "p2", "p4": "p3" },
+          "correct_answer": {
+            "p1": "p4",
+            "p2": "p1",
+            "p3": "p2",
+            "p4": "p3"
+          },
           "mastery_tag": "vocabulary",
           "complexity": 1
         },
@@ -37,12 +58,33 @@
           "type": "matching",
           "prompt_es": "Une los colores con su traducción:",
           "pairs": [
-            { "id": "p1", "left": "[[Black|Negro]]", "right": "Blanco" },
-            { "id": "p2", "left": "[[White|Blanco]]", "right": "Marrón" },
-            { "id": "p3", "left": "[[Brown|Marrón]]", "right": "Naranja" },
-            { "id": "p4", "left": "[[Orange|Naranja]]", "right": "Negro" }
+            {
+              "id": "p1",
+              "left": "[[Black|Negro]]",
+              "right": "Blanco"
+            },
+            {
+              "id": "p2",
+              "left": "[[White|Blanco]]",
+              "right": "Marrón"
+            },
+            {
+              "id": "p3",
+              "left": "[[Brown|Marrón]]",
+              "right": "Naranja"
+            },
+            {
+              "id": "p4",
+              "left": "[[Orange|Naranja]]",
+              "right": "Negro"
+            }
           ],
-          "correct_answer": { "p1": "p4", "p2": "p1", "p3": "p2", "p4": "p3" },
+          "correct_answer": {
+            "p1": "p4",
+            "p2": "p1",
+            "p3": "p2",
+            "p4": "p3"
+          },
           "mastery_tag": "vocabulary",
           "complexity": 1
         },
@@ -51,12 +93,33 @@
           "type": "matching",
           "prompt_es": "Une los colores con su traducción:",
           "pairs": [
-            { "id": "p1", "left": "[[Purple|Morado]]", "right": "Gris" },
-            { "id": "p2", "left": "[[Pink|Rosa]]", "right": "Celeste" },
-            { "id": "p3", "left": "[[Grey|Gris]]", "right": "Morado" },
-            { "id": "p4", "left": "[[Light blue|Celeste]]", "right": "Rosa" }
+            {
+              "id": "p1",
+              "left": "[[Purple|Morado]]",
+              "right": "Gris"
+            },
+            {
+              "id": "p2",
+              "left": "[[Pink|Rosa]]",
+              "right": "Celeste"
+            },
+            {
+              "id": "p3",
+              "left": "[[Grey|Gris]]",
+              "right": "Morado"
+            },
+            {
+              "id": "p4",
+              "left": "[[Light blue|Celeste]]",
+              "right": "Rosa"
+            }
           ],
-          "correct_answer": { "p1": "p3", "p2": "p4", "p3": "p1", "p4": "p2" },
+          "correct_answer": {
+            "p1": "p3",
+            "p2": "p4",
+            "p3": "p1",
+            "p4": "p2"
+          },
           "mastery_tag": "vocabulary",
           "complexity": 1
         },
@@ -65,9 +128,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿De qué color es el cielo en un día soleado?",
           "options": [
-            { "id": "o1", "text": "[[red|rojo]]" },
-            { "id": "o2", "text": "[[blue|azul]]" },
-            { "id": "o3", "text": "[[black|negro]]" }
+            {
+              "id": "o1",
+              "text": "[[red|rojo]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[blue|azul]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[black|negro]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "vocabulary",
@@ -78,9 +150,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿De qué color es el chocolate?",
           "options": [
-            { "id": "o1", "text": "[[orange|naranja]]" },
-            { "id": "o2", "text": "[[green|verde]]" },
-            { "id": "o3", "text": "[[brown|marrón]]" }
+            {
+              "id": "o1",
+              "text": "[[orange|naranja]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[green|verde]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[brown|marrón]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary",
@@ -91,9 +172,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '[[pink|rosa]]' en [[English|inglés]]?",
           "options": [
-            { "id": "o1", "text": "[[pink|rosa]]" },
-            { "id": "o2", "text": "[[purple|morado]]" },
-            { "id": "o3", "text": "[[grey|gris]]" }
+            {
+              "id": "o1",
+              "text": "[[pink|rosa]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[purple|morado]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[grey|gris]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary",
@@ -104,9 +194,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '[[purple|morado]]' en [[English|inglés]]?",
           "options": [
-            { "id": "o1", "text": "[[pink|rosa]]" },
-            { "id": "o2", "text": "[[purple|morado]]" },
-            { "id": "o3", "text": "[[orange|naranja]]" }
+            {
+              "id": "o1",
+              "text": "[[pink|rosa]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[purple|morado]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[orange|naranja]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "vocabulary",
@@ -166,12 +265,33 @@
           "type": "matching",
           "prompt_es": "Une los adjetivos con su traducción:",
           "pairs": [
-            { "id": "p1", "left": "[[Tall|Alto/a]]", "right": "Bajo/a" },
-            { "id": "p2", "left": "[[Short|Bajo/a]]", "right": "Viejo/a" },
-            { "id": "p3", "left": "[[Young|Joven]]", "right": "Alto/a" },
-            { "id": "p4", "left": "[[Old|Viejo/a]]", "right": "Joven" }
+            {
+              "id": "p1",
+              "left": "[[Tall|Alto/a]]",
+              "right": "Bajo/a"
+            },
+            {
+              "id": "p2",
+              "left": "[[Short|Bajo/a]]",
+              "right": "Viejo/a"
+            },
+            {
+              "id": "p3",
+              "left": "[[Young|Joven]]",
+              "right": "Alto/a"
+            },
+            {
+              "id": "p4",
+              "left": "[[Old|Viejo/a]]",
+              "right": "Joven"
+            }
           ],
-          "correct_answer": { "p1": "p3", "p2": "p1", "p3": "p4", "p4": "p2" },
+          "correct_answer": {
+            "p1": "p3",
+            "p2": "p1",
+            "p3": "p4",
+            "p4": "p2"
+          },
           "mastery_tag": "vocabulary",
           "complexity": 1
         },
@@ -180,12 +300,33 @@
           "type": "matching",
           "prompt_es": "Une los adjetivos con su traducción:",
           "pairs": [
-            { "id": "p1", "left": "[[Thin|Delgado/a]]", "right": "Gordo/a" },
-            { "id": "p2", "left": "[[Fat|Gordo/a]]", "right": "Pequeño/a" },
-            { "id": "p3", "left": "[[Big|Grande]]", "right": "Delgado/a" },
-            { "id": "p4", "left": "[[Small|Pequeño/a]]", "right": "Grande" }
+            {
+              "id": "p1",
+              "left": "[[Thin|Delgado/a]]",
+              "right": "Gordo/a"
+            },
+            {
+              "id": "p2",
+              "left": "[[Fat|Gordo/a]]",
+              "right": "Pequeño/a"
+            },
+            {
+              "id": "p3",
+              "left": "[[Big|Grande]]",
+              "right": "Delgado/a"
+            },
+            {
+              "id": "p4",
+              "left": "[[Small|Pequeño/a]]",
+              "right": "Grande"
+            }
           ],
-          "correct_answer": { "p1": "p3", "p2": "p1", "p3": "p4", "p4": "p2" },
+          "correct_answer": {
+            "p1": "p3",
+            "p2": "p1",
+            "p3": "p4",
+            "p4": "p2"
+          },
           "mastery_tag": "vocabulary",
           "complexity": 1
         },
@@ -194,9 +335,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '[[tall|alto]]' en [[English|inglés]]?",
           "options": [
-            { "id": "o1", "text": "[[tall|alto]]" },
-            { "id": "o2", "text": "[[short|bajo]]" },
-            { "id": "o3", "text": "[[fat|gordo]]" }
+            {
+              "id": "o1",
+              "text": "[[tall|alto]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[short|bajo]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[fat|gordo]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary",
@@ -216,9 +366,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es el opuesto de '[[young|joven]]'?",
           "options": [
-            { "id": "o1", "text": "[[young|joven]]" },
-            { "id": "o2", "text": "[[old|viejo]]" },
-            { "id": "o3", "text": "[[thin|delgado]]" }
+            {
+              "id": "o1",
+              "text": "[[young|joven]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[old|viejo]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[thin|delgado]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "vocabulary",
@@ -229,9 +388,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '[[fat|gordo]]' en [[English|inglés]]?",
           "options": [
-            { "id": "o1", "text": "[[thin|delgado]]" },
-            { "id": "o2", "text": "[[big|grande]]" },
-            { "id": "o3", "text": "[[fat|gordo]]" }
+            {
+              "id": "o1",
+              "text": "[[thin|delgado]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[big|grande]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[fat|gordo]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary",
@@ -274,22 +442,43 @@
         {
           "interaction_id": "U7_I23",
           "type": "sentence_building",
-          "prompt_es": "Ordena la frase: 'Ella es alta y delgada.'",
+          "prompt_es": "Ordena la frase: 'Ella es alta y delgada.' ([[describe|describir]])",
           "words": [
-            { "id": "w1", "text": "[[tall|alta]]" },
-            { "id": "w2", "text": "[[and|y]]" },
-            { "id": "w3", "text": "[[She|Ella]]" },
-            { "id": "w4", "text": "[[is|es]]" },
-            { "id": "w5", "text": "[[thin|delgada]]" }
+            {
+              "id": "w1",
+              "text": "[[tall|alta]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[and|y]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[She|Ella]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[is|es]]"
+            },
+            {
+              "id": "w5",
+              "text": "[[thin|delgada]]"
+            }
           ],
-          "correct_answer": ["w3", "w4", "w1", "w2", "w5"],
+          "correct_answer": [
+            "w3",
+            "w4",
+            "w1",
+            "w2",
+            "w5"
+          ],
           "mastery_tag": "syntax",
           "complexity": 2
         },
         {
           "interaction_id": "U7_I24",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Mi abuelo es viejo y bajo.'",
+          "prompt_es": "Traduce: 'Mi abuelo es viejo y bajo.' ([[describe|describir]])",
           "stimulus_es": "Mi abuelo es viejo y bajo.",
           "correct_answer": "My grandfather is old and short.",
           "mastery_tag": "vocabulary",
@@ -306,12 +495,33 @@
           "type": "matching",
           "prompt_es": "Une los adjetivos de pelo con su traducción:",
           "pairs": [
-            { "id": "p1", "left": "[[Long|Largo]]", "right": "Rizado" },
-            { "id": "p2", "left": "[[Short|Corto]]", "right": "Liso" },
-            { "id": "p3", "left": "[[Curly|Rizado]]", "right": "Largo" },
-            { "id": "p4", "left": "[[Straight|Liso]]", "right": "Corto" }
+            {
+              "id": "p1",
+              "left": "[[Long|Largo]]",
+              "right": "Rizado"
+            },
+            {
+              "id": "p2",
+              "left": "[[Short|Corto]]",
+              "right": "Liso"
+            },
+            {
+              "id": "p3",
+              "left": "[[Curly|Rizado]]",
+              "right": "Largo"
+            },
+            {
+              "id": "p4",
+              "left": "[[Straight|Liso]]",
+              "right": "Corto"
+            }
           ],
-          "correct_answer": { "p1": "p3", "p2": "p4", "p3": "p1", "p4": "p2" },
+          "correct_answer": {
+            "p1": "p3",
+            "p2": "p4",
+            "p3": "p1",
+            "p4": "p2"
+          },
           "mastery_tag": "vocabulary",
           "complexity": 1
         },
@@ -320,9 +530,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '[[long|largo]]' refiriéndose al pelo?",
           "options": [
-            { "id": "o1", "text": "[[long|largo]]" },
-            { "id": "o2", "text": "[[short|corto]]" },
-            { "id": "o3", "text": "[[curly|rizado]]" }
+            {
+              "id": "o1",
+              "text": "[[long|largo]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[short|corto]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[curly|rizado]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "vocabulary",
@@ -333,9 +552,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dicen los 'ojos azules' en [[English|inglés]]?",
           "options": [
-            { "id": "o1", "text": "[[green|verdes]] [[eyes|ojos]]" },
-            { "id": "o2", "text": "[[blue|azules]] [[eyes|ojos]]" },
-            { "id": "o3", "text": "[[brown|marrones]] [[eyes|ojos]]" }
+            {
+              "id": "o1",
+              "text": "[[green|verdes]] [[eyes|ojos]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[blue|azules]] [[eyes|ojos]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[brown|marrones]] [[eyes|ojos]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "vocabulary",
@@ -355,9 +583,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '[[blonde|rubio]]' en [[English|inglés]]?",
           "options": [
-            { "id": "o1", "text": "[[brown|marrón]]" },
-            { "id": "o2", "text": "[[black|negro]]" },
-            { "id": "o3", "text": "[[blonde|rubio]]" }
+            {
+              "id": "o1",
+              "text": "[[brown|marrón]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[black|negro]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[blonde|rubio]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "vocabulary",
@@ -400,36 +637,74 @@
         {
           "interaction_id": "U7_I34",
           "type": "sentence_building",
-          "prompt_es": "Ordena la frase: 'Ella tiene pelo largo marrón.'",
+          "prompt_es": "Ordena la frase: 'Ella tiene pelo largo marrón.' ([[describe|describir]])",
           "words": [
-            { "id": "w1", "text": "[[long|largo]]" },
-            { "id": "w2", "text": "[[hair|pelo]]" },
-            { "id": "w3", "text": "[[She|Ella]]" },
-            { "id": "w4", "text": "[[has|tiene]]" },
-            { "id": "w5", "text": "[[brown|marrón]]" }
+            {
+              "id": "w1",
+              "text": "[[long|largo]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[hair|pelo]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[She|Ella]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[has|tiene]]"
+            },
+            {
+              "id": "w5",
+              "text": "[[brown|marrón]]"
+            }
           ],
-          "correct_answer": ["w3", "w4", "w1", "w5", "w2"],
+          "correct_answer": [
+            "w3",
+            "w4",
+            "w1",
+            "w5",
+            "w2"
+          ],
           "mastery_tag": "syntax",
           "complexity": 2
         },
         {
           "interaction_id": "U7_I35",
           "type": "sentence_building",
-          "prompt_es": "Ordena la frase: 'Él tiene ojos azules.'",
+          "prompt_es": "Ordena la frase: 'Él tiene ojos azules.' ([[describe|describir]])",
           "words": [
-            { "id": "w1", "text": "[[blue|azules]]" },
-            { "id": "w2", "text": "[[eyes|ojos]]" },
-            { "id": "w3", "text": "[[He|Él]]" },
-            { "id": "w4", "text": "[[has|tiene]]" }
+            {
+              "id": "w1",
+              "text": "[[blue|azules]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[eyes|ojos]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[He|Él]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[has|tiene]]"
+            }
           ],
-          "correct_answer": ["w3", "w4", "w1", "w2"],
+          "correct_answer": [
+            "w3",
+            "w4",
+            "w1",
+            "w2"
+          ],
           "mastery_tag": "syntax",
           "complexity": 2
         },
         {
           "interaction_id": "U7_I36",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Él tiene ojos verdes.'",
+          "prompt_es": "Traduce: 'Él tiene ojos verdes.' ([[describe|describir]])",
           "stimulus_es": "Él tiene ojos verdes.",
           "correct_answer": "He has green eyes.",
           "mastery_tag": "vocabulary",
@@ -446,12 +721,33 @@
           "type": "matching",
           "prompt_es": "Une la expresión en [[English|inglés]] con su equivalente en español:",
           "pairs": [
-            { "id": "p1", "left": "[[A red car|Un coche rojo]]", "right": "Ojos grandes" },
-            { "id": "p2", "left": "[[Big eyes|Ojos grandes]]", "right": "Hombre joven" },
-            { "id": "p3", "left": "[[Long hair|Pelo largo]]", "right": "Un coche rojo" },
-            { "id": "p4", "left": "[[Young man|Hombre joven]]", "right": "Pelo largo" }
+            {
+              "id": "p1",
+              "left": "[[A red car|Un coche rojo]]",
+              "right": "Ojos grandes"
+            },
+            {
+              "id": "p2",
+              "left": "[[Big eyes|Ojos grandes]]",
+              "right": "Hombre joven"
+            },
+            {
+              "id": "p3",
+              "left": "[[Long hair|Pelo largo]]",
+              "right": "Un coche rojo"
+            },
+            {
+              "id": "p4",
+              "left": "[[Young man|Hombre joven]]",
+              "right": "Pelo largo"
+            }
           ],
-          "correct_answer": { "p1": "p3", "p2": "p1", "p3": "p4", "p4": "p2" },
+          "correct_answer": {
+            "p1": "p3",
+            "p2": "p1",
+            "p3": "p4",
+            "p4": "p2"
+          },
           "mastery_tag": "grammar",
           "complexity": 2
         },
@@ -460,9 +756,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice 'un coche rojo' en [[English|inglés]]?",
           "options": [
-            { "id": "o1", "text": "[[a car red|un coche rojo]]" },
-            { "id": "o2", "text": "[[a red car|un coche rojo]]" },
-            { "id": "o3", "text": "[[red a car|un coche rojo]]" }
+            {
+              "id": "o1",
+              "text": "[[a car red|un coche rojo]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[a red car|un coche rojo]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[red a car|un coche rojo]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "grammar",
@@ -473,9 +778,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es el orden correcto del adjetivo en [[English|inglés]]?",
           "options": [
-            { "id": "o1", "text": "[[a big house|una casa grande]]" },
-            { "id": "o2", "text": "[[a house big|una casa grande]]" },
-            { "id": "o3", "text": "[[big house a|una casa grande]]" }
+            {
+              "id": "o1",
+              "text": "[[a big house|una casa grande]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[a house big|una casa grande]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[big house a|una casa grande]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar",
@@ -486,9 +800,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la frase correcta?",
           "options": [
-            { "id": "o1", "text": "[[dog big a|un perro grande]]" },
-            { "id": "o2", "text": "[[a dog big|un perro grande]]" },
-            { "id": "o3", "text": "[[a big dog|un perro grande]]" }
+            {
+              "id": "o1",
+              "text": "[[dog big a|un perro grande]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[a dog big|un perro grande]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[a big dog|un perro grande]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "grammar",
@@ -540,38 +863,84 @@
         {
           "interaction_id": "U7_I46",
           "type": "sentence_building",
-          "prompt_es": "Ordena la frase: 'Tengo un gato negro pequeño.'",
+          "prompt_es": "Ordena la frase: 'Tengo un gato negro pequeño.' ([[describe|describir]])",
           "words": [
-            { "id": "w1", "text": "[[small|pequeño]]" },
-            { "id": "w2", "text": "[[cat|gato]]" },
-            { "id": "w3", "text": "[[I|Yo]]" },
-            { "id": "w4", "text": "[[have|tengo]]" },
-            { "id": "w5", "text": "[[a|un]]" },
-            { "id": "w6", "text": "[[black|negro]]" }
+            {
+              "id": "w1",
+              "text": "[[small|pequeño]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[cat|gato]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[I|Yo]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[have|tengo]]"
+            },
+            {
+              "id": "w5",
+              "text": "[[a|un]]"
+            },
+            {
+              "id": "w6",
+              "text": "[[black|negro]]"
+            }
           ],
-          "correct_answer": ["w3", "w4", "w5", "w1", "w6", "w2"],
+          "correct_answer": [
+            "w3",
+            "w4",
+            "w5",
+            "w1",
+            "w6",
+            "w2"
+          ],
           "mastery_tag": "syntax",
           "complexity": 2
         },
         {
           "interaction_id": "U7_I47",
           "type": "sentence_building",
-          "prompt_es": "Ordena la frase: 'Ella tiene ojos azules preciosos.'",
+          "prompt_es": "Ordena la frase: 'Ella tiene ojos azules preciosos.' ([[describe|describir]])",
           "words": [
-            { "id": "w1", "text": "[[blue|azules]]" },
-            { "id": "w2", "text": "[[eyes|ojos]]" },
-            { "id": "w3", "text": "[[She|Ella]]" },
-            { "id": "w4", "text": "[[has|tiene]]" },
-            { "id": "w5", "text": "[[beautiful|preciosos]]" }
+            {
+              "id": "w1",
+              "text": "[[blue|azules]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[eyes|ojos]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[She|Ella]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[has|tiene]]"
+            },
+            {
+              "id": "w5",
+              "text": "[[beautiful|preciosos]]"
+            }
           ],
-          "correct_answer": ["w3", "w4", "w5", "w1", "w2"],
+          "correct_answer": [
+            "w3",
+            "w4",
+            "w5",
+            "w1",
+            "w2"
+          ],
           "mastery_tag": "syntax",
           "complexity": 2
         },
         {
           "interaction_id": "U7_I48",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Él tiene pelo negro corto.'",
+          "prompt_es": "Traduce: 'Él tiene pelo negro corto.' ([[describe|describir]])",
           "stimulus_es": "Él tiene pelo negro corto.",
           "correct_answer": "He has short black hair.",
           "mastery_tag": "grammar",
@@ -587,7 +956,7 @@
           "interaction_id": "U7_I49",
           "type": "reading_phase",
           "prompt_es": "[[Read|Lee]] el [[text|texto]] [[carefully|con atención]].",
-          "transcript": "[[My|Mi]] [[best|mejor]] [[friend|amigo]] [[is|se llama]] [[Carlos|Carlos]]. [[He|Él]] [[is|es]] [[tall|alto]] [[and|y]] [[thin|delgado]]. [[He|Él]] [[has|tiene]] [[short|corto]] [[black|negro]] [[hair|pelo]] [[and|y]] [[brown|marrones]] [[eyes|ojos]]. [[His|Su]] [[sister|hermana]] [[is|es]] [[short|baja]] [[and|y]] [[young|joven]]. [[She|Ella]] [[has|tiene]] [[long|largo]] [[blonde|rubio]] [[hair|pelo]] [[and|y]] [[blue|azules]] [[eyes|ojos]]. [[They|Ellos]] [[have|tienen]] [[a|un]] [[small|pequeño]] [[white|blanco]] [[dog|perro]].",
+          "transcript": "My best [[friend|amigo]] is [[Carlos|Carlos]]. He is twenty years old. He is [[tall|alto]] and [[slim|delgado]]. He has [[short|corto]] [[dark|oscuro]] [[hair|pelo]] and big [[brown|marrones]] [[eyes|ojos]]. He wears [[glasses|gafas]]. He is always [[happy|feliz]] and [[friendly|amable]] — everyone likes him. Carlos is very [[sporty|deportivo]]. He plays [[basketball|baloncesto]] every weekend and goes [[running|a correr]] three times a week. He also likes listening to music and reading [[novels|novelas]]. His favourite subject is [[Maths|Matemáticas]] because he loves solving problems. We study at the same university and spend a lot of time together. He helps me with Maths and I help him with English. We are great friends!",
           "mastery_tag": "reading",
           "complexity": 1
         },
@@ -596,9 +965,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿De qué color es el pelo de Carlos?",
           "options": [
-            { "id": "o1", "text": "[[black|negro]]" },
-            { "id": "o2", "text": "[[brown|marrón]]" },
-            { "id": "o3", "text": "[[blonde|rubio]]" }
+            {
+              "id": "o1",
+              "text": "[[black|negro]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[brown|marrón]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[blonde|rubio]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading",
@@ -609,9 +987,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo es el pelo de Carlos?",
           "options": [
-            { "id": "o1", "text": "[[long|largo]]" },
-            { "id": "o2", "text": "[[short|corto]]" },
-            { "id": "o3", "text": "[[curly|rizado]]" }
+            {
+              "id": "o1",
+              "text": "[[long|largo]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[short|corto]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[curly|rizado]]"
+            }
           ],
           "correct_answer": "o2",
           "mastery_tag": "reading",
@@ -622,9 +1009,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿De qué color son los ojos de Carlos?",
           "options": [
-            { "id": "o1", "text": "[[brown|marrones]]" },
-            { "id": "o2", "text": "[[blue|azules]]" },
-            { "id": "o3", "text": "[[green|verdes]]" }
+            {
+              "id": "o1",
+              "text": "[[brown|marrones]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[blue|azules]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[green|verdes]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading",
@@ -678,9 +1074,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo es la hermana de Carlos?",
           "options": [
-            { "id": "o1", "text": "[[tall and old|alta y mayor]]" },
-            { "id": "o2", "text": "[[fat and tall|gorda y alta]]" },
-            { "id": "o3", "text": "[[short and young|baja y joven]]" }
+            {
+              "id": "o1",
+              "text": "[[tall and old|alta y mayor]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[fat and tall|gorda y alta]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[short and young|baja y joven]]"
+            }
           ],
           "correct_answer": "o3",
           "mastery_tag": "reading",
@@ -689,7 +1094,7 @@
         {
           "interaction_id": "U7_I59",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Ella tiene pelo rubio largo.'",
+          "prompt_es": "Traduce: 'Ella tiene pelo rubio largo.' ([[describe|describir]])",
           "stimulus_es": "Ella tiene pelo rubio largo.",
           "correct_answer": "She has long blonde hair.",
           "mastery_tag": "reading",
@@ -698,15 +1103,36 @@
         {
           "interaction_id": "U7_I60",
           "type": "sentence_building",
-          "prompt_es": "Ordena la frase: 'Él tiene pelo negro corto.'",
+          "prompt_es": "Ordena la frase: 'Él tiene pelo negro corto.' ([[describe|describir]])",
           "words": [
-            { "id": "w1", "text": "[[short|corto]]" },
-            { "id": "w2", "text": "[[hair|pelo]]" },
-            { "id": "w3", "text": "[[He|Él]]" },
-            { "id": "w4", "text": "[[has|tiene]]" },
-            { "id": "w5", "text": "[[black|negro]]" }
+            {
+              "id": "w1",
+              "text": "[[short|corto]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[hair|pelo]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[He|Él]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[has|tiene]]"
+            },
+            {
+              "id": "w5",
+              "text": "[[black|negro]]"
+            }
           ],
-          "correct_answer": ["w3", "w4", "w1", "w5", "w2"],
+          "correct_answer": [
+            "w3",
+            "w4",
+            "w1",
+            "w5",
+            "w2"
+          ],
           "mastery_tag": "syntax",
           "complexity": 2
         }

@@ -82,18 +82,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[On the sofa|En el sofá]]"
+              "text": "[[On the bed|En la cama]]"
             },
             {
               "id": "o2",
-              "text": "[[On the bed|En la cama]]"
+              "text": "[[On the sofa|En el sofá]]"
             },
             {
               "id": "o3",
               "text": "[[On the chair|En la silla]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary",
           "complexity": 1
         },
@@ -135,7 +135,7 @@
         {
           "interaction_id": "U22_I5",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'I sit on the ___ to watch TV.' (sofá)",
+          "prompt_es": "Completa: 'I sit on the ___ to watch TV.' (sofá) ([[health|salud]])",
           "correct_answer": "sofa",
           "mastery_tag": "vocabulary",
           "complexity": 1
@@ -337,7 +337,7 @@
         {
           "interaction_id": "U22_I14",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'I wash my clothes in the ___.' (lavadora)",
+          "prompt_es": "Completa: 'I wash my clothes in the ___.' (lavadora) ([[clothes|ropa]])",
           "correct_answer": "washing machine",
           "mastery_tag": "vocabulary",
           "complexity": 1
@@ -424,7 +424,7 @@
         {
           "interaction_id": "U22_I18",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'I wash my hands in the ___.' (lavabo)",
+          "prompt_es": "Completa: 'I wash my hands in the ___.' (lavabo) ([[health|salud]])",
           "correct_answer": "sink",
           "mastery_tag": "vocabulary",
           "complexity": 1
@@ -454,7 +454,7 @@
         {
           "interaction_id": "U22_I20",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'I cook pasta in a ___.' (sartén/olla → pot)",
+          "prompt_es": "Completa: 'I cook pasta in a ___.' (sartén/olla → pot) ([[cook|cocinar]])",
           "correct_answer": "pot",
           "mastery_tag": "vocabulary",
           "complexity": 2
@@ -569,7 +569,7 @@
         {
           "interaction_id": "U22_I25",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'That lamp is ___.' (de él — his)",
+          "prompt_es": "Completa: 'That lamp is ___.' (de él — his) ([[lamp|lámpara]])",
           "correct_answer": "his",
           "mastery_tag": "grammar",
           "complexity": 1
@@ -599,7 +599,7 @@
         {
           "interaction_id": "U22_I27",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'The blue carpet is ___.' (mía — mine)",
+          "prompt_es": "Completa: 'The blue carpet is ___.' (mía — mine) ([[carpet|alfombra]])",
           "correct_answer": "mine",
           "mastery_tag": "grammar",
           "complexity": 1
@@ -629,7 +629,7 @@
         {
           "interaction_id": "U22_I29",
           "type": "sentence_building",
-          "prompt_es": "Forma: 'Ese escritorio no es mío.'",
+          "prompt_es": "Forma: 'Ese escritorio no es mío.' ([[health|salud]])",
           "words": [
             {
               "id": "w1",
@@ -745,7 +745,7 @@
         {
           "interaction_id": "U22_I34",
           "type": "sentence_building",
-          "prompt_es": "Forma: 'En la cocina hay una nevera y un microondas.'",
+          "prompt_es": "Forma: 'En la cocina hay una nevera y un microondas.' ([[health|salud]])",
           "words": [
             {
               "id": "w1",
@@ -863,7 +863,7 @@
         {
           "interaction_id": "U22_I37",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'I study at my ___.' (escritorio)",
+          "prompt_es": "Completa: 'I study at my ___.' (escritorio) ([[health|salud]])",
           "correct_answer": "desk",
           "mastery_tag": "vocabulary",
           "complexity": 1
@@ -959,7 +959,7 @@
         {
           "interaction_id": "U22_I42",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuánto cuesta el sofá de tres asientos?",
+          "prompt_es": "¿Cuánto cuesta el sofá de tres asientos? ([[health|salud]])",
           "options": [
             {
               "id": "o1",
@@ -1003,7 +1003,7 @@
         {
           "interaction_id": "U22_I44",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué incluye la cama en oferta?",
+          "prompt_es": "¿Qué incluye la cama en oferta? ([[health|salud]])",
           "options": [
             {
               "id": "o1",
@@ -1025,7 +1025,7 @@
         {
           "interaction_id": "U22_I45",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuánto cuesta la mesa de café?",
+          "prompt_es": "¿Cuánto cuesta la mesa de café? ([[health|salud]])",
           "options": [
             {
               "id": "o1",
@@ -1047,7 +1047,7 @@
         {
           "interaction_id": "U22_I46",
           "type": "fill_blanks",
-          "prompt_es": "Según el catálogo, la lámpara es perfecta para cualquier ___.",
+          "prompt_es": "Según el catálogo, la lámpara es perfecta para cualquier ___. ([[health|salud]])",
           "correct_answer": "room",
           "mastery_tag": "reading",
           "complexity": 1
@@ -1055,7 +1055,7 @@
         {
           "interaction_id": "U22_I47",
           "type": "multiple_choice",
-          "prompt_es": "¿La cama es del dormitorio o del salón según el catálogo?",
+          "prompt_es": "¿La cama es del dormitorio o del salón según el catálogo? ([[health|salud]])",
           "options": [
             {
               "id": "o1",
@@ -1077,7 +1077,7 @@
         {
           "interaction_id": "U22_I48",
           "type": "sentence_building",
-          "prompt_es": "Forma: '¿Cuánto cuesta el sofá?'",
+          "prompt_es": "Forma: '¿Cuánto cuesta el sofá?' ([[health|salud]])",
           "words": [
             {
               "id": "w1",
@@ -1117,18 +1117,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[The sofa|El sofá]]"
+              "text": "[[The lamp|La lámpara]]"
             },
             {
               "id": "o2",
-              "text": "[[The lamp|La lámpara]]"
+              "text": "[[The sofa|El sofá]]"
             },
             {
               "id": "o3",
               "text": "[[The bed|La cama]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "reading",
           "complexity": 2
         },
@@ -1139,6 +1139,241 @@
           "correct_answer": "sofa",
           "mastery_tag": "reading",
           "complexity": 2
+        }
+      ]
+    },
+    {
+      "block_id": "B22_REC",
+      "title": "Block 6: Recycling – Grammar & Vocabulary Review",
+      "content": [
+        {
+          "interaction_id": "A1_U22_B22_REC_MC1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma negativa de \"[[I have|tengo]]\"?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[I don't have|No tengo]]"
+            },
+            {
+              "id": "o2",
+              "text": "I not have"
+            },
+            {
+              "id": "o3",
+              "text": "I haven't"
+            },
+            {
+              "id": "o4",
+              "text": "I no have"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "present_simple"
+          ]
+        },
+        {
+          "interaction_id": "A1_U22_B22_REC_MC2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué usas para hablar de posesión en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Have|Tener]]"
+            },
+            {
+              "id": "o2",
+              "text": "Is"
+            },
+            {
+              "id": "o3",
+              "text": "Are"
+            },
+            {
+              "id": "o4",
+              "text": "Do"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "verb_have"
+          ]
+        },
+        {
+          "interaction_id": "A1_U22_B22_REC_FB3",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: \"[[Do|¿]] ___ [[you|tú]] [[have|tienes]] [[a car|un coche]]?\"",
+          "stimulus_en": "Do ___ have a car?",
+          "correct_answer": "you",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "verb_have"
+          ]
+        },
+        {
+          "interaction_id": "A1_U22_B22_REC_MC4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la pregunta correcta para \"[[What time is it?|¿Qué hora es?]]\"?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[What time is it?|¿Qué hora es?]]"
+            },
+            {
+              "id": "o2",
+              "text": "How time is?"
+            },
+            {
+              "id": "o3",
+              "text": "When is the time?"
+            },
+            {
+              "id": "o4",
+              "text": "What is time?"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "time"
+          ]
+        },
+        {
+          "interaction_id": "A1_U22_B22_REC_SW5",
+          "type": "short_writing",
+          "prompt_es": "Escribe 3 oraciones sobre lo que tienes en tu [[bag|bolsa]] usando [[I have|tengo]] y [[I don't have|no tengo]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "concept_tags": [
+            "production",
+            "free_writing"
+          ],
+          "example_answer": "I have a notebook and a pen in my bag. I have my phone. I don't have an umbrella."
+        },
+        {
+          "interaction_id": "A1_U22_B22_REC_SW6",
+          "type": "short_writing",
+          "prompt_es": "Describe tu [[neighbourhood|barrio]] usando [[There is|hay]] y [[There are|hay (plural)]]. 3 oraciones mínimo.",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "concept_tags": [
+            "production",
+            "free_writing"
+          ],
+          "example_answer": "There is a big supermarket near my house. There are two parks and a cinema. There isn't a hospital but there is a clinic."
+        }
+      ]
+    },
+    {
+      "block_id": "B22_EX",
+      "title": "Block 7: Extra Practice – Grammar & Vocabulary Review",
+      "content": [
+        {
+          "interaction_id": "A1_U22_B22_EX_MC1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice \"[[second floor|segunda planta]]\" en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Second floor|Segunda planta]]"
+            },
+            {
+              "id": "o2",
+              "text": "Two floor"
+            },
+            {
+              "id": "o3",
+              "text": "Floor second"
+            },
+            {
+              "id": "o4",
+              "text": "Second ground"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "home"
+          ]
+        },
+        {
+          "interaction_id": "A1_U22_B22_EX_MC2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Dónde puedes comprar medicamentos?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Chemist's|Farmacia]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Bakery|Panadería]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Greengrocer's|Frutería]]"
+            },
+            {
+              "id": "o4",
+              "text": "[[Butcher's|Carnicería]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "shops"
+          ]
+        },
+        {
+          "interaction_id": "A1_U22_B22_EX_FB3",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: \"The [[living room|salón]] is ___ [[the|el]] [[kitchen|cocina]].\"",
+          "stimulus_en": "The living room is ___ the kitchen.",
+          "correct_answer": "next to",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "concept_tags": [
+            "prepositions",
+            "home"
+          ]
+        },
+        {
+          "interaction_id": "A1_U22_B22_EX_MC4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la palabra para la habitación donde duermes?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Bedroom|Dormitorio]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Bathroom|Baño]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Kitchen|Cocina]]"
+            },
+            {
+              "id": "o4",
+              "text": "[[Living room|Salón]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "concept_tags": [
+            "home"
+          ]
         }
       ]
     }

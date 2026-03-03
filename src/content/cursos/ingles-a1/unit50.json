@@ -49,7 +49,7 @@
         {
           "interaction_id": "U50_I2",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Completa con la forma correcta: ([[train|tren]])",
           "stimulus_en": "I go (en) ________ train.",
           "correct_answer": "by",
           "mastery_tag": "grammar"
@@ -57,7 +57,7 @@
         {
           "interaction_id": "U50_I3",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Book a hotel room.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Book a hotel room.\" ([[Book|reservar]])",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
@@ -68,7 +68,7 @@
           "options": [
             {
               "id": "w3",
-              "text": "holiday"
+              "text": "[[holiday|vacaciones]]"
             },
             {
               "id": "w1",
@@ -94,7 +94,7 @@
         {
           "interaction_id": "U50_I5",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
           "stimulus_es": "Tiempo",
           "correct_answer": "Weather",
           "mastery_tag": "vocabulary"
@@ -114,7 +114,7 @@
             },
             {
               "id": "o2",
-              "text": "Season"
+              "text": "[[Season|estación]]"
             }
           ],
           "correct_answer": "o2",
@@ -157,7 +157,7 @@
         {
           "interaction_id": "U50_I8",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Completa con la forma correcta: ([[sunny|soleado]])",
           "stimulus_en": "It (ser/estar - ello) ________ sunny.",
           "correct_answer": "is",
           "mastery_tag": "grammar"
@@ -165,14 +165,14 @@
         {
           "interaction_id": "U50_I9",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"For prepare a holiday\"",
+          "prompt_es": "¿Es correcta esta frase?: \"For prepare a holiday\" ([[holiday|vacaciones]])",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U50_I10",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[review|repaso]])",
           "options": [
             {
               "id": "w4",
@@ -217,7 +217,7 @@
         {
           "interaction_id": "U50_I11",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
           "stimulus_es": "Estación",
           "correct_answer": "Season",
           "mastery_tag": "vocabulary"
@@ -233,7 +233,7 @@
             },
             {
               "id": "o3",
-              "text": "Airport"
+              "text": "[[Airport|aeropuerto]]"
             },
             {
               "id": "o2",
@@ -280,7 +280,7 @@
         {
           "interaction_id": "U50_I14",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Completa con la forma correcta: ([[train|tren]])",
           "stimulus_en": "I go (en) ________ train.",
           "correct_answer": "by",
           "mastery_tag": "grammar"
@@ -288,7 +288,7 @@
         {
           "interaction_id": "U50_I15",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This is a review of module five.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"This is a review of module five.\" ([[review|repaso]])",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
@@ -303,7 +303,7 @@
             },
             {
               "id": "w4",
-              "text": "travel"
+              "text": "[[travel|viajar]]"
             },
             {
               "id": "w3",
@@ -330,7 +330,7 @@
         {
           "interaction_id": "U50_I17",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
           "stimulus_es": "Aeropuerto",
           "correct_answer": "Airport",
           "mastery_tag": "vocabulary"
@@ -350,7 +350,7 @@
             },
             {
               "id": "o1",
-              "text": "Travel"
+              "text": "[[Travel|viajar]]"
             }
           ],
           "correct_answer": "o1",
@@ -393,7 +393,7 @@
         {
           "interaction_id": "U50_I20",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Completa con la forma correcta: ([[sunny|soleado]])",
           "stimulus_en": "It (ser/estar - ello) ________ sunny.",
           "correct_answer": "is",
           "mastery_tag": "grammar"
@@ -401,14 +401,14 @@
         {
           "interaction_id": "U50_I21",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"About talk transport and travel\"",
+          "prompt_es": "¿Es correcta esta frase?: \"About talk transport and travel\" ([[and|y]])",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U50_I22",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[review|repaso]])",
           "options": [
             {
               "id": "w1",
@@ -443,7 +443,7 @@
         {
           "interaction_id": "U50_I23",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
           "stimulus_es": "Viaje",
           "correct_answer": "Travel",
           "mastery_tag": "vocabulary"
@@ -455,7 +455,7 @@
           "options": [
             {
               "id": "o3",
-              "text": "Hotel"
+              "text": "[[Hotel|hotel]]"
             },
             {
               "id": "o1",
@@ -506,7 +506,7 @@
         {
           "interaction_id": "U50_I26",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Completa con la forma correcta: ([[train|tren]])",
           "stimulus_en": "I go (en) ________ train.",
           "correct_answer": "by",
           "mastery_tag": "grammar"
@@ -514,7 +514,7 @@
         {
           "interaction_id": "U50_I27",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Describe the weather and seasons.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Describe the weather and seasons.\" ([[and|y]])",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
@@ -525,7 +525,7 @@
           "options": [
             {
               "id": "w0",
-              "text": "Book"
+              "text": "[[Book|reservar]]"
             },
             {
               "id": "w3",
@@ -551,7 +551,7 @@
         {
           "interaction_id": "U50_I29",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
           "stimulus_es": "Hotel",
           "correct_answer": "Hotel",
           "mastery_tag": "vocabulary"
@@ -559,7 +559,7 @@
         {
           "interaction_id": "U50_I30",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Tiempo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Tiempo' en inglés? ([[review|repaso]])",
           "options": [
             {
               "id": "o3",
@@ -614,7 +614,7 @@
         {
           "interaction_id": "U50_I32",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Completa con la forma correcta: ([[sunny|soleado]])",
           "stimulus_en": "It (ser/estar - ello) ________ sunny.",
           "correct_answer": "is",
           "mastery_tag": "grammar"
@@ -622,7 +622,7 @@
         {
           "interaction_id": "U50_I33",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"A book hotel room\"",
+          "prompt_es": "¿Es correcta esta frase?: \"A book hotel room\" ([[book|reservar]])",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
@@ -641,7 +641,7 @@
             },
             {
               "id": "w3",
-              "text": "holiday"
+              "text": "[[holiday|vacaciones]]"
             },
             {
               "id": "w2",
@@ -659,7 +659,7 @@
         {
           "interaction_id": "U50_I35",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
           "stimulus_es": "Tiempo",
           "correct_answer": "Weather",
           "mastery_tag": "vocabulary"
@@ -679,7 +679,7 @@
             },
             {
               "id": "o1",
-              "text": "Season"
+              "text": "[[Season|estación]]"
             }
           ],
           "correct_answer": "o1",
@@ -722,7 +722,7 @@
         {
           "interaction_id": "U50_I38",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Completa con la forma correcta: ([[train|tren]])",
           "stimulus_en": "I go (en) ________ train.",
           "correct_answer": "by",
           "mastery_tag": "grammar"
@@ -730,14 +730,14 @@
         {
           "interaction_id": "U50_I39",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Prepare for a holiday.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Prepare for a holiday.\" ([[holiday|vacaciones]])",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U50_I40",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[review|repaso]])",
           "options": [
             {
               "id": "w5",
@@ -782,7 +782,7 @@
         {
           "interaction_id": "U50_I41",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
           "stimulus_es": "Estación",
           "correct_answer": "Season",
           "mastery_tag": "vocabulary"
@@ -794,7 +794,7 @@
           "options": [
             {
               "id": "o3",
-              "text": "Airport"
+              "text": "[[Airport|aeropuerto]]"
             },
             {
               "id": "o2",
@@ -845,7 +845,7 @@
         {
           "interaction_id": "U50_I44",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Completa con la forma correcta: ([[sunny|soleado]])",
           "stimulus_en": "It (ser/estar - ello) ________ sunny.",
           "correct_answer": "is",
           "mastery_tag": "grammar"
@@ -853,7 +853,7 @@
         {
           "interaction_id": "U50_I45",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Is this a review of module five\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Is this a review of module five\" ([[review|repaso]])",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
@@ -872,7 +872,7 @@
             },
             {
               "id": "w4",
-              "text": "travel"
+              "text": "[[travel|viajar]]"
             },
             {
               "id": "w2",
@@ -895,7 +895,7 @@
         {
           "interaction_id": "U50_I47",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
           "stimulus_es": "Aeropuerto",
           "correct_answer": "Airport",
           "mastery_tag": "vocabulary"
@@ -911,7 +911,7 @@
             },
             {
               "id": "o2",
-              "text": "Travel"
+              "text": "[[Travel|viajar]]"
             },
             {
               "id": "o1",
@@ -958,7 +958,7 @@
         {
           "interaction_id": "U50_I50",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Completa con la forma correcta: ([[train|tren]])",
           "stimulus_en": "I go (en) ________ train.",
           "correct_answer": "by",
           "mastery_tag": "grammar"
@@ -966,14 +966,14 @@
         {
           "interaction_id": "U50_I51",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Talk about transport and travel.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Talk about transport and travel.\" ([[and|y]])",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U50_I52",
           "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta:",
+          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[review|repaso]])",
           "options": [
             {
               "id": "w2",
@@ -1008,7 +1008,7 @@
         {
           "interaction_id": "U50_I53",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
           "stimulus_es": "Viaje",
           "correct_answer": "Travel",
           "mastery_tag": "vocabulary"
@@ -1028,7 +1028,7 @@
             },
             {
               "id": "o3",
-              "text": "Hotel"
+              "text": "[[Hotel|hotel]]"
             }
           ],
           "correct_answer": "o3",
@@ -1071,7 +1071,7 @@
         {
           "interaction_id": "U50_I56",
           "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
+          "prompt_es": "Completa con la forma correcta: ([[sunny|soleado]])",
           "stimulus_en": "It (ser/estar - ello) ________ sunny.",
           "correct_answer": "is",
           "mastery_tag": "grammar"
@@ -1079,7 +1079,7 @@
         {
           "interaction_id": "U50_I57",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"The describe weather and seasons\"",
+          "prompt_es": "¿Es correcta esta frase?: \"The describe weather and seasons\" ([[and|y]])",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
@@ -1090,7 +1090,7 @@
           "options": [
             {
               "id": "w2",
-              "text": "hotel"
+              "text": "[[hotel|hotel]]"
             },
             {
               "id": "w0",
@@ -1116,7 +1116,7 @@
         {
           "interaction_id": "U50_I59",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés:",
+          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
           "stimulus_es": "Hotel",
           "correct_answer": "Hotel",
           "mastery_tag": "vocabulary"
@@ -1124,7 +1124,7 @@
         {
           "interaction_id": "U50_I60",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Tiempo' en inglés?",
+          "prompt_es": "¿Cómo se dice 'Tiempo' en inglés? ([[review|repaso]])",
           "options": [
             {
               "id": "o1",
@@ -1151,7 +1151,7 @@
         {
           "interaction_id": "U50_L5_I1",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[review|repaso]])",
           "audio_url": "/audio/courses/ingles-a1/unit50/lesson5-task-1.mp3",
           "transcript_template": "The [[airport|]] is here.",
           "correct_answer": "airport",
@@ -1165,7 +1165,7 @@
         {
           "interaction_id": "U50_L5_I2",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[review|repaso]])",
           "audio_url": "/audio/courses/ingles-a1/unit50/lesson5-task-2.mp3",
           "transcript_template": "The [[transport|]] is here.",
           "correct_answer": "transport",
@@ -1179,7 +1179,7 @@
         {
           "interaction_id": "U50_L5_I3",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[review|repaso]])",
           "audio_url": "/audio/courses/ingles-a1/unit50/lesson5-task-3.mp3",
           "transcript_template": "The [[weather|]] is here.",
           "correct_answer": "weather",
@@ -1193,7 +1193,7 @@
         {
           "interaction_id": "U50_L5_I4",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[review|repaso]])",
           "audio_url": "/audio/courses/ingles-a1/unit50/lesson5-task-4.mp3",
           "transcript_template": "The [[seasons|]] is here.",
           "correct_answer": "seasons",
@@ -1207,7 +1207,7 @@
         {
           "interaction_id": "U50_L5_I5",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[review|repaso]])",
           "audio_url": "/audio/courses/ingles-a1/unit50/lesson5-task-5.mp3",
           "transcript_template": "The [[hotel|]] is here.",
           "correct_answer": "hotel",
@@ -1221,7 +1221,7 @@
         {
           "interaction_id": "U50_L5_I6",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[review|repaso]])",
           "audio_url": "/audio/courses/ingles-a1/unit50/lesson5-task-6.mp3",
           "transcript_template": "The [[travel|]] is here.",
           "correct_answer": "travel",
@@ -1235,7 +1235,7 @@
         {
           "interaction_id": "U50_L5_I7",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[review|repaso]])",
           "audio_url": "/audio/courses/ingles-a1/unit50/lesson5-task-7.mp3",
           "transcript_template": "The [[packing|]] is here.",
           "correct_answer": "packing",
@@ -1249,7 +1249,7 @@
         {
           "interaction_id": "U50_L5_I8",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[review|repaso]])",
           "title": "Pronunciación: Module 5 Review",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1288,7 +1288,7 @@
         {
           "interaction_id": "U50_L5_I9",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[review|repaso]])",
           "title": "Pronunciación: Module 5 Review",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1327,7 +1327,7 @@
         {
           "interaction_id": "U50_L5_I10",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[review|repaso]])",
           "title": "Pronunciación: Module 5 Review",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1366,7 +1366,7 @@
         {
           "interaction_id": "U50_L5_I11",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[review|repaso]])",
           "title": "Pronunciación: Module 5 Review",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1405,7 +1405,7 @@
         {
           "interaction_id": "U50_L5_I12",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[review|repaso]])",
           "title": "Pronunciación: Module 5 Review",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1444,7 +1444,7 @@
         {
           "interaction_id": "U50_L5_I13",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[review|repaso]])",
           "title": "Pronunciación: Module 5 Review",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1483,7 +1483,7 @@
         {
           "interaction_id": "U50_L5_I14",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[review|repaso]])",
           "title": "Pronunciación: Module 5 Review",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1522,7 +1522,7 @@
         {
           "interaction_id": "U50_L5_I15",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[review|repaso]])",
           "title": "Pronunciación: Module 5 Review",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [

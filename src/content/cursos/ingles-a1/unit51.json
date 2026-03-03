@@ -25,7 +25,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Aisle"
+              "text": "[[Aisle|pasillo]]"
             },
             {
               "id": "o2",
@@ -86,7 +86,7 @@
         {
           "interaction_id": "A1_U51_B1_I3",
           "type": "short_writing",
-          "prompt_es": "Escribe 'recibo' o 'ticket' en inglés:",
+          "prompt_es": "Escribe 'recibo' o 'ticket' en inglés: ([[supermarket|supermercado]])",
           "stimulus_es": "Recibo",
           "correct_answer": "Receipt",
           "mastery_tag": "vocabulary",
@@ -99,7 +99,7 @@
         {
           "interaction_id": "A1_U51_B1_I4",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué usas para llevar mucha compra?",
+          "prompt_es": "¿Qué usas para llevar mucha compra? ([[trolley|carrito]])",
           "options": [
             {
               "id": "o1",
@@ -125,7 +125,7 @@
         {
           "interaction_id": "A1_U51_B1_I5",
           "type": "audio_player",
-          "prompt_es": "Escucha y repite:",
+          "prompt_es": "Escucha y repite: ([[supermarket|supermercado]])",
           "audioUrl": "/audio/courses/ingles-a1/shared/supermarket_vocab.mp3",
           "text": "Aisle, trolley, and checkout.",
           "mastery_tag": "listening",
@@ -144,7 +144,7 @@
         {
           "interaction_id": "A1_U51_B2_I1",
           "type": "fill_blanks",
-          "prompt_es": "Completa la pregunta: '¿Dónde está el pan?'",
+          "prompt_es": "Completa la pregunta: '¿Dónde está el pan?' ([[bread|pan]])",
           "stimulus_en": "Where ________ the bread?",
           "correct_answer": "is",
           "mastery_tag": "grammar",
@@ -173,7 +173,7 @@
             },
             {
               "id": "w4",
-              "text": "aisle"
+              "text": "[[aisle|pasillo]]"
             },
             {
               "id": "w5",
@@ -197,7 +197,7 @@
         {
           "interaction_id": "A1_U51_B2_I3",
           "type": "multiple_choice",
-          "prompt_es": "Si algo está al lado de las manzanas, dices:",
+          "prompt_es": "Si algo está al lado de las manzanas, dices: ([[apple|manzana]])",
           "options": [
             {
               "id": "o1",
@@ -223,7 +223,7 @@
         {
           "interaction_id": "A1_U51_B2_I4",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'Las manzanas están en el estante'",
+          "prompt_es": "Completa: 'Las manzanas están en el estante' ([[apple|manzana]])",
           "stimulus_en": "The apples are ________ the shelf.",
           "correct_answer": "on",
           "mastery_tag": "grammar",
@@ -236,7 +236,7 @@
         {
           "interaction_id": "A1_U51_B2_I5",
           "type": "audio_player",
-          "prompt_es": "Escucha la ubicación:",
+          "prompt_es": "Escucha la ubicación: ([[supermarket|supermercado]])",
           "audioUrl": "/audio/courses/ingles-a1/shared/milk_aisle.mp3",
           "text": "The milk is in aisle three, next to the juice.",
           "mastery_tag": "listening",
@@ -255,7 +255,7 @@
         {
           "interaction_id": "A1_U51_B3_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué dice el cajero al final?",
+          "prompt_es": "¿Qué dice el cajero al final? ([[please|por favor]])",
           "options": [
             {
               "id": "o1",
@@ -281,7 +281,7 @@
         {
           "interaction_id": "A1_U51_B3_I2",
           "type": "true_false",
-          "prompt_es": "La frase 'Put the items in the basket' significa sacar las cosas de la cesta.",
+          "prompt_es": "La frase 'Put the items in the basket' significa sacar las cosas de la cesta. ([[basket|cesta]])",
           "correct_answer": false,
           "mastery_tag": "vocabulary",
           "complexity": 1,
@@ -293,7 +293,7 @@
         {
           "interaction_id": "A1_U51_B3_I3",
           "type": "short_writing",
-          "prompt_es": "Traduce: '¿Necesitas una bolsa?'",
+          "prompt_es": "Traduce: '¿Necesitas una bolsa?' ([[supermarket|supermercado]])",
           "stimulus_es": "Do you need a bag?",
           "correct_answer": "Do you need a bag",
           "mastery_tag": "grammar",
@@ -306,7 +306,7 @@
         {
           "interaction_id": "A1_U51_B3_I4",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Paga en la caja'",
+          "prompt_es": "Ordena: 'Paga en la caja' ([[supermarket|supermercado]])",
           "options": [
             {
               "id": "w1",
@@ -341,7 +341,7 @@
         {
           "interaction_id": "A1_U51_B3_I5",
           "type": "audio_player",
-          "prompt_es": "Escucha y responde:",
+          "prompt_es": "Escucha y responde: ([[supermarket|supermercado]])",
           "audioUrl": "/audio/courses/ingles-a1/shared/cashier_receipt.mp3",
           "text": "Here is your receipt. Have a nice day!",
           "mastery_tag": "listening",
@@ -360,7 +360,7 @@
         {
           "interaction_id": "A1_U51_B4_I2",
           "type": "fill_blanks",
-          "prompt_es": "Completa el texto:",
+          "prompt_es": "Completa el texto: ([[supermarket|supermercado]])",
           "stimulus_en": "I put my groceries in the ________. I pay at the ________.",
           "correct_answer": "basket, checkout",
           "mastery_tag": "vocabulary",
@@ -373,7 +373,7 @@
         {
           "interaction_id": "A1_U51_B4_I3",
           "type": "short_writing",
-          "prompt_es": "Pregunta dónde está la leche:",
+          "prompt_es": "Pregunta dónde está la leche: ([[supermarket|supermercado]])",
           "stimulus_es": "Where is the milk?",
           "correct_answer": "Where is the milk",
           "mastery_tag": "grammar",
@@ -386,7 +386,7 @@
         {
           "interaction_id": "A1_U51_B4_I4",
           "type": "categorization",
-          "prompt_es": "Clasifica los objetos del supermercado:",
+          "prompt_es": "Clasifica los objetos del supermercado: ([[supermarket|supermercado]])",
           "categories": [
             {
               "id": "equipment",
@@ -418,7 +418,7 @@
         {
           "interaction_id": "A1_U51_B4_I5",
           "type": "audio_player",
-          "prompt_es": "Escucha el resumen final:",
+          "prompt_es": "Escucha el resumen final: ([[supermarket|supermercado]])",
           "audioUrl": "/audio/courses/ingles-a1/shared/unit51_summary.mp3",
           "text": "Use a trolley for big shopping, find items in aisles, and get your receipt at the checkout.",
           "mastery_tag": "listening",
@@ -437,7 +437,7 @@
         {
           "interaction_id": "U51_I101",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[trolley|carrito]])",
           "stimulus_en": "I need a shopping trolley.",
           "correct_answer": "I need a shopping trolley.",
           "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-1.mp3",
@@ -451,7 +451,7 @@
         {
           "interaction_id": "U51_I102",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[supermarket|supermercado]])",
           "stimulus_en": "Where is the checkout?",
           "correct_answer": "Where is the checkout?",
           "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-2.mp3",
@@ -465,7 +465,7 @@
         {
           "interaction_id": "U51_I103",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[receipt|recibo]])",
           "stimulus_en": "I have my receipt.",
           "correct_answer": "I have my receipt.",
           "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-3.mp3",
@@ -479,7 +479,7 @@
         {
           "interaction_id": "U51_I104",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[basket|cesta]])",
           "stimulus_en": "Put it in the basket.",
           "correct_answer": "Put it in the basket.",
           "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-4.mp3",
@@ -493,7 +493,7 @@
         {
           "interaction_id": "U51_I105",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[Can|poder]])",
           "stimulus_en": "Can I pay by card?",
           "correct_answer": "Can I pay by card?",
           "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-5.mp3",
@@ -507,7 +507,7 @@
         {
           "interaction_id": "U51_I106",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[aisle|pasillo]])",
           "stimulus_en": "The aisle is very long.",
           "correct_answer": "The aisle is very long.",
           "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-6.mp3",
@@ -521,7 +521,7 @@
         {
           "interaction_id": "U51_I107",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[supermarket|supermercado]])",
           "stimulus_en": "Where is the fruit section?",
           "correct_answer": "Where is the fruit section?",
           "audioUrl": "/audio/courses/ingles-a1/unit51/lesson5-task-7.mp3",
@@ -535,7 +535,7 @@
         {
           "interaction_id": "U51_I108",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[supermarket|supermercado]])",
           "title": "Pronunciación: Receipt",
           "instructions": "La 'p' es silenciosa.",
           "targetSentences": [
@@ -574,7 +574,7 @@
         {
           "interaction_id": "U51_I109",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[supermarket|supermercado]])",
           "title": "Pronunciación: Aisle",
           "instructions": "La 's' es silenciosa.",
           "targetSentences": [
@@ -613,7 +613,7 @@
         {
           "interaction_id": "U51_I110",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[supermarket|supermercado]])",
           "title": "Pronunciación: Trolley",
           "instructions": "Escucha y repite enfocándote en la 'o'.",
           "targetSentences": [
@@ -652,7 +652,7 @@
         {
           "interaction_id": "U51_I111",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[supermarket|supermercado]])",
           "title": "Pronunciación: Checkout",
           "instructions": "Escucha y repite la palabra compuesta.",
           "targetSentences": [
@@ -691,7 +691,7 @@
         {
           "interaction_id": "U51_I112",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[supermarket|supermercado]])",
           "title": "Pronunciación: Basket",
           "instructions": "Escucha y repite enfocándote en la 'a'.",
           "targetSentences": [
@@ -730,7 +730,7 @@
         {
           "interaction_id": "U51_I113",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[supermarket|supermercado]])",
           "title": "Pronunciación: Fruits",
           "instructions": "La 'ui' suena como /uː/.",
           "targetSentences": [
@@ -769,7 +769,7 @@
         {
           "interaction_id": "U51_I114",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[supermarket|supermercado]])",
           "title": "Pronunciación: Grocery",
           "instructions": "Escucha y repite enfocándote en la 'o'.",
           "targetSentences": [
@@ -808,7 +808,7 @@
         {
           "interaction_id": "U51_I115",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[supermarket|supermercado]])",
           "title": "Pronunciación: Cash",
           "instructions": "Escucha y repite la 'sh' final.",
           "targetSentences": [
@@ -856,15 +856,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Offer"
             },
             {
               "id": "o2",
-              "text": "Fruit"
+              "text": "[[Fruit|fruit]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Receipt"
+            },
+            {
+              "id": "o4",
+              "text": "Queue"
             }
           ],
           "correct_answer": "o2",
@@ -877,18 +881,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Aisle"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "[[Vegetables|vegetables]]"
             },
             {
               "id": "o3",
-              "text": "Vegetables"
+              "text": "Till"
+            },
+            {
+              "id": "o4",
+              "text": "Queue"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -898,18 +906,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Milk"
+              "text": "Till"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Milk|leche]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Basket"
+            },
+            {
+              "id": "o4",
+              "text": "Queue"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -919,18 +931,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Cashier"
             },
             {
               "id": "o2",
-              "text": "Bread"
+              "text": "Receipt"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Bread|pan]]"
+            },
+            {
+              "id": "o4",
+              "text": "Supermarket"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -940,18 +956,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Aisle"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Receipt"
             },
             {
               "id": "o3",
-              "text": "Eggs"
+              "text": "Cashier"
+            },
+            {
+              "id": "o4",
+              "text": "[[Eggs|eggs]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -961,18 +981,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Basket"
+              "text": "Queue"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Till"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Basket|cesta]]"
+            },
+            {
+              "id": "o4",
+              "text": "Cashier"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -982,15 +1006,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Till"
             },
             {
               "id": "o2",
-              "text": "Checkout"
+              "text": "[[Checkout|checkout]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Offer"
+            },
+            {
+              "id": "o4",
+              "text": "Cashier"
             }
           ],
           "correct_answer": "o2",
@@ -1003,18 +1031,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Aisle"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "[[Fruit|fruit]]"
             },
             {
               "id": "o3",
-              "text": "Fruit"
+              "text": "Queue"
+            },
+            {
+              "id": "o4",
+              "text": "Basket"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1024,18 +1056,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Vegetables"
+              "text": "Basket"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Supermarket"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Trolley"
+            },
+            {
+              "id": "o4",
+              "text": "[[Vegetables|vegetables]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1045,18 +1081,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Milk|leche]]"
             },
             {
               "id": "o2",
-              "text": "Milk"
+              "text": "Basket"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Supermarket"
+            },
+            {
+              "id": "o4",
+              "text": "Queue"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1066,15 +1106,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Cashier"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Aisle"
             },
             {
               "id": "o3",
-              "text": "Bread"
+              "text": "[[Bread|pan]]"
+            },
+            {
+              "id": "o4",
+              "text": "Receipt"
             }
           ],
           "correct_answer": "o3",
@@ -1087,15 +1131,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Eggs"
+              "text": "[[Eggs|eggs]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Trolley"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Aisle"
+            },
+            {
+              "id": "o4",
+              "text": "Till"
             }
           ],
           "correct_answer": "o1",
@@ -1108,18 +1156,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Queue"
             },
             {
               "id": "o2",
-              "text": "Basket"
+              "text": "Till"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Basket|cesta]]"
+            },
+            {
+              "id": "o4",
+              "text": "Trolley"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1129,18 +1181,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Supermarket"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Basket"
             },
             {
               "id": "o3",
-              "text": "Checkout"
+              "text": "Queue"
+            },
+            {
+              "id": "o4",
+              "text": "[[Checkout|checkout]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1150,15 +1206,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Fruit"
+              "text": "[[Fruit|fruit]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Supermarket"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Offer"
+            },
+            {
+              "id": "o4",
+              "text": "Queue"
             }
           ],
           "correct_answer": "o1",
@@ -1171,18 +1231,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Vegetables|vegetables]]"
             },
             {
               "id": "o2",
-              "text": "Vegetables"
+              "text": "Trolley"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Supermarket"
+            },
+            {
+              "id": "o4",
+              "text": "Cashier"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1192,18 +1256,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "[[Milk|leche]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Queue"
             },
             {
               "id": "o3",
-              "text": "Milk"
+              "text": "Cashier"
+            },
+            {
+              "id": "o4",
+              "text": "Receipt"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1213,18 +1281,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Bread"
+              "text": "Receipt"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Bread|pan]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Basket"
+            },
+            {
+              "id": "o4",
+              "text": "Cashier"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1234,18 +1306,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Till"
             },
             {
               "id": "o2",
-              "text": "Eggs"
+              "text": "Trolley"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Eggs|eggs]]"
+            },
+            {
+              "id": "o4",
+              "text": "Queue"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1255,18 +1331,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Offer"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Cashier"
             },
             {
               "id": "o3",
-              "text": "Basket"
+              "text": "Trolley"
+            },
+            {
+              "id": "o4",
+              "text": "[[Basket|cesta]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1276,18 +1356,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Checkout"
+              "text": "Aisle"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Checkout|checkout]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Offer"
+            },
+            {
+              "id": "o4",
+              "text": "Queue"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1297,18 +1381,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Fruit|fruit]]"
             },
             {
               "id": "o2",
-              "text": "Fruit"
+              "text": "Offer"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Queue"
+            },
+            {
+              "id": "o4",
+              "text": "Till"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1318,18 +1406,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Basket"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Vegetables|vegetables]]"
             },
             {
               "id": "o3",
-              "text": "Vegetables"
+              "text": "Supermarket"
+            },
+            {
+              "id": "o4",
+              "text": "Receipt"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1339,18 +1431,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Milk"
+              "text": "Till"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Milk|leche]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Queue"
+            },
+            {
+              "id": "o4",
+              "text": "Trolley"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1360,18 +1456,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Offer"
             },
             {
               "id": "o2",
-              "text": "Bread"
+              "text": "Receipt"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Bread|pan]]"
+            },
+            {
+              "id": "o4",
+              "text": "Till"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1381,18 +1481,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "[[Eggs|eggs]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Queue"
             },
             {
               "id": "o3",
-              "text": "Eggs"
+              "text": "Receipt"
+            },
+            {
+              "id": "o4",
+              "text": "Supermarket"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         }
       ]
@@ -1404,7 +1508,7 @@
         {
           "interaction_id": "U51_L5_I1",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[supermarket|supermercado]])",
           "audio_url": "/audio/courses/ingles-a1/unit51/lesson5-task-1.mp3",
           "transcript_template": "The [[fruit|]] is here.",
           "correct_answer": "fruit",
@@ -1418,7 +1522,7 @@
         {
           "interaction_id": "U51_L5_I2",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[supermarket|supermercado]])",
           "audio_url": "/audio/courses/ingles-a1/unit51/lesson5-task-2.mp3",
           "transcript_template": "The [[vegetables|]] is here.",
           "correct_answer": "vegetables",
@@ -1432,7 +1536,7 @@
         {
           "interaction_id": "U51_L5_I3",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[supermarket|supermercado]])",
           "audio_url": "/audio/courses/ingles-a1/unit51/lesson5-task-3.mp3",
           "transcript_template": "The [[milk|]] is here.",
           "correct_answer": "milk",
@@ -1446,7 +1550,7 @@
         {
           "interaction_id": "U51_L5_I4",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[supermarket|supermercado]])",
           "audio_url": "/audio/courses/ingles-a1/unit51/lesson5-task-4.mp3",
           "transcript_template": "The [[bread|]] is here.",
           "correct_answer": "bread",
@@ -1460,7 +1564,7 @@
         {
           "interaction_id": "U51_L5_I5",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[supermarket|supermercado]])",
           "audio_url": "/audio/courses/ingles-a1/unit51/lesson5-task-5.mp3",
           "transcript_template": "The [[eggs|]] is here.",
           "correct_answer": "eggs",
@@ -1474,7 +1578,7 @@
         {
           "interaction_id": "U51_L5_I6",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[supermarket|supermercado]])",
           "audio_url": "/audio/courses/ingles-a1/unit51/lesson5-task-6.mp3",
           "transcript_template": "The [[basket|]] is here.",
           "correct_answer": "basket",
@@ -1488,7 +1592,7 @@
         {
           "interaction_id": "U51_L5_I7",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[supermarket|supermercado]])",
           "audio_url": "/audio/courses/ingles-a1/unit51/lesson5-task-7.mp3",
           "transcript_template": "The [[checkout|]] is here.",
           "correct_answer": "checkout",
@@ -1502,7 +1606,7 @@
         {
           "interaction_id": "U51_L5_I8",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[supermarket|supermercado]])",
           "title": "Pronunciación: At the Supermarket",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1541,7 +1645,7 @@
         {
           "interaction_id": "U51_L5_I9",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[supermarket|supermercado]])",
           "title": "Pronunciación: At the Supermarket",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1580,7 +1684,7 @@
         {
           "interaction_id": "U51_L5_I10",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[supermarket|supermercado]])",
           "title": "Pronunciación: At the Supermarket",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1619,7 +1723,7 @@
         {
           "interaction_id": "U51_L5_I11",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[supermarket|supermercado]])",
           "title": "Pronunciación: At the Supermarket",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1658,7 +1762,7 @@
         {
           "interaction_id": "U51_L5_I12",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[supermarket|supermercado]])",
           "title": "Pronunciación: At the Supermarket",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1697,7 +1801,7 @@
         {
           "interaction_id": "U51_L5_I13",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[supermarket|supermercado]])",
           "title": "Pronunciación: At the Supermarket",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1736,7 +1840,7 @@
         {
           "interaction_id": "U51_L5_I14",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[supermarket|supermercado]])",
           "title": "Pronunciación: At the Supermarket",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1775,7 +1879,7 @@
         {
           "interaction_id": "U51_L5_I15",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[supermarket|supermercado]])",
           "title": "Pronunciación: At the Supermarket",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [

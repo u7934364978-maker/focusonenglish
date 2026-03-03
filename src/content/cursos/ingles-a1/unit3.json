@@ -61,24 +61,24 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[They|Ellos]] [[aren't|no están]] [[hungry|hambrientos]]"
+              "text": "[[They|Ellos]] [[isn't|no están]] [[hungry|hambrientos]]"
             },
             {
               "id": "o2",
-              "text": "[[They|Ellos]] [[isn't|no están]] [[hungry|hambrientos]]"
+              "text": "[[They|Ellos]] [[aren't|no están]] [[hungry|hambrientos]]"
             },
             {
               "id": "o3",
               "text": "[[They|Ellos]] [[am not|no están]] [[hungry|hambrientos]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U3_I4",
           "type": "short_writing",
-          "prompt_es": "Traduce al inglés: 'Ella no está cansada'",
+          "prompt_es": "Traduce al inglés: 'Ella no está cansada' ([[family|familia]])",
           "stimulus_es": "Ella no está cansada",
           "correct_answer": "[[She|Ella]] [[isn't|no está]] [[tired|cansada]]",
           "mastery_tag": "vocabulary"
@@ -169,24 +169,24 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[aren't|no son]]"
-            },
-            {
-              "id": "o2",
               "text": "[[isn't|no son]]"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "[[am not|no son]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[aren't|no son]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I10",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Nosotros no estamos aburridos'",
+          "prompt_es": "Traduce: 'Nosotros no estamos aburridos' ([[family|familia]])",
           "stimulus_es": "Nosotros no estamos aburridos",
           "correct_answer": "[[We|Nosotros]] [[aren't|no estamos]] [[bored|aburridos]]",
           "mastery_tag": "vocabulary"
@@ -208,7 +208,7 @@
         {
           "interaction_id": "U3_I12",
           "type": "transformation",
-          "prompt_es": "Completa la pregunta:",
+          "prompt_es": "Completa la pregunta: ([[family|familia]])",
           "stimulus_en": "________ [[he|él]] [[your|tu]] [[brother|hermano]]?",
           "correct_answer": "Is",
           "mastery_tag": "grammar"
@@ -216,7 +216,7 @@
         {
           "interaction_id": "U3_I13",
           "type": "transformation",
-          "prompt_es": "Completa la pregunta:",
+          "prompt_es": "Completa la pregunta: ([[cold|frío]])",
           "stimulus_en": "________ [[it|ello]] [[cold|frío]] [[outside|fuera]]?",
           "correct_answer": "Is",
           "mastery_tag": "grammar"
@@ -224,7 +224,7 @@
         {
           "interaction_id": "U3_I14",
           "type": "transformation",
-          "prompt_es": "Completa la pregunta:",
+          "prompt_es": "Completa la pregunta: ([[family|familia]])",
           "stimulus_en": "________ [[they|ellos]] [[at|en]] [[school|la escuela]]?",
           "correct_answer": "Are",
           "mastery_tag": "grammar"
@@ -232,7 +232,7 @@
         {
           "interaction_id": "U3_I15",
           "type": "transformation",
-          "prompt_es": "Completa la pregunta:",
+          "prompt_es": "Completa la pregunta: ([[family|familia]])",
           "stimulus_en": "________ [[I|yo]] [[late|tarde]]?",
           "correct_answer": "Am",
           "mastery_tag": "grammar"
@@ -244,7 +244,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Are|¿Estamos?]] [[we|nosotros]] [[lost|perdidos]]?"
+              "text": "[[Am|¿Estamos?]] [[we|nosotros]] [[lost|perdidos]]?"
             },
             {
               "id": "o2",
@@ -252,10 +252,10 @@
             },
             {
               "id": "o3",
-              "text": "[[Am|¿Estamos?]] [[we|nosotros]] [[lost|perdidos]]?"
+              "text": "[[Are|¿Estamos?]] [[we|nosotros]] [[lost|perdidos]]?"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "syntax"
         },
         {
@@ -291,7 +291,7 @@
         {
           "interaction_id": "U3_I18",
           "type": "short_writing",
-          "prompt_es": "Traduce la pregunta: '¿Están ellos felices?'",
+          "prompt_es": "Traduce la pregunta: '¿Están ellos felices?' ([[family|familia]])",
           "stimulus_es": "¿Están ellos felices?",
           "correct_answer": "[[Are|¿Están?]] [[they|ellos]] [[happy|felices]]?",
           "mastery_tag": "grammar"
@@ -406,24 +406,24 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[He|Él]] [[isn't|no es]]"
+              "text": "[[He|Él]] [[aren't|no es]]"
             },
             {
               "id": "o2",
-              "text": "[[He|Él]] [[aren't|no es]]"
+              "text": "[[He|Él]] [[isn't|no es]]"
             },
             {
               "id": "o3",
               "text": "[[He|Él]] [[am not|no es]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U3_I29",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'No soy un doctor'",
+          "prompt_es": "Traduce: 'No soy un doctor' ([[family|familia]])",
           "stimulus_es": "No soy un doctor",
           "correct_answer": "[[I|Yo]] [[am not|no soy]] [[a|un]] [[doctor|doctor]]",
           "mastery_tag": "vocabulary"
@@ -463,7 +463,7 @@
           "interaction_id": "U3_I31",
           "type": "reading_phase",
           "prompt_es": "Lee la conversación entre dos amigos:",
-          "transcript": "[[Alex|Alex]]: [[Hi|Hola]], [[Maria|María]]! [[How|Cómo]] [[are|estás]] [[you|tú]]?\n[[Maria|María]]: [[I|Yo]] [[am|estoy]] [[a|un]] [[little|poco]] [[tired|cansada]]. [[I|Yo]] [[am not|no estoy]] [[very|muy]] [[happy|feliz]] [[today|hoy]].\n[[Alex|Alex]]: [[Are|¿Estás?]] [[you|tú]] [[hungry|hambrienta]]?\n[[Maria|María]]: [[No|No]], [[I|yo]] [[am not|no lo estoy]]. [[But|Pero]] [[I|yo]] [[am|estoy]] [[thirsty|sedienta]].\n[[Alex|Alex]]: [[Is|¿Está?]] [[the|el]] [[water|agua]] [[cold|fría]]?\n[[Maria|María]]: [[Yes|Sí]], [[it|ello]] [[is|está]]. [[Thank|Gracias]] [[you|a ti]]!",
+          "transcript": "[[Alex|Alex]]: [[Hi|Hola]], [[Maria|María]]! How are you?\n[[Maria|María]]: I'm [[fine|bien]], thank you! And you?\n[[Alex|Alex]]: I'm [[great|genial]], thanks! This is my [[friend|amigo]] [[Tom|Tom]]. He is from [[England|Inglaterra]].\n[[Tom|Tom]]: [[Nice to meet you|Encantado de conocerte]]! My name is Tom Brown. I am a student here.\n[[Maria|María]]: Nice to meet you too, Tom! Where are you from exactly?\n[[Tom|Tom]]: I'm from [[London|Londres]]. It's a [[big|grande]] city. Are you from [[Spain|España]]?\n[[Maria|María]]: Yes, I'm from [[Madrid|Madrid]]. It's a [[beautiful|bonita]] city! Do you [[like|gustar]] it here?\n[[Tom|Tom]]: Yes, I love it! The people are very [[friendly|amables]] and the [[weather|tiempo]] is [[warm|cálido]].\n[[Alex|Alex]]: We are happy you are here, Tom. Welcome to our [[class|clase]]!",
           "mastery_tag": "reading"
         },
         {
@@ -473,18 +473,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Tired|Cansada]]"
+              "text": "[[Angry|Enfadada]]"
             },
             {
               "id": "o2",
-              "text": "[[Angry|Enfadada]]"
+              "text": "[[Tired|Cansada]]"
             },
             {
               "id": "o3",
               "text": "[[Scared|Asustada]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "reading_comprehension"
         },
         {
@@ -501,7 +501,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Water|Agua]]"
+              "text": "[[Sleep|Dormir]]"
             },
             {
               "id": "o2",
@@ -509,16 +509,16 @@
             },
             {
               "id": "o3",
-              "text": "[[Sleep|Dormir]]"
+              "text": "[[Water|Agua]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "reading_comprehension"
         },
         {
           "interaction_id": "U3_I35",
           "type": "short_writing",
-          "prompt_es": "¿Cómo está el agua?",
+          "prompt_es": "¿Cómo está el agua? ([[family|familia]])",
           "stimulus_es": "¿Cómo está el agua?",
           "correct_answer": "[[Cold|Fría]]",
           "mastery_tag": "reading_comprehension"
@@ -647,7 +647,7 @@
         {
           "interaction_id": "U3_I44",
           "type": "short_writing",
-          "prompt_es": "Traduce: '¿Estás cansado?'",
+          "prompt_es": "Traduce: '¿Estás cansado?' ([[family|familia]])",
           "stimulus_es": "¿Estás cansado?",
           "correct_answer": "[[Are|¿Estás?]] [[you|tú]] [[tired|cansado]]?",
           "mastery_tag": "vocabulary"
@@ -739,7 +739,7 @@
         {
           "interaction_id": "U3_I51",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Él no tiene hambre' (Él no está hambriento)",
+          "prompt_es": "Traduce: 'Él no tiene hambre' (Él no está hambriento) ([[family|familia]])",
           "stimulus_es": "Él no tiene hambre",
           "correct_answer": "[[He|Él]] [[isn't|no está]] [[hungry|hambriento]]",
           "mastery_tag": "vocabulary"
@@ -886,7 +886,7 @@
         {
           "interaction_id": "U3_I60",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'No estamos cansados'",
+          "prompt_es": "Traduce: 'No estamos cansados' ([[family|familia]])",
           "stimulus_es": "No estamos cansados",
           "correct_answer": "[[We|Nosotros]] [[aren't|no estamos]] [[tired|cansados]]",
           "mastery_tag": "vocabulary"

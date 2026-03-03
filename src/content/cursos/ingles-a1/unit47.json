@@ -63,7 +63,7 @@
           "options": [
             {
               "id": "o2",
-              "text": "Hiking"
+              "text": "[[Hiking|senderismo]]"
             },
             {
               "id": "o1",
@@ -85,7 +85,7 @@
         {
           "interaction_id": "A1_U47_B47_1_I3",
           "type": "fill_blanks",
-          "prompt_es": "Completa el objeto:",
+          "prompt_es": "Completa el objeto: ([[beach|playa]])",
           "stimulus_en": "I write a ________ to my family. (postal)",
           "correct_answer": "postcard",
           "mastery_tag": "vocabulary",
@@ -98,7 +98,7 @@
         {
           "interaction_id": "A1_U47_B47_1_I4",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Hacer turismo'",
+          "prompt_es": "Traduce: 'Hacer turismo' ([[beach|playa]])",
           "stimulus_es": "Hacer turismo",
           "correct_answer": "Sightseeing",
           "mastery_tag": "vocabulary",
@@ -111,7 +111,7 @@
         {
           "interaction_id": "A1_U47_B47_1_I5",
           "type": "flashcard",
-          "prompt_es": "Repaso de vacaciones:",
+          "prompt_es": "Repaso de vacaciones: ([[souvenir|recuerdo]])",
           "stimulus_en": "Souvenirs",
           "correct_answer": "Recuerdos (objetos de regalo)",
           "mastery_tag": "vocabulary",
@@ -130,7 +130,7 @@
         {
           "interaction_id": "A1_U47_B47_2_I2",
           "type": "fill_blanks",
-          "prompt_es": "Completa el contraste:",
+          "prompt_es": "Completa el contraste: ([[usually|normalmente]])",
           "stimulus_en": "Usually I work, but today I am ________. (relajándome)",
           "correct_answer": "relaxing",
           "mastery_tag": "grammar",
@@ -143,7 +143,7 @@
         {
           "interaction_id": "A1_U47_B47_2_I3",
           "type": "true_false",
-          "prompt_es": "¿Es correcto: 'I enjoy to take photos'?",
+          "prompt_es": "¿Es correcto: 'I enjoy to take photos'? ([[beach|playa]])",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "complexity": 1,
@@ -155,7 +155,7 @@
         {
           "interaction_id": "A1_U47_B47_2_I5",
           "type": "fill_blanks",
-          "prompt_es": "Completa la frase:",
+          "prompt_es": "Completa la frase: ([[holiday|vacaciones]])",
           "stimulus_en": "We ________ visit museums on holiday. (a menudo)",
           "correct_answer": "often",
           "mastery_tag": "grammar",
@@ -174,7 +174,7 @@
         {
           "interaction_id": "A1_U47_B47_3_I1",
           "type": "reorder_words",
-          "prompt_es": "Describe tus vacaciones:",
+          "prompt_es": "Describe tus vacaciones: ([[beach|playa]])",
           "options": [
             {
               "id": "w1",
@@ -219,7 +219,7 @@
         {
           "interaction_id": "A1_U47_B47_3_I2",
           "type": "multiple_choice",
-          "prompt_es": "Friend: 'What are you doing today?' - You:",
+          "prompt_es": "Friend: 'What are you doing today?' - You: ([[pool|piscina]])",
           "options": [
             {
               "id": "o2",
@@ -245,7 +245,7 @@
         {
           "interaction_id": "A1_U47_B47_3_I3",
           "type": "fill_blanks",
-          "prompt_es": "Completa la postal:",
+          "prompt_es": "Completa la postal: ([[many|muchos/as]])",
           "stimulus_en": "The weather is hot. We ________ many photos of the city. (sacamos/tomamos)",
           "correct_answer": "take",
           "mastery_tag": "syntax",
@@ -258,7 +258,7 @@
         {
           "interaction_id": "A1_U47_B47_3_I4",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Odio hacer turismo'",
+          "prompt_es": "Traduce: 'Odio hacer turismo' ([[beach|playa]])",
           "stimulus_es": "Odio hacer turismo",
           "correct_answer": "I hate sightseeing",
           "mastery_tag": "syntax",
@@ -271,7 +271,7 @@
         {
           "interaction_id": "A1_U47_B47_3_I5",
           "type": "true_false",
-          "prompt_es": "You buy souvenirs for your family and friends.",
+          "prompt_es": "You buy souvenirs for your family and friends. ([[and|y]])",
           "correct_answer": true,
           "mastery_tag": "syntax",
           "complexity": 1,
@@ -289,7 +289,7 @@
         {
           "interaction_id": "A1_U47_B47_4_I4",
           "type": "audio_player",
-          "prompt_es": "Escucha la preferencia:",
+          "prompt_es": "Escucha la preferencia: ([[beach|playa]])",
           "audioUrl": "/audio/courses/ingles-a1/shared/a167098e792e3a89e167669818815124.mp3",
           "text": "I enjoy swimming in the sea.",
           "mastery_tag": "listening",
@@ -308,7 +308,7 @@
         {
           "interaction_id": "A1_U47_B47_4_I5",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué le gusta a Sarah?",
+          "prompt_es": "¿Qué le gusta a Sarah? ([[beach|playa]])",
           "options": [
             {
               "id": "o2",
@@ -340,7 +340,7 @@
         {
           "interaction_id": "U47_I301",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[beach|playa]])",
           "stimulus_en": "I love sunbathing on the beach.",
           "correct_answer": "I love sunbathing on the beach.",
           "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-1.mp3",
@@ -354,7 +354,7 @@
         {
           "interaction_id": "U47_I302",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[sightseeing|turismo]])",
           "stimulus_en": "They enjoy sightseeing in Paris.",
           "correct_answer": "They enjoy sightseeing in Paris.",
           "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-2.mp3",
@@ -368,7 +368,7 @@
         {
           "interaction_id": "U47_I303",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[mountain|montaña]])",
           "stimulus_en": "We go hiking in the mountains.",
           "correct_answer": "We go hiking in the mountains.",
           "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-3.mp3",
@@ -382,7 +382,7 @@
         {
           "interaction_id": "U47_I304",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[flight|vuelo]])",
           "stimulus_en": "She hates long flights.",
           "correct_answer": "She hates long flights.",
           "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-4.mp3",
@@ -396,7 +396,7 @@
         {
           "interaction_id": "U47_I305",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[beach|playa]])",
           "stimulus_en": "I send a postcard to my mother.",
           "correct_answer": "I send a postcard to my mother.",
           "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-5.mp3",
@@ -410,7 +410,7 @@
         {
           "interaction_id": "U47_I306",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[vacation|vacaciones]])",
           "stimulus_en": "Are you relaxing on vacation?",
           "correct_answer": "Are you relaxing on vacation?",
           "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-6.mp3",
@@ -424,7 +424,7 @@
         {
           "interaction_id": "U47_I307",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[beach|playa]])",
           "stimulus_en": "We eat local food in the evening.",
           "correct_answer": "We eat local food in the evening.",
           "audioUrl": "/audio/courses/ingles-a1/unit47/lesson5-task-7.mp3",
@@ -438,7 +438,7 @@
         {
           "interaction_id": "U47_I308",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[beach|playa]])",
           "title": "Pronunciación: Holidays",
           "instructions": "Escucha y repite enfocándote en la 'h'.",
           "targetSentences": [
@@ -477,7 +477,7 @@
         {
           "interaction_id": "U47_I309",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[beach|playa]])",
           "title": "Pronunciación: Beach",
           "instructions": "Escucha y repite la 'i' larga.",
           "targetSentences": [
@@ -516,7 +516,7 @@
         {
           "interaction_id": "U47_I310",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[beach|playa]])",
           "title": "Pronunciación: Sightseeing",
           "instructions": "Escucha y repite la palabra larga.",
           "targetSentences": [
@@ -555,7 +555,7 @@
         {
           "interaction_id": "U47_I311",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[beach|playa]])",
           "title": "Pronunciación: Hiking",
           "instructions": "Escucha y repite la 'h' y la 'i' larga.",
           "targetSentences": [
@@ -594,7 +594,7 @@
         {
           "interaction_id": "U47_I312",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[beach|playa]])",
           "title": "Pronunciación: Postcard",
           "instructions": "Escucha y repite la palabra compuesta.",
           "targetSentences": [
@@ -633,7 +633,7 @@
         {
           "interaction_id": "U47_I313",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[beach|playa]])",
           "title": "Pronunciación: Love",
           "instructions": "Escucha y repite la vocal relajada.",
           "targetSentences": [
@@ -672,7 +672,7 @@
         {
           "interaction_id": "U47_I314",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[beach|playa]])",
           "title": "Pronunciación: Hate",
           "instructions": "Escucha y repite el diptongo 'a_e'.",
           "targetSentences": [
@@ -711,7 +711,7 @@
         {
           "interaction_id": "U47_I315",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[beach|playa]])",
           "title": "Pronunciación: Repaso Holidays",
           "instructions": "Escucha y repite la frase completa.",
           "targetSentences": [
@@ -758,19 +758,23 @@
           "prompt_es": "¿Cómo se dice 'holiday' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Holiday"
+              "id": "o1",
+              "text": "[[Holiday|vacaciones]]"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Camping"
             },
             {
               "id": "o3",
-              "text": "Wrong word"
+              "text": "Souvenir"
+            },
+            {
+              "id": "o4",
+              "text": "Beach"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -779,19 +783,23 @@
           "prompt_es": "¿Cómo se dice 'vacation' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Tourist"
             },
             {
-              "id": "o1",
-              "text": "Vacation"
+              "id": "o2",
+              "text": "Sightseeing"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Beach"
+            },
+            {
+              "id": "o4",
+              "text": "[[Vacation|vacaciones]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -800,19 +808,23 @@
           "prompt_es": "¿Cómo se dice 'beach' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "[[Beach|playa]]"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Sightseeing"
             },
             {
               "id": "o3",
-              "text": "Beach"
+              "text": "Vacation"
+            },
+            {
+              "id": "o4",
+              "text": "Trip"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -821,16 +833,20 @@
           "prompt_es": "¿Cómo se dice 'mountains' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Mountains"
+              "id": "o1",
+              "text": "Vacation"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "[[Mountains|mountains]]"
             },
             {
               "id": "o3",
-              "text": "Wrong word"
+              "text": "Beach"
+            },
+            {
+              "id": "o4",
+              "text": "Trip"
             }
           ],
           "correct_answer": "o2",
@@ -842,16 +858,20 @@
           "prompt_es": "¿Cómo se dice 'sightseeing' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "[[Sightseeing|turismo]]"
             },
             {
-              "id": "o1",
-              "text": "Sightseeing"
+              "id": "o2",
+              "text": "Mountain"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Tourist"
+            },
+            {
+              "id": "o4",
+              "text": "Beach"
             }
           ],
           "correct_answer": "o1",
@@ -863,19 +883,23 @@
           "prompt_es": "¿Cómo se dice 'relax' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Trip"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Sightseeing"
             },
             {
               "id": "o3",
-              "text": "Relax"
+              "text": "Holiday"
+            },
+            {
+              "id": "o4",
+              "text": "[[Relax|relax]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -884,19 +908,23 @@
           "prompt_es": "¿Cómo se dice 'photos' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Photos"
+              "id": "o1",
+              "text": "[[Photos|photos]]"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Sightseeing"
             },
             {
               "id": "o3",
-              "text": "Wrong word"
+              "text": "Trip"
+            },
+            {
+              "id": "o4",
+              "text": "Souvenir"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -905,19 +933,23 @@
           "prompt_es": "¿Cómo se dice 'holiday' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Beach"
             },
             {
-              "id": "o1",
-              "text": "Holiday"
+              "id": "o2",
+              "text": "Vacation"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Holiday|vacaciones]]"
+            },
+            {
+              "id": "o4",
+              "text": "Sightseeing"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -926,19 +958,23 @@
           "prompt_es": "¿Cómo se dice 'vacation' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Sightseeing"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Tourist"
             },
             {
               "id": "o3",
-              "text": "Vacation"
+              "text": "Mountain"
+            },
+            {
+              "id": "o4",
+              "text": "[[Vacation|vacaciones]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -947,19 +983,23 @@
           "prompt_es": "¿Cómo se dice 'beach' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Beach"
+              "id": "o1",
+              "text": "Mountain"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Trip"
             },
             {
               "id": "o3",
-              "text": "Wrong word"
+              "text": "Holiday"
+            },
+            {
+              "id": "o4",
+              "text": "[[Beach|playa]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -968,19 +1008,23 @@
           "prompt_es": "¿Cómo se dice 'mountains' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Holiday"
             },
             {
-              "id": "o1",
-              "text": "Mountains"
+              "id": "o2",
+              "text": "Beach"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Mountains|mountains]]"
+            },
+            {
+              "id": "o4",
+              "text": "Trip"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -989,16 +1033,20 @@
           "prompt_es": "¿Cómo se dice 'sightseeing' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Camping"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Tourist"
             },
             {
               "id": "o3",
-              "text": "Sightseeing"
+              "text": "[[Sightseeing|turismo]]"
+            },
+            {
+              "id": "o4",
+              "text": "Holiday"
             }
           ],
           "correct_answer": "o3",
@@ -1010,19 +1058,23 @@
           "prompt_es": "¿Cómo se dice 'relax' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Relax"
+              "id": "o1",
+              "text": "Tourist"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Mountain"
             },
             {
               "id": "o3",
-              "text": "Wrong word"
+              "text": "Trip"
+            },
+            {
+              "id": "o4",
+              "text": "[[Relax|relax]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1031,19 +1083,23 @@
           "prompt_es": "¿Cómo se dice 'photos' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Vacation"
             },
             {
-              "id": "o1",
-              "text": "Photos"
+              "id": "o2",
+              "text": "[[Photos|photos]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Beach"
+            },
+            {
+              "id": "o4",
+              "text": "Holiday"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1052,19 +1108,23 @@
           "prompt_es": "¿Cómo se dice 'holiday' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Mountain"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Souvenir"
             },
             {
               "id": "o3",
-              "text": "Holiday"
+              "text": "Trip"
+            },
+            {
+              "id": "o4",
+              "text": "[[Holiday|vacaciones]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1073,19 +1133,23 @@
           "prompt_es": "¿Cómo se dice 'vacation' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Vacation"
+              "id": "o1",
+              "text": "Mountain"
             },
             {
-              "id": "o1",
-              "text": "Other word"
+              "id": "o2",
+              "text": "Sightseeing"
             },
             {
               "id": "o3",
-              "text": "Wrong word"
+              "text": "Beach"
+            },
+            {
+              "id": "o4",
+              "text": "[[Vacation|vacaciones]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1094,19 +1158,23 @@
           "prompt_es": "¿Cómo se dice 'beach' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Holiday"
             },
             {
-              "id": "o1",
-              "text": "Beach"
+              "id": "o2",
+              "text": "[[Beach|playa]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Sightseeing"
+            },
+            {
+              "id": "o4",
+              "text": "Mountain"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1116,15 +1184,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Camping"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Vacation"
             },
             {
               "id": "o3",
-              "text": "Mountains"
+              "text": "[[Mountains|mountains]]"
+            },
+            {
+              "id": "o4",
+              "text": "Tourist"
             }
           ],
           "correct_answer": "o3",
@@ -1137,18 +1209,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Sightseeing"
+              "text": "Tourist"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Holiday"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Camping"
+            },
+            {
+              "id": "o4",
+              "text": "[[Sightseeing|turismo]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1158,18 +1234,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Relax|relax]]"
             },
             {
               "id": "o2",
-              "text": "Relax"
+              "text": "Beach"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Trip"
+            },
+            {
+              "id": "o4",
+              "text": "Tourist"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1179,15 +1259,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Beach"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Souvenir"
             },
             {
               "id": "o3",
-              "text": "Photos"
+              "text": "[[Photos|photos]]"
+            },
+            {
+              "id": "o4",
+              "text": "Vacation"
             }
           ],
           "correct_answer": "o3",
@@ -1200,18 +1284,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Holiday"
+              "text": "Mountain"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Trip"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Sightseeing"
+            },
+            {
+              "id": "o4",
+              "text": "[[Holiday|vacaciones]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1221,15 +1309,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Holiday"
             },
             {
               "id": "o2",
-              "text": "Vacation"
+              "text": "[[Vacation|vacaciones]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Souvenir"
+            },
+            {
+              "id": "o4",
+              "text": "Camping"
             }
           ],
           "correct_answer": "o2",
@@ -1242,18 +1334,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Holiday"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Beach|playa]]"
             },
             {
               "id": "o3",
-              "text": "Beach"
+              "text": "Camping"
+            },
+            {
+              "id": "o4",
+              "text": "Tourist"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1263,18 +1359,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Mountains"
+              "text": "Souvenir"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Sightseeing"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Mountains|mountains]]"
+            },
+            {
+              "id": "o4",
+              "text": "Mountain"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1284,15 +1384,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Trip"
             },
             {
               "id": "o2",
-              "text": "Sightseeing"
+              "text": "[[Sightseeing|turismo]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Camping"
+            },
+            {
+              "id": "o4",
+              "text": "Mountain"
             }
           ],
           "correct_answer": "o2",
@@ -1305,18 +1409,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "[[Relax|relax]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Holiday"
             },
             {
               "id": "o3",
-              "text": "Relax"
+              "text": "Camping"
+            },
+            {
+              "id": "o4",
+              "text": "Mountain"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1326,18 +1434,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Photos"
+              "text": "Sightseeing"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Mountain"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Holiday"
+            },
+            {
+              "id": "o4",
+              "text": "[[Photos|photos]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1347,18 +1459,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Holiday|vacaciones]]"
             },
             {
               "id": "o2",
-              "text": "Holiday"
+              "text": "Tourist"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Camping"
+            },
+            {
+              "id": "o4",
+              "text": "Trip"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1368,15 +1484,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Beach"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Souvenir"
             },
             {
               "id": "o3",
-              "text": "Vacation"
+              "text": "[[Vacation|vacaciones]]"
+            },
+            {
+              "id": "o4",
+              "text": "Holiday"
             }
           ],
           "correct_answer": "o3",
@@ -1391,7 +1511,7 @@
         {
           "interaction_id": "U47_L5_I1",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[beach|playa]])",
           "audio_url": "/audio/courses/ingles-a1/unit47/lesson5-task-1.mp3",
           "transcript_template": "The [[holiday|]] is here.",
           "correct_answer": "holiday",
@@ -1405,7 +1525,7 @@
         {
           "interaction_id": "U47_L5_I2",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[beach|playa]])",
           "audio_url": "/audio/courses/ingles-a1/unit47/lesson5-task-2.mp3",
           "transcript_template": "The [[vacation|]] is here.",
           "correct_answer": "vacation",
@@ -1419,7 +1539,7 @@
         {
           "interaction_id": "U47_L5_I3",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[beach|playa]])",
           "audio_url": "/audio/courses/ingles-a1/unit47/lesson5-task-3.mp3",
           "transcript_template": "The [[beach|]] is here.",
           "correct_answer": "beach",
@@ -1433,7 +1553,7 @@
         {
           "interaction_id": "U47_L5_I4",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[beach|playa]])",
           "audio_url": "/audio/courses/ingles-a1/unit47/lesson5-task-4.mp3",
           "transcript_template": "The [[mountains|]] is here.",
           "correct_answer": "mountains",
@@ -1447,7 +1567,7 @@
         {
           "interaction_id": "U47_L5_I5",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[beach|playa]])",
           "audio_url": "/audio/courses/ingles-a1/unit47/lesson5-task-5.mp3",
           "transcript_template": "The [[sightseeing|]] is here.",
           "correct_answer": "sightseeing",
@@ -1461,7 +1581,7 @@
         {
           "interaction_id": "U47_L5_I6",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[beach|playa]])",
           "audio_url": "/audio/courses/ingles-a1/unit47/lesson5-task-6.mp3",
           "transcript_template": "The [[relax|]] is here.",
           "correct_answer": "relax",
@@ -1475,7 +1595,7 @@
         {
           "interaction_id": "U47_L5_I7",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[beach|playa]])",
           "audio_url": "/audio/courses/ingles-a1/unit47/lesson5-task-7.mp3",
           "transcript_template": "The [[photos|]] is here.",
           "correct_answer": "photos",
@@ -1489,7 +1609,7 @@
         {
           "interaction_id": "U47_L5_I8",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[beach|playa]])",
           "title": "Pronunciación: Holidays & Vacation",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1528,7 +1648,7 @@
         {
           "interaction_id": "U47_L5_I9",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[beach|playa]])",
           "title": "Pronunciación: Holidays & Vacation",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1567,7 +1687,7 @@
         {
           "interaction_id": "U47_L5_I10",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[beach|playa]])",
           "title": "Pronunciación: Holidays & Vacation",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1606,7 +1726,7 @@
         {
           "interaction_id": "U47_L5_I11",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[beach|playa]])",
           "title": "Pronunciación: Holidays & Vacation",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1645,7 +1765,7 @@
         {
           "interaction_id": "U47_L5_I12",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[beach|playa]])",
           "title": "Pronunciación: Holidays & Vacation",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1684,7 +1804,7 @@
         {
           "interaction_id": "U47_L5_I13",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[beach|playa]])",
           "title": "Pronunciación: Holidays & Vacation",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1723,7 +1843,7 @@
         {
           "interaction_id": "U47_L5_I14",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[beach|playa]])",
           "title": "Pronunciación: Holidays & Vacation",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1762,7 +1882,7 @@
         {
           "interaction_id": "U47_L5_I15",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[beach|playa]])",
           "title": "Pronunciación: Holidays & Vacation",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [

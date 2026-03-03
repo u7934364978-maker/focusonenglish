@@ -59,7 +59,7 @@
         {
           "interaction_id": "A1_U39_B39_1_I4",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Ayer'",
+          "prompt_es": "Traduce: 'Ayer' ([[was|era]])",
           "stimulus_es": "Ayer",
           "correct_answer": "Yesterday",
           "mastery_tag": "vocabulary",
@@ -72,7 +72,7 @@
         {
           "interaction_id": "A1_U39_B39_1_I5",
           "type": "flashcard",
-          "prompt_es": "Aprende la expresión:",
+          "prompt_es": "Aprende la expresión: ([[was|era]])",
           "stimulus_en": "[[Last week|la semana pasada]]",
           "correct_answer": "La semana pasada",
           "mastery_tag": "vocabulary",
@@ -122,7 +122,7 @@
         {
           "interaction_id": "A1_U39_B39_3_I1",
           "type": "reorder_words",
-          "prompt_es": "Ordena la pregunta:",
+          "prompt_es": "Ordena la pregunta: ([[was|era]])",
           "options": [
             {
               "id": "w1",
@@ -180,7 +180,7 @@
         {
           "interaction_id": "A1_U39_B39_3_I4",
           "type": "short_writing",
-          "prompt_es": "Traduce: '¿Dónde estuviste ayer?'",
+          "prompt_es": "Traduce: '¿Dónde estuviste ayer?' ([[was|era]])",
           "stimulus_es": "¿Dónde estuviste ayer?",
           "correct_answer": "Where were you yesterday?",
           "mastery_tag": "syntax",
@@ -193,7 +193,7 @@
         {
           "interaction_id": "A1_U39_B39_3_I5",
           "type": "true_false",
-          "prompt_es": "¿En las preguntas el verbo 'was/were' va antes que el sujeto?",
+          "prompt_es": "¿En las preguntas el verbo 'was/were' va antes que el sujeto? ([[was|era/estaba]])",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "complexity": 1,
@@ -211,7 +211,7 @@
         {
           "interaction_id": "A1_U39_B39_4_I1",
           "type": "audio_player",
-          "prompt_es": "Escucha y escribe:",
+          "prompt_es": "Escucha y escribe: ([[were|eran/estaban]])",
           "stimulus_en": "Last night there was a power cut at our house. My mother was in the kitchen. My father was in the living room. My brother was in his bedroom. It was very dark, but we [[were|eran/estaban]] all safe.",
           "audioUrl": "/audio/courses/ingles-a1/shared/e1676698188151249767098e792e3a89.mp3",
           "text": "Where were you last night?",
@@ -232,7 +232,7 @@
         {
           "interaction_id": "A1_U39_B39_4_I5",
           "type": "multiple_choice",
-          "prompt_es": "¿Dónde estaba el hermano?",
+          "prompt_es": "¿Dónde estaba el hermano? ([[were|eran/estaban]])",
           "stimulus_en": "Last night there was a power cut at our house. My mother was in the kitchen. My father was in the living room. My brother was in his bedroom. It was very dark, but we [[were|eran/estaban]] all safe.",
           "options": [
             {
@@ -268,15 +268,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Saw"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Had"
             },
             {
               "id": "o3",
-              "text": "Hiking"
+              "text": "[[Hiking|senderismo]]"
+            },
+            {
+              "id": "o4",
+              "text": "Were"
             }
           ],
           "correct_answer": "o3",
@@ -289,18 +293,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Camping"
+              "text": "Got"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Took"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Camping|camping]]"
+            },
+            {
+              "id": "o4",
+              "text": "Saw"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -310,18 +318,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Fishing|fishing]]"
             },
             {
               "id": "o2",
-              "text": "Fishing"
+              "text": "Went"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Got"
+            },
+            {
+              "id": "o4",
+              "text": "Were"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -331,18 +343,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Had"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Went"
             },
             {
               "id": "o3",
-              "text": "Running"
+              "text": "Took"
+            },
+            {
+              "id": "o4",
+              "text": "[[Running|running]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -352,18 +368,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Walking"
+              "text": "Were"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Was"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Took"
+            },
+            {
+              "id": "o4",
+              "text": "[[Walking|walking]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -373,15 +393,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Took"
             },
             {
               "id": "o2",
-              "text": "Cycling"
+              "text": "[[Cycling|ciclismo]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Saw"
+            },
+            {
+              "id": "o4",
+              "text": "Had"
             }
           ],
           "correct_answer": "o2",
@@ -394,18 +418,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Climbing|climbing]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Gave"
             },
             {
               "id": "o3",
-              "text": "Climbing"
+              "text": "Made"
+            },
+            {
+              "id": "o4",
+              "text": "Took"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -415,18 +443,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Hiking"
+              "text": "Was"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Went"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Had"
+            },
+            {
+              "id": "o4",
+              "text": "[[Hiking|senderismo]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -436,18 +468,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Came"
             },
             {
               "id": "o2",
-              "text": "Camping"
+              "text": "Went"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Camping|camping]]"
+            },
+            {
+              "id": "o4",
+              "text": "Took"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -457,18 +493,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Got"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "[[Fishing|fishing]]"
             },
             {
               "id": "o3",
-              "text": "Fishing"
+              "text": "Came"
+            },
+            {
+              "id": "o4",
+              "text": "Saw"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -478,18 +518,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Running"
+              "text": "Took"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Gave"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Running|running]]"
+            },
+            {
+              "id": "o4",
+              "text": "Went"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -499,18 +543,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Walking|walking]]"
             },
             {
               "id": "o2",
-              "text": "Walking"
+              "text": "Went"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Had"
+            },
+            {
+              "id": "o4",
+              "text": "Made"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -520,18 +568,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Cycling|ciclismo]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Went"
             },
             {
               "id": "o3",
-              "text": "Cycling"
+              "text": "Made"
+            },
+            {
+              "id": "o4",
+              "text": "Saw"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -541,18 +593,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Climbing"
+              "text": "Took"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Was"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Saw"
+            },
+            {
+              "id": "o4",
+              "text": "[[Climbing|climbing]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -562,18 +618,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Hiking|senderismo]]"
             },
             {
               "id": "o2",
-              "text": "Hiking"
+              "text": "Were"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Took"
+            },
+            {
+              "id": "o4",
+              "text": "Went"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -583,18 +643,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Took"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "[[Camping|camping]]"
             },
             {
               "id": "o3",
-              "text": "Camping"
+              "text": "Had"
+            },
+            {
+              "id": "o4",
+              "text": "Made"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -604,18 +668,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Fishing"
+              "text": "Were"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Fishing|fishing]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Went"
+            },
+            {
+              "id": "o4",
+              "text": "Gave"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -625,18 +693,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Was"
             },
             {
               "id": "o2",
-              "text": "Running"
+              "text": "Gave"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Running|running]]"
+            },
+            {
+              "id": "o4",
+              "text": "Came"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -646,18 +718,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Walking|walking]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Saw"
             },
             {
               "id": "o3",
-              "text": "Walking"
+              "text": "Came"
+            },
+            {
+              "id": "o4",
+              "text": "Made"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -667,18 +743,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Cycling"
+              "text": "Were"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Got"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Cycling|ciclismo]]"
+            },
+            {
+              "id": "o4",
+              "text": "Went"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -688,18 +768,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Climbing|climbing]]"
             },
             {
               "id": "o2",
-              "text": "Climbing"
+              "text": "Went"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Gave"
+            },
+            {
+              "id": "o4",
+              "text": "Had"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -709,18 +793,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Were"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "[[Hiking|senderismo]]"
             },
             {
               "id": "o3",
-              "text": "Hiking"
+              "text": "Saw"
+            },
+            {
+              "id": "o4",
+              "text": "Got"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -730,15 +818,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Camping"
+              "text": "[[Camping|camping]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Came"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Gave"
+            },
+            {
+              "id": "o4",
+              "text": "Went"
             }
           ],
           "correct_answer": "o1",
@@ -751,18 +843,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Went"
             },
             {
               "id": "o2",
-              "text": "Fishing"
+              "text": "Were"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Fishing|fishing]]"
+            },
+            {
+              "id": "o4",
+              "text": "Had"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -772,15 +868,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Made"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Went"
             },
             {
               "id": "o3",
-              "text": "Running"
+              "text": "[[Running|running]]"
+            },
+            {
+              "id": "o4",
+              "text": "Gave"
             }
           ],
           "correct_answer": "o3",
@@ -793,18 +893,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Walking"
+              "text": "Gave"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Walking|walking]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Took"
+            },
+            {
+              "id": "o4",
+              "text": "Came"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -814,15 +918,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Was"
             },
             {
               "id": "o2",
-              "text": "Cycling"
+              "text": "[[Cycling|ciclismo]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Went"
+            },
+            {
+              "id": "o4",
+              "text": "Saw"
             }
           ],
           "correct_answer": "o2",
@@ -835,18 +943,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Saw"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Had"
             },
             {
               "id": "o3",
-              "text": "Climbing"
+              "text": "Were"
+            },
+            {
+              "id": "o4",
+              "text": "[[Climbing|climbing]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -856,18 +968,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Hiking"
+              "text": "Gave"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Hiking|senderismo]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Went"
+            },
+            {
+              "id": "o4",
+              "text": "Made"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -877,18 +993,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Were"
             },
             {
               "id": "o2",
-              "text": "Camping"
+              "text": "Took"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Camping|camping]]"
+            },
+            {
+              "id": "o4",
+              "text": "Made"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -898,18 +1018,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Fishing|fishing]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Went"
             },
             {
               "id": "o3",
-              "text": "Fishing"
+              "text": "Made"
+            },
+            {
+              "id": "o4",
+              "text": "Was"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -919,18 +1043,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Running"
+              "text": "Got"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Took"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Made"
+            },
+            {
+              "id": "o4",
+              "text": "[[Running|running]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -940,18 +1068,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Walking|walking]]"
             },
             {
               "id": "o2",
-              "text": "Walking"
+              "text": "Came"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Got"
+            },
+            {
+              "id": "o4",
+              "text": "Gave"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -961,18 +1093,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Saw"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "[[Cycling|ciclismo]]"
             },
             {
               "id": "o3",
-              "text": "Cycling"
+              "text": "Came"
+            },
+            {
+              "id": "o4",
+              "text": "Had"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -982,18 +1118,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Climbing"
+              "text": "Took"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Climbing|climbing]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Saw"
+            },
+            {
+              "id": "o4",
+              "text": "Came"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1003,15 +1143,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Took"
             },
             {
               "id": "o2",
-              "text": "Hiking"
+              "text": "[[Hiking|senderismo]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Made"
+            },
+            {
+              "id": "o4",
+              "text": "Were"
             }
           ],
           "correct_answer": "o2",
@@ -1024,15 +1168,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Had"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Saw"
             },
             {
               "id": "o3",
-              "text": "Camping"
+              "text": "[[Camping|camping]]"
+            },
+            {
+              "id": "o4",
+              "text": "Got"
             }
           ],
           "correct_answer": "o3",
@@ -1045,18 +1193,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Fishing"
+              "text": "Were"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Saw"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Took"
+            },
+            {
+              "id": "o4",
+              "text": "[[Fishing|fishing]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1066,18 +1218,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Running|running]]"
             },
             {
               "id": "o2",
-              "text": "Running"
+              "text": "Took"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Made"
+            },
+            {
+              "id": "o4",
+              "text": "Were"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1087,18 +1243,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Saw"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Made"
             },
             {
               "id": "o3",
-              "text": "Walking"
+              "text": "Gave"
+            },
+            {
+              "id": "o4",
+              "text": "[[Walking|walking]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1108,18 +1268,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Cycling"
+              "text": "Got"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Made"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Went"
+            },
+            {
+              "id": "o4",
+              "text": "[[Cycling|ciclismo]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1129,18 +1293,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Got"
             },
             {
               "id": "o2",
-              "text": "Climbing"
+              "text": "Saw"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Was"
+            },
+            {
+              "id": "o4",
+              "text": "[[Climbing|climbing]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1150,18 +1318,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Hiking|senderismo]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Had"
             },
             {
               "id": "o3",
-              "text": "Hiking"
+              "text": "Were"
+            },
+            {
+              "id": "o4",
+              "text": "Came"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1171,18 +1343,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Camping"
+              "text": "Gave"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Were"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Camping|camping]]"
+            },
+            {
+              "id": "o4",
+              "text": "Made"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1192,18 +1368,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Got"
             },
             {
               "id": "o2",
-              "text": "Fishing"
+              "text": "Were"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Gave"
+            },
+            {
+              "id": "o4",
+              "text": "[[Fishing|fishing]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1213,18 +1393,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Came"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "[[Running|running]]"
             },
             {
               "id": "o3",
-              "text": "Running"
+              "text": "Was"
+            },
+            {
+              "id": "o4",
+              "text": "Got"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1234,18 +1418,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Walking"
+              "text": "Went"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Walking|walking]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Got"
+            },
+            {
+              "id": "o4",
+              "text": "Came"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1255,18 +1443,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Gave"
             },
             {
               "id": "o2",
-              "text": "Cycling"
+              "text": "Went"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Cycling|ciclismo]]"
+            },
+            {
+              "id": "o4",
+              "text": "Had"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         }
       ]
@@ -1278,7 +1470,7 @@
         {
           "interaction_id": "U39_L5_I1",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[was|era]])",
           "audio_url": "/audio/courses/ingles-a1/unit39/lesson5-task-1.mp3",
           "transcript_template": "The [[hiking|]] is here.",
           "correct_answer": "hiking",
@@ -1292,7 +1484,7 @@
         {
           "interaction_id": "U39_L5_I2",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[was|era]])",
           "audio_url": "/audio/courses/ingles-a1/unit39/lesson5-task-2.mp3",
           "transcript_template": "The [[camping|]] is here.",
           "correct_answer": "camping",
@@ -1306,7 +1498,7 @@
         {
           "interaction_id": "U39_L5_I3",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[was|era]])",
           "audio_url": "/audio/courses/ingles-a1/unit39/lesson5-task-3.mp3",
           "transcript_template": "The [[fishing|]] is here.",
           "correct_answer": "fishing",
@@ -1320,7 +1512,7 @@
         {
           "interaction_id": "U39_L5_I4",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[was|era]])",
           "audio_url": "/audio/courses/ingles-a1/unit39/lesson5-task-4.mp3",
           "transcript_template": "The [[running|]] is here.",
           "correct_answer": "running",
@@ -1334,7 +1526,7 @@
         {
           "interaction_id": "U39_L5_I5",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[was|era]])",
           "audio_url": "/audio/courses/ingles-a1/unit39/lesson5-task-5.mp3",
           "transcript_template": "The [[walking|]] is here.",
           "correct_answer": "walking",
@@ -1348,7 +1540,7 @@
         {
           "interaction_id": "U39_L5_I6",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[was|era]])",
           "audio_url": "/audio/courses/ingles-a1/unit39/lesson5-task-6.mp3",
           "transcript_template": "The [[cycling|]] is here.",
           "correct_answer": "cycling",
@@ -1362,7 +1554,7 @@
         {
           "interaction_id": "U39_L5_I7",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[was|era]])",
           "audio_url": "/audio/courses/ingles-a1/unit39/lesson5-task-7.mp3",
           "transcript_template": "The [[climbing|]] is here.",
           "correct_answer": "climbing",
@@ -1376,7 +1568,7 @@
         {
           "interaction_id": "U39_L5_I8",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[was|era]])",
           "title": "Pronunciación: Outdoor Activities",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1415,7 +1607,7 @@
         {
           "interaction_id": "U39_L5_I9",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[was|era]])",
           "title": "Pronunciación: Outdoor Activities",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1454,7 +1646,7 @@
         {
           "interaction_id": "U39_L5_I10",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[was|era]])",
           "title": "Pronunciación: Outdoor Activities",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1493,7 +1685,7 @@
         {
           "interaction_id": "U39_L5_I11",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[was|era]])",
           "title": "Pronunciación: Outdoor Activities",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1532,7 +1724,7 @@
         {
           "interaction_id": "U39_L5_I12",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[was|era]])",
           "title": "Pronunciación: Outdoor Activities",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1571,7 +1763,7 @@
         {
           "interaction_id": "U39_L5_I13",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[was|era]])",
           "title": "Pronunciación: Outdoor Activities",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1610,7 +1802,7 @@
         {
           "interaction_id": "U39_L5_I14",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[was|era]])",
           "title": "Pronunciación: Outdoor Activities",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1649,7 +1841,7 @@
         {
           "interaction_id": "U39_L5_I15",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[was|era]])",
           "title": "Pronunciación: Outdoor Activities",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [

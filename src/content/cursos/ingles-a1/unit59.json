@@ -20,7 +20,7 @@
         {
           "interaction_id": "A1_U59_B1_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué actividad haces con un libro?",
+          "prompt_es": "¿Qué actividad haces con un libro? ([[read a book|leer un libro]])",
           "options": [
             {
               "id": "o1",
@@ -85,7 +85,7 @@
         {
           "interaction_id": "A1_U59_B1_I3",
           "type": "short_writing",
-          "prompt_es": "Escribe 'bailar' en inglés:",
+          "prompt_es": "Escribe 'bailar' en inglés: ([[swimming|natación]])",
           "stimulus_es": "Bailar",
           "correct_answer": "Dance",
           "mastery_tag": "vocabulary",
@@ -98,7 +98,7 @@
         {
           "interaction_id": "A1_U59_B1_I4",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué haces con una consola?",
+          "prompt_es": "¿Qué haces con una consola? ([[play|jugar/tocar]])",
           "options": [
             {
               "id": "o1",
@@ -130,7 +130,7 @@
         {
           "interaction_id": "A1_U59_B2_I1",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'Me gusta NADAR'",
+          "prompt_es": "Completa: 'Me gusta NADAR' ([[swimming|natación]])",
           "stimulus_en": "I like ________.",
           "correct_answer": "swimming",
           "mastery_tag": "grammar",
@@ -143,7 +143,7 @@
         {
           "interaction_id": "A1_U59_B2_I2",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Ella ama cocinar para sus amigos'",
+          "prompt_es": "Ordena: 'Ella ama cocinar para sus amigos' ([[swimming|natación]])",
           "options": [
             {
               "id": "w1",
@@ -188,7 +188,7 @@
         {
           "interaction_id": "A1_U59_B2_I3",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo dices que 'odias' algo?",
+          "prompt_es": "¿Cómo dices que 'odias' algo? ([[swimming|natación]])",
           "options": [
             {
               "id": "o1",
@@ -214,7 +214,7 @@
         {
           "interaction_id": "A1_U59_B2_I4",
           "type": "fill_blanks",
-          "prompt_es": "Completa: 'No me gusta ESCUCHAR música rock'",
+          "prompt_es": "Completa: 'No me gusta ESCUCHAR música rock' ([[swimming|natación]])",
           "stimulus_en": "I don't like ________ to rock music.",
           "correct_answer": "listening",
           "mastery_tag": "grammar",
@@ -227,7 +227,7 @@
         {
           "interaction_id": "A1_U59_B2_I5",
           "type": "audio_player",
-          "prompt_es": "Escucha las preferencias:",
+          "prompt_es": "Escucha las preferencias: ([[swimming|natación]])",
           "audioUrl": "/audio/courses/ingles-a1/shared/preferences_ing.mp3",
           "text": "I enjoy walking in the park and I love reading books.",
           "mastery_tag": "listening",
@@ -285,7 +285,7 @@
         {
           "interaction_id": "A1_U59_B3_I2",
           "type": "multiple_choice",
-          "prompt_es": "¿Qué haces en el cine?",
+          "prompt_es": "¿Qué haces en el cine? ([[swimming|natación]])",
           "options": [
             {
               "id": "o1",
@@ -311,7 +311,7 @@
         {
           "interaction_id": "A1_U59_B3_I3",
           "type": "short_writing",
-          "prompt_es": "Escribe 'escuchar música' en inglés:",
+          "prompt_es": "Escribe 'escuchar música' en inglés: ([[swimming|natación]])",
           "stimulus_es": "Escuchar música",
           "correct_answer": "Listen to music",
           "mastery_tag": "vocabulary",
@@ -324,7 +324,7 @@
         {
           "interaction_id": "A1_U59_B3_I4",
           "type": "true_false",
-          "prompt_es": "'Spare time' significa tiempo libre.",
+          "prompt_es": "'Spare time' significa tiempo libre. ([[swimming|natación]])",
           "correct_answer": true,
           "mastery_tag": "vocabulary",
           "complexity": 1,
@@ -342,7 +342,7 @@
         {
           "interaction_id": "A1_U59_B4_I2",
           "type": "fill_blanks",
-          "prompt_es": "Completa con la forma -ing:",
+          "prompt_es": "Completa con la forma -ing: ([[dance|bailar]])",
           "stimulus_en": "I love ________ (read) and I enjoy ________ (dance).",
           "correct_answer": "reading, dancing",
           "mastery_tag": "grammar",
@@ -355,7 +355,7 @@
         {
           "interaction_id": "A1_U59_B4_I3",
           "type": "short_writing",
-          "prompt_es": "Traduce: 'Me gusta escuchar música'",
+          "prompt_es": "Traduce: 'Me gusta escuchar música' ([[swimming|natación]])",
           "stimulus_es": "I like listening to music.",
           "correct_answer": "I like listening to music",
           "mastery_tag": "grammar",
@@ -376,7 +376,7 @@
             },
             {
               "id": "o2",
-              "text": "Swimming"
+              "text": "[[Swimming|natación]]"
             },
             {
               "id": "o3",
@@ -400,7 +400,7 @@
         {
           "interaction_id": "U59_I101",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[reading|lectura]])",
           "stimulus_en": "I like reading books.",
           "correct_answer": "I like reading books.",
           "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-1.mp3",
@@ -414,7 +414,7 @@
         {
           "interaction_id": "U59_I102",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[cook|cocinar]])",
           "stimulus_en": "She loves cooking dinner.",
           "correct_answer": "She loves cooking dinner.",
           "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-2.mp3",
@@ -428,7 +428,7 @@
         {
           "interaction_id": "U59_I103",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[swimming|natación]])",
           "stimulus_en": "They enjoy swimming.",
           "correct_answer": "They enjoy swimming.",
           "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-3.mp3",
@@ -442,7 +442,7 @@
         {
           "interaction_id": "U59_I104",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[swimming|natación]])",
           "stimulus_en": "I hate dancing.",
           "correct_answer": "I hate dancing.",
           "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-4.mp3",
@@ -456,7 +456,7 @@
         {
           "interaction_id": "U59_I105",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[swimming|natación]])",
           "stimulus_en": "We meet friends on Sunday.",
           "correct_answer": "We meet friends on Sunday.",
           "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-5.mp3",
@@ -470,7 +470,7 @@
         {
           "interaction_id": "U59_I106",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[swimming|natación]])",
           "stimulus_en": "I watch movies in my spare time.",
           "correct_answer": "I watch movies in my spare time.",
           "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-6.mp3",
@@ -484,7 +484,7 @@
         {
           "interaction_id": "U59_I107",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes:",
+          "prompt_es": "Escucha y escribe lo que oyes: ([[play|jugar/tocar]])",
           "stimulus_en": "He likes playing video games.",
           "correct_answer": "He likes playing video games.",
           "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-7.mp3",
@@ -498,7 +498,7 @@
         {
           "interaction_id": "U59_I108",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[swimming|natación]])",
           "title": "Pronunciación: Reading",
           "instructions": "La 'ea' suena como /iː/.",
           "targetSentences": [
@@ -537,7 +537,7 @@
         {
           "interaction_id": "U59_I109",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[swimming|natación]])",
           "title": "Pronunciación: Dancing",
           "instructions": "Escucha y repite la 'a' larga en inglés británico.",
           "targetSentences": [
@@ -576,7 +576,7 @@
         {
           "interaction_id": "U59_I110",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[swimming|natación]])",
           "title": "Pronunciación: Swimming",
           "instructions": "Escucha y repite la 'i' corta.",
           "targetSentences": [
@@ -615,7 +615,7 @@
         {
           "interaction_id": "U59_I111",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[swimming|natación]])",
           "title": "Pronunciación: Hobby",
           "instructions": "Escucha y repite la 'h' aspirada.",
           "targetSentences": [
@@ -654,7 +654,7 @@
         {
           "interaction_id": "U59_I112",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[swimming|natación]])",
           "title": "Pronunciación: Spare time",
           "instructions": "Escucha y repite la frase.",
           "targetSentences": [
@@ -693,7 +693,7 @@
         {
           "interaction_id": "U59_I113",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[swimming|natación]])",
           "title": "Pronunciación: Movie",
           "instructions": "La 'ie' suena como /i/.",
           "targetSentences": [
@@ -732,7 +732,7 @@
         {
           "interaction_id": "U59_I114",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[swimming|natación]])",
           "title": "Pronunciación: Cooking",
           "instructions": "La 'oo' suena como /ʊ/ corta.",
           "targetSentences": [
@@ -771,7 +771,7 @@
         {
           "interaction_id": "U59_I115",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[swimming|natación]])",
           "title": "Pronunciación: Preferences",
           "instructions": "Escucha y repite la palabra completa.",
           "targetSentences": [
@@ -819,18 +819,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Swimming"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Tennis"
             },
             {
               "id": "o3",
-              "text": "Pounds"
+              "text": "Gardening"
+            },
+            {
+              "id": "o4",
+              "text": "[[Pounds|pounds]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -840,18 +844,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Dollars"
+              "text": "Chess"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Cycling"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Dollars|dollars]]"
+            },
+            {
+              "id": "o4",
+              "text": "Swimming"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -861,18 +869,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Euros|euros]]"
             },
             {
               "id": "o2",
-              "text": "Euros"
+              "text": "Yoga"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Cycling"
+            },
+            {
+              "id": "o4",
+              "text": "Gardening"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -882,18 +894,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Chess"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "[[Cash|cash]]"
             },
             {
               "id": "o3",
-              "text": "Cash"
+              "text": "Cycling"
+            },
+            {
+              "id": "o4",
+              "text": "Swimming"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -903,18 +919,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Card"
+              "text": "Photography"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Gardening"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Tennis"
+            },
+            {
+              "id": "o4",
+              "text": "[[Card|card]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -924,18 +944,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Photography"
             },
             {
               "id": "o2",
-              "text": "Change"
+              "text": "Tennis"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "[[Change|change]]"
+            },
+            {
+              "id": "o4",
+              "text": "Football"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -945,18 +969,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Photography"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "[[Price|price]]"
             },
             {
               "id": "o3",
-              "text": "Price"
+              "text": "Football"
+            },
+            {
+              "id": "o4",
+              "text": "Gardening"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -966,18 +994,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Pounds"
+              "text": "Chess"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Pounds|pounds]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Football"
+            },
+            {
+              "id": "o4",
+              "text": "Hiking"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -987,18 +1019,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Yoga"
             },
             {
               "id": "o2",
-              "text": "Dollars"
+              "text": "Reading"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Swimming"
+            },
+            {
+              "id": "o4",
+              "text": "[[Dollars|dollars]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1008,18 +1044,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Euros|euros]]"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Painting"
             },
             {
               "id": "o3",
-              "text": "Euros"
+              "text": "Photography"
+            },
+            {
+              "id": "o4",
+              "text": "Cycling"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1029,18 +1069,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Cash"
+              "text": "Reading"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Cash|cash]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Hiking"
+            },
+            {
+              "id": "o4",
+              "text": "Chess"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1050,18 +1094,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Card|card]]"
             },
             {
               "id": "o2",
-              "text": "Card"
+              "text": "Tennis"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Reading"
+            },
+            {
+              "id": "o4",
+              "text": "Yoga"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1071,15 +1119,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Chess"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Yoga"
             },
             {
               "id": "o3",
-              "text": "Change"
+              "text": "[[Change|change]]"
+            },
+            {
+              "id": "o4",
+              "text": "Gardening"
             }
           ],
           "correct_answer": "o3",
@@ -1092,15 +1144,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Price"
+              "text": "[[Price|price]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Reading"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Chess"
+            },
+            {
+              "id": "o4",
+              "text": "Yoga"
             }
           ],
           "correct_answer": "o1",
@@ -1113,18 +1169,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Pounds|pounds]]"
             },
             {
               "id": "o2",
-              "text": "Pounds"
+              "text": "Hiking"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Cycling"
+            },
+            {
+              "id": "o4",
+              "text": "Reading"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1134,15 +1194,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Painting"
             },
             {
               "id": "o2",
-              "text": "Other word"
+              "text": "Gardening"
             },
             {
               "id": "o3",
-              "text": "Dollars"
+              "text": "[[Dollars|dollars]]"
+            },
+            {
+              "id": "o4",
+              "text": "Tennis"
             }
           ],
           "correct_answer": "o3",
@@ -1155,18 +1219,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Euros"
+              "text": "Chess"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Euros|euros]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Cycling"
+            },
+            {
+              "id": "o4",
+              "text": "Reading"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1176,15 +1244,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Tennis"
             },
             {
               "id": "o2",
-              "text": "Cash"
+              "text": "[[Cash|cash]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Yoga"
+            },
+            {
+              "id": "o4",
+              "text": "Painting"
             }
           ],
           "correct_answer": "o2",
@@ -1197,15 +1269,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Tennis"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Yoga"
             },
             {
               "id": "o3",
-              "text": "Card"
+              "text": "[[Card|card]]"
+            },
+            {
+              "id": "o4",
+              "text": "Swimming"
             }
           ],
           "correct_answer": "o3",
@@ -1218,18 +1294,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Change"
+              "text": "Tennis"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Change|change]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Painting"
+            },
+            {
+              "id": "o4",
+              "text": "Football"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1239,18 +1319,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Price|price]]"
             },
             {
               "id": "o2",
-              "text": "Price"
+              "text": "Cycling"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Photography"
+            },
+            {
+              "id": "o4",
+              "text": "Football"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1260,18 +1344,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "[[Pounds|pounds]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Yoga"
             },
             {
               "id": "o3",
-              "text": "Pounds"
+              "text": "Chess"
+            },
+            {
+              "id": "o4",
+              "text": "Photography"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1281,18 +1369,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Dollars"
+              "text": "Swimming"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Tennis"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Yoga"
+            },
+            {
+              "id": "o4",
+              "text": "[[Dollars|dollars]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1302,18 +1394,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "[[Euros|euros]]"
             },
             {
               "id": "o2",
-              "text": "Euros"
+              "text": "Swimming"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Cycling"
+            },
+            {
+              "id": "o4",
+              "text": "Gardening"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1323,18 +1419,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "Gardening"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Hiking"
             },
             {
               "id": "o3",
-              "text": "Cash"
+              "text": "Chess"
+            },
+            {
+              "id": "o4",
+              "text": "[[Cash|cash]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o4",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1344,15 +1444,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Card"
+              "text": "[[Card|card]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Football"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Hiking"
+            },
+            {
+              "id": "o4",
+              "text": "Tennis"
             }
           ],
           "correct_answer": "o1",
@@ -1365,15 +1469,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Wrong word"
+              "text": "Yoga"
             },
             {
               "id": "o2",
-              "text": "Change"
+              "text": "[[Change|change]]"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Painting"
+            },
+            {
+              "id": "o4",
+              "text": "Photography"
             }
           ],
           "correct_answer": "o2",
@@ -1386,18 +1494,22 @@
           "options": [
             {
               "id": "o1",
-              "text": "Other word"
+              "text": "[[Price|price]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Photography"
             },
             {
               "id": "o3",
-              "text": "Price"
+              "text": "Cycling"
+            },
+            {
+              "id": "o4",
+              "text": "Yoga"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o1",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1407,15 +1519,19 @@
           "options": [
             {
               "id": "o1",
-              "text": "Pounds"
+              "text": "[[Pounds|pounds]]"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Yoga"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Painting"
+            },
+            {
+              "id": "o4",
+              "text": "Photography"
             }
           ],
           "correct_answer": "o1",
@@ -1430,7 +1546,7 @@
         {
           "interaction_id": "U59_L5_I1",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[swimming|natación]])",
           "audio_url": "/audio/courses/ingles-a1/unit59/lesson5-task-1.mp3",
           "transcript_template": "The [[pounds|]] is here.",
           "correct_answer": "pounds",
@@ -1444,7 +1560,7 @@
         {
           "interaction_id": "U59_L5_I2",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[swimming|natación]])",
           "audio_url": "/audio/courses/ingles-a1/unit59/lesson5-task-2.mp3",
           "transcript_template": "The [[dollars|]] is here.",
           "correct_answer": "dollars",
@@ -1458,7 +1574,7 @@
         {
           "interaction_id": "U59_L5_I3",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[swimming|natación]])",
           "audio_url": "/audio/courses/ingles-a1/unit59/lesson5-task-3.mp3",
           "transcript_template": "The [[euros|]] is here.",
           "correct_answer": "euros",
@@ -1472,7 +1588,7 @@
         {
           "interaction_id": "U59_L5_I4",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[swimming|natación]])",
           "audio_url": "/audio/courses/ingles-a1/unit59/lesson5-task-4.mp3",
           "transcript_template": "The [[cash|]] is here.",
           "correct_answer": "cash",
@@ -1486,7 +1602,7 @@
         {
           "interaction_id": "U59_L5_I5",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[swimming|natación]])",
           "audio_url": "/audio/courses/ingles-a1/unit59/lesson5-task-5.mp3",
           "transcript_template": "The [[card|]] is here.",
           "correct_answer": "card",
@@ -1500,7 +1616,7 @@
         {
           "interaction_id": "U59_L5_I6",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[swimming|natación]])",
           "audio_url": "/audio/courses/ingles-a1/unit59/lesson5-task-6.mp3",
           "transcript_template": "The [[change|]] is here.",
           "correct_answer": "change",
@@ -1514,7 +1630,7 @@
         {
           "interaction_id": "U59_L5_I7",
           "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase:",
+          "prompt_es": "Escucha y completa la frase: ([[swimming|natación]])",
           "audio_url": "/audio/courses/ingles-a1/unit59/lesson5-task-7.mp3",
           "transcript_template": "The [[price|]] is here.",
           "correct_answer": "price",
@@ -1528,7 +1644,7 @@
         {
           "interaction_id": "U59_L5_I8",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[swimming|natación]])",
           "title": "Pronunciación: Money & Currency",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1567,7 +1683,7 @@
         {
           "interaction_id": "U59_L5_I9",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[swimming|natación]])",
           "title": "Pronunciación: Money & Currency",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1606,7 +1722,7 @@
         {
           "interaction_id": "U59_L5_I10",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[swimming|natación]])",
           "title": "Pronunciación: Money & Currency",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1645,7 +1761,7 @@
         {
           "interaction_id": "U59_L5_I11",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[swimming|natación]])",
           "title": "Pronunciación: Money & Currency",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1684,7 +1800,7 @@
         {
           "interaction_id": "U59_L5_I12",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[swimming|natación]])",
           "title": "Pronunciación: Money & Currency",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1723,7 +1839,7 @@
         {
           "interaction_id": "U59_L5_I13",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[swimming|natación]])",
           "title": "Pronunciación: Money & Currency",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1762,7 +1878,7 @@
         {
           "interaction_id": "U59_L5_I14",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[swimming|natación]])",
           "title": "Pronunciación: Money & Currency",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
@@ -1801,7 +1917,7 @@
         {
           "interaction_id": "U59_L5_I15",
           "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación:",
+          "prompt_es": "Escucha y practica la pronunciación: ([[swimming|natación]])",
           "title": "Pronunciación: Money & Currency",
           "instructions": "Escucha y repite la frase enfocándote en la entonación.",
           "targetSentences": [
