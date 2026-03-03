@@ -15,17 +15,17 @@ export const UNIT_43_EXERCISES: Exercise[] = [
           "question": "Visit",
           "options": [
             "[[Quedarse / Alojarse|Quedarse / Alojarse]]",
-            "[[Visitar|Visitar]]",
+            "[[Visit|Visitar]]",
             "[[Llegar|Llegar]]",
-            "[[Viajar|Viajar]]"
+            "[[Travel|Viajar]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Stay",
           "options": [
-            "[[Visitar|Visitar]]",
-            "[[Viajar|Viajar]]",
+            "[[Visit|Visitar]]",
+            "[[Travel|Viajar]]",
             "[[Quedarse / Alojarse|Quedarse / Alojarse]]",
             "[[Llegar|Llegar]]"
           ],
@@ -35,9 +35,9 @@ export const UNIT_43_EXERCISES: Exercise[] = [
           "question": "Arrive",
           "options": [
             "[[Llegar|Llegar]]",
-            "[[Viajar|Viajar]]",
+            "[[Travel|Viajar]]",
             "[[Quedarse / Alojarse|Quedarse / Alojarse]]",
-            "[[Visitar|Visitar]]"
+            "[[Visit|Visitar]]"
           ],
           "correctAnswer": 0
         },
@@ -45,8 +45,8 @@ export const UNIT_43_EXERCISES: Exercise[] = [
           "question": "Travel",
           "options": [
             "[[Llegar|Llegar]]",
-            "[[Viajar|Viajar]]",
-            "[[Visitar|Visitar]]",
+            "[[Travel|Viajar]]",
+            "[[Visit|Visitar]]",
             "[[Quedarse / Alojarse|Quedarse / Alojarse]]"
           ],
           "correctAnswer": 1
@@ -533,7 +533,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Visitar|Visitar]]",
+            "[[Visit|Visitar]]",
             "[[We arrive at the airport early.|We arrive at the airport early.]]"
           ],
           "correctAnswer": 1,

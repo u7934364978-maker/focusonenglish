@@ -190,9 +190,9 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "¿Qué significa 'under the sink'?",
           "options": [
-            "[[Debajo del fregadero|Debajo del fregadero]]",
-            "[[Encima del fregadero|Encima del fregadero]]",
-            "[[Detrás del fregadero|Detrás del fregadero]]"
+            "[[Under the sink|Debajo del fregadero]]",
+            "[[Above the sink|Encima del fregadero]]",
+            "[[Behind the sink|Detrás del fregadero]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -239,8 +239,8 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "Cupboard",
           "options": [
-            "[[Cubo de basura|Cubo de basura]]",
-            "[[Cajón|Cajón]]",
+            "[[Bin|Cubo de basura]]",
+            "[[Drawer|Cajón]]",
             "[[Estante|Estante]]",
             "[[Wardrobe|Armario]]"
           ],
@@ -249,9 +249,9 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "Shelf",
           "options": [
-            "[[Cajón|Cajón]]",
+            "[[Drawer|Cajón]]",
             "[[Wardrobe|Armario]]",
-            "[[Cubo de basura|Cubo de basura]]",
+            "[[Bin|Cubo de basura]]",
             "[[Estante|Estante]]"
           ],
           "correctAnswer": 3
@@ -259,20 +259,20 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "Drawer",
           "options": [
-            "[[Cubo de basura|Cubo de basura]]",
+            "[[Bin|Cubo de basura]]",
             "[[Wardrobe|Armario]]",
             "[[Estante|Estante]]",
-            "[[Cajón|Cajón]]"
+            "[[Drawer|Cajón]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Bin",
           "options": [
-            "[[Cubo de basura|Cubo de basura]]",
+            "[[Bin|Cubo de basura]]",
             "[[Wardrobe|Armario]]",
             "[[Estante|Estante]]",
-            "[[Cajón|Cajón]]"
+            "[[Drawer|Cajón]]"
           ],
           "correctAnswer": 0
         }
@@ -492,7 +492,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
         {
           "question": "",
           "options": [
-            "[[Cubo de basura|Cubo de basura]]",
+            "[[Bin|Cubo de basura]]",
             "[[The cups are on the shelf.|The cups are on the shelf.]]"
           ],
           "correctAnswer": 1,

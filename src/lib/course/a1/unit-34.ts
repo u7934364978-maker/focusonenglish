@@ -14,9 +14,9 @@ export const UNIT_34_EXERCISES: Exercise[] = [
         {
           "question": "And",
           "options": [
-            "[[Añadir información (+)|Añadir información (+)]]",
-            "[[Dar una razón (¿Por qué?)|Dar una razón (¿Por qué?)]]",
-            "[[Contrastar ideas (+/-)|Contrastar ideas (+/-)]]",
+            "[[Adding information (+)|Añadir información (+)]]",
+            "[[Giving a reason (Why?)|Dar una razón (¿Por qué?)]]",
+            "[[Contrasting ideas (+/-)|Contrastar ideas (+/-)]]",
             "[[o1|opción 1]]"
           ],
           "correctAnswer": 0
@@ -24,9 +24,9 @@ export const UNIT_34_EXERCISES: Exercise[] = [
         {
           "question": "But",
           "options": [
-            "[[Dar una razón (¿Por qué?)|Dar una razón (¿Por qué?)]]",
-            "[[Añadir información (+)|Añadir información (+)]]",
-            "[[Contrastar ideas (+/-)|Contrastar ideas (+/-)]]",
+            "[[Giving a reason (Why?)|Dar una razón (¿Por qué?)]]",
+            "[[Adding information (+)|Añadir información (+)]]",
+            "[[Contrasting ideas (+/-)|Contrastar ideas (+/-)]]",
             "[[o1|opción 1]]"
           ],
           "correctAnswer": 2
@@ -35,9 +35,9 @@ export const UNIT_34_EXERCISES: Exercise[] = [
           "question": "Because",
           "options": [
             "[[o1|opción 1]]",
-            "[[Contrastar ideas (+/-)|Contrastar ideas (+/-)]]",
-            "[[Dar una razón (¿Por qué?)|Dar una razón (¿Por qué?)]]",
-            "[[Añadir información (+)|Añadir información (+)]]"
+            "[[Contrasting ideas (+/-)|Contrastar ideas (+/-)]]",
+            "[[Giving a reason (Why?)|Dar una razón (¿Por qué?)]]",
+            "[[Adding information (+)|Añadir información (+)]]"
           ],
           "correctAnswer": 2
         }
@@ -1644,7 +1644,7 @@ export const UNIT_34_EXERCISES: Exercise[] = [
         {
           "question": "The [[so|so]] is here.",
           "options": [
-            "[[Añadir información (+)|Añadir información (+)]]",
+            "[[Adding information (+)|Añadir información (+)]]",
             "[[so|so]]"
           ],
           "correctAnswer": 1,

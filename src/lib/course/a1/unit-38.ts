@@ -14,7 +14,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
         {
           "question": "Wash the dishes",
           "options": [
-            "[[Barrer el suelo|Barrer el suelo]]",
+            "[[Sweep the floor|Barrer el suelo]]",
             "[[Lavar los platos|Lavar los platos]]",
             "[[Hacer la cama|Hacer la cama]]",
             "[[Hacer la colada|Hacer la colada]]"
@@ -27,7 +27,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
             "[[Hacer la cama|Hacer la cama]]",
             "[[Lavar los platos|Lavar los platos]]",
             "[[Hacer la colada|Hacer la colada]]",
-            "[[Barrer el suelo|Barrer el suelo]]"
+            "[[Sweep the floor|Barrer el suelo]]"
           ],
           "correctAnswer": 3
         },
@@ -36,7 +36,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
           "options": [
             "[[Hacer la colada|Hacer la colada]]",
             "[[Hacer la cama|Hacer la cama]]",
-            "[[Barrer el suelo|Barrer el suelo]]",
+            "[[Sweep the floor|Barrer el suelo]]",
             "[[Lavar los platos|Lavar los platos]]"
           ],
           "correctAnswer": 0
@@ -46,7 +46,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
           "options": [
             "[[Lavar los platos|Lavar los platos]]",
             "[[Hacer la colada|Hacer la colada]]",
-            "[[Barrer el suelo|Barrer el suelo]]",
+            "[[Sweep the floor|Barrer el suelo]]",
             "[[Hacer la cama|Hacer la cama]]"
           ],
           "correctAnswer": 3

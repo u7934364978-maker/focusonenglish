@@ -40,7 +40,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
         {
           "question": "Rug",
           "options": [
-            "[[Alfombra|Alfombra]]",
+            "[[Carpet|Alfombra]]",
             "[[Jarrón|Jarrón]]",
             "[[Lámpara|Lámpara]]",
             "[[Reloj de pared|Reloj de pared]]"
@@ -51,7 +51,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
           "question": "Vase",
           "options": [
             "[[Lámpara|Lámpara]]",
-            "[[Alfombra|Alfombra]]",
+            "[[Carpet|Alfombra]]",
             "[[Jarrón|Jarrón]]",
             "[[Reloj de pared|Reloj de pared]]"
           ],
@@ -63,7 +63,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
             "[[Jarrón|Jarrón]]",
             "[[Reloj de pared|Reloj de pared]]",
             "[[Lámpara|Lámpara]]",
-            "[[Alfombra|Alfombra]]"
+            "[[Carpet|Alfombra]]"
           ],
           "correctAnswer": 1
         },
@@ -71,7 +71,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
           "question": "Lamp",
           "options": [
             "[[Reloj de pared|Reloj de pared]]",
-            "[[Alfombra|Alfombra]]",
+            "[[Carpet|Alfombra]]",
             "[[Jarrón|Jarrón]]",
             "[[Lámpara|Lámpara]]"
           ],
@@ -516,7 +516,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[I have two lamps.|I have two lamps.]]",
-            "[[Alfombra|Alfombra]]"
+            "[[Carpet|Alfombra]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."
@@ -1572,7 +1572,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
           "question": "The [[fry|fry]] is here.",
           "options": [
             "[[fry|fry]]",
-            "[[Alfombra|Alfombra]]"
+            "[[Carpet|Alfombra]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

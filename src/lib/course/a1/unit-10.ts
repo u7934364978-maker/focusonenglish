@@ -985,7 +985,7 @@ export const UNIT_10_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Vocabulary: Adjectives|Vocabulario: Adjetivos]]",
       "instructions": "[[Identify the adjective|Identifica el adjetivo]].",
-      "question": "[[Amable|Amable]] = (____).",
+      "question": "[[Friendly|Amable]] = (____).",
       "options": ["[[kind|amable]]", "[[angry|enfadado]]", "[[sad|triste]]"],
       "correctAnswer": 0,
       "explanation": "[[Kind means amable|Kind significa amable]]."

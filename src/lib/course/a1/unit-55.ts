@@ -40,10 +40,10 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "Shop assistant",
           "options": [
-            "[[Dependiente/a|Dependiente/a]]",
+            "[[Shop assistant|Dependiente/a]]",
             "[[Etiqueta|Etiqueta]]",
             "[[Rebajas|Rebajas]]",
-            "[[Cliente|Cliente]]"
+            "[[Customer|Cliente]]"
           ],
           "correctAnswer": 0
         },
@@ -51,9 +51,9 @@ export const UNIT_55_EXERCISES: Exercise[] = [
           "question": "Customer",
           "options": [
             "[[Rebajas|Rebajas]]",
-            "[[Cliente|Cliente]]",
+            "[[Customer|Cliente]]",
             "[[Etiqueta|Etiqueta]]",
-            "[[Dependiente/a|Dependiente/a]]"
+            "[[Shop assistant|Dependiente/a]]"
           ],
           "correctAnswer": 1
         },
@@ -61,9 +61,9 @@ export const UNIT_55_EXERCISES: Exercise[] = [
           "question": "Price tag",
           "options": [
             "[[Etiqueta|Etiqueta]]",
-            "[[Cliente|Cliente]]",
+            "[[Customer|Cliente]]",
             "[[Rebajas|Rebajas]]",
-            "[[Dependiente/a|Dependiente/a]]"
+            "[[Shop assistant|Dependiente/a]]"
           ],
           "correctAnswer": 0
         },
@@ -72,8 +72,8 @@ export const UNIT_55_EXERCISES: Exercise[] = [
           "options": [
             "[[Etiqueta|Etiqueta]]",
             "[[Rebajas|Rebajas]]",
-            "[[Dependiente/a|Dependiente/a]]",
-            "[[Cliente|Cliente]]"
+            "[[Shop assistant|Dependiente/a]]",
+            "[[Customer|Cliente]]"
           ],
           "correctAnswer": 1
         }
@@ -119,8 +119,8 @@ export const UNIT_55_EXERCISES: Exercise[] = [
         {
           "question": "¿Qué significa 'on sale'?",
           "options": [
-            "[[En oferta / rebajado|En oferta / rebajado]]",
-            "[[Cerrado|Cerrado]]",
+            "[[On sale / reduced|En oferta / rebajado]]",
+            "[[Closed|Cerrado]]",
             "[[Nuevo|Nuevo]]"
           ],
           "correctAnswer": 0,
@@ -146,7 +146,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
           "options": [
             "[[Can|Can]]",
             "[[o1|opción 1]]",
-            "[[Cliente|Cliente]]",
+            "[[Customer|Cliente]]",
             "[[Do you have this in blue?|Do you have this in blue?]]"
           ],
           "correctAnswer": 0
@@ -217,7 +217,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
           "options": [
             "[[have|have]]",
             "[[try on|probarse]]",
-            "[[Cliente|Cliente]]",
+            "[[Customer|Cliente]]",
             "[[o1|opción 1]]"
           ],
           "correctAnswer": 0

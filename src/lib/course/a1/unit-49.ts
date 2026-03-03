@@ -41,19 +41,19 @@ export const UNIT_49_EXERCISES: Exercise[] = [
           "question": "Sunscreen",
           "options": [
             "[[Protector solar|Protector solar]]",
-            "[[Bañador|Bañador]]",
+            "[[Swimsuit|Bañador]]",
             "[[Gafas de sol|Gafas de sol]]",
-            "[[Cargador|Cargador]]"
+            "[[Charger|Cargador]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Sunglasses",
           "options": [
-            "[[Cargador|Cargador]]",
+            "[[Charger|Cargador]]",
             "[[Gafas de sol|Gafas de sol]]",
             "[[Protector solar|Protector solar]]",
-            "[[Bañador|Bañador]]"
+            "[[Swimsuit|Bañador]]"
           ],
           "correctAnswer": 1
         },
@@ -61,9 +61,9 @@ export const UNIT_49_EXERCISES: Exercise[] = [
           "question": "Charger",
           "options": [
             "[[Gafas de sol|Gafas de sol]]",
-            "[[Cargador|Cargador]]",
+            "[[Charger|Cargador]]",
             "[[Protector solar|Protector solar]]",
-            "[[Bañador|Bañador]]"
+            "[[Swimsuit|Bañador]]"
           ],
           "correctAnswer": 1
         },
@@ -71,9 +71,9 @@ export const UNIT_49_EXERCISES: Exercise[] = [
           "question": "Swimsuit",
           "options": [
             "[[Protector solar|Protector solar]]",
-            "[[Bañador|Bañador]]",
+            "[[Swimsuit|Bañador]]",
             "[[Gafas de sol|Gafas de sol]]",
-            "[[Cargador|Cargador]]"
+            "[[Charger|Cargador]]"
           ],
           "correctAnswer": 1
         }

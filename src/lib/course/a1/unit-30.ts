@@ -109,9 +109,9 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "[[How do you say 'shirt'?|¿Cómo se dice 'camisa'?]]",
           "options": [
-            "[[Camisa|Camisa]]",
-            "[[Zapatos|Zapatos]]",
-            "[[Falda|Falda]]"
+            "[[Shirt|Camisa]]",
+            "[[Shoes|Zapatos]]",
+            "[[Skirt|Falda]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -514,10 +514,10 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "There [[aren't|no hay]] ________ [[mirrors|espejos]] here.",
           "options": [
-            "[[Sofá|Sofá]]",
+            "[[Sofa|Sofá]]",
             "[[any|alguno/a]]",
-            "[[Acogedor|Acogedor]]",
-            "[[Oreja|Oreja]]"
+            "[[Cosy|Acogedor]]",
+            "[[Ear|Oreja]]"
           ],
           "correctAnswer": 1
         }
@@ -609,10 +609,10 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "________ the [[street|calle]] [[at|en]] the [[traffic lights|semáforo]].",
           "options": [
-            "[[Mano|Mano]]",
-            "[[Espalda|Espalda]]",
+            "[[Hand|Mano]]",
+            "[[Back|Espalda]]",
             "[[Cross|Cruzar]]",
-            "[[Cara|Cara]]"
+            "[[Face|Cara]]"
           ],
           "correctAnswer": 2
         }
@@ -1002,7 +1002,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
           "question": "Un animal peligroso es un:",
           "options": [
             "[[Tiger|Tigre]]",
-            "[[Conejo|Conejo]]",
+            "[[Rabbit|Conejo]]",
             "[[Hamster|Hamster]]"
           ],
           "correctAnswer": 0,
@@ -1027,9 +1027,9 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "¿Qué habitación es para dormir?",
           "options": [
-            "[[Dormitorio|Dormitorio]]",
-            "[[Cocina|Cocina]]",
-            "[[Baño|Baño]]"
+            "[[Bedroom|Dormitorio]]",
+            "[[Kitchen|Cocina]]",
+            "[[Bathroom|Baño]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1089,7 +1089,7 @@ export const UNIT_30_EXERCISES: Exercise[] = [
           "options": [
             "[[Noisy|Ruidoso]]",
             "[[Quiet|Tranquilo]]",
-            "[[Luminoso|Luminoso]]"
+            "[[Bright|Luminoso]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1379,9 +1379,9 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "¿Qué te pones en los pies?",
           "options": [
-            "[[Zapatos|Zapatos]]",
-            "[[Sombrero|Sombrero]]",
-            "[[Camisa|Camisa]]"
+            "[[Shoes|Zapatos]]",
+            "[[Hat|Sombrero]]",
+            "[[Shirt|Camisa]]"
           ],
           "correctAnswer": 0,
           "explanation": ""
@@ -1499,8 +1499,8 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "¿Cuál es un animal de granja?",
           "options": [
-            "[[Caballo|Caballo]]",
-            "[[León|León]]",
+            "[[Horse|Caballo]]",
+            "[[Lion|León]]",
             "[[Tiger|Tigre]]"
           ],
           "correctAnswer": 0,
@@ -1559,9 +1559,9 @@ export const UNIT_30_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'cocina'?",
           "options": [
-            "[[Cocina|Cocina]]",
-            "[[Baño|Baño]]",
-            "[[Dormitorio|Dormitorio]]"
+            "[[Kitchen|Cocina]]",
+            "[[Bathroom|Baño]]",
+            "[[Bedroom|Dormitorio]]"
           ],
           "correctAnswer": 0,
           "explanation": ""

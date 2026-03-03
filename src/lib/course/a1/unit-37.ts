@@ -15,19 +15,19 @@ export const UNIT_37_EXERCISES: Exercise[] = [
           "question": "Paint",
           "options": [
             "[[Programar|Programar]]",
-            "[[Cocinar|Cocinar]]",
-            "[[Escribir a máquina|Escribir a máquina]]",
-            "[[Pintar|Pintar]]"
+            "[[Cook|Cocinar]]",
+            "[[Type|Escribir a máquina]]",
+            "[[Paint|Pintar]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Type",
           "options": [
-            "[[Cocinar|Cocinar]]",
+            "[[Cook|Cocinar]]",
             "[[Programar|Programar]]",
-            "[[Escribir a máquina|Escribir a máquina]]",
-            "[[Pintar|Pintar]]"
+            "[[Type|Escribir a máquina]]",
+            "[[Paint|Pintar]]"
           ],
           "correctAnswer": 2
         },
@@ -35,19 +35,19 @@ export const UNIT_37_EXERCISES: Exercise[] = [
           "question": "Code",
           "options": [
             "[[Programar|Programar]]",
-            "[[Escribir a máquina|Escribir a máquina]]",
-            "[[Pintar|Pintar]]",
-            "[[Cocinar|Cocinar]]"
+            "[[Type|Escribir a máquina]]",
+            "[[Paint|Pintar]]",
+            "[[Cook|Cocinar]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Cook",
           "options": [
-            "[[Escribir a máquina|Escribir a máquina]]",
-            "[[Cocinar|Cocinar]]",
+            "[[Type|Escribir a máquina]]",
+            "[[Cook|Cocinar]]",
             "[[Programar|Programar]]",
-            "[[Pintar|Pintar]]"
+            "[[Paint|Pintar]]"
           ],
           "correctAnswer": 1
         }
@@ -95,7 +95,7 @@ export const UNIT_37_EXERCISES: Exercise[] = [
           "question": "Fish can ________ underwater. (nadar)",
           "options": [
             "[[swim|swim]]",
-            "[[Escribir a máquina|Escribir a máquina]]",
+            "[[Type|Escribir a máquina]]",
             "[[o1|opción 1]]",
             "[[o1|opción 1]]"
           ],
@@ -1707,7 +1707,7 @@ export const UNIT_37_EXERCISES: Exercise[] = [
         {
           "question": "The [[act|act]] is here.",
           "options": [
-            "[[Escribir a máquina|Escribir a máquina]]",
+            "[[Type|Escribir a máquina]]",
             "[[act|act]]"
           ],
           "correctAnswer": 1,

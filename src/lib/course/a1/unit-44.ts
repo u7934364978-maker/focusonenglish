@@ -17,7 +17,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
             "[[Nublado|Nublado]]",
             "[[Soleado|Soleado]]",
             "[[Lluvioso|Lluvioso]]",
-            "[[Ventoso|Ventoso]]"
+            "[[Windy|Ventoso]]"
           ],
           "correctAnswer": 1
         },
@@ -26,7 +26,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
           "options": [
             "[[Lluvioso|Lluvioso]]",
             "[[Soleado|Soleado]]",
-            "[[Ventoso|Ventoso]]",
+            "[[Windy|Ventoso]]",
             "[[Nublado|Nublado]]"
           ],
           "correctAnswer": 0
@@ -35,7 +35,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
           "question": "Cloudy",
           "options": [
             "[[Lluvioso|Lluvioso]]",
-            "[[Ventoso|Ventoso]]",
+            "[[Windy|Ventoso]]",
             "[[Nublado|Nublado]]",
             "[[Soleado|Soleado]]"
           ],
@@ -47,7 +47,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
             "[[Nublado|Nublado]]",
             "[[Lluvioso|Lluvioso]]",
             "[[Soleado|Soleado]]",
-            "[[Ventoso|Ventoso]]"
+            "[[Windy|Ventoso]]"
           ],
           "correctAnswer": 3
         }

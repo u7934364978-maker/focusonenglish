@@ -17,7 +17,7 @@ export const UNIT_33_EXERCISES: Exercise[] = [
             "[[100% de las veces|100% de las veces]]",
             "[[Frecuentemente (60-70%)|Frecuentemente (60-70%)]]",
             "[[0% de las veces|0% de las veces]]",
-            "[[A veces (40-50%)|A veces (40-50%)]]"
+            "[[Sometimes (40-50%)|A veces (40-50%)]]"
           ],
           "correctAnswer": 0
         },
@@ -27,7 +27,7 @@ export const UNIT_33_EXERCISES: Exercise[] = [
             "[[100% de las veces|100% de las veces]]",
             "[[Frecuentemente (60-70%)|Frecuentemente (60-70%)]]",
             "[[0% de las veces|0% de las veces]]",
-            "[[A veces (40-50%)|A veces (40-50%)]]"
+            "[[Sometimes (40-50%)|A veces (40-50%)]]"
           ],
           "correctAnswer": 1
         },
@@ -35,7 +35,7 @@ export const UNIT_33_EXERCISES: Exercise[] = [
           "question": "Sometimes",
           "options": [
             "[[Frecuentemente (60-70%)|Frecuentemente (60-70%)]]",
-            "[[A veces (40-50%)|A veces (40-50%)]]",
+            "[[Sometimes (40-50%)|A veces (40-50%)]]",
             "[[0% de las veces|0% de las veces]]",
             "[[100% de las veces|100% de las veces]]"
           ],
@@ -44,7 +44,7 @@ export const UNIT_33_EXERCISES: Exercise[] = [
         {
           "question": "Never",
           "options": [
-            "[[A veces (40-50%)|A veces (40-50%)]]",
+            "[[Sometimes (40-50%)|A veces (40-50%)]]",
             "[[100% de las veces|100% de las veces]]",
             "[[Frecuentemente (60-70%)|Frecuentemente (60-70%)]]",
             "[[0% de las veces|0% de las veces]]"
@@ -214,9 +214,9 @@ export const UNIT_33_EXERCISES: Exercise[] = [
         {
           "question": "Once a week",
           "options": [
-            "[[Cada día|Cada día]]",
-            "[[Dos veces al mes|Dos veces al mes]]",
-            "[[Una vez por semana|Una vez por semana]]",
+            "[[Every day|Cada día]]",
+            "[[Twice a month|Dos veces al mes]]",
+            "[[Once a week|Una vez por semana]]",
             "[[o1|opción 1]]"
           ],
           "correctAnswer": 2
@@ -225,19 +225,19 @@ export const UNIT_33_EXERCISES: Exercise[] = [
           "question": "Twice a month",
           "options": [
             "[[o1|opción 1]]",
-            "[[Una vez por semana|Una vez por semana]]",
-            "[[Cada día|Cada día]]",
-            "[[Dos veces al mes|Dos veces al mes]]"
+            "[[Once a week|Una vez por semana]]",
+            "[[Every day|Cada día]]",
+            "[[Twice a month|Dos veces al mes]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Every day",
           "options": [
-            "[[Cada día|Cada día]]",
+            "[[Every day|Cada día]]",
             "[[always|always]]",
-            "[[Dos veces al mes|Dos veces al mes]]",
-            "[[Una vez por semana|Una vez por semana]]"
+            "[[Twice a month|Dos veces al mes]]",
+            "[[Once a week|Una vez por semana]]"
           ],
           "correctAnswer": 0
         }

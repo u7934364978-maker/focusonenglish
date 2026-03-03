@@ -14,40 +14,40 @@ export const UNIT_42_EXERCISES: Exercise[] = [
         {
           "question": "Train",
           "options": [
-            "[[Avión|Avión]]",
-            "[[Barco|Barco]]",
-            "[[Tren|Tren]]",
-            "[[Autobús|Autobús]]"
+            "[[Plane|Avión]]",
+            "[[Ship|Barco]]",
+            "[[Train|Tren]]",
+            "[[Bus|Autobús]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Bus",
           "options": [
-            "[[Barco|Barco]]",
-            "[[Tren|Tren]]",
-            "[[Avión|Avión]]",
-            "[[Autobús|Autobús]]"
+            "[[Ship|Barco]]",
+            "[[Train|Tren]]",
+            "[[Plane|Avión]]",
+            "[[Bus|Autobús]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Plane",
           "options": [
-            "[[Avión|Avión]]",
-            "[[Barco|Barco]]",
-            "[[Autobús|Autobús]]",
-            "[[Tren|Tren]]"
+            "[[Plane|Avión]]",
+            "[[Ship|Barco]]",
+            "[[Bus|Autobús]]",
+            "[[Train|Tren]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Boat",
           "options": [
-            "[[Tren|Tren]]",
-            "[[Avión|Avión]]",
-            "[[Barco|Barco]]",
-            "[[Autobús|Autobús]]"
+            "[[Train|Tren]]",
+            "[[Plane|Avión]]",
+            "[[Ship|Barco]]",
+            "[[Bus|Autobús]]"
           ],
           "correctAnswer": 2
         }

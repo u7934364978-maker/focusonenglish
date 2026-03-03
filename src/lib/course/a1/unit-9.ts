@@ -985,7 +985,7 @@ export const UNIT_9_EXERCISES: Exercise[] = [
     "content": {
       "title": "[[Vocabulary Check|Chequeo de Vocabulario]]",
       "instructions": "[[Choose the correct word|Elige la palabra correcta]].",
-      "question": "[[Enfermera|Enfermera]] = (____).",
+      "question": "[[Nurse|Enfermera]] = (____).",
       "options": ["[[nurse|enfermera]]", "[[doctor|médico]]", "[[dentist|dentista]]"],
       "correctAnswer": 0,
       "explanation": "[[Nurse means enfermera|Nurse significa enfermera]]."

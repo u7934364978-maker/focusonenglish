@@ -14,19 +14,19 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "Food",
           "options": [
-            "[[Dinero|Dinero]]",
-            "[[Comida|Comida]]",
+            "[[Money|Dinero]]",
+            "[[Food|Comida]]",
             "[[Salud|Salud]]",
-            "[[Compras|Compras]]"
+            "[[Shopping|Compras]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Money",
           "options": [
-            "[[Compras|Compras]]",
-            "[[Comida|Comida]]",
-            "[[Dinero|Dinero]]",
+            "[[Shopping|Compras]]",
+            "[[Food|Comida]]",
+            "[[Money|Dinero]]",
             "[[Salud|Salud]]"
           ],
           "correctAnswer": 2
@@ -34,19 +34,19 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "Health",
           "options": [
-            "[[Dinero|Dinero]]",
+            "[[Money|Dinero]]",
             "[[Salud|Salud]]",
-            "[[Compras|Compras]]",
-            "[[Comida|Comida]]"
+            "[[Shopping|Compras]]",
+            "[[Food|Comida]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Shopping",
           "options": [
-            "[[Comida|Comida]]",
-            "[[Dinero|Dinero]]",
-            "[[Compras|Compras]]",
+            "[[Food|Comida]]",
+            "[[Money|Dinero]]",
+            "[[Shopping|Compras]]",
             "[[Salud|Salud]]"
           ],
           "correctAnswer": 2
@@ -68,7 +68,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "I have (algo de) ________ cheese.",
           "options": [
-            "[[Dinero|Dinero]]",
+            "[[Money|Dinero]]",
             "[[some|some]]",
             "[[o1|opción 1]]",
             "[[Health|Health]]"
@@ -189,8 +189,8 @@ export const UNIT_60_EXERCISES: Exercise[] = [
           "options": [
             "[[Salud|Salud]]",
             "[[Restaurante|Restaurante]]",
-            "[[Compras|Compras]]",
-            "[[Dinero|Dinero]]"
+            "[[Shopping|Compras]]",
+            "[[Money|Dinero]]"
           ],
           "correctAnswer": 3
         },
@@ -198,8 +198,8 @@ export const UNIT_60_EXERCISES: Exercise[] = [
           "question": "Health",
           "options": [
             "[[Restaurante|Restaurante]]",
-            "[[Dinero|Dinero]]",
-            "[[Compras|Compras]]",
+            "[[Money|Dinero]]",
+            "[[Shopping|Compras]]",
             "[[Salud|Salud]]"
           ],
           "correctAnswer": 3
@@ -208,8 +208,8 @@ export const UNIT_60_EXERCISES: Exercise[] = [
           "question": "Shopping",
           "options": [
             "[[Salud|Salud]]",
-            "[[Compras|Compras]]",
-            "[[Dinero|Dinero]]",
+            "[[Shopping|Compras]]",
+            "[[Money|Dinero]]",
             "[[Restaurante|Restaurante]]"
           ],
           "correctAnswer": 1
@@ -217,9 +217,9 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "Restaurant",
           "options": [
-            "[[Compras|Compras]]",
+            "[[Shopping|Compras]]",
             "[[Salud|Salud]]",
-            "[[Dinero|Dinero]]",
+            "[[Money|Dinero]]",
             "[[Restaurante|Restaurante]]"
           ],
           "correctAnswer": 3
@@ -361,18 +361,18 @@ export const UNIT_60_EXERCISES: Exercise[] = [
           "question": "Health",
           "options": [
             "[[Salud|Salud]]",
-            "[[Compras|Compras]]",
+            "[[Shopping|Compras]]",
             "[[Restaurante|Restaurante]]",
-            "[[Comida|Comida]]"
+            "[[Food|Comida]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Shopping",
           "options": [
-            "[[Compras|Compras]]",
+            "[[Shopping|Compras]]",
             "[[Restaurante|Restaurante]]",
-            "[[Comida|Comida]]",
+            "[[Food|Comida]]",
             "[[Salud|Salud]]"
           ],
           "correctAnswer": 0
@@ -382,8 +382,8 @@ export const UNIT_60_EXERCISES: Exercise[] = [
           "options": [
             "[[Restaurante|Restaurante]]",
             "[[Salud|Salud]]",
-            "[[Compras|Compras]]",
-            "[[Comida|Comida]]"
+            "[[Shopping|Compras]]",
+            "[[Food|Comida]]"
           ],
           "correctAnswer": 0
         },
@@ -391,8 +391,8 @@ export const UNIT_60_EXERCISES: Exercise[] = [
           "question": "Food",
           "options": [
             "[[Restaurante|Restaurante]]",
-            "[[Compras|Compras]]",
-            "[[Comida|Comida]]",
+            "[[Shopping|Compras]]",
+            "[[Food|Comida]]",
             "[[Salud|Salud]]"
           ],
           "correctAnswer": 2
@@ -415,7 +415,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
           "question": "I have (algo de) ________ cheese.",
           "options": [
             "[[some|some]]",
-            "[[Dinero|Dinero]]",
+            "[[Money|Dinero]]",
             "[[Shopping|Compras]]",
             "[[supermarket|supermercado]]"
           ],
@@ -533,9 +533,9 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "Shopping",
           "options": [
-            "[[Dinero|Dinero]]",
-            "[[Comida|Comida]]",
-            "[[Compras|Compras]]",
+            "[[Money|Dinero]]",
+            "[[Food|Comida]]",
+            "[[Shopping|Compras]]",
             "[[Restaurante|Restaurante]]"
           ],
           "correctAnswer": 2
@@ -543,9 +543,9 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "Restaurant",
           "options": [
-            "[[Comida|Comida]]",
-            "[[Compras|Compras]]",
-            "[[Dinero|Dinero]]",
+            "[[Food|Comida]]",
+            "[[Shopping|Compras]]",
+            "[[Money|Dinero]]",
             "[[Restaurante|Restaurante]]"
           ],
           "correctAnswer": 3
@@ -553,9 +553,9 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "Food",
           "options": [
-            "[[Compras|Compras]]",
-            "[[Dinero|Dinero]]",
-            "[[Comida|Comida]]",
+            "[[Shopping|Compras]]",
+            "[[Money|Dinero]]",
+            "[[Food|Comida]]",
             "[[Restaurante|Restaurante]]"
           ],
           "correctAnswer": 2
@@ -563,10 +563,10 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "Money",
           "options": [
-            "[[Dinero|Dinero]]",
+            "[[Money|Dinero]]",
             "[[Restaurante|Restaurante]]",
-            "[[Compras|Compras]]",
-            "[[Comida|Comida]]"
+            "[[Shopping|Compras]]",
+            "[[Food|Comida]]"
           ],
           "correctAnswer": 0
         }
@@ -587,10 +587,10 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "How (mucho) ________ milk?",
           "options": [
-            "[[Dinero|Dinero]]",
+            "[[Money|Dinero]]",
             "[[Salud|Salud]]",
             "[[much|much]]",
-            "[[Compras|Compras]]"
+            "[[Shopping|Compras]]"
           ],
           "correctAnswer": 2
         }
@@ -707,8 +707,8 @@ export const UNIT_60_EXERCISES: Exercise[] = [
           "question": "Restaurant",
           "options": [
             "[[Salud|Salud]]",
-            "[[Dinero|Dinero]]",
-            "[[Comida|Comida]]",
+            "[[Money|Dinero]]",
+            "[[Food|Comida]]",
             "[[Restaurante|Restaurante]]"
           ],
           "correctAnswer": 3
@@ -716,18 +716,18 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "Food",
           "options": [
-            "[[Dinero|Dinero]]",
+            "[[Money|Dinero]]",
             "[[Salud|Salud]]",
             "[[Restaurante|Restaurante]]",
-            "[[Comida|Comida]]"
+            "[[Food|Comida]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Money",
           "options": [
-            "[[Dinero|Dinero]]",
-            "[[Comida|Comida]]",
+            "[[Money|Dinero]]",
+            "[[Food|Comida]]",
             "[[Salud|Salud]]",
             "[[Restaurante|Restaurante]]"
           ],
@@ -736,8 +736,8 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "Health",
           "options": [
-            "[[Comida|Comida]]",
-            "[[Dinero|Dinero]]",
+            "[[Food|Comida]]",
+            "[[Money|Dinero]]",
             "[[Restaurante|Restaurante]]",
             "[[Salud|Salud]]"
           ],
@@ -880,9 +880,9 @@ export const UNIT_60_EXERCISES: Exercise[] = [
           "question": "Food",
           "options": [
             "[[Salud|Salud]]",
-            "[[Compras|Compras]]",
-            "[[Comida|Comida]]",
-            "[[Dinero|Dinero]]"
+            "[[Shopping|Compras]]",
+            "[[Food|Comida]]",
+            "[[Money|Dinero]]"
           ],
           "correctAnswer": 2
         },
@@ -890,9 +890,9 @@ export const UNIT_60_EXERCISES: Exercise[] = [
           "question": "Money",
           "options": [
             "[[Salud|Salud]]",
-            "[[Compras|Compras]]",
-            "[[Comida|Comida]]",
-            "[[Dinero|Dinero]]"
+            "[[Shopping|Compras]]",
+            "[[Food|Comida]]",
+            "[[Money|Dinero]]"
           ],
           "correctAnswer": 3
         },
@@ -900,19 +900,19 @@ export const UNIT_60_EXERCISES: Exercise[] = [
           "question": "Health",
           "options": [
             "[[Salud|Salud]]",
-            "[[Comida|Comida]]",
-            "[[Dinero|Dinero]]",
-            "[[Compras|Compras]]"
+            "[[Food|Comida]]",
+            "[[Money|Dinero]]",
+            "[[Shopping|Compras]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Shopping",
           "options": [
-            "[[Dinero|Dinero]]",
-            "[[Compras|Compras]]",
+            "[[Money|Dinero]]",
+            "[[Shopping|Compras]]",
             "[[Salud|Salud]]",
-            "[[Comida|Comida]]"
+            "[[Food|Comida]]"
           ],
           "correctAnswer": 1
         }
@@ -935,7 +935,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
           "options": [
             "[[o1|opción 1]]",
             "[[much|much]]",
-            "[[Compras|Compras]]",
+            "[[Shopping|Compras]]",
             "[[o1|opción 1]]"
           ],
           "correctAnswer": 1
@@ -1052,8 +1052,8 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "Money",
           "options": [
-            "[[Compras|Compras]]",
-            "[[Dinero|Dinero]]",
+            "[[Shopping|Compras]]",
+            "[[Money|Dinero]]",
             "[[Restaurante|Restaurante]]",
             "[[Salud|Salud]]"
           ],
@@ -1063,18 +1063,18 @@ export const UNIT_60_EXERCISES: Exercise[] = [
           "question": "Health",
           "options": [
             "[[Salud|Salud]]",
-            "[[Dinero|Dinero]]",
+            "[[Money|Dinero]]",
             "[[Restaurante|Restaurante]]",
-            "[[Compras|Compras]]"
+            "[[Shopping|Compras]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Shopping",
           "options": [
-            "[[Compras|Compras]]",
+            "[[Shopping|Compras]]",
             "[[Salud|Salud]]",
-            "[[Dinero|Dinero]]",
+            "[[Money|Dinero]]",
             "[[Restaurante|Restaurante]]"
           ],
           "correctAnswer": 0
@@ -1083,9 +1083,9 @@ export const UNIT_60_EXERCISES: Exercise[] = [
           "question": "Restaurant",
           "options": [
             "[[Salud|Salud]]",
-            "[[Compras|Compras]]",
+            "[[Shopping|Compras]]",
             "[[Restaurante|Restaurante]]",
-            "[[Dinero|Dinero]]"
+            "[[Money|Dinero]]"
           ],
           "correctAnswer": 2
         }
@@ -1107,8 +1107,8 @@ export const UNIT_60_EXERCISES: Exercise[] = [
           "question": "I have (algo de) ________ cheese.",
           "options": [
             "[[some|some]]",
-            "[[Compras|Compras]]",
-            "[[Dinero|Dinero]]",
+            "[[Shopping|Compras]]",
+            "[[Money|Dinero]]",
             "[[Salud|Salud]]"
           ],
           "correctAnswer": 0
@@ -1225,10 +1225,10 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "Health",
           "options": [
-            "[[Comida|Comida]]",
+            "[[Food|Comida]]",
             "[[Salud|Salud]]",
             "[[Restaurante|Restaurante]]",
-            "[[Compras|Compras]]"
+            "[[Shopping|Compras]]"
           ],
           "correctAnswer": 1
         },
@@ -1236,8 +1236,8 @@ export const UNIT_60_EXERCISES: Exercise[] = [
           "question": "Shopping",
           "options": [
             "[[Salud|Salud]]",
-            "[[Compras|Compras]]",
-            "[[Comida|Comida]]",
+            "[[Shopping|Compras]]",
+            "[[Food|Comida]]",
             "[[Restaurante|Restaurante]]"
           ],
           "correctAnswer": 1
@@ -1245,8 +1245,8 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "Restaurant",
           "options": [
-            "[[Compras|Compras]]",
-            "[[Comida|Comida]]",
+            "[[Shopping|Compras]]",
+            "[[Food|Comida]]",
             "[[Restaurante|Restaurante]]",
             "[[Salud|Salud]]"
           ],
@@ -1256,9 +1256,9 @@ export const UNIT_60_EXERCISES: Exercise[] = [
           "question": "Food",
           "options": [
             "[[Restaurante|Restaurante]]",
-            "[[Comida|Comida]]",
+            "[[Food|Comida]]",
             "[[Salud|Salud]]",
-            "[[Compras|Compras]]"
+            "[[Shopping|Compras]]"
           ],
           "correctAnswer": 1
         }
@@ -1282,7 +1282,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
             "[[Salud|Salud]]",
             "[[much|much]]",
             "[[Salud|Salud]]",
-            "[[Dinero|Dinero]]"
+            "[[Money|Dinero]]"
           ],
           "correctAnswer": 1
         }
@@ -1398,30 +1398,30 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "Shopping",
           "options": [
-            "[[Compras|Compras]]",
-            "[[Comida|Comida]]",
+            "[[Shopping|Compras]]",
+            "[[Food|Comida]]",
             "[[Restaurante|Restaurante]]",
-            "[[Dinero|Dinero]]"
+            "[[Money|Dinero]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Restaurant",
           "options": [
-            "[[Comida|Comida]]",
+            "[[Food|Comida]]",
             "[[Restaurante|Restaurante]]",
-            "[[Compras|Compras]]",
-            "[[Dinero|Dinero]]"
+            "[[Shopping|Compras]]",
+            "[[Money|Dinero]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Food",
           "options": [
-            "[[Comida|Comida]]",
-            "[[Dinero|Dinero]]",
+            "[[Food|Comida]]",
+            "[[Money|Dinero]]",
             "[[Restaurante|Restaurante]]",
-            "[[Compras|Compras]]"
+            "[[Shopping|Compras]]"
           ],
           "correctAnswer": 0
         },
@@ -1429,9 +1429,9 @@ export const UNIT_60_EXERCISES: Exercise[] = [
           "question": "Money",
           "options": [
             "[[Restaurante|Restaurante]]",
-            "[[Dinero|Dinero]]",
-            "[[Compras|Compras]]",
-            "[[Comida|Comida]]"
+            "[[Money|Dinero]]",
+            "[[Shopping|Compras]]",
+            "[[Food|Comida]]"
           ],
           "correctAnswer": 1
         }
@@ -1571,9 +1571,9 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "Restaurant",
           "options": [
-            "[[Dinero|Dinero]]",
+            "[[Money|Dinero]]",
             "[[Restaurante|Restaurante]]",
-            "[[Comida|Comida]]",
+            "[[Food|Comida]]",
             "[[Salud|Salud]]"
           ],
           "correctAnswer": 1
@@ -1581,19 +1581,19 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "Food",
           "options": [
-            "[[Comida|Comida]]",
+            "[[Food|Comida]]",
             "[[Restaurante|Restaurante]]",
             "[[Salud|Salud]]",
-            "[[Dinero|Dinero]]"
+            "[[Money|Dinero]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Money",
           "options": [
-            "[[Dinero|Dinero]]",
+            "[[Money|Dinero]]",
             "[[Salud|Salud]]",
-            "[[Comida|Comida]]",
+            "[[Food|Comida]]",
             "[[Restaurante|Restaurante]]"
           ],
           "correctAnswer": 0
@@ -1601,10 +1601,10 @@ export const UNIT_60_EXERCISES: Exercise[] = [
         {
           "question": "Health",
           "options": [
-            "[[Dinero|Dinero]]",
+            "[[Money|Dinero]]",
             "[[Salud|Salud]]",
             "[[Restaurante|Restaurante]]",
-            "[[Comida|Comida]]"
+            "[[Food|Comida]]"
           ],
           "correctAnswer": 1
         }
@@ -1771,7 +1771,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
           "question": "The [[shopping|shopping]] is here.",
           "options": [
             "[[shopping|shopping]]",
-            "[[Dinero|Dinero]]"
+            "[[Money|Dinero]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

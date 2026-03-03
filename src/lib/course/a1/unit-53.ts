@@ -61,7 +61,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
           "options": [
             "[[Harina|Harina]]",
             "[[Sal|Sal]]",
-            "[[Azúcar|Azúcar]]",
+            "[[Sugar|Azúcar]]",
             "[[I don't have any salt.|I don't have any salt.]]"
           ],
           "correctAnswer": 1
@@ -72,7 +72,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
             "[[Sal|Sal]]",
             "[[Harina|Harina]]",
             "[[o1|opción 1]]",
-            "[[Azúcar|Azúcar]]"
+            "[[Sugar|Azúcar]]"
           ],
           "correctAnswer": 3
         },
@@ -81,7 +81,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
           "options": [
             "[[Harina|Harina]]",
             "[[coffee|coffee]]",
-            "[[Azúcar|Azúcar]]",
+            "[[Sugar|Azúcar]]",
             "[[Sal|Sal]]"
           ],
           "correctAnswer": 0
@@ -228,7 +228,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
             "[[o1|opción 1]]",
             "[[coffee|coffee]]",
             "[[some, any|some, any]]",
-            "[[Azúcar|Azúcar]]"
+            "[[Sugar|Azúcar]]"
           ],
           "correctAnswer": 2
         }

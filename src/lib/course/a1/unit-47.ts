@@ -14,9 +14,9 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         {
           "question": "Sunbathing",
           "options": [
-            "[[Nadar|Nadar]]",
+            "[[Swim|Nadar]]",
             "[[Relajarse|Relajarse]]",
-            "[[Tomar el sol|Tomar el sol]]",
+            "[[Sunbathe|Tomar el sol]]",
             "[[Hacer turismo|Hacer turismo]]"
           ],
           "correctAnswer": 2
@@ -24,19 +24,19 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         {
           "question": "Swimming",
           "options": [
-            "[[Tomar el sol|Tomar el sol]]",
+            "[[Sunbathe|Tomar el sol]]",
             "[[Relajarse|Relajarse]]",
             "[[Hacer turismo|Hacer turismo]]",
-            "[[Nadar|Nadar]]"
+            "[[Swim|Nadar]]"
           ],
           "correctAnswer": 3
         },
         {
           "question": "Sightseeing",
           "options": [
-            "[[Nadar|Nadar]]",
+            "[[Swim|Nadar]]",
             "[[Hacer turismo|Hacer turismo]]",
-            "[[Tomar el sol|Tomar el sol]]",
+            "[[Sunbathe|Tomar el sol]]",
             "[[Relajarse|Relajarse]]"
           ],
           "correctAnswer": 1
@@ -44,10 +44,10 @@ export const UNIT_47_EXERCISES: Exercise[] = [
         {
           "question": "Relaxing",
           "options": [
-            "[[Tomar el sol|Tomar el sol]]",
+            "[[Sunbathe|Tomar el sol]]",
             "[[Hacer turismo|Hacer turismo]]",
             "[[Relajarse|Relajarse]]",
-            "[[Nadar|Nadar]]"
+            "[[Swim|Nadar]]"
           ],
           "correctAnswer": 2
         }
@@ -484,7 +484,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[She hates long flights.|She hates long flights.]]",
-            "[[Tomar el sol|Tomar el sol]]"
+            "[[Sunbathe|Tomar el sol]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

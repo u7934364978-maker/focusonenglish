@@ -14,40 +14,40 @@ export const UNIT_31_EXERCISES: Exercise[] = [
         {
           "question": "Swim",
           "options": [
-            "[[Dibujar|Dibujar]]",
-            "[[Bailar|Bailar]]",
-            "[[Nadar|Nadar]]",
-            "[[Cocinar|Cocinar]]"
+            "[[Draw|Dibujar]]",
+            "[[Dance|Bailar]]",
+            "[[Swim|Nadar]]",
+            "[[Cook|Cocinar]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Dance",
           "options": [
-            "[[Bailar|Bailar]]",
-            "[[Nadar|Nadar]]",
-            "[[Cocinar|Cocinar]]",
-            "[[Dibujar|Dibujar]]"
+            "[[Dance|Bailar]]",
+            "[[Swim|Nadar]]",
+            "[[Cook|Cocinar]]",
+            "[[Draw|Dibujar]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Draw",
           "options": [
-            "[[Bailar|Bailar]]",
-            "[[Cocinar|Cocinar]]",
-            "[[Dibujar|Dibujar]]",
-            "[[Nadar|Nadar]]"
+            "[[Dance|Bailar]]",
+            "[[Cook|Cocinar]]",
+            "[[Draw|Dibujar]]",
+            "[[Swim|Nadar]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Cook",
           "options": [
-            "[[Nadar|Nadar]]",
-            "[[Bailar|Bailar]]",
-            "[[Cocinar|Cocinar]]",
-            "[[Dibujar|Dibujar]]"
+            "[[Swim|Nadar]]",
+            "[[Dance|Bailar]]",
+            "[[Cook|Cocinar]]",
+            "[[Draw|Dibujar]]"
           ],
           "correctAnswer": 2
         }
@@ -333,7 +333,7 @@ export const UNIT_31_EXERCISES: Exercise[] = [
             "[[Can|Can]]",
             "[[o1|opción 1]]",
             "[[o1|opción 1]]",
-            "[[Nadar|Nadar]]"
+            "[[Swim|Nadar]]"
           ],
           "correctAnswer": 0
         }

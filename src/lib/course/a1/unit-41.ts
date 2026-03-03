@@ -16,16 +16,16 @@ export const UNIT_41_EXERCISES: Exercise[] = [
           "options": [
             "[[Pasaporte|Pasaporte]]",
             "[[Puerta de embarque|Puerta de embarque]]",
-            "[[Equipaje|Equipaje]]",
-            "[[Tarjeta de embarque|Tarjeta de embarque]]"
+            "[[Luggage|Equipaje]]",
+            "[[Boarding pass|Tarjeta de embarque]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Boarding pass",
           "options": [
-            "[[Equipaje|Equipaje]]",
-            "[[Tarjeta de embarque|Tarjeta de embarque]]",
+            "[[Luggage|Equipaje]]",
+            "[[Boarding pass|Tarjeta de embarque]]",
             "[[Pasaporte|Pasaporte]]",
             "[[Puerta de embarque|Puerta de embarque]]"
           ],
@@ -35,19 +35,19 @@ export const UNIT_41_EXERCISES: Exercise[] = [
           "question": "Gate",
           "options": [
             "[[Pasaporte|Pasaporte]]",
-            "[[Equipaje|Equipaje]]",
+            "[[Luggage|Equipaje]]",
             "[[Puerta de embarque|Puerta de embarque]]",
-            "[[Tarjeta de embarque|Tarjeta de embarque]]"
+            "[[Boarding pass|Tarjeta de embarque]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Luggage",
           "options": [
-            "[[Tarjeta de embarque|Tarjeta de embarque]]",
+            "[[Boarding pass|Tarjeta de embarque]]",
             "[[Pasaporte|Pasaporte]]",
             "[[Puerta de embarque|Puerta de embarque]]",
-            "[[Equipaje|Equipaje]]"
+            "[[Luggage|Equipaje]]"
           ],
           "correctAnswer": 3
         }

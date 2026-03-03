@@ -15,8 +15,8 @@ export const UNIT_45_EXERCISES: Exercise[] = [
           "question": "Spring",
           "options": [
             "[[Primavera|Primavera]]",
-            "[[Invierno|Invierno]]",
-            "[[Verano|Verano]]",
+            "[[Winter|Invierno]]",
+            "[[Summer|Verano]]",
             "[[Otoño|Otoño]]"
           ],
           "correctAnswer": 0
@@ -25,9 +25,9 @@ export const UNIT_45_EXERCISES: Exercise[] = [
           "question": "Summer",
           "options": [
             "[[Otoño|Otoño]]",
-            "[[Verano|Verano]]",
+            "[[Summer|Verano]]",
             "[[Primavera|Primavera]]",
-            "[[Invierno|Invierno]]"
+            "[[Winter|Invierno]]"
           ],
           "correctAnswer": 1
         },
@@ -36,17 +36,17 @@ export const UNIT_45_EXERCISES: Exercise[] = [
           "options": [
             "[[Otoño|Otoño]]",
             "[[Primavera|Primavera]]",
-            "[[Verano|Verano]]",
-            "[[Invierno|Invierno]]"
+            "[[Summer|Verano]]",
+            "[[Winter|Invierno]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Winter",
           "options": [
-            "[[Verano|Verano]]",
+            "[[Summer|Verano]]",
             "[[Otoño|Otoño]]",
-            "[[Invierno|Invierno]]",
+            "[[Winter|Invierno]]",
             "[[Primavera|Primavera]]"
           ],
           "correctAnswer": 2

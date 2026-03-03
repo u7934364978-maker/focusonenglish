@@ -40,10 +40,10 @@ export const UNIT_51_EXERCISES: Exercise[] = [
         {
           "question": "Trolley",
           "options": [
-            "[[Cesta|Cesta]]",
+            "[[Basket|Cesta]]",
             "[[Estante|Estante]]",
-            "[[Carrito|Carrito]]",
-            "[[Caja|Caja]]"
+            "[[Trolley|Carrito]]",
+            "[[Checkout|Caja]]"
           ],
           "correctAnswer": 2
         },
@@ -51,9 +51,9 @@ export const UNIT_51_EXERCISES: Exercise[] = [
           "question": "Basket",
           "options": [
             "[[Estante|Estante]]",
-            "[[Caja|Caja]]",
-            "[[Cesta|Cesta]]",
-            "[[Carrito|Carrito]]"
+            "[[Checkout|Caja]]",
+            "[[Basket|Cesta]]",
+            "[[Trolley|Carrito]]"
           ],
           "correctAnswer": 2
         },
@@ -61,9 +61,9 @@ export const UNIT_51_EXERCISES: Exercise[] = [
           "question": "Checkout",
           "options": [
             "[[Estante|Estante]]",
-            "[[Caja|Caja]]",
-            "[[Cesta|Cesta]]",
-            "[[Carrito|Carrito]]"
+            "[[Checkout|Caja]]",
+            "[[Basket|Cesta]]",
+            "[[Trolley|Carrito]]"
           ],
           "correctAnswer": 1
         },
@@ -71,9 +71,9 @@ export const UNIT_51_EXERCISES: Exercise[] = [
           "question": "Shelf",
           "options": [
             "[[Estante|Estante]]",
-            "[[Caja|Caja]]",
-            "[[Cesta|Cesta]]",
-            "[[Carrito|Carrito]]"
+            "[[Checkout|Caja]]",
+            "[[Basket|Cesta]]",
+            "[[Trolley|Carrito]]"
           ],
           "correctAnswer": 0
         }
@@ -239,7 +239,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
         {
           "question": "The apples are ________ the shelf.",
           "options": [
-            "[[Caja|Caja]]",
+            "[[Checkout|Caja]]",
             "[[eggs|eggs]]",
             "[[o1|opción 1]]",
             "[[on|on]]"
@@ -504,7 +504,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
           "question": "",
           "options": [
             "[[I need a shopping trolley.|I need a shopping trolley.]]",
-            "[[Caja|Caja]]"
+            "[[Checkout|Caja]]"
           ],
           "correctAnswer": 0,
           "explanation": "Escucha atentamente para identificar la palabra correcta."

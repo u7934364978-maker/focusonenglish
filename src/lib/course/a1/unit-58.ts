@@ -41,9 +41,9 @@ export const UNIT_58_EXERCISES: Exercise[] = [
           "question": "Get up",
           "options": [
             "[[Levantarse|Levantarse]]",
-            "[[Cepillarse los dientes|Cepillarse los dientes]]",
-            "[[Ducharse|Ducharse]]",
-            "[[Desayunar|Desayunar]]"
+            "[[Brush your teeth|Cepillarse los dientes]]",
+            "[[Have a shower|Ducharse]]",
+            "[[Have breakfast|Desayunar]]"
           ],
           "correctAnswer": 0
         },
@@ -51,18 +51,18 @@ export const UNIT_58_EXERCISES: Exercise[] = [
           "question": "Brush teeth",
           "options": [
             "[[Levantarse|Levantarse]]",
-            "[[Desayunar|Desayunar]]",
-            "[[Cepillarse los dientes|Cepillarse los dientes]]",
-            "[[Ducharse|Ducharse]]"
+            "[[Have breakfast|Desayunar]]",
+            "[[Brush your teeth|Cepillarse los dientes]]",
+            "[[Have a shower|Ducharse]]"
           ],
           "correctAnswer": 2
         },
         {
           "question": "Have breakfast",
           "options": [
-            "[[Ducharse|Ducharse]]",
-            "[[Desayunar|Desayunar]]",
-            "[[Cepillarse los dientes|Cepillarse los dientes]]",
+            "[[Have a shower|Ducharse]]",
+            "[[Have breakfast|Desayunar]]",
+            "[[Brush your teeth|Cepillarse los dientes]]",
             "[[Levantarse|Levantarse]]"
           ],
           "correctAnswer": 1
@@ -70,10 +70,10 @@ export const UNIT_58_EXERCISES: Exercise[] = [
         {
           "question": "Take a shower",
           "options": [
-            "[[Desayunar|Desayunar]]",
+            "[[Have breakfast|Desayunar]]",
             "[[Levantarse|Levantarse]]",
-            "[[Ducharse|Ducharse]]",
-            "[[Cepillarse los dientes|Cepillarse los dientes]]"
+            "[[Have a shower|Ducharse]]",
+            "[[Brush your teeth|Cepillarse los dientes]]"
           ],
           "correctAnswer": 2
         }
@@ -192,7 +192,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
             "[[o1|opción 1]]",
             "[[o1|opción 1]]",
             "[[get|get]]",
-            "[[Ver la tele|Ver la tele]]"
+            "[[Watch TV|Ver la tele]]"
           ],
           "correctAnswer": 2
         }
@@ -239,28 +239,28 @@ export const UNIT_58_EXERCISES: Exercise[] = [
           "options": [
             "[[Irse a la cama|Irse a la cama]]",
             "[[Llegar a casa|Llegar a casa]]",
-            "[[Cenar|Cenar]]",
-            "[[Ver la tele|Ver la tele]]"
+            "[[Have dinner|Cenar]]",
+            "[[Watch TV|Ver la tele]]"
           ],
           "correctAnswer": 1
         },
         {
           "question": "Have dinner",
           "options": [
-            "[[Cenar|Cenar]]",
+            "[[Have dinner|Cenar]]",
             "[[Llegar a casa|Llegar a casa]]",
             "[[Irse a la cama|Irse a la cama]]",
-            "[[Ver la tele|Ver la tele]]"
+            "[[Watch TV|Ver la tele]]"
           ],
           "correctAnswer": 0
         },
         {
           "question": "Watch TV",
           "options": [
-            "[[Ver la tele|Ver la tele]]",
+            "[[Watch TV|Ver la tele]]",
             "[[Irse a la cama|Irse a la cama]]",
             "[[Llegar a casa|Llegar a casa]]",
-            "[[Cenar|Cenar]]"
+            "[[Have dinner|Cenar]]"
           ],
           "correctAnswer": 0
         },
@@ -268,9 +268,9 @@ export const UNIT_58_EXERCISES: Exercise[] = [
           "question": "Go to bed",
           "options": [
             "[[Irse a la cama|Irse a la cama]]",
-            "[[Cenar|Cenar]]",
+            "[[Have dinner|Cenar]]",
             "[[Llegar a casa|Llegar a casa]]",
-            "[[Ver la tele|Ver la tele]]"
+            "[[Watch TV|Ver la tele]]"
           ],
           "correctAnswer": 0
         }

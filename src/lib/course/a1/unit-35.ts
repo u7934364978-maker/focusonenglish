@@ -16,7 +16,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
           "options": [
             "[[Salir|Salir]]",
             "[[Navegar por internet|Navegar por internet]]",
-            "[[Ver la televisión|Ver la televisión]]",
+            "[[Watch TV|Ver la televisión]]",
             "[[Quedar con amigos|Quedar con amigos]]"
           ],
           "correctAnswer": 2
@@ -26,7 +26,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
           "options": [
             "[[Navegar por internet|Navegar por internet]]",
             "[[Salir|Salir]]",
-            "[[Ver la televisión|Ver la televisión]]",
+            "[[Watch TV|Ver la televisión]]",
             "[[Quedar con amigos|Quedar con amigos]]"
           ],
           "correctAnswer": 3
@@ -37,7 +37,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
             "[[Salir|Salir]]",
             "[[Quedar con amigos|Quedar con amigos]]",
             "[[Navegar por internet|Navegar por internet]]",
-            "[[Ver la televisión|Ver la televisión]]"
+            "[[Watch TV|Ver la televisión]]"
           ],
           "correctAnswer": 2
         },
@@ -46,7 +46,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
           "options": [
             "[[Quedar con amigos|Quedar con amigos]]",
             "[[Salir|Salir]]",
-            "[[Ver la televisión|Ver la televisión]]",
+            "[[Watch TV|Ver la televisión]]",
             "[[Navegar por internet|Navegar por internet]]"
           ],
           "correctAnswer": 1
