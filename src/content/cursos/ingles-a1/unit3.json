@@ -17,12 +17,33 @@
           "type": "matching",
           "prompt_es": "Une el adjetivo con su traducción:",
           "pairs": [
-            { "id": "p1", "left": "[[Happy|Feliz]]", "right": "Feliz" },
-            { "id": "p2", "left": "[[Sad|Triste]]", "right": "Triste" },
-            { "id": "p3", "left": "[[Tired|Cansado/a]]", "right": "Cansado/a" },
-            { "id": "p4", "left": "[[Hungry|Hambriento/a]]", "right": "Hambriento/a" }
+            {
+              "id": "p1",
+              "left": "[[Happy|Feliz]]",
+              "right": "Triste"
+            },
+            {
+              "id": "p2",
+              "left": "[[Sad|Triste]]",
+              "right": "Cansado/a"
+            },
+            {
+              "id": "p3",
+              "left": "[[Tired|Cansado/a]]",
+              "right": "Hambriento/a"
+            },
+            {
+              "id": "p4",
+              "left": "[[Hungry|Hambriento/a]]",
+              "right": "Feliz"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p4",
+            "p2": "p1",
+            "p3": "p2",
+            "p4": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -38,9 +59,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '[[They|Ellos]] [[aren't|no están]] [[hungry|hambrientos]]'?",
           "options": [
-            { "id": "o1", "text": "[[They|Ellos]] [[aren't|no están]] [[hungry|hambrientos]]" },
-            { "id": "o2", "text": "[[They|Ellos]] [[isn't|no están]] [[hungry|hambrientos]]" },
-            { "id": "o3", "text": "[[They|Ellos]] [[am not|no están]] [[hungry|hambrientos]]" }
+            {
+              "id": "o1",
+              "text": "[[They|Ellos]] [[aren't|no están]] [[hungry|hambrientos]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[They|Ellos]] [[isn't|no están]] [[hungry|hambrientos]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[They|Ellos]] [[am not|no están]] [[hungry|hambrientos]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "syntax"
@@ -65,12 +95,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena la frase negativa:",
           "options": [
-            { "id": "w1", "text": "[[He|Él]]" },
-            { "id": "w2", "text": "[[isn't|no está]]" },
-            { "id": "w3", "text": "[[at|en]]" },
-            { "id": "w4", "text": "[[home|casa]]" }
+            {
+              "id": "w1",
+              "text": "[[He|Él]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[isn't|no está]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[at|en]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[home|casa]]"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -78,12 +125,33 @@
           "type": "matching",
           "prompt_es": "Más estados emocionales:",
           "pairs": [
-            { "id": "p1", "left": "[[Angry|Enfadado/a]]", "right": "Enfadado/a" },
-            { "id": "p2", "left": "[[Bored|Aburrido/a]]", "right": "Aburrido/a" },
-            { "id": "p3", "left": "[[Excited|Emocionado/a]]", "right": "Emocionado/a" },
-            { "id": "p4", "left": "[[Scared|Asustado/a]]", "right": "Asustado/a" }
+            {
+              "id": "p1",
+              "left": "[[Angry|Enfadado/a]]",
+              "right": "Emocionado/a"
+            },
+            {
+              "id": "p2",
+              "left": "[[Bored|Aburrido/a]]",
+              "right": "Asustado/a"
+            },
+            {
+              "id": "p3",
+              "left": "[[Excited|Emocionado/a]]",
+              "right": "Enfadado/a"
+            },
+            {
+              "id": "p4",
+              "left": "[[Scared|Asustado/a]]",
+              "right": "Aburrido/a"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p3",
+            "p2": "p4",
+            "p3": "p1",
+            "p4": "p2"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -99,9 +167,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la forma corta de '[[are|son]] [[not|no]]'?",
           "options": [
-            { "id": "o1", "text": "[[aren't|no son]]" },
-            { "id": "o2", "text": "[[isn't|no son]]" },
-            { "id": "o3", "text": "[[am not|no son]]" }
+            {
+              "id": "o1",
+              "text": "[[aren't|no son]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[isn't|no son]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[am not|no son]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -165,9 +242,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se pregunta '[[Are|¿Estamos?]] [[we|nosotros]] [[lost|perdidos]]'?",
           "options": [
-            { "id": "o1", "text": "[[Are|¿Estamos?]] [[we|nosotros]] [[lost|perdidos]]?" },
-            { "id": "o2", "text": "[[Is|¿Estamos?]] [[we|nosotros]] [[lost|perdidos]]?" },
-            { "id": "o3", "text": "[[Am|¿Estamos?]] [[we|nosotros]] [[lost|perdidos]]?" }
+            {
+              "id": "o1",
+              "text": "[[Are|¿Estamos?]] [[we|nosotros]] [[lost|perdidos]]?"
+            },
+            {
+              "id": "o2",
+              "text": "[[Is|¿Estamos?]] [[we|nosotros]] [[lost|perdidos]]?"
+            },
+            {
+              "id": "o3",
+              "text": "[[Am|¿Estamos?]] [[we|nosotros]] [[lost|perdidos]]?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "syntax"
@@ -177,12 +263,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena la pregunta:",
           "options": [
-            { "id": "w1", "text": "[[Is|¿Está?]]" },
-            { "id": "w2", "text": "[[she|ella]]" },
-            { "id": "w3", "text": "[[busy|ocupada]]" },
-            { "id": "w4", "text": "?" }
+            {
+              "id": "w1",
+              "text": "[[Is|¿Está?]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[she|ella]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[busy|ocupada]]"
+            },
+            {
+              "id": "w4",
+              "text": "?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -205,12 +308,33 @@
           "type": "matching",
           "prompt_es": "Pregunta y Respuesta corta:",
           "pairs": [
-            { "id": "p1", "left": "[[Are|¿Estás?]] [[you|tú]] [[OK|bien]]?", "right": "[[Yes|Sí]], [[I|yo]] [[am|estoy]]." },
-            { "id": "p2", "left": "[[Is|¿Es?]] [[he|él]] [[tall|alto]]?", "right": "[[No|No]], [[he|él]] [[isn't|no lo es]]." },
-            { "id": "p3", "left": "[[Are|¿Son?]] [[they|ellos]] [[new|nuevos]]?", "right": "[[Yes|Sí]], [[they|ellos]] [[are|lo son]]." },
-            { "id": "p4", "left": "[[Is|¿Está?]] [[it|ello]] [[ready|listo]]?", "right": "[[No|No]], [[it|ello]] [[isn't|no lo está]]." }
+            {
+              "id": "p1",
+              "left": "[[Are|¿Estás?]] [[you|tú]] [[OK|bien]]?",
+              "right": "[[No|No]], [[he|él]] [[isn't|no lo es]]."
+            },
+            {
+              "id": "p2",
+              "left": "[[Is|¿Es?]] [[he|él]] [[tall|alto]]?",
+              "right": "[[Yes|Sí]], [[they|ellos]] [[are|lo son]]."
+            },
+            {
+              "id": "p3",
+              "left": "[[Are|¿Son?]] [[they|ellos]] [[new|nuevos]]?",
+              "right": "[[No|No]], [[it|ello]] [[isn't|no lo está]]."
+            },
+            {
+              "id": "p4",
+              "left": "[[Is|¿Está?]] [[it|ello]] [[ready|listo]]?",
+              "right": "[[Yes|Sí]], [[I|yo]] [[am|estoy]]."
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p4",
+            "p2": "p1",
+            "p3": "p2",
+            "p4": "p3"
+          },
           "mastery_tag": "social"
         }
       ]
@@ -280,9 +404,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la forma negativa de '[[He|Él]] [[is|es]]'?",
           "options": [
-            { "id": "o1", "text": "[[He|Él]] [[isn't|no es]]" },
-            { "id": "o2", "text": "[[He|Él]] [[aren't|no es]]" },
-            { "id": "o3", "text": "[[He|Él]] [[am not|no es]]" }
+            {
+              "id": "o1",
+              "text": "[[He|Él]] [[isn't|no es]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[He|Él]] [[aren't|no es]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[He|Él]] [[am not|no es]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -300,11 +433,24 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: '[[You|Tú]] [[aren't|no estás]] [[sad|triste]]'",
           "options": [
-            { "id": "w1", "text": "[[aren't|no estás]]" },
-            { "id": "w2", "text": "[[sad|triste]]" },
-            { "id": "w3", "text": "[[You|Tú]]" }
+            {
+              "id": "w1",
+              "text": "[[aren't|no estás]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[sad|triste]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[You|Tú]]"
+            }
           ],
-          "correct_answer": ["w3", "w1", "w2"],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w2"
+          ],
           "mastery_tag": "syntax"
         }
       ]
@@ -325,9 +471,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se siente [[Maria|María]]?",
           "options": [
-            { "id": "o1", "text": "[[Tired|Cansada]]" },
-            { "id": "o2", "text": "[[Angry|Enfadada]]" },
-            { "id": "o3", "text": "[[Scared|Asustada]]" }
+            {
+              "id": "o1",
+              "text": "[[Tired|Cansada]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Angry|Enfadada]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Scared|Asustada]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading_comprehension"
@@ -344,9 +499,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué necesita [[Maria|María]]?",
           "options": [
-            { "id": "o1", "text": "[[Water|Agua]]" },
-            { "id": "o2", "text": "[[Food|Comida]]" },
-            { "id": "o3", "text": "[[Sleep|Dormir]]" }
+            {
+              "id": "o1",
+              "text": "[[Water|Agua]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Food|Comida]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Sleep|Dormir]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "reading_comprehension"
@@ -409,12 +573,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: [[Is|¿Es?]] [[she|ella]] [[happy|feliz]] [[?|?]]",
           "options": [
-            { "id": "w1", "text": "[[Is|¿Es?]]" },
-            { "id": "w2", "text": "[[she|ella]]" },
-            { "id": "w3", "text": "[[happy|feliz]]" },
-            { "id": "w4", "text": "?" }
+            {
+              "id": "w1",
+              "text": "[[Is|¿Es?]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[she|ella]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[happy|feliz]]"
+            },
+            {
+              "id": "w4",
+              "text": "?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -422,11 +603,24 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: [[I|Yo]] [[am not|no estoy]] [[thirsty|sediento]]",
           "options": [
-            { "id": "w1", "text": "[[am not|no estoy]]" },
-            { "id": "w2", "text": "[[thirsty|sediento]]" },
-            { "id": "w3", "text": "[[I|Yo]]" }
+            {
+              "id": "w1",
+              "text": "[[am not|no estoy]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[thirsty|sediento]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[I|Yo]]"
+            }
           ],
-          "correct_answer": ["w3", "w1", "w2"],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w2"
+          ],
           "mastery_tag": "syntax"
         },
         {
@@ -434,9 +628,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '[[They|Ellos]] [[aren't|no están]] [[here|aquí]]'?",
           "options": [
-            { "id": "o1", "text": "[[They|Ellos]] [[aren't|no están]] [[here|aquí]]" },
-            { "id": "o2", "text": "[[They|Ellos]] [[isn't|no están]] [[here|aquí]]" },
-            { "id": "o3", "text": "[[They|Ellos]] [[am not|no están]] [[here|aquí]]" }
+            {
+              "id": "o1",
+              "text": "[[They|Ellos]] [[aren't|no están]] [[here|aquí]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[They|Ellos]] [[isn't|no están]] [[here|aquí]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[They|Ellos]] [[am not|no están]] [[here|aquí]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -467,12 +670,33 @@
           "interaction_id": "U3_I47",
           "type": "matching",
           "pairs": [
-            { "id": "p1", "left": "[[I|Yo]] [[am not|no soy]]", "right": "Yo no soy" },
-            { "id": "p2", "left": "[[He|Él]] [[isn't|no es]]", "right": "Él no es" },
-            { "id": "p3", "left": "[[We|Nosotros]] [[aren't|no somos]]", "right": "Nosotros no somos" },
-            { "id": "p4", "left": "[[It|Ello]] [[isn't|no es]]", "right": "Ello no es" }
+            {
+              "id": "p1",
+              "left": "[[I|Yo]] [[am not|no soy]]",
+              "right": "Nosotros no somos"
+            },
+            {
+              "id": "p2",
+              "left": "[[He|Él]] [[isn't|no es]]",
+              "right": "Ello no es"
+            },
+            {
+              "id": "p3",
+              "left": "[[We|Nosotros]] [[aren't|no somos]]",
+              "right": "Yo no soy"
+            },
+            {
+              "id": "p4",
+              "left": "[[It|Ello]] [[isn't|no es]]",
+              "right": "Él no es"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p3",
+            "p2": "p4",
+            "p3": "p1",
+            "p4": "p2"
+          },
           "mastery_tag": "grammar"
         },
         {
@@ -496,9 +720,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Qué significa '[[Are|¿Estamos?]] [[we|nosotros]] [[ready|listos]]?'",
           "options": [
-            { "id": "o1", "text": "¿Estamos listos?" },
-            { "id": "o2", "text": "¿Están listos?" },
-            { "id": "o3", "text": "¿Estás listo?" }
+            {
+              "id": "o1",
+              "text": "¿Estamos listos?"
+            },
+            {
+              "id": "o2",
+              "text": "¿Están listos?"
+            },
+            {
+              "id": "o3",
+              "text": "¿Estás listo?"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "translation"
@@ -516,23 +749,57 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: [[It|Ello]] [[isn't|no es]] [[hot|caluroso]]",
           "options": [
-            { "id": "w1", "text": "[[isn't|no es]]" },
-            { "id": "w2", "text": "[[hot|caluroso]]" },
-            { "id": "w3", "text": "[[It|Ello]]" }
+            {
+              "id": "w1",
+              "text": "[[isn't|no es]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[hot|caluroso]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[It|Ello]]"
+            }
           ],
-          "correct_answer": ["w3", "w1", "w2"],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w2"
+          ],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U3_I53",
           "type": "matching",
           "pairs": [
-            { "id": "p1", "left": "[[Cold|Frío]]", "right": "Frío" },
-            { "id": "p2", "left": "[[Hot|Calor]]", "right": "Calor" },
-            { "id": "p3", "left": "[[Small|Pequeño]]", "right": "Pequeño" },
-            { "id": "p4", "left": "[[Big|Grande]]", "right": "Grande" }
+            {
+              "id": "p1",
+              "left": "[[Cold|Frío]]",
+              "right": "Calor"
+            },
+            {
+              "id": "p2",
+              "left": "[[Hot|Calor]]",
+              "right": "Pequeño"
+            },
+            {
+              "id": "p3",
+              "left": "[[Small|Pequeño]]",
+              "right": "Grande"
+            },
+            {
+              "id": "p4",
+              "left": "[[Big|Grande]]",
+              "right": "Frío"
+            }
           ],
-          "correct_answer": { "p1": "p1", "p2": "p2", "p3": "p3", "p4": "p4" },
+          "correct_answer": {
+            "p1": "p4",
+            "p2": "p1",
+            "p3": "p2",
+            "p4": "p3"
+          },
           "mastery_tag": "vocabulary"
         },
         {
@@ -540,9 +807,18 @@
           "type": "multiple_choice",
           "prompt_es": "¿Cómo se dice '[[I|Yo]] [[am not|no estoy]] [[excited|emocionado]]'?",
           "options": [
-            { "id": "o1", "text": "[[I|Yo]] [[am not|no estoy]] [[excited|emocionado]]" },
-            { "id": "o2", "text": "[[I|Yo]] [[aren't|no estoy]] [[excited|emocionado]]" },
-            { "id": "o3", "text": "[[I|Yo]] [[isn't|no estoy]] [[excited|emocionado]]" }
+            {
+              "id": "o1",
+              "text": "[[I|Yo]] [[am not|no estoy]] [[excited|emocionado]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[I|Yo]] [[aren't|no estoy]] [[excited|emocionado]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[I|Yo]] [[isn't|no estoy]] [[excited|emocionado]]"
+            }
           ],
           "correct_answer": "o1",
           "mastery_tag": "grammar"
@@ -582,12 +858,29 @@
           "type": "reorder_words",
           "prompt_es": "Ordena: [[Are|¿Estás?]] [[you|tú]] [[scared|asustado]] [[?|?]]",
           "options": [
-            { "id": "w1", "text": "[[Are|¿Estás?]]" },
-            { "id": "w2", "text": "[[you|tú]]" },
-            { "id": "w3", "text": "[[scared|asustado]]" },
-            { "id": "w4", "text": "?" }
+            {
+              "id": "w1",
+              "text": "[[Are|¿Estás?]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[you|tú]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[scared|asustado]]"
+            },
+            {
+              "id": "w4",
+              "text": "?"
+            }
           ],
-          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4"
+          ],
           "mastery_tag": "syntax"
         },
         {

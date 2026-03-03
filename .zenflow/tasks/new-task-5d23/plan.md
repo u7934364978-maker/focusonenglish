@@ -63,7 +63,8 @@ Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 - Support `--units=N-M` CLI flag for range filtering
 - Run the script to produce baseline report; add `reports/` to `.gitignore`
 
-### [ ] Step: Fix Module 1 — Units 1–3 (critical bugs + structural fixes)
+### [x] Step: Fix Module 1 — Units 1–3 (critical bugs + structural fixes)
+<!-- chat-id: 3d427a2a-df61-42e8-97c3-ee8cb5536ca4 -->
 - **Unit 1** (FIX-2, FIX-3, FIX-4, FIX-6):
   - Correct 5 `sentence-building` `correct_answer` arrays (I19, I29, I35, I42, I43)
   - Shuffle matching pairs so `correct_answer` is non-trivial

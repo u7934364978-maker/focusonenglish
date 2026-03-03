@@ -200,22 +200,32 @@
         {
           "interaction_id": "A1_U1_I10",
           "type": "sentence-building",
-          "prompt_es": "[[Build|Construye]] '[[Goodbye|Adiós]]'.",
+          "prompt_es": "[[Build|Construye]]: '[[Goodbye|Adiós]], [[see|ver]] [[you|a ti]] [[soon|pronto]]!'.",
           "mastery_tag": "farewells",
-          "complexity": 1,
+          "complexity": 2,
           "options": [
             {
               "id": "w1",
-              "text": "[[Goodbye|Adiós]]"
+              "text": "[[see|ver]]"
             },
             {
               "id": "w2",
-              "text": "."
+              "text": "[[Goodbye|Adiós]],"
+            },
+            {
+              "id": "w3",
+              "text": "[[you|a ti]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[soon|pronto]]!"
             }
           ],
           "correct_answer": [
+            "w2",
             "w1",
-            "w2"
+            "w3",
+            "w4"
           ]
         }
       ]
@@ -391,8 +401,8 @@
             }
           ],
           "correct_answer": [
-            "w1",
             "w2",
+            "w1",
             "w3",
             "w4"
           ]
@@ -579,9 +589,9 @@
             }
           ],
           "correct_answer": [
+            "w3",
             "w1",
             "w2",
-            "w3",
             "w4"
           ]
         },
@@ -610,9 +620,9 @@
             }
           ],
           "correct_answer": [
-            "w1",
-            "w2",
             "w3",
+            "w2",
+            "w1",
             "w4"
           ]
         },
@@ -701,9 +711,9 @@
             }
           ],
           "correct_answer": [
-            "w1",
             "w2",
-            "w3"
+            "w3",
+            "w1"
           ]
         },
         {
@@ -845,10 +855,10 @@
             }
           ],
           "correct_answer": [
-            "w1",
             "w2",
             "w3",
             "w4",
+            "w1",
             "w5"
           ]
         },
@@ -877,8 +887,8 @@
             }
           ],
           "correct_answer": [
-            "w1",
             "w2",
+            "w1",
             "w3",
             "w4"
           ]
@@ -908,6 +918,13 @@
       "title": "Reading, Listening and Speaking",
       "content": [
         {
+          "interaction_id": "A1_U1_READ1",
+          "type": "reading_phase",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[following|siguiente]] [[texts|textos]] [[carefully|con atención]].",
+          "transcript": "[[Hello|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] [[Mark|Mark]]. [[I|Yo]] [[am|soy]] [[a|un]] [[student|estudiante]]. [[My|Mi]] [[surname|apellido]] [[is|es]] [[Davis|Davis]].\n\n[[Hi|Hola]]! [[I|Yo]] [[am|soy]] [[Lucy|Lucía]] [[White|White]]. [[I|Yo]] [[am|soy]] [[a|una]] [[teacher|profesora]].\n\nA: [[Good morning|Buenos días]]. [[I|Yo]] [[am|soy]] [[Mr.|Sr.]] [[Green|Green]].\nB: [[Hello|Hola]], [[Mr.|Sr.]] [[Green|Green]]. [[I|Yo]] [[am|soy]] [[Ms.|Sra.]] [[Black|Black]]. [[Nice|Encantado]] [[to|de]] [[meet|conocerte]] [[you|a ti]].\n\n[[Goodbye|Adiós]], [[Anna|Ana]]! [[See|Ver]] [[you|a ti]] [[later|luego]].\n[[Bye|Adiós]], [[Leo|Leo]]! [[Have|Ten]] [[a|un]] [[nice|buen]] [[day|día]].\n\n[[Hello|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] [[Tom|Tom]]. [[I|Yo]] [[am|soy]] [[your|tu]] [[new|nuevo]] [[teacher|profesor]].\n[[Hi|Hola]]! [[I|Yo]] [[am|soy]] [[Sara|Sara]]. [[I|Yo]] [[am|soy]] [[a|una]] [[student|estudiante]].\n\n[[Good evening|Buenas noches]]. [[My|Mi]] [[name|nombre]] [[is|es]] [[Robert|Roberto]]. [[My|Mi]] [[surname|apellido]] [[is|es]] [[Wilson|Wilson]]. [[I|Yo]] [[am|soy]] [[ready|listo]].\n\nA: [[Hi|Hola]], [[are|¿estás]] [[you|tú]] [[OK|bien]]?\nB: [[Yes|Sí]], [[I|yo]] [[am|estoy]] [[fine|bien]], [[thanks|gracias]].\n\n[[Good night|Buenas noches]]. [[See|Ver]] [[you|a ti]] [[tomorrow|mañana]].\n\n[[Hello|Hola]], [[I|yo]] [[am|soy]] [[your|tu]] [[new|nuevo]] [[friend|amigo]]. [[My|Mi]] [[name|nombre]] [[is|es]] [[Alex|Alex]].\n[[My|Mi]] [[surname|apellido]] [[is|es]] [[Lopez|López]]. [[Nice|Encantado]] [[to|de]] [[meet|conocerte]] [[you|a ti]].\n\n[[Mr.|Sr.]] [[Davis|Davis]] [[is|es]] [[the|el]] [[manager|gerente]].",
+          "mastery_tag": "reading"
+        },
+        {
           "interaction_id": "A1_U1_I46",
           "type": "multiple-choice",
           "prompt_es": "[[Read|Lee]] [[and|y]] [[answer|responde]].",
@@ -928,8 +945,7 @@
               "text": "[[Student|Estudiante]]"
             }
           ],
-          "correct_answer": "o1",
-          "transcript": "[[Hello|Hola]]! [[I|Yo]] [[am|soy]] [[Mark|Mark]]. [[I|Yo]] [[am|soy]] [[a|un]] [[student|estudiante]]. [[My|Mi]] [[surname|apellido]] [[is|es]] [[Davis|Davis]]."
+          "correct_answer": "o1"
         },
         {
           "interaction_id": "A1_U1_I47",
@@ -952,8 +968,7 @@
               "text": "[[I|Yo]] [[don't|no]] [[know|sé]]"
             }
           ],
-          "correct_answer": "o2",
-          "transcript": "[[Hi|Hola]], [[I|yo]] [[am|soy]] [[Lucy|Lucía]]. [[I|Yo]] [[am|soy]] [[a|una]] [[teacher|profesora]]. [[My|Mi]] [[surname|apellido]] [[is|es]] [[White|White]]."
+          "correct_answer": "o2"
         },
         {
           "interaction_id": "A1_U1_I48",
@@ -965,19 +980,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Morning|Mañana]]"
-            },
-            {
-              "id": "o2",
               "text": "[[Afternoon|Tarde]]"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "[[Night|Noche]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Morning|Mañana]]"
             }
           ],
-          "correct_answer": "o1",
-          "transcript": "A: [[Good morning|Buenos días]]. [[I|Yo]] [[am|soy]] [[Mr.|Sr.]] [[Green|Green]].\nB: [[Hello|Hola]], [[Mr.|Sr.]] [[Green|Green]]. [[I|Yo]] [[am|soy]] [[Ms.|Sra.]] [[Black|Black]].\nA: [[Nice|Encantado]] [[to|de]] [[meet|conocerte]] [[you|a ti]]."
+          "correct_answer": "o3"
         },
         {
           "interaction_id": "A1_U1_I49",
@@ -989,19 +1003,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Anna|Ana]]"
-            },
-            {
-              "id": "o2",
               "text": "[[Leo|Leo]]"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "[[Mr.|Sr.]] [[Green|Green]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Anna|Ana]]"
             }
           ],
-          "correct_answer": "o1",
-          "transcript": "[[Goodbye|Adiós]], [[Anna|Ana]]! [[See|Ver]] [[you|a ti]] [[later|luego]].\n[[Bye|Adiós]], [[Leo|Leo]]! [[Have|Ten]] [[a|un]] [[nice|buen]] [[day|día]]."
+          "correct_answer": "o3"
         },
         {
           "interaction_id": "A1_U1_I50",
@@ -1017,15 +1030,14 @@
             },
             {
               "id": "o2",
-              "text": "[[A|Un]] [[teacher|profesor]]"
+              "text": "[[A|Un]] [[surname|apellido]]"
             },
             {
               "id": "o3",
-              "text": "[[A|Un]] [[surname|apellido]]"
+              "text": "[[A|Un]] [[teacher|profesor]]"
             }
           ],
-          "correct_answer": "o2",
-          "transcript": "[[Hello|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] [[Tom|Tom]]. [[I|Yo]] [[am|soy]] [[your|tu]] [[new|nuevo]] [[teacher|profesor]]. [[What|Cuál]] [[is|es]] [[your|tu]] [[name|nombre]]?\n[[Hi|Hola]]! [[I|Yo]] [[am|soy]] [[Sara|Sara]]. [[I|Yo]] [[am|soy]] [[a|una]] [[student|estudiante]]."
+          "correct_answer": "o3"
         },
         {
           "interaction_id": "A1_U1_I51",
@@ -1037,19 +1049,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Robert|Roberto]]"
-            },
-            {
-              "id": "o2",
               "text": "[[Wilson|Wilson]]"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "[[Good evening|Buenas noches]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Robert|Roberto]]"
             }
           ],
-          "correct_answer": "o1",
-          "transcript": "[[Good evening|Buenas noches]]. [[My|Mi]] [[name|nombre]] [[is|es]] [[Robert|Roberto]]. [[My|Mi]] [[surname|apellido]] [[is|es]] [[Wilson|Wilson]]. [[I|Yo]] [[am|soy]] [[ready|listo]]."
+          "correct_answer": "o3"
         },
         {
           "interaction_id": "A1_U1_I52",
@@ -1061,19 +1072,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Fine|Bien]]"
-            },
-            {
-              "id": "o2",
               "text": "[[Sad|Triste]]"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "[[Tired|Cansada]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Fine|Bien]]"
             }
           ],
-          "correct_answer": "o1",
-          "transcript": "A: [[Hi|Hola]], [[Are|¿estás]] [[you|tú]] [[OK|bien]]?\nB: [[Yes|Sí]], [[I|yo]] [[am|estoy]] [[fine|bien]], [[thanks|gracias]]. [[And|¿Y]] [[you|tú]]?\nA: [[I|Yo]] [[am|estoy]] [[fine|bien]] [[too|también]]."
+          "correct_answer": "o3"
         },
         {
           "interaction_id": "A1_U1_I53",
@@ -1096,8 +1106,7 @@
               "text": "[[Today|Hoy]]"
             }
           ],
-          "correct_answer": "o1",
-          "transcript": "[[Good night|Buenas noches]]. [[See|Ver]] [[you|a ti]] [[tomorrow|mañana]].\n[[Goodbye|Adiós]], [[see|ver]] [[you|a ti]] [[tomorrow|mañana]]!"
+          "correct_answer": "o1"
         },
         {
           "interaction_id": "A1_U1_I54",
@@ -1120,8 +1129,7 @@
               "text": "[[surname|apellido]]"
             }
           ],
-          "correct_answer": "o1",
-          "transcript": "[[Hello|Hola]], [[I|yo]] [[am|soy]] [[your|tu]] [[new|nuevo]] [[friend|amigo]]. [[My|Mi]] [[name|nombre]] [[is|es]] [[Alex|Alex]]. [[What|Cuál]] [[is|es]] [[your|tu]] [[surname|apellido]]?\n[[My|Mi]] [[surname|apellido]] [[is|es]] [[Lopez|López]]. [[Nice|Encantado]] [[to|de]] [[meet|conocerte]] [[you|a ti]]."
+          "correct_answer": "o1"
         },
         {
           "interaction_id": "A1_U1_I55",
@@ -1133,19 +1141,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "[[Mr.|Sr.]] [[Davis|Davis]]"
-            },
-            {
-              "id": "o2",
               "text": "[[You|Tú]]"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "[[I|Yo]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Mr.|Sr.]] [[Davis|Davis]]"
             }
           ],
-          "correct_answer": "o1",
-          "transcript": "[[Mr.|Sr.]] [[Davis|Davis]] [[is|es]] [[the|el]] [[manager|gerente]]. [[He|Él]] [[is|es]] [[here|aquí]]. [[Are|¿Estás]] [[you|tú]] [[ready|listo]] [[to|para]] [[meet|conocer]] [[him|a él]]?"
+          "correct_answer": "o3"
         },
         {
           "interaction_id": "A1_U1_I56",
@@ -1204,9 +1211,9 @@
             }
           ],
           "correct_answer": [
-            "w1",
-            "w2",
             "w3",
+            "w2",
+            "w1",
             "w4"
           ]
         },
