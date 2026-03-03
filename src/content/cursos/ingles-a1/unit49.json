@@ -24,19 +24,19 @@
           "prompt_es": "¿Cómo se dice 'maleta' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Suitcase"
             },
             {
-              "id": "o2",
-              "text": "Backpack"
+              "id": "o1",
+              "text": "Handbag"
             },
             {
               "id": "o3",
-              "text": "Handbag"
+              "text": "Backpack"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary",
           "complexity": 1,
           "concept_tags": [
@@ -51,30 +51,30 @@
           "pairs": [
             {
               "id": "p1",
-              "left": "Sunscreen",
-              "right": "Protector solar"
-            },
-            {
-              "id": "p2",
-              "left": "Sunglasses",
+              "left": "[[Sunscreen|Protector solar]]",
               "right": "Gafas de sol"
             },
             {
+              "id": "p2",
+              "left": "[[Sunglasses|Gafas de sol]]",
+              "right": "Bañador"
+            },
+            {
               "id": "p3",
-              "left": "Charger",
-              "right": "Cargador"
+              "left": "[[Charger|Cargador]]",
+              "right": "Protector solar"
             },
             {
               "id": "p4",
-              "left": "Swimsuit",
-              "right": "Bañador"
+              "left": "[[Swimsuit|Bañador]]",
+              "right": "Cargador"
             }
           ],
           "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
+            "p1": "p3",
+            "p2": "p1",
+            "p3": "p4",
+            "p4": "p2"
           },
           "mastery_tag": "vocabulary",
           "complexity": 1,
@@ -102,12 +102,12 @@
           "prompt_es": "Selecciona la opción para 'artículos de aseo':",
           "options": [
             {
-              "id": "o1",
-              "text": "Toiletries"
-            },
-            {
               "id": "o2",
               "text": "Clothes"
+            },
+            {
+              "id": "o1",
+              "text": "Toiletries"
             },
             {
               "id": "o3",
@@ -284,19 +284,19 @@
           "prompt_es": "¿Qué objeto es esencial para una playa soleada?",
           "options": [
             {
-              "id": "o1",
-              "text": "Sunscreen"
-            },
-            {
               "id": "o2",
               "text": "A heavy coat"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "An umbrella"
+            },
+            {
+              "id": "o3",
+              "text": "Sunscreen"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary",
           "complexity": 1,
           "concept_tags": [
@@ -342,19 +342,19 @@
           "prompt_es": "Si tu maleta pesa mucho, dices:",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "My suitcase is heavy."
             },
             {
-              "id": "o2",
-              "text": "My suitcase is light."
+              "id": "o1",
+              "text": "My suitcase is empty."
             },
             {
               "id": "o3",
-              "text": "My suitcase is empty."
+              "text": "My suitcase is light."
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary",
           "complexity": 1,
           "concept_tags": [
@@ -789,12 +789,12 @@
           "prompt_es": "¿Cómo se dice 'suitcase' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Suitcase"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Suitcase"
             },
             {
               "id": "o3",
@@ -810,19 +810,19 @@
           "prompt_es": "¿Cómo se dice 'clothes' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Clothes"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Clothes"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -831,19 +831,19 @@
           "prompt_es": "¿Cómo se dice 'toiletries' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Toiletries"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -852,12 +852,12 @@
           "prompt_es": "¿Cómo se dice 'camera' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Camera"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Camera"
             },
             {
               "id": "o3",
@@ -873,19 +873,19 @@
           "prompt_es": "¿Cómo se dice 'charger' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Charger"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Charger"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -894,19 +894,19 @@
           "prompt_es": "¿Cómo se dice 'shoes' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Shoes"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -915,12 +915,12 @@
           "prompt_es": "¿Cómo se dice 'map' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Map"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Map"
             },
             {
               "id": "o3",
@@ -936,19 +936,19 @@
           "prompt_es": "¿Cómo se dice 'suitcase' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Suitcase"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Suitcase"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -957,19 +957,19 @@
           "prompt_es": "¿Cómo se dice 'clothes' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Clothes"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -978,12 +978,12 @@
           "prompt_es": "¿Cómo se dice 'toiletries' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Toiletries"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Toiletries"
             },
             {
               "id": "o3",
@@ -999,19 +999,19 @@
           "prompt_es": "¿Cómo se dice 'camera' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Camera"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Camera"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1020,19 +1020,19 @@
           "prompt_es": "¿Cómo se dice 'charger' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Charger"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1041,12 +1041,12 @@
           "prompt_es": "¿Cómo se dice 'shoes' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Shoes"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Shoes"
             },
             {
               "id": "o3",
@@ -1062,19 +1062,19 @@
           "prompt_es": "¿Cómo se dice 'map' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Map"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Map"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1083,19 +1083,19 @@
           "prompt_es": "¿Cómo se dice 'suitcase' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Suitcase"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1104,12 +1104,12 @@
           "prompt_es": "¿Cómo se dice 'clothes' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Clothes"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Clothes"
             },
             {
               "id": "o3",
@@ -1126,7 +1126,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Toiletries"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1134,10 +1134,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Toiletries"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1168,18 +1168,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Charger"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Charger"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1189,7 +1189,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Shoes"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1197,10 +1197,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Shoes"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1231,18 +1231,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Suitcase"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Suitcase"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1252,7 +1252,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Clothes"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1260,10 +1260,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Clothes"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1294,18 +1294,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Camera"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Camera"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1315,7 +1315,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Charger"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1323,10 +1323,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Charger"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1357,18 +1357,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Map"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Map"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1378,7 +1378,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Suitcase"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1386,10 +1386,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Suitcase"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         }
       ]

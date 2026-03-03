@@ -73,24 +73,24 @@
           "pairs": [
             {
               "id": "p1",
-              "left": "Salt",
+              "left": "[[Salt|Sal]]",
               "right": "Sal"
             },
             {
               "id": "p2",
-              "left": "Sugar",
-              "right": "Azúcar"
+              "left": "[[Sugar|Azúcar]]",
+              "right": "Harina"
             },
             {
               "id": "p3",
-              "left": "Flour",
-              "right": "Harina"
+              "left": "[[Flour|Harina]]",
+              "right": "Azúcar"
             }
           ],
           "correct_answer": {
             "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
+            "p2": "p3",
+            "p3": "p2"
           },
           "mastery_tag": "vocabulary",
           "complexity": 1,
@@ -714,18 +714,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Some"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Some"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -735,18 +735,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Any"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Any"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -777,18 +777,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Cheese"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Cheese"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -798,18 +798,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Tomatoes"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Tomatoes"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -840,18 +840,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Coffee"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Coffee"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -861,18 +861,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Some"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Some"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -903,18 +903,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Bread"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Bread"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -924,18 +924,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Cheese"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Cheese"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -966,18 +966,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Milk"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Milk"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -987,18 +987,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Coffee"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Coffee"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1029,18 +1029,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Any"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Any"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1050,18 +1050,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Bread"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Bread"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1092,18 +1092,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Tomatoes"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Tomatoes"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1113,7 +1113,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Milk"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1121,10 +1121,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Milk"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1155,18 +1155,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Some"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Some"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1176,7 +1176,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Any"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1184,10 +1184,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Any"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1218,18 +1218,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Cheese"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Cheese"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1239,7 +1239,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Tomatoes"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1247,10 +1247,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Tomatoes"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1281,18 +1281,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Coffee"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Coffee"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1302,7 +1302,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Some"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1310,10 +1310,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Some"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1344,18 +1344,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Bread"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Bread"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1365,7 +1365,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Cheese"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1373,10 +1373,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Cheese"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         }
       ]

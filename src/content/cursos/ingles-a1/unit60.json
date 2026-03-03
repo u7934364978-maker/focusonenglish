@@ -19,30 +19,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Food",
-              "right": "Comida"
-            },
-            {
-              "id": "p1",
-              "left": "Money",
-              "right": "Dinero"
-            },
-            {
-              "id": "p2",
-              "left": "Health",
+              "left": "[[Food|Comida]]",
               "right": "Salud"
             },
             {
-              "id": "p3",
-              "left": "Shopping",
+              "id": "p1",
+              "left": "[[Money|Dinero]]",
               "right": "Compras"
+            },
+            {
+              "id": "p2",
+              "left": "[[Health|Salud]]",
+              "right": "Comida"
+            },
+            {
+              "id": "p3",
+              "left": "[[Shopping|Compras]]",
+              "right": "Dinero"
             }
           ],
           "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
+            "p0": "p2",
+            "p1": "p3",
+            "p2": "p0",
+            "p3": "p1"
           },
           "mastery_tag": "vocabulary"
         },
@@ -106,18 +106,18 @@
           "options": [
             {
               "id": "o2",
-              "text": "Restaurant"
-            },
-            {
-              "id": "o1",
               "text": "Money"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Health"
+            },
+            {
+              "id": "o3",
+              "text": "Restaurant"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -127,29 +127,29 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Money",
-              "right": "Dinero"
-            },
-            {
-              "id": "p1",
-              "left": "Health",
-              "right": "Salud"
-            },
-            {
-              "id": "p2",
-              "left": "Shopping",
+              "left": "[[Money|Dinero]]",
               "right": "Compras"
             },
             {
+              "id": "p1",
+              "left": "[[Health|Salud]]",
+              "right": "Dinero"
+            },
+            {
+              "id": "p2",
+              "left": "[[Shopping|Compras]]",
+              "right": "Salud"
+            },
+            {
               "id": "p3",
-              "left": "Restaurant",
+              "left": "[[Restaurant|Restaurante]]",
               "right": "Restaurante"
             }
           ],
           "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
+            "p0": "p1",
+            "p1": "p2",
+            "p2": "p0",
             "p3": "p3"
           },
           "mastery_tag": "vocabulary"
@@ -214,18 +214,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Health"
+              "text": "Shopping"
             },
             {
               "id": "o3",
-              "text": "Shopping"
+              "text": "Health"
             },
             {
               "id": "o2",
               "text": "Restaurant"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -235,30 +235,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Health",
-              "right": "Salud"
-            },
-            {
-              "id": "p1",
-              "left": "Shopping",
+              "left": "[[Health|Salud]]",
               "right": "Compras"
             },
             {
+              "id": "p1",
+              "left": "[[Shopping|Compras]]",
+              "right": "Comida"
+            },
+            {
               "id": "p2",
-              "left": "Restaurant",
-              "right": "Restaurante"
+              "left": "[[Restaurant|Restaurante]]",
+              "right": "Salud"
             },
             {
               "id": "p3",
-              "left": "Food",
-              "right": "Comida"
+              "left": "[[Food|Comida]]",
+              "right": "Restaurante"
             }
           ],
           "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
+            "p0": "p2",
+            "p1": "p0",
+            "p2": "p3",
+            "p3": "p1"
           },
           "mastery_tag": "vocabulary"
         },
@@ -327,18 +327,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Shopping"
-            },
-            {
-              "id": "o3",
               "text": "Restaurant"
             },
             {
-              "id": "o2",
+              "id": "o3",
               "text": "Health"
+            },
+            {
+              "id": "o2",
+              "text": "Shopping"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -348,30 +348,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Shopping",
-              "right": "Compras"
+              "left": "[[Shopping|Compras]]",
+              "right": "Dinero"
             },
             {
               "id": "p1",
-              "left": "Restaurant",
-              "right": "Restaurante"
-            },
-            {
-              "id": "p2",
-              "left": "Food",
+              "left": "[[Restaurant|Restaurante]]",
               "right": "Comida"
             },
             {
+              "id": "p2",
+              "left": "[[Food|Comida]]",
+              "right": "Restaurante"
+            },
+            {
               "id": "p3",
-              "left": "Money",
-              "right": "Dinero"
+              "left": "[[Money|Dinero]]",
+              "right": "Compras"
             }
           ],
           "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
+            "p0": "p3",
+            "p1": "p2",
+            "p2": "p1",
+            "p3": "p0"
           },
           "mastery_tag": "vocabulary"
         },
@@ -440,7 +440,7 @@
           "options": [
             {
               "id": "o3",
-              "text": "Food"
+              "text": "Restaurant"
             },
             {
               "id": "o2",
@@ -448,10 +448,10 @@
             },
             {
               "id": "o1",
-              "text": "Restaurant"
+              "text": "Food"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -461,30 +461,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Restaurant",
-              "right": "Restaurante"
-            },
-            {
-              "id": "p1",
-              "left": "Food",
+              "left": "[[Restaurant|Restaurante]]",
               "right": "Comida"
             },
             {
+              "id": "p1",
+              "left": "[[Food|Comida]]",
+              "right": "Salud"
+            },
+            {
               "id": "p2",
-              "left": "Money",
-              "right": "Dinero"
+              "left": "[[Money|Dinero]]",
+              "right": "Restaurante"
             },
             {
               "id": "p3",
-              "left": "Health",
-              "right": "Salud"
+              "left": "[[Health|Salud]]",
+              "right": "Dinero"
             }
           ],
           "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
+            "p0": "p2",
+            "p1": "p0",
+            "p2": "p3",
+            "p3": "p1"
           },
           "mastery_tag": "vocabulary"
         },
@@ -564,30 +564,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Food",
-              "right": "Comida"
+              "left": "[[Food|Comida]]",
+              "right": "Compras"
             },
             {
               "id": "p1",
-              "left": "Money",
+              "left": "[[Money|Dinero]]",
               "right": "Dinero"
             },
             {
               "id": "p2",
-              "left": "Health",
-              "right": "Salud"
+              "left": "[[Health|Salud]]",
+              "right": "Comida"
             },
             {
               "id": "p3",
-              "left": "Shopping",
-              "right": "Compras"
+              "left": "[[Shopping|Compras]]",
+              "right": "Salud"
             }
           ],
           "correct_answer": {
-            "p0": "p0",
+            "p0": "p2",
             "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
+            "p2": "p3",
+            "p3": "p0"
           },
           "mastery_tag": "vocabulary"
         },
@@ -651,18 +651,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Money"
-            },
-            {
-              "id": "o2",
               "text": "Health"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Shopping"
+            },
+            {
+              "id": "o3",
+              "text": "Money"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -672,30 +672,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Money",
-              "right": "Dinero"
-            },
-            {
-              "id": "p1",
-              "left": "Health",
-              "right": "Salud"
-            },
-            {
-              "id": "p2",
-              "left": "Shopping",
+              "left": "[[Money|Dinero]]",
               "right": "Compras"
             },
             {
-              "id": "p3",
-              "left": "Restaurant",
+              "id": "p1",
+              "left": "[[Health|Salud]]",
+              "right": "Dinero"
+            },
+            {
+              "id": "p2",
+              "left": "[[Shopping|Compras]]",
               "right": "Restaurante"
+            },
+            {
+              "id": "p3",
+              "left": "[[Restaurant|Restaurante]]",
+              "right": "Salud"
             }
           ],
           "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
+            "p0": "p1",
+            "p1": "p3",
+            "p2": "p0",
+            "p3": "p2"
           },
           "mastery_tag": "vocabulary"
         },
@@ -759,7 +759,7 @@
           "options": [
             {
               "id": "o3",
-              "text": "Money"
+              "text": "Health"
             },
             {
               "id": "o2",
@@ -767,10 +767,10 @@
             },
             {
               "id": "o1",
-              "text": "Health"
+              "text": "Money"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -780,30 +780,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Health",
+              "left": "[[Health|Salud]]",
               "right": "Salud"
             },
             {
               "id": "p1",
-              "left": "Shopping",
-              "right": "Compras"
+              "left": "[[Shopping|Compras]]",
+              "right": "Comida"
             },
             {
               "id": "p2",
-              "left": "Restaurant",
+              "left": "[[Restaurant|Restaurante]]",
               "right": "Restaurante"
             },
             {
               "id": "p3",
-              "left": "Food",
-              "right": "Comida"
+              "left": "[[Food|Comida]]",
+              "right": "Compras"
             }
           ],
           "correct_answer": {
             "p0": "p0",
-            "p1": "p1",
+            "p1": "p3",
             "p2": "p2",
-            "p3": "p3"
+            "p3": "p1"
           },
           "mastery_tag": "vocabulary"
         },
@@ -872,18 +872,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Shopping"
+              "text": "Health"
             },
             {
               "id": "o2",
-              "text": "Health"
+              "text": "Shopping"
             },
             {
               "id": "o3",
               "text": "Food"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -893,30 +893,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Shopping",
-              "right": "Compras"
-            },
-            {
-              "id": "p1",
-              "left": "Restaurant",
+              "left": "[[Shopping|Compras]]",
               "right": "Restaurante"
             },
             {
+              "id": "p1",
+              "left": "[[Restaurant|Restaurante]]",
+              "right": "Dinero"
+            },
+            {
               "id": "p2",
-              "left": "Food",
-              "right": "Comida"
+              "left": "[[Food|Comida]]",
+              "right": "Compras"
             },
             {
               "id": "p3",
-              "left": "Money",
-              "right": "Dinero"
+              "left": "[[Money|Dinero]]",
+              "right": "Comida"
             }
           ],
           "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
+            "p0": "p2",
+            "p1": "p0",
+            "p2": "p3",
+            "p3": "p1"
           },
           "mastery_tag": "vocabulary"
         },
@@ -989,14 +989,14 @@
             },
             {
               "id": "o1",
-              "text": "Restaurant"
+              "text": "Shopping"
             },
             {
               "id": "o2",
-              "text": "Shopping"
+              "text": "Restaurant"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1006,29 +1006,29 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Restaurant",
-              "right": "Restaurante"
-            },
-            {
-              "id": "p1",
-              "left": "Food",
+              "left": "[[Restaurant|Restaurante]]",
               "right": "Comida"
             },
             {
-              "id": "p2",
-              "left": "Money",
+              "id": "p1",
+              "left": "[[Food|Comida]]",
               "right": "Dinero"
             },
             {
+              "id": "p2",
+              "left": "[[Money|Dinero]]",
+              "right": "Restaurante"
+            },
+            {
               "id": "p3",
-              "left": "Health",
+              "left": "[[Health|Salud]]",
               "right": "Salud"
             }
           ],
           "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
+            "p0": "p2",
+            "p1": "p0",
+            "p2": "p1",
             "p3": "p3"
           },
           "mastery_tag": "vocabulary"

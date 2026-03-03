@@ -50,30 +50,30 @@
           "pairs": [
             {
               "id": "p1",
-              "left": "Get up",
-              "right": "Levantarse"
+              "left": "[[Get up|Levantarse]]",
+              "right": "Ducharse"
             },
             {
               "id": "p2",
-              "left": "Brush teeth",
-              "right": "Cepillarse los dientes"
-            },
-            {
-              "id": "p3",
-              "left": "Have breakfast",
+              "left": "[[Brush teeth|Cepillarse los dientes]]",
               "right": "Desayunar"
             },
             {
+              "id": "p3",
+              "left": "[[Have breakfast|Desayunar]]",
+              "right": "Cepillarse los dientes"
+            },
+            {
               "id": "p4",
-              "left": "Take a shower",
-              "right": "Ducharse"
+              "left": "[[Take a shower|Ducharse]]",
+              "right": "Levantarse"
             }
           ],
           "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
+            "p1": "p4",
+            "p2": "p3",
+            "p3": "p2",
+            "p4": "p1"
           },
           "mastery_tag": "vocabulary",
           "complexity": 1,
@@ -102,18 +102,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "At 8 am"
+              "text": "In the evening"
             },
             {
               "id": "o2",
-              "text": "In the evening"
+              "text": "At 8 am"
             },
             {
               "id": "o3",
               "text": "At midnight"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary",
           "complexity": 1,
           "concept_tags": [
@@ -224,30 +224,30 @@
           "pairs": [
             {
               "id": "p1",
-              "left": "Get home",
+              "left": "[[Get home|Llegar a casa]]",
               "right": "Llegar a casa"
             },
             {
               "id": "p2",
-              "left": "Have dinner",
-              "right": "Cenar"
-            },
-            {
-              "id": "p3",
-              "left": "Watch TV",
+              "left": "[[Have dinner|Cenar]]",
               "right": "Ver la tele"
             },
             {
-              "id": "p4",
-              "left": "Go to bed",
+              "id": "p3",
+              "left": "[[Watch TV|Ver la tele]]",
               "right": "Irse a la cama"
+            },
+            {
+              "id": "p4",
+              "left": "[[Go to bed|Irse a la cama]]",
+              "right": "Cenar"
             }
           ],
           "correct_answer": {
             "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
+            "p2": "p4",
+            "p3": "p2",
+            "p4": "p3"
           },
           "mastery_tag": "vocabulary",
           "complexity": 1,
@@ -263,18 +263,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "I go to bed"
-            },
-            {
-              "id": "o2",
               "text": "I go to work"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "I wake up"
+            },
+            {
+              "id": "o3",
+              "text": "I go to bed"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary",
           "complexity": 1,
           "concept_tags": [
@@ -793,18 +793,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Headache"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Headache"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -814,18 +814,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Cold"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Cold"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -856,18 +856,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Medicine"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Medicine"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -877,18 +877,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Sore throat"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Sore throat"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -919,18 +919,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Better"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Better"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -940,18 +940,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Headache"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Headache"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -982,18 +982,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Doctor"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Doctor"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1003,18 +1003,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Medicine"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Medicine"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1045,18 +1045,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Fever"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Fever"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1066,18 +1066,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Better"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Better"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1108,18 +1108,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Cold"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Cold"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1129,18 +1129,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Doctor"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Doctor"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1171,18 +1171,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Sore throat"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Sore throat"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1192,7 +1192,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Fever"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1200,10 +1200,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Fever"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1234,18 +1234,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Headache"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Headache"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1255,7 +1255,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Cold"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1263,10 +1263,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Cold"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1297,18 +1297,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Medicine"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Medicine"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1318,7 +1318,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Sore throat"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1326,10 +1326,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Sore throat"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1360,18 +1360,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Better"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Better"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1381,7 +1381,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Headache"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1389,10 +1389,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Headache"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {

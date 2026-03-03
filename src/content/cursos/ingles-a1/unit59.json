@@ -50,30 +50,30 @@
           "pairs": [
             {
               "id": "p1",
-              "left": "Paint",
+              "left": "[[Paint|Pintar]]",
               "right": "Pintar"
             },
             {
               "id": "p2",
-              "left": "Dance",
-              "right": "Bailar"
+              "left": "[[Dance|Bailar]]",
+              "right": "Nadar"
             },
             {
               "id": "p3",
-              "left": "Cook",
+              "left": "[[Cook|Cocinar]]",
               "right": "Cocinar"
             },
             {
               "id": "p4",
-              "left": "Swim",
-              "right": "Nadar"
+              "left": "[[Swim|Nadar]]",
+              "right": "Bailar"
             }
           ],
           "correct_answer": {
             "p1": "p1",
-            "p2": "p2",
+            "p2": "p4",
             "p3": "p3",
-            "p4": "p4"
+            "p4": "p2"
           },
           "mastery_tag": "vocabulary",
           "complexity": 1,
@@ -102,18 +102,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Play video games"
+              "text": "Go for a walk"
             },
             {
               "id": "o2",
-              "text": "Go for a walk"
+              "text": "Play video games"
             },
             {
               "id": "o3",
               "text": "Listen to music"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary",
           "complexity": 1,
           "concept_tags": [
@@ -192,18 +192,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "I hate it"
-            },
-            {
-              "id": "o2",
               "text": "I love it"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "I enjoy it"
+            },
+            {
+              "id": "o3",
+              "text": "I hate it"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary",
           "complexity": 1,
           "concept_tags": [
@@ -250,30 +250,30 @@
           "pairs": [
             {
               "id": "p1",
-              "left": "Go for a walk",
-              "right": "Dar un paseo"
-            },
-            {
-              "id": "p2",
-              "left": "Watch a movie",
+              "left": "[[Go for a walk|Dar un paseo]]",
               "right": "Ver una peli"
             },
             {
+              "id": "p2",
+              "left": "[[Watch a movie|Ver una peli]]",
+              "right": "Escuchar música"
+            },
+            {
               "id": "p3",
-              "left": "Meet friends",
+              "left": "[[Meet friends|Quedar con amigos]]",
               "right": "Quedar con amigos"
             },
             {
               "id": "p4",
-              "left": "Listen to music",
-              "right": "Escuchar música"
+              "left": "[[Listen to music|Escuchar música]]",
+              "right": "Dar un paseo"
             }
           ],
           "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
+            "p1": "p4",
+            "p2": "p1",
             "p3": "p3",
-            "p4": "p4"
+            "p4": "p2"
           },
           "mastery_tag": "vocabulary",
           "complexity": 1,
@@ -372,18 +372,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Swimming"
+              "text": "Working"
             },
             {
               "id": "o2",
-              "text": "Working"
+              "text": "Swimming"
             },
             {
               "id": "o3",
               "text": "Sleeping"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary",
           "complexity": 1,
           "concept_tags": [
@@ -819,18 +819,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Pounds"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Pounds"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -861,18 +861,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Euros"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Euros"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -882,18 +882,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Cash"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Cash"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -924,18 +924,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Change"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Change"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -945,18 +945,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Price"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Price"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -987,18 +987,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Dollars"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Dollars"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1008,18 +1008,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Euros"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Euros"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1050,18 +1050,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Card"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Card"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1071,18 +1071,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Change"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Change"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1113,18 +1113,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Pounds"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Pounds"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1134,18 +1134,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Dollars"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Dollars"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1176,18 +1176,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Cash"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Cash"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1197,7 +1197,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Card"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1205,10 +1205,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Card"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1239,18 +1239,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Price"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Price"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1260,7 +1260,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Pounds"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1268,10 +1268,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Pounds"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1302,18 +1302,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Euros"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Euros"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1323,7 +1323,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Cash"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1331,10 +1331,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Cash"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1365,18 +1365,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Change"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Change"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1386,7 +1386,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Price"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1394,10 +1394,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Price"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {

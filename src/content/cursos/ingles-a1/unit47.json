@@ -24,30 +24,30 @@
           "pairs": [
             {
               "id": "p1",
-              "left": "Sunbathing",
-              "right": "Tomar el sol"
-            },
-            {
-              "id": "p2",
-              "left": "Swimming",
+              "left": "[[Sunbathing|Tomar el sol]]",
               "right": "Nadar"
             },
             {
+              "id": "p2",
+              "left": "[[Swimming|Nadar]]",
+              "right": "Relajarse"
+            },
+            {
               "id": "p3",
-              "left": "Sightseeing",
+              "left": "[[Sightseeing|Hacer turismo]]",
               "right": "Hacer turismo"
             },
             {
               "id": "p4",
-              "left": "Relaxing",
-              "right": "Relajarse"
+              "left": "[[Relaxing|Relajarse]]",
+              "right": "Tomar el sol"
             }
           ],
           "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
+            "p1": "p4",
+            "p2": "p1",
             "p3": "p3",
-            "p4": "p4"
+            "p4": "p2"
           },
           "mastery_tag": "vocabulary",
           "complexity": 1,
@@ -62,19 +62,19 @@
           "prompt_es": "¿Qué haces en las montañas?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Hiking"
             },
             {
-              "id": "o2",
-              "text": "Sunbathing"
+              "id": "o1",
+              "text": "Buying milk"
             },
             {
               "id": "o3",
-              "text": "Buying milk"
+              "text": "Sunbathing"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary",
           "complexity": 1,
           "concept_tags": [
@@ -222,12 +222,12 @@
           "prompt_es": "Friend: 'What are you doing today?' - You:",
           "options": [
             {
-              "id": "o1",
-              "text": "I am relaxing at the pool."
-            },
-            {
               "id": "o2",
               "text": "I am a teacher."
+            },
+            {
+              "id": "o1",
+              "text": "I am relaxing at the pool."
             },
             {
               "id": "o3",
@@ -300,31 +300,36 @@
           ]
         },
         {
+          "interaction_id": "A1_U47_B47_4_READ1",
+          "type": "reading_phase",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[following|siguiente]] [[text|texto]] [[carefully|con atención]]:",
+          "transcript": "Sarah loves eating Italian food. She enjoys pizza and pasta. Every Friday, she goes to a small Italian restaurant near her house. The restaurant has a friendly chef who makes delicious meals. Sarah always feels happy when she eats there. She does not like working at the office or rainy weather, but Italian food always makes her smile."
+        },
+        {
           "interaction_id": "A1_U47_B47_4_I5",
           "type": "multiple_choice",
           "prompt_es": "¿Qué le gusta a Sarah?",
           "options": [
             {
-              "id": "o1",
-              "text": "Eating Italian food"
-            },
-            {
               "id": "o2",
               "text": "Working at the office"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Rainy weather"
+            },
+            {
+              "id": "o3",
+              "text": "Eating Italian food"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "reading",
           "complexity": 1,
           "concept_tags": [
             "grammar",
             "reading"
-          ],
-          "stimulus_en": "Sarah loves eating Italian food. She enjoys pizza and pasta. Every Friday, she goes to a small Italian restaurant near her house. The restaurant has a friendly chef who makes delicious meals. Sarah always feels happy when she eats there. She does not like working at the office or rainy weather, but Italian food always makes her smile."
+          ]
         }
       ]
     },
@@ -753,19 +758,19 @@
           "prompt_es": "¿Cómo se dice 'holiday' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Holiday"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -774,12 +779,12 @@
           "prompt_es": "¿Cómo se dice 'vacation' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Vacation"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Vacation"
             },
             {
               "id": "o3",
@@ -795,19 +800,19 @@
           "prompt_es": "¿Cómo se dice 'beach' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Beach"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Beach"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -816,19 +821,19 @@
           "prompt_es": "¿Cómo se dice 'mountains' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Mountains"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -837,12 +842,12 @@
           "prompt_es": "¿Cómo se dice 'sightseeing' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Sightseeing"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Sightseeing"
             },
             {
               "id": "o3",
@@ -858,19 +863,19 @@
           "prompt_es": "¿Cómo se dice 'relax' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Relax"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Relax"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -879,19 +884,19 @@
           "prompt_es": "¿Cómo se dice 'photos' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Photos"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -900,12 +905,12 @@
           "prompt_es": "¿Cómo se dice 'holiday' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Holiday"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Holiday"
             },
             {
               "id": "o3",
@@ -921,19 +926,19 @@
           "prompt_es": "¿Cómo se dice 'vacation' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Vacation"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Vacation"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -942,19 +947,19 @@
           "prompt_es": "¿Cómo se dice 'beach' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Beach"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -963,12 +968,12 @@
           "prompt_es": "¿Cómo se dice 'mountains' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Mountains"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Mountains"
             },
             {
               "id": "o3",
@@ -984,19 +989,19 @@
           "prompt_es": "¿Cómo se dice 'sightseeing' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Sightseeing"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Sightseeing"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1005,19 +1010,19 @@
           "prompt_es": "¿Cómo se dice 'relax' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Relax"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1026,12 +1031,12 @@
           "prompt_es": "¿Cómo se dice 'photos' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Photos"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Photos"
             },
             {
               "id": "o3",
@@ -1047,19 +1052,19 @@
           "prompt_es": "¿Cómo se dice 'holiday' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Holiday"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Holiday"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1068,19 +1073,19 @@
           "prompt_es": "¿Cómo se dice 'vacation' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Vacation"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1089,12 +1094,12 @@
           "prompt_es": "¿Cómo se dice 'beach' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Beach"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Beach"
             },
             {
               "id": "o3",
@@ -1111,7 +1116,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Mountains"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1119,10 +1124,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Mountains"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1153,18 +1158,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Relax"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Relax"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1174,7 +1179,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Photos"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1182,10 +1187,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Photos"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1216,18 +1221,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Vacation"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Vacation"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1237,7 +1242,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Beach"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1245,10 +1250,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Beach"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1279,18 +1284,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Sightseeing"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Sightseeing"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1300,7 +1305,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Relax"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1308,10 +1313,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Relax"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1342,18 +1347,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Holiday"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Holiday"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1363,7 +1368,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Vacation"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1371,10 +1376,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Vacation"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         }
       ]

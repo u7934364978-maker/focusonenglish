@@ -24,29 +24,29 @@
           "pairs": [
             {
               "id": "p1",
-              "left": "Sunny",
-              "right": "Soleado"
-            },
-            {
-              "id": "p2",
-              "left": "Rainy",
+              "left": "[[Sunny|Soleado]]",
               "right": "Lluvioso"
             },
             {
-              "id": "p3",
-              "left": "Cloudy",
+              "id": "p2",
+              "left": "[[Rainy|Lluvioso]]",
               "right": "Nublado"
             },
             {
+              "id": "p3",
+              "left": "[[Cloudy|Nublado]]",
+              "right": "Soleado"
+            },
+            {
               "id": "p4",
-              "left": "Windy",
+              "left": "[[Windy|Ventoso]]",
               "right": "Ventoso"
             }
           ],
           "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
+            "p1": "p3",
+            "p2": "p1",
+            "p3": "p2",
             "p4": "p4"
           },
           "mastery_tag": "vocabulary",
@@ -62,19 +62,19 @@
           "prompt_es": "¿Qué necesitas cuando llueve?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "An umbrella"
             },
             {
-              "id": "o2",
-              "text": "Sunglasses"
+              "id": "o1",
+              "text": "A swimsuit"
             },
             {
               "id": "o3",
-              "text": "A swimsuit"
+              "text": "Sunglasses"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary",
           "complexity": 1,
           "concept_tags": [
@@ -133,12 +133,12 @@
           "prompt_es": "________ is raining today.",
           "options": [
             {
-              "id": "o1",
-              "text": "It"
-            },
-            {
               "id": "o2",
               "text": "He"
+            },
+            {
+              "id": "o1",
+              "text": "It"
             },
             {
               "id": "o3",
@@ -248,19 +248,19 @@
           "prompt_es": "Weather forecast: 'Cloudy with rain.' - You take:",
           "options": [
             {
-              "id": "o1",
-              "text": "A raincoat"
-            },
-            {
               "id": "o2",
               "text": "A swimsuit"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Sunglasses"
+            },
+            {
+              "id": "o3",
+              "text": "A raincoat"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "syntax",
           "complexity": 1,
           "concept_tags": [
@@ -326,31 +326,36 @@
           ]
         },
         {
+          "interaction_id": "A1_U44_B44_4_READ1",
+          "type": "reading_phase",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[following|siguiente]] [[text|texto]] [[carefully|con atención]]:",
+          "transcript": "People are in the park in Madrid. They walk and talk. Children play with a ball. Some people sit on benches. They eat ice cream and enjoy the sun. Birds sing in the trees. It is a happy day in the park."
+        },
+        {
           "interaction_id": "A1_U44_B44_4_I5",
           "type": "multiple_choice",
           "prompt_es": "En Madrid, la gente está en...",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "The park"
             },
             {
-              "id": "o2",
-              "text": "The office"
+              "id": "o1",
+              "text": "Home"
             },
             {
               "id": "o3",
-              "text": "Home"
+              "text": "The office"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "reading",
           "complexity": 1,
           "concept_tags": [
             "grammar",
             "reading"
-          ],
-          "stimulus_en": "People are in the park in Madrid. They walk and talk. Children play with a ball. Some people sit on benches. They eat ice cream and enjoy the sun. Birds sing in the trees. It is a happy day in the park."
+          ]
         }
       ]
     },
@@ -779,12 +784,12 @@
           "prompt_es": "¿Cómo se dice 'sunny' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Sunny"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Sunny"
             },
             {
               "id": "o3",
@@ -800,19 +805,19 @@
           "prompt_es": "¿Cómo se dice 'raining' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Raining"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Raining"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -821,19 +826,19 @@
           "prompt_es": "¿Cómo se dice 'windy' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Windy"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -842,12 +847,12 @@
           "prompt_es": "¿Cómo se dice 'cold' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Cold"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Cold"
             },
             {
               "id": "o3",
@@ -863,19 +868,19 @@
           "prompt_es": "¿Cómo se dice 'hot' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Hot"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Hot"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -884,19 +889,19 @@
           "prompt_es": "¿Cómo se dice 'snowing' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Snowing"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -905,12 +910,12 @@
           "prompt_es": "¿Cómo se dice 'cloudy' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Cloudy"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Cloudy"
             },
             {
               "id": "o3",
@@ -926,19 +931,19 @@
           "prompt_es": "¿Cómo se dice 'sunny' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Sunny"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Sunny"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -947,19 +952,19 @@
           "prompt_es": "¿Cómo se dice 'raining' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Raining"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -968,12 +973,12 @@
           "prompt_es": "¿Cómo se dice 'windy' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Windy"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Windy"
             },
             {
               "id": "o3",
@@ -989,19 +994,19 @@
           "prompt_es": "¿Cómo se dice 'cold' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Cold"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Cold"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1010,19 +1015,19 @@
           "prompt_es": "¿Cómo se dice 'hot' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Hot"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1031,12 +1036,12 @@
           "prompt_es": "¿Cómo se dice 'snowing' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Snowing"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Snowing"
             },
             {
               "id": "o3",
@@ -1052,19 +1057,19 @@
           "prompt_es": "¿Cómo se dice 'cloudy' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Cloudy"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Cloudy"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1073,19 +1078,19 @@
           "prompt_es": "¿Cómo se dice 'sunny' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Sunny"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1094,12 +1099,12 @@
           "prompt_es": "¿Cómo se dice 'raining' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Raining"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Raining"
             },
             {
               "id": "o3",
@@ -1116,7 +1121,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Windy"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1124,10 +1129,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Windy"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1158,18 +1163,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Hot"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Hot"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1179,7 +1184,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Snowing"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1187,10 +1192,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Snowing"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1221,18 +1226,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Sunny"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Sunny"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1242,7 +1247,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Raining"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1250,10 +1255,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Raining"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1284,18 +1289,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Cold"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Cold"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1305,7 +1310,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Hot"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1313,10 +1318,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Hot"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1347,18 +1352,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Cloudy"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Cloudy"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1368,7 +1373,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Sunny"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1376,10 +1381,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Sunny"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         }
       ]

@@ -51,30 +51,30 @@
           "pairs": [
             {
               "id": "p1",
-              "left": "Shop assistant",
-              "right": "Dependiente/a"
-            },
-            {
-              "id": "p2",
-              "left": "Customer",
-              "right": "Cliente"
-            },
-            {
-              "id": "p3",
-              "left": "Price tag",
+              "left": "[[Shop assistant|Dependiente/a]]",
               "right": "Etiqueta"
             },
             {
-              "id": "p4",
-              "left": "Sale",
+              "id": "p2",
+              "left": "[[Customer|Cliente]]",
               "right": "Rebajas"
+            },
+            {
+              "id": "p3",
+              "left": "[[Price tag|Etiqueta]]",
+              "right": "Cliente"
+            },
+            {
+              "id": "p4",
+              "left": "[[Sale|Rebajas]]",
+              "right": "Dependiente/a"
             }
           ],
           "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
+            "p1": "p4",
+            "p2": "p3",
+            "p3": "p1",
+            "p4": "p2"
           },
           "mastery_tag": "vocabulary",
           "complexity": 1,
@@ -103,18 +103,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "En oferta / rebajado"
+              "text": "Cerrado"
             },
             {
               "id": "o2",
-              "text": "Cerrado"
+              "text": "En oferta / rebajado"
             },
             {
               "id": "o3",
               "text": "Nuevo"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary",
           "complexity": 1,
           "concept_tags": [
@@ -188,18 +188,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "How much is this?"
-            },
-            {
-              "id": "o2",
               "text": "How many is this?"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "What price is this?"
+            },
+            {
+              "id": "o3",
+              "text": "How much is this?"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "grammar",
           "complexity": 1,
           "concept_tags": [
@@ -361,18 +361,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "The checkout"
+              "text": "The fitting room"
             },
             {
               "id": "o2",
-              "text": "The fitting room"
+              "text": "The checkout"
             },
             {
               "id": "o3",
               "text": "The sale"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary",
           "complexity": 1,
           "concept_tags": [
@@ -808,18 +808,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Shirt"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Shirt"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -850,18 +850,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Size"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Size"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -871,18 +871,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Price"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Price"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -913,18 +913,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Try on"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Try on"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -934,18 +934,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Expensive"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Expensive"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -976,18 +976,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Jeans"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Jeans"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -997,18 +997,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Size"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Size"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1039,18 +1039,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Fitting room"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Fitting room"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1060,18 +1060,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Try on"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Try on"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1102,18 +1102,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Shirt"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Shirt"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1123,18 +1123,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Jeans"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Jeans"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1165,18 +1165,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Price"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Price"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1186,7 +1186,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Fitting room"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1194,10 +1194,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Fitting room"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1228,18 +1228,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Expensive"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Expensive"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1249,7 +1249,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Shirt"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1257,10 +1257,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Shirt"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1291,18 +1291,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Size"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Size"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1312,7 +1312,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Price"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1320,10 +1320,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Price"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1354,18 +1354,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Try on"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Try on"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1375,7 +1375,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Expensive"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1383,10 +1383,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Expensive"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {

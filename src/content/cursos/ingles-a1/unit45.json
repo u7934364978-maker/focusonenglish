@@ -24,30 +24,30 @@
           "pairs": [
             {
               "id": "p1",
-              "left": "Spring",
-              "right": "Primavera"
-            },
-            {
-              "id": "p2",
-              "left": "Summer",
+              "left": "[[Spring|Primavera]]",
               "right": "Verano"
             },
             {
-              "id": "p3",
-              "left": "Autumn",
+              "id": "p2",
+              "left": "[[Summer|Verano]]",
               "right": "Otoño"
             },
             {
-              "id": "p4",
-              "left": "Winter",
+              "id": "p3",
+              "left": "[[Autumn|Otoño]]",
               "right": "Invierno"
+            },
+            {
+              "id": "p4",
+              "left": "[[Winter|Invierno]]",
+              "right": "Primavera"
             }
           ],
           "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
+            "p1": "p4",
+            "p2": "p1",
+            "p3": "p2",
+            "p4": "p3"
           },
           "mastery_tag": "vocabulary",
           "complexity": 1,
@@ -62,19 +62,19 @@
           "prompt_es": "¿En qué estación hay flores?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Spring"
             },
             {
-              "id": "o2",
-              "text": "Winter"
+              "id": "o1",
+              "text": "Autumn"
             },
             {
               "id": "o3",
-              "text": "Autumn"
+              "text": "Winter"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary",
           "complexity": 1,
           "concept_tags": [
@@ -133,12 +133,12 @@
           "prompt_es": "I go to the beach ________ summer.",
           "options": [
             {
-              "id": "o1",
-              "text": "in"
-            },
-            {
               "id": "o2",
               "text": "on"
+            },
+            {
+              "id": "o1",
+              "text": "in"
             },
             {
               "id": "o3",
@@ -243,19 +243,19 @@
           "prompt_es": "In winter, you can:",
           "options": [
             {
-              "id": "o1",
-              "text": "See snow"
-            },
-            {
               "id": "o2",
               "text": "Go to the beach"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "See flowers blossom"
+            },
+            {
+              "id": "o3",
+              "text": "See snow"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "syntax",
           "complexity": 1,
           "concept_tags": [
@@ -308,31 +308,36 @@
       "title": "Block 4: Mastery & Skills",
       "content": [
         {
+          "interaction_id": "A1_U45_B45_4_READ1",
+          "type": "reading_phase",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[following|siguiente]] [[text|texto]] [[carefully|con atención]]:",
+          "transcript": "Alice stays at home in winter because it is cold. She likes to sit by the fire and drink hot chocolate. She reads books and watches movies. Her cat, Snowy, sits on her lap. Alice is happy and warm inside her house when the winter wind blows outside."
+        },
+        {
           "interaction_id": "A1_U45_B45_4_I5",
           "type": "multiple_choice",
           "prompt_es": "¿Por qué Alice se queda en casa en invierno?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Because it is cold"
             },
             {
-              "id": "o2",
-              "text": "Because she is busy"
+              "id": "o1",
+              "text": "Because it is rainy"
             },
             {
               "id": "o3",
-              "text": "Because it is rainy"
+              "text": "Because she is busy"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "reading",
           "complexity": 1,
           "concept_tags": [
             "grammar",
             "reading"
-          ],
-          "stimulus_en": "Alice stays at home in winter because it is cold. She likes to sit by the fire and drink hot chocolate. She reads books and watches movies. Her cat, Snowy, sits on her lap. Alice is happy and warm inside her house when the winter wind blows outside."
+          ]
         }
       ]
     },
@@ -761,12 +766,12 @@
           "prompt_es": "¿Cómo se dice 'spring' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Spring"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Spring"
             },
             {
               "id": "o3",
@@ -782,19 +787,19 @@
           "prompt_es": "¿Cómo se dice 'summer' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Summer"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Summer"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -803,19 +808,19 @@
           "prompt_es": "¿Cómo se dice 'autumn' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Autumn"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -824,12 +829,12 @@
           "prompt_es": "¿Cómo se dice 'winter' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Winter"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Winter"
             },
             {
               "id": "o3",
@@ -845,19 +850,19 @@
           "prompt_es": "¿Cómo se dice 'beach' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Beach"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Beach"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -866,19 +871,19 @@
           "prompt_es": "¿Cómo se dice 'flowers' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Flowers"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -887,12 +892,12 @@
           "prompt_es": "¿Cómo se dice 'leaves' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Leaves"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Leaves"
             },
             {
               "id": "o3",
@@ -908,19 +913,19 @@
           "prompt_es": "¿Cómo se dice 'spring' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Spring"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Spring"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -929,19 +934,19 @@
           "prompt_es": "¿Cómo se dice 'summer' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Summer"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -950,12 +955,12 @@
           "prompt_es": "¿Cómo se dice 'autumn' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Autumn"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Autumn"
             },
             {
               "id": "o3",
@@ -971,19 +976,19 @@
           "prompt_es": "¿Cómo se dice 'winter' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Winter"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Winter"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -992,19 +997,19 @@
           "prompt_es": "¿Cómo se dice 'beach' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Beach"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1013,12 +1018,12 @@
           "prompt_es": "¿Cómo se dice 'flowers' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Flowers"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Flowers"
             },
             {
               "id": "o3",
@@ -1034,19 +1039,19 @@
           "prompt_es": "¿Cómo se dice 'leaves' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Leaves"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Leaves"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1055,19 +1060,19 @@
           "prompt_es": "¿Cómo se dice 'spring' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Spring"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1076,12 +1081,12 @@
           "prompt_es": "¿Cómo se dice 'summer' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Summer"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Summer"
             },
             {
               "id": "o3",
@@ -1097,19 +1102,19 @@
           "prompt_es": "¿Cómo se dice 'autumn' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Autumn"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Autumn"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1140,18 +1145,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Beach"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Beach"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1161,7 +1166,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Flowers"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1169,10 +1174,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Flowers"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1203,18 +1208,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Spring"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Spring"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1224,7 +1229,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Summer"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1232,10 +1237,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Summer"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1266,18 +1271,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Winter"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Winter"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1287,7 +1292,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Beach"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1295,10 +1300,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Beach"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1329,18 +1334,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Leaves"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Leaves"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1350,7 +1355,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Spring"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1358,10 +1363,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Spring"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {

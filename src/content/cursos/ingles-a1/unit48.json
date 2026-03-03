@@ -24,29 +24,29 @@
           "pairs": [
             {
               "id": "p1",
-              "left": "Museum",
-              "right": "Museo"
+              "left": "[[Museum|Museo]]",
+              "right": "Guía turístico/a"
             },
             {
               "id": "p2",
-              "left": "Monument",
+              "left": "[[Monument|Monumento]]",
               "right": "Monumento"
             },
             {
               "id": "p3",
-              "left": "Tour guide",
-              "right": "Guía turístico/a"
+              "left": "[[Tour guide|Guía turístico/a]]",
+              "right": "Museo"
             },
             {
               "id": "p4",
-              "left": "Map",
+              "left": "[[Map|Mapa]]",
               "right": "Mapa"
             }
           ],
           "correct_answer": {
-            "p1": "p1",
+            "p1": "p3",
             "p2": "p2",
-            "p3": "p3",
+            "p3": "p1",
             "p4": "p4"
           },
           "mastery_tag": "vocabulary",
@@ -62,19 +62,19 @@
           "prompt_es": "¿Qué usas para sacar fotos?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Camera"
             },
             {
-              "id": "o2",
-              "text": "Map"
+              "id": "o1",
+              "text": "Ticket"
             },
             {
               "id": "o3",
-              "text": "Ticket"
+              "text": "Map"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary",
           "complexity": 1,
           "concept_tags": [
@@ -120,12 +120,12 @@
           "prompt_es": "________ forget your passport!",
           "options": [
             {
-              "id": "o1",
-              "text": "Don't"
-            },
-            {
               "id": "o2",
               "text": "Not"
+            },
+            {
+              "id": "o1",
+              "text": "Don't"
             },
             {
               "id": "o3",
@@ -235,19 +235,19 @@
           "prompt_es": "Tourist: 'Excuse me, is the museum open today?' - Staff:",
           "options": [
             {
-              "id": "o1",
-              "text": "Yes, it is. It opens at 10 AM."
-            },
-            {
               "id": "o2",
               "text": "No, it is closed on Mondays."
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "The tickets are expensive."
+            },
+            {
+              "id": "o3",
+              "text": "Yes, it is. It opens at 10 AM."
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "syntax",
           "complexity": 1,
           "concept_tags": [
@@ -326,31 +326,36 @@
           ]
         },
         {
+          "interaction_id": "A1_U48_B48_4_READ1",
+          "type": "reading_phase",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[following|siguiente]] [[text|texto]] [[carefully|con atención]]:",
+          "transcript": "Anna buys a souvenir before she leaves the city. She visits a small shop. The shop has many colorful souvenirs. Anna likes a red mug. It has a picture of the city on it. She pays for the mug and smiles. Now, she has a gift to remember her trip."
+        },
+        {
           "interaction_id": "A1_U48_B48_4_I5",
           "type": "multiple_choice",
           "prompt_es": "¿Qué debes comprar antes de irte?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "A souvenir"
             },
             {
-              "id": "o2",
-              "text": "A map"
+              "id": "o1",
+              "text": "A ticket"
             },
             {
               "id": "o3",
-              "text": "A ticket"
+              "text": "A map"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "reading",
           "complexity": 1,
           "concept_tags": [
             "grammar",
             "reading"
-          ],
-          "stimulus_en": "Anna buys a souvenir before she leaves the city. She visits a small shop. The shop has many colorful souvenirs. Anna likes a red mug. It has a picture of the city on it. She pays for the mug and smiles. Now, she has a gift to remember her trip."
+          ]
         }
       ]
     },
@@ -779,12 +784,12 @@
           "prompt_es": "¿Cómo se dice 'museum' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Museum"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Museum"
             },
             {
               "id": "o3",
@@ -800,19 +805,19 @@
           "prompt_es": "¿Cómo se dice 'statue' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Statue"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Statue"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -821,19 +826,19 @@
           "prompt_es": "¿Cómo se dice 'bridge' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Bridge"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -842,12 +847,12 @@
           "prompt_es": "¿Cómo se dice 'tower' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Tower"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Tower"
             },
             {
               "id": "o3",
@@ -863,19 +868,19 @@
           "prompt_es": "¿Cómo se dice 'castle' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Castle"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Castle"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -884,19 +889,19 @@
           "prompt_es": "¿Cómo se dice 'tour' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Tour"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -905,12 +910,12 @@
           "prompt_es": "¿Cómo se dice 'guide' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Guide"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Guide"
             },
             {
               "id": "o3",
@@ -926,19 +931,19 @@
           "prompt_es": "¿Cómo se dice 'museum' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Museum"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Museum"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -947,19 +952,19 @@
           "prompt_es": "¿Cómo se dice 'statue' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Statue"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -968,12 +973,12 @@
           "prompt_es": "¿Cómo se dice 'bridge' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Bridge"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Bridge"
             },
             {
               "id": "o3",
@@ -989,19 +994,19 @@
           "prompt_es": "¿Cómo se dice 'tower' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Tower"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Tower"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1010,19 +1015,19 @@
           "prompt_es": "¿Cómo se dice 'castle' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Castle"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1031,12 +1036,12 @@
           "prompt_es": "¿Cómo se dice 'tour' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Tour"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Tour"
             },
             {
               "id": "o3",
@@ -1052,19 +1057,19 @@
           "prompt_es": "¿Cómo se dice 'guide' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Guide"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Guide"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1073,19 +1078,19 @@
           "prompt_es": "¿Cómo se dice 'museum' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Museum"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1094,12 +1099,12 @@
           "prompt_es": "¿Cómo se dice 'statue' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Statue"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Statue"
             },
             {
               "id": "o3",
@@ -1116,7 +1121,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Bridge"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1124,10 +1129,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Bridge"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1158,18 +1163,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Castle"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Castle"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1179,7 +1184,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Tour"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1187,10 +1192,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Tour"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1221,18 +1226,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Museum"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Museum"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1242,7 +1247,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Statue"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1250,10 +1255,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Statue"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1284,18 +1289,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Tower"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Tower"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1305,7 +1310,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Castle"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1313,10 +1318,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Castle"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1347,18 +1352,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Guide"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Guide"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1368,7 +1373,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Museum"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1376,10 +1381,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Museum"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         }
       ]

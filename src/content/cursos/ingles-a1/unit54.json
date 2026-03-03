@@ -109,24 +109,24 @@
           "pairs": [
             {
               "id": "p1",
-              "left": "Much",
-              "right": "Uncountable (singular)"
+              "left": "[[Much|Uncountable (singular)]]",
+              "right": "Both types"
             },
             {
               "id": "p2",
-              "left": "Many",
+              "left": "[[Many|Countable (plural)]]",
               "right": "Countable (plural)"
             },
             {
               "id": "p3",
-              "left": "A lot of",
-              "right": "Both types"
+              "left": "[[A lot of|Both types]]",
+              "right": "Uncountable (singular)"
             }
           ],
           "correct_answer": {
-            "p1": "p1",
+            "p1": "p3",
             "p2": "p2",
-            "p3": "p3"
+            "p3": "p1"
           },
           "mastery_tag": "grammar",
           "complexity": 1,
@@ -148,18 +148,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "A little water"
+              "text": "A few water"
             },
             {
               "id": "o2",
-              "text": "A few water"
+              "text": "A little water"
             },
             {
               "id": "o3",
               "text": "Many water"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "grammar",
           "complexity": 1,
           "concept_tags": [
@@ -265,18 +265,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "I don't have much money."
-            },
-            {
-              "id": "o2",
               "text": "I don't have many money."
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "I have many money."
+            },
+            {
+              "id": "o3",
+              "text": "I don't have much money."
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "grammar",
           "complexity": 1,
           "concept_tags": [
@@ -828,18 +828,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Many"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Many"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -849,18 +849,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "How much"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "How much"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -891,18 +891,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Money"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Money"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -912,18 +912,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Friends"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Friends"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -954,18 +954,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Much"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Much"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -975,18 +975,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Many"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Many"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1017,18 +1017,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "How many"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "How many"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1038,18 +1038,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Money"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Money"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1080,18 +1080,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Time"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Time"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1101,18 +1101,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Much"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Much"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1143,18 +1143,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "How much"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "How much"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1164,7 +1164,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "How many"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1172,10 +1172,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "How many"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1206,18 +1206,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Friends"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Friends"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1227,7 +1227,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Time"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1235,10 +1235,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Time"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1269,18 +1269,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Many"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Many"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1290,7 +1290,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "How much"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1298,10 +1298,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "How much"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1332,18 +1332,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Money"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Money"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1353,7 +1353,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Friends"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1361,10 +1361,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Friends"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1395,18 +1395,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Much"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Much"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1416,7 +1416,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Many"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1424,10 +1424,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Many"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         }
       ]

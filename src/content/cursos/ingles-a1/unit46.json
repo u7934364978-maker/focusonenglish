@@ -23,19 +23,19 @@
           "prompt_es": "¿Dónde pides información al llegar?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Reception"
             },
             {
-              "id": "o2",
-              "text": "The bed"
+              "id": "o1",
+              "text": "The shower"
             },
             {
               "id": "o3",
-              "text": "The shower"
+              "text": "The bed"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary",
           "complexity": 1,
           "concept_tags": [
@@ -94,12 +94,12 @@
           "prompt_es": "I ________ like a double room, please.",
           "options": [
             {
-              "id": "o1",
-              "text": "would"
-            },
-            {
               "id": "o2",
               "text": "do"
+            },
+            {
+              "id": "o1",
+              "text": "would"
             },
             {
               "id": "o3",
@@ -204,19 +204,19 @@
           "prompt_es": "Receptionist: 'Your room is 204. Here is the key.' - You:",
           "options": [
             {
-              "id": "o1",
-              "text": "Thank you very much."
-            },
-            {
               "id": "o2",
               "text": "I am from Spain."
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Good luck."
+            },
+            {
+              "id": "o3",
+              "text": "Thank you very much."
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "syntax",
           "complexity": 1,
           "concept_tags": [
@@ -295,31 +295,36 @@
           ]
         },
         {
+          "interaction_id": "A1_U46_B46_4_READ1",
+          "type": "reading_phase",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[following|siguiente]] [[text|texto]] [[carefully|con atención]]:",
+          "transcript": "Breakfast ends at 10:00 AM in the small cafe. Emily sits at a table. She drinks orange juice and eats toast. The sun shines through the window. She looks at her watch. It says 9:30 AM. She smiles because she has more time to enjoy her breakfast. She likes quiet mornings."
+        },
+        {
           "interaction_id": "A1_U46_B46_4_I5",
           "type": "multiple_choice",
           "prompt_es": "¿A qué hora termina el desayuno?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "10:00 AM"
             },
             {
-              "id": "o2",
-              "text": "7:00 AM"
+              "id": "o1",
+              "text": "12:00 PM"
             },
             {
               "id": "o3",
-              "text": "12:00 PM"
+              "text": "7:00 AM"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "reading",
           "complexity": 1,
           "concept_tags": [
             "grammar",
             "reading"
-          ],
-          "stimulus_en": "Breakfast ends at 10:00 AM in the small cafe. Emily sits at a table. She drinks orange juice and eats toast. The sun shines through the window. She looks at her watch. It says 9:30 AM. She smiles because she has more time to enjoy her breakfast. She likes quiet mornings."
+          ]
         }
       ]
     },
@@ -748,12 +753,12 @@
           "prompt_es": "¿Cómo se dice 'hotel' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Hotel"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Hotel"
             },
             {
               "id": "o3",
@@ -769,19 +774,19 @@
           "prompt_es": "¿Cómo se dice 'room' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Room"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Room"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -790,19 +795,19 @@
           "prompt_es": "¿Cómo se dice 'key' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Key"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -811,12 +816,12 @@
           "prompt_es": "¿Cómo se dice 'reservation' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Reservation"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Reservation"
             },
             {
               "id": "o3",
@@ -832,19 +837,19 @@
           "prompt_es": "¿Cómo se dice 'reception' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Reception"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Reception"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -853,19 +858,19 @@
           "prompt_es": "¿Cómo se dice 'breakfast' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Breakfast"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -874,12 +879,12 @@
           "prompt_es": "¿Cómo se dice 'shower' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Shower"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Shower"
             },
             {
               "id": "o3",
@@ -895,19 +900,19 @@
           "prompt_es": "¿Cómo se dice 'hotel' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Hotel"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Hotel"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -916,19 +921,19 @@
           "prompt_es": "¿Cómo se dice 'room' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Room"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -937,12 +942,12 @@
           "prompt_es": "¿Cómo se dice 'key' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Key"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Key"
             },
             {
               "id": "o3",
@@ -958,19 +963,19 @@
           "prompt_es": "¿Cómo se dice 'reservation' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Reservation"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Reservation"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -979,19 +984,19 @@
           "prompt_es": "¿Cómo se dice 'reception' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Reception"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1000,12 +1005,12 @@
           "prompt_es": "¿Cómo se dice 'breakfast' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Breakfast"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Breakfast"
             },
             {
               "id": "o3",
@@ -1021,19 +1026,19 @@
           "prompt_es": "¿Cómo se dice 'shower' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Shower"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Shower"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1042,19 +1047,19 @@
           "prompt_es": "¿Cómo se dice 'hotel' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Hotel"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1063,12 +1068,12 @@
           "prompt_es": "¿Cómo se dice 'room' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Room"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Room"
             },
             {
               "id": "o3",
@@ -1085,7 +1090,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Key"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1093,10 +1098,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Key"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1127,18 +1132,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Reception"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Reception"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1148,7 +1153,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Breakfast"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1156,10 +1161,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Breakfast"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1190,18 +1195,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Hotel"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Hotel"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1211,7 +1216,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Room"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1219,10 +1224,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Room"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1253,18 +1258,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Reservation"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Reservation"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1274,7 +1279,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Reception"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1282,10 +1287,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Reception"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1316,18 +1321,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Shower"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Shower"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1337,7 +1342,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Hotel"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1345,10 +1350,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Hotel"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         }
       ]

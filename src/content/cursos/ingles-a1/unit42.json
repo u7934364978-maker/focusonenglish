@@ -24,30 +24,30 @@
           "pairs": [
             {
               "id": "p1",
-              "left": "Train",
-              "right": "Tren"
+              "left": "[[Train|Tren]]",
+              "right": "Barco"
             },
             {
               "id": "p2",
-              "left": "Bus",
-              "right": "Autobús"
-            },
-            {
-              "id": "p3",
-              "left": "Plane",
+              "left": "[[Bus|Autobús]]",
               "right": "Avión"
             },
             {
+              "id": "p3",
+              "left": "[[Plane|Avión]]",
+              "right": "Tren"
+            },
+            {
               "id": "p4",
-              "left": "Boat",
-              "right": "Barco"
+              "left": "[[Boat|Barco]]",
+              "right": "Autobús"
             }
           ],
           "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
+            "p1": "p3",
+            "p2": "p4",
+            "p3": "p2",
+            "p4": "p1"
           },
           "mastery_tag": "vocabulary",
           "complexity": 1,
@@ -62,19 +62,19 @@
           "prompt_es": "¿Dónde esperas el tren?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Platform"
             },
             {
-              "id": "o2",
-              "text": "Kitchen"
+              "id": "o1",
+              "text": "Park"
             },
             {
               "id": "o3",
-              "text": "Park"
+              "text": "Kitchen"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary",
           "complexity": 1,
           "concept_tags": [
@@ -133,12 +133,12 @@
           "prompt_es": "I go to London ________ train.",
           "options": [
             {
-              "id": "o1",
-              "text": "by"
-            },
-            {
               "id": "o2",
               "text": "in"
+            },
+            {
+              "id": "o1",
+              "text": "by"
             },
             {
               "id": "o3",
@@ -243,19 +243,19 @@
           "prompt_es": "Announcement: 'The 10:30 bus is delayed.' - Meaning:",
           "options": [
             {
-              "id": "o1",
-              "text": "The bus is late."
-            },
-            {
               "id": "o2",
               "text": "The bus is on time."
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "The bus is fast."
+            },
+            {
+              "id": "o3",
+              "text": "The bus is late."
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "syntax",
           "complexity": 1,
           "concept_tags": [
@@ -321,31 +321,36 @@
           ]
         },
         {
+          "interaction_id": "A1_U42_B42_4_READ1",
+          "type": "reading_phase",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[following|siguiente]] [[text|texto]] [[carefully|con atención]]:",
+          "transcript": "David is on the train. He sits by the window. He has a book in his hands. David opens the book and starts to read. The train is quiet. David likes reading. The book is about animals. David smiles as he reads. The train moves fast, but David is happy with his book."
+        },
+        {
           "interaction_id": "A1_U42_B42_4_I5",
           "type": "multiple_choice",
           "prompt_es": "¿Qué hace David en el tren?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Reads a book"
             },
             {
-              "id": "o2",
-              "text": "Sleeps"
+              "id": "o1",
+              "text": "Eats breakfast"
             },
             {
               "id": "o3",
-              "text": "Eats breakfast"
+              "text": "Sleeps"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "reading",
           "complexity": 1,
           "concept_tags": [
             "grammar",
             "reading"
-          ],
-          "stimulus_en": "David is on the train. He sits by the window. He has a book in his hands. David opens the book and starts to read. The train is quiet. David likes reading. The book is about animals. David smiles as he reads. The train moves fast, but David is happy with his book."
+          ]
         }
       ]
     },
@@ -774,12 +779,12 @@
           "prompt_es": "¿Cómo se dice 'bus' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Bus"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Bus"
             },
             {
               "id": "o3",
@@ -795,19 +800,19 @@
           "prompt_es": "¿Cómo se dice 'train' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Train"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Train"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -816,19 +821,19 @@
           "prompt_es": "¿Cómo se dice 'plane' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Plane"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -837,12 +842,12 @@
           "prompt_es": "¿Cómo se dice 'taxi' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Taxi"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Taxi"
             },
             {
               "id": "o3",
@@ -858,19 +863,19 @@
           "prompt_es": "¿Cómo se dice 'bicycle' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Bicycle"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Bicycle"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -879,19 +884,19 @@
           "prompt_es": "¿Cómo se dice 'station' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Station"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -900,12 +905,12 @@
           "prompt_es": "¿Cómo se dice 'ticket' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Ticket"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Ticket"
             },
             {
               "id": "o3",
@@ -921,19 +926,19 @@
           "prompt_es": "¿Cómo se dice 'bus' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Bus"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Bus"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -942,19 +947,19 @@
           "prompt_es": "¿Cómo se dice 'train' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Train"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -963,12 +968,12 @@
           "prompt_es": "¿Cómo se dice 'plane' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Plane"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Plane"
             },
             {
               "id": "o3",
@@ -984,19 +989,19 @@
           "prompt_es": "¿Cómo se dice 'taxi' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Taxi"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Taxi"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1005,19 +1010,19 @@
           "prompt_es": "¿Cómo se dice 'bicycle' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Bicycle"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1026,12 +1031,12 @@
           "prompt_es": "¿Cómo se dice 'station' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Station"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Station"
             },
             {
               "id": "o3",
@@ -1047,19 +1052,19 @@
           "prompt_es": "¿Cómo se dice 'ticket' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Ticket"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Ticket"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1068,19 +1073,19 @@
           "prompt_es": "¿Cómo se dice 'bus' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Bus"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1089,12 +1094,12 @@
           "prompt_es": "¿Cómo se dice 'train' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Train"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Train"
             },
             {
               "id": "o3",
@@ -1111,7 +1116,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Plane"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1119,10 +1124,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Plane"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1153,18 +1158,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Bicycle"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Bicycle"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1174,7 +1179,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Station"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1182,10 +1187,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Station"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1216,18 +1221,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Bus"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Bus"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1237,7 +1242,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Train"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1245,10 +1250,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Train"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1279,18 +1284,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Taxi"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Taxi"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1300,7 +1305,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Bicycle"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1308,10 +1313,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Bicycle"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1342,18 +1347,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Ticket"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Ticket"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1363,7 +1368,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Bus"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1371,10 +1376,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Bus"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         }
       ]

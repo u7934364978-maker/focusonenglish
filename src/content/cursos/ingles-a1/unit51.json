@@ -51,30 +51,30 @@
           "pairs": [
             {
               "id": "p1",
-              "left": "Trolley",
-              "right": "Carrito"
+              "left": "[[Trolley|Carrito]]",
+              "right": "Caja"
             },
             {
               "id": "p2",
-              "left": "Basket",
+              "left": "[[Basket|Cesta]]",
               "right": "Cesta"
             },
             {
               "id": "p3",
-              "left": "Checkout",
-              "right": "Caja"
+              "left": "[[Checkout|Caja]]",
+              "right": "Estante"
             },
             {
               "id": "p4",
-              "left": "Shelf",
-              "right": "Estante"
+              "left": "[[Shelf|Estante]]",
+              "right": "Carrito"
             }
           ],
           "correct_answer": {
-            "p1": "p1",
+            "p1": "p4",
             "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
+            "p3": "p1",
+            "p4": "p3"
           },
           "mastery_tag": "vocabulary",
           "complexity": 1,
@@ -103,18 +103,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "A trolley"
+              "text": "A pocket"
             },
             {
               "id": "o2",
-              "text": "A pocket"
+              "text": "A trolley"
             },
             {
               "id": "o3",
               "text": "A shelf"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary",
           "complexity": 1,
           "concept_tags": [
@@ -201,18 +201,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Next to the apples"
-            },
-            {
-              "id": "o2",
               "text": "Under the apples"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Between the apples"
+            },
+            {
+              "id": "o3",
+              "text": "Next to the apples"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "grammar",
           "complexity": 1,
           "concept_tags": [
@@ -856,18 +856,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Fruit"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Fruit"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -877,18 +877,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Vegetables"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Vegetables"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -919,18 +919,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Bread"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Bread"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -940,18 +940,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Eggs"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Eggs"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -982,18 +982,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Checkout"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Checkout"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1003,18 +1003,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Fruit"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Fruit"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1045,18 +1045,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Milk"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Milk"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1066,18 +1066,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Bread"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Bread"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1108,18 +1108,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Basket"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Basket"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1129,18 +1129,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Checkout"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Checkout"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1171,18 +1171,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Vegetables"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Vegetables"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1192,7 +1192,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Milk"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1200,10 +1200,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Milk"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1234,18 +1234,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Eggs"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Eggs"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1255,7 +1255,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Basket"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1263,10 +1263,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Basket"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1297,18 +1297,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Fruit"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Fruit"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1318,7 +1318,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Vegetables"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1326,10 +1326,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Vegetables"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1360,18 +1360,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Bread"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Bread"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1381,7 +1381,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Eggs"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1389,10 +1389,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Eggs"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         }
       ]

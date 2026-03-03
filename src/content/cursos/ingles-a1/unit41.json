@@ -24,30 +24,30 @@
           "pairs": [
             {
               "id": "p1",
-              "left": "Passport",
-              "right": "Pasaporte"
+              "left": "[[Passport|Pasaporte]]",
+              "right": "Puerta de embarque"
             },
             {
               "id": "p2",
-              "left": "Boarding pass",
+              "left": "[[Boarding pass|Tarjeta de embarque]]",
               "right": "Tarjeta de embarque"
             },
             {
               "id": "p3",
-              "left": "Gate",
-              "right": "Puerta de embarque"
+              "left": "[[Gate|Puerta de embarque]]",
+              "right": "Equipaje"
             },
             {
               "id": "p4",
-              "left": "Luggage",
-              "right": "Equipaje"
+              "left": "[[Luggage|Equipaje]]",
+              "right": "Pasaporte"
             }
           ],
           "correct_answer": {
-            "p1": "p1",
+            "p1": "p4",
             "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
+            "p3": "p1",
+            "p4": "p3"
           },
           "mastery_tag": "vocabulary",
           "complexity": 1,
@@ -62,19 +62,19 @@
           "prompt_es": "¿Dónde entregas tus maletas?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Check-in desk"
             },
             {
-              "id": "o2",
-              "text": "Toilet"
+              "id": "o1",
+              "text": "Cafe"
             },
             {
               "id": "o3",
-              "text": "Cafe"
+              "text": "Toilet"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary",
           "complexity": 1,
           "concept_tags": [
@@ -217,12 +217,12 @@
           "prompt_es": "Official: 'Passport, please.' - You:",
           "options": [
             {
-              "id": "o1",
-              "text": "Here it is."
-            },
-            {
               "id": "o2",
               "text": "Goodbye."
+            },
+            {
+              "id": "o1",
+              "text": "Here it is."
             },
             {
               "id": "o3",
@@ -295,31 +295,36 @@
           ]
         },
         {
+          "interaction_id": "A1_U41_B41_4_READ1",
+          "type": "reading_phase",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[following|siguiente]] [[text|texto]] [[carefully|con atención]]:",
+          "transcript": "Maria has a small suitcase. It is blue and light. She packs her clothes and a book. Maria is ready for her trip. She smiles and leaves for the airport."
+        },
+        {
           "interaction_id": "A1_U41_B41_4_I5",
           "type": "multiple_choice",
           "prompt_es": "Según el texto, ¿cómo es la maleta de Maria?",
           "options": [
             {
-              "id": "o1",
-              "text": "Small"
-            },
-            {
               "id": "o2",
               "text": "Big"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Heavy"
+            },
+            {
+              "id": "o3",
+              "text": "Small"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "reading",
           "complexity": 1,
           "concept_tags": [
             "grammar",
             "reading"
-          ],
-          "stimulus_en": "Maria has a small suitcase. It is blue and light. She packs her clothes and a book. Maria is ready for her trip. She smiles and leaves for the airport."
+          ]
         }
       ]
     },
@@ -748,19 +753,19 @@
           "prompt_es": "¿Cómo se dice 'airport' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Airport"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -769,12 +774,12 @@
           "prompt_es": "¿Cómo se dice 'check-in' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Check-in"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Check-in"
             },
             {
               "id": "o3",
@@ -790,19 +795,19 @@
           "prompt_es": "¿Cómo se dice 'passport' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Passport"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Passport"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -811,19 +816,19 @@
           "prompt_es": "¿Cómo se dice 'gate' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Gate"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -832,12 +837,12 @@
           "prompt_es": "¿Cómo se dice 'flight' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Flight"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Flight"
             },
             {
               "id": "o3",
@@ -853,19 +858,19 @@
           "prompt_es": "¿Cómo se dice 'boarding' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Boarding"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Boarding"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -874,19 +879,19 @@
           "prompt_es": "¿Cómo se dice 'luggage' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Luggage"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -895,12 +900,12 @@
           "prompt_es": "¿Cómo se dice 'airport' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Airport"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Airport"
             },
             {
               "id": "o3",
@@ -916,19 +921,19 @@
           "prompt_es": "¿Cómo se dice 'check-in' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Check-in"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Check-in"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -937,19 +942,19 @@
           "prompt_es": "¿Cómo se dice 'passport' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Passport"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -958,12 +963,12 @@
           "prompt_es": "¿Cómo se dice 'gate' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Gate"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Gate"
             },
             {
               "id": "o3",
@@ -979,19 +984,19 @@
           "prompt_es": "¿Cómo se dice 'flight' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Flight"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Flight"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1000,19 +1005,19 @@
           "prompt_es": "¿Cómo se dice 'boarding' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Boarding"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1021,12 +1026,12 @@
           "prompt_es": "¿Cómo se dice 'luggage' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Luggage"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Luggage"
             },
             {
               "id": "o3",
@@ -1042,19 +1047,19 @@
           "prompt_es": "¿Cómo se dice 'airport' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Airport"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o1",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Airport"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1063,19 +1068,19 @@
           "prompt_es": "¿Cómo se dice 'check-in' en inglés?",
           "options": [
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Check-in"
             },
             {
-              "id": "o2",
-              "text": "Wrong word"
+              "id": "o1",
+              "text": "Other word"
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Wrong word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1084,12 +1089,12 @@
           "prompt_es": "¿Cómo se dice 'passport' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Passport"
-            },
-            {
               "id": "o2",
               "text": "Wrong word"
+            },
+            {
+              "id": "o1",
+              "text": "Passport"
             },
             {
               "id": "o3",
@@ -1106,7 +1111,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Gate"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1114,10 +1119,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Gate"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1148,18 +1153,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Boarding"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Boarding"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1169,7 +1174,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Luggage"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1177,10 +1182,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Luggage"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1211,18 +1216,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Check-in"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Check-in"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1232,7 +1237,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Passport"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1240,10 +1245,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Passport"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1274,18 +1279,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Flight"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Flight"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1295,7 +1300,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Boarding"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1303,10 +1308,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Boarding"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1337,18 +1342,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Airport"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Airport"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1358,7 +1363,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Check-in"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1366,10 +1371,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Check-in"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         }
       ]

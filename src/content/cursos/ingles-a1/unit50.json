@@ -19,30 +19,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Weather",
-              "right": "Tiempo"
+              "left": "[[Weather|Tiempo]]",
+              "right": "Aeropuerto"
             },
             {
               "id": "p1",
-              "left": "Season",
+              "left": "[[Season|Estación]]",
               "right": "Estación"
             },
             {
               "id": "p2",
-              "left": "Airport",
-              "right": "Aeropuerto"
+              "left": "[[Airport|Aeropuerto]]",
+              "right": "Viaje"
             },
             {
               "id": "p3",
-              "left": "Travel",
-              "right": "Viaje"
+              "left": "[[Travel|Viaje]]",
+              "right": "Tiempo"
             }
           ],
           "correct_answer": {
-            "p0": "p0",
+            "p0": "p3",
             "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
+            "p2": "p0",
+            "p3": "p2"
           },
           "mastery_tag": "vocabulary"
         },
@@ -110,14 +110,14 @@
             },
             {
               "id": "o1",
-              "text": "Season"
+              "text": "Weather"
             },
             {
               "id": "o2",
-              "text": "Weather"
+              "text": "Season"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -127,30 +127,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Season",
-              "right": "Estación"
+              "left": "[[Season|Estación]]",
+              "right": "Hotel"
             },
             {
               "id": "p1",
-              "left": "Airport",
-              "right": "Aeropuerto"
-            },
-            {
-              "id": "p2",
-              "left": "Travel",
+              "left": "[[Airport|Aeropuerto]]",
               "right": "Viaje"
             },
             {
+              "id": "p2",
+              "left": "[[Travel|Viaje]]",
+              "right": "Estación"
+            },
+            {
               "id": "p3",
-              "left": "Hotel",
-              "right": "Hotel"
+              "left": "[[Hotel|Hotel]]",
+              "right": "Aeropuerto"
             }
           ],
           "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
+            "p0": "p2",
+            "p1": "p3",
+            "p2": "p1",
+            "p3": "p0"
           },
           "mastery_tag": "vocabulary"
         },
@@ -229,18 +229,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Airport"
+              "text": "Hotel"
             },
             {
               "id": "o3",
-              "text": "Hotel"
+              "text": "Airport"
             },
             {
               "id": "o2",
               "text": "Weather"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -250,30 +250,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Airport",
-              "right": "Aeropuerto"
-            },
-            {
-              "id": "p1",
-              "left": "Travel",
+              "left": "[[Airport|Aeropuerto]]",
               "right": "Viaje"
             },
             {
+              "id": "p1",
+              "left": "[[Travel|Viaje]]",
+              "right": "Tiempo"
+            },
+            {
               "id": "p2",
-              "left": "Hotel",
+              "left": "[[Hotel|Hotel]]",
               "right": "Hotel"
             },
             {
               "id": "p3",
-              "left": "Weather",
-              "right": "Tiempo"
+              "left": "[[Weather|Tiempo]]",
+              "right": "Aeropuerto"
             }
           ],
           "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
+            "p0": "p3",
+            "p1": "p0",
             "p2": "p2",
-            "p3": "p3"
+            "p3": "p1"
           },
           "mastery_tag": "vocabulary"
         },
@@ -363,29 +363,29 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Travel",
-              "right": "Viaje"
-            },
-            {
-              "id": "p1",
-              "left": "Hotel",
+              "left": "[[Travel|Viaje]]",
               "right": "Hotel"
             },
             {
-              "id": "p2",
-              "left": "Weather",
+              "id": "p1",
+              "left": "[[Hotel|Hotel]]",
               "right": "Tiempo"
             },
             {
+              "id": "p2",
+              "left": "[[Weather|Tiempo]]",
+              "right": "Viaje"
+            },
+            {
               "id": "p3",
-              "left": "Season",
+              "left": "[[Season|Estación]]",
               "right": "Estación"
             }
           ],
           "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
+            "p0": "p2",
+            "p1": "p0",
+            "p2": "p1",
             "p3": "p3"
           },
           "mastery_tag": "vocabulary"
@@ -455,18 +455,18 @@
           "options": [
             {
               "id": "o3",
-              "text": "Airport"
-            },
-            {
-              "id": "o1",
               "text": "Hotel"
             },
             {
-              "id": "o2",
+              "id": "o1",
               "text": "Travel"
+            },
+            {
+              "id": "o2",
+              "text": "Airport"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -476,30 +476,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Hotel",
-              "right": "Hotel"
-            },
-            {
-              "id": "p1",
-              "left": "Weather",
+              "left": "[[Hotel|Hotel]]",
               "right": "Tiempo"
             },
             {
-              "id": "p2",
-              "left": "Season",
+              "id": "p1",
+              "left": "[[Weather|Tiempo]]",
               "right": "Estación"
             },
             {
-              "id": "p3",
-              "left": "Airport",
+              "id": "p2",
+              "left": "[[Season|Estación]]",
               "right": "Aeropuerto"
+            },
+            {
+              "id": "p3",
+              "left": "[[Airport|Aeropuerto]]",
+              "right": "Hotel"
             }
           ],
           "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
+            "p0": "p3",
+            "p1": "p0",
+            "p2": "p1",
+            "p3": "p2"
           },
           "mastery_tag": "vocabulary"
         },
@@ -563,18 +563,18 @@
           "options": [
             {
               "id": "o3",
-              "text": "Hotel"
-            },
-            {
-              "id": "o2",
               "text": "Travel"
             },
             {
-              "id": "o1",
+              "id": "o2",
               "text": "Weather"
+            },
+            {
+              "id": "o1",
+              "text": "Hotel"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -584,30 +584,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Weather",
-              "right": "Tiempo"
-            },
-            {
-              "id": "p1",
-              "left": "Season",
+              "left": "[[Weather|Tiempo]]",
               "right": "Estación"
             },
             {
+              "id": "p1",
+              "left": "[[Season|Estación]]",
+              "right": "Viaje"
+            },
+            {
               "id": "p2",
-              "left": "Airport",
+              "left": "[[Airport|Aeropuerto]]",
               "right": "Aeropuerto"
             },
             {
               "id": "p3",
-              "left": "Travel",
-              "right": "Viaje"
+              "left": "[[Travel|Viaje]]",
+              "right": "Tiempo"
             }
           ],
           "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
+            "p0": "p3",
+            "p1": "p0",
             "p2": "p2",
-            "p3": "p3"
+            "p3": "p1"
           },
           "mastery_tag": "vocabulary"
         },
@@ -692,29 +692,29 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Season",
-              "right": "Estación"
+              "left": "[[Season|Estación]]",
+              "right": "Viaje"
             },
             {
               "id": "p1",
-              "left": "Airport",
+              "left": "[[Airport|Aeropuerto]]",
               "right": "Aeropuerto"
             },
             {
               "id": "p2",
-              "left": "Travel",
-              "right": "Viaje"
+              "left": "[[Travel|Viaje]]",
+              "right": "Estación"
             },
             {
               "id": "p3",
-              "left": "Hotel",
+              "left": "[[Hotel|Hotel]]",
               "right": "Hotel"
             }
           ],
           "correct_answer": {
-            "p0": "p0",
+            "p0": "p2",
             "p1": "p1",
-            "p2": "p2",
+            "p2": "p0",
             "p3": "p3"
           },
           "mastery_tag": "vocabulary"
@@ -794,7 +794,7 @@
           "options": [
             {
               "id": "o3",
-              "text": "Weather"
+              "text": "Airport"
             },
             {
               "id": "o2",
@@ -802,10 +802,10 @@
             },
             {
               "id": "o1",
-              "text": "Airport"
+              "text": "Weather"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -815,30 +815,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Airport",
-              "right": "Aeropuerto"
-            },
-            {
-              "id": "p1",
-              "left": "Travel",
+              "left": "[[Airport|Aeropuerto]]",
               "right": "Viaje"
             },
             {
+              "id": "p1",
+              "left": "[[Travel|Viaje]]",
+              "right": "Tiempo"
+            },
+            {
               "id": "p2",
-              "left": "Hotel",
-              "right": "Hotel"
+              "left": "[[Hotel|Hotel]]",
+              "right": "Aeropuerto"
             },
             {
               "id": "p3",
-              "left": "Weather",
-              "right": "Tiempo"
+              "left": "[[Weather|Tiempo]]",
+              "right": "Hotel"
             }
           ],
           "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
+            "p0": "p2",
+            "p1": "p0",
+            "p2": "p3",
+            "p3": "p1"
           },
           "mastery_tag": "vocabulary"
         },
@@ -911,14 +911,14 @@
             },
             {
               "id": "o2",
-              "text": "Season"
+              "text": "Travel"
             },
             {
               "id": "o1",
-              "text": "Travel"
+              "text": "Season"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -928,29 +928,29 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Travel",
+              "left": "[[Travel|Viaje]]",
               "right": "Viaje"
             },
             {
               "id": "p1",
-              "left": "Hotel",
-              "right": "Hotel"
-            },
-            {
-              "id": "p2",
-              "left": "Weather",
+              "left": "[[Hotel|Hotel]]",
               "right": "Tiempo"
             },
             {
+              "id": "p2",
+              "left": "[[Weather|Tiempo]]",
+              "right": "Hotel"
+            },
+            {
               "id": "p3",
-              "left": "Season",
+              "left": "[[Season|Estación]]",
               "right": "Estación"
             }
           ],
           "correct_answer": {
             "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
+            "p1": "p2",
+            "p2": "p1",
             "p3": "p3"
           },
           "mastery_tag": "vocabulary"
@@ -1020,7 +1020,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Hotel"
+              "text": "Season"
             },
             {
               "id": "o2",
@@ -1028,10 +1028,10 @@
             },
             {
               "id": "o3",
-              "text": "Season"
+              "text": "Hotel"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1041,30 +1041,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Hotel",
-              "right": "Hotel"
-            },
-            {
-              "id": "p1",
-              "left": "Weather",
-              "right": "Tiempo"
-            },
-            {
-              "id": "p2",
-              "left": "Season",
+              "left": "[[Hotel|Hotel]]",
               "right": "Estación"
             },
             {
-              "id": "p3",
-              "left": "Airport",
+              "id": "p1",
+              "left": "[[Weather|Tiempo]]",
               "right": "Aeropuerto"
+            },
+            {
+              "id": "p2",
+              "left": "[[Season|Estación]]",
+              "right": "Hotel"
+            },
+            {
+              "id": "p3",
+              "left": "[[Airport|Aeropuerto]]",
+              "right": "Tiempo"
             }
           ],
           "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
+            "p0": "p2",
+            "p1": "p3",
+            "p2": "p0",
+            "p3": "p1"
           },
           "mastery_tag": "vocabulary"
         },

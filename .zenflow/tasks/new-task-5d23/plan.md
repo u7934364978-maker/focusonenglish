@@ -147,7 +147,8 @@ Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 - **Unit 40** (FIX-7): Restructure as Module 4 review covering Units 31–39 objectives
 - Verify: `node scripts/audit-a1-full.mjs --units=31-40` → zero critical errors
 
-### [ ] Step: Fix Modules 5 & 6 — Units 41–60 (FIX-1, FIX-3, FIX-4, FIX-6 + reviews)
+### [x] Step: Fix Modules 5 & 6 — Units 41–60 (FIX-1, FIX-3, FIX-4, FIX-6 + reviews)
+<!-- chat-id: d2513ba0-c5ea-49bf-a486-ce5d9eef98a2 -->
 - Apply FIX-1, FIX-3, FIX-4, FIX-6 to Units 41–49 and 51–59
 - **Unit 50** (FIX-7): Restructure as Module 5 review covering Units 41–49 objectives
 - **Unit 60** (FIX-7): Restructure as final A1 course review covering all 6 modules

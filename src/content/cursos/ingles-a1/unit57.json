@@ -50,30 +50,30 @@
           "pairs": [
             {
               "id": "p1",
-              "left": "Rug",
-              "right": "Alfombra"
-            },
-            {
-              "id": "p2",
-              "left": "Vase",
+              "left": "[[Rug|Alfombra]]",
               "right": "Jarrón"
             },
             {
+              "id": "p2",
+              "left": "[[Vase|Jarrón]]",
+              "right": "Lámpara"
+            },
+            {
               "id": "p3",
-              "left": "Clock",
+              "left": "[[Clock|Reloj de pared]]",
               "right": "Reloj de pared"
             },
             {
               "id": "p4",
-              "left": "Lamp",
-              "right": "Lámpara"
+              "left": "[[Lamp|Lámpara]]",
+              "right": "Alfombra"
             }
           ],
           "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
+            "p1": "p4",
+            "p2": "p1",
             "p3": "p3",
-            "p4": "p4"
+            "p4": "p2"
           },
           "mastery_tag": "vocabulary",
           "complexity": 1,
@@ -102,18 +102,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "In a vase"
+              "text": "In a rug"
             },
             {
               "id": "o2",
-              "text": "In a rug"
+              "text": "In a vase"
             },
             {
               "id": "o3",
               "text": "In a cushion"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary",
           "complexity": 1,
           "concept_tags": [
@@ -197,18 +197,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Watches"
-            },
-            {
-              "id": "o2",
               "text": "Watchs"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Watchies"
+            },
+            {
+              "id": "o3",
+              "text": "Watches"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "grammar",
           "complexity": 1,
           "concept_tags": [
@@ -255,30 +255,30 @@
           "pairs": [
             {
               "id": "p1",
-              "left": "Person",
-              "right": "People"
-            },
-            {
-              "id": "p2",
-              "left": "Child",
+              "left": "[[Person|People]]",
               "right": "Children"
             },
             {
+              "id": "p2",
+              "left": "[[Child|Children]]",
+              "right": "Teeth"
+            },
+            {
               "id": "p3",
-              "left": "Foot",
-              "right": "Feet"
+              "left": "[[Foot|Feet]]",
+              "right": "People"
             },
             {
               "id": "p4",
-              "left": "Tooth",
-              "right": "Teeth"
+              "left": "[[Tooth|Teeth]]",
+              "right": "Feet"
             }
           ],
           "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
+            "p1": "p3",
+            "p2": "p1",
+            "p3": "p4",
+            "p4": "p2"
           },
           "mastery_tag": "grammar",
           "complexity": 1,
@@ -390,18 +390,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Leaves"
+              "text": "Leafs"
             },
             {
               "id": "o2",
-              "text": "Leafs"
+              "text": "Leaves"
             },
             {
               "id": "o3",
               "text": "Leafes"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "grammar",
           "complexity": 1,
           "concept_tags": [
@@ -837,18 +837,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Cook"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Cook"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -879,18 +879,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Fry"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Fry"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -900,18 +900,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Mix"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Mix"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -942,18 +942,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Ingredients"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Ingredients"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -963,18 +963,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Oven"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Oven"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1005,18 +1005,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Boil"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Boil"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1026,18 +1026,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Fry"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Fry"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1068,18 +1068,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Add"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Add"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1089,18 +1089,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Ingredients"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Ingredients"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1131,18 +1131,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Cook"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Cook"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1152,7 +1152,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Boil"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1160,10 +1160,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Boil"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1194,18 +1194,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Mix"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Mix"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1215,7 +1215,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Add"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1223,10 +1223,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Add"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1257,18 +1257,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Oven"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Oven"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1278,7 +1278,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Cook"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1286,10 +1286,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Cook"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1320,18 +1320,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Fry"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Fry"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1341,7 +1341,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Mix"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1349,10 +1349,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Mix"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1383,18 +1383,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Ingredients"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Ingredients"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1404,7 +1404,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Oven"
+              "text": "Other word"
             },
             {
               "id": "o2",
@@ -1412,10 +1412,10 @@
             },
             {
               "id": "o3",
-              "text": "Other word"
+              "text": "Oven"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         }
       ]
