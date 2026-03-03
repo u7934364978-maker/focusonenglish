@@ -140,7 +140,8 @@ Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 - **Unit 30** (FIX-7): Restructure as Module 3 review covering Units 21–29 objectives
 - Verify: `node scripts/audit-a1-full.mjs --units=21-30` → zero critical errors; oversized files < 30 KB
 
-### [ ] Step: Fix Module 4 — Units 31–40 (FIX-1, FIX-3, FIX-4, FIX-6 + review)
+### [x] Step: Fix Module 4 — Units 31–40 (FIX-1, FIX-3, FIX-4, FIX-6 + review)
+<!-- chat-id: b280db77-2cb1-4f11-babf-51fd4ac6ea2f -->
 - **Unit 31**: Fix duplicate `concept_tags` values in addition to standard fixes
 - Apply FIX-1, FIX-3, FIX-4, FIX-6 to Units 31–39
 - **Unit 40** (FIX-7): Restructure as Module 4 review covering Units 31–39 objectives

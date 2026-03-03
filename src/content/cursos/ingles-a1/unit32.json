@@ -1,0 +1,938 @@
+{
+  "course": {
+    "unit_id": "unit32",
+    "unit_title": "Sports & Hobbies",
+    "level": "A1",
+    "total_duration_minutes": 60,
+    "language_ui": "es-ES",
+    "target_language": "en"
+  },
+  "learning_outcomes": [
+    "Name common sports and hobbies in English",
+    "Use \"play\", \"do\" and \"go\" with sports correctly",
+    "Talk about likes and dislikes related to hobbies"
+  ],
+  "blocks": [
+    {
+      "block_id": "B32_1",
+      "title": "Block 1: Sports Vocabulary",
+      "content": [
+        {
+          "interaction_id": "A1_U32_B32_1_I1",
+          "type": "matching",
+          "prompt_es": "Une cada deporte con su traducción:",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "[[Football|Fútbol]]",
+              "right": "Fútbol"
+            },
+            {
+              "id": "p2",
+              "left": "[[Swimming|Natación]]",
+              "right": "Tenis"
+            },
+            {
+              "id": "p3",
+              "left": "[[Tennis|Tenis]]",
+              "right": "Baloncesto"
+            },
+            {
+              "id": "p4",
+              "left": "[[Basketball|Baloncesto]]",
+              "right": "Natación"
+            }
+          ],
+          "correct_answer": {
+            "p1": "p4",
+            "p2": "p1",
+            "p3": "p2",
+            "p4": "p3"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "A1_U32_B32_1_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué deporte se juega con una raqueta y una pelota pequeña?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Football|Fútbol]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Tennis|Tenis]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Basketball|Baloncesto]]"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "A1_U32_B32_1_I3",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: I [[play|juego]] ________ every Saturday.",
+          "stimulus_en": "I ________ every Saturday. (football)",
+          "correct_answer": "play football",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "A1_U32_B32_1_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál de estos NO es un deporte?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Swimming|Natación]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Reading|Leer]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Running|Correr]]"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "A1_U32_B32_1_I5",
+          "type": "matching",
+          "prompt_es": "Une el verbo correcto con el deporte:",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "[[play|jugar]] + [[football|fútbol]]",
+              "right": "go + swimming"
+            },
+            {
+              "id": "p2",
+              "left": "[[go|ir]] + [[swimming|natación]]",
+              "right": "do + yoga"
+            },
+            {
+              "id": "p3",
+              "left": "[[do|hacer]] + [[yoga|yoga]]",
+              "right": "play + football"
+            }
+          ],
+          "correct_answer": {
+            "p1": "p3",
+            "p2": "p1",
+            "p3": "p2"
+          },
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "A1_U32_B32_1_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué verbo usamos con \"[[cycling|ciclismo]]\"?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Play|Jugar]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Do|Hacer]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Go|Ir]]"
+            }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "A1_U32_B32_1_I7",
+          "type": "fill_blanks",
+          "prompt_es": "Usa \"[[do|hacer]]\": She ________ karate on Tuesdays.",
+          "stimulus_en": "She ________ karate on Tuesdays.",
+          "correct_answer": "does",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "A1_U32_B32_1_I8",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la frase correcta:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[I go football|Voy fútbol]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[I play football|Juego al fútbol]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[I do football|Hago fútbol]]"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "A1_U32_B32_1_I9",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: They ________ swimming at the pool.",
+          "stimulus_en": "They ________ swimming at the pool.",
+          "correct_answer": "go",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "A1_U32_B32_1_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice \"[[athletics|atletismo]]\" en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Gymnastics"
+            },
+            {
+              "id": "o2",
+              "text": "Athletics"
+            },
+            {
+              "id": "o3",
+              "text": "Aerobics"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
+        }
+      ]
+    },
+    {
+      "block_id": "B32_2",
+      "title": "Block 2: Hobbies & Free Time",
+      "content": [
+        {
+          "interaction_id": "A1_U32_B32_2_I1",
+          "type": "matching",
+          "prompt_es": "Une cada afición con su significado:",
+          "pairs": [
+            {
+              "id": "p1",
+              "left": "[[Painting|Pintura]]",
+              "right": "Fotografía"
+            },
+            {
+              "id": "p2",
+              "left": "[[Photography|Fotografía]]",
+              "right": "Jardinería"
+            },
+            {
+              "id": "p3",
+              "left": "[[Gardening|Jardinería]]",
+              "right": "Cocinar"
+            },
+            {
+              "id": "p4",
+              "left": "[[Cooking|Cocinar]]",
+              "right": "Pintura"
+            }
+          ],
+          "correct_answer": {
+            "p1": "p4",
+            "p2": "p1",
+            "p3": "p2",
+            "p4": "p3"
+          },
+          "mastery_tag": "vocabulary",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "A1_U32_B32_2_I2",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la traducción de \"[[hobby|afición]]\"?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Trabajo"
+            },
+            {
+              "id": "o2",
+              "text": "Afición"
+            },
+            {
+              "id": "o3",
+              "text": "Obligación"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "A1_U32_B32_2_I3",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: My ________ is playing the guitar.",
+          "stimulus_en": "My ________ is playing the guitar.",
+          "correct_answer": "hobby",
+          "mastery_tag": "vocabulary",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "A1_U32_B32_2_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué verbo usamos con \"[[chess|ajedrez]]\"?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Go|Ir]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Do|Hacer]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Play|Jugar]]"
+            }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "A1_U32_B32_2_I5",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: He ________ photography on weekends.",
+          "stimulus_en": "He ________ photography on weekends.",
+          "correct_answer": "does",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "A1_U32_B32_2_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es una afición artística?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Running|Correr]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Swimming|Nadar]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Drawing|Dibujar]]"
+            }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "A1_U32_B32_2_I7",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: She loves ________ books in her free time.",
+          "stimulus_en": "She loves ________ books in her free time.",
+          "correct_answer": "reading",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "A1_U32_B32_2_I8",
+          "type": "multiple_choice",
+          "prompt_es": "Elige la frase correcta:",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[I do tennis|Hago tenis]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[I go tennis|Voy tenis]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[I play tennis|Juego al tenis]]"
+            }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "A1_U32_B32_2_I9",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: We ________ yoga every morning.",
+          "stimulus_en": "We ________ yoga every morning.",
+          "correct_answer": "do",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "A1_U32_B32_2_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa \"[[I enjoy|Me gusta]]\" en español?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "No me gusta"
+            },
+            {
+              "id": "o2",
+              "text": "Me gusta / Disfruto"
+            },
+            {
+              "id": "o3",
+              "text": "Necesito"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
+        }
+      ]
+    },
+    {
+      "block_id": "B32_3",
+      "title": "Block 3: Likes & Dislikes",
+      "content": [
+        {
+          "interaction_id": "A1_U32_B32_3_I1",
+          "type": "reading_phase",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[following|siguiente]] [[text|texto]] [[carefully|con atención]]:",
+          "transcript": "My name is [[Carlos|Carlos]]. I [[love|encanta]] [[playing|jugar]] [[football|fútbol]] on [[weekends|fines de semana]]. My [[sister|hermana]] [[likes|gusta]] [[swimming|nadar]] and [[cycling|ciclismo]]. She [[goes|va]] [[cycling|en bici]] [[every|todos los]] [[morning|mañanas]]. My [[friend|amigo]] [[Tom|Tom]] [[hates|odia]] [[sport|el deporte]], but he [[loves|adora]] [[painting|pintar]] and [[taking|hacer]] [[photos|fotos]]. We all [[have|tenemos]] [[different|diferentes]] [[hobbies|aficiones]]!"
+        },
+        {
+          "interaction_id": "A1_U32_B32_3_I2",
+          "type": "true_false",
+          "prompt_es": "¿Es verdad? Carlos [[likes|gusta]] [[football|fútbol]].",
+          "correct_answer": true,
+          "mastery_tag": "reading",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "A1_U32_B32_3_I3",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] el texto y responde:",
+          "title": "Our Hobbies",
+          "text": "My name is Carlos. I love playing football on weekends. My sister likes swimming and cycling. She goes cycling every morning. My friend Tom hates sport, but he loves painting and taking photos. We all have different hobbies!",
+          "question": "What does [[Tom|Tom]] [[like|gusta]] doing?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Swimming|Nadar]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Painting|Pintar]] and [[taking photos|hacer fotos]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Playing football|Jugar al fútbol]]"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "reading",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "A1_U32_B32_3_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice \"[[I like|me gusta]]\" en inglés?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[I hate|Odio]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[I need|Necesito]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[I like|Me gusta]]"
+            }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "A1_U32_B32_3_I5",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: I ________ playing chess. (encantar)",
+          "stimulus_en": "I ________ playing chess.",
+          "correct_answer": "love",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "A1_U32_B32_3_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál expresa disgusto?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[I love|Adoro]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[I enjoy|Disfruto]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[I hate|Odio]]"
+            }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "A1_U32_B32_3_I7",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: She ________ watching films at the cinema.",
+          "stimulus_en": "She ________ watching films at the cinema.",
+          "correct_answer": "enjoys",
+          "mastery_tag": "grammar",
+          "complexity": 3
+        },
+        {
+          "interaction_id": "A1_U32_B32_3_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál de estas frases habla de una afición?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[She has to work|Ella tiene que trabajar]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[He loves cycling|Le encanta el ciclismo]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[They need to eat|Necesitan comer]]"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "A1_U32_B32_3_I9",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: He ________ (not like) playing video games.",
+          "stimulus_en": "He ________ playing video games.",
+          "correct_answer": "doesn't like",
+          "mastery_tag": "grammar",
+          "complexity": 3
+        },
+        {
+          "interaction_id": "A1_U32_B32_3_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué pregunta pide información sobre aficiones?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[What do you like doing?|¿Qué te gusta hacer?]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Where do you live?|¿Dónde vives?]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[How old are you?|¿Cuántos años tienes?]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        }
+      ]
+    },
+    {
+      "block_id": "B32_4",
+      "title": "Block 4: Talking About Sports & Hobbies",
+      "content": [
+        {
+          "interaction_id": "A1_U32_B32_4_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma correcta?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[She go swimming|Ella va natación]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[She goes swimming|Ella va a nadar]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[She does swimming|Ella hace natación]]"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "A1_U32_B32_4_I2",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: ________ you like [[playing|jugar]] football?",
+          "stimulus_en": "________ you like playing football?",
+          "correct_answer": "Do",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "A1_U32_B32_4_I3",
+          "type": "reorder_words",
+          "prompt_es": "Ordena para formar una frase correcta:",
+          "options": [
+            {
+              "id": "w1",
+              "text": "I"
+            },
+            {
+              "id": "w2",
+              "text": "love"
+            },
+            {
+              "id": "w3",
+              "text": "playing"
+            },
+            {
+              "id": "w4",
+              "text": "basketball"
+            },
+            {
+              "id": "w5",
+              "text": "with"
+            },
+            {
+              "id": "w6",
+              "text": "friends"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w2",
+            "w3",
+            "w4",
+            "w5",
+            "w6"
+          ],
+          "mastery_tag": "grammar",
+          "complexity": 3
+        },
+        {
+          "interaction_id": "A1_U32_B32_4_I4",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué pregunta podemos responder con \"[[Yes, I do|Sí]]\"?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Do you like sports?|¿Te gustan los deportes?]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[What sport do you play?|¿Qué deporte practicas?]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[How often do you exercise?|¿Con qué frecuencia haces ejercicio?]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "A1_U32_B32_4_I5",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: My favourite [[sport|deporte]] is ________.",
+          "stimulus_en": "My favourite sport is ________.",
+          "correct_answer": "tennis",
+          "mastery_tag": "vocabulary",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "A1_U32_B32_4_I6",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la traducción de \"[[Do you enjoy cooking?|¿Disfrutas cocinando?]]\"?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "¿Tienes que cocinar?"
+            },
+            {
+              "id": "o2",
+              "text": "¿Disfrutas cocinando?"
+            },
+            {
+              "id": "o3",
+              "text": "¿Puedes cocinar?"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "A1_U32_B32_4_I7",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: I ________ interested in [[photography|fotografía]].",
+          "stimulus_en": "I ________ interested in photography.",
+          "correct_answer": "am",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "A1_U32_B32_4_I8",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué significa \"[[What are your hobbies?|¿Cuáles son tus aficiones?]]\"?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "¿Cuántos deportes practicas?"
+            },
+            {
+              "id": "o2",
+              "text": "¿Cuáles son tus aficiones?"
+            },
+            {
+              "id": "o3",
+              "text": "¿Por qué tienes aficiones?"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "A1_U32_B32_4_I9",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: He ________ cycling every [[weekend|fin de semana]].",
+          "stimulus_en": "He ________ cycling every weekend.",
+          "correct_answer": "goes",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "A1_U32_B32_4_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál describe una rutina de afición?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[She never plays chess|Nunca juega al ajedrez]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[She played chess yesterday|Jugó al ajedrez ayer]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[She plays chess every Sunday|Juega al ajedrez cada domingo]]"
+            }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        }
+      ]
+    },
+    {
+      "block_id": "B32_5",
+      "title": "Block 5: Practice & Review",
+      "content": [
+        {
+          "interaction_id": "A1_U32_B32_5_I1",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la respuesta correcta a \"[[Do you play football?|¿Juegas al fútbol?]]\"?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Yes, I play|Sí, juego]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Yes, I am|Sí, soy]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Yes, I have|Sí, tengo]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "A1_U32_B32_5_I2",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: She ________ (do) gymnastics at school.",
+          "stimulus_en": "She ________ gymnastics at school.",
+          "correct_answer": "does",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "A1_U32_B32_5_I3",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el verbo correcto para \"[[running|correr]]\"?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Play|Jugar]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Do|Hacer]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Go|Ir]]"
+            }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "A1_U32_B32_5_I4",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: What ________ you like doing on weekends?",
+          "stimulus_en": "What ________ you like doing on weekends?",
+          "correct_answer": "do",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "A1_U32_B32_5_I5",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué deporte es individual, sin equipo?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Football|Fútbol]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Tennis|Tenis]] (individual)"
+            },
+            {
+              "id": "o3",
+              "text": "[[Basketball|Baloncesto]]"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "A1_U32_B32_5_I6",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: He loves ________ photos at the weekend.",
+          "stimulus_en": "He loves ________ photos at the weekend.",
+          "correct_answer": "taking",
+          "mastery_tag": "grammar",
+          "complexity": 3
+        },
+        {
+          "interaction_id": "A1_U32_B32_5_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué pregunta pide el deporte favorito?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[How do you play?|¿Cómo juegas?]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[What is your favourite sport?|¿Cuál es tu deporte favorito?]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[When do you exercise?|¿Cuándo haces ejercicio?]]"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "A1_U32_B32_5_I8",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: My ________ sport is swimming.",
+          "stimulus_en": "My ________ sport is swimming.",
+          "correct_answer": "favourite",
+          "mastery_tag": "vocabulary",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "A1_U32_B32_5_I9",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma negativa de \"[[I like tennis|Me gusta el tenis]]\"?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[I don't like tennis|No me gusta el tenis]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[I not like tennis|No (incorrecto)]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[I am not like tennis|No (incorrecto)]]"
+            }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        },
+        {
+          "interaction_id": "A1_U32_B32_5_I10",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué oración usa \"[[play|jugar]]\" correctamente?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[I play running|Juego corriendo]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[I play guitar|Toco la guitarra]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[I play yoga|Juego yoga]]"
+            }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar",
+          "complexity": 2
+        }
+      ]
+    }
+  ]
+}

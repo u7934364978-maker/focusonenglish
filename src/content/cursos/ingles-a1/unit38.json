@@ -24,30 +24,30 @@
           "pairs": [
             {
               "id": "p1",
-              "left": "Wash the dishes",
-              "right": "Lavar los platos"
+              "left": "[[Wash the dishes|lavar los platos]]",
+              "right": "Hacer la cama"
             },
             {
               "id": "p2",
-              "left": "Sweep the floor",
-              "right": "Barrer el suelo"
+              "left": "[[Sweep the floor|barrer el suelo]]",
+              "right": "Lavar los platos"
             },
             {
               "id": "p3",
-              "left": "Do the laundry",
-              "right": "Hacer la colada"
+              "left": "[[Do the laundry|hacer la colada]]",
+              "right": "Barrer el suelo"
             },
             {
               "id": "p4",
-              "left": "Make the bed",
-              "right": "Hacer la cama"
+              "left": "[[Make the bed|hacer la cama]]",
+              "right": "Hacer la colada"
             }
           ],
           "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
+            "p1": "p2",
+            "p2": "p3",
+            "p3": "p4",
+            "p4": "p1"
           },
           "mastery_tag": "vocabulary",
           "complexity": 1,
@@ -86,7 +86,7 @@
           "interaction_id": "A1_U38_B38_1_I3",
           "type": "fill_blanks",
           "prompt_es": "Completa con el verbo adecuado:",
-          "stimulus_en": "Please ________ the bathroom. It's dirty.",
+          "stimulus_en": "Please ________ the [[bathroom|baño]]. It's dirty.",
           "correct_answer": "clean",
           "mastery_tag": "vocabulary",
           "complexity": 3,
@@ -112,7 +112,7 @@
           "interaction_id": "A1_U38_B38_1_I5",
           "type": "flashcard",
           "prompt_es": "Aprende el sustantivo:",
-          "stimulus_en": "Chores",
+          "stimulus_en": "[[Chores|tareas domésticas]]",
           "correct_answer": "Tareas domésticas / Quehaceres",
           "mastery_tag": "vocabulary",
           "complexity": 4,
@@ -130,8 +130,8 @@
         {
           "interaction_id": "A1_U38_B38_2_I2",
           "type": "fill_blanks",
-          "prompt_es": "Completa con 'has to' o 'have to':",
-          "stimulus_en": "My mother ________ cook dinner today.",
+          "prompt_es": "Completa con 'has to' o '[[have to|tener que]]':",
+          "stimulus_en": "My mother ________ [[cook|cocinar]] dinner today.",
           "correct_answer": "has to",
           "mastery_tag": "grammar",
           "complexity": 3,
@@ -183,7 +183,7 @@
         {
           "interaction_id": "A1_U38_B38_2_I4",
           "type": "true_false",
-          "prompt_es": "¿'Must' es más fuerte que 'have to'?",
+          "prompt_es": "¿'[[Must|deber]]' es más fuerte que '[[have to|tener que]]'?",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "complexity": 1,
@@ -257,7 +257,7 @@
           "interaction_id": "A1_U38_B38_3_I3",
           "type": "fill_blanks",
           "prompt_es": "Completa con 'does' o 'do':",
-          "stimulus_en": "________ he have to water the plants?",
+          "stimulus_en": "________ he [[have to|tener que]] water the plants?",
           "correct_answer": "Does",
           "mastery_tag": "grammar",
           "complexity": 3,
@@ -298,6 +298,12 @@
       "title": "Block 4: Saturday Morning",
       "content": [
         {
+          "interaction_id": "A1_U38_B38_4_READ",
+          "type": "reading_phase",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[following|siguiente]] [[text|texto]] [[carefully|con atención]]:",
+          "transcript": "Tom's sister has to water the plants. She does this every morning. Tom helps her sometimes. Their mother tells them to take care of the garden. The plants are in the backyard. They like to watch the plants grow."
+        },
+        {
           "interaction_id": "A1_U38_B38_4_I5",
           "type": "multiple_choice",
           "prompt_es": "¿Quién tiene que regar las plantas?",
@@ -322,7 +328,7 @@
             "grammar",
             "reading"
           ],
-          "stimulus_en": "Tom's sister has to water the plants. She does this every morning. Tom helps her sometimes. Their mother tells them to take care of the garden. The plants are in the backyard. They like to watch the plants grow."
+          "stimulus_en": "Tom's sister has to water the plants. She does this every morning. Tom helps her sometimes. Their mother tells them to take care of the [[garden|jardín]]. The plants are in the backyard. They like to watch the plants grow."
         }
       ]
     },
@@ -336,18 +342,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Can I"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Can I"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -378,39 +384,39 @@
           "options": [
             {
               "id": "o1",
-              "text": "Borrow"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Borrow"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U38_FILLER_3",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'help' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[help|ayudar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Help"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Help|ayudar]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -441,18 +447,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Close"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Close"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -462,18 +468,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Come in"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Come in"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -504,18 +510,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "May I"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "May I"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -525,28 +531,28 @@
           "options": [
             {
               "id": "o1",
-              "text": "Borrow"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Borrow"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U38_FILLER_10",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'help' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[help|ayudar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Help"
+              "text": "[[Help|ayudar]]"
             },
             {
               "id": "o2",
@@ -567,18 +573,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Open"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Open"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -588,18 +594,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Close"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Close"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -630,18 +636,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Can I"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Can I"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -651,18 +657,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "May I"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "May I"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -689,22 +695,22 @@
         {
           "interaction_id": "U38_FILLER_17",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'help' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[help|ayudar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Help"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Help|ayudar]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -714,18 +720,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Open"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Open"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -756,18 +762,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Come in"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Come in"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -777,18 +783,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Can I"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Can I"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -819,39 +825,39 @@
           "options": [
             {
               "id": "o1",
-              "text": "Borrow"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Borrow"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U38_FILLER_24",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'help' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[help|ayudar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Help"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Help|ayudar]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -882,18 +888,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Close"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Close"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -903,18 +909,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Come in"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Come in"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -945,18 +951,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "May I"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "May I"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -966,28 +972,28 @@
           "options": [
             {
               "id": "o1",
-              "text": "Borrow"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Borrow"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U38_FILLER_31",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'help' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[help|ayudar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Help"
+              "text": "[[Help|ayudar]]"
             },
             {
               "id": "o2",
@@ -1008,18 +1014,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Open"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Open"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1029,18 +1035,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Close"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Close"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1071,18 +1077,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Can I"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Can I"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1092,18 +1098,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "May I"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "May I"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1130,22 +1136,22 @@
         {
           "interaction_id": "U38_FILLER_38",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'help' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[help|ayudar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Help"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Help|ayudar]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1155,18 +1161,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Open"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Open"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1197,18 +1203,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Come in"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Come in"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1218,18 +1224,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Can I"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Can I"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1260,39 +1266,39 @@
           "options": [
             {
               "id": "o1",
-              "text": "Borrow"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Borrow"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U38_FILLER_45",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'help' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[help|ayudar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Help"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Help|ayudar]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {

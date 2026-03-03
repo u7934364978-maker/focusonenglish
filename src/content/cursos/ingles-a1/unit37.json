@@ -24,30 +24,30 @@
           "pairs": [
             {
               "id": "p1",
-              "left": "Paint",
-              "right": "Pintar"
+              "left": "[[Paint|pintar]]",
+              "right": "Cocinar"
             },
             {
               "id": "p2",
-              "left": "Type",
-              "right": "Escribir a máquina"
+              "left": "[[Type|escribir a máquina]]",
+              "right": "Pintar"
             },
             {
               "id": "p3",
-              "left": "Code",
-              "right": "Programar"
+              "left": "[[Code|programar]]",
+              "right": "Escribir a máquina"
             },
             {
               "id": "p4",
-              "left": "Cook",
-              "right": "Cocinar"
+              "left": "[[Cook|cocinar]]",
+              "right": "Programar"
             }
           ],
           "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
+            "p1": "p2",
+            "p2": "p3",
+            "p3": "p4",
+            "p4": "p1"
           },
           "mastery_tag": "vocabulary",
           "complexity": 1,
@@ -63,15 +63,15 @@
           "options": [
             {
               "id": "o1",
-              "text": "Draw"
+              "text": "[[Draw|dibujar]]"
             },
             {
               "id": "o2",
-              "text": "Paint"
+              "text": "[[Paint|pintar]]"
             },
             {
               "id": "o3",
-              "text": "Sing"
+              "text": "[[Sing|cantar]]"
             }
           ],
           "correct_answer": "o1",
@@ -112,7 +112,7 @@
           "interaction_id": "A1_U37_B37_1_I5",
           "type": "flashcard",
           "prompt_es": "Aprende el adjetivo:",
-          "stimulus_en": "Talented",
+          "stimulus_en": "[[Talented|talentoso]]",
           "correct_answer": "Talentoso/a",
           "mastery_tag": "vocabulary",
           "complexity": 4,
@@ -134,18 +134,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "I am good at cooking"
+              "text": "I am good in cooking"
             },
             {
               "id": "o2",
-              "text": "I am good in cooking"
+              "text": "I am good at cooking"
             },
             {
               "id": "o3",
               "text": "I am good for cooking"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "grammar",
           "complexity": 1,
           "concept_tags": [
@@ -156,7 +156,7 @@
         {
           "interaction_id": "A1_U37_B37_2_I2",
           "type": "fill_blanks",
-          "prompt_es": "Completa con el opuesto de 'good at':",
+          "prompt_es": "Completa con el opuesto de '[[good at|bueno en]]':",
           "stimulus_en": "I am ________ at remembering names.",
           "correct_answer": "bad",
           "mastery_tag": "grammar",
@@ -169,7 +169,7 @@
         {
           "interaction_id": "A1_U37_B37_2_I4",
           "type": "true_false",
-          "prompt_es": "¿Después de 'good at' el verbo va en gerundio (-ing)?",
+          "prompt_es": "¿Después de '[[good at|bueno en]]' el verbo va en gerundio (-ing)?",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "complexity": 1,
@@ -237,7 +237,7 @@
         {
           "interaction_id": "A1_U37_B37_3_I3",
           "type": "fill_blanks",
-          "prompt_es": "Completa con 'Who' o 'Can':",
+          "prompt_es": "Completa con 'Who' o '[[Can|poder]]':",
           "stimulus_en": "________ can help me with this computer?",
           "correct_answer": "Who",
           "mastery_tag": "grammar",
@@ -279,6 +279,12 @@
       "title": "Block 4: The Talent Show",
       "content": [
         {
+          "interaction_id": "A1_U37_B37_4_READ",
+          "type": "reading_phase",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[following|siguiente]] [[text|texto]] [[carefully|con atención]]:",
+          "transcript": "David is a dancer. He loves to dance every day. He dances in the park. Many people watch him. They clap and smile. David is happy when he dances. Maria, his friend, watches him too. The judge from the dance competition is there. David hopes to win. He practices a lot and dreams of being the best dancer."
+        },
+        {
           "interaction_id": "A1_U37_B37_4_I5",
           "type": "multiple_choice",
           "prompt_es": "¿Quién es el bailarín en el texto?",
@@ -289,21 +295,21 @@
             },
             {
               "id": "o2",
-              "text": "David"
+              "text": "The Judge"
             },
             {
               "id": "o3",
-              "text": "The Judge"
+              "text": "David"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o3",
           "mastery_tag": "reading",
           "complexity": 1,
           "concept_tags": [
             "grammar",
             "reading"
           ],
-          "stimulus_en": "David is a dancer. He loves to dance every day. He dances in the park. Many people watch him. They clap and smile. David is happy when he dances. Maria, his friend, watches him too. The judge from the dance competition is there. David hopes to win. He practices a lot and dreams of being the best dancer."
+          "stimulus_en": "David is a dancer. He loves to [[dance|bailar]] every day. He dances in the park. Many people watch him. They clap and smile. David is happy when he dances. Maria, his friend, watches him too. The judge from the [[dance|bailar]] competition is there. David hopes to win. He practices a lot and dreams of being the best dancer."
         }
       ]
     },
@@ -313,11 +319,11 @@
         {
           "interaction_id": "U37_FILLER_0",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'sing' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[sing|cantar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Sing"
+              "text": "[[Sing|cantar]]"
             },
             {
               "id": "o2",
@@ -334,53 +340,53 @@
         {
           "interaction_id": "U37_FILLER_1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'dance' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[dance|bailar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Dance"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Dance|bailar]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U37_FILLER_2",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'paint' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[paint|pintar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Paint"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Paint|pintar]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U37_FILLER_3",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cook' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[cook|cocinar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Cook"
+              "text": "[[Cook|cocinar]]"
             },
             {
               "id": "o2",
@@ -397,22 +403,22 @@
         {
           "interaction_id": "U37_FILLER_4",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'write' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[write|escribir]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Write"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Write|escribir]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -422,28 +428,28 @@
           "options": [
             {
               "id": "o1",
-              "text": "Act"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Act"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U37_FILLER_6",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'talent' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[talent|talento]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Talent"
+              "text": "[[Talent|talento]]"
             },
             {
               "id": "o2",
@@ -460,53 +466,53 @@
         {
           "interaction_id": "U37_FILLER_7",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'sing' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[sing|cantar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Sing"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Sing|cantar]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U37_FILLER_8",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'dance' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[dance|bailar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Dance"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Dance|bailar]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U37_FILLER_9",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'paint' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[paint|pintar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Paint"
+              "text": "[[Paint|pintar]]"
             },
             {
               "id": "o2",
@@ -523,43 +529,43 @@
         {
           "interaction_id": "U37_FILLER_10",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cook' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[cook|cocinar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Cook"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Cook|cocinar]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U37_FILLER_11",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'write' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[write|escribir]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Write"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Write|escribir]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -586,53 +592,53 @@
         {
           "interaction_id": "U37_FILLER_13",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'talent' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[talent|talento]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Talent"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Talent|talento]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U37_FILLER_14",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'sing' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[sing|cantar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Sing"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Sing|cantar]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U37_FILLER_15",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'dance' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[dance|bailar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Dance"
+              "text": "[[Dance|bailar]]"
             },
             {
               "id": "o2",
@@ -649,53 +655,53 @@
         {
           "interaction_id": "U37_FILLER_16",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'paint' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[paint|pintar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Paint"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Paint|pintar]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U37_FILLER_17",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cook' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[cook|cocinar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Cook"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Cook|cocinar]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U37_FILLER_18",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'write' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[write|escribir]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Write"
+              "text": "[[Write|escribir]]"
             },
             {
               "id": "o2",
@@ -716,49 +722,49 @@
           "options": [
             {
               "id": "o1",
-              "text": "Act"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Act"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U37_FILLER_20",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'talent' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[talent|talento]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Talent"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Talent|talento]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U37_FILLER_21",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'sing' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[sing|cantar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Sing"
+              "text": "[[Sing|cantar]]"
             },
             {
               "id": "o2",
@@ -775,53 +781,53 @@
         {
           "interaction_id": "U37_FILLER_22",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'dance' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[dance|bailar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Dance"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Dance|bailar]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U37_FILLER_23",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'paint' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[paint|pintar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Paint"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Paint|pintar]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U37_FILLER_24",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cook' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[cook|cocinar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Cook"
+              "text": "[[Cook|cocinar]]"
             },
             {
               "id": "o2",
@@ -838,22 +844,22 @@
         {
           "interaction_id": "U37_FILLER_25",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'write' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[write|escribir]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Write"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Write|escribir]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -863,28 +869,28 @@
           "options": [
             {
               "id": "o1",
-              "text": "Act"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Act"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U37_FILLER_27",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'talent' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[talent|talento]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Talent"
+              "text": "[[Talent|talento]]"
             },
             {
               "id": "o2",
@@ -901,53 +907,53 @@
         {
           "interaction_id": "U37_FILLER_28",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'sing' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[sing|cantar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Sing"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Sing|cantar]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U37_FILLER_29",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'dance' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[dance|bailar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Dance"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Dance|bailar]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U37_FILLER_30",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'paint' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[paint|pintar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Paint"
+              "text": "[[Paint|pintar]]"
             },
             {
               "id": "o2",
@@ -964,43 +970,43 @@
         {
           "interaction_id": "U37_FILLER_31",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cook' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[cook|cocinar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Cook"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Cook|cocinar]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U37_FILLER_32",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'write' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[write|escribir]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Write"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Write|escribir]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1027,53 +1033,53 @@
         {
           "interaction_id": "U37_FILLER_34",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'talent' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[talent|talento]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Talent"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Talent|talento]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U37_FILLER_35",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'sing' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[sing|cantar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Sing"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Sing|cantar]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U37_FILLER_36",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'dance' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[dance|bailar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Dance"
+              "text": "[[Dance|bailar]]"
             },
             {
               "id": "o2",
@@ -1090,53 +1096,53 @@
         {
           "interaction_id": "U37_FILLER_37",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'paint' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[paint|pintar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Paint"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Paint|pintar]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U37_FILLER_38",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cook' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[cook|cocinar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Cook"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Cook|cocinar]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U37_FILLER_39",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'write' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[write|escribir]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Write"
+              "text": "[[Write|escribir]]"
             },
             {
               "id": "o2",
@@ -1157,49 +1163,49 @@
           "options": [
             {
               "id": "o1",
-              "text": "Act"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Act"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U37_FILLER_41",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'talent' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[talent|talento]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Talent"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Talent|talento]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U37_FILLER_42",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'sing' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[sing|cantar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Sing"
+              "text": "[[Sing|cantar]]"
             },
             {
               "id": "o2",
@@ -1216,53 +1222,53 @@
         {
           "interaction_id": "U37_FILLER_43",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'dance' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[dance|bailar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Dance"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Dance|bailar]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U37_FILLER_44",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'paint' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[paint|pintar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Paint"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Paint|pintar]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U37_FILLER_45",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cook' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[cook|cocinar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Cook"
+              "text": "[[Cook|cocinar]]"
             },
             {
               "id": "o2",
@@ -1279,22 +1285,22 @@
         {
           "interaction_id": "U37_FILLER_46",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'write' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[write|escribir]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Write"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Write|escribir]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         }
       ]

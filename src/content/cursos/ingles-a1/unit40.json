@@ -19,30 +19,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Ability",
-              "right": "Habilidad"
+              "left": "[[Ability|habilidad]]",
+              "right": "Actividad"
             },
             {
               "id": "p1",
-              "left": "Talent",
-              "right": "Talento"
+              "left": "[[Talent|talento]]",
+              "right": "Habilidad"
             },
             {
               "id": "p2",
-              "left": "Frequency",
-              "right": "Frecuencia"
+              "left": "[[Frequency|frecuencia]]",
+              "right": "Talento"
             },
             {
               "id": "p3",
-              "left": "Activity",
-              "right": "Actividad"
+              "left": "[[Activity|actividad]]",
+              "right": "Frecuencia"
             }
           ],
           "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
+            "p0": "p1",
+            "p1": "p2",
+            "p2": "p3",
+            "p3": "p0"
           },
           "mastery_tag": "vocabulary"
         },
@@ -120,16 +120,16 @@
           "prompt_es": "¿Cómo se dice 'Frecuencia' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Ability"
+              "id": "o1",
+              "text": "[[Frequency|frecuencia]]"
             },
             {
-              "id": "o1",
-              "text": "Frequency"
+              "id": "o2",
+              "text": "[[Ability|habilidad]]"
             },
             {
               "id": "o3",
-              "text": "Activity"
+              "text": "[[Activity|actividad]]"
             }
           ],
           "correct_answer": "o1",
@@ -142,30 +142,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Talent",
-              "right": "Talento"
+              "left": "[[Talent|talento]]",
+              "right": "Habilidad"
             },
             {
               "id": "p1",
-              "left": "Frequency",
-              "right": "Frecuencia"
+              "left": "[[Frequency|frecuencia]]",
+              "right": "Talento"
             },
             {
               "id": "p2",
-              "left": "Activity",
-              "right": "Actividad"
+              "left": "[[Activity|actividad]]",
+              "right": "Frecuencia"
             },
             {
               "id": "p3",
-              "left": "Ability",
-              "right": "Habilidad"
+              "left": "[[Ability|habilidad]]",
+              "right": "Actividad"
             }
           ],
           "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
+            "p0": "p1",
+            "p1": "p2",
+            "p2": "p3",
+            "p3": "p0"
           },
           "mastery_tag": "vocabulary"
         },
@@ -180,7 +180,7 @@
         {
           "interaction_id": "U40_I9",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Sentences connect with 'and', 'but', and 'because'\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Sentences connect with '[[and|y]]', '[[but|pero]]', and '[[because|porque]]'\"",
           "correct_answer": false,
           "mastery_tag": "syntax"
         },
@@ -244,18 +244,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Ability"
+              "text": "[[Activity|actividad]]"
             },
             {
               "id": "o2",
-              "text": "Activity"
+              "text": "[[Ability|habilidad]]"
             },
             {
               "id": "o3",
-              "text": "Frequency"
+              "text": "[[Frequency|frecuencia]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -265,30 +265,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Frequency",
-              "right": "Frecuencia"
+              "left": "[[Frequency|frecuencia]]",
+              "right": "Talento"
             },
             {
               "id": "p1",
-              "left": "Activity",
-              "right": "Actividad"
+              "left": "[[Activity|actividad]]",
+              "right": "Frecuencia"
             },
             {
               "id": "p2",
-              "left": "Ability",
-              "right": "Habilidad"
+              "left": "[[Ability|habilidad]]",
+              "right": "Actividad"
             },
             {
               "id": "p3",
-              "left": "Talent",
-              "right": "Talento"
+              "left": "[[Talent|talento]]",
+              "right": "Habilidad"
             }
           ],
           "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
+            "p0": "p1",
+            "p1": "p2",
+            "p2": "p3",
+            "p3": "p0"
           },
           "mastery_tag": "vocabulary"
         },
@@ -352,18 +352,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Frequency"
-            },
-            {
-              "id": "o3",
-              "text": "Ability"
+              "text": "[[Ability|habilidad]]"
             },
             {
               "id": "o2",
-              "text": "Talent"
+              "text": "[[Talent|talento]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Frequency|frecuencia]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -373,30 +373,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Activity",
-              "right": "Actividad"
+              "left": "[[Activity|actividad]]",
+              "right": "Frecuencia"
             },
             {
               "id": "p1",
-              "left": "Ability",
-              "right": "Habilidad"
+              "left": "[[Ability|habilidad]]",
+              "right": "Actividad"
             },
             {
               "id": "p2",
-              "left": "Talent",
-              "right": "Talento"
+              "left": "[[Talent|talento]]",
+              "right": "Habilidad"
             },
             {
               "id": "p3",
-              "left": "Frequency",
-              "right": "Frecuencia"
+              "left": "[[Frequency|frecuencia]]",
+              "right": "Talento"
             }
           ],
           "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
+            "p0": "p1",
+            "p1": "p2",
+            "p2": "p3",
+            "p3": "p0"
           },
           "mastery_tag": "vocabulary"
         },
@@ -469,16 +469,16 @@
           "prompt_es": "¿Cómo se dice 'Habilidad' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Activity"
-            },
-            {
               "id": "o1",
-              "text": "Ability"
+              "text": "[[Ability|habilidad]]"
             },
             {
               "id": "o2",
-              "text": "Frequency"
+              "text": "[[Activity|actividad]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Frequency|frecuencia]]"
             }
           ],
           "correct_answer": "o1",
@@ -491,30 +491,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Ability",
-              "right": "Habilidad"
+              "left": "[[Ability|habilidad]]",
+              "right": "Actividad"
             },
             {
               "id": "p1",
-              "left": "Talent",
-              "right": "Talento"
+              "left": "[[Talent|talento]]",
+              "right": "Habilidad"
             },
             {
               "id": "p2",
-              "left": "Frequency",
-              "right": "Frecuencia"
+              "left": "[[Frequency|frecuencia]]",
+              "right": "Talento"
             },
             {
               "id": "p3",
-              "left": "Activity",
-              "right": "Actividad"
+              "left": "[[Activity|actividad]]",
+              "right": "Frecuencia"
             }
           ],
           "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
+            "p0": "p1",
+            "p1": "p2",
+            "p2": "p3",
+            "p3": "p0"
           },
           "mastery_tag": "vocabulary"
         },
@@ -578,18 +578,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Frequency"
-            },
-            {
-              "id": "o3",
-              "text": "Ability"
+              "text": "[[Ability|habilidad]]"
             },
             {
               "id": "o2",
-              "text": "Activity"
+              "text": "[[Frequency|frecuencia]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Activity|actividad]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -599,30 +599,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Talent",
-              "right": "Talento"
+              "left": "[[Talent|talento]]",
+              "right": "Habilidad"
             },
             {
               "id": "p1",
-              "left": "Frequency",
-              "right": "Frecuencia"
+              "left": "[[Frequency|frecuencia]]",
+              "right": "Talento"
             },
             {
               "id": "p2",
-              "left": "Activity",
-              "right": "Actividad"
+              "left": "[[Activity|actividad]]",
+              "right": "Frecuencia"
             },
             {
               "id": "p3",
-              "left": "Ability",
-              "right": "Habilidad"
+              "left": "[[Ability|habilidad]]",
+              "right": "Actividad"
             }
           ],
           "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
+            "p0": "p1",
+            "p1": "p2",
+            "p2": "p3",
+            "p3": "p0"
           },
           "mastery_tag": "vocabulary"
         },
@@ -700,19 +700,19 @@
           "prompt_es": "¿Cómo se dice 'Habilidad' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Frequency"
+              "id": "o1",
+              "text": "[[Frequency|frecuencia]]"
             },
             {
               "id": "o2",
-              "text": "Talent"
+              "text": "[[Talent|talento]]"
             },
             {
-              "id": "o1",
-              "text": "Ability"
+              "id": "o3",
+              "text": "[[Ability|habilidad]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -722,30 +722,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Frequency",
-              "right": "Frecuencia"
+              "left": "[[Frequency|frecuencia]]",
+              "right": "Talento"
             },
             {
               "id": "p1",
-              "left": "Activity",
-              "right": "Actividad"
+              "left": "[[Activity|actividad]]",
+              "right": "Frecuencia"
             },
             {
               "id": "p2",
-              "left": "Ability",
-              "right": "Habilidad"
+              "left": "[[Ability|habilidad]]",
+              "right": "Actividad"
             },
             {
               "id": "p3",
-              "left": "Talent",
-              "right": "Talento"
+              "left": "[[Talent|talento]]",
+              "right": "Habilidad"
             }
           ],
           "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
+            "p0": "p1",
+            "p1": "p2",
+            "p2": "p3",
+            "p3": "p0"
           },
           "mastery_tag": "vocabulary"
         },
@@ -760,7 +760,7 @@
         {
           "interaction_id": "U40_I39",
           "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Connect sentences with 'and', 'but', and 'because'.\"",
+          "prompt_es": "¿Es correcta esta frase?: \"Connect sentences with '[[and|y]]', '[[but|pero]]', and '[[because|porque]]'.\"",
           "correct_answer": true,
           "mastery_tag": "syntax"
         },
@@ -824,15 +824,15 @@
           "options": [
             {
               "id": "o1",
-              "text": "Frequency"
+              "text": "[[Frequency|frecuencia]]"
             },
             {
               "id": "o2",
-              "text": "Talent"
+              "text": "[[Talent|talento]]"
             },
             {
               "id": "o3",
-              "text": "Activity"
+              "text": "[[Activity|actividad]]"
             }
           ],
           "correct_answer": "o1",
@@ -845,30 +845,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Activity",
-              "right": "Actividad"
+              "left": "[[Activity|actividad]]",
+              "right": "Frecuencia"
             },
             {
               "id": "p1",
-              "left": "Ability",
-              "right": "Habilidad"
+              "left": "[[Ability|habilidad]]",
+              "right": "Actividad"
             },
             {
               "id": "p2",
-              "left": "Talent",
-              "right": "Talento"
+              "left": "[[Talent|talento]]",
+              "right": "Habilidad"
             },
             {
               "id": "p3",
-              "left": "Frequency",
-              "right": "Frecuencia"
+              "left": "[[Frequency|frecuencia]]",
+              "right": "Talento"
             }
           ],
           "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
+            "p0": "p1",
+            "p1": "p2",
+            "p2": "p3",
+            "p3": "p0"
           },
           "mastery_tag": "vocabulary"
         },
@@ -932,18 +932,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Ability"
-            },
-            {
-              "id": "o3",
-              "text": "Activity"
+              "text": "[[Activity|actividad]]"
             },
             {
               "id": "o2",
-              "text": "Frequency"
+              "text": "[[Ability|habilidad]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Frequency|frecuencia]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -953,30 +953,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Ability",
-              "right": "Habilidad"
+              "left": "[[Ability|habilidad]]",
+              "right": "Actividad"
             },
             {
               "id": "p1",
-              "left": "Talent",
-              "right": "Talento"
+              "left": "[[Talent|talento]]",
+              "right": "Habilidad"
             },
             {
               "id": "p2",
-              "left": "Frequency",
-              "right": "Frecuencia"
+              "left": "[[Frequency|frecuencia]]",
+              "right": "Talento"
             },
             {
               "id": "p3",
-              "left": "Activity",
-              "right": "Actividad"
+              "left": "[[Activity|actividad]]",
+              "right": "Frecuencia"
             }
           ],
           "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
+            "p0": "p1",
+            "p1": "p2",
+            "p2": "p3",
+            "p3": "p0"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1049,19 +1049,19 @@
           "prompt_es": "¿Cómo se dice 'Frecuencia' en inglés?",
           "options": [
             {
-              "id": "o2",
-              "text": "Ability"
+              "id": "o1",
+              "text": "[[Ability|habilidad]]"
             },
             {
-              "id": "o1",
-              "text": "Frequency"
+              "id": "o2",
+              "text": "[[Activity|actividad]]"
             },
             {
               "id": "o3",
-              "text": "Activity"
+              "text": "[[Frequency|frecuencia]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1071,30 +1071,30 @@
           "pairs": [
             {
               "id": "p0",
-              "left": "Talent",
-              "right": "Talento"
+              "left": "[[Talent|talento]]",
+              "right": "Habilidad"
             },
             {
               "id": "p1",
-              "left": "Frequency",
-              "right": "Frecuencia"
+              "left": "[[Frequency|frecuencia]]",
+              "right": "Talento"
             },
             {
               "id": "p2",
-              "left": "Activity",
-              "right": "Actividad"
+              "left": "[[Activity|actividad]]",
+              "right": "Frecuencia"
             },
             {
               "id": "p3",
-              "left": "Ability",
-              "right": "Habilidad"
+              "left": "[[Ability|habilidad]]",
+              "right": "Actividad"
             }
           ],
           "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
+            "p0": "p1",
+            "p1": "p2",
+            "p2": "p3",
+            "p3": "p0"
           },
           "mastery_tag": "vocabulary"
         },
@@ -1157,16 +1157,16 @@
           "prompt_es": "¿Cómo se dice 'Habilidad' en inglés?",
           "options": [
             {
-              "id": "o3",
-              "text": "Activity"
-            },
-            {
               "id": "o1",
-              "text": "Ability"
+              "text": "[[Ability|habilidad]]"
             },
             {
               "id": "o2",
-              "text": "Talent"
+              "text": "[[Activity|actividad]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Talent|talento]]"
             }
           ],
           "correct_answer": "o1",

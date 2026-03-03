@@ -24,30 +24,30 @@
           "pairs": [
             {
               "id": "p1",
-              "left": "Swim",
-              "right": "Nadar"
+              "left": "[[Swim|nadar]]",
+              "right": "Cocinar"
             },
             {
               "id": "p2",
-              "left": "Dance",
-              "right": "Bailar"
+              "left": "[[Dance|bailar]]",
+              "right": "Nadar"
             },
             {
               "id": "p3",
-              "left": "Draw",
-              "right": "Dibujar"
+              "left": "[[Draw|dibujar]]",
+              "right": "Bailar"
             },
             {
               "id": "p4",
-              "left": "Cook",
-              "right": "Cocinar"
+              "left": "[[Cook|cocinar]]",
+              "right": "Dibujar"
             }
           ],
           "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
+            "p1": "p2",
+            "p2": "p3",
+            "p3": "p4",
+            "p4": "p1"
           },
           "mastery_tag": "vocabulary",
           "complexity": 1,
@@ -59,13 +59,12 @@
         {
           "interaction_id": "A1_U31_B31_1_I2",
           "type": "fill_blanks",
-          "prompt_es": "Completa con 'can' para expresar habilidad:",
-          "stimulus_en": "She ________ speak three languages.",
+          "prompt_es": "Completa con '[[can|poder]]' para expresar habilidad:",
+          "stimulus_en": "She ________ [[speak|hablar]] three languages.",
           "correct_answer": "can",
           "mastery_tag": "grammar",
           "complexity": 3,
           "concept_tags": [
-            "grammar",
             "grammar"
           ]
         },
@@ -131,7 +130,6 @@
           "mastery_tag": "grammar",
           "complexity": 1,
           "concept_tags": [
-            "grammar",
             "grammar"
           ]
         },
@@ -139,7 +137,7 @@
           "interaction_id": "A1_U31_B31_1_I5",
           "type": "flashcard",
           "prompt_es": "Aprende el verbo:",
-          "stimulus_en": "Sing",
+          "stimulus_en": "[[Sing|cantar]]",
           "correct_answer": "Cantar",
           "mastery_tag": "vocabulary",
           "complexity": 4,
@@ -157,26 +155,25 @@
         {
           "interaction_id": "A1_U31_B31_2_I1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la forma negativa de 'can'?",
+          "prompt_es": "¿Cuál es la forma negativa de '[[can|poder]]'?",
           "options": [
             {
               "id": "o1",
-              "text": "Can't (cannot)"
+              "text": "Don't can"
             },
             {
               "id": "o2",
-              "text": "Don't can"
+              "text": "Can't (cannot)"
             },
             {
               "id": "o3",
               "text": "Not can"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "grammar",
           "complexity": 1,
           "concept_tags": [
-            "grammar",
             "grammar"
           ]
         },
@@ -189,7 +186,6 @@
           "mastery_tag": "grammar",
           "complexity": 3,
           "concept_tags": [
-            "grammar",
             "grammar"
           ]
         },
@@ -253,6 +249,12 @@
       "title": "Block 3: Animals & Abilities",
       "content": [
         {
+          "interaction_id": "A1_U31_B31_3_READ",
+          "type": "reading_phase",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[following|siguiente]] [[text|texto]] [[carefully|con atención]]:",
+          "transcript": "Fish live in the water. They have gills. Gills help fish to breathe underwater. Fish do not have lungs like people. They swim and breathe in rivers, lakes, and oceans. Fish are happy in the water. They do not need air like humans. Fish can stay underwater all the time."
+        },
+        {
           "interaction_id": "A1_U31_B31_3_I1",
           "type": "true_false",
           "prompt_es": "¿Es verdad? 'Fish can breathe underwater.'",
@@ -263,7 +265,7 @@
             "grammar",
             "reading"
           ],
-          "stimulus_en": "Fish live in the water. They have gills. Gills help fish to breathe underwater. Fish do not have lungs like people. They swim and breathe in rivers, lakes, and oceans. Fish are happy in the water. They do not need air like humans. Fish can stay underwater all the time."
+          "stimulus_en": "Fish live in the water. They have gills. Gills help fish to breathe underwater. Fish do not have lungs like people. They [[swim|nadar]] and breathe in rivers, lakes, and oceans. Fish are happy in the water. They do not need air like humans. Fish can stay underwater all the time."
         },
         {
           "interaction_id": "A1_U31_B31_3_I2",
@@ -312,12 +314,11 @@
           "interaction_id": "A1_U31_B31_3_I5",
           "type": "fill_blanks",
           "prompt_es": "Completa la pregunta sobre animales:",
-          "stimulus_en": "________ dogs swim?",
+          "stimulus_en": "________ dogs [[swim|nadar]]?",
           "correct_answer": "Can",
           "mastery_tag": "grammar",
           "complexity": 3,
           "concept_tags": [
-            "grammar",
             "grammar"
           ]
         }
@@ -327,6 +328,12 @@
       "block_id": "B31_4",
       "title": "Block 4: Reading & Listening",
       "content": [
+        {
+          "interaction_id": "A1_U31_B31_4_READ",
+          "type": "reading_phase",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[following|siguiente]] [[text|texto]] [[carefully|con atención]]:",
+          "transcript": "My sister is very talented. She can play the violin and she can dance ballet. My brother can't dance, but he can cook delicious Italian food. I can't play an instrument, but I can speak English and Spanish."
+        },
         {
           "interaction_id": "A1_U31_B31_4_I2",
           "type": "reading-comprehension",
@@ -405,18 +412,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "The narrator can speak two languages."
-            },
-            {
-              "id": "o2",
               "text": "The sister can't dance."
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "The brother can play the violin."
+            },
+            {
+              "id": "o3",
+              "text": "The narrator can speak two languages."
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "reading",
           "complexity": 1,
           "concept_tags": [
@@ -432,11 +439,11 @@
         {
           "interaction_id": "U31_FILLER_0",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'can' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[can|poder]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Can"
+              "text": "[[Can|poder]]"
             },
             {
               "id": "o2",
@@ -453,53 +460,53 @@
         {
           "interaction_id": "U31_FILLER_1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'can't' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[can|poder]]'t' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Can't"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Can't|no poder]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U31_FILLER_2",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'swim' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[swim|nadar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Swim"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Swim|nadar]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U31_FILLER_3",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'fly' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[fly|volar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Fly"
+              "text": "[[Fly|volar]]"
             },
             {
               "id": "o2",
@@ -516,53 +523,53 @@
         {
           "interaction_id": "U31_FILLER_4",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'sing' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[sing|cantar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Sing"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Sing|cantar]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U31_FILLER_5",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'dance' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[dance|bailar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Dance"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Dance|bailar]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U31_FILLER_6",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'drive' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[drive|conducir]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Drive"
+              "text": "[[Drive|conducir]]"
             },
             {
               "id": "o2",
@@ -579,53 +586,53 @@
         {
           "interaction_id": "U31_FILLER_7",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'speak' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[speak|hablar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Speak"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Speak|hablar]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U31_FILLER_8",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'can' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[can|poder]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Can"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Can|poder]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U31_FILLER_9",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'can't' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[can|poder]]'t' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Can't"
+              "text": "[[Can't|no poder]]"
             },
             {
               "id": "o2",
@@ -642,53 +649,53 @@
         {
           "interaction_id": "U31_FILLER_10",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'swim' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[swim|nadar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Swim"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Swim|nadar]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U31_FILLER_11",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'fly' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[fly|volar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Fly"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Fly|volar]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U31_FILLER_12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'sing' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[sing|cantar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Sing"
+              "text": "[[Sing|cantar]]"
             },
             {
               "id": "o2",
@@ -705,53 +712,53 @@
         {
           "interaction_id": "U31_FILLER_13",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'dance' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[dance|bailar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Dance"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Dance|bailar]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U31_FILLER_14",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'drive' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[drive|conducir]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Drive"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Drive|conducir]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U31_FILLER_15",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'speak' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[speak|hablar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Speak"
+              "text": "[[Speak|hablar]]"
             },
             {
               "id": "o2",
@@ -768,53 +775,53 @@
         {
           "interaction_id": "U31_FILLER_16",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'can' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[can|poder]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Can"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Can|poder]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U31_FILLER_17",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'can't' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[can|poder]]'t' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Can't"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Can't|no poder]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U31_FILLER_18",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'swim' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[swim|nadar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Swim"
+              "text": "[[Swim|nadar]]"
             },
             {
               "id": "o2",
@@ -831,53 +838,53 @@
         {
           "interaction_id": "U31_FILLER_19",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'fly' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[fly|volar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Fly"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Fly|volar]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U31_FILLER_20",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'sing' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[sing|cantar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Sing"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Sing|cantar]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U31_FILLER_21",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'dance' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[dance|bailar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Dance"
+              "text": "[[Dance|bailar]]"
             },
             {
               "id": "o2",
@@ -894,53 +901,53 @@
         {
           "interaction_id": "U31_FILLER_22",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'drive' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[drive|conducir]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Drive"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Drive|conducir]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U31_FILLER_23",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'speak' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[speak|hablar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Speak"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Speak|hablar]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U31_FILLER_24",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'can' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[can|poder]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Can"
+              "text": "[[Can|poder]]"
             },
             {
               "id": "o2",
@@ -957,53 +964,53 @@
         {
           "interaction_id": "U31_FILLER_25",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'can't' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[can|poder]]'t' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Can't"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Can't|no poder]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U31_FILLER_26",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'swim' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[swim|nadar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Swim"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Swim|nadar]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U31_FILLER_27",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'fly' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[fly|volar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Fly"
+              "text": "[[Fly|volar]]"
             },
             {
               "id": "o2",
@@ -1020,53 +1027,53 @@
         {
           "interaction_id": "U31_FILLER_28",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'sing' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[sing|cantar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Sing"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Sing|cantar]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U31_FILLER_29",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'dance' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[dance|bailar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Dance"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Dance|bailar]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U31_FILLER_30",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'drive' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[drive|conducir]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Drive"
+              "text": "[[Drive|conducir]]"
             },
             {
               "id": "o2",
@@ -1083,53 +1090,53 @@
         {
           "interaction_id": "U31_FILLER_31",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'speak' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[speak|hablar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Speak"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Speak|hablar]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U31_FILLER_32",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'can' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[can|poder]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Can"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Can|poder]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U31_FILLER_33",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'can't' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[can|poder]]'t' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Can't"
+              "text": "[[Can't|no poder]]"
             },
             {
               "id": "o2",
@@ -1146,53 +1153,53 @@
         {
           "interaction_id": "U31_FILLER_34",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'swim' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[swim|nadar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Swim"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Swim|nadar]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U31_FILLER_35",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'fly' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[fly|volar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Fly"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Fly|volar]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U31_FILLER_36",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'sing' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[sing|cantar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Sing"
+              "text": "[[Sing|cantar]]"
             },
             {
               "id": "o2",
@@ -1209,53 +1216,53 @@
         {
           "interaction_id": "U31_FILLER_37",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'dance' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[dance|bailar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Dance"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Dance|bailar]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U31_FILLER_38",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'drive' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[drive|conducir]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Drive"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Drive|conducir]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U31_FILLER_39",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'speak' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[speak|hablar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Speak"
+              "text": "[[Speak|hablar]]"
             },
             {
               "id": "o2",
@@ -1272,53 +1279,53 @@
         {
           "interaction_id": "U31_FILLER_40",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'can' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[can|poder]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Can"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Can|poder]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U31_FILLER_41",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'can't' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[can|poder]]'t' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Can't"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Can't|no poder]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U31_FILLER_42",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'swim' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[swim|nadar]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Swim"
+              "text": "[[Swim|nadar]]"
             },
             {
               "id": "o2",

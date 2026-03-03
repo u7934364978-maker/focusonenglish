@@ -24,30 +24,30 @@
           "pairs": [
             {
               "id": "p1",
-              "left": "Always",
-              "right": "100% de las veces"
+              "left": "[[Always|siempre]]",
+              "right": "0% de las veces"
             },
             {
               "id": "p2",
-              "left": "Often",
-              "right": "Frecuentemente (60-70%)"
+              "left": "[[Often|a menudo]]",
+              "right": "100% de las veces"
             },
             {
               "id": "p3",
-              "left": "Sometimes",
-              "right": "A veces (40-50%)"
+              "left": "[[Sometimes|a veces]]",
+              "right": "Frecuentemente (60-70%)"
             },
             {
               "id": "p4",
-              "left": "Never",
-              "right": "0% de las veces"
+              "left": "[[Never|nunca]]",
+              "right": "A veces (40-50%)"
             }
           ],
           "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
+            "p1": "p2",
+            "p2": "p3",
+            "p3": "p4",
+            "p4": "p1"
           },
           "mastery_tag": "vocabulary",
           "complexity": 1,
@@ -63,15 +63,15 @@
           "options": [
             {
               "id": "o1",
-              "text": "Usually"
+              "text": "[[Usually|normalmente]]"
             },
             {
               "id": "o2",
-              "text": "Always"
+              "text": "[[Always|siempre]]"
             },
             {
               "id": "o3",
-              "text": "Never"
+              "text": "[[Never|nunca]]"
             }
           ],
           "correct_answer": "o1",
@@ -129,7 +129,7 @@
           "interaction_id": "A1_U33_B33_1_I5",
           "type": "flashcard",
           "prompt_es": "Memoriza:",
-          "stimulus_en": "Often",
+          "stimulus_en": "[[Often|a menudo]]",
           "correct_answer": "A menudo",
           "mastery_tag": "vocabulary",
           "complexity": 4,
@@ -148,7 +148,7 @@
           "interaction_id": "A1_U33_B33_2_I4",
           "type": "fill_blanks",
           "prompt_es": "Completa el orden (sujeto + adverbio + verbo):",
-          "stimulus_en": "We ________ ________ (usually / walk) to school.",
+          "stimulus_en": "We ________ ________ ([[usually|normalmente]] / walk) to school.",
           "correct_answer": "usually walk",
           "mastery_tag": "grammar",
           "complexity": 3,
@@ -182,24 +182,24 @@
           "pairs": [
             {
               "id": "p1",
-              "left": "Once a week",
-              "right": "Una vez por semana"
+              "left": "[[Once a week|una vez por semana]]",
+              "right": "Cada día"
             },
             {
               "id": "p2",
-              "left": "Twice a month",
-              "right": "Dos veces al mes"
+              "left": "[[Twice a month|dos veces al mes]]",
+              "right": "Una vez por semana"
             },
             {
               "id": "p3",
-              "left": "Every day",
-              "right": "Cada día"
+              "left": "[[Every day|cada día]]",
+              "right": "Dos veces al mes"
             }
           ],
           "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
+            "p1": "p2",
+            "p2": "p3",
+            "p3": "p1"
           },
           "mastery_tag": "vocabulary",
           "complexity": 1,
@@ -215,18 +215,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Three times a week"
+              "text": "Yes, I do"
             },
             {
               "id": "o2",
-              "text": "Yes, I do"
+              "text": "Three times a week"
             },
             {
               "id": "o3",
               "text": "At 5 o'clock"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "grammar",
           "complexity": 1,
           "concept_tags": [
@@ -267,6 +267,12 @@
       "title": "Block 4: Reading & Listening Mastery",
       "content": [
         {
+          "interaction_id": "A1_U33_B33_4_READ",
+          "type": "reading_phase",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[following|siguiente]] [[text|texto]] [[carefully|con atención]]:",
+          "transcript": "Anna goes to the gym three times a week. She likes to exercise on Monday, Wednesday, and Friday. At the gym, she runs, lifts weights, and does yoga. Anna feels happy and healthy. Her friend Lisa joins her sometimes. After the gym, Anna drinks a smoothie. She enjoys her routine and always looks forward to the next workout."
+        },
+        {
           "interaction_id": "A1_U33_B33_4_I4",
           "type": "short_writing",
           "prompt_es": "Basado en el texto, ¿con qué frecuencia va al gimnasio?",
@@ -278,7 +284,7 @@
             "grammar",
             "reading"
           ],
-          "stimulus_en": "Anna goes to the gym three times a week. She likes to exercise on Monday, Wednesday, and Friday. At the gym, she runs, lifts weights, and does yoga. Anna feels happy and healthy. Her friend Lisa joins her sometimes. After the gym, Anna drinks a smoothie. She enjoys her routine and always looks forward to the next workout."
+          "stimulus_en": "Anna goes to the gym three times a week. She likes to exercise on Monday, Wednesday, and Friday. At the gym, she runs, lifts weights, and does yoga. Anna feels happy and healthy. Her friend Lisa joins her sometimes. After the gym, Anna drinks a smoothie. She enjoys her routine and [[always|siempre]] looks forward to the next workout."
         },
         {
           "interaction_id": "A1_U33_B33_4_I5",
@@ -291,7 +297,7 @@
             "grammar",
             "reading"
           ],
-          "stimulus_en": "Anna goes to the gym three times a week. She likes to exercise on Monday, Wednesday, and Friday. At the gym, she runs, lifts weights, and does yoga. Anna feels happy and healthy. Her friend Lisa joins her sometimes. After the gym, Anna drinks a smoothie. She enjoys her routine and always looks forward to the next workout."
+          "stimulus_en": "Anna goes to the gym three times a week. She likes to exercise on Monday, Wednesday, and Friday. At the gym, she runs, lifts weights, and does yoga. Anna feels happy and healthy. Her friend Lisa joins her sometimes. After the gym, Anna drinks a smoothie. She enjoys her routine and [[always|siempre]] looks forward to the next workout."
         }
       ]
     },
@@ -301,32 +307,32 @@
         {
           "interaction_id": "U33_FILLER_0",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'always' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[always|siempre]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Always"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Always|siempre]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U33_FILLER_1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'sometimes' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[sometimes|a veces]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Sometimes"
+              "text": "[[Sometimes|a veces]]"
             },
             {
               "id": "o2",
@@ -343,53 +349,53 @@
         {
           "interaction_id": "U33_FILLER_2",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'never' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[never|nunca]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Never"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Never|nunca]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U33_FILLER_3",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'often' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[often|a menudo]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Often"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Often|a menudo]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U33_FILLER_4",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'usually' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[usually|normalmente]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Usually"
+              "text": "[[Usually|normalmente]]"
             },
             {
               "id": "o2",
@@ -410,49 +416,49 @@
           "options": [
             {
               "id": "o1",
-              "text": "Seldom"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Seldom"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U33_FILLER_6",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'rarely' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[rarely|raramente]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Rarely"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Rarely|raramente]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U33_FILLER_7",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'always' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[always|siempre]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Always"
+              "text": "[[Always|siempre]]"
             },
             {
               "id": "o2",
@@ -469,53 +475,53 @@
         {
           "interaction_id": "U33_FILLER_8",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'sometimes' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[sometimes|a veces]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Sometimes"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Sometimes|a veces]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U33_FILLER_9",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'never' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[never|nunca]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Never"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Never|nunca]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U33_FILLER_10",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'often' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[often|a menudo]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Often"
+              "text": "[[Often|a menudo]]"
             },
             {
               "id": "o2",
@@ -532,22 +538,22 @@
         {
           "interaction_id": "U33_FILLER_11",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'usually' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[usually|normalmente]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Usually"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Usually|normalmente]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -557,28 +563,28 @@
           "options": [
             {
               "id": "o1",
-              "text": "Seldom"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Seldom"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U33_FILLER_13",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'rarely' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[rarely|raramente]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Rarely"
+              "text": "[[Rarely|raramente]]"
             },
             {
               "id": "o2",
@@ -595,53 +601,53 @@
         {
           "interaction_id": "U33_FILLER_14",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'always' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[always|siempre]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Always"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Always|siempre]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U33_FILLER_15",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'sometimes' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[sometimes|a veces]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Sometimes"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Sometimes|a veces]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U33_FILLER_16",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'never' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[never|nunca]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Never"
+              "text": "[[Never|nunca]]"
             },
             {
               "id": "o2",
@@ -658,43 +664,43 @@
         {
           "interaction_id": "U33_FILLER_17",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'often' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[often|a menudo]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Often"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Often|a menudo]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U33_FILLER_18",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'usually' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[usually|normalmente]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Usually"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Usually|normalmente]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -721,53 +727,53 @@
         {
           "interaction_id": "U33_FILLER_20",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'rarely' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[rarely|raramente]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Rarely"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Rarely|raramente]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U33_FILLER_21",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'always' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[always|siempre]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Always"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Always|siempre]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U33_FILLER_22",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'sometimes' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[sometimes|a veces]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Sometimes"
+              "text": "[[Sometimes|a veces]]"
             },
             {
               "id": "o2",
@@ -784,53 +790,53 @@
         {
           "interaction_id": "U33_FILLER_23",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'never' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[never|nunca]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Never"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Never|nunca]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U33_FILLER_24",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'often' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[often|a menudo]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Often"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Often|a menudo]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U33_FILLER_25",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'usually' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[usually|normalmente]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Usually"
+              "text": "[[Usually|normalmente]]"
             },
             {
               "id": "o2",
@@ -851,49 +857,49 @@
           "options": [
             {
               "id": "o1",
-              "text": "Seldom"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Seldom"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U33_FILLER_27",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'rarely' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[rarely|raramente]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Rarely"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Rarely|raramente]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U33_FILLER_28",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'always' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[always|siempre]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Always"
+              "text": "[[Always|siempre]]"
             },
             {
               "id": "o2",
@@ -910,53 +916,53 @@
         {
           "interaction_id": "U33_FILLER_29",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'sometimes' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[sometimes|a veces]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Sometimes"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Sometimes|a veces]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U33_FILLER_30",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'never' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[never|nunca]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Never"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Never|nunca]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U33_FILLER_31",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'often' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[often|a menudo]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Often"
+              "text": "[[Often|a menudo]]"
             },
             {
               "id": "o2",
@@ -973,22 +979,22 @@
         {
           "interaction_id": "U33_FILLER_32",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'usually' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[usually|normalmente]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Usually"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Usually|normalmente]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -998,28 +1004,28 @@
           "options": [
             {
               "id": "o1",
-              "text": "Seldom"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Seldom"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U33_FILLER_34",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'rarely' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[rarely|raramente]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Rarely"
+              "text": "[[Rarely|raramente]]"
             },
             {
               "id": "o2",
@@ -1036,53 +1042,53 @@
         {
           "interaction_id": "U33_FILLER_35",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'always' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[always|siempre]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Always"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Always|siempre]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U33_FILLER_36",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'sometimes' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[sometimes|a veces]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Sometimes"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Sometimes|a veces]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U33_FILLER_37",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'never' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[never|nunca]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Never"
+              "text": "[[Never|nunca]]"
             },
             {
               "id": "o2",
@@ -1099,43 +1105,43 @@
         {
           "interaction_id": "U33_FILLER_38",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'often' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[often|a menudo]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Often"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Often|a menudo]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U33_FILLER_39",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'usually' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[usually|normalmente]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Usually"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Usually|normalmente]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1162,53 +1168,53 @@
         {
           "interaction_id": "U33_FILLER_41",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'rarely' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[rarely|raramente]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Rarely"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Rarely|raramente]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U33_FILLER_42",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'always' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[always|siempre]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Always"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Always|siempre]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U33_FILLER_43",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'sometimes' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[sometimes|a veces]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Sometimes"
+              "text": "[[Sometimes|a veces]]"
             },
             {
               "id": "o2",
@@ -1225,53 +1231,53 @@
         {
           "interaction_id": "U33_FILLER_44",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'never' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[never|nunca]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Never"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Never|nunca]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U33_FILLER_45",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'often' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[often|a menudo]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Often"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Often|a menudo]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U33_FILLER_46",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'usually' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[usually|normalmente]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Usually"
+              "text": "[[Usually|normalmente]]"
             },
             {
               "id": "o2",

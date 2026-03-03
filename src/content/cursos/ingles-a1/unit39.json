@@ -24,11 +24,11 @@
           "options": [
             {
               "id": "o1",
-              "text": "was"
+              "text": "[[was|era/estaba]]"
             },
             {
               "id": "o2",
-              "text": "were"
+              "text": "[[were|eran/estaban]]"
             },
             {
               "id": "o3",
@@ -46,8 +46,8 @@
         {
           "interaction_id": "A1_U39_B39_1_I3",
           "type": "fill_blanks",
-          "prompt_es": "Completa con 'was' o 'were':",
-          "stimulus_en": "They ________ very happy last night.",
+          "prompt_es": "Completa con '[[was|era/estaba]]' o '[[were|eran/estaban]]':",
+          "stimulus_en": "They ________ very happy [[last night|anoche]].",
           "correct_answer": "were",
           "mastery_tag": "grammar",
           "complexity": 3,
@@ -73,7 +73,7 @@
           "interaction_id": "A1_U39_B39_1_I5",
           "type": "flashcard",
           "prompt_es": "Aprende la expresión:",
-          "stimulus_en": "Last week",
+          "stimulus_en": "[[Last week|la semana pasada]]",
           "correct_answer": "La semana pasada",
           "mastery_tag": "vocabulary",
           "complexity": 4,
@@ -91,7 +91,7 @@
         {
           "interaction_id": "A1_U39_B39_2_I2",
           "type": "fill_blanks",
-          "prompt_es": "Completa con 'wasn't' o 'weren't':",
+          "prompt_es": "Completa con '[[wasn't|no era/estaba]]' o '[[weren't|no eran/estaban]]':",
           "stimulus_en": "We ________ at the party on Friday.",
           "correct_answer": "weren't",
           "mastery_tag": "grammar",
@@ -104,7 +104,7 @@
         {
           "interaction_id": "A1_U39_B39_2_I4",
           "type": "true_false",
-          "prompt_es": "¿'Weren't' es la contracción de 'were not'?",
+          "prompt_es": "¿'[[Weren't|no eran/estaban]]' es la contracción de 'were not'?",
           "correct_answer": true,
           "mastery_tag": "grammar",
           "complexity": 1,
@@ -167,8 +167,8 @@
         {
           "interaction_id": "A1_U39_B39_3_I3",
           "type": "fill_blanks",
-          "prompt_es": "Completa con 'Was' o 'Were':",
-          "stimulus_en": "________ the weather good yesterday?",
+          "prompt_es": "Completa con '[[Was|era/estaba]]' o '[[Were|eran/estaban]]':",
+          "stimulus_en": "________ the weather good [[yesterday|ayer]]?",
           "correct_answer": "Was",
           "mastery_tag": "grammar",
           "complexity": 3,
@@ -212,7 +212,7 @@
           "interaction_id": "A1_U39_B39_4_I1",
           "type": "audio_player",
           "prompt_es": "Escucha y escribe:",
-          "stimulus_en": "Last night there was a power cut at our house. My mother was in the kitchen. My father was in the living room. My brother was in his bedroom. It was very dark, but we were all safe.",
+          "stimulus_en": "Last night there was a power cut at our house. My mother was in the kitchen. My father was in the living room. My brother was in his bedroom. It was very dark, but we [[were|eran/estaban]] all safe.",
           "audioUrl": "/audio/courses/ingles-a1/shared/e1676698188151249767098e792e3a89.mp3",
           "text": "Where were you last night?",
           "mastery_tag": "listening",
@@ -224,10 +224,16 @@
           ]
         },
         {
+          "interaction_id": "A1_U39_B39_4_READ",
+          "type": "reading_phase",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[following|siguiente]] [[text|texto]] [[carefully|con atención]]:",
+          "transcript": "Last night there was a power cut at our house. My mother was in the kitchen. My father was in the living room. My brother was in his bedroom. It was very dark, but we were all safe."
+        },
+        {
           "interaction_id": "A1_U39_B39_4_I5",
           "type": "multiple_choice",
           "prompt_es": "¿Dónde estaba el hermano?",
-          "stimulus_en": "Last night there was a power cut at our house. My mother was in the kitchen. My father was in the living room. My brother was in his bedroom. It was very dark, but we were all safe.",
+          "stimulus_en": "Last night there was a power cut at our house. My mother was in the kitchen. My father was in the living room. My brother was in his bedroom. It was very dark, but we [[were|eran/estaban]] all safe.",
           "options": [
             {
               "id": "o1",
@@ -262,18 +268,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Hiking"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Hiking"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -304,18 +310,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Fishing"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Fishing"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -325,18 +331,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Running"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Running"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -367,18 +373,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Cycling"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Cycling"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -388,18 +394,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Climbing"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Climbing"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -430,18 +436,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Camping"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Camping"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -451,18 +457,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Fishing"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Fishing"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -493,18 +499,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Walking"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Walking"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -514,18 +520,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Cycling"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Cycling"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -556,18 +562,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Hiking"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Hiking"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -577,18 +583,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Camping"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Camping"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -619,18 +625,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Running"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Running"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -640,18 +646,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Walking"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Walking"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -682,18 +688,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Climbing"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Climbing"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -703,18 +709,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Hiking"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Hiking"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -745,18 +751,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Fishing"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Fishing"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -766,18 +772,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Running"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Running"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -808,18 +814,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Cycling"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Cycling"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -829,18 +835,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Climbing"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Climbing"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -871,18 +877,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Camping"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Camping"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -892,18 +898,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Fishing"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Fishing"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -934,18 +940,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Walking"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Walking"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -955,18 +961,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Cycling"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Cycling"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -997,18 +1003,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Hiking"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Hiking"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1018,18 +1024,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Camping"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Camping"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1060,18 +1066,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Running"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Running"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1081,18 +1087,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Walking"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Walking"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1123,18 +1129,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Climbing"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Climbing"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1144,18 +1150,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Hiking"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Hiking"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1186,18 +1192,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Fishing"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Fishing"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1207,18 +1213,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Running"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Running"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1249,18 +1255,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Cycling"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Cycling"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         }
       ]

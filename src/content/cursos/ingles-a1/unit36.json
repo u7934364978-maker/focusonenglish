@@ -24,7 +24,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Trumpet"
+              "text": "[[Trumpet|trompeta]]"
             },
             {
               "id": "o2",
@@ -73,7 +73,7 @@
           "interaction_id": "A1_U36_B36_1_I5",
           "type": "flashcard",
           "prompt_es": "Aprende el instrumento:",
-          "stimulus_en": "Saxophone",
+          "stimulus_en": "[[Saxophone|saxofón]]",
           "correct_answer": "Saxofón",
           "mastery_tag": "vocabulary",
           "complexity": 4,
@@ -132,7 +132,7 @@
           "interaction_id": "A1_U36_B36_2_I3",
           "type": "fill_blanks",
           "prompt_es": "Completa con el artículo necesario:",
-          "stimulus_en": "We are learning to play ________ violin.",
+          "stimulus_en": "We are learning to play ________ [[violin|violín]].",
           "correct_answer": "the",
           "mastery_tag": "grammar",
           "complexity": 3,
@@ -209,18 +209,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Loud"
+              "text": "Quiet"
             },
             {
               "id": "o2",
-              "text": "Quiet"
+              "text": "Loud"
             },
             {
               "id": "o3",
               "text": "Small"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary",
           "complexity": 1,
           "concept_tags": [
@@ -232,7 +232,7 @@
           "interaction_id": "A1_U36_B36_3_I4",
           "type": "fill_blanks",
           "prompt_es": "Completa la descripción:",
-          "stimulus_en": "The violin is a ________ instrument to learn. (difícil)",
+          "stimulus_en": "The [[violin|violín]] is a ________ instrument to learn. (difícil)",
           "correct_answer": "difficult",
           "mastery_tag": "vocabulary",
           "complexity": 3,
@@ -248,31 +248,37 @@
       "title": "Block 4: Listening & Reading Mastery",
       "content": [
         {
+          "interaction_id": "A1_U36_B36_4_READ",
+          "type": "reading_phase",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[following|siguiente]] [[text|texto]] [[carefully|con atención]]:",
+          "transcript": "Tom plays the drums in a big room. The room is very loud when he plays. Tom’s friends like to listen. They sit and clap. Tom is happy. He smiles and keeps playing. The loud music fills the room. Everyone has fun."
+        },
+        {
           "interaction_id": "A1_U36_B36_4_I5",
           "type": "multiple_choice",
           "prompt_es": "¿Cómo es la sala donde tocan la batería?",
           "options": [
             {
               "id": "o1",
-              "text": "Very loud"
-            },
-            {
-              "id": "o2",
               "text": "Very quiet"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Very small"
+            },
+            {
+              "id": "o3",
+              "text": "Very loud"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "reading",
           "complexity": 1,
           "concept_tags": [
             "grammar",
             "reading"
           ],
-          "stimulus_en": "Tom plays the drums in a big room. The room is very loud when he plays. Tom’s friends like to listen. They sit and clap. Tom is happy. He smiles and keeps playing. The loud music fills the room. Everyone has fun."
+          "stimulus_en": "Tom plays the [[drums|batería]] in a big room. The room is very loud when he plays. Tom’s friends like to listen. They sit and clap. Tom is happy. He smiles and keeps playing. The loud music fills the room. Everyone has fun."
         }
       ]
     },
@@ -282,11 +288,11 @@
         {
           "interaction_id": "U36_FILLER_0",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'piano' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[piano|piano]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Piano"
+              "text": "[[Piano|piano]]"
             },
             {
               "id": "o2",
@@ -303,53 +309,53 @@
         {
           "interaction_id": "U36_FILLER_1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'violin' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[violin|violín]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Violin"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Violin|violín]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U36_FILLER_2",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'drums' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[drums|batería]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Drums"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Drums|batería]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U36_FILLER_3",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'guitar' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[guitar|guitarra]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Guitar"
+              "text": "[[Guitar|guitarra]]"
             },
             {
               "id": "o2",
@@ -366,53 +372,53 @@
         {
           "interaction_id": "U36_FILLER_4",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'trumpet' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[trumpet|trompeta]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Trumpet"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Trumpet|trompeta]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U36_FILLER_5",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'flute' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[flute|flauta]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Flute"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Flute|flauta]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U36_FILLER_6",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'keyboard' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[keyboard|teclado]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Keyboard"
+              "text": "[[Keyboard|teclado]]"
             },
             {
               "id": "o2",
@@ -429,53 +435,53 @@
         {
           "interaction_id": "U36_FILLER_7",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'piano' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[piano|piano]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Piano"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Piano|piano]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U36_FILLER_8",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'violin' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[violin|violín]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Violin"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Violin|violín]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U36_FILLER_9",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'drums' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[drums|batería]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Drums"
+              "text": "[[Drums|batería]]"
             },
             {
               "id": "o2",
@@ -492,53 +498,53 @@
         {
           "interaction_id": "U36_FILLER_10",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'guitar' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[guitar|guitarra]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Guitar"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Guitar|guitarra]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U36_FILLER_11",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'trumpet' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[trumpet|trompeta]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Trumpet"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Trumpet|trompeta]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U36_FILLER_12",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'flute' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[flute|flauta]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Flute"
+              "text": "[[Flute|flauta]]"
             },
             {
               "id": "o2",
@@ -555,53 +561,53 @@
         {
           "interaction_id": "U36_FILLER_13",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'keyboard' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[keyboard|teclado]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Keyboard"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Keyboard|teclado]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U36_FILLER_14",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'piano' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[piano|piano]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Piano"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Piano|piano]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U36_FILLER_15",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'violin' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[violin|violín]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Violin"
+              "text": "[[Violin|violín]]"
             },
             {
               "id": "o2",
@@ -618,53 +624,53 @@
         {
           "interaction_id": "U36_FILLER_16",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'drums' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[drums|batería]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Drums"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Drums|batería]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U36_FILLER_17",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'guitar' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[guitar|guitarra]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Guitar"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Guitar|guitarra]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U36_FILLER_18",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'trumpet' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[trumpet|trompeta]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Trumpet"
+              "text": "[[Trumpet|trompeta]]"
             },
             {
               "id": "o2",
@@ -681,53 +687,53 @@
         {
           "interaction_id": "U36_FILLER_19",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'flute' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[flute|flauta]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Flute"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Flute|flauta]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U36_FILLER_20",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'keyboard' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[keyboard|teclado]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Keyboard"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Keyboard|teclado]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U36_FILLER_21",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'piano' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[piano|piano]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Piano"
+              "text": "[[Piano|piano]]"
             },
             {
               "id": "o2",
@@ -744,53 +750,53 @@
         {
           "interaction_id": "U36_FILLER_22",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'violin' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[violin|violín]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Violin"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Violin|violín]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U36_FILLER_23",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'drums' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[drums|batería]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Drums"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Drums|batería]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U36_FILLER_24",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'guitar' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[guitar|guitarra]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Guitar"
+              "text": "[[Guitar|guitarra]]"
             },
             {
               "id": "o2",
@@ -807,53 +813,53 @@
         {
           "interaction_id": "U36_FILLER_25",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'trumpet' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[trumpet|trompeta]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Trumpet"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Trumpet|trompeta]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U36_FILLER_26",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'flute' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[flute|flauta]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Flute"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Flute|flauta]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U36_FILLER_27",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'keyboard' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[keyboard|teclado]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Keyboard"
+              "text": "[[Keyboard|teclado]]"
             },
             {
               "id": "o2",
@@ -870,53 +876,53 @@
         {
           "interaction_id": "U36_FILLER_28",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'piano' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[piano|piano]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Piano"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Piano|piano]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U36_FILLER_29",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'violin' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[violin|violín]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Violin"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Violin|violín]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U36_FILLER_30",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'drums' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[drums|batería]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Drums"
+              "text": "[[Drums|batería]]"
             },
             {
               "id": "o2",
@@ -933,53 +939,53 @@
         {
           "interaction_id": "U36_FILLER_31",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'guitar' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[guitar|guitarra]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Guitar"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Guitar|guitarra]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U36_FILLER_32",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'trumpet' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[trumpet|trompeta]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Trumpet"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Trumpet|trompeta]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U36_FILLER_33",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'flute' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[flute|flauta]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Flute"
+              "text": "[[Flute|flauta]]"
             },
             {
               "id": "o2",
@@ -996,53 +1002,53 @@
         {
           "interaction_id": "U36_FILLER_34",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'keyboard' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[keyboard|teclado]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Keyboard"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Keyboard|teclado]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U36_FILLER_35",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'piano' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[piano|piano]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Piano"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Piano|piano]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U36_FILLER_36",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'violin' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[violin|violín]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Violin"
+              "text": "[[Violin|violín]]"
             },
             {
               "id": "o2",
@@ -1059,53 +1065,53 @@
         {
           "interaction_id": "U36_FILLER_37",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'drums' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[drums|batería]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Drums"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Drums|batería]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U36_FILLER_38",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'guitar' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[guitar|guitarra]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Guitar"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Guitar|guitarra]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U36_FILLER_39",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'trumpet' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[trumpet|trompeta]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Trumpet"
+              "text": "[[Trumpet|trompeta]]"
             },
             {
               "id": "o2",
@@ -1122,53 +1128,53 @@
         {
           "interaction_id": "U36_FILLER_40",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'flute' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[flute|flauta]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Flute"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Flute|flauta]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U36_FILLER_41",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'keyboard' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[keyboard|teclado]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Keyboard"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Keyboard|teclado]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U36_FILLER_42",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'piano' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[piano|piano]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Piano"
+              "text": "[[Piano|piano]]"
             },
             {
               "id": "o2",
@@ -1185,53 +1191,53 @@
         {
           "interaction_id": "U36_FILLER_43",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'violin' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[violin|violín]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Violin"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Violin|violín]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U36_FILLER_44",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'drums' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[drums|batería]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Drums"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Drums|batería]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U36_FILLER_45",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'guitar' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[guitar|guitarra]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Guitar"
+              "text": "[[Guitar|guitarra]]"
             },
             {
               "id": "o2",
@@ -1248,43 +1254,43 @@
         {
           "interaction_id": "U36_FILLER_46",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'trumpet' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[trumpet|trompeta]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Trumpet"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Trumpet|trompeta]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U36_FILLER_47",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'flute' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[flute|flauta]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Flute"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Flute|flauta]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         }
       ]

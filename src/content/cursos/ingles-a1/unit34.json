@@ -24,24 +24,24 @@
           "pairs": [
             {
               "id": "p1",
-              "left": "And",
-              "right": "Añadir información (+)"
+              "left": "[[And|y]]",
+              "right": "Dar una razón (¿Por qué?)"
             },
             {
               "id": "p2",
-              "left": "But",
-              "right": "Contrastar ideas (+/-)"
+              "left": "[[But|pero]]",
+              "right": "Añadir información (+)"
             },
             {
               "id": "p3",
-              "left": "Because",
-              "right": "Dar una razón (¿Por qué?)"
+              "left": "[[Because|porque]]",
+              "right": "Contrastar ideas (+/-)"
             }
           ],
           "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
+            "p1": "p2",
+            "p2": "p3",
+            "p3": "p1"
           },
           "mastery_tag": "vocabulary",
           "complexity": 1,
@@ -61,11 +61,11 @@
             },
             {
               "id": "o2",
-              "text": "And"
+              "text": "[[And|y]]"
             },
             {
               "id": "o3",
-              "text": "But"
+              "text": "[[But|pero]]"
             }
           ],
           "correct_answer": "o1",
@@ -93,7 +93,7 @@
           "interaction_id": "A1_U34_B34_1_I4",
           "type": "flashcard",
           "prompt_es": "Memoriza el conector:",
-          "stimulus_en": "Because",
+          "stimulus_en": "[[Because|porque]]",
           "correct_answer": "Porque",
           "mastery_tag": "vocabulary",
           "complexity": 4,
@@ -111,7 +111,7 @@
         {
           "interaction_id": "A1_U34_B34_2_I2",
           "type": "reorder_words",
-          "prompt_es": "Ordena la frase con 'and':",
+          "prompt_es": "Ordena la frase con '[[and|y]]':",
           "options": [
             {
               "id": "w1",
@@ -151,7 +151,7 @@
         {
           "interaction_id": "A1_U34_B34_2_I3",
           "type": "fill_blanks",
-          "prompt_es": "Completa con 'and' o 'but':",
+          "prompt_es": "Completa con '[[and|y]]' o '[[but|pero]]':",
           "stimulus_en": "I can swim ________ I can't drive.",
           "correct_answer": "but",
           "mastery_tag": "grammar",
@@ -183,7 +183,7 @@
           "interaction_id": "A1_U34_B34_3_I1",
           "type": "fill_blanks",
           "prompt_es": "Completa con el conector de razón:",
-          "stimulus_en": "I am happy ________ it is my birthday.",
+          "stimulus_en": "I am [[happy|feliz]] ________ it is my birthday.",
           "correct_answer": "because",
           "mastery_tag": "grammar",
           "complexity": 3,
@@ -199,18 +199,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Because the bus was late"
+              "text": "But the bus was late"
             },
             {
               "id": "o2",
-              "text": "But the bus was late"
+              "text": "Because the bus was late"
             },
             {
               "id": "o3",
               "text": "And the bus was late"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "grammar",
           "complexity": 1,
           "concept_tags": [
@@ -289,7 +289,7 @@
         {
           "interaction_id": "A1_U34_B34_3_I5",
           "type": "true_false",
-          "prompt_es": "¿'Because' se usa para contrastar ideas opuestas?",
+          "prompt_es": "¿'[[Because|porque]]' se usa para contrastar ideas opuestas?",
           "correct_answer": false,
           "mastery_tag": "grammar",
           "complexity": 1,
@@ -305,31 +305,37 @@
       "title": "Block 4: Logical Flow Mastery",
       "content": [
         {
+          "interaction_id": "A1_U34_B34_4_READ",
+          "type": "reading_phase",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[following|siguiente]] [[text|texto]] [[carefully|con atención]]:",
+          "transcript": "Tom visits the city for the first time. He meets many people. They smile and say hello. Tom feels happy. The people in the city are friendly. Tom likes the city. He thinks the city is nice. He walks in the park and sees children playing. He eats lunch in a small café. The city is busy, but Tom enjoys it."
+        },
+        {
           "interaction_id": "A1_U34_B34_4_I5",
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es la actitud del narrador hacia la gente de la ciudad?",
           "options": [
             {
               "id": "o1",
-              "text": "They are friendly"
-            },
-            {
-              "id": "o2",
               "text": "They are unfriendly"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "The text doesn't say"
+            },
+            {
+              "id": "o3",
+              "text": "They are friendly"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "reading",
           "complexity": 1,
           "concept_tags": [
             "grammar",
             "reading"
           ],
-          "stimulus_en": "Tom visits the city for the first time. He meets many people. They smile and say hello. Tom feels happy. The people in the city are friendly. Tom likes the city. He thinks the city is nice. He walks in the park and sees children playing. He eats lunch in a small café. The city is busy, but Tom enjoys it."
+          "stimulus_en": "Tom visits the city for the first time. He meets many people. They smile and say hello. Tom feels [[happy|feliz]]. The people in the city are friendly. Tom likes the city. He thinks the city is nice. He walks in the park and sees children playing. He eats lunch in a small café. The city is busy, but Tom enjoys it."
         }
       ]
     },
@@ -339,11 +345,11 @@
         {
           "interaction_id": "U34_FILLER_0",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'and' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[and|y]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "And"
+              "text": "[[And|y]]"
             },
             {
               "id": "o2",
@@ -360,53 +366,53 @@
         {
           "interaction_id": "U34_FILLER_1",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'but' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[but|pero]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "But"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[But|pero]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U34_FILLER_2",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'because' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[because|porque]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Because"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Because|porque]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U34_FILLER_3",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'so' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[so|así que]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "So"
+              "text": "[[So|así que]]"
             },
             {
               "id": "o2",
@@ -427,18 +433,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Or"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Or"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -448,18 +454,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Then"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Then"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -486,53 +492,53 @@
         {
           "interaction_id": "U34_FILLER_7",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'and' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[and|y]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "And"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[And|y]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U34_FILLER_8",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'but' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[but|pero]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "But"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[But|pero]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U34_FILLER_9",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'because' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[because|porque]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Because"
+              "text": "[[Because|porque]]"
             },
             {
               "id": "o2",
@@ -549,22 +555,22 @@
         {
           "interaction_id": "U34_FILLER_10",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'so' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[so|así que]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "So"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[So|así que]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -574,18 +580,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Or"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Or"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -616,49 +622,49 @@
           "options": [
             {
               "id": "o1",
-              "text": "Finally"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Finally"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U34_FILLER_14",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'and' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[and|y]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "And"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[And|y]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U34_FILLER_15",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'but' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[but|pero]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "But"
+              "text": "[[But|pero]]"
             },
             {
               "id": "o2",
@@ -675,43 +681,43 @@
         {
           "interaction_id": "U34_FILLER_16",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'because' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[because|porque]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Because"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Because|porque]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U34_FILLER_17",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'so' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[so|así que]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "So"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[So|así que]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -742,18 +748,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Then"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Then"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -763,28 +769,28 @@
           "options": [
             {
               "id": "o1",
-              "text": "Finally"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Finally"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U34_FILLER_21",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'and' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[and|y]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "And"
+              "text": "[[And|y]]"
             },
             {
               "id": "o2",
@@ -801,53 +807,53 @@
         {
           "interaction_id": "U34_FILLER_22",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'but' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[but|pero]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "But"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[But|pero]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U34_FILLER_23",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'because' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[because|porque]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Because"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Because|porque]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U34_FILLER_24",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'so' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[so|así que]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "So"
+              "text": "[[So|así que]]"
             },
             {
               "id": "o2",
@@ -868,18 +874,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Or"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Or"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -889,18 +895,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Then"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Then"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -927,53 +933,53 @@
         {
           "interaction_id": "U34_FILLER_28",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'and' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[and|y]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "And"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[And|y]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U34_FILLER_29",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'but' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[but|pero]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "But"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[But|pero]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U34_FILLER_30",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'because' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[because|porque]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Because"
+              "text": "[[Because|porque]]"
             },
             {
               "id": "o2",
@@ -990,22 +996,22 @@
         {
           "interaction_id": "U34_FILLER_31",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'so' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[so|así que]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "So"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[So|así que]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1015,18 +1021,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Or"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Or"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1057,49 +1063,49 @@
           "options": [
             {
               "id": "o1",
-              "text": "Finally"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Finally"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U34_FILLER_35",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'and' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[and|y]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "And"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[And|y]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U34_FILLER_36",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'but' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[but|pero]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "But"
+              "text": "[[But|pero]]"
             },
             {
               "id": "o2",
@@ -1116,43 +1122,43 @@
         {
           "interaction_id": "U34_FILLER_37",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'because' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[because|porque]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Because"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Because|porque]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U34_FILLER_38",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'so' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[so|así que]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "So"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[So|así que]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1183,18 +1189,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Then"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Then"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1204,28 +1210,28 @@
           "options": [
             {
               "id": "o1",
-              "text": "Finally"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Finally"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U34_FILLER_42",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'and' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[and|y]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "And"
+              "text": "[[And|y]]"
             },
             {
               "id": "o2",
@@ -1242,53 +1248,53 @@
         {
           "interaction_id": "U34_FILLER_43",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'but' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[but|pero]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "But"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[But|pero]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U34_FILLER_44",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'because' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[because|porque]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Because"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Because|porque]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U34_FILLER_45",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'so' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[so|así que]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "So"
+              "text": "[[So|así que]]"
             },
             {
               "id": "o2",
@@ -1309,18 +1315,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Or"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Or"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         }
       ]

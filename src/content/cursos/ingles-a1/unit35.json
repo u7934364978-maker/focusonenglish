@@ -24,30 +24,30 @@
           "pairs": [
             {
               "id": "p1",
-              "left": "Watch TV",
-              "right": "Ver la televisión"
+              "left": "[[Watch TV|ver la televisión]]",
+              "right": "Salir"
             },
             {
               "id": "p2",
-              "left": "Meet friends",
-              "right": "Quedar con amigos"
+              "left": "[[Meet friends|quedar con amigos]]",
+              "right": "Ver la televisión"
             },
             {
               "id": "p3",
-              "left": "Surf the internet",
-              "right": "Navegar por internet"
+              "left": "[[Surf the internet|navegar por internet]]",
+              "right": "Quedar con amigos"
             },
             {
               "id": "p4",
-              "left": "Go out",
-              "right": "Salir"
+              "left": "[[Go out|salir]]",
+              "right": "Navegar por internet"
             }
           ],
           "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
+            "p1": "p2",
+            "p2": "p3",
+            "p3": "p4",
+            "p4": "p1"
           },
           "mastery_tag": "vocabulary",
           "complexity": 1,
@@ -63,7 +63,7 @@
           "options": [
             {
               "id": "o1",
-              "text": "Listen to music"
+              "text": "[[Listen to music|escuchar música]]"
             },
             {
               "id": "o2",
@@ -112,7 +112,7 @@
           "interaction_id": "A1_U35_B35_1_I5",
           "type": "flashcard",
           "prompt_es": "Aprende la expresión:",
-          "stimulus_en": "Go to the cinema",
+          "stimulus_en": "[[Go to the cinema|ir al cine]]",
           "correct_answer": "Ir al cine",
           "mastery_tag": "vocabulary",
           "complexity": 4,
@@ -164,18 +164,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Surfing the internet"
+              "text": "Playing football"
             },
             {
               "id": "o2",
-              "text": "Playing football"
+              "text": "Surfing the internet"
             },
             {
               "id": "o3",
               "text": "Going out with friends"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary",
           "complexity": 1,
           "concept_tags": [
@@ -187,7 +187,7 @@
           "interaction_id": "A1_U35_B35_2_I3",
           "type": "fill_blanks",
           "prompt_es": "Completa la categoría:",
-          "stimulus_en": "Meeting friends is a ________ activity.",
+          "stimulus_en": "Meeting friends is a ________ [[activity|actividad]].",
           "correct_answer": "social",
           "mastery_tag": "vocabulary",
           "complexity": 3,
@@ -199,7 +199,7 @@
         {
           "interaction_id": "A1_U35_B35_2_I5",
           "type": "true_false",
-          "prompt_es": "¿'Go out' significa quedarse en casa?",
+          "prompt_es": "¿'[[Go out|salir]]' significa quedarse en casa?",
           "correct_answer": false,
           "mastery_tag": "vocabulary",
           "complexity": 1,
@@ -286,31 +286,37 @@
       "title": "Block 4: Weekend Plans",
       "content": [
         {
+          "interaction_id": "A1_U35_B35_4_READ",
+          "type": "reading_phase",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[following|siguiente]] [[text|texto]] [[carefully|con atención]]:",
+          "transcript": "Anna and her brother, Tom, like to relax on Sunday afternoons. They sit on the sofa and watch TV together. They enjoy watching cartoons and funny shows. Their favorite show is on at 4 o'clock. After TV, they sometimes eat popcorn. Sunday is their favorite day to spend time together."
+        },
+        {
           "interaction_id": "A1_U35_B35_4_I5",
           "type": "multiple_choice",
           "prompt_es": "¿Qué hacen el domingo por la tarde según el texto?",
           "options": [
             {
               "id": "o1",
-              "text": "They watch TV"
-            },
-            {
-              "id": "o2",
               "text": "They go to the cinema"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "They meet friends"
+            },
+            {
+              "id": "o3",
+              "text": "They watch TV"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "reading",
           "complexity": 1,
           "concept_tags": [
             "grammar",
             "reading"
           ],
-          "stimulus_en": "Anna and her brother, Tom, like to relax on Sunday afternoons. They sit on the sofa and watch TV together. They enjoy watching cartoons and funny shows. Their favorite show is on at 4 o'clock. After TV, they sometimes eat popcorn. Sunday is their favorite day to spend time together."
+          "stimulus_en": "Anna and her brother, Tom, like to relax on Sunday afternoons. They sit on the sofa and [[watch TV|ver la televisión]] together. They enjoy watching cartoons and funny shows. Their favorite show is on at 4 o'clock. After TV, they sometimes eat popcorn. Sunday is their favorite day to spend time together."
         }
       ]
     },
@@ -345,18 +351,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Reading"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Reading"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -366,18 +372,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Books"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Books"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -408,18 +414,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Friends"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Friends"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -429,28 +435,28 @@
           "options": [
             {
               "id": "o1",
-              "text": "Cinema"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Cinema"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U35_FILLER_6",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'music' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[music|música]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Music"
+              "text": "[[Music|música]]"
             },
             {
               "id": "o2",
@@ -471,18 +477,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Watching TV"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Watching TV"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -492,18 +498,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Reading"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Reading"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -534,18 +540,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Games"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Games"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -555,18 +561,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Friends"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Friends"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -593,22 +599,22 @@
         {
           "interaction_id": "U35_FILLER_13",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'music' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[music|música]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Music"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Music|música]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -618,18 +624,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Watching TV"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Watching TV"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -660,18 +666,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Books"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Books"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -681,18 +687,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Games"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Games"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -723,39 +729,39 @@
           "options": [
             {
               "id": "o1",
-              "text": "Cinema"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Cinema"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U35_FILLER_20",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'music' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[music|música]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Music"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Music|música]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -786,18 +792,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Reading"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Reading"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -807,18 +813,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Books"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Books"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -849,18 +855,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Friends"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Friends"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -870,28 +876,28 @@
           "options": [
             {
               "id": "o1",
-              "text": "Cinema"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Cinema"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U35_FILLER_27",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'music' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[music|música]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Music"
+              "text": "[[Music|música]]"
             },
             {
               "id": "o2",
@@ -912,18 +918,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Watching TV"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Watching TV"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -933,18 +939,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Reading"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Reading"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -975,18 +981,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Games"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Games"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -996,18 +1002,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Friends"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Friends"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1034,22 +1040,22 @@
         {
           "interaction_id": "U35_FILLER_34",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'music' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[music|música]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Music"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "[[Music|música]]"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1059,18 +1065,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Watching TV"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Watching TV"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1101,18 +1107,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Books"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Books"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1122,18 +1128,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Games"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Games"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1164,39 +1170,39 @@
           "options": [
             {
               "id": "o1",
-              "text": "Cinema"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Cinema"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U35_FILLER_41",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'music' en inglés?",
+          "prompt_es": "¿Cómo se dice '[[music|música]]' en inglés?",
           "options": [
             {
               "id": "o1",
-              "text": "Music"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "[[Music|música]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1227,18 +1233,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Reading"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Reading"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1248,18 +1254,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Books"
-            },
-            {
-              "id": "o2",
               "text": "Wrong word"
             },
             {
-              "id": "o3",
+              "id": "o2",
               "text": "Other word"
+            },
+            {
+              "id": "o3",
+              "text": "Books"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o3",
           "mastery_tag": "vocabulary"
         },
         {
@@ -1290,18 +1296,18 @@
           "options": [
             {
               "id": "o1",
-              "text": "Friends"
+              "text": "Wrong word"
             },
             {
               "id": "o2",
-              "text": "Wrong word"
+              "text": "Friends"
             },
             {
               "id": "o3",
               "text": "Other word"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         }
       ]
