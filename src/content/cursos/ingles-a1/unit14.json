@@ -1,454 +1,463 @@
 {
   "course": {
-    "language_ui": "es-ES",
-    "target_language": "en",
-    "level": "A1",
     "unit_id": "U14",
     "unit_title": "Present Simple: I, You, We, They",
-    "total_duration_minutes": 120
+    "level": "A1",
+    "total_duration_minutes": 60,
+    "language_ui": "es-ES",
+    "target_language": "en"
   },
+  "learning_outcomes": [
+    "Use the Present Simple affirmative with I, You, We, They",
+    "Form negative sentences with don't",
+    "Ask Yes/No questions with Do",
+    "Use common action verbs in context"
+  ],
   "blocks": [
     {
-      "block_id": "B14",
-      "title": "Present Simple: I, You, We, They",
+      "block_id": "B1",
+      "title": "Action Verbs Vocabulary",
       "content": [
         {
           "interaction_id": "U14_I1",
           "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
+          "prompt_es": "Une el verbo con su traducción:",
           "pairs": [
-            {
-              "id": "p0",
-              "left": "Understand",
-              "right": "Entender"
-            },
-            {
-              "id": "p1",
-              "left": "Speak",
-              "right": "Hablar"
-            },
-            {
-              "id": "p2",
-              "left": "Write",
-              "right": "Escribir"
-            },
-            {
-              "id": "p3",
-              "left": "Read",
-              "right": "Leer"
-            }
+            { "id": "p1", "left": "[[Speak|Hablar]]", "right": "Entender" },
+            { "id": "p2", "left": "[[Understand|Entender]]", "right": "Escribir" },
+            { "id": "p3", "left": "[[Write|Escribir]]", "right": "Leer" },
+            { "id": "p4", "left": "[[Read|Leer]]", "right": "Hablar" }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
+          "correct_answer": { "p1": "p4", "p2": "p1", "p3": "p2", "p4": "p3" },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U14_I2",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta:",
-          "stimulus_en": "I (aprender) ________ English every day.",
-          "correct_answer": "learn",
-          "mastery_tag": "grammar"
+          "type": "matching",
+          "prompt_es": "Une más verbos comunes:",
+          "pairs": [
+            { "id": "p1", "left": "[[Work|Trabajar]]", "right": "Vivir" },
+            { "id": "p2", "left": "[[Live|Vivir]]", "right": "Beber" },
+            { "id": "p3", "left": "[[Eat|Comer]]", "right": "Trabajar" },
+            { "id": "p4", "left": "[[Drink|Beber]]", "right": "Comer" }
+          ],
+          "correct_answer": { "p1": "p3", "p2": "p1", "p3": "p4", "p4": "p2" },
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U14_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"You write very well.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se dice 'aprender' en inglés?",
+          "options": [
+            { "id": "o1", "text": "[[Read|Leer]]" },
+            { "id": "o2", "text": "[[Speak|Hablar]]" },
+            { "id": "o3", "text": "[[Learn|Aprender]]" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U14_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'Ellos estudian en la universidad'",
-          "options": [
-            {
-              "id": "w0",
-              "text": "They"
-            },
-            {
-              "id": "w1",
-              "text": "study"
-            },
-            {
-              "id": "w2",
-              "text": "at"
-            },
-            {
-              "id": "w3",
-              "text": "the"
-            },
-            {
-              "id": "w4",
-              "text": "university"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
+          "type": "fill_blanks",
+          "prompt_es": "Completa con el verbo correcto: 'Estudio inglés todos los días.'",
+          "stimulus_en": "I ________ English every day.",
+          "correct_answer": "study",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U14_I5",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Escuchar'",
-          "stimulus_es": "Escuchar",
-          "correct_answer": "Listen",
+          "type": "matching",
+          "prompt_es": "Une verbos de ayuda y visita:",
+          "pairs": [
+            { "id": "p1", "left": "[[Help|Ayudar]]", "right": "Mirar/Ver" },
+            { "id": "p2", "left": "[[Visit|Visitar]]", "right": "Estudiar" },
+            { "id": "p3", "left": "[[Watch|Mirar/Ver]]", "right": "Necesitar" },
+            { "id": "p4", "left": "[[Need|Necesitar]]", "right": "Visitar" }
+          ],
+          "correct_answer": { "p1": "p1", "p2": "p4", "p3": "p1", "p4": "p3" },
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U14_I6",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Aprender' en inglés?",
+          "prompt_es": "¿Cómo se dice 'vivir' en inglés?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Learn"
-            },
-            {
-              "id": "o2",
-              "text": "Read"
-            },
-            {
-              "id": "o3",
-              "text": "Speak"
-            }
+            { "id": "o1", "text": "[[Like|Gustar]]" },
+            { "id": "o2", "text": "[[Live|Vivir]]" },
+            { "id": "o3", "text": "[[Leave|Salir/Dejar]]" }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U14_I7",
-          "type": "matching",
-          "prompt_es": "Acciones comunes:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Work",
-              "right": "Trabajar"
-            },
-            {
-              "id": "p1",
-              "left": "Live",
-              "right": "Vivir"
-            },
-            {
-              "id": "p2",
-              "left": "Eat",
-              "right": "Comer"
-            },
-            {
-              "id": "p3",
-              "left": "Drink",
-              "right": "Beber"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
+          "type": "short_writing",
+          "prompt_es": "¿Cómo se dice 'hablar'?",
+          "correct_answer": "Speak",
           "mastery_tag": "vocabulary"
         },
         {
           "interaction_id": "U14_I8",
-          "type": "transformation",
-          "prompt_es": "Completa: 'We ________ (practicar) basketball.'",
-          "stimulus_en": "We ________ basketball.",
-          "correct_answer": "practice",
+          "type": "true_false",
+          "prompt_es": "El verbo '[[Listen|Escuchar]]' se usa con 'to': '[[I listen to music|Escucho música]]'.",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Present Simple Affirmative",
+      "content": [
+        {
+          "interaction_id": "U14_I9",
+          "type": "multiple_choice",
+          "prompt_es": "En el Presente Simple con I/You/We/They, ¿cómo se usa el verbo?",
+          "options": [
+            { "id": "o1", "text": "[[Con -s final: I works|Con -s final: Yo trabajas]]" },
+            { "id": "o2", "text": "[[Forma base sin cambio: I work|Forma base: Yo trabajo]]" },
+            { "id": "o3", "text": "[[Con -ing: I working|Con -ing: Yo trabajando]]" }
+          ],
+          "correct_answer": "o2",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U14_I9",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"We drinks water.\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
           "interaction_id": "U14_I10",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'Uso mi ordenador'",
-          "options": [
-            {
-              "id": "w1",
-              "text": "use"
-            },
-            {
-              "id": "w2",
-              "text": "my"
-            },
-            {
-              "id": "w3",
-              "text": "computer"
-            },
-            {
-              "id": "w0",
-              "text": "I"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta frase?: '[[You write very well|Escribes muy bien]]'.",
+          "correct_answer": true,
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U14_I11",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Necesitar'",
-          "stimulus_es": "Necesitar",
-          "correct_answer": "Need",
-          "mastery_tag": "vocabulary"
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Ellos practican baloncesto.'",
+          "stimulus_en": "They ________ basketball.",
+          "correct_answer": "practice",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U14_I12",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Vivir' en inglés?",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Ellos estudian en la universidad.'",
           "options": [
-            {
-              "id": "o1",
-              "text": "Live"
-            },
-            {
-              "id": "o2",
-              "text": "Like"
-            },
-            {
-              "id": "o3",
-              "text": "Look"
-            }
+            { "id": "w1", "text": "They" },
+            { "id": "w2", "text": "study" },
+            { "id": "w3", "text": "at" },
+            { "id": "w4", "text": "the" },
+            { "id": "w5", "text": "university." }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
+          "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U14_I13",
-          "type": "matching",
-          "prompt_es": "Más verbos:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "Help",
-              "right": "Ayudar"
-            },
-            {
-              "id": "p1",
-              "left": "Visit",
-              "right": "Visitar"
-            },
-            {
-              "id": "p2",
-              "left": "Watch",
-              "right": "Mirar"
-            },
-            {
-              "id": "p3",
-              "left": "Study",
-              "right": "Estudiar"
-            }
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la frase correcta?",
+          "options": [
+            { "id": "o1", "text": "[[We drinks water|Bebemos agua (incorrecto)]]" },
+            { "id": "o2", "text": "[[We drink water|Bebemos agua]]" },
+            { "id": "o3", "text": "[[We drinking water|Bebemos agua (incorrecto)]]" }
           ],
-          "correct_answer": {
-            "p0": "p0",
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U14_I14",
-          "type": "transformation",
-          "prompt_es": "Completa: 'They ________ (visitar) their grandparents.'",
-          "stimulus_en": "They ________ their grandparents.",
-          "correct_answer": "visit",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Nosotros comemos a la una.'",
+          "stimulus_en": "We ________ at one o'clock.",
+          "correct_answer": "eat",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U14_I15",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"You play the guitar well.\"",
-          "correct_answer": true,
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'Ellos viven en Madrid.'",
+          "correct_answer": "They live in Madrid",
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U14_I16",
           "type": "reorder_words",
-          "prompt_es": "Ordena: 'Comemos a la una'",
+          "prompt_es": "Ordena: 'Uso mi ordenador.'",
           "options": [
-            {
-              "id": "w1",
-              "text": "eat"
-            },
-            {
-              "id": "w2",
-              "text": "at"
-            },
-            {
-              "id": "w3",
-              "text": "one"
-            },
-            {
-              "id": "w4",
-              "text": "o'clock"
-            },
-            {
-              "id": "w0",
-              "text": "We"
-            }
+            { "id": "w1", "text": "I" },
+            { "id": "w2", "text": "use" },
+            { "id": "w3", "text": "my" },
+            { "id": "w4", "text": "computer." }
           ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
+          "correct_answer": ["w1", "w2", "w3", "w4"],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U14_I17",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Hablar'",
-          "stimulus_es": "Hablar",
-          "correct_answer": "Speak",
-          "mastery_tag": "vocabulary"
-        },
+          "type": "true_false",
+          "prompt_es": "En el Presente Simple con I/You/We/They, el verbo NO cambia su forma.",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Negatives with Don't",
+      "content": [
         {
           "interaction_id": "U14_I18",
           "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Comer' en inglés?",
+          "prompt_es": "¿Cómo se forma la negativa con I/You/We/They?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Eat"
-            },
-            {
-              "id": "o2",
-              "text": "Drink"
-            },
-            {
-              "id": "o3",
-              "text": "Sleep"
-            }
+            { "id": "o1", "text": "[[Subject + doesn't + verb|Sujeto + doesn't + verbo]]" },
+            { "id": "o2", "text": "[[Subject + not + verb|Sujeto + not + verbo]]" },
+            { "id": "o3", "text": "[[Subject + don't + verb|Sujeto + don't + verbo]]" }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o3",
+          "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U14_I19",
-          "type": "transformation",
-          "prompt_es": "Completa: 'I ________ (beber) coffee.'",
-          "stimulus_en": "I ________ coffee.",
-          "correct_answer": "drink",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Yo no bebo café.'",
+          "stimulus_en": "I ________ drink coffee.",
+          "correct_answer": "don't",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U14_I20",
           "type": "true_false",
-          "prompt_es": "En el presente simple con 'I, You, We, They', el verbo no cambia.",
+          "prompt_es": "¿Es correcta esta frase?: '[[They don't speak French|Ellos no hablan francés]]'.",
           "correct_answer": true,
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U14_I21",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Ellos viven en Madrid'",
-          "stimulus_es": "Ellos viven en Madrid",
-          "correct_answer": "They live in Madrid",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Nosotros no trabajamos los domingos.'",
+          "options": [
+            { "id": "w1", "text": "We" },
+            { "id": "w2", "text": "don't" },
+            { "id": "w3", "text": "work" },
+            { "id": "w4", "text": "on" },
+            { "id": "w5", "text": "Sundays." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5"],
           "mastery_tag": "syntax"
         },
         {
           "interaction_id": "U14_I22",
-          "type": "matching",
-          "prompt_es": "Sujetos y verbos:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "I",
-              "right": "Yo"
-            },
-            {
-              "id": "p2",
-              "left": "You",
-              "right": "Tú/Vosotros"
-            },
-            {
-              "id": "p3",
-              "left": "We",
-              "right": "Nosotros"
-            },
-            {
-              "id": "p4",
-              "left": "They",
-              "right": "Ellos"
-            }
+          "type": "multiple_choice",
+          "prompt_es": "Elige la negativa correcta: 'Tú no entiendes inglés.'",
+          "options": [
+            { "id": "o1", "text": "[[You not understand English|Incorrecto]]" },
+            { "id": "o2", "text": "[[You doesn't understand English|Incorrecto]]" },
+            { "id": "o3", "text": "[[You don't understand English|Correcto]]" }
           ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
+          "correct_answer": "o3",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U14_I23",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la forma negativa correcta?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I don't know"
-            },
-            {
-              "id": "o2",
-              "text": "I no know"
-            },
-            {
-              "id": "o3",
-              "text": "I not know"
-            }
-          ],
-          "correct_answer": "o1",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Ellos no viven en Londres.'",
+          "stimulus_en": "They ________ live in London.",
+          "correct_answer": "don't",
           "mastery_tag": "grammar"
         },
         {
           "interaction_id": "U14_I24",
-          "type": "transformation",
-          "prompt_es": "Completa: 'We ________ (estudiar) English.'",
-          "stimulus_en": "We ________ English.",
-          "correct_answer": "study",
+          "type": "short_writing",
+          "prompt_es": "Traduce: 'No hablo alemán.'",
+          "correct_answer": "I don't speak German",
+          "mastery_tag": "syntax"
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Yes/No Questions with Do",
+      "content": [
+        {
+          "interaction_id": "U14_I25",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se forma una pregunta en Presente Simple (I/You/We/They)?",
+          "options": [
+            { "id": "o1", "text": "[[Subject + verb?|Sujeto + verbo?]]" },
+            { "id": "o2", "text": "[[Do + subject + verb?|Do + sujeto + verbo?]]" },
+            { "id": "o3", "text": "[[Does + subject + verb?|Does + sujeto + verbo?]]" }
+          ],
+          "correct_answer": "o2",
           "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U14_I25",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
-          "audio_url": "/audio/a1/unit14/live.mp3",
-          "transcript_template": "Where do you ___?",
-          "correct_answer": "live",
-          "mastery_tag": "listening"
+          "interaction_id": "U14_I26",
+          "type": "fill_blanks",
+          "prompt_es": "Completa la pregunta: '¿Hablas inglés?'",
+          "stimulus_en": "________ you speak English?",
+          "correct_answer": "Do",
+          "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "U14_I26",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa:",
-          "audio_url": "/audio/a1/unit14/city.mp3",
-          "transcript_template": "I live in a ___.",
-          "correct_answer": "city",
-          "mastery_tag": "listening"
+          "interaction_id": "U14_I27",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: '¿Trabajan ellos aquí?'",
+          "options": [
+            { "id": "w1", "text": "Do" },
+            { "id": "w2", "text": "they" },
+            { "id": "w3", "text": "work" },
+            { "id": "w4", "text": "here?" }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U14_I28",
+          "type": "true_false",
+          "prompt_es": "¿Es correcta esta pregunta?: '[[Do you like music?|¿Te gusta la música?]]'.",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U14_I29",
+          "type": "matching",
+          "prompt_es": "Une la pregunta con la respuesta correcta:",
+          "pairs": [
+            { "id": "p1", "left": "[[Do you speak English?|¿Hablas inglés?]]", "right": "No, they don't." },
+            { "id": "p2", "left": "[[Do they live here?|¿Viven ellos aquí?]]", "right": "Yes, I do." },
+            { "id": "p3", "left": "[[Do we have class today?|¿Tenemos clase hoy?]]", "right": "Yes, we do." },
+            { "id": "p4", "left": "[[Do you like coffee?|¿Te gusta el café?]]", "right": "No, I don't." }
+          ],
+          "correct_answer": { "p1": "p2", "p2": "p1", "p3": "p3", "p4": "p4" },
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U14_I30",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la respuesta corta correcta a '[[Do you study English?|¿Estudias inglés?]]'?",
+          "options": [
+            { "id": "o1", "text": "[[Yes, I study|Sí, estudio (incorrecto)]]" },
+            { "id": "o2", "text": "[[Yes, I do|Sí (correcto)]]" },
+            { "id": "o3", "text": "[[Yes, I does|Sí (incorrecto)]]" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U14_I31",
+          "type": "short_writing",
+          "prompt_es": "Escribe la pregunta: '¿Vivís en España?'",
+          "correct_answer": "Do you live in Spain?",
+          "mastery_tag": "syntax"
+        }
+      ]
+    },
+    {
+      "block_id": "B5",
+      "title": "Reading: Language Students",
+      "content": [
+        {
+          "interaction_id": "U14_READ1",
+          "type": "reading_phase",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[carefully|con atención]].",
+          "transcript": "[[Maria|María]] and [[Tom|Tom]] are [[language students|estudiantes de idiomas]]. They [[study|estudian]] English at a [[school|escuela]] in [[London|Londres]]. Maria [[speaks|habla]] Spanish and Portuguese. Tom [[speaks|habla]] French and [[German|alemán]]. They both [[work|trabajan]] part-time in a [[café|cafetería]]. They [[don't|no]] live in London — they [[travel|viajan]] by [[train|tren]] every day. They [[love|adoran]] learning English together.",
+          "mastery_tag": "reading",
+          "complexity": 1
+        },
+        {
+          "interaction_id": "U14_I32",
+          "type": "multiple_choice",
+          "prompt_es": "¿Dónde estudian Maria y Tom?",
+          "options": [
+            { "id": "o1", "text": "[[In Madrid|En Madrid]]" },
+            { "id": "o2", "text": "[[In London|En Londres]]" },
+            { "id": "o3", "text": "[[In Paris|En París]]" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U14_I33",
+          "type": "true_false",
+          "prompt_es": "Según el texto, Tom habla francés.",
+          "correct_answer": true,
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U14_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué hacen Maria y Tom a tiempo parcial?",
+          "options": [
+            { "id": "o1", "text": "[[They study|Estudian]]" },
+            { "id": "o2", "text": "[[They work in a café|Trabajan en una cafetería]]" },
+            { "id": "o3", "text": "[[They travel|Viajan]]" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U14_I35",
+          "type": "fill_blanks",
+          "prompt_es": "Según el texto, ellos viajan en '________' cada día.",
+          "stimulus_en": "They travel by ________ every day.",
+          "correct_answer": "train",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U14_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué idiomas habla Maria según el texto?",
+          "options": [
+            { "id": "o1", "text": "[[Spanish and French|Español y francés]]" },
+            { "id": "o2", "text": "[[Portuguese and German|Portugués y alemán]]" },
+            { "id": "o3", "text": "[[Spanish and Portuguese|Español y portugués]]" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U14_I37",
+          "type": "short_writing",
+          "prompt_es": "Traduce: '¿Hablas francés?'",
+          "correct_answer": "Do you speak French?",
+          "mastery_tag": "phrases"
+        },
+        {
+          "interaction_id": "U14_I38",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Ellos estudian inglés juntos.'",
+          "options": [
+            { "id": "w1", "text": "They" },
+            { "id": "w2", "text": "study" },
+            { "id": "w3", "text": "English" },
+            { "id": "w4", "text": "together." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U14_I39",
+          "type": "matching",
+          "prompt_es": "Une el pronombre con la forma verbal correcta:",
+          "pairs": [
+            { "id": "p1", "left": "[[I|Yo]]", "right": "works" },
+            { "id": "p2", "left": "[[You|Tú]]", "right": "eat" },
+            { "id": "p3", "left": "[[We|Nosotros]]", "right": "work" },
+            { "id": "p4", "left": "[[They|Ellos]]", "right": "live" }
+          ],
+          "correct_answer": { "p1": "p3", "p2": "p2", "p3": "p4", "p4": "p2" },
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U14_I40",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la forma negativa de '[[We eat meat|Comemos carne]]'?",
+          "options": [
+            { "id": "o1", "text": "[[We not eat meat|Incorrecto]]" },
+            { "id": "o2", "text": "[[We doesn't eat meat|Incorrecto]]" },
+            { "id": "o3", "text": "[[We don't eat meat|Correcto]]" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "grammar"
         }
       ]
     }

@@ -120,7 +120,8 @@ Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
   - Ensure 60 interactions maximum, remove duplicated exercises
 - Verify: `node scripts/audit-a1-full.mjs --units=8-10` → zero critical errors
 
-### [ ] Step: Fix Module 2 — Units 11–20 (FIX-1, FIX-3, FIX-4, FIX-6 + review)
+### [x] Step: Fix Module 2 — Units 11–20 (FIX-1, FIX-3, FIX-4, FIX-6 + review)
+<!-- chat-id: 41678ce6-0365-47cc-a6b4-40cdbeaa3fb3 -->
 - Apply to Units 11–19 in a single pass:
   - FIX-1: Add `[[English|Spanish]]` to all English tokens in `prompt_es`, `options`, `pairs.left`, `transcript`
   - FIX-3: Shuffle `pairs` right-values in every `matching` exercise; update `correct_answer` map accordingly

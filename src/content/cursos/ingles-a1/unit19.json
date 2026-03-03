@@ -1,472 +1,464 @@
 {
   "course": {
-    "unit_id": "unit19",
+    "unit_id": "U19",
     "unit_title": "Months & Dates",
     "level": "A1",
-    "total_duration_minutes": 120,
+    "total_duration_minutes": 60,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Identify and spell the twelve months of the year",
-    "Use 'in' for months and 'on' for specific dates",
-    "Understand basic ordinal numbers for dates (1st, 2nd, 3rd...)",
-    "Ask and answer questions about birthdays and holidays"
+    "Name the 12 months of the year in English",
+    "Use ordinal numbers (1st, 2nd, 3rd...) for dates",
+    "Use the prepositions in and on for months and dates",
+    "Identify and name the four seasons"
   ],
   "blocks": [
     {
       "block_id": "B1",
-      "title": "Vocabulary: The Twelve Months",
+      "title": "The 12 Months",
       "content": [
         {
-          "interaction_id": "A1_U19_B1_I1",
+          "interaction_id": "U19_I1",
           "type": "matching",
-          "prompt_es": "Une los meses con su traducción:",
+          "prompt_es": "Une el mes con su traducción:",
           "pairs": [
-            {
-              "id": "p1",
-              "left": "January",
-              "right": "Enero"
-            },
-            {
-              "id": "p2",
-              "left": "June",
-              "right": "Junio"
-            },
-            {
-              "id": "p3",
-              "left": "August",
-              "right": "Agosto"
-            },
-            {
-              "id": "p4",
-              "left": "December",
-              "right": "Diciembre"
-            }
+            { "id": "p1", "left": "[[January|Enero]]", "right": "Marzo" },
+            { "id": "p2", "left": "[[February|Febrero]]", "right": "Enero" },
+            { "id": "p3", "left": "[[March|Marzo]]", "right": "Abril" },
+            { "id": "p4", "left": "[[April|Abril]]", "right": "Febrero" }
           ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "correct_answer": { "p1": "p2", "p2": "p4", "p3": "p1", "p4": "p3" },
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "A1_U19_B1_I2",
+          "interaction_id": "U19_I2",
+          "type": "matching",
+          "prompt_es": "Une el mes con su traducción:",
+          "pairs": [
+            { "id": "p1", "left": "[[May|Mayo]]", "right": "Julio" },
+            { "id": "p2", "left": "[[June|Junio]]", "right": "Mayo" },
+            { "id": "p3", "left": "[[July|Julio]]", "right": "Agosto" },
+            { "id": "p4", "left": "[[August|Agosto]]", "right": "Junio" }
+          ],
+          "correct_answer": { "p1": "p2", "p2": "p4", "p3": "p1", "p4": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I3",
+          "type": "matching",
+          "prompt_es": "Une el mes con su traducción:",
+          "pairs": [
+            { "id": "p1", "left": "[[September|Septiembre]]", "right": "Noviembre" },
+            { "id": "p2", "left": "[[October|Octubre]]", "right": "Septiembre" },
+            { "id": "p3", "left": "[[November|Noviembre]]", "right": "Diciembre" },
+            { "id": "p4", "left": "[[December|Diciembre]]", "right": "Octubre" }
+          ],
+          "correct_answer": { "p1": "p2", "p2": "p4", "p3": "p1", "p4": "p3" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I4",
           "type": "multiple_choice",
           "prompt_es": "¿Cuál es el tercer mes del año?",
           "options": [
-            {
-              "id": "o1",
-              "text": "February"
-            },
-            {
-              "id": "o2",
-              "text": "March"
-            },
-            {
-              "id": "o3",
-              "text": "April"
-            }
+            { "id": "o1", "text": "[[February|Febrero]]" },
+            { "id": "o2", "text": "[[April|Abril]]" },
+            { "id": "o3", "text": "[[March|Marzo]]" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I5",
+          "type": "fill_blanks",
+          "prompt_es": "¿Cuál es el mes después de October?",
+          "stimulus_en": "After October comes ________.",
+          "correct_answer": "November",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I6",
+          "type": "true_false",
+          "prompt_es": "'[[June|Junio]]' es el sexto mes del año.",
+          "correct_answer": true,
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I7",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuántos meses tiene el año?",
+          "options": [
+            { "id": "o1", "text": "[[Ten|Diez]]" },
+            { "id": "o2", "text": "[[Twelve|Doce]]" },
+            { "id": "o3", "text": "[[Eight|Ocho]]" }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U19_B1_I3",
-          "type": "flashcard",
-          "prompt_es": "Recuerda: Los meses siempre empiezan con MAYÚSCULA en inglés.",
-          "stimulus_en": "September",
-          "correct_answer": "Septiembre",
-          "mastery_tag": "vocabulary",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U19_B1_I4",
-          "type": "fill_blanks",
-          "prompt_es": "Escribe el mes que falta: January, February, ________, April.",
-          "stimulus_en": "March",
-          "correct_answer": "March",
-          "mastery_tag": "vocabulary",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U19_B1_I5",
-          "type": "matching",
-          "prompt_es": "Meses de verano e invierno (Hemisferio Norte):",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "July",
-              "right": "Summer"
-            },
-            {
-              "id": "p2",
-              "left": "January",
-              "right": "Winter"
-            },
-            {
-              "id": "p3",
-              "left": "October",
-              "right": "Autumn/Fall"
-            },
-            {
-              "id": "p4",
-              "left": "April",
-              "right": "Spring"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "mastery_tag": "vocabulary"
         }
       ]
     },
     {
       "block_id": "B2",
-      "title": "Grammar: Prepositions In & On",
+      "title": "Ordinal Numbers for Dates",
       "content": [
         {
-          "interaction_id": "A1_U19_B2_I1",
-          "type": "multiple_choice",
-          "prompt_es": "Usamos 'IN' con meses. 'En mayo' se dice:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "On May"
-            },
-            {
-              "id": "o2",
-              "text": "At May"
-            },
-            {
-              "id": "o3",
-              "text": "In May"
-            }
+          "interaction_id": "U19_I8",
+          "type": "matching",
+          "prompt_es": "Une el número ordinal con su escritura:",
+          "pairs": [
+            { "id": "p1", "left": "[[1st|Primero]]", "right": "Third" },
+            { "id": "p2", "left": "[[2nd|Segundo]]", "right": "First" },
+            { "id": "p3", "left": "[[3rd|Tercero]]", "right": "Fourth" },
+            { "id": "p4", "left": "[[4th|Cuarto]]", "right": "Second" }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
+          "correct_answer": { "p1": "p2", "p2": "p4", "p3": "p1", "p4": "p3" },
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "A1_U19_B2_I2",
+          "interaction_id": "U19_I9",
           "type": "multiple_choice",
-          "prompt_es": "Usamos 'ON' con fechas específicas. 'El 1 de enero' se dice:",
+          "prompt_es": "¿Cómo se escribe el número ordinal '5'?",
           "options": [
-            {
-              "id": "o1",
-              "text": "In January 1st"
-            },
-            {
-              "id": "o2",
-              "text": "On January 1st"
-            },
-            {
-              "id": "o3",
-              "text": "At January 1st"
-            }
+            { "id": "o1", "text": "[[Fiveth|Incorrecto]]" },
+            { "id": "o2", "text": "[[Fifth|Quinto — correcto]]" },
+            { "id": "o3", "text": "[[Fiftieth|Incorrecto (50º)]]" }
           ],
           "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "A1_U19_B2_I3",
+          "interaction_id": "U19_I10",
           "type": "fill_blanks",
-          "prompt_es": "Completa con 'in' o 'on':",
-          "stimulus_en": "My birthday is ________ October.",
-          "correct_answer": "in",
-          "mastery_tag": "grammar",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
+          "prompt_es": "Completa: 'Navidad es el ________ de diciembre.'",
+          "stimulus_en": "Christmas is on the ________ of December.",
+          "correct_answer": "25th",
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "A1_U19_B2_I4",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con 'in' o 'on':",
-          "stimulus_en": "The party is ________ June 15th.",
-          "correct_answer": "on",
-          "mastery_tag": "grammar",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U19_B2_I5",
+          "interaction_id": "U19_I11",
           "type": "true_false",
-          "prompt_es": "¿Es correcto decir: 'I go to London in August'?",
+          "prompt_es": "El ordinal de '21' es '[[21st|Veintiuno]]'.",
           "correct_answer": true,
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I12",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se pronuncia la fecha '3rd March'?",
+          "options": [
+            { "id": "o1", "text": "[[The third of March|El tres de marzo]]" },
+            { "id": "o2", "text": "[[The three of March|Incorrecto]]" },
+            { "id": "o3", "text": "[[March three|Orden incorrecto]]" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I13",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'Mi cumpleaños es el segundo de mayo.'",
+          "stimulus_en": "My birthday is on the ________ of May.",
+          "correct_answer": "2nd",
+          "mastery_tag": "vocabulary"
         }
       ]
     },
     {
       "block_id": "B3",
-      "title": "Dates & Ordinal Numbers",
+      "title": "Prepositions: In & On for Time",
       "content": [
         {
-          "interaction_id": "A1_U19_B3_I1",
-          "type": "matching",
-          "prompt_es": "Une los números ordinales básicos:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "1st",
-              "right": "First"
-            },
-            {
-              "id": "p2",
-              "left": "2nd",
-              "right": "Second"
-            },
-            {
-              "id": "p3",
-              "left": "3rd",
-              "right": "Third"
-            },
-            {
-              "id": "p4",
-              "left": "4th",
-              "right": "Fourth"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U19_B3_I2",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la fecha: 'Hoy es 12 de mayo'",
+          "interaction_id": "U19_I14",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué preposición usamos con un mes?",
           "options": [
-            {
-              "id": "w1",
-              "text": "Today"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "May"
-            },
-            {
-              "id": "w4",
-              "text": "12th"
-            }
+            { "id": "o1", "text": "[[In — I was born in July|In — nací en julio]]" },
+            { "id": "o2", "text": "[[On — I was born on July|On — incorrecto con mes solo]]" },
+            { "id": "o3", "text": "[[At — I was born at July|At — incorrecto]]" }
           ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "A1_U19_B3_I3",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés: 'Primero de enero' (abreviado)",
-          "stimulus_en": "January 1st",
-          "correct_answer": "January 1st",
-          "mastery_tag": "syntax",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
-        },
-        {
-          "interaction_id": "A1_U19_B3_I4",
+          "interaction_id": "U19_I15",
           "type": "fill_blanks",
-          "prompt_es": "Completa la pregunta: '¿Cuándo es tu cumpleaños?'",
-          "stimulus_en": "________ is your birthday?",
-          "correct_answer": "When",
-          "mastery_tag": "grammar",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
+          "prompt_es": "Completa: 'Nací ________ el 5 de junio.'",
+          "stimulus_en": "I was born ________ the 5th of June.",
+          "correct_answer": "on",
+          "mastery_tag": "grammar"
         },
         {
-          "interaction_id": "A1_U19_B3_I5",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'Mi cumpleaños es en julio'",
+          "interaction_id": "U19_I16",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es correcto?",
           "options": [
-            {
-              "id": "w1",
-              "text": "My"
-            },
-            {
-              "id": "w2",
-              "text": "birthday"
-            },
-            {
-              "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w4",
-              "text": "in"
-            },
-            {
-              "id": "w5",
-              "text": "July"
-            }
+            { "id": "o1", "text": "[[My birthday is on 15th August|Mi cumpleaños es el 15 de agosto]]" },
+            { "id": "o2", "text": "[[My birthday is in 15th August|Incorrecto]]" },
+            { "id": "o3", "text": "[[My birthday is at 15th August|Incorrecto]]" }
           ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
+          "correct_answer": "o1",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U19_I17",
+          "type": "true_false",
+          "prompt_es": "Con las estaciones del año también usamos '[[in|en]]': '[[in summer|en verano]]'.",
+          "correct_answer": true,
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U19_I18",
+          "type": "matching",
+          "prompt_es": "Elige 'in' u 'on' para cada caso:",
+          "pairs": [
+            { "id": "p1", "left": "[[December|Diciembre]] (mes)", "right": "on" },
+            { "id": "p2", "left": "[[25th December|25 de diciembre]] (fecha)", "right": "at" },
+            { "id": "p3", "left": "[[Winter|Invierno]] (estación)", "right": "in" },
+            { "id": "p4", "left": "[[Christmas|Navidad]] (festividad)", "right": "in" }
           ],
-          "mastery_tag": "syntax",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
+          "correct_answer": { "p1": "p3", "p2": "p1", "p3": "p3", "p4": "p2" },
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U19_I19",
+          "type": "short_writing",
+          "prompt_es": "Escribe: 'Mi cumpleaños es en octubre.'",
+          "correct_answer": "My birthday is in October",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U19_I20",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'La Navidad es ________ diciembre.'",
+          "stimulus_en": "Christmas is ________ December.",
+          "correct_answer": "in",
+          "mastery_tag": "grammar"
         }
       ]
     },
     {
       "block_id": "B4",
-      "title": "Contextual Review",
+      "title": "The Four Seasons",
       "content": [
         {
-          "interaction_id": "A1_U19_B4_I2",
+          "interaction_id": "U19_I21",
+          "type": "matching",
+          "prompt_es": "Une la estación con su traducción:",
+          "pairs": [
+            { "id": "p1", "left": "[[Spring|Primavera]]", "right": "Verano" },
+            { "id": "p2", "left": "[[Summer|Verano]]", "right": "Invierno" },
+            { "id": "p3", "left": "[[Autumn|Otoño]]", "right": "Primavera" },
+            { "id": "p4", "left": "[[Winter|Invierno]]", "right": "Otoño" }
+          ],
+          "correct_answer": { "p1": "p3", "p2": "p1", "p3": "p4", "p4": "p2" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I22",
           "type": "multiple_choice",
-          "prompt_es": "¿Por qué al autor le gusta octubre?",
+          "prompt_es": "¿Qué estación sigue a Summer?",
           "options": [
-            {
-              "id": "o1",
-              "text": "Because of Christmas"
-            },
-            {
-              "id": "o2",
-              "text": "Because it is hot"
-            },
-            {
-              "id": "o3",
-              "text": "Because he loves Autumn"
-            }
+            { "id": "o1", "text": "[[Winter|Invierno]]" },
+            { "id": "o2", "text": "[[Spring|Primavera]]" },
+            { "id": "o3", "text": "[[Autumn|Otoño]]" }
           ],
           "correct_answer": "o3",
-          "mastery_tag": "reading",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ],
-          "stimulus_en": "I like October. The leaves are red and yellow. I walk in the park. It is quiet and cool. I love autumn. The air is fresh. I wear a warm sweater. I drink hot tea. October is my favorite month."
+          "mastery_tag": "vocabulary"
         },
         {
-          "interaction_id": "A1_U19_B4_I4",
+          "interaction_id": "U19_I23",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'En el Reino Unido, en ________ (invierno) hace mucho frío.'",
+          "stimulus_en": "In the UK, it is very cold in ________.",
+          "correct_answer": "winter",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I24",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué meses pertenecen a Spring en el hemisferio norte?",
+          "options": [
+            { "id": "o1", "text": "[[December, January, February|Diciembre, enero, febrero]]" },
+            { "id": "o2", "text": "[[March, April, May|Marzo, abril, mayo]]" },
+            { "id": "o3", "text": "[[June, July, August|Junio, julio, agosto]]" }
+          ],
+          "correct_answer": "o2",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I25",
+          "type": "true_false",
+          "prompt_es": "'[[Summer|Verano]]' en el Reino Unido incluye los meses de June, July y August.",
+          "correct_answer": true,
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I26",
           "type": "short_writing",
-          "prompt_es": "Responde en inglés: 'When is your birthday?' (Ejemplo: In May)",
-          "stimulus_es": "En [tu mes]",
-          "correct_answer": "^In (January|February|March|April|May|June|July|August|September|October|November|December)$",
-          "mastery_tag": "syntax",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
+          "prompt_es": "Escribe una frase sobre tu estación favorita.",
+          "correct_answer": "My favourite season is summer",
+          "mastery_tag": "vocabulary"
+        }
+      ]
+    },
+    {
+      "block_id": "B5",
+      "title": "Reading: My Favourite Time of Year",
+      "content": [
+        {
+          "interaction_id": "U19_READ1",
+          "type": "reading_phase",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[carefully|con atención]].",
+          "transcript": "My name is [[Sophie|Sophie]] and I [[love|amo]] [[December|diciembre]]. It is my [[favourite|favorito]] [[month|mes]] of the [[year|año]]. [[Christmas|Navidad]] is on the [[25th|25]] of December. My [[birthday|cumpleaños]] is on the [[12th|12]] of December, so I [[get|recibo]] two [[celebrations|celebraciones]] in one [[month|mes]]! In [[winter|invierno]], I [[love|me encanta]] to [[drink|beber]] [[hot chocolate|chocolate caliente]] and [[read|leer]] by the [[fire|chimenea]]. My least [[favourite|favorita]] [[month|mes]] is [[February|febrero]] because it is [[cold|frío]] and [[dark|oscuro]]. But I [[like|me gusta]] [[spring|primavera]] too — the [[flowers|flores]] [[start|empiezan]] to [[grow|crecer]] in [[March|marzo]] and [[April|abril]].",
+          "mastery_tag": "reading",
+          "complexity": 1
         },
         {
-          "interaction_id": "A1_U19_B4_I5",
-          "type": "categorization",
-          "prompt_es": "Clasifica por preposición correcta:",
-          "categories": [
-            {
-              "id": "c1",
-              "title": "Use 'In'",
-              "items": [
-                "January",
-                "The morning",
-                "Summer"
-              ]
-            },
-            {
-              "id": "c2",
-              "title": "Use 'On'",
-              "items": [
-                "Monday",
-                "January 1st",
-                "My birthday"
-              ]
-            }
+          "interaction_id": "U19_I27",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es el mes favorito de Sophie?",
+          "options": [
+            { "id": "o1", "text": "[[January|Enero]]" },
+            { "id": "o2", "text": "[[December|Diciembre]]" },
+            { "id": "o3", "text": "[[March|Marzo]]" }
           ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
+          "correct_answer": "o2",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U19_I28",
+          "type": "true_false",
+          "prompt_es": "El cumpleaños de Sophie es el 25 de diciembre.",
+          "correct_answer": false,
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U19_I29",
+          "type": "multiple_choice",
+          "prompt_es": "¿En qué fecha es el cumpleaños de Sophie?",
+          "options": [
+            { "id": "o1", "text": "[[The 12th of December|El 12 de diciembre]]" },
+            { "id": "o2", "text": "[[The 25th of December|El 25 de diciembre]]" },
+            { "id": "o3", "text": "[[The 1st of December|El 1 de diciembre]]" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U19_I30",
+          "type": "fill_blanks",
+          "prompt_es": "En invierno, Sophie bebe ________ caliente.",
+          "stimulus_en": "In winter, Sophie drinks hot ________.",
+          "correct_answer": "chocolate",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U19_I31",
+          "type": "multiple_choice",
+          "prompt_es": "¿Por qué no le gusta febrero a Sophie?",
+          "options": [
+            { "id": "o1", "text": "[[Because it's cold and dark|Porque es frío y oscuro]]" },
+            { "id": "o2", "text": "[[Because she is busy|Porque está ocupada]]" },
+            { "id": "o3", "text": "[[Because it has no flowers|Porque no hay flores]]" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U19_I32",
+          "type": "short_writing",
+          "prompt_es": "¿Cuándo empieza a florecer la primavera según Sophie?",
+          "correct_answer": "In March and April",
+          "mastery_tag": "reading"
+        },
+        {
+          "interaction_id": "U19_I33",
+          "type": "matching",
+          "prompt_es": "Une el mes con su estación en el Reino Unido:",
+          "pairs": [
+            { "id": "p1", "left": "[[March|Marzo]]", "right": "Summer" },
+            { "id": "p2", "left": "[[June|Junio]]", "right": "Winter" },
+            { "id": "p3", "left": "[[September|Septiembre]]", "right": "Spring" },
+            { "id": "p4", "left": "[[December|Diciembre]]", "right": "Autumn" }
+          ],
+          "correct_answer": { "p1": "p3", "p2": "p1", "p3": "p4", "p4": "p2" },
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I34",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cómo se pregunta '¿Cuándo es tu cumpleaños?'",
+          "options": [
+            { "id": "o1", "text": "[[When is your birthday?|¿Cuándo es tu cumpleaños?]]" },
+            { "id": "o2", "text": "[[Where is your birthday?|¿Dónde es tu cumpleaños?]]" },
+            { "id": "o3", "text": "[[What is your birthday?|¿Qué es tu cumpleaños?]]" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "functions"
+        },
+        {
+          "interaction_id": "U19_I35",
+          "type": "reorder_words",
+          "prompt_es": "Ordena: 'Mi cumpleaños es el 3 de mayo.'",
+          "options": [
+            { "id": "w1", "text": "My" },
+            { "id": "w2", "text": "birthday" },
+            { "id": "w3", "text": "is" },
+            { "id": "w4", "text": "on" },
+            { "id": "w5", "text": "the" },
+            { "id": "w6", "text": "3rd" },
+            { "id": "w7", "text": "of" },
+            { "id": "w8", "text": "May." }
+          ],
+          "correct_answer": ["w1", "w2", "w3", "w4", "w5", "w6", "w7", "w8"],
+          "mastery_tag": "syntax"
+        },
+        {
+          "interaction_id": "U19_I36",
+          "type": "multiple_choice",
+          "prompt_es": "¿Qué estación sigue a Winter?",
+          "options": [
+            { "id": "o1", "text": "[[Autumn|Otoño]]" },
+            { "id": "o2", "text": "[[Summer|Verano]]" },
+            { "id": "o3", "text": "[[Spring|Primavera]]" }
+          ],
+          "correct_answer": "o3",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I37",
+          "type": "fill_blanks",
+          "prompt_es": "Completa: 'La Semana Santa es ________ (en) marzo o abril.'",
+          "stimulus_en": "Easter is ________ March or April.",
+          "correct_answer": "in",
+          "mastery_tag": "grammar"
+        },
+        {
+          "interaction_id": "U19_I38",
+          "type": "short_writing",
+          "prompt_es": "Escribe la fecha: '21 de junio'.",
+          "correct_answer": "the 21st of June",
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I39",
+          "type": "true_false",
+          "prompt_es": "'[[December|Diciembre]]' es el último mes del año.",
+          "correct_answer": true,
+          "mastery_tag": "vocabulary"
+        },
+        {
+          "interaction_id": "U19_I40",
+          "type": "multiple_choice",
+          "prompt_es": "¿Cuál es la fecha correcta de Año Nuevo?",
+          "options": [
+            { "id": "o1", "text": "[[The 1st of January|El 1 de enero]]" },
+            { "id": "o2", "text": "[[The 1st of December|El 1 de diciembre]]" },
+            { "id": "o3", "text": "[[The 31st of December|El 31 de diciembre]]" }
+          ],
+          "correct_answer": "o1",
+          "mastery_tag": "vocabulary"
         }
       ]
     }
