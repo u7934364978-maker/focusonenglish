@@ -209,7 +209,7 @@ export const UNIT_46_EXERCISES: Exercise[] = [
       "instructions": "Pide la contraseña del wifi:",
       "questions": [
         {
-          "question": "What is the wifi password?",
+          "question": "is the wifi password What?",
           "options": [
             "[[What is the wifi password?|What is the wifi password?]]",
             "[[is What the wifi password?|is What the wifi password?]]",

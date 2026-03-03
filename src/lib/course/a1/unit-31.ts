@@ -90,7 +90,7 @@ export const UNIT_31_EXERCISES: Exercise[] = [
       "instructions": "Ordena la frase afirmativa:",
       "questions": [
         {
-          "question": "I can play the piano",
+          "question": "can play the piano I",
           "options": [
             "[[I can play the piano|I can play the piano]]",
             "[[can I play the piano|can I play the piano]]",
@@ -214,7 +214,7 @@ export const UNIT_31_EXERCISES: Exercise[] = [
       "instructions": "Ordena la pregunta:",
       "questions": [
         {
-          "question": "Can you help me ?",
+          "question": "you help me Can?",
           "options": [
             "[[Can you help me ?|Can you help me ?]]",
             "[[you Can help me?|you Can help me?]]",

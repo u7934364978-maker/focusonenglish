@@ -62,7 +62,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Ordena: '¿Cuántas manzanas tienes?'",
       "questions": [
         {
-          "question": "How many apples do you have",
+          "question": "many apples do you have How",
           "options": [
             "[[How many apples do you have|How many apples do you have]]",
             "[[many How apples do you have|many How apples do you have]]",
@@ -303,7 +303,7 @@ export const UNIT_54_EXERCISES: Exercise[] = [
       "instructions": "Ordena: 'Hay mucha gente hoy'",
       "questions": [
         {
-          "question": "There are a lot of people today",
+          "question": "are a lot of people today There",
           "options": [
             "[[There are a lot of people today|There are a lot of people today]]",
             "[[are There a lot of people today|are There a lot of people today]]",

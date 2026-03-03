@@ -167,7 +167,7 @@ export const UNIT_55_EXERCISES: Exercise[] = [
       "instructions": "Ordena: 'Necesito una talla pequeña (S)'",
       "questions": [
         {
-          "question": "I need a small size",
+          "question": "need a small size I",
           "options": [
             "[[I need a small size|I need a small size]]",
             "[[need I a small size|need I a small size]]",

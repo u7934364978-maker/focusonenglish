@@ -114,7 +114,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "in a restaurant Order",
+          "question": "a restaurant Order in",
           "options": [
             "[[in a restaurant Order|in a restaurant Order]]",
             "[[a in restaurant Order|a in restaurant Order]]",
@@ -291,7 +291,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "Manage money payments and",
+          "question": "money payments and Manage",
           "options": [
             "[[Manage money payments and|Manage money payments and]]",
             "[[money Manage payments and|money Manage payments and]]",
@@ -468,7 +468,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "and Talk about shopping food",
+          "question": "Talk about shopping food and",
           "options": [
             "[[and Talk about shopping food|and Talk about shopping food]]",
             "[[Talk and about shopping food|Talk and about shopping food]]",
@@ -645,7 +645,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "final the is This review",
+          "question": "the is This review final",
           "options": [
             "[[final the is This review|final the is This review]]",
             "[[the final is This review|the final is This review]]",
@@ -822,7 +822,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "issues health Describe",
+          "question": "health Describe issues",
           "options": [
             "[[issues health Describe|issues health Describe]]",
             "[[health issues Describe|health issues Describe]]",
@@ -999,7 +999,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "a in Order restaurant",
+          "question": "in Order restaurant a",
           "options": [
             "[[a in Order restaurant|a in Order restaurant]]",
             "[[in a Order restaurant|in a Order restaurant]]",
@@ -1176,7 +1176,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "payments money Manage and",
+          "question": "money Manage and payments",
           "options": [
             "[[payments money Manage and|payments money Manage and]]",
             "[[money payments Manage and|money payments Manage and]]",
@@ -1353,7 +1353,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "and Talk about food shopping",
+          "question": "Talk about food shopping and",
           "options": [
             "[[and Talk about food shopping|and Talk about food shopping]]",
             "[[Talk and about food shopping|Talk and about food shopping]]",
@@ -1530,7 +1530,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "This the final is review",
+          "question": "the final is review This",
           "options": [
             "[[This the final is review|This the final is review]]",
             "[[the This final is review|the This final is review]]",
@@ -1707,7 +1707,7 @@ export const UNIT_60_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "Describe issues health",
+          "question": "issues health Describe",
           "options": [
             "[[Describe issues health|Describe issues health]]",
             "[[issues Describe health|issues Describe health]]",

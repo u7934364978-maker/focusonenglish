@@ -167,7 +167,7 @@ export const UNIT_57_EXERCISES: Exercise[] = [
       "instructions": "Ordena: 'Hay tres relojes en la pared'",
       "questions": [
         {
-          "question": "There are three clocks on the wall",
+          "question": "are three clocks on the wall There",
           "options": [
             "[[There are three clocks on the wall|There are three clocks on the wall]]",
             "[[are There three clocks on the wall|are There three clocks on the wall]]",

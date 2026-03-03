@@ -189,7 +189,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Ordena la frase de obligación:",
       "questions": [
         {
-          "question": "You must clean your room",
+          "question": "must clean your room You",
           "options": [
             "[[You must clean your room|You must clean your room]]",
             "[[must You clean your room|must You clean your room]]",
@@ -237,7 +237,7 @@ export const UNIT_38_EXERCISES: Exercise[] = [
       "instructions": "Ordena la pregunta:",
       "questions": [
         {
-          "question": "Do you have to do the laundry ?",
+          "question": "you have to do the laundry Do?",
           "options": [
             "[[Do you have to do the laundry ?|Do you have to do the laundry ?]]",
             "[[you Do have to do the laundry?|you Do have to do the laundry?]]",

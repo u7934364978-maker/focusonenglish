@@ -130,7 +130,7 @@ export const UNIT_34_EXERCISES: Exercise[] = [
       "instructions": "Ordena la frase con 'and':",
       "questions": [
         {
-          "question": "She is tall and beautiful",
+          "question": "is tall and beautiful She",
           "options": [
             "[[She is tall and beautiful|She is tall and beautiful]]",
             "[[is She tall and beautiful|is She tall and beautiful]]",
@@ -252,7 +252,7 @@ export const UNIT_34_EXERCISES: Exercise[] = [
       "instructions": "Ordena la frase:",
       "questions": [
         {
-          "question": "He is tired because he is at work",
+          "question": "is tired because he is at work He",
           "options": [
             "[[He is tired because he is at work|He is tired because he is at work]]",
             "[[is He tired because he is at work|is He tired because he is at work]]",

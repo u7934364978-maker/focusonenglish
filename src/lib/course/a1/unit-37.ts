@@ -239,7 +239,7 @@ export const UNIT_37_EXERCISES: Exercise[] = [
       "instructions": "Ordena la pregunta:",
       "questions": [
         {
-          "question": "Who can sing in your family ?",
+          "question": "can sing in your family Who?",
           "options": [
             "[[Who can sing in your family ?|Who can sing in your family ?]]",
             "[[can Who sing in your family?|can Who sing in your family?]]",

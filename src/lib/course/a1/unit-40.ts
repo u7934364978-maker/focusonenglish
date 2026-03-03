@@ -114,7 +114,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "with Connect 'but', 'and', sentences and 'because'",
+          "question": "Connect 'but', 'and', sentences and 'because' with",
           "options": [
             "[[with Connect 'but', 'and', sentences and 'because'|with Connect 'but', 'and', sentences and 'because']]",
             "[[Connect with 'but', 'and', sentences and 'because'|Connect with 'but', 'and', sentences and 'because']]",
@@ -291,7 +291,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "of module a is review four This",
+          "question": "module a is review four This of",
           "options": [
             "[[of module a is review four This|of module a is review four This]]",
             "[[module of a is review four This|module of a is review four This]]",
@@ -468,7 +468,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "of Use adverbs frequency",
+          "question": "Use adverbs frequency of",
           "options": [
             "[[of Use adverbs frequency|of Use adverbs frequency]]",
             "[[Use of adverbs frequency|Use of adverbs frequency]]",
@@ -645,7 +645,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "and about Talk skills abilities your",
+          "question": "about Talk skills abilities your and",
           "options": [
             "[[and about Talk skills abilities your|and about Talk skills abilities your]]",
             "[[about and Talk skills abilities your|about and Talk skills abilities your]]",
@@ -822,7 +822,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "politely Ask for permission",
+          "question": "Ask for permission politely",
           "options": [
             "[[politely Ask for permission|politely Ask for permission]]",
             "[[Ask politely for permission|Ask politely for permission]]",
@@ -999,7 +999,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "'and', 'because' sentences Connect and 'but', with",
+          "question": "'because' sentences Connect and 'but', with 'and',",
           "options": [
             "[['and', 'because' sentences Connect and 'but', with|'and', 'because' sentences Connect and 'but', with]]",
             "[['because' 'and', sentences Connect and 'but', with|'because' 'and', sentences Connect and 'but', with]]",
@@ -1176,7 +1176,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "of review This a four is module",
+          "question": "review This a four is module of",
           "options": [
             "[[of review This a four is module|of review This a four is module]]",
             "[[review of This a four is module|review of This a four is module]]",
@@ -1353,7 +1353,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "Use of adverbs frequency",
+          "question": "of adverbs frequency Use",
           "options": [
             "[[Use of adverbs frequency|Use of adverbs frequency]]",
             "[[of Use adverbs frequency|of Use adverbs frequency]]",
@@ -1530,7 +1530,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "Talk abilities skills about and your",
+          "question": "abilities skills about and your Talk",
           "options": [
             "[[Talk abilities skills about and your|Talk abilities skills about and your]]",
             "[[abilities Talk skills about and your|abilities Talk skills about and your]]",
@@ -1707,7 +1707,7 @@ export const UNIT_40_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "Ask politely for permission",
+          "question": "politely for permission Ask",
           "options": [
             "[[Ask politely for permission|Ask politely for permission]]",
             "[[politely Ask for permission|politely Ask for permission]]",

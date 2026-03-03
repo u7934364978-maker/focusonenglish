@@ -191,7 +191,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Ordena la frase: 'Está en el pasillo 5'",
       "questions": [
         {
-          "question": "It is in aisle five",
+          "question": "is in aisle five It",
           "options": [
             "[[It is in aisle five|It is in aisle five]]",
             "[[is It in aisle five|is It in aisle five]]",
@@ -364,7 +364,7 @@ export const UNIT_51_EXERCISES: Exercise[] = [
       "instructions": "Ordena: 'Paga en la caja'",
       "questions": [
         {
-          "question": "Pay at the checkout",
+          "question": "at the checkout Pay",
           "options": [
             "[[Pay at the checkout|Pay at the checkout]]",
             "[[at Pay the checkout|at Pay the checkout]]",

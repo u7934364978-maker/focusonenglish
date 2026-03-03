@@ -114,7 +114,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "holiday for a Prepare",
+          "question": "for a Prepare holiday",
           "options": [
             "[[holiday for a Prepare|holiday for a Prepare]]",
             "[[for holiday a Prepare|for holiday a Prepare]]",
@@ -291,7 +291,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "of five This a module is review",
+          "question": "five This a module is review of",
           "options": [
             "[[of five This a module is review|of five This a module is review]]",
             "[[five of This a module is review|five of This a module is review]]",
@@ -468,7 +468,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "Talk travel and about transport",
+          "question": "travel and about transport Talk",
           "options": [
             "[[Talk travel and about transport|Talk travel and about transport]]",
             "[[travel Talk and about transport|travel Talk and about transport]]",
@@ -645,7 +645,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "the weather Describe and seasons",
+          "question": "weather Describe and seasons the",
           "options": [
             "[[the weather Describe and seasons|the weather Describe and seasons]]",
             "[[weather the Describe and seasons|weather the Describe and seasons]]",
@@ -822,7 +822,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "Book room a hotel",
+          "question": "room a hotel Book",
           "options": [
             "[[Book room a hotel|Book room a hotel]]",
             "[[room Book a hotel|room Book a hotel]]",
@@ -999,7 +999,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "Prepare for holiday a",
+          "question": "for holiday a Prepare",
           "options": [
             "[[Prepare for holiday a|Prepare for holiday a]]",
             "[[for Prepare holiday a|for Prepare holiday a]]",
@@ -1176,7 +1176,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "module is five of review This a",
+          "question": "is five of review This a module",
           "options": [
             "[[module is five of review This a|module is five of review This a]]",
             "[[is module five of review This a|is module five of review This a]]",
@@ -1353,7 +1353,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "about Talk travel transport and",
+          "question": "Talk travel transport and about",
           "options": [
             "[[about Talk travel transport and|about Talk travel transport and]]",
             "[[Talk about travel transport and|Talk about travel transport and]]",
@@ -1530,7 +1530,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "weather the seasons Describe and",
+          "question": "the seasons Describe and weather",
           "options": [
             "[[weather the seasons Describe and|weather the seasons Describe and]]",
             "[[the weather seasons Describe and|the weather seasons Describe and]]",
@@ -1707,7 +1707,7 @@ export const UNIT_50_EXERCISES: Exercise[] = [
       "instructions": "Ordena las palabras para formar una frase correcta:",
       "questions": [
         {
-          "question": "hotel Book room a",
+          "question": "Book room a hotel",
           "options": [
             "[[hotel Book room a|hotel Book room a]]",
             "[[Book hotel room a|Book hotel room a]]",

@@ -103,6 +103,26 @@ QBLOCK_RE = re.compile(
 )
 
 
+def scramble_sentence(sentence):
+    """Create a scrambled version of the sentence for display as question."""
+    s = sentence.strip()
+    punct = ''
+    if s.endswith('?'):
+        punct = '?'
+        s = s[:-1].strip()
+    elif s.endswith('.'):
+        punct = '.'
+        s = s[:-1].strip()
+
+    words = s.split()
+    if len(words) < 3:
+        return sentence
+
+    # Rotate: move first word to last position
+    scrambled = words[1:] + [words[0]]
+    return ' '.join(scrambled) + punct
+
+
 def fix_file(filepath):
     content = filepath.read_text(encoding='utf-8')
     changes = 0
@@ -133,6 +153,9 @@ def fix_file(filepath):
             if not wrong_orders:
                 return qm.group(0)
 
+            # Scramble the question text so the answer isn't visible upfront
+            scrambled_q = scramble_sentence(question_text)
+
             # Build new options: correct first, then wrong alternatives
             correct_tok = f'[[{question_text}|{question_text}]]'
             all_opts = [f'"{correct_tok}"'] + [f'"[[{w}|{w}]]"' for w in wrong_orders]
@@ -140,11 +163,16 @@ def fix_file(filepath):
             indent = '\n            '
             new_opts = indent + f',{indent}'.join(all_opts) + '\n          '
 
+            # Update question text to scrambled version
+            new_header = header.replace(
+                f'"question": "{question_text}"',
+                f'"question": "{scrambled_q}"'
+            )
             # Keep correctAnswer: 0 (first option is correct)
             new_footer = re.sub(r'"correctAnswer":\s*\d+', '"correctAnswer": 0', footer)
 
             changes += 1
-            return header + new_opts + new_footer
+            return new_header + new_opts + new_footer
 
         new_body = QBLOCK_RE.sub(fix_qblock, questions_body)
         if new_body != questions_body:

@@ -62,7 +62,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Ordena: 'Hay tres huevos'",
       "questions": [
         {
-          "question": "There are three eggs",
+          "question": "are three eggs There",
           "options": [
             "[[There are three eggs|There are three eggs]]",
             "[[are There three eggs|are There three eggs]]",
@@ -279,7 +279,7 @@ export const UNIT_52_EXERCISES: Exercise[] = [
       "instructions": "Ordena: 'Queremos algo de pan'",
       "questions": [
         {
-          "question": "We want some bread",
+          "question": "want some bread We",
           "options": [
             "[[We want some bread|We want some bread]]",
             "[[want We some bread|want We some bread]]",

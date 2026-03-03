@@ -237,7 +237,7 @@ export const UNIT_47_EXERCISES: Exercise[] = [
       "instructions": "Describe tus vacaciones:",
       "questions": [
         {
-          "question": "I am sunbathing on the beach.",
+          "question": "am sunbathing on the beach I.",
           "options": [
             "[[I am sunbathing on the beach.|I am sunbathing on the beach.]]",
             "[[am I sunbathing on the beach.|am I sunbathing on the beach.]]",

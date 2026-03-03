@@ -239,7 +239,7 @@ export const UNIT_48_EXERCISES: Exercise[] = [
       "instructions": "Pregunta por el inicio del tour:",
       "questions": [
         {
-          "question": "What time does the tour start?",
+          "question": "time does the tour start What?",
           "options": [
             "[[What time does the tour start?|What time does the tour start?]]",
             "[[time What does the tour start?|time What does the tour start?]]",

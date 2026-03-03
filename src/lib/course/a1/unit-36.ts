@@ -111,7 +111,7 @@ export const UNIT_36_EXERCISES: Exercise[] = [
       "instructions": "Ordena la frase:",
       "questions": [
         {
-          "question": "He plays the piano beautifully",
+          "question": "plays the piano beautifully He",
           "options": [
             "[[He plays the piano beautifully|He plays the piano beautifully]]",
             "[[plays He the piano beautifully|plays He the piano beautifully]]",

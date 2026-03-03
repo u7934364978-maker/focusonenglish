@@ -263,7 +263,7 @@ export const UNIT_44_EXERCISES: Exercise[] = [
       "instructions": "Pregunta por el clima:",
       "questions": [
         {
-          "question": "What is the weather like today?",
+          "question": "is the weather like today What?",
           "options": [
             "[[What is the weather like today?|What is the weather like today?]]",
             "[[is What the weather like today?|is What the weather like today?]]",

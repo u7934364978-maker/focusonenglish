@@ -167,7 +167,7 @@ export const UNIT_56_EXERCISES: Exercise[] = [
       "instructions": "Ordena: 'La taza está sobre la encimera'",
       "questions": [
         {
-          "question": "The cup is on the counter",
+          "question": "cup is on the counter The",
           "options": [
             "[[The cup is on the counter|The cup is on the counter]]",
             "[[cup The is on the counter|cup The is on the counter]]",

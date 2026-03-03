@@ -191,7 +191,7 @@ export const UNIT_49_EXERCISES: Exercise[] = [
       "instructions": "Ordena la frase: 'Necesito mi bañador'",
       "questions": [
         {
-          "question": "I need my swimsuit",
+          "question": "need my swimsuit I",
           "options": [
             "[[I need my swimsuit|I need my swimsuit]]",
             "[[need I my swimsuit|need I my swimsuit]]",

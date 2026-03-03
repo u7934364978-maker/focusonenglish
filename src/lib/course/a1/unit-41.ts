@@ -237,7 +237,7 @@ export const UNIT_41_EXERCISES: Exercise[] = [
       "instructions": "Pregunta por la puerta de embarque:",
       "questions": [
         {
-          "question": "Where is gate number ten?",
+          "question": "is gate number ten Where?",
           "options": [
             "[[Where is gate number ten?|Where is gate number ten?]]",
             "[[is Where gate number ten?|is Where gate number ten?]]",

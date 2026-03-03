@@ -36,7 +36,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Ordena: 'Necesitamos algo de queso'",
       "questions": [
         {
-          "question": "We need some cheese",
+          "question": "need some cheese We",
           "options": [
             "[[We need some cheese|We need some cheese]]",
             "[[need We some cheese|need We some cheese]]",
@@ -251,7 +251,7 @@ export const UNIT_53_EXERCISES: Exercise[] = [
       "instructions": "Ordena: '¿Tienes algún plátano?'",
       "questions": [
         {
-          "question": "Do you have any bananas",
+          "question": "you have any bananas Do",
           "options": [
             "[[Do you have any bananas|Do you have any bananas]]",
             "[[you Do have any bananas|you Do have any bananas]]",

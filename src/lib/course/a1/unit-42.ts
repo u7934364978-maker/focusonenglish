@@ -263,7 +263,7 @@ export const UNIT_42_EXERCISES: Exercise[] = [
       "instructions": "Compra un billete:",
       "questions": [
         {
-          "question": "A ticket to Oxford, please.",
+          "question": "ticket to Oxford, please A.",
           "options": [
             "[[A ticket to Oxford, please.|A ticket to Oxford, please.]]",
             "[[ticket A to Oxford, please.|ticket A to Oxford, please.]]",

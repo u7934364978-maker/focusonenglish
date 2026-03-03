@@ -237,7 +237,7 @@ export const UNIT_43_EXERCISES: Exercise[] = [
       "instructions": "Ordena la actividad:",
       "questions": [
         {
-          "question": "We always take many photos.",
+          "question": "always take many photos We.",
           "options": [
             "[[We always take many photos.|We always take many photos.]]",
             "[[always We take many photos.|always We take many photos.]]",

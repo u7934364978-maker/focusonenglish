@@ -167,7 +167,7 @@ export const UNIT_58_EXERCISES: Exercise[] = [
       "instructions": "Ordena: 'Nosotros almorzamos a las 1 pm'",
       "questions": [
         {
-          "question": "We have lunch at 1 pm",
+          "question": "have lunch at 1 pm We",
           "options": [
             "[[We have lunch at 1 pm|We have lunch at 1 pm]]",
             "[[have We lunch at 1 pm|have We lunch at 1 pm]]",

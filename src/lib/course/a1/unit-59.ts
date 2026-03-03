@@ -167,7 +167,7 @@ export const UNIT_59_EXERCISES: Exercise[] = [
       "instructions": "Ordena: 'Ella ama cocinar para sus amigos'",
       "questions": [
         {
-          "question": "She loves cooking for her friends",
+          "question": "loves cooking for her friends She",
           "options": [
             "[[She loves cooking for her friends|She loves cooking for her friends]]",
             "[[loves She cooking for her friends|loves She cooking for her friends]]",

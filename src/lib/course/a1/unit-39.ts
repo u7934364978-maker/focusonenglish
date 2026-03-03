@@ -159,7 +159,7 @@ export const UNIT_39_EXERCISES: Exercise[] = [
       "instructions": "Ordena la pregunta:",
       "questions": [
         {
-          "question": "Were you at the cinema ?",
+          "question": "you at the cinema Were?",
           "options": [
             "[[Were you at the cinema ?|Were you at the cinema ?]]",
             "[[you Were at the cinema?|you Were at the cinema?]]",

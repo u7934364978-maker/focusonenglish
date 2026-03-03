@@ -287,7 +287,7 @@ export const UNIT_35_EXERCISES: Exercise[] = [
       "instructions": "Ordena la frase negativa:",
       "questions": [
         {
-          "question": "They don't play video games",
+          "question": "don't play video games They",
           "options": [
             "[[They don't play video games|They don't play video games]]",
             "[[don't They play video games|don't They play video games]]",
