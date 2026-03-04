@@ -32,7 +32,7 @@ interface B2UnitSessionProps {
   backUrl?: string;
 }
 
-export default function B2UnitSession({ unit, backUrl = "/curso/ingles-b2" }: B2UnitSessionProps) {
+export default function B2UnitSession({ unit, backUrl = "/planes" }: B2UnitSessionProps) {
   const { completeExercise } = useGamification();
   const [currentBlockIndex, setCurrentBlockIndex] = useState(0);
   const [completedBlocks, setCompletedBlocks] = useState<Set<number>>(new Set());

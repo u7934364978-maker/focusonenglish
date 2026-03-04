@@ -4,13 +4,20 @@ test.describe('Unit 1 Expansion and Legacy Route Removal', () => {
   test('legacy routes should return 404', async ({ page }) => {
     const legacyRoutes = [
       '/curso/ingles-a1',
-      '/curso/ingles-a2'
     ];
 
     for (const route of legacyRoutes) {
       const response = await page.goto(route);
       expect(response?.status()).toBe(404);
     }
+  });
+
+  test('deleted routes should redirect', async ({ page }) => {
+    const response = await page.goto('/curso/ingles-a2');
+    expect(page.url()).toContain('/curso-a2');
+
+    const response2 = await page.goto('/curso/ingles-b2');
+    expect(page.url()).toContain('/planes');
   });
 
   test('debug unit 1 preview should have 60 exercises', async ({ page }) => {

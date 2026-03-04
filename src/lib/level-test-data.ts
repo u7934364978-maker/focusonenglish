@@ -340,7 +340,7 @@ export function calculateLevel(score: number, totalPoints: number): LevelResult 
         'Clases de conversación avanzada y debate',
         'Preparación para contextos profesionales especializados'
       ],
-      courseUrl: '/curso/ingles-b2',
+      courseUrl: '/planes',
       color: 'from-peach-500 to-pink-500',
       gradient: 'bg-gradient-to-br from-peach-500 to-pink-500',
     };
@@ -355,7 +355,7 @@ export function calculateLevel(score: number, totalPoints: number): LevelResult 
         'Inglés para negocios avanzado',
         'Redacción académica y profesional'
       ],
-      courseUrl: '/curso/ingles-b2',
+      courseUrl: '/planes',
       color: 'from-orange-500 to-coral-500',
       gradient: 'bg-gradient-to-br from-orange-500 to-coral-500',
     };
@@ -370,7 +370,7 @@ export function calculateLevel(score: number, totalPoints: number): LevelResult 
         'Inglés profesional para tu sector',
         'Conversación avanzada'
       ],
-      courseUrl: '/curso/ingles-b2',
+      courseUrl: '/planes',
       color: 'from-amber-500 to-amber-500',
       gradient: 'bg-gradient-to-br from-amber-500 to-amber-500',
     };
@@ -400,7 +400,7 @@ export function calculateLevel(score: number, totalPoints: number): LevelResult 
         'Conversación básica para viajes',
         'Gramática y vocabulario esencial'
       ],
-      courseUrl: '/curso/ingles-a2',
+      courseUrl: '/curso-a2',
       color: 'from-orange-500 to-amber-500',
       gradient: 'bg-gradient-to-br from-orange-500 to-amber-500',
     };

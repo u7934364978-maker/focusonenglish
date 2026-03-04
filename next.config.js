@@ -391,6 +391,18 @@ const nextConfig = {
         statusCode: 301,
       },
       
+      // ELIMINACIÓN DE RUTAS /curso/ingles-*
+      {
+        source: '/curso/ingles-a2',
+        destination: '/curso-a2',
+        statusCode: 301,
+      },
+      {
+        source: '/curso/ingles-b2',
+        destination: '/planes',
+        statusCode: 301,
+      },
+
       // ELIMINACIÓN DE PÁGINAS Y RUTAS (SEO 301 a Home)
       {
         source: '/metodologia',
