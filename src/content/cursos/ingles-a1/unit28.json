@@ -1,179 +1,255 @@
 {
   "course": {
-    "language_ui": "es-ES",
-    "target_language": "en",
-    "level": "A1",
-    "unit_id": "U28",
+    "unit_id": "unit28",
     "unit_title": "Body Parts",
-    "total_duration_minutes": 120
+    "level": "A1",
+    "total_duration_minutes": 60,
+    "language_ui": "es-ES",
+    "target_language": "en"
   },
   "learning_outcomes": [
     "Name the main body parts in English",
-    "Use have/has got to describe physical features",
-    "Use This/These to point at body parts",
-    "Read descriptions of people's appearance and physical capabilities"
+    "Use have/has got to describe body parts",
+    "Follow simple body-related instructions in English"
   ],
   "blocks": [
     {
       "block_id": "B1",
-      "title": "Vocabulary: Head & Face",
+      "title": "Vocabulary Introduction",
       "content": [
         {
-          "interaction_id": "U28_I1",
-          "type": "matching",
-          "prompt_es": "Une cada parte de la cara con su traducción:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Eyes|Ojos]]",
-              "right": "Nariz"
-            },
-            {
-              "id": "p2",
-              "left": "[[Nose|Nariz]]",
-              "right": "Boca"
-            },
-            {
-              "id": "p3",
-              "left": "[[Mouth|Boca]]",
-              "right": "Oreja"
-            },
-            {
-              "id": "p4",
-              "left": "[[Ear|Oreja]]",
-              "right": "Ojos"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p4",
-            "p2": "p1",
-            "p3": "p2",
-            "p4": "p3"
-          },
+          "interaction_id": "A1_U28_I1",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U28_I2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuántos ojos tiene una persona normal?",
+          "complexity": 1,
+          "stimulus_en": "[[Head|Cabeza]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[One|Uno]]"
+              "text": "[[Cabeza|Head]]"
             },
             {
               "id": "o2",
-              "text": "[[Three|Tres]]"
+              "text": "[[Brazo|Arm]]"
             },
             {
               "id": "o3",
-              "text": "[[Two|Dos]]"
+              "text": "[[Pierna|Leg]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U28_I3",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[hair|pelo]]'?",
+          "interaction_id": "A1_U28_I2",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Arm|Brazo]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[Chin|Barbilla]]"
+              "text": "[[Pierna|Leg]]"
             },
             {
               "id": "o2",
-              "text": "[[Forehead|Frente]]"
+              "text": "[[Brazo|Arm]]"
             },
             {
               "id": "o3",
-              "text": "[[Hair|Pelo]]"
+              "text": "[[Mano|Hand]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U28_I4",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'I [[brush|me cepillo]] my ___ every morning.' (los dientes = teeth)",
-          "correct_answer": "teeth",
+          "interaction_id": "A1_U28_I3",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U28_I5",
-          "type": "matching",
-          "prompt_es": "Une la parte de la cara con su descripción:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Forehead|Frente]]",
-              "right": "usamos para comer"
-            },
-            {
-              "id": "p2",
-              "left": "[[Cheeks|Mejillas]]",
-              "right": "encima de los ojos"
-            },
-            {
-              "id": "p3",
-              "left": "[[Lips|Labios]]",
-              "right": "parte lateral de la cara"
-            },
-            {
-              "id": "p4",
-              "left": "[[Chin|Barbilla]]",
-              "right": "parte inferior de la cara"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p2",
-            "p2": "p3",
-            "p3": "p1",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U28_I6",
-          "type": "multiple_choice",
-          "prompt_es": "¿Con qué escuchas (listen)?",
+          "complexity": 1,
+          "stimulus_en": "[[Leg|Pierna]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[With your eyes|Con los ojos]]"
+              "text": "[[Mano|Hand]]"
             },
             {
               "id": "o2",
-              "text": "[[With your nose|Con la nariz]]"
+              "text": "[[Pie|Foot]]"
             },
             {
               "id": "o3",
-              "text": "[[With your ears|Con las orejas]]"
+              "text": "[[Pierna|Leg]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U28_I7",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'She has beautiful blue ___.' (ojos = eyes) ([[weather|tiempo]])",
-          "correct_answer": "eyes",
+          "interaction_id": "A1_U28_I4",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
-          "complexity": 1
+          "complexity": 1,
+          "stimulus_en": "[[Hand|Mano]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Mano|Hand]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Pie|Foot]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Ojo|Eye]]"
+            }
+          ],
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U28_I8",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué parte de la cara usamos para oler (smell)?",
+          "interaction_id": "A1_U28_I5",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Foot|Pie]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Ojo|Eye]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Pie|Foot]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Oreja|Ear]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U28_I6",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Eye|Ojo]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Oreja|Ear]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Nariz|Nose]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Ojo|Eye]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U28_I7",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Oreja]]",
+          "correct_answer": "Ear"
+        },
+        {
+          "interaction_id": "A1_U28_I8",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Nariz]]",
+          "correct_answer": "Nose"
+        },
+        {
+          "interaction_id": "A1_U28_I9",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Boca]]",
+          "correct_answer": "Mouth"
+        },
+        {
+          "interaction_id": "A1_U28_I10",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Cuello]]",
+          "correct_answer": "Neck"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Vocabulary in Context",
+      "content": [
+        {
+          "interaction_id": "A1_U28_I11",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Hand|Mano]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Hand|Mano]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Ear|Oreja]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Neck|Cuello]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U28_I12",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Foot|Pie]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Nose|Nariz]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Foot|Pie]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Back|Espalda]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U28_I13",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Eye|Ojo]]",
           "options": [
             {
               "id": "o1",
@@ -181,1064 +257,976 @@
             },
             {
               "id": "o2",
-              "text": "[[Eyes|Ojos]]"
+              "text": "[[Shoulder|Hombro]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Eye|Ojo]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U28_I14",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Ear|Oreja]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Ear|Oreja]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Neck|Cuello]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Finger|Dedo]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U28_I15",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[have|tengo]] ______ [[eyes|ojos]].",
+          "correct_answer": "two"
+        },
+        {
+          "interaction_id": "A1_U28_I16",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[She|Ella]] [[has|tiene]] [[a|un]] [[long|largo]] ______.",
+          "correct_answer": "neck"
+        },
+        {
+          "interaction_id": "A1_U28_I17",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[We|Nosotros]] [[have|tenemos]] [[ten|diez]] ______ [[on|en]] [[each|cada]] [[hand|mano]].",
+          "correct_answer": "fingers"
+        },
+        {
+          "interaction_id": "A1_U28_I18",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Head|Cabeza]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Leg|Pierna]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Arm|Brazo]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U28_I19",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Foot|Pie]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Ear|Oreja]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Eye|Ojo]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U28_I20",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Mouth|Boca]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Back|Espalda]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Neck|Cuello]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Grammar — Affirmative",
+      "content": [
+        {
+          "interaction_id": "A1_U28_I21",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[have|tengo]] ______ [[eyes|ojos]].",
+          "correct_answer": "two"
+        },
+        {
+          "interaction_id": "A1_U28_I22",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[She|Ella]] [[has|tiene]] [[a|un]] [[long|largo]] ______.",
+          "correct_answer": "neck"
+        },
+        {
+          "interaction_id": "A1_U28_I23",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[We|Nosotros]] [[have|tenemos]] [[ten|diez]] ______ [[on|en]] [[each|cada]] [[hand|mano]].",
+          "correct_answer": "fingers"
+        },
+        {
+          "interaction_id": "A1_U28_I24",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[My|Mi]] ______ [[hurts|duele]] [[today|hoy]].",
+          "correct_answer": "back"
+        },
+        {
+          "interaction_id": "A1_U28_I25",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[He|Él]] [[broke|rompió]] [[his|su]] ______ [[while|mientras]] [[playing|jugaba]] [[football|fútbol]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[leg|leg]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[neck|neck]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[fingers|fingers]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U28_I26",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Can|Puedes]] [[you|tú]] [[touch|tocar]] [[your|tu]] [[nose|nariz]] [[with|con]] [[your|tu]] ______?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[fingers|fingers]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[finger|finger]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[back|back]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U28_I27",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[have|tengo]] ______ [[eyes|ojos]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[back|back]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[leg|leg]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[two|two]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U28_I28",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[She|Ella]] [[has|tiene]] [[a|un]] [[long|largo]] ______.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[neck|neck]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[leg|leg]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[finger|finger]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U28_I29",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Leg|Pierna]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Head|Cabeza]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Foot|Pie]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
+          ]
+        },
+        {
+          "interaction_id": "A1_U28_I30",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Nose|Nariz]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Eye|Ojo]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Neck|Cuello]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Grammar — Negative & Questions",
+      "content": [
+        {
+          "interaction_id": "A1_U28_I31",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[We|Nosotros]] [[have|tenemos]] [[ten|diez]] ______ [[on|en]] [[each|cada]] [[hand|mano]].",
+          "correct_answer": "fingers"
+        },
+        {
+          "interaction_id": "A1_U28_I32",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[My|Mi]] ______ [[hurts|duele]] [[today|hoy]].",
+          "correct_answer": "back"
+        },
+        {
+          "interaction_id": "A1_U28_I33",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[He|Él]] [[broke|rompió]] [[his|su]] ______ [[while|mientras]] [[playing|jugaba]] [[football|fútbol]].",
+          "correct_answer": "leg"
+        },
+        {
+          "interaction_id": "A1_U28_I34",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[My|Mi]] ______ [[hurts|duele]] [[today|hoy]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[back|back]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[finger|finger]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[two|two]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U28_I35",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[He|Él]] [[broke|rompió]] [[his|su]] ______ [[while|mientras]] [[playing|jugaba]] [[football|fútbol]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[two|two]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[leg|leg]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[neck|neck]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U28_I36",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Can|Puedes]] [[you|tú]] [[touch|tocar]] [[your|tu]] [[nose|nariz]] [[with|con]] [[your|tu]] ______?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[neck|neck]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[fingers|fingers]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[finger|finger]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U28_I37",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[have|tengo]] ______ [[eyes|ojos]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[two|two]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[fingers|fingers]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[back|back]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U28_I38",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Foot|Pie]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Arm|Brazo]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Ear|Oreja]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Leg|Pierna]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
+        },
+        {
+          "interaction_id": "A1_U28_I39",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Nose|Nariz]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Foot|Pie]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Neck|Cuello]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Eye|Ojo]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
+        },
+        {
+          "interaction_id": "A1_U28_I40",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Back|Espalda]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Nose|Nariz]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Finger|Dedo]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Mouth|Boca]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B5",
+      "title": "Reading Comprehension",
+      "content": [
+        {
+          "interaction_id": "A1_U28_I41",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Point|Señala]] [[to|a]] [[your|tu]] [[nose|nariz]] — [[now|ahora]] [[your|tu]] [[left|izquierda]] [[ear|oreja]]! [[This|Este]] [[is|es]] [[a|un]] [[fun|divertido]] [[game|juego]]! [[OK|De acuerdo]], [[now|ahora]] [[touch|toca]] [[your|tu]] [[right|derecha]] [[shoulder|hombro]] [[with|con]] [[your|tu]] [[left|izquierda]] [[hand|mano]]. [[Wow|Vaya]], [[that's|eso es]] [[tricky|difícil]]! [[How|Cuántos]] [[many|cuántos]] [[fingers|dedos]] [[do|tienes]] [[you|tú]] [[have|tienes]]? [[Ten|Diez]] [[fingers|dedos]] [[and|y]] [[ten|diez]] [[toes|dedos del pie]]! [[Just|Solo]] [[like|como]] [[everybody|todo el mundo]] [[else|demás]]. [[Ha|Ja]]! [[And|Y]] [[how|cuántos]] [[many|cuántos]] [[eyes|ojos]] [[do|tienes]] [[you|tú]] [[have|tienes]]?",
+          "question_en": "[[What|Qué]] [[body|parte]] [[part|del cuerpo]] [[is|es]] [[the|la]] [[speaker|hablante]] [[asked|pedida]] [[to|a]] [[point|señalar]] [[first|primero]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Ear|Oreja]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Shoulder|Hombro]]"
             },
             {
               "id": "o3",
               "text": "[[Nose|Nariz]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U28_I9",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'My ___ is very long and brown.' (pelo = hair) ([[and|y]])",
-          "correct_answer": "hair",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U28_I10",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuántas orejas tiene una persona?",
+          "interaction_id": "A1_U28_I42",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Point|Señala]] [[to|a]] [[your|tu]] [[nose|nariz]] — [[now|ahora]] [[your|tu]] [[left|izquierda]] [[ear|oreja]]! [[This|Este]] [[is|es]] [[a|un]] [[fun|divertido]] [[game|juego]]! [[OK|De acuerdo]], [[now|ahora]] [[touch|toca]] [[your|tu]] [[right|derecha]] [[shoulder|hombro]] [[with|con]] [[your|tu]] [[left|izquierda]] [[hand|mano]]. [[Wow|Vaya]], [[that's|eso es]] [[tricky|difícil]]! [[How|Cuántos]] [[many|cuántos]] [[fingers|dedos]] [[do|tienes]] [[you|tú]] [[have|tienes]]? [[Ten|Diez]] [[fingers|dedos]] [[and|y]] [[ten|diez]] [[toes|dedos del pie]]! [[Just|Solo]] [[like|como]] [[everybody|todo el mundo]] [[else|demás]]. [[Ha|Ja]]! [[And|Y]] [[how|cuántos]] [[many|cuántos]] [[eyes|ojos]] [[do|tienes]] [[you|tú]] [[have|tienes]]?",
+          "question_en": "[[Which|Cuál]] [[ear|oreja]] [[is|es]] [[the|el]] [[speaker|hablante]] [[asked|pedida]] [[to|a]] [[point|señalar]]?",
           "options": [
             {
               "id": "o1",
-              "text": "[[One|Una]]"
+              "text": "[[Right|Derecha]]"
             },
             {
               "id": "o2",
-              "text": "[[Three|Tres]]"
+              "text": "[[Left|Izquierda]]"
             },
             {
               "id": "o3",
-              "text": "[[Two|Dos]]"
+              "text": "[[Both|Ambas]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
-        }
-      ]
-    },
-    {
-      "block_id": "B2",
-      "title": "Vocabulary: Body Parts",
-      "content": [
-        {
-          "interaction_id": "U28_I11",
-          "type": "matching",
-          "prompt_es": "Une cada parte del cuerpo con su traducción:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Arm|Brazo]]",
-              "right": "Pierna"
-            },
-            {
-              "id": "p2",
-              "left": "[[Leg|Pierna]]",
-              "right": "Mano"
-            },
-            {
-              "id": "p3",
-              "left": "[[Hand|Mano]]",
-              "right": "Pie"
-            },
-            {
-              "id": "p4",
-              "left": "[[Foot|Pie]]",
-              "right": "Brazo"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p4",
-            "p2": "p1",
-            "p3": "p2",
-            "p4": "p3"
-          },
-          "mastery_tag": "vocabulary",
-          "complexity": 1
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U28_I12",
-          "type": "multiple_choice",
-          "prompt_es": "¿Con qué escribes (write)?",
+          "interaction_id": "A1_U28_I43",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Point|Señala]] [[to|a]] [[your|tu]] [[nose|nariz]] — [[now|ahora]] [[your|tu]] [[left|izquierda]] [[ear|oreja]]! [[This|Este]] [[is|es]] [[a|un]] [[fun|divertido]] [[game|juego]]! [[OK|De acuerdo]], [[now|ahora]] [[touch|toca]] [[your|tu]] [[right|derecha]] [[shoulder|hombro]] [[with|con]] [[your|tu]] [[left|izquierda]] [[hand|mano]]. [[Wow|Vaya]], [[that's|eso es]] [[tricky|difícil]]! [[How|Cuántos]] [[many|cuántos]] [[fingers|dedos]] [[do|tienes]] [[you|tú]] [[have|tienes]]? [[Ten|Diez]] [[fingers|dedos]] [[and|y]] [[ten|diez]] [[toes|dedos del pie]]! [[Just|Solo]] [[like|como]] [[everybody|todo el mundo]] [[else|demás]]. [[Ha|Ja]]! [[And|Y]] [[how|cuántos]] [[many|cuántos]] [[eyes|ojos]] [[do|tienes]] [[you|tú]] [[have|tienes]]?",
+          "question_en": "[[What|Qué]] [[is|es]] [[the|la]] [[tricky|difícil]] [[task|tarea]] [[in|en]] [[the|la]] [[conversation|conversación]]?",
           "options": [
             {
               "id": "o1",
-              "text": "[[With your hand|Con la mano]]"
+              "text": "[[Touching nose with tongue|Tocar la nariz con la lengua]]"
             },
             {
               "id": "o2",
-              "text": "[[With your feet|Con los pies]]"
+              "text": "[[Touching right shoulder with left hand|Tocar el hombro derecho con la mano izquierda]]"
             },
             {
               "id": "o3",
-              "text": "[[With your knee|Con la rodilla]]"
+              "text": "[[Touching toes with fingers|Tocar los dedos del pie con los dedos]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U28_I13",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'She [[runs|corre]] with her ___.' (las piernas = legs)",
-          "correct_answer": "legs",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U28_I14",
-          "type": "matching",
-          "prompt_es": "Une la parte del cuerpo con su plural:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[foot → feet|pie → pies]]",
-              "right": "teeth"
-            },
-            {
-              "id": "p2",
-              "left": "[[tooth → teeth|diente → dientes]]",
-              "right": "hands"
-            },
-            {
-              "id": "p3",
-              "left": "[[hand → hands|mano → manos]]",
-              "right": "feet"
-            },
-            {
-              "id": "p4",
-              "left": "[[arm → arms|brazo → brazos]]",
-              "right": "arms"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p3",
-            "p2": "p1",
-            "p3": "p2",
-            "p4": "p4"
-          },
-          "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U28_I15",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es el plural irregular de '[[foot|pie]]'?",
+          "interaction_id": "A1_U28_I44",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Point|Señala]] [[to|a]] [[your|tu]] [[nose|nariz]] — [[now|ahora]] [[your|tu]] [[left|izquierda]] [[ear|oreja]]! [[This|Este]] [[is|es]] [[a|un]] [[fun|divertido]] [[game|juego]]! [[OK|De acuerdo]], [[now|ahora]] [[touch|toca]] [[your|tu]] [[right|derecha]] [[shoulder|hombro]] [[with|con]] [[your|tu]] [[left|izquierda]] [[hand|mano]]. [[Wow|Vaya]], [[that's|eso es]] [[tricky|difícil]]! [[How|Cuántos]] [[many|cuántos]] [[fingers|dedos]] [[do|tienes]] [[you|tú]] [[have|tienes]]? [[Ten|Diez]] [[fingers|dedos]] [[and|y]] [[ten|diez]] [[toes|dedos del pie]]! [[Just|Solo]] [[like|como]] [[everybody|todo el mundo]] [[else|demás]]. [[Ha|Ja]]! [[And|Y]] [[how|cuántos]] [[many|cuántos]] [[eyes|ojos]] [[do|tienes]] [[you|tú]] [[have|tienes]]?",
+          "question_en": "[[How|Cuántos]] [[many|cuántos]] [[fingers|dedos]] [[does|tiene]] [[a|una]] [[person|persona]] [[have|tiene]]?",
           "options": [
             {
               "id": "o1",
-              "text": "[[foots|pies (incorrecto)]]"
+              "text": "[[Eight|Ocho]]"
             },
             {
               "id": "o2",
-              "text": "[[feets|pies (incorrecto)]]"
+              "text": "[[Twelve|Doce]]"
             },
             {
               "id": "o3",
-              "text": "[[feet|pies]]"
+              "text": "[[Ten|Diez]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "grammar",
-          "complexity": 2
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U28_I16",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '[[She|Ella]] [[uses|usa]] her ___ to [[type|teclear]].' (los dedos = fingers)",
-          "correct_answer": "fingers",
-          "mastery_tag": "vocabulary",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U28_I17",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[shoulder|hombro]]'?",
+          "interaction_id": "A1_U28_I45",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Point|Señala]] [[to|a]] [[your|tu]] [[nose|nariz]] — [[now|ahora]] [[your|tu]] [[left|izquierda]] [[ear|oreja]]! [[This|Este]] [[is|es]] [[a|un]] [[fun|divertido]] [[game|juego]]! [[OK|De acuerdo]], [[now|ahora]] [[touch|toca]] [[your|tu]] [[right|derecha]] [[shoulder|hombro]] [[with|con]] [[your|tu]] [[left|izquierda]] [[hand|mano]]. [[Wow|Vaya]], [[that's|eso es]] [[tricky|difícil]]! [[How|Cuántos]] [[many|cuántos]] [[fingers|dedos]] [[do|tienes]] [[you|tú]] [[have|tienes]]? [[Ten|Diez]] [[fingers|dedos]] [[and|y]] [[ten|diez]] [[toes|dedos del pie]]! [[Just|Solo]] [[like|como]] [[everybody|todo el mundo]] [[else|demás]]. [[Ha|Ja]]! [[And|Y]] [[how|cuántos]] [[many|cuántos]] [[eyes|ojos]] [[do|tienes]] [[you|tú]] [[have|tienes]]?",
+          "question_en": "[[How|Cuántos]] [[many|cuántos]] [[toes|dedos del pie]] [[does|tiene]] [[a|una]] [[person|persona]] [[have|tiene]]?",
           "options": [
             {
               "id": "o1",
+              "text": "[[Ten|Diez]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Eight|Ocho]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Twelve|Doce]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U28_I46",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Point|Señala]] [[to|a]] [[your|tu]] [[nose|nariz]] — [[now|ahora]] [[your|tu]] [[left|izquierda]] [[ear|oreja]]! [[This|Este]] [[is|es]] [[a|un]] [[fun|divertido]] [[game|juego]]! [[OK|De acuerdo]], [[now|ahora]] [[touch|toca]] [[your|tu]] [[right|derecha]] [[shoulder|hombro]] [[with|con]] [[your|tu]] [[left|izquierda]] [[hand|mano]]. [[Wow|Vaya]], [[that's|eso es]] [[tricky|difícil]]! [[How|Cuántos]] [[many|cuántos]] [[fingers|dedos]] [[do|tienes]] [[you|tú]] [[have|tienes]]? [[Ten|Diez]] [[fingers|dedos]] [[and|y]] [[ten|diez]] [[toes|dedos del pie]]! [[Just|Solo]] [[like|como]] [[everybody|todo el mundo]] [[else|demás]]. [[Ha|Ja]]! [[And|Y]] [[how|cuántos]] [[many|cuántos]] [[eyes|ojos]] [[do|tienes]] [[you|tú]] [[have|tienes]]?",
+          "question_en": "[[What|Qué]] [[word|palabra]] [[means|significa]] 'Oreja'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Eye|Ojo]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Ear|Oreja]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Nose|Nariz]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U28_I47",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Point|Señala]] [[to|a]] [[your|tu]] [[nose|nariz]] — [[now|ahora]] [[your|tu]] [[left|izquierda]] [[ear|oreja]]! [[This|Este]] [[is|es]] [[a|un]] [[fun|divertido]] [[game|juego]]! [[OK|De acuerdo]], [[now|ahora]] [[touch|toca]] [[your|tu]] [[right|derecha]] [[shoulder|hombro]] [[with|con]] [[your|tu]] [[left|izquierda]] [[hand|mano]]. [[Wow|Vaya]], [[that's|eso es]] [[tricky|difícil]]! [[How|Cuántos]] [[many|cuántos]] [[fingers|dedos]] [[do|tienes]] [[you|tú]] [[have|tienes]]? [[Ten|Diez]] [[fingers|dedos]] [[and|y]] [[ten|diez]] [[toes|dedos del pie]]! [[Just|Solo]] [[like|como]] [[everybody|todo el mundo]] [[else|demás]]. [[Ha|Ja]]! [[And|Y]] [[how|cuántos]] [[many|cuántos]] [[eyes|ojos]] [[do|tienes]] [[you|tú]] [[have|tienes]]?",
+          "question_en": "[[What|Qué]] [[word|palabra]] [[means|significa]] 'Hombro'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Shoulder|Hombro]]"
+            },
+            {
+              "id": "o2",
               "text": "[[Elbow|Codo]]"
             },
             {
-              "id": "o2",
+              "id": "o3",
               "text": "[[Knee|Rodilla]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[Shoulder|Hombro]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U28_I18",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'I have ten ___ on my hands.' (dedos = fingers) ([[weather|tiempo]])",
-          "correct_answer": "fingers",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U28_I19",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué parte del cuerpo está entre (between) el muslo y el pie?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[The knee|La rodilla]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[The elbow|El codo]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[The shoulder|El hombro]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U28_I20",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'I [[bend|doblo]] my ___ to pick up something.' (rodilla = knee)",
-          "correct_answer": "knee",
-          "mastery_tag": "vocabulary",
-          "complexity": 2
-        }
-      ]
-    },
-    {
-      "block_id": "B3",
-      "title": "Have/Has Got: Physical Descriptions",
-      "content": [
-        {
-          "interaction_id": "U28_I21",
-          "type": "multiple_choice",
-          "prompt_es": "'[[She|Ella]] ___ long brown hair.' ¿Qué forma?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[has got|tiene (3ª)]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[have got|tengo (1ª)]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[is got|incorrecto]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U28_I22",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'My brother ___ big blue eyes.' (has got) ([[got|obtuvo/obtuve]])",
-          "correct_answer": "has got",
-          "mastery_tag": "grammar",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U28_I23",
-          "type": "multiple_choice",
-          "prompt_es": "'[[I|Yo]] ___ short black hair and brown eyes.'",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[have got|tengo]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[has got|tiene]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[is got|incorrecto]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U28_I24",
-          "type": "sentence_building",
-          "prompt_es": "Forma: 'Ella tiene el pelo largo y rizado.' ([[weather|tiempo]])",
-          "words": [
-            {
-              "id": "w1",
-              "text": "[[She|Ella]]"
-            },
-            {
-              "id": "w2",
-              "text": "[[has got|tiene]]"
-            },
-            {
-              "id": "w3",
-              "text": "[[long|largo]]"
-            },
-            {
-              "id": "w4",
-              "text": "[[curly|rizado]]"
-            },
-            {
-              "id": "w5",
-              "text": "[[hair|pelo]]"
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U28_I25",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál describe correctamente a alguien con ojos verdes y pelo corto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[He has got long hair and blue eyes|Tiene el pelo largo y los ojos azules]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[He has got green eyes and short hair|Tiene los ojos verdes y el pelo corto]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[He has got dark eyes and long hair|Tiene los ojos oscuros y el pelo largo]]"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U28_I26",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '[[The baby|El bebé]] ___ tiny little fingers and toes.' (has got)",
-          "correct_answer": "has got",
-          "mastery_tag": "grammar",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U28_I27",
-          "type": "multiple_choice",
-          "prompt_es": "Pregunta: '___ she got blue eyes?' ¿Cómo preguntas?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Have|Tiene (incorrecto)]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Does|¿Tiene? (simple present — también válido)]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[Has|¿Tiene? (have got)]]"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U28_I28",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'My dad ___ a beard and a moustache.' (has got) ([[and|y]])",
-          "correct_answer": "has got",
-          "mastery_tag": "grammar",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U28_I29",
-          "type": "multiple_choice",
-          "prompt_es": "Respuesta a '[[Has she got freckles?|¿Tiene pecas?]]' — (sí)",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Yes, she has|Sí, las tiene]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Yes, she have|Sí (incorrecto)]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[Yes, she is|Sí (incorrecto)]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U28_I30",
-          "type": "sentence_building",
-          "prompt_es": "Forma: '¿Tiene tu padre el pelo rizado?' ([[weather|tiempo]])",
-          "words": [
-            {
-              "id": "w1",
-              "text": "[[Has|Tiene]]"
-            },
-            {
-              "id": "w2",
-              "text": "[[your|tu]]"
-            },
-            {
-              "id": "w3",
-              "text": "[[father|padre]]"
-            },
-            {
-              "id": "w4",
-              "text": "[[got|got]]"
-            },
-            {
-              "id": "w5",
-              "text": "[[curly|rizado]]"
-            },
-            {
-              "id": "w6",
-              "text": "[[hair?|pelo?]]"
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "grammar",
-          "complexity": 2
-        }
-      ]
-    },
-    {
-      "block_id": "B4",
-      "title": "This/These + Body Parts",
-      "content": [
-        {
-          "interaction_id": "U28_I31",
-          "type": "multiple_choice",
-          "prompt_es": "Usamos '[[this|este/esta]]' para singular y '[[these|estos/estas]]' para plural. '¿Qué es esto?' (señalando una mano)",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[This is my hand|Esta es mi mano]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[These are my hands|Estas son mis manos (plural — incorrecto para una)]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[Those are my hands|Esas son mis manos (lejos)]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U28_I32",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '___ are my feet.' (señalando los dos pies — plural) ([[weather|tiempo]])",
-          "correct_answer": "These",
-          "mastery_tag": "grammar",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U28_I33",
-          "type": "multiple_choice",
-          "prompt_es": "Señalando los brazos de alguien, ¿qué dices?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[This is her arm|Este es su brazo (singular)]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[These are her arms|Estos son sus brazos (plural)]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[This are her arms|Estos son sus brazos (incorrecto)]]"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U28_I34",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '___ is my nose.' (señalando la nariz — singular) ([[weather|tiempo]])",
-          "correct_answer": "This",
-          "mastery_tag": "grammar",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U28_I35",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es correcta? (señalando los ojos)",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[This are my eyes|Estos son mis ojos (incorrecto)]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[These are my eyes|Estos son mis ojos]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[This is my eyes|Estos son mis ojos (incorrecto)]]"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U28_I36",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '___ is my elbow. It hurts!' (singular) ([[weather|tiempo]])",
-          "correct_answer": "This",
-          "mastery_tag": "grammar",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U28_I37",
-          "type": "multiple_choice",
-          "prompt_es": "'___ fingers are very long.' ¿These o This?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[This|Este (singular — incorrecto)]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[These|Estos (plural)]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[Those|Esos (lejos — también posible)]]"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U28_I38",
-          "type": "sentence_building",
-          "prompt_es": "Forma: 'Este es mi hombro derecho.' ([[weather|tiempo]])",
-          "words": [
-            {
-              "id": "w1",
-              "text": "[[This|Este]]"
-            },
-            {
-              "id": "w2",
-              "text": "[[is|es]]"
-            },
-            {
-              "id": "w3",
-              "text": "[[my|mi]]"
-            },
-            {
-              "id": "w4",
-              "text": "[[right|derecho]]"
-            },
-            {
-              "id": "w5",
-              "text": "[[shoulder|hombro]]"
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U28_I39",
-          "type": "multiple_choice",
-          "prompt_es": "'___ are my teeth.' ¿Cuál?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[This|Este (singular — incorrecto)]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[These|Estos (plural)]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[That|Ese (lejos — incorrecto contexto)]]"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U28_I40",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '___ is my knee — it is a bit [[sore|dolorida]].' (singular = This)",
-          "correct_answer": "This",
-          "mastery_tag": "grammar",
-          "complexity": 1
-        }
-      ]
-    },
-    {
-      "block_id": "B5",
-      "title": "Reading: At the Doctor's",
-      "content": [
-        {
-          "interaction_id": "U28_READ1",
-          "type": "reading_phase",
-          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[carefully|con atención]].",
-          "transcript": "[[Tom|Tom]] is at the [[doctor's|médico]]. [[He|Él]] has a [[sore|dolorida]] [[throat|garganta]] and [[his|su]] [[head|cabeza]] [[hurts|duele]]. '[[Good morning|Buenos días]], [[Tom|Tom]],' [[says|dice]] [[Dr Smith|Dr Smith]]. '[[What's|Qué te]] the [[matter|pasa]]?' '[[I've got|Tengo]] a [[bad|fuerte]] [[headache|dolor de cabeza]] and a [[sore throat|dolor de garganta]],' [[says|dice]] [[Tom|Tom]]. [[Dr Smith|Dr Smith]] [[examines|examina]] [[Tom|Tom]]. '[[Open|Abre]] your [[mouth|boca]], [[please|por favor]],' [[says|dice]] the [[doctor|médico]]. '[[Your|Tu]] [[throat|garganta]] is [[red|roja]] and your [[glands|glándulas]] are [[swollen|hinchadas]]. [[Can you|Puedes]] [[touch|tocar]] your [[toes|dedos de los pies]]?' '[[No|No]], my [[back|espalda]] [[also|también]] [[hurts|duele]],' [[says|dice]] [[Tom|Tom]]. '[[You need|Necesitas]] to [[rest|descansar]] for a [[few|unos]] [[days|días]],' [[says|dice]] [[Dr Smith|Dr Smith]]. '[[Here is|Aquí tienes]] a [[prescription|receta]] for [[some|algo de]] [[medicine|medicina]].'",
+          "interaction_id": "A1_U28_I48",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
           "mastery_tag": "reading",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U28_I41",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué le duele a Tom? ([[weather|tiempo]])",
+          "complexity": 2,
+          "transcript": "[[Point|Señala]] [[to|a]] [[your|tu]] [[nose|nariz]] — [[now|ahora]] [[your|tu]] [[left|izquierda]] [[ear|oreja]]! [[This|Este]] [[is|es]] [[a|un]] [[fun|divertido]] [[game|juego]]! [[OK|De acuerdo]], [[now|ahora]] [[touch|toca]] [[your|tu]] [[right|derecha]] [[shoulder|hombro]] [[with|con]] [[your|tu]] [[left|izquierda]] [[hand|mano]]. [[Wow|Vaya]], [[that's|eso es]] [[tricky|difícil]]! [[How|Cuántos]] [[many|cuántos]] [[fingers|dedos]] [[do|tienes]] [[you|tú]] [[have|tienes]]? [[Ten|Diez]] [[fingers|dedos]] [[and|y]] [[ten|diez]] [[toes|dedos del pie]]! [[Just|Solo]] [[like|como]] [[everybody|todo el mundo]] [[else|demás]]. [[Ha|Ja]]! [[And|Y]] [[how|cuántos]] [[many|cuántos]] [[eyes|ojos]] [[do|tienes]] [[you|tú]] [[have|tienes]]?",
+          "question_en": "[[What|Qué]] [[is|es]] [[the|el]] [[plural|plural]] [[of|de]] 'foot'?",
           "options": [
             {
               "id": "o1",
-              "text": "Los pies y las manos"
+              "text": "[[foots|Incorrecto]]"
             },
             {
               "id": "o2",
-              "text": "La cabeza y la garganta"
+              "text": "[[feets|Incorrecto]]"
             },
             {
               "id": "o3",
-              "text": "El estómago y los brazos"
+              "text": "[[feet|Pies]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading",
-          "complexity": 1
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U28_I42",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué le pide el doctor a Tom que haga?",
+          "interaction_id": "A1_U28_I49",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Point|Señala]] [[to|a]] [[your|tu]] [[nose|nariz]] — [[now|ahora]] [[your|tu]] [[left|izquierda]] [[ear|oreja]]! [[This|Este]] [[is|es]] [[a|un]] [[fun|divertido]] [[game|juego]]! [[OK|De acuerdo]], [[now|ahora]] [[touch|toca]] [[your|tu]] [[right|derecha]] [[shoulder|hombro]] [[with|con]] [[your|tu]] [[left|izquierda]] [[hand|mano]]. [[Wow|Vaya]], [[that's|eso es]] [[tricky|difícil]]! [[How|Cuántos]] [[many|cuántos]] [[fingers|dedos]] [[do|tienes]] [[you|tú]] [[have|tienes]]? [[Ten|Diez]] [[fingers|dedos]] [[and|y]] [[ten|diez]] [[toes|dedos del pie]]! [[Just|Solo]] [[like|como]] [[everybody|todo el mundo]] [[else|demás]]. [[Ha|Ja]]! [[And|Y]] [[how|cuántos]] [[many|cuántos]] [[eyes|ojos]] [[do|tienes]] [[you|tú]] [[have|tienes]]?",
+          "question_en": "[[What|Qué]] [[does|significa]] 'Back' [[mean|significa]] [[as|como]] [[a|una]] [[body|parte del]] [[part|cuerpo]]?",
           "options": [
             {
               "id": "o1",
-              "text": "[[Close his mouth|Que cierre la boca]]"
+              "text": "[[Front|Frente]]"
             },
             {
               "id": "o2",
-              "text": "[[Open his mouth|Que abra la boca]]"
+              "text": "[[Back/spine area|Espalda]]"
             },
             {
               "id": "o3",
-              "text": "[[Raise his arms|Que levante los brazos]]"
+              "text": "[[Neck|Cuello]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading",
-          "complexity": 1
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U28_I43",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo está la garganta de Tom? ([[weather|tiempo]])",
+          "interaction_id": "A1_U28_I50",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Point|Señala]] [[to|a]] [[your|tu]] [[nose|nariz]] — [[now|ahora]] [[your|tu]] [[left|izquierda]] [[ear|oreja]]! [[This|Este]] [[is|es]] [[a|un]] [[fun|divertido]] [[game|juego]]! [[OK|De acuerdo]], [[now|ahora]] [[touch|toca]] [[your|tu]] [[right|derecha]] [[shoulder|hombro]] [[with|con]] [[your|tu]] [[left|izquierda]] [[hand|mano]]. [[Wow|Vaya]], [[that's|eso es]] [[tricky|difícil]]! [[How|Cuántos]] [[many|cuántos]] [[fingers|dedos]] [[do|tienes]] [[you|tú]] [[have|tienes]]? [[Ten|Diez]] [[fingers|dedos]] [[and|y]] [[ten|diez]] [[toes|dedos del pie]]! [[Just|Solo]] [[like|como]] [[everybody|todo el mundo]] [[else|demás]]. [[Ha|Ja]]! [[And|Y]] [[how|cuántos]] [[many|cuántos]] [[eyes|ojos]] [[do|tienes]] [[you|tú]] [[have|tienes]]?",
+          "question_en": "[[Which|Cuál]] [[body|parte]] [[part|del cuerpo]] [[is|es]] [[between|entre]] [[the|la]] [[head|cabeza]] [[and|y]] [[the|los]] [[shoulders|hombros]]?",
           "options": [
             {
               "id": "o1",
-              "text": "Azul y fría"
-            },
-            {
-              "id": "o2",
-              "text": "Roja y con las glándulas hinchadas"
-            },
-            {
-              "id": "o3",
-              "text": "Normal, sin problemas"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U28_I44",
-          "type": "multiple_choice",
-          "prompt_es": "¿Puede Tom tocar los dedos de los pies? ([[weather|tiempo]])",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Sí, fácilmente"
-            },
-            {
-              "id": "o2",
-              "text": "No, porque también le duele la espalda"
-            },
-            {
-              "id": "o3",
-              "text": "No lo intenta"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U28_I45",
-          "type": "fill_blanks",
-          "prompt_es": "El doctor le da a Tom una ___ para comprar medicamentos. (receta = prescription) ([[weather|tiempo]])",
-          "correct_answer": "prescription",
-          "mastery_tag": "reading",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U28_I46",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué recomienda el médico a Tom? ([[weather|tiempo]])",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Hacer ejercicio"
-            },
-            {
-              "id": "o2",
-              "text": "Descansar unos días"
-            },
-            {
-              "id": "o3",
-              "text": "Trabajar más"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U28_I47",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se llama el médico?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Dr Jones|Dr Jones]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Dr Brown|Dr Brown]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[Dr Smith|Dr Smith]]"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "reading",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U28_I48",
-          "type": "sentence_building",
-          "prompt_es": "Forma: 'Me duele la cabeza y la garganta.' ([[weather|tiempo]])",
-          "words": [
-            {
-              "id": "w1",
-              "text": "[[My|Mi]]"
-            },
-            {
-              "id": "w2",
-              "text": "[[head|cabeza]]"
-            },
-            {
-              "id": "w3",
-              "text": "[[and|y]]"
-            },
-            {
-              "id": "w4",
-              "text": "[[my|mi]]"
-            },
-            {
-              "id": "w5",
-              "text": "[[throat|garganta]]"
-            },
-            {
-              "id": "w6",
-              "text": "[[hurt|duelen]]"
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "reading",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U28_I49",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué parte del cuerpo NO se menciona en el texto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Throat|Garganta]]"
-            },
-            {
-              "id": "o2",
               "text": "[[Back|Espalda]]"
             },
             {
+              "id": "o2",
+              "text": "[[Chest|Pecho]]"
+            },
+            {
               "id": "o3",
-              "text": "[[Knee|Rodilla]]"
+              "text": "[[Neck|Cuello]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "reading",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U28_I50",
-          "type": "fill_blanks",
-          "prompt_es": "Según el texto, Tom tiene un dolor de cabeza muy ___ (fuerte = bad). ([[weather|tiempo]])",
-          "correct_answer": "bad",
-          "mastery_tag": "reading",
-          "complexity": 1
+          "correct_answer": "o3"
         }
       ]
     },
     {
-      "block_id": "B28_REC",
-      "title": "Block 6: Recycling – Past Events",
+      "block_id": "B6",
+      "title": "Production",
       "content": [
         {
-          "interaction_id": "A1_U28_B28_REC_MC1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es el [[past simple|pasado simple]] de \"[[to be|ser/estar]]\"?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[was/were|era/estaba - eran/estaban]]"
-            },
-            {
-              "id": "o2",
-              "text": "is/are"
-            },
-            {
-              "id": "o3",
-              "text": "be/beed"
-            },
-            {
-              "id": "o4",
-              "text": "wased/wered"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "past_simple"
-          ]
-        },
-        {
-          "interaction_id": "A1_U28_B28_REC_FB2",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: \"[[Yesterday|Ayer]] she ___ (go) to the [[market|mercado]] and ___ (buy) some [[vegetables|verduras]].\"",
-          "stimulus_en": "Yesterday she ___ to the market and ___ some vegetables.",
-          "correct_answer": "went / bought",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "past_simple"
-          ]
-        },
-        {
-          "interaction_id": "A1_U28_B28_REC_MC3",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se forma la negativa del [[past simple|pasado simple]]?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[didn't + verb|didn't + verbo]]"
-            },
-            {
-              "id": "o2",
-              "text": "don't + verb"
-            },
-            {
-              "id": "o3",
-              "text": "not + past verb"
-            },
-            {
-              "id": "o4",
-              "text": "did not + past verb"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "past_simple"
-          ]
-        },
-        {
-          "interaction_id": "A1_U28_B28_REC_SW4",
-          "type": "short_writing",
-          "prompt_es": "Escribe sobre lo que hiciste el fin de semana pasado. Usa [[I went|fui]], [[I saw|vi]], [[I ate|comí]], [[I met|quedé con]].",
+          "interaction_id": "A1_U28_I51",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
           "mastery_tag": "production",
           "complexity": 3,
-          "concept_tags": [
-            "production",
-            "free_writing"
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Arm|Brazo]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Foot|Pie]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Head|Cabeza]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Leg|Pierna]]"
+            }
           ],
-          "example_answer": "Last weekend I went to the cinema with my friends. We saw a great film. After the cinema we ate pizza at a restaurant. I met my cousin in the city centre. It was a great day!"
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
+          ]
         },
         {
-          "interaction_id": "A1_U28_B28_REC_SW5",
-          "type": "short_writing",
-          "prompt_es": "Escribe un correo contando tus vacaciones del año pasado. Usa [[I visited|visité]], [[The weather was|El tiempo estaba]], [[I stayed|me alojé]], [[I loved|me encantó]].",
+          "interaction_id": "A1_U28_I52",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
           "mastery_tag": "production",
           "complexity": 3,
-          "concept_tags": [
-            "production",
-            "free_writing"
-          ],
-          "example_answer": "Hi Maria! Last summer I visited London. The weather was cool but dry. I stayed in a small hotel near the centre. I visited the British Museum and the Tower of London. I loved the city! Love, Ana."
-        },
-        {
-          "interaction_id": "A1_U28_B28_REC_MC6",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la pregunta correcta en [[past simple|pasado simple]]?",
           "options": [
             {
-              "id": "o1",
-              "text": "[[Did you go to the party?|¿Fuiste a la fiesta?]]"
+              "id": "w1",
+              "text": "[[Foot|Pie]]"
             },
             {
-              "id": "o2",
-              "text": "Did you went?"
+              "id": "w2",
+              "text": "[[Nose|Nariz]]"
             },
             {
-              "id": "o3",
-              "text": "You did go?"
+              "id": "w3",
+              "text": "[[Hand|Mano]]"
             },
             {
-              "id": "o4",
-              "text": "Went you to party?"
+              "id": "w4",
+              "text": "[[Eye|Ojo]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "past_simple",
-            "questions"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "B28_EX",
-      "title": "Block 7: Extra Practice – Past Events",
-      "content": [
-        {
-          "interaction_id": "A1_U28_B28_EX_MC1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es el [[past simple|pasado simple]] de \"[[to see|ver]]\"?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[saw|vi/vio]]"
-            },
-            {
-              "id": "o2",
-              "text": "seen"
-            },
-            {
-              "id": "o3",
-              "text": "sawed"
-            },
-            {
-              "id": "o4",
-              "text": "seed"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "past_simple",
-            "irregular_verbs"
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "A1_U28_B28_EX_MC2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es el [[past simple|pasado simple]] de \"[[to eat|comer]]\"?",
+          "interaction_id": "A1_U28_I53",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
           "options": [
             {
-              "id": "o1",
-              "text": "[[ate|comí/comió]]"
+              "id": "w1",
+              "text": "[[Nose|Nariz]]"
             },
             {
-              "id": "o2",
-              "text": "eated"
+              "id": "w2",
+              "text": "[[Back|Espalda]]"
             },
             {
-              "id": "o3",
-              "text": "eaten"
+              "id": "w3",
+              "text": "[[Ear|Oreja]]"
             },
             {
-              "id": "o4",
-              "text": "ated"
+              "id": "w4",
+              "text": "[[Mouth|Boca]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "past_simple",
-            "irregular_verbs"
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
+        },
+        {
+          "interaction_id": "A1_U28_I54",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Back|Espalda]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Toe|Dedo del pie]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Neck|Cuello]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Shoulder|Hombro]]"
+            }
+          ],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U28_I55",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Can|Puedes]] [[you|tú]] [[touch|tocar]] [[your|tu]] [[nose|nariz]] [[with|con]] [[your|tu]] ______?",
+          "correct_answer": "finger"
+        },
+        {
+          "interaction_id": "A1_U28_I56",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[I|Yo]] [[have|tengo]] ______ [[eyes|ojos]].",
+          "correct_answer": "two"
+        },
+        {
+          "interaction_id": "A1_U28_I57",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[She|Ella]] [[has|tiene]] [[a|un]] [[long|largo]] ______.",
+          "correct_answer": "neck"
+        },
+        {
+          "interaction_id": "A1_U28_I58",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Point|Señala]] [[to|a]] [[your|tu]] [[nose|nariz]] — [[now|ahora]] [[your|tu]] [[left|izquierda]] [[ear|oreja]]!",
+          "correct_answer": true
+        },
+        {
+          "interaction_id": "A1_U28_I59",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[This|Este]] [[is|es]] [[a|un]] [[fun|divertido]] [[game|juego]]! [[OK|De acuerdo]], [[now|ahora]] [[touch|toca]] [[your|tu]] [[right|derecha]] [[shoulder|hombro]] [[with|con]] [[your|tu]] [[left|izquierda]] [[hand|mano]].",
+          "correct_answer": false
+        },
+        {
+          "interaction_id": "A1_U28_I60",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Wow|Vaya]], [[that's|eso es]] [[tricky|difícil]]! [[How|Cuántos]] [[many|cuántos]] [[fingers|dedos]] [[do|tienes]] [[you|tú]] [[have|tienes]]?",
+          "correct_answer": true
         }
       ]
     }

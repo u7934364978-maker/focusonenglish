@@ -90,7 +90,8 @@ Verification:
 - All types in VALID_TYPES, no forbidden types
 - `python -m py_compile scripts/generate-a1-framework-course.py` passes
 
-### [ ] Step: UNIT_DATA for units 11–60 and full generation
+### [x] Step: UNIT_DATA for units 11–60 and full generation
+<!-- chat-id: c97633fe-e355-4394-b0be-e2d18d856293 -->
 
 Populate the remaining 50 UNIT_DATA entries (units 11–60) inline in the script using `course-specifications.md` as source of truth:
 

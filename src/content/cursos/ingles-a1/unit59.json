@@ -1,1957 +1,1232 @@
 {
   "course": {
     "unit_id": "unit59",
-    "unit_title": "Free Time & Hobbies",
+    "unit_title": "Money & Currency",
     "level": "A1",
-    "total_duration_minutes": 25,
+    "total_duration_minutes": 60,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Identify common leisure activities and hobbies",
-    "Use verbs of preference (like, love, hate) with -ing forms",
-    "Discuss free time activities in simple sentences"
+    "Use money and currency vocabulary",
+    "Handle payment transactions in English",
+    "Use prepositions 'pay for / spend on'"
   ],
   "blocks": [
     {
-      "block_id": "b1",
-      "title": "Hobby Vocabulary",
+      "block_id": "B1",
+      "title": "Vocabulary Introduction",
       "content": [
         {
-          "interaction_id": "A1_U59_B1_I1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué actividad haces con un libro? ([[read a book|leer un libro]])",
+          "interaction_id": "A1_U59_I1",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Cash|Efectivo]]",
           "options": [
             {
               "id": "o1",
-              "text": "I read a book"
+              "text": "[[Efectivo|Cash]]"
             },
             {
               "id": "o2",
-              "text": "I listen to music"
+              "text": "[[Tarjeta de crédito|Credit card]]"
             },
             {
               "id": "o3",
-              "text": "I swim"
+              "text": "[[Cambio/Vuelta|Change]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U59_I2",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
           "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U59_B1_I2",
-          "type": "matching",
-          "prompt_es": "Une las aficiones:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Paint|Pintar]]",
-              "right": "Pintar"
-            },
-            {
-              "id": "p2",
-              "left": "[[Dance|Bailar]]",
-              "right": "Nadar"
-            },
-            {
-              "id": "p3",
-              "left": "[[Cook|Cocinar]]",
-              "right": "Cocinar"
-            },
-            {
-              "id": "p4",
-              "left": "[[Swim|Nadar]]",
-              "right": "Bailar"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p4",
-            "p3": "p3",
-            "p4": "p2"
-          },
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U59_B1_I3",
-          "type": "short_writing",
-          "prompt_es": "Escribe 'bailar' en inglés: ([[swimming|natación]])",
-          "stimulus_es": "Bailar",
-          "correct_answer": "Dance",
-          "mastery_tag": "vocabulary",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U59_B1_I4",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué haces con una consola? ([[play|jugar/tocar]])",
+          "stimulus_en": "[[Credit card|Tarjeta de crédito]]",
           "options": [
             {
               "id": "o1",
-              "text": "Go for a walk"
+              "text": "[[Cambio/Vuelta|Change]]"
             },
             {
               "id": "o2",
-              "text": "Play video games"
+              "text": "[[Tarjeta de crédito|Credit card]]"
             },
             {
               "id": "o3",
-              "text": "Listen to music"
+              "text": "[[Recibo|Receipt]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U59_I3",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
           "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "stimulus_en": "[[Change|Cambio/Vuelta]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Recibo|Receipt]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Moneda|Coin]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Cambio/Vuelta|Change]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U59_I4",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Receipt|Recibo]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Recibo|Receipt]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Moneda|Coin]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Billete (de banco)|Banknote]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U59_I5",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Coin|Moneda]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Billete (de banco)|Banknote]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Moneda|Coin]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Divisa/Moneda|Currency]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U59_I6",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Banknote|Billete (de banco)]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Divisa/Moneda|Currency]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Tipo de cambio|Exchange rate]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Billete (de banco)|Banknote]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U59_I7",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Divisa/Moneda]]",
+          "correct_answer": "Currency"
+        },
+        {
+          "interaction_id": "A1_U59_I8",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Tipo de cambio]]",
+          "correct_answer": "Exchange rate"
+        },
+        {
+          "interaction_id": "A1_U59_I9",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Cajero automático]]",
+          "correct_answer": "ATM"
+        },
+        {
+          "interaction_id": "A1_U59_I10",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Banco]]",
+          "correct_answer": "Bank"
         }
       ]
     },
     {
-      "block_id": "b2",
-      "title": "Expressing Preferences",
+      "block_id": "B2",
+      "title": "Vocabulary in Context",
       "content": [
         {
-          "interaction_id": "A1_U59_B2_I1",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'Me gusta NADAR' ([[swimming|natación]])",
-          "stimulus_en": "I like ________.",
-          "correct_answer": "swimming",
-          "mastery_tag": "grammar",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
+          "interaction_id": "A1_U59_I11",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Receipt|Recibo]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Receipt|Recibo]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Currency|Divisa/Moneda]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Bank|Banco]]"
+            }
+          ],
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "A1_U59_B2_I2",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'Ella ama cocinar para sus amigos' ([[swimming|natación]])",
+          "interaction_id": "A1_U59_I12",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Coin|Moneda]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Exchange rate|Tipo de cambio]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Coin|Moneda]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Payment|Pago]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U59_I13",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Banknote|Billete (de banco)]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[ATM|Cajero automático]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Invoice|Factura]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Banknote|Billete (de banco)]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U59_I14",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Currency|Divisa/Moneda]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Currency|Divisa/Moneda]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Bank|Banco]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Wallet|Cartera]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U59_I15",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[pay|pago]] ______ [[my|mis]] [[bills|facturas]] [[by|con]] [[credit|tarjeta de crédito]] [[card|tarjeta de crédito]].",
+          "correct_answer": "for"
+        },
+        {
+          "interaction_id": "A1_U59_I16",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[She|Ella]] [[spends|gasta]] [[a|mucho]] [[lot|mucho]] [[of|en]] [[money|dinero]] ______ [[clothes|ropa]].",
+          "correct_answer": "on"
+        },
+        {
+          "interaction_id": "A1_U59_I17",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Do|Aceptas]] [[you|tú]] [[accept|aceptas]] ______ [[card|tarjeta]], [[or|o]] [[is|es]] [[it|solo]] [[cash|efectivo]] [[only|solo]]?",
+          "correct_answer": "credit"
+        },
+        {
+          "interaction_id": "A1_U59_I18",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
           "options": [
             {
               "id": "w1",
-              "text": "She"
+              "text": "[[Cash|Efectivo]]"
             },
             {
               "id": "w2",
-              "text": "loves"
+              "text": "[[Change|Cambio/Vuelta]]"
             },
             {
               "id": "w3",
-              "text": "cooking"
-            },
-            {
-              "id": "w4",
-              "text": "for"
-            },
-            {
-              "id": "w5",
-              "text": "her"
-            },
-            {
-              "id": "w6",
-              "text": "friends"
+              "text": "[[Credit card|Tarjeta de crédito]]"
             }
           ],
           "correct_answer": [
             "w1",
-            "w2",
             "w3",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U59_I19",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Coin|Moneda]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Currency|Divisa/Moneda]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Banknote|Billete (de banco)]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U59_I20",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[ATM|Cajero automático]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Payment|Pago]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Bank|Banco]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Grammar — Affirmative",
+      "content": [
+        {
+          "interaction_id": "A1_U59_I21",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[pay|pago]] ______ [[my|mis]] [[bills|facturas]] [[by|con]] [[credit|tarjeta de crédito]] [[card|tarjeta de crédito]].",
+          "correct_answer": "for"
+        },
+        {
+          "interaction_id": "A1_U59_I22",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[She|Ella]] [[spends|gasta]] [[a|mucho]] [[lot|mucho]] [[of|en]] [[money|dinero]] ______ [[clothes|ropa]].",
+          "correct_answer": "on"
+        },
+        {
+          "interaction_id": "A1_U59_I23",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Do|Aceptas]] [[you|tú]] [[accept|aceptas]] ______ [[card|tarjeta]], [[or|o]] [[is|es]] [[it|solo]] [[cash|efectivo]] [[only|solo]]?",
+          "correct_answer": "credit"
+        },
+        {
+          "interaction_id": "A1_U59_I24",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[need|necesito]] [[to|sacar]] [[withdraw|sacar]] [[some|algo de]] [[money|dinero]] ______ [[the|el]] [[ATM|cajero automático]].",
+          "correct_answer": "from"
+        },
+        {
+          "interaction_id": "A1_U59_I25",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[What|Cuál]] [[is|es]] [[the|el]] ______ [[for|para]] [[euros|euros]] [[to|a]] [[dollars|dólares]] [[today|hoy]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[exchange rate|exchange rate]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[on|on]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[credit|credit]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U59_I26",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Can|¿Puedo]] [[I|yo]] [[pay|pagar]] ______ [[contactless|pago sin contacto]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[credit|credit]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[by|by]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[from|from]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U59_I27",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[pay|pago]] ______ [[my|mis]] [[bills|facturas]] [[by|con]] [[credit|tarjeta de crédito]] [[card|tarjeta de crédito]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[from|from]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[exchange rate|exchange rate]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[for|for]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U59_I28",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[She|Ella]] [[spends|gasta]] [[a|mucho]] [[lot|mucho]] [[of|en]] [[money|dinero]] ______ [[clothes|ropa]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[on|on]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[exchange rate|exchange rate]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[by|by]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U59_I29",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Change|Cambio/Vuelta]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Cash|Efectivo]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Coin|Moneda]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
+          ]
+        },
+        {
+          "interaction_id": "A1_U59_I30",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Exchange rate|Tipo de cambio]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Banknote|Billete (de banco)]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Bank|Banco]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Grammar — Negative & Questions",
+      "content": [
+        {
+          "interaction_id": "A1_U59_I31",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Do|Aceptas]] [[you|tú]] [[accept|aceptas]] ______ [[card|tarjeta]], [[or|o]] [[is|es]] [[it|solo]] [[cash|efectivo]] [[only|solo]]?",
+          "correct_answer": "credit"
+        },
+        {
+          "interaction_id": "A1_U59_I32",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[need|necesito]] [[to|sacar]] [[withdraw|sacar]] [[some|algo de]] [[money|dinero]] ______ [[the|el]] [[ATM|cajero automático]].",
+          "correct_answer": "from"
+        },
+        {
+          "interaction_id": "A1_U59_I33",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[What|Cuál]] [[is|es]] [[the|el]] ______ [[for|para]] [[euros|euros]] [[to|a]] [[dollars|dólares]] [[today|hoy]]?",
+          "correct_answer": "exchange rate"
+        },
+        {
+          "interaction_id": "A1_U59_I34",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[need|necesito]] [[to|sacar]] [[withdraw|sacar]] [[some|algo de]] [[money|dinero]] ______ [[the|el]] [[ATM|cajero automático]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[from|from]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[by|by]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[for|for]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U59_I35",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[What|Cuál]] [[is|es]] [[the|el]] ______ [[for|para]] [[euros|euros]] [[to|a]] [[dollars|dólares]] [[today|hoy]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[for|for]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[exchange rate|exchange rate]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[on|on]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U59_I36",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Can|¿Puedo]] [[I|yo]] [[pay|pagar]] ______ [[contactless|pago sin contacto]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[on|on]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[credit|credit]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[by|by]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U59_I37",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[pay|pago]] ______ [[my|mis]] [[bills|facturas]] [[by|con]] [[credit|tarjeta de crédito]] [[card|tarjeta de crédito]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[for|for]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[credit|credit]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[from|from]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U59_I38",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Coin|Moneda]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Credit card|Tarjeta de crédito]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Currency|Divisa/Moneda]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Change|Cambio/Vuelta]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
             "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "syntax"
+            "w3"
           ]
         },
         {
-          "interaction_id": "A1_U59_B2_I3",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo dices que 'odias' algo? ([[swimming|natación]])",
-          "options": [
-            {
-              "id": "o1",
-              "text": "I love it"
-            },
-            {
-              "id": "o2",
-              "text": "I enjoy it"
-            },
-            {
-              "id": "o3",
-              "text": "I hate it"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U59_B2_I4",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'No me gusta ESCUCHAR música rock' ([[swimming|natación]])",
-          "stimulus_en": "I don't like ________ to rock music.",
-          "correct_answer": "listening",
+          "interaction_id": "A1_U59_I39",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
           "mastery_tag": "grammar",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U59_B2_I5",
-          "type": "audio_player",
-          "prompt_es": "Escucha las preferencias: ([[swimming|natación]])",
-          "audioUrl": "/audio/courses/ingles-a1/shared/preferences_ing.mp3",
-          "text": "I enjoy walking in the park and I love reading books.",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "b3",
-      "title": " Spare Time Activities",
-      "content": [
-        {
-          "interaction_id": "A1_U59_B3_I1",
-          "type": "matching",
-          "prompt_es": "Une las actividades de tiempo libre:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Go for a walk|Dar un paseo]]",
-              "right": "Ver una peli"
-            },
-            {
-              "id": "p2",
-              "left": "[[Watch a movie|Ver una peli]]",
-              "right": "Escuchar música"
-            },
-            {
-              "id": "p3",
-              "left": "[[Meet friends|Quedar con amigos]]",
-              "right": "Quedar con amigos"
-            },
-            {
-              "id": "p4",
-              "left": "[[Listen to music|Escuchar música]]",
-              "right": "Dar un paseo"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p4",
-            "p2": "p1",
-            "p3": "p3",
-            "p4": "p2"
-          },
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U59_B3_I2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué haces en el cine? ([[swimming|natación]])",
+          "complexity": 2,
           "options": [
             {
-              "id": "o1",
-              "text": "Watch a movie"
+              "id": "w1",
+              "text": "[[Exchange rate|Tipo de cambio]]"
             },
             {
-              "id": "o2",
-              "text": "Play video games"
+              "id": "w2",
+              "text": "[[Coin|Moneda]]"
             },
             {
-              "id": "o3",
-              "text": "Cook dinner"
+              "id": "w3",
+              "text": "[[Bank|Banco]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Banknote|Billete (de banco)]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
           ]
         },
         {
-          "interaction_id": "A1_U59_B3_I3",
-          "type": "short_writing",
-          "prompt_es": "Escribe 'escuchar música' en inglés: ([[swimming|natación]])",
-          "stimulus_es": "Escuchar música",
-          "correct_answer": "Listen to music",
-          "mastery_tag": "vocabulary",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U59_B3_I4",
-          "type": "true_false",
-          "prompt_es": "'Spare time' significa tiempo libre. ([[swimming|natación]])",
-          "correct_answer": true,
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "b4",
-      "title": "Mastery Section",
-      "content": [
-        {
-          "interaction_id": "A1_U59_B4_I2",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma -ing: ([[dance|bailar]])",
-          "stimulus_en": "I love ________ (read) and I enjoy ________ (dance).",
-          "correct_answer": "reading, dancing",
+          "interaction_id": "A1_U59_I40",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
           "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Payment|Pago]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Exchange rate|Tipo de cambio]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Wallet|Cartera]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[ATM|Cajero automático]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B5",
+      "title": "Reading Comprehension",
+      "content": [
+        {
+          "interaction_id": "A1_U59_I41",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[That|Eso]] [[will|serán]] [[be|serán]] [[twenty-five|veinticinco]] [[euros|euros]] [[fifty|cincuenta]] [[cents|céntimos]], [[please|por favor]]. [[Here|Aquí]] [[you|tiene]] [[are|tiene]] — [[I'm|voy a]] [[going|pagar]] [[to|en]] [[pay|efectivo]] [[in|efectivo]] [[cash|efectivo]]. [[I|Yo]] [[have|tengo]] [[a|un]] [[fifty|billete de cincuenta]] [[euro|euros]] [[note|billete]]. [[Thank|Gracias]]. [[Your|Su]] [[change|cambio/vuelta]] [[is|es]] [[twenty-four|veinticuatro]] [[euros|euros]] [[fifty|cincuenta]] [[cents|céntimos]]. [[Actually|En realidad]], [[do|aceptas]] [[you|tú]] [[accept|aceptas]] [[card|tarjeta]]? [[It's|Es]] [[more|más]] [[convenient|cómodo]]. [[Yes|Sí]], [[of|por]] [[course|supuesto]]. [[You|Puede]] [[can|puede]] [[pay|pagar]] [[by|con]] [[card|tarjeta]] [[or|o]] [[contactless|pago sin contacto]].",
+          "question_en": "[[How|Cuánto]] [[much|cuánto]] [[does|cuesta]] [[the|la]] [[purchase|compra]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[€20.50|20,50€]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[€25.50|25,50€]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[€30.50|30,50€]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U59_I42",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[That|Eso]] [[will|serán]] [[be|serán]] [[twenty-five|veinticinco]] [[euros|euros]] [[fifty|cincuenta]] [[cents|céntimos]], [[please|por favor]]. [[Here|Aquí]] [[you|tiene]] [[are|tiene]] — [[I'm|voy a]] [[going|pagar]] [[to|en]] [[pay|efectivo]] [[in|efectivo]] [[cash|efectivo]]. [[I|Yo]] [[have|tengo]] [[a|un]] [[fifty|billete de cincuenta]] [[euro|euros]] [[note|billete]]. [[Thank|Gracias]]. [[Your|Su]] [[change|cambio/vuelta]] [[is|es]] [[twenty-four|veinticuatro]] [[euros|euros]] [[fifty|cincuenta]] [[cents|céntimos]]. [[Actually|En realidad]], [[do|aceptas]] [[you|tú]] [[accept|aceptas]] [[card|tarjeta]]? [[It's|Es]] [[more|más]] [[convenient|cómodo]]. [[Yes|Sí]], [[of|por]] [[course|supuesto]]. [[You|Puede]] [[can|puede]] [[pay|pagar]] [[by|con]] [[card|tarjeta]] [[or|o]] [[contactless|pago sin contacto]].",
+          "question_en": "[[How|Cómo]] [[does|va a pagar]] [[the|el]] [[customer|cliente]] [[initially|inicialmente]] [[plan|va a pagar]] [[to|a]] [[pay|pagar]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[By card|Con tarjeta]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[In cash|En efectivo]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[By contactless|Con pago sin contacto]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U59_I43",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[That|Eso]] [[will|serán]] [[be|serán]] [[twenty-five|veinticinco]] [[euros|euros]] [[fifty|cincuenta]] [[cents|céntimos]], [[please|por favor]]. [[Here|Aquí]] [[you|tiene]] [[are|tiene]] — [[I'm|voy a]] [[going|pagar]] [[to|en]] [[pay|efectivo]] [[in|efectivo]] [[cash|efectivo]]. [[I|Yo]] [[have|tengo]] [[a|un]] [[fifty|billete de cincuenta]] [[euro|euros]] [[note|billete]]. [[Thank|Gracias]]. [[Your|Su]] [[change|cambio/vuelta]] [[is|es]] [[twenty-four|veinticuatro]] [[euros|euros]] [[fifty|cincuenta]] [[cents|céntimos]]. [[Actually|En realidad]], [[do|aceptas]] [[you|tú]] [[accept|aceptas]] [[card|tarjeta]]? [[It's|Es]] [[more|más]] [[convenient|cómodo]]. [[Yes|Sí]], [[of|por]] [[course|supuesto]]. [[You|Puede]] [[can|puede]] [[pay|pagar]] [[by|con]] [[card|tarjeta]] [[or|o]] [[contactless|pago sin contacto]].",
+          "question_en": "[[What|Qué]] [[note|billete]] [[does|tiene]] [[the|el]] [[customer|cliente]] [[have|tiene]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[A €20 note|Un billete de 20€]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[A €100 note|Un billete de 100€]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[A €50 euro note|Un billete de 50€]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U59_I44",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[That|Eso]] [[will|serán]] [[be|serán]] [[twenty-five|veinticinco]] [[euros|euros]] [[fifty|cincuenta]] [[cents|céntimos]], [[please|por favor]]. [[Here|Aquí]] [[you|tiene]] [[are|tiene]] — [[I'm|voy a]] [[going|pagar]] [[to|en]] [[pay|efectivo]] [[in|efectivo]] [[cash|efectivo]]. [[I|Yo]] [[have|tengo]] [[a|un]] [[fifty|billete de cincuenta]] [[euro|euros]] [[note|billete]]. [[Thank|Gracias]]. [[Your|Su]] [[change|cambio/vuelta]] [[is|es]] [[twenty-four|veinticuatro]] [[euros|euros]] [[fifty|cincuenta]] [[cents|céntimos]]. [[Actually|En realidad]], [[do|aceptas]] [[you|tú]] [[accept|aceptas]] [[card|tarjeta]]? [[It's|Es]] [[more|más]] [[convenient|cómodo]]. [[Yes|Sí]], [[of|por]] [[course|supuesto]]. [[You|Puede]] [[can|puede]] [[pay|pagar]] [[by|con]] [[card|tarjeta]] [[or|o]] [[contactless|pago sin contacto]].",
+          "question_en": "[[How|Cuánto]] [[much|cuánto]] [[change|cambio]] [[does|recibe]] [[the|el]] [[customer|cliente]] [[receive|recibe]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[€24.50|24,50€]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[€14.50|14,50€]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[€34.50|34,50€]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U59_I45",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[That|Eso]] [[will|serán]] [[be|serán]] [[twenty-five|veinticinco]] [[euros|euros]] [[fifty|cincuenta]] [[cents|céntimos]], [[please|por favor]]. [[Here|Aquí]] [[you|tiene]] [[are|tiene]] — [[I'm|voy a]] [[going|pagar]] [[to|en]] [[pay|efectivo]] [[in|efectivo]] [[cash|efectivo]]. [[I|Yo]] [[have|tengo]] [[a|un]] [[fifty|billete de cincuenta]] [[euro|euros]] [[note|billete]]. [[Thank|Gracias]]. [[Your|Su]] [[change|cambio/vuelta]] [[is|es]] [[twenty-four|veinticuatro]] [[euros|euros]] [[fifty|cincuenta]] [[cents|céntimos]]. [[Actually|En realidad]], [[do|aceptas]] [[you|tú]] [[accept|aceptas]] [[card|tarjeta]]? [[It's|Es]] [[more|más]] [[convenient|cómodo]]. [[Yes|Sí]], [[of|por]] [[course|supuesto]]. [[You|Puede]] [[can|puede]] [[pay|pagar]] [[by|con]] [[card|tarjeta]] [[or|o]] [[contactless|pago sin contacto]].",
+          "question_en": "[[What|Qué]] [[does|pregunta]] [[the|el]] [[customer|cliente]] [[ask|pregunta]] [[about|sobre]] [[at|al]] [[the|final]] [[end|final]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[If they give receipts|Si dan recibos]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[If they accept card|Si aceptan tarjeta]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[If there is a discount|Si hay descuento]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U59_I46",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[That|Eso]] [[will|serán]] [[be|serán]] [[twenty-five|veinticinco]] [[euros|euros]] [[fifty|cincuenta]] [[cents|céntimos]], [[please|por favor]]. [[Here|Aquí]] [[you|tiene]] [[are|tiene]] — [[I'm|voy a]] [[going|pagar]] [[to|en]] [[pay|efectivo]] [[in|efectivo]] [[cash|efectivo]]. [[I|Yo]] [[have|tengo]] [[a|un]] [[fifty|billete de cincuenta]] [[euro|euros]] [[note|billete]]. [[Thank|Gracias]]. [[Your|Su]] [[change|cambio/vuelta]] [[is|es]] [[twenty-four|veinticuatro]] [[euros|euros]] [[fifty|cincuenta]] [[cents|céntimos]]. [[Actually|En realidad]], [[do|aceptas]] [[you|tú]] [[accept|aceptas]] [[card|tarjeta]]? [[It's|Es]] [[more|más]] [[convenient|cómodo]]. [[Yes|Sí]], [[of|por]] [[course|supuesto]]. [[You|Puede]] [[can|puede]] [[pay|pagar]] [[by|con]] [[card|tarjeta]] [[or|o]] [[contactless|pago sin contacto]].",
+          "question_en": "[[What|Qué]] [[payment|formas de pago]] [[methods|pago]] [[are|se aceptan]] [[accepted|aceptan]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Cash only|Solo efectivo]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Card and contactless|Tarjeta y pago sin contacto]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[All methods|Todos los métodos]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U59_I47",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[That|Eso]] [[will|serán]] [[be|serán]] [[twenty-five|veinticinco]] [[euros|euros]] [[fifty|cincuenta]] [[cents|céntimos]], [[please|por favor]]. [[Here|Aquí]] [[you|tiene]] [[are|tiene]] — [[I'm|voy a]] [[going|pagar]] [[to|en]] [[pay|efectivo]] [[in|efectivo]] [[cash|efectivo]]. [[I|Yo]] [[have|tengo]] [[a|un]] [[fifty|billete de cincuenta]] [[euro|euros]] [[note|billete]]. [[Thank|Gracias]]. [[Your|Su]] [[change|cambio/vuelta]] [[is|es]] [[twenty-four|veinticuatro]] [[euros|euros]] [[fifty|cincuenta]] [[cents|céntimos]]. [[Actually|En realidad]], [[do|aceptas]] [[you|tú]] [[accept|aceptas]] [[card|tarjeta]]? [[It's|Es]] [[more|más]] [[convenient|cómodo]]. [[Yes|Sí]], [[of|por]] [[course|supuesto]]. [[You|Puede]] [[can|puede]] [[pay|pagar]] [[by|con]] [[card|tarjeta]] [[or|o]] [[contactless|pago sin contacto]].",
+          "question_en": "[[What|Qué]] [[does|significa]] 'Change' [[mean|significa]] [[in|en]] [[a|un]] [[financial|contexto financiero]] [[context|contexto]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[To exchange currency|Cambiar divisa]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Money returned after paying more than the price|Dinero devuelto después de pagar más]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[A discount given|Un descuento dado]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U59_I48",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[That|Eso]] [[will|serán]] [[be|serán]] [[twenty-five|veinticinco]] [[euros|euros]] [[fifty|cincuenta]] [[cents|céntimos]], [[please|por favor]]. [[Here|Aquí]] [[you|tiene]] [[are|tiene]] — [[I'm|voy a]] [[going|pagar]] [[to|en]] [[pay|efectivo]] [[in|efectivo]] [[cash|efectivo]]. [[I|Yo]] [[have|tengo]] [[a|un]] [[fifty|billete de cincuenta]] [[euro|euros]] [[note|billete]]. [[Thank|Gracias]]. [[Your|Su]] [[change|cambio/vuelta]] [[is|es]] [[twenty-four|veinticuatro]] [[euros|euros]] [[fifty|cincuenta]] [[cents|céntimos]]. [[Actually|En realidad]], [[do|aceptas]] [[you|tú]] [[accept|aceptas]] [[card|tarjeta]]? [[It's|Es]] [[more|más]] [[convenient|cómodo]]. [[Yes|Sí]], [[of|por]] [[course|supuesto]]. [[You|Puede]] [[can|puede]] [[pay|pagar]] [[by|con]] [[card|tarjeta]] [[or|o]] [[contactless|pago sin contacto]].",
+          "question_en": "[[Complete|Completa]]: '[[She|Ella]] [[spends|gasta]] [[her|sus]] [[savings|ahorros]] ______ [[travel|viajes]].'",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[for|para]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[on|en]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[at|a]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U59_I49",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[That|Eso]] [[will|serán]] [[be|serán]] [[twenty-five|veinticinco]] [[euros|euros]] [[fifty|cincuenta]] [[cents|céntimos]], [[please|por favor]]. [[Here|Aquí]] [[you|tiene]] [[are|tiene]] — [[I'm|voy a]] [[going|pagar]] [[to|en]] [[pay|efectivo]] [[in|efectivo]] [[cash|efectivo]]. [[I|Yo]] [[have|tengo]] [[a|un]] [[fifty|billete de cincuenta]] [[euro|euros]] [[note|billete]]. [[Thank|Gracias]]. [[Your|Su]] [[change|cambio/vuelta]] [[is|es]] [[twenty-four|veinticuatro]] [[euros|euros]] [[fifty|cincuenta]] [[cents|céntimos]]. [[Actually|En realidad]], [[do|aceptas]] [[you|tú]] [[accept|aceptas]] [[card|tarjeta]]? [[It's|Es]] [[more|más]] [[convenient|cómodo]]. [[Yes|Sí]], [[of|por]] [[course|supuesto]]. [[You|Puede]] [[can|puede]] [[pay|pagar]] [[by|con]] [[card|tarjeta]] [[or|o]] [[contactless|pago sin contacto]].",
+          "question_en": "[[What|Qué]] [[does|significa]] 'ATM' [[stand|son las siglas de]] [[for|de]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Automated Teller Machine|Cajero automático]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Account Transfer Method|Método de transferencia de cuenta]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Annual Transaction Monitor|Monitor de transacciones anuales]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U59_I50",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[That|Eso]] [[will|serán]] [[be|serán]] [[twenty-five|veinticinco]] [[euros|euros]] [[fifty|cincuenta]] [[cents|céntimos]], [[please|por favor]]. [[Here|Aquí]] [[you|tiene]] [[are|tiene]] — [[I'm|voy a]] [[going|pagar]] [[to|en]] [[pay|efectivo]] [[in|efectivo]] [[cash|efectivo]]. [[I|Yo]] [[have|tengo]] [[a|un]] [[fifty|billete de cincuenta]] [[euro|euros]] [[note|billete]]. [[Thank|Gracias]]. [[Your|Su]] [[change|cambio/vuelta]] [[is|es]] [[twenty-four|veinticuatro]] [[euros|euros]] [[fifty|cincuenta]] [[cents|céntimos]]. [[Actually|En realidad]], [[do|aceptas]] [[you|tú]] [[accept|aceptas]] [[card|tarjeta]]? [[It's|Es]] [[more|más]] [[convenient|cómodo]]. [[Yes|Sí]], [[of|por]] [[course|supuesto]]. [[You|Puede]] [[can|puede]] [[pay|pagar]] [[by|con]] [[card|tarjeta]] [[or|o]] [[contactless|pago sin contacto]].",
+          "question_en": "[[What|Qué]] [[word|palabra]] [[means|significa]] 'Ahorros'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Wallet|Cartera]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Savings|Ahorros]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Cash|Efectivo]]"
+            }
+          ],
+          "correct_answer": "o2"
+        }
+      ]
+    },
+    {
+      "block_id": "B6",
+      "title": "Production",
+      "content": [
+        {
+          "interaction_id": "A1_U59_I51",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
           "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U59_B4_I3",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Me gusta escuchar música' ([[swimming|natación]])",
-          "stimulus_es": "I like listening to music.",
-          "correct_answer": "I like listening to music",
-          "mastery_tag": "grammar",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U59_B4_I4",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál de estos es un hobby?",
           "options": [
             {
-              "id": "o1",
-              "text": "Working"
+              "id": "w1",
+              "text": "[[Credit card|Tarjeta de crédito]]"
             },
             {
-              "id": "o2",
-              "text": "[[Swimming|natación]]"
+              "id": "w2",
+              "text": "[[Coin|Moneda]]"
             },
             {
-              "id": "o3",
-              "text": "Sleeping"
+              "id": "w3",
+              "text": "[[Cash|Efectivo]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Change|Cambio/Vuelta]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "B59_5",
-      "title": "Block 5: Listening & Pronunciation",
-      "content": [
-        {
-          "interaction_id": "U59_I101",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[reading|lectura]])",
-          "stimulus_en": "I like reading books.",
-          "correct_answer": "I like reading books.",
-          "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-1.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U59_I102",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[cook|cocinar]])",
-          "stimulus_en": "She loves cooking dinner.",
-          "correct_answer": "She loves cooking dinner.",
-          "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-2.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U59_I103",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[swimming|natación]])",
-          "stimulus_en": "They enjoy swimming.",
-          "correct_answer": "They enjoy swimming.",
-          "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-3.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U59_I104",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[swimming|natación]])",
-          "stimulus_en": "I hate dancing.",
-          "correct_answer": "I hate dancing.",
-          "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-4.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U59_I105",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[swimming|natación]])",
-          "stimulus_en": "We meet friends on Sunday.",
-          "correct_answer": "We meet friends on Sunday.",
-          "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-5.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U59_I106",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[swimming|natación]])",
-          "stimulus_en": "I watch movies in my spare time.",
-          "correct_answer": "I watch movies in my spare time.",
-          "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-6.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U59_I107",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[play|jugar/tocar]])",
-          "stimulus_en": "He likes playing video games.",
-          "correct_answer": "He likes playing video games.",
-          "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-7.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U59_I108",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[swimming|natación]])",
-          "title": "Pronunciación: Reading",
-          "instructions": "La 'ea' suena como /iː/.",
-          "targetSentences": [
-            {
-              "text": "I like [[reading|leer]].",
-              "phonetic": "/ˈriːdɪŋ/",
-              "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-8.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U59_I108_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'ea' en 'reading'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Como una 'i' larga (/iː/)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como una 'e' corta"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U59_I109",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[swimming|natación]])",
-          "title": "Pronunciación: Dancing",
-          "instructions": "Escucha y repite la 'a' larga en inglés británico.",
-          "targetSentences": [
-            {
-              "text": "I like [[dancing|bailar]].",
-              "phonetic": "/ˈdɑːnsɪŋ/",
-              "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-9.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U59_I109_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'a' en 'dancing'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Como /ɑː/ (ah larga)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como una 'e' corta"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U59_I110",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[swimming|natación]])",
-          "title": "Pronunciación: Swimming",
-          "instructions": "Escucha y repite la 'i' corta.",
-          "targetSentences": [
-            {
-              "text": "I enjoy [[swimming|nadar]].",
-              "phonetic": "/ˈswɪmɪŋ/",
-              "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-10.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U59_I110_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'i' en 'swimming'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Corta (/ɪ/)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Larga (/iː/)"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U59_I111",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[swimming|natación]])",
-          "title": "Pronunciación: Hobby",
-          "instructions": "Escucha y repite la 'h' aspirada.",
-          "targetSentences": [
-            {
-              "text": "My [[hobby|afición]] is art.",
-              "phonetic": "/ˈhɒbi/",
-              "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-11.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U59_I111_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'h' inicial?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Aspirada (como un suspiro)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como una 'j' fuerte española"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U59_I112",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[swimming|natación]])",
-          "title": "Pronunciación: Spare time",
-          "instructions": "Escucha y repite la frase.",
-          "targetSentences": [
-            {
-              "text": "In my [[spare time|tiempo libre]].",
-              "phonetic": "/speə taɪm/",
-              "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-12.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U59_I112_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'a' en 'spare'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Como /eə/ (e-a suave)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como una 'a' fuerte"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U59_I113",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[swimming|natación]])",
-          "title": "Pronunciación: Movie",
-          "instructions": "La 'ie' suena como /i/.",
-          "targetSentences": [
-            {
-              "text": "Watch a [[movie|película]].",
-              "phonetic": "/ˈmuːvi/",
-              "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-13.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U59_I113_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Dónde recae el acento en 'movie'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "En la primera sílaba (MO-vie)"
-                },
-                {
-                  "id": "o2",
-                  "text": "En la segunda sílaba"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U59_I114",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[swimming|natación]])",
-          "title": "Pronunciación: Cooking",
-          "instructions": "La 'oo' suena como /ʊ/ corta.",
-          "targetSentences": [
-            {
-              "text": "I love [[cooking|cocinar]].",
-              "phonetic": "/ˈkʊkɪŋ/",
-              "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-14.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U59_I114_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'oo' en 'cooking'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Como una 'u' corta (/ʊ/)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como una 'o' larga"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U59_I115",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[swimming|natación]])",
-          "title": "Pronunciación: Preferences",
-          "instructions": "Escucha y repite la palabra completa.",
-          "targetSentences": [
-            {
-              "text": "Talk about [[preferences|preferencias]].",
-              "phonetic": "/ˈprɛfrənsɪz/",
-              "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-15.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U59_I115_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cuántas sílabas se suelen pronunciar en 'preferences'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Tres (pref-ren-ces)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Cuatro (pre-fer-en-ces)"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Practice Sessions",
-      "content": [
-        {
-          "interaction_id": "U59_FILLER_0",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'pounds' en inglés?",
+          "interaction_id": "A1_U59_I52",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
           "options": [
             {
-              "id": "o1",
-              "text": "Swimming"
+              "id": "w1",
+              "text": "[[Coin|Moneda]]"
             },
             {
-              "id": "o2",
-              "text": "Tennis"
+              "id": "w2",
+              "text": "[[Exchange rate|Tipo de cambio]]"
             },
             {
-              "id": "o3",
-              "text": "Gardening"
+              "id": "w3",
+              "text": "[[Receipt|Recibo]]"
             },
             {
-              "id": "o4",
-              "text": "[[Pounds|pounds]]"
+              "id": "w4",
+              "text": "[[Banknote|Billete (de banco)]]"
             }
           ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U59_FILLER_1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'dollars' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Chess"
-            },
-            {
-              "id": "o2",
-              "text": "Cycling"
-            },
-            {
-              "id": "o3",
-              "text": "[[Dollars|dollars]]"
-            },
-            {
-              "id": "o4",
-              "text": "Swimming"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U59_FILLER_2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'euros' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Euros|euros]]"
-            },
-            {
-              "id": "o2",
-              "text": "Yoga"
-            },
-            {
-              "id": "o3",
-              "text": "Cycling"
-            },
-            {
-              "id": "o4",
-              "text": "Gardening"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U59_FILLER_3",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cash' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Chess"
-            },
-            {
-              "id": "o2",
-              "text": "[[Cash|cash]]"
-            },
-            {
-              "id": "o3",
-              "text": "Cycling"
-            },
-            {
-              "id": "o4",
-              "text": "Swimming"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U59_FILLER_4",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'card' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Photography"
-            },
-            {
-              "id": "o2",
-              "text": "Gardening"
-            },
-            {
-              "id": "o3",
-              "text": "Tennis"
-            },
-            {
-              "id": "o4",
-              "text": "[[Card|card]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U59_FILLER_5",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'change' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Photography"
-            },
-            {
-              "id": "o2",
-              "text": "Tennis"
-            },
-            {
-              "id": "o3",
-              "text": "[[Change|change]]"
-            },
-            {
-              "id": "o4",
-              "text": "Football"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U59_FILLER_6",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'price' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Photography"
-            },
-            {
-              "id": "o2",
-              "text": "[[Price|price]]"
-            },
-            {
-              "id": "o3",
-              "text": "Football"
-            },
-            {
-              "id": "o4",
-              "text": "Gardening"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U59_FILLER_7",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'pounds' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Chess"
-            },
-            {
-              "id": "o2",
-              "text": "[[Pounds|pounds]]"
-            },
-            {
-              "id": "o3",
-              "text": "Football"
-            },
-            {
-              "id": "o4",
-              "text": "Hiking"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U59_FILLER_8",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'dollars' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Yoga"
-            },
-            {
-              "id": "o2",
-              "text": "Reading"
-            },
-            {
-              "id": "o3",
-              "text": "Swimming"
-            },
-            {
-              "id": "o4",
-              "text": "[[Dollars|dollars]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U59_FILLER_9",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'euros' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Euros|euros]]"
-            },
-            {
-              "id": "o2",
-              "text": "Painting"
-            },
-            {
-              "id": "o3",
-              "text": "Photography"
-            },
-            {
-              "id": "o4",
-              "text": "Cycling"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U59_FILLER_10",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cash' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Reading"
-            },
-            {
-              "id": "o2",
-              "text": "[[Cash|cash]]"
-            },
-            {
-              "id": "o3",
-              "text": "Hiking"
-            },
-            {
-              "id": "o4",
-              "text": "Chess"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U59_FILLER_11",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'card' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Card|card]]"
-            },
-            {
-              "id": "o2",
-              "text": "Tennis"
-            },
-            {
-              "id": "o3",
-              "text": "Reading"
-            },
-            {
-              "id": "o4",
-              "text": "Yoga"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U59_FILLER_12",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'change' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Chess"
-            },
-            {
-              "id": "o2",
-              "text": "Yoga"
-            },
-            {
-              "id": "o3",
-              "text": "[[Change|change]]"
-            },
-            {
-              "id": "o4",
-              "text": "Gardening"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U59_FILLER_13",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'price' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Price|price]]"
-            },
-            {
-              "id": "o2",
-              "text": "Reading"
-            },
-            {
-              "id": "o3",
-              "text": "Chess"
-            },
-            {
-              "id": "o4",
-              "text": "Yoga"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U59_FILLER_14",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'pounds' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Pounds|pounds]]"
-            },
-            {
-              "id": "o2",
-              "text": "Hiking"
-            },
-            {
-              "id": "o3",
-              "text": "Cycling"
-            },
-            {
-              "id": "o4",
-              "text": "Reading"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U59_FILLER_15",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'dollars' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Painting"
-            },
-            {
-              "id": "o2",
-              "text": "Gardening"
-            },
-            {
-              "id": "o3",
-              "text": "[[Dollars|dollars]]"
-            },
-            {
-              "id": "o4",
-              "text": "Tennis"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U59_FILLER_16",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'euros' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Chess"
-            },
-            {
-              "id": "o2",
-              "text": "[[Euros|euros]]"
-            },
-            {
-              "id": "o3",
-              "text": "Cycling"
-            },
-            {
-              "id": "o4",
-              "text": "Reading"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U59_FILLER_17",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cash' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Tennis"
-            },
-            {
-              "id": "o2",
-              "text": "[[Cash|cash]]"
-            },
-            {
-              "id": "o3",
-              "text": "Yoga"
-            },
-            {
-              "id": "o4",
-              "text": "Painting"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U59_FILLER_18",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'card' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Tennis"
-            },
-            {
-              "id": "o2",
-              "text": "Yoga"
-            },
-            {
-              "id": "o3",
-              "text": "[[Card|card]]"
-            },
-            {
-              "id": "o4",
-              "text": "Swimming"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U59_FILLER_19",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'change' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Tennis"
-            },
-            {
-              "id": "o2",
-              "text": "[[Change|change]]"
-            },
-            {
-              "id": "o3",
-              "text": "Painting"
-            },
-            {
-              "id": "o4",
-              "text": "Football"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U59_FILLER_20",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'price' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Price|price]]"
-            },
-            {
-              "id": "o2",
-              "text": "Cycling"
-            },
-            {
-              "id": "o3",
-              "text": "Photography"
-            },
-            {
-              "id": "o4",
-              "text": "Football"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U59_FILLER_21",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'pounds' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Pounds|pounds]]"
-            },
-            {
-              "id": "o2",
-              "text": "Yoga"
-            },
-            {
-              "id": "o3",
-              "text": "Chess"
-            },
-            {
-              "id": "o4",
-              "text": "Photography"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U59_FILLER_22",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'dollars' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Swimming"
-            },
-            {
-              "id": "o2",
-              "text": "Tennis"
-            },
-            {
-              "id": "o3",
-              "text": "Yoga"
-            },
-            {
-              "id": "o4",
-              "text": "[[Dollars|dollars]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U59_FILLER_23",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'euros' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Euros|euros]]"
-            },
-            {
-              "id": "o2",
-              "text": "Swimming"
-            },
-            {
-              "id": "o3",
-              "text": "Cycling"
-            },
-            {
-              "id": "o4",
-              "text": "Gardening"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U59_FILLER_24",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cash' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Gardening"
-            },
-            {
-              "id": "o2",
-              "text": "Hiking"
-            },
-            {
-              "id": "o3",
-              "text": "Chess"
-            },
-            {
-              "id": "o4",
-              "text": "[[Cash|cash]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U59_FILLER_25",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'card' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Card|card]]"
-            },
-            {
-              "id": "o2",
-              "text": "Football"
-            },
-            {
-              "id": "o3",
-              "text": "Hiking"
-            },
-            {
-              "id": "o4",
-              "text": "Tennis"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U59_FILLER_26",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'change' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Yoga"
-            },
-            {
-              "id": "o2",
-              "text": "[[Change|change]]"
-            },
-            {
-              "id": "o3",
-              "text": "Painting"
-            },
-            {
-              "id": "o4",
-              "text": "Photography"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U59_FILLER_27",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'price' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Price|price]]"
-            },
-            {
-              "id": "o2",
-              "text": "Photography"
-            },
-            {
-              "id": "o3",
-              "text": "Cycling"
-            },
-            {
-              "id": "o4",
-              "text": "Yoga"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U59_FILLER_28",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'pounds' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Pounds|pounds]]"
-            },
-            {
-              "id": "o2",
-              "text": "Yoga"
-            },
-            {
-              "id": "o3",
-              "text": "Painting"
-            },
-            {
-              "id": "o4",
-              "text": "Photography"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        }
-      ]
-    },
-    {
-      "title": "Lesson 5: Listening & Pronunciation Review",
-      "duration_minutes": 20,
-      "content": [
-        {
-          "interaction_id": "U59_L5_I1",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[swimming|natación]])",
-          "audio_url": "/audio/courses/ingles-a1/unit59/lesson5-task-1.mp3",
-          "transcript_template": "The [[pounds|]] is here.",
-          "correct_answer": "pounds",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U59_L5_I2",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[swimming|natación]])",
-          "audio_url": "/audio/courses/ingles-a1/unit59/lesson5-task-2.mp3",
-          "transcript_template": "The [[dollars|]] is here.",
-          "correct_answer": "dollars",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
+          "interaction_id": "A1_U59_I53",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Exchange rate|Tipo de cambio]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Payment|Pago]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Currency|Divisa/Moneda]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[ATM|Cajero automático]]"
+            }
+          ],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U59_L5_I3",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[swimming|natación]])",
-          "audio_url": "/audio/courses/ingles-a1/unit59/lesson5-task-3.mp3",
-          "transcript_template": "The [[euros|]] is here.",
-          "correct_answer": "euros",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
+          "interaction_id": "A1_U59_I54",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Payment|Pago]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Savings|Ahorros]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Bank|Banco]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Invoice|Factura]]"
+            }
+          ],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U59_L5_I4",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[swimming|natación]])",
-          "audio_url": "/audio/courses/ingles-a1/unit59/lesson5-task-4.mp3",
-          "transcript_template": "The [[cash|]] is here.",
-          "correct_answer": "cash",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
+          "interaction_id": "A1_U59_I55",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Can|¿Puedo]] [[I|yo]] [[pay|pagar]] ______ [[contactless|pago sin contacto]]?",
+          "correct_answer": "by"
         },
         {
-          "interaction_id": "U59_L5_I5",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[swimming|natación]])",
-          "audio_url": "/audio/courses/ingles-a1/unit59/lesson5-task-5.mp3",
-          "transcript_template": "The [[card|]] is here.",
-          "correct_answer": "card",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
+          "interaction_id": "A1_U59_I56",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[I|Yo]] [[pay|pago]] ______ [[my|mis]] [[bills|facturas]] [[by|con]] [[credit|tarjeta de crédito]] [[card|tarjeta de crédito]].",
+          "correct_answer": "for"
         },
         {
-          "interaction_id": "U59_L5_I6",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[swimming|natación]])",
-          "audio_url": "/audio/courses/ingles-a1/unit59/lesson5-task-6.mp3",
-          "transcript_template": "The [[change|]] is here.",
-          "correct_answer": "change",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
+          "interaction_id": "A1_U59_I57",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[She|Ella]] [[spends|gasta]] [[a|mucho]] [[lot|mucho]] [[of|en]] [[money|dinero]] ______ [[clothes|ropa]].",
+          "correct_answer": "on"
         },
         {
-          "interaction_id": "U59_L5_I7",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[swimming|natación]])",
-          "audio_url": "/audio/courses/ingles-a1/unit59/lesson5-task-7.mp3",
-          "transcript_template": "The [[price|]] is here.",
-          "correct_answer": "price",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
+          "interaction_id": "A1_U59_I58",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[That|Eso]] [[will|serán]] [[be|serán]] [[twenty-five|veinticinco]] [[euros|euros]] [[fifty|cincuenta]] [[cents|céntimos]], [[please|por favor]].",
+          "correct_answer": true
         },
         {
-          "interaction_id": "U59_L5_I8",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[swimming|natación]])",
-          "title": "Pronunciación: Money & Currency",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[pounds|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-8.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U59_L5_I8_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'pounds'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
+          "interaction_id": "A1_U59_I59",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Here|Aquí]] [[you|tiene]] [[are|tiene]] — [[I'm|voy a]] [[going|pagar]] [[to|en]] [[pay|efectivo]] [[in|efectivo]] [[cash|efectivo]]. [[I|Yo]] [[have|tengo]] [[a|un]] [[fifty|billete de cincuenta]] [[euro|euros]] [[note|billete]].",
+          "correct_answer": false
         },
         {
-          "interaction_id": "U59_L5_I9",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[swimming|natación]])",
-          "title": "Pronunciación: Money & Currency",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[dollars|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-9.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U59_L5_I9_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'dollars'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U59_L5_I10",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[swimming|natación]])",
-          "title": "Pronunciación: Money & Currency",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[euros|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-10.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U59_L5_I10_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'euros'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U59_L5_I11",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[swimming|natación]])",
-          "title": "Pronunciación: Money & Currency",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[cash|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-11.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U59_L5_I11_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'cash'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U59_L5_I12",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[swimming|natación]])",
-          "title": "Pronunciación: Money & Currency",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[card|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-12.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U59_L5_I12_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'card'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U59_L5_I13",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[swimming|natación]])",
-          "title": "Pronunciación: Money & Currency",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[change|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-13.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U59_L5_I13_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'change'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U59_L5_I14",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[swimming|natación]])",
-          "title": "Pronunciación: Money & Currency",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[price|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-14.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U59_L5_I14_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'price'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U59_L5_I15",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[swimming|natación]])",
-          "title": "Pronunciación: Money & Currency",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[pounds|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit59/lesson5-task-15.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U59_L5_I15_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'pounds'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
+          "interaction_id": "A1_U59_I60",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Thank|Gracias]]. [[Your|Su]] [[change|cambio/vuelta]] [[is|es]] [[twenty-four|veinticuatro]] [[euros|euros]] [[fifty|cincuenta]] [[cents|céntimos]].",
+          "correct_answer": true
         }
       ]
     }

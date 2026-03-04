@@ -1,1592 +1,1232 @@
 {
   "course": {
-    "language_ui": "es-ES",
-    "target_language": "en",
+    "unit_id": "unit40",
+    "unit_title": "Module 4 Review & Assessment",
     "level": "A1",
-    "unit_id": "U40",
-    "unit_title": "Module 4 Review",
-    "total_duration_minutes": 120
+    "total_duration_minutes": 60,
+    "language_ui": "es-ES",
+    "target_language": "en"
   },
+  "learning_outcomes": [
+    "Review Module 4: abilities, sports, frequency, conjunctions, activities, permission",
+    "Combine can, adverbs of frequency, and conjunctions",
+    "Produce extended descriptions of abilities and hobbies"
+  ],
   "blocks": [
     {
-      "block_id": "B40",
-      "title": "Module 4 Review",
+      "block_id": "B1",
+      "title": "Vocabulary Introduction",
       "content": [
         {
-          "interaction_id": "U40_I1",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "[[Ability|habilidad]]",
-              "right": "Actividad"
-            },
-            {
-              "id": "p1",
-              "left": "[[Talent|talento]]",
-              "right": "Habilidad"
-            },
-            {
-              "id": "p2",
-              "left": "[[Frequency|frecuencia]]",
-              "right": "Talento"
-            },
-            {
-              "id": "p3",
-              "left": "[[Activity|actividad]]",
-              "right": "Frecuencia"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p1",
-            "p1": "p2",
-            "p2": "p3",
-            "p3": "p0"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U40_I2",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta: ([[swim|nadar]])",
-          "stimulus_en": "I (poder) ________ swim.",
-          "correct_answer": "can",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U40_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Ask for permission politely.\" ([[review|repaso]])",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U40_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[review|repaso]])",
-          "options": [
-            {
-              "id": "w2",
-              "text": "with"
-            },
-            {
-              "id": "w0",
-              "text": "Connect"
-            },
-            {
-              "id": "w4",
-              "text": "'but',"
-            },
-            {
-              "id": "w3",
-              "text": "'and',"
-            },
-            {
-              "id": "w1",
-              "text": "sentences"
-            },
-            {
-              "id": "w5",
-              "text": "and"
-            },
-            {
-              "id": "w6",
-              "text": "'because'"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U40_I5",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
-          "stimulus_es": "Talento",
-          "correct_answer": "Talent",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U40_I6",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Frecuencia' en inglés?",
+          "interaction_id": "A1_U40_I1",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Ability|Habilidad]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[Frequency|frecuencia]]"
+              "text": "[[Habilidad|Ability]]"
             },
             {
               "id": "o2",
-              "text": "[[Ability|habilidad]]"
+              "text": "[[Afición|Hobby]]"
             },
             {
               "id": "o3",
-              "text": "[[Activity|actividad]]"
+              "text": "[[Deporte|Sport]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U40_I7",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "[[Talent|talento]]",
-              "right": "Habilidad"
-            },
-            {
-              "id": "p1",
-              "left": "[[Frequency|frecuencia]]",
-              "right": "Talento"
-            },
-            {
-              "id": "p2",
-              "left": "[[Activity|actividad]]",
-              "right": "Frecuencia"
-            },
-            {
-              "id": "p3",
-              "left": "[[Ability|habilidad]]",
-              "right": "Actividad"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p1",
-            "p1": "p2",
-            "p2": "p3",
-            "p3": "p0"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U40_I8",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta: ([[piano|piano]])",
-          "stimulus_en": "He (tocar) ________ the piano.",
-          "correct_answer": "plays",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U40_I9",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Sentences connect with '[[and|y]]', '[[but|pero]]', and '[[because|porque]]'\"",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U40_I10",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[review|repaso]])",
-          "options": [
-            {
-              "id": "w4",
-              "text": "of"
-            },
-            {
-              "id": "w5",
-              "text": "module"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "review"
-            },
-            {
-              "id": "w6",
-              "text": "four"
-            },
-            {
-              "id": "w0",
-              "text": "This"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U40_I11",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
-          "stimulus_es": "Actividad",
-          "correct_answer": "Activity",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U40_I12",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Habilidad' en inglés?",
+          "interaction_id": "A1_U40_I2",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Hobby|Afición]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[Activity|actividad]]"
+              "text": "[[Deporte|Sport]]"
             },
             {
               "id": "o2",
-              "text": "[[Ability|habilidad]]"
+              "text": "[[Afición|Hobby]]"
             },
             {
               "id": "o3",
-              "text": "[[Frequency|frecuencia]]"
+              "text": "[[Frecuencia|Frequency]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U40_I13",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "[[Frequency|frecuencia]]",
-              "right": "Talento"
-            },
-            {
-              "id": "p1",
-              "left": "[[Activity|actividad]]",
-              "right": "Frecuencia"
-            },
-            {
-              "id": "p2",
-              "left": "[[Ability|habilidad]]",
-              "right": "Actividad"
-            },
-            {
-              "id": "p3",
-              "left": "[[Talent|talento]]",
-              "right": "Habilidad"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p1",
-            "p1": "p2",
-            "p2": "p3",
-            "p3": "p0"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U40_I14",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta: ([[swim|nadar]])",
-          "stimulus_en": "I (poder) ________ swim.",
-          "correct_answer": "can",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U40_I15",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"This is a review of module four.\" ([[review|repaso]])",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U40_I16",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[review|repaso]])",
-          "options": [
-            {
-              "id": "w2",
-              "text": "of"
-            },
-            {
-              "id": "w0",
-              "text": "Use"
-            },
-            {
-              "id": "w1",
-              "text": "adverbs"
-            },
-            {
-              "id": "w3",
-              "text": "frequency"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U40_I17",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
-          "stimulus_es": "Talento",
-          "correct_answer": "Talent",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U40_I18",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Frecuencia' en inglés?",
+          "interaction_id": "A1_U40_I3",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Sport|Deporte]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[Ability|habilidad]]"
+              "text": "[[Frecuencia|Frequency]]"
             },
             {
               "id": "o2",
-              "text": "[[Talent|talento]]"
+              "text": "[[Permiso|Permission]]"
             },
             {
               "id": "o3",
-              "text": "[[Frequency|frecuencia]]"
+              "text": "[[Deporte|Sport]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U40_I19",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "[[Activity|actividad]]",
-              "right": "Frecuencia"
-            },
-            {
-              "id": "p1",
-              "left": "[[Ability|habilidad]]",
-              "right": "Actividad"
-            },
-            {
-              "id": "p2",
-              "left": "[[Talent|talento]]",
-              "right": "Habilidad"
-            },
-            {
-              "id": "p3",
-              "left": "[[Frequency|frecuencia]]",
-              "right": "Talento"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p1",
-            "p1": "p2",
-            "p2": "p3",
-            "p3": "p0"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U40_I20",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta: ([[piano|piano]])",
-          "stimulus_en": "He (tocar) ________ the piano.",
-          "correct_answer": "plays",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U40_I21",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Adverbs use of frequency\" ([[review|repaso]])",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U40_I22",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[review|repaso]])",
-          "options": [
-            {
-              "id": "w4",
-              "text": "and"
-            },
-            {
-              "id": "w1",
-              "text": "about"
-            },
-            {
-              "id": "w0",
-              "text": "Talk"
-            },
-            {
-              "id": "w5",
-              "text": "skills"
-            },
-            {
-              "id": "w3",
-              "text": "abilities"
-            },
-            {
-              "id": "w2",
-              "text": "your"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U40_I23",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
-          "stimulus_es": "Actividad",
-          "correct_answer": "Activity",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U40_I24",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Habilidad' en inglés?",
+          "interaction_id": "A1_U40_I4",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Frequency|Frecuencia]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[Ability|habilidad]]"
+              "text": "[[Frecuencia|Frequency]]"
             },
             {
               "id": "o2",
-              "text": "[[Activity|actividad]]"
+              "text": "[[Permiso|Permission]]"
             },
             {
               "id": "o3",
-              "text": "[[Frequency|frecuencia]]"
+              "text": "[[Al aire libre|Outdoor]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U40_I25",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "[[Ability|habilidad]]",
-              "right": "Actividad"
-            },
-            {
-              "id": "p1",
-              "left": "[[Talent|talento]]",
-              "right": "Habilidad"
-            },
-            {
-              "id": "p2",
-              "left": "[[Frequency|frecuencia]]",
-              "right": "Talento"
-            },
-            {
-              "id": "p3",
-              "left": "[[Activity|actividad]]",
-              "right": "Frecuencia"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p1",
-            "p1": "p2",
-            "p2": "p3",
-            "p3": "p0"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U40_I26",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta: ([[swim|nadar]])",
-          "stimulus_en": "I (poder) ________ swim.",
-          "correct_answer": "can",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U40_I27",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Talk about your abilities and skills.\" ([[and|y]])",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U40_I28",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[review|repaso]])",
-          "options": [
-            {
-              "id": "w3",
-              "text": "politely"
-            },
-            {
-              "id": "w0",
-              "text": "Ask"
-            },
-            {
-              "id": "w1",
-              "text": "for"
-            },
-            {
-              "id": "w2",
-              "text": "permission"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U40_I29",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
-          "stimulus_es": "Talento",
-          "correct_answer": "Talent",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U40_I30",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Frecuencia' en inglés?",
+          "interaction_id": "A1_U40_I5",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Permission|Permiso]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[Ability|habilidad]]"
+              "text": "[[Al aire libre|Outdoor]]"
             },
             {
               "id": "o2",
-              "text": "[[Frequency|frecuencia]]"
+              "text": "[[Permiso|Permission]]"
             },
             {
               "id": "o3",
-              "text": "[[Activity|actividad]]"
+              "text": "[[Destreza|Skill]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U40_I31",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "[[Talent|talento]]",
-              "right": "Habilidad"
-            },
-            {
-              "id": "p1",
-              "left": "[[Frequency|frecuencia]]",
-              "right": "Talento"
-            },
-            {
-              "id": "p2",
-              "left": "[[Activity|actividad]]",
-              "right": "Frecuencia"
-            },
-            {
-              "id": "p3",
-              "left": "[[Ability|habilidad]]",
-              "right": "Actividad"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p1",
-            "p1": "p2",
-            "p2": "p3",
-            "p3": "p0"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U40_I32",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta: ([[piano|piano]])",
-          "stimulus_en": "He (tocar) ________ the piano.",
-          "correct_answer": "plays",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U40_I33",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"For ask permission politely\" ([[review|repaso]])",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U40_I34",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[review|repaso]])",
-          "options": [
-            {
-              "id": "w3",
-              "text": "'and',"
-            },
-            {
-              "id": "w6",
-              "text": "'because'"
-            },
-            {
-              "id": "w1",
-              "text": "sentences"
-            },
-            {
-              "id": "w0",
-              "text": "Connect"
-            },
-            {
-              "id": "w5",
-              "text": "and"
-            },
-            {
-              "id": "w4",
-              "text": "'but',"
-            },
-            {
-              "id": "w2",
-              "text": "with"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U40_I35",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
-          "stimulus_es": "Actividad",
-          "correct_answer": "Activity",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U40_I36",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Habilidad' en inglés?",
+          "interaction_id": "A1_U40_I6",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Outdoor|Al aire libre]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[Frequency|frecuencia]]"
+              "text": "[[Destreza|Skill]]"
             },
             {
               "id": "o2",
-              "text": "[[Talent|talento]]"
+              "text": "[[Talento|Talent]]"
             },
             {
               "id": "o3",
-              "text": "[[Ability|habilidad]]"
+              "text": "[[Al aire libre|Outdoor]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U40_I37",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "[[Frequency|frecuencia]]",
-              "right": "Talento"
-            },
-            {
-              "id": "p1",
-              "left": "[[Activity|actividad]]",
-              "right": "Frecuencia"
-            },
-            {
-              "id": "p2",
-              "left": "[[Ability|habilidad]]",
-              "right": "Actividad"
-            },
-            {
-              "id": "p3",
-              "left": "[[Talent|talento]]",
-              "right": "Habilidad"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p1",
-            "p1": "p2",
-            "p2": "p3",
-            "p3": "p0"
-          },
-          "mastery_tag": "vocabulary"
+          "interaction_id": "A1_U40_I7",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Destreza]]",
+          "correct_answer": "Skill"
         },
         {
-          "interaction_id": "U40_I38",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta: ([[swim|nadar]])",
-          "stimulus_en": "I (poder) ________ swim.",
-          "correct_answer": "can",
-          "mastery_tag": "grammar"
+          "interaction_id": "A1_U40_I8",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Talento]]",
+          "correct_answer": "Talent"
         },
         {
-          "interaction_id": "U40_I39",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Connect sentences with '[[and|y]]', '[[but|pero]]', and '[[because|porque]]'.\"",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
+          "interaction_id": "A1_U40_I9",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Interés]]",
+          "correct_answer": "Interest"
         },
         {
-          "interaction_id": "U40_I40",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[review|repaso]])",
-          "options": [
-            {
-              "id": "w4",
-              "text": "of"
-            },
-            {
-              "id": "w3",
-              "text": "review"
-            },
-            {
-              "id": "w0",
-              "text": "This"
-            },
-            {
-              "id": "w2",
-              "text": "a"
-            },
-            {
-              "id": "w6",
-              "text": "four"
-            },
-            {
-              "id": "w1",
-              "text": "is"
-            },
-            {
-              "id": "w5",
-              "text": "module"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U40_I41",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
-          "stimulus_es": "Talento",
-          "correct_answer": "Talent",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U40_I42",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Frecuencia' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Frequency|frecuencia]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Talent|talento]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[Activity|actividad]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U40_I43",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "[[Activity|actividad]]",
-              "right": "Frecuencia"
-            },
-            {
-              "id": "p1",
-              "left": "[[Ability|habilidad]]",
-              "right": "Actividad"
-            },
-            {
-              "id": "p2",
-              "left": "[[Talent|talento]]",
-              "right": "Habilidad"
-            },
-            {
-              "id": "p3",
-              "left": "[[Frequency|frecuencia]]",
-              "right": "Talento"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p1",
-            "p1": "p2",
-            "p2": "p3",
-            "p3": "p0"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U40_I44",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta: ([[piano|piano]])",
-          "stimulus_en": "He (tocar) ________ the piano.",
-          "correct_answer": "plays",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U40_I45",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Is this a review of module four\" ([[review|repaso]])",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U40_I46",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[review|repaso]])",
-          "options": [
-            {
-              "id": "w0",
-              "text": "Use"
-            },
-            {
-              "id": "w2",
-              "text": "of"
-            },
-            {
-              "id": "w1",
-              "text": "adverbs"
-            },
-            {
-              "id": "w3",
-              "text": "frequency"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U40_I47",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
-          "stimulus_es": "Actividad",
-          "correct_answer": "Activity",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U40_I48",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Habilidad' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Activity|actividad]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Ability|habilidad]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[Frequency|frecuencia]]"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U40_I49",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "[[Ability|habilidad]]",
-              "right": "Actividad"
-            },
-            {
-              "id": "p1",
-              "left": "[[Talent|talento]]",
-              "right": "Habilidad"
-            },
-            {
-              "id": "p2",
-              "left": "[[Frequency|frecuencia]]",
-              "right": "Talento"
-            },
-            {
-              "id": "p3",
-              "left": "[[Activity|actividad]]",
-              "right": "Frecuencia"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p1",
-            "p1": "p2",
-            "p2": "p3",
-            "p3": "p0"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U40_I50",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta: ([[swim|nadar]])",
-          "stimulus_en": "I (poder) ________ swim.",
-          "correct_answer": "can",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U40_I51",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"Use adverbs of frequency.\" ([[review|repaso]])",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U40_I52",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[review|repaso]])",
-          "options": [
-            {
-              "id": "w0",
-              "text": "Talk"
-            },
-            {
-              "id": "w3",
-              "text": "abilities"
-            },
-            {
-              "id": "w5",
-              "text": "skills"
-            },
-            {
-              "id": "w1",
-              "text": "about"
-            },
-            {
-              "id": "w4",
-              "text": "and"
-            },
-            {
-              "id": "w2",
-              "text": "your"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U40_I53",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
-          "stimulus_es": "Talento",
-          "correct_answer": "Talent",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U40_I54",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Frecuencia' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Ability|habilidad]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Activity|actividad]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[Frequency|frecuencia]]"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U40_I55",
-          "type": "matching",
-          "prompt_es": "Une la palabra con su traducción correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "[[Talent|talento]]",
-              "right": "Habilidad"
-            },
-            {
-              "id": "p1",
-              "left": "[[Frequency|frecuencia]]",
-              "right": "Talento"
-            },
-            {
-              "id": "p2",
-              "left": "[[Activity|actividad]]",
-              "right": "Frecuencia"
-            },
-            {
-              "id": "p3",
-              "left": "[[Ability|habilidad]]",
-              "right": "Actividad"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p1",
-            "p1": "p2",
-            "p2": "p3",
-            "p3": "p0"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U40_I56",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta: ([[piano|piano]])",
-          "stimulus_en": "He (tocar) ________ the piano.",
-          "correct_answer": "plays",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U40_I57",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: \"About talk your abilities and skills\" ([[and|y]])",
-          "correct_answer": false,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U40_I58",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase correcta: ([[review|repaso]])",
-          "options": [
-            {
-              "id": "w0",
-              "text": "Ask"
-            },
-            {
-              "id": "w3",
-              "text": "politely"
-            },
-            {
-              "id": "w1",
-              "text": "for"
-            },
-            {
-              "id": "w2",
-              "text": "permission"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U40_I59",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés: ([[review|repaso]])",
-          "stimulus_es": "Actividad",
-          "correct_answer": "Activity",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U40_I60",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Habilidad' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Ability|habilidad]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Activity|actividad]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[Talent|talento]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "interaction_id": "A1_U40_I10",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Práctica]]",
+          "correct_answer": "Practice"
         }
       ]
     },
     {
-      "title": "Lesson 5: Listening & Pronunciation Review",
-      "duration_minutes": 20,
+      "block_id": "B2",
+      "title": "Vocabulary in Context",
       "content": [
         {
-          "interaction_id": "U40_L5_I1",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[review|repaso]])",
-          "audio_url": "/audio/courses/ingles-a1/unit40/lesson5-task-1.mp3",
-          "transcript_template": "The [[can|]] is here.",
-          "correct_answer": "can",
-          "mastery_tag": "listening",
+          "interaction_id": "A1_U40_I11",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
           "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
+          "stimulus_en": "[[Frequency|Frecuencia]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Frequency|Frecuencia]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Skill|Destreza]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Practice|Práctica]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U40_I12",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Permission|Permiso]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Talent|Talento]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Permission|Permiso]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Competition|Competición]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U40_I13",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Outdoor|Al aire libre]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Interest|Interés]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Always|Siempre]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Outdoor|Al aire libre]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U40_I14",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Skill|Destreza]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Skill|Destreza]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Practice|Práctica]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Because|Porque]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U40_I15",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] ______ [[swim|nadar]] [[but|pero]] [[I|yo]] [[can't|no puedo]] [[dive|bucear]].",
+          "correct_answer": "can"
+        },
+        {
+          "interaction_id": "A1_U40_I16",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[She|Ella]] ______ [[plays|toca]] [[the|la]] [[piano|piano]] [[every|cada]] [[day|día]].",
+          "correct_answer": "usually"
+        },
+        {
+          "interaction_id": "A1_U40_I17",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[love|me encanta]] [[cycling|el ciclismo]] ______ [[it|es]] [[is|es]] [[relaxing|relajante]].",
+          "correct_answer": "because"
+        },
+        {
+          "interaction_id": "A1_U40_I18",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Ability|Habilidad]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Sport|Deporte]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Hobby|Afición]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U40_L5_I2",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[review|repaso]])",
-          "audio_url": "/audio/courses/ingles-a1/unit40/lesson5-task-2.mp3",
-          "transcript_template": "The [[sports|]] is here.",
-          "correct_answer": "sports",
-          "mastery_tag": "listening",
+          "interaction_id": "A1_U40_I19",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
           "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Permission|Permiso]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Skill|Destreza]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Outdoor|Al aire libre]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U40_L5_I3",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[review|repaso]])",
-          "audio_url": "/audio/courses/ingles-a1/unit40/lesson5-task-3.mp3",
-          "transcript_template": "The [[frequency|]] is here.",
-          "correct_answer": "frequency",
-          "mastery_tag": "listening",
+          "interaction_id": "A1_U40_I20",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
           "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Interest|Interés]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Competition|Competición]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Practice|Práctica]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Grammar — Affirmative",
+      "content": [
+        {
+          "interaction_id": "A1_U40_I21",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] ______ [[swim|nadar]] [[but|pero]] [[I|yo]] [[can't|no puedo]] [[dive|bucear]].",
+          "correct_answer": "can"
+        },
+        {
+          "interaction_id": "A1_U40_I22",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[She|Ella]] ______ [[plays|toca]] [[the|la]] [[piano|piano]] [[every|cada]] [[day|día]].",
+          "correct_answer": "usually"
+        },
+        {
+          "interaction_id": "A1_U40_I23",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[love|me encanta]] [[cycling|el ciclismo]] ______ [[it|es]] [[is|es]] [[relaxing|relajante]].",
+          "correct_answer": "because"
+        },
+        {
+          "interaction_id": "A1_U40_I24",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[May|Puedo]] [[I|yo]] ______ [[a|una]] [[question|pregunta]]?",
+          "correct_answer": "ask"
+        },
+        {
+          "interaction_id": "A1_U40_I25",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[He|Él]] [[is|va a]] ______ [[camping|acampar]] [[this|este]] [[summer|verano]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[going|going]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[usually|usually]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[because|because]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U40_I26",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Do|Practicas]] [[you|tú]] [[play|practicas]] ______ [[or|o]] [[tennis|tenis]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[because|because]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[football|football]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[ask|ask]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U40_I27",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] ______ [[swim|nadar]] [[but|pero]] [[I|yo]] [[can't|no puedo]] [[dive|bucear]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[ask|ask]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[going|going]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[can|can]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U40_I28",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[She|Ella]] ______ [[plays|toca]] [[the|la]] [[piano|piano]] [[every|cada]] [[day|día]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[usually|usually]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[going|going]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[football|football]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U40_I29",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Sport|Deporte]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Ability|Habilidad]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Permission|Permiso]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
           ]
         },
         {
-          "interaction_id": "U40_L5_I4",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[review|repaso]])",
-          "audio_url": "/audio/courses/ingles-a1/unit40/lesson5-task-4.mp3",
-          "transcript_template": "The [[connectors|]] is here.",
-          "correct_answer": "connectors",
-          "mastery_tag": "listening",
+          "interaction_id": "A1_U40_I30",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
           "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Talent|Talento]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Outdoor|Al aire libre]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Practice|Práctica]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Grammar — Negative & Questions",
+      "content": [
+        {
+          "interaction_id": "A1_U40_I31",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[love|me encanta]] [[cycling|el ciclismo]] ______ [[it|es]] [[is|es]] [[relaxing|relajante]].",
+          "correct_answer": "because"
+        },
+        {
+          "interaction_id": "A1_U40_I32",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[May|Puedo]] [[I|yo]] ______ [[a|una]] [[question|pregunta]]?",
+          "correct_answer": "ask"
+        },
+        {
+          "interaction_id": "A1_U40_I33",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[He|Él]] [[is|va a]] ______ [[camping|acampar]] [[this|este]] [[summer|verano]].",
+          "correct_answer": "going"
+        },
+        {
+          "interaction_id": "A1_U40_I34",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[May|Puedo]] [[I|yo]] ______ [[a|una]] [[question|pregunta]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[ask|ask]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[football|football]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[can|can]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U40_I35",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[He|Él]] [[is|va a]] ______ [[camping|acampar]] [[this|este]] [[summer|verano]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[can|can]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[going|going]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[usually|usually]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U40_I36",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Do|Practicas]] [[you|tú]] [[play|practicas]] ______ [[or|o]] [[tennis|tenis]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[usually|usually]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[because|because]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[football|football]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U40_I37",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] ______ [[swim|nadar]] [[but|pero]] [[I|yo]] [[can't|no puedo]] [[dive|bucear]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[can|can]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[because|because]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[ask|ask]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U40_I38",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Permission|Permiso]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Hobby|Afición]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Skill|Destreza]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Sport|Deporte]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
           ]
         },
         {
-          "interaction_id": "U40_L5_I5",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[review|repaso]])",
-          "audio_url": "/audio/courses/ingles-a1/unit40/lesson5-task-5.mp3",
-          "transcript_template": "The [[free time|]] is here.",
-          "correct_answer": "free time",
-          "mastery_tag": "listening",
+          "interaction_id": "A1_U40_I39",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
           "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Talent|Talento]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Permission|Permiso]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Practice|Práctica]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Outdoor|Al aire libre]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
           ]
         },
         {
-          "interaction_id": "U40_L5_I6",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[review|repaso]])",
-          "audio_url": "/audio/courses/ingles-a1/unit40/lesson5-task-6.mp3",
-          "transcript_template": "The [[instruments|]] is here.",
-          "correct_answer": "instruments",
-          "mastery_tag": "listening",
+          "interaction_id": "A1_U40_I40",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
           "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Competition|Competición]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Talent|Talento]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Because|Porque]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Interest|Interés]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B5",
+      "title": "Reading Comprehension",
+      "content": [
+        {
+          "interaction_id": "A1_U40_I41",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Let's|Vamos a]] [[talk|hablar]] [[about|sobre]] [[your|tus]] [[abilities|habilidades]] [[and|e]] [[interests|intereses]]. [[Sure|Claro]]! [[I|Yo]] [[can|puedo]] [[play|tocar]] [[the|la]] [[guitar|guitarra]] [[and|y]] [[I|yo]] [[go|voy]] [[hiking|de senderismo]] [[quite|bastante]] [[often|a menudo]]. [[How|Con qué]] [[often|frecuencia]] [[do|vas]] [[you|tú]] [[go|vas]] [[hiking|de senderismo]]? [[Usually|Normalmente]] [[once|una vez]] [[or|o]] [[twice|dos veces]] [[a|al]] [[month|mes]], [[but|pero]] [[never|nunca]] [[in|en]] [[winter|invierno]] [[because|porque]] [[it's|hace]] [[too|demasiado]] [[cold|frío]]. [[Can|Puedo]] [[I|yo]] [[ask|preguntarte]] — [[what|qué]] [[sport|deporte]] [[do|practicas]] [[you|tú]] [[do|practicas]]?",
+          "question_en": "[[What|Qué]] [[can|puede]] [[the|el]] [[speaker|hablante]] [[play|tocar]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Violin|Violín]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Guitar|Guitarra]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Piano|Piano]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U40_I42",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Let's|Vamos a]] [[talk|hablar]] [[about|sobre]] [[your|tus]] [[abilities|habilidades]] [[and|e]] [[interests|intereses]]. [[Sure|Claro]]! [[I|Yo]] [[can|puedo]] [[play|tocar]] [[the|la]] [[guitar|guitarra]] [[and|y]] [[I|yo]] [[go|voy]] [[hiking|de senderismo]] [[quite|bastante]] [[often|a menudo]]. [[How|Con qué]] [[often|frecuencia]] [[do|vas]] [[you|tú]] [[go|vas]] [[hiking|de senderismo]]? [[Usually|Normalmente]] [[once|una vez]] [[or|o]] [[twice|dos veces]] [[a|al]] [[month|mes]], [[but|pero]] [[never|nunca]] [[in|en]] [[winter|invierno]] [[because|porque]] [[it's|hace]] [[too|demasiado]] [[cold|frío]]. [[Can|Puedo]] [[I|yo]] [[ask|preguntarte]] — [[what|qué]] [[sport|deporte]] [[do|practicas]] [[you|tú]] [[do|practicas]]?",
+          "question_en": "[[What|Qué]] [[outdoor|actividad al aire libre]] [[activity|actividad al aire libre]] [[does|practica]] [[the|el]] [[speaker|hablante]] [[do|practica]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Camping|Acampada]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Hiking|Senderismo]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Skiing|Esquí]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U40_I43",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Let's|Vamos a]] [[talk|hablar]] [[about|sobre]] [[your|tus]] [[abilities|habilidades]] [[and|e]] [[interests|intereses]]. [[Sure|Claro]]! [[I|Yo]] [[can|puedo]] [[play|tocar]] [[the|la]] [[guitar|guitarra]] [[and|y]] [[I|yo]] [[go|voy]] [[hiking|de senderismo]] [[quite|bastante]] [[often|a menudo]]. [[How|Con qué]] [[often|frecuencia]] [[do|vas]] [[you|tú]] [[go|vas]] [[hiking|de senderismo]]? [[Usually|Normalmente]] [[once|una vez]] [[or|o]] [[twice|dos veces]] [[a|al]] [[month|mes]], [[but|pero]] [[never|nunca]] [[in|en]] [[winter|invierno]] [[because|porque]] [[it's|hace]] [[too|demasiado]] [[cold|frío]]. [[Can|Puedo]] [[I|yo]] [[ask|preguntarte]] — [[what|qué]] [[sport|deporte]] [[do|practicas]] [[you|tú]] [[do|practicas]]?",
+          "question_en": "[[How|Con qué]] [[often|frecuencia]] [[does|va]] [[the|el]] [[speaker|hablante]] [[go|va]] [[hiking|de senderismo]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Every week|Cada semana]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Once or twice a month|Una o dos veces al mes]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Every day|Cada día]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U40_I44",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Let's|Vamos a]] [[talk|hablar]] [[about|sobre]] [[your|tus]] [[abilities|habilidades]] [[and|e]] [[interests|intereses]]. [[Sure|Claro]]! [[I|Yo]] [[can|puedo]] [[play|tocar]] [[the|la]] [[guitar|guitarra]] [[and|y]] [[I|yo]] [[go|voy]] [[hiking|de senderismo]] [[quite|bastante]] [[often|a menudo]]. [[How|Con qué]] [[often|frecuencia]] [[do|vas]] [[you|tú]] [[go|vas]] [[hiking|de senderismo]]? [[Usually|Normalmente]] [[once|una vez]] [[or|o]] [[twice|dos veces]] [[a|al]] [[month|mes]], [[but|pero]] [[never|nunca]] [[in|en]] [[winter|invierno]] [[because|porque]] [[it's|hace]] [[too|demasiado]] [[cold|frío]]. [[Can|Puedo]] [[I|yo]] [[ask|preguntarte]] — [[what|qué]] [[sport|deporte]] [[do|practicas]] [[you|tú]] [[do|practicas]]?",
+          "question_en": "[[When|Cuándo]] [[does|va]] [[the|el]] [[speaker|hablante]] [[never|nunca]] [[go|va]] [[hiking|de senderismo]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[In summer|En verano]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[In spring|En primavera]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[In winter|En invierno]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U40_I45",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Let's|Vamos a]] [[talk|hablar]] [[about|sobre]] [[your|tus]] [[abilities|habilidades]] [[and|e]] [[interests|intereses]]. [[Sure|Claro]]! [[I|Yo]] [[can|puedo]] [[play|tocar]] [[the|la]] [[guitar|guitarra]] [[and|y]] [[I|yo]] [[go|voy]] [[hiking|de senderismo]] [[quite|bastante]] [[often|a menudo]]. [[How|Con qué]] [[often|frecuencia]] [[do|vas]] [[you|tú]] [[go|vas]] [[hiking|de senderismo]]? [[Usually|Normalmente]] [[once|una vez]] [[or|o]] [[twice|dos veces]] [[a|al]] [[month|mes]], [[but|pero]] [[never|nunca]] [[in|en]] [[winter|invierno]] [[because|porque]] [[it's|hace]] [[too|demasiado]] [[cold|frío]]. [[Can|Puedo]] [[I|yo]] [[ask|preguntarte]] — [[what|qué]] [[sport|deporte]] [[do|practicas]] [[you|tú]] [[do|practicas]]?",
+          "question_en": "[[Why|Por qué]] [[doesn't|no]] [[the|el]] [[speaker|hablante]] [[go|va]] [[in|en]] [[winter|invierno]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Too busy|Demasiado ocupado]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Too cold|Demasiado frío]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[No friends to go with|Sin amigos con quien ir]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U40_I46",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Let's|Vamos a]] [[talk|hablar]] [[about|sobre]] [[your|tus]] [[abilities|habilidades]] [[and|e]] [[interests|intereses]]. [[Sure|Claro]]! [[I|Yo]] [[can|puedo]] [[play|tocar]] [[the|la]] [[guitar|guitarra]] [[and|y]] [[I|yo]] [[go|voy]] [[hiking|de senderismo]] [[quite|bastante]] [[often|a menudo]]. [[How|Con qué]] [[often|frecuencia]] [[do|vas]] [[you|tú]] [[go|vas]] [[hiking|de senderismo]]? [[Usually|Normalmente]] [[once|una vez]] [[or|o]] [[twice|dos veces]] [[a|al]] [[month|mes]], [[but|pero]] [[never|nunca]] [[in|en]] [[winter|invierno]] [[because|porque]] [[it's|hace]] [[too|demasiado]] [[cold|frío]]. [[Can|Puedo]] [[I|yo]] [[ask|preguntarte]] — [[what|qué]] [[sport|deporte]] [[do|practicas]] [[you|tú]] [[do|practicas]]?",
+          "question_en": "[[Which|Cuál]] [[verb|verbo]] [[is|se usa]] [[used|usa]] [[for|para]] [[ability|habilidad]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Do|Do]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Make|Make]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Can|Can]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U40_I47",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Let's|Vamos a]] [[talk|hablar]] [[about|sobre]] [[your|tus]] [[abilities|habilidades]] [[and|e]] [[interests|intereses]]. [[Sure|Claro]]! [[I|Yo]] [[can|puedo]] [[play|tocar]] [[the|la]] [[guitar|guitarra]] [[and|y]] [[I|yo]] [[go|voy]] [[hiking|de senderismo]] [[quite|bastante]] [[often|a menudo]]. [[How|Con qué]] [[often|frecuencia]] [[do|vas]] [[you|tú]] [[go|vas]] [[hiking|de senderismo]]? [[Usually|Normalmente]] [[once|una vez]] [[or|o]] [[twice|dos veces]] [[a|al]] [[month|mes]], [[but|pero]] [[never|nunca]] [[in|en]] [[winter|invierno]] [[because|porque]] [[it's|hace]] [[too|demasiado]] [[cold|frío]]. [[Can|Puedo]] [[I|yo]] [[ask|preguntarte]] — [[what|qué]] [[sport|deporte]] [[do|practicas]] [[you|tú]] [[do|practicas]]?",
+          "question_en": "[[Which|Cuál]] [[verb|verbo]] [[goes|va]] [[with|con]] 'football'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Go|Ir a]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Play|Jugar]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Do|Hacer]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U40_I48",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Let's|Vamos a]] [[talk|hablar]] [[about|sobre]] [[your|tus]] [[abilities|habilidades]] [[and|e]] [[interests|intereses]]. [[Sure|Claro]]! [[I|Yo]] [[can|puedo]] [[play|tocar]] [[the|la]] [[guitar|guitarra]] [[and|y]] [[I|yo]] [[go|voy]] [[hiking|de senderismo]] [[quite|bastante]] [[often|a menudo]]. [[How|Con qué]] [[often|frecuencia]] [[do|vas]] [[you|tú]] [[go|vas]] [[hiking|de senderismo]]? [[Usually|Normalmente]] [[once|una vez]] [[or|o]] [[twice|dos veces]] [[a|al]] [[month|mes]], [[but|pero]] [[never|nunca]] [[in|en]] [[winter|invierno]] [[because|porque]] [[it's|hace]] [[too|demasiado]] [[cold|frío]]. [[Can|Puedo]] [[I|yo]] [[ask|preguntarte]] — [[what|qué]] [[sport|deporte]] [[do|practicas]] [[you|tú]] [[do|practicas]]?",
+          "question_en": "[[Which|Cuál]] [[adverb|adverbio]] [[means|significa]] 'En absoluto'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Very well|Muy bien]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Quite well|Bastante bien]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Not at all|En absoluto]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U40_I49",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Let's|Vamos a]] [[talk|hablar]] [[about|sobre]] [[your|tus]] [[abilities|habilidades]] [[and|e]] [[interests|intereses]]. [[Sure|Claro]]! [[I|Yo]] [[can|puedo]] [[play|tocar]] [[the|la]] [[guitar|guitarra]] [[and|y]] [[I|yo]] [[go|voy]] [[hiking|de senderismo]] [[quite|bastante]] [[often|a menudo]]. [[How|Con qué]] [[often|frecuencia]] [[do|vas]] [[you|tú]] [[go|vas]] [[hiking|de senderismo]]? [[Usually|Normalmente]] [[once|una vez]] [[or|o]] [[twice|dos veces]] [[a|al]] [[month|mes]], [[but|pero]] [[never|nunca]] [[in|en]] [[winter|invierno]] [[because|porque]] [[it's|hace]] [[too|demasiado]] [[cold|frío]]. [[Can|Puedo]] [[I|yo]] [[ask|preguntarte]] — [[what|qué]] [[sport|deporte]] [[do|practicas]] [[you|tú]] [[do|practicas]]?",
+          "question_en": "[[How|Cómo]] [[do|pides]] [[you|tú]] [[ask|pides]] [[formally|formalmente]] [[for|por]] [[permission|permiso]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Can I...?|¿Puedo...?]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[May I...?|¿Podría...?]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Do I...?|¿Hago...?]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U40_I50",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Let's|Vamos a]] [[talk|hablar]] [[about|sobre]] [[your|tus]] [[abilities|habilidades]] [[and|e]] [[interests|intereses]]. [[Sure|Claro]]! [[I|Yo]] [[can|puedo]] [[play|tocar]] [[the|la]] [[guitar|guitarra]] [[and|y]] [[I|yo]] [[go|voy]] [[hiking|de senderismo]] [[quite|bastante]] [[often|a menudo]]. [[How|Con qué]] [[often|frecuencia]] [[do|vas]] [[you|tú]] [[go|vas]] [[hiking|de senderismo]]? [[Usually|Normalmente]] [[once|una vez]] [[or|o]] [[twice|dos veces]] [[a|al]] [[month|mes]], [[but|pero]] [[never|nunca]] [[in|en]] [[winter|invierno]] [[because|porque]] [[it's|hace]] [[too|demasiado]] [[cold|frío]]. [[Can|Puedo]] [[I|yo]] [[ask|preguntarte]] — [[what|qué]] [[sport|deporte]] [[do|practicas]] [[you|tú]] [[do|practicas]]?",
+          "question_en": "[[What|Qué]] [[conjunction|conjunción]] [[gives|da]] [[a|una]] [[reason|razón]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[And|Y]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[But|Pero]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Because|Porque]]"
+            }
+          ],
+          "correct_answer": "o3"
+        }
+      ]
+    },
+    {
+      "block_id": "B6",
+      "title": "Production",
+      "content": [
+        {
+          "interaction_id": "A1_U40_I51",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Hobby|Afición]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Permission|Permiso]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Ability|Habilidad]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Sport|Deporte]]"
+            }
+          ],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U40_L5_I7",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[review|repaso]])",
-          "audio_url": "/audio/courses/ingles-a1/unit40/lesson5-task-7.mp3",
-          "transcript_template": "The [[talent|]] is here.",
-          "correct_answer": "talent",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
+          "interaction_id": "A1_U40_I52",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Permission|Permiso]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Talent|Talento]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Frequency|Frecuencia]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Outdoor|Al aire libre]]"
+            }
+          ],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U40_L5_I8",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[review|repaso]])",
-          "title": "Pronunciación: Module 4 Review",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
+          "interaction_id": "A1_U40_I53",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
             {
-              "text": "I [[like|me gusta]] this [[permission|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit40/lesson5-task-8.mp3"
+              "id": "w1",
+              "text": "[[Talent|Talento]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Competition|Competición]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Skill|Destreza]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Interest|Interés]]"
             }
           ],
-          "questions": [
-            {
-              "id": "U40_L5_I8_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'permission'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U40_L5_I9",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[review|repaso]])",
-          "title": "Pronunciación: Module 4 Review",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
+          "interaction_id": "A1_U40_I54",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
             {
-              "text": "I [[like|me gusta]] this [[outdoor|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit40/lesson5-task-9.mp3"
+              "id": "w1",
+              "text": "[[Competition|Competición]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Can|Poder]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Practice|Práctica]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Always|Siempre]]"
             }
           ],
-          "questions": [
-            {
-              "id": "U40_L5_I9_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'outdoor'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U40_L5_I10",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[review|repaso]])",
-          "title": "Pronunciación: Module 4 Review",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[can|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit40/lesson5-task-10.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U40_L5_I10_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'can'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
+          "interaction_id": "A1_U40_I55",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Do|Practicas]] [[you|tú]] [[play|practicas]] ______ [[or|o]] [[tennis|tenis]]?",
+          "correct_answer": "football"
         },
         {
-          "interaction_id": "U40_L5_I11",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[review|repaso]])",
-          "title": "Pronunciación: Module 4 Review",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[sports|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit40/lesson5-task-11.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U40_L5_I11_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'sports'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
+          "interaction_id": "A1_U40_I56",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[I|Yo]] ______ [[swim|nadar]] [[but|pero]] [[I|yo]] [[can't|no puedo]] [[dive|bucear]].",
+          "correct_answer": "can"
         },
         {
-          "interaction_id": "U40_L5_I12",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[review|repaso]])",
-          "title": "Pronunciación: Module 4 Review",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[frequency|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit40/lesson5-task-12.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U40_L5_I12_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'frequency'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
+          "interaction_id": "A1_U40_I57",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[She|Ella]] ______ [[plays|toca]] [[the|la]] [[piano|piano]] [[every|cada]] [[day|día]].",
+          "correct_answer": "usually"
         },
         {
-          "interaction_id": "U40_L5_I13",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[review|repaso]])",
-          "title": "Pronunciación: Module 4 Review",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[connectors|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit40/lesson5-task-13.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U40_L5_I13_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'connectors'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
+          "interaction_id": "A1_U40_I58",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Let's|Vamos a]] [[talk|hablar]] [[about|sobre]] [[your|tus]] [[abilities|habilidades]] [[and|e]] [[interests|intereses]].",
+          "correct_answer": true
         },
         {
-          "interaction_id": "U40_L5_I14",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[review|repaso]])",
-          "title": "Pronunciación: Module 4 Review",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[free time|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit40/lesson5-task-14.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U40_L5_I14_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'free time'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
+          "interaction_id": "A1_U40_I59",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Sure|Claro]]! [[I|Yo]] [[can|puedo]] [[play|tocar]] [[the|la]] [[guitar|guitarra]] [[and|y]] [[I|yo]] [[go|voy]] [[hiking|de senderismo]] [[quite|bastante]] [[often|a menudo]].",
+          "correct_answer": false
         },
         {
-          "interaction_id": "U40_L5_I15",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[review|repaso]])",
-          "title": "Pronunciación: Module 4 Review",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[instruments|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit40/lesson5-task-15.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U40_L5_I15_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'instruments'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
+          "interaction_id": "A1_U40_I60",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[How|Con qué]] [[often|frecuencia]] [[do|vas]] [[you|tú]] [[go|vas]] [[hiking|de senderismo]]?",
+          "correct_answer": true
         }
       ]
     }

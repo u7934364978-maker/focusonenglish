@@ -3,1890 +3,1230 @@
     "unit_id": "unit46",
     "unit_title": "At the Hotel",
     "level": "A1",
-    "total_duration_minutes": 120,
+    "total_duration_minutes": 60,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Identify common hotel areas and items",
-    "Make polite requests using 'I would like'",
-    "Ask for basic hotel information (wifi, breakfast)"
+    "Use hotel vocabulary in English",
+    "Make requests and inquiries at a hotel",
+    "Understand common hotel interactions"
   ],
   "blocks": [
     {
-      "block_id": "B46_1",
-      "title": "Block 1: Hotel Vocabulary",
+      "block_id": "B1",
+      "title": "Vocabulary Introduction",
       "content": [
         {
-          "interaction_id": "A1_U46_B46_1_I2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Dónde pides información al llegar?",
+          "interaction_id": "A1_U46_I1",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Reception|Recepción]]",
           "options": [
             {
-              "id": "o2",
-              "text": "[[Reception|recepción]]"
+              "id": "o1",
+              "text": "[[Recepción|Reception]]"
             },
             {
-              "id": "o1",
-              "text": "The shower"
+              "id": "o2",
+              "text": "[[Servicio de habitaciones|Room service]]"
             },
             {
               "id": "o3",
-              "text": "The bed"
+              "text": "[[Habitación individual|Single room]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U46_I2",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
           "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "stimulus_en": "[[Room service|Servicio de habitaciones]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Habitación individual|Single room]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Servicio de habitaciones|Room service]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Habitación doble|Double room]]"
+            }
+          ],
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "A1_U46_B46_1_I3",
-          "type": "fill_blanks",
-          "prompt_es": "Completa la palabra: ([[room|habitación]])",
-          "stimulus_en": "My room is on the third ________. (piso/planta)",
-          "correct_answer": "floor",
+          "interaction_id": "A1_U46_I3",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "complexity": 1,
+          "stimulus_en": "[[Single room|Habitación individual]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Habitación doble|Double room]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Llave|Key]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Habitación individual|Single room]]"
+            }
+          ],
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "A1_U46_B46_1_I4",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Habitación' ([[hotel|hotel]])",
-          "stimulus_es": "Habitación",
-          "correct_answer": "Room",
+          "interaction_id": "A1_U46_I4",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "complexity": 1,
+          "stimulus_en": "[[Double room|Habitación doble]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Habitación doble|Double room]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Llave|Key]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Registrarse (hotel)|Check in]]"
+            }
+          ],
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "A1_U46_B46_1_I5",
-          "type": "flashcard",
-          "prompt_es": "Repaso de hotel: ([[hotel|hotel]])",
-          "stimulus_en": "Check-out",
-          "correct_answer": "Salida (dejar el hotel)",
+          "interaction_id": "A1_U46_I5",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "complexity": 1,
+          "stimulus_en": "[[Key|Llave]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Registrarse (hotel)|Check in]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Llave|Key]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Salir del hotel|Check out]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U46_I6",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Check in|Registrarse (hotel)]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Salir del hotel|Check out]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Reserva|Reservation]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Registrarse (hotel)|Check in]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U46_I7",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Salir del hotel]]",
+          "correct_answer": "Check out"
+        },
+        {
+          "interaction_id": "A1_U46_I8",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Reserva]]",
+          "correct_answer": "Reservation"
+        },
+        {
+          "interaction_id": "A1_U46_I9",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Piso]]",
+          "correct_answer": "Floor"
+        },
+        {
+          "interaction_id": "A1_U46_I10",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Ascensor]]",
+          "correct_answer": "Lift"
         }
       ]
     },
     {
-      "block_id": "B46_2",
-      "title": "Block 2: Polite Requests & Info",
+      "block_id": "B2",
+      "title": "Vocabulary in Context",
       "content": [
         {
-          "interaction_id": "A1_U46_B46_2_I1",
-          "type": "multiple_choice",
-          "prompt_es": "I ________ like a double room, please. ([[room|habitación]])",
+          "interaction_id": "A1_U46_I11",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Double room|Habitación doble]]",
           "options": [
             {
-              "id": "o2",
-              "text": "do"
+              "id": "o1",
+              "text": "[[Double room|Habitación doble]]"
             },
             {
-              "id": "o1",
-              "text": "would"
+              "id": "o2",
+              "text": "[[Check out|Salir del hotel]]"
             },
             {
               "id": "o3",
-              "text": "am"
+              "text": "[[Lift|Ascensor]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "A1_U46_B46_2_I2",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con 'have' o 'has': ([[room|habitación]])",
-          "stimulus_en": "Does the room ________ a TV?",
-          "correct_answer": "have",
-          "mastery_tag": "grammar",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
+          "interaction_id": "A1_U46_I12",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Key|Llave]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Reservation|Reserva]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Key|Llave]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Breakfast|Desayuno]]"
+            }
+          ],
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "A1_U46_B46_2_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es correcto decir 'My room is in the first floor'? ([[room|habitación]])",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
+          "interaction_id": "A1_U46_I13",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Check in|Registrarse (hotel)]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Floor|Piso]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Towel|Toalla]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Check in|Registrarse (hotel)]]"
+            }
+          ],
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "A1_U46_B46_2_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa la frase: ([[breakfast|desayuno]])",
-          "stimulus_en": "Is breakfast ________ in the price? (incluido)",
-          "correct_answer": "included",
-          "mastery_tag": "grammar",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "B46_3",
-      "title": "Block 3: At the Reception",
-      "content": [
+          "interaction_id": "A1_U46_I14",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Check out|Salir del hotel]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Check out|Salir del hotel]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Lift|Ascensor]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Pool|Piscina]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
         {
-          "interaction_id": "A1_U46_B46_3_I1",
-          "type": "reorder_words",
-          "prompt_es": "Pide la contraseña del wifi: ([[hotel|hotel]])",
+          "interaction_id": "A1_U46_I15",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Can|¿Puedo]] [[I|yo]] ______ [[a|una]] [[room|habitación]] [[for|para]] [[two|dos]] [[nights|noches]]?",
+          "correct_answer": "have"
+        },
+        {
+          "interaction_id": "A1_U46_I16",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Is|Hay]] [[there|hay]] [[a|una]] [[swimming|piscina]] ______ [[at|en]] [[the|el]] [[hotel|hotel]]?",
+          "correct_answer": "pool"
+        },
+        {
+          "interaction_id": "A1_U46_I17",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[have|tengo]] [[a|una]] ______ [[for|a]] [[Mr|nombre de]] [[Smith|Smith]].",
+          "correct_answer": "reservation"
+        },
+        {
+          "interaction_id": "A1_U46_I18",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
           "options": [
             {
               "id": "w1",
-              "text": "What"
+              "text": "[[Reception|Recepción]]"
             },
             {
               "id": "w2",
-              "text": "is"
+              "text": "[[Single room|Habitación individual]]"
             },
             {
               "id": "w3",
-              "text": "the"
-            },
-            {
-              "id": "w4",
-              "text": "wifi"
-            },
-            {
-              "id": "w5",
-              "text": "password?"
+              "text": "[[Room service|Servicio de habitaciones]]"
             }
           ],
           "correct_answer": [
             "w1",
-            "w2",
             "w3",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U46_I19",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Key|Llave]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Check out|Salir del hotel]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Check in|Registrarse (hotel)]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U46_I20",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Floor|Piso]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Breakfast|Desayuno]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Lift|Ascensor]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Grammar — Affirmative",
+      "content": [
+        {
+          "interaction_id": "A1_U46_I21",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Can|¿Puedo]] [[I|yo]] ______ [[a|una]] [[room|habitación]] [[for|para]] [[two|dos]] [[nights|noches]]?",
+          "correct_answer": "have"
+        },
+        {
+          "interaction_id": "A1_U46_I22",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Is|Hay]] [[there|hay]] [[a|una]] [[swimming|piscina]] ______ [[at|en]] [[the|el]] [[hotel|hotel]]?",
+          "correct_answer": "pool"
+        },
+        {
+          "interaction_id": "A1_U46_I23",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[have|tengo]] [[a|una]] ______ [[for|a]] [[Mr|nombre de]] [[Smith|Smith]].",
+          "correct_answer": "reservation"
+        },
+        {
+          "interaction_id": "A1_U46_I24",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[What|A qué]] [[time|hora]] [[is|es]] ______  [[served|sirve]] [[breakfast|el desayuno]]?",
+          "correct_answer": "breakfast"
+        },
+        {
+          "interaction_id": "A1_U46_I25",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Your|Su]] [[room|habitación]] [[is|está]] [[on|en]] [[the|el]] ______ [[floor|tercer]] [[third|piso]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[third|third]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[pool|pool]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[reservation|reservation]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U46_I26",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Could|¿Podría]] [[I|yo]] [[get|conseguir]] [[extra|más]] ______ [[please|por favor]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[reservation|reservation]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[towels|towels]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[breakfast|breakfast]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U46_I27",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Can|¿Puedo]] [[I|yo]] ______ [[a|una]] [[room|habitación]] [[for|para]] [[two|dos]] [[nights|noches]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[breakfast|breakfast]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[third|third]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[have|have]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U46_I28",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Is|Hay]] [[there|hay]] [[a|una]] [[swimming|piscina]] ______ [[at|en]] [[the|el]] [[hotel|hotel]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[pool|pool]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[third|third]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[towels|towels]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U46_I29",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Single room|Habitación individual]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Reception|Recepción]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Key|Llave]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
+          ]
+        },
+        {
+          "interaction_id": "A1_U46_I30",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Reservation|Reserva]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Check in|Registrarse (hotel)]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Lift|Ascensor]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Grammar — Negative & Questions",
+      "content": [
+        {
+          "interaction_id": "A1_U46_I31",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[have|tengo]] [[a|una]] ______ [[for|a]] [[Mr|nombre de]] [[Smith|Smith]].",
+          "correct_answer": "reservation"
+        },
+        {
+          "interaction_id": "A1_U46_I32",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[What|A qué]] [[time|hora]] [[is|es]] ______  [[served|sirve]] [[breakfast|el desayuno]]?",
+          "correct_answer": "breakfast"
+        },
+        {
+          "interaction_id": "A1_U46_I33",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Your|Su]] [[room|habitación]] [[is|está]] [[on|en]] [[the|el]] ______ [[floor|tercer]] [[third|piso]].",
+          "correct_answer": "third"
+        },
+        {
+          "interaction_id": "A1_U46_I34",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[What|A qué]] [[time|hora]] [[is|es]] ______  [[served|sirve]] [[breakfast|el desayuno]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[breakfast|breakfast]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[towels|towels]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[have|have]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U46_I35",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Your|Su]] [[room|habitación]] [[is|está]] [[on|en]] [[the|el]] ______ [[floor|tercer]] [[third|piso]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[have|have]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[third|third]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[pool|pool]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U46_I36",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Could|¿Podría]] [[I|yo]] [[get|conseguir]] [[extra|más]] ______ [[please|por favor]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[pool|pool]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[reservation|reservation]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[towels|towels]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U46_I37",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Can|¿Puedo]] [[I|yo]] ______ [[a|una]] [[room|habitación]] [[for|para]] [[two|dos]] [[nights|noches]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[have|have]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[reservation|reservation]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[breakfast|breakfast]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U46_I38",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Key|Llave]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Room service|Servicio de habitaciones]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Check out|Salir del hotel]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Single room|Habitación individual]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
             "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "syntax"
+            "w3"
           ]
         },
         {
-          "interaction_id": "A1_U46_B46_3_I2",
-          "type": "multiple_choice",
-          "prompt_es": "Receptionist: 'Your room is 204. Here is the key.' - You: ([[thank you|gracias]])",
+          "interaction_id": "A1_U46_I39",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
           "options": [
             {
-              "id": "o2",
-              "text": "I am from Spain."
+              "id": "w1",
+              "text": "[[Reservation|Reserva]]"
             },
             {
-              "id": "o1",
-              "text": "Good luck."
+              "id": "w2",
+              "text": "[[Key|Llave]]"
             },
             {
-              "id": "o3",
-              "text": "Thank you very much."
+              "id": "w3",
+              "text": "[[Lift|Ascensor]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Check in|Registrarse (hotel)]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "syntax",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "syntax"
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
           ]
         },
         {
-          "interaction_id": "A1_U46_B46_3_I3",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el diálogo: ([[please|por favor]])",
-          "stimulus_en": "A: I would like to ________ in, please.\nB: Certainly. What is your name?",
-          "correct_answer": "check",
-          "mastery_tag": "syntax",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
-        },
-        {
-          "interaction_id": "A1_U46_B46_3_I4",
-          "type": "short_writing",
-          "prompt_es": "Traduce: '¿Dónde está el ascensor?' ([[hotel|hotel]])",
-          "stimulus_es": "¿Dónde está el ascensor?",
-          "correct_answer": "Where is the elevator?",
-          "mastery_tag": "syntax",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
-        },
-        {
-          "interaction_id": "A1_U46_B46_3_I5",
-          "type": "true_false",
-          "prompt_es": "The receptionist works at the reception desk. ([[reception|recepción]])",
-          "correct_answer": true,
-          "mastery_tag": "syntax",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "syntax"
+          "interaction_id": "A1_U46_I40",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Breakfast|Desayuno]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Reservation|Reserva]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Pool|Piscina]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Floor|Piso]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
           ]
         }
       ]
     },
     {
-      "block_id": "B46_4",
-      "title": "Block 4: Mastery & Skills",
+      "block_id": "B5",
+      "title": "Reading Comprehension",
       "content": [
         {
-          "interaction_id": "A1_U46_B46_4_I1",
-          "type": "audio_player",
-          "prompt_es": "Escucha y escribe la frase: ([[hotel|hotel]])",
-          "audioUrl": "/audio/courses/ingles-a1/shared/6a60b2fb70220743314aa55b896467c8.mp3",
-          "text": "Is breakfast included?",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "A1_U46_B46_4_I4",
-          "type": "audio_player",
-          "prompt_es": "Escucha la frase del recepcionista: ([[hotel|hotel]])",
-          "audioUrl": "/audio/courses/ingles-a1/shared/8227b8535d0a1ba499589495f9efb937.mp3",
-          "text": "I want a double room.",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "A1_U46_B46_4_READ1",
-          "type": "reading_phase",
-          "prompt_es": "[[Read|Lee]] [[the|el]] [[following|siguiente]] [[text|texto]] [[carefully|con atención]]:",
-          "transcript": "Breakfast ends at 10:00 AM in the small cafe. Emily sits at a table. She drinks orange juice and eats toast. The sun shines through the window. She looks at her watch. It says 9:30 AM. She smiles because she has more time to enjoy her breakfast. She likes quiet mornings."
-        },
-        {
-          "interaction_id": "A1_U46_B46_4_I5",
-          "type": "multiple_choice",
-          "prompt_es": "¿A qué hora termina el desayuno? ([[hotel|hotel]])",
-          "options": [
-            {
-              "id": "o2",
-              "text": "10:00 AM"
-            },
-            {
-              "id": "o1",
-              "text": "12:00 PM"
-            },
-            {
-              "id": "o3",
-              "text": "7:00 AM"
-            }
-          ],
-          "correct_answer": "o2",
+          "interaction_id": "A1_U46_I41",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
           "mastery_tag": "reading",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
+          "complexity": 2,
+          "transcript": "[[Good|Buenas]] [[evening|tardes]]. [[I|Yo]] [[have|tengo]] [[a|una]] [[reservation|reserva]] [[under|a nombre de]] [[the|el]] [[name|nombre]] [[Johnson|Johnson]]. [[Welcome|Bienvenido]], [[Mr|Sr.]] [[Johnson|Johnson]]. [[You|Usted]] [[have|tiene]] [[a|una]] [[double|doble]] [[room|habitación]] [[on|en]] [[the|el]] [[fourth|cuarto]] [[floor|piso]]. [[Is|Hay]] [[breakfast|desayuno]] [[included|incluido]]? [[Yes|Sí]], [[breakfast|el desayuno]] [[is|se sirve]] [[served|sirve]] [[from|de]] [[seven|las siete]] [[to|a]] [[ten|las diez]] [[in|en]] [[the|el]] [[morning|mañana]] [[in|en]] [[our|nuestro]] [[restaurant|restaurante]]. [[Can|¿Puedo]] [[I|yo]] [[have|tener]] [[two|dos]] [[room|llaves]] [[keys|llaves]], [[please|por favor]]?",
+          "question_en": "[[How|A nombre de quién]] [[is|está]] [[the|la]] [[reservation|reserva]] [[made|hecha]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Mr. Smith|Sr. Smith]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Mr. Johnson|Sr. Johnson]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Mrs. Johnson|Sra. Johnson]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U46_I42",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Good|Buenas]] [[evening|tardes]]. [[I|Yo]] [[have|tengo]] [[a|una]] [[reservation|reserva]] [[under|a nombre de]] [[the|el]] [[name|nombre]] [[Johnson|Johnson]]. [[Welcome|Bienvenido]], [[Mr|Sr.]] [[Johnson|Johnson]]. [[You|Usted]] [[have|tiene]] [[a|una]] [[double|doble]] [[room|habitación]] [[on|en]] [[the|el]] [[fourth|cuarto]] [[floor|piso]]. [[Is|Hay]] [[breakfast|desayuno]] [[included|incluido]]? [[Yes|Sí]], [[breakfast|el desayuno]] [[is|se sirve]] [[served|sirve]] [[from|de]] [[seven|las siete]] [[to|a]] [[ten|las diez]] [[in|en]] [[the|el]] [[morning|mañana]] [[in|en]] [[our|nuestro]] [[restaurant|restaurante]]. [[Can|¿Puedo]] [[I|yo]] [[have|tener]] [[two|dos]] [[room|llaves]] [[keys|llaves]], [[please|por favor]]?",
+          "question_en": "[[What|Qué tipo de]] [[type|tipo de]] [[of|tipo de]] [[room|habitación]] [[does|tiene]] [[he|él]] [[have|tiene]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Single room|Habitación individual]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Suite|Suite]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Double room|Habitación doble]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U46_I43",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Good|Buenas]] [[evening|tardes]]. [[I|Yo]] [[have|tengo]] [[a|una]] [[reservation|reserva]] [[under|a nombre de]] [[the|el]] [[name|nombre]] [[Johnson|Johnson]]. [[Welcome|Bienvenido]], [[Mr|Sr.]] [[Johnson|Johnson]]. [[You|Usted]] [[have|tiene]] [[a|una]] [[double|doble]] [[room|habitación]] [[on|en]] [[the|el]] [[fourth|cuarto]] [[floor|piso]]. [[Is|Hay]] [[breakfast|desayuno]] [[included|incluido]]? [[Yes|Sí]], [[breakfast|el desayuno]] [[is|se sirve]] [[served|sirve]] [[from|de]] [[seven|las siete]] [[to|a]] [[ten|las diez]] [[in|en]] [[the|el]] [[morning|mañana]] [[in|en]] [[our|nuestro]] [[restaurant|restaurante]]. [[Can|¿Puedo]] [[I|yo]] [[have|tener]] [[two|dos]] [[room|llaves]] [[keys|llaves]], [[please|por favor]]?",
+          "question_en": "[[Which|En qué]] [[floor|piso]] [[is|está]] [[the|la]] [[room|habitación]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Third floor|Tercer piso]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Second floor|Segundo piso]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Fourth floor|Cuarto piso]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U46_I44",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Good|Buenas]] [[evening|tardes]]. [[I|Yo]] [[have|tengo]] [[a|una]] [[reservation|reserva]] [[under|a nombre de]] [[the|el]] [[name|nombre]] [[Johnson|Johnson]]. [[Welcome|Bienvenido]], [[Mr|Sr.]] [[Johnson|Johnson]]. [[You|Usted]] [[have|tiene]] [[a|una]] [[double|doble]] [[room|habitación]] [[on|en]] [[the|el]] [[fourth|cuarto]] [[floor|piso]]. [[Is|Hay]] [[breakfast|desayuno]] [[included|incluido]]? [[Yes|Sí]], [[breakfast|el desayuno]] [[is|se sirve]] [[served|sirve]] [[from|de]] [[seven|las siete]] [[to|a]] [[ten|las diez]] [[in|en]] [[the|el]] [[morning|mañana]] [[in|en]] [[our|nuestro]] [[restaurant|restaurante]]. [[Can|¿Puedo]] [[I|yo]] [[have|tener]] [[two|dos]] [[room|llaves]] [[keys|llaves]], [[please|por favor]]?",
+          "question_en": "[[Is|Está]] [[breakfast|el desayuno]] [[included|incluido]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[No, extra charge|No, con cargo adicional]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Yes, included|Sí, incluido]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Only on weekdays|Solo entre semana]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U46_I45",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Good|Buenas]] [[evening|tardes]]. [[I|Yo]] [[have|tengo]] [[a|una]] [[reservation|reserva]] [[under|a nombre de]] [[the|el]] [[name|nombre]] [[Johnson|Johnson]]. [[Welcome|Bienvenido]], [[Mr|Sr.]] [[Johnson|Johnson]]. [[You|Usted]] [[have|tiene]] [[a|una]] [[double|doble]] [[room|habitación]] [[on|en]] [[the|el]] [[fourth|cuarto]] [[floor|piso]]. [[Is|Hay]] [[breakfast|desayuno]] [[included|incluido]]? [[Yes|Sí]], [[breakfast|el desayuno]] [[is|se sirve]] [[served|sirve]] [[from|de]] [[seven|las siete]] [[to|a]] [[ten|las diez]] [[in|en]] [[the|el]] [[morning|mañana]] [[in|en]] [[our|nuestro]] [[restaurant|restaurante]]. [[Can|¿Puedo]] [[I|yo]] [[have|tener]] [[two|dos]] [[room|llaves]] [[keys|llaves]], [[please|por favor]]?",
+          "question_en": "[[When|Cuándo]] [[is|se sirve]] [[breakfast|el desayuno]] [[served|sirve]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[From 8 to 11|De 8 a 11]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[From 7 to 10|De 7 a 10]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[From 6 to 9|De 6 a 9]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U46_I46",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Good|Buenas]] [[evening|tardes]]. [[I|Yo]] [[have|tengo]] [[a|una]] [[reservation|reserva]] [[under|a nombre de]] [[the|el]] [[name|nombre]] [[Johnson|Johnson]]. [[Welcome|Bienvenido]], [[Mr|Sr.]] [[Johnson|Johnson]]. [[You|Usted]] [[have|tiene]] [[a|una]] [[double|doble]] [[room|habitación]] [[on|en]] [[the|el]] [[fourth|cuarto]] [[floor|piso]]. [[Is|Hay]] [[breakfast|desayuno]] [[included|incluido]]? [[Yes|Sí]], [[breakfast|el desayuno]] [[is|se sirve]] [[served|sirve]] [[from|de]] [[seven|las siete]] [[to|a]] [[ten|las diez]] [[in|en]] [[the|el]] [[morning|mañana]] [[in|en]] [[our|nuestro]] [[restaurant|restaurante]]. [[Can|¿Puedo]] [[I|yo]] [[have|tener]] [[two|dos]] [[room|llaves]] [[keys|llaves]], [[please|por favor]]?",
+          "question_en": "[[How|Cuántas]] [[many|cuántas]] [[room|llaves]] [[keys|llaves]] [[does|quiere]] [[the|el]] [[guest|huésped]] [[want|quiere]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[One|Una]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Three|Tres]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Two|Dos]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U46_I47",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Good|Buenas]] [[evening|tardes]]. [[I|Yo]] [[have|tengo]] [[a|una]] [[reservation|reserva]] [[under|a nombre de]] [[the|el]] [[name|nombre]] [[Johnson|Johnson]]. [[Welcome|Bienvenido]], [[Mr|Sr.]] [[Johnson|Johnson]]. [[You|Usted]] [[have|tiene]] [[a|una]] [[double|doble]] [[room|habitación]] [[on|en]] [[the|el]] [[fourth|cuarto]] [[floor|piso]]. [[Is|Hay]] [[breakfast|desayuno]] [[included|incluido]]? [[Yes|Sí]], [[breakfast|el desayuno]] [[is|se sirve]] [[served|sirve]] [[from|de]] [[seven|las siete]] [[to|a]] [[ten|las diez]] [[in|en]] [[the|el]] [[morning|mañana]] [[in|en]] [[our|nuestro]] [[restaurant|restaurante]]. [[Can|¿Puedo]] [[I|yo]] [[have|tener]] [[two|dos]] [[room|llaves]] [[keys|llaves]], [[please|por favor]]?",
+          "question_en": "[[What|Qué]] [[does|significa]] 'Check out' [[mean|significa]] [[in|en]] [[a|un]] [[hotel|hotel]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Register on arrival|Registrarse a la llegada]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Leave the hotel|Salir del hotel]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Pay for extras|Pagar extras]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U46_I48",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Good|Buenas]] [[evening|tardes]]. [[I|Yo]] [[have|tengo]] [[a|una]] [[reservation|reserva]] [[under|a nombre de]] [[the|el]] [[name|nombre]] [[Johnson|Johnson]]. [[Welcome|Bienvenido]], [[Mr|Sr.]] [[Johnson|Johnson]]. [[You|Usted]] [[have|tiene]] [[a|una]] [[double|doble]] [[room|habitación]] [[on|en]] [[the|el]] [[fourth|cuarto]] [[floor|piso]]. [[Is|Hay]] [[breakfast|desayuno]] [[included|incluido]]? [[Yes|Sí]], [[breakfast|el desayuno]] [[is|se sirve]] [[served|sirve]] [[from|de]] [[seven|las siete]] [[to|a]] [[ten|las diez]] [[in|en]] [[the|el]] [[morning|mañana]] [[in|en]] [[our|nuestro]] [[restaurant|restaurante]]. [[Can|¿Puedo]] [[I|yo]] [[have|tener]] [[two|dos]] [[room|llaves]] [[keys|llaves]], [[please|por favor]]?",
+          "question_en": "[[What|Qué]] [[word|palabra]] [[means|significa]] 'Recepción' [[in|en]] [[English|inglés]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Restaurant|Restaurante]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Reception|Recepción]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Reservation|Reserva]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U46_I49",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Good|Buenas]] [[evening|tardes]]. [[I|Yo]] [[have|tengo]] [[a|una]] [[reservation|reserva]] [[under|a nombre de]] [[the|el]] [[name|nombre]] [[Johnson|Johnson]]. [[Welcome|Bienvenido]], [[Mr|Sr.]] [[Johnson|Johnson]]. [[You|Usted]] [[have|tiene]] [[a|una]] [[double|doble]] [[room|habitación]] [[on|en]] [[the|el]] [[fourth|cuarto]] [[floor|piso]]. [[Is|Hay]] [[breakfast|desayuno]] [[included|incluido]]? [[Yes|Sí]], [[breakfast|el desayuno]] [[is|se sirve]] [[served|sirve]] [[from|de]] [[seven|las siete]] [[to|a]] [[ten|las diez]] [[in|en]] [[the|el]] [[morning|mañana]] [[in|en]] [[our|nuestro]] [[restaurant|restaurante]]. [[Can|¿Puedo]] [[I|yo]] [[have|tener]] [[two|dos]] [[room|llaves]] [[keys|llaves]], [[please|por favor]]?",
+          "question_en": "[[What|Qué]] [[is|es]] 'Room service'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Cleaning the room|Limpiar la habitación]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Food/items delivered to your room|Comida/artículos entregados en la habitación]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[A type of room|Un tipo de habitación]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U46_I50",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Good|Buenas]] [[evening|tardes]]. [[I|Yo]] [[have|tengo]] [[a|una]] [[reservation|reserva]] [[under|a nombre de]] [[the|el]] [[name|nombre]] [[Johnson|Johnson]]. [[Welcome|Bienvenido]], [[Mr|Sr.]] [[Johnson|Johnson]]. [[You|Usted]] [[have|tiene]] [[a|una]] [[double|doble]] [[room|habitación]] [[on|en]] [[the|el]] [[fourth|cuarto]] [[floor|piso]]. [[Is|Hay]] [[breakfast|desayuno]] [[included|incluido]]? [[Yes|Sí]], [[breakfast|el desayuno]] [[is|se sirve]] [[served|sirve]] [[from|de]] [[seven|las siete]] [[to|a]] [[ten|las diez]] [[in|en]] [[the|el]] [[morning|mañana]] [[in|en]] [[our|nuestro]] [[restaurant|restaurante]]. [[Can|¿Puedo]] [[I|yo]] [[have|tener]] [[two|dos]] [[room|llaves]] [[keys|llaves]], [[please|por favor]]?",
+          "question_en": "[[What|Qué]] [[does|significa]] 'Reservation' [[mean|significa]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Check-in|Registro]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[A booking made in advance|Una reserva hecha con antelación]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[A hotel key|Una llave de hotel]]"
+            }
+          ],
+          "correct_answer": "o2"
         }
       ]
     },
     {
-      "block_id": "B46_5",
-      "title": "Block 5: Listening & Pronunciation",
+      "block_id": "B6",
+      "title": "Production",
       "content": [
         {
-          "interaction_id": "U46_I301",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[please|por favor]])",
-          "stimulus_en": "I would like a quiet room, please.",
-          "correct_answer": "I would like a quiet room, please.",
-          "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-1.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U46_I302",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[reception|recepción]])",
-          "stimulus_en": "Where is the reception desk?",
-          "correct_answer": "Where is the reception desk?",
-          "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-2.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U46_I303",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[hotel|hotel]])",
-          "stimulus_en": "The wifi password is on the card.",
-          "correct_answer": "The wifi password is on the card.",
-          "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-3.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U46_I304",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[breakfast|desayuno]])",
-          "stimulus_en": "Breakfast is from seven to ten.",
-          "correct_answer": "Breakfast is from seven to ten.",
-          "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-4.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U46_I305",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[towel|toalla]])",
-          "stimulus_en": "Can I have another towel?",
-          "correct_answer": "Can I have another towel?",
-          "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-5.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U46_I306",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[room|habitación]])",
-          "stimulus_en": "My room is on the fourth floor.",
-          "correct_answer": "My room is on the fourth floor.",
-          "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-6.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U46_I307",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[please|por favor]])",
-          "stimulus_en": "Please call a taxi for me.",
-          "correct_answer": "Please call a taxi for me.",
-          "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-7.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U46_I308",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[hotel|hotel]])",
-          "title": "Pronunciación: Hotel",
-          "instructions": "Escucha y repite el acento en la segunda sílaba.",
-          "targetSentences": [
-            {
-              "text": "The [[hotel|hotel]] is [[near|cerca]].",
-              "phonetic": "/ðə həʊˈtɛl ɪz nɪə/",
-              "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-8.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U46_I308_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Dónde recae el acento en 'hotel'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "En la segunda sílaba (ho-TEL)"
-                },
-                {
-                  "id": "o2",
-                  "text": "En la primera sílaba (HO-tel)"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U46_I309",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[hotel|hotel]])",
-          "title": "Pronunciación: Reception",
-          "instructions": "Escucha y repite la terminación '-tion'.",
-          "targetSentences": [
-            {
-              "text": "Go to [[reception|recepción]].",
-              "phonetic": "/ɡəʊ tə rɪˈsɛpʃn/",
-              "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-9.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U46_I309_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'c' en 'reception'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Como una 's' (/s/)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como una 'k'"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U46_I310",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[hotel|hotel]])",
-          "title": "Pronunciación: Room",
-          "instructions": "Escucha y repite la 'oo' larga.",
-          "targetSentences": [
-            {
-              "text": "My [[room|habitación]] is [[here|aquí]].",
-              "phonetic": "/maɪ ruːm ɪz hɪə/",
-              "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-10.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U46_I310_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'oo' en 'room'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Como una 'u' larga (/uː/)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como una 'u' corta"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U46_I311",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[hotel|hotel]])",
-          "title": "Pronunciación: Floor",
-          "instructions": "Escucha y repite la 'r' final.",
-          "targetSentences": [
-            {
-              "text": "The fifth [[floor|piso]].",
-              "phonetic": "/ðə fɪfθ flɔː/",
-              "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-11.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U46_I311_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿En inglés británico, se pronuncia la 'r' final de 'floor' si es la última palabra?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "No, suele ser muda"
-                },
-                {
-                  "id": "o2",
-                  "text": "Sí, suena fuerte"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U46_I312",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[hotel|hotel]])",
-          "title": "Pronunciación: Breakfast",
-          "instructions": "Escucha y repite enfocándote en la primera sílaba.",
-          "targetSentences": [
-            {
-              "text": "[[Breakfast|Desayuno]] is [[ready|listo]].",
-              "phonetic": "/ˈbrɛkfəst ɪz ˈrɛdi/",
-              "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-12.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U46_I312_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'ea' en 'breakfast'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Como una 'e' corta (/ɛ/)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como una 'i' larga (/iː/)"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U46_I313",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[hotel|hotel]])",
-          "title": "Pronunciación: Wifi",
-          "instructions": "Escucha y repite los diptongos.",
-          "targetSentences": [
-            {
-              "text": "The [[wifi|wifi]] is [[free|gratis]].",
-              "phonetic": "/ˈwaɪfaɪ ɪz friː/",
-              "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-13.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U46_I313_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'i' en 'wifi'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Como /aɪ/ (ai)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como una 'i' española"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U46_I314",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[hotel|hotel]])",
-          "title": "Pronunciación: Card",
-          "instructions": "Escucha y repite la 'r' suave.",
-          "targetSentences": [
-            {
-              "text": "The key [[card|tarjeta]].",
-              "phonetic": "/ðə kiː kɑːd/",
-              "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-14.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U46_I314_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'ar' en 'card'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Como una 'a' larga y profunda (/ɑː/)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como una 'e' abierta"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U46_I315",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[hotel|hotel]])",
-          "title": "Pronunciación: Repaso Hotel",
-          "instructions": "Escucha y repite la frase completa.",
-          "targetSentences": [
-            {
-              "text": "I [[would like|querría]] to [[check-out|irme del hotel]].",
-              "phonetic": "/aɪ wʊd laɪk tə tʃɛk aʊt/",
-              "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-15.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U46_I315_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Se pronuncia la 'l' en 'would'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "No, es muda"
-                },
-                {
-                  "id": "o2",
-                  "text": "Sí, suena suavemente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Practice Sessions",
-      "content": [
-        {
-          "interaction_id": "U46_FILLER_0",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'hotel' en inglés?",
+          "interaction_id": "A1_U46_I51",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
           "options": [
             {
-              "id": "o1",
-              "text": "Key"
+              "id": "w1",
+              "text": "[[Room service|Servicio de habitaciones]]"
             },
             {
-              "id": "o2",
-              "text": "Reservation"
+              "id": "w2",
+              "text": "[[Key|Llave]]"
             },
             {
-              "id": "o3",
-              "text": "[[Hotel|hotel]]"
+              "id": "w3",
+              "text": "[[Reception|Recepción]]"
             },
             {
-              "id": "o4",
-              "text": "Pool"
+              "id": "w4",
+              "text": "[[Single room|Habitación individual]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U46_FILLER_1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'room' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Room|habitación]]"
-            },
-            {
-              "id": "o2",
-              "text": "Towel"
-            },
-            {
-              "id": "o3",
-              "text": "Key"
-            },
-            {
-              "id": "o4",
-              "text": "Breakfast"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U46_FILLER_2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'key' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Room"
-            },
-            {
-              "id": "o2",
-              "text": "[[Key|llave]]"
-            },
-            {
-              "id": "o3",
-              "text": "Breakfast"
-            },
-            {
-              "id": "o4",
-              "text": "Hotel"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U46_FILLER_3",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'reservation' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Reservation|reserva]]"
-            },
-            {
-              "id": "o2",
-              "text": "Reception"
-            },
-            {
-              "id": "o3",
-              "text": "Single room"
-            },
-            {
-              "id": "o4",
-              "text": "Key"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U46_FILLER_4",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'reception' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Double room"
-            },
-            {
-              "id": "o2",
-              "text": "[[Reception|recepción]]"
-            },
-            {
-              "id": "o3",
-              "text": "Towel"
-            },
-            {
-              "id": "o4",
-              "text": "Key"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U46_FILLER_5",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'breakfast' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Single room"
-            },
-            {
-              "id": "o2",
-              "text": "Key"
-            },
-            {
-              "id": "o3",
-              "text": "Room"
-            },
-            {
-              "id": "o4",
-              "text": "[[Breakfast|desayuno]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U46_FILLER_6",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'shower' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Shower|ducharse]]"
-            },
-            {
-              "id": "o2",
-              "text": "Single room"
-            },
-            {
-              "id": "o3",
-              "text": "Reservation"
-            },
-            {
-              "id": "o4",
-              "text": "Breakfast"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U46_FILLER_7",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'hotel' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Reception"
-            },
-            {
-              "id": "o2",
-              "text": "Breakfast"
-            },
-            {
-              "id": "o3",
-              "text": "[[Hotel|hotel]]"
-            },
-            {
-              "id": "o4",
-              "text": "Reservation"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U46_FILLER_8",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'room' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Key"
-            },
-            {
-              "id": "o2",
-              "text": "[[Room|habitación]]"
-            },
-            {
-              "id": "o3",
-              "text": "Reception"
-            },
-            {
-              "id": "o4",
-              "text": "Single room"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U46_FILLER_9",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'key' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Room"
-            },
-            {
-              "id": "o2",
-              "text": "[[Key|llave]]"
-            },
-            {
-              "id": "o3",
-              "text": "Reception"
-            },
-            {
-              "id": "o4",
-              "text": "Double room"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U46_FILLER_10",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'reservation' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Breakfast"
-            },
-            {
-              "id": "o2",
-              "text": "Double room"
-            },
-            {
-              "id": "o3",
-              "text": "Lift"
-            },
-            {
-              "id": "o4",
-              "text": "[[Reservation|reserva]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U46_FILLER_11",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'reception' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Hotel"
-            },
-            {
-              "id": "o2",
-              "text": "Double room"
-            },
-            {
-              "id": "o3",
-              "text": "[[Reception|recepción]]"
-            },
-            {
-              "id": "o4",
-              "text": "Room"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U46_FILLER_12",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'breakfast' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Lift"
-            },
-            {
-              "id": "o2",
-              "text": "Key"
-            },
-            {
-              "id": "o3",
-              "text": "Double room"
-            },
-            {
-              "id": "o4",
-              "text": "[[Breakfast|desayuno]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U46_FILLER_13",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'shower' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Double room"
-            },
-            {
-              "id": "o2",
-              "text": "[[Shower|ducharse]]"
-            },
-            {
-              "id": "o3",
-              "text": "Reception"
-            },
-            {
-              "id": "o4",
-              "text": "Towel"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U46_FILLER_14",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'hotel' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Breakfast"
-            },
-            {
-              "id": "o2",
-              "text": "[[Hotel|hotel]]"
-            },
-            {
-              "id": "o3",
-              "text": "Reception"
-            },
-            {
-              "id": "o4",
-              "text": "Reservation"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U46_FILLER_15",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'room' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Reception"
-            },
-            {
-              "id": "o2",
-              "text": "Reservation"
-            },
-            {
-              "id": "o3",
-              "text": "Single room"
-            },
-            {
-              "id": "o4",
-              "text": "[[Room|habitación]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U46_FILLER_16",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'key' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Key|llave]]"
-            },
-            {
-              "id": "o2",
-              "text": "Reservation"
-            },
-            {
-              "id": "o3",
-              "text": "Pool"
-            },
-            {
-              "id": "o4",
-              "text": "Double room"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U46_FILLER_17",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'reservation' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Room"
-            },
-            {
-              "id": "o2",
-              "text": "Key"
-            },
-            {
-              "id": "o3",
-              "text": "Towel"
-            },
-            {
-              "id": "o4",
-              "text": "[[Reservation|reserva]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U46_FILLER_18",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'reception' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Reception|recepción]]"
-            },
-            {
-              "id": "o2",
-              "text": "Hotel"
-            },
-            {
-              "id": "o3",
-              "text": "Reservation"
-            },
-            {
-              "id": "o4",
-              "text": "Double room"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U46_FILLER_19",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'breakfast' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Key"
-            },
-            {
-              "id": "o2",
-              "text": "Hotel"
-            },
-            {
-              "id": "o3",
-              "text": "Room"
-            },
-            {
-              "id": "o4",
-              "text": "[[Breakfast|desayuno]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U46_FILLER_20",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'shower' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Hotel"
-            },
-            {
-              "id": "o2",
-              "text": "Key"
-            },
-            {
-              "id": "o3",
-              "text": "Single room"
-            },
-            {
-              "id": "o4",
-              "text": "[[Shower|ducharse]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U46_FILLER_21",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'hotel' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Towel"
-            },
-            {
-              "id": "o2",
-              "text": "[[Hotel|hotel]]"
-            },
-            {
-              "id": "o3",
-              "text": "Double room"
-            },
-            {
-              "id": "o4",
-              "text": "Room"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U46_FILLER_22",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'room' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Room|habitación]]"
-            },
-            {
-              "id": "o2",
-              "text": "Lift"
-            },
-            {
-              "id": "o3",
-              "text": "Reception"
-            },
-            {
-              "id": "o4",
-              "text": "Pool"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U46_FILLER_23",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'key' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Towel"
-            },
-            {
-              "id": "o2",
-              "text": "[[Key|llave]]"
-            },
-            {
-              "id": "o3",
-              "text": "Pool"
-            },
-            {
-              "id": "o4",
-              "text": "Room"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U46_FILLER_24",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'reservation' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Single room"
-            },
-            {
-              "id": "o2",
-              "text": "[[Reservation|reserva]]"
-            },
-            {
-              "id": "o3",
-              "text": "Reception"
-            },
-            {
-              "id": "o4",
-              "text": "Room"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U46_FILLER_25",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'reception' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Reception|recepción]]"
-            },
-            {
-              "id": "o2",
-              "text": "Single room"
-            },
-            {
-              "id": "o3",
-              "text": "Lift"
-            },
-            {
-              "id": "o4",
-              "text": "Towel"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U46_FILLER_26",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'breakfast' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Breakfast|desayuno]]"
-            },
-            {
-              "id": "o2",
-              "text": "Hotel"
-            },
-            {
-              "id": "o3",
-              "text": "Double room"
-            },
-            {
-              "id": "o4",
-              "text": "Single room"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U46_FILLER_27",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'shower' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Pool"
-            },
-            {
-              "id": "o2",
-              "text": "Breakfast"
-            },
-            {
-              "id": "o3",
-              "text": "Key"
-            },
-            {
-              "id": "o4",
-              "text": "[[Shower|ducharse]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U46_FILLER_28",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'hotel' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Hotel|hotel]]"
-            },
-            {
-              "id": "o2",
-              "text": "Reception"
-            },
-            {
-              "id": "o3",
-              "text": "Towel"
-            },
-            {
-              "id": "o4",
-              "text": "Key"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        }
-      ]
-    },
-    {
-      "title": "Lesson 5: Listening & Pronunciation Review",
-      "duration_minutes": 20,
-      "content": [
-        {
-          "interaction_id": "U46_L5_I1",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[hotel|hotel]])",
-          "audio_url": "/audio/courses/ingles-a1/unit46/lesson5-task-1.mp3",
-          "transcript_template": "The [[hotel|]] is here.",
-          "correct_answer": "hotel",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U46_L5_I2",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[hotel|hotel]])",
-          "audio_url": "/audio/courses/ingles-a1/unit46/lesson5-task-2.mp3",
-          "transcript_template": "The [[room|]] is here.",
-          "correct_answer": "room",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
+          "interaction_id": "A1_U46_I52",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Key|Llave]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Reservation|Reserva]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Double room|Habitación doble]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Check in|Registrarse (hotel)]]"
+            }
+          ],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U46_L5_I3",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[hotel|hotel]])",
-          "audio_url": "/audio/courses/ingles-a1/unit46/lesson5-task-3.mp3",
-          "transcript_template": "The [[key|]] is here.",
-          "correct_answer": "key",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
+          "interaction_id": "A1_U46_I53",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Reservation|Reserva]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Breakfast|Desayuno]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Check out|Salir del hotel]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Floor|Piso]]"
+            }
+          ],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U46_L5_I4",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[hotel|hotel]])",
-          "audio_url": "/audio/courses/ingles-a1/unit46/lesson5-task-4.mp3",
-          "transcript_template": "The [[reservation|]] is here.",
-          "correct_answer": "reservation",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
+          "interaction_id": "A1_U46_I54",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Breakfast|Desayuno]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Wi-Fi|Wifi]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Lift|Ascensor]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Towel|Toalla]]"
+            }
+          ],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U46_L5_I5",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[hotel|hotel]])",
-          "audio_url": "/audio/courses/ingles-a1/unit46/lesson5-task-5.mp3",
-          "transcript_template": "The [[reception|]] is here.",
-          "correct_answer": "reception",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
+          "interaction_id": "A1_U46_I55",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Could|¿Podría]] [[I|yo]] [[get|conseguir]] [[extra|más]] ______ [[please|por favor]]?",
+          "correct_answer": "towels"
         },
         {
-          "interaction_id": "U46_L5_I6",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[hotel|hotel]])",
-          "audio_url": "/audio/courses/ingles-a1/unit46/lesson5-task-6.mp3",
-          "transcript_template": "The [[breakfast|]] is here.",
-          "correct_answer": "breakfast",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
+          "interaction_id": "A1_U46_I56",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Can|¿Puedo]] [[I|yo]] ______ [[a|una]] [[room|habitación]] [[for|para]] [[two|dos]] [[nights|noches]]?",
+          "correct_answer": "have"
         },
         {
-          "interaction_id": "U46_L5_I7",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[hotel|hotel]])",
-          "audio_url": "/audio/courses/ingles-a1/unit46/lesson5-task-7.mp3",
-          "transcript_template": "The [[shower|]] is here.",
-          "correct_answer": "shower",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
+          "interaction_id": "A1_U46_I57",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Is|Hay]] [[there|hay]] [[a|una]] [[swimming|piscina]] ______ [[at|en]] [[the|el]] [[hotel|hotel]]?",
+          "correct_answer": "pool"
         },
         {
-          "interaction_id": "U46_L5_I8",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[hotel|hotel]])",
-          "title": "Pronunciación: At the Hotel",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[hotel|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-8.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U46_L5_I8_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'hotel'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
+          "interaction_id": "A1_U46_I58",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Good|Buenas]] [[evening|tardes]]. [[I|Yo]] [[have|tengo]] [[a|una]] [[reservation|reserva]] [[under|a nombre de]] [[the|el]] [[name|nombre]] [[Johnson|Johnson]].",
+          "correct_answer": true
         },
         {
-          "interaction_id": "U46_L5_I9",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[hotel|hotel]])",
-          "title": "Pronunciación: At the Hotel",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[room|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-9.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U46_L5_I9_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'room'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
+          "interaction_id": "A1_U46_I59",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Welcome|Bienvenido]], [[Mr|Sr.]] [[Johnson|Johnson]]. [[You|Usted]] [[have|tiene]] [[a|una]] [[double|doble]] [[room|habitación]] [[on|en]] [[the|el]] [[fourth|cuarto]] [[floor|piso]].",
+          "correct_answer": false
         },
         {
-          "interaction_id": "U46_L5_I10",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[hotel|hotel]])",
-          "title": "Pronunciación: At the Hotel",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[key|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-10.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U46_L5_I10_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'key'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U46_L5_I11",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[hotel|hotel]])",
-          "title": "Pronunciación: At the Hotel",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[reservation|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-11.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U46_L5_I11_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'reservation'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U46_L5_I12",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[hotel|hotel]])",
-          "title": "Pronunciación: At the Hotel",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[reception|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-12.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U46_L5_I12_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'reception'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U46_L5_I13",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[hotel|hotel]])",
-          "title": "Pronunciación: At the Hotel",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[breakfast|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-13.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U46_L5_I13_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'breakfast'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U46_L5_I14",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[hotel|hotel]])",
-          "title": "Pronunciación: At the Hotel",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[shower|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-14.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U46_L5_I14_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'shower'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U46_L5_I15",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[hotel|hotel]])",
-          "title": "Pronunciación: At the Hotel",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[hotel|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit46/lesson5-task-15.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U46_L5_I15_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'hotel'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
+          "interaction_id": "A1_U46_I60",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Is|Hay]] [[breakfast|desayuno]] [[included|incluido]]?",
+          "correct_answer": true
         }
       ]
     }

@@ -1,1273 +1,1232 @@
 {
   "course": {
-    "language_ui": "es-ES",
-    "target_language": "en",
-    "level": "A1",
-    "unit_id": "U24",
+    "unit_id": "unit24",
     "unit_title": "Prepositions of Place",
-    "total_duration_minutes": 120
+    "level": "A1",
+    "total_duration_minutes": 60,
+    "language_ui": "es-ES",
+    "target_language": "en"
   },
   "learning_outcomes": [
-    "Use complex prepositions: next to, between, in front of, opposite, above, below",
-    "Combine There is/are with complex prepositions",
-    "Describe positions of objects in a room",
-    "Follow text-based descriptions to find objects"
+    "Use advanced prepositions of place: next to, between, opposite, above",
+    "Describe the location of objects and places",
+    "Combine there is/are with complex prepositions"
   ],
   "blocks": [
     {
       "block_id": "B1",
-      "title": "Vocabulary: Complex Prepositions",
+      "title": "Vocabulary Introduction",
       "content": [
         {
-          "interaction_id": "U24_I1",
-          "type": "matching",
-          "prompt_es": "Une la preposición con su significado:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Next to|Al lado de]]",
-              "right": "Enfrente de"
-            },
-            {
-              "id": "p2",
-              "left": "[[Between|Entre]]",
-              "right": "Al lado de"
-            },
-            {
-              "id": "p3",
-              "left": "[[In front of|Delante de]]",
-              "right": "Detrás de"
-            },
-            {
-              "id": "p4",
-              "left": "[[Opposite|Enfrente de]]",
-              "right": "Entre"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p2",
-            "p2": "p4",
-            "p3": "p3",
-            "p4": "p1"
-          },
-          "mastery_tag": "grammar",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U24_I2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué significa '[[between|entre]]'?",
+          "interaction_id": "A1_U24_I1",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Next to|Al lado de]]",
           "options": [
             {
               "id": "o1",
-              "text": "Al lado de"
+              "text": "[[Al lado de|Next to]]"
             },
             {
               "id": "o2",
-              "text": "Enfrente de"
+              "text": "[[Entre|Between]]"
             },
             {
               "id": "o3",
-              "text": "Entre dos cosas"
+              "text": "[[Delante de|In front of]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "grammar",
-          "complexity": 1
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U24_I3",
-          "type": "multiple_choice",
-          "prompt_es": "'[[The bank|El banco]] is ___ the library and the café.' ¿Qué preposición usamos?",
+          "interaction_id": "A1_U24_I2",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Between|Entre]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[next to|al lado de]]"
+              "text": "[[Delante de|In front of]]"
             },
             {
               "id": "o2",
-              "text": "[[between|entre]]"
+              "text": "[[Entre|Between]]"
             },
             {
               "id": "o3",
-              "text": "[[in front of|delante de]]"
+              "text": "[[Frente a|Opposite]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 1
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U24_I4",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '[[The|El]] [[park|parque]] is ___ the [[school|colegio]].' (delante del)",
-          "correct_answer": "in front of",
-          "mastery_tag": "grammar",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U24_I5",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué significa '[[opposite|enfrente de]]'?",
+          "interaction_id": "A1_U24_I3",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[In front of|Delante de]]",
           "options": [
             {
               "id": "o1",
-              "text": "Al lado de"
+              "text": "[[Frente a|Opposite]]"
             },
             {
               "id": "o2",
-              "text": "Enfrente de / al otro lado"
+              "text": "[[Encima de|Above]]"
             },
             {
               "id": "o3",
-              "text": "Encima de"
+              "text": "[[Delante de|In front of]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 1
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U24_I6",
-          "type": "matching",
-          "prompt_es": "Une con la preposición correcta:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[above|encima de (sin tocar)]]",
-              "right": "debajo de (sin tocar)"
-            },
-            {
-              "id": "p2",
-              "left": "[[below|debajo de (sin tocar)]]",
-              "right": "al lado de"
-            },
-            {
-              "id": "p3",
-              "left": "[[next to|al lado de]]",
-              "right": "encima de (sin tocar)"
-            },
-            {
-              "id": "p4",
-              "left": "[[opposite|enfrente de]]",
-              "right": "al otro lado"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p3",
-            "p2": "p1",
-            "p3": "p2",
-            "p4": "p4"
-          },
-          "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U24_I7",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '[[The|La]] [[lamp|lámpara]] is ___ the [[table|mesa]].' (encima, sin tocar)",
-          "correct_answer": "above",
-          "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U24_I8",
-          "type": "multiple_choice",
-          "prompt_es": "'[[My|Mi]] [[school|colegio]] is ___ the [[post office|correos]].' Estamos en la misma calle, en lados opuestos.",
+          "interaction_id": "A1_U24_I4",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Opposite|Frente a]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[next to|al lado de]]"
+              "text": "[[Frente a|Opposite]]"
             },
             {
               "id": "o2",
-              "text": "[[between|entre]]"
+              "text": "[[Encima de|Above]]"
             },
             {
               "id": "o3",
-              "text": "[[opposite|enfrente de]]"
+              "text": "[[Debajo de|Below]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "grammar",
-          "complexity": 2
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U24_I9",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '[[The|El]] [[supermarket|supermercado]] is ___ my [[house|casa]] and the [[park|parque]].' (entre)",
-          "correct_answer": "between",
-          "mastery_tag": "grammar",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U24_I10",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál de estas frases describe objetos entre dos cosas?",
+          "interaction_id": "A1_U24_I5",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Above|Encima de]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[The vase is above the table|El jarrón está encima de la mesa]]"
+              "text": "[[Debajo de|Below]]"
             },
             {
               "id": "o2",
-              "text": "[[The vase is between the lamp and the book|El jarrón está entre la lámpara y el libro]]"
+              "text": "[[Encima de|Above]]"
             },
             {
               "id": "o3",
-              "text": "[[The vase is in front of the window|El jarrón está delante de la ventana]]"
+              "text": "[[Cerca de|Near]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 2
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U24_I6",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Below|Debajo de]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Cerca de|Near]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Lejos de|Far from]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Debajo de|Below]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U24_I7",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Cerca de]]",
+          "correct_answer": "Near"
+        },
+        {
+          "interaction_id": "A1_U24_I8",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Lejos de]]",
+          "correct_answer": "Far from"
+        },
+        {
+          "interaction_id": "A1_U24_I9",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Esquina]]",
+          "correct_answer": "Corner"
+        },
+        {
+          "interaction_id": "A1_U24_I10",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Pared]]",
+          "correct_answer": "Wall"
         }
       ]
     },
     {
       "block_id": "B2",
-      "title": "There is/are + Complex Prepositions",
+      "title": "Vocabulary in Context",
       "content": [
         {
-          "interaction_id": "U24_I11",
-          "type": "multiple_choice",
-          "prompt_es": "'Hay un café al lado de la biblioteca.' ¿Cómo se dice?",
+          "interaction_id": "A1_U24_I11",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Opposite|Frente a]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[There is a café next to the library|Hay un café al lado de la biblioteca]]"
+              "text": "[[Opposite|Frente a]]"
             },
             {
               "id": "o2",
-              "text": "[[There is a café between the library|Hay un café entre la biblioteca (incorrecto)]]"
+              "text": "[[Near|Cerca de]]"
             },
             {
               "id": "o3",
-              "text": "[[There are a café next to the library|Hay un café al lado (incorrecto plural)]]"
+              "text": "[[Wall|Pared]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 2
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U24_I12",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '[[There|Hay]] ___ a [[pharmacy|farmacia]] ___ the [[bank|banco]] and the [[supermarket|supermercado]].'",
-          "correct_answer": "is / between",
-          "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U24_I13",
-          "type": "multiple_choice",
-          "prompt_es": "'Hay una panadería enfrente del hotel.' ¿Cómo?",
+          "interaction_id": "A1_U24_I12",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Above|Encima de]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[There is a bakery opposite the hotel|Hay una panadería enfrente del hotel]]"
+              "text": "[[Far from|Lejos de]]"
             },
             {
               "id": "o2",
-              "text": "[[There is a bakery in front of the hotel|Hay una panadería delante del hotel]]"
+              "text": "[[Above|Encima de]]"
             },
             {
               "id": "o3",
-              "text": "[[Both are possible|Las dos son posibles]]"
+              "text": "[[Floor|Suelo]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "grammar",
-          "complexity": 3
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U24_I14",
-          "type": "sentence_building",
-          "prompt_es": "Forma: 'Hay un parque entre el hospital y el colegio.' ([[home|hogar]])",
-          "words": [
+          "interaction_id": "A1_U24_I13",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Below|Debajo de]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Corner|Esquina]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Right|Derecha]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Below|Debajo de]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U24_I14",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Near|Cerca de]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Near|Cerca de]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Wall|Pared]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Left|Izquierda]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U24_I15",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[The|El]] [[post office|correos]] [[is|está]] ______ [[the|el]] [[bank|banco]] [[and|y]] [[the|la]] [[pharmacy|farmacia]].",
+          "correct_answer": "between"
+        },
+        {
+          "interaction_id": "A1_U24_I16",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[The|La]] [[school|escuela]] [[is|está]] ______ [[the|al]] [[park|parque]].",
+          "correct_answer": "opposite"
+        },
+        {
+          "interaction_id": "A1_U24_I17",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[The|La]] [[lamp|lámpara]] [[is|está]] ______ [[the|la]] [[table|mesa]].",
+          "correct_answer": "above"
+        },
+        {
+          "interaction_id": "A1_U24_I18",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
             {
               "id": "w1",
-              "text": "[[There|Hay]]"
+              "text": "[[Next to|Al lado de]]"
             },
             {
               "id": "w2",
-              "text": "[[is|is]]"
+              "text": "[[In front of|Delante de]]"
             },
             {
               "id": "w3",
-              "text": "[[a|un]]"
-            },
-            {
-              "id": "w4",
-              "text": "[[park|parque]]"
-            },
-            {
-              "id": "w5",
-              "text": "[[between|entre]]"
-            },
-            {
-              "id": "w6",
-              "text": "[[the|el]]"
-            },
-            {
-              "id": "w7",
-              "text": "[[hospital|hospital]]"
-            },
-            {
-              "id": "w8",
-              "text": "[[and|y]]"
-            },
-            {
-              "id": "w9",
-              "text": "[[the|el]]"
-            },
-            {
-              "id": "w10",
-              "text": "[[school|colegio]]"
+              "text": "[[Between|Entre]]"
             }
           ],
           "correct_answer": [
             "w1",
-            "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10"
-          ],
-          "mastery_tag": "grammar",
-          "complexity": 3
+            "w2"
+          ]
         },
         {
-          "interaction_id": "U24_I15",
-          "type": "multiple_choice",
-          "prompt_es": "'¿Hay algo delante de la puerta?' ¿Cómo preguntas?",
+          "interaction_id": "A1_U24_I19",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
           "options": [
-            {
-              "id": "o1",
-              "text": "[[Is there anything in front of the door?|¿Hay algo delante de la puerta?]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Are there anything in front of the door?|¿Hay algo (incorrecto)]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[Is there something next to the door?|¿Hay algo al lado de la puerta?]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U24_I16",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '[[There|Hay]] ___ a [[cinema|cine]] ___ the [[station|estación]].' (hay / enfrente de)",
-          "correct_answer": "is / opposite",
-          "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U24_I17",
-          "type": "multiple_choice",
-          "prompt_es": "'Hay estantes encima del escritorio.' ¿Cómo?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[There are shelves below the desk|Hay estantes debajo del escritorio]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[There are shelves above the desk|Hay estantes encima del escritorio]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[There is shelves above the desk|Hay estantes (incorrecto singular)]]"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U24_I18",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '[[The|La]] [[pharmacy|farmacia]] is ___ the [[hospital|hospital]].' (al lado de)",
-          "correct_answer": "next to",
-          "mastery_tag": "grammar",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U24_I19",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es correcta? 'El banco está entre la tienda y el café.'",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[The bank is next to the shop and the café|El banco está al lado de la tienda y el café]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[The bank is between the shop and the café|El banco está entre la tienda y el café]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[The bank is opposite the shop and the café|El banco está enfrente de la tienda y el café]]"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U24_I20",
-          "type": "sentence_building",
-          "prompt_es": "Forma: '¿Hay algo encima de la estantería?' ([[home|hogar]])",
-          "words": [
             {
               "id": "w1",
-              "text": "[[Is|Hay]]"
+              "text": "[[Above|Encima de]]"
             },
             {
               "id": "w2",
-              "text": "[[there|hay (interr.)]]"
+              "text": "[[Near|Cerca de]]"
             },
             {
               "id": "w3",
-              "text": "[[anything|algo]]"
-            },
-            {
-              "id": "w4",
-              "text": "[[above|encima de]]"
-            },
-            {
-              "id": "w5",
-              "text": "[[the|la]]"
-            },
-            {
-              "id": "w6",
-              "text": "[[bookshelf?|estantería?]]"
+              "text": "[[Below|Debajo de]]"
             }
           ],
           "correct_answer": [
             "w1",
-            "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U24_I20",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Corner|Esquina]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Floor|Suelo]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Wall|Pared]]"
+            }
           ],
-          "mastery_tag": "grammar",
-          "complexity": 3
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
         }
       ]
     },
     {
       "block_id": "B3",
-      "title": "Describing Object Positions",
+      "title": "Grammar — Affirmative",
       "content": [
         {
-          "interaction_id": "U24_I21",
-          "type": "matching",
-          "prompt_es": "Une la descripción con la preposición correcta:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[The cat is ___ the two boxes|El gato está entre las dos cajas]]",
-              "right": "in front of"
-            },
-            {
-              "id": "p2",
-              "left": "[[The chair is ___ the desk|La silla está delante del escritorio]]",
-              "right": "above"
-            },
-            {
-              "id": "p3",
-              "left": "[[The picture is ___ the fireplace|El cuadro está encima de la chimenea]]",
-              "right": "between"
-            },
-            {
-              "id": "p4",
-              "left": "[[The mat is ___ the door|El felpudo está delante de la puerta]]",
-              "right": "in front of (2)"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p3",
-            "p2": "p1",
-            "p3": "p2",
-            "p4": "p4"
-          },
+          "interaction_id": "A1_U24_I21",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
           "mastery_tag": "grammar",
-          "complexity": 2
+          "complexity": 2,
+          "stimulus_en": "[[The|El]] [[post office|correos]] [[is|está]] ______ [[the|el]] [[bank|banco]] [[and|y]] [[the|la]] [[pharmacy|farmacia]].",
+          "correct_answer": "between"
         },
         {
-          "interaction_id": "U24_I22",
-          "type": "multiple_choice",
-          "prompt_es": "'[[The|La]] [[mirror|espejo]] is ___ the [[sink|lavabo]].' ¿Qué preposición? (encima, en la pared)",
+          "interaction_id": "A1_U24_I22",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[The|La]] [[school|escuela]] [[is|está]] ______ [[the|al]] [[park|parque]].",
+          "correct_answer": "opposite"
+        },
+        {
+          "interaction_id": "A1_U24_I23",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[The|La]] [[lamp|lámpara]] [[is|está]] ______ [[the|la]] [[table|mesa]].",
+          "correct_answer": "above"
+        },
+        {
+          "interaction_id": "A1_U24_I24",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[The|El]] [[cat|gato]] [[is|está]] ______ [[the|la]] [[sofa|sofá]].",
+          "correct_answer": "next to"
+        },
+        {
+          "interaction_id": "A1_U24_I25",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Is|Está]] [[the|la]] [[library|biblioteca]] [[far|lejos]] ______ [[here|aquí]]?",
           "options": [
             {
               "id": "o1",
-              "text": "[[next to|al lado de]]"
+              "text": "[[from|from]]"
             },
             {
               "id": "o2",
-              "text": "[[above|encima de]]"
+              "text": "[[opposite|opposite]]"
             },
             {
               "id": "o3",
-              "text": "[[under|debajo de]]"
+              "text": "[[above|above]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 2
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U24_I23",
-          "type": "fill_blanks",
-          "prompt_es": "'[[The|El]] [[dog|perro]] is sitting ___ John and Maria.' (entre)",
-          "correct_answer": "between",
+          "interaction_id": "A1_U24_I26",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
           "mastery_tag": "grammar",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U24_I24",
-          "type": "multiple_choice",
-          "prompt_es": "Miro al frente y veo el supermercado. El banco está a mi derecha. El cine está entre el banco y el supermercado. ¿Cómo describir el cine?",
+          "complexity": 2,
+          "stimulus_en": "[[The|El]] [[book|libro]] [[is|está]] [[on|en]] [[the|la]] [[floor|el suelo]], ______ [[the|la]] [[table|mesa]].",
           "options": [
             {
               "id": "o1",
-              "text": "[[The cinema is opposite the supermarket|El cine está enfrente del supermercado]]"
+              "text": "[[above|above]]"
             },
             {
               "id": "o2",
-              "text": "[[The cinema is next to the supermarket|El cine está al lado del supermercado]]"
+              "text": "[[below|below]]"
             },
             {
               "id": "o3",
-              "text": "[[The cinema is between the bank and the supermarket|El cine está entre el banco y el supermercado]]"
+              "text": "[[next to|next to]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "grammar",
-          "complexity": 2
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U24_I25",
-          "type": "fill_blanks",
-          "prompt_es": "'[[The|La]] [[TV|tele]] is ___ the [[sofa|sofá]].' (delante del — en el lado opuesto)",
-          "correct_answer": "opposite",
+          "interaction_id": "A1_U24_I27",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
           "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U24_I26",
-          "type": "multiple_choice",
-          "prompt_es": "'[[There are|Hay]] [[shelves|estantes]] ___ the [[bed|cama]].' ¿Qué preposición para 'encima de la cama, en la pared'?",
+          "complexity": 2,
+          "stimulus_en": "[[The|El]] [[post office|correos]] [[is|está]] ______ [[the|el]] [[bank|banco]] [[and|y]] [[the|la]] [[pharmacy|farmacia]].",
           "options": [
             {
               "id": "o1",
-              "text": "[[above|encima de (sin contacto)]]"
+              "text": "[[next to|next to]]"
             },
             {
               "id": "o2",
-              "text": "[[on|encima de (con contacto)]]"
+              "text": "[[from|from]]"
             },
             {
               "id": "o3",
-              "text": "[[below|debajo de]]"
+              "text": "[[between|between]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 2
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U24_I27",
-          "type": "sentence_building",
-          "prompt_es": "Forma: 'La biblioteca está enfrente de la farmacia.' ([[home|hogar]])",
-          "words": [
+          "interaction_id": "A1_U24_I28",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[The|La]] [[school|escuela]] [[is|está]] ______ [[the|al]] [[park|parque]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[opposite|opposite]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[from|from]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[below|below]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U24_I29",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
             {
               "id": "w1",
-              "text": "[[The|La]]"
+              "text": "[[In front of|Delante de]]"
             },
             {
               "id": "w2",
-              "text": "[[library|biblioteca]]"
+              "text": "[[Next to|Al lado de]]"
             },
             {
               "id": "w3",
-              "text": "[[is|está]]"
-            },
-            {
-              "id": "w4",
-              "text": "[[opposite|enfrente de]]"
-            },
-            {
-              "id": "w5",
-              "text": "[[the|la]]"
-            },
-            {
-              "id": "w6",
-              "text": "[[pharmacy|farmacia]]"
+              "text": "[[Above|Encima de]]"
             }
           ],
           "correct_answer": [
-            "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "grammar",
-          "complexity": 2
+            "w1",
+            "w3"
+          ]
         },
         {
-          "interaction_id": "U24_I28",
-          "type": "fill_blanks",
-          "prompt_es": "'[[There|Hay]] is a [[carpet|alfombra]] ___ the [[coffee table|mesa de café]].' (debajo de)",
-          "correct_answer": "below",
+          "interaction_id": "A1_U24_I30",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
           "mastery_tag": "grammar",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U24_I29",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál describe correctamente 'el jarrón está entre la lámpara y el libro'?",
+          "complexity": 2,
           "options": [
             {
-              "id": "o1",
-              "text": "[[The vase is above the lamp and the book|El jarrón está encima de la lámpara y el libro]]"
+              "id": "w1",
+              "text": "[[Far from|Lejos de]]"
             },
             {
-              "id": "o2",
-              "text": "[[The vase is next to the lamp and the book|El jarrón está al lado de la lámpara y el libro]]"
+              "id": "w2",
+              "text": "[[Below|Debajo de]]"
             },
             {
-              "id": "o3",
-              "text": "[[The vase is between the lamp and the book|El jarrón está entre la lámpara y el libro]]"
+              "id": "w3",
+              "text": "[[Wall|Pared]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U24_I30",
-          "type": "fill_blanks",
-          "prompt_es": "'[[The|El]] [[post office|correos]] is ___ the [[school|colegio]] and the [[bank|banco]].' (entre)",
-          "correct_answer": "between",
-          "mastery_tag": "grammar",
-          "complexity": 1
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
+          ]
         }
       ]
     },
     {
       "block_id": "B4",
-      "title": "Find the Lost Items",
+      "title": "Grammar — Negative & Questions",
       "content": [
         {
-          "interaction_id": "U24_I31",
-          "type": "multiple_choice",
-          "prompt_es": "'[[Your|Tu]] [[keys|llaves]] are ___ the [[table|mesa]].' (debajo de, has buscado en todos los cajones)",
+          "interaction_id": "A1_U24_I31",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[The|La]] [[lamp|lámpara]] [[is|está]] ______ [[the|la]] [[table|mesa]].",
+          "correct_answer": "above"
+        },
+        {
+          "interaction_id": "A1_U24_I32",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[The|El]] [[cat|gato]] [[is|está]] ______ [[the|la]] [[sofa|sofá]].",
+          "correct_answer": "next to"
+        },
+        {
+          "interaction_id": "A1_U24_I33",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Is|Está]] [[the|la]] [[library|biblioteca]] [[far|lejos]] ______ [[here|aquí]]?",
+          "correct_answer": "from"
+        },
+        {
+          "interaction_id": "A1_U24_I34",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[The|El]] [[cat|gato]] [[is|está]] ______ [[the|la]] [[sofa|sofá]].",
           "options": [
             {
               "id": "o1",
-              "text": "[[above|encima de]]"
+              "text": "[[next to|next to]]"
             },
             {
               "id": "o2",
-              "text": "[[under|debajo de]]"
+              "text": "[[below|below]]"
             },
             {
               "id": "o3",
-              "text": "[[in front of|delante de]]"
+              "text": "[[between|between]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 2
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U24_I32",
-          "type": "fill_blanks",
-          "prompt_es": "'[[Your|Tu]] [[phone|teléfono]] is ___ the [[sofa|sofá]] and the [[table|mesa]].' (entre los dos muebles)",
-          "correct_answer": "between",
+          "interaction_id": "A1_U24_I35",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
           "mastery_tag": "grammar",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U24_I33",
-          "type": "multiple_choice",
-          "prompt_es": "'[[Your|Tu]] [[wallet|cartera]] is ___ the [[TV|tele]].' (detrás de)",
+          "complexity": 2,
+          "stimulus_en": "[[Is|Está]] [[the|la]] [[library|biblioteca]] [[far|lejos]] ______ [[here|aquí]]?",
           "options": [
             {
               "id": "o1",
-              "text": "[[in front of|delante de]]"
+              "text": "[[between|between]]"
             },
             {
               "id": "o2",
-              "text": "[[next to|al lado de]]"
+              "text": "[[from|from]]"
             },
             {
               "id": "o3",
-              "text": "[[behind|detrás de]]"
+              "text": "[[opposite|opposite]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "grammar",
-          "complexity": 1
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U24_I34",
-          "type": "fill_blanks",
-          "prompt_es": "'[[Your|Tu]] [[glasses|gafas]] are ___ your [[book|libro]].' (encima de)",
-          "correct_answer": "on",
+          "interaction_id": "A1_U24_I36",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
           "mastery_tag": "grammar",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U24_I35",
-          "type": "multiple_choice",
-          "prompt_es": "'[[Your|Tu]] [[bag|bolso]] is ___ the [[door|puerta]].' (delante de la puerta)",
+          "complexity": 2,
+          "stimulus_en": "[[The|El]] [[book|libro]] [[is|está]] [[on|en]] [[the|la]] [[floor|el suelo]], ______ [[the|la]] [[table|mesa]].",
           "options": [
             {
               "id": "o1",
-              "text": "[[opposite|enfrente de]]"
+              "text": "[[opposite|opposite]]"
             },
             {
               "id": "o2",
-              "text": "[[above|encima de]]"
+              "text": "[[above|above]]"
             },
             {
               "id": "o3",
-              "text": "[[in front of|delante de]]"
+              "text": "[[below|below]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "grammar",
-          "complexity": 1
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U24_I36",
-          "type": "sentence_building",
-          "prompt_es": "Forma: '¿Dónde está mi libro? Está al lado del ordenador.' ([[home|hogar]])",
-          "words": [
+          "interaction_id": "A1_U24_I37",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[The|El]] [[post office|correos]] [[is|está]] ______ [[the|el]] [[bank|banco]] [[and|y]] [[the|la]] [[pharmacy|farmacia]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[between|between]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[above|above]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[next to|next to]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U24_I38",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
             {
               "id": "w1",
-              "text": "[[It|Está]]"
+              "text": "[[Above|Encima de]]"
             },
             {
               "id": "w2",
-              "text": "[[is|is]]"
+              "text": "[[Between|Entre]]"
             },
             {
               "id": "w3",
-              "text": "[[next to|al lado de]]"
+              "text": "[[Near|Cerca de]]"
             },
             {
               "id": "w4",
-              "text": "[[the|el]]"
-            },
-            {
-              "id": "w5",
-              "text": "[[computer|ordenador]]"
+              "text": "[[In front of|Delante de]]"
             }
           ],
           "correct_answer": [
-            "w1",
             "w2",
-            "w3",
+            "w1",
             "w4",
-            "w5"
-          ],
-          "mastery_tag": "grammar",
-          "complexity": 2
+            "w3"
+          ]
         },
         {
-          "interaction_id": "U24_I37",
-          "type": "fill_blanks",
-          "prompt_es": "'[[The|El]] [[cat|gato]] is sleeping ___ the [[radiator|radiador]].' (delante de)",
-          "correct_answer": "in front of",
+          "interaction_id": "A1_U24_I39",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
           "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U24_I38",
-          "type": "multiple_choice",
-          "prompt_es": "'[[My|Mi]] [[umbrella|paraguas]] is ___ the [[coat|abrigo]].' (detrás del)",
+          "complexity": 2,
           "options": [
             {
-              "id": "o1",
-              "text": "[[next to|al lado de]]"
+              "id": "w1",
+              "text": "[[Far from|Lejos de]]"
             },
             {
-              "id": "o2",
-              "text": "[[between|entre]]"
+              "id": "w2",
+              "text": "[[Above|Encima de]]"
             },
             {
-              "id": "o3",
-              "text": "[[behind|detrás de]]"
+              "id": "w3",
+              "text": "[[Wall|Pared]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Below|Debajo de]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "grammar",
-          "complexity": 1
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
         },
         {
-          "interaction_id": "U24_I39",
-          "type": "fill_blanks",
-          "prompt_es": "'[[The|El]] [[dog|perro]] is ___ the [[table|mesa]] and the [[chair|silla]].' (entre)",
-          "correct_answer": "between",
+          "interaction_id": "A1_U24_I40",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
           "mastery_tag": "grammar",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U24_I40",
-          "type": "multiple_choice",
-          "prompt_es": "'[[Your|Tu]] [[passport|pasaporte]] is in the [[drawer|cajón]] ___ the [[desk|escritorio]].' ¿Qué preposición para describir que el cajón está dentro del escritorio?",
+          "complexity": 2,
           "options": [
             {
-              "id": "o1",
-              "text": "[[of|de]]"
+              "id": "w1",
+              "text": "[[Floor|Suelo]]"
             },
             {
-              "id": "o2",
-              "text": "[[above|encima de]]"
+              "id": "w2",
+              "text": "[[Far from|Lejos de]]"
             },
             {
-              "id": "o3",
-              "text": "[[next to|al lado de]]"
+              "id": "w3",
+              "text": "[[Left|Izquierda]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Corner|Esquina]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 3
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
         }
       ]
     },
     {
       "block_id": "B5",
-      "title": "Reading: Finding the Missing Wallet",
+      "title": "Reading Comprehension",
       "content": [
         {
-          "interaction_id": "U24_READ1",
-          "type": "reading_phase",
-          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[carefully|con atención]].",
-          "transcript": "[[Tom|Tom]] [[can't find|no puede encontrar]] his [[wallet|cartera]]. [[He|Él]] [[looks|busca]] [[everywhere|por todas partes]]! [[First|Primero]], he [[looks|mira]] ___ the [[table|mesa]] in the [[kitchen|cocina]] — [[but|pero]] it is not [[there|allí]]. [[Then|Luego]], he [[looks|mira]] ___ the [[sofa|sofá]] — [[still|todavía]] [[nothing|nada]]. [[His|Su]] [[sister|hermana]] Maria [[says|dice]]: '[[Try|Prueba]] [[between|entre]] the [[cushions|cojines]]!' [[Tom|Tom]] [[looks|mira]] [[between|entre]] the [[cushions|cojines]] on the [[sofa|sofá]] and [[finds|encuentra]] his [[phone|teléfono]] — [[but|pero]] not [[his|su]] [[wallet|cartera]]. [[Finally|Finalmente]], Maria [[says|dice]]: '[[It's|Está]] [[next to|al lado de]] the [[front door|puerta principal]] — [[under|debajo de]] your [[coat|abrigo]]!' [[Tom|Tom]] [[goes|va]] to the [[hall|recibidor]] and [[finds|encuentra]] the [[wallet|cartera]] [[under|debajo de]] his [[coat|abrigo]]. [[He is|Él está]] very [[relieved|aliviado]]!",
+          "interaction_id": "A1_U24_I41",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
           "mastery_tag": "reading",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U24_I41",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué está buscando Tom?",
+          "complexity": 2,
+          "transcript": "[[I|Yo]] [[can't|no puedo]] [[find|encontrar]] [[my|mi]] [[keys|llaves]]. [[Can|Puedes]] [[you|tú]] [[help|ayudarme]] [[me|me]]? [[Where|Dónde]] [[did|las dejaste]] [[you|tú]] [[leave|dejaste]] [[them|ellas]] [[last|última]] [[night|noche]]? [[I|Yo]] [[think|creo]] [[they|ellas]] [[are|están]] [[on|en]] [[the|la]] [[table|mesa]] [[next|al]] [[to|lado de]] [[the|la]] [[door|puerta]]. [[No|No]], [[they're|están]] [[not|no]] [[there|allí]]. [[Oh|Oh]]! [[They're|Están]] [[between|entre]] [[the|los]] [[sofa|sofá]] [[cushions|cojines]]! [[Thank|Gracias]] [[you|gracias]]! [[I|Yo]] [[always|siempre]] [[lose|pierdo]] [[things|cosas]] [[in|en]] [[front|delante]] [[of|de]] [[my|mis]] [[eyes|ojos]]!",
+          "question_en": "[[What|Qué]] [[is|está]] [[the|el]] [[speaker|hablante]] [[looking|buscando]] [[for|buscando]]?",
           "options": [
             {
               "id": "o1",
-              "text": "[[His phone|Su teléfono]]"
+              "text": "[[Phone|Teléfono]]"
             },
             {
               "id": "o2",
-              "text": "[[His wallet|Su cartera]]"
+              "text": "[[Glasses|Gafas]]"
             },
             {
               "id": "o3",
-              "text": "[[His keys|Sus llaves]]"
+              "text": "[[Keys|Llaves]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading",
-          "complexity": 1
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U24_I42",
-          "type": "multiple_choice",
-          "prompt_es": "¿Dónde encuentra Tom su teléfono?",
+          "interaction_id": "A1_U24_I42",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I|Yo]] [[can't|no puedo]] [[find|encontrar]] [[my|mi]] [[keys|llaves]]. [[Can|Puedes]] [[you|tú]] [[help|ayudarme]] [[me|me]]? [[Where|Dónde]] [[did|las dejaste]] [[you|tú]] [[leave|dejaste]] [[them|ellas]] [[last|última]] [[night|noche]]? [[I|Yo]] [[think|creo]] [[they|ellas]] [[are|están]] [[on|en]] [[the|la]] [[table|mesa]] [[next|al]] [[to|lado de]] [[the|la]] [[door|puerta]]. [[No|No]], [[they're|están]] [[not|no]] [[there|allí]]. [[Oh|Oh]]! [[They're|Están]] [[between|entre]] [[the|los]] [[sofa|sofá]] [[cushions|cojines]]! [[Thank|Gracias]] [[you|gracias]]! [[I|Yo]] [[always|siempre]] [[lose|pierdo]] [[things|cosas]] [[in|en]] [[front|delante]] [[of|de]] [[my|mis]] [[eyes|ojos]]!",
+          "question_en": "[[Where|Dónde]] [[does|cree]] [[the|el]] [[speaker|hablante]] [[think|cree]] [[the|las]] [[keys|llaves]] [[are|están]]?",
           "options": [
             {
               "id": "o1",
-              "text": "[[Under the coat|Debajo del abrigo]]"
+              "text": "[[On the floor|En el suelo]]"
             },
             {
               "id": "o2",
-              "text": "[[On the table|Encima de la mesa]]"
+              "text": "[[On the table next to the door|En la mesa al lado de la puerta]]"
             },
             {
               "id": "o3",
+              "text": "[[In the pocket|En el bolsillo]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U24_I43",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I|Yo]] [[can't|no puedo]] [[find|encontrar]] [[my|mi]] [[keys|llaves]]. [[Can|Puedes]] [[you|tú]] [[help|ayudarme]] [[me|me]]? [[Where|Dónde]] [[did|las dejaste]] [[you|tú]] [[leave|dejaste]] [[them|ellas]] [[last|última]] [[night|noche]]? [[I|Yo]] [[think|creo]] [[they|ellas]] [[are|están]] [[on|en]] [[the|la]] [[table|mesa]] [[next|al]] [[to|lado de]] [[the|la]] [[door|puerta]]. [[No|No]], [[they're|están]] [[not|no]] [[there|allí]]. [[Oh|Oh]]! [[They're|Están]] [[between|entre]] [[the|los]] [[sofa|sofá]] [[cushions|cojines]]! [[Thank|Gracias]] [[you|gracias]]! [[I|Yo]] [[always|siempre]] [[lose|pierdo]] [[things|cosas]] [[in|en]] [[front|delante]] [[of|de]] [[my|mis]] [[eyes|ojos]]!",
+          "question_en": "[[Where|Dónde]] [[are|están]] [[the|las]] [[keys|llaves]] [[actually|realmente]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Under the sofa|Debajo del sofá]]"
+            },
+            {
+              "id": "o2",
               "text": "[[Between the sofa cushions|Entre los cojines del sofá]]"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "reading",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U24_I43",
-          "type": "multiple_choice",
-          "prompt_es": "¿Dónde está la cartera al final? ([[home|hogar]])",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Debajo del abrigo, en el recibidor"
-            },
-            {
-              "id": "o2",
-              "text": "Entre los cojines del sofá"
             },
             {
               "id": "o3",
-              "text": "Encima de la mesa de la cocina"
+              "text": "[[Behind the door|Detrás de la puerta]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading",
-          "complexity": 1
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U24_I44",
-          "type": "multiple_choice",
-          "prompt_es": "¿Quién ayuda a Tom a encontrar su cartera? ([[home|hogar]])",
+          "interaction_id": "A1_U24_I44",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I|Yo]] [[can't|no puedo]] [[find|encontrar]] [[my|mi]] [[keys|llaves]]. [[Can|Puedes]] [[you|tú]] [[help|ayudarme]] [[me|me]]? [[Where|Dónde]] [[did|las dejaste]] [[you|tú]] [[leave|dejaste]] [[them|ellas]] [[last|última]] [[night|noche]]? [[I|Yo]] [[think|creo]] [[they|ellas]] [[are|están]] [[on|en]] [[the|la]] [[table|mesa]] [[next|al]] [[to|lado de]] [[the|la]] [[door|puerta]]. [[No|No]], [[they're|están]] [[not|no]] [[there|allí]]. [[Oh|Oh]]! [[They're|Están]] [[between|entre]] [[the|los]] [[sofa|sofá]] [[cushions|cojines]]! [[Thank|Gracias]] [[you|gracias]]! [[I|Yo]] [[always|siempre]] [[lose|pierdo]] [[things|cosas]] [[in|en]] [[front|delante]] [[of|de]] [[my|mis]] [[eyes|ojos]]!",
+          "question_en": "[[What|Qué]] [[does|significa]] 'Between' [[mean|significa]]?",
           "options": [
             {
               "id": "o1",
-              "text": "Su madre"
+              "text": "[[Next to|Al lado de]]"
             },
             {
               "id": "o2",
-              "text": "Su hermana"
+              "text": "[[Between|Entre]]"
             },
             {
               "id": "o3",
-              "text": "Su amigo"
+              "text": "[[In front of|Delante de]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading",
-          "complexity": 1
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U24_I45",
-          "type": "fill_blanks",
-          "prompt_es": "Según el texto, Tom buscó primero en la ___ de la cocina. ([[home|hogar]])",
-          "correct_answer": "table",
+          "interaction_id": "A1_U24_I45",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
           "mastery_tag": "reading",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U24_I46",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se siente Tom al final?",
+          "complexity": 2,
+          "transcript": "[[I|Yo]] [[can't|no puedo]] [[find|encontrar]] [[my|mi]] [[keys|llaves]]. [[Can|Puedes]] [[you|tú]] [[help|ayudarme]] [[me|me]]? [[Where|Dónde]] [[did|las dejaste]] [[you|tú]] [[leave|dejaste]] [[them|ellas]] [[last|última]] [[night|noche]]? [[I|Yo]] [[think|creo]] [[they|ellas]] [[are|están]] [[on|en]] [[the|la]] [[table|mesa]] [[next|al]] [[to|lado de]] [[the|la]] [[door|puerta]]. [[No|No]], [[they're|están]] [[not|no]] [[there|allí]]. [[Oh|Oh]]! [[They're|Están]] [[between|entre]] [[the|los]] [[sofa|sofá]] [[cushions|cojines]]! [[Thank|Gracias]] [[you|gracias]]! [[I|Yo]] [[always|siempre]] [[lose|pierdo]] [[things|cosas]] [[in|en]] [[front|delante]] [[of|de]] [[my|mis]] [[eyes|ojos]]!",
+          "question_en": "[[What|Qué]] [[does|significa]] 'Next to' [[mean|significa]]?",
           "options": [
             {
               "id": "o1",
-              "text": "[[Relieved|Aliviado]]"
+              "text": "[[Far from|Lejos de]]"
             },
             {
               "id": "o2",
-              "text": "[[Sad|Triste]]"
+              "text": "[[Above|Encima de]]"
             },
             {
               "id": "o3",
-              "text": "[[Angry|Enfadado]]"
+              "text": "[[Next to|Al lado de]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading",
-          "complexity": 1
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U24_I47",
-          "type": "multiple_choice",
-          "prompt_es": "¿Dónde está el recibidor en la mayoría de las casas?",
+          "interaction_id": "A1_U24_I46",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I|Yo]] [[can't|no puedo]] [[find|encontrar]] [[my|mi]] [[keys|llaves]]. [[Can|Puedes]] [[you|tú]] [[help|ayudarme]] [[me|me]]? [[Where|Dónde]] [[did|las dejaste]] [[you|tú]] [[leave|dejaste]] [[them|ellas]] [[last|última]] [[night|noche]]? [[I|Yo]] [[think|creo]] [[they|ellas]] [[are|están]] [[on|en]] [[the|la]] [[table|mesa]] [[next|al]] [[to|lado de]] [[the|la]] [[door|puerta]]. [[No|No]], [[they're|están]] [[not|no]] [[there|allí]]. [[Oh|Oh]]! [[They're|Están]] [[between|entre]] [[the|los]] [[sofa|sofá]] [[cushions|cojines]]! [[Thank|Gracias]] [[you|gracias]]! [[I|Yo]] [[always|siempre]] [[lose|pierdo]] [[things|cosas]] [[in|en]] [[front|delante]] [[of|de]] [[my|mis]] [[eyes|ojos]]!",
+          "question_en": "[[What|Qué]] [[does|significa]] 'Opposite' [[mean|significa]]?",
           "options": [
             {
               "id": "o1",
-              "text": "[[At the back of the house|En la parte trasera de la casa]]"
+              "text": "[[Facing|Frente a]]"
             },
             {
               "id": "o2",
-              "text": "[[Near the front door|Cerca de la puerta principal]]"
+              "text": "[[Next to|Al lado de]]"
             },
             {
               "id": "o3",
-              "text": "[[In the kitchen|En la cocina]]"
+              "text": "[[Behind|Detrás de]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary",
-          "complexity": 2
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U24_I48",
-          "type": "sentence_building",
-          "prompt_es": "Forma: 'La cartera está debajo del abrigo.' ([[home|hogar]])",
-          "words": [
+          "interaction_id": "A1_U24_I47",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I|Yo]] [[can't|no puedo]] [[find|encontrar]] [[my|mi]] [[keys|llaves]]. [[Can|Puedes]] [[you|tú]] [[help|ayudarme]] [[me|me]]? [[Where|Dónde]] [[did|las dejaste]] [[you|tú]] [[leave|dejaste]] [[them|ellas]] [[last|última]] [[night|noche]]? [[I|Yo]] [[think|creo]] [[they|ellas]] [[are|están]] [[on|en]] [[the|la]] [[table|mesa]] [[next|al]] [[to|lado de]] [[the|la]] [[door|puerta]]. [[No|No]], [[they're|están]] [[not|no]] [[there|allí]]. [[Oh|Oh]]! [[They're|Están]] [[between|entre]] [[the|los]] [[sofa|sofá]] [[cushions|cojines]]! [[Thank|Gracias]] [[you|gracias]]! [[I|Yo]] [[always|siempre]] [[lose|pierdo]] [[things|cosas]] [[in|en]] [[front|delante]] [[of|de]] [[my|mis]] [[eyes|ojos]]!",
+          "question_en": "[[What|Qué]] [[does|significa]] 'Above' [[mean|significa]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Below|Debajo de]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Above|Encima de]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Near|Cerca de]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U24_I48",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I|Yo]] [[can't|no puedo]] [[find|encontrar]] [[my|mi]] [[keys|llaves]]. [[Can|Puedes]] [[you|tú]] [[help|ayudarme]] [[me|me]]? [[Where|Dónde]] [[did|las dejaste]] [[you|tú]] [[leave|dejaste]] [[them|ellas]] [[last|última]] [[night|noche]]? [[I|Yo]] [[think|creo]] [[they|ellas]] [[are|están]] [[on|en]] [[the|la]] [[table|mesa]] [[next|al]] [[to|lado de]] [[the|la]] [[door|puerta]]. [[No|No]], [[they're|están]] [[not|no]] [[there|allí]]. [[Oh|Oh]]! [[They're|Están]] [[between|entre]] [[the|los]] [[sofa|sofá]] [[cushions|cojines]]! [[Thank|Gracias]] [[you|gracias]]! [[I|Yo]] [[always|siempre]] [[lose|pierdo]] [[things|cosas]] [[in|en]] [[front|delante]] [[of|de]] [[my|mis]] [[eyes|ojos]]!",
+          "question_en": "[[What|Qué]] [[does|significa]] 'Near' [[mean|significa]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Far from|Lejos de]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Near|Cerca de]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Opposite|Frente a]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U24_I49",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I|Yo]] [[can't|no puedo]] [[find|encontrar]] [[my|mi]] [[keys|llaves]]. [[Can|Puedes]] [[you|tú]] [[help|ayudarme]] [[me|me]]? [[Where|Dónde]] [[did|las dejaste]] [[you|tú]] [[leave|dejaste]] [[them|ellas]] [[last|última]] [[night|noche]]? [[I|Yo]] [[think|creo]] [[they|ellas]] [[are|están]] [[on|en]] [[the|la]] [[table|mesa]] [[next|al]] [[to|lado de]] [[the|la]] [[door|puerta]]. [[No|No]], [[they're|están]] [[not|no]] [[there|allí]]. [[Oh|Oh]]! [[They're|Están]] [[between|entre]] [[the|los]] [[sofa|sofá]] [[cushions|cojines]]! [[Thank|Gracias]] [[you|gracias]]! [[I|Yo]] [[always|siempre]] [[lose|pierdo]] [[things|cosas]] [[in|en]] [[front|delante]] [[of|de]] [[my|mis]] [[eyes|ojos]]!",
+          "question_en": "[[What|Qué]] [[does|significa]] 'In front of' [[mean|significa]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Behind|Detrás de]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[In front of|Delante de]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Between|Entre]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U24_I50",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I|Yo]] [[can't|no puedo]] [[find|encontrar]] [[my|mi]] [[keys|llaves]]. [[Can|Puedes]] [[you|tú]] [[help|ayudarme]] [[me|me]]? [[Where|Dónde]] [[did|las dejaste]] [[you|tú]] [[leave|dejaste]] [[them|ellas]] [[last|última]] [[night|noche]]? [[I|Yo]] [[think|creo]] [[they|ellas]] [[are|están]] [[on|en]] [[the|la]] [[table|mesa]] [[next|al]] [[to|lado de]] [[the|la]] [[door|puerta]]. [[No|No]], [[they're|están]] [[not|no]] [[there|allí]]. [[Oh|Oh]]! [[They're|Están]] [[between|entre]] [[the|los]] [[sofa|sofá]] [[cushions|cojines]]! [[Thank|Gracias]] [[you|gracias]]! [[I|Yo]] [[always|siempre]] [[lose|pierdo]] [[things|cosas]] [[in|en]] [[front|delante]] [[of|de]] [[my|mis]] [[eyes|ojos]]!",
+          "question_en": "[[Which|Cuál]] [[preposition|preposición]] [[means|significa]] 'Lejos de'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Near|Cerca de]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Far from|Lejos de]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Above|Encima de]]"
+            }
+          ],
+          "correct_answer": "o2"
+        }
+      ]
+    },
+    {
+      "block_id": "B6",
+      "title": "Production",
+      "content": [
+        {
+          "interaction_id": "A1_U24_I51",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
             {
               "id": "w1",
-              "text": "[[The|La]]"
+              "text": "[[Between|Entre]]"
             },
             {
               "id": "w2",
-              "text": "[[wallet|cartera]]"
+              "text": "[[Above|Encima de]]"
             },
             {
               "id": "w3",
-              "text": "[[is|está]]"
+              "text": "[[Next to|Al lado de]]"
             },
             {
               "id": "w4",
-              "text": "[[under|debajo de]]"
-            },
-            {
-              "id": "w5",
-              "text": "[[the|el]]"
-            },
-            {
-              "id": "w6",
-              "text": "[[coat|abrigo]]"
+              "text": "[[In front of|Delante de]]"
             }
           ],
           "correct_answer": [
-            "w1",
-            "w2",
             "w3",
+            "w1",
             "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "reading",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U24_I49",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué palabra del texto significa 'everywhere' (por todas partes)?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[there|allí]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[finally|finalmente]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[everywhere|por todas partes]]"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "reading",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U24_I50",
-          "type": "fill_blanks",
-          "prompt_es": "Tom encontró su cartera ___ his coat. (preposición = debajo de) ([[coat|abrigo]])",
-          "correct_answer": "under",
-          "mastery_tag": "reading",
-          "complexity": 1
-        }
-      ]
-    },
-    {
-      "block_id": "B24_REC",
-      "title": "Block 6: Recycling – Jobs & Workplaces",
-      "content": [
-        {
-          "interaction_id": "A1_U24_B24_REC_MC1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Dónde trabaja un [[doctor|médico]]?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[In a hospital|En un hospital]]"
-            },
-            {
-              "id": "o2",
-              "text": "In a school"
-            },
-            {
-              "id": "o3",
-              "text": "In a bank"
-            },
-            {
-              "id": "o4",
-              "text": "In a shop"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 2,
-          "concept_tags": [
-            "jobs"
+            "w2"
           ]
         },
         {
-          "interaction_id": "A1_U24_B24_REC_MC2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la pregunta para preguntar la profesión?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[What do you do?|¿A qué te dedicas?]]"
-            },
-            {
-              "id": "o2",
-              "text": "What you are?"
-            },
-            {
-              "id": "o3",
-              "text": "Who you work?"
-            },
-            {
-              "id": "o4",
-              "text": "What is your do?"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 2,
-          "concept_tags": [
-            "jobs"
-          ]
-        },
-        {
-          "interaction_id": "A1_U24_B24_REC_FB3",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: \"[[She|Ella]] is a ___ (nurse/nurses). She ___ (work/works) in a hospital.\"",
-          "stimulus_en": "She is a ___. She ___ in a hospital.",
-          "correct_answer": "nurse / works",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "jobs",
-            "present_simple"
-          ]
-        },
-        {
-          "interaction_id": "A1_U24_B24_REC_SW4",
-          "type": "short_writing",
-          "prompt_es": "Describe tu trabajo ideal. Usa [[I want to be|quiero ser]], [[I would like to work|me gustaría trabajar]], [[because|porque]].",
+          "interaction_id": "A1_U24_I52",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
           "mastery_tag": "production",
           "complexity": 3,
-          "concept_tags": [
-            "production",
-            "free_writing"
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Above|Encima de]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Far from|Lejos de]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Opposite|Frente a]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Below|Debajo de]]"
+            }
           ],
-          "example_answer": "I want to be a teacher because I love helping people. I would like to work in a big school. I think it is a very important job."
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
+          ]
         },
         {
-          "interaction_id": "A1_U24_B24_REC_SW5",
-          "type": "short_writing",
-          "prompt_es": "Escribe una presentación profesional breve (3-4 oraciones). Usa [[I am|soy]], [[I work|trabajo]], [[I have|tengo]] y [[My job|Mi trabajo]].",
+          "interaction_id": "A1_U24_I53",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
           "mastery_tag": "production",
           "complexity": 3,
-          "concept_tags": [
-            "production",
-            "free_writing"
-          ],
-          "example_answer": "I am Sofia and I am a graphic designer. I work for a small company in Madrid. I have five years of experience. My job is creative and interesting."
-        },
-        {
-          "interaction_id": "A1_U24_B24_REC_MC6",
-          "type": "multiple_choice",
-          "prompt_es": "¿Dónde trabaja un [[chef|chef/cocinero]]?",
           "options": [
             {
-              "id": "o1",
-              "text": "[[In a restaurant|En un restaurante]]"
+              "id": "w1",
+              "text": "[[Far from|Lejos de]]"
             },
             {
-              "id": "o2",
-              "text": "In a hospital"
+              "id": "w2",
+              "text": "[[Floor|Suelo]]"
             },
             {
-              "id": "o3",
-              "text": "In a school"
+              "id": "w3",
+              "text": "[[Near|Cerca de]]"
             },
             {
-              "id": "o4",
-              "text": "In a library"
+              "id": "w4",
+              "text": "[[Corner|Esquina]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 2,
-          "concept_tags": [
-            "jobs"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "B24_EX",
-      "title": "Block 7: Extra Practice – Jobs & Workplaces",
-      "content": [
-        {
-          "interaction_id": "A1_U24_B24_EX_MC1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál de estos es un verbo de [[obligation|obligación]]?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[must|deber/tener que]]"
-            },
-            {
-              "id": "o2",
-              "text": "can"
-            },
-            {
-              "id": "o3",
-              "text": "should maybe"
-            },
-            {
-              "id": "o4",
-              "text": "will perhaps"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "modal_must"
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "A1_U24_B24_EX_MC2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la forma correcta de \"[[to have|tener]]\" para [[they|ellos]]?",
+          "interaction_id": "A1_U24_I54",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
           "options": [
             {
-              "id": "o1",
-              "text": "[[They have|Ellos tienen]]"
+              "id": "w1",
+              "text": "[[Floor|Suelo]]"
             },
             {
-              "id": "o2",
-              "text": "They has"
+              "id": "w2",
+              "text": "[[Centre|Centro]]"
             },
             {
-              "id": "o3",
-              "text": "They haves"
+              "id": "w3",
+              "text": "[[Wall|Pared]]"
             },
             {
-              "id": "o4",
-              "text": "They are have"
+              "id": "w4",
+              "text": "[[Right|Derecha]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "verb_have"
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
+        },
+        {
+          "interaction_id": "A1_U24_I55",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[The|El]] [[book|libro]] [[is|está]] [[on|en]] [[the|la]] [[floor|el suelo]], ______ [[the|la]] [[table|mesa]].",
+          "correct_answer": "below"
+        },
+        {
+          "interaction_id": "A1_U24_I56",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[The|El]] [[post office|correos]] [[is|está]] ______ [[the|el]] [[bank|banco]] [[and|y]] [[the|la]] [[pharmacy|farmacia]].",
+          "correct_answer": "between"
+        },
+        {
+          "interaction_id": "A1_U24_I57",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[The|La]] [[school|escuela]] [[is|está]] ______ [[the|al]] [[park|parque]].",
+          "correct_answer": "opposite"
+        },
+        {
+          "interaction_id": "A1_U24_I58",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[I|Yo]] [[can't|no puedo]] [[find|encontrar]] [[my|mi]] [[keys|llaves]]. [[Can|Puedes]] [[you|tú]] [[help|ayudarme]] [[me|me]]?",
+          "correct_answer": true
+        },
+        {
+          "interaction_id": "A1_U24_I59",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Where|Dónde]] [[did|las dejaste]] [[you|tú]] [[leave|dejaste]] [[them|ellas]] [[last|última]] [[night|noche]]?",
+          "correct_answer": false
+        },
+        {
+          "interaction_id": "A1_U24_I60",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[I|Yo]] [[think|creo]] [[they|ellas]] [[are|están]] [[on|en]] [[the|la]] [[table|mesa]] [[next|al]] [[to|lado de]] [[the|la]] [[door|puerta]].",
+          "correct_answer": true
         }
       ]
     }

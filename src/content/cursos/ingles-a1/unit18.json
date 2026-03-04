@@ -1,1338 +1,1232 @@
 {
   "course": {
-    "unit_id": "U18",
-    "unit_title": "Healthy Eating",
+    "unit_id": "unit18",
+    "unit_title": "Likes & Dislikes",
     "level": "A1",
     "total_duration_minutes": 60,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Name common fruits and vegetables in English",
-    "Use healthy/unhealthy to describe food",
-    "Use food adjectives: sweet, salty, fresh, spicy",
-    "Talk about eating habits using Present Simple"
+    "Express likes and dislikes using like/love/hate + -ing",
+    "Ask and answer 'Why?' with 'Because...'",
+    "Talk about hobbies and interests"
   ],
   "blocks": [
     {
       "block_id": "B1",
-      "title": "Fruits & Vegetables",
+      "title": "Vocabulary Introduction",
       "content": [
         {
-          "interaction_id": "U18_I1",
-          "type": "matching",
-          "prompt_es": "Une la fruta con su traducción:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Apple|Manzana]]",
-              "right": "Uva"
-            },
-            {
-              "id": "p2",
-              "left": "[[Banana|Plátano]]",
-              "right": "Naranja"
-            },
-            {
-              "id": "p3",
-              "left": "[[Orange|Naranja]]",
-              "right": "Manzana"
-            },
-            {
-              "id": "p4",
-              "left": "[[Grapes|Uva]]",
-              "right": "Plátano"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p3",
-            "p2": "p4",
-            "p3": "p2",
-            "p4": "p1"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U18_I2",
-          "type": "matching",
-          "prompt_es": "Une la verdura con su traducción:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Carrot|Zanahoria]]",
-              "right": "Lechuga"
-            },
-            {
-              "id": "p2",
-              "left": "[[Tomato|Tomate]]",
-              "right": "Pepino"
-            },
-            {
-              "id": "p3",
-              "left": "[[Lettuce|Lechuga]]",
-              "right": "Tomate"
-            },
-            {
-              "id": "p4",
-              "left": "[[Cucumber|Pepino]]",
-              "right": "Zanahoria"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p4",
-            "p2": "p3",
-            "p3": "p1",
-            "p4": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U18_I3",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'fresa' en inglés?",
+          "interaction_id": "A1_U18_I1",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Reading|Leer]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[Peach|Melocotón]]"
+              "text": "[[Leer|Reading]]"
             },
             {
               "id": "o2",
-              "text": "[[Lemon|Limón]]"
+              "text": "[[Cocinar|Cooking]]"
             },
             {
               "id": "o3",
-              "text": "[[Strawberry|Fresa]]"
+              "text": "[[Bailar|Dancing]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U18_I4",
-          "type": "true_false",
-          "prompt_es": "'[[Onion|Cebolla]]' es una verdura.",
-          "correct_answer": true,
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U18_I5",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál de estos es una fruta?",
+          "interaction_id": "A1_U18_I2",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Cooking|Cocinar]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[Broccoli|Brócoli]]"
+              "text": "[[Bailar|Dancing]]"
             },
             {
               "id": "o2",
-              "text": "[[Potato|Patata]]"
+              "text": "[[Cocinar|Cooking]]"
             },
             {
               "id": "o3",
-              "text": "[[Pear|Pera]]"
+              "text": "[[Cantar|Singing]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U18_I6",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'Me gustan las zanahorias y las ________ (lechugas).' ([[and|y]])",
-          "stimulus_en": "I like carrots and ________.",
-          "correct_answer": "lettuce",
-          "mastery_tag": "vocabulary"
+          "interaction_id": "A1_U18_I3",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Dancing|Bailar]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Cantar|Singing]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Dibujar|Drawing]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Bailar|Dancing]]"
+            }
+          ],
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U18_I7",
-          "type": "short_writing",
-          "prompt_es": "Nombra tres frutas en inglés. ([[city|ciudad]])",
-          "correct_answer": "apple, banana, orange",
-          "mastery_tag": "vocabulary"
+          "interaction_id": "A1_U18_I4",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Singing|Cantar]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Cantar|Singing]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Dibujar|Drawing]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Nadar|Swimming]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U18_I5",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Drawing|Dibujar]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Nadar|Swimming]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Dibujar|Drawing]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Viajar|Traveling]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U18_I6",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Swimming|Nadar]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Viajar|Traveling]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Ir de compras|Shopping]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Nadar|Swimming]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U18_I7",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Viajar]]",
+          "correct_answer": "Traveling"
+        },
+        {
+          "interaction_id": "A1_U18_I8",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Ir de compras]]",
+          "correct_answer": "Shopping"
+        },
+        {
+          "interaction_id": "A1_U18_I9",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Pintar]]",
+          "correct_answer": "Painting"
+        },
+        {
+          "interaction_id": "A1_U18_I10",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Jugar a videojuegos]]",
+          "correct_answer": "Gaming"
         }
       ]
     },
     {
       "block_id": "B2",
-      "title": "Healthy & Unhealthy Food",
+      "title": "Vocabulary in Context",
       "content": [
         {
-          "interaction_id": "U18_I8",
-          "type": "matching",
-          "prompt_es": "Clasifica los alimentos: sano o no sano:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Salad|Ensalada]]",
-              "right": "Unhealthy"
-            },
-            {
-              "id": "p2",
-              "left": "[[Chips|Patatas fritas]]",
-              "right": "Healthy"
-            },
-            {
-              "id": "p3",
-              "left": "[[Fruit|Fruta]]",
-              "right": "Unhealthy (muy dulce)"
-            },
-            {
-              "id": "p4",
-              "left": "[[Chocolate cake|Tarta de chocolate]]",
-              "right": "Healthy"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p2",
-            "p2": "p1",
-            "p3": "p4",
-            "p4": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U18_I9",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es una comida sana?",
+          "interaction_id": "A1_U18_I11",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Singing|Cantar]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[A grilled chicken salad|Una ensalada de pollo a la plancha]]"
+              "text": "[[Singing|Cantar]]"
             },
             {
               "id": "o2",
-              "text": "[[A burger and chips|Una hamburguesa y patatas fritas]]"
+              "text": "[[Traveling|Viajar]]"
             },
             {
               "id": "o3",
-              "text": "[[A large pizza|Una pizza grande]]"
+              "text": "[[Gaming|Jugar a videojuegos]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U18_I10",
-          "type": "true_false",
-          "prompt_es": "'[[Fast food|Comida rápida]]' is generally [[unhealthy|poco saludable]].",
-          "correct_answer": true,
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U18_I11",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'Las frutas y verduras son ________ (saludables).' ([[and|y]])",
-          "stimulus_en": "Fruits and vegetables are ________.",
-          "correct_answer": "healthy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U18_I12",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué significa '[[junk food|comida basura]]'?",
+          "interaction_id": "A1_U18_I12",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Drawing|Dibujar]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[Comida sana y nutritiva|Healthy and nutritious food]]"
+              "text": "[[Shopping|Ir de compras]]"
             },
             {
               "id": "o2",
-              "text": "[[Comida casera|Home-cooked food]]"
+              "text": "[[Drawing|Dibujar]]"
             },
             {
               "id": "o3",
-              "text": "[[Comida poco nutritiva como hamburguesas o patatas fritas|Fast food like burgers and chips]]"
+              "text": "[[Because|Porque]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U18_I13",
-          "type": "short_writing",
-          "prompt_es": "Escribe una frase: 'Las patatas fritas no son saludables.' ([[city|ciudad]])",
-          "correct_answer": "Chips are not healthy",
-          "mastery_tag": "vocabulary"
+          "interaction_id": "A1_U18_I13",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Swimming|Nadar]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Painting|Pintar]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Why|¿Por qué?]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Swimming|Nadar]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U18_I14",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Traveling|Viajar]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Traveling|Viajar]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Gaming|Jugar a videojuegos]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Hobby|Afición]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U18_I15",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[love|me encanta]] ______ [[in|en]] [[the|la]] [[sea|mar]].",
+          "correct_answer": "swimming"
+        },
+        {
+          "interaction_id": "A1_U18_I16",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[She|Ella]] [[doesn't|no]] [[like|le gusta]] ______. [[It|Es]] [[is|es]] [[too|demasiado]] [[loud|ruidoso]].",
+          "correct_answer": "singing"
+        },
+        {
+          "interaction_id": "A1_U18_I17",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Why|Por qué]] [[do|te gusta]] [[you|tú]] [[like|te gusta]] ______?",
+          "correct_answer": "dancing"
+        },
+        {
+          "interaction_id": "A1_U18_I18",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Reading|Leer]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Dancing|Bailar]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Cooking|Cocinar]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U18_I19",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Drawing|Dibujar]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Traveling|Viajar]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Swimming|Nadar]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U18_I20",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Painting|Pintar]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Because|Porque]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Gaming|Jugar a videojuegos]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
         }
       ]
     },
     {
       "block_id": "B3",
-      "title": "Food Adjectives",
+      "title": "Grammar — Affirmative",
       "content": [
         {
-          "interaction_id": "U18_I14",
-          "type": "matching",
-          "prompt_es": "Une el adjetivo con su significado:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Sweet|Dulce]]",
-              "right": "Con especias"
-            },
-            {
-              "id": "p2",
-              "left": "[[Salty|Salado]]",
-              "right": "Dulce"
-            },
-            {
-              "id": "p3",
-              "left": "[[Spicy|Picante]]",
-              "right": "Fresco/natural"
-            },
-            {
-              "id": "p4",
-              "left": "[[Fresh|Fresco]]",
-              "right": "Salado"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p2",
-            "p2": "p4",
-            "p3": "p1",
-            "p4": "p3"
-          },
-          "mastery_tag": "vocabulary"
+          "interaction_id": "A1_U18_I21",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[love|me encanta]] ______ [[in|en]] [[the|la]] [[sea|mar]].",
+          "correct_answer": "swimming"
         },
         {
-          "interaction_id": "U18_I15",
-          "type": "multiple_choice",
-          "prompt_es": "El chocolate es normalmente…",
+          "interaction_id": "A1_U18_I22",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[She|Ella]] [[doesn't|no]] [[like|le gusta]] ______. [[It|Es]] [[is|es]] [[too|demasiado]] [[loud|ruidoso]].",
+          "correct_answer": "singing"
+        },
+        {
+          "interaction_id": "A1_U18_I23",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Why|Por qué]] [[do|te gusta]] [[you|tú]] [[like|te gusta]] ______?",
+          "correct_answer": "dancing"
+        },
+        {
+          "interaction_id": "A1_U18_I24",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Because|Porque]] [[it|eso]] [[is|es]] [[fun|divertido]] ______ [[creative|creativo]].",
+          "correct_answer": "and"
+        },
+        {
+          "interaction_id": "A1_U18_I25",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] ______ [[like|no me gusta]] [[cooking|cocinar]]. [[I|Yo]] [[find|encuentro]] [[it|eso]] [[relaxing|relajante]].",
           "options": [
             {
               "id": "o1",
-              "text": "[[Sweet|Dulce]]"
+              "text": "[[don't|don't]]"
             },
             {
               "id": "o2",
-              "text": "[[Spicy|Picante]]"
+              "text": "[[singing|singing]]"
             },
             {
               "id": "o3",
-              "text": "[[Salty|Salado]]"
+              "text": "[[dancing|dancing]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U18_I16",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'Las aceitunas son ________ (saladas).' ([[city|ciudad]])",
-          "stimulus_en": "Olives are ________.",
-          "correct_answer": "salty",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U18_I17",
-          "type": "true_false",
-          "prompt_es": "'[[A fresh salad|Una ensalada fresca]]' describe una ensalada con ingredientes frescos.",
-          "correct_answer": true,
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U18_I18",
-          "type": "multiple_choice",
-          "prompt_es": "La comida mexicana es normalmente…",
+          "interaction_id": "A1_U18_I26",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Do|Te gusta]] [[you|tú]] [[enjoy|disfrutas]] ______?",
           "options": [
             {
               "id": "o1",
-              "text": "[[Sweet|Dulce]]"
+              "text": "[[dancing|dancing]]"
             },
             {
               "id": "o2",
-              "text": "[[Spicy|Picante]]"
+              "text": "[[reading|reading]]"
             },
             {
               "id": "o3",
-              "text": "[[Bland|Sosa]]"
+              "text": "[[and|and]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U18_I19",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'A mí no me gusta la comida picante.' ([[city|ciudad]])",
+          "interaction_id": "A1_U18_I27",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[love|me encanta]] ______ [[in|en]] [[the|la]] [[sea|mar]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[and|and]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[don't|don't]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[swimming|swimming]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U18_I28",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[She|Ella]] [[doesn't|no]] [[like|le gusta]] ______. [[It|Es]] [[is|es]] [[too|demasiado]] [[loud|ruidoso]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[singing|singing]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[don't|don't]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[reading|reading]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U18_I29",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
           "options": [
             {
               "id": "w1",
-              "text": "I"
+              "text": "[[Dancing|Bailar]]"
             },
             {
               "id": "w2",
-              "text": "don't"
+              "text": "[[Reading|Leer]]"
             },
             {
               "id": "w3",
-              "text": "like"
-            },
-            {
-              "id": "w4",
-              "text": "spicy"
-            },
-            {
-              "id": "w5",
-              "text": "food."
+              "text": "[[Drawing|Dibujar]]"
             }
           ],
           "correct_answer": [
-            "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
+            "w1",
+            "w3"
+          ]
         },
         {
-          "interaction_id": "U18_I20",
-          "type": "short_writing",
-          "prompt_es": "Describe un limón usando un adjetivo. ([[city|ciudad]])",
-          "correct_answer": "A lemon is sour",
-          "mastery_tag": "vocabulary"
+          "interaction_id": "A1_U18_I30",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Shopping|Ir de compras]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Swimming|Nadar]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Gaming|Jugar a videojuegos]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
+          ]
         }
       ]
     },
     {
       "block_id": "B4",
-      "title": "Eating Habits in Present Simple",
+      "title": "Grammar — Negative & Questions",
       "content": [
         {
-          "interaction_id": "U18_I21",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál describe un buen hábito alimenticio?",
+          "interaction_id": "A1_U18_I31",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Why|Por qué]] [[do|te gusta]] [[you|tú]] [[like|te gusta]] ______?",
+          "correct_answer": "dancing"
+        },
+        {
+          "interaction_id": "A1_U18_I32",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Because|Porque]] [[it|eso]] [[is|es]] [[fun|divertido]] ______ [[creative|creativo]].",
+          "correct_answer": "and"
+        },
+        {
+          "interaction_id": "A1_U18_I33",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] ______ [[like|no me gusta]] [[cooking|cocinar]]. [[I|Yo]] [[find|encuentro]] [[it|eso]] [[relaxing|relajante]].",
+          "correct_answer": "don't"
+        },
+        {
+          "interaction_id": "A1_U18_I34",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Because|Porque]] [[it|eso]] [[is|es]] [[fun|divertido]] ______ [[creative|creativo]].",
           "options": [
             {
               "id": "o1",
-              "text": "[[She eats chips every day|Ella come patatas fritas cada día]]"
+              "text": "[[and|and]]"
             },
             {
               "id": "o2",
-              "text": "[[She eats fruit and vegetables every day|Ella come fruta y verduras cada día]]"
+              "text": "[[reading|reading]]"
             },
             {
               "id": "o3",
-              "text": "[[She skips breakfast|Ella se salta el desayuno]]"
+              "text": "[[swimming|swimming]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar"
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U18_I22",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '¿Cuánta fruta comes al día?' ([[every day|todos los días]])",
-          "stimulus_en": "How much ________ do you eat every day?",
-          "correct_answer": "fruit",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U18_I23",
-          "type": "matching",
-          "prompt_es": "Une la persona con su hábito:",
-          "pairs": [
+          "interaction_id": "A1_U18_I35",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] ______ [[like|no me gusta]] [[cooking|cocinar]]. [[I|Yo]] [[find|encuentro]] [[it|eso]] [[relaxing|relajante]].",
+          "options": [
             {
-              "id": "p1",
-              "left": "[[Mark|Mark]]",
-              "right": "drinks fresh juice every morning"
+              "id": "o1",
+              "text": "[[swimming|swimming]]"
             },
             {
-              "id": "p2",
-              "left": "[[Sara|Sara]]",
-              "right": "eats a big lunch"
+              "id": "o2",
+              "text": "[[don't|don't]]"
             },
             {
-              "id": "p3",
-              "left": "[[Tom|Tom]]",
-              "right": "doesn't eat junk food"
-            },
-            {
-              "id": "p4",
-              "left": "[[Ana|Ana]]",
-              "right": "loves spicy food"
+              "id": "o3",
+              "text": "[[singing|singing]]"
             }
           ],
-          "correct_answer": {
-            "p1": "p3",
-            "p2": "p1",
-            "p3": "p4",
-            "p4": "p2"
-          },
-          "mastery_tag": "grammar"
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U18_I24",
-          "type": "true_false",
-          "prompt_es": "La frase '[[He doesn't eat any vegetables|Él no come ninguna verdura]]' es correcta.",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "interaction_id": "A1_U18_I36",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Do|Te gusta]] [[you|tú]] [[enjoy|disfrutas]] ______?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[singing|singing]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[dancing|dancing]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[reading|reading]]"
+            }
+          ],
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U18_I25",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'Mi hermana come mucha fruta.' ([[city|ciudad]])",
+          "interaction_id": "A1_U18_I37",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[love|me encanta]] ______ [[in|en]] [[the|la]] [[sea|mar]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[swimming|swimming]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[dancing|dancing]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[and|and]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U18_I38",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
           "options": [
             {
               "id": "w1",
-              "text": "My"
+              "text": "[[Drawing|Dibujar]]"
             },
             {
               "id": "w2",
-              "text": "sister"
+              "text": "[[Cooking|Cocinar]]"
             },
             {
               "id": "w3",
-              "text": "eats"
+              "text": "[[Traveling|Viajar]]"
             },
             {
               "id": "w4",
-              "text": "a"
-            },
-            {
-              "id": "w5",
-              "text": "lot"
-            },
-            {
-              "id": "w6",
-              "text": "of"
-            },
-            {
-              "id": "w7",
-              "text": "fruit."
+              "text": "[[Dancing|Bailar]]"
             }
           ],
           "correct_answer": [
-            "w1",
             "w2",
-            "w3",
+            "w1",
             "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax"
+            "w3"
+          ]
         },
         {
-          "interaction_id": "U18_I26",
-          "type": "short_writing",
-          "prompt_es": "Traduce: '¿Come ella verduras cada día?' ([[city|ciudad]])",
-          "correct_answer": "Does she eat vegetables every day?",
-          "mastery_tag": "grammar"
+          "interaction_id": "A1_U18_I39",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Shopping|Ir de compras]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Drawing|Dibujar]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Gaming|Jugar a videojuegos]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Swimming|Nadar]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
+        },
+        {
+          "interaction_id": "A1_U18_I40",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Because|Porque]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Shopping|Ir de compras]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Hobby|Afición]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Painting|Pintar]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
         }
       ]
     },
     {
       "block_id": "B5",
-      "title": "Reading: David's Healthy Diet",
+      "title": "Reading Comprehension",
       "content": [
         {
-          "interaction_id": "U18_READ1",
-          "type": "reading_phase",
-          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[carefully|con atención]].",
-          "transcript": "[[David|David]] is a [[doctor|médico]] and he [[lives|vive]] in [[London|Londres]]. He [[thinks|cree]] that [[eating well|comer bien]] is very [[important|importante]]. Every [[morning|mañana]], he [[has|toma]] a bowl of [[fresh|fresco]] [[fruit|fruta]] — usually [[strawberries|fresas]], [[blueberries|arándanos]] and a [[banana|plátano]]. He [[drinks|bebe]] [[green tea|té verde]] — not [[coffee|café]]. For [[lunch|almuerzo]], he [[eats|come]] a [[big|grande]] [[salad|ensalada]] with [[grilled|a la plancha]] [[chicken|pollo]] and lots of [[vegetables|verduras]]. He [[doesn't|no]] eat any [[junk food|comida basura]]. He [[says|dice]]: '[[Eat more fruit and vegetables|Come más fruta y verduras]] and you will [[feel|sentirte]] [[great|genial]]!'",
+          "interaction_id": "A1_U18_I41",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
           "mastery_tag": "reading",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U18_I27",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué fruta come David por la mañana?",
+          "complexity": 2,
+          "transcript": "[[What|Cuáles]] [[are|son]] [[your|tus]] [[hobbies|aficiones]]? [[I|Yo]] [[love|me encanta]] [[reading|leer]] [[and|y]] [[painting|pintar]]. [[I|Yo]] [[find|encuentro]] [[them|eso]] [[very|muy]] [[relaxing|relajante]]. [[What|Qué]] [[about|hay de]] [[sports|deportes]]? [[Do|Te gusta]] [[you|tú]] [[like|te gusta]] [[swimming|nadar]]? [[Not|No]] [[really|mucho]]. [[I|Yo]] [[prefer|prefiero]] [[dancing|bailar]]. [[Why|Por qué]] [[do|te gusta]] [[you|tú]] [[ask|preguntas]]? [[Because|Porque]] [[I|yo]] [[am|estoy]] [[looking|buscando]] [[for|por]] [[a|un]] [[dance|baile]] [[partner|compañero]]!",
+          "question_en": "[[What|Cuáles]] [[are|son]] [[the|las]] [[speaker's|del hablante]] [[hobbies|aficiones]]?",
           "options": [
             {
               "id": "o1",
-              "text": "[[Apples and pears|Manzanas y peras]]"
+              "text": "[[Swimming and cooking|Nadar y cocinar]]"
             },
             {
               "id": "o2",
-              "text": "[[Strawberries, blueberries and banana|Fresas, arándanos y plátano]]"
+              "text": "[[Reading and painting|Leer y pintar]]"
             },
             {
               "id": "o3",
-              "text": "[[Oranges and grapes|Naranjas y uvas]]"
+              "text": "[[Dancing and singing|Bailar y cantar]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading"
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U18_I28",
-          "type": "true_false",
-          "prompt_es": "David bebe café por la mañana. ([[city|ciudad]])",
-          "correct_answer": false,
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U18_I29",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué come David para comer?",
+          "interaction_id": "A1_U18_I42",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[What|Cuáles]] [[are|son]] [[your|tus]] [[hobbies|aficiones]]? [[I|Yo]] [[love|me encanta]] [[reading|leer]] [[and|y]] [[painting|pintar]]. [[I|Yo]] [[find|encuentro]] [[them|eso]] [[very|muy]] [[relaxing|relajante]]. [[What|Qué]] [[about|hay de]] [[sports|deportes]]? [[Do|Te gusta]] [[you|tú]] [[like|te gusta]] [[swimming|nadar]]? [[Not|No]] [[really|mucho]]. [[I|Yo]] [[prefer|prefiero]] [[dancing|bailar]]. [[Why|Por qué]] [[do|te gusta]] [[you|tú]] [[ask|preguntas]]? [[Because|Porque]] [[I|yo]] [[am|estoy]] [[looking|buscando]] [[for|por]] [[a|un]] [[dance|baile]] [[partner|compañero]]!",
+          "question_en": "[[Why|Por qué]] [[does|le gustan]] [[the|al]] [[speaker|hablante]] [[like|le gustan]] [[these|estas]] [[hobbies|aficiones]]?",
           "options": [
             {
               "id": "o1",
-              "text": "[[Pasta with sauce|Pasta con salsa]]"
+              "text": "[[They are exciting|Son emocionantes]]"
             },
             {
               "id": "o2",
-              "text": "[[A burger and chips|Una hamburguesa con patatas]]"
+              "text": "[[They are relaxing|Son relajantes]]"
             },
             {
               "id": "o3",
-              "text": "[[A big salad with grilled chicken|Una gran ensalada con pollo a la plancha]]"
+              "text": "[[They are cheap|Son baratas]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "reading"
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U18_I30",
-          "type": "fill_blanks",
-          "prompt_es": "David no come ________ (comida basura). ([[any|algún/ningún]])",
-          "stimulus_en": "He doesn't eat any ________.",
-          "correct_answer": "junk food",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U18_I31",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la profesión de David?",
+          "interaction_id": "A1_U18_I43",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[What|Cuáles]] [[are|son]] [[your|tus]] [[hobbies|aficiones]]? [[I|Yo]] [[love|me encanta]] [[reading|leer]] [[and|y]] [[painting|pintar]]. [[I|Yo]] [[find|encuentro]] [[them|eso]] [[very|muy]] [[relaxing|relajante]]. [[What|Qué]] [[about|hay de]] [[sports|deportes]]? [[Do|Te gusta]] [[you|tú]] [[like|te gusta]] [[swimming|nadar]]? [[Not|No]] [[really|mucho]]. [[I|Yo]] [[prefer|prefiero]] [[dancing|bailar]]. [[Why|Por qué]] [[do|te gusta]] [[you|tú]] [[ask|preguntas]]? [[Because|Porque]] [[I|yo]] [[am|estoy]] [[looking|buscando]] [[for|por]] [[a|un]] [[dance|baile]] [[partner|compañero]]!",
+          "question_en": "[[Does|Le gusta]] [[the|al]] [[speaker|hablante]] [[like|le gusta]] [[swimming|nadar]]?",
           "options": [
             {
               "id": "o1",
-              "text": "[[Teacher|Profesor]]"
+              "text": "[[Yes, very much|Sí, mucho]]"
             },
             {
               "id": "o2",
-              "text": "[[Doctor|Médico]]"
+              "text": "[[Not really|No mucho]]"
             },
             {
               "id": "o3",
-              "text": "[[Chef|Cocinero]]"
+              "text": "[[No, hates it|No, lo odia]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading"
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U18_I32",
-          "type": "short_writing",
-          "prompt_es": "Escribe el consejo que da David. ([[city|ciudad]])",
-          "correct_answer": "Eat more fruit and vegetables",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U18_I33",
-          "type": "matching",
-          "prompt_es": "Une el adjetivo de comida con un ejemplo:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Sweet|Dulce]]",
-              "right": "Lettuce, cucumber"
-            },
-            {
-              "id": "p2",
-              "left": "[[Fresh|Fresco]]",
-              "right": "Lemon, lime"
-            },
-            {
-              "id": "p3",
-              "left": "[[Sour|Ácido]]",
-              "right": "Honey, chocolate"
-            },
-            {
-              "id": "p4",
-              "left": "[[Crunchy|Crujiente]]",
-              "right": "Carrots, apples"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p3",
-            "p2": "p1",
-            "p3": "p2",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U18_I34",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'Comer sano es muy importante.' ([[city|ciudad]])",
-          "options": [
-            {
-              "id": "w1",
-              "text": "Eating"
-            },
-            {
-              "id": "w2",
-              "text": "well"
-            },
-            {
-              "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w4",
-              "text": "very"
-            },
-            {
-              "id": "w5",
-              "text": "important."
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U18_I35",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es un ejemplo de comida 'crunchy' (crujiente)?",
+          "interaction_id": "A1_U18_I44",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[What|Cuáles]] [[are|son]] [[your|tus]] [[hobbies|aficiones]]? [[I|Yo]] [[love|me encanta]] [[reading|leer]] [[and|y]] [[painting|pintar]]. [[I|Yo]] [[find|encuentro]] [[them|eso]] [[very|muy]] [[relaxing|relajante]]. [[What|Qué]] [[about|hay de]] [[sports|deportes]]? [[Do|Te gusta]] [[you|tú]] [[like|te gusta]] [[swimming|nadar]]? [[Not|No]] [[really|mucho]]. [[I|Yo]] [[prefer|prefiero]] [[dancing|bailar]]. [[Why|Por qué]] [[do|te gusta]] [[you|tú]] [[ask|preguntas]]? [[Because|Porque]] [[I|yo]] [[am|estoy]] [[looking|buscando]] [[for|por]] [[a|un]] [[dance|baile]] [[partner|compañero]]!",
+          "question_en": "[[What|Qué]] [[activity|actividad]] [[does|prefiere]] [[the|el]] [[speaker|hablante]] [[prefer|prefiere]]?",
           "options": [
             {
               "id": "o1",
-              "text": "[[Yogurt|Yogur]]"
+              "text": "[[Reading|Leer]]"
             },
             {
               "id": "o2",
-              "text": "[[Soup|Sopa]]"
+              "text": "[[Swimming|Nadar]]"
             },
             {
               "id": "o3",
-              "text": "[[Carrot|Zanahoria]]"
+              "text": "[[Dancing|Bailar]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U18_I36",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'Como fruta y verduras para estar ________ (sano).' ([[and|y]])",
-          "stimulus_en": "I eat fruit and vegetables to stay ________.",
-          "correct_answer": "healthy",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U18_I37",
-          "type": "true_false",
-          "prompt_es": "'[[Broccoli|Brócoli]]' is a [[vegetable|verdura]].",
-          "correct_answer": true,
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U18_I38",
-          "type": "short_writing",
-          "prompt_es": "Escribe: '¿Comes verduras cada día?' ([[city|ciudad]])",
-          "correct_answer": "Do you eat vegetables every day?",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U18_I39",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué adjetivo describe una naranja?",
+          "interaction_id": "A1_U18_I45",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[What|Cuáles]] [[are|son]] [[your|tus]] [[hobbies|aficiones]]? [[I|Yo]] [[love|me encanta]] [[reading|leer]] [[and|y]] [[painting|pintar]]. [[I|Yo]] [[find|encuentro]] [[them|eso]] [[very|muy]] [[relaxing|relajante]]. [[What|Qué]] [[about|hay de]] [[sports|deportes]]? [[Do|Te gusta]] [[you|tú]] [[like|te gusta]] [[swimming|nadar]]? [[Not|No]] [[really|mucho]]. [[I|Yo]] [[prefer|prefiero]] [[dancing|bailar]]. [[Why|Por qué]] [[do|te gusta]] [[you|tú]] [[ask|preguntas]]? [[Because|Porque]] [[I|yo]] [[am|estoy]] [[looking|buscando]] [[for|por]] [[a|un]] [[dance|baile]] [[partner|compañero]]!",
+          "question_en": "[[Why|Por qué]] [[is|pregunta]] [[the|el]] [[other|otro]] [[person|persona]] [[asking|pregunta]]?",
           "options": [
             {
               "id": "o1",
-              "text": "[[Spicy|Picante]]"
+              "text": "[[To learn to dance|Para aprender a bailar]]"
             },
             {
               "id": "o2",
-              "text": "[[Salty|Salada]]"
+              "text": "[[Looking for a dance partner|Buscando un compañero de baile]]"
             },
             {
               "id": "o3",
-              "text": "[[Sweet and juicy|Dulce y jugosa]]"
+              "text": "[[To start a hobby club|Para iniciar un club]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U18_I40",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: '¿Le gustan las fresas a ella?' ([[city|ciudad]])",
+          "interaction_id": "A1_U18_I46",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[What|Cuáles]] [[are|son]] [[your|tus]] [[hobbies|aficiones]]? [[I|Yo]] [[love|me encanta]] [[reading|leer]] [[and|y]] [[painting|pintar]]. [[I|Yo]] [[find|encuentro]] [[them|eso]] [[very|muy]] [[relaxing|relajante]]. [[What|Qué]] [[about|hay de]] [[sports|deportes]]? [[Do|Te gusta]] [[you|tú]] [[like|te gusta]] [[swimming|nadar]]? [[Not|No]] [[really|mucho]]. [[I|Yo]] [[prefer|prefiero]] [[dancing|bailar]]. [[Why|Por qué]] [[do|te gusta]] [[you|tú]] [[ask|preguntas]]? [[Because|Porque]] [[I|yo]] [[am|estoy]] [[looking|buscando]] [[for|por]] [[a|un]] [[dance|baile]] [[partner|compañero]]!",
+          "question_en": "[[How|Cómo]] [[do|formas]] [[you|tú]] [[form|formas]] [[a|una]] [[gerund|gerundio]] [[from|de]] 'swim'?",
           "options": [
             {
-              "id": "w1",
-              "text": "Does"
+              "id": "o1",
+              "text": "[[swiming|Incorrecto]]"
             },
             {
-              "id": "w2",
-              "text": "she"
+              "id": "o2",
+              "text": "[[swimm|Incorrecto]]"
             },
             {
-              "id": "w3",
-              "text": "like"
-            },
-            {
-              "id": "w4",
-              "text": "strawberries?"
+              "id": "o3",
+              "text": "[[swimming|Nadando]]"
             }
           ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4"
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U18_I47",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[What|Cuáles]] [[are|son]] [[your|tus]] [[hobbies|aficiones]]? [[I|Yo]] [[love|me encanta]] [[reading|leer]] [[and|y]] [[painting|pintar]]. [[I|Yo]] [[find|encuentro]] [[them|eso]] [[very|muy]] [[relaxing|relajante]]. [[What|Qué]] [[about|hay de]] [[sports|deportes]]? [[Do|Te gusta]] [[you|tú]] [[like|te gusta]] [[swimming|nadar]]? [[Not|No]] [[really|mucho]]. [[I|Yo]] [[prefer|prefiero]] [[dancing|bailar]]. [[Why|Por qué]] [[do|te gusta]] [[you|tú]] [[ask|preguntas]]? [[Because|Porque]] [[I|yo]] [[am|estoy]] [[looking|buscando]] [[for|por]] [[a|un]] [[dance|baile]] [[partner|compañero]]!",
+          "question_en": "[[Which|Cuál]] [[structure|estructura]] [[follows|sigue]] 'like/love/hate'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[+ noun or -ing|+ nombre o -ing]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[+ to + verb only|+ to + verbo solo]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[+ adjective|+ adjetivo]]"
+            }
           ],
-          "mastery_tag": "syntax"
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U18_I48",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[What|Cuáles]] [[are|son]] [[your|tus]] [[hobbies|aficiones]]? [[I|Yo]] [[love|me encanta]] [[reading|leer]] [[and|y]] [[painting|pintar]]. [[I|Yo]] [[find|encuentro]] [[them|eso]] [[very|muy]] [[relaxing|relajante]]. [[What|Qué]] [[about|hay de]] [[sports|deportes]]? [[Do|Te gusta]] [[you|tú]] [[like|te gusta]] [[swimming|nadar]]? [[Not|No]] [[really|mucho]]. [[I|Yo]] [[prefer|prefiero]] [[dancing|bailar]]. [[Why|Por qué]] [[do|te gusta]] [[you|tú]] [[ask|preguntas]]? [[Because|Porque]] [[I|yo]] [[am|estoy]] [[looking|buscando]] [[for|por]] [[a|un]] [[dance|baile]] [[partner|compañero]]!",
+          "question_en": "[[What|Qué]] [[does|significa]] 'Because' [[mean|significa]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[But|Pero]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[So|Entonces]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Because|Porque]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U18_I49",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[What|Cuáles]] [[are|son]] [[your|tus]] [[hobbies|aficiones]]? [[I|Yo]] [[love|me encanta]] [[reading|leer]] [[and|y]] [[painting|pintar]]. [[I|Yo]] [[find|encuentro]] [[them|eso]] [[very|muy]] [[relaxing|relajante]]. [[What|Qué]] [[about|hay de]] [[sports|deportes]]? [[Do|Te gusta]] [[you|tú]] [[like|te gusta]] [[swimming|nadar]]? [[Not|No]] [[really|mucho]]. [[I|Yo]] [[prefer|prefiero]] [[dancing|bailar]]. [[Why|Por qué]] [[do|te gusta]] [[you|tú]] [[ask|preguntas]]? [[Because|Porque]] [[I|yo]] [[am|estoy]] [[looking|buscando]] [[for|por]] [[a|un]] [[dance|baile]] [[partner|compañero]]!",
+          "question_en": "[[What|Qué]] [[word|palabra]] [[means|significa]] 'Afición'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Sport|Deporte]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Game|Juego]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Hobby|Afición]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U18_I50",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[What|Cuáles]] [[are|son]] [[your|tus]] [[hobbies|aficiones]]? [[I|Yo]] [[love|me encanta]] [[reading|leer]] [[and|y]] [[painting|pintar]]. [[I|Yo]] [[find|encuentro]] [[them|eso]] [[very|muy]] [[relaxing|relajante]]. [[What|Qué]] [[about|hay de]] [[sports|deportes]]? [[Do|Te gusta]] [[you|tú]] [[like|te gusta]] [[swimming|nadar]]? [[Not|No]] [[really|mucho]]. [[I|Yo]] [[prefer|prefiero]] [[dancing|bailar]]. [[Why|Por qué]] [[do|te gusta]] [[you|tú]] [[ask|preguntas]]? [[Because|Porque]] [[I|yo]] [[am|estoy]] [[looking|buscando]] [[for|por]] [[a|un]] [[dance|baile]] [[partner|compañero]]!",
+          "question_en": "[[How|Cómo]] [[do|preguntas]] [[you|tú]] [[ask|preguntas]] [[why|por qué]] [[in|en]] [[English|inglés]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[What?|¿Qué?]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[How?|¿Cómo?]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Why?|¿Por qué?]]"
+            }
+          ],
+          "correct_answer": "o3"
         }
       ]
     },
     {
-      "block_id": "B18_6",
-      "title": "Block 6: Healthy Habits Extended",
+      "block_id": "B6",
+      "title": "Production",
       "content": [
         {
-          "interaction_id": "A1_U18_B18_6_E1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál de estos alimentos es más [[healthy|saludable]]?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Broccoli|Brócoli]]"
-            },
-            {
-              "id": "o2",
-              "text": "Chips"
-            },
-            {
-              "id": "o3",
-              "text": "Cake"
-            },
-            {
-              "id": "o4",
-              "text": "Cola"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U18_B18_6_F1",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: [[Fruit|Fruta]] and ________ are good for your health. ([[vegetables|verduras]])",
-          "stimulus_en": "Fruit and ________ are good for your health.",
-          "correct_answer": "vegetables",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U18_B18_6_E2",
-          "type": "multiple_choice",
-          "prompt_es": "\"[[Protein|Proteína]]\" is found mainly in:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Sweets"
-            },
-            {
-              "id": "o2",
-              "text": "[[Meat, fish and eggs|Carne, pescado y huevos]]"
-            },
-            {
-              "id": "o3",
-              "text": "Bread and pasta"
-            },
-            {
-              "id": "o4",
-              "text": "Sugar and oil"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U18_B18_6_F2",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: I [[try|intentar]] to ________ five portions of fruit and vegetables a day. (eat)",
-          "stimulus_en": "I try to ________ five portions of fruit and vegetables a day.",
-          "correct_answer": "eat",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U18_B18_6_T1",
-          "type": "true_false",
-          "prompt_es": "\"[[Water|Agua]]\" is the healthiest drink. ¿Verdadero o falso?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[True|Verdadero]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[False|Falso]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U18_B18_6_E3",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál de estos alimentos tiene más [[sugar|azúcar]]?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[A fizzy drink|Una bebida con gas]]"
-            },
-            {
-              "id": "o2",
-              "text": "A glass of water"
-            },
-            {
-              "id": "o3",
-              "text": "A boiled egg"
-            },
-            {
-              "id": "o4",
-              "text": "A grilled chicken"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U18_B18_6_R1",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: \"Como verduras todos los días\" ([[city|ciudad]])",
+          "interaction_id": "A1_U18_I51",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
           "options": [
             {
               "id": "w1",
-              "text": "I"
+              "text": "[[Cooking|Cocinar]]"
             },
             {
               "id": "w2",
-              "text": "eat"
+              "text": "[[Drawing|Dibujar]]"
             },
             {
               "id": "w3",
-              "text": "vegetables"
+              "text": "[[Reading|Leer]]"
             },
             {
               "id": "w4",
-              "text": "every"
-            },
-            {
-              "id": "w5",
-              "text": "day"
+              "text": "[[Dancing|Bailar]]"
             }
           ],
           "correct_answer": [
-            "w1",
-            "w2",
             "w3",
+            "w1",
             "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U18_I52",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
           "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
-        },
-        {
-          "interaction_id": "A1_U18_B18_6_E4",
-          "type": "multiple_choice",
-          "prompt_es": "\"[[Organic food|Alimentos orgánicos]]\" means:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Very expensive food"
-            },
-            {
-              "id": "o2",
-              "text": "[[Grown without chemicals|Cultivado sin químicos]]"
-            },
-            {
-              "id": "o3",
-              "text": "Frozen food"
-            },
-            {
-              "id": "o4",
-              "text": "Fast food"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U18_B18_6_F3",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: She [[doesn't|no]] ________ junk food. (eat)",
-          "stimulus_en": "She ________ eat junk food.",
-          "correct_answer": "doesn't",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U18_B18_6_E5",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es un alimento rico en [[fibre|fibra]]?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Wholemeal bread|Pan integral]]"
-            },
-            {
-              "id": "o2",
-              "text": "White rice"
-            },
-            {
-              "id": "o3",
-              "text": "Butter"
-            },
-            {
-              "id": "o4",
-              "text": "Cheese"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U18_B18_6_T2",
-          "type": "true_false",
-          "prompt_es": "\"[[Junk food|Comida basura]]\" es saludable. ¿Verdadero o falso?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[True|Verdadero]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[False|Falso]]"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U18_B18_6_F4",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: He ________ [[eats|comer]] fast food because he wants to be healthy. (rarely)",
-          "stimulus_en": "He ________ eats fast food because he wants to be healthy.",
-          "correct_answer": "rarely",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U18_B18_6_E6",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué hace una persona que es \"[[vegan|vegano]]\"?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Eats only meat"
-            },
-            {
-              "id": "o2",
-              "text": "[[Doesn't eat any animal products|No come ningún producto animal]]"
-            },
-            {
-              "id": "o3",
-              "text": "Eats only fish"
-            },
-            {
-              "id": "o4",
-              "text": "Drinks only water"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U18_B18_6_R2",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: \"Es importante beber mucha agua\"",
           "options": [
             {
               "id": "w1",
-              "text": "It"
+              "text": "[[Drawing|Dibujar]]"
             },
             {
               "id": "w2",
-              "text": "is"
+              "text": "[[Shopping|Ir de compras]]"
             },
             {
               "id": "w3",
-              "text": "important"
+              "text": "[[Singing|Cantar]]"
             },
             {
               "id": "w4",
-              "text": "to"
-            },
-            {
-              "id": "w5",
-              "text": "drink"
-            },
-            {
-              "id": "w6",
-              "text": "lots"
-            },
-            {
-              "id": "w7",
-              "text": "of"
-            },
-            {
-              "id": "w8",
-              "text": "[[water|agua]]"
+              "text": "[[Swimming|Nadar]]"
             }
           ],
           "correct_answer": [
-            "w1",
-            "w2",
             "w3",
+            "w1",
             "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "syntax"
+            "w2"
           ]
         },
         {
-          "interaction_id": "A1_U18_B18_6_F5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: [[Vitamin|Vitamina]] C is found in ________ ([[oranges|naranjas]]).",
-          "stimulus_en": "Vitamin C is found in ________.",
-          "correct_answer": "oranges",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U18_B18_6_E7",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuántas porciones de fruta al día recomienda la OMS?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "One"
-            },
-            {
-              "id": "o2",
-              "text": "[[Five|Cinco]]"
-            },
-            {
-              "id": "o3",
-              "text": "Ten"
-            },
-            {
-              "id": "o4",
-              "text": "Two"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U18_B18_6_T3",
-          "type": "true_false",
-          "prompt_es": "\"[[Skipping meals|Saltarse comidas]]\" es una buena práctica de salud. ¿Verdadero o falso?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[False|Falso]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[True|Verdadero]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U18_B18_6_F6",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: ________ [[sugar|azúcar]] is bad for your teeth. (Too much)",
-          "stimulus_en": "________ sugar is bad for your teeth.",
-          "correct_answer": "Too much",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U18_B18_6_E8",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál de estos es un [[dairy|lácteo]] product?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Yoghurt|Yogur]]"
-            },
-            {
-              "id": "o2",
-              "text": "Spinach"
-            },
-            {
-              "id": "o3",
-              "text": "Olive oil"
-            },
-            {
-              "id": "o4",
-              "text": "Beans"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "B18_PROD",
-      "title": "Block 6: Production – There is / There are",
-      "content": [
-        {
-          "interaction_id": "A1_U18_B18_PROD_SW1",
-          "type": "short_writing",
-          "prompt_es": "Describe tu dormitorio usando [[There is|Hay (singular)]] y [[There are|Hay (plural)]]. Mínimo 4 oraciones.",
+          "interaction_id": "A1_U18_I53",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
           "mastery_tag": "production",
           "complexity": 3,
-          "concept_tags": [
-            "production",
-            "free_writing"
-          ],
-          "example_answer": "There is a bed and a desk in my room. There are two windows. There is a lamp on the desk. There are some books on the shelf."
-        },
-        {
-          "interaction_id": "A1_U18_B18_PROD_SW2",
-          "type": "short_writing",
-          "prompt_es": "Describe el [[neighbourhood|barrio]] donde vives. Usa [[There is a|Hay un/una]], [[There are some|Hay algunos/as]], [[There isn't|No hay]].",
-          "mastery_tag": "production",
-          "complexity": 3,
-          "concept_tags": [
-            "production",
-            "free_writing"
-          ],
-          "example_answer": "There is a supermarket near my house. There are some cafés in my street. There isn't a cinema but there is a theatre."
-        },
-        {
-          "interaction_id": "A1_U18_B18_PROD_MC3",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la forma negativa correcta de \"There is a chair\"?",
           "options": [
             {
-              "id": "o1",
-              "text": "[[There isn't a chair|No hay una silla]]"
+              "id": "w1",
+              "text": "[[Shopping|Ir de compras]]"
             },
             {
-              "id": "o2",
-              "text": "There aren't a chair"
+              "id": "w2",
+              "text": "[[Because|Porque]]"
             },
             {
-              "id": "o3",
-              "text": "There is not chairs"
+              "id": "w3",
+              "text": "[[Traveling|Viajar]]"
             },
             {
-              "id": "o4",
-              "text": "There no is a chair"
+              "id": "w4",
+              "text": "[[Painting|Pintar]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "there_is_there_are"
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "A1_U18_B18_PROD_FB4",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: \"___ [[a supermarket|un supermercado]] near my house but ___ [[any parks|ningún parque]].\"",
-          "stimulus_en": "___ a supermarket near my house but ___ any parks.",
-          "correct_answer": "There is / there aren't",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "there_is_there_are"
-          ]
-        },
-        {
-          "interaction_id": "A1_U18_B18_PROD_SW5",
-          "type": "short_writing",
-          "prompt_es": "Escribe 3 preguntas sobre una ciudad usando [[Is there...?|¿Hay...?]] y [[Are there...?|¿Hay...?]].",
+          "interaction_id": "A1_U18_I54",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
           "mastery_tag": "production",
           "complexity": 3,
-          "concept_tags": [
-            "production",
-            "free_writing"
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Because|Porque]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Enjoy|Disfrutar]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Gaming|Jugar a videojuegos]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Why|¿Por qué?]]"
+            }
           ],
-          "example_answer": "Is there a good restaurant near here? Are there any parks in the city centre? Is there a bus stop on this street?"
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U18_I55",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Do|Te gusta]] [[you|tú]] [[enjoy|disfrutas]] ______?",
+          "correct_answer": "reading"
+        },
+        {
+          "interaction_id": "A1_U18_I56",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[I|Yo]] [[love|me encanta]] ______ [[in|en]] [[the|la]] [[sea|mar]].",
+          "correct_answer": "swimming"
+        },
+        {
+          "interaction_id": "A1_U18_I57",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[She|Ella]] [[doesn't|no]] [[like|le gusta]] ______. [[It|Es]] [[is|es]] [[too|demasiado]] [[loud|ruidoso]].",
+          "correct_answer": "singing"
+        },
+        {
+          "interaction_id": "A1_U18_I58",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[What|Cuáles]] [[are|son]] [[your|tus]] [[hobbies|aficiones]]?",
+          "correct_answer": true
+        },
+        {
+          "interaction_id": "A1_U18_I59",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[I|Yo]] [[love|me encanta]] [[reading|leer]] [[and|y]] [[painting|pintar]]. [[I|Yo]] [[find|encuentro]] [[them|eso]] [[very|muy]] [[relaxing|relajante]].",
+          "correct_answer": false
+        },
+        {
+          "interaction_id": "A1_U18_I60",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[What|Qué]] [[about|hay de]] [[sports|deportes]]? [[Do|Te gusta]] [[you|tú]] [[like|te gusta]] [[swimming|nadar]]?",
+          "correct_answer": true
         }
       ]
     }

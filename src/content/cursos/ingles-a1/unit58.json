@@ -1,1956 +1,1232 @@
 {
   "course": {
     "unit_id": "unit58",
-    "unit_title": "My Daily Routine",
+    "unit_title": "Health & Illness",
     "level": "A1",
-    "total_duration_minutes": 25,
+    "total_duration_minutes": 60,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Identify common daily routine actions",
-    "Use Present Simple (I/You/We/They) for habits",
-    "Express time and frequency for daily activities"
+    "Describe health symptoms in English",
+    "Use 'should/shouldn't' for health advice",
+    "Navigate basic health-related conversations"
   ],
   "blocks": [
     {
-      "block_id": "b1",
-      "title": "Morning Routine",
+      "block_id": "B1",
+      "title": "Vocabulary Introduction",
       "content": [
         {
-          "interaction_id": "A1_U58_B1_I1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué haces primero al despertar? ([[wake up|despertarse]])",
+          "interaction_id": "A1_U58_I1",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Headache|Dolor de cabeza]]",
           "options": [
             {
               "id": "o1",
-              "text": "I wake up"
+              "text": "[[Dolor de cabeza|Headache]]"
             },
             {
               "id": "o2",
-              "text": "I go to work"
+              "text": "[[Fiebre|Fever]]"
             },
             {
               "id": "o3",
-              "text": "I have dinner"
+              "text": "[[Resfriado|Cold]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U58_I2",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
           "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U58_B1_I2",
-          "type": "matching",
-          "prompt_es": "Une las acciones de la mañana:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Get up|Levantarse]]",
-              "right": "Ducharse"
-            },
-            {
-              "id": "p2",
-              "left": "[[Brush teeth|Cepillarse los dientes]]",
-              "right": "Desayunar"
-            },
-            {
-              "id": "p3",
-              "left": "[[Have breakfast|Desayunar]]",
-              "right": "Cepillarse los dientes"
-            },
-            {
-              "id": "p4",
-              "left": "[[Take a shower|Ducharse]]",
-              "right": "Levantarse"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p4",
-            "p2": "p3",
-            "p3": "p2",
-            "p4": "p1"
-          },
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U58_B1_I3",
-          "type": "short_writing",
-          "prompt_es": "Escribe 'desayunar' en inglés: ([[wake up|despertarse]])",
-          "stimulus_es": "Desayunar",
-          "correct_answer": "Have breakfast",
-          "mastery_tag": "vocabulary",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U58_B1_I4",
-          "type": "multiple_choice",
-          "prompt_es": "¿A qué hora sueles desayunar? ([[wake up|despertarse]])",
+          "stimulus_en": "[[Fever|Fiebre]]",
           "options": [
             {
               "id": "o1",
-              "text": "In the evening"
+              "text": "[[Resfriado|Cold]]"
             },
             {
               "id": "o2",
-              "text": "At 8 am"
+              "text": "[[Fiebre|Fever]]"
             },
             {
               "id": "o3",
-              "text": "At midnight"
+              "text": "[[Tos|Cough]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U58_I3",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
           "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "stimulus_en": "[[Cold|Resfriado]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Tos|Cough]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Dolor de garganta|Sore throat]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Resfriado|Cold]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U58_I4",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Cough|Tos]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Tos|Cough]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Dolor de garganta|Sore throat]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Dolor de estómago|Stomachache]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U58_I5",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Sore throat|Dolor de garganta]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Dolor de estómago|Stomachache]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Dolor de garganta|Sore throat]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Medicamento|Medicine]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U58_I6",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Stomachache|Dolor de estómago]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Medicamento|Medicine]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Farmacia|Pharmacy]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Dolor de estómago|Stomachache]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U58_I7",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Medicamento]]",
+          "correct_answer": "Medicine"
+        },
+        {
+          "interaction_id": "A1_U58_I8",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Farmacia]]",
+          "correct_answer": "Pharmacy"
+        },
+        {
+          "interaction_id": "A1_U58_I9",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Médico]]",
+          "correct_answer": "Doctor"
+        },
+        {
+          "interaction_id": "A1_U58_I10",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Cita]]",
+          "correct_answer": "Appointment"
         }
       ]
     },
     {
-      "block_id": "b2",
-      "title": "Present Simple Habits",
+      "block_id": "B2",
+      "title": "Vocabulary in Context",
       "content": [
         {
-          "interaction_id": "A1_U58_B2_I1",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'Yo VOY al trabajo a las 9 am' ([[wake up|despertarse]])",
-          "stimulus_en": "I ________ to work at 9 am.",
-          "correct_answer": "go",
-          "mastery_tag": "grammar",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
+          "interaction_id": "A1_U58_I11",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Cough|Tos]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Cough|Tos]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Medicine|Medicamento]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Appointment|Cita]]"
+            }
+          ],
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "A1_U58_B2_I2",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'Nosotros almorzamos a las 1 pm' ([[wake up|despertarse]])",
+          "interaction_id": "A1_U58_I12",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Sore throat|Dolor de garganta]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Pharmacy|Farmacia]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Sore throat|Dolor de garganta]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Prescription|Receta médica]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U58_I13",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Stomachache|Dolor de estómago]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Doctor|Médico]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Rest|Descanso]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Stomachache|Dolor de estómago]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U58_I14",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Medicine|Medicamento]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Medicine|Medicamento]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Appointment|Cita]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Ill|Enfermo]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U58_I15",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[You|Deberías]] ______ [[see|ver]] [[a|un]] [[doctor|médico]] [[if|si]] [[you|tienes]] [[have|tienes]] [[a|una]] [[fever|fiebre]] [[of|de]] [[over|más de]] [[38|38]] [[degrees|grados]].",
+          "correct_answer": "should"
+        },
+        {
+          "interaction_id": "A1_U58_I16",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[You|Deberías]] ______ [[drink|beber]] [[lots|mucha]] [[of|de]] [[water|agua]] [[and|y]] [[rest|descansar]].",
+          "correct_answer": "should"
+        },
+        {
+          "interaction_id": "A1_U58_I17",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[don't|no]] [[feel|me siento]] [[well|bien]] — [[I|creo que]] [[think|creo que]] [[I|me he]] ______ [[a|resfriado]] [[cold|resfriado]].",
+          "correct_answer": "have"
+        },
+        {
+          "interaction_id": "A1_U58_I18",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
           "options": [
             {
               "id": "w1",
-              "text": "We"
+              "text": "[[Headache|Dolor de cabeza]]"
             },
             {
               "id": "w2",
-              "text": "have"
+              "text": "[[Cold|Resfriado]]"
             },
             {
               "id": "w3",
-              "text": "lunch"
-            },
-            {
-              "id": "w4",
-              "text": "at"
-            },
-            {
-              "id": "w5",
-              "text": "1"
-            },
-            {
-              "id": "w6",
-              "text": "pm"
+              "text": "[[Fever|Fiebre]]"
             }
           ],
           "correct_answer": [
             "w1",
-            "w2",
             "w3",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U58_I19",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Sore throat|Dolor de garganta]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Medicine|Medicamento]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Stomachache|Dolor de estómago]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U58_I20",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Doctor|Médico]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Prescription|Receta médica]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Appointment|Cita]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Grammar — Affirmative",
+      "content": [
+        {
+          "interaction_id": "A1_U58_I21",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[You|Deberías]] ______ [[see|ver]] [[a|un]] [[doctor|médico]] [[if|si]] [[you|tienes]] [[have|tienes]] [[a|una]] [[fever|fiebre]] [[of|de]] [[over|más de]] [[38|38]] [[degrees|grados]].",
+          "correct_answer": "should"
+        },
+        {
+          "interaction_id": "A1_U58_I22",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[You|Deberías]] ______ [[drink|beber]] [[lots|mucha]] [[of|de]] [[water|agua]] [[and|y]] [[rest|descansar]].",
+          "correct_answer": "should"
+        },
+        {
+          "interaction_id": "A1_U58_I23",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[don't|no]] [[feel|me siento]] [[well|bien]] — [[I|creo que]] [[think|creo que]] [[I|me he]] ______ [[a|resfriado]] [[cold|resfriado]].",
+          "correct_answer": "have"
+        },
+        {
+          "interaction_id": "A1_U58_I24",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[You|No deberías]] ______ [[go|ir]] [[to|al]] [[work|trabajo]] [[when|cuando]] [[you're|estás]] [[ill|enfermo/a]].",
+          "correct_answer": "shouldn't"
+        },
+        {
+          "interaction_id": "A1_U58_I25",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[What|Cuáles]] [[are|son]] [[your|tus]] ______?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[symptoms|symptoms]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[should|should]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[have|have]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U58_I26",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[The|El]] [[pharmacist|farmacéutico]] ______ [[some|unos]] [[medicine|medicamentos]] [[for|para]] [[your|tu]] [[cough|tos]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[have|have]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[recommended|recommended]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[shouldn't|shouldn't]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U58_I27",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[You|Deberías]] ______ [[see|ver]] [[a|un]] [[doctor|médico]] [[if|si]] [[you|tienes]] [[have|tienes]] [[a|una]] [[fever|fiebre]] [[of|de]] [[over|más de]] [[38|38]] [[degrees|grados]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[shouldn't|shouldn't]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[symptoms|symptoms]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[should|should]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U58_I28",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[You|Deberías]] ______ [[drink|beber]] [[lots|mucha]] [[of|de]] [[water|agua]] [[and|y]] [[rest|descansar]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[should|should]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[symptoms|symptoms]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[recommended|recommended]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U58_I29",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Cold|Resfriado]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Headache|Dolor de cabeza]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Sore throat|Dolor de garganta]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
+          ]
+        },
+        {
+          "interaction_id": "A1_U58_I30",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Pharmacy|Farmacia]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Stomachache|Dolor de estómago]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Appointment|Cita]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Grammar — Negative & Questions",
+      "content": [
+        {
+          "interaction_id": "A1_U58_I31",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[don't|no]] [[feel|me siento]] [[well|bien]] — [[I|creo que]] [[think|creo que]] [[I|me he]] ______ [[a|resfriado]] [[cold|resfriado]].",
+          "correct_answer": "have"
+        },
+        {
+          "interaction_id": "A1_U58_I32",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[You|No deberías]] ______ [[go|ir]] [[to|al]] [[work|trabajo]] [[when|cuando]] [[you're|estás]] [[ill|enfermo/a]].",
+          "correct_answer": "shouldn't"
+        },
+        {
+          "interaction_id": "A1_U58_I33",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[What|Cuáles]] [[are|son]] [[your|tus]] ______?",
+          "correct_answer": "symptoms"
+        },
+        {
+          "interaction_id": "A1_U58_I34",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[You|No deberías]] ______ [[go|ir]] [[to|al]] [[work|trabajo]] [[when|cuando]] [[you're|estás]] [[ill|enfermo/a]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[shouldn't|shouldn't]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[recommended|recommended]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[should|should]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U58_I35",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[What|Cuáles]] [[are|son]] [[your|tus]] ______?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[should|should]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[symptoms|symptoms]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[should|should]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U58_I36",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[The|El]] [[pharmacist|farmacéutico]] ______ [[some|unos]] [[medicine|medicamentos]] [[for|para]] [[your|tu]] [[cough|tos]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[should|should]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[have|have]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[recommended|recommended]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U58_I37",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[You|Deberías]] ______ [[see|ver]] [[a|un]] [[doctor|médico]] [[if|si]] [[you|tienes]] [[have|tienes]] [[a|una]] [[fever|fiebre]] [[of|de]] [[over|más de]] [[38|38]] [[degrees|grados]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[should|should]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[have|have]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[shouldn't|shouldn't]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U58_I38",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Sore throat|Dolor de garganta]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Fever|Fiebre]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Medicine|Medicamento]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Cold|Resfriado]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
             "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "syntax"
+            "w3"
           ]
         },
         {
-          "interaction_id": "A1_U58_B2_I4",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'Ellos LLEGAN a casa tarde' ([[wake up|despertarse]])",
-          "stimulus_en": "They ________ home late.",
-          "correct_answer": "get",
+          "interaction_id": "A1_U58_I39",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
           "mastery_tag": "grammar",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U58_B2_I5",
-          "type": "audio_player",
-          "prompt_es": "Escucha la rutina: ([[wake up|despertarse]])",
-          "audioUrl": "/audio/courses/ingles-a1/shared/routine_habits.mp3",
-          "text": "We start work at eight and finish at five.",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "b3",
-      "title": "Evening Routine",
-      "content": [
-        {
-          "interaction_id": "A1_U58_B3_I1",
-          "type": "matching",
-          "prompt_es": "Une las acciones de la tarde/noche:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Get home|Llegar a casa]]",
-              "right": "Llegar a casa"
-            },
-            {
-              "id": "p2",
-              "left": "[[Have dinner|Cenar]]",
-              "right": "Ver la tele"
-            },
-            {
-              "id": "p3",
-              "left": "[[Watch TV|Ver la tele]]",
-              "right": "Irse a la cama"
-            },
-            {
-              "id": "p4",
-              "left": "[[Go to bed|Irse a la cama]]",
-              "right": "Cenar"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p4",
-            "p3": "p2",
-            "p4": "p3"
-          },
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U58_B3_I2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué haces antes de dormir? ([[go to bed|ir a dormir]])",
+          "complexity": 2,
           "options": [
             {
-              "id": "o1",
-              "text": "I go to work"
+              "id": "w1",
+              "text": "[[Pharmacy|Farmacia]]"
             },
             {
-              "id": "o2",
-              "text": "I wake up"
+              "id": "w2",
+              "text": "[[Sore throat|Dolor de garganta]]"
             },
             {
-              "id": "o3",
-              "text": "I go to bed"
+              "id": "w3",
+              "text": "[[Appointment|Cita]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Stomachache|Dolor de estómago]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
           ]
         },
         {
-          "interaction_id": "A1_U58_B3_I3",
-          "type": "short_writing",
-          "prompt_es": "Escribe 'cenar' en inglés: ([[wake up|despertarse]])",
-          "stimulus_es": "Cenar",
-          "correct_answer": "Have dinner",
-          "mastery_tag": "vocabulary",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U58_B3_I4",
-          "type": "true_false",
-          "prompt_es": "'Get home' significa salir de casa. ([[wake up|despertarse]])",
-          "correct_answer": false,
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "b4",
-      "title": "Mastery Section",
-      "content": [
-        {
-          "interaction_id": "A1_U58_B4_I2",
-          "type": "fill_blanks",
-          "prompt_es": "Completa tu rutina: ([[breakfast|desayuno]])",
-          "stimulus_en": "I ________ up at 7, I ________ breakfast and then I ________ to school.",
-          "correct_answer": "wake, have, go",
+          "interaction_id": "A1_U58_I40",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
           "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Prescription|Receta médica]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Pharmacy|Farmacia]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Ill|Enfermo]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Doctor|Médico]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B5",
+      "title": "Reading Comprehension",
+      "content": [
+        {
+          "interaction_id": "A1_U58_I41",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I|Yo]] [[don't|no]] [[feel|me siento]] [[very|muy]] [[well|bien]] [[today|hoy]]. [[I|Yo]] [[have|tengo]] [[a|un]] [[terrible|terrible]] [[headache|dolor de cabeza]] [[and|y]] [[a|dolor de]] [[sore|garganta]] [[throat|garganta]]. [[Oh|Oh]] [[no|no]]! [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[a|fiebre]] [[fever|fiebre]] [[as|también]] [[well|también]]? [[Yes|Sí]], [[a|un]] [[small|poco]] [[one|sí]]. [[I|Yo]] [[think|creo que]] [[I'm|me estoy]] [[getting|poniendo]] [[a|un]] [[cold|resfriado]]. [[You|Deberías]] [[should|deberías]] [[make|pedir]] [[an|una]] [[appointment|cita]] [[with|con]] [[your|tu]] [[doctor|médico]] [[today|hoy]] [[if|si]] [[possible|es posible]]. [[You're|Tienes]] [[right|razón]]. [[I'll|Iré]] [[also|también]] [[stop|pasaré]] [[by|por]] [[the|la]] [[pharmacy|farmacia]] [[and|y]] [[get|compraré]] [[some|algo de]] [[medicine|medicamento]] [[for|para]] [[the|el]] [[headache|dolor de cabeza]].",
+          "question_en": "[[What|Qué]] [[symptoms|síntomas]] [[does|tiene]] [[the|el]] [[speaker|hablante]] [[have|tiene]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Stomachache and cough|Dolor de estómago y tos]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Headache and sore throat|Dolor de cabeza y dolor de garganta]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Fever only|Solo fiebre]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U58_I42",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I|Yo]] [[don't|no]] [[feel|me siento]] [[very|muy]] [[well|bien]] [[today|hoy]]. [[I|Yo]] [[have|tengo]] [[a|un]] [[terrible|terrible]] [[headache|dolor de cabeza]] [[and|y]] [[a|dolor de]] [[sore|garganta]] [[throat|garganta]]. [[Oh|Oh]] [[no|no]]! [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[a|fiebre]] [[fever|fiebre]] [[as|también]] [[well|también]]? [[Yes|Sí]], [[a|un]] [[small|poco]] [[one|sí]]. [[I|Yo]] [[think|creo que]] [[I'm|me estoy]] [[getting|poniendo]] [[a|un]] [[cold|resfriado]]. [[You|Deberías]] [[should|deberías]] [[make|pedir]] [[an|una]] [[appointment|cita]] [[with|con]] [[your|tu]] [[doctor|médico]] [[today|hoy]] [[if|si]] [[possible|es posible]]. [[You're|Tienes]] [[right|razón]]. [[I'll|Iré]] [[also|también]] [[stop|pasaré]] [[by|por]] [[the|la]] [[pharmacy|farmacia]] [[and|y]] [[get|compraré]] [[some|algo de]] [[medicine|medicamento]] [[for|para]] [[the|el]] [[headache|dolor de cabeza]].",
+          "question_en": "[[Does|Tiene]] [[the|el]] [[speaker|hablante]] [[have|tiene]] [[a|fiebre]] [[fever|fiebre]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[No|No]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Yes, a small one|Sí, un poco]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Yes, a high fever|Sí, fiebre alta]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U58_I43",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I|Yo]] [[don't|no]] [[feel|me siento]] [[very|muy]] [[well|bien]] [[today|hoy]]. [[I|Yo]] [[have|tengo]] [[a|un]] [[terrible|terrible]] [[headache|dolor de cabeza]] [[and|y]] [[a|dolor de]] [[sore|garganta]] [[throat|garganta]]. [[Oh|Oh]] [[no|no]]! [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[a|fiebre]] [[fever|fiebre]] [[as|también]] [[well|también]]? [[Yes|Sí]], [[a|un]] [[small|poco]] [[one|sí]]. [[I|Yo]] [[think|creo que]] [[I'm|me estoy]] [[getting|poniendo]] [[a|un]] [[cold|resfriado]]. [[You|Deberías]] [[should|deberías]] [[make|pedir]] [[an|una]] [[appointment|cita]] [[with|con]] [[your|tu]] [[doctor|médico]] [[today|hoy]] [[if|si]] [[possible|es posible]]. [[You're|Tienes]] [[right|razón]]. [[I'll|Iré]] [[also|también]] [[stop|pasaré]] [[by|por]] [[the|la]] [[pharmacy|farmacia]] [[and|y]] [[get|compraré]] [[some|algo de]] [[medicine|medicamento]] [[for|para]] [[the|el]] [[headache|dolor de cabeza]].",
+          "question_en": "[[What|Qué]] [[does|cree]] [[the|el]] [[speaker|hablante]] [[think|cree]] [[they're|que]] [[getting|le está dando]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[The flu|La gripe]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[A cold|Un resfriado]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Stomachache|Dolor de estómago]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U58_I44",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I|Yo]] [[don't|no]] [[feel|me siento]] [[very|muy]] [[well|bien]] [[today|hoy]]. [[I|Yo]] [[have|tengo]] [[a|un]] [[terrible|terrible]] [[headache|dolor de cabeza]] [[and|y]] [[a|dolor de]] [[sore|garganta]] [[throat|garganta]]. [[Oh|Oh]] [[no|no]]! [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[a|fiebre]] [[fever|fiebre]] [[as|también]] [[well|también]]? [[Yes|Sí]], [[a|un]] [[small|poco]] [[one|sí]]. [[I|Yo]] [[think|creo que]] [[I'm|me estoy]] [[getting|poniendo]] [[a|un]] [[cold|resfriado]]. [[You|Deberías]] [[should|deberías]] [[make|pedir]] [[an|una]] [[appointment|cita]] [[with|con]] [[your|tu]] [[doctor|médico]] [[today|hoy]] [[if|si]] [[possible|es posible]]. [[You're|Tienes]] [[right|razón]]. [[I'll|Iré]] [[also|también]] [[stop|pasaré]] [[by|por]] [[the|la]] [[pharmacy|farmacia]] [[and|y]] [[get|compraré]] [[some|algo de]] [[medicine|medicamento]] [[for|para]] [[the|el]] [[headache|dolor de cabeza]].",
+          "question_en": "[[What|Qué]] [[does|aconseja]] [[the|el]] [[friend|amigo]] [[suggest|aconseja]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Take medicine immediately|Tomar medicamento inmediatamente]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Make a doctor's appointment|Pedir cita con el médico]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Rest at home|Descansar en casa]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U58_I45",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I|Yo]] [[don't|no]] [[feel|me siento]] [[very|muy]] [[well|bien]] [[today|hoy]]. [[I|Yo]] [[have|tengo]] [[a|un]] [[terrible|terrible]] [[headache|dolor de cabeza]] [[and|y]] [[a|dolor de]] [[sore|garganta]] [[throat|garganta]]. [[Oh|Oh]] [[no|no]]! [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[a|fiebre]] [[fever|fiebre]] [[as|también]] [[well|también]]? [[Yes|Sí]], [[a|un]] [[small|poco]] [[one|sí]]. [[I|Yo]] [[think|creo que]] [[I'm|me estoy]] [[getting|poniendo]] [[a|un]] [[cold|resfriado]]. [[You|Deberías]] [[should|deberías]] [[make|pedir]] [[an|una]] [[appointment|cita]] [[with|con]] [[your|tu]] [[doctor|médico]] [[today|hoy]] [[if|si]] [[possible|es posible]]. [[You're|Tienes]] [[right|razón]]. [[I'll|Iré]] [[also|también]] [[stop|pasaré]] [[by|por]] [[the|la]] [[pharmacy|farmacia]] [[and|y]] [[get|compraré]] [[some|algo de]] [[medicine|medicamento]] [[for|para]] [[the|el]] [[headache|dolor de cabeza]].",
+          "question_en": "[[What|Qué]] [[will|va a hacer]] [[the|el]] [[speaker|hablante]] [[also|también]] [[do|hacer]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Call the doctor|Llamar al médico]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Stay in bed all day|Quedarse en cama todo el día]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Stop at the pharmacy for medicine|Pasar por la farmacia a comprar medicamento]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U58_I46",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I|Yo]] [[don't|no]] [[feel|me siento]] [[very|muy]] [[well|bien]] [[today|hoy]]. [[I|Yo]] [[have|tengo]] [[a|un]] [[terrible|terrible]] [[headache|dolor de cabeza]] [[and|y]] [[a|dolor de]] [[sore|garganta]] [[throat|garganta]]. [[Oh|Oh]] [[no|no]]! [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[a|fiebre]] [[fever|fiebre]] [[as|también]] [[well|también]]? [[Yes|Sí]], [[a|un]] [[small|poco]] [[one|sí]]. [[I|Yo]] [[think|creo que]] [[I'm|me estoy]] [[getting|poniendo]] [[a|un]] [[cold|resfriado]]. [[You|Deberías]] [[should|deberías]] [[make|pedir]] [[an|una]] [[appointment|cita]] [[with|con]] [[your|tu]] [[doctor|médico]] [[today|hoy]] [[if|si]] [[possible|es posible]]. [[You're|Tienes]] [[right|razón]]. [[I'll|Iré]] [[also|también]] [[stop|pasaré]] [[by|por]] [[the|la]] [[pharmacy|farmacia]] [[and|y]] [[get|compraré]] [[some|algo de]] [[medicine|medicamento]] [[for|para]] [[the|el]] [[headache|dolor de cabeza]].",
+          "question_en": "[[What|Qué]] [[modal|modal]] [[verb|verbo]] [[is|se usa]] [[used|usa]] [[for|para]] [[advice|consejos]] [[in|en]] [[this|esta]] [[unit|unidad]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Must|Debe]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Can|Puede]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Should|Debería]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U58_I47",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I|Yo]] [[don't|no]] [[feel|me siento]] [[very|muy]] [[well|bien]] [[today|hoy]]. [[I|Yo]] [[have|tengo]] [[a|un]] [[terrible|terrible]] [[headache|dolor de cabeza]] [[and|y]] [[a|dolor de]] [[sore|garganta]] [[throat|garganta]]. [[Oh|Oh]] [[no|no]]! [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[a|fiebre]] [[fever|fiebre]] [[as|también]] [[well|también]]? [[Yes|Sí]], [[a|un]] [[small|poco]] [[one|sí]]. [[I|Yo]] [[think|creo que]] [[I'm|me estoy]] [[getting|poniendo]] [[a|un]] [[cold|resfriado]]. [[You|Deberías]] [[should|deberías]] [[make|pedir]] [[an|una]] [[appointment|cita]] [[with|con]] [[your|tu]] [[doctor|médico]] [[today|hoy]] [[if|si]] [[possible|es posible]]. [[You're|Tienes]] [[right|razón]]. [[I'll|Iré]] [[also|también]] [[stop|pasaré]] [[by|por]] [[the|la]] [[pharmacy|farmacia]] [[and|y]] [[get|compraré]] [[some|algo de]] [[medicine|medicamento]] [[for|para]] [[the|el]] [[headache|dolor de cabeza]].",
+          "question_en": "[[Complete|Completa]]: '[[You|Deberías]] ______ [[drink|beber]] [[lots|mucha]] [[of|de]] [[water|agua]].'",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[must|debes (obligación)]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[should|deberías (consejo)]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[can|puedes (posibilidad)]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U58_I48",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I|Yo]] [[don't|no]] [[feel|me siento]] [[very|muy]] [[well|bien]] [[today|hoy]]. [[I|Yo]] [[have|tengo]] [[a|un]] [[terrible|terrible]] [[headache|dolor de cabeza]] [[and|y]] [[a|dolor de]] [[sore|garganta]] [[throat|garganta]]. [[Oh|Oh]] [[no|no]]! [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[a|fiebre]] [[fever|fiebre]] [[as|también]] [[well|también]]? [[Yes|Sí]], [[a|un]] [[small|poco]] [[one|sí]]. [[I|Yo]] [[think|creo que]] [[I'm|me estoy]] [[getting|poniendo]] [[a|un]] [[cold|resfriado]]. [[You|Deberías]] [[should|deberías]] [[make|pedir]] [[an|una]] [[appointment|cita]] [[with|con]] [[your|tu]] [[doctor|médico]] [[today|hoy]] [[if|si]] [[possible|es posible]]. [[You're|Tienes]] [[right|razón]]. [[I'll|Iré]] [[also|también]] [[stop|pasaré]] [[by|por]] [[the|la]] [[pharmacy|farmacia]] [[and|y]] [[get|compraré]] [[some|algo de]] [[medicine|medicamento]] [[for|para]] [[the|el]] [[headache|dolor de cabeza]].",
+          "question_en": "[[What|Qué]] [[does|significa]] 'Prescription' [[mean|significa]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[A type of medicine|Un tipo de medicamento]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[A doctor's written instructions for medicine|Las instrucciones escritas del médico para medicamento]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[A pharmacy location|Una ubicación de farmacia]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U58_I49",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I|Yo]] [[don't|no]] [[feel|me siento]] [[very|muy]] [[well|bien]] [[today|hoy]]. [[I|Yo]] [[have|tengo]] [[a|un]] [[terrible|terrible]] [[headache|dolor de cabeza]] [[and|y]] [[a|dolor de]] [[sore|garganta]] [[throat|garganta]]. [[Oh|Oh]] [[no|no]]! [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[a|fiebre]] [[fever|fiebre]] [[as|también]] [[well|también]]? [[Yes|Sí]], [[a|un]] [[small|poco]] [[one|sí]]. [[I|Yo]] [[think|creo que]] [[I'm|me estoy]] [[getting|poniendo]] [[a|un]] [[cold|resfriado]]. [[You|Deberías]] [[should|deberías]] [[make|pedir]] [[an|una]] [[appointment|cita]] [[with|con]] [[your|tu]] [[doctor|médico]] [[today|hoy]] [[if|si]] [[possible|es posible]]. [[You're|Tienes]] [[right|razón]]. [[I'll|Iré]] [[also|también]] [[stop|pasaré]] [[by|por]] [[the|la]] [[pharmacy|farmacia]] [[and|y]] [[get|compraré]] [[some|algo de]] [[medicine|medicamento]] [[for|para]] [[the|el]] [[headache|dolor de cabeza]].",
+          "question_en": "[[What|Qué]] [[does|significa]] 'Symptom' [[mean|significa]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[A cure for illness|Una cura para la enfermedad]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[A sign or indicator of illness|Un signo o indicador de enfermedad]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[A type of medicine|Un tipo de medicamento]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U58_I50",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I|Yo]] [[don't|no]] [[feel|me siento]] [[very|muy]] [[well|bien]] [[today|hoy]]. [[I|Yo]] [[have|tengo]] [[a|un]] [[terrible|terrible]] [[headache|dolor de cabeza]] [[and|y]] [[a|dolor de]] [[sore|garganta]] [[throat|garganta]]. [[Oh|Oh]] [[no|no]]! [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[a|fiebre]] [[fever|fiebre]] [[as|también]] [[well|también]]? [[Yes|Sí]], [[a|un]] [[small|poco]] [[one|sí]]. [[I|Yo]] [[think|creo que]] [[I'm|me estoy]] [[getting|poniendo]] [[a|un]] [[cold|resfriado]]. [[You|Deberías]] [[should|deberías]] [[make|pedir]] [[an|una]] [[appointment|cita]] [[with|con]] [[your|tu]] [[doctor|médico]] [[today|hoy]] [[if|si]] [[possible|es posible]]. [[You're|Tienes]] [[right|razón]]. [[I'll|Iré]] [[also|también]] [[stop|pasaré]] [[by|por]] [[the|la]] [[pharmacy|farmacia]] [[and|y]] [[get|compraré]] [[some|algo de]] [[medicine|medicamento]] [[for|para]] [[the|el]] [[headache|dolor de cabeza]].",
+          "question_en": "[[What|Qué]] [[word|palabra]] [[means|significa]] 'Fiebre' [[in|en]] [[English|inglés]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Cold|Resfriado]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Cough|Tos]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Fever|Fiebre]]"
+            }
+          ],
+          "correct_answer": "o3"
+        }
+      ]
+    },
+    {
+      "block_id": "B6",
+      "title": "Production",
+      "content": [
+        {
+          "interaction_id": "A1_U58_I51",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
           "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U58_B4_I3",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Nosotros cenamos a las 8 pm' ([[wake up|despertarse]])",
-          "stimulus_es": "We have dinner at 8 pm.",
-          "correct_answer": "We have dinner at 8 pm",
-          "mastery_tag": "grammar",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U58_B4_I4",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es una actividad de la noche?",
           "options": [
             {
-              "id": "o1",
-              "text": "[[Go to bed|ir a dormir]]"
+              "id": "w1",
+              "text": "[[Fever|Fiebre]]"
             },
             {
-              "id": "o2",
-              "text": "Wake up"
+              "id": "w2",
+              "text": "[[Sore throat|Dolor de garganta]]"
             },
             {
-              "id": "o3",
-              "text": "Start work"
+              "id": "w3",
+              "text": "[[Headache|Dolor de cabeza]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Cold|Resfriado]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "B58_5",
-      "title": "Block 5: Listening & Pronunciation",
-      "content": [
-        {
-          "interaction_id": "U58_I101",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[wake up|despertarse]])",
-          "stimulus_en": "I wake up at seven.",
-          "correct_answer": "I wake up at seven.",
-          "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-1.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U58_I102",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[have breakfast|desayunar]])",
-          "stimulus_en": "I have breakfast in the kitchen.",
-          "correct_answer": "I have breakfast in the kitchen.",
-          "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-2.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U58_I103",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[go to work|ir al trabajo]])",
-          "stimulus_en": "We go to work by bus.",
-          "correct_answer": "We go to work by bus.",
-          "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-3.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U58_I104",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[wake up|despertarse]])",
-          "stimulus_en": "I finish work at five.",
-          "correct_answer": "I finish work at five.",
-          "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-4.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U58_I105",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[have dinner|cenar]])",
-          "stimulus_en": "They have dinner at eight.",
-          "correct_answer": "They have dinner at eight.",
-          "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-5.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U58_I106",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[watch tv|ver la televisión]])",
-          "stimulus_en": "I watch TV in the evening.",
-          "correct_answer": "I watch TV in the evening.",
-          "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-6.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U58_I107",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[go to bed|ir a dormir]])",
-          "stimulus_en": "I go to bed at ten.",
-          "correct_answer": "I go to bed at ten.",
-          "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-7.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U58_I108",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[wake up|despertarse]])",
-          "title": "Pronunciación: Breakfast",
-          "instructions": "La 'ea' suena como /ɛ/.",
-          "targetSentences": [
-            {
-              "text": "Eat [[breakfast|desayuno]].",
-              "phonetic": "/ˈbrɛkfəst/",
-              "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-8.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U58_I108_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'ea' en 'breakfast'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Como una 'e' corta (/ɛ/)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como una 'i' larga"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U58_I109",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[wake up|despertarse]])",
-          "title": "Pronunciación: Routine",
-          "instructions": "La 'ou' suena como /uː/ y el acento está al final.",
-          "targetSentences": [
-            {
-              "text": "My daily [[routine|rutina]].",
-              "phonetic": "/ruːˈtiːn/",
-              "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-9.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U58_I109_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Dónde recae el acento en 'routine'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "En la segunda sílaba (rou-TINE)"
-                },
-                {
-                  "id": "o2",
-                  "text": "En la primera sílaba"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U58_I110",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[wake up|despertarse]])",
-          "title": "Pronunciación: Shower",
-          "instructions": "La 'sh' es sorda y la 'ow' suena como /aʊ/.",
-          "targetSentences": [
-            {
-              "text": "Take a [[shower|ducha]].",
-              "phonetic": "/ˈʃaʊə/",
-              "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-10.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U58_I110_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'sh' inicial?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Como pidiendo silencio (shhh)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como la 'ch' española"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U58_I111",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[wake up|despertarse]])",
-          "title": "Pronunciación: Dinner",
-          "instructions": "Escucha y repite la 'i' corta.",
-          "targetSentences": [
-            {
-              "text": "Have [[dinner|cena]].",
-              "phonetic": "/ˈdɪnə/",
-              "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-11.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U58_I111_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'i' en 'dinner'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Corta (/ɪ/)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como 'ai' (/aɪ/)"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U58_I112",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[wake up|despertarse]])",
-          "title": "Pronunciación: O'clock",
-          "instructions": "Escucha y repite enfocándote en la 'o'.",
-          "targetSentences": [
-            {
-              "text": "At seven [[o'clock|en punto]].",
-              "phonetic": "/əˈklɒk/",
-              "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-12.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U58_I112_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'o' inicial en 'o'clock'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Débil (schwa /ə/)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Fuerte como una 'o' española"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U58_I113",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[wake up|despertarse]])",
-          "title": "Pronunciación: Finish",
-          "instructions": "Dos 'i' cortas.",
-          "targetSentences": [
-            {
-              "text": "I [[finish|termino]] work.",
-              "phonetic": "/ˈfɪnɪʃ/",
-              "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-13.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U58_I113_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'sh' final?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Como /ʃ/ (shhh)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como /tʃ/ (ch)"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U58_I114",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[wake up|despertarse]])",
-          "title": "Pronunciación: Evening",
-          "instructions": "La primera 'e' es larga y la segunda es silenciosa.",
-          "targetSentences": [
-            {
-              "text": "In the [[evening|tarde]].",
-              "phonetic": "/ˈiːvnɪŋ/",
-              "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-14.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U58_I114_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cuántas sílabas se suelen pronunciar en 'evening'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Dos (ev-ning)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Tres (e-ve-ning)"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U58_I115",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[wake up|despertarse]])",
-          "title": "Pronunciación: Habit",
-          "instructions": "La 'a' es abierta (/æ/).",
-          "targetSentences": [
-            {
-              "text": "A good [[habit|hábito]].",
-              "phonetic": "/ˈhæbɪt/",
-              "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-15.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U58_I115_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'h' inicial?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Aspirada"
-                },
-                {
-                  "id": "o2",
-                  "text": "Muda"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Practice Sessions",
-      "content": [
-        {
-          "interaction_id": "U58_FILLER_0",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'headache' en inglés?",
+          "interaction_id": "A1_U58_I52",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
           "options": [
             {
-              "id": "o1",
-              "text": "Brush teeth"
+              "id": "w1",
+              "text": "[[Sore throat|Dolor de garganta]]"
             },
             {
-              "id": "o2",
-              "text": "Go to bed"
+              "id": "w2",
+              "text": "[[Pharmacy|Farmacia]]"
             },
             {
-              "id": "o3",
-              "text": "Have lunch"
+              "id": "w3",
+              "text": "[[Cough|Tos]]"
             },
             {
-              "id": "o4",
-              "text": "[[Headache|headache]]"
+              "id": "w4",
+              "text": "[[Stomachache|Dolor de estómago]]"
             }
           ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U58_FILLER_1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cold' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Cold|frío]]"
-            },
-            {
-              "id": "o2",
-              "text": "Shower"
-            },
-            {
-              "id": "o3",
-              "text": "Get dressed"
-            },
-            {
-              "id": "o4",
-              "text": "Have breakfast"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U58_FILLER_2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'doctor' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Have dinner"
-            },
-            {
-              "id": "o2",
-              "text": "Brush teeth"
-            },
-            {
-              "id": "o3",
-              "text": "[[Doctor|doctor]]"
-            },
-            {
-              "id": "o4",
-              "text": "Get dressed"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U58_FILLER_3",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'medicine' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Shower"
-            },
-            {
-              "id": "o2",
-              "text": "Get dressed"
-            },
-            {
-              "id": "o3",
-              "text": "[[Medicine|medicine]]"
-            },
-            {
-              "id": "o4",
-              "text": "Wake up"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U58_FILLER_4",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'sore throat' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Go to work"
-            },
-            {
-              "id": "o2",
-              "text": "Have dinner"
-            },
-            {
-              "id": "o3",
-              "text": "Shower"
-            },
-            {
-              "id": "o4",
-              "text": "[[Sore throat|sore throat]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U58_FILLER_5",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'fever' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Fever|fever]]"
-            },
-            {
-              "id": "o2",
-              "text": "Get dressed"
-            },
-            {
-              "id": "o3",
-              "text": "Brush teeth"
-            },
-            {
-              "id": "o4",
-              "text": "Shower"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U58_FILLER_6",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'better' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Wake up"
-            },
-            {
-              "id": "o2",
-              "text": "Shower"
-            },
-            {
-              "id": "o3",
-              "text": "Go to work"
-            },
-            {
-              "id": "o4",
-              "text": "[[Better|better]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U58_FILLER_7",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'headache' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Headache|headache]]"
-            },
-            {
-              "id": "o2",
-              "text": "Have dinner"
-            },
-            {
-              "id": "o3",
-              "text": "Have lunch"
-            },
-            {
-              "id": "o4",
-              "text": "Wake up"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U58_FILLER_8",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cold' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Cold|frío]]"
-            },
-            {
-              "id": "o2",
-              "text": "Get dressed"
-            },
-            {
-              "id": "o3",
-              "text": "Brush teeth"
-            },
-            {
-              "id": "o4",
-              "text": "Go to work"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U58_FILLER_9",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'doctor' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Shower"
-            },
-            {
-              "id": "o2",
-              "text": "Go to work"
-            },
-            {
-              "id": "o3",
-              "text": "Go to bed"
-            },
-            {
-              "id": "o4",
-              "text": "[[Doctor|doctor]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U58_FILLER_10",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'medicine' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Medicine|medicine]]"
-            },
-            {
-              "id": "o2",
-              "text": "Have breakfast"
-            },
-            {
-              "id": "o3",
-              "text": "Go to work"
-            },
-            {
-              "id": "o4",
-              "text": "Shower"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U58_FILLER_11",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'sore throat' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Shower"
-            },
-            {
-              "id": "o2",
-              "text": "Have dinner"
-            },
-            {
-              "id": "o3",
-              "text": "[[Sore throat|sore throat]]"
-            },
-            {
-              "id": "o4",
-              "text": "Brush teeth"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U58_FILLER_12",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'fever' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Fever|fever]]"
-            },
-            {
-              "id": "o2",
-              "text": "Shower"
-            },
-            {
-              "id": "o3",
-              "text": "Have lunch"
-            },
-            {
-              "id": "o4",
-              "text": "Brush teeth"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U58_FILLER_13",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'better' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Better|better]]"
-            },
-            {
-              "id": "o2",
-              "text": "Go to work"
-            },
-            {
-              "id": "o3",
-              "text": "Have dinner"
-            },
-            {
-              "id": "o4",
-              "text": "Shower"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U58_FILLER_14",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'headache' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Headache|headache]]"
-            },
-            {
-              "id": "o2",
-              "text": "Have lunch"
-            },
-            {
-              "id": "o3",
-              "text": "Get dressed"
-            },
-            {
-              "id": "o4",
-              "text": "Go to bed"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U58_FILLER_15",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cold' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Have lunch"
-            },
-            {
-              "id": "o2",
-              "text": "[[Cold|frío]]"
-            },
-            {
-              "id": "o3",
-              "text": "Go to work"
-            },
-            {
-              "id": "o4",
-              "text": "Have dinner"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U58_FILLER_16",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'doctor' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Wake up"
-            },
-            {
-              "id": "o2",
-              "text": "Have lunch"
-            },
-            {
-              "id": "o3",
-              "text": "[[Doctor|doctor]]"
-            },
-            {
-              "id": "o4",
-              "text": "Shower"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U58_FILLER_17",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'medicine' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Have breakfast"
-            },
-            {
-              "id": "o2",
-              "text": "[[Medicine|medicine]]"
-            },
-            {
-              "id": "o3",
-              "text": "Get dressed"
-            },
-            {
-              "id": "o4",
-              "text": "Go to bed"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U58_FILLER_18",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'sore throat' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Wake up"
-            },
-            {
-              "id": "o2",
-              "text": "Have lunch"
-            },
-            {
-              "id": "o3",
-              "text": "Brush teeth"
-            },
-            {
-              "id": "o4",
-              "text": "[[Sore throat|sore throat]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U58_FILLER_19",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'fever' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Have lunch"
-            },
-            {
-              "id": "o2",
-              "text": "Shower"
-            },
-            {
-              "id": "o3",
-              "text": "Brush teeth"
-            },
-            {
-              "id": "o4",
-              "text": "[[Fever|fever]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U58_FILLER_20",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'better' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Have dinner"
-            },
-            {
-              "id": "o2",
-              "text": "Have breakfast"
-            },
-            {
-              "id": "o3",
-              "text": "[[Better|better]]"
-            },
-            {
-              "id": "o4",
-              "text": "Go to bed"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U58_FILLER_21",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'headache' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Have lunch"
-            },
-            {
-              "id": "o2",
-              "text": "Get dressed"
-            },
-            {
-              "id": "o3",
-              "text": "Shower"
-            },
-            {
-              "id": "o4",
-              "text": "[[Headache|headache]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U58_FILLER_22",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cold' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Cold|frío]]"
-            },
-            {
-              "id": "o2",
-              "text": "Shower"
-            },
-            {
-              "id": "o3",
-              "text": "Get dressed"
-            },
-            {
-              "id": "o4",
-              "text": "Have lunch"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U58_FILLER_23",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'doctor' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Brush teeth"
-            },
-            {
-              "id": "o2",
-              "text": "Go to work"
-            },
-            {
-              "id": "o3",
-              "text": "Wake up"
-            },
-            {
-              "id": "o4",
-              "text": "[[Doctor|doctor]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U58_FILLER_24",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'medicine' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Shower"
-            },
-            {
-              "id": "o2",
-              "text": "[[Medicine|medicine]]"
-            },
-            {
-              "id": "o3",
-              "text": "Have dinner"
-            },
-            {
-              "id": "o4",
-              "text": "Have lunch"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U58_FILLER_25",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'sore throat' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Wake up"
-            },
-            {
-              "id": "o2",
-              "text": "[[Sore throat|sore throat]]"
-            },
-            {
-              "id": "o3",
-              "text": "Shower"
-            },
-            {
-              "id": "o4",
-              "text": "Have dinner"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U58_FILLER_26",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'fever' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Fever|fever]]"
-            },
-            {
-              "id": "o2",
-              "text": "Wake up"
-            },
-            {
-              "id": "o3",
-              "text": "Go to work"
-            },
-            {
-              "id": "o4",
-              "text": "Have breakfast"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U58_FILLER_27",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'better' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Wake up"
-            },
-            {
-              "id": "o2",
-              "text": "Go to bed"
-            },
-            {
-              "id": "o3",
-              "text": "[[Better|better]]"
-            },
-            {
-              "id": "o4",
-              "text": "Have lunch"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U58_FILLER_28",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'headache' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Headache|headache]]"
-            },
-            {
-              "id": "o2",
-              "text": "Shower"
-            },
-            {
-              "id": "o3",
-              "text": "Have breakfast"
-            },
-            {
-              "id": "o4",
-              "text": "Get dressed"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U58_FILLER_29",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cold' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Get dressed"
-            },
-            {
-              "id": "o2",
-              "text": "Brush teeth"
-            },
-            {
-              "id": "o3",
-              "text": "Have lunch"
-            },
-            {
-              "id": "o4",
-              "text": "[[Cold|frío]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        }
-      ]
-    },
-    {
-      "title": "Lesson 5: Listening & Pronunciation Review",
-      "duration_minutes": 20,
-      "content": [
-        {
-          "interaction_id": "U58_L5_I1",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[wake up|despertarse]])",
-          "audio_url": "/audio/courses/ingles-a1/unit58/lesson5-task-1.mp3",
-          "transcript_template": "The [[headache|]] is here.",
-          "correct_answer": "headache",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U58_L5_I2",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[wake up|despertarse]])",
-          "audio_url": "/audio/courses/ingles-a1/unit58/lesson5-task-2.mp3",
-          "transcript_template": "The [[cold|]] is here.",
-          "correct_answer": "cold",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
+          "interaction_id": "A1_U58_I53",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Pharmacy|Farmacia]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Prescription|Receta médica]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Medicine|Medicamento]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Doctor|Médico]]"
+            }
+          ],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U58_L5_I3",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[wake up|despertarse]])",
-          "audio_url": "/audio/courses/ingles-a1/unit58/lesson5-task-3.mp3",
-          "transcript_template": "The [[doctor|]] is here.",
-          "correct_answer": "doctor",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
+          "interaction_id": "A1_U58_I54",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Prescription|Receta médica]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Symptom|Síntoma]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Appointment|Cita]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Rest|Descanso]]"
+            }
+          ],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U58_L5_I4",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[wake up|despertarse]])",
-          "audio_url": "/audio/courses/ingles-a1/unit58/lesson5-task-4.mp3",
-          "transcript_template": "The [[medicine|]] is here.",
-          "correct_answer": "medicine",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
+          "interaction_id": "A1_U58_I55",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[The|El]] [[pharmacist|farmacéutico]] ______ [[some|unos]] [[medicine|medicamentos]] [[for|para]] [[your|tu]] [[cough|tos]].",
+          "correct_answer": "recommended"
         },
         {
-          "interaction_id": "U58_L5_I5",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[wake up|despertarse]])",
-          "audio_url": "/audio/courses/ingles-a1/unit58/lesson5-task-5.mp3",
-          "transcript_template": "The [[sore throat|]] is here.",
-          "correct_answer": "sore throat",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
+          "interaction_id": "A1_U58_I56",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[You|Deberías]] ______ [[see|ver]] [[a|un]] [[doctor|médico]] [[if|si]] [[you|tienes]] [[have|tienes]] [[a|una]] [[fever|fiebre]] [[of|de]] [[over|más de]] [[38|38]] [[degrees|grados]].",
+          "correct_answer": "should"
         },
         {
-          "interaction_id": "U58_L5_I6",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[wake up|despertarse]])",
-          "audio_url": "/audio/courses/ingles-a1/unit58/lesson5-task-6.mp3",
-          "transcript_template": "The [[fever|]] is here.",
-          "correct_answer": "fever",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
+          "interaction_id": "A1_U58_I57",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[You|Deberías]] ______ [[drink|beber]] [[lots|mucha]] [[of|de]] [[water|agua]] [[and|y]] [[rest|descansar]].",
+          "correct_answer": "should"
         },
         {
-          "interaction_id": "U58_L5_I7",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[wake up|despertarse]])",
-          "audio_url": "/audio/courses/ingles-a1/unit58/lesson5-task-7.mp3",
-          "transcript_template": "The [[better|]] is here.",
-          "correct_answer": "better",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
+          "interaction_id": "A1_U58_I58",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[I|Yo]] [[don't|no]] [[feel|me siento]] [[very|muy]] [[well|bien]] [[today|hoy]]. [[I|Yo]] [[have|tengo]] [[a|un]] [[terrible|terrible]] [[headache|dolor de cabeza]] [[and|y]] [[a|dolor de]] [[sore|garganta]] [[throat|garganta]].",
+          "correct_answer": true
         },
         {
-          "interaction_id": "U58_L5_I8",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[wake up|despertarse]])",
-          "title": "Pronunciación: Health & Illness",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[headache|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-8.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U58_L5_I8_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'headache'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
+          "interaction_id": "A1_U58_I59",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Oh|Oh]] [[no|no]]! [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[a|fiebre]] [[fever|fiebre]] [[as|también]] [[well|también]]?",
+          "correct_answer": false
         },
         {
-          "interaction_id": "U58_L5_I9",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[wake up|despertarse]])",
-          "title": "Pronunciación: Health & Illness",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[cold|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-9.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U58_L5_I9_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'cold'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U58_L5_I10",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[wake up|despertarse]])",
-          "title": "Pronunciación: Health & Illness",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[doctor|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-10.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U58_L5_I10_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'doctor'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U58_L5_I11",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[wake up|despertarse]])",
-          "title": "Pronunciación: Health & Illness",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[medicine|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-11.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U58_L5_I11_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'medicine'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U58_L5_I12",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[wake up|despertarse]])",
-          "title": "Pronunciación: Health & Illness",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[sore throat|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-12.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U58_L5_I12_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'sore throat'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U58_L5_I13",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[wake up|despertarse]])",
-          "title": "Pronunciación: Health & Illness",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[fever|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-13.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U58_L5_I13_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'fever'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U58_L5_I14",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[wake up|despertarse]])",
-          "title": "Pronunciación: Health & Illness",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[better|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-14.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U58_L5_I14_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'better'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U58_L5_I15",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[wake up|despertarse]])",
-          "title": "Pronunciación: Health & Illness",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[headache|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit58/lesson5-task-15.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U58_L5_I15_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'headache'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
+          "interaction_id": "A1_U58_I60",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Yes|Sí]], [[a|un]] [[small|poco]] [[one|sí]]. [[I|Yo]] [[think|creo que]] [[I'm|me estoy]] [[getting|poniendo]] [[a|un]] [[cold|resfriado]].",
+          "correct_answer": true
         }
       ]
     }

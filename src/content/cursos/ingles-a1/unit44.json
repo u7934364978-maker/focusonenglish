@@ -3,1921 +3,1230 @@
     "unit_id": "unit44",
     "unit_title": "The Weather",
     "level": "A1",
-    "total_duration_minutes": 120,
+    "total_duration_minutes": 60,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Describe current weather conditions",
-    "Understand basic weather forecasts",
-    "Ask 'What is the weather like?'"
+    "Describe the weather using adjectives and 'It is...'",
+    "Talk about weather forecasts and conditions",
+    "Suggest activities based on weather"
   ],
   "blocks": [
     {
-      "block_id": "B44_1",
-      "title": "Block 1: Weather Vocabulary",
+      "block_id": "B1",
+      "title": "Vocabulary Introduction",
       "content": [
         {
-          "interaction_id": "A1_U44_B44_1_I1",
-          "type": "matching",
-          "prompt_es": "Empareja el clima:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Sunny|Soleado]]",
-              "right": "Lluvioso"
-            },
-            {
-              "id": "p2",
-              "left": "[[Rainy|Lluvioso]]",
-              "right": "Nublado"
-            },
-            {
-              "id": "p3",
-              "left": "[[Cloudy|Nublado]]",
-              "right": "Soleado"
-            },
-            {
-              "id": "p4",
-              "left": "[[Windy|Ventoso]]",
-              "right": "Ventoso"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p3",
-            "p2": "p1",
-            "p3": "p2",
-            "p4": "p4"
-          },
+          "interaction_id": "A1_U44_I1",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
           "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U44_B44_1_I2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué necesitas cuando llueve? ([[sunny|soleado]])",
+          "stimulus_en": "[[Sunny|Soleado]]",
           "options": [
             {
-              "id": "o2",
-              "text": "An umbrella"
+              "id": "o1",
+              "text": "[[Soleado|Sunny]]"
             },
             {
-              "id": "o1",
-              "text": "A swimsuit"
+              "id": "o2",
+              "text": "[[Lluvioso|Rainy]]"
             },
             {
               "id": "o3",
-              "text": "Sunglasses"
+              "text": "[[Nublado|Cloudy]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U44_I2",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
           "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "stimulus_en": "[[Rainy|Lluvioso]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Nublado|Cloudy]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Lluvioso|Rainy]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Nevado|Snowy]]"
+            }
+          ],
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "A1_U44_B44_1_I3",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el estado del clima: ([[sunny|soleado]])",
-          "stimulus_en": "It is 0 degrees. It is very ________. (frío)",
-          "correct_answer": "cold",
+          "interaction_id": "A1_U44_I3",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "complexity": 1,
+          "stimulus_en": "[[Cloudy|Nublado]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Nevado|Snowy]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Caluroso|Hot]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Nublado|Cloudy]]"
+            }
+          ],
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "A1_U44_B44_1_I4",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Hace calor' ([[sunny|soleado]])",
-          "stimulus_es": "Hace calor",
-          "correct_answer": "It is hot",
+          "interaction_id": "A1_U44_I4",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "complexity": 1,
+          "stimulus_en": "[[Snowy|Nevado]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Nevado|Snowy]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Caluroso|Hot]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Frío|Cold]]"
+            }
+          ],
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "A1_U44_B44_1_I5",
-          "type": "flashcard",
-          "prompt_es": "Repaso de clima: ([[snow|nieve]])",
-          "stimulus_en": "Snowing",
-          "correct_answer": "Nevando",
+          "interaction_id": "A1_U44_I5",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "complexity": 1,
+          "stimulus_en": "[[Hot|Caluroso]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Frío|Cold]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Caluroso|Hot]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Ventoso|Windy]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U44_I6",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Cold|Frío]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Ventoso|Windy]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Neblinoso|Foggy]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Frío|Cold]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U44_I7",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Ventoso]]",
+          "correct_answer": "Windy"
+        },
+        {
+          "interaction_id": "A1_U44_I8",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Neblinoso]]",
+          "correct_answer": "Foggy"
+        },
+        {
+          "interaction_id": "A1_U44_I9",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Tormentoso]]",
+          "correct_answer": "Stormy"
+        },
+        {
+          "interaction_id": "A1_U44_I10",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Temperatura]]",
+          "correct_answer": "Temperature"
         }
       ]
     },
     {
-      "block_id": "B44_2",
-      "title": "Block 2: Weather Grammar",
+      "block_id": "B2",
+      "title": "Vocabulary in Context",
       "content": [
         {
-          "interaction_id": "A1_U44_B44_2_I1",
-          "type": "multiple_choice",
-          "prompt_es": "________ is raining today. ([[sunny|soleado]])",
+          "interaction_id": "A1_U44_I11",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Snowy|Nevado]]",
           "options": [
             {
-              "id": "o2",
-              "text": "He"
+              "id": "o1",
+              "text": "[[Snowy|Nevado]]"
             },
             {
-              "id": "o1",
-              "text": "It"
+              "id": "o2",
+              "text": "[[Windy|Ventoso]]"
             },
             {
               "id": "o3",
-              "text": "There"
+              "text": "[[Temperature|Temperatura]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "A1_U44_B44_2_I2",
-          "type": "fill_blanks",
-          "prompt_es": "Completa la pregunta: ([[sunny|soleado]])",
-          "stimulus_en": "What ________ the weather like?",
-          "correct_answer": "is",
-          "mastery_tag": "grammar",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
+          "interaction_id": "A1_U44_I12",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Hot|Caluroso]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Foggy|Neblinoso]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Hot|Caluroso]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Forecast|Previsión del tiempo]]"
+            }
+          ],
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "A1_U44_B44_2_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es correcto: 'It is sun today'? ([[sunny|soleado]])",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
+          "interaction_id": "A1_U44_I13",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Cold|Frío]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Stormy|Tormentoso]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Degrees|Grados]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Cold|Frío]]"
+            }
+          ],
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "A1_U44_B44_2_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa la frase negativa: ([[windy|ventoso]])",
-          "stimulus_en": "It ________ windy this afternoon. (no está)",
-          "correct_answer": "isn't",
-          "mastery_tag": "grammar",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "B44_3",
-      "title": "Block 3: Daily Weather",
-      "content": [
+          "interaction_id": "A1_U44_I14",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Windy|Ventoso]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Windy|Ventoso]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Temperature|Temperatura]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Umbrella|Paraguas]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
         {
-          "interaction_id": "A1_U44_B44_3_I1",
-          "type": "reorder_words",
-          "prompt_es": "Pregunta por el clima: ([[sunny|soleado]])",
+          "interaction_id": "A1_U44_I15",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[It|Hace]] ______ [[today|hoy]].",
+          "correct_answer": "is sunny"
+        },
+        {
+          "interaction_id": "A1_U44_I16",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[It|Hace]] [[is|hace]] [[very|mucho]] ______ — [[bring|trae]] [[a|un]] [[jacket|abrigo]]!",
+          "correct_answer": "cold"
+        },
+        {
+          "interaction_id": "A1_U44_I17",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[What's|Cómo está]] [[the|el]] [[weather|tiempo]] ______ [[in|en]] [[London|Londres]]?",
+          "correct_answer": "like"
+        },
+        {
+          "interaction_id": "A1_U44_I18",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
           "options": [
             {
               "id": "w1",
-              "text": "What"
+              "text": "[[Sunny|Soleado]]"
             },
             {
               "id": "w2",
-              "text": "is"
+              "text": "[[Cloudy|Nublado]]"
             },
             {
               "id": "w3",
-              "text": "the"
-            },
-            {
-              "id": "w4",
-              "text": "weather"
-            },
-            {
-              "id": "w5",
-              "text": "like"
-            },
-            {
-              "id": "w6",
-              "text": "today?"
+              "text": "[[Rainy|Lluvioso]]"
             }
           ],
           "correct_answer": [
             "w1",
-            "w2",
             "w3",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U44_I19",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Hot|Caluroso]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Windy|Ventoso]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Cold|Frío]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U44_I20",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Stormy|Tormentoso]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Forecast|Previsión del tiempo]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Temperature|Temperatura]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Grammar — Affirmative",
+      "content": [
+        {
+          "interaction_id": "A1_U44_I21",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[It|Hace]] ______ [[today|hoy]].",
+          "correct_answer": "is sunny"
+        },
+        {
+          "interaction_id": "A1_U44_I22",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[It|Hace]] [[is|hace]] [[very|mucho]] ______ — [[bring|trae]] [[a|un]] [[jacket|abrigo]]!",
+          "correct_answer": "cold"
+        },
+        {
+          "interaction_id": "A1_U44_I23",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[What's|Cómo está]] [[the|el]] [[weather|tiempo]] ______ [[in|en]] [[London|Londres]]?",
+          "correct_answer": "like"
+        },
+        {
+          "interaction_id": "A1_U44_I24",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[It|Está]] [[is|está]] [[going|va a]] [[to|a]] ______ [[tomorrow|mañana]].",
+          "correct_answer": "rain"
+        },
+        {
+          "interaction_id": "A1_U44_I25",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[The|La]] [[temperature|temperatura]] ______ [[thirty|treinta]] [[degrees|grados]] [[today|hoy]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[is|is]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[cold|cold]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[like|like]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U44_I26",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Don't|No]] [[forget|olvides]] [[your|tu]] ______ — [[it's|va a]] [[going|llover]] [[to|a]] [[rain|llover]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[like|like]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[umbrella|umbrella]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[rain|rain]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U44_I27",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[It|Hace]] ______ [[today|hoy]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[rain|rain]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[is|is]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[is sunny|is sunny]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U44_I28",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[It|Hace]] [[is|hace]] [[very|mucho]] ______ — [[bring|trae]] [[a|un]] [[jacket|abrigo]]!",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[cold|cold]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[is|is]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[umbrella|umbrella]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U44_I29",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Cloudy|Nublado]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Sunny|Soleado]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Hot|Caluroso]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
+          ]
+        },
+        {
+          "interaction_id": "A1_U44_I30",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Foggy|Neblinoso]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Cold|Frío]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Temperature|Temperatura]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Grammar — Negative & Questions",
+      "content": [
+        {
+          "interaction_id": "A1_U44_I31",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[What's|Cómo está]] [[the|el]] [[weather|tiempo]] ______ [[in|en]] [[London|Londres]]?",
+          "correct_answer": "like"
+        },
+        {
+          "interaction_id": "A1_U44_I32",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[It|Está]] [[is|está]] [[going|va a]] [[to|a]] ______ [[tomorrow|mañana]].",
+          "correct_answer": "rain"
+        },
+        {
+          "interaction_id": "A1_U44_I33",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[The|La]] [[temperature|temperatura]] ______ [[thirty|treinta]] [[degrees|grados]] [[today|hoy]].",
+          "correct_answer": "is"
+        },
+        {
+          "interaction_id": "A1_U44_I34",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[It|Está]] [[is|está]] [[going|va a]] [[to|a]] ______ [[tomorrow|mañana]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[rain|rain]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[umbrella|umbrella]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[is sunny|is sunny]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U44_I35",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[The|La]] [[temperature|temperatura]] ______ [[thirty|treinta]] [[degrees|grados]] [[today|hoy]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[is sunny|is sunny]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[is|is]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[cold|cold]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U44_I36",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Don't|No]] [[forget|olvides]] [[your|tu]] ______ — [[it's|va a]] [[going|llover]] [[to|a]] [[rain|llover]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[cold|cold]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[like|like]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[umbrella|umbrella]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U44_I37",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[It|Hace]] ______ [[today|hoy]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[is sunny|is sunny]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[like|like]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[rain|rain]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U44_I38",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Hot|Caluroso]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Rainy|Lluvioso]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Windy|Ventoso]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Cloudy|Nublado]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
             "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "syntax"
+            "w3"
           ]
         },
         {
-          "interaction_id": "A1_U44_B44_3_I2",
-          "type": "multiple_choice",
-          "prompt_es": "Weather forecast: 'Cloudy with rain.' - You take: ([[coat|abrigo]])",
+          "interaction_id": "A1_U44_I39",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
           "options": [
             {
-              "id": "o2",
-              "text": "A swimsuit"
+              "id": "w1",
+              "text": "[[Foggy|Neblinoso]]"
             },
             {
-              "id": "o1",
-              "text": "Sunglasses"
+              "id": "w2",
+              "text": "[[Hot|Caluroso]]"
             },
             {
-              "id": "o3",
-              "text": "A raincoat"
+              "id": "w3",
+              "text": "[[Temperature|Temperatura]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Cold|Frío]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "syntax",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "syntax"
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
           ]
         },
         {
-          "interaction_id": "A1_U44_B44_3_I3",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el reporte: ([[often|a menudo]])",
-          "stimulus_en": "In London, it is often ________. (lluvioso)",
-          "correct_answer": "rainy",
-          "mastery_tag": "syntax",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
-        },
-        {
-          "interaction_id": "A1_U44_B44_3_I4",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Hoy está muy nublado' ([[sunny|soleado]])",
-          "stimulus_es": "Hoy está muy nublado",
-          "correct_answer": "It is very cloudy today",
-          "mastery_tag": "syntax",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
-        },
-        {
-          "interaction_id": "A1_U44_B44_3_I5",
-          "type": "true_false",
-          "prompt_es": "It is hot in the Sahara Desert. ([[hot|caluroso]])",
-          "correct_answer": true,
-          "mastery_tag": "syntax",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "syntax"
+          "interaction_id": "A1_U44_I40",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Forecast|Previsión del tiempo]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Foggy|Neblinoso]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Umbrella|Paraguas]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Stormy|Tormentoso]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
           ]
         }
       ]
     },
     {
-      "block_id": "B44_4",
-      "title": "Block 4: Mastery & Skills",
+      "block_id": "B5",
+      "title": "Reading Comprehension",
       "content": [
         {
-          "interaction_id": "A1_U44_B44_4_I4",
-          "type": "audio_player",
-          "prompt_es": "Escucha la descripción: ([[sunny|soleado]])",
-          "audioUrl": "/audio/courses/ingles-a1/shared/a167098e792e3a89e167669818815124.mp3",
-          "text": "It is very windy this morning.",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "A1_U44_B44_4_READ1",
-          "type": "reading_phase",
-          "prompt_es": "[[Read|Lee]] [[the|el]] [[following|siguiente]] [[text|texto]] [[carefully|con atención]]:",
-          "transcript": "People are in the park in Madrid. They walk and talk. Children play with a ball. Some people sit on benches. They eat ice cream and enjoy the sun. Birds sing in the trees. It is a happy day in the park."
-        },
-        {
-          "interaction_id": "A1_U44_B44_4_I5",
-          "type": "multiple_choice",
-          "prompt_es": "En Madrid, la gente está en... ([[park|parque]])",
-          "options": [
-            {
-              "id": "o2",
-              "text": "The park"
-            },
-            {
-              "id": "o1",
-              "text": "Home"
-            },
-            {
-              "id": "o3",
-              "text": "The office"
-            }
-          ],
-          "correct_answer": "o2",
+          "interaction_id": "A1_U44_I41",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
           "mastery_tag": "reading",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
+          "complexity": 2,
+          "transcript": "[[What's|Cómo está]] [[the|el]] [[weather|tiempo]] [[like|como]] [[today|hoy]]? [[It's|Está]] [[quite|bastante]] [[cold|frío]] [[and|y]] [[cloudy|nublado]]. [[The|La]] [[forecast|previsión]] [[says|dice]] [[it's|que va a]] [[going|llover]] [[to|a]] [[rain|llover]] [[this|esta]] [[afternoon|tarde]]. [[Oh|Oh]] [[no|no]]! [[I|Yo]] [[wanted|quería]] [[to|ir al]] [[go|ir al]] [[park|parque]]. [[Maybe|Quizás]] [[go|ve]] [[in|por]] [[the|la]] [[morning|mañana]] [[when|cuando]] [[it|hace]] [[is|hace]] [[still|todavía]] [[sunny|sol]]. [[The|Las]] [[temperatures|temperaturas]] [[are|serán]] [[around|alrededor de]] [[twenty|veinte]] [[degrees|grados]]. [[That's|Es]] [[a|una]] [[good|buena]] [[idea|idea]]! [[I'll|Me llevaré]] [[take|llevaré]] [[a|un]] [[light|ligero]] [[jacket|abrigo]] [[just|por si]] [[in|acaso]] [[case|acaso]].",
+          "question_en": "[[What|Cómo está]] [[is|está]] [[the|el]] [[weather|tiempo]] [[like|como]] [[today|hoy]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Hot and sunny|Caluroso y soleado]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Cold and cloudy|Frío y nublado]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Windy and rainy|Ventoso y lluvioso]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U44_I42",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[What's|Cómo está]] [[the|el]] [[weather|tiempo]] [[like|como]] [[today|hoy]]? [[It's|Está]] [[quite|bastante]] [[cold|frío]] [[and|y]] [[cloudy|nublado]]. [[The|La]] [[forecast|previsión]] [[says|dice]] [[it's|que va a]] [[going|llover]] [[to|a]] [[rain|llover]] [[this|esta]] [[afternoon|tarde]]. [[Oh|Oh]] [[no|no]]! [[I|Yo]] [[wanted|quería]] [[to|ir al]] [[go|ir al]] [[park|parque]]. [[Maybe|Quizás]] [[go|ve]] [[in|por]] [[the|la]] [[morning|mañana]] [[when|cuando]] [[it|hace]] [[is|hace]] [[still|todavía]] [[sunny|sol]]. [[The|Las]] [[temperatures|temperaturas]] [[are|serán]] [[around|alrededor de]] [[twenty|veinte]] [[degrees|grados]]. [[That's|Es]] [[a|una]] [[good|buena]] [[idea|idea]]! [[I'll|Me llevaré]] [[take|llevaré]] [[a|un]] [[light|ligero]] [[jacket|abrigo]] [[just|por si]] [[in|acaso]] [[case|acaso]].",
+          "question_en": "[[What|Qué]] [[does|dice]] [[the|la]] [[weather|previsión]] [[forecast|del tiempo]] [[say|dice]] [[about|sobre]] [[the|la]] [[afternoon|tarde]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Sunny|Soleado]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[It will snow|Va a nevar]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[It will rain|Va a llover]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U44_I43",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[What's|Cómo está]] [[the|el]] [[weather|tiempo]] [[like|como]] [[today|hoy]]? [[It's|Está]] [[quite|bastante]] [[cold|frío]] [[and|y]] [[cloudy|nublado]]. [[The|La]] [[forecast|previsión]] [[says|dice]] [[it's|que va a]] [[going|llover]] [[to|a]] [[rain|llover]] [[this|esta]] [[afternoon|tarde]]. [[Oh|Oh]] [[no|no]]! [[I|Yo]] [[wanted|quería]] [[to|ir al]] [[go|ir al]] [[park|parque]]. [[Maybe|Quizás]] [[go|ve]] [[in|por]] [[the|la]] [[morning|mañana]] [[when|cuando]] [[it|hace]] [[is|hace]] [[still|todavía]] [[sunny|sol]]. [[The|Las]] [[temperatures|temperaturas]] [[are|serán]] [[around|alrededor de]] [[twenty|veinte]] [[degrees|grados]]. [[That's|Es]] [[a|una]] [[good|buena]] [[idea|idea]]! [[I'll|Me llevaré]] [[take|llevaré]] [[a|un]] [[light|ligero]] [[jacket|abrigo]] [[just|por si]] [[in|acaso]] [[case|acaso]].",
+          "question_en": "[[What|Qué]] [[did|quería hacer]] [[the|el]] [[speaker|hablante]] [[want|quería]] [[to|hacer]] [[do|hacer]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Go shopping|Ir de compras]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Go to the park|Ir al parque]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Go to the cinema|Ir al cine]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U44_I44",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[What's|Cómo está]] [[the|el]] [[weather|tiempo]] [[like|como]] [[today|hoy]]? [[It's|Está]] [[quite|bastante]] [[cold|frío]] [[and|y]] [[cloudy|nublado]]. [[The|La]] [[forecast|previsión]] [[says|dice]] [[it's|que va a]] [[going|llover]] [[to|a]] [[rain|llover]] [[this|esta]] [[afternoon|tarde]]. [[Oh|Oh]] [[no|no]]! [[I|Yo]] [[wanted|quería]] [[to|ir al]] [[go|ir al]] [[park|parque]]. [[Maybe|Quizás]] [[go|ve]] [[in|por]] [[the|la]] [[morning|mañana]] [[when|cuando]] [[it|hace]] [[is|hace]] [[still|todavía]] [[sunny|sol]]. [[The|Las]] [[temperatures|temperaturas]] [[are|serán]] [[around|alrededor de]] [[twenty|veinte]] [[degrees|grados]]. [[That's|Es]] [[a|una]] [[good|buena]] [[idea|idea]]! [[I'll|Me llevaré]] [[take|llevaré]] [[a|un]] [[light|ligero]] [[jacket|abrigo]] [[just|por si]] [[in|acaso]] [[case|acaso]].",
+          "question_en": "[[When|Cuándo]] [[is|es]] [[it|está]] [[still|todavía]] [[sunny|soleado]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[In the afternoon|Por la tarde]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[In the morning|Por la mañana]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[In the evening|Por la noche]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U44_I45",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[What's|Cómo está]] [[the|el]] [[weather|tiempo]] [[like|como]] [[today|hoy]]? [[It's|Está]] [[quite|bastante]] [[cold|frío]] [[and|y]] [[cloudy|nublado]]. [[The|La]] [[forecast|previsión]] [[says|dice]] [[it's|que va a]] [[going|llover]] [[to|a]] [[rain|llover]] [[this|esta]] [[afternoon|tarde]]. [[Oh|Oh]] [[no|no]]! [[I|Yo]] [[wanted|quería]] [[to|ir al]] [[go|ir al]] [[park|parque]]. [[Maybe|Quizás]] [[go|ve]] [[in|por]] [[the|la]] [[morning|mañana]] [[when|cuando]] [[it|hace]] [[is|hace]] [[still|todavía]] [[sunny|sol]]. [[The|Las]] [[temperatures|temperaturas]] [[are|serán]] [[around|alrededor de]] [[twenty|veinte]] [[degrees|grados]]. [[That's|Es]] [[a|una]] [[good|buena]] [[idea|idea]]! [[I'll|Me llevaré]] [[take|llevaré]] [[a|un]] [[light|ligero]] [[jacket|abrigo]] [[just|por si]] [[in|acaso]] [[case|acaso]].",
+          "question_en": "[[What|Cuántos]] [[are|serán]] [[the|los]] [[temperatures|grados]] [[in|por]] [[the|la]] [[morning|mañana]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[About fifteen|Alrededor de quince]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[About thirty|Alrededor de treinta]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[About twenty degrees|Alrededor de veinte grados]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U44_I46",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[What's|Cómo está]] [[the|el]] [[weather|tiempo]] [[like|como]] [[today|hoy]]? [[It's|Está]] [[quite|bastante]] [[cold|frío]] [[and|y]] [[cloudy|nublado]]. [[The|La]] [[forecast|previsión]] [[says|dice]] [[it's|que va a]] [[going|llover]] [[to|a]] [[rain|llover]] [[this|esta]] [[afternoon|tarde]]. [[Oh|Oh]] [[no|no]]! [[I|Yo]] [[wanted|quería]] [[to|ir al]] [[go|ir al]] [[park|parque]]. [[Maybe|Quizás]] [[go|ve]] [[in|por]] [[the|la]] [[morning|mañana]] [[when|cuando]] [[it|hace]] [[is|hace]] [[still|todavía]] [[sunny|sol]]. [[The|Las]] [[temperatures|temperaturas]] [[are|serán]] [[around|alrededor de]] [[twenty|veinte]] [[degrees|grados]]. [[That's|Es]] [[a|una]] [[good|buena]] [[idea|idea]]! [[I'll|Me llevaré]] [[take|llevaré]] [[a|un]] [[light|ligero]] [[jacket|abrigo]] [[just|por si]] [[in|acaso]] [[case|acaso]].",
+          "question_en": "[[What|Qué]] [[does|va a llevarse]] [[the|el]] [[speaker|hablante]] [[take|va a llevar]] [[just|por si]] [[in|acaso]] [[case|acaso]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[An umbrella|Un paraguas]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[A light jacket|Un abrigo ligero]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[A raincoat|Un impermeable]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U44_I47",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[What's|Cómo está]] [[the|el]] [[weather|tiempo]] [[like|como]] [[today|hoy]]? [[It's|Está]] [[quite|bastante]] [[cold|frío]] [[and|y]] [[cloudy|nublado]]. [[The|La]] [[forecast|previsión]] [[says|dice]] [[it's|que va a]] [[going|llover]] [[to|a]] [[rain|llover]] [[this|esta]] [[afternoon|tarde]]. [[Oh|Oh]] [[no|no]]! [[I|Yo]] [[wanted|quería]] [[to|ir al]] [[go|ir al]] [[park|parque]]. [[Maybe|Quizás]] [[go|ve]] [[in|por]] [[the|la]] [[morning|mañana]] [[when|cuando]] [[it|hace]] [[is|hace]] [[still|todavía]] [[sunny|sol]]. [[The|Las]] [[temperatures|temperaturas]] [[are|serán]] [[around|alrededor de]] [[twenty|veinte]] [[degrees|grados]]. [[That's|Es]] [[a|una]] [[good|buena]] [[idea|idea]]! [[I'll|Me llevaré]] [[take|llevaré]] [[a|un]] [[light|ligero]] [[jacket|abrigo]] [[just|por si]] [[in|acaso]] [[case|acaso]].",
+          "question_en": "[[What|Qué]] [[does|significa]] 'Forecast' [[mean|significa]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Current weather|Tiempo actual]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Weather prediction|Previsión del tiempo]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Temperature reading|Lectura de temperatura]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U44_I48",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[What's|Cómo está]] [[the|el]] [[weather|tiempo]] [[like|como]] [[today|hoy]]? [[It's|Está]] [[quite|bastante]] [[cold|frío]] [[and|y]] [[cloudy|nublado]]. [[The|La]] [[forecast|previsión]] [[says|dice]] [[it's|que va a]] [[going|llover]] [[to|a]] [[rain|llover]] [[this|esta]] [[afternoon|tarde]]. [[Oh|Oh]] [[no|no]]! [[I|Yo]] [[wanted|quería]] [[to|ir al]] [[go|ir al]] [[park|parque]]. [[Maybe|Quizás]] [[go|ve]] [[in|por]] [[the|la]] [[morning|mañana]] [[when|cuando]] [[it|hace]] [[is|hace]] [[still|todavía]] [[sunny|sol]]. [[The|Las]] [[temperatures|temperaturas]] [[are|serán]] [[around|alrededor de]] [[twenty|veinte]] [[degrees|grados]]. [[That's|Es]] [[a|una]] [[good|buena]] [[idea|idea]]! [[I'll|Me llevaré]] [[take|llevaré]] [[a|un]] [[light|ligero]] [[jacket|abrigo]] [[just|por si]] [[in|acaso]] [[case|acaso]].",
+          "question_en": "[[What|Qué]] [[word|palabra]] [[means|significa]] 'Nublado'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Foggy|Neblinoso]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Stormy|Tormentoso]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Cloudy|Nublado]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U44_I49",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[What's|Cómo está]] [[the|el]] [[weather|tiempo]] [[like|como]] [[today|hoy]]? [[It's|Está]] [[quite|bastante]] [[cold|frío]] [[and|y]] [[cloudy|nublado]]. [[The|La]] [[forecast|previsión]] [[says|dice]] [[it's|que va a]] [[going|llover]] [[to|a]] [[rain|llover]] [[this|esta]] [[afternoon|tarde]]. [[Oh|Oh]] [[no|no]]! [[I|Yo]] [[wanted|quería]] [[to|ir al]] [[go|ir al]] [[park|parque]]. [[Maybe|Quizás]] [[go|ve]] [[in|por]] [[the|la]] [[morning|mañana]] [[when|cuando]] [[it|hace]] [[is|hace]] [[still|todavía]] [[sunny|sol]]. [[The|Las]] [[temperatures|temperaturas]] [[are|serán]] [[around|alrededor de]] [[twenty|veinte]] [[degrees|grados]]. [[That's|Es]] [[a|una]] [[good|buena]] [[idea|idea]]! [[I'll|Me llevaré]] [[take|llevaré]] [[a|un]] [[light|ligero]] [[jacket|abrigo]] [[just|por si]] [[in|acaso]] [[case|acaso]].",
+          "question_en": "[[What|Qué]] [[structure|estructura]] [[is|se usa]] [[used|usa]] [[for|para]] [[weather|el tiempo]] [[in|en]] [[English|inglés]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[The weather is...|El tiempo es...]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[It is + weather adjective|It is + adjetivo del tiempo]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Weather + verb|El tiempo + verbo]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U44_I50",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[What's|Cómo está]] [[the|el]] [[weather|tiempo]] [[like|como]] [[today|hoy]]? [[It's|Está]] [[quite|bastante]] [[cold|frío]] [[and|y]] [[cloudy|nublado]]. [[The|La]] [[forecast|previsión]] [[says|dice]] [[it's|que va a]] [[going|llover]] [[to|a]] [[rain|llover]] [[this|esta]] [[afternoon|tarde]]. [[Oh|Oh]] [[no|no]]! [[I|Yo]] [[wanted|quería]] [[to|ir al]] [[go|ir al]] [[park|parque]]. [[Maybe|Quizás]] [[go|ve]] [[in|por]] [[the|la]] [[morning|mañana]] [[when|cuando]] [[it|hace]] [[is|hace]] [[still|todavía]] [[sunny|sol]]. [[The|Las]] [[temperatures|temperaturas]] [[are|serán]] [[around|alrededor de]] [[twenty|veinte]] [[degrees|grados]]. [[That's|Es]] [[a|una]] [[good|buena]] [[idea|idea]]! [[I'll|Me llevaré]] [[take|llevaré]] [[a|un]] [[light|ligero]] [[jacket|abrigo]] [[just|por si]] [[in|acaso]] [[case|acaso]].",
+          "question_en": "[[What|Qué]] [[word|palabra]] [[means|significa]] 'Paraguas'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Raincoat|Impermeable]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Umbrella|Paraguas]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Hat|Sombrero]]"
+            }
+          ],
+          "correct_answer": "o2"
         }
       ]
     },
     {
-      "block_id": "B44_5",
-      "title": "Block 5: Listening & Pronunciation",
+      "block_id": "B6",
+      "title": "Production",
       "content": [
         {
-          "interaction_id": "U44_I301",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[sunny|soleado]])",
-          "stimulus_en": "It is sunny and hot today.",
-          "correct_answer": "It is sunny and hot today.",
-          "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-1.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U44_I302",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[sunny|soleado]])",
-          "stimulus_en": "Take your umbrella, it is raining.",
-          "correct_answer": "Take your umbrella, it is raining.",
-          "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-2.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U44_I303",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[cloudy|nublado]])",
-          "stimulus_en": "The weather is cloudy and cool.",
-          "correct_answer": "The weather is cloudy and cool.",
-          "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-3.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U44_I304",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[windy|ventoso]])",
-          "stimulus_en": "It is very windy in the afternoon.",
-          "correct_answer": "It is very windy in the afternoon.",
-          "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-4.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U44_I305",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[sunny|soleado]])",
-          "stimulus_en": "What is the weather like?",
-          "correct_answer": "What is the weather like?",
-          "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-5.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U44_I306",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[mountain|montaña]])",
-          "stimulus_en": "There is snow on the mountains.",
-          "correct_answer": "There is snow on the mountains.",
-          "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-6.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U44_I307",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[sunny|soleado]])",
-          "stimulus_en": "The forecast says it is going to rain.",
-          "correct_answer": "The forecast says it is going to rain.",
-          "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-7.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U44_I308",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[sunny|soleado]])",
-          "title": "Pronunciación: Weather",
-          "instructions": "Escucha y repite la 'th'.",
-          "targetSentences": [
-            {
-              "text": "The [[weather|clima]] is [[nice|agradable]].",
-              "phonetic": "/ðə ˈwɛðə rɪz naɪs/",
-              "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-8.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U44_I308_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'th' en 'weather'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Como una 'd' suave vibrante (/ð/)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como una 'z' española (/θ/)"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U44_I309",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[sunny|soleado]])",
-          "title": "Pronunciación: Sunny",
-          "instructions": "Escucha y repite la 'u' corta.",
-          "targetSentences": [
-            {
-              "text": "It is [[sunny|soleado]].",
-              "phonetic": "/ɪt ɪz ˈsʌni/",
-              "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-9.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U44_I309_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'u' en 'sunny'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Como una 'a' corta y relajada (/ʌ/)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como una 'u' española"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U44_I310",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[sunny|soleado]])",
-          "title": "Pronunciación: Rainy",
-          "instructions": "Escucha y repite el diptongo 'ai'.",
-          "targetSentences": [
-            {
-              "text": "It is a [[rainy|lluvioso]] [[day|día]].",
-              "phonetic": "/ɪt ɪz ə ˈreɪni deɪ/",
-              "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-10.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U44_I310_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'ai' en 'rainy'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Como una 'ei' (/eɪ/)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como una 'ai' española"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U44_I311",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[sunny|soleado]])",
-          "title": "Pronunciación: Cloudy",
-          "instructions": "Escucha y repite el diptongo 'ou'.",
-          "targetSentences": [
-            {
-              "text": "It is [[cloudy|nublado]].",
-              "phonetic": "/ɪt ɪz ˈklaʊdi/",
-              "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-11.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U44_I311_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'ou' en 'cloudy'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Como /aʊ/ (au)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como una 'o' simple"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U44_I312",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[sunny|soleado]])",
-          "title": "Pronunciación: Windy",
-          "instructions": "Escucha y repite la 'w'.",
-          "targetSentences": [
-            {
-              "text": "It is [[very|muy]] [[windy|ventoso]].",
-              "phonetic": "/ɪt ɪz ˈvɛri ˈwɪndi/",
-              "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-12.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U44_I312_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia la 'w' en 'windy'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Como una 'u' semivocal (/w/)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como una 'g' suave"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U44_I313",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[sunny|soleado]])",
-          "title": "Pronunciación: Cold",
-          "instructions": "Escucha y repite la 'o' larga.",
-          "targetSentences": [
-            {
-              "text": "It is [[cold|frío]].",
-              "phonetic": "/ɪt ɪz kəʊld/",
-              "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-13.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U44_I313_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'o' en 'cold'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Como /əʊ/ (ou)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como una 'o' española simple"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U44_I314",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[sunny|soleado]])",
-          "title": "Pronunciación: Snow",
-          "instructions": "Escucha y repite el grupo consonántico 'sn'.",
-          "targetSentences": [
-            {
-              "text": "I [[see|veo]] the [[snow|nieve]].",
-              "phonetic": "/aɪ siː ðə snəʊ/",
-              "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-14.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U44_I314_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Se añade una 'e' antes de la 's' en 'snow'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "No, se empieza directamente con el silbido de la 's'"
-                },
-                {
-                  "id": "o2",
-                  "text": "Sí, como en 'esnow'"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U44_I315",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[sunny|soleado]])",
-          "title": "Pronunciación: Repaso Weather",
-          "instructions": "Escucha y repite la frase completa.",
-          "targetSentences": [
-            {
-              "text": "The [[sun|sol]] is [[shining|brillando]].",
-              "phonetic": "/ðə sʌn ɪz ˈʃaɪnɪŋ/",
-              "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-15.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U44_I315_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'sh' en 'shining'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Como para pedir silencio (/ʃ/)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como una 'ch' española"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Practice Sessions",
-      "content": [
-        {
-          "interaction_id": "U44_FILLER_0",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'sunny' en inglés?",
+          "interaction_id": "A1_U44_I51",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
           "options": [
             {
-              "id": "o1",
-              "text": "Stormy"
+              "id": "w1",
+              "text": "[[Rainy|Lluvioso]]"
             },
             {
-              "id": "o2",
-              "text": "Foggy"
+              "id": "w2",
+              "text": "[[Hot|Caluroso]]"
             },
             {
-              "id": "o3",
-              "text": "[[Sunny|soleado]]"
+              "id": "w3",
+              "text": "[[Sunny|Soleado]]"
             },
             {
-              "id": "o4",
-              "text": "Cold"
+              "id": "w4",
+              "text": "[[Cloudy|Nublado]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U44_FILLER_1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'raining' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Rainy"
-            },
-            {
-              "id": "o2",
-              "text": "Icy"
-            },
-            {
-              "id": "o3",
-              "text": "Foggy"
-            },
-            {
-              "id": "o4",
-              "text": "[[Raining|raining]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U44_FILLER_2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'windy' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Cloudy"
-            },
-            {
-              "id": "o2",
-              "text": "Hot"
-            },
-            {
-              "id": "o3",
-              "text": "[[Windy|ventoso]]"
-            },
-            {
-              "id": "o4",
-              "text": "Warm"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U44_FILLER_3",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cold' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Cold|frío]]"
-            },
-            {
-              "id": "o2",
-              "text": "Cloudy"
-            },
-            {
-              "id": "o3",
-              "text": "Warm"
-            },
-            {
-              "id": "o4",
-              "text": "Hot"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U44_FILLER_4",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'hot' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Rainy"
-            },
-            {
-              "id": "o2",
-              "text": "Windy"
-            },
-            {
-              "id": "o3",
-              "text": "Snowy"
-            },
-            {
-              "id": "o4",
-              "text": "[[Hot|caluroso]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U44_FILLER_5",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'snowing' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Snowing|snowing]]"
-            },
-            {
-              "id": "o2",
-              "text": "Stormy"
-            },
-            {
-              "id": "o3",
-              "text": "Cloudy"
-            },
-            {
-              "id": "o4",
-              "text": "Sunny"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U44_FILLER_6",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cloudy' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Cloudy|nublado]]"
-            },
-            {
-              "id": "o2",
-              "text": "Cool"
-            },
-            {
-              "id": "o3",
-              "text": "Foggy"
-            },
-            {
-              "id": "o4",
-              "text": "Sunny"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U44_FILLER_7",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'sunny' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Cool"
-            },
-            {
-              "id": "o2",
-              "text": "[[Sunny|soleado]]"
-            },
-            {
-              "id": "o3",
-              "text": "Cloudy"
-            },
-            {
-              "id": "o4",
-              "text": "Rainy"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U44_FILLER_8",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'raining' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Stormy"
-            },
-            {
-              "id": "o2",
-              "text": "[[Raining|raining]]"
-            },
-            {
-              "id": "o3",
-              "text": "Rainy"
-            },
-            {
-              "id": "o4",
-              "text": "Cloudy"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U44_FILLER_9",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'windy' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Icy"
-            },
-            {
-              "id": "o2",
-              "text": "[[Windy|ventoso]]"
-            },
-            {
-              "id": "o3",
-              "text": "Snowy"
-            },
-            {
-              "id": "o4",
-              "text": "Warm"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U44_FILLER_10",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cold' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Stormy"
-            },
-            {
-              "id": "o2",
-              "text": "[[Cold|frío]]"
-            },
-            {
-              "id": "o3",
-              "text": "Warm"
-            },
-            {
-              "id": "o4",
-              "text": "Cool"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U44_FILLER_11",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'hot' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Snowy"
-            },
-            {
-              "id": "o2",
-              "text": "Windy"
-            },
-            {
-              "id": "o3",
-              "text": "Rainy"
-            },
-            {
-              "id": "o4",
-              "text": "[[Hot|caluroso]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U44_FILLER_12",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'snowing' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Cold"
-            },
-            {
-              "id": "o2",
-              "text": "Cloudy"
-            },
-            {
-              "id": "o3",
-              "text": "Warm"
-            },
-            {
-              "id": "o4",
-              "text": "[[Snowing|snowing]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U44_FILLER_13",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cloudy' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Stormy"
-            },
-            {
-              "id": "o2",
-              "text": "[[Cloudy|nublado]]"
-            },
-            {
-              "id": "o3",
-              "text": "Cold"
-            },
-            {
-              "id": "o4",
-              "text": "Sunny"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U44_FILLER_14",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'sunny' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Icy"
-            },
-            {
-              "id": "o2",
-              "text": "[[Sunny|soleado]]"
-            },
-            {
-              "id": "o3",
-              "text": "Snowy"
-            },
-            {
-              "id": "o4",
-              "text": "Foggy"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U44_FILLER_15",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'raining' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Hot"
-            },
-            {
-              "id": "o2",
-              "text": "Sunny"
-            },
-            {
-              "id": "o3",
-              "text": "[[Raining|raining]]"
-            },
-            {
-              "id": "o4",
-              "text": "Warm"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U44_FILLER_16",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'windy' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Windy|ventoso]]"
-            },
-            {
-              "id": "o2",
-              "text": "Cloudy"
-            },
-            {
-              "id": "o3",
-              "text": "Cool"
-            },
-            {
-              "id": "o4",
-              "text": "Stormy"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U44_FILLER_17",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cold' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Icy"
-            },
-            {
-              "id": "o2",
-              "text": "Foggy"
-            },
-            {
-              "id": "o3",
-              "text": "[[Cold|frío]]"
-            },
-            {
-              "id": "o4",
-              "text": "Warm"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U44_FILLER_18",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'hot' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Cool"
-            },
-            {
-              "id": "o2",
-              "text": "Foggy"
-            },
-            {
-              "id": "o3",
-              "text": "Windy"
-            },
-            {
-              "id": "o4",
-              "text": "[[Hot|caluroso]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U44_FILLER_19",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'snowing' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Icy"
-            },
-            {
-              "id": "o2",
-              "text": "[[Snowing|snowing]]"
-            },
-            {
-              "id": "o3",
-              "text": "Foggy"
-            },
-            {
-              "id": "o4",
-              "text": "Stormy"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U44_FILLER_20",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cloudy' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Foggy"
-            },
-            {
-              "id": "o2",
-              "text": "Hot"
-            },
-            {
-              "id": "o3",
-              "text": "Cold"
-            },
-            {
-              "id": "o4",
-              "text": "[[Cloudy|nublado]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U44_FILLER_21",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'sunny' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Icy"
-            },
-            {
-              "id": "o2",
-              "text": "[[Sunny|soleado]]"
-            },
-            {
-              "id": "o3",
-              "text": "Cold"
-            },
-            {
-              "id": "o4",
-              "text": "Snowy"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U44_FILLER_22",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'raining' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Sunny"
-            },
-            {
-              "id": "o2",
-              "text": "Icy"
-            },
-            {
-              "id": "o3",
-              "text": "Cloudy"
-            },
-            {
-              "id": "o4",
-              "text": "[[Raining|raining]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U44_FILLER_23",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'windy' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Windy|ventoso]]"
-            },
-            {
-              "id": "o2",
-              "text": "Cold"
-            },
-            {
-              "id": "o3",
-              "text": "Rainy"
-            },
-            {
-              "id": "o4",
-              "text": "Snowy"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U44_FILLER_24",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cold' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Foggy"
-            },
-            {
-              "id": "o2",
-              "text": "Windy"
-            },
-            {
-              "id": "o3",
-              "text": "[[Cold|frío]]"
-            },
-            {
-              "id": "o4",
-              "text": "Cool"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U44_FILLER_25",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'hot' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Sunny"
-            },
-            {
-              "id": "o2",
-              "text": "[[Hot|caluroso]]"
-            },
-            {
-              "id": "o3",
-              "text": "Cloudy"
-            },
-            {
-              "id": "o4",
-              "text": "Foggy"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U44_FILLER_26",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'snowing' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Sunny"
-            },
-            {
-              "id": "o2",
-              "text": "[[Snowing|snowing]]"
-            },
-            {
-              "id": "o3",
-              "text": "Warm"
-            },
-            {
-              "id": "o4",
-              "text": "Cold"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U44_FILLER_27",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cloudy' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Cloudy|nublado]]"
-            },
-            {
-              "id": "o2",
-              "text": "Foggy"
-            },
-            {
-              "id": "o3",
-              "text": "Hot"
-            },
-            {
-              "id": "o4",
-              "text": "Cold"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U44_FILLER_28",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'sunny' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Stormy"
-            },
-            {
-              "id": "o2",
-              "text": "Foggy"
-            },
-            {
-              "id": "o3",
-              "text": "[[Sunny|soleado]]"
-            },
-            {
-              "id": "o4",
-              "text": "Warm"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        }
-      ]
-    },
-    {
-      "title": "Lesson 5: Listening & Pronunciation Review",
-      "duration_minutes": 20,
-      "content": [
-        {
-          "interaction_id": "U44_L5_I1",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[sunny|soleado]])",
-          "audio_url": "/audio/courses/ingles-a1/unit44/lesson5-task-1.mp3",
-          "transcript_template": "The [[sunny|]] is here.",
-          "correct_answer": "sunny",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U44_L5_I2",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[sunny|soleado]])",
-          "audio_url": "/audio/courses/ingles-a1/unit44/lesson5-task-2.mp3",
-          "transcript_template": "The [[raining|]] is here.",
-          "correct_answer": "raining",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
+          "interaction_id": "A1_U44_I52",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Hot|Caluroso]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Foggy|Neblinoso]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Snowy|Nevado]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Cold|Frío]]"
+            }
+          ],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U44_L5_I3",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[sunny|soleado]])",
-          "audio_url": "/audio/courses/ingles-a1/unit44/lesson5-task-3.mp3",
-          "transcript_template": "The [[windy|]] is here.",
-          "correct_answer": "windy",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
+          "interaction_id": "A1_U44_I53",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Foggy|Neblinoso]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Forecast|Previsión del tiempo]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Windy|Ventoso]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Stormy|Tormentoso]]"
+            }
+          ],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U44_L5_I4",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[sunny|soleado]])",
-          "audio_url": "/audio/courses/ingles-a1/unit44/lesson5-task-4.mp3",
-          "transcript_template": "The [[cold|]] is here.",
-          "correct_answer": "cold",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
+          "interaction_id": "A1_U44_I54",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Forecast|Previsión del tiempo]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Raincoat|Impermeable]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Temperature|Temperatura]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Degrees|Grados]]"
+            }
+          ],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U44_L5_I5",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[sunny|soleado]])",
-          "audio_url": "/audio/courses/ingles-a1/unit44/lesson5-task-5.mp3",
-          "transcript_template": "The [[hot|]] is here.",
-          "correct_answer": "hot",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
+          "interaction_id": "A1_U44_I55",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Don't|No]] [[forget|olvides]] [[your|tu]] ______ — [[it's|va a]] [[going|llover]] [[to|a]] [[rain|llover]].",
+          "correct_answer": "umbrella"
         },
         {
-          "interaction_id": "U44_L5_I6",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[sunny|soleado]])",
-          "audio_url": "/audio/courses/ingles-a1/unit44/lesson5-task-6.mp3",
-          "transcript_template": "The [[snowing|]] is here.",
-          "correct_answer": "snowing",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
+          "interaction_id": "A1_U44_I56",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[It|Hace]] ______ [[today|hoy]].",
+          "correct_answer": "is sunny"
         },
         {
-          "interaction_id": "U44_L5_I7",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[sunny|soleado]])",
-          "audio_url": "/audio/courses/ingles-a1/unit44/lesson5-task-7.mp3",
-          "transcript_template": "The [[cloudy|]] is here.",
-          "correct_answer": "cloudy",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
+          "interaction_id": "A1_U44_I57",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[It|Hace]] [[is|hace]] [[very|mucho]] ______ — [[bring|trae]] [[a|un]] [[jacket|abrigo]]!",
+          "correct_answer": "cold"
         },
         {
-          "interaction_id": "U44_L5_I8",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[sunny|soleado]])",
-          "title": "Pronunciación: The Weather",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[sunny|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-8.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U44_L5_I8_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'sunny'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
+          "interaction_id": "A1_U44_I58",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[What's|Cómo está]] [[the|el]] [[weather|tiempo]] [[like|como]] [[today|hoy]]?",
+          "correct_answer": true
         },
         {
-          "interaction_id": "U44_L5_I9",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[sunny|soleado]])",
-          "title": "Pronunciación: The Weather",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[raining|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-9.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U44_L5_I9_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'raining'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
+          "interaction_id": "A1_U44_I59",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[It's|Está]] [[quite|bastante]] [[cold|frío]] [[and|y]] [[cloudy|nublado]]. [[The|La]] [[forecast|previsión]] [[says|dice]] [[it's|que va a]] [[going|llover]] [[to|a]] [[rain|llover]] [[this|esta]] [[afternoon|tarde]].",
+          "correct_answer": false
         },
         {
-          "interaction_id": "U44_L5_I10",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[sunny|soleado]])",
-          "title": "Pronunciación: The Weather",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[windy|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-10.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U44_L5_I10_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'windy'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U44_L5_I11",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[sunny|soleado]])",
-          "title": "Pronunciación: The Weather",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[cold|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-11.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U44_L5_I11_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'cold'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U44_L5_I12",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[sunny|soleado]])",
-          "title": "Pronunciación: The Weather",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[hot|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-12.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U44_L5_I12_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'hot'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U44_L5_I13",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[sunny|soleado]])",
-          "title": "Pronunciación: The Weather",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[snowing|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-13.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U44_L5_I13_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'snowing'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U44_L5_I14",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[sunny|soleado]])",
-          "title": "Pronunciación: The Weather",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[cloudy|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-14.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U44_L5_I14_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'cloudy'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U44_L5_I15",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[sunny|soleado]])",
-          "title": "Pronunciación: The Weather",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[sunny|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit44/lesson5-task-15.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U44_L5_I15_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'sunny'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
+          "interaction_id": "A1_U44_I60",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Oh|Oh]] [[no|no]]! [[I|Yo]] [[wanted|quería]] [[to|ir al]] [[go|ir al]] [[park|parque]].",
+          "correct_answer": true
         }
       ]
     }

@@ -1,1280 +1,1232 @@
 {
   "course": {
-    "unit_id": "U20",
-    "unit_title": "Module 2 Review",
+    "unit_id": "unit20",
+    "unit_title": "Module 2 Review & Assessment",
     "level": "A1",
     "total_duration_minutes": 60,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Review telling the time (o'clock, quarter past/to, half past)",
-    "Review days of the week and daily routines",
-    "Review Present Simple (I/You/We/They and He/She/It)",
-    "Review café vocabulary, food and meal vocabulary, months and dates"
+    "Review all Module 2 topics: time, days, routines, food, hobbies, dates",
+    "Combine vocabulary and grammar from units 11–19",
+    "Produce extended descriptions of daily life"
   ],
   "blocks": [
     {
       "block_id": "B1",
-      "title": "Review: Time & Days (Units 11–12)",
+      "title": "Vocabulary Introduction",
       "content": [
         {
-          "interaction_id": "U20_I1",
-          "type": "matching",
-          "prompt_es": "Une la hora con su traducción:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Half past eight|Las ocho y media]]",
-              "right": "Las tres menos cuarto"
-            },
-            {
-              "id": "p2",
-              "left": "[[Quarter to three|Las tres menos cuarto]]",
-              "right": "Las nueve en punto"
-            },
-            {
-              "id": "p3",
-              "left": "[[Nine o'clock|Las nueve en punto]]",
-              "right": "Las cuatro y cuarto"
-            },
-            {
-              "id": "p4",
-              "left": "[[Quarter past four|Las cuatro y cuarto]]",
-              "right": "Las ocho y media"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p4",
-            "p2": "p1",
-            "p3": "p2",
-            "p4": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U20_I2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se pregunta la hora?",
+          "interaction_id": "A1_U20_I1",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Routine|Rutina]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[What time is it?|¿Qué hora es?]]"
+              "text": "[[Rutina|Routine]]"
             },
             {
               "id": "o2",
-              "text": "[[Where is the time?|Incorrecto]]"
+              "text": "[[Horario|Schedule]]"
             },
             {
               "id": "o3",
-              "text": "[[How much time?|¿Cuánto tiempo?]]"
+              "text": "[[Hábito|Habit]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U20_I3",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '[[The bus|El autobús]] leaves at ________ (las siete y media).'",
-          "stimulus_en": "The bus leaves at half ________ seven.",
-          "correct_answer": "past",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U20_I4",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es el quinto día de la semana (comenzando por el lunes)?",
+          "interaction_id": "A1_U20_I2",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Schedule|Horario]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[Friday|Viernes]]"
+              "text": "[[Hábito|Habit]]"
             },
             {
               "id": "o2",
-              "text": "[[Wednesday|Miércoles]]"
+              "text": "[[Horario|Schedule]]"
             },
             {
               "id": "o3",
-              "text": "[[Thursday|Jueves]]"
+              "text": "[[Preferencia|Preference]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U20_I5",
-          "type": "matching",
-          "prompt_es": "Une el día con su posición en la semana:",
-          "pairs": [
+          "interaction_id": "A1_U20_I3",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Habit|Hábito]]",
+          "options": [
             {
-              "id": "p1",
-              "left": "[[Monday|Lunes]]",
-              "right": "Day 4"
+              "id": "o1",
+              "text": "[[Preferencia|Preference]]"
             },
             {
-              "id": "p2",
-              "left": "[[Wednesday|Miércoles]]",
-              "right": "Day 1"
+              "id": "o2",
+              "text": "[[Cita|Appointment]]"
             },
             {
-              "id": "p3",
-              "left": "[[Thursday|Jueves]]",
-              "right": "Day 3"
-            },
-            {
-              "id": "p4",
-              "left": "[[Saturday|Sábado]]",
-              "right": "Day 6"
+              "id": "o3",
+              "text": "[[Hábito|Habit]]"
             }
           ],
-          "correct_answer": {
-            "p1": "p2",
-            "p2": "p3",
-            "p3": "p1",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U20_I6",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'I [[go|voy]] to the gym [[on|en]] ________ (los miércoles).'",
-          "stimulus_en": "I go to the gym on ________.",
-          "correct_answer": "Wednesdays",
-          "mastery_tag": "grammar"
+          "interaction_id": "A1_U20_I4",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Preference|Preferencia]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Preferencia|Preference]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Cita|Appointment]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Y media|Half past]]"
+            }
+          ],
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U20_I7",
-          "type": "true_false",
-          "prompt_es": "'[[On weekdays|Entre semana]]' significa de lunes a viernes.",
-          "correct_answer": true,
-          "mastery_tag": "vocabulary"
+          "interaction_id": "A1_U20_I5",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Appointment|Cita]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Y media|Half past]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Cita|Appointment]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Día de semana|Weekday]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U20_I6",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Half past|Y media]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Día de semana|Weekday]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Frecuencia|Frequency]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Y media|Half past]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U20_I7",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Día de semana]]",
+          "correct_answer": "Weekday"
+        },
+        {
+          "interaction_id": "A1_U20_I8",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Frecuencia]]",
+          "correct_answer": "Frequency"
+        },
+        {
+          "interaction_id": "A1_U20_I9",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Número ordinal]]",
+          "correct_answer": "Ordinal number"
+        },
+        {
+          "interaction_id": "A1_U20_I10",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Secuencia]]",
+          "correct_answer": "Sequence"
         }
       ]
     },
     {
       "block_id": "B2",
-      "title": "Review: Daily Routines & Present Simple I/You/We/They (Units 13–14)",
+      "title": "Vocabulary in Context",
       "content": [
         {
-          "interaction_id": "U20_I8",
-          "type": "matching",
-          "prompt_es": "Une la rutina con su hora:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Wake up|Despertarse]]",
-              "right": "11pm"
-            },
-            {
-              "id": "p2",
-              "left": "[[Have breakfast|Desayunar]]",
-              "right": "7am"
-            },
-            {
-              "id": "p3",
-              "left": "[[Have lunch|Comer]]",
-              "right": "7:30am"
-            },
-            {
-              "id": "p4",
-              "left": "[[Go to bed|Irse a la cama]]",
-              "right": "1pm"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p3",
-            "p2": "p2",
-            "p3": "p4",
-            "p4": "p1"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U20_I9",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es correcto en Present Simple?",
+          "interaction_id": "A1_U20_I11",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Preference|Preferencia]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[We works in an office|Incorrecto]]"
+              "text": "[[Preference|Preferencia]]"
             },
             {
               "id": "o2",
-              "text": "[[You works at a café|Incorrecto]]"
+              "text": "[[Weekday|Día de semana]]"
             },
             {
               "id": "o3",
-              "text": "[[They work from home|Ellos trabajan desde casa]]"
+              "text": "[[Sequence|Secuencia]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "grammar"
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U20_I10",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '[[We|Nosotros]] ________ (estudiar) English on Tuesdays.'",
-          "stimulus_en": "We ________ English on Tuesdays.",
-          "correct_answer": "study",
-          "mastery_tag": "grammar"
+          "interaction_id": "A1_U20_I12",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Appointment|Cita]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Frequency|Frecuencia]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Appointment|Cita]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Leisure|Ocio]]"
+            }
+          ],
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U20_I11",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'Yo no como carne.' ([[review|repaso]])",
+          "interaction_id": "A1_U20_I13",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Half past|Y media]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Ordinal number|Número ordinal]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Timetable|Horario de clases]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Half past|Y media]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U20_I14",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Weekday|Día de semana]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Weekday|Día de semana]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Sequence|Secuencia]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Date|Fecha]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U20_I15",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[What|A qué]] ______ [[does|empieza]] [[school|la escuela]] [[start|empieza]]?",
+          "correct_answer": "time"
+        },
+        {
+          "interaction_id": "A1_U20_I16",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[She|Ella]] [[doesn't|no]] ______ [[on|los]] [[Sundays|domingos]].",
+          "correct_answer": "work"
+        },
+        {
+          "interaction_id": "A1_U20_I17",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[love|me encanta]] ______ [[in|en]] [[the|el]] [[sea|mar]].",
+          "correct_answer": "swimming"
+        },
+        {
+          "interaction_id": "A1_U20_I18",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
           "options": [
             {
               "id": "w1",
-              "text": "I"
+              "text": "[[Routine|Rutina]]"
             },
             {
               "id": "w2",
-              "text": "don't"
+              "text": "[[Habit|Hábito]]"
             },
             {
               "id": "w3",
-              "text": "eat"
-            },
-            {
-              "id": "w4",
-              "text": "meat."
+              "text": "[[Schedule|Horario]]"
             }
           ],
           "correct_answer": [
             "w1",
-            "w2",
             "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
+            "w2"
+          ]
         },
         {
-          "interaction_id": "U20_I12",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la pregunta correcta para I/You/We/They?",
+          "interaction_id": "A1_U20_I19",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
           "options": [
             {
-              "id": "o1",
-              "text": "[[Does you work here?|Incorrecto]]"
+              "id": "w1",
+              "text": "[[Appointment|Cita]]"
             },
             {
-              "id": "o2",
-              "text": "[[Is you work here?|Incorrecto]]"
+              "id": "w2",
+              "text": "[[Weekday|Día de semana]]"
             },
             {
-              "id": "o3",
-              "text": "[[Do you work here?|¿Trabajas aquí?]]"
+              "id": "w3",
+              "text": "[[Half past|Y media]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "grammar"
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
         },
         {
-          "interaction_id": "U20_I13",
-          "type": "short_writing",
-          "prompt_es": "Pregunta: '¿Viven ellos en Madrid?' ([[review|repaso]])",
-          "correct_answer": "Do they live in Madrid?",
-          "mastery_tag": "grammar"
+          "interaction_id": "A1_U20_I20",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Ordinal number|Número ordinal]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Leisure|Ocio]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Sequence|Secuencia]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
         }
       ]
     },
     {
       "block_id": "B3",
-      "title": "Review: Present Simple He/She/It & Café (Units 15–16)",
+      "title": "Grammar — Affirmative",
       "content": [
         {
-          "interaction_id": "U20_I14",
-          "type": "matching",
-          "prompt_es": "Une el infinitivo con su forma en tercera persona singular:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Go|Ir]]",
-              "right": "Finishes"
-            },
-            {
-              "id": "p2",
-              "left": "[[Study|Estudiar]]",
-              "right": "Goes"
-            },
-            {
-              "id": "p3",
-              "left": "[[Finish|Terminar]]",
-              "right": "Studies"
-            },
-            {
-              "id": "p4",
-              "left": "[[Have|Tener]]",
-              "right": "Has"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p2",
-            "p2": "p3",
-            "p3": "p1",
-            "p4": "p4"
-          },
-          "mastery_tag": "grammar"
+          "interaction_id": "A1_U20_I21",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[What|A qué]] ______ [[does|empieza]] [[school|la escuela]] [[start|empieza]]?",
+          "correct_answer": "time"
         },
         {
-          "interaction_id": "U20_I15",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es correcto?",
+          "interaction_id": "A1_U20_I22",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[She|Ella]] [[doesn't|no]] ______ [[on|los]] [[Sundays|domingos]].",
+          "correct_answer": "work"
+        },
+        {
+          "interaction_id": "A1_U20_I23",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[love|me encanta]] ______ [[in|en]] [[the|el]] [[sea|mar]].",
+          "correct_answer": "swimming"
+        },
+        {
+          "interaction_id": "A1_U20_I24",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[My|Mi]] [[birthday|cumpleaños]] [[is|es]] ______ [[July|julio]].",
+          "correct_answer": "in"
+        },
+        {
+          "interaction_id": "A1_U20_I25",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "______, [[he|él]] [[has|desayuna]] [[breakfast|el desayuno]].",
           "options": [
             {
               "id": "o1",
-              "text": "[[She don't like tea|Incorrecto]]"
+              "text": "[[First|First]]"
             },
             {
               "id": "o2",
-              "text": "[[She doesn't likes tea|Incorrecto]]"
+              "text": "[[work|work]]"
             },
             {
               "id": "o3",
-              "text": "[[She doesn't like tea|Correcto]]"
+              "text": "[[swimming|swimming]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "grammar"
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U20_I16",
-          "type": "fill_blanks",
-          "prompt_es": "Completa la pregunta: '¿Habla él francés?' ([[review|repaso]])",
-          "stimulus_en": "________ he speak French?",
-          "correct_answer": "Does",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U20_I17",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo pides una bebida educadamente en un café?",
+          "interaction_id": "A1_U20_I26",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Do|Te gustan]] [[you|tú]] ______ [[eggs|los huevos]]?",
           "options": [
             {
               "id": "o1",
-              "text": "[[Give me coffee!|Incorrecto]]"
+              "text": "[[swimming|swimming]]"
             },
             {
               "id": "o2",
-              "text": "[[I'd like a coffee, please|Me gustaría un café, por favor]]"
+              "text": "[[like|like]]"
             },
             {
               "id": "o3",
-              "text": "[[Coffee me please|Incorrecto]]"
+              "text": "[[in|in]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "functions"
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U20_I18",
-          "type": "matching",
-          "prompt_es": "Une la frase de café con su uso:",
-          "pairs": [
+          "interaction_id": "A1_U20_I27",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[What|A qué]] ______ [[does|empieza]] [[school|la escuela]] [[start|empieza]]?",
+          "options": [
             {
-              "id": "p1",
-              "left": "[[Can I have the bill?|¿Me trae la cuenta?]]",
-              "right": "Preguntar el precio"
+              "id": "o1",
+              "text": "[[in|in]]"
             },
             {
-              "id": "p2",
-              "left": "[[How much is it?|¿Cuánto cuesta?]]",
-              "right": "Pedir la cuenta"
+              "id": "o2",
+              "text": "[[First|First]]"
             },
             {
-              "id": "p3",
-              "left": "[[Here you are|Aquí tiene]]",
-              "right": "Ofrecer algo al cliente"
-            },
-            {
-              "id": "p4",
-              "left": "[[What would you like?|¿Qué desea?]]",
-              "right": "Tomar el pedido"
+              "id": "o3",
+              "text": "[[time|time]]"
             }
           ],
-          "correct_answer": {
-            "p1": "p2",
-            "p2": "p1",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "functions"
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U20_I19",
-          "type": "true_false",
-          "prompt_es": "'[[Does she watch TV?|¿Ve ella la televisión?]]' es una pregunta correcta.",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "interaction_id": "A1_U20_I28",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[She|Ella]] [[doesn't|no]] ______ [[on|los]] [[Sundays|domingos]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[work|work]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[First|First]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[like|like]]"
+            }
+          ],
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U20_I20",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Él no bebe café.' ([[review|repaso]])",
-          "correct_answer": "He doesn't drink coffee",
-          "mastery_tag": "grammar"
+          "interaction_id": "A1_U20_I29",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Habit|Hábito]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Routine|Rutina]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Appointment|Cita]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
+          ]
+        },
+        {
+          "interaction_id": "A1_U20_I30",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Frequency|Frecuencia]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Half past|Y media]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Sequence|Secuencia]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
+          ]
         }
       ]
     },
     {
       "block_id": "B4",
-      "title": "Review: Food, Some/Any & Healthy Eating (Units 17–18)",
+      "title": "Grammar — Negative & Questions",
       "content": [
         {
-          "interaction_id": "U20_I21",
-          "type": "matching",
-          "prompt_es": "Une la comida con su categoría:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Strawberry|Fresa]]",
-              "right": "Verdura"
-            },
-            {
-              "id": "p2",
-              "left": "[[Carrot|Zanahoria]]",
-              "right": "Fruta"
-            },
-            {
-              "id": "p3",
-              "left": "[[Chicken|Pollo]]",
-              "right": "Proteína"
-            },
-            {
-              "id": "p4",
-              "left": "[[Lettuce|Lechuga]]",
-              "right": "Proteína (también)"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p2",
-            "p2": "p1",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary"
+          "interaction_id": "A1_U20_I31",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[love|me encanta]] ______ [[in|en]] [[the|el]] [[sea|mar]].",
+          "correct_answer": "swimming"
         },
         {
-          "interaction_id": "U20_I22",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es correcto?",
+          "interaction_id": "A1_U20_I32",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[My|Mi]] [[birthday|cumpleaños]] [[is|es]] ______ [[July|julio]].",
+          "correct_answer": "in"
+        },
+        {
+          "interaction_id": "A1_U20_I33",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "______, [[he|él]] [[has|desayuna]] [[breakfast|el desayuno]].",
+          "correct_answer": "First"
+        },
+        {
+          "interaction_id": "A1_U20_I34",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[My|Mi]] [[birthday|cumpleaños]] [[is|es]] ______ [[July|julio]].",
           "options": [
             {
               "id": "o1",
-              "text": "[[I have some bread and some butter|Tengo pan y mantequilla]]"
+              "text": "[[in|in]]"
             },
             {
               "id": "o2",
-              "text": "[[I have any bread and any butter|Incorrecto en afirmativa]]"
+              "text": "[[like|like]]"
             },
             {
               "id": "o3",
-              "text": "[[I have some bread and any butter|Mezcla incorrecta]]"
+              "text": "[[time|time]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U20_I23",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '¿Tienes ________ leche?' ([[milk|leche]])",
-          "stimulus_en": "Do you have ________ milk?",
-          "correct_answer": "any",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U20_I24",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es un alimento saludable?",
+          "interaction_id": "A1_U20_I35",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "______, [[he|él]] [[has|desayuna]] [[breakfast|el desayuno]].",
           "options": [
             {
               "id": "o1",
-              "text": "[[Chocolate cake|Tarta de chocolate]]"
+              "text": "[[time|time]]"
             },
             {
               "id": "o2",
-              "text": "[[Chips and pizza|Patatas fritas y pizza]]"
+              "text": "[[First|First]]"
             },
             {
               "id": "o3",
-              "text": "[[Fresh fruit and vegetables|Fruta y verduras frescas]]"
+              "text": "[[work|work]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U20_I25",
-          "type": "matching",
-          "prompt_es": "Une el adjetivo de comida con su traducción:",
-          "pairs": [
+          "interaction_id": "A1_U20_I36",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Do|Te gustan]] [[you|tú]] ______ [[eggs|los huevos]]?",
+          "options": [
             {
-              "id": "p1",
-              "left": "[[Spicy|Picante]]",
-              "right": "Salado"
+              "id": "o1",
+              "text": "[[work|work]]"
             },
             {
-              "id": "p2",
-              "left": "[[Salty|Salado]]",
-              "right": "Dulce"
+              "id": "o2",
+              "text": "[[swimming|swimming]]"
             },
             {
-              "id": "p3",
-              "left": "[[Sweet|Dulce]]",
-              "right": "Fresco"
-            },
-            {
-              "id": "p4",
-              "left": "[[Fresh|Fresco]]",
-              "right": "Picante"
+              "id": "o3",
+              "text": "[[like|like]]"
             }
           ],
-          "correct_answer": {
-            "p1": "p4",
-            "p2": "p1",
-            "p3": "p2",
-            "p4": "p3"
-          },
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U20_I26",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: '¿Hay algo de zumo?'",
+          "interaction_id": "A1_U20_I37",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[What|A qué]] ______ [[does|empieza]] [[school|la escuela]] [[start|empieza]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[time|time]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[swimming|swimming]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[in|in]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U20_I38",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
           "options": [
             {
               "id": "w1",
-              "text": "Is"
+              "text": "[[Appointment|Cita]]"
             },
             {
               "id": "w2",
-              "text": "there"
+              "text": "[[Schedule|Horario]]"
             },
             {
               "id": "w3",
-              "text": "[[any|algún/ningún]]"
+              "text": "[[Weekday|Día de semana]]"
             },
             {
               "id": "w4",
-              "text": "juice?"
+              "text": "[[Habit|Hábito]]"
             }
           ],
           "correct_answer": [
-            "w1",
             "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
+            "w1",
+            "w4",
+            "w3"
+          ]
         },
         {
-          "interaction_id": "U20_I27",
-          "type": "short_writing",
-          "prompt_es": "Escribe: 'Ella come fruta cada día.' ([[review|repaso]])",
-          "correct_answer": "She eats fruit every day",
-          "mastery_tag": "grammar"
+          "interaction_id": "A1_U20_I39",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Frequency|Frecuencia]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Appointment|Cita]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Sequence|Secuencia]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Half past|Y media]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
+        },
+        {
+          "interaction_id": "A1_U20_I40",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Leisure|Ocio]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Frequency|Frecuencia]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Date|Fecha]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Ordinal number|Número ordinal]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
         }
       ]
     },
     {
       "block_id": "B5",
-      "title": "Review: Months, Dates & Seasons (Unit 19) + Reading",
+      "title": "Reading Comprehension",
       "content": [
         {
-          "interaction_id": "U20_READ1",
-          "type": "reading_phase",
-          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[carefully|con atención]].",
-          "transcript": "[[Carlos|Carlos]] is a [[student|estudiante]] from [[Spain|España]]. He [[studies|estudia]] [[English|inglés]] in [[London|Londres]]. His [[routine|rutina]] is very [[busy|ocupada]]. He [[wakes|se despierta]] up at [[half past seven|las siete y media]]. He [[has|toma]] [[breakfast|desayuno]] — usually some [[toast|tostada]] and [[fresh|fresco]] [[orange juice|zumo de naranja]]. He [[doesn't|no]] eat any [[junk food|comida basura]]. He [[goes|va]] to class [[on|en]] [[Mondays|los lunes]], [[Wednesdays|miércoles]] and [[Fridays|viernes]]. His [[favourite|favorita]] [[month|mes]] is [[May|mayo]] because the [[weather|tiempo]] is [[warm|cálido]] and [[sunny|soleado]]. His [[birthday|cumpleaños]] is on the [[3rd of May|3 de mayo]]. He [[loves|ama]] [[spring|primavera]]!",
+          "interaction_id": "A1_U20_I41",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
           "mastery_tag": "reading",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U20_I28",
-          "type": "multiple_choice",
-          "prompt_es": "¿A qué hora se levanta Carlos?",
+          "complexity": 2,
+          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[typical|típico]] [[Monday|lunes]]. [[I|Yo]] [[wake|me despierto]] [[up|arriba]] [[at|a]] [[seven|las siete]], [[have|desayuno]], [[then|luego]] [[go|voy]] [[to|al]] [[work|trabajo]] [[at|a]] [[eight|las ocho]] [[thirty|y media]]. [[Do|Comes]] [[you|tú]] [[eat|comes]] [[lunch|el almuerzo]] [[at|a]] [[work|trabajas]]? [[Yes|Sí]], [[usually|normalmente]] [[at|a]] [[one|la una]] [[o'clock|en punto]]. [[I|Yo]] [[like|me gusta]] [[having|tener]] [[salad|ensalada]] [[or|o]] [[a|un]] [[sandwich|sándwich]]. [[And|Y]] [[what|qué]] [[do|haces]] [[you|tú]] [[do|haces]] [[after|después del]] [[work|trabajo]]?",
+          "question_en": "[[What|A qué]] [[time|hora]] [[does|se despierta]] [[the|el]] [[speaker|hablante]] [[wake|despierta]] [[up|arriba]]?",
           "options": [
             {
               "id": "o1",
+              "text": "[[At six thirty|A las seis y media]]"
+            },
+            {
+              "id": "o2",
               "text": "[[At seven o'clock|A las siete en punto]]"
             },
             {
-              "id": "o2",
-              "text": "[[At quarter past eight|A las ocho y cuarto]]"
-            },
-            {
               "id": "o3",
-              "text": "[[At half past seven|A las siete y media]]"
+              "text": "[[At seven thirty|A las siete y media]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "reading"
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U20_I29",
-          "type": "true_false",
-          "prompt_es": "Carlos desayuna comida basura. ([[review|repaso]])",
-          "correct_answer": false,
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U20_I30",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué días va Carlos a clase?",
+          "interaction_id": "A1_U20_I42",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[typical|típico]] [[Monday|lunes]]. [[I|Yo]] [[wake|me despierto]] [[up|arriba]] [[at|a]] [[seven|las siete]], [[have|desayuno]], [[then|luego]] [[go|voy]] [[to|al]] [[work|trabajo]] [[at|a]] [[eight|las ocho]] [[thirty|y media]]. [[Do|Comes]] [[you|tú]] [[eat|comes]] [[lunch|el almuerzo]] [[at|a]] [[work|trabajas]]? [[Yes|Sí]], [[usually|normalmente]] [[at|a]] [[one|la una]] [[o'clock|en punto]]. [[I|Yo]] [[like|me gusta]] [[having|tener]] [[salad|ensalada]] [[or|o]] [[a|un]] [[sandwich|sándwich]]. [[And|Y]] [[what|qué]] [[do|haces]] [[you|tú]] [[do|haces]] [[after|después del]] [[work|trabajo]]?",
+          "question_en": "[[What|A qué]] [[time|hora]] [[does|va]] [[the|el]] [[speaker|hablante]] [[go|va]] [[to|al]] [[work|trabajo]]?",
           "options": [
             {
               "id": "o1",
-              "text": "[[Monday, Tuesday, Thursday|Lunes, martes, jueves]]"
+              "text": "[[Eight o'clock|Las ocho en punto]]"
             },
             {
               "id": "o2",
-              "text": "[[Monday, Wednesday, Friday|Lunes, miércoles, viernes]]"
+              "text": "[[Eight thirty|Las ocho y media]]"
             },
             {
               "id": "o3",
-              "text": "[[Tuesday, Thursday, Saturday|Martes, jueves, sábado]]"
+              "text": "[[Nine o'clock|Las nueve en punto]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading"
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U20_I31",
-          "type": "fill_blanks",
-          "prompt_es": "El cumpleaños de Carlos es el ________ de mayo. ([[review|repaso]])",
-          "stimulus_en": "Carlos's birthday is on the ________ of May.",
-          "correct_answer": "3rd",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U20_I32",
-          "type": "matching",
-          "prompt_es": "Une el mes con su estación:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[May|Mayo]]",
-              "right": "Autumn"
-            },
-            {
-              "id": "p2",
-              "left": "[[August|Agosto]]",
-              "right": "Spring"
-            },
-            {
-              "id": "p3",
-              "left": "[[October|Octubre]]",
-              "right": "Winter"
-            },
-            {
-              "id": "p4",
-              "left": "[[January|Enero]]",
-              "right": "Summer"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p2",
-            "p2": "p4",
-            "p3": "p1",
-            "p4": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U20_I33",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'el décimo de noviembre'?",
+          "interaction_id": "A1_U20_I43",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[typical|típico]] [[Monday|lunes]]. [[I|Yo]] [[wake|me despierto]] [[up|arriba]] [[at|a]] [[seven|las siete]], [[have|desayuno]], [[then|luego]] [[go|voy]] [[to|al]] [[work|trabajo]] [[at|a]] [[eight|las ocho]] [[thirty|y media]]. [[Do|Comes]] [[you|tú]] [[eat|comes]] [[lunch|el almuerzo]] [[at|a]] [[work|trabajas]]? [[Yes|Sí]], [[usually|normalmente]] [[at|a]] [[one|la una]] [[o'clock|en punto]]. [[I|Yo]] [[like|me gusta]] [[having|tener]] [[salad|ensalada]] [[or|o]] [[a|un]] [[sandwich|sándwich]]. [[And|Y]] [[what|qué]] [[do|haces]] [[you|tú]] [[do|haces]] [[after|después del]] [[work|trabajo]]?",
+          "question_en": "[[What|A qué]] [[time|hora]] [[does|almuerza]] [[the|el]] [[speaker|hablante]] [[have|tiene]] [[lunch|almuerzo]]?",
           "options": [
             {
               "id": "o1",
-              "text": "[[The tenth of November|El diez de noviembre]]"
+              "text": "[[Twelve o'clock|Las doce en punto]]"
             },
             {
               "id": "o2",
-              "text": "[[The ten of November|Incorrecto]]"
+              "text": "[[One o'clock|La una en punto]]"
             },
             {
               "id": "o3",
-              "text": "[[November the tenths|Incorrecto]]"
+              "text": "[[Two o'clock|Las dos en punto]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U20_I34",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'Mi cumpleaños es ________ (en) agosto.' ([[review|repaso]])",
-          "stimulus_en": "My birthday is ________ August.",
-          "correct_answer": "in",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U20_I35",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: '¿Cuándo es tu cumpleaños?' ([[review|repaso]])",
-          "options": [
-            {
-              "id": "w1",
-              "text": "When"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "your"
-            },
-            {
-              "id": "w4",
-              "text": "birthday?"
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "functions"
-        },
-        {
-          "interaction_id": "U20_I36",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la respuesta correcta a '[[Does Carlos eat junk food?|¿Come Carlos comida basura?]]'?",
+          "interaction_id": "A1_U20_I44",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[typical|típico]] [[Monday|lunes]]. [[I|Yo]] [[wake|me despierto]] [[up|arriba]] [[at|a]] [[seven|las siete]], [[have|desayuno]], [[then|luego]] [[go|voy]] [[to|al]] [[work|trabajo]] [[at|a]] [[eight|las ocho]] [[thirty|y media]]. [[Do|Comes]] [[you|tú]] [[eat|comes]] [[lunch|el almuerzo]] [[at|a]] [[work|trabajas]]? [[Yes|Sí]], [[usually|normalmente]] [[at|a]] [[one|la una]] [[o'clock|en punto]]. [[I|Yo]] [[like|me gusta]] [[having|tener]] [[salad|ensalada]] [[or|o]] [[a|un]] [[sandwich|sándwich]]. [[And|Y]] [[what|qué]] [[do|haces]] [[you|tú]] [[do|haces]] [[after|después del]] [[work|trabajo]]?",
+          "question_en": "[[What|Qué]] [[does|come]] [[the|el]] [[speaker|hablante]] [[eat|come]] [[for|de]] [[lunch|almuerzo]]?",
           "options": [
             {
               "id": "o1",
-              "text": "[[Yes, he does|Sí, come]]"
+              "text": "[[Rice or pasta|Arroz o pasta]]"
             },
             {
               "id": "o2",
-              "text": "[[No, he doesn't|No, no come]]"
+              "text": "[[Salad or sandwich|Ensalada o sándwich]]"
             },
             {
               "id": "o3",
-              "text": "[[Yes, he don't|Incorrecto]]"
+              "text": "[[Soup or bread|Sopa o pan]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading"
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U20_I37",
-          "type": "short_writing",
-          "prompt_es": "Resume: ¿Qué desayuna Carlos? ([[review|repaso]])",
-          "correct_answer": "He has toast and fresh orange juice",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U20_I38",
-          "type": "matching",
-          "prompt_es": "Repaso general: Une cada tema con su contenido:",
-          "pairs": [
+          "interaction_id": "A1_U20_I45",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[typical|típico]] [[Monday|lunes]]. [[I|Yo]] [[wake|me despierto]] [[up|arriba]] [[at|a]] [[seven|las siete]], [[have|desayuno]], [[then|luego]] [[go|voy]] [[to|al]] [[work|trabajo]] [[at|a]] [[eight|las ocho]] [[thirty|y media]]. [[Do|Comes]] [[you|tú]] [[eat|comes]] [[lunch|el almuerzo]] [[at|a]] [[work|trabajas]]? [[Yes|Sí]], [[usually|normalmente]] [[at|a]] [[one|la una]] [[o'clock|en punto]]. [[I|Yo]] [[like|me gusta]] [[having|tener]] [[salad|ensalada]] [[or|o]] [[a|un]] [[sandwich|sándwich]]. [[And|Y]] [[what|qué]] [[do|haces]] [[you|tú]] [[do|haces]] [[after|después del]] [[work|trabajo]]?",
+          "question_en": "[[Which|Cuál]] [[grammar|gramática]] [[structure|estructura]] [[is|es]] [[used|usa]] [[for|para]] [[negatives|negativos]] [[with|con]] 'she/he'?",
+          "options": [
             {
-              "id": "p1",
-              "left": "[[Time|Tiempo/Hora]]",
-              "right": "I study, we work"
+              "id": "o1",
+              "text": "[[don't + verb|don't + verbo]]"
             },
             {
-              "id": "p2",
-              "left": "[[Present Simple I/You|Presente Simple Yo/Tú]]",
-              "right": "doesn't, does?"
+              "id": "o2",
+              "text": "[[doesn't + verb|doesn't + verbo]]"
             },
             {
-              "id": "p3",
-              "left": "[[He/She/It forms|Tercera persona singular]]",
-              "right": "o'clock, half past"
-            },
-            {
-              "id": "p4",
-              "left": "[[Months & Seasons|Meses y Estaciones]]",
-              "right": "January, spring, in/on"
+              "id": "o3",
+              "text": "[[isn't + verb|isn't + verbo]]"
             }
           ],
-          "correct_answer": {
-            "p1": "p3",
-            "p2": "p1",
-            "p3": "p2",
-            "p4": "p4"
-          },
-          "mastery_tag": "grammar"
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U20_I39",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'Carlos [[studies|estudia]] ________ (inglés) in London.'",
-          "stimulus_en": "Carlos studies ________ in London.",
-          "correct_answer": "English",
-          "mastery_tag": "reading"
+          "interaction_id": "A1_U20_I46",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[typical|típico]] [[Monday|lunes]]. [[I|Yo]] [[wake|me despierto]] [[up|arriba]] [[at|a]] [[seven|las siete]], [[have|desayuno]], [[then|luego]] [[go|voy]] [[to|al]] [[work|trabajo]] [[at|a]] [[eight|las ocho]] [[thirty|y media]]. [[Do|Comes]] [[you|tú]] [[eat|comes]] [[lunch|el almuerzo]] [[at|a]] [[work|trabajas]]? [[Yes|Sí]], [[usually|normalmente]] [[at|a]] [[one|la una]] [[o'clock|en punto]]. [[I|Yo]] [[like|me gusta]] [[having|tener]] [[salad|ensalada]] [[or|o]] [[a|un]] [[sandwich|sándwich]]. [[And|Y]] [[what|qué]] [[do|haces]] [[you|tú]] [[do|haces]] [[after|después del]] [[work|trabajo]]?",
+          "question_en": "[[Which|Cuál]] [[preposition|preposición]] [[goes|va]] [[with|con]] [[months|meses]] [[in|en]] [[English|inglés]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[on|on]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[at|at]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[in|in]]"
+            }
+          ],
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U20_I40",
-          "type": "short_writing",
-          "prompt_es": "Traduce: '¿En qué estación es tu cumpleaños?' ([[review|repaso]])",
-          "correct_answer": "What season is your birthday in?",
-          "mastery_tag": "functions"
+          "interaction_id": "A1_U20_I47",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[typical|típico]] [[Monday|lunes]]. [[I|Yo]] [[wake|me despierto]] [[up|arriba]] [[at|a]] [[seven|las siete]], [[have|desayuno]], [[then|luego]] [[go|voy]] [[to|al]] [[work|trabajo]] [[at|a]] [[eight|las ocho]] [[thirty|y media]]. [[Do|Comes]] [[you|tú]] [[eat|comes]] [[lunch|el almuerzo]] [[at|a]] [[work|trabajas]]? [[Yes|Sí]], [[usually|normalmente]] [[at|a]] [[one|la una]] [[o'clock|en punto]]. [[I|Yo]] [[like|me gusta]] [[having|tener]] [[salad|ensalada]] [[or|o]] [[a|un]] [[sandwich|sándwich]]. [[And|Y]] [[what|qué]] [[do|haces]] [[you|tú]] [[do|haces]] [[after|después del]] [[work|trabajo]]?",
+          "question_en": "[[What|Qué]] [[sequence|secuencia]] [[adverb|adverbio]] [[comes|viene]] [[first|primero]] [[in|en]] [[a|una]] [[routine|rutina]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Then|Luego]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[After that|Después de eso]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[First|Primero]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U20_I48",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[typical|típico]] [[Monday|lunes]]. [[I|Yo]] [[wake|me despierto]] [[up|arriba]] [[at|a]] [[seven|las siete]], [[have|desayuno]], [[then|luego]] [[go|voy]] [[to|al]] [[work|trabajo]] [[at|a]] [[eight|las ocho]] [[thirty|y media]]. [[Do|Comes]] [[you|tú]] [[eat|comes]] [[lunch|el almuerzo]] [[at|a]] [[work|trabajas]]? [[Yes|Sí]], [[usually|normalmente]] [[at|a]] [[one|la una]] [[o'clock|en punto]]. [[I|Yo]] [[like|me gusta]] [[having|tener]] [[salad|ensalada]] [[or|o]] [[a|un]] [[sandwich|sándwich]]. [[And|Y]] [[what|qué]] [[do|haces]] [[you|tú]] [[do|haces]] [[after|después del]] [[work|trabajo]]?",
+          "question_en": "[[How|Cómo]] [[do|dices]] [[you|tú]] [[say|dices]] [[you|tú]] [[enjoy|disfrutas]] [[something|algo]] [[in|en]] [[English|inglés]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[I like + noun/-ing|I like + nombre/-ing]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[I is liking + noun|Incorrecto]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[I enjoy to + verb|I enjoy to + verbo]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U20_I49",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[typical|típico]] [[Monday|lunes]]. [[I|Yo]] [[wake|me despierto]] [[up|arriba]] [[at|a]] [[seven|las siete]], [[have|desayuno]], [[then|luego]] [[go|voy]] [[to|al]] [[work|trabajo]] [[at|a]] [[eight|las ocho]] [[thirty|y media]]. [[Do|Comes]] [[you|tú]] [[eat|comes]] [[lunch|el almuerzo]] [[at|a]] [[work|trabajas]]? [[Yes|Sí]], [[usually|normalmente]] [[at|a]] [[one|la una]] [[o'clock|en punto]]. [[I|Yo]] [[like|me gusta]] [[having|tener]] [[salad|ensalada]] [[or|o]] [[a|un]] [[sandwich|sándwich]]. [[And|Y]] [[what|qué]] [[do|haces]] [[you|tú]] [[do|haces]] [[after|después del]] [[work|trabajo]]?",
+          "question_en": "[[What|Cómo]] [[is|se dice]] 'las ocho y media' [[in|en]] [[English|inglés]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[eight past half|Incorrecto]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[half past eight|Las ocho y media]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[eight and half|Incorrecto]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U20_I50",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[typical|típico]] [[Monday|lunes]]. [[I|Yo]] [[wake|me despierto]] [[up|arriba]] [[at|a]] [[seven|las siete]], [[have|desayuno]], [[then|luego]] [[go|voy]] [[to|al]] [[work|trabajo]] [[at|a]] [[eight|las ocho]] [[thirty|y media]]. [[Do|Comes]] [[you|tú]] [[eat|comes]] [[lunch|el almuerzo]] [[at|a]] [[work|trabajas]]? [[Yes|Sí]], [[usually|normalmente]] [[at|a]] [[one|la una]] [[o'clock|en punto]]. [[I|Yo]] [[like|me gusta]] [[having|tener]] [[salad|ensalada]] [[or|o]] [[a|un]] [[sandwich|sándwich]]. [[And|Y]] [[what|qué]] [[do|haces]] [[you|tú]] [[do|haces]] [[after|después del]] [[work|trabajo]]?",
+          "question_en": "[[Which|Cuál]] [[day|día]] [[comes|viene]] [[after|después de]] [[Friday|viernes]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Sunday|Domingo]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Monday|Lunes]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Saturday|Sábado]]"
+            }
+          ],
+          "correct_answer": "o3"
         }
       ]
     },
     {
-      "block_id": "B20_6",
-      "title": "Block 6: Module 2 Comprehensive Review",
+      "block_id": "B6",
+      "title": "Production",
       "content": [
         {
-          "interaction_id": "A1_U20_B20_6_E1",
-          "type": "multiple_choice",
-          "prompt_es": "Repaso: \"She ________ [[work|trabajar]] on Sundays.\" (3ª persona negativa)",
-          "options": [
-            {
-              "id": "o1",
-              "text": "don't work"
-            },
-            {
-              "id": "o2",
-              "text": "doesn't works"
-            },
-            {
-              "id": "o3",
-              "text": "not work"
-            },
-            {
-              "id": "o4",
-              "text": "[[doesn't work|no trabaja]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U20_B20_6_F1",
-          "type": "fill_blanks",
-          "prompt_es": "Repaso: What ________ [[do|hacer]] you have for breakfast? ([[do|auxiliar]])",
-          "stimulus_en": "What ________ you have for breakfast?",
-          "correct_answer": "do",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U20_B20_6_E2",
-          "type": "multiple_choice",
-          "prompt_es": "Repaso de tiempo: \"It's [[half past|y media]] two\" = ________",
-          "options": [
-            {
-              "id": "o1",
-              "text": "2:15"
-            },
-            {
-              "id": "o2",
-              "text": "[[2:30|Las dos y media]]"
-            },
-            {
-              "id": "o3",
-              "text": "2:45"
-            },
-            {
-              "id": "o4",
-              "text": "2:05"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U20_B20_6_F2",
-          "type": "fill_blanks",
-          "prompt_es": "Repaso: My birthday is ________ the 10th of [[October|octubre]]. ([[on|el]])",
-          "stimulus_en": "My birthday is ________ the 10th of October.",
-          "correct_answer": "on",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U20_B20_6_E3",
-          "type": "multiple_choice",
-          "prompt_es": "Repaso: \"Do you ________ [[coffee|café]]?\"",
-          "options": [
-            {
-              "id": "o1",
-              "text": "drinks"
-            },
-            {
-              "id": "o2",
-              "text": "drinking"
-            },
-            {
-              "id": "o3",
-              "text": "drank"
-            },
-            {
-              "id": "o4",
-              "text": "[[drink|beber]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U20_B20_6_R1",
-          "type": "reorder_words",
-          "prompt_es": "Repaso: Ordena: \"Ella come ensalada todos los días\" ([[review|repaso]])",
+          "interaction_id": "A1_U20_I51",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
           "options": [
             {
               "id": "w1",
-              "text": "She"
+              "text": "[[Schedule|Horario]]"
             },
             {
               "id": "w2",
-              "text": "eats"
+              "text": "[[Appointment|Cita]]"
             },
             {
               "id": "w3",
-              "text": "salad"
+              "text": "[[Routine|Rutina]]"
             },
             {
               "id": "w4",
-              "text": "every"
-            },
-            {
-              "id": "w5",
-              "text": "day"
+              "text": "[[Habit|Hábito]]"
             }
           ],
           "correct_answer": [
-            "w1",
-            "w2",
             "w3",
+            "w1",
             "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U20_I52",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
           "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
-        },
-        {
-          "interaction_id": "A1_U20_B20_6_T1",
-          "type": "true_false",
-          "prompt_es": "Repaso: \"[[I go to work on Mondays|Voy al trabajo los lunes]]\" usa Present Simple. ¿Verdadero o falso?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[True|Verdadero]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[False|Falso]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U20_B20_6_E4",
-          "type": "multiple_choice",
-          "prompt_es": "Repaso café: \"[[I'd like|Me gustaría]] a cappuccino, please.\" Es correcto.",
-          "options": [
-            {
-              "id": "o1",
-              "text": "False - wrong order"
-            },
-            {
-              "id": "o2",
-              "text": "False - impolite"
-            },
-            {
-              "id": "o3",
-              "text": "False - wrong verb"
-            },
-            {
-              "id": "o4",
-              "text": "[[True - correct|Verdadero]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U20_B20_6_F3",
-          "type": "fill_blanks",
-          "prompt_es": "Repaso: \"Is there ________ [[milk|leche]] in the fridge?\" (pregunta) [[any|alguna]]",
-          "stimulus_en": "Is there ________ milk in the fridge?",
-          "correct_answer": "any",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U20_B20_6_E5",
-          "type": "multiple_choice",
-          "prompt_es": "Repaso: \"[[The third of March|El tres de marzo]]\" = March ________",
-          "options": [
-            {
-              "id": "o1",
-              "text": "3th"
-            },
-            {
-              "id": "o2",
-              "text": "[[3rd|tercero]]"
-            },
-            {
-              "id": "o3",
-              "text": "3nd"
-            },
-            {
-              "id": "o4",
-              "text": "3st"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U20_B20_6_F4",
-          "type": "fill_blanks",
-          "prompt_es": "Repaso: He ________ [[eat|comer]] vegetables because he wants to be healthy. (usually)",
-          "stimulus_en": "He ________ vegetables because he wants to be healthy.",
-          "correct_answer": "eats",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U20_B20_6_E6",
-          "type": "multiple_choice",
-          "prompt_es": "Repaso días: \"[[On Fridays|Los viernes]] I have English class.\" ¿Correcto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Incorrect grammar"
-            },
-            {
-              "id": "o2",
-              "text": "[[Correct|Correcto]]"
-            },
-            {
-              "id": "o3",
-              "text": "Wrong preposition"
-            },
-            {
-              "id": "o4",
-              "text": "Wrong word order"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U20_B20_6_R2",
-          "type": "reorder_words",
-          "prompt_es": "Repaso: Ordena: \"¿A qué hora empieza el trabajo?\" ([[review|repaso]])",
           "options": [
             {
               "id": "w1",
-              "text": "What"
+              "text": "[[Appointment|Cita]]"
             },
             {
               "id": "w2",
-              "text": "time"
+              "text": "[[Frequency|Frecuencia]]"
             },
             {
               "id": "w3",
-              "text": "do"
+              "text": "[[Preference|Preferencia]]"
             },
             {
               "id": "w4",
-              "text": "you"
-            },
-            {
-              "id": "w5",
-              "text": "start"
-            },
-            {
-              "id": "w6",
-              "text": "work"
+              "text": "[[Half past|Y media]]"
             }
           ],
           "correct_answer": [
-            "w1",
-            "w2",
             "w3",
+            "w1",
             "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U20_I53",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
           "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
-        },
-        {
-          "interaction_id": "A1_U20_B20_6_T2",
-          "type": "true_false",
-          "prompt_es": "Repaso: \"[[February|Febrero]] is the second month of the year.\" ¿Verdadero o falso?",
           "options": [
             {
-              "id": "o1",
-              "text": "[[True|Verdadero]]"
+              "id": "w1",
+              "text": "[[Frequency|Frecuencia]]"
             },
             {
-              "id": "o2",
-              "text": "[[False|Falso]]"
+              "id": "w2",
+              "text": "[[Leisure|Ocio]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Weekday|Día de semana]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Ordinal number|Número ordinal]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar"
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "A1_U20_B20_6_F5",
-          "type": "fill_blanks",
-          "prompt_es": "Repaso: She ________ [[get|levantarse]] up at 7 every morning. (gets/get)",
-          "stimulus_en": "She ________ up at 7 every morning.",
-          "correct_answer": "gets",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U20_B20_6_E7",
-          "type": "multiple_choice",
-          "prompt_es": "Repaso: ¿Qué pregunta se usa para preguntar la hora?",
+          "interaction_id": "A1_U20_I54",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
           "options": [
             {
-              "id": "o1",
-              "text": "What hour it is?"
+              "id": "w1",
+              "text": "[[Leisure|Ocio]]"
             },
             {
-              "id": "o2",
-              "text": "[[What time is it?|¿Qué hora es?]]"
+              "id": "w2",
+              "text": "[[Month|Mes]]"
             },
             {
-              "id": "o3",
-              "text": "How is time?"
+              "id": "w3",
+              "text": "[[Sequence|Secuencia]]"
             },
             {
-              "id": "o4",
-              "text": "Which clock is?"
+              "id": "w4",
+              "text": "[[Timetable|Horario de clases]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "speaking",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary"
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "A1_U20_B20_6_F6",
-          "type": "fill_blanks",
-          "prompt_es": "Repaso: There ________ some vegetables in the kitchen. (is/are) [[are|hay]]",
-          "stimulus_en": "There ________ some vegetables in the kitchen.",
-          "correct_answer": "are",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar"
-          ]
+          "interaction_id": "A1_U20_I55",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Do|Te gustan]] [[you|tú]] ______ [[eggs|los huevos]]?",
+          "correct_answer": "like"
         },
         {
-          "interaction_id": "A1_U20_B20_6_E8",
-          "type": "multiple_choice",
-          "prompt_es": "Repaso alimentación: \"[[Healthy|Saludable]]\" food includes:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Crisps and cola"
-            },
-            {
-              "id": "o2",
-              "text": "[[Fruit, veg and water|Fruta, verdura y agua]]"
-            },
-            {
-              "id": "o3",
-              "text": "Cake and chocolate"
-            },
-            {
-              "id": "o4",
-              "text": "Fast food daily"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary"
-          ]
+          "interaction_id": "A1_U20_I56",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[What|A qué]] ______ [[does|empieza]] [[school|la escuela]] [[start|empieza]]?",
+          "correct_answer": "time"
         },
         {
-          "interaction_id": "A1_U20_B20_6_T3",
-          "type": "true_false",
-          "prompt_es": "Repaso: \"[[Does he like|¿Le gusta?]]\" uses \"does\" for he/she/it. ¿Verdadero o falso?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[True|Verdadero]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[False|Falso]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar"
-          ]
+          "interaction_id": "A1_U20_I57",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[She|Ella]] [[doesn't|no]] ______ [[on|los]] [[Sundays|domingos]].",
+          "correct_answer": "work"
+        },
+        {
+          "interaction_id": "A1_U20_I58",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[typical|típico]] [[Monday|lunes]].",
+          "correct_answer": true
+        },
+        {
+          "interaction_id": "A1_U20_I59",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[I|Yo]] [[wake|me despierto]] [[up|arriba]] [[at|a]] [[seven|las siete]], [[have|desayuno]], [[then|luego]] [[go|voy]] [[to|al]] [[work|trabajo]] [[at|a]] [[eight|las ocho]] [[thirty|y media]].",
+          "correct_answer": false
+        },
+        {
+          "interaction_id": "A1_U20_I60",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Do|Comes]] [[you|tú]] [[eat|comes]] [[lunch|el almuerzo]] [[at|a]] [[work|trabajas]]?",
+          "correct_answer": true
         }
       ]
     }

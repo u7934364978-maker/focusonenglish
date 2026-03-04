@@ -1,153 +1,213 @@
 {
   "course": {
-    "language_ui": "es-ES",
-    "target_language": "en",
-    "level": "A1",
-    "unit_id": "U29",
+    "unit_id": "unit29",
     "unit_title": "Clothes",
-    "total_duration_minutes": 120
+    "level": "A1",
+    "total_duration_minutes": 60,
+    "language_ui": "es-ES",
+    "target_language": "en"
   },
   "learning_outcomes": [
-    "Name common clothing items in English",
+    "Name clothing items in English",
     "Use Present Continuous to describe what people are wearing",
-    "Choose suitable clothing for different weather and occasions",
-    "Read fashion descriptions and weather-based clothing guides"
+    "Describe outfits for different occasions"
   ],
   "blocks": [
     {
       "block_id": "B1",
-      "title": "Vocabulary: Clothes",
+      "title": "Vocabulary Introduction",
       "content": [
         {
-          "interaction_id": "U29_I1",
-          "type": "matching",
-          "prompt_es": "Une la prenda con su traducción:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Shirt|Camisa]]",
-              "right": "Pantalón"
-            },
-            {
-              "id": "p2",
-              "left": "[[Trousers|Pantalón]]",
-              "right": "Vestido"
-            },
-            {
-              "id": "p3",
-              "left": "[[Dress|Vestido]]",
-              "right": "Zapatos"
-            },
-            {
-              "id": "p4",
-              "left": "[[Shoes|Zapatos]]",
-              "right": "Camisa"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p4",
-            "p2": "p1",
-            "p3": "p2",
-            "p4": "p3"
-          },
+          "interaction_id": "A1_U29_I1",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U29_I2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué llevas en los pies (feet)?",
+          "complexity": 1,
+          "stimulus_en": "[[Shirt|Camisa]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[A hat|Un sombrero]]"
+              "text": "[[Camisa|Shirt]]"
             },
             {
               "id": "o2",
-              "text": "[[A jacket|Una chaqueta]]"
+              "text": "[[Pantalones|Trousers]]"
             },
             {
               "id": "o3",
+              "text": "[[Vestido|Dress]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U29_I2",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Trousers|Pantalones]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Vestido|Dress]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Pantalones|Trousers]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Zapatos|Shoes]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U29_I3",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Dress|Vestido]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Zapatos|Shoes]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Sombrero|Hat]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Vestido|Dress]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U29_I4",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Shoes|Zapatos]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Zapatos|Shoes]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Sombrero|Hat]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Chaqueta|Jacket]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U29_I5",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Hat|Sombrero]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Chaqueta|Jacket]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Sombrero|Hat]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Camiseta|T-shirt]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U29_I6",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Jacket|Chaqueta]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Camiseta|T-shirt]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Falda|Skirt]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Chaqueta|Jacket]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U29_I7",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Camiseta]]",
+          "correct_answer": "T-shirt"
+        },
+        {
+          "interaction_id": "A1_U29_I8",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Falda]]",
+          "correct_answer": "Skirt"
+        },
+        {
+          "interaction_id": "A1_U29_I9",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Abrigo]]",
+          "correct_answer": "Coat"
+        },
+        {
+          "interaction_id": "A1_U29_I10",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Botas]]",
+          "correct_answer": "Boots"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Vocabulary in Context",
+      "content": [
+        {
+          "interaction_id": "A1_U29_I11",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Shoes|Zapatos]]",
+          "options": [
+            {
+              "id": "o1",
               "text": "[[Shoes|Zapatos]]"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U29_I3",
-          "type": "matching",
-          "prompt_es": "Une más prendas con su traducción:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Jacket|Chaqueta]]",
-              "right": "Calcetines"
-            },
-            {
-              "id": "p2",
-              "left": "[[Socks|Calcetines]]",
-              "right": "Gorro"
-            },
-            {
-              "id": "p3",
-              "left": "[[Hat|Gorro/Sombrero]]",
-              "right": "Bufanda"
-            },
-            {
-              "id": "p4",
-              "left": "[[Scarf|Bufanda]]",
-              "right": "Chaqueta"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p4",
-            "p2": "p1",
-            "p3": "p2",
-            "p4": "p3"
-          },
-          "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U29_I4",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué llevas cuando llueve (it rains)?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[A raincoat|Un impermeable]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Sandals|Sandalias]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[Shorts|Pantalón corto]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U29_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'I [[wear|llevo]] a ___ when it is cold.' (abrigo = coat)",
-          "correct_answer": "coat",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U29_I6",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[jumper/sweater|jersey]]'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Jumper|Jersey]]"
             },
             {
               "id": "o2",
@@ -155,1114 +215,1018 @@
             },
             {
               "id": "o3",
-              "text": "[[Blouse|Blusa]]"
+              "text": "[[Boots|Botas]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U29_I7",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'She [[wears|lleva]] a ___ to formal events.' (vestido = dress)",
-          "correct_answer": "dress",
+          "interaction_id": "A1_U29_I12",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
           "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U29_I8",
-          "type": "matching",
-          "prompt_es": "Une cada prenda con el clima más apropiado:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[T-shirt|Camiseta]]",
-              "right": "tiempo frío},"
-            },
-            {
-              "id": "p2",
-              "left": "[[Coat|Abrigo]]",
-              "right": "tiempo caluroso"
-            },
-            {
-              "id": "p3",
-              "left": "[[Sandals|Sandalias]]",
-              "right": "tiempo lluvioso"
-            },
-            {
-              "id": "p4",
-              "left": "[[Raincoat|Impermeable]]",
-              "right": "tiempo caluroso (2)"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p2",
-            "p2": "p1",
-            "p3": "p4",
-            "p4": "p3"
-          },
-          "mastery_tag": "vocabulary",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U29_I9",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la prenda que va encima de la camisa?",
+          "complexity": 2,
+          "stimulus_en": "[[Hat|Sombrero]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[Underwear|Ropa interior]]"
+              "text": "[[Skirt|Falda]]"
             },
             {
               "id": "o2",
+              "text": "[[Hat|Sombrero]]"
+            },
+            {
+              "id": "o3",
               "text": "[[Socks|Calcetines]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U29_I13",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Jacket|Chaqueta]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Coat|Abrigo]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Scarf|Bufanda]]"
             },
             {
               "id": "o3",
               "text": "[[Jacket|Chaqueta]]"
             }
           ],
-          "correct_answer": "o3",
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U29_I14",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
           "mastery_tag": "vocabulary",
-          "complexity": 1
+          "complexity": 2,
+          "stimulus_en": "[[T-shirt|Camiseta]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[T-shirt|Camiseta]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Boots|Botas]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Wearing|Llevando puesto]]"
+            }
+          ],
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U29_I10",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '[[In|En]] [[summer|verano]], I [[like|me gusta]] [[wearing|llevar]] ___ and sandals.' (pantalón corto = shorts)",
-          "correct_answer": "shorts",
+          "interaction_id": "A1_U29_I15",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
           "mastery_tag": "vocabulary",
-          "complexity": 1
-        }
-      ]
-    },
-    {
-      "block_id": "B2",
-      "title": "Present Continuous: Wearing",
-      "content": [
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[am|estoy]] ______ [[a|una]] [[blue|azul]] [[dress|vestido]].",
+          "correct_answer": "wearing"
+        },
         {
-          "interaction_id": "U29_I11",
-          "type": "multiple_choice",
-          "prompt_es": "Para decir '[[I am wearing|Llevo puesto]]' usamos el ___ continuo.",
+          "interaction_id": "A1_U29_I16",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[She|Ella]] [[is|está]] ______ [[a|un]] [[red|rojo]] [[coat|abrigo]].",
+          "correct_answer": "wearing"
+        },
+        {
+          "interaction_id": "A1_U29_I17",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[What|Qué]] [[are|llevas]] [[you|tú]] ______?",
+          "correct_answer": "wearing"
+        },
+        {
+          "interaction_id": "A1_U29_I18",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
           "options": [
-            {
-              "id": "o1",
-              "text": "Pasado"
-            },
-            {
-              "id": "o2",
-              "text": "Futuro"
-            },
-            {
-              "id": "o3",
-              "text": "Presente continuo"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "grammar",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U29_I12",
-          "type": "multiple_choice",
-          "prompt_es": "'Ella lleva un vestido rojo.' ¿Cómo?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[She wear a red dress|Lleva un vestido rojo (incorrecto)]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[She wearing a red dress|Lleva un vestido rojo (incorrecto)]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[She is wearing a red dress|Lleva un vestido rojo]]"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "grammar",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U29_I13",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'I ___ a blue shirt and black trousers today.' (am wearing) ([[shirt|camisa]])",
-          "correct_answer": "am wearing",
-          "mastery_tag": "grammar",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U29_I14",
-          "type": "multiple_choice",
-          "prompt_es": "'[[What|Qué]] is he ___?' (llevando puesto)",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[wear|lleva (simple)]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[wears|lleva (3ª persona)]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[wearing|llevando (continuo)]]"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U29_I15",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '[[They|Ellos]] ___ summer clothes because it is hot.' (are wearing)",
-          "correct_answer": "are wearing",
-          "mastery_tag": "grammar",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U29_I16",
-          "type": "multiple_choice",
-          "prompt_es": "'[[What are you wearing today?|¿Qué llevas puesto hoy?]]' — '[[I|Yo]] ___ jeans and a jumper.'",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[am wearing|llevo puesto]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[wear|llevo (simple)]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[wearing|llevando (sin auxiliar)]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U29_I17",
-          "type": "sentence_building",
-          "prompt_es": "Forma: 'María lleva puesto un jersey azul y pantalón negro.' ([[feelings|sentimientos]])",
-          "words": [
             {
               "id": "w1",
-              "text": "[[Maria|María]]"
+              "text": "[[Shirt|Camisa]]"
             },
             {
               "id": "w2",
-              "text": "[[is|está]]"
+              "text": "[[Dress|Vestido]]"
             },
             {
               "id": "w3",
-              "text": "[[wearing|llevando]]"
-            },
-            {
-              "id": "w4",
-              "text": "[[a|un]]"
-            },
-            {
-              "id": "w5",
-              "text": "[[blue|azul]]"
-            },
-            {
-              "id": "w6",
-              "text": "[[jumper|jersey]]"
-            },
-            {
-              "id": "w7",
-              "text": "[[and|y]]"
-            },
-            {
-              "id": "w8",
-              "text": "[[black|negro]]"
-            },
-            {
-              "id": "w9",
-              "text": "[[trousers|pantalón]]"
+              "text": "[[Trousers|Pantalones]]"
             }
           ],
           "correct_answer": [
             "w1",
-            "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
-          "mastery_tag": "grammar",
-          "complexity": 2
+            "w2"
+          ]
         },
         {
-          "interaction_id": "U29_I18",
-          "type": "multiple_choice",
-          "prompt_es": "'[[The children|Los niños]] ___ school uniforms.' ¿Presente continuo?",
+          "interaction_id": "A1_U29_I19",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
           "options": [
             {
-              "id": "o1",
-              "text": "[[is wearing|llevan (singular — incorrecto)]]"
+              "id": "w1",
+              "text": "[[Hat|Sombrero]]"
             },
             {
-              "id": "o2",
-              "text": "[[am wearing|llevo (1ª pers — incorrecto)]]"
+              "id": "w2",
+              "text": "[[T-shirt|Camiseta]]"
             },
             {
-              "id": "o3",
-              "text": "[[are wearing|llevan]]"
+              "id": "w3",
+              "text": "[[Jacket|Chaqueta]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "grammar",
-          "complexity": 2
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
         },
         {
-          "interaction_id": "U29_I19",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '[[He|Él]] is ___ a suit to the interview.' (wearing)",
-          "correct_answer": "wearing",
-          "mastery_tag": "grammar",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U29_I20",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la pregunta correcta?",
+          "interaction_id": "A1_U29_I20",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
           "options": [
             {
-              "id": "o1",
-              "text": "[[What are you wearing?|¿Qué llevas puesto?]]"
+              "id": "w1",
+              "text": "[[Coat|Abrigo]]"
             },
             {
-              "id": "o2",
-              "text": "[[What you are wearing?|¿Qué llevas? (incorrecto orden)]]"
+              "id": "w2",
+              "text": "[[Socks|Calcetines]]"
             },
             {
-              "id": "o3",
-              "text": "[[What is you wearing?|¿Qué llevas? (incorrecto)]]"
+              "id": "w3",
+              "text": "[[Boots|Botas]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 2
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
         }
       ]
     },
     {
       "block_id": "B3",
-      "title": "Clothes & Weather",
+      "title": "Grammar — Affirmative",
       "content": [
         {
-          "interaction_id": "U29_I21",
-          "type": "multiple_choice",
-          "prompt_es": "Está nevando ([[it is snowing|está nevando]]). ¿Qué llevas?",
+          "interaction_id": "A1_U29_I21",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[am|estoy]] ______ [[a|una]] [[blue|azul]] [[dress|vestido]].",
+          "correct_answer": "wearing"
+        },
+        {
+          "interaction_id": "A1_U29_I22",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[She|Ella]] [[is|está]] ______ [[a|un]] [[red|rojo]] [[coat|abrigo]].",
+          "correct_answer": "wearing"
+        },
+        {
+          "interaction_id": "A1_U29_I23",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[What|Qué]] [[are|llevas]] [[you|tú]] ______?",
+          "correct_answer": "wearing"
+        },
+        {
+          "interaction_id": "A1_U29_I24",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[He|Él]] [[isn't|no está]] ______ [[a|una]] [[jacket|chaqueta]] [[today|hoy]].",
+          "correct_answer": "wearing"
+        },
+        {
+          "interaction_id": "A1_U29_I25",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[They|Ellos]] [[are|están]] ______ [[warm|ropa]] [[clothes|de abrigo]] [[because|porque]] [[it's|hace]] [[cold|frío]].",
           "options": [
             {
               "id": "o1",
-              "text": "[[Sandals and shorts|Sandalias y pantalón corto]]"
+              "text": "[[wearing|wearing]]"
             },
             {
               "id": "o2",
-              "text": "[[A coat, scarf and hat|Abrigo, bufanda y gorro]]"
+              "text": "[[wearing|wearing]]"
             },
             {
               "id": "o3",
-              "text": "[[A T-shirt and sunglasses|Camiseta y gafas de sol]]"
+              "text": "[[wearing|wearing]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U29_I22",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'It is very hot ([[sunny|soleado]]). I am wearing a ___ and sandals.' (camiseta = T-shirt)",
-          "correct_answer": "T-shirt",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U29_I23",
-          "type": "matching",
-          "prompt_es": "Une el tiempo con la ropa adecuada:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Snowy weather|Tiempo nevado]]",
-              "right": "impermeable"
-            },
-            {
-              "id": "p2",
-              "left": "[[Rainy weather|Tiempo lluvioso]]",
-              "right": "abrigo y gorro"
-            },
-            {
-              "id": "p3",
-              "left": "[[Hot weather|Tiempo caluroso]]",
-              "right": "pantalón corto y camiseta"
-            },
-            {
-              "id": "p4",
-              "left": "[[Cold weather|Tiempo frío]]",
-              "right": "sandalias"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p2",
-            "p2": "p1",
-            "p3": "p4",
-            "p4": "p3"
-          },
-          "mastery_tag": "vocabulary",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U29_I24",
-          "type": "multiple_choice",
-          "prompt_es": "Vas a una entrevista de trabajo. ¿Qué ropa es más apropiada?",
+          "interaction_id": "A1_U29_I26",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[need|necesito]] [[to|a]] ______ [[my|mi]] [[shoes|zapatos]] [[before|antes de]] [[going|salir]] [[out|salir]].",
           "options": [
             {
               "id": "o1",
-              "text": "[[Jeans and a T-shirt|Vaqueros y camiseta]]"
+              "text": "[[wearing|wearing]]"
             },
             {
               "id": "o2",
-              "text": "[[A suit and tie|Traje y corbata]]"
+              "text": "[[put on|put on]]"
             },
             {
               "id": "o3",
-              "text": "[[Shorts and sandals|Pantalón corto y sandalias]]"
+              "text": "[[wearing|wearing]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary",
-          "complexity": 2
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U29_I25",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'Don't forget your ___! It's going to rain.' (impermeable = raincoat) ([[feelings|sentimientos]])",
-          "correct_answer": "raincoat",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U29_I26",
-          "type": "multiple_choice",
-          "prompt_es": "Vas a la playa (beach). ¿Qué llevas?",
+          "interaction_id": "A1_U29_I27",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[am|estoy]] ______ [[a|una]] [[blue|azul]] [[dress|vestido]].",
           "options": [
             {
               "id": "o1",
-              "text": "[[A coat and boots|Abrigo y botas]]"
+              "text": "[[wearing|wearing]]"
             },
             {
               "id": "o2",
-              "text": "[[A swimsuit and sandals|Bañador y sandalias]]"
+              "text": "[[wearing|wearing]]"
             },
             {
               "id": "o3",
-              "text": "[[A suit and tie|Traje y corbata]]"
+              "text": "[[wearing|wearing]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U29_I27",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'She is wearing a warm ___ because it is very cold today.' (abrigo = coat) ([[warm|cálido]])",
-          "correct_answer": "coat",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U29_I28",
-          "type": "multiple_choice",
-          "prompt_es": "'[[It is cold|Hace frío]] but not [[freezing|helador]].' ¿Qué llevas?",
+          "interaction_id": "A1_U29_I28",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[She|Ella]] [[is|está]] ______ [[a|un]] [[red|rojo]] [[coat|abrigo]].",
           "options": [
             {
               "id": "o1",
-              "text": "[[A light jacket|Una chaqueta ligera]]"
+              "text": "[[wearing|wearing]]"
             },
             {
               "id": "o2",
-              "text": "[[A heavy winter coat|Un abrigo de invierno grueso]]"
+              "text": "[[wearing|wearing]]"
             },
             {
               "id": "o3",
-              "text": "[[A T-shirt|Una camiseta]]"
+              "text": "[[put on|put on]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 2
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U29_I29",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '[[In|En]] [[winter|invierno]], I always wear a ___ and gloves.' (bufanda = scarf)",
-          "correct_answer": "scarf",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U29_I30",
-          "type": "multiple_choice",
-          "prompt_es": "'I am wearing ___ because I am going to the gym.' ¿Qué ropa?",
+          "interaction_id": "A1_U29_I29",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
           "options": [
             {
-              "id": "o1",
-              "text": "[[A dress and high heels|Un vestido y tacones]]"
+              "id": "w1",
+              "text": "[[Dress|Vestido]]"
             },
             {
-              "id": "o2",
-              "text": "[[Sportswear and trainers|Ropa deportiva y zapatillas]]"
+              "id": "w2",
+              "text": "[[Shirt|Camisa]]"
             },
             {
-              "id": "o3",
-              "text": "[[A suit and tie|Traje y corbata]]"
+              "id": "w3",
+              "text": "[[Hat|Sombrero]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary",
-          "complexity": 2
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
+          ]
+        },
+        {
+          "interaction_id": "A1_U29_I30",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Skirt|Falda]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Jacket|Chaqueta]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Boots|Botas]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
+          ]
         }
       ]
     },
     {
       "block_id": "B4",
-      "title": "Colours & Clothes",
+      "title": "Grammar — Negative & Questions",
       "content": [
         {
-          "interaction_id": "U29_I31",
-          "type": "multiple_choice",
-          "prompt_es": "'She is wearing a ___ skirt and a white blouse.' ¿Qué color?",
+          "interaction_id": "A1_U29_I31",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[What|Qué]] [[are|llevas]] [[you|tú]] ______?",
+          "correct_answer": "wearing"
+        },
+        {
+          "interaction_id": "A1_U29_I32",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[He|Él]] [[isn't|no está]] ______ [[a|una]] [[jacket|chaqueta]] [[today|hoy]].",
+          "correct_answer": "wearing"
+        },
+        {
+          "interaction_id": "A1_U29_I33",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[They|Ellos]] [[are|están]] ______ [[warm|ropa]] [[clothes|de abrigo]] [[because|porque]] [[it's|hace]] [[cold|frío]].",
+          "correct_answer": "wearing"
+        },
+        {
+          "interaction_id": "A1_U29_I34",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[He|Él]] [[isn't|no está]] ______ [[a|una]] [[jacket|chaqueta]] [[today|hoy]].",
           "options": [
             {
               "id": "o1",
-              "text": "[[blue|azul]]"
+              "text": "[[wearing|wearing]]"
             },
             {
               "id": "o2",
-              "text": "[[bluing|azulando (incorrecto)]]"
+              "text": "[[put on|put on]]"
             },
             {
               "id": "o3",
-              "text": "[[blues|azules (plural — incorrecto)]]"
+              "text": "[[wearing|wearing]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U29_I35",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
           "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U29_I32",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'He is wearing a ___ jacket and grey trousers.' (negro = black) ([[jacket|chaqueta]])",
-          "correct_answer": "black",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U29_I33",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es correcta? (el adjetivo va antes del nombre en inglés)",
+          "complexity": 2,
+          "stimulus_en": "[[They|Ellos]] [[are|están]] ______ [[warm|ropa]] [[clothes|de abrigo]] [[because|porque]] [[it's|hace]] [[cold|frío]].",
           "options": [
             {
               "id": "o1",
-              "text": "[[A dress red|Un vestido rojo (incorrecto)]]"
+              "text": "[[wearing|wearing]]"
             },
             {
               "id": "o2",
-              "text": "[[A red dress|Un vestido rojo]]"
+              "text": "[[wearing|wearing]]"
             },
             {
               "id": "o3",
-              "text": "[[Red a dress|Rojo un vestido (incorrecto)]]"
+              "text": "[[wearing|wearing]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 1
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U29_I34",
-          "type": "sentence_building",
-          "prompt_es": "Forma: 'Llevo puesto un jersey verde y unos vaqueros azules.' ([[feelings|sentimientos]])",
-          "words": [
+          "interaction_id": "A1_U29_I36",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[need|necesito]] [[to|a]] ______ [[my|mi]] [[shoes|zapatos]] [[before|antes de]] [[going|salir]] [[out|salir]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[wearing|wearing]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[wearing|wearing]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[put on|put on]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U29_I37",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[am|estoy]] ______ [[a|una]] [[blue|azul]] [[dress|vestido]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[wearing|wearing]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[wearing|wearing]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[wearing|wearing]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U29_I38",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
             {
               "id": "w1",
-              "text": "[[I|Yo]]"
+              "text": "[[Hat|Sombrero]]"
             },
             {
               "id": "w2",
-              "text": "[[am|estoy]]"
+              "text": "[[Trousers|Pantalones]]"
             },
             {
               "id": "w3",
-              "text": "[[wearing|llevando]]"
+              "text": "[[T-shirt|Camiseta]]"
             },
             {
               "id": "w4",
-              "text": "[[a|un]]"
-            },
-            {
-              "id": "w5",
-              "text": "[[green|verde]]"
-            },
-            {
-              "id": "w6",
-              "text": "[[jumper|jersey]]"
-            },
-            {
-              "id": "w7",
-              "text": "[[and|y]]"
-            },
-            {
-              "id": "w8",
-              "text": "[[blue|azules]]"
-            },
-            {
-              "id": "w9",
-              "text": "[[jeans|vaqueros]]"
+              "text": "[[Dress|Vestido]]"
             }
           ],
           "correct_answer": [
-            "w1",
             "w2",
-            "w3",
+            "w1",
             "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
+            "w3"
+          ]
+        },
+        {
+          "interaction_id": "A1_U29_I39",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
           "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U29_I35",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'The children are wearing ___ school uniforms.' (azul = blue) ([[feelings|sentimientos]])",
-          "correct_answer": "blue",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U29_I36",
-          "type": "multiple_choice",
-          "prompt_es": "'[[She|Ella]] is wearing a ___ hat.' — El sombrero es amarillo.",
+          "complexity": 2,
           "options": [
             {
-              "id": "o1",
-              "text": "[[red|rojo]]"
+              "id": "w1",
+              "text": "[[Skirt|Falda]]"
             },
             {
-              "id": "o2",
-              "text": "[[yellow|amarillo]]"
+              "id": "w2",
+              "text": "[[Hat|Sombrero]]"
             },
             {
-              "id": "o3",
-              "text": "[[green|verde]]"
+              "id": "w3",
+              "text": "[[Boots|Botas]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Jacket|Chaqueta]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
         },
         {
-          "interaction_id": "U29_I37",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'He is wearing a ___ shirt and white trousers.' (roja = red) ([[shirt|camisa]])",
-          "correct_answer": "red",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U29_I38",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál describe correctamente a alguien con camisa azul y pantalón negro?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[He is wearing a black shirt and blue trousers|Lleva camisa negra y pantalón azul]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[He is wearing a blue shirt and black trousers|Lleva camisa azul y pantalón negro]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[He is wearing blue trousers and a black shirt|Lleva pantalón azul y camisa negra]]"
-            }
-          ],
-          "correct_answer": "o2",
+          "interaction_id": "A1_U29_I40",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
           "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U29_I39",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'I love my new ___ dress.' (rojo = red — antes del nombre) ([[dress|vestido]])",
-          "correct_answer": "red",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U29_I40",
-          "type": "multiple_choice",
-          "prompt_es": "'[[What colour|De qué color]] is your jacket?' — 'It is ___.'",
+          "complexity": 2,
           "options": [
             {
-              "id": "o1",
-              "text": "[[dark blue|azul oscuro]]"
+              "id": "w1",
+              "text": "[[Socks|Calcetines]]"
             },
             {
-              "id": "o2",
-              "text": "[[dark blues|azules oscuros (incorrecto)]]"
+              "id": "w2",
+              "text": "[[Skirt|Falda]]"
             },
             {
-              "id": "o3",
-              "text": "[[darkly blue|azul oscuramente (incorrecto)]]"
+              "id": "w3",
+              "text": "[[Wearing|Llevando puesto]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Coat|Abrigo]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 2
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
         }
       ]
     },
     {
       "block_id": "B5",
-      "title": "Reading: What to Wear",
+      "title": "Reading Comprehension",
       "content": [
         {
-          "interaction_id": "U29_READ1",
-          "type": "reading_phase",
-          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[carefully|con atención]].",
-          "transcript": "[[Hello|Hola]]! [[I|Yo]] am [[Lucy|Lucy]] and [[I|yo]] [[love|adoro]] [[fashion|la moda]]! [[Today|Hoy]], [[I|yo]] am going to [[share|compartir]] my [[tips|consejos]] for [[choosing|elegir]] the right [[clothes|ropa]] for different [[occasions|ocasiones]]. [[For|Para]] a [[job interview|entrevista de trabajo]], [[I|yo]] [[always|siempre]] [[wear|llevo]] a [[smart|elegante]] [[suit|traje]] or a [[formal|formal]] [[dress|vestido]]. [[For|Para]] a [[casual|informal]] [[day out|día de salida]], [[jeans|vaqueros]] and a [[nice|bonita]] [[top|camiseta/blusa]] are [[perfect|perfectas]]. [[When|Cuando]] it is [[hot|caluroso]], [[I|yo]] [[like|me gusta]] [[wearing|llevar]] [[light|ligera]] [[clothes|ropa]] — a [[summer dress|vestido de verano]] or [[shorts|pantalón corto]] and a [[T-shirt|camiseta]]. [[In|En]] [[winter|invierno]], [[I|yo]] [[always|siempre]] [[wear|llevo]] a [[warm|abrigado]] [[coat|abrigo]], a [[scarf|bufanda]] and [[gloves|guantes]]. [[My|Mi]] [[favourite|favorita]] [[outfit|conjunto]] is a [[red|roja]] [[dress|vestido]] with [[black|negros]] [[heels|tacones]] — [[I|yo]] [[wear|llevo]] it for [[special|especiales]] [[occasions|ocasiones]]!",
+          "interaction_id": "A1_U29_I41",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
           "mastery_tag": "reading",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U29_I41",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué lleva Lucy a una entrevista de trabajo? ([[feelings|sentimientos]])",
+          "complexity": 2,
+          "transcript": "[[What|Qué]] [[are|llevas]] [[you|tú]] [[wearing|puesto]] [[to|para]] [[the|la]] [[party|fiesta]] [[tonight|esta noche]]? [[I|Yo]] [[think|creo]] [[I'll|que llevaré]] [[wear|llevaré]] [[my|mi]] [[blue|azul]] [[dress|vestido]] [[and|y]] [[black|negros]] [[boots|botas]]. [[That|Eso]] [[sounds|suena]] [[beautiful|bonito]]! [[What|Qué]] [[about|sobre]] [[a|una]] [[jacket|chaqueta]]? [[It's|Hace]] [[cold|frío]] [[tonight|esta noche]]. [[Good|Buena]] [[idea|idea]]! [[I'll|Me llevaré]] [[take|llevaré]] [[my|mi]] [[grey|gris]] [[coat|abrigo]] [[too|también]]. [[And|Y]] [[don't|no]] [[forget|olvides]] [[a|una]] [[scarf|bufanda]] — [[the|la]] [[forecast|previsión]] [[says|dice]] [[it's|que hará]] [[very|muy]] [[cold|frío]]!",
+          "question_en": "[[What|Qué]] [[event|evento]] [[are|van]] [[they|ellos]] [[going|van]] [[to|a]]?",
           "options": [
             {
               "id": "o1",
-              "text": "Vaqueros y una camiseta"
+              "text": "[[A wedding|Una boda]]"
             },
             {
               "id": "o2",
-              "text": "Un traje elegante o un vestido formal"
+              "text": "[[A party|Una fiesta]]"
             },
             {
               "id": "o3",
-              "text": "Un vestido de verano y sandalias"
+              "text": "[[A dinner|Una cena]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading",
-          "complexity": 1
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U29_I42",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué lleva Lucy en verano? ([[feelings|sentimientos]])",
+          "interaction_id": "A1_U29_I42",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[What|Qué]] [[are|llevas]] [[you|tú]] [[wearing|puesto]] [[to|para]] [[the|la]] [[party|fiesta]] [[tonight|esta noche]]? [[I|Yo]] [[think|creo]] [[I'll|que llevaré]] [[wear|llevaré]] [[my|mi]] [[blue|azul]] [[dress|vestido]] [[and|y]] [[black|negros]] [[boots|botas]]. [[That|Eso]] [[sounds|suena]] [[beautiful|bonito]]! [[What|Qué]] [[about|sobre]] [[a|una]] [[jacket|chaqueta]]? [[It's|Hace]] [[cold|frío]] [[tonight|esta noche]]. [[Good|Buena]] [[idea|idea]]! [[I'll|Me llevaré]] [[take|llevaré]] [[my|mi]] [[grey|gris]] [[coat|abrigo]] [[too|también]]. [[And|Y]] [[don't|no]] [[forget|olvides]] [[a|una]] [[scarf|bufanda]] — [[the|la]] [[forecast|previsión]] [[says|dice]] [[it's|que hará]] [[very|muy]] [[cold|frío]]!",
+          "question_en": "[[What|Qué]] [[dress|vestido]] [[is|va a llevar]] [[the|el]] [[speaker|hablante]] [[going|va a llevar]] [[to|a]] [[wear|llevar]]?",
           "options": [
             {
               "id": "o1",
-              "text": "Abrigo, bufanda y guantes"
+              "text": "[[Red dress|Vestido rojo]]"
             },
             {
               "id": "o2",
-              "text": "Traje y tacones"
+              "text": "[[Green dress|Vestido verde]]"
             },
             {
               "id": "o3",
-              "text": "Ropa ligera — vestido de verano o pantalón corto y camiseta"
+              "text": "[[Blue dress|Vestido azul]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "reading",
-          "complexity": 1
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U29_I43",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es el conjunto favorito de Lucy? ([[feelings|sentimientos]])",
+          "interaction_id": "A1_U29_I43",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[What|Qué]] [[are|llevas]] [[you|tú]] [[wearing|puesto]] [[to|para]] [[the|la]] [[party|fiesta]] [[tonight|esta noche]]? [[I|Yo]] [[think|creo]] [[I'll|que llevaré]] [[wear|llevaré]] [[my|mi]] [[blue|azul]] [[dress|vestido]] [[and|y]] [[black|negros]] [[boots|botas]]. [[That|Eso]] [[sounds|suena]] [[beautiful|bonito]]! [[What|Qué]] [[about|sobre]] [[a|una]] [[jacket|chaqueta]]? [[It's|Hace]] [[cold|frío]] [[tonight|esta noche]]. [[Good|Buena]] [[idea|idea]]! [[I'll|Me llevaré]] [[take|llevaré]] [[my|mi]] [[grey|gris]] [[coat|abrigo]] [[too|también]]. [[And|Y]] [[don't|no]] [[forget|olvides]] [[a|una]] [[scarf|bufanda]] — [[the|la]] [[forecast|previsión]] [[says|dice]] [[it's|que hará]] [[very|muy]] [[cold|frío]]!",
+          "question_en": "[[What|Qué]] [[shoes|calzado]] [[is|va a llevar]] [[the|el]] [[speaker|hablante]] [[going|va a llevar]] [[to|a]] [[wear|llevar]]?",
           "options": [
             {
               "id": "o1",
-              "text": "Vaqueros y una blusa azul"
+              "text": "[[White shoes|Zapatos blancos]]"
             },
             {
               "id": "o2",
-              "text": "Un vestido rojo con tacones negros"
+              "text": "[[Black boots|Botas negras]]"
             },
             {
               "id": "o3",
-              "text": "Un traje gris y zapatos negros"
+              "text": "[[Brown boots|Botas marrones]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading",
-          "complexity": 1
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U29_I44",
-          "type": "multiple_choice",
-          "prompt_es": "¿Para qué ocasión lleva Lucy su conjunto favorito? ([[feelings|sentimientos]])",
+          "interaction_id": "A1_U29_I44",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[What|Qué]] [[are|llevas]] [[you|tú]] [[wearing|puesto]] [[to|para]] [[the|la]] [[party|fiesta]] [[tonight|esta noche]]? [[I|Yo]] [[think|creo]] [[I'll|que llevaré]] [[wear|llevaré]] [[my|mi]] [[blue|azul]] [[dress|vestido]] [[and|y]] [[black|negros]] [[boots|botas]]. [[That|Eso]] [[sounds|suena]] [[beautiful|bonito]]! [[What|Qué]] [[about|sobre]] [[a|una]] [[jacket|chaqueta]]? [[It's|Hace]] [[cold|frío]] [[tonight|esta noche]]. [[Good|Buena]] [[idea|idea]]! [[I'll|Me llevaré]] [[take|llevaré]] [[my|mi]] [[grey|gris]] [[coat|abrigo]] [[too|también]]. [[And|Y]] [[don't|no]] [[forget|olvides]] [[a|una]] [[scarf|bufanda]] — [[the|la]] [[forecast|previsión]] [[says|dice]] [[it's|que hará]] [[very|muy]] [[cold|frío]]!",
+          "question_en": "[[Why|Por qué]] [[is|hay que llevar]] [[a|una]] [[jacket|chaqueta]] [[recommended|recomendada]]?",
           "options": [
             {
               "id": "o1",
-              "text": "Para el trabajo"
+              "text": "[[It's rainy|Está lloviendo]]"
             },
             {
               "id": "o2",
-              "text": "Para el gimnasio"
+              "text": "[[It's cold|Hace frío]]"
             },
             {
               "id": "o3",
-              "text": "Para ocasiones especiales"
+              "text": "[[It's windy|Hace viento]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "reading",
-          "complexity": 2
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U29_I45",
-          "type": "fill_blanks",
-          "prompt_es": "En invierno, Lucy siempre lleva un abrigo, una bufanda y ___. (guantes = gloves) ([[gloves|guantes]])",
-          "correct_answer": "gloves",
+          "interaction_id": "A1_U29_I45",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
           "mastery_tag": "reading",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U29_I46",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué lleva Lucy en un día informal (casual)? ([[feelings|sentimientos]])",
+          "complexity": 2,
+          "transcript": "[[What|Qué]] [[are|llevas]] [[you|tú]] [[wearing|puesto]] [[to|para]] [[the|la]] [[party|fiesta]] [[tonight|esta noche]]? [[I|Yo]] [[think|creo]] [[I'll|que llevaré]] [[wear|llevaré]] [[my|mi]] [[blue|azul]] [[dress|vestido]] [[and|y]] [[black|negros]] [[boots|botas]]. [[That|Eso]] [[sounds|suena]] [[beautiful|bonito]]! [[What|Qué]] [[about|sobre]] [[a|una]] [[jacket|chaqueta]]? [[It's|Hace]] [[cold|frío]] [[tonight|esta noche]]. [[Good|Buena]] [[idea|idea]]! [[I'll|Me llevaré]] [[take|llevaré]] [[my|mi]] [[grey|gris]] [[coat|abrigo]] [[too|también]]. [[And|Y]] [[don't|no]] [[forget|olvides]] [[a|una]] [[scarf|bufanda]] — [[the|la]] [[forecast|previsión]] [[says|dice]] [[it's|que hará]] [[very|muy]] [[cold|frío]]!",
+          "question_en": "[[What|Qué]] [[extra|prenda extra]] [[item|extra]] [[is|también]] [[also|también]] [[suggested|sugerida]]?",
           "options": [
             {
               "id": "o1",
-              "text": "Un traje y zapatos de tacón"
+              "text": "[[Hat|Sombrero]]"
             },
             {
               "id": "o2",
-              "text": "Vaqueros y una camiseta bonita"
+              "text": "[[Gloves|Guantes]]"
             },
             {
               "id": "o3",
-              "text": "Un uniforme de trabajo"
+              "text": "[[Scarf|Bufanda]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading",
-          "complexity": 2
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U29_I47",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué tipo de ropa recomienda Lucy para el calor?",
+          "interaction_id": "A1_U29_I46",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[What|Qué]] [[are|llevas]] [[you|tú]] [[wearing|puesto]] [[to|para]] [[the|la]] [[party|fiesta]] [[tonight|esta noche]]? [[I|Yo]] [[think|creo]] [[I'll|que llevaré]] [[wear|llevaré]] [[my|mi]] [[blue|azul]] [[dress|vestido]] [[and|y]] [[black|negros]] [[boots|botas]]. [[That|Eso]] [[sounds|suena]] [[beautiful|bonito]]! [[What|Qué]] [[about|sobre]] [[a|una]] [[jacket|chaqueta]]? [[It's|Hace]] [[cold|frío]] [[tonight|esta noche]]. [[Good|Buena]] [[idea|idea]]! [[I'll|Me llevaré]] [[take|llevaré]] [[my|mi]] [[grey|gris]] [[coat|abrigo]] [[too|también]]. [[And|Y]] [[don't|no]] [[forget|olvides]] [[a|una]] [[scarf|bufanda]] — [[the|la]] [[forecast|previsión]] [[says|dice]] [[it's|que hará]] [[very|muy]] [[cold|frío]]!",
+          "question_en": "[[What|Qué]] [[colour|color]] [[coat|abrigo]] [[does|va a llevar]] [[the|el]] [[speaker|hablante]] [[plan|va a llevar]] [[to|a]] [[wear|llevar]]?",
           "options": [
             {
               "id": "o1",
-              "text": "[[Light clothes|Ropa ligera]]"
+              "text": "[[Black|Negro]]"
             },
             {
               "id": "o2",
-              "text": "[[Heavy and dark clothes|Ropa gruesa y oscura]]"
+              "text": "[[Blue|Azul]]"
             },
             {
               "id": "o3",
-              "text": "[[Warm and thick clothes|Ropa abrigada y gruesa]]"
+              "text": "[[Grey|Gris]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading",
-          "complexity": 1
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U29_I48",
-          "type": "sentence_building",
-          "prompt_es": "Forma: '¿Qué llevas puesto para las ocasiones especiales?' ([[feelings|sentimientos]])",
-          "words": [
+          "interaction_id": "A1_U29_I47",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[What|Qué]] [[are|llevas]] [[you|tú]] [[wearing|puesto]] [[to|para]] [[the|la]] [[party|fiesta]] [[tonight|esta noche]]? [[I|Yo]] [[think|creo]] [[I'll|que llevaré]] [[wear|llevaré]] [[my|mi]] [[blue|azul]] [[dress|vestido]] [[and|y]] [[black|negros]] [[boots|botas]]. [[That|Eso]] [[sounds|suena]] [[beautiful|bonito]]! [[What|Qué]] [[about|sobre]] [[a|una]] [[jacket|chaqueta]]? [[It's|Hace]] [[cold|frío]] [[tonight|esta noche]]. [[Good|Buena]] [[idea|idea]]! [[I'll|Me llevaré]] [[take|llevaré]] [[my|mi]] [[grey|gris]] [[coat|abrigo]] [[too|también]]. [[And|Y]] [[don't|no]] [[forget|olvides]] [[a|una]] [[scarf|bufanda]] — [[the|la]] [[forecast|previsión]] [[says|dice]] [[it's|que hará]] [[very|muy]] [[cold|frío]]!",
+          "question_en": "[[What|Qué]] [[tense|tiempo]] [[is|se usa]] [[used|usa]] [[to|para]] [[describe|describir]] [[what|lo que]] [[someone|alguien]] [[is|está]] [[wearing|llevando]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Present Simple|Presente simple]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Present Continuous|Presente continuo]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Past Simple|Pasado simple]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U29_I48",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[What|Qué]] [[are|llevas]] [[you|tú]] [[wearing|puesto]] [[to|para]] [[the|la]] [[party|fiesta]] [[tonight|esta noche]]? [[I|Yo]] [[think|creo]] [[I'll|que llevaré]] [[wear|llevaré]] [[my|mi]] [[blue|azul]] [[dress|vestido]] [[and|y]] [[black|negros]] [[boots|botas]]. [[That|Eso]] [[sounds|suena]] [[beautiful|bonito]]! [[What|Qué]] [[about|sobre]] [[a|una]] [[jacket|chaqueta]]? [[It's|Hace]] [[cold|frío]] [[tonight|esta noche]]. [[Good|Buena]] [[idea|idea]]! [[I'll|Me llevaré]] [[take|llevaré]] [[my|mi]] [[grey|gris]] [[coat|abrigo]] [[too|también]]. [[And|Y]] [[don't|no]] [[forget|olvides]] [[a|una]] [[scarf|bufanda]] — [[the|la]] [[forecast|previsión]] [[says|dice]] [[it's|que hará]] [[very|muy]] [[cold|frío]]!",
+          "question_en": "[[What|Qué]] [[does|significa]] 'Trousers' [[mean|significa]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Skirt|Falda]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Dress|Vestido]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Trousers/Pants|Pantalones]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U29_I49",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[What|Qué]] [[are|llevas]] [[you|tú]] [[wearing|puesto]] [[to|para]] [[the|la]] [[party|fiesta]] [[tonight|esta noche]]? [[I|Yo]] [[think|creo]] [[I'll|que llevaré]] [[wear|llevaré]] [[my|mi]] [[blue|azul]] [[dress|vestido]] [[and|y]] [[black|negros]] [[boots|botas]]. [[That|Eso]] [[sounds|suena]] [[beautiful|bonito]]! [[What|Qué]] [[about|sobre]] [[a|una]] [[jacket|chaqueta]]? [[It's|Hace]] [[cold|frío]] [[tonight|esta noche]]. [[Good|Buena]] [[idea|idea]]! [[I'll|Me llevaré]] [[take|llevaré]] [[my|mi]] [[grey|gris]] [[coat|abrigo]] [[too|también]]. [[And|Y]] [[don't|no]] [[forget|olvides]] [[a|una]] [[scarf|bufanda]] — [[the|la]] [[forecast|previsión]] [[says|dice]] [[it's|que hará]] [[very|muy]] [[cold|frío]]!",
+          "question_en": "[[What|Qué]] [[word|palabra]] [[means|significa]] 'Bufanda'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Scarf|Bufanda]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Hat|Sombrero]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Coat|Abrigo]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U29_I50",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[What|Qué]] [[are|llevas]] [[you|tú]] [[wearing|puesto]] [[to|para]] [[the|la]] [[party|fiesta]] [[tonight|esta noche]]? [[I|Yo]] [[think|creo]] [[I'll|que llevaré]] [[wear|llevaré]] [[my|mi]] [[blue|azul]] [[dress|vestido]] [[and|y]] [[black|negros]] [[boots|botas]]. [[That|Eso]] [[sounds|suena]] [[beautiful|bonito]]! [[What|Qué]] [[about|sobre]] [[a|una]] [[jacket|chaqueta]]? [[It's|Hace]] [[cold|frío]] [[tonight|esta noche]]. [[Good|Buena]] [[idea|idea]]! [[I'll|Me llevaré]] [[take|llevaré]] [[my|mi]] [[grey|gris]] [[coat|abrigo]] [[too|también]]. [[And|Y]] [[don't|no]] [[forget|olvides]] [[a|una]] [[scarf|bufanda]] — [[the|la]] [[forecast|previsión]] [[says|dice]] [[it's|que hará]] [[very|muy]] [[cold|frío]]!",
+          "question_en": "[[What|Qué]] [[is|es]] [[the|el]] [[structure|estructura]] [[of|del]] [[Present|Presente]] [[Continuous|Continuo]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[subject + verb-ing|sujeto + verbo-ing]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[subject + am/is/are + verb-ing|sujeto + am/is/are + verbo-ing]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[subject + do/does + verb|sujeto + do/does + verbo]]"
+            }
+          ],
+          "correct_answer": "o2"
+        }
+      ]
+    },
+    {
+      "block_id": "B6",
+      "title": "Production",
+      "content": [
+        {
+          "interaction_id": "A1_U29_I51",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
             {
               "id": "w1",
-              "text": "[[What|Qué]]"
+              "text": "[[Trousers|Pantalones]]"
             },
             {
               "id": "w2",
-              "text": "[[do|do]]"
+              "text": "[[Hat|Sombrero]]"
             },
             {
               "id": "w3",
-              "text": "[[you|tú]]"
+              "text": "[[Shirt|Camisa]]"
             },
             {
               "id": "w4",
-              "text": "[[wear|llevas]]"
-            },
-            {
-              "id": "w5",
-              "text": "[[for|para]]"
-            },
-            {
-              "id": "w6",
-              "text": "[[special|especiales]]"
-            },
-            {
-              "id": "w7",
-              "text": "[[occasions?|ocasiones?]]"
+              "text": "[[Dress|Vestido]]"
             }
           ],
           "correct_answer": [
-            "w1",
-            "w2",
             "w3",
+            "w1",
             "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "reading",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U29_I49",
-          "type": "multiple_choice",
-          "prompt_es": "¿De qué color son los tacones del conjunto favorito de Lucy?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Red|Rojos]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[White|Blancos]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[Black|Negros]]"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "reading",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U29_I50",
-          "type": "fill_blanks",
-          "prompt_es": "Lucy dice: 'For a job ___, I always wear a smart suit.' (entrevista = interview) ([[always|siempre]])",
-          "correct_answer": "interview",
-          "mastery_tag": "reading",
-          "complexity": 1
-        }
-      ]
-    },
-    {
-      "block_id": "B29_REC",
-      "title": "Block 6: Recycling – Plans & Future",
-      "content": [
-        {
-          "interaction_id": "A1_U29_B29_REC_MC1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la forma correcta para hablar de [[plans|planes]] futuros?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[I'm going to travel|Voy a viajar]]"
-            },
-            {
-              "id": "o2",
-              "text": "I will go travel"
-            },
-            {
-              "id": "o3",
-              "text": "I going travel"
-            },
-            {
-              "id": "o4",
-              "text": "I go to travel future"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "going_to"
+            "w2"
           ]
         },
         {
-          "interaction_id": "A1_U29_B29_REC_FB2",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: \"She ___ [[going|]] [[to|]] [[study|estudiar]] [[abroad|en el extranjero]] next [[year|año]].\"",
-          "stimulus_en": "She ___ going to study abroad next year.",
-          "correct_answer": "is",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "going_to"
-          ]
-        },
-        {
-          "interaction_id": "A1_U29_B29_REC_MC3",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la pregunta correcta con \"[[going to|ir a]]\"?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Are you going to visit London?|¿Vas a visitar Londres?]]"
-            },
-            {
-              "id": "o2",
-              "text": "You are going visit?"
-            },
-            {
-              "id": "o3",
-              "text": "Do you going to visit?"
-            },
-            {
-              "id": "o4",
-              "text": "Going you to visit London?"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "going_to",
-            "questions"
-          ]
-        },
-        {
-          "interaction_id": "A1_U29_B29_REC_SW4",
-          "type": "short_writing",
-          "prompt_es": "Escribe sobre tus planes para el próximo fin de semana. Usa [[I'm going to|voy a]], [[We're going to|vamos a]], [[I'm not going to|no voy a]].",
+          "interaction_id": "A1_U29_I52",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
           "mastery_tag": "production",
           "complexity": 3,
-          "concept_tags": [
-            "production",
-            "free_writing"
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Hat|Sombrero]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Skirt|Falda]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Shoes|Zapatos]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Jacket|Chaqueta]]"
+            }
           ],
-          "example_answer": "This weekend I'm going to visit my grandparents. We're going to have lunch together. In the afternoon, I'm going to play football with my friends. I'm not going to study this Saturday!"
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
+          ]
         },
         {
-          "interaction_id": "A1_U29_B29_REC_SW5",
-          "type": "short_writing",
-          "prompt_es": "Escribe una lista de propósitos de año nuevo. Usa [[I'm going to|voy a]], [[I want to|quiero]], [[I'd like to|me gustaría]].",
+          "interaction_id": "A1_U29_I53",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
           "mastery_tag": "production",
           "complexity": 3,
-          "concept_tags": [
-            "production",
-            "free_writing"
-          ],
-          "example_answer": "I'm going to exercise three times a week. I want to learn to cook new dishes. I'd like to travel to Japan. I'm going to read more books this year."
-        },
-        {
-          "interaction_id": "A1_U29_B29_REC_MC6",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuándo se usa \"[[going to|ir a]]\" en lugar de [[will|will]]?",
           "options": [
             {
-              "id": "o1",
-              "text": "Never"
+              "id": "w1",
+              "text": "[[Skirt|Falda]]"
             },
             {
-              "id": "o2",
-              "text": "For predictions only"
+              "id": "w2",
+              "text": "[[Socks|Calcetines]]"
             },
             {
-              "id": "o3",
-              "text": "For past events"
+              "id": "w3",
+              "text": "[[T-shirt|Camiseta]]"
             },
             {
-              "id": "o4",
-              "text": "[[For plans and intentions|Para planes e intenciones]]"
+              "id": "w4",
+              "text": "[[Coat|Abrigo]]"
             }
           ],
-          "correct_answer": "o4",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "going_to"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "B29_EX",
-      "title": "Block 7: Extra Practice – Plans & Future",
-      "content": [
-        {
-          "interaction_id": "A1_U29_B29_EX_MC1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la negativa de \"[[I'm going to travel|Voy a viajar]]\"?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[I'm not going to travel|No voy a viajar]]"
-            },
-            {
-              "id": "o2",
-              "text": "I not going travel"
-            },
-            {
-              "id": "o3",
-              "text": "I'm going not travel"
-            },
-            {
-              "id": "o4",
-              "text": "I don't going travel"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "going_to"
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "A1_U29_B29_EX_MC2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál expresa un plan futuro?",
+          "interaction_id": "A1_U29_I54",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
           "options": [
             {
-              "id": "o1",
-              "text": "[[She's going to study medicine|Va a estudiar medicina]]"
+              "id": "w1",
+              "text": "[[Socks|Calcetines]]"
             },
             {
-              "id": "o2",
-              "text": "She study medicine tomorrow"
+              "id": "w2",
+              "text": "[[Getting dressed|Vistiéndose]]"
             },
             {
-              "id": "o3",
-              "text": "She studies medicine next year"
+              "id": "w3",
+              "text": "[[Boots|Botas]]"
             },
             {
-              "id": "o4",
-              "text": "She will studied medicine"
+              "id": "w4",
+              "text": "[[Scarf|Bufanda]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "going_to"
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
+        },
+        {
+          "interaction_id": "A1_U29_I55",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[I|Yo]] [[need|necesito]] [[to|a]] ______ [[my|mi]] [[shoes|zapatos]] [[before|antes de]] [[going|salir]] [[out|salir]].",
+          "correct_answer": "put on"
+        },
+        {
+          "interaction_id": "A1_U29_I56",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[I|Yo]] [[am|estoy]] ______ [[a|una]] [[blue|azul]] [[dress|vestido]].",
+          "correct_answer": "wearing"
+        },
+        {
+          "interaction_id": "A1_U29_I57",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[She|Ella]] [[is|está]] ______ [[a|un]] [[red|rojo]] [[coat|abrigo]].",
+          "correct_answer": "wearing"
+        },
+        {
+          "interaction_id": "A1_U29_I58",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[What|Qué]] [[are|llevas]] [[you|tú]] [[wearing|puesto]] [[to|para]] [[the|la]] [[party|fiesta]] [[tonight|esta noche]]?",
+          "correct_answer": true
+        },
+        {
+          "interaction_id": "A1_U29_I59",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[I|Yo]] [[think|creo]] [[I'll|que llevaré]] [[wear|llevaré]] [[my|mi]] [[blue|azul]] [[dress|vestido]] [[and|y]] [[black|negros]] [[boots|botas]].",
+          "correct_answer": false
+        },
+        {
+          "interaction_id": "A1_U29_I60",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[That|Eso]] [[sounds|suena]] [[beautiful|bonito]]! [[What|Qué]] [[about|sobre]] [[a|una]] [[jacket|chaqueta]]? [[It's|Hace]] [[cold|frío]] [[tonight|esta noche]].",
+          "correct_answer": true
         }
       ]
     }

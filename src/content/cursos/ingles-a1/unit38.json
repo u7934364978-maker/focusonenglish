@@ -1,1930 +1,1232 @@
 {
   "course": {
     "unit_id": "unit38",
-    "unit_title": "Daily Household Chores",
+    "unit_title": "Asking for Permission",
     "level": "A1",
-    "total_duration_minutes": 120,
+    "total_duration_minutes": 60,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Identify common household chores",
-    "Express obligations using 'have to' and 'must'",
-    "Formulate questions about domestic duties"
+    "Ask for permission using Can I...? May I...? Could I...?",
+    "Respond to requests politely",
+    "Understand the difference between formal and informal permission phrases"
   ],
   "blocks": [
     {
-      "block_id": "B38_1",
-      "title": "Block 1: Helping at Home",
+      "block_id": "B1",
+      "title": "Vocabulary Introduction",
       "content": [
         {
-          "interaction_id": "A1_U38_B38_1_I1",
-          "type": "matching",
-          "prompt_es": "Relaciona la tarea doméstica:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Wash the dishes|lavar los platos]]",
-              "right": "Hacer la cama"
-            },
-            {
-              "id": "p2",
-              "left": "[[Sweep the floor|barrer el suelo]]",
-              "right": "Lavar los platos"
-            },
-            {
-              "id": "p3",
-              "left": "[[Do the laundry|hacer la colada]]",
-              "right": "Barrer el suelo"
-            },
-            {
-              "id": "p4",
-              "left": "[[Make the bed|hacer la cama]]",
-              "right": "Hacer la colada"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p2",
-            "p2": "p3",
-            "p3": "p4",
-            "p4": "p1"
-          },
+          "interaction_id": "A1_U38_I1",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
           "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U38_B38_1_I2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Regar las plantas'? ([[water|agua]])",
+          "stimulus_en": "[[Please|Por favor]]",
           "options": [
             {
               "id": "o1",
-              "text": "Water the plants"
+              "text": "[[Por favor|Please]]"
             },
             {
               "id": "o2",
-              "text": "Clean the plants"
+              "text": "[[Disculpe|Excuse me]]"
             },
             {
               "id": "o3",
-              "text": "Feed the plants"
+              "text": "[[Lo siento|Sorry]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U38_I2",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
           "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "stimulus_en": "[[Excuse me|Disculpe]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Lo siento|Sorry]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Disculpe|Excuse me]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Por supuesto|Of course]]"
+            }
+          ],
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "A1_U38_B38_1_I3",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con el verbo adecuado: ([[please|por favor]])",
-          "stimulus_en": "Please ________ the [[bathroom|baño]]. It's dirty.",
-          "correct_answer": "clean",
+          "interaction_id": "A1_U38_I3",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "complexity": 1,
+          "stimulus_en": "[[Sorry|Lo siento]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Por supuesto|Of course]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Desde luego|Certainly]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Lo siento|Sorry]]"
+            }
+          ],
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "A1_U38_B38_1_I4",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Barrer el suelo' ([[clean|limpiar]])",
-          "stimulus_es": "Barrer el suelo",
-          "correct_answer": "Sweep the floor",
+          "interaction_id": "A1_U38_I4",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "complexity": 1,
+          "stimulus_en": "[[Of course|Por supuesto]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Por supuesto|Of course]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Desde luego|Certainly]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Claro|Sure]]"
+            }
+          ],
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "A1_U38_B38_1_I5",
-          "type": "flashcard",
-          "prompt_es": "Aprende el sustantivo: ([[clean|limpiar]])",
-          "stimulus_en": "[[Chores|tareas domésticas]]",
-          "correct_answer": "Tareas domésticas / Quehaceres",
+          "interaction_id": "A1_U38_I5",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "complexity": 1,
+          "stimulus_en": "[[Certainly|Desde luego]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Claro|Sure]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Desde luego|Certainly]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Sin problema|No problem]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U38_I6",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Sure|Claro]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Sin problema|No problem]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Permiso|Permission]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Claro|Sure]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U38_I7",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Sin problema]]",
+          "correct_answer": "No problem"
+        },
+        {
+          "interaction_id": "A1_U38_I8",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Permiso]]",
+          "correct_answer": "Permission"
+        },
+        {
+          "interaction_id": "A1_U38_I9",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Permitir]]",
+          "correct_answer": "Allow"
+        },
+        {
+          "interaction_id": "A1_U38_I10",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Educado/a]]",
+          "correct_answer": "Polite"
         }
       ]
     },
     {
-      "block_id": "B38_2",
-      "title": "Block 2: I Have to Do It!",
+      "block_id": "B2",
+      "title": "Vocabulary in Context",
       "content": [
         {
-          "interaction_id": "A1_U38_B38_2_I2",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con 'has to' o '[[have to|tener que]]':",
-          "stimulus_en": "My mother ________ [[cook|cocinar]] dinner today.",
-          "correct_answer": "has to",
-          "mastery_tag": "grammar",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
+          "interaction_id": "A1_U38_I11",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Of course|Por supuesto]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Of course|Por supuesto]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[No problem|Sin problema]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Polite|Educado/a]]"
+            }
+          ],
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "A1_U38_B38_2_I3",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la frase de obligación:",
+          "interaction_id": "A1_U38_I12",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Certainly|Desde luego]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Permission|Permiso]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Certainly|Desde luego]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Formal|Formal]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U38_I13",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Sure|Claro]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Allow|Permitir]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Informal|Informal]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Sure|Claro]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U38_I14",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[No problem|Sin problema]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[No problem|Sin problema]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Polite|Educado/a]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[May|Poder (formal)]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U38_I15",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "______ [[I|yo]] [[open|abrir]] [[the|la]] [[window|ventana]]?",
+          "correct_answer": "Can"
+        },
+        {
+          "interaction_id": "A1_U38_I16",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "______ [[I|yo]] [[use|usar]] [[your|tu]] [[phone|teléfono]]?",
+          "correct_answer": "May"
+        },
+        {
+          "interaction_id": "A1_U38_I17",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Do|Te importa]] [[you|tú]] [[mind|te importa]] [[if|si]] [[I|yo]] ______ [[here|aquí]]?",
+          "correct_answer": "sit"
+        },
+        {
+          "interaction_id": "A1_U38_I18",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
           "options": [
             {
               "id": "w1",
-              "text": "You"
+              "text": "[[Please|Por favor]]"
             },
             {
               "id": "w2",
-              "text": "must"
+              "text": "[[Sorry|Lo siento]]"
             },
             {
               "id": "w3",
-              "text": "[[clean|limpiar]]"
-            },
-            {
-              "id": "w4",
-              "text": "your"
-            },
-            {
-              "id": "w5",
-              "text": "room"
+              "text": "[[Excuse me|Disculpe]]"
             }
           ],
           "correct_answer": [
             "w1",
-            "w2",
             "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "syntax"
+            "w2"
           ]
         },
         {
-          "interaction_id": "A1_U38_B38_2_I4",
-          "type": "true_false",
-          "prompt_es": "¿'[[Must|deber]]' es más fuerte que '[[have to|tener que]]'?",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "B38_3",
-      "title": "Block 3: No chores today?",
-      "content": [
-        {
-          "interaction_id": "A1_U38_B38_3_I1",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la pregunta: ([[clean|limpiar]])",
+          "interaction_id": "A1_U38_I19",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
           "options": [
             {
               "id": "w1",
-              "text": "Do"
+              "text": "[[Certainly|Desde luego]]"
             },
             {
               "id": "w2",
-              "text": "you"
+              "text": "[[No problem|Sin problema]]"
             },
             {
               "id": "w3",
-              "text": "have"
-            },
-            {
-              "id": "w4",
-              "text": "to"
-            },
-            {
-              "id": "w5",
-              "text": "do"
-            },
-            {
-              "id": "w6",
-              "text": "the"
-            },
-            {
-              "id": "w7",
-              "text": "laundry"
-            },
-            {
-              "id": "w8",
-              "text": "?"
+              "text": "[[Sure|Claro]]"
             }
           ],
           "correct_answer": [
             "w1",
-            "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8"
-          ],
-          "mastery_tag": "syntax",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U38_I20",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
           "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
-        },
-        {
-          "interaction_id": "A1_U38_B38_3_I3",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con 'does' o 'do': ([[water|agua]])",
-          "stimulus_en": "________ he [[have to|tener que]] water the plants?",
-          "correct_answer": "Does",
-          "mastery_tag": "grammar",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U38_B38_3_I4",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Ella no tiene que cocinar' ([[clean|limpiar]])",
-          "stimulus_es": "Ella no tiene que cocinar",
-          "correct_answer": "She doesn't have to cook",
-          "mastery_tag": "syntax",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
-        },
-        {
-          "interaction_id": "A1_U38_B38_3_I5",
-          "type": "true_false",
-          "prompt_es": "¿'Don't have to' significa que algo está prohibido? ([[clean|limpiar]])",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Allow|Permitir]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Formal|Formal]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Polite|Educado/a]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
           ]
         }
       ]
     },
     {
-      "block_id": "B38_4",
-      "title": "Block 4: Saturday Morning",
+      "block_id": "B3",
+      "title": "Grammar — Affirmative",
       "content": [
         {
-          "interaction_id": "A1_U38_B38_4_READ",
-          "type": "reading_phase",
-          "prompt_es": "[[Read|Lee]] [[the|el]] [[following|siguiente]] [[text|texto]] [[carefully|con atención]]:",
-          "transcript": "Tom's sister has to water the plants. She does this every morning. Tom helps her sometimes. Their mother tells them to take care of the garden. The plants are in the backyard. They like to watch the plants grow."
+          "interaction_id": "A1_U38_I21",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "______ [[I|yo]] [[open|abrir]] [[the|la]] [[window|ventana]]?",
+          "correct_answer": "Can"
         },
         {
-          "interaction_id": "A1_U38_B38_4_I5",
-          "type": "multiple_choice",
-          "prompt_es": "¿Quién tiene que regar las plantas? ([[sometimes|a veces]])",
+          "interaction_id": "A1_U38_I22",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "______ [[I|yo]] [[use|usar]] [[your|tu]] [[phone|teléfono]]?",
+          "correct_answer": "May"
+        },
+        {
+          "interaction_id": "A1_U38_I23",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Do|Te importa]] [[you|tú]] [[mind|te importa]] [[if|si]] [[I|yo]] ______ [[here|aquí]]?",
+          "correct_answer": "sit"
+        },
+        {
+          "interaction_id": "A1_U38_I24",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Could|Podría]] [[I|yo]] ______ [[the|la]] [[salt|sal]], [[please|por favor]]?",
+          "correct_answer": "have"
+        },
+        {
+          "interaction_id": "A1_U38_I25",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Is|Está]] [[it|eso]] [[OK|bien]] [[if|si]] [[I|yo]] ______ [[the|las]] [[lights|luces]] [[on|encendidas]]?",
           "options": [
             {
               "id": "o1",
-              "text": "Tom"
+              "text": "[[turn|turn]]"
             },
             {
               "id": "o2",
-              "text": "La hermana"
+              "text": "[[May|May]]"
             },
             {
               "id": "o3",
-              "text": "La madre"
+              "text": "[[sit|sit]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U38_I26",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[May|Puede]] [[I|yo]] ______ [[a|una]] [[question|pregunta]], [[please|por favor]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[sit|sit]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[ask|ask]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[have|have]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U38_I27",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "______ [[I|yo]] [[open|abrir]] [[the|la]] [[window|ventana]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[have|have]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[turn|turn]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Can|Can]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U38_I28",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "______ [[I|yo]] [[use|usar]] [[your|tu]] [[phone|teléfono]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[May|May]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[turn|turn]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[ask|ask]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U38_I29",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Sorry|Lo siento]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Please|Por favor]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Certainly|Desde luego]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
+          ]
+        },
+        {
+          "interaction_id": "A1_U38_I30",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Permission|Permiso]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Sure|Claro]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Polite|Educado/a]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Grammar — Negative & Questions",
+      "content": [
+        {
+          "interaction_id": "A1_U38_I31",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Do|Te importa]] [[you|tú]] [[mind|te importa]] [[if|si]] [[I|yo]] ______ [[here|aquí]]?",
+          "correct_answer": "sit"
+        },
+        {
+          "interaction_id": "A1_U38_I32",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Could|Podría]] [[I|yo]] ______ [[the|la]] [[salt|sal]], [[please|por favor]]?",
+          "correct_answer": "have"
+        },
+        {
+          "interaction_id": "A1_U38_I33",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Is|Está]] [[it|eso]] [[OK|bien]] [[if|si]] [[I|yo]] ______ [[the|las]] [[lights|luces]] [[on|encendidas]]?",
+          "correct_answer": "turn"
+        },
+        {
+          "interaction_id": "A1_U38_I34",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Could|Podría]] [[I|yo]] ______ [[the|la]] [[salt|sal]], [[please|por favor]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[have|have]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[ask|ask]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Can|Can]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U38_I35",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Is|Está]] [[it|eso]] [[OK|bien]] [[if|si]] [[I|yo]] ______ [[the|las]] [[lights|luces]] [[on|encendidas]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Can|Can]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[turn|turn]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[May|May]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U38_I36",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[May|Puede]] [[I|yo]] ______ [[a|una]] [[question|pregunta]], [[please|por favor]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[May|May]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[sit|sit]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[ask|ask]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U38_I37",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "______ [[I|yo]] [[open|abrir]] [[the|la]] [[window|ventana]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Can|Can]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[sit|sit]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[have|have]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U38_I38",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Certainly|Desde luego]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Excuse me|Disculpe]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[No problem|Sin problema]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Sorry|Lo siento]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
+        },
+        {
+          "interaction_id": "A1_U38_I39",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Permission|Permiso]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Certainly|Desde luego]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Polite|Educado/a]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Sure|Claro]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
+        },
+        {
+          "interaction_id": "A1_U38_I40",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Formal|Formal]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Permission|Permiso]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[May|Poder (formal)]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Allow|Permitir]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B5",
+      "title": "Reading Comprehension",
+      "content": [
+        {
+          "interaction_id": "A1_U38_I41",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
           "mastery_tag": "reading",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "reading"
+          "complexity": 2,
+          "transcript": "[[Excuse|Disculpe]], [[may|puedo]] [[I|yo]] [[sit|sentarme]] [[here|aquí]]? [[Is|Está]] [[this|este]] [[seat|asiento]] [[free|libre]]? [[Of|Por]] [[course|supuesto]]! [[Please|Por favor]], [[go|pase]] [[ahead|adelante]]. [[Thank|Gracias]] [[you|gracias]]. [[Can|Puedo]] [[I|yo]] [[also|también]] [[open|abrir]] [[the|la]] [[window|ventana]]? [[It|Hace]] [[is|hace]] [[a|bastante]] [[bit|bastante]] [[warm|calor]]. [[Sure|Claro]], [[no|sin]] [[problem|problema]] [[at|en]] [[all|absoluto]]. [[Do|Te importa]] [[you|tú]] [[mind|te importa]] [[if|si]] [[I|yo]] [[move|me muevo]] [[my|mi]] [[bag|bolsa]] [[first|primero]]? [[Not|En] [[at|absoluto] [[all|no]]! [[Please|Por favor]], [[take|toma]] [[your|tu]] [[time|tiempo]].",
+          "question_en": "[[What|Qué]] [[does|pide]] [[the|el]] [[speaker|hablante]] [[ask|pide]] [[first|primero]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[To open a window|Abrir una ventana]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[To sit down|Sentarse]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[To use the phone|Usar el teléfono]]"
+            }
           ],
-          "stimulus_en": "Tom's sister has to water the plants. She does this every morning. Tom helps her sometimes. Their mother tells them to take care of the [[garden|jardín]]. The plants are in the backyard. They like to watch the plants grow."
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U38_I42",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Disculpe]], [[may|puedo]] [[I|yo]] [[sit|sentarme]] [[here|aquí]]? [[Is|Está]] [[this|este]] [[seat|asiento]] [[free|libre]]? [[Of|Por]] [[course|supuesto]]! [[Please|Por favor]], [[go|pase]] [[ahead|adelante]]. [[Thank|Gracias]] [[you|gracias]]. [[Can|Puedo]] [[I|yo]] [[also|también]] [[open|abrir]] [[the|la]] [[window|ventana]]? [[It|Hace]] [[is|hace]] [[a|bastante]] [[bit|bastante]] [[warm|calor]]. [[Sure|Claro]], [[no|sin]] [[problem|problema]] [[at|en]] [[all|absoluto]]. [[Do|Te importa]] [[you|tú]] [[mind|te importa]] [[if|si]] [[I|yo]] [[move|me muevo]] [[my|mi]] [[bag|bolsa]] [[first|primero]]? [[Not|En] [[at|absoluto] [[all|no]]! [[Please|Por favor]], [[take|toma]] [[your|tu]] [[time|tiempo]].",
+          "question_en": "[[Is|Está]] [[the|el]] [[seat|asiento]] [[free|libre]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[No|No]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Yes|Sí]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Not sure|No está seguro]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U38_I43",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Disculpe]], [[may|puedo]] [[I|yo]] [[sit|sentarme]] [[here|aquí]]? [[Is|Está]] [[this|este]] [[seat|asiento]] [[free|libre]]? [[Of|Por]] [[course|supuesto]]! [[Please|Por favor]], [[go|pase]] [[ahead|adelante]]. [[Thank|Gracias]] [[you|gracias]]. [[Can|Puedo]] [[I|yo]] [[also|también]] [[open|abrir]] [[the|la]] [[window|ventana]]? [[It|Hace]] [[is|hace]] [[a|bastante]] [[bit|bastante]] [[warm|calor]]. [[Sure|Claro]], [[no|sin]] [[problem|problema]] [[at|en]] [[all|absoluto]]. [[Do|Te importa]] [[you|tú]] [[mind|te importa]] [[if|si]] [[I|yo]] [[move|me muevo]] [[my|mi]] [[bag|bolsa]] [[first|primero]]? [[Not|En] [[at|absoluto] [[all|no]]! [[Please|Por favor]], [[take|toma]] [[your|tu]] [[time|tiempo]].",
+          "question_en": "[[Why|Por qué]] [[does|quiere]] [[the|el]] [[speaker|hablante]] [[want|quiere]] [[to|abrir]] [[open|abrir]] [[the|la]] [[window|ventana]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[It's cold|Hace frío]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[It's too dark|Está muy oscuro]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[It's warm|Hace calor]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U38_I44",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Disculpe]], [[may|puedo]] [[I|yo]] [[sit|sentarme]] [[here|aquí]]? [[Is|Está]] [[this|este]] [[seat|asiento]] [[free|libre]]? [[Of|Por]] [[course|supuesto]]! [[Please|Por favor]], [[go|pase]] [[ahead|adelante]]. [[Thank|Gracias]] [[you|gracias]]. [[Can|Puedo]] [[I|yo]] [[also|también]] [[open|abrir]] [[the|la]] [[window|ventana]]? [[It|Hace]] [[is|hace]] [[a|bastante]] [[bit|bastante]] [[warm|calor]]. [[Sure|Claro]], [[no|sin]] [[problem|problema]] [[at|en]] [[all|absoluto]]. [[Do|Te importa]] [[you|tú]] [[mind|te importa]] [[if|si]] [[I|yo]] [[move|me muevo]] [[my|mi]] [[bag|bolsa]] [[first|primero]]? [[Not|En] [[at|absoluto] [[all|no]]! [[Please|Por favor]], [[take|toma]] [[your|tu]] [[time|tiempo]].",
+          "question_en": "[[What|Qué]] [[does|pide]] [[the|el]] [[other|otro]] [[person|persona]] [[ask|pide]] [[to|de]] [[do|hacer]] [[first|primero]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Close the window|Cerrar la ventana]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Move their bag|Mover su bolsa]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Open the door|Abrir la puerta]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U38_I45",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Disculpe]], [[may|puedo]] [[I|yo]] [[sit|sentarme]] [[here|aquí]]? [[Is|Está]] [[this|este]] [[seat|asiento]] [[free|libre]]? [[Of|Por]] [[course|supuesto]]! [[Please|Por favor]], [[go|pase]] [[ahead|adelante]]. [[Thank|Gracias]] [[you|gracias]]. [[Can|Puedo]] [[I|yo]] [[also|también]] [[open|abrir]] [[the|la]] [[window|ventana]]? [[It|Hace]] [[is|hace]] [[a|bastante]] [[bit|bastante]] [[warm|calor]]. [[Sure|Claro]], [[no|sin]] [[problem|problema]] [[at|en]] [[all|absoluto]]. [[Do|Te importa]] [[you|tú]] [[mind|te importa]] [[if|si]] [[I|yo]] [[move|me muevo]] [[my|mi]] [[bag|bolsa]] [[first|primero]]? [[Not|En] [[at|absoluto] [[all|no]]! [[Please|Por favor]], [[take|toma]] [[your|tu]] [[time|tiempo]].",
+          "question_en": "[[Which|Cuál]] [[is|es]] [[more|más]] [[formal|formal]]: 'Can I' [[or|o]] 'May I'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Can I|Can I]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[They are the same|Son iguales]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[May I|May I]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U38_I46",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Disculpe]], [[may|puedo]] [[I|yo]] [[sit|sentarme]] [[here|aquí]]? [[Is|Está]] [[this|este]] [[seat|asiento]] [[free|libre]]? [[Of|Por]] [[course|supuesto]]! [[Please|Por favor]], [[go|pase]] [[ahead|adelante]]. [[Thank|Gracias]] [[you|gracias]]. [[Can|Puedo]] [[I|yo]] [[also|también]] [[open|abrir]] [[the|la]] [[window|ventana]]? [[It|Hace]] [[is|hace]] [[a|bastante]] [[bit|bastante]] [[warm|calor]]. [[Sure|Claro]], [[no|sin]] [[problem|problema]] [[at|en]] [[all|absoluto]]. [[Do|Te importa]] [[you|tú]] [[mind|te importa]] [[if|si]] [[I|yo]] [[move|me muevo]] [[my|mi]] [[bag|bolsa]] [[first|primero]]? [[Not|En] [[at|absoluto] [[all|no]]! [[Please|Por favor]], [[take|toma]] [[your|tu]] [[time|tiempo]].",
+          "question_en": "[[What|Qué]] [[does|significa]] 'Of course' [[mean|significa]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[No problem|Sin problema]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Yes, certainly|Sí, por supuesto]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[I'm not sure|No estoy seguro]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U38_I47",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Disculpe]], [[may|puedo]] [[I|yo]] [[sit|sentarme]] [[here|aquí]]? [[Is|Está]] [[this|este]] [[seat|asiento]] [[free|libre]]? [[Of|Por]] [[course|supuesto]]! [[Please|Por favor]], [[go|pase]] [[ahead|adelante]]. [[Thank|Gracias]] [[you|gracias]]. [[Can|Puedo]] [[I|yo]] [[also|también]] [[open|abrir]] [[the|la]] [[window|ventana]]? [[It|Hace]] [[is|hace]] [[a|bastante]] [[bit|bastante]] [[warm|calor]]. [[Sure|Claro]], [[no|sin]] [[problem|problema]] [[at|en]] [[all|absoluto]]. [[Do|Te importa]] [[you|tú]] [[mind|te importa]] [[if|si]] [[I|yo]] [[move|me muevo]] [[my|mi]] [[bag|bolsa]] [[first|primero]]? [[Not|En] [[at|absoluto] [[all|no]]! [[Please|Por favor]], [[take|toma]] [[your|tu]] [[time|tiempo]].",
+          "question_en": "[[What|Qué]] [[does|significa]] 'Do you mind if...?' [[express|expresa]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Asking for information|Pidiendo información]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Asking for permission politely|Pidiendo permiso educadamente]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Giving an order|Dando una orden]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U38_I48",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Disculpe]], [[may|puedo]] [[I|yo]] [[sit|sentarme]] [[here|aquí]]? [[Is|Está]] [[this|este]] [[seat|asiento]] [[free|libre]]? [[Of|Por]] [[course|supuesto]]! [[Please|Por favor]], [[go|pase]] [[ahead|adelante]]. [[Thank|Gracias]] [[you|gracias]]. [[Can|Puedo]] [[I|yo]] [[also|también]] [[open|abrir]] [[the|la]] [[window|ventana]]? [[It|Hace]] [[is|hace]] [[a|bastante]] [[bit|bastante]] [[warm|calor]]. [[Sure|Claro]], [[no|sin]] [[problem|problema]] [[at|en]] [[all|absoluto]]. [[Do|Te importa]] [[you|tú]] [[mind|te importa]] [[if|si]] [[I|yo]] [[move|me muevo]] [[my|mi]] [[bag|bolsa]] [[first|primero]]? [[Not|En] [[at|absoluto] [[all|no]]! [[Please|Por favor]], [[take|toma]] [[your|tu]] [[time|tiempo]].",
+          "question_en": "[[What|Qué]] [[does|significa]] 'Certainly' [[mean|significa]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Maybe|Quizás]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Yes, definitely|Sí, definitivamente]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[No way|De ninguna manera]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U38_I49",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Disculpe]], [[may|puedo]] [[I|yo]] [[sit|sentarme]] [[here|aquí]]? [[Is|Está]] [[this|este]] [[seat|asiento]] [[free|libre]]? [[Of|Por]] [[course|supuesto]]! [[Please|Por favor]], [[go|pase]] [[ahead|adelante]]. [[Thank|Gracias]] [[you|gracias]]. [[Can|Puedo]] [[I|yo]] [[also|también]] [[open|abrir]] [[the|la]] [[window|ventana]]? [[It|Hace]] [[is|hace]] [[a|bastante]] [[bit|bastante]] [[warm|calor]]. [[Sure|Claro]], [[no|sin]] [[problem|problema]] [[at|en]] [[all|absoluto]]. [[Do|Te importa]] [[you|tú]] [[mind|te importa]] [[if|si]] [[I|yo]] [[move|me muevo]] [[my|mi]] [[bag|bolsa]] [[first|primero]]? [[Not|En] [[at|absoluto] [[all|no]]! [[Please|Por favor]], [[take|toma]] [[your|tu]] [[time|tiempo]].",
+          "question_en": "[[What|Qué]] [[word|palabra]] [[means|significa]] 'Permiso'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Request|Solicitud]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Polite|Educado]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Permission|Permiso]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U38_I50",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Disculpe]], [[may|puedo]] [[I|yo]] [[sit|sentarme]] [[here|aquí]]? [[Is|Está]] [[this|este]] [[seat|asiento]] [[free|libre]]? [[Of|Por]] [[course|supuesto]]! [[Please|Por favor]], [[go|pase]] [[ahead|adelante]]. [[Thank|Gracias]] [[you|gracias]]. [[Can|Puedo]] [[I|yo]] [[also|también]] [[open|abrir]] [[the|la]] [[window|ventana]]? [[It|Hace]] [[is|hace]] [[a|bastante]] [[bit|bastante]] [[warm|calor]]. [[Sure|Claro]], [[no|sin]] [[problem|problema]] [[at|en]] [[all|absoluto]]. [[Do|Te importa]] [[you|tú]] [[mind|te importa]] [[if|si]] [[I|yo]] [[move|me muevo]] [[my|mi]] [[bag|bolsa]] [[first|primero]]? [[Not|En] [[at|absoluto] [[all|no]]! [[Please|Por favor]], [[take|toma]] [[your|tu]] [[time|tiempo]].",
+          "question_en": "[[What|Qué]] [[phrase|frase]] [[can|se puede]] [[you|tú]] [[use|usar]] [[to|para]] [[get|llamar]] [[attention|la atención]] [[politely|educadamente]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Hey!|¡Oye!]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Excuse me|Disculpe]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Listen!|¡Escucha!]]"
+            }
+          ],
+          "correct_answer": "o2"
         }
       ]
     },
     {
-      "title": "Practice Sessions",
+      "block_id": "B6",
+      "title": "Production",
       "content": [
         {
-          "interaction_id": "U38_FILLER_0",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'can I' en inglés?",
+          "interaction_id": "A1_U38_I51",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
           "options": [
             {
-              "id": "o1",
-              "text": "Dust"
+              "id": "w1",
+              "text": "[[Excuse me|Disculpe]]"
             },
             {
-              "id": "o2",
-              "text": "[[Can i|can I]]"
+              "id": "w2",
+              "text": "[[Certainly|Desde luego]]"
             },
             {
-              "id": "o3",
-              "text": "Vacuum"
+              "id": "w3",
+              "text": "[[Please|Por favor]]"
             },
             {
-              "id": "o4",
-              "text": "Clean"
+              "id": "w4",
+              "text": "[[Sorry|Lo siento]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'may I' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Vacuum"
-            },
-            {
-              "id": "o2",
-              "text": "[[May i|may I]]"
-            },
-            {
-              "id": "o3",
-              "text": "Do laundry"
-            },
-            {
-              "id": "o4",
-              "text": "Cook dinner"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'borrow' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Vacuum"
-            },
-            {
-              "id": "o2",
-              "text": "Mop"
-            },
-            {
-              "id": "o3",
-              "text": "Wash dishes"
-            },
-            {
-              "id": "o4",
-              "text": "[[Borrow|borrow]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_3",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[help|ayudar]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[[[help|ayudar]]|[[help|ayudar]]]]"
-            },
-            {
-              "id": "o2",
-              "text": "Clean"
-            },
-            {
-              "id": "o3",
-              "text": "Sweep"
-            },
-            {
-              "id": "o4",
-              "text": "Do laundry"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_4",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'open' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Open|open]]"
-            },
-            {
-              "id": "o2",
-              "text": "Cook dinner"
-            },
-            {
-              "id": "o3",
-              "text": "Make the bed"
-            },
-            {
-              "id": "o4",
-              "text": "Dust"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_5",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'close' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Vacuum"
-            },
-            {
-              "id": "o2",
-              "text": "Clean"
-            },
-            {
-              "id": "o3",
-              "text": "[[Close|close]]"
-            },
-            {
-              "id": "o4",
-              "text": "Dust"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_6",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'come in' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Vacuum"
-            },
-            {
-              "id": "o2",
-              "text": "Clean"
-            },
-            {
-              "id": "o3",
-              "text": "Make the bed"
-            },
-            {
-              "id": "o4",
-              "text": "[[Come in|come in]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_7",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'can I' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Make the bed"
-            },
-            {
-              "id": "o2",
-              "text": "Wash dishes"
-            },
-            {
-              "id": "o3",
-              "text": "Clean"
-            },
-            {
-              "id": "o4",
-              "text": "[[Can i|can I]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_8",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'may I' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Clean"
-            },
-            {
-              "id": "o2",
-              "text": "Make the bed"
-            },
-            {
-              "id": "o3",
-              "text": "[[May i|may I]]"
-            },
-            {
-              "id": "o4",
-              "text": "Iron"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_9",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'borrow' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Iron"
-            },
-            {
-              "id": "o2",
-              "text": "Clean"
-            },
-            {
-              "id": "o3",
-              "text": "Make the bed"
-            },
-            {
-              "id": "o4",
-              "text": "[[Borrow|borrow]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_10",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[help|ayudar]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Cook dinner"
-            },
-            {
-              "id": "o2",
-              "text": "[[[[help|ayudar]]|[[help|ayudar]]]]"
-            },
-            {
-              "id": "o3",
-              "text": "Vacuum"
-            },
-            {
-              "id": "o4",
-              "text": "Iron"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_11",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'open' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Mop"
-            },
-            {
-              "id": "o2",
-              "text": "Make the bed"
-            },
-            {
-              "id": "o3",
-              "text": "[[Open|open]]"
-            },
-            {
-              "id": "o4",
-              "text": "Sweep"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_12",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'close' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Mop"
-            },
-            {
-              "id": "o2",
-              "text": "Wash dishes"
-            },
-            {
-              "id": "o3",
-              "text": "Make the bed"
-            },
-            {
-              "id": "o4",
-              "text": "[[Close|close]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_13",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'come in' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Do laundry"
-            },
-            {
-              "id": "o2",
-              "text": "Wash dishes"
-            },
-            {
-              "id": "o3",
-              "text": "[[Come in|come in]]"
-            },
-            {
-              "id": "o4",
-              "text": "Sweep"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_14",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'can I' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Mop"
-            },
-            {
-              "id": "o2",
-              "text": "Cook dinner"
-            },
-            {
-              "id": "o3",
-              "text": "[[Can i|can I]]"
-            },
-            {
-              "id": "o4",
-              "text": "Sweep"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_15",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'may I' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[May i|may I]]"
-            },
-            {
-              "id": "o2",
-              "text": "Do laundry"
-            },
-            {
-              "id": "o3",
-              "text": "Clean"
-            },
-            {
-              "id": "o4",
-              "text": "Cook dinner"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_16",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'borrow' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Dust"
-            },
-            {
-              "id": "o2",
-              "text": "Vacuum"
-            },
-            {
-              "id": "o3",
-              "text": "Make the bed"
-            },
-            {
-              "id": "o4",
-              "text": "[[Borrow|borrow]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_17",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[help|ayudar]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[[[help|ayudar]]|[[help|ayudar]]]]"
-            },
-            {
-              "id": "o2",
-              "text": "Cook dinner"
-            },
-            {
-              "id": "o3",
-              "text": "Wash dishes"
-            },
-            {
-              "id": "o4",
-              "text": "Sweep"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_18",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'open' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Open|open]]"
-            },
-            {
-              "id": "o2",
-              "text": "Vacuum"
-            },
-            {
-              "id": "o3",
-              "text": "Clean"
-            },
-            {
-              "id": "o4",
-              "text": "Do laundry"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_19",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'close' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Wash dishes"
-            },
-            {
-              "id": "o2",
-              "text": "Cook dinner"
-            },
-            {
-              "id": "o3",
-              "text": "Clean"
-            },
-            {
-              "id": "o4",
-              "text": "[[Close|close]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_20",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'come in' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Do laundry"
-            },
-            {
-              "id": "o2",
-              "text": "[[Come in|come in]]"
-            },
-            {
-              "id": "o3",
-              "text": "Dust"
-            },
-            {
-              "id": "o4",
-              "text": "Clean"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_21",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'can I' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Clean"
-            },
-            {
-              "id": "o2",
-              "text": "Mop"
-            },
-            {
-              "id": "o3",
-              "text": "Iron"
-            },
-            {
-              "id": "o4",
-              "text": "[[Can i|can I]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_22",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'may I' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Do laundry"
-            },
-            {
-              "id": "o2",
-              "text": "Cook dinner"
-            },
-            {
-              "id": "o3",
-              "text": "[[May i|may I]]"
-            },
-            {
-              "id": "o4",
-              "text": "Mop"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_23",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'borrow' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Do laundry"
-            },
-            {
-              "id": "o2",
-              "text": "Mop"
-            },
-            {
-              "id": "o3",
-              "text": "[[Borrow|borrow]]"
-            },
-            {
-              "id": "o4",
-              "text": "Cook dinner"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_24",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[help|ayudar]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Sweep"
-            },
-            {
-              "id": "o2",
-              "text": "Do laundry"
-            },
-            {
-              "id": "o3",
-              "text": "[[[[help|ayudar]]|[[help|ayudar]]]]"
-            },
-            {
-              "id": "o4",
-              "text": "Vacuum"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_25",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'open' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Open|open]]"
-            },
-            {
-              "id": "o2",
-              "text": "Make the bed"
-            },
-            {
-              "id": "o3",
-              "text": "Iron"
-            },
-            {
-              "id": "o4",
-              "text": "Mop"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_26",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'close' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Vacuum"
-            },
-            {
-              "id": "o2",
-              "text": "Dust"
-            },
-            {
-              "id": "o3",
-              "text": "Clean"
-            },
-            {
-              "id": "o4",
-              "text": "[[Close|close]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_27",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'come in' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Make the bed"
-            },
-            {
-              "id": "o2",
-              "text": "Sweep"
-            },
-            {
-              "id": "o3",
-              "text": "[[Come in|come in]]"
-            },
-            {
-              "id": "o4",
-              "text": "Wash dishes"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_28",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'can I' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Do laundry"
-            },
-            {
-              "id": "o2",
-              "text": "Sweep"
-            },
-            {
-              "id": "o3",
-              "text": "[[Can i|can I]]"
-            },
-            {
-              "id": "o4",
-              "text": "Cook dinner"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_29",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'may I' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Iron"
-            },
-            {
-              "id": "o2",
-              "text": "Vacuum"
-            },
-            {
-              "id": "o3",
-              "text": "[[May i|may I]]"
-            },
-            {
-              "id": "o4",
-              "text": "Mop"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_30",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'borrow' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Borrow|borrow]]"
-            },
-            {
-              "id": "o2",
-              "text": "Dust"
-            },
-            {
-              "id": "o3",
-              "text": "Clean"
-            },
-            {
-              "id": "o4",
-              "text": "Iron"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_31",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[help|ayudar]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Make the bed"
-            },
-            {
-              "id": "o2",
-              "text": "Do laundry"
-            },
-            {
-              "id": "o3",
-              "text": "Dust"
-            },
-            {
-              "id": "o4",
-              "text": "[[[[help|ayudar]]|[[help|ayudar]]]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_32",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'open' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Make the bed"
-            },
-            {
-              "id": "o2",
-              "text": "Sweep"
-            },
-            {
-              "id": "o3",
-              "text": "Mop"
-            },
-            {
-              "id": "o4",
-              "text": "[[Open|open]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_33",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'close' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Close|close]]"
-            },
-            {
-              "id": "o2",
-              "text": "Dust"
-            },
-            {
-              "id": "o3",
-              "text": "Mop"
-            },
-            {
-              "id": "o4",
-              "text": "Make the bed"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_34",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'come in' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Come in|come in]]"
-            },
-            {
-              "id": "o2",
-              "text": "Make the bed"
-            },
-            {
-              "id": "o3",
-              "text": "Sweep"
-            },
-            {
-              "id": "o4",
-              "text": "Wash dishes"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_35",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'can I' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Iron"
-            },
-            {
-              "id": "o2",
-              "text": "[[Can i|can I]]"
-            },
-            {
-              "id": "o3",
-              "text": "Sweep"
-            },
-            {
-              "id": "o4",
-              "text": "Mop"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_36",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'may I' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Cook dinner"
-            },
-            {
-              "id": "o2",
-              "text": "Make the bed"
-            },
-            {
-              "id": "o3",
-              "text": "Iron"
-            },
-            {
-              "id": "o4",
-              "text": "[[May i|may I]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_37",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'borrow' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Dust"
-            },
-            {
-              "id": "o2",
-              "text": "Make the bed"
-            },
-            {
-              "id": "o3",
-              "text": "Do laundry"
-            },
-            {
-              "id": "o4",
-              "text": "[[Borrow|borrow]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_38",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[help|ayudar]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Sweep"
-            },
-            {
-              "id": "o2",
-              "text": "Cook dinner"
-            },
-            {
-              "id": "o3",
-              "text": "Wash dishes"
-            },
-            {
-              "id": "o4",
-              "text": "[[[[help|ayudar]]|[[help|ayudar]]]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_39",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'open' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Cook dinner"
-            },
-            {
-              "id": "o2",
-              "text": "Make the bed"
-            },
-            {
-              "id": "o3",
-              "text": "Mop"
-            },
-            {
-              "id": "o4",
-              "text": "[[Open|open]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_40",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'close' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Clean"
-            },
-            {
-              "id": "o2",
-              "text": "Sweep"
-            },
-            {
-              "id": "o3",
-              "text": "Make the bed"
-            },
-            {
-              "id": "o4",
-              "text": "[[Close|close]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_41",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'come in' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Come in|come in]]"
-            },
-            {
-              "id": "o2",
-              "text": "Cook dinner"
-            },
-            {
-              "id": "o3",
-              "text": "Do laundry"
-            },
-            {
-              "id": "o4",
-              "text": "Make the bed"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_42",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'can I' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Iron"
-            },
-            {
-              "id": "o2",
-              "text": "Clean"
-            },
-            {
-              "id": "o3",
-              "text": "[[Can i|can I]]"
-            },
-            {
-              "id": "o4",
-              "text": "Vacuum"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_43",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'may I' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Make the bed"
-            },
-            {
-              "id": "o2",
-              "text": "Mop"
-            },
-            {
-              "id": "o3",
-              "text": "Vacuum"
-            },
-            {
-              "id": "o4",
-              "text": "[[May i|may I]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_44",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'borrow' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Borrow|borrow]]"
-            },
-            {
-              "id": "o2",
-              "text": "Sweep"
-            },
-            {
-              "id": "o3",
-              "text": "Dust"
-            },
-            {
-              "id": "o4",
-              "text": "Mop"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_45",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[help|ayudar]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Dust"
-            },
-            {
-              "id": "o2",
-              "text": "[[[[help|ayudar]]|[[help|ayudar]]]]"
-            },
-            {
-              "id": "o3",
-              "text": "Sweep"
-            },
-            {
-              "id": "o4",
-              "text": "Iron"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U38_FILLER_46",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'open' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Iron"
-            },
-            {
-              "id": "o2",
-              "text": "Wash dishes"
-            },
-            {
-              "id": "o3",
-              "text": "Clean"
-            },
-            {
-              "id": "o4",
-              "text": "[[Open|open]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        }
-      ]
-    },
-    {
-      "title": "Lesson 5: Listening & Pronunciation Review",
-      "duration_minutes": 20,
-      "content": [
-        {
-          "interaction_id": "U38_L5_I1",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[clean|limpiar]])",
-          "audio_url": "/audio/courses/ingles-a1/unit38/lesson5-task-1.mp3",
-          "transcript_template": "The [[can I|]] is here.",
-          "correct_answer": "can I",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U38_L5_I2",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[clean|limpiar]])",
-          "audio_url": "/audio/courses/ingles-a1/unit38/lesson5-task-2.mp3",
-          "transcript_template": "The [[may I|]] is here.",
-          "correct_answer": "may I",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
+          "interaction_id": "A1_U38_I52",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Certainly|Desde luego]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Permission|Permiso]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Of course|Por supuesto]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Sure|Claro]]"
+            }
+          ],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U38_L5_I3",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[clean|limpiar]])",
-          "audio_url": "/audio/courses/ingles-a1/unit38/lesson5-task-3.mp3",
-          "transcript_template": "The [[borrow|]] is here.",
-          "correct_answer": "borrow",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
+          "interaction_id": "A1_U38_I53",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Permission|Permiso]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Formal|Formal]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[No problem|Sin problema]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Allow|Permitir]]"
+            }
+          ],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U38_L5_I4",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[clean|limpiar]])",
-          "audio_url": "/audio/courses/ingles-a1/unit38/lesson5-task-4.mp3",
-          "transcript_template": "The [[help|]] is here.",
-          "correct_answer": "help",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
+          "interaction_id": "A1_U38_I54",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Formal|Formal]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Mind|Importar]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Polite|Educado/a]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Informal|Informal]]"
+            }
+          ],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U38_L5_I5",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[clean|limpiar]])",
-          "audio_url": "/audio/courses/ingles-a1/unit38/lesson5-task-5.mp3",
-          "transcript_template": "The [[open|]] is here.",
-          "correct_answer": "open",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
+          "interaction_id": "A1_U38_I55",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[May|Puede]] [[I|yo]] ______ [[a|una]] [[question|pregunta]], [[please|por favor]]?",
+          "correct_answer": "ask"
         },
         {
-          "interaction_id": "U38_L5_I6",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[clean|limpiar]])",
-          "audio_url": "/audio/courses/ingles-a1/unit38/lesson5-task-6.mp3",
-          "transcript_template": "The [[close|]] is here.",
-          "correct_answer": "close",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
+          "interaction_id": "A1_U38_I56",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "______ [[I|yo]] [[open|abrir]] [[the|la]] [[window|ventana]]?",
+          "correct_answer": "Can"
         },
         {
-          "interaction_id": "U38_L5_I7",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[clean|limpiar]])",
-          "audio_url": "/audio/courses/ingles-a1/unit38/lesson5-task-7.mp3",
-          "transcript_template": "The [[come in|]] is here.",
-          "correct_answer": "come in",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
+          "interaction_id": "A1_U38_I57",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "______ [[I|yo]] [[use|usar]] [[your|tu]] [[phone|teléfono]]?",
+          "correct_answer": "May"
         },
         {
-          "interaction_id": "U38_L5_I8",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[clean|limpiar]])",
-          "title": "Pronunciación: Asking for Permission",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[can I|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit38/lesson5-task-8.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U38_L5_I8_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'can I'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
+          "interaction_id": "A1_U38_I58",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Excuse|Disculpe]], [[may|puedo]] [[I|yo]] [[sit|sentarme]] [[here|aquí]]? [[Is|Está]] [[this|este]] [[seat|asiento]] [[free|libre]]?",
+          "correct_answer": true
         },
         {
-          "interaction_id": "U38_L5_I9",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[clean|limpiar]])",
-          "title": "Pronunciación: Asking for Permission",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[may I|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit38/lesson5-task-9.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U38_L5_I9_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'may I'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
+          "interaction_id": "A1_U38_I59",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Of|Por]] [[course|supuesto]]! [[Please|Por favor]], [[go|pase]] [[ahead|adelante]].",
+          "correct_answer": false
         },
         {
-          "interaction_id": "U38_L5_I10",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[clean|limpiar]])",
-          "title": "Pronunciación: Asking for Permission",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[borrow|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit38/lesson5-task-10.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U38_L5_I10_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'borrow'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U38_L5_I11",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[clean|limpiar]])",
-          "title": "Pronunciación: Asking for Permission",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[help|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit38/lesson5-task-11.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U38_L5_I11_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'help'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U38_L5_I12",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[clean|limpiar]])",
-          "title": "Pronunciación: Asking for Permission",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[open|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit38/lesson5-task-12.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U38_L5_I12_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'open'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U38_L5_I13",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[clean|limpiar]])",
-          "title": "Pronunciación: Asking for Permission",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[close|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit38/lesson5-task-13.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U38_L5_I13_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'close'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U38_L5_I14",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[clean|limpiar]])",
-          "title": "Pronunciación: Asking for Permission",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[come in|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit38/lesson5-task-14.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U38_L5_I14_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'come in'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U38_L5_I15",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[clean|limpiar]])",
-          "title": "Pronunciación: Asking for Permission",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[can I|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit38/lesson5-task-15.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U38_L5_I15_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'can I'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
+          "interaction_id": "A1_U38_I60",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Thank|Gracias]] [[you|gracias]]. [[Can|Puedo]] [[I|yo]] [[also|también]] [[open|abrir]] [[the|la]] [[window|ventana]]? [[It|Hace]] [[is|hace]] [[a|bastante]] [[bit|bastante]] [[warm|calor]].",
+          "correct_answer": true
         }
       ]
     }

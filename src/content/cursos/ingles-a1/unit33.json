@@ -3,1897 +3,1230 @@
     "unit_id": "unit33",
     "unit_title": "Adverbs of Frequency",
     "level": "A1",
-    "total_duration_minutes": 120,
+    "total_duration_minutes": 60,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Identify and use adverbs of frequency (always, sometimes, never, etc.)",
-    "Place adverbs of frequency correctly in a sentence",
-    "Ask and answer questions about how often an activity is done"
+    "Use adverbs of frequency: always, usually, often, sometimes, rarely, never",
+    "Place adverbs correctly before the main verb",
+    "Ask and answer questions about how often you do things"
   ],
   "blocks": [
     {
-      "block_id": "B33_1",
-      "title": "Block 1: Ranking Frequency",
+      "block_id": "B1",
+      "title": "Vocabulary Introduction",
       "content": [
         {
-          "interaction_id": "A1_U33_B33_1_I1",
-          "type": "matching",
-          "prompt_es": "Empareja el adverbio con su frecuencia aproximada:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Always|siempre]]",
-              "right": "0% de las veces"
-            },
-            {
-              "id": "p2",
-              "left": "[[Often|a menudo]]",
-              "right": "100% de las veces"
-            },
-            {
-              "id": "p3",
-              "left": "[[Sometimes|a veces]]",
-              "right": "Frecuentemente (60-70%)"
-            },
-            {
-              "id": "p4",
-              "left": "[[Never|nunca]]",
-              "right": "A veces (40-50%)"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p2",
-            "p2": "p3",
-            "p3": "p4",
-            "p4": "p1"
-          },
+          "interaction_id": "A1_U33_I1",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
           "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U33_B33_1_I2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Normalmente'?",
+          "stimulus_en": "[[Always|Siempre]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[Usually|normalmente]]"
+              "text": "[[Siempre|Always]]"
             },
             {
               "id": "o2",
-              "text": "[[Always|siempre]]"
+              "text": "[[Normalmente|Usually]]"
             },
             {
               "id": "o3",
-              "text": "[[Never|nunca]]"
+              "text": "[[A menudo|Often]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U33_I2",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
           "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U33_B33_1_I3",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con el adverbio que significa '0%': ([[always|siempre]])",
-          "stimulus_en": "I ________ eat meat. I am a vegetarian.",
-          "correct_answer": "never",
-          "mastery_tag": "vocabulary",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U33_B33_1_I4",
-          "type": "categorization",
-          "prompt_es": "Ordena de mayor a menor frecuencia: ([[always|siempre]])",
-          "categories": [
+          "stimulus_en": "[[Usually|Normalmente]]",
+          "options": [
             {
-              "id": "c1",
-              "title": "High Frequency",
-              "items": [
-                "Always",
-                "Usually"
-              ]
+              "id": "o1",
+              "text": "[[A menudo|Often]]"
             },
             {
-              "id": "c2",
-              "title": "Low Frequency",
-              "items": [
-                "Sometimes",
-                "Never"
-              ]
+              "id": "o2",
+              "text": "[[Normalmente|Usually]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[A veces|Sometimes]]"
             }
           ],
-          "correct_answer": "categorization_logic",
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U33_I3",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Often|A menudo]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[A veces|Sometimes]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Raramente|Rarely]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[A menudo|Often]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U33_I4",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Sometimes|A veces]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[A veces|Sometimes]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Raramente|Rarely]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Nunca|Never]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U33_I5",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Rarely|Raramente]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Nunca|Never]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Raramente|Rarely]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Cada día|Every day]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U33_I6",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Never|Nunca]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Cada día|Every day]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Una vez a la semana|Once a week]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Nunca|Never]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U33_I7",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Cada día]]",
+          "correct_answer": "Every day"
+        },
+        {
+          "interaction_id": "A1_U33_I8",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Una vez a la semana]]",
+          "correct_answer": "Once a week"
+        },
+        {
+          "interaction_id": "A1_U33_I9",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Dos veces al mes]]",
+          "correct_answer": "Twice a month"
+        },
+        {
+          "interaction_id": "A1_U33_I10",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Casi nunca]]",
+          "correct_answer": "Hardly ever"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Vocabulary in Context",
+      "content": [
+        {
+          "interaction_id": "A1_U33_I11",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
           "mastery_tag": "vocabulary",
           "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U33_B33_1_I5",
-          "type": "flashcard",
-          "prompt_es": "Memoriza: ([[often|a menudo]])",
-          "stimulus_en": "[[Often|a menudo]]",
-          "correct_answer": "A menudo",
-          "mastery_tag": "vocabulary",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "B33_2",
-      "title": "Block 2: Word Order",
-      "content": [
-        {
-          "interaction_id": "A1_U33_B33_2_I4",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el orden (sujeto + adverbio + verbo): ([[usually|normalmente]])",
-          "stimulus_en": "We ________ ________ ([[usually|normalmente]] / walk) to school.",
-          "correct_answer": "usually walk",
-          "mastery_tag": "grammar",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U33_B33_2_I5",
-          "type": "true_false",
-          "prompt_es": "¿Es gramaticalmente correcto? 'I am never late.' ([[never|nunca]])",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "B33_3",
-      "title": "Block 3: How Often?",
-      "content": [
-        {
-          "interaction_id": "A1_U33_B33_3_I2",
-          "type": "matching",
-          "prompt_es": "Relaciona las expresiones de frecuencia:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Once a week|una vez por semana]]",
-              "right": "Cada día"
-            },
-            {
-              "id": "p2",
-              "left": "[[Twice a month|dos veces al mes]]",
-              "right": "Una vez por semana"
-            },
-            {
-              "id": "p3",
-              "left": "[[Every day|cada día]]",
-              "right": "Dos veces al mes"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p2",
-            "p2": "p3",
-            "p3": "p1"
-          },
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U33_B33_3_I3",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo respondes a 'How often do you go to the gym?'? ([[often|a menudo]])",
+          "stimulus_en": "[[Sometimes|A veces]]",
           "options": [
             {
               "id": "o1",
-              "text": "Yes, I do"
+              "text": "[[Sometimes|A veces]]"
             },
             {
               "id": "o2",
-              "text": "Three times a week"
+              "text": "[[Every day|Cada día]]"
             },
             {
               "id": "o3",
-              "text": "At 5 o'clock"
+              "text": "[[Hardly ever|Casi nunca]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "A1_U33_B33_3_I4",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Dos veces al año.' ([[always|siempre]])",
-          "stimulus_es": "Dos veces al año.",
-          "correct_answer": "Twice a year",
+          "interaction_id": "A1_U33_I12",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
           "mastery_tag": "vocabulary",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
+          "complexity": 2,
+          "stimulus_en": "[[Rarely|Raramente]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Once a week|Una vez a la semana]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Rarely|Raramente]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Generally|En general]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U33_I13",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Never|Nunca]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Twice a month|Dos veces al mes]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Occasionally|Ocasionalmente]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Never|Nunca]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U33_I14",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Every day|Cada día]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Every day|Cada día]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Hardly ever|Casi nunca]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Frequency|Frecuencia]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U33_I15",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] ______ [[eat|como]] [[breakfast|el desayuno]] [[at|a]] [[home|casa]].",
+          "correct_answer": "always"
+        },
+        {
+          "interaction_id": "A1_U33_I16",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[She|Ella]] ______ [[goes|va]] [[to|al]] [[the|al]] [[gym|gimnasio]] [[on|los]] [[Mondays|lunes]].",
+          "correct_answer": "usually"
+        },
+        {
+          "interaction_id": "A1_U33_I17",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[He|Él]] ______ [[watches|ve]] [[TV|televisión]] [[in|por]] [[the|la]] [[morning|mañana]].",
+          "correct_answer": "rarely"
+        },
+        {
+          "interaction_id": "A1_U33_I18",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Always|Siempre]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Often|A menudo]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Usually|Normalmente]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
           ]
         },
         {
-          "interaction_id": "A1_U33_B33_3_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa la pregunta: ([[always|siempre]])",
-          "stimulus_en": "________ ________ does he call you?",
-          "correct_answer": "How often",
-          "mastery_tag": "grammar",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
+          "interaction_id": "A1_U33_I19",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Rarely|Raramente]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Every day|Cada día]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Never|Nunca]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U33_I20",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Twice a month|Dos veces al mes]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Generally|En general]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Hardly ever|Casi nunca]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
           ]
         }
       ]
     },
     {
-      "block_id": "B33_4",
-      "title": "Block 4: Reading & Listening Mastery",
+      "block_id": "B3",
+      "title": "Grammar — Affirmative",
       "content": [
         {
-          "interaction_id": "A1_U33_B33_4_READ",
-          "type": "reading_phase",
-          "prompt_es": "[[Read|Lee]] [[the|el]] [[following|siguiente]] [[text|texto]] [[carefully|con atención]]:",
-          "transcript": "Anna goes to the gym three times a week. She likes to exercise on Monday, Wednesday, and Friday. At the gym, she runs, lifts weights, and does yoga. Anna feels happy and healthy. Her friend Lisa joins her sometimes. After the gym, Anna drinks a smoothie. She enjoys her routine and always looks forward to the next workout."
+          "interaction_id": "A1_U33_I21",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] ______ [[eat|como]] [[breakfast|el desayuno]] [[at|a]] [[home|casa]].",
+          "correct_answer": "always"
         },
         {
-          "interaction_id": "A1_U33_B33_4_I4",
-          "type": "short_writing",
-          "prompt_es": "Basado en el texto, ¿con qué frecuencia va al gimnasio? ([[sometimes|a veces]])",
-          "stimulus_es": "Tres veces por semana",
-          "correct_answer": "Three times a week",
+          "interaction_id": "A1_U33_I22",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[She|Ella]] ______ [[goes|va]] [[to|al]] [[the|al]] [[gym|gimnasio]] [[on|los]] [[Mondays|lunes]].",
+          "correct_answer": "usually"
+        },
+        {
+          "interaction_id": "A1_U33_I23",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[He|Él]] ______ [[watches|ve]] [[TV|televisión]] [[in|por]] [[the|la]] [[morning|mañana]].",
+          "correct_answer": "rarely"
+        },
+        {
+          "interaction_id": "A1_U33_I24",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] ______ [[drink|bebo]] [[coffee|café]]. [[I|Yo]] [[don't|no]] [[like|me gusta]] [[it|eso]].",
+          "correct_answer": "never"
+        },
+        {
+          "interaction_id": "A1_U33_I25",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Do|Vas]] [[you|tú]] ______ [[go|vas]] [[to|al]] [[the|al]] [[cinema|cine]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[often|often]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[usually|usually]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[rarely|rarely]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U33_I26",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[We|Nosotros]] ______ [[have|tenemos]] [[pizza|pizza]] [[on|los]] [[Friday|viernes]] [[nights|noches]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[rarely|rarely]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[sometimes|sometimes]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[never|never]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U33_I27",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] ______ [[eat|como]] [[breakfast|el desayuno]] [[at|a]] [[home|casa]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[never|never]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[often|often]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[always|always]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U33_I28",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[She|Ella]] ______ [[goes|va]] [[to|al]] [[the|al]] [[gym|gimnasio]] [[on|los]] [[Mondays|lunes]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[usually|usually]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[often|often]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[sometimes|sometimes]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U33_I29",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Often|A menudo]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Always|Siempre]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Rarely|Raramente]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
+          ]
+        },
+        {
+          "interaction_id": "A1_U33_I30",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Once a week|Una vez a la semana]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Never|Nunca]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Hardly ever|Casi nunca]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Grammar — Negative & Questions",
+      "content": [
+        {
+          "interaction_id": "A1_U33_I31",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[He|Él]] ______ [[watches|ve]] [[TV|televisión]] [[in|por]] [[the|la]] [[morning|mañana]].",
+          "correct_answer": "rarely"
+        },
+        {
+          "interaction_id": "A1_U33_I32",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] ______ [[drink|bebo]] [[coffee|café]]. [[I|Yo]] [[don't|no]] [[like|me gusta]] [[it|eso]].",
+          "correct_answer": "never"
+        },
+        {
+          "interaction_id": "A1_U33_I33",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Do|Vas]] [[you|tú]] ______ [[go|vas]] [[to|al]] [[the|al]] [[cinema|cine]]?",
+          "correct_answer": "often"
+        },
+        {
+          "interaction_id": "A1_U33_I34",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] ______ [[drink|bebo]] [[coffee|café]]. [[I|Yo]] [[don't|no]] [[like|me gusta]] [[it|eso]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[never|never]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[sometimes|sometimes]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[always|always]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U33_I35",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Do|Vas]] [[you|tú]] ______ [[go|vas]] [[to|al]] [[the|al]] [[cinema|cine]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[always|always]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[often|often]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[usually|usually]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U33_I36",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[We|Nosotros]] ______ [[have|tenemos]] [[pizza|pizza]] [[on|los]] [[Friday|viernes]] [[nights|noches]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[usually|usually]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[rarely|rarely]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[sometimes|sometimes]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U33_I37",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] ______ [[eat|como]] [[breakfast|el desayuno]] [[at|a]] [[home|casa]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[always|always]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[rarely|rarely]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[never|never]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U33_I38",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Rarely|Raramente]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Usually|Normalmente]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Every day|Cada día]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Often|A menudo]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
+        },
+        {
+          "interaction_id": "A1_U33_I39",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Once a week|Una vez a la semana]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Rarely|Raramente]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Hardly ever|Casi nunca]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Never|Nunca]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
+        },
+        {
+          "interaction_id": "A1_U33_I40",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Generally|En general]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Once a week|Una vez a la semana]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Frequency|Frecuencia]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Twice a month|Dos veces al mes]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B5",
+      "title": "Reading Comprehension",
+      "content": [
+        {
+          "interaction_id": "A1_U33_I41",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
           "mastery_tag": "reading",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "reading"
+          "complexity": 2,
+          "transcript": "[[Do|Haces]] [[you|tú]] [[exercise|ejercicio]] [[regularly|regularmente]]? [[Yes|Sí]], [[I|yo]] [[usually|normalmente]] [[go|voy]] [[running|a correr]] [[three|tres]] [[times|veces]] [[a|a la]] [[week|semana]]. [[But|Pero]] [[I|yo]] [[sometimes|a veces]] [[miss|me salto]] [[a|una]] [[session|sesión]] [[when|cuando]] [[I'm|estoy]] [[busy|ocupado]]. [[Do|Comes]] [[you|tú]] [[often|a menudo]] [[eat|comes]] [[fast|rápida]] [[food|comida]]? [[Hardly|Casi]] [[ever|nunca]]! [[I|Yo]] [[rarely|raramente]] [[eat|como]] [[fast|rápida]] [[food|comida]]. [[I|Yo]] [[always|siempre]] [[try|intento]] [[to|de]] [[cook|cocinar]] [[at|en]] [[home|casa]]. [[That's|Es]] [[great|estupendo]]! [[I|Yo]] [[never|nunca]] [[have|tengo]] [[time|tiempo]] [[to|para]] [[cook|cocinar]].",
+          "question_en": "[[How|Con qué]] [[often|frecuencia]] [[does|va]] [[the|el]] [[speaker|hablante]] [[go|va]] [[running|a correr]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Every day|Cada día]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Three times a week|Tres veces a la semana]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Once a week|Una vez a la semana]]"
+            }
           ],
-          "stimulus_en": "Anna goes to the gym three times a week. She likes to exercise on Monday, Wednesday, and Friday. At the gym, she runs, lifts weights, and does yoga. Anna feels happy and healthy. Her friend Lisa joins her sometimes. After the gym, Anna drinks a smoothie. She enjoys her routine and [[always|siempre]] looks forward to the next workout."
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "A1_U33_B33_4_I5",
-          "type": "true_false",
-          "prompt_es": "¿Anna va al gimnasio todos los días? ([[sometimes|a veces]])",
-          "correct_answer": false,
+          "interaction_id": "A1_U33_I42",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
           "mastery_tag": "reading",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "reading"
+          "complexity": 2,
+          "transcript": "[[Do|Haces]] [[you|tú]] [[exercise|ejercicio]] [[regularly|regularmente]]? [[Yes|Sí]], [[I|yo]] [[usually|normalmente]] [[go|voy]] [[running|a correr]] [[three|tres]] [[times|veces]] [[a|a la]] [[week|semana]]. [[But|Pero]] [[I|yo]] [[sometimes|a veces]] [[miss|me salto]] [[a|una]] [[session|sesión]] [[when|cuando]] [[I'm|estoy]] [[busy|ocupado]]. [[Do|Comes]] [[you|tú]] [[often|a menudo]] [[eat|comes]] [[fast|rápida]] [[food|comida]]? [[Hardly|Casi]] [[ever|nunca]]! [[I|Yo]] [[rarely|raramente]] [[eat|como]] [[fast|rápida]] [[food|comida]]. [[I|Yo]] [[always|siempre]] [[try|intento]] [[to|de]] [[cook|cocinar]] [[at|en]] [[home|casa]]. [[That's|Es]] [[great|estupendo]]! [[I|Yo]] [[never|nunca]] [[have|tengo]] [[time|tiempo]] [[to|para]] [[cook|cocinar]].",
+          "question_en": "[[Does|Come]] [[the|el]] [[speaker|hablante]] [[ever|alguna vez]] [[miss|se salta]] [[a|una]] [[session|sesión]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Never|Nunca]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Yes, sometimes when busy|Sí, a veces cuando está ocupado]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Always|Siempre]]"
+            }
           ],
-          "stimulus_en": "Anna goes to the gym three times a week. She likes to exercise on Monday, Wednesday, and Friday. At the gym, she runs, lifts weights, and does yoga. Anna feels happy and healthy. Her friend Lisa joins her sometimes. After the gym, Anna drinks a smoothie. She enjoys her routine and [[always|siempre]] looks forward to the next workout."
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U33_I43",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Do|Haces]] [[you|tú]] [[exercise|ejercicio]] [[regularly|regularmente]]? [[Yes|Sí]], [[I|yo]] [[usually|normalmente]] [[go|voy]] [[running|a correr]] [[three|tres]] [[times|veces]] [[a|a la]] [[week|semana]]. [[But|Pero]] [[I|yo]] [[sometimes|a veces]] [[miss|me salto]] [[a|una]] [[session|sesión]] [[when|cuando]] [[I'm|estoy]] [[busy|ocupado]]. [[Do|Comes]] [[you|tú]] [[often|a menudo]] [[eat|comes]] [[fast|rápida]] [[food|comida]]? [[Hardly|Casi]] [[ever|nunca]]! [[I|Yo]] [[rarely|raramente]] [[eat|como]] [[fast|rápida]] [[food|comida]]. [[I|Yo]] [[always|siempre]] [[try|intento]] [[to|de]] [[cook|cocinar]] [[at|en]] [[home|casa]]. [[That's|Es]] [[great|estupendo]]! [[I|Yo]] [[never|nunca]] [[have|tengo]] [[time|tiempo]] [[to|para]] [[cook|cocinar]].",
+          "question_en": "[[How|Con qué]] [[often|frecuencia]] [[does|come]] [[the|el]] [[speaker|hablante]] [[eat|come]] [[fast|rápida]] [[food|comida]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Often|A menudo]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Sometimes|A veces]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Hardly ever|Casi nunca]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U33_I44",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Do|Haces]] [[you|tú]] [[exercise|ejercicio]] [[regularly|regularmente]]? [[Yes|Sí]], [[I|yo]] [[usually|normalmente]] [[go|voy]] [[running|a correr]] [[three|tres]] [[times|veces]] [[a|a la]] [[week|semana]]. [[But|Pero]] [[I|yo]] [[sometimes|a veces]] [[miss|me salto]] [[a|una]] [[session|sesión]] [[when|cuando]] [[I'm|estoy]] [[busy|ocupado]]. [[Do|Comes]] [[you|tú]] [[often|a menudo]] [[eat|comes]] [[fast|rápida]] [[food|comida]]? [[Hardly|Casi]] [[ever|nunca]]! [[I|Yo]] [[rarely|raramente]] [[eat|como]] [[fast|rápida]] [[food|comida]]. [[I|Yo]] [[always|siempre]] [[try|intento]] [[to|de]] [[cook|cocinar]] [[at|en]] [[home|casa]]. [[That's|Es]] [[great|estupendo]]! [[I|Yo]] [[never|nunca]] [[have|tengo]] [[time|tiempo]] [[to|para]] [[cook|cocinar]].",
+          "question_en": "[[What|Qué]] [[does|siempre intenta hacer]] [[the|el]] [[speaker|hablante]] [[always|siempre]] [[try|intenta]] [[to|de]] [[do|hacer]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Go to the gym|Ir al gimnasio]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Cook at home|Cocinar en casa]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Eat salad|Comer ensalada]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U33_I45",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Do|Haces]] [[you|tú]] [[exercise|ejercicio]] [[regularly|regularmente]]? [[Yes|Sí]], [[I|yo]] [[usually|normalmente]] [[go|voy]] [[running|a correr]] [[three|tres]] [[times|veces]] [[a|a la]] [[week|semana]]. [[But|Pero]] [[I|yo]] [[sometimes|a veces]] [[miss|me salto]] [[a|una]] [[session|sesión]] [[when|cuando]] [[I'm|estoy]] [[busy|ocupado]]. [[Do|Comes]] [[you|tú]] [[often|a menudo]] [[eat|comes]] [[fast|rápida]] [[food|comida]]? [[Hardly|Casi]] [[ever|nunca]]! [[I|Yo]] [[rarely|raramente]] [[eat|como]] [[fast|rápida]] [[food|comida]]. [[I|Yo]] [[always|siempre]] [[try|intento]] [[to|de]] [[cook|cocinar]] [[at|en]] [[home|casa]]. [[That's|Es]] [[great|estupendo]]! [[I|Yo]] [[never|nunca]] [[have|tengo]] [[time|tiempo]] [[to|para]] [[cook|cocinar]].",
+          "question_en": "[[Where|Dónde]] [[does|va]] [[the|el]] [[second|segundo]] [[speaker|hablante]] [[never|nunca]] [[have|tiene]] [[time|tiempo]] [[for|para]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Exercise|Hacer ejercicio]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Cooking|Cocinar]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Shopping|Ir de compras]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U33_I46",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Do|Haces]] [[you|tú]] [[exercise|ejercicio]] [[regularly|regularmente]]? [[Yes|Sí]], [[I|yo]] [[usually|normalmente]] [[go|voy]] [[running|a correr]] [[three|tres]] [[times|veces]] [[a|a la]] [[week|semana]]. [[But|Pero]] [[I|yo]] [[sometimes|a veces]] [[miss|me salto]] [[a|una]] [[session|sesión]] [[when|cuando]] [[I'm|estoy]] [[busy|ocupado]]. [[Do|Comes]] [[you|tú]] [[often|a menudo]] [[eat|comes]] [[fast|rápida]] [[food|comida]]? [[Hardly|Casi]] [[ever|nunca]]! [[I|Yo]] [[rarely|raramente]] [[eat|como]] [[fast|rápida]] [[food|comida]]. [[I|Yo]] [[always|siempre]] [[try|intento]] [[to|de]] [[cook|cocinar]] [[at|en]] [[home|casa]]. [[That's|Es]] [[great|estupendo]]! [[I|Yo]] [[never|nunca]] [[have|tengo]] [[time|tiempo]] [[to|para]] [[cook|cocinar]].",
+          "question_en": "[[Where|Dónde]] [[do|van]] [[adverbs|los adverbios]] [[of|de]] [[frequency|frecuencia]] [[usually|normalmente]] [[go|van]] [[in|en]] [[a|una]] [[sentence|oración]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Before the subject|Antes del sujeto]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Before the main verb|Antes del verbo principal]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[At the end of the sentence|Al final de la oración]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U33_I47",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Do|Haces]] [[you|tú]] [[exercise|ejercicio]] [[regularly|regularmente]]? [[Yes|Sí]], [[I|yo]] [[usually|normalmente]] [[go|voy]] [[running|a correr]] [[three|tres]] [[times|veces]] [[a|a la]] [[week|semana]]. [[But|Pero]] [[I|yo]] [[sometimes|a veces]] [[miss|me salto]] [[a|una]] [[session|sesión]] [[when|cuando]] [[I'm|estoy]] [[busy|ocupado]]. [[Do|Comes]] [[you|tú]] [[often|a menudo]] [[eat|comes]] [[fast|rápida]] [[food|comida]]? [[Hardly|Casi]] [[ever|nunca]]! [[I|Yo]] [[rarely|raramente]] [[eat|como]] [[fast|rápida]] [[food|comida]]. [[I|Yo]] [[always|siempre]] [[try|intento]] [[to|de]] [[cook|cocinar]] [[at|en]] [[home|casa]]. [[That's|Es]] [[great|estupendo]]! [[I|Yo]] [[never|nunca]] [[have|tengo]] [[time|tiempo]] [[to|para]] [[cook|cocinar]].",
+          "question_en": "[[Which|Cuál]] [[adverb|adverbio]] [[means|significa]] '100% of the time'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Usually|Normalmente]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Often|A menudo]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Always|Siempre]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U33_I48",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Do|Haces]] [[you|tú]] [[exercise|ejercicio]] [[regularly|regularmente]]? [[Yes|Sí]], [[I|yo]] [[usually|normalmente]] [[go|voy]] [[running|a correr]] [[three|tres]] [[times|veces]] [[a|a la]] [[week|semana]]. [[But|Pero]] [[I|yo]] [[sometimes|a veces]] [[miss|me salto]] [[a|una]] [[session|sesión]] [[when|cuando]] [[I'm|estoy]] [[busy|ocupado]]. [[Do|Comes]] [[you|tú]] [[often|a menudo]] [[eat|comes]] [[fast|rápida]] [[food|comida]]? [[Hardly|Casi]] [[ever|nunca]]! [[I|Yo]] [[rarely|raramente]] [[eat|como]] [[fast|rápida]] [[food|comida]]. [[I|Yo]] [[always|siempre]] [[try|intento]] [[to|de]] [[cook|cocinar]] [[at|en]] [[home|casa]]. [[That's|Es]] [[great|estupendo]]! [[I|Yo]] [[never|nunca]] [[have|tengo]] [[time|tiempo]] [[to|para]] [[cook|cocinar]].",
+          "question_en": "[[Which|Cuál]] [[adverb|adverbio]] [[means|significa]] '0% of the time'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Rarely|Raramente]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Hardly ever|Casi nunca]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Never|Nunca]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U33_I49",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Do|Haces]] [[you|tú]] [[exercise|ejercicio]] [[regularly|regularmente]]? [[Yes|Sí]], [[I|yo]] [[usually|normalmente]] [[go|voy]] [[running|a correr]] [[three|tres]] [[times|veces]] [[a|a la]] [[week|semana]]. [[But|Pero]] [[I|yo]] [[sometimes|a veces]] [[miss|me salto]] [[a|una]] [[session|sesión]] [[when|cuando]] [[I'm|estoy]] [[busy|ocupado]]. [[Do|Comes]] [[you|tú]] [[often|a menudo]] [[eat|comes]] [[fast|rápida]] [[food|comida]]? [[Hardly|Casi]] [[ever|nunca]]! [[I|Yo]] [[rarely|raramente]] [[eat|como]] [[fast|rápida]] [[food|comida]]. [[I|Yo]] [[always|siempre]] [[try|intento]] [[to|de]] [[cook|cocinar]] [[at|en]] [[home|casa]]. [[That's|Es]] [[great|estupendo]]! [[I|Yo]] [[never|nunca]] [[have|tengo]] [[time|tiempo]] [[to|para]] [[cook|cocinar]].",
+          "question_en": "[[What|Qué]] [[does|significa]] 'Hardly ever' [[mean|significa]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Often|A menudo]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Almost never|Casi nunca]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Sometimes|A veces]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U33_I50",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Do|Haces]] [[you|tú]] [[exercise|ejercicio]] [[regularly|regularmente]]? [[Yes|Sí]], [[I|yo]] [[usually|normalmente]] [[go|voy]] [[running|a correr]] [[three|tres]] [[times|veces]] [[a|a la]] [[week|semana]]. [[But|Pero]] [[I|yo]] [[sometimes|a veces]] [[miss|me salto]] [[a|una]] [[session|sesión]] [[when|cuando]] [[I'm|estoy]] [[busy|ocupado]]. [[Do|Comes]] [[you|tú]] [[often|a menudo]] [[eat|comes]] [[fast|rápida]] [[food|comida]]? [[Hardly|Casi]] [[ever|nunca]]! [[I|Yo]] [[rarely|raramente]] [[eat|como]] [[fast|rápida]] [[food|comida]]. [[I|Yo]] [[always|siempre]] [[try|intento]] [[to|de]] [[cook|cocinar]] [[at|en]] [[home|casa]]. [[That's|Es]] [[great|estupendo]]! [[I|Yo]] [[never|nunca]] [[have|tengo]] [[time|tiempo]] [[to|para]] [[cook|cocinar]].",
+          "question_en": "[[How|Cómo]] [[do|preguntas]] [[you|tú]] [[ask|preguntas]] [[about|sobre]] [[frequency|frecuencia]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[What often do you...?|Incorrecto]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[How much do you...?|¿Cuánto...?]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[How often do you...?|¿Con qué frecuencia...?]]"
+            }
+          ],
+          "correct_answer": "o3"
         }
       ]
     },
     {
-      "title": "Practice Sessions",
+      "block_id": "B6",
+      "title": "Production",
       "content": [
         {
-          "interaction_id": "U33_FILLER_0",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[always|siempre]]' en inglés?",
+          "interaction_id": "A1_U33_I51",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
           "options": [
             {
-              "id": "o1",
-              "text": "Always"
+              "id": "w1",
+              "text": "[[Usually|Normalmente]]"
             },
             {
-              "id": "o2",
-              "text": "Never"
+              "id": "w2",
+              "text": "[[Rarely|Raramente]]"
             },
             {
-              "id": "o3",
-              "text": "Sometimes"
+              "id": "w3",
+              "text": "[[Always|Siempre]]"
             },
             {
-              "id": "o4",
-              "text": "[[[[always|siempre]]|[[always|siempre]]]]"
+              "id": "w4",
+              "text": "[[Often|A menudo]]"
             }
           ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[sometimes|a veces]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[[[sometimes|a veces]]|[[sometimes|a veces]]]]"
-            },
-            {
-              "id": "o2",
-              "text": "Sometimes"
-            },
-            {
-              "id": "o3",
-              "text": "Always"
-            },
-            {
-              "id": "o4",
-              "text": "Often"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[never|nunca]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Usually"
-            },
-            {
-              "id": "o2",
-              "text": "Always"
-            },
-            {
-              "id": "o3",
-              "text": "Never"
-            },
-            {
-              "id": "o4",
-              "text": "[[[[never|nunca]]|[[never|nunca]]]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_3",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[often|a menudo]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Sometimes"
-            },
-            {
-              "id": "o2",
-              "text": "Never"
-            },
-            {
-              "id": "o3",
-              "text": "Rarely"
-            },
-            {
-              "id": "o4",
-              "text": "[[[[often|a menudo]]|[[often|a menudo]]]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_4",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[usually|normalmente]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[[[usually|normalmente]]|[[usually|normalmente]]]]"
-            },
-            {
-              "id": "o2",
-              "text": "Always"
-            },
-            {
-              "id": "o3",
-              "text": "Usually"
-            },
-            {
-              "id": "o4",
-              "text": "Often"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_5",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'seldom' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Usually"
-            },
-            {
-              "id": "o2",
-              "text": "[[Seldom|seldom]]"
-            },
-            {
-              "id": "o3",
-              "text": "Often"
-            },
-            {
-              "id": "o4",
-              "text": "Rarely"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_6",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[rarely|raramente]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Never"
-            },
-            {
-              "id": "o2",
-              "text": "Often"
-            },
-            {
-              "id": "o3",
-              "text": "[[[[rarely|raramente]]|[[rarely|raramente]]]]"
-            },
-            {
-              "id": "o4",
-              "text": "Rarely"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_7",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[always|siempre]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Rarely"
-            },
-            {
-              "id": "o2",
-              "text": "Never"
-            },
-            {
-              "id": "o3",
-              "text": "[[[[always|siempre]]|[[always|siempre]]]]"
-            },
-            {
-              "id": "o4",
-              "text": "Sometimes"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_8",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[sometimes|a veces]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Always"
-            },
-            {
-              "id": "o2",
-              "text": "Rarely"
-            },
-            {
-              "id": "o3",
-              "text": "[[[[sometimes|a veces]]|[[sometimes|a veces]]]]"
-            },
-            {
-              "id": "o4",
-              "text": "Usually"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_9",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[never|nunca]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Always"
-            },
-            {
-              "id": "o2",
-              "text": "[[[[never|nunca]]|[[never|nunca]]]]"
-            },
-            {
-              "id": "o3",
-              "text": "Never"
-            },
-            {
-              "id": "o4",
-              "text": "Usually"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_10",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[often|a menudo]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Usually"
-            },
-            {
-              "id": "o2",
-              "text": "[[[[often|a menudo]]|[[often|a menudo]]]]"
-            },
-            {
-              "id": "o3",
-              "text": "Rarely"
-            },
-            {
-              "id": "o4",
-              "text": "Sometimes"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_11",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[usually|normalmente]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[[[usually|normalmente]]|[[usually|normalmente]]]]"
-            },
-            {
-              "id": "o2",
-              "text": "Always"
-            },
-            {
-              "id": "o3",
-              "text": "Often"
-            },
-            {
-              "id": "o4",
-              "text": "Usually"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_12",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'seldom' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Seldom|seldom]]"
-            },
-            {
-              "id": "o2",
-              "text": "Never"
-            },
-            {
-              "id": "o3",
-              "text": "Rarely"
-            },
-            {
-              "id": "o4",
-              "text": "Sometimes"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_13",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[rarely|raramente]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Never"
-            },
-            {
-              "id": "o2",
-              "text": "[[[[rarely|raramente]]|[[rarely|raramente]]]]"
-            },
-            {
-              "id": "o3",
-              "text": "Often"
-            },
-            {
-              "id": "o4",
-              "text": "Usually"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_14",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[always|siempre]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Never"
-            },
-            {
-              "id": "o2",
-              "text": "Usually"
-            },
-            {
-              "id": "o3",
-              "text": "[[[[always|siempre]]|[[always|siempre]]]]"
-            },
-            {
-              "id": "o4",
-              "text": "Often"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_15",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[sometimes|a veces]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Usually"
-            },
-            {
-              "id": "o2",
-              "text": "Always"
-            },
-            {
-              "id": "o3",
-              "text": "Never"
-            },
-            {
-              "id": "o4",
-              "text": "[[[[sometimes|a veces]]|[[sometimes|a veces]]]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_16",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[never|nunca]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Always"
-            },
-            {
-              "id": "o2",
-              "text": "Sometimes"
-            },
-            {
-              "id": "o3",
-              "text": "Never"
-            },
-            {
-              "id": "o4",
-              "text": "[[[[never|nunca]]|[[never|nunca]]]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_17",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[often|a menudo]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Rarely"
-            },
-            {
-              "id": "o2",
-              "text": "Always"
-            },
-            {
-              "id": "o3",
-              "text": "[[[[often|a menudo]]|[[often|a menudo]]]]"
-            },
-            {
-              "id": "o4",
-              "text": "Sometimes"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_18",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[usually|normalmente]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[[[usually|normalmente]]|[[usually|normalmente]]]]"
-            },
-            {
-              "id": "o2",
-              "text": "Usually"
-            },
-            {
-              "id": "o3",
-              "text": "Rarely"
-            },
-            {
-              "id": "o4",
-              "text": "Often"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_19",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'seldom' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Never"
-            },
-            {
-              "id": "o2",
-              "text": "[[Seldom|seldom]]"
-            },
-            {
-              "id": "o3",
-              "text": "Usually"
-            },
-            {
-              "id": "o4",
-              "text": "Always"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_20",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[rarely|raramente]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[[[rarely|raramente]]|[[rarely|raramente]]]]"
-            },
-            {
-              "id": "o2",
-              "text": "Never"
-            },
-            {
-              "id": "o3",
-              "text": "Often"
-            },
-            {
-              "id": "o4",
-              "text": "Always"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_21",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[always|siempre]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[[[always|siempre]]|[[always|siempre]]]]"
-            },
-            {
-              "id": "o2",
-              "text": "Usually"
-            },
-            {
-              "id": "o3",
-              "text": "Sometimes"
-            },
-            {
-              "id": "o4",
-              "text": "Never"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_22",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[sometimes|a veces]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Usually"
-            },
-            {
-              "id": "o2",
-              "text": "[[[[sometimes|a veces]]|[[sometimes|a veces]]]]"
-            },
-            {
-              "id": "o3",
-              "text": "Rarely"
-            },
-            {
-              "id": "o4",
-              "text": "Always"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_23",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[never|nunca]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[[[never|nunca]]|[[never|nunca]]]]"
-            },
-            {
-              "id": "o2",
-              "text": "Often"
-            },
-            {
-              "id": "o3",
-              "text": "Never"
-            },
-            {
-              "id": "o4",
-              "text": "Always"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_24",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[often|a menudo]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Usually"
-            },
-            {
-              "id": "o2",
-              "text": "Always"
-            },
-            {
-              "id": "o3",
-              "text": "[[[[often|a menudo]]|[[often|a menudo]]]]"
-            },
-            {
-              "id": "o4",
-              "text": "Often"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_25",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[usually|normalmente]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Always"
-            },
-            {
-              "id": "o2",
-              "text": "Sometimes"
-            },
-            {
-              "id": "o3",
-              "text": "Usually"
-            },
-            {
-              "id": "o4",
-              "text": "[[[[usually|normalmente]]|[[usually|normalmente]]]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_26",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'seldom' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Often"
-            },
-            {
-              "id": "o2",
-              "text": "Never"
-            },
-            {
-              "id": "o3",
-              "text": "Rarely"
-            },
-            {
-              "id": "o4",
-              "text": "[[Seldom|seldom]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_27",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[rarely|raramente]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[[[rarely|raramente]]|[[rarely|raramente]]]]"
-            },
-            {
-              "id": "o2",
-              "text": "Usually"
-            },
-            {
-              "id": "o3",
-              "text": "Never"
-            },
-            {
-              "id": "o4",
-              "text": "Always"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_28",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[always|siempre]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[[[always|siempre]]|[[always|siempre]]]]"
-            },
-            {
-              "id": "o2",
-              "text": "Never"
-            },
-            {
-              "id": "o3",
-              "text": "Rarely"
-            },
-            {
-              "id": "o4",
-              "text": "Usually"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_29",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[sometimes|a veces]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Often"
-            },
-            {
-              "id": "o2",
-              "text": "Never"
-            },
-            {
-              "id": "o3",
-              "text": "[[[[sometimes|a veces]]|[[sometimes|a veces]]]]"
-            },
-            {
-              "id": "o4",
-              "text": "Rarely"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_30",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[never|nunca]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[[[never|nunca]]|[[never|nunca]]]]"
-            },
-            {
-              "id": "o2",
-              "text": "Rarely"
-            },
-            {
-              "id": "o3",
-              "text": "Sometimes"
-            },
-            {
-              "id": "o4",
-              "text": "Usually"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_31",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[often|a menudo]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Often"
-            },
-            {
-              "id": "o2",
-              "text": "Always"
-            },
-            {
-              "id": "o3",
-              "text": "[[[[often|a menudo]]|[[often|a menudo]]]]"
-            },
-            {
-              "id": "o4",
-              "text": "Rarely"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_32",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[usually|normalmente]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[[[usually|normalmente]]|[[usually|normalmente]]]]"
-            },
-            {
-              "id": "o2",
-              "text": "Always"
-            },
-            {
-              "id": "o3",
-              "text": "Never"
-            },
-            {
-              "id": "o4",
-              "text": "Often"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_33",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'seldom' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Rarely"
-            },
-            {
-              "id": "o2",
-              "text": "Usually"
-            },
-            {
-              "id": "o3",
-              "text": "[[Seldom|seldom]]"
-            },
-            {
-              "id": "o4",
-              "text": "Never"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_34",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[rarely|raramente]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[[[rarely|raramente]]|[[rarely|raramente]]]]"
-            },
-            {
-              "id": "o2",
-              "text": "Sometimes"
-            },
-            {
-              "id": "o3",
-              "text": "Always"
-            },
-            {
-              "id": "o4",
-              "text": "Usually"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_35",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[always|siempre]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[[[always|siempre]]|[[always|siempre]]]]"
-            },
-            {
-              "id": "o2",
-              "text": "Never"
-            },
-            {
-              "id": "o3",
-              "text": "Often"
-            },
-            {
-              "id": "o4",
-              "text": "Always"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_36",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[sometimes|a veces]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Sometimes"
-            },
-            {
-              "id": "o2",
-              "text": "Always"
-            },
-            {
-              "id": "o3",
-              "text": "[[[[sometimes|a veces]]|[[sometimes|a veces]]]]"
-            },
-            {
-              "id": "o4",
-              "text": "Usually"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_37",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[never|nunca]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Always"
-            },
-            {
-              "id": "o2",
-              "text": "[[[[never|nunca]]|[[never|nunca]]]]"
-            },
-            {
-              "id": "o3",
-              "text": "Usually"
-            },
-            {
-              "id": "o4",
-              "text": "Never"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_38",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[often|a menudo]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Never"
-            },
-            {
-              "id": "o2",
-              "text": "Always"
-            },
-            {
-              "id": "o3",
-              "text": "Sometimes"
-            },
-            {
-              "id": "o4",
-              "text": "[[[[often|a menudo]]|[[often|a menudo]]]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_39",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[usually|normalmente]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Sometimes"
-            },
-            {
-              "id": "o2",
-              "text": "Never"
-            },
-            {
-              "id": "o3",
-              "text": "Usually"
-            },
-            {
-              "id": "o4",
-              "text": "[[[[usually|normalmente]]|[[usually|normalmente]]]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_40",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'seldom' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Seldom|seldom]]"
-            },
-            {
-              "id": "o2",
-              "text": "Rarely"
-            },
-            {
-              "id": "o3",
-              "text": "Always"
-            },
-            {
-              "id": "o4",
-              "text": "Often"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_41",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[rarely|raramente]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Rarely"
-            },
-            {
-              "id": "o2",
-              "text": "Never"
-            },
-            {
-              "id": "o3",
-              "text": "Always"
-            },
-            {
-              "id": "o4",
-              "text": "[[[[rarely|raramente]]|[[rarely|raramente]]]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_42",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[always|siempre]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Rarely"
-            },
-            {
-              "id": "o2",
-              "text": "Often"
-            },
-            {
-              "id": "o3",
-              "text": "Always"
-            },
-            {
-              "id": "o4",
-              "text": "[[[[always|siempre]]|[[always|siempre]]]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_43",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[sometimes|a veces]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[[[sometimes|a veces]]|[[sometimes|a veces]]]]"
-            },
-            {
-              "id": "o2",
-              "text": "Sometimes"
-            },
-            {
-              "id": "o3",
-              "text": "Usually"
-            },
-            {
-              "id": "o4",
-              "text": "Never"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_44",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[never|nunca]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Sometimes"
-            },
-            {
-              "id": "o2",
-              "text": "Usually"
-            },
-            {
-              "id": "o3",
-              "text": "[[[[never|nunca]]|[[never|nunca]]]]"
-            },
-            {
-              "id": "o4",
-              "text": "Rarely"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_45",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[often|a menudo]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[[[often|a menudo]]|[[often|a menudo]]]]"
-            },
-            {
-              "id": "o2",
-              "text": "Sometimes"
-            },
-            {
-              "id": "o3",
-              "text": "Often"
-            },
-            {
-              "id": "o4",
-              "text": "Never"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U33_FILLER_46",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[usually|normalmente]]' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Often"
-            },
-            {
-              "id": "o2",
-              "text": "Rarely"
-            },
-            {
-              "id": "o3",
-              "text": "[[[[usually|normalmente]]|[[usually|normalmente]]]]"
-            },
-            {
-              "id": "o4",
-              "text": "Sometimes"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        }
-      ]
-    },
-    {
-      "title": "Lesson 5: Listening & Pronunciation Review",
-      "duration_minutes": 20,
-      "content": [
-        {
-          "interaction_id": "U33_L5_I1",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[always|siempre]])",
-          "audio_url": "/audio/courses/ingles-a1/unit33/lesson5-task-1.mp3",
-          "transcript_template": "The [[always|]] is here.",
-          "correct_answer": "always",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U33_L5_I2",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[always|siempre]])",
-          "audio_url": "/audio/courses/ingles-a1/unit33/lesson5-task-2.mp3",
-          "transcript_template": "The [[sometimes|]] is here.",
-          "correct_answer": "sometimes",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
+          "interaction_id": "A1_U33_I52",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Rarely|Raramente]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Once a week|Una vez a la semana]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Sometimes|A veces]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Never|Nunca]]"
+            }
+          ],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U33_L5_I3",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[always|siempre]])",
-          "audio_url": "/audio/courses/ingles-a1/unit33/lesson5-task-3.mp3",
-          "transcript_template": "The [[never|]] is here.",
-          "correct_answer": "never",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
+          "interaction_id": "A1_U33_I53",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Once a week|Una vez a la semana]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Generally|En general]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Every day|Cada día]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Twice a month|Dos veces al mes]]"
+            }
+          ],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U33_L5_I4",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[always|siempre]])",
-          "audio_url": "/audio/courses/ingles-a1/unit33/lesson5-task-4.mp3",
-          "transcript_template": "The [[often|]] is here.",
-          "correct_answer": "often",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
+          "interaction_id": "A1_U33_I54",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Generally|En general]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Habit|Hábito]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Hardly ever|Casi nunca]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Occasionally|Ocasionalmente]]"
+            }
+          ],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U33_L5_I5",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[always|siempre]])",
-          "audio_url": "/audio/courses/ingles-a1/unit33/lesson5-task-5.mp3",
-          "transcript_template": "The [[usually|]] is here.",
-          "correct_answer": "usually",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
+          "interaction_id": "A1_U33_I55",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[We|Nosotros]] ______ [[have|tenemos]] [[pizza|pizza]] [[on|los]] [[Friday|viernes]] [[nights|noches]].",
+          "correct_answer": "sometimes"
         },
         {
-          "interaction_id": "U33_L5_I6",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[always|siempre]])",
-          "audio_url": "/audio/courses/ingles-a1/unit33/lesson5-task-6.mp3",
-          "transcript_template": "The [[seldom|]] is here.",
-          "correct_answer": "seldom",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
+          "interaction_id": "A1_U33_I56",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[I|Yo]] ______ [[eat|como]] [[breakfast|el desayuno]] [[at|a]] [[home|casa]].",
+          "correct_answer": "always"
         },
         {
-          "interaction_id": "U33_L5_I7",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[always|siempre]])",
-          "audio_url": "/audio/courses/ingles-a1/unit33/lesson5-task-7.mp3",
-          "transcript_template": "The [[rarely|]] is here.",
-          "correct_answer": "rarely",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
+          "interaction_id": "A1_U33_I57",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[She|Ella]] ______ [[goes|va]] [[to|al]] [[the|al]] [[gym|gimnasio]] [[on|los]] [[Mondays|lunes]].",
+          "correct_answer": "usually"
         },
         {
-          "interaction_id": "U33_L5_I8",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[always|siempre]])",
-          "title": "Pronunciación: Adverbs of Frequency",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[always|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit33/lesson5-task-8.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U33_L5_I8_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'always'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
+          "interaction_id": "A1_U33_I58",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Do|Haces]] [[you|tú]] [[exercise|ejercicio]] [[regularly|regularmente]]?",
+          "correct_answer": true
         },
         {
-          "interaction_id": "U33_L5_I9",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[always|siempre]])",
-          "title": "Pronunciación: Adverbs of Frequency",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[sometimes|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit33/lesson5-task-9.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U33_L5_I9_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'sometimes'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
+          "interaction_id": "A1_U33_I59",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Yes|Sí]], [[I|yo]] [[usually|normalmente]] [[go|voy]] [[running|a correr]] [[three|tres]] [[times|veces]] [[a|a la]] [[week|semana]]. [[But|Pero]] [[I|yo]] [[sometimes|a veces]] [[miss|me salto]] [[a|una]] [[session|sesión]] [[when|cuando]] [[I'm|estoy]] [[busy|ocupado]].",
+          "correct_answer": false
         },
         {
-          "interaction_id": "U33_L5_I10",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[always|siempre]])",
-          "title": "Pronunciación: Adverbs of Frequency",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[never|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit33/lesson5-task-10.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U33_L5_I10_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'never'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U33_L5_I11",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[always|siempre]])",
-          "title": "Pronunciación: Adverbs of Frequency",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[often|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit33/lesson5-task-11.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U33_L5_I11_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'often'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U33_L5_I12",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[always|siempre]])",
-          "title": "Pronunciación: Adverbs of Frequency",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[usually|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit33/lesson5-task-12.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U33_L5_I12_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'usually'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U33_L5_I13",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[always|siempre]])",
-          "title": "Pronunciación: Adverbs of Frequency",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[seldom|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit33/lesson5-task-13.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U33_L5_I13_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'seldom'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U33_L5_I14",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[always|siempre]])",
-          "title": "Pronunciación: Adverbs of Frequency",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[rarely|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit33/lesson5-task-14.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U33_L5_I14_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'rarely'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U33_L5_I15",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[always|siempre]])",
-          "title": "Pronunciación: Adverbs of Frequency",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[always|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit33/lesson5-task-15.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U33_L5_I15_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'always'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
+          "interaction_id": "A1_U33_I60",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Do|Comes]] [[you|tú]] [[often|a menudo]] [[eat|comes]] [[fast|rápida]] [[food|comida]]?",
+          "correct_answer": true
         }
       ]
     }

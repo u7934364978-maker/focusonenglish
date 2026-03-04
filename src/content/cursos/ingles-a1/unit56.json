@@ -1,1968 +1,1232 @@
 {
   "course": {
     "unit_id": "unit56",
-    "unit_title": "In the Kitchen",
+    "unit_title": "At the Restaurant",
     "level": "A1",
-    "total_duration_minutes": 25,
+    "total_duration_minutes": 60,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Identify major kitchen appliances and furniture",
-    "Use prepositions of place to describe locations in the kitchen",
-    "Understand instructions for kitchen organization"
+    "Order food politely using 'Could I have / I'd like'",
+    "Navigate a restaurant menu and interaction",
+    "Use food and restaurant vocabulary correctly"
   ],
   "blocks": [
     {
-      "block_id": "b1",
-      "title": "Kitchen Appliances",
+      "block_id": "B1",
+      "title": "Vocabulary Introduction",
       "content": [
         {
-          "interaction_id": "A1_U56_B1_I1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Dónde guardas la leche? ([[fridge|nevera]])",
+          "interaction_id": "A1_U56_I1",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Menu|Carta/Menú]]",
           "options": [
             {
               "id": "o1",
-              "text": "In the fridge"
+              "text": "[[Carta/Menú|Menu]]"
             },
             {
               "id": "o2",
-              "text": "In the oven"
+              "text": "[[Entrante|Starter]]"
             },
             {
               "id": "o3",
-              "text": "In the sink"
+              "text": "[[Plato principal|Main course]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U56_I2",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
           "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U56_B1_I2",
-          "type": "matching",
-          "prompt_es": "Une los electrodomésticos:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Oven|Horno]]",
-              "right": "Horno"
-            },
-            {
-              "id": "p2",
-              "left": "[[Microwave|Microondas]]",
-              "right": "Microondas"
-            },
-            {
-              "id": "p3",
-              "left": "[[Sink|Fregadero]]",
-              "right": "Lavavajillas"
-            },
-            {
-              "id": "p4",
-              "left": "[[Dishwasher|Lavavajillas]]",
-              "right": "Fregadero"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p1",
-            "p2": "p2",
-            "p3": "p4",
-            "p4": "p3"
-          },
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U56_B1_I3",
-          "type": "short_writing",
-          "prompt_es": "Escribe 'encimera' en inglés: ([[oven|horno]])",
-          "stimulus_es": "Encimera",
-          "correct_answer": "Counter",
-          "mastery_tag": "vocabulary",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U56_B1_I4",
-          "type": "multiple_choice",
-          "prompt_es": "¿Dónde pones los platos sucios? ([[sink|fregadero]])",
+          "stimulus_en": "[[Starter|Entrante]]",
           "options": [
             {
               "id": "o1",
-              "text": "In the cupboard"
+              "text": "[[Plato principal|Main course]]"
             },
             {
               "id": "o2",
-              "text": "In the sink"
+              "text": "[[Entrante|Starter]]"
             },
             {
               "id": "o3",
-              "text": "In the microwave"
+              "text": "[[Postre|Dessert]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U56_I3",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
           "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "stimulus_en": "[[Main course|Plato principal]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Postre|Dessert]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Cuenta|Bill]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Plato principal|Main course]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U56_I4",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Dessert|Postre]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Postre|Dessert]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Cuenta|Bill]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Camarero|Waiter]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U56_I5",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Bill|Cuenta]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Camarero|Waiter]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Cuenta|Bill]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Reserva|Reservation]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U56_I6",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Waiter|Camarero]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Reserva|Reservation]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Vegetariano|Vegetarian]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Camarero|Waiter]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U56_I7",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Reserva]]",
+          "correct_answer": "Reservation"
+        },
+        {
+          "interaction_id": "A1_U56_I8",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Vegetariano]]",
+          "correct_answer": "Vegetarian"
+        },
+        {
+          "interaction_id": "A1_U56_I9",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Alergia]]",
+          "correct_answer": "Allergy"
+        },
+        {
+          "interaction_id": "A1_U56_I10",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Propina]]",
+          "correct_answer": "Tip"
         }
       ]
     },
     {
-      "block_id": "b2",
-      "title": "Prepositions in the Kitchen",
+      "block_id": "B2",
+      "title": "Vocabulary in Context",
       "content": [
         {
-          "interaction_id": "A1_U56_B2_I1",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'El café está EN el armario' ([[coffee|café]])",
-          "stimulus_en": "The coffee is ________ the cupboard.",
-          "correct_answer": "in",
-          "mastery_tag": "grammar",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
+          "interaction_id": "A1_U56_I11",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Dessert|Postre]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Dessert|Postre]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Reservation|Reserva]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Tip|Propina]]"
+            }
+          ],
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "A1_U56_B2_I2",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'La taza está sobre la encimera'",
+          "interaction_id": "A1_U56_I12",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Bill|Cuenta]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Vegetarian|Vegetariano]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Bill|Cuenta]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Order|Pedir/Orden]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U56_I13",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Waiter|Camarero]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Allergy|Alergia]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Recommend|Recomendar]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Waiter|Camarero]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U56_I14",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Reservation|Reserva]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Reservation|Reserva]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Tip|Propina]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Rare|Poco hecho]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U56_I15",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Could|¿Podrías]] [[I|yo]] ______ [[the|la]] [[menu|carta]], [[please|por favor]]?",
+          "correct_answer": "have"
+        },
+        {
+          "interaction_id": "A1_U56_I16",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[I'd|Me gustaría]] [[like|gustaría]] ______ [[the|el]] [[grilled|pollo a la plancha]] [[chicken|pollo]] [[for|de]] [[my|plato principal]] [[main|principal]] [[course|plato]].",
+          "correct_answer": "to order"
+        },
+        {
+          "interaction_id": "A1_U56_I17",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[What|Qué]] [[do|nos]] [[you|usted]] ______ [[as|como]] [[a|plato principal]] [[main|principal]] [[course|plato]]?",
+          "correct_answer": "recommend"
+        },
+        {
+          "interaction_id": "A1_U56_I18",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
           "options": [
             {
               "id": "w1",
-              "text": "The"
+              "text": "[[Menu|Carta/Menú]]"
             },
             {
               "id": "w2",
-              "text": "[[cup|taza]]"
+              "text": "[[Main course|Plato principal]]"
             },
             {
               "id": "w3",
-              "text": "is"
-            },
-            {
-              "id": "w4",
-              "text": "on"
-            },
-            {
-              "id": "w5",
-              "text": "the"
-            },
-            {
-              "id": "w6",
-              "text": "counter"
+              "text": "[[Starter|Entrante]]"
             }
           ],
           "correct_answer": [
             "w1",
-            "w2",
             "w3",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U56_I19",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Bill|Cuenta]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Reservation|Reserva]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Waiter|Camarero]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U56_I20",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Allergy|Alergia]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Order|Pedir/Orden]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Tip|Propina]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Grammar — Affirmative",
+      "content": [
+        {
+          "interaction_id": "A1_U56_I21",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Could|¿Podrías]] [[I|yo]] ______ [[the|la]] [[menu|carta]], [[please|por favor]]?",
+          "correct_answer": "have"
+        },
+        {
+          "interaction_id": "A1_U56_I22",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I'd|Me gustaría]] [[like|gustaría]] ______ [[the|el]] [[grilled|pollo a la plancha]] [[chicken|pollo]] [[for|de]] [[my|plato principal]] [[main|principal]] [[course|plato]].",
+          "correct_answer": "to order"
+        },
+        {
+          "interaction_id": "A1_U56_I23",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[What|Qué]] [[do|nos]] [[you|usted]] ______ [[as|como]] [[a|plato principal]] [[main|principal]] [[course|plato]]?",
+          "correct_answer": "recommend"
+        },
+        {
+          "interaction_id": "A1_U56_I24",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Could|¿Podría]] [[we|nosotros]] [[have|tener]] ______ [[bill|la cuenta]], [[please|por favor]]?",
+          "correct_answer": "the"
+        },
+        {
+          "interaction_id": "A1_U56_I25",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Does|Este]] [[this|este]] [[dish|plato]] [[contain|contiene]] ______ [[nuts|frutos secos]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[any|any]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[to order|to order]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[recommend|recommend]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U56_I26",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I'm|Soy]] [[vegetarian|vegetariano/a]] — [[do|tiene]] [[you|usted]] [[have|tiene]] ______ [[vegetarian|opciones vegetarianas]] [[options|opciones]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[recommend|recommend]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[any|any]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[the|the]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U56_I27",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Could|¿Podrías]] [[I|yo]] ______ [[the|la]] [[menu|carta]], [[please|por favor]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[the|the]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[any|any]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[have|have]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U56_I28",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I'd|Me gustaría]] [[like|gustaría]] ______ [[the|el]] [[grilled|pollo a la plancha]] [[chicken|pollo]] [[for|de]] [[my|plato principal]] [[main|principal]] [[course|plato]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[to order|to order]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[any|any]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[any|any]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U56_I29",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Main course|Plato principal]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Menu|Carta/Menú]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Bill|Cuenta]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
+          ]
+        },
+        {
+          "interaction_id": "A1_U56_I30",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Vegetarian|Vegetariano]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Waiter|Camarero]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Tip|Propina]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Grammar — Negative & Questions",
+      "content": [
+        {
+          "interaction_id": "A1_U56_I31",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[What|Qué]] [[do|nos]] [[you|usted]] ______ [[as|como]] [[a|plato principal]] [[main|principal]] [[course|plato]]?",
+          "correct_answer": "recommend"
+        },
+        {
+          "interaction_id": "A1_U56_I32",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Could|¿Podría]] [[we|nosotros]] [[have|tener]] ______ [[bill|la cuenta]], [[please|por favor]]?",
+          "correct_answer": "the"
+        },
+        {
+          "interaction_id": "A1_U56_I33",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Does|Este]] [[this|este]] [[dish|plato]] [[contain|contiene]] ______ [[nuts|frutos secos]]?",
+          "correct_answer": "any"
+        },
+        {
+          "interaction_id": "A1_U56_I34",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Could|¿Podría]] [[we|nosotros]] [[have|tener]] ______ [[bill|la cuenta]], [[please|por favor]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[the|the]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[any|any]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[have|have]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U56_I35",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Does|Este]] [[this|este]] [[dish|plato]] [[contain|contiene]] ______ [[nuts|frutos secos]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[have|have]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[any|any]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[to order|to order]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U56_I36",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I'm|Soy]] [[vegetarian|vegetariano/a]] — [[do|tiene]] [[you|usted]] [[have|tiene]] ______ [[vegetarian|opciones vegetarianas]] [[options|opciones]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[to order|to order]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[recommend|recommend]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[any|any]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U56_I37",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Could|¿Podrías]] [[I|yo]] ______ [[the|la]] [[menu|carta]], [[please|por favor]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[have|have]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[recommend|recommend]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[the|the]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U56_I38",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Bill|Cuenta]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Starter|Entrante]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Reservation|Reserva]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Main course|Plato principal]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
             "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "syntax"
+            "w3"
           ]
         },
         {
-          "interaction_id": "A1_U56_B2_I3",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué significa 'under the sink'? ([[sink|fregadero]])",
+          "interaction_id": "A1_U56_I39",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Vegetarian|Vegetariano]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Bill|Cuenta]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Tip|Propina]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Waiter|Camarero]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
+        },
+        {
+          "interaction_id": "A1_U56_I40",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Order|Pedir/Orden]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Vegetarian|Vegetariano]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Rare|Poco hecho]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Allergy|Alergia]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B5",
+      "title": "Reading Comprehension",
+      "content": [
+        {
+          "interaction_id": "A1_U56_I41",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Good|Buenas]] [[evening|tardes]]. [[Do|Tienen]] [[you|ustedes]] [[have|tienen]] [[a|una]] [[reservation|reserva]]? [[Yes|Sí]], [[under|a nombre de]] [[the|el]] [[name|nombre]] [[Garcia|García]] [[for|para]] [[two|dos]] [[people|personas]]. [[Follow|Síganme]] [[me|síganme]], [[please|por favor]]. (hands menus) [[Our|Nuestros]] [[specials|platos especiales]] [[today|hoy]] [[are|son]] [[the|el]] [[grilled|salmón a la plancha]] [[salmon|salmón]] [[and|y]] [[the|el]] [[mushroom|risotto de champiñones]] [[risotto|risotto]]. [[Could|¿Podrías]] [[I|yo]] [[have|tener]] [[the|el]] [[salmon|salmón]] [[as|como]] [[my|plato principal]] [[main|principal]] [[course|plato]], [[please|por favor]]? [[And|Y]] [[could|podría]] [[we|nosotros]] [[also|también]] [[get|tener]] [[some|algo de]] [[water|agua]] [[for|para]] [[the|la]] [[table|mesa]]? [[Of|Por]] [[course|supuesto]]! [[And|Y]] [[for|para]] [[you|usted]]?",
+          "question_en": "[[What|Qué]] [[does|hace]] [[the|el]] [[waiter|camarero]] [[do|hace]] [[when|cuando]] [[they|los clientes]] [[arrive|llegan]]?",
           "options": [
             {
               "id": "o1",
-              "text": "Encima del fregadero"
+              "text": "[[Gives them the bill|Les da la cuenta]]"
             },
             {
               "id": "o2",
-              "text": "Detrás del fregadero"
+              "text": "[[Asks if they have a reservation|Pregunta si tienen reserva]]"
             },
             {
               "id": "o3",
-              "text": "Debajo del fregadero"
+              "text": "[[Brings the menu immediately|Trae la carta inmediatamente]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "A1_U56_B2_I4",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'La mesa está AL LADO de la ventana' ([[oven|horno]])",
-          "stimulus_en": "The table is ________ ________ the window.",
-          "correct_answer": "next to",
-          "mastery_tag": "grammar",
+          "interaction_id": "A1_U56_I42",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Good|Buenas]] [[evening|tardes]]. [[Do|Tienen]] [[you|ustedes]] [[have|tienen]] [[a|una]] [[reservation|reserva]]? [[Yes|Sí]], [[under|a nombre de]] [[the|el]] [[name|nombre]] [[Garcia|García]] [[for|para]] [[two|dos]] [[people|personas]]. [[Follow|Síganme]] [[me|síganme]], [[please|por favor]]. (hands menus) [[Our|Nuestros]] [[specials|platos especiales]] [[today|hoy]] [[are|son]] [[the|el]] [[grilled|salmón a la plancha]] [[salmon|salmón]] [[and|y]] [[the|el]] [[mushroom|risotto de champiñones]] [[risotto|risotto]]. [[Could|¿Podrías]] [[I|yo]] [[have|tener]] [[the|el]] [[salmon|salmón]] [[as|como]] [[my|plato principal]] [[main|principal]] [[course|plato]], [[please|por favor]]? [[And|Y]] [[could|podría]] [[we|nosotros]] [[also|también]] [[get|tener]] [[some|algo de]] [[water|agua]] [[for|para]] [[the|la]] [[table|mesa]]? [[Of|Por]] [[course|supuesto]]! [[And|Y]] [[for|para]] [[you|usted]]?",
+          "question_en": "[[What|A nombre de quién]] [[name|nombre]] [[is|está]] [[the|la]] [[reservation|reserva]] [[under|a nombre de]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Garcia|García]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Gomez|Gómez]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Rodriguez|Rodríguez]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U56_I43",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Good|Buenas]] [[evening|tardes]]. [[Do|Tienen]] [[you|ustedes]] [[have|tienen]] [[a|una]] [[reservation|reserva]]? [[Yes|Sí]], [[under|a nombre de]] [[the|el]] [[name|nombre]] [[Garcia|García]] [[for|para]] [[two|dos]] [[people|personas]]. [[Follow|Síganme]] [[me|síganme]], [[please|por favor]]. (hands menus) [[Our|Nuestros]] [[specials|platos especiales]] [[today|hoy]] [[are|son]] [[the|el]] [[grilled|salmón a la plancha]] [[salmon|salmón]] [[and|y]] [[the|el]] [[mushroom|risotto de champiñones]] [[risotto|risotto]]. [[Could|¿Podrías]] [[I|yo]] [[have|tener]] [[the|el]] [[salmon|salmón]] [[as|como]] [[my|plato principal]] [[main|principal]] [[course|plato]], [[please|por favor]]? [[And|Y]] [[could|podría]] [[we|nosotros]] [[also|también]] [[get|tener]] [[some|algo de]] [[water|agua]] [[for|para]] [[the|la]] [[table|mesa]]? [[Of|Por]] [[course|supuesto]]! [[And|Y]] [[for|para]] [[you|usted]]?",
+          "question_en": "[[How|Para cuántas]] [[many|personas]] [[people|personas]] [[is|es]] [[the|la]] [[reservation|reserva]] [[for|para]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Four|Cuatro]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Two|Dos]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Three|Tres]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U56_I44",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Good|Buenas]] [[evening|tardes]]. [[Do|Tienen]] [[you|ustedes]] [[have|tienen]] [[a|una]] [[reservation|reserva]]? [[Yes|Sí]], [[under|a nombre de]] [[the|el]] [[name|nombre]] [[Garcia|García]] [[for|para]] [[two|dos]] [[people|personas]]. [[Follow|Síganme]] [[me|síganme]], [[please|por favor]]. (hands menus) [[Our|Nuestros]] [[specials|platos especiales]] [[today|hoy]] [[are|son]] [[the|el]] [[grilled|salmón a la plancha]] [[salmon|salmón]] [[and|y]] [[the|el]] [[mushroom|risotto de champiñones]] [[risotto|risotto]]. [[Could|¿Podrías]] [[I|yo]] [[have|tener]] [[the|el]] [[salmon|salmón]] [[as|como]] [[my|plato principal]] [[main|principal]] [[course|plato]], [[please|por favor]]? [[And|Y]] [[could|podría]] [[we|nosotros]] [[also|también]] [[get|tener]] [[some|algo de]] [[water|agua]] [[for|para]] [[the|la]] [[table|mesa]]? [[Of|Por]] [[course|supuesto]]! [[And|Y]] [[for|para]] [[you|usted]]?",
+          "question_en": "[[What|Cuáles]] [[are|son]] [[the|los]] [[specials|platos especiales]] [[today|hoy]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Grilled salmon and mushroom risotto|Salmón a la plancha y risotto de champiñones]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Pasta and salad|Pasta y ensalada]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Chicken and soup|Pollo y sopa]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U56_I45",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Good|Buenas]] [[evening|tardes]]. [[Do|Tienen]] [[you|ustedes]] [[have|tienen]] [[a|una]] [[reservation|reserva]]? [[Yes|Sí]], [[under|a nombre de]] [[the|el]] [[name|nombre]] [[Garcia|García]] [[for|para]] [[two|dos]] [[people|personas]]. [[Follow|Síganme]] [[me|síganme]], [[please|por favor]]. (hands menus) [[Our|Nuestros]] [[specials|platos especiales]] [[today|hoy]] [[are|son]] [[the|el]] [[grilled|salmón a la plancha]] [[salmon|salmón]] [[and|y]] [[the|el]] [[mushroom|risotto de champiñones]] [[risotto|risotto]]. [[Could|¿Podrías]] [[I|yo]] [[have|tener]] [[the|el]] [[salmon|salmón]] [[as|como]] [[my|plato principal]] [[main|principal]] [[course|plato]], [[please|por favor]]? [[And|Y]] [[could|podría]] [[we|nosotros]] [[also|también]] [[get|tener]] [[some|algo de]] [[water|agua]] [[for|para]] [[the|la]] [[table|mesa]]? [[Of|Por]] [[course|supuesto]]! [[And|Y]] [[for|para]] [[you|usted]]?",
+          "question_en": "[[What|Qué]] [[does|pide]] [[the|el]] [[customer|cliente]] [[order|pide]] [[as|como]] [[main|plato principal]] [[course|plato]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[The mushroom risotto|El risotto de champiñones]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Grilled chicken|Pollo a la plancha]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Grilled salmon|Salmón a la plancha]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U56_I46",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Good|Buenas]] [[evening|tardes]]. [[Do|Tienen]] [[you|ustedes]] [[have|tienen]] [[a|una]] [[reservation|reserva]]? [[Yes|Sí]], [[under|a nombre de]] [[the|el]] [[name|nombre]] [[Garcia|García]] [[for|para]] [[two|dos]] [[people|personas]]. [[Follow|Síganme]] [[me|síganme]], [[please|por favor]]. (hands menus) [[Our|Nuestros]] [[specials|platos especiales]] [[today|hoy]] [[are|son]] [[the|el]] [[grilled|salmón a la plancha]] [[salmon|salmón]] [[and|y]] [[the|el]] [[mushroom|risotto de champiñones]] [[risotto|risotto]]. [[Could|¿Podrías]] [[I|yo]] [[have|tener]] [[the|el]] [[salmon|salmón]] [[as|como]] [[my|plato principal]] [[main|principal]] [[course|plato]], [[please|por favor]]? [[And|Y]] [[could|podría]] [[we|nosotros]] [[also|también]] [[get|tener]] [[some|algo de]] [[water|agua]] [[for|para]] [[the|la]] [[table|mesa]]? [[Of|Por]] [[course|supuesto]]! [[And|Y]] [[for|para]] [[you|usted]]?",
+          "question_en": "[[What|Qué]] [[else|más]] [[does|pide]] [[the|el]] [[customer|cliente]] [[request|pide]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Bread|Pan]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Water for the table|Agua para la mesa]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[A second menu|Una segunda carta]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U56_I47",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Good|Buenas]] [[evening|tardes]]. [[Do|Tienen]] [[you|ustedes]] [[have|tienen]] [[a|una]] [[reservation|reserva]]? [[Yes|Sí]], [[under|a nombre de]] [[the|el]] [[name|nombre]] [[Garcia|García]] [[for|para]] [[two|dos]] [[people|personas]]. [[Follow|Síganme]] [[me|síganme]], [[please|por favor]]. (hands menus) [[Our|Nuestros]] [[specials|platos especiales]] [[today|hoy]] [[are|son]] [[the|el]] [[grilled|salmón a la plancha]] [[salmon|salmón]] [[and|y]] [[the|el]] [[mushroom|risotto de champiñones]] [[risotto|risotto]]. [[Could|¿Podrías]] [[I|yo]] [[have|tener]] [[the|el]] [[salmon|salmón]] [[as|como]] [[my|plato principal]] [[main|principal]] [[course|plato]], [[please|por favor]]? [[And|Y]] [[could|podría]] [[we|nosotros]] [[also|también]] [[get|tener]] [[some|algo de]] [[water|agua]] [[for|para]] [[the|la]] [[table|mesa]]? [[Of|Por]] [[course|supuesto]]! [[And|Y]] [[for|para]] [[you|usted]]?",
+          "question_en": "[[What|Qué]] [[does|significa]] 'Starter' [[mean|significa]] [[in|en]] [[a|un]] [[restaurant|restaurante]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Main course|Plato principal]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[A small dish before the main course|Un plato pequeño antes del plato principal]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Dessert|Postre]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U56_I48",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Good|Buenas]] [[evening|tardes]]. [[Do|Tienen]] [[you|ustedes]] [[have|tienen]] [[a|una]] [[reservation|reserva]]? [[Yes|Sí]], [[under|a nombre de]] [[the|el]] [[name|nombre]] [[Garcia|García]] [[for|para]] [[two|dos]] [[people|personas]]. [[Follow|Síganme]] [[me|síganme]], [[please|por favor]]. (hands menus) [[Our|Nuestros]] [[specials|platos especiales]] [[today|hoy]] [[are|son]] [[the|el]] [[grilled|salmón a la plancha]] [[salmon|salmón]] [[and|y]] [[the|el]] [[mushroom|risotto de champiñones]] [[risotto|risotto]]. [[Could|¿Podrías]] [[I|yo]] [[have|tener]] [[the|el]] [[salmon|salmón]] [[as|como]] [[my|plato principal]] [[main|principal]] [[course|plato]], [[please|por favor]]? [[And|Y]] [[could|podría]] [[we|nosotros]] [[also|también]] [[get|tener]] [[some|algo de]] [[water|agua]] [[for|para]] [[the|la]] [[table|mesa]]? [[Of|Por]] [[course|supuesto]]! [[And|Y]] [[for|para]] [[you|usted]]?",
+          "question_en": "[[How|Cómo]] [[do|se pide]] [[you|uno]] [[politely|educadamente]] [[request|pide]] [[something|algo]] [[in|en]] [[English|inglés]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Give me...|Dame...]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[I want...|Quiero...]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Could I have...?|¿Podría tener...?]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U56_I49",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Good|Buenas]] [[evening|tardes]]. [[Do|Tienen]] [[you|ustedes]] [[have|tienen]] [[a|una]] [[reservation|reserva]]? [[Yes|Sí]], [[under|a nombre de]] [[the|el]] [[name|nombre]] [[Garcia|García]] [[for|para]] [[two|dos]] [[people|personas]]. [[Follow|Síganme]] [[me|síganme]], [[please|por favor]]. (hands menus) [[Our|Nuestros]] [[specials|platos especiales]] [[today|hoy]] [[are|son]] [[the|el]] [[grilled|salmón a la plancha]] [[salmon|salmón]] [[and|y]] [[the|el]] [[mushroom|risotto de champiñones]] [[risotto|risotto]]. [[Could|¿Podrías]] [[I|yo]] [[have|tener]] [[the|el]] [[salmon|salmón]] [[as|como]] [[my|plato principal]] [[main|principal]] [[course|plato]], [[please|por favor]]? [[And|Y]] [[could|podría]] [[we|nosotros]] [[also|también]] [[get|tener]] [[some|algo de]] [[water|agua]] [[for|para]] [[the|la]] [[table|mesa]]? [[Of|Por]] [[course|supuesto]]! [[And|Y]] [[for|para]] [[you|usted]]?",
+          "question_en": "[[What|Qué]] [[does|significa]] 'Bill' [[mean|significa]] [[in|en]] [[a|un]] [[restaurant|restaurante]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[The menu|La carta]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[The total payment requested|El pago total solicitado]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[A tip for the waiter|Una propina para el camarero]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U56_I50",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Good|Buenas]] [[evening|tardes]]. [[Do|Tienen]] [[you|ustedes]] [[have|tienen]] [[a|una]] [[reservation|reserva]]? [[Yes|Sí]], [[under|a nombre de]] [[the|el]] [[name|nombre]] [[Garcia|García]] [[for|para]] [[two|dos]] [[people|personas]]. [[Follow|Síganme]] [[me|síganme]], [[please|por favor]]. (hands menus) [[Our|Nuestros]] [[specials|platos especiales]] [[today|hoy]] [[are|son]] [[the|el]] [[grilled|salmón a la plancha]] [[salmon|salmón]] [[and|y]] [[the|el]] [[mushroom|risotto de champiñones]] [[risotto|risotto]]. [[Could|¿Podrías]] [[I|yo]] [[have|tener]] [[the|el]] [[salmon|salmón]] [[as|como]] [[my|plato principal]] [[main|principal]] [[course|plato]], [[please|por favor]]? [[And|Y]] [[could|podría]] [[we|nosotros]] [[also|también]] [[get|tener]] [[some|algo de]] [[water|agua]] [[for|para]] [[the|la]] [[table|mesa]]? [[Of|Por]] [[course|supuesto]]! [[And|Y]] [[for|para]] [[you|usted]]?",
+          "question_en": "[[What|Qué]] [[does|significa]] 'Tip' [[mean|significa]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Service charge|Cargo por servicio]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Extra money given for good service|Dinero extra dado por buen servicio]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[The total bill|La cuenta total]]"
+            }
+          ],
+          "correct_answer": "o2"
+        }
+      ]
+    },
+    {
+      "block_id": "B6",
+      "title": "Production",
+      "content": [
+        {
+          "interaction_id": "A1_U56_I51",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
           "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "b3",
-      "title": "Kitchen Furniture",
-      "content": [
-        {
-          "interaction_id": "A1_U56_B3_I1",
-          "type": "matching",
-          "prompt_es": "Une los muebles de cocina:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Cupboard|Armario]]",
-              "right": "Cubo de basura"
-            },
-            {
-              "id": "p2",
-              "left": "[[Shelf|Estante]]",
-              "right": "Armario"
-            },
-            {
-              "id": "p3",
-              "left": "[[Drawer|Cajón]]",
-              "right": "Cajón"
-            },
-            {
-              "id": "p4",
-              "left": "[[Bin|Cubo de basura]]",
-              "right": "Estante"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p2",
-            "p2": "p4",
-            "p3": "p3",
-            "p4": "p1"
-          },
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U56_B3_I2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Dónde guardas los cubiertos? ([[draw|dibujar]])",
           "options": [
             {
-              "id": "o1",
-              "text": "In a drawer"
+              "id": "w1",
+              "text": "[[Starter|Entrante]]"
             },
             {
-              "id": "o2",
-              "text": "In the oven"
+              "id": "w2",
+              "text": "[[Bill|Cuenta]]"
             },
             {
-              "id": "o3",
-              "text": "On a shelf"
+              "id": "w3",
+              "text": "[[Menu|Carta/Menú]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Main course|Plato principal]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "A1_U56_B3_I3",
-          "type": "short_writing",
-          "prompt_es": "Escribe 'estante' en inglés: ([[oven|horno]])",
-          "stimulus_es": "Estante",
-          "correct_answer": "Shelf",
-          "mastery_tag": "vocabulary",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U56_B3_I4",
-          "type": "true_false",
-          "prompt_es": "'Cupboard' se usa para guardar platos y vasos. ([[oven|horno]])",
-          "correct_answer": true,
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "b4",
-      "title": "Mastery Section",
-      "content": [
-        {
-          "interaction_id": "A1_U56_B4_I2",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con preposiciones: ([[fridge|nevera]])",
-          "stimulus_en": "The milk is ________ the fridge and the cups are ________ the shelf.",
-          "correct_answer": "in, on",
-          "master_tag": "grammar",
+          "interaction_id": "A1_U56_I52",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
           "complexity": 3,
-          "concept_tags": [
-            "general"
-          ]
-        },
-        {
-          "interaction_id": "A1_U56_B4_I3",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'El microondas está sobre la encimera' ([[oven|horno]])",
-          "stimulus_es": "The microwave is on the counter.",
-          "correct_answer": "The microwave is on the counter",
-          "mastery_tag": "grammar",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U56_B4_I4",
-          "type": "multiple_choice",
-          "prompt_es": "¿Dónde cocinas una pizza? ([[oven|horno]])",
           "options": [
             {
-              "id": "o1",
-              "text": "In the sink"
+              "id": "w1",
+              "text": "[[Bill|Cuenta]]"
             },
             {
-              "id": "o2",
-              "text": "In the oven"
+              "id": "w2",
+              "text": "[[Vegetarian|Vegetariano]]"
             },
             {
-              "id": "o3",
-              "text": "In the drawer"
+              "id": "w3",
+              "text": "[[Dessert|Postre]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Waiter|Camarero]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "B56_5",
-      "title": "Block 5: Listening & Pronunciation",
-      "content": [
-        {
-          "interaction_id": "U56_I101",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[fridge|nevera]])",
-          "stimulus_en": "The milk is in the fridge.",
-          "correct_answer": "The milk is in the fridge.",
-          "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-1.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U56_I102",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[oven|horno]])",
-          "stimulus_en": "Put it in the oven.",
-          "correct_answer": "Put it in the oven.",
-          "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-2.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U56_I103",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[shelf|estantería]])",
-          "stimulus_en": "The cups are on the shelf.",
-          "correct_answer": "The cups are on the shelf.",
-          "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-3.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U56_I104",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[microwave|microondas]])",
-          "stimulus_en": "Where is the microwave?",
-          "correct_answer": "Where is the microwave?",
-          "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-4.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U56_I105",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[sink|fregadero]])",
-          "stimulus_en": "Wash the dishes in the sink.",
-          "correct_answer": "Wash the dishes in the sink.",
-          "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-5.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U56_I106",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[draw|dibujar]])",
-          "stimulus_en": "The forks are in the drawer.",
-          "correct_answer": "The forks are in the drawer.",
-          "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-6.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U56_I107",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[clean|limpiar]])",
-          "stimulus_en": "I need a clean cupboard.",
-          "correct_answer": "I need a clean cupboard.",
-          "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-7.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U56_I108",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[oven|horno]])",
-          "title": "Pronunciación: Fridge",
-          "instructions": "La 'dg' suena como /dʒ/.",
-          "targetSentences": [
-            {
-              "text": "Open the [[fridge|nevera]].",
-              "phonetic": "/frɪdʒ/",
-              "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-8.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U56_I108_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la terminación de 'fridge'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Como 'll' argentina o 'j' inglesa (/dʒ/)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como una 'g' suave"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U56_I109",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[oven|horno]])",
-          "title": "Pronunciación: Microwave",
-          "instructions": "Escucha y repite la 'i' larga.",
-          "targetSentences": [
-            {
-              "text": "The [[microwave|microondas]] is hot.",
-              "phonetic": "/ˈmaɪkrəweɪv/",
-              "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-9.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U56_I109_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'i' en 'microwave'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Como /aɪ/ (ai)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como una 'i' simple"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U56_I110",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[oven|horno]])",
-          "title": "Pronunciación: Cupboard",
-          "instructions": "La 'p' es silenciosa.",
-          "targetSentences": [
-            {
-              "text": "It is in the [[cupboard|armario]].",
-              "phonetic": "/ˈkʌbəd/",
-              "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-10.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U56_I110_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Se pronuncia la 'p' en 'cupboard'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "No"
-                },
-                {
-                  "id": "o2",
-                  "text": "Sí"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U56_I111",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[oven|horno]])",
-          "title": "Pronunciación: Sink",
-          "instructions": "Escucha y repite la 'i' corta.",
-          "targetSentences": [
-            {
-              "text": "The [[sink|fregadero]] is full.",
-              "phonetic": "/sɪŋk/",
-              "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-11.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U56_I111_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'i' en 'sink'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Corta (/ɪ/)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como 'ai' (/aɪ/)"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U56_I112",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[oven|horno]])",
-          "title": "Pronunciación: Oven",
-          "instructions": "La 'o' inicial suena como /ʌ/.",
-          "targetSentences": [
-            {
-              "text": "Turn on the [[oven|horno]].",
-              "phonetic": "/ˈʌvn/",
-              "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-12.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U56_I112_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'o' en 'oven'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Como una 'a' corta (/ʌ/)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como una 'o' española"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U56_I113",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[oven|horno]])",
-          "title": "Pronunciación: Drawer",
-          "instructions": "Escucha y repite.",
-          "targetSentences": [
-            {
-              "text": "Open the [[drawer|cajón]].",
-              "phonetic": "/drɔː/",
-              "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-13.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U56_I113_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cuántas sílabas tiene 'drawer'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Una (drɔː)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Dos"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U56_I114",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[oven|horno]])",
-          "title": "Pronunciación: Shelf",
-          "instructions": "Escucha y repite la 'sh' inicial.",
-          "targetSentences": [
-            {
-              "text": "Put it on the [[shelf|estante]].",
-              "phonetic": "/ʃɛlf/",
-              "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-14.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U56_I114_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'sh' inicial?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Como pidiendo silencio (shhh)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como la 'ch' española"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U56_I115",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[oven|horno]])",
-          "title": "Pronunciación: Kitchen",
-          "instructions": "Escucha y repite.",
-          "targetSentences": [
-            {
-              "text": "Clean the [[kitchen|cocina]].",
-              "phonetic": "/ˈkɪtʃɪn/",
-              "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-15.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U56_I115_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Dónde recae el acento en 'kitchen'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "En la primera sílaba (KIT-)"
-                },
-                {
-                  "id": "o2",
-                  "text": "En la segunda sílaba"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Practice Sessions",
-      "content": [
-        {
-          "interaction_id": "U56_FILLER_0",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'menu' en inglés?",
+          "interaction_id": "A1_U56_I53",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
           "options": [
             {
-              "id": "o1",
-              "text": "Cup"
+              "id": "w1",
+              "text": "[[Vegetarian|Vegetariano]]"
             },
             {
-              "id": "o2",
-              "text": "[[Menu|menu]]"
+              "id": "w2",
+              "text": "[[Order|Pedir/Orden]]"
             },
             {
-              "id": "o3",
-              "text": "Plate"
+              "id": "w3",
+              "text": "[[Reservation|Reserva]]"
             },
             {
-              "id": "o4",
-              "text": "Microwave"
+              "id": "w4",
+              "text": "[[Allergy|Alergia]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U56_FILLER_1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'waiter' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Microwave"
-            },
-            {
-              "id": "o2",
-              "text": "[[Waiter|waiter]]"
-            },
-            {
-              "id": "o3",
-              "text": "Knife"
-            },
-            {
-              "id": "o4",
-              "text": "Bowl"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U56_FILLER_2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'order' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Cup"
-            },
-            {
-              "id": "o2",
-              "text": "Oven"
-            },
-            {
-              "id": "o3",
-              "text": "Microwave"
-            },
-            {
-              "id": "o4",
-              "text": "[[Order|order]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U56_FILLER_3",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'bill' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Oven"
-            },
-            {
-              "id": "o2",
-              "text": "Bowl"
-            },
-            {
-              "id": "o3",
-              "text": "[[Bill|bill]]"
-            },
-            {
-              "id": "o4",
-              "text": "Cup"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U56_FILLER_4",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'water' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Water|agua]]"
-            },
-            {
-              "id": "o2",
-              "text": "Plate"
-            },
-            {
-              "id": "o3",
-              "text": "Cup"
-            },
-            {
-              "id": "o4",
-              "text": "Spoon"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U56_FILLER_5",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'food' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Food|food]]"
-            },
-            {
-              "id": "o2",
-              "text": "Spoon"
-            },
-            {
-              "id": "o3",
-              "text": "Oven"
-            },
-            {
-              "id": "o4",
-              "text": "Knife"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U56_FILLER_6",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'table' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Knife"
-            },
-            {
-              "id": "o2",
-              "text": "[[Table|table]]"
-            },
-            {
-              "id": "o3",
-              "text": "Sink"
-            },
-            {
-              "id": "o4",
-              "text": "Microwave"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U56_FILLER_7",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'menu' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Kettle"
-            },
-            {
-              "id": "o2",
-              "text": "[[Menu|menu]]"
-            },
-            {
-              "id": "o3",
-              "text": "Cup"
-            },
-            {
-              "id": "o4",
-              "text": "Microwave"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U56_FILLER_8",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'waiter' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Waiter|waiter]]"
-            },
-            {
-              "id": "o2",
-              "text": "Fridge"
-            },
-            {
-              "id": "o3",
-              "text": "Oven"
-            },
-            {
-              "id": "o4",
-              "text": "Sink"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U56_FILLER_9",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'order' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Cup"
-            },
-            {
-              "id": "o2",
-              "text": "Fridge"
-            },
-            {
-              "id": "o3",
-              "text": "[[Order|order]]"
-            },
-            {
-              "id": "o4",
-              "text": "Plate"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U56_FILLER_10",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'bill' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Cup"
-            },
-            {
-              "id": "o2",
-              "text": "[[Bill|bill]]"
-            },
-            {
-              "id": "o3",
-              "text": "Bowl"
-            },
-            {
-              "id": "o4",
-              "text": "Plate"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U56_FILLER_11",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'water' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Fridge"
-            },
-            {
-              "id": "o2",
-              "text": "[[Water|agua]]"
-            },
-            {
-              "id": "o3",
-              "text": "Kettle"
-            },
-            {
-              "id": "o4",
-              "text": "Fork"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U56_FILLER_12",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'food' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Sink"
-            },
-            {
-              "id": "o2",
-              "text": "Oven"
-            },
-            {
-              "id": "o3",
-              "text": "[[Food|food]]"
-            },
-            {
-              "id": "o4",
-              "text": "Microwave"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U56_FILLER_13",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'table' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Fridge"
-            },
-            {
-              "id": "o2",
-              "text": "[[Table|table]]"
-            },
-            {
-              "id": "o3",
-              "text": "Fork"
-            },
-            {
-              "id": "o4",
-              "text": "Cup"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U56_FILLER_14",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'menu' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Knife"
-            },
-            {
-              "id": "o2",
-              "text": "Oven"
-            },
-            {
-              "id": "o3",
-              "text": "Fridge"
-            },
-            {
-              "id": "o4",
-              "text": "[[Menu|menu]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U56_FILLER_15",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'waiter' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Knife"
-            },
-            {
-              "id": "o2",
-              "text": "Bowl"
-            },
-            {
-              "id": "o3",
-              "text": "Sink"
-            },
-            {
-              "id": "o4",
-              "text": "[[Waiter|waiter]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U56_FILLER_16",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'order' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Pan"
-            },
-            {
-              "id": "o2",
-              "text": "Spoon"
-            },
-            {
-              "id": "o3",
-              "text": "Plate"
-            },
-            {
-              "id": "o4",
-              "text": "[[Order|order]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U56_FILLER_17",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'bill' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Kettle"
-            },
-            {
-              "id": "o2",
-              "text": "[[Bill|bill]]"
-            },
-            {
-              "id": "o3",
-              "text": "Microwave"
-            },
-            {
-              "id": "o4",
-              "text": "Bowl"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U56_FILLER_18",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'water' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Bowl"
-            },
-            {
-              "id": "o2",
-              "text": "Plate"
-            },
-            {
-              "id": "o3",
-              "text": "[[Water|agua]]"
-            },
-            {
-              "id": "o4",
-              "text": "Kettle"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U56_FILLER_19",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'food' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Oven"
-            },
-            {
-              "id": "o2",
-              "text": "Fork"
-            },
-            {
-              "id": "o3",
-              "text": "[[Food|food]]"
-            },
-            {
-              "id": "o4",
-              "text": "Microwave"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U56_FILLER_20",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'table' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Oven"
-            },
-            {
-              "id": "o2",
-              "text": "Cup"
-            },
-            {
-              "id": "o3",
-              "text": "Fork"
-            },
-            {
-              "id": "o4",
-              "text": "[[Table|table]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U56_FILLER_21",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'menu' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Menu|menu]]"
-            },
-            {
-              "id": "o2",
-              "text": "Sink"
-            },
-            {
-              "id": "o3",
-              "text": "Plate"
-            },
-            {
-              "id": "o4",
-              "text": "Oven"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U56_FILLER_22",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'waiter' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Bowl"
-            },
-            {
-              "id": "o2",
-              "text": "Pan"
-            },
-            {
-              "id": "o3",
-              "text": "Microwave"
-            },
-            {
-              "id": "o4",
-              "text": "[[Waiter|waiter]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U56_FILLER_23",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'order' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Pan"
-            },
-            {
-              "id": "o2",
-              "text": "[[Order|order]]"
-            },
-            {
-              "id": "o3",
-              "text": "Cup"
-            },
-            {
-              "id": "o4",
-              "text": "Microwave"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U56_FILLER_24",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'bill' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Sink"
-            },
-            {
-              "id": "o2",
-              "text": "[[Bill|bill]]"
-            },
-            {
-              "id": "o3",
-              "text": "Cup"
-            },
-            {
-              "id": "o4",
-              "text": "Microwave"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U56_FILLER_25",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'water' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Plate"
-            },
-            {
-              "id": "o2",
-              "text": "Cup"
-            },
-            {
-              "id": "o3",
-              "text": "Microwave"
-            },
-            {
-              "id": "o4",
-              "text": "[[Water|agua]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U56_FILLER_26",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'food' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Pan"
-            },
-            {
-              "id": "o2",
-              "text": "[[Food|food]]"
-            },
-            {
-              "id": "o3",
-              "text": "Cup"
-            },
-            {
-              "id": "o4",
-              "text": "Plate"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U56_FILLER_27",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'table' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Knife"
-            },
-            {
-              "id": "o2",
-              "text": "[[Table|table]]"
-            },
-            {
-              "id": "o3",
-              "text": "Bowl"
-            },
-            {
-              "id": "o4",
-              "text": "Kettle"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U56_FILLER_28",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'menu' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Cup"
-            },
-            {
-              "id": "o2",
-              "text": "Sink"
-            },
-            {
-              "id": "o3",
-              "text": "[[Menu|menu]]"
-            },
-            {
-              "id": "o4",
-              "text": "Fridge"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U56_FILLER_29",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'waiter' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Plate"
-            },
-            {
-              "id": "o2",
-              "text": "Bowl"
-            },
-            {
-              "id": "o3",
-              "text": "Sink"
-            },
-            {
-              "id": "o4",
-              "text": "[[Waiter|waiter]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        }
-      ]
-    },
-    {
-      "title": "Lesson 5: Listening & Pronunciation Review",
-      "duration_minutes": 20,
-      "content": [
-        {
-          "interaction_id": "U56_L5_I1",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[oven|horno]])",
-          "audio_url": "/audio/courses/ingles-a1/unit56/lesson5-task-1.mp3",
-          "transcript_template": "The [[menu|]] is here.",
-          "correct_answer": "menu",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U56_L5_I2",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[oven|horno]])",
-          "audio_url": "/audio/courses/ingles-a1/unit56/lesson5-task-2.mp3",
-          "transcript_template": "The [[waiter|]] is here.",
-          "correct_answer": "waiter",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
+          "interaction_id": "A1_U56_I54",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Order|Pedir/Orden]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Well done|Muy hecho]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Tip|Propina]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Recommend|Recomendar]]"
+            }
+          ],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U56_L5_I3",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[oven|horno]])",
-          "audio_url": "/audio/courses/ingles-a1/unit56/lesson5-task-3.mp3",
-          "transcript_template": "The [[order|]] is here.",
-          "correct_answer": "order",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
+          "interaction_id": "A1_U56_I55",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[I'm|Soy]] [[vegetarian|vegetariano/a]] — [[do|tiene]] [[you|usted]] [[have|tiene]] ______ [[vegetarian|opciones vegetarianas]] [[options|opciones]]?",
+          "correct_answer": "any"
         },
         {
-          "interaction_id": "U56_L5_I4",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[oven|horno]])",
-          "audio_url": "/audio/courses/ingles-a1/unit56/lesson5-task-4.mp3",
-          "transcript_template": "The [[bill|]] is here.",
-          "correct_answer": "bill",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
+          "interaction_id": "A1_U56_I56",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Could|¿Podrías]] [[I|yo]] ______ [[the|la]] [[menu|carta]], [[please|por favor]]?",
+          "correct_answer": "have"
         },
         {
-          "interaction_id": "U56_L5_I5",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[oven|horno]])",
-          "audio_url": "/audio/courses/ingles-a1/unit56/lesson5-task-5.mp3",
-          "transcript_template": "The [[water|]] is here.",
-          "correct_answer": "water",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
+          "interaction_id": "A1_U56_I57",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[I'd|Me gustaría]] [[like|gustaría]] ______ [[the|el]] [[grilled|pollo a la plancha]] [[chicken|pollo]] [[for|de]] [[my|plato principal]] [[main|principal]] [[course|plato]].",
+          "correct_answer": "to order"
         },
         {
-          "interaction_id": "U56_L5_I6",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[oven|horno]])",
-          "audio_url": "/audio/courses/ingles-a1/unit56/lesson5-task-6.mp3",
-          "transcript_template": "The [[food|]] is here.",
-          "correct_answer": "food",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
+          "interaction_id": "A1_U56_I58",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Good|Buenas]] [[evening|tardes]]. [[Do|Tienen]] [[you|ustedes]] [[have|tienen]] [[a|una]] [[reservation|reserva]]?",
+          "correct_answer": true
         },
         {
-          "interaction_id": "U56_L5_I7",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[oven|horno]])",
-          "audio_url": "/audio/courses/ingles-a1/unit56/lesson5-task-7.mp3",
-          "transcript_template": "The [[table|]] is here.",
-          "correct_answer": "table",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
+          "interaction_id": "A1_U56_I59",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Yes|Sí]], [[under|a nombre de]] [[the|el]] [[name|nombre]] [[Garcia|García]] [[for|para]] [[two|dos]] [[people|personas]].",
+          "correct_answer": false
         },
         {
-          "interaction_id": "U56_L5_I8",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[oven|horno]])",
-          "title": "Pronunciación: At the Restaurant",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[menu|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-8.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U56_L5_I8_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'menu'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U56_L5_I9",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[oven|horno]])",
-          "title": "Pronunciación: At the Restaurant",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[waiter|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-9.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U56_L5_I9_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'waiter'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U56_L5_I10",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[oven|horno]])",
-          "title": "Pronunciación: At the Restaurant",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[order|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-10.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U56_L5_I10_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'order'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U56_L5_I11",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[oven|horno]])",
-          "title": "Pronunciación: At the Restaurant",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[bill|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-11.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U56_L5_I11_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'bill'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U56_L5_I12",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[oven|horno]])",
-          "title": "Pronunciación: At the Restaurant",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[water|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-12.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U56_L5_I12_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'water'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U56_L5_I13",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[oven|horno]])",
-          "title": "Pronunciación: At the Restaurant",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[food|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-13.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U56_L5_I13_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'food'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U56_L5_I14",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[oven|horno]])",
-          "title": "Pronunciación: At the Restaurant",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[table|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-14.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U56_L5_I14_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'table'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U56_L5_I15",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[oven|horno]])",
-          "title": "Pronunciación: At the Restaurant",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[menu|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit56/lesson5-task-15.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U56_L5_I15_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'menu'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
+          "interaction_id": "A1_U56_I60",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Follow|Síganme]] [[me|síganme]], [[please|por favor]]. (hands menus) [[Our|Nuestros]] [[specials|platos especiales]] [[today|hoy]] [[are|son]] [[the|el]] [[grilled|salmón a la plancha]] [[salmon|salmón]] [[and|y]] [[the|el]] [[mushroom|risotto de champiñones]] [[risotto|risotto]].",
+          "correct_answer": true
         }
       ]
     }

@@ -1,1970 +1,1232 @@
 {
   "course": {
     "unit_id": "unit54",
-    "unit_title": "Much & Many",
+    "unit_title": "How Much & How Many",
     "level": "A1",
-    "total_duration_minutes": 25,
+    "total_duration_minutes": 60,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Use 'much' with uncountable nouns in negative and interrogative sentences",
-    "Use 'many' with plural countable nouns",
-    "Apply 'a lot of' correctly in affirmative sentences",
-    "Distinguish between 'a few' (countable) and 'a little' (uncountable)"
+    "Use 'How much/How many' for price and quantity questions",
+    "Use quantity expressions (kilo, litre, dozen)",
+    "Have basic market and shopping conversations"
   ],
   "blocks": [
     {
-      "block_id": "b1",
-      "title": "Much vs Many",
+      "block_id": "B1",
+      "title": "Vocabulary Introduction",
       "content": [
         {
-          "interaction_id": "A1_U54_B1_I1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál usas para preguntar por la cantidad de dinero? ([[much|mucho]])",
+          "interaction_id": "A1_U54_I1",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Price|Precio]]",
           "options": [
             {
               "id": "o1",
-              "text": "How much money?"
+              "text": "[[Precio|Price]]"
             },
             {
               "id": "o2",
-              "text": "How many money?"
+              "text": "[[Coste|Cost]]"
             },
             {
               "id": "o3",
-              "text": "How lot of money?"
+              "text": "[[Cambio/Vuelta|Change]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U54_I2",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
           "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U54_B1_I2",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con 'much' o 'many': ([[much|mucho]])",
-          "stimulus_en": "I don't have ________ time, but I have ________ books.",
-          "correct_answer": "much, many",
-          "mastery_tag": "grammar",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U54_B1_I3",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: '¿Cuántas manzanas tienes?'",
+          "stimulus_en": "[[Cost|Coste]]",
           "options": [
             {
-              "id": "w1",
-              "text": "How"
+              "id": "o1",
+              "text": "[[Cambio/Vuelta|Change]]"
             },
             {
-              "id": "w2",
-              "text": "[[many|muchos/as]]"
+              "id": "o2",
+              "text": "[[Coste|Cost]]"
             },
             {
-              "id": "w3",
-              "text": "apples"
-            },
-            {
-              "id": "w4",
-              "text": "do"
-            },
-            {
-              "id": "w5",
-              "text": "you"
-            },
-            {
-              "id": "w6",
-              "text": "have"
+              "id": "o3",
+              "text": "[[Recibo|Receipt]]"
             }
           ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "A1_U54_B1_I4",
-          "type": "matching",
-          "prompt_es": "Une el cuantificador con el tipo de nombre:",
-          "pairs": [
+          "interaction_id": "A1_U54_I3",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Change|Cambio/Vuelta]]",
+          "options": [
             {
-              "id": "p1",
-              "left": "[[Much|Uncountable (singular)]]",
-              "right": "Both types"
+              "id": "o1",
+              "text": "[[Recibo|Receipt]]"
             },
             {
-              "id": "p2",
-              "left": "[[Many|Countable (plural)]]",
-              "right": "Countable (plural)"
+              "id": "o2",
+              "text": "[[Descuento|Discount]]"
             },
             {
-              "id": "p3",
-              "left": "[[A lot of|Both types]]",
-              "right": "Uncountable (singular)"
+              "id": "o3",
+              "text": "[[Cambio/Vuelta|Change]]"
             }
           ],
-          "correct_answer": {
-            "p1": "p3",
-            "p2": "p2",
-            "p3": "p1"
-          },
-          "mastery_tag": "grammar",
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U54_I4",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
           "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
+          "stimulus_en": "[[Receipt|Recibo]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Recibo|Receipt]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Descuento|Discount]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Total|Total]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U54_I5",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Discount|Descuento]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Total|Total]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Descuento|Discount]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Cantidad|Quantity]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U54_I6",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Total|Total]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Cantidad|Quantity]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Docena|Dozen]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Total|Total]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U54_I7",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Cantidad]]",
+          "correct_answer": "Quantity"
+        },
+        {
+          "interaction_id": "A1_U54_I8",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Docena]]",
+          "correct_answer": "Dozen"
+        },
+        {
+          "interaction_id": "A1_U54_I9",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Kilo]]",
+          "correct_answer": "Kilo"
+        },
+        {
+          "interaction_id": "A1_U54_I10",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Litro]]",
+          "correct_answer": "Litre"
         }
       ]
     },
     {
-      "block_id": "b2",
-      "title": "A lot of / A few / A little",
+      "block_id": "B2",
+      "title": "Vocabulary in Context",
       "content": [
         {
-          "interaction_id": "A1_U54_B2_I1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál usas para decir que tienes 'un poco' de agua? ([[a little|un poco de]])",
-          "options": [
-            {
-              "id": "o1",
-              "text": "A few water"
-            },
-            {
-              "id": "o2",
-              "text": "A little water"
-            },
-            {
-              "id": "o3",
-              "text": "Many water"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U54_B2_I2",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'Tengo unos pocos amigos' ([[much|mucho]])",
-          "stimulus_en": "I have ________ friends.",
-          "correct_answer": "a few",
-          "mastery_tag": "grammar",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U54_B2_I3",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Tenemos mucha comida' ([[much|mucho]])",
-          "stimulus_es": "We have a lot of food.",
-          "correct_answer": "We have a lot of food",
-          "mastery_tag": "grammar",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U54_B2_I4",
-          "type": "true_false",
-          "prompt_es": "Usamos 'a few' con sustantivos incontables. ([[a few|unos pocos]])",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U54_B2_I5",
-          "type": "audio_player",
-          "prompt_es": "Escucha la diferencia: ([[much|mucho]])",
-          "audioUrl": "/audio/courses/ingles-a1/shared/few_little_examples.mp3",
-          "text": "A few cookies, a little milk, and a lot of sugar.",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "b3",
-      "title": "Quantity in Context",
-      "content": [
-        {
-          "interaction_id": "A1_U54_B3_I1",
-          "type": "categorization",
-          "prompt_es": "Clasifica según el cuantificador: ([[much|mucho]])",
-          "categories": [
-            {
-              "id": "many_few",
-              "title": "Many / A few",
-              "items": [
-                "Apples",
-                "Cars",
-                "Students",
-                "Days"
-              ]
-            },
-            {
-              "id": "much_little",
-              "title": "Much / A little",
-              "items": [
-                "Water",
-                "Money",
-                "Time",
-                "Rice"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
+          "interaction_id": "A1_U54_I11",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
           "mastery_tag": "vocabulary",
           "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U54_B3_I2",
-          "type": "multiple_choice",
-          "prompt_es": "Si no tienes mucho dinero, dices: ([[much|mucho]])",
+          "stimulus_en": "[[Receipt|Recibo]]",
           "options": [
             {
               "id": "o1",
-              "text": "I don't have many money."
+              "text": "[[Receipt|Recibo]]"
             },
             {
               "id": "o2",
-              "text": "I have many money."
+              "text": "[[Quantity|Cantidad]]"
             },
             {
               "id": "o3",
-              "text": "I don't have much money."
+              "text": "[[Litre|Litro]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "A1_U54_B3_I3",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'Hay mucha gente hoy' ([[much|mucho]])",
+          "interaction_id": "A1_U54_I12",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Discount|Descuento]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Dozen|Docena]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Discount|Descuento]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Half|Mitad]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U54_I13",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Total|Total]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Kilo|Kilo]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Quarter|Cuarto]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Total|Total]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U54_I14",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Quantity|Cantidad]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Quantity|Cantidad]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Litre|Litro]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Budget|Presupuesto]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U54_I15",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[How|Cuánto]] ______ [[does|cuesta]] [[this|esto]] [[cost|cuesta]]?",
+          "correct_answer": "much"
+        },
+        {
+          "interaction_id": "A1_U54_I16",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[How|Cuántos]] ______ [[people|personas]] [[are|van a venir]] [[coming|a venir]] [[to|a]] [[the|la]] [[party|fiesta]]?",
+          "correct_answer": "many"
+        },
+        {
+          "interaction_id": "A1_U54_I17",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[How|Cuánta]] ______ [[sugar|azúcar]] [[do|necesitas]] [[you|tú]] [[need|necesitas]]?",
+          "correct_answer": "much"
+        },
+        {
+          "interaction_id": "A1_U54_I18",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
           "options": [
             {
               "id": "w1",
-              "text": "There"
+              "text": "[[Price|Precio]]"
             },
             {
               "id": "w2",
-              "text": "are"
+              "text": "[[Change|Cambio/Vuelta]]"
             },
             {
               "id": "w3",
-              "text": "a"
-            },
-            {
-              "id": "w4",
-              "text": "lot"
-            },
-            {
-              "id": "w5",
-              "text": "of"
-            },
-            {
-              "id": "w6",
-              "text": "people"
-            },
-            {
-              "id": "w7",
-              "text": "today"
+              "text": "[[Cost|Coste]]"
             }
           ],
           "correct_answer": [
             "w1",
-            "w2",
             "w3",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U54_I19",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Discount|Descuento]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Quantity|Cantidad]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Total|Total]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U54_I20",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Kilo|Kilo]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Half|Mitad]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Litre|Litro]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Grammar — Affirmative",
+      "content": [
+        {
+          "interaction_id": "A1_U54_I21",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[How|Cuánto]] ______ [[does|cuesta]] [[this|esto]] [[cost|cuesta]]?",
+          "correct_answer": "much"
+        },
+        {
+          "interaction_id": "A1_U54_I22",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[How|Cuántos]] ______ [[people|personas]] [[are|van a venir]] [[coming|a venir]] [[to|a]] [[the|la]] [[party|fiesta]]?",
+          "correct_answer": "many"
+        },
+        {
+          "interaction_id": "A1_U54_I23",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[How|Cuánta]] ______ [[sugar|azúcar]] [[do|necesitas]] [[you|tú]] [[need|necesitas]]?",
+          "correct_answer": "much"
+        },
+        {
+          "interaction_id": "A1_U54_I24",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[How|Cuántos]] ______ [[apples|manzanas]] [[did|compraste]] [[you|tú]] [[buy|compraste]]?",
+          "correct_answer": "many"
+        },
+        {
+          "interaction_id": "A1_U54_I25",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[The|El]] [[total|total]] ______  [[twelve|doce]] [[euros|euros]] [[fifty|cincuenta]] [[cents|céntimos]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[is|is]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[many|many]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[much|much]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U54_I26",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] ______ [[about|unos]] [[fifty|cincuenta]] [[euros|euros]] [[a|a la]] [[week|semana]] [[on|en]] [[food|comida]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[much|much]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[spend|spend]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[many|many]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U54_I27",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[How|Cuánto]] ______ [[does|cuesta]] [[this|esto]] [[cost|cuesta]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[many|many]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[is|is]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[much|much]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U54_I28",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[How|Cuántos]] ______ [[people|personas]] [[are|van a venir]] [[coming|a venir]] [[to|a]] [[the|la]] [[party|fiesta]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[many|many]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[is|is]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[spend|spend]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U54_I29",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Change|Cambio/Vuelta]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Price|Precio]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Discount|Descuento]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
+          ]
+        },
+        {
+          "interaction_id": "A1_U54_I30",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Dozen|Docena]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Total|Total]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Litre|Litro]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Grammar — Negative & Questions",
+      "content": [
+        {
+          "interaction_id": "A1_U54_I31",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[How|Cuánta]] ______ [[sugar|azúcar]] [[do|necesitas]] [[you|tú]] [[need|necesitas]]?",
+          "correct_answer": "much"
+        },
+        {
+          "interaction_id": "A1_U54_I32",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[How|Cuántos]] ______ [[apples|manzanas]] [[did|compraste]] [[you|tú]] [[buy|compraste]]?",
+          "correct_answer": "many"
+        },
+        {
+          "interaction_id": "A1_U54_I33",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[The|El]] [[total|total]] ______  [[twelve|doce]] [[euros|euros]] [[fifty|cincuenta]] [[cents|céntimos]].",
+          "correct_answer": "is"
+        },
+        {
+          "interaction_id": "A1_U54_I34",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[How|Cuántos]] ______ [[apples|manzanas]] [[did|compraste]] [[you|tú]] [[buy|compraste]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[many|many]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[spend|spend]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[much|much]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U54_I35",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[The|El]] [[total|total]] ______  [[twelve|doce]] [[euros|euros]] [[fifty|cincuenta]] [[cents|céntimos]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[much|much]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[is|is]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[many|many]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U54_I36",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] ______ [[about|unos]] [[fifty|cincuenta]] [[euros|euros]] [[a|a la]] [[week|semana]] [[on|en]] [[food|comida]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[many|many]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[much|much]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[spend|spend]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U54_I37",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[How|Cuánto]] ______ [[does|cuesta]] [[this|esto]] [[cost|cuesta]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[much|much]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[much|much]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[many|many]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U54_I38",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Discount|Descuento]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Cost|Coste]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Quantity|Cantidad]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Change|Cambio/Vuelta]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
             "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "syntax"
+            "w3"
           ]
         },
         {
-          "interaction_id": "A1_U54_B3_I4",
-          "type": "short_writing",
-          "prompt_es": "Traduce: '¿Cuánto tiempo tenemos?' ([[much|mucho]])",
-          "stimulus_es": "How much time do we have?",
-          "correct_answer": "How much time do we have",
+          "interaction_id": "A1_U54_I39",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
           "mastery_tag": "grammar",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "grammar"
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Dozen|Docena]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Discount|Descuento]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Litre|Litro]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Total|Total]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
+        },
+        {
+          "interaction_id": "A1_U54_I40",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Half|Mitad]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Dozen|Docena]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Budget|Presupuesto]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Kilo|Kilo]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
           ]
         }
       ]
     },
     {
-      "block_id": "b4",
-      "title": "Mastery Section",
+      "block_id": "B5",
+      "title": "Reading Comprehension",
       "content": [
         {
-          "interaction_id": "A1_U54_B4_I2",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el texto: ([[much|mucho]])",
-          "stimulus_en": "How ________ people are there? There aren't ________, only ________.",
-          "correct_answer": "many, many, a few",
-          "mastery_tag": "grammar",
+          "interaction_id": "A1_U54_I41",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Perdona]] [[me|me]], [[how|cuánto]] [[much|cuánto]] [[are|cuestan]] [[the|los]] [[strawberries|fresas]]? [[They're|Cuestan]] [[three|tres]] [[euros|euros]] [[fifty|cincuenta]] [[for|por]] [[a|un]] [[kilo|kilo]]. [[And|Y]] [[how|cuántos]] [[many|cuántos]] [[lemons|limones]] [[are|hay]] [[in|en]] [[a|una]] [[bag|bolsa]]? [[There|Hay]] [[are|hay]] [[six|seis]] [[in|en]] [[each|cada]] [[bag|bolsa]]. [[Great|Perfecto]]. [[I'll|Me llevaré]] [[take|llevaré]] [[two|dos]] [[kilos|kilos]] [[of|de]] [[strawberries|fresas]] [[and|y]] [[one|una]] [[bag|bolsa]] [[of|de]] [[lemons|limones]] [[please|por favor]].",
+          "question_en": "[[What|Qué]] [[is|pregunta]] [[the|el]] [[customer|cliente]] [[asking|pregunta]] [[about|sobre]] [[first|primero]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[The lemons|Los limones]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[The price of strawberries|El precio de las fresas]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[The total bill|La cuenta total]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U54_I42",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Perdona]] [[me|me]], [[how|cuánto]] [[much|cuánto]] [[are|cuestan]] [[the|los]] [[strawberries|fresas]]? [[They're|Cuestan]] [[three|tres]] [[euros|euros]] [[fifty|cincuenta]] [[for|por]] [[a|un]] [[kilo|kilo]]. [[And|Y]] [[how|cuántos]] [[many|cuántos]] [[lemons|limones]] [[are|hay]] [[in|en]] [[a|una]] [[bag|bolsa]]? [[There|Hay]] [[are|hay]] [[six|seis]] [[in|en]] [[each|cada]] [[bag|bolsa]]. [[Great|Perfecto]]. [[I'll|Me llevaré]] [[take|llevaré]] [[two|dos]] [[kilos|kilos]] [[of|de]] [[strawberries|fresas]] [[and|y]] [[one|una]] [[bag|bolsa]] [[of|de]] [[lemons|limones]] [[please|por favor]].",
+          "question_en": "[[How|Cuánto]] [[much|cuánto]] [[do|cuestan]] [[the|las]] [[strawberries|fresas]] [[cost|cuestan]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[€2.50 per kilo|2,50€ por kilo]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[€4 per kilo|4€ por kilo]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[€3.50 per kilo|3,50€ por kilo]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U54_I43",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Perdona]] [[me|me]], [[how|cuánto]] [[much|cuánto]] [[are|cuestan]] [[the|los]] [[strawberries|fresas]]? [[They're|Cuestan]] [[three|tres]] [[euros|euros]] [[fifty|cincuenta]] [[for|por]] [[a|un]] [[kilo|kilo]]. [[And|Y]] [[how|cuántos]] [[many|cuántos]] [[lemons|limones]] [[are|hay]] [[in|en]] [[a|una]] [[bag|bolsa]]? [[There|Hay]] [[are|hay]] [[six|seis]] [[in|en]] [[each|cada]] [[bag|bolsa]]. [[Great|Perfecto]]. [[I'll|Me llevaré]] [[take|llevaré]] [[two|dos]] [[kilos|kilos]] [[of|de]] [[strawberries|fresas]] [[and|y]] [[one|una]] [[bag|bolsa]] [[of|de]] [[lemons|limones]] [[please|por favor]].",
+          "question_en": "[[What|Qué]] [[does|pregunta]] [[the|el]] [[customer|cliente]] [[ask|pregunta]] [[about|sobre]] [[the|los]] [[lemons|limones]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[The price|El precio]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[How many in a bag|Cuántos hay en una bolsa]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Where they come from|De dónde vienen]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U54_I44",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Perdona]] [[me|me]], [[how|cuánto]] [[much|cuánto]] [[are|cuestan]] [[the|los]] [[strawberries|fresas]]? [[They're|Cuestan]] [[three|tres]] [[euros|euros]] [[fifty|cincuenta]] [[for|por]] [[a|un]] [[kilo|kilo]]. [[And|Y]] [[how|cuántos]] [[many|cuántos]] [[lemons|limones]] [[are|hay]] [[in|en]] [[a|una]] [[bag|bolsa]]? [[There|Hay]] [[are|hay]] [[six|seis]] [[in|en]] [[each|cada]] [[bag|bolsa]]. [[Great|Perfecto]]. [[I'll|Me llevaré]] [[take|llevaré]] [[two|dos]] [[kilos|kilos]] [[of|de]] [[strawberries|fresas]] [[and|y]] [[one|una]] [[bag|bolsa]] [[of|de]] [[lemons|limones]] [[please|por favor]].",
+          "question_en": "[[How|Cuántos]] [[many|cuántos]] [[lemons|limones]] [[are|hay]] [[in|en]] [[one|una]] [[bag|bolsa]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Four|Cuatro]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Eight|Ocho]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Six|Seis]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U54_I45",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Perdona]] [[me|me]], [[how|cuánto]] [[much|cuánto]] [[are|cuestan]] [[the|los]] [[strawberries|fresas]]? [[They're|Cuestan]] [[three|tres]] [[euros|euros]] [[fifty|cincuenta]] [[for|por]] [[a|un]] [[kilo|kilo]]. [[And|Y]] [[how|cuántos]] [[many|cuántos]] [[lemons|limones]] [[are|hay]] [[in|en]] [[a|una]] [[bag|bolsa]]? [[There|Hay]] [[are|hay]] [[six|seis]] [[in|en]] [[each|cada]] [[bag|bolsa]]. [[Great|Perfecto]]. [[I'll|Me llevaré]] [[take|llevaré]] [[two|dos]] [[kilos|kilos]] [[of|de]] [[strawberries|fresas]] [[and|y]] [[one|una]] [[bag|bolsa]] [[of|de]] [[lemons|limones]] [[please|por favor]].",
+          "question_en": "[[What|Qué]] [[does|compra]] [[the|el]] [[customer|cliente]] [[buy|compra]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[1 kilo of strawberries and two bags of lemons|1 kilo de fresas y dos bolsas de limones]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Two kilos of strawberries and one bag of lemons|Dos kilos de fresas y una bolsa de limones]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Just strawberries|Solo fresas]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U54_I46",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Perdona]] [[me|me]], [[how|cuánto]] [[much|cuánto]] [[are|cuestan]] [[the|los]] [[strawberries|fresas]]? [[They're|Cuestan]] [[three|tres]] [[euros|euros]] [[fifty|cincuenta]] [[for|por]] [[a|un]] [[kilo|kilo]]. [[And|Y]] [[how|cuántos]] [[many|cuántos]] [[lemons|limones]] [[are|hay]] [[in|en]] [[a|una]] [[bag|bolsa]]? [[There|Hay]] [[are|hay]] [[six|seis]] [[in|en]] [[each|cada]] [[bag|bolsa]]. [[Great|Perfecto]]. [[I'll|Me llevaré]] [[take|llevaré]] [[two|dos]] [[kilos|kilos]] [[of|de]] [[strawberries|fresas]] [[and|y]] [[one|una]] [[bag|bolsa]] [[of|de]] [[lemons|limones]] [[please|por favor]].",
+          "question_en": "[[Use|Usa]] 'How much' [[or|o]] 'How many'?  — '______ [[coffee|café]] [[do|quieres]] [[you|tú]] [[want|quieres]]?'",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[How many|How many (contables)]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[How much|How much (incontables)]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Either|Cualquiera]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U54_I47",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Perdona]] [[me|me]], [[how|cuánto]] [[much|cuánto]] [[are|cuestan]] [[the|los]] [[strawberries|fresas]]? [[They're|Cuestan]] [[three|tres]] [[euros|euros]] [[fifty|cincuenta]] [[for|por]] [[a|un]] [[kilo|kilo]]. [[And|Y]] [[how|cuántos]] [[many|cuántos]] [[lemons|limones]] [[are|hay]] [[in|en]] [[a|una]] [[bag|bolsa]]? [[There|Hay]] [[are|hay]] [[six|seis]] [[in|en]] [[each|cada]] [[bag|bolsa]]. [[Great|Perfecto]]. [[I'll|Me llevaré]] [[take|llevaré]] [[two|dos]] [[kilos|kilos]] [[of|de]] [[strawberries|fresas]] [[and|y]] [[one|una]] [[bag|bolsa]] [[of|de]] [[lemons|limones]] [[please|por favor]].",
+          "question_en": "[[Use|Usa]] 'How much' [[or|o]] 'How many'? — '______ [[cups|tazas]] [[do|quieres]] [[you|tú]] [[want|quieres]]?'",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[How much|How much (incontables)]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[How many|How many (contables)]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Both|Ambos]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U54_I48",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Perdona]] [[me|me]], [[how|cuánto]] [[much|cuánto]] [[are|cuestan]] [[the|los]] [[strawberries|fresas]]? [[They're|Cuestan]] [[three|tres]] [[euros|euros]] [[fifty|cincuenta]] [[for|por]] [[a|un]] [[kilo|kilo]]. [[And|Y]] [[how|cuántos]] [[many|cuántos]] [[lemons|limones]] [[are|hay]] [[in|en]] [[a|una]] [[bag|bolsa]]? [[There|Hay]] [[are|hay]] [[six|seis]] [[in|en]] [[each|cada]] [[bag|bolsa]]. [[Great|Perfecto]]. [[I'll|Me llevaré]] [[take|llevaré]] [[two|dos]] [[kilos|kilos]] [[of|de]] [[strawberries|fresas]] [[and|y]] [[one|una]] [[bag|bolsa]] [[of|de]] [[lemons|limones]] [[please|por favor]].",
+          "question_en": "[[What|Qué]] [[does|significa]] 'Receipt' [[mean|significa]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[The bill to pay|La factura a pagar]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Proof of purchase|Comprobante de compra]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[A discount coupon|Un cupón de descuento]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U54_I49",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Perdona]] [[me|me]], [[how|cuánto]] [[much|cuánto]] [[are|cuestan]] [[the|los]] [[strawberries|fresas]]? [[They're|Cuestan]] [[three|tres]] [[euros|euros]] [[fifty|cincuenta]] [[for|por]] [[a|un]] [[kilo|kilo]]. [[And|Y]] [[how|cuántos]] [[many|cuántos]] [[lemons|limones]] [[are|hay]] [[in|en]] [[a|una]] [[bag|bolsa]]? [[There|Hay]] [[are|hay]] [[six|seis]] [[in|en]] [[each|cada]] [[bag|bolsa]]. [[Great|Perfecto]]. [[I'll|Me llevaré]] [[take|llevaré]] [[two|dos]] [[kilos|kilos]] [[of|de]] [[strawberries|fresas]] [[and|y]] [[one|una]] [[bag|bolsa]] [[of|de]] [[lemons|limones]] [[please|por favor]].",
+          "question_en": "[[What|Qué]] [[is|es]] [[a|una]] 'Dozen'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Ten items|Diez artículos]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Twelve items|Doce artículos]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Twenty items|Veinte artículos]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U54_I50",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Perdona]] [[me|me]], [[how|cuánto]] [[much|cuánto]] [[are|cuestan]] [[the|los]] [[strawberries|fresas]]? [[They're|Cuestan]] [[three|tres]] [[euros|euros]] [[fifty|cincuenta]] [[for|por]] [[a|un]] [[kilo|kilo]]. [[And|Y]] [[how|cuántos]] [[many|cuántos]] [[lemons|limones]] [[are|hay]] [[in|en]] [[a|una]] [[bag|bolsa]]? [[There|Hay]] [[are|hay]] [[six|seis]] [[in|en]] [[each|cada]] [[bag|bolsa]]. [[Great|Perfecto]]. [[I'll|Me llevaré]] [[take|llevaré]] [[two|dos]] [[kilos|kilos]] [[of|de]] [[strawberries|fresas]] [[and|y]] [[one|una]] [[bag|bolsa]] [[of|de]] [[lemons|limones]] [[please|por favor]].",
+          "question_en": "[[What|Qué]] [[does|significa]] 'Discount' [[mean|significa]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Extra charge|Cargo adicional]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[A price reduction|Una reducción de precio]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[The total price|El precio total]]"
+            }
+          ],
+          "correct_answer": "o2"
+        }
+      ]
+    },
+    {
+      "block_id": "B6",
+      "title": "Production",
+      "content": [
+        {
+          "interaction_id": "A1_U54_I51",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
           "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U54_B4_I3",
-          "type": "short_writing",
-          "prompt_es": "Escribe 'Tengo mucha agua' usando 'a lot of': ([[much|mucho]])",
-          "stimulus_es": "I have a lot of water.",
-          "correct_answer": "I have a lot of water",
-          "mastery_tag": "grammar",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "B54_5",
-      "title": "Block 5: Listening & Pronunciation",
-      "content": [
-        {
-          "interaction_id": "U54_I101",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[much|mucho]])",
-          "stimulus_en": "How much money do you have?",
-          "correct_answer": "How much money do you have?",
-          "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-1.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U54_I102",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[book|reservar]])",
-          "stimulus_en": "How many books are there?",
-          "correct_answer": "How many books are there?",
-          "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-2.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U54_I103",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[a lot of|mucho/s]])",
-          "stimulus_en": "I have a lot of friends.",
-          "correct_answer": "I have a lot of friends.",
-          "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-3.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U54_I104",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[a little|un poco de]])",
-          "stimulus_en": "There is a little milk.",
-          "correct_answer": "There is a little milk.",
-          "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-4.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U54_I105",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[a few|unos pocos]])",
-          "stimulus_en": "We have a few cookies.",
-          "correct_answer": "We have a few cookies.",
-          "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-5.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U54_I106",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[much|mucho]])",
-          "stimulus_en": "I don't have much time.",
-          "correct_answer": "I don't have much time.",
-          "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-6.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U54_I107",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[many|muchos/as]])",
-          "stimulus_en": "Are there many people?",
-          "correct_answer": "Are there many people?",
-          "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-7.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U54_I108",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[much|mucho]])",
-          "title": "Pronunciación: Much",
-          "instructions": "Escucha y repite la 'u' corta.",
-          "targetSentences": [
-            {
-              "text": "How [[much|cuánto]]?",
-              "phonetic": "/mʌtʃ/",
-              "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-8.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U54_I108_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'u' en 'much'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Como una 'a' corta (/ʌ/)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como una 'u' española"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U54_I109",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[much|mucho]])",
-          "title": "Pronunciación: Many",
-          "instructions": "La 'a' suena como /ɛ/.",
-          "targetSentences": [
-            {
-              "text": "How [[many|cuántos]]?",
-              "phonetic": "/ˈmɛni/",
-              "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-9.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U54_I109_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'a' en 'many'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Como una 'e' (/ɛ/)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como una 'a'"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U54_I110",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[much|mucho]])",
-          "title": "Pronunciación: Little",
-          "instructions": "Escucha y repite la 'i' corta.",
-          "targetSentences": [
-            {
-              "text": "A [[little|poco]] water.",
-              "phonetic": "/ˈlɪtl/",
-              "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-10.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U54_I110_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suenan las 'tt' en inglés americano?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Como una 'd' suave (/ɾ/)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como una 't' fuerte"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U54_I111",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[much|mucho]])",
-          "title": "Pronunciación: Few",
-          "instructions": "La 'ew' suena como /juː/.",
-          "targetSentences": [
-            {
-              "text": "A [[few|pocos]] books.",
-              "phonetic": "/fjuː/",
-              "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-11.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U54_I111_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'few'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Como 'fiu' (/fjuː/)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como 'feu'"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U54_I112",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[much|mucho]])",
-          "title": "Pronunciación: People",
-          "instructions": "La 'eo' suena como /iː/.",
-          "targetSentences": [
-            {
-              "text": "Many [[people|gente]].",
-              "phonetic": "/ˈpiːpl/",
-              "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-12.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U54_I112_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Se pronuncia la 'o' en 'people'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "No"
-                },
-                {
-                  "id": "o2",
-                  "text": "Sí"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U54_I113",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[much|mucho]])",
-          "title": "Pronunciación: Money",
-          "instructions": "La 'o' suena como /ʌ/.",
-          "targetSentences": [
-            {
-              "text": "How much [[money|dinero]]?",
-              "phonetic": "/ˈmʌni/",
-              "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-13.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U54_I113_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la terminación '-ey' en 'money'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Como una 'i' corta (/i/)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como 'ei'"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U54_I114",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[much|mucho]])",
-          "title": "Pronunciación: Friends",
-          "instructions": "La 'ie' suena como /ɛ/.",
-          "targetSentences": [
-            {
-              "text": "A few [[friends|amigos]].",
-              "phonetic": "/frɛndz/",
-              "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-14.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U54_I114_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Se pronuncia la 'i' en 'friends'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "No, es silenciosa"
-                },
-                {
-                  "id": "o2",
-                  "text": "Sí"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U54_I115",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[much|mucho]])",
-          "title": "Pronunciación: Time",
-          "instructions": "La 'i' suena como /aɪ/.",
-          "targetSentences": [
-            {
-              "text": "Much [[time|tiempo]].",
-              "phonetic": "/taɪm/",
-              "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-15.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U54_I115_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Se pronuncia la 'e' final en 'time'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "No"
-                },
-                {
-                  "id": "o2",
-                  "text": "Sí"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Practice Sessions",
-      "content": [
-        {
-          "interaction_id": "U54_FILLER_0",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'much' en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "Enough"
+              "id": "w1",
+              "text": "[[Cost|Coste]]"
             },
             {
-              "id": "o2",
-              "text": "A little"
+              "id": "w2",
+              "text": "[[Discount|Descuento]]"
             },
             {
-              "id": "o3",
-              "text": "[[Much|mucho]]"
+              "id": "w3",
+              "text": "[[Price|Precio]]"
             },
             {
-              "id": "o4",
-              "text": "A few"
+              "id": "w4",
+              "text": "[[Change|Cambio/Vuelta]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U54_FILLER_1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'many' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Many|muchos/as]]"
-            },
-            {
-              "id": "o2",
-              "text": "Much"
-            },
-            {
-              "id": "o3",
-              "text": "Enough"
-            },
-            {
-              "id": "o4",
-              "text": "A little"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U54_FILLER_2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'how much' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[How much|how much]]"
-            },
-            {
-              "id": "o2",
-              "text": "Enough"
-            },
-            {
-              "id": "o3",
-              "text": "Much"
-            },
-            {
-              "id": "o4",
-              "text": "A little"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U54_FILLER_3",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'how many' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "A little"
-            },
-            {
-              "id": "o2",
-              "text": "Enough"
-            },
-            {
-              "id": "o3",
-              "text": "[[How many|how many]]"
-            },
-            {
-              "id": "o4",
-              "text": "Much"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U54_FILLER_4",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'money' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Many"
-            },
-            {
-              "id": "o2",
-              "text": "A lot of"
-            },
-            {
-              "id": "o3",
-              "text": "Much"
-            },
-            {
-              "id": "o4",
-              "text": "[[Money|money]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U54_FILLER_5",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'friends' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "A little"
-            },
-            {
-              "id": "o2",
-              "text": "[[Friends|friends]]"
-            },
-            {
-              "id": "o3",
-              "text": "A lot of"
-            },
-            {
-              "id": "o4",
-              "text": "Many"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U54_FILLER_6",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'time' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "A few"
-            },
-            {
-              "id": "o2",
-              "text": "Many"
-            },
-            {
-              "id": "o3",
-              "text": "A lot of"
-            },
-            {
-              "id": "o4",
-              "text": "[[Time|time]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U54_FILLER_7",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'much' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "A little"
-            },
-            {
-              "id": "o2",
-              "text": "[[Much|mucho]]"
-            },
-            {
-              "id": "o3",
-              "text": "Many"
-            },
-            {
-              "id": "o4",
-              "text": "A lot of"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U54_FILLER_8",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'many' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Much"
-            },
-            {
-              "id": "o2",
-              "text": "[[Many|muchos/as]]"
-            },
-            {
-              "id": "o3",
-              "text": "A few"
-            },
-            {
-              "id": "o4",
-              "text": "Enough"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U54_FILLER_9",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'how much' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Many"
-            },
-            {
-              "id": "o2",
-              "text": "Much"
-            },
-            {
-              "id": "o3",
-              "text": "[[How much|how much]]"
-            },
-            {
-              "id": "o4",
-              "text": "A lot of"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U54_FILLER_10",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'how many' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "A little"
-            },
-            {
-              "id": "o2",
-              "text": "Many"
-            },
-            {
-              "id": "o3",
-              "text": "[[How many|how many]]"
-            },
-            {
-              "id": "o4",
-              "text": "A few"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U54_FILLER_11",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'money' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "A little"
-            },
-            {
-              "id": "o2",
-              "text": "Many"
-            },
-            {
-              "id": "o3",
-              "text": "[[Money|money]]"
-            },
-            {
-              "id": "o4",
-              "text": "Much"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U54_FILLER_12",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'friends' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "A little"
-            },
-            {
-              "id": "o2",
-              "text": "[[Friends|friends]]"
-            },
-            {
-              "id": "o3",
-              "text": "Many"
-            },
-            {
-              "id": "o4",
-              "text": "Much"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U54_FILLER_13",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'time' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "A few"
-            },
-            {
-              "id": "o2",
-              "text": "A little"
-            },
-            {
-              "id": "o3",
-              "text": "Many"
-            },
-            {
-              "id": "o4",
-              "text": "[[Time|time]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U54_FILLER_14",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'much' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Many"
-            },
-            {
-              "id": "o2",
-              "text": "[[Much|mucho]]"
-            },
-            {
-              "id": "o3",
-              "text": "A lot of"
-            },
-            {
-              "id": "o4",
-              "text": "Enough"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U54_FILLER_15",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'many' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Much"
-            },
-            {
-              "id": "o2",
-              "text": "[[Many|muchos/as]]"
-            },
-            {
-              "id": "o3",
-              "text": "A few"
-            },
-            {
-              "id": "o4",
-              "text": "A little"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U54_FILLER_16",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'how much' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[How much|how much]]"
-            },
-            {
-              "id": "o2",
-              "text": "A few"
-            },
-            {
-              "id": "o3",
-              "text": "Much"
-            },
-            {
-              "id": "o4",
-              "text": "A lot of"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U54_FILLER_17",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'how many' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Enough"
-            },
-            {
-              "id": "o2",
-              "text": "A lot of"
-            },
-            {
-              "id": "o3",
-              "text": "A few"
-            },
-            {
-              "id": "o4",
-              "text": "[[How many|how many]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U54_FILLER_18",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'money' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Money|money]]"
-            },
-            {
-              "id": "o2",
-              "text": "A lot of"
-            },
-            {
-              "id": "o3",
-              "text": "A few"
-            },
-            {
-              "id": "o4",
-              "text": "Much"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U54_FILLER_19",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'friends' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Friends|friends]]"
-            },
-            {
-              "id": "o2",
-              "text": "A lot of"
-            },
-            {
-              "id": "o3",
-              "text": "Much"
-            },
-            {
-              "id": "o4",
-              "text": "Many"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U54_FILLER_20",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'time' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Time|time]]"
-            },
-            {
-              "id": "o2",
-              "text": "A few"
-            },
-            {
-              "id": "o3",
-              "text": "A lot of"
-            },
-            {
-              "id": "o4",
-              "text": "Much"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U54_FILLER_21",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'much' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "A few"
-            },
-            {
-              "id": "o2",
-              "text": "[[Much|mucho]]"
-            },
-            {
-              "id": "o3",
-              "text": "Enough"
-            },
-            {
-              "id": "o4",
-              "text": "A little"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U54_FILLER_22",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'many' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Enough"
-            },
-            {
-              "id": "o2",
-              "text": "A few"
-            },
-            {
-              "id": "o3",
-              "text": "Much"
-            },
-            {
-              "id": "o4",
-              "text": "[[Many|muchos/as]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U54_FILLER_23",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'how much' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Enough"
-            },
-            {
-              "id": "o2",
-              "text": "A little"
-            },
-            {
-              "id": "o3",
-              "text": "Many"
-            },
-            {
-              "id": "o4",
-              "text": "[[How much|how much]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U54_FILLER_24",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'how many' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Much"
-            },
-            {
-              "id": "o2",
-              "text": "Many"
-            },
-            {
-              "id": "o3",
-              "text": "[[How many|how many]]"
-            },
-            {
-              "id": "o4",
-              "text": "A little"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U54_FILLER_25",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'money' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Many"
-            },
-            {
-              "id": "o2",
-              "text": "A little"
-            },
-            {
-              "id": "o3",
-              "text": "[[Money|money]]"
-            },
-            {
-              "id": "o4",
-              "text": "Enough"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U54_FILLER_26",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'friends' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Friends|friends]]"
-            },
-            {
-              "id": "o2",
-              "text": "Enough"
-            },
-            {
-              "id": "o3",
-              "text": "Many"
-            },
-            {
-              "id": "o4",
-              "text": "A little"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U54_FILLER_27",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'time' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Enough"
-            },
-            {
-              "id": "o2",
-              "text": "Many"
-            },
-            {
-              "id": "o3",
-              "text": "[[Time|time]]"
-            },
-            {
-              "id": "o4",
-              "text": "Much"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U54_FILLER_28",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'much' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Many"
-            },
-            {
-              "id": "o2",
-              "text": "A little"
-            },
-            {
-              "id": "o3",
-              "text": "A lot of"
-            },
-            {
-              "id": "o4",
-              "text": "[[Much|mucho]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U54_FILLER_29",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'many' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Enough"
-            },
-            {
-              "id": "o2",
-              "text": "Much"
-            },
-            {
-              "id": "o3",
-              "text": "A little"
-            },
-            {
-              "id": "o4",
-              "text": "[[Many|muchos/as]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        }
-      ]
-    },
-    {
-      "title": "Lesson 5: Listening & Pronunciation Review",
-      "duration_minutes": 20,
-      "content": [
-        {
-          "interaction_id": "U54_L5_I1",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[much|mucho]])",
-          "audio_url": "/audio/courses/ingles-a1/unit54/lesson5-task-1.mp3",
-          "transcript_template": "The [[much|]] is here.",
-          "correct_answer": "much",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U54_L5_I2",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[much|mucho]])",
-          "audio_url": "/audio/courses/ingles-a1/unit54/lesson5-task-2.mp3",
-          "transcript_template": "The [[many|]] is here.",
-          "correct_answer": "many",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
+          "interaction_id": "A1_U54_I52",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Discount|Descuento]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Dozen|Docena]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Receipt|Recibo]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Total|Total]]"
+            }
+          ],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U54_L5_I3",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[much|mucho]])",
-          "audio_url": "/audio/courses/ingles-a1/unit54/lesson5-task-3.mp3",
-          "transcript_template": "The [[how much|]] is here.",
-          "correct_answer": "how much",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
+          "interaction_id": "A1_U54_I53",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Dozen|Docena]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Half|Mitad]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Quantity|Cantidad]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Kilo|Kilo]]"
+            }
+          ],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U54_L5_I4",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[much|mucho]])",
-          "audio_url": "/audio/courses/ingles-a1/unit54/lesson5-task-4.mp3",
-          "transcript_template": "The [[how many|]] is here.",
-          "correct_answer": "how many",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
+          "interaction_id": "A1_U54_I54",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Half|Mitad]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Spend|Gastar]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Litre|Litro]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Quarter|Cuarto]]"
+            }
+          ],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U54_L5_I5",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[much|mucho]])",
-          "audio_url": "/audio/courses/ingles-a1/unit54/lesson5-task-5.mp3",
-          "transcript_template": "The [[money|]] is here.",
-          "correct_answer": "money",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
+          "interaction_id": "A1_U54_I55",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[I|Yo]] ______ [[about|unos]] [[fifty|cincuenta]] [[euros|euros]] [[a|a la]] [[week|semana]] [[on|en]] [[food|comida]].",
+          "correct_answer": "spend"
         },
         {
-          "interaction_id": "U54_L5_I6",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[much|mucho]])",
-          "audio_url": "/audio/courses/ingles-a1/unit54/lesson5-task-6.mp3",
-          "transcript_template": "The [[friends|]] is here.",
-          "correct_answer": "friends",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
+          "interaction_id": "A1_U54_I56",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[How|Cuánto]] ______ [[does|cuesta]] [[this|esto]] [[cost|cuesta]]?",
+          "correct_answer": "much"
         },
         {
-          "interaction_id": "U54_L5_I7",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[much|mucho]])",
-          "audio_url": "/audio/courses/ingles-a1/unit54/lesson5-task-7.mp3",
-          "transcript_template": "The [[time|]] is here.",
-          "correct_answer": "time",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
+          "interaction_id": "A1_U54_I57",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[How|Cuántos]] ______ [[people|personas]] [[are|van a venir]] [[coming|a venir]] [[to|a]] [[the|la]] [[party|fiesta]]?",
+          "correct_answer": "many"
         },
         {
-          "interaction_id": "U54_L5_I8",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[much|mucho]])",
-          "title": "Pronunciación: Much & Many",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[much|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-8.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U54_L5_I8_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'much'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
+          "interaction_id": "A1_U54_I58",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Excuse|Perdona]] [[me|me]], [[how|cuánto]] [[much|cuánto]] [[are|cuestan]] [[the|los]] [[strawberries|fresas]]?",
+          "correct_answer": true
         },
         {
-          "interaction_id": "U54_L5_I9",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[much|mucho]])",
-          "title": "Pronunciación: Much & Many",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[many|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-9.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U54_L5_I9_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'many'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
+          "interaction_id": "A1_U54_I59",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[They're|Cuestan]] [[three|tres]] [[euros|euros]] [[fifty|cincuenta]] [[for|por]] [[a|un]] [[kilo|kilo]].",
+          "correct_answer": false
         },
         {
-          "interaction_id": "U54_L5_I10",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[much|mucho]])",
-          "title": "Pronunciación: Much & Many",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[how much|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-10.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U54_L5_I10_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'how much'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U54_L5_I11",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[much|mucho]])",
-          "title": "Pronunciación: Much & Many",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[how many|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-11.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U54_L5_I11_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'how many'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U54_L5_I12",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[much|mucho]])",
-          "title": "Pronunciación: Much & Many",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[money|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-12.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U54_L5_I12_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'money'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U54_L5_I13",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[much|mucho]])",
-          "title": "Pronunciación: Much & Many",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[friends|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-13.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U54_L5_I13_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'friends'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U54_L5_I14",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[much|mucho]])",
-          "title": "Pronunciación: Much & Many",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[time|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-14.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U54_L5_I14_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'time'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U54_L5_I15",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[much|mucho]])",
-          "title": "Pronunciación: Much & Many",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[much|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit54/lesson5-task-15.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U54_L5_I15_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'much'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
+          "interaction_id": "A1_U54_I60",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[And|Y]] [[how|cuántos]] [[many|cuántos]] [[lemons|limones]] [[are|hay]] [[in|en]] [[a|una]] [[bag|bolsa]]?",
+          "correct_answer": true
         }
       ]
     }

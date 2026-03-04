@@ -3,1944 +3,1230 @@
     "unit_id": "unit55",
     "unit_title": "Clothing Store",
     "level": "A1",
-    "total_duration_minutes": 25,
+    "total_duration_minutes": 60,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Identify clothing store personnel and facilities",
-    "Ask for specific clothing sizes (S, M, L, XL)",
-    "Use 'Can I...?' for requests and permissions in a store",
-    "Understand price tags and discounts"
+    "Use 'too' and 'enough' with adjectives",
+    "Describe clothing problems and ask for different sizes",
+    "Have basic clothing store conversations"
   ],
   "blocks": [
     {
-      "block_id": "b1",
-      "title": "Store Vocabulary",
+      "block_id": "B1",
+      "title": "Vocabulary Introduction",
       "content": [
         {
-          "interaction_id": "A1_U55_B1_I1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Dónde te pruebas la ropa? ([[fitting room|probador]])",
+          "interaction_id": "A1_U55_I1",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Size|Talla]]",
           "options": [
             {
               "id": "o1",
-              "text": "In the fitting room"
+              "text": "[[Talla|Size]]"
             },
             {
               "id": "o2",
-              "text": "In the kitchen"
+              "text": "[[Pequeño/Pequeña|Small]]"
             },
             {
               "id": "o3",
-              "text": "At the checkout"
+              "text": "[[Mediano/Mediana|Medium]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U55_I2",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
           "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U55_B1_I2",
-          "type": "matching",
-          "prompt_es": "Une los términos de la tienda:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Shop assistant|Dependiente/a]]",
-              "right": "Etiqueta"
-            },
-            {
-              "id": "p2",
-              "left": "[[Customer|Cliente]]",
-              "right": "Rebajas"
-            },
-            {
-              "id": "p3",
-              "left": "[[Price tag|Etiqueta]]",
-              "right": "Cliente"
-            },
-            {
-              "id": "p4",
-              "left": "[[Sale|Rebajas]]",
-              "right": "Dependiente/a"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p4",
-            "p2": "p3",
-            "p3": "p1",
-            "p4": "p2"
-          },
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U55_B1_I3",
-          "type": "short_writing",
-          "prompt_es": "Escribe 'talla' en inglés: ([[shirt|camisa]])",
-          "stimulus_es": "Talla",
-          "correct_answer": "Size",
-          "mastery_tag": "vocabulary",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U55_B1_I4",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué significa 'on sale'? ([[shirt|camisa]])",
+          "stimulus_en": "[[Small|Pequeño/Pequeña]]",
           "options": [
             {
               "id": "o1",
-              "text": "Cerrado"
+              "text": "[[Mediano/Mediana|Medium]]"
             },
             {
               "id": "o2",
-              "text": "En oferta / rebajado"
+              "text": "[[Pequeño/Pequeña|Small]]"
             },
             {
               "id": "o3",
-              "text": "Nuevo"
+              "text": "[[Grande|Large]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U55_I3",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
           "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "stimulus_en": "[[Medium|Mediano/Mediana]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Grande|Large]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Probador|Changing room]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Mediano/Mediana|Medium]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U55_I4",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Large|Grande]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Grande|Large]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Probador|Changing room]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Rebajas|Sale]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U55_I5",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Changing room|Probador]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Rebajas|Sale]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Probador|Changing room]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Ajustado|Tight]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U55_I6",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Sale|Rebajas]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Ajustado|Tight]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Holgado|Loose]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Rebajas|Sale]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U55_I7",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Ajustado]]",
+          "correct_answer": "Tight"
+        },
+        {
+          "interaction_id": "A1_U55_I8",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Holgado]]",
+          "correct_answer": "Loose"
+        },
+        {
+          "interaction_id": "A1_U55_I9",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Quedar bien]]",
+          "correct_answer": "Fit"
+        },
+        {
+          "interaction_id": "A1_U55_I10",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Probarse]]",
+          "correct_answer": "Try on"
         }
       ]
     },
     {
-      "block_id": "b2",
-      "title": "Requests and Sizes",
+      "block_id": "B2",
+      "title": "Vocabulary in Context",
       "content": [
         {
-          "interaction_id": "A1_U55_B2_I1",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '¿Puedo probarme esto?' ([[shirt|camisa]])",
-          "stimulus_en": "________ I try this on?",
-          "correct_answer": "Can",
-          "mastery_tag": "grammar",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
+          "interaction_id": "A1_U55_I11",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Large|Grande]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Large|Grande]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Tight|Ajustado]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Try on|Probarse]]"
+            }
+          ],
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "A1_U55_B2_I2",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'Necesito una talla pequeña (S)'",
+          "interaction_id": "A1_U55_I12",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Changing room|Probador]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Loose|Holgado]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Changing room|Probador]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Return|Devolver]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U55_I13",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Sale|Rebajas]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Fit|Quedar bien]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Receipt|Recibo]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Sale|Rebajas]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U55_I14",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Tight|Ajustado]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Tight|Ajustado]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Try on|Probarse]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Too|Demasiado]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U55_I15",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[This|Esta]] [[jacket|chaqueta]] [[is|es]] [[too|demasiado]] ______ [[for|para]] [[me|mí]].",
+          "correct_answer": "small"
+        },
+        {
+          "interaction_id": "A1_U55_I16",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[These|Estos]] [[trousers|pantalones]] [[are|son]] [[not|no]] [[big|lo suficientemente]] ______ [[for|para]] [[me|mí]].",
+          "correct_answer": "enough"
+        },
+        {
+          "interaction_id": "A1_U55_I17",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[That|Ese]] [[coat|abrigo]] [[is|es]] ______ [[long|largo]] — [[do|tienes]] [[you|tú]] [[have|tienes]] [[it|en]] [[in|en]] [[a|una]] [[shorter|versión más corta]] [[version|versión]]?",
+          "correct_answer": "too"
+        },
+        {
+          "interaction_id": "A1_U55_I18",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
           "options": [
             {
               "id": "w1",
-              "text": "I"
+              "text": "[[Size|Talla]]"
             },
             {
               "id": "w2",
-              "text": "need"
+              "text": "[[Medium|Mediano/Mediana]]"
             },
             {
               "id": "w3",
-              "text": "a"
-            },
-            {
-              "id": "w4",
-              "text": "small"
-            },
-            {
-              "id": "w5",
-              "text": "[[size|talla]]"
+              "text": "[[Small|Pequeño/Pequeña]]"
             }
           ],
           "correct_answer": [
             "w1",
-            "w2",
             "w3",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U55_I19",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Changing room|Probador]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Tight|Ajustado]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Sale|Rebajas]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U55_I20",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Fit|Quedar bien]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Return|Devolver]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Try on|Probarse]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Grammar — Affirmative",
+      "content": [
+        {
+          "interaction_id": "A1_U55_I21",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[This|Esta]] [[jacket|chaqueta]] [[is|es]] [[too|demasiado]] ______ [[for|para]] [[me|mí]].",
+          "correct_answer": "small"
+        },
+        {
+          "interaction_id": "A1_U55_I22",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[These|Estos]] [[trousers|pantalones]] [[are|son]] [[not|no]] [[big|lo suficientemente]] ______ [[for|para]] [[me|mí]].",
+          "correct_answer": "enough"
+        },
+        {
+          "interaction_id": "A1_U55_I23",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[That|Ese]] [[coat|abrigo]] [[is|es]] ______ [[long|largo]] — [[do|tienes]] [[you|tú]] [[have|tienes]] [[it|en]] [[in|en]] [[a|una]] [[shorter|versión más corta]] [[version|versión]]?",
+          "correct_answer": "too"
+        },
+        {
+          "interaction_id": "A1_U55_I24",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[The|Las]] [[shoes|zapatos]] [[are|son]] [[comfortable|cómodos]] ______ — [[I'll|me los llevaré]] [[take|llevaré]] [[them|los]]!",
+          "correct_answer": "enough"
+        },
+        {
+          "interaction_id": "A1_U55_I25",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Can|¿Puedo]] [[I|yo]] ______ [[this|esto]] [[on|aquí]] [[in|en]] [[the|el]] [[changing|probador]] [[room|probador]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[try|try]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[enough|enough]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[too|too]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U55_I26",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Do|Tienes]] [[you|tú]] [[have|tienes]] [[this|esto]] [[in|en]] [[a|una]] [[larger|talla más grande]] ______?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[too|too]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[size|size]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[enough|enough]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U55_I27",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[This|Esta]] [[jacket|chaqueta]] [[is|es]] [[too|demasiado]] ______ [[for|para]] [[me|mí]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[enough|enough]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[try|try]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[small|small]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U55_I28",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[These|Estos]] [[trousers|pantalones]] [[are|son]] [[not|no]] [[big|lo suficientemente]] ______ [[for|para]] [[me|mí]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[enough|enough]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[try|try]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[size|size]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U55_I29",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Medium|Mediano/Mediana]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Size|Talla]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Changing room|Probador]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
+          ]
+        },
+        {
+          "interaction_id": "A1_U55_I30",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Loose|Holgado]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Sale|Rebajas]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Try on|Probarse]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Grammar — Negative & Questions",
+      "content": [
+        {
+          "interaction_id": "A1_U55_I31",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[That|Ese]] [[coat|abrigo]] [[is|es]] ______ [[long|largo]] — [[do|tienes]] [[you|tú]] [[have|tienes]] [[it|en]] [[in|en]] [[a|una]] [[shorter|versión más corta]] [[version|versión]]?",
+          "correct_answer": "too"
+        },
+        {
+          "interaction_id": "A1_U55_I32",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[The|Las]] [[shoes|zapatos]] [[are|son]] [[comfortable|cómodos]] ______ — [[I'll|me los llevaré]] [[take|llevaré]] [[them|los]]!",
+          "correct_answer": "enough"
+        },
+        {
+          "interaction_id": "A1_U55_I33",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Can|¿Puedo]] [[I|yo]] ______ [[this|esto]] [[on|aquí]] [[in|en]] [[the|el]] [[changing|probador]] [[room|probador]]?",
+          "correct_answer": "try"
+        },
+        {
+          "interaction_id": "A1_U55_I34",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[The|Las]] [[shoes|zapatos]] [[are|son]] [[comfortable|cómodos]] ______ — [[I'll|me los llevaré]] [[take|llevaré]] [[them|los]]!",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[enough|enough]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[size|size]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[small|small]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U55_I35",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Can|¿Puedo]] [[I|yo]] ______ [[this|esto]] [[on|aquí]] [[in|en]] [[the|el]] [[changing|probador]] [[room|probador]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[small|small]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[try|try]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[enough|enough]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U55_I36",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Do|Tienes]] [[you|tú]] [[have|tienes]] [[this|esto]] [[in|en]] [[a|una]] [[larger|talla más grande]] ______?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[enough|enough]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[too|too]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[size|size]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U55_I37",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[This|Esta]] [[jacket|chaqueta]] [[is|es]] [[too|demasiado]] ______ [[for|para]] [[me|mí]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[small|small]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[too|too]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[enough|enough]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U55_I38",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Changing room|Probador]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Small|Pequeño/Pequeña]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Tight|Ajustado]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Medium|Mediano/Mediana]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
             "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "syntax"
+            "w3"
           ]
         },
         {
-          "interaction_id": "A1_U55_B2_I3",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo preguntas el precio? ([[much|mucho]])",
+          "interaction_id": "A1_U55_I39",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Loose|Holgado]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Changing room|Probador]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Try on|Probarse]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Sale|Rebajas]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
+        },
+        {
+          "interaction_id": "A1_U55_I40",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Return|Devolver]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Loose|Holgado]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Too|Demasiado]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Fit|Quedar bien]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B5",
+      "title": "Reading Comprehension",
+      "content": [
+        {
+          "interaction_id": "A1_U55_I41",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Perdona]] [[me|me]], [[I'd|querría]] [[like|querría]] [[to|probarme]] [[try on|probarme]] [[this|este]] [[dress|vestido]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[it|en]] [[in|en]] [[a|una]] [[medium|talla mediana]] [[size|talla]]? [[Yes|Sí]], [[of|por]] [[course|supuesto]]! [[The|El]] [[changing|probador]] [[rooms|probador]] [[are|están]] [[just|justo]] [[over|por]] [[there|allí]]. [[Thank|Gracias]]. (tries on dress) [[Hmm|Hmm]], [[it's|es]] [[a|un]] [[bit|poco]] [[too|demasiado]] [[tight|ajustado]] [[around|en]] [[the|la]] [[waist|cintura]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[it|en]] [[in|en]] [[a|una]] [[large|talla grande]]? [[I'm|Lo siento]] [[sorry|siento]], [[but|pero]] [[we|solo]] [[only|solo]] [[have|tenemos]] [[the|la]] [[medium|talla mediana]] [[left|que queda]] [[in|en]] [[that|ese]] [[colour|color]]. [[We|Tenemos]] [[have|tenemos]] [[the|la]] [[large|talla grande]] [[in|en]] [[blue|azul]], [[though|sin embargo]]. [[That's|Está]] [[okay|bien]]. [[I'll|Me lo pensaré]] [[think|pensaré]] [[about|en]] [[it|ello]]. [[Are|Hay]] [[there|hay]] [[any|algunas]] [[current|rebajas]] [[sales|rebajas]] [[on|en]] [[at|este]] [[the|momento]] [[moment|momento]]?",
+          "question_en": "[[What|Qué]] [[item|artículo]] [[does|quiere]] [[the|el]] [[customer|cliente]] [[want|quiere]] [[to|probarse]] [[try|probarse]] [[on|probarse]]?",
           "options": [
             {
               "id": "o1",
-              "text": "How many is this?"
+              "text": "[[A skirt|Una falda]]"
             },
             {
               "id": "o2",
-              "text": "What price is this?"
+              "text": "[[A dress|Un vestido]]"
             },
             {
               "id": "o3",
-              "text": "How much is this?"
+              "text": "[[A blouse|Una blusa]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "A1_U55_B2_I4",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '¿Lo tienes en azul?' ([[shirt|camisa]])",
-          "stimulus_en": "Do you ________ this in blue?",
-          "correct_answer": "have",
-          "mastery_tag": "grammar",
+          "interaction_id": "A1_U55_I42",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Perdona]] [[me|me]], [[I'd|querría]] [[like|querría]] [[to|probarme]] [[try on|probarme]] [[this|este]] [[dress|vestido]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[it|en]] [[in|en]] [[a|una]] [[medium|talla mediana]] [[size|talla]]? [[Yes|Sí]], [[of|por]] [[course|supuesto]]! [[The|El]] [[changing|probador]] [[rooms|probador]] [[are|están]] [[just|justo]] [[over|por]] [[there|allí]]. [[Thank|Gracias]]. (tries on dress) [[Hmm|Hmm]], [[it's|es]] [[a|un]] [[bit|poco]] [[too|demasiado]] [[tight|ajustado]] [[around|en]] [[the|la]] [[waist|cintura]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[it|en]] [[in|en]] [[a|una]] [[large|talla grande]]? [[I'm|Lo siento]] [[sorry|siento]], [[but|pero]] [[we|solo]] [[only|solo]] [[have|tenemos]] [[the|la]] [[medium|talla mediana]] [[left|que queda]] [[in|en]] [[that|ese]] [[colour|color]]. [[We|Tenemos]] [[have|tenemos]] [[the|la]] [[large|talla grande]] [[in|en]] [[blue|azul]], [[though|sin embargo]]. [[That's|Está]] [[okay|bien]]. [[I'll|Me lo pensaré]] [[think|pensaré]] [[about|en]] [[it|ello]]. [[Are|Hay]] [[there|hay]] [[any|algunas]] [[current|rebajas]] [[sales|rebajas]] [[on|en]] [[at|este]] [[the|momento]] [[moment|momento]]?",
+          "question_en": "[[What|Qué]] [[size|talla]] [[does|pide]] [[the|el]] [[customer|cliente]] [[ask|pide]] [[for|por]] [[first|primero]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Small|Pequeña]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Large|Grande]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Medium|Mediana]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U55_I43",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Perdona]] [[me|me]], [[I'd|querría]] [[like|querría]] [[to|probarme]] [[try on|probarme]] [[this|este]] [[dress|vestido]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[it|en]] [[in|en]] [[a|una]] [[medium|talla mediana]] [[size|talla]]? [[Yes|Sí]], [[of|por]] [[course|supuesto]]! [[The|El]] [[changing|probador]] [[rooms|probador]] [[are|están]] [[just|justo]] [[over|por]] [[there|allí]]. [[Thank|Gracias]]. (tries on dress) [[Hmm|Hmm]], [[it's|es]] [[a|un]] [[bit|poco]] [[too|demasiado]] [[tight|ajustado]] [[around|en]] [[the|la]] [[waist|cintura]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[it|en]] [[in|en]] [[a|una]] [[large|talla grande]]? [[I'm|Lo siento]] [[sorry|siento]], [[but|pero]] [[we|solo]] [[only|solo]] [[have|tenemos]] [[the|la]] [[medium|talla mediana]] [[left|que queda]] [[in|en]] [[that|ese]] [[colour|color]]. [[We|Tenemos]] [[have|tenemos]] [[the|la]] [[large|talla grande]] [[in|en]] [[blue|azul]], [[though|sin embargo]]. [[That's|Está]] [[okay|bien]]. [[I'll|Me lo pensaré]] [[think|pensaré]] [[about|en]] [[it|ello]]. [[Are|Hay]] [[there|hay]] [[any|algunas]] [[current|rebajas]] [[sales|rebajas]] [[on|en]] [[at|este]] [[the|momento]] [[moment|momento]]?",
+          "question_en": "[[What|Cuál]] [[is|es]] [[the|el]] [[problem|problema]] [[with|con]] [[the|el]] [[dress|vestido]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Too long|Demasiado largo]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Too tight around the waist|Demasiado ajustado en la cintura]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Too expensive|Demasiado caro]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U55_I44",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Perdona]] [[me|me]], [[I'd|querría]] [[like|querría]] [[to|probarme]] [[try on|probarme]] [[this|este]] [[dress|vestido]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[it|en]] [[in|en]] [[a|una]] [[medium|talla mediana]] [[size|talla]]? [[Yes|Sí]], [[of|por]] [[course|supuesto]]! [[The|El]] [[changing|probador]] [[rooms|probador]] [[are|están]] [[just|justo]] [[over|por]] [[there|allí]]. [[Thank|Gracias]]. (tries on dress) [[Hmm|Hmm]], [[it's|es]] [[a|un]] [[bit|poco]] [[too|demasiado]] [[tight|ajustado]] [[around|en]] [[the|la]] [[waist|cintura]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[it|en]] [[in|en]] [[a|una]] [[large|talla grande]]? [[I'm|Lo siento]] [[sorry|siento]], [[but|pero]] [[we|solo]] [[only|solo]] [[have|tenemos]] [[the|la]] [[medium|talla mediana]] [[left|que queda]] [[in|en]] [[that|ese]] [[colour|color]]. [[We|Tenemos]] [[have|tenemos]] [[the|la]] [[large|talla grande]] [[in|en]] [[blue|azul]], [[though|sin embargo]]. [[That's|Está]] [[okay|bien]]. [[I'll|Me lo pensaré]] [[think|pensaré]] [[about|en]] [[it|ello]]. [[Are|Hay]] [[there|hay]] [[any|algunas]] [[current|rebajas]] [[sales|rebajas]] [[on|en]] [[at|este]] [[the|momento]] [[moment|momento]]?",
+          "question_en": "[[Is|Hay]] [[there|hay]] [[a|una]] [[large|talla grande]] [[size|talla]] [[in|en]] [[the|el]] [[same|mismo]] [[colour|color]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Yes|Sí]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[No, only in blue|No, solo en azul]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Yes, in red too|Sí, también en rojo]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U55_I45",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Perdona]] [[me|me]], [[I'd|querría]] [[like|querría]] [[to|probarme]] [[try on|probarme]] [[this|este]] [[dress|vestido]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[it|en]] [[in|en]] [[a|una]] [[medium|talla mediana]] [[size|talla]]? [[Yes|Sí]], [[of|por]] [[course|supuesto]]! [[The|El]] [[changing|probador]] [[rooms|probador]] [[are|están]] [[just|justo]] [[over|por]] [[there|allí]]. [[Thank|Gracias]]. (tries on dress) [[Hmm|Hmm]], [[it's|es]] [[a|un]] [[bit|poco]] [[too|demasiado]] [[tight|ajustado]] [[around|en]] [[the|la]] [[waist|cintura]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[it|en]] [[in|en]] [[a|una]] [[large|talla grande]]? [[I'm|Lo siento]] [[sorry|siento]], [[but|pero]] [[we|solo]] [[only|solo]] [[have|tenemos]] [[the|la]] [[medium|talla mediana]] [[left|que queda]] [[in|en]] [[that|ese]] [[colour|color]]. [[We|Tenemos]] [[have|tenemos]] [[the|la]] [[large|talla grande]] [[in|en]] [[blue|azul]], [[though|sin embargo]]. [[That's|Está]] [[okay|bien]]. [[I'll|Me lo pensaré]] [[think|pensaré]] [[about|en]] [[it|ello]]. [[Are|Hay]] [[there|hay]] [[any|algunas]] [[current|rebajas]] [[sales|rebajas]] [[on|en]] [[at|este]] [[the|momento]] [[moment|momento]]?",
+          "question_en": "[[What|Qué]] [[does|pregunta]] [[the|el]] [[customer|cliente]] [[ask|pregunta]] [[about|sobre]] [[at|al]] [[the|final]] [[end|final]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Delivery options|Opciones de entrega]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Return policy|Política de devoluciones]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Current sales|Rebajas actuales]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U55_I46",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Perdona]] [[me|me]], [[I'd|querría]] [[like|querría]] [[to|probarme]] [[try on|probarme]] [[this|este]] [[dress|vestido]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[it|en]] [[in|en]] [[a|una]] [[medium|talla mediana]] [[size|talla]]? [[Yes|Sí]], [[of|por]] [[course|supuesto]]! [[The|El]] [[changing|probador]] [[rooms|probador]] [[are|están]] [[just|justo]] [[over|por]] [[there|allí]]. [[Thank|Gracias]]. (tries on dress) [[Hmm|Hmm]], [[it's|es]] [[a|un]] [[bit|poco]] [[too|demasiado]] [[tight|ajustado]] [[around|en]] [[the|la]] [[waist|cintura]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[it|en]] [[in|en]] [[a|una]] [[large|talla grande]]? [[I'm|Lo siento]] [[sorry|siento]], [[but|pero]] [[we|solo]] [[only|solo]] [[have|tenemos]] [[the|la]] [[medium|talla mediana]] [[left|que queda]] [[in|en]] [[that|ese]] [[colour|color]]. [[We|Tenemos]] [[have|tenemos]] [[the|la]] [[large|talla grande]] [[in|en]] [[blue|azul]], [[though|sin embargo]]. [[That's|Está]] [[okay|bien]]. [[I'll|Me lo pensaré]] [[think|pensaré]] [[about|en]] [[it|ello]]. [[Are|Hay]] [[there|hay]] [[any|algunas]] [[current|rebajas]] [[sales|rebajas]] [[on|en]] [[at|este]] [[the|momento]] [[moment|momento]]?",
+          "question_en": "[[Complete|Completa]]: '[[This|Este]] [[coat|abrigo]] [[is|es]] ______ [[large|grande]].'",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[enough|suficientemente]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[too|demasiado]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[very|muy]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U55_I47",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Perdona]] [[me|me]], [[I'd|querría]] [[like|querría]] [[to|probarme]] [[try on|probarme]] [[this|este]] [[dress|vestido]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[it|en]] [[in|en]] [[a|una]] [[medium|talla mediana]] [[size|talla]]? [[Yes|Sí]], [[of|por]] [[course|supuesto]]! [[The|El]] [[changing|probador]] [[rooms|probador]] [[are|están]] [[just|justo]] [[over|por]] [[there|allí]]. [[Thank|Gracias]]. (tries on dress) [[Hmm|Hmm]], [[it's|es]] [[a|un]] [[bit|poco]] [[too|demasiado]] [[tight|ajustado]] [[around|en]] [[the|la]] [[waist|cintura]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[it|en]] [[in|en]] [[a|una]] [[large|talla grande]]? [[I'm|Lo siento]] [[sorry|siento]], [[but|pero]] [[we|solo]] [[only|solo]] [[have|tenemos]] [[the|la]] [[medium|talla mediana]] [[left|que queda]] [[in|en]] [[that|ese]] [[colour|color]]. [[We|Tenemos]] [[have|tenemos]] [[the|la]] [[large|talla grande]] [[in|en]] [[blue|azul]], [[though|sin embargo]]. [[That's|Está]] [[okay|bien]]. [[I'll|Me lo pensaré]] [[think|pensaré]] [[about|en]] [[it|ello]]. [[Are|Hay]] [[there|hay]] [[any|algunas]] [[current|rebajas]] [[sales|rebajas]] [[on|en]] [[at|este]] [[the|momento]] [[moment|momento]]?",
+          "question_en": "[[Complete|Completa]]: '[[The|El]] [[coat|abrigo]] [[is|es]] [[not|no]] [[long|lo suficientemente]] ______ [[for|para]] [[me|mí]].'",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[too|demasiado]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[enough|suficientemente]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[very|muy]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U55_I48",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Perdona]] [[me|me]], [[I'd|querría]] [[like|querría]] [[to|probarme]] [[try on|probarme]] [[this|este]] [[dress|vestido]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[it|en]] [[in|en]] [[a|una]] [[medium|talla mediana]] [[size|talla]]? [[Yes|Sí]], [[of|por]] [[course|supuesto]]! [[The|El]] [[changing|probador]] [[rooms|probador]] [[are|están]] [[just|justo]] [[over|por]] [[there|allí]]. [[Thank|Gracias]]. (tries on dress) [[Hmm|Hmm]], [[it's|es]] [[a|un]] [[bit|poco]] [[too|demasiado]] [[tight|ajustado]] [[around|en]] [[the|la]] [[waist|cintura]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[it|en]] [[in|en]] [[a|una]] [[large|talla grande]]? [[I'm|Lo siento]] [[sorry|siento]], [[but|pero]] [[we|solo]] [[only|solo]] [[have|tenemos]] [[the|la]] [[medium|talla mediana]] [[left|que queda]] [[in|en]] [[that|ese]] [[colour|color]]. [[We|Tenemos]] [[have|tenemos]] [[the|la]] [[large|talla grande]] [[in|en]] [[blue|azul]], [[though|sin embargo]]. [[That's|Está]] [[okay|bien]]. [[I'll|Me lo pensaré]] [[think|pensaré]] [[about|en]] [[it|ello]]. [[Are|Hay]] [[there|hay]] [[any|algunas]] [[current|rebajas]] [[sales|rebajas]] [[on|en]] [[at|este]] [[the|momento]] [[moment|momento]]?",
+          "question_en": "[[What|Qué]] [[does|significa]] 'Try on' [[mean|significa]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[To buy immediately|Comprar inmediatamente]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[To test clothes by wearing|Probarse ropa vistiéndosela]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[To return clothes|Devolver ropa]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U55_I49",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Perdona]] [[me|me]], [[I'd|querría]] [[like|querría]] [[to|probarme]] [[try on|probarme]] [[this|este]] [[dress|vestido]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[it|en]] [[in|en]] [[a|una]] [[medium|talla mediana]] [[size|talla]]? [[Yes|Sí]], [[of|por]] [[course|supuesto]]! [[The|El]] [[changing|probador]] [[rooms|probador]] [[are|están]] [[just|justo]] [[over|por]] [[there|allí]]. [[Thank|Gracias]]. (tries on dress) [[Hmm|Hmm]], [[it's|es]] [[a|un]] [[bit|poco]] [[too|demasiado]] [[tight|ajustado]] [[around|en]] [[the|la]] [[waist|cintura]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[it|en]] [[in|en]] [[a|una]] [[large|talla grande]]? [[I'm|Lo siento]] [[sorry|siento]], [[but|pero]] [[we|solo]] [[only|solo]] [[have|tenemos]] [[the|la]] [[medium|talla mediana]] [[left|que queda]] [[in|en]] [[that|ese]] [[colour|color]]. [[We|Tenemos]] [[have|tenemos]] [[the|la]] [[large|talla grande]] [[in|en]] [[blue|azul]], [[though|sin embargo]]. [[That's|Está]] [[okay|bien]]. [[I'll|Me lo pensaré]] [[think|pensaré]] [[about|en]] [[it|ello]]. [[Are|Hay]] [[there|hay]] [[any|algunas]] [[current|rebajas]] [[sales|rebajas]] [[on|en]] [[at|este]] [[the|momento]] [[moment|momento]]?",
+          "question_en": "[[What|Qué]] [[does|significa]] 'Tight' [[mean|significa]] [[for|para]] [[clothing|ropa]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Very loose|Muy holgado]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Fitting closely, not loose|Ajustado, no holgado]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Too long|Demasiado largo]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U55_I50",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Perdona]] [[me|me]], [[I'd|querría]] [[like|querría]] [[to|probarme]] [[try on|probarme]] [[this|este]] [[dress|vestido]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[it|en]] [[in|en]] [[a|una]] [[medium|talla mediana]] [[size|talla]]? [[Yes|Sí]], [[of|por]] [[course|supuesto]]! [[The|El]] [[changing|probador]] [[rooms|probador]] [[are|están]] [[just|justo]] [[over|por]] [[there|allí]]. [[Thank|Gracias]]. (tries on dress) [[Hmm|Hmm]], [[it's|es]] [[a|un]] [[bit|poco]] [[too|demasiado]] [[tight|ajustado]] [[around|en]] [[the|la]] [[waist|cintura]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[it|en]] [[in|en]] [[a|una]] [[large|talla grande]]? [[I'm|Lo siento]] [[sorry|siento]], [[but|pero]] [[we|solo]] [[only|solo]] [[have|tenemos]] [[the|la]] [[medium|talla mediana]] [[left|que queda]] [[in|en]] [[that|ese]] [[colour|color]]. [[We|Tenemos]] [[have|tenemos]] [[the|la]] [[large|talla grande]] [[in|en]] [[blue|azul]], [[though|sin embargo]]. [[That's|Está]] [[okay|bien]]. [[I'll|Me lo pensaré]] [[think|pensaré]] [[about|en]] [[it|ello]]. [[Are|Hay]] [[there|hay]] [[any|algunas]] [[current|rebajas]] [[sales|rebajas]] [[on|en]] [[at|este]] [[the|momento]] [[moment|momento]]?",
+          "question_en": "[[What|Qué]] [[does|significa]] 'Sale' [[mean|significa]] [[in|en]] [[a|una]] [[shop|tienda]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Regular price|Precio normal]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Reduced prices/discounts|Precios reducidos/descuentos]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[New collection|Nueva colección]]"
+            }
+          ],
+          "correct_answer": "o2"
+        }
+      ]
+    },
+    {
+      "block_id": "B6",
+      "title": "Production",
+      "content": [
+        {
+          "interaction_id": "A1_U55_I51",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
           "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Small|Pequeño/Pequeña]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Changing room|Probador]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Size|Talla]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Medium|Mediano/Mediana]]"
+            }
+          ],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "A1_U55_B2_I5",
-          "type": "audio_player",
-          "prompt_es": "Escucha la petición: ([[shirt|camisa]])",
-          "audioUrl": "/audio/courses/ingles-a1/shared/can_i_help_you.mp3",
-          "text": "Can I help you? Yes, I am looking for a large t-shirt.",
-          "mastery_tag": "listening",
+          "interaction_id": "A1_U55_I52",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
           "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "b3",
-      "title": "Shopping Situations",
-      "content": [
-        {
-          "interaction_id": "A1_U55_B3_I1",
-          "type": "categorization",
-          "prompt_es": "Clasifica según quién lo dice: ([[shirt|camisa]])",
-          "categories": [
-            {
-              "id": "assistant",
-              "title": "Shop Assistant",
-              "items": [
-                "Can I help you?",
-                "The fitting rooms are here",
-                "It's twenty dollars"
-              ]
-            },
-            {
-              "id": "customer",
-              "title": "Customer",
-              "items": [
-                "I need a medium",
-                "Can I try this on?",
-                "I'll take it"
-              ]
-            }
-          ],
-          "correct_answer": "categorization_logic",
-          "mastery_tag": "vocabulary",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U55_B3_I2",
-          "type": "multiple_choice",
-          "prompt_es": "Si la ropa es muy barata, dices que está en: ([[shirt|camisa]])",
           "options": [
             {
-              "id": "o1",
-              "text": "Sale"
+              "id": "w1",
+              "text": "[[Changing room|Probador]]"
             },
             {
-              "id": "o2",
-              "text": "Size"
+              "id": "w2",
+              "text": "[[Loose|Holgado]]"
             },
             {
-              "id": "o3",
-              "text": "Fitting room"
+              "id": "w3",
+              "text": "[[Large|Grande]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Sale|Rebajas]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "A1_U55_B3_I3",
-          "type": "short_writing",
-          "prompt_es": "Traduce: '¿Cuánto cuesta esta camisa?' ([[shirt|camisa]])",
-          "stimulus_es": "How much is this shirt?",
-          "correct_answer": "How much is this shirt",
-          "mastery_tag": "grammar",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U55_B3_I4",
-          "type": "true_false",
-          "prompt_es": "'I'll take it' significa que vas a comprar el artículo. ([[shirt|camisa]])",
-          "correct_answer": true,
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "b4",
-      "title": "Mastery Section",
-      "content": [
-        {
-          "interaction_id": "A1_U55_B4_I2",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el diálogo: ([[room|habitación]])",
-          "stimulus_en": "Can I ________ this on? Yes, the ________ room is over there.",
-          "correct_answer": "try, fitting",
-          "mastery_tag": "grammar",
+          "interaction_id": "A1_U55_I53",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
           "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U55_B4_I3",
-          "type": "short_writing",
-          "prompt_es": "Pregunta si tienen una talla grande (L): ([[shirt|camisa]])",
-          "stimulus_es": "Do you have a large size?",
-          "correct_answer": "Do you have a large size",
-          "mastery_tag": "grammar",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U55_B4_I4",
-          "type": "multiple_choice",
-          "prompt_es": "Si quieres pagar, vas a: ([[shirt|camisa]])",
           "options": [
             {
-              "id": "o1",
-              "text": "The fitting room"
+              "id": "w1",
+              "text": "[[Loose|Holgado]]"
             },
             {
-              "id": "o2",
-              "text": "The checkout"
+              "id": "w2",
+              "text": "[[Return|Devolver]]"
             },
             {
-              "id": "o3",
-              "text": "The sale"
+              "id": "w3",
+              "text": "[[Tight|Ajustado]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Fit|Quedar bien]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "B55_5",
-      "title": "Block 5: Listening & Pronunciation",
-      "content": [
-        {
-          "interaction_id": "U55_I101",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[fitting room|probador]])",
-          "stimulus_en": "Where are the fitting rooms?",
-          "correct_answer": "Where are the fitting rooms?",
-          "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-1.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U55_I102",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[Can|poder]])",
-          "stimulus_en": "Can I try this on?",
-          "correct_answer": "Can I try this on?",
-          "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-2.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U55_I103",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[size|talla]])",
-          "stimulus_en": "I need a medium size.",
-          "correct_answer": "I need a medium size.",
-          "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-3.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U55_I104",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[shirt|camisa]])",
-          "stimulus_en": "How much is this shirt?",
-          "correct_answer": "How much is this shirt?",
-          "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-4.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U55_I105",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[shirt|camisa]])",
-          "stimulus_en": "It is on sale today.",
-          "correct_answer": "It is on sale today.",
-          "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-5.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U55_I106",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[shirt|camisa]])",
-          "stimulus_en": "Do you have this in blue?",
-          "correct_answer": "Do you have this in blue?",
-          "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-6.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U55_I107",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[shirt|camisa]])",
-          "stimulus_en": "I will take it.",
-          "correct_answer": "I will take it.",
-          "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-7.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U55_I108",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[shirt|camisa]])",
-          "title": "Pronunciación: Clothes",
-          "instructions": "La 'th' es sonora y la 'e' es silenciosa.",
-          "targetSentences": [
-            {
-              "text": "I buy [[clothes|ropa]].",
-              "phonetic": "/kləʊðz/",
-              "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-8.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U55_I108_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cuántas sílabas tiene 'clothes'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Una"
-                },
-                {
-                  "id": "o2",
-                  "text": "Dos"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U55_I109",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[shirt|camisa]])",
-          "title": "Pronunciación: Size",
-          "instructions": "Escucha y repite la 's' vibrante final.",
-          "targetSentences": [
-            {
-              "text": "What [[size|talla]]?",
-              "phonetic": "/saɪz/",
-              "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-9.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U55_I109_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'z' final?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Vibrante como una abeja (/z/)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Sorda como un silbido (/s/)"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U55_I110",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[shirt|camisa]])",
-          "title": "Pronunciación: Shirt",
-          "instructions": "La 'ir' suena como /ɜː/.",
-          "targetSentences": [
-            {
-              "text": "A blue [[shirt|camisa]].",
-              "phonetic": "/ʃɜːt/",
-              "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-10.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U55_I110_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la vocal en 'shirt'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Como una 'e' profunda (/ɜː/)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como una 'i' española"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U55_I111",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[shirt|camisa]])",
-          "title": "Pronunciación: Fitting Room",
-          "instructions": "Escucha y repite la palabra compuesta.",
-          "targetSentences": [
-            {
-              "text": "The [[fitting room|probador]].",
-              "phonetic": "/ˈfɪtɪŋ ruːm/",
-              "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-11.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U55_I111_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'ng' en 'fitting'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Nasal, sin pronunciar la 'g' fuerte"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como 'ng' española"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U55_I112",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[shirt|camisa]])",
-          "title": "Pronunciación: Customer",
-          "instructions": "Escucha y repite enfocándote en la primera sílaba.",
-          "targetSentences": [
-            {
-              "text": "Happy [[customer|cliente]].",
-              "phonetic": "/ˈkʌstəmə/",
-              "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-12.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U55_I112_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Dónde recae el acento en 'customer'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "En la primera sílaba (CUS-)"
-                },
-                {
-                  "id": "o2",
-                  "text": "En la segunda sílaba"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U55_I113",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[shirt|camisa]])",
-          "title": "Pronunciación: Receipt",
-          "instructions": "Recordatorio: la 'p' es silenciosa.",
-          "targetSentences": [
-            {
-              "text": "Get the [[receipt|recibo]].",
-              "phonetic": "/rɪˈsiːt/",
-              "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-13.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U55_I113_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'receipt'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Ri-SIT (/rɪˈsiːt/)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Ri-SEPT"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U55_I114",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[shirt|camisa]])",
-          "title": "Pronunciación: Small",
-          "instructions": "La 'a' suena como /ɔː/.",
-          "targetSentences": [
-            {
-              "text": "A [[small|pequeña]] size.",
-              "phonetic": "/smɔːl/",
-              "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-14.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U55_I114_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'a' en 'small'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Como una 'o' larga (/ɔː/)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como una 'a' española"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U55_I115",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[shirt|camisa]])",
-          "title": "Pronunciación: Checkout",
-          "instructions": "Escucha y repite.",
-          "targetSentences": [
-            {
-              "text": "Pay at the [[checkout|caja]].",
-              "phonetic": "/ˈtʃɛkaʊt/",
-              "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-15.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U55_I115_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cuántas sílabas tiene 'checkout'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Dos (check-out)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Una"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Practice Sessions",
-      "content": [
-        {
-          "interaction_id": "U55_FILLER_0",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'shirt' en inglés?",
+          "interaction_id": "A1_U55_I54",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
           "options": [
             {
-              "id": "o1",
-              "text": "Coat"
+              "id": "w1",
+              "text": "[[Return|Devolver]]"
             },
             {
-              "id": "o2",
-              "text": "[[Shirt|camisa]]"
+              "id": "w2",
+              "text": "[[Enough|Suficientemente]]"
             },
             {
-              "id": "o3",
-              "text": "Jacket"
+              "id": "w3",
+              "text": "[[Try on|Probarse]]"
             },
             {
-              "id": "o4",
-              "text": "Trainers"
+              "id": "w4",
+              "text": "[[Receipt|Recibo]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U55_FILLER_1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'jeans' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Gloves"
-            },
-            {
-              "id": "o2",
-              "text": "Skirt"
-            },
-            {
-              "id": "o3",
-              "text": "[[Jeans|vaqueros]]"
-            },
-            {
-              "id": "o4",
-              "text": "Dress"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U55_FILLER_2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'size' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Trainers"
-            },
-            {
-              "id": "o2",
-              "text": "Jacket"
-            },
-            {
-              "id": "o3",
-              "text": "Gloves"
-            },
-            {
-              "id": "o4",
-              "text": "[[Size|talla]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U55_FILLER_3",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'price' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Shirt"
-            },
-            {
-              "id": "o2",
-              "text": "[[Price|price]]"
-            },
-            {
-              "id": "o3",
-              "text": "Scarf"
-            },
-            {
-              "id": "o4",
-              "text": "Shoes"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U55_FILLER_4",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'fitting room' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Fitting room|probador]]"
-            },
-            {
-              "id": "o2",
-              "text": "Jacket"
-            },
-            {
-              "id": "o3",
-              "text": "Trainers"
-            },
-            {
-              "id": "o4",
-              "text": "Trousers"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U55_FILLER_5",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'try on' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Try on|try on]]"
-            },
-            {
-              "id": "o2",
-              "text": "Gloves"
-            },
-            {
-              "id": "o3",
-              "text": "Dress"
-            },
-            {
-              "id": "o4",
-              "text": "Hat"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U55_FILLER_6",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'expensive' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Expensive|expensive]]"
-            },
-            {
-              "id": "o2",
-              "text": "Gloves"
-            },
-            {
-              "id": "o3",
-              "text": "Jeans"
-            },
-            {
-              "id": "o4",
-              "text": "Boots"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U55_FILLER_7",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'shirt' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Trousers"
-            },
-            {
-              "id": "o2",
-              "text": "Trainers"
-            },
-            {
-              "id": "o3",
-              "text": "[[Shirt|camisa]]"
-            },
-            {
-              "id": "o4",
-              "text": "Coat"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U55_FILLER_8",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'jeans' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Skirt"
-            },
-            {
-              "id": "o2",
-              "text": "[[Jeans|vaqueros]]"
-            },
-            {
-              "id": "o3",
-              "text": "Hat"
-            },
-            {
-              "id": "o4",
-              "text": "Trousers"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U55_FILLER_9",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'size' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Coat"
-            },
-            {
-              "id": "o2",
-              "text": "Skirt"
-            },
-            {
-              "id": "o3",
-              "text": "[[Size|talla]]"
-            },
-            {
-              "id": "o4",
-              "text": "Trainers"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U55_FILLER_10",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'price' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Shoes"
-            },
-            {
-              "id": "o2",
-              "text": "Shirt"
-            },
-            {
-              "id": "o3",
-              "text": "[[Price|price]]"
-            },
-            {
-              "id": "o4",
-              "text": "Skirt"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U55_FILLER_11",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'fitting room' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Dress"
-            },
-            {
-              "id": "o2",
-              "text": "Skirt"
-            },
-            {
-              "id": "o3",
-              "text": "Gloves"
-            },
-            {
-              "id": "o4",
-              "text": "[[Fitting room|probador]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U55_FILLER_12",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'try on' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Shirt"
-            },
-            {
-              "id": "o2",
-              "text": "Jeans"
-            },
-            {
-              "id": "o3",
-              "text": "Boots"
-            },
-            {
-              "id": "o4",
-              "text": "[[Try on|try on]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U55_FILLER_13",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'expensive' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Boots"
-            },
-            {
-              "id": "o2",
-              "text": "Jeans"
-            },
-            {
-              "id": "o3",
-              "text": "[[Expensive|expensive]]"
-            },
-            {
-              "id": "o4",
-              "text": "Scarf"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U55_FILLER_14",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'shirt' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Gloves"
-            },
-            {
-              "id": "o2",
-              "text": "[[Shirt|camisa]]"
-            },
-            {
-              "id": "o3",
-              "text": "Shoes"
-            },
-            {
-              "id": "o4",
-              "text": "Trainers"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U55_FILLER_15",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'jeans' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Boots"
-            },
-            {
-              "id": "o2",
-              "text": "Shoes"
-            },
-            {
-              "id": "o3",
-              "text": "[[Jeans|vaqueros]]"
-            },
-            {
-              "id": "o4",
-              "text": "Skirt"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U55_FILLER_16",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'size' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Trousers"
-            },
-            {
-              "id": "o2",
-              "text": "Gloves"
-            },
-            {
-              "id": "o3",
-              "text": "[[Size|talla]]"
-            },
-            {
-              "id": "o4",
-              "text": "Hat"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U55_FILLER_17",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'price' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Gloves"
-            },
-            {
-              "id": "o2",
-              "text": "Skirt"
-            },
-            {
-              "id": "o3",
-              "text": "[[Price|price]]"
-            },
-            {
-              "id": "o4",
-              "text": "Trousers"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U55_FILLER_18",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'fitting room' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Trainers"
-            },
-            {
-              "id": "o2",
-              "text": "Scarf"
-            },
-            {
-              "id": "o3",
-              "text": "Jacket"
-            },
-            {
-              "id": "o4",
-              "text": "[[Fitting room|probador]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U55_FILLER_19",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'try on' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Jeans"
-            },
-            {
-              "id": "o2",
-              "text": "Gloves"
-            },
-            {
-              "id": "o3",
-              "text": "[[Try on|try on]]"
-            },
-            {
-              "id": "o4",
-              "text": "Trainers"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U55_FILLER_20",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'expensive' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Hat"
-            },
-            {
-              "id": "o2",
-              "text": "Jacket"
-            },
-            {
-              "id": "o3",
-              "text": "[[Expensive|expensive]]"
-            },
-            {
-              "id": "o4",
-              "text": "Boots"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U55_FILLER_21",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'shirt' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Shoes"
-            },
-            {
-              "id": "o2",
-              "text": "Jacket"
-            },
-            {
-              "id": "o3",
-              "text": "[[Shirt|camisa]]"
-            },
-            {
-              "id": "o4",
-              "text": "Jeans"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U55_FILLER_22",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'jeans' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Jeans|vaqueros]]"
-            },
-            {
-              "id": "o2",
-              "text": "Dress"
-            },
-            {
-              "id": "o3",
-              "text": "Jacket"
-            },
-            {
-              "id": "o4",
-              "text": "Trousers"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U55_FILLER_23",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'size' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Size|talla]]"
-            },
-            {
-              "id": "o2",
-              "text": "Dress"
-            },
-            {
-              "id": "o3",
-              "text": "Jeans"
-            },
-            {
-              "id": "o4",
-              "text": "Scarf"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U55_FILLER_24",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'price' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Jeans"
-            },
-            {
-              "id": "o2",
-              "text": "[[Price|price]]"
-            },
-            {
-              "id": "o3",
-              "text": "Jacket"
-            },
-            {
-              "id": "o4",
-              "text": "Trainers"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U55_FILLER_25",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'fitting room' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Jeans"
-            },
-            {
-              "id": "o2",
-              "text": "Skirt"
-            },
-            {
-              "id": "o3",
-              "text": "Shoes"
-            },
-            {
-              "id": "o4",
-              "text": "[[Fitting room|probador]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U55_FILLER_26",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'try on' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Try on|try on]]"
-            },
-            {
-              "id": "o2",
-              "text": "Shirt"
-            },
-            {
-              "id": "o3",
-              "text": "Dress"
-            },
-            {
-              "id": "o4",
-              "text": "Skirt"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U55_FILLER_27",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'expensive' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Gloves"
-            },
-            {
-              "id": "o2",
-              "text": "[[Expensive|expensive]]"
-            },
-            {
-              "id": "o3",
-              "text": "Jacket"
-            },
-            {
-              "id": "o4",
-              "text": "Trainers"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U55_FILLER_28",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'shirt' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Trainers"
-            },
-            {
-              "id": "o2",
-              "text": "Hat"
-            },
-            {
-              "id": "o3",
-              "text": "[[Shirt|camisa]]"
-            },
-            {
-              "id": "o4",
-              "text": "Boots"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        }
-      ]
-    },
-    {
-      "title": "Lesson 5: Listening & Pronunciation Review",
-      "duration_minutes": 20,
-      "content": [
-        {
-          "interaction_id": "U55_L5_I1",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[shirt|camisa]])",
-          "audio_url": "/audio/courses/ingles-a1/unit55/lesson5-task-1.mp3",
-          "transcript_template": "The [[shirt|]] is here.",
-          "correct_answer": "shirt",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U55_L5_I2",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[shirt|camisa]])",
-          "audio_url": "/audio/courses/ingles-a1/unit55/lesson5-task-2.mp3",
-          "transcript_template": "The [[jeans|]] is here.",
-          "correct_answer": "jeans",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
+          "interaction_id": "A1_U55_I55",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Do|Tienes]] [[you|tú]] [[have|tienes]] [[this|esto]] [[in|en]] [[a|una]] [[larger|talla más grande]] ______?",
+          "correct_answer": "size"
         },
         {
-          "interaction_id": "U55_L5_I3",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[shirt|camisa]])",
-          "audio_url": "/audio/courses/ingles-a1/unit55/lesson5-task-3.mp3",
-          "transcript_template": "The [[size|]] is here.",
-          "correct_answer": "size",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
+          "interaction_id": "A1_U55_I56",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[This|Esta]] [[jacket|chaqueta]] [[is|es]] [[too|demasiado]] ______ [[for|para]] [[me|mí]].",
+          "correct_answer": "small"
         },
         {
-          "interaction_id": "U55_L5_I4",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[shirt|camisa]])",
-          "audio_url": "/audio/courses/ingles-a1/unit55/lesson5-task-4.mp3",
-          "transcript_template": "The [[price|]] is here.",
-          "correct_answer": "price",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
+          "interaction_id": "A1_U55_I57",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[These|Estos]] [[trousers|pantalones]] [[are|son]] [[not|no]] [[big|lo suficientemente]] ______ [[for|para]] [[me|mí]].",
+          "correct_answer": "enough"
         },
         {
-          "interaction_id": "U55_L5_I5",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[shirt|camisa]])",
-          "audio_url": "/audio/courses/ingles-a1/unit55/lesson5-task-5.mp3",
-          "transcript_template": "The [[fitting room|]] is here.",
-          "correct_answer": "fitting room",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
+          "interaction_id": "A1_U55_I58",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Excuse|Perdona]] [[me|me]], [[I'd|querría]] [[like|querría]] [[to|probarme]] [[try on|probarme]] [[this|este]] [[dress|vestido]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[it|en]] [[in|en]] [[a|una]] [[medium|talla mediana]] [[size|talla]]?",
+          "correct_answer": true
         },
         {
-          "interaction_id": "U55_L5_I6",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[shirt|camisa]])",
-          "audio_url": "/audio/courses/ingles-a1/unit55/lesson5-task-6.mp3",
-          "transcript_template": "The [[try on|]] is here.",
-          "correct_answer": "try on",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
+          "interaction_id": "A1_U55_I59",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Yes|Sí]], [[of|por]] [[course|supuesto]]! [[The|El]] [[changing|probador]] [[rooms|probador]] [[are|están]] [[just|justo]] [[over|por]] [[there|allí]].",
+          "correct_answer": false
         },
         {
-          "interaction_id": "U55_L5_I7",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[shirt|camisa]])",
-          "audio_url": "/audio/courses/ingles-a1/unit55/lesson5-task-7.mp3",
-          "transcript_template": "The [[expensive|]] is here.",
-          "correct_answer": "expensive",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "U55_L5_I8",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[shirt|camisa]])",
-          "title": "Pronunciación: Clothing Store",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[shirt|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-8.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U55_L5_I8_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'shirt'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U55_L5_I9",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[shirt|camisa]])",
-          "title": "Pronunciación: Clothing Store",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[jeans|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-9.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U55_L5_I9_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'jeans'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U55_L5_I10",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[shirt|camisa]])",
-          "title": "Pronunciación: Clothing Store",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[size|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-10.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U55_L5_I10_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'size'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U55_L5_I11",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[shirt|camisa]])",
-          "title": "Pronunciación: Clothing Store",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[price|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-11.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U55_L5_I11_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'price'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U55_L5_I12",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[shirt|camisa]])",
-          "title": "Pronunciación: Clothing Store",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[fitting room|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-12.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U55_L5_I12_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'fitting room'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U55_L5_I13",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[shirt|camisa]])",
-          "title": "Pronunciación: Clothing Store",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[try on|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-13.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U55_L5_I13_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'try on'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U55_L5_I14",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[shirt|camisa]])",
-          "title": "Pronunciación: Clothing Store",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[expensive|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-14.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U55_L5_I14_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'expensive'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U55_L5_I15",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[shirt|camisa]])",
-          "title": "Pronunciación: Clothing Store",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[shirt|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit55/lesson5-task-15.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U55_L5_I15_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'shirt'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
+          "interaction_id": "A1_U55_I60",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Thank|Gracias]]. (tries on dress) [[Hmm|Hmm]], [[it's|es]] [[a|un]] [[bit|poco]] [[too|demasiado]] [[tight|ajustado]] [[around|en]] [[the|la]] [[waist|cintura]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[it|en]] [[in|en]] [[a|una]] [[large|talla grande]]?",
+          "correct_answer": true
         }
       ]
     }

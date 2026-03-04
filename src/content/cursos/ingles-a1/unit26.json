@@ -1,1250 +1,1232 @@
 {
   "course": {
-    "language_ui": "es-ES",
-    "target_language": "en",
-    "level": "A1",
-    "unit_id": "U26",
+    "unit_id": "unit26",
     "unit_title": "Giving Directions",
-    "total_duration_minutes": 120
+    "level": "A1",
+    "total_duration_minutes": 60,
+    "language_ui": "es-ES",
+    "target_language": "en"
   },
   "learning_outcomes": [
-    "Give and follow simple directions in English",
-    "Use imperatives for instructions (Turn, Go, Take)",
-    "Use directional vocabulary: left, right, straight on, past",
-    "Read a map and follow text-based directions"
+    "Give and follow directions in English",
+    "Use imperative form for instructions: turn, go, take",
+    "Describe routes using prepositions and directional language"
   ],
   "blocks": [
     {
       "block_id": "B1",
-      "title": "Vocabulary: Directions",
+      "title": "Vocabulary Introduction",
       "content": [
         {
-          "interaction_id": "U26_I1",
-          "type": "matching",
-          "prompt_es": "Une la instrucción con su traducción:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Turn left|Gira a la izquierda]]",
-              "right": "Gira a la derecha"
-            },
-            {
-              "id": "p2",
-              "left": "[[Turn right|Gira a la derecha]]",
-              "right": "Ve recto"
-            },
-            {
-              "id": "p3",
-              "left": "[[Go straight on|Ve recto]]",
-              "right": "Toma la primera a la izquierda"
-            },
-            {
-              "id": "p4",
-              "left": "[[Take the first left|Toma la primera a la izquierda]]",
-              "right": "Gira a la izquierda"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p4",
-            "p2": "p1",
-            "p3": "p2",
-            "p4": "p3"
-          },
+          "interaction_id": "A1_U26_I1",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U26_I2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué significa '[[go straight on|ve recto]]'?",
+          "complexity": 1,
+          "stimulus_en": "[[Turn left|Girar a la izquierda]]",
           "options": [
             {
               "id": "o1",
-              "text": "Gira a la izquierda"
+              "text": "[[Girar a la izquierda|Turn left]]"
             },
             {
               "id": "o2",
-              "text": "Vuelve atrás"
+              "text": "[[Girar a la derecha|Turn right]]"
             },
             {
               "id": "o3",
-              "text": "Ve recto sin girar"
+              "text": "[[Seguir recto|Go straight]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U26_I3",
-          "type": "multiple_choice",
-          "prompt_es": "'[[Turn right|Gira a la derecha]] at the [[corner|esquina]].' ¿Qué hace el viajero?",
+          "interaction_id": "A1_U26_I2",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Turn right|Girar a la derecha]]",
           "options": [
             {
               "id": "o1",
-              "text": "Va recto"
+              "text": "[[Seguir recto|Go straight]]"
             },
             {
               "id": "o2",
-              "text": "Vuelve atrás"
+              "text": "[[Girar a la derecha|Turn right]]"
             },
             {
               "id": "o3",
-              "text": "Gira a la derecha en la esquina"
+              "text": "[[Pasar por delante|Past]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U26_I4",
-          "type": "fill_blanks",
-          "prompt_es": "Completa la dirección: '___ left at the [[traffic lights|semáforo]].' (gira)",
-          "correct_answer": "Turn",
+          "interaction_id": "A1_U26_I3",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U26_I5",
-          "type": "matching",
-          "prompt_es": "Une la expresión con su significado:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Past the|Pasando (junto a)]]",
-              "right": "en la esquina"
-            },
-            {
-              "id": "p2",
-              "left": "[[At the corner|En la esquina]]",
-              "right": "pasando/junto a"
-            },
-            {
-              "id": "p3",
-              "left": "[[At the end of|Al final de]]",
-              "right": "a dos minutos a pie"
-            },
-            {
-              "id": "p4",
-              "left": "[[Two minutes' walk|A dos minutos a pie]]",
-              "right": "al final de"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p2",
-            "p2": "p1",
-            "p3": "p4",
-            "p4": "p3"
-          },
-          "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U26_I6",
-          "type": "multiple_choice",
-          "prompt_es": "'[[Go straight on|Ve recto]] ___ the [[traffic lights|semáforo]], then turn left.' ¿Qué palabra?",
+          "complexity": 1,
+          "stimulus_en": "[[Go straight|Seguir recto]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[under|debajo de]]"
+              "text": "[[Pasar por delante|Past]]"
             },
             {
               "id": "o2",
-              "text": "[[on|en]]"
+              "text": "[[En la esquina|At the corner]]"
             },
             {
               "id": "o3",
-              "text": "[[past|pasando]]"
+              "text": "[[Seguir recto|Go straight]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
-          "complexity": 2
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U26_I7",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '[[The|El]] [[hotel|hotel]] is ___ the [[end|final]] of [[this|esta]] [[street|calle]].' (al final de)",
-          "correct_answer": "at the end of",
+          "interaction_id": "A1_U26_I4",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U26_I8",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué significa '[[take the second right|toma la segunda a la derecha]]'?",
+          "complexity": 1,
+          "stimulus_en": "[[Past|Pasar por delante]]",
           "options": [
             {
               "id": "o1",
-              "text": "Toma la primera calle a la derecha"
+              "text": "[[Pasar por delante|Past]]"
             },
             {
               "id": "o2",
-              "text": "Ve recto dos calles a la derecha"
+              "text": "[[En la esquina|At the corner]]"
             },
             {
               "id": "o3",
-              "text": "Toma la segunda calle a la derecha"
+              "text": "[[Semáforo|Traffic lights]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
-          "complexity": 2
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U26_I9",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '[[Cross|Cruza]] the ___ and you'll see the park.' (la calle = road/street)",
-          "correct_answer": "road",
+          "interaction_id": "A1_U26_I5",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U26_I10",
-          "type": "multiple_choice",
-          "prompt_es": "'[[You can't miss it|No te lo perderás]].' ¿Qué quiere decir esto?",
+          "complexity": 1,
+          "stimulus_en": "[[At the corner|En la esquina]]",
           "options": [
             {
               "id": "o1",
-              "text": "Es fácil de ver / no puedes perderte"
+              "text": "[[Semáforo|Traffic lights]]"
             },
             {
               "id": "o2",
-              "text": "Es difícil de encontrar"
+              "text": "[[En la esquina|At the corner]]"
             },
             {
               "id": "o3",
-              "text": "Está muy lejos"
+              "text": "[[Puente|Bridge]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U26_I6",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
-          "complexity": 2
+          "complexity": 1,
+          "stimulus_en": "[[Traffic lights|Semáforo]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Puente|Bridge]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Cruce|Crossroads]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Semáforo|Traffic lights]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U26_I7",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Puente]]",
+          "correct_answer": "Bridge"
+        },
+        {
+          "interaction_id": "A1_U26_I8",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Cruce]]",
+          "correct_answer": "Crossroads"
+        },
+        {
+          "interaction_id": "A1_U26_I9",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Tomar la primera]]",
+          "correct_answer": "Take the first"
+        },
+        {
+          "interaction_id": "A1_U26_I10",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Tomar la segunda]]",
+          "correct_answer": "Take the second"
         }
       ]
     },
     {
       "block_id": "B2",
-      "title": "Grammar: Imperatives for Instructions",
+      "title": "Vocabulary in Context",
       "content": [
         {
-          "interaction_id": "U26_I11",
-          "type": "multiple_choice",
-          "prompt_es": "El imperativo en inglés se forma con: ([[food|comida]])",
+          "interaction_id": "A1_U26_I11",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Past|Pasar por delante]]",
           "options": [
             {
               "id": "o1",
-              "text": "Solo el infinitivo sin 'to' (Turn...)"
+              "text": "[[Past|Pasar por delante]]"
             },
             {
               "id": "o2",
-              "text": "Pronombre + verbo (You turn...)"
+              "text": "[[Bridge|Puente]]"
             },
             {
               "id": "o3",
-              "text": "'Please' + infinitivo + 'you'"
+              "text": "[[Take the second|Tomar la segunda]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 1
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U26_I12",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es el imperativo correcto?",
+          "interaction_id": "A1_U26_I12",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[At the corner|En la esquina]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[You go straight on|Tú ve recto (con pronombre)]]"
+              "text": "[[Crossroads|Cruce]]"
             },
             {
               "id": "o2",
-              "text": "[[Going straight on|Yendo recto (gerundio — incorrecto)]]"
+              "text": "[[At the corner|En la esquina]]"
             },
             {
               "id": "o3",
-              "text": "[[Go straight on|Ve recto (imperativo)]]"
+              "text": "[[On the left|A la izquierda]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "grammar",
-          "complexity": 1
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U26_I13",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el imperativo: '___ right at the [[roundabout|rotonda]].' (gira)",
-          "correct_answer": "Turn",
-          "mastery_tag": "grammar",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U26_I14",
-          "type": "multiple_choice",
-          "prompt_es": "'[[Don't|No]] ___ at the first junction.' (¿Cómo se dice 'No gires'?)",
+          "interaction_id": "A1_U26_I13",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Traffic lights|Semáforo]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[Don't turn|No gires]]"
+              "text": "[[Take the first|Tomar la primera]]"
             },
             {
               "id": "o2",
-              "text": "[[Not turn|No girar (incorrecto)]]"
+              "text": "[[On the right|A la derecha]]"
             },
             {
               "id": "o3",
-              "text": "[[No turn|No gires (incorrecto)]]"
+              "text": "[[Traffic lights|Semáforo]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 2
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U26_I15",
-          "type": "sentence_building",
-          "prompt_es": "Forma el imperativo: 'Toma la primera a la izquierda.' ([[food|comida]])",
-          "words": [
+          "interaction_id": "A1_U26_I14",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Bridge|Puente]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Bridge|Puente]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Take the second|Tomar la segunda]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Far|Lejos]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U26_I15",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "______ [[straight|recto]] [[for|durante]] [[two|dos]] [[minutes|minutos]].",
+          "correct_answer": "Go"
+        },
+        {
+          "interaction_id": "A1_U26_I16",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "______ [[left|a la izquierda]] [[at|en]] [[the|el]] [[traffic lights|semáforo]].",
+          "correct_answer": "Turn"
+        },
+        {
+          "interaction_id": "A1_U26_I17",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Take|Toma]] [[the|la]] ______ [[on|a]] [[the|la]] [[right|derecha]].",
+          "correct_answer": "first street"
+        },
+        {
+          "interaction_id": "A1_U26_I18",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
             {
               "id": "w1",
-              "text": "[[Take|Toma]]"
+              "text": "[[Turn left|Girar a la izquierda]]"
             },
             {
               "id": "w2",
-              "text": "[[the|la]]"
+              "text": "[[Go straight|Seguir recto]]"
             },
             {
               "id": "w3",
-              "text": "[[first|primera]]"
-            },
-            {
-              "id": "w4",
-              "text": "[[left|a la izquierda]]"
+              "text": "[[Turn right|Girar a la derecha]]"
             }
           ],
           "correct_answer": [
             "w1",
-            "w2",
             "w3",
-            "w4"
-          ],
-          "mastery_tag": "grammar",
-          "complexity": 2
+            "w2"
+          ]
         },
         {
-          "interaction_id": "U26_I16",
-          "type": "multiple_choice",
-          "prompt_es": "'___ the [[road|calle]] and go past the [[park|parque]].' ¿Qué imperativo?",
+          "interaction_id": "A1_U26_I19",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
           "options": [
-            {
-              "id": "o1",
-              "text": "[[Cross|Cruza]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Turn|Gira]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[Take|Toma]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U26_I17",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '___ at the [[traffic lights|semáforo]] and go [[straight|recto]].' (Para = Stop)",
-          "correct_answer": "Stop",
-          "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U26_I18",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál añade educación a un imperativo?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Please turn left|Por favor, gira a la izquierda]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[You please turn left|Tú por favor gira (incorrecto)]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[Turn left please you|Gira por favor tú (incorrecto)]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U26_I19",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '___ past the [[school|colegio]] and [[then|luego]] turn right.' (Ve)",
-          "correct_answer": "Go",
-          "mastery_tag": "grammar",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U26_I20",
-          "type": "sentence_building",
-          "prompt_es": "Forma: 'No gires a la izquierda en el semáforo.' ([[food|comida]])",
-          "words": [
             {
               "id": "w1",
-              "text": "[[Don't|No]]"
+              "text": "[[At the corner|En la esquina]]"
             },
             {
               "id": "w2",
-              "text": "[[turn|gires]]"
+              "text": "[[Bridge|Puente]]"
             },
             {
               "id": "w3",
-              "text": "[[left|a la izquierda]]"
-            },
-            {
-              "id": "w4",
-              "text": "[[at|en]]"
-            },
-            {
-              "id": "w5",
-              "text": "[[the|el]]"
-            },
-            {
-              "id": "w6",
-              "text": "[[traffic lights|semáforo]]"
+              "text": "[[Traffic lights|Semáforo]]"
             }
           ],
           "correct_answer": [
             "w1",
-            "w2",
             "w3",
-            "w4",
-            "w5",
-            "w6"
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U26_I20",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Take the first|Tomar la primera]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[On the left|A la izquierda]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Take the second|Tomar la segunda]]"
+            }
           ],
-          "mastery_tag": "grammar",
-          "complexity": 2
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
         }
       ]
     },
     {
       "block_id": "B3",
-      "title": "Giving Directions Practice",
+      "title": "Grammar — Affirmative",
       "content": [
         {
-          "interaction_id": "U26_I21",
-          "type": "multiple_choice",
-          "prompt_es": "'[[Excuse me|Perdone]], [[how do I get to|cómo llego a]] the [[station|estación]]?' — '[[Go straight on|Ve recto]] and ___ right at the [[church|iglesia]].'",
+          "interaction_id": "A1_U26_I21",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "______ [[straight|recto]] [[for|durante]] [[two|dos]] [[minutes|minutos]].",
+          "correct_answer": "Go"
+        },
+        {
+          "interaction_id": "A1_U26_I22",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "______ [[left|a la izquierda]] [[at|en]] [[the|el]] [[traffic lights|semáforo]].",
+          "correct_answer": "Turn"
+        },
+        {
+          "interaction_id": "A1_U26_I23",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Take|Toma]] [[the|la]] ______ [[on|a]] [[the|la]] [[right|derecha]].",
+          "correct_answer": "first street"
+        },
+        {
+          "interaction_id": "A1_U26_I24",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Go|Ve]] [[past|por delante de]] [[the|el]] ______ [[and|y]] [[then|luego]] [[turn|gira]] [[right|a la derecha]].",
+          "correct_answer": "bank"
+        },
+        {
+          "interaction_id": "A1_U26_I25",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Is|Está]] [[it|está]] ______ [[from|de]] [[here|aquí]]?",
           "options": [
             {
               "id": "o1",
-              "text": "[[take|toma]]"
+              "text": "[[far|far]]"
             },
             {
               "id": "o2",
-              "text": "[[turn|gira]]"
+              "text": "[[Turn|Turn]]"
             },
             {
               "id": "o3",
-              "text": "[[go|ve]]"
+              "text": "[[first street|first street]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U26_I26",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
           "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U26_I22",
-          "type": "fill_blanks",
-          "prompt_es": "Completa la dirección: 'Go ___ on for two [[blocks|manzanas]], then ___ left.' (recto / gira)",
-          "correct_answer": "straight / turn",
-          "mastery_tag": "vocabulary",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U26_I23",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo preguntas cómo llegar al banco?",
+          "complexity": 2,
+          "stimulus_en": "[[The|La]] [[station|estación]] [[is|está]] [[on|a]] [[the|la]] ______ [[at|en]] [[the|el]] [[end|final]] [[of|de]] [[the|la]] [[road|calle]].",
           "options": [
             {
               "id": "o1",
-              "text": "[[Where is go the bank?|¿Dónde ir el banco? (incorrecto)]]"
+              "text": "[[first street|first street]]"
             },
             {
               "id": "o2",
-              "text": "[[How do I get to the bank?|¿Cómo llego al banco?]]"
+              "text": "[[right|right]]"
             },
             {
               "id": "o3",
-              "text": "[[What is the bank?|¿Qué es el banco? (incorrecto)]]"
+              "text": "[[bank|bank]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 1
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U26_I24",
-          "type": "sentence_building",
-          "prompt_es": "Forma: 'Ve recto y gira a la derecha en la esquina.' ([[food|comida]])",
-          "words": [
+          "interaction_id": "A1_U26_I27",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "______ [[straight|recto]] [[for|durante]] [[two|dos]] [[minutes|minutos]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[bank|bank]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[far|far]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Go|Go]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U26_I28",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "______ [[left|a la izquierda]] [[at|en]] [[the|el]] [[traffic lights|semáforo]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Turn|Turn]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[far|far]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[right|right]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U26_I29",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
             {
               "id": "w1",
-              "text": "[[Go|Ve]]"
+              "text": "[[Go straight|Seguir recto]]"
             },
             {
               "id": "w2",
-              "text": "[[straight|recto]]"
+              "text": "[[Turn left|Girar a la izquierda]]"
             },
             {
               "id": "w3",
-              "text": "[[on|adelante]]"
-            },
-            {
-              "id": "w4",
-              "text": "[[and|y]]"
-            },
-            {
-              "id": "w5",
-              "text": "[[turn|gira]]"
-            },
-            {
-              "id": "w6",
-              "text": "[[right|a la derecha]]"
-            },
-            {
-              "id": "w7",
-              "text": "[[at|en]]"
-            },
-            {
-              "id": "w8",
-              "text": "[[the|la]]"
-            },
-            {
-              "id": "w9",
-              "text": "[[corner|esquina]]"
+              "text": "[[At the corner|En la esquina]]"
             }
           ],
           "correct_answer": [
-            "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9"
-          ],
+            "w1",
+            "w3"
+          ]
+        },
+        {
+          "interaction_id": "A1_U26_I30",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
           "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U26_I25",
-          "type": "multiple_choice",
-          "prompt_es": "'[[It's|Está]] ___ five minutes.' (a cinco minutos a pie)",
+          "complexity": 2,
           "options": [
             {
-              "id": "o1",
-              "text": "[[about|unos/aproximadamente]]"
+              "id": "w1",
+              "text": "[[Crossroads|Cruce]]"
             },
             {
-              "id": "o2",
-              "text": "[[in|en/dentro de]]"
+              "id": "w2",
+              "text": "[[Traffic lights|Semáforo]]"
             },
             {
-              "id": "o3",
-              "text": "[[at|en (lugar)]]"
+              "id": "w3",
+              "text": "[[Take the second|Tomar la segunda]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U26_I26",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '[[Take|Toma]] the ___ [[turning|giro]] on the right.' (segunda)",
-          "correct_answer": "second",
-          "mastery_tag": "vocabulary",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U26_I27",
-          "type": "multiple_choice",
-          "prompt_es": "Alguien dice: '[[Go past the bank|Pasa por delante del banco]] and the [[hotel|hotel]] is on your [[left|izquierda]].' ¿El hotel está a la...?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Derecha"
-            },
-            {
-              "id": "o2",
-              "text": "Izquierda"
-            },
-            {
-              "id": "o3",
-              "text": "Enfrente"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U26_I28",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '[[It's|Está]] on the ___ side of the [[road|calle]].' (izquierdo = left)",
-          "correct_answer": "left",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U26_I29",
-          "type": "multiple_choice",
-          "prompt_es": "'[[You can't miss it|No te lo perderás]].' ¿Qué significa esto en el contexto de dar indicaciones?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Es fácil de ver, no te lo perderás"
-            },
-            {
-              "id": "o2",
-              "text": "Es difícil de encontrar"
-            },
-            {
-              "id": "o3",
-              "text": "Está muy cerca"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U26_I30",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '[[The|La]] [[post office|correos]] is ___ the [[station|estación]].' (enfrente de)",
-          "correct_answer": "opposite",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
+          ]
         }
       ]
     },
     {
       "block_id": "B4",
-      "title": "Map Reading",
+      "title": "Grammar — Negative & Questions",
       "content": [
         {
-          "interaction_id": "U26_I31",
-          "type": "multiple_choice",
-          "prompt_es": "Estás en la estación. La farmacia está en la segunda calle a la izquierda. ¿Cuál es la instrucción correcta?",
+          "interaction_id": "A1_U26_I31",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Take|Toma]] [[the|la]] ______ [[on|a]] [[the|la]] [[right|derecha]].",
+          "correct_answer": "first street"
+        },
+        {
+          "interaction_id": "A1_U26_I32",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Go|Ve]] [[past|por delante de]] [[the|el]] ______ [[and|y]] [[then|luego]] [[turn|gira]] [[right|a la derecha]].",
+          "correct_answer": "bank"
+        },
+        {
+          "interaction_id": "A1_U26_I33",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Is|Está]] [[it|está]] ______ [[from|de]] [[here|aquí]]?",
+          "correct_answer": "far"
+        },
+        {
+          "interaction_id": "A1_U26_I34",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Go|Ve]] [[past|por delante de]] [[the|el]] ______ [[and|y]] [[then|luego]] [[turn|gira]] [[right|a la derecha]].",
           "options": [
             {
               "id": "o1",
-              "text": "[[Turn right at the first junction|Gira a la derecha en el primer cruce]]"
+              "text": "[[bank|bank]]"
             },
             {
               "id": "o2",
-              "text": "[[Take the second left|Toma la segunda a la izquierda]]"
+              "text": "[[right|right]]"
             },
             {
               "id": "o3",
-              "text": "[[Go straight on|Ve recto]]"
+              "text": "[[Go|Go]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 2
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U26_I32",
-          "type": "fill_blanks",
-          "prompt_es": "Instrucción completa: '___ straight on, ___ left at the traffic lights, and the ___ is on your right.' ([[and|y]])",
-          "correct_answer": "Go / turn / bank",
+          "interaction_id": "A1_U26_I35",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
           "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U26_I33",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál de estas instrucciones es correcta gramaticalmente?",
+          "complexity": 2,
+          "stimulus_en": "[[Is|Está]] [[it|está]] ______ [[from|de]] [[here|aquí]]?",
           "options": [
             {
               "id": "o1",
-              "text": "[[You turn left at the corner|Tú gira a la izquierda (incorrecto)]]"
+              "text": "[[Go|Go]]"
             },
             {
               "id": "o2",
-              "text": "[[Turn left at the corner|Gira a la izquierda en la esquina]]"
+              "text": "[[far|far]]"
             },
             {
               "id": "o3",
-              "text": "[[Turning left at the corner|Girando a la izquierda (incorrecto)]]"
+              "text": "[[Turn|Turn]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 1
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U26_I34",
-          "type": "sentence_building",
-          "prompt_es": "Forma: 'Pasa el parque y gira a la derecha.' ([[food|comida]])",
-          "words": [
+          "interaction_id": "A1_U26_I36",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[The|La]] [[station|estación]] [[is|está]] [[on|a]] [[the|la]] ______ [[at|en]] [[the|el]] [[end|final]] [[of|de]] [[the|la]] [[road|calle]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Turn|Turn]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[first street|first street]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[right|right]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U26_I37",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "______ [[straight|recto]] [[for|durante]] [[two|dos]] [[minutes|minutos]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Go|Go]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[first street|first street]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[bank|bank]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U26_I38",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
             {
               "id": "w1",
-              "text": "[[Go|Ve]]"
+              "text": "[[At the corner|En la esquina]]"
             },
             {
               "id": "w2",
-              "text": "[[past|pasando]]"
+              "text": "[[Turn right|Girar a la derecha]]"
             },
             {
               "id": "w3",
-              "text": "[[the|el]]"
+              "text": "[[Bridge|Puente]]"
             },
             {
               "id": "w4",
-              "text": "[[park|parque]]"
-            },
-            {
-              "id": "w5",
-              "text": "[[and|y]]"
-            },
-            {
-              "id": "w6",
-              "text": "[[turn|gira]]"
-            },
-            {
-              "id": "w7",
-              "text": "[[right|a la derecha]]"
+              "text": "[[Go straight|Seguir recto]]"
             }
           ],
           "correct_answer": [
-            "w1",
             "w2",
-            "w3",
+            "w1",
             "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "grammar",
-          "complexity": 2
+            "w3"
+          ]
         },
         {
-          "interaction_id": "U26_I35",
-          "type": "multiple_choice",
-          "prompt_es": "'[[The cinema|El cine]] is at the ___ of [[Park Street|Park Street]].' (al final de)",
+          "interaction_id": "A1_U26_I39",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
           "options": [
             {
-              "id": "o1",
-              "text": "[[corner|esquina]]"
+              "id": "w1",
+              "text": "[[Crossroads|Cruce]]"
             },
             {
-              "id": "o2",
-              "text": "[[end|final]]"
+              "id": "w2",
+              "text": "[[At the corner|En la esquina]]"
             },
             {
-              "id": "o3",
-              "text": "[[start|inicio]]"
+              "id": "w3",
+              "text": "[[Take the second|Tomar la segunda]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Traffic lights|Semáforo]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
         },
         {
-          "interaction_id": "U26_I36",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '[[Cross|Cruza]] the [[bridge|puente]] and ___ right.' (gira)",
-          "correct_answer": "turn",
+          "interaction_id": "A1_U26_I40",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
           "mastery_tag": "grammar",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U26_I37",
-          "type": "multiple_choice",
-          "prompt_es": "Indicaciones para llegar al hospital desde el mercado: 'Go straight on [[Main Street|Main Street]]. Pass the library. ___ right at the roundabout.' ¿Qué verbo?",
+          "complexity": 2,
           "options": [
             {
-              "id": "o1",
-              "text": "[[Take|Toma]]"
+              "id": "w1",
+              "text": "[[On the left|A la izquierda]]"
             },
             {
-              "id": "o2",
-              "text": "[[Go|Ve]]"
+              "id": "w2",
+              "text": "[[Crossroads|Cruce]]"
             },
             {
-              "id": "o3",
-              "text": "[[Turn|Gira]]"
+              "id": "w3",
+              "text": "[[Far|Lejos]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Take the first|Tomar la primera]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U26_I38",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '[[It's|Está]] ___ your left — you [[can't|no puedes]] miss it.' (a tu izquierda = on)",
-          "correct_answer": "on",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U26_I39",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál significa '¿Está lejos de aquí?'",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Is it near here?|¿Está cerca de aquí?]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Is it far from here?|¿Está lejos de aquí?]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[Is it here?|¿Está aquí?]]"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U26_I40",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: '[[It's|Está]] about ___ [[minutes|minutos]] on foot.' (diez = ten)",
-          "correct_answer": "ten",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
         }
       ]
     },
     {
       "block_id": "B5",
-      "title": "Reading: Getting to the Museum",
+      "title": "Reading Comprehension",
       "content": [
         {
-          "interaction_id": "U26_READ1",
-          "type": "reading_phase",
-          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[carefully|con atención]].",
-          "transcript": "[[Dear|Querido]] [[visitor|visitante]], [[welcome|bienvenido]] to [[Greenville|Greenville]]! [[Here|Aquí]] are the [[directions|indicaciones]] to [[our|nuestro]] [[museum|museo]] from the [[train station|estación de tren]]. [[When|Cuando]] you [[leave|salgas de]] the [[station|estación]], [[turn|gira]] [[left|a la izquierda]] onto [[Station Road|Station Road]]. [[Go|Ve]] [[straight on|recto]] for about [[three|tres]] [[minutes|minutos]]. [[You|Tú]] will [[pass|pasarás]] a [[supermarket|supermercado]] on your [[right|derecha]] and a [[park|parque]] on your [[left|izquierda]]. [[At|En]] the [[traffic lights|semáforo]], [[turn|gira]] [[right|a la derecha]] into [[Museum Street|Museum Street]]. [[The|El]] [[museum|museo]] is at the [[end|final]] of the [[street|calle]], [[opposite|enfrente de]] the [[library|biblioteca]]. [[It's|Está]] about a [[ten-minute|diez minutos]] [[walk|camino]] from the [[station|estación]]. [[You can't|No puedes]] [[miss it|perdértelo]] — [[it's|es]] a [[big|gran]] [[red|rojo]] [[building|edificio]]!",
+          "interaction_id": "A1_U26_I41",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
           "mastery_tag": "reading",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U26_I41",
-          "type": "multiple_choice",
-          "prompt_es": "¿Desde dónde parten las indicaciones? ([[food|comida]])",
+          "complexity": 2,
+          "transcript": "[[Excuse|Disculpe]], [[how|cómo]] [[do|llego]] [[I|yo]] [[get|llego]] [[to|a]] [[the|la]] [[train|tren]] [[station|estación]]? [[Go|Ve]] [[straight|recto]] [[for|por]] [[two|dos]] [[minutes|minutos]], [[then|luego]] [[turn|gira]] [[left|a la izquierda]] [[at|en]] [[the|el]] [[traffic lights|semáforo]]. [[Then|Después]], [[take|toma]] [[the|la]] [[second|segunda]] [[street|calle]] [[on|a]] [[the|la]] [[right|derecha]]. [[The|La]] [[station|estación]] [[is|está]] [[at|en]] [[the|el]] [[end|final]] [[of|de]] [[that|esa]] [[road|calle]], [[on|a]] [[the|la]] [[left|izquierda]]. [[Is|Está]] [[it|está]] [[far|lejos]]? [[Can|Puedo]] [[I|yo]] [[walk|ir]] [[there|allí]]?",
+          "question_en": "[[What|A qué]] [[transport|transporte]] [[does|quiere]] [[the|el]] [[speaker|hablante]] [[want|quiere]] [[to|ir]]?",
           "options": [
             {
               "id": "o1",
-              "text": "Desde la biblioteca"
+              "text": "[[Bus station|Estación de autobús]]"
             },
             {
               "id": "o2",
-              "text": "Desde el supermercado"
+              "text": "[[Train station|Estación de tren]]"
             },
             {
               "id": "o3",
-              "text": "Desde la estación de tren"
+              "text": "[[Airport|Aeropuerto]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "reading",
-          "complexity": 1
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U26_I42",
-          "type": "multiple_choice",
-          "prompt_es": "¿En qué dirección giras al salir de la estación? ([[food|comida]])",
+          "interaction_id": "A1_U26_I42",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Disculpe]], [[how|cómo]] [[do|llego]] [[I|yo]] [[get|llego]] [[to|a]] [[the|la]] [[train|tren]] [[station|estación]]? [[Go|Ve]] [[straight|recto]] [[for|por]] [[two|dos]] [[minutes|minutos]], [[then|luego]] [[turn|gira]] [[left|a la izquierda]] [[at|en]] [[the|el]] [[traffic lights|semáforo]]. [[Then|Después]], [[take|toma]] [[the|la]] [[second|segunda]] [[street|calle]] [[on|a]] [[the|la]] [[right|derecha]]. [[The|La]] [[station|estación]] [[is|está]] [[at|en]] [[the|el]] [[end|final]] [[of|de]] [[that|esa]] [[road|calle]], [[on|a]] [[the|la]] [[left|izquierda]]. [[Is|Está]] [[it|está]] [[far|lejos]]? [[Can|Puedo]] [[I|yo]] [[walk|ir]] [[there|allí]]?",
+          "question_en": "[[How|Cuántos]] [[many|cuántos]] [[minutes|minutos]] [[does|tiene]] [[the|el]] [[speaker|hablante]] [[walk|caminar]] [[straight|recto]]?",
           "options": [
             {
               "id": "o1",
-              "text": "A la derecha"
+              "text": "[[One|Uno]]"
             },
             {
               "id": "o2",
-              "text": "Recto"
+              "text": "[[Three|Tres]]"
             },
             {
               "id": "o3",
-              "text": "A la izquierda"
+              "text": "[[Two|Dos]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "reading",
-          "complexity": 1
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U26_I43",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué hay a la derecha del camino al museo? ([[food|comida]])",
+          "interaction_id": "A1_U26_I43",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Disculpe]], [[how|cómo]] [[do|llego]] [[I|yo]] [[get|llego]] [[to|a]] [[the|la]] [[train|tren]] [[station|estación]]? [[Go|Ve]] [[straight|recto]] [[for|por]] [[two|dos]] [[minutes|minutos]], [[then|luego]] [[turn|gira]] [[left|a la izquierda]] [[at|en]] [[the|el]] [[traffic lights|semáforo]]. [[Then|Después]], [[take|toma]] [[the|la]] [[second|segunda]] [[street|calle]] [[on|a]] [[the|la]] [[right|derecha]]. [[The|La]] [[station|estación]] [[is|está]] [[at|en]] [[the|el]] [[end|final]] [[of|de]] [[that|esa]] [[road|calle]], [[on|a]] [[the|la]] [[left|izquierda]]. [[Is|Está]] [[it|está]] [[far|lejos]]? [[Can|Puedo]] [[I|yo]] [[walk|ir]] [[there|allí]]?",
+          "question_en": "[[Where|Dónde]] [[does|gira]] [[the|el]] [[speaker|hablante]] [[turn|gira]] [[left|a la izquierda]]?",
           "options": [
             {
               "id": "o1",
-              "text": "La biblioteca"
+              "text": "[[At the crossroads|En el cruce]]"
             },
             {
               "id": "o2",
-              "text": "El supermercado"
+              "text": "[[At the bridge|En el puente]]"
             },
             {
               "id": "o3",
-              "text": "El parque"
+              "text": "[[At the traffic lights|En el semáforo]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading",
-          "complexity": 2
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U26_I44",
-          "type": "multiple_choice",
-          "prompt_es": "¿Dónde está el museo? ([[museum|museo]])",
+          "interaction_id": "A1_U26_I44",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Disculpe]], [[how|cómo]] [[do|llego]] [[I|yo]] [[get|llego]] [[to|a]] [[the|la]] [[train|tren]] [[station|estación]]? [[Go|Ve]] [[straight|recto]] [[for|por]] [[two|dos]] [[minutes|minutos]], [[then|luego]] [[turn|gira]] [[left|a la izquierda]] [[at|en]] [[the|el]] [[traffic lights|semáforo]]. [[Then|Después]], [[take|toma]] [[the|la]] [[second|segunda]] [[street|calle]] [[on|a]] [[the|la]] [[right|derecha]]. [[The|La]] [[station|estación]] [[is|está]] [[at|en]] [[the|el]] [[end|final]] [[of|de]] [[that|esa]] [[road|calle]], [[on|a]] [[the|la]] [[left|izquierda]]. [[Is|Está]] [[it|está]] [[far|lejos]]? [[Can|Puedo]] [[I|yo]] [[walk|ir]] [[there|allí]]?",
+          "question_en": "[[Which|Cuál]] [[street|calle]] [[does|toma]] [[the|el]] [[speaker|hablante]] [[take|toma]] [[on|a]] [[the|la]] [[right|derecha]]?",
           "options": [
             {
               "id": "o1",
-              "text": "Al principio de Museum Street"
+              "text": "[[The first|La primera]]"
             },
             {
               "id": "o2",
-              "text": "Al lado de la estación"
+              "text": "[[The third|La tercera]]"
             },
             {
               "id": "o3",
-              "text": "Al final de Museum Street, enfrente de la biblioteca"
+              "text": "[[The second|La segunda]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "reading",
-          "complexity": 2
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U26_I45",
-          "type": "fill_blanks",
-          "prompt_es": "El museo es un edificio grande de color ___ (rojo = red). ([[food|comida]])",
-          "correct_answer": "red",
+          "interaction_id": "A1_U26_I45",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
           "mastery_tag": "reading",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U26_I46",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuánto tiempo se tarda en llegar desde la estación? ([[food|comida]])",
+          "complexity": 2,
+          "transcript": "[[Excuse|Disculpe]], [[how|cómo]] [[do|llego]] [[I|yo]] [[get|llego]] [[to|a]] [[the|la]] [[train|tren]] [[station|estación]]? [[Go|Ve]] [[straight|recto]] [[for|por]] [[two|dos]] [[minutes|minutos]], [[then|luego]] [[turn|gira]] [[left|a la izquierda]] [[at|en]] [[the|el]] [[traffic lights|semáforo]]. [[Then|Después]], [[take|toma]] [[the|la]] [[second|segunda]] [[street|calle]] [[on|a]] [[the|la]] [[right|derecha]]. [[The|La]] [[station|estación]] [[is|está]] [[at|en]] [[the|el]] [[end|final]] [[of|de]] [[that|esa]] [[road|calle]], [[on|a]] [[the|la]] [[left|izquierda]]. [[Is|Está]] [[it|está]] [[far|lejos]]? [[Can|Puedo]] [[I|yo]] [[walk|ir]] [[there|allí]]?",
+          "question_en": "[[Where|Dónde]] [[is|está]] [[the|la]] [[station|estación]]?",
           "options": [
             {
               "id": "o1",
-              "text": "Cinco minutos"
+              "text": "[[At the start of the road|Al principio de la calle]]"
             },
             {
               "id": "o2",
-              "text": "Diez minutos"
+              "text": "[[In the middle of the road|En la mitad de la calle]]"
             },
             {
               "id": "o3",
-              "text": "Veinte minutos"
+              "text": "[[At the end of the road on the left|Al final de la calle a la izquierda]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading",
-          "complexity": 1
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U26_I47",
-          "type": "multiple_choice",
-          "prompt_es": "¿Dónde giras para entrar en Museum Street? ([[Museum|museo]])",
+          "interaction_id": "A1_U26_I46",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Disculpe]], [[how|cómo]] [[do|llego]] [[I|yo]] [[get|llego]] [[to|a]] [[the|la]] [[train|tren]] [[station|estación]]? [[Go|Ve]] [[straight|recto]] [[for|por]] [[two|dos]] [[minutes|minutos]], [[then|luego]] [[turn|gira]] [[left|a la izquierda]] [[at|en]] [[the|el]] [[traffic lights|semáforo]]. [[Then|Después]], [[take|toma]] [[the|la]] [[second|segunda]] [[street|calle]] [[on|a]] [[the|la]] [[right|derecha]]. [[The|La]] [[station|estación]] [[is|está]] [[at|en]] [[the|el]] [[end|final]] [[of|de]] [[that|esa]] [[road|calle]], [[on|a]] [[the|la]] [[left|izquierda]]. [[Is|Está]] [[it|está]] [[far|lejos]]? [[Can|Puedo]] [[I|yo]] [[walk|ir]] [[there|allí]]?",
+          "question_en": "[[What|Qué]] [[does|significa]] 'Go straight' [[mean|significa]]?",
           "options": [
             {
               "id": "o1",
-              "text": "En la rotonda"
+              "text": "[[Turn right|Girar a la derecha]]"
             },
             {
               "id": "o2",
-              "text": "En el semáforo"
+              "text": "[[Continue forward without turning|Continuar recto]]"
             },
             {
               "id": "o3",
-              "text": "Al final de Station Road"
+              "text": "[[Go back|Volver atrás]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading",
-          "complexity": 2
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U26_I48",
-          "type": "sentence_building",
-          "prompt_es": "Forma: 'Gira a la derecha en el semáforo.' ([[food|comida]])",
-          "words": [
+          "interaction_id": "A1_U26_I47",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Disculpe]], [[how|cómo]] [[do|llego]] [[I|yo]] [[get|llego]] [[to|a]] [[the|la]] [[train|tren]] [[station|estación]]? [[Go|Ve]] [[straight|recto]] [[for|por]] [[two|dos]] [[minutes|minutos]], [[then|luego]] [[turn|gira]] [[left|a la izquierda]] [[at|en]] [[the|el]] [[traffic lights|semáforo]]. [[Then|Después]], [[take|toma]] [[the|la]] [[second|segunda]] [[street|calle]] [[on|a]] [[the|la]] [[right|derecha]]. [[The|La]] [[station|estación]] [[is|está]] [[at|en]] [[the|el]] [[end|final]] [[of|de]] [[that|esa]] [[road|calle]], [[on|a]] [[the|la]] [[left|izquierda]]. [[Is|Está]] [[it|está]] [[far|lejos]]? [[Can|Puedo]] [[I|yo]] [[walk|ir]] [[there|allí]]?",
+          "question_en": "[[What|Qué]] [[does|significa]] 'Turn left' [[mean|significa]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Go straight|Seguir recto]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Turn right|Girar a la derecha]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Turn left|Girar a la izquierda]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U26_I48",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Disculpe]], [[how|cómo]] [[do|llego]] [[I|yo]] [[get|llego]] [[to|a]] [[the|la]] [[train|tren]] [[station|estación]]? [[Go|Ve]] [[straight|recto]] [[for|por]] [[two|dos]] [[minutes|minutos]], [[then|luego]] [[turn|gira]] [[left|a la izquierda]] [[at|en]] [[the|el]] [[traffic lights|semáforo]]. [[Then|Después]], [[take|toma]] [[the|la]] [[second|segunda]] [[street|calle]] [[on|a]] [[the|la]] [[right|derecha]]. [[The|La]] [[station|estación]] [[is|está]] [[at|en]] [[the|el]] [[end|final]] [[of|de]] [[that|esa]] [[road|calle]], [[on|a]] [[the|la]] [[left|izquierda]]. [[Is|Está]] [[it|está]] [[far|lejos]]? [[Can|Puedo]] [[I|yo]] [[walk|ir]] [[there|allí]]?",
+          "question_en": "[[What|Qué]] [[is|son]] [[traffic lights|los semáforos]] [[used|usados]] [[for|para]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Marking speed|Marcar velocidad]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Controlling traffic flow|Controlar el flujo de tráfico]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Giving directions|Dar indicaciones]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U26_I49",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Disculpe]], [[how|cómo]] [[do|llego]] [[I|yo]] [[get|llego]] [[to|a]] [[the|la]] [[train|tren]] [[station|estación]]? [[Go|Ve]] [[straight|recto]] [[for|por]] [[two|dos]] [[minutes|minutos]], [[then|luego]] [[turn|gira]] [[left|a la izquierda]] [[at|en]] [[the|el]] [[traffic lights|semáforo]]. [[Then|Después]], [[take|toma]] [[the|la]] [[second|segunda]] [[street|calle]] [[on|a]] [[the|la]] [[right|derecha]]. [[The|La]] [[station|estación]] [[is|está]] [[at|en]] [[the|el]] [[end|final]] [[of|de]] [[that|esa]] [[road|calle]], [[on|a]] [[the|la]] [[left|izquierda]]. [[Is|Está]] [[it|está]] [[far|lejos]]? [[Can|Puedo]] [[I|yo]] [[walk|ir]] [[there|allí]]?",
+          "question_en": "[[What|Qué]] [[does|significa]] 'Past' [[mean|significa]] [[in|en]] [[directions|indicaciones]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Before arriving at|Antes de llegar a]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Going by something|Pasar por delante de algo]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Turning at|Girando en]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U26_I50",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Disculpe]], [[how|cómo]] [[do|llego]] [[I|yo]] [[get|llego]] [[to|a]] [[the|la]] [[train|tren]] [[station|estación]]? [[Go|Ve]] [[straight|recto]] [[for|por]] [[two|dos]] [[minutes|minutos]], [[then|luego]] [[turn|gira]] [[left|a la izquierda]] [[at|en]] [[the|el]] [[traffic lights|semáforo]]. [[Then|Después]], [[take|toma]] [[the|la]] [[second|segunda]] [[street|calle]] [[on|a]] [[the|la]] [[right|derecha]]. [[The|La]] [[station|estación]] [[is|está]] [[at|en]] [[the|el]] [[end|final]] [[of|de]] [[that|esa]] [[road|calle]], [[on|a]] [[the|la]] [[left|izquierda]]. [[Is|Está]] [[it|está]] [[far|lejos]]? [[Can|Puedo]] [[I|yo]] [[walk|ir]] [[there|allí]]?",
+          "question_en": "[[Which|Cuál]] [[grammar|gramática]] [[form|forma]] [[is|se usa]] [[used|usa]] [[for|para]] [[giving|dar]] [[directions|indicaciones]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Questions|Preguntas]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Past tense|Pasado]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Imperatives|Imperativos]]"
+            }
+          ],
+          "correct_answer": "o3"
+        }
+      ]
+    },
+    {
+      "block_id": "B6",
+      "title": "Production",
+      "content": [
+        {
+          "interaction_id": "A1_U26_I51",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
             {
               "id": "w1",
-              "text": "[[Turn|Gira]]"
+              "text": "[[Turn right|Girar a la derecha]]"
             },
             {
               "id": "w2",
-              "text": "[[right|a la derecha]]"
+              "text": "[[At the corner|En la esquina]]"
             },
             {
               "id": "w3",
-              "text": "[[at|en]]"
+              "text": "[[Turn left|Girar a la izquierda]]"
             },
             {
               "id": "w4",
-              "text": "[[the|el]]"
-            },
-            {
-              "id": "w5",
-              "text": "[[traffic lights|semáforo]]"
+              "text": "[[Go straight|Seguir recto]]"
             }
           ],
           "correct_answer": [
-            "w1",
-            "w2",
             "w3",
+            "w1",
             "w4",
-            "w5"
-          ],
-          "mastery_tag": "reading",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U26_I49",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué significa 'you can't miss it' en el texto? ([[can|poder]])",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Es difícil de encontrar"
-            },
-            {
-              "id": "o2",
-              "text": "Está muy lejos"
-            },
-            {
-              "id": "o3",
-              "text": "Es fácil de ver, no te lo perderás"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "reading",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U26_I50",
-          "type": "fill_blanks",
-          "prompt_es": "Según el texto, el parque está a la ___ del camino al museo. (izquierda = left) ([[food|comida]])",
-          "correct_answer": "left",
-          "mastery_tag": "reading",
-          "complexity": 1
-        }
-      ]
-    },
-    {
-      "block_id": "B26_REC",
-      "title": "Block 6: Recycling – Shopping & Money",
-      "content": [
-        {
-          "interaction_id": "A1_U26_B26_REC_MC1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuánto es [[fifteen plus eight|quince más ocho]]?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Twenty-three|Veintitrés]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Twenty-two|Veintidós]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[Twenty-four|Veinticuatro]]"
-            },
-            {
-              "id": "o4",
-              "text": "[[Twenty-one|Veintiuno]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 2,
-          "concept_tags": [
-            "numbers"
+            "w2"
           ]
         },
         {
-          "interaction_id": "A1_U26_B26_REC_FB2",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: \"That's ___ [[pounds|libras]] and ___ [[pence|peniques]], [[please|por favor]].\"",
-          "stimulus_en": "That's ___ pounds and ___ pence, please.",
-          "correct_answer": "five / fifty",
-          "mastery_tag": "vocabulary",
-          "complexity": 2,
-          "concept_tags": [
-            "shopping",
-            "numbers"
-          ]
-        },
-        {
-          "interaction_id": "A1_U26_B26_REC_MC3",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo preguntas el precio en una tienda?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[How much does it cost?|¿Cuánto cuesta?]]"
-            },
-            {
-              "id": "o2",
-              "text": "What price is?"
-            },
-            {
-              "id": "o3",
-              "text": "How many cost?"
-            },
-            {
-              "id": "o4",
-              "text": "What is money?"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 2,
-          "concept_tags": [
-            "shopping"
-          ]
-        },
-        {
-          "interaction_id": "A1_U26_B26_REC_SW4",
-          "type": "short_writing",
-          "prompt_es": "Escribe un diálogo en una tienda. Incluye: preguntar el precio, pedir una talla/tamaño y pagar. Usa [[How much|Cuánto]], [[Can I have|¿Me pone?]], [[Here you are|Aquí tiene]].",
+          "interaction_id": "A1_U26_I52",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
           "mastery_tag": "production",
           "complexity": 3,
-          "concept_tags": [
-            "production",
-            "free_writing"
-          ],
-          "example_answer": "A: Can I help you? B: Yes, how much is this jacket? A: It's forty-five pounds. B: Can I try it on? A: Of course! B: I'll take it. A: Here you are. Goodbye!"
-        },
-        {
-          "interaction_id": "A1_U26_B26_REC_MC5",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la respuesta correcta a \"[[Can I help you?|¿Le puedo ayudar?]]\"?",
           "options": [
             {
-              "id": "o1",
-              "text": "[[Yes, I'm looking for a shirt|Sí, estoy buscando una camisa]]"
+              "id": "w1",
+              "text": "[[At the corner|En la esquina]]"
             },
             {
-              "id": "o2",
-              "text": "Yes I want shirt"
+              "id": "w2",
+              "text": "[[Crossroads|Cruce]]"
             },
             {
-              "id": "o3",
-              "text": "Give me shirt please"
+              "id": "w3",
+              "text": "[[Past|Pasar por delante]]"
             },
             {
-              "id": "o4",
-              "text": "I shirt look for"
+              "id": "w4",
+              "text": "[[Traffic lights|Semáforo]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 2,
-          "concept_tags": [
-            "shopping"
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "A1_U26_B26_REC_SW6",
-          "type": "short_writing",
-          "prompt_es": "Escribe una lista de la compra para una semana. Usa [[I need|necesito]], [[some|algo de]], [[a|un/una]], [[a few|unos pocos]].",
+          "interaction_id": "A1_U26_I53",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
           "mastery_tag": "production",
           "complexity": 3,
-          "concept_tags": [
-            "production",
-            "free_writing"
-          ],
-          "example_answer": "I need some milk and a loaf of bread. I need a few apples and some oranges. I also need a bottle of water and some pasta."
-        }
-      ]
-    },
-    {
-      "block_id": "B26_EX",
-      "title": "Block 7: Extra Practice – Shopping & Money",
-      "content": [
-        {
-          "interaction_id": "A1_U26_B26_EX_MC1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué expresión usas para [[trying on clothes|probarse ropa]]?",
           "options": [
             {
-              "id": "o1",
-              "text": "[[Can I try it on?|¿Me lo puedo probar?]]"
+              "id": "w1",
+              "text": "[[Crossroads|Cruce]]"
             },
             {
-              "id": "o2",
-              "text": "I test this please"
+              "id": "w2",
+              "text": "[[On the left|A la izquierda]]"
             },
             {
-              "id": "o3",
-              "text": "Can I wear this now?"
+              "id": "w3",
+              "text": "[[Bridge|Puente]]"
             },
             {
-              "id": "o4",
-              "text": "Give me try it"
+              "id": "w4",
+              "text": "[[Take the first|Tomar la primera]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 2,
-          "concept_tags": [
-            "shopping"
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "A1_U26_B26_EX_MC2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es el color del [[traffic light|semáforo]] cuando debes parar?",
+          "interaction_id": "A1_U26_I54",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
           "options": [
             {
-              "id": "o1",
-              "text": "[[Red|Rojo]]"
+              "id": "w1",
+              "text": "[[On the left|A la izquierda]]"
             },
             {
-              "id": "o2",
-              "text": "[[Green|Verde]]"
+              "id": "w2",
+              "text": "[[Near|Cerca]]"
             },
             {
-              "id": "o3",
-              "text": "[[Yellow|Amarillo]]"
+              "id": "w3",
+              "text": "[[Take the second|Tomar la segunda]]"
             },
             {
-              "id": "o4",
-              "text": "[[Blue|Azul]]"
+              "id": "w4",
+              "text": "[[On the right|A la derecha]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 2,
-          "concept_tags": [
-            "colours"
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
+        },
+        {
+          "interaction_id": "A1_U26_I55",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[The|La]] [[station|estación]] [[is|está]] [[on|a]] [[the|la]] ______ [[at|en]] [[the|el]] [[end|final]] [[of|de]] [[the|la]] [[road|calle]].",
+          "correct_answer": "right"
+        },
+        {
+          "interaction_id": "A1_U26_I56",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "______ [[straight|recto]] [[for|durante]] [[two|dos]] [[minutes|minutos]].",
+          "correct_answer": "Go"
+        },
+        {
+          "interaction_id": "A1_U26_I57",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "______ [[left|a la izquierda]] [[at|en]] [[the|el]] [[traffic lights|semáforo]].",
+          "correct_answer": "Turn"
+        },
+        {
+          "interaction_id": "A1_U26_I58",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Excuse|Disculpe]], [[how|cómo]] [[do|llego]] [[I|yo]] [[get|llego]] [[to|a]] [[the|la]] [[train|tren]] [[station|estación]]?",
+          "correct_answer": true
+        },
+        {
+          "interaction_id": "A1_U26_I59",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Go|Ve]] [[straight|recto]] [[for|por]] [[two|dos]] [[minutes|minutos]], [[then|luego]] [[turn|gira]] [[left|a la izquierda]] [[at|en]] [[the|el]] [[traffic lights|semáforo]].",
+          "correct_answer": false
+        },
+        {
+          "interaction_id": "A1_U26_I60",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Then|Después]], [[take|toma]] [[the|la]] [[second|segunda]] [[street|calle]] [[on|a]] [[the|la]] [[right|derecha]].",
+          "correct_answer": true
         }
       ]
     }

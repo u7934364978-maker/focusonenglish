@@ -1,6 +1,6 @@
 {
   "course": {
-    "unit_id": "U15",
+    "unit_id": "unit15",
     "unit_title": "Present Simple: He, She, It",
     "level": "A1",
     "total_duration_minutes": 60,
@@ -8,1259 +8,1225 @@
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Add -s or -es to verbs in third person singular (He, She, It)",
-    "Use the negative form 'doesn't' correctly",
-    "Form questions with 'Does'",
-    "Understand spelling changes: studies, goes, watches"
+    "Form Present Simple negatives with doesn't",
+    "Ask yes/no questions with Does...?",
+    "Apply the 3rd person singular spelling rules"
   ],
   "blocks": [
     {
       "block_id": "B1",
-      "title": "Third Person -s Rule",
+      "title": "Vocabulary Introduction",
       "content": [
         {
-          "interaction_id": "U15_I1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'Él trabaja en un banco'?",
+          "interaction_id": "A1_U15_I1",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Teach|Enseñar]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[He work in a bank|Incorrecto]]"
+              "text": "[[Enseñar|Teach]]"
             },
             {
               "id": "o2",
-              "text": "[[He working in a bank|Incorrecto]]"
+              "text": "[[Vive|Lives]]"
             },
             {
               "id": "o3",
-              "text": "[[He works in a bank|Él trabaja en un banco]]"
+              "text": "[[Estudia|Studies]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "grammar"
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U15_I2",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con el verbo 'like' en la forma correcta: ([[body|cuerpo]])",
-          "stimulus_en": "She ________ Italian food.",
-          "correct_answer": "likes",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U15_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es correcto decir '[[She live in Paris|Ella vive en París]]'?",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U15_I4",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'Mi hermano habla francés.' ([[body|cuerpo]])",
-          "options": [
-            {
-              "id": "w1",
-              "text": "My"
-            },
-            {
-              "id": "w2",
-              "text": "brother"
-            },
-            {
-              "id": "w3",
-              "text": "speaks"
-            },
-            {
-              "id": "w4",
-              "text": "French."
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U15_I5",
-          "type": "matching",
-          "prompt_es": "Une el sujeto con la forma verbal correcta:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[He|Él]]",
-              "right": "work"
-            },
-            {
-              "id": "p2",
-              "left": "[[I|Yo]]",
-              "right": "likes"
-            },
-            {
-              "id": "p3",
-              "left": "[[She|Ella]]",
-              "right": "works"
-            },
-            {
-              "id": "p4",
-              "left": "[[They|Ellos]]",
-              "right": "live"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p3",
-            "p2": "p1",
-            "p3": "p2",
-            "p4": "p4"
-          },
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U15_I6",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la forma correcta de 'eat' para 'He'?",
+          "interaction_id": "A1_U15_I2",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Lives|Vive]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[Eats|Come (correcto)]]"
+              "text": "[[Estudia|Studies]]"
             },
             {
               "id": "o2",
-              "text": "[[Eat|Come (base)]]"
+              "text": "[[Vive|Lives]]"
             },
             {
               "id": "o3",
-              "text": "[[Eating|Comiendo]]"
+              "text": "[[Ve (televisión)|Watches]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U15_I7",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'Ella bebe té cada mañana.' ([[tea|té]])",
-          "stimulus_en": "She ________ tea every morning.",
-          "correct_answer": "drinks",
-          "mastery_tag": "grammar"
+          "interaction_id": "A1_U15_I3",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Studies|Estudia]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Ve (televisión)|Watches]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Vuela|Flies]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Estudia|Studies]]"
+            }
+          ],
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U15_I8",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Él vive en Madrid.' ([[body|cuerpo]])",
-          "correct_answer": "He lives in Madrid",
-          "mastery_tag": "syntax"
+          "interaction_id": "A1_U15_I4",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Watches|Ve (televisión)]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Ve (televisión)|Watches]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Vuela|Flies]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Ladra|Barks]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U15_I5",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Flies|Vuela]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Ladra|Barks]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Vuela|Flies]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Conduce|Drives]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U15_I6",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Barks|Ladra]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Conduce|Drives]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[No (negación 3ra persona)|Doesn't]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Ladra|Barks]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U15_I7",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Conduce]]",
+          "correct_answer": "Drives"
+        },
+        {
+          "interaction_id": "A1_U15_I8",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|No (negación 3ra persona)]]",
+          "correct_answer": "Doesn't"
+        },
+        {
+          "interaction_id": "A1_U15_I9",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|¿Hace...? (pregunta 3ra persona)]]",
+          "correct_answer": "Does"
+        },
+        {
+          "interaction_id": "A1_U15_I10",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Normalmente]]",
+          "correct_answer": "Usually"
         }
       ]
     },
     {
       "block_id": "B2",
-      "title": "Spelling: -es and -ies",
+      "title": "Vocabulary in Context",
       "content": [
         {
-          "interaction_id": "U15_I9",
-          "type": "matching",
-          "prompt_es": "Une el infinitivo con su forma en tercera persona:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Go|Ir]]",
-              "right": "Studies"
-            },
-            {
-              "id": "p2",
-              "left": "[[Study|Estudiar]]",
-              "right": "Watches"
-            },
-            {
-              "id": "p3",
-              "left": "[[Watch|Ver]]",
-              "right": "Finishes"
-            },
-            {
-              "id": "p4",
-              "left": "[[Finish|Terminar]]",
-              "right": "Goes"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p4",
-            "p2": "p1",
-            "p3": "p2",
-            "p4": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U15_I10",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se escribe 'study' en tercera persona?",
+          "interaction_id": "A1_U15_I11",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Watches|Ve (televisión)]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[Studys|Incorrecto]]"
+              "text": "[[Watches|Ve (televisión)]]"
             },
             {
               "id": "o2",
-              "text": "[[Studies|Correcto]]"
+              "text": "[[Drives|Conduce]]"
             },
             {
               "id": "o3",
-              "text": "[[Study's|Incorrecto]]"
+              "text": "[[Usually|Normalmente]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U15_I11",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'Él ve la televisión.' ([[body|cuerpo]])",
-          "stimulus_en": "He ________ TV every evening.",
-          "correct_answer": "watches",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U15_I12",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se escribe el verbo 'finish' en tercera persona?",
+          "interaction_id": "A1_U15_I12",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Flies|Vuela]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[Finishes|Termina (correcto)]]"
+              "text": "[[Doesn't|No (negación 3ra persona)]]"
             },
             {
               "id": "o2",
-              "text": "[[Finishs|Incorrecto]]"
+              "text": "[[Flies|Vuela]]"
             },
             {
               "id": "o3",
-              "text": "[[Finishess|Incorrecto]]"
+              "text": "[[Rarely|Raramente]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U15_I13",
-          "type": "true_false",
-          "prompt_es": "El verbo '[[go|ir]]' en tercera persona es '[[gos|va]]'.",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U15_I14",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'Ella estudia mucho.' ([[body|cuerpo]])",
-          "stimulus_en": "She ________ a lot.",
-          "correct_answer": "studies",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U15_I15",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo cambia el verbo 'fly' (volar) para 'It'?",
+          "interaction_id": "A1_U15_I13",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Barks|Ladra]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[Flys|Incorrecto]]"
+              "text": "[[Does|¿Hace...? (pregunta 3ra persona)]]"
             },
             {
               "id": "o2",
-              "text": "[[Flies|Correcto]]"
+              "text": "[[Every morning|Cada mañana]]"
             },
             {
               "id": "o3",
-              "text": "[[Flyies|Incorrecto]]"
+              "text": "[[Barks|Ladra]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U15_I16",
-          "type": "short_writing",
-          "prompt_es": "Escribe el verbo 'go' para 'He'. ([[body|cuerpo]])",
-          "correct_answer": "goes",
-          "mastery_tag": "grammar"
+          "interaction_id": "A1_U15_I14",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Drives|Conduce]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Drives|Conduce]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Usually|Normalmente]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[At night|Por la noche]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U15_I15",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[She|Ella]] ______ [[teach|enseñar]] [[on|los]] [[Sundays|domingos]].",
+          "correct_answer": "doesn't"
+        },
+        {
+          "interaction_id": "A1_U15_I16",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "______ [[he|él]] [[live|vive]] [[near|cerca]] [[here|aquí]]?",
+          "correct_answer": "Does"
+        },
+        {
+          "interaction_id": "A1_U15_I17",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[My|Mi]] [[cat|gato]] ______ [[at|por]] [[night|la noche]].",
+          "correct_answer": "sleeps"
+        },
+        {
+          "interaction_id": "A1_U15_I18",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Teach|Enseñar]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Studies|Estudia]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Lives|Vive]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U15_I19",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Flies|Vuela]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Drives|Conduce]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Barks|Ladra]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U15_I20",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Does|¿Hace...? (pregunta 3ra persona)]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Rarely|Raramente]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Usually|Normalmente]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
         }
       ]
     },
     {
       "block_id": "B3",
-      "title": "Negative: Doesn't",
+      "title": "Grammar — Affirmative",
       "content": [
         {
-          "interaction_id": "U15_I17",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la forma negativa correcta para He/She/It?",
+          "interaction_id": "A1_U15_I21",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[She|Ella]] ______ [[teach|enseñar]] [[on|los]] [[Sundays|domingos]].",
+          "correct_answer": "doesn't"
+        },
+        {
+          "interaction_id": "A1_U15_I22",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "______ [[he|él]] [[live|vive]] [[near|cerca]] [[here|aquí]]?",
+          "correct_answer": "Does"
+        },
+        {
+          "interaction_id": "A1_U15_I23",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[My|Mi]] [[cat|gato]] ______ [[at|por]] [[night|la noche]].",
+          "correct_answer": "sleeps"
+        },
+        {
+          "interaction_id": "A1_U15_I24",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[She|Ella]] ______ [[to|al]] [[work|trabajo]] [[by|en]] [[car|coche]].",
+          "correct_answer": "drives"
+        },
+        {
+          "interaction_id": "A1_U15_I25",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[He|Él]] [[doesn't|no]] ______ [[early|temprano]] [[on|los]] [[weekends|fines de semana]].",
           "options": [
             {
               "id": "o1",
-              "text": "[[He don't like coffee|Incorrecto]]"
+              "text": "[[wake|wake]]"
             },
             {
               "id": "o2",
-              "text": "[[He doesn't likes coffee|Incorrecto]]"
+              "text": "[[Does|Does]]"
             },
             {
               "id": "o3",
-              "text": "[[He doesn't like coffee|Él no le gusta el café]]"
+              "text": "[[sleeps|sleeps]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "grammar"
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U15_I18",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'Ella no come carne.' ([[body|cuerpo]])",
-          "stimulus_en": "She ________ eat meat.",
-          "correct_answer": "doesn't",
-          "mastery_tag": "grammar"
+          "interaction_id": "A1_U15_I26",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "______ [[your|tu]] [[dog|perro]] [[bark|ladra]] [[a|mucho]] [[lot|mucho]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[sleeps|sleeps]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Does|Does]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[drives|drives]]"
+            }
+          ],
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U15_I19",
-          "type": "true_false",
-          "prompt_es": "¿Es correcto decir '[[It doesn't rain in summer|No llueve en verano]]'?",
-          "correct_answer": true,
-          "mastery_tag": "grammar"
+          "interaction_id": "A1_U15_I27",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[She|Ella]] ______ [[teach|enseñar]] [[on|los]] [[Sundays|domingos]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[drives|drives]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[wake|wake]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[doesn't|doesn't]]"
+            }
+          ],
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U15_I20",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'Él no habla español muy bien.' ([[body|cuerpo]])",
+          "interaction_id": "A1_U15_I28",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "______ [[he|él]] [[live|vive]] [[near|cerca]] [[here|aquí]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Does|Does]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[wake|wake]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Does|Does]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U15_I29",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
           "options": [
             {
               "id": "w1",
-              "text": "He"
+              "text": "[[Studies|Estudia]]"
             },
             {
               "id": "w2",
-              "text": "doesn't"
+              "text": "[[Teach|Enseñar]]"
             },
             {
               "id": "w3",
-              "text": "speak"
-            },
-            {
-              "id": "w4",
-              "text": "Spanish"
-            },
-            {
-              "id": "w5",
-              "text": "very"
-            },
-            {
-              "id": "w6",
-              "text": "well."
+              "text": "[[Flies|Vuela]]"
             }
           ],
           "correct_answer": [
-            "w1",
             "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax"
+            "w1",
+            "w3"
+          ]
         },
         {
-          "interaction_id": "U15_I21",
-          "type": "multiple_choice",
-          "prompt_es": "Cuando usamos 'doesn't', ¿qué forma lleva el verbo principal?",
+          "interaction_id": "A1_U15_I30",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
           "options": [
             {
-              "id": "o1",
-              "text": "[[La forma base (sin -s)|Correcto: doesn't + work]]"
+              "id": "w1",
+              "text": "[[Doesn't|No (negación 3ra persona)]]"
             },
             {
-              "id": "o2",
-              "text": "[[La forma -s (con -s)|Incorrecto: doesn't works]]"
+              "id": "w2",
+              "text": "[[Barks|Ladra]]"
             },
             {
-              "id": "o3",
-              "text": "[[La forma -ing|Incorrecto: doesn't working]]"
+              "id": "w3",
+              "text": "[[Usually|Normalmente]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U15_I22",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Él no trabaja aquí.' ([[body|cuerpo]])",
-          "correct_answer": "He doesn't work here",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U15_I23",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'Ella no vive en Madrid.' ([[body|cuerpo]])",
-          "stimulus_en": "She ________ live in Madrid.",
-          "correct_answer": "doesn't",
-          "mastery_tag": "grammar"
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
+          ]
         }
       ]
     },
     {
       "block_id": "B4",
-      "title": "Questions with Does",
+      "title": "Grammar — Negative & Questions",
       "content": [
         {
-          "interaction_id": "U15_I24",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se forma una pregunta con He/She/It?",
+          "interaction_id": "A1_U15_I31",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[My|Mi]] [[cat|gato]] ______ [[at|por]] [[night|la noche]].",
+          "correct_answer": "sleeps"
+        },
+        {
+          "interaction_id": "A1_U15_I32",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[She|Ella]] ______ [[to|al]] [[work|trabajo]] [[by|en]] [[car|coche]].",
+          "correct_answer": "drives"
+        },
+        {
+          "interaction_id": "A1_U15_I33",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[He|Él]] [[doesn't|no]] ______ [[early|temprano]] [[on|los]] [[weekends|fines de semana]].",
+          "correct_answer": "wake"
+        },
+        {
+          "interaction_id": "A1_U15_I34",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[She|Ella]] ______ [[to|al]] [[work|trabajo]] [[by|en]] [[car|coche]].",
           "options": [
             {
               "id": "o1",
-              "text": "[[Do + he + verb?|Incorrecto]]"
+              "text": "[[drives|drives]]"
             },
             {
               "id": "o2",
-              "text": "[[Does + he + verb?|Correcto]]"
+              "text": "[[Does|Does]]"
             },
             {
               "id": "o3",
-              "text": "[[He + does + verb?|Incorrecto]]"
+              "text": "[[doesn't|doesn't]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar"
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U15_I25",
-          "type": "fill_blanks",
-          "prompt_es": "Completa la pregunta: '¿Trabaja ella aquí?' ([[body|cuerpo]])",
-          "stimulus_en": "________ she work here?",
-          "correct_answer": "Does",
-          "mastery_tag": "grammar"
+          "interaction_id": "A1_U15_I35",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[He|Él]] [[doesn't|no]] ______ [[early|temprano]] [[on|los]] [[weekends|fines de semana]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[doesn't|doesn't]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[wake|wake]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Does|Does]]"
+            }
+          ],
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U15_I26",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: '¿Le gusta el fútbol?' ([[body|cuerpo]])",
+          "interaction_id": "A1_U15_I36",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "______ [[your|tu]] [[dog|perro]] [[bark|ladra]] [[a|mucho]] [[lot|mucho]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Does|Does]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[sleeps|sleeps]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Does|Does]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U15_I37",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[She|Ella]] ______ [[teach|enseñar]] [[on|los]] [[Sundays|domingos]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[doesn't|doesn't]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[sleeps|sleeps]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[drives|drives]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U15_I38",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
           "options": [
             {
               "id": "w1",
-              "text": "Does"
+              "text": "[[Flies|Vuela]]"
             },
             {
               "id": "w2",
-              "text": "he"
+              "text": "[[Lives|Vive]]"
             },
             {
               "id": "w3",
-              "text": "like"
+              "text": "[[Drives|Conduce]]"
             },
             {
               "id": "w4",
-              "text": "football?"
+              "text": "[[Studies|Estudia]]"
             }
           ],
           "correct_answer": [
-            "w1",
             "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
+            "w1",
+            "w4",
+            "w3"
+          ]
         },
         {
-          "interaction_id": "U15_I27",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta pregunta?: '[[Does she speaks French?|Incorrecto — speaks lleva -s innecesaria con Does]]'.",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U15_I28",
-          "type": "matching",
-          "prompt_es": "Une la pregunta con su respuesta:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Does he work here?|¿Trabaja él aquí?]]",
-              "right": "No, she doesn't."
-            },
-            {
-              "id": "p2",
-              "left": "[[Does she live in London?|¿Vive ella en Londres?]]",
-              "right": "Yes, he does."
-            },
-            {
-              "id": "p3",
-              "left": "[[Does it rain a lot?|¿Llueve mucho?]]",
-              "right": "Yes, it does."
-            },
-            {
-              "id": "p4",
-              "left": "[[Does she eat meat?|¿Come ella carne?]]",
-              "right": "No, it doesn't."
-            }
-          ],
-          "correct_answer": {
-            "p1": "p2",
-            "p2": "p1",
-            "p3": "p3",
-            "p4": "p4"
-          },
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U15_I29",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la respuesta corta correcta a '[[Does she like coffee?|¿Le gusta el café?]]'?",
+          "interaction_id": "A1_U15_I39",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
           "options": [
             {
-              "id": "o1",
-              "text": "[[Yes, she does|Sí (correcto)]]"
+              "id": "w1",
+              "text": "[[Doesn't|No (negación 3ra persona)]]"
             },
             {
-              "id": "o2",
-              "text": "[[Yes, she do|Incorrecto]]"
+              "id": "w2",
+              "text": "[[Flies|Vuela]]"
             },
             {
-              "id": "o3",
-              "text": "[[Yes, she likes|Incorrecto]]"
+              "id": "w3",
+              "text": "[[Usually|Normalmente]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Barks|Ladra]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
         },
         {
-          "interaction_id": "U15_I30",
-          "type": "short_writing",
-          "prompt_es": "Escribe la pregunta: '¿Estudia él inglés?' ([[body|cuerpo]])",
-          "correct_answer": "Does he study English?",
-          "mastery_tag": "syntax"
+          "interaction_id": "A1_U15_I40",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Rarely|Raramente]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Doesn't|No (negación 3ra persona)]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[At night|Por la noche]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Does|¿Hace...? (pregunta 3ra persona)]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
         }
       ]
     },
     {
       "block_id": "B5",
-      "title": "Reading: My Best Friend Tom",
+      "title": "Reading Comprehension",
       "content": [
         {
-          "interaction_id": "U15_READ1",
-          "type": "reading_phase",
-          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[carefully|con atención]].",
-          "transcript": "[[Tom|Tom]] is my best [[friend|amigo]]. He [[lives|vive]] near my [[house|casa]] in Madrid. He [[walks|camina]] to school every day because it is only five minutes away. He [[studies|estudia]] Biology and Chemistry at university. He [[doesn't|no]] like Maths very much, but he [[works|trabaja]] very hard. After school, Tom [[goes|va]] to football training on Tuesdays and Thursdays. He [[plays|juega]] for the local team and they [[train|entrenan]] for two hours. His mother [[works|trabaja]] as a nurse and his father [[teaches|enseña]] at a secondary school. Tom [[wants|quiere]] to be a doctor one day. He [[says|dice]] that helping people is the most important thing in life!",
+          "interaction_id": "A1_U15_I41",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
           "mastery_tag": "reading",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U15_I31",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo va Tom al trabajo?",
+          "complexity": 2,
+          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[sister|hermana]]. [[What|Qué]] [[does|hace]] [[she|ella]] [[do|hace]]? [[She|Ella]] [[is|es]] [[a|una]] [[teacher|profesora]]. [[She|Ella]] [[teaches|enseña]] [[science|ciencias]] [[at|en]] [[a|un]] [[high|instituto]] [[school|escuela]]. [[Does|Sale]] [[she|ella]] [[leave|sale]] [[early|temprano]] [[in|por]] [[the|la]] [[morning|mañana]]? [[Yes|Sí]], [[she|ella]] [[leaves|sale]] [[at|a]] [[seven|las siete]]. [[She|Ella]] [[doesn't|no]] [[like|le gusta]] [[being|estar]] [[late|tarde]]. [[What|Qué]] [[does|hace]] [[she|ella]] [[do|hace]] [[in|por]] [[the|la]] [[afternoon|tarde]]?",
+          "question_en": "[[What|Cuál]] [[is|es]] [[the|la]] [[sister's|de la hermana]] [[job|profesión]]?",
           "options": [
             {
               "id": "o1",
-              "text": "[[By metro|En metro]]"
+              "text": "[[Doctor|Médica]]"
             },
             {
               "id": "o2",
-              "text": "[[By car|En coche]]"
+              "text": "[[Teacher|Profesora]]"
             },
             {
               "id": "o3",
-              "text": "[[On foot / walking|Andando]]"
+              "text": "[[Engineer|Ingeniera]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "reading"
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U15_I32",
-          "type": "true_false",
-          "prompt_es": "Según el texto, Tom le encanta el metro. ([[body|cuerpo]])",
-          "correct_answer": false,
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U15_I33",
-          "type": "multiple_choice",
-          "prompt_es": "¿Con quién habla Tom en el camino al trabajo?",
+          "interaction_id": "A1_U15_I42",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[sister|hermana]]. [[What|Qué]] [[does|hace]] [[she|ella]] [[do|hace]]? [[She|Ella]] [[is|es]] [[a|una]] [[teacher|profesora]]. [[She|Ella]] [[teaches|enseña]] [[science|ciencias]] [[at|en]] [[a|un]] [[high|instituto]] [[school|escuela]]. [[Does|Sale]] [[she|ella]] [[leave|sale]] [[early|temprano]] [[in|por]] [[the|la]] [[morning|mañana]]? [[Yes|Sí]], [[she|ella]] [[leaves|sale]] [[at|a]] [[seven|las siete]]. [[She|Ella]] [[doesn't|no]] [[like|le gusta]] [[being|estar]] [[late|tarde]]. [[What|Qué]] [[does|hace]] [[she|ella]] [[do|hace]] [[in|por]] [[the|la]] [[afternoon|tarde]]?",
+          "question_en": "[[What|Qué]] [[subject|asignatura]] [[does|enseña]] [[the|la]] [[sister|hermana]] [[teach|enseña]]?",
           "options": [
             {
               "id": "o1",
-              "text": "[[With Lucy|Con Lucy]]"
+              "text": "[[Maths|Matemáticas]]"
             },
             {
               "id": "o2",
-              "text": "[[With his boss|Con su jefe]]"
+              "text": "[[English|Inglés]]"
             },
             {
               "id": "o3",
-              "text": "[[With nobody|Con nadie]]"
+              "text": "[[Science|Ciencias]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U15_I34",
-          "type": "fill_blanks",
-          "prompt_es": "Según el texto, Tom no usa el metro porque está muy '________'. ([[body|cuerpo]])",
-          "stimulus_en": "Tom doesn't like the metro — it is too ________ for him.",
-          "correct_answer": "crowded",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U15_I35",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué hace Tom al ir al trabajo?",
+          "interaction_id": "A1_U15_I43",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[sister|hermana]]. [[What|Qué]] [[does|hace]] [[she|ella]] [[do|hace]]? [[She|Ella]] [[is|es]] [[a|una]] [[teacher|profesora]]. [[She|Ella]] [[teaches|enseña]] [[science|ciencias]] [[at|en]] [[a|un]] [[high|instituto]] [[school|escuela]]. [[Does|Sale]] [[she|ella]] [[leave|sale]] [[early|temprano]] [[in|por]] [[the|la]] [[morning|mañana]]? [[Yes|Sí]], [[she|ella]] [[leaves|sale]] [[at|a]] [[seven|las siete]]. [[She|Ella]] [[doesn't|no]] [[like|le gusta]] [[being|estar]] [[late|tarde]]. [[What|Qué]] [[does|hace]] [[she|ella]] [[do|hace]] [[in|por]] [[the|la]] [[afternoon|tarde]]?",
+          "question_en": "[[What|A qué]] [[time|hora]] [[does|sale]] [[she|ella]] [[leave|sale]] [[home|de casa]]?",
           "options": [
             {
               "id": "o1",
-              "text": "[[He drives|Conduce]]"
+              "text": "[[At six|A las seis]]"
             },
             {
               "id": "o2",
-              "text": "[[He cycles|Va en bicicleta]]"
+              "text": "[[At eight|A las ocho]]"
             },
             {
               "id": "o3",
-              "text": "[[He walks|Camina]]"
+              "text": "[[At seven|A las siete]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "reading"
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U15_I36",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Ella no utiliza el metro.' ([[body|cuerpo]])",
-          "correct_answer": "She doesn't use the metro",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U15_I37",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: '¿Vive ella cerca de aquí?' ([[body|cuerpo]])",
-          "options": [
-            {
-              "id": "w1",
-              "text": "Does"
-            },
-            {
-              "id": "w2",
-              "text": "she"
-            },
-            {
-              "id": "w3",
-              "text": "live"
-            },
-            {
-              "id": "w4",
-              "text": "near"
-            },
-            {
-              "id": "w5",
-              "text": "here?"
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U15_I38",
-          "type": "matching",
-          "prompt_es": "Une el verbo infinitivo con su forma -s correcta:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Walk|Caminar]]",
-              "right": "Flies"
-            },
-            {
-              "id": "p2",
-              "left": "[[Talk|Hablar]]",
-              "right": "Walks"
-            },
-            {
-              "id": "p3",
-              "left": "[[Enjoy|Disfrutar]]",
-              "right": "Talks"
-            },
-            {
-              "id": "p4",
-              "left": "[[Fly|Volar]]",
-              "right": "Enjoys"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p2",
-            "p2": "p3",
-            "p3": "p4",
-            "p4": "p1"
-          },
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U15_I39",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la pregunta correcta?",
+          "interaction_id": "A1_U15_I44",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[sister|hermana]]. [[What|Qué]] [[does|hace]] [[she|ella]] [[do|hace]]? [[She|Ella]] [[is|es]] [[a|una]] [[teacher|profesora]]. [[She|Ella]] [[teaches|enseña]] [[science|ciencias]] [[at|en]] [[a|un]] [[high|instituto]] [[school|escuela]]. [[Does|Sale]] [[she|ella]] [[leave|sale]] [[early|temprano]] [[in|por]] [[the|la]] [[morning|mañana]]? [[Yes|Sí]], [[she|ella]] [[leaves|sale]] [[at|a]] [[seven|las siete]]. [[She|Ella]] [[doesn't|no]] [[like|le gusta]] [[being|estar]] [[late|tarde]]. [[What|Qué]] [[does|hace]] [[she|ella]] [[do|hace]] [[in|por]] [[the|la]] [[afternoon|tarde]]?",
+          "question_en": "[[Does|Le gusta]] [[she|ella]] [[like|le gusta]] [[being|estar]] [[late|tarde]]?",
           "options": [
             {
               "id": "o1",
-              "text": "[[Does she walks here?|Incorrecto]]"
+              "text": "[[Yes|Sí]]"
             },
             {
               "id": "o2",
-              "text": "[[Do she walk here?|Incorrecto]]"
+              "text": "[[No|No]]"
             },
             {
               "id": "o3",
-              "text": "[[Does she walk here?|¿Camina ella hasta aquí?]]"
+              "text": "[[Sometimes|A veces]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "grammar"
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U15_I40",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Mi madre trabaja en un hospital.' ([[body|cuerpo]])",
-          "correct_answer": "My mother works in a hospital",
-          "mastery_tag": "syntax"
+          "interaction_id": "A1_U15_I45",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[sister|hermana]]. [[What|Qué]] [[does|hace]] [[she|ella]] [[do|hace]]? [[She|Ella]] [[is|es]] [[a|una]] [[teacher|profesora]]. [[She|Ella]] [[teaches|enseña]] [[science|ciencias]] [[at|en]] [[a|un]] [[high|instituto]] [[school|escuela]]. [[Does|Sale]] [[she|ella]] [[leave|sale]] [[early|temprano]] [[in|por]] [[the|la]] [[morning|mañana]]? [[Yes|Sí]], [[she|ella]] [[leaves|sale]] [[at|a]] [[seven|las siete]]. [[She|Ella]] [[doesn't|no]] [[like|le gusta]] [[being|estar]] [[late|tarde]]. [[What|Qué]] [[does|hace]] [[she|ella]] [[do|hace]] [[in|por]] [[the|la]] [[afternoon|tarde]]?",
+          "question_en": "[[What|Cuál]] [[is|es]] [[the|la]] [[negative|negativa]] [[form|forma]] [[of|de]] 'She works'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[She don't work|Incorrecto]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[She doesn't work|Ella no trabaja]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[She isn't work|Incorrecto]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U15_I46",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[sister|hermana]]. [[What|Qué]] [[does|hace]] [[she|ella]] [[do|hace]]? [[She|Ella]] [[is|es]] [[a|una]] [[teacher|profesora]]. [[She|Ella]] [[teaches|enseña]] [[science|ciencias]] [[at|en]] [[a|un]] [[high|instituto]] [[school|escuela]]. [[Does|Sale]] [[she|ella]] [[leave|sale]] [[early|temprano]] [[in|por]] [[the|la]] [[morning|mañana]]? [[Yes|Sí]], [[she|ella]] [[leaves|sale]] [[at|a]] [[seven|las siete]]. [[She|Ella]] [[doesn't|no]] [[like|le gusta]] [[being|estar]] [[late|tarde]]. [[What|Qué]] [[does|hace]] [[she|ella]] [[do|hace]] [[in|por]] [[the|la]] [[afternoon|tarde]]?",
+          "question_en": "[[How|Cómo]] [[do|formas]] [[you|tú]] [[form|formas]] [[a|una]] [[question|pregunta]] [[about|sobre]] 'he/she'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Do he...?|Incorrecto]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Does he...?|¿Él...?]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Is he...?|¿Está él...?]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U15_I47",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[sister|hermana]]. [[What|Qué]] [[does|hace]] [[she|ella]] [[do|hace]]? [[She|Ella]] [[is|es]] [[a|una]] [[teacher|profesora]]. [[She|Ella]] [[teaches|enseña]] [[science|ciencias]] [[at|en]] [[a|un]] [[high|instituto]] [[school|escuela]]. [[Does|Sale]] [[she|ella]] [[leave|sale]] [[early|temprano]] [[in|por]] [[the|la]] [[morning|mañana]]? [[Yes|Sí]], [[she|ella]] [[leaves|sale]] [[at|a]] [[seven|las siete]]. [[She|Ella]] [[doesn't|no]] [[like|le gusta]] [[being|estar]] [[late|tarde]]. [[What|Qué]] [[does|hace]] [[she|ella]] [[do|hace]] [[in|por]] [[the|la]] [[afternoon|tarde]]?",
+          "question_en": "[[What|Qué]] [[is|es]] [[the|la]] [[third|tercera]] [[person|persona]] [[of|de]] 'teach'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[teachs|Incorrecto]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[teachies|Incorrecto]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[teaches|Enseña]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U15_I48",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[sister|hermana]]. [[What|Qué]] [[does|hace]] [[she|ella]] [[do|hace]]? [[She|Ella]] [[is|es]] [[a|una]] [[teacher|profesora]]. [[She|Ella]] [[teaches|enseña]] [[science|ciencias]] [[at|en]] [[a|un]] [[high|instituto]] [[school|escuela]]. [[Does|Sale]] [[she|ella]] [[leave|sale]] [[early|temprano]] [[in|por]] [[the|la]] [[morning|mañana]]? [[Yes|Sí]], [[she|ella]] [[leaves|sale]] [[at|a]] [[seven|las siete]]. [[She|Ella]] [[doesn't|no]] [[like|le gusta]] [[being|estar]] [[late|tarde]]. [[What|Qué]] [[does|hace]] [[she|ella]] [[do|hace]] [[in|por]] [[the|la]] [[afternoon|tarde]]?",
+          "question_en": "[[Which|Cuál]] [[word|palabra]] [[means|significa]] 'Normalmente'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Rarely|Raramente]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Usually|Normalmente]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Never|Nunca]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U15_I49",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[sister|hermana]]. [[What|Qué]] [[does|hace]] [[she|ella]] [[do|hace]]? [[She|Ella]] [[is|es]] [[a|una]] [[teacher|profesora]]. [[She|Ella]] [[teaches|enseña]] [[science|ciencias]] [[at|en]] [[a|un]] [[high|instituto]] [[school|escuela]]. [[Does|Sale]] [[she|ella]] [[leave|sale]] [[early|temprano]] [[in|por]] [[the|la]] [[morning|mañana]]? [[Yes|Sí]], [[she|ella]] [[leaves|sale]] [[at|a]] [[seven|las siete]]. [[She|Ella]] [[doesn't|no]] [[like|le gusta]] [[being|estar]] [[late|tarde]]. [[What|Qué]] [[does|hace]] [[she|ella]] [[do|hace]] [[in|por]] [[the|la]] [[afternoon|tarde]]?",
+          "question_en": "[[What|Cuál]] [[is|es]] [[the|la]] [[third|tercera]] [[person|persona]] [[of|de]] 'go'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[gos|Incorrecto]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[goes|Va]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[go|Van]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U15_I50",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[sister|hermana]]. [[What|Qué]] [[does|hace]] [[she|ella]] [[do|hace]]? [[She|Ella]] [[is|es]] [[a|una]] [[teacher|profesora]]. [[She|Ella]] [[teaches|enseña]] [[science|ciencias]] [[at|en]] [[a|un]] [[high|instituto]] [[school|escuela]]. [[Does|Sale]] [[she|ella]] [[leave|sale]] [[early|temprano]] [[in|por]] [[the|la]] [[morning|mañana]]? [[Yes|Sí]], [[she|ella]] [[leaves|sale]] [[at|a]] [[seven|las siete]]. [[She|Ella]] [[doesn't|no]] [[like|le gusta]] [[being|estar]] [[late|tarde]]. [[What|Qué]] [[does|hace]] [[she|ella]] [[do|hace]] [[in|por]] [[the|la]] [[afternoon|tarde]]?",
+          "question_en": "[[What|Qué]] [[is|es]] [[the|la]] [[third|tercera]] [[person|persona]] [[of|de]] 'watch'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[watchs|Incorrecto]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[watchies|Incorrecto]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[watches|Ve]]"
+            }
+          ],
+          "correct_answer": "o3"
         }
       ]
     },
     {
-      "block_id": "B15_6",
-      "title": "Block 6: He/She/It Extended Practice",
+      "block_id": "B6",
+      "title": "Production",
       "content": [
         {
-          "interaction_id": "A1_U15_B15_6_F1",
-          "type": "fill_blanks",
-          "prompt_es": "Tercera persona: She ________ [[work|trabajar]] at a hospital.",
-          "stimulus_en": "She ________ at a hospital.",
-          "correct_answer": "works",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U15_B15_6_E1",
-          "type": "multiple_choice",
-          "prompt_es": "\"He ________ TV every evening.\" ¿Qué forma de [[watch|ver]] es correcta?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "watch"
-            },
-            {
-              "id": "o2",
-              "text": "[[watches|ve]]"
-            },
-            {
-              "id": "o3",
-              "text": "watching"
-            },
-            {
-              "id": "o4",
-              "text": "to watch"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U15_B15_6_F2",
-          "type": "fill_blanks",
-          "prompt_es": "Negativa: He ________ [[like|gustar]] vegetables.",
-          "stimulus_en": "He ________ like vegetables.",
-          "correct_answer": "doesn't",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U15_B15_6_R1",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: \"¿Ella estudia inglés?\" ([[body|cuerpo]])",
+          "interaction_id": "A1_U15_I51",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
           "options": [
             {
               "id": "w1",
-              "text": "Does"
+              "text": "[[Lives|Vive]]"
             },
             {
               "id": "w2",
-              "text": "she"
+              "text": "[[Flies|Vuela]]"
             },
             {
               "id": "w3",
-              "text": "study"
+              "text": "[[Teach|Enseñar]]"
             },
             {
               "id": "w4",
-              "text": "English"
-            },
-            {
-              "id": "w5",
-              "text": "?"
+              "text": "[[Studies|Estudia]]"
             }
           ],
           "correct_answer": [
-            "w1",
-            "w2",
             "w3",
+            "w1",
             "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U15_I52",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
           "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
-        },
-        {
-          "interaction_id": "A1_U15_B15_6_E2",
-          "type": "multiple_choice",
-          "prompt_es": "\"It ________ a lot in Manchester.\" ¿Qué forma de [[rain|llover]] es correcta?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "rain"
-            },
-            {
-              "id": "o2",
-              "text": "raining"
-            },
-            {
-              "id": "o3",
-              "text": "[[rains|llueve]]"
-            },
-            {
-              "id": "o4",
-              "text": "rained"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U15_B15_6_T1",
-          "type": "true_false",
-          "prompt_es": "\"He don't work\" es correcto. ¿Verdadero o falso?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[True|Verdadero]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[False|Falso]]"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U15_B15_6_T2",
-          "type": "true_false",
-          "prompt_es": "\"[[She doesn't eat|Ella no come]] meat\" es correcto. ¿Verdadero o falso?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[True|Verdadero]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[False|Falso]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U15_B15_6_F3",
-          "type": "fill_blanks",
-          "prompt_es": "Respuesta corta: \"[[Does|Auxiliar]] he [[speak|hablar]] French?\" \"Yes, he ________.\"",
-          "stimulus_en": "Yes, he ________.",
-          "correct_answer": "does",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U15_B15_6_E3",
-          "type": "multiple_choice",
-          "prompt_es": "\"She ________ to school every day.\" ¿Qué forma de [[go|ir]] es correcta?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "go"
-            },
-            {
-              "id": "o2",
-              "text": "going"
-            },
-            {
-              "id": "o3",
-              "text": "[[goes|va]]"
-            },
-            {
-              "id": "o4",
-              "text": "gos"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U15_B15_6_F4",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: It ________ [[take|tardar]] 20 minutes by bus.",
-          "stimulus_en": "It ________ 20 minutes by bus.",
-          "correct_answer": "takes",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U15_B15_6_R2",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: \"Él no bebe alcohol\" ([[body|cuerpo]])",
           "options": [
             {
               "id": "w1",
-              "text": "He"
+              "text": "[[Flies|Vuela]]"
             },
             {
               "id": "w2",
-              "text": "doesn't"
+              "text": "[[Doesn't|No (negación 3ra persona)]]"
             },
             {
               "id": "w3",
-              "text": "drink"
+              "text": "[[Watches|Ve (televisión)]]"
             },
             {
               "id": "w4",
-              "text": "alcohol"
+              "text": "[[Barks|Ladra]]"
             }
           ],
           "correct_answer": [
-            "w1",
-            "w2",
             "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
-        },
-        {
-          "interaction_id": "A1_U15_B15_6_E4",
-          "type": "multiple_choice",
-          "prompt_es": "\"Mary ________ in Madrid.\" ¿Correcto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Mary live"
-            },
-            {
-              "id": "o2",
-              "text": "[[Mary lives|María vive]]"
-            },
-            {
-              "id": "o3",
-              "text": "Mary are live"
-            },
-            {
-              "id": "o4",
-              "text": "Mary do live"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U15_B15_6_F5",
-          "type": "fill_blanks",
-          "prompt_es": "Forma negativa: She ________ [[have|tener]] a car.",
-          "stimulus_en": "She ________ have a car.",
-          "correct_answer": "doesn't",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U15_B15_6_E5",
-          "type": "multiple_choice",
-          "prompt_es": "\"Does she ________ coffee?\" ¿Correcto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "drinks"
-            },
-            {
-              "id": "o2",
-              "text": "[[drink|beber]]"
-            },
-            {
-              "id": "o3",
-              "text": "drinking"
-            },
-            {
-              "id": "o4",
-              "text": "to drink"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U15_B15_6_T3",
-          "type": "true_false",
-          "prompt_es": "\"The bank _______ on Sundays.\" → [[closes|cierra]]. ¿Verdadero o falso?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[True|Verdadero]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[False|Falso]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U15_B15_6_F6",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con [[does|auxiliar]]: \"________ your sister [[speak|hablar]] English?\"",
-          "stimulus_en": "________ your sister speak English?",
-          "correct_answer": "Does",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U15_B15_6_E6",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la forma correcta del verbo [[fly|volar]] en 3ª persona?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "flys"
-            },
-            {
-              "id": "o2",
-              "text": "[[flies|vuela]]"
-            },
-            {
-              "id": "o3",
-              "text": "flyes"
-            },
-            {
-              "id": "o4",
-              "text": "fly"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U15_B15_6_F7",
-          "type": "fill_blanks",
-          "prompt_es": "Respuesta: \"Does it work?\" \"No, it ________.\" ([[body|cuerpo]])",
-          "stimulus_en": "No, it ________.",
-          "correct_answer": "doesn't",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U15_B15_6_R3",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: \"¿Cuándo trabaja ella?\" ([[body|cuerpo]])",
-          "options": [
-            {
-              "id": "w1",
-              "text": "When"
-            },
-            {
-              "id": "w2",
-              "text": "does"
-            },
-            {
-              "id": "w3",
-              "text": "she"
-            },
-            {
-              "id": "w4",
-              "text": "work"
-            },
-            {
-              "id": "w5",
-              "text": "?"
-            }
-          ],
-          "correct_answer": [
             "w1",
-            "w2",
-            "w3",
             "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "syntax"
+            "w2"
           ]
-        }
-      ]
-    },
-    {
-      "block_id": "B15_PROD",
-      "title": "Block 6: Production – Daily Routine",
-      "content": [
-        {
-          "interaction_id": "A1_U15_B15_PROD_SW1",
-          "type": "short_writing",
-          "prompt_es": "Describe tu rutina mañanera con al menos 4 acciones. Usa [[wake up|despertarse]], [[have breakfast|desayunar]], [[go to|ir a]], [[start|empezar]].",
-          "mastery_tag": "production",
-          "complexity": 3,
-          "concept_tags": [
-            "production",
-            "free_writing"
-          ],
-          "example_answer": "I wake up at seven o'clock. I have breakfast at half past seven. I go to university by bus. My classes start at nine."
         },
         {
-          "interaction_id": "A1_U15_B15_PROD_SW2",
-          "type": "short_writing",
-          "prompt_es": "Escribe sobre lo que NO haces durante la semana. Usa [[I don't|no]] y [[He/She doesn't|no (3ª persona)]] con [[usually|normalmente]], [[often|a menudo]].",
+          "interaction_id": "A1_U15_I53",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
           "mastery_tag": "production",
           "complexity": 3,
-          "concept_tags": [
-            "production",
-            "free_writing"
-          ],
-          "example_answer": "I don't usually watch TV in the morning. My flatmate doesn't often cook dinner. We don't go out on Sundays."
-        },
-        {
-          "interaction_id": "A1_U15_B15_PROD_SW3",
-          "type": "short_writing",
-          "prompt_es": "Imagina que eres periodista. Escribe 3 preguntas para una entrevista sobre rutinas. Usa [[Do you...?|¿...?]] y [[Does he/she...?|¿...?]].",
-          "mastery_tag": "production",
-          "complexity": 3,
-          "concept_tags": [
-            "production",
-            "free_writing"
-          ],
-          "example_answer": "Do you work every day? Does your boss arrive early? Do you usually have lunch at the office?"
-        },
-        {
-          "interaction_id": "A1_U15_B15_PROD_MC4",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la pregunta correcta en presente simple para 3ª persona?",
           "options": [
             {
-              "id": "o1",
-              "text": "[[Does she work here?|¿Ella trabaja aquí?]]"
+              "id": "w1",
+              "text": "[[Doesn't|No (negación 3ra persona)]]"
             },
             {
-              "id": "o2",
-              "text": "Do she work here?"
+              "id": "w2",
+              "text": "[[Rarely|Raramente]]"
             },
             {
-              "id": "o3",
-              "text": "Is she work here?"
+              "id": "w3",
+              "text": "[[Drives|Conduce]]"
             },
             {
-              "id": "o4",
-              "text": "She does work here?"
+              "id": "w4",
+              "text": "[[Does|¿Hace...? (pregunta 3ra persona)]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "present_simple",
-            "questions"
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "A1_U15_B15_PROD_FB5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la forma correcta: \"___ (Do/Does) [[your parents|tus padres]] [[live|vivir]] near you? Yes, they ___.\"",
-          "stimulus_en": "___ your parents live near you? Yes, they ___.",
-          "correct_answer": "Do / do",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "present_simple",
-            "questions"
+          "interaction_id": "A1_U15_I54",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Rarely|Raramente]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Together|Juntos]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Usually|Normalmente]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Every morning|Cada mañana]]"
+            }
+          ],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
+        },
+        {
+          "interaction_id": "A1_U15_I55",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "______ [[your|tu]] [[dog|perro]] [[bark|ladra]] [[a|mucho]] [[lot|mucho]]?",
+          "correct_answer": "Does"
+        },
+        {
+          "interaction_id": "A1_U15_I56",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[She|Ella]] ______ [[teach|enseñar]] [[on|los]] [[Sundays|domingos]].",
+          "correct_answer": "doesn't"
+        },
+        {
+          "interaction_id": "A1_U15_I57",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "______ [[he|él]] [[live|vive]] [[near|cerca]] [[here|aquí]]?",
+          "correct_answer": "Does"
+        },
+        {
+          "interaction_id": "A1_U15_I58",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[sister|hermana]]. [[What|Qué]] [[does|hace]] [[she|ella]] [[do|hace]]?",
+          "correct_answer": true
+        },
+        {
+          "interaction_id": "A1_U15_I59",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[She|Ella]] [[is|es]] [[a|una]] [[teacher|profesora]]. [[She|Ella]] [[teaches|enseña]] [[science|ciencias]] [[at|en]] [[a|un]] [[high|instituto]] [[school|escuela]].",
+          "correct_answer": false
+        },
+        {
+          "interaction_id": "A1_U15_I60",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Does|Sale]] [[she|ella]] [[leave|sale]] [[early|temprano]] [[in|por]] [[the|la]] [[morning|mañana]]?",
+          "correct_answer": true
         }
       ]
     }

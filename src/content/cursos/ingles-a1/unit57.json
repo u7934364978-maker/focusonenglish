@@ -1,1950 +1,1232 @@
 {
   "course": {
     "unit_id": "unit57",
-    "unit_title": "Household Objects",
+    "unit_title": "Cooking & Recipes",
     "level": "A1",
-    "total_duration_minutes": 25,
+    "total_duration_minutes": 60,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Identify common household objects in different rooms",
-    "Form plural nouns correctly (-s, -es, -ies)",
-    "Recognize common irregular plural nouns"
+    "Use cooking verbs and sequence adverbs in English",
+    "Follow and give recipe instructions",
+    "Describe cooking processes step by step"
   ],
   "blocks": [
     {
-      "block_id": "b1",
-      "title": "Living Room Objects",
+      "block_id": "B1",
+      "title": "Vocabulary Introduction",
       "content": [
         {
-          "interaction_id": "A1_U57_B1_I1",
-          "type": "multiple_choice",
-          "prompt_es": "¿En qué te sientas para estar cómodo? ([[cushion|cojín]])",
+          "interaction_id": "A1_U57_I1",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Cut|Cortar]]",
           "options": [
             {
               "id": "o1",
-              "text": "On a cushion"
+              "text": "[[Cortar|Cut]]"
             },
             {
               "id": "o2",
-              "text": "On a lamp"
+              "text": "[[Mezclar|Mix]]"
             },
             {
               "id": "o3",
-              "text": "On a mirror"
+              "text": "[[Freír|Fry]]"
             }
           ],
-          "correct_answer": "o1",
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U57_I2",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
           "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U57_B1_I2",
-          "type": "matching",
-          "prompt_es": "Une los objetos del salón:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Rug|Alfombra]]",
-              "right": "Jarrón"
-            },
-            {
-              "id": "p2",
-              "left": "[[Vase|Jarrón]]",
-              "right": "Lámpara"
-            },
-            {
-              "id": "p3",
-              "left": "[[Clock|Reloj de pared]]",
-              "right": "Reloj de pared"
-            },
-            {
-              "id": "p4",
-              "left": "[[Lamp|Lámpara]]",
-              "right": "Alfombra"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p4",
-            "p2": "p1",
-            "p3": "p3",
-            "p4": "p2"
-          },
-          "mastery_tag": "vocabulary",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U57_B1_I3",
-          "type": "short_writing",
-          "prompt_es": "Escribe 'espejo' en inglés: ([[sofa|sofá]])",
-          "stimulus_es": "Espejo",
-          "correct_answer": "Mirror",
-          "mastery_tag": "vocabulary",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U57_B1_I4",
-          "type": "multiple_choice",
-          "prompt_es": "¿Dónde pones las flores? ([[sofa|sofá]])",
+          "stimulus_en": "[[Mix|Mezclar]]",
           "options": [
             {
               "id": "o1",
-              "text": "In a rug"
+              "text": "[[Freír|Fry]]"
             },
             {
               "id": "o2",
-              "text": "In a vase"
+              "text": "[[Mezclar|Mix]]"
             },
             {
               "id": "o3",
-              "text": "In a cushion"
+              "text": "[[Hervir|Boil]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U57_I3",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
           "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "stimulus_en": "[[Fry|Freír]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Hervir|Boil]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Hornear|Bake]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Freír|Fry]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U57_I4",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Boil|Hervir]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Hervir|Boil]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Hornear|Bake]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Picar|Chop]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U57_I5",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Bake|Hornear]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Picar|Chop]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Hornear|Bake]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Remover|Stir]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U57_I6",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Chop|Picar]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Remover|Stir]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Sazonar|Season]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Picar|Chop]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U57_I7",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Remover]]",
+          "correct_answer": "Stir"
+        },
+        {
+          "interaction_id": "A1_U57_I8",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Sazonar]]",
+          "correct_answer": "Season"
+        },
+        {
+          "interaction_id": "A1_U57_I9",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Precalentar]]",
+          "correct_answer": "Preheat"
+        },
+        {
+          "interaction_id": "A1_U57_I10",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Servir]]",
+          "correct_answer": "Serve"
         }
       ]
     },
     {
-      "block_id": "b2",
-      "title": "Plural Nouns (-s, -es)",
+      "block_id": "B2",
+      "title": "Vocabulary in Context",
       "content": [
         {
-          "interaction_id": "A1_U57_B2_I1",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el plural de 'lamp': ([[lamp|lámpara]])",
-          "stimulus_en": "One lamp, two ________.",
-          "correct_answer": "lamps",
-          "mastery_tag": "grammar",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
+          "interaction_id": "A1_U57_I11",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Boil|Hervir]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Boil|Hervir]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Stir|Remover]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Serve|Servir]]"
+            }
+          ],
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "A1_U57_B2_I2",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'Hay tres relojes en la pared' ([[sofa|sofá]])",
+          "interaction_id": "A1_U57_I12",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Bake|Hornear]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Season|Sazonar]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Bake|Hornear]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Oven|Horno]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U57_I13",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Chop|Picar]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Preheat|Precalentar]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Pan|Sartén]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Chop|Picar]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U57_I14",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Stir|Remover]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Stir|Remover]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Serve|Servir]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Pot|Olla]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U57_I15",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "______ [[the|el]] [[oven|horno]] [[to|a]] [[180|180]] [[degrees|grados]].",
+          "correct_answer": "Preheat"
+        },
+        {
+          "interaction_id": "A1_U57_I16",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[First|Primero]], ______ [[the|las]] [[onions|cebollas]] [[into|en]] [[small|trozos pequeños]] [[pieces|trozos]].",
+          "correct_answer": "chop"
+        },
+        {
+          "interaction_id": "A1_U57_I17",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Then|Después]], ______ [[the|el]] [[oil|aceite]] [[in|en]] [[a|una]] [[large|grande]] [[pan|sartén]].",
+          "correct_answer": "heat"
+        },
+        {
+          "interaction_id": "A1_U57_I18",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
           "options": [
             {
               "id": "w1",
-              "text": "There"
+              "text": "[[Cut|Cortar]]"
             },
             {
               "id": "w2",
-              "text": "are"
+              "text": "[[Fry|Freír]]"
             },
             {
               "id": "w3",
-              "text": "three"
-            },
-            {
-              "id": "w4",
-              "text": "clocks"
-            },
-            {
-              "id": "w5",
-              "text": "on"
-            },
-            {
-              "id": "w6",
-              "text": "the"
-            },
-            {
-              "id": "w7",
-              "text": "wall"
+              "text": "[[Mix|Mezclar]]"
             }
           ],
           "correct_answer": [
             "w1",
-            "w2",
             "w3",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U57_I19",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Bake|Hornear]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Stir|Remover]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Chop|Picar]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U57_I20",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Preheat|Precalentar]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Oven|Horno]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Serve|Servir]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Grammar — Affirmative",
+      "content": [
+        {
+          "interaction_id": "A1_U57_I21",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "______ [[the|el]] [[oven|horno]] [[to|a]] [[180|180]] [[degrees|grados]].",
+          "correct_answer": "Preheat"
+        },
+        {
+          "interaction_id": "A1_U57_I22",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[First|Primero]], ______ [[the|las]] [[onions|cebollas]] [[into|en]] [[small|trozos pequeños]] [[pieces|trozos]].",
+          "correct_answer": "chop"
+        },
+        {
+          "interaction_id": "A1_U57_I23",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Then|Después]], ______ [[the|el]] [[oil|aceite]] [[in|en]] [[a|una]] [[large|grande]] [[pan|sartén]].",
+          "correct_answer": "heat"
+        },
+        {
+          "interaction_id": "A1_U57_I24",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[After|Después]], ______ [[the|las]] [[vegetables|verduras]] [[and|y]] ______ [[for|durante]] [[five|cinco]] [[minutes|minutos]].",
+          "correct_answer": "add, stir"
+        },
+        {
+          "interaction_id": "A1_U57_I25",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Finally|Finalmente]], ______ [[with|con]] [[fresh|fresco]] [[herbs|hierbas]] [[and|y]] ______.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[garnish, serve|garnish, serve]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[chop|chop]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[heat|heat]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U57_I26",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[The|La]] [[pasta|pasta]] ______ [[be|estar]] [[ready|lista]] [[when|cuando]] [[it's|está]] [[soft|blanda]] [[but|pero]] [[firm|firme]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[heat|heat]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[should|should]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[add, stir|add, stir]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U57_I27",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "______ [[the|el]] [[oven|horno]] [[to|a]] [[180|180]] [[degrees|grados]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[add, stir|add, stir]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[garnish, serve|garnish, serve]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Preheat|Preheat]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U57_I28",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[First|Primero]], ______ [[the|las]] [[onions|cebollas]] [[into|en]] [[small|trozos pequeños]] [[pieces|trozos]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[chop|chop]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[garnish, serve|garnish, serve]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[should|should]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U57_I29",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Fry|Freír]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Cut|Cortar]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Bake|Hornear]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
+          ]
+        },
+        {
+          "interaction_id": "A1_U57_I30",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Season|Sazonar]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Chop|Picar]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Serve|Servir]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Grammar — Negative & Questions",
+      "content": [
+        {
+          "interaction_id": "A1_U57_I31",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Then|Después]], ______ [[the|el]] [[oil|aceite]] [[in|en]] [[a|una]] [[large|grande]] [[pan|sartén]].",
+          "correct_answer": "heat"
+        },
+        {
+          "interaction_id": "A1_U57_I32",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[After|Después]], ______ [[the|las]] [[vegetables|verduras]] [[and|y]] ______ [[for|durante]] [[five|cinco]] [[minutes|minutos]].",
+          "correct_answer": "add, stir"
+        },
+        {
+          "interaction_id": "A1_U57_I33",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Finally|Finalmente]], ______ [[with|con]] [[fresh|fresco]] [[herbs|hierbas]] [[and|y]] ______.",
+          "correct_answer": "garnish, serve"
+        },
+        {
+          "interaction_id": "A1_U57_I34",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[After|Después]], ______ [[the|las]] [[vegetables|verduras]] [[and|y]] ______ [[for|durante]] [[five|cinco]] [[minutes|minutos]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[add, stir|add, stir]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[should|should]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Preheat|Preheat]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U57_I35",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Finally|Finalmente]], ______ [[with|con]] [[fresh|fresco]] [[herbs|hierbas]] [[and|y]] ______.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Preheat|Preheat]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[garnish, serve|garnish, serve]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[chop|chop]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U57_I36",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[The|La]] [[pasta|pasta]] ______ [[be|estar]] [[ready|lista]] [[when|cuando]] [[it's|está]] [[soft|blanda]] [[but|pero]] [[firm|firme]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[chop|chop]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[heat|heat]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[should|should]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U57_I37",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "______ [[the|el]] [[oven|horno]] [[to|a]] [[180|180]] [[degrees|grados]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Preheat|Preheat]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[heat|heat]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[add, stir|add, stir]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U57_I38",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Bake|Hornear]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Mix|Mezclar]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Stir|Remover]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Fry|Freír]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
             "w4",
-            "w5",
-            "w6",
-            "w7"
-          ],
-          "mastery_tag": "syntax",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "syntax"
+            "w3"
           ]
         },
         {
-          "interaction_id": "A1_U57_B2_I3",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es el plural de 'watch'? ([[sofa|sofá]])",
+          "interaction_id": "A1_U57_I39",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Season|Sazonar]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Bake|Hornear]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Serve|Servir]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Chop|Picar]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
+        },
+        {
+          "interaction_id": "A1_U57_I40",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Oven|Horno]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Season|Sazonar]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Pot|Olla]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Preheat|Precalentar]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B5",
+      "title": "Reading Comprehension",
+      "content": [
+        {
+          "interaction_id": "A1_U57_I41",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I'm|Estoy]] [[making|haciendo]] [[a|una]] [[tomato|salsa de tomate]] [[sauce|salsa]] [[for|para]] [[the|la]] [[pasta|pasta]]. [[Can|Puedes]] [[you|tú]] [[help|ayudarme]] [[me|ayudarme]]? [[Of|Por]] [[course|supuesto]]! [[What|Qué]] [[do|tienes]] [[you|tú]] [[need|necesitas]] [[me|que]] [[to|yo]] [[do|haga]]? [[First|Primero]], [[chop|pica]] [[the|las]] [[onions|cebollas]] [[and|y]] [[garlic|el ajo]] [[finely|finamente]]. [[Then|Después]] [[fry|fríelos]] [[them|los]] [[in|en]] [[olive|aceite de oliva]] [[oil|aceite de oliva]] [[for|durante]] [[two|dos]] [[minutes|minutos]]. [[Okay|De acuerdo]], [[I'm|estoy]] [[doing|haciéndolo]] [[that|eso]] [[now|ahora]]. [[What|Y qué]] [[next|pasa]] [[then|después]]? [[Add|Añade]] [[the|los]] [[tomatoes|tomates]] [[and|y]] [[season|sazona]] [[with|con]] [[salt|sal]], [[pepper|pimienta]] [[and|y]] [[basil|albahaca]]. [[Let|Déjalo]] [[it|dejarlo]] [[simmer|a fuego lento]] [[for|durante]] [[fifteen|quince]] [[minutes|minutos]]. [[Delicious|Delicioso]]!",
+          "question_en": "[[What|Qué]] [[is|está]] [[the|el]] [[first|primer]] [[speaker|hablante]] [[making|haciendo]]?",
           "options": [
             {
               "id": "o1",
-              "text": "Watchs"
+              "text": "[[A pizza|Una pizza]]"
             },
             {
               "id": "o2",
-              "text": "Watchies"
+              "text": "[[Tomato sauce for pasta|Salsa de tomate para pasta]]"
             },
             {
               "id": "o3",
-              "text": "Watches"
+              "text": "[[A salad|Una ensalada]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "A1_U57_B2_I4",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el plural de 'box': ([[many|muchos/as]])",
-          "stimulus_en": "One box, many ________.",
-          "correct_answer": "boxes",
-          "mastery_tag": "grammar",
+          "interaction_id": "A1_U57_I42",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I'm|Estoy]] [[making|haciendo]] [[a|una]] [[tomato|salsa de tomate]] [[sauce|salsa]] [[for|para]] [[the|la]] [[pasta|pasta]]. [[Can|Puedes]] [[you|tú]] [[help|ayudarme]] [[me|ayudarme]]? [[Of|Por]] [[course|supuesto]]! [[What|Qué]] [[do|tienes]] [[you|tú]] [[need|necesitas]] [[me|que]] [[to|yo]] [[do|haga]]? [[First|Primero]], [[chop|pica]] [[the|las]] [[onions|cebollas]] [[and|y]] [[garlic|el ajo]] [[finely|finamente]]. [[Then|Después]] [[fry|fríelos]] [[them|los]] [[in|en]] [[olive|aceite de oliva]] [[oil|aceite de oliva]] [[for|durante]] [[two|dos]] [[minutes|minutos]]. [[Okay|De acuerdo]], [[I'm|estoy]] [[doing|haciéndolo]] [[that|eso]] [[now|ahora]]. [[What|Y qué]] [[next|pasa]] [[then|después]]? [[Add|Añade]] [[the|los]] [[tomatoes|tomates]] [[and|y]] [[season|sazona]] [[with|con]] [[salt|sal]], [[pepper|pimienta]] [[and|y]] [[basil|albahaca]]. [[Let|Déjalo]] [[it|dejarlo]] [[simmer|a fuego lento]] [[for|durante]] [[fifteen|quince]] [[minutes|minutos]]. [[Delicious|Delicioso]]!",
+          "question_en": "[[What|Qué]] [[is|es]] [[the|el]] [[first|primer]] [[step|paso]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Add the tomatoes|Añadir los tomates]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Chop onions and garlic|Picar las cebollas y el ajo]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Season with salt|Sazonar con sal]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U57_I43",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I'm|Estoy]] [[making|haciendo]] [[a|una]] [[tomato|salsa de tomate]] [[sauce|salsa]] [[for|para]] [[the|la]] [[pasta|pasta]]. [[Can|Puedes]] [[you|tú]] [[help|ayudarme]] [[me|ayudarme]]? [[Of|Por]] [[course|supuesto]]! [[What|Qué]] [[do|tienes]] [[you|tú]] [[need|necesitas]] [[me|que]] [[to|yo]] [[do|haga]]? [[First|Primero]], [[chop|pica]] [[the|las]] [[onions|cebollas]] [[and|y]] [[garlic|el ajo]] [[finely|finamente]]. [[Then|Después]] [[fry|fríelos]] [[them|los]] [[in|en]] [[olive|aceite de oliva]] [[oil|aceite de oliva]] [[for|durante]] [[two|dos]] [[minutes|minutos]]. [[Okay|De acuerdo]], [[I'm|estoy]] [[doing|haciéndolo]] [[that|eso]] [[now|ahora]]. [[What|Y qué]] [[next|pasa]] [[then|después]]? [[Add|Añade]] [[the|los]] [[tomatoes|tomates]] [[and|y]] [[season|sazona]] [[with|con]] [[salt|sal]], [[pepper|pimienta]] [[and|y]] [[basil|albahaca]]. [[Let|Déjalo]] [[it|dejarlo]] [[simmer|a fuego lento]] [[for|durante]] [[fifteen|quince]] [[minutes|minutos]]. [[Delicious|Delicioso]]!",
+          "question_en": "[[How|Cuánto]] [[long|tiempo]] [[do|se fríen]] [[you|uno]] [[fry|fríe]] [[the|las]] [[onions|cebollas]] [[and|y]] [[garlic|el ajo]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Five minutes|Cinco minutos]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[One minute|Un minuto]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Two minutes|Dos minutos]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U57_I44",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I'm|Estoy]] [[making|haciendo]] [[a|una]] [[tomato|salsa de tomate]] [[sauce|salsa]] [[for|para]] [[the|la]] [[pasta|pasta]]. [[Can|Puedes]] [[you|tú]] [[help|ayudarme]] [[me|ayudarme]]? [[Of|Por]] [[course|supuesto]]! [[What|Qué]] [[do|tienes]] [[you|tú]] [[need|necesitas]] [[me|que]] [[to|yo]] [[do|haga]]? [[First|Primero]], [[chop|pica]] [[the|las]] [[onions|cebollas]] [[and|y]] [[garlic|el ajo]] [[finely|finamente]]. [[Then|Después]] [[fry|fríelos]] [[them|los]] [[in|en]] [[olive|aceite de oliva]] [[oil|aceite de oliva]] [[for|durante]] [[two|dos]] [[minutes|minutos]]. [[Okay|De acuerdo]], [[I'm|estoy]] [[doing|haciéndolo]] [[that|eso]] [[now|ahora]]. [[What|Y qué]] [[next|pasa]] [[then|después]]? [[Add|Añade]] [[the|los]] [[tomatoes|tomates]] [[and|y]] [[season|sazona]] [[with|con]] [[salt|sal]], [[pepper|pimienta]] [[and|y]] [[basil|albahaca]]. [[Let|Déjalo]] [[it|dejarlo]] [[simmer|a fuego lento]] [[for|durante]] [[fifteen|quince]] [[minutes|minutos]]. [[Delicious|Delicioso]]!",
+          "question_en": "[[What|Qué]] [[do|añades]] [[you|uno]] [[add|añade]] [[to|a]] [[the|la]] [[sauce|salsa]] [[after|después de]] [[frying|freír]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Cream|Nata]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Tomatoes|Tomates]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Pasta|Pasta]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U57_I45",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I'm|Estoy]] [[making|haciendo]] [[a|una]] [[tomato|salsa de tomate]] [[sauce|salsa]] [[for|para]] [[the|la]] [[pasta|pasta]]. [[Can|Puedes]] [[you|tú]] [[help|ayudarme]] [[me|ayudarme]]? [[Of|Por]] [[course|supuesto]]! [[What|Qué]] [[do|tienes]] [[you|tú]] [[need|necesitas]] [[me|que]] [[to|yo]] [[do|haga]]? [[First|Primero]], [[chop|pica]] [[the|las]] [[onions|cebollas]] [[and|y]] [[garlic|el ajo]] [[finely|finamente]]. [[Then|Después]] [[fry|fríelos]] [[them|los]] [[in|en]] [[olive|aceite de oliva]] [[oil|aceite de oliva]] [[for|durante]] [[two|dos]] [[minutes|minutos]]. [[Okay|De acuerdo]], [[I'm|estoy]] [[doing|haciéndolo]] [[that|eso]] [[now|ahora]]. [[What|Y qué]] [[next|pasa]] [[then|después]]? [[Add|Añade]] [[the|los]] [[tomatoes|tomates]] [[and|y]] [[season|sazona]] [[with|con]] [[salt|sal]], [[pepper|pimienta]] [[and|y]] [[basil|albahaca]]. [[Let|Déjalo]] [[it|dejarlo]] [[simmer|a fuego lento]] [[for|durante]] [[fifteen|quince]] [[minutes|minutos]]. [[Delicious|Delicioso]]!",
+          "question_en": "[[What|Con qué]] [[seasonings|condimentos]] [[are|se usa]] [[used|usan]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Cumin and paprika|Comino y pimentón]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Salt, pepper and basil|Sal, pimienta y albahaca]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Oregano and thyme|Orégano y tomillo]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U57_I46",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I'm|Estoy]] [[making|haciendo]] [[a|una]] [[tomato|salsa de tomate]] [[sauce|salsa]] [[for|para]] [[the|la]] [[pasta|pasta]]. [[Can|Puedes]] [[you|tú]] [[help|ayudarme]] [[me|ayudarme]]? [[Of|Por]] [[course|supuesto]]! [[What|Qué]] [[do|tienes]] [[you|tú]] [[need|necesitas]] [[me|que]] [[to|yo]] [[do|haga]]? [[First|Primero]], [[chop|pica]] [[the|las]] [[onions|cebollas]] [[and|y]] [[garlic|el ajo]] [[finely|finamente]]. [[Then|Después]] [[fry|fríelos]] [[them|los]] [[in|en]] [[olive|aceite de oliva]] [[oil|aceite de oliva]] [[for|durante]] [[two|dos]] [[minutes|minutos]]. [[Okay|De acuerdo]], [[I'm|estoy]] [[doing|haciéndolo]] [[that|eso]] [[now|ahora]]. [[What|Y qué]] [[next|pasa]] [[then|después]]? [[Add|Añade]] [[the|los]] [[tomatoes|tomates]] [[and|y]] [[season|sazona]] [[with|con]] [[salt|sal]], [[pepper|pimienta]] [[and|y]] [[basil|albahaca]]. [[Let|Déjalo]] [[it|dejarlo]] [[simmer|a fuego lento]] [[for|durante]] [[fifteen|quince]] [[minutes|minutos]]. [[Delicious|Delicioso]]!",
+          "question_en": "[[How|Cuánto]] [[long|tiempo]] [[does|se deja]] [[the|la]] [[sauce|salsa]] [[simmer|a fuego lento]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Ten minutes|Diez minutos]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Twenty minutes|Veinte minutos]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Fifteen minutes|Quince minutos]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U57_I47",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I'm|Estoy]] [[making|haciendo]] [[a|una]] [[tomato|salsa de tomate]] [[sauce|salsa]] [[for|para]] [[the|la]] [[pasta|pasta]]. [[Can|Puedes]] [[you|tú]] [[help|ayudarme]] [[me|ayudarme]]? [[Of|Por]] [[course|supuesto]]! [[What|Qué]] [[do|tienes]] [[you|tú]] [[need|necesitas]] [[me|que]] [[to|yo]] [[do|haga]]? [[First|Primero]], [[chop|pica]] [[the|las]] [[onions|cebollas]] [[and|y]] [[garlic|el ajo]] [[finely|finamente]]. [[Then|Después]] [[fry|fríelos]] [[them|los]] [[in|en]] [[olive|aceite de oliva]] [[oil|aceite de oliva]] [[for|durante]] [[two|dos]] [[minutes|minutos]]. [[Okay|De acuerdo]], [[I'm|estoy]] [[doing|haciéndolo]] [[that|eso]] [[now|ahora]]. [[What|Y qué]] [[next|pasa]] [[then|después]]? [[Add|Añade]] [[the|los]] [[tomatoes|tomates]] [[and|y]] [[season|sazona]] [[with|con]] [[salt|sal]], [[pepper|pimienta]] [[and|y]] [[basil|albahaca]]. [[Let|Déjalo]] [[it|dejarlo]] [[simmer|a fuego lento]] [[for|durante]] [[fifteen|quince]] [[minutes|minutos]]. [[Delicious|Delicioso]]!",
+          "question_en": "[[What|Qué]] [[adverbs|adverbios]] [[are|se usan]] [[used|usan]] [[for|para]] [[sequence|secuencia]] [[in|en]] [[recipes|recetas]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Big, small, medium|Grande, pequeño, mediano]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[First, then, after, finally|Primero, después, más tarde, finalmente]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Always, sometimes, never|Siempre, a veces, nunca]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U57_I48",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I'm|Estoy]] [[making|haciendo]] [[a|una]] [[tomato|salsa de tomate]] [[sauce|salsa]] [[for|para]] [[the|la]] [[pasta|pasta]]. [[Can|Puedes]] [[you|tú]] [[help|ayudarme]] [[me|ayudarme]]? [[Of|Por]] [[course|supuesto]]! [[What|Qué]] [[do|tienes]] [[you|tú]] [[need|necesitas]] [[me|que]] [[to|yo]] [[do|haga]]? [[First|Primero]], [[chop|pica]] [[the|las]] [[onions|cebollas]] [[and|y]] [[garlic|el ajo]] [[finely|finamente]]. [[Then|Después]] [[fry|fríelos]] [[them|los]] [[in|en]] [[olive|aceite de oliva]] [[oil|aceite de oliva]] [[for|durante]] [[two|dos]] [[minutes|minutos]]. [[Okay|De acuerdo]], [[I'm|estoy]] [[doing|haciéndolo]] [[that|eso]] [[now|ahora]]. [[What|Y qué]] [[next|pasa]] [[then|después]]? [[Add|Añade]] [[the|los]] [[tomatoes|tomates]] [[and|y]] [[season|sazona]] [[with|con]] [[salt|sal]], [[pepper|pimienta]] [[and|y]] [[basil|albahaca]]. [[Let|Déjalo]] [[it|dejarlo]] [[simmer|a fuego lento]] [[for|durante]] [[fifteen|quince]] [[minutes|minutos]]. [[Delicious|Delicioso]]!",
+          "question_en": "[[What|Qué]] [[does|significa]] 'Simmer' [[mean|significa]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Boil at high heat|Hervir a alta temperatura]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Cook gently at low heat|Cocinar suavemente a baja temperatura]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Stir constantly|Remover constantemente]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U57_I49",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I'm|Estoy]] [[making|haciendo]] [[a|una]] [[tomato|salsa de tomate]] [[sauce|salsa]] [[for|para]] [[the|la]] [[pasta|pasta]]. [[Can|Puedes]] [[you|tú]] [[help|ayudarme]] [[me|ayudarme]]? [[Of|Por]] [[course|supuesto]]! [[What|Qué]] [[do|tienes]] [[you|tú]] [[need|necesitas]] [[me|que]] [[to|yo]] [[do|haga]]? [[First|Primero]], [[chop|pica]] [[the|las]] [[onions|cebollas]] [[and|y]] [[garlic|el ajo]] [[finely|finamente]]. [[Then|Después]] [[fry|fríelos]] [[them|los]] [[in|en]] [[olive|aceite de oliva]] [[oil|aceite de oliva]] [[for|durante]] [[two|dos]] [[minutes|minutos]]. [[Okay|De acuerdo]], [[I'm|estoy]] [[doing|haciéndolo]] [[that|eso]] [[now|ahora]]. [[What|Y qué]] [[next|pasa]] [[then|después]]? [[Add|Añade]] [[the|los]] [[tomatoes|tomates]] [[and|y]] [[season|sazona]] [[with|con]] [[salt|sal]], [[pepper|pimienta]] [[and|y]] [[basil|albahaca]]. [[Let|Déjalo]] [[it|dejarlo]] [[simmer|a fuego lento]] [[for|durante]] [[fifteen|quince]] [[minutes|minutos]]. [[Delicious|Delicioso]]!",
+          "question_en": "[[What|Qué]] [[does|significa]] 'Fry' [[mean|significa]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Cook in oven|Cocinar en el horno]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Cook in water|Cocinar en agua]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Cook in oil|Cocinar en aceite]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U57_I50",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I'm|Estoy]] [[making|haciendo]] [[a|una]] [[tomato|salsa de tomate]] [[sauce|salsa]] [[for|para]] [[the|la]] [[pasta|pasta]]. [[Can|Puedes]] [[you|tú]] [[help|ayudarme]] [[me|ayudarme]]? [[Of|Por]] [[course|supuesto]]! [[What|Qué]] [[do|tienes]] [[you|tú]] [[need|necesitas]] [[me|que]] [[to|yo]] [[do|haga]]? [[First|Primero]], [[chop|pica]] [[the|las]] [[onions|cebollas]] [[and|y]] [[garlic|el ajo]] [[finely|finamente]]. [[Then|Después]] [[fry|fríelos]] [[them|los]] [[in|en]] [[olive|aceite de oliva]] [[oil|aceite de oliva]] [[for|durante]] [[two|dos]] [[minutes|minutos]]. [[Okay|De acuerdo]], [[I'm|estoy]] [[doing|haciéndolo]] [[that|eso]] [[now|ahora]]. [[What|Y qué]] [[next|pasa]] [[then|después]]? [[Add|Añade]] [[the|los]] [[tomatoes|tomates]] [[and|y]] [[season|sazona]] [[with|con]] [[salt|sal]], [[pepper|pimienta]] [[and|y]] [[basil|albahaca]]. [[Let|Déjalo]] [[it|dejarlo]] [[simmer|a fuego lento]] [[for|durante]] [[fifteen|quince]] [[minutes|minutos]]. [[Delicious|Delicioso]]!",
+          "question_en": "[[What|Qué]] [[does|significa]] 'Preheat' [[mean|significa]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[To cook first|Cocinar primero]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[To heat before use|Calentar antes de usar]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[To mix ingredients|Mezclar ingredientes]]"
+            }
+          ],
+          "correct_answer": "o2"
+        }
+      ]
+    },
+    {
+      "block_id": "B6",
+      "title": "Production",
+      "content": [
+        {
+          "interaction_id": "A1_U57_I51",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
           "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Mix|Mezclar]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Bake|Hornear]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Cut|Cortar]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Fry|Freír]]"
+            }
+          ],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "A1_U57_B2_I5",
-          "type": "audio_player",
-          "prompt_es": "Escucha los plurales: ([[sofa|sofá]])",
-          "audioUrl": "/audio/courses/ingles-a1/shared/plurals_s_es.mp3",
-          "text": "One rug, two rugs. One clock, two clocks.",
-          "mastery_tag": "listening",
+          "interaction_id": "A1_U57_I52",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
           "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "b3",
-      "title": "Irregular Plurals",
-      "content": [
-        {
-          "interaction_id": "A1_U57_B3_I1",
-          "type": "matching",
-          "prompt_es": "Une el singular con su plural irregular:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Person|People]]",
-              "right": "Children"
-            },
-            {
-              "id": "p2",
-              "left": "[[Child|Children]]",
-              "right": "Teeth"
-            },
-            {
-              "id": "p3",
-              "left": "[[Foot|Feet]]",
-              "right": "People"
-            },
-            {
-              "id": "p4",
-              "left": "[[Tooth|Teeth]]",
-              "right": "Feet"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p3",
-            "p2": "p1",
-            "p3": "p4",
-            "p4": "p2"
-          },
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U57_B3_I2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es el plural de 'man'? ([[sofa|sofá]])",
           "options": [
             {
-              "id": "o1",
-              "text": "Men"
+              "id": "w1",
+              "text": "[[Bake|Hornear]]"
             },
             {
-              "id": "o2",
-              "text": "Mans"
+              "id": "w2",
+              "text": "[[Season|Sazonar]]"
             },
             {
-              "id": "o3",
-              "text": "Mens"
+              "id": "w3",
+              "text": "[[Boil|Hervir]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Chop|Picar]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "A1_U57_B3_I3",
-          "type": "short_writing",
-          "prompt_es": "Escribe el plural de 'woman': ([[sofa|sofá]])",
-          "stimulus_es": "Mujeres",
-          "correct_answer": "Women",
-          "mastery_tag": "grammar",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U57_B3_I4",
-          "type": "true_false",
-          "prompt_es": "El plural de 'mouse' (ratón) es 'mice'. ([[sofa|sofá]])",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U57_B3_I5",
-          "type": "audio_player",
-          "prompt_es": "Escucha y repite los irregulares: ([[sofa|sofá]])",
-          "audioUrl": "/audio/courses/ingles-a1/shared/irregular_plurals.mp3",
-          "text": "Person, people. Child, children. Woman, women.",
-          "mastery_tag": "listening",
+          "interaction_id": "A1_U57_I53",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
           "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Season|Sazonar]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Oven|Horno]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Stir|Remover]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Preheat|Precalentar]]"
+            }
+          ],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
-        }
-      ]
-    },
-    {
-      "block_id": "b4",
-      "title": "Mastery Section",
-      "content": [
+        },
         {
-          "interaction_id": "A1_U57_B4_I2",
-          "type": "fill_blanks",
-          "prompt_es": "Escribe el plural correcto: ([[mirror|espejo]])",
-          "stimulus_en": "There are many ________ (person) in the room and five ________ (mirror) on the wall.",
-          "correct_answer": "people, mirrors",
-          "mastery_tag": "grammar",
+          "interaction_id": "A1_U57_I54",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
           "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U57_B4_I3",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Los niños están felices' ([[sofa|sofá]])",
-          "stimulus_es": "The children are happy.",
-          "correct_answer": "The children are happy",
-          "mastery_tag": "grammar",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U57_B4_I4",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es el plural de 'leaf' (hoja)? ([[sofa|sofá]])",
           "options": [
             {
-              "id": "o1",
-              "text": "Leafs"
+              "id": "w1",
+              "text": "[[Oven|Horno]]"
             },
             {
-              "id": "o2",
-              "text": "Leaves"
+              "id": "w2",
+              "text": "[[Ingredients|Ingredientes]]"
             },
             {
-              "id": "o3",
-              "text": "Leafes"
+              "id": "w3",
+              "text": "[[Serve|Servir]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Pan|Sartén]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "B57_5",
-      "title": "Block 5: Listening & Pronunciation",
-      "content": [
-        {
-          "interaction_id": "U57_I101",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[mirror|espejo]])",
-          "stimulus_en": "There is a mirror on the wall.",
-          "correct_answer": "There is a mirror on the wall.",
-          "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-1.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U57_I102",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[lamp|lámpara]])",
-          "stimulus_en": "I have two lamps.",
-          "correct_answer": "I have two lamps.",
-          "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-2.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
+          "interaction_id": "A1_U57_I55",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[The|La]] [[pasta|pasta]] ______ [[be|estar]] [[ready|lista]] [[when|cuando]] [[it's|está]] [[soft|blanda]] [[but|pero]] [[firm|firme]].",
+          "correct_answer": "should"
         },
         {
-          "interaction_id": "U57_I103",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[sofa|sofá]])",
-          "stimulus_en": "The children are in the garden.",
-          "correct_answer": "The children are in the garden.",
-          "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-3.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
+          "interaction_id": "A1_U57_I56",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "______ [[the|el]] [[oven|horno]] [[to|a]] [[180|180]] [[degrees|grados]].",
+          "correct_answer": "Preheat"
         },
         {
-          "interaction_id": "U57_I104",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[any|algún/ningún]])",
-          "stimulus_en": "Are there any people here?",
-          "correct_answer": "Are there any people here?",
-          "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-4.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
+          "interaction_id": "A1_U57_I57",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[First|Primero]], ______ [[the|las]] [[onions|cebollas]] [[into|en]] [[small|trozos pequeños]] [[pieces|trozos]].",
+          "correct_answer": "chop"
         },
         {
-          "interaction_id": "U57_I105",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[sofa|sofá]])",
-          "stimulus_en": "I need a new rug.",
-          "correct_answer": "I need a new rug.",
-          "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-5.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
+          "interaction_id": "A1_U57_I58",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[I'm|Estoy]] [[making|haciendo]] [[a|una]] [[tomato|salsa de tomate]] [[sauce|salsa]] [[for|para]] [[the|la]] [[pasta|pasta]]. [[Can|Puedes]] [[you|tú]] [[help|ayudarme]] [[me|ayudarme]]?",
+          "correct_answer": true
         },
         {
-          "interaction_id": "U57_I106",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[sofa|sofá]])",
-          "stimulus_en": "Those are nice watches.",
-          "correct_answer": "Those are nice watches.",
-          "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-6.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
+          "interaction_id": "A1_U57_I59",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Of|Por]] [[course|supuesto]]! [[What|Qué]] [[do|tienes]] [[you|tú]] [[need|necesitas]] [[me|que]] [[to|yo]] [[do|haga]]?",
+          "correct_answer": false
         },
         {
-          "interaction_id": "U57_I107",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[sofa|sofá]])",
-          "stimulus_en": "The women are talking.",
-          "correct_answer": "The women are talking.",
-          "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-7.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "U57_I108",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[sofa|sofá]])",
-          "title": "Pronunciación: Children",
-          "instructions": "La 'i' es corta.",
-          "targetSentences": [
-            {
-              "text": "The [[children|niños]].",
-              "phonetic": "/ˈtʃɪldrən/",
-              "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-8.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U57_I108_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'i' en 'children'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Corta (/ɪ/)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Larga (/aɪ/)"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U57_I109",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[sofa|sofá]])",
-          "title": "Pronunciación: Women",
-          "instructions": "Atención: la primera 'o' suena como /ɪ/.",
-          "targetSentences": [
-            {
-              "text": "The [[women|mujeres]].",
-              "phonetic": "/ˈwɪmɪn/",
-              "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-9.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U57_I109_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'o' en 'women'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Como una 'i' corta (/ɪ/)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como una 'o' española"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U57_I110",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[sofa|sofá]])",
-          "title": "Pronunciación: Mirror",
-          "instructions": "Escucha y repite la 'r' suave.",
-          "targetSentences": [
-            {
-              "text": "Look at the [[mirror|espejo]].",
-              "phonetic": "/ˈmɪrə/",
-              "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-10.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U57_I110_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cuántas sílabas tiene 'mirror'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Dos (mir-ror)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Una"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U57_I111",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[sofa|sofá]])",
-          "title": "Pronunciación: People",
-          "instructions": "Escucha y repite la 'p' inicial.",
-          "targetSentences": [
-            {
-              "text": "Many [[people|gente]].",
-              "phonetic": "/ˈpiːpl/",
-              "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-11.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U57_I111_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'eo' en 'people'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Como una 'i' larga (/iː/)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como 'eo' separado"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U57_I112",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[sofa|sofá]])",
-          "title": "Pronunciación: Watches",
-          "instructions": "La terminación '-es' suena como /ɪz/.",
-          "targetSentences": [
-            {
-              "text": "Two [[watches|relojes]].",
-              "phonetic": "/ˈwɒtʃɪz/",
-              "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-12.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U57_I112_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la terminación '-es' en 'watches'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Como una sílaba extra (/ɪz/)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Es silenciosa"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U57_I113",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[sofa|sofá]])",
-          "title": "Pronunciación: Cushion",
-          "instructions": "La 'sh' suena como /ʃ/.",
-          "targetSentences": [
-            {
-              "text": "Soft [[cushion|cojín]].",
-              "phonetic": "/ˈkʊʃn/",
-              "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-13.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U57_I113_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'sh' en 'cushion'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Como pidiendo silencio (shhh)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como la 'ch' española"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U57_I114",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[sofa|sofá]])",
-          "title": "Pronunciación: Vase",
-          "instructions": "Escucha y repite la 'v' (no 'b').",
-          "targetSentences": [
-            {
-              "text": "A flower [[vase|jarrón]].",
-              "phonetic": "/vɑːz/",
-              "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-14.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U57_I114_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'v' inicial?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Labiodental (dientes sobre labio)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como una 'b' bilabial"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U57_I115",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[sofa|sofá]])",
-          "title": "Pronunciación: Household",
-          "instructions": "Escucha y repite la palabra compuesta.",
-          "targetSentences": [
-            {
-              "text": "[[Household|Del hogar]] objects.",
-              "phonetic": "/ˈhaʊshəʊld/",
-              "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-15.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U57_I115_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'h' inicial?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Aspirada (como un suspiro)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Es silenciosa"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Practice Sessions",
-      "content": [
-        {
-          "interaction_id": "U57_FILLER_0",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cook' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Sofa"
-            },
-            {
-              "id": "o2",
-              "text": "Cushion"
-            },
-            {
-              "id": "o3",
-              "text": "Curtain"
-            },
-            {
-              "id": "o4",
-              "text": "[[Cook|cocinar]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U57_FILLER_1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'boil' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Curtain"
-            },
-            {
-              "id": "o2",
-              "text": "Carpet"
-            },
-            {
-              "id": "o3",
-              "text": "[[Boil|boil]]"
-            },
-            {
-              "id": "o4",
-              "text": "Television"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U57_FILLER_2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'fry' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Clock"
-            },
-            {
-              "id": "o2",
-              "text": "Curtain"
-            },
-            {
-              "id": "o3",
-              "text": "[[Fry|fry]]"
-            },
-            {
-              "id": "o4",
-              "text": "Mirror"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U57_FILLER_3",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'mix' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Mix|mix]]"
-            },
-            {
-              "id": "o2",
-              "text": "Curtain"
-            },
-            {
-              "id": "o3",
-              "text": "Desk"
-            },
-            {
-              "id": "o4",
-              "text": "Sofa"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U57_FILLER_4",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'add' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Mirror"
-            },
-            {
-              "id": "o2",
-              "text": "[[Add|add]]"
-            },
-            {
-              "id": "o3",
-              "text": "Cushion"
-            },
-            {
-              "id": "o4",
-              "text": "Lamp"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U57_FILLER_5",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'ingredients' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Wardrobe"
-            },
-            {
-              "id": "o2",
-              "text": "[[Ingredients|ingredients]]"
-            },
-            {
-              "id": "o3",
-              "text": "Desk"
-            },
-            {
-              "id": "o4",
-              "text": "Carpet"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U57_FILLER_6",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'oven' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Oven|horno]]"
-            },
-            {
-              "id": "o2",
-              "text": "Bookcase"
-            },
-            {
-              "id": "o3",
-              "text": "Desk"
-            },
-            {
-              "id": "o4",
-              "text": "Cushion"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U57_FILLER_7",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cook' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Lamp"
-            },
-            {
-              "id": "o2",
-              "text": "Wardrobe"
-            },
-            {
-              "id": "o3",
-              "text": "Clock"
-            },
-            {
-              "id": "o4",
-              "text": "[[Cook|cocinar]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U57_FILLER_8",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'boil' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Mirror"
-            },
-            {
-              "id": "o2",
-              "text": "[[Boil|boil]]"
-            },
-            {
-              "id": "o3",
-              "text": "Curtain"
-            },
-            {
-              "id": "o4",
-              "text": "Television"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U57_FILLER_9",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'fry' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Bookcase"
-            },
-            {
-              "id": "o2",
-              "text": "Curtain"
-            },
-            {
-              "id": "o3",
-              "text": "[[Fry|fry]]"
-            },
-            {
-              "id": "o4",
-              "text": "Cushion"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U57_FILLER_10",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'mix' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Sofa"
-            },
-            {
-              "id": "o2",
-              "text": "[[Mix|mix]]"
-            },
-            {
-              "id": "o3",
-              "text": "Cushion"
-            },
-            {
-              "id": "o4",
-              "text": "Carpet"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U57_FILLER_11",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'add' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Curtain"
-            },
-            {
-              "id": "o2",
-              "text": "[[Add|add]]"
-            },
-            {
-              "id": "o3",
-              "text": "Cushion"
-            },
-            {
-              "id": "o4",
-              "text": "Sofa"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U57_FILLER_12",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'ingredients' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Ingredients|ingredients]]"
-            },
-            {
-              "id": "o2",
-              "text": "Bookcase"
-            },
-            {
-              "id": "o3",
-              "text": "Sofa"
-            },
-            {
-              "id": "o4",
-              "text": "Shelf"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U57_FILLER_13",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'oven' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Desk"
-            },
-            {
-              "id": "o2",
-              "text": "Mirror"
-            },
-            {
-              "id": "o3",
-              "text": "Sofa"
-            },
-            {
-              "id": "o4",
-              "text": "[[Oven|horno]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U57_FILLER_14",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cook' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Desk"
-            },
-            {
-              "id": "o2",
-              "text": "Lamp"
-            },
-            {
-              "id": "o3",
-              "text": "Mirror"
-            },
-            {
-              "id": "o4",
-              "text": "[[Cook|cocinar]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U57_FILLER_15",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'boil' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Desk"
-            },
-            {
-              "id": "o2",
-              "text": "[[Boil|boil]]"
-            },
-            {
-              "id": "o3",
-              "text": "Lamp"
-            },
-            {
-              "id": "o4",
-              "text": "Clock"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U57_FILLER_16",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'fry' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Mirror"
-            },
-            {
-              "id": "o2",
-              "text": "[[Fry|fry]]"
-            },
-            {
-              "id": "o3",
-              "text": "Desk"
-            },
-            {
-              "id": "o4",
-              "text": "Bookcase"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U57_FILLER_17",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'mix' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Carpet"
-            },
-            {
-              "id": "o2",
-              "text": "[[Mix|mix]]"
-            },
-            {
-              "id": "o3",
-              "text": "Bookcase"
-            },
-            {
-              "id": "o4",
-              "text": "Television"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U57_FILLER_18",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'add' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Lamp"
-            },
-            {
-              "id": "o2",
-              "text": "[[Add|add]]"
-            },
-            {
-              "id": "o3",
-              "text": "Television"
-            },
-            {
-              "id": "o4",
-              "text": "Carpet"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U57_FILLER_19",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'ingredients' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Ingredients|ingredients]]"
-            },
-            {
-              "id": "o2",
-              "text": "Television"
-            },
-            {
-              "id": "o3",
-              "text": "Lamp"
-            },
-            {
-              "id": "o4",
-              "text": "Carpet"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U57_FILLER_20",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'oven' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Sofa"
-            },
-            {
-              "id": "o2",
-              "text": "Shelf"
-            },
-            {
-              "id": "o3",
-              "text": "Cushion"
-            },
-            {
-              "id": "o4",
-              "text": "[[Oven|horno]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U57_FILLER_21",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'cook' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Mirror"
-            },
-            {
-              "id": "o2",
-              "text": "Wardrobe"
-            },
-            {
-              "id": "o3",
-              "text": "Lamp"
-            },
-            {
-              "id": "o4",
-              "text": "[[Cook|cocinar]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U57_FILLER_22",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'boil' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Desk"
-            },
-            {
-              "id": "o2",
-              "text": "Curtain"
-            },
-            {
-              "id": "o3",
-              "text": "Television"
-            },
-            {
-              "id": "o4",
-              "text": "[[Boil|boil]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U57_FILLER_23",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'fry' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Fry|fry]]"
-            },
-            {
-              "id": "o2",
-              "text": "Wardrobe"
-            },
-            {
-              "id": "o3",
-              "text": "Carpet"
-            },
-            {
-              "id": "o4",
-              "text": "Curtain"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U57_FILLER_24",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'mix' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Television"
-            },
-            {
-              "id": "o2",
-              "text": "[[Mix|mix]]"
-            },
-            {
-              "id": "o3",
-              "text": "Mirror"
-            },
-            {
-              "id": "o4",
-              "text": "Sofa"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U57_FILLER_25",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'add' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Add|add]]"
-            },
-            {
-              "id": "o2",
-              "text": "Shelf"
-            },
-            {
-              "id": "o3",
-              "text": "Lamp"
-            },
-            {
-              "id": "o4",
-              "text": "Carpet"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U57_FILLER_26",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'ingredients' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Lamp"
-            },
-            {
-              "id": "o2",
-              "text": "Clock"
-            },
-            {
-              "id": "o3",
-              "text": "[[Ingredients|ingredients]]"
-            },
-            {
-              "id": "o4",
-              "text": "Mirror"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U57_FILLER_27",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'oven' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Bookcase"
-            },
-            {
-              "id": "o2",
-              "text": "[[Oven|horno]]"
-            },
-            {
-              "id": "o3",
-              "text": "Mirror"
-            },
-            {
-              "id": "o4",
-              "text": "Curtain"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        }
-      ]
-    },
-    {
-      "title": "Lesson 5: Listening & Pronunciation Review",
-      "duration_minutes": 20,
-      "content": [
-        {
-          "interaction_id": "U57_L5_I1",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[sofa|sofá]])",
-          "audio_url": "/audio/courses/ingles-a1/unit57/lesson5-task-1.mp3",
-          "transcript_template": "The [[cook|]] is here.",
-          "correct_answer": "cook",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "U57_L5_I2",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[sofa|sofá]])",
-          "audio_url": "/audio/courses/ingles-a1/unit57/lesson5-task-2.mp3",
-          "transcript_template": "The [[boil|]] is here.",
-          "correct_answer": "boil",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "U57_L5_I3",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[sofa|sofá]])",
-          "audio_url": "/audio/courses/ingles-a1/unit57/lesson5-task-3.mp3",
-          "transcript_template": "The [[fry|]] is here.",
-          "correct_answer": "fry",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "U57_L5_I4",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[sofa|sofá]])",
-          "audio_url": "/audio/courses/ingles-a1/unit57/lesson5-task-4.mp3",
-          "transcript_template": "The [[mix|]] is here.",
-          "correct_answer": "mix",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "U57_L5_I5",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[sofa|sofá]])",
-          "audio_url": "/audio/courses/ingles-a1/unit57/lesson5-task-5.mp3",
-          "transcript_template": "The [[add|]] is here.",
-          "correct_answer": "add",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "U57_L5_I6",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[sofa|sofá]])",
-          "audio_url": "/audio/courses/ingles-a1/unit57/lesson5-task-6.mp3",
-          "transcript_template": "The [[ingredients|]] is here.",
-          "correct_answer": "ingredients",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "U57_L5_I7",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[sofa|sofá]])",
-          "audio_url": "/audio/courses/ingles-a1/unit57/lesson5-task-7.mp3",
-          "transcript_template": "The [[oven|]] is here.",
-          "correct_answer": "oven",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "U57_L5_I8",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[sofa|sofá]])",
-          "title": "Pronunciación: Cooking & Recipes",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[cook|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-8.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U57_L5_I8_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'cook'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U57_L5_I9",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[sofa|sofá]])",
-          "title": "Pronunciación: Cooking & Recipes",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[boil|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-9.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U57_L5_I9_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'boil'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U57_L5_I10",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[sofa|sofá]])",
-          "title": "Pronunciación: Cooking & Recipes",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[fry|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-10.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U57_L5_I10_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'fry'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U57_L5_I11",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[sofa|sofá]])",
-          "title": "Pronunciación: Cooking & Recipes",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[mix|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-11.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U57_L5_I11_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'mix'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U57_L5_I12",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[sofa|sofá]])",
-          "title": "Pronunciación: Cooking & Recipes",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[add|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-12.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U57_L5_I12_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'add'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U57_L5_I13",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[sofa|sofá]])",
-          "title": "Pronunciación: Cooking & Recipes",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[ingredients|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-13.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U57_L5_I13_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'ingredients'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U57_L5_I14",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[sofa|sofá]])",
-          "title": "Pronunciación: Cooking & Recipes",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[oven|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-14.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U57_L5_I14_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'oven'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U57_L5_I15",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[sofa|sofá]])",
-          "title": "Pronunciación: Cooking & Recipes",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[cook|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit57/lesson5-task-15.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U57_L5_I15_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'cook'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
+          "interaction_id": "A1_U57_I60",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[First|Primero]], [[chop|pica]] [[the|las]] [[onions|cebollas]] [[and|y]] [[garlic|el ajo]] [[finely|finamente]]. [[Then|Después]] [[fry|fríelos]] [[them|los]] [[in|en]] [[olive|aceite de oliva]] [[oil|aceite de oliva]] [[for|durante]] [[two|dos]] [[minutes|minutos]].",
+          "correct_answer": true
         }
       ]
     }

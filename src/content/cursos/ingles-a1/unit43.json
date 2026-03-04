@@ -3,1915 +3,1230 @@
     "unit_id": "unit43",
     "unit_title": "Travel Verbs",
     "level": "A1",
-    "total_duration_minutes": 120,
+    "total_duration_minutes": 60,
     "language_ui": "es-ES",
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Use common travel verbs (go, stay, visit) in Present Simple",
-    "Talk about basic holiday activities",
-    "Write a short message about a trip"
+    "Use common travel verbs in English",
+    "Talk about travel plans and itineraries",
+    "Use Present Simple for schedules and future plans"
   ],
   "blocks": [
     {
-      "block_id": "B43_1",
-      "title": "Block 1: Action Words for Travel",
+      "block_id": "B1",
+      "title": "Vocabulary Introduction",
       "content": [
         {
-          "interaction_id": "A1_U43_B43_1_I1",
-          "type": "matching",
-          "prompt_es": "Empareja los verbos de viaje:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Visit|Visitar]]",
-              "right": "Quedarse / Alojarse"
-            },
-            {
-              "id": "p2",
-              "left": "[[Stay|Quedarse / Alojarse]]",
-              "right": "Viajar"
-            },
-            {
-              "id": "p3",
-              "left": "[[Arrive|Llegar]]",
-              "right": "Llegar"
-            },
-            {
-              "id": "p4",
-              "left": "[[Travel|Viajar]]",
-              "right": "Visitar"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p4",
-            "p2": "p1",
-            "p3": "p3",
-            "p4": "p2"
-          },
+          "interaction_id": "A1_U43_I1",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
           "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U43_B43_1_I2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué haces con una cámara? ([[travel|viajar]])",
+          "stimulus_en": "[[Arrive|Llegar]]",
           "options": [
             {
-              "id": "o2",
-              "text": "Take photos"
+              "id": "o1",
+              "text": "[[Llegar|Arrive]]"
             },
             {
-              "id": "o1",
-              "text": "Sleep"
+              "id": "o2",
+              "text": "[[Salir/Partir|Depart]]"
             },
             {
               "id": "o3",
-              "text": "Eat dinner"
+              "text": "[[Visitar|Visit]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U43_I2",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
           "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "stimulus_en": "[[Depart|Salir/Partir]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Visitar|Visit]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Salir/Partir|Depart]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Quedarse|Stay]]"
+            }
+          ],
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "A1_U43_B43_1_I3",
-          "type": "fill_blanks",
-          "prompt_es": "Completa la frase: ([[souvenir|recuerdo]])",
-          "stimulus_en": "I buy ________ for my family. (recuerdos/souvenirs)",
-          "correct_answer": "souvenirs",
+          "interaction_id": "A1_U43_I3",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "complexity": 1,
+          "stimulus_en": "[[Visit|Visitar]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Quedarse|Stay]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Explorar|Explore]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Visitar|Visit]]"
+            }
+          ],
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "A1_U43_B43_1_I4",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Vacaciones' ([[travel|viajar]])",
-          "stimulus_es": "Vacaciones",
-          "correct_answer": "Holiday",
+          "interaction_id": "A1_U43_I4",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "complexity": 1,
+          "stimulus_en": "[[Stay|Quedarse]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Quedarse|Stay]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Explorar|Explore]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Reservar|Book]]"
+            }
+          ],
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "A1_U43_B43_1_I5",
-          "type": "flashcard",
-          "prompt_es": "Repaso de verbos: ([[travel|viajar]])",
-          "stimulus_en": "Leave",
-          "correct_answer": "Irse / Salir / Partir",
+          "interaction_id": "A1_U43_I5",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "vocabulary"
-          ]
+          "complexity": 1,
+          "stimulus_en": "[[Explore|Explorar]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Reservar|Book]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Explorar|Explore]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Empacar/Hacer la maleta|Pack]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U43_I6",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Book|Reservar]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Empacar/Hacer la maleta|Pack]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Viajar|Travel]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Reservar|Book]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U43_I7",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Empacar/Hacer la maleta]]",
+          "correct_answer": "Pack"
+        },
+        {
+          "interaction_id": "A1_U43_I8",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Viajar]]",
+          "correct_answer": "Travel"
+        },
+        {
+          "interaction_id": "A1_U43_I9",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Viaje (recorrido)]]",
+          "correct_answer": "Journey"
+        },
+        {
+          "interaction_id": "A1_U43_I10",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Viaje (corto)]]",
+          "correct_answer": "Trip"
         }
       ]
     },
     {
-      "block_id": "B43_2",
-      "title": "Block 2: Using Travel Verbs",
+      "block_id": "B2",
+      "title": "Vocabulary in Context",
       "content": [
         {
-          "interaction_id": "A1_U43_B43_2_I2",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con 'at' o 'in': ([[arrive|llegar]])",
-          "stimulus_en": "We arrive ________ London in the morning.",
-          "correct_answer": "in",
-          "mastery_tag": "grammar",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
+          "interaction_id": "A1_U43_I11",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Stay|Quedarse]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Stay|Quedarse]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Pack|Empacar/Hacer la maleta]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Trip|Viaje (corto)]]"
+            }
+          ],
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "A1_U43_B43_2_I3",
-          "type": "true_false",
-          "prompt_es": "¿Es correcto: 'I stays at a hotel'? ([[hotel|hotel]])",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
+          "interaction_id": "A1_U43_I12",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Explore|Explorar]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Travel|Viajar]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Explore|Explorar]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Destination|Destino]]"
+            }
+          ],
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "A1_U43_B43_2_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa la frase negativa: ([[hotel|hotel]])",
-          "stimulus_en": "I ________ (not) stay in expensive hotels.",
-          "correct_answer": "don't",
-          "mastery_tag": "grammar",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "grammar"
-          ]
-        }
-      ]
-    },
-    {
-      "block_id": "B43_3",
-      "title": "Block 3: Holiday Talk",
-      "content": [
+          "interaction_id": "A1_U43_I13",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Book|Reservar]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Journey|Viaje (recorrido)]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Route|Ruta]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Book|Reservar]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
         {
-          "interaction_id": "A1_U43_B43_3_I1",
-          "type": "reorder_words",
-          "prompt_es": "Ordena la actividad:",
+          "interaction_id": "A1_U43_I14",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Pack|Empacar/Hacer la maleta]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Pack|Empacar/Hacer la maleta]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Trip|Viaje (corto)]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Return|Volver]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U43_I15",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[The|El]] [[train|tren]] ______ [[at|a]] [[nine|las nueve]] [[o'clock|en punto]].",
+          "correct_answer": "arrives"
+        },
+        {
+          "interaction_id": "A1_U43_I16",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[always|siempre]] ______ [[my|mis]] [[hotels|hoteles]] [[in|con]] [[advance|antelación]].",
+          "correct_answer": "book"
+        },
+        {
+          "interaction_id": "A1_U43_I17",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[The|El]] [[flight|vuelo]] ______ [[from|desde]] [[Terminal|la Terminal]] [[B|B]].",
+          "correct_answer": "departs"
+        },
+        {
+          "interaction_id": "A1_U43_I18",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
           "options": [
             {
               "id": "w1",
-              "text": "We"
+              "text": "[[Arrive|Llegar]]"
             },
             {
               "id": "w2",
-              "text": "[[always|siempre]]"
+              "text": "[[Visit|Visitar]]"
             },
             {
               "id": "w3",
-              "text": "take"
-            },
-            {
-              "id": "w4",
-              "text": "many"
-            },
-            {
-              "id": "w5",
-              "text": "photos."
+              "text": "[[Depart|Salir/Partir]]"
             }
           ],
           "correct_answer": [
             "w1",
-            "w2",
             "w3",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U43_I19",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Explore|Explorar]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Pack|Empacar/Hacer la maleta]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Book|Reservar]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U43_I20",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Journey|Viaje (recorrido)]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Destination|Destino]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Trip|Viaje (corto)]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Grammar — Affirmative",
+      "content": [
+        {
+          "interaction_id": "A1_U43_I21",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[The|El]] [[train|tren]] ______ [[at|a]] [[nine|las nueve]] [[o'clock|en punto]].",
+          "correct_answer": "arrives"
+        },
+        {
+          "interaction_id": "A1_U43_I22",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[always|siempre]] ______ [[my|mis]] [[hotels|hoteles]] [[in|con]] [[advance|antelación]].",
+          "correct_answer": "book"
+        },
+        {
+          "interaction_id": "A1_U43_I23",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[The|El]] [[flight|vuelo]] ______ [[from|desde]] [[Terminal|la Terminal]] [[B|B]].",
+          "correct_answer": "departs"
+        },
+        {
+          "interaction_id": "A1_U43_I24",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[We|Nosotros]] [[plan|planeamos]] [[to|visitar]] ______ [[Rome|Roma]] [[next|el próximo]] [[summer|verano]].",
+          "correct_answer": "visit"
+        },
+        {
+          "interaction_id": "A1_U43_I25",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[How|Cuánto]] [[long|tiempo]] [[do|te quedas]] [[you|tú]] ______ [[in|en]] [[each|cada]] [[city|ciudad]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[stay|stay]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[book|book]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[departs|departs]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U43_I26",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[love|me encanta]] [[to|explorar]] ______ [[new|nuevas]] [[cities|ciudades]] [[on|a]] [[foot|pie]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[departs|departs]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[explore|explore]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[visit|visit]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U43_I27",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[The|El]] [[train|tren]] ______ [[at|a]] [[nine|las nueve]] [[o'clock|en punto]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[visit|visit]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[stay|stay]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[arrives|arrives]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U43_I28",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[always|siempre]] ______ [[my|mis]] [[hotels|hoteles]] [[in|con]] [[advance|antelación]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[book|book]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[stay|stay]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[explore|explore]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U43_I29",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Visit|Visitar]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Arrive|Llegar]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Explore|Explorar]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
+          ]
+        },
+        {
+          "interaction_id": "A1_U43_I30",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Travel|Viajar]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Book|Reservar]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Trip|Viaje (corto)]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Grammar — Negative & Questions",
+      "content": [
+        {
+          "interaction_id": "A1_U43_I31",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[The|El]] [[flight|vuelo]] ______ [[from|desde]] [[Terminal|la Terminal]] [[B|B]].",
+          "correct_answer": "departs"
+        },
+        {
+          "interaction_id": "A1_U43_I32",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[We|Nosotros]] [[plan|planeamos]] [[to|visitar]] ______ [[Rome|Roma]] [[next|el próximo]] [[summer|verano]].",
+          "correct_answer": "visit"
+        },
+        {
+          "interaction_id": "A1_U43_I33",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[How|Cuánto]] [[long|tiempo]] [[do|te quedas]] [[you|tú]] ______ [[in|en]] [[each|cada]] [[city|ciudad]]?",
+          "correct_answer": "stay"
+        },
+        {
+          "interaction_id": "A1_U43_I34",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[We|Nosotros]] [[plan|planeamos]] [[to|visitar]] ______ [[Rome|Roma]] [[next|el próximo]] [[summer|verano]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[visit|visit]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[explore|explore]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[arrives|arrives]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U43_I35",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[How|Cuánto]] [[long|tiempo]] [[do|te quedas]] [[you|tú]] ______ [[in|en]] [[each|cada]] [[city|ciudad]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[arrives|arrives]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[stay|stay]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[book|book]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U43_I36",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[love|me encanta]] [[to|explorar]] ______ [[new|nuevas]] [[cities|ciudades]] [[on|a]] [[foot|pie]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[book|book]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[departs|departs]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[explore|explore]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U43_I37",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[The|El]] [[train|tren]] ______ [[at|a]] [[nine|las nueve]] [[o'clock|en punto]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[arrives|arrives]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[departs|departs]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[visit|visit]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U43_I38",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Explore|Explorar]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Depart|Salir/Partir]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Pack|Empacar/Hacer la maleta]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Visit|Visitar]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
             "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar",
-            "syntax"
+            "w3"
           ]
         },
         {
-          "interaction_id": "A1_U43_B43_3_I2",
-          "type": "multiple_choice",
-          "prompt_es": "Friend: 'Where do you stay?' - You: ([[hotel|hotel]])",
+          "interaction_id": "A1_U43_I39",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
           "options": [
             {
-              "id": "o2",
-              "text": "I stay at 9:00 AM."
+              "id": "w1",
+              "text": "[[Travel|Viajar]]"
             },
             {
-              "id": "o1",
-              "text": "I stay at a small hotel."
+              "id": "w2",
+              "text": "[[Explore|Explorar]]"
             },
             {
-              "id": "o3",
-              "text": "I stay by bus."
+              "id": "w3",
+              "text": "[[Trip|Viaje (corto)]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Book|Reservar]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "syntax",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "syntax"
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
           ]
         },
         {
-          "interaction_id": "A1_U43_B43_3_I3",
-          "type": "fill_blanks",
-          "prompt_es": "Completa el mensaje: ([[travel|viajar]])",
-          "stimulus_en": "Dear Mom, I ________ London today. It is beautiful! (visitar)",
-          "correct_answer": "visit",
-          "mastery_tag": "syntax",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
-        },
-        {
-          "interaction_id": "A1_U43_B43_3_I4",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Viajo con mis amigos' ([[travel|viajar]])",
-          "stimulus_es": "Viajo con mis amigos",
-          "correct_answer": "I travel with my friends",
-          "mastery_tag": "syntax",
-          "complexity": 4,
-          "concept_tags": [
-            "grammar",
-            "syntax"
-          ]
-        },
-        {
-          "interaction_id": "A1_U43_B43_3_I5",
-          "type": "true_false",
-          "prompt_es": "You stay at a hotel when you travel. ([[hotel|hotel]])",
-          "correct_answer": true,
-          "mastery_tag": "syntax",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "syntax"
+          "interaction_id": "A1_U43_I40",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Destination|Destino]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Travel|Viajar]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Return|Volver]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Journey|Viaje (recorrido)]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
           ]
         }
       ]
     },
     {
-      "block_id": "B43_4",
-      "title": "Block 4: Mastery & Skills",
+      "block_id": "B5",
+      "title": "Reading Comprehension",
       "content": [
         {
-          "interaction_id": "A1_U43_B43_4_I4",
-          "type": "audio_player",
-          "prompt_es": "Escucha la actividad: ([[travel|viajar]])",
-          "audioUrl": "/audio/courses/ingles-a1/shared/f61f52fb04851fe96a0f3b149ec679db.mp3",
-          "text": "We take photos of the city.",
-          "mastery_tag": "listening",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "A1_U43_B43_4_READ1",
-          "type": "reading_phase",
-          "prompt_es": "[[Read|Lee]] [[the|el]] [[following|siguiente]] [[text|texto]] [[carefully|con atención]]:",
-          "transcript": "John and Mary are on vacation. They stay at a hotel. It is big and nice. They have a room with a view of the sea. Every morning, they eat breakfast in the hotel restaurant. They are happy and enjoy their time."
-        },
-        {
-          "interaction_id": "A1_U43_B43_4_I5",
-          "type": "multiple_choice",
-          "prompt_es": "¿Dónde se alojan? ([[hotel|hotel]])",
-          "options": [
-            {
-              "id": "o2",
-              "text": "At a friend's house"
-            },
-            {
-              "id": "o1",
-              "text": "In a car"
-            },
-            {
-              "id": "o3",
-              "text": "At a hotel"
-            }
-          ],
-          "correct_answer": "o3",
+          "interaction_id": "A1_U43_I41",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
           "mastery_tag": "reading",
-          "complexity": 1,
-          "concept_tags": [
-            "grammar",
-            "reading"
-          ]
+          "complexity": 2,
+          "transcript": "[[I'm|Estoy]] [[planning|planeando]] [[a|un]] [[trip|viaje]] [[to|a]] [[Japan|Japón]] [[next|el próximo]] [[year|año]]. [[Amazing|Increíble]]! [[How|Cuánto]] [[long|tiempo]] [[do|vas a]] [[you|tú]] [[plan|plan]] [[to|a]] [[stay|quedarte]]? [[About|Alrededor de]] [[two|dos]] [[weeks|semanas]]. [[I|Yo]] [[want|quiero]] [[to|visitar]] [[visit|visitar]] [[Tokyo|Tokio]] [[and|y]] [[Kyoto|Kioto]]. [[That's|Es]] [[fantastic|fantástico]]! [[Have|Has]] [[you|tú]] [[booked|reservado]] [[your|tus]] [[flights|vuelos]] [[yet|ya]]? [[Not|Todavía]] [[yet|no]]. [[I'm|Estoy]] [[still|todavía]] [[exploring|explorando]] [[routes|rutas]] [[and|y]] [[comparing|comparando]] [[prices|precios]].",
+          "question_en": "[[Where|A dónde]] [[is|va]] [[the|el]] [[speaker|hablante]] [[planning|planeando ir]] [[to|a]] [[travel|viajar]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[China|China]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Korea|Corea]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Japan|Japón]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U43_I42",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I'm|Estoy]] [[planning|planeando]] [[a|un]] [[trip|viaje]] [[to|a]] [[Japan|Japón]] [[next|el próximo]] [[year|año]]. [[Amazing|Increíble]]! [[How|Cuánto]] [[long|tiempo]] [[do|vas a]] [[you|tú]] [[plan|plan]] [[to|a]] [[stay|quedarte]]? [[About|Alrededor de]] [[two|dos]] [[weeks|semanas]]. [[I|Yo]] [[want|quiero]] [[to|visitar]] [[visit|visitar]] [[Tokyo|Tokio]] [[and|y]] [[Kyoto|Kioto]]. [[That's|Es]] [[fantastic|fantástico]]! [[Have|Has]] [[you|tú]] [[booked|reservado]] [[your|tus]] [[flights|vuelos]] [[yet|ya]]? [[Not|Todavía]] [[yet|no]]. [[I'm|Estoy]] [[still|todavía]] [[exploring|explorando]] [[routes|rutas]] [[and|y]] [[comparing|comparando]] [[prices|precios]].",
+          "question_en": "[[When|Cuándo]] [[is|va]] [[the|el]] [[speaker|hablante]] [[planning|a ir]] [[to|a]] [[go|ir]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[This summer|Este verano]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Next year|El próximo año]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Next month|El próximo mes]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U43_I43",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I'm|Estoy]] [[planning|planeando]] [[a|un]] [[trip|viaje]] [[to|a]] [[Japan|Japón]] [[next|el próximo]] [[year|año]]. [[Amazing|Increíble]]! [[How|Cuánto]] [[long|tiempo]] [[do|vas a]] [[you|tú]] [[plan|plan]] [[to|a]] [[stay|quedarte]]? [[About|Alrededor de]] [[two|dos]] [[weeks|semanas]]. [[I|Yo]] [[want|quiero]] [[to|visitar]] [[visit|visitar]] [[Tokyo|Tokio]] [[and|y]] [[Kyoto|Kioto]]. [[That's|Es]] [[fantastic|fantástico]]! [[Have|Has]] [[you|tú]] [[booked|reservado]] [[your|tus]] [[flights|vuelos]] [[yet|ya]]? [[Not|Todavía]] [[yet|no]]. [[I'm|Estoy]] [[still|todavía]] [[exploring|explorando]] [[routes|rutas]] [[and|y]] [[comparing|comparando]] [[prices|precios]].",
+          "question_en": "[[How|Cuánto]] [[long|tiempo]] [[does|quiere]] [[the|el]] [[speaker|hablante]] [[want|quiere]] [[to|quedarse]] [[stay|quedarse]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[One week|Una semana]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Three weeks|Tres semanas]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Two weeks|Dos semanas]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U43_I44",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I'm|Estoy]] [[planning|planeando]] [[a|un]] [[trip|viaje]] [[to|a]] [[Japan|Japón]] [[next|el próximo]] [[year|año]]. [[Amazing|Increíble]]! [[How|Cuánto]] [[long|tiempo]] [[do|vas a]] [[you|tú]] [[plan|plan]] [[to|a]] [[stay|quedarte]]? [[About|Alrededor de]] [[two|dos]] [[weeks|semanas]]. [[I|Yo]] [[want|quiero]] [[to|visitar]] [[visit|visitar]] [[Tokyo|Tokio]] [[and|y]] [[Kyoto|Kioto]]. [[That's|Es]] [[fantastic|fantástico]]! [[Have|Has]] [[you|tú]] [[booked|reservado]] [[your|tus]] [[flights|vuelos]] [[yet|ya]]? [[Not|Todavía]] [[yet|no]]. [[I'm|Estoy]] [[still|todavía]] [[exploring|explorando]] [[routes|rutas]] [[and|y]] [[comparing|comparando]] [[prices|precios]].",
+          "question_en": "[[Which|Cuáles]] [[cities|ciudades]] [[does|quiere]] [[the|el]] [[speaker|hablante]] [[want|quiere]] [[to|visitar]] [[visit|visitar]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Osaka and Kyoto|Osaka y Kioto]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Tokyo and Kyoto|Tokio y Kioto]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Tokyo and Osaka|Tokio y Osaka]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U43_I45",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I'm|Estoy]] [[planning|planeando]] [[a|un]] [[trip|viaje]] [[to|a]] [[Japan|Japón]] [[next|el próximo]] [[year|año]]. [[Amazing|Increíble]]! [[How|Cuánto]] [[long|tiempo]] [[do|vas a]] [[you|tú]] [[plan|plan]] [[to|a]] [[stay|quedarte]]? [[About|Alrededor de]] [[two|dos]] [[weeks|semanas]]. [[I|Yo]] [[want|quiero]] [[to|visitar]] [[visit|visitar]] [[Tokyo|Tokio]] [[and|y]] [[Kyoto|Kioto]]. [[That's|Es]] [[fantastic|fantástico]]! [[Have|Has]] [[you|tú]] [[booked|reservado]] [[your|tus]] [[flights|vuelos]] [[yet|ya]]? [[Not|Todavía]] [[yet|no]]. [[I'm|Estoy]] [[still|todavía]] [[exploring|explorando]] [[routes|rutas]] [[and|y]] [[comparing|comparando]] [[prices|precios]].",
+          "question_en": "[[Has|Ha]] [[the|el]] [[speaker|hablante]] [[booked|reservado]] [[the|los]] [[flights|vuelos]] [[yet|ya]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Yes|Sí]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[No, not yet|No, todavía no]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Yes, and the hotel too|Sí, y también el hotel]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U43_I46",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I'm|Estoy]] [[planning|planeando]] [[a|un]] [[trip|viaje]] [[to|a]] [[Japan|Japón]] [[next|el próximo]] [[year|año]]. [[Amazing|Increíble]]! [[How|Cuánto]] [[long|tiempo]] [[do|vas a]] [[you|tú]] [[plan|plan]] [[to|a]] [[stay|quedarte]]? [[About|Alrededor de]] [[two|dos]] [[weeks|semanas]]. [[I|Yo]] [[want|quiero]] [[to|visitar]] [[visit|visitar]] [[Tokyo|Tokio]] [[and|y]] [[Kyoto|Kioto]]. [[That's|Es]] [[fantastic|fantástico]]! [[Have|Has]] [[you|tú]] [[booked|reservado]] [[your|tus]] [[flights|vuelos]] [[yet|ya]]? [[Not|Todavía]] [[yet|no]]. [[I'm|Estoy]] [[still|todavía]] [[exploring|explorando]] [[routes|rutas]] [[and|y]] [[comparing|comparando]] [[prices|precios]].",
+          "question_en": "[[What|Qué]] [[is|está]] [[the|el]] [[speaker|hablante]] [[still|todavía]] [[doing|haciendo]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Saving money|Ahorrando dinero]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Exploring routes and comparing prices|Explorando rutas y comparando precios]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Learning Japanese|Aprendiendo japonés]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U43_I47",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I'm|Estoy]] [[planning|planeando]] [[a|un]] [[trip|viaje]] [[to|a]] [[Japan|Japón]] [[next|el próximo]] [[year|año]]. [[Amazing|Increíble]]! [[How|Cuánto]] [[long|tiempo]] [[do|vas a]] [[you|tú]] [[plan|plan]] [[to|a]] [[stay|quedarte]]? [[About|Alrededor de]] [[two|dos]] [[weeks|semanas]]. [[I|Yo]] [[want|quiero]] [[to|visitar]] [[visit|visitar]] [[Tokyo|Tokio]] [[and|y]] [[Kyoto|Kioto]]. [[That's|Es]] [[fantastic|fantástico]]! [[Have|Has]] [[you|tú]] [[booked|reservado]] [[your|tus]] [[flights|vuelos]] [[yet|ya]]? [[Not|Todavía]] [[yet|no]]. [[I'm|Estoy]] [[still|todavía]] [[exploring|explorando]] [[routes|rutas]] [[and|y]] [[comparing|comparando]] [[prices|precios]].",
+          "question_en": "[[What|Qué]] [[does|significa]] 'Book' [[mean|significa]] [[in|en]] [[travel|viaje]] [[context|contexto]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Read|Leer]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Reserve/Make a reservation|Reservar]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Pay|Pagar]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U43_I48",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I'm|Estoy]] [[planning|planeando]] [[a|un]] [[trip|viaje]] [[to|a]] [[Japan|Japón]] [[next|el próximo]] [[year|año]]. [[Amazing|Increíble]]! [[How|Cuánto]] [[long|tiempo]] [[do|vas a]] [[you|tú]] [[plan|plan]] [[to|a]] [[stay|quedarte]]? [[About|Alrededor de]] [[two|dos]] [[weeks|semanas]]. [[I|Yo]] [[want|quiero]] [[to|visitar]] [[visit|visitar]] [[Tokyo|Tokio]] [[and|y]] [[Kyoto|Kioto]]. [[That's|Es]] [[fantastic|fantástico]]! [[Have|Has]] [[you|tú]] [[booked|reservado]] [[your|tus]] [[flights|vuelos]] [[yet|ya]]? [[Not|Todavía]] [[yet|no]]. [[I'm|Estoy]] [[still|todavía]] [[exploring|explorando]] [[routes|rutas]] [[and|y]] [[comparing|comparando]] [[prices|precios]].",
+          "question_en": "[[What|Qué]] [[does|significa]] 'Depart' [[mean|significa]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Arrive|Llegar]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Leave/Depart|Partir]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Stay|Quedarse]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U43_I49",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I'm|Estoy]] [[planning|planeando]] [[a|un]] [[trip|viaje]] [[to|a]] [[Japan|Japón]] [[next|el próximo]] [[year|año]]. [[Amazing|Increíble]]! [[How|Cuánto]] [[long|tiempo]] [[do|vas a]] [[you|tú]] [[plan|plan]] [[to|a]] [[stay|quedarte]]? [[About|Alrededor de]] [[two|dos]] [[weeks|semanas]]. [[I|Yo]] [[want|quiero]] [[to|visitar]] [[visit|visitar]] [[Tokyo|Tokio]] [[and|y]] [[Kyoto|Kioto]]. [[That's|Es]] [[fantastic|fantástico]]! [[Have|Has]] [[you|tú]] [[booked|reservado]] [[your|tus]] [[flights|vuelos]] [[yet|ya]]? [[Not|Todavía]] [[yet|no]]. [[I'm|Estoy]] [[still|todavía]] [[exploring|explorando]] [[routes|rutas]] [[and|y]] [[comparing|comparando]] [[prices|precios]].",
+          "question_en": "[[What|Qué]] [[is|es]] [[the|la]] [[difference|diferencia]] [[between|entre]] 'Trip' [[and|y]] 'Journey'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Trip is longer|Trip es más largo]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Journey is the travel, trip is shorter|Journey es el recorrido, trip es corto]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[They are the same|Son lo mismo]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U43_I50",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I'm|Estoy]] [[planning|planeando]] [[a|un]] [[trip|viaje]] [[to|a]] [[Japan|Japón]] [[next|el próximo]] [[year|año]]. [[Amazing|Increíble]]! [[How|Cuánto]] [[long|tiempo]] [[do|vas a]] [[you|tú]] [[plan|plan]] [[to|a]] [[stay|quedarte]]? [[About|Alrededor de]] [[two|dos]] [[weeks|semanas]]. [[I|Yo]] [[want|quiero]] [[to|visitar]] [[visit|visitar]] [[Tokyo|Tokio]] [[and|y]] [[Kyoto|Kioto]]. [[That's|Es]] [[fantastic|fantástico]]! [[Have|Has]] [[you|tú]] [[booked|reservado]] [[your|tus]] [[flights|vuelos]] [[yet|ya]]? [[Not|Todavía]] [[yet|no]]. [[I'm|Estoy]] [[still|todavía]] [[exploring|explorando]] [[routes|rutas]] [[and|y]] [[comparing|comparando]] [[prices|precios]].",
+          "question_en": "[[What|Qué]] [[does|significa]] 'Explore' [[mean|significa]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Stay in one place|Quedarse en un lugar]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Discover new places|Descubrir nuevos lugares]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Book in advance|Reservar con antelación]]"
+            }
+          ],
+          "correct_answer": "o2"
         }
       ]
     },
     {
-      "block_id": "B43_5",
-      "title": "Block 5: Listening & Pronunciation",
+      "block_id": "B6",
+      "title": "Production",
       "content": [
         {
-          "interaction_id": "U43_I301",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[museum|museo]])",
-          "stimulus_en": "I visit many museums.",
-          "correct_answer": "I visit many museums.",
-          "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-1.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
+          "interaction_id": "A1_U43_I51",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Depart|Salir/Partir]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Explore|Explorar]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Arrive|Llegar]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Visit|Visitar]]"
+            }
+          ],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U43_I302",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[hotel|hotel]])",
-          "stimulus_en": "They stay at a hotel.",
-          "correct_answer": "They stay at a hotel.",
-          "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-2.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
+          "interaction_id": "A1_U43_I52",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Explore|Explorar]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Travel|Viajar]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Stay|Quedarse]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Book|Reservar]]"
+            }
+          ],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U43_I303",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[many|muchos/as]])",
-          "stimulus_en": "We take many photos.",
-          "correct_answer": "We take many photos.",
-          "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-3.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
+          "interaction_id": "A1_U43_I53",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Travel|Viajar]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Destination|Destino]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Pack|Empacar/Hacer la maleta]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Journey|Viaje (recorrido)]]"
+            }
+          ],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U43_I304",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[travel|viajar]])",
-          "stimulus_en": "He travels around the world.",
-          "correct_answer": "He travels around the world.",
-          "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-4.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
+          "interaction_id": "A1_U43_I54",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Destination|Destino]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Connect|Hacer escala]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Trip|Viaje (corto)]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Route|Ruta]]"
+            }
+          ],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "U43_I305",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[souvenir|recuerdo]])",
-          "stimulus_en": "She buys souvenirs for her friends.",
-          "correct_answer": "She buys souvenirs for her friends.",
-          "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-5.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
+          "interaction_id": "A1_U43_I55",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[I|Yo]] [[love|me encanta]] [[to|explorar]] ______ [[new|nuevas]] [[cities|ciudades]] [[on|a]] [[foot|pie]].",
+          "correct_answer": "explore"
         },
         {
-          "interaction_id": "U43_I306",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[airport|aeropuerto]])",
-          "stimulus_en": "We arrive at the airport early.",
-          "correct_answer": "We arrive at the airport early.",
-          "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-6.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
+          "interaction_id": "A1_U43_I56",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[The|El]] [[train|tren]] ______ [[at|a]] [[nine|las nueve]] [[o'clock|en punto]].",
+          "correct_answer": "arrives"
         },
         {
-          "interaction_id": "U43_I307",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y escribe lo que oyes: ([[vacation|vacaciones]])",
-          "stimulus_en": "They enjoy their vacation.",
-          "correct_answer": "They enjoy their vacation.",
-          "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-7.mp3",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "listening",
-            "vocabulary"
-          ]
+          "interaction_id": "A1_U43_I57",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[I|Yo]] [[always|siempre]] ______ [[my|mis]] [[hotels|hoteles]] [[in|con]] [[advance|antelación]].",
+          "correct_answer": "book"
         },
         {
-          "interaction_id": "U43_I308",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[travel|viajar]])",
-          "title": "Pronunciación: Visit",
-          "instructions": "Escucha y repite enfocándote en la 'v' vibrante.",
-          "targetSentences": [
-            {
-              "text": "I [[visit|visito]] London.",
-              "phonetic": "/aɪ ˈvɪzɪt ˈlʌndən/",
-              "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-8.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U43_I308_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'v' en 'visit'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Vibrante, con los dientes superiores en el labio inferior (/v/)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Igual que la 'b' española"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
+          "interaction_id": "A1_U43_I58",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[I'm|Estoy]] [[planning|planeando]] [[a|un]] [[trip|viaje]] [[to|a]] [[Japan|Japón]] [[next|el próximo]] [[year|año]].",
+          "correct_answer": true
         },
         {
-          "interaction_id": "U43_I309",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[travel|viajar]])",
-          "title": "Pronunciación: Stay",
-          "instructions": "Escucha y repite el diptongo.",
-          "targetSentences": [
-            {
-              "text": "They [[stay|se alojan]] here.",
-              "phonetic": "/ðeɪ steɪ hɪə/",
-              "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-9.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U43_I309_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'ay' en 'stay'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Como una 'ei' (/eɪ/)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como una 'a' simple"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
+          "interaction_id": "A1_U43_I59",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Amazing|Increíble]]! [[How|Cuánto]] [[long|tiempo]] [[do|vas a]] [[you|tú]] [[plan|plan]] [[to|a]] [[stay|quedarte]]?",
+          "correct_answer": false
         },
         {
-          "interaction_id": "U43_I310",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[travel|viajar]])",
-          "title": "Pronunciación: Travel",
-          "instructions": "Escucha y repite la 'l' final.",
-          "targetSentences": [
-            {
-              "text": "We [[travel|viajamos]] [[by|en]] train.",
-              "phonetic": "/wi ˈtrævl baɪ treɪn/",
-              "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-10.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U43_I310_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿La 'l' en 'travel' es clara o oscura?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Oscura (Dark L)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Igual que en español"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U43_I311",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[travel|viajar]])",
-          "title": "Pronunciación: Arrive",
-          "instructions": "Escucha y repite el acento.",
-          "targetSentences": [
-            {
-              "text": "We [[arrive|llegamos]] [[at|a]] noon.",
-              "phonetic": "/wi əˈraɪv æt nuːn/",
-              "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-11.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U43_I311_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Dónde recae el acento en 'arrive'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "En la segunda sílaba (ar-RIVE)"
-                },
-                {
-                  "id": "o2",
-                  "text": "En la primera sílaba (AR-rive)"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U43_I312",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[travel|viajar]])",
-          "title": "Pronunciación: Photo",
-          "instructions": "Escucha y repite la 'ph'.",
-          "targetSentences": [
-            {
-              "text": "Take a [[photo|foto]].",
-              "phonetic": "/teɪk ə ˈfəʊtəʊ/",
-              "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-12.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U43_I312_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'ph' en 'photo'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Como una 'f' (/f/)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como una 'p'"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U43_I313",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[travel|viajar]])",
-          "title": "Pronunciación: Souvenir",
-          "instructions": "Escucha y repite el acento francés.",
-          "targetSentences": [
-            {
-              "text": "Buy a [[souvenir|recuerdo]].",
-              "phonetic": "/ˌsuːvəˈnɪə/",
-              "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-13.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U43_I313_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Dónde recae el acento principal en 'souvenir'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "En la última sílaba (-NIR)"
-                },
-                {
-                  "id": "o2",
-                  "text": "En la primera sílaba (SOU-)"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U43_I314",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[travel|viajar]])",
-          "title": "Pronunciación: Enjoy",
-          "instructions": "Escucha y repite la 'j'.",
-          "targetSentences": [
-            {
-              "text": "[[Enjoy|Disfruta]] your [[trip|viaje]].",
-              "phonetic": "/ɪnˈdʒɔɪ jɔː trɪp/",
-              "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-14.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U43_I314_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo suena la 'j' en 'enjoy'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Como /dʒ/ (ll o y fuerte)"
-                },
-                {
-                  "id": "o2",
-                  "text": "Como la 'j' española"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U43_I315",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[travel|viajar]])",
-          "title": "Pronunciación: Repaso Travel Verbs",
-          "instructions": "Escucha y repite la frase completa.",
-          "targetSentences": [
-            {
-              "text": "They [[stay|se alojan]] at a [[nice|bonito]] [[hotel|hotel]].",
-              "phonetic": "/ðeɪ steɪ æt ə naɪs həʊˈtɛl/",
-              "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-15.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U43_I315_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Dónde recae el acento en 'hotel'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "En la segunda sílaba (ho-TEL)"
-                },
-                {
-                  "id": "o2",
-                  "text": "En la primera sílaba (HO-tel)"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Practice Sessions",
-      "content": [
-        {
-          "interaction_id": "U43_FILLER_0",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'go' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Go|go]]"
-            },
-            {
-              "id": "o2",
-              "text": "Explore"
-            },
-            {
-              "id": "o3",
-              "text": "Land"
-            },
-            {
-              "id": "o4",
-              "text": "Book"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U43_FILLER_1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'stay' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Pack"
-            },
-            {
-              "id": "o2",
-              "text": "[[Stay|stay]]"
-            },
-            {
-              "id": "o3",
-              "text": "Cancel"
-            },
-            {
-              "id": "o4",
-              "text": "Travel"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U43_FILLER_2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'visit' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Arrive"
-            },
-            {
-              "id": "o2",
-              "text": "Travel"
-            },
-            {
-              "id": "o3",
-              "text": "[[Visit|visit]]"
-            },
-            {
-              "id": "o4",
-              "text": "Pack"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U43_FILLER_3",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'arrive' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Arrive|llegar]]"
-            },
-            {
-              "id": "o2",
-              "text": "Depart"
-            },
-            {
-              "id": "o3",
-              "text": "Board"
-            },
-            {
-              "id": "o4",
-              "text": "Land"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U43_FILLER_4",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'depart' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Depart|salir/partir]]"
-            },
-            {
-              "id": "o2",
-              "text": "Check in"
-            },
-            {
-              "id": "o3",
-              "text": "Arrive"
-            },
-            {
-              "id": "o4",
-              "text": "Pack"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U43_FILLER_5",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'travel' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Board"
-            },
-            {
-              "id": "o2",
-              "text": "[[Travel|viajar]]"
-            },
-            {
-              "id": "o3",
-              "text": "Book"
-            },
-            {
-              "id": "o4",
-              "text": "Depart"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U43_FILLER_6",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'book' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Explore"
-            },
-            {
-              "id": "o2",
-              "text": "[[Book|reservar]]"
-            },
-            {
-              "id": "o3",
-              "text": "Travel"
-            },
-            {
-              "id": "o4",
-              "text": "Arrive"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U43_FILLER_7",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'go' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Go|go]]"
-            },
-            {
-              "id": "o2",
-              "text": "Travel"
-            },
-            {
-              "id": "o3",
-              "text": "Arrive"
-            },
-            {
-              "id": "o4",
-              "text": "Land"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U43_FILLER_8",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'stay' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Board"
-            },
-            {
-              "id": "o2",
-              "text": "Book"
-            },
-            {
-              "id": "o3",
-              "text": "Pack"
-            },
-            {
-              "id": "o4",
-              "text": "[[Stay|stay]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U43_FILLER_9",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'visit' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Pack"
-            },
-            {
-              "id": "o2",
-              "text": "Depart"
-            },
-            {
-              "id": "o3",
-              "text": "Board"
-            },
-            {
-              "id": "o4",
-              "text": "[[Visit|visit]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U43_FILLER_10",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'arrive' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Board"
-            },
-            {
-              "id": "o2",
-              "text": "[[Arrive|llegar]]"
-            },
-            {
-              "id": "o3",
-              "text": "Pack"
-            },
-            {
-              "id": "o4",
-              "text": "Travel"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U43_FILLER_11",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'depart' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Depart|salir/partir]]"
-            },
-            {
-              "id": "o2",
-              "text": "Land"
-            },
-            {
-              "id": "o3",
-              "text": "Arrive"
-            },
-            {
-              "id": "o4",
-              "text": "Cancel"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U43_FILLER_12",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'travel' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Check in"
-            },
-            {
-              "id": "o2",
-              "text": "[[Travel|viajar]]"
-            },
-            {
-              "id": "o3",
-              "text": "Arrive"
-            },
-            {
-              "id": "o4",
-              "text": "Depart"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U43_FILLER_13",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'book' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Board"
-            },
-            {
-              "id": "o2",
-              "text": "Explore"
-            },
-            {
-              "id": "o3",
-              "text": "Travel"
-            },
-            {
-              "id": "o4",
-              "text": "[[Book|reservar]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U43_FILLER_14",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'go' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Explore"
-            },
-            {
-              "id": "o2",
-              "text": "[[Go|go]]"
-            },
-            {
-              "id": "o3",
-              "text": "Depart"
-            },
-            {
-              "id": "o4",
-              "text": "Arrive"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U43_FILLER_15",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'stay' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Stay|stay]]"
-            },
-            {
-              "id": "o2",
-              "text": "Land"
-            },
-            {
-              "id": "o3",
-              "text": "Explore"
-            },
-            {
-              "id": "o4",
-              "text": "Depart"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U43_FILLER_16",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'visit' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Explore"
-            },
-            {
-              "id": "o2",
-              "text": "Board"
-            },
-            {
-              "id": "o3",
-              "text": "[[Visit|visit]]"
-            },
-            {
-              "id": "o4",
-              "text": "Pack"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U43_FILLER_17",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'arrive' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Pack"
-            },
-            {
-              "id": "o2",
-              "text": "[[Arrive|llegar]]"
-            },
-            {
-              "id": "o3",
-              "text": "Depart"
-            },
-            {
-              "id": "o4",
-              "text": "Land"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U43_FILLER_18",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'depart' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Depart|salir/partir]]"
-            },
-            {
-              "id": "o2",
-              "text": "Pack"
-            },
-            {
-              "id": "o3",
-              "text": "Explore"
-            },
-            {
-              "id": "o4",
-              "text": "Cancel"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U43_FILLER_19",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'travel' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Travel|viajar]]"
-            },
-            {
-              "id": "o2",
-              "text": "Land"
-            },
-            {
-              "id": "o3",
-              "text": "Book"
-            },
-            {
-              "id": "o4",
-              "text": "Board"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U43_FILLER_20",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'book' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Cancel"
-            },
-            {
-              "id": "o2",
-              "text": "[[Book|reservar]]"
-            },
-            {
-              "id": "o3",
-              "text": "Arrive"
-            },
-            {
-              "id": "o4",
-              "text": "Board"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U43_FILLER_21",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'go' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Board"
-            },
-            {
-              "id": "o2",
-              "text": "[[Go|go]]"
-            },
-            {
-              "id": "o3",
-              "text": "Land"
-            },
-            {
-              "id": "o4",
-              "text": "Cancel"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U43_FILLER_22",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'stay' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Check in"
-            },
-            {
-              "id": "o2",
-              "text": "[[Stay|stay]]"
-            },
-            {
-              "id": "o3",
-              "text": "Land"
-            },
-            {
-              "id": "o4",
-              "text": "Depart"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U43_FILLER_23",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'visit' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Board"
-            },
-            {
-              "id": "o2",
-              "text": "Explore"
-            },
-            {
-              "id": "o3",
-              "text": "[[Visit|visit]]"
-            },
-            {
-              "id": "o4",
-              "text": "Cancel"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U43_FILLER_24",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'arrive' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Cancel"
-            },
-            {
-              "id": "o2",
-              "text": "Board"
-            },
-            {
-              "id": "o3",
-              "text": "Check in"
-            },
-            {
-              "id": "o4",
-              "text": "[[Arrive|llegar]]"
-            }
-          ],
-          "correct_answer": "o4",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U43_FILLER_25",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'depart' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Explore"
-            },
-            {
-              "id": "o2",
-              "text": "[[Depart|salir/partir]]"
-            },
-            {
-              "id": "o3",
-              "text": "Cancel"
-            },
-            {
-              "id": "o4",
-              "text": "Check in"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U43_FILLER_26",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'travel' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Travel|viajar]]"
-            },
-            {
-              "id": "o2",
-              "text": "Pack"
-            },
-            {
-              "id": "o3",
-              "text": "Cancel"
-            },
-            {
-              "id": "o4",
-              "text": "Book"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U43_FILLER_27",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'book' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Board"
-            },
-            {
-              "id": "o2",
-              "text": "Arrive"
-            },
-            {
-              "id": "o3",
-              "text": "[[Book|reservar]]"
-            },
-            {
-              "id": "o4",
-              "text": "Pack"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U43_FILLER_28",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'go' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Go|go]]"
-            },
-            {
-              "id": "o2",
-              "text": "Depart"
-            },
-            {
-              "id": "o3",
-              "text": "Land"
-            },
-            {
-              "id": "o4",
-              "text": "Travel"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U43_FILLER_29",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'stay' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Board"
-            },
-            {
-              "id": "o2",
-              "text": "[[Stay|stay]]"
-            },
-            {
-              "id": "o3",
-              "text": "Land"
-            },
-            {
-              "id": "o4",
-              "text": "Pack"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary"
-        }
-      ]
-    },
-    {
-      "title": "Lesson 5: Listening & Pronunciation Review",
-      "duration_minutes": 20,
-      "content": [
-        {
-          "interaction_id": "U43_L5_I1",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[travel|viajar]])",
-          "audio_url": "/audio/courses/ingles-a1/unit43/lesson5-task-1.mp3",
-          "transcript_template": "The [[go|]] is here.",
-          "correct_answer": "go",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "U43_L5_I2",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[travel|viajar]])",
-          "audio_url": "/audio/courses/ingles-a1/unit43/lesson5-task-2.mp3",
-          "transcript_template": "The [[stay|]] is here.",
-          "correct_answer": "stay",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "U43_L5_I3",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[travel|viajar]])",
-          "audio_url": "/audio/courses/ingles-a1/unit43/lesson5-task-3.mp3",
-          "transcript_template": "The [[visit|]] is here.",
-          "correct_answer": "visit",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "U43_L5_I4",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[travel|viajar]])",
-          "audio_url": "/audio/courses/ingles-a1/unit43/lesson5-task-4.mp3",
-          "transcript_template": "The [[arrive|]] is here.",
-          "correct_answer": "arrive",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "U43_L5_I5",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[travel|viajar]])",
-          "audio_url": "/audio/courses/ingles-a1/unit43/lesson5-task-5.mp3",
-          "transcript_template": "The [[depart|]] is here.",
-          "correct_answer": "depart",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "U43_L5_I6",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[travel|viajar]])",
-          "audio_url": "/audio/courses/ingles-a1/unit43/lesson5-task-6.mp3",
-          "transcript_template": "The [[travel|]] is here.",
-          "correct_answer": "travel",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "U43_L5_I7",
-          "type": "listening_dictation",
-          "prompt_es": "Escucha y completa la frase: ([[travel|viajar]])",
-          "audio_url": "/audio/courses/ingles-a1/unit43/lesson5-task-7.mp3",
-          "transcript_template": "The [[book|]] is here.",
-          "correct_answer": "book",
-          "mastery_tag": "listening",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary",
-            "listening"
-          ]
-        },
-        {
-          "interaction_id": "U43_L5_I8",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[travel|viajar]])",
-          "title": "Pronunciación: Travel Verbs",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[go|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-8.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U43_L5_I8_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'go'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U43_L5_I9",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[travel|viajar]])",
-          "title": "Pronunciación: Travel Verbs",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[stay|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-9.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U43_L5_I9_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'stay'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U43_L5_I10",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[travel|viajar]])",
-          "title": "Pronunciación: Travel Verbs",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[visit|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-10.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U43_L5_I10_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'visit'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U43_L5_I11",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[travel|viajar]])",
-          "title": "Pronunciación: Travel Verbs",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[arrive|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-11.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U43_L5_I11_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'arrive'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U43_L5_I12",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[travel|viajar]])",
-          "title": "Pronunciación: Travel Verbs",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[depart|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-12.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U43_L5_I12_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'depart'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U43_L5_I13",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[travel|viajar]])",
-          "title": "Pronunciación: Travel Verbs",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[travel|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-13.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U43_L5_I13_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'travel'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U43_L5_I14",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[travel|viajar]])",
-          "title": "Pronunciación: Travel Verbs",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[book|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-14.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U43_L5_I14_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'book'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
-        },
-        {
-          "interaction_id": "U43_L5_I15",
-          "type": "pronunciation",
-          "prompt_es": "Escucha y practica la pronunciación: ([[travel|viajar]])",
-          "title": "Pronunciación: Travel Verbs",
-          "instructions": "Escucha y repite la frase enfocándote en la entonación.",
-          "targetSentences": [
-            {
-              "text": "I [[like|me gusta]] this [[go|]].",
-              "phonetic": "",
-              "audioUrl": "/audio/courses/ingles-a1/unit43/lesson5-task-15.mp3"
-            }
-          ],
-          "questions": [
-            {
-              "id": "U43_L5_I15_Q1",
-              "type": "multiple_choice",
-              "prompt_es": "¿Cómo se pronuncia 'go'?",
-              "options": [
-                {
-                  "id": "o1",
-                  "text": "Correctamente"
-                },
-                {
-                  "id": "o2",
-                  "text": "Incorrectamente"
-                }
-              ],
-              "correct_answer": "o1",
-              "mastery_tag": "pronunciation"
-            }
-          ],
-          "mastery_tag": "pronunciation",
-          "complexity": 2,
-          "concept_tags": [
-            "phonetics",
-            "pronunciation"
-          ]
+          "interaction_id": "A1_U43_I60",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[About|Alrededor de]] [[two|dos]] [[weeks|semanas]]. [[I|Yo]] [[want|quiero]] [[to|visitar]] [[visit|visitar]] [[Tokyo|Tokio]] [[and|y]] [[Kyoto|Kioto]].",
+          "correct_answer": true
         }
       ]
     }

@@ -1,6 +1,6 @@
 {
   "course": {
-    "unit_id": "U11",
+    "unit_id": "unit11",
     "unit_title": "Telling the Time",
     "level": "A1",
     "total_duration_minutes": 60,
@@ -8,261 +8,814 @@
     "target_language": "en"
   },
   "learning_outcomes": [
-    "Ask and tell the time using o'clock, quarter past/to, half past",
-    "Use the preposition 'at' for specific times",
-    "Distinguish between AM and PM, midday and midnight",
-    "Read and write times in English"
+    "Tell and ask for the time in English",
+    "Use o'clock, half past, quarter past/to",
+    "Use the preposition 'at' with times"
   ],
   "blocks": [
     {
       "block_id": "B1",
-      "title": "O'clock & Basic Times",
+      "title": "Vocabulary Introduction",
       "content": [
         {
-          "interaction_id": "U11_I1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[It is eight o'clock|Son las ocho en punto]]'?",
+          "interaction_id": "A1_U11_I1",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[O'clock|En punto]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[It is eight o'clock|Son las ocho en punto]]"
+              "text": "[[En punto|O'clock]]"
             },
             {
               "id": "o2",
-              "text": "[[It is eight hours|Son las ocho horas]]"
+              "text": "[[Y media|Half past]]"
             },
             {
               "id": "o3",
-              "text": "[[It is eight in point|Son las ocho en punto así]]"
+              "text": "[[Y cuarto|Quarter past]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 1
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U11_I2",
-          "type": "matching",
-          "prompt_es": "Une el número con la hora en inglés:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[One o'clock|La una en punto]]",
-              "right": "Las dos en punto"
-            },
-            {
-              "id": "p2",
-              "left": "[[Two o'clock|Las dos en punto]]",
-              "right": "Las cuatro en punto"
-            },
-            {
-              "id": "p3",
-              "left": "[[Three o'clock|Las tres en punto]]",
-              "right": "La una en punto"
-            },
-            {
-              "id": "p4",
-              "left": "[[Four o'clock|Las cuatro en punto]]",
-              "right": "Las tres en punto"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p3",
-            "p2": "p1",
-            "p3": "p4",
-            "p4": "p2"
-          },
+          "interaction_id": "A1_U11_I2",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U11_I3",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'Son las nueve en punto.' ([[food|comida]])",
-          "stimulus_en": "It is nine ________.",
-          "correct_answer": "o'clock",
-          "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U11_I4",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la forma correcta de preguntar la hora?",
+          "complexity": 1,
+          "stimulus_en": "[[Half past|Y media]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[What hour is it?|¿Qué hora es?]]"
+              "text": "[[Y cuarto|Quarter past]]"
             },
             {
               "id": "o2",
-              "text": "[[What time is it?|¿Qué hora es?]]"
+              "text": "[[Y media|Half past]]"
             },
             {
               "id": "o3",
-              "text": "[[Which time have you?|¿Qué hora tienes?]]"
+              "text": "[[Menos cuarto|Quarter to]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "phrases",
-          "complexity": 1
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U11_I5",
-          "type": "true_false",
-          "prompt_es": "La estructura '[[It is + time + o'clock|Es + hora + en punto]]' es correcta en inglés.",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U11_I6",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'Son las diez en punto.' ([[food|comida]])",
-          "options": [
-            {
-              "id": "w1",
-              "text": "It"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "ten"
-            },
-            {
-              "id": "w4",
-              "text": "o'clock."
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U11_I7",
-          "type": "multiple_choice",
-          "prompt_es": "Son las 12:00 del mediodía. ¿Cómo se dice en inglés?",
+          "interaction_id": "A1_U11_I3",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Quarter past|Y cuarto]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[Midnight|Medianoche]]"
+              "text": "[[Menos cuarto|Quarter to]]"
             },
             {
               "id": "o2",
-              "text": "[[Midday|Mediodía]]"
+              "text": "[[Minuto|Minute]]"
             },
             {
               "id": "o3",
-              "text": "[[Mid-morning|Media mañana]]"
+              "text": "[[Y cuarto|Quarter past]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U11_I8",
-          "type": "fill_blanks",
-          "prompt_es": "Las 12:00 de la noche se llama '________' en inglés. ([[food|comida]])",
-          "stimulus_en": "12:00 AM is called ________.",
-          "correct_answer": "midnight",
+          "interaction_id": "A1_U11_I4",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U11_I9",
-          "type": "matching",
-          "prompt_es": "Une el momento del día con su significado:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[AM|De la mañana]]",
-              "right": "De la tarde/noche"
-            },
-            {
-              "id": "p2",
-              "left": "[[PM|De la tarde/noche]]",
-              "right": "Mediodía"
-            },
-            {
-              "id": "p3",
-              "left": "[[Midday|Mediodía]]",
-              "right": "Medianoche"
-            },
-            {
-              "id": "p4",
-              "left": "[[Midnight|Medianoche]]",
-              "right": "De la mañana"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p4",
-            "p2": "p1",
-            "p3": "p2",
-            "p4": "p3"
-          },
-          "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U11_I10",
-          "type": "multiple_choice",
-          "prompt_es": "Son las 3:00 PM. ¿Qué significa PM? ([[food|comida]])",
+          "complexity": 1,
+          "stimulus_en": "[[Quarter to|Menos cuarto]]",
           "options": [
             {
               "id": "o1",
-              "text": "De la mañana (antes del mediodía)"
+              "text": "[[Menos cuarto|Quarter to]]"
             },
             {
               "id": "o2",
-              "text": "En punto (exactamente)"
+              "text": "[[Minuto|Minute]]"
             },
             {
               "id": "o3",
-              "text": "De la tarde/noche (después del mediodía)"
+              "text": "[[Hora|Hour]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U11_I11",
-          "type": "true_false",
-          "prompt_es": "'[[PM|De la tarde]]' se usa para las horas de la mañana (antes de las 12:00).",
-          "correct_answer": false,
+          "interaction_id": "A1_U11_I5",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
-          "complexity": 1
+          "complexity": 1,
+          "stimulus_en": "[[Minute|Minuto]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Hora|Hour]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Minuto|Minute]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Mañana (parte del día)|Morning]]"
+            }
+          ],
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U11_I12",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Son las cinco en punto.' ([[food|comida]])",
-          "correct_answer": "It is five o'clock",
-          "mastery_tag": "syntax",
-          "complexity": 3
+          "interaction_id": "A1_U11_I6",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Hour|Hora]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Mañana (parte del día)|Morning]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Tarde|Afternoon]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Hora|Hour]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U11_I7",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Mañana (parte del día)]]",
+          "correct_answer": "Morning"
+        },
+        {
+          "interaction_id": "A1_U11_I8",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Tarde]]",
+          "correct_answer": "Afternoon"
+        },
+        {
+          "interaction_id": "A1_U11_I9",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Noche temprana]]",
+          "correct_answer": "Evening"
+        },
+        {
+          "interaction_id": "A1_U11_I10",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Noche]]",
+          "correct_answer": "Night"
         }
       ]
     },
     {
       "block_id": "B2",
-      "title": "Quarter Past, Half Past & Quarter To",
+      "title": "Vocabulary in Context",
       "content": [
         {
-          "interaction_id": "U11_I13",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '8:15' en inglés?",
+          "interaction_id": "A1_U11_I11",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Quarter to|Menos cuarto]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[A quarter to eight|Las ocho menos cuarto]]"
+              "text": "[[Quarter to|Menos cuarto]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Morning|Mañana (parte del día)]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Night|Noche]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U11_I12",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Minute|Minuto]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Afternoon|Tarde]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Minute|Minuto]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Early|Temprano]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U11_I13",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Hour|Hora]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Evening|Noche temprana]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Late|Tarde (tardío)]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Hour|Hora]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U11_I14",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Morning|Mañana (parte del día)]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Morning|Mañana (parte del día)]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Night|Noche]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Clock|Reloj]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U11_I15",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "______ [[time|hora]] [[is|es]] [[it|son]]?",
+          "correct_answer": "What"
+        },
+        {
+          "interaction_id": "A1_U11_I16",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[It|Son]] ______ [[three|las tres]] [[o'clock|en punto]].",
+          "correct_answer": "is"
+        },
+        {
+          "interaction_id": "A1_U11_I17",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[My|Mi]] [[class|clase]] [[starts|empieza]] ______ [[nine|las nueve]].",
+          "correct_answer": "at"
+        },
+        {
+          "interaction_id": "A1_U11_I18",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[O'clock|En punto]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Quarter past|Y cuarto]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Half past|Y media]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U11_I19",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Minute|Minuto]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Morning|Mañana (parte del día)]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Hour|Hora]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U11_I20",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Evening|Noche temprana]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Early|Temprano]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Night|Noche]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Grammar — Affirmative",
+      "content": [
+        {
+          "interaction_id": "A1_U11_I21",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "______ [[time|hora]] [[is|es]] [[it|son]]?",
+          "correct_answer": "What"
+        },
+        {
+          "interaction_id": "A1_U11_I22",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[It|Son]] ______ [[three|las tres]] [[o'clock|en punto]].",
+          "correct_answer": "is"
+        },
+        {
+          "interaction_id": "A1_U11_I23",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[My|Mi]] [[class|clase]] [[starts|empieza]] ______ [[nine|las nueve]].",
+          "correct_answer": "at"
+        },
+        {
+          "interaction_id": "A1_U11_I24",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[The|La]] [[party|fiesta]] [[is|es]] ______ [[half|y]] [[past|media]] [[seven|las siete]].",
+          "correct_answer": "at"
+        },
+        {
+          "interaction_id": "A1_U11_I25",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[It|Son]] [[quarter|un cuarto]] ______ [[ten|las diez]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[past|past]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[is|is]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[at|at]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U11_I26",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[wake|me despierto]] [[up|arriba]] ______ [[seven|las siete]] [[o'clock|en punto]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[at|at]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[at|at]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[at|at]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U11_I27",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "______ [[time|hora]] [[is|es]] [[it|son]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[at|at]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[past|past]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[What|What]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U11_I28",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[It|Son]] ______ [[three|las tres]] [[o'clock|en punto]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[is|is]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[past|past]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[at|at]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U11_I29",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Quarter past|Y cuarto]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[O'clock|En punto]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Minute|Minuto]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
+          ]
+        },
+        {
+          "interaction_id": "A1_U11_I30",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Afternoon|Tarde]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Hour|Hora]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Night|Noche]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Grammar — Negative & Questions",
+      "content": [
+        {
+          "interaction_id": "A1_U11_I31",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[My|Mi]] [[class|clase]] [[starts|empieza]] ______ [[nine|las nueve]].",
+          "correct_answer": "at"
+        },
+        {
+          "interaction_id": "A1_U11_I32",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[The|La]] [[party|fiesta]] [[is|es]] ______ [[half|y]] [[past|media]] [[seven|las siete]].",
+          "correct_answer": "at"
+        },
+        {
+          "interaction_id": "A1_U11_I33",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[It|Son]] [[quarter|un cuarto]] ______ [[ten|las diez]].",
+          "correct_answer": "past"
+        },
+        {
+          "interaction_id": "A1_U11_I34",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[The|La]] [[party|fiesta]] [[is|es]] ______ [[half|y]] [[past|media]] [[seven|las siete]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[at|at]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[at|at]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[What|What]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U11_I35",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[It|Son]] [[quarter|un cuarto]] ______ [[ten|las diez]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[What|What]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[past|past]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[is|is]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U11_I36",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[wake|me despierto]] [[up|arriba]] ______ [[seven|las siete]] [[o'clock|en punto]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[is|is]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[at|at]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[at|at]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U11_I37",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "______ [[time|hora]] [[is|es]] [[it|son]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[What|What]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[at|at]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[at|at]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U11_I38",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Minute|Minuto]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Half past|Y media]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Morning|Mañana (parte del día)]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Quarter past|Y cuarto]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
+        },
+        {
+          "interaction_id": "A1_U11_I39",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Afternoon|Tarde]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Minute|Minuto]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Night|Noche]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Hour|Hora]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
+        },
+        {
+          "interaction_id": "A1_U11_I40",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Early|Temprano]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Afternoon|Tarde]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Clock|Reloj]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Evening|Noche temprana]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B5",
+      "title": "Reading Comprehension",
+      "content": [
+        {
+          "interaction_id": "A1_U11_I41",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Disculpa]] [[me|me]], [[what|qué]] [[time|hora]] [[is|es]] [[it|son]]? [[It|Son]] [[half|y]] [[past|media]] [[eight|las ocho]]. [[Oh|Oh]]! [[I|Yo]] [[am|estoy]] [[late|tarde]]! [[My|Mi]] [[class|clase]] [[starts|empieza]] [[at|a]] [[nine|las nueve]] [[o'clock|en punto]]. [[Don't|No]] [[worry|te preocupes]]. [[You|Tú]] [[have|tienes]] [[thirty|treinta]] [[minutes|minutos]]. [[What|A qué]] [[time|hora]] [[does|termina]] [[your|tu]] [[class|clase]] [[finish|termina]]?",
+          "question_en": "[[What|Cuál]] [[time|hora]] [[is|son]] [[it|son]] [[in|en]] [[the|la]] [[conversation|conversación]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Quarter past eight|Las ocho y cuarto]]"
             },
             {
               "id": "o2",
@@ -270,841 +823,215 @@
             },
             {
               "id": "o3",
-              "text": "[[A quarter past eight|Las ocho y cuarto]]"
+              "text": "[[Nine o'clock|Las nueve en punto]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U11_I14",
-          "type": "matching",
-          "prompt_es": "Une la hora con su expresión en inglés: ([[food|comida]])",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "8:15",
-              "right": "Half past eight"
-            },
-            {
-              "id": "p2",
-              "left": "8:30",
-              "right": "A quarter to nine"
-            },
-            {
-              "id": "p3",
-              "left": "8:45",
-              "right": "Eight o'clock"
-            },
-            {
-              "id": "p4",
-              "left": "8:00",
-              "right": "A quarter past eight"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p4",
-            "p2": "p1",
-            "p3": "p2",
-            "p4": "p3"
-          },
-          "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U11_I15",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'Son las seis y media.' ([[food|comida]])",
-          "stimulus_en": "It is half ________ six.",
-          "correct_answer": "past",
-          "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U11_I16",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '7:45'?",
+          "interaction_id": "A1_U11_I42",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Disculpa]] [[me|me]], [[what|qué]] [[time|hora]] [[is|es]] [[it|son]]? [[It|Son]] [[half|y]] [[past|media]] [[eight|las ocho]]. [[Oh|Oh]]! [[I|Yo]] [[am|estoy]] [[late|tarde]]! [[My|Mi]] [[class|clase]] [[starts|empieza]] [[at|a]] [[nine|las nueve]] [[o'clock|en punto]]. [[Don't|No]] [[worry|te preocupes]]. [[You|Tú]] [[have|tienes]] [[thirty|treinta]] [[minutes|minutos]]. [[What|A qué]] [[time|hora]] [[does|termina]] [[your|tu]] [[class|clase]] [[finish|termina]]?",
+          "question_en": "[[What|A qué]] [[time|hora]] [[does|empieza]] [[the|la]] [[class|clase]] [[start|empieza]]?",
           "options": [
             {
               "id": "o1",
-              "text": "[[A quarter past seven|Las siete y cuarto]]"
+              "text": "[[At nine o'clock|A las nueve]]"
             },
             {
               "id": "o2",
-              "text": "[[A quarter to eight|Las ocho menos cuarto]]"
+              "text": "[[At eight o'clock|A las ocho]]"
             },
             {
               "id": "o3",
-              "text": "[[Half past seven|Las siete y media]]"
+              "text": "[[At ten o'clock|A las diez]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U11_I17",
-          "type": "true_false",
-          "prompt_es": "'[[Half past ten|Las diez y media]]' se puede decir también '[[Ten thirty|Las diez y treinta]]' en un contexto informal.",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U11_I18",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'Son las diez y cuarto.' ([[food|comida]])",
-          "options": [
-            {
-              "id": "w1",
-              "text": "It"
-            },
-            {
-              "id": "w2",
-              "text": "is"
-            },
-            {
-              "id": "w3",
-              "text": "a"
-            },
-            {
-              "id": "w4",
-              "text": "quarter"
-            },
-            {
-              "id": "w5",
-              "text": "past"
-            },
-            {
-              "id": "w6",
-              "text": "ten."
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U11_I19",
-          "type": "multiple_choice",
-          "prompt_es": "Son las 3:30. ¿Cómo se dice?",
+          "interaction_id": "A1_U11_I43",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Disculpa]] [[me|me]], [[what|qué]] [[time|hora]] [[is|es]] [[it|son]]? [[It|Son]] [[half|y]] [[past|media]] [[eight|las ocho]]. [[Oh|Oh]]! [[I|Yo]] [[am|estoy]] [[late|tarde]]! [[My|Mi]] [[class|clase]] [[starts|empieza]] [[at|a]] [[nine|las nueve]] [[o'clock|en punto]]. [[Don't|No]] [[worry|te preocupes]]. [[You|Tú]] [[have|tienes]] [[thirty|treinta]] [[minutes|minutos]]. [[What|A qué]] [[time|hora]] [[does|termina]] [[your|tu]] [[class|clase]] [[finish|termina]]?",
+          "question_en": "[[How|Cuántos]] [[many|muchos]] [[minutes|minutos]] [[does|tiene]] [[the|el]] [[speaker|hablante]] [[have|tiene]]?",
           "options": [
             {
               "id": "o1",
-              "text": "[[Half past three|Las tres y media]]"
+              "text": "[[Twenty|Veinte]]"
             },
             {
               "id": "o2",
-              "text": "[[A quarter past three|Las tres y cuarto]]"
+              "text": "[[Forty|Cuarenta]]"
             },
             {
               "id": "o3",
-              "text": "[[A quarter to three|Las tres menos cuarto]]"
+              "text": "[[Thirty|Treinta]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U11_I20",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'Son las once menos cuarto.' ([[food|comida]])",
-          "stimulus_en": "It is a quarter ________ eleven.",
-          "correct_answer": "to",
-          "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U11_I21",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés: '9:30' ([[food|comida]])",
-          "correct_answer": "Half past nine",
-          "mastery_tag": "vocabulary",
-          "complexity": 3
-        },
-        {
-          "interaction_id": "U11_I22",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál de estas formas NO es correcta para decir '10:15'?",
+          "interaction_id": "A1_U11_I44",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Disculpa]] [[me|me]], [[what|qué]] [[time|hora]] [[is|es]] [[it|son]]? [[It|Son]] [[half|y]] [[past|media]] [[eight|las ocho]]. [[Oh|Oh]]! [[I|Yo]] [[am|estoy]] [[late|tarde]]! [[My|Mi]] [[class|clase]] [[starts|empieza]] [[at|a]] [[nine|las nueve]] [[o'clock|en punto]]. [[Don't|No]] [[worry|te preocupes]]. [[You|Tú]] [[have|tienes]] [[thirty|treinta]] [[minutes|minutos]]. [[What|A qué]] [[time|hora]] [[does|termina]] [[your|tu]] [[class|clase]] [[finish|termina]]?",
+          "question_en": "[[Why|Por qué]] [[is|está]] [[the|el]] [[speaker|hablante]] [[worried|preocupado]]?",
           "options": [
             {
               "id": "o1",
-              "text": "[[Ten fifteen|Las diez quince]]"
+              "text": "[[Hungry|Hambriento]]"
             },
             {
               "id": "o2",
-              "text": "[[A quarter past ten|Las diez y cuarto]]"
+              "text": "[[Late|Tarde]]"
             },
             {
               "id": "o3",
-              "text": "[[A quarter to ten|Las diez menos cuarto]]"
+              "text": "[[Tired|Cansado]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
-          "complexity": 2
-        }
-      ]
-    },
-    {
-      "block_id": "B3",
-      "title": "The Preposition 'At' for Times",
-      "content": [
+          "correct_answer": "o2"
+        },
         {
-          "interaction_id": "U11_I23",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué preposición usamos para hablar de horas específicas?",
+          "interaction_id": "A1_U11_I45",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Disculpa]] [[me|me]], [[what|qué]] [[time|hora]] [[is|es]] [[it|son]]? [[It|Son]] [[half|y]] [[past|media]] [[eight|las ocho]]. [[Oh|Oh]]! [[I|Yo]] [[am|estoy]] [[late|tarde]]! [[My|Mi]] [[class|clase]] [[starts|empieza]] [[at|a]] [[nine|las nueve]] [[o'clock|en punto]]. [[Don't|No]] [[worry|te preocupes]]. [[You|Tú]] [[have|tienes]] [[thirty|treinta]] [[minutes|minutos]]. [[What|A qué]] [[time|hora]] [[does|termina]] [[your|tu]] [[class|clase]] [[finish|termina]]?",
+          "question_en": "[[How|Cómo]] [[do|se dice]] [[you|uno]] [[say|dice]] 'las ocho y media' [[in|en]] [[English|inglés]]?",
           "options": [
             {
               "id": "o1",
-              "text": "[[In|En]]"
+              "text": "[[Eight and half|Incorrecto]]"
             },
             {
               "id": "o2",
-              "text": "[[On|En/Sobre]]"
+              "text": "[[Half past eight|Las ocho y media]]"
             },
             {
               "id": "o3",
-              "text": "[[At|A las]]"
+              "text": "[[Eight half|Incorrecto]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "grammar",
-          "complexity": 1
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U11_I24",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la preposición correcta: ([[food|comida]])",
-          "stimulus_en": "The class starts ________ 9:00 AM.",
-          "correct_answer": "at",
-          "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U11_I25",
-          "type": "true_false",
-          "prompt_es": "¿Es correcto decir '[[I wake up in 7 o'clock|Me levanto a las 7 en punto]]'?",
-          "correct_answer": false,
-          "mastery_tag": "grammar",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U11_I26",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'Me voy a la cama a las once.' ([[food|comida]])",
-          "options": [
-            {
-              "id": "w1",
-              "text": "I"
-            },
-            {
-              "id": "w2",
-              "text": "go"
-            },
-            {
-              "id": "w3",
-              "text": "to"
-            },
-            {
-              "id": "w4",
-              "text": "bed"
-            },
-            {
-              "id": "w5",
-              "text": "at"
-            },
-            {
-              "id": "w6",
-              "text": "eleven."
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U11_I27",
-          "type": "matching",
-          "prompt_es": "Une el saludo con el momento del día:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Good morning|Buenos días]]",
-              "right": "Buenas tardes"
-            },
-            {
-              "id": "p2",
-              "left": "[[Good afternoon|Buenas tardes]]",
-              "right": "Buenas noches (saludo)"
-            },
-            {
-              "id": "p3",
-              "left": "[[Good evening|Buenas noches (saludo)]]",
-              "right": "Buenas noches (despedida)"
-            },
-            {
-              "id": "p4",
-              "left": "[[Good night|Buenas noches (despedida)]]",
-              "right": "Buenos días"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p4",
-            "p2": "p1",
-            "p3": "p2",
-            "p4": "p3"
-          },
-          "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U11_I28",
-          "type": "multiple_choice",
-          "prompt_es": "La tienda cierra '[[at midnight|a medianoche]]'. ¿A qué hora cierra?",
+          "interaction_id": "A1_U11_I46",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Disculpa]] [[me|me]], [[what|qué]] [[time|hora]] [[is|es]] [[it|son]]? [[It|Son]] [[half|y]] [[past|media]] [[eight|las ocho]]. [[Oh|Oh]]! [[I|Yo]] [[am|estoy]] [[late|tarde]]! [[My|Mi]] [[class|clase]] [[starts|empieza]] [[at|a]] [[nine|las nueve]] [[o'clock|en punto]]. [[Don't|No]] [[worry|te preocupes]]. [[You|Tú]] [[have|tienes]] [[thirty|treinta]] [[minutes|minutos]]. [[What|A qué]] [[time|hora]] [[does|termina]] [[your|tu]] [[class|clase]] [[finish|termina]]?",
+          "question_en": "[[Which|Cuál]] [[preposition|preposición]] [[goes|va]] [[before|antes de]] [[a|una]] [[time|hora]]?",
           "options": [
             {
               "id": "o1",
-              "text": "A las 12:00 de la tarde"
+              "text": "[[in|en]]"
             },
             {
               "id": "o2",
-              "text": "A las 00:00 (medianoche)"
+              "text": "[[on|en (día)]]"
             },
             {
               "id": "o3",
-              "text": "A las 11:00 de la noche"
+              "text": "[[at|a (hora exacta)]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U11_I29",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'El tren sale a las 6:00 AM.' ([[train|tren]])",
-          "stimulus_en": "The train leaves ________ 6:00 AM.",
-          "correct_answer": "at",
-          "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U11_I30",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo preguntas la hora de forma informal?",
+          "interaction_id": "A1_U11_I47",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Disculpa]] [[me|me]], [[what|qué]] [[time|hora]] [[is|es]] [[it|son]]? [[It|Son]] [[half|y]] [[past|media]] [[eight|las ocho]]. [[Oh|Oh]]! [[I|Yo]] [[am|estoy]] [[late|tarde]]! [[My|Mi]] [[class|clase]] [[starts|empieza]] [[at|a]] [[nine|las nueve]] [[o'clock|en punto]]. [[Don't|No]] [[worry|te preocupes]]. [[You|Tú]] [[have|tienes]] [[thirty|treinta]] [[minutes|minutos]]. [[What|A qué]] [[time|hora]] [[does|termina]] [[your|tu]] [[class|clase]] [[finish|termina]]?",
+          "question_en": "[[What|Qué]] [[does|significa]] 'o'clock' [[indicate|indica]]?",
           "options": [
             {
               "id": "o1",
-              "text": "[[What's the time?|¿Qué hora es?]]"
+              "text": "[[Exact hour|Hora exacta]]"
             },
             {
               "id": "o2",
+              "text": "[[Half hour|Media hora]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Quarter hour|Cuarto de hora]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U11_I48",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Disculpa]] [[me|me]], [[what|qué]] [[time|hora]] [[is|es]] [[it|son]]? [[It|Son]] [[half|y]] [[past|media]] [[eight|las ocho]]. [[Oh|Oh]]! [[I|Yo]] [[am|estoy]] [[late|tarde]]! [[My|Mi]] [[class|clase]] [[starts|empieza]] [[at|a]] [[nine|las nueve]] [[o'clock|en punto]]. [[Don't|No]] [[worry|te preocupes]]. [[You|Tú]] [[have|tienes]] [[thirty|treinta]] [[minutes|minutos]]. [[What|A qué]] [[time|hora]] [[does|termina]] [[your|tu]] [[class|clase]] [[finish|termina]]?",
+          "question_en": "[[Which|Cuál]] [[word|palabra]] [[means|significa]] 'Temprano'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Late|Tarde]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Early|Temprano]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Now|Ahora]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U11_I49",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Disculpa]] [[me|me]], [[what|qué]] [[time|hora]] [[is|es]] [[it|son]]? [[It|Son]] [[half|y]] [[past|media]] [[eight|las ocho]]. [[Oh|Oh]]! [[I|Yo]] [[am|estoy]] [[late|tarde]]! [[My|Mi]] [[class|clase]] [[starts|empieza]] [[at|a]] [[nine|las nueve]] [[o'clock|en punto]]. [[Don't|No]] [[worry|te preocupes]]. [[You|Tú]] [[have|tienes]] [[thirty|treinta]] [[minutes|minutos]]. [[What|A qué]] [[time|hora]] [[does|termina]] [[your|tu]] [[class|clase]] [[finish|termina]]?",
+          "question_en": "[[What|Qué]] [[does|significa]] 'Quarter' [[mean|significa]] [[when|al]] [[telling|decir]] [[the|la]] [[time|hora]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[30 minutes|30 minutos]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[20 minutes|20 minutos]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[15 minutes|15 minutos]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U11_I50",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Excuse|Disculpa]] [[me|me]], [[what|qué]] [[time|hora]] [[is|es]] [[it|son]]? [[It|Son]] [[half|y]] [[past|media]] [[eight|las ocho]]. [[Oh|Oh]]! [[I|Yo]] [[am|estoy]] [[late|tarde]]! [[My|Mi]] [[class|clase]] [[starts|empieza]] [[at|a]] [[nine|las nueve]] [[o'clock|en punto]]. [[Don't|No]] [[worry|te preocupes]]. [[You|Tú]] [[have|tienes]] [[thirty|treinta]] [[minutes|minutos]]. [[What|A qué]] [[time|hora]] [[does|termina]] [[your|tu]] [[class|clase]] [[finish|termina]]?",
+          "question_en": "[[How|Cómo]] [[do|preguntas]] [[you|tú]] [[ask|preguntas]] [[for|por]] [[the|la]] [[time|hora]] [[in|en]] [[English|inglés]]?",
+          "options": [
+            {
+              "id": "o1",
               "text": "[[Where is the time?|¿Dónde está la hora?]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[How is the time?|¿Cómo es la hora?]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "phrases",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U11_I31",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'La película empieza a las 8:00 PM.' ([[food|comida]])",
-          "correct_answer": "The film starts at 8:00 PM",
-          "mastery_tag": "syntax",
-          "complexity": 3
-        },
-        {
-          "interaction_id": "U11_I32",
-          "type": "true_false",
-          "prompt_es": "En inglés podemos decir tanto '[[It is seven thirty|Son las siete y treinta]]' como '[[It is half past seven|Son las siete y media]]'.",
-          "correct_answer": true,
-          "mastery_tag": "grammar",
-          "complexity": 1
-        }
-      ]
-    },
-    {
-      "block_id": "B4",
-      "title": "Practice: Mixed Time Exercises",
-      "content": [
-        {
-          "interaction_id": "U11_I33",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se escribe '45 minutos' en la estructura de horas?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Forty-five past|Cuarenta y cinco pasadas]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Forty-five to|Cuarenta y cinco para]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[A quarter to|Menos cuarto]]"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U11_I34",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'Son las doce en punto del mediodía.' ([[food|comida]])",
-          "stimulus_en": "It is twelve ________ — midday.",
-          "correct_answer": "o'clock",
-          "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U11_I35",
-          "type": "matching",
-          "prompt_es": "Une las horas con su traducción:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Half past two|Las dos y media]]",
-              "right": "Las tres menos cuarto"
-            },
-            {
-              "id": "p2",
-              "left": "[[A quarter to three|Las tres menos cuarto]]",
-              "right": "Las cuatro en punto"
-            },
-            {
-              "id": "p3",
-              "left": "[[Four o'clock|Las cuatro en punto]]",
-              "right": "Las cuatro y cuarto"
-            },
-            {
-              "id": "p4",
-              "left": "[[A quarter past four|Las cuatro y cuarto]]",
-              "right": "Las dos y media"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p4",
-            "p2": "p1",
-            "p3": "p2",
-            "p4": "p3"
-          },
-          "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U11_I36",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: '¿A qué hora empieza el partido?' ([[food|comida]])",
-          "options": [
-            {
-              "id": "w1",
-              "text": "What"
-            },
-            {
-              "id": "w2",
-              "text": "time"
-            },
-            {
-              "id": "w3",
-              "text": "does"
-            },
-            {
-              "id": "w4",
-              "text": "the"
-            },
-            {
-              "id": "w5",
-              "text": "match"
-            },
-            {
-              "id": "w6",
-              "text": "start?"
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U11_I37",
-          "type": "multiple_choice",
-          "prompt_es": "Son las 2:00 de la mañana. ¿Cómo se dice?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Two o'clock AM|Las dos en punto de la mañana]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Two o'clock PM|Las dos en punto de la tarde]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[Two o'clock midday|Las dos en punto del mediodía]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U11_I38",
-          "type": "fill_blanks",
-          "prompt_es": "Completa la pregunta: '¿A qué hora es tu clase?' ([[food|comida]])",
-          "stimulus_en": "What ________ is your class?",
-          "correct_answer": "time",
-          "mastery_tag": "phrases",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U11_I39",
-          "type": "true_false",
-          "prompt_es": "Son las 5:45 PM. Esto se puede decir '[[A quarter to six PM|Las seis menos cuarto de la tarde]]'.",
-          "correct_answer": true,
-          "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U11_I40",
-          "type": "short_writing",
-          "prompt_es": "Escribe en inglés: '¿A qué hora es la cena?' ([[food|comida]])",
-          "correct_answer": "What time is dinner?",
-          "mastery_tag": "phrases",
-          "complexity": 3
-        }
-      ]
-    },
-    {
-      "block_id": "B5",
-      "title": "Reading: A Day at School",
-      "content": [
-        {
-          "interaction_id": "U11_READ1",
-          "type": "reading_phase",
-          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[carefully|con atención]].",
-          "transcript": "My name is [[Emma|Emma]]. I am a [[student|estudiante]] at City [[College|colegio universitario]]. My day is very busy. I [[wake up|me despierto]] [[at|a las]] [[half past six|seis y media]] in the morning. My first class [[starts|empieza]] [[at|a las]] nine [[o'clock|en punto]]. At [[quarter past twelve|las doce y cuarto]], I have lunch with my friends in the café. In the afternoon, I have classes [[from|desde]] two [[o'clock|en punto]] [[to|hasta]] [[four o'clock|las cuatro]]. After class, I go to the library. I [[usually|normalmente]] study until [[half past six|las seis y media]]. Then I go home, have dinner at [[eight|las ocho]], and go to bed [[at|a las]] [[eleven o'clock|las once]]. I love my busy student life!",
-          "mastery_tag": "reading",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U11_I41",
-          "type": "multiple_choice",
-          "prompt_es": "Según el texto, ¿a qué hora se despierta Emma?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[At seven o'clock|A las siete en punto]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[At half past seven|A las siete y media]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[At nine o'clock|A las nueve en punto]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U11_I42",
-          "type": "true_false",
-          "prompt_es": "Según el texto, la primera clase de Emma empieza a las nueve. ([[food|comida]])",
-          "correct_answer": true,
-          "mastery_tag": "reading",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U11_I43",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuándo almuerza Emma?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[At twelve o'clock|A las doce en punto]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[At a quarter past twelve|A las doce y cuarto]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[At half past twelve|A las doce y media]]"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "reading",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U11_I44",
-          "type": "fill_blanks",
-          "prompt_es": "Según el texto, las clases de la tarde terminan '[[at four o'clock|a las cuatro en punto]]'.",
-          "stimulus_en": "The afternoon classes finish ________ four o'clock.",
-          "correct_answer": "at",
-          "mastery_tag": "reading",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U11_I45",
-          "type": "multiple_choice",
-          "prompt_es": "¿A qué hora se va a la cama Emma?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[At ten o'clock|A las diez en punto]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[At half past ten|A las diez y media]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[At a quarter to ten|A las diez menos cuarto]]"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U11_I46",
-          "type": "short_writing",
-          "prompt_es": "Traduce: 'Desayuno a las siete y media.' ([[food|comida]])",
-          "correct_answer": "I have breakfast at half past seven",
-          "mastery_tag": "syntax",
-          "complexity": 3
-        },
-        {
-          "interaction_id": "U11_I47",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: 'La escuela empieza a las nueve.' ([[food|comida]])",
-          "options": [
-            {
-              "id": "w1",
-              "text": "School"
-            },
-            {
-              "id": "w2",
-              "text": "starts"
-            },
-            {
-              "id": "w3",
-              "text": "at"
-            },
-            {
-              "id": "w4",
-              "text": "nine"
-            },
-            {
-              "id": "w5",
-              "text": "o'clock."
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "syntax",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U11_I48",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué significa '[[a quarter past|y cuarto]]' en español?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Y cuarto (15 minutos después de la hora)"
-            },
-            {
-              "id": "o2",
-              "text": "Menos cuarto (15 minutos antes de la hora)"
-            },
-            {
-              "id": "o3",
-              "text": "Y media (30 minutos después de la hora)"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U11_I49",
-          "type": "matching",
-          "prompt_es": "Une la hora con su expresión correcta: ([[food|comida]])",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "11:45",
-              "right": "Half past eleven"
-            },
-            {
-              "id": "p2",
-              "left": "11:30",
-              "right": "A quarter past eleven"
-            },
-            {
-              "id": "p3",
-              "left": "11:15",
-              "right": "A quarter to twelve"
-            },
-            {
-              "id": "p4",
-              "left": "11:00",
-              "right": "Eleven o'clock"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p3",
-            "p2": "p1",
-            "p3": "p2",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U11_I50",
-          "type": "short_writing",
-          "prompt_es": "Escribe la pregunta completa: '¿A qué hora te despiertas?' ([[food|comida]])",
-          "correct_answer": "What time do you wake up?",
-          "mastery_tag": "phrases",
-          "complexity": 3
-        }
-      ]
-    },
-    {
-      "block_id": "B11_6",
-      "title": "Block 6: Extended Time Practice",
-      "content": [
-        {
-          "interaction_id": "A1_U11_B11_6_E1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice \"8:05\" en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Five past eight|Las ocho y cinco]]"
-            },
-            {
-              "id": "o2",
-              "text": "Eight five"
-            },
-            {
-              "id": "o3",
-              "text": "Five to eight"
-            },
-            {
-              "id": "o4",
-              "text": "Eight and five"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U11_B11_6_E2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se lee \"9:45\"?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Nine forty-five"
-            },
-            {
-              "id": "o2",
-              "text": "[[Quarter to ten|Cuarto para las diez]]"
-            },
-            {
-              "id": "o3",
-              "text": "Quarter past nine"
-            },
-            {
-              "id": "o4",
-              "text": "Nine and quarter"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary"
-          ]
-        },
-        {
-          "interaction_id": "A1_U11_B11_6_F1",
-          "type": "fill_blanks",
-          "prompt_es": "Completa con la hora correcta ([[at|a las]]): The train leaves ________ six [[o'clock|en punto]].",
-          "stimulus_en": "The train leaves ________ six o'clock.",
-          "correct_answer": "at",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U11_B11_6_F2",
-          "type": "fill_blanks",
-          "prompt_es": "Usa \"[[half past|y media]]\" para completar: Lunch is ________ one.",
-          "stimulus_en": "Lunch is ________ one.",
-          "correct_answer": "half past",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U11_B11_6_E3",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo preguntas la hora en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "What is clock?"
             },
             {
               "id": "o2",
@@ -1112,118 +1039,194 @@
             },
             {
               "id": "o3",
-              "text": "How is the time?"
-            },
-            {
-              "id": "o4",
-              "text": "Which hour is?"
+              "text": "[[When is it?|¿Cuándo es?]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "speaking",
-          "complexity": 2,
-          "concept_tags": [
-            "vocabulary"
-          ]
-        },
+          "correct_answer": "o2"
+        }
+      ]
+    },
+    {
+      "block_id": "B6",
+      "title": "Production",
+      "content": [
         {
-          "interaction_id": "A1_U11_B11_6_F3",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: \"[[It's|Son las]] ________ past three.\" (20 minutos)",
-          "stimulus_en": "It's ________ past three.",
-          "correct_answer": "twenty",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U11_B11_6_T1",
-          "type": "true_false",
-          "prompt_es": "\"[[It's quarter to seven|Son las siete menos cuarto]]\" = 6:45. ¿Verdadero o falso?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[True|Verdadero]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[False|Falso]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U11_B11_6_T2",
-          "type": "true_false",
-          "prompt_es": "\"[[It's half past eleven|Son las once y media]]\" = 11:00. ¿Verdadero o falso?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[True|Verdadero]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[False|Falso]]"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "grammar"
-          ]
-        },
-        {
-          "interaction_id": "A1_U11_B11_6_R1",
-          "type": "reorder_words",
-          "prompt_es": "Ordena: \"La reunión es a las nueve en punto\" ([[food|comida]])",
+          "interaction_id": "A1_U11_I51",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
           "options": [
             {
               "id": "w1",
-              "text": "The"
+              "text": "[[Half past|Y media]]"
             },
             {
               "id": "w2",
-              "text": "meeting"
+              "text": "[[Minute|Minuto]]"
             },
             {
               "id": "w3",
-              "text": "is"
+              "text": "[[O'clock|En punto]]"
             },
             {
               "id": "w4",
-              "text": "at"
-            },
-            {
-              "id": "w5",
-              "text": "nine"
-            },
-            {
-              "id": "w6",
-              "text": "o'clock"
+              "text": "[[Quarter past|Y cuarto]]"
             }
           ],
           "correct_answer": [
-            "w1",
-            "w2",
             "w3",
+            "w1",
             "w4",
-            "w5",
-            "w6"
-          ],
-          "mastery_tag": "syntax",
-          "complexity": 3,
-          "concept_tags": [
-            "grammar",
-            "syntax"
+            "w2"
           ]
+        },
+        {
+          "interaction_id": "A1_U11_I52",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Minute|Minuto]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Afternoon|Tarde]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Quarter to|Menos cuarto]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Hour|Hora]]"
+            }
+          ],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U11_I53",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Afternoon|Tarde]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Early|Temprano]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Morning|Mañana (parte del día)]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Evening|Noche temprana]]"
+            }
+          ],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U11_I54",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Early|Temprano]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Schedule|Horario]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Night|Noche]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Late|Tarde (tardío)]]"
+            }
+          ],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U11_I55",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[I|Yo]] [[wake|me despierto]] [[up|arriba]] ______ [[seven|las siete]] [[o'clock|en punto]].",
+          "correct_answer": "at"
+        },
+        {
+          "interaction_id": "A1_U11_I56",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "______ [[time|hora]] [[is|es]] [[it|son]]?",
+          "correct_answer": "What"
+        },
+        {
+          "interaction_id": "A1_U11_I57",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[It|Son]] ______ [[three|las tres]] [[o'clock|en punto]].",
+          "correct_answer": "is"
+        },
+        {
+          "interaction_id": "A1_U11_I58",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Excuse|Disculpa]] [[me|me]], [[what|qué]] [[time|hora]] [[is|es]] [[it|son]]?",
+          "correct_answer": true
+        },
+        {
+          "interaction_id": "A1_U11_I59",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[It|Son]] [[half|y]] [[past|media]] [[eight|las ocho]].",
+          "correct_answer": false
+        },
+        {
+          "interaction_id": "A1_U11_I60",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Oh|Oh]]! [[I|Yo]] [[am|estoy]] [[late|tarde]]! [[My|Mi]] [[class|clase]] [[starts|empieza]] [[at|a]] [[nine|las nueve]] [[o'clock|en punto]].",
+          "correct_answer": true
         }
       ]
     }

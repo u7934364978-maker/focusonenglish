@@ -1,1379 +1,1232 @@
 {
   "course": {
-    "language_ui": "es-ES",
-    "target_language": "en",
-    "level": "A1",
-    "unit_id": "U22",
+    "unit_id": "unit22",
     "unit_title": "Furniture & Household Items",
-    "total_duration_minutes": 120
+    "level": "A1",
+    "total_duration_minutes": 60,
+    "language_ui": "es-ES",
+    "target_language": "en"
   },
   "learning_outcomes": [
-    "Name common furniture and household items in English",
-    "Use possessive pronouns (mine, yours, his, hers)",
-    "Describe rooms using furniture vocabulary",
-    "Read catalog descriptions and understand furniture adverts"
+    "Name furniture and household items in English",
+    "Use possessive pronouns: mine, yours, his, hers",
+    "Describe objects in the home"
   ],
   "blocks": [
     {
       "block_id": "B1",
-      "title": "Vocabulary: Living Room & Bedroom Furniture",
+      "title": "Vocabulary Introduction",
       "content": [
         {
-          "interaction_id": "U22_I1",
-          "type": "matching",
-          "prompt_es": "Une cada mueble con su traducción:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Sofa|Sofá]]",
-              "right": "Mesa"
-            },
-            {
-              "id": "p2",
-              "left": "[[Table|Mesa]]",
-              "right": "Silla"
-            },
-            {
-              "id": "p3",
-              "left": "[[Chair|Silla]]",
-              "right": "Armario"
-            },
-            {
-              "id": "p4",
-              "left": "[[Wardrobe|Armario]]",
-              "right": "Sofá"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p4",
-            "p2": "p1",
-            "p3": "p2",
-            "p4": "p3"
-          },
+          "interaction_id": "A1_U22_I1",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U22_I2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[bed|cama]]' en español?",
+          "complexity": 1,
+          "stimulus_en": "[[Bed|Cama]]",
           "options": [
             {
               "id": "o1",
-              "text": "Sofá"
+              "text": "[[Cama|Bed]]"
             },
             {
               "id": "o2",
-              "text": "Armario"
+              "text": "[[Sofá|Sofa]]"
             },
             {
               "id": "o3",
-              "text": "Cama"
+              "text": "[[Mesa|Table]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U22_I3",
-          "type": "multiple_choice",
-          "prompt_es": "¿Dónde duermes normalmente?",
+          "interaction_id": "A1_U22_I2",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Sofa|Sofá]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[On the bed|En la cama]]"
+              "text": "[[Mesa|Table]]"
             },
             {
               "id": "o2",
-              "text": "[[On the sofa|En el sofá]]"
+              "text": "[[Sofá|Sofa]]"
             },
             {
               "id": "o3",
-              "text": "[[On the chair|En la silla]]"
+              "text": "[[Silla|Chair]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U22_I4",
-          "type": "matching",
-          "prompt_es": "Une el mueble con la habitación donde está:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Fridge|Nevera]]",
-              "right": "Dormitorio"
-            },
-            {
-              "id": "p2",
-              "left": "[[Wardrobe|Armario]]",
-              "right": "Salón"
-            },
-            {
-              "id": "p3",
-              "left": "[[Sofa|Sofá]]",
-              "right": "Cocina"
-            },
-            {
-              "id": "p4",
-              "left": "[[Bed|Cama]]",
-              "right": "Dormitorio (2)"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p3",
-            "p2": "p1",
-            "p3": "p2",
-            "p4": "p4"
-          },
+          "interaction_id": "A1_U22_I3",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U22_I5",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'I sit on the ___ to watch TV.' (sofá) ([[health|salud]])",
-          "correct_answer": "sofa",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U22_I6",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué mueble usas para guardar (store) ropa?",
+          "complexity": 1,
+          "stimulus_en": "[[Table|Mesa]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[Wardrobe|Armario]]"
+              "text": "[[Silla|Chair]]"
             },
             {
               "id": "o2",
-              "text": "[[Desk|Escritorio]]"
+              "text": "[[Nevera|Fridge]]"
             },
             {
               "id": "o3",
-              "text": "[[Mirror|Espejo]]"
+              "text": "[[Mesa|Table]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U22_I7",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[mirror|espejo]]'?",
+          "interaction_id": "A1_U22_I4",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Chair|Silla]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[Window|Ventana]]"
+              "text": "[[Silla|Chair]]"
             },
             {
               "id": "o2",
-              "text": "[[Curtain|Cortina]]"
+              "text": "[[Nevera|Fridge]]"
             },
             {
               "id": "o3",
-              "text": "[[Mirror|Espejo]]"
+              "text": "[[Armario|Wardrobe]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U22_I8",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'There is a ___ next to the window.' ([[curtain|cortina]])",
-          "correct_answer": "curtain",
+          "interaction_id": "A1_U22_I5",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U22_I9",
-          "type": "matching",
-          "prompt_es": "Une el objeto con su descripción:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Lamp|Lámpara]]",
-              "right": "refleja la imagen"
-            },
-            {
-              "id": "p2",
-              "left": "[[Mirror|Espejo]]",
-              "right": "cubre la ventana"
-            },
-            {
-              "id": "p3",
-              "left": "[[Carpet|Alfombra]]",
-              "right": "da luz"
-            },
-            {
-              "id": "p4",
-              "left": "[[Curtain|Cortina]]",
-              "right": "cubre el suelo"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p3",
-            "p2": "p1",
-            "p3": "p4",
-            "p4": "p2"
-          },
-          "mastery_tag": "vocabulary",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U22_I10",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[desk|escritorio]]'?",
+          "complexity": 1,
+          "stimulus_en": "[[Fridge|Nevera]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[Bookshelf|Estantería]]"
+              "text": "[[Armario|Wardrobe]]"
             },
             {
               "id": "o2",
-              "text": "[[Desk|Escritorio]]"
+              "text": "[[Nevera|Fridge]]"
             },
             {
               "id": "o3",
-              "text": "[[Drawer|Cajón]]"
+              "text": "[[Estantería|Shelf]]"
             }
           ],
-          "correct_answer": "o2",
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U22_I6",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
           "mastery_tag": "vocabulary",
-          "complexity": 1
+          "complexity": 1,
+          "stimulus_en": "[[Wardrobe|Armario]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Estantería|Shelf]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Lámpara|Lamp]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Armario|Wardrobe]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U22_I7",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Estantería]]",
+          "correct_answer": "Shelf"
+        },
+        {
+          "interaction_id": "A1_U22_I8",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Lámpara]]",
+          "correct_answer": "Lamp"
+        },
+        {
+          "interaction_id": "A1_U22_I9",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Espejo]]",
+          "correct_answer": "Mirror"
+        },
+        {
+          "interaction_id": "A1_U22_I10",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Alfombra]]",
+          "correct_answer": "Carpet"
         }
       ]
     },
     {
       "block_id": "B2",
-      "title": "Vocabulary: Kitchen & Bathroom Items",
+      "title": "Vocabulary in Context",
       "content": [
         {
-          "interaction_id": "U22_I11",
-          "type": "matching",
-          "prompt_es": "Une el electrodoméstico con su traducción:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Fridge|Nevera]]",
-              "right": "Lavadora"
-            },
-            {
-              "id": "p2",
-              "left": "[[Washing machine|Lavadora]]",
-              "right": "Horno"
-            },
-            {
-              "id": "p3",
-              "left": "[[Oven|Horno]]",
-              "right": "Microondas"
-            },
-            {
-              "id": "p4",
-              "left": "[[Microwave|Microondas]]",
-              "right": "Nevera"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p4",
-            "p2": "p1",
-            "p3": "p2",
-            "p4": "p3"
-          },
+          "interaction_id": "A1_U22_I11",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
           "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U22_I12",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué aparato usas para calentar (heat) comida rápidamente?",
+          "complexity": 2,
+          "stimulus_en": "[[Chair|Silla]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[Fridge|Nevera]]"
+              "text": "[[Chair|Silla]]"
             },
             {
               "id": "o2",
-              "text": "[[Microwave|Microondas]]"
+              "text": "[[Shelf|Estantería]]"
             },
             {
               "id": "o3",
+              "text": "[[Carpet|Alfombra]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U22_I12",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Fridge|Nevera]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Lamp|Lámpara]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Fridge|Nevera]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Curtains|Cortinas]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U22_I13",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Wardrobe|Armario]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Mirror|Espejo]]"
+            },
+            {
+              "id": "o2",
               "text": "[[Washing machine|Lavadora]]"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U22_I13",
-          "type": "multiple_choice",
-          "prompt_es": "¿Para qué sirve el '[[fridge|nevera]]'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "Para lavar ropa"
-            },
-            {
-              "id": "o2",
-              "text": "Para guardar comida fría"
-            },
-            {
-              "id": "o3",
-              "text": "Para cocinar"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U22_I14",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'I wash my clothes in the ___.' (lavadora) ([[clothes|ropa]])",
-          "correct_answer": "washing machine",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U22_I15",
-          "type": "matching",
-          "prompt_es": "Une el objeto del baño con su traducción:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Towel|Toalla]]",
-              "right": "Jabón"
-            },
-            {
-              "id": "p2",
-              "left": "[[Soap|Jabón]]",
-              "right": "Espejo"
-            },
-            {
-              "id": "p3",
-              "left": "[[Mirror|Espejo]]",
-              "right": "Toalla"
-            },
-            {
-              "id": "p4",
-              "left": "[[Shower|Ducha]]",
-              "right": "Bañera"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p3",
-            "p2": "p1",
-            "p3": "p2",
-            "p4": "p4"
-          },
-          "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U22_I16",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué usas para secarte después de ducharte?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[A soap|Un jabón]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[A towel|Una toalla]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[A mirror|Un espejo]]"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U22_I17",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[bath|bañera]]'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Shower|Ducha]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Sink|Lavabo]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[Bath|Bañera]]"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U22_I18",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'I wash my hands in the ___.' (lavabo) ([[health|salud]])",
-          "correct_answer": "sink",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U22_I19",
-          "type": "multiple_choice",
-          "prompt_es": "¿Dónde pones los platos sucios (dirty plates)?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[In the fridge|En la nevera]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[In the wardrobe|En el armario]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[In the dishwasher|En el lavavajillas]]"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U22_I20",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'I cook pasta in a ___.' (sartén/olla → pot) ([[cook|cocinar]])",
-          "correct_answer": "pot",
-          "mastery_tag": "vocabulary",
-          "complexity": 2
-        }
-      ]
-    },
-    {
-      "block_id": "B3",
-      "title": "Grammar: Possessive Pronouns",
-      "content": [
-        {
-          "interaction_id": "U22_I21",
-          "type": "multiple_choice",
-          "prompt_es": "'[[Mine|Mío]]' es el pronombre posesivo de:",
-          "options": [
-            {
-              "id": "o1",
-              "text": "He / She"
-            },
-            {
-              "id": "o2",
-              "text": "I"
-            },
-            {
-              "id": "o3",
-              "text": "We"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U22_I22",
-          "type": "matching",
-          "prompt_es": "Une el pronombre personal con el posesivo:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[I → mine|Yo → mío]]",
-              "right": "his/hers"
-            },
-            {
-              "id": "p2",
-              "left": "[[You → yours|Tú → tuyo]]",
-              "right": "mine"
-            },
-            {
-              "id": "p3",
-              "left": "[[He/She → his/hers|Él/Ella → suyo/suya]]",
-              "right": "yours"
-            },
-            {
-              "id": "p4",
-              "left": "[[We → ours|Nosotros → nuestro]]",
-              "right": "ours"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p2",
-            "p2": "p3",
-            "p3": "p1",
-            "p4": "p4"
-          },
-          "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U22_I23",
-          "type": "multiple_choice",
-          "prompt_es": "Elige: 'That sofa is ___.' (de ella)",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[hers|de ella]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[her|su (adjetivo)]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[she|ella]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U22_I24",
-          "type": "multiple_choice",
-          "prompt_es": "Elige: 'This wardrobe is ___.' (nuestro)",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[our|nuestro (adjetivo)]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[ours|nuestro (pronombre)]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[us|nos]]"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U22_I25",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'That lamp is ___.' (de él — his) ([[lamp|lámpara]])",
-          "correct_answer": "his",
-          "mastery_tag": "grammar",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U22_I26",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es correcto? 'La mesa es tuya.'",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[The table is you|La mesa eres tú (incorrecto)]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[The table is your|La mesa es tu (adjetivo — incorrecto)]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[The table is yours|La mesa es tuya]]"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U22_I27",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'The blue carpet is ___.' (mía — mine) ([[carpet|alfombra]])",
-          "correct_answer": "mine",
-          "mastery_tag": "grammar",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U22_I28",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo preguntas '¿De quién es este sofá?'",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Who sofa is this?|¿Quién sofá es este? (incorrecto)]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Whose sofa is this?|¿De quién es este sofá?]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[Which sofa is this?|¿Cuál sofá es este? (incorrecto)]]"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U22_I29",
-          "type": "sentence_building",
-          "prompt_es": "Forma: 'Ese escritorio no es mío.' ([[health|salud]])",
-          "words": [
-            {
-              "id": "w1",
-              "text": "[[That|Ese]]"
-            },
-            {
-              "id": "w2",
-              "text": "[[desk|escritorio]]"
-            },
-            {
-              "id": "w3",
-              "text": "[[is|es]]"
-            },
-            {
-              "id": "w4",
-              "text": "[[not|no]]"
-            },
-            {
-              "id": "w5",
-              "text": "[[mine|mío]]"
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5"
-          ],
-          "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U22_I30",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es el posesivo de 'they'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[their|su (adjetivo)]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[they're|ellos son]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[theirs|suyo (pronombre)]]"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "grammar",
-          "complexity": 2
-        }
-      ]
-    },
-    {
-      "block_id": "B4",
-      "title": "Describing a Room",
-      "content": [
-        {
-          "interaction_id": "U22_I31",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo describes este cuarto? 'Hay un sofá grande y una lámpara.'",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[There are a big sofa and a lamp|Hay un sofá grande y una lámpara (incorrecto pl)]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[There is a big sofa and a lamp|Hay un sofá grande y una lámpara]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[Is there a sofa and a lamp|¿Hay un sofá y una lámpara? (pregunta)]]"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U22_I32",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'In the [[bedroom|dormitorio]], there is a ___ and a wardrobe.' (cama)",
-          "correct_answer": "bed",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U22_I33",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál de estas frases describe correctamente un salón?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[There is a sofa, a table and two chairs|Hay un sofá, una mesa y dos sillas]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[There is a fridge and an oven|Hay una nevera y un horno]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[There is a bed and a wardrobe|Hay una cama y un armario]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U22_I34",
-          "type": "sentence_building",
-          "prompt_es": "Forma: 'En la cocina hay una nevera y un microondas.' ([[health|salud]])",
-          "words": [
-            {
-              "id": "w1",
-              "text": "[[In|En]]"
-            },
-            {
-              "id": "w2",
-              "text": "[[the|la]]"
-            },
-            {
-              "id": "w3",
-              "text": "[[kitchen|cocina]]"
-            },
-            {
-              "id": "w4",
-              "text": "[[there|hay]]"
-            },
-            {
-              "id": "w5",
-              "text": "[[is|is]]"
-            },
-            {
-              "id": "w6",
-              "text": "[[a|una]]"
-            },
-            {
-              "id": "w7",
-              "text": "[[fridge|nevera]]"
-            },
-            {
-              "id": "w8",
-              "text": "[[and|y]]"
-            },
-            {
-              "id": "w9",
-              "text": "[[a|un]]"
-            },
-            {
-              "id": "w10",
-              "text": "[[microwave|microondas]]"
-            }
-          ],
-          "correct_answer": [
-            "w1",
-            "w2",
-            "w3",
-            "w4",
-            "w5",
-            "w6",
-            "w7",
-            "w8",
-            "w9",
-            "w10"
-          ],
-          "mastery_tag": "grammar",
-          "complexity": 3
-        },
-        {
-          "interaction_id": "U22_I35",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué mueble NO está normalmente en una cocina?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Fridge|Nevera]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Oven|Horno]]"
             },
             {
               "id": "o3",
               "text": "[[Wardrobe|Armario]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary",
-          "complexity": 2
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U22_I36",
-          "type": "matching",
-          "prompt_es": "Une el mueble con dónde se usa normalmente:",
-          "pairs": [
-            {
-              "id": "p1",
-              "left": "[[Bed|Cama]]",
-              "right": "Cocina"
-            },
-            {
-              "id": "p2",
-              "left": "[[Fridge|Nevera]]",
-              "right": "Salón"
-            },
-            {
-              "id": "p3",
-              "left": "[[Sofa|Sofá]]",
-              "right": "Dormitorio"
-            },
-            {
-              "id": "p4",
-              "left": "[[Desk|Escritorio]]",
-              "right": "Estudio/Oficina"
-            }
-          ],
-          "correct_answer": {
-            "p1": "p3",
-            "p2": "p1",
-            "p3": "p2",
-            "p4": "p4"
-          },
+          "interaction_id": "A1_U22_I14",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
           "mastery_tag": "vocabulary",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U22_I37",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'I study at my ___.' (escritorio) ([[health|salud]])",
-          "correct_answer": "desk",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U22_I38",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué objeto da luz (gives light) en una habitación?",
+          "complexity": 2,
+          "stimulus_en": "[[Shelf|Estantería]]",
           "options": [
             {
               "id": "o1",
+              "text": "[[Shelf|Estantería]]"
+            },
+            {
+              "id": "o2",
               "text": "[[Carpet|Alfombra]]"
             },
             {
-              "id": "o2",
-              "text": "[[Lamp|Lámpara]]"
-            },
-            {
               "id": "o3",
-              "text": "[[Curtain|Cortina]]"
+              "text": "[[Mine|Mío/a]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U22_I39",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'The ___ covers the floor.' ([[carpet|alfombra]])",
-          "correct_answer": "carpet",
+          "interaction_id": "A1_U22_I15",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
           "mastery_tag": "vocabulary",
-          "complexity": 1
+          "complexity": 2,
+          "stimulus_en": "[[That|Ese]] [[sofa|sofá]] [[is|es]] ______.",
+          "correct_answer": "mine"
         },
         {
-          "interaction_id": "U22_I40",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice '[[bookshelf|estantería]]'?",
+          "interaction_id": "A1_U22_I16",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[The|La]] [[red|roja]] [[lamp|lámpara]] [[is|es]] ______.",
+          "correct_answer": "yours"
+        },
+        {
+          "interaction_id": "A1_U22_I17",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Whose|De quién]] [[is|es]] [[this|esta]] ______?",
+          "correct_answer": "chair"
+        },
+        {
+          "interaction_id": "A1_U22_I18",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Bed|Cama]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Table|Mesa]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Sofa|Sofá]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U22_I19",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Fridge|Nevera]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Shelf|Estantería]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Wardrobe|Armario]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U22_I20",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Mirror|Espejo]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Curtains|Cortinas]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Carpet|Alfombra]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Grammar — Affirmative",
+      "content": [
+        {
+          "interaction_id": "A1_U22_I21",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[That|Ese]] [[sofa|sofá]] [[is|es]] ______.",
+          "correct_answer": "mine"
+        },
+        {
+          "interaction_id": "A1_U22_I22",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[The|La]] [[red|roja]] [[lamp|lámpara]] [[is|es]] ______.",
+          "correct_answer": "yours"
+        },
+        {
+          "interaction_id": "A1_U22_I23",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Whose|De quién]] [[is|es]] [[this|esta]] ______?",
+          "correct_answer": "chair"
+        },
+        {
+          "interaction_id": "A1_U22_I24",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[It's|Es]] [[his|su]] [[bed|cama]]. [[The|La]] [[blue|azul]] [[one|una]] [[is|es]] ______.",
+          "correct_answer": "hers"
+        },
+        {
+          "interaction_id": "A1_U22_I25",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[The|La]] [[wardrobe|armario]] [[in|en]] [[my|mi]] [[bedroom|dormitorio]] ______ [[very|muy]] [[old|viejo]].",
           "options": [
             {
               "id": "o1",
-              "text": "[[Bookshelf|Estantería]]"
+              "text": "[[is|is]]"
             },
             {
               "id": "o2",
-              "text": "[[Drawer|Cajón]]"
+              "text": "[[yours|yours]]"
             },
             {
               "id": "o3",
-              "text": "[[Pillow|Almohada]]"
+              "text": "[[chair|chair]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 1
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U22_I26",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[We|Nosotros]] [[have|tenemos]] [[a|una]] [[big|grande]] ______ [[in|en]] [[the|la]] [[kitchen|cocina]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[chair|chair]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[fridge|fridge]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[hers|hers]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U22_I27",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[That|Ese]] [[sofa|sofá]] [[is|es]] ______.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[hers|hers]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[is|is]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[mine|mine]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U22_I28",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[The|La]] [[red|roja]] [[lamp|lámpara]] [[is|es]] ______.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[yours|yours]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[is|is]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[fridge|fridge]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U22_I29",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Table|Mesa]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Bed|Cama]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Fridge|Nevera]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
+          ]
+        },
+        {
+          "interaction_id": "A1_U22_I30",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Lamp|Lámpara]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Wardrobe|Armario]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Carpet|Alfombra]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w3"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B4",
+      "title": "Grammar — Negative & Questions",
+      "content": [
+        {
+          "interaction_id": "A1_U22_I31",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Whose|De quién]] [[is|es]] [[this|esta]] ______?",
+          "correct_answer": "chair"
+        },
+        {
+          "interaction_id": "A1_U22_I32",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[It's|Es]] [[his|su]] [[bed|cama]]. [[The|La]] [[blue|azul]] [[one|una]] [[is|es]] ______.",
+          "correct_answer": "hers"
+        },
+        {
+          "interaction_id": "A1_U22_I33",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[The|La]] [[wardrobe|armario]] [[in|en]] [[my|mi]] [[bedroom|dormitorio]] ______ [[very|muy]] [[old|viejo]].",
+          "correct_answer": "is"
+        },
+        {
+          "interaction_id": "A1_U22_I34",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[It's|Es]] [[his|su]] [[bed|cama]]. [[The|La]] [[blue|azul]] [[one|una]] [[is|es]] ______.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[hers|hers]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[fridge|fridge]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[mine|mine]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U22_I35",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[The|La]] [[wardrobe|armario]] [[in|en]] [[my|mi]] [[bedroom|dormitorio]] ______ [[very|muy]] [[old|viejo]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[mine|mine]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[is|is]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[yours|yours]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U22_I36",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[We|Nosotros]] [[have|tenemos]] [[a|una]] [[big|grande]] ______ [[in|en]] [[the|la]] [[kitchen|cocina]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[yours|yours]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[chair|chair]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[fridge|fridge]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U22_I37",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[That|Ese]] [[sofa|sofá]] [[is|es]] ______.",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[mine|mine]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[chair|chair]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[hers|hers]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U22_I38",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Fridge|Nevera]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Sofa|Sofá]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Shelf|Estantería]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Table|Mesa]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
+        },
+        {
+          "interaction_id": "A1_U22_I39",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Lamp|Lámpara]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Fridge|Nevera]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Carpet|Alfombra]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Wardrobe|Armario]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
+        },
+        {
+          "interaction_id": "A1_U22_I40",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Curtains|Cortinas]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Lamp|Lámpara]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Mine|Mío/a]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Mirror|Espejo]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
         }
       ]
     },
     {
       "block_id": "B5",
-      "title": "Reading: A Furniture Catalogue",
+      "title": "Reading Comprehension",
       "content": [
         {
-          "interaction_id": "U22_READ1",
-          "type": "reading_phase",
-          "prompt_es": "[[Read|Lee]] [[the|el]] [[catalogue|catálogo]] [[carefully|con atención]].",
-          "transcript": "[[Welcome|Bienvenido]] to [[HomeStyle|HomeStyle]] — [[our|nuestro]] [[new|nuevo]] [[furniture|muebles]] [[catalogue|catálogo]]! [[This|Este]] [[month|mes]] [[we|nosotros]] [[have|tenemos]] [[great|geniales]] [[offers|ofertas]]. [[For|Para]] [[your|tu]] [[living room|salón]], [[try|prueba]] [[our|nuestro]] [[beautiful|bonito]] three-[[seater|asientos]] [[sofa|sofá]] in [[grey|gris]] — [[only|solo]] £299. [[There is|Hay]] also a [[matching|a juego]] [[coffee table|mesa de café]] for [[just|solo]] £49. [[For|Para]] [[your|tu]] [[bedroom|dormitorio]], [[our|nuestro]] popular [[king-size|grande]] [[bed|cama]] [[with|con]] [[storage|almacenamiento]] [[drawers|cajones]] [[is|está]] on [[sale|oferta]] at £450. [[Don't|No te]] [[forget|olvides]] [[our|nuestra]] [[new|nueva]] [[lamp|lámpara]] — [[perfect|perfecta]] for [[any|cualquier]] [[room|habitación]]. [[Visit|Visita]] [[our|nuestra]] [[shop|tienda]] [[today|hoy]]!",
+          "interaction_id": "A1_U22_I41",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
           "mastery_tag": "reading",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U22_I41",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se llama la tienda del catálogo?",
+          "complexity": 2,
+          "transcript": "[[I|Yo]] [[love|me encanta]] [[your|tu]] [[flat|piso]]! [[Is|Es]] [[that|ese]] [[sofa|sofá]] [[new|nuevo]]? [[Yes|Sí]]! [[I|Yo]] [[bought|compré]] [[it|lo]] [[last|el]] [[month|mes]] [[past|pasado]]. [[It's|Es]] [[very|muy]] [[comfortable|cómodo]]. [[And|Y]] [[what|qué]] [[about|sobre]] [[that|esa]] [[lamp|lámpara]]? [[Is|Es]] [[it|es]] [[yours|tuya]]? [[No|No]], [[that|esa]] [[lamp|lámpara]] [[is|es]] [[my|de mi]] [[flatmate's|compañera de piso]]. [[The|El]] [[carpet|alfombra]] [[and|y]] [[the|las]] [[curtains|cortinas]] [[are|son]] [[mine|mías]], [[though|sin embargo]]. [[I|Yo]] [[chose|elegí]] [[them|ellos]] [[myself|yo misma]].",
+          "question_en": "[[Is|Es]] [[the|el]] [[sofa|sofá]] [[new|nuevo]]?",
           "options": [
             {
               "id": "o1",
-              "text": "[[FurniturePro|FurniturePro]]"
+              "text": "[[No, it's old|No, es viejo]]"
             },
             {
               "id": "o2",
-              "text": "[[HomeStyle|HomeStyle]]"
+              "text": "[[Yes, it's new|Sí, es nuevo]]"
             },
             {
               "id": "o3",
-              "text": "[[LivingCo|LivingCo]]"
+              "text": "[[It's second-hand|Es de segunda mano]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading",
-          "complexity": 1
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U22_I42",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuánto cuesta el sofá de tres asientos? ([[health|salud]])",
+          "interaction_id": "A1_U22_I42",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I|Yo]] [[love|me encanta]] [[your|tu]] [[flat|piso]]! [[Is|Es]] [[that|ese]] [[sofa|sofá]] [[new|nuevo]]? [[Yes|Sí]]! [[I|Yo]] [[bought|compré]] [[it|lo]] [[last|el]] [[month|mes]] [[past|pasado]]. [[It's|Es]] [[very|muy]] [[comfortable|cómodo]]. [[And|Y]] [[what|qué]] [[about|sobre]] [[that|esa]] [[lamp|lámpara]]? [[Is|Es]] [[it|es]] [[yours|tuya]]? [[No|No]], [[that|esa]] [[lamp|lámpara]] [[is|es]] [[my|de mi]] [[flatmate's|compañera de piso]]. [[The|El]] [[carpet|alfombra]] [[and|y]] [[the|las]] [[curtains|cortinas]] [[are|son]] [[mine|mías]], [[though|sin embargo]]. [[I|Yo]] [[chose|elegí]] [[them|ellos]] [[myself|yo misma]].",
+          "question_en": "[[When|Cuándo]] [[was|fue]] [[the|el]] [[sofa|sofá]] [[bought|comprado]]?",
           "options": [
             {
               "id": "o1",
-              "text": "£199"
+              "text": "[[Last week|La semana pasada]]"
             },
             {
               "id": "o2",
-              "text": "£450"
+              "text": "[[Last year|El año pasado]]"
             },
             {
               "id": "o3",
-              "text": "£299"
+              "text": "[[Last month|El mes pasado]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "reading",
-          "complexity": 1
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U22_I43",
-          "type": "multiple_choice",
-          "prompt_es": "¿De qué color es el sofá del catálogo?",
+          "interaction_id": "A1_U22_I43",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I|Yo]] [[love|me encanta]] [[your|tu]] [[flat|piso]]! [[Is|Es]] [[that|ese]] [[sofa|sofá]] [[new|nuevo]]? [[Yes|Sí]]! [[I|Yo]] [[bought|compré]] [[it|lo]] [[last|el]] [[month|mes]] [[past|pasado]]. [[It's|Es]] [[very|muy]] [[comfortable|cómodo]]. [[And|Y]] [[what|qué]] [[about|sobre]] [[that|esa]] [[lamp|lámpara]]? [[Is|Es]] [[it|es]] [[yours|tuya]]? [[No|No]], [[that|esa]] [[lamp|lámpara]] [[is|es]] [[my|de mi]] [[flatmate's|compañera de piso]]. [[The|El]] [[carpet|alfombra]] [[and|y]] [[the|las]] [[curtains|cortinas]] [[are|son]] [[mine|mías]], [[though|sin embargo]]. [[I|Yo]] [[chose|elegí]] [[them|ellos]] [[myself|yo misma]].",
+          "question_en": "[[Whose|De quién]] [[is|es]] [[the|la]] [[lamp|lámpara]]?",
           "options": [
             {
               "id": "o1",
-              "text": "[[Blue|Azul]]"
+              "text": "[[The speaker's|Del hablante]]"
             },
             {
               "id": "o2",
-              "text": "[[Grey|Gris]]"
+              "text": "[[The flatmate's|De la compañera de piso]]"
             },
             {
               "id": "o3",
-              "text": "[[Brown|Marrón]]"
+              "text": "[[It belongs to both|Pertenece a ambas]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading",
-          "complexity": 1
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U22_I44",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué incluye la cama en oferta? ([[health|salud]])",
+          "interaction_id": "A1_U22_I44",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I|Yo]] [[love|me encanta]] [[your|tu]] [[flat|piso]]! [[Is|Es]] [[that|ese]] [[sofa|sofá]] [[new|nuevo]]? [[Yes|Sí]]! [[I|Yo]] [[bought|compré]] [[it|lo]] [[last|el]] [[month|mes]] [[past|pasado]]. [[It's|Es]] [[very|muy]] [[comfortable|cómodo]]. [[And|Y]] [[what|qué]] [[about|sobre]] [[that|esa]] [[lamp|lámpara]]? [[Is|Es]] [[it|es]] [[yours|tuya]]? [[No|No]], [[that|esa]] [[lamp|lámpara]] [[is|es]] [[my|de mi]] [[flatmate's|compañera de piso]]. [[The|El]] [[carpet|alfombra]] [[and|y]] [[the|las]] [[curtains|cortinas]] [[are|son]] [[mine|mías]], [[though|sin embargo]]. [[I|Yo]] [[chose|elegí]] [[them|ellos]] [[myself|yo misma]].",
+          "question_en": "[[What|Qué]] [[belongs|pertenece]] [[to|al]] [[the|al]] [[speaker|hablante]]?",
           "options": [
             {
               "id": "o1",
-              "text": "Una lámpara y una alfombra"
+              "text": "[[The sofa and lamp|El sofá y la lámpara]]"
             },
             {
               "id": "o2",
-              "text": "Una mesa de café"
+              "text": "[[The carpet and curtains|La alfombra y las cortinas]]"
             },
             {
               "id": "o3",
-              "text": "Cajones de almacenamiento"
+              "text": "[[The table and chairs|La mesa y las sillas]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "reading",
-          "complexity": 2
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U22_I45",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuánto cuesta la mesa de café? ([[health|salud]])",
+          "interaction_id": "A1_U22_I45",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I|Yo]] [[love|me encanta]] [[your|tu]] [[flat|piso]]! [[Is|Es]] [[that|ese]] [[sofa|sofá]] [[new|nuevo]]? [[Yes|Sí]]! [[I|Yo]] [[bought|compré]] [[it|lo]] [[last|el]] [[month|mes]] [[past|pasado]]. [[It's|Es]] [[very|muy]] [[comfortable|cómodo]]. [[And|Y]] [[what|qué]] [[about|sobre]] [[that|esa]] [[lamp|lámpara]]? [[Is|Es]] [[it|es]] [[yours|tuya]]? [[No|No]], [[that|esa]] [[lamp|lámpara]] [[is|es]] [[my|de mi]] [[flatmate's|compañera de piso]]. [[The|El]] [[carpet|alfombra]] [[and|y]] [[the|las]] [[curtains|cortinas]] [[are|son]] [[mine|mías]], [[though|sin embargo]]. [[I|Yo]] [[chose|elegí]] [[them|ellos]] [[myself|yo misma]].",
+          "question_en": "[[What|Qué]] [[does|significa]] 'Mine' [[mean|significa]]?",
           "options": [
             {
               "id": "o1",
-              "text": "£49"
+              "text": "[[Yours|Tuyo/a]]"
             },
             {
               "id": "o2",
-              "text": "£99"
+              "text": "[[His/Hers|Suyo/a]]"
             },
             {
               "id": "o3",
-              "text": "£299"
+              "text": "[[Mine|Mío/a]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading",
-          "complexity": 1
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U22_I46",
-          "type": "fill_blanks",
-          "prompt_es": "Según el catálogo, la lámpara es perfecta para cualquier ___. ([[health|salud]])",
-          "correct_answer": "room",
+          "interaction_id": "A1_U22_I46",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
           "mastery_tag": "reading",
-          "complexity": 1
-        },
-        {
-          "interaction_id": "U22_I47",
-          "type": "multiple_choice",
-          "prompt_es": "¿La cama es del dormitorio o del salón según el catálogo? ([[health|salud]])",
+          "complexity": 2,
+          "transcript": "[[I|Yo]] [[love|me encanta]] [[your|tu]] [[flat|piso]]! [[Is|Es]] [[that|ese]] [[sofa|sofá]] [[new|nuevo]]? [[Yes|Sí]]! [[I|Yo]] [[bought|compré]] [[it|lo]] [[last|el]] [[month|mes]] [[past|pasado]]. [[It's|Es]] [[very|muy]] [[comfortable|cómodo]]. [[And|Y]] [[what|qué]] [[about|sobre]] [[that|esa]] [[lamp|lámpara]]? [[Is|Es]] [[it|es]] [[yours|tuya]]? [[No|No]], [[that|esa]] [[lamp|lámpara]] [[is|es]] [[my|de mi]] [[flatmate's|compañera de piso]]. [[The|El]] [[carpet|alfombra]] [[and|y]] [[the|las]] [[curtains|cortinas]] [[are|son]] [[mine|mías]], [[though|sin embargo]]. [[I|Yo]] [[chose|elegí]] [[them|ellos]] [[myself|yo misma]].",
+          "question_en": "[[What|Qué]] [[does|significa]] 'Yours' [[mean|significa]]?",
           "options": [
             {
               "id": "o1",
-              "text": "Del salón"
+              "text": "[[Mine|Mío/a]]"
             },
             {
               "id": "o2",
-              "text": "De la cocina"
+              "text": "[[Yours|Tuyo/a]]"
             },
             {
               "id": "o3",
-              "text": "Del dormitorio"
+              "text": "[[Theirs|Suyo/a (de ellos)]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "reading",
-          "complexity": 1
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U22_I48",
-          "type": "sentence_building",
-          "prompt_es": "Forma: '¿Cuánto cuesta el sofá?' ([[health|salud]])",
-          "words": [
+          "interaction_id": "A1_U22_I47",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I|Yo]] [[love|me encanta]] [[your|tu]] [[flat|piso]]! [[Is|Es]] [[that|ese]] [[sofa|sofá]] [[new|nuevo]]? [[Yes|Sí]]! [[I|Yo]] [[bought|compré]] [[it|lo]] [[last|el]] [[month|mes]] [[past|pasado]]. [[It's|Es]] [[very|muy]] [[comfortable|cómodo]]. [[And|Y]] [[what|qué]] [[about|sobre]] [[that|esa]] [[lamp|lámpara]]? [[Is|Es]] [[it|es]] [[yours|tuya]]? [[No|No]], [[that|esa]] [[lamp|lámpara]] [[is|es]] [[my|de mi]] [[flatmate's|compañera de piso]]. [[The|El]] [[carpet|alfombra]] [[and|y]] [[the|las]] [[curtains|cortinas]] [[are|son]] [[mine|mías]], [[though|sin embargo]]. [[I|Yo]] [[chose|elegí]] [[them|ellos]] [[myself|yo misma]].",
+          "question_en": "[[What|Qué]] [[word|palabra]] [[means|significa]] 'Sofá'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Chair|Silla]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Sofa|Sofá]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Bed|Cama]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U22_I48",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I|Yo]] [[love|me encanta]] [[your|tu]] [[flat|piso]]! [[Is|Es]] [[that|ese]] [[sofa|sofá]] [[new|nuevo]]? [[Yes|Sí]]! [[I|Yo]] [[bought|compré]] [[it|lo]] [[last|el]] [[month|mes]] [[past|pasado]]. [[It's|Es]] [[very|muy]] [[comfortable|cómodo]]. [[And|Y]] [[what|qué]] [[about|sobre]] [[that|esa]] [[lamp|lámpara]]? [[Is|Es]] [[it|es]] [[yours|tuya]]? [[No|No]], [[that|esa]] [[lamp|lámpara]] [[is|es]] [[my|de mi]] [[flatmate's|compañera de piso]]. [[The|El]] [[carpet|alfombra]] [[and|y]] [[the|las]] [[curtains|cortinas]] [[are|son]] [[mine|mías]], [[though|sin embargo]]. [[I|Yo]] [[chose|elegí]] [[them|ellos]] [[myself|yo misma]].",
+          "question_en": "[[What|Qué]] [[is|es]] [[a|un]] 'Wardrobe'?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[A type of bed|Un tipo de cama]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[A large cupboard for clothes|Un armario grande para ropa]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[A kitchen appliance|Un electrodoméstico de cocina]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U22_I49",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I|Yo]] [[love|me encanta]] [[your|tu]] [[flat|piso]]! [[Is|Es]] [[that|ese]] [[sofa|sofá]] [[new|nuevo]]? [[Yes|Sí]]! [[I|Yo]] [[bought|compré]] [[it|lo]] [[last|el]] [[month|mes]] [[past|pasado]]. [[It's|Es]] [[very|muy]] [[comfortable|cómodo]]. [[And|Y]] [[what|qué]] [[about|sobre]] [[that|esa]] [[lamp|lámpara]]? [[Is|Es]] [[it|es]] [[yours|tuya]]? [[No|No]], [[that|esa]] [[lamp|lámpara]] [[is|es]] [[my|de mi]] [[flatmate's|compañera de piso]]. [[The|El]] [[carpet|alfombra]] [[and|y]] [[the|las]] [[curtains|cortinas]] [[are|son]] [[mine|mías]], [[though|sin embargo]]. [[I|Yo]] [[chose|elegí]] [[them|ellos]] [[myself|yo misma]].",
+          "question_en": "[[Which|Cuál]] [[item|artículo]] [[is|se usa]] [[used|usa]] [[to|para]] [[cool|enfriar]] [[food|los alimentos]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Wardrobe|Armario]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Washing machine|Lavadora]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Fridge|Nevera]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U22_I50",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[I|Yo]] [[love|me encanta]] [[your|tu]] [[flat|piso]]! [[Is|Es]] [[that|ese]] [[sofa|sofá]] [[new|nuevo]]? [[Yes|Sí]]! [[I|Yo]] [[bought|compré]] [[it|lo]] [[last|el]] [[month|mes]] [[past|pasado]]. [[It's|Es]] [[very|muy]] [[comfortable|cómodo]]. [[And|Y]] [[what|qué]] [[about|sobre]] [[that|esa]] [[lamp|lámpara]]? [[Is|Es]] [[it|es]] [[yours|tuya]]? [[No|No]], [[that|esa]] [[lamp|lámpara]] [[is|es]] [[my|de mi]] [[flatmate's|compañera de piso]]. [[The|El]] [[carpet|alfombra]] [[and|y]] [[the|las]] [[curtains|cortinas]] [[are|son]] [[mine|mías]], [[though|sin embargo]]. [[I|Yo]] [[chose|elegí]] [[them|ellos]] [[myself|yo misma]].",
+          "question_en": "[[How|Cómo]] [[is|describe]] [[the|el]] [[speaker|hablante]] [[the|el]] [[sofa|sofá]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Expensive|Caro]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Comfortable|Cómodo]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Old|Viejo]]"
+            }
+          ],
+          "correct_answer": "o2"
+        }
+      ]
+    },
+    {
+      "block_id": "B6",
+      "title": "Production",
+      "content": [
+        {
+          "interaction_id": "A1_U22_I51",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
             {
               "id": "w1",
-              "text": "[[How|Cuánto]]"
+              "text": "[[Sofa|Sofá]]"
             },
             {
               "id": "w2",
-              "text": "[[much|cuesta]]"
+              "text": "[[Fridge|Nevera]]"
             },
             {
               "id": "w3",
-              "text": "[[is|es]]"
+              "text": "[[Bed|Cama]]"
             },
             {
               "id": "w4",
-              "text": "[[the|el]]"
-            },
-            {
-              "id": "w5",
-              "text": "[[sofa?|sofá?]]"
+              "text": "[[Table|Mesa]]"
             }
           ],
           "correct_answer": [
-            "w1",
-            "w2",
             "w3",
+            "w1",
             "w4",
-            "w5"
-          ],
-          "mastery_tag": "reading",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U22_I49",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué artículo es perfecto para cualquier habitación según el texto?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[The lamp|La lámpara]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[The sofa|El sofá]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[The bed|La cama]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading",
-          "complexity": 2
-        },
-        {
-          "interaction_id": "U22_I50",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: 'The coffee table is £49 — it [[matches|hace juego]] the ___.' (sofá → sofa)",
-          "correct_answer": "sofa",
-          "mastery_tag": "reading",
-          "complexity": 2
-        }
-      ]
-    },
-    {
-      "block_id": "B22_REC",
-      "title": "Block 6: Recycling – Grammar & Vocabulary Review",
-      "content": [
-        {
-          "interaction_id": "A1_U22_B22_REC_MC1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la forma negativa de \"[[I have|tengo]]\"?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[I don't have|No tengo]]"
-            },
-            {
-              "id": "o2",
-              "text": "I not have"
-            },
-            {
-              "id": "o3",
-              "text": "I haven't"
-            },
-            {
-              "id": "o4",
-              "text": "I no have"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "present_simple"
+            "w2"
           ]
         },
         {
-          "interaction_id": "A1_U22_B22_REC_MC2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué usas para hablar de posesión en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Have|Tener]]"
-            },
-            {
-              "id": "o2",
-              "text": "Is"
-            },
-            {
-              "id": "o3",
-              "text": "Are"
-            },
-            {
-              "id": "o4",
-              "text": "Do"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "verb_have"
-          ]
-        },
-        {
-          "interaction_id": "A1_U22_B22_REC_FB3",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: \"[[Do|¿]] ___ [[you|tú]] [[have|tienes]] [[a car|un coche]]?\"",
-          "stimulus_en": "Do ___ have a car?",
-          "correct_answer": "you",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "verb_have"
-          ]
-        },
-        {
-          "interaction_id": "A1_U22_B22_REC_MC4",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la pregunta correcta para \"[[What time is it?|¿Qué hora es?]]\"?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[What time is it?|¿Qué hora es?]]"
-            },
-            {
-              "id": "o2",
-              "text": "How time is?"
-            },
-            {
-              "id": "o3",
-              "text": "When is the time?"
-            },
-            {
-              "id": "o4",
-              "text": "What is time?"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 2,
-          "concept_tags": [
-            "time"
-          ]
-        },
-        {
-          "interaction_id": "A1_U22_B22_REC_SW5",
-          "type": "short_writing",
-          "prompt_es": "Escribe 3 oraciones sobre lo que tienes en tu [[bag|bolsa]] usando [[I have|tengo]] y [[I don't have|no tengo]].",
+          "interaction_id": "A1_U22_I52",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
           "mastery_tag": "production",
           "complexity": 3,
-          "concept_tags": [
-            "production",
-            "free_writing"
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Fridge|Nevera]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Lamp|Lámpara]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Chair|Silla]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Wardrobe|Armario]]"
+            }
           ],
-          "example_answer": "I have a notebook and a pen in my bag. I have my phone. I don't have an umbrella."
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
+          ]
         },
         {
-          "interaction_id": "A1_U22_B22_REC_SW6",
-          "type": "short_writing",
-          "prompt_es": "Describe tu [[neighbourhood|barrio]] usando [[There is|hay]] y [[There are|hay (plural)]]. 3 oraciones mínimo.",
+          "interaction_id": "A1_U22_I53",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
           "mastery_tag": "production",
           "complexity": 3,
-          "concept_tags": [
-            "production",
-            "free_writing"
-          ],
-          "example_answer": "There is a big supermarket near my house. There are two parks and a cinema. There isn't a hospital but there is a clinic."
-        }
-      ]
-    },
-    {
-      "block_id": "B22_EX",
-      "title": "Block 7: Extra Practice – Grammar & Vocabulary Review",
-      "content": [
-        {
-          "interaction_id": "A1_U22_B22_EX_MC1",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice \"[[second floor|segunda planta]]\" en inglés?",
           "options": [
             {
-              "id": "o1",
-              "text": "[[Second floor|Segunda planta]]"
+              "id": "w1",
+              "text": "[[Lamp|Lámpara]]"
             },
             {
-              "id": "o2",
-              "text": "Two floor"
+              "id": "w2",
+              "text": "[[Curtains|Cortinas]]"
             },
             {
-              "id": "o3",
-              "text": "Floor second"
+              "id": "w3",
+              "text": "[[Shelf|Estantería]]"
             },
             {
-              "id": "o4",
-              "text": "Second ground"
+              "id": "w4",
+              "text": "[[Mirror|Espejo]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 2,
-          "concept_tags": [
-            "home"
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "A1_U22_B22_EX_MC2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Dónde puedes comprar medicamentos?",
+          "interaction_id": "A1_U22_I54",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
           "options": [
             {
-              "id": "o1",
-              "text": "[[Chemist's|Farmacia]]"
+              "id": "w1",
+              "text": "[[Curtains|Cortinas]]"
             },
             {
-              "id": "o2",
-              "text": "[[Bakery|Panadería]]"
+              "id": "w2",
+              "text": "[[Yours|Tuyo/a]]"
             },
             {
-              "id": "o3",
-              "text": "[[Greengrocer's|Frutería]]"
+              "id": "w3",
+              "text": "[[Carpet|Alfombra]]"
             },
             {
-              "id": "o4",
-              "text": "[[Butcher's|Carnicería]]"
+              "id": "w4",
+              "text": "[[Washing machine|Lavadora]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 2,
-          "concept_tags": [
-            "shops"
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
           ]
         },
         {
-          "interaction_id": "A1_U22_B22_EX_FB3",
-          "type": "fill_blanks",
-          "prompt_es": "Completa: \"The [[living room|salón]] is ___ [[the|el]] [[kitchen|cocina]].\"",
-          "stimulus_en": "The living room is ___ the kitchen.",
-          "correct_answer": "next to",
-          "mastery_tag": "grammar",
-          "complexity": 2,
-          "concept_tags": [
-            "prepositions",
-            "home"
-          ]
+          "interaction_id": "A1_U22_I55",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[We|Nosotros]] [[have|tenemos]] [[a|una]] [[big|grande]] ______ [[in|en]] [[the|la]] [[kitchen|cocina]].",
+          "correct_answer": "fridge"
         },
         {
-          "interaction_id": "A1_U22_B22_EX_MC4",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la palabra para la habitación donde duermes?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Bedroom|Dormitorio]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Bathroom|Baño]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[Kitchen|Cocina]]"
-            },
-            {
-              "id": "o4",
-              "text": "[[Living room|Salón]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "vocabulary",
-          "complexity": 2,
-          "concept_tags": [
-            "home"
-          ]
+          "interaction_id": "A1_U22_I56",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[That|Ese]] [[sofa|sofá]] [[is|es]] ______.",
+          "correct_answer": "mine"
+        },
+        {
+          "interaction_id": "A1_U22_I57",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[The|La]] [[red|roja]] [[lamp|lámpara]] [[is|es]] ______.",
+          "correct_answer": "yours"
+        },
+        {
+          "interaction_id": "A1_U22_I58",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[I|Yo]] [[love|me encanta]] [[your|tu]] [[flat|piso]]! [[Is|Es]] [[that|ese]] [[sofa|sofá]] [[new|nuevo]]?",
+          "correct_answer": true
+        },
+        {
+          "interaction_id": "A1_U22_I59",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Yes|Sí]]! [[I|Yo]] [[bought|compré]] [[it|lo]] [[last|el]] [[month|mes]] [[past|pasado]]. [[It's|Es]] [[very|muy]] [[comfortable|cómodo]].",
+          "correct_answer": false
+        },
+        {
+          "interaction_id": "A1_U22_I60",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[And|Y]] [[what|qué]] [[about|sobre]] [[that|esa]] [[lamp|lámpara]]? [[Is|Es]] [[it|es]] [[yours|tuya]]?",
+          "correct_answer": true
         }
       ]
     }
