@@ -69,7 +69,8 @@ Create `scripts/generate-a1-framework-course.py` with the full scaffold:
 
 Verification: `python scripts/generate-a1-framework-course.py --units 1-10` → 10 valid files, each with exactly 60 exercises across 6 blocks, no AssertionError.
 
-### [ ] Step: Implement full block generators
+### [x] Step: Implement full block generators
+<!-- chat-id: 5a8a500b-1b05-4219-8cc4-c7bf30b3d184 -->
 
 Replace stub implementations with full generators that produce pedagogically meaningful exercises:
 
