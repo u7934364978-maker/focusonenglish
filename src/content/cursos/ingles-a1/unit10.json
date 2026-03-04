@@ -1,1191 +1,1232 @@
 {
   "course": {
-    "language_ui": "es-ES",
-    "target_language": "en",
-    "level": "A1",
-    "unit_id": "U10",
+    "unit_id": "unit10",
     "unit_title": "Module 1 Review & Assessment",
-    "total_duration_minutes": 120
+    "level": "A1",
+    "total_duration_minutes": 60,
+    "language_ui": "es-ES",
+    "target_language": "en"
   },
   "learning_outcomes": [
-    "Review greetings and 'to be' all forms (Units 1-3)",
-    "Review classroom vocabulary, colors, and Simple Present (Units 4-5)",
-    "Review family members and physical descriptions (Units 6-7)",
-    "Review numbers 20-100 and prices (Unit 8)",
-    "Review jobs and occupations (Unit 9)",
-    "Read and understand a comprehensive text combining Module 1 topics"
+    "Review all Module 1 grammar: verb 'to be', pronouns, possessives",
+    "Demonstrate vocabulary from units 1–9",
+    "Produce a short personal profile in English"
   ],
   "blocks": [
     {
-      "block_id": "B10_1",
-      "title": "Review: Greetings and Verb To Be (Units 1-3)",
+      "block_id": "B1",
+      "title": "Vocabulary Introduction",
       "content": [
         {
-          "interaction_id": "U10_I1",
-          "type": "matching",
-          "prompt_es": "Une el saludo con la situación correcta:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "[[Good morning|Buenos días]]",
-              "right": "Al despedirse"
-            },
-            {
-              "id": "p1",
-              "left": "[[Goodbye|Adiós]]",
-              "right": "Por la noche"
-            },
-            {
-              "id": "p2",
-              "left": "[[Good evening|Buenas noches/tardes]]",
-              "right": "Por la mañana"
-            },
-            {
-              "id": "p3",
-              "left": "[[Hello|Hola]]",
-              "right": "Saludo informal"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p2",
-            "p1": "p0",
-            "p2": "p1",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U10_I2",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la forma correcta de 'to be' con 'she'?",
+          "interaction_id": "A1_U10_I1",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Review|Repaso]]",
           "options": [
             {
               "id": "o1",
-              "text": "[[She am|She am]]"
+              "text": "[[Repaso|Review]]"
             },
             {
               "id": "o2",
-              "text": "[[She are|She are]]"
+              "text": "[[Evaluación|Assessment]]"
             },
             {
               "id": "o3",
-              "text": "[[She is|She is]]"
+              "text": "[[Correcto/a|Correct]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "grammar"
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U10_I3",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta de 'to be': ([[review|repaso]])",
-          "stimulus_en": "We ________ students from Spain.",
-          "correct_answer": "are",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U10_I4",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: '[[I|Yo]] [[am|soy]] [[not|no]] [[tired|cansado]]. [[I|Yo]] [[am|estoy]] [[happy|feliz]].'",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U10_I5",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para hacer una pregunta: ([[review|repaso]])",
+          "interaction_id": "A1_U10_I2",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Assessment|Evaluación]]",
           "options": [
             {
-              "id": "w0",
-              "text": "Are"
+              "id": "o1",
+              "text": "[[Correcto/a|Correct]]"
             },
             {
+              "id": "o2",
+              "text": "[[Evaluación|Assessment]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Incorrecto/a|Wrong]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U10_I3",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Correct|Correcto/a]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Incorrecto/a|Wrong]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Presentar|Introduce]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Correcto/a|Correct]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U10_I4",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Wrong|Incorrecto/a]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Incorrecto/a|Wrong]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Presentar|Introduce]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Describir|Describe]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U10_I5",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Introduce|Presentar]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Describir|Describe]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Presentar|Introduce]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Completar|Complete]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U10_I6",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[Describe|Describir]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Completar|Complete]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Elegir|Choose]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Describir|Describe]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U10_I7",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Completar]]",
+          "correct_answer": "Complete"
+        },
+        {
+          "interaction_id": "A1_U10_I8",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Elegir]]",
+          "correct_answer": "Choose"
+        },
+        {
+          "interaction_id": "A1_U10_I9",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Emparejar]]",
+          "correct_answer": "Match"
+        },
+        {
+          "interaction_id": "A1_U10_I10",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[translation|traducción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 1,
+          "stimulus_en": "[[______|Perfil]]",
+          "correct_answer": "Profile"
+        }
+      ]
+    },
+    {
+      "block_id": "B2",
+      "title": "Vocabulary in Context",
+      "content": [
+        {
+          "interaction_id": "A1_U10_I11",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Wrong|Incorrecto/a]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Wrong|Incorrecto/a]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Complete|Completar]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Profile|Perfil]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U10_I12",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Introduce|Presentar]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Choose|Elegir]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Introduce|Presentar]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Information|Información]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U10_I13",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Describe|Describir]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Match|Emparejar]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Personal|Personal]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Describe|Describir]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U10_I14",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[option|opción]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[Complete|Completar]]",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[Complete|Completar]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[Profile|Perfil]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[Language|Idioma]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U10_I15",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] ______ [[a|una]] [[teacher|profesora]] [[from|de]] [[Spain|España]].",
+          "correct_answer": "am"
+        },
+        {
+          "interaction_id": "A1_U10_I16",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[His|Su]] [[name|nombre]] ______ [[Carlos|Carlos]].",
+          "correct_answer": "is"
+        },
+        {
+          "interaction_id": "A1_U10_I17",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "stimulus_en": "[[They|Ellos]] ______ [[students|estudiantes]].",
+          "correct_answer": "are"
+        },
+        {
+          "interaction_id": "A1_U10_I18",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
               "id": "w1",
-              "text": "you"
+              "text": "[[Review|Repaso]]"
             },
             {
               "id": "w2",
-              "text": "from"
+              "text": "[[Correct|Correcto/a]]"
             },
             {
               "id": "w3",
-              "text": "Spain?"
+              "text": "[[Assessment|Evaluación]]"
             }
           ],
           "correct_answer": [
-            "w0",
             "w1",
+            "w3",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U10_I19",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Introduce|Presentar]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Complete|Completar]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Describe|Describir]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U10_I20",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[phrase|frase]].",
+          "mastery_tag": "vocabulary",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Match|Emparejar]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Information|Información]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Profile|Perfil]]"
+            }
+          ],
+          "correct_answer": [
+            "w1",
+            "w3",
+            "w2"
+          ]
+        }
+      ]
+    },
+    {
+      "block_id": "B3",
+      "title": "Grammar — Affirmative",
+      "content": [
+        {
+          "interaction_id": "A1_U10_I21",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] ______ [[a|una]] [[teacher|profesora]] [[from|de]] [[Spain|España]].",
+          "correct_answer": "am"
+        },
+        {
+          "interaction_id": "A1_U10_I22",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[His|Su]] [[name|nombre]] ______ [[Carlos|Carlos]].",
+          "correct_answer": "is"
+        },
+        {
+          "interaction_id": "A1_U10_I23",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[They|Ellos]] ______ [[students|estudiantes]].",
+          "correct_answer": "are"
+        },
+        {
+          "interaction_id": "A1_U10_I24",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[How|Qué]] ______ [[are|tienes]] [[you|tú]]?",
+          "correct_answer": "old"
+        },
+        {
+          "interaction_id": "A1_U10_I25",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[This|Esto]] ______ [[my|mi]] [[family|familia]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[is|is]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[is|is]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[are|are]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U10_I26",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[She|Ella]] ______ [[not|no]] [[from|de]] [[France|Francia]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[are|are]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[is|is]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[old|old]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U10_I27",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Where|Dónde]] [[do|trabajas]] [[you|tú]] ______?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[old|old]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[is|is]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[work|work]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U10_I28",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[I|Yo]] [[have|tengo]] ______ [[sisters|hermanas]].",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[two|two]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[is|is]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[is|is]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U10_I29",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Correct|Correcto/a]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Review|Repaso]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Introduce|Presentar]]"
+            }
+          ],
+          "correct_answer": [
             "w2",
+            "w1",
             "w3"
-          ],
-          "mastery_tag": "grammar"
+          ]
         },
         {
-          "interaction_id": "U10_I6",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés: 'Ella no es triste. Ella está feliz.' ([[review|repaso]])",
-          "correct_answer": "She is not sad. She is happy.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U10_I7",
-          "type": "matching",
-          "prompt_es": "Une el pronombre con la forma correcta de 'to be':",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "[[I|Yo]]",
-              "right": "are"
-            },
-            {
-              "id": "p1",
-              "left": "[[They|Ellos]]",
-              "right": "is"
-            },
-            {
-              "id": "p2",
-              "left": "[[He|Él]]",
-              "right": "am"
-            },
-            {
-              "id": "p3",
-              "left": "[[We|Nosotros]]",
-              "right": "are (nosotros)"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p2",
-            "p1": "p0",
-            "p2": "p1",
-            "p3": "p3"
-          },
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U10_I8",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la pregunta correcta para preguntar el nombre?",
+          "interaction_id": "A1_U10_I30",
+          "type": "sentence-building",
+          "prompt_es": "[[Arrange|Ordena]] [[the|las]] [[words|palabras]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
           "options": [
-            {
-              "id": "o1",
-              "text": "[[What is your name?|¿Cómo te llamas?]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Where are you from?|¿De dónde eres?]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[How are you?|¿Cómo estás?]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U10_I9",
-          "type": "transformation",
-          "prompt_es": "Haz la frase negativa: ([[review|repaso]])",
-          "stimulus_en": "He is tired. → He ________ tired.",
-          "correct_answer": "isn't",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U10_I10",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: '[[Are|¿Están]] [[they|ellos]] [[hungry?|hambrientos?]] — [[Yes|Sí]], [[they|ellos]] [[are|están]].'",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        }
-      ]
-    },
-    {
-      "block_id": "B10_2",
-      "title": "Review: Vocabulary and Simple Present (Units 4-5)",
-      "content": [
-        {
-          "interaction_id": "U10_I11",
-          "type": "matching",
-          "prompt_es": "Une el objeto con su traducción:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "[[Pen|Bolígrafo]]",
-              "right": "Cuaderno"
-            },
-            {
-              "id": "p1",
-              "left": "[[Notebook|Cuaderno]]",
-              "right": "Goma de borrar"
-            },
-            {
-              "id": "p2",
-              "left": "[[Eraser|Goma de borrar]]",
-              "right": "Libro"
-            },
-            {
-              "id": "p3",
-              "left": "[[Book|Libro]]",
-              "right": "Bolígrafo"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p3",
-            "p1": "p0",
-            "p2": "p1",
-            "p3": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U10_I12",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es el artículo correcto para 'apple'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[a apple|a apple]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[an apple|una manzana]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[the apple|la manzana]]"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U10_I13",
-          "type": "transformation",
-          "prompt_es": "Añade la 's' de 3ª persona si es necesario: ([[every day|todos los días]])",
-          "stimulus_en": "She ________ (study) English every day.",
-          "correct_answer": "studies",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U10_I14",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "He"
-            },
             {
               "id": "w1",
-              "text": "eats"
+              "text": "[[Choose|Elegir]]"
             },
             {
               "id": "w2",
-              "text": "[[breakfast|desayuno]]"
+              "text": "[[Describe|Describir]]"
             },
             {
               "id": "w3",
-              "text": "every"
-            },
-            {
-              "id": "w4",
-              "text": "morning."
+              "text": "[[Profile|Perfil]]"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
             "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U10_I15",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés: 'Ellas estudian inglés' ([[review|repaso]])",
-          "correct_answer": "They study English.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U10_I16",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: '[[This|Este]] [[is|es]] [[a|un]] [[pen|bolígrafo]] [[and|y]] [[those|esos]] [[are|son]] [[books|libros]].'",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U10_I17",
-          "type": "matching",
-          "prompt_es": "Une el verbo con su traducción:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "[[Work|Trabajar]]",
-              "right": "Dormir"
-            },
-            {
-              "id": "p1",
-              "left": "[[Sleep|Dormir]]",
-              "right": "Jugar"
-            },
-            {
-              "id": "p2",
-              "left": "[[Play|Jugar]]",
-              "right": "Beber"
-            },
-            {
-              "id": "p3",
-              "left": "[[Drink|Beber]]",
-              "right": "Trabajar"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p3",
-            "p1": "p0",
-            "p2": "p1",
-            "p3": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U10_I18",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es el plural correcto de 'class'?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[classs|classs]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[classis|classis]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[classes|clases]]"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U10_I19",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta del verbo: ([[football|fútbol]])",
-          "stimulus_en": "My brother ________ (play) football on Sundays.",
-          "correct_answer": "plays",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U10_I20",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para formar una frase:",
-          "options": [
-            {
-              "id": "w0",
-              "text": "I"
-            },
-            {
-              "id": "w1",
-              "text": "drink"
-            },
-            {
-              "id": "w2",
-              "text": "[[coffee|café]]"
-            },
-            {
-              "id": "w3",
-              "text": "every"
-            },
-            {
-              "id": "w4",
-              "text": "morning."
-            }
-          ],
-          "correct_answer": [
-            "w0",
             "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
-        }
-      ]
-    },
-    {
-      "block_id": "B10_3",
-      "title": "Review: Family and Descriptions (Units 6-7)",
-      "content": [
-        {
-          "interaction_id": "U10_I21",
-          "type": "matching",
-          "prompt_es": "Une el miembro de la familia con su traducción:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "[[Mother|Madre]]",
-              "right": "Abuelo/a"
-            },
-            {
-              "id": "p1",
-              "left": "[[Grandfather|Abuelo/a]]",
-              "right": "Hermana"
-            },
-            {
-              "id": "p2",
-              "left": "[[Sister|Hermana]]",
-              "right": "Madre"
-            },
-            {
-              "id": "p3",
-              "left": "[[Uncle|Tío]]",
-              "right": "Tío"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p2",
-            "p1": "p0",
-            "p2": "p1",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U10_I22",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se dice 'El libro de Maria' en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Maria's book|El libro de Maria]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[The book of Maria|El libro de Maria]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[Maria book|Libro Maria]]"
-            }
-          ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U10_I23",
-          "type": "transformation",
-          "prompt_es": "Completa con el posesivo correcto: ([[review|repaso]])",
-          "stimulus_en": "Tom ________ sister is tall.",
-          "correct_answer": "'s",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U10_I24",
-          "type": "reorder_words",
-          "prompt_es": "Ordena para describir a alguien: ([[review|repaso]])",
-          "options": [
-            {
-              "id": "w0",
-              "text": "She"
-            },
-            {
-              "id": "w1",
-              "text": "has"
-            },
-            {
-              "id": "w2",
-              "text": "long"
-            },
-            {
-              "id": "w3",
-              "text": "brown"
-            },
-            {
-              "id": "w4",
-              "text": "hair."
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3",
-            "w4"
-          ],
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U10_I25",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: '[[My|Mi]] [[father's|del padre's]] [[car|coche]] [[is|es]] [[red|rojo]].'",
-          "correct_answer": false,
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U10_I26",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés: 'El perro de Pedro' ([[review|repaso]])",
-          "correct_answer": "Pedro's dog",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U10_I27",
-          "type": "matching",
-          "prompt_es": "Une el color con su traducción:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "[[Red|Rojo]]",
-              "right": "Verde"
-            },
-            {
-              "id": "p1",
-              "left": "[[Green|Verde]]",
-              "right": "Azul"
-            },
-            {
-              "id": "p2",
-              "left": "[[Blue|Azul]]",
-              "right": "Amarillo"
-            },
-            {
-              "id": "p3",
-              "left": "[[Yellow|Amarillo]]",
-              "right": "Rojo"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p3",
-            "p1": "p0",
-            "p2": "p1",
-            "p3": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U10_I28",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la descripción correcta en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[He has eyes blue.|Tiene ojos azules.]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[He has blue eyes.|Tiene ojos azules.]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[He is blue eyes.|Es ojos azules.]]"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U10_I29",
-          "type": "transformation",
-          "prompt_es": "Completa la descripción: ([[and|y]])",
-          "stimulus_en": "She is ________ and slim. She has short blonde hair.",
-          "correct_answer": "tall",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U10_I30",
-          "type": "short_writing",
-          "prompt_es": "Describe a alguien con pelo largo negro en inglés: ([[review|repaso]])",
-          "correct_answer": "She/He has long black hair.",
-          "mastery_tag": "vocabulary"
-        }
-      ]
-    },
-    {
-      "block_id": "B10_4",
-      "title": "Review: Numbers and Money (Unit 8)",
-      "content": [
-        {
-          "interaction_id": "U10_I31",
-          "type": "matching",
-          "prompt_es": "Une el número con su traducción:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "[[Twenty-five|Veinticinco]]",
-              "right": "Cincuenta"
-            },
-            {
-              "id": "p1",
-              "left": "[[Fifty|Cincuenta]]",
-              "right": "Ochenta y nueve"
-            },
-            {
-              "id": "p2",
-              "left": "[[Seventy|Setenta]]",
-              "right": "Veinticinco"
-            },
-            {
-              "id": "p3",
-              "left": "[[Eighty-nine|Ochenta y nueve]]",
-              "right": "Setenta"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p2",
-            "p1": "p0",
-            "p2": "p3",
-            "p3": "p1"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U10_I32",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cómo se pregunta el precio en inglés?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[How old is it?|¿Cuántos años tiene?]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[How much is it?|¿Cuánto cuesta?]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[What is it?|¿Qué es?]]"
-            }
-          ],
-          "correct_answer": "o2",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U10_I33",
-          "type": "transformation",
-          "prompt_es": "Completa con el número en inglés: ([[review|repaso]])",
-          "stimulus_en": "He is (cuarenta y ocho) ________ years old.",
-          "correct_answer": "forty-eight",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U10_I34",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para preguntar la edad: ([[review|repaso]])",
-          "options": [
-            {
-              "id": "w0",
-              "text": "How"
-            },
-            {
-              "id": "w1",
-              "text": "old"
-            },
-            {
-              "id": "w2",
-              "text": "are"
-            },
-            {
-              "id": "w3",
-              "text": "you?"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
             "w3"
-          ],
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U10_I35",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés: 'Sesenta y tres euros' ([[review|repaso]])",
-          "correct_answer": "Sixty-three euros",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U10_I36",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: '[[The|El]] [[book|libro]] [[costs|cuesta]] [[forty-five|cuarenta y cinco]] [[euros|euros]].'",
-          "correct_answer": true,
-          "mastery_tag": "syntax"
-        },
-        {
-          "interaction_id": "U10_I37",
-          "type": "matching",
-          "prompt_es": "Une la moneda con su país:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "[[Euro|Euro]]",
-              "right": "Reino Unido"
-            },
-            {
-              "id": "p1",
-              "left": "[[Pound|Libra]]",
-              "right": "Estados Unidos"
-            },
-            {
-              "id": "p2",
-              "left": "[[Dollar|Dólar]]",
-              "right": "Japón"
-            },
-            {
-              "id": "p3",
-              "left": "[[Yen|Yen]]",
-              "right": "Europa"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p3",
-            "p1": "p0",
-            "p2": "p1",
-            "p3": "p2"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U10_I38",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuánto es 40 + 33?",
-          "options": [
-            {
-              "id": "o1",
-              "text": "[[Seventy-four|Setenta y cuatro]]"
-            },
-            {
-              "id": "o2",
-              "text": "[[Sixty-three|Sesenta y tres]]"
-            },
-            {
-              "id": "o3",
-              "text": "[[Seventy-three|Setenta y tres]]"
-            }
-          ],
-          "correct_answer": "o3",
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U10_I39",
-          "type": "transformation",
-          "prompt_es": "Completa la pregunta sobre el precio: ([[review|repaso]])",
-          "stimulus_en": "How ________ is the ticket?",
-          "correct_answer": "much",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U10_I40",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para decir el precio: ([[review|repaso]])",
-          "options": [
-            {
-              "id": "w0",
-              "text": "It"
-            },
-            {
-              "id": "w1",
-              "text": "costs"
-            },
-            {
-              "id": "w2",
-              "text": "twenty"
-            },
-            {
-              "id": "w3",
-              "text": "euros."
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "syntax"
+          ]
         }
       ]
     },
     {
-      "block_id": "B10_5",
-      "title": "Review: Jobs and Occupations (Unit 9)",
+      "block_id": "B4",
+      "title": "Grammar — Negative & Questions",
       "content": [
         {
-          "interaction_id": "U10_I41",
-          "type": "matching",
-          "prompt_es": "Une la profesión con su lugar de trabajo:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "[[Teacher|Profesor/a]]",
-              "right": "Hospital"
-            },
-            {
-              "id": "p1",
-              "left": "[[Doctor|Médico/a]]",
-              "right": "Granja"
-            },
-            {
-              "id": "p2",
-              "left": "[[Farmer|Agricultor/a]]",
-              "right": "Restaurante"
-            },
-            {
-              "id": "p3",
-              "left": "[[Chef|Cocinero/a]]",
-              "right": "Escuela"
-            }
-          ],
-          "correct_answer": {
-            "p0": "p3",
-            "p1": "p0",
-            "p2": "p1",
-            "p3": "p2"
-          },
-          "mastery_tag": "vocabulary"
+          "interaction_id": "A1_U10_I31",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[They|Ellos]] ______ [[students|estudiantes]].",
+          "correct_answer": "are"
         },
         {
-          "interaction_id": "U10_I42",
-          "type": "multiple_choice",
-          "prompt_es": "¿Qué artículo se usa antes de 'engineer'?",
+          "interaction_id": "A1_U10_I32",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[How|Qué]] ______ [[are|tienes]] [[you|tú]]?",
+          "correct_answer": "old"
+        },
+        {
+          "interaction_id": "A1_U10_I33",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[This|Esto]] ______ [[my|mi]] [[family|familia]].",
+          "correct_answer": "is"
+        },
+        {
+          "interaction_id": "A1_U10_I34",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[How|Qué]] ______ [[are|tienes]] [[you|tú]]?",
           "options": [
             {
               "id": "o1",
-              "text": "[[an engineer|un/a ingeniero/a]]"
+              "text": "[[old|old]]"
             },
             {
               "id": "o2",
-              "text": "[[a engineer|a engineer]]"
+              "text": "[[is|is]]"
             },
             {
               "id": "o3",
-              "text": "[[the engineer|el/la ingeniero/a]]"
+              "text": "[[work|work]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "grammar"
+          "correct_answer": "o1"
         },
         {
-          "interaction_id": "U10_I43",
-          "type": "transformation",
-          "prompt_es": "Completa con la forma correcta de 'to be': ([[review|repaso]])",
-          "stimulus_en": "She ________ a nurse. She works in a hospital.",
-          "correct_answer": "is",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U10_I44",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para preguntar la profesión: ([[review|repaso]])",
-          "options": [
-            {
-              "id": "w0",
-              "text": "What"
-            },
-            {
-              "id": "w1",
-              "text": "do"
-            },
-            {
-              "id": "w2",
-              "text": "you"
-            },
-            {
-              "id": "w3",
-              "text": "do?"
-            }
-          ],
-          "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
-            "w3"
-          ],
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U10_I45",
-          "type": "short_writing",
-          "prompt_es": "Traduce al inglés: 'Soy médico. Trabajo en un hospital.' ([[review|repaso]])",
-          "correct_answer": "I am a doctor. I work in a hospital.",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U10_I46",
-          "type": "true_false",
-          "prompt_es": "¿Es correcta esta frase?: '[[A|Un]] [[firefighter|bombero]] [[works|trabaja]] [[in|en]] [[a|una]] [[school|escuela]].'",
-          "correct_answer": false,
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U10_I47",
-          "type": "matching",
-          "prompt_es": "Une la profesión con su descripción:",
-          "pairs": [
-            {
-              "id": "p0",
-              "left": "[[Firefighter|Bombero/a]]",
-              "right": "Enseña a los estudiantes."
-            },
-            {
-              "id": "p1",
-              "left": "[[Teacher|Profesor/a]]",
-              "right": "Diseña edificios."
-            },
-            {
-              "id": "p2",
-              "left": "[[Architect|Arquitecto/a]]",
-              "right": "Apaga incendios."
-            },
-            {
-              "id": "p3",
-              "left": "[[Writer|Escritor/a]]",
-              "right": "Escribe libros."
-            }
-          ],
-          "correct_answer": {
-            "p0": "p2",
-            "p1": "p0",
-            "p2": "p1",
-            "p3": "p3"
-          },
-          "mastery_tag": "vocabulary"
-        },
-        {
-          "interaction_id": "U10_I48",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la pregunta correcta para preguntar dónde trabaja alguien?",
+          "interaction_id": "A1_U10_I35",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[This|Esto]] ______ [[my|mi]] [[family|familia]].",
           "options": [
             {
               "id": "o1",
-              "text": "[[What do you do?|¿A qué te dedicas?]]"
+              "text": "[[work|work]]"
             },
             {
               "id": "o2",
-              "text": "[[How old are you?|¿Cuántos años tienes?]]"
+              "text": "[[is|is]]"
             },
             {
               "id": "o3",
-              "text": "[[Where do you work?|¿Dónde trabajas?]]"
+              "text": "[[two|two]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "grammar"
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U10_I49",
-          "type": "transformation",
-          "prompt_es": "Completa la frase: ([[review|repaso]])",
-          "stimulus_en": "I am ________ artist. I work in a studio.",
-          "correct_answer": "an",
-          "mastery_tag": "grammar"
-        },
-        {
-          "interaction_id": "U10_I50",
-          "type": "reorder_words",
-          "prompt_es": "Ordena las palabras para decir la profesión de alguien: ([[review|repaso]])",
+          "interaction_id": "A1_U10_I36",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[She|Ella]] ______ [[not|no]] [[from|de]] [[France|Francia]].",
           "options": [
             {
-              "id": "w0",
-              "text": "He"
+              "id": "o1",
+              "text": "[[two|two]]"
             },
             {
+              "id": "o2",
+              "text": "[[am|am]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[is|is]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U10_I37",
+          "type": "multiple-choice",
+          "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "stimulus_en": "[[Where|Dónde]] [[do|trabajas]] [[you|tú]] ______?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[work|work]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[am|am]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[is|is]]"
+            }
+          ],
+          "correct_answer": "o1"
+        },
+        {
+          "interaction_id": "A1_U10_I38",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
               "id": "w1",
-              "text": "is"
+              "text": "[[Introduce|Presentar]]"
             },
             {
               "id": "w2",
-              "text": "a"
+              "text": "[[Assessment|Evaluación]]"
             },
             {
               "id": "w3",
-              "text": "police"
+              "text": "[[Complete|Completar]]"
             },
             {
               "id": "w4",
-              "text": "officer."
+              "text": "[[Correct|Correcto/a]]"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
             "w2",
-            "w3",
-            "w4"
+            "w1",
+            "w4",
+            "w3"
+          ]
+        },
+        {
+          "interaction_id": "A1_U10_I39",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Choose|Elegir]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Introduce|Presentar]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Profile|Perfil]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Describe|Describir]]"
+            }
           ],
-          "mastery_tag": "syntax"
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
+        },
+        {
+          "interaction_id": "A1_U10_I40",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "grammar",
+          "complexity": 2,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Information|Información]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Choose|Elegir]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Language|Idioma]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Match|Emparejar]]"
+            }
+          ],
+          "correct_answer": [
+            "w2",
+            "w1",
+            "w4",
+            "w3"
+          ]
         }
       ]
     },
     {
-      "block_id": "B10_6",
-      "title": "Reading: Maria's World",
+      "block_id": "B5",
+      "title": "Reading Comprehension",
       "content": [
         {
-          "interaction_id": "U10_READ1",
-          "type": "reading_phase",
-          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[carefully|con atención]] [[and|y]] [[answer|responde]] [[the|las]] [[questions|preguntas]].",
-          "transcript": "[[Hello|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] [[Maria|María]]. [[I|Yo]] [[am|tengo]] [[twenty-eight|veintiocho]] [[years old|años]].\n\n[[I|Yo]] [[am|soy]] [[from|de]] [[Spain|España]] — [[I|yo]] [[am|soy]] [[Spanish|española]]. [[I|Yo]] [[am|soy]] [[a|una]] [[teacher|profesora]]. [[I|Yo]] [[work|trabajo]] [[in|en]] [[a|una]] [[primary school|escuela primaria]] [[in|en]] [[Madrid|Madrid]].\n\n[[My|Mi]] [[family|familia]] [[is|es]] [[big|grande]]. [[I|Yo]] [[have|tengo]] [[a|un]] [[brother|hermano]] [[and|y]] [[a|una]] [[sister|hermana]]. [[My|Mi]] [[brother's|hermano's]] [[name|nombre]] [[is|es]] [[Carlos|Carlos]]. [[He|Él]] [[is|tiene]] [[thirty-five|treinta y cinco]] [[years old|años]] [[and|y]] [[he|él]] [[is|es]] [[a|un]] [[doctor|médico]].\n\n[[My|Mi]] [[sister|hermana]] [[is|tiene]] [[twenty-five|veinticinco]] [[years old|años]]. [[She|Ella]] [[has|tiene]] [[long|largo]] [[brown|castaño]] [[hair|pelo]] [[and|y]] [[green|verdes]] [[eyes|ojos]]. [[She|Ella]] [[is|es]] [[a|una]] [[scientist|científica]].\n\n[[I|Yo]] [[love|amo]] [[my|mi]] [[job|trabajo]]. [[My|Mis]] [[students|estudiantes]] [[are|son]] [[six|seis]] [[and|y]] [[seven|siete]] [[years old|años]]. [[The|La]] [[school|escuela]] [[has|tiene]] [[sixty|sesenta]] [[students|estudiantes]].\n\n[[In|En]] [[my|mi]] [[free time|tiempo libre]], [[I|yo]] [[read|leo]] [[books|libros]] [[and|y]] [[I|yo]] [[play|toco]] [[the|la]] [[guitar|guitarra]]. [[My|Mi]] [[favourite|favorito]] [[colour|color]] [[is|es]] [[blue|azul]].",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U10_I51",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuántos años tiene María?",
+          "interaction_id": "A1_U10_I41",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Hello|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] [[Sofia|Sofia]]. [[I|Yo]] [[am|soy]] [[twenty-five|veinticinco]] [[years|años]] [[old|de edad]]. [[I|Yo]] [[am|soy]] [[from|de]] [[Mexico|México]] [[and|y]] [[I|yo]] [[am|soy]] [[a|una]] [[lawyer|abogada]]. [[I|Yo]] [[have|tengo]] [[a|una]] [[big|grande]] [[family|familia]]. [[My|Mi]] [[father|padre]] [[is|es]] [[a|un]] [[doctor|médico]]. [[My|Mi]] [[mother|madre]] [[is|es]] [[a|una]] [[teacher|profesora]] [[and|y]] [[she|ella]] [[has|tiene]] [[brown|castaño]] [[hair|pelo]] [[and|y]] [[green|verdes]] [[eyes|ojos]]. [[My|Mi]] [[brother|hermano]] [[is|es]] [[thirty|treinta]] [[years|años]] [[old|de edad]]. [[He|Él]] [[works|trabaja]] [[in|en]] [[an|un]] [[office|oficina]]. [[I|Yo]] [[am|estoy]] [[very|muy]] [[happy|feliz]] [[to|de]] [[meet|conocerte]] [[you|a ti]]!",
+          "question_en": "[[What|Cuál]] [[is|es]] [[Sofia's|de Sofia]] [[nationality|nacionalidad]]?",
           "options": [
             {
               "id": "o1",
-              "text": "[[Twenty-five|Veinticinco]]"
+              "text": "[[Spanish|Española]]"
             },
             {
               "id": "o2",
-              "text": "[[Twenty-eight|Veintiocho]]"
+              "text": "[[Mexican|Mexicana]]"
             },
             {
               "id": "o3",
-              "text": "[[Thirty-five|Treinta y cinco]]"
+              "text": "[[Italian|Italiana]]"
             }
           ],
-          "correct_answer": "o2",
-          "mastery_tag": "reading"
+          "correct_answer": "o2"
         },
         {
-          "interaction_id": "U10_I52",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es la profesión de María?",
+          "interaction_id": "A1_U10_I42",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Hello|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] [[Sofia|Sofia]]. [[I|Yo]] [[am|soy]] [[twenty-five|veinticinco]] [[years|años]] [[old|de edad]]. [[I|Yo]] [[am|soy]] [[from|de]] [[Mexico|México]] [[and|y]] [[I|yo]] [[am|soy]] [[a|una]] [[lawyer|abogada]]. [[I|Yo]] [[have|tengo]] [[a|una]] [[big|grande]] [[family|familia]]. [[My|Mi]] [[father|padre]] [[is|es]] [[a|un]] [[doctor|médico]]. [[My|Mi]] [[mother|madre]] [[is|es]] [[a|una]] [[teacher|profesora]] [[and|y]] [[she|ella]] [[has|tiene]] [[brown|castaño]] [[hair|pelo]] [[and|y]] [[green|verdes]] [[eyes|ojos]]. [[My|Mi]] [[brother|hermano]] [[is|es]] [[thirty|treinta]] [[years|años]] [[old|de edad]]. [[He|Él]] [[works|trabaja]] [[in|en]] [[an|un]] [[office|oficina]]. [[I|Yo]] [[am|estoy]] [[very|muy]] [[happy|feliz]] [[to|de]] [[meet|conocerte]] [[you|a ti]]!",
+          "question_en": "[[What|Cuál]] [[is|es]] [[Sofia's|de Sofia]] [[job|trabajo]]?",
           "options": [
             {
               "id": "o1",
-              "text": "[[Teacher|Profesora]]"
+              "text": "[[doctor|médica]]"
             },
             {
               "id": "o2",
-              "text": "[[Doctor|Médica]]"
+              "text": "[[teacher|profesora]]"
             },
             {
               "id": "o3",
-              "text": "[[Scientist|Científica]]"
+              "text": "[[lawyer|abogada]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U10_I53",
-          "type": "true_false",
-          "prompt_es": "¿Es verdad que el hermano de María es médico? ([[review|repaso]])",
-          "correct_answer": true,
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U10_I54",
-          "type": "transformation",
-          "prompt_es": "Completa según el texto: ([[and|y]])",
-          "stimulus_en": "Maria's sister has long brown hair and ________ eyes.",
-          "correct_answer": "green",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U10_I55",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuántos estudiantes tiene la escuela de María?",
+          "interaction_id": "A1_U10_I43",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Hello|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] [[Sofia|Sofia]]. [[I|Yo]] [[am|soy]] [[twenty-five|veinticinco]] [[years|años]] [[old|de edad]]. [[I|Yo]] [[am|soy]] [[from|de]] [[Mexico|México]] [[and|y]] [[I|yo]] [[am|soy]] [[a|una]] [[lawyer|abogada]]. [[I|Yo]] [[have|tengo]] [[a|una]] [[big|grande]] [[family|familia]]. [[My|Mi]] [[father|padre]] [[is|es]] [[a|un]] [[doctor|médico]]. [[My|Mi]] [[mother|madre]] [[is|es]] [[a|una]] [[teacher|profesora]] [[and|y]] [[she|ella]] [[has|tiene]] [[brown|castaño]] [[hair|pelo]] [[and|y]] [[green|verdes]] [[eyes|ojos]]. [[My|Mi]] [[brother|hermano]] [[is|es]] [[thirty|treinta]] [[years|años]] [[old|de edad]]. [[He|Él]] [[works|trabaja]] [[in|en]] [[an|un]] [[office|oficina]]. [[I|Yo]] [[am|estoy]] [[very|muy]] [[happy|feliz]] [[to|de]] [[meet|conocerte]] [[you|a ti]]!",
+          "question_en": "[[How|Cuántos]] [[old|años]] [[is|tiene]] [[Sofia|Sofia]]?",
           "options": [
             {
               "id": "o1",
-              "text": "[[Sixty|Sesenta]]"
+              "text": "[[twenty|veinte]]"
             },
             {
               "id": "o2",
-              "text": "[[Seventy|Setenta]]"
+              "text": "[[thirty|treinta]]"
             },
             {
               "id": "o3",
-              "text": "[[Fifty|Cincuenta]]"
+              "text": "[[twenty-five|veinticinco]]"
             }
           ],
-          "correct_answer": "o1",
-          "mastery_tag": "reading"
+          "correct_answer": "o3"
         },
         {
-          "interaction_id": "U10_I56",
-          "type": "short_writing",
-          "prompt_es": "¿De dónde es María? Escribe la respuesta en inglés. ([[review|repaso]])",
-          "correct_answer": "She is from Spain.",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U10_I57",
-          "type": "reorder_words",
-          "prompt_es": "Ordena para describir a la hermana de María: ([[review|repaso]])",
+          "interaction_id": "A1_U10_I44",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Hello|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] [[Sofia|Sofia]]. [[I|Yo]] [[am|soy]] [[twenty-five|veinticinco]] [[years|años]] [[old|de edad]]. [[I|Yo]] [[am|soy]] [[from|de]] [[Mexico|México]] [[and|y]] [[I|yo]] [[am|soy]] [[a|una]] [[lawyer|abogada]]. [[I|Yo]] [[have|tengo]] [[a|una]] [[big|grande]] [[family|familia]]. [[My|Mi]] [[father|padre]] [[is|es]] [[a|un]] [[doctor|médico]]. [[My|Mi]] [[mother|madre]] [[is|es]] [[a|una]] [[teacher|profesora]] [[and|y]] [[she|ella]] [[has|tiene]] [[brown|castaño]] [[hair|pelo]] [[and|y]] [[green|verdes]] [[eyes|ojos]]. [[My|Mi]] [[brother|hermano]] [[is|es]] [[thirty|treinta]] [[years|años]] [[old|de edad]]. [[He|Él]] [[works|trabaja]] [[in|en]] [[an|un]] [[office|oficina]]. [[I|Yo]] [[am|estoy]] [[very|muy]] [[happy|feliz]] [[to|de]] [[meet|conocerte]] [[you|a ti]]!",
+          "question_en": "[[What|Qué]] [[is|es]] [[Sofia's|de Sofia]] [[father's|del padre]] [[job|trabajo]]?",
           "options": [
             {
-              "id": "w0",
-              "text": "She"
+              "id": "o1",
+              "text": "[[lawyer|abogado]]"
             },
+            {
+              "id": "o2",
+              "text": "[[doctor|médico]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[engineer|ingeniero]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U10_I45",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Hello|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] [[Sofia|Sofia]]. [[I|Yo]] [[am|soy]] [[twenty-five|veinticinco]] [[years|años]] [[old|de edad]]. [[I|Yo]] [[am|soy]] [[from|de]] [[Mexico|México]] [[and|y]] [[I|yo]] [[am|soy]] [[a|una]] [[lawyer|abogada]]. [[I|Yo]] [[have|tengo]] [[a|una]] [[big|grande]] [[family|familia]]. [[My|Mi]] [[father|padre]] [[is|es]] [[a|un]] [[doctor|médico]]. [[My|Mi]] [[mother|madre]] [[is|es]] [[a|una]] [[teacher|profesora]] [[and|y]] [[she|ella]] [[has|tiene]] [[brown|castaño]] [[hair|pelo]] [[and|y]] [[green|verdes]] [[eyes|ojos]]. [[My|Mi]] [[brother|hermano]] [[is|es]] [[thirty|treinta]] [[years|años]] [[old|de edad]]. [[He|Él]] [[works|trabaja]] [[in|en]] [[an|un]] [[office|oficina]]. [[I|Yo]] [[am|estoy]] [[very|muy]] [[happy|feliz]] [[to|de]] [[meet|conocerte]] [[you|a ti]]!",
+          "question_en": "[[What|Cuál]] [[is|es]] [[Sofia's|de Sofia]] [[mother's|de la madre]] [[job|trabajo]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[nurse|enfermera]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[doctor|médica]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[teacher|profesora]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U10_I46",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Hello|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] [[Sofia|Sofia]]. [[I|Yo]] [[am|soy]] [[twenty-five|veinticinco]] [[years|años]] [[old|de edad]]. [[I|Yo]] [[am|soy]] [[from|de]] [[Mexico|México]] [[and|y]] [[I|yo]] [[am|soy]] [[a|una]] [[lawyer|abogada]]. [[I|Yo]] [[have|tengo]] [[a|una]] [[big|grande]] [[family|familia]]. [[My|Mi]] [[father|padre]] [[is|es]] [[a|un]] [[doctor|médico]]. [[My|Mi]] [[mother|madre]] [[is|es]] [[a|una]] [[teacher|profesora]] [[and|y]] [[she|ella]] [[has|tiene]] [[brown|castaño]] [[hair|pelo]] [[and|y]] [[green|verdes]] [[eyes|ojos]]. [[My|Mi]] [[brother|hermano]] [[is|es]] [[thirty|treinta]] [[years|años]] [[old|de edad]]. [[He|Él]] [[works|trabaja]] [[in|en]] [[an|un]] [[office|oficina]]. [[I|Yo]] [[am|estoy]] [[very|muy]] [[happy|feliz]] [[to|de]] [[meet|conocerte]] [[you|a ti]]!",
+          "question_en": "[[What|Qué]] [[color|color]] [[are|son]] [[Sofia's|de Sofia]] [[mother's|de la madre]] [[eyes|ojos]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[blue|azules]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[green|verdes]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[brown|marrones]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U10_I47",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Hello|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] [[Sofia|Sofia]]. [[I|Yo]] [[am|soy]] [[twenty-five|veinticinco]] [[years|años]] [[old|de edad]]. [[I|Yo]] [[am|soy]] [[from|de]] [[Mexico|México]] [[and|y]] [[I|yo]] [[am|soy]] [[a|una]] [[lawyer|abogada]]. [[I|Yo]] [[have|tengo]] [[a|una]] [[big|grande]] [[family|familia]]. [[My|Mi]] [[father|padre]] [[is|es]] [[a|un]] [[doctor|médico]]. [[My|Mi]] [[mother|madre]] [[is|es]] [[a|una]] [[teacher|profesora]] [[and|y]] [[she|ella]] [[has|tiene]] [[brown|castaño]] [[hair|pelo]] [[and|y]] [[green|verdes]] [[eyes|ojos]]. [[My|Mi]] [[brother|hermano]] [[is|es]] [[thirty|treinta]] [[years|años]] [[old|de edad]]. [[He|Él]] [[works|trabaja]] [[in|en]] [[an|un]] [[office|oficina]]. [[I|Yo]] [[am|estoy]] [[very|muy]] [[happy|feliz]] [[to|de]] [[meet|conocerte]] [[you|a ti]]!",
+          "question_en": "[[How|Cuántos]] [[old|años]] [[is|tiene]] [[Sofia's|de Sofia]] [[brother|hermano]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[twenty|veinte]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[forty|cuarenta]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[thirty|treinta]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U10_I48",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Hello|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] [[Sofia|Sofia]]. [[I|Yo]] [[am|soy]] [[twenty-five|veinticinco]] [[years|años]] [[old|de edad]]. [[I|Yo]] [[am|soy]] [[from|de]] [[Mexico|México]] [[and|y]] [[I|yo]] [[am|soy]] [[a|una]] [[lawyer|abogada]]. [[I|Yo]] [[have|tengo]] [[a|una]] [[big|grande]] [[family|familia]]. [[My|Mi]] [[father|padre]] [[is|es]] [[a|un]] [[doctor|médico]]. [[My|Mi]] [[mother|madre]] [[is|es]] [[a|una]] [[teacher|profesora]] [[and|y]] [[she|ella]] [[has|tiene]] [[brown|castaño]] [[hair|pelo]] [[and|y]] [[green|verdes]] [[eyes|ojos]]. [[My|Mi]] [[brother|hermano]] [[is|es]] [[thirty|treinta]] [[years|años]] [[old|de edad]]. [[He|Él]] [[works|trabaja]] [[in|en]] [[an|un]] [[office|oficina]]. [[I|Yo]] [[am|estoy]] [[very|muy]] [[happy|feliz]] [[to|de]] [[meet|conocerte]] [[you|a ti]]!",
+          "question_en": "[[Where|Dónde]] [[does|trabaja]] [[Sofia's|de Sofia]] [[brother|hermano]] [[work|trabaja]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[hospital|hospital]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[office|oficina]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[school|escuela]]"
+            }
+          ],
+          "correct_answer": "o2"
+        },
+        {
+          "interaction_id": "A1_U10_I49",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Hello|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] [[Sofia|Sofia]]. [[I|Yo]] [[am|soy]] [[twenty-five|veinticinco]] [[years|años]] [[old|de edad]]. [[I|Yo]] [[am|soy]] [[from|de]] [[Mexico|México]] [[and|y]] [[I|yo]] [[am|soy]] [[a|una]] [[lawyer|abogada]]. [[I|Yo]] [[have|tengo]] [[a|una]] [[big|grande]] [[family|familia]]. [[My|Mi]] [[father|padre]] [[is|es]] [[a|un]] [[doctor|médico]]. [[My|Mi]] [[mother|madre]] [[is|es]] [[a|una]] [[teacher|profesora]] [[and|y]] [[she|ella]] [[has|tiene]] [[brown|castaño]] [[hair|pelo]] [[and|y]] [[green|verdes]] [[eyes|ojos]]. [[My|Mi]] [[brother|hermano]] [[is|es]] [[thirty|treinta]] [[years|años]] [[old|de edad]]. [[He|Él]] [[works|trabaja]] [[in|en]] [[an|un]] [[office|oficina]]. [[I|Yo]] [[am|estoy]] [[very|muy]] [[happy|feliz]] [[to|de]] [[meet|conocerte]] [[you|a ti]]!",
+          "question_en": "[[What|Cómo]] [[does|se describe]] [[Sofia|Sofia]] [[describe|describe]] [[her|su]] [[family|familia]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[small|pequeña]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[medium|mediana]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[big|grande]]"
+            }
+          ],
+          "correct_answer": "o3"
+        },
+        {
+          "interaction_id": "A1_U10_I50",
+          "type": "reading-comprehension",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "mastery_tag": "reading",
+          "complexity": 2,
+          "transcript": "[[Hello|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] [[Sofia|Sofia]]. [[I|Yo]] [[am|soy]] [[twenty-five|veinticinco]] [[years|años]] [[old|de edad]]. [[I|Yo]] [[am|soy]] [[from|de]] [[Mexico|México]] [[and|y]] [[I|yo]] [[am|soy]] [[a|una]] [[lawyer|abogada]]. [[I|Yo]] [[have|tengo]] [[a|una]] [[big|grande]] [[family|familia]]. [[My|Mi]] [[father|padre]] [[is|es]] [[a|un]] [[doctor|médico]]. [[My|Mi]] [[mother|madre]] [[is|es]] [[a|una]] [[teacher|profesora]] [[and|y]] [[she|ella]] [[has|tiene]] [[brown|castaño]] [[hair|pelo]] [[and|y]] [[green|verdes]] [[eyes|ojos]]. [[My|Mi]] [[brother|hermano]] [[is|es]] [[thirty|treinta]] [[years|años]] [[old|de edad]]. [[He|Él]] [[works|trabaja]] [[in|en]] [[an|un]] [[office|oficina]]. [[I|Yo]] [[am|estoy]] [[very|muy]] [[happy|feliz]] [[to|de]] [[meet|conocerte]] [[you|a ti]]!",
+          "question_en": "[[How|Cómo]] [[does|se siente]] [[Sofia|Sofia]] [[feel|siente]] [[about|sobre]] [[meeting|conocer]] [[you|te]]?",
+          "options": [
+            {
+              "id": "o1",
+              "text": "[[sad|triste]]"
+            },
+            {
+              "id": "o2",
+              "text": "[[tired|cansada]]"
+            },
+            {
+              "id": "o3",
+              "text": "[[happy|feliz]]"
+            }
+          ],
+          "correct_answer": "o3"
+        }
+      ]
+    },
+    {
+      "block_id": "B6",
+      "title": "Production",
+      "content": [
+        {
+          "interaction_id": "A1_U10_I51",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
             {
               "id": "w1",
-              "text": "has"
+              "text": "[[Assessment|Evaluación]]"
             },
             {
               "id": "w2",
-              "text": "long"
+              "text": "[[Introduce|Presentar]]"
             },
             {
               "id": "w3",
-              "text": "brown"
+              "text": "[[Review|Repaso]]"
             },
             {
               "id": "w4",
-              "text": "hair."
+              "text": "[[Correct|Correcto/a]]"
             }
           ],
           "correct_answer": [
-            "w0",
-            "w1",
-            "w2",
             "w3",
-            "w4"
-          ],
-          "mastery_tag": "reading"
+            "w1",
+            "w4",
+            "w2"
+          ]
         },
         {
-          "interaction_id": "U10_I58",
-          "type": "true_false",
-          "prompt_es": "¿Es verdad que María toca la guitarra en su tiempo libre? ([[review|repaso]])",
-          "correct_answer": true,
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U10_I59",
-          "type": "transformation",
-          "prompt_es": "Completa según el texto sobre Carlos: ([[review|repaso]])",
-          "stimulus_en": "Carlos is ________ years old.",
-          "correct_answer": "thirty-five",
-          "mastery_tag": "reading"
-        },
-        {
-          "interaction_id": "U10_I60",
-          "type": "multiple_choice",
-          "prompt_es": "¿Cuál es el color favorito de María?",
+          "interaction_id": "A1_U10_I52",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
           "options": [
             {
-              "id": "o1",
-              "text": "[[Green|Verde]]"
+              "id": "w1",
+              "text": "[[Introduce|Presentar]]"
             },
             {
-              "id": "o2",
-              "text": "[[Red|Rojo]]"
+              "id": "w2",
+              "text": "[[Choose|Elegir]]"
             },
             {
-              "id": "o3",
-              "text": "[[Blue|Azul]]"
+              "id": "w3",
+              "text": "[[Wrong|Incorrecto/a]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Describe|Describir]]"
             }
           ],
-          "correct_answer": "o3",
-          "mastery_tag": "reading"
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U10_I53",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Choose|Elegir]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Information|Información]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Complete|Completar]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Match|Emparejar]]"
+            }
+          ],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U10_I54",
+          "type": "sentence-building",
+          "prompt_es": "[[Build|Construye]] [[a|una]] [[sentence|frase]] [[using|usando]] [[these|estas]] [[words|palabras]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "options": [
+            {
+              "id": "w1",
+              "text": "[[Information|Información]]"
+            },
+            {
+              "id": "w2",
+              "text": "[[Practice|Practicar]]"
+            },
+            {
+              "id": "w3",
+              "text": "[[Profile|Perfil]]"
+            },
+            {
+              "id": "w4",
+              "text": "[[Personal|Personal]]"
+            }
+          ],
+          "correct_answer": [
+            "w3",
+            "w1",
+            "w4",
+            "w2"
+          ]
+        },
+        {
+          "interaction_id": "A1_U10_I55",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[She|Ella]] ______ [[not|no]] [[from|de]] [[France|Francia]].",
+          "correct_answer": "is"
+        },
+        {
+          "interaction_id": "A1_U10_I56",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Where|Dónde]] [[do|trabajas]] [[you|tú]] ______?",
+          "correct_answer": "work"
+        },
+        {
+          "interaction_id": "A1_U10_I57",
+          "type": "fill-blank",
+          "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[I|Yo]] [[have|tengo]] ______ [[sisters|hermanas]].",
+          "correct_answer": "two"
+        },
+        {
+          "interaction_id": "A1_U10_I58",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[Hello|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] [[Sofia|Sofia]]. [[I|Yo]] [[am|soy]] [[twenty-five|veinticinco]] [[years|años]] [[old|de edad]].",
+          "correct_answer": true
+        },
+        {
+          "interaction_id": "A1_U10_I59",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[I|Yo]] [[am|soy]] [[from|de]] [[Mexico|México]] [[and|y]] [[I|yo]] [[am|soy]] [[a|una]] [[lawyer|abogada]].",
+          "correct_answer": false
+        },
+        {
+          "interaction_id": "A1_U10_I60",
+          "type": "true-false",
+          "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
+          "mastery_tag": "production",
+          "complexity": 3,
+          "stimulus_en": "[[I|Yo]] [[have|tengo]] [[a|una]] [[big|grande]] [[family|familia]]. [[My|Mi]] [[father|padre]] [[is|es]] [[a|un]] [[doctor|médico]].",
+          "correct_answer": true
         }
       ]
     }

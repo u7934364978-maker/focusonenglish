@@ -47,7 +47,8 @@ Save to `{@artifacts_path}/spec.md` with:
 
 Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 
-### [ ] Step: Script skeleton and UNIT_DATA units 1–10
+### [x] Step: Script skeleton and UNIT_DATA units 1–10
+<!-- chat-id: 82b2cbb3-4117-4421-bae9-187b3d7b9162 -->
 
 Create `scripts/generate-a1-framework-course.py` with the full scaffold:
 
