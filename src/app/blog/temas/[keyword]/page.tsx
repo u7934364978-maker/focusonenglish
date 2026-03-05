@@ -127,7 +127,7 @@ export default async function KeywordHubPage({ params }: { params: Promise<{ key
               </div>
               <div className="flex-1">
                 <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/20 text-white text-xs font-bold uppercase tracking-wider mb-6 border border-white/30 backdrop-blur-sm">
-                  <span>🎯 Topic Cluster Hub</span>
+                  <span>🎯 Centro de Recursos</span>
                 </div>
                 <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl font-black mb-6 tracking-tight leading-none capitalize">
                   {hubContent?.title || originalKeyword}

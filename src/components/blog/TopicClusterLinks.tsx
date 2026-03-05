@@ -20,7 +20,7 @@ export function TopicClusterLinks({ articles, mainKeyword }: TopicClusterLinksPr
           </div>
           <div>
             <h2 className="font-display text-3xl font-black text-slate-900 leading-tight">
-              Topic Cluster: {mainKeyword || 'Temas Relacionados'}
+              Temas relacionados con: {mainKeyword || 'Temas Relacionados'}
             </h2>
             <p className="text-slate-500 font-medium">
               Profundiza en {mainKeyword || 'esta categoría'} con nuestras guías expertas

@@ -145,7 +145,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
               </div>
               <div className="text-center lg:text-left flex-1">
                 <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/20 text-white text-xs font-bold uppercase tracking-wider mb-6 border border-white/30 backdrop-blur-sm">
-                  <span>📚 Silo de contenido</span>
+                  <span>📚 Guía de Especialidad</span>
                 </div>
                 <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl font-black mb-6 tracking-tight leading-none">
                   {meta.name}
