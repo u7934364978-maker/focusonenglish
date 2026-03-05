@@ -91,7 +91,8 @@ Modify `src/app/blog/autor/[slug]/page.tsx`:
 
 Reference: spec.md — Change 4
 
-### [ ] Step 5: Verify with build and lint
+### [x] Step 5: Verify with build and lint
+<!-- chat-id: f10dd230-cbaf-4412-b039-3f6ecececb10 -->
 
 Run:
 ```bash
