@@ -78,7 +78,8 @@ Modify `src/app/blog/temas/[keyword]/page.tsx`:
 
 Reference: spec.md — Change 3
 
-### [ ] Step 4: Add visual breadcrumbs and JSON-LD to author profile page
+### [x] Step 4: Add visual breadcrumbs and JSON-LD to author profile page
+<!-- chat-id: 79a5dc88-8209-4a0b-ac11-b52764431dc8 -->
 
 Modify `src/app/blog/autor/[slug]/page.tsx`:
 - Import `generateBreadcrumbSchema` from `@/lib/schemas`

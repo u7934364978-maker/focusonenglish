@@ -6,6 +6,8 @@ import { authors } from "@/lib/authors";
 import { getArticlesByAuthor } from "@/lib/blog";
 import { Metadata } from "next";
 import { Linkedin, Twitter, Instagram, BookOpen, Award, CheckCircle } from "lucide-react";
+import { generateBreadcrumbSchema } from "@/lib/schemas";
+import { JsonLd } from "@/components/seo/JsonLd";
 
 export async function generateStaticParams() {
   return Object.keys(authors).map(slug => ({
@@ -36,12 +38,32 @@ export default async function AuthorPage({ params }: { params: Promise<{ slug: s
 
   const articles = getArticlesByAuthor(slug);
 
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Inicio", url: "https://www.focus-on-english.com" },
+    { name: "Blog", url: "https://www.focus-on-english.com/blog" },
+    { name: "Autores", url: "https://www.focus-on-english.com/blog/autores" },
+    { name: author.name },
+  ]);
+
   return (
     <>
+      <JsonLd data={breadcrumbSchema} />
       <Navigation />
       <main className="min-h-screen bg-slate-50 pt-32 pb-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          
+
+          <nav className="mb-8" aria-label="breadcrumb">
+            <ol className="flex items-center gap-2 text-sm text-slate-400">
+              <li><Link href="/" className="hover:text-slate-600 transition-colors">Inicio</Link></li>
+              <li>›</li>
+              <li><Link href="/blog" className="hover:text-slate-600 transition-colors">Blog</Link></li>
+              <li>›</li>
+              <li><Link href="/blog/autores" className="hover:text-slate-600 transition-colors">Autores</Link></li>
+              <li>›</li>
+              <li className="font-semibold text-slate-600">{author.name}</li>
+            </ol>
+          </nav>
+
           {/* Author Profile Header */}
           <section className="bg-white rounded-[3rem] p-8 lg:p-16 border border-slate-100 shadow-sm mb-12 overflow-hidden relative">
             <div className="absolute top-0 right-0 w-64 h-64 bg-coral-50 rounded-full -mr-20 -mt-20 opacity-50 blur-3xl"></div>
