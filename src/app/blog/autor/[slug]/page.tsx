@@ -21,12 +21,29 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   
   if (!author) return { title: "Autor no encontrado" };
 
+  const ogImage = author.image?.startsWith("http")
+    ? author.image
+    : `https://www.focus-on-english.com${author.image || "/blog/og-image.jpg"}`;
+
   return {
     title: `${author.name} | Experto en Inglés - Focus English`,
     description: author.bio,
     alternates: {
       canonical: `https://www.focus-on-english.com/blog/autor/${slug}`,
-    }
+    },
+    openGraph: {
+      title: `${author.name} | Experto en Inglés`,
+      description: author.bio,
+      type: "profile",
+      url: `https://www.focus-on-english.com/blog/autor/${slug}`,
+      images: [{ url: ogImage, width: 1200, height: 630, alt: author.name }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${author.name} | Experto en Inglés`,
+      description: author.bio,
+      images: [ogImage],
+    },
   };
 }
 

@@ -119,7 +119,12 @@ export function generateArticleSchema(props: ArticleSchemaProps) {
     "@type": "Article",
     "headline": props.title,
     "description": props.description,
-    "image": props.image.startsWith('http') ? props.image : `https://www.focus-on-english.com${props.image}`,
+    "image": {
+      "@type": "ImageObject",
+      "url": props.image.startsWith('http') ? props.image : `https://www.focus-on-english.com${props.image}`,
+      "width": 1200,
+      "height": 630,
+    },
     "author": authorSchema,
     "publisher": {
       "@type": "Organization",
@@ -162,6 +167,35 @@ export function generateFAQSchema(faqs: FAQItem[]) {
         "text": faq.answer
       }
     }))
+  };
+}
+
+/**
+ * Generates CollectionPage Schema for keyword hub / topic pages
+ */
+export function generateCollectionPageSchema(props: {
+  name: string;
+  description: string;
+  url: string;
+  articles: Array<{ title: string; url: string; datePublished: string }>;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": props.name,
+    "description": props.description,
+    "url": props.url,
+    "publisher": {
+      "@type": "Organization",
+      "name": "Focus English",
+      "url": "https://www.focus-on-english.com"
+    },
+    "hasPart": props.articles.map((article) => ({
+      "@type": "Article",
+      "headline": article.title,
+      "url": article.url,
+      "datePublished": article.datePublished,
+    })),
   };
 }
 

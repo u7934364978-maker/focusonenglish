@@ -2,11 +2,11 @@ import { Navigation } from "@/components/sections/Navigation";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound, redirect } from "next/navigation";
-import { getArticlesByKeyword, getAllKeywords, slugify, getHubContent } from "@/lib/blog";
+import { getArticlesByKeyword, getAllKeywords, slugify, getHubContent, normalizeCategory } from "@/lib/blog";
 import { Metadata } from "next";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import { generateBreadcrumbSchema } from "@/lib/schemas";
+import { generateBreadcrumbSchema, generateCollectionPageSchema } from "@/lib/schemas";
 import { JsonLd } from "@/components/seo/JsonLd";
 
 export async function generateStaticParams() {
@@ -30,6 +30,8 @@ export async function generateMetadata({ params }: { params: Promise<{ keyword: 
   const displayTitle = hubContent?.title || `Artículos sobre ${originalKeyword}`;
   const displayDescription = hubContent?.description || `Explora todas nuestras guías y recursos gratuitos sobre ${originalKeyword} para mejorar tu nivel de inglés.`;
 
+  const ogImage = "https://www.focus-on-english.com/blog/og-image.jpg";
+
   return {
     title: `${displayTitle} | Focus English Blog`,
     description: displayDescription,
@@ -39,7 +41,20 @@ export async function generateMetadata({ params }: { params: Promise<{ keyword: 
     robots: {
       index: true,
       follow: true,
-    }
+    },
+    openGraph: {
+      title: displayTitle,
+      description: displayDescription,
+      type: "website",
+      url: `https://www.focus-on-english.com/blog/temas/${keyword}`,
+      images: [{ url: ogImage, width: 1200, height: 630, alt: displayTitle }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: displayTitle,
+      description: displayDescription,
+      images: [ogImage],
+    },
   };
 }
 
@@ -66,9 +81,24 @@ export default async function KeywordHubPage({ params }: { params: Promise<{ key
     { name: originalKeyword },
   ]);
 
+  const displayTitle = hubContent?.title || `Artículos sobre ${originalKeyword}`;
+  const displayDescription = hubContent?.description || `Explora todas nuestras guías y recursos gratuitos sobre ${originalKeyword} para mejorar tu nivel de inglés.`;
+
+  const collectionPageSchema = generateCollectionPageSchema({
+    name: displayTitle,
+    description: displayDescription,
+    url: `https://www.focus-on-english.com/blog/temas/${keyword}`,
+    articles: articles.slice(0, 10).map((a) => ({
+      title: a.title,
+      url: `https://www.focus-on-english.com/blog/${normalizeCategory(a.category)}/${a.slug}`,
+      datePublished: a.date,
+    })),
+  });
+
   return (
     <>
       <JsonLd data={breadcrumbSchema} />
+      <JsonLd data={collectionPageSchema} />
       <Navigation />
       <main className="min-h-screen bg-slate-50">
         {/* Header Hero */}

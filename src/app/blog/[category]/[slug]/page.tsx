@@ -108,7 +108,7 @@ export default async function BlogArticle({ params }: { params: Promise<{ catego
     description: article.excerpt,
     image: article.image || "/blog/og-image.jpg",
     datePublished: article.date,
-    dateModified: article.date,
+    dateModified: article.updatedDate || article.date,
     slug,
     category: normalizedCategory,
     keywords: article.keywords,

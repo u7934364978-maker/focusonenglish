@@ -12,6 +12,7 @@ export interface BlogPost {
   slug: string;
   title: string;
   date: string;
+  updatedDate?: string;
   author: string;
   authorData?: Author;
   excerpt: string;
@@ -88,6 +89,7 @@ export function getBlogArticles(): BlogPost[] {
       faqs: data.faqs || [],
       featured: data.featured || false,
       canonical: data.canonical,
+      updatedDate: data.updatedDate || data.updated_date || undefined,
       content,
     } as BlogPost;
   }).filter((a): a is BlogPost => a !== null);

@@ -34,6 +34,17 @@ function isPublicSEORoute(pathname: string) {
 
 export async function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
+
+  if (pathname === "/blog") {
+    const category = request.nextUrl.searchParams.get("category");
+    if (category) {
+      const url = request.nextUrl.clone();
+      url.pathname = `/blog/${category}`;
+      url.search = "";
+      return NextResponse.redirect(url, { status: 301 });
+    }
+  }
+
   let response = NextResponse.next({ request });
 
   const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
