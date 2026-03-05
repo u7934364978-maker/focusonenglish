@@ -67,7 +67,8 @@ Modify `src/app/blog/[category]/page.tsx`:
 
 Reference: spec.md — Change 2
 
-### [ ] Step 3: Add JSON-LD BreadcrumbList to topic hub page
+### [x] Step 3: Add JSON-LD BreadcrumbList to topic hub page
+<!-- chat-id: a500bbe3-dd8f-40ec-89f0-661b7bd9120a -->
 
 Modify `src/app/blog/temas/[keyword]/page.tsx`:
 - Import `generateBreadcrumbSchema` from `@/lib/schemas`

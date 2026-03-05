@@ -6,6 +6,8 @@ import { getArticlesByKeyword, getAllKeywords, slugify, getHubContent } from "@/
 import { Metadata } from "next";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import { generateBreadcrumbSchema } from "@/lib/schemas";
+import { JsonLd } from "@/components/seo/JsonLd";
 
 export async function generateStaticParams() {
   const keywords = getAllKeywords();
@@ -57,8 +59,16 @@ export default async function KeywordHubPage({ params }: { params: Promise<{ key
     redirect('/blog');
   }
 
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Inicio", url: "https://www.focus-on-english.com" },
+    { name: "Blog", url: "https://www.focus-on-english.com/blog" },
+    { name: "Temas", url: "https://www.focus-on-english.com/blog/temas" },
+    { name: originalKeyword },
+  ]);
+
   return (
     <>
+      <JsonLd data={breadcrumbSchema} />
       <Navigation />
       <main className="min-h-screen bg-slate-50">
         {/* Header Hero */}
