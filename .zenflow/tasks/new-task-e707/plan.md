@@ -56,7 +56,8 @@ Modify `src/lib/schemas.ts`:
 
 Reference: spec.md — Change 1
 
-### [ ] Step 2: Add JSON-LD BreadcrumbList to category listing page
+### [x] Step 2: Add JSON-LD BreadcrumbList to category listing page
+<!-- chat-id: 7cd71777-b873-43a7-aecb-c04b69320a60 -->
 
 Modify `src/app/blog/[category]/page.tsx`:
 - Import `generateBreadcrumbSchema` from `@/lib/schemas`

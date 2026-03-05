@@ -4,6 +4,8 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getArticlesByCategory, getBlogArticles, normalizeCategory } from "@/lib/blog";
 import { optimizeSEOTitle } from "@/utils/seo-utils";
+import { generateBreadcrumbSchema } from "@/lib/schemas";
+import { JsonLd } from "@/components/seo/JsonLd";
 
 export async function generateStaticParams() {
   const articles = getBlogArticles();
@@ -107,8 +109,15 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
     notFound();
   }
 
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Inicio", url: "https://www.focus-on-english.com" },
+    { name: "Blog", url: "https://www.focus-on-english.com/blog" },
+    { name: meta.name },
+  ]);
+
   return (
     <>
+      <JsonLd data={breadcrumbSchema} />
       <Navigation />
       <main className="min-h-screen bg-slate-50">
         {/* Header Hero */}
