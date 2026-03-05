@@ -47,7 +47,8 @@ Save to `{@artifacts_path}/spec.md` with:
 
 Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 
-### [ ] Step 1: Update BreadcrumbItem interface and generateBreadcrumbSchema in schemas.ts
+### [x] Step 1: Update BreadcrumbItem interface and generateBreadcrumbSchema in schemas.ts
+<!-- chat-id: 4cdd7a6a-1d01-4a72-bbd4-495b53a225b4 -->
 
 Modify `src/lib/schemas.ts`:
 - Make `BreadcrumbItem.url` optional (`url?: string`)

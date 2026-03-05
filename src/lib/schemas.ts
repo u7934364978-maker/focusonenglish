@@ -39,7 +39,7 @@ export interface FAQItem {
 
 export interface BreadcrumbItem {
   name: string;
-  url: string;
+  url?: string;
 }
 
 /**
@@ -176,7 +176,7 @@ export function generateBreadcrumbSchema(items: BreadcrumbItem[]) {
       "@type": "ListItem",
       "position": index + 1,
       "name": item.name,
-      "item": item.url
+      ...(item.url !== undefined && { "item": item.url })
     }))
   };
 }
