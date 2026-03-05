@@ -480,7 +480,42 @@ const nextConfig = {
       },
       {
         source: '/blog/Gram%C3%A1tica',
-        destination: '/blog',
+        destination: '/blog/gramatica',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/Gram%C3%A1tica/:slug*',
+        destination: '/blog/gramatica/:slug*',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/Vocabulario',
+        destination: '/blog/metodos',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/Vocabulario/:slug*',
+        destination: '/blog/metodos/:slug*',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/Habilidades',
+        destination: '/blog/metodos',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/Habilidades/:slug*',
+        destination: '/blog/metodos/:slug*',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/Trabajo',
+        destination: '/blog/trabajo',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/Trabajo/:slug*',
+        destination: '/blog/trabajo/:slug*',
         statusCode: 301,
       },
       {
