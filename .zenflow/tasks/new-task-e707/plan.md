@@ -42,24 +42,55 @@ Save to `{@artifacts_path}/spec.md` with:
 - Delivery phases (incremental, testable milestones)
 - Verification approach using project lint/test commands
 
-### [ ] Step: Planning
+### [x] Step: Planning
+<!-- chat-id: e997eccf-df59-478c-81e3-4d13ba746735 -->
 
 Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 
-1. Break down the work into concrete tasks
-2. Each task should reference relevant contracts and include verification steps
-3. Replace the Implementation step below with the planned tasks
+### [ ] Step 1: Update BreadcrumbItem interface and generateBreadcrumbSchema in schemas.ts
 
-Rule of thumb for step size: each step should represent a coherent unit of work (e.g., implement a component, add an API endpoint). Avoid steps that are too granular (single function) or too broad (entire feature).
+Modify `src/lib/schemas.ts`:
+- Make `BreadcrumbItem.url` optional (`url?: string`)
+- Update `generateBreadcrumbSchema` to conditionally include `"item"` only when `url` is defined
 
-Important: unit tests must be part of each implementation task, not separate tasks. Each task should implement the code and its tests together, if relevant.
+Reference: spec.md — Change 1
 
-If the feature is trivial and doesn't warrant full specification, update this workflow to remove unnecessary steps and explain the reasoning to the user.
+### [ ] Step 2: Add JSON-LD BreadcrumbList to category listing page
 
-Save to `{@artifacts_path}/plan.md`.
+Modify `src/app/blog/[category]/page.tsx`:
+- Import `generateBreadcrumbSchema` from `@/lib/schemas`
+- Import `JsonLd` from `@/components/seo/JsonLd`
+- Generate breadcrumb schema: `[Inicio, Blog, CategoryLabel]`
+- Inject `<JsonLd data={breadcrumbSchema} />` in JSX
 
-### [ ] Step: Implementation
+Reference: spec.md — Change 2
 
-This step should be replaced with detailed implementation tasks from the Planning step.
+### [ ] Step 3: Add JSON-LD BreadcrumbList to topic hub page
 
-If Planning didn't replace this step, execute the tasks in `{@artifacts_path}/plan.md`, updating checkboxes as you go. Run planned tests/lint and record results in plan.md.
+Modify `src/app/blog/temas/[keyword]/page.tsx`:
+- Import `generateBreadcrumbSchema` from `@/lib/schemas`
+- Import `JsonLd` from `@/components/seo/JsonLd`
+- Generate breadcrumb schema: `[Inicio, Blog, Temas, OriginalKeyword]`
+- Inject `<JsonLd data={breadcrumbSchema} />` in JSX
+
+Reference: spec.md — Change 3
+
+### [ ] Step 4: Add visual breadcrumbs and JSON-LD to author profile page
+
+Modify `src/app/blog/autor/[slug]/page.tsx`:
+- Import `generateBreadcrumbSchema` from `@/lib/schemas`
+- Import `JsonLd` from `@/components/seo/JsonLd`
+- Import `Link` from `next/link` (if not already imported)
+- Add visual `<nav aria-label="breadcrumb">` with slate text colors before the author profile section
+- Generate breadcrumb schema: `[Inicio, Blog, Autores, AuthorName]`
+- Inject `<JsonLd data={breadcrumbSchema} />` in JSX
+
+Reference: spec.md — Change 4
+
+### [ ] Step 5: Verify with build and lint
+
+Run:
+```bash
+npm run build
+```
+Record results in plan.md. Fix any TypeScript or lint errors found.
