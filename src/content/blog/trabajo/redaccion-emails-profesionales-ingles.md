@@ -18,13 +18,11 @@ alt: >-
 canonical: >-
   https://www.focus-on-english.com/blog/trabajo/redaccion-emails-profesionales-ingles
 keywords:
-  - clases de inglés
-  - emails profesionales inglés
   - redacción comercial inglés
-  - inglés para negocios
-  - frases para correos inglés
-  - business english emails
-  - comunicación escrita profesional
+  - comunicación escrita profesional inglés
+  - estructura email profesional ingles
+  - errores comunes emails ingles
+  - como escribir emails formales ingles
 faqs:
   - question: ¿Cómo empiezo un email si no conozco a la persona?
     answer: >-

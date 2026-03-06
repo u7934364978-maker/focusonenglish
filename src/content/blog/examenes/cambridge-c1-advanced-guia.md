@@ -10,19 +10,13 @@ description: >-
   estructuras avanzadas para el Writing, consejos para el Speaking y vocabulario
   de nivel experto.
 keywords:
-  - trucos writing c1 advanced
-  - consejos cae writing
-  - conectores ingles c1
-  - como aprobar writing cambridge c1
-  - estructuras avanzadas ingles c1
   - preparacion cae cambridge
-  - aprender ingles c1
-  - focus english c1
-  - ingles avanzado
-  - ingles nivel avanzado online
-  - voz pasiva avanzada ingles
+  - cae cambridge estructura examen
+  - use of english c1 ejercicios
+  - speaking cae estrategias
   - inversiones ingles c1
   - cleft sentences examples
+  - voz pasiva avanzada ingles
   - use of english c1 tips
 ---
 

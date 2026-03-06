@@ -9,12 +9,9 @@ excerpt: >-
   estructura del FCE, cómo se puntúa y los mejores consejos para dominar cada
   sección del examen de Cambridge.
 keywords:
-  - fce first certificate in english exam
-  - b2 first cambridge
-  - examen cambridge first
-  - first certificate exam fce
-  - cambridge certificate
-  - preparacion b2 first
+  - fce estructura del examen
+  - cambridge certificate b2
+canonical: 'https://www.focus-on-english.com/blog/examenes/cambridge-b2-first-guia'
 date: '2024-02-04'
 category: examenes
 author: Focus English

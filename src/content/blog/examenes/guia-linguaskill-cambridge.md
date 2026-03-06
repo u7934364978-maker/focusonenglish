@@ -10,10 +10,8 @@ excerpt: >-
   cómo prepararlo.
 keywords:
   - linguaskill
-  - linguaskill cambridge
-  - linguaskill english live
-  - examen multinivel ingles
-  - certificacion rapida ingles
+  - linguaskill que es
+canonical: 'https://www.focus-on-english.com/blog/examenes/linguaskill-cambridge-guia'
 date: '2024-02-04'
 category: examenes
 author: Focus English

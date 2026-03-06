@@ -10,11 +10,11 @@ description: >-
   el inglés al más alto nivel académico y profesional con nuestros trucos y
   consejos.
 keywords:
-  - curso ingles c2
-  - ingles proficiency
   - preparacion cpe cambridge
-  - maestria ingles online
-  - focus english c2
+  - ingles proficiency
+  - cpe cambridge estructura
+  - cambridge proficiency exam consejos
+  - como aprobar c2 proficiency cambridge
 canonical: 'https://www.focus-on-english.com/blog/examenes/cambridge-c2-proficiency-guia'
 related_routes:
   - certificaciones-ingles

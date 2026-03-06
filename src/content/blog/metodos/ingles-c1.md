@@ -8,10 +8,9 @@ description: >-
   Certificate in Advanced English (CAE) de Cambridge con nuestro método online.
 keywords:
   - curso ingles c1
-  - ingles avanzado
-  - preparacion cae cambridge
-  - ingles nivel avanzado online
-  - aprender ingles c1
+  - nivel c1 ingles que es
+  - como llegar a c1 ingles
+  - diferencia b2 y c1 ingles
   - focus english c1
 canonical: 'https://www.focus-on-english.com/blog/metodos/ingles-c1'
 related_routes:

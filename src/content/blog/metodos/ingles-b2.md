@@ -9,11 +9,10 @@ description: >-
   profesional.
 keywords:
   - curso inglés b2
-  - nivel avanzado inglés
-  - cambridge first
-  - fce preparación
+  - nivel b2 ingles que es
   - fluidez inglés avanzado
-  - estudiar inglés b2
+  - como llegar al nivel b2 ingles
+  - diferencia b1 y b2 ingles
 canonical: 'https://www.focus-on-english.com/blog/metodos/ingles-b2'
 related_routes:
   - ingles-b1

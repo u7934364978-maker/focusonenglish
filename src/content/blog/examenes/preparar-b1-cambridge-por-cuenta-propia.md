@@ -9,8 +9,8 @@ excerpt: >-
   profesor.
 keywords:
   - preparar b1 cambridge solo
-  - examen pet cambridge guia
-  - recursos gratis b1 ingles
+  - estudiar b1 ingles sin academia
+  - plan de estudio b1 cambridge
   - practicar speaking b1 solo
   - focus english b1 preparation
 date: '2025-02-05'

@@ -15,13 +15,11 @@ alt: >-
   sala de conferencias
 canonical: 'https://www.focus-on-english.com/blog/trabajo/ingles-presentaciones-impacto'
 keywords:
-  - clases de inglés
-  - presentaciones en inglés
-  - hablar en público inglés
   - business english presentations
-  - frases para presentaciones inglés
-  - oratoria en inglés
+  - oratoria en inglés profesional
   - vocabulario gráficos inglés
+  - técnicas presentaciones impacto ingles
+  - presentaciones negocios ingles avanzado
 faqs:
   - question: ¿Cómo puedo controlar los nervios al presentar en inglés?
     answer: >-
