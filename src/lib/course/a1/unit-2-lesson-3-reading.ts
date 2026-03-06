@@ -172,7 +172,7 @@ export const UNIT_2_LESSON_3_READING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '¿Qué son los tres amigos?',
+          question: '¿Cuál es la ocupación de los tres amigos?',
           options: ['[[teachers|profesores]]', '[[doctors|médicos]]', '[[students|estudiantes]]', '[[nurses|enfermeros]]'],
           correctAnswer: 2,
           explanation: '[[The|El]] [[text|texto]] [[says|dice]] "[[We are students|Somos estudiantes]]".',
@@ -282,7 +282,7 @@ export const UNIT_2_LESSON_3_READING: Exercise[] = [
       questions: [
         {
           question: '¿Cuál es el tema principal del texto?',
-          options: ['[[A|Un]] [[trip|viaje]] [[around|por]] [[the|el]] [[world|mundo]]', '[[Three|Tres]] [[friends|amigos]] [[from|de]] [[different|diferentes]] [[countries|países]]', '[[A|Una]] [[language|idioma]] [[school|escuela]]', '[[Life|La vida]] [[in|en]] [[England|Inglaterra]]'],
+          options: ['Un viaje por el mundo', 'Tres amigos de diferentes países', 'Una escuela de idiomas', 'La vida en Inglaterra'],
           correctAnswer: 1,
           explanation: '[[The|El]] [[text|texto]] [[presents|presenta]] [[three|tres]] [[friends|amigos]] [[from|de]] [[England|Inglaterra]], [[Italy|Italia]] [[and|y]] [[Spain|España]].',
         },
@@ -303,7 +303,7 @@ export const UNIT_2_LESSON_3_READING: Exercise[] = [
       questions: [
         {
           question: '¿Qué tienen en común los tres amigos?',
-          options: ['[[They|Ellos]] [[are|son]] [[from|de]] [[the|el]] [[same|mismo]] [[country|país]]', '[[They|Ellos]] [[are|son]] [[teachers|profesores]]', '[[They|Ellos]] [[are|son]] [[students|estudiantes]]', '[[They|Ellos]] [[are|son]] [[from|de]] [[Italy|Italia]]'],
+          options: ['Son del mismo país', 'Son profesores', 'Son estudiantes', 'Son de Italia'],
           correctAnswer: 2,
           explanation: '[[The|El]] [[text|texto]] [[says|dice]] "[[We are students|Somos estudiantes]]" — [[all|los]] [[three|tres]] [[share|comparten]] [[that|eso]].',
         },

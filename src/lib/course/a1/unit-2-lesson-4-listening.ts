@@ -181,7 +181,7 @@ export const UNIT_2_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '¿Qué son los tres amigos?',
+          question: '¿Cuál es la ocupación de los tres amigos?',
           options: ['[[teachers|profesores]]', '[[doctors|médicos]]', '[[students|estudiantes]]', '[[nurses|enfermeros]]'],
           correctAnswer: 2,
           explanation: '[[The|La]] [[transcript|transcripción]] [[says|dice]] "[[We are students|Somos estudiantes]]".',
@@ -296,7 +296,7 @@ export const UNIT_2_LESSON_4_LISTENING: Exercise[] = [
       questions: [
         {
           question: '¿Cuál es el tema principal del audio?',
-          options: ['[[A|Un]] [[trip|viaje]] [[around|por]] [[the|el]] [[world|mundo]]', '[[Three|Tres]] [[friends|amigos]] [[from|de]] [[different|diferentes]] [[countries|países]]', '[[A|Una]] [[language|idioma]] [[school|escuela]]', '[[Life|La vida]] [[in|en]] [[Germany|Alemania]]'],
+          options: ['Un viaje por el mundo', 'Tres amigos de diferentes países', 'Una escuela de idiomas', 'La vida en Alemania'],
           correctAnswer: 1,
           explanation: '[[The|El]] [[audio|audio]] [[presents|presenta]] [[three|tres]] [[friends|amigos]] [[from|de]] [[Germany|Alemania]], [[Italy|Italia]] [[and|y]] [[Spain|España]].',
         },
@@ -318,7 +318,7 @@ export const UNIT_2_LESSON_4_LISTENING: Exercise[] = [
       questions: [
         {
           question: '¿Qué tienen en común los tres amigos?',
-          options: ['[[They|Ellos]] [[are|son]] [[from|de]] [[the|el]] [[same|mismo]] [[country|país]]', '[[They|Ellos]] [[are|son]] [[teachers|profesores]]', '[[They|Ellos]] [[are|son]] [[students|estudiantes]]', '[[They|Ellos]] [[are|son]] [[from|de]] [[Germany|Alemania]]'],
+          options: ['Son del mismo país', 'Son profesores', 'Son estudiantes', 'Son de Alemania'],
           correctAnswer: 2,
           explanation: '[[The|La]] [[transcript|transcripción]] [[says|dice]] "[[We are students|Somos estudiantes]]" — [[all|los]] [[three|tres]] [[share|comparten]] [[that|eso]].',
         },
