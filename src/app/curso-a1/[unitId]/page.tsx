@@ -34,6 +34,7 @@ const EXERCISE_TYPES: Record<string, { label: string; emoji: string; gradient: s
   'true-false':             { label: 'Verdadero / Falso',     emoji: '⚖️', gradient: 'from-indigo-400 to-blue-500',    text: 'text-indigo-700',  light: 'bg-indigo-50' },
   'translation':            { label: 'Traducción',            emoji: '🌐', gradient: 'from-emerald-400 to-green-500',  text: 'text-emerald-700', light: 'bg-emerald-50'},
   'matching':               { label: 'Relaciona elementos',   emoji: '🔄', gradient: 'from-fuchsia-400 to-purple-500', text: 'text-fuchsia-700', light: 'bg-fuchsia-50'},
+  'writing':                { label: 'Expresión escrita',     emoji: '✍️', gradient: 'from-emerald-400 to-teal-500',   text: 'text-emerald-700',  light: 'bg-emerald-50' },
   'default':                { label: 'Ejercicio',             emoji: '🎯', gradient: 'from-slate-400 to-slate-600',    text: 'text-slate-700',   light: 'bg-slate-50'  },
 };
 
