@@ -84,8 +84,8 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_MC,
       questions: [
         {
-          question: '[[How|Cómo]] [[do|se dice]] [[we|nosotros]] [[say|decimos]] [[the|el]] [[number|número]] [[seven|siete]] [[in|en]] [[English|inglés]]?',
-          options: ['[[Five|Five]]', '[[Six|Six]]', '[[Seven|Seven]]', '[[Eight|Eight]]'],
+          question: '¿Cómo se dice el número siete en inglés?',
+          options: ['Five', 'Six', 'Seven', 'Eight'],
           correctAnswer: 2,
           explanation: '[[Seven|Seven]] = [[seven|siete]].',
         },
@@ -145,11 +145,11 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS_MATCH,
       pairs: [
-        { id: 'p1', left: '[[Spain|España]]', right: 'Spanish' },
-        { id: 'p2', left: '[[France|Francia]]', right: 'French' },
-        { id: 'p3', left: '[[Germany|Alemania]]', right: 'German' },
-        { id: 'p4', left: '[[Italy|Italia]]', right: 'Italian' },
-        { id: 'p5', left: '[[England|Inglaterra]]', right: 'British' },
+        { id: 'p1', left: '[[Spain|España]]', right: '[[Spanish|Español]]' },
+        { id: 'p2', left: '[[France|Francia]]', right: '[[French|Francés]]' },
+        { id: 'p3', left: '[[Germany|Alemania]]', right: '[[German|Alemán]]' },
+        { id: 'p4', left: '[[Italy|Italia]]', right: '[[Italian|Italiano]]' },
+        { id: 'p5', left: '[[England|Inglaterra]]', right: '[[British|Británico]]' },
       ],
     },
     topicName: 'Vocabulary',
@@ -164,11 +164,11 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS_MATCH,
       pairs: [
-        { id: 'p1', left: '[[USA|EE. UU.]]', right: 'American' },
-        { id: 'p2', left: '[[China|China]]', right: 'Chinese' },
-        { id: 'p3', left: '[[Japan|Japón]]', right: 'Japanese' },
-        { id: 'p4', left: '[[Mexico|México]]', right: 'Mexican' },
-        { id: 'p5', left: '[[Brazil|Brasil]]', right: 'Brazilian' },
+        { id: 'p1', left: '[[USA|EE. UU.]]', right: '[[American|Americano]]' },
+        { id: 'p2', left: '[[China|China]]', right: '[[Chinese|Chino]]' },
+        { id: 'p3', left: '[[Japan|Japón]]', right: '[[Japanese|Japonés]]' },
+        { id: 'p4', left: '[[Mexico|México]]', right: '[[Mexican|Mexicano]]' },
+        { id: 'p5', left: '[[Brazil|Brasil]]', right: '[[Brazilian|Brasileño]]' },
       ],
     },
     topicName: 'Vocabulary',
@@ -181,7 +181,7 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Match|Relaciona]] [[each|cada]] [[number|número]] [[with|con]] [[its|su]] [[English|inglés]] [[word|palabra]].',
+      instructions: 'Relaciona cada número con su palabra en inglés.',
       pairs: [
         { id: 'p1', left: '1', right: 'one' },
         { id: 'p2', left: '2', right: 'two' },
@@ -200,7 +200,7 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Match|Relaciona]] [[each|cada]] [[number|número]] [[with|con]] [[its|su]] [[English|inglés]] [[word|palabra]].',
+      instructions: 'Relaciona cada número con su palabra en inglés.',
       pairs: [
         { id: 'p1', left: '6', right: 'six' },
         { id: 'p2', left: '7', right: 'seven' },
@@ -264,10 +264,10 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_FILL,
       questions: [
         {
-          question: '[[There|Hay]] [[are|son]] [[ten|diez]] [[countries|países]] [[in|en]] [[the|el]] [[list|listado]]. [[Ten|Diez]] [[in|en]] [[English|inglés]] [[is|es]] ____.',
-          options: ['[[eight|eight]]', '[[nine|nine]]', '[[ten|ten]]'],
-          correctAnswer: '[[ten|ten]]',
-          explanation: '[[Ten|Ten]] = [[ten|diez]].',
+          question: 'Hay diez países en la lista. ¿Cómo se escribe diez en inglés?',
+          options: ['eight', 'nine', 'ten'],
+          correctAnswer: 'ten',
+          explanation: 'Ten = diez.',
         },
       ],
     },

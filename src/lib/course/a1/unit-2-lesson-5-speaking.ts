@@ -18,7 +18,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Listen to the phrase and repeat it aloud.',
+      instructions: '[[Listen|Escucha]] [[to the|la]] [[phrase|frase]] [[and|y]] [[repeat it|repítela]] [[aloud|en voz alta]].',
       targetText: '[[She|Ella]] [[is|es]] [[French|francesa]]. [[She|Ella]] [[is|es]] [[from|de]] [[France|Francia]].',
       expectedResponse: 'She is French. She is from France.',
     },
@@ -32,7 +32,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Listen and repeat aloud.',
+      instructions: '[[Listen|Escucha]] [[and|y]] [[repeat|repite]] [[aloud|en voz alta]].',
       targetText: '[[He|Él]] [[is|es]] [[Spanish|español]]. [[He|Él]] [[is|es]] [[from|de]] [[Spain|España]].',
       expectedResponse: 'He is Spanish. He is from Spain.',
     },
@@ -46,7 +46,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Listen and repeat aloud.',
+      instructions: '[[Listen|Escucha]] [[and|y]] [[repeat|repite]] [[aloud|en voz alta]].',
       targetText: '[[They|Ellos]] [[are|son]] [[American|americanos]]. [[They|Ellos]] [[are|son]] [[from|de]] [[the United States|Estados Unidos]].',
       expectedResponse: 'They are American. They are from the United States.',
     },
@@ -60,7 +60,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Listen and repeat aloud.',
+      instructions: '[[Listen|Escucha]] [[and|y]] [[repeat|repite]] [[aloud|en voz alta]].',
       targetText: '[[We|Nosotros]] [[are|somos]] [[Italian|italianos]]. [[We|Nosotros]] [[are|somos]] [[from|de]] [[Italy|Italia]].',
       expectedResponse: 'We are Italian. We are from Italy.',
     },
@@ -76,7 +76,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Read the sentence below aloud.',
+      instructions: '[[Read|Lee]] [[the sentence|la frase]] [[below|a continuación]] [[aloud|en voz alta]].',
       targetText: '[[My|Mi]] [[friend|amiga]] [[Ana|Ana]] [[is|es]] [[Brazilian|brasileña]]. [[She|Ella]] [[is|es]] [[from|de]] [[Brazil|Brasil]].',
       expectedResponse: 'My friend Ana is Brazilian. She is from Brazil.',
     },
@@ -90,7 +90,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Read the sentence aloud.',
+      instructions: '[[Read|Lee]] [[the sentence|la frase]] [[aloud|en voz alta]].',
       targetText: '[[My|Mi]] [[classmate|compañero]] [[Tom|Tom]] [[is|es]] [[British|británico]]. [[He|Él]] [[is|es]] [[from|de]] [[England|Inglaterra]].',
       expectedResponse: 'My classmate Tom is British. He is from England.',
     },
@@ -104,7 +104,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Read the sentence aloud.',
+      instructions: '[[Read|Lee]] [[the sentence|la frase]] [[aloud|en voz alta]].',
       targetText: '[[Carlos|Carlos]] [[and|y]] [[Mia|Mia]] [[are|son]] [[from|de]] [[different|diferentes]] [[countries|países]]. [[He|Él]] [[is|es]] [[Mexican|mexicano]] [[and|y]] [[she|ella]] [[is|es]] [[German|alemana]].',
       expectedResponse: 'Carlos and Mia are from different countries. He is Mexican and she is German.',
     },
@@ -120,7 +120,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Answer the question aloud. Example: "Yes, she is." or "No, she is not."',
+      instructions: '[[Answer|Responde]] [[the question|la pregunta]] [[aloud|en voz alta]]. [[Example|Ejemplo]]: "Yes, she is." / "No, she is not."',
       targetText: '[[Is|Es]] [[she|ella]] [[from|de]] [[France|Francia]]?',
       expectedResponse: 'Yes, she is. / No, she is not.',
     },
@@ -134,7 +134,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Answer the question aloud.',
+      instructions: '[[Answer|Responde]] [[the question|la pregunta]] [[aloud|en voz alta]].',
       targetText: '[[Is|Es]] [[he|él]] [[Spanish|español]]?',
       expectedResponse: 'Yes, he is. / No, he is not.',
     },
@@ -148,7 +148,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Answer the question aloud.',
+      instructions: '[[Answer|Responde]] [[the question|la pregunta]] [[aloud|en voz alta]].',
       targetText: '[[Are|Son]] [[they|ellos]] [[from|de]] [[Italy|Italia]]?',
       expectedResponse: 'Yes, they are. / No, they are not.',
     },
@@ -162,7 +162,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Answer the question aloud.',
+      instructions: '[[Answer|Responde]] [[the question|la pregunta]] [[aloud|en voz alta]].',
       targetText: '[[Is|Es]] [[your|tu]] [[friend|amigo/a]] [[American|americano/a]]?',
       expectedResponse: 'Yes, he/she is. / No, he/she is not.',
     },
@@ -178,7 +178,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Say aloud: where you are from and your nationality. Model: "I am from … I am …"',
+      instructions: '[[Say aloud|Di en voz alta]]: [[where you are from|de dónde eres]] [[and|y]] [[your nationality|tu nacionalidad]]. [[Model|Modelo]]: "I am from … I am …"',
       targetText: '[[I am from|Soy de]] ____. [[I am|Soy]] ____.',
       expectedResponse: 'I am from [country]. I am [nationality].',
     },
@@ -192,7 +192,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Say aloud where a friend is from and their nationality. Model: "He/She is from … He/She is …"',
+      instructions: '[[Say aloud|Di en voz alta]] [[where a friend is from|de dónde es un amigo]] [[and|y]] [[their nationality|su nacionalidad]]. [[Model|Modelo]]: "He/She is from … He/She is …"',
       targetText: '[[He/She|Él/Ella]] [[is from|es de]] ____. [[He/She|Él/Ella]] [[is|es]] ____.',
       expectedResponse: 'He/She is from [country]. He/She is [nationality].',
     },
@@ -206,7 +206,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Say aloud two countries and their nationalities. Model: "People from France are French. People from Germany are German."',
+      instructions: '[[Say aloud|Di en voz alta]] [[two|dos]] [[countries|países]] [[and their nationalities|y sus nacionalidades]]. [[Model|Modelo]]: "People from France are French. People from Germany are German."',
       targetText: '[[People from|Las personas de]] ____ [[are|son]] ____. [[People from|Las personas de]] ____ [[are|son]] ____.',
       expectedResponse: 'People from [country 1] are [nationality 1]. People from [country 2] are [nationality 2].',
     },
@@ -220,7 +220,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Describe two people you know. Say their name, where they are from, and their nationality. Use 4–6 sentences.',
+      instructions: '[[Describe|Describe]] [[two|a dos]] [[people you know|personas que conozcas]]. [[Say|Di]] [[their name|su nombre]], [[where they are from|de dónde son]] [[and their nationality|y su nacionalidad]]. [[Use|Usa]] [[4–6 sentences|4–6 frases]].',
       targetText: 'My friend … is from … He/She is … My other friend … is from … He/She is …',
       expectedResponse: 'My friend [name] is from [country]. He/She is [nationality]. My other friend [name] is from [country]. He/She is [nationality].',
     },
