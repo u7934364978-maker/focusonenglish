@@ -27,7 +27,7 @@ A continuación se listan los contenidos gramaticales que suelen incluirse en un
 | **Present simple** (afirmativa, negativa, preguntas; 3.ª persona -s) | Sí | Unidades 5, 12, 14, 15 |
 | **Present continuous** (para “ahora” y para planes futuros) | Sí | Unidades 29 (wearing), 39 (planes) |
 | **Past simple de *to be*** (*was/were*) | Sí | Unidad 47 (Holidays & Vacation) |
-| **Past simple** (verbos regulares: *I worked*, *she played*) | **No de forma explícita** | — |
+| **Past simple** (verbos regulares: *I worked*, *she played*) | Sí | Unidad 47 (Holidays & Vacation) |
 | **There is / There are** (afirmativa, negativa, interrogativa) | Sí | Unidades 23, 24 |
 | **Have got** (posesión, descripción) | Sí | Unidades 7, 28 |
 | **Modales: can/can't** | Sí | Unidades 31, 38 (Can I…? May I…?) |
@@ -51,7 +51,7 @@ A continuación se listan los contenidos gramaticales que suelen incluirse en un
 | **Should** (consejos) | Sí | Unidad 58 |
 | **Must / should** (instrucciones básicas) | Sí | Unidad 41 (airport) |
 
-**Resumen gramática:** Casi todo el syllabus gramatical A1 está cubierto. El único punto que suelen incluir algunos planes A1 y **no está explícito** en nuestro curso es el **Past simple con verbos regulares** (*I worked*, *she played*, *they visited*). En muchos criterios A1 solo se exige *was/were* (que sí tenemos); en otros se pide también pasado con verbos regulares. Si quieres alineación total con los criterios más estrictos, convendría **añadir una unidad (o parte de una) de Past simple con verbos regulares** (acciones pasadas completadas).
+**Resumen gramática:** El syllabus gramatical A1 está cubierto: el curso incluye *to be*, Present Simple y Continuous, *there is/are*, posesivos, modales básicos, cuantificadores, conectores, *like + -ing* y también Past Simple (*was/were* y verbos regulares) en contexto de experiencias pasadas.
 
 ---
 
@@ -93,7 +93,7 @@ Esto es **más** de lo que suele tener un curso A1 estándar (a menudo 40–80 h
 | Pregunta | Respuesta |
 |----------|-----------|
 | **¿El contenido es suficiente para tener el nivel oficial A1?** | **Sí**, en conjunto. Cubre descriptores del MCER, casi toda la gramática A1, todos los temas y las cuatro destrezas. |
-| **¿Falta algo para una alineación 100 % con todos los syllabi A1?** | Solo un punto: **Past simple con verbos regulares** (*I worked*, *she played*). Algunos criterios A1 lo incluyen; nosotros solo tenemos *was/were*. |
+| **¿Falta algo para una alineación 100 % con todos los syllabi A1?** | No; la gramática A1 esperable (incluido Past Simple de *to be* y de verbos regulares) está cubierta. |
 | **Recomendación** | Para asegurar que el curso cumple **cualquier** definición de A1 (incluidas las más estrictas), se puede **añadir una unidad** (o integrar en una unidad de repaso o en la Unidad 47) el **Past simple con verbos regulares**: forma afirmativa, negativa e interrogativa con verbos regulares (-ed), en contexto de rutinas o experiencias pasadas. Con eso, el contenido sería **completamente suficiente** para el nivel oficial A1. |
 
 ---

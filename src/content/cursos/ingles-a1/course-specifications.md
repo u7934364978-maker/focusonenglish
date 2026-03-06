@@ -267,7 +267,7 @@ To ensure high-quality learning, all exercises must follow these standards:
 
 ### Unit 47: Holidays & Vacation
 - **Vocabulary**: Beach, Mountains, Sightseeing, Souvenir.
-- **Grammar**: Past Simple of 'To be' (Was/Were).
+- **Grammar**: Past Simple of 'to be' (was/were) and regular verbs (visited, stayed, played, etc.).
 - **Reading**: Postcards and vacation stories.
 
 ### Unit 48: Sightseeing

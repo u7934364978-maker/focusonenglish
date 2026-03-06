@@ -439,10 +439,10 @@ Cada unidad tiene entre 3 y 5 objetivos académicos: gramatical, léxico, compre
 ### Unidad 47: Holidays & Vacation
 | # | Tipo | Objetivo académico |
 |---|------|--------------------|
-| 1 | Gramatical | Usar Past Simple de *to be* (*was/were*) en afirmativa, negativa y preguntas para hablar de vacaciones. |
+| 1 | Gramatical | Usar Past Simple de *to be* (*was/were*) y de verbos regulares (*visited*, *played*, etc.) en afirmativa, negativa y preguntas para hablar de vacaciones. |
 | 2 | Léxico | Conocer y usar vocabulario de vacaciones: *beach*, *mountains*, *sightseeing*, *souvenir*. |
 | 3 | Comprensión | Comprender postales y relatos de vacaciones en pasado. |
-| 4 | Producción | Escribir 4–5 frases sobre unas vacaciones pasadas usando *was/were*. |
+| 4 | Producción | Escribir 4–5 frases sobre unas vacaciones pasadas usando *was/were* y al menos dos verbos regulares en pasado. |
 | 5 | Pragmático | Usar *was* con I/he/she/it y *were* con you/we/they. |
 
 ### Unidad 48: Sightseeing

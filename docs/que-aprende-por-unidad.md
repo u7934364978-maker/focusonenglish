@@ -295,8 +295,8 @@ Resumen por unidad: lo que el alumno será capaz de hacer y los contenidos princ
 - **Comprender:** descripciones de hoteles y confirmaciones. **Producir:** diálogo de check-in o peticiones.
 
 **Unidad 47 — Holidays & Vacation**  
-- **Vas a aprender a:** hablar de vacaciones pasadas con *was/were*.  
-- **Gramática:** Past Simple de *to be* (*was/were*) en afirmativa, negativa y preguntas.  
+- **Vas a aprender a:** hablar de vacaciones pasadas con *was/were* y verbos regulares en pasado.  
+- **Gramática:** Past Simple de *to be* (*was/were*) y de verbos regulares en pasado (*visited*, *played*, etc.) en afirmativa, negativa y preguntas.  
 - **Vocabulario:** *beach*, *mountains*, *sightseeing*, *souvenir*.  
 - **Comprender:** postales y relatos de vacaciones. **Producir:** frases sobre unas vacaciones pasadas.
 
