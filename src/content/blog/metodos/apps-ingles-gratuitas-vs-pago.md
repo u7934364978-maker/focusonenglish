@@ -8,12 +8,11 @@ excerpt: >-
   avanzado de inglés o si las opciones de pago como Focus English son necesarias
   para tu éxito profesional.
 keywords:
-  - apps para aprender ingles gratis
+  - duolingo gratis vs premium vale la pena
   - aplicaciones ingles de pago
-  - duolingo gratis vs premium
+  - focus english vs duolingo
   - mejor inversion aprender ingles
-  - focus english vs apps gratis
-  - focus-english-vs-apps-gratis
+  - duolingo plus merece la pena
 date: '2026-03-02'
 category: metodos
 author: Sara Méndez

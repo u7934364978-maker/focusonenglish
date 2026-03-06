@@ -9,12 +9,11 @@ excerpt: >-
   desventajas de cada método para ayudarte a llegar al nivel C1 de forma
   eficiente y sin perder el tiempo.
 keywords:
-  - apps vs cursos ingles
-  - aprender ingles C1
-  - mejor metodo ingles
-  - aplicaciones para aprender ingles efectivas
-  - estudiar ingles por tu cuenta
+  - apps vs cursos ingles cual elegir
   - academia ingles online vs app
+  - mejor metodo aprender ingles C1
+  - estudiar ingles por tu cuenta sin academia
+  - aprender ingles sin academia online
 date: '2026-03-02'
 category: metodos
 author: Sara Méndez
