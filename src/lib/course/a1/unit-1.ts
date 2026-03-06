@@ -49,7 +49,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'I am',
-      instructions: '[[Complete|Completa]] [[with|con]] "[[am|soy]]".',
+      instructions: 'Elige la forma correcta del verbo to be (am, are o is) para cada frase.',
       questions: [
         {
           question: '[[I|Yo]] ____ [[Maria|María]].',
@@ -78,7 +78,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: 'You are',
-      instructions: '[[Complete|Completa]] [[with|con]] "[[are|eres]]".',
+      instructions: 'Elige la forma correcta del verbo to be (am, are o is) para cada frase.',
       questions: [
         {
           question: '[[You|Tú]] ____ [[my|mi]] [[friend|amigo]].',

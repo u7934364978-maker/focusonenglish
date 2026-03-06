@@ -305,7 +305,7 @@ function UnitPreviewContent() {
             <div className="w-28 h-28 rounded-full bg-white/20 backdrop-blur border-4 border-white/40 flex items-center justify-center shadow-2xl mx-auto">
               <Trophy className="w-14 h-14 text-white drop-shadow-lg" />
             </div>
-            <div className="absolute -bottom-2 -right-2 bg-yellow-400 text-yellow-900 rounded-full px-3 py-1 font-black text-sm shadow-lg">
+            <div className="absolute -bottom-2 -right-2 bg-yellow-400 text-yellow-900 rounded-full px-3 py-1 font-semibold text-sm shadow-lg">
               +{sessionScore} XP
             </div>
           </div>
@@ -458,9 +458,9 @@ function UnitPreviewContent() {
           <div className="flex items-center gap-3 flex-shrink-0">
             <div className="relative flex items-center gap-1">
               <Zap className="w-4 h-4 text-yellow-500 fill-yellow-400" />
-              <span className="font-display font-bold text-slate-800 text-sm tabular-nums">{displayXp}</span>
+              <span className="font-medium text-slate-700 text-sm tabular-nums">{displayXp}</span>
               {showXpPop && (
-                <span className="absolute -top-8 left-1/2 -translate-x-1/2 text-emerald-500 font-black text-sm pointer-events-none whitespace-nowrap animate-[xp-fly_0.8s_ease-out_forwards]">
+                <span className="absolute -top-8 left-1/2 -translate-x-1/2 text-emerald-600 font-semibold text-sm pointer-events-none whitespace-nowrap animate-[xp-fly_0.8s_ease-out_forwards]">
                   +{xpGained} XP
                 </span>
               )}
@@ -515,7 +515,7 @@ function UnitPreviewContent() {
               <Flame className={`w-4 h-4 fill-current ${
                 consecutiveCorrect >= 10 ? 'text-red-500' : consecutiveCorrect >= 5 ? 'text-orange-500' : 'text-amber-500'
               }`} />
-              <span className={`text-xs font-black ${
+              <span className={`text-xs font-semibold ${
                 consecutiveCorrect >= 10 ? 'text-red-600' : consecutiveCorrect >= 5 ? 'text-orange-600' : 'text-amber-600'
               }`}>
                 {consecutiveCorrect >= 10 ? '🔥 EN LLAMAS' : consecutiveCorrect >= 5 ? '¡Racha épica!' : `Racha ×${consecutiveCorrect}`}
@@ -526,7 +526,7 @@ function UnitPreviewContent() {
           {/* Exercise counter — unified: "X de N" in unit */}
           <div className="inline-flex items-center gap-1.5 bg-white border border-slate-100 shadow-sm px-3 py-1.5 rounded-full" aria-label={`Actividad ${currentIndex + 1} de ${exercises.length}`}>
             <Target className="w-3.5 h-3.5 text-[#FF6B6B]" aria-hidden />
-            <span className="text-xs font-bold text-slate-600">
+            <span className="text-sm font-medium text-slate-600">
               {currentIndex + 1} de {exercises.length} actividades
             </span>
           </div>
@@ -587,7 +587,7 @@ function UnitPreviewContent() {
 
             {/* Texto con mensajes variados */}
             <div className="flex-1 min-w-0">
-              <p className={`font-black text-lg leading-tight tracking-tight mb-0.5 ${
+              <p className={`font-semibold text-base leading-tight mb-0.5 ${
                 feedback === 'correct' ? 'text-emerald-700' : 'text-red-700'
               }`}>
                 {feedback === 'correct'

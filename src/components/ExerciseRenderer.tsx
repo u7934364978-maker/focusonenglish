@@ -38,17 +38,20 @@ const TYPE_LABELS: Record<string, { label: string; icon: typeof BookOpen }> = {
   'default': { label: 'Ejercicio', icon: AlignLeft },
 };
 
+// Diseño homogéneo: un solo tema slate + coral para toda la tarjeta de ejercicio
+const UNIFIED_BADGE = 'bg-slate-100 text-slate-600 border-slate-200';
+const UNIFIED_BORDER = 'border-slate-300';
 const TYPE_THEMES: Record<string, { badge: string; border: string; ring: string }> = {
-  'multiple-choice': { badge: 'bg-[#FF6B6B]/15 text-[#FF6B6B] border-[#FF6B6B]/30', border: 'border-[#FF6B6B]/70', ring: 'ring-[#FF6B6B]/25' },
-  'true-false':      { badge: 'bg-violet-100 text-violet-700 border-violet-200',       border: 'border-violet-400/70',    ring: 'ring-violet-200' },
-  'fill-blank':      { badge: 'bg-amber-100 text-amber-700 border-amber-200',           border: 'border-amber-400/70',     ring: 'ring-amber-200' },
-  'reading':         { badge: 'bg-sky-100 text-sky-700 border-sky-200',                 border: 'border-sky-400/70',       ring: 'ring-sky-200' },
-  'reading-comprehension': { badge: 'bg-sky-100 text-sky-700 border-sky-200',           border: 'border-sky-400/70',       ring: 'ring-sky-200' },
-  'listening':       { badge: 'bg-teal-100 text-teal-700 border-teal-200',              border: 'border-teal-400/70',      ring: 'ring-teal-200' },
-  'spelling':        { badge: 'bg-rose-100 text-rose-700 border-rose-200',              border: 'border-rose-400/70',      ring: 'ring-rose-200' },
-  'sentence-building': { badge: 'bg-blue-100 text-blue-700 border-blue-200',             border: 'border-blue-400/70',      ring: 'ring-blue-200' },
-  'writing':         { badge: 'bg-emerald-100 text-emerald-700 border-emerald-200',     border: 'border-emerald-400/70',   ring: 'ring-emerald-200' },
-  'default':         { badge: 'bg-slate-100 text-slate-600 border-slate-200',           border: 'border-slate-400/70',     ring: 'ring-slate-200' },
+  'multiple-choice': { badge: UNIFIED_BADGE, border: UNIFIED_BORDER, ring: 'ring-slate-200' },
+  'true-false':      { badge: UNIFIED_BADGE, border: UNIFIED_BORDER, ring: 'ring-slate-200' },
+  'fill-blank':      { badge: UNIFIED_BADGE, border: UNIFIED_BORDER, ring: 'ring-slate-200' },
+  'reading':         { badge: UNIFIED_BADGE, border: UNIFIED_BORDER, ring: 'ring-slate-200' },
+  'reading-comprehension': { badge: UNIFIED_BADGE, border: UNIFIED_BORDER, ring: 'ring-slate-200' },
+  'listening':       { badge: UNIFIED_BADGE, border: UNIFIED_BORDER, ring: 'ring-slate-200' },
+  'spelling':        { badge: UNIFIED_BADGE, border: UNIFIED_BORDER, ring: 'ring-slate-200' },
+  'sentence-building': { badge: UNIFIED_BADGE, border: UNIFIED_BORDER, ring: 'ring-slate-200' },
+  'writing':         { badge: UNIFIED_BADGE, border: UNIFIED_BORDER, ring: 'ring-slate-200' },
+  'default':         { badge: UNIFIED_BADGE, border: UNIFIED_BORDER, ring: 'ring-slate-200' },
 };
 
 function getTypeInfo(type: string) {
@@ -240,8 +243,8 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
         {/* Question header: counter only if multiple questions */}
         {totalQ > 1 && (
           <div className="flex items-center gap-2">
-            <span className="text-xs font-black uppercase tracking-widest text-slate-400">
-              <TranslatedText text={`Pregunta ${qIndex + 1} de ${totalQ}`} />
+            <span className="text-sm font-medium text-slate-500">
+              Pregunta {qIndex + 1} de {totalQ}
             </span>
             <div className="flex-1 h-1 bg-slate-100 rounded-full overflow-hidden">
               <div
@@ -264,11 +267,9 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
         )}
 
         {/* Question text */}
-        <div className="relative pl-4 border-l-4 border-[#FF6B6B]/70 rounded-r-sm mt-2">
-          <div className="text-xs font-bold uppercase tracking-wider text-slate-500 mb-1.5">
-            Responde
-          </div>
-          <div className="text-2xl md:text-3xl text-slate-900 font-extrabold leading-tight tracking-normal">
+        <div className="relative pl-4 border-l-4 border-slate-300 rounded-r-sm mt-2">
+          <p className="text-sm font-medium text-slate-500 mb-1.5">Responde</p>
+          <div className="text-lg md:text-xl text-slate-800 font-medium leading-snug">
             <TranslatedText text={q.question || q.text || q.prompt} />
           </div>
         </div>
@@ -299,7 +300,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                     key={option}
                     onClick={() => !submitted && setUserAnswer(option)}
                     disabled={submitted}
-                    className={`relative p-6 rounded-2xl border-2 font-black text-xl transition-all duration-200 active:scale-95 ${
+                    className={`relative p-6 rounded-2xl border-2 font-medium text-lg text-slate-800 transition-all duration-200 active:scale-95 ${
                       showAsCorrect
                         ? 'border-green-400 bg-green-50 text-green-700 shadow-green-100 shadow-lg'
                         : showAsIncorrect
@@ -348,7 +349,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                     } disabled:cursor-not-allowed`}
                   >
                     <div className="flex items-center gap-3">
-                      <div className={`w-10 h-10 rounded-xl flex items-center justify-center font-black text-base flex-shrink-0 transition-colors ${
+                      <div className={`w-10 h-10 rounded-xl flex items-center justify-center font-semibold text-sm flex-shrink-0 transition-colors ${
                         showAsCorrect
                           ? 'bg-green-500 text-white'
                           : showAsIncorrect
@@ -359,8 +360,8 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                       }`}>
                         {showAsCorrect ? <CheckCircle size={18} /> : showAsIncorrect ? <XCircle size={18} /> : letter}
                       </div>
-                      <span className={`text-base md:text-lg font-bold flex-1 leading-snug tracking-tight ${
-                        showAsCorrect ? 'text-green-800' : showAsIncorrect ? 'text-red-800' : isUserAnswer ? 'text-slate-900' : 'text-slate-700'
+                      <span className={`text-base font-medium flex-1 leading-snug text-slate-700 ${
+                        showAsCorrect ? '!text-green-800' : showAsIncorrect ? '!text-red-800' : isUserAnswer ? 'text-slate-900' : ''
                       }`}>
                         <TranslatedText text={typeof option === 'string' ? option : option.text} />
                       </span>
@@ -374,7 +375,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
           {/* Fill Blank (only if no options and not true-false) */}
           {(q.type === 'fill-blank' || exercise.type === 'fill-blank') && exercise.type !== 'true-false' && (!q.options || !Array.isArray(q.options)) && (
             <div className="space-y-1.5">
-              <label className="text-xs font-bold uppercase tracking-wider text-slate-500 pl-1">
+              <label className="text-sm font-medium text-slate-500 pl-1">
                 Escribe tu respuesta
               </label>
               <div className="relative">
@@ -385,7 +386,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                 onKeyDown={(e) => e.key === 'Enter' && userAnswer && !submitted && handleSubmit()}
                 disabled={submitted}
                 placeholder="Escribe aquí tu respuesta…"
-                className={`w-full p-5 border-2 rounded-2xl focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B6B] focus-visible:ring-offset-2 text-xl font-bold transition-colors ${
+                className={`w-full p-5 border-2 rounded-2xl focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B6B] focus-visible:ring-offset-2 text-lg font-medium text-slate-800 transition-colors ${
                   submitted
                     ? isCorrect
                       ? 'border-green-400 bg-green-50 text-green-800'
@@ -410,7 +411,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
               onClick={handleSubmit}
               disabled={userAnswer === null || userAnswer === ''}
               data-testid="confirm-button"
-              className="w-full bg-gradient-to-r from-[#FF6B6B] to-[#ff5252] text-white py-4 rounded-2xl font-bold text-lg shadow-lg shadow-orange-200 hover:-translate-y-0.5 hover:shadow-xl transition-all disabled:opacity-40 disabled:cursor-not-allowed disabled:translate-y-0 disabled:shadow-none active:scale-[0.98]"
+              className="w-full bg-gradient-to-r from-[#FF6B6B] to-[#ff5252] text-white py-4 rounded-2xl font-semibold text-base shadow-lg shadow-orange-200 hover:-translate-y-0.5 hover:shadow-xl transition-all disabled:opacity-40 disabled:cursor-not-allowed disabled:translate-y-0 disabled:shadow-none active:scale-[0.98]"
             >
               Comprobar respuesta
             </button>
@@ -440,7 +441,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                     }
                   </div>
                   <div className="flex-1 min-w-0">
-                    <div className={`font-bold text-lg leading-tight ${evaluation.isCorrect ? 'text-green-700' : 'text-red-700'}`}>
+                    <div className={`font-semibold text-base leading-tight ${evaluation.isCorrect ? 'text-green-700' : 'text-red-700'}`}>
                       {evaluation.isCorrect ? 'Respuesta correcta' : 'Respuesta incorrecta'}
                     </div>
                     <div className={`text-sm mt-0.5 leading-snug ${evaluation.isCorrect ? 'text-green-600' : 'text-red-500'}`}>
@@ -451,10 +452,10 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
 
                 {q.explanation && (
                   <div className="bg-slate-50 rounded-2xl px-4 py-3 mb-3 border border-slate-100">
-                    <p className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-1">
+                    <p className="text-sm font-medium text-slate-500 mb-1">
                       Por qué
                     </p>
-                    <div className="text-sm text-slate-700 leading-relaxed">
+                    <div className="text-sm font-normal text-slate-700 leading-relaxed">
                       <Markdown content={q.explanation} vocabulary={vocabulary} />
                     </div>
                   </div>
@@ -463,7 +464,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                 <button
                   onClick={handleNextQuestion}
                   data-testid="next-button"
-                  className={`w-full py-4 rounded-2xl font-black text-base text-white shadow-lg transition-all hover:-translate-y-0.5 active:scale-[0.98] flex items-center justify-center gap-2 ${
+                  className={`w-full py-4 rounded-2xl font-semibold text-base text-white shadow-lg transition-all hover:-translate-y-0.5 active:scale-[0.98] flex items-center justify-center gap-2 ${
                     evaluation.isCorrect
                       ? 'bg-gradient-to-r from-green-500 to-emerald-500 shadow-green-200'
                       : 'bg-gradient-to-r from-slate-700 to-slate-800 shadow-slate-200'
@@ -503,7 +504,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
           <div className="flex justify-center mt-8">
             <button
               onClick={() => onComplete({ success: finishScore >= 70, score: finishScore })}
-              className="w-full bg-gradient-to-r from-[#FF6B6B] to-[#ff5252] text-white py-4 rounded-2xl font-black text-lg shadow-lg flex items-center justify-center gap-2"
+              className="w-full bg-gradient-to-r from-[#FF6B6B] to-[#ff5252] text-white py-4 rounded-2xl font-semibold text-base shadow-lg flex items-center justify-center gap-2"
             >
               <TranslatedText text="[[Continue|Continuar]]" />
               <ArrowRight className="w-5 h-5" />
@@ -537,7 +538,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
           <div className="flex justify-center mt-8">
             <button
               onClick={() => onComplete({ success: finishScore >= 70, score: finishScore })}
-              className="w-full bg-gradient-to-r from-[#FF6B6B] to-[#ff5252] text-white py-4 rounded-2xl font-black text-lg shadow-lg flex items-center justify-center gap-2"
+              className="w-full bg-gradient-to-r from-[#FF6B6B] to-[#ff5252] text-white py-4 rounded-2xl font-semibold text-base shadow-lg flex items-center justify-center gap-2"
             >
               <TranslatedText text="[[Continue|Continuar]]" />
               <ArrowRight className="w-5 h-5" />
@@ -577,18 +578,18 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
           {/* Tipo + título (sin etiqueta "Ejercicio" redundante) */}
           <div>
             <div className="flex flex-wrap items-center gap-2 mb-3">
-              <div className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold border ${typeTheme.badge}`} aria-hidden>
+              <div className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium border ${typeTheme.badge}`} aria-hidden>
                 <TypeIcon size={14} aria-hidden />
                 <span>{typeInfo.label}</span>
               </div>
             </div>
-            <h2 className={`text-2xl md:text-3xl font-extrabold text-slate-900 leading-tight tracking-tight border-l-4 pl-4 ${typeTheme.border} rounded-r-sm`}>
+            <h2 className={`text-xl md:text-2xl font-semibold text-slate-900 leading-snug border-l-4 pl-4 ${typeTheme.border} rounded-r-sm`}>
               <TranslatedText text={exerciseContent.title || 'Ejercicio'} />
             </h2>
             {exerciseContent.instructions && (
-              <div className="mt-4 flex gap-2.5 p-3.5 bg-slate-50 border border-slate-100 rounded-xl">
+              <div className="mt-4 flex gap-2.5 p-3.5 bg-slate-50 border border-slate-200 rounded-xl">
                 <Info size={18} className="text-slate-500 flex-shrink-0 mt-0.5" aria-hidden />
-                <div className="text-slate-700 text-base font-medium leading-relaxed">
+                <div className="text-slate-700 text-base font-normal leading-relaxed">
                   <Markdown content={exerciseContent.instructions} />
                 </div>
               </div>
@@ -607,11 +608,11 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
           {isReadingExercise && showReadingText ? (
             <div className="space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500">
               <div className="rounded-xl bg-slate-50 border border-slate-200 p-5 md:p-6">
-                <p className="text-xs font-bold uppercase tracking-wider text-sky-600 mb-3 flex items-center gap-2">
+                <p className="text-sm font-medium text-slate-500 mb-3 flex items-center gap-2">
                   <BookOpen size={14} aria-hidden />
                   Lee el texto con calma antes de responder
                 </p>
-                <div className="text-slate-900 text-lg md:text-[19px] leading-[1.75] font-normal">
+                <div className="text-slate-800 text-base md:text-lg leading-relaxed font-normal">
                   <Markdown content={(exerciseContent.text || exercise.transcript)!} />
                 </div>
               </div>
@@ -623,7 +624,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
               )}
               <button
                 onClick={() => setShowReadingText(false)}
-                className="w-full bg-gradient-to-r from-[#FF6B6B] to-[#ff5252] text-white py-4 rounded-2xl font-bold text-lg shadow-lg hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B6B] focus-visible:ring-offset-2"
+                className="w-full bg-gradient-to-r from-[#FF6B6B] to-[#ff5252] text-white py-4 rounded-2xl font-semibold text-base shadow-lg hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B6B] focus-visible:ring-offset-2"
                 aria-label="Ir a las preguntas de comprensión"
               >
                 Comprobar comprensión <ArrowRight className="w-5 h-5" aria-hidden />
@@ -638,10 +639,10 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                 : (
                   <div className="text-center py-10">
                     <p className="text-slate-600 font-medium mb-2">No hay preguntas en esta actividad.</p>
-                    <p className="text-slate-500 text-sm mb-6">Puedes continuar a la siguiente.</p>
+                    <p className="text-slate-500 text-sm font-normal mb-6">Puedes continuar a la siguiente.</p>
                     <button
                       onClick={() => onComplete({ success: true, score: 100 })}
-                      className="bg-slate-800 text-white px-8 py-3 rounded-2xl font-bold hover:bg-slate-700 transition-colors"
+                      className="bg-slate-800 text-white px-8 py-3 rounded-2xl font-semibold text-sm hover:bg-slate-700 transition-colors"
                     >
                       Continuar
                     </button>
