@@ -11,7 +11,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     transcript:
       '[[Hello|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] [[Maria|María]]. [[I|Yo]] [[am|tengo]] [[twenty-eight|veintiocho]] [[years|años]] [[old|de edad]]. [[I|Yo]] [[am|soy]] [[from|de]] [[Madrid|Madrid]], [[Spain|España]]. [[I|Yo]] [[am|soy]] [[a|una]] [[teacher|profesora]]. [[I|Yo]] [[am|estoy]] [[happy|feliz]] [[today|hoy]]. [[Nice|Encantada]] [[to|de]] [[meet|conocerte]] [[you|a ti]]!',
     content: {
-      title: 'Conoce a Maria',
+      title: '[[Conoce|Conoce]] [[a Maria|a Maria]]',
       instructions: '[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].',
       questions: [
         {

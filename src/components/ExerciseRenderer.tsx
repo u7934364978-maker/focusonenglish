@@ -242,24 +242,8 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
   const OPTION_LETTERS = ['A', 'B', 'C', 'D', 'E', 'F'];
 
   const renderCurrentQuestion = (q: any, qIndex: number) => {
-    const totalQ = questions.length || 1;
     return (
       <div key={qIndex} className="space-y-6">
-        {/* Question header: counter only if multiple questions */}
-        {totalQ > 1 && (
-          <div className="flex items-center gap-2">
-            <span className="text-sm font-medium text-slate-500">
-              Pregunta {qIndex + 1} de {totalQ}
-            </span>
-            <div className="flex-1 h-1 bg-slate-100 rounded-full overflow-hidden">
-              <div
-                className="h-full bg-gradient-to-r from-[#FF6B6B] to-[#ff9a3c] rounded-full transition-all duration-500"
-                style={{ width: `${((qIndex + 1) / totalQ) * 100}%` }}
-              />
-            </div>
-          </div>
-        )}
-
         {/* Image */}
         {q.imageUrl && (
           <div className="rounded-2xl overflow-hidden border border-slate-100 shadow-sm bg-slate-50 flex justify-center items-center" data-testid="exercise-image-container">
