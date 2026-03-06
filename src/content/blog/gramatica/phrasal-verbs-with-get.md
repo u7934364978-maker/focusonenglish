@@ -15,9 +15,11 @@ keywords:
   - verbos frasales con get
   - get phrasal verbs ejemplos
   - get away get by get off ingles
+  - phrasal verbs ingles
 author: David Torres
 date: '2026-03-06'
 image: 'https://images.pexels.com/photos/1552617/pexels-photo-1552617.jpeg'
+alt: 'Lista de phrasal verbs con GET en inglés con ejemplos'
 category: gramatica
 canonical: 'https://www.focus-on-english.com/blog/gramatica/phrasal-verbs-with-get'
 ---

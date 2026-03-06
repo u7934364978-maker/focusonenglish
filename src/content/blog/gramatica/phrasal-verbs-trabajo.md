@@ -16,9 +16,11 @@ keywords:
   - phrasal verbs oficina
   - phrasal verbs reuniones ingles
   - ingles empresarial phrasal verbs
+  - phrasal verbs ingles
 author: David Torres
 date: '2026-03-06'
 image: 'https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg'
+alt: 'Profesionales en reunión usando phrasal verbs de negocios en inglés'
 category: gramatica
 canonical: 'https://www.focus-on-english.com/blog/gramatica/phrasal-verbs-trabajo'
 ---

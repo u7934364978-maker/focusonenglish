@@ -16,9 +16,11 @@ keywords:
   - phrasal verbs nivel alto ingles
   - phrasal verbs writing c1
   - phrasal verbs sofisticados ingles
+  - phrasal verbs ingles
 author: David Torres
 date: '2026-03-06'
 image: 'https://images.pexels.com/photos/1925536/pexels-photo-1925536.jpeg'
+alt: 'Estudiante avanzado preparando phrasal verbs de nivel C1 para el CAE de Cambridge'
 category: gramatica
 canonical: 'https://www.focus-on-english.com/blog/gramatica/phrasal-verbs-c1-avanzados'
 ---

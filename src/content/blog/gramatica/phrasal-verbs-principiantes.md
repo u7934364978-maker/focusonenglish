@@ -15,9 +15,11 @@ keywords:
   - phrasal verbs cotidianos
   - como aprender phrasal verbs
   - verbos con particulas ingles
+  - phrasal verbs ingles
 author: David Torres
 date: '2026-03-06'
 image: 'https://images.pexels.com/photos/1370296/pexels-photo-1370296.jpeg'
+alt: 'Estudiante principiante aprendiendo phrasal verbs básicos en inglés'
 category: gramatica
 canonical: 'https://www.focus-on-english.com/blog/gramatica/phrasal-verbs-principiantes'
 ---

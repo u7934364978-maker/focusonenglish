@@ -15,10 +15,13 @@ keywords:
   - gramatica b2
   - ejercicios de verbos en ingles
   - aprender vocabulario ingles
+  - phrasal verbs ingles
 author: David Torres
 date: '2026-03-02'
 image: 'https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg'
+alt: 'Lista definitiva de phrasal verbs B2 para el First Certificate FCE'
 category: gramatica
+canonical: 'https://www.focus-on-english.com/blog/gramatica/phrasal-verbs-guia-b2'
 ---
 
 Los **phrasal verbs** son el "talón de Aquiles" de muchos estudiantes que preparan el nivel B2. Sin embargo, en el nivel **Intermedio-Alto (B2 First)**, dejar de usarlos no es una opción si quieres sonar natural y aprobar el *Use of English* del First Certificate (FCE).

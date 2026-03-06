@@ -16,9 +16,11 @@ keywords:
   - verbos frasales con put
   - put down put through put forward
   - put up with ingles
+  - phrasal verbs ingles
 author: David Torres
 date: '2026-03-06'
 image: 'https://images.pexels.com/photos/3807571/pexels-photo-3807571.jpeg'
+alt: 'Phrasal verbs con PUT en inglés: put off, put up, put on explicados'
 category: gramatica
 canonical: 'https://www.focus-on-english.com/blog/gramatica/phrasal-verbs-with-put'
 ---
