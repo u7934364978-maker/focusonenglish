@@ -441,7 +441,7 @@ export default function EnhancedSpeakingExercise({ question, onComplete, level }
             <div className="flex items-start gap-3 mb-4">
               <Target className="w-6 h-6 text-orange-600 flex-shrink-0 mt-1" />
               <div className="flex-1">
-                <h3 className="text-lg font-bold text-gray-900 mb-2">Tu tarea:</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-2">Your task:</h3>
                 <p className="text-gray-800 leading-relaxed"><TranslatedText text={question.prompt} /></p>
               </div>
             </div>
@@ -449,13 +449,13 @@ export default function EnhancedSpeakingExercise({ question, onComplete, level }
             {question.timeLimit && (
               <div className="flex items-center gap-2 text-sm text-gray-600 bg-blue-50 rounded-lg p-3">
                 <Clock className="w-4 h-4 text-blue-600" />
-                <span>Tiempo sugerido: <strong>{formatTime(question.timeLimit)}</strong></span>
+                <span>Suggested time: <strong>{formatTime(question.timeLimit)}</strong></span>
               </div>
             )}
 
             {question.expectedResponse && (
               <div className="mt-6 p-6 bg-slate-50 rounded-xl border-2 border-slate-200">
-                <h4 className="text-sm font-bold text-slate-500 uppercase tracking-widest mb-3">Frase a repetir:</h4>
+                <h4 className="text-sm font-bold text-slate-500 uppercase tracking-widest mb-3">Phrase to repeat:</h4>
                 <p className="text-2xl font-black text-slate-800 leading-tight">
                   {question.expectedResponse}
                 </p>
@@ -468,7 +468,7 @@ export default function EnhancedSpeakingExercise({ question, onComplete, level }
             <div className="bg-purple-50 border-2 border-purple-200 rounded-2xl p-6">
               <div className="flex items-center gap-2 mb-3">
                 <Zap className="w-5 h-5 text-purple-600" />
-                <h3 className="font-bold text-purple-900">Palabras clave a usar:</h3>
+                <h3 className="font-bold text-purple-900">Key words to use:</h3>
               </div>
               <div className="flex flex-wrap gap-2">
                 {question.targetWords.map((word, i) => (
@@ -492,10 +492,10 @@ export default function EnhancedSpeakingExercise({ question, onComplete, level }
               >
                 <div className="flex items-center gap-2">
                   {showHints ? <EyeOff className="w-5 h-5 text-amber-700" /> : <Eye className="w-5 h-5 text-amber-700" />}
-                  <h3 className="font-bold text-amber-900">Consejos útiles</h3>
+                  <h3 className="font-bold text-amber-900">Useful tips</h3>
                 </div>
                 <span className="text-sm text-amber-700">
-                  {showHints ? 'Ocultar' : 'Mostrar'} ({question.hints.length})
+                  {showHints ? 'Hide' : 'Show'} ({question.hints.length})
                 </span>
               </button>
               
@@ -768,7 +768,7 @@ export default function EnhancedSpeakingExercise({ question, onComplete, level }
                 <div className="bg-green-50 border-2 border-green-200 rounded-xl p-5">
                   <div className="flex items-center gap-2 mb-3">
                     <CheckCircle className="w-5 h-5 text-green-600" />
-                    <h4 className="font-bold text-green-900">✓ Palabras clave usadas:</h4>
+                    <h4 className="font-bold text-green-900">✓ Key words used:</h4>
                   </div>
                   <div className="flex flex-wrap gap-2">
                     {evaluation.detectedWords.map((word, i) => (
@@ -787,7 +787,7 @@ export default function EnhancedSpeakingExercise({ question, onComplete, level }
                 <div className="bg-orange-50 border-2 border-orange-200 rounded-xl p-5">
                   <div className="flex items-center gap-2 mb-3">
                     <AlertCircle className="w-5 h-5 text-orange-600" />
-                    <h4 className="font-bold text-orange-900">Palabras clave no usadas:</h4>
+                    <h4 className="font-bold text-orange-900">Key words not used:</h4>
                   </div>
                   <div className="flex flex-wrap gap-2">
                     {evaluation.missedWords.map((word, i) => (
