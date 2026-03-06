@@ -1,4 +1,5 @@
 import { Suspense } from 'react';
+import Link from 'next/link';
 import { A1CourseSelector } from '@/components/course/preview/A1CourseSelector';
 import { A1ProgressSidebar } from '@/components/course/A1ProgressSidebar';
 import { premiumCourseServerService } from '@/lib/services/premium-course-service.server';
