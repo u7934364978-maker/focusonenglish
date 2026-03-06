@@ -33,6 +33,8 @@ const TYPE_LABELS: Record<string, { label: string; icon: typeof BookOpen }> = {
   'reading-comprehension': { label: 'Comprensión lectora', icon: BookOpen },
   'listening': { label: 'Comprensión auditiva', icon: BookOpen },
   'spelling': { label: 'Deletreo', icon: Edit3 },
+  'sentence-building': { label: 'Construye la frase', icon: Edit3 },
+  'writing': { label: 'Escritura', icon: Edit3 },
   'default': { label: 'Ejercicio', icon: AlignLeft },
 };
 
@@ -44,6 +46,8 @@ const TYPE_THEMES: Record<string, { badge: string; border: string; ring: string 
   'reading-comprehension': { badge: 'bg-sky-100 text-sky-700 border-sky-200',           border: 'border-sky-400/70',       ring: 'ring-sky-200' },
   'listening':       { badge: 'bg-teal-100 text-teal-700 border-teal-200',              border: 'border-teal-400/70',      ring: 'ring-teal-200' },
   'spelling':        { badge: 'bg-rose-100 text-rose-700 border-rose-200',              border: 'border-rose-400/70',      ring: 'ring-rose-200' },
+  'sentence-building': { badge: 'bg-blue-100 text-blue-700 border-blue-200',             border: 'border-blue-400/70',      ring: 'ring-blue-200' },
+  'writing':         { badge: 'bg-emerald-100 text-emerald-700 border-emerald-200',     border: 'border-emerald-400/70',   ring: 'ring-emerald-200' },
   'default':         { badge: 'bg-slate-100 text-slate-600 border-slate-200',           border: 'border-slate-400/70',     ring: 'ring-slate-200' },
 };
 
@@ -237,7 +241,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
         {totalQ > 1 && (
           <div className="flex items-center gap-2">
             <span className="text-xs font-black uppercase tracking-widest text-slate-400">
-              <TranslatedText text={`[[Question|Pregunta]] ${qIndex + 1} / ${totalQ}`} />
+              <TranslatedText text={`Pregunta ${qIndex + 1} de ${totalQ}`} />
             </span>
             <div className="flex-1 h-1 bg-slate-100 rounded-full overflow-hidden">
               <div
@@ -261,8 +265,8 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
 
         {/* Question text */}
         <div className="relative pl-4 border-l-4 border-[#FF6B6B]/70 rounded-r-sm mt-2">
-          <div className="text-xs font-bold uppercase tracking-[0.15em] text-[#FF6B6B]/70 mb-1.5">
-            <TranslatedText text="[[Question|Pregunta]]" />
+          <div className="text-xs font-bold uppercase tracking-wider text-slate-500 mb-1.5">
+            Responde
           </div>
           <div className="text-2xl md:text-3xl text-slate-900 font-extrabold leading-tight tracking-normal">
             <TranslatedText text={q.question || q.text || q.prompt} />
@@ -333,7 +337,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                     whileTap={!submitted ? { scale: 0.97 } : {}}
                     animate={isUserAnswer && !submitted ? { scale: [1, 1.03, 1] } : { scale: 1 }}
                     transition={{ duration: 0.18 }}
-                    className={`w-full text-left p-4 rounded-2xl border-2 transition-colors duration-200 group ${
+                    className={`w-full text-left p-4 rounded-2xl border-2 transition-colors duration-200 group focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B6B] focus-visible:ring-offset-2 ${
                       showAsCorrect
                         ? 'border-green-400 bg-green-50 shadow-sm'
                         : showAsIncorrect
@@ -370,8 +374,8 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
           {/* Fill Blank (only if no options and not true-false) */}
           {(q.type === 'fill-blank' || exercise.type === 'fill-blank') && exercise.type !== 'true-false' && (!q.options || !Array.isArray(q.options)) && (
             <div className="space-y-1.5">
-              <label className="text-xs font-black uppercase tracking-[0.12em] text-slate-400 pl-1">
-                ✏️ <TranslatedText text="[[Your answer|Tu respuesta]]" />
+              <label className="text-xs font-bold uppercase tracking-wider text-slate-500 pl-1">
+                Escribe tu respuesta
               </label>
               <div className="relative">
               <input
@@ -380,8 +384,8 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                 onChange={(e) => setUserAnswer(e.target.value)}
                 onKeyDown={(e) => e.key === 'Enter' && userAnswer && !submitted && handleSubmit()}
                 disabled={submitted}
-                placeholder="Escribe tu respuesta..."
-                className={`w-full p-5 border-2 rounded-2xl focus:outline-none text-xl font-bold transition-colors ${
+                placeholder="Escribe aquí tu respuesta…"
+                className={`w-full p-5 border-2 rounded-2xl focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B6B] focus-visible:ring-offset-2 text-xl font-bold transition-colors ${
                   submitted
                     ? isCorrect
                       ? 'border-green-400 bg-green-50 text-green-800'
@@ -406,9 +410,9 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
               onClick={handleSubmit}
               disabled={userAnswer === null || userAnswer === ''}
               data-testid="confirm-button"
-              className="w-full bg-gradient-to-r from-[#FF6B6B] to-[#ff5252] text-white py-4 rounded-2xl font-black text-lg shadow-lg shadow-orange-200 hover:-translate-y-0.5 hover:shadow-xl transition-all disabled:opacity-40 disabled:cursor-not-allowed disabled:translate-y-0 disabled:shadow-none active:scale-[0.98]"
+              className="w-full bg-gradient-to-r from-[#FF6B6B] to-[#ff5252] text-white py-4 rounded-2xl font-bold text-lg shadow-lg shadow-orange-200 hover:-translate-y-0.5 hover:shadow-xl transition-all disabled:opacity-40 disabled:cursor-not-allowed disabled:translate-y-0 disabled:shadow-none active:scale-[0.98]"
             >
-              Confirmar
+              Comprobar respuesta
             </button>
           </div>
         )}
@@ -436,11 +440,8 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                     }
                   </div>
                   <div className="flex-1 min-w-0">
-                    <div className={`font-black text-lg leading-tight ${evaluation.isCorrect ? 'text-green-700' : 'text-red-700'}`}>
-                      {evaluation.isCorrect
-                        ? <TranslatedText text="[[Great! Correct answer.|¡Correcto!]]" />
-                        : <TranslatedText text="[[Incorrect. Keep going!|Incorrecto. ¡Sigue así!]]" />
-                      }
+                    <div className={`font-bold text-lg leading-tight ${evaluation.isCorrect ? 'text-green-700' : 'text-red-700'}`}>
+                      {evaluation.isCorrect ? 'Respuesta correcta' : 'Respuesta incorrecta'}
                     </div>
                     <div className={`text-sm mt-0.5 leading-snug ${evaluation.isCorrect ? 'text-green-600' : 'text-red-500'}`}>
                       <Markdown content={evaluation.feedback} vocabulary={vocabulary} />
@@ -450,9 +451,9 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
 
                 {q.explanation && (
                   <div className="bg-slate-50 rounded-2xl px-4 py-3 mb-3 border border-slate-100">
-                    <div className="text-[10px] font-black uppercase tracking-widest text-slate-400 mb-1">
-                      💡 <TranslatedText text="[[Explanation|Explicación]]" />
-                    </div>
+                    <p className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-1">
+                      Por qué
+                    </p>
                     <div className="text-sm text-slate-700 leading-relaxed">
                       <Markdown content={q.explanation} vocabulary={vocabulary} />
                     </div>
@@ -469,8 +470,8 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                   }`}
                 >
                   {currentQuestionIdx < questions.length - 1
-                    ? "Siguiente pregunta"
-                    : "Continuar"
+                    ? 'Siguiente pregunta'
+                    : 'Continuar'
                   }
                   <ArrowRight className="w-5 h-5" />
                 </button>
@@ -550,7 +551,13 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
   if (exercise.type === 'word-search') return <div className="bg-white p-8 rounded-3xl shadow-xl"><WordSearchExercise words={exerciseContent.words} gridSize={exerciseContent.gridSize ?? 10} onComplete={() => onComplete({ success: true, score: 100 })} /></div>;
   if (exercise.type === 'crossword') return <div className="bg-white p-8 rounded-3xl shadow-xl"><CrosswordExercise items={exerciseContent.items} onComplete={() => onComplete({ success: true, score: 100 })} /></div>;
   if (exercise.type === 'flashcard') return <FlashcardExercise content={exerciseContent as any} onComplete={() => onComplete({ success: true, score: 100 })} />;
-  if (exercise.type === 'drag-drop' || exercise.type === 'sentence-building' || exercise.type === 'spelling') return <DragDropExercise content={exerciseContent as any} onComplete={(success) => onComplete({ success, score: success ? 100 : 0 })} />;
+  if (exercise.type === 'drag-drop' || exercise.type === 'sentence-building' || exercise.type === 'spelling') {
+    return (
+      <div className="bg-white rounded-2xl shadow-lg shadow-slate-200/60 border border-slate-100 overflow-hidden p-6 md:p-8">
+        <DragDropExercise content={exerciseContent as any} onComplete={(success) => onComplete({ success, score: success ? 100 : 0 })} />
+      </div>
+    );
+  }
   if (exercise.type === 'matching') return <MatchingExercise content={exerciseContent as any} onComplete={(success) => onComplete({ success, score: success ? 100 : 0 })} />;
   if (exercise.type === 'interactive-dialogue') return <InteractiveDialogueExercise content={exerciseContent as any} onComplete={(success) => onComplete({ success, score: success ? 100 : 0 })} />;
 
@@ -565,70 +572,64 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
       animate={{ opacity: isAnimating ? 0 : 1, y: isAnimating ? 16 : 0 }}
       transition={{ duration: 0.3, ease: 'easeOut' }}
     >
-      <div className="space-y-6">
-        {/* Exercise title + type pill */}
-        <div>
-          <div className="flex items-center gap-2 mb-3">
-            <div className={`flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-sm font-bold border ${typeTheme.badge}`}>
-              <TypeIcon size={14} />
-              <span>{typeInfo.label}</span>
+      <div className="bg-white rounded-2xl shadow-lg shadow-slate-200/60 border border-slate-100 overflow-hidden">
+        <div className="p-6 md:p-8 space-y-6">
+          {/* Tipo + título (sin etiqueta "Ejercicio" redundante) */}
+          <div>
+            <div className="flex flex-wrap items-center gap-2 mb-3">
+              <div className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-bold border ${typeTheme.badge}`} aria-hidden>
+                <TypeIcon size={14} aria-hidden />
+                <span>{typeInfo.label}</span>
+              </div>
             </div>
-          </div>
-          <div className={`relative pl-4 border-l-4 ${typeTheme.border} rounded-r-sm`}>
-            <div className="text-xs font-bold uppercase tracking-[0.15em] text-slate-400 mb-1.5">
-              <TranslatedText text="[[Exercise|Ejercicio]]" />
-            </div>
-            <h2 className="text-2xl md:text-3xl font-extrabold text-slate-900 leading-tight tracking-normal">
+            <h2 className={`text-2xl md:text-3xl font-extrabold text-slate-900 leading-tight tracking-tight border-l-4 pl-4 ${typeTheme.border} rounded-r-sm`}>
               <TranslatedText text={exerciseContent.title || 'Ejercicio'} />
             </h2>
-          </div>
-          {exerciseContent.instructions && (
-            <div className="mt-4 flex gap-2.5 p-3.5 bg-slate-50 border border-slate-100 border-l-4 border-l-slate-300 rounded-2xl">
-              <Info size={18} className="text-slate-400 flex-shrink-0 mt-0.5" />
-              <div className="text-slate-700 text-base font-semibold leading-relaxed">
-                <Markdown content={exerciseContent.instructions} />
-              </div>
-            </div>
-          )}
-        </div>
-
-        {/* Audio (exercise-level) */}
-        {exercise.audioUrl && (
-          <AudioPlayer
-            audioUrl={exercise.audioUrl.startsWith('/') ? exercise.audioUrl : `/${exercise.audioUrl}`}
-            transcript={exercise.transcript}
-          />
-        )}
-
-        {/* Reading text */}
-        {isReadingExercise && showReadingText ? (
-          <div className="space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500">
-            <div className="relative p-6 bg-amber-50/30 rounded-2xl border border-slate-100 shadow-sm">
-              <div className="absolute top-0 left-0 w-1.5 h-full bg-gradient-to-b from-[#FF6B6B] to-[#ff9a3c] rounded-l-2xl" />
-              <div className="flex items-center gap-2 mb-3 pl-1">
-                <BookOpen size={16} className="text-[#FF6B6B]/70" />
-                <div className="text-xs font-black uppercase tracking-[0.15em] text-[#FF6B6B]/70">
-                  <TranslatedText text="[[Reading|Lectura]]" />
+            {exerciseContent.instructions && (
+              <div className="mt-4 flex gap-2.5 p-3.5 bg-slate-50 border border-slate-100 rounded-xl">
+                <Info size={18} className="text-slate-500 flex-shrink-0 mt-0.5" aria-hidden />
+                <div className="text-slate-700 text-base font-medium leading-relaxed">
+                  <Markdown content={exerciseContent.instructions} />
                 </div>
               </div>
-              <div className="text-slate-800 text-[18px] leading-[1.85] font-normal pl-1">
-                <Markdown content={(exerciseContent.text || exercise.transcript)!} />
-              </div>
-            </div>
-            {exercise.audioUrl && (
-              <AudioPlayer
-                audioUrl={exercise.audioUrl.startsWith('/') ? exercise.audioUrl : `/${exercise.audioUrl}`}
-                transcript={exercise.transcript}
-              />
             )}
-            <button
-              onClick={() => setShowReadingText(false)}
-              className="w-full bg-gradient-to-r from-[#FF6B6B] to-[#ff5252] text-white py-4 rounded-2xl font-black text-lg shadow-lg hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2"
-            >
-              Responder preguntas <ArrowRight className="w-5 h-5" />
-            </button>
           </div>
-        ) : (
+
+          {/* Audio (exercise-level) */}
+          {exercise.audioUrl && (
+            <AudioPlayer
+              audioUrl={exercise.audioUrl.startsWith('/') ? exercise.audioUrl : `/${exercise.audioUrl}`}
+              transcript={exercise.transcript}
+            />
+          )}
+
+          {/* Reading text: mejor contraste y tipografía */}
+          {isReadingExercise && showReadingText ? (
+            <div className="space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500">
+              <div className="rounded-xl bg-slate-50 border border-slate-200 p-5 md:p-6">
+                <p className="text-xs font-bold uppercase tracking-wider text-sky-600 mb-3 flex items-center gap-2">
+                  <BookOpen size={14} aria-hidden />
+                  Lee el texto con calma antes de responder
+                </p>
+                <div className="text-slate-900 text-lg md:text-[19px] leading-[1.75] font-normal">
+                  <Markdown content={(exerciseContent.text || exercise.transcript)!} />
+                </div>
+              </div>
+              {exercise.audioUrl && (
+                <AudioPlayer
+                  audioUrl={exercise.audioUrl.startsWith('/') ? exercise.audioUrl : `/${exercise.audioUrl}`}
+                  transcript={exercise.transcript}
+                />
+              )}
+              <button
+                onClick={() => setShowReadingText(false)}
+                className="w-full bg-gradient-to-r from-[#FF6B6B] to-[#ff5252] text-white py-4 rounded-2xl font-bold text-lg shadow-lg hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B6B] focus-visible:ring-offset-2"
+                aria-label="Ir a las preguntas de comprensión"
+              >
+                Comprobar comprensión <ArrowRight className="w-5 h-5" aria-hidden />
+              </button>
+            </div>
+          ) : (
           <div>
             {questions.length > 0
               ? renderCurrentQuestion(questions[currentQuestionIdx], currentQuestionIdx)
@@ -636,10 +637,11 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                 ? renderCurrentQuestion(exerciseContent, 0)
                 : (
                   <div className="text-center py-10">
-                    <p className="text-slate-400 font-medium mb-4">Este ejercicio no tiene preguntas configuradas.</p>
+                    <p className="text-slate-600 font-medium mb-2">No hay preguntas en esta actividad.</p>
+                    <p className="text-slate-500 text-sm mb-6">Puedes continuar a la siguiente.</p>
                     <button
                       onClick={() => onComplete({ success: true, score: 100 })}
-                      className="bg-slate-800 text-white px-8 py-3 rounded-xl font-bold"
+                      className="bg-slate-800 text-white px-8 py-3 rounded-2xl font-bold hover:bg-slate-700 transition-colors"
                     >
                       Continuar
                     </button>
@@ -648,6 +650,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
             }
           </div>
         )}
+        </div>
       </div>
     </motion.div>
   );

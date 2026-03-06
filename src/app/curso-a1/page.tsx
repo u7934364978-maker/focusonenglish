@@ -110,14 +110,14 @@ async function A1PreviewContent() {
             {/* Section header */}
             <div className="mb-6">
               <div className="flex items-center gap-2 mb-1">
-                <Target className="w-4 h-4 text-coral-500" />
-                <p className="text-xs font-black tracking-widest text-coral-500 uppercase">Contenido del Curso</p>
+                <Target className="w-4 h-4 text-coral-500" aria-hidden />
+                <p className="text-xs font-bold tracking-wider text-coral-600 uppercase">Contenido del curso</p>
               </div>
               <h2 className="text-2xl font-extrabold tracking-tight text-slate-900">
-                Elige tu unidad
+                Elige por dónde continuar
               </h2>
-              <p className="text-sm font-medium text-slate-500 mt-1">
-                Cada unidad incluye vocabulario, gramática, ejercicios y audio nativo.
+              <p className="text-sm font-medium text-slate-600 mt-1 leading-relaxed">
+                Cada unidad incluye vocabulario, gramática, actividades prácticas y audio con pronunciación nativa.
               </p>
             </div>
 
@@ -129,8 +129,8 @@ async function A1PreviewContent() {
             <div className="sticky top-6 bg-white rounded-2xl border border-slate-100 shadow-sm overflow-hidden">
               {/* Sidebar header */}
               <div className="px-5 pt-5 pb-4 border-b border-slate-100">
-                <p className="text-xs font-black tracking-widest text-slate-400 uppercase mb-1">Tu avance</p>
-                <h3 className="text-base font-extrabold text-slate-900 tracking-tight">Mi Progreso</h3>
+                <p className="text-xs font-bold tracking-wider text-slate-500 uppercase mb-1">Tu avance</p>
+                <h3 className="text-base font-extrabold text-slate-900 tracking-tight">Progreso del curso</h3>
               </div>
               <div className="p-5">
                 <A1ProgressSidebar units={courseMetadata.units} />
@@ -148,7 +148,7 @@ function LoadingState() {
     <div className="min-h-screen flex items-center justify-center bg-[#FEF9F5]">
       <div className="text-center">
         <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-coral-500 mx-auto mb-4" />
-        <p className="text-sm font-bold text-slate-500 uppercase tracking-widest">Cargando curso…</p>
+        <p className="text-sm font-semibold text-slate-500">Preparando el curso…</p>
       </div>
     </div>
   );

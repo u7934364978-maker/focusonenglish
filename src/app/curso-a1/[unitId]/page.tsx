@@ -7,6 +7,11 @@ import RepairModeBanner from '@/components/course/RepairModeBanner';
 import StreakBurst from '@/components/gamification/StreakBurst';
 import { useGamification } from '@/lib/hooks/use-gamification';
 import { X, Heart, Zap, Trophy, Flame, ChevronLeft, ChevronRight, CheckCircle, XCircle, Target } from 'lucide-react';
+
+// Copy de alta calidad: tono profesional, claro y alentador
+const FEEDBACK_CORRECT_HEADLINES = ['¡Correcto!', '¡Muy bien!', '¡Perfecto!', '¡Excelente!', '¡Lo tienes!'];
+const FEEDBACK_INCORRECT_HEADLINES = ['Casi lo tienes', 'Otra oportunidad', 'Sigue intentando', 'Repasa y vuelve'];
+const FEEDBACK_INCORRECT_SUBTEXTS = ['Cada intento te acerca más. Sigue practicando.', 'Repasa el contenido y vuelve a intentarlo.', 'La constancia es la clave del progreso.'];
 import Link from 'next/link';
 
 const CHUNK_SIZE = 15;
@@ -119,6 +124,26 @@ function UnitPreviewContent() {
   const [showLessonComplete, setShowLessonComplete] = useState(false);
 
   const advanceTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const touchStartX = useRef<number>(0);
+
+  // Atajos de teclado: flecha izq/der para anterior/siguiente ejercicio
+  useEffect(() => {
+    if (exercises.length === 0 || showUnitSummary || showLessonComplete) return;
+    const onKeyDown = (e: KeyboardEvent) => {
+      const target = e.target as HTMLElement;
+      if (target.closest('input, textarea, [contenteditable="true"]')) return;
+      if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        setCurrentIndex((prev) => Math.max(0, prev - 1));
+      }
+      if (e.key === 'ArrowRight') {
+        e.preventDefault();
+        setCurrentIndex((prev) => Math.min(exercises.length - 1, prev + 1));
+      }
+    };
+    window.addEventListener('keydown', onKeyDown);
+    return () => window.removeEventListener('keydown', onKeyDown);
+  }, [exercises.length, showUnitSummary, showLessonComplete]);
 
   useEffect(() => {
     if (!unitId) return;
@@ -215,9 +240,10 @@ function UnitPreviewContent() {
   // ── LOADING ────────────────────────────────────────────────────────
   if (!unitId || loading) return (
     <div className="min-h-screen flex items-center justify-center bg-[#FEF9F5]">
-      <div className="text-center space-y-4">
+      <div className="text-center space-y-5">
         <div className="w-14 h-14 rounded-full border-4 border-[#FF6B6B] border-t-transparent animate-spin mx-auto" />
-        <p className="text-xs font-black tracking-widest text-slate-400 uppercase">Cargando unidad…</p>
+        <p className="text-sm font-semibold text-slate-500">Preparando tu lección</p>
+        <p className="text-xs text-slate-400 max-w-xs mx-auto">Cargando actividades y contenido de la unidad…</p>
       </div>
     </div>
   );
@@ -225,21 +251,28 @@ function UnitPreviewContent() {
   // ── ERROR ──────────────────────────────────────────────────────────
   if (error) return (
     <div className="min-h-screen flex items-center justify-center bg-[#FEF9F5] p-4">
-      <div className="max-w-sm w-full bg-white rounded-3xl shadow-xl p-10 text-center">
-        <p className="text-5xl mb-5">😕</p>
-        <p className="text-xs font-black tracking-widest text-slate-400 uppercase mb-2">Error al cargar</p>
-        <h2 className="text-2xl font-extrabold tracking-tight text-slate-900 mb-3">Algo salió mal</h2>
-        <p className="text-sm font-medium text-slate-500 mb-8 leading-relaxed">{error}</p>
-        <Link href="/curso-a1" className="block w-full bg-slate-900 text-white py-4 rounded-2xl font-black text-sm text-center uppercase tracking-wider">
-          Volver al Curso
+      <div className="max-w-md w-full bg-white rounded-3xl shadow-xl p-10 text-center">
+        <p className="text-5xl mb-5" aria-hidden>😕</p>
+        <p className="text-xs font-bold tracking-wider text-slate-500 uppercase mb-2">No se pudo cargar</p>
+        <h2 className="text-2xl font-extrabold tracking-tight text-slate-900 mb-2">No hemos podido cargar esta lección</h2>
+        <p className="text-sm font-medium text-slate-500 mb-6 leading-relaxed">Revisa tu conexión o inténtalo de nuevo en unos segundos.</p>
+        <p className="text-xs text-slate-400 mb-8 font-mono truncate" title={error}>{error}</p>
+        <Link href="/curso-a1" className="block w-full bg-slate-900 text-white py-4 rounded-2xl font-bold text-sm text-center shadow-lg hover:bg-slate-800 transition-colors">
+          Volver al curso A1
         </Link>
       </div>
     </div>
   );
 
   if (exercises.length === 0) return (
-    <div className="min-h-screen flex items-center justify-center bg-[#FEF9F5]">
-      <p className="text-sm font-bold text-slate-400 uppercase tracking-widest">No hay ejercicios disponibles.</p>
+    <div className="min-h-screen flex items-center justify-center bg-[#FEF9F5] p-4">
+      <div className="text-center max-w-sm">
+        <p className="text-sm font-semibold text-slate-600 mb-1">Esta unidad no tiene actividades todavía</p>
+        <p className="text-xs text-slate-500 mb-6">Vuelve más tarde o elige otra unidad.</p>
+        <Link href="/curso-a1" className="inline-block bg-slate-900 text-white px-6 py-3 rounded-2xl font-bold text-sm hover:bg-slate-800 transition-colors">
+          Ver todas las unidades
+        </Link>
+      </div>
     </div>
   );
 
@@ -252,7 +285,7 @@ function UnitPreviewContent() {
   const isRepairMode = failCount >= 2 && failedIndexes.length > 0;
   const repairRemaining = failedIndexes.filter(i => i >= currentIndex).length;
   const displayXp = xp + sessionScore;
-  const showDots = exercisesInThisLesson <= MAX_DOTS;
+  const showDots = exercises.length <= MAX_DOTS;
   const isOnStreak = consecutiveCorrect >= 3;
   const currentExercise = exercises[currentIndex];
   const exerciseTypeCfg = currentExercise ? getExerciseType(currentExercise.type ?? 'default') : EXERCISE_TYPES['default'];
@@ -278,20 +311,20 @@ function UnitPreviewContent() {
           </div>
 
           <div>
-            <p className="text-xs font-black tracking-widest text-white/60 uppercase mb-2">
+            <p className="text-xs font-bold tracking-wider text-white/70 uppercase mb-2">
               {unitTitle || `Unidad ${unitNumber}`}
             </p>
-            <h1 className="text-5xl font-black tracking-tighter text-white leading-none drop-shadow mb-2">
-              ¡Increíble!
+            <h1 className="text-4xl md:text-5xl font-black tracking-tight text-white leading-tight drop-shadow mb-2">
+              Unidad completada
             </h1>
-            <p className="text-base font-medium text-white/80">Unidad {unitNumber} completada</p>
+            <p className="text-base font-medium text-white/85">Has terminado todas las actividades de esta unidad.</p>
           </div>
 
           <div className="grid grid-cols-3 gap-3">
             {[
-              { label: 'Ejercicios', value: exercises.length, emoji: '✅' },
-              { label: 'Tiempo',     value: `${mins}m`,       emoji: '⏱️' },
-              { label: 'Precisión',  value: `${accuracy}%`,   emoji: '🎯' },
+              { label: 'Actividades', value: exercises.length, emoji: '✅' },
+              { label: 'Tiempo',      value: `${mins} min`,   emoji: '⏱️' },
+              { label: 'Aciertos',    value: `${accuracy}%`,  emoji: '🎯' },
             ].map(stat => (
               <div key={stat.label} className="bg-white/20 backdrop-blur rounded-2xl p-4 border border-white/20">
                 <p className="font-display text-xl font-extrabold text-white leading-none mb-1">{stat.emoji} {stat.value}</p>
@@ -301,16 +334,16 @@ function UnitPreviewContent() {
           </div>
 
           <div className="bg-white/20 backdrop-blur rounded-2xl p-4 border border-white/20 flex items-center justify-center gap-2">
-            <Zap className="w-5 h-5 text-yellow-300 fill-yellow-300" />
-            <p className="text-xs font-black tracking-widest text-white/70 uppercase mr-1">XP Total</p>
-            <span className="font-display text-xl font-extrabold text-white">{displayXp}</span>
+            <Zap className="w-5 h-5 text-yellow-300 fill-yellow-300" aria-hidden />
+            <p className="text-xs font-bold text-white/80">Puntos de esta sesión</p>
+            <span className="font-display text-xl font-extrabold text-white">{displayXp} XP</span>
           </div>
 
           <Link
             href="/curso-a1"
-            className="block w-full bg-white text-[#FF6B6B] py-5 rounded-2xl font-black text-base uppercase tracking-wider shadow-xl hover:-translate-y-0.5 transition-all"
+            className="block w-full bg-white text-[#FF6B6B] py-5 rounded-2xl font-bold text-base shadow-xl hover:-translate-y-0.5 transition-all text-center"
           >
-            Siguiente unidad →
+            Continuar al curso
           </Link>
         </div>
       </div>
@@ -329,22 +362,22 @@ function UnitPreviewContent() {
             <Flame className="w-12 h-12 text-white" />
           </div>
           <div>
-            <p className="text-xs font-black tracking-widest text-slate-500 uppercase mb-2">Lección {lessonNumber} de {totalLessons}</p>
-            <h2 className="text-4xl font-black tracking-tight text-white leading-tight">¡Checkpoint!</h2>
-            <p className="text-sm font-medium text-slate-400 mt-2">Llevas una buena racha. ¡Sigue!</p>
+            <p className="text-xs font-bold tracking-wider text-slate-500 uppercase mb-2">Bloque {lessonNumber} de {totalLessons}</p>
+            <h2 className="text-3xl md:text-4xl font-black tracking-tight text-white leading-tight">Pausa de progreso</h2>
+            <p className="text-sm font-medium text-slate-400 mt-2">Llevas un buen ritmo. Tómate un respiro y continúa cuando quieras.</p>
           </div>
           <div className="bg-white/5 border border-white/10 rounded-2xl p-5 flex items-center justify-center gap-3">
-            <Zap className="w-5 h-5 text-yellow-400 fill-yellow-400 flex-shrink-0" />
+            <Zap className="w-5 h-5 text-yellow-400 fill-yellow-400 flex-shrink-0" aria-hidden />
             <div className="text-left">
-              <p className="text-xs font-bold text-slate-500 uppercase tracking-widest">Esta sesión</p>
-              <p className="text-xl font-black text-white">+{sessionScore} XP</p>
+              <p className="text-xs font-bold text-slate-500">Puntos de esta sesión</p>
+              <p className="text-xl font-extrabold text-white">+{sessionScore} XP</p>
             </div>
           </div>
           <button
             onClick={() => { setCurrentIndex(prev => prev + 1); setShowLessonComplete(false); setFeedback('idle'); }}
-            className="w-full bg-gradient-to-r from-[#FF6B6B] to-[#FF8E53] text-white py-5 rounded-2xl font-black text-base uppercase tracking-wider shadow-xl shadow-orange-500/30 hover:-translate-y-0.5 transition-all"
+            className="w-full bg-gradient-to-r from-[#FF6B6B] to-[#FF8E53] text-white py-5 rounded-2xl font-bold text-base shadow-xl shadow-orange-500/30 hover:-translate-y-0.5 transition-all"
           >
-            Continuar →
+            Continuar con las actividades
           </button>
         </div>
       </div>
@@ -383,12 +416,13 @@ function UnitPreviewContent() {
           </Link>
 
           <div className="flex-1 min-w-0">
-            <p className="text-[10px] font-black tracking-widest text-slate-400 uppercase truncate leading-none mb-1.5">
-              {unitTitle ? `U${unitNumber} · ${unitTitle}` : `Unidad ${unitNumber}`}
-              {' · '}Lección {lessonNumber}/{totalLessons}
+            <p className="text-[11px] font-semibold text-slate-500 truncate leading-none mb-1.5">
+              {unitTitle ? `${unitTitle}` : `Unidad ${unitNumber}`}
+              {totalLessons > 1 ? ` · Bloque ${lessonNumber}/${totalLessons}` : ''}
+              {' · '}Actividad {currentIndex + 1} de {exercises.length}
             </p>
 
-            <div className="relative h-2.5 bg-slate-100 rounded-full overflow-hidden">
+            <div className="relative h-2.5 bg-slate-100 rounded-full overflow-hidden" role="progressbar" aria-valuenow={currentIndex + 1} aria-valuemin={1} aria-valuemax={exercises.length} aria-label={`Actividad ${currentIndex + 1} de ${exercises.length}`}>
               <div
                 className={`h-full rounded-full transition-all duration-700 ease-out relative overflow-hidden ${
                   isRepairMode
@@ -397,21 +431,21 @@ function UnitPreviewContent() {
                     ? 'bg-gradient-to-r from-amber-400 to-orange-500'
                     : 'bg-gradient-to-r from-[#FF6B6B] to-[#FF8E53]'
                 }`}
-                style={{ width: `${Math.max(progressPct, 4)}%` }}
+                style={{ width: `${Math.max(((currentIndex + 1) / exercises.length) * 100, 4)}%` }}
               >
                 <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent animate-[shimmer_2s_ease-in-out_infinite]" />
               </div>
             </div>
 
             {showDots && (
-              <div className="flex gap-1 mt-1.5">
-                {Array.from({ length: exercisesInThisLesson }).map((_, i) => (
+              <div className="flex gap-1 mt-1.5" aria-hidden>
+                {Array.from({ length: exercises.length }).map((_, i) => (
                   <div
                     key={i}
                     className={`h-1 flex-1 rounded-full transition-all duration-300 ${
-                      i < exerciseInLesson - 1
+                      i < currentIndex
                         ? isOnStreak ? 'bg-amber-400' : 'bg-[#FF6B6B]'
-                        : i === exerciseInLesson - 1
+                        : i === currentIndex
                         ? isOnStreak ? 'bg-amber-400/50' : 'bg-[#FF6B6B]/50'
                         : 'bg-slate-200'
                     }`}
@@ -447,16 +481,16 @@ function UnitPreviewContent() {
               <button
                 onClick={() => setCurrentIndex(prev => Math.max(0, prev - 1))}
                 disabled={currentIndex === 0}
-                className="p-1.5 rounded-lg text-slate-400 hover:text-slate-700 hover:bg-slate-100 transition-all disabled:opacity-20 disabled:cursor-not-allowed"
-                aria-label="Ejercicio anterior"
+                className="p-1.5 rounded-lg text-slate-400 hover:text-slate-700 hover:bg-slate-100 transition-all disabled:opacity-20 disabled:cursor-not-allowed focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B6B] focus-visible:ring-offset-2"
+                aria-label="Actividad anterior"
               >
                 <ChevronLeft className="w-4 h-4" />
               </button>
               <button
                 onClick={() => setCurrentIndex(prev => Math.min(exercises.length - 1, prev + 1))}
                 disabled={currentIndex === exercises.length - 1}
-                className="p-1.5 rounded-lg text-slate-400 hover:text-slate-700 hover:bg-slate-100 transition-all disabled:opacity-20 disabled:cursor-not-allowed"
-                aria-label="Siguiente ejercicio"
+                className="p-1.5 rounded-lg text-slate-400 hover:text-slate-700 hover:bg-slate-100 transition-all disabled:opacity-20 disabled:cursor-not-allowed focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B6B] focus-visible:ring-offset-2"
+                aria-label="Siguiente actividad"
               >
                 <ChevronRight className="w-4 h-4" />
               </button>
@@ -489,18 +523,27 @@ function UnitPreviewContent() {
             </div>
           )}
 
-          {/* Exercise counter */}
-          <div className="inline-flex items-center gap-1.5 bg-white border border-slate-100 shadow-sm px-3 py-1.5 rounded-full">
-            <Target className="w-3.5 h-3.5 text-coral-500" />
-            <span className="text-xs font-black tracking-widest text-slate-500 uppercase">
-              {exerciseInLesson} / {exercisesInThisLesson}
+          {/* Exercise counter — unified: "X de N" in unit */}
+          <div className="inline-flex items-center gap-1.5 bg-white border border-slate-100 shadow-sm px-3 py-1.5 rounded-full" aria-label={`Actividad ${currentIndex + 1} de ${exercises.length}`}>
+            <Target className="w-3.5 h-3.5 text-[#FF6B6B]" aria-hidden />
+            <span className="text-xs font-bold text-slate-600">
+              {currentIndex + 1} de {exercises.length} actividades
             </span>
           </div>
         </div>
       </div>
 
-      {/* ── MAIN EXERCISE ─────────────────────────────────────────── */}
-      <main className="relative z-10 flex-1 max-w-2xl mx-auto w-full px-4 py-5 pb-52">
+      {/* ── MAIN EXERCISE (gestos: swipe izq/der en móvil) ─────────── */}
+      <main
+        className="relative z-10 flex-1 max-w-2xl mx-auto w-full px-4 py-5 pb-52 touch-pan-y"
+        onTouchStart={(e) => { touchStartX.current = e.touches[0].clientX; }}
+        onTouchEnd={(e) => {
+          const dx = e.changedTouches[0].clientX - touchStartX.current;
+          const minSwipe = 60;
+          if (dx > minSwipe && currentIndex > 0) setCurrentIndex((p) => p - 1);
+          if (dx < -minSwipe && currentIndex < exercises.length - 1) setCurrentIndex((p) => p + 1);
+        }}
+      >
         <div
           key={currentIndex}
           className={`${
@@ -517,59 +560,79 @@ function UnitPreviewContent() {
         </div>
       </main>
 
-      {/* ── FEEDBACK PANEL ────────────────────────────────────────── */}
+      {/* ── FEEDBACK PANEL (mensajes variados, animación, cerrar) ───── */}
       {feedback !== 'idle' && (
-        <div className={`fixed bottom-0 left-0 right-0 z-50 animate-in slide-in-from-bottom-4 duration-250 ${
-          feedback === 'correct'
-            ? 'border-t-4 border-emerald-400 bg-gradient-to-t from-emerald-50 to-white'
-            : 'border-t-4 border-red-400 bg-gradient-to-t from-red-50 to-white'
-        } shadow-2xl`}>
+        <div
+          className={`fixed bottom-0 left-0 right-0 z-50 animate-in slide-in-from-bottom-4 duration-250 ${
+            feedback === 'correct'
+              ? 'border-t-4 border-emerald-400 bg-gradient-to-t from-emerald-50 to-white'
+              : 'border-t-4 border-red-400 bg-gradient-to-t from-red-50 to-white'
+          } shadow-2xl`}
+          role="status"
+          aria-live="polite"
+          aria-label={feedback === 'correct' ? 'Respuesta correcta' : 'Respuesta incorrecta'}
+        >
           <div className="max-w-2xl mx-auto px-5 py-5 flex items-center gap-4">
-
-            {/* Icon */}
-            <div className={`w-14 h-14 rounded-2xl flex items-center justify-center flex-shrink-0 shadow-sm ${
-              feedback === 'correct' ? 'bg-emerald-500' : 'bg-red-500'
-            }`}>
+            {/* Icon con animación sutil */}
+            <div
+              className={`w-14 h-14 rounded-2xl flex items-center justify-center flex-shrink-0 shadow-sm animate-in zoom-in-95 duration-300 ${
+                feedback === 'correct' ? 'bg-emerald-500' : 'bg-red-500'
+              }`}
+            >
               {feedback === 'correct'
-                ? <CheckCircle className="w-7 h-7 text-white" />
-                : <XCircle className="w-7 h-7 text-white" />
+                ? <CheckCircle className="w-7 h-7 text-white" aria-hidden />
+                : <XCircle className="w-7 h-7 text-white" aria-hidden />
               }
             </div>
 
-            {/* Text — bigger hierarchy */}
+            {/* Texto con mensajes variados */}
             <div className="flex-1 min-w-0">
               <p className={`font-black text-lg leading-tight tracking-tight mb-0.5 ${
                 feedback === 'correct' ? 'text-emerald-700' : 'text-red-700'
               }`}>
                 {feedback === 'correct'
-                  ? consecutiveCorrect >= 5 ? '¡Eres una máquina! 🔥' : consecutiveCorrect >= 3 ? '¡En racha! 🔥' : '¡Correcto!'
-                  : 'Casi…'}
+                  ? consecutiveCorrect >= 10
+                    ? '¡Racha imparable!'
+                    : consecutiveCorrect >= 5
+                    ? '¡Excelente racha!'
+                    : consecutiveCorrect >= 3
+                    ? '¡Vas muy bien!'
+                    : FEEDBACK_CORRECT_HEADLINES[currentIndex % FEEDBACK_CORRECT_HEADLINES.length]
+                  : FEEDBACK_INCORRECT_HEADLINES[currentIndex % FEEDBACK_INCORRECT_HEADLINES.length]}
               </p>
               <p className={`text-sm font-medium leading-snug ${
-                feedback === 'correct' ? 'text-emerald-600' : 'text-red-500'
+                feedback === 'correct' ? 'text-emerald-600' : 'text-red-600'
               }`}>
                 {feedback === 'correct'
                   ? consecutiveCorrect >= 3
-                    ? `${consecutiveCorrect} respuestas seguidas correctas`
-                    : 'Sigue así, lo estás haciendo genial'
-                  : 'No te rindas, sigue practicando'}
+                    ? `${consecutiveCorrect} aciertos seguidos. Sigue así.`
+                    : 'Buen trabajo. Continúa con la siguiente.'
+                  : FEEDBACK_INCORRECT_SUBTEXTS[currentIndex % FEEDBACK_INCORRECT_SUBTEXTS.length]}
               </p>
             </div>
 
-            {/* Badge */}
-            <div className="flex-shrink-0">
+            {/* XP o vidas */}
+            <div className="flex items-center gap-2 flex-shrink-0">
               {feedback === 'correct' ? (
                 <div className="bg-emerald-500 text-white rounded-2xl px-4 py-2 text-center shadow-md">
                   <p className="text-xs font-black uppercase tracking-widest text-emerald-100">XP</p>
                   <p className="font-display text-xl font-extrabold leading-none">+{xpGained}</p>
                 </div>
               ) : (
-                <div className="flex gap-0.5">
+                <div className="flex gap-0.5" aria-label={`${lives} vidas restantes`}>
                   {Array.from({ length: 3 }).map((_, i) => (
                     <Heart key={i} className={`w-5 h-5 ${i < lives ? 'fill-red-500 text-red-500' : 'fill-slate-200 text-slate-200'}`} />
                   ))}
                 </div>
               )}
+              <button
+                type="button"
+                onClick={() => setFeedback('idle')}
+                className="p-2 rounded-xl text-slate-400 hover:text-slate-600 hover:bg-slate-100 transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-slate-400 focus-visible:ring-offset-2"
+                aria-label="Cerrar mensaje"
+              >
+                <X className="w-5 h-5" />
+              </button>
             </div>
           </div>
         </div>
