@@ -48,7 +48,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     topic: 'Verb To Be',
     difficulty: 'easy',
     content: {
-      title: 'I am',
+      title: 'Verbo to be',
       instructions: 'Elige la forma correcta del verbo to be (am, are o is) para cada frase.',
       questions: [
         {
@@ -77,7 +77,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     topic: 'Verb To Be',
     difficulty: 'easy',
     content: {
-      title: 'You are',
+      title: 'Verbo to be',
       instructions: 'Elige la forma correcta del verbo to be (am, are o is) para cada frase.',
       questions: [
         {
@@ -106,7 +106,7 @@ export const UNIT_1_EXERCISES: Exercise[] = [
     topic: 'Verb To Be',
     difficulty: 'easy',
     content: {
-      title: 'He / She is',
+      title: 'Verbo to be',
       instructions: '[[Choose|Elige]] [[the|el]] [[correct|correcto]] [[verb|verbo]].',
       questions: [
         {
@@ -140,13 +140,13 @@ export const UNIT_1_EXERCISES: Exercise[] = [
       questions: [
         {
           question: 'Mi "nombre" en inglés es…',
-          options: ['age', 'name', 'city'],
+          options: ['[[age|edad]]', '[[name|nombre]]', '[[city|ciudad]]'],
           correctAnswer: 1,
           explanation: '"[[Name|Nombre]]" [[means|significa]] "nombre".',
         },
         {
           question: '"Tengo 30 años" → I am 30 ____ old.',
-          options: ['year', 'years', 'years old'],
+          options: ['[[year|año]]', '[[years|años]]', '[[years old|años de edad]]'],
           correctAnswer: 2,
           explanation: '[[We|Nosotros]] [[say|decimos]] "[[years old|años de edad]]".',
         },

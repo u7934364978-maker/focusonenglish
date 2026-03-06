@@ -215,6 +215,11 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
     }
   };
 
+  const handleWritingComplete = () => {
+    if (!userAnswer || typeof userAnswer !== 'string' || !userAnswer.trim()) return;
+    onComplete({ success: true, score: 100 });
+  };
+
   const handleNextQuestion = () => {
     if (questions && currentQuestionIdx < questions.length - 1) {
       setCurrentQuestionIdx(prev => prev + 1);
@@ -631,26 +636,50 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
               </button>
             </div>
           ) : (
-          <div>
-            {questions.length > 0
-              ? renderCurrentQuestion(questions[currentQuestionIdx], currentQuestionIdx)
-              : (exerciseContent.question || exerciseContent.text || exerciseContent.prompt)
-                ? renderCurrentQuestion(exerciseContent, 0)
-                : (
-                  <div className="text-center py-10">
-                    <p className="text-slate-600 font-medium mb-2">No hay preguntas en esta actividad.</p>
-                    <p className="text-slate-500 text-sm font-normal mb-6">Puedes continuar a la siguiente.</p>
-                    <button
-                      onClick={() => onComplete({ success: true, score: 100 })}
-                      className="bg-slate-800 text-white px-8 py-3 rounded-2xl font-semibold text-sm hover:bg-slate-700 transition-colors"
-                    >
-                      Continuar
-                    </button>
-                  </div>
-                )
-            }
-          </div>
-        )}
+            <div>
+              {questions.length > 0
+                ? renderCurrentQuestion(questions[currentQuestionIdx], currentQuestionIdx)
+                : exercise.type === 'writing'
+                  ? (
+                    <div className="space-y-4">
+                      <p className="text-sm font-medium text-slate-600">
+                        Escribe tu respuesta en inglés siguiendo el modelo, pero hablando de ti.
+                      </p>
+                      <textarea
+                        value={typeof userAnswer === 'string' ? userAnswer : ''}
+                        onChange={(e) => setUserAnswer(e.target.value)}
+                        rows={5}
+                        className="w-full rounded-2xl border border-slate-300 bg-white px-4 py-3 text-sm md:text-base text-slate-800 leading-relaxed focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B6B] focus-visible:ring-offset-1"
+                        placeholder="Escribe aquí tu pequeña presentación (4–5 frases)…"
+                      />
+                      <div className="flex items-center justify-between text-xs text-slate-500">
+                        <span>Procura escribir al menos 4 frases completas.</span>
+                      </div>
+                      <button
+                        type="button"
+                        onClick={handleWritingComplete}
+                        disabled={!userAnswer || typeof userAnswer !== 'string' || !userAnswer.trim()}
+                        className="w-full bg-slate-900 text-white py-3 rounded-2xl text-sm font-semibold hover:bg-slate-800 transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
+                      >
+                        Marcar actividad como completada
+                      </button>
+                    </div>
+                  )
+                  : (
+                    <div className="text-center py-10">
+                      <p className="text-slate-600 font-medium mb-2">No hay preguntas en esta actividad.</p>
+                      <p className="text-slate-500 text-sm font-normal mb-6">Puedes continuar a la siguiente.</p>
+                      <button
+                        onClick={() => onComplete({ success: true, score: 100 })}
+                        className="bg-slate-800 text-white px-8 py-3 rounded-2xl font-semibold text-sm hover:bg-slate-700 transition-colors"
+                      >
+                        Continuar
+                      </button>
+                    </div>
+                  )
+              }
+            </div>
+          )}
         </div>
       </div>
     </motion.div>
