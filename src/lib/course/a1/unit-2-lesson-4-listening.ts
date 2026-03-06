@@ -27,7 +27,7 @@ export const UNIT_2_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '¿Cómo se llama la narradora?',
+          question: 'What is the narrator\'s name?',
           options: ['[[Maria|María]]', '[[Anna|Ana]]', '[[Luca|Luca]]', '[[Sofia|Sofía]]'],
           correctAnswer: 1,
           explanation: '[[She|Ella]] [[says|dice]]: "[[My name is Anna|Mi nombre es Ana]]".',
@@ -49,7 +49,7 @@ export const UNIT_2_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '¿De dónde es Ana?',
+          question: 'Where is Anna from?',
           options: ['[[Spain|España]]', '[[France|Francia]]', '[[Germany|Alemania]]', '[[Italy|Italia]]'],
           correctAnswer: 2,
           explanation: '[[She|Ella]] [[says|dice]] "[[I am from Germany|Soy de Alemania]]".',
@@ -71,7 +71,7 @@ export const UNIT_2_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '¿Cuál es la nacionalidad de Ana?',
+          question: 'What is Anna\'s nationality?',
           options: ['[[Spanish|Española]]', '[[Italian|Italiana]]', '[[French|Francesa]]', '[[German|Alemana]]'],
           correctAnswer: 3,
           explanation: '[[She|Ella]] [[says|dice]] "[[I am German|Soy alemana]]".',
@@ -93,7 +93,7 @@ export const UNIT_2_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '¿De dónde es Luca?',
+          question: 'Where is Luca from?',
           options: ['[[Germany|Alemania]]', '[[Spain|España]]', '[[Italy|Italia]]', '[[France|Francia]]'],
           correctAnswer: 2,
           explanation: '[[The|La]] [[transcript|transcripción]] [[says|dice]] "[[Luca is from Italy|Luca es de Italia]]".',
@@ -115,7 +115,7 @@ export const UNIT_2_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '¿Cuál es la nacionalidad de María?',
+          question: 'What is Maria\'s nationality?',
           options: ['[[Italian|Italiana]]', '[[German|Alemana]]', '[[French|Francesa]]', '[[Spanish|Española]]'],
           correctAnswer: 3,
           explanation: '[[The|La]] [[transcript|transcripción]] [[says|dice]] "[[She is Spanish|Ella es española]]".',
@@ -137,7 +137,7 @@ export const UNIT_2_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '¿Cuántos años tiene Luca?',
+          question: 'How old is Luca?',
           options: ['[[nineteen|diecinueve]]', '[[twenty|veinte]]', '[[twenty-one|veintiuno]]', '[[twenty-two|veintidós]]'],
           correctAnswer: 2,
           explanation: '[[The|La]] [[transcript|transcripción]] [[says|dice]] "[[Luca is twenty-one years old|Luca tiene veintiún años]]".',
@@ -159,7 +159,7 @@ export const UNIT_2_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '¿Cuántos años tiene Ana?',
+          question: 'How old is Anna?',
           options: ['[[eighteen|dieciocho]]', '[[nineteen|diecinueve]]', '[[twenty|veinte]]', '[[twenty-one|veintiuno]]'],
           correctAnswer: 2,
           explanation: '[[She|Ella]] [[says|dice]] "[[I am twenty years old|Tengo veinte años]]".',
@@ -181,7 +181,7 @@ export const UNIT_2_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '¿Cuál es la ocupación de los tres amigos?',
+          question: 'What is the occupation of the three friends?',
           options: ['[[teachers|profesores]]', '[[doctors|médicos]]', '[[students|estudiantes]]', '[[nurses|enfermeros]]'],
           correctAnswer: 2,
           explanation: '[[The|La]] [[transcript|transcripción]] [[says|dice]] "[[We are students|Somos estudiantes]]".',
@@ -205,7 +205,7 @@ export const UNIT_2_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_TF,
       questions: [
         {
-          question: 'Ana es de Italia.',
+          question: 'Anna is from Italy.',
           options: ['[[True|Verdadero]]', '[[False|Falso]]'],
           correctAnswer: 'False',
           explanation: '[[False|Falso]]. [[Anna|Ana]] [[is|es]] [[from|de]] [[Germany|Alemania]], [[not|no]] [[Italy|Italia]].',
@@ -227,7 +227,7 @@ export const UNIT_2_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_TF,
       questions: [
         {
-          question: 'Luca es italiano.',
+          question: 'Luca is Italian.',
           options: ['[[True|Verdadero]]', '[[False|Falso]]'],
           correctAnswer: 'True',
           explanation: '[[True|Verdadero]]. [[The|La]] [[transcript|transcripción]] [[says|dice]] "[[He is Italian|Él es italiano]]".',
@@ -249,7 +249,7 @@ export const UNIT_2_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_TF,
       questions: [
         {
-          question: 'María tiene diecinueve años.',
+          question: 'Maria is nineteen years old.',
           options: ['[[True|Verdadero]]', '[[False|Falso]]'],
           correctAnswer: 'True',
           explanation: '[[True|Verdadero]]. [[The|La]] [[transcript|transcripción]] [[says|dice]] "[[Maria is nineteen years old|María tiene diecinueve años]]".',
@@ -271,7 +271,7 @@ export const UNIT_2_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_TF,
       questions: [
         {
-          question: 'Ana menciona tres amigos en el audio.',
+          question: 'Anna mentions three friends in the audio.',
           options: ['[[True|Verdadero]]', '[[False|Falso]]'],
           correctAnswer: 'False',
           explanation: '[[False|Falso]]. [[Anna|Ana]] [[mentions|menciona]] [[two|dos]] [[friends|amigos]]: [[Luca|Luca]] [[and|y]] [[Maria|María]].',
@@ -295,8 +295,8 @@ export const UNIT_2_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '¿Cuál es el tema principal del audio?',
-          options: ['Un viaje por el mundo', 'Tres amigos de diferentes países', 'Una escuela de idiomas', 'La vida en Alemania'],
+          question: 'What is the main topic of the audio?',
+          options: ['A trip around the world', 'Three friends from different countries', 'A language school', 'Life in Germany'],
           correctAnswer: 1,
           explanation: '[[The|El]] [[audio|audio]] [[presents|presenta]] [[three|tres]] [[friends|amigos]] [[from|de]] [[Germany|Alemania]], [[Italy|Italia]] [[and|y]] [[Spain|España]].',
         },
@@ -317,8 +317,8 @@ export const UNIT_2_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '¿Qué tienen en común los tres amigos?',
-          options: ['Son del mismo país', 'Son profesores', 'Son estudiantes', 'Son de Alemania'],
+          question: 'What do the three friends have in common?',
+          options: ['They are from the same country', 'They are teachers', 'They are students', 'They are from Germany'],
           correctAnswer: 2,
           explanation: '[[The|La]] [[transcript|transcripción]] [[says|dice]] "[[We are students|Somos estudiantes]]" — [[all|los]] [[three|tres]] [[share|comparten]] [[that|eso]].',
         },
@@ -339,7 +339,7 @@ export const UNIT_2_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '¿De cuántos países distintos habla Ana en el audio?',
+          question: 'How many different countries does Anna mention in the audio?',
           options: ['[[one|uno]]', '[[two|dos]]', '[[three|tres]]', '[[four|cuatro]]'],
           correctAnswer: 2,
           explanation: '[[Ana|Ana]] [[mentions|menciona]] [[Germany|Alemania]], [[Italy|Italia]] [[and|y]] [[Spain|España]] — [[three|tres]] [[countries|países]].',
