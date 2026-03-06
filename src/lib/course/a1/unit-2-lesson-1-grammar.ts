@@ -127,11 +127,11 @@ export const UNIT_2_LESSON_1_GRAMMAR: Exercise[] = [
       instructions: INSTRUCTIONS_MULTIPLE,
       questions: [
         {
-          question: '¿Cuál frase es correcta?',
+          question: '¿Cuál frase es la correcta?',
           options: [
-            '[[He|Él]] [[are|son]] [[a|un]] [[doctor|médico]].',
-            '[[He|Él]] [[is|es]] [[a|un]] [[doctor|médico]].',
-            '[[He|Él]] [[am|soy]] [[a|un]] [[doctor|médico]].',
+            '[[He|Él]] [[are|son]] a [[doctor|médico]].',
+            '[[He|Él]] [[is|es]] a [[doctor|médico]].',
+            '[[He|Él]] [[am|soy]] a [[doctor|médico]].',
           ],
           correctAnswer: 1,
           explanation: '[[He|Él]] + [[is|es]] = [[forma correcta|forma correcta]]. [[He|Él]] → [[is|es/está]].',
@@ -171,7 +171,7 @@ export const UNIT_2_LESSON_1_GRAMMAR: Exercise[] = [
       instructions: INSTRUCTIONS_MULTIPLE,
       questions: [
         {
-          question: '¿Cuál es correcta?',
+          question: '¿Cuál frase es la correcta?',
           options: [
             '[[They|Ellos]] [[is|es]] [[students|estudiantes]].',
             '[[They|Ellos]] [[am|soy]] [[students|estudiantes]].',
@@ -215,11 +215,11 @@ export const UNIT_2_LESSON_1_GRAMMAR: Exercise[] = [
       instructions: INSTRUCTIONS_MULTIPLE,
       questions: [
         {
-          question: '¿Cuál frase es correcta?',
+          question: '¿Cuál frase es la correcta?',
           options: [
-            '[[It|Eso]] [[are|son]] [[a|un]] [[cat|gato]].',
-            '[[It|Eso]] [[is|es]] [[a|un]] [[cat|gato]].',
-            '[[It|Eso]] [[am|soy]] [[a|un]] [[cat|gato]].',
+            '[[It|Eso]] [[are|son]] a [[cat|gato]].',
+            '[[It|Eso]] [[is|es]] a [[cat|gato]].',
+            '[[It|Eso]] [[am|soy]] a [[cat|gato]].',
           ],
           correctAnswer: 1,
           explanation: '[[It|Eso/Él/Ella]] → [[is|es/está]]. [[It is|Es]] [[the|la]] [[correct|forma correcta]] [[for|para]] [[things|cosas]] [[and|y]] [[animals|animales]].',
