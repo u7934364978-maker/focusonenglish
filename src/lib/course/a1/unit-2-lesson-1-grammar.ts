@@ -127,7 +127,7 @@ export const UNIT_2_LESSON_1_GRAMMAR: Exercise[] = [
       instructions: INSTRUCTIONS_MULTIPLE,
       questions: [
         {
-          question: '[[Which|Cuál]] [[sentence|frase]] [[is|es]] [[correct|correcta]]?',
+          question: '¿Cuál frase es correcta?',
           options: [
             '[[He|Él]] [[are|son]] [[a|un]] [[doctor|médico]].',
             '[[He|Él]] [[is|es]] [[a|un]] [[doctor|médico]].',
@@ -151,7 +151,7 @@ export const UNIT_2_LESSON_1_GRAMMAR: Exercise[] = [
       instructions: INSTRUCTIONS_MULTIPLE,
       questions: [
         {
-          question: '[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]] [[of|del]] "[[to be|ser/estar]]" [[for|para]] "[[She|Ella]]":',
+          question: 'Elige la forma correcta de "to be" para "She":',
           options: ['[[am|soy]]', '[[are|eres/somos]]', '[[is|es/está]]'],
           correctAnswer: 2,
           explanation: '[[She|Ella]] → [[is|es/está]]. [[She is|Ella es]] [[the|la]] [[correct|forma correcta]].',
@@ -171,7 +171,7 @@ export const UNIT_2_LESSON_1_GRAMMAR: Exercise[] = [
       instructions: INSTRUCTIONS_MULTIPLE,
       questions: [
         {
-          question: '[[Which|Cuál]] [[is|es]] [[correct|correcta]]?',
+          question: '¿Cuál es correcta?',
           options: [
             '[[They|Ellos]] [[is|es]] [[students|estudiantes]].',
             '[[They|Ellos]] [[am|soy]] [[students|estudiantes]].',
@@ -195,7 +195,7 @@ export const UNIT_2_LESSON_1_GRAMMAR: Exercise[] = [
       instructions: INSTRUCTIONS_MULTIPLE,
       questions: [
         {
-          question: '[[Complete|Completa]]: "[[We|Nosotros]] ____ [[happy|felices]]."',
+          question: 'Completa: "We ____ happy."',
           options: ['[[is|es]]', '[[are|somos]]', '[[am|soy]]'],
           correctAnswer: 1,
           explanation: '[[We|Nosotros]] [[are|somos]] [[happy|felices]]. [[We|Nosotros]] → [[are|somos/estamos]].',
@@ -215,7 +215,7 @@ export const UNIT_2_LESSON_1_GRAMMAR: Exercise[] = [
       instructions: INSTRUCTIONS_MULTIPLE,
       questions: [
         {
-          question: '[[Which|Cuál]] [[sentence|frase]] [[is|es]] [[correct|correcta]]?',
+          question: '¿Cuál frase es correcta?',
           options: [
             '[[It|Eso]] [[are|son]] [[a|un]] [[cat|gato]].',
             '[[It|Eso]] [[is|es]] [[a|un]] [[cat|gato]].',
@@ -285,7 +285,7 @@ export const UNIT_2_LESSON_1_GRAMMAR: Exercise[] = [
       instructions: INSTRUCTIONS_TF,
       questions: [
         {
-          question: '"[[She|Ella]] [[are|son]] [[a|una]] [[nurse|enfermera]]" [[is|es]] [[a|una]] [[correct|correcta]] [[sentence|frase]] [[in|en]] [[English|inglés]].',
+          question: '"She are a nurse" es una frase correcta en inglés.',
           options: ['[[True|Verdadero]]', '[[False|Falso]]'],
           correctAnswer: 'False',
           explanation: '[[False|Falso]]. [[With|Con]] "[[She|Ella]]" [[we|nosotros]] [[use|usamos]] "[[is|es]]", [[not|no]] "[[are|son]]". [[Correct|Correcto]]: "[[She is|Ella es]] [[a|una]] [[nurse|enfermera]]".',
@@ -305,7 +305,7 @@ export const UNIT_2_LESSON_1_GRAMMAR: Exercise[] = [
       instructions: INSTRUCTIONS_TF,
       questions: [
         {
-          question: '"[[They|Ellos]] [[are|son]] [[from|de]] [[Spain|España]]" [[is|es]] [[correct|correcta]] [[in|en]] [[English|inglés]].',
+          question: '"They are from Spain" es correcta en inglés.',
           options: ['[[True|Verdadero]]', '[[False|Falso]]'],
           correctAnswer: 'True',
           explanation: '[[True|Verdadero]]. [[They|Ellos]] + [[are|son]] + [[from|de]] + [[place|lugar]] [[is|es]] [[correct|correcto]].',

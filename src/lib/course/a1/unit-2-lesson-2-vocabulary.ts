@@ -24,7 +24,7 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_MC,
       questions: [
         {
-          question: '[[What|Cuál]] [[is|es]] [[the|la]] [[nationality|nacionalidad]] [[of|de]] [[someone|alguien]] [[from|de]] [[Spain|España]]?',
+          question: '¿Cuál es la nacionalidad de alguien de España?',
           options: ['[[French|Francés]]', '[[Italian|Italiano]]', '[[Spanish|Español]]', '[[German|Alemán]]'],
           correctAnswer: 2,
           explanation: '[[Spain|España]] → [[Spanish|Español/a]].',
@@ -44,7 +44,7 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_MC,
       questions: [
         {
-          question: '[[She|Ella]] [[is|es]] [[from|de]] [[France|Francia]]. [[She|Ella]] [[is|es]] ____.',
+          question: 'She is from France. She is ____.',
           options: ['[[German|Alemana]]', '[[French|Francesa]]', '[[British|Británica]]', '[[Chinese|China]]'],
           correctAnswer: 1,
           explanation: '[[France|Francia]] → [[French|Francés/Francesa]].',
@@ -64,7 +64,7 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_MC,
       questions: [
         {
-          question: '[[Which|Cuál]] [[country|país]] [[does|corresponde]] [[the|a la]] [[nationality|nacionalidad]] "[[Japanese|Japonés]]" [[come|pertenecer]] [[from|de]]?',
+          question: '¿A qué país corresponde la nacionalidad "Japanese"?',
           options: ['[[China|China]]', '[[Mexico|México]]', '[[Brazil|Brasil]]', '[[Japan|Japón]]'],
           correctAnswer: 3,
           explanation: '[[Japanese|Japonés/Japonesa]] → [[Japan|Japón]].',
@@ -104,7 +104,7 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_MC,
       questions: [
         {
-          question: '[[He|Él]] [[is|es]] [[from|de]] [[Italy|Italia]]. [[What|Cuál]] [[is|es]] [[his|su]] [[nationality|nacionalidad]]?',
+          question: 'Él es de Italia. ¿Cuál es su nacionalidad?',
           options: ['[[Spanish|Español]]', '[[Italian|Italiano]]', '[[American|Americano]]', '[[Mexican|Mexicano]]'],
           correctAnswer: 1,
           explanation: '[[Italy|Italia]] → [[Italian|Italiano/Italiana]].',
@@ -124,7 +124,7 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_MC,
       questions: [
         {
-          question: '[[There|Hay]] [[are|son]] ____ [[students|estudiantes]] [[in|en]] [[the|la]] [[class|clase]]: [[Ana|Ana]], [[Luis|Luis]], [[Tom|Tom]], [[Mei|Mei]] [[and|y]] [[Sara|Sara]].',
+          question: 'Hay ____ estudiantes en la clase: Ana, Luis, Tom, Mei y Sara.',
           options: ['[[three|tres]]', '[[four|cuatro]]', '[[five|cinco]]', '[[six|seis]]'],
           correctAnswer: 2,
           explanation: '[[Ana|Ana]], [[Luis|Luis]], [[Tom|Tom]], [[Mei|Mei]] [[and|y]] [[Sara|Sara]] = [[five|cinco]] [[students|estudiantes]].',
@@ -224,7 +224,7 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_FILL,
       questions: [
         {
-          question: '[[She|Ella]] [[is|es]] [[from|de]] [[Germany|Alemania]]. [[She|Ella]] [[is|es]] ____.',
+          question: 'She is from Germany. She is ____.',
           options: ['[[German|Alemana]]', '[[French|Francesa]]', '[[Italian|Italiana]]'],
           correctAnswer: '[[German|Alemana]]',
           explanation: '[[Germany|Alemania]] → [[German|Alemán/Alemana]].',
@@ -244,7 +244,7 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_FILL,
       questions: [
         {
-          question: '[[Pedro|Pedro]] [[is|es]] [[Brazilian|Brasileño]]. [[He|Él]] [[is|es]] [[from|de]] ____.',
+          question: 'Pedro is Brazilian. He is from ____.',
           options: ['[[Mexico|México]]', '[[Brazil|Brasil]]', '[[Spain|España]]'],
           correctAnswer: '[[Brazil|Brasil]]',
           explanation: '[[Brazilian|Brasileño/a]] → [[from|de]] [[Brazil|Brasil]].',
@@ -286,7 +286,7 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_CTX,
       questions: [
         {
-          question: '[[Maria|Maria]] [[says|dice]]: "[[I|Yo]] [[am|soy]] [[from|de]] [[Mexico|México]]." [[Her|Su]] [[teacher|profesora]] [[asks|pregunta]]: "[[So|Entonces]] [[you|tú]] [[are|eres]] ____?"',
+          question: 'María dice: "Soy de México." Su profesora pregunta: "¿Entonces tú eres ____?"',
           options: ['[[Brazilian|Brasileña]]', '[[American|Americana]]', '[[Mexican|Mexicana]]', '[[Spanish|Española]]'],
           correctAnswer: 2,
           explanation: '[[From|De]] [[Mexico|México]] → [[Mexican|Mexicano/a]].',
@@ -306,7 +306,7 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_CTX,
       questions: [
         {
-          question: '[[In|En]] [[the|la]] [[classroom|clase]] [[there|hay]] [[are|son]] [[six|seis]] [[boys|chicos]] [[and|y]] [[four|cuatro]] [[girls|chicas]]. [[How|Cuántos]] [[many|en total]] [[students|estudiantes]] [[are|hay]] [[there|en total]]?',
+          question: 'En la clase hay seis chicos y cuatro chicas. ¿Cuántos estudiantes hay en total?',
           options: ['[[eight|Ocho]]', '[[nine|Nueve]]', '[[ten|Diez]]', '[[eleven|Once]]'],
           correctAnswer: 2,
           explanation: '[[Six|Seis]] + [[four|cuatro]] = [[ten|diez]]. [[Ten|Ten]] = [[ten|diez]].',

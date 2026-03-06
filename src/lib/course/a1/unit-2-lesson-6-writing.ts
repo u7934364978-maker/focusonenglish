@@ -17,10 +17,10 @@ export const UNIT_2_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Complete|Completa]] [[the|la]] [[sentence|frase]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]]. [[Write|Escribe]] [[your|tu]] [[answer|respuesta]].',
+      instructions: 'Completa la frase con la palabra correcta. Escribe tu respuesta.',
       questions: [
         {
-          question: '[[She|Ella]] [[is|es]] ____ [[France|Francia]]. [[She|Ella]] [[is|es]] [[French|francesa]].',
+          question: 'She is ____ France. She is French.',
           correctAnswer: 'from',
           acceptableAnswers: ['from'],
           explanation: '[[We|Nosotros]] [[say|decimos]] "[[is from|es de]]" + [[country|país]] [[to|para]] [[indicate|indicar]] [[origin|origen]].',
@@ -37,10 +37,10 @@ export const UNIT_2_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Write|Escribe]] [[the|la]] [[word|palabra]] [[that|que]] [[completes|complete]] [[the|la]] [[sentence|frase]].',
+      instructions: 'Escribe la palabra que completa la frase.',
       questions: [
         {
-          question: '[[They|Ellos]] [[are|son]] [[from|de]] [[Spain|España]]. [[They|Ellos]] [[are|son]] ____.',
+          question: 'They are from Spain. They are ____.',
           correctAnswer: 'Spanish',
           acceptableAnswers: ['Spanish'],
           explanation: '[[From Spain|De España]] → [[Spanish|español/española]]: [[the|la]] [[nationality|nacionalidad]] [[of|de]] [[Spain|España]].',
@@ -57,10 +57,10 @@ export const UNIT_2_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Complete|Completa]] [[with|con]] [[one|una]] [[word|palabra]].',
+      instructions: 'Completa con una palabra.',
       questions: [
         {
-          question: '[[He|Él]] [[is|es]] [[from|de]] ____. [[He|Él]] [[is|es]] [[Italian|italiano]].',
+          question: 'He is from ____. He is Italian.',
           correctAnswer: 'Italy',
           acceptableAnswers: ['Italy'],
           explanation: '[[Italian|Italiano]] → [[from Italy|de Italia]]: [[Italy|Italia]] [[is|es]] [[the|el]] [[country|país]].',
@@ -77,10 +77,10 @@ export const UNIT_2_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Write|Escribe]] [[the|la]] [[missing|faltante]] [[word|palabra]].',
+      instructions: 'Escribe la palabra que falta.',
       questions: [
         {
-          question: '[[We|Nosotros]] [[are|somos]] [[from|de]] [[Brazil|Brasil]]. [[We|Nosotros]] [[are|somos]] ____.',
+          question: 'We are from Brazil. We are ____.',
           correctAnswer: 'Brazilian',
           acceptableAnswers: ['Brazilian'],
           explanation: '[[From Brazil|De Brasil]] → [[Brazilian|brasileño/brasileña]]: [[the|la]] [[nationality|nacionalidad]] [[of|de]] [[Brazil|Brasil]].',
@@ -97,10 +97,10 @@ export const UNIT_2_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Complete|Completa]] [[the|la]] [[sentence|frase]].',
+      instructions: 'Completa la frase.',
       questions: [
         {
-          question: '[[My|Mi]] [[friend|amigo]] ____ [[from|de]] [[Japan|Japón]]. [[He|Él]] [[is|es]] [[Japanese|japonés]].',
+          question: 'My friend ____ from Japan. He is Japanese.',
           correctAnswer: 'is',
           acceptableAnswers: ['is'],
           explanation: '[[He|Él]] / [[She|Ella]] + [[is|es]] + [[from|de]] + [[country|país]].',

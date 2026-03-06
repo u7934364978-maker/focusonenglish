@@ -205,7 +205,7 @@ export const UNIT_2_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_TF,
       questions: [
         {
-          question: '[[Anna|Ana]] [[is|es]] [[from|de]] [[Italy|Italia]].',
+          question: 'Ana es de Italia.',
           options: ['[[True|Verdadero]]', '[[False|Falso]]'],
           correctAnswer: 'False',
           explanation: '[[False|Falso]]. [[Anna|Ana]] [[is|es]] [[from|de]] [[Germany|Alemania]], [[not|no]] [[Italy|Italia]].',
@@ -227,7 +227,7 @@ export const UNIT_2_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_TF,
       questions: [
         {
-          question: '[[Luca|Luca]] [[is|es]] [[Italian|italiano]].',
+          question: 'Luca es italiano.',
           options: ['[[True|Verdadero]]', '[[False|Falso]]'],
           correctAnswer: 'True',
           explanation: '[[True|Verdadero]]. [[The|La]] [[transcript|transcripción]] [[says|dice]] "[[He is Italian|Él es italiano]]".',
@@ -249,7 +249,7 @@ export const UNIT_2_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_TF,
       questions: [
         {
-          question: '[[Maria|María]] [[is|es]] [[nineteen|diecinueve]] [[years|años]] [[old|de edad]].',
+          question: 'María tiene diecinueve años.',
           options: ['[[True|Verdadero]]', '[[False|Falso]]'],
           correctAnswer: 'True',
           explanation: '[[True|Verdadero]]. [[The|La]] [[transcript|transcripción]] [[says|dice]] "[[Maria is nineteen years old|María tiene diecinueve años]]".',
@@ -271,7 +271,7 @@ export const UNIT_2_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_TF,
       questions: [
         {
-          question: '[[Anna|Ana]] [[has|tiene]] [[three|tres]] [[friends|amigos]] [[in|en]] [[the|el]] [[audio|audio]].',
+          question: 'Ana menciona tres amigos en el audio.',
           options: ['[[True|Verdadero]]', '[[False|Falso]]'],
           correctAnswer: 'False',
           explanation: '[[False|Falso]]. [[Anna|Ana]] [[mentions|menciona]] [[two|dos]] [[friends|amigos]]: [[Luca|Luca]] [[and|y]] [[Maria|María]].',

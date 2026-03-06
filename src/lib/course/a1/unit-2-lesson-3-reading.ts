@@ -195,7 +195,7 @@ export const UNIT_2_LESSON_3_READING: Exercise[] = [
       instructions: INST_TF,
       questions: [
         {
-          question: '[[Tom|Tom]] [[is|es]] [[from|de]] [[Spain|España]].',
+          question: 'Tom es de España.',
           options: ['[[True|Verdadero]]', '[[False|Falso]]'],
           correctAnswer: 'False',
           explanation: '[[False|Falso]]. [[Tom|Tom]] [[is|es]] [[from|de]] [[England|Inglaterra]], [[not|no]] [[Spain|España]].',
@@ -216,7 +216,7 @@ export const UNIT_2_LESSON_3_READING: Exercise[] = [
       instructions: INST_TF,
       questions: [
         {
-          question: '[[Sofia|Sofía]] [[is|es]] [[Italian|italiana]].',
+          question: 'Sofía es italiana.',
           options: ['[[True|Verdadero]]', '[[False|Falso]]'],
           correctAnswer: 'True',
           explanation: '[[True|Verdadero]]. [[The|El]] [[text|texto]] [[says|dice]] "[[She is Italian|Ella es italiana]]".',
@@ -237,7 +237,7 @@ export const UNIT_2_LESSON_3_READING: Exercise[] = [
       instructions: INST_TF,
       questions: [
         {
-          question: '[[Carlos|Carlos]] [[is|es]] [[twenty-two|veintidós]] [[years|años]] [[old|de edad]].',
+          question: 'Carlos tiene veintidós años.',
           options: ['[[True|Verdadero]]', '[[False|Falso]]'],
           correctAnswer: 'True',
           explanation: '[[True|Verdadero]]. [[The|El]] [[text|texto]] [[says|dice]] "[[Carlos is twenty-two years old|Carlos tiene veintidós años]]".',
@@ -258,7 +258,7 @@ export const UNIT_2_LESSON_3_READING: Exercise[] = [
       instructions: INST_TF,
       questions: [
         {
-          question: '[[Tom|Tom]] [[has|tiene]] [[three|tres]] [[friends|amigos]] [[in|en]] [[the|el]] [[text|texto]].',
+          question: 'Tom menciona tres amigos en el texto.',
           options: ['[[True|Verdadero]]', '[[False|Falso]]'],
           correctAnswer: 'False',
           explanation: '[[False|Falso]]. [[Tom|Tom]] [[mentions|menciona]] [[two|dos]] [[friends|amigos]]: [[Sofia|Sofía]] [[and|y]] [[Carlos|Carlos]].',
