@@ -44,9 +44,22 @@ async function A1PreviewContent() {
             </h1>
 
             {/* Subtitle */}
-            <p className="text-lg md:text-xl font-medium text-white/85 max-w-xl leading-relaxed mb-8">
+            <p className="text-lg md:text-xl font-medium text-white/85 max-w-xl leading-relaxed mb-6">
               De cero a conversacional en 90 días. {courseMetadata.totalUnits} unidades progresivas diseñadas para hablantes de español.
             </p>
+
+            {/* Primary actions */}
+            <div className="flex flex-wrap items-center gap-3 mb-4">
+              <Link
+                href="/curso-a1/practica-inteligente"
+                className="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-2xl bg-white text-[#FF6B6B] font-black text-sm uppercase tracking-widest shadow-lg shadow-black/20 hover:-translate-y-0.5 hover:shadow-xl transition-all"
+              >
+                <span>Práctica inteligente A1</span>
+              </Link>
+              <span className="text-xs text-white/80 font-medium">
+                Sesión adaptativa con ejercicios seleccionados automáticamente para ti.
+              </span>
+            </div>
 
             {/* Learning outcomes */}
             <ul className="space-y-2.5">
