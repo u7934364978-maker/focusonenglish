@@ -13,6 +13,7 @@ import {
   type MicrophoneError 
 } from '@/lib/utils/microphone-permission';
 import { MicrophonePermissionError, MicrophonePermissionPrompt } from '@/components/MicrophonePermission';
+import { TranslatedText } from '@/components/course/exercises/TranslatedText';
 
 interface SpeakingQuestion {
   id: string;
@@ -441,7 +442,7 @@ export default function EnhancedSpeakingExercise({ question, onComplete, level }
               <Target className="w-6 h-6 text-orange-600 flex-shrink-0 mt-1" />
               <div className="flex-1">
                 <h3 className="text-lg font-bold text-gray-900 mb-2">Tu tarea:</h3>
-                <p className="text-gray-800 leading-relaxed">{question.prompt}</p>
+                <p className="text-gray-800 leading-relaxed"><TranslatedText text={question.prompt} /></p>
               </div>
             </div>
 

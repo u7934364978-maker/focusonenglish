@@ -309,8 +309,8 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
             </div>
           )}
 
-          {/* Multiple Choice (including fill-blank with options) */}
-          {q.options && Array.isArray(q.options) && (
+          {/* Multiple Choice (including fill-blank with options) — no mostrar para true-false para evitar doble botón */}
+          {q.options && Array.isArray(q.options) && !(q.type === 'true-false' || exercise.type === 'true-false') && (
             <div className="space-y-2.5">
               {q.options.map((option: any, optIndex: number) => {
                 const isUserAnswer = userAnswer === optIndex;

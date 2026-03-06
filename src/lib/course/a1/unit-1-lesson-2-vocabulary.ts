@@ -167,7 +167,7 @@ export const UNIT_1_LESSON_2_VOCABULARY: Exercise[] = [
         { id: 'p1', left: '[[From|De]]', right: 'De (origen)' },
         { id: 'p2', left: '[[City|Ciudad]]', right: 'Ciudad' },
         { id: 'p3', left: '[[Country|País]]', right: 'País' },
-        { id: 'p4', left: '[[Years old|Años]]', right: 'Años (edad)' },
+        { id: 'p4', left: '[[Years old|años]]', right: 'años (edad)' },
         { id: 'p5', left: '[[Goodbye|Adiós]]', right: 'Adiós' },
       ],
     },
@@ -262,10 +262,10 @@ export const UNIT_1_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_FILL,
       questions: [
         {
-          question: '[[I|Yo]] [[am|soy]] [[a|un]] ____. ([[teacher|profesor]] / [[student|estudiante]])',
+          question: '[[Context|Contexto]]: [[You|Tú]] [[teach|enseñas]] [[English|inglés]] [[at|en]] [[a|una]] [[school|escuela]]. [[Complete|Completa]]: [[I|Yo]] [[am|soy]] [[a|un]] ____.',
           options: ['[[teacher|profesor]]', '[[student|estudiante]]', '[[doctor|médico]]'],
           correctAnswer: '[[teacher|profesor]]',
-          explanation: '[[Job|Trabajo]]: "[[I am a teacher|Soy profesor]]" [[or|o]] "[[I am a student|Soy estudiante]]".',
+          explanation: '[[If|Si]] [[you|tú]] [[teach|enseñas]], [[you are a teacher|eres profesor]]. [[Correct|Correcto]]: "[[I am a teacher|Soy profesor]]".',
         },
       ],
     },
@@ -285,9 +285,9 @@ export const UNIT_1_LESSON_2_VOCABULARY: Exercise[] = [
       questions: [
         {
           question: '[[Someone|Alguien]] [[says|dice]] "[[Hi|Hola]]!" [[when|cuando]] [[they|ellos]] [[see|ven]] [[you|a ti]]. [[You|Tú]] [[reply|respondes]]:',
-          options: ['[[Goodbye|Adiós]]', '[[Hi|Hola]] [[or|o]] [[Hello|Hola]]', '[[Good night|Buenas noches]]', '[[My name is|Mi nombre es]]'],
+          options: ['[[Goodbye|Adiós]]', '[[Hi or Hello|Hola]]', '[[Good night|Buenas noches]]', '[[My name is|Mi nombre es]]'],
           correctAnswer: 1,
-          explanation: '[[We|Nosotros]] [[reply|respondemos]] [[with|con]] [[the same|el mismo]] [[greeting|saludo]]: [[Hi|Hola]] [[or|o]] [[Hello|Hola]].',
+          explanation: '[[We|Nosotros]] [[reply|respondemos]] [[with|con]] [[the same|el mismo]] [[greeting|saludo]]: [[Hi or Hello|Hola]].',
         },
       ],
     },
