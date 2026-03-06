@@ -42,7 +42,7 @@ El examen evalúa tus habilidades lingüísticas, centrándose especialmente en 
 ### Reading and Use of English (75 minutos)
 Es la sección más extensa y fundamental. Se divide en 7 partes que combinan la comprensión lectora con el uso gramatical:
 
-1.  **Multiple-choice cloze (Part 1)**: Un texto con 8 huecos donde debes elegir la opción correcta (A, B, C o D). Aquí se evalúa el vocabulario, las *collocations* y los *phrasal verbs*. 
+1.  **Multiple-choice cloze (Part 1)**: Un texto con 8 huecos donde debes elegir la opción correcta (A, B, C o D). Aquí se evalúa el vocabulario, las *collocations* y los [phrasal verbs](/blog/gramatica/phrasal-verbs-guia-b2). 
     *   *Ejemplo*: Si ves el hueco "He ________ up a new hobby", y las opciones son (A) took, (B) made, (C) gave, (D) went; la respuesta correcta es **(A) took** porque "take up" es el phrasal verb para empezar una actividad.
 2.  **Open cloze (Part 2)**: Similar al anterior, pero sin opciones. Debes deducir la palabra correcta. Suelen ser preposiciones, artículos, conectores o pronombres.
 3.  **Word formation (Part 3)**: Debes transformar una palabra base (ej. *FRIEND*) para que encaje en el texto (ej. *FRIENDLY* o *FRIENDSHIP*). ¡Atención a los prefijos negativos!
@@ -96,6 +96,9 @@ Cambridge penaliza el uso de vocabulario repetitivo o demasiado simple (*good, b
 | Problem | Issue / Setback | "We faced a minor **setback** during the trip." |
 
 ### Phrasal Verbs Imprescindibles
+
+Los phrasal verbs son el contenido más evaluado en el Use of English. Consulta nuestra **[lista definitiva de phrasal verbs B2](/blog/gramatica/phrasal-verbs-guia-b2)** con más de 150 verbos clasificados por temática. Aquí los más frecuentes:
+
 *   **Carry out**: Realizar (un estudio o tarea).
 *   **Go on**: Continuar.
 *   **Put off**: Posponer.
@@ -110,7 +113,7 @@ Si tienes el examen cerca, sigue este plan intensivo diseñado por expertos en *
 
 *   **Semana 1: Cimientos**: Repasa toda la gramática B2 (tiempos verbales, pasiva, condicionales). Haz listas de vocabulario por temas (educación, medio ambiente, tecnología).
 *   **Semana 2: Use of English & Reading**: Haz al menos 5 exámenes de práctica completos centrados en gramática y vocabulario. Analiza cada error.
-*   **Semana 3: Refuerzo de Vocabulario**: Amplía tu rango de phrasal verbs, collocations y expresiones idiomáticas.
+*   **Semana 3: Refuerzo de Vocabulario**: Amplía tu rango de [phrasal verbs](/blog/gramatica/phrasal-verbs-guia-b2), collocations y expresiones idiomáticas.
 *   **Semana 4: Simulacros y Gestión de Tiempo**: Haz exámenes simulados de la parte de Reading and Use of English con cronómetro.
 
 ---

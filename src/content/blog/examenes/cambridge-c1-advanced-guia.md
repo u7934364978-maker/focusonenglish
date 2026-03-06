@@ -31,7 +31,7 @@ Aprobar el C1 no es cuestión de "suerte"; es cuestión de dominar el registro, 
 Esta parte del examen evalúa tu control sobre el sistema de la lengua. Ya no basta con saber que un verbo va seguido de gerundio; debes entender las **colocaciones** y los **idioms**.
 
 *   **Parte 4 (Key Word Transformation)**: Es el corazón del Use of English. Debes transformar una frase usando una palabra clave sin cambiar el significado.
-    *   *Tip*: Aquí es donde Cambridge introduce las **inversiones**, los condicionales mixtos y los modales de deducción. Practica estructuras como: *"No sooner had I arrived than..."* o *"Were it not for your help, I wouldn't have finished."*
+    *   *Tip*: Aquí es donde Cambridge introduce las **inversiones**, los condicionales mixtos, los modales de deducción y los **[phrasal verbs avanzados](/blog/gramatica/phrasal-verbs-c1-avanzados)**. Practica estructuras como: *"No sooner had I arrived than..."* o *"Were it not for your help, I wouldn't have finished."*
 *   **Parte 2 (Open Cloze)**: Debes rellenar huecos sin opciones. Suele centrarse en preposiciones, conectores y pronombres relativos.
     *   *Tip*: Lee la frase completa antes de decidir. A menudo, la palabra necesaria depende de lo que viene dos o tres palabras después.
 
@@ -63,6 +63,7 @@ Un usuario C1 deja atrás palabras genéricas como *good, bad* o *big*.
 *   En lugar de *bad*: *detrimental, appalling, dire*.
 *   En lugar de *good*: *beneficial, outstanding, superb*.
 *   **Idioms de nivel avanzado**: *"To hit the ground running"*, *"To play it by ear"*, *"To be on the fence"*.
+*   **Phrasal verbs formales**: *account for, give rise to, draw on, fall short of*. Consulta nuestra guía completa de **[phrasal verbs C1](/blog/gramatica/phrasal-verbs-c1-avanzados)** para dominar los que más valoran los examinadores.
 
 ---
 

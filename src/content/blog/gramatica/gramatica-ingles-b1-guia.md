@@ -118,11 +118,13 @@ En el nivel B1, los verbos modales se vuelven más sofisticados:
 *   **Consejo**: *Should* y *Ought to*.
 *   **Posibilidad**: *May* y *Might* (posibilidad remota).
 
-Además, se espera que empieces a dominar los **Phrasal Verbs** más comunes de la vida diaria:
-*   *Get on with someone*: Llevase bien con alguien.
+Además, se espera que empieces a dominar los **[Phrasal Verbs](/blog/gramatica/phrasal-verbs-principiantes)** más comunes de la vida diaria:
+*   *Get on with someone*: Llevarse bien con alguien.
 *   *Look after*: Cuidar.
 *   *Give up*: Rendirse o dejar un hábito.
 *   *Find out*: Descubrir.
+
+¿Quieres una guía completa? Visita nuestro artículo de **[phrasal verbs para principiantes](/blog/gramatica/phrasal-verbs-principiantes)** con 50 verbos esenciales organizados por situación.
 
 ---
 

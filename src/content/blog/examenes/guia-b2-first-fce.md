@@ -54,7 +54,7 @@ Es la parte más temida por los estudiantes y pesa el 40% de la nota final. Eval
 ## Estrategias Ganadoras por Sección
 
 ### Cómo dominar el Use of English
-La clave aquí son las **Collocations** (combinaciones de palabras) y los **Phrasal Verbs**. Cambridge no evalúa palabras sueltas, sino cómo encajan entre sí. Practica mucho las *Transformations*, ya que son matemáticas aplicadas al lenguaje.
+La clave aquí son las **Collocations** (combinaciones de palabras) y los **[Phrasal Verbs](/blog/gramatica/phrasal-verbs-guia-b2)**. Cambridge no evalúa palabras sueltas, sino cómo encajan entre sí. Practica mucho las *Transformations*, ya que son matemáticas aplicadas al lenguaje.
 
 ## Errores Comunes que te quitan puntos
 

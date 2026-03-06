@@ -96,7 +96,7 @@ Ideal si tienes un vocabulario rico en adjetivos.
 
 ---
 
-## 8. Vocabulario "Show-off": Colocaciones y Frases Hechas
+## 8. Vocabulario "Show-off": Colocaciones, Phrasal Verbs y Frases Hechas
 
 En el C1, el examinador busca lo que llamamos "Less Common Lexis". Aquí tienes una lista de expresiones que puedes "soltar" para demostrar nivel:
 *   *"To bear in mind"* (en lugar de remember).
@@ -104,6 +104,8 @@ En el C1, el examinador busca lo que llamamos "Less Common Lexis". Aquí tienes 
 *   *"To be of paramount importance"* (en lugar de be very important).
 *   *"A double-edged sword"* (para hablar de algo con pros y contras).
 *   *"The sheer volume of..."* (para enfatizar cantidad).
+
+Además, los **phrasal verbs de registro formal** son muy valorados en el Writing C1. Expresiones como *account for*, *give rise to*, *draw on* o *fall short of* elevan inmediatamente el nivel de tu ensayo o informe. Consulta la guía completa de **[phrasal verbs avanzados C1](/blog/gramatica/phrasal-verbs-c1-avanzados)** para tener una lista completa con ejemplos de uso en Writing.
 
 ---
 
