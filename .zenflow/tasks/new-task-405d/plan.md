@@ -136,6 +136,7 @@ Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 - File `src/lib/course/a1/unit-5-lessons-index.ts`: import all 6 lesson exports, export `UNIT_5_LESSONS`, `UNIT_5_ALL_LESSONS`, `UNIT_5_ALL_EXERCISES` following exact pattern of `unit-3-lessons-index.ts`
 - File `src/lib/course/a1/unit-5.ts`: import `UNIT_5_ALL_EXERCISES`, export `UNIT_TITLE = 'Simple Present: Everyday Actions'` and `UNIT_5_EXERCISES`
 
-### [ ] Step: Verify build
+### [x] Step: Verify build
+<!-- chat-id: 30043c03-68b8-4e1e-b1fd-e20ceef4833d -->
 - Run `npm run build` and confirm no TypeScript errors
 - Fix any type errors found in the new files
