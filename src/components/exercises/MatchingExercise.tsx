@@ -127,7 +127,7 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
         </div>
         <div className="flex items-center gap-3 bg-[#FF6B6B]/5 border border-[#FF6B6B]/15 border-l-4 border-l-[#FF6B6B]/60 rounded-2xl px-4 py-2.5">
           <div className="text-slate-700 text-sm font-semibold flex-1">
-            <Markdown content={content.instructions || 'Une cada elemento de la izquierda con su correspondiente a la derecha.'} vocabulary={vocabulary} />
+            <Markdown content={content.instructions || 'Une cada elemento de la izquierda con su correspondiente a la derecha.'} plain />
           </div>
           <span className="text-sm font-extrabold text-[#FF6B6B]/70 tabular-nums whitespace-nowrap bg-white border border-[#FF6B6B]/20 rounded-xl px-2.5 py-1">
             {Object.keys(matches).length} / {content.pairs.length}
@@ -203,7 +203,7 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
                 } ${isCorrectMatch ? '!border-green-400 !bg-green-50 !text-green-700' : ''} ${isIncorrectMatch ? '!border-red-300 !bg-red-50 !text-red-700' : ''} ${submitted ? 'cursor-default' : ''}`}
               >
                 <span className="absolute top-2 left-2.5 text-[10px] font-extrabold text-slate-300">{idx + 1}</span>
-                <span className="leading-snug flex-1"><Markdown content={item} vocabulary={vocabulary} /></span>
+                <span className="leading-snug flex-1"><Markdown content={item} /></span>
                 {pair?.audio && (
                   <div
                     role="button"

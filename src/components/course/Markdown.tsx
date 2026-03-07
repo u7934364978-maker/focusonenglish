@@ -14,6 +14,7 @@ export interface VocabularyItem {
 const VocabularyContext = createContext<{
   vocabulary: VocabularyItem[];
   isFirstRef: React.MutableRefObject<boolean>;
+  plain: boolean;
 } | null>(null);
 
 function VocabularyTooltip({ word, definition, children, position = 'top' }: { word: string, definition: string, children: React.ReactNode, position?: 'top' | 'bottom' }) {
@@ -126,7 +127,11 @@ function useApplyTooltips() {
         ctx.isFirstRef.current = false;
       }
 
-      // 3. ALWAYS apply TranslatedText to string parts to handle [[word|translation]] and general lexicon
+      // 3. Apply TranslatedText to string parts (handles [[word|translation]] and general lexicon)
+      //    Skip when plain=true to avoid lexicon tooltips on Spanish instruction text
+      if (ctx.plain) {
+        return <>{finalParts}</>;
+      }
       return (
         <>
           {finalParts.map((p, i) => (
@@ -267,7 +272,7 @@ function normalizeMarkdown(input: string) {
   return out.join("\n");
 }
 
-export default function Markdown({ content, vocabulary }: { content: string, vocabulary?: VocabularyItem[] }) {
+export default function Markdown({ content, vocabulary, plain }: { content: string, vocabulary?: VocabularyItem[], plain?: boolean }) {
   const normalized = normalizeMarkdown(content);
   const isFirstRef = useRef(true);
 
@@ -278,8 +283,9 @@ export default function Markdown({ content, vocabulary }: { content: string, voc
 
   const contextValue = useMemo(() => ({
     vocabulary: vocabulary || [],
-    isFirstRef
-  }), [vocabulary]);
+    isFirstRef,
+    plain: plain ?? false,
+  }), [vocabulary, plain]);
 
   return (
     <VocabularyContext.Provider value={contextValue}>

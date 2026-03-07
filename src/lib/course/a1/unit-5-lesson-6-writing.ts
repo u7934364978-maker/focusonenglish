@@ -15,7 +15,7 @@ export const UNIT_5_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: INSTRUCTIONS_FILL,
+      instructions: 'Completa la frase con la forma correcta del verbo "[[work|trabajar]]". Escribe tu respuesta.',
       questions: [
         {
           question: '[[I|Yo]] ____ [[every|todos]] [[day|los días]].',
@@ -35,7 +35,7 @@ export const UNIT_5_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: INSTRUCTIONS_FILL,
+      instructions: 'Completa la frase con la forma correcta del verbo "[[go|ir]]". Escribe tu respuesta.',
       questions: [
         {
           question: '[[She|Ella]] ____ [[to|a la]] [[school|escuela]] [[at|a las]] [[eight|ocho]].',
@@ -55,7 +55,7 @@ export const UNIT_5_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: INSTRUCTIONS_FILL,
+      instructions: 'Completa la frase con la forma correcta del verbo "[[eat|comer]]". Escribe tu respuesta.',
       questions: [
         {
           question: '[[We|Nosotros]] ____ [[lunch|el almuerzo]] [[at|a la]] [[one|una]] [[o\'clock|en punto]].',
@@ -75,7 +75,7 @@ export const UNIT_5_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: INSTRUCTIONS_FILL,
+      instructions: 'Completa la frase con la forma correcta del verbo "[[drink|beber]]". Escribe tu respuesta.',
       questions: [
         {
           question: '[[He|Él]] ____ [[coffee|café]] [[every|cada]] [[morning|mañana]].',
@@ -95,7 +95,7 @@ export const UNIT_5_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: INSTRUCTIONS_FILL,
+      instructions: 'Completa la frase con la forma correcta del verbo "[[sleep|dormir]]". Escribe tu respuesta.',
       questions: [
         {
           question: '[[They|Ellos]] ____ [[at|a las]] [[ten|diez]] [[o\'clock|en punto]] [[every|cada]] [[night|noche]].',
