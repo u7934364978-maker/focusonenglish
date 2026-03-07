@@ -32,7 +32,7 @@ function getLexiconData() {
   const sortedLexiconWords = Array.from(lexiconMap.keys()).sort((a, b) => b.length - a.length);
   
   const lexiconRegexPattern = sortedLexiconWords.length > 0 
-    ? `\\b(${sortedLexiconWords.map(w => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})\\b`
+    ? `(?<![a-zA-ZÀ-ÖØ-öø-ÿ])(${sortedLexiconWords.map(w => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})(?![a-zA-ZÀ-ÖØ-öø-ÿ])`
     : null;
 
   cachedLexiconMap = lexiconMap;
