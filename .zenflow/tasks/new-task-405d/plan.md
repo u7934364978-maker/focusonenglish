@@ -60,7 +60,8 @@ Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 - Ex 14–15: `true-false` — single `questions` item, question = single token, options = `['[[True|Verdadero]]', '[[False|Falso]]']`, `correctAnswer` = `'True'` or `'False'`
 - Follow exact code style of `unit-3-lesson-1-grammar.ts` (no block comments at top, use const for LESSON_TITLE and INSTRUCTIONS_*)
 
-### [ ] Step: Create unit-5-lesson-2-vocabulary.ts
+### [x] Step: Create unit-5-lesson-2-vocabulary.ts
+<!-- chat-id: fe0ca457-609e-4f18-ae33-0c8a2be7d3e3 -->
 - File: `src/lib/course/a1/unit-5-lesson-2-vocabulary.ts`
 - Export: `UNIT_5_LESSON_2_VOCABULARY: Exercise[]`
 - IDs: `a1-u5-l2-v1` … `a1-u5-l2-v15`
