@@ -73,7 +73,8 @@ Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 - Ex 1–8 reading+multiple-choice (4 options), Ex 9–12 reading+true-false, Ex 13–15 reading+multiple-choice synthesis
 - IDs: a1-u4-l3-reading-1 … a1-u4-l3-reading-15
 
-### [ ] Step: Create unit-4-lesson-4-listening.ts
+### [x] Step: Create unit-4-lesson-4-listening.ts
+<!-- chat-id: 16bda2ce-21d7-4a5a-829d-cde2fbed9aac -->
 - Read `unit-3-lesson-4-listening.ts` for exact pattern
 - Create `src/lib/course/a1/unit-4-lesson-4-listening.ts`
 - Define `LISTENING_TRANSCRIPT` constant (Student 1 / Student 2 dialogue, word-by-word tokens)
