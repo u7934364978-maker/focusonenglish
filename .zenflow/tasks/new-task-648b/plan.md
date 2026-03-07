@@ -104,7 +104,8 @@ Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 - Create `src/lib/course/a1/unit-4-lessons-index.ts` exporting `UNIT_4_LESSONS`, `UNIT_4_ALL_LESSONS`, `UNIT_4_ALL_EXERCISES`
 - Replace `src/lib/course/a1/unit-4.ts` with new entry point importing from index, exporting `UNIT_TITLE` and `UNIT_4_EXERCISES`
 
-### [ ] Step: Verify type-check and lint
+### [x] Step: Verify type-check and lint
+<!-- chat-id: 5d817d24-a002-4208-ae7e-3c115baf4483 -->
 - From `focusonenglish/` run `npm run type-check`
 - Run `npm run lint`
 - Fix any errors found; confirm 90 total exercises (6 lessons × 15)
