@@ -42,10 +42,10 @@ export const UNIT_3_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '[[How|Cómo]] [[does|se siente]] [[Ben|Ben]] [[today|hoy]]?',
+          question: '[[How does Ben feel today?|¿Cómo se siente Ben hoy?]]',
           options: ['[[excited|emocionado]]', '[[happy|feliz]]', '[[angry|enfadado]]', '[[tired|cansado]]'],
           correctAnswer: 3,
-          explanation: '[[Ben|Ben]] [[says|dice]] "[[I am very tired|Estoy muy cansado]]".',
+          explanation: 'Ben dice "I am very tired".',
         },
       ],
     },
@@ -64,7 +64,7 @@ export const UNIT_3_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '[[Is|Está]] [[Ana|Ana]] [[tired|cansada]]?',
+          question: '[[Is Ana tired?|¿Está Ana cansada?]]',
           options: [
             '[[Yes, she is.|Sí, lo está.]]',
             '[[She is a little tired.|Está un poco cansada.]]',
@@ -72,7 +72,7 @@ export const UNIT_3_LESSON_4_LISTENING: Exercise[] = [
             '[[She is very tired.|Está muy cansada.]]',
           ],
           correctAnswer: 2,
-          explanation: '[[Ben|Ben]] [[says|dice]] "[[she is not tired at all|no está cansada para nada]]".',
+          explanation: 'Ben dice "she is not tired at all".',
         },
       ],
     },
@@ -91,10 +91,10 @@ export const UNIT_3_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '[[How|Cómo]] [[does|se siente]] [[Ana|Ana]]?',
+          question: '[[How does Ana feel?|¿Cómo se siente Ana?]]',
           options: ['[[tired|cansada]]', '[[sad|triste]]', '[[scared|asustada]]', '[[excited|emocionada]]'],
           correctAnswer: 3,
-          explanation: '[[Ben|Ben]] [[says|dice]] "[[she is excited|ella está emocionada]]".',
+          explanation: 'Ben dice "she is excited".',
         },
       ],
     },
@@ -113,7 +113,7 @@ export const UNIT_3_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '[[Is|Tiene]] [[Ana|Ana]] [[hungry|hambre]]?',
+          question: '[[Is Ana hungry?|¿Tiene hambre Ana?]]',
           options: [
             '[[Yes, she is very hungry.|Sí, tiene mucha hambre.]]',
             '[[She is a little hungry.|Tiene un poco de hambre.]]',
@@ -121,7 +121,7 @@ export const UNIT_3_LESSON_4_LISTENING: Exercise[] = [
             '[[No, she isn\'t hungry.|No, no tiene hambre.]]',
           ],
           correctAnswer: 3,
-          explanation: '[[Ben|Ben]] [[says|dice]] "[[she isn\'t hungry|ella no está hambrienta]]".',
+          explanation: 'Ben dice "she isn\'t hungry".',
         },
       ],
     },
@@ -140,10 +140,10 @@ export const UNIT_3_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '[[What|Qué]] [[does|quiere]] [[Ana|Ana]] [[want|querer]]?',
+          question: '[[What does Ana want?|¿Qué quiere Ana?]]',
           options: ['[[food|comida]]', '[[snacks|merienda]]', '[[coffee|café]]', '[[a drink|una bebida]]'],
           correctAnswer: 3,
-          explanation: '[[Ben|Ben]] [[says|dice]] "[[she is thirsty|tiene sed]]", [[so|así que]] [[she|ella]] [[wants|quiere]] [[something|algo]] [[to drink|para beber]].',
+          explanation: 'Ben dice "she is thirsty", así que quiere algo para beber.',
         },
       ],
     },
@@ -162,7 +162,7 @@ export const UNIT_3_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '[[Is|Está]] [[Ben|Ben]] [[hungry|hambriento]]?',
+          question: '[[Is Ben hungry?|¿Tiene hambre Ben?]]',
           options: [
             '[[No, he isn\'t.|No, no lo está.]]',
             '[[He is very hungry.|Tiene mucha hambre.]]',
@@ -170,7 +170,7 @@ export const UNIT_3_LESSON_4_LISTENING: Exercise[] = [
             '[[Yes, a little.|Sí, un poco.]]',
           ],
           correctAnswer: 3,
-          explanation: '[[Ben|Ben]] [[says|dice]] "[[Yes, I am a little hungry|Sí, estoy un poco hambriento]]".',
+          explanation: 'Ben dice "Yes, I am a little hungry".',
         },
       ],
     },
@@ -189,7 +189,7 @@ export const UNIT_3_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '[[How|Cómo]] [[does|se siente]] [[Ben|Ben]]? ([[all|todas]] [[emotions|emociones]])',
+          question: '[[How does Ben feel? (all emotions)|¿Cómo se siente Ben? (todas las emociones)]]',
           options: [
             '[[angry and sad|enfadado y triste]]',
             '[[excited and thirsty|emocionado y sediento]]',
@@ -197,7 +197,7 @@ export const UNIT_3_LESSON_4_LISTENING: Exercise[] = [
             '[[happy and excited|feliz y emocionado]]',
           ],
           correctAnswer: 2,
-          explanation: '[[Ben|Ben]] [[says|dice]] "[[just tired and hungry|solo cansado y hambriento]]".',
+          explanation: 'Ben dice "just tired and hungry".',
         },
       ],
     },
@@ -216,10 +216,15 @@ export const UNIT_3_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '[[Who|Quién]] [[are|son]] [[Ben|Ben]] [[and|y]] [[Ana|Ana]] [[talking|hablando]] [[to|con]]?',
-          options: ['[[A friend|Un amigo]]', '[[A teacher|Un profesor]]', '[[A doctor|Un médico]]', '[[A receptionist|Una recepcionista]]'],
+          question: '[[Who are Ben and Ana talking to?|¿Con quién hablan Ben y Ana?]]',
+          options: [
+            '[[A friend|Un amigo]]',
+            '[[A teacher|Un profesor]]',
+            '[[A doctor|Un médico]]',
+            '[[A receptionist|Una recepcionista]]',
+          ],
           correctAnswer: 3,
-          explanation: '[[The|El]] [[dialogue|diálogo]] [[starts|empieza]] [[with|con]] [[a|una]] [[receptionist|recepcionista]] [[greeting|saludando]] [[them|les]].',
+          explanation: 'El diálogo empieza con una recepcionista saludando.',
         },
       ],
     },
@@ -239,10 +244,10 @@ export const UNIT_3_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_TF,
       questions: [
         {
-          question: '[[Ben|Ben]] [[is|está]] [[angry|enfadado]] [[today|hoy]].',
+          question: '[[Ben is angry today.|Ben está enfadado hoy.]]',
           options: ['[[True|Verdadero]]', '[[False|Falso]]'],
           correctAnswer: 'False',
-          explanation: '[[False|Falso]]. [[Ben|Ben]] [[says|dice]] "[[I am not angry|no estoy enfadado]]".',
+          explanation: 'Falso. Ben dice "I am not angry".',
         },
       ],
     },
@@ -261,10 +266,10 @@ export const UNIT_3_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_TF,
       questions: [
         {
-          question: '[[Ana|Ana]] [[is|está]] [[excited|emocionada]].',
+          question: '[[Ana is excited.|Ana está emocionada.]]',
           options: ['[[True|Verdadero]]', '[[False|Falso]]'],
           correctAnswer: 'True',
-          explanation: '[[True|Verdadero]]. [[Ben|Ben]] [[says|dice]] "[[she is excited|ella está emocionada]]".',
+          explanation: 'Verdadero. Ben dice "she is excited".',
         },
       ],
     },
@@ -283,10 +288,10 @@ export const UNIT_3_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_TF,
       questions: [
         {
-          question: '[[Both|Tanto]] [[Ben|Ben]] [[and|como]] [[Ana|Ana]] [[are|están]] [[hungry|hambrientos]].',
+          question: '[[Both Ben and Ana are hungry.|Tanto Ben como Ana tienen hambre.]]',
           options: ['[[True|Verdadero]]', '[[False|Falso]]'],
           correctAnswer: 'False',
-          explanation: '[[False|Falso]]. [[Ana|Ana]] [[is not|no está]] [[hungry|hambrienta]], [[only|solo]] [[Ben|Ben]] [[is|está]] [[a little|un poco]] [[hungry|hambriento]].',
+          explanation: 'Falso. Ana no tiene hambre; solo Ben tiene un poco.',
         },
       ],
     },
@@ -305,10 +310,10 @@ export const UNIT_3_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_TF,
       questions: [
         {
-          question: '[[The|La]] [[receptionist|recepcionista]] [[offers|ofrece]] [[drinks|bebidas]].',
+          question: '[[The receptionist offers drinks.|La recepcionista ofrece bebidas.]]',
           options: ['[[True|Verdadero]]', '[[False|Falso]]'],
           correctAnswer: 'True',
-          explanation: '[[True|Verdadero]]. [[Ben|Ben]] [[asks|pregunta]] [[about|sobre]] [[drinks|bebidas]] [[and|y]] [[the|la]] [[receptionist|recepcionista]] [[confirms|confirma]] [[they|que]] [[have|tienen]] [[them|bebidas]].',
+          explanation: 'Verdadero. La recepcionista confirma que tienen bebidas.',
         },
       ],
     },
@@ -328,15 +333,15 @@ export const UNIT_3_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_SYN,
       questions: [
         {
-          question: '[[What|Cuál]] [[is|es]] [[the|el]] [[main|principal]] [[topic|tema]] [[of|del]] [[this|este]] [[audio|audio]]?',
+          question: '[[What is the main topic of this audio?|¿Cuál es el tema principal de este audio?]]',
           options: [
-            '[[A|Un]] [[job|trabajo]] [[interview|entrevista]]',
-            '[[A|Una]] [[restaurant|restaurante]] [[order|pedido]]',
-            '[[A|Una]] [[school|escuela]] [[lesson|clase]]',
-            '[[Two people|Dos personas]] [[describing|describiendo]] [[their|sus]] [[physical|físico]] [[state|estado]] [[and|y]] [[emotions|emociones]]',
+            '[[A job interview|Una entrevista de trabajo]]',
+            '[[A restaurant order|Un pedido en un restaurante]]',
+            '[[A school lesson|Una clase de escuela]]',
+            '[[Two people describing their state and emotions|Dos personas describiendo su estado y emociones]]',
           ],
           correctAnswer: 3,
-          explanation: '[[The|El]] [[audio|audio]] [[shows|muestra]] [[Ben|Ben]] [[and|y]] [[Ana|Ana]] [[saying|diciendo]] [[how|cómo]] [[they|se]] [[feel|sienten]] [[using|usando]] [[to be|el verbo to be]] [[in|en]] [[positive|afirmativa]], [[negative|negativa]] [[and|e]] [[interrogative|interrogativa]].',
+          explanation: 'El audio muestra a Ben y Ana diciendo cómo se sienten usando to be en afirmativa, negativa e interrogativa.',
         },
       ],
     },
@@ -355,15 +360,15 @@ export const UNIT_3_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_SYN,
       questions: [
         {
-          question: '[[Which|Cuál]] [[person|persona]] [[is|está]] [[more|más]] [[positive|positiva]] [[in|en]] [[this|este]] [[dialogue|diálogo]]?',
+          question: '[[Who is the most positive person in this dialogue?|¿Quién es la persona más positiva en este diálogo?]]',
           options: [
-            '[[Ben|Ben]], [[because|porque]] [[he|él]] [[is|está]] [[not|no]] [[angry|enfadado]]',
-            '[[The receptionist|La recepcionista]], [[because|porque]] [[she|ella]] [[offers|ofrece]] [[help|ayuda]]',
-            '[[Both|Ambos]] [[are|están]] [[equally|igualmente]] [[positive|positivos]]',
-            '[[Ana|Ana]], [[because|porque]] [[she|ella]] [[is|está]] [[excited|emocionada]] [[and|y]] [[not|no]] [[tired|cansada]]',
+            '[[Ben, because he is not angry|Ben, porque no está enfadado]]',
+            '[[The receptionist, because she offers help|La recepcionista, porque ofrece ayuda]]',
+            '[[Both are equally positive|Ambos están igual de positivos]]',
+            '[[Ana, because she is excited and not tired|Ana, porque está emocionada y no cansada]]',
           ],
           correctAnswer: 3,
-          explanation: '[[Ana|Ana]] [[is|está]] [[excited|emocionada]] [[and|y]] [[is not|no está]] [[tired|cansada]], [[making|haciéndola]] [[her|la]] [[most|más]] [[positive|positiva]] [[person|persona]] [[in|en]] [[the|el]] [[dialogue|diálogo]].',
+          explanation: 'Ana está emocionada y no está cansada, lo que la hace la más positiva del diálogo.',
         },
       ],
     },
@@ -382,15 +387,15 @@ export const UNIT_3_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_SYN,
       questions: [
         {
-          question: '[[When|Cuando]] [[Ben|Ben]] [[says|dice]] "[[I am not angry or sad|no estoy enfadado ni triste]]", [[which|qué]] [[grammar|gramática]] [[structure|estructura]] [[is|está]] [[he|él]] [[using|usando]]?',
+          question: '[[When Ben says "I am not angry or sad", which grammar structure is he using?|Cuando Ben dice "I am not angry or sad", ¿qué estructura gramatical usa?]]',
           options: [
-            '[[Affirmative|Afirmativa]] [[to be|to be]]',
-            '[[Past|Pasado]] [[tense|tiempo]]',
-            '[[Negative|Negativa]] [[to be|to be]]',
-            '[[Question|Pregunta]] [[with|con]] [[to be|to be]]',
+            '[[Affirmative to be|To be afirmativo]]',
+            '[[Past tense|Tiempo pasado]]',
+            '[[Negative to be|To be negativo]]',
+            '[[Question with to be|Pregunta con to be]]',
           ],
           correctAnswer: 2,
-          explanation: '"[[I am not|No estoy]]" [[is|es]] [[the|la]] [[negative|negativa]] [[form|forma]] [[of|de]] [[to be|to be]]. [[Ben|Ben]] [[uses|usa]] [[it|la]] [[to|para]] [[deny|negar]] [[two|dos]] [[emotions|emociones]].',
+          explanation: '"I am not" es la forma negativa de to be. Ben la usa para negar dos emociones.',
         },
       ],
     },

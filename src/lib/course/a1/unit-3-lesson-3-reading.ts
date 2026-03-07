@@ -30,10 +30,10 @@ export const UNIT_3_LESSON_3_READING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '[[What|Cuál]] [[is|es]] [[her|su]] [[name|nombre]]?',
+          question: '[[What is her name?|¿Cuál es su nombre?]]',
           options: ['[[Maria|María]]', '[[Ana|Ana]]', '[[Laura|Laura]]', '[[Sofia|Sofía]]'],
           correctAnswer: 2,
-          explanation: '[[She|Ella]] [[says|dice]]: "[[My name is Laura|Mi nombre es Laura]]".',
+          explanation: 'Ella dice: "My name is Laura".',
         },
       ],
     },
@@ -51,10 +51,10 @@ export const UNIT_3_LESSON_3_READING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '[[How|Cómo]] [[does|se siente]] [[Laura|Laura]] [[today|hoy]]?',
+          question: '[[How does Laura feel today?|¿Cómo se siente Laura hoy?]]',
           options: ['[[happy|feliz]]', '[[excited|emocionada]]', '[[bored|aburrida]]', '[[tired|cansada]]'],
           correctAnswer: 3,
-          explanation: '[[The|El]] [[text|texto]] [[says|dice]] "[[I am very tired|Estoy muy cansada]]".',
+          explanation: 'El texto dice "I am very tired".',
         },
       ],
     },
@@ -72,15 +72,15 @@ export const UNIT_3_LESSON_3_READING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '[[Why|Por qué]] [[is|está]] [[Laura|Laura]] [[tired|cansada]]?',
+          question: '[[Why is Laura tired?|¿Por qué está Laura cansada?]]',
           options: [
-            '[[Because|Porque]] [[she|ella]] [[was|estuvo]] [[sick|enferma]]',
-            '[[Because|Porque]] [[she|ella]] [[worked|trabajó]] [[all|todo]] [[weekend|el fin de semana]]',
-            '[[Because|Porque]] [[she|ella]] [[did not|no]] [[sleep|durmió]]',
-            '[[Because|Porque]] [[she|ella]] [[is|está]] [[bored|aburrida]]',
+            '[[Because she was sick|Porque estuvo enferma]]',
+            '[[Because she worked all weekend|Porque trabajó todo el fin de semana]]',
+            '[[Because she did not sleep|Porque no durmió]]',
+            '[[Because she is bored|Porque está aburrida]]',
           ],
           correctAnswer: 1,
-          explanation: '[[The|El]] [[text|texto]] [[says|dice]] "[[I worked all weekend|Trabajé todo el fin de semana]]".',
+          explanation: 'El texto dice "I worked all weekend".',
         },
       ],
     },
@@ -98,10 +98,10 @@ export const UNIT_3_LESSON_3_READING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '[[How|Cómo]] [[does|se siente]] [[Tom|Tom]] [[today|hoy]]?',
+          question: '[[How does Tom feel today?|¿Cómo se siente Tom hoy?]]',
           options: ['[[tired|cansado]]', '[[sad|triste]]', '[[angry|enfadado]]', '[[excited|emocionado]]'],
           correctAnswer: 3,
-          explanation: '[[The|El]] [[text|texto]] [[says|dice]] "[[Tom is excited today|Tom está emocionado hoy]]".',
+          explanation: 'El texto dice "Tom is excited today".',
         },
       ],
     },
@@ -119,10 +119,10 @@ export const UNIT_3_LESSON_3_READING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '[[How many|Cuántas]] [[hours|horas]] [[did|durmió]] [[Tom|Tom]] [[sleep|dormir]]?',
+          question: '[[How many hours did Tom sleep?|¿Cuántas horas durmió Tom?]]',
           options: ['[[eight|ocho]]', '[[nine|nueve]]', '[[ten|diez]]', '[[eleven|once]]'],
           correctAnswer: 2,
-          explanation: '[[The|El]] [[text|texto]] [[says|dice]] "[[he slept ten hours|durmió diez horas]]".',
+          explanation: 'El texto dice "he slept ten hours".',
         },
       ],
     },
@@ -140,7 +140,7 @@ export const UNIT_3_LESSON_3_READING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '[[Is|Está]] [[Tom|Tom]] [[hungry|hambriento]]?',
+          question: '[[Is Tom hungry?|¿Tiene hambre Tom?]]',
           options: [
             '[[He is thirsty.|Tiene sed.]]',
             '[[No, he isn\'t.|No, no lo está.]]',
@@ -148,7 +148,7 @@ export const UNIT_3_LESSON_3_READING: Exercise[] = [
             '[[Yes, he is.|Sí, lo está.]]',
           ],
           correctAnswer: 3,
-          explanation: '[[The|El]] [[text|texto]] [[says|dice]] "[[Is he hungry? Yes, he is|¿Tiene hambre? Sí, la tiene]]".',
+          explanation: 'El texto dice "Is he hungry? Yes, he is".',
         },
       ],
     },
@@ -166,10 +166,10 @@ export const UNIT_3_LESSON_3_READING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '[[What|Qué]] [[does|quiere]] [[Tom|Tom]] [[want|querer]]?',
-          options: ['[[lunch|almuerzo]]', '[[dinner|cena]]', '[[breakfast|desayuno]]', '[[a|un]] [[snack|tentempié]]'],
+          question: '[[What does Tom want?|¿Qué quiere Tom?]]',
+          options: ['[[lunch|almuerzo]]', '[[dinner|cena]]', '[[breakfast|desayuno]]', '[[a snack|un tentempié]]'],
           correctAnswer: 2,
-          explanation: '[[The|El]] [[text|texto]] [[says|dice]] "[[he wants breakfast|quiere desayunar]]".',
+          explanation: 'El texto dice "he wants breakfast".',
         },
       ],
     },
@@ -187,10 +187,10 @@ export const UNIT_3_LESSON_3_READING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '[[What|Qué]] [[are|son]] [[Laura|Laura]] [[and|y]] [[Tom|Tom]]?',
+          question: '[[What are Laura and Tom?|¿Qué son Laura y Tom?]]',
           options: ['[[teachers|profesores]]', '[[workers|trabajadores]]', '[[doctors|médicos]]', '[[students|estudiantes]]'],
           correctAnswer: 3,
-          explanation: '[[The|El]] [[text|texto]] [[says|dice]] "[[We are both students|Los dos somos estudiantes]]".',
+          explanation: 'El texto dice "We are both students".',
         },
       ],
     },
@@ -209,10 +209,10 @@ export const UNIT_3_LESSON_3_READING: Exercise[] = [
       instructions: INST_TF,
       questions: [
         {
-          question: '[[Laura|Laura]] [[is|está]] [[happy|feliz]] [[about|con]] [[working|trabajar]] [[all|todo]] [[weekend|el fin de semana]].',
+          question: '[[Laura is happy about working all weekend.|Laura está feliz de haber trabajado todo el fin de semana.]]',
           options: ['[[True|Verdadero]]', '[[False|Falso]]'],
           correctAnswer: 'False',
-          explanation: '[[False|Falso]]. [[She|Ella]] [[says|dice]] "[[I am not happy about that|No estoy contenta con eso]]".',
+          explanation: 'Falso. Ella dice "I am not happy about that".',
         },
       ],
     },
@@ -230,10 +230,10 @@ export const UNIT_3_LESSON_3_READING: Exercise[] = [
       instructions: INST_TF,
       questions: [
         {
-          question: '[[Tom|Tom]] [[is|está]] [[tired|cansado]] [[today|hoy]].',
+          question: '[[Tom is tired today.|Tom está cansado hoy.]]',
           options: ['[[True|Verdadero]]', '[[False|Falso]]'],
           correctAnswer: 'False',
-          explanation: '[[False|Falso]]. [[Tom|Tom]] [[is|está]] [[not|no]] [[tired|cansado]] — [[he|él]] [[is|está]] [[excited|emocionado]].',
+          explanation: 'Falso. Tom no está cansado — está emocionado.',
         },
       ],
     },
@@ -251,10 +251,10 @@ export const UNIT_3_LESSON_3_READING: Exercise[] = [
       instructions: INST_TF,
       questions: [
         {
-          question: '[[Laura|Laura]] [[and|y]] [[Tom|Tom]] [[are|están]] [[bored|aburridos]] [[at|en]] [[school|la escuela]].',
+          question: '[[Laura and Tom are bored at school.|Laura y Tom están aburridos en la escuela.]]',
           options: ['[[True|Verdadero]]', '[[False|Falso]]'],
           correctAnswer: 'False',
-          explanation: '[[False|Falso]]. [[The|El]] [[text|texto]] [[says|dice]] "[[we are not bored|no estamos aburridos]]". [[They|Ellos]] [[love|aman]] [[their|su]] [[class|clase]].',
+          explanation: 'Falso. El texto dice "we are not bored. We love our class!".',
         },
       ],
     },
@@ -272,10 +272,10 @@ export const UNIT_3_LESSON_3_READING: Exercise[] = [
       instructions: INST_TF,
       questions: [
         {
-          question: '[[Tom|Tom]] [[slept|durmió]] [[more|más]] [[than|que]] [[Laura|Laura]].',
+          question: '[[Tom slept more than Laura.|Tom durmió más que Laura.]]',
           options: ['[[True|Verdadero]]', '[[False|Falso]]'],
           correctAnswer: 'True',
-          explanation: '[[True|Verdadero]]. [[Tom|Tom]] [[slept|durmió]] [[ten|diez]] [[hours|horas]]; [[Laura|Laura]] [[worked|trabajó]] [[all|todo]] [[weekend|el fin de semana]].',
+          explanation: 'Verdadero. Tom durmió diez horas; Laura trabajó todo el fin de semana.',
         },
       ],
     },
@@ -294,15 +294,15 @@ export const UNIT_3_LESSON_3_READING: Exercise[] = [
       instructions: INST_SYN,
       questions: [
         {
-          question: '[[What|Cuál]] [[is|es]] [[the|el]] [[main|principal]] [[topic|tema]] [[of|del]] [[this|este]] [[text|texto]]?',
+          question: '[[What is the main topic of this text?|¿Cuál es el tema principal de este texto?]]',
           options: [
-            '[[A|Una]] [[morning|mañana]] [[at|en]] [[school|la escuela]]',
-            '[[A|Un]] [[weekend|fin de semana]] [[trip|viaje]]',
-            '[[Two|Dos]] [[friends|amigos]] [[describing|describiendo]] [[how|cómo]] [[they|se]] [[feel|sienten]] [[today|hoy]]',
-            '[[Breakfast|El desayuno]] [[habits|hábitos]]',
+            '[[A morning at school|Una mañana en la escuela]]',
+            '[[A weekend trip|Un viaje de fin de semana]]',
+            '[[Two friends describing how they feel today|Dos amigos describiendo cómo se sienten hoy]]',
+            '[[Breakfast habits|Hábitos de desayuno]]',
           ],
           correctAnswer: 2,
-          explanation: '[[The|El]] [[text|texto]] [[describes|describe]] [[how|cómo]] [[Laura|Laura]] [[and|y]] [[Tom|Tom]] [[feel|se sienten]] [[using|usando]] [[negatives|negaciones]] [[and|y]] [[questions|preguntas]] [[with|con]] [[to be|el verbo to be]].',
+          explanation: 'El texto describe cómo Laura y Tom se sienten usando negaciones y preguntas con el verbo to be.',
         },
       ],
     },
@@ -320,15 +320,15 @@ export const UNIT_3_LESSON_3_READING: Exercise[] = [
       instructions: INST_SYN,
       questions: [
         {
-          question: '[[How|Cómo]] [[do|se sienten]] [[Laura|Laura]] [[and|y]] [[Tom|Tom]] [[about|con]] [[school|la escuela]]?',
+          question: '[[How do Laura and Tom feel about school?|¿Cómo se sienten Laura y Tom respecto a la escuela?]]',
           options: [
-            '[[They|Ellos]] [[are|están]] [[both|los dos]] [[bored|aburridos]]',
-            '[[They|Ellos]] [[are|están]] [[both|los dos]] [[tired|cansados]]',
-            '[[They|Ellos]] [[don\'t|no]] [[like|les gusta]] [[school|la escuela]]',
-            '[[They|Ellos]] [[are|están]] [[not|no]] [[bored|aburridos]] — [[they|ellos]] [[love|aman]] [[their|su]] [[class|clase]]',
+            '[[They are both bored|Los dos están aburridos]]',
+            '[[They are both tired|Los dos están cansados]]',
+            '[[They don\'t like school|No les gusta la escuela]]',
+            '[[They are not bored — they love their class|No están aburridos — aman su clase]]',
           ],
           correctAnswer: 3,
-          explanation: '[[The|El]] [[text|texto]] [[clearly|claramente]] [[says|dice]] "[[we are not bored. We love our class!|no estamos aburridos. ¡Amamos nuestra clase!]]".',
+          explanation: 'El texto dice claramente "we are not bored. We love our class!".',
         },
       ],
     },
@@ -346,15 +346,15 @@ export const UNIT_3_LESSON_3_READING: Exercise[] = [
       instructions: INST_SYN,
       questions: [
         {
-          question: '[[Which|Cuál]] [[grammar|gramática]] [[structure|estructura]] [[does|usa]] [[Laura|Laura]] [[use|usar]] [[when|cuando]] [[she|ella]] [[says|dice]] "[[I am not happy about that|No estoy contenta con eso]]"?',
+          question: '[[Which grammar structure does Laura use when she says "I am not happy about that"?|¿Qué estructura gramatical usa Laura cuando dice "I am not happy about that"?]]',
           options: [
-            '[[Affirmative|Afirmativa]] [[to be|to be]]',
-            '[[Negative|Negativa]] [[to be|to be]]',
-            '[[Question|Pregunta]] [[with|con]] [[to be|to be]]',
-            '[[Past|Pasado]] [[tense|tiempo]]',
+            '[[Affirmative to be|To be afirmativo]]',
+            '[[Negative to be|To be negativo]]',
+            '[[Question with to be|Pregunta con to be]]',
+            '[[Past tense|Tiempo pasado]]',
           ],
           correctAnswer: 1,
-          explanation: '"[[I am not|No estoy]]" [[is|es]] [[the|la]] [[negative|negativa]] [[form|forma]] [[of|de]] [[to be|to be]] [[with|con]] "[[I|Yo]]".',
+          explanation: '"I am not" es la forma negativa de to be con "I".',
         },
       ],
     },
