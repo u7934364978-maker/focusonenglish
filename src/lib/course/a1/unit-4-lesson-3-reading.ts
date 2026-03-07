@@ -366,7 +366,7 @@ export const UNIT_4_LESSON_3_READING: Exercise[] = [
           question: '[[What does "This is a big room" show?|¿Qué muestra "This is a big room"?]]',
           options: [
             '[[Demonstrative + verb + article + adjective + noun.|Demostrativo + verbo + artículo + adjetivo + sustantivo.]]',
-            '[[Plural demonstrative + verb + noun.|Demostrativo plural + verbo + sustantivo.]]',
+            '[[Plural demonstrative + verb + noun.|Demostrativo + verbo + sustantivo.]]',
             '[[Possessive + verb + adjective.|Posesivo + verbo + adjetivo.]]',
             '[[Article + adjective + noun.|Artículo + adjetivo + sustantivo.]]',
           ],
@@ -389,7 +389,7 @@ export const UNIT_4_LESSON_3_READING: Exercise[] = [
       instructions: INSTRUCTIONS_SYNTHESIS,
       questions: [
         {
-          question: '[[Which demonstrative for plural nearby?|¿Qué demostrativo para plural cercano?]]',
+          question: '[[Which demonstrative for plural nearby?|¿Qué demostrativo cercano?]]',
           options: [
             '[[This|Este/Esta]]',
             '[[That|Ese/Esa]]',
@@ -397,7 +397,7 @@ export const UNIT_4_LESSON_3_READING: Exercise[] = [
             '[[These|Estos/Estas]]',
           ],
           correctAnswer: 3,
-          explanation: '"[[These|Estos/Estas]]" [[is|es]] [[the plural demonstrative|el demostrativo plural]] [[for objects that are near.|para objetos cercanos.]]',
+          explanation: '"[[These|Estos/Estas]]" [[is|es]] [[the plural demonstrative|el demostrativo]] [[for objects that are near.|para objetos cercanos.]]',
         },
       ],
     },

@@ -374,7 +374,7 @@ export const UNIT_4_LESSON_4_LISTENING: Exercise[] = [
       instructions: INSTRUCTIONS_SYNTHESIS,
       questions: [
         {
-          question: '[[Which demonstrative for plural far away?|¿Qué demostrativo para plural lejano?]]',
+          question: '[[Which demonstrative for plural far away?|¿Qué demostrativo lejano?]]',
           options: [
             '[[This|Este/Esta]]',
             '[[That|Ese/Esa]]',
@@ -382,7 +382,7 @@ export const UNIT_4_LESSON_4_LISTENING: Exercise[] = [
             '[[Those|Esos/Esas]]',
           ],
           correctAnswer: 3,
-          explanation: '"[[Those|Esos/Esas]]" [[is|es]] [[the plural demonstrative|el demostrativo plural]] [[for objects that are far.|para objetos lejanos.]]',
+          explanation: '"[[Those|Esos/Esas]]" [[is|es]] [[the plural demonstrative|el demostrativo]] [[for objects that are far.|para objetos lejanos.]]',
         },
       ],
     },
@@ -403,13 +403,13 @@ export const UNIT_4_LESSON_4_LISTENING: Exercise[] = [
         {
           question: '[[What structure is "There are six books"?|¿Qué estructura es "There are six books"?]]',
           options: [
-            '[[There are + number + plural noun.|There are + número + sustantivo plural.]]',
+            '[[There are + number + plural noun.|There are + número + sustantivo.]]',
             '[[There is + article + noun.|There is + artículo + sustantivo.]]',
             '[[Pronoun + verb + adjective.|Pronombre + verbo + adjetivo.]]',
             '[[Demonstrative + noun + verb.|Demostrativo + sustantivo + verbo.]]',
           ],
           correctAnswer: 0,
-          explanation: '"[[There are|Hay]]" [[is followed by|va seguido de]] [[a number and a plural noun.|un número y un sustantivo plural.]]',
+          explanation: '"[[There are|Hay]]" [[is followed by|va seguido de]] [[a number and a plural noun.|un número y un sustantivo.]]',
         },
       ],
     },
