@@ -64,7 +64,8 @@ Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 - Topic: numbers 1–10, classroom objects, basic colors
 - IDs: a1-u4-l2-v1 … a1-u4-l2-v15
 
-### [ ] Step: Create unit-4-lesson-3-reading.ts
+### [x] Step: Create unit-4-lesson-3-reading.ts
+<!-- chat-id: e7f3ccbf-f820-42a1-a77b-71b5a88eb9cd -->
 - Read `unit-3-lesson-3-reading.ts` for exact pattern (15 individual exercises, not nested)
 - Create `src/lib/course/a1/unit-4-lesson-3-reading.ts`
 - Define `READING_TRANSCRIPT` constant (Pablo classroom text, word-by-word [[word|palabra]] tokens)
