@@ -6,7 +6,7 @@
 import { Exercise } from '@/lib/exercise-generator';
 
 const LESSON_TITLE = 'Vocabulario: estados y emociones';
-const INSTRUCTIONS_MC = 'Elige la palabra que corresponde a la definición o a la frase.';
+const INSTRUCTIONS_MC = 'Elige la palabra correcta para cada definición o frase.';
 const INSTRUCTIONS_MATCH = 'Relaciona cada emoción en inglés con su traducción al español.';
 const INSTRUCTIONS_FILL = 'Completa la frase con la emoción o el estado correcto.';
 const INSTRUCTIONS_CTX = 'Elige la palabra correcta para el contexto.';
