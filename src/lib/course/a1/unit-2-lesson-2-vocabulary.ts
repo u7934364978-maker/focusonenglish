@@ -6,7 +6,7 @@
 import { Exercise } from '@/lib/exercise-generator';
 
 const LESSON_TITLE = 'Vocabulario: países y nacionalidades';
-const INSTRUCTIONS_MC = 'Elige la palabra que corresponde a la definición o a la frase.';
+const INSTRUCTIONS_MC = 'Elige la palabra correcta para cada pregunta.';
 const INSTRUCTIONS_MATCH = 'Relaciona cada país con su nacionalidad en inglés.';
 const INSTRUCTIONS_FILL = 'Completa la frase con la palabra correcta del recuadro.';
 const INSTRUCTIONS_CTX = 'Elige la palabra correcta para el contexto.';
@@ -24,7 +24,7 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_MC,
       questions: [
         {
-          question: '¿Cuál es la nacionalidad de alguien de España?',
+          question: '¿Cuál es la nacionalidad de un español?',
           options: ['[[French|Francés]]', '[[Italian|Italiano]]', '[[Spanish|Español]]', '[[German|Alemán]]'],
           correctAnswer: 2,
           explanation: 'España → [[Spanish|Español]].',
@@ -64,7 +64,7 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_MC,
       questions: [
         {
-          question: '¿A qué país corresponde la nacionalidad "Japanese"?',
+          question: '¿Cuál es el país de la nacionalidad "Japanese"?',
           options: ['[[China|China]]', '[[Mexico|México]]', '[[Brazil|Brasil]]', '[[Japan|Japón]]'],
           correctAnswer: 3,
           explanation: '[[Japanese|Japonés]] → [[Japan|Japón]].',

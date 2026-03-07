@@ -6,7 +6,7 @@
 import { Exercise } from '@/lib/exercise-generator';
 
 const LESSON_TITLE = 'Comprensión lectora';
-const READING_TRANSCRIPT = `[[Hello|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] Tom. [[I|Yo]] [[am|soy]] [[from|de]] [[England|Inglaterra]]. [[I|Yo]] [[am|soy]] [[English|inglés]]. [[I|Yo]] [[have|tengo]] [[two|dos]] [[friends|amigos]]. [[My|Mi]] [[friend|amiga]] Sofía [[is|es]] [[from|de]] [[Italy|Italia]]. [[She|Ella]] [[is|es]] [[Italian|italiana]]. [[My|Mi]] [[friend|amigo]] Carlos [[is|es]] [[from|de]] España. [[He|Él]] [[is|es]] [[Spanish|español]]. [[We|Nosotros]] [[are|somos]] [[students|estudiantes]]. Sofía [[is|es]] [[twenty|veinte]] [[years|años]] [[old|de edad]]. Carlos [[is|es]] [[twenty-two|veintidós]] [[years|años]] [[old|de edad]]. [[I|Yo]] [[am|tengo]] [[nineteen|diecinueve]] [[years|años]] [[old|de edad]]. [[We|Nosotros]] [[are|somos]] [[happy|felices]] [[to|de]] [[be|ser]] [[friends|amigos]]!`;
+const READING_TRANSCRIPT = `[[Hello|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] Tom. [[I|Yo]] [[am|soy]] [[from|de]] [[England|Inglaterra]]. [[I|Yo]] [[am|soy]] [[English|inglés]]. [[I|Yo]] [[have|tengo]] [[two|dos]] [[friends|amigos]]. [[My|Mi]] [[friend|amiga]] Laura [[is|es]] [[from|de]] [[Italy|Italia]]. [[She|Ella]] [[is|es]] [[Italian|italiana]]. [[My|Mi]] [[friend|amigo]] Carlos [[is|es]] [[from|de]] España. [[He|Él]] [[is|es]] [[Spanish|español]]. [[We|Nosotros]] [[are|somos]] [[students|estudiantes]]. Laura [[is|es]] [[twenty|veinte]] [[years|años]] [[old|de edad]]. Carlos [[is|es]] [[twenty-two|veintidós]] [[years|años]] [[old|de edad]]. [[I|Yo]] [[am|tengo]] [[nineteen|diecinueve]] [[years|años]] [[old|de edad]]. [[We|Nosotros]] [[are|somos]] [[happy|felices]] [[to|de]] [[be|ser]] [[friends|amigos]]!`;
 
 const INST_MC = 'Lee el texto y elige la respuesta correcta.';
 const INST_TF = 'Lee el texto. Indica si la afirmación es verdadera o falsa.';
@@ -26,7 +26,7 @@ export const UNIT_2_LESSON_3_READING: Exercise[] = [
       questions: [
         {
           question: '¿Cómo se llama el narrador?',
-          options: ['Carlos', 'Tom', 'Sofía', '[[James|James]]'],
+          options: ['Carlos', 'Tom', 'Laura', '[[James|James]]'],
           correctAnswer: 1,
           explanation: '[[He|Él]] [[says|dice]]: "[[My name is Tom|Mi nombre es Tom]]".',
         },
@@ -88,10 +88,10 @@ export const UNIT_2_LESSON_3_READING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '¿De dónde es Sofía?',
+          question: '¿De dónde es Laura?',
           options: ['[[England|Inglaterra]]', '[[Italy|Italia]]', '[[Spain|España]]', '[[Germany|Alemania]]'],
           correctAnswer: 1,
-          explanation: '[[The|El]] [[text|texto]] [[says|dice]] "[[Sofia is from Italy|Sofía es de Italia]]".',
+          explanation: '[[The|El]] [[text|texto]] [[says|dice]] "[[Laura is from Italy|Laura es de Italia]]".',
         },
       ],
     },
@@ -130,10 +130,10 @@ export const UNIT_2_LESSON_3_READING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '¿Cuántos años tiene Sofía?',
+          question: '¿Qué edad tiene Laura?',
           options: ['[[nineteen|diecinueve]]', '[[twenty|veinte]]', '[[twenty-one|veintiuno]]', '[[twenty-two|veintidós]]'],
           correctAnswer: 1,
-          explanation: '[[The|El]] [[text|texto]] [[says|dice]] "[[Sofia is twenty years old|Sofía tiene veinte años]]".',
+          explanation: '[[The|El]] [[text|texto]] [[says|dice]] "[[Laura is twenty years old|Laura tiene veinte años]]".',
         },
       ],
     },
@@ -151,7 +151,7 @@ export const UNIT_2_LESSON_3_READING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '¿Cuántos años tiene Tom?',
+          question: '¿Qué edad tiene Tom?',
           options: ['[[seventeen|diecisiete]]', '[[eighteen|dieciocho]]', '[[nineteen|diecinueve]]', '[[twenty|veinte]]'],
           correctAnswer: 2,
           explanation: '[[He|Él]] [[says|dice]] "[[I am nineteen years old|Tengo diecinueve años]]".',
@@ -216,7 +216,7 @@ export const UNIT_2_LESSON_3_READING: Exercise[] = [
       instructions: INST_TF,
       questions: [
         {
-          question: 'Sofía es italiana.',
+          question: 'Laura es italiana.',
           options: ['[[True|Verdadero]]', '[[False|Falso]]'],
           correctAnswer: 'True',
           explanation: '[[True|Verdadero]]. [[The|El]] [[text|texto]] [[says|dice]] "[[She is Italian|Ella es italiana]]".',
@@ -237,7 +237,7 @@ export const UNIT_2_LESSON_3_READING: Exercise[] = [
       instructions: INST_TF,
       questions: [
         {
-          question: 'Carlos tiene veintidós años.',
+          question: 'La edad de Carlos es veintidós.',
           options: ['[[True|Verdadero]]', '[[False|Falso]]'],
           correctAnswer: 'True',
           explanation: '[[True|Verdadero]]. [[The|El]] [[text|texto]] [[says|dice]] "[[Carlos is twenty-two years old|Carlos tiene veintidós años]]".',
@@ -261,7 +261,7 @@ export const UNIT_2_LESSON_3_READING: Exercise[] = [
           question: 'Tom menciona tres amigos en el texto.',
           options: ['[[True|Verdadero]]', '[[False|Falso]]'],
           correctAnswer: 'False',
-          explanation: '[[False|Falso]]. Tom [[mentions|menciona]] [[two|dos]] [[friends|amigos]]: Sofía [[and|y]] Carlos.',
+          explanation: '[[False|Falso]]. Tom [[mentions|menciona]] [[two|dos]] [[friends|amigos]]: Laura [[and|y]] Carlos.',
         },
       ],
     },
