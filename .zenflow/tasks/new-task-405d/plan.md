@@ -131,7 +131,7 @@ Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 - Ex 9–12: `writing` — `prompt` (token format), `minWords`, `maxWords` (1–3 sentences)
 - Ex 13–15: `writing` — `prompt` (token format), `minWords: 25+`, `maxWords: 60+` (4–6 sentences free composition)
 
-### [ ] Step: Create unit-5-lessons-index.ts and unit-5.ts
+### [x] Step: Create unit-5-lessons-index.ts and unit-5.ts
 <!-- chat-id: a6a4d014-92c6-4570-8bfe-5dd8f10e4948 -->
 - File `src/lib/course/a1/unit-5-lessons-index.ts`: import all 6 lesson exports, export `UNIT_5_LESSONS`, `UNIT_5_ALL_LESSONS`, `UNIT_5_ALL_EXERCISES` following exact pattern of `unit-3-lessons-index.ts`
 - File `src/lib/course/a1/unit-5.ts`: import `UNIT_5_ALL_EXERCISES`, export `UNIT_TITLE = 'Simple Present: Everyday Actions'` and `UNIT_5_EXERCISES`
