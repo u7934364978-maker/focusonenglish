@@ -102,7 +102,8 @@ Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 - Ex 9–12: `true-false` — question = single token, options = `['[[True|Verdadero]]', '[[False|Falso]]']`, `correctAnswer` = `'True'` or `'False'`
 - Ex 13–15: `multiple-choice` synthesis
 
-### [ ] Step: Create unit-5-lesson-5-speaking.ts
+### [x] Step: Create unit-5-lesson-5-speaking.ts
+<!-- chat-id: c7b51493-6044-471c-9968-893642936751 -->
 - File: `src/lib/course/a1/unit-5-lesson-5-speaking.ts`
 - Export: `UNIT_5_LESSON_5_SPEAKING: Exercise[]`
 - IDs: `a1-u5-l5-s1` … `a1-u5-l5-s15`
