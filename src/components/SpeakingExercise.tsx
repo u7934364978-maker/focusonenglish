@@ -246,7 +246,6 @@ export default function SpeakingExercise({ question, vocabulary, onComplete, lev
           <div className="text-xl font-bold text-gray-900 mb-3 text-center">
             <Markdown 
               content={question.prompt || (question as any).text || (question as any).question || "Por favor, repite la frase:"} 
-              vocabulary={vocabulary}
             />
           </div>
           
