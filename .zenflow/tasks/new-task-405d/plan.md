@@ -116,7 +116,8 @@ Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 - Ex 8–11: answer questions about routines orally (instructions in Spanish, targetText = the question in tokens)
 - Ex 12–15: produce guided sentences about own routine (instructions in Spanish, targetText = model with blank)
 
-### [ ] Step: Create unit-5-lesson-6-writing.ts
+### [x] Step: Create unit-5-lesson-6-writing.ts
+<!-- chat-id: 32bda82e-8e32-484a-bf5f-1729397aecb7 -->
 - File: `src/lib/course/a1/unit-5-lesson-6-writing.ts`
 - Export: `UNIT_5_LESSON_6_WRITING: Exercise[]`
 - IDs: `a1-u5-l6-w1` … `a1-u5-l6-w15`
@@ -131,6 +132,7 @@ Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 - Ex 13–15: `writing` — `prompt` (token format), `minWords: 25+`, `maxWords: 60+` (4–6 sentences free composition)
 
 ### [ ] Step: Create unit-5-lessons-index.ts and unit-5.ts
+<!-- chat-id: a6a4d014-92c6-4570-8bfe-5dd8f10e4948 -->
 - File `src/lib/course/a1/unit-5-lessons-index.ts`: import all 6 lesson exports, export `UNIT_5_LESSONS`, `UNIT_5_ALL_LESSONS`, `UNIT_5_ALL_EXERCISES` following exact pattern of `unit-3-lessons-index.ts`
 - File `src/lib/course/a1/unit-5.ts`: import `UNIT_5_ALL_EXERCISES`, export `UNIT_TITLE = 'Simple Present: Everyday Actions'` and `UNIT_5_EXERCISES`
 
