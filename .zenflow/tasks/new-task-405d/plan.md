@@ -13,7 +13,8 @@ If you are blocked and need user clarification, mark the current step with `[!]`
 
 ## Workflow Steps
 
-### [ ] Step: Requirements
+### [x] Step: Requirements
+<!-- chat-id: 22ed7911-bda4-4315-be5a-2b852ec54b7c -->
 
 Create a Product Requirements Document (PRD) based on the feature description.
 
