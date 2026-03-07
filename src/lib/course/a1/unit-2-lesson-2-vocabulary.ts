@@ -145,11 +145,11 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS_MATCH,
       pairs: [
-        { id: 'p1', left: '[[Spain|España]]', right: '[[Spanish|Español]]' },
-        { id: 'p2', left: '[[France|Francia]]', right: '[[French|Francés]]' },
-        { id: 'p3', left: '[[Germany|Alemania]]', right: '[[German|Alemán]]' },
-        { id: 'p4', left: '[[Italy|Italia]]', right: '[[Italian|Italiano]]' },
-        { id: 'p5', left: '[[England|Inglaterra]]', right: '[[British|Británico]]' },
+        { id: 'p1', left: 'España', right: '[[Spanish|Español]]' },
+        { id: 'p2', left: 'Francia', right: '[[French|Francés]]' },
+        { id: 'p3', left: 'Alemania', right: '[[German|Alemán]]' },
+        { id: 'p4', left: 'Italia', right: '[[Italian|Italiano]]' },
+        { id: 'p5', left: 'Inglaterra', right: '[[British|Británico]]' },
       ],
     },
     topicName: 'Vocabulary',
@@ -245,7 +245,7 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
       questions: [
         {
           question: 'Pedro is Brazilian. He is from ____.',
-          options: ['[[Mexico|México]]', '[[Brazil|Brasil]]', '[[Spain|España]]'],
+          options: ['[[Mexico|México]]', '[[Brazil|Brasil]]', '[[France|Francia]]'],
           correctAnswer: '[[Brazil|Brasil]]',
           explanation: '[[Brazilian|Brasileño]] → [[from|de]] [[Brazil|Brasil]].',
         },
