@@ -89,7 +89,8 @@ Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 - Ex 9–12: `true-false` — question = single token statement, options = `['[[True|Verdadero]]', '[[False|Falso]]']`, `correctAnswer` = `'True'` or `'False'`
 - Ex 13–15: `multiple-choice` synthesis questions (main topic, -s verbs, best summary)
 
-### [ ] Step: Create unit-5-lesson-4-listening.ts
+### [x] Step: Create unit-5-lesson-4-listening.ts
+<!-- chat-id: 00ce7983-45fa-436d-b99e-0bf389cffcb5 -->
 - File: `src/lib/course/a1/unit-5-lesson-4-listening.ts`
 - Export: `UNIT_5_LESSON_4_LISTENING: Exercise[]`
 - IDs: `a1-u5-l4-listening-1` … `a1-u5-l4-listening-15`
