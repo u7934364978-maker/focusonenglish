@@ -255,8 +255,8 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
           </div>
         )}
 
-        {/* Question text: padding-bottom para que el tooltip de traducción no solape las opciones */}
-        <div className="relative pl-4 border-l-4 border-slate-300 rounded-r-sm mt-2 pb-4">
+        {/* Question text: padding-bottom amplio para que los tooltips de traducción no solapen las opciones */}
+        <div className="relative pl-4 border-l-4 border-slate-300 rounded-r-sm mt-2 pb-20 overflow-visible">
           <p className="text-sm font-medium text-slate-500 mb-1.5">Responde</p>
           <div className="text-lg md:text-xl text-slate-800 font-medium leading-snug">
             <TranslatedText text={q.question || q.text || q.prompt} />
@@ -273,8 +273,8 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
           </div>
         )}
 
-        {/* Options: margen superior para separar de tooltips de la pregunta */}
-        <div className="space-y-3 mt-2">
+        {/* Options: margen superior amplio para separar de tooltips de la pregunta */}
+        <div className="space-y-8 overflow-visible mt-4">
           {/* True/False */}
           {(q.type === 'true-false' || exercise.type === 'true-false') && (
             <div className="grid grid-cols-2 gap-3">
@@ -562,7 +562,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
       animate={{ opacity: isAnimating ? 0 : 1, y: isAnimating ? 16 : 0 }}
       transition={{ duration: 0.3, ease: 'easeOut' }}
     >
-      <div className="bg-white rounded-2xl shadow-lg shadow-slate-200/60 border border-slate-100 overflow-hidden">
+      <div className="bg-white rounded-2xl shadow-lg shadow-slate-200/60 border border-slate-100 overflow-visible">
         <div className="p-6 md:p-8 space-y-6">
           {/* Tipo + título (sin etiqueta "Ejercicio" redundante) */}
           <div>
