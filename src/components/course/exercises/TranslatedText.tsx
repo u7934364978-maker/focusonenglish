@@ -6,8 +6,8 @@
  * REGLA FIJA — NO SOLAPAR TRADUCCIONES:
  * Cualquier contenedor que envuelva TranslatedText debe dejar espacio debajo para el tooltip.
  * El tooltip se muestra debajo (top-full + mt-3), altura ~70–90px.
- * Los padres deben usar al menos: padding-bottom equivalente a pb-24 (6rem) en el bloque
- * de pregunta, y margin-top equivalente a mt-6 en el bloque siguiente (opciones).
+ * Los padres deben usar al menos: padding-bottom pb-32 (8rem) en el bloque de pregunta,
+ * y margin-top mt-10 (2.5rem) en el bloque siguiente (opciones). No reducir estos valores.
  * No reducir estos valores ni usar overflow-hidden en el contenedor de la tarjeta.
  */
 import React, { useMemo } from 'react';
@@ -16,10 +16,10 @@ import AudioButton from '../AudioButton';
 
 /** Clases Tailwind mínimas para contenedores que están DEBAJO de un bloque con TranslatedText (evitar solapamiento). */
 export const TRANSLATION_TOOLTIP_SPACING = {
-  /** Padding-bottom del bloque que CONTIENE la pregunta/texto con traducciones. */
-  blockWithTranslations: 'pb-24',
-  /** Margin-top del bloque que va DEBAJO (ej. opciones). */
-  blockBelow: 'mt-6',
+  /** Padding-bottom del bloque que CONTIENE la pregunta/texto con traducciones. Alto suficiente para que el tooltip (top-full + mt-3 + ~80px) no solape las opciones. */
+  blockWithTranslations: 'pb-32',
+  /** Margin-top del bloque que va DEBAJO (ej. opciones). Aumentado para separar bien de tooltips. */
+  blockBelow: 'mt-10',
   /** Espacio entre opciones (cada una puede tener TranslatedText). */
   betweenOptions: 'space-y-8',
 } as const;

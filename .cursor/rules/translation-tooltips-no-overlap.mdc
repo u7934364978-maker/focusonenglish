@@ -10,8 +10,8 @@ Los textos con `TranslatedText` muestran un tooltip debajo de la palabra al hace
 
 ## Reglas obligatorias
 
-1. **Contenedor del bloque con traducciones**: usar `TRANSLATION_TOOLTIP_SPACING.blockWithTranslations` (`pb-24`) como padding-bottom. No reducir este valor.
-2. **Bloque que va debajo** (ej. opciones de respuesta): usar `TRANSLATION_TOOLTIP_SPACING.blockBelow` (`mt-6`) como margin-top.
+1. **Contenedor del bloque con traducciones**: usar `TRANSLATION_TOOLTIP_SPACING.blockWithTranslations` (`pb-32`) como padding-bottom. No reducir este valor.
+2. **Bloque que va debajo** (ej. opciones de respuesta): usar `TRANSLATION_TOOLTIP_SPACING.blockBelow` (`mt-10`) como margin-top.
 3. **Tarjeta que envuelve el ejercicio**: usar `overflow-visible`, nunca `overflow-hidden`, para que los tooltips no se recorten.
 4. **Entre opciones** (cada una puede tener TranslatedText): usar `TRANSLATION_TOOLTIP_SPACING.betweenOptions` (`space-y-8`).
 
