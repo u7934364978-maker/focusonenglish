@@ -77,7 +77,7 @@ export const UNIT_4_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Completa con el demostrativo correcto: "this", "that", "these" o "those".',
+      instructions: 'Completa con el demostrativo correcto: "[[this|este/esta]]", "[[that|ese/esa]]", "[[these|estos/estas]]" o "[[those|esos/esas]]".',
       questions: [
         {
           question: '____ [[are|son]] [[my|mis]] [[pens.|bolígrafos.]] ([[Near me.|Cerca de mí.]])',
@@ -97,7 +97,7 @@ export const UNIT_4_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Completa con el demostrativo correcto: "this", "that", "these" o "those".',
+      instructions: 'Completa con el demostrativo correcto: "[[this|este/esta]]", "[[that|ese/esa]]", "[[these|estos/estas]]" o "[[those|esos/esas]]".',
       questions: [
         {
           question: '____ [[is|es]] [[a|una]] [[ruler.|regla.]] ([[Far away.|Lejos de mí.]])',
