@@ -120,7 +120,7 @@ export const UNIT_3_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Responde a la pregunta en voz alta. Ejemplo: "Yes, I am." / "No, I am not."',
+      instructions: 'Contesta en voz alta. Ejemplo: "Yes, I am." / "No, I am not."',
       targetText: '[[Are|Estás]] [[you|tú]] [[tired|cansado]]?',
       expectedResponse: 'Yes, I am. / No, I am not.',
     },
@@ -134,7 +134,7 @@ export const UNIT_3_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Responde a la pregunta en voz alta.',
+      instructions: 'Contesta en voz alta.',
       targetText: '[[Is|Está]] [[she|ella]] [[happy|feliz]]?',
       expectedResponse: 'Yes, she is. / No, she isn\'t.',
     },
@@ -148,7 +148,7 @@ export const UNIT_3_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Responde a la pregunta en voz alta.',
+      instructions: 'Contesta en voz alta.',
       targetText: '[[Are|Están]] [[they|ellos]] [[hungry|hambrientos]]?',
       expectedResponse: 'Yes, they are. / No, they aren\'t.',
     },
@@ -162,7 +162,7 @@ export const UNIT_3_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Responde a la pregunta en voz alta.',
+      instructions: 'Contesta en voz alta.',
       targetText: '[[Is|Está]] [[he|él]] [[angry|enfadado]]?',
       expectedResponse: 'Yes, he is. / No, he isn\'t.',
     },
@@ -220,7 +220,7 @@ export const UNIT_3_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Pregunta a un compañero o amigo imaginario cómo se siente y da un intercambio completo: pregunta + respuesta + frase negativa.',
+      instructions: 'Habla con un compañero imaginario: haz la pregunta, contesta y añade una frase negativa.',
       targetText: '[[How are you?|¿Cómo estás?]] — [[I am|Estoy]] ____. [[I am not|No estoy]] ____.',
       expectedResponse: 'How are you? — I am [emotion]. I am not [emotion].',
     },

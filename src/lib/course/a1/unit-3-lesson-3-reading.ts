@@ -31,7 +31,7 @@ export const UNIT_3_LESSON_3_READING: Exercise[] = [
       questions: [
         {
           question: '[[What is her name?|¿Cuál es su nombre?]]',
-          options: ['Maria', 'Ana', '[[Laura|Laura]]', 'Sofia'],
+          options: ['Maria', 'Ana', 'Laura', 'Sofia'],
           correctAnswer: 2,
           explanation: 'Ella dice: "My name is Laura".',
         },
