@@ -90,7 +90,8 @@ Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 - `instructions` in plain Spanish (no English model phrases); `targetText` word-by-word tokens; `expectedResponse` plain English
 - IDs: a1-u4-l5-s1 … a1-u4-l5-s15
 
-### [ ] Step: Create unit-4-lesson-6-writing.ts
+### [x] Step: Create unit-4-lesson-6-writing.ts
+<!-- chat-id: b995f175-bf17-40f6-b1eb-f3320758ab01 -->
 - Read `unit-3-lesson-6-writing.ts` for exact pattern
 - Create `src/lib/course/a1/unit-4-lesson-6-writing.ts`
 - 15 exercises: Ex 1–5 fill-blank, Ex 6–8 sentence-building, Ex 9–12 writing guided (1–3 sentences), Ex 13–15 writing free (4–6 sentences)
