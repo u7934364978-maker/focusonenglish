@@ -1,6 +1,6 @@
 import { Exercise } from '@/lib/exercise-generator';
 
-const LESSON_TITLE = 'Present Simple: Everyday Actions';
+const LESSON_TITLE = 'Presente simple: acciones cotidianas';
 const INSTRUCTIONS_FILL = 'Elige la forma correcta del verbo en presente simple para completar la frase.';
 const INSTRUCTIONS_MULTIPLE = 'Elige la forma o la frase correcta en presente simple.';
 const INSTRUCTIONS_ORDER = 'Ordena las palabras para formar una oración correcta.';

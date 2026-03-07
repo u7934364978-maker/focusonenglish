@@ -6,7 +6,7 @@
 
 import { Exercise } from '@/lib/exercise-generator';
 
-const LESSON_TITLE = 'Numbers 20–100: How old / How much';
+const LESSON_TITLE = 'Números 20-100: edad y precio';
 const TOPIC = 'Numbers 20–100 (Prices & Ages)';
 
 const INSTRUCTIONS_FILL = 'Completa la frase con la palabra o número correcto.';

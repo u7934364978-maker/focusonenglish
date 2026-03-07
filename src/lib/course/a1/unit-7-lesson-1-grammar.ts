@@ -6,7 +6,7 @@
 
 import { Exercise } from '@/lib/exercise-generator';
 
-const LESSON_TITLE = "Colors & Physical Descriptions: Adjectives and have got";
+const LESSON_TITLE = 'Colores y descripciones físicas: adjetivos y have got';
 const TOPIC = 'Colors & Physical Descriptions';
 
 const INSTRUCTIONS_FILL = 'Completa la frase con el adjetivo o la forma correcta.';

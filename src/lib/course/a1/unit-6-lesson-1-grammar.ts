@@ -5,7 +5,7 @@
 
 import { Exercise } from '@/lib/exercise-generator';
 
-const LESSON_TITLE = "Family & Possessives: Adjectives and 's";
+const LESSON_TITLE = "Familia y posesivos: adjetivos y 's";
 const TOPIC = 'Family & Possessives';
 
 const INSTRUCTIONS_FILL = "Elige el adjetivo posesivo correcto para cada frase.";

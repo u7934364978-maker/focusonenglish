@@ -6,7 +6,7 @@
 
 import { Exercise } from '@/lib/exercise-generator';
 
-const LESSON_TITLE = 'Verb To Be';
+const LESSON_TITLE = 'Verbo to be';
 const INSTRUCTIONS_FILL = 'Elige la forma correcta del verbo to be (is o are) para cada frase.';
 const INSTRUCTIONS_MULTIPLE = 'Elige la frase o la forma correcta.';
 const INSTRUCTIONS_ORDER = 'Ordena las palabras para formar una oración correcta.';
