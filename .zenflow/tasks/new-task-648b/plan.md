@@ -47,7 +47,8 @@ Save to `{@artifacts_path}/spec.md` with:
 
 Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 
-### [ ] Step: Create unit-4-lesson-1-grammar.ts
+### [x] Step: Create unit-4-lesson-1-grammar.ts
+<!-- chat-id: b3ab7e8b-f2fb-430b-b10b-c0e7b3aad464 -->
 - Read `unit-3-lesson-1-grammar.ts` for exact pattern
 - Create `src/lib/course/a1/unit-4-lesson-1-grammar.ts`
 - 15 exercises: Ex 1–5 fill-blank, Ex 6–10 multiple-choice, Ex 11–13 sentence-building, Ex 14–15 true-false
