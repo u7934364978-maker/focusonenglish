@@ -27,7 +27,7 @@ export const UNIT_2_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: 'What is the narrator\'s name?',
+          question: 'What is the [[narrator|narradora]]\'s name?',
           options: ['[[Maria|María]]', '[[Anna|Ana]]', '[[Luca|Luca]]', '[[Sofia|Sofía]]'],
           correctAnswer: 1,
           explanation: '[[She|Ella]] [[says|dice]]: "[[My name is Anna|Mi nombre es Ana]]".',
@@ -49,7 +49,7 @@ export const UNIT_2_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: 'Where is Anna from?',
+          question: 'Where is Anna [[from|de]]?',
           options: ['[[Spain|España]]', '[[France|Francia]]', '[[Germany|Alemania]]', '[[Italy|Italia]]'],
           correctAnswer: 2,
           explanation: '[[She|Ella]] [[says|dice]] "[[I am from Germany|Soy de Alemania]]".',
@@ -71,7 +71,7 @@ export const UNIT_2_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: 'What is Anna\'s nationality?',
+          question: 'What is Anna\'s [[nationality|nacionalidad]]?',
           options: ['[[Spanish|Española]]', '[[Italian|Italiana]]', '[[French|Francesa]]', '[[German|Alemana]]'],
           correctAnswer: 3,
           explanation: '[[She|Ella]] [[says|dice]] "[[I am German|Soy alemana]]".',
@@ -93,7 +93,7 @@ export const UNIT_2_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: 'Where is Luca from?',
+          question: 'Where is Luca [[from|de]]?',
           options: ['[[Germany|Alemania]]', '[[Spain|España]]', '[[Italy|Italia]]', '[[France|Francia]]'],
           correctAnswer: 2,
           explanation: '[[The|La]] [[transcript|transcripción]] [[says|dice]] "[[Luca is from Italy|Luca es de Italia]]".',
@@ -115,7 +115,7 @@ export const UNIT_2_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: 'What is Maria\'s nationality?',
+          question: 'What is Maria\'s [[nationality|nacionalidad]]?',
           options: ['[[Italian|Italiana]]', '[[German|Alemana]]', '[[French|Francesa]]', '[[Spanish|Española]]'],
           correctAnswer: 3,
           explanation: '[[The|La]] [[transcript|transcripción]] [[says|dice]] "[[She is Spanish|Ella es española]]".',
@@ -137,7 +137,7 @@ export const UNIT_2_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: 'How old is Luca?',
+          question: 'How [[old|de edad]] is Luca?',
           options: ['[[nineteen|diecinueve]]', '[[twenty|veinte]]', '[[twenty-one|veintiuno]]', '[[twenty-two|veintidós]]'],
           correctAnswer: 2,
           explanation: '[[The|La]] [[transcript|transcripción]] [[says|dice]] "[[Luca is twenty-one years old|Luca tiene veintiún años]]".',
@@ -159,7 +159,7 @@ export const UNIT_2_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: 'How old is Anna?',
+          question: 'How [[old|de edad]] is Anna?',
           options: ['[[eighteen|dieciocho]]', '[[nineteen|diecinueve]]', '[[twenty|veinte]]', '[[twenty-one|veintiuno]]'],
           correctAnswer: 2,
           explanation: '[[She|Ella]] [[says|dice]] "[[I am twenty years old|Tengo veinte años]]".',

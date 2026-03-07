@@ -27,7 +27,7 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
           question: '¿Cuál es la nacionalidad de alguien de España?',
           options: ['[[French|Francés]]', '[[Italian|Italiano]]', '[[Spanish|Español]]', '[[German|Alemán]]'],
           correctAnswer: 2,
-          explanation: '[[Spain|España]] → [[Spanish|Español/a]].',
+          explanation: 'España → [[Spanish|Español/a]].',
         },
       ],
     },
@@ -127,7 +127,7 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
           question: 'Hay ____ estudiantes en la clase: Ana, Luis, Tom, Mei y Sara.',
           options: ['[[three|tres]]', '[[four|cuatro]]', '[[five|cinco]]', '[[six|seis]]'],
           correctAnswer: 2,
-          explanation: '[[Ana|Ana]], [[Luis|Luis]], [[Tom|Tom]], [[Mei|Mei]] [[and|y]] [[Sara|Sara]] = [[five|cinco]] [[students|estudiantes]].',
+          explanation: 'Ana, Luis, Tom, Mei [[and|y]] Sara = [[five|cinco]] [[students|estudiantes]].',
         },
       ],
     },
@@ -286,8 +286,8 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_CTX,
       questions: [
         {
-          question: 'María dice: "Soy de México." Su profesora pregunta: "¿Entonces tú eres ____?"',
-          options: ['[[Brazilian|Brasileña]]', '[[American|Americana]]', '[[Mexican|Mexicana]]', '[[Spanish|Española]]'],
+          question: 'Maria says: "I am from Mexico." Her teacher asks: "So you are ____?"',
+          options: ['[[Brazilian|Brasileño]]', '[[American|Americano]]', '[[Mexican|Mexicano]]', '[[Spanish|Español]]'],
           correctAnswer: 2,
           explanation: '[[From|De]] [[Mexico|México]] → [[Mexican|Mexicano/a]].',
         },
@@ -306,7 +306,7 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_CTX,
       questions: [
         {
-          question: 'En la clase hay seis chicos y cuatro chicas. ¿Cuántos estudiantes hay en total?',
+          question: 'In the classroom there are six boys and four girls. How many students are there in total?',
           options: ['[[eight|Ocho]]', '[[nine|Nueve]]', '[[ten|Diez]]', '[[eleven|Once]]'],
           correctAnswer: 2,
           explanation: '[[Six|Seis]] + [[four|cuatro]] = [[ten|diez]]. [[Ten|Ten]] = [[ten|diez]].',
