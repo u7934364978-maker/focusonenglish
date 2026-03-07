@@ -6,7 +6,7 @@
 import { Exercise } from '@/lib/exercise-generator';
 
 const LESSON_TITLE = 'Comprensión lectora';
-const READING_TRANSCRIPT = `[[Hello|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] [[Tom|Tom]]. [[I|Yo]] [[am|soy]] [[from|de]] [[England|Inglaterra]]. [[I|Yo]] [[am|soy]] [[English|inglés]]. [[I|Yo]] [[have|tengo]] [[two|dos]] [[friends|amigos]]. [[My|Mi]] [[friend|amiga]] [[Sofia|Sofía]] [[is|es]] [[from|de]] [[Italy|Italia]]. [[She|Ella]] [[is|es]] [[Italian|italiana]]. [[My|Mi]] [[friend|amigo]] [[Carlos|Carlos]] [[is|es]] [[from|de]] [[Spain|España]]. [[He|Él]] [[is|es]] [[Spanish|español]]. [[We|Nosotros]] [[are|somos]] [[students|estudiantes]]. [[Sofia|Sofía]] [[is|es]] [[twenty|veinte]] [[years|años]] [[old|de edad]]. [[Carlos|Carlos]] [[is|es]] [[twenty-two|veintidós]] [[years|años]] [[old|de edad]]. [[I|Yo]] [[am|tengo]] [[nineteen|diecinueve]] [[years|años]] [[old|de edad]]. [[We|Nosotros]] [[are|somos]] [[happy|felices]] [[to|de]] [[be|ser]] [[friends|amigos]]!`;
+const READING_TRANSCRIPT = `[[Hello|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] Tom. [[I|Yo]] [[am|soy]] [[from|de]] [[England|Inglaterra]]. [[I|Yo]] [[am|soy]] [[English|inglés]]. [[I|Yo]] [[have|tengo]] [[two|dos]] [[friends|amigos]]. [[My|Mi]] [[friend|amiga]] Sofía [[is|es]] [[from|de]] [[Italy|Italia]]. [[She|Ella]] [[is|es]] [[Italian|italiana]]. [[My|Mi]] [[friend|amigo]] Carlos [[is|es]] [[from|de]] España. [[He|Él]] [[is|es]] [[Spanish|español]]. [[We|Nosotros]] [[are|somos]] [[students|estudiantes]]. Sofía [[is|es]] [[twenty|veinte]] [[years|años]] [[old|de edad]]. Carlos [[is|es]] [[twenty-two|veintidós]] [[years|años]] [[old|de edad]]. [[I|Yo]] [[am|tengo]] [[nineteen|diecinueve]] [[years|años]] [[old|de edad]]. [[We|Nosotros]] [[are|somos]] [[happy|felices]] [[to|de]] [[be|ser]] [[friends|amigos]]!`;
 
 const INST_MC = 'Lee el texto y elige la respuesta correcta.';
 const INST_TF = 'Lee el texto. Indica si la afirmación es verdadera o falsa.';
@@ -26,7 +26,7 @@ export const UNIT_2_LESSON_3_READING: Exercise[] = [
       questions: [
         {
           question: '¿Cómo se llama el narrador?',
-          options: ['[[Carlos|Carlos]]', '[[Tom|Tom]]', '[[Sofia|Sofía]]', '[[James|James]]'],
+          options: ['Carlos', 'Tom', 'Sofía', '[[James|James]]'],
           correctAnswer: 1,
           explanation: '[[He|Él]] [[says|dice]]: "[[My name is Tom|Mi nombre es Tom]]".',
         },
@@ -198,7 +198,7 @@ export const UNIT_2_LESSON_3_READING: Exercise[] = [
           question: 'Tom es de España.',
           options: ['[[True|Verdadero]]', '[[False|Falso]]'],
           correctAnswer: 'False',
-          explanation: '[[False|Falso]]. [[Tom|Tom]] [[is|es]] [[from|de]] [[England|Inglaterra]], [[not|no]] [[Spain|España]].',
+          explanation: '[[False|Falso]]. Tom [[is|es]] [[from|de]] [[England|Inglaterra]], [[not|no]] España.',
         },
       ],
     },
@@ -261,7 +261,7 @@ export const UNIT_2_LESSON_3_READING: Exercise[] = [
           question: 'Tom menciona tres amigos en el texto.',
           options: ['[[True|Verdadero]]', '[[False|Falso]]'],
           correctAnswer: 'False',
-          explanation: '[[False|Falso]]. [[Tom|Tom]] [[mentions|menciona]] [[two|dos]] [[friends|amigos]]: [[Sofia|Sofía]] [[and|y]] [[Carlos|Carlos]].',
+          explanation: '[[False|Falso]]. Tom [[mentions|menciona]] [[two|dos]] [[friends|amigos]]: Sofía [[and|y]] Carlos.',
         },
       ],
     },
@@ -326,7 +326,7 @@ export const UNIT_2_LESSON_3_READING: Exercise[] = [
           question: '¿De cuántos países distintos habla Tom en el texto?',
           options: ['[[one|uno]]', '[[two|dos]]', '[[three|tres]]', '[[four|cuatro]]'],
           correctAnswer: 2,
-          explanation: '[[Tom|Tom]] [[mentions|menciona]] [[England|Inglaterra]], [[Italy|Italia]] [[and|y]] [[Spain|España]] — [[three|tres]] [[countries|países]].',
+          explanation: 'Tom [[mentions|menciona]] [[England|Inglaterra]], [[Italy|Italia]] [[and|y]] España — [[three|tres]] [[countries|países]].',
         },
       ],
     },
