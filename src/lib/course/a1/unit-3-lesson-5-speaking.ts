@@ -178,7 +178,7 @@ export const UNIT_3_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Di en voz alta cómo te sientes hoy. Modelo: "I am …" / "I am not …"',
+      instructions: 'Di en voz alta cómo te sientes hoy.',
       targetText: '[[I am|Estoy]] ____ [[today|hoy]]. / [[I am not|No estoy]] ____ [[today|hoy]].',
       expectedResponse: 'I am [emotion] today. / I am not [emotion] today.',
     },
@@ -192,7 +192,7 @@ export const UNIT_3_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Haz una pregunta sobre cómo se siente alguien y da una respuesta corta. Modelo: "Is she happy? Yes, she is."',
+      instructions: 'Haz una pregunta sobre cómo se siente alguien y da una respuesta corta.',
       targetText: '[[Is|Está]] [[he/she|él/ella]] ____? [[Yes|Sí]], [[he/she|él/ella]] [[is|está]]. / [[No|No]], [[he/she|él/ella]] [[isn\'t|no está]].',
       expectedResponse: 'Is he/she [emotion]? Yes, he/she is. / No, he/she isn\'t.',
     },
@@ -206,7 +206,7 @@ export const UNIT_3_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Describe el estado emocional de un amigo en dos frases: una positiva y una negativa. Modelo: "She is excited. She is not tired."',
+      instructions: 'Describe el estado emocional de un amigo en dos frases: una positiva y una negativa.',
       targetText: '[[She/He|Ella/Él]] [[is|está]] ____. [[She/He|Ella/Él]] [[is not|no está]] ____.',
       expectedResponse: 'She/He is [emotion]. She/He is not [emotion].',
     },
