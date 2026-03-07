@@ -82,7 +82,8 @@ Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 - Ex 1–8 listening+multiple-choice, Ex 9–12 listening+true-false, Ex 13–15 listening+multiple-choice synthesis
 - IDs: a1-u4-l4-listening-1 … a1-u4-l4-listening-15
 
-### [ ] Step: Create unit-4-lesson-5-speaking.ts
+### [x] Step: Create unit-4-lesson-5-speaking.ts
+<!-- chat-id: a55ea459-1422-4f0c-9033-5d0f0c678427 -->
 - Read `unit-3-lesson-5-speaking.ts` for exact pattern
 - Create `src/lib/course/a1/unit-4-lesson-5-speaking.ts`
 - 15 pronunciation exercises: Ex 1–4 repeat, Ex 5–7 read aloud, Ex 8–11 answer questions, Ex 12–15 produce guided phrase
