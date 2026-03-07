@@ -109,7 +109,7 @@ export const UNIT_4_LESSON_5_SPEAKING: Exercise[] = [
     content: {
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS_READ,
-      targetText: '[[My|Mi]] [[bag|mochila]] [[is|es]] [[black|negra]] [[and|y]] [[my|mi]] [[pencil|lápiz]] [[is|es]] [[green.|verde.]]',
+      targetText: '[[My|Mi]] [[bag|mochila]] [[is|es]] [[black|negra]] and [[my|mi]] [[pencil|lápiz]] [[is|es]] [[green.|verde.]]',
       expectedResponse: 'My bag is black and my pencil is green.',
     },
     topicName: 'Speaking',
@@ -197,7 +197,7 @@ export const UNIT_4_LESSON_5_SPEAKING: Exercise[] = [
     content: {
       title: LESSON_TITLE,
       instructions: 'Describe dos objetos usando "this" y "that".',
-      targetText: '[[This|Esto]] [[is|es]] [[a|un]] [[pencil|lápiz]] [[and|y]] [[that|eso]] [[is|es]] [[a|un]] [[notebook.|cuaderno.]]',
+      targetText: '[[This|Esto]] [[is|es]] [[a|un]] [[pencil|lápiz]] and [[that|eso]] [[is|es]] [[a|un]] [[notebook.|cuaderno.]]',
       expectedResponse: 'This is a pencil and that is a notebook.',
     },
     topicName: 'Speaking',
@@ -225,7 +225,7 @@ export const UNIT_4_LESSON_5_SPEAKING: Exercise[] = [
     content: {
       title: LESSON_TITLE,
       instructions: 'Describe objetos cercanos y lejanos usando los cuatro demostrativos.',
-      targetText: '[[This|Esto]] [[is|es]] [[my|mi]] [[bag,|mochila,]] [[that|eso]] [[is|es]] [[a|un]] [[desk,|escritorio,]] [[these|estos]] [[are|son]] [[pens|bolígrafos]] [[and|y]] [[those|esos]] [[are|son]] [[chairs.|sillas.]]',
+      targetText: '[[This|Esto]] [[is|es]] [[my|mi]] [[bag,|mochila,]] [[that|eso]] [[is|es]] [[a|un]] [[desk,|escritorio,]] [[these|estos]] [[are|son]] [[pens|bolígrafos]] and [[those|esos]] [[are|son]] [[chairs.|sillas.]]',
       expectedResponse: 'This is my bag, that is a desk, these are pens and those are chairs.',
     },
     topicName: 'Speaking',

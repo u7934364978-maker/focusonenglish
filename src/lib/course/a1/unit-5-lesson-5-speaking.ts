@@ -41,7 +41,7 @@ export const UNIT_5_LESSON_5_SPEAKING: Exercise[] = [
     content: {
       title: LESSON_TITLE,
       instructions: 'Escucha y repite en voz alta.',
-      targetText: '[[He|Él]] [[eats|come]] [[breakfast|el desayuno]] [[and|y]] [[drinks|bebe]] [[coffee|café]] [[every|cada]] [[morning|mañana]].',
+      targetText: '[[He|Él]] [[eats|come]] [[breakfast|el desayuno]] and [[drinks|bebe]] [[coffee|café]] [[every|cada]] [[morning|mañana]].',
       expectedResponse: 'He eats breakfast and drinks coffee every morning.',
     },
     topicName: 'Speaking',
@@ -55,7 +55,7 @@ export const UNIT_5_LESSON_5_SPEAKING: Exercise[] = [
     content: {
       title: LESSON_TITLE,
       instructions: 'Escucha y repite en voz alta.',
-      targetText: '[[They|Ellos]] [[study|estudian]] [[English|inglés]] [[and|y]] [[play|juegan]] [[football|al fútbol]] [[after|después del]] [[school|colegio]].',
+      targetText: '[[They|Ellos]] [[study|estudian]] [[English|inglés]] and [[play|juegan]] [[football|al fútbol]] [[after|después del]] [[school|colegio]].',
       expectedResponse: 'They study English and play football after school.',
     },
     topicName: 'Speaking',
@@ -71,7 +71,7 @@ export const UNIT_5_LESSON_5_SPEAKING: Exercise[] = [
     content: {
       title: LESSON_TITLE,
       instructions: 'Lee la frase siguiente en voz alta.',
-      targetText: '[[I|Yo]] [[get|me]] [[up|levanto]], [[eat|desayuno]] [[breakfast|—]], [[and|y]] [[go|voy]] [[to|a]] [[work|trabajar]] [[every|cada]] [[morning|mañana]].',
+      targetText: '[[I|Yo]] [[get|me]] [[up|levanto]], [[eat|desayuno]] [[breakfast|—]], and [[go|voy]] [[to|a]] [[work|trabajar]] [[every|cada]] [[morning|mañana]].',
       expectedResponse: 'I get up, eat breakfast, and go to work every morning.',
     },
     topicName: 'Speaking',
@@ -85,7 +85,7 @@ export const UNIT_5_LESSON_5_SPEAKING: Exercise[] = [
     content: {
       title: LESSON_TITLE,
       instructions: 'Lee la frase en voz alta.',
-      targetText: '[[She|Ella]] [[wakes|se]] [[up|despierta]] [[at|a las]] [[six|seis]], [[studies|estudia]] [[for|durante]] [[two|dos]] [[hours|horas]], [[and|y]] [[goes|va]] [[to|al]] [[the|—]] [[gym|gimnasio]].',
+      targetText: '[[She|Ella]] [[wakes|se]] [[up|despierta]] [[at|a las]] [[six|seis]], [[studies|estudia]] [[for|durante]] [[two|dos]] [[hours|horas]], and [[goes|va]] [[to|al]] [[the|—]] [[gym|gimnasio]].',
       expectedResponse: 'She wakes up at six, studies for two hours, and goes to the gym.',
     },
     topicName: 'Speaking',
@@ -99,7 +99,7 @@ export const UNIT_5_LESSON_5_SPEAKING: Exercise[] = [
     content: {
       title: LESSON_TITLE,
       instructions: 'Lee la frase en voz alta.',
-      targetText: '[[We|Nosotros]] [[eat|cenamos]] [[dinner|la cena]] [[at|a las]] [[eight|ocho]] [[and|y]] [[sleep|dormimos]] [[at|a las]] [[ten|diez]] [[every|cada]] [[night|noche]].',
+      targetText: '[[We|Nosotros]] [[eat|cenamos]] [[dinner|la cena]] [[at|a las]] [[eight|ocho]] and [[sleep|dormimos]] [[at|a las]] [[ten|diez]] [[every|cada]] [[night|noche]].',
       expectedResponse: 'We eat dinner at eight and sleep at ten every night.',
     },
     topicName: 'Speaking',
@@ -187,7 +187,7 @@ export const UNIT_5_LESSON_5_SPEAKING: Exercise[] = [
     content: {
       title: LESSON_TITLE,
       instructions: 'Describe en voz alta lo que hace un amigo o familiar por la mañana.',
-      targetText: '[[He/She|Él/Ella]] [[wakes|se]] [[up|despierta]] [[at|a las]] ____. [[He/She|Él/Ella]] [[eats|come]] ____ [[and|y]] [[goes|va]] [[to|a]] ____.',
+      targetText: '[[He/She|Él/Ella]] [[wakes|se]] [[up|despierta]] [[at|a las]] ____. [[He/She|Él/Ella]] [[eats|come]] ____ and [[goes|va]] [[to|a]] ____.',
       expectedResponse: 'He/She wakes up at [time]. He/She eats [food] and goes to [place].',
     },
     topicName: 'Speaking',
@@ -215,7 +215,7 @@ export const UNIT_5_LESSON_5_SPEAKING: Exercise[] = [
     content: {
       title: LESSON_TITLE,
       instructions: 'Habla en voz alta sobre tu rutina diaria completa: mañana, tarde y noche.',
-      targetText: '[[Every|Cada]] [[day|día]], [[I|yo]] [[wake|me]] [[up|despierto]] [[at|a las]] ____, [[work/study|trabajo/estudio]] ____, [[and|y]] [[sleep|duermo]] [[at|a las]] ____.',
+      targetText: '[[Every|Cada]] [[day|día]], [[I|yo]] [[wake|me]] [[up|despierto]] [[at|a las]] ____, [[work/study|trabajo/estudio]] ____, and [[sleep|duermo]] [[at|a las]] ____.',
       expectedResponse: 'Every day, I wake up at [time], work/study [place/activity], and sleep at [time].',
     },
     topicName: 'Speaking',

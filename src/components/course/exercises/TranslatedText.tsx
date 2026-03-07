@@ -119,26 +119,26 @@ interface TooltipProps {
 }
 
 const Tooltip: React.FC<TooltipProps> = ({ word, translation, useStrong }) => (
-  <span className="group relative inline-block border-b-2 border-dotted border-indigo-300 hover:border-indigo-500 cursor-help transition-all duration-200 hover:z-[110]">
+  <span className="group relative inline-block border-b-2 border-dotted border-indigo-300 hover:border-indigo-500 cursor-help transition-all duration-200 hover:z-[200] mx-0.5 align-baseline">
     <span className={useStrong ? "font-bold text-indigo-700 dark:text-indigo-400" : "text-indigo-600 dark:text-indigo-400 font-medium"}>
       {word}
     </span>
+    {/* Tooltip debajo para no solapar enunciados ni otras opciones */}
     <span 
-      className="absolute bottom-full left-1/2 -translate-x-1/2 mb-3 w-max max-w-[220px] p-3 bg-slate-900 text-white text-xs rounded-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-[100] shadow-2xl border border-slate-700 transform translate-y-1 group-hover:translate-y-0 pointer-events-none group-hover:pointer-events-auto" 
+      className="absolute top-full left-0 mt-2 w-max max-w-[260px] p-3 bg-slate-900 text-white text-xs rounded-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-[200] shadow-2xl border border-slate-700 pointer-events-none group-hover:pointer-events-auto whitespace-normal break-words" 
       aria-hidden="true"
     >
       <span className="flex items-center justify-between gap-3 mb-2">
         <span className="block font-black text-indigo-400 uppercase tracking-widest text-[10px] truncate">
           {word}
         </span>
-        <AudioButton text={word} size="sm" className="bg-slate-800 hover:bg-slate-700 text-indigo-400 border-none scale-75" />
+        <AudioButton text={word} size="sm" className="bg-slate-800 hover:bg-slate-700 text-indigo-400 border-none scale-75 flex-shrink-0" />
       </span>
       <span className="block text-slate-200 leading-snug font-medium text-sm">
         {translation}
       </span>
-      <span className="absolute top-full left-1/2 -translate-x-1/2 border-8 border-transparent border-t-slate-900"></span>
-      {/* Invisible bridge to handle the gap between word and tooltip */}
-      <span className="absolute top-full left-0 right-0 h-4" />
+      {/* Flecha hacia arriba */}
+      <span className="absolute bottom-full left-4 border-[6px] border-transparent border-b-slate-900" />
     </span>
   </span>
 );

@@ -341,7 +341,7 @@ export const UNIT_4_LESSON_2_VOCABULARY: Exercise[] = [
             '[[It is an black eraser.|Es una goma negra.]]',
           ],
           correctAnswer: 0,
-          explanation: '"[[It is a black eraser.|Es una goma negra.]]" [[uses|usa]] [[the correct article|el artículo correcto]] "[[a|una]]" [[and|y]] [[singular noun|sustantivo singular]].',
+          explanation: '"[[It is a black eraser.|Es una goma negra.]]" [[uses|usa]] [[the correct article|el artículo correcto]] "[[a|una]]" and [[singular noun|sustantivo singular]].',
         },
       ],
     },

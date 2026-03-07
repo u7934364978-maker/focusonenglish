@@ -119,7 +119,7 @@ export const UNIT_3_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Order|Ordena]] [[the|las]] [[words|palabras]] [[and|y]] [[write|escribe]] [[the|la]] [[sentence|frase]] [[in|en]] [[the|el]] [[box|recuadro]] [[below|abajo]].',
+      instructions: '[[Order|Ordena]] [[the|las]] [[words|palabras]] and [[write|escribe]] [[the|la]] [[sentence|frase]] [[in|en]] [[the|el]] [[box|recuadro]] [[below|abajo]].',
       correctSentence: '[[I|Yo]] [[am not|no estoy]] [[angry|enfadado]].',
       words: ['[[am not|no estoy]]', '[[I|Yo]]', '[[angry|enfadado]].'],
     },
@@ -178,7 +178,7 @@ export const UNIT_3_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Write|Escribe]] [[a|una]] [[question|pregunta]] [[about|sobre]] [[how|cómo]] [[a|un]] [[friend|amigo]] [[feels|se siente]] [[and|y]] [[a|una]] [[short|corta]] [[answer|respuesta]]. [[Model|Modelo]]: "[[Is she happy?|¿Está ella feliz?]] [[Yes, she is.|Sí, lo está.]]"',
+      instructions: '[[Write|Escribe]] [[a|una]] [[question|pregunta]] [[about|sobre]] [[how|cómo]] [[a|un]] [[friend|amigo]] [[feels|se siente]] and [[a|una]] [[short|corta]] [[answer|respuesta]]. [[Model|Modelo]]: "[[Is she happy?|¿Está ella feliz?]] [[Yes, she is.|Sí, lo está.]]"',
       prompt: '[[Is|Está]] [[he/she|él/ella]] ____? [[Yes/No|Sí/No]], [[he/she|él/ella]] ____.',
       minWords: 5,
       maxWords: 15,
@@ -193,7 +193,7 @@ export const UNIT_3_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Write|Escribe]] [[2|dos]] [[sentences|frases]] [[about|sobre]] [[a|un]] [[friend|amigo]]: [[one|una]] [[positive|positiva]] [[and|y]] [[one|una]] [[negative|negativa]]. [[Model|Modelo]]: "[[He is excited.|Él está emocionado.]] [[He is not sad.|Él no está triste.]]"',
+      instructions: '[[Write|Escribe]] [[2|dos]] [[sentences|frases]] [[about|sobre]] [[a|un]] [[friend|amigo]]: [[one|una]] [[positive|positiva]] and [[one|una]] [[negative|negativa]]. [[Model|Modelo]]: "[[He is excited.|Él está emocionado.]] [[He is not sad.|Él no está triste.]]"',
       prompt: '[[He/She|Él/Ella]] [[is|está]] ____. [[He/She|Él/Ella]] [[is not|no está]] ____.',
       minWords: 8,
       maxWords: 20,
@@ -208,7 +208,7 @@ export const UNIT_3_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Write|Escribe]] [[a|un]] [[short|breve]] [[dialogue|diálogo]]: [[ask|pregunta]] [[someone|alguien]] "[[How are you?|¿Cómo estás?]]" [[and|y]] [[write|escribe]] [[their|su]] [[answer|respuesta]] [[with|con]] [[one|una]] [[positive|positiva]] [[and|y]] [[one|una]] [[negative|negativa]] [[sentence|frase]].',
+      instructions: '[[Write|Escribe]] [[a|un]] [[short|breve]] [[dialogue|diálogo]]: [[ask|pregunta]] [[someone|alguien]] "[[How are you?|¿Cómo estás?]]" and [[write|escribe]] [[their|su]] [[answer|respuesta]] [[with|con]] [[one|una]] [[positive|positiva]] and [[one|una]] [[negative|negativa]] [[sentence|frase]].',
       prompt: '[[How are you?|¿Cómo estás?]] — [[I am|Estoy]] ____. [[I am not|No estoy]] ____.',
       minWords: 8,
       maxWords: 20,
@@ -225,7 +225,7 @@ export const UNIT_3_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Write|Escribe]] [[a|un]] [[short|breve]] [[paragraph|párrafo]] [[about|sobre]] [[how|cómo]] [[you|tú]] [[and|y]] [[a|un]] [[friend|amigo]] [[feel|se sienten]] [[today|hoy]]. [[Include|Incluye]] [[at least|al menos]] [[one|una]] [[negative|negativa]] [[and|y]] [[one|una]] [[question|pregunta]]. [[Use|Usa]] [[4|cuatro]] [[to|a]] [[6|seis]] [[sentences|frases]].',
+      instructions: '[[Write|Escribe]] [[a|un]] [[short|breve]] [[paragraph|párrafo]] [[about|sobre]] [[how|cómo]] [[you|tú]] and [[a|un]] [[friend|amigo]] [[feel|se sienten]] [[today|hoy]]. [[Include|Incluye]] [[at least|al menos]] [[one|una]] [[negative|negativa]] and [[one|una]] [[question|pregunta]]. [[Use|Usa]] [[4|cuatro]] [[to|a]] [[6|seis]] [[sentences|frases]].',
       prompt: '[[Write about your emotions and a friend\'s emotions today|Escribe sobre tus emociones y las de un amigo hoy]].',
       minWords: 25,
       maxWords: 60,
@@ -240,7 +240,7 @@ export const UNIT_3_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Imagine|Imagina]] [[you|tú]] [[are|estás]] [[writing|escribiendo]] [[a|un]] [[message|mensaje]] [[to|a]] [[a|un]] [[friend|amigo]] [[to|para]] [[ask|preguntarle]] [[how|cómo]] [[they|se]] [[feel|sienten]] [[and|y]] [[tell|contarle]] [[them|les]] [[how|cómo]] [[you|tú]] [[feel|te sientes]]. [[Write|Escribe]] [[4|cuatro]] [[to|a]] [[6|seis]] [[sentences|frases]].',
+      instructions: '[[Imagine|Imagina]] [[you|tú]] [[are|estás]] [[writing|escribiendo]] [[a|un]] [[message|mensaje]] [[to|a]] [[a|un]] [[friend|amigo]] [[to|para]] [[ask|preguntarle]] [[how|cómo]] [[they|se]] [[feel|sienten]] and [[tell|contarle]] [[them|les]] [[how|cómo]] [[you|tú]] [[feel|te sientes]]. [[Write|Escribe]] [[4|cuatro]] [[to|a]] [[6|seis]] [[sentences|frases]].',
       prompt: '[[Write a message asking how your friend feels and saying how you feel|Escribe un mensaje preguntando cómo se siente tu amigo y diciendo cómo te sientes tú]].',
       minWords: 25,
       maxWords: 60,
@@ -255,7 +255,7 @@ export const UNIT_3_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Describe|Describe]] [[your|tu]] [[typical|típico]] [[Monday|lunes]] [[morning|por la mañana]]: [[how|cómo]] [[you|tú]] [[feel|te sientes]], [[what|qué]] [[you|tú]] [[are|eres]] [[or|o]] [[are not|no eres]] ([[tired|cansado]], [[hungry|hambriento]], [[excited|emocionado]], [[etc|etc.]]). [[Use|Usa]] [[4|cuatro]] [[to|a]] [[6|seis]] [[sentences|frases]] [[including|incluyendo]] [[at least|al menos]] [[two|dos]] [[negatives|negaciones]] [[and|y]] [[one|una]] [[question|pregunta]].',
+      instructions: '[[Describe|Describe]] [[your|tu]] [[typical|típico]] [[Monday|lunes]] [[morning|por la mañana]]: [[how|cómo]] [[you|tú]] [[feel|te sientes]], [[what|qué]] [[you|tú]] [[are|eres]] [[or|o]] [[are not|no eres]] ([[tired|cansado]], [[hungry|hambriento]], [[excited|emocionado]], [[etc|etc.]]). [[Use|Usa]] [[4|cuatro]] [[to|a]] [[6|seis]] [[sentences|frases]] [[including|incluyendo]] [[at least|al menos]] [[two|dos]] [[negatives|negaciones]] and [[one|una]] [[question|pregunta]].',
       prompt: '[[My typical Monday morning: how I feel|Mi típico lunes por la mañana: cómo me siento]].',
       minWords: 30,
       maxWords: 70,

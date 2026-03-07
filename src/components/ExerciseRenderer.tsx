@@ -311,7 +311,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
 
           {/* Multiple Choice (including fill-blank with options) — no mostrar para true-false para evitar doble botón */}
           {q.options && Array.isArray(q.options) && !(q.type === 'true-false' || exercise.type === 'true-false') && (
-            <div className="space-y-2.5">
+            <div className="space-y-4 overflow-visible">
               {q.options.map((option: any, optIndex: number) => {
                 const isUserAnswer = userAnswer === optIndex;
                 const isCorrectAnswer = checkMultipleChoiceCorrect(q, optIndex);
@@ -327,7 +327,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                     whileTap={!submitted ? { scale: 0.97 } : {}}
                     animate={isUserAnswer && !submitted ? { scale: [1, 1.03, 1] } : { scale: 1 }}
                     transition={{ duration: 0.18 }}
-                    className={`w-full text-left p-4 rounded-2xl border-2 transition-colors duration-200 group focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B6B] focus-visible:ring-offset-2 ${
+                    className={`relative w-full text-left p-4 pb-5 rounded-2xl border-2 transition-colors duration-200 group focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B6B] focus-visible:ring-offset-2 overflow-visible ${
                       showAsCorrect
                         ? 'border-green-400 bg-green-50 shadow-sm'
                         : showAsIncorrect

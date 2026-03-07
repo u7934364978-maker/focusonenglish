@@ -98,7 +98,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
         {
           question: "We ________ football every weekend.",
           answer: "play",
-          explanation: "[[Use|Usa]] '[[play|jugar]]' [[with|con]] [[team|equipo]] [[sports|deportes]] [[and|y]] [[games|juegos]] [[with|con]] [[a|una]] [[ball|pelota]]."
+          explanation: "[[Use|Usa]] '[[play|jugar]]' [[with|con]] [[team|equipo]] [[sports|deportes]] and [[games|juegos]] [[with|con]] [[a|una]] [[ball|pelota]]."
         },
         {
           question: "She loves to ________ cycling in the park.",
@@ -283,7 +283,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
         {
           question: "My sister loves playing ________ with her friends.",
           answer: "tennis",
-          explanation: "[[Tennis|Tenis]] [[is|es]] [[a|un]] [[sport|deporte]] [[where|donde]] [[you|tú]] [[use|usas]] [[a|una]] [[racket|raqueta]] [[and|y]] [[a|una]] [[ball|pelota]]."
+          explanation: "[[Tennis|Tenis]] [[is|es]] [[a|un]] [[sport|deporte]] [[where|donde]] [[you|tú]] [[use|usas]] [[a|una]] [[racket|raqueta]] and [[a|una]] [[ball|pelota]]."
         }
       ]
     },
@@ -1104,8 +1104,8 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topic: "Sports",
     difficulty: "medium",
     content: {
-      title: "[[Listen|Escucha]] [[and|y]] [[Complete|Completa]]",
-      instructions: "[[Listen|Escucha]] [[and|y]] [[type|escribe]] [[the|el]] [[missing|faltante]] [[word|palabra]]:",
+      title: "[[Listen|Escucha]] and [[Complete|Completa]]",
+      instructions: "[[Listen|Escucha]] and [[type|escribe]] [[the|el]] [[missing|faltante]] [[word|palabra]]:",
       transcript: "I love football.",
       questions: [
         {
@@ -1125,8 +1125,8 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topic: "Grammar",
     difficulty: "medium",
     content: {
-      title: "[[Listen|Escucha]] [[and|y]] [[Complete|Completa]]",
-      instructions: "[[Listen|Escucha]] [[and|y]] [[complete|completa]] [[the|la]] [[sentence|frase]]:",
+      title: "[[Listen|Escucha]] and [[Complete|Completa]]",
+      instructions: "[[Listen|Escucha]] and [[complete|completa]] [[the|la]] [[sentence|frase]]:",
       transcript: "Let's go cycling.",
       questions: [
         {
@@ -1146,8 +1146,8 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topic: "Hobbies",
     difficulty: "medium",
     content: {
-      title: "[[Listen|Escucha]] [[and|y]] [[Write|Escribe]]",
-      instructions: "[[Listen|Escucha]] [[and|y]] [[write|escribe]] [[the|el]] [[hobby|pasatiempo]]:",
+      title: "[[Listen|Escucha]] and [[Write|Escribe]]",
+      instructions: "[[Listen|Escucha]] and [[write|escribe]] [[the|el]] [[hobby|pasatiempo]]:",
       transcript: "I like gardening.",
       questions: [
         {
@@ -1167,8 +1167,8 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topic: "Gerunds",
     difficulty: "medium",
     content: {
-      title: "[[Listen|Escucha]] [[and|y]] [[Complete|Completa]]",
-      instructions: "[[Listen|Escucha]] [[and|y]] [[complete|completa]]:",
+      title: "[[Listen|Escucha]] and [[Complete|Completa]]",
+      instructions: "[[Listen|Escucha]] and [[complete|completa]]:",
       transcript: "She loves dancing.",
       questions: [
         {
@@ -1189,7 +1189,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       title: "[[Long|Larga]] [[Sentence|Frase]]",
-      instructions: "[[Listen|Escucha]] [[and|y]] [[complete|completa]]:",
+      instructions: "[[Listen|Escucha]] and [[complete|completa]]:",
       transcript: "My favorite sport is basketball.",
       questions: [
         {
@@ -1209,8 +1209,8 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topic: "Photography",
     difficulty: "medium",
     content: {
-      title: "[[Listen|Escucha]] [[and|y]] [[Complete|Completa]]",
-      instructions: "[[Listen|Escucha]] [[and|y]] [[complete|completa]]:",
+      title: "[[Listen|Escucha]] and [[Complete|Completa]]",
+      instructions: "[[Listen|Escucha]] and [[complete|completa]]:",
       transcript: "Do you like photography?",
       questions: [
         {
@@ -1231,7 +1231,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       title: "[[Reading|Lectura]] [[Comprehension|Comprensión]]",
-      instructions: "[[Read|Lee]] [[and|y]] [[answer|responde]] [[True|Verdadero]] [[or|o]] [[False|Falso]]:",
+      instructions: "[[Read|Lee]] and [[answer|responde]] [[True|Verdadero]] [[or|o]] [[False|Falso]]:",
       text: "I love sports. Every Saturday, I go to the park with my friends. We play football for two hours. It's very fun!",
       questions: [
         {
@@ -1250,7 +1250,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       title: "[[Reading|Lectura]] [[Comprehension|Comprensión]]",
-      instructions: "[[Read|Lee]] [[and|y]] [[choose|elige]] [[the|la]] [[correct|correcta]] [[option|opción]]:",
+      instructions: "[[Read|Lee]] and [[choose|elige]] [[the|la]] [[correct|correcta]] [[option|opción]]:",
       text: "Mark is a chef, but his hobby is not cooking. In his free time, he loves going to the beach and surfing. He thinks surfing is more exciting than cooking.",
       questions: [
         {
@@ -1270,7 +1270,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       title: "[[Reading|Lectura]] [[Comprehension|Comprensión]]",
-      instructions: "[[Read|Lee]] [[and|y]] [[choose|elige]]:",
+      instructions: "[[Read|Lee]] and [[choose|elige]]:",
       text: "Anna loves reading. She sits in her garden with a good book. Reading is her favorite hobby because it is quiet and relaxing. Sometimes, she swims in the pool or plays tennis with her friends. But reading is the most peaceful activity for her. She feels happy when she reads her favorite stories.",
       questions: [
         {
@@ -1289,8 +1289,8 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topic: "Hobbies",
     difficulty: "medium",
     content: {
-      title: "[[Listen|Escucha]] [[and|y]] [[Complete|Completa]]",
-      instructions: "[[Listen|Escucha]] [[and|y]] [[complete|completa]]:",
+      title: "[[Listen|Escucha]] and [[Complete|Completa]]",
+      instructions: "[[Listen|Escucha]] and [[complete|completa]]:",
       transcript: "I enjoy painting.",
       questions: [
         {
@@ -1310,8 +1310,8 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topic: "Sports",
     difficulty: "medium",
     content: {
-      title: "[[Listen|Escucha]] [[and|y]] [[Complete|Completa]]",
-      instructions: "[[Listen|Escucha]] [[and|y]] [[complete|completa]]:",
+      title: "[[Listen|Escucha]] and [[Complete|Completa]]",
+      instructions: "[[Listen|Escucha]] and [[complete|completa]]:",
       transcript: "They play volleyball.",
       questions: [
         {
@@ -1332,7 +1332,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       title: "[[Reading|Lectura]] [[Comprehension|Comprensión]]",
-      instructions: "[[Read|Lee]] [[and|y]] [[choose|elige]]:",
+      instructions: "[[Read|Lee]] and [[choose|elige]]:",
       text: "Tom is very active. On Mondays, he goes swimming. On Wednesdays, he plays tennis. On weekends, he goes hiking with his dog. He doesn't like staying at home.",
       questions: [
         {
@@ -1352,7 +1352,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "medium",
     content: {
       title: "[[Reading|Lectura]] [[Comprehension|Comprensión]]",
-      instructions: "[[Read|Lee]] [[and|y]] [[answer|responde]]:",
+      instructions: "[[Read|Lee]] and [[answer|responde]]:",
       text: "[[Sarah|Sarah]] [[loves|ama]] [[cooking|cocinar]] [[for|para]] [[her|su]] [[family|familia]]. [[Every|Cada]] [[Sunday|domingo]], [[she|ella]] [[makes|hace]] [[a|una]] [[big|grande]] [[dinner|cena]]. [[Her|Su]] [[favorite|favorita]] [[thing|cosa]] [[to|para]] [[cook|cocinar]] [[is|es]] [[pasta|pasta]]. [[She|Ella]] [[doesn't|no]] [[like|le gusta]] [[washing|lavar]] [[the|los]] [[dishes|platos]], [[but|pero]] [[she|ella]] [[loves|ama]] [[eating|comer]]!",
       questions: [
         {
@@ -1370,8 +1370,8 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     topic: "Preferences",
     difficulty: "medium",
     content: {
-      title: "[[Listen|Escucha]] [[and|y]] [[Complete|Completa]]",
-      instructions: "[[Listen|Escucha]] [[and|y]] [[complete|completa]]:",
+      title: "[[Listen|Escucha]] and [[Complete|Completa]]",
+      instructions: "[[Listen|Escucha]] and [[complete|completa]]:",
       transcript: "We hate running.",
       questions: [
         {
@@ -1392,7 +1392,7 @@ export const UNIT_32_EXERCISES: Exercise[] = [
     difficulty: "hard",
     content: {
       title: "[[Reading|Lectura]] [[Comprehension|Comprensión]]",
-      instructions: "[[Read|Lee]] [[and|y]] [[choose|elige]]:",
+      instructions: "[[Read|Lee]] and [[choose|elige]]:",
       text: "David lives in London. He likes the city, but he loves the mountains. Every year, he goes to Switzerland for his holiday. He goes skiing in the morning and drinks hot chocolate in the afternoon. It is his favorite time of the year.",
       questions: [
         {

@@ -239,7 +239,7 @@ export const UNIT_5_LESSON_6_WRITING: Exercise[] = [
     content: {
       title: LESSON_TITLE,
       instructions: 'Describe la rutina diaria de un amigo o familiar. Usa la tercera persona del singular (he/she) y al menos cuatro verbos distintos. Escribe entre cuatro y seis frases.',
-      prompt: '[[My|Mi]] [[friend/family member|amigo/familiar]] [[and|y]] [[his/her|su]] [[daily|diaria]] [[routine|rutina]].',
+      prompt: '[[My|Mi]] [[friend/family member|amigo/familiar]] and [[his/her|su]] [[daily|diaria]] [[routine|rutina]].',
       minWords: 25,
       maxWords: 60,
     },

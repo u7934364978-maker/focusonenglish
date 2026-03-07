@@ -423,7 +423,7 @@ export const UNIT_12_EXERCISES: Exercise[] = [
       "title": "[[Sentence Building|Construcción de Frases]]",
       "instructions": "[[Order the words|Ordena las palabras]].",
       "correctSentence": "[[He works on Monday and Tuesday|Él trabaja el lunes y el martes]].",
-      "words": ["[[Tuesday|martes]].", "[[and|y]]", "[[Monday|lunes]]", "[[on|el]]", "[[works|trabaja]]", "[[He|Él]]"],
+      "words": ["[[Tuesday|martes]].", "and", "[[Monday|lunes]]", "[[on|el]]", "[[works|trabaja]]", "[[He|Él]]"],
       "explanation": "[[Structure: Subject + Verb + on + Day + and + Day|Estructura: Sujeto + Verbo + on + Día + and + Día]]."
     },
     "audioUrl": "audio/a1/unit-12/e23.mp3",

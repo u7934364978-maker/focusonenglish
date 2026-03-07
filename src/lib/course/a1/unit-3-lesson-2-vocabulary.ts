@@ -284,7 +284,7 @@ export const UNIT_3_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_CTX,
       questions: [
         {
-          question: '[[Someone|Alguien]] [[asks|pregunta]] "[[How are you?|¿Cómo estás?]]" [[and|y]] [[you|tú]] [[feel|te sientes]] [[good|bien]]. [[You|Tú]] [[reply|respondes]]:',
+          question: '[[Someone|Alguien]] [[asks|pregunta]] "[[How are you?|¿Cómo estás?]]" and [[you|tú]] [[feel|te sientes]] [[good|bien]]. [[You|Tú]] [[reply|respondes]]:',
           options: ['[[I am sad.|Estoy triste.]]', '[[I am fine, thank you.|Estoy bien, gracias.]]', '[[I am angry.|Estoy enfadado.]]', '[[I am scared.|Estoy asustado.]]'],
           correctAnswer: 1,
           explanation: '"[[I am fine, thank you.|Estoy bien, gracias.]]" [[is|es]] [[the|la]] [[standard|estándar]] [[positive|positiva]] [[reply|respuesta]] [[to|a]] "[[How are you?|¿Cómo estás?]]".',
@@ -304,7 +304,7 @@ export const UNIT_3_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_CTX,
       questions: [
         {
-          question: '[[Context|Contexto]]: [[A|Un]] [[friend|amigo]] [[asks|pregunta]] "[[Are|Estás]] [[you|tú]] [[hungry|hambriento]]?" [[and|y]] [[you|tú]] [[are|lo estás]]. [[You|Tú]] [[reply|respondes]]:',
+          question: '[[Context|Contexto]]: [[A|Un]] [[friend|amigo]] [[asks|pregunta]] "[[Are|Estás]] [[you|tú]] [[hungry|hambriento]]?" and [[you|tú]] [[are|lo estás]]. [[You|Tú]] [[reply|respondes]]:',
           options: ['[[No, I\'m not.|No, no lo estoy.]]', '[[I am sad.|Estoy triste.]]', '[[Yes, I am.|Sí, lo estoy.]]', '[[I am bored.|Estoy aburrido.]]'],
           correctAnswer: 2,
           explanation: '"[[Yes, I am.|Sí, lo estoy.]]" [[is|es]] [[the|la]] [[correct|correcta]] [[short|corta]] [[positive|positiva]] [[answer|respuesta]].',

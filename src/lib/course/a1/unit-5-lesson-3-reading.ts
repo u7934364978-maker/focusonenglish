@@ -1,11 +1,11 @@
 import { Exercise } from '@/lib/exercise-generator';
 
 const LESSON_TITLE = 'Comprensión lectora';
-const READING_TRANSCRIPT = `[[María|María]] [[wakes|se despierta]] [[up|—]] [[every|todos]] [[day|los días]] [[at|a]] [[seven|las siete]]. [[She|Ella]] [[gets|se levanta]] [[up|—]] [[and|y]] [[goes|va]] [[to|al]] [[the|—]] [[bathroom|baño]]. [[Then|Luego]], [[she|ella]] [[eats|desayuna]] [[breakfast|el desayuno]] [[in|en]] [[the|—]] [[kitchen|la cocina]]. [[She|Ella]] [[drinks|bebe]] [[a|un]] [[cup|taza]] [[of|de]] [[coffee|café]] [[every|todas las]] [[morning|mañanas]].
+const READING_TRANSCRIPT = `[[María|María]] [[wakes|se despierta]] [[up|—]] [[every|todos]] [[day|los días]] [[at|a]] [[seven|las siete]]. [[She|Ella]] [[gets|se levanta]] [[up|—]] and [[goes|va]] [[to|al]] [[the|—]] [[bathroom|baño]]. [[Then|Luego]], [[she|ella]] [[eats|desayuna]] [[breakfast|el desayuno]] [[in|en]] [[the|—]] [[kitchen|la cocina]]. [[She|Ella]] [[drinks|bebe]] [[a|un]] [[cup|taza]] [[of|de]] [[coffee|café]] [[every|todas las]] [[morning|mañanas]].
 
 [[After|Después]] [[breakfast|del desayuno]], [[María|María]] [[goes|va]] [[to|a]] [[work|trabajar]]. [[She|Ella]] [[works|trabaja]] [[in|en]] [[an|una]] [[office|oficina]] [[in|en]] [[the|el]] [[city|ciudad]]. [[She|Ella]] [[studies|estudia]] [[English|inglés]] [[at|en]] [[lunchtime|la hora del almuerzo]]. [[She|Ella]] [[eats|come]] [[lunch|el almuerzo]] [[with|con]] [[her|sus]] [[colleagues|colegas]].
 
-[[In|Por]] [[the|la]] [[evening|tarde]], [[María|María]] [[comes|vuelve]] [[home|a casa]] [[at|a]] [[six|las seis]]. [[She|Ella]] [[plays|juega]] [[with|con]] [[her|su]] [[dog|perro]] [[and|y]] [[then|luego]] [[she|ella]] [[eats|cena]] [[dinner|la cena]]. [[She|Ella]] [[goes|se va]] [[to|a]] [[sleep|dormir]] [[at|a]] [[ten|las diez]] [[o'clock|en punto]]. [[María|María]] [[loves|adora]] [[her|su]] [[daily|rutina]] [[routine|diaria]].`;
+[[In|Por]] [[the|la]] [[evening|tarde]], [[María|María]] [[comes|vuelve]] [[home|a casa]] [[at|a]] [[six|las seis]]. [[She|Ella]] [[plays|juega]] [[with|con]] [[her|su]] [[dog|perro]] and [[then|luego]] [[she|ella]] [[eats|cena]] [[dinner|la cena]]. [[She|Ella]] [[goes|se va]] [[to|a]] [[sleep|dormir]] [[at|a]] [[ten|las diez]] [[o'clock|en punto]]. [[María|María]] [[loves|adora]] [[her|su]] [[daily|rutina]] [[routine|diaria]].`;
 
 const INST_MC = 'Lee el texto y elige la respuesta correcta.';
 const INST_TF = 'Lee el texto. Indica si la afirmación es verdadera o falsa.';

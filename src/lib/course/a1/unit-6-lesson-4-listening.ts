@@ -8,7 +8,7 @@ import { Exercise } from '@/lib/exercise-generator';
 const LESSON_TITLE = 'Comprensión auditiva';
 const TOPIC = 'Family & Possessives';
 
-const LISTENING_TRANSCRIPT = `[[Ana|Ana]]: [[Hi|Hola]] [[Pedro|Pedro]]! [[How|Cómo]] [[are|estás]] [[you|tú]]? [[Pedro|Pedro]]: [[I|Yo]] [[am|estoy]] [[fine|bien]], [[thanks|gracias]]. [[And|Y]] [[you|tú]]? [[Ana|Ana]]: [[I|Yo]] [[am|estoy]] [[good|bien]]. [[I|Yo]] [[have|tengo]] [[two|dos]] [[sisters|hermanas]] [[and|y]] [[one|un]] [[brother|hermano]]. [[Pedro|Pedro]]: [[Nice|Qué bien]]! [[My|Mi]] [[family|familia]] [[is|es]] [[big|grande]] [[too|también]]. [[My|Mi]] [[mother|madre]] [[is|es]] [[a|una]] [[teacher|profesora]]. [[My|Mi]] [[father|padre]] [[works|trabaja]] [[in|en]] [[an|un]] [[office|oficina]]. [[Ana|Ana]]: [[Where|Dónde]] [[does|vive]] [[your|tu]] [[grandmother|abuela]] [[live|vivir]]? [[Pedro|Pedro]]: [[She|Ella]] [[lives|vive]] [[in|en]] [[Seville|Sevilla]]. [[Our|Nuestra]] [[grandfather|abuelo]] [[lives|vive]] [[there|allí]] [[too|también]]. [[Ana|Ana]]: [[I|Yo]] [[love|amo]] [[my|mi]] [[family|familia]]. [[Pedro|Pedro]]: [[Me|Yo]] [[too|también]]. [[We|Nosotros]] [[love|amamos]] [[our|nuestra]] [[family|familia]].`;
+const LISTENING_TRANSCRIPT = `[[Ana|Ana]]: [[Hi|Hola]] [[Pedro|Pedro]]! [[How|Cómo]] [[are|estás]] [[you|tú]]? [[Pedro|Pedro]]: [[I|Yo]] [[am|estoy]] [[fine|bien]], [[thanks|gracias]]. And [[you|tú]]? [[Ana|Ana]]: [[I|Yo]] [[am|estoy]] [[good|bien]]. [[I|Yo]] [[have|tengo]] [[two|dos]] [[sisters|hermanas]] and [[one|un]] [[brother|hermano]]. [[Pedro|Pedro]]: [[Nice|Qué bien]]! [[My|Mi]] [[family|familia]] [[is|es]] [[big|grande]] [[too|también]]. [[My|Mi]] [[mother|madre]] [[is|es]] [[a|una]] [[teacher|profesora]]. [[My|Mi]] [[father|padre]] [[works|trabaja]] [[in|en]] [[an|un]] [[office|oficina]]. [[Ana|Ana]]: [[Where|Dónde]] [[does|vive]] [[your|tu]] [[grandmother|abuela]] [[live|vivir]]? [[Pedro|Pedro]]: [[She|Ella]] [[lives|vive]] [[in|en]] [[Seville|Sevilla]]. [[Our|Nuestra]] [[grandfather|abuelo]] [[lives|vive]] [[there|allí]] [[too|también]]. [[Ana|Ana]]: [[I|Yo]] [[love|amo]] [[my|mi]] [[family|familia]]. [[Pedro|Pedro]]: [[Me|Yo]] [[too|también]]. [[We|Nosotros]] [[love|amamos]] [[our|nuestra]] [[family|familia]].`;
 
 const INSTRUCTIONS = 'Escucha el audio. Después contesta cada pregunta.';
 
@@ -254,7 +254,7 @@ export const UNIT_6_LESSON_4_LISTENING: Exercise[] = [
       instructions: INSTRUCTIONS,
       questions: [{
         question: '[[Main|Principal]] [[topic|tema]] [[of|del]] [[dialogue|diálogo]]?',
-        options: ['[[School|Escuela]] [[and|y]] [[work|trabajo]].', '[[Ana|Ana]] [[and|y]] [[Pedro|Pedro]] [[talk|hablan]] [[about|sobre]] [[family|familia]].', '[[Sports|Deportes]].', '[[Food|Comida]].'],
+        options: ['[[School|Escuela]] and [[work|trabajo]].', '[[Ana|Ana]] and [[Pedro|Pedro]] [[talk|hablan]] [[about|sobre]] [[family|familia]].', '[[Sports|Deportes]].', '[[Food|Comida]].'],
         correctAnswer: 1,
         explanation: 'Hablan de sus familias.',
       }],

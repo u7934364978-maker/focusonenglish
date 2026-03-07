@@ -222,7 +222,7 @@ export const UNIT_2_LESSON_1_GRAMMAR: Exercise[] = [
             '[[It|Eso]] [[am|soy]] a [[cat|gato]].',
           ],
           correctAnswer: 1,
-          explanation: '[[It|Eso/Él/Ella]] → [[is|es/está]]. [[It is|Es]] [[the|la]] [[correct|forma correcta]] [[for|para]] [[things|cosas]] [[and|y]] [[animals|animales]].',
+          explanation: '[[It|Eso/Él/Ella]] → [[is|es/está]]. [[It is|Es]] [[the|la]] [[correct|forma correcta]] [[for|para]] [[things|cosas]] and [[animals|animales]].',
         },
       ],
     },

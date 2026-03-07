@@ -164,7 +164,7 @@ export const UNIT_6_LESSON_5_SPEAKING: Exercise[] = [
     content: {
       title: LESSON_TITLE,
       instructions: 'Contesta la pregunta en voz alta.',
-      targetText: '[[How many|Cuántos]] [[brothers|hermanos]] [[and|y]] [[sisters|hermanas]] [[do you have|tienes]]?',
+      targetText: '[[How many|Cuántos]] [[brothers|hermanos]] and [[sisters|hermanas]] [[do you have|tienes]]?',
       expectedResponse: 'I have [number] brother(s) and [number] sister(s).',
     },
     topicName: 'Speaking',
@@ -194,7 +194,7 @@ export const UNIT_6_LESSON_5_SPEAKING: Exercise[] = [
     content: {
       title: LESSON_TITLE,
       instructions: 'Di en voz alta cuántos hermanos y hermanas tienes. Usa: I have … brother(s) and … sister(s).',
-      targetText: '[[I|Yo]] [[have|tengo]] ____ [[brother|hermano]] [[and|y]] ____ [[sister|hermana]].',
+      targetText: '[[I|Yo]] [[have|tengo]] ____ [[brother|hermano]] and ____ [[sister|hermana]].',
       expectedResponse: 'I have [number] brother(s) and [number] sister(s).',
     },
     topicName: 'Speaking',

@@ -119,7 +119,7 @@ export const UNIT_2_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Order|Ordena]] [[the|las]] [[words|palabras]] [[and|y]] [[write|escribe]] [[the|la]] [[sentence|frase]] [[in|en]] [[the|el]] [[box|recuadro]] [[below|abajo]] [[or|o]] [[check|comprueba]] [[your|tu]] [[order|orden]].',
+      instructions: '[[Order|Ordena]] [[the|las]] [[words|palabras]] and [[write|escribe]] [[the|la]] [[sentence|frase]] [[in|en]] [[the|el]] [[box|recuadro]] [[below|abajo]] [[or|o]] [[check|comprueba]] [[your|tu]] [[order|orden]].',
       correctSentence: '[[She|Ella]] [[is|es]] [[from|de]] [[Germany|Alemania]].',
       words: ['[[is|es]]', '[[She|Ella]]', '[[from|de]]', '[[Germany|Alemania]].'],
     },
@@ -148,8 +148,8 @@ export const UNIT_2_LESSON_6_WRITING: Exercise[] = [
     content: {
       title: LESSON_TITLE,
       instructions: '[[Order|Ordena]] [[the|las]] [[words|palabras]].',
-      correctSentence: '[[He|Él]] [[is|es]] [[from|de]] [[Mexico|México]] [[and|y]] [[is|es]] [[Mexican|mexicano]].',
-      words: ['[[is|es]]', '[[He|Él]]', '[[from|de]]', '[[Mexico|México]]', '[[and|y]]', '[[is|es]]', '[[Mexican|mexicano]].'],
+      correctSentence: '[[He|Él]] [[is|es]] [[from|de]] [[Mexico|México]] and [[is|es]] [[Mexican|mexicano]].',
+      words: ['[[is|es]]', '[[He|Él]]', '[[from|de]]', '[[Mexico|México]]', 'and', '[[is|es]]', '[[Mexican|mexicano]].'],
     },
     topicName: 'Writing',
   },
@@ -163,7 +163,7 @@ export const UNIT_2_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Write|Escribe]] [[where|dónde]] [[your|tu]] [[friend|amigo]] [[is|es]] [[from|de]] [[and|y]] [[their|su]] [[nationality|nacionalidad]]. [[Model|Modelo]]: "[[My friend is from|Mi amigo es de]] ... [[He/She is|Él/Ella es]] ...". [[Write|Escribe]] [[1|una]] [[or|o]] [[2|dos]] [[sentences|frases]].',
+      instructions: '[[Write|Escribe]] [[where|dónde]] [[your|tu]] [[friend|amigo]] [[is|es]] [[from|de]] and [[their|su]] [[nationality|nacionalidad]]. [[Model|Modelo]]: "[[My friend is from|Mi amigo es de]] ... [[He/She is|Él/Ella es]] ...". [[Write|Escribe]] [[1|una]] [[or|o]] [[2|dos]] [[sentences|frases]].',
       prompt: '[[My friend is from|Mi amigo/a es de]] ____. [[He/She is|Él/Ella es]] ____.',
       minWords: 5,
       maxWords: 15,
@@ -178,7 +178,7 @@ export const UNIT_2_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Write|Escribe]] [[about|sobre]] [[two|dos]] [[people|personas]] [[and|y]] [[their|sus]] [[countries|países]]. [[Model|Modelo]]: "[[She is from France. He is from Japan.|Ella es de Francia. Él es de Japón.]]". [[Two|Dos]] [[sentences|frases]].',
+      instructions: '[[Write|Escribe]] [[about|sobre]] [[two|dos]] [[people|personas]] and [[their|sus]] [[countries|países]]. [[Model|Modelo]]: "[[She is from France. He is from Japan.|Ella es de Francia. Él es de Japón.]]". [[Two|Dos]] [[sentences|frases]].',
       prompt: '[[She/He is from|Ella/Él es de]] ____. [[She/He is|Ella/Él es]] ____.',
       minWords: 8,
       maxWords: 20,
@@ -193,7 +193,7 @@ export const UNIT_2_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Write|Escribe]] [[your|tu]] [[own|propia]] [[country|país]] [[and|y]] [[nationality|nacionalidad]]. [[Model|Modelo]]: "[[I am from|Soy de]] ... [[I am|Soy]] ...". [[One|Una]] [[or|o]] [[two|dos]] [[sentences|frases]].',
+      instructions: '[[Write|Escribe]] [[your|tu]] [[own|propia]] [[country|país]] and [[nationality|nacionalidad]]. [[Model|Modelo]]: "[[I am from|Soy de]] ... [[I am|Soy]] ...". [[One|Una]] [[or|o]] [[two|dos]] [[sentences|frases]].',
       prompt: '[[I am from|Soy de]] ____. [[I am|Soy]] ____.',
       minWords: 5,
       maxWords: 12,
@@ -225,7 +225,7 @@ export const UNIT_2_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Write|Escribe]] [[a|un]] [[short|breve]] [[paragraph|párrafo]] [[about|sobre]] [[yourself|ti mismo]] [[and|y]] [[two|dos]] [[friends|amigos]]. [[Include|Incluye]]: [[where each person is from|de dónde es cada persona]] [[and|y]] [[their|su]] [[nationality|nacionalidad]]. [[Use|Usa]] [[4|cuatro]] [[to|a]] [[6|seis]] [[sentences|frases]]. [[Model|Modelo]]: "[[I am from ... I am ... My friend Ana is from ... She is ... Tom is from ... He is ...|Soy de ... Soy ... Mi amiga Ana es de ... Ella es ... Tom es de ... Él es ...]]".',
+      instructions: '[[Write|Escribe]] [[a|un]] [[short|breve]] [[paragraph|párrafo]] [[about|sobre]] [[yourself|ti mismo]] and [[two|dos]] [[friends|amigos]]. [[Include|Incluye]]: [[where each person is from|de dónde es cada persona]] and [[their|su]] [[nationality|nacionalidad]]. [[Use|Usa]] [[4|cuatro]] [[to|a]] [[6|seis]] [[sentences|frases]]. [[Model|Modelo]]: "[[I am from ... I am ... My friend Ana is from ... She is ... Tom is from ... He is ...|Soy de ... Soy ... Mi amiga Ana es de ... Ella es ... Tom es de ... Él es ...]]".',
       prompt: '[[Write about yourself and two friends: countries and nationalities|Escribe sobre ti y dos amigos: países y nacionalidades]].',
       minWords: 25,
       maxWords: 60,
@@ -240,7 +240,7 @@ export const UNIT_2_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Imagine|Imagina]] [[you|tú]] [[are|eres]] [[in|en]] [[an|una]] [[international|internacional]] [[class|clase]]. [[Write|Escribe]] [[about|sobre]] [[three|tres]] [[classmates|compañeros]] [[from|de]] [[different|diferentes]] [[countries|países]]: [[their|su]] [[name|nombre]], [[country|país]] [[and|y]] [[nationality|nacionalidad]]. [[4|Cuatro]] [[to|a]] [[6|seis]] [[sentences|frases]].',
+      instructions: '[[Imagine|Imagina]] [[you|tú]] [[are|eres]] [[in|en]] [[an|una]] [[international|internacional]] [[class|clase]]. [[Write|Escribe]] [[about|sobre]] [[three|tres]] [[classmates|compañeros]] [[from|de]] [[different|diferentes]] [[countries|países]]: [[their|su]] [[name|nombre]], [[country|país]] and [[nationality|nacionalidad]]. [[4|Cuatro]] [[to|a]] [[6|seis]] [[sentences|frases]].',
       prompt: '[[Describe three international classmates: name, country and nationality|Describe tres compañeros internacionales: nombre, país y nacionalidad]].',
       minWords: 25,
       maxWords: 65,
@@ -255,7 +255,7 @@ export const UNIT_2_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Write|Escribe]] [[a|un]] [[short|breve]] [[paragraph|párrafo]] [[introducing|presentando]] [[a|un]] [[group|grupo]] [[of|de]] [[international|internacional]] [[friends|amigos]] [[as|como]] [[if|si]] [[for|para]] [[a|una]] [[presentation|presentación]]. [[Include|Incluye]]: [[names|nombres]], [[countries|países]], [[nationalities|nacionalidades]] [[and|y]] [[one|una]] [[extra|extra]] [[detail|detalle]] [[per|por]] [[person|persona]] [[(e.g.|(ej.]] [[a job or hobby|un trabajo o hobby]])). [[4|Cuatro]] [[to|a]] [[6|seis]] [[sentences|frases]].',
+      instructions: '[[Write|Escribe]] [[a|un]] [[short|breve]] [[paragraph|párrafo]] [[introducing|presentando]] [[a|un]] [[group|grupo]] [[of|de]] [[international|internacional]] [[friends|amigos]] [[as|como]] [[if|si]] [[for|para]] [[a|una]] [[presentation|presentación]]. [[Include|Incluye]]: [[names|nombres]], [[countries|países]], [[nationalities|nacionalidades]] and [[one|una]] [[extra|extra]] [[detail|detalle]] [[per|por]] [[person|persona]] [[(e.g.|(ej.]] [[a job or hobby|un trabajo o hobby]])). [[4|Cuatro]] [[to|a]] [[6|seis]] [[sentences|frases]].',
       prompt: '[[Short group presentation: names, countries, nationalities and one detail per person|Presentación grupal breve: nombres, países, nacionalidades y un detalle por persona]].',
       minWords: 30,
       maxWords: 70,

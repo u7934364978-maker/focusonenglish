@@ -1049,7 +1049,7 @@ export const UNIT_27_EXERCISES: Exercise[] = [
       "title": "[[Grammar: Contrast|Gramática: Contraste]]",
       "instructions": "[[Identify the contrasting abilities|Identifica las habilidades en contraste]].",
       "question": "[[Sara can sing, (____) Tom can't dance.|Sara puede cantar, (____) Tom no puede bailar.]]",
-      "options": ["[[but|pero]]", "[[and|y]]", "[[because|porque]]"],
+      "options": ["[[but|pero]]", "and", "[[because|porque]]"],
       "correctAnswer": 0,
       "explanation": "[[Use 'but' for contrast|Usa 'but' para contraste]]."
     },

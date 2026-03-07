@@ -79,10 +79,10 @@ export const UNIT_5_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_MC,
       questions: [
         {
-          question: '[[Students|Los estudiantes]] [[do|hacen]] [[this|esto]] [[to|para]] [[learn|aprender]] [[and|y]] [[prepare|preparar]] [[for|para]] [[exams|los exámenes]]. [[Which|Cuál]] [[verb|verbo]] [[is it|es]]?',
+          question: '[[Students|Los estudiantes]] [[do|hacen]] [[this|esto]] [[to|para]] [[learn|aprender]] and [[prepare|preparar]] [[for|para]] [[exams|los exámenes]]. [[Which|Cuál]] [[verb|verbo]] [[is it|es]]?',
           options: ['[[play|jugar]]', '[[drink|beber]]', '[[study|estudiar]]', '[[get up|levantarse]]'],
           correctAnswer: 2,
-          explanation: '"[[Study|Estudiar]]" [[means|significa]] [[to learn|aprender]] [[reading|leyendo]] [[and|y]] [[practicing|practicando]].',
+          explanation: '"[[Study|Estudiar]]" [[means|significa]] [[to learn|aprender]] [[reading|leyendo]] and [[practicing|practicando]].',
         },
       ],
     },
@@ -301,7 +301,7 @@ export const UNIT_5_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_CTX,
       questions: [
         {
-          question: '[[Every morning|Todas las mañanas]], [[Pedro|Pedro]] [[opens his eyes|abre los ojos]] [[and|y]] [[gets out of bed|sale de la cama]]. [[He|Él]] ____ [[and|y]] [[gets up|se levanta]].',
+          question: '[[Every morning|Todas las mañanas]], [[Pedro|Pedro]] [[opens his eyes|abre los ojos]] and [[gets out of bed|sale de la cama]]. [[He|Él]] ____ and [[gets up|se levanta]].',
           options: ['[[eats|come]]', '[[works|trabaja]]', '[[wakes up|se despierta]]', '[[goes|va]]'],
           correctAnswer: 2,
           explanation: '[[Opening your eyes|Abrir los ojos]] [[and getting out of bed|y salir de la cama]] [[is|es]] [[waking up|despertarse]]: "[[wakes up|se despierta]]".',

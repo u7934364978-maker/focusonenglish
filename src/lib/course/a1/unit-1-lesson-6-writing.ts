@@ -119,7 +119,7 @@ export const UNIT_1_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Order|Ordena]] [[the|las]] [[words|palabras]] [[and|y]] [[write|escribe]] [[the|la]] [[sentence|frase]] [[in|en]] [[the|el]] [[box|recuadro]] [[below|abajo]] [[or|o]] [[check|comprueba]] [[your|tu]] [[order|orden]].',
+      instructions: '[[Order|Ordena]] [[the|las]] [[words|palabras]] and [[write|escribe]] [[the|la]] [[sentence|frase]] [[in|en]] [[the|el]] [[box|recuadro]] [[below|abajo]] [[or|o]] [[check|comprueba]] [[your|tu]] [[order|orden]].',
       correctSentence: '[[My|Mi]] [[name|nombre]] [[is|es]] [[Carlos|Carlos]].',
       words: ['[[is|es]]', '[[My|Mi]]', '[[name|nombre]]', '[[Carlos|Carlos]].'],
     },
@@ -163,7 +163,7 @@ export const UNIT_1_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Write|Escribe]] [[your|tu]] [[name|nombre]] [[and|y]] [[age|edad]]. [[Model|Modelo]]: "[[My name is|Mi nombre es]] ... [[I am|Tengo]] ... [[years old|años]]." [[Write|Escribe]] [[1|una]] [[or|o]] [[2|dos]] [[sentences|frases]].',
+      instructions: '[[Write|Escribe]] [[your|tu]] [[name|nombre]] and [[age|edad]]. [[Model|Modelo]]: "[[My name is|Mi nombre es]] ... [[I am|Tengo]] ... [[years old|años]]." [[Write|Escribe]] [[1|una]] [[or|o]] [[2|dos]] [[sentences|frases]].',
       prompt: '[[My name is|Mi nombre es]] ____. [[I am|Tengo]] ____ [[years old|años]].',
       minWords: 5,
       maxWords: 15,
@@ -208,7 +208,7 @@ export const UNIT_1_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Write|Escribe]] [[a|una]] [[short|breve]] [[greeting|saludo]] [[and|y]] [[introduction|presentación]]: [[say|di]] [[hello|hola]], [[your|tu]] [[name|nombre]] [[and|y]] "[[Nice to meet you|Encantado de conocerte]]". [[2|Dos]] [[or|o]] [[3|tres]] [[sentences|frases]].',
+      instructions: '[[Write|Escribe]] [[a|una]] [[short|breve]] [[greeting|saludo]] and [[introduction|presentación]]: [[say|di]] [[hello|hola]], [[your|tu]] [[name|nombre]] and "[[Nice to meet you|Encantado de conocerte]]". [[2|Dos]] [[or|o]] [[3|tres]] [[sentences|frases]].',
       prompt: '[[Hello|Hola]] / [[Hi|Hola]]. [[My name is|Mi nombre es]] ____. [[Nice to meet you|Encantado de conocerte]].',
       minWords: 8,
       maxWords: 20,
@@ -255,7 +255,7 @@ export const UNIT_1_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Write|Escribe]] [[your|tu]] [[personal|personal]] [[profile|perfil]] [[as|como]] [[if|si]] [[for|para]] [[a|una]] [[course|curso]] [[or|o]] [[forum|foro]]. [[Include|Incluye]]: [[name|nombre]], [[age|edad]], [[city|ciudad]]/[[country|país]], [[job|trabajo]]/[[student|estudiante]], [[and|y]] [[one|una]] [[sentence|frase]] [[about|sobre]] [[you|ti]] ([[e.g.|ej.]] "[[I am happy to be here|Estoy feliz de estar aquí]]"). [[4|Cuatro]] [[to|a]] [[6|seis]] [[sentences|frases]].',
+      instructions: '[[Write|Escribe]] [[your|tu]] [[personal|personal]] [[profile|perfil]] [[as|como]] [[if|si]] [[for|para]] [[a|una]] [[course|curso]] [[or|o]] [[forum|foro]]. [[Include|Incluye]]: [[name|nombre]], [[age|edad]], [[city|ciudad]]/[[country|país]], [[job|trabajo]]/[[student|estudiante]], and [[one|una]] [[sentence|frase]] [[about|sobre]] [[you|ti]] ([[e.g.|ej.]] "[[I am happy to be here|Estoy feliz de estar aquí]]"). [[4|Cuatro]] [[to|a]] [[6|seis]] [[sentences|frases]].',
       prompt: '[[Short personal profile|Perfil personal breve]] [[for a course or forum|para un curso o foro]].',
       minWords: 30,
       maxWords: 70,

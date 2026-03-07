@@ -3,7 +3,7 @@ import { Exercise } from '@/lib/exercise-generator';
 const LESSON_TITLE = 'Comprensión auditiva';
 const LISTENING_TRANSCRIPT = `[[David|David]]: [[Hi|Hola]] [[Sara|Sara]]! [[What|A qué]] [[time|hora]] [[do|te]] [[you|—]] [[wake|despiertas]] [[up|—]] [[every|cada]] [[day|día]]?
 
-[[Sara|Sara]]: [[I|Yo]] [[wake|me]] [[up|despierto]] [[at|a las]] [[seven|siete]]. [[Then|Luego]] [[I|yo]] [[get|me]] [[up|levanto]] [[and|y]] [[eat|desayuno]]. [[What|Y tú]] [[about|qué]] [[you|haces]]?
+[[Sara|Sara]]: [[I|Yo]] [[wake|me]] [[up|despierto]] [[at|a las]] [[seven|siete]]. [[Then|Luego]] [[I|yo]] [[get|me]] [[up|levanto]] and [[eat|desayuno]]. [[What|Y tú]] [[about|qué]] [[you|haces]]?
 
 [[David|David]]: [[I|Yo]] [[wake|me]] [[up|despierto]] [[at|a las]] [[six|seis]]. [[I|Yo]] [[go|voy]] [[to|a]] [[work|trabajar]] [[early|temprano]]. [[I|Yo]] [[work|trabajo]] [[in|en]] [[a|una]] [[school|escuela]].
 
@@ -15,9 +15,9 @@ const LISTENING_TRANSCRIPT = `[[David|David]]: [[Hi|Hola]] [[Sara|Sara]]! [[What
 
 [[David|David]]: [[What|A qué]] [[time|hora]] [[do|vuelves]] [[you|—]] [[come|—]] [[home|a casa]] [[in|por]] [[the|la]] [[evening|tarde]]?
 
-[[Sara|Sara]]: [[I|Yo]] [[come|vuelvo]] [[home|a casa]] [[at|a las]] [[five|cinco]]. [[I|Yo]] [[eat|ceno]] [[dinner|la cena]] [[and|y]] [[then|luego]] [[I|yo]] [[go|me]] [[to|voy a]] [[sleep|dormir]] [[at|a las]] [[ten|diez]].
+[[Sara|Sara]]: [[I|Yo]] [[come|vuelvo]] [[home|a casa]] [[at|a las]] [[five|cinco]]. [[I|Yo]] [[eat|ceno]] [[dinner|la cena]] and [[then|luego]] [[I|yo]] [[go|me]] [[to|voy a]] [[sleep|dormir]] [[at|a las]] [[ten|diez]].
 
-[[David|David]]: [[I|Yo]] [[come|vuelvo]] [[home|a casa]] [[at|a las]] [[four|cuatro]]. [[I|Yo]] [[play|juego]] [[football|al fútbol]] [[with|con]] [[my|mis]] [[friends|amigos]]. [[Then|Luego]] [[I|yo]] [[eat|ceno]] [[dinner|la cena]] [[and|y]] [[sleep|duermo]] [[at|a las]] [[eleven|once]].`;
+[[David|David]]: [[I|Yo]] [[come|vuelvo]] [[home|a casa]] [[at|a las]] [[four|cuatro]]. [[I|Yo]] [[play|juego]] [[football|al fútbol]] [[with|con]] [[my|mis]] [[friends|amigos]]. [[Then|Luego]] [[I|yo]] [[eat|ceno]] [[dinner|la cena]] and [[sleep|duermo]] [[at|a las]] [[eleven|once]].`;
 
 const INST_MC = 'Escucha el audio y elige la respuesta correcta.';
 const INST_TF = 'Escucha el audio. Indica si la afirmación es verdadera o falsa.';

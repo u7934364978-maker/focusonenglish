@@ -60,7 +60,7 @@ export const UNIT_34_EXERCISES: Exercise[] = [
           "question": "¿Cuál significa 'O' (elección)?",
           "options": [
             "[[Or|Or]]",
-            "[[And|And]]",
+            "And",
             "[[But|But]]"
           ],
           "correctAnswer": 0,
@@ -87,7 +87,7 @@ export const UNIT_34_EXERCISES: Exercise[] = [
             "[[but|but]]",
             "[[because|because]]",
             "[[so|so]]",
-            "[[and|and]]"
+            "and"
           ],
           "correctAnswer": 3
         }
@@ -148,7 +148,7 @@ export const UNIT_34_EXERCISES: Exercise[] = [
           "question": "I can swim ________ I can't drive.",
           "options": [
             "[[or|or]]",
-            "[[and|and]]",
+            "and",
             "[[but|but]]",
             "[[because|because]]"
           ],
@@ -196,7 +196,7 @@ export const UNIT_34_EXERCISES: Exercise[] = [
           "question": "I am happy ________ it is my birthday.",
           "options": [
             "[[but|but]]",
-            "[[and|and]]",
+            "and",
             "[[because|because]]",
             "[[so|so]]"
           ],
@@ -336,7 +336,7 @@ export const UNIT_34_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'and' en inglés?",
           "options": [
-            "[[And|And]]",
+            "And",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -518,7 +518,7 @@ export const UNIT_34_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'and' en inglés?",
           "options": [
-            "[[And|And]]",
+            "And",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -700,7 +700,7 @@ export const UNIT_34_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'and' en inglés?",
           "options": [
-            "[[And|And]]",
+            "And",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -882,7 +882,7 @@ export const UNIT_34_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'and' en inglés?",
           "options": [
-            "[[And|And]]",
+            "And",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1064,7 +1064,7 @@ export const UNIT_34_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'and' en inglés?",
           "options": [
-            "[[And|And]]",
+            "And",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1246,7 +1246,7 @@ export const UNIT_34_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'and' en inglés?",
           "options": [
-            "[[And|And]]",
+            "And",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1428,7 +1428,7 @@ export const UNIT_34_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'and' en inglés?",
           "options": [
-            "[[And|And]]",
+            "And",
             "[[Wrong word|Palabra incorrecta]]",
             "[[Other word|Otra palabra]]"
           ],
@@ -1559,7 +1559,7 @@ export const UNIT_34_EXERCISES: Exercise[] = [
           "question": "¿Cómo se dice 'and' en inglés?",
           "options": [
             "[[but|but]]",
-            "[[and|and]]",
+            "and",
             "[[because|because]]",
             "[[so|so]]"
           ],
@@ -1585,7 +1585,7 @@ export const UNIT_34_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'but' en inglés?",
           "options": [
-            "[[and|and]]",
+            "and",
             "[[but|but]]",
             "[[because|because]]",
             "[[so|so]]"
@@ -1612,7 +1612,7 @@ export const UNIT_34_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'because' en inglés?",
           "options": [
-            "[[and|and]]",
+            "and",
             "[[because|because]]",
             "[[but|but]]",
             "[[so|so]]"
@@ -1639,7 +1639,7 @@ export const UNIT_34_EXERCISES: Exercise[] = [
         {
           "question": "¿Cómo se dice 'so' en inglés?",
           "options": [
-            "[[and|and]]",
+            "and",
             "[[so|so]]",
             "[[but|but]]",
             "[[because|because]]"
@@ -1667,7 +1667,7 @@ export const UNIT_34_EXERCISES: Exercise[] = [
           "question": "¿Cómo se dice 'or' en inglés?",
           "options": [
             "[[or|or]]",
-            "[[and|and]]",
+            "and",
             "[[but|but]]",
             "[[because|because]]"
           ],

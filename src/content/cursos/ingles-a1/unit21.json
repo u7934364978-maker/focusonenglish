@@ -295,7 +295,7 @@
           "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
           "mastery_tag": "vocabulary",
           "complexity": 2,
-          "stimulus_en": "[[The|La]] [[kitchen|cocina]] [[is|es]] ______ [[and|y]] [[modern|moderna]].",
+          "stimulus_en": "[[The|La]] [[kitchen|cocina]] [[is|es]] ______ and [[modern|moderna]].",
           "correct_answer": "bright"
         },
         {
@@ -406,7 +406,7 @@
           "prompt_es": "[[Complete|Completa]] [[the|la]] [[affirmative|afirmativa]] [[sentence|frase]].",
           "mastery_tag": "grammar",
           "complexity": 2,
-          "stimulus_en": "[[The|La]] [[kitchen|cocina]] [[is|es]] ______ [[and|y]] [[modern|moderna]].",
+          "stimulus_en": "[[The|La]] [[kitchen|cocina]] [[is|es]] ______ and [[modern|moderna]].",
           "correct_answer": "bright"
         },
         {
@@ -488,7 +488,7 @@
           "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[word|palabra]].",
           "mastery_tag": "grammar",
           "complexity": 2,
-          "stimulus_en": "[[The|La]] [[kitchen|cocina]] [[is|es]] ______ [[and|y]] [[modern|moderna]].",
+          "stimulus_en": "[[The|La]] [[kitchen|cocina]] [[is|es]] ______ and [[modern|moderna]].",
           "options": [
             {
               "id": "o1",
@@ -688,7 +688,7 @@
           "prompt_es": "[[Choose|Elige]] [[the|la]] [[correct|correcta]] [[form|forma]].",
           "mastery_tag": "grammar",
           "complexity": 2,
-          "stimulus_en": "[[The|La]] [[kitchen|cocina]] [[is|es]] ______ [[and|y]] [[modern|moderna]].",
+          "stimulus_en": "[[The|La]] [[kitchen|cocina]] [[is|es]] ______ and [[modern|moderna]].",
           "options": [
             {
               "id": "o1",
@@ -807,10 +807,10 @@
         {
           "interaction_id": "A1_U21_I41",
           "type": "reading-comprehension",
-          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] and [[answer|responde]].",
           "mastery_tag": "reading",
           "complexity": 2,
-          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[house|casa]]. [[What|Qué]] [[rooms|habitaciones]] [[does|tiene]] [[it|ella]] [[have|tiene]]? [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[large|grande]] [[living room|salón]], [[a|una]] [[kitchen|cocina]], [[three|tres]] [[bedrooms|dormitorios]] [[and|y]] [[two|dos]] [[bathrooms|baños]]. [[Oh|Oh]], [[that's|eso es]] [[spacious|amplio]]! [[Is|Hay]] [[there|allí]] [[a|un]] [[garden|jardín]]? [[Yes|Sí]]! [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[small|pequeño]] [[garden|jardín]] [[with|con]] [[flowers|flores]] [[and|y]] [[a|un]] [[table|mesa]] [[outside|afuera]]. [[My|Mi]] [[favourite|favorita]] [[room|habitación]] [[is|es]] [[the|el]] [[living room|salón]] — [[it's|es]] [[so|tan]] [[bright|luminoso]] [[and|y]] [[cozy|acogedor]]!",
+          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[house|casa]]. [[What|Qué]] [[rooms|habitaciones]] [[does|tiene]] [[it|ella]] [[have|tiene]]? [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[large|grande]] [[living room|salón]], [[a|una]] [[kitchen|cocina]], [[three|tres]] [[bedrooms|dormitorios]] and [[two|dos]] [[bathrooms|baños]]. [[Oh|Oh]], [[that's|eso es]] [[spacious|amplio]]! [[Is|Hay]] [[there|allí]] [[a|un]] [[garden|jardín]]? [[Yes|Sí]]! [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[small|pequeño]] [[garden|jardín]] [[with|con]] [[flowers|flores]] and [[a|un]] [[table|mesa]] [[outside|afuera]]. [[My|Mi]] [[favourite|favorita]] [[room|habitación]] [[is|es]] [[the|el]] [[living room|salón]] — [[it's|es]] [[so|tan]] [[bright|luminoso]] and [[cozy|acogedor]]!",
           "question_en": "[[How|Cuántos]] [[many|muchos]] [[bedrooms|dormitorios]] [[does|tiene]] [[the|la]] [[house|casa]] [[have|tiene]]?",
           "options": [
             {
@@ -831,10 +831,10 @@
         {
           "interaction_id": "A1_U21_I42",
           "type": "reading-comprehension",
-          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] and [[answer|responde]].",
           "mastery_tag": "reading",
           "complexity": 2,
-          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[house|casa]]. [[What|Qué]] [[rooms|habitaciones]] [[does|tiene]] [[it|ella]] [[have|tiene]]? [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[large|grande]] [[living room|salón]], [[a|una]] [[kitchen|cocina]], [[three|tres]] [[bedrooms|dormitorios]] [[and|y]] [[two|dos]] [[bathrooms|baños]]. [[Oh|Oh]], [[that's|eso es]] [[spacious|amplio]]! [[Is|Hay]] [[there|allí]] [[a|un]] [[garden|jardín]]? [[Yes|Sí]]! [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[small|pequeño]] [[garden|jardín]] [[with|con]] [[flowers|flores]] [[and|y]] [[a|un]] [[table|mesa]] [[outside|afuera]]. [[My|Mi]] [[favourite|favorita]] [[room|habitación]] [[is|es]] [[the|el]] [[living room|salón]] — [[it's|es]] [[so|tan]] [[bright|luminoso]] [[and|y]] [[cozy|acogedor]]!",
+          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[house|casa]]. [[What|Qué]] [[rooms|habitaciones]] [[does|tiene]] [[it|ella]] [[have|tiene]]? [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[large|grande]] [[living room|salón]], [[a|una]] [[kitchen|cocina]], [[three|tres]] [[bedrooms|dormitorios]] and [[two|dos]] [[bathrooms|baños]]. [[Oh|Oh]], [[that's|eso es]] [[spacious|amplio]]! [[Is|Hay]] [[there|allí]] [[a|un]] [[garden|jardín]]? [[Yes|Sí]]! [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[small|pequeño]] [[garden|jardín]] [[with|con]] [[flowers|flores]] and [[a|un]] [[table|mesa]] [[outside|afuera]]. [[My|Mi]] [[favourite|favorita]] [[room|habitación]] [[is|es]] [[the|el]] [[living room|salón]] — [[it's|es]] [[so|tan]] [[bright|luminoso]] and [[cozy|acogedor]]!",
           "question_en": "[[How|Cuántos]] [[many|muchos]] [[bathrooms|baños]] [[does|tiene]] [[the|la]] [[house|casa]] [[have|tiene]]?",
           "options": [
             {
@@ -855,10 +855,10 @@
         {
           "interaction_id": "A1_U21_I43",
           "type": "reading-comprehension",
-          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] and [[answer|responde]].",
           "mastery_tag": "reading",
           "complexity": 2,
-          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[house|casa]]. [[What|Qué]] [[rooms|habitaciones]] [[does|tiene]] [[it|ella]] [[have|tiene]]? [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[large|grande]] [[living room|salón]], [[a|una]] [[kitchen|cocina]], [[three|tres]] [[bedrooms|dormitorios]] [[and|y]] [[two|dos]] [[bathrooms|baños]]. [[Oh|Oh]], [[that's|eso es]] [[spacious|amplio]]! [[Is|Hay]] [[there|allí]] [[a|un]] [[garden|jardín]]? [[Yes|Sí]]! [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[small|pequeño]] [[garden|jardín]] [[with|con]] [[flowers|flores]] [[and|y]] [[a|un]] [[table|mesa]] [[outside|afuera]]. [[My|Mi]] [[favourite|favorita]] [[room|habitación]] [[is|es]] [[the|el]] [[living room|salón]] — [[it's|es]] [[so|tan]] [[bright|luminoso]] [[and|y]] [[cozy|acogedor]]!",
+          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[house|casa]]. [[What|Qué]] [[rooms|habitaciones]] [[does|tiene]] [[it|ella]] [[have|tiene]]? [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[large|grande]] [[living room|salón]], [[a|una]] [[kitchen|cocina]], [[three|tres]] [[bedrooms|dormitorios]] and [[two|dos]] [[bathrooms|baños]]. [[Oh|Oh]], [[that's|eso es]] [[spacious|amplio]]! [[Is|Hay]] [[there|allí]] [[a|un]] [[garden|jardín]]? [[Yes|Sí]]! [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[small|pequeño]] [[garden|jardín]] [[with|con]] [[flowers|flores]] and [[a|un]] [[table|mesa]] [[outside|afuera]]. [[My|Mi]] [[favourite|favorita]] [[room|habitación]] [[is|es]] [[the|el]] [[living room|salón]] — [[it's|es]] [[so|tan]] [[bright|luminoso]] and [[cozy|acogedor]]!",
           "question_en": "[[Is|Tiene]] [[the|la]] [[house|casa]] [[there|hay]] [[a|un]] [[garden|jardín]]?",
           "options": [
             {
@@ -879,10 +879,10 @@
         {
           "interaction_id": "A1_U21_I44",
           "type": "reading-comprehension",
-          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] and [[answer|responde]].",
           "mastery_tag": "reading",
           "complexity": 2,
-          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[house|casa]]. [[What|Qué]] [[rooms|habitaciones]] [[does|tiene]] [[it|ella]] [[have|tiene]]? [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[large|grande]] [[living room|salón]], [[a|una]] [[kitchen|cocina]], [[three|tres]] [[bedrooms|dormitorios]] [[and|y]] [[two|dos]] [[bathrooms|baños]]. [[Oh|Oh]], [[that's|eso es]] [[spacious|amplio]]! [[Is|Hay]] [[there|allí]] [[a|un]] [[garden|jardín]]? [[Yes|Sí]]! [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[small|pequeño]] [[garden|jardín]] [[with|con]] [[flowers|flores]] [[and|y]] [[a|un]] [[table|mesa]] [[outside|afuera]]. [[My|Mi]] [[favourite|favorita]] [[room|habitación]] [[is|es]] [[the|el]] [[living room|salón]] — [[it's|es]] [[so|tan]] [[bright|luminoso]] [[and|y]] [[cozy|acogedor]]!",
+          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[house|casa]]. [[What|Qué]] [[rooms|habitaciones]] [[does|tiene]] [[it|ella]] [[have|tiene]]? [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[large|grande]] [[living room|salón]], [[a|una]] [[kitchen|cocina]], [[three|tres]] [[bedrooms|dormitorios]] and [[two|dos]] [[bathrooms|baños]]. [[Oh|Oh]], [[that's|eso es]] [[spacious|amplio]]! [[Is|Hay]] [[there|allí]] [[a|un]] [[garden|jardín]]? [[Yes|Sí]]! [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[small|pequeño]] [[garden|jardín]] [[with|con]] [[flowers|flores]] and [[a|un]] [[table|mesa]] [[outside|afuera]]. [[My|Mi]] [[favourite|favorita]] [[room|habitación]] [[is|es]] [[the|el]] [[living room|salón]] — [[it's|es]] [[so|tan]] [[bright|luminoso]] and [[cozy|acogedor]]!",
           "question_en": "[[What|Qué]] [[is|hay]] [[in|en]] [[the|el]] [[garden|jardín]]?",
           "options": [
             {
@@ -903,10 +903,10 @@
         {
           "interaction_id": "A1_U21_I45",
           "type": "reading-comprehension",
-          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] and [[answer|responde]].",
           "mastery_tag": "reading",
           "complexity": 2,
-          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[house|casa]]. [[What|Qué]] [[rooms|habitaciones]] [[does|tiene]] [[it|ella]] [[have|tiene]]? [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[large|grande]] [[living room|salón]], [[a|una]] [[kitchen|cocina]], [[three|tres]] [[bedrooms|dormitorios]] [[and|y]] [[two|dos]] [[bathrooms|baños]]. [[Oh|Oh]], [[that's|eso es]] [[spacious|amplio]]! [[Is|Hay]] [[there|allí]] [[a|un]] [[garden|jardín]]? [[Yes|Sí]]! [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[small|pequeño]] [[garden|jardín]] [[with|con]] [[flowers|flores]] [[and|y]] [[a|un]] [[table|mesa]] [[outside|afuera]]. [[My|Mi]] [[favourite|favorita]] [[room|habitación]] [[is|es]] [[the|el]] [[living room|salón]] — [[it's|es]] [[so|tan]] [[bright|luminoso]] [[and|y]] [[cozy|acogedor]]!",
+          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[house|casa]]. [[What|Qué]] [[rooms|habitaciones]] [[does|tiene]] [[it|ella]] [[have|tiene]]? [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[large|grande]] [[living room|salón]], [[a|una]] [[kitchen|cocina]], [[three|tres]] [[bedrooms|dormitorios]] and [[two|dos]] [[bathrooms|baños]]. [[Oh|Oh]], [[that's|eso es]] [[spacious|amplio]]! [[Is|Hay]] [[there|allí]] [[a|un]] [[garden|jardín]]? [[Yes|Sí]]! [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[small|pequeño]] [[garden|jardín]] [[with|con]] [[flowers|flores]] and [[a|un]] [[table|mesa]] [[outside|afuera]]. [[My|Mi]] [[favourite|favorita]] [[room|habitación]] [[is|es]] [[the|el]] [[living room|salón]] — [[it's|es]] [[so|tan]] [[bright|luminoso]] and [[cozy|acogedor]]!",
           "question_en": "[[What|Cuál]] [[is|es]] [[the|la]] [[speaker's|del hablante]] [[favourite|favorita]] [[room|habitación]]?",
           "options": [
             {
@@ -927,10 +927,10 @@
         {
           "interaction_id": "A1_U21_I46",
           "type": "reading-comprehension",
-          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] and [[answer|responde]].",
           "mastery_tag": "reading",
           "complexity": 2,
-          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[house|casa]]. [[What|Qué]] [[rooms|habitaciones]] [[does|tiene]] [[it|ella]] [[have|tiene]]? [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[large|grande]] [[living room|salón]], [[a|una]] [[kitchen|cocina]], [[three|tres]] [[bedrooms|dormitorios]] [[and|y]] [[two|dos]] [[bathrooms|baños]]. [[Oh|Oh]], [[that's|eso es]] [[spacious|amplio]]! [[Is|Hay]] [[there|allí]] [[a|un]] [[garden|jardín]]? [[Yes|Sí]]! [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[small|pequeño]] [[garden|jardín]] [[with|con]] [[flowers|flores]] [[and|y]] [[a|un]] [[table|mesa]] [[outside|afuera]]. [[My|Mi]] [[favourite|favorita]] [[room|habitación]] [[is|es]] [[the|el]] [[living room|salón]] — [[it's|es]] [[so|tan]] [[bright|luminoso]] [[and|y]] [[cozy|acogedor]]!",
+          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[house|casa]]. [[What|Qué]] [[rooms|habitaciones]] [[does|tiene]] [[it|ella]] [[have|tiene]]? [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[large|grande]] [[living room|salón]], [[a|una]] [[kitchen|cocina]], [[three|tres]] [[bedrooms|dormitorios]] and [[two|dos]] [[bathrooms|baños]]. [[Oh|Oh]], [[that's|eso es]] [[spacious|amplio]]! [[Is|Hay]] [[there|allí]] [[a|un]] [[garden|jardín]]? [[Yes|Sí]]! [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[small|pequeño]] [[garden|jardín]] [[with|con]] [[flowers|flores]] and [[a|un]] [[table|mesa]] [[outside|afuera]]. [[My|Mi]] [[favourite|favorita]] [[room|habitación]] [[is|es]] [[the|el]] [[living room|salón]] — [[it's|es]] [[so|tan]] [[bright|luminoso]] and [[cozy|acogedor]]!",
           "question_en": "[[How|Cómo]] [[is|es]] [[the|el]] [[living room|salón]] [[described|descrito]]?",
           "options": [
             {
@@ -951,10 +951,10 @@
         {
           "interaction_id": "A1_U21_I47",
           "type": "reading-comprehension",
-          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] and [[answer|responde]].",
           "mastery_tag": "reading",
           "complexity": 2,
-          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[house|casa]]. [[What|Qué]] [[rooms|habitaciones]] [[does|tiene]] [[it|ella]] [[have|tiene]]? [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[large|grande]] [[living room|salón]], [[a|una]] [[kitchen|cocina]], [[three|tres]] [[bedrooms|dormitorios]] [[and|y]] [[two|dos]] [[bathrooms|baños]]. [[Oh|Oh]], [[that's|eso es]] [[spacious|amplio]]! [[Is|Hay]] [[there|allí]] [[a|un]] [[garden|jardín]]? [[Yes|Sí]]! [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[small|pequeño]] [[garden|jardín]] [[with|con]] [[flowers|flores]] [[and|y]] [[a|un]] [[table|mesa]] [[outside|afuera]]. [[My|Mi]] [[favourite|favorita]] [[room|habitación]] [[is|es]] [[the|el]] [[living room|salón]] — [[it's|es]] [[so|tan]] [[bright|luminoso]] [[and|y]] [[cozy|acogedor]]!",
+          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[house|casa]]. [[What|Qué]] [[rooms|habitaciones]] [[does|tiene]] [[it|ella]] [[have|tiene]]? [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[large|grande]] [[living room|salón]], [[a|una]] [[kitchen|cocina]], [[three|tres]] [[bedrooms|dormitorios]] and [[two|dos]] [[bathrooms|baños]]. [[Oh|Oh]], [[that's|eso es]] [[spacious|amplio]]! [[Is|Hay]] [[there|allí]] [[a|un]] [[garden|jardín]]? [[Yes|Sí]]! [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[small|pequeño]] [[garden|jardín]] [[with|con]] [[flowers|flores]] and [[a|un]] [[table|mesa]] [[outside|afuera]]. [[My|Mi]] [[favourite|favorita]] [[room|habitación]] [[is|es]] [[the|el]] [[living room|salón]] — [[it's|es]] [[so|tan]] [[bright|luminoso]] and [[cozy|acogedor]]!",
           "question_en": "[[What|Qué]] [[word|palabra]] [[means|significa]] 'Dormitorio'?",
           "options": [
             {
@@ -975,10 +975,10 @@
         {
           "interaction_id": "A1_U21_I48",
           "type": "reading-comprehension",
-          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] and [[answer|responde]].",
           "mastery_tag": "reading",
           "complexity": 2,
-          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[house|casa]]. [[What|Qué]] [[rooms|habitaciones]] [[does|tiene]] [[it|ella]] [[have|tiene]]? [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[large|grande]] [[living room|salón]], [[a|una]] [[kitchen|cocina]], [[three|tres]] [[bedrooms|dormitorios]] [[and|y]] [[two|dos]] [[bathrooms|baños]]. [[Oh|Oh]], [[that's|eso es]] [[spacious|amplio]]! [[Is|Hay]] [[there|allí]] [[a|un]] [[garden|jardín]]? [[Yes|Sí]]! [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[small|pequeño]] [[garden|jardín]] [[with|con]] [[flowers|flores]] [[and|y]] [[a|un]] [[table|mesa]] [[outside|afuera]]. [[My|Mi]] [[favourite|favorita]] [[room|habitación]] [[is|es]] [[the|el]] [[living room|salón]] — [[it's|es]] [[so|tan]] [[bright|luminoso]] [[and|y]] [[cozy|acogedor]]!",
+          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[house|casa]]. [[What|Qué]] [[rooms|habitaciones]] [[does|tiene]] [[it|ella]] [[have|tiene]]? [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[large|grande]] [[living room|salón]], [[a|una]] [[kitchen|cocina]], [[three|tres]] [[bedrooms|dormitorios]] and [[two|dos]] [[bathrooms|baños]]. [[Oh|Oh]], [[that's|eso es]] [[spacious|amplio]]! [[Is|Hay]] [[there|allí]] [[a|un]] [[garden|jardín]]? [[Yes|Sí]]! [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[small|pequeño]] [[garden|jardín]] [[with|con]] [[flowers|flores]] and [[a|un]] [[table|mesa]] [[outside|afuera]]. [[My|Mi]] [[favourite|favorita]] [[room|habitación]] [[is|es]] [[the|el]] [[living room|salón]] — [[it's|es]] [[so|tan]] [[bright|luminoso]] and [[cozy|acogedor]]!",
           "question_en": "[[What|Qué]] [[does|significa]] 'Cozy' [[mean|significa]]?",
           "options": [
             {
@@ -999,10 +999,10 @@
         {
           "interaction_id": "A1_U21_I49",
           "type": "reading-comprehension",
-          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] and [[answer|responde]].",
           "mastery_tag": "reading",
           "complexity": 2,
-          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[house|casa]]. [[What|Qué]] [[rooms|habitaciones]] [[does|tiene]] [[it|ella]] [[have|tiene]]? [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[large|grande]] [[living room|salón]], [[a|una]] [[kitchen|cocina]], [[three|tres]] [[bedrooms|dormitorios]] [[and|y]] [[two|dos]] [[bathrooms|baños]]. [[Oh|Oh]], [[that's|eso es]] [[spacious|amplio]]! [[Is|Hay]] [[there|allí]] [[a|un]] [[garden|jardín]]? [[Yes|Sí]]! [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[small|pequeño]] [[garden|jardín]] [[with|con]] [[flowers|flores]] [[and|y]] [[a|un]] [[table|mesa]] [[outside|afuera]]. [[My|Mi]] [[favourite|favorita]] [[room|habitación]] [[is|es]] [[the|el]] [[living room|salón]] — [[it's|es]] [[so|tan]] [[bright|luminoso]] [[and|y]] [[cozy|acogedor]]!",
+          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[house|casa]]. [[What|Qué]] [[rooms|habitaciones]] [[does|tiene]] [[it|ella]] [[have|tiene]]? [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[large|grande]] [[living room|salón]], [[a|una]] [[kitchen|cocina]], [[three|tres]] [[bedrooms|dormitorios]] and [[two|dos]] [[bathrooms|baños]]. [[Oh|Oh]], [[that's|eso es]] [[spacious|amplio]]! [[Is|Hay]] [[there|allí]] [[a|un]] [[garden|jardín]]? [[Yes|Sí]]! [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[small|pequeño]] [[garden|jardín]] [[with|con]] [[flowers|flores]] and [[a|un]] [[table|mesa]] [[outside|afuera]]. [[My|Mi]] [[favourite|favorita]] [[room|habitación]] [[is|es]] [[the|el]] [[living room|salón]] — [[it's|es]] [[so|tan]] [[bright|luminoso]] and [[cozy|acogedor]]!",
           "question_en": "[[What|Qué]] [[is|es]] [[a|un]] 'Balcony'?",
           "options": [
             {
@@ -1023,10 +1023,10 @@
         {
           "interaction_id": "A1_U21_I50",
           "type": "reading-comprehension",
-          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] and [[answer|responde]].",
           "mastery_tag": "reading",
           "complexity": 2,
-          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[house|casa]]. [[What|Qué]] [[rooms|habitaciones]] [[does|tiene]] [[it|ella]] [[have|tiene]]? [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[large|grande]] [[living room|salón]], [[a|una]] [[kitchen|cocina]], [[three|tres]] [[bedrooms|dormitorios]] [[and|y]] [[two|dos]] [[bathrooms|baños]]. [[Oh|Oh]], [[that's|eso es]] [[spacious|amplio]]! [[Is|Hay]] [[there|allí]] [[a|un]] [[garden|jardín]]? [[Yes|Sí]]! [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[small|pequeño]] [[garden|jardín]] [[with|con]] [[flowers|flores]] [[and|y]] [[a|un]] [[table|mesa]] [[outside|afuera]]. [[My|Mi]] [[favourite|favorita]] [[room|habitación]] [[is|es]] [[the|el]] [[living room|salón]] — [[it's|es]] [[so|tan]] [[bright|luminoso]] [[and|y]] [[cozy|acogedor]]!",
+          "transcript": "[[Tell|Cuéntame]] [[me|me]] [[about|sobre]] [[your|tu]] [[house|casa]]. [[What|Qué]] [[rooms|habitaciones]] [[does|tiene]] [[it|ella]] [[have|tiene]]? [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[large|grande]] [[living room|salón]], [[a|una]] [[kitchen|cocina]], [[three|tres]] [[bedrooms|dormitorios]] and [[two|dos]] [[bathrooms|baños]]. [[Oh|Oh]], [[that's|eso es]] [[spacious|amplio]]! [[Is|Hay]] [[there|allí]] [[a|un]] [[garden|jardín]]? [[Yes|Sí]]! [[We|Nosotros]] [[have|tenemos]] [[a|un]] [[small|pequeño]] [[garden|jardín]] [[with|con]] [[flowers|flores]] and [[a|un]] [[table|mesa]] [[outside|afuera]]. [[My|Mi]] [[favourite|favorita]] [[room|habitación]] [[is|es]] [[the|el]] [[living room|salón]] — [[it's|es]] [[so|tan]] [[bright|luminoso]] and [[cozy|acogedor]]!",
           "question_en": "[[Which|Cuál]] [[adjective|adjetivo]] [[describes|describe]] [[a|una]] [[room|habitación]] [[with|con]] [[lots|mucha]] [[of|de]] [[light|luz]]?",
           "options": [
             {
@@ -1189,7 +1189,7 @@
           "prompt_es": "[[Complete|Completa]] [[the|la]] [[sentence|frase]].",
           "mastery_tag": "production",
           "complexity": 3,
-          "stimulus_en": "[[The|La]] [[kitchen|cocina]] [[is|es]] ______ [[and|y]] [[modern|moderna]].",
+          "stimulus_en": "[[The|La]] [[kitchen|cocina]] [[is|es]] ______ and [[modern|moderna]].",
           "correct_answer": "bright"
         },
         {
@@ -1216,7 +1216,7 @@
           "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
           "mastery_tag": "production",
           "complexity": 3,
-          "stimulus_en": "[[We|Nosotros]] [[have|tenemos]] [[a|un]] [[large|grande]] [[living room|salón]], [[a|una]] [[kitchen|cocina]], [[three|tres]] [[bedrooms|dormitorios]] [[and|y]] [[two|dos]] [[bathrooms|baños]].",
+          "stimulus_en": "[[We|Nosotros]] [[have|tenemos]] [[a|un]] [[large|grande]] [[living room|salón]], [[a|una]] [[kitchen|cocina]], [[three|tres]] [[bedrooms|dormitorios]] and [[two|dos]] [[bathrooms|baños]].",
           "correct_answer": false
         },
         {

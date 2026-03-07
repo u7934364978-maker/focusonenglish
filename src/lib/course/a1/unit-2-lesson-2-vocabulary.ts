@@ -124,10 +124,10 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_MC,
       questions: [
         {
-          question: '[[There are|Hay]] ____ [[students|estudiantes]] [[in|en]] [[the|la]] [[class|clase]]: [[Ana|Ana]], [[Luis|Luis]], [[Tom|Tom]], [[Mei|Mei]] [[and|y]] [[Sara|Sara]].',
+          question: '[[There are|Hay]] ____ [[students|estudiantes]] [[in|en]] [[the|la]] [[class|clase]]: [[Ana|Ana]], [[Luis|Luis]], [[Tom|Tom]], [[Mei|Mei]] and [[Sara|Sara]].',
           options: ['[[three|tres]]', '[[four|cuatro]]', '[[five|cinco]]', '[[six|seis]]'],
           correctAnswer: 2,
-          explanation: 'Ana, Luis, Tom, Mei [[and|y]] Sara = [[five|cinco]] [[students|estudiantes]].',
+          explanation: 'Ana, Luis, Tom, Mei and Sara = [[five|cinco]] [[students|estudiantes]].',
         },
       ],
     },
@@ -306,7 +306,7 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_CTX,
       questions: [
         {
-          question: '[[In|En]] [[the|el]] [[classroom|aula]] [[there are|hay]] [[six|seis]] [[boys|chicos]] [[and|y]] [[four|cuatro]] [[girls|chicas]]. [[How many|Cuántos]] [[students|estudiantes]] [[are there|hay]] [[in|en]] [[total|total]]?',
+          question: '[[In|En]] [[the|el]] [[classroom|aula]] [[there are|hay]] [[six|seis]] [[boys|chicos]] and [[four|cuatro]] [[girls|chicas]]. [[How many|Cuántos]] [[students|estudiantes]] [[are there|hay]] [[in|en]] [[total|total]]?',
           options: ['[[eight|Ocho]]', '[[nine|Nueve]]', '[[ten|Diez]]', '[[eleven|Once]]'],
           correctAnswer: 2,
           explanation: '[[Six|Seis]] + [[four|cuatro]] = [[ten|diez]]. [[Ten|Ten]] = [[ten|diez]].',

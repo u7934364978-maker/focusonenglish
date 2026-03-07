@@ -16,9 +16,9 @@ const READING_TRANSCRIPT =
   '[[This|Esta]] [[is|es]] [[my|mi]] [[classroom.|aula.]] ' +
   '[[It|Es]] [[is|es]] [[a|una]] [[big|gran]] [[room.|sala.]] ' +
   '[[There is|Hay]] [[a|una]] [[board|pizarra]] [[on|en]] [[the|la]] [[wall.|pared.]] ' +
-  '[[There are|Hay]] [[twenty|veinte]] [[chairs|sillas]] [[and|y]] [[ten|diez]] [[desks.|escritorios.]] ' +
+  '[[There are|Hay]] [[twenty|veinte]] [[chairs|sillas]] and [[ten|diez]] [[desks.|escritorios.]] ' +
   '[[On|En]] [[my|mi]] [[desk,|escritorio,]] [[there is|hay]] [[a|un]] [[blue|azul]] [[pen,|bolígrafo,]] ' +
-  '[[a|un]] [[red|rojo]] [[notebook|cuaderno]] [[and|y]] [[an|una]] [[eraser.|goma.]] ' +
+  '[[a|un]] [[red|rojo]] [[notebook|cuaderno]] and [[an|una]] [[eraser.|goma.]] ' +
   '[[My|Mi]] [[pencil|lápiz]] [[is|es]] [[green.|verde.]] ' +
   '[[My|Mi]] [[bag|mochila]] [[is|es]] [[black.|negra.]] ' +
   '[[Are there|¿Hay]] [[books|libros]] [[on|en]] [[your|tu]] [[desk?|escritorio?]] ' +
@@ -371,7 +371,7 @@ export const UNIT_4_LESSON_3_READING: Exercise[] = [
             '[[Article + adjective + noun.|Artículo + adjetivo + sustantivo.]]',
           ],
           correctAnswer: 0,
-          explanation: '"[[This|Este]]" [[is|es]] [[a demonstrative,|un demostrativo,]] "[[is|es]]" [[is the verb,|es el verbo,]] "[[a|un]]" [[is the article,|es el artículo,]] "[[big|gran]]" [[is the adjective|es el adjetivo]] [[and|y]] "[[room|sala]]" [[is the noun.|es el sustantivo.]]',
+          explanation: '"[[This|Este]]" [[is|es]] [[a demonstrative,|un demostrativo,]] "[[is|es]]" [[is the verb,|es el verbo,]] "[[a|un]]" [[is the article,|es el artículo,]] "[[big|gran]]" [[is the adjective|es el adjetivo]] and "[[room|sala]]" [[is the noun.|es el sustantivo.]]',
         },
       ],
     },

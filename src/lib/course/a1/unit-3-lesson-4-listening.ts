@@ -19,9 +19,9 @@ const LISTENING_TRANSCRIPT = `[[Receptionist|Recepcionista]]: [[Good morning|Bue
 
 [[Ben|Ben]]: [[Actually|En realidad]], [[she|ella]] [[isn't|no está]] [[hungry|hambrienta]], [[but|pero]] [[she|ella]] [[is|está]] [[thirsty|sedienta]]. [[Are|Hay]] [[there|aquí]] [[any|algunos]] [[drinks|bebidas]] [[here|aquí]]?
 
-[[Receptionist|Recepcionista]]: [[Of course|Por supuesto]]! [[And|Y]] [[what|qué]] [[about|hay de]] [[you|ti]], [[Ben|Ben]]? [[Are|Estás]] [[you|tú]] [[hungry|hambriento]]?
+[[Receptionist|Recepcionista]]: [[Of course|Por supuesto]]! And [[what|qué]] [[about|hay de]] [[you|ti]], [[Ben|Ben]]? [[Are|Estás]] [[you|tú]] [[hungry|hambriento]]?
 
-[[Ben|Ben]]: [[Yes|Sí]], [[I|yo]] [[am|estoy]] [[a little|un poco]] [[hungry|hambriento]]. [[I|Yo]] [[am not|no estoy]] [[angry|enfadado]] [[or|ni]] [[sad|triste]] — [[just|solo]] [[tired|cansado]] [[and|y]] [[hungry|hambriento]].`;
+[[Ben|Ben]]: [[Yes|Sí]], [[I|yo]] [[am|estoy]] [[a little|un poco]] [[hungry|hambriento]]. [[I|Yo]] [[am not|no estoy]] [[angry|enfadado]] [[or|ni]] [[sad|triste]] — [[just|solo]] [[tired|cansado]] and [[hungry|hambriento]].`;
 
 const INST_MC = 'Escucha el audio y elige la respuesta correcta.';
 const INST_TF = 'Escucha el audio. Indica si la afirmación es verdadera o falsa.';

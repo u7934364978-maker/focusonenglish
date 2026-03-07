@@ -253,7 +253,7 @@ export const UNIT_6_LESSON_3_READING: Exercise[] = [
       instructions: INSTRUCTIONS,
       questions: [{
         question: '[[What|Cuál]] [[is|es]] [[the|el]] [[main|principal]] [[topic|tema]] [[of|del]] [[text|texto]]?',
-        options: ['[[A|Una]] [[school|escuela]].', '[[Carlos|Carlos]] [[and|y]] [[his|su]] [[family|familia]].', '[[A|Un]] [[doctor|médico]].', '[[Football|Fútbol]].'],
+        options: ['[[A|Una]] [[school|escuela]].', '[[Carlos|Carlos]] and [[his|su]] [[family|familia]].', '[[A|Un]] [[doctor|médico]].', '[[Football|Fútbol]].'],
         correctAnswer: 1,
         explanation: 'El texto habla de Carlos y su familia.',
       }],
@@ -272,7 +272,7 @@ export const UNIT_6_LESSON_3_READING: Exercise[] = [
       instructions: INSTRUCTIONS,
       questions: [{
         question: '[[Which|Qué]] [[possessives|posesivos]] [[are|aparecen]] [[in|en]] [[the|el]] [[text|texto]]?',
-        options: ['[[Only|Solo]] "[[my|mi]]".', '[[My|Mi]], [[our|nuestro]], [[his|su]].', '[[Your|Tu]] [[and|y]] [[their|su]].', '[[No|Ningún]] [[possessives|posesivos]].'],
+        options: ['[[Only|Solo]] "[[my|mi]]".', '[[My|Mi]], [[our|nuestro]], [[his|su]].', '[[Your|Tu]] and [[their|su]].', '[[No|Ningún]] [[possessives|posesivos]].'],
         correctAnswer: 1,
         explanation: 'Aparecen my, our y his.',
       }],
@@ -291,7 +291,7 @@ export const UNIT_6_LESSON_3_READING: Exercise[] = [
       instructions: INSTRUCTIONS,
       questions: [{
         question: '[[Best|Mejor]] [[summary|resumen]] [[of|del]] [[text|texto]]?',
-        options: ['[[A|Un]] [[doctor|médico]] [[in|en]] [[Madrid|Madrid]].', '[[Carlos|Carlos]] [[introduces|presenta]] [[his|su]] [[family|familia]].', '[[A|Una]] [[family|familia]] [[in|en]] [[Valencia|Valencia]].', '[[School|Escuela]] [[and|y]] [[university|universidad]].'],
+        options: ['[[A|Un]] [[doctor|médico]] [[in|en]] [[Madrid|Madrid]].', '[[Carlos|Carlos]] [[introduces|presenta]] [[his|su]] [[family|familia]].', '[[A|Una]] [[family|familia]] [[in|en]] [[Valencia|Valencia]].', '[[School|Escuela]] and [[university|universidad]].'],
         correctAnswer: 1,
         explanation: 'Carlos presenta a su familia: madre, padre, hermana, hermano, abuelos.',
       }],

@@ -6,7 +6,7 @@
 import { Exercise } from '@/lib/exercise-generator';
 
 const LESSON_TITLE = 'Comprensión lectora';
-const READING_TRANSCRIPT = `[[Hi|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] [[Laura|Laura]]. [[Today|Hoy]] [[is|es]] [[Monday|lunes]] [[and|y]] [[I|yo]] [[am|estoy]] [[very|muy]] [[tired|cansada]]. [[I|Yo]] [[worked|trabajé]] [[all|todo]] [[weekend|el fin de semana]]. [[I|Yo]] [[am not|no estoy]] [[happy|feliz]] [[about|con]] [[that|eso]], [[but|pero]] [[it|ello]] [[is|es]] [[OK|bien]].
+const READING_TRANSCRIPT = `[[Hi|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] [[Laura|Laura]]. [[Today|Hoy]] [[is|es]] [[Monday|lunes]] and [[I|yo]] [[am|estoy]] [[very|muy]] [[tired|cansada]]. [[I|Yo]] [[worked|trabajé]] [[all|todo]] [[weekend|el fin de semana]]. [[I|Yo]] [[am not|no estoy]] [[happy|feliz]] [[about|con]] [[that|eso]], [[but|pero]] [[it|ello]] [[is|es]] [[OK|bien]].
 
 [[My|Mi]] [[friend|amigo]] [[Tom|Tom]] [[is|está]] [[excited|emocionado]] [[today|hoy]]. [[He|Él]] [[is|está]] [[not|no]] [[tired|cansado]] — [[he|él]] [[slept|durmió]] [[ten|diez]] [[hours|horas]]! [[Is|Está]] [[he|él]] [[hungry|hambriento]]? [[Yes|Sí]], [[he|él]] [[is|está]] — [[he|él]] [[wants|quiere]] [[breakfast|desayunar]].
 

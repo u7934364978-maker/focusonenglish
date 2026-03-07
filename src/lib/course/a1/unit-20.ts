@@ -87,7 +87,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "title": "[[Limbs|Extremidades]]",
       "instructions": "[[Order the words|Ordena las palabras]].",
       "correctSentence": "[[I have two arms and two legs|Tengo dos brazos y dos piernas]].",
-      "words": ["[[legs|piernas]].", "[[two|dos]]", "[[and|y]]", "[[arms|brazos]]", "[[two|dos]]", "[[have|tengo]]", "[[I|Yo]]"],
+      "words": ["[[legs|piernas]].", "[[two|dos]]", "and", "[[arms|brazos]]", "[[two|dos]]", "[[have|tengo]]", "[[I|Yo]]"],
       "explanation": "[[Arms are on the upper body, legs on the lower|Los brazos están en el torso superior, las piernas en el inferior]]."
     },
     "audioUrl": "audio/a1/unit-20/e5.mp3",
@@ -143,7 +143,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "title": "[[Descriptions|Descripciones]]",
       "instructions": "[[Order the words|Ordena las palabras]].",
       "correctSentence": "[[He has brown hair and blue eyes|Él tiene cabello castaño y ojos azules]].",
-      "words": ["[[eyes|ojos]].", "[[blue|azules]]", "[[and|y]]", "[[hair|cabello]]", "[[brown|castaño]]", "[[has|tiene]]", "[[He|Él]]"],
+      "words": ["[[eyes|ojos]].", "[[blue|azules]]", "and", "[[hair|cabello]]", "[[brown|castaño]]", "[[has|tiene]]", "[[He|Él]]"],
       "explanation": "[[Describe hair and eyes using adjectives|Describe el cabello y los ojos usando adjetivos]]."
     },
     "audioUrl": "audio/a1/unit-20/e8.mp3",
@@ -273,7 +273,7 @@ export const UNIT_20_EXERCISES: Exercise[] = [
       "title": "[[Face Parts|Partes de la cara]]",
       "instructions": "[[Order the words|Ordena las palabras]].",
       "correctSentence": "[[I have two ears and one nose|Tengo dos orejas y una nariz]].",
-      "words": ["[[nose|nariz]].", "[[one|una]]", "[[and|y]]", "[[ears|orejas]]", "[[two|dos]]", "[[have|tengo]]", "[[I|Yo]]"],
+      "words": ["[[nose|nariz]].", "[[one|una]]", "and", "[[ears|orejas]]", "[[two|dos]]", "[[have|tengo]]", "[[I|Yo]]"],
       "explanation": "[[Count the parts on your face|Cuenta las partes de tu cara]]."
     },
     "audioUrl": "audio/a1/unit-20/e15.mp3",

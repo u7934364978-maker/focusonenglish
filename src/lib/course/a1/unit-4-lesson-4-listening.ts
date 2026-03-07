@@ -15,7 +15,7 @@ const LISTENING_TRANSCRIPT =
   '[[Student|Estudiante]] [[1:|1:]] [[What|¿Qué]] [[is|es]] [[this?|esto?]] ' +
   '[[Student|Estudiante]] [[2:|2:]] [[It|Es]] [[is|es]] [[a|un]] [[pencil.|lápiz.]] ' +
   '[[It|Es]] [[is|es]] [[yellow.|amarillo.]] ' +
-  '[[Student|Estudiante]] [[1:|1:]] [[And|¿Y]] [[those?|esos?]] ' +
+  '[[Student|Estudiante]] [[1:|1:]] And [[those?|esos?]] ' +
   '[[Student|Estudiante]] [[2:|2:]] [[Those|Esos]] [[are|son]] [[erasers.|gomas.]] ' +
   '[[There are|Hay]] [[four|cuatro]] [[erasers.|gomas.]] ' +
   '[[Student|Estudiante]] [[1:|1:]] [[Is|¿Es]] [[that|eso]] [[a|una]] [[bag?|mochila?]] ' +

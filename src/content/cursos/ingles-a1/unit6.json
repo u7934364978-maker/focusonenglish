@@ -807,10 +807,10 @@
         {
           "interaction_id": "A1_U6_I41",
           "type": "reading-comprehension",
-          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] and [[answer|responde]].",
           "mastery_tag": "reading",
           "complexity": 2,
-          "transcript": "[[This|Esta]] [[is|es]] [[a|una]] [[photo|foto]] [[of|de]] [[my|mi]] [[family|familia]]. [[That|Ese]] [[is|es]] [[my|mi]] [[father|padre]]. [[His|Su]] [[name|nombre]] [[is|es]] [[Robert|Robert]]. [[And|Y]] [[that|esa]] [[is|es]] [[my|mi]] [[mother|madre]]. [[Her|Su]] [[name|nombre]] [[is|es]] [[Sarah|Sarah]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[brothers|hermanos]] [[or|o]] [[sisters|hermanas]]? [[Yes|Sí]]! [[I|Yo]] [[have|tengo]] [[one|un]] [[brother|hermano]] [[and|y]] [[two|dos]] [[sisters|hermanas]]. [[Our|Nuestra]] [[family|familia]] [[is|es]] [[very|muy]] [[close|unida]].",
+          "transcript": "[[This|Esta]] [[is|es]] [[a|una]] [[photo|foto]] [[of|de]] [[my|mi]] [[family|familia]]. [[That|Ese]] [[is|es]] [[my|mi]] [[father|padre]]. [[His|Su]] [[name|nombre]] [[is|es]] [[Robert|Robert]]. And [[that|esa]] [[is|es]] [[my|mi]] [[mother|madre]]. [[Her|Su]] [[name|nombre]] [[is|es]] [[Sarah|Sarah]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[brothers|hermanos]] [[or|o]] [[sisters|hermanas]]? [[Yes|Sí]]! [[I|Yo]] [[have|tengo]] [[one|un]] [[brother|hermano]] and [[two|dos]] [[sisters|hermanas]]. [[Our|Nuestra]] [[family|familia]] [[is|es]] [[very|muy]] [[close|unida]].",
           "question_en": "[[What|Cuál]] [[is|es]] [[the|el]] [[father's|del padre]] [[name|nombre]]?",
           "options": [
             {
@@ -831,10 +831,10 @@
         {
           "interaction_id": "A1_U6_I42",
           "type": "reading-comprehension",
-          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] and [[answer|responde]].",
           "mastery_tag": "reading",
           "complexity": 2,
-          "transcript": "[[This|Esta]] [[is|es]] [[a|una]] [[photo|foto]] [[of|de]] [[my|mi]] [[family|familia]]. [[That|Ese]] [[is|es]] [[my|mi]] [[father|padre]]. [[His|Su]] [[name|nombre]] [[is|es]] [[Robert|Robert]]. [[And|Y]] [[that|esa]] [[is|es]] [[my|mi]] [[mother|madre]]. [[Her|Su]] [[name|nombre]] [[is|es]] [[Sarah|Sarah]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[brothers|hermanos]] [[or|o]] [[sisters|hermanas]]? [[Yes|Sí]]! [[I|Yo]] [[have|tengo]] [[one|un]] [[brother|hermano]] [[and|y]] [[two|dos]] [[sisters|hermanas]]. [[Our|Nuestra]] [[family|familia]] [[is|es]] [[very|muy]] [[close|unida]].",
+          "transcript": "[[This|Esta]] [[is|es]] [[a|una]] [[photo|foto]] [[of|de]] [[my|mi]] [[family|familia]]. [[That|Ese]] [[is|es]] [[my|mi]] [[father|padre]]. [[His|Su]] [[name|nombre]] [[is|es]] [[Robert|Robert]]. And [[that|esa]] [[is|es]] [[my|mi]] [[mother|madre]]. [[Her|Su]] [[name|nombre]] [[is|es]] [[Sarah|Sarah]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[brothers|hermanos]] [[or|o]] [[sisters|hermanas]]? [[Yes|Sí]]! [[I|Yo]] [[have|tengo]] [[one|un]] [[brother|hermano]] and [[two|dos]] [[sisters|hermanas]]. [[Our|Nuestra]] [[family|familia]] [[is|es]] [[very|muy]] [[close|unida]].",
           "question_en": "[[What|Cuál]] [[is|es]] [[the|la]] [[mother's|de la madre]] [[name|nombre]]?",
           "options": [
             {
@@ -855,10 +855,10 @@
         {
           "interaction_id": "A1_U6_I43",
           "type": "reading-comprehension",
-          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] and [[answer|responde]].",
           "mastery_tag": "reading",
           "complexity": 2,
-          "transcript": "[[This|Esta]] [[is|es]] [[a|una]] [[photo|foto]] [[of|de]] [[my|mi]] [[family|familia]]. [[That|Ese]] [[is|es]] [[my|mi]] [[father|padre]]. [[His|Su]] [[name|nombre]] [[is|es]] [[Robert|Robert]]. [[And|Y]] [[that|esa]] [[is|es]] [[my|mi]] [[mother|madre]]. [[Her|Su]] [[name|nombre]] [[is|es]] [[Sarah|Sarah]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[brothers|hermanos]] [[or|o]] [[sisters|hermanas]]? [[Yes|Sí]]! [[I|Yo]] [[have|tengo]] [[one|un]] [[brother|hermano]] [[and|y]] [[two|dos]] [[sisters|hermanas]]. [[Our|Nuestra]] [[family|familia]] [[is|es]] [[very|muy]] [[close|unida]].",
+          "transcript": "[[This|Esta]] [[is|es]] [[a|una]] [[photo|foto]] [[of|de]] [[my|mi]] [[family|familia]]. [[That|Ese]] [[is|es]] [[my|mi]] [[father|padre]]. [[His|Su]] [[name|nombre]] [[is|es]] [[Robert|Robert]]. And [[that|esa]] [[is|es]] [[my|mi]] [[mother|madre]]. [[Her|Su]] [[name|nombre]] [[is|es]] [[Sarah|Sarah]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[brothers|hermanos]] [[or|o]] [[sisters|hermanas]]? [[Yes|Sí]]! [[I|Yo]] [[have|tengo]] [[one|un]] [[brother|hermano]] and [[two|dos]] [[sisters|hermanas]]. [[Our|Nuestra]] [[family|familia]] [[is|es]] [[very|muy]] [[close|unida]].",
           "question_en": "[[How|Cuántos]] [[many|muchos]] [[brothers|hermanos]] [[does|tiene]] [[the|el]] [[speaker|hablante]] [[have|tiene]]?",
           "options": [
             {
@@ -879,10 +879,10 @@
         {
           "interaction_id": "A1_U6_I44",
           "type": "reading-comprehension",
-          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] and [[answer|responde]].",
           "mastery_tag": "reading",
           "complexity": 2,
-          "transcript": "[[This|Esta]] [[is|es]] [[a|una]] [[photo|foto]] [[of|de]] [[my|mi]] [[family|familia]]. [[That|Ese]] [[is|es]] [[my|mi]] [[father|padre]]. [[His|Su]] [[name|nombre]] [[is|es]] [[Robert|Robert]]. [[And|Y]] [[that|esa]] [[is|es]] [[my|mi]] [[mother|madre]]. [[Her|Su]] [[name|nombre]] [[is|es]] [[Sarah|Sarah]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[brothers|hermanos]] [[or|o]] [[sisters|hermanas]]? [[Yes|Sí]]! [[I|Yo]] [[have|tengo]] [[one|un]] [[brother|hermano]] [[and|y]] [[two|dos]] [[sisters|hermanas]]. [[Our|Nuestra]] [[family|familia]] [[is|es]] [[very|muy]] [[close|unida]].",
+          "transcript": "[[This|Esta]] [[is|es]] [[a|una]] [[photo|foto]] [[of|de]] [[my|mi]] [[family|familia]]. [[That|Ese]] [[is|es]] [[my|mi]] [[father|padre]]. [[His|Su]] [[name|nombre]] [[is|es]] [[Robert|Robert]]. And [[that|esa]] [[is|es]] [[my|mi]] [[mother|madre]]. [[Her|Su]] [[name|nombre]] [[is|es]] [[Sarah|Sarah]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[brothers|hermanos]] [[or|o]] [[sisters|hermanas]]? [[Yes|Sí]]! [[I|Yo]] [[have|tengo]] [[one|un]] [[brother|hermano]] and [[two|dos]] [[sisters|hermanas]]. [[Our|Nuestra]] [[family|familia]] [[is|es]] [[very|muy]] [[close|unida]].",
           "question_en": "[[How|Cuántas]] [[many|muchas]] [[sisters|hermanas]] [[does|tiene]] [[the|el]] [[speaker|hablante]] [[have|tiene]]?",
           "options": [
             {
@@ -903,10 +903,10 @@
         {
           "interaction_id": "A1_U6_I45",
           "type": "reading-comprehension",
-          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] and [[answer|responde]].",
           "mastery_tag": "reading",
           "complexity": 2,
-          "transcript": "[[This|Esta]] [[is|es]] [[a|una]] [[photo|foto]] [[of|de]] [[my|mi]] [[family|familia]]. [[That|Ese]] [[is|es]] [[my|mi]] [[father|padre]]. [[His|Su]] [[name|nombre]] [[is|es]] [[Robert|Robert]]. [[And|Y]] [[that|esa]] [[is|es]] [[my|mi]] [[mother|madre]]. [[Her|Su]] [[name|nombre]] [[is|es]] [[Sarah|Sarah]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[brothers|hermanos]] [[or|o]] [[sisters|hermanas]]? [[Yes|Sí]]! [[I|Yo]] [[have|tengo]] [[one|un]] [[brother|hermano]] [[and|y]] [[two|dos]] [[sisters|hermanas]]. [[Our|Nuestra]] [[family|familia]] [[is|es]] [[very|muy]] [[close|unida]].",
+          "transcript": "[[This|Esta]] [[is|es]] [[a|una]] [[photo|foto]] [[of|de]] [[my|mi]] [[family|familia]]. [[That|Ese]] [[is|es]] [[my|mi]] [[father|padre]]. [[His|Su]] [[name|nombre]] [[is|es]] [[Robert|Robert]]. And [[that|esa]] [[is|es]] [[my|mi]] [[mother|madre]]. [[Her|Su]] [[name|nombre]] [[is|es]] [[Sarah|Sarah]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[brothers|hermanos]] [[or|o]] [[sisters|hermanas]]? [[Yes|Sí]]! [[I|Yo]] [[have|tengo]] [[one|un]] [[brother|hermano]] and [[two|dos]] [[sisters|hermanas]]. [[Our|Nuestra]] [[family|familia]] [[is|es]] [[very|muy]] [[close|unida]].",
           "question_en": "[[Which|Cuál]] [[possessive|posesivo]] [[means|significa]] '[[Su|His]] (de él)'?",
           "options": [
             {
@@ -927,10 +927,10 @@
         {
           "interaction_id": "A1_U6_I46",
           "type": "reading-comprehension",
-          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] and [[answer|responde]].",
           "mastery_tag": "reading",
           "complexity": 2,
-          "transcript": "[[This|Esta]] [[is|es]] [[a|una]] [[photo|foto]] [[of|de]] [[my|mi]] [[family|familia]]. [[That|Ese]] [[is|es]] [[my|mi]] [[father|padre]]. [[His|Su]] [[name|nombre]] [[is|es]] [[Robert|Robert]]. [[And|Y]] [[that|esa]] [[is|es]] [[my|mi]] [[mother|madre]]. [[Her|Su]] [[name|nombre]] [[is|es]] [[Sarah|Sarah]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[brothers|hermanos]] [[or|o]] [[sisters|hermanas]]? [[Yes|Sí]]! [[I|Yo]] [[have|tengo]] [[one|un]] [[brother|hermano]] [[and|y]] [[two|dos]] [[sisters|hermanas]]. [[Our|Nuestra]] [[family|familia]] [[is|es]] [[very|muy]] [[close|unida]].",
+          "transcript": "[[This|Esta]] [[is|es]] [[a|una]] [[photo|foto]] [[of|de]] [[my|mi]] [[family|familia]]. [[That|Ese]] [[is|es]] [[my|mi]] [[father|padre]]. [[His|Su]] [[name|nombre]] [[is|es]] [[Robert|Robert]]. And [[that|esa]] [[is|es]] [[my|mi]] [[mother|madre]]. [[Her|Su]] [[name|nombre]] [[is|es]] [[Sarah|Sarah]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[brothers|hermanos]] [[or|o]] [[sisters|hermanas]]? [[Yes|Sí]]! [[I|Yo]] [[have|tengo]] [[one|un]] [[brother|hermano]] and [[two|dos]] [[sisters|hermanas]]. [[Our|Nuestra]] [[family|familia]] [[is|es]] [[very|muy]] [[close|unida]].",
           "question_en": "[[Which|Cuál]] [[possessive|posesivo]] [[refers|se refiere]] [[to|a]] [[a|una]] [[female|mujer]]?",
           "options": [
             {
@@ -951,10 +951,10 @@
         {
           "interaction_id": "A1_U6_I47",
           "type": "reading-comprehension",
-          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] and [[answer|responde]].",
           "mastery_tag": "reading",
           "complexity": 2,
-          "transcript": "[[This|Esta]] [[is|es]] [[a|una]] [[photo|foto]] [[of|de]] [[my|mi]] [[family|familia]]. [[That|Ese]] [[is|es]] [[my|mi]] [[father|padre]]. [[His|Su]] [[name|nombre]] [[is|es]] [[Robert|Robert]]. [[And|Y]] [[that|esa]] [[is|es]] [[my|mi]] [[mother|madre]]. [[Her|Su]] [[name|nombre]] [[is|es]] [[Sarah|Sarah]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[brothers|hermanos]] [[or|o]] [[sisters|hermanas]]? [[Yes|Sí]]! [[I|Yo]] [[have|tengo]] [[one|un]] [[brother|hermano]] [[and|y]] [[two|dos]] [[sisters|hermanas]]. [[Our|Nuestra]] [[family|familia]] [[is|es]] [[very|muy]] [[close|unida]].",
+          "transcript": "[[This|Esta]] [[is|es]] [[a|una]] [[photo|foto]] [[of|de]] [[my|mi]] [[family|familia]]. [[That|Ese]] [[is|es]] [[my|mi]] [[father|padre]]. [[His|Su]] [[name|nombre]] [[is|es]] [[Robert|Robert]]. And [[that|esa]] [[is|es]] [[my|mi]] [[mother|madre]]. [[Her|Su]] [[name|nombre]] [[is|es]] [[Sarah|Sarah]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[brothers|hermanos]] [[or|o]] [[sisters|hermanas]]? [[Yes|Sí]]! [[I|Yo]] [[have|tengo]] [[one|un]] [[brother|hermano]] and [[two|dos]] [[sisters|hermanas]]. [[Our|Nuestra]] [[family|familia]] [[is|es]] [[very|muy]] [[close|unida]].",
           "question_en": "[[What|Qué]] [[word|palabra]] [[means|significa]] '[[Abuela|Grandmother]]'?",
           "options": [
             {
@@ -975,10 +975,10 @@
         {
           "interaction_id": "A1_U6_I48",
           "type": "reading-comprehension",
-          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] and [[answer|responde]].",
           "mastery_tag": "reading",
           "complexity": 2,
-          "transcript": "[[This|Esta]] [[is|es]] [[a|una]] [[photo|foto]] [[of|de]] [[my|mi]] [[family|familia]]. [[That|Ese]] [[is|es]] [[my|mi]] [[father|padre]]. [[His|Su]] [[name|nombre]] [[is|es]] [[Robert|Robert]]. [[And|Y]] [[that|esa]] [[is|es]] [[my|mi]] [[mother|madre]]. [[Her|Su]] [[name|nombre]] [[is|es]] [[Sarah|Sarah]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[brothers|hermanos]] [[or|o]] [[sisters|hermanas]]? [[Yes|Sí]]! [[I|Yo]] [[have|tengo]] [[one|un]] [[brother|hermano]] [[and|y]] [[two|dos]] [[sisters|hermanas]]. [[Our|Nuestra]] [[family|familia]] [[is|es]] [[very|muy]] [[close|unida]].",
+          "transcript": "[[This|Esta]] [[is|es]] [[a|una]] [[photo|foto]] [[of|de]] [[my|mi]] [[family|familia]]. [[That|Ese]] [[is|es]] [[my|mi]] [[father|padre]]. [[His|Su]] [[name|nombre]] [[is|es]] [[Robert|Robert]]. And [[that|esa]] [[is|es]] [[my|mi]] [[mother|madre]]. [[Her|Su]] [[name|nombre]] [[is|es]] [[Sarah|Sarah]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[brothers|hermanos]] [[or|o]] [[sisters|hermanas]]? [[Yes|Sí]]! [[I|Yo]] [[have|tengo]] [[one|un]] [[brother|hermano]] and [[two|dos]] [[sisters|hermanas]]. [[Our|Nuestra]] [[family|familia]] [[is|es]] [[very|muy]] [[close|unida]].",
           "question_en": "[[What|Qué]] [[does|significa]] '[[Our|Nuestro]]' [[mean|significa]]?",
           "options": [
             {
@@ -999,10 +999,10 @@
         {
           "interaction_id": "A1_U6_I49",
           "type": "reading-comprehension",
-          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] and [[answer|responde]].",
           "mastery_tag": "reading",
           "complexity": 2,
-          "transcript": "[[This|Esta]] [[is|es]] [[a|una]] [[photo|foto]] [[of|de]] [[my|mi]] [[family|familia]]. [[That|Ese]] [[is|es]] [[my|mi]] [[father|padre]]. [[His|Su]] [[name|nombre]] [[is|es]] [[Robert|Robert]]. [[And|Y]] [[that|esa]] [[is|es]] [[my|mi]] [[mother|madre]]. [[Her|Su]] [[name|nombre]] [[is|es]] [[Sarah|Sarah]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[brothers|hermanos]] [[or|o]] [[sisters|hermanas]]? [[Yes|Sí]]! [[I|Yo]] [[have|tengo]] [[one|un]] [[brother|hermano]] [[and|y]] [[two|dos]] [[sisters|hermanas]]. [[Our|Nuestra]] [[family|familia]] [[is|es]] [[very|muy]] [[close|unida]].",
+          "transcript": "[[This|Esta]] [[is|es]] [[a|una]] [[photo|foto]] [[of|de]] [[my|mi]] [[family|familia]]. [[That|Ese]] [[is|es]] [[my|mi]] [[father|padre]]. [[His|Su]] [[name|nombre]] [[is|es]] [[Robert|Robert]]. And [[that|esa]] [[is|es]] [[my|mi]] [[mother|madre]]. [[Her|Su]] [[name|nombre]] [[is|es]] [[Sarah|Sarah]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[brothers|hermanos]] [[or|o]] [[sisters|hermanas]]? [[Yes|Sí]]! [[I|Yo]] [[have|tengo]] [[one|un]] [[brother|hermano]] and [[two|dos]] [[sisters|hermanas]]. [[Our|Nuestra]] [[family|familia]] [[is|es]] [[very|muy]] [[close|unida]].",
           "question_en": "[[What|Qué]] [[does|tiene]] [[Saxon|sajón]] [[Genitive|genitivo]] '[[s|'s]]' [[show|mostrar]]?",
           "options": [
             {
@@ -1023,10 +1023,10 @@
         {
           "interaction_id": "A1_U6_I50",
           "type": "reading-comprehension",
-          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] [[and|y]] [[answer|responde]].",
+          "prompt_es": "[[Read|Lee]] [[the|el]] [[text|texto]] and [[answer|responde]].",
           "mastery_tag": "reading",
           "complexity": 2,
-          "transcript": "[[This|Esta]] [[is|es]] [[a|una]] [[photo|foto]] [[of|de]] [[my|mi]] [[family|familia]]. [[That|Ese]] [[is|es]] [[my|mi]] [[father|padre]]. [[His|Su]] [[name|nombre]] [[is|es]] [[Robert|Robert]]. [[And|Y]] [[that|esa]] [[is|es]] [[my|mi]] [[mother|madre]]. [[Her|Su]] [[name|nombre]] [[is|es]] [[Sarah|Sarah]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[brothers|hermanos]] [[or|o]] [[sisters|hermanas]]? [[Yes|Sí]]! [[I|Yo]] [[have|tengo]] [[one|un]] [[brother|hermano]] [[and|y]] [[two|dos]] [[sisters|hermanas]]. [[Our|Nuestra]] [[family|familia]] [[is|es]] [[very|muy]] [[close|unida]].",
+          "transcript": "[[This|Esta]] [[is|es]] [[a|una]] [[photo|foto]] [[of|de]] [[my|mi]] [[family|familia]]. [[That|Ese]] [[is|es]] [[my|mi]] [[father|padre]]. [[His|Su]] [[name|nombre]] [[is|es]] [[Robert|Robert]]. And [[that|esa]] [[is|es]] [[my|mi]] [[mother|madre]]. [[Her|Su]] [[name|nombre]] [[is|es]] [[Sarah|Sarah]]. [[Do|Tienes]] [[you|tú]] [[have|tienes]] [[brothers|hermanos]] [[or|o]] [[sisters|hermanas]]? [[Yes|Sí]]! [[I|Yo]] [[have|tengo]] [[one|un]] [[brother|hermano]] and [[two|dos]] [[sisters|hermanas]]. [[Our|Nuestra]] [[family|familia]] [[is|es]] [[very|muy]] [[close|unida]].",
           "question_en": "[[What|Qué]] [[is|es]] [[the|la]] [[opposite|opuesta]] [[of|de]] '[[Son|Hijo]]'?",
           "options": [
             {
@@ -1225,7 +1225,7 @@
           "prompt_es": "[[True|Verdadero]] [[or|o]] [[False|Falso]]?",
           "mastery_tag": "production",
           "complexity": 3,
-          "stimulus_en": "[[And|Y]] [[that|esa]] [[is|es]] [[my|mi]] [[mother|madre]]. [[Her|Su]] [[name|nombre]] [[is|es]] [[Sarah|Sarah]].",
+          "stimulus_en": "And [[that|esa]] [[is|es]] [[my|mi]] [[mother|madre]]. [[Her|Su]] [[name|nombre]] [[is|es]] [[Sarah|Sarah]].",
           "correct_answer": true
         }
       ]

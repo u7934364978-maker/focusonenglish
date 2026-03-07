@@ -18,7 +18,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Listen|Escucha]] [[to the|la]] [[phrase|frase]] [[and|y]] [[repeat it|repítela]] [[aloud|en voz alta]].',
+      instructions: '[[Listen|Escucha]] [[to the|la]] [[phrase|frase]] and [[repeat it|repítela]] [[aloud|en voz alta]].',
       targetText: '[[She|Ella]] [[is|es]] [[French|francesa]]. [[She|Ella]] [[is|es]] [[from|de]] [[France|Francia]].',
       expectedResponse: 'She is French. She is from France.',
     },
@@ -32,7 +32,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Listen|Escucha]] [[and|y]] [[repeat|repite]] [[aloud|en voz alta]].',
+      instructions: '[[Listen|Escucha]] and [[repeat|repite]] [[aloud|en voz alta]].',
       targetText: '[[He|Él]] [[is|es]] [[Spanish|español]]. [[He|Él]] [[is|es]] [[from|de]] [[Spain|España]].',
       expectedResponse: 'He is Spanish. He is from Spain.',
     },
@@ -46,7 +46,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Listen|Escucha]] [[and|y]] [[repeat|repite]] [[aloud|en voz alta]].',
+      instructions: '[[Listen|Escucha]] and [[repeat|repite]] [[aloud|en voz alta]].',
       targetText: '[[They|Ellos]] [[are|son]] [[American|americanos]]. [[They|Ellos]] [[are|son]] [[from|de]] [[the United States|Estados Unidos]].',
       expectedResponse: 'They are American. They are from the United States.',
     },
@@ -60,7 +60,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Listen|Escucha]] [[and|y]] [[repeat|repite]] [[aloud|en voz alta]].',
+      instructions: '[[Listen|Escucha]] and [[repeat|repite]] [[aloud|en voz alta]].',
       targetText: '[[We|Nosotros]] [[are|somos]] [[Italian|italianos]]. [[We|Nosotros]] [[are|somos]] [[from|de]] [[Italy|Italia]].',
       expectedResponse: 'We are Italian. We are from Italy.',
     },
@@ -105,7 +105,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     content: {
       title: LESSON_TITLE,
       instructions: '[[Read|Lee]] [[the sentence|la frase]] [[aloud|en voz alta]].',
-      targetText: '[[Carlos|Carlos]] [[and|y]] [[Mia|Mia]] [[are|son]] [[from|de]] [[different|diferentes]] [[countries|países]]. [[He|Él]] [[is|es]] [[Mexican|mexicano]] [[and|y]] [[she|ella]] [[is|es]] [[German|alemana]].',
+      targetText: '[[Carlos|Carlos]] and [[Mia|Mia]] [[are|son]] [[from|de]] [[different|diferentes]] [[countries|países]]. [[He|Él]] [[is|es]] [[Mexican|mexicano]] and [[she|ella]] [[is|es]] [[German|alemana]].',
       expectedResponse: 'Carlos and Mia are from different countries. He is Mexican and she is German.',
     },
     topicName: 'Speaking',
@@ -178,7 +178,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Say aloud|Di en voz alta]]: [[where you are from|de dónde eres]] [[and|y]] [[your nationality|tu nacionalidad]]. [[Model|Modelo]]: "I am from … I am …"',
+      instructions: '[[Say aloud|Di en voz alta]]: [[where you are from|de dónde eres]] and [[your nationality|tu nacionalidad]]. [[Model|Modelo]]: "I am from … I am …"',
       targetText: '[[I am from|Soy de]] ____. [[I am|Soy]] ____.',
       expectedResponse: 'I am from [country]. I am [nationality].',
     },
@@ -192,7 +192,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Say aloud|Di en voz alta]] [[where a friend is from|de dónde es un amigo]] [[and|y]] [[their nationality|su nacionalidad]]. [[Model|Modelo]]: "He/She is from … He/She is …"',
+      instructions: '[[Say aloud|Di en voz alta]] [[where a friend is from|de dónde es un amigo]] and [[their nationality|su nacionalidad]]. [[Model|Modelo]]: "He/She is from … He/She is …"',
       targetText: '[[He/She|Él/Ella]] [[is from|es de]] ____. [[He/She|Él/Ella]] [[is|es]] ____.',
       expectedResponse: 'He/She is from [country]. He/She is [nationality].',
     },
