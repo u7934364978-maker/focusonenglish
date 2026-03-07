@@ -76,7 +76,8 @@ Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 - Ex 11–13: `fill-blank` — sentence with blank, options as tokens, `correctAnswer` = string token
 - Ex 14–15: `multiple-choice` — situational context, 4 token options, `correctAnswer` = index
 
-### [ ] Step: Create unit-5-lesson-3-reading.ts
+### [x] Step: Create unit-5-lesson-3-reading.ts
+<!-- chat-id: 58832973-260f-4d4a-8b21-25e3f61ba055 -->
 - File: `src/lib/course/a1/unit-5-lesson-3-reading.ts`
 - Export: `UNIT_5_LESSON_3_READING: Exercise[]`
 - IDs: `a1-u5-l3-reading-1` … `a1-u5-l3-reading-15`
