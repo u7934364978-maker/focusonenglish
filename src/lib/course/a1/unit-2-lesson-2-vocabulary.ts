@@ -24,7 +24,7 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_MC,
       questions: [
         {
-          question: '¿Cuál es la nacionalidad de un español?',
+          question: '[[Which|Cuál]] [[is|es]] [[the|la]] [[nationality|nacionalidad]] [[of|de]] [[a|un]] [[Spanish person|español]]?',
           options: ['[[French|Francés]]', '[[Italian|Italiano]]', '[[Spanish|Español]]', '[[German|Alemán]]'],
           correctAnswer: 2,
           explanation: 'España → [[Spanish|Español]].',
@@ -64,7 +64,7 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_MC,
       questions: [
         {
-          question: '¿Cuál es el país de la nacionalidad "Japanese"?',
+          question: '[[Which|Cuál]] [[is|es]] [[the|el]] [[country|país]] [[of|de]] [[the|la]] [[nationality|nacionalidad]] "[[Japanese|Japonés]]"?',
           options: ['[[China|China]]', '[[Mexico|México]]', '[[Brazil|Brasil]]', '[[Japan|Japón]]'],
           correctAnswer: 3,
           explanation: '[[Japanese|Japonés]] → [[Japan|Japón]].',
@@ -84,7 +84,7 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_MC,
       questions: [
         {
-          question: '¿Cómo se dice el número siete en inglés?',
+          question: '[[How|Cómo]] [[do you say|se dice]] [[the|el]] [[number|número]] [[seven|siete]] [[in|en]] [[English|inglés]]?',
           options: ['[[Five|cinco]]', '[[Six|seis]]', '[[Seven|siete]]', '[[Eight|ocho]]'],
           correctAnswer: 2,
           explanation: '[[Seven|siete]] en inglés es "seven".',
@@ -104,7 +104,7 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_MC,
       questions: [
         {
-          question: 'Él es de Italia. ¿Cuál es su nacionalidad?',
+          question: '[[He|Él]] [[is|es]] [[from|de]] [[Italy|Italia]]. [[Which|Cuál]] [[is|es]] [[his|su]] [[nationality|nacionalidad]]?',
           options: ['[[Spanish|Español]]', '[[Italian|Italiano]]', '[[American|Americano]]', '[[Mexican|Mexicano]]'],
           correctAnswer: 1,
           explanation: '[[Italy|Italia]] → [[Italian|Italiano]].',
@@ -124,7 +124,7 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_MC,
       questions: [
         {
-          question: 'Hay ____ estudiantes en la clase: Ana, Luis, Tom, Mei y Sara.',
+          question: '[[There are|Hay]] ____ [[students|estudiantes]] [[in|en]] [[the|la]] [[class|clase]]: [[Ana|Ana]], [[Luis|Luis]], [[Tom|Tom]], [[Mei|Mei]] [[and|y]] [[Sara|Sara]].',
           options: ['[[three|tres]]', '[[four|cuatro]]', '[[five|cinco]]', '[[six|seis]]'],
           correctAnswer: 2,
           explanation: 'Ana, Luis, Tom, Mei [[and|y]] Sara = [[five|cinco]] [[students|estudiantes]].',
@@ -264,7 +264,7 @@ export const UNIT_2_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_FILL,
       questions: [
         {
-          question: 'Hay diez países en la lista. ¿Cómo se escribe diez en inglés?',
+          question: '[[There are|Hay]] [[ten|diez]] [[countries|países]] [[in|en]] [[the|la]] [[list|lista]]. [[How|Cómo]] [[do you write|se escribe]] "[[ten|diez]]" [[in|en]] [[English|inglés]]?',
           options: ['[[eight|ocho]]', '[[nine|nueve]]', '[[ten|diez]]'],
           correctAnswer: '[[ten|diez]]',
           explanation: '[[Ten|diez]] en inglés es "ten".',

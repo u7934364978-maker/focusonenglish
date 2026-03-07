@@ -25,7 +25,7 @@ export const UNIT_2_LESSON_3_READING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '¿Cómo se llama el narrador?',
+          question: '[[What|Cuál]] [[is|es]] [[the|el]] [[name|nombre]] [[of|del]] [[narrator|narrador]]?',
           options: ['Carlos', 'Tom', 'Laura', '[[James|James]]'],
           correctAnswer: 1,
           explanation: '[[He|Él]] [[says|dice]]: "[[My name is Tom|Mi nombre es Tom]]".',
@@ -46,7 +46,7 @@ export const UNIT_2_LESSON_3_READING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '¿De dónde es Tom?',
+          question: '[[Where|De dónde]] [[is|es]] [[Tom|Tom]] [[from|de]]?',
           options: ['[[Spain|España]]', '[[Italy|Italia]]', '[[France|Francia]]', '[[England|Inglaterra]]'],
           correctAnswer: 3,
           explanation: '[[The|El]] [[text|texto]] [[says|dice]] "[[I am from England|Soy de Inglaterra]]".',
@@ -67,7 +67,7 @@ export const UNIT_2_LESSON_3_READING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '¿Cuál es la nacionalidad de Tom?',
+          question: '[[What|Cuál]] [[is|es]] [[the|la]] [[nationality|nacionalidad]] [[of|de]] [[Tom|Tom]]?',
           options: ['[[Spanish|Español]]', '[[Italian|Italiano]]', '[[English|Inglés]]', '[[French|Francés]]'],
           correctAnswer: 2,
           explanation: '[[He|Él]] [[says|dice]] "[[I am English|Soy inglés]]".',
@@ -88,7 +88,7 @@ export const UNIT_2_LESSON_3_READING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '¿De dónde es Laura?',
+          question: '[[Where|De dónde]] [[is|es]] [[Laura|Laura]] [[from|de]]?',
           options: ['[[England|Inglaterra]]', '[[Italy|Italia]]', '[[Spain|España]]', '[[Germany|Alemania]]'],
           correctAnswer: 1,
           explanation: '[[The|El]] [[text|texto]] [[says|dice]] "[[Laura is from Italy|Laura es de Italia]]".',
@@ -109,7 +109,7 @@ export const UNIT_2_LESSON_3_READING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '¿Cuál es la nacionalidad de Carlos?',
+          question: '[[What|Cuál]] [[is|es]] [[the|la]] [[nationality|nacionalidad]] [[of|de]] [[Carlos|Carlos]]?',
           options: ['[[Italian|Italiano]]', '[[English|Inglés]]', '[[French|Francés]]', '[[Spanish|Español]]'],
           correctAnswer: 3,
           explanation: '[[The|El]] [[text|texto]] [[says|dice]] "[[He is Spanish|Él es español]]".',
@@ -130,7 +130,7 @@ export const UNIT_2_LESSON_3_READING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '¿Qué edad tiene Laura?',
+          question: '[[How|Cuántos]] [[old|años]] [[is|tiene]] [[Laura|Laura]]?',
           options: ['[[nineteen|diecinueve]]', '[[twenty|veinte]]', '[[twenty-one|veintiuno]]', '[[twenty-two|veintidós]]'],
           correctAnswer: 1,
           explanation: '[[The|El]] [[text|texto]] [[says|dice]] "[[Laura is twenty years old|Laura tiene veinte años]]".',
@@ -151,7 +151,7 @@ export const UNIT_2_LESSON_3_READING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '¿Qué edad tiene Tom?',
+          question: '[[How|Cuántos]] [[old|años]] [[is|tiene]] [[Tom|Tom]]?',
           options: ['[[seventeen|diecisiete]]', '[[eighteen|dieciocho]]', '[[nineteen|diecinueve]]', '[[twenty|veinte]]'],
           correctAnswer: 2,
           explanation: '[[He|Él]] [[says|dice]] "[[I am nineteen years old|Tengo diecinueve años]]".',
@@ -172,7 +172,7 @@ export const UNIT_2_LESSON_3_READING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '¿Cuál es la ocupación de los tres amigos?',
+          question: '[[What|Cuál]] [[is|es]] [[the|la]] [[occupation|ocupación]] [[of|de]] [[the|los]] [[three|tres]] [[friends|amigos]]?',
           options: ['[[teachers|profesores]]', '[[doctors|médicos]]', '[[students|estudiantes]]', '[[nurses|enfermeros]]'],
           correctAnswer: 2,
           explanation: '[[The|El]] [[text|texto]] [[says|dice]] "[[We are students|Somos estudiantes]]".',
@@ -195,7 +195,7 @@ export const UNIT_2_LESSON_3_READING: Exercise[] = [
       instructions: INST_TF,
       questions: [
         {
-          question: 'Tom es de España.',
+          question: '[[Tom|Tom]] [[is|es]] [[from|de]] [[Spain|España]].',
           options: ['[[True|Verdadero]]', '[[False|Falso]]'],
           correctAnswer: 'False',
           explanation: '[[False|Falso]]. Tom [[is|es]] [[from|de]] [[England|Inglaterra]], [[not|no]] España.',
@@ -216,7 +216,7 @@ export const UNIT_2_LESSON_3_READING: Exercise[] = [
       instructions: INST_TF,
       questions: [
         {
-          question: 'Laura es italiana.',
+          question: '[[Laura|Laura]] [[is|es]] [[Italian|italiana]].',
           options: ['[[True|Verdadero]]', '[[False|Falso]]'],
           correctAnswer: 'True',
           explanation: '[[True|Verdadero]]. [[The|El]] [[text|texto]] [[says|dice]] "[[She is Italian|Ella es italiana]]".',
@@ -237,7 +237,7 @@ export const UNIT_2_LESSON_3_READING: Exercise[] = [
       instructions: INST_TF,
       questions: [
         {
-          question: 'La edad de Carlos es veintidós.',
+          question: '[[Carlos|Carlos]] [[is|tiene]] [[twenty-two|veintidós]] [[years|años]] [[old|de edad]].',
           options: ['[[True|Verdadero]]', '[[False|Falso]]'],
           correctAnswer: 'True',
           explanation: '[[True|Verdadero]]. [[The|El]] [[text|texto]] [[says|dice]] "[[Carlos is twenty-two years old|Carlos tiene veintidós años]]".',
@@ -258,7 +258,7 @@ export const UNIT_2_LESSON_3_READING: Exercise[] = [
       instructions: INST_TF,
       questions: [
         {
-          question: 'Tom menciona tres amigos en el texto.',
+          question: '[[Tom|Tom]] [[mentions|menciona]] [[three|tres]] [[friends|amigos]] [[in|en]] [[the|el]] [[text|texto]].',
           options: ['[[True|Verdadero]]', '[[False|Falso]]'],
           correctAnswer: 'False',
           explanation: '[[False|Falso]]. Tom [[mentions|menciona]] [[two|dos]] [[friends|amigos]]: Laura [[and|y]] Carlos.',
@@ -281,8 +281,8 @@ export const UNIT_2_LESSON_3_READING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '¿Cuál es el tema principal del texto?',
-          options: ['Un viaje por el mundo', 'Tres amigos de diferentes países', 'Una escuela de idiomas', 'La vida en Inglaterra'],
+          question: '[[What|Cuál]] [[is|es]] [[the|el]] [[main|principal]] [[topic|tema]] [[of|de]] [[this|este]] [[text|texto]]?',
+          options: ['[[A|Un]] [[trip|viaje]] [[around the world|por el mundo]]', '[[Three|Tres]] [[friends|amigos]] [[from|de]] [[different|diferentes]] [[countries|países]]', '[[A|Una]] [[language|idioma]] [[school|escuela]]', '[[Life|La vida]] [[in|en]] [[England|Inglaterra]]'],
           correctAnswer: 1,
           explanation: '[[The|El]] [[text|texto]] [[presents|presenta]] [[three|tres]] [[friends|amigos]] [[from|de]] [[England|Inglaterra]], [[Italy|Italia]] [[and|y]] [[Spain|España]].',
         },
@@ -302,8 +302,8 @@ export const UNIT_2_LESSON_3_READING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '¿Qué tienen en común los tres amigos?',
-          options: ['Son del mismo país', 'Son profesores', 'Son estudiantes', 'Son de Italia'],
+          question: '[[What|Qué]] [[do|tienen]] [[the three|los tres]] [[friends|amigos]] [[have in common|en común]]?',
+          options: ['[[They are|Son]] [[from|del]] [[the same|mismo]] [[country|país]]', '[[They are|Son]] [[teachers|profesores]]', '[[They are|Son]] [[students|estudiantes]]', '[[They are|Son]] [[from|de]] [[Italy|Italia]]'],
           correctAnswer: 2,
           explanation: '[[The|El]] [[text|texto]] [[says|dice]] "[[We are students|Somos estudiantes]]" — [[all|los]] [[three|tres]] [[share|comparten]] [[that|eso]].',
         },
@@ -323,7 +323,7 @@ export const UNIT_2_LESSON_3_READING: Exercise[] = [
       instructions: INST_MC,
       questions: [
         {
-          question: '¿De cuántos países distintos habla Tom en el texto?',
+          question: '[[How many|Cuántos]] [[different|distintos]] [[countries|países]] [[does|habla]] [[Tom|Tom]] [[mention|mencionar]] [[in|en]] [[the|el]] [[text|texto]]?',
           options: ['[[one|uno]]', '[[two|dos]]', '[[three|tres]]', '[[four|cuatro]]'],
           correctAnswer: 2,
           explanation: 'Tom [[mentions|menciona]] [[England|Inglaterra]], [[Italy|Italia]] [[and|y]] España — [[three|tres]] [[countries|países]].',
