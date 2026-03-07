@@ -47,7 +47,8 @@ Save to `{@artifacts_path}/spec.md` with:
 
 Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 
-### [ ] Step: Create unit-5-lesson-1-grammar.ts
+### [x] Step: Create unit-5-lesson-1-grammar.ts
+<!-- chat-id: 2fba2563-536e-4aaf-995a-89cfc3cddcca -->
 - File: `src/lib/course/a1/unit-5-lesson-1-grammar.ts`
 - Export: `UNIT_5_LESSON_1_GRAMMAR: Exercise[]`
 - IDs: `a1-u5-l1-g1` … `a1-u5-l1-g15`
