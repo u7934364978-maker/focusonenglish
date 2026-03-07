@@ -127,7 +127,7 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
         </div>
         <div className="flex items-center gap-3 bg-[#FF6B6B]/5 border border-[#FF6B6B]/15 border-l-4 border-l-[#FF6B6B]/60 rounded-2xl px-4 py-2.5">
           <div className="text-slate-700 text-sm font-semibold flex-1">
-            <Markdown content={content.instructions || 'Une cada elemento de la izquierda con su correspondiente a la derecha.'} vocabulary={vocabulary} />
+            <Markdown content={content.instructions || 'Une cada elemento de la izquierda con su correspondiente a la derecha.'} plain />
           </div>
           <span className="text-sm font-extrabold text-[#FF6B6B]/70 tabular-nums whitespace-nowrap bg-white border border-[#FF6B6B]/20 rounded-xl px-2.5 py-1">
             {Object.keys(matches).length} / {content.pairs.length}
