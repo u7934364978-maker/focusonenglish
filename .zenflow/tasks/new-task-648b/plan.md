@@ -56,7 +56,8 @@ Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 - IDs: a1-u4-l1-g1 … a1-u4-l1-g15
 - All MC options as single composite tokens; T/F options as [[True|Verdadero]]/[[False|Falso]]; instructions in plain Spanish
 
-### [ ] Step: Create unit-4-lesson-2-vocabulary.ts
+### [x] Step: Create unit-4-lesson-2-vocabulary.ts
+<!-- chat-id: b3f30fe7-1de6-4e83-9a18-5489a81476ed -->
 - Read `unit-3-lesson-2-vocabulary.ts` for exact pattern
 - Create `src/lib/course/a1/unit-4-lesson-2-vocabulary.ts`
 - 15 exercises: Ex 1–6 multiple-choice, Ex 7–10 matching, Ex 11–13 fill-blank, Ex 14–15 multiple-choice
