@@ -83,8 +83,9 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
   }
 
   return {
-    title: `${optimizeSEOTitle(meta.name)} | Blog`,
+    title: `${optimizeSEOTitle(meta.name)} | Blog Focus English`,
     description: meta.description,
+    keywords: category === 'trabajo' ? ['inglés profesional', 'inglés trabajo', 'business english'] : category === 'viajes' ? ['inglés viajes', 'inglés turismo'] : category === 'examenes' ? ['exámenes inglés', 'Cambridge', 'IELTS', 'TOEFL'] : undefined,
     alternates: {
       canonical: `https://www.focus-on-english.com/blog/${category}`,
     },

@@ -19,7 +19,7 @@ image: 'https://images.pexels.com/photos/3184311/pexels-photo-3184311.jpeg'
 alt: Guía maestra sobre estilo indirecto en inglés
 ---
 
-# Guía Maestra de Reported Speech y Reporting Verbs: De B2 a C2
+## Guía Maestra de Reported Speech y Reporting Verbs: De B2 a C2
 
 El **Reported Speech** (estilo indirecto) y los **Reporting Verbs** son pilares fundamentales de la gramática inglesa avanzada. Si estás preparando un examen de Cambridge (FCE, CAE o CPE), dominar estas estructuras no es solo una opción, sino una necesidad absoluta para obtener una puntuación alta en las secciones de **Use of English**, **Writing** y **Speaking**.
 

@@ -21,7 +21,7 @@ image: 'https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg'
 alt: Emergencias médicas durante un viaje
 ---
 
-# Emergencias en Inglés: Guía de Supervivencia y Seguridad
+## Emergencias en Inglés: Guía de Supervivencia y Seguridad
 
 Nadie quiere pensar en imprevistos negativos durante un viaje soñado, pero estar preparado para lo peor es la mejor manera de disfrutar de lo mejor. Conocer las **emergencias en inglés** más comunes y saber cómo reaccionar bajo presión puede marcar la diferencia entre un susto pasajero y una situación crítica.
 

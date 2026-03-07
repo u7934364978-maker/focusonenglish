@@ -27,7 +27,7 @@ image: >-
 alt: Médico atendiendo a un paciente en inglés
 ---
 
-# Curso de Inglés para el Sector Salud: Comunicación Crítica para Profesionales
+## Curso de Inglés para el Sector Salud: Comunicación Crítica para Profesionales
 
 En el ámbito de la salud, la comunicación no es solo una habilidad complementaria; es un factor crítico para la seguridad del paciente y la eficacia del tratamiento. Si eres médico, enfermero, auxiliar, fisioterapeuta o estudiante de ciencias de la salud, dominar el **inglés médico** te abre las puertas a la comunidad científica global, te permite acceder a los últimos protocolos de la OMS o la Mayo Clinic, y te habilita para trabajar en entornos multiculturales con total seguridad.
 

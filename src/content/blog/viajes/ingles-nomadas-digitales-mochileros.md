@@ -23,7 +23,7 @@ image: 'https://images.pexels.com/photos/1051075/pexels-photo-1051075.jpeg'
 alt: Nómada digital trabajando con su portátil viajando
 ---
 
-# Inglés para Nómadas Digitales: Vive y Trabaja por el Mundo sin Límites
+## Inglés para Nómadas Digitales: Vive y Trabaja por el Mundo sin Límites
 
 Vivir viajando ha dejado de ser una utopía para convertirse en un estilo de vida consolidado. Sin embargo, para que esta experiencia sea realmente enriquecedora y profesionalmente sostenible, el idioma es la pieza clave del rompecabezas. Tanto si eres un **nómada digital en inglés** que busca colaborar con empresas de Silicon Valley, como si eres un mochilero cruzando el sudeste asiático, el inglés es el puente que te conectará con oportunidades, amistades y seguridad.
 

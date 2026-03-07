@@ -18,7 +18,7 @@ image: 'https://images.pexels.com/photos/3184311/pexels-photo-3184311.jpeg'
 alt: Ejercicios de reported speech en formato PDF
 ---
 
-# Reported Speech Ejercicios PDF: Practica y Descarga
+## Reported Speech Ejercicios PDF: Practica y Descarga
 
 Dominar el **Reported Speech** (o estilo indirecto) es uno de los mayores hitos en el aprendizaje del inglés. No basta con conocer las reglas teóricas sobre el cambio de tiempos verbales; la clave reside en la automatización de esas reglas a través de la práctica constante. En el **estilo indirecto en inglés**, cada detalle cuenta: desde el tiempo verbal hasta los adverbios de tiempo y lugar.
 

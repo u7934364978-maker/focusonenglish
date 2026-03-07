@@ -18,7 +18,7 @@ image: 'https://images.pexels.com/photos/3184311/pexels-photo-3184311.jpeg'
 alt: Lista de patrones de verbos de reporte
 ---
 
-# Reporting Verbs Patterns: Lista Completa y Guía de Uso
+## Reporting Verbs Patterns: Lista Completa y Guía de Uso
 
 Si quieres que tu inglés suene natural y profesional, no puedes depender eternamente de los verbos *say* y *tell*. Aunque son correctos, su uso excesivo hace que tu discurso sea plano y poco preciso. Aquí es donde entran los **reporting verbs**.
 

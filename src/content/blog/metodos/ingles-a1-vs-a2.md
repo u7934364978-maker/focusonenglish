@@ -19,7 +19,7 @@ author: Focus English
 image: 'https://images.pexels.com/photos/5905711/pexels-photo-5905711.jpeg'
 ---
 
-# Inglés A1 vs A2: ¿Cuál es tu Nivel Real y cómo Seguir Progresando?
+## Inglés A1 vs A2: ¿Cuál es tu Nivel Real y cómo Seguir Progresando?
 
 Cuando empezamos a estudiar inglés, a menudo nos sentimos abrumados por las etiquetas de los niveles. El Marco Común Europeo de Referencia para las lenguas (MCER) es el estándar internacional que define la competencia lingüística, y divide el nivel básico en dos etapas críticas: **A1 (Acceso)** y **A2 (Plataforma)**.
 

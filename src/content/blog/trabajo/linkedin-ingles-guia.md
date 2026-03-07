@@ -41,7 +41,7 @@ faqs:
       en tu sector a nivel internacional, más allá de lo que diga tu CV.
 ---
 
-# LinkedIn en Inglés: Tu Escaparate Profesional al Mundo
+## LinkedIn en Inglés: Tu Escaparate Profesional al Mundo
 
 En el mercado laboral de 2026, tu perfil de LinkedIn es mucho más que un currículum estático; es tu marca personal operando 24/7 en un ecosistema global. Tener un **perfil de LinkedIn en inglés** no es solo para quienes buscan trabajo en el extranjero, sino para cualquier profesional que quiera ser visible para multinacionales, socios internacionales o clientes de alto nivel.
 

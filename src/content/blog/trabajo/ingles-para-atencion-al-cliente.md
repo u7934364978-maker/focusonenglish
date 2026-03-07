@@ -24,7 +24,7 @@ image: 'https://images.pexels.com/photos/8867431/pexels-photo-8867431.jpeg'
 alt: Profesional de atención al cliente hablando inglés
 ---
 
-# Curso de Inglés para Atención al Cliente: Excelencia en el Servicio Global
+## Curso de Inglés para Atención al Cliente: Excelencia en el Servicio Global
 
 La **atención al cliente en inglés** (Customer Service) se ha convertido en el pilar fundamental de las empresas que operan a nivel global. En un entorno internacional, ser capaz de resolver dudas, gestionar reclamaciones con empatía y ofrecer un soporte técnico preciso no es solo una ventaja competitiva; es una necesidad. Las multinacionales buscan profesionales que no solo hablen inglés, sino que dominen el arte de la comunicación persuasiva y resolutiva en este idioma.
 

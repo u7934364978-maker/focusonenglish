@@ -18,7 +18,7 @@ image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg'
 alt: Vocabulario de trabajo para nivel B1
 ---
 
-# Vocabulario Esencial Inglés B1: Domina la Comunicación
+## Vocabulario Esencial Inglés B1: Domina la Comunicación
 
 El nivel B1 (Intermedio) marca un antes y un después en el aprendizaje del inglés. Es el nivel en el que dejas de ser un "superviviente" lingüístico para convertirte en un comunicador independiente. Según el Marco Común Europeo de Referencia (MCER), en este nivel debes ser capaz de desenvolverte en la mayor parte de las situaciones que pueden surgir durante un viaje, además de hablar sobre temas familiares, personales y laborales.
 

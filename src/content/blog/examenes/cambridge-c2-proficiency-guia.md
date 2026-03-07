@@ -22,7 +22,7 @@ related_routes:
   - cambridge-c1-advanced-guia
 ---
 
-# C2 Proficiency (CPE): La Maestría Total del Inglés
+## C2 Proficiency (CPE): La Maestría Total del Inglés
 
 El **C2 Proficiency de Cambridge**, anteriormente conocido como CPE (Certificate of Proficiency in English), representa el nivel más alto que puedes alcanzar en la escala de Cambridge y en el Marco Común Europeo de Referencia (MCER). Certifica que posees un dominio excepcional del inglés, equiparable al de un hablante nativo muy culto y capaz de desenvolverse en los entornos más exigentes.
 

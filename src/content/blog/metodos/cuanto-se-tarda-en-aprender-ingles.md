@@ -43,7 +43,7 @@ faqs:
       los tiempos muertos de las clases grupales tradicionales.
 ---
 
-# ¿Cuánto se tarda en aprender inglés realmente? La Guía Definitiva
+## ¿Cuánto se tarda en aprender inglés realmente? La Guía Definitiva
 
 Una de las preguntas más recurrentes que recibimos en **Focus English** es: *"¿En cuánto tiempo seré capaz de hablar inglés con fluidez?"*. Es una duda lógica, especialmente cuando el tiempo es nuestro recurso más escaso. Sin embargo, la respuesta no es un número mágico, sino una combinación de variables que dependen de tu punto de partida, tu meta y, sobre todo, tu método.
 

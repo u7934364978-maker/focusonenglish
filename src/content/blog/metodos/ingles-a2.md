@@ -37,7 +37,7 @@ image: 'https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg'
 alt: Aprendiendo inglés nivel elemental A2
 ---
 
-# Curso de Inglés A2: De las Frases Sueltas a las Conversaciones Reales
+## Curso de Inglés A2: De las Frases Sueltas a las Conversaciones Reales
 
 Si ya conoces los saludos básicos y puedes decir tu nombre y profesión, el **Nivel A2** (Plataforma) es donde ocurre la verdadera transformación. Es el momento en el que dejas de "sobrevivir" con el idioma y empiezas a **comunicar tus experiencias**. En el **nivel elemental de inglés**, el objetivo es ganar la confianza suficiente para moverte por el mundo con independencia.
 

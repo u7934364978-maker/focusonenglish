@@ -38,7 +38,7 @@ image: 'https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg'
 alt: Aprendiendo inglés nivel intermedio-alto B2
 ---
 
-# Curso de Inglés B2: El Salto a la Fluidez Profesional
+## Curso de Inglés B2: El Salto a la Fluidez Profesional
 
 El **Nivel B2** (Usuario Independiente) es el estándar de oro para el mundo laboral y académico internacional en 2026. Es el nivel donde dejas de traducir mentalmente y empiezas a **pensar en inglés**. En el **nivel intermedio-alto de inglés**, la comunicación deja de ser funcional para convertirse en estratégica.
 

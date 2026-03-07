@@ -19,7 +19,7 @@ image: 'https://images.pexels.com/photos/3184311/pexels-photo-3184311.jpeg'
 alt: Estructuras avanzadas de verbos de reporte
 ---
 
-# Passive Reporting Verbs: Estructuras Avanzadas (C1-C2)
+## Passive Reporting Verbs: Estructuras Avanzadas (C1-C2)
 
 Las **estructuras pasivas de reporte** son esenciales en el lenguaje académico y formal, muy comunes en la prensa y en los niveles C1/C2 de inglés. Se utilizan para reportar información sin atribuirla a una fuente específica, lo que aporta un tono de objetividad y profesionalismo necesario en exámenes como el Cambridge C1 Advanced o C2 Proficiency.
 

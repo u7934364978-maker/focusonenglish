@@ -42,7 +42,7 @@ image: 'https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg'
 alt: Curso online de inglés nivel B1
 ---
 
-# Cursos Online de Inglés B1: Domina el Nivel Intermedio
+## Cursos Online de Inglés B1: Domina el Nivel Intermedio
 
 
 Si buscas **cursos online de inglés B1** con **ejercicios de inglés B1** prácticos y resultados garantizados, has llegado al lugar indicado.

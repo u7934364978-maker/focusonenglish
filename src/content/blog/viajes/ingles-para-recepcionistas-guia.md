@@ -47,7 +47,7 @@ faqs:
       hotel.'
 ---
 
-# Inglés para Recepcionistas: La Guía Definitiva para una Atención de 5 Estrellas
+## Inglés para Recepcionistas: La Guía Definitiva para una Atención de 5 Estrellas
 
 Como recepcionista, eres mucho más que un empleado; eres el "corazón" del hotel y el primer punto de contacto real para cualquier viajero. Tu capacidad para comunicarte con fluidez y cortesía en inglés no solo determina la satisfacción inmediata del huésped, sino que también influye en la reputación global del establecimiento. En esta guía avanzada de **inglés para recepcionistas**, exploraremos todos los escenarios posibles, desde la bienvenida hasta la resolución de conflictos complejos.
 

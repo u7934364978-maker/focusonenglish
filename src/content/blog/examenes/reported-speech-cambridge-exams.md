@@ -17,7 +17,7 @@ image: 'https://images.pexels.com/photos/3184311/pexels-photo-3184311.jpeg'
 alt: Personas hablando representando el reported speech
 ---
 
-# Reported Speech Cambridge Exams: Guía de Rephrasing (B2-C2)
+## Reported Speech Cambridge Exams: Guía de Rephrasing (B2-C2)
 
 En los exámenes de Cambridge (B2 First, C1 Advanced y C2 Proficiency), el **Reported Speech** no solo se evalúa como una regla gramatical aislada, sino como una herramienta fundamental de comunicación. Es un tema recurrente, especialmente en la parte 4 del Use of English: **Key Word Transformation** (rephrasing).
 

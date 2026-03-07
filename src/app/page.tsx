@@ -183,6 +183,24 @@ export default function HomePage() {
                 <p className="text-lg text-slate-600">Últimas guías para tu aprendizaje del inglés</p>
                 <div className="mt-4 flex flex-wrap gap-3">
                   <Link 
+                    href="/blog/trabajo"
+                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-coral-50 text-coral-600 text-sm font-bold hover:bg-coral-100 transition-colors"
+                  >
+                    💼 Trabajo
+                  </Link>
+                  <Link 
+                    href="/blog/viajes"
+                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-orange-50 text-orange-600 text-sm font-bold hover:bg-orange-100 transition-colors"
+                  >
+                    ✈️ Viajes
+                  </Link>
+                  <Link 
+                    href="/blog/examenes"
+                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-50 text-amber-600 text-sm font-bold hover:bg-amber-100 transition-colors"
+                  >
+                    📝 Exámenes
+                  </Link>
+                  <Link 
                     href="/blog/metodos"
                     className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-coral-50 text-coral-600 text-sm font-bold hover:bg-coral-100 transition-colors"
                   >

@@ -19,7 +19,7 @@ image: 'https://images.pexels.com/photos/3184311/pexels-photo-3184311.jpeg'
 alt: Preguntas y órdenes en estilo indirecto
 ---
 
-# Reported Speech: Preguntas, Órdenes y Peticiones
+## Reported Speech: Preguntas, Órdenes y Peticiones
 
 Dominar el **Reported Speech** (estilo indirecto) es un paso fundamental para alcanzar un nivel intermedio-avanzado de inglés. Si bien reportar afirmaciones es relativamente sencillo, reportar **preguntas, órdenes y peticiones** requiere cambios estructurales específicos que suelen confundir a los estudiantes.
 

@@ -1,6 +1,7 @@
 ---
 category: examenes
 date: '2026-02-07'
+updatedDate: '2026-03-07'
 author: Focus English
 image: "https://images.pexels.com/photos/5905709/pexels-photo-5905709.jpeg?auto=compress&cs=tinysrgb&w=1200"
 alt: "Estudiante preparando su examen de nivel B1 de inglés"
@@ -32,6 +33,13 @@ related_routes:
   - certificaciones-ingles
   - ingles-b1
   - cursos-online-ingles-b1
+faqs:
+  - question: ¿Cuál es el mejor examen B1 para preparar por mi cuenta?
+    answer: Cambridge PET y Aptis son muy preparables en solitario. Linguaskill es adaptativo y puede certificarte hasta B2 si rindes bien; combina recursos gratuitos con simulacros cronometrados.
+  - question: ¿Cuánto tiempo necesito para preparar el B1?
+    answer: Con 2-4 horas semanales, un plan de 4-8 semanas suele ser suficiente si ya tienes base de A2. Incluye gramática, práctica de las cuatro destrezas y al menos dos simulacros completos.
+  - question: ¿Qué recursos gratuitos hay para practicar el B1?
+    answer: BBC Learning English, News in Levels, exámenes de muestra de Cambridge y British Council, y apps como Quizlet para vocabulario son excelentes y gratuitos.
 ---
 
 Obtener el **título B1 de inglés** (nivel intermedio) es uno de los hitos más importantes para cualquier estudiante o profesional. Según el Marco Común Europeo de Referencia para las lenguas (MCER), alcanzar este nivel significa que eres un "usuario independiente", capaz de desenvolverte en situaciones cotidianas, laborales y de viaje sin depender de traducciones constantes.

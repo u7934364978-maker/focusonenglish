@@ -18,7 +18,7 @@ author: Focus English
 image: 'https://images.pexels.com/photos/5699475/pexels-photo-5699475.jpeg'
 ---
 
-# Cómo Estudiar Inglés si no tienes Tiempo: Guía para Agendas Ocupadas
+## Cómo Estudiar Inglés si no tienes Tiempo: Guía para Agendas Ocupadas
 
 *"Me encantaría aprender inglés, pero no tengo tiempo"*. Esta es la excusa número uno que escuchamos en el mundo del aprendizaje de idiomas. Y es comprensible: entre el trabajo, la familia, el gimnasio y la necesidad de descanso, encontrar una hora libre para ir a una academia tradicional parece una misión imposible.
 

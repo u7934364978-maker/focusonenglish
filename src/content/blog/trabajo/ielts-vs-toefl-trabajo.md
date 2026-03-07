@@ -49,7 +49,7 @@ faqs:
       mantiene su duración tradicional de aproximadamente 2 horas y 45 minutos.
 ---
 
-# IELTS vs TOEFL: La Decisión que Marcará tu Carrera Internacional
+## IELTS vs TOEFL: La Decisión que Marcará tu Carrera Internacional
 
 Si estás leyendo esto, es muy probable que tengas una oferta de trabajo en el extranjero sobre la mesa o que estés planeando buscar una activamente. En el mercado laboral de 2026, demostrar tu nivel de inglés ya no es un "plus", sino un requisito técnico para visados y puestos de alta responsabilidad.
 

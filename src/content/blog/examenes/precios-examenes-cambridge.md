@@ -24,7 +24,7 @@ image: 'https://images.pexels.com/photos/4386339/pexels-photo-4386339.jpeg'
 alt: Calculadora y dinero representando los precios de exámenes
 ---
 
-# Precios Exámenes Cambridge 2026: Guía Completa de Tasas e Inversión
+## Precios Exámenes Cambridge 2026: Guía Completa de Tasas e Inversión
 
 Si has decidido certificar tu nivel de inglés, una de las primeras y más importantes preguntas que te harás es: **¿cuánto cuesta el examen de Cambridge?**. Obtener una certificación oficial no es solo un reto académico, sino también una inversión económica significativa que requiere planificación.
 

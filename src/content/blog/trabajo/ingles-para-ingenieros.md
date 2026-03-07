@@ -24,7 +24,7 @@ image: 'https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg'
 alt: Ingenieros colaborando en un proyecto global
 ---
 
-# Curso de Inglés para Ingenieros: Tu Herramienta para Proyectos Globales
+## Curso de Inglés para Ingenieros: Tu Herramienta para Proyectos Globales
 
 En el mundo de la ingeniería moderna, el inglés ha dejado de ser una habilidad "extra" para convertirse en el sistema operativo fundamental de la profesión. Es el lenguaje de las especificaciones técnicas globales, las normativas internacionales (ISO, IEEE, ASME) y, sobre todo, de la innovación compartida. Ya sea que trabajes en el desarrollo de software, en obras civiles, en diseño mecánico o en sistemas eléctricos, la capacidad de explicar conceptos abstractos y procesos complejos en **inglés técnico** es lo que separa a un ejecutor técnico de un líder de proyectos internacional.
 

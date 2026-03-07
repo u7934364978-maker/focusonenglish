@@ -1,6 +1,7 @@
 ---
 category: trabajo
 date: '2026-02-07'
+updatedDate: '2026-03-07'
 author: lidia
 title: 'Inglés para el Trabajo: Cómo Destacar en un Entorno Global'
 description: >-
@@ -33,6 +34,14 @@ related_routes:
   - ingles-para-viajar
 image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg'
 alt: Profesionales colaborando en una reunión internacional en inglés
+faqs:
+  - question: ¿Cómo puedo mejorar mi inglés si mi trabajo es 100% remoto?
+    answer: La clave es la exposición activa. Escucha podcasts de tu sector, usa herramientas de IA para practicar pitches y participa en reuniones opcionales en inglés; son tu mejor entrenamiento gratuito.
+  - question: ¿Qué nivel de inglés se necesita para liderar en entornos internacionales?
+    answer: >-
+      Se necesita un B2 funcional (defender tu punto de vista, entender matices en negociaciones y redactar documentos complejos sin errores que cambien el sentido del mensaje).
+  - question: ¿Importa el acento en los negocios?
+    answer: En 2026 lo que importa es la claridad. El mundo empresarial valora la inteligibilidad por encima de sonar como nativo; un acento propio y claro transmite autenticidad y experiencia internacional.
 ---
 
 ## Tu Carrera no tiene Fronteras con el Inglés Adecuado

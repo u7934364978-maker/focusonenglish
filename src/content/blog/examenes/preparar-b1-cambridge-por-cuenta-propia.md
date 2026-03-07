@@ -21,7 +21,7 @@ canonical: >-
   https://www.focus-on-english.com/blog/examenes/preparar-b1-cambridge-por-cuenta-propia
 ---
 
-# Preparar el B1 de Cambridge por tu cuenta: Guía Completa
+## Preparar el B1 de Cambridge por tu cuenta: Guía Completa
 
 La respuesta corta es: **Sí, es totalmente posible.** El nivel B1 Preliminary (PET) de Cambridge certifica que tienes las bases necesarias para comunicarte en situaciones cotidianas, tanto de forma oral como escrita. Es un título clave para estudiantes universitarios, profesionales que buscan su primer empleo internacional y viajeros que quieren autonomía.
 

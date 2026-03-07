@@ -7,7 +7,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { Metadata } from "next";
 import { BreadcrumbSchema } from "@/app/schema";
-import { ChevronRight, Home, Smartphone, GraduationCap, Briefcase, Plane, Sparkles, Star, MessageCircle } from "lucide-react";
+import { ChevronRight, Home, Smartphone, GraduationCap, Briefcase, Plane, Sparkles, Star, MessageCircle, BookOpen } from "lucide-react";
 
 export async function generateMetadata(): Promise<Metadata> {
   const page = getSEOPageBySlug("hub");
@@ -131,6 +131,34 @@ export default function SEOHubPage() {
                   Ver frases <ChevronRight className="w-4 h-4" />
                 </span>
               </Link>
+            </div>
+
+            {/* Blog por categoría: enlaces a pilares para SEO y autoridad */}
+            <div className="mt-12 pt-12 border-t border-slate-200">
+              <h3 className="text-xl font-black text-slate-900 mb-6 flex items-center gap-2">
+                <BookOpen className="w-6 h-6 text-coral-600" />
+                Blog: guías por objetivo
+              </h3>
+              <div className="flex flex-wrap gap-3">
+                <Link href="/blog/trabajo" className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-coral-50 text-coral-700 text-sm font-bold hover:bg-coral-100 transition-colors">
+                  <Briefcase className="w-4 h-4" />
+                  Inglés para el trabajo
+                </Link>
+                <Link href="/blog/viajes" className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-orange-50 text-orange-700 text-sm font-bold hover:bg-orange-100 transition-colors">
+                  <Plane className="w-4 h-4" />
+                  Inglés para viajar
+                </Link>
+                <Link href="/blog/examenes" className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-amber-50 text-amber-700 text-sm font-bold hover:bg-amber-100 transition-colors">
+                  <GraduationCap className="w-4 h-4" />
+                  Preparación exámenes
+                </Link>
+                <Link href="/blog/metodos" className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-100 text-slate-700 text-sm font-bold hover:bg-slate-200 transition-colors">
+                  Métodos de estudio
+                </Link>
+                <Link href="/blog" className="inline-flex items-center gap-2 px-4 py-2 rounded-xl border-2 border-slate-200 text-slate-700 text-sm font-bold hover:border-coral-300 hover:text-coral-600 transition-colors">
+                  Ver todo el blog <ChevronRight className="w-4 h-4" />
+                </Link>
+              </div>
             </div>
           </section>
 

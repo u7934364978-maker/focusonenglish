@@ -36,9 +36,10 @@ const audit = () => {
     const fileName = path.relative(BLOG_DIR, file);
     const issues = [];
 
-    // 1. Frontmatter Checks
+    // 1. Frontmatter Checks (excerpt o description sirven para meta; alineado con src/lib/blog.ts)
+    const effectiveExcerpt = (data.excerpt || data.description || '').trim();
     if (!data.title) issues.push('Falta Título (title)');
-    if (!data.excerpt || data.excerpt.length < 50) issues.push('Extracto (excerpt) ausente o demasiado corto (< 50 caracteres)');
+    if (effectiveExcerpt.length < 50) issues.push('Extracto (excerpt/description) ausente o demasiado corto (< 50 caracteres)');
     if (!data.keywords || !Array.isArray(data.keywords) || data.keywords.length === 0) issues.push('Faltan Palabras Clave (keywords)');
     if (!data.category) issues.push('Falta Categoría (category)');
     if (!data.image) issues.push('Falta Imagen Principal (image)');

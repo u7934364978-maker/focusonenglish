@@ -6,14 +6,17 @@ import { Metadata } from "next";
 import { getBlogArticles } from "@/lib/blog";
 
 export const metadata: Metadata = {
-  title: "Blog de Inglés: Recursos, Guías y Consejos para Aprender Online",
-  description: "Explora nuestras guías especializadas en inglés para el trabajo, viajes y preparación de exámenes oficiales. Contenido actualizado y metodologías efectivas.",
+  title: "Blog de Inglés 2026: Guías Trabajo, Viajes y Exámenes | Focus English",
+  description: "Guías prácticas de inglés para el trabajo, viajes y exámenes oficiales (Cambridge, IELTS, TOEFL). Métodos de estudio, gramática y vocabulario. Contenido actualizado por expertos.",
   keywords: [
     "blog inglés",
     "aprender inglés",
     "inglés profesional",
     "inglés para viajar",
+    "inglés para el trabajo",
     "preparación exámenes oficiales",
+    "gramática inglés",
+    "métodos aprender inglés",
   ],
   alternates: {
     canonical: 'https://www.focus-on-english.com/blog',

@@ -18,7 +18,7 @@ author: Focus English
 image: 'https://images.pexels.com/photos/5905710/pexels-photo-5905710.jpeg'
 ---
 
-# IELTS vs TOEFL: La Guía Definitiva para Elegir tu Examen
+## IELTS vs TOEFL: La Guía Definitiva para Elegir tu Examen
 
 Si estás planeando estudiar en el extranjero, emigrar a otro país o simplemente dar un salto cualitativo en tu carrera profesional, seguramente te hayas encontrado con estos dos nombres: **IELTS** y **TOEFL**. Ambos son los exámenes de certificación de inglés más prestigiosos y reconocidos globalmente, pero sus enfoques, formatos y aplicaciones prácticas son muy distintos.
 

@@ -1,6 +1,7 @@
 ---
 category: viajes
 date: '2026-02-07'
+updatedDate: '2026-03-07'
 author: Focus English
 title: 'Inglés para Viajar: La Guía de Supervivencia Definitiva en 2026'
 description: >-
@@ -24,6 +25,15 @@ related_routes:
   - frases-ingles-emergencias-viajes
 image: 'https://images.pexels.com/photos/1051075/pexels-photo-1051075.jpeg'
 alt: Pareja viajando y comunicándose en inglés
+faqs:
+  - question: ¿Qué nivel de inglés necesito para viajar?
+    answer: Con un A2-B1 puedes manejarte en aeropuertos, hoteles, restaurantes y emergencias básicas. Para experiencias más fluidas y conversaciones con locales, un B1 es ideal.
+  - question: ¿Cuáles son las frases más útiles en inglés para el aeropuerto?
+    answer: >-
+      I would like to check in for my flight, Is my luggage checked through?, Which gate is the flight boarding at? e Is there a delay? cubren la mayoría de situaciones.
+  - question: ¿Cómo pido en un restaurante si tengo alergias o dieta especial?
+    answer: >-
+      Usa I am allergic to nuts/shellfish. Does this dish contain any? o Is this dish vegetarian/vegan/gluten-free? para que te indiquen opciones seguras.
 ---
 
 ¿Alguna vez has evitado preguntar algo en un aeropuerto extranjero por miedo a no entender la respuesta? ¿O has terminado comiendo algo que no querías porque no supiste descifrar el menú? El **inglés para viajar** no se trata de dominar reglas gramaticales complejas, sino de lograr una **comunicación efectiva**.

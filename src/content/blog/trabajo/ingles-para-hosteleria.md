@@ -30,7 +30,7 @@ image: 'https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg'
 alt: Camarero sirviendo en un restaurante internacional
 ---
 
-# Curso de Inglés para Hostelería: Excelencia en el Servicio Internacional
+## Curso de Inglés para Hostelería: Excelencia en el Servicio Internacional
 
 En el dinámico sector de la hostelería y el turismo, la primera impresión no es solo importante; es determinante. Si trabajas en un hotel, un restaurante, un bar o una agencia de viajes, el inglés ha dejado de ser una opción para convertirse en tu principal herramienta de trabajo. No se trata simplemente de "hacerse entender", sino de ofrecer una **atención al cliente en inglés** que transmita profesionalismo, calidez y eficiencia.
 

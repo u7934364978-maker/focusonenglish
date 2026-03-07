@@ -1,6 +1,7 @@
 ---
 category: gramatica
 date: '2026-03-02'
+updatedDate: '2026-03-07'
 author: David Torres
 title: 'Gramática Inglés B1: Guía Completa de Temas, Reglas y Ejercicios'
 description: >-
@@ -30,6 +31,14 @@ related_routes:
   - ingles-b1
 image: 'https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg'
 alt: Libro de gramática inglesa nivel B1
+faqs:
+  - question: ¿Qué temas de gramática son esenciales para el B1?
+    answer: Present Perfect vs Past Simple, condicionales (tipo 0, 1 y 2), voz pasiva, verbos modales, reported speech y phrasal verbs de uso frecuente son los pilares del B1.
+  - question: ¿Cómo practico la gramática B1 sin un profesor?
+    answer: Usa ejercicios de rephrasing (key word transformation), escribe textos cortos aplicando las estructuras y revisa con corrección automática o intercambios con otros estudiantes.
+  - question: ¿La gramática B1 es suficiente para el First Certificate?
+    answer: >-
+      El B2 First exige un nivel superior (estructuras más complejas, phrasal verbs ampliados y precisión en registro formal). El B1 es la base; después hay que subir a B2.
 ---
 
 El nivel **B1 (Intermediate)** es el "ecuador" del aprendizaje del inglés. Es el momento en el que dejas de ser un principiante que sobrevive con frases hechas para convertirte en un usuario independiente. Según el Marco Común Europeo de Referencia (MCER), en este nivel ya debes ser capaz de describir experiencias, acontecimientos, deseos y aspiraciones, así como justificar brevemente tus opiniones.

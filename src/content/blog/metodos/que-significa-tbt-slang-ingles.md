@@ -48,7 +48,7 @@ faqs:
       del #TBT.
 ---
 
-# ¿Qué significa TBT? Guía Completa de Slang, Acrónimos y Redes Sociales
+## ¿Qué significa TBT? Guía Completa de Slang, Acrónimos y Redes Sociales
 
 Si usas Instagram, TikTok o Twitter (X), es imposible que no te hayas cruzado con términos como **TBT**, **POV**, **LIT** o el más reciente **RIZZ**. El lenguaje digital evoluciona a una velocidad de vértigo, y lo que hoy es tendencia, mañana puede ser "cringe". Para cualquier estudiante de idiomas, entender el **slang in english** es fundamental para no sentirse fuera de lugar en la conversación global.
 

@@ -1,6 +1,7 @@
 ---
 category: examenes
 date: '2026-02-07'
+updatedDate: '2026-03-07'
 author: Focus English
 image: "https://images.pexels.com/photos/3807738/pexels-photo-3807738.jpeg?auto=compress&cs=tinysrgb&w=1200"
 alt: "Estudiante preparando el examen B2 First de Cambridge con libros y apuntes"
@@ -27,9 +28,16 @@ related_routes:
   - certificaciones-ingles
   - ingles-b2
   - precios-examenes-cambridge
+faqs:
+  - question: ¿Qué diferencia al B2 First (FCE) de otros exámenes de nivel B2?
+    answer: El B2 First de Cambridge es el más reconocido a nivel mundial para uso académico y profesional; evalúa las cuatro destrezas y tiene gran peso en Use of English y Writing estructurado.
+  - question: ¿Cuánto dura el examen B2 First?
+    answer: Reading and Use of English 75 min, Writing 80 min, Listening 40 min y Speaking 14 min por parejas. En total unas 3,5-4 horas repartidas en uno o dos días.
+  - question: ¿Qué nota necesito para aprobar el B2 First?
+    answer: Se aprueba con una puntuación entre 160-190 (Grade B, C o A). Por encima de 180 obtienes Grade A, que equivale a nivel C1 en el MCER.
 ---
 
-# B2 First (FCE): Tu Pasaporte al Éxito Académico y Profesional
+## B2 First (FCE): Tu Pasaporte al Éxito Académico y Profesional
 
 El **B2 First de Cambridge**, anteriormente conocido como First Certificate in English (FCE), es probablemente la certificación de inglés más reconocida y valorada a nivel mundial. Obtener este título no es solo cuestión de "hablar bien inglés"; es demostrar que posees las habilidades lingüísticas necesarias para comunicarte de forma independiente en contextos sociales, laborales y académicos.
 
