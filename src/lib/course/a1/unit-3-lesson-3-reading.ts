@@ -371,7 +371,7 @@ export const UNIT_3_LESSON_3_READING: Exercise[] = [
       instructions: INST_SYN,
       questions: [
         {
-          question: '[[Which grammar structure does Laura use when she says "I am not happy about that"?|¿Qué estructura gramatical usa Laura cuando dice "I am not happy about that"?]]',
+          question: '[[What structure is "I am not happy about that"?|¿Qué estructura es "I am not happy about that"?]]',
           options: [
             '[[Affirmative to be|To be afirmativo]]',
             '[[Negative to be|To be negativo]]',

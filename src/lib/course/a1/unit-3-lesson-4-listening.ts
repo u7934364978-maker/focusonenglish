@@ -402,7 +402,7 @@ export const UNIT_3_LESSON_4_LISTENING: Exercise[] = [
       instructions: INST_SYN,
       questions: [
         {
-          question: '[[When Ben says "I am not angry or sad", which grammar structure is he using?|Cuando Ben dice "I am not angry or sad", ¿qué estructura gramatical usa?]]',
+          question: '[[What structure is "I am not angry or sad"?|¿Qué estructura es "I am not angry or sad"?]]',
           options: [
             '[[Affirmative to be|To be afirmativo]]',
             '[[Past tense|Tiempo pasado]]',
