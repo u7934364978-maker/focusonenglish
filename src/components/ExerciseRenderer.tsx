@@ -564,8 +564,8 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
     >
       <div className="bg-white rounded-2xl shadow-lg shadow-slate-200/60 border border-slate-100 overflow-visible">
         <div className="p-6 md:p-8 space-y-6">
-          {/* Tipo + título (sin etiqueta "Ejercicio" redundante) */}
-          <div className={`${TRANSLATION_TOOLTIP_SPACING.blockWithTranslations}`}>
+          {/* Tipo + título: poco padding para no dejar mucho hueco antes de las instrucciones */}
+          <div className="pb-2">
             <div className="flex flex-wrap items-center gap-2 mb-3">
               <div className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium border ${typeTheme.badge}`} aria-hidden>
                 <TypeIcon size={14} aria-hidden />
@@ -577,7 +577,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
             </h2>
           </div>
           {exerciseContent.instructions && (
-            <div className="mt-4 flex gap-2.5 p-3.5 bg-slate-50 border border-slate-200 rounded-xl">
+            <div className="mt-3 flex gap-2.5 p-3.5 bg-slate-50 border border-slate-200 rounded-xl">
               <Info size={18} className="text-slate-500 flex-shrink-0 mt-0.5" aria-hidden />
               <div className="text-slate-700 text-base font-normal leading-relaxed">
                 <Markdown content={exerciseContent.instructions} plain />
