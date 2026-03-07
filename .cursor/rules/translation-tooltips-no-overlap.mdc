@@ -1,0 +1,23 @@
+---
+description: Evitar solapamiento de tooltips de traducción (TranslatedText)
+globs: **/ExerciseRenderer.tsx **/TranslatedText.tsx **/EnhancedSpeakingExercise.tsx **/MatchingExercise.tsx **/DragDropExercise.tsx
+alwaysApply: false
+---
+
+# Tooltips de traducción: no solapar contenido
+
+Los textos con `TranslatedText` muestran un tooltip debajo de la palabra al hacer hover. Si el contenedor no deja espacio suficiente, el tooltip solapa las opciones o el texto siguiente.
+
+## Reglas obligatorias
+
+1. **Contenedor del bloque con traducciones**: usar `TRANSLATION_TOOLTIP_SPACING.blockWithTranslations` (`pb-24`) como padding-bottom. No reducir este valor.
+2. **Bloque que va debajo** (ej. opciones de respuesta): usar `TRANSLATION_TOOLTIP_SPACING.blockBelow` (`mt-6`) como margin-top.
+3. **Tarjeta que envuelve el ejercicio**: usar `overflow-visible`, nunca `overflow-hidden`, para que los tooltips no se recorten.
+4. **Entre opciones** (cada una puede tener TranslatedText): usar `TRANSLATION_TOOLTIP_SPACING.betweenOptions` (`space-y-8`).
+
+## Dónde se define
+
+- Constantes y documentación: `src/components/course/exercises/TranslatedText.tsx` (export `TRANSLATION_TOOLTIP_SPACING` y comentario REGLA FIJA al inicio).
+- Uso: `ExerciseRenderer.tsx` importa y usa estas constantes en el bloque de pregunta y en el de opciones.
+
+Si añades nuevo contenido que use `TranslatedText` (p. ej. otro tipo de ejercicio), aplica el mismo espaciado para evitar solapamientos.

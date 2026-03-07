@@ -1,8 +1,28 @@
 'use client';
 
+/**
+ * TranslatedText: texto con tooltips de traducción al hacer hover (tokens [[word|translation]]).
+ *
+ * REGLA FIJA — NO SOLAPAR TRADUCCIONES:
+ * Cualquier contenedor que envuelva TranslatedText debe dejar espacio debajo para el tooltip.
+ * El tooltip se muestra debajo (top-full + mt-3), altura ~70–90px.
+ * Los padres deben usar al menos: padding-bottom equivalente a pb-24 (6rem) en el bloque
+ * de pregunta, y margin-top equivalente a mt-6 en el bloque siguiente (opciones).
+ * No reducir estos valores ni usar overflow-hidden en el contenedor de la tarjeta.
+ */
 import React, { useMemo } from 'react';
 import { GLOBAL_LEXICON } from '@/lib/course/engine/lexicon';
 import AudioButton from '../AudioButton';
+
+/** Clases Tailwind mínimas para contenedores que están DEBAJO de un bloque con TranslatedText (evitar solapamiento). */
+export const TRANSLATION_TOOLTIP_SPACING = {
+  /** Padding-bottom del bloque que CONTIENE la pregunta/texto con traducciones. */
+  blockWithTranslations: 'pb-24',
+  /** Margin-top del bloque que va DEBAJO (ej. opciones). */
+  blockBelow: 'mt-6',
+  /** Espacio entre opciones (cada una puede tener TranslatedText). */
+  betweenOptions: 'space-y-8',
+} as const;
 
 interface TranslatedTextProps {
   text: string;

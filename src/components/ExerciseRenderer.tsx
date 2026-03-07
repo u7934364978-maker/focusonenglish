@@ -13,7 +13,7 @@ import DragDropExercise from './exercises/DragDropExercise';
 import MatchingExercise from './exercises/MatchingExercise';
 import InteractiveDialogueExercise from './exercises/InteractiveDialogueExercise';
 import Markdown from './course/Markdown';
-import { TranslatedText } from './course/exercises/TranslatedText';
+import { TranslatedText, TRANSLATION_TOOLTIP_SPACING } from './course/exercises/TranslatedText';
 import { AudioPlayer } from './course/preview/AudioPlayer';
 import { useGamification } from '@/lib/hooks/use-gamification';
 
@@ -255,8 +255,8 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
           </div>
         )}
 
-        {/* Question text: padding-bottom amplio para que los tooltips de traducción no solapen las opciones */}
-        <div className="relative pl-4 border-l-4 border-slate-300 rounded-r-sm mt-2 pb-20 overflow-visible">
+        {/* Pregunta: usar TRANSLATION_TOOLTIP_SPACING — no reducir padding ni margin o los tooltips solapan las opciones */}
+        <div className={`relative pl-4 border-l-4 border-slate-300 rounded-r-sm mt-2 overflow-visible ${TRANSLATION_TOOLTIP_SPACING.blockWithTranslations}`}>
           <p className="text-sm font-medium text-slate-500 mb-1.5">Responde</p>
           <div className="text-lg md:text-xl text-slate-800 font-medium leading-snug">
             <TranslatedText text={q.question || q.text || q.prompt} />
@@ -273,8 +273,8 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
           </div>
         )}
 
-        {/* Options: margen superior amplio para separar de tooltips de la pregunta */}
-        <div className="space-y-8 overflow-visible mt-4">
+        {/* Opciones: margen superior obligatorio para no solapar tooltips de la pregunta */}
+        <div className={`overflow-visible ${TRANSLATION_TOOLTIP_SPACING.betweenOptions} ${TRANSLATION_TOOLTIP_SPACING.blockBelow}`}>
           {/* True/False */}
           {(q.type === 'true-false' || exercise.type === 'true-false') && (
             <div className="grid grid-cols-2 gap-3">
@@ -311,7 +311,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
 
           {/* Multiple Choice (including fill-blank with options) — no mostrar para true-false para evitar doble botón */}
           {q.options && Array.isArray(q.options) && !(q.type === 'true-false' || exercise.type === 'true-false') && (
-            <div className="space-y-8 overflow-visible">
+            <div className={`${TRANSLATION_TOOLTIP_SPACING.betweenOptions} overflow-visible`}>
               {q.options.map((option: any, optIndex: number) => {
                 const isUserAnswer = userAnswer === optIndex;
                 const isCorrectAnswer = checkMultipleChoiceCorrect(q, optIndex);
@@ -565,7 +565,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
       <div className="bg-white rounded-2xl shadow-lg shadow-slate-200/60 border border-slate-100 overflow-visible">
         <div className="p-6 md:p-8 space-y-6">
           {/* Tipo + título (sin etiqueta "Ejercicio" redundante) */}
-          <div>
+          <div className={`${TRANSLATION_TOOLTIP_SPACING.blockWithTranslations}`}>
             <div className="flex flex-wrap items-center gap-2 mb-3">
               <div className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium border ${typeTheme.badge}`} aria-hidden>
                 <TypeIcon size={14} aria-hidden />
@@ -575,15 +575,15 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
             <h2 className={`text-xl md:text-2xl font-semibold text-slate-900 leading-snug border-l-4 pl-4 ${typeTheme.border} rounded-r-sm`}>
               <TranslatedText text={exerciseContent.title || 'Ejercicio'} />
             </h2>
-            {exerciseContent.instructions && (
-              <div className="mt-4 flex gap-2.5 p-3.5 bg-slate-50 border border-slate-200 rounded-xl">
-                <Info size={18} className="text-slate-500 flex-shrink-0 mt-0.5" aria-hidden />
-                <div className="text-slate-700 text-base font-normal leading-relaxed">
-                  <Markdown content={exerciseContent.instructions} plain />
-                </div>
-              </div>
-            )}
           </div>
+          {exerciseContent.instructions && (
+            <div className="mt-4 flex gap-2.5 p-3.5 bg-slate-50 border border-slate-200 rounded-xl">
+              <Info size={18} className="text-slate-500 flex-shrink-0 mt-0.5" aria-hidden />
+              <div className="text-slate-700 text-base font-normal leading-relaxed">
+                <Markdown content={exerciseContent.instructions} plain />
+              </div>
+            </div>
+          )}
 
           {/* Audio (exercise-level) */}
           {exercise.audioUrl && (

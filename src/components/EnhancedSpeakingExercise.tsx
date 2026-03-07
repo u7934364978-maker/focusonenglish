@@ -13,7 +13,7 @@ import {
   type MicrophoneError 
 } from '@/lib/utils/microphone-permission';
 import { MicrophonePermissionError, MicrophonePermissionPrompt } from '@/components/MicrophonePermission';
-import { TranslatedText } from '@/components/course/exercises/TranslatedText';
+import { TranslatedText, TRANSLATION_TOOLTIP_SPACING } from '@/components/course/exercises/TranslatedText';
 
 interface SpeakingQuestion {
   id: string;
@@ -438,9 +438,9 @@ export default function EnhancedSpeakingExercise({ question, onComplete, level }
         <div className="space-y-6">
           {/* Prompt Card */}
           <div className="bg-white rounded-2xl shadow-xl p-6 border-2 border-orange-200">
-            <div className="flex items-start gap-3 mb-4">
+            <div className={`flex items-start gap-3 overflow-visible ${TRANSLATION_TOOLTIP_SPACING.blockWithTranslations}`}>
               <Target className="w-6 h-6 text-orange-600 flex-shrink-0 mt-1" />
-              <div className="flex-1">
+              <div className="flex-1 min-w-0">
                 <h3 className="text-lg font-bold text-gray-900 mb-2">Your task:</h3>
                 <p className="text-gray-800 leading-relaxed"><TranslatedText text={question.prompt} /></p>
               </div>
