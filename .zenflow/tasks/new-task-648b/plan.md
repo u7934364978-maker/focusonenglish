@@ -98,7 +98,8 @@ Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 - `instructions` plain Spanish (no lone "a"); `prompt` in token format
 - IDs: a1-u4-l6-w1 … a1-u4-l6-w15
 
-### [ ] Step: Create unit-4-lessons-index.ts and replace unit-4.ts
+### [x] Step: Create unit-4-lessons-index.ts and replace unit-4.ts
+<!-- chat-id: 5dc7494b-cc2c-43f1-ba69-51c94ffe7832 -->
 - Read `unit-3-lessons-index.ts` and `unit-3.ts` for exact pattern
 - Create `src/lib/course/a1/unit-4-lessons-index.ts` exporting `UNIT_4_LESSONS`, `UNIT_4_ALL_LESSONS`, `UNIT_4_ALL_EXERCISES`
 - Replace `src/lib/course/a1/unit-4.ts` with new entry point importing from index, exporting `UNIT_TITLE` and `UNIT_4_EXERCISES`
