@@ -123,9 +123,9 @@ const Tooltip: React.FC<TooltipProps> = ({ word, translation, useStrong }) => (
     <span className={useStrong ? "font-bold text-indigo-700 dark:text-indigo-400" : "text-indigo-600 dark:text-indigo-400 font-medium"}>
       {word}
     </span>
-    {/* Tooltip debajo para no solapar enunciados ni otras opciones */}
+    {/* Tooltip debajo, con margen para no solapar la siguiente opción ni líneas */}
     <span 
-      className="absolute top-full left-0 mt-2 w-max max-w-[260px] p-3 bg-slate-900 text-white text-xs rounded-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-[200] shadow-2xl border border-slate-700 pointer-events-none group-hover:pointer-events-auto whitespace-normal break-words" 
+      className="absolute top-full left-0 mt-3 mb-2 w-max max-w-[260px] p-3 bg-slate-900 text-white text-xs rounded-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-[200] shadow-2xl border border-slate-700 pointer-events-none group-hover:pointer-events-auto whitespace-normal break-words drop-shadow-lg" 
       aria-hidden="true"
     >
       <span className="flex items-center justify-between gap-3 mb-2">

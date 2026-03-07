@@ -176,7 +176,7 @@ export const UNIT_6_LESSON_6_WRITING: Exercise[] = [
     content: {
       title: LESSON_TITLE,
       instructions: 'Escribe una o dos frases sobre tus hermanos o hermanas. Usa "my brother", "my sister" o "I have no brothers/sisters".',
-      prompt: '[[I have|Tengo]] … [[brother|hermano]] and … [[sister|hermana]]. / [[My brother|Mi hermano]] …',
+      prompt: '[[I have|Tengo]] … [[brother|hermano]] [[and|y]] … [[sister|hermana]]. / [[My brother|Mi hermano]] …',
       minWords: 4,
       maxWords: 18,
     },
@@ -238,7 +238,7 @@ export const UNIT_6_LESSON_6_WRITING: Exercise[] = [
     content: {
       title: LESSON_TITLE,
       instructions: 'Imagina que presentas a tu familia a un amigo. Escribe quién es cada persona (my mother, my father, my brother Tom\'s wife, etc.) y una cosa que hace o que le gusta. Entre 4 y 6 frases.',
-      prompt: "[[Introduce your family to a friend|Presenta tu familia a un amigo]]. [[Use|Usa]] [[possessives|posesivos]] and [['s|'s]].",
+      prompt: "[[Introduce your family to a friend|Presenta tu familia a un amigo]]. [[Use|Usa]] [[possessives|posesivos]] [[and|y]] [['s|'s]].",
       minWords: 28,
       maxWords: 65,
     },

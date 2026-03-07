@@ -215,7 +215,7 @@ export const UNIT_7_LESSON_3_READING: Exercise[] = [
       instructions: INSTRUCTIONS,
       questions: [{
         question: '[[Which|Qué]] [[words|palabras]] [[describe|describen]] [[hair|pelo]] [[in|en]] [[the|el]] [[text|texto]]?',
-        options: ['[[tall|alto]] and [[short|bajo]]', '[[long|largo]] and [[brown|castaño]]', '[[green|verde]] and [[blue|azul]]'],
+        options: ['[[tall|alto]] [[and|y]] [[short|bajo]]', '[[long|largo]] [[and|y]] [[brown|castaño]]', '[[green|verde]] [[and|y]] [[blue|azul]]'],
         correctAnswer: 1,
         explanation: 'Long brown hair.',
       }],
@@ -234,7 +234,7 @@ export const UNIT_7_LESSON_3_READING: Exercise[] = [
       instructions: INSTRUCTIONS,
       questions: [{
         question: '[[Best|Mejor]] [[summary|resumen]] [[of|del]] [[text|texto]]?',
-        options: ['[[A|Una]] [[doctor|médica]] [[in|en]] [[Madrid|Madrid]].', '[[Someone|Alguien]] [[describes|describe]] [[a|una]] [[tall|alta]] [[friend|amiga]] [[with|con]] [[brown|castaño]] [[hair|pelo]] and [[green|verdes]] [[eyes|ojos]].', '[[A|Una]] [[family|familia]] [[in|en]] [[Valencia|Valencia]].'],
+        options: ['[[A|Una]] [[doctor|médica]] [[in|en]] [[Madrid|Madrid]].', '[[Someone|Alguien]] [[describes|describe]] [[a|una]] [[tall|alta]] [[friend|amiga]] [[with|con]] [[brown|castaño]] [[hair|pelo]] [[and|y]] [[green|verdes]] [[eyes|ojos]].', '[[A|Una]] [[family|familia]] [[in|en]] [[Valencia|Valencia]].'],
         correctAnswer: 1,
         explanation: 'Descripción física: alta, pelo castaño largo, ojos verdes, joven.',
       }],
@@ -252,7 +252,7 @@ export const UNIT_7_LESSON_3_READING: Exercise[] = [
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS,
       questions: [{
-        question: '[[What|Qué]] [[verb|verbo]] [[do|se]] [[we|usa]] [[use|usamos]] [[for|para]] [[hair|pelo]] and [[eyes|ojos]]?',
+        question: '[[What|Qué]] [[verb|verbo]] [[do|se]] [[we|usa]] [[use|usamos]] [[for|para]] [[hair|pelo]] [[and|y]] [[eyes|ojos]]?',
         options: ['[[is|es]]', '[[have|tener]]', '[[go|ir]]'],
         correctAnswer: 1,
         explanation: 'She has long hair. Her eyes are green (are para descripción).',

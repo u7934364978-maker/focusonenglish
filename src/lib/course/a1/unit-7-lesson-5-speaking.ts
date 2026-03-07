@@ -48,7 +48,7 @@ export const UNIT_7_LESSON_5_SPEAKING: Exercise[] = [
     content: {
       title: LESSON_TITLE,
       instructions: 'Escucha y repite en voz alta.',
-      targetText: '[[My|Mi]] [[brother|hermano]] [[is|es]] [[short|bajo]] and [[young|joven]].',
+      targetText: '[[My|Mi]] [[brother|hermano]] [[is|es]] [[short|bajo]] [[and|y]] [[young|joven]].',
       expectedResponse: 'My brother is short and young.',
     },
     topicName: 'Speaking',
@@ -222,7 +222,7 @@ export const UNIT_7_LESSON_5_SPEAKING: Exercise[] = [
     content: {
       title: LESSON_TITLE,
       instructions: 'Di en voz alta si tú eres joven o mayor, y una frase sobre tu pelo o tus ojos.',
-      targetText: '[[I|Yo]] [[am|soy]] ____. [[I|Yo]] [[have|tengo]] ____ [[hair|pelo]] and ____ [[eyes|ojos]].',
+      targetText: '[[I|Yo]] [[am|soy]] ____. [[I|Yo]] [[have|tengo]] ____ [[hair|pelo]] [[and|y]] ____ [[eyes|ojos]].',
       expectedResponse: 'I am young/old. I have [length] [colour] hair and [colour] eyes.',
     },
     topicName: 'Speaking',

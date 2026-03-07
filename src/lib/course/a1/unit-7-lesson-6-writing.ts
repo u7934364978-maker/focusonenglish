@@ -206,7 +206,7 @@ export const UNIT_7_LESSON_6_WRITING: Exercise[] = [
     content: {
       title: LESSON_TITLE,
       instructions: 'Escribe dos o tres frases describiendo a un familiar o amigo: altura, pelo, ojos. Usa "He/She is …", "He/She has …".',
-      prompt: '[[My|Mi]] ____ [[is|es]] ____. [[He|Él]] / [[She|Ella]] [[has|tiene]] ____ [[hair|pelo]] and ____ [[eyes|ojos]].',
+      prompt: '[[My|Mi]] ____ [[is|es]] ____. [[He|Él]] / [[She|Ella]] [[has|tiene]] ____ [[hair|pelo]] [[and|y]] ____ [[eyes|ojos]].',
       minWords: 10,
       maxWords: 22,
     },
@@ -253,7 +253,7 @@ export const UNIT_7_LESSON_6_WRITING: Exercise[] = [
     content: {
       title: LESSON_TITLE,
       instructions: 'Escribe un párrafo corto (4–6 frases) sobre los colores que te gustan y los colores de cosas que tienes (habitación, coche, ropa, ojos, pelo). Usa "My … is …", "I have …", "I like …".',
-      prompt: '[[Colours around you|Colores a tu alrededor]]: [[your room|tu habitación]], [[your things|tus cosas]], [[your hair and eyes|tu pelo y tus ojos]].',
+      prompt: '[[Colours around you|Colores a tu alrededor]]: [[your room|tu habitación]], [[your things|tus cosas]], [[your|tu]] [[hair|pelo]] [[and|y]] [[eyes|ojos]].',
       minWords: 25,
       maxWords: 55,
     },

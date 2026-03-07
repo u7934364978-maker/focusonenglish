@@ -255,8 +255,8 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
           </div>
         )}
 
-        {/* Question text */}
-        <div className="relative pl-4 border-l-4 border-slate-300 rounded-r-sm mt-2">
+        {/* Question text: padding-bottom para que el tooltip de traducción no solape las opciones */}
+        <div className="relative pl-4 border-l-4 border-slate-300 rounded-r-sm mt-2 pb-4">
           <p className="text-sm font-medium text-slate-500 mb-1.5">Responde</p>
           <div className="text-lg md:text-xl text-slate-800 font-medium leading-snug">
             <TranslatedText text={q.question || q.text || q.prompt} />
@@ -273,8 +273,8 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
           </div>
         )}
 
-        {/* Options */}
-        <div className="space-y-3">
+        {/* Options: margen superior para separar de tooltips de la pregunta */}
+        <div className="space-y-3 mt-2">
           {/* True/False */}
           {(q.type === 'true-false' || exercise.type === 'true-false') && (
             <div className="grid grid-cols-2 gap-3">
@@ -311,7 +311,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
 
           {/* Multiple Choice (including fill-blank with options) — no mostrar para true-false para evitar doble botón */}
           {q.options && Array.isArray(q.options) && !(q.type === 'true-false' || exercise.type === 'true-false') && (
-            <div className="space-y-4 overflow-visible">
+            <div className="space-y-8 overflow-visible">
               {q.options.map((option: any, optIndex: number) => {
                 const isUserAnswer = userAnswer === optIndex;
                 const isCorrectAnswer = checkMultipleChoiceCorrect(q, optIndex);
@@ -327,7 +327,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                     whileTap={!submitted ? { scale: 0.97 } : {}}
                     animate={isUserAnswer && !submitted ? { scale: [1, 1.03, 1] } : { scale: 1 }}
                     transition={{ duration: 0.18 }}
-                    className={`relative w-full text-left p-4 pb-5 rounded-2xl border-2 transition-colors duration-200 group focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B6B] focus-visible:ring-offset-2 overflow-visible ${
+                    className={`relative w-full text-left p-4 pb-8 rounded-2xl border-2 transition-colors duration-200 group focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B6B] focus-visible:ring-offset-2 overflow-visible min-h-[4rem] ${
                       showAsCorrect
                         ? 'border-green-400 bg-green-50 shadow-sm'
                         : showAsIncorrect

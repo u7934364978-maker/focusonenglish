@@ -116,7 +116,7 @@ export const UNIT_6_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_MC,
       questions: [{
         question: '[[The|El]] [[child|hijo]] [[of|de]] [[your|tu]] [[aunt|tía]] [[or|o]] [[uncle|tío]] [[is|es]] [[your|tu]] ____.',
-        options: ['[[son|hijo]]', '[[daughter|hija]]', '[[cousin|primo]]', '[[nephew|sobrino]]'],
+        options: ['son', '[[daughter|hija]]', '[[cousin|primo]]', '[[nephew|sobrino]]'],
         correctAnswer: 2,
         explanation: 'Cousin = primo o prima.',
       }],
@@ -155,7 +155,7 @@ export const UNIT_6_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_MATCH,
       pairs: [
         { id: 'p1', left: '[[grandfather|abuelo]]', right: 'abuelo' },
-        { id: 'p2', left: '[[son|hijo]]', right: 'hijo' },
+        { id: 'p2', left: 'son', right: 'hijo' },
         { id: 'p3', left: '[[daughter|hija]]', right: 'hija' },
         { id: 'p4', left: '[[uncle|tío]]', right: 'tío' },
         { id: 'p5', left: '[[aunt|tía]]', right: 'tía' },
@@ -250,8 +250,8 @@ export const UNIT_6_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_FILL,
       questions: [{
         question: '[[Their|Su]] ____ [[is|es]] [[five|cinco]] [[years|años]] [[old|de edad]].',
-        options: ['[[uncle|tío]]', '[[aunt|tía]]', '[[son|hijo]]', '[[cousin|primo]]'],
-        correctAnswer: '[[son|hijo]]',
+        options: ['[[uncle|tío]]', '[[aunt|tía]]', 'son', '[[cousin|primo]]'],
+        correctAnswer: 'son',
         explanation: 'Son = hijo. Their son = su hijo (de ellos).',
       }],
     },
@@ -288,7 +288,7 @@ export const UNIT_6_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_CTX,
       questions: [{
         question: '[[You|Tú]] [[talk|hablas]] [[about|de]] [[the|el]] [[child|hijo]] [[of|de]] [[your|tu]] [[uncle|tío]]. [[He|Él]] [[is|es]] [[your|tu]] ____.',
-        options: ['[[son|hijo]]', '[[cousin|primo]]', '[[brother|hermano]]', '[[grandfather|abuelo]]'],
+        options: ['son', '[[cousin|primo]]', '[[brother|hermano]]', '[[grandfather|abuelo]]'],
         correctAnswer: 1,
         explanation: 'El hijo de tu tío es tu primo (cousin).',
       }],

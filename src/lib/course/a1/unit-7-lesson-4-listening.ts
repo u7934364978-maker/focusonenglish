@@ -253,7 +253,7 @@ export const UNIT_7_LESSON_4_LISTENING: Exercise[] = [
       instructions: INSTRUCTIONS,
       questions: [{
         question: '[[Main|Tema]] [[topic|principal]] [[of|del]] [[dialogue|diálogo]]?',
-        options: ['[[School|Escuela]] and [[work|trabajo]].', '[[Two|Dos]] [[people|personas]] [[describe|describen]] [[family|familia]] [[members|miembros]] [[physically|físicamente]].', '[[Sports|Deportes]].'],
+        options: ['[[School|Escuela]] [[and|y]] [[work|trabajo]].', '[[Two|Dos]] [[people|personas]] [[describe|describen]] [[family|familia]] [[members|miembros]] [[physically|físicamente]].', '[[Sports|Deportes]].'],
         correctAnswer: 1,
         explanation: 'Lisa y Tom describen a Emma y al hermano de Lisa (altura, pelo, ojos, edad).',
       }],
@@ -291,7 +291,7 @@ export const UNIT_7_LESSON_4_LISTENING: Exercise[] = [
       instructions: INSTRUCTIONS,
       questions: [{
         question: '[[Which|Qué]] [[details|detalles]] [[are|se]] [[mentioned|mencionan]] [[for|para]] [[describing|describir]] [[people|personas]]?',
-        options: ['[[Only|Solo]] [[names|nombres]].', '[[Height|Altura]], [[hair|pelo]] [[color|color]], [[eyes|ojos]], [[age|edad]].', '[[Job|Trabajo]] and [[city|ciudad]].'],
+        options: ['[[Only|Solo]] [[names|nombres]].', '[[Height|Altura]], [[hair|pelo]] [[color|color]], [[eyes|ojos]], [[age|edad]].', '[[Job|Trabajo]] [[and|y]] [[city|ciudad]].'],
         correctAnswer: 1,
         explanation: 'Se mencionan tall/short, hair (red, brown), eyes (blue), age (25, 18).',
       }],
