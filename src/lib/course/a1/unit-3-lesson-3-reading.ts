@@ -31,7 +31,7 @@ export const UNIT_3_LESSON_3_READING: Exercise[] = [
       questions: [
         {
           question: '[[What is her name?|¿Cuál es su nombre?]]',
-          options: ['[[Maria|María]]', '[[Ana|Ana]]', '[[Laura|Laura]]', '[[Sofia|Sofía]]'],
+          options: ['Maria', 'Ana', 'Laura', 'Sofia'],
           correctAnswer: 2,
           explanation: 'Ella dice: "My name is Laura".',
         },
@@ -52,7 +52,7 @@ export const UNIT_3_LESSON_3_READING: Exercise[] = [
       questions: [
         {
           question: '[[How does Laura feel today?|¿Cómo se siente Laura hoy?]]',
-          options: ['[[happy|feliz]]', '[[excited|emocionada]]', '[[bored|aburrida]]', '[[tired|cansada]]'],
+          options: ['happy', 'excited', 'bored', 'tired'],
           correctAnswer: 3,
           explanation: 'El texto dice "I am very tired".',
         },
@@ -74,10 +74,10 @@ export const UNIT_3_LESSON_3_READING: Exercise[] = [
         {
           question: '[[Why is Laura tired?|¿Por qué está Laura cansada?]]',
           options: [
-            '[[Because she was sick|Porque estuvo enferma]]',
-            '[[Because she worked all weekend|Porque trabajó todo el fin de semana]]',
-            '[[Because she did not sleep|Porque no durmió]]',
-            '[[Because she is bored|Porque está aburrida]]',
+            'Because she was sick',
+            'Because she worked all weekend',
+            'Because she did not sleep',
+            'Because she is bored',
           ],
           correctAnswer: 1,
           explanation: 'El texto dice "I worked all weekend".',
@@ -99,7 +99,7 @@ export const UNIT_3_LESSON_3_READING: Exercise[] = [
       questions: [
         {
           question: '[[How does Tom feel today?|¿Cómo se siente Tom hoy?]]',
-          options: ['[[tired|cansado]]', '[[sad|triste]]', '[[angry|enfadado]]', '[[excited|emocionado]]'],
+          options: ['tired', 'sad', 'angry', 'excited'],
           correctAnswer: 3,
           explanation: 'El texto dice "Tom is excited today".',
         },
@@ -120,7 +120,7 @@ export const UNIT_3_LESSON_3_READING: Exercise[] = [
       questions: [
         {
           question: '[[How many hours did Tom sleep?|¿Cuántas horas durmió Tom?]]',
-          options: ['[[eight|ocho]]', '[[nine|nueve]]', '[[ten|diez]]', '[[eleven|once]]'],
+          options: ['eight', 'nine', 'ten', 'eleven'],
           correctAnswer: 2,
           explanation: 'El texto dice "he slept ten hours".',
         },
@@ -142,10 +142,10 @@ export const UNIT_3_LESSON_3_READING: Exercise[] = [
         {
           question: '[[Is Tom hungry?|¿Tiene hambre Tom?]]',
           options: [
-            '[[He is thirsty.|Tiene sed.]]',
-            '[[No, he isn\'t.|No, no lo está.]]',
-            '[[He is not hungry or thirsty.|No tiene hambre ni sed.]]',
-            '[[Yes, he is.|Sí, lo está.]]',
+            'He is thirsty.',
+            'No, he isn\'t.',
+            'He is not hungry or thirsty.',
+            'Yes, he is.',
           ],
           correctAnswer: 3,
           explanation: 'El texto dice "Is he hungry? Yes, he is".',
@@ -167,7 +167,7 @@ export const UNIT_3_LESSON_3_READING: Exercise[] = [
       questions: [
         {
           question: '[[What does Tom want?|¿Qué quiere Tom?]]',
-          options: ['[[lunch|almuerzo]]', '[[dinner|cena]]', '[[breakfast|desayuno]]', '[[a snack|un tentempié]]'],
+          options: ['lunch', 'dinner', 'breakfast', 'a snack'],
           correctAnswer: 2,
           explanation: 'El texto dice "he wants breakfast".',
         },
@@ -188,7 +188,7 @@ export const UNIT_3_LESSON_3_READING: Exercise[] = [
       questions: [
         {
           question: '[[What are Laura and Tom?|¿Qué son Laura y Tom?]]',
-          options: ['[[teachers|profesores]]', '[[workers|trabajadores]]', '[[doctors|médicos]]', '[[students|estudiantes]]'],
+          options: ['teachers', 'workers', 'doctors', 'students'],
           correctAnswer: 3,
           explanation: 'El texto dice "We are both students".',
         },
@@ -209,8 +209,8 @@ export const UNIT_3_LESSON_3_READING: Exercise[] = [
       instructions: INST_TF,
       questions: [
         {
-          question: '[[Laura is happy about working all weekend.|Laura está feliz de haber trabajado todo el fin de semana.]]',
-          options: ['[[True|Verdadero]]', '[[False|Falso]]'],
+          question: 'Laura is happy about working all weekend.',
+          options: ['True', 'False'],
           correctAnswer: 'False',
           explanation: 'Falso. Ella dice "I am not happy about that".',
         },
@@ -230,8 +230,8 @@ export const UNIT_3_LESSON_3_READING: Exercise[] = [
       instructions: INST_TF,
       questions: [
         {
-          question: '[[Tom is tired today.|Tom está cansado hoy.]]',
-          options: ['[[True|Verdadero]]', '[[False|Falso]]'],
+          question: 'Tom is tired today.',
+          options: ['True', 'False'],
           correctAnswer: 'False',
           explanation: 'Falso. Tom no está cansado — está emocionado.',
         },
@@ -251,8 +251,8 @@ export const UNIT_3_LESSON_3_READING: Exercise[] = [
       instructions: INST_TF,
       questions: [
         {
-          question: '[[Laura and Tom are bored at school.|Laura y Tom están aburridos en la escuela.]]',
-          options: ['[[True|Verdadero]]', '[[False|Falso]]'],
+          question: 'Laura and Tom are bored at school.',
+          options: ['True', 'False'],
           correctAnswer: 'False',
           explanation: 'Falso. El texto dice "we are not bored. We love our class!".',
         },
@@ -272,8 +272,8 @@ export const UNIT_3_LESSON_3_READING: Exercise[] = [
       instructions: INST_TF,
       questions: [
         {
-          question: '[[Tom slept more than Laura.|Tom durmió más que Laura.]]',
-          options: ['[[True|Verdadero]]', '[[False|Falso]]'],
+          question: 'Tom slept more than Laura.',
+          options: ['True', 'False'],
           correctAnswer: 'True',
           explanation: 'Verdadero. Tom durmió diez horas; Laura trabajó todo el fin de semana.',
         },
@@ -296,10 +296,10 @@ export const UNIT_3_LESSON_3_READING: Exercise[] = [
         {
           question: '[[What is the main topic of this text?|¿Cuál es el tema principal de este texto?]]',
           options: [
-            '[[A morning at school|Una mañana en la escuela]]',
-            '[[A weekend trip|Un viaje de fin de semana]]',
-            '[[Two friends describing how they feel today|Dos amigos describiendo cómo se sienten hoy]]',
-            '[[Breakfast habits|Hábitos de desayuno]]',
+            'A morning at school',
+            'A weekend trip',
+            'Two friends describing how they feel today',
+            'Breakfast habits',
           ],
           correctAnswer: 2,
           explanation: 'El texto describe cómo Laura y Tom se sienten usando negaciones y preguntas con el verbo to be.',
@@ -322,10 +322,10 @@ export const UNIT_3_LESSON_3_READING: Exercise[] = [
         {
           question: '[[How do Laura and Tom feel about school?|¿Cómo se sienten Laura y Tom respecto a la escuela?]]',
           options: [
-            '[[They are both bored|Los dos están aburridos]]',
-            '[[They are both tired|Los dos están cansados]]',
-            '[[They don\'t like school|No les gusta la escuela]]',
-            '[[They are not bored — they love their class|No están aburridos — aman su clase]]',
+            'They are both bored',
+            'They are both tired',
+            'They don\'t like school',
+            'They are not bored — they love their class',
           ],
           correctAnswer: 3,
           explanation: 'El texto dice claramente "we are not bored. We love our class!".',
@@ -348,10 +348,10 @@ export const UNIT_3_LESSON_3_READING: Exercise[] = [
         {
           question: '[[Which grammar structure does Laura use when she says "I am not happy about that"?|¿Qué estructura gramatical usa Laura cuando dice "I am not happy about that"?]]',
           options: [
-            '[[Affirmative to be|To be afirmativo]]',
-            '[[Negative to be|To be negativo]]',
-            '[[Question with to be|Pregunta con to be]]',
-            '[[Past tense|Tiempo pasado]]',
+            'Affirmative to be',
+            'Negative to be',
+            'Question with to be',
+            'Past tense',
           ],
           correctAnswer: 1,
           explanation: '"I am not" es la forma negativa de to be con "I".',
