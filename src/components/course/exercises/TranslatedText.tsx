@@ -2,17 +2,33 @@
 
 /**
  * TranslatedText: texto con tooltips de traducción al hacer hover (tokens [[word|translation]]).
+ * Solo se muestra el tooltip de la palabra que toca el cursor (un único tooltip visible a la vez).
  *
  * REGLA FIJA — NO SOLAPAR TRADUCCIONES:
- * Cualquier contenedor que envuelva TranslatedText debe dejar espacio debajo para el tooltip.
- * El tooltip se muestra debajo (top-full + mt-3), altura ~70–90px.
- * Los padres deben usar al menos: padding-bottom pb-32 (8rem) en el bloque de pregunta,
- * y margin-top mt-10 (2.5rem) en el bloque siguiente (opciones). No reducir estos valores.
- * No reducir estos valores ni usar overflow-hidden en el contenedor de la tarjeta.
+ * Los padres deben usar TRANSLATION_TOOLTIP_SPACING (pb-32, mt-10). No reducir ni usar overflow-hidden.
  */
-import React, { useMemo } from 'react';
+import React, { useMemo, useState, useEffect, useId, useRef } from 'react';
 import { GLOBAL_LEXICON } from '@/lib/course/engine/lexicon';
 import AudioButton from '../AudioButton';
+
+/** Store compartido: solo un tooltip visible a la vez (el que tiene el cursor). */
+let activeTooltipId: string | null = null;
+const tooltipListeners = new Set<(id: string | null) => void>();
+function setActiveTooltipId(id: string | null) {
+  if (activeTooltipId === id) return;
+  activeTooltipId = id;
+  tooltipListeners.forEach((fn) => fn(id));
+}
+function useActiveTooltipId() {
+  const [activeId, setActiveId] = useState<string | null>(null);
+  useEffect(() => {
+    tooltipListeners.add(setActiveId);
+    return () => {
+      tooltipListeners.delete(setActiveId);
+    };
+  }, []);
+  return activeId;
+}
 
 /** Clases Tailwind mínimas para contenedores que están DEBAJO de un bloque con TranslatedText (evitar solapamiento). */
 export const TRANSLATION_TOOLTIP_SPACING = {
@@ -138,27 +154,46 @@ interface TooltipProps {
   useStrong?: boolean;
 }
 
-const Tooltip: React.FC<TooltipProps> = ({ word, translation, useStrong }) => (
-  <span className="group relative inline-block border-b-2 border-dotted border-indigo-300 hover:border-indigo-500 cursor-help transition-all duration-200 hover:z-[200] mx-0.5 align-baseline">
-    <span className={useStrong ? "font-bold text-indigo-700 dark:text-indigo-400" : "text-indigo-600 dark:text-indigo-400 font-medium"}>
-      {word}
-    </span>
-    {/* Tooltip debajo, con margen para no solapar la siguiente opción ni líneas */}
-    <span 
-      className="absolute top-full left-0 mt-3 mb-2 w-max max-w-[260px] p-3 bg-slate-900 text-white text-xs rounded-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-[200] shadow-2xl border border-slate-700 pointer-events-none group-hover:pointer-events-auto whitespace-normal break-words drop-shadow-lg" 
-      aria-hidden="true"
+const Tooltip: React.FC<TooltipProps> = ({ word, translation, useStrong }) => {
+  const id = useId();
+  const activeId = useActiveTooltipId();
+  const tooltipRef = useRef<HTMLSpanElement>(null);
+  const isActive = activeId === id;
+
+  const handleLeave = (e: React.MouseEvent) => {
+    const next = e.relatedTarget as Node | null;
+    if (next && tooltipRef.current?.contains(next)) return;
+    setActiveTooltipId(null);
+  };
+
+  return (
+    <span
+      className="relative inline-block border-b-2 border-dotted border-indigo-300 cursor-help transition-all duration-200 mx-0.5 align-baseline"
+      style={{ zIndex: isActive ? 201 : undefined }}
+      onMouseEnter={() => setActiveTooltipId(id)}
+      onMouseLeave={handleLeave}
     >
-      <span className="flex items-center justify-between gap-3 mb-2">
-        <span className="block font-black text-indigo-400 uppercase tracking-widest text-[10px] truncate">
-          {word}
+      <span className={`${isActive ? 'border-indigo-500' : 'hover:border-indigo-500'} ${useStrong ? 'font-bold text-indigo-700 dark:text-indigo-400' : 'text-indigo-600 dark:text-indigo-400 font-medium'}`}>
+        {word}
+      </span>
+      {/* Solo se muestra el tooltip de la palabra que toca el cursor */}
+      <span
+        ref={tooltipRef}
+        className={`absolute top-full left-0 mt-3 w-max max-w-[280px] p-3.5 bg-slate-900 text-white text-xs rounded-xl transition-all duration-200 z-[200] shadow-2xl border border-slate-700 drop-shadow-lg flex flex-col gap-3 ${isActive ? 'opacity-100 visible pointer-events-auto' : 'opacity-0 invisible pointer-events-none'}`}
+        aria-hidden="true"
+        onMouseLeave={() => setActiveTooltipId(null)}
+      >
+        <span className="flex items-center justify-between gap-2 min-h-[1.5rem]">
+          <span className="font-black text-indigo-400 uppercase tracking-widest text-[10px] leading-relaxed break-words line-clamp-2">
+            {word}
+          </span>
+          <AudioButton text={word} size="sm" className="bg-slate-800 hover:bg-slate-700 text-indigo-400 border-none scale-75 flex-shrink-0" />
         </span>
-        <AudioButton text={word} size="sm" className="bg-slate-800 hover:bg-slate-700 text-indigo-400 border-none scale-75 flex-shrink-0" />
+        <span className="block text-slate-200 leading-relaxed font-medium text-sm min-h-[1.25rem]">
+          {translation}
+        </span>
+        <span className="absolute bottom-full left-4 border-[6px] border-transparent border-b-slate-900 pointer-events-none" />
       </span>
-      <span className="block text-slate-200 leading-snug font-medium text-sm">
-        {translation}
-      </span>
-      {/* Flecha hacia arriba */}
-      <span className="absolute bottom-full left-4 border-[6px] border-transparent border-b-slate-900" />
     </span>
-  </span>
-);
+  );
+};
