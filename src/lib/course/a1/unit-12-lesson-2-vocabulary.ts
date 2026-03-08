@@ -1,5 +1,5 @@
 /**
- * Unidad 11 — Lección 2: Vocabulario (Places in Town)
+ * Unidad 12 — Lección 2: Vocabulario (Places in Town)
  * bank, park, supermarket, library, post office, pharmacy, café, street, next to, opposite.
  * 15 ejercicios: 6 multiple-choice, 4 matching, 3 fill-blank, 2 contexto
  */
@@ -14,9 +14,9 @@ const INSTRUCTIONS_MATCH = 'Relaciona el lugar con su descripción o traducción
 const INSTRUCTIONS_FILL = 'Completa la frase con la palabra correcta.';
 const INSTRUCTIONS_CTX = 'Elige la opción correcta para la situación.';
 
-export const UNIT_11_LESSON_2_VOCABULARY: Exercise[] = [
+export const UNIT_12_LESSON_2_VOCABULARY: Exercise[] = [
   {
-    id: 'a1-u11-l2-v1',
+    id: 'a1-u12-l2-v1',
     type: 'multiple-choice',
     level: 'A1',
     topic: TOPIC,
@@ -34,7 +34,7 @@ export const UNIT_11_LESSON_2_VOCABULARY: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'a1-u11-l2-v2',
+    id: 'a1-u12-l2-v2',
     type: 'multiple-choice',
     level: 'A1',
     topic: TOPIC,
@@ -52,7 +52,7 @@ export const UNIT_11_LESSON_2_VOCABULARY: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'a1-u11-l2-v3',
+    id: 'a1-u12-l2-v3',
     type: 'multiple-choice',
     level: 'A1',
     topic: TOPIC,
@@ -70,7 +70,7 @@ export const UNIT_11_LESSON_2_VOCABULARY: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'a1-u11-l2-v4',
+    id: 'a1-u12-l2-v4',
     type: 'multiple-choice',
     level: 'A1',
     topic: TOPIC,
@@ -88,7 +88,7 @@ export const UNIT_11_LESSON_2_VOCABULARY: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'a1-u11-l2-v5',
+    id: 'a1-u12-l2-v5',
     type: 'multiple-choice',
     level: 'A1',
     topic: TOPIC,
@@ -106,7 +106,7 @@ export const UNIT_11_LESSON_2_VOCABULARY: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'a1-u11-l2-v6',
+    id: 'a1-u12-l2-v6',
     type: 'multiple-choice',
     level: 'A1',
     topic: TOPIC,
@@ -124,7 +124,7 @@ export const UNIT_11_LESSON_2_VOCABULARY: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'a1-u11-l2-v7',
+    id: 'a1-u12-l2-v7',
     type: 'matching',
     level: 'A1',
     topic: TOPIC,
@@ -143,7 +143,7 @@ export const UNIT_11_LESSON_2_VOCABULARY: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'a1-u11-l2-v8',
+    id: 'a1-u12-l2-v8',
     type: 'matching',
     level: 'A1',
     topic: TOPIC,
@@ -162,7 +162,7 @@ export const UNIT_11_LESSON_2_VOCABULARY: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'a1-u11-l2-v9',
+    id: 'a1-u12-l2-v9',
     type: 'matching',
     level: 'A1',
     topic: TOPIC,
@@ -181,7 +181,7 @@ export const UNIT_11_LESSON_2_VOCABULARY: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'a1-u11-l2-v10',
+    id: 'a1-u12-l2-v10',
     type: 'matching',
     level: 'A1',
     topic: TOPIC,
@@ -200,7 +200,7 @@ export const UNIT_11_LESSON_2_VOCABULARY: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'a1-u11-l2-v11',
+    id: 'a1-u12-l2-v11',
     type: 'fill-blank',
     level: 'A1',
     topic: TOPIC,
@@ -219,7 +219,7 @@ export const UNIT_11_LESSON_2_VOCABULARY: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'a1-u11-l2-v12',
+    id: 'a1-u12-l2-v12',
     type: 'fill-blank',
     level: 'A1',
     topic: TOPIC,
@@ -238,7 +238,7 @@ export const UNIT_11_LESSON_2_VOCABULARY: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'a1-u11-l2-v13',
+    id: 'a1-u12-l2-v13',
     type: 'fill-blank',
     level: 'A1',
     topic: TOPIC,
@@ -257,7 +257,7 @@ export const UNIT_11_LESSON_2_VOCABULARY: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'a1-u11-l2-v14',
+    id: 'a1-u12-l2-v14',
     type: 'multiple-choice',
     level: 'A1',
     topic: TOPIC,
@@ -275,7 +275,7 @@ export const UNIT_11_LESSON_2_VOCABULARY: Exercise[] = [
     topicName: 'Vocabulary',
   },
   {
-    id: 'a1-u11-l2-v15',
+    id: 'a1-u12-l2-v15',
     type: 'multiple-choice',
     level: 'A1',
     topic: TOPIC,

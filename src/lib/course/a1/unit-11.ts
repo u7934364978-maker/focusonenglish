@@ -5,7 +5,7 @@
 
 import { UNIT_11_ALL_EXERCISES } from './unit-11-lessons-index';
 
-export const UNIT_TITLE = 'Jobs & Work';
+export const UNIT_TITLE = 'Places in Town';
 
 /** Todos los ejercicios de la Unidad 11 (6 lecciones × 15 ejercicios = 90). */
 export const UNIT_11_EXERCISES = UNIT_11_ALL_EXERCISES;
