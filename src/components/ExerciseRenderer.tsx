@@ -504,7 +504,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
   if (exercise.type === 'pronunciation') {
     const pronunciationQuestion = {
       id: exercise.id,
-      prompt: exerciseContent.instructions || "[[Repite la frase.|Repeat the phrase.]]",
+      prompt: exerciseContent.instructions || 'Repite la frase.',
       expectedResponse: exerciseContent.expectedResponse || exercise.transcript,
       modelAudioUrl: exercise.audioUrl,
       hints: exerciseContent.evaluationCriteria || []

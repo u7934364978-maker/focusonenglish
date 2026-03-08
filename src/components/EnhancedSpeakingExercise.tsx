@@ -13,7 +13,13 @@ import {
   type MicrophoneError 
 } from '@/lib/utils/microphone-permission';
 import { MicrophonePermissionError, MicrophonePermissionPrompt } from '@/components/MicrophonePermission';
-import { TranslatedText, TRANSLATION_TOOLTIP_SPACING } from '@/components/course/exercises/TranslatedText';
+import { TRANSLATION_TOOLTIP_SPACING } from '@/components/course/exercises/TranslatedText';
+
+/** Descripción de la tarea en speaking: solo texto, sin tooltips de traducción. */
+function taskDescriptionOnly(text: string): string {
+  if (!text || typeof text !== 'string') return text;
+  return text.replace(/\[\[(.*?)(?:\|(.*?))?\]\]/g, (_, word, translation) => translation ?? word);
+}
 
 interface SpeakingQuestion {
   id: string;
@@ -442,7 +448,7 @@ export default function EnhancedSpeakingExercise({ question, onComplete, level }
               <Target className="w-6 h-6 text-orange-600 flex-shrink-0 mt-1" />
               <div className="flex-1 min-w-0">
                 <h3 className="text-lg font-bold text-gray-900 mb-2">Tu tarea:</h3>
-                <p className="text-gray-800 leading-relaxed"><TranslatedText text={question.prompt} /></p>
+                <p className="text-gray-800 leading-relaxed">{taskDescriptionOnly(question.prompt)}</p>
               </div>
             </div>
 
