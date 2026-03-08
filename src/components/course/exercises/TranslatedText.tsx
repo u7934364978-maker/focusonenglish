@@ -32,11 +32,11 @@ function useActiveTooltipId() {
   return activeId;
 }
 
-/** Espacio mínimo: solo un tooltip visible a la vez. */
+/** Espacio mínimo entre pregunta y opciones (solo un tooltip a la vez). */
 export const TRANSLATION_TOOLTIP_SPACING = {
-  blockWithTranslations: 'pb-14',
-  blockBelow: 'mt-1',
-  betweenOptions: 'space-y-1.5',
+  blockWithTranslations: 'pb-12',
+  blockBelow: 'mt-0.5',
+  betweenOptions: 'space-y-2',
 } as const;
 
 interface TranslatedTextProps {
