@@ -32,14 +32,11 @@ function useActiveTooltipId() {
   return activeId;
 }
 
-/** Espacio mínimo: solo un tooltip visible a la vez, así que solo hace falta hueco para uno. */
+/** Espacio mínimo: solo un tooltip visible a la vez. */
 export const TRANSLATION_TOOLTIP_SPACING = {
-  /** Padding-bottom del bloque con traducciones: hueco para un solo tooltip (compacto). */
-  blockWithTranslations: 'pb-16',
-  /** Margin-top del bloque de opciones (debajo de la pregunta). */
-  blockBelow: 'mt-2',
-  /** Espacio entre opciones (solo un tooltip visible globalmente). */
-  betweenOptions: 'space-y-2',
+  blockWithTranslations: 'pb-14',
+  blockBelow: 'mt-1',
+  betweenOptions: 'space-y-1.5',
 } as const;
 
 interface TranslatedTextProps {

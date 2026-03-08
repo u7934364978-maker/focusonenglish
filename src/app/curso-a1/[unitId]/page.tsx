@@ -405,7 +405,7 @@ function UnitPreviewContent() {
       {isRepairMode && <RepairModeBanner remainingCount={repairRemaining} />}
 
       {/* ── HEADER ────────────────────────────────────────────────── */}
-      <header className="sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-slate-100 px-4 py-3 shadow-sm">
+      <header className="sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-slate-100 px-4 py-2 shadow-sm">
         <div className="max-w-2xl mx-auto flex items-center gap-3">
 
           <Link
@@ -417,7 +417,7 @@ function UnitPreviewContent() {
           </Link>
 
           <div className="flex-1 min-w-0">
-            <p className="text-[11px] font-semibold text-slate-500 truncate leading-none mb-1.5">
+            <p className="text-[11px] font-semibold text-slate-500 truncate leading-none mb-1">
               {unitTitle ? `${unitTitle}` : `Unidad ${unitNumber}`}
               {totalLessons > 1 ? ` · Bloque ${lessonNumber}/${totalLessons}` : ''}
               {' · '}Actividad {currentIndex + 1} de {exercises.length}
@@ -501,7 +501,7 @@ function UnitPreviewContent() {
       </header>
 
       {/* ── SUB-HEADER: STREAK + COUNTER ──────────────────────────── */}
-      <div className="relative z-10 max-w-2xl mx-auto w-full px-4 pt-2 pb-0">
+      <div className="relative z-10 max-w-2xl mx-auto w-full px-4 pt-1 pb-0">
         <div className="flex items-center justify-end gap-2">
 
           {/* Streak badge — visible only when on streak */}
@@ -536,7 +536,7 @@ function UnitPreviewContent() {
 
       {/* ── MAIN EXERCISE (gestos: swipe izq/der en móvil) ─────────── */}
       <main
-        className="relative z-10 flex-1 max-w-2xl mx-auto w-full px-4 py-3 pb-52 touch-pan-y"
+        className="relative z-10 flex-1 max-w-2xl mx-auto w-full px-4 py-2 pb-52 touch-pan-y"
         onTouchStart={(e) => { touchStartX.current = e.touches[0].clientX; }}
         onTouchEnd={(e) => {
           const dx = e.changedTouches[0].clientX - touchStartX.current;
