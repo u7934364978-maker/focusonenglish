@@ -233,8 +233,8 @@ export const UNIT_9_LESSON_3_READING: Exercise[] = [
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS,
       questions: [{
-        question: '[[Best|Mejor]] [[summary|resumen]] [[of|del]] [[text|texto]]?',
-        options: ['[[Laura|Laura]] [[introduces|presenta]] [[her|su]] [[family|familia]] [[and|y]] [[their|sus]] [[jobs|trabajos]] [[and|y]] [[workplaces|lugares de trabajo]].', '[[Laura|Laura]] [[talks|habla]] [[about|de]] [[schools|colegios]].', '[[A|Un]] [[hospital|hospital]] [[in|en]] [[Madrid|Madrid]].'],
+        question: '[[What|Qué]] [[does|presenta]] [[Laura|Laura]] [[introduce|presenta]] [[in|en]] [[the|el]] [[text|texto]]?',
+        options: ['[[Her family and their jobs.|Su familia y sus trabajos.]]', '[[Schools.|Colegios.]]', '[[A hospital.|Un hospital.]]'],
         correctAnswer: 0,
         explanation: 'Laura presenta a su familia y sus profesiones.',
       }],

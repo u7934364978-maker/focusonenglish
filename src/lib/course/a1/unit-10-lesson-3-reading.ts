@@ -233,10 +233,10 @@ export const UNIT_10_LESSON_3_READING: Exercise[] = [
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS,
       questions: [{
-        question: '[[Best|Mejor]] [[summary|resumen]] [[of|del]] [[text|texto]]?',
-        options: ['[[Mark|Mark]] [[describes|describe]] [[his|su]] [[day|día]] [[from|desde]] [[get up|levantarse]] [[to|hasta]] [[bed|cama]].', '[[Mark|Mark]] [[works|trabaja]] [[at|en]] [[night|noche]].', '[[Mark|Mark]] [[doesn\'t|no]] [[have|tiene]] [[breakfast|desayuno]].'],
+        question: '[[What|Qué]] [[does|describe]] [[Mark|Mark]] [[describe|describe]] [[in|en]] [[the|el]] [[text|texto]]?',
+        options: ['[[His daily routine (from get up to bed).|Su rutina diaria (de levantarse a acostarse).]]', '[[Only his work.|Solo su trabajo.]]', '[[He doesn\'t have breakfast.|No desayuna.]]'],
         correctAnswer: 0,
-        explanation: 'Describe su día completo con horarios.',
+        explanation: 'Describe su día con horarios.',
       }],
     },
     topicName: 'Reading',

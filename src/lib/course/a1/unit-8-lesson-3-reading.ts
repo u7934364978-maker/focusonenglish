@@ -233,10 +233,10 @@ export const UNIT_8_LESSON_3_READING: Exercise[] = [
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS,
       questions: [{
-        question: '[[Best|Mejor]] [[summary|resumen]] [[of|del]] [[text|texto]]?',
-        options: ['[[Someone|Alguien]] [[lists|lista]] [[what|lo que]] [[they|necesita]] [[need|necesita]] [[and|y]] [[the|los]] [[prices|precios]]; [[the|el]] [[total|total]] [[is|es]] [[9.50€|9.50€]] [[and|y]] [[they|tiene]] [[have|tiene]] [[20€|20€]].', '[[A|Una]] [[family|familia]] [[eats|come]] [[dinner|cena]].', '[[Someone|Alguien]] [[is|está]] [[at|en]] [[school|el colegio]].'],
+        question: '[[How|Cuánto]] [[much|dinero]] [[money|tienen]] [[do|tienen]] [[they|ellos]] [[have|en]] [[in|el]] [[the|texto]] [[text|texto]]?',
+        options: ['[[20€.|20€.]]', '[[9.50€.|9.50€.]]', '[[10€.|10€.]]'],
         correctAnswer: 0,
-        explanation: 'Lista de la compra, precios y total.',
+        explanation: 'Tienen 20€.',
       }],
     },
     topicName: 'Reading',

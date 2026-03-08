@@ -291,9 +291,9 @@ export const UNIT_6_LESSON_4_LISTENING: Exercise[] = [
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS,
       questions: [{
-        question: '[[Best|Mejor]] [[summary|resumen]] [[of|del]] [[audio|audio]]?',
-        options: ['[[Two|Dos]] [[friends|amigos]] [[talk|hablan]] [[about|sobre]] [[work|trabajo]].', '[[Two|Dos]] [[friends|amigos]] [[talk|hablan]] [[about|sobre]] [[their|sus]] [[families|familias]].', '[[A|Una]] [[lesson|clase]] [[at|en]] [[school|escuela]].', '[[Shopping|Compras]].'],
-        correctAnswer: 1,
+        question: '[[What|De]] [[do|qué]] [[Ana|Ana]] [[and|y]] [[Pedro|Pedro]] [[talk|hablan]] [[about|hablan]]?',
+        options: ['[[Their families.|Sus familias.]]', '[[Work.|El trabajo.]]', '[[Shopping.|Las compras.]]'],
+        correctAnswer: 0,
         explanation: 'Ana y Pedro hablan de sus familias.',
       }],
     },

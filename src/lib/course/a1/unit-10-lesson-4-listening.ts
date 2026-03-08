@@ -233,10 +233,10 @@ export const UNIT_10_LESSON_4_LISTENING: Exercise[] = [
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS,
       questions: [{
-        question: '[[Best|Mejor]] [[summary|resumen]] [[of|del]] [[audio|audio]]?',
-        options: ['[[Anna|Anna]] [[talks|habla]] [[about|de]] [[her|su]] [[daily|rutina]] [[routine|diaria]] [[and|y]] [[the|los]] [[times|horarios]] [[she|que]] [[gets up|se levanta]], [[has breakfast|desayuna]], [[goes to work|va a trabajar]], [[has lunch|almuerza]], [[finishes work|termina]], [[has dinner|cena]] [[and|y]] [[goes to bed|se acuesta]].', '[[Anna|Anna]] [[only|solo]] [[talks|habla]] [[about|de]] [[work|trabajo]].', '[[The|El]] [[interview|entrevista]] [[is|es]] [[about|sobre]] [[food|comida]].'],
+        question: '[[What|Sobre]] [[does|qué]] [[Anna|Anna]] [[talk|habla]] [[about|habla]] [[in|en]] [[the|el]] [[audio|audio]]?',
+        options: ['[[Her daily routine and times.|Su rutina diaria y horarios.]]', '[[Only work.|Solo trabajo.]]', '[[Only food.|Solo comida.]]'],
         correctAnswer: 0,
-        explanation: 'Anna describe su día completo con horarios.',
+        explanation: 'Anna describe su día y los horarios.',
       }],
     },
     topicName: 'Listening',
