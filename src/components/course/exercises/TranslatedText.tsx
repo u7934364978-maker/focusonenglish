@@ -5,7 +5,7 @@
  * Solo se muestra el tooltip de la palabra que toca el cursor (un único tooltip visible a la vez).
  *
  * REGLA FIJA — NO SOLAPAR TRADUCCIONES:
- * Los padres deben usar TRANSLATION_TOOLTIP_SPACING (pb-32, mt-10). No reducir ni usar overflow-hidden.
+ * Los padres deben usar TRANSLATION_TOOLTIP_SPACING (pb-20, mt-5, space-y-3). No reducir por debajo de lo necesario ni usar overflow-hidden.
  */
 import React, { useMemo, useState, useEffect, useId, useRef } from 'react';
 import { GLOBAL_LEXICON } from '@/lib/course/engine/lexicon';
@@ -33,11 +33,11 @@ function useActiveTooltipId() {
 /** Clases Tailwind mínimas para contenedores que están DEBAJO de un bloque con TranslatedText (evitar solapamiento). */
 export const TRANSLATION_TOOLTIP_SPACING = {
   /** Padding-bottom del bloque que CONTIENE la pregunta/texto con traducciones. Alto suficiente para que el tooltip (top-full + mt-3 + ~80px) no solape las opciones. */
-  blockWithTranslations: 'pb-32',
-  /** Margin-top del bloque que va DEBAJO (ej. opciones). Aumentado para separar bien de tooltips. */
-  blockBelow: 'mt-10',
+  blockWithTranslations: 'pb-20',
+  /** Margin-top del bloque que va DEBAJO (ej. opciones). Separación de tooltips sin exceso. */
+  blockBelow: 'mt-5',
   /** Espacio entre opciones (cada una puede tener TranslatedText). */
-  betweenOptions: 'space-y-8',
+  betweenOptions: 'space-y-3',
 } as const;
 
 interface TranslatedTextProps {

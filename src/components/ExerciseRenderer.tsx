@@ -243,7 +243,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
 
   const renderCurrentQuestion = (q: any, qIndex: number) => {
     return (
-      <div key={qIndex} className="space-y-6">
+      <div key={qIndex} className="space-y-4">
         {/* Image */}
         {q.imageUrl && (
           <div className="rounded-2xl overflow-hidden border border-slate-100 shadow-sm bg-slate-50 flex justify-center items-center" data-testid="exercise-image-container">
@@ -256,8 +256,8 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
         )}
 
         {/* Pregunta: usar TRANSLATION_TOOLTIP_SPACING — no reducir padding ni margin o los tooltips solapan las opciones */}
-        <div className={`relative pl-4 border-l-4 border-slate-300 rounded-r-sm mt-2 overflow-visible ${TRANSLATION_TOOLTIP_SPACING.blockWithTranslations}`}>
-          <p className="text-sm font-medium text-slate-500 mb-1.5">Responde</p>
+        <div className={`relative pl-4 border-l-4 border-slate-300 rounded-r-sm mt-1 overflow-visible ${TRANSLATION_TOOLTIP_SPACING.blockWithTranslations}`}>
+          <p className="text-sm font-medium text-slate-500 mb-1">Responde</p>
           <div className="text-lg md:text-xl text-slate-800 font-medium leading-snug">
             <TranslatedText text={q.question || q.text || q.prompt} />
           </div>
@@ -277,7 +277,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
         <div className={`overflow-visible ${TRANSLATION_TOOLTIP_SPACING.betweenOptions} ${TRANSLATION_TOOLTIP_SPACING.blockBelow}`}>
           {/* True/False */}
           {(q.type === 'true-false' || exercise.type === 'true-false') && (
-            <div className="grid grid-cols-2 gap-3">
+            <div className="grid grid-cols-2 gap-2">
               {['True', 'False'].map((option) => {
                 const isUserAnswer = userAnswer === option;
                 const isCorrectAnswer = String(q.correctAnswer ?? q.answer).toLowerCase() === option.toLowerCase();
@@ -289,7 +289,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                     key={option}
                     onClick={() => !submitted && setUserAnswer(option)}
                     disabled={submitted}
-                    className={`relative p-6 rounded-2xl border-2 font-medium text-lg text-slate-800 transition-all duration-200 active:scale-95 ${
+                    className={`relative p-4 rounded-2xl border-2 font-medium text-lg text-slate-800 transition-all duration-200 active:scale-95 ${
                       showAsCorrect
                         ? 'border-green-400 bg-green-50 text-green-700 shadow-green-100 shadow-lg'
                         : showAsIncorrect
@@ -327,7 +327,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                     whileTap={!submitted ? { scale: 0.97 } : {}}
                     animate={isUserAnswer && !submitted ? { scale: [1, 1.03, 1] } : { scale: 1 }}
                     transition={{ duration: 0.18 }}
-                    className={`relative w-full text-left p-4 pb-8 rounded-2xl border-2 transition-colors duration-200 group focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B6B] focus-visible:ring-offset-2 overflow-visible min-h-[4rem] ${
+                    className={`relative w-full text-left p-3 pb-6 rounded-2xl border-2 transition-colors duration-200 group focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B6B] focus-visible:ring-offset-2 overflow-visible min-h-[3.25rem] ${
                       showAsCorrect
                         ? 'border-green-400 bg-green-50 shadow-sm'
                         : showAsIncorrect
@@ -395,7 +395,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
 
         {/* Confirm button (before submit) */}
         {!submitted && (
-          <div className="pt-2">
+          <div className="pt-1">
             <button
               onClick={handleSubmit}
               disabled={userAnswer === null || userAnswer === ''}
@@ -408,7 +408,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
         )}
 
         {/* Spacer so content isn't hidden behind fixed feedback panel */}
-        {submitted && !exerciseCompleted && <div className="h-52" />}
+        {submitted && !exerciseCompleted && <div className="h-40" />}
 
         {/* Fixed bottom feedback panel (Duolingo style) */}
         <AnimatePresence>
@@ -479,7 +479,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
   // Dedicated Renderers
   if (exercise.type === 'speaking-analysis' && questions.length > 0) {
     return (
-      <div className="space-y-6">
+      <div className="space-y-4">
         <SpeakingExercise
           question={questions[0]}
           vocabulary={vocabulary}
@@ -514,7 +514,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
     };
 
     return (
-      <div className="space-y-6">
+      <div className="space-y-4">
         <EnhancedSpeakingExercise
           question={pronunciationQuestion}
           level={exercise.level}
@@ -543,7 +543,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
   if (exercise.type === 'flashcard') return <FlashcardExercise content={exerciseContent as any} onComplete={() => onComplete({ success: true, score: 100 })} />;
   if (exercise.type === 'drag-drop' || exercise.type === 'sentence-building' || exercise.type === 'spelling') {
     return (
-      <div className="bg-white rounded-2xl shadow-lg shadow-slate-200/60 border border-slate-100 overflow-hidden p-6 md:p-8">
+      <div className="bg-white rounded-2xl shadow-lg shadow-slate-200/60 border border-slate-100 overflow-visible p-6 md:p-8">
         <DragDropExercise content={exerciseContent as any} onComplete={(success) => onComplete({ success, score: success ? 100 : 0 })} />
       </div>
     );
@@ -563,10 +563,10 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
       transition={{ duration: 0.3, ease: 'easeOut' }}
     >
       <div className="bg-white rounded-2xl shadow-lg shadow-slate-200/60 border border-slate-100 overflow-visible">
-        <div className="p-6 md:p-8 space-y-6">
-          {/* Tipo + título: poco padding para no dejar mucho hueco antes de las instrucciones */}
-          <div className="pb-2">
-            <div className="flex flex-wrap items-center gap-2 mb-3">
+        <div className="p-4 md:p-6 space-y-4">
+          {/* Tipo + título: padding suficiente para que el tooltip del título no solape las instrucciones */}
+          <div className="pb-4 overflow-visible">
+            <div className="flex flex-wrap items-center gap-2 mb-2">
               <div className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium border ${typeTheme.badge}`} aria-hidden>
                 <TypeIcon size={14} aria-hidden />
                 <span>{typeInfo.label}</span>
@@ -577,7 +577,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
             </h2>
           </div>
           {exerciseContent.instructions && (
-            <div className="mt-3 flex gap-2.5 p-3.5 bg-slate-50 border border-slate-200 rounded-xl">
+            <div className="mt-1 flex gap-2.5 p-3 bg-slate-50 border border-slate-200 rounded-xl">
               <Info size={18} className="text-slate-500 flex-shrink-0 mt-0.5" aria-hidden />
               <div className="text-slate-700 text-base font-normal leading-relaxed">
                 <Markdown content={exerciseContent.instructions} plain />
@@ -595,9 +595,9 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
 
           {/* Reading text: mejor contraste y tipografía */}
           {isReadingExercise && showReadingText ? (
-            <div className="space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500">
-              <div className="rounded-xl bg-slate-50 border border-slate-200 p-5 md:p-6">
-                <p className="text-sm font-medium text-slate-500 mb-3 flex items-center gap-2">
+            <div className="space-y-4 animate-in fade-in slide-in-from-bottom-4 duration-500">
+              <div className="rounded-xl bg-slate-50 border border-slate-200 p-4 md:p-5">
+                <p className="text-sm font-medium text-slate-500 mb-2 flex items-center gap-2">
                   <BookOpen size={14} aria-hidden />
                   Lee el texto con calma antes de responder
                 </p>
@@ -625,7 +625,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                 ? renderCurrentQuestion(questions[currentQuestionIdx], currentQuestionIdx)
                 : exercise.type === 'writing'
                   ? (
-                    <div className="space-y-4">
+                    <div className="space-y-3">
                       <p className="text-sm font-medium text-slate-600">
                         Escribe tu respuesta en inglés siguiendo el modelo, pero hablando de ti.
                       </p>

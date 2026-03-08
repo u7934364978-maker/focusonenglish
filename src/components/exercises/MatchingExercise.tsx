@@ -115,10 +115,11 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
   };
 
   return (
-    <div className="w-full max-w-4xl mx-auto space-y-6">
-      <div className="space-y-3">
-        <div className="relative pl-4 border-l-4 border-[#FF6B6B]/70 rounded-r-sm">
-          <p className="text-xs font-extrabold uppercase tracking-[0.15em] text-[#FF6B6B]/70 mb-1.5">
+    <div className="w-full max-w-4xl mx-auto space-y-4 overflow-visible">
+      <div className="space-y-2 overflow-visible">
+        {/* Título con espacio debajo para que el tooltip no solape las instrucciones */}
+        <div className="relative pl-4 border-l-4 border-[#FF6B6B]/70 rounded-r-sm pb-4 overflow-visible">
+          <p className="text-xs font-extrabold uppercase tracking-[0.15em] text-[#FF6B6B]/70 mb-1">
             <TranslatedText text="[[Matching|Relacionar]]" />
           </p>
           <h2 className="text-2xl md:text-3xl font-extrabold text-slate-900 leading-tight tracking-tight">
@@ -135,9 +136,9 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
         </div>
       </div>
 
-      <div className="grid grid-cols-2 gap-3">
-        {/* Left Column */}
-        <div className="space-y-3">
+      <div className="grid grid-cols-2 gap-3 overflow-visible">
+        {/* Left Column: espacio entre ítems para que los tooltips no se solapen */}
+        <div className="space-y-4 overflow-visible">
           {leftItems.map((item, idx) => {
             const isMatched = !!matches[item];
             const isSelected = selectedLeft === item;
@@ -156,7 +157,7 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
                 onKeyDown={(e) => {
                   if (e.key === 'Enter' || e.key === ' ') handleLeftClick(item);
                 }}
-                className={`relative w-full min-h-[68px] px-4 py-3 rounded-2xl border-2 font-bold text-base md:text-lg transition-all duration-200 text-center cursor-pointer select-none active:scale-[0.97] flex items-center justify-center ${
+                className={`relative w-full min-h-[60px] px-4 py-2.5 pb-8 rounded-2xl border-2 font-bold text-base md:text-lg transition-all duration-200 text-center cursor-pointer select-none active:scale-[0.97] flex items-center justify-center overflow-visible ${
                   isSelected
                     ? 'border-[#FF6B6B] bg-[#FF6B6B]/8 text-[#FF6B6B] shadow-lg shadow-[#FF6B6B]/15 scale-[1.03]'
                     : isMatched
@@ -171,8 +172,8 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
           })}
         </div>
 
-        {/* Right Column */}
-        <div className="space-y-3">
+        {/* Right Column: espacio entre ítems para tooltips */}
+        <div className="space-y-6 overflow-visible">
           {rightItems.map((item, idx) => {
             const matchedLeft = Object.keys(matches).find(left => matches[left] === item);
             const isMatched = !!matchedLeft;
@@ -194,7 +195,7 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
                 onKeyDown={(e) => {
                   if (e.key === 'Enter' || e.key === ' ') handleRightClick(item);
                 }}
-                className={`relative w-full min-h-[68px] px-4 py-3 rounded-2xl border-2 font-bold text-base md:text-lg transition-all duration-200 text-center cursor-pointer select-none active:scale-[0.97] flex items-center justify-center ${
+                className={`relative w-full min-h-[60px] px-4 py-2.5 pb-8 rounded-2xl border-2 font-bold text-base md:text-lg transition-all duration-200 text-center cursor-pointer select-none active:scale-[0.97] flex items-center justify-center overflow-visible ${
                   isSelected
                     ? 'border-[#FF6B6B] bg-[#FF6B6B]/8 text-[#FF6B6B] shadow-lg shadow-[#FF6B6B]/15 scale-[1.03]'
                     : isMatched

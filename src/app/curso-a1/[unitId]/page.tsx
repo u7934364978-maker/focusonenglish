@@ -501,7 +501,7 @@ function UnitPreviewContent() {
       </header>
 
       {/* ── SUB-HEADER: STREAK + COUNTER ──────────────────────────── */}
-      <div className="relative z-10 max-w-2xl mx-auto w-full px-4 pt-4 pb-0">
+      <div className="relative z-10 max-w-2xl mx-auto w-full px-4 pt-2 pb-0">
         <div className="flex items-center justify-end gap-2">
 
           {/* Streak badge — visible only when on streak */}
@@ -536,7 +536,7 @@ function UnitPreviewContent() {
 
       {/* ── MAIN EXERCISE (gestos: swipe izq/der en móvil) ─────────── */}
       <main
-        className="relative z-10 flex-1 max-w-2xl mx-auto w-full px-4 py-5 pb-52 touch-pan-y"
+        className="relative z-10 flex-1 max-w-2xl mx-auto w-full px-4 py-3 pb-52 touch-pan-y"
         onTouchStart={(e) => { touchStartX.current = e.touches[0].clientX; }}
         onTouchEnd={(e) => {
           const dx = e.changedTouches[0].clientX - touchStartX.current;
