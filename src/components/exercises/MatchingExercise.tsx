@@ -137,8 +137,8 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
       </div>
 
       <div className="grid grid-cols-2 gap-3 overflow-visible">
-        {/* Left Column: espacio entre ítems para que los tooltips no se solapen */}
-        <div className="space-y-4 overflow-visible">
+        {/* Left Column: mismo ancho que la derecha */}
+        <div className="space-y-4 overflow-visible min-w-0">
           {leftItems.map((item, idx) => {
             const isMatched = !!matches[item];
             const isSelected = selectedLeft === item;
@@ -157,7 +157,7 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
                 onKeyDown={(e) => {
                   if (e.key === 'Enter' || e.key === ' ') handleLeftClick(item);
                 }}
-                className={`relative w-full min-h-[60px] px-4 py-2.5 pb-8 rounded-2xl border-2 font-bold text-base md:text-lg transition-all duration-200 text-center cursor-pointer select-none active:scale-[0.97] flex items-center justify-center overflow-visible ${
+                className={`relative w-full min-h-[72px] px-4 py-2.5 pb-8 rounded-2xl border-2 font-bold text-base md:text-lg transition-all duration-200 text-center cursor-pointer select-none active:scale-[0.97] flex items-center justify-center overflow-visible ${
                   isSelected
                     ? 'border-[#FF6B6B] bg-[#FF6B6B]/8 text-[#FF6B6B] shadow-lg shadow-[#FF6B6B]/15 scale-[1.03]'
                     : isMatched
@@ -172,8 +172,8 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
           })}
         </div>
 
-        {/* Right Column: mismo espaciado y estructura que la izquierda */}
-        <div className="space-y-4 overflow-visible">
+        {/* Right Column: mismo ancho que la izquierda */}
+        <div className="space-y-4 overflow-visible min-w-0">
           {rightItems.map((item, idx) => {
             const matchedLeft = Object.keys(matches).find(left => matches[left] === item);
             const isMatched = !!matchedLeft;
@@ -195,7 +195,7 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
                 onKeyDown={(e) => {
                   if (e.key === 'Enter' || e.key === ' ') handleRightClick(item);
                 }}
-                className={`relative w-full min-h-[60px] px-4 py-2.5 pb-8 rounded-2xl border-2 font-bold text-base md:text-lg transition-all duration-200 text-center cursor-pointer select-none active:scale-[0.97] flex items-center justify-center overflow-visible ${
+                className={`relative w-full min-h-[72px] px-4 py-2.5 pb-8 rounded-2xl border-2 font-bold text-base md:text-lg transition-all duration-200 text-center cursor-pointer select-none active:scale-[0.97] flex items-center justify-center overflow-visible ${
                   isSelected
                     ? 'border-[#FF6B6B] bg-[#FF6B6B]/8 text-[#FF6B6B] shadow-lg shadow-[#FF6B6B]/15 scale-[1.03]'
                     : isMatched
