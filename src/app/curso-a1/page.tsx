@@ -65,6 +65,12 @@ async function A1PreviewContent() {
                 <span>Juego (10 lecciones)</span>
               </Link>
               <Link
+                href="/juego-ingles/escena/1"
+                className="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-2xl bg-white/20 border border-white/40 text-white font-medium text-sm hover:bg-white/30 transition-all"
+              >
+                <span>Escena 1: El gato busca comida</span>
+              </Link>
+              <Link
                 href="/juego-ingles/demo"
                 className="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-2xl bg-white/10 border border-white/30 text-white/90 font-medium text-sm hover:bg-white/20 transition-all"
               >

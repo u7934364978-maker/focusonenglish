@@ -298,3 +298,12 @@
   50%  { transform: scale(0.7); opacity: 0.6; }
   100% { transform: scale(0.9); opacity: 1; }
 }
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-6px); }
+  75% { transform: translateX(6px); }
+}
+.animate-shake {
+  animation: shake 0.3s ease-in-out;
+}
