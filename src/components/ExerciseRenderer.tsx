@@ -576,7 +576,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
             <div className="mt-1 flex gap-2.5 p-3.5 bg-slate-50 border border-slate-200 rounded-xl">
               <Info size={18} className="text-slate-500 flex-shrink-0 mt-0.5" aria-hidden />
               <div className="text-slate-700 text-base font-normal leading-relaxed">
-                <Markdown content={exerciseContent.instructions} plain />
+                <TranslatedText text={exerciseContent.instructions} />
               </div>
             </div>
           )}
