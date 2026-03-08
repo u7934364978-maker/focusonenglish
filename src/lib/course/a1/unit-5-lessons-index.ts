@@ -10,6 +10,7 @@ import { UNIT_5_LESSON_3_READING } from './unit-5-lesson-3-reading';
 import { UNIT_5_LESSON_4_LISTENING } from './unit-5-lesson-4-listening';
 import { UNIT_5_LESSON_5_SPEAKING } from './unit-5-lesson-5-speaking';
 import { UNIT_5_LESSON_6_WRITING } from './unit-5-lesson-6-writing';
+import { UNIT_5_RECAP } from './unit-5-recap';
 
 export const UNIT_5_LESSONS = {
   grammar: UNIT_5_LESSON_1_GRAMMAR,
@@ -18,9 +19,10 @@ export const UNIT_5_LESSONS = {
   listening: UNIT_5_LESSON_4_LISTENING,
   speaking: UNIT_5_LESSON_5_SPEAKING,
   writing: UNIT_5_LESSON_6_WRITING,
+  recap: UNIT_5_RECAP,
 } as const;
 
-/** Todas las lecciones en orden: Gramática, Vocabulario, Lectura, Escucha, Oral, Escrita */
+/** Todas las lecciones en orden: Gramática, Vocabulario, Lectura, Escucha, Oral, Escrita + Repaso 1–5 */
 export const UNIT_5_ALL_LESSONS: Exercise[][] = [
   UNIT_5_LESSON_1_GRAMMAR,
   UNIT_5_LESSON_2_VOCABULARY,
@@ -28,7 +30,8 @@ export const UNIT_5_ALL_LESSONS: Exercise[][] = [
   UNIT_5_LESSON_4_LISTENING,
   UNIT_5_LESSON_5_SPEAKING,
   UNIT_5_LESSON_6_WRITING,
+  UNIT_5_RECAP,
 ];
 
-/** Todos los ejercicios de la Unidad 5 en un solo array */
+/** Todos los ejercicios de la Unidad 5 en un solo array (90 + 8 repaso) */
 export const UNIT_5_ALL_EXERCISES: Exercise[] = UNIT_5_ALL_LESSONS.flat();

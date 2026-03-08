@@ -10,6 +10,7 @@ import { UNIT_15_LESSON_3_READING } from './unit-15-lesson-3-reading';
 import { UNIT_15_LESSON_4_LISTENING } from './unit-15-lesson-4-listening';
 import { UNIT_15_LESSON_5_SPEAKING } from './unit-15-lesson-5-speaking';
 import { UNIT_15_LESSON_6_WRITING } from './unit-15-lesson-6-writing';
+import { UNIT_15_RECAP } from './unit-15-recap';
 
 export const UNIT_15_LESSONS = {
   grammar: UNIT_15_LESSON_1_GRAMMAR,
@@ -18,9 +19,10 @@ export const UNIT_15_LESSONS = {
   listening: UNIT_15_LESSON_4_LISTENING,
   speaking: UNIT_15_LESSON_5_SPEAKING,
   writing: UNIT_15_LESSON_6_WRITING,
+  recap: UNIT_15_RECAP,
 } as const;
 
-/** Todas las lecciones en orden: Gramática, Vocabulario, Lectura, Escucha, Oral, Escrita */
+/** Todas las lecciones en orden: Gramática, Vocabulario, Lectura, Escucha, Oral, Escrita + Repaso 11–15 */
 export const UNIT_15_ALL_LESSONS: Exercise[][] = [
   UNIT_15_LESSON_1_GRAMMAR,
   UNIT_15_LESSON_2_VOCABULARY,
@@ -28,7 +30,8 @@ export const UNIT_15_ALL_LESSONS: Exercise[][] = [
   UNIT_15_LESSON_4_LISTENING,
   UNIT_15_LESSON_5_SPEAKING,
   UNIT_15_LESSON_6_WRITING,
+  UNIT_15_RECAP,
 ];
 
-/** Todos los ejercicios de la Unidad 15 en un solo array (90 ejercicios) */
+/** Todos los ejercicios de la Unidad 15 (90 + 8 repaso) */
 export const UNIT_15_ALL_EXERCISES: Exercise[] = UNIT_15_ALL_LESSONS.flat();

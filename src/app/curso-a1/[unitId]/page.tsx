@@ -146,29 +146,48 @@ function UnitPreviewContent() {
     return () => window.removeEventListener('keydown', onKeyDown);
   }, [exercises.length, showUnitSummary, showLessonComplete]);
 
+  const isFinalTest = unitId === 'test-final';
+
   useEffect(() => {
     if (!unitId) return;
     async function loadUnit() {
       try {
-        const unitNumber = unitId.replace('unit-', '');
-        let unitModule;
-        try {
-          unitModule = await import(`@/lib/course/a1/unit-${unitNumber}`);
-        } catch {
-          unitModule = await import(`../../../lib/course/a1/unit-${unitNumber}`);
-        }
-        const exportName = `UNIT_${unitNumber.toUpperCase().replace('-', '_')}_EXERCISES`;
-        const unitExercises = unitModule[exportName] || unitModule[`UNIT_${unitNumber}_EXERCISES`] || unitModule.default || unitModule.UNIT_1_EXERCISES;
-        const title = unitModule.UNIT_TITLE || unitModule.title || '';
-        setUnitTitle(title);
-        if (!unitExercises || !Array.isArray(unitExercises)) {
-          setError('No se encontraron ejercicios');
+        if (isFinalTest) {
+          const testModule = await import('@/lib/course/a1/final-test-a1');
+          const unitExercises = testModule.FINAL_TEST_A1_EXERCISES ?? [];
+          const title = testModule.FINAL_TEST_A1_TITLE ?? 'Test final A1';
+          setUnitTitle(title);
+          if (!unitExercises.length) {
+            setError('No se encontraron ejercicios');
+          } else {
+            setExercises(unitExercises);
+            const indexParam = searchParams.get('index');
+            if (indexParam) {
+              const idx = parseInt(indexParam);
+              if (!isNaN(idx) && idx >= 0 && idx < unitExercises.length) setCurrentIndex(idx);
+            }
+          }
         } else {
-          setExercises(unitExercises);
-          const indexParam = searchParams.get('index');
-          if (indexParam) {
-            const idx = parseInt(indexParam);
-            if (!isNaN(idx) && idx >= 0 && idx < unitExercises.length) setCurrentIndex(idx);
+          const unitNumber = unitId.replace('unit-', '');
+          let unitModule;
+          try {
+            unitModule = await import(`@/lib/course/a1/unit-${unitNumber}`);
+          } catch {
+            unitModule = await import(`../../../lib/course/a1/unit-${unitNumber}`);
+          }
+          const exportName = `UNIT_${unitNumber.toUpperCase().replace('-', '_')}_EXERCISES`;
+          const unitExercises = unitModule[exportName] || unitModule[`UNIT_${unitNumber}_EXERCISES`] || unitModule.default || unitModule.UNIT_1_EXERCISES;
+          const title = unitModule.UNIT_TITLE || unitModule.title || '';
+          setUnitTitle(title);
+          if (!unitExercises || !Array.isArray(unitExercises)) {
+            setError('No se encontraron ejercicios');
+          } else {
+            setExercises(unitExercises);
+            const indexParam = searchParams.get('index');
+            if (indexParam) {
+              const idx = parseInt(indexParam);
+              if (!isNaN(idx) && idx >= 0 && idx < unitExercises.length) setCurrentIndex(idx);
+            }
           }
         }
       } catch (err: any) {
@@ -180,14 +199,14 @@ function UnitPreviewContent() {
     loadUnit();
     recordActivity();
     return () => { if (advanceTimer.current) clearTimeout(advanceTimer.current); };
-  }, [unitId, searchParams]);
+  }, [unitId, searchParams, isFinalTest]);
 
   const advanceExercise = (idx: number, total: number) => {
     setSlideDir('out-left');
     setTimeout(() => {
       if (idx === total - 1) {
         setShowUnitSummary(true);
-      } else if ((idx + 1) % CHUNK_SIZE === 0) {
+      } else if (!isFinalTest && (idx + 1) % CHUNK_SIZE === 0) {
         setShowLessonComplete(true);
       } else {
         setCurrentIndex(prev => prev + 1);
@@ -294,7 +313,10 @@ function UnitPreviewContent() {
   // ── UNIT SUMMARY ───────────────────────────────────────────────────
   if (showUnitSummary) {
     const mins = Math.round((Date.now() - startTime) / 60000);
-    const accuracy = Math.round(((exercises.length - failedIndexes.length) / exercises.length) * 100);
+    const correctCount = exercises.length - failedIndexes.length;
+    const accuracy = exercises.length > 0 ? Math.round((correctCount / exercises.length) * 100) : 0;
+    const passed = isFinalTest ? accuracy >= 70 : true;
+
     return (
       <div className="min-h-screen relative flex items-center justify-center p-4 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-[#FF6B6B] via-[#FF8E53] to-[#FFA06B]" />
@@ -306,9 +328,11 @@ function UnitPreviewContent() {
             <div className="w-28 h-28 rounded-full bg-white/20 backdrop-blur border-4 border-white/40 flex items-center justify-center shadow-2xl mx-auto">
               <Trophy className="w-14 h-14 text-white drop-shadow-lg" />
             </div>
-            <div className="absolute -bottom-2 -right-2 bg-yellow-400 text-yellow-900 rounded-full px-3 py-1 font-semibold text-sm shadow-lg">
-              +{sessionScore} XP
-            </div>
+            {!isFinalTest && (
+              <div className="absolute -bottom-2 -right-2 bg-yellow-400 text-yellow-900 rounded-full px-3 py-1 font-semibold text-sm shadow-lg">
+                +{sessionScore} XP
+              </div>
+            )}
           </div>
 
           <div>
@@ -316,16 +340,20 @@ function UnitPreviewContent() {
               {unitTitle || `Unidad ${unitNumber}`}
             </p>
             <h1 className="text-4xl md:text-5xl font-black tracking-tight text-white leading-tight drop-shadow mb-2">
-              Unidad completada
+              {isFinalTest ? 'Test final completado' : 'Unidad completada'}
             </h1>
-            <p className="text-base font-medium text-white/85">Has terminado todas las actividades de esta unidad.</p>
+            <p className="text-base font-medium text-white/85">
+              {isFinalTest
+                ? (passed ? 'Has superado el test A1. ¡Enhorabuena!' : 'No has alcanzado el 70%. Repasa y vuelve a intentarlo.')
+                : 'Has terminado todas las actividades de esta unidad.'}
+            </p>
           </div>
 
           <div className="grid grid-cols-3 gap-3">
             {[
               { label: 'Actividades', value: exercises.length, emoji: '✅' },
               { label: 'Tiempo',      value: `${mins} min`,   emoji: '⏱️' },
-              { label: 'Aciertos',    value: `${accuracy}%`,  emoji: '🎯' },
+              { label: 'Aciertos',    value: isFinalTest ? `${correctCount}/${exercises.length}` : `${accuracy}%`, emoji: '🎯' },
             ].map(stat => (
               <div key={stat.label} className="bg-white/20 backdrop-blur rounded-2xl p-4 border border-white/20">
                 <p className="font-display text-xl font-extrabold text-white leading-none mb-1">{stat.emoji} {stat.value}</p>
@@ -334,17 +362,29 @@ function UnitPreviewContent() {
             ))}
           </div>
 
-          <div className="bg-white/20 backdrop-blur rounded-2xl p-4 border border-white/20 flex items-center justify-center gap-2">
-            <Zap className="w-5 h-5 text-yellow-300 fill-yellow-300" aria-hidden />
-            <p className="text-xs font-bold text-white/80">Puntos de esta sesión</p>
-            <span className="font-display text-xl font-extrabold text-white">{displayXp} XP</span>
-          </div>
+          {isFinalTest && (
+            <div className={`rounded-2xl p-4 border-2 ${passed ? 'bg-emerald-500/30 border-emerald-300' : 'bg-amber-500/30 border-amber-300'}`}>
+              <p className="text-xs font-bold text-white/90 uppercase tracking-wider mb-1">Resultado</p>
+              <p className="font-display text-2xl font-extrabold text-white">
+                {accuracy}% — {passed ? 'Aprobado' : 'No aprobado'}
+              </p>
+              <p className="text-sm text-white/80 mt-1">Se requiere ≥70% para aprobar.</p>
+            </div>
+          )}
+
+          {!isFinalTest && (
+            <div className="bg-white/20 backdrop-blur rounded-2xl p-4 border border-white/20 flex items-center justify-center gap-2">
+              <Zap className="w-5 h-5 text-yellow-300 fill-yellow-300" aria-hidden />
+              <p className="text-xs font-bold text-white/80">Puntos de esta sesión</p>
+              <span className="font-display text-xl font-extrabold text-white">{displayXp} XP</span>
+            </div>
+          )}
 
           <Link
             href="/curso-a1"
             className="block w-full bg-white text-[#FF6B6B] py-5 rounded-2xl font-bold text-base shadow-xl hover:-translate-y-0.5 transition-all text-center"
           >
-            Continuar al curso
+            {isFinalTest ? 'Volver al curso' : 'Continuar al curso'}
           </Link>
         </div>
       </div>
@@ -419,7 +459,7 @@ function UnitPreviewContent() {
           <div className="flex-1 min-w-0">
             <p className="text-[11px] font-semibold text-slate-500 truncate leading-none mb-1">
               {unitTitle ? `${unitTitle}` : `Unidad ${unitNumber}`}
-              {totalLessons > 1 ? ` · Bloque ${lessonNumber}/${totalLessons}` : ''}
+              {!isFinalTest && totalLessons > 1 ? ` · Bloque ${lessonNumber}/${totalLessons}` : ''}
               {' · '}Actividad {currentIndex + 1} de {exercises.length}
             </p>
 

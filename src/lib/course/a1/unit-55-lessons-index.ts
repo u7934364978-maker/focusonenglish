@@ -9,6 +9,7 @@ import { UNIT_55_LESSON_3_READING } from './unit-55-lesson-3-reading';
 import { UNIT_55_LESSON_4_LISTENING } from './unit-55-lesson-4-listening';
 import { UNIT_55_LESSON_5_SPEAKING } from './unit-55-lesson-5-speaking';
 import { UNIT_55_LESSON_6_WRITING } from './unit-55-lesson-6-writing';
+import { UNIT_55_RECAP } from './unit-55-recap';
 
 export const UNIT_55_LESSONS = {
   grammar: UNIT_55_LESSON_1_GRAMMAR,
@@ -17,6 +18,7 @@ export const UNIT_55_LESSONS = {
   listening: UNIT_55_LESSON_4_LISTENING,
   speaking: UNIT_55_LESSON_5_SPEAKING,
   writing: UNIT_55_LESSON_6_WRITING,
+  recap: UNIT_55_RECAP,
 } as const;
 
 export const UNIT_55_ALL_LESSONS: Exercise[][] = [
@@ -26,6 +28,7 @@ export const UNIT_55_ALL_LESSONS: Exercise[][] = [
   UNIT_55_LESSON_4_LISTENING,
   UNIT_55_LESSON_5_SPEAKING,
   UNIT_55_LESSON_6_WRITING,
+  UNIT_55_RECAP,
 ];
 
 export const UNIT_55_ALL_EXERCISES: Exercise[] = UNIT_55_ALL_LESSONS.flat();
