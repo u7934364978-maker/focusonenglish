@@ -64,6 +64,12 @@ async function A1PreviewContent() {
                 <Zap className="w-4 h-4" />
                 <span>Juego (10 lecciones)</span>
               </Link>
+              <Link
+                href="/juego-ingles/demo"
+                className="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-2xl bg-white/10 border border-white/30 text-white/90 font-medium text-sm hover:bg-white/20 transition-all"
+              >
+                <span>Demo: gato (Leonardo + Runway)</span>
+              </Link>
               <span className="text-xs text-white/80 font-medium">
                 Sesión adaptativa con ejercicios seleccionados automáticamente para ti.
               </span>
