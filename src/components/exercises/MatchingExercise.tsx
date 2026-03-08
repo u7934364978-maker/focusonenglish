@@ -166,14 +166,14 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
                 } ${isCorrectMatch ? '!border-green-400 !bg-green-50 !text-green-700' : ''} ${isIncorrectMatch ? '!border-red-300 !bg-red-50 !text-red-700' : ''} ${submitted ? 'cursor-default' : ''}`}
               >
                 <span className="absolute top-2 left-2.5 text-[10px] font-extrabold text-slate-300">{idx + 1}</span>
-                <span className="leading-snug"><TranslatedText text={item} /></span>
+                <span className="leading-snug text-center w-full"><TranslatedText text={item} /></span>
               </div>
             );
           })}
         </div>
 
-        {/* Right Column: espacio entre ítems para tooltips */}
-        <div className="space-y-6 overflow-visible">
+        {/* Right Column: mismo espaciado y estructura que la izquierda */}
+        <div className="space-y-4 overflow-visible">
           {rightItems.map((item, idx) => {
             const matchedLeft = Object.keys(matches).find(left => matches[left] === item);
             const isMatched = !!matchedLeft;
@@ -204,7 +204,7 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
                 } ${isCorrectMatch ? '!border-green-400 !bg-green-50 !text-green-700' : ''} ${isIncorrectMatch ? '!border-red-300 !bg-red-50 !text-red-700' : ''} ${submitted ? 'cursor-default' : ''}`}
               >
                 <span className="absolute top-2 left-2.5 text-[10px] font-extrabold text-slate-300">{idx + 1}</span>
-                <span className="leading-snug flex-1"><Markdown content={item} /></span>
+                <span className="leading-snug text-center w-full"><Markdown content={item} /></span>
                 {pair?.audio && (
                   <div
                     role="button"
