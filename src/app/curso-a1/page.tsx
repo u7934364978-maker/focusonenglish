@@ -57,6 +57,13 @@ async function A1PreviewContent() {
               >
                 <span>Práctica inteligente A1</span>
               </Link>
+              <Link
+                href="/juego-ingles"
+                className="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-2xl bg-white/20 border-2 border-white/40 text-white font-bold text-sm hover:bg-white/30 transition-all"
+              >
+                <Zap className="w-4 h-4" />
+                <span>Juego (10 lecciones)</span>
+              </Link>
               <span className="text-xs text-white/80 font-medium">
                 Sesión adaptativa con ejercicios seleccionados automáticamente para ti.
               </span>
