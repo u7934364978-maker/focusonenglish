@@ -11,7 +11,7 @@ const INSTRUCTIONS_GRAMMAR = 'Elige la opción correcta.';
 const INSTRUCTIONS_VOCAB = 'Elige la palabra o frase correcta.';
 const INSTRUCTIONS_READING = 'Lee el texto y responde.';
 const INSTRUCTIONS_LISTENING = 'Escucha (o lee el texto) y responde.';
-const INSTRUCTIONS_WRITING = 'Escribe la frase en inglés según la guía.';
+// Instrucciones de escritura del test: se definen por ejercicio (sin frase guía; opcionalmente expressionHint).
 
 // Texto único para lectura (4 preguntas)
 const READING_TEXT = `[[My|Mi]] [[name|nombre]] [[is|es]] [[Anna|Anna]]. [[I|Yo]] [[live|vivo]] [[in|en]] [[Madrid|Madrid]] [[with|con]] [[my|mi]] [[family|familia]]. [[I|Yo]] [[work|trabajo]] [[in|en]] [[an|una]] [[office|oficina]] [[from|de]] [[Monday|lunes]] [[to|a]] [[Friday|viernes]]. [[Every|cada]] [[morning|mañana]] [[I|yo]] [[get|me]] [[up|levanto]] [[at|a]] [[seven|siete]] [[o'clock|en punto]] [[and|y]] [[have|tomo]] [[breakfast|desayuno]]. [[I|Yo]] [[usually|normalmente]] [[have|tomo]] [[coffee|café]] [[and|y]] [[toast|tostadas]]. [[At|Por]] [[the|la]] [[weekend|fin de semana]] [[I|yo]] [[like|me gusta]] [[to|]] [[relax|relajarme]] [[and|y]] [[meet|quedar]] [[my|con mis]] [[friends|amigos]]. [[Last|El]] [[weekend|fin de semana pasado]] [[we|nosotros]] [[went|fuimos]] [[to|a]] [[the|el]] [[cinema|cine]].`;
@@ -463,7 +463,7 @@ export const FINAL_TEST_A1_EXERCISES: Exercise[] = [
     },
     topicName: 'Listening',
   },
-  // ─── Escritura (3) ────────────────────────────────────────────────────────
+  // ─── Escritura (3): instrucción clara + pista de expresiones (sin frase modelo guía) ───
   {
     id: 'a1-final-w1',
     type: 'writing',
@@ -472,9 +472,8 @@ export const FINAL_TEST_A1_EXERCISES: Exercise[] = [
     difficulty: 'medium',
     content: {
       title: TITLE,
-      instructions: INSTRUCTIONS_WRITING,
-      prompt: 'Escribe una frase sobre qué hiciste el fin de semana pasado (usa el pasado simple).',
-      modelExample: '[[Last|El]] [[weekend|fin de semana]] [[I|yo]] [[watched|vi]] [[a|una]] [[film|película]] [[and|y]] [[visited|visité]] [[my|a mi]] [[grandmother|abuela]].',
+      instructions: 'Escribe una o dos frases en inglés sobre qué hiciste el fin de semana pasado.',
+      expressionHint: 'Puedes usar, por ejemplo: [[last weekend|el fin de semana pasado]], [[I watched|vi]], [[I went|fui]], [[I visited|visité]], [[I met|quedé con]]… (pasado simple: watched, went, had, etc.).',
       targetLength: '1-2 frases',
     },
     topicName: 'Writing',
@@ -487,9 +486,8 @@ export const FINAL_TEST_A1_EXERCISES: Exercise[] = [
     difficulty: 'medium',
     content: {
       title: TITLE,
-      instructions: INSTRUCTIONS_WRITING,
-      prompt: 'Escribe qué debes hacer en el aeropuerto antes de volar (usa "must" o "should").',
-      modelExample: '[[You|Tú]] [[must|debes]] [[show|mostrar]] [[your|tu]] [[passport|pasaporte]] [[and|y]] [[go|ir]] [[through|por]] [[security|seguridad]].',
+      instructions: 'Escribe una o dos frases en inglés sobre qué debes hacer en el aeropuerto antes de volar.',
+      expressionHint: 'Puedes usar: [[must|debes]] / [[should|deberías]], [[show your passport|mostrar el pasaporte]], [[go through security|pasar por seguridad]], [[check in|facturar]], [[board the plane|embarcar]].',
       targetLength: '1-2 frases',
     },
     topicName: 'Writing',
@@ -502,9 +500,8 @@ export const FINAL_TEST_A1_EXERCISES: Exercise[] = [
     difficulty: 'medium',
     content: {
       title: TITLE,
-      instructions: INSTRUCTIONS_WRITING,
-      prompt: 'Describe tu rutina de por la mañana (usa Present Simple).',
-      modelExample: '[[I|Yo]] [[get|me]] [[up|levanto]] [[at|a]] [[seven|siete]] [[o\'clock|en punto]]. [[I|Yo]] [[have|tomo]] [[breakfast|desayuno]] [[and|y]] [[then|luego]] [[go|voy]] [[to work|al trabajo]].',
+      instructions: 'Describe en inglés tu rutina de por la mañana (dos o tres frases).',
+      expressionHint: 'Puedes usar: [[I get up|me levanto]] [[at|a]] [[… o\'clock|en punto]], [[I have breakfast|desayuno]], [[I go to work|voy al trabajo]], [[I leave home|salgo de casa]]… (Present Simple: get, have, go, leave).',
       targetLength: '2-3 frases',
     },
     topicName: 'Writing',

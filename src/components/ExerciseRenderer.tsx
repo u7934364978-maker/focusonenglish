@@ -634,7 +634,15 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                 : exercise.type === 'writing'
                   ? (
                     <div className="space-y-3">
-                      {exerciseContent.modelExample && (
+                      {exerciseContent.expressionHint && (
+                        <div className="rounded-xl bg-sky-50 border border-sky-200 p-4">
+                          <p className="text-sm font-semibold text-sky-800 mb-1">Pista (expresiones que puedes usar):</p>
+                          <div className="text-slate-700 text-sm leading-relaxed whitespace-pre-line">
+                            <TranslatedText text={exerciseContent.expressionHint} />
+                          </div>
+                        </div>
+                      )}
+                      {exerciseContent.modelExample && !exerciseContent.expressionHint && (
                         <div className="rounded-xl bg-amber-50 border border-amber-200 p-4">
                           <p className="text-sm font-semibold text-amber-800 mb-2">Modelo (guía):</p>
                           <div className="text-slate-800 text-sm md:text-base leading-relaxed whitespace-pre-line">
@@ -643,7 +651,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                         </div>
                       )}
                       <p className="text-sm font-medium text-slate-600">
-                        {exerciseContent.modelExample
+                        {exerciseContent.modelExample && !exerciseContent.expressionHint
                           ? 'Escribe tu respuesta en inglés siguiendo el modelo, pero hablando de ti.'
                           : 'Escribe tu respuesta en inglés según las instrucciones de arriba, hablando de ti.'}
                       </p>
