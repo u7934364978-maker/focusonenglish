@@ -120,7 +120,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Responde la pregunta en voz alta. Ejemplo: "Yes, she is." / "No, she is not."',
+      instructions: 'Responde la pregunta en voz alta. Ejemplo: "[[Yes|Sí]], [[she|ella]] [[is|es]]." / "[[No|No]], [[she|ella]] [[is|no es]] [[not|no]]."',
       targetText: '[[Is|Es]] [[she|ella]] [[from|de]] [[France|Francia]]?',
       expectedResponse: 'Yes, she is. / No, she is not.',
     },
@@ -178,7 +178,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Di en voz alta: de dónde eres y tu nacionalidad. Modelo: "I am from … I am …"',
+      instructions: 'Di en voz alta: de dónde eres y tu nacionalidad. Modelo: "[[I|Yo]] [[am|soy]] [[from|de]] … [[I|Yo]] [[am|soy]] …"',
       targetText: '[[I am from|Soy de]] ____. [[I am|Soy]] ____.',
       expectedResponse: 'I am from [country]. I am [nationality].',
     },
@@ -192,7 +192,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Di en voz alta de dónde es un amigo y su nacionalidad. Modelo: "He/She is from … He/She is …"',
+      instructions: 'Di en voz alta de dónde es un amigo y su nacionalidad. Modelo: "[[He/She|Él/Ella]] [[is|es]] [[from|de]] … [[He/She|Él/Ella]] [[is|es]] …"',
       targetText: '[[He/She|Él/Ella]] [[is from|es de]] ____. [[He/She|Él/Ella]] [[is|es]] ____.',
       expectedResponse: 'He/She is from [country]. He/She is [nationality].',
     },
@@ -206,7 +206,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Di en voz alta dos países y sus nacionalidades. Modelo: "People from France are French. People from Germany are German."',
+      instructions: 'Di en voz alta dos países y sus nacionalidades. Modelo: "[[People|La gente]] [[from|de]] [[France|Francia]] [[are|son]] [[French|franceses]]. [[People|La gente]] [[from|de]] [[Germany|Alemania]] [[are|son]] [[German|alemanes]]."',
       targetText: '[[People from|Las personas de]] ____ [[are|son]] ____. [[People from|Las personas de]] ____ [[are|son]] ____.',
       expectedResponse: 'People from [country 1] are [nationality 1]. People from [country 2] are [nationality 2].',
     },
@@ -221,7 +221,7 @@ export const UNIT_2_LESSON_5_SPEAKING: Exercise[] = [
     content: {
       title: LESSON_TITLE,
       instructions: 'Describe a dos personas que conozcas. Di su nombre, de dónde son y su nacionalidad. Usa 4–6 frases.',
-      targetText: 'My friend … is from … He/She is … My other friend … is from … He/She is …',
+      targetText: '[[My|Mi]] [[friend|amigo]] … [[is|es]] [[from|de]] … [[He/She|Él/Ella]] [[is|es]] … [[My|Mi]] [[other|otro/otra]] [[friend|amigo]] … [[is|es]] [[from|de]] … [[He/She|Él/Ella]] [[is|es]] …',
       expectedResponse: 'My friend [name] is from [country]. He/She is [nationality]. My other friend [name] is from [country]. He/She is [nationality].',
     },
     topicName: 'Speaking',

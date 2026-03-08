@@ -20,7 +20,7 @@ export const UNIT_2_LESSON_6_WRITING: Exercise[] = [
       instructions: 'Completa la frase con la palabra correcta. Escribe tu respuesta.',
       questions: [
         {
-          question: 'She is ____ France. She is French.',
+          question: '[[She|Ella]] [[is|es]] ____ [[France|Francia]]. [[She|Ella]] [[is|es]] [[French|francesa]].',
           correctAnswer: 'from',
           acceptableAnswers: ['from'],
           explanation: '[[We|Nosotros]] [[say|decimos]] "[[is from|es de]]" + [[country|país]] [[to|para]] [[indicate|indicar]] [[origin|origen]].',
@@ -40,7 +40,7 @@ export const UNIT_2_LESSON_6_WRITING: Exercise[] = [
       instructions: 'Escribe la palabra que completa la frase.',
       questions: [
         {
-          question: 'They are from Spain. They are ____.',
+          question: '[[They|Ellos]] [[are|son]] [[from|de]] [[Spain|España]]. [[They|Ellos]] [[are|son]] ____.',
           correctAnswer: 'Spanish',
           acceptableAnswers: ['Spanish'],
           explanation: '[[From Spain|De España]] → [[Spanish|español/española]]: [[the|la]] [[nationality|nacionalidad]] [[of|de]] [[Spain|España]].',
@@ -60,7 +60,7 @@ export const UNIT_2_LESSON_6_WRITING: Exercise[] = [
       instructions: 'Completa con una palabra.',
       questions: [
         {
-          question: 'He is from ____. He is Italian.',
+          question: '[[He|Él]] [[is|es]] [[from|de]] ____. [[He|Él]] [[is|es]] [[Italian|italiano]].',
           correctAnswer: 'Italy',
           acceptableAnswers: ['Italy'],
           explanation: '[[Italian|Italiano]] → [[from Italy|de Italia]]: [[Italy|Italia]] [[is|es]] [[the|el]] [[country|país]].',
@@ -80,7 +80,7 @@ export const UNIT_2_LESSON_6_WRITING: Exercise[] = [
       instructions: 'Escribe la palabra que falta.',
       questions: [
         {
-          question: 'We are from Brazil. We are ____.',
+          question: '[[We|Nosotros]] [[are|somos]] [[from|de]] [[Brazil|Brasil]]. [[We|Nosotros]] [[are|somos]] ____.',
           correctAnswer: 'Brazilian',
           acceptableAnswers: ['Brazilian'],
           explanation: '[[From Brazil|De Brasil]] → [[Brazilian|brasileño/brasileña]]: [[the|la]] [[nationality|nacionalidad]] [[of|de]] [[Brazil|Brasil]].',
@@ -100,7 +100,7 @@ export const UNIT_2_LESSON_6_WRITING: Exercise[] = [
       instructions: 'Completa la frase.',
       questions: [
         {
-          question: 'My friend ____ from Japan. He is Japanese.',
+          question: '[[My|Mi]] [[friend|amigo]] ____ [[from|de]] [[Japan|Japón]]. [[He|Él]] [[is|es]] [[Japanese|japonés]].',
           correctAnswer: 'is',
           acceptableAnswers: ['is'],
           explanation: '[[He|Él]] / [[She|Ella]] + [[is|es]] + [[from|de]] + [[country|país]].',
@@ -119,7 +119,7 @@ export const UNIT_2_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Order|Ordena]] [[the|las]] [[words|palabras]] and [[write|escribe]] [[the|la]] [[sentence|frase]] [[in|en]] [[the|el]] [[box|recuadro]] [[below|abajo]] [[or|o]] [[check|comprueba]] [[your|tu]] [[order|orden]].',
+      instructions: '[[Order|Ordena]] [[the|las]] [[words|palabras]] [[and|y]] [[write|escribe]] [[the|la]] [[sentence|frase]] [[in|en]] [[the|el]] [[box|recuadro]] [[below|abajo]] [[or|o]] [[check|comprueba]] [[your|tu]] [[order|orden]].',
       correctSentence: '[[She|Ella]] [[is|es]] [[from|de]] [[Germany|Alemania]].',
       words: ['[[is|es]]', '[[She|Ella]]', '[[from|de]]', '[[Germany|Alemania]].'],
     },
@@ -149,7 +149,7 @@ export const UNIT_2_LESSON_6_WRITING: Exercise[] = [
       title: LESSON_TITLE,
       instructions: '[[Order|Ordena]] [[the|las]] [[words|palabras]].',
       correctSentence: '[[He|Él]] [[is|es]] [[from|de]] [[Mexico|México]] and [[is|es]] [[Mexican|mexicano]].',
-      words: ['[[is|es]]', '[[He|Él]]', '[[from|de]]', '[[Mexico|México]]', 'and', '[[is|es]]', '[[Mexican|mexicano]].'],
+      words: ['[[is|es]]', '[[He|Él]]', '[[from|de]]', '[[Mexico|México]]', '[[and|y]]', '[[is|es]]', '[[Mexican|mexicano]].'],
     },
     topicName: 'Writing',
   },

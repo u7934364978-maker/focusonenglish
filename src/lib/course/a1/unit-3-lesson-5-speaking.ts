@@ -120,7 +120,7 @@ export const UNIT_3_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Contesta en voz alta. Ejemplo: "Yes, I am." / "No, I am not."',
+      instructions: 'Contesta en voz alta. Ejemplo: "[[Yes|Sí]], [[I|yo]] [[am|soy]]." / "[[No|No]], [[I|yo]] [[am|no soy]] [[not|no]]."',
       targetText: '[[Are|Estás]] [[you|tú]] [[tired|cansado]]?',
       expectedResponse: 'Yes, I am. / No, I am not.',
     },

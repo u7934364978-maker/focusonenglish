@@ -120,7 +120,7 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Responde la pregunta en voz alta. Ejemplo: "Yes, I am." o "No, I am not."',
+      instructions: 'Responde la pregunta en voz alta. Ejemplo: "[[Yes|Sí]], [[I|yo]] [[am|soy]]." o "[[No|No]], [[I|yo]] [[am|no soy]] [[not|no]]."',
       targetText: '[[Are|Eres]] [[you|tú]] [[a|un]] [[student|estudiante]]?',
       expectedResponse: 'Yes, I am. / No, I am not.',
     },
@@ -178,7 +178,7 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Di en voz alta tu nombre y de dónde eres. Modelo: "My name is … I am from …"',
+      instructions: 'Di en voz alta tu nombre y de dónde eres. Modelo: "[[My|Mi]] [[name|nombre]] [[is|es]] … [[I|Yo]] [[am|soy]] [[from|de]] …"',
       targetText: '[[My name is|Mi nombre es]] ____. [[I am from|Soy de]] ____.',
       expectedResponse: 'My name is [your name]. I am from [your city/country].',
     },
@@ -192,8 +192,8 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Di en voz alta cuántos años tienes. Modelo: "I am … years old."',
-      targetText: 'I am ____ years old.',
+      instructions: 'Di en voz alta cuántos años tienes. Modelo: "[[I|Yo]] [[am|tengo]] … [[years|años]] [[old|de edad]]."',
+      targetText: '[[I|Yo]] [[am|tengo]] ____ [[years|años]] [[old|de edad]].',
       expectedResponse: 'I am [number] years old.',
     },
     topicName: 'Speaking',
@@ -206,7 +206,7 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Di en voz alta si eres estudiante o profesor. Modelo: "I am a student." o "I am a teacher."',
+      instructions: 'Di en voz alta si eres estudiante o profesor. Modelo: "[[I am a|Soy]] [[student|estudiante]]." o "[[I am a|Soy]] [[teacher|profesor]]."',
       targetText: '[[I am a|Soy]] ____. ([[student|estudiante]] / [[teacher|profesor]])',
       expectedResponse: 'I am a student. / I am a teacher.',
     },
@@ -221,7 +221,7 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     content: {
       title: LESSON_TITLE,
       instructions: 'Haz una breve presentación en 3 o 4 frases. Incluye: nombre, edad, ciudad o país y profesión o estudiante.',
-      targetText: 'My name is … I am … years old. I am from … I am a …',
+      targetText: '[[My|Mi]] [[name|nombre]] [[is|es]] … [[I|Yo]] [[am|tengo]] … [[years|años]] [[old|de edad]]. [[I|Yo]] [[am|soy]] [[from|de]] … [[I|Yo]] [[am|soy]] [[a|un/una]] …',
       expectedResponse: 'My name is [X]. I am [N] years old. I am from [place]. I am a [student/teacher/...].',
     },
     topicName: 'Speaking',
