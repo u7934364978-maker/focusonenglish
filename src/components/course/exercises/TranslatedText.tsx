@@ -34,8 +34,8 @@ function useActiveTooltipId() {
 
 /** Espacio mínimo entre pregunta y opciones (solo un tooltip a la vez). */
 export const TRANSLATION_TOOLTIP_SPACING = {
-  blockWithTranslations: 'pb-12',
-  blockBelow: 'mt-0.5',
+  blockWithTranslations: 'pb-10',
+  blockBelow: 'mt-0',
   betweenOptions: 'space-y-2',
 } as const;
 

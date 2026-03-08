@@ -10,8 +10,8 @@ Solo se muestra **un tooltip a la vez** en toda la app (el de la palabra bajo el
 
 ## Reglas obligatorias
 
-1. **Contenedor del bloque con traducciones**: usar `TRANSLATION_TOOLTIP_SPACING.blockWithTranslations` (`pb-12`). Espacio mínimo entre frase y primera opción.
-2. **Bloque que va debajo** (opciones): usar `TRANSLATION_TOOLTIP_SPACING.blockBelow` (`mt-0.5`).
+1. **Contenedor del bloque con traducciones**: usar `TRANSLATION_TOOLTIP_SPACING.blockWithTranslations` (`pb-10`). Espacio mínimo entre frase y primera opción.
+2. **Bloque que va debajo** (opciones): usar `TRANSLATION_TOOLTIP_SPACING.blockBelow` (`mt-0`).
 3. **Tarjeta que envuelve el ejercicio**: usar `overflow-visible`, nunca `overflow-hidden`.
 4. **Entre opciones**: usar `TRANSLATION_TOOLTIP_SPACING.betweenOptions` (`space-y-2`).
 5. **Bloque del título** (con TranslatedText): usar `pb-4` y `overflow-visible`.
