@@ -4,18 +4,18 @@ globs: **/ExerciseRenderer.tsx **/TranslatedText.tsx **/EnhancedSpeakingExercise
 alwaysApply: false
 ---
 
-# Tooltips de traducción: no solapar contenido
+# Tooltips de traducción: un solo tooltip a la vez
 
-Los textos con `TranslatedText` muestran un tooltip debajo de la palabra al hacer hover. Si el contenedor no deja espacio suficiente, el tooltip solapa las opciones o el texto siguiente.
+Solo se muestra **un tooltip a la vez** en toda la app (el de la palabra bajo el cursor). Así no se solapan y el espaciado puede ser mínimo.
 
 ## Reglas obligatorias
 
-1. **Contenedor del bloque con traducciones**: usar `TRANSLATION_TOOLTIP_SPACING.blockWithTranslations` (`pb-20`) como padding-bottom. No reducir por debajo de lo necesario para el tooltip (~80px).
-2. **Bloque que va debajo** (ej. opciones de respuesta): usar `TRANSLATION_TOOLTIP_SPACING.blockBelow` (`mt-5`) como margin-top.
-3. **Tarjeta que envuelve el ejercicio**: usar `overflow-visible`, nunca `overflow-hidden`, para que los tooltips no se recorten.
-4. **Entre opciones** (cada una puede tener TranslatedText): usar `TRANSLATION_TOOLTIP_SPACING.betweenOptions` (`space-y-3`).
-5. **Bloque del título** (ej. título del ejercicio con TranslatedText): usar `pb-4` y `overflow-visible` para que el tooltip del título no solape las instrucciones.
-6. **Contenedores de drag-drop / matching**: usar `overflow-visible`. En Matching, columnas con `space-y-4` e ítems con `pb-8` y `overflow-visible` si aplica.
+1. **Contenedor del bloque con traducciones**: usar `TRANSLATION_TOOLTIP_SPACING.blockWithTranslations` (`pb-16`). Solo hace falta hueco para un tooltip.
+2. **Bloque que va debajo** (ej. opciones): usar `TRANSLATION_TOOLTIP_SPACING.blockBelow` (`mt-2`).
+3. **Tarjeta que envuelve el ejercicio**: usar `overflow-visible`, nunca `overflow-hidden`.
+4. **Entre opciones**: usar `TRANSLATION_TOOLTIP_SPACING.betweenOptions` (`space-y-2`).
+5. **Bloque del título** (con TranslatedText): usar `pb-4` y `overflow-visible`.
+6. **Contenedores de drag-drop / matching**: usar `overflow-visible`.
 
 ## Dónde se define
 

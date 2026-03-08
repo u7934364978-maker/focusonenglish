@@ -2,16 +2,18 @@
 
 /**
  * TranslatedText: texto con tooltips de traducción al hacer hover (tokens [[word|translation]]).
- * Solo se muestra el tooltip de la palabra que toca el cursor (un único tooltip visible a la vez).
  *
- * REGLA FIJA — NO SOLAPAR TRADUCCIONES:
- * Los padres deben usar TRANSLATION_TOOLTIP_SPACING (pb-20, mt-5, space-y-3). No reducir por debajo de lo necesario ni usar overflow-hidden.
+ * UN SOLO TOOLTIP A LA VEZ (global): activeTooltipId es compartido; solo el span bajo el cursor
+ * muestra su tooltip. Al pasar a otra palabra, el anterior se oculta. Así no se solapan y
+ * el espaciado puede ser mínimo (solo para un tooltip).
+ *
+ * Los padres usan TRANSLATION_TOOLTIP_SPACING para dejar hueco a ese único tooltip.
  */
 import React, { useMemo, useState, useEffect, useId, useRef } from 'react';
 import { GLOBAL_LEXICON } from '@/lib/course/engine/lexicon';
 import AudioButton from '../AudioButton';
 
-/** Store compartido: solo un tooltip visible a la vez (el que tiene el cursor). */
+/** Store global: solo un tooltip visible en toda la app (el de la palabra bajo el cursor). */
 let activeTooltipId: string | null = null;
 const tooltipListeners = new Set<(id: string | null) => void>();
 function setActiveTooltipId(id: string | null) {
@@ -30,14 +32,14 @@ function useActiveTooltipId() {
   return activeId;
 }
 
-/** Clases Tailwind mínimas para contenedores que están DEBAJO de un bloque con TranslatedText (evitar solapamiento). */
+/** Espacio mínimo: solo un tooltip visible a la vez, así que solo hace falta hueco para uno. */
 export const TRANSLATION_TOOLTIP_SPACING = {
-  /** Padding-bottom del bloque que CONTIENE la pregunta/texto con traducciones. Alto suficiente para que el tooltip (top-full + mt-3 + ~80px) no solape las opciones. */
-  blockWithTranslations: 'pb-20',
-  /** Margin-top del bloque que va DEBAJO (ej. opciones). Separación de tooltips sin exceso. */
-  blockBelow: 'mt-5',
-  /** Espacio entre opciones (cada una puede tener TranslatedText). */
-  betweenOptions: 'space-y-3',
+  /** Padding-bottom del bloque con traducciones: hueco para un solo tooltip (compacto). */
+  blockWithTranslations: 'pb-16',
+  /** Margin-top del bloque de opciones (debajo de la pregunta). */
+  blockBelow: 'mt-2',
+  /** Espacio entre opciones (solo un tooltip visible globalmente). */
+  betweenOptions: 'space-y-2',
 } as const;
 
 interface TranslatedTextProps {
@@ -158,6 +160,7 @@ const Tooltip: React.FC<TooltipProps> = ({ word, translation, useStrong }) => {
   const id = useId();
   const activeId = useActiveTooltipId();
   const tooltipRef = useRef<HTMLSpanElement>(null);
+  /** Solo este tooltip se muestra; los demás tienen opacity-0 invisible (un único tooltip global). */
   const isActive = activeId === id;
 
   const handleLeave = (e: React.MouseEvent) => {
@@ -176,20 +179,20 @@ const Tooltip: React.FC<TooltipProps> = ({ word, translation, useStrong }) => {
       <span className={`${isActive ? 'border-indigo-500' : 'hover:border-indigo-500'} ${useStrong ? 'font-bold text-indigo-700 dark:text-indigo-400' : 'text-indigo-600 dark:text-indigo-400 font-medium'}`}>
         {word}
       </span>
-      {/* Solo se muestra el tooltip de la palabra que toca el cursor */}
+      {/* Solo visible cuando isActive (cursor sobre esta palabra); resto ocultos por opacity-0 */}
       <span
         ref={tooltipRef}
-        className={`absolute top-full left-0 mt-3 w-max max-w-[280px] p-3.5 bg-slate-900 text-white text-xs rounded-xl transition-all duration-200 z-[200] shadow-2xl border border-slate-700 drop-shadow-lg flex flex-col gap-3 ${isActive ? 'opacity-100 visible pointer-events-auto' : 'opacity-0 invisible pointer-events-none'}`}
+        className={`absolute top-full left-0 mt-2 w-max max-w-[280px] p-3 bg-slate-900 text-white text-xs rounded-xl transition-all duration-200 z-[200] shadow-2xl border border-slate-700 drop-shadow-lg flex flex-col gap-2 ${isActive ? 'opacity-100 visible pointer-events-auto' : 'opacity-0 invisible pointer-events-none'}`}
         aria-hidden="true"
         onMouseLeave={() => setActiveTooltipId(null)}
       >
-        <span className="flex items-center justify-between gap-2 min-h-[1.5rem]">
+        <span className="flex items-center justify-between gap-2 min-h-[1.25rem]">
           <span className="font-black text-indigo-400 uppercase tracking-widest text-[10px] leading-relaxed break-words line-clamp-2">
             {word}
           </span>
           <AudioButton text={word} size="sm" className="bg-slate-800 hover:bg-slate-700 text-indigo-400 border-none scale-75 flex-shrink-0" />
         </span>
-        <span className="block text-slate-200 leading-relaxed font-medium text-sm min-h-[1.25rem]">
+        <span className="block text-slate-200 leading-relaxed font-medium text-sm min-h-[1rem]">
           {translation}
         </span>
         <span className="absolute bottom-full left-4 border-[6px] border-transparent border-b-slate-900 pointer-events-none" />
