@@ -1,7 +1,7 @@
 /**
- * Índice de las 6 lecciones de la Unidad 20 (A1): Jobs & Work.
- * Exporta todo el contenido listo para la web.
+ * Índice Unidad 20 (A1): Module 2 Review.
  */
+
 
 import { Exercise } from '@/lib/exercise-generator';
 import { UNIT_20_LESSON_1_GRAMMAR } from './unit-20-lesson-1-grammar';
