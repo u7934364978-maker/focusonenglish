@@ -622,18 +622,28 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                 : exercise.type === 'writing'
                   ? (
                     <div className="space-y-3">
+                      {exerciseContent.modelExample && (
+                        <div className="rounded-xl bg-amber-50 border border-amber-200 p-4">
+                          <p className="text-sm font-semibold text-amber-800 mb-2">Modelo (guía):</p>
+                          <div className="text-slate-800 text-sm md:text-base leading-relaxed whitespace-pre-line">
+                            <TranslatedText text={exerciseContent.modelExample} />
+                          </div>
+                        </div>
+                      )}
                       <p className="text-sm font-medium text-slate-600">
-                        Escribe tu respuesta en inglés siguiendo el modelo, pero hablando de ti.
+                        {exerciseContent.modelExample
+                          ? 'Escribe tu respuesta en inglés siguiendo el modelo, pero hablando de ti.'
+                          : 'Escribe tu respuesta en inglés según las instrucciones de arriba, hablando de ti.'}
                       </p>
                       <textarea
                         value={typeof userAnswer === 'string' ? userAnswer : ''}
                         onChange={(e) => setUserAnswer(e.target.value)}
                         rows={5}
                         className="w-full rounded-2xl border border-slate-300 bg-white px-4 py-3 text-sm md:text-base text-slate-800 leading-relaxed focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B6B] focus-visible:ring-offset-1"
-                        placeholder="Escribe aquí tu pequeña presentación (4–5 frases)…"
+                        placeholder={exerciseContent.minWords ? `Escribe aquí (aprox. ${exerciseContent.minWords}-${exerciseContent.maxWords || '…'} palabras)…` : 'Escribe aquí tu respuesta…'}
                       />
                       <div className="flex items-center justify-between text-xs text-slate-500">
-                        <span>Procura escribir al menos 4 frases completas.</span>
+                        <span>{exerciseContent.minWords ? `Procura escribir entre ${exerciseContent.minWords} y ${exerciseContent.maxWords || '…'} palabras.` : 'Procura escribir frases completas.'}</span>
                       </div>
                       <button
                         type="button"
