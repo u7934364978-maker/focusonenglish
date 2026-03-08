@@ -6,6 +6,7 @@ import ExerciseRenderer from '@/components/ExerciseRenderer';
 import RepairModeBanner from '@/components/course/RepairModeBanner';
 import StreakBurst from '@/components/gamification/StreakBurst';
 import { useGamification } from '@/lib/hooks/use-gamification';
+import { useA1ProgressTracking } from '@/hooks/useA1ProgressTracking';
 import { X, Heart, Zap, Trophy, Flame, ChevronLeft, ChevronRight, CheckCircle, XCircle, Target } from 'lucide-react';
 
 // Copy de alta calidad: tono profesional, claro y alentador
@@ -99,6 +100,7 @@ function UnitPreviewContent() {
   const searchParams = useSearchParams();
   const unitId = params.unitId as string;
   const { xp, completeExercise: saveXP, recordActivity } = useGamification();
+  const { recordExercise } = useA1ProgressTracking();
 
   const [exercises, setExercises] = useState<any[]>([]);
   const [unitTitle, setUnitTitle] = useState<string>('');
@@ -220,16 +222,23 @@ function UnitPreviewContent() {
     const success = result?.success ?? true;
     const pts = result?.score ?? 100;
 
+    // Registrar en BD para control de avances (unit_id 0 = Test final A1)
+    const progressUnitId = isFinalTest ? 0 : parseInt(unitId.replace('unit-', ''), 10);
+    if (!Number.isNaN(progressUnitId) && recordExercise && exercises[currentIndex]) {
+      const ex = exercises[currentIndex];
+      recordExercise({
+        unitId: progressUnitId,
+        exerciseId: ex.id ?? `${unitId}-${currentIndex}`,
+        exerciseType: (ex.type as string) ?? 'unknown',
+        isCorrect: success,
+      });
+    }
+
     if (success) {
       const newConsecutive = consecutiveCorrect + 1;
       setConsecutiveCorrect(newConsecutive);
       setFailCount(0);
       setSessionScore(prev => prev + pts);
-
-      const xpAmt = newConsecutive >= 3 ? 20 : 10;
-      setXpGained(xpAmt);
-      setShowXpPop(true);
-      setTimeout(() => setShowXpPop(false), 1200);
 
       const exerciseId = exercises[currentIndex]?.id ?? `${unitId}-${currentIndex}`;
       saveXP(exerciseId, 1, 1);

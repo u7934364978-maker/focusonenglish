@@ -1,13 +1,13 @@
-import { UNIT_1_EXERCISES } from './unit-1';
-import { UNIT_2_EXERCISES } from './unit-2';
-import { UNIT_3_EXERCISES } from './unit-3';
-import { UNIT_4_EXERCISES } from './unit-4';
-import { UNIT_5_EXERCISES } from './unit-5';
-import { UNIT_6_EXERCISES } from './unit-6';
-import { UNIT_7_EXERCISES } from './unit-7';
-import { UNIT_8_EXERCISES } from './unit-8';
-import { UNIT_9_EXERCISES } from './unit-9';
-import { UNIT_10_EXERCISES } from './unit-10';
+import { UNIT_1_EXERCISES, UNIT_TITLE as UNIT_1_TITLE } from './unit-1';
+import { UNIT_2_EXERCISES, UNIT_TITLE as UNIT_2_TITLE } from './unit-2';
+import { UNIT_3_EXERCISES, UNIT_TITLE as UNIT_3_TITLE } from './unit-3';
+import { UNIT_4_EXERCISES, UNIT_TITLE as UNIT_4_TITLE } from './unit-4';
+import { UNIT_5_EXERCISES, UNIT_TITLE as UNIT_5_TITLE } from './unit-5';
+import { UNIT_6_EXERCISES, UNIT_TITLE as UNIT_6_TITLE } from './unit-6';
+import { UNIT_7_EXERCISES, UNIT_TITLE as UNIT_7_TITLE } from './unit-7';
+import { UNIT_8_EXERCISES, UNIT_TITLE as UNIT_8_TITLE } from './unit-8';
+import { UNIT_9_EXERCISES, UNIT_TITLE as UNIT_9_TITLE } from './unit-9';
+import { UNIT_10_EXERCISES, UNIT_TITLE as UNIT_10_TITLE } from './unit-10';
 import { UNIT_11_EXERCISES } from './unit-11';
 import { UNIT_12_EXERCISES } from './unit-12';
 import { UNIT_13_EXERCISES } from './unit-13';
@@ -31,16 +31,16 @@ import { UNIT_30_EXERCISES } from './unit-30';
 
 export const A2_COURSE_CONTENT = {
   units: [
-    { id: 1, title: 'Personal Profile', exercises: UNIT_1_EXERCISES },
-    { id: 2, title: 'Daily Life', exercises: UNIT_2_EXERCISES },
-    { id: 3, title: 'Work & Office', exercises: UNIT_3_EXERCISES },
-    { id: 4, title: 'Shopping & Clothes', exercises: UNIT_4_EXERCISES },
-    { id: 5, title: 'Free Time & Hobbies', exercises: UNIT_5_EXERCISES },
-    { id: 6, title: 'Health & Well-being', exercises: UNIT_6_EXERCISES },
-    { id: 7, title: 'Travel & Holidays', exercises: UNIT_7_EXERCISES },
-    { id: 8, title: 'Food & Cooking', exercises: UNIT_8_EXERCISES },
-    { id: 9, title: 'My Home', exercises: UNIT_9_EXERCISES },
-    { id: 10, title: 'My Neighborhood', exercises: UNIT_10_EXERCISES },
+    { id: 1, title: UNIT_1_TITLE, exercises: UNIT_1_EXERCISES },
+    { id: 2, title: UNIT_2_TITLE, exercises: UNIT_2_EXERCISES },
+    { id: 3, title: UNIT_3_TITLE, exercises: UNIT_3_EXERCISES },
+    { id: 4, title: UNIT_4_TITLE, exercises: UNIT_4_EXERCISES },
+    { id: 5, title: UNIT_5_TITLE, exercises: UNIT_5_EXERCISES },
+    { id: 6, title: UNIT_6_TITLE, exercises: UNIT_6_EXERCISES },
+    { id: 7, title: UNIT_7_TITLE, exercises: UNIT_7_EXERCISES },
+    { id: 8, title: UNIT_8_TITLE, exercises: UNIT_8_EXERCISES },
+    { id: 9, title: UNIT_9_TITLE, exercises: UNIT_9_EXERCISES },
+    { id: 10, title: UNIT_10_TITLE, exercises: UNIT_10_EXERCISES },
     { id: 11, title: 'Technology', exercises: UNIT_11_EXERCISES },
     { id: 12, title: 'Past Experiences', exercises: UNIT_12_EXERCISES },
     { id: 13, title: 'Future Plans', exercises: UNIT_13_EXERCISES },

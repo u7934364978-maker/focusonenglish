@@ -1,5 +1,6 @@
 import { createClient } from '@/lib/supabase/server';
 import { NextRequest, NextResponse } from 'next/server';
+import { supabaseAdmin } from '@/lib/supabase/client';
 
 export async function GET(
   request: NextRequest,
@@ -14,20 +15,14 @@ export async function GET(
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
-    // Check if requester is admin
-    const { data: adminData } = await supabase
-      .from('auth.users')
-      .select('raw_user_meta_data')
-      .eq('id', adminUser.id)
-      .single();
-
-    const isAdmin = adminData?.raw_user_meta_data?.role === 'admin';
+    const isAdmin = (adminUser.user_metadata?.role === 'admin') || (adminUser.app_metadata?.role === 'admin');
     if (!isAdmin) {
       return NextResponse.json({ error: 'Forbidden' }, { status: 403 });
     }
 
-    // Get student progress
-    const { data: progressData, error } = await supabase
+    // Usar service role para leer progreso de cualquier alumno (RLS solo permite el propio)
+    const client = supabaseAdmin ?? supabase;
+    const { data: progressData, error } = await client
       .from('a1_progress')
       .select('*')
       .eq('user_id', userId)

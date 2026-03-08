@@ -1,12 +1,22 @@
 import { createClient } from '@/lib/supabase/server';
 import { NextRequest, NextResponse } from 'next/server';
 
+/** unitId: 1-60 unidades, 0 = Test final A1 */
 interface ExerciseResult {
-  unitId: number;
+  unitId: number | string;
   exerciseId: string;
   exerciseType: string;
   isCorrect: boolean;
   timeSpentSeconds?: number;
+}
+
+function normalizeUnitId(unitId: number | string): number {
+  if (typeof unitId === 'string') {
+    if (unitId === 'test-final') return 0;
+    const n = parseInt(unitId, 10);
+    return Number.isNaN(n) ? -1 : n;
+  }
+  return unitId;
 }
 
 export async function POST(request: NextRequest) {
@@ -20,21 +30,21 @@ export async function POST(request: NextRequest) {
 
     const body: ExerciseResult = await request.json();
 
-    // Validate input
-    if (!body.unitId || !body.exerciseId || body.isCorrect === undefined) {
+    if (!body.exerciseId || body.isCorrect === undefined) {
       return NextResponse.json({ error: 'Missing required fields' }, { status: 400 });
     }
 
-    if (body.unitId < 1 || body.unitId > 60) {
-      return NextResponse.json({ error: 'Invalid unit ID' }, { status: 400 });
+    const unitId = normalizeUnitId(body.unitId ?? -1);
+    if (unitId < 0 || unitId > 60) {
+      return NextResponse.json({ error: 'Invalid unit ID (use 1-60 or test-final)' }, { status: 400 });
     }
 
-    // Insert exercise result
+    // Insert exercise result (unit_id 0 = Test final A1)
     const { data, error } = await supabase
       .from('a1_exercise_results')
       .insert({
         user_id: user.id,
-        unit_id: body.unitId,
+        unit_id: unitId,
         exercise_id: body.exerciseId,
         exercise_type: body.exerciseType,
         is_correct: body.isCorrect,

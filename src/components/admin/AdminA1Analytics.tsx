@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { Users, TrendingUp, CheckCircle, BookOpen } from 'lucide-react';
+import { Users, TrendingUp, CheckCircle, BookOpen, Download, BarChart3 } from 'lucide-react';
 
 interface Student {
   id: string;
@@ -23,6 +23,10 @@ interface Summary {
   averageAccuracy: number;
 }
 
+function unitLabel(unitId: number): string {
+  return unitId === 0 ? 'Test final A1' : `Unidad ${unitId}`;
+}
+
 export default function AdminA1Analytics() {
   const [students, setStudents] = useState<Student[]>([]);
   const [selectedStudent, setSelectedStudent] = useState<string | null>(null);
@@ -30,6 +34,8 @@ export default function AdminA1Analytics() {
   const [summary, setSummary] = useState<Summary | null>(null);
   const [loading, setLoading] = useState(true);
   const [studentLoading, setStudentLoading] = useState(false);
+  const [exporting, setExporting] = useState(false);
+  const [globalSummary, setGlobalSummary] = useState<{ total: number; withProgress: number } | null>(null);
 
   useEffect(() => {
     loadStudents();
@@ -40,10 +46,23 @@ export default function AdminA1Analytics() {
       const response = await fetch('/api/admin/students');
       if (!response.ok) throw new Error('Failed to fetch students');
       const data = await response.json();
-      setStudents(data.students || []);
-      if (data.students?.length > 0) {
-        setSelectedStudent(data.students[0].id);
+      const list = data.students || [];
+      setStudents(list);
+      if (list.length > 0) {
+        setSelectedStudent((prev) => prev || list[0].id);
       }
+      setLoading(false);
+      // Resumen global (con progreso) en segundo plano
+      fetch('/api/admin/export-progress')
+        .then((res) => res.ok ? res.json() : null)
+        .then((exp) => {
+          const arr = exp?.export || [];
+          setGlobalSummary({
+            total: list.length,
+            withProgress: arr.filter((r: { progress: unknown[] }) => (r.progress?.length ?? 0) > 0).length,
+          });
+        })
+        .catch(() => {});
     } catch (error) {
       console.error('Error loading students:', error);
     } finally {
@@ -73,6 +92,59 @@ export default function AdminA1Analytics() {
     }
   }
 
+  async function handleExportCsv() {
+    setExporting(true);
+    try {
+      const response = await fetch('/api/admin/export-progress');
+      if (!response.ok) throw new Error('Export failed');
+      const { export: data } = await response.json();
+      const rows: string[] = [];
+      rows.push('Email,Nombre,Usuario,Unidad,Etiqueta,Ejercicios completados,Total ejercicios,Precisión %,Estado');
+      for (const row of data || []) {
+        for (const p of row.progress || []) {
+          rows.push(
+            [
+              `"${(row.email ?? '').replace(/"/g, '""')}"`,
+              `"${(row.name ?? '').replace(/"/g, '""')}"`,
+              row.userId,
+              p.unit_id,
+              `"${(p.unit_label ?? '').replace(/"/g, '""')}"`,
+              p.exercises_completed ?? '',
+              p.exercises_total ?? '',
+              p.accuracy_percentage ?? '',
+              p.status ?? '',
+            ].join(',')
+          );
+        }
+        if ((row.progress?.length ?? 0) === 0) {
+          rows.push(
+            [
+              `"${(row.email ?? '').replace(/"/g, '""')}"`,
+              `"${(row.name ?? '').replace(/"/g, '""')}"`,
+              row.userId,
+              '',
+              '"Sin progreso"',
+              '',
+              '',
+              '',
+              '',
+            ].join(',')
+          );
+        }
+      }
+      const blob = new Blob([rows.join('\n')], { type: 'text/csv;charset=utf-8;' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = `avances-a1-${new Date().toISOString().slice(0, 10)}.csv`;
+      a.click();
+      URL.revokeObjectURL(a.href);
+    } catch (error) {
+      console.error('Export error:', error);
+    } finally {
+      setExporting(false);
+    }
+  }
+
   if (loading) {
     return (
       <div className="p-8 text-center">
@@ -86,11 +158,46 @@ export default function AdminA1Analytics() {
 
   return (
     <div className="space-y-8">
-      {/* Student Selector */}
+      {/* Resumen global */}
+      {globalSummary && (
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="bg-white rounded-xl p-5 border border-slate-200 shadow-sm flex items-center gap-4">
+            <div className="w-12 h-12 rounded-xl bg-slate-100 flex items-center justify-center">
+              <Users className="w-6 h-6 text-slate-600" />
+            </div>
+            <div>
+              <p className="text-sm font-bold text-slate-500 uppercase">Total alumnos</p>
+              <p className="text-2xl font-black text-slate-800">{globalSummary.total}</p>
+            </div>
+          </div>
+          <div className="bg-white rounded-xl p-5 border border-slate-200 shadow-sm flex items-center gap-4">
+            <div className="w-12 h-12 rounded-xl bg-emerald-100 flex items-center justify-center">
+              <BarChart3 className="w-6 h-6 text-emerald-600" />
+            </div>
+            <div>
+              <p className="text-sm font-bold text-slate-500 uppercase">Con progreso A1</p>
+              <p className="text-2xl font-black text-slate-800">{globalSummary.withProgress}</p>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Student Selector + Export */}
       <div className="bg-white rounded-xl p-6 border border-slate-200 shadow-sm">
-        <div className="flex items-center gap-3 mb-4">
-          <Users className="w-5 h-5 text-coral-500" />
-          <h3 className="font-black text-slate-800">Select Student</h3>
+        <div className="flex flex-wrap items-center justify-between gap-4 mb-4">
+          <div className="flex items-center gap-3">
+            <Users className="w-5 h-5 text-coral-500" />
+            <h3 className="font-black text-slate-800">Seleccionar alumno</h3>
+          </div>
+          <button
+            type="button"
+            onClick={handleExportCsv}
+            disabled={exporting || students.length === 0}
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-slate-800 text-white text-sm font-semibold hover:bg-slate-700 disabled:opacity-50 disabled:cursor-not-allowed"
+          >
+            <Download className="w-4 h-4" />
+            {exporting ? 'Exportando…' : 'Exportar CSV'}
+          </button>
         </div>
         
         <select
@@ -142,14 +249,15 @@ export default function AdminA1Analytics() {
         </div>
       )}
 
-      {/* Progress Grid */}
+      {/* Progress Grid (Test final 0 + Unidades 1–60) */}
       {!studentLoading && (
         <div>
-          <h3 className="font-black text-xl text-slate-800 mb-4">Unit Progress</h3>
+          <h3 className="font-black text-xl text-slate-800 mb-4">Progreso por unidad</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {Array.from({ length: 60 }, (_, i) => {
-              const unitNum = i + 1;
+            {Array.from({ length: 61 }, (_, i) => {
+              const unitNum = i; // 0 = Test final, 1–60 = Unidades
               const unitProgress = progressData.find(u => u.unit_id === unitNum);
+              const label = unitLabel(unitNum);
               
               return (
                 <div
@@ -164,9 +272,9 @@ export default function AdminA1Analytics() {
                 >
                   <div className="flex justify-between items-start mb-3">
                     <div>
-                      <h4 className="font-black text-slate-800">Unit {unitNum}</h4>
+                      <h4 className="font-black text-slate-800">{label}</h4>
                       <p className="text-sm text-slate-600 capitalize">
-                        {unitProgress?.status || 'Not Started'}
+                        {unitProgress?.status || 'No empezado'}
                       </p>
                     </div>
                     {unitProgress?.status === 'completed' && (
@@ -178,7 +286,7 @@ export default function AdminA1Analytics() {
                     <>
                       <div className="mb-2">
                         <div className="flex justify-between text-xs text-slate-600 mb-1">
-                          <span>Progress</span>
+                          <span>Progreso</span>
                           <span>
                             {unitProgress.exercises_completed}/{unitProgress.exercises_total}
                           </span>
@@ -188,8 +296,8 @@ export default function AdminA1Analytics() {
                             className="h-full bg-coral-500 transition-all"
                             style={{
                               width: `${
-                                unitProgress.exercises_total > 0
-                                  ? (unitProgress.exercises_completed / unitProgress.exercises_total) * 100
+                                (unitProgress.exercises_total ?? 0) > 0
+                                  ? ((unitProgress.exercises_completed ?? 0) / (unitProgress.exercises_total ?? 1)) * 100
                                   : 0
                               }%`,
                             }}
@@ -198,7 +306,7 @@ export default function AdminA1Analytics() {
                       </div>
 
                       <div className="text-xs text-slate-600">
-                        Accuracy: {unitProgress.accuracy_percentage.toFixed(1)}%
+                        Precisión: {(unitProgress.accuracy_percentage ?? 0).toFixed(1)}%
                       </div>
                     </>
                   )}
