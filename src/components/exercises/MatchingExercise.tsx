@@ -136,9 +136,12 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
         </div>
       </div>
 
-      <div className="grid grid-cols-2 gap-3 overflow-visible">
-        {/* Left Column: mismo ancho que la derecha */}
-        <div className="space-y-4 overflow-visible min-w-0">
+      <div
+        className="grid gap-3 overflow-visible"
+        style={{ gridTemplateColumns: 'minmax(0, 1fr) minmax(0, 1fr)' }}
+      >
+        {/* Left Column: ancho fijo 50% */}
+        <div className="space-y-4 overflow-visible min-w-0 w-full">
           {leftItems.map((item, idx) => {
             const isMatched = !!matches[item];
             const isSelected = selectedLeft === item;
@@ -172,8 +175,8 @@ export default function MatchingExercise({ content, vocabulary, onComplete }: Ma
           })}
         </div>
 
-        {/* Right Column: mismo ancho que la izquierda */}
-        <div className="space-y-4 overflow-visible min-w-0">
+        {/* Right Column: mismo ancho que la izquierda (50%) */}
+        <div className="space-y-4 overflow-visible min-w-0 w-full">
           {rightItems.map((item, idx) => {
             const matchedLeft = Object.keys(matches).find(left => matches[left] === item);
             const isMatched = !!matchedLeft;
