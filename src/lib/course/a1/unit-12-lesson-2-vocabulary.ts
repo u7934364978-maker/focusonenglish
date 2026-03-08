@@ -1,16 +1,16 @@
 /**
- * Unidad 12 — Lección 2: Vocabulario (Places in Town)
- * bank, park, supermarket, library, post office, pharmacy, café, street, next to, opposite.
+ * Unidad 12 — Lección 2: Vocabulario (Days of the Week)
+ * Días de la semana; weekend; weekdays.
  * 15 ejercicios: 6 multiple-choice, 4 matching, 3 fill-blank, 2 contexto
  */
 
 import { Exercise } from '@/lib/exercise-generator';
 
-const LESSON_TITLE = 'Vocabulario: lugares en la ciudad';
-const TOPIC = 'Places in Town';
+const LESSON_TITLE = 'Vocabulario: días de la semana';
+const TOPIC = 'Days of the Week';
 
 const INSTRUCTIONS_MC = 'Elige la palabra correcta.';
-const INSTRUCTIONS_MATCH = 'Relaciona el lugar con su descripción o traducción.';
+const INSTRUCTIONS_MATCH = 'Relaciona el día con su traducción.';
 const INSTRUCTIONS_FILL = 'Completa la frase con la palabra correcta.';
 const INSTRUCTIONS_CTX = 'Elige la opción correcta para la situación.';
 
@@ -25,10 +25,10 @@ export const UNIT_12_LESSON_2_VOCABULARY: Exercise[] = [
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS_MC,
       questions: [{
-        question: '[[You|Tú]] [[go|vas]] [[to|a]] ____ [[to|para]] [[get|sacar]] [[money|dinero]] [[or|o]] [[pay|pagar]] [[bills|facturas]].',
-        options: ['[[the bank|el banco]]', '[[the park|el parque]]', '[[the library|la biblioteca]]'],
+        question: '[[The|El]] ____ [[day|día]] [[after|después de]] [[Sunday|domingo]] [[is|es]] [[Monday|lunes]].',
+        options: ['[[first|primero]]', '[[last|último]]', '[[middle|medio]]'],
         correctAnswer: 0,
-        explanation: 'Bank = banco.',
+        explanation: 'Monday is the first day of the week.',
       }],
     },
     topicName: 'Vocabulary',
@@ -43,10 +43,10 @@ export const UNIT_12_LESSON_2_VOCABULARY: Exercise[] = [
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS_MC,
       questions: [{
-        question: '[[You|Tú]] [[buy|compras]] [[food|comida]] [[and|y]] [[drinks|bebidas]] [[at|en]] ____.',
-        options: ['[[the post office|correos]]', '[[the supermarket|el supermercado]]', '[[the pharmacy|la farmacia]]'],
+        question: '[[Saturday|Sábado]] [[and|y]] [[Sunday|domingo]] [[are|son]] [[the|el]] ____.',
+        options: ['[[weekdays|días entre semana]]', '[[weekend|fin de semana]]', '[[week|semana]]'],
         correctAnswer: 1,
-        explanation: 'Supermarket = supermercado.',
+        explanation: 'Weekend = sábado y domingo.',
       }],
     },
     topicName: 'Vocabulary',
@@ -61,10 +61,10 @@ export const UNIT_12_LESSON_2_VOCABULARY: Exercise[] = [
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS_MC,
       questions: [{
-        question: '[[You|Tú]] [[read|lees]] [[books|libros]] [[and|y]] [[study|estudias]] [[in|en]] ____.',
-        options: ['[[the café|el café]]', '[[the library|la biblioteca]]', '[[the bank|el banco]]'],
-        correctAnswer: 1,
-        explanation: 'Library = biblioteca.',
+        question: '[[From|De]] [[Monday|lunes]] ____ [[Friday|viernes]] [[we|nosotros]] [[work|trabajamos]].',
+        options: ['[[to|a]]', '[[at|a]]', '[[on|en]]'],
+        correctAnswer: 0,
+        explanation: 'From Monday to Friday = de lunes a viernes.',
       }],
     },
     topicName: 'Vocabulary',
@@ -79,10 +79,10 @@ export const UNIT_12_LESSON_2_VOCABULARY: Exercise[] = [
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS_MC,
       questions: [{
-        question: '[[You|Tú]] [[send|envías]] [[letters|cartas]] [[and|y]] [[buy|compras]] [[stamps|sellos]] [[at|en]] ____.',
-        options: ['[[the post office|la oficina de correos]]', '[[the park|el parque]]', '[[the pharmacy|la farmacia]]'],
+        question: '[[Wednesday|Miércoles]] [[is|está]] ____ [[Tuesday|martes]] [[and|y]] [[Thursday|jueves]].',
+        options: ['[[between|entre]]', '[[after|después de]]', '[[before|antes de]]'],
         correctAnswer: 0,
-        explanation: 'Post office = oficina de correos.',
+        explanation: 'Wednesday is between Tuesday and Thursday.',
       }],
     },
     topicName: 'Vocabulary',
@@ -97,10 +97,10 @@ export const UNIT_12_LESSON_2_VOCABULARY: Exercise[] = [
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS_MC,
       questions: [{
-        question: '[[You|Tú]] [[buy|compras]] [[medicine|medicinas]] [[at|en]] ____.',
-        options: ['[[the café|el café]]', '[[the pharmacy|la farmacia]]', '[[the bank|el banco]]'],
-        correctAnswer: 1,
-        explanation: 'Pharmacy = farmacia.',
+        question: '[[I|Yo]] [[don\'t|no]] ____ [[on|los]] [[Sundays|domingos]].',
+        options: ['[[work|trabajo]]', '[[works|trabaja]]', '[[working|trabajando]]'],
+        correctAnswer: 0,
+        explanation: 'I don\'t work. Don\'t + verbo en infinitivo.',
       }],
     },
     topicName: 'Vocabulary',
@@ -115,10 +115,10 @@ export const UNIT_12_LESSON_2_VOCABULARY: Exercise[] = [
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS_MC,
       questions: [{
-        question: '[[The|El]] ____ [[is|está]] [[opposite|enfrente de]] [[the|la]] [[bank|banco]]. [[You|Puedes]] [[walk|caminar]] [[there|allí]] [[in|en]] [[one|un]] [[minute|minuto]].',
-        options: ['[[street|calle]]', '[[park|parque]]', '[[supermarket|supermercado]]'],
+        question: '[[On|Los]] ____ [[I|yo]] [[go|voy]] [[to|a]] [[the|el]] [[gym|gimnasio]].',
+        options: ['[[weekdays|días entre semana]]', '[[weekend|fin de semana]]', '[[today|hoy]]'],
         correctAnswer: 0,
-        explanation: 'Opposite = enfrente de.',
+        explanation: 'Weekdays = lunes a viernes.',
       }],
     },
     topicName: 'Vocabulary',
@@ -131,13 +131,13 @@ export const UNIT_12_LESSON_2_VOCABULARY: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Relaciona el lugar con su traducción.',
+      instructions: 'Relaciona el día con su traducción.',
       pairs: [
-        { id: 'p1', left: '[[bank|banco]]', right: 'Banco' },
-        { id: 'p2', left: '[[supermarket|supermercado]]', right: 'Supermercado' },
-        { id: 'p3', left: '[[library|biblioteca]]', right: 'Biblioteca' },
-        { id: 'p4', left: '[[post office|oficina de correos]]', right: 'Oficina de correos' },
-        { id: 'p5', left: '[[pharmacy|farmacia]]', right: 'Farmacia' },
+        { id: 'p1', left: '[[Monday|lunes]]', right: 'Lunes' },
+        { id: 'p2', left: '[[Tuesday|martes]]', right: 'Martes' },
+        { id: 'p3', left: '[[Wednesday|miércoles]]', right: 'Miércoles' },
+        { id: 'p4', left: '[[Thursday|jueves]]', right: 'Jueves' },
+        { id: 'p5', left: '[[Friday|viernes]]', right: 'Viernes' },
       ],
     },
     topicName: 'Vocabulary',
@@ -150,13 +150,13 @@ export const UNIT_12_LESSON_2_VOCABULARY: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Relaciona la preposición de lugar con su significado.',
+      instructions: 'Relaciona el día con su traducción.',
       pairs: [
-        { id: 'p1', left: '[[next to|al lado de]]', right: 'Al lado de' },
-        { id: 'p2', left: '[[opposite|enfrente de]]', right: 'Enfrente de' },
-        { id: 'p3', left: '[[between|entre]]', right: 'Entre' },
-        { id: 'p4', left: '[[near|cerca de]]', right: 'Cerca de' },
-        { id: 'p5', left: '[[in front of|delante de]]', right: 'Delante de' },
+        { id: 'p1', left: '[[Saturday|sábado]]', right: 'Sábado' },
+        { id: 'p2', left: '[[Sunday|domingo]]', right: 'Domingo' },
+        { id: 'p3', left: '[[weekend|fin de semana]]', right: 'Fin de semana' },
+        { id: 'p4', left: '[[weekdays|días entre semana]]', right: 'Días entre semana' },
+        { id: 'p5', left: '[[week|semana]]', right: 'Semana' },
       ],
     },
     topicName: 'Vocabulary',
@@ -171,11 +171,11 @@ export const UNIT_12_LESSON_2_VOCABULARY: Exercise[] = [
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS_MATCH,
       pairs: [
-        { id: 'p1', left: '[[park|parque]]', right: '[[trees and grass|árboles y césped]]' },
-        { id: 'p2', left: '[[café|café]]', right: '[[coffee and snacks|café y tentempiés]]' },
-        { id: 'p3', left: '[[library|biblioteca]]', right: '[[books|libros]]' },
-        { id: 'p4', left: '[[pharmacy|farmacia]]', right: '[[medicine|medicinas]]' },
-        { id: 'p5', left: '[[bank|banco]]', right: '[[money|dinero]]' },
+        { id: 'p1', left: '[[on Monday|el lunes]]', right: '[[I have class|tengo clase]]' },
+        { id: 'p2', left: '[[on Friday|el viernes]]', right: '[[we finish early|terminamos pronto]]' },
+        { id: 'p3', left: '[[on the weekend|el fin de semana]]', right: '[[I rest|descanso]]' },
+        { id: 'p4', left: '[[on weekdays|entre semana]]', right: '[[I work|trabajo]]' },
+        { id: 'p5', left: '[[on Sunday|el domingo]]', right: '[[we don\'t work|no trabajamos]]' },
       ],
     },
     topicName: 'Vocabulary',
@@ -188,13 +188,13 @@ export const UNIT_12_LESSON_2_VOCABULARY: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Relaciona la pregunta con su respuesta.',
+      instructions: 'Relaciona la pregunta con su significado.',
       pairs: [
-        { id: 'p1', left: '[[Where is the bank?|¿Dónde está el banco?]]', right: 'Next to the library.' },
-        { id: 'p2', left: '[[Is there a supermarket?|¿Hay un supermercado?]]', right: 'Yes, there is.' },
-        { id: 'p3', left: '[[Where are the shops?|¿Dónde están las tiendas?]]', right: 'In the centre.' },
-        { id: 'p4', left: '[[Is there a park?|¿Hay un parque?]]', right: 'Yes, there is a big park.' },
-        { id: 'p5', left: '[[Where is the post office?|¿Dónde está correos?]]', right: 'Opposite the bank.' },
+        { id: 'p1', left: '[[What do you do on Mondays?|¿Qué haces los lunes?]]', right: 'Pregunta por hábito' },
+        { id: 'p2', left: '[[Do you work on Saturday?|¿Trabajas el sábado?]]', right: 'Pregunta sí/no' },
+        { id: 'p3', left: '[[When do you have class?|¿Cuándo tienes clase?]]', right: 'Pregunta por día' },
+        { id: 'p4', left: '[[I study on Tuesdays.|Estudio los martes.]]', right: 'Hábito semanal' },
+        { id: 'p5', left: '[[On the weekend I relax.|El fin de semana me relajo.]]', right: 'Actividad en weekend' },
       ],
     },
     topicName: 'Vocabulary',
@@ -209,11 +209,11 @@ export const UNIT_12_LESSON_2_VOCABULARY: Exercise[] = [
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS_FILL,
       questions: [{
-        question: '[[There|Hay]] [[is|(singular)]] ____ [[supermarket|supermercado]] [[in|en]] [[my|mi]] [[street|calle]].',
-        options: ['[[a|un]]', '[[an|un/una]]', '[[the|el]]'],
-        correctAnswer: 'a',
-        acceptableAnswers: ['a'],
-        explanation: 'There is a supermarket.',
+        question: '[[I|Yo]] ____ [[yoga|yoga]] [[on|los]] [[Wednesdays|miércoles]].',
+        options: ['[[do|hago]]', '[[does|hace]]', '[[doing|haciendo]]'],
+        correctAnswer: 'do',
+        acceptableAnswers: ['do'],
+        explanation: 'I do yoga.',
       }],
     },
     topicName: 'Vocabulary',
@@ -228,11 +228,11 @@ export const UNIT_12_LESSON_2_VOCABULARY: Exercise[] = [
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS_FILL,
       questions: [{
-        question: '[[The|La]] [[library|biblioteca]] ____ [[next to|al lado de]] [[the|la]] [[school|colegio]].',
-        options: ['[[is|está]]', '[[are|están]]', '[[be|ser/estar]]'],
-        correctAnswer: 'is',
-        acceptableAnswers: ['is'],
-        explanation: 'The library is next to...',
+        question: '[[She|Ella]] ____ [[to|a]] [[school|clase]] [[on|los]] [[weekdays|días entre semana]].',
+        options: ['[[goes|va]]', '[[go|ir]]', '[[going|yendo]]'],
+        correctAnswer: 'goes',
+        acceptableAnswers: ['goes'],
+        explanation: 'She goes to school.',
       }],
     },
     topicName: 'Vocabulary',
@@ -247,11 +247,11 @@ export const UNIT_12_LESSON_2_VOCABULARY: Exercise[] = [
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS_FILL,
       questions: [{
-        question: '[[Where|Dónde]] ____ [[the|la]] [[pharmacy|farmacia]]? [[It|Está]] [[is|está]] [[opposite|enfrente de]] [[the|la]] [[bank|banco]].',
-        options: ['[[is|está]]', '[[are|están]]', '[[be|ser/estar]]'],
-        correctAnswer: 'is',
-        acceptableAnswers: ['is'],
-        explanation: 'Where is the pharmacy?',
+        question: '[[We|Nosotros]] ____ [[on|el]] [[Saturday|sábado]]. [[We|Nosotros]] [[don\'t|no]] [[work|trabajamos]].',
+        options: ['[[rest|descansamos]]', '[[rests|descansa]]', '[[resting|descansando]]'],
+        correctAnswer: 'rest',
+        acceptableAnswers: ['rest'],
+        explanation: 'We rest on Saturday.',
       }],
     },
     topicName: 'Vocabulary',
@@ -266,10 +266,10 @@ export const UNIT_12_LESSON_2_VOCABULARY: Exercise[] = [
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS_CTX,
       questions: [{
-        question: '[[Someone|Alguien]] [[asks|pregunta]] "[[Where is the post office?|¿Dónde está correos?]]". [[You|Tú]] [[know|sabes]] [[it|que]] [[is|está]] [[next to|al lado de]] [[the|la]] [[bank|banco]]. [[You|Tú]] [[say|dices]]: ____.',
-        options: ['[[It is next to the bank.|Está al lado del banco.]]', '[[I don\'t know.|No lo sé.]]', '[[There is a bank.|Hay un banco.]]'],
+        question: '[[Someone|Alguien]] [[asks|pregunta]] "[[What do you do on Fridays?|¿Qué haces los viernes?]]". [[You|Tú]] [[go|vas]] [[to|a]] [[the|el]] [[gym|gimnasio]]. [[You|Tú]] ____.',
+        options: ['[[I go to the gym.|Voy al gimnasio.]]', '[[I am a teacher.|Soy profesor.]]', '[[I have breakfast at eight.|Desayuno a las ocho.]]'],
         correctAnswer: 0,
-        explanation: 'It is next to the bank.',
+        explanation: 'I go to the gym.',
       }],
     },
     topicName: 'Vocabulary',
@@ -284,10 +284,10 @@ export const UNIT_12_LESSON_2_VOCABULARY: Exercise[] = [
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS_CTX,
       questions: [{
-        question: '[[You|Tú]] [[want|quieres]] [[to|preguntar]] [[ask|si]] [[there is|hay]] [[a|una]] [[pharmacy|farmacia]] [[near|cerca]]. [[You|Tú]] ____.',
-        options: ['[[say|dices]] "[[Where is the pharmacy?|¿Dónde está la farmacia?]]"', '[[say|dices]] "[[Is there a pharmacy near here?|¿Hay una farmacia cerca?]]"', '[[say|dices]] "[[There is a pharmacy.|Hay una farmacia.]]"'],
-        correctAnswer: 1,
-        explanation: 'Is there a pharmacy near here?',
+        question: '[[You|Tú]] [[want|quieres]] [[to|preguntar]] [[ask|si]] [[someone|alguien]] [[works|trabaja]] [[on|el]] [[Saturday|sábado]]. [[You|Tú]] ____.',
+        options: ['[[Do you work on Saturday?|¿Trabajas el sábado?]]', '[[What time is it?|¿Qué hora es?]]', '[[Where do you work?|¿Dónde trabajas?]]'],
+        correctAnswer: 0,
+        explanation: 'Do you work on Saturday?',
       }],
     },
     topicName: 'Vocabulary',

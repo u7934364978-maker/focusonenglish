@@ -1,13 +1,13 @@
 /**
- * Unidad 12 — Lección 1: Gramática (Places in Town)
- * There is / There are, Where is...?, Is there a...?, preposiciones de lugar.
+ * Unidad 12 — Lección 1: Gramática (Days of the Week)
+ * Preposición on con días; Present Simple para hábitos.
  * 15 ejercicios: 5 fill-blank, 5 multiple-choice, 3 sentence-building, 2 true-false
  */
 
 import { Exercise } from '@/lib/exercise-generator';
 
-const LESSON_TITLE = 'Lugares en la ciudad: There is/are y Where is...?';
-const TOPIC = 'Places in Town';
+const LESSON_TITLE = 'Días de la semana: on + día y presente simple';
+const TOPIC = 'Days of the Week';
 
 const INSTRUCTIONS_FILL = 'Completa la frase con la palabra correcta.';
 const INSTRUCTIONS_MC = 'Elige la opción correcta.';
@@ -25,10 +25,10 @@ export const UNIT_12_LESSON_1_GRAMMAR: Exercise[] = [
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS_FILL,
       questions: [{
-        question: '[[There|Hay]] ____ [[a|un]] [[bank|banco]] [[near|cerca]] [[here|aquí]].',
-        options: ['[[is|(singular)]]', '[[are|(plural)]]', '[[be|(infinitivo)]]'],
-        correctAnswer: '[[is|(singular)]]',
-        explanation: 'Con un solo lugar usamos There is.',
+        question: '[[I|Yo]] [[work|trabajo]] ____ [[Monday|lunes]].',
+        options: ['[[on|el]]', '[[at|a]]', '[[in|en]]'],
+        correctAnswer: '[[on|el]]',
+        explanation: 'Con días de la semana usamos "on": on Monday.',
       }],
     },
     topicName: 'Grammar',
@@ -43,10 +43,10 @@ export const UNIT_12_LESSON_1_GRAMMAR: Exercise[] = [
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS_FILL,
       questions: [{
-        question: '[[There|Hay]] ____ [[two|dos]] [[parks|parques]] [[in|en]] [[my|mi]] [[town|pueblo]].',
-        options: ['[[is|(singular)]]', '[[are|(plural)]]', '[[be|(infinitivo)]]'],
-        correctAnswer: '[[are|(plural)]]',
-        explanation: 'Con plural (two parks) usamos There are.',
+        question: '[[She|Ella]] ____ [[English|inglés]] [[on|los]] [[Tuesdays|martes]].',
+        options: ['[[teaches|enseña]]', '[[teach|enseñar]]', '[[teaching|enseñando]]'],
+        correctAnswer: '[[teaches|enseña]]',
+        explanation: 'Con she/he/it el presente simple añade -s: she teaches.',
       }],
     },
     topicName: 'Grammar',
@@ -61,10 +61,10 @@ export const UNIT_12_LESSON_1_GRAMMAR: Exercise[] = [
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS_FILL,
       questions: [{
-        question: '[[Where|Dónde]] ____ [[the|la]] [[supermarket|supermercado]]?',
-        options: ['[[is|está]]', '[[are|están]]', '[[be|ser/estar]]'],
-        correctAnswer: '[[is|está]]',
-        explanation: 'Where is the...? Para singular.',
+        question: '[[What|Qué]] ____ [[do|(auxiliar)]] [[you|tú]] [[do|haces]] [[on|los]] [[Saturdays|sábados]]?',
+        options: ['[[do|(auxiliar)]]', '[[does|(auxiliar)]]', '[[are|eres]]'],
+        correctAnswer: '[[do|(auxiliar)]]',
+        explanation: 'What do you do on...? Con "you" usamos do.',
       }],
     },
     topicName: 'Grammar',
@@ -79,10 +79,10 @@ export const UNIT_12_LESSON_1_GRAMMAR: Exercise[] = [
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS_FILL,
       questions: [{
-        question: '[[Is|¿Hay]] [[there|allí]] ____ [[a|una]] [[pharmacy|farmacia]] [[near|cerca]]?',
-        options: ['[[a|una]]', '[[an|un/una]]', '[[the|la]]'],
-        correctAnswer: '[[a|una]]',
-        explanation: 'Is there a...? = ¿Hay una...?',
+        question: '[[I|Yo]] [[don\'t|no]] ____ [[work|trabajo]] [[on|el]] [[Sunday|domingo]].',
+        options: ['[[work|trabajo]]', '[[works|trabaja]]', '[[working|trabajando]]'],
+        correctAnswer: '[[work|trabajo]]',
+        explanation: 'Tras don\'t usamos el verbo en infinitivo sin to: I don\'t work.',
       }],
     },
     topicName: 'Grammar',
@@ -97,10 +97,10 @@ export const UNIT_12_LESSON_1_GRAMMAR: Exercise[] = [
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS_FILL,
       questions: [{
-        question: '[[The|La]] [[bank|banco]] ____ [[next to|al lado de]] [[the|la]] [[post office|correos]].',
-        options: ['[[is|está]]', '[[are|están]]', '[[be|ser/estar]]'],
-        correctAnswer: '[[is|está]]',
-        explanation: 'The bank is next to... Singular.',
+        question: '[[We|Nosotros]] [[rest|descansamos]] ____ [[the|el]] [[weekend|fin de semana]].',
+        options: ['[[on|en]]', '[[at|a]]', '[[in|en]]'],
+        correctAnswer: '[[on|en]]',
+        explanation: 'On the weekend = el fin de semana.',
       }],
     },
     topicName: 'Grammar',
@@ -115,10 +115,10 @@ export const UNIT_12_LESSON_1_GRAMMAR: Exercise[] = [
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS_MC,
       questions: [{
-        question: '[[There|Hay]] ____ [[a|un]] [[library|biblioteca]] [[in|en]] [[the|el]] [[centre|centro]].',
-        options: ['[[is|(singular)]]', '[[are|(plural)]]', '[[be|(infinitivo)]]'],
-        correctAnswer: 0,
-        explanation: 'There is a library. Singular.',
+        question: '[[He|Él]] ____ [[football|fútbol]] [[on|los]] [[Fridays|viernes]].',
+        options: ['[[play|jugar]]', '[[plays|juega]]', '[[playing|jugando]]'],
+        correctAnswer: 1,
+        explanation: 'He plays. Tercera persona añade -s.',
       }],
     },
     topicName: 'Grammar',
@@ -133,10 +133,10 @@ export const UNIT_12_LESSON_1_GRAMMAR: Exercise[] = [
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS_MC,
       questions: [{
-        question: '[[Where|Dónde]] ____ [[are|están]] [[the|los]] [[shops|tiendas]]?',
-        options: ['[[is|está]]', '[[are|están]]', '[[be|ser/estar]]'],
-        correctAnswer: 1,
-        explanation: 'Where are the shops? Plural.',
+        question: '[[On|El]] ____ [[I|yo]] [[have|tengo]] [[class|clase]].',
+        options: ['[[Wednesday|miércoles]]', '[[weekend|fin de semana]]', '[[morning|mañana]]'],
+        correctAnswer: 0,
+        explanation: 'On Wednesday = el miércoles.',
       }],
     },
     topicName: 'Grammar',
@@ -151,10 +151,10 @@ export const UNIT_12_LESSON_1_GRAMMAR: Exercise[] = [
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS_MC,
       questions: [{
-        question: '[[The|El]] [[café|café]] ____ [[between|entre]] [[the|la]] [[bank|banco]] [[and|y]] [[the|la]] [[pharmacy|farmacia]].',
-        options: ['[[is|está]]', '[[are|están]]', '[[be|ser/estar]]'],
+        question: '[[Do|¿]] [[you|tú]] ____ [[on|los]] [[Thursdays|jueves]]?',
+        options: ['[[study|estudias]]', '[[studies|estudia]]', '[[studying|estudiando]]'],
         correctAnswer: 0,
-        explanation: 'The café is between... Singular.',
+        explanation: 'Do you study...? Con "you" el verbo va en infinitivo.',
       }],
     },
     topicName: 'Grammar',
@@ -169,10 +169,10 @@ export const UNIT_12_LESSON_1_GRAMMAR: Exercise[] = [
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS_MC,
       questions: [{
-        question: '[[There|Hay]] ____ [[three|tres]] [[cafés|cafés]] [[in|en]] [[this|esta]] [[street|calle]].',
-        options: ['[[is|(singular)]]', '[[are|(plural)]]', '[[be|(infinitivo)]]'],
+        question: '[[Weekdays|Entre semana]] ____ [[Monday|lunes]] [[to|a]] [[Friday|viernes]].',
+        options: ['[[is|es]]', '[[are|son]]', '[[be|ser]]'],
         correctAnswer: 1,
-        explanation: 'There are three cafés. Plural.',
+        explanation: 'Weekdays are Monday to Friday.',
       }],
     },
     topicName: 'Grammar',
@@ -187,10 +187,10 @@ export const UNIT_12_LESSON_1_GRAMMAR: Exercise[] = [
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS_MC,
       questions: [{
-        question: '[[Is|¿Hay]] [[there|allí]] [[a|un]] [[park|parque]]? [[Yes|Sí]], [[there|allí]] ____.',
-        options: ['[[is|hay (singular)]]', '[[are|hay (plural)]]', '[[be|ser/estar]]'],
+        question: '[[I|Yo]] ____ [[shopping|compras]] [[on|el]] [[Saturday|sábado]].',
+        options: ['[[go|voy de]]', '[[goes|va de]]', '[[going|yendo de]]'],
         correctAnswer: 0,
-        explanation: 'Yes, there is. Respuesta corta.',
+        explanation: 'I go shopping. Go + shopping = ir de compras.',
       }],
     },
     topicName: 'Grammar',
@@ -204,8 +204,8 @@ export const UNIT_12_LESSON_1_GRAMMAR: Exercise[] = [
     content: {
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS_ORDER,
-      correctSentence: '[[There|Hay]] [[is|(singular)]] [[a|un]] [[supermarket|supermercado]] [[near|cerca]] [[here|aquí]].',
-      words: ['[[There|Hay]]', '[[is|(singular)]]', '[[a|un]]', '[[supermarket|supermercado]]', '[[near|cerca]]', '[[here|aquí]].'],
+      correctSentence: '[[I|Yo]] [[work|trabajo]] [[on|los]] [[Mondays|lunes]].',
+      words: ['[[I|Yo]]', '[[work|trabajo]]', '[[on|los]]', '[[Mondays|lunes]].'],
     },
     topicName: 'Grammar',
   },
@@ -218,8 +218,8 @@ export const UNIT_12_LESSON_1_GRAMMAR: Exercise[] = [
     content: {
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS_ORDER,
-      correctSentence: '[[Where|Dónde]] [[is|está]] [[the|la]] [[post office|oficina de correos]]?',
-      words: ['[[Where|Dónde]]', '[[is|está]]', '[[the|la]]', '[[post office|oficina de correos]]?'],
+      correctSentence: '[[What|Qué]] [[do|(auxiliar)]] [[you|tú]] [[do|haces]] [[on|el]] [[Sunday|domingo]]?',
+      words: ['[[What|Qué]]', '[[do|(auxiliar)]]', '[[you|tú]]', '[[do|haces]]', '[[on|el]]', '[[Sunday|domingo]]?'],
     },
     topicName: 'Grammar',
   },
@@ -232,8 +232,8 @@ export const UNIT_12_LESSON_1_GRAMMAR: Exercise[] = [
     content: {
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS_ORDER,
-      correctSentence: '[[The|La]] [[bank|banco]] [[is|está]] [[next to|al lado de]] [[the|la]] [[library|biblioteca]].',
-      words: ['[[The|La]]', '[[bank|banco]]', '[[is|está]]', '[[next to|al lado de]]', '[[the|la]]', '[[library|biblioteca]].'],
+      correctSentence: '[[She|Ella]] [[has|tiene]] [[class|clase]] [[on|los]] [[Tuesdays|martes]].',
+      words: ['[[She|Ella]]', '[[has|tiene]]', '[[class|clase]]', '[[on|los]]', '[[Tuesdays|martes]].'],
     },
     topicName: 'Grammar',
   },
@@ -247,9 +247,9 @@ export const UNIT_12_LESSON_1_GRAMMAR: Exercise[] = [
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS_TF,
       questions: [{
-        question: '[[We|Se]] [[use|usa]] "[[There is|Hay]]" [[for|para]] [[one|un]] [[thing|lugar]] [[(singular)|(singular)]]. [[We|Se]] [[use|usa]] "[[There are|Hay]]" [[for|para]] [[two or more|dos o más]].',
+        question: '[[We|Se]] [[use|usa]] [[the|la]] [[preposition|preposición]] "[[on|on]]" [[with|con]] [[days|días]] [[of|de]] [[the|la]] [[week|semana]] [[(on Monday)|(on Monday)]].',
         correctAnswer: true,
-        explanation: 'There is + singular, There are + plural.',
+        explanation: 'On Monday, on Tuesday, on the weekend.',
       }],
     },
     topicName: 'Grammar',
@@ -264,9 +264,9 @@ export const UNIT_12_LESSON_1_GRAMMAR: Exercise[] = [
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS_TF,
       questions: [{
-        question: '[[We|Se]] [[ask|pregunta]] "[[Where is the...?|¿Dónde está el/la...?]]" [[to|para]] [[find|saber]] [[the|la]] [[location|ubicación]] [[of|de]] [[a|un]] [[place|lugar]].',
+        question: '[[The|El]] [[weekend|fin de semana]] [[is|son]] [[Saturday|sábado]] [[and|y]] [[Sunday|domingo]].',
         correctAnswer: true,
-        explanation: 'Where is the bank? = ¿Dónde está el banco?',
+        explanation: 'Weekend = sábado y domingo.',
       }],
     },
     topicName: 'Grammar',
