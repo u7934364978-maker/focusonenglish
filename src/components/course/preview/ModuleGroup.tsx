@@ -9,6 +9,7 @@ import { UnitCard } from './UnitCard';
 interface ModuleGroupProps {
   module: ModuleMetadata;
   isInitiallyExpanded?: boolean;
+  coursePath?: string;
 }
 
 const MODULE_THEMES = [
@@ -21,7 +22,7 @@ const MODULE_THEMES = [
 
 const MODULE_EMOJIS = ['🗣️', '🌅', '💼', '💬', '🏆'];
 
-export function ModuleGroup({ module, isInitiallyExpanded = false }: ModuleGroupProps) {
+export function ModuleGroup({ module, isInitiallyExpanded = false, coursePath = '/curso-a1' }: ModuleGroupProps) {
   const [isExpanded, setIsExpanded] = useState(isInitiallyExpanded);
   const theme = MODULE_THEMES[(module.moduleNumber - 1) % MODULE_THEMES.length];
   const emoji = MODULE_EMOJIS[(module.moduleNumber - 1) % MODULE_EMOJIS.length];
@@ -99,7 +100,7 @@ export function ModuleGroup({ module, isInitiallyExpanded = false }: ModuleGroup
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 {module.units.map((unit) => (
-                  <UnitCard key={unit.unitId} unit={unit} />
+                  <UnitCard key={unit.unitId} unit={unit} coursePath={coursePath} />
                 ))}
               </div>
             </div>

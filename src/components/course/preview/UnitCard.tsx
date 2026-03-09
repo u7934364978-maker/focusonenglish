@@ -8,6 +8,7 @@ import { trackUnitCardClick } from '@/lib/analytics';
 
 interface UnitCardProps {
   unit: UnitMetadata;
+  coursePath?: string;
 }
 
 const MODULE_THEMES = [
@@ -173,7 +174,7 @@ export function UnitCard({ unit }: UnitCardProps) {
 
         {/* CTA */}
         <Link
-          href={`/curso-a1/${unit.unitId}`}
+          href={`${coursePath}/${unit.unitId}`}
           prefetch
           onClick={handleCardClick}
           className={`flex items-center justify-center gap-2 px-4 py-3 rounded-2xl font-bold text-sm border-2 transition-all duration-200 ${theme.chip} group-hover:bg-gradient-to-r group-hover:${theme.gradient} group-hover:text-white group-hover:border-transparent focus:outline-none focus:ring-2 focus:ring-offset-2`}

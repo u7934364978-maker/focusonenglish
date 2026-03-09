@@ -11,6 +11,8 @@ import { trackA1PreviewLanding, trackFilterUsage, trackViewModeToggle } from '@/
 
 interface A1CourseSelectorProps {
   units: UnitMetadata[];
+  /** e.g. "ingles-a2" → links go to /curso-a2. Default "ingles-a1" → /curso-a1 */
+  courseId?: string;
 }
 
 const AVAILABLE_TOPICS = [
@@ -26,7 +28,12 @@ const AVAILABLE_TOPICS = [
 
 type ViewMode = 'grid' | 'modules';
 
-export function A1CourseSelector({ units }: A1CourseSelectorProps) {
+function getCoursePath(courseId?: string): string {
+  return courseId === 'ingles-a2' ? '/curso-a2' : '/curso-a1';
+}
+
+export function A1CourseSelector({ units, courseId }: A1CourseSelectorProps) {
+  const coursePath = getCoursePath(courseId);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedTopics, setSelectedTopics] = useState<string[]>([]);
   const [selectedDifficulty, setSelectedDifficulty] = useState<number[]>([]);
@@ -329,7 +336,7 @@ export function A1CourseSelector({ units }: A1CourseSelectorProps) {
       {/* Units Grid or Module View */}
       {filteredUnits.length > 0 ? (
         viewMode === 'grid' ? (
-          <LazyUnitGrid units={filteredUnits} />
+          <LazyUnitGrid units={filteredUnits} coursePath={coursePath} />
         ) : (
           <div className="flex flex-col gap-6">
             {modules.map((module) => (
@@ -337,6 +344,7 @@ export function A1CourseSelector({ units }: A1CourseSelectorProps) {
                 key={module.moduleNumber} 
                 module={module}
                 isInitiallyExpanded={modules.length === 1}
+                coursePath={coursePath}
               />
             ))}
           </div>

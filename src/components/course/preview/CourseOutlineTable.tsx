@@ -7,12 +7,14 @@ import Link from 'next/link';
 
 interface CourseOutlineTableProps {
   units: UnitMetadata[];
+  /** e.g. "/curso-a2" for A2 outline. Default "/curso-a1" */
+  coursePath?: string;
 }
 
 type SortField = 'unitNumber' | 'title' | 'topics' | 'exerciseCount' | 'estimatedDuration' | 'difficulty';
 type SortDirection = 'asc' | 'desc';
 
-export function CourseOutlineTable({ units }: CourseOutlineTableProps) {
+export function CourseOutlineTable({ units, coursePath = '/curso-a1' }: CourseOutlineTableProps) {
   const [sortField, setSortField] = useState<SortField>('unitNumber');
   const [sortDirection, setSortDirection] = useState<SortDirection>('asc');
   const [searchQuery, setSearchQuery] = useState('');
@@ -263,7 +265,7 @@ export function CourseOutlineTable({ units }: CourseOutlineTableProps) {
                   </td>
                   <td className="px-4 py-4 print:hidden">
                     <Link
-                      href={`/curso-a1/${unit.unitId}`}
+                      href={`${coursePath}/${unit.unitId}`}
                       className="inline-flex items-center px-3 py-1.5 bg-coral-600 text-white rounded-lg text-xs font-bold hover:bg-coral-700 transition-colors"
                     >
                       Preview
@@ -316,7 +318,7 @@ export function CourseOutlineTable({ units }: CourseOutlineTableProps) {
             </div>
 
             <Link
-              href={`/curso-a1/${unit.unitId}`}
+              href={`${coursePath}/${unit.unitId}`}
               className="block w-full text-center px-4 py-2 bg-coral-600 text-white rounded-lg text-sm font-bold hover:bg-coral-700 transition-colors"
             >
               Preview Unit

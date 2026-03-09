@@ -9,12 +9,14 @@ interface LazyUnitGridProps {
   units: UnitMetadata[];
   initialLoadCount?: number;
   loadMoreCount?: number;
+  coursePath?: string;
 }
 
 export function LazyUnitGrid({ 
   units, 
   initialLoadCount = 20,
-  loadMoreCount = 20 
+  loadMoreCount = 20,
+  coursePath = '/curso-a1',
 }: LazyUnitGridProps) {
   const [visibleCount, setVisibleCount] = useState(initialLoadCount);
   const [isLoading, setIsLoading] = useState(false);
@@ -57,7 +59,7 @@ export function LazyUnitGrid({
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {visibleUnits.map((unit) => (
-          <UnitCard key={unit.unitId} unit={unit} />
+          <UnitCard key={unit.unitId} unit={unit} coursePath={coursePath} />
         ))}
       </div>
 

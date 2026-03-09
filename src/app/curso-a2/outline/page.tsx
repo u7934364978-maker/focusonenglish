@@ -70,7 +70,7 @@ async function OutlineContent() {
 
       {/* Outline Table */}
       <div className="max-w-7xl mx-auto px-4 py-8 print:py-4">
-        <CourseOutlineTable units={courseMetadata.units} />
+        <CourseOutlineTable units={courseMetadata.units} coursePath="/curso-a2" />
       </div>
     </div>
   );
