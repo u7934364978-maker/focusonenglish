@@ -96,7 +96,8 @@ Cada artículo debe tener frontmatter completo (title, description, pubDate, cat
 
 Verificación: `npm run build`
 
-### [ ] Step: Fase 2 — Nuevos artículos prioridad ALTA (gramática/pronunciación)
+### [x] Step: Fase 2 — Nuevos artículos prioridad ALTA (gramática/pronunciación)
+<!-- chat-id: f79a3559-bc59-44d5-9112-6eeebdde2a1a -->
 
 Crear artículos para los hubs vacíos de alta intención en gramática y pronunciación.
 
