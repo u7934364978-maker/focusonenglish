@@ -16,6 +16,7 @@ keywords:
   - ejercicios de verbos en ingles
   - aprender vocabulario ingles
   - phrasal verbs ingles
+  - phrasal verbs
 author: David Torres
 date: '2026-03-02'
 image: 'https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg'

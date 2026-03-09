@@ -16,6 +16,7 @@ keywords:
   - como aprender phrasal verbs
   - verbos con particulas ingles
   - phrasal verbs ingles
+  - phrasal verbs
 author: David Torres
 date: '2026-03-06'
 image: 'https://images.pexels.com/photos/1370296/pexels-photo-1370296.jpeg'

@@ -17,6 +17,7 @@ keywords:
   - phrasal verbs writing c1
   - phrasal verbs sofisticados ingles
   - phrasal verbs ingles
+  - phrasal verbs
 author: David Torres
 date: '2026-03-06'
 image: 'https://images.pexels.com/photos/1925536/pexels-photo-1925536.jpeg'
