@@ -150,7 +150,8 @@ Crear artículos adicionales para hubs con 1-2 artículos en categorías trabajo
 
 Verificación: `npm run build`
 
-### [ ] Step: Fase 3 — Ampliar hubs escasos (gramática/métodos/viajes)
+### [x] Step: Fase 3 — Ampliar hubs escasos (gramática/métodos/viajes)
+<!-- chat-id: 45912838-3a44-4e5d-ad45-b09b128b83d7 -->
 
 Crear artículos adicionales para hubs con 1-2 artículos en categorías gramática, métodos y viajes.
 
