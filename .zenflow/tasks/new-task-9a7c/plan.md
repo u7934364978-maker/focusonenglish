@@ -81,7 +81,8 @@ Añadir la keyword exacta del hub al frontmatter de los artículos de los hubs `
 
 Verificación: `npm run build` para confirmar que no se rompe nada.
 
-### [ ] Step: Fase 2 — Nuevos artículos prioridad ALTA (trabajo/profesional)
+### [x] Step: Fase 2 — Nuevos artículos prioridad ALTA (trabajo/profesional)
+<!-- chat-id: 1a421253-3627-4aba-a002-d3253c58a057 -->
 
 Crear artículos para los hubs vacíos de mayor intención de búsqueda en el ámbito profesional.
 
