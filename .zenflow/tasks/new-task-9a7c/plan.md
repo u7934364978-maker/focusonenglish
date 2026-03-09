@@ -42,24 +42,119 @@ Save to `{@artifacts_path}/spec.md` with:
 - Delivery phases (incremental, testable milestones)
 - Verification approach using project lint/test commands
 
-### [ ] Step: Planning
+### [x] Step: Planning
+<!-- chat-id: 4b43ddc8-6478-44bf-8287-57c75acd05cd -->
 
 Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 
-1. Break down the work into concrete tasks
-2. Each task should reference relevant contracts and include verification steps
-3. Replace the Implementation step below with the planned tasks
+### [ ] Step: Fase 1 — Tagging fixes (phrasal-verbs hub)
 
-Rule of thumb for step size: each step should represent a coherent unit of work (e.g., implement a component, add an API endpoint). Avoid steps that are too granular (single function) or too broad (entire feature).
+Añadir keyword `phrasal verbs` al frontmatter de los 6 artículos del hub `phrasal-verbs`.
 
-Important: unit tests must be part of each implementation task, not separate tasks. Each task should implement the code and its tests together, if relevant.
+- Editar `src/content/blog/gramatica/phrasal-verbs-trabajo.md`
+- Editar `src/content/blog/gramatica/phrasal-verbs-with-put.md`
+- Editar `src/content/blog/gramatica/phrasal-verbs-principiantes.md`
+- Editar `src/content/blog/gramatica/phrasal-verbs-with-get.md`
+- Editar `src/content/blog/gramatica/phrasal-verbs-c1-avanzados.md`
+- Editar `src/content/blog/gramatica/phrasal-verbs-guia-b2.md`
+- En cada uno: añadir `- phrasal verbs` a la lista `keywords` del frontmatter
 
-If the feature is trivial and doesn't warrant full specification, update this workflow to remove unnecessary steps and explain the reasoning to the user.
+### [ ] Step: Fase 1 — Tagging fixes (reported-speech, voz-pasiva-ingles, present-perfect-vs-past-simple)
 
-Save to `{@artifacts_path}/plan.md`.
+Añadir la keyword exacta del hub al frontmatter de los artículos de los hubs `reported-speech`, `voz-pasiva-ingles` y `present-perfect-vs-past-simple`.
 
-### [ ] Step: Implementation
+**Hub `reported-speech`** — añadir keyword `reported speech`:
+- `src/content/blog/examenes/reported-speech-cambridge-exams.md`
+- `src/content/blog/gramatica/reported-speech-ejercicios-pdf.md`
+- `src/content/blog/gramatica/guia-maestra-reported-speech.md`
+- `src/content/blog/gramatica/reported-speech-guia-uso.md`
+- `src/content/blog/gramatica/reported-speech-questions-commands.md`
 
-This step should be replaced with detailed implementation tasks from the Planning step.
+**Hub `voz-pasiva-ingles`** — añadir keyword `voz pasiva ingles`:
+- `src/content/blog/gramatica/voz-pasiva-ingles-guia.md`
+- `src/content/blog/gramatica/voz-pasiva-avanzada-guia.md`
 
-If Planning didn't replace this step, execute the tasks in `{@artifacts_path}/plan.md`, updating checkboxes as you go. Run planned tests/lint and record results in plan.md.
+**Hub `present-perfect-vs-past-simple`** — añadir keyword `present perfect vs past simple`:
+- `src/content/blog/gramatica/present-perfect-vs-past-simple.md`
+
+Verificación: `npm run build` para confirmar que no se rompe nada.
+
+### [ ] Step: Fase 2 — Nuevos artículos prioridad ALTA (trabajo/profesional)
+
+Crear artículos para los hubs vacíos de mayor intención de búsqueda en el ámbito profesional.
+
+- Crear `src/content/blog/trabajo/cv-ingles.md` con keyword `cv ingles`
+- Crear `src/content/blog/trabajo/entrevista-trabajo-ingles-preguntas.md` con keyword `entrevista trabajo ingles`
+- Crear `src/content/blog/trabajo/entrevista-trabajo-ingles-frases.md` con keyword `entrevista trabajo ingles`
+- Crear `src/content/blog/trabajo/ingles-juridico-legal.md` con keyword `ingles juridico legal`
+- Crear `src/content/blog/trabajo/ingles-para-marketing.md` con keyword `ingles para marketing`
+
+Cada artículo debe tener frontmatter completo (title, description, pubDate, category, keywords) y contenido real en markdown.
+
+Verificación: `npm run build`
+
+### [ ] Step: Fase 2 — Nuevos artículos prioridad ALTA (gramática/pronunciación)
+
+Crear artículos para los hubs vacíos de alta intención en gramática y pronunciación.
+
+- Crear `src/content/blog/gramatica/pronunciacion-ingles-guia-completa.md` con keyword `pronunciacion ingles guia completa`
+- Crear `src/content/blog/gramatica/fonetica-inglesa-basica.md` con keyword `fonetica inglesa basica`
+- Crear `src/content/blog/metodos/ingles-americano-vs-britanico.md` con keyword `ingles americano vs britanico`
+
+Cada artículo debe tener frontmatter completo y contenido real en markdown.
+
+Verificación: `npm run build`
+
+### [ ] Step: Fase 3 — Nuevos artículos prioridad MEDIA (hubs vacíos temáticos)
+
+Crear artículos para los hubs vacíos restantes.
+
+- `src/content/blog/metodos/mejores-apps-ingles-gratis.md` → keyword `mejores apps ingles gratis`
+- `src/content/blog/metodos/mejores-peliculas-series-ingles.md` → keyword `mejores peliculas series ingles`
+- `src/content/blog/metodos/mejores-libros-aprender-ingles.md` → keyword `mejores libros aprender ingles`
+- `src/content/blog/metodos/aprender-ingles-con-chatgpt.md` → keyword `aprender ingles con chatgpt`
+- `src/content/blog/viajes/ingles-para-compras.md` → keyword `ingles para compras`
+- `src/content/blog/metodos/ingles-para-deportes.md` → keyword `ingles para deportes`
+- `src/content/blog/viajes/mudarse-al-extranjero-guia-ingles.md` → keyword `mudarse al extranjero guia ingles`
+- `src/content/blog/viajes/ingles-en-la-cocina.md` → keyword `ingles en la cocina`
+- `src/content/blog/examenes/ingles-universitario-academico.md` → keyword `ingles universitario academico`
+- `src/content/blog/metodos/guia-erasmus-estudios-extranjero.md` → keyword `guia erasmus estudios extranjero`
+- `src/content/blog/examenes/becas-solicitudes-ingles.md` → keyword `becas solicitudes ingles`
+- `src/content/blog/metodos/acentos-ingles-diferencias.md` → keyword `acentos ingles diferencias`
+- `src/content/blog/metodos/ingles-para-ligar-y-citas.md` → keyword `ingles para ligar y citas`
+- `src/content/blog/trabajo/ingles-para-camareros-y-hosteleria.md` → keyword `ingles para camareros y hosteleria`
+- `src/content/blog/trabajo/ingles-real-estate-inmobiliario.md` → keyword `ingles real estate inmobiliario`
+
+Verificación: `npm run build`
+
+### [ ] Step: Fase 3 — Ampliar hubs escasos (trabajo/examenes)
+
+Crear artículos adicionales para hubs con 1-2 artículos en categorías trabajo y examenes.
+
+- 2 artículos más para `emails-profesionales-ingles` en `trabajo/`
+- 2 artículos más para `entrevista-de-trabajo-en-ingles` en `trabajo/`
+- 1-2 artículos más para `job-interview-english` en `trabajo/`
+- 1-2 artículos más para `presentaciones-en-ingles` en `trabajo/`
+- 2 artículos más para `ingles-medico` en `trabajo/`
+- 2 artículos más para `ingles-para-ingenieros` en `trabajo/`
+- 2 artículos más para `ingles-para-atencion-al-cliente` en `trabajo/`
+- 2 artículos más para `cambridge-english-2026` en `examenes/`
+- 2 artículos más para `aptis-general-b1` en `examenes/`
+- 2 artículos más para `ielts-vs-toefl-2026` en `examenes/`
+
+Verificación: `npm run build`
+
+### [ ] Step: Fase 3 — Ampliar hubs escasos (gramática/métodos/viajes)
+
+Crear artículos adicionales para hubs con 1-2 artículos en categorías gramática, métodos y viajes.
+
+- 2 artículos más para `verbos-modales-ingles` en `gramatica/`
+- 2 artículos más para `ejercicios-condicionales-ingles` en `gramatica/`
+- 1-2 artículos más para `niveles-ingles-mcer` en `metodos/`
+- 2 artículos más para `fluidez-ingles-avanzado` en `metodos/`
+- 2 artículos más para `slang-in-english` en `metodos/`
+- 2 artículos más para `ingles-moderno-internet` en `metodos/`
+- 2 artículos más para `cultura-anglosajona` en `metodos/`
+- 1-2 artículos más para `ingles-para-viajar` en `viajes/`
+
+Verificación: `npm run build`
