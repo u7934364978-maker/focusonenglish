@@ -23,7 +23,7 @@ export const UNIT_3_LESSON_2_VOCABULARY: Exercise[] = [
       questions: [
         {
           question: '[[What|Cuál]] [[is|es]] [[the|el]] [[past|pasado]] [[of|de]] "[[go|ir]]"?',
-          options: ['[[goed|fui]]', '[[went|fui]]', '[[gone|ido]]'],
+          options: ['[[goed|(incorrecto)]]', '[[went|fui]]', '[[gone|ido]]'],
           correctAnswer: 1,
           explanation: '[[Go|Ir]] → [[went|fui]]. [[Irregular verb|Verbo irregular]].',
         },
@@ -43,7 +43,7 @@ export const UNIT_3_LESSON_2_VOCABULARY: Exercise[] = [
       questions: [
         {
           question: '[[What|Cuál]] [[is|es]] [[the|el]] [[past|pasado]] [[of|de]] "[[see|ver]]"?',
-          options: ['[[seed|vi]]', '[[saw|vi]]', '[[seen|visto]]'],
+          options: ['[[seed|(incorrecto)]]', '[[saw|vi]]', '[[seen|visto]]'],
           correctAnswer: 1,
           explanation: '[[See|Ver]] → [[saw|vi]]. [[Irregular verb|Verbo irregular]].',
         },
@@ -83,7 +83,7 @@ export const UNIT_3_LESSON_2_VOCABULARY: Exercise[] = [
       questions: [
         {
           question: '[[What|Cuál]] [[is|es]] [[the|el]] [[past|pasado]] [[of|de]] "[[make|hacer]]"?',
-          options: ['[[maked|hizo]]', '[[made|hizo]]', '[[maded|hizo]]'],
+          options: ['[[maked|(incorrecto)]]', '[[made|hizo]]', '[[maded|(incorrecto)]]'],
           correctAnswer: 1,
           explanation: '[[Make|Hacer]] → [[made|hizo]]. [[Irregular verb|Verbo irregular]].',
         },

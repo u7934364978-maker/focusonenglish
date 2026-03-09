@@ -24,7 +24,7 @@ export const UNIT_2_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[I|Yo]] ____ [[to|a]] [[the|el]] [[park|parque]] [[yesterday|ayer]].',
-          options: ['walk', 'walked', 'walking'],
+          options: ['[[walk|andar]]', '[[walked|anduve]]', '[[walking|andando]]'],
           correctAnswer: 'walked',
           explanation: '[[Past Simple|Pasado Simple]]: [[verb|verbo]] + -ed. [[Walk|Caminar]] → [[walked|caminé]].',
         },
@@ -44,7 +44,7 @@ export const UNIT_2_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[She|Ella]] ____ [[her|su]] [[grandmother|abuela]] [[last week|la semana pasada]].',
-          options: ['visit', 'visited', 'visiting'],
+          options: ['[[visit|visitar]]', '[[visited|visitó]]', '[[visiting|visitando]]'],
           correctAnswer: 'visited',
           explanation: '[[Visit|Visitar]] → [[visited|visitó]]. [[Regular verb|Verbo regular]]: [[add|añade]] -ed.',
         },
@@ -64,7 +64,7 @@ export const UNIT_2_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[We|Nosotros]] ____ [[football|fútbol]] [[yesterday|ayer]].',
-          options: ['play', 'played', 'playing'],
+          options: ['[[play|jugar]]', '[[played|jugamos]]', '[[playing|jugando]]'],
           correctAnswer: 'played',
           explanation: '[[Play|Jugar]] → [[played|jugamos]]. [[Consonant|Consonante]] + y → [[played|jugamos]].',
         },
@@ -84,7 +84,7 @@ export const UNIT_2_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[He|Él]] ____ [[his|su]] [[homework|deberes]] [[two hours ago|hace dos horas]].',
-          options: ['finish', 'finished', 'finishing'],
+          options: ['[[finish|terminar]]', '[[finished|terminó]]', '[[finishing|terminando]]'],
           correctAnswer: 'finished',
           explanation: '[[Finish|Terminar]] → [[finished|terminó]]. [[Add|Añade]] -ed.',
         },
@@ -104,7 +104,7 @@ export const UNIT_2_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[They|Ellos]] ____ [[the|el]] [[film|película]] [[last night|anoche]].',
-          options: ['watch', 'watched', 'watching'],
+          options: ['[[watch|ver]]', '[[watched|vieron]]', '[[watching|viendo]]'],
           correctAnswer: 'watched',
           explanation: '[[Watch|Ver]] → [[watched|vieron]]. [[Add|Añade]] -ed.',
         },
@@ -208,7 +208,7 @@ export const UNIT_2_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[Which|Cuál]] [[is|es]] [[the|la]] [[correct|correcta]] [[past form|forma pasada]] [[of|de]] "[[cook|cocinar]]"?',
-          options: ['[[cook|coquió]]', '[[cooked|cocinó]]', '[[cooking|cocinando]]'],
+          options: ['[[cook|cocinar]]', '[[cooked|cocinó]]', '[[cooking|cocinando]]'],
           correctAnswer: 1,
           explanation: '[[Cook|Cocinar]] → [[cooked|cocinó]]. [[Regular verb|Verbo regular]]: [[add|añade]] -ed.',
         },

@@ -24,7 +24,7 @@ export const UNIT_10_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[I|Yo]] ____ [[to|a]] [[the|el]] [[park|parque]] [[yesterday|ayer]]. ([[walk|caminar]])',
-          options: ['walk', 'walked', 'walking'],
+          options: ['[[walk|andar]]', '[[walked|anduve]]', '[[walking|andando]]'],
           correctAnswer: 'walked',
           explanation: '[[Past Simple|Pasado Simple]] [[regular|regular]]: [[walk|Caminar]] → [[walked|caminé]].',
         },
@@ -44,7 +44,7 @@ export const UNIT_10_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[She|Ella]] ____ [[to|a]] [[London|Londres]] [[last year|el año pasado]]. ([[go|ir]])',
-          options: ['go', 'went', 'gone'],
+          options: ['[[go|ir]]', '[[went|fui]]', '[[gone|ido]]'],
           correctAnswer: 'went',
           explanation: '[[Go|Ir]] → [[went|fui]]. [[Irregular verb|Verbo irregular]].',
         },
@@ -64,7 +64,7 @@ export const UNIT_10_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[My|Mi]] [[brother|hermano]] [[is|es]] ____ [[than|que]] [[me|yo]]. ([[tall|alto]])',
-          options: ['tall', 'taller', 'tallest'],
+          options: ['[[tall|alto]]', '[[taller|más alto]]', '[[tallest|el más alto]]'],
           correctAnswer: 'taller',
           explanation: '[[Comparatives|Comparativos]]: [[tall|alto]] → [[taller|más alto]].',
         },
@@ -84,7 +84,7 @@ export const UNIT_10_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[She|Ella]] [[is|es]] ____ [[girl|chica]] [[in|en]] [[the|la]] [[class|clase]]. ([[tall|alto]])',
-          options: ['tall', 'taller', 'the tallest'],
+          options: ['[[tall|alto]]', '[[taller|más alto]]', '[[the tallest|el más alto]]'],
           correctAnswer: 'the tallest',
           explanation: '[[Superlatives|Superlativos]]: [[the tallest|la más alta]].',
         },
@@ -104,7 +104,7 @@ export const UNIT_10_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[She|Ella]] [[speaks|habla]] [[English|inglés]] ____. ([[fluent|fluido]])',
-          options: ['fluent', 'fluently', 'fluenter'],
+          options: ['[[fluent|fluido]]', '[[fluently|con fluidez]]', '[[fluenter|(incorrecto)]]'],
           correctAnswer: 'fluently',
           explanation: '[[Adverbs of manner|Adverbios de modo]]: [[fluent|fluido]] → [[fluently|con fluidez]].',
         },
@@ -124,7 +124,7 @@ export const UNIT_10_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[I|Yo]] [[get up|me levanto]] ____ [[7|7]] [[o\'clock|en punto]] [[every|cada]] [[morning|mañana]].',
-          options: ['at', 'on', 'in'],
+          options: ['[[at|a]]', '[[on|en]]', '[[in|en]]'],
           correctAnswer: 'at',
           explanation: '[[Prepositions of time|Preposiciones de tiempo]]: [[at|a]] = [[specific|específico]] [[time|hora]].',
         },
@@ -144,7 +144,7 @@ export const UNIT_10_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[She|Ella]] ____ [[into|en]] [[the|la]] [[room|habitación]] [[and|y]] [[closed|cerró]] [[the|la]] [[door|puerta]].',
-          options: ['go', 'went', 'going'],
+          options: ['[[go|ir]]', '[[went|fui]]', '[[going|yendo]]'],
           correctAnswer: 'went',
           explanation: '[[Go|Ir]] → [[went|fui]]. [[Into|En]] = [[preposition of movement|preposición de movimiento]].',
         },

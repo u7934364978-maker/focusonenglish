@@ -238,7 +238,7 @@ export const UNIT_4_LESSON_2_VOCABULARY: Exercise[] = [
       instructions: INSTRUCTIONS_FILL,
       questions: [
         {
-          question: '____ [[did|por qué]] [[he|él]] [[not|no]] [[come|venir]] [[to|a]] [[the|la]] [[party|fiesta]]?',
+          question: '____ [[did|(auxiliar)]] [[he|él]] [[not|no]] [[come|vino]] [[to|a]] [[the|la]] [[party|fiesta]]?',
           options: ['[[What|Qué]]', '[[Why|Por qué]]', '[[When|Cuándo]]'],
           correctAnswer: '[[Why|Por qué]]',
           explanation: '[[Why|Por qué]] [[asks|pregunta]] [[about|sobre]] [[reason|razón]].',

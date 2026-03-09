@@ -44,7 +44,7 @@ export const UNIT_1_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[I|Yo]] ____ [[in|en]] [[a|un]] [[quiet|tranquilo]] [[neighbourhood|barrio]].',
-          options: ['am', 'is', 'are'],
+          options: ['[[am|soy/estoy]]', '[[is|es]]', '[[are|eres]]'],
           correctAnswer: 'am',
           explanation: '[[With|Con]] "[[I|Yo]]" [[we|nosotros]] [[use|usamos]] "[[am|soy/estoy]]".',
         },
@@ -104,7 +104,7 @@ export const UNIT_1_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[She|Ella]] ____ [[in|en]] [[a|un]] [[small|pequeño]] [[flat|piso]].',
-          options: ['live', 'lives', 'living'],
+          options: ['[[live|vivo/vivir]]', '[[lives|vive]]', '[[living|viviendo]]'],
           correctAnswer: 'lives',
           explanation: '[[With|Con]] "[[she|ella]]" [[we|nosotros]] [[add|añadimos]] -s: [[she lives|ella vive]].',
         },

@@ -24,7 +24,7 @@ export const UNIT_8_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[I|Yo]] [[get up|me levanto]] ____ [[7|7]] [[o\'clock|en punto]] [[every|cada]] [[morning|mañana]].',
-          options: ['at', 'on', 'in'],
+          options: ['[[at|a]]', '[[on|en]]', '[[in|en]]'],
           correctAnswer: 'at',
           explanation: '[[At|A]] = [[specific|específico]] [[time|hora]]: [[at 7 o\'clock|a las 7 en punto]].',
         },
@@ -44,7 +44,7 @@ export const UNIT_8_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[I|Yo]] [[have|tengo]] [[a|una]] [[meeting|reunión]] ____ [[Monday|lunes]].',
-          options: ['at', 'on', 'in'],
+          options: ['[[at|a]]', '[[on|en]]', '[[in|en]]'],
           correctAnswer: 'on',
           explanation: '[[On|En]] = [[days|días]] [[of|de]] [[the|la]] [[week|semana]]: [[on Monday|el lunes]].',
         },
@@ -64,7 +64,7 @@ export const UNIT_8_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[We|Nosotros]] [[go|vamos]] [[on|de]] [[holiday|vacaciones]] ____ [[August|agosto]].',
-          options: ['at', 'on', 'in'],
+          options: ['[[at|a]]', '[[on|en]]', '[[in|en]]'],
           correctAnswer: 'in',
           explanation: '[[In|En]] = [[months|meses]], [[years|años]], [[seasons|estaciones]]: [[in August|en agosto]].',
         },
@@ -84,7 +84,7 @@ export const UNIT_8_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[The|El]] [[film|película]] [[starts|empieza]] ____ [[midnight|medianoche]].',
-          options: ['at', 'on', 'in'],
+          options: ['[[at|a]]', '[[on|en]]', '[[in|en]]'],
           correctAnswer: 'at',
           explanation: '[[At|A]] = [[midnight|medianoche]], [[noon|mediodía]], [[night|noche]]: [[at midnight|a medianoche]].',
         },
@@ -104,7 +104,7 @@ export const UNIT_8_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[My|Mi]] [[birthday|cumpleaños]] [[is|es]] ____ [[the|el]] [[15th|15]] [[of|de]] [[March|marzo]].',
-          options: ['at', 'on', 'in'],
+          options: ['[[at|a]]', '[[on|en]]', '[[in|en]]'],
           correctAnswer: 'on',
           explanation: '[[On|En]] = [[specific|fechas]] [[dates|específicas]]: [[on the 15th of March|el 15 de marzo]].',
         },
@@ -124,7 +124,7 @@ export const UNIT_8_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[I|Yo]] [[was born|nací]] ____ [[1990|1990]].',
-          options: ['at', 'on', 'in'],
+          options: ['[[at|a]]', '[[on|en]]', '[[in|en]]'],
           correctAnswer: 'in',
           explanation: '[[In|En]] = [[years|años]]: [[in 1990|en 1990]].',
         },

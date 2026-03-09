@@ -24,7 +24,7 @@ export const UNIT_4_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '____ [[did|hizo]] [[you|tú]] [[do|hacer]] [[yesterday|ayer]]?',
-          options: ['What', 'Where', 'Who'],
+          options: ['[[What|Qué]]', '[[Where|Dónde]]', '[[Who|Quién]]'],
           correctAnswer: 'What',
           explanation: '[[What|Qué]] = [[asks|pregunta]] [[about|sobre]] [[action|acción]] [[or|o]] [[thing|cosa]].',
         },
@@ -44,7 +44,7 @@ export const UNIT_4_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '____ [[did|fue]] [[you|tú]] [[go|ir]] [[last weekend|el fin de semana pasado]]?',
-          options: ['What', 'Where', 'When'],
+          options: ['[[What|Qué]]', '[[Where|Dónde]]', '[[When|Cuándo]]'],
           correctAnswer: 'Where',
           explanation: '[[Where|Dónde]] = [[asks|pregunta]] [[about|sobre]] [[place|lugar]].',
         },
@@ -64,7 +64,7 @@ export const UNIT_4_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '____ [[did|fue]] [[she|ella]] [[leave|irse]]?',
-          options: ['What', 'Where', 'When'],
+          options: ['[[What|Qué]]', '[[Where|Dónde]]', '[[When|Cuándo]]'],
           correctAnswer: 'When',
           explanation: '[[When|Cuándo]] = [[asks|pregunta]] [[about|sobre]] [[time|tiempo]].',
         },
@@ -84,7 +84,7 @@ export const UNIT_4_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '____ [[did|vió]] [[you|tú]] [[see|ver]] [[at|en]] [[the|el]] [[party|fiesta]]?',
-          options: ['What', 'Where', 'Who'],
+          options: ['[[What|Qué]]', '[[Where|Dónde]]', '[[Who|Quién]]'],
           correctAnswer: 'Who',
           explanation: '[[Who|Quién]] = [[asks|pregunta]] [[about|sobre]] [[person|persona]].',
         },
@@ -104,7 +104,7 @@ export const UNIT_4_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '____ [[did|por qué]] [[he|él]] [[leave|irse]] [[early|temprano]]?',
-          options: ['What', 'Why', 'When'],
+          options: ['[[What|Qué]]', '[[Why|Por qué]]', '[[When|Cuándo]]'],
           correctAnswer: 'Why',
           explanation: '[[Why|Por qué]] = [[asks|pregunta]] [[about|sobre]] [[reason|razón]].',
         },
@@ -124,7 +124,7 @@ export const UNIT_4_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '____ [[did|qué tan]] [[the|el]] [[exam|examen]] [[go|ir]]?',
-          options: ['What', 'How', 'Where'],
+          options: ['[[What|Qué]]', '[[How|Cómo]]', '[[Where|Dónde]]'],
           correctAnswer: 'How',
           explanation: '[[How|Cómo]] = [[asks|pregunta]] [[about|sobre]] [[manner|manera]] [[or|o]] [[degree|grado]].',
         },

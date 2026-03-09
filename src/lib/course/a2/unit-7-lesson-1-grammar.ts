@@ -24,7 +24,7 @@ export const UNIT_7_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[She|Ella]] [[runs|corre]] ____. ([[quick|rápido]])',
-          options: ['quick', 'quickly', 'quicker'],
+          options: ['[[quick|rápido]]', '[[quickly|rápidamente]]', '[[quicker|más rápido]]'],
           correctAnswer: 'quickly',
           explanation: '[[Adverbs of manner|Adverbios de modo]]: [[adjective|adjetivo]] + -ly. [[Quick|Rápido]] → [[quickly|rápidamente]].',
         },
@@ -44,7 +44,7 @@ export const UNIT_7_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[He|Él]] [[speaks|habla]] ____ [[because|porque]] [[he|él]] [[is|está]] [[tired|cansado]]. ([[slow|lento]])',
-          options: ['slow', 'slowly', 'slower'],
+          options: ['[[slow|lento]]', '[[slowly|lentamente]]', '[[slower|más lento]]'],
           correctAnswer: 'slowly',
           explanation: '[[Slow|Lento]] → [[slowly|lentamente]]. [[Adverb|Adverbio]] [[modifies|modifica]] [[verb|verbo]] [[speaks|habla]].',
         },
@@ -64,7 +64,7 @@ export const UNIT_7_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[She|Ella]] [[sings|canta]] ____. ([[good|bueno]])',
-          options: ['good', 'well', 'goodly'],
+          options: ['[[good|bueno]]', '[[well|bien]]', '[[goodly|(incorrecto)]]'],
           correctAnswer: 'well',
           explanation: '[[Good|Bueno]] [[is|es]] [[irregular|irregular]]: [[adverb|adverbio]] = [[well|bien]], [[not|no]] "[[goodly|buenamente]]".',
         },
@@ -84,7 +84,7 @@ export const UNIT_7_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[He|Él]] [[played|jugó]] ____ [[in|en]] [[the|el]] [[match|partido]]. ([[bad|malo]])',
-          options: ['bad', 'badly', 'badder'],
+          options: ['[[bad|malo]]', '[[badly|mal]]', '[[badder|(incorrecto)]]'],
           correctAnswer: 'badly',
           explanation: '[[Bad|Malo]] → [[badly|mal]]. [[Adverb|Adverbio]] [[modifies|modifica]] [[played|jugó]].',
         },
@@ -104,7 +104,7 @@ export const UNIT_7_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[They|Ellos]] [[work|trabajan]] ____. ([[careful|cuidadoso]])',
-          options: ['careful', 'carefully', 'carefuller'],
+          options: ['[[careful|cuidadoso]]', '[[carefully|cuidadosamente]]', '[[carefuller|(incorrecto)]]'],
           correctAnswer: 'carefully',
           explanation: '[[Careful|Cuidadoso]] → [[carefully|cuidadosamente]]. [[Adjective|Adjetivo]] [[ending|terminado]] [[in|en]] -ful: [[add|añade]] -ly.',
         },
@@ -124,7 +124,7 @@ export const UNIT_7_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[She|Ella]] [[answered|respondió]] ____ [[the|la]] [[question|pregunta]]. ([[correct|correcto]])',
-          options: ['correct', 'correctly', 'correcter'],
+          options: ['[[correct|correcto]]', '[[correctly|correctamente]]', '[[correcter|(incorrecto)]]'],
           correctAnswer: 'correctly',
           explanation: '[[Correct|Correcto]] → [[correctly|correctamente]]. [[Adjective|Adjetivo]] + -ly.',
         },

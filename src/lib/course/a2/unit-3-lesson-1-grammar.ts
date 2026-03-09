@@ -24,7 +24,7 @@ export const UNIT_3_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[I|Yo]] ____ [[to|a]] [[the|el]] [[cinema|cine]] [[yesterday|ayer]].',
-          options: ['go', 'went', 'gone'],
+          options: ['[[go|ir]]', '[[went|fui]]', '[[gone|ido]]'],
           correctAnswer: 'went',
           explanation: '[[Go|Ir]] → [[went|fui]]. [[Irregular verb|Verbo irregular]].',
         },
@@ -44,7 +44,7 @@ export const UNIT_3_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[She|Ella]] ____ [[a|una]] [[film|película]] [[last night|anoche]].',
-          options: ['see', 'saw', 'seen'],
+          options: ['[[see|ver]]', '[[saw|vi]]', '[[seen|visto]]'],
           correctAnswer: 'saw',
           explanation: '[[See|Ver]] → [[saw|vi]]. [[Irregular verb|Verbo irregular]].',
         },
@@ -64,7 +64,7 @@ export const UNIT_3_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[We|Nosotros]] ____ [[a|una]] [[great|genial]] [[time|tiempo]] [[at|en]] [[the|la]] [[party|fiesta]].',
-          options: ['have', 'had', 'having'],
+          options: ['[[have|tener]]', '[[had|tuvimos]]', '[[having|teniendo]]'],
           correctAnswer: 'had',
           explanation: '[[Have|Tener]] → [[had|tuvimos]]. [[Irregular verb|Verbo irregular]].',
         },
@@ -84,7 +84,7 @@ export const UNIT_3_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[He|Él]] ____ [[a|una]] [[cake|tarta]] [[for|para]] [[his|su]] [[birthday|cumpleaños]].',
-          options: ['make', 'made', 'making'],
+          options: ['[[make|hacer]]', '[[made|hizo]]', '[[making|haciendo]]'],
           correctAnswer: 'made',
           explanation: '[[Make|Hacer]] → [[made|hizo]]. [[Irregular verb|Verbo irregular]].',
         },
@@ -104,7 +104,7 @@ export const UNIT_3_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[I|Yo]] ____ [[a|una]] [[letter|carta]] [[to|a]] [[my|mi]] [[friend|amigo]] [[last week|la semana pasada]].',
-          options: ['write', 'wrote', 'written'],
+          options: ['[[write|escribir]]', '[[wrote|escribí]]', '[[written|escrito]]'],
           correctAnswer: 'wrote',
           explanation: '[[Write|Escribir]] → [[wrote|escribí]]. [[Irregular verb|Verbo irregular]].',
         },
@@ -124,7 +124,7 @@ export const UNIT_3_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[She|Ella]] ____ [[a|un]] [[new|nuevo]] [[dress|vestido]] [[yesterday|ayer]].',
-          options: ['buy', 'bought', 'buying'],
+          options: ['[[buy|comprar]]', '[[bought|compró]]', '[[buying|comprando]]'],
           correctAnswer: 'bought',
           explanation: '[[Buy|Comprar]] → [[bought|compró]]. [[Irregular verb|Verbo irregular]].',
         },

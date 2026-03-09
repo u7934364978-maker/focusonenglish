@@ -24,7 +24,7 @@ export const UNIT_9_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[She|Ella]] [[went|entró]] ____ [[the|la]] [[room|habitación]] [[and|y]] [[closed|cerró]] [[the|la]] [[door|puerta]].',
-          options: ['into', 'out of', 'through', 'across'],
+          options: ['[[into|dentro de]]', '[[out of|fuera de]]', '[[through|a través de]]', '[[across|a través de]]'],
           correctAnswer: 'into',
           explanation: '[[Into|Dentro de]] = [[movement|movimiento]] [[from|desde]] [[outside|fuera]] [[to|hacia]] [[inside|dentro]].',
         },
@@ -44,7 +44,7 @@ export const UNIT_9_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[He|Él]] [[ran|corrió]] ____ [[the|la]] [[building|edificio]] [[when|cuando]] [[he|él]] [[heard|oyó]] [[the|la]] [[fire alarm|alarma de incendios]].',
-          options: ['into', 'out of', 'through', 'across'],
+          options: ['[[into|dentro de]]', '[[out of|fuera de]]', '[[through|a través de]]', '[[across|a través de]]'],
           correctAnswer: 'out of',
           explanation: '[[Out of|Fuera de]] = [[movement|movimiento]] [[from|desde]] [[inside|dentro]] [[to|hacia]] [[outside|fuera]].',
         },
@@ -64,7 +64,7 @@ export const UNIT_9_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[We|Nosotros]] [[walked|caminamos]] ____ [[the|el]] [[park|parque]] [[to|para]] [[get|llegar]] [[to|a]] [[the|el]] [[other|otro]] [[side|lado]].',
-          options: ['into', 'out of', 'through', 'across'],
+          options: ['[[into|dentro de]]', '[[out of|fuera de]]', '[[through|a través de]]', '[[across|a través de]]'],
           correctAnswer: 'through',
           explanation: '[[Through|A través de]] = [[movement|movimiento]] [[from|desde]] [[one|un]] [[side|lado]] [[to|al]] [[other|otro]] [[inside|dentro]] [[something|algo]].',
         },
@@ -84,7 +84,7 @@ export const UNIT_9_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[The|El]] [[cat|gato]] [[ran|corrió]] ____ [[the|la]] [[street|calle]] [[to|para]] [[the|el]] [[other|otro]] [[side|lado]].',
-          options: ['into', 'out of', 'through', 'across'],
+          options: ['[[into|dentro de]]', '[[out of|fuera de]]', '[[through|a través de]]', '[[across|a través de]]'],
           correctAnswer: 'across',
           explanation: '[[Across|A través de]] = [[movement|movimiento]] [[from|desde]] [[one|un]] [[side|lado]] [[to|al]] [[other|otro]] [[of|de]] [[a|una]] [[surface|superficie]] ([[street|calle]], [[bridge|puente]]).',
         },
@@ -104,7 +104,7 @@ export const UNIT_9_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[I|Yo]] [[put|puse]] [[the|los]] [[books|libros]] ____ [[my|mi]] [[bag|bolso]].',
-          options: ['into', 'out of', 'through', 'across'],
+          options: ['[[into|dentro de]]', '[[out of|fuera de]]', '[[through|a través de]]', '[[across|a través de]]'],
           correctAnswer: 'into',
           explanation: '[[Into|Dentro de]] = [[movement|movimiento]] [[towards|hacia]] [[inside|dentro]]. [[Put into|Poner dentro de]].',
         },
@@ -124,7 +124,7 @@ export const UNIT_9_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[They|Ellos]] [[drove|condujeron]] ____ [[the|el]] [[tunnel|túnel]] [[to|para]] [[reach|alcanzar]] [[the|la]] [[city|ciudad]].',
-          options: ['into', 'out of', 'through', 'across'],
+          options: ['[[into|dentro de]]', '[[out of|fuera de]]', '[[through|a través de]]', '[[across|a través de]]'],
           correctAnswer: 'through',
           explanation: '[[Through|A través de]] = [[inside|dentro]] [[something|algo]] [[from|desde]] [[one|un]] [[end|extremo]] [[to|al]] [[other|otro]]. [[Through the tunnel|A través del túnel]].',
         },

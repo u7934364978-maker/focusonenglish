@@ -24,7 +24,7 @@ export const UNIT_5_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[My|Mi]] [[brother|hermano]] [[is|es]] ____ [[than|que]] [[me|yo]]. ([[tall|alto]])',
-          options: ['tall', 'taller', 'tallest'],
+          options: ['[[tall|alto]]', '[[taller|más alto]]', '[[tallest|el más alto]]'],
           correctAnswer: 'taller',
           explanation: '[[Short adjectives|Adjetivos cortos]]: [[add|añade]] -er. [[Tall|Alto]] → [[taller|más alto]].',
         },
@@ -44,7 +44,7 @@ export const UNIT_5_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[This|Este]] [[book|libro]] [[is|es]] ____ [[than|que]] [[that|ese]] [[one|uno]]. ([[interesting|interesante]])',
-          options: ['interesting', 'more interesting', 'most interesting'],
+          options: ['[[interesting|interesante]]', '[[more interesting|más interesante]]', '[[most interesting|el más interesante]]'],
           correctAnswer: 'more interesting',
           explanation: '[[Long adjectives|Adjetivos largos]]: [[use|usa]] [[more|más]] + [[adjective|adjetivo]].',
         },
@@ -64,7 +64,7 @@ export const UNIT_5_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[Summer|Verano]] [[is|es]] ____ [[than|que]] [[winter|invierno]]. ([[hot|caliente]])',
-          options: ['hot', 'hotter', 'hottest'],
+          options: ['[[hot|caliente]]', '[[hotter|más caliente]]', '[[hottest|el más caliente]]'],
           correctAnswer: 'hotter',
           explanation: '[[Hot|Caliente]]: [[double|doble]] [[consonant|consonante]] + -er → [[hotter|más caliente]].',
         },
@@ -84,7 +84,7 @@ export const UNIT_5_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[My|Mi]] [[car|coche]] [[is|es]] ____ [[than|que]] [[yours|el tuyo]]. ([[expensive|caro]])',
-          options: ['expensive', 'more expensive', 'expensiver'],
+          options: ['[[expensive|caro]]', '[[more expensive|más caro]]', '[[expensiver|(incorrecto)]]'],
           correctAnswer: 'more expensive',
           explanation: '[[Expensive|Caro]]: [[3+ syllables|3+ sílabas]] → [[more expensive|más caro]].',
         },
@@ -104,7 +104,7 @@ export const UNIT_5_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[She|Ella]] [[runs|corre]] ____ [[than|que]] [[me|yo]]. ([[fast|rápido]])',
-          options: ['fast', 'faster', 'fastest'],
+          options: ['[[fast|rápido]]', '[[faster|más rápido]]', '[[fastest|el más rápido]]'],
           correctAnswer: 'faster',
           explanation: '[[Fast|Rápido]]: [[add|añade]] -er → [[faster|más rápido]].',
         },
@@ -124,7 +124,7 @@ export const UNIT_5_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[This|Este]] [[film|película]] [[is|es]] ____ [[than|que]] [[the|la]] [[other|otra]]. ([[good|bueno]])',
-          options: ['good', 'gooder', 'better'],
+          options: ['[[good|bueno]]', '[[gooder|(incorrecto)]]', '[[better|mejor]]'],
           correctAnswer: 'better',
           explanation: '[[Good|Bueno]]: [[irregular|irregular]] → [[better|mejor]].',
         },

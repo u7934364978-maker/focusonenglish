@@ -24,7 +24,7 @@ export const UNIT_6_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[Mount Everest|El Monte Everest]] [[is|es]] ____ [[mountain|montaña]] [[in|en]] [[the|el]] [[world|mundo]]. ([[high|alto]])',
-          options: ['high', 'higher', 'the highest'],
+          options: ['[[high|alto]]', '[[higher|más alto]]', '[[the highest|el más alto]]'],
           correctAnswer: 'the highest',
           explanation: '[[Short adjectives|Adjetivos cortos]]: [[the|el]] + -est. [[High|Alto]] → [[the highest|el más alto]].',
         },
@@ -44,7 +44,7 @@ export const UNIT_6_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[She|Ella]] [[is|es]] ____ [[student|estudiante]] [[in|en]] [[the|la]] [[class|clase]]. ([[intelligent|inteligente]])',
-          options: ['intelligent', 'more intelligent', 'the most intelligent'],
+          options: ['[[intelligent|inteligente]]', '[[more intelligent|más inteligente]]', '[[the most intelligent|el más inteligente]]'],
           correctAnswer: 'the most intelligent',
           explanation: '[[Long adjectives|Adjetivos largos]]: [[the most|el más]] + [[adjective|adjetivo]].',
         },
@@ -64,7 +64,7 @@ export const UNIT_6_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[This|Este]] [[is|es]] ____ [[day|día]] [[of|de]] [[the|la]] [[year|año]]. ([[cold|frío]])',
-          options: ['cold', 'colder', 'the coldest'],
+          options: ['[[cold|frío]]', '[[colder|más frío]]', '[[the coldest|el más frío]]'],
           correctAnswer: 'the coldest',
           explanation: '[[Cold|Frío]] → [[the coldest|el más frío]]. [[Use|Usa]] [[in|en]] [[or|o]] [[of|de]].',
         },
@@ -84,7 +84,7 @@ export const UNIT_6_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[He|Él]] [[is|es]] ____ [[boy|chico]] [[in|en]] [[the|el]] [[school|colegio]]. ([[tall|alto]])',
-          options: ['tall', 'taller', 'the tallest'],
+          options: ['[[tall|alto]]', '[[taller|más alto]]', '[[the tallest|el más alto]]'],
           correctAnswer: 'the tallest',
           explanation: '[[Tall|Alto]] → [[the tallest|el más alto]]. [[Short adjectives|Adjetivos cortos]]: [[the|el]] + -est.',
         },
@@ -104,7 +104,7 @@ export const UNIT_6_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[This|Esta]] [[is|es]] ____ [[book|libro]] [[I|yo]] [[have ever|he jamás]] [[read|leído]]. ([[interesting|interesante]])',
-          options: ['interesting', 'more interesting', 'the most interesting'],
+          options: ['[[interesting|interesante]]', '[[more interesting|más interesante]]', '[[the most interesting|el más interesante]]'],
           correctAnswer: 'the most interesting',
           explanation: '[[Long adjectives|Adjetivos largos]]: [[the most|el más]] + [[adjective|adjetivo]].',
         },
@@ -124,7 +124,7 @@ export const UNIT_6_LESSON_1_GRAMMAR: Exercise[] = [
       questions: [
         {
           question: '[[July|Julio]] [[is|es]] ____ [[month|mes]] [[of|de]] [[the|el]] [[year|año]]. ([[hot|caliente]])',
-          options: ['hot', 'hotter', 'the hottest'],
+          options: ['[[hot|caliente]]', '[[hotter|más caliente]]', '[[the hottest|el más caliente]]'],
           correctAnswer: 'the hottest',
           explanation: '[[Hot|Caliente]]: [[double|doble]] [[consonant|consonante]] + -est → [[the hottest|el más caliente]].',
         },
