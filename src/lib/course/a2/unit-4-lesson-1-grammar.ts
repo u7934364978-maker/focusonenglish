@@ -103,7 +103,7 @@ export const UNIT_4_LESSON_1_GRAMMAR: Exercise[] = [
       instructions: INSTRUCTIONS_FILL,
       questions: [
         {
-          question: '____ [[did|por qué]] [[he|él]] [[leave|irse]] [[early|temprano]]?',
+          question: '____ [[did|(auxiliar)]] [[he|él]] [[leave|se fue]] [[early|temprano]]?',
           options: ['[[What|Qué]]', '[[Why|Por qué]]', '[[When|Cuándo]]'],
           correctAnswer: 'Why',
           explanation: '[[Why|Por qué]] = [[asks|pregunta]] [[about|sobre]] [[reason|razón]].',
@@ -123,7 +123,7 @@ export const UNIT_4_LESSON_1_GRAMMAR: Exercise[] = [
       instructions: INSTRUCTIONS_FILL,
       questions: [
         {
-          question: '____ [[did|qué tan]] [[the|el]] [[exam|examen]] [[go|ir]]?',
+          question: '____ [[did|(auxiliar)]] [[the|el]] [[exam|examen]] [[go|fue]]?',
           options: ['[[What|Qué]]', '[[How|Cómo]]', '[[Where|Dónde]]'],
           correctAnswer: 'How',
           explanation: '[[How|Cómo]] = [[asks|pregunta]] [[about|sobre]] [[manner|manera]] [[or|o]] [[degree|grado]].',
