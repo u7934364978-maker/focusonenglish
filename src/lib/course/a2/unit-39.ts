@@ -1,5 +1,7 @@
 import { Exercise } from '@/lib/exercise-generator';
 
+export const UNIT_TITLE = 'Zero Conditional: General Truths';
+
 export const UNIT_39_EXERCISES: Exercise[] = [
   {
     "id": "a2-u39-e1",

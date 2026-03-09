@@ -1,5 +1,7 @@
 import { Exercise } from '@/lib/exercise-generator';
 
+export const UNIT_TITLE = 'Weekend & Holiday Plans';
+
 export const UNIT_36_EXERCISES: Exercise[] = [
   {
     "id": "a2-u36-e1",

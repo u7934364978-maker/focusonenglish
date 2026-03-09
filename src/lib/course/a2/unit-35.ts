@@ -1,5 +1,7 @@
 import { Exercise } from '@/lib/exercise-generator';
 
+export const UNIT_TITLE = 'Travel Plans & Bookings';
+
 export const UNIT_35_EXERCISES: Exercise[] = [
   {
     "id": "a2-u35-e1",

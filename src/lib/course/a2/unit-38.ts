@@ -1,5 +1,7 @@
 import { Exercise } from '@/lib/exercise-generator';
 
+export const UNIT_TITLE = "Time Clauses: When, As soon as";
+
 export const UNIT_38_EXERCISES: Exercise[] = [
   {
     "id": "a2-u38-e1",

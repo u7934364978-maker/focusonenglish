@@ -1,5 +1,7 @@
 import { Exercise } from '@/lib/exercise-generator';
 
+export const UNIT_TITLE = 'Module 4 Review';
+
 export const UNIT_40_EXERCISES: Exercise[] = [
   {
     "id": "a2-u40-e1",

@@ -1,5 +1,7 @@
 import { Exercise } from '@/lib/exercise-generator';
 
+export const UNIT_TITLE = "Future with 'Present Continuous': Arrangements";
+
 export const UNIT_32_EXERCISES: Exercise[] = [
   {
     "id": "a2-u32-e1",

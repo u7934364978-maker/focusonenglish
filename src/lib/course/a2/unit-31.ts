@@ -1,5 +1,7 @@
 import { Exercise } from '@/lib/exercise-generator';
 
+export const UNIT_TITLE = "Future with 'Going to': Intentions";
+
 export const UNIT_31_EXERCISES: Exercise[] = [
   {
     "id": "a2-u31-e1",
