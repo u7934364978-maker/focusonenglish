@@ -1,0 +1,25 @@
+/**
+ * Índice de las lecciones de la Unidad 26 (A2).
+ */
+
+import { Exercise } from '@/lib/exercise-generator';
+import { UNIT_26_LESSON_3_READING } from './unit-26-lesson-3-reading';
+import { UNIT_26_LESSON_4_LISTENING } from './unit-26-lesson-4-listening';
+import { UNIT_26_LESSON_5_SPEAKING } from './unit-26-lesson-5-speaking';
+import { UNIT_26_LESSON_6_WRITING } from './unit-26-lesson-6-writing';
+
+export const UNIT_26_LESSONS = {
+  reading: UNIT_26_LESSON_3_READING,
+  listening: UNIT_26_LESSON_4_LISTENING,
+  speaking: UNIT_26_LESSON_5_SPEAKING,
+  writing: UNIT_26_LESSON_6_WRITING,
+} as const;
+
+export const UNIT_26_ALL_LESSONS: Exercise[][] = [
+  UNIT_26_LESSON_3_READING,
+  UNIT_26_LESSON_4_LISTENING,
+  UNIT_26_LESSON_5_SPEAKING,
+  UNIT_26_LESSON_6_WRITING,
+];
+
+export const UNIT_26_ALL_EXERCISES: Exercise[] = UNIT_26_ALL_LESSONS.flat();

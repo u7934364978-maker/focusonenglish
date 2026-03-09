@@ -18,16 +18,16 @@ import { UNIT_17_EXERCISES, UNIT_TITLE as UNIT_17_TITLE } from './unit-17';
 import { UNIT_18_EXERCISES, UNIT_TITLE as UNIT_18_TITLE } from './unit-18';
 import { UNIT_19_EXERCISES, UNIT_TITLE as UNIT_19_TITLE } from './unit-19';
 import { UNIT_20_EXERCISES, UNIT_TITLE as UNIT_20_TITLE } from './unit-20';
-import { UNIT_21_EXERCISES } from './unit-21';
-import { UNIT_22_EXERCISES } from './unit-22';
-import { UNIT_23_EXERCISES } from './unit-23';
-import { UNIT_24_EXERCISES } from './unit-24';
-import { UNIT_25_EXERCISES } from './unit-25';
-import { UNIT_26_EXERCISES } from './unit-26';
-import { UNIT_27_EXERCISES } from './unit-27';
-import { UNIT_28_EXERCISES } from './unit-28';
-import { UNIT_29_EXERCISES } from './unit-29';
-import { UNIT_30_EXERCISES } from './unit-30';
+import { UNIT_21_EXERCISES, UNIT_TITLE as UNIT_21_TITLE } from './unit-21';
+import { UNIT_22_EXERCISES, UNIT_TITLE as UNIT_22_TITLE } from './unit-22';
+import { UNIT_23_EXERCISES, UNIT_TITLE as UNIT_23_TITLE } from './unit-23';
+import { UNIT_24_EXERCISES, UNIT_TITLE as UNIT_24_TITLE } from './unit-24';
+import { UNIT_25_EXERCISES, UNIT_TITLE as UNIT_25_TITLE } from './unit-25';
+import { UNIT_26_EXERCISES, UNIT_TITLE as UNIT_26_TITLE } from './unit-26';
+import { UNIT_27_EXERCISES, UNIT_TITLE as UNIT_27_TITLE } from './unit-27';
+import { UNIT_28_EXERCISES, UNIT_TITLE as UNIT_28_TITLE } from './unit-28';
+import { UNIT_29_EXERCISES, UNIT_TITLE as UNIT_29_TITLE } from './unit-29';
+import { UNIT_30_EXERCISES, UNIT_TITLE as UNIT_30_TITLE } from './unit-30';
 
 export const A2_COURSE_CONTENT = {
   units: [
@@ -51,15 +51,15 @@ export const A2_COURSE_CONTENT = {
     { id: 18, title: UNIT_18_TITLE, exercises: UNIT_18_EXERCISES },
     { id: 19, title: UNIT_19_TITLE, exercises: UNIT_19_EXERCISES },
     { id: 20, title: UNIT_20_TITLE, exercises: UNIT_20_EXERCISES },
-    { id: 21, title: 'Inventions', exercises: UNIT_21_EXERCISES },
-    { id: 22, title: 'Rules & Laws', exercises: UNIT_22_EXERCISES },
-    { id: 23, title: 'Success', exercises: UNIT_23_EXERCISES },
-    { id: 24, title: 'Challenges', exercises: UNIT_24_EXERCISES },
-    { id: 25, title: 'The World', exercises: UNIT_25_EXERCISES },
-    { id: 26, title: 'Crime & Justice', exercises: UNIT_26_EXERCISES },
-    { id: 27, title: 'Arts', exercises: UNIT_27_EXERCISES },
-    { id: 28, title: 'Nature', exercises: UNIT_28_EXERCISES },
-    { id: 29, title: 'Society', exercises: UNIT_29_EXERCISES },
-    { id: 30, title: 'Course Review', exercises: UNIT_30_EXERCISES }
+    { id: 21, title: UNIT_21_TITLE, exercises: UNIT_21_EXERCISES },
+    { id: 22, title: UNIT_22_TITLE, exercises: UNIT_22_EXERCISES },
+    { id: 23, title: UNIT_23_TITLE, exercises: UNIT_23_EXERCISES },
+    { id: 24, title: UNIT_24_TITLE, exercises: UNIT_24_EXERCISES },
+    { id: 25, title: UNIT_25_TITLE, exercises: UNIT_25_EXERCISES },
+    { id: 26, title: UNIT_26_TITLE, exercises: UNIT_26_EXERCISES },
+    { id: 27, title: UNIT_27_TITLE, exercises: UNIT_27_EXERCISES },
+    { id: 28, title: UNIT_28_TITLE, exercises: UNIT_28_EXERCISES },
+    { id: 29, title: UNIT_29_TITLE, exercises: UNIT_29_EXERCISES },
+    { id: 30, title: UNIT_30_TITLE, exercises: UNIT_30_EXERCISES }
   ]
 };
