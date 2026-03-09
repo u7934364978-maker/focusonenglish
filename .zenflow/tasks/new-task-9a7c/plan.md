@@ -132,7 +132,8 @@ Crear artículos para los hubs vacíos restantes.
 
 Verificación: `npm run build`
 
-### [ ] Step: Fase 3 — Ampliar hubs escasos (trabajo/examenes)
+### [x] Step: Fase 3 — Ampliar hubs escasos (trabajo/examenes)
+<!-- chat-id: 1002fffe-c2e0-4900-8200-3a6372ef25a3 -->
 
 Crear artículos adicionales para hubs con 1-2 artículos en categorías trabajo y examenes.
 
