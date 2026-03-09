@@ -19,6 +19,7 @@ keywords:
   - practicar gramatica ingles
   - causative have get
   - impersonal passive english
+  - voz pasiva ingles
 date: '2026-03-02'
 category: gramatica
 author: David Torres

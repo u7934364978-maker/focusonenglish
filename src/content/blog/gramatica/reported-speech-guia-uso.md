@@ -16,6 +16,7 @@ keywords:
   - gramatica b2 c1
   - backshift ingles
   - reporting verbs list
+  - reported speech
 author: David Torres
 date: '2026-03-02'
 image: 'https://images.pexels.com/photos/301920/pexels-photo-301920.jpeg'
