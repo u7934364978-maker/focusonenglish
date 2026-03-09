@@ -13,6 +13,7 @@ keywords:
   - reported questions exercises pdf
   - reported speech commands and requests
   - reported questions
+  - reported speech
 canonical: >-
   https://www.focus-on-english.com/blog/gramatica/reported-speech-questions-commands
 image: 'https://images.pexels.com/photos/3184311/pexels-photo-3184311.jpeg'

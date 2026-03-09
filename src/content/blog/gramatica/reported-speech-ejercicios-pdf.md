@@ -13,6 +13,7 @@ keywords:
   - ejercicios reported speech pdf
   - reporting verbs exercises with answers pdf
   - reported speech questions pdf
+  - reported speech
 canonical: 'https://www.focus-on-english.com/blog/gramatica/reported-speech-ejercicios-pdf'
 image: 'https://images.pexels.com/photos/3184311/pexels-photo-3184311.jpeg'
 alt: Ejercicios de reported speech en formato PDF

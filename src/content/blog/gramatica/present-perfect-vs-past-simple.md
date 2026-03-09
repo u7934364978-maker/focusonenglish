@@ -16,6 +16,7 @@ keywords:
   - gramatica inglesa
   - ejercicios gramatica ingles
   - clases de gramatica en ingles gratis
+  - present perfect vs past simple
 date: '2026-03-02'
 category: gramatica
 author: David Torres

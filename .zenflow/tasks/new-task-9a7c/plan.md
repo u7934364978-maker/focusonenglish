@@ -60,7 +60,8 @@ Añadir keyword `phrasal verbs` al frontmatter de los 6 artículos del hub `phra
 - Editar `src/content/blog/gramatica/phrasal-verbs-guia-b2.md`
 - En cada uno: añadir `- phrasal verbs` a la lista `keywords` del frontmatter
 
-### [ ] Step: Fase 1 — Tagging fixes (reported-speech, voz-pasiva-ingles, present-perfect-vs-past-simple)
+### [x] Step: Fase 1 — Tagging fixes (reported-speech, voz-pasiva-ingles, present-perfect-vs-past-simple)
+<!-- chat-id: f888724d-e811-4081-a677-33f3506a7aa0 -->
 
 Añadir la keyword exacta del hub al frontmatter de los artículos de los hubs `reported-speech`, `voz-pasiva-ingles` y `present-perfect-vs-past-simple`.
 
