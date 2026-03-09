@@ -47,7 +47,8 @@ Save to `{@artifacts_path}/spec.md` with:
 
 Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 
-### [ ] Step: Fase 1 — Tagging fixes (phrasal-verbs hub)
+### [x] Step: Fase 1 — Tagging fixes (phrasal-verbs hub)
+<!-- chat-id: b67ffbcb-6e55-4be7-84f8-9a707421d1c9 -->
 
 Añadir keyword `phrasal verbs` al frontmatter de los 6 artículos del hub `phrasal-verbs`.
 
