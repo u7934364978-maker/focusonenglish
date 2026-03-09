@@ -109,7 +109,8 @@ Cada artículo debe tener frontmatter completo y contenido real en markdown.
 
 Verificación: `npm run build`
 
-### [ ] Step: Fase 3 — Nuevos artículos prioridad MEDIA (hubs vacíos temáticos)
+### [x] Step: Fase 3 — Nuevos artículos prioridad MEDIA (hubs vacíos temáticos)
+<!-- chat-id: a6a6a987-6915-42c0-a751-a6ca66ec2281 -->
 
 Crear artículos para los hubs vacíos restantes.
 
