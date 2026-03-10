@@ -48,6 +48,16 @@ import { UNIT_47_EXERCISES, UNIT_TITLE as UNIT_47_TITLE } from './unit-47';
 import { UNIT_48_EXERCISES, UNIT_TITLE as UNIT_48_TITLE } from './unit-48';
 import { UNIT_49_EXERCISES, UNIT_TITLE as UNIT_49_TITLE } from './unit-49';
 import { UNIT_50_EXERCISES, UNIT_TITLE as UNIT_50_TITLE } from './unit-50';
+import { UNIT_51_EXERCISES, UNIT_TITLE as UNIT_51_TITLE } from './unit-51';
+import { UNIT_52_EXERCISES, UNIT_TITLE as UNIT_52_TITLE } from './unit-52';
+import { UNIT_53_EXERCISES, UNIT_TITLE as UNIT_53_TITLE } from './unit-53';
+import { UNIT_54_EXERCISES, UNIT_TITLE as UNIT_54_TITLE } from './unit-54';
+import { UNIT_55_EXERCISES, UNIT_TITLE as UNIT_55_TITLE } from './unit-55';
+import { UNIT_56_EXERCISES, UNIT_TITLE as UNIT_56_TITLE } from './unit-56';
+import { UNIT_57_EXERCISES, UNIT_TITLE as UNIT_57_TITLE } from './unit-57';
+import { UNIT_58_EXERCISES, UNIT_TITLE as UNIT_58_TITLE } from './unit-58';
+import { UNIT_59_EXERCISES, UNIT_TITLE as UNIT_59_TITLE } from './unit-59';
+import { UNIT_60_EXERCISES, UNIT_TITLE as UNIT_60_TITLE } from './unit-60';
 
 export const B1_COURSE = {
   units: [
@@ -100,6 +110,16 @@ export const B1_COURSE = {
     { id: 47, title: UNIT_47_TITLE, exercises: UNIT_47_EXERCISES },
     { id: 48, title: UNIT_48_TITLE, exercises: UNIT_48_EXERCISES },
     { id: 49, title: UNIT_49_TITLE, exercises: UNIT_49_EXERCISES },
-    { id: 50, title: UNIT_50_TITLE, exercises: UNIT_50_EXERCISES }
+    { id: 50, title: UNIT_50_TITLE, exercises: UNIT_50_EXERCISES },
+    { id: 51, title: UNIT_51_TITLE, exercises: UNIT_51_EXERCISES },
+    { id: 52, title: UNIT_52_TITLE, exercises: UNIT_52_EXERCISES },
+    { id: 53, title: UNIT_53_TITLE, exercises: UNIT_53_EXERCISES },
+    { id: 54, title: UNIT_54_TITLE, exercises: UNIT_54_EXERCISES },
+    { id: 55, title: UNIT_55_TITLE, exercises: UNIT_55_EXERCISES },
+    { id: 56, title: UNIT_56_TITLE, exercises: UNIT_56_EXERCISES },
+    { id: 57, title: UNIT_57_TITLE, exercises: UNIT_57_EXERCISES },
+    { id: 58, title: UNIT_58_TITLE, exercises: UNIT_58_EXERCISES },
+    { id: 59, title: UNIT_59_TITLE, exercises: UNIT_59_EXERCISES },
+    { id: 60, title: UNIT_60_TITLE, exercises: UNIT_60_EXERCISES }
   ]
 };

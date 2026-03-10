@@ -80,6 +80,21 @@ async function B1PreviewContent() {
 
       {/* Course Selector */}
       <div className="max-w-7xl mx-auto px-4 py-12">
+        {/* Test final B1 */}
+        <Link
+          href="/curso-b1/test-final"
+          className="mb-8 flex items-center gap-4 rounded-2xl border-2 border-amber-200 bg-amber-50/80 p-4 transition-all hover:border-amber-300 hover:bg-amber-50"
+        >
+          <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-amber-100 text-2xl">
+            📋
+          </div>
+          <div className="min-w-0 flex-1">
+            <p className="font-bold text-slate-900">Test final B1</p>
+            <p className="text-sm text-slate-600">28 preguntas de gramática, vocabulario, lectura, escucha y escritura. Aprobado con ≥70%.</p>
+          </div>
+          <span className="shrink-0 text-sm font-semibold text-amber-700">Hacer test →</span>
+        </Link>
+
         <A1CourseSelector units={courseMetadata.units} courseId="ingles-b1" />
       </div>
     </div>

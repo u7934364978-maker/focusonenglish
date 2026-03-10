@@ -21,6 +21,9 @@ function UnitPreviewContent() {
   const [showLessonComplete, setShowLessonComplete] = useState(false);
   const [showUnitSummary, setShowUnitSummary] = useState(false);
   const [startTime] = useState(Date.now());
+  const [failedIndexes, setFailedIndexes] = useState<number[]>([]);
+
+  const isFinalTest = unitId === 'test-final';
 
   useEffect(() => {
     return () => {
@@ -41,26 +44,44 @@ function UnitPreviewContent() {
   useEffect(() => {
     async function loadUnit() {
       try {
-        const unitNumber = unitId.replace('unit-', '');
-        let unitModule;
-        try {
-          unitModule = await import(`@/lib/course/b1/unit-${unitNumber}`);
-        } catch (e) {
-          console.warn(`Failed to import with alias, trying relative path for unit-${unitNumber}`);
-          unitModule = await import(`../../../lib/course/b1/unit-${unitNumber}`);
-        }
-        const exportName = `UNIT_${unitNumber.toUpperCase().replace('-', '_')}_EXERCISES`;
-        const unitExercises = unitModule[exportName] || unitModule[`UNIT_${unitNumber}_EXERCISES`] || unitModule.default || unitModule.UNIT_1_EXERCISES;
-        if (!unitExercises || !Array.isArray(unitExercises)) {
-          setError(`No se encontraron ejercicios en el módulo unit-${unitNumber}`);
-          setExercises([]);
+        if (isFinalTest) {
+          const testModule = await import('@/lib/course/b1/final-test-b1');
+          const unitExercises = testModule.FINAL_TEST_B1_EXERCISES ?? [];
+          const title = testModule.FINAL_TEST_B1_TITLE ?? 'Test final B1';
+          setUnitTitle(title);
+          if (!unitExercises.length) {
+            setError('No se encontraron ejercicios del test final');
+            setExercises([]);
+          } else {
+            setExercises(unitExercises);
+            const indexParam = searchParams.get('index');
+            if (indexParam) {
+              const idx = parseInt(indexParam);
+              if (!isNaN(idx) && idx >= 0 && idx < unitExercises.length) setCurrentIndex(idx);
+            }
+          }
         } else {
-          setUnitTitle(unitModule.UNIT_TITLE || unitModule.title || `Unidad ${unitNumber}`);
-          setExercises(unitExercises);
-          const indexParam = searchParams.get('index');
-          if (indexParam) {
-            const idx = parseInt(indexParam);
-            if (!isNaN(idx) && idx >= 0 && idx < unitExercises.length) setCurrentIndex(idx);
+          const unitNumber = unitId.replace('unit-', '');
+          let unitModule;
+          try {
+            unitModule = await import(`@/lib/course/b1/unit-${unitNumber}`);
+          } catch (e) {
+            console.warn(`Failed to import with alias, trying relative path for unit-${unitNumber}`);
+            unitModule = await import(`../../../lib/course/b1/unit-${unitNumber}`);
+          }
+          const exportName = `UNIT_${unitNumber.toUpperCase().replace('-', '_')}_EXERCISES`;
+          const unitExercises = unitModule[exportName] || unitModule[`UNIT_${unitNumber}_EXERCISES`] || unitModule.default || unitModule.UNIT_1_EXERCISES;
+          if (!unitExercises || !Array.isArray(unitExercises)) {
+            setError(`No se encontraron ejercicios en el módulo unit-${unitNumber}`);
+            setExercises([]);
+          } else {
+            setUnitTitle(unitModule.UNIT_TITLE || unitModule.title || `Unidad ${unitNumber}`);
+            setExercises(unitExercises);
+            const indexParam = searchParams.get('index');
+            if (indexParam) {
+              const idx = parseInt(indexParam);
+              if (!isNaN(idx) && idx >= 0 && idx < unitExercises.length) setCurrentIndex(idx);
+            }
           }
         }
       } catch (err: any) {
@@ -70,7 +91,7 @@ function UnitPreviewContent() {
       }
     }
     loadUnit();
-  }, [unitId, searchParams]);
+  }, [unitId, searchParams, isFinalTest]);
 
   if (loading) return (
     <div className="min-h-screen flex items-center justify-center bg-slate-50">
@@ -116,21 +137,26 @@ function UnitPreviewContent() {
 
   if (showUnitSummary) {
     const durationMinutes = Math.round((Date.now() - startTime) / 60000);
+    const correctCount = exercises.length - failedIndexes.length;
+    const accuracy = exercises.length > 0 ? Math.round((correctCount / exercises.length) * 100) : 0;
+    const passed = isFinalTest ? accuracy >= 70 : true;
 
     return (
       <div className="min-h-screen flex items-center justify-center bg-slate-50 p-4">
         <div className="max-w-xl w-full bg-white rounded-[2rem] shadow-2xl p-12 text-center animate-in zoom-in duration-700">
-          <div className="w-32 h-32 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mx-auto mb-8 relative">
+          <div className={`w-32 h-32 rounded-full flex items-center justify-center mx-auto mb-8 relative ${passed ? 'bg-emerald-100 text-emerald-600' : 'bg-amber-100 text-amber-600'}`}>
             <Sparkles className="w-16 h-16" />
-            <div className="absolute -top-2 -right-2 bg-emerald-500 text-white p-3 rounded-full shadow-lg">
+            <div className={`absolute -top-2 -right-2 p-3 rounded-full shadow-lg ${passed ? 'bg-emerald-500' : 'bg-amber-500'} text-white`}>
               <CheckCircle className="w-6 h-6" />
             </div>
           </div>
           <h2 className="text-4xl font-black text-slate-900 mb-4 italic tracking-tight">
-            ¡UNIDAD COMPLETADA!
+            {isFinalTest ? 'Test final completado' : '¡UNIDAD COMPLETADA!'}
           </h2>
           <p className="text-slate-500 mb-10 text-xl font-medium">
-            Has finalizado todos los ejercicios de la Unidad {unitId.replace('unit-', '')}.
+            {isFinalTest
+              ? (passed ? 'Has superado el test B1. ¡Enhorabuena!' : 'No has alcanzado el 70%. Repasa y vuelve a intentarlo.')
+              : `Has finalizado todos los ejercicios de la Unidad ${unitId.replace('unit-', '')}.`}
           </p>
 
           <div className="grid grid-cols-2 gap-6 mb-10 text-left">
@@ -144,6 +170,16 @@ function UnitPreviewContent() {
             </div>
           </div>
 
+          {isFinalTest && (
+            <div className={`mb-10 rounded-2xl p-4 border-2 ${passed ? 'bg-emerald-50 border-emerald-200' : 'bg-amber-50 border-amber-200'}`}>
+              <p className="text-slate-400 text-sm font-bold uppercase mb-1">Resultado</p>
+              <p className="text-2xl font-black text-slate-800">
+                {accuracy}% — {passed ? 'Aprobado' : 'No aprobado'}
+              </p>
+              <p className="text-slate-600 text-sm mt-1">Aciertos: {correctCount}/{exercises.length}. Se requiere ≥70% para aprobar.</p>
+            </div>
+          )}
+
           <Link 
             href="/curso-b1"
             className="w-full bg-slate-900 text-white py-6 rounded-2xl font-black text-xl hover:bg-slate-800 transition-all shadow-xl flex items-center justify-center gap-3 transform hover:scale-[1.02] active:scale-95"
@@ -155,7 +191,7 @@ function UnitPreviewContent() {
     );
   }
 
-  if (showLessonComplete) {
+  if (showLessonComplete && !isFinalTest) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-slate-50 p-4">
         <div className="max-w-md w-full bg-white rounded-3xl shadow-2xl p-10 text-center animate-in zoom-in duration-500">
@@ -195,7 +231,7 @@ function UnitPreviewContent() {
             <Home className="w-6 h-6 text-slate-600" />
           </Link>
           <h1 className="font-black text-xl text-slate-800 uppercase tracking-tight">
-            B1: {unitTitle || `Unidad ${unitId.replace('unit-', '')}`}
+            B1: {isFinalTest ? unitTitle : `Unidad ${unitId.replace('unit-', '')}`}
             <span className="ml-4 text-slate-400 font-medium text-sm">
               Lección {lessonNumber} de {totalLessons} • Ejercicio {exerciseInLesson} de {exercisesInThisLesson}
             </span>
@@ -231,11 +267,14 @@ function UnitPreviewContent() {
         <ExerciseRenderer 
           key={currentExercise.id}
           exercise={currentExercise}
-          onComplete={() => {
+          onComplete={(result?: { success: boolean; score: number }) => {
             trackExerciseCompletion(unitId, currentIndex, exercises.length);
+            if (isFinalTest && result?.success === false) {
+              setFailedIndexes(prev => (prev.includes(currentIndex) ? prev : [...prev, currentIndex]));
+            }
             if (currentIndex === exercises.length - 1) {
               setShowUnitSummary(true);
-            } else if ((currentIndex + 1) % CHUNK_SIZE === 0) {
+            } else if (!isFinalTest && (currentIndex + 1) % CHUNK_SIZE === 0) {
               setShowLessonComplete(true);
             } else {
               setCurrentIndex(prev => prev + 1);
