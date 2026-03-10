@@ -1,6 +1,10 @@
 /** @type {import('next').NextConfig} */
+const path = require('path');
+
 const nextConfig = {
   compress: true,
+  // Fix Vercel build: use project root for file tracing (avoids multi-lockfile inference)
+  outputFileTracingRoot: path.join(__dirname),
   // Vercel deployment - native Next.js support
   typescript: {
     ignoreBuildErrors: true,
