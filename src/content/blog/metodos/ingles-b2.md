@@ -8,6 +8,7 @@ description: >-
   Alcanza la fluidez necesaria para trabajar y estudiar en el extranjero con
   nuestro curso B2. Prepárate para el First Certificate (FCE) y mejora tu perfil
   profesional.
+readTime: 5 min
 keywords:
   - curso inglés b2
   - nivel b2 ingles que es

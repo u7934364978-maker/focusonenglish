@@ -8,6 +8,7 @@ description: >-
   Guía de supervivencia para emergencias en inglés. Aprende frases clave de
   auxilio, cómo pedir ayuda médica y consejos de seguridad esenciales para tus
   viajes.
+readTime: 5 min
 keywords:
   - emergencias en inglés
   - frases de auxilio inglés

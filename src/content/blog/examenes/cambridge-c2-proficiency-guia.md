@@ -10,6 +10,7 @@ description: >-
   Guía de preparación para el examen C2 Proficiency (CPE) de Cambridge. Domina
   el inglés al más alto nivel académico y profesional con nuestros trucos y
   consejos.
+readTime: 4 min
 keywords:
   - preparacion cpe cambridge
   - ingles proficiency

@@ -8,6 +8,7 @@ description: >-
   Domina el inglés técnico para ingeniería y destaca en proyectos
   internacionales. Mejora tu comunicación técnica, redacción de informes y
   reuniones de equipo.
+readTime: 5 min
 keywords:
   - inglés para ingenieros
   - inglés técnico

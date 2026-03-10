@@ -8,6 +8,7 @@ description: >-
   Domina el inglés de negocios y proyecta una imagen profesional sólida. 
   Aprende a liderar reuniones, negociar con éxito y comunicar tus ideas 
   con impacto en entornos internacionales.
+readTime: 4 min
 keywords:
   - inglés para el trabajo
   - inglés profesional

@@ -8,6 +8,7 @@ description: >-
   Guía detallada sobre la voz pasiva con verbos de reporte. Aprende estructuras
   como 'It is said that' y 'He is said to be'. Ideal para niveles Advanced y
   Proficiency.
+readTime: 5 min
 keywords:
   - passive reporting verbs
   - passive of reporting verbs

@@ -10,7 +10,8 @@ export function SEOInterlinking({ relatedRoute, category }: SEOInterlinkingProps
   const routeMap: Record<string, string> = {
     trabajo: "ingles-para-trabajo",
     viajes: "ingles-para-viajar",
-    examenes: "aprender-ingles", // Redirect to hub if no specific course
+    gramatica: "gramatica-inglesa-guia",
+    examenes: "mejores-certificados-ingles-2026",
     metodos: "aprender-ingles",
     "material-estudio": "aprender-ingles",
   };
@@ -24,9 +25,12 @@ export function SEOInterlinking({ relatedRoute, category }: SEOInterlinkingProps
       href = "/blog/viajes/ingles-para-viajar";
     } else if (finalRoute === "ingles-para-trabajo") {
       href = "/blog/trabajo/ingles-para-trabajo";
+    } else if (finalRoute === "gramatica-inglesa-guia") {
+      href = "/blog/gramatica/gramatica-inglesa-guia";
+    } else if (finalRoute === "mejores-certificados-ingles-2026") {
+      href = "/blog/examenes/mejores-certificados-ingles-2026";
     } else {
       const slug = finalRoute.replace(/^ingles-/, "");
-      // Special case for B1
       if (slug === "b1") {
         href = "/blog/metodos/cursos-online-ingles-b1";
       } else {
@@ -42,6 +46,8 @@ export function SEOInterlinking({ relatedRoute, category }: SEOInterlinkingProps
     "ingles-b2": "Curso de Inglés B2",
     "ingles-para-viajar": "Curso de Inglés para Viajar",
     "ingles-para-trabajo": "Curso de Inglés para el Trabajo",
+    "gramatica-inglesa-guia": "Guía Completa de Gramática Inglesa",
+    "mejores-certificados-ingles-2026": "Guía de Certificados de Inglés 2026",
     "aprender-ingles": "Guía Maestra para Aprender Inglés",
   };
 
@@ -65,7 +71,7 @@ export function SEOInterlinking({ relatedRoute, category }: SEOInterlinkingProps
             href="/aprender-ingles"
             className="inline-flex items-center justify-center bg-white border-2 border-slate-200 text-slate-700 px-6 py-3 rounded-xl font-bold hover:border-coral-200 hover:bg-coral-50/30 transition-all"
           >
-            Guía "Aprender Inglés"
+            Guía &ldquo;Aprender Inglés&rdquo;
           </Link>
         )}
       </div>

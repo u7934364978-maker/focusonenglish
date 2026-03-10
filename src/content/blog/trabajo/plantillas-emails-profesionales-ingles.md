@@ -13,6 +13,7 @@ image: >-
 alt: Persona escribiendo un email profesional en inglés en su portátil
 canonical: >-
   https://www.focus-on-english.com/blog/trabajo/plantillas-emails-profesionales-ingles
+readTime: 5 min
 keywords:
   - emails profesionales ingles
   - plantillas email ingles

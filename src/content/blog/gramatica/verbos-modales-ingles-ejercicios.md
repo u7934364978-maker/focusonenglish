@@ -3,6 +3,7 @@ title: 'Ejercicios de Verbos Modales en Inglés: Práctica para Niveles B1-C1'
 description: >-
   Más de 50 ejercicios de verbos modales en inglés con soluciones. Practica Can,
   Could, Must, Should, May, Might y los Modales Perfectos con correcciones detalladas.
+readTime: 4 min
 excerpt: >-
   ¿Quieres dominar los verbos modales en inglés con práctica real? Esta guía de
   ejercicios cubre todos los niveles, desde A2 hasta C1, con correcciones paso a paso.

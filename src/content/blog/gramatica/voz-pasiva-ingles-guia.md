@@ -4,6 +4,7 @@ description: >-
   Domina la voz pasiva en inglés de forma definitiva. Incluye fórmulas para
   todos los tiempos, pasivas con doble objeto, estructuras causativas, la pasiva
   impersonal y ejemplos prácticos para niveles B1 a C1.
+readTime: 6 min
 excerpt: >-
   ¿Te cuesta entender cuándo y cómo usar la voz pasiva en inglés? En esta guía
   exhaustiva te enseñamos desde las transformaciones básicas hasta las

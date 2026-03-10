@@ -8,6 +8,7 @@ description: >-
   ¿Quieres aprender inglés pero no sabes por dónde empezar? 
   Nuestra guía de nivel A1 te da las herramientas esenciales para 
   construir una base sólida y perder el miedo al idioma.
+readTime: 3 min
 keywords:
   - curso inglés a1
   - aprender inglés desde cero

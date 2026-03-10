@@ -4,6 +4,7 @@ description: >-
   Guía actualizada de slang americano 2026. Aprende las expresiones coloquiales
   más usadas en Estados Unidos, desde el habla callejera hasta el lenguaje de
   Gen Z y las redes sociales.
+readTime: 5 min
 excerpt: >-
   El inglés americano que hablan en las calles, películas y redes sociales es
   muy diferente al que aparece en los libros. Actualiza tu vocabulario con los

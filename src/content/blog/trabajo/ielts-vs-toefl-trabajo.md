@@ -4,6 +4,7 @@ description: >-
   Comparamos IELTS y TOEFL desde una perspectiva profesional y migratoria.
   Descubre qué examen valoran más las empresas y cuál necesitas para tu visado
   en 2026.
+readTime: 3 min
 excerpt: >-
   ¿Buscas dar el salto internacional? Analizamos las diferencias clave entre
   IELTS y TOEFL para profesionales y te ayudamos a elegir el certificado que

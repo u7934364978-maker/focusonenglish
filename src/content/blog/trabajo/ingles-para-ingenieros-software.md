@@ -13,6 +13,7 @@ image: >-
 alt: Ingeniero de software trabajando en código con un equipo internacional remoto en inglés
 canonical: >-
   https://www.focus-on-english.com/blog/trabajo/ingles-para-ingenieros-software
+readTime: 6 min
 keywords:
   - ingles para ingenieros
   - ingles para ingenieros de software

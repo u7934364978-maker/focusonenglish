@@ -13,6 +13,7 @@ image: >-
 alt: Enfermera hablando en inglés con un paciente internacional en un hospital
 canonical: >-
   https://www.focus-on-english.com/blog/trabajo/vocabulario-ingles-medico-enfermeria
+readTime: 5 min
 keywords:
   - ingles medico
   - vocabulario ingles medico enfermeria

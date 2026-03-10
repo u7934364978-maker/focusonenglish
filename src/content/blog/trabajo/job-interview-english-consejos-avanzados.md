@@ -13,6 +13,7 @@ image: >-
 alt: Profesional senior en una entrevista de trabajo internacional hablando en inglés
 canonical: >-
   https://www.focus-on-english.com/blog/trabajo/job-interview-english-consejos-avanzados
+readTime: 5 min
 keywords:
   - job interview english
   - entrevista trabajo ingles avanzado

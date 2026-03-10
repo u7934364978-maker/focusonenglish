@@ -8,6 +8,7 @@ description: >-
   Domina el Reported Speech y los Reporting Verbs con nuestra guía completa para
   niveles B2, C1 y C2. Aprende reglas, estructuras y prepárate para tus exámenes
   de Cambridge.
+readTime: 5 min
 keywords:
   - reported speech estructura
   - reporting verbs en ingles

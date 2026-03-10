@@ -8,6 +8,7 @@ description: >-
   Domina el inglés para soporte y atención al cliente internacional. Aprende
   frases clave para gestionar llamadas, resolver problemas y ofrecer un servicio
   excelente.
+readTime: 6 min
 keywords:
   - inglés para atención al cliente
   - inglés para soporte

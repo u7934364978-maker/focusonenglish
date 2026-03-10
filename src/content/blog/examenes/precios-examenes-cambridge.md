@@ -8,6 +8,7 @@ description: >-
   Consulta los precios actualizados de los exámenes Cambridge para 2026. Tasas
   del First (FCE), Advanced (CAE) y PET. Descubre cuánto cuesta certificarse hoy
   mismo.
+readTime: 4 min
 keywords:
   - precios examenes cambridge
   - precio certificacion cambridge

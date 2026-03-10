@@ -4,6 +4,7 @@ description: >-
   Todo lo que necesitas saber sobre los niveles de inglés MCER. Qué puedes hacer
   en cada nivel, cómo saber tu nivel actual y cuánto tiempo necesitas para subir
   de A2 a B1, de B1 a B2 y de B2 a C1.
+readTime: 5 min
 excerpt: >-
   El Marco Común Europeo de Referencia (MCER) establece 6 niveles de inglés.
   Descubre qué significa cada uno, qué exámenes los certifican y cuántas horas

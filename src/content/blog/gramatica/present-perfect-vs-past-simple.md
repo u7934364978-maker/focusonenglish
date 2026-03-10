@@ -4,6 +4,7 @@ description: >-
   Aprende la diferencia entre Present Perfect y Past Simple en inglés. Guía
   definitiva con reglas, ejemplos avanzados, comparativa de marcadores y lista
   descargable.
+readTime: 4 min
 excerpt: >-
   ¿Dudas entre el Present Perfect y el Past Simple? En este artículo te
   explicamos las reglas de nivel Cambridge, los marcadores temporales y ejemplos

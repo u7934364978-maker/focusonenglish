@@ -13,6 +13,7 @@ image: >-
 alt: Candidato preparándose para una entrevista de trabajo en inglés con un reclutador
 canonical: >-
   https://www.focus-on-english.com/blog/trabajo/preparar-entrevista-trabajo-ingles
+readTime: 5 min
 keywords:
   - entrevista de trabajo en ingles
   - preparar entrevista trabajo ingles

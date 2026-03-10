@@ -4,6 +4,7 @@ description: >-
   Guía completa de slang inglés británico. Aprende las expresiones más usadas en
   el Reino Unido, desde el cockney londinense hasta el inglés informal del norte
   de Inglaterra.
+readTime: 4 min
 excerpt: >-
   El inglés que aprendes en los libros y el inglés que hablan en Londres, Manchester
   o Glasgow son cosas muy diferentes. Descubre el slang británico más usado y

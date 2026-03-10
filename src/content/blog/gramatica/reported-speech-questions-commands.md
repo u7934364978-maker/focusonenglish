@@ -8,6 +8,7 @@ description: >-
   Guía completa sobre cómo reportar preguntas (interrogativas) y órdenes
   (imperativos) en inglés. Aprende a usar 'if/whether', 'ask' y estructuras de
   infinitivo.
+readTime: 4 min
 keywords:
   - reported speech questions exercises pdf
   - reported speech commands exercises pdf

@@ -10,6 +10,7 @@ description: >-
   Descubre cómo aprobar el examen B1 de inglés en 2026. Guía detallada para
   Cambridge PET, Aptis y Linguaskill con estrategias de estudio, recursos
   gratuitos y consejos de examinadores.
+readTime: 4 min
 keywords:
   - preparacion examen b1 ingles
   - cambridge pet b1

@@ -4,6 +4,7 @@ description: >-
   Aprende los phrasal verbs avanzados de nivel C1 para el examen CAE de Cambridge
   y el inglés profesional formal. Lista con más de 50 verbos frasales de registro
   alto con ejemplos y estrategias de uso.
+readTime: 9 min
 excerpt: >-
   ¿Preparas el C1 Advanced o quieres sonar realmente sofisticado en inglés?
   Esta guía recopila los phrasal verbs avanzados más valorados en el CAE, el

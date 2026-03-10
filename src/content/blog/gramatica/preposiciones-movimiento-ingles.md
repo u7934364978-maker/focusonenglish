@@ -3,6 +3,7 @@ title: 'Preposiciones de Movimiento en Inglés: Guía de Uso'
 description: >-
   Domina To, Into, Across, Through, Onto y más. Incluye guía visual de
   preposiciones de movimiento en inglés y ejemplos para exámenes Cambridge.
+readTime: 4 min
 excerpt: >-
   Aprende a usar las preposiciones de movimiento en inglés con precisión. Guía
   académica con ejemplos prácticos, comparativas y lista imprimible.

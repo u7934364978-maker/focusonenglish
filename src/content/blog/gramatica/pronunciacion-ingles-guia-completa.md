@@ -3,6 +3,7 @@ title: 'Pronunciación en Inglés: Guía Completa Paso a Paso'
 description: >-
   Aprende la pronunciación en inglés desde cero con esta guía completa. Fonemas,
   acento, entonación y los errores más comunes de los hispanohablantes.
+readTime: 6 min
 excerpt: >-
   La pronunciación en inglés es el mayor reto para los hispanohablantes. Con esta
   guía completa dominarás los sonidos clave, el word stress y la entonación para

@@ -3,6 +3,7 @@ title: Preparar el B1 de Cambridge por tu cuenta en 2025
 description: >-
   Guía completa para aprobar el examen B1 de Cambridge estudiando solo.
   Recursos, consejos para el Speaking y cómo organizar tu plan de estudio.
+readTime: 4 min
 excerpt: >-
   Aprende a preparar el B1 de Cambridge por tu cuenta. Te damos las claves para
   dominar el Reading, Writing y cómo usar la IA para practicar el Speaking sin

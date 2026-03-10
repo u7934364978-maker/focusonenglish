@@ -4,6 +4,7 @@ description: >-
   Guía completa de costumbres y cultura británica para hispanohablantes. Desde
   el queuing hasta el humor inglés, descubre qué esperar cuando interactúas con
   británicos por primera vez.
+readTime: 6 min
 excerpt: >-
   Las normas sociales del Reino Unido son tan importantes como el idioma. Aprende
   las costumbres británicas que te evitarán malentendidos y te harán conectar con

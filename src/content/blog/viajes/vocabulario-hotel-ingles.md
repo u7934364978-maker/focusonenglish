@@ -4,6 +4,7 @@ description: >-
   Guía completa de inglés para hoteles. Aprende a hacer el check-in y check-out,
   pedir servicios, resolver problemas y comunicarte con el personal del hotel en
   inglés con total confianza.
+readTime: 6 min
 excerpt: >-
   Llegaste al hotel y te toca hablar en inglés. ¿Qué dices si la habitación
   tiene un problema? ¿Cómo pides más toallas? Esta guía te da todas las frases
