@@ -21,6 +21,12 @@ date: '2026-03-05'
 updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/466685/pexels-photo-466685.jpeg'
 category: metodos
+faqs:
+  - question: '¿Frases Completas para Sonarte Natural?'
+    answer: 'Aquí tienes algunas frases que combinan varios elementos de slang:'
+  - question: 'Cómo No Parecer Forzado al Usar Slang?'
+    answer: 'El slang solo funciona cuando surge de forma natural. Consejos:'
+
 ---
 
 Incluso si tienes un nivel B2 de inglés, es probable que pierdas bastantes conversaciones con americanos jóvenes. El **slang americano** evoluciona constantemente, especialmente con la influencia de las redes sociales, el hip-hop y la cultura de internet.

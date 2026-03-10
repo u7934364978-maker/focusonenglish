@@ -20,6 +20,16 @@ author: david-torres
 image: 'https://images.pexels.com/photos/5905709/pexels-photo-5905709.jpeg'
 canonical: >-
   https://www.focus-on-english.com/blog/examenes/preparar-b1-cambridge-por-cuenta-propia
+faqs:
+  - question: '¿Preparar el B1 de Cambridge por tu cuenta?'
+    answer: 'La respuesta corta es: Sí, es totalmente posible. El nivel B1 Preliminary (PET) de Cambridge certifica que tienes las bases necesarias para comunicarte en situaciones cotidianas, tanto de forma oral como escrita. Es un título clave para estudiantes universitarios, profesionales que buscan su primer...'
+  - question: '¿Conoce la Estructura del Examen (PET)?'
+    answer: 'No basta con "saber inglés"; tienes que ser un experto en el formato del examen. El B1 de Cambridge se divide en cuatro bloques que evalúan habilidades distintas y tienen pesos específicos en tu nota final:'
+  - question: '¿Crea un Calendario de 12 Semanas?'
+    answer: 'La organización es la diferencia entre el éxito y el abandono. No intentes aprenderlo todo en una noche. Divide tu preparación en fases:'
+  - question: '¿Conclusión?'
+    answer: 'Preparar el B1 por tu cuenta requiere compromiso, pero con herramientas como las que ofrecemos en Focus English, el camino es mucho más sencillo y efectivo. No solo aprobarás el examen, sino que realmente desarrollarás la capacidad de hablar el idioma en tu día a día profesional y personal.'
+
 ---
 
 ## Preparar el B1 de Cambridge por tu cuenta: Guía Completa

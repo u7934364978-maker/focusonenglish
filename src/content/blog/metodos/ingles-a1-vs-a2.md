@@ -18,6 +18,16 @@ updatedDate: '2026-03-10'
 category: metodos
 author: sara-mendez
 image: 'https://images.pexels.com/photos/5905711/pexels-photo-5905711.jpeg'
+faqs:
+  - question: '¿Inglés A1 vs A2: cuál es mejor?'
+    answer: 'Cuando empezamos a estudiar inglés, a menudo nos sentimos abrumados por las etiquetas de los niveles. El Marco Común Europeo de Referencia para las lenguas (MCER) es el estándar internacional que define la competencia lingüística, y divide el nivel básico en dos etapas críticas: A1 (Acceso) y A2...'
+  - question: '¿Nivel A1?'
+    answer: 'El nivel A1 es para quienes están teniendo su primer contacto serio con el idioma. En este punto, el inglés se siente como un rompecabezas de piezas sueltas. El objetivo principal es la supervivencia inmediata en situaciones muy predecibles.'
+  - question: '¿Nivel A2?'
+    answer: 'El nivel A2 es donde el inglés empieza a ser verdaderamente "usable". Aquí ya no solo sobrevives, sino que empiezas a compartir tu mundo y tu pasado. Es el nivel de la comunicación funcional.'
+  - question: '¿Cuáles son las estrategias clave?'
+    answer: 'Si sientes que te has estancado en las presentaciones básicas, aquí tienes el camino estratégico para avanzar:'
+
 ---
 
 ## Inglés A1 vs A2: ¿Cuál es tu Nivel Real y cómo Seguir Progresando?

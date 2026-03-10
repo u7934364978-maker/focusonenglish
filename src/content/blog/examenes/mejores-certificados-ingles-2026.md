@@ -24,6 +24,16 @@ related_routes:
   - ielts-vs-toefl-diferencias-cual-elegir
 image: 'https://images.pexels.com/photos/5905709/pexels-photo-5905709.jpeg'
 alt: Estudiante revisando opciones de certificados de inglés oficiales
+faqs:
+  - question: '¿Tu Título de Inglés en 2026?'
+    answer: 'Elegir una certificación de inglés en 2026 ya no se trata solo de "aprobar un examen", sino de entender qué ecosistema digital y qué validez se alinean con tu próximo gran paso. Ya sea que busques emigrar a Australia, entrar en una Ivy League o escalar a una posición directiva, existe un examen...'
+  - question: '¿El Trío de Oro?'
+    answer: 'Siguen dominando el mercado, pero sus formatos han evolucionado drásticamente para adaptarse a la demanda de resultados rápidos y flexibilidad.'
+  - question: '¿Cambridge English (B2, C1, C2)?'
+    answer: '- Enfoque: Evaluación profunda de la competencia lingüística real. - Novedad 2026: La transición al formato Cambridge English Digital es casi total. Ofrece una experiencia de examen más fluida (especialmente en Writing) y resultados en un tiempo récord de menos de una semana.'
+  - question: '¿IELTS (Academic & General Training)?'
+    answer: '- Enfoque: Inglés práctico para contextos académicos y migratorios. - Dato Clave: Sigue siendo el requisito indispensable para visados en el Reino Unido, Canadá y Australia. La versión IELTS on Computer permite elegir fechas casi a diario.'
+
 ---
 
 ## Tu Título de Inglés en 2026: Más que un Papel, una Estrategia

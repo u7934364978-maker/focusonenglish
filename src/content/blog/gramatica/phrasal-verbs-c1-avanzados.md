@@ -25,6 +25,16 @@ image: 'https://images.pexels.com/photos/1925536/pexels-photo-1925536.jpeg'
 alt: 'Estudiante avanzado preparando phrasal verbs de nivel C1 para el CAE de Cambridge'
 category: gramatica
 canonical: 'https://www.focus-on-english.com/blog/gramatica/phrasal-verbs-c1-avanzados'
+faqs:
+  - question: '¿¿Qué Hace a un Phrasal Verb "Avanzado"??'
+    answer: 'Un phrasal verb de nivel C1 se caracteriza por uno o más de estos rasgos:'
+  - question: '¿Phrasal Verbs Formales?'
+    answer: 'Una de las claves del C1 es saber cuándo usar el phrasal verb y cuándo el equivalente formal. Pero también existen phrasal verbs formales que son perfectamente apropiados en textos académicos:'
+  - question: '¿Three-Word Phrasal Verbs de Nivel C1?'
+    answer: 'Los phrasal verbs de tres palabras son especialmente frecuentes en niveles avanzados y casi siempre inseparables:'
+  - question: '¿Cuáles son las estrategias para el cae?'
+    answer: 'En la Part 4 (Key Word Transformation), los phrasal verbs avanzados son protagonistas. Aquí tienes patrones típicos:'
+
 ---
 
 Si ya conoces los phrasal verbs cotidianos y los de nivel B2, es hora de dar el salto al **nivel C1**. Los phrasal verbs avanzados son el sello que distingue a un usuario competente de un usuario verdaderamente experto del inglés.

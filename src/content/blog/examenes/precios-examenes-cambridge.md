@@ -23,6 +23,16 @@ related_routes:
   - preparacion-examen-b1-cambridge
 image: 'https://images.pexels.com/photos/4386339/pexels-photo-4386339.jpeg'
 alt: Calculadora y dinero representando los precios de exámenes
+faqs:
+  - question: '¿Precios Exámenes Cambridge 2026?'
+    answer: 'Si has decidido certificar tu nivel de inglés, una de las primeras y más importantes preguntas que te harás es: ¿cuánto cuesta el examen de Cambridge?. Obtener una certificación oficial no es solo un reto académico, sino también una inversión económica significativa que requiere planificación.'
+  - question: '¿Desglose de Precios Estimados por Niveles (2026)?'
+    answer: 'Los precios que mostramos a continuación son una media de los centros examinadores más importantes. Recuerda que cada centro puede aplicar ligeras variaciones.'
+  - question: '¿¿Cuánto cuesta el examen First (FCE) en 2026??'
+    answer: 'El precio del examen First es el más demandado. En 2026, la tasa estándar en la mayoría de centros es de 225€. Este precio suele incluir los derechos de examen y la emisión del certificado físico.'
+  - question: '¿Gastos Extra?'
+    answer: 'El precio de la matrícula no es siempre el coste final. Existen varios conceptos que pueden encarecer tu certificación:'
+
 ---
 
 ## Precios Exámenes Cambridge 2026: Guía Completa de Tasas e Inversión

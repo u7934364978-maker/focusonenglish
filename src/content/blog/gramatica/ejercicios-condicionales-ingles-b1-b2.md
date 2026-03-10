@@ -20,6 +20,16 @@ date: '2026-03-04'
 updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/8197543/pexels-photo-8197543.jpeg'
 category: gramatica
+faqs:
+  - question: '¿Bloque 1 — Zero Conditional?'
+    answer: 'El Zero Conditional expresa verdades universales o hechos que siempre ocurren. Estructura: If + present simple, present simple'
+  - question: '¿Bloque 2 — First Conditional?'
+    answer: 'El First Conditional se usa para situaciones posibles o probables en el futuro. Estructura: If + present simple, will + infinitivo'
+  - question: '¿Bloque 3 — Second Conditional?'
+    answer: 'El Second Conditional expresa situaciones imaginarias o contrarias a la realidad en el presente. Estructura: If + past simple, would + infinitivo'
+  - question: '¿Bloque 4 — Third Conditional?'
+    answer: 'El Third Conditional se usa para situaciones hipotéticas en el pasado — algo que no ocurrió. Estructura: If + past perfect, would have + participio'
+
 ---
 
 Los **condicionales en inglés** son uno de los puntos gramaticales que más se evalúan en los exámenes Cambridge. En esta guía de ejercicios, trabajaremos los cuatro tipos con correcciones detalladas para que identifiques exactamente dónde fallas y por qué.

@@ -17,6 +17,16 @@ keywords:
 canonical: 'https://www.focus-on-english.com/blog/gramatica/reporting-verbs-patterns-list'
 image: 'https://images.pexels.com/photos/3184311/pexels-photo-3184311.jpeg'
 alt: Lista de patrones de verbos de reporte
+faqs:
+  - question: '¿Reporting Verbs Patterns?'
+    answer: 'Si quieres que tu inglés suene natural y profesional, no puedes depender eternamente de los verbos say y tell. Aunque son correctos, su uso excesivo hace que tu discurso sea plano y poco preciso. Aquí es donde entran los reporting verbs.'
+  - question: '¿¿Por qué son tan importantes los patrones verbales??'
+    answer: 'En inglés, el significado de lo que dices a menudo depende de la estructura que sigue al verbo. Un error común es aplicar el patrón de un verbo a otro (ej. decir ~~He suggested to go~~ porque He wanted to go es correcto). Sin embargo, suggest requiere un gerundio o una cláusula con that.'
+  - question: '¿Clasificación por Patrones Gramaticales?'
+    answer: 'He dividido los verbos de reporte en los cinco patrones más frecuentes que encontrarás en contextos académicos y profesionales.'
+  - question: '¿Verbo + To + Infinitivo (Verb + To-Infinitive)?'
+    answer: 'Este patrón se utiliza cuando el hablante se compromete o decide realizar una acción. - Agree: He agreed to help with the project. - Offer: She offered to carry the heavy bags. - Promise: They promised to arrive on time for the meeting.'
+
 ---
 
 ## Reporting Verbs Patterns: Lista Completa y Guía de Uso

@@ -23,6 +23,16 @@ updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/301920/pexels-photo-301920.jpeg'
 category: gramatica
 canonical: 'https://www.focus-on-english.com/blog/gramatica/reported-speech-guia-uso'
+faqs:
+  - question: '¿¿Qué es exactamente el Reported Speech??'
+    answer: 'En inglés, tenemos dos formas de reportar lo que alguien dijo: 1.  Direct Speech: "I am tired," said John. (Repetimos las palabras exactas entre comillas). 2.  Reported Speech: John said that he was tired. (Adaptamos el mensaje a nuestro momento y perspectiva actual).'
+  - question: '¿La Regla de Oro?'
+    answer: 'Cuando el verbo que introduce el reporte (llamado reporting verb, como say o tell) está en pasado, el tiempo verbal del mensaje original debe retroceder un paso en el tiempo. A esto le llamamos Backshift.'
+  - question: '¿Cambios en Expresiones de Tiempo y Lugar?'
+    answer: 'Al reportar algo, el "aquí y ahora" del hablante original suele ser "allí y entonces" para nosotros. Por eso, debemos ajustar los adverbios de tiempo y lugar.'
+  - question: '¿Preguntas en Reported Speech?'
+    answer: 'Transformar preguntas es donde la mayoría de los estudiantes comete errores. La regla clave es: la pregunta deja de serlo. Esto significa que: 1.  El orden de las palabras vuelve a ser el de una afirmación (Sujeto + Verbo). 2.  No se usan los auxiliares do, does o did.'
+
 ---
 
 El **Reported Speech** (o estilo indirecto) es una de las herramientas más potentes y, a la vez, desafiantes de la gramática inglesa. Se utiliza fundamentalmente cuando queremos transmitir lo que otra persona ha dicho, pero sin repetir sus palabras exactas (lo que se conoce como *Direct Speech*). 

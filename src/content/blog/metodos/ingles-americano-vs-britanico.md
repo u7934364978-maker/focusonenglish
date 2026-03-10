@@ -19,6 +19,16 @@ date: '2026-03-07'
 updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg'
 category: metodos
+faqs:
+  - question: '¿Cuáles son las diferencias de pronunciación?'
+    answer: 'Este es el área donde las diferencias son más evidentes para el oído.'
+  - question: '¿El sonido /r/ post-vocálico?'
+    answer: 'La diferencia más característica entre ambas variedades.'
+  - question: '¿La vocal /æ/ vs /ɑː/: cuál es mejor?'
+    answer: 'En palabras como bath, path, dance, glass, can''t, after: - Americano: vocal corta /æ/ — bath = /bæθ/ - Británico: vocal larga /ɑː/ — bath = /bɑːθ/'
+  - question: '¿La vocal /ɒ/ vs /ɑː/: cuál es mejor?'
+    answer: 'En palabras como hot, stop, lot, box: - Americano: /ɑː/ — hot = /hɑːt/ - Británico: /ɒ/ (redondeada) — hot = /hɒt/'
+
 ---
 
 Una de las preguntas más frecuentes entre estudiantes de inglés es: **¿debo aprender inglés americano o inglés británico?** Ambas variedades son mutuamente inteligibles y ampliamente aceptadas en contextos internacionales, pero tienen diferencias importantes que conviene conocer.

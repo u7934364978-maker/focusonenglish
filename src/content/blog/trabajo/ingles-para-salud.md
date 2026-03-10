@@ -26,6 +26,16 @@ related_routes:
 image: >-
   https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg
 alt: Médico atendiendo a un paciente en inglés
+faqs:
+  - question: '¿Curso de Inglés para el Sector Salud?'
+    answer: 'En el ámbito de la salud, la comunicación no es solo una habilidad complementaria; es un factor crítico para la seguridad del paciente y la eficacia del tratamiento. Si eres médico, enfermero, auxiliar, fisioterapeuta o estudiante de ciencias de la salud, dominar el inglés médico te abre las puertas...'
+  - question: '¿Atención al Paciente?'
+    answer: 'La atención al paciente en inglés requiere una habilidad dual: saber comunicarse con precisión técnica ante los colegas y saber traducir esos conceptos complejos a un lenguaje comprensible (layman''s terms) para el paciente y su familia.'
+  - question: '¿Términos Técnicos vs. Lenguaje Coloquial: cuál es mejor?'
+    answer: 'Es vital saber cuándo usar cada registro para no asustar al paciente:'
+  - question: '¿El Protocolo SPIKES para Dar Malas Noticias?'
+    answer: 'En situaciones críticas, la estructura del mensaje es fundamental para mantener la ética y la compasión: 1.  Setting: Preparar el entorno. "Could we go to a private room for a moment?" 2.  Perception: Evaluar qué sabe el paciente. "What is your understanding of your condition so far?"'
+
 ---
 
 ## Curso de Inglés para el Sector Salud: Comunicación Crítica para Profesionales

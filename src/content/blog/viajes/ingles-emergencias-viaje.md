@@ -20,6 +20,16 @@ related_routes:
   - ingles-hoteles-guia
 image: 'https://images.pexels.com/photos/2582937/pexels-photo-2582937.jpeg'
 alt: Emergencias médicas durante un viaje
+faqs:
+  - question: '¿Emergencias en Inglés?'
+    answer: 'Nadie quiere pensar en imprevistos negativos durante un viaje soñado, pero estar preparado para lo peor es la mejor manera de disfrutar de lo mejor. Conocer las emergencias en inglés más comunes y saber cómo reaccionar bajo presión puede marcar la diferencia entre un susto pasajero y una situación...'
+  - question: '¿Frases de Auxilio en Inglés?'
+    answer: 'Cuando ocurre algo grave, no hay tiempo para gramática compleja. Necesitas ser directo, ruidoso y claro. Estas son las frases de auxilio en inglés que debes tener grabadas en tu memoria:'
+  - question: '¿Emergencias Médicas y Salud?'
+    answer: 'Si te sientes mal, has tenido un accidente o estás presenciando uno, los paramédicos te harán preguntas rápidas. Poder dar información precisa sobre tu estado o el de otra persona es vital.'
+  - question: '¿Pérdidas y Robos?'
+    answer: 'Ser víctima de un delito en el extranjero es estresante. Para realizar la denuncia correctamente y proteger tu seguridad en viajes inglés, usa estas estructuras:'
+
 ---
 
 ## Emergencias en Inglés: Guía de Supervivencia y Seguridad

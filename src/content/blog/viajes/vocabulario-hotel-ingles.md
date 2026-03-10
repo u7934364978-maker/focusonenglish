@@ -21,6 +21,16 @@ date: '2026-03-04'
 updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg'
 category: viajes
+faqs:
+  - question: '¿Frases que usarás en el check-in?'
+    answer: '→ Tengo una reserva a nombre de [tu nombre].'
+  - question: '¿Preguntas en Recepción?'
+    answer: 'Preguntas habituales que tendrás o que te harán:'
+  - question: '¿Resolver Problemas en el Hotel?'
+    answer: 'Esta es la parte que más miedo da. Aquí tienes las frases exactas para cada situación:'
+  - question: '¿La habitación tiene un problema?'
+    answer: '→ Disculpe, estoy en la habitación 215. Parece que hay un problema con el aire acondicionado / la calefacción.'
+
 ---
 
 Has llegado al hotel después de un largo viaje. En la recepción te espera un anglófono. Esta guía te da exactamente las frases y el vocabulario que necesitas para manejar cualquier situación en un hotel inglés — desde el **check-in** hasta resolver un problema con tu habitación.

@@ -21,6 +21,16 @@ date: '2026-03-05'
 updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/3060654/pexels-photo-3060654.jpeg'
 category: gramatica
+faqs:
+  - question: '¿¿Qué son los Mixed Conditionals??'
+    answer: 'Los Mixed Conditionals combinan elementos de dos tipos de condicionales para hablar de:'
+  - question: '¿Mixed Type A?'
+    answer: 'Usamos este tipo cuando queremos decir: "Si algo hubiera pasado en el pasado (pero no pasó), las cosas serían diferentes ahora."'
+  - question: '¿Mixed Type B?'
+    answer: 'Usamos este tipo cuando decimos: "Si (ahora mismo) yo fuera diferente, entonces (en el pasado) las cosas habrían sido distintas."'
+  - question: 'Cómo Distinguirlos?'
+    answer: 'Busca marcadores temporales para identificar el tipo:'
+
 ---
 
 Si ya dominas el **Zero, First, Second y Third Conditional**, el siguiente paso es entender los **Mixed Conditionals** — estructuras que mezclan tiempos de diferentes condicionales para expresar relaciones más complejas entre el pasado y el presente. Son indispensables en el examen **Cambridge C1 Advanced** y en cualquier comunicación escrita sofisticada.

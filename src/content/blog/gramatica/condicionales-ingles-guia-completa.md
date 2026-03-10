@@ -19,6 +19,16 @@ date: '2026-03-02'
 updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg'
 category: gramatica
+faqs:
+  - question: '¿Qué es zero conditional y cómo se usa?'
+    answer: 'Se utiliza para hechos generales, leyes científicas o verdades que siempre ocurren.'
+  - question: '¿Qué es first conditional y cómo se usa?'
+    answer: 'Se usa para situaciones futuras que son muy probables o posibles.'
+  - question: '¿Qué es second conditional y cómo se usa?'
+    answer: 'Se utiliza para hablar de situaciones imaginarias o poco probables en el presente o futuro. También se usa para dar consejos.'
+  - question: '¿Qué es third conditional y cómo se usa?'
+    answer: 'Se usa para hablar de situaciones que no ocurrieron en el pasado y sus consecuencias imaginarias. Es el condicional de los arrepentimientos.'
+
 ---
 
 Los **condicionales en inglés** son estructuras que utilizamos para hablar de situaciones reales o imaginarias y sus consecuencias. En el nivel académico (B1 a C1), dominar estas formas es crucial para expresar hipótesis, arrepentimientos o verdades universales.

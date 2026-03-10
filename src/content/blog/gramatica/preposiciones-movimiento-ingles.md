@@ -19,6 +19,16 @@ date: '2026-03-02'
 updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/157811/pexels-photo-157811.jpeg'
 category: gramatica
+faqs:
+  - question: '¿� Material de Estudio?'
+    answer: 'Puedes usar esta tabla para repasar o imprimirla para tus sesiones de estudio.'
+  - question: '¿Verbos de Movimiento Comunes?'
+    answer: 'Estas preposiciones suelen ir acompañadas de verbos específicos. Aprenderlos en parejas (colocaciones) te ayudará a memorizarlos:'
+  - question: '¿� Lista de Ejemplos para Práctica (Versión Imprimible)?'
+    answer: 'Copia estas frases para practicar tu traducción y comprensión:'
+  - question: '¿¿Se puede usar "In" en lugar de "Into"??'
+    answer: 'En inglés coloquial, a veces verás Go in the house. Sin embargo, en un examen académico o escrito, Into es la única forma correcta para indicar movimiento hacia el interior.'
+
 ---
 
 Las **preposiciones de movimiento** (Prepositions of Movement) son fundamentales para dar dinamismo a tu inglés. Mientras que las preposiciones de lugar describen dónde está algo, las de movimiento describen **hacia dónde va**.

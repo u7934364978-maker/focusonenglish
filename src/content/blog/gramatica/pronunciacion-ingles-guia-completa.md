@@ -19,6 +19,16 @@ date: '2026-03-05'
 updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/1036622/pexels-photo-1036622.jpeg'
 category: gramatica
+faqs:
+  - question: '¿Los Sonidos del Inglés que No Existen en Español?'
+    answer: 'El primer paso es conocer los sonidos que tu boca nunca ha tenido que producir en español. Estos son los más críticos:'
+  - question: '¿El sonido /θ/ (TH sorda) y /ð/ (TH sonora)?'
+    answer: 'Son el símbolo más icónico de la fonética inglesa. Para producirlos, coloca la lengua entre los dientes.'
+  - question: '¿El sonido /æ/ (A corta)?'
+    answer: 'Es la "a" de cat, hat, man, back. Más abierta y tensa que la "a" española. Abre la mandíbula y estira los labios hacia los lados.'
+  - question: '¿El sonido /ɪ/ vs /iː/ (I corta vs I larga): cuál es mejor?'
+    answer: '- /ɪ (corta, relajada): bit, sit, this, live - /iː/ (larga, tensa): beat, seat, these, leave'
+
 ---
 
 La **pronunciación en inglés** es el área que más frustra a los estudiantes hispanohablantes. A diferencia del español, el inglés no es un idioma fonético: la relación entre escritura y sonido es compleja e irregular. Sin embargo, existen patrones y reglas que, una vez interiorizados, transforman radicalmente tu fluidez.

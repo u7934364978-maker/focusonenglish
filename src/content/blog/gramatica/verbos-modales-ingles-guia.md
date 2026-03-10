@@ -19,6 +19,16 @@ date: '2026-03-02'
 updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/301920/pexels-photo-301920.jpeg'
 category: gramatica
+faqs:
+  - question: '¿Las 4 Reglas de Oro (Nivel Académico)?'
+    answer: 'Antes de profundizar, graba estas reglas en tu mente. Son las que marcan la diferencia en un examen oficial: 1. Invariabilidad: No llevan "-s", "-ed" o "-ing". Siempre mantienen su forma base. 2. Infinitivo Nudo (Bare Infinitive): Van seguidos directamente por el verbo sin "to" (She can dance, no...'
+  - question: '¿� Material de Estudio?'
+    answer: 'Puedes usar esta tabla como referencia rápida para tus estudios o imprimirla como material de apoyo.'
+  - question: '¿Profundización?'
+    answer: 'En los exámenes B2 First y C1 Advanced, es vital saber especular sobre hechos pasados y presentes:'
+  - question: '¿En el Pasado (Modales Perfectos)?'
+    answer: 'Se forman con Modal + Have + Participio.'
+
 ---
 
 Los **verbos modales** son piezas angulares de la fluidez en inglés. Como profesor de Cambridge, a menudo veo que los alumnos dominan el significado básico pero fallan en los matices de cortesía o en las deducciones lógicas.

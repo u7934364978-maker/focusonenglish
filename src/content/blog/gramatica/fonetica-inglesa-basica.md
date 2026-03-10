@@ -19,6 +19,16 @@ date: '2026-03-06'
 updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/267669/pexels-photo-267669.jpeg'
 category: gramatica
+faqs:
+  - question: '¿¿Qué es un Fonema??'
+    answer: 'Un fonema es la unidad mínima de sonido que distingue el significado de una palabra. El inglés tiene 44 fonemas a pesar de tener solo 26 letras, lo que explica la aparente irregularidad entre escritura y pronunciación.'
+  - question: '¿Vocales Cortas (Short Vowels)?'
+    answer: 'Son vocales breves y relajadas. Son las que más dificultan a los hispanohablantes porque no tienen equivalente exacto en español.'
+  - question: '¿Vocales Largas (Long Vowels)?'
+    answer: 'Son vocales tensas y prolongadas. Se indican con el símbolo ː en el IPA.'
+  - question: '¿Diptongos (Diphthongs)?'
+    answer: 'Los diptongos son combinaciones de dos sonidos vocálicos dentro de la misma sílaba. El inglés tiene 8 diptongos.'
+
 ---
 
 La **fonética inglesa** es la ciencia que estudia los sonidos del inglés. Para los hispanohablantes, dominar los conceptos básicos de fonética es una inversión que multiplica la velocidad de aprendizaje: permite leer diccionarios con precisión, entender por qué una palabra suena diferente a como se escribe y desarrollar una pronunciación realmente inteligible.

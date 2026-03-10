@@ -21,6 +21,16 @@ date: '2026-03-05'
 updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg'
 category: metodos
+faqs:
+  - question: '¿Expresiones de Chat y Comunicación en Partida?'
+    answer: 'Estas son las frases más comunes en el chat de cualquier juego online:'
+  - question: '¿El Inglés de Twitch y Streaming?'
+    answer: 'Si ves streams o haces streaming tú mismo, este vocabulario es esencial:'
+  - question: '¿El Vocabulario de Discord?'
+    answer: 'Discord es la plataforma de comunicación número uno de gamers. Su jerga propia:'
+  - question: 'Cómo Mejorar tu Inglés Jugando?'
+    answer: 'Los videojuegos son una herramienta de aprendizaje infrautilizada. Estrategias para aprender inglés jugando:'
+
 ---
 
 La comunidad gaming es mayoritariamente angloparlante. Si juegas a cualquier juego online — desde *Fortnite* hasta *League of Legends* o *CS2* — entender el **inglés gamer** no es opcional: es una ventaja competitiva real.

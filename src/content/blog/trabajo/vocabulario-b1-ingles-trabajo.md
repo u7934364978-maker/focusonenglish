@@ -17,6 +17,16 @@ related_routes:
   - ingles-b1
 image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg'
 alt: Vocabulario de trabajo para nivel B1
+faqs:
+  - question: '¿Vocabulario Esencial Inglés B1?'
+    answer: 'El nivel B1 (Intermedio) marca un antes y un después en el aprendizaje del inglés. Es el nivel en el que dejas de ser un "superviviente" lingüístico para convertirte en un comunicador independiente. Según el Marco Común Europeo de Referencia (MCER), en este nivel debes ser capaz de desenvolverte en...'
+  - question: '¿Temas Clave de Vocabulario B1?'
+    answer: 'En nuestro curso online de inglés B1, priorizamos el vocabulario que realmente vas a usar en situaciones de la vida real. No se trata de memorizar diccionarios, sino de adquirir herramientas comunicativas.'
+  - question: '¿El Mundo del Trabajo y las Profesiones?'
+    answer: 'En el nivel B1, se espera que no solo nombres tu profesión, sino que describas tus responsabilidades diarias, tu horario y tus ambiciones.'
+  - question: '¿Viajes, Turismo y Transporte?'
+    answer: 'Esta es quizás el área donde más se nota el salto del A2 al B1. Ahora debes ser capaz de resolver problemas, como una pérdida de equipaje o una reserva cancelada.'
+
 ---
 
 ## Vocabulario Esencial Inglés B1: Domina la Comunicación

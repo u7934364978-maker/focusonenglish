@@ -23,6 +23,16 @@ related_routes:
   - ingles-b1
 image: 'https://images.pexels.com/photos/8867431/pexels-photo-8867431.jpeg'
 alt: Profesional de atención al cliente hablando inglés
+faqs:
+  - question: '¿Curso de Inglés para Atención al Cliente?'
+    answer: 'La atención al cliente en inglés (Customer Service) se ha convertido en el pilar fundamental de las empresas que operan a nivel global. En un entorno internacional, ser capaz de resolver dudas, gestionar reclamaciones con empatía y ofrecer un soporte técnico preciso no es solo una ventaja...'
+  - question: '¿El Arte de la Bienvenida?'
+    answer: 'La atención al cliente inglés empieza por una primera impresión impecable. El tono debe ser profesional, servicial y, sobre todo, seguro. No se trata solo de las palabras, sino de la entonación y el registro que utilices según el tipo de empresa.'
+  - question: '¿Escucha Activa y Empatía?'
+    answer: 'Cuando un cliente tiene un problema, lo primero que busca es ser escuchado y comprendido. Usa estas frases de atención al cliente inglés para validar sus sentimientos y reducir la tensión:'
+  - question: '¿Resolución de Problemas?'
+    answer: 'En el soporte escrito, la claridad es más importante que la gramática perfecta. Los clientes suelen escanear los correos en lugar de leerlos palabra por palabra.'
+
 ---
 
 ## Curso de Inglés para Atención al Cliente: Excelencia en el Servicio Global

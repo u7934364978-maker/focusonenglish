@@ -23,6 +23,16 @@ related_routes:
   - mejores-certificados-ingles-2026
 image: 'https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg'
 alt: Aprendiendo inglés nivel maestría C2
+faqs:
+  - question: '¿¿Qué significa realmente tener un Nivel C2??'
+    answer: 'El nivel C2 es el techo del aprendizaje de idiomas. Un usuario C2 es capaz de comprender con facilidad prácticamente todo lo que oye o lee, independientemente de la complejidad del tema o del acento del interlocutor. Pero la verdadera maestría se demuestra en la producción: la capacidad de...'
+  - question: '¿Cuáles son las diferencias clave?'
+    answer: 'Muchos estudiantes se preguntan: "¿Vale la pena el esfuerzo de pasar del C1 al C2?". La respuesta corta es sí, especialmente si trabajas en entornos de alto nivel.'
+  - question: '¿Maestría en Matices e Idiomatismo Natural?'
+    answer: 'A nivel C2, el objetivo es eliminar cualquier rastro de "extranjerismo". Esto se logra a través de:'
+  - question: '¿Preparación para el Cambridge C2 Proficiency (CPE)?'
+    answer: 'El examen C2 Proficiency (CPE) es el título más prestigioso de Cambridge. Su obtención certifica ante universidades y empresas de todo el mundo que has alcanzado el nivel de maestría.'
+
 ---
 
 El **Nivel C2 (Mastery)** representa la cumbre de la competencia lingüística según el Marco Común Europeo de Referencia (MCER). En 2026, poseer un certificado C2 no es simplemente "saber mucho inglés"; es demostrar que puedes usar el idioma con la misma precisión, riqueza y agilidad que un hablante nativo con una formación académica superior. 

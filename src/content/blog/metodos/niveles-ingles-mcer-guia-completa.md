@@ -21,6 +21,16 @@ date: '2026-03-04'
 updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/5428261/pexels-photo-5428261.jpeg'
 category: metodos
+faqs:
+  - question: '¿Los 6 Niveles MCER de Inglés?'
+    answer: 'El MCER divide el conocimiento de idiomas en tres grupos y seis niveles:'
+  - question: '¿Nivel A1 — Iniciación?'
+    answer: 'En el nivel A1 puedes: - Presentarte y presentar a otras personas - Hacer y responder preguntas sobre información personal básica - Interactuar de forma elemental cuando el interlocutor habla despacio'
+  - question: '¿Nivel A2 — Plataforma?'
+    answer: 'En el nivel A2 puedes: - Comunicarte en tareas rutinarias que requieren intercambios simples - Describir aspectos de tu pasado, entorno inmediato y cuestiones de necesidad inmediata - Pedir y dar indicaciones básicas'
+  - question: '¿Nivel B1 — Umbral?'
+    answer: 'El nivel B1 es el primero de los "independientes". Es el nivel mínimo para trabajar en entornos internacionales básicos.'
+
 ---
 
 El **Marco Común Europeo de Referencia para las Lenguas** (MCER, o CEFR en inglés) es el sistema estándar internacional para describir y medir las habilidades lingüísticas. Si alguna vez te has preguntado qué significa exactamente tener un B2 de inglés, o cuánto tiempo necesitas para pasar de B1 a C1, esta guía te da todas las respuestas.

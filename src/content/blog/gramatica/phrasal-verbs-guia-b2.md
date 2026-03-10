@@ -24,6 +24,16 @@ image: 'https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg'
 alt: 'Lista definitiva de phrasal verbs B2 para el First Certificate FCE'
 category: gramatica
 canonical: 'https://www.focus-on-english.com/blog/gramatica/phrasal-verbs-guia-b2'
+faqs:
+  - question: '¿¿Qué son los Phrasal Verbs y por qué son clave en el B2??'
+    answer: 'Un phrasal verb es la combinación de un verbo + una partícula (preposición o adverbio). La clave académica es entender que el significado resultante suele ser idiomático, es decir, no se puede deducir traduciendo las palabras por separado.'
+  - question: '¿Cuáles son las tipos de phrasal verbs (nivel avanzado)?'
+    answer: 'Para un examen de Cambridge, debes distinguir perfectamente entre:'
+  - question: '¿Clasificación temática?'
+    answer: 'Agrupar los verbos por contexto (trabajo, salud, relaciones) ayuda a crear conexiones neuronales más fuertes.'
+  - question: '¿� Material de Estudio?'
+    answer: 'Aquí tienes la lista más completa para tu nivel B2. Te recomendamos copiar este material o imprimirlo para tus sesiones de estudio.'
+
 ---
 
 Los **phrasal verbs** son el "talón de Aquiles" de muchos estudiantes que preparan el nivel B2. Sin embargo, en el nivel **Intermedio-Alto (B2 First)**, dejar de usarlos no es una opción si quieres sonar natural y aprobar el *Use of English* del First Certificate (FCE).
