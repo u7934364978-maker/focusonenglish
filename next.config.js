@@ -42,7 +42,7 @@ const nextConfig = {
       },
       {
         source: '/rutas/ingles-para-hosteleria',
-        destination: '/blog/trabajo/ingles-para-hosteleria',
+        destination: '/blog/trabajo/ingles-para-camareros-y-hosteleria',
         statusCode: 301,
       },
       {
@@ -137,7 +137,7 @@ const nextConfig = {
       },
       {
         source: '/curso-ingles-para-hosteleria',
-        destination: '/blog/trabajo/ingles-para-hosteleria',
+        destination: '/blog/trabajo/ingles-para-camareros-y-hosteleria',
         statusCode: 301,
       },
       {
@@ -214,12 +214,12 @@ const nextConfig = {
       },
       {
         source: '/blog/trabajo/business-english-emails',
-        destination: '/blog/trabajo/emails-profesionales-ingles',
+        destination: '/blog/trabajo/plantillas-emails-profesionales-ingles',
         statusCode: 301,
       },
       {
         source: '/blog/trabajo/entrevistas-trabajo-ingles-guia',
-        destination: '/blog/trabajo/entrevista-trabajo-exito',
+        destination: '/blog/trabajo/preparar-entrevista-trabajo-ingles',
         statusCode: 301,
       },
       {
@@ -258,8 +258,8 @@ const nextConfig = {
         statusCode: 301,
       },
       {
-        source: '/blog/trabajo/entrevista-trabajo-ingles-preguntas',
-        destination: '/blog/trabajo/entrevista-trabajo-exito',
+        source: '/blog/trabajo/entrevista-trabajo-exito',
+        destination: '/blog/trabajo/preparar-entrevista-trabajo-ingles',
         statusCode: 301,
       },
       {
@@ -279,7 +279,7 @@ const nextConfig = {
       },
       {
         source: '/blog/trabajo/ingles-entrevistas-remotas-exito',
-        destination: '/blog/trabajo/entrevista-trabajo-exito',
+        destination: '/blog/trabajo/preparar-entrevista-trabajo-ingles',
         statusCode: 301,
       },
       {
@@ -550,6 +550,58 @@ const nextConfig = {
       {
         source: '/blog/gramatica-basica-ingles-a1-principiantes',
         destination: '/blog/metodos/ingles-a1',
+        statusCode: 301,
+      },
+
+      // ANTI-CANIBALIZACIÓN - Artículos duplicados fusionados
+      {
+        source: '/blog/trabajo/ingles-presentaciones-impacto',
+        destination: '/blog/trabajo/como-hacer-presentaciones-en-ingles',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/trabajo/presentaciones-ingles-guia',
+        destination: '/blog/trabajo/como-hacer-presentaciones-en-ingles',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/trabajo/emails-profesionales-ingles',
+        destination: '/blog/trabajo/plantillas-emails-profesionales-ingles',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/trabajo/redaccion-emails-profesionales-ingles',
+        destination: '/blog/trabajo/plantillas-emails-profesionales-ingles',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/trabajo/entrevista-trabajo-ingles-frases',
+        destination: '/blog/trabajo/preparar-entrevista-trabajo-ingles',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/examenes/cambridge-b2-first-guia',
+        destination: '/blog/examenes/cambridge-b2-first-estrategias-aprobar',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/examenes/guia-b2-first-fce',
+        destination: '/blog/examenes/cambridge-b2-first-estrategias-aprobar',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/examenes/linguaskill-cambridge-guia',
+        destination: '/blog/examenes/guia-linguaskill-cambridge',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/trabajo/ingles-para-hosteleria',
+        destination: '/blog/trabajo/ingles-para-camareros-y-hosteleria',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/viajes/ingles-para-camareros-guia',
+        destination: '/blog/trabajo/ingles-para-camareros-y-hosteleria',
         statusCode: 301,
       },
 

@@ -36,18 +36,6 @@ export const authors: Record<string, Author> = {
       linkedin: "https://linkedin.com/company/focusonenglish"
     }
   },
-  "lidia": {
-    slug: "sara-mendez",
-    name: "Sara Méndez",
-    role: "Profesora de Inglés Certificada | Metodología y Tecnología",
-    bio: "Profesora de inglés con más de 9 años de experiencia ayudando a adultos hispanohablantes a alcanzar la fluidez. Especializada en metodologías de aprendizaje acelerado e integración de IA en la enseñanza de idiomas. Ha formado a más de 800 profesionales en sectores como tecnología, sanidad y finanzas.",
-    image: "https://images.pexels.com/photos/3184325/pexels-photo-3184325.jpeg",
-    expertise: ["Metodologías de aprendizaje", "Inglés para Negocios", "Aprendizaje con IA", "Inglés B2-C1"],
-    social: {
-      linkedin: "https://linkedin.com/company/focusonenglish",
-      instagram: "https://instagram.com/focusonenglish"
-    }
-  },
   "focus-english-team": {
     slug: "focus-english-team",
     name: "Focus English Team",
