@@ -14,12 +14,16 @@ function UnitPreviewContent() {
   const searchParams = useSearchParams();
   const unitId = params.unitId as string;
   const [exercises, setExercises] = useState<any[]>([]);
+  const [unitTitle, setUnitTitle] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [showLessonComplete, setShowLessonComplete] = useState(false);
   const [showUnitSummary, setShowUnitSummary] = useState(false);
   const [startTime] = useState(Date.now());
+  const [failedIndexes, setFailedIndexes] = useState<number[]>([]);
+
+  const isFinalTest = unitId === 'test-final';
 
   useEffect(() => {
     return () => {
@@ -31,32 +35,52 @@ function UnitPreviewContent() {
   }, [unitId, startTime]);
 
   useEffect(() => {
+    if (showUnitSummary && exercises.length > 0) {
+      const durationMinutes = Math.round((Date.now() - startTime) / 60000);
+      trackUnitCompletion(unitId, exercises.length, durationMinutes);
+    }
+  }, [showUnitSummary]);
+
+  useEffect(() => {
     async function loadUnit() {
       try {
-        const unitNumber = unitId.replace('unit-', '');
-        
-        let unitModule;
-        try {
-          unitModule = await import(`@/lib/course/a2/unit-${unitNumber}`);
-        } catch (e) {
-          console.warn(`Failed to import with alias, trying relative path for unit-${unitNumber}`);
-          unitModule = await import(`../../../lib/course/a2/unit-${unitNumber}`);
-        }
-        
-        const exportName = `UNIT_${unitNumber.toUpperCase().replace('-', '_')}_EXERCISES`;
-        const unitExercises = unitModule[exportName] || unitModule[`UNIT_${unitNumber}_EXERCISES`] || unitModule.default || unitModule.UNIT_1_EXERCISES;
-        
-        if (!unitExercises || !Array.isArray(unitExercises)) {
-          setError(`No se encontraron ejercicios en el módulo unit-${unitNumber}`);
-          setExercises([]);
+        if (isFinalTest) {
+          const testModule = await import('@/lib/course/a2/final-test-a2');
+          const unitExercises = testModule.FINAL_TEST_A2_EXERCISES ?? [];
+          const title = testModule.FINAL_TEST_A2_TITLE ?? 'Test final A2';
+          setUnitTitle(title);
+          if (!unitExercises.length) {
+            setError('No se encontraron ejercicios del test final');
+            setExercises([]);
+          } else {
+            setExercises(unitExercises);
+            const indexParam = searchParams.get('index');
+            if (indexParam) {
+              const idx = parseInt(indexParam);
+              if (!isNaN(idx) && idx >= 0 && idx < unitExercises.length) setCurrentIndex(idx);
+            }
+          }
         } else {
-          setExercises(unitExercises);
-          
-          const indexParam = searchParams.get('index');
-          if (indexParam) {
-            const idx = parseInt(indexParam);
-            if (!isNaN(idx) && idx >= 0 && idx < unitExercises.length) {
-              setCurrentIndex(idx);
+          const unitNumber = unitId.replace('unit-', '');
+          let unitModule;
+          try {
+            unitModule = await import(`@/lib/course/a2/unit-${unitNumber}`);
+          } catch (e) {
+            console.warn(`Failed to import with alias, trying relative path for unit-${unitNumber}`);
+            unitModule = await import(`../../../lib/course/a2/unit-${unitNumber}`);
+          }
+          const exportName = `UNIT_${unitNumber.toUpperCase().replace('-', '_')}_EXERCISES`;
+          const unitExercises = unitModule[exportName] || unitModule[`UNIT_${unitNumber}_EXERCISES`] || unitModule.default || unitModule.UNIT_1_EXERCISES;
+          if (!unitExercises || !Array.isArray(unitExercises)) {
+            setError(`No se encontraron ejercicios en el módulo unit-${unitNumber}`);
+            setExercises([]);
+          } else {
+            setUnitTitle(unitModule.UNIT_TITLE || unitModule.title || `Unidad ${unitNumber}`);
+            setExercises(unitExercises);
+            const indexParam = searchParams.get('index');
+            if (indexParam) {
+              const idx = parseInt(indexParam);
+              if (!isNaN(idx) && idx >= 0 && idx < unitExercises.length) setCurrentIndex(idx);
             }
           }
         }
@@ -67,7 +91,7 @@ function UnitPreviewContent() {
       }
     }
     loadUnit();
-  }, [unitId, searchParams]);
+  }, [unitId, searchParams, isFinalTest]);
 
   if (loading) return (
     <div className="min-h-screen flex items-center justify-center bg-slate-50">
@@ -113,10 +137,9 @@ function UnitPreviewContent() {
 
   if (showUnitSummary) {
     const durationMinutes = Math.round((Date.now() - startTime) / 60000);
-    
-    useEffect(() => {
-      trackUnitCompletion(unitId, exercises.length, durationMinutes);
-    }, []);
+    const correctCount = exercises.length - failedIndexes.length;
+    const accuracy = exercises.length > 0 ? Math.round((correctCount / exercises.length) * 100) : 0;
+    const passed = isFinalTest ? accuracy >= 70 : true;
 
     return (
       <div className="min-h-screen flex items-center justify-center bg-slate-50 p-4">
@@ -128,12 +151,14 @@ function UnitPreviewContent() {
             </div>
           </div>
           <h2 className="text-4xl font-black text-slate-900 mb-4 italic tracking-tight">
-            ¡UNIDAD COMPLETADA!
+            {isFinalTest ? 'Test final completado' : '¡UNIDAD COMPLETADA!'}
           </h2>
           <p className="text-slate-500 mb-10 text-xl font-medium">
-            Has finalizado todos los ejercicios de la Unidad {unitId.replace('unit-', '')}.
+            {isFinalTest
+              ? (passed ? 'Has superado el test A2. ¡Enhorabuena!' : 'No has alcanzado el 70%. Repasa y vuelve a intentarlo.')
+              : `Has finalizado todos los ejercicios de la Unidad ${unitId.replace('unit-', '')}.`}
           </p>
-          
+
           <div className="grid grid-cols-2 gap-6 mb-10 text-left">
             <div className="bg-slate-50 p-6 rounded-3xl border border-slate-100">
               <p className="text-slate-400 text-sm font-bold uppercase mb-1">Total Ejercicios</p>
@@ -144,6 +169,16 @@ function UnitPreviewContent() {
               <p className="text-3xl font-black text-slate-800">{durationMinutes} min</p>
             </div>
           </div>
+
+          {isFinalTest && (
+            <div className={`mb-10 rounded-2xl p-4 border-2 ${passed ? 'bg-emerald-50 border-emerald-200' : 'bg-amber-50 border-amber-200'}`}>
+              <p className="text-slate-400 text-sm font-bold uppercase mb-1">Resultado</p>
+              <p className="text-2xl font-black text-slate-800">
+                {accuracy}% — {passed ? 'Aprobado' : 'No aprobado'}
+              </p>
+              <p className="text-slate-600 text-sm mt-1">Aciertos: {correctCount}/{exercises.length}. Se requiere ≥70% para aprobar.</p>
+            </div>
+          )}
 
           <Link 
             href="/curso-a2"
@@ -196,7 +231,7 @@ function UnitPreviewContent() {
             <Home className="w-6 h-6 text-slate-600" />
           </Link>
           <h1 className="font-black text-xl text-slate-800 uppercase tracking-tight">
-            A2: Unidad {unitId.replace('unit-', '')} 
+            A2: {isFinalTest ? unitTitle : `Unidad ${unitId.replace('unit-', '')}`}
             <span className="ml-4 text-slate-400 font-medium text-sm">
               Lección {lessonNumber} de {totalLessons} • Ejercicio {exerciseInLesson} de {exercisesInThisLesson}
             </span>
@@ -232,12 +267,14 @@ function UnitPreviewContent() {
         <ExerciseRenderer 
           key={currentExercise.id}
           exercise={currentExercise}
-          onComplete={() => {
+          onComplete={(result?: { success: boolean; score: number }) => {
             trackExerciseCompletion(unitId, currentIndex, exercises.length);
-            
+            if (isFinalTest && result?.success === false) {
+              setFailedIndexes(prev => (prev.includes(currentIndex) ? prev : [...prev, currentIndex]));
+            }
             if (currentIndex === exercises.length - 1) {
               setShowUnitSummary(true);
-            } else if ((currentIndex + 1) % CHUNK_SIZE === 0) {
+            } else if (!isFinalTest && (currentIndex + 1) % CHUNK_SIZE === 0) {
               setShowLessonComplete(true);
             } else {
               setCurrentIndex(prev => prev + 1);
