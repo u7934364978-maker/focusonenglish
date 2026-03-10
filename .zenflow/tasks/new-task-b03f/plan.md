@@ -69,7 +69,8 @@ Actualizar el componente `ArticleSchema` para reflejar correctamente la autoría
 - Actualizar `src/app/blog/[category]/[slug]/page.tsx` para pasar la imagen del artículo a `ArticleSchema`
 - Ejecutar `npm run lint && npm run build` para confirmar que no hay errores de TypeScript
 
-### [ ] Step: Reducir prioridad de keywords en sitemap.ts
+### [x] Step: Reducir prioridad de keywords en sitemap.ts
+<!-- chat-id: 127cf81e-f5d4-4853-a189-1974b83d96f7 -->
 
 En `src/app/sitemap.ts`, reducir la prioridad de las URLs de keywords (`/blog/temas/[keyword]`) de `0.8` a `0.5` para no diluir la señal de importancia de las páginas de contenido real.
 
@@ -78,6 +79,7 @@ En `src/app/sitemap.ts`, reducir la prioridad de las URLs de keywords (`/blog/te
 - Ejecutar `npm run lint && npm run build` para confirmar que no hay errores
 
 ### [ ] Step: Actualizar frontmatter de artículos del blog (autores y updatedDate)
+<!-- chat-id: 95282a1f-f6c6-4495-ada9-1c433f50a45f -->
 
 Mejorar el E-E-A-T del contenido actualizando el frontmatter de los artículos en `src/content/blog/**/*.md`:
 
