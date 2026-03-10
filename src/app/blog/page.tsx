@@ -4,6 +4,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { Metadata } from "next";
 import { getBlogArticles } from "@/lib/blog";
+import { generateBreadcrumbSchema } from "@/lib/schemas";
+import { JsonLd } from "@/components/seo/JsonLd";
 
 export const metadata: Metadata = {
   title: "Blog de Inglés 2026: Guías Trabajo, Viajes y Exámenes | Focus English",
@@ -25,6 +27,10 @@ export const metadata: Metadata = {
 
 export default function BlogPage() {
   const articles = getBlogArticles();
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: "Inicio", url: "https://www.focus-on-english.com" },
+    { name: "Blog", url: "https://www.focus-on-english.com/blog" },
+  ]);
   
   // Logic for featured article
   const featuredArticle = articles.find(a => a.featured) || articles[0];
@@ -105,6 +111,7 @@ export default function BlogPage() {
 
   return (
     <>
+      <JsonLd data={breadcrumbSchema} />
       <Navigation />
       <CourseLaunchBanner />
       <main className="min-h-screen bg-gradient-to-b from-slate-50 via-white to-slate-50">

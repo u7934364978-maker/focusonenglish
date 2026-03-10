@@ -19,6 +19,16 @@ keywords:
   - cleft sentences examples
   - voz pasiva avanzada ingles
   - use of english c1 tips
+faqs:
+  - question: '¿El Use of English?'
+    answer: 'Esta parte del examen evalúa tu control sobre el sistema de la lengua. Ya no basta con saber que un verbo va seguido de gerundio; debes entender las colocaciones y los idioms.'
+  - question: '¿Estructuras Avanzadas?'
+    answer: 'Para obtener una nota alta (Grade A o B), debes demostrar que conoces estructuras que aporten énfasis y elegancia a tu discurso.'
+  - question: '¿Cleft Sentences (Frases Hendidas)?'
+    answer: 'Perfectas para dirigir la atención del lector hacia un punto específico:'
+  - question: '¿Participle Clauses?'
+    answer: 'Para condensar información y sonar más académico y fluido:'
+
 ---
 
 El **C1 Advanced (CAE)** de Cambridge es el examen que marca la diferencia entre un usuario competente y un usuario experto. A diferencia del B2 (First), donde la corrección gramatical es el objetivo principal, en el nivel C1 se espera que demuestres **sofisticación, matices y flexibilidad lingüística**. Es el título que abre las puertas a las mejores universidades del mundo y a puestos de alta dirección en multinacionales.

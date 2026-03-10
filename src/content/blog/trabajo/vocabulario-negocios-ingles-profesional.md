@@ -18,6 +18,16 @@ date: '2026-02-06'
 updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg'
 category: trabajo
+faqs:
+  - question: '¿Corporate Buzzwords?'
+    answer: 'En las empresas tecnológicas, startups y multinacionales de 2026, se utilizan términos que van más allá del inglés tradicional. Dominar estas "buzzwords" te hará sonar como un profesional integrado en la cultura corporativa actual.'
+  - question: '¿Gestión de Proyectos (Project Management) y Metodologías Ágiles?'
+    answer: 'Si trabajas con marcos de trabajo como Scrum o Kanban, estos términos son esenciales para tus reuniones diarias (Daily Standups):'
+  - question: '¿Negociaciones y Finanzas?'
+    answer: 'En una mesa de negociación, la precisión léxica es tu mejor defensa. No solo se trata de entender, sino de usar términos que demuestren autoridad.'
+  - question: '¿El Tono en la Comunicación?'
+    answer: 'No escribes igual un contrato legal que un mensaje por Slack. Entender el registro es clave para la atención al cliente internacional.'
+
 ---
 
 En el mundo globalizado de hoy, el inglés no es solo un idioma, es la herramienta de trabajo más potente que puedes tener. Dominar el **vocabulario de negocios en inglés** (Business English) te abrirá puertas a mejores puestos, negociaciones internacionales y una comunicación más fluida con colegas de todo el mundo.

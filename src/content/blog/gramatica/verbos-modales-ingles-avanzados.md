@@ -21,6 +21,16 @@ date: '2026-03-05'
 updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/4778611/pexels-photo-4778611.jpeg'
 category: gramatica
+faqs:
+  - question: '¿El Sistema de Certeza en Inglés?'
+    answer: 'Los modales no son intercambiables. Existe una escala de certeza que debes dominar:'
+  - question: '¿Modales Perfectos?'
+    answer: 'La estructura modal + have + participio se usa para especular sobre el pasado.'
+  - question: '¿1 Must have / Can''t have (deducción lógica)?'
+    answer: '- She must have forgotten the keys — she''s standing at the door. (deducción positiva) - He can''t have read the report — he''s making mistakes that are clearly addressed in it. (imposibilidad)'
+  - question: '¿2 May have / Might have / Could have (posibilidad en el pasado)?'
+    answer: '- They may have missed the train. (posibilidad neutra) - She could have taken a different route. (posibilidad alternativa) - I suppose he might have been confused by the instructions. (posibilidad con distancia)'
+
 ---
 
 Si ya conoces **can**, **must** y **should**, es hora de profundizar en los aspectos que realmente separan a un hablante de nivel B2 de uno de nivel C1. Los **verbos modales avanzados** en inglés incluyen matices sutiles de probabilidad, crítica, especulación y distanciamiento formal que son imprescindibles tanto en el examen **Cambridge C1 Advanced** como en la comunicación profesional.

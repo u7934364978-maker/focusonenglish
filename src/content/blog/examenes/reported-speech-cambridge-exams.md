@@ -17,6 +17,16 @@ keywords:
 canonical: 'https://www.focus-on-english.com/blog/examenes/reported-speech-cambridge-exams'
 image: 'https://images.pexels.com/photos/3184311/pexels-photo-3184311.jpeg'
 alt: Personas hablando representando el reported speech
+faqs:
+  - question: '¿Qué es reported speech cambridge exams y cómo se usa?'
+    answer: 'En los exámenes de Cambridge (B2 First, C1 Advanced y C2 Proficiency), el Reported Speech no solo se evalúa como una regla gramatical aislada, sino como una herramienta fundamental de comunicación. Es un tema recurrente, especialmente en la parte 4 del Use of English: Key Word Transformation...'
+  - question: '¿El Reto del Rephrasing en Cambridge?'
+    answer: 'En los ejercicios de Key Word Transformation, debes reescribir una oración para que signifique exactamente lo mismo que la original, utilizando una palabra clave obligatoria y manteniendo un límite de entre 2 y 5 palabras (B2) o de 3 a 6 palabras (C1 y C2).'
+  - question: '¿Dominando los Patrones Verbales (Verb Patterns)?'
+    answer: 'A medida que subes de nivel (de B2 a C1/C2), los verbos simples como say o tell desaparecen de los exámenes. Los examinadores prefieren verbos con patrones más complejos.'
+  - question: '¿Verbos seguidos de infinitivo (to + verb)?'
+    answer: '- Offer: "I''ll help you" -> He offered to help me. - Promise: "I''ll call you" -> She promised to call me. - Refuse: "No, I won''t go" -> He refused to go.'
+
 ---
 
 ## Reported Speech Cambridge Exams: Guía de Rephrasing (B2-C2)

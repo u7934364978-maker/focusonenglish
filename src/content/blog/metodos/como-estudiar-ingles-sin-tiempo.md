@@ -17,6 +17,16 @@ updatedDate: '2026-03-10'
 category: metodos
 author: sara-mendez
 image: 'https://images.pexels.com/photos/5699475/pexels-photo-5699475.jpeg'
+faqs:
+  - question: 'Cómo Estudiar Inglés si no tienes Tiempo?'
+    answer: '"Me encantaría aprender inglés, pero no tengo tiempo". Esta es la excusa número uno que escuchamos en el mundo del aprendizaje de idiomas. Y es comprensible: entre el trabajo, la familia, el gimnasio y la necesidad de descanso, encontrar una hora libre para ir a una academia tradicional parece una...'
+  - question: '¿La Regla de los 15 Minutos y los Hábitos Atómicos?'
+    answer: 'La neurociencia demuestra que el cerebro humano tiene un límite de atención máxima. Intentar estudiar dos horas seguidas el domingo es ineficiente debido a la "Curva del Olvido"; para el martes, habrás olvidado el 70% de lo aprendido.'
+  - question: '¿Convierte tus Tiempos Muertos en Tiempos Activos?'
+    answer: 'Todos tenemos momentos de espera inevitables: en el transporte público, haciendo cola en el supermercado o esperando a que empiece una reunión. Pasamos una media de 45 minutos al día en estos "tiempos muertos", que suelen perderse en un scroll infinito en redes sociales.'
+  - question: '¿Inmersión Pasiva y el Método "Shadowing"?'
+    answer: 'Si puedes escuchar música o un podcast mientras realizas tareas mecánicas (conducir, limpiar la casa, caminar al trabajo), tienes tiempo para estudiar inglés.'
+
 ---
 
 ## Cómo Estudiar Inglés si no tienes Tiempo: Guía para Agendas Ocupadas

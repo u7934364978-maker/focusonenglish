@@ -20,6 +20,16 @@ date: '2026-03-04'
 updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/726484/pexels-photo-726484.jpeg'
 category: metodos
+faqs:
+  - question: '¿La Regla de Oro?'
+    answer: 'Si hay una sola cosa que debes saber sobre la cultura anglosajona británica, es esto: los británicos son expertos en hacer cola y les toman muy en serio.'
+  - question: '¿El Arte de la Small Talk?'
+    answer: 'Los británicos son maestros de la small talk — la conversación superficial de cortesía. Paradójicamente, puede parecer distancia emocional, pero en realidad es su forma de establecer confianza gradualmente.'
+  - question: '¿El Humor Británico?'
+    answer: 'El humor británico es famoso mundialmente pero muy difícil de descifrar para hablantes no nativos. Sus características principales:'
+  - question: '¿Ironía y Sarcasmo?'
+    answer: 'Los británicos dicen lo contrario de lo que quieren decir, pero en tono completamente neutro. "Oh, brilliant" dicho en tono plano generalmente significa lo contrario.'
+
 ---
 
 Muchos estudiantes de inglés se sorprenden cuando llegan al Reino Unido y descubren que entender el idioma no es suficiente. La **cultura británica** tiene sus propias normas, códigos no escritos y quirks que hacen que las interacciones sean muy diferentes a lo que esperaban.

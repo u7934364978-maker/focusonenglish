@@ -20,6 +20,14 @@ date: '2026-03-04'
 updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/3850595/pexels-photo-3850595.jpeg'
 category: metodos
+faqs:
+  - question: '¿Comentarios y Reacciones en Inglés?'
+    answer: 'En comentarios de YouTube, TikTok, Instagram y Twitter verás constantemente estas expresiones:'
+  - question: '¿Vocabulario de Marketing Digital en Inglés?'
+    answer: 'Si trabajas en marketing o comunicación digital, estos términos son imprescindibles:'
+  - question: 'Cómo Usar Correctamente los Hashtags en Inglés?'
+    answer: 'Los hashtags tienen sus propias convenciones en inglés:'
+
 ---
 
 Las redes sociales se comunican en inglés. Aunque las uses en español, los términos técnicos, las acciones y la cultura digital tienen su origen — y su expresión más natural — en inglés. Dominar el **vocabulario inglés de redes sociales** te abre las puertas a la comunidad global de creadores, marketers y usuarios digitales.

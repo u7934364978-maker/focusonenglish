@@ -20,6 +20,16 @@ date: '2026-03-04'
 updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg'
 category: metodos
+faqs:
+  - question: '¿¿Qué es realmente la fluidez??'
+    answer: 'La fluidez no significa hablar perfecto ni sin errores. Un hablante fluido es aquel que:'
+  - question: '¿Shadowing?'
+    answer: 'El shadowing consiste en imitar a un hablante nativo en tiempo real: escuchas una frase y la repites inmediatamente, copiando la entonación, el ritmo y el acento.'
+  - question: '¿Pensar en Inglés?'
+    answer: 'El hábito más poderoso para desarrollar fluidez es pensar en inglés en tu vida diaria.'
+  - question: '¿Práctica Oral con IA?'
+    answer: 'Una de las barreras más grandes para la fluidez es el miedo a cometer errores delante de otras personas. Las herramientas de IA como ChatGPT o Claude te permiten practicar conversación sin esa presión.'
+
 ---
 
 Hay una diferencia enorme entre *saber inglés* y *hablar inglés con fluidez*. Muchos estudiantes tienen un nivel B2 certificado pero se quedan en blanco cuando tienen que mantener una conversación real. El problema no es el vocabulario ni la gramática — es la **falta de práctica oral sistemática**.

@@ -19,6 +19,16 @@ canonical: >-
   https://www.focus-on-english.com/blog/gramatica/reported-speech-questions-commands
 image: 'https://images.pexels.com/photos/3184311/pexels-photo-3184311.jpeg'
 alt: Preguntas y órdenes en estilo indirecto
+faqs:
+  - question: '¿Qué es reported speech y cómo se usa?'
+    answer: 'Dominar el Reported Speech (estilo indirecto) es un paso fundamental para alcanzar un nivel intermedio-avanzado de inglés. Si bien reportar afirmaciones es relativamente sencillo, reportar preguntas, órdenes y peticiones requiere cambios estructurales específicos que suelen confundir a los...'
+  - question: '¿Reported Questions (Preguntas Indirectas)?'
+    answer: 'El mayor reto al reportar una pregunta es recordar que deja de ser una pregunta estructuralmente hablando. Se convierte en una afirmación que describe lo que alguien preguntó. Por ello, el orden de las palabras vuelve a ser el de una afirmación (sujeto + verbo) y desaparece el signo de...'
+  - question: '¿Yes/No Questions (Usamos If o Whether)?'
+    answer: 'Cuando la pregunta original no tiene una partícula interrogativa (como what, where, when), usamos los conectores if o whether (si).'
+  - question: '¿Wh- Questions (Usamos el pronombre interrogativo)?'
+    answer: 'Si la pregunta empieza con Who, What, Where, When, Why o How, mantenemos esa palabra como conector.'
+
 ---
 
 ## Reported Speech: Preguntas, Órdenes y Peticiones

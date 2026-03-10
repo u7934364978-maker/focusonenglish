@@ -21,6 +21,16 @@ date: '2026-03-05'
 updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/3807571/pexels-photo-3807571.jpeg'
 category: metodos
+faqs:
+  - question: 'Por Qué Nos Bloqueamos al Hablar Inglés?'
+    answer: 'El bloqueo no es un problema de vocabulario ni de gramática. Es un problema psicológico y neurológico.'
+  - question: '¿La trampa del monitor interno?'
+    answer: 'El lingüista Stephen Krashen describió el "Monitor": la parte de tu cerebro que actúa como editor, revisando cada frase antes de pronunciarla. En hablantes inseguros, el Monitor trabaja en exceso — te corrige mentalmente antes de que hayas terminado la frase, lo que genera esa parálisis...'
+  - question: '¿El miedo al juicio?'
+    answer: 'Hablar en público (o con nativos) activa el sistema de amenaza del cerebro. El miedo a sonar ridículo, a cometer errores o a "no estar a la altura" desencadena una respuesta de estrés que literalmente bloquea el acceso a la memoria de largo plazo donde guardas el vocabulario.'
+  - question: '¿La traducción mental?'
+    answer: 'Muchos estudiantes intermedios siguen construyendo frases en español primero y luego las traducen. Este proceso es lento y consume recursos cognitivos que deberían estar disponibles para escuchar y responder.'
+
 ---
 
 Conoces la gramática. Tienes vocabulario. Puedes leer artículos en inglés sin problema. Pero cuando alguien te habla en inglés... te quedas en blanco. Tu mente se paraliza, buscas las palabras en español y el silencio se hace eterno.

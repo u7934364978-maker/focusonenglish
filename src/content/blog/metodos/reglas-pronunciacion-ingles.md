@@ -19,6 +19,16 @@ date: '2026-02-06'
 updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/1036622/pexels-photo-1036622.jpeg'
 category: metodos
+faqs:
+  - question: '¿Vocales Cortas vs. Vocales Largas (Magic E): cuál es mejor?'
+    answer: 'La posición de las vocales cambia radicalmente su sonido. El patrón más importante es la Magic E: una "e" al final de una palabra suele ser muda, pero "alarga" la vocal anterior para que suene como en el abecedario.'
+  - question: '¿El Sonido Schwa /ə/?'
+    answer: 'El sonido Schwa es el sonido más frecuente en inglés. Aparece en casi cualquier sílaba que no está acentuada. Es una vocal débil, corta y relajada.'
+  - question: '¿Pronunciación de la terminación -ED (Past Simple)?'
+    answer: 'Nunca digas /ed/ a menos que la palabra termine en T o D. Hay 3 sonidos:'
+  - question: '¿� Lista de Práctica de Pronunciación (Versión Imprimible)?'
+    answer: 'Aquí tienes 20 palabras "trampa" que todo estudiante de inglés debe dominar:'
+
 ---
 
 La pronunciación es la "cara" de tu inglés. Como profesor de Cambridge, he comprobado que muchos alumnos tienen una gramática excelente pero no logran comunicarse con eficacia debido a la falta de claridad fonética. El inglés no es un idioma fonético (no se lee como se escribe), pero sí es un idioma de **patrones**.

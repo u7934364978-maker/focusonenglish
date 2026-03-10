@@ -24,6 +24,16 @@ image: 'https://images.pexels.com/photos/1552617/pexels-photo-1552617.jpeg'
 alt: 'Lista de phrasal verbs con GET en inglés con ejemplos'
 category: gramatica
 canonical: 'https://www.focus-on-english.com/blog/gramatica/phrasal-verbs-with-get'
+faqs:
+  - question: '¿La Lógica de GET?'
+    answer: 'Antes de ver la lista, conviene entender los significados base de GET:'
+  - question: '¿GET + UP (Movimiento hacia arriba / inicio del día)?'
+    answer: 'Nota: Get up to en sentido informal puede implicar cosas que no deberías hacer: - What are the kids getting up to in there? (¿Qué travesuras están haciendo los niños?)'
+  - question: '¿GET + OVER (Superar, recuperarse)?'
+    answer: 'Truco: Get over it es una expresión muy habitual en inglés informal para decirle a alguien que supere algo y siga adelante.'
+  - question: '¿GET + ALONG (Relación, progreso)?'
+    answer: 'Nota: Get along y get on son prácticamente sinónimos en el sentido de "llevarse bien con alguien". Los americanos prefieren get along; los británicos, get on.'
+
 ---
 
 El verbo **GET** es, sin exageración, el más productivo del inglés. Tiene decenas de significados por sí solo (obtener, llegar, volverse, entender...) y con partículas forma una cantidad enorme de phrasal verbs, cada uno con su propio matiz.

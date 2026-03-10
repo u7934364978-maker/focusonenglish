@@ -130,6 +130,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     })
   );
 
+  urls.push({
+    url: `${baseUrl}/blog/autores`,
+    lastModified: mostRecentArticleDate,
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  });
+
   urls.push(
     ...Object.keys(authors).map((slug) => {
       const authorArticles = articles.filter(

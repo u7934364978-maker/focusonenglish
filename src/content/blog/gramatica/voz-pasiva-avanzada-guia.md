@@ -19,6 +19,16 @@ date: '2026-03-02'
 updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg'
 category: gramatica
+faqs:
+  - question: '¿La Pasiva Impersonal (Impersonal Passive)?'
+    answer: 'Se utiliza con verbos de pensamiento y opinión como say, believe, think, report, expect, know. Hay dos formas de construirla:'
+  - question: '¿La Pasiva Causativa (Causative Passive)?'
+    answer: 'Se utiliza cuando otra persona realiza un servicio para nosotros (pagando o pidiéndolo).'
+  - question: '¿Verbos con Doble Objeto en Pasiva?'
+    answer: 'Como vimos en la guía básica, los verbos con dos objetos prefieren al objeto indirecto (la persona) como sujeto de la pasiva.'
+  - question: '¿� Lista de Ejemplos para Práctica (Versión Imprimible)?'
+    answer: 'Aquí tienes 15 frases de nivel C1 para tu colección:'
+
 ---
 
 Si ya dominas la pasiva básica (*The cake was eaten*), es hora de dar el salto al nivel **Advanced (C1)**. En este nivel, la voz pasiva no solo sirve para cambiar el sujeto, sino para sonar diplomático, objetivo y académicamente sofisticado.

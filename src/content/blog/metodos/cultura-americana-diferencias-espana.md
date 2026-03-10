@@ -21,6 +21,16 @@ date: '2026-03-05'
 updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/3075993/pexels-photo-3075993.jpeg'
 category: metodos
+faqs:
+  - question: '¿La Directness Americana vs la Indirectness Latina: cuál es mejor?'
+    answer: 'Los americanos son, en general, directos y explícitos en su comunicación. Los hispanohablantes tendemos a ser más implícitos y contextuales.'
+  - question: '¿El Tiempo y la Puntualidad?'
+    answer: 'En la cultura americana, el tiempo es literal. Si una reunión es a las 10, empieza a las 10.'
+  - question: '¿La Cultura del Small Talk?'
+    answer: 'Los americanos practican el small talk constantemente: con vecinos, desconocidos en el ascensor, cajeros del supermercado. Esta apertura puede confundir a hispanohablantes.'
+  - question: '¿Las Relaciones de Trabajo en EE.UU.?'
+    answer: 'La cultura laboral americana tiene características muy específicas:'
+
 ---
 
 Cuando hispanohablantes se mudan a Estados Unidos o trabajan con americanos, el mayor choque no suele ser el idioma — es la cultura. Los americanos y los españoles o latinoamericanos tienen valores, ritmos y estilos de comunicación muy diferentes. Entender estas diferencias es clave para prosperar en entornos angloamericanos.

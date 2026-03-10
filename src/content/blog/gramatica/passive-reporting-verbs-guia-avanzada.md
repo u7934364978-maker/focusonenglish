@@ -18,6 +18,16 @@ canonical: >-
   https://www.focus-on-english.com/blog/gramatica/passive-reporting-verbs-guia-avanzada
 image: 'https://images.pexels.com/photos/3184311/pexels-photo-3184311.jpeg'
 alt: Estructuras avanzadas de verbos de reporte
+faqs:
+  - question: '¿Passive Reporting Verbs?'
+    answer: 'Las estructuras pasivas de reporte son esenciales en el lenguaje académico y formal, muy comunes en la prensa y en los niveles C1/C2 de inglés. Se utilizan para reportar información sin atribuirla a una fuente específica, lo que aporta un tono de objetividad y profesionalismo necesario en exámenes...'
+  - question: '¿¿Por qué usamos la pasiva con verbos de reporte??'
+    answer: 'En inglés, cuando queremos comunicar lo que la gente dice, piensa o cree sin mencionar quién lo dice exactamente, recurrimos a verbos como say, believe, think, consider, understand, report, claim, o know.'
+  - question: '¿Las Dos Estructuras Principales?'
+    answer: 'Existen dos formas fundamentales de transformar una oración activa con un verbo de reporte (ej. People believe...) a pasiva. Dominar ambas es un requisito indispensable para los niveles de inglés más avanzados.'
+  - question: '¿La Estructura Impersonal (It + Pasiva + That)?'
+    answer: 'Esta estructura es la más sencilla de formar y es muy común al comienzo de artículos de noticias. Se construye utilizando el pronombre impersonal "It", seguido del verbo de reporte en voz pasiva y una cláusula introducida por "that".'
+
 ---
 
 ## Passive Reporting Verbs: Estructuras Avanzadas (C1-C2)

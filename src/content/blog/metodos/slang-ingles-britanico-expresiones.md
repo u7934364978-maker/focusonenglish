@@ -21,6 +21,16 @@ date: '2026-03-04'
 updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/672532/pexels-photo-672532.jpeg'
 category: metodos
+faqs:
+  - question: '¿¿Por Qué Aprender Slang Británico??'
+    answer: '- Para entender series, películas y podcasts británicos sin perderte constantemente - Para comunicarte con naturalidad con hablantes del Reino Unido - Para sonar más auténtico y fluido en lugar de como un libro de texto - Para evitar malentendidos (algunas expresiones tienen significados muy...'
+  - question: '¿Expresiones para el Pub (Imprescindibles en el Reino Unido)?'
+    answer: 'El pub es el centro social de la cultura británica. Estas expresiones son vitales:'
+  - question: '¿Cockney Rhyming Slang?'
+    answer: 'El Cockney Rhyming Slang es un sistema de argot originario del East End de Londres que sustituye palabras por frases que riman con ellas. Lo encontrarás en series como EastEnders o Lock, Stock and Two Smoking Barrels:'
+  - question: '¿Slang Regional?'
+    answer: 'El slang británico varía enormemente según la región:'
+
 ---
 
 Si has aprendido inglés con libros de texto, probablemente te sorprenda la cantidad de expresiones que no entiendes cuando hablas con británicos. El **slang inglés británico** es colorido, variado y a menudo completamente diferente del inglés americano que se enseña en los colegios.

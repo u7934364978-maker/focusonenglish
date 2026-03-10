@@ -24,6 +24,16 @@ image: 'https://images.pexels.com/photos/1370296/pexels-photo-1370296.jpeg'
 alt: 'Estudiante principiante aprendiendo phrasal verbs básicos en inglés'
 category: gramatica
 canonical: 'https://www.focus-on-english.com/blog/gramatica/phrasal-verbs-principiantes'
+faqs:
+  - question: '¿¿Qué es un Phrasal Verb? (Explicación Simple)?'
+    answer: 'Un phrasal verb es la combinación de un verbo más una pequeña palabra (llamada "partícula"), que puede ser una preposición (in, on, at) o un adverbio (up, down, out).'
+  - question: '¿Rutinas Diarias?'
+    answer: 'Empezamos con los phrasal verbs que usas (o usarías) todos los días:'
+  - question: '¿Los 5 Phrasal Verbs que DEBES Aprender Primero?'
+    answer: 'Si tu tiempo es limitado, estos 5 son los más frecuentes y útiles:'
+  - question: '¿TURN ON / TURN OFF?'
+    answer: 'Significado: Encender / Apagar. - Can you turn on the heating? (¿Puedes encender la calefacción?) - Turn off your phone in the cinema. (Apaga el móvil en el cine.)'
+
 ---
 
 Si acabas de empezar a estudiar inglés o llevas poco tiempo, es muy probable que ya hayas topado con los **phrasal verbs** y que te hayan parecido un misterio. "¿Por qué *give up* significa rendirse si *give* es dar y *up* es arriba?" Esta pregunta la hace todo principiante, y es completamente lógica.

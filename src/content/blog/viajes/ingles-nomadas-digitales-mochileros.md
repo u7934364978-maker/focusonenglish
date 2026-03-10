@@ -22,6 +22,16 @@ related_routes:
   - ingles-para-trabajo
 image: 'https://images.pexels.com/photos/1051075/pexels-photo-1051075.jpeg'
 alt: Nómada digital trabajando con su portátil viajando
+faqs:
+  - question: '¿Inglés para Nómadas Digitales?'
+    answer: 'Vivir viajando ha dejado de ser una utopía para convertirse en un estilo de vida consolidado. Sin embargo, para que esta experiencia sea realmente enriquecedora y profesionalmente sostenible, el idioma es la pieza clave del rompecabezas. Tanto si eres un nómada digital en inglés que busca colaborar...'
+  - question: '¿Aprender Inglés para Mochileros?'
+    answer: 'Para los mochileros, el inglés es la lingua franca en los hostels, trenes y fogatas. El inglés para mochileros se trata de romper el hielo y compartir historias.'
+  - question: '¿Voluntariados y Cultural Exchange:?'
+    answer: 'Si usas plataformas como Workaway o Worldpackers, necesitarás explicar tus habilidades:'
+  - question: '¿Logística y Supervivencia en Viajes Largos?'
+    answer: 'La preparación idiomas viaje para estancias prolongadas incluye manejar burocracia, salud y finanzas en inglés.'
+
 ---
 
 ## Inglés para Nómadas Digitales: Vive y Trabaja por el Mundo sin Límites

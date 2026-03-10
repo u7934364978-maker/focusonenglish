@@ -18,6 +18,16 @@ date: '2026-03-04'
 updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/4145153/pexels-photo-4145153.jpeg'
 category: gramatica
+faqs:
+  - question: '¿Bloque 1 — Ejercicios de Nivel A2/B1?'
+    answer: 'Los modales can, could y may expresan habilidad, posibilidad y permiso.'
+  - question: '¿Bloque 3 — Ejercicios de Nivel B2?'
+    answer: 'Los modales might, may, must, can''t expresan diferentes grados de certeza.'
+  - question: '¿Bloque 4 — Ejercicios de Nivel C1?'
+    answer: 'Los Modales Perfectos (modal + have + participio) son fundamentales en niveles avanzados.'
+  - question: '¿Bloque 5 — Ejercicios de Estilo Formal?'
+    answer: 'En exámenes Cambridge, los modales también aparecen en transformaciones de frase (Part 4 de Use of English).'
+
 ---
 
 Dominar los **verbos modales en inglés** requiere práctica sistemática. En esta guía de ejercicios, trabajaremos desde los usos más básicos hasta las construcciones avanzadas con Modales Perfectos, algo imprescindible para superar exámenes como el Cambridge B2 First o el C1 Advanced.

@@ -23,6 +23,16 @@ related_routes:
   - ingles-b2
 image: 'https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg'
 alt: Ingenieros colaborando en un proyecto global
+faqs:
+  - question: '¿Curso de Inglés para Ingenieros?'
+    answer: 'En el mundo de la ingeniería moderna, el inglés ha dejado de ser una habilidad "extra" para convertirse en el sistema operativo fundamental de la profesión. Es el lenguaje de las especificaciones técnicas globales, las normativas internacionales (ISO, IEEE, ASME) y, sobre todo, de la innovación...'
+  - question: '¿Vocabulario de Ingeniería en Inglés?'
+    answer: 'En la ingeniería, la ambigüedad es el enemigo. El uso de un technical english preciso evita errores costosos y garantiza la seguridad de los proyectos. No se trata solo de conocer nombres de piezas, sino de describir procesos y comportamientos físicos.'
+  - question: 'Cómo leer Datos y Gráficos en Inglés?'
+    answer: 'Un ingeniero debe ser capaz de narrar las tendencias de un informe técnico:'
+  - question: '¿Vocabulario Especializado por Ramas de Ingeniería?'
+    answer: 'Aunque el inglés técnico es universal, cada especialidad tiene su propio "dialecto".'
+
 ---
 
 ## Curso de Inglés para Ingenieros: Tu Herramienta para Proyectos Globales

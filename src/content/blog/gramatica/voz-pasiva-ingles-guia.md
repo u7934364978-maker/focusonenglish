@@ -25,6 +25,16 @@ updatedDate: '2026-03-10'
 category: gramatica
 author: david-torres
 image: 'https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg'
+faqs:
+  - question: '¿¿Por qué usamos la Voz Pasiva??'
+    answer: 'Muchos estudiantes cometen el error de pensar que la pasiva es simplemente una forma "difícil" de decir lo mismo que en activa. Sin embargo, su uso responde a intenciones comunicativas muy claras:'
+  - question: '¿La Estructura Fundamental?'
+    answer: 'Para transformar cualquier oración de activa a pasiva, el verbo ''to be'' actúa como un espejo temporal: debe estar en el mismo tiempo que el verbo principal de la activa.'
+  - question: '¿Estructuras Avanzadas (Nivel B2-C1)?'
+    answer: 'Si aspiras a un nivel superior, debes dominar estas tres variantes:'
+  - question: '¿A. La Pasiva de Doble Objeto?'
+    answer: 'Verbos como give, send, show, lend, offer o tell suelen llevar un objeto directo (la cosa) y uno indirecto (la persona). En inglés, es mucho más común y natural empezar la pasiva con la persona.'
+
 ---
 
 La **voz pasiva (The Passive Voice)** es una de las estructuras que marca la frontera entre un nivel básico y un nivel intermedio-avanzado en inglés. Mientras que en el nivel A2 nos centramos en quién hace qué (Voz Activa), a partir del nivel B1 y especialmente en el B2 (First) y C1 (Advanced), empezamos a dar prioridad a la **acción** o al **objeto** que la recibe.
