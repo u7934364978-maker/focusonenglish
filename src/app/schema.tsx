@@ -115,8 +115,12 @@ export function ArticleSchema({
   slug,
   datePublished,
   dateModified,
-  author = "Focus English",
-  keywords = []
+  author,
+  authorUrl,
+  image,
+  keywords = [],
+  wordCount,
+  articleSection,
 }: {
   title: string;
   description: string;
@@ -124,19 +128,27 @@ export function ArticleSchema({
   datePublished: string;
   dateModified?: string;
   author?: string;
+  authorUrl?: string;
+  image?: string;
   keywords?: string[];
+  wordCount?: number;
+  articleSection?: string;
 }) {
-  const schema = {
+  const resolvedImage = image
+    ? (image.startsWith('http') ? image : `https://www.focus-on-english.com${image}`)
+    : "https://www.focus-on-english.com/og-image.jpg";
+
+  const authorSchema = author && authorUrl
+    ? { "@type": "Person", "name": author, "url": authorUrl }
+    : { "@type": "Organization", "name": author || "Focus English", "url": "https://www.focus-on-english.com" };
+
+  const schema: Record<string, unknown> = {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": "BlogPosting",
     "headline": title,
     "description": description,
-    "image": "https://www.focus-on-english.com/og-image.jpg",
-    "author": {
-      "@type": "Organization",
-      "name": author,
-      "url": "https://www.focus-on-english.com"
-    },
+    "image": resolvedImage,
+    "author": authorSchema,
     "publisher": {
       "@type": "Organization",
       "name": "Focus English",
@@ -151,8 +163,11 @@ export function ArticleSchema({
       "@type": "WebPage",
       "@id": `https://www.focus-on-english.com/blog/${slug}`
     },
-    "keywords": keywords.join(", ")
+    "keywords": keywords.join(", "),
   };
+
+  if (wordCount !== undefined) schema["wordCount"] = wordCount;
+  if (articleSection !== undefined) schema["articleSection"] = articleSection;
 
   return (
     <script

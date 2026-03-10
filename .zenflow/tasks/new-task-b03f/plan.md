@@ -57,7 +57,8 @@ Eliminar el bloque `<script dangerouslySetInnerHTML>` que desactiva el menú con
 - Verificar que el resto del layout permanece intacto
 - Ejecutar `npm run lint && npm run build` para confirmar que no hay errores
 
-### [ ] Step: Corregir ArticleSchema en src/app/schema.tsx
+### [x] Step: Corregir ArticleSchema en src/app/schema.tsx
+<!-- chat-id: efd6172a-e96b-4be3-a7d2-64e1ce7899d0 -->
 
 Actualizar el componente `ArticleSchema` para reflejar correctamente la autoría y el tipo de contenido:
 
