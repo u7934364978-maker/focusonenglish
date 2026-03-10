@@ -13,6 +13,7 @@ image: >-
 alt: Estudiante estudiando para el Cambridge B2 First con libros y apuntes
 canonical: >-
   https://www.focus-on-english.com/blog/examenes/cambridge-b2-first-estrategias-aprobar
+readTime: 6 min
 keywords:
   - cambridge english 2026
   - cambridge b2 first

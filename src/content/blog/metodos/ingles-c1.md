@@ -7,6 +7,7 @@ title: 'Curso de Inglés C1: Prepárate para el Nivel Avanzado CAE'
 description: >-
   Domina el inglés avanzado a nivel profesional y académico. Prepárate para el
   Certificate in Advanced English (CAE) de Cambridge con nuestro método online.
+readTime: 5 min
 keywords:
   - curso ingles c1
   - nivel c1 ingles que es

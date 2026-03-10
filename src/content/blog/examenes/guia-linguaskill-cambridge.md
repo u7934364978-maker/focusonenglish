@@ -4,6 +4,7 @@ description: >-
   Descubre todo sobre Linguaskill de Cambridge: el examen multinivel rápido y
   preciso. Conoce su estructura, ventajas y cómo obtener tu certificado en 48
   horas.
+readTime: 4 min
 excerpt: >-
   ¿Necesitas un certificado de inglés rápido? Linguaskill de Cambridge es la
   solución. Te explicamos cómo funciona este test multinivel por ordenador y

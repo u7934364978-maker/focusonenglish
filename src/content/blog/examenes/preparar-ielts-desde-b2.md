@@ -13,6 +13,7 @@ image: >-
 alt: Candidato preparando el IELTS con materiales de estudio y práctica de speaking
 canonical: >-
   https://www.focus-on-english.com/blog/examenes/preparar-ielts-desde-b2
+readTime: 6 min
 keywords:
   - ielts vs toefl 2026
   - preparar ielts 2026

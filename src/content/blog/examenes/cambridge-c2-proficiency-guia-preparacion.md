@@ -13,6 +13,7 @@ image: >-
 alt: Estudiante avanzado preparando el Cambridge C2 Proficiency con materiales de estudio
 canonical: >-
   https://www.focus-on-english.com/blog/examenes/cambridge-c2-proficiency-guia-preparacion
+readTime: 5 min
 keywords:
   - cambridge english 2026
   - cambridge c2 proficiency

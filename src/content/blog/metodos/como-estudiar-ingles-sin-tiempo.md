@@ -3,6 +3,7 @@ title: 'Cómo estudiar inglés sin tiempo: 5 Estrategias'
 description: >-
   Aprende inglés incluso con una agenda apretada. Descubre cómo aprovechar los
   'tiempos muertos' para mejorar tu nivel sin sacrificar tu descanso.
+readTime: 5 min
 excerpt: >-
   Descubre cómo aprender inglés sin tiempo con el micro-learning. 5 estrategias
   prácticas para integrar el inglés en tu rutina diaria y avanzar rápido.

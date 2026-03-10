@@ -13,6 +13,7 @@ image: >-
 alt: Profesional haciendo una presentación en inglés ante un grupo internacional
 canonical: >-
   https://www.focus-on-english.com/blog/trabajo/como-hacer-presentaciones-en-ingles
+readTime: 5 min
 keywords:
   - presentaciones en ingles
   - como hacer una presentacion en ingles

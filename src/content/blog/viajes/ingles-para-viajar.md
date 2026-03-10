@@ -8,6 +8,7 @@ description: >-
   Domina el inglés para tus viajes. Frases esenciales para aeropuertos, hoteles,
   restaurantes y emergencias. Viaja con total confianza por el mundo con Focus
   English.
+readTime: 5 min
 keywords:
   - inglés para viajar
   - frases básicas inglés viaje

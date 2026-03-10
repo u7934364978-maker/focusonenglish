@@ -8,6 +8,7 @@ description: >-
   Especialízate en inglés médico y de enfermería. Domina el vocabulario clínico,
   la atención al paciente, redacción de informes y comunicación profesional
   sanitaria.
+readTime: 5 min
 keywords:
   - inglés para salud
   - inglés médico

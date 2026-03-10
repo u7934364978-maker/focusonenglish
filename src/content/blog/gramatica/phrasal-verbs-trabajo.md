@@ -4,6 +4,7 @@ description: >-
   Domina los phrasal verbs más usados en el trabajo en inglés. 60 verbos
   frasales de negocios con ejemplos reales para reuniones, emails y el día a día
   de la oficina.
+readTime: 8 min
 excerpt: >-
   Si trabajas o quieres trabajar en inglés, estos phrasal verbs son imprescindibles.
   Guía completa con 60 business phrasal verbs para reuniones, negociaciones,

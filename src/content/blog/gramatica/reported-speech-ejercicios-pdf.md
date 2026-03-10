@@ -8,6 +8,7 @@ description: >-
   Descarga los mejores ejercicios de Reported Speech en PDF. Hojas de trabajo
   para niveles B1, B2, C1 y C2 con soluciones incluidas para practicar el estilo
   indirecto.
+readTime: 5 min
 keywords:
   - reporting verbs exercises pdf
   - reported speech c1 exercises pdf

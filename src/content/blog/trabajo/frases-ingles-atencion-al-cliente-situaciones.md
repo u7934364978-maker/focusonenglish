@@ -13,6 +13,7 @@ image: >-
 alt: Equipo de atención al cliente internacional usando frases en inglés para gestionar consultas
 canonical: >-
   https://www.focus-on-english.com/blog/trabajo/frases-ingles-atencion-al-cliente-situaciones
+readTime: 6 min
 keywords:
   - ingles para atencion al cliente
   - frases ingles atencion cliente

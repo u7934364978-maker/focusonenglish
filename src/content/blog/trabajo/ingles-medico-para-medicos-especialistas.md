@@ -13,6 +13,7 @@ image: >-
 alt: Médico especialista revisando literatura médica científica en inglés
 canonical: >-
   https://www.focus-on-english.com/blog/trabajo/ingles-medico-para-medicos-especialistas
+readTime: 5 min
 keywords:
   - ingles medico
   - ingles para medicos

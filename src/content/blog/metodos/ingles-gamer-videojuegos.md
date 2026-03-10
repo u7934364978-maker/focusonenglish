@@ -4,6 +4,7 @@ description: >-
   Guía completa de inglés para gamers. Aprende el vocabulario, slang y
   expresiones más usadas en videojuegos online, Twitch, Discord y la comunidad
   gaming internacional.
+readTime: 5 min
 excerpt: >-
   Si juegas online en inglés, este artículo es para ti. Descubre el vocabulario
   gamer esencial, las expresiones de chat y cómo comunicarte con tu equipo en

@@ -3,6 +3,7 @@ title: 'Apps para Aprender Inglés Gratis vs. de Pago: Guía 2026'
 description: >-
   Descubre las diferencias reales entre las aplicaciones para aprender inglés
   gratis y las de suscripción en 2026. ¿Cuál garantiza mejores resultados?
+readTime: 5 min
 excerpt: >-
   Analizamos si las apps gratuitas son suficientes para alcanzar un nivel
   avanzado de inglés o si las opciones de pago como Focus English son necesarias

@@ -8,6 +8,7 @@ description: >-
   Domina la gramática del nivel B1 de inglés. Tiempos verbales, condicionales,
   voz pasiva y más. La guía definitiva para preparar tu certificado oficial de
   Cambridge, Oxford o IELTS.
+readTime: 6 min
 keywords:
   - gramatica ingles b1
   - tiempos verbales b1

@@ -8,6 +8,7 @@ description: >-
   Prepara tu examen B1 de inglés con nuestro curso online. Temario completo de
   gramática, vocabulario y simulacros de examen para Cambridge, Aptis y Oxford
   con IA.
+readTime: 3 min
 keywords:
   - cursos online ingles b1
   - preparacion examen b1 ingles

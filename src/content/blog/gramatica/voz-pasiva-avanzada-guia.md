@@ -3,6 +3,7 @@ title: 'Voz Pasiva Avanzada: Estructuras de Nivel C1 (Advanced)'
 description: >-
   Domina la voz pasiva avanzada en inglés: impersonal passive, causative 'have
   something done' y verbos de opinión. Guía con ejemplos y lista imprimible.
+readTime: 4 min
 excerpt: >-
   Lleva tu inglés al siguiente nivel. Aprende las estructuras pasivas que exigen
   los exámenes C1 Advanced y C2 Proficiency: 'it is said that', 'have something

@@ -3,6 +3,7 @@ title: 'Phrasal Verbs con GET: Lista Completa con Significados y Ejemplos'
 description: >-
   Aprende todos los phrasal verbs con GET en inglés. Más de 40 combinaciones
   esenciales con significado, traducción y ejemplos reales para nivel B1-C1.
+readTime: 8 min
 excerpt: >-
   GET es el verbo más versátil del inglés. Descubre todos sus phrasal verbs
   —get up, get on, get over, get away y muchos más— con ejemplos claros y

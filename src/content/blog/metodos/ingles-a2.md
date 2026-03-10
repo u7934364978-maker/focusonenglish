@@ -8,6 +8,7 @@ description: >-
   Sube de nivel con nuestro curso de inglés A2. Mejora tu gramática, amplía tu
   vocabulario y empieza a tener conversaciones reales sobre tu vida diaria y
   planes.
+readTime: 6 min
 keywords:
   - curso inglés a2
   - nivel elemental inglés

@@ -13,6 +13,7 @@ image: >-
 alt: Profesional revisando y corrigiendo un email en inglés en su ordenador
 canonical: >-
   https://www.focus-on-english.com/blog/trabajo/ingles-emails-trabajo-errores-comunes
+readTime: 5 min
 keywords:
   - emails profesionales ingles
   - errores emails ingles trabajo

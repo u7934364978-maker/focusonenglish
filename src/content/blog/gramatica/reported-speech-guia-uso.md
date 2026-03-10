@@ -4,6 +4,7 @@ description: >-
   Aprende a dominar el Reported Speech en inglés. Incluye reglas de backshift,
   cambios en pronombres y expresiones de tiempo, ejemplos prácticos y FAQs para
   niveles B1, B2 y C1.
+readTime: 7 min
 excerpt: >-
   Domina el estilo indirecto en inglés de una vez por todas. Descubre las reglas
   esenciales del backshift, cómo transformar preguntas y órdenes, y accede a

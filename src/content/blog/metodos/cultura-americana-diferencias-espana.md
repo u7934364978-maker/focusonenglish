@@ -4,6 +4,7 @@ description: >-
   Descubre las principales diferencias culturales entre Estados Unidos y España.
   Guía práctica de etiqueta, costumbres y valores americanos para hispanohablantes
   que viajan, trabajan o estudian en EE.UU.
+readTime: 5 min
 excerpt: >-
   Hablar inglés es solo una parte. Entender la cultura americana te evitará
   malentendidos, mejorará tus relaciones y te hará sentir como en casa en EE.UU.

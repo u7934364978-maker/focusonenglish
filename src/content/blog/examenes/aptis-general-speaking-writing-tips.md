@@ -13,6 +13,7 @@ image: >-
 alt: Candidato practicando el speaking del Aptis General para mejorar su puntuación
 canonical: >-
   https://www.focus-on-english.com/blog/examenes/aptis-general-speaking-writing-tips
+readTime: 7 min
 keywords:
   - aptis general b1
   - aptis speaking consejos

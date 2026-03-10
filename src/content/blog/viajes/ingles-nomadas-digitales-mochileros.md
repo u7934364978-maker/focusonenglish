@@ -7,6 +7,7 @@ title: 'Inglés para Nómadas Digitales y Mochileros: Guía de Viaje y Trabajo R
 description: >-
   Guía de inglés para nómadas digitales y mochileros. Aprende a trabajar y vivir
   en el extranjero con fluidez mientras viajas por el mundo con Focus English.
+readTime: 4 min
 keywords:
   - inglés para nómadas digitales
   - inglés para viajes largos

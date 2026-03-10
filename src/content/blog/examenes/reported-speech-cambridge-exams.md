@@ -7,6 +7,7 @@ title: 'Reported Speech Cambridge Exams: Guía de Rephrasing (B2-C2)'
 description: >-
   Aprende a resolver ejercicios de Reported Speech en los exámenes de Cambridge
   First (B2), Advanced (C1) y Proficiency (C2). Guía de Key Word Transformation.
+readTime: 5 min
 keywords:
   - reported speech cambridge
   - report c1 examples pdf

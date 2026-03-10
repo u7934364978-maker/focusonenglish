@@ -3,6 +3,7 @@ title: 'La mejor app para aprender inglés en 2026: Guía'
 description: >-
   Analizamos las mejores aplicaciones para aprender inglés in 2026: Duolingo,
   Babbel, Focus English y más. Descubre cuál se adapta mejor a adultos.
+readTime: 4 min
 excerpt: >-
   Descubre cuál es la mejor app para aprender inglés en 2026. Comparativa
   detallada entre Duolingo, Babbel y Focus English para mejorar tu fluidez.

@@ -7,6 +7,7 @@ title: 'Vocabulario Inglés B1: Trabajo, Viajes y Vida Cotidiana'
 description: >-
   Lista de vocabulario esencial para el nivel B1 de inglés. Aprende las palabras
   y expresiones clave para el trabajo, viajar y situaciones sociales.
+readTime: 7 min
 keywords:
   - vocabulario ingles b1
   - palabras ingles b1

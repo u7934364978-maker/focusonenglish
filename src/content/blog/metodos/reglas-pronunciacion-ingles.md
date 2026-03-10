@@ -3,6 +3,7 @@ title: 'Reglas de Pronunciación en Inglés: Guía de Estudio'
 description: >-
   Domina la fonética inglesa con nuestras reglas de pronunciación en inglés.
   Incluye Magic E, Silent Letters, terminaciones -ED y lista imprimible.
+readTime: 4 min
 excerpt: >-
   Mejora tu acento y claridad al hablar. Guía académica con las reglas de
   pronunciación fundamentales, ejemplos de nivel Cambridge y lista de práctica.

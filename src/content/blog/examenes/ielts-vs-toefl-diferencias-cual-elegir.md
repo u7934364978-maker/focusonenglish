@@ -3,6 +3,7 @@ title: 'IELTS vs TOEFL: Diferencias y Cuál deberías elegir'
 description: >-
   Comparamos los dos exámenes de inglés más importantes del mundo. Descubre cuál
   es más fácil, cuál aceptan en tu destino y cómo prepararte con éxito.
+readTime: 4 min
 excerpt: >-
   ¿Vas a estudiar fuera o necesitas un visado? Te ayudamos a decidir entre IELTS
   y TOEFL analizando sus formatos, costes y niveles de dificultad.

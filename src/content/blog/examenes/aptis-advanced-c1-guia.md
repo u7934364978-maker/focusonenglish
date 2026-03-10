@@ -13,6 +13,7 @@ image: >-
 alt: Candidato preparando el examen Aptis Advanced C1 del British Council en 2026
 canonical: >-
   https://www.focus-on-english.com/blog/examenes/aptis-advanced-c1-guia
+readTime: 5 min
 keywords:
   - aptis general b1
   - aptis advanced c1

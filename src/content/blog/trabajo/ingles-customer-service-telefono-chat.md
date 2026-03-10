@@ -13,6 +13,7 @@ image: >-
 alt: Agente de atención al cliente hablando en inglés por teléfono con un cliente internacional
 canonical: >-
   https://www.focus-on-english.com/blog/trabajo/ingles-customer-service-telefono-chat
+readTime: 6 min
 keywords:
   - ingles para atencion al cliente
   - customer service ingles telefono

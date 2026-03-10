@@ -8,6 +8,7 @@ description: >-
   Descubre los patrones gramaticales de los reporting verbs. Lista completa de
   verbos con gerundio, infinitivo y cláusulas 'that' para mejorar tu Writing y
   Speaking.
+readTime: 5 min
 keywords:
   - reporting verbs list pdf
   - reporting verb patterns

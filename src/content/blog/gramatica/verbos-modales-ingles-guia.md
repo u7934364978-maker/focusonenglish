@@ -3,6 +3,7 @@ title: 'Verbos Modales en Inglés: Guía y Esquema de Uso'
 description: >-
   Domina Can, Could, Must, Should, May y los Modales Perfectos. Incluye esquema
   de verbos modales en inglés pdf-friendly y ejemplos académicos.
+readTime: 5 min
 excerpt: >-
   Aprende a usar Can, Could, Must, Should y May. Incluye esquema de verbos
   modales en inglés y ejemplos prácticos para niveles A1 a C1.

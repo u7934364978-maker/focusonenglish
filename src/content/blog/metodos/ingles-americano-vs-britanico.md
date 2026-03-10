@@ -3,6 +3,7 @@ title: 'Inglés Americano vs Británico: Diferencias Clave'
 description: >-
   Descubre las principales diferencias entre el inglés americano y el inglés
   británico: pronunciación, vocabulario, ortografía y gramática con ejemplos.
+readTime: 5 min
 excerpt: >-
   ¿Cuál inglés aprender: americano o británico? Conoce las diferencias clave en
   pronunciación, vocabulario y ortografía para elegir la variante que mejor se

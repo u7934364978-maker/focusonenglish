@@ -4,6 +4,7 @@ description: >-
   Más de 40 ejercicios de condicionales en inglés para niveles B1 y B2. Zero,
   First, Second y Third Conditional con soluciones detalladas y consejos para
   Cambridge.
+readTime: 5 min
 excerpt: >-
   Practica los cuatro tipos de condicionales en inglés con ejercicios resueltos.
   Perfecto para preparar B1 Preliminary, B2 First o cualquier examen de inglés.

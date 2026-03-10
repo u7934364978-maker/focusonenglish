@@ -8,6 +8,7 @@ description: >-
   ¿IELTS, TOEFL o Cambridge? Analizamos las mejores certificaciones de inglés 
   para 2026, sus novedades digitales y cuál se adapta mejor a tus metas 
   profesionales o académicas.
+readTime: 4 min
 keywords:
   - mejores certificados de inglés 2026
   - certificaciones de inglés oficiales

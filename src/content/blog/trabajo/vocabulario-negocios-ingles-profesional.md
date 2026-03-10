@@ -3,6 +3,7 @@ title: Vocabulario de Negocios en Inglés para Profesionales
 description: >-
   Mejora tu carrera con el mejor vocabulario de negocios en inglés. Frases para
   reuniones, emails, negociaciones y lista imprimible de términos esenciales.
+readTime: 7 min
 excerpt: >-
   Domina el inglés profesional. Aprende más de 100 frases y términos clave para
   reuniones, presentaciones y networking internacional con nuestra guía

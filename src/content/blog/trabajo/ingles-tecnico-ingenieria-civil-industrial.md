@@ -13,6 +13,7 @@ image: >-
 alt: Ingenieros civiles revisando planos de construcción en un proyecto internacional
 canonical: >-
   https://www.focus-on-english.com/blog/trabajo/ingles-tecnico-ingenieria-civil-industrial
+readTime: 5 min
 keywords:
   - ingles para ingenieros
   - ingles ingenieria civil

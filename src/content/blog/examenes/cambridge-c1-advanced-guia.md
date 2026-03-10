@@ -10,6 +10,7 @@ description: >-
   Prepara el C1 Advanced (CAE) con éxito. Trucos para el Use of English,
   estructuras avanzadas para el Writing, consejos para el Speaking y vocabulario
   de nivel experto.
+readTime: 4 min
 keywords:
   - preparacion cae cambridge
   - cae cambridge estructura examen

@@ -8,6 +8,7 @@ description: >-
   Alcanza la maestría total del idioma inglés (CPE). Descubre qué significa el
   nivel C2, cómo prepararte para el Proficiency de Cambridge y cómo dominar el
   registro culto y profesional.
+readTime: 5 min
 keywords:
   - curso ingles c2
   - ingles proficiency

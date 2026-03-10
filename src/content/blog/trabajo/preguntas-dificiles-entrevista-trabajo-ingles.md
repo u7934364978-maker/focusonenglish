@@ -13,6 +13,7 @@ image: >-
 alt: Candidato respondiendo preguntas difíciles en una entrevista de trabajo en inglés
 canonical: >-
   https://www.focus-on-english.com/blog/trabajo/preguntas-dificiles-entrevista-trabajo-ingles
+readTime: 6 min
 keywords:
   - entrevista de trabajo en ingles
   - preguntas dificiles entrevista ingles

@@ -4,6 +4,7 @@ description: >-
   Descubre el tiempo real que necesitas para aprender inglés según tu nivel
   actual, objetivos y dedicación semanal. Roadmap claro para alcanzar la
   fluidez.
+readTime: 5 min
 excerpt: >-
   ¿Quieres saber cuánto se tarda en aprender inglés? Desglosamos las horas
   necesarias por nivel (A1-C1) y te damos las claves científicas para acelerar
