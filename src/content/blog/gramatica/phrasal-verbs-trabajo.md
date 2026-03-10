@@ -18,8 +18,9 @@ keywords:
   - ingles empresarial phrasal verbs
   - phrasal verbs ingles
   - phrasal verbs
-author: David Torres
+author: david-torres
 date: '2026-03-06'
+updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg'
 alt: 'Profesionales en reunión usando phrasal verbs de negocios en inglés'
 category: gramatica

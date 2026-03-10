@@ -1,7 +1,8 @@
 ---
 title: '50 Frases Esenciales de Inglés para Atención al Cliente en Cualquier Situación'
 date: '2026-03-06'
-author: Focus English Team
+updatedDate: '2026-03-10'
+author: sara-mendez
 description: >-
   Colección de las 50 frases más utilizadas en atención al cliente en inglés.
   Organizadas por situación: bienvenida, resolución de problemas, quejas,

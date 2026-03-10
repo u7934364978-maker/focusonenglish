@@ -108,27 +108,7 @@ export default function RootLayout({
         <meta name="robots" content="max-image-preview:large" />
         <meta httpEquiv="Content-Security-Policy" content="upgrade-insecure-requests" />
         
-        {/* Prevent content scraping */}
-        <script dangerouslySetInnerHTML={{
-          __html: `
-            // Disable right-click context menu
-            document.addEventListener('contextmenu', e => e.preventDefault());
-            
-            // Disable common shortcuts for viewing source
-            document.addEventListener('keydown', e => {
-              if (e.ctrlKey && (e.key === 'u' || e.key === 'U' || e.key === 's' || e.key === 'S')) {
-                e.preventDefault();
-                return false;
-              }
-              if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && e.key === 'I')) {
-                e.preventDefault();
-                return false;
-              }
-            });
-            
 
-          `
-        }} />
       </head>
       <body className="antialiased bg-white text-slate-900 font-sans dark:bg-slate-950 dark:text-slate-50">
         <ThemeProvider

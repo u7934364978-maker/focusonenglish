@@ -1,7 +1,8 @@
 ---
 title: 'Inglés Jurídico y Legal: Vocabulario y Expresiones Esenciales para Profesionales'
 date: '2026-02-16'
-author: Focus English Team
+updatedDate: '2026-03-10'
+author: sara-mendez
 excerpt: >-
   Domina el inglés jurídico con el vocabulario legal esencial, frases para
   contratos, negociaciones y correspondencia formal. Una guía práctica para

@@ -16,8 +16,9 @@ keywords:
   - ingles coloquial britanico
   - vocabulario informal ingles
   - expresiones tipicas reino unido
-author: Focus English Team
+author: sara-mendez
 date: '2026-03-04'
+updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/672532/pexels-photo-672532.jpeg'
 category: metodos
 ---

@@ -1,7 +1,8 @@
 ---
 title: 'Inglés para Camareros y Hostelería: Guía Completa de Vocabulario y Frases 2026'
 date: '2026-03-10'
-author: Focus English Team
+updatedDate: '2026-03-10'
+author: sara-mendez
 excerpt: >-
   Todo el inglés que necesitas para trabajar en hostelería en países angloparlantes: atender mesas, tomar pedidos, gestionar quejas, hablar de la carta y trabajar en cocina. Ideal para conseguir trabajo en UK, Irlanda o Australia.
 category: trabajo

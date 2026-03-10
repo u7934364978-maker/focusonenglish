@@ -1,7 +1,8 @@
 ---
 title: 'Job Interview English: Técnicas Avanzadas para Candidatos con Nivel B2-C1'
 date: '2026-02-25'
-author: Focus English Team
+updatedDate: '2026-03-10'
+author: sara-mendez
 description: >-
   Lleva tus entrevistas en inglés al siguiente nivel con técnicas avanzadas de
   comunicación. Storytelling profesional, manejo de silencios, lenguaje corporal

@@ -1,7 +1,8 @@
 ---
 title: 'Negociación en Inglés: Estrategias y Frases Clave para el Éxito Comercial'
 date: '2026-01-30'
-author: Focus English Team
+updatedDate: '2026-03-10'
+author: sara-mendez
 excerpt: >-
   Negociar en inglés requiere algo más que vocabulario: requiere sutileza,
   persuasión y conocimiento cultural. Descubre cómo cerrar acuerdos ganadores

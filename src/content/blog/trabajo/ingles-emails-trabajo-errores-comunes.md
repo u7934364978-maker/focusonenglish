@@ -1,7 +1,8 @@
 ---
 title: '10 Errores en Emails Profesionales en Inglés que te Hacen Perder Credibilidad'
 date: '2026-02-20'
-author: Focus English Team
+updatedDate: '2026-03-10'
+author: sara-mendez
 description: >-
   Descubre los errores más frecuentes al escribir correos profesionales en
   inglés y cómo corregirlos. Guía práctica con ejemplos reales y alternativas

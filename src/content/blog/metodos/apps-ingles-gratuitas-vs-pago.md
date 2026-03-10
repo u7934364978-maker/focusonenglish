@@ -14,8 +14,9 @@ keywords:
   - mejor inversion aprender ingles
   - duolingo plus merece la pena
 date: '2026-03-02'
+updatedDate: '2026-03-10'
 category: metodos
-author: Sara Méndez
+author: sara-mendez
 image: 'https://images.pexels.com/photos/4050315/pexels-photo-4050315.jpeg'
 canonical: 'https://www.focus-on-english.com/blog/metodos/apps-ingles-gratuitas-vs-pago'
 ---

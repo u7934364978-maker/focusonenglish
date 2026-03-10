@@ -1,7 +1,8 @@
 ---
 title: 'Preguntas Difíciles en Entrevistas de Trabajo en Inglés y Cómo Responderlas'
 date: '2026-02-22'
-author: Focus English Team
+updatedDate: '2026-03-10'
+author: sara-mendez
 description: >-
   Aprende a responder con confianza las preguntas más complicadas en una
   entrevista de trabajo en inglés. Ejemplos de respuestas modelo, estrategias

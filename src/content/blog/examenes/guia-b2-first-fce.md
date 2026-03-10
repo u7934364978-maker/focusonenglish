@@ -13,8 +13,9 @@ keywords:
   - cambridge certificate b2
 canonical: 'https://www.focus-on-english.com/blog/examenes/cambridge-b2-first-guia'
 date: '2024-02-04'
+updatedDate: '2026-03-10'
 category: examenes
-author: Focus English
+author: david-torres
 image: 'https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg'
 faqs:
   - question: ¿Qué nivel de inglés es el B2 First?

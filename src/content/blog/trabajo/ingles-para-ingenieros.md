@@ -1,7 +1,8 @@
 ---
 category: trabajo
 date: '2026-02-07'
-author: Focus English
+updatedDate: '2026-03-10'
+author: sara-mendez
 title: 'Curso de Inglés para Ingenieros: Técnico y Profesional'
 description: >-
   Domina el inglés técnico para ingeniería y destaca en proyectos

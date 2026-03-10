@@ -1,7 +1,8 @@
 ---
 title: 'Guía 2026: Cómo hacer presentaciones en inglés con impacto'
 date: '2026-01-30'
-author: Focus English Team
+updatedDate: '2026-03-10'
+author: sara-mendez
 excerpt: >-
   Domina el arte de hablar en público en inglés. Aprende las frases clave para
   estructurar tu discurso, describir gráficos y manejar preguntas con seguridad

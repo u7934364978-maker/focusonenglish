@@ -1,7 +1,8 @@
 ---
 title: 'Clases de Inglés: Guía para elegir la mejor opción'
 date: '2026-01-30'
-author: Focus English Team
+updatedDate: '2026-03-10'
+author: sara-mendez
 excerpt: >-
   ¿Buscas clases de inglés que realmente funcionen? Descubre los diferentes
   métodos, desde clases particulares hasta la revolución de la IA, y elige la

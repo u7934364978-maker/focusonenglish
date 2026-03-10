@@ -1,7 +1,8 @@
 ---
 category: examenes
 date: '2026-03-02'
-author: David Torres
+updatedDate: '2026-03-10'
+author: david-torres
 title: 'Precios Exámenes Cambridge 2026: Tasas, Gastos Extra y Comparativa'
 description: >-
   Consulta los precios actualizados de los exámenes Cambridge para 2026. Tasas

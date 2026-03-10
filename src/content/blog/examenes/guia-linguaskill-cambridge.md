@@ -13,8 +13,9 @@ keywords:
   - linguaskill que es
 canonical: 'https://www.focus-on-english.com/blog/examenes/linguaskill-cambridge-guia'
 date: '2024-02-04'
+updatedDate: '2026-03-10'
 category: examenes
-author: Focus English
+author: david-torres
 image: 'https://images.pexels.com/photos/5905709/pexels-photo-5905709.jpeg'
 faqs:
   - question: ¿Qué niveles evalúa Linguaskill?

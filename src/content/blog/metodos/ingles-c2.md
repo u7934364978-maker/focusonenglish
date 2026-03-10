@@ -1,7 +1,8 @@
 ---
 category: metodos
 date: '2026-03-02'
-author: Sara Méndez
+updatedDate: '2026-03-10'
+author: sara-mendez
 title: 'Nivel de Inglés C2: La Guía Maestra para alcanzar la Excelencia Total'
 description: >-
   Alcanza la maestría total del idioma inglés (CPE). Descubre qué significa el

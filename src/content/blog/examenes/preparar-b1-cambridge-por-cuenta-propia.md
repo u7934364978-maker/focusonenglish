@@ -14,8 +14,9 @@ keywords:
   - practicar speaking b1 solo
   - focus english b1 preparation
 date: '2025-02-05'
+updatedDate: '2026-03-10'
 category: examenes
-author: Focus English
+author: david-torres
 image: 'https://images.pexels.com/photos/5905709/pexels-photo-5905709.jpeg'
 canonical: >-
   https://www.focus-on-english.com/blog/examenes/preparar-b1-cambridge-por-cuenta-propia

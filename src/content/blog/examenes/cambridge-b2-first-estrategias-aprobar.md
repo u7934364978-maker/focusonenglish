@@ -1,7 +1,8 @@
 ---
 title: 'Cambridge B2 First 2026: Estrategias Definitivas para Aprobar el FCE'
 date: '2026-03-02'
-author: Focus English Team
+updatedDate: '2026-03-10'
+author: david-torres
 description: >-
   Estrategias probadas para aprobar el Cambridge B2 First (FCE) en 2026.
   Trucos por parte del examen, errores más frecuentes, plan de estudio de

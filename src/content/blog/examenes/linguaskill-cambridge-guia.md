@@ -1,7 +1,8 @@
 ---
 category: examenes
 date: '2026-02-07'
-author: Focus English
+updatedDate: '2026-03-10'
+author: david-torres
 title: 'Linguaskill de Cambridge: Certificación Rápida y Online'
 description: >-
   Descubre Linguaskill de Cambridge, el examen multinivel rápido con resultados

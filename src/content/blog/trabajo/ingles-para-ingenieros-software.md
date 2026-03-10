@@ -1,7 +1,8 @@
 ---
 title: 'Inglés para Ingenieros de Software: Guía de Comunicación Técnica en Equipos Globales'
 date: '2026-03-03'
-author: Focus English Team
+updatedDate: '2026-03-10'
+author: sara-mendez
 description: >-
   Domina el inglés técnico para desarrollo de software. Vocabulario de
   programación, comunicación en standups y code reviews, escritura de

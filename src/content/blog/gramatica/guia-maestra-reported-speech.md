@@ -1,7 +1,8 @@
 ---
 category: gramatica
 date: '2026-03-02'
-author: David Torres
+updatedDate: '2026-03-10'
+author: david-torres
 title: 'Guia Maestra de Reported Speech y Reporting Verbs: De B2 a C2'
 description: >-
   Domina el Reported Speech y los Reporting Verbs con nuestra guía completa para

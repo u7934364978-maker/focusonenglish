@@ -1,6 +1,7 @@
 ---
 title: 'Inglés para Viajar: Tu Pasaporte a Experiencias Auténticas'
 date: '2026-01-30'
+updatedDate: '2026-03-10'
 author: lidia
 excerpt: >-
   Viajar es descubrir, y el idioma es la llave. En esta guía exploramos cómo

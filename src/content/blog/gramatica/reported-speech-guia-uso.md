@@ -17,8 +17,9 @@ keywords:
   - backshift ingles
   - reporting verbs list
   - reported speech
-author: David Torres
+author: david-torres
 date: '2026-03-02'
+updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/301920/pexels-photo-301920.jpeg'
 category: gramatica
 canonical: 'https://www.focus-on-english.com/blog/gramatica/reported-speech-guia-uso'

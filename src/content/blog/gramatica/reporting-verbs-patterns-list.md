@@ -1,7 +1,8 @@
 ---
 category: gramatica
 date: '2026-03-02'
-author: David Torres
+updatedDate: '2026-03-10'
+author: david-torres
 title: 'Reporting Verbs Patterns: Lista Completa y Guía de Uso'
 description: >-
   Descubre los patrones gramaticales de los reporting verbs. Lista completa de

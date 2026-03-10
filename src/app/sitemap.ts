@@ -125,7 +125,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         url: `${baseUrl}/blog/temas/${slugify(keyword)}`,
         lastModified: latestDate,
         changeFrequency: "weekly" as const,
-        priority: 0.8,
+        priority: 0.5,
       };
     })
   );

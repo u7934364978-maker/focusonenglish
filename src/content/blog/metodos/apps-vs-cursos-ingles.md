@@ -15,8 +15,9 @@ keywords:
   - estudiar ingles por tu cuenta sin academia
   - aprender ingles sin academia online
 date: '2026-03-02'
+updatedDate: '2026-03-10'
 category: metodos
-author: Sara Méndez
+author: sara-mendez
 image: 'https://images.pexels.com/photos/5905709/pexels-photo-5905709.jpeg'
 canonical: 'https://www.focus-on-english.com/blog/metodos/apps-vs-cursos-ingles'
 ---

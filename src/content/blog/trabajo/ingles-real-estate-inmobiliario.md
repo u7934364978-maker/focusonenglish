@@ -1,7 +1,8 @@
 ---
 title: 'Inglés para Real Estate e Inmobiliaria: Vocabulario y Frases Profesionales 2026'
 date: '2026-03-12'
-author: Focus English Team
+updatedDate: '2026-03-10'
+author: sara-mendez
 excerpt: >-
   Guía completa de inglés para el sector inmobiliario: vocabulario de compraventa, alquiler, contratos, negociación de propiedades y terminología técnica para agentes y compradores internacionales.
 category: trabajo

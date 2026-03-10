@@ -18,8 +18,9 @@ keywords:
   - clases de gramatica en ingles gratis
   - present perfect vs past simple
 date: '2026-03-02'
+updatedDate: '2026-03-10'
 category: gramatica
-author: David Torres
+author: david-torres
 image: 'https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg'
 faqs:
   - question: ¿Cuál es la diferencia principal entre Present Perfect y Past Simple?

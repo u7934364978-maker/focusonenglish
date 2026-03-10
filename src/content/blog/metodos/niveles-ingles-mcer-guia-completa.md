@@ -16,8 +16,9 @@ keywords:
   - cefr english levels
   - cuanto tarda subir nivel ingles
   - test nivel ingles gratis
-author: Focus English Team
+author: sara-mendez
 date: '2026-03-04'
+updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/5428261/pexels-photo-5428261.jpeg'
 category: metodos
 ---

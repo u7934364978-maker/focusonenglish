@@ -116,7 +116,7 @@ export function generateArticleSchema(props: ArticleSchemaProps) {
 
   return {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": "BlogPosting",
     "headline": props.title,
     "description": props.description,
     "image": {

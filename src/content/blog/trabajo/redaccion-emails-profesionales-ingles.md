@@ -3,7 +3,8 @@ title: >-
   Redacción de Emails Profesionales en Inglés: Guía Definitiva y Mejores
   Prácticas
 date: '2026-01-30'
-author: Focus English Team
+updatedDate: '2026-03-10'
+author: sara-mendez
 excerpt: >-
   ¿Pasas horas redactando un correo en inglés? Aprende las estructuras clave,
   frases de poder y los errores comunes que debes evitar para comunicarte con

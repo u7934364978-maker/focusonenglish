@@ -1,7 +1,8 @@
 ---
 category: viajes
 date: '2026-02-07'
-author: Focus English
+updatedDate: '2026-03-10'
+author: sara-mendez
 title: 'Inglés para Nómadas Digitales y Mochileros: Guía de Viaje y Trabajo Remoto'
 description: >-
   Guía de inglés para nómadas digitales y mochileros. Aprende a trabajar y vivir

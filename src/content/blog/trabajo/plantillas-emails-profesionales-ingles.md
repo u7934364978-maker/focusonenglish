@@ -1,7 +1,8 @@
 ---
 title: '20 Plantillas de Emails Profesionales en Inglés para Cada Situación'
 date: '2026-02-15'
-author: Focus English Team
+updatedDate: '2026-03-10'
+author: sara-mendez
 description: >-
   Descarga y adapta las 20 plantillas de emails profesionales en inglés más
   utilizadas. Desde solicitudes de reunión hasta seguimiento de proyectos y

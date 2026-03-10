@@ -1,7 +1,8 @@
 ---
 title: 'Inglés Médico para Médicos y Especialistas: Comunicación Clínica Avanzada'
 date: '2026-03-02'
-author: Focus English Team
+updatedDate: '2026-03-10'
+author: sara-mendez
 description: >-
   Guía avanzada de inglés médico para médicos y especialistas. Redacción de
   historias clínicas, comunicación en congresos, publicaciones científicas y

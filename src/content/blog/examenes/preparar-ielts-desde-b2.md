@@ -1,7 +1,8 @@
 ---
 title: 'Cómo Preparar el IELTS desde Cero (o desde B2) para 2026: Plan Completo'
 date: '2026-03-05'
-author: Focus English Team
+updatedDate: '2026-03-10'
+author: david-torres
 description: >-
   Guía completa para preparar el IELTS en 2026. Plan de estudio de 12 semanas,
   estrategias por parte del examen, banda de puntuación necesaria para emigrar

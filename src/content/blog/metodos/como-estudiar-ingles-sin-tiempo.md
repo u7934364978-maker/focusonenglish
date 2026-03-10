@@ -13,8 +13,9 @@ keywords:
   - como aprender ingles gratis
   - mejorar ingles
 date: '2024-02-03'
+updatedDate: '2026-03-10'
 category: metodos
-author: Focus English
+author: sara-mendez
 image: 'https://images.pexels.com/photos/5699475/pexels-photo-5699475.jpeg'
 ---
 

@@ -1,7 +1,8 @@
 ---
 category: trabajo
 date: '2026-03-02'
-author: Sara Méndez
+updatedDate: '2026-03-10'
+author: sara-mendez
 title: 'Vocabulario Inglés B1: Trabajo, Viajes y Vida Cotidiana'
 description: >-
   Lista de vocabulario esencial para el nivel B1 de inglés. Aprende las palabras

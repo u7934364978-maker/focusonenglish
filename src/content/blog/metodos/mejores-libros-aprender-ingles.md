@@ -1,7 +1,8 @@
 ---
 title: 'Los Mejores Libros para Aprender Inglés: Guía por Nivel y Objetivo 2026'
 date: '2026-02-16'
-author: Focus English Team
+updatedDate: '2026-03-10'
+author: sara-mendez
 excerpt: >-
   Descubre los mejores libros para aprender inglés en 2026 según tu nivel y objetivo: gramática, vocabulario, conversación y preparación para exámenes. Incluye libros de lectura graduada.
 category: metodos

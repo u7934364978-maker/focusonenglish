@@ -16,8 +16,9 @@ keywords:
   - gramatica inglesa c1
   - cambridge c1 advanced
   - condicionales tipo a tipo b
-author: David Torres
+author: david-torres
 date: '2026-03-05'
+updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/3060654/pexels-photo-3060654.jpeg'
 category: gramatica
 ---
