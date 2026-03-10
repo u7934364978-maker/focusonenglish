@@ -29,7 +29,9 @@ const AVAILABLE_TOPICS = [
 type ViewMode = 'grid' | 'modules';
 
 function getCoursePath(courseId?: string): string {
-  return courseId === 'ingles-a2' ? '/curso-a2' : '/curso-a1';
+  if (courseId === 'ingles-a2') return '/curso-a2';
+  if (courseId === 'ingles-b1') return '/curso-b1';
+  return '/curso-a1';
 }
 
 export function A1CourseSelector({ units, courseId }: A1CourseSelectorProps) {

@@ -155,10 +155,11 @@ export async function middleware(request: NextRequest) {
     return response;
   }
 
-  // Protección para la zona /curso-a1, /curso-a2, /admin y /misiones
+  // Protección para la zona /curso-a1, /curso-a2, /curso-b1, /admin y /misiones
   const isProtectedArea = 
     pathname.startsWith("/curso-a1") ||
     pathname.startsWith("/curso-a2") ||
+    pathname.startsWith("/curso-b1") ||
     pathname.startsWith("/admin") ||
     pathname.startsWith("/misiones") ||
     pathname.startsWith("/onboarding");

@@ -351,6 +351,10 @@ export const premiumCourseServerService = {
     return this.getUnitsWithMetadata('ingles-a2');
   },
 
+  async getB1UnitsWithMetadata(): Promise<A1CourseMetadata> {
+    return this.getUnitsWithMetadata('ingles-b1');
+  },
+
   async getUnitsWithMetadata(courseId: string): Promise<A1CourseMetadata> {
     const contentDir = path.join(process.cwd(), `src/content/cursos/${courseId}`);
     const units: UnitMetadata[] = [];
