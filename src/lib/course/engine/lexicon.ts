@@ -32,7 +32,7 @@ export const A1_LEXICON: LexicalItem[] = [
   { lemma: 'people', pos: 'noun', translation: 'personas / gente', tags: ['human', 'A1'], unit: 1 },
   { lemma: 'me', pos: 'noun', translation: 'mí / me', tags: ['pronoun', 'A1'], unit: 1 },
   { lemma: 'Hey', pos: 'noun', translation: 'Oye / Hola', tags: ['greeting', 'A1'], unit: 1 },
-  { lemma: 'USA', pos: 'noun', translation: 'EE.UU.', tags: ['country', 'A1'], unit: 1 },
+  // USA excluido del léxico automático: "usa" (verbo en español) coincide con el mismo patrón y mostraría EE.UU. incorrectamente. Usar [[USA|EE.UU.]] explícito donde haga falta.
   { lemma: 'UK', pos: 'noun', translation: 'Reino Unido', tags: ['country', 'A1'], unit: 1 },
   { lemma: 'has', pos: 'verb', translation: 'tiene', tags: ['action', 'A1'], unit: 1 },
   { lemma: 'forms', pos: 'noun', translation: 'formas', tags: ['meta', 'A1'], unit: 1 },
@@ -489,7 +489,7 @@ export const A1_LEXICON: LexicalItem[] = [
   { lemma: 'hammer', pos: 'noun', translation: 'martillo', gender_es: 'm', tags: ['tool', 'storage_item', 'A1'], unit: 30 },
 
   // Grammar & Function Words (Common)
-  { lemma: 'a', pos: 'adjective', translation: 'un/una', tags: ['article', 'A1'], unit: 1 },
+  // 'a' excluido: en textos en castellano "a" es preposición (ir a, a las siete) y no debe traducirse como "un/una"
   { lemma: 'an', pos: 'adjective', translation: 'un/una', tags: ['article', 'A1'], unit: 1 },
   { lemma: 'the', pos: 'adjective', translation: 'el/la/los/las', tags: ['article', 'A1'], unit: 1 },
   { lemma: 'I', pos: 'noun', translation: 'yo', tags: ['pronoun', 'A1'], unit: 1 },

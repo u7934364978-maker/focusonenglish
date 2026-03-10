@@ -459,17 +459,17 @@ export const UNIT_21_EXERCISES: Exercise[] = [
       "words": [
         "[[no|ninguna]]",
         "[[are|se]]",
-        "[[exam.| ]]",
+        "[[exam.|examen.]]",
         "[[circumstances|circunstancia]]",
         "[[Under|Bajo]]",
-        "[[the|examen.]]",
+        "[[the|el]]",
         "[[allowed|permite]]",
-        "[[phone|durante]]",
-        "[[during|el]]",
-        "[[your|móvil]]",
-        "[[you|le]]",
-        "[[use|el]]",
-        "[[to|usar]]"
+        "[[phone|móvil]]",
+        "[[during|durante]]",
+        "[[your|tu]]",
+        "[[you|te]]",
+        "[[use|usar]]",
+        "[[to|]]"
       ],
       "explanation": "Inversión con expresiones preposicionales negativas: Preposición + no + sustantivo + auxiliar + sujeto.",
       "audio": "audio/b2/unit-21/e16.mp3"
