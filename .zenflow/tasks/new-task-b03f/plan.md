@@ -47,7 +47,8 @@ Save to `{@artifacts_path}/spec.md` with:
 
 Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 
-### [ ] Step: Eliminar script anti-copia de layout.tsx
+### [x] Step: Eliminar script anti-copia de layout.tsx
+<!-- chat-id: f5448756-059d-47a0-939a-88ea143f187e -->
 
 Eliminar el bloque `<script dangerouslySetInnerHTML>` que desactiva el menú contextual y bloquea atajos de teclado (F12, Ctrl+U, etc.) del archivo `src/app/layout.tsx`.
 
