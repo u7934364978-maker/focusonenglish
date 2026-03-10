@@ -13,8 +13,9 @@ keywords:
   - modal verbs exercises
   - can could must should
   - gramatica inglesa b1
-author: David Torres
+author: david-torres
 date: '2026-03-04'
+updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/4145153/pexels-photo-4145153.jpeg'
 category: gramatica
 ---

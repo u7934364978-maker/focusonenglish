@@ -14,8 +14,9 @@ keywords:
   - fonetica inglesa
   - ejercicios de deletreo en ingles online
   - reglas pronunciacion ingles
-author: Equipo Focus English
+author: sara-mendez
 date: '2026-02-06'
+updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/1036622/pexels-photo-1036622.jpeg'
 category: metodos
 ---

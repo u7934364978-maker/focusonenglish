@@ -1,6 +1,7 @@
 ---
 category: metodos
 date: '2026-02-07'
+updatedDate: '2026-03-10'
 author: focus-english-team
 title: 'Inglés A1: Guía para Empezar desde Cero con Éxito'
 description: >-

@@ -1,7 +1,8 @@
 ---
 category: trabajo
 date: '2026-02-07'
-author: Focus English
+updatedDate: '2026-03-10'
+author: sara-mendez
 title: Inglés para Atención al Cliente y Customer Service Internacional
 description: >-
   Domina el inglés para soporte y atención al cliente internacional. Aprende

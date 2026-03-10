@@ -15,7 +15,7 @@ keywords:
 date: '2026-03-02'
 updatedDate: '2026-03-07'
 category: metodos
-author: Sara Méndez
+author: sara-mendez
 image: 'https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg'
 canonical: 'https://www.focus-on-english.com/blog/metodos/mejor-app-aprender-ingles'
 faqs:

@@ -14,8 +14,9 @@ keywords:
   - ingles americano
   - british english vs american english
   - cual ingles aprender
-author: Equipo Focus English
+author: sara-mendez
 date: '2026-03-07'
+updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/460672/pexels-photo-460672.jpeg'
 category: metodos
 ---

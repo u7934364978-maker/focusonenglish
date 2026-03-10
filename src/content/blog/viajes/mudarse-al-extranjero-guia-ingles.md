@@ -1,7 +1,8 @@
 ---
 title: 'Mudarse al Extranjero: Guía de Inglés Esencial para Expatriados 2026'
 date: '2026-02-24'
-author: Focus English Team
+updatedDate: '2026-03-10'
+author: sara-mendez
 excerpt: >-
   Todo el inglés que necesitas para mudarte a un país angloparlante: buscar piso, abrir una cuenta bancaria, trámites administrativos, sanidad y vida diaria. Guía práctica para expatriados.
 category: viajes

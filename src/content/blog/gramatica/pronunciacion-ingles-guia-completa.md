@@ -14,8 +14,9 @@ keywords:
   - fonemas ingles
   - acento ingles
   - entonacion ingles
-author: David Torres
+author: david-torres
 date: '2026-03-05'
+updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/1036622/pexels-photo-1036622.jpeg'
 category: gramatica
 ---

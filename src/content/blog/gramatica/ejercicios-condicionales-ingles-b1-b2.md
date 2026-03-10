@@ -15,8 +15,9 @@ keywords:
   - second conditional ejercicios
   - third conditional ejercicios
   - gramatica inglesa b2
-author: David Torres
+author: david-torres
 date: '2026-03-04'
+updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/8197543/pexels-photo-8197543.jpeg'
 category: gramatica
 ---

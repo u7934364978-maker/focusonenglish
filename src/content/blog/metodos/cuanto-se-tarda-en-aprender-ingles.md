@@ -17,8 +17,9 @@ keywords:
   - ingles b2 tiempo
   - aprender ingles en 6 meses
 date: '2024-02-03'
+updatedDate: '2026-03-10'
 category: metodos
-author: Focus English
+author: sara-mendez
 image: 'https://images.pexels.com/photos/7092400/pexels-photo-7092400.jpeg'
 faqs:
   - question: ¿Es posible aprender inglés en 3 meses?

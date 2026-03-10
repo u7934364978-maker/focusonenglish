@@ -1,7 +1,8 @@
 ---
 title: 'Inglés Universitario y Académico: Guía Completa para Estudiantes 2026'
 date: '2026-02-28'
-author: Focus English Team
+updatedDate: '2026-03-10'
+author: david-torres
 excerpt: >-
   Todo sobre el inglés académico universitario: cómo escribir ensayos, participar en seminarios, leer artículos científicos y comunicarte con profesores. Guía esencial para estudiantes hispanohablantes.
 category: examenes

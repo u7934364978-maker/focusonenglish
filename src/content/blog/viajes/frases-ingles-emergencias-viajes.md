@@ -1,7 +1,8 @@
 ---
 title: 'Frases de Emergencia en Inglés: Guía de Supervivencia para Viajeros'
 date: '2026-01-30'
-author: Focus English Team
+updatedDate: '2026-03-10'
+author: sara-mendez
 excerpt: >-
   Estar preparado para lo inesperado es vital al viajar. Aprende las frases
   clave para emergencias médicas, robos y extravíos, y viaja con total

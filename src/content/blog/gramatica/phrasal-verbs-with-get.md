@@ -17,8 +17,9 @@ keywords:
   - get away get by get off ingles
   - phrasal verbs ingles
   - phrasal verbs
-author: David Torres
+author: david-torres
 date: '2026-03-06'
+updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/1552617/pexels-photo-1552617.jpeg'
 alt: 'Lista de phrasal verbs con GET en inglés con ejemplos'
 category: gramatica

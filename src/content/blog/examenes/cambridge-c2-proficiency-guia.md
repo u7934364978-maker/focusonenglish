@@ -1,7 +1,8 @@
 ---
 category: examenes
 date: '2026-02-07'
-author: Focus English
+updatedDate: '2026-03-10'
+author: david-torres
 image: "https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg?auto=compress&cs=tinysrgb&w=1200"
 alt: "Estudiante de nivel C2 Proficiency logrando la maestría del idioma"
 title: 'Examen C2 Proficiency (CPE): Máximo Nivel de Inglés'

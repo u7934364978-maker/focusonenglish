@@ -1,7 +1,8 @@
 ---
 title: 'Presentaciones de Impacto: Guía Completa para Brillar en Inglés Profesional'
 date: '2026-01-30'
-author: Focus English Team
+updatedDate: '2026-03-10'
+author: sara-mendez
 excerpt: >-
   Hablar en público en inglés es un reto, pero con la estructura adecuada y las
   frases clave, puedes cautivar a cualquier audiencia. Domina el arte de las

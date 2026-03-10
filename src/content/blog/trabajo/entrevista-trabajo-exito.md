@@ -1,7 +1,8 @@
 ---
 title: 'Superar una Entrevista de Trabajo en Inglés: Guía'
 date: '2026-01-30'
-author: Expert HR
+updatedDate: '2026-03-10'
+author: sara-mendez
 excerpt: >-
   Los secretos para destacar en tu próxima entrevista internacional. Aprende a
   responder las preguntas difíciles y a demostrar tu valor profesional en

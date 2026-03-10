@@ -3,7 +3,8 @@ title: >-
   Inglés para Recepcionistas: La Guía Definitiva para una Atención de 5
   Estrellas
 date: '2026-02-06'
-author: Focus English Team
+updatedDate: '2026-03-10'
+author: sara-mendez
 excerpt: >-
   Domina el inglés para recepcionistas de hotel. Aprende a gestionar reservas,
   check-ins, reclamaciones y peticiones de huéspedes con elegancia y

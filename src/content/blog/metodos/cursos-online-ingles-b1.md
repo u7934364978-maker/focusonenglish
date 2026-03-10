@@ -1,7 +1,8 @@
 ---
 category: metodos
 date: '2026-02-07'
-author: Focus English
+updatedDate: '2026-03-10'
+author: sara-mendez
 title: 'Cursos Online de Inglés B1: Consigue tu Título Oficial'
 description: >-
   Prepara tu examen B1 de inglés con nuestro curso online. Temario completo de

@@ -1,7 +1,8 @@
 ---
 title: 'Aptis A2: Guía Completa para Superar el Nivel Básico'
 date: '2026-02-06'
-author: Focus English Team
+updatedDate: '2026-03-10'
+author: david-torres
 excerpt: >-
   Todo lo que necesitas saber sobre el examen Aptis A2. Estructura, puntuación y
   consejos para obtener tu certificado de forma rápida y económica.

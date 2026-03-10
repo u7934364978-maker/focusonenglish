@@ -1,7 +1,8 @@
 ---
 category: gramatica
 date: '2026-03-02'
-author: David Torres
+updatedDate: '2026-03-10'
+author: david-torres
 title: 'Reported Speech: Preguntas, Órdenes y Peticiones'
 description: >-
   Guía completa sobre cómo reportar preguntas (interrogativas) y órdenes

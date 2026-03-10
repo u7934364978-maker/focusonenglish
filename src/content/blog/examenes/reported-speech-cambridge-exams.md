@@ -1,7 +1,8 @@
 ---
 category: examenes
 date: '2026-03-02'
-author: David Torres
+updatedDate: '2026-03-10'
+author: david-torres
 title: 'Reported Speech Cambridge Exams: Guía de Rephrasing (B2-C2)'
 description: >-
   Aprende a resolver ejercicios de Reported Speech en los exámenes de Cambridge

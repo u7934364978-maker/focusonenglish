@@ -21,8 +21,9 @@ keywords:
   - impersonal passive english
   - voz pasiva ingles
 date: '2026-03-02'
+updatedDate: '2026-03-10'
 category: gramatica
-author: David Torres
+author: david-torres
 image: 'https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg'
 ---
 

@@ -1,7 +1,8 @@
 ---
 category: metodos
 date: '2026-02-07'
-author: Focus English
+updatedDate: '2026-03-10'
+author: sara-mendez
 title: 'Curso de Inglés C1: Prepárate para el Nivel Avanzado CAE'
 description: >-
   Domina el inglés avanzado a nivel profesional y académico. Prepárate para el

@@ -1,7 +1,8 @@
 ---
 title: 'Inglés para Marketing: Vocabulario, Términos y Frases Esenciales en 2026'
 date: '2026-02-18'
-author: Focus English Team
+updatedDate: '2026-03-10'
+author: sara-mendez
 excerpt: >-
   Domina el inglés para marketing con el vocabulario profesional imprescindible:
   desde SEO y contenidos hasta campañas de paid media y analytics. Habla con

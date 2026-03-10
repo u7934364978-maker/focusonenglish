@@ -1,7 +1,8 @@
 ---
 title: 'Vocabulario de Inglés Médico para Enfermería: Guía Esencial'
 date: '2026-03-01'
-author: Focus English Team
+updatedDate: '2026-03-10'
+author: sara-mendez
 description: >-
   Guía de vocabulario de inglés médico para enfermeras y enfermeros. Términos
   clínicos esenciales, comunicación con pacientes internacionales y frases para

@@ -1,7 +1,8 @@
 ---
 title: 'Cultura y Etiqueta: Guía Maestra para tus Viajes por Países Anglosajones'
 date: '2026-01-30'
-author: Focus English Team
+updatedDate: '2026-03-10'
+author: sara-mendez
 excerpt: >-
   Hablar inglés es solo la mitad del camino. Entender las normas sociales en
   países anglosajones te abrirá muchas más puertas. Descubre los secretos de la

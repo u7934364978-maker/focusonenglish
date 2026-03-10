@@ -1,7 +1,8 @@
 ---
 category: viajes
 date: '2026-02-07'
-author: Focus English
+updatedDate: '2026-03-10'
+author: sara-mendez
 title: 'Emergencias en Inglés: Frases de Auxilio y Seguridad'
 description: >-
   Guía de supervivencia para emergencias en inglés. Aprende frases clave de

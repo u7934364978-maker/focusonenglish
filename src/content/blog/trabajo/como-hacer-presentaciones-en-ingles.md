@@ -1,7 +1,8 @@
 ---
 title: 'Cómo Hacer Presentaciones en Inglés que Impacten: Guía Práctica'
 date: '2026-02-28'
-author: Focus English Team
+updatedDate: '2026-03-10'
+author: sara-mendez
 description: >-
   Aprende a estructurar y ejecutar presentaciones en inglés con confianza.
   Conectores, frases de transición, cómo abrir y cerrar con impacto, y vocabulario

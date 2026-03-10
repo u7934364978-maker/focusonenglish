@@ -14,8 +14,9 @@ keywords:
   - diferencia a1 y a2 ingles
   - como pasar de nivel ingles
 date: '2024-02-03'
+updatedDate: '2026-03-10'
 category: metodos
-author: Focus English
+author: sara-mendez
 image: 'https://images.pexels.com/photos/5905711/pexels-photo-5905711.jpeg'
 ---
 

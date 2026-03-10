@@ -1,7 +1,8 @@
 ---
 title: 'Becas y Solicitudes en Inglés: Cómo Conseguir Financiación para Estudiar en el Extranjero'
 date: '2026-03-04'
-author: Focus English Team
+updatedDate: '2026-03-10'
+author: david-torres
 excerpt: >-
   Guía completa para solicitar becas y financiación en inglés: cómo escribir un Personal Statement, carta de motivación, referencias y todo lo que necesitas para conseguir una beca internacional.
 category: examenes

@@ -2,7 +2,7 @@
 category: examenes
 date: '2026-02-07'
 updatedDate: '2026-03-07'
-author: Focus English
+author: david-torres
 image: "https://images.pexels.com/photos/3807738/pexels-photo-3807738.jpeg?auto=compress&cs=tinysrgb&w=1200"
 alt: "Estudiante preparando el examen B2 First de Cambridge con libros y apuntes"
 title: 'Examen B2 First (FCE) de Cambridge: Guía Maestra de Preparación 2026'

@@ -18,8 +18,9 @@ keywords:
   - phrasal verbs sofisticados ingles
   - phrasal verbs ingles
   - phrasal verbs
-author: David Torres
+author: david-torres
 date: '2026-03-06'
+updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/1925536/pexels-photo-1925536.jpeg'
 alt: 'Estudiante avanzado preparando phrasal verbs de nivel C1 para el CAE de Cambridge'
 category: gramatica

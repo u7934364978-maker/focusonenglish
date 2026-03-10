@@ -78,7 +78,7 @@ En `src/app/sitemap.ts`, reducir la prioridad de las URLs de keywords (`/blog/te
 - Cambiar el valor de `priority` de `0.8` a `0.5`
 - Ejecutar `npm run lint && npm run build` para confirmar que no hay errores
 
-### [ ] Step: Actualizar frontmatter de artículos del blog (autores y updatedDate)
+### [x] Step: Actualizar frontmatter de artículos del blog (autores y updatedDate)
 <!-- chat-id: 95282a1f-f6c6-4495-ada9-1c433f50a45f -->
 
 Mejorar el E-E-A-T del contenido actualizando el frontmatter de los artículos en `src/content/blog/**/*.md`:

@@ -1,7 +1,8 @@
 ---
 title: 'Las Mejores Películas y Series para Aprender Inglés en 2026'
 date: '2026-02-14'
-author: Focus English Team
+updatedDate: '2026-03-10'
+author: sara-mendez
 excerpt: >-
   Descubre qué películas y series en inglés son mejores para aprender según tu nivel. Guía práctica con recomendaciones para A2, B1, B2 y C1, y cómo sacarles el máximo partido.
 category: metodos

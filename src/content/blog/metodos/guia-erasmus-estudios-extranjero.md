@@ -1,7 +1,8 @@
 ---
 title: 'Guía Erasmus y Estudios en el Extranjero: Todo lo que Necesitas Saber en Inglés'
 date: '2026-03-02'
-author: Focus English Team
+updatedDate: '2026-03-10'
+author: sara-mendez
 excerpt: >-
   Guía completa para estudiantes Erasmus y de intercambio: vocabulario en inglés para la universidad, la vida en residencia, el campus y cómo sacar el máximo partido a tu experiencia académica en el extranjero.
 category: metodos

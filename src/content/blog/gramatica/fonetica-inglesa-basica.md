@@ -14,8 +14,9 @@ keywords:
   - IPA ingles
   - alfabeto fonetico internacional ingles
   - transcripcion fonetica ingles
-author: David Torres
+author: david-torres
 date: '2026-03-06'
+updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/267669/pexels-photo-267669.jpeg'
 category: gramatica
 ---

@@ -1,7 +1,8 @@
 ---
 title: 'Frases Clave para una Entrevista de Trabajo en Inglés: Habla con Confianza'
 date: '2026-02-14'
-author: Focus English Team
+updatedDate: '2026-03-10'
+author: sara-mendez
 excerpt: >-
   Domina las frases y expresiones esenciales para cada momento de tu entrevista
   de trabajo en inglés: desde la presentación inicial hasta el cierre. Con

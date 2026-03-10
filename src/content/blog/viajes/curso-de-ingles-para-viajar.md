@@ -1,7 +1,8 @@
 ---
 title: 'Curso de Inglés para Viajar: Pasaporte a la Fluidez'
 date: '2026-01-30'
-author: Focus English Team
+updatedDate: '2026-03-10'
+author: sara-mendez
 excerpt: >-
   ¿Planeas un viaje al extranjero? Un curso de inglés para viajar es la clave
   para moverte con seguridad. Aprende frases esenciales y practica situaciones

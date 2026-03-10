@@ -18,8 +18,9 @@ keywords:
   - estudiar ingles oficina
   - mejor app ingles negocios
 date: '2026-03-02'
+updatedDate: '2026-03-10'
 category: trabajo
-author: Sara Méndez
+author: sara-mendez
 image: 'https://images.pexels.com/photos/3184328/pexels-photo-3184328.jpeg'
 canonical: 'https://www.focus-on-english.com/blog/trabajo/mejores-apps-ingles-trabajo'
 ---

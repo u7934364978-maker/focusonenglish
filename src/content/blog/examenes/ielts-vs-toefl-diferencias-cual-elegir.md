@@ -13,8 +13,9 @@ keywords:
   - ielts para reino unido
   - certificaciones oficiales ingles
 date: '2025-02-05'
+updatedDate: '2026-03-10'
 category: examenes
-author: Focus English
+author: david-torres
 image: 'https://images.pexels.com/photos/5905710/pexels-photo-5905710.jpeg'
 ---
 

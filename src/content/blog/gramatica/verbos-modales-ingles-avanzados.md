@@ -16,8 +16,9 @@ keywords:
   - would could should might
   - gramatica inglesa c1
   - cambridge c1 advanced gramatica
-author: David Torres
+author: david-torres
 date: '2026-03-05'
+updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/4778611/pexels-photo-4778611.jpeg'
 category: gramatica
 ---

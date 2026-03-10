@@ -1,7 +1,8 @@
 ---
 title: 'Cambridge C2 Proficiency (CPE) 2026: Guía de Preparación para el Nivel Más Alto'
 date: '2026-03-01'
-author: Focus English Team
+updatedDate: '2026-03-10'
+author: david-torres
 description: >-
   Guía completa para preparar el Cambridge C2 Proficiency (CPE) en 2026.
   Estructura del examen, partes más difíciles, estrategias de estudio y

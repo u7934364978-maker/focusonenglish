@@ -1,7 +1,8 @@
 ---
 title: 'Aptis Advanced C1: Guía Completa para Obtener tu Certificado C1 en 2026'
 date: '2026-03-03'
-author: Focus English Team
+updatedDate: '2026-03-10'
+author: david-torres
 description: >-
   Todo lo que necesitas saber sobre el Aptis Advanced del British Council para
   obtener tu certificado C1. Diferencias con el General, estructura, estrategias
