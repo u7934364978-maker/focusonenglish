@@ -42,24 +42,53 @@ Save to `{@artifacts_path}/spec.md` with:
 - Delivery phases (incremental, testable milestones)
 - Verification approach using project lint/test commands
 
-### [ ] Step: Planning
+### [x] Step: Planning
+<!-- chat-id: cf251410-8a08-4370-b844-b1fbeaf97c14 -->
 
 Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 
-1. Break down the work into concrete tasks
-2. Each task should reference relevant contracts and include verification steps
-3. Replace the Implementation step below with the planned tasks
+### [ ] Step: Eliminar script anti-copia de layout.tsx
 
-Rule of thumb for step size: each step should represent a coherent unit of work (e.g., implement a component, add an API endpoint). Avoid steps that are too granular (single function) or too broad (entire feature).
+Eliminar el bloque `<script dangerouslySetInnerHTML>` que desactiva el menú contextual y bloquea atajos de teclado (F12, Ctrl+U, etc.) del archivo `src/app/layout.tsx`.
 
-Important: unit tests must be part of each implementation task, not separate tasks. Each task should implement the code and its tests together, if relevant.
+- Localizar el bloque `<script>` con `contextmenu` y atajos de teclado bloqueados
+- Eliminar el bloque completo del `<head>`
+- Verificar que el resto del layout permanece intacto
+- Ejecutar `npm run lint && npm run build` para confirmar que no hay errores
 
-If the feature is trivial and doesn't warrant full specification, update this workflow to remove unnecessary steps and explain the reasoning to the user.
+### [ ] Step: Corregir ArticleSchema en src/app/schema.tsx
 
-Save to `{@artifacts_path}/plan.md`.
+Actualizar el componente `ArticleSchema` para reflejar correctamente la autoría y el tipo de contenido:
 
-### [ ] Step: Implementation
+- Cambiar `"@type": "Organization"` a `"@type": "Person"` cuando el autor sea una persona real
+- Cambiar `"@type": "Article"` a `"@type": "BlogPosting"` para mayor precisión semántica
+- Añadir prop `image` al componente `ArticleSchema` y usarla dinámicamente en lugar de la imagen estática `/og-image.jpg`
+- Añadir `wordCount` y `articleSection` al schema donde estén disponibles
+- Actualizar `src/app/blog/[category]/[slug]/page.tsx` para pasar la imagen del artículo a `ArticleSchema`
+- Ejecutar `npm run lint && npm run build` para confirmar que no hay errores de TypeScript
 
-This step should be replaced with detailed implementation tasks from the Planning step.
+### [ ] Step: Reducir prioridad de keywords en sitemap.ts
 
-If Planning didn't replace this step, execute the tasks in `{@artifacts_path}/plan.md`, updating checkboxes as you go. Run planned tests/lint and record results in plan.md.
+En `src/app/sitemap.ts`, reducir la prioridad de las URLs de keywords (`/blog/temas/[keyword]`) de `0.8` a `0.5` para no diluir la señal de importancia de las páginas de contenido real.
+
+- Localizar la sección que genera URLs de keywords
+- Cambiar el valor de `priority` de `0.8` a `0.5`
+- Ejecutar `npm run lint && npm run build` para confirmar que no hay errores
+
+### [ ] Step: Actualizar frontmatter de artículos del blog (autores y updatedDate)
+
+Mejorar el E-E-A-T del contenido actualizando el frontmatter de los artículos en `src/content/blog/**/*.md`:
+
+- Ejecutar `node scripts/audit-blog-seo.mjs` para obtener la lista de artículos con autor genérico (`Focus English`, `Focus English Team`)
+- Reemplazar autores genéricos por slugs reales (`sara-mendez` o `david-torres`) según el contenido de cada artículo
+- Añadir el campo `updatedDate` (con fecha actual) en artículos que hayan sido modificados o revisados recientemente
+- Ejecutar de nuevo `node scripts/audit-blog-seo.mjs` para verificar que no quedan artículos con autores genéricos
+- Ejecutar `npm run lint && npm run build` para confirmar integridad del proyecto
+
+### [ ] Step: Verificación final y auditoría SEO
+
+Ejecutar la auditoría completa y documentar los resultados en este plan:
+
+- Ejecutar `node scripts/audit-blog-seo.mjs` → registrar número de artículos con problemas pendientes
+- Ejecutar `npm run lint && npm run build` → confirmar build exitoso sin errores
+- Registrar resultado de cada verificación en este plan marcando los checks como completados
