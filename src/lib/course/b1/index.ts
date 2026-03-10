@@ -1,13 +1,13 @@
 import { UNIT_1_EXERCISES } from './unit-1';
 import { UNIT_2_EXERCISES } from './unit-2';
 import { UNIT_3_EXERCISES } from './unit-3';
-import { UNIT_4_EXERCISES } from './unit-4';
-import { UNIT_5_EXERCISES } from './unit-5';
-import { UNIT_6_EXERCISES } from './unit-6';
-import { UNIT_7_EXERCISES } from './unit-7';
-import { UNIT_8_EXERCISES } from './unit-8';
-import { UNIT_9_EXERCISES } from './unit-9';
-import { UNIT_10_EXERCISES } from './unit-10';
+import { UNIT_4_EXERCISES, UNIT_TITLE as UNIT_4_TITLE } from './unit-4';
+import { UNIT_5_EXERCISES, UNIT_TITLE as UNIT_5_TITLE } from './unit-5';
+import { UNIT_6_EXERCISES, UNIT_TITLE as UNIT_6_TITLE } from './unit-6';
+import { UNIT_7_EXERCISES, UNIT_TITLE as UNIT_7_TITLE } from './unit-7';
+import { UNIT_8_EXERCISES, UNIT_TITLE as UNIT_8_TITLE } from './unit-8';
+import { UNIT_9_EXERCISES, UNIT_TITLE as UNIT_9_TITLE } from './unit-9';
+import { UNIT_10_EXERCISES, UNIT_TITLE as UNIT_10_TITLE } from './unit-10';
 import { UNIT_11_EXERCISES } from './unit-11';
 import { UNIT_12_EXERCISES } from './unit-12';
 import { UNIT_13_EXERCISES } from './unit-13';
@@ -34,13 +34,13 @@ export const B1_COURSE = {
     { id: 1, title: 'Personal Identity & Social Trends', exercises: UNIT_1_EXERCISES },
     { id: 2, title: 'Life Stories & Biographies', exercises: UNIT_2_EXERCISES },
     { id: 3, title: 'Personal Achievements & Experiences', exercises: UNIT_3_EXERCISES },
-    { id: 4, title: 'Travel Adventures & Mishaps', exercises: UNIT_4_EXERCISES },
-    { id: 5, title: 'Technology & The Digital Age', exercises: UNIT_5_EXERCISES },
-    { id: 6, title: 'The Working World', exercises: UNIT_6_EXERCISES },
-    { id: 7, title: 'Education & Lifelong Learning', exercises: UNIT_7_EXERCISES },
-    { id: 8, title: 'Health & Modern Lifestyles', exercises: UNIT_8_EXERCISES },
-    { id: 9, title: 'Food Culture & Sustainability', exercises: UNIT_9_EXERCISES },
-    { id: 10, title: 'Consumer Society & Shopping', exercises: UNIT_10_EXERCISES },
+    { id: 4, title: UNIT_4_TITLE, exercises: UNIT_4_EXERCISES },
+    { id: 5, title: UNIT_5_TITLE, exercises: UNIT_5_EXERCISES },
+    { id: 6, title: UNIT_6_TITLE, exercises: UNIT_6_EXERCISES },
+    { id: 7, title: UNIT_7_TITLE, exercises: UNIT_7_EXERCISES },
+    { id: 8, title: UNIT_8_TITLE, exercises: UNIT_8_EXERCISES },
+    { id: 9, title: UNIT_9_TITLE, exercises: UNIT_9_EXERCISES },
+    { id: 10, title: UNIT_10_TITLE, exercises: UNIT_10_EXERCISES },
     { id: 11, title: 'Entertainment & Media', exercises: UNIT_11_EXERCISES },
     { id: 12, title: 'Environmental Challenges', exercises: UNIT_12_EXERCISES },
     { id: 13, title: 'Innovation & Inventions', exercises: UNIT_13_EXERCISES },
