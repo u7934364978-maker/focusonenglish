@@ -1,7 +1,8 @@
 import { createClient } from '@/lib/supabase/server';
 import { UnitData, PremiumInteraction, PremiumBlock, A1CourseMetadata, UnitMetadata } from '@/types/premium-course';
 import { UserPerformanceRecord } from '../course-engine/adaptive';
-import { extractUnitMetadata } from '@/lib/utils/course-metadata';
+import { extractUnitMetadata, extractUnitMetadataFromLibCourse } from '@/lib/utils/course-metadata';
+import { B2_COURSE } from '@/lib/course/b2';
 import fs from 'fs';
 import path from 'path';
 
@@ -230,11 +231,17 @@ export const premiumCourseServerService = {
   async getUnitData(courseId: string, unitId: string): Promise<UnitData | null> {
     try {
       const supabase = await createClient();
-      // First try in src/content/cursos/ (modern path)
-      const contentPath = path.join(process.cwd(), 'src', 'content', 'cursos', courseId, `${unitId}.json`);
-      if (fs.existsSync(contentPath)) {
-        const fileContent = fs.readFileSync(contentPath, 'utf8');
-        return JSON.parse(fileContent);
+      const contentDir = path.join(process.cwd(), 'src', 'content', 'cursos', courseId);
+      // Try unitId as-is (e.g. unit-1), then unitN format (e.g. unit1) for B2 JSON naming
+      const unitIdVariants = [unitId];
+      const unitNumMatch = unitId.match(/unit-?(\d+)/i);
+      if (unitNumMatch) unitIdVariants.push(`unit${unitNumMatch[1]}`);
+      for (const id of unitIdVariants) {
+        const contentPath = path.join(contentDir, `${id}.json`);
+        if (fs.existsSync(contentPath)) {
+          const fileContent = fs.readFileSync(contentPath, 'utf8');
+          return JSON.parse(fileContent);
+        }
       }
 
       // Then try in src/data/courses/ (legacy path)
@@ -353,6 +360,18 @@ export const premiumCourseServerService = {
 
   async getB1UnitsWithMetadata(): Promise<A1CourseMetadata> {
     return this.getUnitsWithMetadata('ingles-b1');
+  },
+
+  async getB2UnitsWithMetadata(): Promise<A1CourseMetadata> {
+    const units: UnitMetadata[] = B2_COURSE.units.map((u) =>
+      extractUnitMetadataFromLibCourse(u.id, u.title, u.exercises)
+    );
+    const totalDuration = units.reduce((sum, u) => sum + u.estimatedDuration, 0);
+    return {
+      totalUnits: units.length,
+      totalDuration,
+      units,
+    };
   },
 
   async getUnitsWithMetadata(courseId: string): Promise<A1CourseMetadata> {

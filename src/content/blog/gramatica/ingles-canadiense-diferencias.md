@@ -16,7 +16,7 @@ keywords:
   - Canadian Raising vocal
   - inglés Canada fonética
   - diferencias ingles canadiense britanico
-  - "eh" canadiense significado
+  - "eh canadiense significado"
 faqs:
   - question: ¿El inglés canadiense es más parecido al americano o al británico?
     answer: >-

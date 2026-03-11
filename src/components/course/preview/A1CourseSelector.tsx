@@ -31,6 +31,7 @@ type ViewMode = 'grid' | 'modules';
 function getCoursePath(courseId?: string): string {
   if (courseId === 'ingles-a2') return '/curso-a2';
   if (courseId === 'ingles-b1') return '/curso-b1';
+  if (courseId === 'ingles-b2') return '/curso-b2';
   return '/curso-a1';
 }
 
