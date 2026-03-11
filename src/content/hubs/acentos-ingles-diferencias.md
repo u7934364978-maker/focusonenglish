@@ -90,3 +90,20 @@ En 2026 estamos viendo la aparición de acentos "transatlánticos" o "globales" 
 Tu acento es tu identidad y tu historia. No intentes borrarlo por completo; intenta que sea **claro y funcional**. En **Focus English**, celebramos la diversidad del inglés y te damos las herramientas para que navegues por todos sus acentos con confianza.
 
 The world is speaking English. Are you ready to listen?
+
+---
+
+## Profundiza más: Guías por Acento y Variedad del Inglés
+
+Hemos analizado en detalle cada variedad principal del inglés para que puedas entrenar tu oído de forma específica:
+
+- [Inglés británico vs americano: las diferencias de pronunciación que más importan](/blog/gramatica/acento-britanico-vs-americano-diferencias)
+- [Inglés australiano: por qué suena tan diferente y cómo aprender a entenderlo](/blog/gramatica/ingles-australiano-caracteristicas)
+- [El acento irlandés: guía para entender el inglés de Irlanda](/blog/gramatica/ingles-irlandes-acento-guia)
+- [Inglés escocés: por qué suena tan diferente y cómo entenderlo](/blog/gramatica/ingles-escoces-como-entenderlo)
+- [Inglés indio: por qué suena diferente y cómo entenderlo en el trabajo](/blog/gramatica/ingles-indio-caracteristicas)
+- [Inglés canadiense: las diferencias con el americano que nadie te cuenta](/blog/gramatica/ingles-canadiense-diferencias)
+- [Inglés de Nueva Zelanda: características, maorí y cómo entenderlo](/blog/gramatica/ingles-nueva-zelanda-caracteristicas)
+- [El inglés del sur de Estados Unidos: características del Southern American English](/blog/gramatica/acento-sur-eeuu-southern-american)
+- [Inglés como lengua franca (ELF): por qué el inglés "perfecto" no es siempre el objetivo](/blog/gramatica/ingles-como-lengua-franca-elf)
+- [Cómo entrenar el oído para entender cualquier acento del inglés](/blog/gramatica/como-entrenar-oido-acentos-ingles)

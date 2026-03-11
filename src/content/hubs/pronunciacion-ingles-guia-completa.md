@@ -89,3 +89,20 @@ Ya no necesitas vivir en Londres para practicar tu pronunciación.
 La pronunciación perfecta no existe (¡ni siquiera entre los nativos!). El objetivo es la **inteligibilidad**: que te entiendan sin esfuerzo. Con paciencia y el enfoque adecuado en los sonidos clave, tu confianza al hablar inglés se disparará en este 2026.
 
 Keep practicing, keep speaking, and focus on your English!
+
+---
+
+## Profundiza más: Guías de Pronunciación en Detalle
+
+Aquí tienes las guías individuales para cada aspecto de la pronunciación en inglés:
+
+- [Connected speech en inglés: por qué los nativos "se comen" las palabras](/blog/gramatica/connected-speech-ingles)
+- [Entonación en inglés: los patrones que hacen que suenes natural (o no)](/blog/gramatica/entonacion-ingles-patrones)
+- [Shadowing para mejorar la pronunciación: la técnica que usan los políglotas](/blog/gramatica/shadowing-pronunciacion-ingles)
+- [Ritmo del inglés (stress-timed): por qué el inglés "suena" diferente al español](/blog/gramatica/ritmo-ingles-stress-timed)
+- [Las mejores herramientas online para mejorar tu pronunciación en inglés](/blog/gramatica/herramientas-online-pronunciacion-ingles)
+- [Vocales del inglés americano: por qué son tan difíciles y cómo dominarlas](/blog/gramatica/pronunciacion-vocales-ingles-americano)
+- [Los 10 errores de pronunciación en inglés más comunes para hispanohablantes](/blog/gramatica/errores-pronunciacion-hispanohablantes)
+- [Cómo pronunciar "-ed" y "-s" en inglés: las terminaciones que nadie explica bien](/blog/gramatica/pronunciacion-ed-s-ingles)
+- [Pronunciación en inglés para el trabajo y el entorno profesional](/blog/gramatica/pronunciacion-ingles-trabajo-speaking)
+- [Inglés británico vs americano: las diferencias de pronunciación que más importan](/blog/gramatica/acento-britanico-vs-americano-diferencias)
