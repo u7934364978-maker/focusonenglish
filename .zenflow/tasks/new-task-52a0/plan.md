@@ -64,7 +64,8 @@ Requisitos:
 - Sin patrones formulaicos de IA ("en primer lugar", "en conclusión", etc.)
 - 2–4 FAQs realistas al final
 
-### [ ] Step 2: Hub 1 — Artículos de fonética (lote B)
+### [x] Step 2: Hub 1 — Artículos de fonética (lote B)
+<!-- chat-id: 04ca893d-fc96-4ae1-a412-da37f7c6a2ca -->
 
 Crear los artículos 4–6 para el hub `fonetica-inglesa-basica`:
 
