@@ -111,7 +111,8 @@ Crear artículos 4–6 para el hub `pronunciacion-ingles-guia-completa`:
 
 Incluir 1–2 enlaces cruzados a artículos relacionados del mismo hub cuando sea natural.
 
-### [ ] Step 6: Hub 2 — Artículos de pronunciación (lote C) + actualización del hub
+### [x] Step 6: Hub 2 — Artículos de pronunciación (lote C) + actualización del hub
+<!-- chat-id: 8f0f6891-7afd-404e-9f2c-fe0f94bb5c18 -->
 
 Crear artículos 7–9 para el hub `pronunciacion-ingles-guia-completa`:
 

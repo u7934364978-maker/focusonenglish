@@ -89,3 +89,17 @@ Ya no necesitas vivir en Londres para practicar tu pronunciación.
 La pronunciación perfecta no existe (¡ni siquiera entre los nativos!). El objetivo es la **inteligibilidad**: que te entiendan sin esfuerzo. Con paciencia y el enfoque adecuado en los sonidos clave, tu confianza al hablar inglés se disparará en este 2026.
 
 Keep practicing, keep speaking, and focus on your English!
+
+## 📚 Profundiza más
+
+- [Pronunciación en Inglés: Guía Completa](/blog/gramatica/pronunciacion-ingles-guia-completa)
+- [Reglas de Pronunciación en Inglés](/blog/metodos/reglas-pronunciacion-ingles)
+- [Connected Speech en Inglés: Por Qué los Nativos Suenan Tan Diferente al Libro](/blog/gramatica/connected-speech-ingles)
+- [Entonación en Inglés: Cómo Funciona y Por Qué Importa](/blog/gramatica/entonacion-ingles)
+- [El Ritmo del Inglés: Stress-Timed Language](/blog/gramatica/ritmo-ingles-stress-timed)
+- [Shadowing en Inglés: La Técnica que Cambia Cómo Suenas](/blog/metodos/shadowing-tecnica-ingles)
+- [Reducción Vocálica en Inglés: El Secreto Detrás del Acento Nativo](/blog/gramatica/reduccion-vocales-ingles)
+- [Ejercicios de Pronunciación en Inglés que Realmente Funcionan](/blog/metodos/ejercicios-pronunciacion-ingles)
+- [La R en Inglés: Por Qué No Funciona Como en Español](/blog/gramatica/pronunciacion-r-ingles)
+- [Cómo Mejorar tu Acento en Inglés: Lo que Funciona y lo que No](/blog/metodos/como-mejorar-acento-ingles)
+- [Cómo se Pronuncian las Terminaciones en Inglés: -ed, -s, -es y Más](/blog/gramatica/pronunciacion-terminaciones-ingles)
