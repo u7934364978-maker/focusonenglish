@@ -82,7 +82,8 @@ function countExercisesByType(interactions: any[]): ExerciseTypeBreakdown {
   };
 
   interactions.forEach(interaction => {
-    const type = interaction.type?.toLowerCase() || 'other';
+    const rawType = interaction.type?.toLowerCase() || 'other';
+    const type = rawType.replace(/-/g, '_');
     
     // Si es matching o audio_matching, contamos el número de pares como ejercicios individuales
     if (type === 'matching' || type === 'audio_matching' || type === 'audio_match' || type === 'match_pairs') {
@@ -174,5 +175,33 @@ export function extractUnitMetadata(unitData: UnitData): UnitMetadata {
     estimatedDuration,
     learningOutcomes: unitData.learning_outcomes,
     masteryTags: unitData.mastery_tags,
+  };
+}
+
+/** Extrae UnitMetadata desde unidades de lib/course (Exercise[]). */
+export function extractUnitMetadataFromLibCourse(
+  unitId: number,
+  title: string,
+  exercises: Array<{ type?: string; topic?: string; topicName?: string }>
+): UnitMetadata {
+  const topics = Array.from(
+    new Set(
+      exercises
+        .map((e) => e.topic || e.topicName)
+        .filter(Boolean) as string[]
+    )
+  ).sort();
+  const exerciseBreakdown = countExercisesByType(exercises);
+  const difficulty = calculateDifficulty(unitId, 60);
+  const estimatedDuration = Math.max(45, Math.ceil(exerciseBreakdown.total * 1.5));
+  return {
+    unitId: `unit-${unitId}`,
+    unitNumber: unitId,
+    title,
+    topics,
+    exerciseCount: exerciseBreakdown.total,
+    exerciseBreakdown,
+    difficulty,
+    estimatedDuration,
   };
 }

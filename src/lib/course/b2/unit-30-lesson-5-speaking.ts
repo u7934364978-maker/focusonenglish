@@ -1,0 +1,29 @@
+/**
+ * Unidad 30 B2 — Lección 5: Expresión oral (Review)
+ * 18 ejercicios (B2: más vocabulario y complejidad que B1)
+ */
+
+import { Exercise } from '@/lib/exercise-generator';
+
+const LESSON_TITLE = '[[Speaking|Expresión oral]]';
+
+export const UNIT_30_LESSON_5_SPEAKING: Exercise[] = [
+  { id: 'b2-u30-l5-s1', type: 'pronunciation', level: 'B2', topic: 'Review', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[1|1]].', expectedResponse: 'Practice sentence 1.' }, topicName: 'Speaking' },
+  { id: 'b2-u30-l5-s2', type: 'pronunciation', level: 'B2', topic: 'Review', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[2|2]].', expectedResponse: 'Practice sentence 2.' }, topicName: 'Speaking' },
+  { id: 'b2-u30-l5-s3', type: 'pronunciation', level: 'B2', topic: 'Review', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[3|3]].', expectedResponse: 'Practice sentence 3.' }, topicName: 'Speaking' },
+  { id: 'b2-u30-l5-s4', type: 'pronunciation', level: 'B2', topic: 'Review', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[4|4]].', expectedResponse: 'Practice sentence 4.' }, topicName: 'Speaking' },
+  { id: 'b2-u30-l5-s5', type: 'pronunciation', level: 'B2', topic: 'Review', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[5|5]].', expectedResponse: 'Practice sentence 5.' }, topicName: 'Speaking' },
+  { id: 'b2-u30-l5-s6', type: 'pronunciation', level: 'B2', topic: 'Review', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[6|6]].', expectedResponse: 'Practice sentence 6.' }, topicName: 'Speaking' },
+  { id: 'b2-u30-l5-s7', type: 'pronunciation', level: 'B2', topic: 'Review', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[7|7]].', expectedResponse: 'Practice sentence 7.' }, topicName: 'Speaking' },
+  { id: 'b2-u30-l5-s8', type: 'pronunciation', level: 'B2', topic: 'Review', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[8|8]].', expectedResponse: 'Practice sentence 8.' }, topicName: 'Speaking' },
+  { id: 'b2-u30-l5-s9', type: 'pronunciation', level: 'B2', topic: 'Review', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[9|9]].', expectedResponse: 'Practice sentence 9.' }, topicName: 'Speaking' },
+  { id: 'b2-u30-l5-s10', type: 'pronunciation', level: 'B2', topic: 'Review', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[10|10]].', expectedResponse: 'Practice sentence 10.' }, topicName: 'Speaking' },
+  { id: 'b2-u30-l5-s11', type: 'pronunciation', level: 'B2', topic: 'Review', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[11|11]].', expectedResponse: 'Practice sentence 11.' }, topicName: 'Speaking' },
+  { id: 'b2-u30-l5-s12', type: 'pronunciation', level: 'B2', topic: 'Review', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[12|12]].', expectedResponse: 'Practice sentence 12.' }, topicName: 'Speaking' },
+  { id: 'b2-u30-l5-s13', type: 'pronunciation', level: 'B2', topic: 'Review', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[13|13]].', expectedResponse: 'Practice sentence 13.' }, topicName: 'Speaking' },
+  { id: 'b2-u30-l5-s14', type: 'pronunciation', level: 'B2', topic: 'Review', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[14|14]].', expectedResponse: 'Practice sentence 14.' }, topicName: 'Speaking' },
+  { id: 'b2-u30-l5-s15', type: 'pronunciation', level: 'B2', topic: 'Review', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Di en voz alta sobre el tema.', targetText: '[[Speak|Habla]] [[about|sobre]] [[the topic|el tema]].', expectedResponse: 'Speak about the topic.' }, topicName: 'Speaking' },
+  { id: 'b2-u30-l5-s16', type: 'pronunciation', level: 'B2', topic: 'Review', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Di en voz alta sobre el tema.', targetText: '[[Speak|Habla]] [[about|sobre]] [[the topic|el tema]].', expectedResponse: 'Speak about the topic.' }, topicName: 'Speaking' },
+  { id: 'b2-u30-l5-s17', type: 'pronunciation', level: 'B2', topic: 'Review', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Habla en voz alta: describe en 2-3 frases el tema.', targetText: '____. ____. ____.', expectedResponse: 'Describe the topic in 2-3 sentences.' }, topicName: 'Speaking' },
+  { id: 'b2-u30-l5-s18', type: 'pronunciation', level: 'B2', topic: 'Review', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Habla en voz alta: describe en 2-3 frases el tema.', targetText: '____. ____. ____.', expectedResponse: 'Describe the topic in 2-3 sentences.' }, topicName: 'Speaking' },
+];
