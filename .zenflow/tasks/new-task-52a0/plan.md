@@ -47,7 +47,8 @@ Save to `{@artifacts_path}/spec.md` with:
 
 Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 
-### [ ] Step 1: Hub 1 — Artículos de fonética (lote A)
+### [x] Step 1: Hub 1 — Artículos de fonética (lote A)
+<!-- chat-id: 790a3751-8e4e-4a2c-a333-a54e4b245dc4 -->
 
 Crear los 3 primeros artículos de cluster para el hub `fonetica-inglesa-basica`:
 
