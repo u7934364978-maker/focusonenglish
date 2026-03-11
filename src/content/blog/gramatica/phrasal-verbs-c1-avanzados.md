@@ -11,11 +11,8 @@ excerpt: >-
   IELTS y en contextos profesionales de alto nivel.
 keywords:
   - phrasal verbs avanzados
-  - phrasal verbs c1
   - phrasal verbs formales ingles
-  - phrasal verbs cae cambridge
   - phrasal verbs nivel alto ingles
-  - phrasal verbs writing c1
   - phrasal verbs sofisticados ingles
   - phrasal verbs ingles
   - phrasal verbs
@@ -262,4 +259,6 @@ Intégralos en tus respuestas durante las tareas colaborativas y de opinión. Ex
 
 Dominar los **phrasal verbs avanzados de nivel C1** no es solo cuestión de memorizar listas: requiere entender el registro, el matiz semántico y la separabilidad de cada combinación. El mejor camino es exponerte a ellos en contextos reales —artículos de calidad, podcasts académicos, ensayos— y practicar su uso activo en escritura y conversación.
 
-En **Focus English**, nuestro cluster de phrasal verbs está diseñado para acompañarte en cada etapa: desde los más básicos hasta los que marcan la diferencia en el examen C1 y en tu carrera profesional en inglés.
+En **Focus English**, nuestro cluster de phrasal verbs está diseñado para acompañarte en cada etapa: desde los más básicos hasta los que marcan la diferencia en tu carrera profesional en inglés.
+
+Si quieres ver cómo aplican estos phrasal verbs en el contexto del Cambridge Advanced, visita nuestra [guía de preparación CAE](/hubs/cambridge-english-2026).

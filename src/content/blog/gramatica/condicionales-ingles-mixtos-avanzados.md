@@ -14,8 +14,6 @@ keywords:
   - condicionales mixtos ingles
   - mixed conditionals english
   - condicionales avanzados ingles
-  - gramatica inglesa c1
-  - cambridge c1 advanced
   - condicionales tipo a tipo b
 author: david-torres
 date: '2026-03-05'
@@ -176,4 +174,6 @@ En el **Part 4 de Use of English** de Cambridge C1 Advanced, los Mixed Condition
 - *He is lazy, and that's why he failed the exam.* (WERE)
   → *If he **were** less lazy, he wouldn't have failed the exam.*
 
-Los **Mixed Conditionals** son una de las estructuras que más distinguen a un hablante de nivel C1-C2 de uno de B2. Con práctica sistemática, estos patrones se vuelven automáticos y enriquecen enormemente tu inglés escrito y oral.
+Los **Mixed Conditionals** son una de las estructuras que más distinguen a un hablante avanzado de uno intermedio. Con práctica sistemática, estos patrones se vuelven automáticos y enriquecen enormemente tu inglés escrito y oral.
+
+Si estás preparando el Cambridge Advanced, echa un vistazo a nuestra [guía completa de preparación CAE](/hubs/cambridge-english-2026).
