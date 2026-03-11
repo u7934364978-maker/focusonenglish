@@ -47,7 +47,8 @@ Save to `{@artifacts_path}/spec.md` with:
 
 Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 
-### [ ] Step 1: Crear artículo Anki para aprender inglés — guía completa (Prioridad 1)
+### [x] Step 1: Crear artículo Anki para aprender inglés — guía completa (Prioridad 1)
+<!-- chat-id: a4b2c406-54b5-4d86-9d3f-4634b1b9016f -->
 
 Crear `src/content/blog/metodos/anki-para-aprender-ingles-guia.md` con 2.000+ palabras.
 
