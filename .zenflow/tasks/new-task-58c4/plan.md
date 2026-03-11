@@ -125,7 +125,8 @@ Crear `src/content/blog/metodos/bbc-learning-english-guia-completa.md` con 1.800
 - Enlace interno al hub: `/blog/metodos/mejores-apps-ingles-gratis`
 - Enlace cruzado a `/blog/metodos/rutina-apps-ingles-como-combinarlas`
 
-### [ ] Step 8: Crear artículo Lingopie review — aprender inglés con series (Prioridad 8)
+### [x] Step 8: Crear artículo Lingopie review — aprender inglés con series (Prioridad 8)
+<!-- chat-id: f69fa4aa-2350-412a-bcf9-85be00a12097 -->
 
 Crear `src/content/blog/metodos/lingopie-review-aprender-ingles-series.md` con 1.600+ palabras.
 
