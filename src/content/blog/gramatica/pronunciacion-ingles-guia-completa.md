@@ -12,9 +12,12 @@ keywords:
   - pronunciacion ingles guia completa
   - pronunciacion en ingles
   - como mejorar pronunciacion ingles
-  - fonemas ingles
-  - acento ingles
   - entonacion ingles
+  - word stress ingles
+  - schwa ingles
+  - pares minimos ingles
+  - connected speech ingles
+  - pronunciacion ingles hispanohablantes
 author: david-torres
 date: '2026-03-05'
 updatedDate: '2026-03-10'

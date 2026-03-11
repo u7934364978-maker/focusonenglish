@@ -1,8 +1,8 @@
 ---
-title: Guía Completa de Pronunciación en Inglés 2026
+title: 'Pronunciación en Inglés: Ritmo, Connected Speech y Entonación Natural'
 description: >-
-  Domina la pronunciación del inglés desde cero. Trucos para sonidos difíciles,
-  entonación, ritmo y herramientas de IA para sonar como un nativo.
+  Aprende a sonar natural en inglés dominando el ritmo stress-timed, el
+  connected speech, la entonación y las herramientas de IA para practicar en 2026.
 ---
 
 # Guía Completa de Pronunciación en Inglés: Suena Natural en 2026

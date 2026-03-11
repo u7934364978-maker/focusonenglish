@@ -1,6 +1,6 @@
 ---
-title: "Acentos del Inglés: Diferencias y Guía de Supervivencia 2026"
-description: "Descubre las diferencias entre el inglés británico, americano, australiano y más. Aprende a entender cualquier acento en el mundo globalizado de hoy."
+title: "Acentos del Inglés: Cómo Entender el Inglés Británico, Americano y Australiano"
+description: "Guía de los principales acentos del inglés en 2026: características fonéticas del RP británico, General American, australiano e irlandés, con consejos para entrenar el oído."
 ---
 
 # Acentos del Inglés: Un Viaje por la Diversidad Lingüística en 2026

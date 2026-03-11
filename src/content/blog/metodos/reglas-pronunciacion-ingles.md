@@ -9,12 +9,14 @@ excerpt: >-
   pronunciación fundamentales, ejemplos de nivel Cambridge y lista de práctica.
 keywords:
   - reglas de pronunciacion en ingles
-  - pronunciacion ingles
+  - reglas pronunciacion ingles
   - como pronunciar ingles
   - letras mudas ingles
-  - fonetica inglesa
-  - ejercicios de deletreo en ingles online
-  - reglas pronunciacion ingles
+  - letras mudas en ingles lista
+  - magic e ingles
+  - terminacion ed ingles pronunciacion
+  - ejercicios pronunciacion ingles
+  - palabras dificiles pronunciar ingles
 author: sara-mendez
 date: '2026-02-06'
 updatedDate: '2026-03-10'

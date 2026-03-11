@@ -11,10 +11,12 @@ excerpt: >-
 keywords:
   - fonetica inglesa basica
   - fonetica inglesa
-  - fonemas ingles
   - IPA ingles
   - alfabeto fonetico internacional ingles
   - transcripcion fonetica ingles
+  - simbolos IPA ingles
+  - 44 fonemas ingles
+  - cuadro fonetico ingles
 author: david-torres
 date: '2026-03-06'
 updatedDate: '2026-03-10'

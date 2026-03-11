@@ -1,8 +1,8 @@
 ---
-title: 'Fonética Inglesa Básica: El Alfabeto del Sonido'
+title: 'Fonética Inglesa: Guía Práctica del Cuadro Fonético y los Sonidos Clave'
 description: >-
-  Aprende los símbolos del API (IPA) para mejorar tu pronunciación en inglés de
-  forma científica y definitiva.
+  Domina el cuadro fonético del inglés: vocales puras, diptongos, consonantes
+  exclusivas y cómo usar el IPA en tu día a día para pronunciar con precisión.
 ---
 
 # Fonética Inglesa Básica: Decodificando los Sonidos del Inglés
