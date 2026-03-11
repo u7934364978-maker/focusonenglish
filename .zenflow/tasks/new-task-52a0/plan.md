@@ -75,7 +75,8 @@ Crear los artículos 4–6 para el hub `fonetica-inglesa-basica`:
 
 Mismos requisitos que lote A. Incluir 1–2 enlaces a artículos del mismo hub cuando sea natural.
 
-### [ ] Step 3: Hub 1 — Artículos de fonética (lote C) + actualización del hub
+### [x] Step 3: Hub 1 — Artículos de fonética (lote C) + actualización del hub
+<!-- chat-id: 6ca81584-52df-4c83-9412-31db6797c93b -->
 
 Crear los artículos 7–9 para el hub `fonetica-inglesa-basica`:
 

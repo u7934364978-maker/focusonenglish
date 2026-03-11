@@ -102,3 +102,20 @@ Ignorar el acento tónico es el error número uno que dificulta que los nativos 
 La fonética no es aburrida; es liberadora. Te da el poder de pronunciar cualquier palabra del diccionario correctamente a la primera. En **Focus English**, creemos que entender los fundamentos del sonido te da una ventaja competitiva enorme en tu aprendizaje.
 
 ¡Atrévete a explorar los sonidos del inglés!
+
+---
+
+## 📚 Profundiza más
+
+Si quieres seguir trabajando los fundamentos de la fonética inglesa, estos artículos van al detalle en los aspectos que más importan:
+
+- [Fonética Inglesa Básica: todos los sonidos del sistema](/blog/gramatica/fonetica-inglesa-basica)
+- [El Schwa en Inglés: el sonido más frecuente del idioma](/blog/gramatica/schwa-ingles-sonido-clave)
+- [Vocales Cortas y Largas en Inglés: cómo distinguirlas](/blog/gramatica/vocales-cortas-largas-ingles)
+- [Las Consonantes TH en Inglés: /θ/ y /ð/ paso a paso](/blog/gramatica/consonantes-th-ingles)
+- [Diptongos en Inglés: lista completa con IPA y ejemplos](/blog/gramatica/diptongos-ingles-lista-completa)
+- [Word Stress en Inglés: reglas de acento tónico](/blog/gramatica/word-stress-ingles-reglas)
+- [Pares Mínimos en Inglés: entrena tu oído con contrastes fonéticos](/blog/gramatica/pares-minimos-ingles)
+- [Letras Mudas en Inglés: lista completa y reglas](/blog/gramatica/letras-mudas-ingles-lista)
+- [IPA en Inglés: cómo leer el alfabeto fonético internacional](/blog/gramatica/ipa-ingles-como-leer)
+- [Sílabas en Inglés: cómo dividirlas y por qué importa](/blog/gramatica/silabas-ingles-division)
