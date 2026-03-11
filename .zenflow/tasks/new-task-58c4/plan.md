@@ -136,7 +136,8 @@ Crear `src/content/blog/metodos/lingopie-review-aprender-ingles-series.md` con 1
 - Enlace interno al hub: `/blog/metodos/mejores-apps-ingles-gratis`
 - Enlace cruzado a `/blog/metodos/anki-para-aprender-ingles-guia` y `/blog/metodos/rutina-apps-ingles-como-combinarlas`
 
-### [ ] Step 9: Crear artículo Cake app inglés — review y cómo usarla (Prioridad 9)
+### [x] Step 9: Crear artículo Cake app inglés — review y cómo usarla (Prioridad 9)
+<!-- chat-id: 2fa84d27-2c15-492f-b3c4-4360ecd32dc8 -->
 
 Crear `src/content/blog/metodos/cake-app-ingles-review.md` con 1.500+ palabras.
 
