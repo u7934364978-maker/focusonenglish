@@ -137,7 +137,8 @@ Crear los 3 primeros artículos de cluster para el hub `acentos-ingles-diferenci
 
 Enlace al hub `/hubs/acentos-ingles-diferencias`. Comparativas con ejemplos fonéticos concretos.
 
-### [ ] Step 8: Hub 3 — Artículos de acentos (lote B)
+### [x] Step 8: Hub 3 — Artículos de acentos (lote B)
+<!-- chat-id: d2008353-6f6c-4c1f-9ad1-69802801deda -->
 
 Crear artículos 4–6 para el hub `acentos-ingles-diferencias`:
 
