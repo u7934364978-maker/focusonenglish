@@ -70,7 +70,8 @@ Crear `src/content/blog/metodos/mejores-canales-youtube-aprender-ingles.md` con 
 - Enlace interno al hub: `/blog/metodos/mejores-apps-ingles-gratis`
 - Enlace cruzado a `/blog/metodos/rutina-apps-ingles-como-combinarlas`
 
-### [ ] Step 3: Crear artículo Repetición espaciada SRS para inglés (Prioridad 3)
+### [x] Step 3: Crear artículo Repetición espaciada SRS para inglés (Prioridad 3)
+<!-- chat-id: 3622da0b-988e-4f62-9494-59f459148be9 -->
 
 Crear `src/content/blog/metodos/repeticion-espaciada-srs-ingles.md` con 1.800+ palabras.
 
