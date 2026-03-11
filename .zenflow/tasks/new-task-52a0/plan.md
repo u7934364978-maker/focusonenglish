@@ -149,6 +149,7 @@ Crear artículos 4–6 para el hub `acentos-ingles-diferencias`:
 Incluir ejemplos de vocabulario/pronunciación característicos de cada acento.
 
 ### [ ] Step 9: Hub 3 — Artículos de acentos (lote C)
+<!-- chat-id: 2a016dd0-3558-47b2-ba6c-0e5abc9d6898 -->
 
 Crear artículos 7–9 para el hub `acentos-ingles-diferencias`:
 
