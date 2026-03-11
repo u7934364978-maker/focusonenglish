@@ -42,24 +42,119 @@ Save to `{@artifacts_path}/spec.md` with:
 - Delivery phases (incremental, testable milestones)
 - Verification approach using project lint/test commands
 
-### [ ] Step: Planning
+### [x] Step: Planning
+<!-- chat-id: e69f4c54-df9f-49b0-819a-86008f6c13c9 -->
 
 Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 
-1. Break down the work into concrete tasks
-2. Each task should reference relevant contracts and include verification steps
-3. Replace the Implementation step below with the planned tasks
+### [ ] Step 1: Hub 1 — Artículos de fonética (lote A)
 
-Rule of thumb for step size: each step should represent a coherent unit of work (e.g., implement a component, add an API endpoint). Avoid steps that are too granular (single function) or too broad (entire feature).
+Crear los 3 primeros artículos de cluster para el hub `fonetica-inglesa-basica`:
 
-Important: unit tests must be part of each implementation task, not separate tasks. Each task should implement the code and its tests together, if relevant.
+- `src/content/blog/gramatica/schwa-ingles-sonido-clave.md` (david-torres, 2026-02-05)
+- `src/content/blog/gramatica/vocales-cortas-largas-ingles.md` (sara-mendez, 2026-02-08)
+- `src/content/blog/gramatica/consonantes-th-ingles.md` (david-torres, 2026-02-11)
 
-If the feature is trivial and doesn't warrant full specification, update this workflow to remove unnecessary steps and explain the reasoning to the user.
+Requisitos:
+- Frontmatter completo (title, description, readTime, excerpt, keywords, author, date, updatedDate, image, category, faqs)
+- ~1500 palabras por artículo (sin mencionarlo en el texto)
+- Tono conversacional, usar "tú", incluir IPA donde proceda
+- Enlace al hub `/hubs/fonetica-inglesa-basica` en el cuerpo
+- Sin patrones formulaicos de IA ("en primer lugar", "en conclusión", etc.)
+- 2–4 FAQs realistas al final
 
-Save to `{@artifacts_path}/plan.md`.
+### [ ] Step 2: Hub 1 — Artículos de fonética (lote B)
 
-### [ ] Step: Implementation
+Crear los artículos 4–6 para el hub `fonetica-inglesa-basica`:
 
-This step should be replaced with detailed implementation tasks from the Planning step.
+- `src/content/blog/gramatica/diptongos-ingles-lista-completa.md` (sara-mendez, 2026-02-14)
+- `src/content/blog/gramatica/word-stress-ingles-reglas.md` (david-torres, 2026-02-17)
+- `src/content/blog/gramatica/pares-minimos-ingles.md` (sara-mendez, 2026-02-20)
 
-If Planning didn't replace this step, execute the tasks in `{@artifacts_path}/plan.md`, updating checkboxes as you go. Run planned tests/lint and record results in plan.md.
+Mismos requisitos que lote A. Incluir 1–2 enlaces a artículos del mismo hub cuando sea natural.
+
+### [ ] Step 3: Hub 1 — Artículos de fonética (lote C) + actualización del hub
+
+Crear los artículos 7–9 para el hub `fonetica-inglesa-basica`:
+
+- `src/content/blog/gramatica/letras-mudas-ingles-lista.md` (david-torres, 2026-02-23)
+- `src/content/blog/gramatica/ipa-ingles-como-leer.md` (sara-mendez, 2026-02-26)
+- `src/content/blog/gramatica/silabas-ingles-division.md` (david-torres, 2026-03-01)
+
+Después, actualizar `src/content/hubs/fonetica-inglesa-basica.md`:
+- Añadir sección `## 📚 Profundiza más` al final
+- Incluir enlace al artículo existente: `/blog/gramatica/fonetica-inglesa-basica`
+- Incluir enlaces a los 9 artículos nuevos creados en los lotes A, B y C
+
+### [ ] Step 4: Hub 2 — Artículos de pronunciación (lote A)
+
+Crear los 3 primeros artículos de cluster para el hub `pronunciacion-ingles-guia-completa`:
+
+- `src/content/blog/gramatica/connected-speech-ingles.md` (sara-mendez, 2026-02-04)
+- `src/content/blog/gramatica/entonacion-ingles.md` (david-torres, 2026-02-07)
+- `src/content/blog/gramatica/ritmo-ingles-stress-timed.md` (sara-mendez, 2026-02-10)
+
+Requisitos: mismos criterios de calidad (IPA, tono, sin marcadores de IA, enlace al hub `/hubs/pronunciacion-ingles-guia-completa`).
+
+### [ ] Step 5: Hub 2 — Artículos de pronunciación (lote B)
+
+Crear artículos 4–6 para el hub `pronunciacion-ingles-guia-completa`:
+
+- `src/content/blog/metodos/shadowing-tecnica-ingles.md` (david-torres, 2026-02-13)
+- `src/content/blog/gramatica/reduccion-vocales-ingles.md` (sara-mendez, 2026-02-16)
+- `src/content/blog/metodos/ejercicios-pronunciacion-ingles.md` (david-torres, 2026-02-19)
+
+Incluir 1–2 enlaces cruzados a artículos relacionados del mismo hub cuando sea natural.
+
+### [ ] Step 6: Hub 2 — Artículos de pronunciación (lote C) + actualización del hub
+
+Crear artículos 7–9 para el hub `pronunciacion-ingles-guia-completa`:
+
+- `src/content/blog/gramatica/pronunciacion-r-ingles.md` (sara-mendez, 2026-02-22)
+- `src/content/blog/metodos/como-mejorar-acento-ingles.md` (david-torres, 2026-02-25)
+- `src/content/blog/gramatica/pronunciacion-terminaciones-ingles.md` (sara-mendez, 2026-02-28)
+
+Después, actualizar `src/content/hubs/pronunciacion-ingles-guia-completa.md`:
+- Añadir sección `## 📚 Profundiza más` al final
+- Incluir enlace al artículo existente: `/blog/gramatica/pronunciacion-ingles-guia-completa`
+- Incluir enlace al huérfano adoptado: `/blog/metodos/reglas-pronunciacion-ingles`
+- Incluir enlaces a los 9 artículos nuevos (lotes A, B y C)
+
+### [ ] Step 7: Hub 3 — Artículos de acentos (lote A)
+
+Crear los 3 primeros artículos de cluster para el hub `acentos-ingles-diferencias`:
+
+- `src/content/blog/metodos/ingles-britanico-acentos-regionales.md` (david-torres, 2026-02-03)
+- `src/content/blog/metodos/general-american-acento.md` (sara-mendez, 2026-02-06)
+- `src/content/blog/metodos/acento-ingles-australiano.md` (david-torres, 2026-02-09)
+
+Enlace al hub `/hubs/acentos-ingles-diferencias`. Comparativas con ejemplos fonéticos concretos.
+
+### [ ] Step 8: Hub 3 — Artículos de acentos (lote B)
+
+Crear artículos 4–6 para el hub `acentos-ingles-diferencias`:
+
+- `src/content/blog/metodos/acento-ingles-irlandes.md` (sara-mendez, 2026-02-12)
+- `src/content/blog/metodos/cockney-acento-ingles.md` (david-torres, 2026-02-15)
+- `src/content/blog/metodos/ingles-escoces-caracteristicas.md` (sara-mendez, 2026-02-18)
+
+Incluir ejemplos de vocabulario/pronunciación característicos de cada acento.
+
+### [ ] Step 9: Hub 3 — Artículos de acentos (lote C)
+
+Crear artículos 7–9 para el hub `acentos-ingles-diferencias`:
+
+- `src/content/blog/metodos/acento-ingles-sudafricano.md` (david-torres, 2026-02-21)
+- `src/content/blog/metodos/acento-canadiense-ingles.md` (sara-mendez, 2026-02-24)
+- `src/content/blog/metodos/como-entender-acentos-ingles.md` (david-torres, 2026-02-27)
+
+### [ ] Step 10: Hub 3 — Artículo final de acentos (lote D) + actualización del hub
+
+Crear el artículo 10 para el hub `acentos-ingles-diferencias`:
+
+- `src/content/blog/metodos/ingles-lingua-franca-acentos.md` (sara-mendez, 2026-03-02)
+
+Después, actualizar `src/content/hubs/acentos-ingles-diferencias.md`:
+- Añadir sección `## 📚 Profundiza más` al final
+- Incluir enlace al huérfano adoptado: `/blog/metodos/acentos-ingles-diferencias`
+- Incluir enlaces a los 10 artículos nuevos (lotes A, B, C y D)
