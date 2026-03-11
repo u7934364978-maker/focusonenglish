@@ -90,19 +90,16 @@ La pronunciación perfecta no existe (¡ni siquiera entre los nativos!). El obje
 
 Keep practicing, keep speaking, and focus on your English!
 
----
+## 📚 Profundiza más
 
-## Profundiza más: Guías de Pronunciación en Detalle
-
-Aquí tienes las guías individuales para cada aspecto de la pronunciación en inglés:
-
-- [Connected speech en inglés: por qué los nativos "se comen" las palabras](/blog/gramatica/connected-speech-ingles)
-- [Entonación en inglés: los patrones que hacen que suenes natural (o no)](/blog/gramatica/entonacion-ingles-patrones)
-- [Shadowing para mejorar la pronunciación: la técnica que usan los políglotas](/blog/gramatica/shadowing-pronunciacion-ingles)
-- [Ritmo del inglés (stress-timed): por qué el inglés "suena" diferente al español](/blog/gramatica/ritmo-ingles-stress-timed)
-- [Las mejores herramientas online para mejorar tu pronunciación en inglés](/blog/gramatica/herramientas-online-pronunciacion-ingles)
-- [Vocales del inglés americano: por qué son tan difíciles y cómo dominarlas](/blog/gramatica/pronunciacion-vocales-ingles-americano)
-- [Los 10 errores de pronunciación en inglés más comunes para hispanohablantes](/blog/gramatica/errores-pronunciacion-hispanohablantes)
-- [Cómo pronunciar "-ed" y "-s" en inglés: las terminaciones que nadie explica bien](/blog/gramatica/pronunciacion-ed-s-ingles)
-- [Pronunciación en inglés para el trabajo y el entorno profesional](/blog/gramatica/pronunciacion-ingles-trabajo-speaking)
-- [Inglés británico vs americano: las diferencias de pronunciación que más importan](/blog/gramatica/acento-britanico-vs-americano-diferencias)
+- [Pronunciación en Inglés: Guía Completa](/blog/gramatica/pronunciacion-ingles-guia-completa)
+- [Reglas de Pronunciación en Inglés](/blog/metodos/reglas-pronunciacion-ingles)
+- [Connected Speech en Inglés: Por Qué los Nativos Suenan Tan Diferente al Libro](/blog/gramatica/connected-speech-ingles)
+- [Entonación en Inglés: Cómo Funciona y Por Qué Importa](/blog/gramatica/entonacion-ingles)
+- [El Ritmo del Inglés: Stress-Timed Language](/blog/gramatica/ritmo-ingles-stress-timed)
+- [Shadowing en Inglés: La Técnica que Cambia Cómo Suenas](/blog/metodos/shadowing-tecnica-ingles)
+- [Reducción Vocálica en Inglés: El Secreto Detrás del Acento Nativo](/blog/gramatica/reduccion-vocales-ingles)
+- [Ejercicios de Pronunciación en Inglés que Realmente Funcionan](/blog/metodos/ejercicios-pronunciacion-ingles)
+- [La R en Inglés: Por Qué No Funciona Como en Español](/blog/gramatica/pronunciacion-r-ingles)
+- [Cómo Mejorar tu Acento en Inglés: Lo que Funciona y lo que No](/blog/metodos/como-mejorar-acento-ingles)
+- [Cómo se Pronuncian las Terminaciones en Inglés: -ed, -s, -es y Más](/blog/gramatica/pronunciacion-terminaciones-ingles)

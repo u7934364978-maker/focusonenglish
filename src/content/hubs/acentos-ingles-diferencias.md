@@ -91,19 +91,18 @@ Tu acento es tu identidad y tu historia. No intentes borrarlo por completo; inte
 
 The world is speaking English. Are you ready to listen?
 
----
+## 📚 Profundiza más
 
-## Profundiza más: Guías por Acento y Variedad del Inglés
+¿Quieres ir más allá de esta introducción? Aquí tienes artículos que profundizan en cada acento y en la fonética que hay detrás:
 
-Hemos analizado en detalle cada variedad principal del inglés para que puedas entrenar tu oído de forma específica:
-
-- [Inglés británico vs americano: las diferencias de pronunciación que más importan](/blog/gramatica/acento-britanico-vs-americano-diferencias)
-- [Inglés australiano: por qué suena tan diferente y cómo aprender a entenderlo](/blog/gramatica/ingles-australiano-caracteristicas)
-- [El acento irlandés: guía para entender el inglés de Irlanda](/blog/gramatica/ingles-irlandes-acento-guia)
-- [Inglés escocés: por qué suena tan diferente y cómo entenderlo](/blog/gramatica/ingles-escoces-como-entenderlo)
-- [Inglés indio: por qué suena diferente y cómo entenderlo en el trabajo](/blog/gramatica/ingles-indio-caracteristicas)
-- [Inglés canadiense: las diferencias con el americano que nadie te cuenta](/blog/gramatica/ingles-canadiense-diferencias)
-- [Inglés de Nueva Zelanda: características, maorí y cómo entenderlo](/blog/gramatica/ingles-nueva-zelanda-caracteristicas)
-- [El inglés del sur de Estados Unidos: características del Southern American English](/blog/gramatica/acento-sur-eeuu-southern-american)
-- [Inglés como lengua franca (ELF): por qué el inglés "perfecto" no es siempre el objetivo](/blog/gramatica/ingles-como-lengua-franca-elf)
-- [Cómo entrenar el oído para entender cualquier acento del inglés](/blog/gramatica/como-entrenar-oido-acentos-ingles)
+- [Acentos del inglés: diferencias y características](/blog/metodos/acentos-ingles-diferencias)
+- [El inglés británico y sus acentos regionales](/blog/metodos/ingles-britanico-acentos-regionales)
+- [General American: el acento estándar de EE.UU.](/blog/metodos/general-american-acento)
+- [El acento australiano: características y curiosidades](/blog/metodos/acento-ingles-australiano)
+- [El acento irlandés: música, ritmo y fonética](/blog/metodos/acento-ingles-irlandes)
+- [Cockney: el acento del East End de Londres](/blog/metodos/cockney-acento-ingles)
+- [Inglés escocés: características y variedades](/blog/metodos/ingles-escoces-caracteristicas)
+- [El acento sudafricano: inglés en el extremo sur](/blog/metodos/acento-ingles-sudafricano)
+- [El acento canadiense: el Canadian Raising y el "eh"](/blog/metodos/acento-canadiense-ingles)
+- [Cómo entender los acentos del inglés](/blog/metodos/como-entender-acentos-ingles)
+- [El inglés como lingua franca: cuando el inglés no es de nadie](/blog/metodos/ingles-lingua-franca-acentos)

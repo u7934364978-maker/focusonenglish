@@ -1,191 +1,189 @@
 ---
-title: 'Connected Speech en Inglés: Por Qué los Nativos "Se Comen" las Palabras'
-date: '2026-03-11'
-updatedDate: '2026-03-11'
-author: david-torres
+title: 'Connected Speech en Inglés: Por Qué los Nativos Suenan Tan Diferente al Libro'
+description: >-
+  Descubre qué es el connected speech en inglés y por qué los hablantes nativos
+  suenan tan distintos a como se escribe. Linking, elision, assimilation y más,
+  con ejemplos reales.
+readTime: 7 min
 excerpt: >-
-  ¿Por qué "did you" suena como "didja" y "want to" como "wanna"? El connected speech es la razón por la que entender a nativos es tan difícil, y también la clave para sonar mucho más natural. Aquí te explico los cinco fenómenos principales con ejemplos reales.
-category: gramatica
-readTime: 9 min
-image: 'https://images.pexels.com/photos/7516363/pexels-photo-7516363.jpeg?auto=compress&cs=tinysrgb&w=1200'
-alt: Dos personas manteniendo una conversación en inglés de forma natural
+  Si alguna vez has escuchado a un nativo y pensado "eso no suena nada como lo
+  que aprendí", el connected speech tiene mucho que ver. Aquí explico exactamente
+  qué ocurre cuando los nativos hablan a velocidad normal.
 keywords:
-  - connected speech ingles
-  - por que nativos hablan rapido ingles
-  - linking ingles pronunciacion
-  - elision ingles
-  - assimilation ingles
-  - contracciones ingles habla rapida
-  - intrusion ingles sonidos
+  - connected speech inglés
+  - habla conectada inglés
+  - linking inglés
+  - elision inglés
+  - assimilation inglés
+  - pronunciación inglés natural
+  - inglés coloquial sonidos
+  - entender inglés hablado
+author: sara-mendez
+date: '2026-02-04'
+updatedDate: '2026-02-04'
+image: 'https://images.pexels.com/photos/3756766/pexels-photo-3756766.jpeg'
+category: gramatica
 faqs:
-  - question: ¿Por qué es tan importante el connected speech para el listening?
-    answer: >-
-      Porque los nativos no hablan como los libros de texto. En el habla natural, las palabras se unen, se comprimen y algunos sonidos desaparecen. Si solo has entrenado con materiales controlados (diálogos de libro, ejercicios grabados lentamente), el habla real a velocidad normal te parecerá incomprensible aunque conozcas todas las palabras.
-  - question: ¿Debo hablar con connected speech o es solo para entender?
-    answer: >-
-      Ambas cosas, pero en orden. Primero entrena la percepción: aprende a reconocer los fenómenos cuando los escuchas. Después, integra los más naturales en tu producción. No tienes que forzar el connected speech de forma artificial; con suficiente exposición al inglés hablado real y práctica de shadowing, aparece de forma gradual.
-  - question: ¿El connected speech varía entre el inglés británico y americano?
-    answer: >-
-      Los fenómenos son básicamente los mismos, pero con realizaciones diferentes. El más notable es la "t flap" del inglés americano: la /t/ entre vocales se pronuncia como una /d/ suave (como la "r" de "pero" en español), algo que no ocurre en el RP. Así, "water" en americano suena como "wader". El linking, la elision y la asimilación existen en ambas variedades.
-canonical: 'https://www.focus-on-english.com/blog/gramatica/connected-speech-ingles'
+  - question: '¿El connected speech se usa solo en inglés informal?'
+    answer: 'No. El connected speech es simplemente cómo funciona el inglés hablado a velocidad natural, incluso en registros formales como discursos políticos, presentaciones o conferencias. Lo que cambia en el registro formal no es tanto la presencia de connected speech sino el ritmo: se habla algo más despacio, con más pausas entre ideas, lo que hace que algunos fenómenos sean menos pronunciados. Pero linking, assimilation y reducción vocálica siguen apareciendo constantemente.'
+  - question: '¿Tengo que hablar con connected speech o solo entenderlo?'
+    answer: 'Depende de tu objetivo. Si quieres sonar más natural en conversación, sí merece la pena practicarlo activamente. Pero si tu prioridad es entender a los nativos, con comprenderlo ya avanzas mucho. Lo que sí es importante es no intentar pronunciar las palabras de forma aislada cuando escuchas inglés rápido: los sonidos se fusionan, y si buscas cada palabra de forma separada te costará mucho más.'
+  - question: '¿Cómo puedo practicar el connected speech?'
+    answer: 'El shadowing es una de las mejores técnicas: escucha un fragmento corto de audio nativo (de 5 a 15 segundos) y repítelo en voz alta imitando el ritmo, el tono y las uniones entre palabras, sin preocuparte excesivamente por cada sonido individual. También puedes transcribir lo que escuchas y luego compararlo con el texto real para identificar qué sonidos se funden o desaparecen.'
+  - question: '¿Por qué en los audios de los libros de texto se entiende mejor que con un nativo real?'
+    answer: 'Los audios de libros de texto están grabados con una pronunciación deliberadamente clara y lenta, sin los fenómenos del connected speech que aparecen en el habla espontánea. Es útil para aprender vocabulario y estructuras, pero crea una expectativa que no se cumple en conversaciones reales. Los nativos no hablan mal: simplemente hablan de forma natural, y eso implica todos los fenómenos que explico en este artículo.'
 ---
 
-Hay un momento concreto que todos los estudiantes de inglés recuerdan: aquel en el que creyeron tener un nivel decente, pusieron una película sin subtítulos y no entendieron casi nada. No porque faltara vocabulario. No porque la gramática fuera difícil. Sino porque el inglés hablado a velocidad real no suena como el inglés que habían estudiado.
+Hay un momento que casi todo el mundo que aprende inglés ha vivido: llevas tiempo estudiando, entiendes bien cuando escuchas los audios del curso o los vídeos lentos de YouTube, y de repente escuchas a un nativo hablando a velocidad normal y no entiendes prácticamente nada. O al revés: entiendes perfectamente el significado de lo que alguien dice, pero cuando lo lees, la pronunciación que esperabas no se parece nada a lo que has oído.
 
-Ese abismo entre el inglés "de libro" y el inglés "de la calle" tiene un nombre técnico: connected speech. Y entenderlo —primero en la percepción, luego en la producción— es uno de los saltos más transformadores en el aprendizaje del idioma.
+Eso no es que los nativos hablen mal ni que tú tengas un problema. Es el **connected speech**, y una vez que lo entiendes, el inglés hablado empieza a tener mucho más sentido.
 
 ---
 
 ## Qué es exactamente el connected speech
 
-El connected speech se refiere a todos los cambios fonéticos que ocurren cuando las palabras se encadenan en el habla continua. No es descuido ni hablar mal: es la forma en que funciona cualquier idioma hablado a velocidad natural.
+Cuando hablamos en cualquier idioma de forma natural, no pronunciamos cada palabra de forma aislada con una pausa perfecta entre ellas. Las palabras se unen, los sonidos se modifican, algunos desaparecen y otros cambian según los sonidos que los rodean. En inglés esto es especialmente marcado porque el ritmo de la lengua se organiza alrededor del acento (las sílabas acentuadas aparecen a intervalos más o menos regulares), lo que hace que las sílabas no acentuadas se compriman y fusionen con lo que tienen al lado.
 
-En el habla lenta y cuidadosa, pronunciamos cada palabra de forma relativamente aislada. En el habla normal, las palabras fluyen unas dentro de otras, compartiendo sonidos, eliminando otros, fusionando sílabas. El resultado es más eficiente para el hablante y más difícil de descifrar para el oyente no entrenado.
-
-Hay cinco fenómenos principales:
+El connected speech no es descuido ni hablar "mal". Es exactamente cómo funciona el inglés hablado, incluso en registros formales. Los fenómenos principales tienen nombre propio en fonética: linking, elision, assimilation, reduction y sandhi. Vamos uno por uno.
 
 ---
 
-## 1. Linking (enlace)
+## Linking: cuando una palabra se pega a la siguiente
 
-Cuando una palabra termina en consonante y la siguiente empieza en vocal, los sonidos se fusionan. El oyente no entrenado a veces no sabe dónde empieza una palabra y dónde termina la otra.
+El linking ocurre cuando el sonido final de una palabra se une al sonido inicial de la siguiente, creando una especie de puente fonético. Hay varios tipos.
 
-**Ejemplos:**
+**Consonant-to-vowel linking.** Cuando una palabra termina en consonante y la siguiente empieza en vocal, la consonante "salta" a la sílaba siguiente.
 
-- *an apple* → /əˈnæpl/ (la N de "an" y la A de "apple" se unen: "anapple")
-- *pick it up* → /ˈpɪkɪtʌp/ (todo fluye como si fuera una sola palabra)
-- *turn it off* → /ˈtɜːnɪtɒf/
-- *in a minute* → /ɪnəˈmɪnɪt/
-- *not at all* → /ˈnɒtətɔːl/
+- *turn off* → suena como /tɜːr.ˈnɒf/
+- *pick it up* → suena como /pɪ.kɪ.ˈtʌp/
+- *come in* → suena como /kʌ.ˈmɪn/
 
-También ocurre con las /r/ del inglés británico:
+Si alguna vez has pensado que un nativo ha dicho una palabra distinta, muchas veces es porque este reajuste silábico ha creado una nueva distribución de sonidos que no corresponde a ninguna palabra que conozcas por sí sola.
 
-- *far away* → /fɑːrəˈweɪ/ (la R que normalmente sería muda en RP "aparece" ante vocal)
-- *here it is* → /hɪərɪtɪz/
+**Vowel-to-vowel linking.** Cuando dos vocales se juntan, el inglés tiende a insertar un sonido de unión para que el habla fluya. Si la primera vocal es un sonido de /uː/ o /əʊ/, aparece un /w/. Si es un sonido de /iː/ o /eɪ/, aparece un /j/.
 
-Este fenómeno se llama *intrusive R* o *linking R* y es muy característico del inglés británico.
+- *go on* → /ˈɡəʊ.wɒn/ (aparece /w/)
+- *see it* → /ˈsiː.jɪt/ (aparece /j/)
+- *the apple* → /ðɪ.ˈjæpl/ en habla rápida (la /iː/ de "the" ante vocal genera /j/)
 
----
-
-## 2. Elision (elisión)
-
-Algunos sonidos se eliminan por completo para hacer el habla más fluida. Esto ocurre especialmente con:
-
-**La /t/ y /d/ en grupos consonánticos:**
-- *best friend* → /ˈbesfren/ (la T de "best" desaparece)
-- *last time* → /ˈlɑːstaɪm/ (la T y la D se fusionan)
-- *next day* → /ˈneksdeɪ/
-- *old man* → /ˈəʊlmæn/
-- *find me* → /ˈfaɪnmiː/
-
-**La /h/ en palabras funcionales (pronombres, auxiliares):**
-- *I told him* → /aɪˈtəʊldɪm/ (la H de "him" desaparece)
-- *Did she help her?* → /dɪdʃiˈhelpə/ (la H de "her" cae)
-- *Give him the book* → /ɡɪvɪmðəˈbʊk/
-
-**La /v/ en "of" entre consonantes:**
-- *cup of tea* → /ˈkʌpətiː/
-- *sort of* → /ˈsɔːtə/
-- *kind of* → /ˈkaɪndə/
+Estos sonidos de enlace no están escritos en ningún sitio. Los producen de forma automática los hablantes nativos para evitar el hiato entre vocales.
 
 ---
 
-## 3. Assimilation (asimilación)
+## Elision: los sonidos que desaparecen
 
-Un sonido cambia para parecerse más al sonido siguiente. Es el equivalente fonético de "si no puedes con ellos, únete a ellos": la articulación se ajusta por anticipación.
+La elision es la supresión de uno o más sonidos en el habla rápida. Ocurre especialmente en grupos de consonantes difíciles de pronunciar a alta velocidad.
 
-**La /n/ antes de bilabiales:**
-- *ten pounds* → /ˈtempɑʊndz/ (N se convierte en M ante P)
-- *in Paris* → /ɪmˈpærɪs/
-- *in bed* → /ɪmˈbed/ (N → M ante B)
+**Elisión de /t/ y /d/.** Son los casos más frecuentes en inglés.
 
-**La /d/ y /t/ antes de /j/:**
+- *last night* → suena como /lɑːs.ˈnaɪt/ (la /t/ final de "last" desaparece)
+- *next week* → suena como /neks.ˈwiːk/
+- *old man* → suena como /əʊl.ˈmæn/
+- *and* → a menudo se reduce a /ən/ o incluso /n/ en frases rápidas
 
-Este es el más llamativo para hispanohablantes. Cuando /d/ o /t/ va seguida de la semivocal /j/ (el sonido de "you"), se fusionan:
+**Elisión de vocales no acentuadas.** En inglés también pueden desaparecer vocales en sílabas sin acento.
 
-- *did you* → /ˈdɪdʒuː/ (suena como "didja")
-- *could you* → /ˈkʊdʒuː/ (suena como "coudja")
-- *would you* → /ˈwʊdʒuː/
-- *don't you* → /ˈdəʊntʃuː/ (suena como "doncha")
-- *can't you* → /ˈkɑːntʃuː/ (suena como "cantcha")
-- *meet you* → /ˈmiːtʃuː/
-- *want you* → /ˈwɒntʃuː/
+- *comfortable* → no son cuatro sílabas en el habla real, sino tres: /ˈkʌmf.tə.bl/
+- *different* → /ˈdɪf.rənt/ (la vocal de la segunda sílaba desaparece)
+- *camera* → /ˈkæm.rə/ en inglés rápido
 
-Este fenómeno explica por qué en películas escuchas cosas como "didja know that?" o "whaddya think?".
+Cuando buscas una palabra en el diccionario, la transcripción fonética que aparece corresponde a la pronunciación cuidadosa y aislada. En conversación real, esa misma palabra puede perder una o dos sílabas.
 
 ---
 
-## 4. Weak forms (formas débiles)
+## Assimilation: cuando un sonido cambia por influencia del vecino
 
-Las palabras funcionales —artículos, preposiciones, pronombres, auxiliares, conjunciones— tienen dos formas de pronunciación: la forma fuerte (cuando están enfatizadas o aisladas) y la forma débil (la más frecuente en el habla normal).
+La assimilation ocurre cuando un sonido cambia para parecerse más al sonido siguiente o anterior. Es el fenómeno responsable de que muchas cosas suenen completamente distintas a como esperarías.
+
+**Assimilation de lugar.** El ejemplo más clásico en inglés es lo que pasa con "don't you" o "did you".
+
+- *don't you* → /dəʊntʃu/ (la /t/ y la /j/ se funden en /tʃ/)
+- *did you* → /dɪdʒu/ (la /d/ y la /j/ se funden en /dʒ/)
+- *what you* → /wɒtʃu/
+- *would you* → /wʊdʒu/
+
+Esto explica por qué "nice to meet you" puede sonar como /naɪs.tə.miː.tʃu/. La /t/ final de "meet" y la /j/ inicial de "you" se fusionan en /tʃ/.
+
+**Assimilation nasal.** La /n/ puede cambiar según lo que viene después.
+
+- *ten minutes* → en habla rápida la /n/ final de "ten" tiende a pronunciarse como /m/ porque la /m/ de "minutes" arrastra la articulación hacia los labios: /tem.ˈmɪnɪts/
+- *in bed* → la /n/ puede sonar como /m/: /ɪm.ˈbed/
+
+---
+
+## Reduction: las palabras gramaticales en su forma débil
+
+Las palabras gramaticales —artículos, preposiciones, pronombres, auxiliares— tienen en inglés dos formas: la **forma fuerte** (cuando reciben énfasis) y la **forma débil** (la que aparece en el 90% de los casos en habla normal).
+
+La forma débil casi siempre implica una reducción a schwa /ə/ u otras vocales cortas.
 
 | Palabra | Forma fuerte | Forma débil |
-|---------|-------------|-------------|
-| *a* | /eɪ/ | /ə/ |
-| *the* | /ðiː/ | /ðə/ |
-| *and* | /ænd/ | /ən/, /n/ |
+| :--- | :--- | :--- |
+| *and* | /ænd/ | /ənd/, /ən/, /n/ |
 | *to* | /tuː/ | /tə/ |
-| *for* | /fɔː/ | /fə/ |
-| *of* | /ɒv/ | /əv/, /ə/ |
-| *at* | /æt/ | /ət/ |
-| *from* | /frɒm/ | /frəm/ |
-| *can* | /kæn/ | /kən/ |
-| *have* | /hæv/ | /həv/, /əv/ |
-| *he* | /hiː/ | /hɪ/, /ɪ/ |
-| *she* | /ʃiː/ | /ʃɪ/ |
-| *we* | /wiː/ | /wɪ/ |
+| *for* | /fɔːr/ | /fər/ |
+| *of* | /ɒv/ | /əv/ o incluso /ə/ |
 | *them* | /ðem/ | /ðəm/, /əm/ |
-| *was* | /wɒz/ | /wəz/ |
-| *were* | /wɜː/ | /wə/ |
-| *do* | /duː/ | /də/ |
+| *have* (aux.) | /hæv/ | /həv/, /əv/, /v/ |
+| *can* | /kæn/ | /kən/, /kn/ |
 
-*"I can do it for you"* en habla normal: /aɪ kən duː ɪt fə juː/ — "can" y "for" no se pronuncian con su vocal fuerte.
-
----
-
-## 5. Intrusion (intrusión)
-
-A veces se añade un sonido que no está escrito para facilitar la transición entre dos vocales. Es lo contrario de la elision.
-
-**Intrusive /r/:** en el inglés británico, cuando una palabra que termina en /ə/ o /ɑː/ va seguida de vocal, se añade una /r/ para unirlas suavemente:
-- *idea of* → /aɪˈdɪərəv/ (se añade una R entre "idea" y "of")
-- *China and* → /ˈtʃaɪnərənd/
-- *Australia is* → /ɒˈstreɪlɪərɪz/
-
-**Intrusive /j/ y /w/:** cuando hay transición entre dos vocales, a veces aparece un enlace:
-- *go on* → /ˈɡəʊwɒn/ (una /w/ aparece entre "go" y "on")
-- *see it* → /ˈsiːjɪt/ (una /j/ aparece entre "see" y "it")
+Esta es una de las razones por las que "I can do it" puede sonar como /aɪ.kn.ˈduː.ɪt/ en boca de un nativo hablando a velocidad normal. El "can" apenas tiene entidad vocálica propia.
 
 ---
 
-## Cómo practicar el connected speech
+## Weak forms en la práctica: frases para entrenar el oído
 
-**1. Transcripción auditiva lenta**
+Estas frases son representativas de cómo suenan en inglés hablado normal:
 
-Coge un fragmento corto de audio de un nativo (30 segundos máximo) y escríbelo fonéticamente, tal como suena, no como se escribe. Luego busca la transcripción y compara. Esto entrena la percepción de forma muy efectiva.
+- *"What are you going to do?"* → /wɒt.ə.jə.ˈɡəʊ.nə.duː/
+- *"I should have told you"* → /aɪ.ʃʊd.əv.ˈtəʊld.jə/
+- *"He's got to be kidding"* → /hiːz.ˌɡɒ.tə.biː.ˈkɪdɪŋ/
+- *"Can you give me a hand?"* → /kn.jə.ˌɡɪv.mi.ə.ˈhænd/
 
-**2. Shadowing en fragmentos cortos**
-
-Escucha tres o cuatro palabras, para, y repite inmediatamente imitando exactamente el ritmo y los enlaces. No pienses en las palabras individuales: copia el patrón sonoro completo.
-
-**3. Exposición a inglés no guionado**
-
-Los materiales grabados para estudiantes suelen estar artificialmente ralentizados y articulados. Prioriza: entrevistas reales, podcasts de humor, conversaciones informales, late night shows. El connected speech está más presente cuanto menos controlado es el contexto.
-
-Para entender mejor el sistema fonético que hay detrás del connected speech, consulta la [guía de pronunciación en inglés](/blog/gramatica/pronunciacion-ingles-guia-completa) y el artículo sobre el [ritmo del inglés como idioma stress-timed](/blog/gramatica/ritmo-ingles-stress-timed).
+Cuando escuchas estas frases por primera vez sin saberlas de antemano, el oído intenta segmentar el sonido en palabras individuales y falla porque las fronteras entre palabras han desaparecido.
 
 ---
 
-## Preguntas frecuentes
+## Cómo trabajar el connected speech de forma práctica
 
-### ¿Debo imitar el connected speech o es suficiente con reconocerlo?
+Lo peor que puedes hacer cuando escuchas inglés hablado rápido es intentar identificar cada palabra de forma aislada. Funciona mejor escuchar por **bloques de sentido**: grupos de palabras que forman una unidad semántica.
 
-Las dos cosas, pero el reconocimiento va primero. Escuchar sin entender por qué no se entiende es frustrante. Entender los mecanismos permite anticipar los cambios y procesar el audio de forma mucho más eficiente. La producción viene después y, en muchos casos, se desarrolla de forma natural con suficiente exposición.
+Algunas estrategias que ayudan:
 
-### ¿El connected speech es igual en todos los registros?
+**Escucha activa con transcripción.** Pon un fragmento de audio de 10-15 segundos (podcast, serie, entrevista), intenta transcribir exactamente lo que oyes sin mirarlo, y luego compara. Los errores que cometas serán exactamente los puntos donde el connected speech te está confundiendo. Esos son los patrones en los que tienes que trabajar.
 
-No. Cuanto más formal es el registro, menos connected speech hay. Un discurso político o una presentación formal tienen más articulación cuidadosa. Una conversación entre amigos tiene mucho más. El connected speech es máximo en el habla informal, especialmente en conversaciones rápidas.
+**Shadowing a velocidad normal.** No ralentices el audio. El connected speech solo existe a velocidad natural; si ralentizas, los hablantes lo articulan de forma más clara y pierdes exactamente lo que quieres practicar.
 
-### ¿Por qué algunos nativos son más difíciles de entender que otros?
+**Fíjate en las palabras gramaticales.** Cuando escuches algo y no lo entiendas, pregúntate si es posible que haya una palabra gramatical reducida que no has reconocido. "Gonna", "wanna", "gotta", "kinda", "sorta" son reducciones tan frecuentes que casi tienen estatus propio.
 
-Hay varios factores: velocidad de habla, acento regional, cantidad de connected speech que usan. Los nativos de ciertas regiones (escoceses, algunos acentos del norte de Inglaterra, algunas variedades americanas del sur) tienen patrones de connected speech adicionales a los estándar que los hacen especialmente difíciles para estudiantes no acostumbrados.
+Si quieres un recorrido más completo por todos los aspectos de la pronunciación en inglés, la guía de [pronunciación en inglés](/hubs/pronunciacion-ingles-guia-completa) es un buen punto de partida para organizar lo que ya sabes y lo que todavía tienes que trabajar.
+
+---
+
+## Por qué esto importa más de lo que parece
+
+Hay dos niveles en los que el connected speech afecta tu inglés. El primero es la comprensión: mientras no entiendas estos fenómenos, siempre tendrás la sensación de que los nativos "hablan demasiado rápido" cuando en realidad hablan a velocidad completamente normal. El segundo es la producción: si pronuncias cada palabra de forma clara y aislada en una conversación, te entenderán, pero sonarás muy formal o incluso robótico, y la conversación costará más esfuerzo de lo necesario a ambas partes.
+
+No se trata de hablar sloppy o descuidado. Se trata de que el inglés hablado tiene sus propias reglas de sonido que son distintas de las del inglés escrito, y conocerlas es parte de hablar el idioma de verdad.
+
+---
+
+## Preguntas Frecuentes
+
+### ¿El connected speech se usa solo en inglés informal?
+
+No. El connected speech es simplemente cómo funciona el inglés hablado a velocidad natural, incluso en registros formales como discursos políticos, presentaciones o conferencias. Lo que cambia en el registro formal no es tanto la presencia de connected speech sino el ritmo: se habla algo más despacio, con más pausas entre ideas, lo que hace que algunos fenómenos sean menos pronunciados. Pero linking, assimilation y reducción vocálica siguen apareciendo constantemente.
+
+### ¿Tengo que hablar con connected speech o solo entenderlo?
+
+Depende de tu objetivo. Si quieres sonar más natural en conversación, sí merece la pena practicarlo activamente. Pero si tu prioridad es entender a los nativos, con comprenderlo ya avanzas mucho. Lo que sí es importante es no intentar pronunciar las palabras de forma aislada cuando escuchas inglés rápido: los sonidos se fusionan, y si buscas cada palabra de forma separada te costará mucho más.
+
+### ¿Cómo puedo practicar el connected speech?
+
+El shadowing es una de las mejores técnicas: escucha un fragmento corto de audio nativo (de 5 a 15 segundos) y repítelo en voz alta imitando el ritmo, el tono y las uniones entre palabras, sin preocuparte excesivamente por cada sonido individual. También puedes transcribir lo que escuchas y luego compararlo con el texto real para identificar qué sonidos se funden o desaparecen.
+
+### ¿Por qué en los audios de los libros de texto se entiende mejor que con un nativo real?
+
+Los audios de libros de texto están grabados con una pronunciación deliberadamente clara y lenta, sin los fenómenos del connected speech que aparecen en el habla espontánea. Es útil para aprender vocabulario y estructuras, pero crea una expectativa que no se cumple en conversaciones reales. Los nativos no hablan mal: simplemente hablan de forma natural, y eso implica todos los fenómenos que explico en este artículo.
+
+---

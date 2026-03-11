@@ -1,179 +1,168 @@
 ---
 title: 'Vocales Cortas y Largas en Inglés: La Diferencia que Cambia el Significado'
-date: '2026-03-11'
-updatedDate: '2026-03-11'
-author: david-torres
+description: >-
+  Aprende a distinguir y pronunciar las vocales cortas y largas del inglés con
+  ejemplos IPA, comparativas con el español y ejercicios prácticos.
+readTime: 8 min
 excerpt: >-
-  Confundir /ɪ/ con /iː/ convierte "ship" en "sheep". Confundir /ʊ/ con /uː/ convierte "full" en "fool". Las vocales cortas y largas en inglés no son un detalle menor: cambian palabras y desconciertan a los nativos. Aquí aprenderás a distinguirlas de verdad.
-category: gramatica
-readTime: 9 min
-image: 'https://images.pexels.com/photos/256431/pexels-photo-256431.jpeg?auto=compress&cs=tinysrgb&w=1200'
-alt: Libro de fonética inglesa abierto con ejercicios de vocales
+  En inglés, pronunciar una vocal ligeramente más larga puede cambiar por
+  completo el significado de una palabra. Aquí tienes la guía práctica para
+  dominar las vocales cortas y largas sin confundirte.
 keywords:
-  - vocales cortas largas ingles
-  - diferencia vocales ingles
-  - ship sheep pronunciacion
-  - vocales ingles hispanohablantes
-  - vocales tensas relajadas ingles
-  - como pronunciar vocales en ingles
-  - fonemas vocalicos ingles
+  - vocales cortas inglés
+  - vocales largas inglés
+  - vocales inglés IPA
+  - diferencia vocal corta larga
+  - pronunciacion vocales ingles
+  - pares minimos vocales ingles
+  - short vowels english
+  - long vowels english
+author: sara-mendez
+date: '2026-02-08'
+updatedDate: '2026-02-08'
+image: 'https://images.pexels.com/photos/3756766/pexels-photo-3756766.jpeg'
+category: gramatica
 faqs:
-  - question: ¿Cuántas vocales tiene el inglés?
-    answer: >-
-      El inglés tiene 20 sonidos vocálicos: 12 vocales puras (monoptongos) y 8 diptongos. El español solo tiene 5 vocales puras. Esta diferencia es una de las razones principales por las que la pronunciación del inglés resulta tan compleja para hispanohablantes.
-  - question: ¿La longitud es lo único que diferencia las vocales cortas de las largas?
-    answer: >-
-      No, aunque el nombre lo sugiera. La diferencia no es solo de duración sino también de tensión muscular y posición de la lengua. Las vocales largas son "tensas" (la lengua y los labios hacen más fuerza) y las cortas son "relajadas". Además, algunas vocales "largas" son en realidad diptongos que incluyen un movimiento final de la lengua.
-  - question: ¿Es posible confundir a un nativo con una vocal equivocada?
-    answer: >-
-      Sí, especialmente con ciertos pares. Decir "I want to leave" cuando en realidad quieres decir "I want to live" puede crear un momento de confusión. En contextos formales o nuevos, una vocal incorrecta puede hacer que el interlocutor pida que repitas. En conversaciones fluidas, el contexto suele resolver la ambigüedad.
-canonical: 'https://www.focus-on-english.com/blog/gramatica/vocales-cortas-largas-ingles'
----
-
-En español, las cinco vocales son como cinco cajas bien definidas. Cada letra tiene su sonido y ese sonido no cambia demasiado según el contexto. El inglés no funciona así. El inglés tiene el doble de sonidos vocálicos que el español, muchos de ellos sin equivalente directo, y confundirlos tiene consecuencias reales.
-
-El ejemplo más clásico es el par *ship* y *sheep*. La diferencia entre las dos no es la grafía —ambas tienen una "i"— sino la calidad vocálica: /ʃɪp/ vs /ʃiːp/. La /ɪ/ es breve, relajada, neutral; la /iː/ es larga, tensa, con los labios estirados. Para un hispanohablante que pronuncia ambas como una "i" española, las dos palabras suenan igual. Para un nativo, son tan diferentes como "barco" y "oveja".
-
-Este artículo te enseña a distinguir y producir los pares vocálicos que más problemas causan a hablantes de español.
+  - question: '¿Cuántas vocales tiene el inglés en total?'
+    answer: 'El inglés tiene 20 sonidos vocálicos: 7 vocales cortas, 5 largas y 8 diptongos. Esto contrasta con los 5 sonidos vocálicos del español, lo que explica por qué la pronunciación inglesa resulta tan compleja para hispanohablantes.'
+  - question: '¿Es obligatorio respetar la longitud vocálica en inglés?'
+    answer: 'Técnicamente puedes hacerte entender sin respetar la longitud exacta, pero en pares como ship/sheep o bit/beat la distinción es clave para no causar malentendidos. Además, pronunciar vocales largas como cortas (o viceversa) es uno de los marcadores más claros de acento extranjero.'
+  - question: '¿Las vocales largas siempre llevan el símbolo ː en el IPA?'
+    answer: 'Las vocales largas puras sí llevan el símbolo ː (por ejemplo /iː/, /uː/, /ɑː/). Pero los diptongos, que también son vocales "largas" en duración, se transcriben con dos símbolos (/eɪ/, /aɪ/, etc.) sin el ː. La clave para saber si una vocal es larga es mirar la transcripción fonética completa.'
+  - question: '¿Cómo practico la diferencia entre vocales cortas y largas en casa?'
+    answer: 'La forma más efectiva es trabajar con pares mínimos: palabras que solo se diferencian en la cantidad vocálica, como bit/beat, full/fool o hot/heart. Busca las pronunciaciones en Forvo o el Cambridge Dictionary, escúchalas en bucle y grábate imitándolas. Después compara.'
 
 ---
 
-## El sistema: tenso vs relajado
+Una de las primeras frustraciones al estudiar inglés es darse cuenta de que la ortografía no te dice casi nada sobre cómo suena una vocal. La palabra *read* puede pronunciarse /riːd/ o /red/ dependiendo del tiempo verbal. La palabra *live* puede ser /lɪv/ (verbo) o /laɪv/ (adjetivo). Y si confundes *ship* con *sheep*, la conversación puede tomar un giro inesperado.
 
-Antes de los pares concretos, conviene entender la lógica del sistema. En fonética inglesa, se habla de vocales "tensas" (tense) y "relajadas" (lax):
-
-- Las **tensas** se producen con más tensión muscular en la lengua y los labios. Son más largas y a menudo incluyen un ligero movimiento al final (por eso algunas se convierten en diptongos).
-- Las **relajadas** se producen con menos tensión. Son más cortas, más centrales, y la boca está más en reposo.
-
-Esta distinción explica por qué /iː/ y /ɪ/ no son solo "una i larga y una i corta": son sonidos producidos de forma diferente, no solo con duraciones distintas.
+La distinción entre vocales cortas y largas no es un capricho del inglés: es una diferencia fonológica real que cambia significados. Vale la pena entenderla bien.
 
 ---
 
-## Los pares más importantes
+## Las vocales cortas: breves y relajadas
 
-### /iː/ vs /ɪ/ — La pareja estrella
+Las vocales cortas del inglés son breves en duración y, sobre todo, relajadas en tensión muscular. La mandíbula se abre poco, los labios no adoptan una forma marcada y la lengua no se desplaza mucho de su posición de reposo. Esa relajación es exactamente lo que hace que nos cuesten: en español articulamos todas las vocales con bastante tensión y claridad.
 
-**/iː/** (tensa, larga): *see, feet, leave, seat, green, feel, sleep*  
-**/ɪ/** (relajada, corta): *sit, bit, live, hit, give, ship, fish, big*
+Hay siete vocales cortas principales:
 
-Para producir /iː/: estira los labios como si sonrieras, eleva la parte delantera de la lengua hacia el paladar duro, y mantén la tensión. Es casi como decir "i" en español pero con más energía y algo más larga.
+| Símbolo IPA | Sonido aproximado | Palabras clave | Más ejemplos |
+| :--- | :--- | :--- | :--- |
+| **/ɪ/** | Como "i" breve y relajada | *bit, sit, fish* | *live, kitchen, myth, women* |
+| **/e/** | Como "e" pero más abierta | *bed, red, head* | *friend, said, bread, bury* |
+| **/æ/** | Entre "a" y "e" | *cat, hat, bad* | *man, lamp, apple, laugh* |
+| **/ʌ/** | Como "a" central y breve | *cup, bus, sun* | *love, blood, money, come* |
+| **/ɒ/** | "o" abierta y breve | *hot, dog, stop* | *clock, cot, watch, odd* |
+| **/ʊ/** | Como "u" breve y relajada | *foot, put, book* | *good, look, should, could* |
+| **/ə/** | Neutra, sin esfuerzo | *about, teacher* | *banana, problem, seven* |
 
-Para producir /ɪ/: relaja completamente los labios y la lengua. La lengua baja un poco respecto a /iː/, los labios no se estiran. Es un sonido "descuidado", como si fuera una "i" a medio hacer.
+El séptimo sonido —el schwa /ə/— es el más frecuente de todo el inglés. Ya lo conoces si has leído sobre él antes; si no, merece atención propia porque aparece en prácticamente cualquier sílaba sin acento.
 
-Pares mínimos para practicar:
-- *sheep* /ʃiːp/ — *ship* /ʃɪp/
-- *leave* /liːv/ — *live* /lɪv/
-- *feel* /fiːl/ — *fill* /fɪl/
-- *seat* /siːt/ — *sit* /sɪt/
-- *heat* /hiːt/ — *hit* /hɪt/
-- *green* /ɡriːn/ — *grin* /ɡrɪn/
+### El problema de /ɪ/ y /æ/ para hispanohablantes
 
-### /uː/ vs /ʊ/ — La pareja olvidada
+Estos dos sonidos no existen en español y causan los malentendidos más frecuentes.
 
-**/uː/** (tensa, larga): *food, moon, blue, shoe, true, school, move*  
-**/ʊ/** (relajada, corta): *book, look, good, foot, put, full, would, could*
+El **fonema /ɪ/** es como una "i" que no se terminó de pronunciar. Los labios no llegan a estirarse del todo, la lengua no sube completamente. Compáralo con /iː/ (la "i" larga de *see*): en /iː/ hay tensión y duración; en /ɪ/ hay relajación y brevedad.
 
-Para producir /uː/: redondea los labios con fuerza y empuja la lengua hacia atrás y arriba. Es como decir "u" en español pero más larga y redondeada.
-
-Para producir /ʊ/: redondea ligeramente, pero sin tensión. La lengua no va tan atrás. Es una "u" perezosa, casi a medio camino entre "u" y una vocal más central.
-
-Pares mínimos:
-- *fool* /fuːl/ — *full* /fʊl/
-- *pool* /puːl/ — *pull* /pʊl/
-- *stewed* /stjuːd/ — *stood* /stʊd/
-- *Luke* /luːk/ — *look* /lʊk/
-- *who'd* /huːd/ — *hood* /hʊd/
-
-### /ɑː/ vs /æ/ — La "a" que nadie te enseñó
-
-**/ɑː/** (larga, posterior): *car, father, heart, start, calm, bath* (en inglés británico)  
-**/æ/** (breve, frontal): *cat, hat, man, back, bad, hand, lamp, catch*
-
-El /ɑː/ es una "a" profunda que viene del fondo de la garganta, larga y abierta. El /æ/ es más frontal: la mandíbula cae bastante y los labios se estiran ligeramente hacia los lados, como si fuera una "a" pero con la boca preparada para decir "e".
-
-El /æ/ no existe en español y es uno de los sonidos más difíciles para hispanohablantes. Muchos lo sustituyen por una "a" normal o por /e/, lo que puede crear confusión.
-
-Pares:
-- *cart* /kɑːt/ — *cat* /kæt/
-- *heart* /hɑːt/ — *hat* /hæt/
-- *barn* /bɑːn/ — *ban* /bæn/
-- *park* /pɑːk/ — *pack* /pæk/
-
-Nota: en inglés americano, la distribución del /ɑː/ es diferente. Palabras como *bath* o *dance* que en RP britáico tienen /ɑː/, en General American tienen /æ/.
-
-### /ɔː/ vs /ɒ/ — La "o" que no es "o"
-
-**/ɔː/** (larga): *door, floor, more, warm, call, all, thought, caught*  
-**/ɒ/** (corta, típica del inglés británico): *hot, dog, lot, stop, clock, not, got*
-
-El /ɔː/ es una "o" larga con los labios bien redondeados, similar a la "o" española pero más larga. El /ɒ/ es corto y con los labios menos redondeados, casi abierto: la mandíbula cae bastante. En inglés americano, el /ɒ/ tiende a realizarse como /ɑː/ (sin redondeo).
-
-Pares:
-- *caught* /kɔːt/ — *cot* /kɒt/ (en RP británico)
-- *pore* /pɔː/ — *pot* /pɒt/
-- *more* /mɔː/ — *mop* /mɒp/
-
-### /ɜː/ vs /e/ — La "e" del centro
-
-**/ɜː** (larga, central): *bird, word, turn, nurse, learn, first, her*  
-**/e/** (corta): *bed, red, said, head, friend, any*
-
-El /ɜː/ no tiene equivalente en español. Se produce en el centro de la boca, con los labios ligeramente redondeados pero no demasiado. Muchos hispanohablantes lo confunden con una "e" o con una "o". Palabras como *bird* o *word* suelen pronunciarse mal hasta niveles avanzados.
-
-Truco: di "e" en español. Ahora curva un poco los labios como si fuera a decir "o" pero di "e". El resultado se acerca al /ɜː/.
-
-Pares:
-- *bird* /bɜːd/ — *bed* /bed/
-- *word* /wɜːd/ — *wed* /wed/
-- *hurt* /hɜːt/ — *het* (poco usada)
-- *firm* /fɜːm/ — *fem* (no estándar, pero útil para practicar)
+El **fonema /æ/** es el sonido de *cat* en inglés americano. Está entre nuestra "a" y nuestra "e". Para encontrarlo, pronuncia "a" y luego lleva los labios ligeramente hacia los lados como si empezaras a sonreír, sin cerrar la mandíbula. Ese punto intermedio es /æ/.
 
 ---
 
-## Los errores más frecuentes en contexto real
+## Las vocales largas: tensas y prolongadas
 
-**"I live in Madrid"** → Muchos pronuncian *live* como /liːv/ (el verbo), cuando el adjetivo/sustantivo *live* (directo, en vivo) sí es /laɪv/. El verbo *to live* (vivir) es /lɪv/, con vocal corta.
+Las vocales largas requieren más esfuerzo articulatorio. La duración es mayor y, sobre todo, hay más tensión muscular en la lengua y los labios. En el IPA se marcan con el símbolo **ː** después del fonema.
 
-**"I can read well"** → *read* en presente es /riːd/, con vocal larga. El pasado *read* se escribe igual pero se pronuncia /red/, con /e/ corta. Un error de vocal aquí cambia el tiempo verbal.
+Hay cinco vocales largas puras:
 
-**"She felt good"** → *felt* tiene /e/ corta. Si alguien lo pronuncia con /iː/, suena como "feelt", que no existe.
+| Símbolo IPA | Sonido aproximado | Palabras clave | Más ejemplos |
+| :--- | :--- | :--- | :--- |
+| **/iː/** | "i" larga y tensa | *see, beat, feet* | *leave, team, machine, key* |
+| **/ɑː/** | "a" larga y posterior | *car, father, bar* | *heart, start, palm, half* |
+| **/ɔː/** | "o" larga y labializada | *door, four, walk* | *core, more, caught, thought* |
+| **/uː/** | "u" larga y tensa | *food, blue, moon* | *room, true, shoe, through* |
+| **/ɜː/** | Sin equivalente en español | *bird, her, word* | *turn, nurse, learn, heard* |
 
-**"Put it in the pool"** → *put* tiene /ʊ/ corta; *pool* tiene /uː/ larga. Si se invierten, la frase suena rara aunque se entienda por contexto.
-
----
-
-## Estrategias de práctica
-
-### Entrena el oído antes que la boca
-
-Antes de producir los sonidos, tienes que aprender a distinguirlos. Usa Minimal Pairs Practice (disponible en múltiples apps gratuitas) para entrenar la percepción. Durante la primera semana, céntrate solo en escuchar y clasificar, sin producir.
-
-### Usa el espejo y exagera
-
-Al principio, exagera conscientemente la diferencia entre los sonidos. Para /iː/, estira los labios al máximo. Para /ɪ/, relaja la cara por completo. La exageración consciente construye conciencia muscular.
-
-### Marca las vocales largas en tus notas
-
-Cuando aprendas una palabra nueva, anota si la vocal es larga o corta. Puedes usar el símbolo ː del IPA después de la vocal larga, o simplemente subrayarla. Así empiezas a prestar atención a la distinción desde el primer contacto con la palabra.
-
-### Grábate y analiza
-
-Grábate leyendo pares mínimos. Escúchate con auriculares. Si no puedes distinguir tus propias versiones de las dos palabras, necesitas seguir trabajando la producción antes de probar con oyentes externos.
-
-Para más contexto sobre el sistema fonético del inglés, consulta la [guía de fonética inglesa básica](/blog/gramatica/fonetica-inglesa-basica). Y para trabajar todos los sonidos difíciles en conjunto, el artículo sobre [pares mínimos en inglés](/blog/gramatica/pares-minimos-ingles-practica) tiene ejercicios sistemáticos para cada par vocálico.
+El quinto sonido, **/ɜː/**, es el que más trabajo cuesta. No existe en español ni en casi ninguna lengua romance. La lengua se coloca en posición media-central, los labios no se redondean y la mandíbula se abre moderadamente. Es el sonido de *bird*, *word*, *nurse*, *turn*. Prueba a pronunciar una "e" francesa alargada y sin redondear los labios: te acercarás bastante.
 
 ---
 
-## Preguntas frecuentes
+## Pares mínimos: donde la diferencia importa de verdad
 
-### ¿Las vocales largas son siempre más largas en duración?
+Un par mínimo es un conjunto de dos palabras que solo se diferencian en un fonema. Con vocales, suelen ser el mismo entorno consonántico pero con vocal corta vs. larga.
 
-En términos generales, sí, pero no es una regla absoluta. Una vocal larga en una sílaba átona puede ser más corta en duración que una vocal "corta" en una sílaba muy acentuada. La distinción es más de calidad (tensión, posición de la lengua) que solo de cantidad.
+| Vocal corta | Vocal larga | Diferencia |
+| :--- | :--- | :--- |
+| *bit* /bɪt/ | *beat* /biːt/ | /ɪ/ vs /iː/ |
+| *ship* /ʃɪp/ | *sheep* /ʃiːp/ | /ɪ/ vs /iː/ |
+| *full* /fʊl/ | *fool* /fuːl/ | /ʊ/ vs /uː/ |
+| *look* /lʊk/ | *Luke* /luːk/ | /ʊ/ vs /uː/ |
+| *cot* /kɒt/ | *cart* /kɑːt/ | /ɒ/ vs /ɑː/ |
+| *hot* /hɒt/ | *heart* /hɑːt/ | /ɒ/ vs /ɑː/ |
+| *cut* /kʌt/ | *cart* /kɑːt/ | /ʌ/ vs /ɑː/ |
 
-### ¿La Magic E (/e/ muda al final) siempre alarga la vocal anterior?
+Escuchar y repetir pares mínimos es uno de los ejercicios más efectivos para afinar el oído. No hace falta material especial: el Cambridge Dictionary tiene audio de cada palabra.
 
-Es una regla útil para principiantes, pero tiene muchas excepciones. Funciona bien con monosílabos: *hat → hate*, *bit → bite*, *hop → hope*, *cut → cute*. Pero en palabras más largas o palabras de origen no germánico, la regla falla frecuentemente. Úsala como punto de partida, no como ley universal.
+---
 
-### ¿Debo aprender el inglés americano o el británico para las vocales?
+## La ortografía y las vocales: una relación complicada
 
-Para las vocales, la distinción más importante es entre /æ/ y /ɑː/ en palabras como *bath*, *dance*, *ask*, *grass*. En RP británico son /ɑː/; en General American son /æ/. Elige un modelo y sé consistente. Lo más importante es que el oído te permita entender ambas variedades, aunque produzcas solo una.
+La escritura inglesa no tiene una relación directa con la longitud vocálica. El mismo sonido puede estar escrito de formas radicalmente distintas, y la misma letra puede producir sonidos completamente diferentes.
+
+| Sonido | Diferentes ortografías |
+| :--- | :--- |
+| **/iː/** | *see, sea, me, key, machine, people, receive* |
+| **/ɑː/** | *car, father, half, heart, laugh* |
+| **/uː/** | *food, blue, through, shoe, you, do* |
+| **/ɜː/** | *bird, word, nurse, heard, learn* |
+
+Y a la inversa, la letra "o" puede representar /ɒ/ (*hot*), /əʊ/ (*go*), /uː/ (*do*), /ʌ/ (*love*), /ɔː/ (*more*) o /ə/ (*memory*). Intentar aprender la pronunciación desde la ortografía es una estrategia que tiene un techo muy bajo.
+
+La solución es aprender la transcripción fonética desde el principio. No hace falta memorizarla de golpe: con los sonidos más problemáticos para hispanohablantes —/ɪ/, /æ/, /ʌ/, /ɜː/— ya tienes suficiente para empezar.
+
+---
+
+## La longitud vocálica en contexto
+
+Algo que rara vez se explica es que la longitud vocálica no es absoluta: depende del entorno. Una vocal larga antes de una consonante sorda (/p/, /t/, /k/, /f/, /s/...) se pronuncia algo más corta que la misma vocal antes de una consonante sonora (/b/, /d/, /g/, /v/, /z/...) o en posición final.
+
+Compara:
+- *beat* /biːt/ — vocal larga + consonante sorda → la /iː/ es algo más breve
+- *bead* /biːd/ — vocal larga + consonante sonora → la /iː/ es más larga
+
+Esto no cambia el fonema (siguen siendo dos palabras distintas), pero sí afecta a cómo suena el inglés natural. Los hablantes nativos ajustan estas duraciones de forma automática sin pensarlo.
+
+---
+
+## Consejos para mejorar
+
+El oído va por delante de la producción. Antes de intentar pronunciar bien, necesitas poder distinguir los sonidos cuando los escuchas. Aquí van tres hábitos que funcionan:
+
+**Escucha activa con transcripción.** Cuando escuches una palabra nueva, búscala en el diccionario y mira su transcripción fonética. Identifica qué vocal tiene y cuánto dura. Haz esto con diez palabras nuevas al día y en tres meses tendrás una intuición mucho más fina.
+
+**Grábate.** Es incómodo, pero efectivo. Elige cinco pares mínimos, grábate diciéndolos y compara con el audio nativo. El contraste es revelador.
+
+**No confundas cantidad con calidad.** El error más habitual es creer que una vocal larga es simplemente la vocal corta pronunciada durante más tiempo. No es así: /iː/ y /ɪ/ son fonemas distintos, no solo una versión larga y corta del mismo sonido. Tienen timbres diferentes además de duraciones diferentes.
+
+Para seguir profundizando en la fonética inglesa y entender mejor cómo se organiza el sistema de sonidos del idioma, puedes explorar [los recursos de fonética de Focus English](/hubs/fonetica-inglesa-basica), donde encontrarás contenidos que van desde los fundamentos hasta aspectos más avanzados de la pronunciación.
+
+---
+
+## Preguntas Frecuentes
+
+### ¿Cuántas vocales tiene el inglés en total?
+
+El inglés tiene 20 sonidos vocálicos: 7 vocales cortas, 5 largas y 8 diptongos. Esto contrasta con los 5 sonidos vocálicos del español, lo que explica por qué la pronunciación inglesa resulta tan compleja para hispanohablantes.
+
+### ¿Es obligatorio respetar la longitud vocálica en inglés?
+
+Técnicamente puedes hacerte entender sin respetar la longitud exacta, pero en pares como *ship/sheep* o *bit/beat* la distinción es clave para no causar malentendidos. Además, pronunciar vocales largas como cortas (o viceversa) es uno de los marcadores más claros de acento extranjero.
+
+### ¿Las vocales largas siempre llevan el símbolo ː en el IPA?
+
+Las vocales largas puras sí llevan el símbolo ː (por ejemplo /iː/, /uː/, /ɑː/). Pero los diptongos, que también son vocales "largas" en duración, se transcriben con dos símbolos (/eɪ/, /aɪ/, etc.) sin el ː. La clave para saber si una vocal es larga es mirar la transcripción fonética completa.
+
+### ¿Cómo practico la diferencia entre vocales cortas y largas en casa?
+
+La forma más efectiva es trabajar con pares mínimos: palabras que solo se diferencian en la cantidad vocálica, como *bit/beat*, *full/fool* o *hot/heart*. Busca las pronunciaciones en Forvo o el Cambridge Dictionary, escúchalas en bucle y grábate imitándolas. Después compara.
+
+---

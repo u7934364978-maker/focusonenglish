@@ -105,17 +105,17 @@ La fonética no es aburrida; es liberadora. Te da el poder de pronunciar cualqui
 
 ---
 
-## Profundiza más: Guías de Fonética en Detalle
+## 📚 Profundiza más
 
-Cada sonido del inglés merece su propio espacio. Aquí tienes las guías completas sobre los aspectos más importantes de la fonética inglesa:
+Si quieres seguir trabajando los fundamentos de la fonética inglesa, estos artículos van al detalle en los aspectos que más importan:
 
-- [El schwa /ə/: el sonido más frecuente del inglés y cómo dominarlo](/blog/gramatica/schwa-ingles-el-sonido-mas-importante)
-- [El sonido "th": cómo pronunciar /θ/ y /ð/ sin morir en el intento](/blog/gramatica/sonido-th-ingles-como-pronunciarlo)
-- [Vocales cortas y largas en inglés: la diferencia que cambia el significado](/blog/gramatica/vocales-cortas-largas-ingles)
-- [Diptongos en inglés: lista completa con ejemplos y cómo practicarlos](/blog/gramatica/diptongos-ingles-lista-guia)
-- [Consonantes difíciles del inglés para hispanohablantes: guía práctica](/blog/gramatica/consonantes-dificiles-ingles-hispanohablantes)
-- [Word stress en inglés: cómo poner el acento tónico en el lugar correcto](/blog/gramatica/word-stress-ingles-acento-tonico)
-- [Pares mínimos en inglés: ejercicios para afinar el oído y la pronunciación](/blog/gramatica/pares-minimos-ingles-practica)
-- [Letras mudas en inglés: guía completa con reglas y excepciones](/blog/gramatica/letras-mudas-ingles-guia-completa)
-- [Cómo leer la transcripción fonética del inglés: guía del IPA para principiantes](/blog/gramatica/como-leer-transcripcion-fonetica-ingles)
-- [El IPA en inglés: guía práctica para usar el Alfabeto Fonético Internacional](/blog/gramatica/ipa-ingles-guia-practica)
+- [Fonética Inglesa Básica: todos los sonidos del sistema](/blog/gramatica/fonetica-inglesa-basica)
+- [El Schwa en Inglés: el sonido más frecuente del idioma](/blog/gramatica/schwa-ingles-sonido-clave)
+- [Vocales Cortas y Largas en Inglés: cómo distinguirlas](/blog/gramatica/vocales-cortas-largas-ingles)
+- [Las Consonantes TH en Inglés: /θ/ y /ð/ paso a paso](/blog/gramatica/consonantes-th-ingles)
+- [Diptongos en Inglés: lista completa con IPA y ejemplos](/blog/gramatica/diptongos-ingles-lista-completa)
+- [Word Stress en Inglés: reglas de acento tónico](/blog/gramatica/word-stress-ingles-reglas)
+- [Pares Mínimos en Inglés: entrena tu oído con contrastes fonéticos](/blog/gramatica/pares-minimos-ingles)
+- [Letras Mudas en Inglés: lista completa y reglas](/blog/gramatica/letras-mudas-ingles-lista)
+- [IPA en Inglés: cómo leer el alfabeto fonético internacional](/blog/gramatica/ipa-ingles-como-leer)
+- [Sílabas en Inglés: cómo dividirlas y por qué importa](/blog/gramatica/silabas-ingles-division)
