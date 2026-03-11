@@ -158,7 +158,8 @@ Crear `src/content/blog/metodos/apps-ingles-sin-internet-offline.md` con 1.500+ 
 - Enlace interno al hub: `/blog/metodos/mejores-apps-ingles-gratis`
 - Enlace cruzado a `/blog/metodos/anki-para-aprender-ingles-guia` y `/blog/metodos/duolingo-ingles-review`
 
-### [ ] Step 11: Actualizar hub blog y hub landing con enlaces a los artículos de cluster
+### [x] Step 11: Actualizar hub blog y hub landing con enlaces a los artículos de cluster
+<!-- chat-id: db6cade8-7b2f-4a15-b316-6cb254c1fbe1 -->
 
 Editar los dos archivos hub para añadir enlaces internos a todos los cluster articles:
 

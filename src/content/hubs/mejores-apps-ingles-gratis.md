@@ -31,6 +31,8 @@ A diferencia de sus competidores, Duolingo mantiene su compromiso de que todo el
 
 **Consejo PRO:** Para evitar perder vidas y tener que esperar, practica lecciones de "repaso" o haz las unidades de "vocabulario" para ganar corazones extra de forma gratuita.
 
+→ [Duolingo inglés: review honesto 2026 — ventajas, límites y cómo usarlo bien](/blog/metodos/duolingo-ingles-review)
+
 ---
 
 ## 2. Elsa Speak: Tu Coach Personal de Pronunciación
@@ -41,6 +43,8 @@ A diferencia de sus competidores, Duolingo mantiene su compromiso de que todo el
 - **Retos Diarios:** Cada día ofrece una serie de ejercicios gratuitos que se centran en los sonidos más difíciles para los hispanohablantes (como la diferencia entre *sheep* y *ship*).
 
 En 2026, Elsa ha integrado una función de "Conversación Libre" limitada para usuarios gratuitos donde puedes hablar sobre temas sencillos y recibir un informe de tus errores de entonación.
+
+→ [ELSA Speak review: cómo mejorar la pronunciación en inglés con inteligencia artificial](/blog/metodos/elsa-speak-review-pronunciacion-ingles)
 
 ---
 
@@ -55,6 +59,8 @@ Esta aplicación es una joya oculta porque es **100% gratuita**, sin anuncios mo
 
 Es la mejor opción para aquellos que prefieren un enfoque más estructurado y académico pero con contenido de actualidad.
 
+→ [BBC Learning English: guía completa de secciones, niveles y cómo estructurar tu rutina](/blog/metodos/bbc-learning-english-guia-completa)
+
 ---
 
 ## 4. Cake: Aprende con lo que te gusta
@@ -65,6 +71,8 @@ Cake ha revolucionado el aprendizaje auditivo. Su premisa es simple: usa fragmen
 - **Búsqueda por intereses:** Puedes buscar "Harry Potter", "Tecnología" o "Viajes" y aprender inglés solo con vídeos de esos temas.
 - **Grabación y Feedback:** Te permite grabar tu voz sobre el clip original y compararla con el actor o influencer nativo.
 - **Pathways:** Rutas de aprendizaje organizadas por temas (inglés para ligar, inglés para ir al médico, etc.).
+
+→ [Cake app review: aprender inglés con vídeos cortos, speaking y contenido real](/blog/metodos/cake-app-ingles-review)
 
 ---
 
@@ -127,6 +135,23 @@ Para exámenes, recomendamos **Magosh** y las apps oficiales del **British Counc
 
 ### ¿Cuántas apps debería usar a la vez?
 No más de tres. El "parálisis por análisis" es real. Nuestra recomendación: una de gramática/general (Duolingo), una de pronunciación (Elsa) y una de inmersión/vídeo (Cake).
+
+## 📚 Profundiza más: Guías Completas de Cada App y Método
+
+Hemos analizado en detalle cada herramienta y método para que puedas sacarle el máximo partido:
+
+- [Anki para aprender inglés: guía completa de instalación, mazos y repetición espaciada](/blog/metodos/anki-para-aprender-ingles-guia)
+- [Repetición espaciada (SRS): la ciencia que hay detrás de Anki y cómo usarla](/blog/metodos/repeticion-espaciada-srs-ingles)
+- [Duolingo inglés: review honesto 2026 — ventajas, límites y para quién sirve](/blog/metodos/duolingo-ingles-review)
+- [ELSA Speak review: mejora tu pronunciación en inglés con inteligencia artificial](/blog/metodos/elsa-speak-review-pronunciacion-ingles)
+- [BBC Learning English: guía completa de secciones, niveles y rutina diaria](/blog/metodos/bbc-learning-english-guia-completa)
+- [Lingopie review: aprende inglés viendo series con subtítulos interactivos](/blog/metodos/lingopie-review-aprender-ingles-series)
+- [Cake app review: aprender inglés con vídeos cortos y práctica de speaking](/blog/metodos/cake-app-ingles-review)
+- [Los mejores canales de YouTube para aprender inglés — guía por niveles y objetivos](/blog/metodos/mejores-canales-youtube-aprender-ingles)
+- [Apps para aprender inglés sin internet: las mejores opciones offline](/blog/metodos/apps-ingles-sin-internet-offline)
+- [Cómo combinar apps para aprender inglés: rutina por niveles con horarios reales](/blog/metodos/rutina-apps-ingles-como-combinarlas)
+
+---
 
 ## Conclusión: El Futuro está en tus manos
 
