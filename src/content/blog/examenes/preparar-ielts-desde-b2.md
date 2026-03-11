@@ -198,4 +198,4 @@ Si todavía no has decidido entre IELTS y TOEFL, estas son las preguntas clave:
 
 Para una comparativa detallada, consulta **[IELTS vs TOEFL 2026](/blog/examenes/ielts-vs-toefl-diferencias-cual-elegir)**.
 
-[👉 Prepárate para el IELTS con nuestros profesores especializados y un plan personalizado a tu nivel](/cuenta/registro?plan=cambridge)
+[👉 Mejora tu inglés con nuestros cursos y llega al IELTS con la base que necesitas](/cuenta/registro?plan=cambridge)
