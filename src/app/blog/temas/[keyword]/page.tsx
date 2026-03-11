@@ -36,10 +36,12 @@ export async function generateMetadata({ params }: { params: Promise<{ keyword: 
     title: `${displayTitle} | Focus English Blog`,
     description: displayDescription,
     alternates: {
-      canonical: `https://www.focus-on-english.com/blog/temas/${keyword}`,
+      canonical: hubContent
+        ? `https://www.focus-on-english.com/hubs/${keyword}`
+        : `https://www.focus-on-english.com/blog/temas/${keyword}`,
     },
     robots: {
-      index: true,
+      index: hubContent ? false : true,
       follow: true,
     },
     openGraph: {
