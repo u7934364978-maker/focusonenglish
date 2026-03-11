@@ -103,7 +103,7 @@ Crear `src/content/blog/metodos/duolingo-ingles-review.md` con 1.800+ palabras.
 - Enlace interno al hub: `/blog/metodos/mejores-apps-ingles-gratis`
 - Enlace cruzado a `/blog/metodos/rutina-apps-ingles-como-combinarlas` y `/blog/metodos/apps-ingles-sin-internet-offline`
 
-### [ ] Step 6: Crear artículo ELSA Speak review — pronunciación inglés (Prioridad 6)
+### [x] Step 6: Crear artículo ELSA Speak review — pronunciación inglés (Prioridad 6)
 <!-- chat-id: d2787683-7e5f-47a4-b56e-9233a4a34fc9 -->
 
 Crear `src/content/blog/metodos/elsa-speak-review-pronunciacion-ingles.md` con 1.600+ palabras.
