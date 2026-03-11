@@ -100,7 +100,8 @@ Crear los 3 primeros artículos de cluster para el hub `pronunciacion-ingles-gui
 
 Requisitos: mismos criterios de calidad (IPA, tono, sin marcadores de IA, enlace al hub `/hubs/pronunciacion-ingles-guia-completa`).
 
-### [ ] Step 5: Hub 2 — Artículos de pronunciación (lote B)
+### [x] Step 5: Hub 2 — Artículos de pronunciación (lote B)
+<!-- chat-id: cfa79ab4-a491-444a-b057-1fc850e4d9ab -->
 
 Crear artículos 4–6 para el hub `pronunciacion-ingles-guia-completa`:
 
