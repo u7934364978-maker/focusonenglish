@@ -58,7 +58,8 @@ Crear `src/content/blog/metodos/anki-para-aprender-ingles-guia.md` con 2.000+ pa
 - Enlace interno al hub: `/blog/metodos/mejores-apps-ingles-gratis`
 - Enlace cruzado a `/blog/metodos/repeticion-espaciada-srs-ingles` y `/blog/metodos/rutina-apps-ingles-como-combinarlas`
 
-### [ ] Step 2: Crear artículo Mejores canales de YouTube para aprender inglés (Prioridad 2)
+### [x] Step 2: Crear artículo Mejores canales de YouTube para aprender inglés (Prioridad 2)
+<!-- chat-id: 9ea8bc9e-5d63-473c-adf9-57a9a11a162e -->
 
 Crear `src/content/blog/metodos/mejores-canales-youtube-aprender-ingles.md` con 2.200+ palabras.
 
