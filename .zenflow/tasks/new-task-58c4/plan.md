@@ -147,7 +147,8 @@ Crear `src/content/blog/metodos/cake-app-ingles-review.md` con 1.500+ palabras.
 - Enlace interno al hub: `/blog/metodos/mejores-apps-ingles-gratis`
 - Enlace cruzado a `/blog/metodos/rutina-apps-ingles-como-combinarlas`
 
-### [ ] Step 10: Crear artículo Apps inglés sin internet — las mejores opciones offline (Prioridad 10)
+### [x] Step 10: Crear artículo Apps inglés sin internet — las mejores opciones offline (Prioridad 10)
+<!-- chat-id: c8e49834-c4e6-4922-b7e4-af9f612c0558 -->
 
 Crear `src/content/blog/metodos/apps-ingles-sin-internet-offline.md` con 1.500+ palabras.
 
