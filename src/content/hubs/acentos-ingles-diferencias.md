@@ -90,3 +90,19 @@ En 2026 estamos viendo la aparición de acentos "transatlánticos" o "globales" 
 Tu acento es tu identidad y tu historia. No intentes borrarlo por completo; intenta que sea **claro y funcional**. En **Focus English**, celebramos la diversidad del inglés y te damos las herramientas para que navegues por todos sus acentos con confianza.
 
 The world is speaking English. Are you ready to listen?
+
+## 📚 Profundiza más
+
+¿Quieres ir más allá de esta introducción? Aquí tienes artículos que profundizan en cada acento y en la fonética que hay detrás:
+
+- [Acentos del inglés: diferencias y características](/blog/metodos/acentos-ingles-diferencias)
+- [El inglés británico y sus acentos regionales](/blog/metodos/ingles-britanico-acentos-regionales)
+- [General American: el acento estándar de EE.UU.](/blog/metodos/general-american-acento)
+- [El acento australiano: características y curiosidades](/blog/metodos/acento-ingles-australiano)
+- [El acento irlandés: música, ritmo y fonética](/blog/metodos/acento-ingles-irlandes)
+- [Cockney: el acento del East End de Londres](/blog/metodos/cockney-acento-ingles)
+- [Inglés escocés: características y variedades](/blog/metodos/ingles-escoces-caracteristicas)
+- [El acento sudafricano: inglés en el extremo sur](/blog/metodos/acento-ingles-sudafricano)
+- [El acento canadiense: el Canadian Raising y el "eh"](/blog/metodos/acento-canadiense-ingles)
+- [Cómo entender los acentos del inglés](/blog/metodos/como-entender-acentos-ingles)
+- [El inglés como lingua franca: cuando el inglés no es de nadie](/blog/metodos/ingles-lingua-franca-acentos)

@@ -157,7 +157,7 @@ Crear artículos 7–9 para el hub `acentos-ingles-diferencias`:
 - `src/content/blog/metodos/acento-canadiense-ingles.md` (sara-mendez, 2026-02-24)
 - `src/content/blog/metodos/como-entender-acentos-ingles.md` (david-torres, 2026-02-27)
 
-### [ ] Step 10: Hub 3 — Artículo final de acentos (lote D) + actualización del hub
+### [x] Step 10: Hub 3 — Artículo final de acentos (lote D) + actualización del hub
 <!-- chat-id: e971918a-8c2b-4c6b-be0a-f8bace8dbaa2 -->
 
 Crear el artículo 10 para el hub `acentos-ingles-diferencias`:
