@@ -114,7 +114,8 @@ Crear `src/content/blog/metodos/elsa-speak-review-pronunciacion-ingles.md` con 1
 - Enlace interno al hub: `/blog/metodos/mejores-apps-ingles-gratis`
 - Enlace cruzado a `/blog/metodos/rutina-apps-ingles-como-combinarlas`
 
-### [ ] Step 7: Crear artículo BBC Learning English — guía completa (Prioridad 7)
+### [x] Step 7: Crear artículo BBC Learning English — guía completa (Prioridad 7)
+<!-- chat-id: 2349d911-e86a-4794-85cf-48e2ff8fbb02 -->
 
 Crear `src/content/blog/metodos/bbc-learning-english-guia-completa.md` con 1.800+ palabras.
 
