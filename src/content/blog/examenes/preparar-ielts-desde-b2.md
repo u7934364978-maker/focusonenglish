@@ -15,12 +15,13 @@ canonical: >-
   https://www.focus-on-english.com/blog/examenes/preparar-ielts-desde-b2
 readTime: 6 min
 keywords:
-  - ielts vs toefl 2026
   - preparar ielts 2026
+  - como preparar ielts desde cero
   - como sacar band 7 ielts
   - ielts guia preparacion
   - ielts speaking writing estrategias
   - ielts academic general training
+  - plan estudio ielts 12 semanas
 faqs:
   - question: ¿Cuántas veces puedo presentarme al IELTS?
     answer: >-
