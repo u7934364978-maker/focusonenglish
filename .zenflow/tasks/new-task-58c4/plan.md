@@ -81,7 +81,8 @@ Crear `src/content/blog/metodos/repeticion-espaciada-srs-ingles.md` con 1.800+ p
 - Enlace interno al hub: `/blog/metodos/mejores-apps-ingles-gratis`
 - Enlace cruzado a `/blog/metodos/anki-para-aprender-ingles-guia`
 
-### [ ] Step 4: Crear artículo Rutina de apps para aprender inglés — cómo combinarlas (Prioridad 4)
+### [x] Step 4: Crear artículo Rutina de apps para aprender inglés — cómo combinarlas (Prioridad 4)
+<!-- chat-id: 87a3dca5-603a-4e96-8c1a-1bdbd0faa73c -->
 
 Crear `src/content/blog/metodos/rutina-apps-ingles-como-combinarlas.md` con 1.800+ palabras.
 
