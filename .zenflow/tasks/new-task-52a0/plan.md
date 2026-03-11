@@ -126,7 +126,8 @@ Después, actualizar `src/content/hubs/pronunciacion-ingles-guia-completa.md`:
 - Incluir enlace al huérfano adoptado: `/blog/metodos/reglas-pronunciacion-ingles`
 - Incluir enlaces a los 9 artículos nuevos (lotes A, B y C)
 
-### [ ] Step 7: Hub 3 — Artículos de acentos (lote A)
+### [x] Step 7: Hub 3 — Artículos de acentos (lote A)
+<!-- chat-id: 906b487f-2432-413d-9027-b0ac7b6623d0 -->
 
 Crear los 3 primeros artículos de cluster para el hub `acentos-ingles-diferencias`:
 
