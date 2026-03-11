@@ -13,7 +13,6 @@ keywords:
   - impersonal passive examples
   - have something done grammar
   - it is said that passive
-  - gramatica c1 advanced
   - voz pasiva ingles
 author: david-torres
 date: '2026-03-02'
@@ -125,4 +124,4 @@ Sirve para **distanciarse** de la información. Es muy común en el periodismo s
 
 ---
 
-¿Quieres practicar la transformación de frases (Use of English Part 4) con estos contenidos? En **Focus English** hemos diseñado un entrenador específico para el examen Advanced. [**Prueba una lección gratis.**](/cuenta/registro)
+¿Quieres practicar la transformación de frases con estos contenidos? Si te estás preparando para el Cambridge Advanced, en nuestra [guía de preparación CAE](/hubs/cambridge-english-2026) encontrarás todos los recursos que necesitas.

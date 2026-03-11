@@ -15,8 +15,6 @@ keywords:
   - modales perfectos ingles
   - modal verbs advanced
   - would could should might
-  - gramatica inglesa c1
-  - cambridge c1 advanced gramatica
 author: david-torres
 date: '2026-03-05'
 updatedDate: '2026-03-10'
@@ -158,4 +156,6 @@ Reescribe estas frases usando los modales indicados:
 
 ## Conclusión
 
-Los **verbos modales avanzados** son el corazón de la gramática inglesa de alto nivel. La clave no está solo en conocer las reglas, sino en internalizar los matices: cuándo usar *might* en lugar de *may*, por qué *needn't have* y *didn't need to* no son equivalentes, y cómo el **would** de distanciamiento eleva tu inglés escrito. Practica estos patrones en contextos reales y verás cómo tu nivel pasa de B2 a C1 de forma natural.
+Los **verbos modales avanzados** son el corazón de la gramática inglesa de alto nivel. La clave no está solo en conocer las reglas, sino en internalizar los matices: cuándo usar *might* en lugar de *may*, por qué *needn't have* y *didn't need to* no son equivalentes, y cómo el **would** de distanciamiento eleva tu inglés escrito. Practica estos patrones en contextos reales y verás cómo tu nivel avanza de forma natural.
+
+¿Preparas el Cambridge Advanced? En nuestra [guía de preparación CAE](/hubs/cambridge-english-2026) encontrarás estructura del examen, estrategias y recursos específicos para cada parte.
