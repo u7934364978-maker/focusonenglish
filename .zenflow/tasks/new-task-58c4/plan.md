@@ -92,7 +92,8 @@ Crear `src/content/blog/metodos/rutina-apps-ingles-como-combinarlas.md` con 1.80
 - Enlace interno al hub: `/blog/metodos/mejores-apps-ingles-gratis`
 - Enlace cruzado a TODOS los artículos de cluster ya escritos en steps 1-3 y los pendientes en steps 5-10
 
-### [ ] Step 5: Crear artículo Duolingo inglés — review honesto 2026 (Prioridad 5)
+### [x] Step 5: Crear artículo Duolingo inglés — review honesto 2026 (Prioridad 5)
+<!-- chat-id: a7b6e5e7-fbb1-4688-98d5-b078d109e937 -->
 
 Crear `src/content/blog/metodos/duolingo-ingles-review.md` con 1.800+ palabras.
 
@@ -103,6 +104,7 @@ Crear `src/content/blog/metodos/duolingo-ingles-review.md` con 1.800+ palabras.
 - Enlace cruzado a `/blog/metodos/rutina-apps-ingles-como-combinarlas` y `/blog/metodos/apps-ingles-sin-internet-offline`
 
 ### [ ] Step 6: Crear artículo ELSA Speak review — pronunciación inglés (Prioridad 6)
+<!-- chat-id: d2787683-7e5f-47a4-b56e-9233a4a34fc9 -->
 
 Crear `src/content/blog/metodos/elsa-speak-review-pronunciacion-ingles.md` con 1.600+ palabras.
 
