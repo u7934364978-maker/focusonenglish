@@ -89,7 +89,8 @@ Después, actualizar `src/content/hubs/fonetica-inglesa-basica.md`:
 - Incluir enlace al artículo existente: `/blog/gramatica/fonetica-inglesa-basica`
 - Incluir enlaces a los 9 artículos nuevos creados en los lotes A, B y C
 
-### [ ] Step 4: Hub 2 — Artículos de pronunciación (lote A)
+### [x] Step 4: Hub 2 — Artículos de pronunciación (lote A)
+<!-- chat-id: ec8a353a-11a8-4bef-af3e-e1c14cde58f3 -->
 
 Crear los 3 primeros artículos de cluster para el hub `pronunciacion-ingles-guia-completa`:
 
