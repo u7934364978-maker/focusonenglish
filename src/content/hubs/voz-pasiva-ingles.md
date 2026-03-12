@@ -104,4 +104,21 @@ Si has llegado aquí buscando "voz pasiva avanzada ingles" o "examples of passiv
 
 La voz pasiva no es solo una regla gramatical para aprobar exámenes; es una forma de ver el mundo y de comunicar prioridades. Dominarla te permitirá escribir correos electrónicos más profesionales, entender textos técnicos y mejorar tu fluidez académica.
 
-En **Focus English**, profundizamos en la voz pasiva dentro de nuestros módulos de inglés para ejecutivos y preparación de exámenes oficiales, asegurando que nuestros alumnos proyecten la imagen de profesionalidad que el mercado global exige.
+En **Focus English** encontrarás recursos y cursos para dominar el inglés con la precisión que exige el mercado global.
+
+## 📚 Profundiza más
+
+- [Voz Pasiva en Presente en Inglés: Estructura y Usos Reales](/blog/gramatica/pasiva-presente-ingles)
+- [Voz Pasiva en Pasado en Inglés: Was/Were y Had Been](/blog/gramatica/pasiva-pasado-ingles)
+- [Voz Pasiva en Futuro en Inglés: Will Be, Going To Be y Más](/blog/gramatica/pasiva-ingles-futuro)
+- [Pasiva con Verbos Modales en Inglés: Must, Should, Can y Más](/blog/gramatica/pasiva-modales-ingles)
+- [Pasiva Impersonal en Inglés: It Is Said, It Is Known y Similares](/blog/gramatica/pasiva-impersonal-ingles)
+- [Pasiva con Doble Objeto en Inglés: Give, Send, Show y Más](/blog/gramatica/pasiva-doble-objeto-ingles)
+- [Have Something Done en Inglés: La Causativa Explicada de Verdad](/blog/gramatica/have-something-done-ingles)
+- [Voz Activa vs Voz Pasiva en Inglés: Cuándo Usar Cada Una](/blog/gramatica/activa-vs-pasiva-ingles)
+- [Voz Pasiva en Inglés Académico: Cómo Escribir Como un Experto](/blog/gramatica/pasiva-ingles-textos-academicos)
+- [Voz Pasiva en Inglés para Leer Noticias: Estructuras Clave](/blog/gramatica/pasiva-ingles-noticias)
+- [Errores Comunes con la Voz Pasiva en Inglés y Cómo Evitarlos](/blog/gramatica/pasiva-ingles-errores-comunes)
+- [Ejercicios de Voz Pasiva en Inglés con Soluciones: Práctica Real](/blog/gramatica/ejercicios-voz-pasiva-ingles)
+- [Voz Pasiva Avanzada en Inglés: Guía Completa](/blog/gramatica/voz-pasiva-avanzada-guia)
+- [Voz Pasiva en Inglés: Guía Completa](/blog/gramatica/voz-pasiva-ingles-guia)

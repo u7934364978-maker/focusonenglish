@@ -1,6 +1,6 @@
 /**
  * Unidad 4 B2 — Lección 2: Vocabulario (Leisure activities)
- * 18 ejercicios (B2: más vocabulario y complejidad que B1)
+ * 18 ejercicios con casos distintos
  */
 
 import { Exercise } from '@/lib/exercise-generator';
@@ -9,8 +9,8 @@ const LESSON_TITLE = '[[Vocabulary|Vocabulario]]: [[Leisure activities|Actividad
 const INSTRUCTIONS = 'Elige la palabra o frase correcta.';
 
 export const UNIT_4_LESSON_2_VOCABULARY: Exercise[] = [
-  { id: 'b2-u4-l2-v1', type: 'multiple-choice', level: 'B2', topic: 'Leisure activities', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: INSTRUCTIONS, questions: [{ question: '[[An activity done for pleasure in free time|Actividad hecha por placer en tiempo libre]]:', options: ['[[hobby|hobby]]', '[[work|trabajo]]', '[[chore|tarea]]'], correctAnswer: 0 }] }, topicName: 'Vocabulary' },
-  { id: 'b2-u4-l2-v2', type: 'multiple-choice', level: 'B2', topic: 'Leisure activities', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: INSTRUCTIONS, questions: [{ question: '[[To start a new hobby or activity|Empezar un nuevo hobby o actividad]]:', options: ['[[take up|empezar]]', '[[give up|dejar]]', '[[take off|quitarse]]'], correctAnswer: 0 }] }, topicName: 'Vocabulary' },
+  { id: 'b2-u4-l2-v1', type: 'multiple-choice', level: 'B2', topic: 'Leisure activities', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: INSTRUCTIONS, questions: [{ question: '[[An activity done for fun in spare time|Actividad hecha por diversión en tiempo libre]]:', options: ['[[hobby|hobby]]', '[[work|trabajo]]', '[[chore|tarea]]'], correctAnswer: 0 }] }, topicName: 'Vocabulary' },
+  { id: 'b2-u4-l2-v2', type: 'multiple-choice', level: 'B2', topic: 'Leisure activities', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: INSTRUCTIONS, questions: [{ question: '[[To begin a new hobby or activity|Empezar un nuevo hobby o actividad]]:', options: ['[[take up|empezar]]', '[[give up|dejar]]', '[[take off|quitarse]]'], correctAnswer: 0 }] }, topicName: 'Vocabulary' },
   { id: 'b2-u4-l2-v3', type: 'multiple-choice', level: 'B2', topic: 'Leisure activities', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: INSTRUCTIONS, questions: [{ question: '[[To stop doing something|Dejar de hacer algo]]:', options: ['[[give up|dejar]]', '[[take up|empezar]]', '[[keep up|mantener]]'], correctAnswer: 0 }] }, topicName: 'Vocabulary' },
   { id: 'b2-u4-l2-v4', type: 'multiple-choice', level: 'B2', topic: 'Leisure activities', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: INSTRUCTIONS, questions: [{ question: '[[To rest and become calm|Descansar y calmarse]]:', options: ['[[relax|relajarse]]', '[[stress|estresarse]]', '[[rush|apurarse]]'], correctAnswer: 0 }] }, topicName: 'Vocabulary' },
   { id: 'b2-u4-l2-v5', type: 'multiple-choice', level: 'B2', topic: 'Leisure activities', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: INSTRUCTIONS, questions: [{ question: '[[To become less tense or stressed|Volverse menos tenso o estresado]]:', options: ['[[unwind|relajarse]]', '[[tense|tensar]]', '[[worry|preocuparse]]'], correctAnswer: 0 }] }, topicName: 'Vocabulary' },

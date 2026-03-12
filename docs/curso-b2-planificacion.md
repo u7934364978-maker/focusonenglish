@@ -7,6 +7,21 @@ Documento de referencia para el desarrollo del curso B2 de inglés, basado en:
 
 ---
 
+## Objetivos del nivel B2 — ¿Qué debe lograr el alumno?
+
+Al completar el curso B2, el alumno será capaz de:
+
+| Destreza | Descriptores CEFR B2 |
+|----------|----------------------|
+| **Comprensión lectora** | Entender textos largos y complejos (artículos, informes, literatura contemporánea). Captar opiniones, actitudes y tono implícito. |
+| **Comprensión auditiva** | Seguir discursos largos, conferencias y debates. Entender la mayoría de programas de TV y películas en estándar. |
+| **Expresión oral** | Interactuar con fluidez y espontaneidad. Participar activamente en debates. Exponer ventajas e inconvenientes. |
+| **Expresión escrita** | Escribir textos claros y detallados (ensayos, informes, cartas). Expresar opiniones y manejar distintos registros. |
+
+**Vocabulario activo:** ~4.000–5.000 palabras | **Gramática:** Uso consistente de estructuras complejas con buen control
+
+---
+
 ## Estructura del curso
 
 - **60 unidades** × **6 lecciones** cada una (igual que A1, A2 y B1)
@@ -90,6 +105,15 @@ Documento de referencia para el desarrollo del curso B2 de inglés, basado en:
 | Have something done | Causativa |
 | Impersonal passive | It is said that, He is said to |
 
+### Reported speech (estilo indirecto)
+| Tema | Descripción |
+|------|-------------|
+| Reported statements | Say, tell + that + cambio de tiempos |
+| Reported questions | Ask, wonder + if/whether, wh-words |
+| Reported commands/requests | Tell/ask + object + to-infinitive |
+| Reporting verbs | Suggest, recommend, advise, warn, promise |
+| Time and place changes | Now → then, here → there, today → that day |
+
 ### Adjetivos y adverbios
 | Tema | Descripción |
 |------|-------------|
@@ -152,36 +176,61 @@ Documento de referencia para el desarrollo del curso B2 de inglés, basado en:
 
 ---
 
-## 3. PHRASAL VERBS B2 (extensa — ~200 esenciales)
+## 3. PHRASAL VERBS B2 (extensa — ~120 esenciales para el curso)
 
-**BE:** be about to, be over, be on, be away, be back, be up to, be into  
-**BREAK:** break down, break up, break out, break into, break off  
-**BRING:** bring up, bring about, bring back, bring forward, bring out  
-**CARRY:** carry out, carry on, carry through  
-**COME:** come up with, come across, come back, come down with, come out  
-**GET:** get on, get off, get along, get over, get through, get away with  
-**GIVE:** give up, give in, give out, give away  
-**GO:** go on, go through, go off, go out, go over  
-**KEEP:** keep on, keep up, keep away  
-**LOOK:** look after, look for, look into, look forward to, look up  
-**MAKE:** make up, make out, make for  
-**PUT:** put off, put up with, put forward, put through  
-**RUN:** run out of, run into, run over  
-**SET:** set off, set up, set out  
-**TAKE:** take off, take on, take up, take care of  
-**TURN:** turn on, turn off, turn up, turn down  
-**WORK:** work out, work on  
-
-*(Ampliar con lista completa en implementación)*
+| Verbo base | Phrasal verbs | Significado principal |
+|------------|---------------|------------------------|
+| **BE** | be about to, be over, be on, be away, be back, be up to, be into | estar a punto de, haber terminado, estar de turno, etc. |
+| **BREAK** | break down, break up, break out, break into, break off | averiarse, romper, estallar, entrar por la fuerza, interrumpir |
+| **BRING** | bring up, bring about, bring back, bring forward, bring out | criar, causar, traer de vuelta, adelantar, sacar |
+| **CARRY** | carry out, carry on, carry through | realizar, continuar, llevar a cabo |
+| **COME** | come up with, come across, come back, come down with, come out | idear, encontrarse con, volver, enfermar, salir |
+| **DEAL** | deal with | tratar con, ocuparse de |
+| **FIND** | find out, find out about | descubrir, enterarse |
+| **GET** | get on, get off, get along, get over, get through, get away with, get round to | subir, bajar, llevarse bien, superar, pasar, salirse con la suya, llegar a |
+| **GIVE** | give up, give in, give out, give away | rendirse, ceder, repartir, regalar |
+| **GO** | go on, go through, go off, go out, go over, go ahead | continuar, pasar por, explotar, salir, repasar, adelante |
+| **KEEP** | keep on, keep up, keep away, keep up with | seguir, mantener, alejarse, mantenerse al día |
+| **LOOK** | look after, look for, look into, look forward to, look up, look up to | cuidar, buscar, investigar, esperar con ilusión, buscar, admirar |
+| **MAKE** | make up, make out, make for, make up for | inventar, distinguir, dirigirse a, compensar |
+| **PUT** | put off, put up with, put forward, put through | posponer, aguantar, proponer, poner (teléfono) |
+| **RUN** | run out of, run into, run over | quedarse sin, encontrarse con, atropellar |
+| **SET** | set off, set up, set out | partir, establecer, emprender |
+| **TAKE** | take off, take on, take up, take care of, take place | despegar, asumir, empezar, cuidar, tener lugar |
+| **TURN** | turn on, turn off, turn up, turn down | encender, apagar, subir, bajar |
+| **WORK** | work out, work on | resolver, ejercitarse, trabajar en |
+| **CALL** | call off, call back | cancelar, devolver llamada |
+| **FILL** | fill in, fill out | rellenar |
+| **HAND** | hand in, hand out | entregar, repartir |
+| **PICK** | pick up | recoger, aprender |
+| **POINT** | point out | señalar |
+| **SPEAK** | speak up | hablar más alto |
+| **TRY** | try on, try out | probarse, probar |
 
 ---
 
 ## 4. COLOCACIONES B2
 
-- **Verb + noun:** make a decision, take a break, do research, have an impact  
-- **Adjective + noun:** strong coffee, heavy rain, deep sleep, sharp increase  
-- **Adverb + adjective:** deeply concerned, highly likely, fully aware  
-- **Expresiones fijas:** pay attention, take place, make sense, play a role  
+- **Verb + noun:** make a decision, take a break, do research, have an impact, reach a conclusion, draw a conclusion, raise awareness, meet a deadline
+- **Adjective + noun:** strong coffee, heavy rain, deep sleep, sharp increase, major concern, key factor, vital role, significant impact
+- **Adverb + adjective:** deeply concerned, highly likely, fully aware, bitterly disappointed, strongly recommend, widely known
+- **Expresiones fijas:** pay attention, take place, make sense, play a role, take into account, get in touch, keep in mind
+
+---
+
+## 4b. EXPRESIONES Y CONECTORES B2
+
+| Función | Expresiones |
+|---------|-------------|
+| **Contraste** | although, though, however, nevertheless, despite, in spite of, whereas, on the other hand, while |
+| **Razón** | because, because of, due to, owing to, thanks to, on account of |
+| **Propósito** | in order to, so that, so as to, for the purpose of |
+| **Resultado** | so, such... that, as a result, consequently, therefore, thus |
+| **Adición** | moreover, furthermore, in addition, besides, what is more |
+| **Secuencia** | first, second, then, next, finally, eventually, in the end |
+| **Condición** | as long as, provided that, unless, in case, on condition that |
+| **Opinión** | in my view, from my point of view, I firmly believe, it seems to me |
+| **Ejemplo** | for instance, for example, such as, in particular |
 
 ---
 
@@ -347,7 +396,51 @@ La evaluación en B2 amplía el peso de las destrezas productivas y receptivas r
 
 ---
 
-## 10. REFERENCIAS
+## 10. CHECKLIST DEL ALUMNO — ¿Qué debo dominar al terminar B2?
+
+### Gramática
+- [ ] Todos los tiempos verbales (present, past, future, perfect) con precisión
+- [ ] Condicionales: zero, first, second, third y mixed
+- [ ] Wish / If only / Would rather / It's time
+- [ ] Gerundio vs infinitivo (verbos que cambian significado)
+- [ ] Cláusulas de participio (-ing, -ed)
+- [ ] Voz pasiva (todos los tiempos) + have something done + impersonal passive
+- [ ] Reported speech (statements, questions, commands, reporting verbs)
+- [ ] Modales y deducción (must have, might have, can't have)
+- [ ] Oraciones de relativo (defining, non-defining, reducción)
+- [ ] So, such, too, enough
+- [ ] Linkers de contraste, razón, propósito, resultado
+- [ ] Artículos y cuantificadores avanzados
+
+### Vocabulario
+- [ ] ~120 phrasal verbs esenciales B2
+- [ ] Colocaciones (verb + noun, adjective + noun)
+- [ ] 20 temas de vocabulario con profundidad
+- [ ] Expresiones fijas y conectores
+
+### Destrezas
+- [ ] Leer textos largos (400–600 palabras) con comprensión
+- [ ] Escuchar monólogos y conversaciones de 3–4 minutos
+- [ ] Escribir essay, article, report, review (140–190 palabras)
+- [ ] Participar en debates y expresar opiniones fundamentadas
+
+---
+
+## 11. RESUMEN NUMÉRICO DEL CURSO
+
+| Concepto | Cantidad |
+|----------|-----------|
+| Unidades totales | 60 |
+| Lecciones por unidad | 6 |
+| Ejercicios por lección | 18 |
+| Ejercicios por unidad | 108 |
+| Ejercicios totales del curso | 6.480 |
+| Unidades de repaso | 6 (5, 15, 25, 35, 45, 55) |
+| Unidades de contenido nuevo | 54 |
+
+---
+
+## 12. REFERENCIAS
 
 - [Cambridge B2 First Handbook (PDF)](https://www.cambridgeenglish.org/Images/167791-b2-first-handbook.pdf)
 - [FCE Grammar Contents - Danidiomas](https://www.danidiomas.com/fce-b2-grammar-contents/)
