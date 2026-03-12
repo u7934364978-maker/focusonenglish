@@ -27,8 +27,8 @@ export const UNIT_14_LESSON_1_GRAMMAR: Exercise[] = [
           type: 'fill-blank',
           question:
             '[[The CEO ____ received the report by now. I sent it to her email an hour ago.|La directora ____ debe haber recibido el informe ya. Se lo envié a su correo hace una hora.]]',
-          options: ['[[must have|debe haber]]', '[[might have|podría haber]]', ["[[can't have|no puede haber]]"],
-          correctAnswer: '[[must have|debe haber]]',
+          options: [`[[must have|debe haber]]`, `[[might have|podría haber]]`, `[[can't have|no puede haber]]`],
+          correctAnswer: `[[must have|debe haber]]`,
           acceptableAnswers: ['[[must have|debe haber]]'],
           explanation:
             'Certeza lógica: envié el informe hace una hora, así que es muy probable que lo haya recibido.',
@@ -54,9 +54,9 @@ export const UNIT_14_LESSON_1_GRAMMAR: Exercise[] = [
           type: 'fill-blank',
           question:
             "[[She ____ missed the meeting. I saw her in the conference room at 9 am.|Ella ____ no puede haber faltado a la reunión. La vi en la sala de conferencias a las 9.]]",
-          options: ["[[can't have|no puede haber]]", '[[must have|debe haber]]', '[[might have|podría haber]]'],
-          correctAnswer: "[[can't have|no puede haber]]",
-          acceptableAnswers: ["[[can't have|no puede haber]]"],
+          options: [`[[can't have|no puede haber]]`, `[[must have|debe haber]]`, `[[might have|podría haber]]`],
+          correctAnswer: `[[can't have|no puede haber]]`,
+          acceptableAnswers: [`[[can't have|no puede haber]]`],
           explanation:
             'Imposibilidad: la vi en la sala de reuniones a las 9, así que no pudo haber faltado.',
           points: 2,
@@ -127,16 +127,16 @@ export const UNIT_14_LESSON_1_GRAMMAR: Exercise[] = [
     content: {
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS,
-      grammarPoint: "[[can't have|no puede haber]] para imposibilidad",
+      grammarPoint: `[[can't have|no puede haber]] para imposibilidad`,
       questions: [
         {
           id: 'g5-q1',
           type: 'fill-blank',
           question:
             '[[He ____ forgotten about the presentation. He prepared it for three weeks.|Él ____ no puede haber olvidado la presentación. La preparó durante tres semanas.]]',
-          options: ["[[can't have|no puede haber]]", '[[must have|debe haber]]', '[[might have|podría haber]]'],
-          correctAnswer: "[[can't have|no puede haber]]",
-          acceptableAnswers: ["[[can't have|no puede haber]]"],
+          options: [`[[can't have|no puede haber]]`, `[[must have|debe haber]]`, `[[might have|podría haber]]`],
+          correctAnswer: `[[can't have|no puede haber]]`,
+          acceptableAnswers: [`[[can't have|no puede haber]]`],
           explanation:
             'Imposibilidad: si lo preparó durante tres semanas, es imposible que lo haya olvidado.',
           points: 2,
@@ -188,8 +188,8 @@ export const UNIT_14_LESSON_1_GRAMMAR: Exercise[] = [
           type: 'fill-blank',
           question:
             '[[Someone ____ left the office door open. All the documents are scattered on the floor.|Alguien ____ debe haber dejado la puerta de la oficina abierta. Todos los documentos están dispersos por el suelo.]]',
-          options: ['[[must have|debe haber]]', '[[might have|podría haber]]', "[[can't have|no puede haber]]"],
-          correctAnswer: '[[must have|debe haber]]',
+          options: [`[[must have|debe haber]]`, `[[might have|podría haber]]`, `[[can't have|no puede haber]]`],
+          correctAnswer: `[[must have|debe haber]]`,
           acceptableAnswers: ['[[must have|debe haber]]'],
           explanation:
             'Certeza: los documentos desordenados indican que alguien dejó la puerta abierta.',
@@ -234,16 +234,16 @@ export const UNIT_14_LESSON_1_GRAMMAR: Exercise[] = [
     content: {
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS,
-      grammarPoint: "[[can't have + past participle|can't have + participio pasado]]",
+      grammarPoint: `[[can't have + past participle|can't have + participio pasado]]`,
       questions: [
         {
           id: 'g9-q1',
           type: 'fill-blank',
           question:
             '[[They ____ signed the contract yet. The lawyers are still reviewing the terms.|Ellos ____ no pueden haber firmado el contrato aún. Los abogados siguen revisando los términos.]]',
-          options: ["[[can't have|no pueden haber]]", '[[must have|deben haber]]', '[[might have|podrían haber]]'],
-          correctAnswer: "[[can't have|no pueden haber]]",
-          acceptableAnswers: ["[[can't have|no pueden haber]]"],
+          options: [`[[can't have|no pueden haber]]`, `[[must have|deben haber]]`, `[[might have|podrían haber]]`],
+          correctAnswer: `[[can't have|no pueden haber]]`,
+          acceptableAnswers: [`[[can't have|no pueden haber]]`],
           explanation:
             'Imposibilidad: si los abogados siguen revisando, no pueden haber firmado.',
           points: 2,
@@ -268,8 +268,8 @@ export const UNIT_14_LESSON_1_GRAMMAR: Exercise[] = [
           type: 'fill-blank',
           question:
             "[[The sales team ____ exceeded their targets. They're celebrating in the office.|El equipo de ventas ____ debe haber superado sus objetivos. Están celebrando en la oficina.]]",
-          options: ['[[must have|debe haber]]', '[[might have|podría haber]]', "[[can't have|no puede haber]]"],
-          correctAnswer: '[[must have|debe haber]]',
+          options: [`[[must have|debe haber]]`, `[[might have|podría haber]]`, `[[can't have|no puede haber]]`],
+          correctAnswer: `[[must have|debe haber]]`,
           acceptableAnswers: ['[[must have|debe haber]]'],
           explanation:
             'Certeza: si están celebrando, es lógico que hayan superado los objetivos.',
@@ -321,9 +321,9 @@ export const UNIT_14_LESSON_1_GRAMMAR: Exercise[] = [
           type: 'fill-blank',
           question:
             "[[She ____ resigned. She's the most dedicated employee we have.|Ella ____ no puede haber dimitido. Es la empleada más dedicada que tenemos.]]",
-          options: ["[[can't have|no puede haber]]", '[[must have|debe haber]]', '[[might have|podría haber]]'],
-          correctAnswer: "[[can't have|no puede haber]]",
-          acceptableAnswers: ["[[can't have|no puede haber]]"],
+          options: [`[[can't have|no puede haber]]`, `[[must have|debe haber]]`, `[[might have|podría haber]]`],
+          correctAnswer: `[[can't have|no puede haber]]`,
+          acceptableAnswers: [`[[can't have|no puede haber]]`],
           explanation:
             'Imposibilidad: siendo la empleada más dedicada, es difícil creer que haya dimitido.',
           points: 2,
@@ -348,8 +348,8 @@ export const UNIT_14_LESSON_1_GRAMMAR: Exercise[] = [
           type: 'fill-blank',
           question:
             '[[The competitor ____ launched a new product. Their market share has increased significantly.|El competidor ____ debe haber lanzado un nuevo producto. Su cuota de mercado ha aumentado significativamente.]]',
-          options: ['[[must have|debe haber]]', '[[might have|podría haber]]', "[[can't have|no puede haber]]"],
-          correctAnswer: '[[must have|debe haber]]',
+          options: [`[[must have|debe haber]]`, `[[might have|podría haber]]`, `[[can't have|no puede haber]]`],
+          correctAnswer: `[[must have|debe haber]]`,
           acceptableAnswers: ['[[must have|debe haber]]'],
           explanation:
             'Certeza: el aumento de cuota de mercado sugiere que han lanzado algo nuevo.',
@@ -394,16 +394,16 @@ export const UNIT_14_LESSON_1_GRAMMAR: Exercise[] = [
     content: {
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS,
-      grammarPoint: "[[can't have + past participle|can't have + participio pasado]]",
+      grammarPoint: `[[can't have + past participle|can't have + participio pasado]]`,
       questions: [
         {
           id: 'g15-q1',
           type: 'fill-blank',
           question:
             '[[He ____ forgotten the password. He uses it every single day.|Él ____ no puede haber olvidado la contraseña. La usa todos los días.]]',
-          options: ["[[can't have|no puede haber]]", '[[must have|debe haber]]', '[[might have|podría haber]]'],
-          correctAnswer: "[[can't have|no puede haber]]",
-          acceptableAnswers: ["[[can't have|no puede haber]]"],
+          options: [`[[can't have|no puede haber]]`, `[[must have|debe haber]]`, `[[might have|podría haber]]`],
+          correctAnswer: `[[can't have|no puede haber]]`,
+          acceptableAnswers: [`[[can't have|no puede haber]]`],
           explanation:
             'Imposibilidad: si lo usa diariamente, es muy improbable que lo haya olvidado.',
           points: 2,
@@ -474,15 +474,15 @@ export const UNIT_14_LESSON_1_GRAMMAR: Exercise[] = [
     content: {
       title: LESSON_TITLE,
       instructions: INSTRUCTIONS,
-      grammarPoint: '[[Resumen|Resumen]]: [[must have|debe haber]] / [[might have|podría haber]] / [[can\'t have|no puede haber]]',
+      grammarPoint: `[[Resumen|Resumen]]: [[must have|debe haber]] / [[might have|podría haber]] / [[can't have|no puede haber]]`,
       questions: [
         {
           id: 'g18-q1',
           type: 'fill-blank',
           question:
             '[[The new manager ____ made a good impression. Everyone seems much more motivated now.|El nuevo director ____ debe haber causado buena impresión. Todo el mundo parece mucho más motivado ahora.]]',
-          options: ['[[must have|debe haber]]', '[[might have|podría haber]]', "[[can't have|no puede haber]]"],
-          correctAnswer: '[[must have|debe haber]]',
+          options: [`[[must have|debe haber]]`, `[[might have|podría haber]]`, `[[can't have|no puede haber]]`],
+          correctAnswer: `[[must have|debe haber]]`,
           acceptableAnswers: ['[[must have|debe haber]]'],
           explanation:
             'Certeza: la mejora en la motivación indica que el nuevo manager ha causado buena impresión.',

@@ -230,7 +230,7 @@ export const UNIT_20_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla en voz alta: compara una comida o restaurante usando so, such, too y enough.',
       prompt:
-        '[[Compare two meals or restaurants|Compara dos comidas o restaurantes]]. [[Use so/such/too/enough|Usa tan/tal/demasiado/suficiente]] ([[e.g.|e.g.]] "[[The first was so good that...|El primero era tan bueno que...]]", "[[The second had too much...|El segundo tenía demasiado...]]", "[[It wasn't fresh enough...|No estaba lo bastante fresco...]]").',
+        `[[Compare two meals or restaurants|Compara dos comidas o restaurantes]]. [[Use so/such/too/enough|Usa tan/tal/demasiado/suficiente]] ([[e.g.|e.g.]] "[[The first was so good that...|El primero era tan bueno que...]]", "[[The second had too much...|El segundo tenía demasiado...]]", "[[It wasn't fresh enough...|No estaba lo bastante fresco...]]").`,
       targetLevel: 'B2',
       writingType: 'essay',
     },
