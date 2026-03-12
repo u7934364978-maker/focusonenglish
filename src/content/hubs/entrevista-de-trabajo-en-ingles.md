@@ -98,6 +98,14 @@ Después de la entrevista, envía un **Thank You Note** (por email) en las prime
 
 Dominar una entrevista de trabajo en inglés es una habilidad que se entrena. No se trata de tener una gramática perfecta, sino de ser capaz de comunicar tu valor de forma clara y profesional.
 
-En **Focus English**, nos especializamos en ayudar a profesionales a superar esta barrera. A través de nuestros simulacros de entrevista y sesiones de coaching, preparamos a nuestros alumnos para que consigan el puesto de sus sueños en empresas como Google, Amazon o startups tecnológicas líderes.
+En **Focus English**, te damos los recursos y el vocabulario para que puedas comunicar tu valor con claridad y confianza, independientemente de tu nivel actual.
 
-**¿Estás listo para el siguiente paso?** Explora nuestros recursos sobre "business english phrases" y "cv en inglés ejemplos" para completar tu preparación.
+**¿Listo para el siguiente paso?** Explora nuestros cursos y recursos para completar tu preparación.
+
+---
+
+## 📚 Profundiza más
+
+- [Cómo preparar una entrevista de trabajo en inglés paso a paso](/blog/trabajo/preparar-entrevista-trabajo-ingles)
+- [Preguntas difíciles en entrevistas en inglés y cómo responderlas](/blog/trabajo/preguntas-dificiles-entrevista-trabajo-ingles)
+- [Job Interview English: técnicas avanzadas para candidatos B2-C1](/blog/trabajo/job-interview-english-consejos-avanzados)

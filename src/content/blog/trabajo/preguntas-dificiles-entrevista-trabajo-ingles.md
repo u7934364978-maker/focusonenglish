@@ -147,3 +147,5 @@ Ningún artículo puede sustituir la práctica real. Estas son las preguntas má
 Practica con un compañero, grábate en vídeo o contacta con nuestros profesores especializados en **[inglés para entrevistas de trabajo](/cuenta/registro?plan=work)** para simulacros personalizados con feedback real.
 
 [👉 Transforma tu inglés en tu mayor ventaja competitiva. ¡Reserva tu primera clase de prueba!](/cuenta/registro?plan=work)
+
+Descubre más recursos en nuestra [guía completa de entrevistas de trabajo en inglés](/hubs/entrevista-de-trabajo-en-ingles).
