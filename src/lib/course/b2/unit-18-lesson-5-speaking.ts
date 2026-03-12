@@ -8,22 +8,300 @@ import { Exercise } from '@/lib/exercise-generator';
 const LESSON_TITLE = '[[Speaking|Expresión oral]]';
 
 export const UNIT_18_LESSON_5_SPEAKING: Exercise[] = [
-  { id: 'b2-u18-l5-s1', type: 'pronunciation', level: 'B2', topic: 'Food and drink', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[1|1]].', expectedResponse: 'Practice sentence 1.' }, topicName: 'Speaking' },
-  { id: 'b2-u18-l5-s2', type: 'pronunciation', level: 'B2', topic: 'Food and drink', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[2|2]].', expectedResponse: 'Practice sentence 2.' }, topicName: 'Speaking' },
-  { id: 'b2-u18-l5-s3', type: 'pronunciation', level: 'B2', topic: 'Food and drink', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[3|3]].', expectedResponse: 'Practice sentence 3.' }, topicName: 'Speaking' },
-  { id: 'b2-u18-l5-s4', type: 'pronunciation', level: 'B2', topic: 'Food and drink', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[4|4]].', expectedResponse: 'Practice sentence 4.' }, topicName: 'Speaking' },
-  { id: 'b2-u18-l5-s5', type: 'pronunciation', level: 'B2', topic: 'Food and drink', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[5|5]].', expectedResponse: 'Practice sentence 5.' }, topicName: 'Speaking' },
-  { id: 'b2-u18-l5-s6', type: 'pronunciation', level: 'B2', topic: 'Food and drink', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[6|6]].', expectedResponse: 'Practice sentence 6.' }, topicName: 'Speaking' },
-  { id: 'b2-u18-l5-s7', type: 'pronunciation', level: 'B2', topic: 'Food and drink', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[7|7]].', expectedResponse: 'Practice sentence 7.' }, topicName: 'Speaking' },
-  { id: 'b2-u18-l5-s8', type: 'pronunciation', level: 'B2', topic: 'Food and drink', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[8|8]].', expectedResponse: 'Practice sentence 8.' }, topicName: 'Speaking' },
-  { id: 'b2-u18-l5-s9', type: 'pronunciation', level: 'B2', topic: 'Food and drink', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[9|9]].', expectedResponse: 'Practice sentence 9.' }, topicName: 'Speaking' },
-  { id: 'b2-u18-l5-s10', type: 'pronunciation', level: 'B2', topic: 'Food and drink', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[10|10]].', expectedResponse: 'Practice sentence 10.' }, topicName: 'Speaking' },
-  { id: 'b2-u18-l5-s11', type: 'pronunciation', level: 'B2', topic: 'Food and drink', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[11|11]].', expectedResponse: 'Practice sentence 11.' }, topicName: 'Speaking' },
-  { id: 'b2-u18-l5-s12', type: 'pronunciation', level: 'B2', topic: 'Food and drink', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[12|12]].', expectedResponse: 'Practice sentence 12.' }, topicName: 'Speaking' },
-  { id: 'b2-u18-l5-s13', type: 'pronunciation', level: 'B2', topic: 'Food and drink', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[13|13]].', expectedResponse: 'Practice sentence 13.' }, topicName: 'Speaking' },
-  { id: 'b2-u18-l5-s14', type: 'pronunciation', level: 'B2', topic: 'Food and drink', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[14|14]].', expectedResponse: 'Practice sentence 14.' }, topicName: 'Speaking' },
-  { id: 'b2-u18-l5-s15', type: 'pronunciation', level: 'B2', topic: 'Food and drink', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Di en voz alta sobre el tema.', targetText: '[[Speak|Habla]] [[about|sobre]] [[the topic|el tema]].', expectedResponse: 'Speak about the topic.' }, topicName: 'Speaking' },
-  { id: 'b2-u18-l5-s16', type: 'pronunciation', level: 'B2', topic: 'Food and drink', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Di en voz alta sobre el tema.', targetText: '[[Speak|Habla]] [[about|sobre]] [[the topic|el tema]].', expectedResponse: 'Speak about the topic.' }, topicName: 'Speaking' },
-  { id: 'b2-u18-l5-s17', type: 'pronunciation', level: 'B2', topic: 'Food and drink', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Habla en voz alta: describe en 2-3 frases el tema.', targetText: '____. ____. ____.', expectedResponse: 'Describe the topic in 2-3 sentences.' }, topicName: 'Speaking' },
-  { id: 'b2-u18-l5-s18', type: 'pronunciation', level: 'B2', topic: 'Food and drink', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Habla en voz alta: describe en 2-3 frases el tema.', targetText: '____. ____. ____.', expectedResponse: 'Describe the topic in 2-3 sentences.' }, topicName: 'Speaking' },
+  {
+    id: 'b2-u18-l5-s1',
+    type: 'pronunciation',
+    level: 'B2',
+    topic: 'Food and drink',
+    difficulty: 'medium',
+    content: {
+      title: LESSON_TITLE,
+      instructions: 'Escucha la frase y repítela en voz alta.',
+      targetText:
+        '[[The pasta|La pasta]] [[was|era]] [[so delicious|tan deliciosa]] [[that|que]] [[I had|tuve]] [[a second helping|una segunda ración]].',
+      expectedResponse:
+        'The pasta was so delicious that I had a second helping.',
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'b2-u18-l5-s2',
+    type: 'pronunciation',
+    level: 'B2',
+    topic: 'Food and drink',
+    difficulty: 'medium',
+    content: {
+      title: LESSON_TITLE,
+      instructions: 'Escucha y repite en voz alta.',
+      targetText:
+        '[[It was|Fue]] [[such a good meal|tan buena comida]] [[that|que]] [[we stayed|nos quedamos]] [[for dessert|para el postre]].',
+      expectedResponse:
+        'It was such a good meal that we stayed for dessert.',
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'b2-u18-l5-s3',
+    type: 'pronunciation',
+    level: 'B2',
+    topic: 'Food and drink',
+    difficulty: 'medium',
+    content: {
+      title: LESSON_TITLE,
+      instructions: 'Escucha y repite en voz alta.',
+      targetText:
+        '[[The soup|La sopa]] [[was|estaba]] [[too hot|demasiado caliente]] [[to eat|para comer]] [[without|sin]] [[waiting|esperar]] [[for it to cool down|a que se enfriara]].',
+      expectedResponse:
+        'The soup was too hot to eat without waiting for it to cool down.',
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'b2-u18-l5-s4',
+    type: 'pronunciation',
+    level: 'B2',
+    topic: 'Food and drink',
+    difficulty: 'medium',
+    content: {
+      title: LESSON_TITLE,
+      instructions: 'Escucha y repite en voz alta.',
+      targetText:
+        '[[The cake|La tarta]] [[wasn\'t|no era]] [[sweet enough|lo bastante dulce]] [[for my taste|para mi gusto]].',
+      expectedResponse:
+        "The cake wasn't sweet enough for my taste.",
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'b2-u18-l5-s5',
+    type: 'pronunciation',
+    level: 'B2',
+    topic: 'Food and drink',
+    difficulty: 'medium',
+    content: {
+      title: LESSON_TITLE,
+      instructions: 'Escucha y repite en voz alta.',
+      targetText:
+        '[[There were|Había]] [[so many choices|tantas opciones]] [[on the menu|en el menú]] [[that|que]] [[I couldn\'t decide|no pude decidir]].',
+      expectedResponse:
+        "There were so many choices on the menu that I couldn't decide.",
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'b2-u18-l5-s6',
+    type: 'pronunciation',
+    level: 'B2',
+    topic: 'Food and drink',
+    difficulty: 'medium',
+    content: {
+      title: LESSON_TITLE,
+      instructions: 'Escucha y repite en voz alta.',
+      targetText:
+        '[[The restaurant had|El restaurante tenía]] [[so much salt|demasiada sal]] [[in the food|en la comida]] [[that|que]] [[I was thirsty|tuve sed]] [[all night|toda la noche]].',
+      expectedResponse:
+        'The restaurant had so much salt in the food that I was thirsty all night.',
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'b2-u18-l5-s7',
+    type: 'pronunciation',
+    level: 'B2',
+    topic: 'Food and drink',
+    difficulty: 'medium',
+    content: {
+      title: LESSON_TITLE,
+      instructions: 'Escucha y repite en voz alta.',
+      targetText:
+        '[[The coffee|El café]] [[was|era]] [[too strong|demasiado fuerte]] [[to drink|para beber]] [[without milk|sin leche]].',
+      expectedResponse:
+        'The coffee was too strong to drink without milk.',
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'b2-u18-l5-s8',
+    type: 'pronunciation',
+    level: 'B2',
+    topic: 'Food and drink',
+    difficulty: 'medium',
+    content: {
+      title: LESSON_TITLE,
+      instructions: 'Escucha y repite en voz alta.',
+      targetText:
+        '[[We didn\'t have|No tuvimos]] [[enough time|suficiente tiempo]] [[to order dessert|para pedir postre]]. [[The restaurant|El restaurante]] [[was closing|estaba cerrando]].',
+      expectedResponse:
+        "We didn't have enough time to order dessert. The restaurant was closing.",
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'b2-u18-l5-s9',
+    type: 'pronunciation',
+    level: 'B2',
+    topic: 'Food and drink',
+    difficulty: 'medium',
+    content: {
+      title: LESSON_TITLE,
+      instructions: 'Lee en voz alta y céntrate en la entonación.',
+      targetText:
+        '[[The portion|La porción]] [[was|era]] [[big enough|lo bastante grande]] [[to share|para compartir]] [[between two people|entre dos personas]].',
+      expectedResponse:
+        'The portion was big enough to share between two people.',
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'b2-u18-l5-s10',
+    type: 'pronunciation',
+    level: 'B2',
+    topic: 'Food and drink',
+    difficulty: 'medium',
+    content: {
+      title: LESSON_TITLE,
+      instructions: 'Lee en voz alta y usa énfasis en las palabras clave.',
+      targetText:
+        '[[There were|Había]] [[so few vegetarian options|tan pocas opciones vegetarianas]] [[that|que]] [[I had to ask|tuve que pedir]] [[for something special|algo especial]].',
+      expectedResponse:
+        'There were so few vegetarian options that I had to ask for something special.',
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'b2-u18-l5-s11',
+    type: 'speaking',
+    level: 'B2',
+    topic: 'Food and drink',
+    difficulty: 'medium',
+    content: {
+      title: LESSON_TITLE,
+      instructions:
+        'Habla durante 1–2 minutos: describe una experiencia en un restaurante usando so, such, too y enough.',
+      prompt:
+        'Describe a restaurant experience. Use:\n- so + adjective (e.g. so delicious)\n- such a + noun (e.g. such a good meal)\n- too + adjective (e.g. too salty)\n- enough (e.g. big enough to share)',
+      targetLevel: 'B2',
+      writingType: 'description',
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'b2-u18-l5-s12',
+    type: 'speaking',
+    level: 'B2',
+    topic: 'Food and drink',
+    difficulty: 'medium',
+    content: {
+      title: LESSON_TITLE,
+      instructions:
+        'Habla durante 1–2 minutos: da tu opinión sobre la comida saludable vs la comida rápida.',
+      prompt:
+        'What do you think about healthy eating versus fast food? Consider:\n- taste and convenience\n- cost\n- health effects',
+      targetLevel: 'B2',
+      writingType: 'essay',
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'b2-u18-l5-s13',
+    type: 'speaking',
+    level: 'B2',
+    topic: 'Food and drink',
+    difficulty: 'medium',
+    content: {
+      title: LESSON_TITLE,
+      instructions:
+        'Responde en voz alta: describe tu plato favorito usando so, such o enough.',
+      prompt:
+        'Describe your favourite dish. Use at least two of: so + adjective, such a + noun, or enough.',
+      targetLevel: 'B2',
+      writingType: 'description',
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'b2-u18-l5-s14',
+    type: 'speaking',
+    level: 'B2',
+    topic: 'Food and drink',
+    difficulty: 'medium',
+    content: {
+      title: LESSON_TITLE,
+      instructions:
+        'Habla en voz alta: explica las ventajas y desventajas de comer en restaurantes vs cocinar en casa.',
+      prompt:
+        'Discuss the pros and cons of eating out versus cooking at home. Consider:\n- cost\n- time\n- quality and variety',
+      targetLevel: 'B2',
+      writingType: 'essay',
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'b2-u18-l5-s15',
+    type: 'speaking',
+    level: 'B2',
+    topic: 'Food and drink',
+    difficulty: 'medium',
+    content: {
+      title: LESSON_TITLE,
+      instructions:
+        'Practica expresiones útiles para hablar de comida. Di en voz alta 3–4 frases con cada una.',
+      prompt:
+        'Use these expressions in your own sentences:\n- place an order\n- book a table\n- have a sweet tooth\n- portion size',
+      targetLevel: 'B2',
+      writingType: 'description',
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'b2-u18-l5-s16',
+    type: 'speaking',
+    level: 'B2',
+    topic: 'Food and drink',
+    difficulty: 'medium',
+    content: {
+      title: LESSON_TITLE,
+      instructions:
+        'Habla en voz alta: recomienda un restaurante a un amigo que visita tu ciudad.',
+      prompt:
+        'Recommend a restaurant to a friend. Mention:\n- what type of food it serves\n- why you like it (use so/such)\n- any drawbacks (use too/enough if relevant)',
+      targetLevel: 'B2',
+      writingType: 'article',
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'b2-u18-l5-s17',
+    type: 'speaking',
+    level: 'B2',
+    topic: 'Food and drink',
+    difficulty: 'medium',
+    content: {
+      title: LESSON_TITLE,
+      instructions:
+        'Habla durante 1–2 minutos: compara la cocina de tu país con la de otro país.',
+      prompt:
+        'Compare the cuisine of your country with that of another country. Use so, such, too and enough where appropriate.',
+      targetLevel: 'B2',
+      writingType: 'description',
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'b2-u18-l5-s18',
+    type: 'speaking',
+    level: 'B2',
+    topic: 'Food and drink',
+    difficulty: 'medium',
+    content: {
+      title: LESSON_TITLE,
+      instructions:
+        'Responde en voz alta: ¿qué hace que una comida sea memorable para ti?',
+      prompt:
+        'What makes a meal memorable for you? Use so, such, too or enough in your answer (e.g. "The service was so good that...").',
+      targetLevel: 'B2',
+      writingType: 'essay',
+    },
+    topicName: 'Speaking',
+  },
 ];

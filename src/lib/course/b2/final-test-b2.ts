@@ -32,7 +32,7 @@ export const FINAL_TEST_B2_EXERCISES: Exercise[] = [
       title: TITLE,
       instructions: INSTRUCTIONS_GRAMMAR,
       questions: [{
-        question: '[[I wish|Ojalá]] [[I|yo]] ____ ____ ____ ____ [[more time|más tiempo]] [[when|cuando]] [[I|yo]] [[was|estaba]] [[at university|en la universidad]].',
+        question: '[[I wish|Ojalá]] [[I|yo]] ____[[more time|más tiempo]] [[when|cuando]] [[I|yo]] [[was|estaba]] [[at university|en la universidad]].',
         options: ['[[had had|hubiera tenido]]', '[[had|tenía]]', '[[have had|he tenido]]'],
         correctAnswer: 'had had',
         acceptableAnswers: ['had had'],
@@ -51,7 +51,7 @@ export const FINAL_TEST_B2_EXERCISES: Exercise[] = [
       title: TITLE,
       instructions: INSTRUCTIONS_GRAMMAR,
       questions: [{
-        question: '[[The project|El proyecto]] ____ ____ ____ ____ ____ [[by|por]] [[the team|el equipo]] [[last month|el mes pasado]].',
+        question: '[[The project|El proyecto]] ____[[by|por]] [[the team|el equipo]] [[last month|el mes pasado]].',
         options: ['[[was completed|fue completado]]', '[[has completed|ha completado]]', '[[completed|completó]]'],
         correctAnswer: 'was completed',
         acceptableAnswers: ['was completed'],
@@ -88,7 +88,7 @@ export const FINAL_TEST_B2_EXERCISES: Exercise[] = [
       title: TITLE,
       instructions: INSTRUCTIONS_GRAMMAR,
       questions: [{
-        question: '[[If|Si]] [[she|ella]] ____ ____ ____ ____ [[harder|más duro]] [[last year|el año pasado]], [[she|ella]] ____ ____ ____ ____ [[the exam|el examen]] [[now|ahora]].',
+        question: '[[If|Si]] [[she|ella]] ____[[harder|más duro]] [[last year|el año pasado]], [[she|ella]] ____[[the exam|el examen]] [[now|ahora]].',
         options: ['[[had studied|hubiera estudiado]]', '[[studied|estudió]]', '[[would study|estudiaría]]'],
         correctAnswer: 'had studied',
         acceptableAnswers: ['had studied'],
@@ -107,7 +107,7 @@ export const FINAL_TEST_B2_EXERCISES: Exercise[] = [
       title: TITLE,
       instructions: INSTRUCTIONS_GRAMMAR,
       questions: [{
-        question: '[[It is said that|Se dice que]] [[he|él]] ____ ____ ____ ____ ____ [[the best|el mejor]] [[candidate|candidato]] [[for the job|para el puesto]].',
+        question: '[[It is said that|Se dice que]] [[he|él]] ____[[the best|el mejor]] [[candidate|candidato]] [[for the job|para el puesto]].',
         options: ['[[is|es]]', '[[was|era]]', '[[has been|ha sido]]'],
         correctAnswer: 'is',
         acceptableAnswers: ['is'],
@@ -126,7 +126,7 @@ export const FINAL_TEST_B2_EXERCISES: Exercise[] = [
       title: TITLE,
       instructions: INSTRUCTIONS_GRAMMAR,
       questions: [{
-        question: '[[I|Yo]] ____ ____ ____ ____ ____ [[rather|más bien]] [[stay|quedarme]] [[at home|en casa]] [[tonight|esta noche]].',
+        question: '[[I|Yo]] ____[[rather|más bien]] [[stay|quedarme]] [[at home|en casa]] [[tonight|esta noche]].',
         options: ['[[would|prefiero]]', '[[had better|más vale]]', '[[ought to|debería]]'],
         correctAnswer: 0,
         explanation: '[[Would rather|Preferiría]] [[for preferences|para preferencias]].',
@@ -144,7 +144,7 @@ export const FINAL_TEST_B2_EXERCISES: Exercise[] = [
       title: TITLE,
       instructions: INSTRUCTIONS_GRAMMAR,
       questions: [{
-        question: '[[Despite|A pesar de]] ____ ____ ____ ____ ____ ____ [[the weather|el tiempo]], [[we|nosotros]] [[had|tuvimos]] [[a great time|un gran momento]].',
+        question: '[[Despite|A pesar de]] ____[[the weather|el tiempo]], [[we|nosotros]] [[had|tuvimos]] [[a great time|un gran momento]].',
         options: ['[[the|el]]', '[[a|un]]', '[[an|un]]'],
         correctAnswer: 'the',
         acceptableAnswers: ['the'],
@@ -163,7 +163,7 @@ export const FINAL_TEST_B2_EXERCISES: Exercise[] = [
       title: TITLE,
       instructions: INSTRUCTIONS_GRAMMAR,
       questions: [{
-        question: '[[She|Ella]] ____ ____ ____ ____ ____ ____ ____ ____ [[regret|arrepentirse]] [[not applying|no solicitar]] [[for the scholarship|la beca]].',
+        question: '[[She|Ella]] ____[[regret|arrepentirse]] [[not applying|no solicitar]] [[for the scholarship|la beca]].',
         options: ['[[regrets|se arrepiente de]]', '[[regret|arrepentirse]]', '[[regretted|se arrepintió de]]'],
         correctAnswer: 0,
         explanation: '[[Regret + gerund|Regret + gerundio]] [[for past actions|para acciones pasadas]].',

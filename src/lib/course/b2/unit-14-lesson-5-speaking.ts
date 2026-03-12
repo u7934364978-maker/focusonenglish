@@ -8,22 +8,300 @@ import { Exercise } from '@/lib/exercise-generator';
 const LESSON_TITLE = '[[Speaking|Expresión oral]]';
 
 export const UNIT_14_LESSON_5_SPEAKING: Exercise[] = [
-  { id: 'b2-u14-l5-s1', type: 'pronunciation', level: 'B2', topic: 'Business', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[1|1]].', expectedResponse: 'Practice sentence 1.' }, topicName: 'Speaking' },
-  { id: 'b2-u14-l5-s2', type: 'pronunciation', level: 'B2', topic: 'Business', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[2|2]].', expectedResponse: 'Practice sentence 2.' }, topicName: 'Speaking' },
-  { id: 'b2-u14-l5-s3', type: 'pronunciation', level: 'B2', topic: 'Business', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[3|3]].', expectedResponse: 'Practice sentence 3.' }, topicName: 'Speaking' },
-  { id: 'b2-u14-l5-s4', type: 'pronunciation', level: 'B2', topic: 'Business', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[4|4]].', expectedResponse: 'Practice sentence 4.' }, topicName: 'Speaking' },
-  { id: 'b2-u14-l5-s5', type: 'pronunciation', level: 'B2', topic: 'Business', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[5|5]].', expectedResponse: 'Practice sentence 5.' }, topicName: 'Speaking' },
-  { id: 'b2-u14-l5-s6', type: 'pronunciation', level: 'B2', topic: 'Business', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[6|6]].', expectedResponse: 'Practice sentence 6.' }, topicName: 'Speaking' },
-  { id: 'b2-u14-l5-s7', type: 'pronunciation', level: 'B2', topic: 'Business', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[7|7]].', expectedResponse: 'Practice sentence 7.' }, topicName: 'Speaking' },
-  { id: 'b2-u14-l5-s8', type: 'pronunciation', level: 'B2', topic: 'Business', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[8|8]].', expectedResponse: 'Practice sentence 8.' }, topicName: 'Speaking' },
-  { id: 'b2-u14-l5-s9', type: 'pronunciation', level: 'B2', topic: 'Business', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[9|9]].', expectedResponse: 'Practice sentence 9.' }, topicName: 'Speaking' },
-  { id: 'b2-u14-l5-s10', type: 'pronunciation', level: 'B2', topic: 'Business', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[10|10]].', expectedResponse: 'Practice sentence 10.' }, topicName: 'Speaking' },
-  { id: 'b2-u14-l5-s11', type: 'pronunciation', level: 'B2', topic: 'Business', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[11|11]].', expectedResponse: 'Practice sentence 11.' }, topicName: 'Speaking' },
-  { id: 'b2-u14-l5-s12', type: 'pronunciation', level: 'B2', topic: 'Business', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[12|12]].', expectedResponse: 'Practice sentence 12.' }, topicName: 'Speaking' },
-  { id: 'b2-u14-l5-s13', type: 'pronunciation', level: 'B2', topic: 'Business', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[13|13]].', expectedResponse: 'Practice sentence 13.' }, topicName: 'Speaking' },
-  { id: 'b2-u14-l5-s14', type: 'pronunciation', level: 'B2', topic: 'Business', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[Practice|Practica]] [[sentence|frase]] [[14|14]].', expectedResponse: 'Practice sentence 14.' }, topicName: 'Speaking' },
-  { id: 'b2-u14-l5-s15', type: 'pronunciation', level: 'B2', topic: 'Business', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Di en voz alta sobre el tema.', targetText: '[[Speak|Habla]] [[about|sobre]] [[the topic|el tema]].', expectedResponse: 'Speak about the topic.' }, topicName: 'Speaking' },
-  { id: 'b2-u14-l5-s16', type: 'pronunciation', level: 'B2', topic: 'Business', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Di en voz alta sobre el tema.', targetText: '[[Speak|Habla]] [[about|sobre]] [[the topic|el tema]].', expectedResponse: 'Speak about the topic.' }, topicName: 'Speaking' },
-  { id: 'b2-u14-l5-s17', type: 'pronunciation', level: 'B2', topic: 'Business', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Habla en voz alta: describe en 2-3 frases el tema.', targetText: '____. ____. ____.', expectedResponse: 'Describe the topic in 2-3 sentences.' }, topicName: 'Speaking' },
-  { id: 'b2-u14-l5-s18', type: 'pronunciation', level: 'B2', topic: 'Business', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Habla en voz alta: describe en 2-3 frases el tema.', targetText: '____. ____. ____.', expectedResponse: 'Describe the topic in 2-3 sentences.' }, topicName: 'Speaking' },
+  {
+    id: 'b2-u14-l5-s1',
+    type: 'pronunciation',
+    level: 'B2',
+    topic: 'Business',
+    difficulty: 'medium',
+    content: {
+      title: LESSON_TITLE,
+      instructions: 'Escucha la frase y repítela en voz alta.',
+      targetText:
+        '[[The CEO|El director ejecutivo]] [[must have received|debe haber recibido]] [[the report|el informe]] [[by now|para ahora]].',
+      expectedResponse:
+        'The CEO must have received the report by now.',
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'b2-u14-l5-s2',
+    type: 'pronunciation',
+    level: 'B2',
+    topic: 'Business',
+    difficulty: 'medium',
+    content: {
+      title: LESSON_TITLE,
+      instructions: 'Escucha y repite en voz alta.',
+      targetText:
+        '[[She|Ella]] [[can\'t have missed|no puede haber faltado]] [[the meeting|a la reunión]] [[because|porque]] [[I saw her|la vi]] [[in the office|en la oficina]].',
+      expectedResponse:
+        "She can't have missed the meeting because I saw her in the office.",
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'b2-u14-l5-s3',
+    type: 'pronunciation',
+    level: 'B2',
+    topic: 'Business',
+    difficulty: 'medium',
+    content: {
+      title: LESSON_TITLE,
+      instructions: 'Escucha y repite en voz alta.',
+      targetText:
+        '[[The deal|El acuerdo]] [[might have fallen through|podría haberse roto]] [[since|ya que]] [[they haven\'t responded|no han respondido]] [[for a week|desde hace una semana]].',
+      expectedResponse:
+        "The deal might have fallen through since they haven't responded for a week.",
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'b2-u14-l5-s4',
+    type: 'pronunciation',
+    level: 'B2',
+    topic: 'Business',
+    difficulty: 'medium',
+    content: {
+      title: LESSON_TITLE,
+      instructions: 'Escucha y repite en voz alta.',
+      targetText:
+        '[[The company|La empresa]] [[must have made|debe haber tomado]] [[excellent decisions|excelentes decisiones]] [[to double|para duplicar]] [[their profits|sus beneficios]].',
+      expectedResponse:
+        'The company must have made excellent decisions to double their profits.',
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'b2-u14-l5-s5',
+    type: 'pronunciation',
+    level: 'B2',
+    topic: 'Business',
+    difficulty: 'medium',
+    content: {
+      title: LESSON_TITLE,
+      instructions: 'Escucha y repite en voz alta.',
+      targetText:
+        '[[He|Él]] [[can\'t have forgotten|no puede haber olvidado]] [[the presentation|la presentación]] [[after|después de]] [[preparing it for three weeks|prepararla durante tres semanas]].',
+      expectedResponse:
+        "He can't have forgotten the presentation after preparing it for three weeks.",
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'b2-u14-l5-s6',
+    type: 'pronunciation',
+    level: 'B2',
+    topic: 'Business',
+    difficulty: 'medium',
+    content: {
+      title: LESSON_TITLE,
+      instructions: 'Escucha y repite en voz alta.',
+      targetText:
+        '[[The investors|Los inversores]] [[must have been impressed|deben haberse quedado impresionados]] [[to increase|para aumentar]] [[their funding|su financiación]].',
+      expectedResponse:
+        'The investors must have been impressed to increase their funding.',
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'b2-u14-l5-s7',
+    type: 'pronunciation',
+    level: 'B2',
+    topic: 'Business',
+    difficulty: 'medium',
+    content: {
+      title: LESSON_TITLE,
+      instructions: 'Escucha y repite en voz alta.',
+      targetText:
+        '[[The sales team|El equipo de ventas]] [[must have exceeded|debe haber superado]] [[their targets|sus objetivos]] [[because|porque]] [[they\'re celebrating|están celebrando]].',
+      expectedResponse:
+        "The sales team must have exceeded their targets because they're celebrating.",
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'b2-u14-l5-s8',
+    type: 'pronunciation',
+    level: 'B2',
+    topic: 'Business',
+    difficulty: 'medium',
+    content: {
+      title: LESSON_TITLE,
+      instructions: 'Escucha y repite en voz alta.',
+      targetText:
+        '[[They|Ellos]] [[can\'t have signed|no pueden haber firmado]] [[the contract|el contrato]] [[yet|aún]] [[since|ya que]] [[the lawyers|los abogados]] [[are still reviewing|siguen revisando]] [[the terms|los términos]].',
+      expectedResponse:
+        "They can't have signed the contract yet since the lawyers are still reviewing the terms.",
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'b2-u14-l5-s9',
+    type: 'pronunciation',
+    level: 'B2',
+    topic: 'Business',
+    difficulty: 'medium',
+    content: {
+      title: LESSON_TITLE,
+      instructions: 'Lee en voz alta y céntrate en la entonación.',
+      targetText:
+        '[[The merger|La fusión]] [[might have been delayed|podría haberse retrasado]] [[but|pero]] [[we haven\'t received|no hemos recibido]] [[official confirmation|confirmación oficial]].',
+      expectedResponse:
+        "The merger might have been delayed but we haven't received official confirmation.",
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'b2-u14-l5-s10',
+    type: 'pronunciation',
+    level: 'B2',
+    topic: 'Business',
+    difficulty: 'medium',
+    content: {
+      title: LESSON_TITLE,
+      instructions: 'Lee en voz alta y usa énfasis en las palabras clave.',
+      targetText:
+        '[[Someone|Alguien]] [[must have left|debe haber dejado]] [[the door open|la puerta abierta]] [[because|porque]] [[all the documents|todos los documentos]] [[are scattered|están dispersos]] [[on the floor|por el suelo]].',
+      expectedResponse:
+        'Someone must have left the door open because all the documents are scattered on the floor.',
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'b2-u14-l5-s11',
+    type: 'speaking',
+    level: 'B2',
+    topic: 'Business',
+    difficulty: 'medium',
+    content: {
+      title: LESSON_TITLE,
+      instructions:
+        'Habla durante 1–2 minutos: describe una situación empresarial usando deducciones (must have, might have, can\'t have).',
+      prompt:
+        'Describe a business situation where something went wrong or right. Use modal verbs of deduction to speculate:\n- What must have happened?\n- What might have caused it?\n- What can\'t have been the case?',
+      targetLevel: 'B2',
+      writingType: 'description',
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'b2-u14-l5-s12',
+    type: 'speaking',
+    level: 'B2',
+    topic: 'Business',
+    difficulty: 'medium',
+    content: {
+      title: LESSON_TITLE,
+      instructions:
+        'Habla durante 1–2 minutos: da tu opinión sobre qué hace que una empresa tenga éxito.',
+      prompt:
+        'What do you think makes a business successful? Consider:\n- strategy and planning\n- market research\n- funding and investors\n- competition',
+      targetLevel: 'B2',
+      writingType: 'essay',
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'b2-u14-l5-s13',
+    type: 'speaking',
+    level: 'B2',
+    topic: 'Business',
+    difficulty: 'medium',
+    content: {
+      title: LESSON_TITLE,
+      instructions:
+        'Responde en voz alta: especula sobre por qué una empresa conocida fracasó o tuvo problemas.',
+      prompt:
+        'Think of a well-known company that failed or had serious problems. Use modal verbs of deduction to speculate: What must have gone wrong? What might they have done differently?',
+      targetLevel: 'B2',
+      writingType: 'description',
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'b2-u14-l5-s14',
+    type: 'speaking',
+    level: 'B2',
+    topic: 'Business',
+    difficulty: 'medium',
+    content: {
+      title: LESSON_TITLE,
+      instructions:
+        'Habla en voz alta: explica las ventajas y desventajas de una fusión empresarial.',
+      prompt:
+        'Discuss the pros and cons of a merger between two companies. Consider:\n- market share and competition\n- job security for employees\n- funding and expansion',
+      targetLevel: 'B2',
+      writingType: 'essay',
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'b2-u14-l5-s15',
+    type: 'speaking',
+    level: 'B2',
+    topic: 'Business',
+    difficulty: 'medium',
+    content: {
+      title: LESSON_TITLE,
+      instructions:
+        'Practica expresiones útiles para hablar de negocios. Di en voz alta 3–4 frases con cada una.',
+      prompt:
+        'Use these expressions in your own sentences:\n- reach a deal\n- meet targets\n- market share\n- conduct market research',
+      targetLevel: 'B2',
+      writingType: 'description',
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'b2-u14-l5-s16',
+    type: 'speaking',
+    level: 'B2',
+    topic: 'Business',
+    difficulty: 'medium',
+    content: {
+      title: LESSON_TITLE,
+      instructions:
+        'Habla en voz alta: convence a un inversor de apoyar tu idea de negocio.',
+      prompt:
+        'Pitch a business idea to an imaginary investor. Mention:\n- what your product or service is\n- why it will succeed\n- what funding you need\n- what the investor will gain',
+      targetLevel: 'B2',
+      writingType: 'article',
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'b2-u14-l5-s17',
+    type: 'speaking',
+    level: 'B2',
+    topic: 'Business',
+    difficulty: 'medium',
+    content: {
+      title: LESSON_TITLE,
+      instructions:
+        'Habla durante 1–2 minutos: compara trabajar en una startup vs una gran empresa.',
+      prompt:
+        'Compare working for a startup versus a large corporation. Consider:\n- job security\n- opportunities for growth\n- work environment\n- salary and benefits',
+      targetLevel: 'B2',
+      writingType: 'description',
+    },
+    topicName: 'Speaking',
+  },
+  {
+    id: 'b2-u14-l5-s18',
+    type: 'speaking',
+    level: 'B2',
+    topic: 'Business',
+    difficulty: 'medium',
+    content: {
+      title: LESSON_TITLE,
+      instructions:
+        'Responde en voz alta: ¿qué harías si fueras CEO de una empresa en crisis?',
+      prompt:
+        'If you were the CEO of a company in crisis, what would you do? Use modal verbs of deduction to speculate about what might have caused the problems and what must be done to fix them.',
+      targetLevel: 'B2',
+      writingType: 'essay',
+    },
+    topicName: 'Speaking',
+  },
 ];
