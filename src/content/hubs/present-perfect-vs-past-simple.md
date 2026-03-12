@@ -103,6 +103,21 @@ Si has buscado "difference between present perfect and past simple" o "ejemplos 
 
 ## Conclusión: El Tiempo es Relativo (en Inglés)
 
-El Past Simple y el Present Perfect no son solo reglas gramaticales; son formas de organizar tu realidad. El primero te permite archivar eventos en el pasado, mientras que el segundo te permite conectar tus experiencias pasadas con tu yo actual.
+El Past Simple y el Present Perfect no son solo reglas gramaticales; son formas de organizar tu realidad. El primero archiva eventos en el pasado; el segundo conecta esas experiencias con el momento presente.
 
-En **Focus English**, dedicamos sesiones específicas a estos tiempos en nuestros cursos de gramática, ya que su uso correcto es vital para entrevistas de trabajo y presentaciones donde debes hablar de tu trayectoria. Sigue practicando y verás cómo, poco a poco, dejarás de pensar en español y empezarás a sentir la diferencia temporal del inglés.
+Con práctica y exposición al inglés real, la elección entre los dos tiempos empieza a ser cada vez más automática.
+
+---
+
+## 📚 Profundiza más
+
+- [Present Perfect: Los 4 Usos que Necesitas Dominar](/blog/gramatica/present-perfect-usos-principales)
+- [Past Simple: Cuándo Usarlo y Cómo Formarlo Correctamente](/blog/gramatica/past-simple-usos-reglas)
+- [Since vs For: Cuándo Usar Cada Uno con el Present Perfect](/blog/gramatica/present-perfect-since-for)
+- [Just, Already y Yet: Uso con el Present Perfect](/blog/gramatica/present-perfect-just-already-yet)
+- [Ever y Never: Uso con el Present Perfect y Diferencias](/blog/gramatica/present-perfect-ever-never)
+- [Verbos Irregulares en Inglés: Lista Completa para el Past Simple](/blog/gramatica/past-simple-verbos-irregulares)
+- [Present Perfect Continuous: Cuándo Usarlo y en Qué Se Diferencia del Simple](/blog/gramatica/present-perfect-continuous)
+- [Past Simple vs Past Continuous: Diferencia y Cuándo Usar Cada Uno](/blog/gramatica/past-simple-vs-past-continuous)
+- [Past Perfect en Inglés: Cuándo Usarlo y por Qué lo Necesitas](/blog/gramatica/past-perfect-ingles)
+- [Los Errores con los Tiempos de Pasado que Cometen los Hispanohablantes](/blog/gramatica/errores-tiempos-pasado-espanoles)
