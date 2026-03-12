@@ -1,274 +1,30 @@
 /**
- * Unidad 12 B2 — Lección 1: Gramática (Relative clauses (reducción, omisión))
- * 18 ejercicios (B2: más vocabulario y complejidad que B1)
+ * Unidad 12 B2 — Lección 1: Gramática (Reduced relative clauses)
+ * 18 ejercicios (B2: recreado con casos distintos)
  */
 
 import { Exercise } from '@/lib/exercise-generator';
 
-const LESSON_TITLE = '[[Grammar|Gramática]]: [[Reduced relative clauses|Reduced relative clauses]]';
-const INSTRUCTIONS =
-  'Elige la opción correcta o reescribe la frase usando una cláusula de relativo reducida (participle clause u omisión del relativo).';
+const LESSON_TITLE = '[[Grammar|Gramática]]: [[Reduced relative clauses|Cláusulas de relativo reducidas]]';
+const INSTRUCTIONS = 'Elige la forma reducida correcta o completa el espacio.';
 
 export const UNIT_12_LESSON_1_GRAMMAR: Exercise[] = [
-  {
-    id: 'b2-u12-l1-g1',
-    type: 'grammar',
-    level: 'B2',
-    topic: 'Relative clauses (reducción, omisión)',
-    difficulty: 'medium',
-    content: {
-      title: LESSON_TITLE,
-      instructions: INSTRUCTIONS,
-      grammarPoint: 'Reduced relative clauses with -ing / -ed participles',
-      questions: [
-        {
-          id: 'g1-q1',
-          type: 'multiple-choice',
-          question:
-            'The actor ____ in the new series is from my hometown.',
-          options: [
-            'who is starring',
-            'starring',
-            'who starring',
-          ],
-          correctAnswer: 'starring',
-          explanation:
-            'La forma reducida de "the actor who is starring in the new series" es "the actor starring in the new series".',
-          points: 2,
-        },
-        {
-          id: 'g1-q2',
-          type: 'multiple-choice',
-          question:
-            'The scenes ____ in the desert were the most spectacular.',
-          options: [
-            'which were filmed',
-            'filmed',
-            'filming',
-          ],
-          correctAnswer: 'filmed',
-          explanation:
-            'Podemos reducir "the scenes which were filmed in the desert" a "the scenes filmed in the desert".',
-          points: 2,
-        },
-      ],
-    },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'b2-u12-l1-g2',
-    type: 'grammar',
-    level: 'B2',
-    topic: 'Relative clauses (reducción, omisión)',
-    difficulty: 'medium',
-    content: {
-      title: LESSON_TITLE,
-      instructions: 'Reescribe usando una cláusula de relativo reducida.',
-      grammarPoint: 'Reducción de "who is / which is" a participio',
-      questions: [
-        {
-          id: 'g2-q1',
-          type: 'sentence-completion',
-          question:
-            'Rewrite: "The documentary which is shown late at night explores social media addiction."\nStart with: "The documentary..."',
-          correctAnswer:
-            'The documentary shown late at night explores social media addiction.',
-          acceptableAnswers: [
-            'The documentary, shown late at night, explores social media addiction.',
-          ],
-          explanation:
-            'El relativo "which is" se puede reducir dejando solo el participio "shown".',
-          points: 3,
-        },
-      ],
-    },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'b2-u12-l1-g3',
-    type: 'grammar',
-    level: 'B2',
-    topic: 'Relative clauses (reducción, omisión)',
-    difficulty: 'medium',
-    content: {
-      title: LESSON_TITLE,
-      instructions:
-        'Completa con la forma reducida correcta (-ing / -ed) o la oración completa si no es posible reducir.',
-      grammarPoint: 'Cuándo se puede y cuándo no se puede reducir',
-      questions: [
-        {
-          id: 'g3-q1',
-          type: 'fill-blank',
-          question:
-            'The fans ____ outside the cinema were waiting for the premiere.',
-          options: [
-            'who were standing',
-            'standing',
-            'stood',
-          ],
-          correctAnswer: 'standing',
-          acceptableAnswers: ['standing'],
-          explanation:
-            'Podemos reducir "fans who were standing" a "fans standing".',
-          points: 2,
-        },
-      ],
-    },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'b2-u12-l1-g4',
-    type: 'grammar',
-    level: 'B2',
-    topic: 'Relative clauses (reducción, omisión)',
-    difficulty: 'medium',
-    content: {
-      title: LESSON_TITLE,
-      instructions: 'Elige la opción con reducción de relativo correcta.',
-      grammarPoint: 'Comparar versión completa vs reducida',
-      questions: [
-        {
-          id: 'g4-q1',
-          type: 'multiple-choice',
-          question:
-            'Which sentence is correct?',
-          options: [
-            'The series winning several awards has just been released on streaming platforms.',
-            'The series won several awards has just been released on streaming platforms.',
-            'The series which winning several awards has just been released on streaming platforms.',
-          ],
-          correctAnswer:
-            'The series winning several awards has just been released on streaming platforms.',
-          explanation:
-            'La forma reducida es "series winning several awards" (de "which won / which is winning").',
-          points: 2,
-        },
-      ],
-    },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'b2-u12-l1-g5',
-    type: 'grammar',
-    level: 'B2',
-    topic: 'Relative clauses (reducción, omisión)',
-    difficulty: 'medium',
-    content: {
-      title: LESSON_TITLE,
-      instructions:
-        'Transforma las oraciones largas en una sola usando cláusulas de relativo reducidas relacionadas con cine / series.',
-      grammarPoint: 'Reducción en contexto de entretenimiento',
-      questions: [
-        {
-          id: 'g5-q1',
-          type: 'sentence-completion',
-          question:
-            'The actor is very famous. He appears in the film.\nWrite ONE sentence with a reduced relative clause.',
-          correctAnswer:
-            'The actor appearing in the film is very famous.',
-          acceptableAnswers: [
-            'The actor, appearing in the film, is very famous.',
-          ],
-          explanation:
-            '"Who appears in the film" se puede reducir a "appearing in the film".',
-          points: 3,
-        },
-      ],
-    },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'b2-u12-l1-g6',
-    type: 'grammar',
-    level: 'B2',
-    topic: 'Relative clauses (reducción, omisión)',
-    difficulty: 'medium',
-    content: {
-      title: LESSON_TITLE,
-      instructions:
-        'Marca la frase donde NO es posible omitir el relativo.',
-      grammarPoint: 'Omisión del relativo solo cuando es objeto',
-      questions: [
-        {
-          id: 'g6-q1',
-          type: 'multiple-choice',
-          question:
-            'In which sentence can the relative pronoun NOT be omitted?',
-          options: [
-            'The actor who plays the villain is British.',
-            'The film (which) we watched last night was hilarious.',
-            'The show (that) you recommended was amazing.',
-          ],
-          correctAnswer:
-            'The actor who plays the villain is British.',
-          explanation:
-            'Aquí "who" es sujeto de la cláusula ("who plays"), por eso no se puede omitir.',
-          points: 2,
-        },
-      ],
-    },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'b2-u12-l1-g7',
-    type: 'grammar',
-    level: 'B2',
-    topic: 'Relative clauses (reducción, omisión)',
-    difficulty: 'medium',
-    content: {
-      title: LESSON_TITLE,
-      instructions:
-        'Completa las frases con la versión reducida adecuada.',
-      grammarPoint: 'Práctica guiada de reducción',
-      questions: [
-        {
-          id: 'g7-q1',
-          type: 'fill-blank',
-          question:
-            'The tickets ____ online are cheaper than the ones at the cinema.',
-          options: [
-            'bought',
-            'which bought',
-            'buying',
-          ],
-          correctAnswer: 'bought',
-          acceptableAnswers: ['bought'],
-          explanation:
-            'Reducción de "tickets which are bought online" → "tickets bought online".',
-          points: 2,
-        },
-      ],
-    },
-    topicName: 'Grammar',
-  },
-  {
-    id: 'b2-u12-l1-g8',
-    type: 'grammar',
-    level: 'B2',
-    topic: 'Relative clauses (reducción, omisión)',
-    difficulty: 'medium',
-    content: {
-      title: LESSON_TITLE,
-      instructions:
-        'Une las frases sobre series usando cláusulas de relativo reducidas.',
-      grammarPoint: 'Reducción con -ing/-ed en contexto de series',
-      questions: [
-        {
-          id: 'g8-q1',
-          type: 'sentence-completion',
-          question:
-            'This is a series. It was filmed in several different countries.\nWrite ONE sentence.',
-          correctAnswer:
-            'This is a series filmed in several different countries.',
-          acceptableAnswers: [
-            'This is a series which was filmed in several different countries.',
-          ],
-          explanation:
-            '"which was filmed" puede reducirse a "filmed".',
-          points: 3,
-        },
-      ],
-    },
-    topicName: 'Grammar',
-  },
+  { id: 'b2-u12-l1-g1', type: 'fill-blank', level: 'B2', topic: 'Relative clauses (reducción, omisión)', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: INSTRUCTIONS, questions: [{ question: '[[The singer|La cantante]] ____ [[on stage right now|en el escenario ahora mismo]] [[is about to release|está a punto de lanzar]] [[a new album|un nuevo álbum]].', options: ['[[performing|actuando]]', '[[performed|actuada]]', '[[who performing|quien actuando]]'], correctAnswer: 'performing', acceptableAnswers: ['performing'], explanation: '[[Reduced from "who is performing"|Reducido de "who is performing"]] [[to -ing participle|a participio -ing]].' }] }, topicName: 'Grammar' },
+  { id: 'b2-u12-l1-g2', type: 'multiple-choice', level: 'B2', topic: 'Relative clauses (reducción, omisión)', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: INSTRUCTIONS, questions: [{ question: '[[The film|La película]] ____ [[in Spain|en España]] [[won several awards|ganó varios premios]].', options: ['[[filmed|rodada]]', '[[filming|rodando]]', '[[which filmed|que rodada]]'], correctAnswer: 0, explanation: '[[Reduced from "which was filmed"|Reducido de "which was filmed"]] [[to -ed participle|a participio -ed]].' }] }, topicName: 'Grammar' },
+  { id: 'b2-u12-l1-g3', type: 'fill-blank', level: 'B2', topic: 'Relative clauses (reducción, omisión)', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: INSTRUCTIONS, questions: [{ question: '[[The audience|El público]] ____ [[for the show|para el espectáculo]] [[was very excited|estaba muy emocionado]].', options: ['[[waiting|esperando]]', '[[waited|esperado]]', '[[who waited|quien esperó]]'], correctAnswer: 'waiting', acceptableAnswers: ['waiting'], explanation: '[[Reduced from "who were waiting"|Reducido de "who were waiting"]].' }] }, topicName: 'Grammar' },
+  { id: 'b2-u12-l1-g4', type: 'multiple-choice', level: 'B2', topic: 'Relative clauses (reducción, omisión)', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: INSTRUCTIONS, questions: [{ question: '[[The documentary|El documental]] ____ [[last night|anoche]] [[was fascinating|fue fascinante]].', options: ['[[shown|mostrado]]', '[[showing|mostrando]]', '[[which shown|que mostrado]]'], correctAnswer: 0, explanation: '[[Reduced from "which was shown"|Reducido de "which was shown"]].' }] }, topicName: 'Grammar' },
+  { id: 'b2-u12-l1-g5', type: 'fill-blank', level: 'B2', topic: 'Relative clauses (reducción, omisión)', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: INSTRUCTIONS, questions: [{ question: '[[The actors|Los actores]] ____ [[in the play|en la obra]] [[received standing ovations|recibieron ovaciones]].', options: ['[[appearing|que aparecen]]', '[[appeared|aparecidos]]', '[[who appear|quien aparecen]]'], correctAnswer: 'appearing', acceptableAnswers: ['appearing'], explanation: '[[Reduced from "who appear"|Reducido de "who appear"]].' }] }, topicName: 'Grammar' },
+  { id: 'b2-u12-l1-g6', type: 'multiple-choice', level: 'B2', topic: 'Relative clauses (reducción, omisión)', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: INSTRUCTIONS, questions: [{ question: '[[The tickets|Las entradas]] ____ [[online|online]] [[are cheaper|son más baratas]].', options: ['[[bought|compradas]]', '[[buying|comprando]]', '[[which bought|que compradas]]'], correctAnswer: 0, explanation: '[[Reduced from "which are bought"|Reducido de "which are bought"]].' }] }, topicName: 'Grammar' },
+  { id: 'b2-u12-l1-g7', type: 'fill-blank', level: 'B2', topic: 'Relative clauses (reducción, omisión)', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: INSTRUCTIONS, questions: [{ question: '[[The series|La serie]] ____ [[several awards|varios premios]] [[has become very popular|se ha vuelto muy popular]].', options: ['[[winning|ganando]]', '[[won|ganada]]', '[[which winning|que ganando]]'], correctAnswer: 'winning', acceptableAnswers: ['winning'], explanation: '[[Reduced from "which won"|Reducido de "which won"]].' }] }, topicName: 'Grammar' },
+  { id: 'b2-u12-l1-g8', type: 'multiple-choice', level: 'B2', topic: 'Relative clauses (reducción, omisión)', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: INSTRUCTIONS, questions: [{ question: '[[In which sentence|En qué oración]] [[can the relative pronoun NOT be omitted|NO se puede omitir el relativo]]?', options: ['[[The director who made this film is famous.|El director que hizo esta película es famoso.]]', '[[The film (that) we saw was great.|La película (que) vimos fue genial.]]', '[[The show (which) you recommended was amazing.|El programa (que) recomendaste fue increíble.]]'], correctAnswer: 0, explanation: '[[When relative is subject|Cuando el relativo es sujeto]] [[it cannot be omitted|no se puede omitir]].' }] }, topicName: 'Grammar' },
+  { id: 'b2-u12-l1-g9', type: 'fill-blank', level: 'B2', topic: 'Relative clauses (reducción, omisión)', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: INSTRUCTIONS, questions: [{ question: '[[The concert|El concierto]] ____ [[at the stadium|en el estadio]] [[sold out in minutes|se agotó en minutos]].', options: ['[[held|celebrado]]', '[[holding|celebrando]]', '[[which held|que celebrado]]'], correctAnswer: 'held', acceptableAnswers: ['held'], explanation: '[[Reduced from "which was held"|Reducido de "which was held"]].' }] }, topicName: 'Grammar' },
+  { id: 'b2-u12-l1-g10', type: 'multiple-choice', level: 'B2', topic: 'Relative clauses (reducción, omisión)', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: INSTRUCTIONS, questions: [{ question: '[[The comedian|El cómico]] ____ [[at the club|en el club]] [[is very talented|es muy talentoso]].', options: ['[[performing|actuando]]', '[[performed|actuado]]', '[[who performed|quien actuó]]'], correctAnswer: 0, explanation: '[[Reduced from "who is performing"|Reducido de "who is performing"]].' }] }, topicName: 'Grammar' },
+  { id: 'b2-u12-l1-g11', type: 'fill-blank', level: 'B2', topic: 'Relative clauses (reducción, omisión)', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: INSTRUCTIONS, questions: [{ question: '[[The script|El guion]] ____ [[by the director|por el director]] [[was praised by critics|fue elogiado por críticos]].', options: ['[[written|escrito]]', '[[writing|escribiendo]]', '[[which written|que escrito]]'], correctAnswer: 'written', acceptableAnswers: ['written'], explanation: '[[Reduced from "which was written"|Reducido de "which was written"]].' }] }, topicName: 'Grammar' },
+  { id: 'b2-u12-l1-g12', type: 'multiple-choice', level: 'B2', topic: 'Relative clauses (reducción, omisión)', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: INSTRUCTIONS, questions: [{ question: '[[The episodes|Los episodios]] ____ [[last week|la semana pasada]] [[were the best of the season|fueron los mejores de la temporada]].', options: ['[[released|estrenados]]', '[[releasing|estrenando]]', '[[which released|que estrenados]]'], correctAnswer: 0, explanation: '[[Reduced from "which were released"|Reducido de "which were released"]].' }] }, topicName: 'Grammar' },
+  { id: 'b2-u12-l1-g13', type: 'fill-blank', level: 'B2', topic: 'Relative clauses (reducción, omisión)', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: INSTRUCTIONS, questions: [{ question: '[[The band|La banda]] ____ [[in the 1990s|en los 90]] [[reformed last year|se reformó el año pasado]].', options: ['[[formed|formada]]', '[[forming|formando]]', '[[which formed|que formada]]'], correctAnswer: 'formed', acceptableAnswers: ['formed'], explanation: '[[Reduced from "which was formed"|Reducido de "which was formed"]].' }] }, topicName: 'Grammar' },
+  { id: 'b2-u12-l1-g14', type: 'multiple-choice', level: 'B2', topic: 'Relative clauses (reducción, omisión)', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: INSTRUCTIONS, questions: [{ question: '[[The audience|El público]] ____ [[in the front row|en la primera fila]] [[could see everything|podía verlo todo]].', options: ['[[sitting|sentado]]', '[[sat|sentado]]', '[[who sat|quien sentó]]'], correctAnswer: 0, explanation: '[[Reduced from "who were sitting"|Reducido de "who were sitting"]].' }] }, topicName: 'Grammar' },
+  { id: 'b2-u12-l1-g15', type: 'fill-blank', level: 'B2', topic: 'Relative clauses (reducción, omisión)', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: INSTRUCTIONS, questions: [{ question: '[[The soundtrack|La banda sonora]] ____ [[by a famous composer|por un compositor famoso]] [[won an Oscar|ganó un Oscar]].', options: ['[[composed|compuesta]]', '[[composing|componiendo]]', '[[which composed|que compuesta]]'], correctAnswer: 'composed', acceptableAnswers: ['composed'], explanation: '[[Reduced from "which was composed"|Reducido de "which was composed"]].' }] }, topicName: 'Grammar' },
+  { id: 'b2-u12-l1-g16', type: 'multiple-choice', level: 'B2', topic: 'Relative clauses (reducción, omisión)', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: INSTRUCTIONS, questions: [{ question: '[[The festival|El festival]] ____ [[every summer|cada verano]] [[attracts thousands|atrae miles]].', options: ['[[held|celebrado]]', '[[holding|celebrando]]', '[[which holding|que celebrando]]'], correctAnswer: 0, explanation: '[[Reduced from "which is held"|Reducido de "which is held"]].' }] }, topicName: 'Grammar' },
+  { id: 'b2-u12-l1-g17', type: 'fill-blank', level: 'B2', topic: 'Relative clauses (reducción, omisión)', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: INSTRUCTIONS, questions: [{ question: '[[The dancers|Los bailarines]] ____ [[the ballet|el ballet]] [[received standing ovations|recibieron ovaciones]].', options: ['[[performing|que interpretaban]]', '[[performed|interpretado]]', '[[who performing|quien interpretando]]'], correctAnswer: 'performing', acceptableAnswers: ['performing'], explanation: '[[Reduced from "who were performing"|Reducido de "who were performing"]].' }] }, topicName: 'Grammar' },
+  { id: 'b2-u12-l1-g18', type: 'multiple-choice', level: 'B2', topic: 'Relative clauses (reducción, omisión)', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: INSTRUCTIONS, questions: [{ question: '[[The venue|El lugar]] ____ [[for the concert|para el concierto]] [[has a capacity of 20,000|tiene capacidad para 20.000]].', options: ['[[chosen|elegido]]', '[[choosing|eligiendo]]', '[[which chosen|que elegido]]'], correctAnswer: 0, explanation: '[[Reduced from "which was chosen"|Reducido de "which was chosen"]].' }] }, topicName: 'Grammar' },
 ];

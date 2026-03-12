@@ -1,179 +1,29 @@
 /**
  * Unidad 12 B2 — Lección 3: Comprensión lectora (Entertainment)
- * 18 actividades (B2: más vocabulario y complejidad que B1)
+ * 13 preguntas (B2: recreado con texto y preguntas distintos)
  */
 
 import { Exercise } from '@/lib/exercise-generator';
 
 const LESSON_TITLE = '[[Reading|Comprensión lectora]]';
-const READING_TRANSCRIPT = `[[I used to|Antes solía]] [[watch|ver]] [[whatever was on TV|lo que hubiera en la tele]], [[but now|pero ahora]] [[I prefer|prefiero]] [[series|series]] [[which I can watch on demand|que puedo ver a la carta]]. [[The streaming platforms|Las plataformas de streaming]], [[which have changed the way we watch films|que han cambiado la forma en que vemos películas]], [[offer|ofrecen]] [[hundreds of options|cientos de opciones]] [[which|que]] [[you can access instantly|puedes acceder al instante]]. [[Last month|El mes pasado]], [[I discovered|descubrí]] [[a documentary|un documental]] [[that was filmed in my city|que se rodó en mi ciudad]], [[showing places|mostrando lugares]] [[I had never visited before|que nunca había visitado antes]]. [[The episodes|Los episodios]] [[which focus on local artists|que se centran en artistas locales]] [[are the ones|son los que]] [[I find most inspiring|me resultan más inspiradores]]. [[There is also|También hay]] [[a series|una serie]] [[starring|protagonizada por]] [[a comedian|un cómico]] [[whose humour|cuyo humor]] [[is very different from traditional TV shows|es muy distinto al de los programas tradicionales de televisión]]. [[Instead of|En lugar de]] [[laugh tracks|risas enlatadas]], [[the show|el programa]] [[uses|usa]] [[real reactions from the audience|reacciones reales del público]], [[which makes|lo que hace]] [[the jokes|los chistes]] [[feel more natural|parezcan más naturales]]. [[Some people|Algunas personas]] [[say|dicen]] [[that there are too many series|que hay demasiadas series]] [[to choose from|entre las que elegir]], [[which|lo cual]] [[can be overwhelming|puede ser abrumador]], [[but I like|pero a mí me gusta]] [[having|tener]] [[stories|historias]] [[that reflect|que reflejan]] [[different cultures and lifestyles|distintas culturas y estilos de vida]].`;
+const READING_TRANSCRIPT = `[[Documentaries|Los documentales]] [[which|que]] [[explore|exploran]] [[real-life stories|historias reales]] [[have become|se han vuelto]] [[increasingly popular|cada vez más populares]] [[on streaming platforms|en plataformas de streaming]]. [[The format|El formato]], [[which|que]] [[used to be|solía ser]] [[seen as boring|visto como aburrido]], [[now attracts|ahora atrae]] [[millions of viewers|millones de espectadores]] [[who|que]] [[want|quieren]] [[to learn|aprender]] [[while being entertained|mientras se entretienen]]. [[A recent series|Una serie reciente]] [[filmed|rodada]] [[in the Arctic|en el Ártico]] [[shows|muestra]] [[wildlife|vida salvaje]] [[that|que]] [[few people|pocas personas]] [[have ever seen|han visto alguna vez]]. [[The crew|El equipo]], [[which|que]] [[spent two years|pasó dos años]] [[in extreme conditions|en condiciones extremas]], [[captured|capturó]] [[scenes|escenas]] [[that|que]] [[had never been filmed before|nunca se habían filmado antes]]. [[The narrator|El narrador]], [[whose voice|cuya voz]] [[is recognised worldwide|es reconocida mundialmente]], [[adds|añade]] [[depth|profundidad]] [[to the story|a la historia]]. [[Viewers|Los espectadores]] [[who|que]] [[have watched|han visto]] [[the series|la serie]] [[say|dicen]] [[that|que]] [[it has changed|ha cambiado]] [[their view|su visión]] [[of|de]] [[nature|la naturaleza]].`;
 
-const INSTRUCTIONS = 'Lee el texto sobre series y plataformas de streaming. Después responde las preguntas.';
+const INSTRUCTIONS = 'Lee el texto sobre documentales. Después responde las preguntas.';
 
 const QUESTIONS = [
-  {
-    question: '[[How has the writer\'s way of watching TV changed|Cómo ha cambiado la forma de ver la tele del autor]]?',
-    options: [
-      '[[Now they prefer on-demand series instead of whatever is on TV|Ahora prefieren series a la carta en lugar de lo que haya en la tele]]',
-      '[[They only watch live TV now|Ahora solo ven televisión en directo]]',
-      '[[They have stopped watching films completely|Han dejado de ver películas por completo]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El texto dice que antes veía lo que hubiera en la tele, pero ahora prefiere series que puede ver a la carta.',
-  },
-  {
-    question:
-      '[[What|Qué]] [[does the writer say|dice el autor]] [[about streaming platforms|sobre las plataformas de streaming]]?',
-    options: [
-      '[[They have changed the way we watch films|Han cambiado la forma en que vemos películas]]',
-      '[[They only offer a few options|Ofrecen pocas opciones]]',
-      '[[They are exactly the same as traditional TV|Son exactamente igual que la TV tradicional]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Se menciona que las plataformas "have changed the way we watch films".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[is special|tiene de especial]] [[about the documentary|el documental]] [[the writer discovered|que descubrió el autor]]?',
-    options: [
-      '[[It was filmed in the writer\'s city|Se rodó en la ciudad del autor]]',
-      '[[It was filmed in another country|Se rodó en otro país]]',
-      '[[It is a comedy show|Es un programa de comedia]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El texto dice que descubrió un documental "that was filmed in my city".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[do the episodes that focus on local artists do for the writer|hacen los episodios sobre artistas locales para el autor]]?',
-    options: [
-      '[[They are the ones the writer finds most inspiring|Son los que el autor encuentra más inspiradores]]',
-      '[[They are boring|Son aburridos]]',
-      '[[They are difficult to understand|Son difíciles de entender]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Se dice que esos episodios "are the ones I find most inspiring".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[is different|es diferente]] [[about the comedian\'s show|en el programa del cómico]] [[compared to traditional TV shows|en comparación con los programas tradicionales]]?',
-    options: [
-      '[[It uses real audience reactions instead of laugh tracks|Usa reacciones reales del público en lugar de risas enlatadas]]',
-      '[[It has no audience at all|No tiene público]]',
-      '[[It focuses only on politics|Solo trata de política]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El texto subraya que en lugar de risas enlatadas se usan reacciones reales del público.',
-  },
-  {
-    question:
-      '[[How does the writer feel about having many series to choose from|Cómo se siente el autor ante tener muchas series para elegir]]?',
-    options: [
-      '[[They like having a lot of different stories to choose from|Les gusta tener muchas historias distintas entre las que elegir]]',
-      '[[They refuse to watch any series|Se niegan a ver series]]',
-      '[[They think there are too few stories about different lifestyles|Piensan que hay pocas historias sobre estilos de vida diferentes]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Aunque reconoce que puede ser abrumador, añade que le gusta tener historias que reflejan culturas y estilos de vida distintos.',
-  },
-  {
-    question:
-      '[[According to the text|Según el texto]], [[what|qué]] [[can be overwhelming|puede ser abrumador]]?',
-    options: [
-      '[[Having too many series to choose from|Tener demasiadas series entre las que elegir]]',
-      '[[Watching TV with your family|Ver la tele con la familia]]',
-      '[[Reading film reviews|Leer críticas de cine]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Dice que "some people say there are too many series to choose from, which can be overwhelming".',
-  },
-  {
-    question:
-      '[[The text|El texto]] [[states|afirma]] [[that|que]] [[streaming platforms offer hundreds of options which you can access instantly|las plataformas de streaming ofrecen cientos de opciones a las que puedes acceder al instante]].',
-    options: ['[[True|Verdadero]]', '[[False|Falso]]'],
-    correctAnswer: 'True',
-    explanation:
-      'Se menciona literalmente esa idea en el segundo segmento del texto.',
-  },
-  {
-    question:
-      '[[The writer|El autor]] [[says|dice]] [[that|que]] [[the documentary only shows places they already knew very well|el documental solo muestra lugares que ya conocía muy bien]].',
-    options: ['[[True|Verdadero]]', '[[False|Falso]]'],
-    correctAnswer: 'False',
-    explanation:
-      'Es falso: aclara que muestra lugares que nunca había visitado antes.',
-  },
-  {
-    question:
-      '[[Which sentence|Qué frase]] [[best summarises|resume mejor]] [[the main idea of the text|la idea principal del texto]]?',
-    options: [
-      '[[Streaming platforms offer a variety of series and documentaries which allow the writer to discover new stories and perspectives.|Las plataformas de streaming ofrecen variedad de series y documentales que permiten al autor descubrir nuevas historias y perspectivas.]]',
-      '[[Traditional TV is always better than streaming platforms.|La TV tradicional siempre es mejor que las plataformas de streaming.]]',
-      '[[Documentaries are more important than series.|Los documentales son más importantes que las series.]]',
-    ],
-    correctAnswer:
-      'Streaming platforms offer a variety of series and documentaries which allow the writer to discover new stories and perspectives.',
-    explanation:
-      'La idea central es positiva hacia las plataformas y la variedad de historias que ofrecen.',
-  },
-  {
-    question:
-      '[[Which detail|Qué detalle]] [[supports|apoya]] [[the idea that the writer discovers new aspects of their own city|la idea de que el autor descubre nuevos aspectos de su ciudad]]?',
-    options: [
-      '[[The documentary shows places the writer had never visited before.|El documental muestra lugares que el autor nunca había visitado antes.]]',
-      '[[The series is filmed in another country.|La serie se rueda en otro país.]]',
-      '[[The writer used to watch whatever was on TV.|Antes veía lo que hubiera en la tele.]]',
-    ],
-    correctAnswer:
-      'The documentary shows places the writer had never visited before.',
-    explanation:
-      'Ese detalle conecta directamente con el descubrimiento de su propia ciudad.',
-  },
-  {
-    question:
-      '[[Which reduced relative clause|Qué cláusula de relativo reducida]] [[appears|aparece]] [[in the text|en el texto]]?',
-    options: [
-      '[[series which I can watch on demand|series que puedo ver a la carta]]',
-      '[[series I can watch on demand|series que puedo ver a la carta (reducida omitiendo "which")]]',
-      '[[series that are watched by many people|series que son vistas por mucha gente]]',
-    ],
-    correctAnswer:
-      'series I can watch on demand',
-    explanation:
-      'Aquí se ha omitido el relativo "which/that", típico de cláusula de relativo reducida (objeto).',
-  },
-  {
-    question:
-      '[[What|Qué]] [[vocabulary|vocabulario]] [[is key|es clave]] [[in this text|en este texto]]?',
-    options: [
-      '[[streaming platforms, episodes, documentary, filmed, audience, laugh tracks|streaming platforms, episodes, documentary, filmed, audience, laugh tracks]]',
-      '[[airport, boarding pass, gate, luggage|airport, boarding pass, gate, luggage]]',
-      '[[assignment, deadline, exam, lecture|assignment, deadline, exam, lecture]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Todo el léxico gira alrededor del entretenimiento audiovisual.',
-  },
-  {
-    question:
-      '[[What|Qué]] [[can we infer|podemos inferir]] [[about the writer\'s attitude towards streaming platforms|sobre la actitud del autor hacia las plataformas de streaming]]?',
-    options: [
-      '[[They see both advantages (variety, new stories) and possible disadvantages (too many options).|Ven ventajas (variedad, historias nuevas) y posibles desventajas (demasiadas opciones).]]',
-      '[[They completely reject streaming.|Rechazan totalmente el streaming.]]',
-      '[[They only like documentaries.|Solo les gustan los documentales.]]',
-    ],
-    correctAnswer:
-      'They see both advantages (variety, new stories) and possible disadvantages (too many options).',
-    explanation:
-      'Reconoce que puede ser abrumador, pero en general lo valora positivamente.',
-  },
+  { question: '[[What|Qué]] [[has become popular|se ha vuelto popular]] [[on streaming platforms|en plataformas de streaming]]?', options: ['[[Documentaries about real-life stories|Documentales sobre historias reales]]', '[[Comedy shows|Programas de comedia]]', '[[Sports events|Eventos deportivos]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[Documentaries which explore real-life stories have become increasingly popular|los documentales que exploran historias reales se han vuelto cada vez más populares]]".' },
+  { question: '[[How|Cómo]] [[was the documentary format seen before|se veía el formato documental antes]]?', options: ['[[As boring|Como aburrido]]', '[[As exciting|Como emocionante]]', '[[As educational|Como educativo]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[which used to be seen as boring|que solía ser visto como aburrido]]".' },
+  { question: '[[Where|Dónde]] [[was the recent series filmed|se rodó la serie reciente]]?', options: ['[[In the Arctic|En el Ártico]]', '[[In the desert|En el desierto]]', '[[In the jungle|En la jungla]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[A recent series filmed in the Arctic|una serie reciente rodada en el Ártico]]".' },
+  { question: '[[What|Qué]] [[does the series show|muestra la serie]]?', options: ['[[Wildlife that few people have seen|Vida salvaje que pocas personas han visto]]', '[[City life|Vida urbana]]', '[[Historical events|Eventos históricos]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[shows wildlife that few people have ever seen|muestra vida salvaje que pocas personas han visto]]".' },
+  { question: '[[How long|Cuánto tiempo]] [[did the crew spend|pasó el equipo]] [[in extreme conditions|en condiciones extremas]]?', options: ['[[Two years|Dos años]]', '[[Six months|Seis meses]]', '[[One year|Un año]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[The crew, which spent two years in extreme conditions|el equipo, que pasó dos años en condiciones extremas]]".' },
+  { question: '[[What|Qué]] [[did the crew capture|capturó el equipo]]?', options: ['[[Scenes that had never been filmed before|Escenas que nunca se habían filmado antes]]', '[[Interviews with celebrities|Entrevistas con famosos]]', '[[Music performances|Actuaciones musicales]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[captured scenes that had never been filmed before|capturó escenas que nunca se habían filmado antes]]".' },
+  { question: '[[What|Qué]] [[do viewers say|dicen los espectadores]]?', options: ['[[The series has changed their view of nature|La serie ha cambiado su visión de la naturaleza]]', '[[The series was too long|La serie era demasiado larga]]', '[[The series was boring|La serie era aburrida]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[it has changed their view of nature|ha cambiado su visión de la naturaleza]]".' },
+  { question: '[[The narrator|El narrador]] [[has a voice|tiene una voz]] [[recognised worldwide|reconocida mundialmente]].', options: ['[[True|Verdadero]]', '[[False|Falso]]'], correctAnswer: 'True', explanation: '[[True|Verdadero]]. [[The text says|El texto dice]] "[[whose voice is recognised worldwide|cuya voz es reconocida mundialmente]]".' },
+  { question: '[[What|Cuál]] [[is|es]] [[the main idea|la idea principal]] [[of the text|del texto]]?', options: ['[[Documentaries have evolved and can change how we see the world|Los documentales han evolucionado y pueden cambiar cómo vemos el mundo]]', '[[Streaming platforms are replacing TV|Las plataformas de streaming sustituyen la TV]]', '[[The Arctic is dangerous|El Ártico es peligroso]]'], correctAnswer: 0, explanation: '[[The text|El texto]] [[describes|describe]] [[the rise of documentaries|el auge de los documentales]] [[and their impact|y su impacto]].' },
+  { question: '[[Which reduced relative clause|Qué cláusula de relativo reducida]] [[appears in the text|aparece en el texto]]?', options: ['[[filmed in the Arctic|rodada en el Ártico]]', '[[which explore real-life stories|que exploran historias reales]]', '[[whose voice is recognised|cuya voz es reconocida]]'], correctAnswer: 0, explanation: '[[Reduced form|Forma reducida]] [[of "which was filmed"|de "which was filmed"]].' },
+  { question: '[[What|Qué]] [[vocabulary|vocabulario]] [[is key|es clave]] [[in this text|en este texto]]?', options: ['[[documentaries|documentales]], [[streaming|streaming]], [[wildlife|vida salvaje]], [[crew|equipo]]', '[[salary|salario]], [[budget|presupuesto]], [[profit|beneficio]]', '[[airport|aeropuerto]], [[flight|vuelo]]'], correctAnswer: 0, explanation: '[[The text|El texto]] [[focuses on|se centra en]] [[entertainment vocabulary|vocabulario de entretenimiento]].' },
+  { question: '[[What|Qué]] [[can we infer|podemos inferir]] [[about|sobre]] [[documentaries|los documentales]]?', options: ['[[They can be both educational and entertaining|Pueden ser educativos y entretenidos]]', '[[They are only for scientists|Solo son para científicos]]', '[[They are losing viewers|Están perdiendo espectadores]]'], correctAnswer: 0, explanation: '[[Viewers want to learn while being entertained|Los espectadores quieren aprender mientras se entretienen]].' },
+  { question: '[[Which non-defining relative clause|Qué oración de relativo no explicativa]] [[adds extra information|añade información extra]]?', options: ['[[which used to be seen as boring|que solía ser visto como aburrido]]', '[[that few people have ever seen|que pocas personas han visto]]', '[[that had never been filmed before|que nunca se habían filmado antes]]'], correctAnswer: 0, explanation: '[[Non-defining|No explicativa]] [[between commas|entre comas]].' },
 ];
 
 export const UNIT_12_LESSON_3_READING: Exercise[] = QUESTIONS.map((q, i) => ({

@@ -1,152 +1,29 @@
 /**
  * Unidad 12 B2 — Lección 4: Comprensión auditiva (Entertainment)
- * 18 actividades (B2: más vocabulario y complejidad que B1)
+ * 13 preguntas (B2: recreado con transcripción y preguntas distintos)
  */
 
 import { Exercise } from '@/lib/exercise-generator';
 
 const LESSON_TITLE = '[[Listening|Comprensión auditiva]]';
-const LISTENING_TRANSCRIPT = `[[Hi|Hola]], [[I\'m Leo|soy Leo]], [[a film critic|un crítico de cine]] [[who reviews|que reseña]] [[series and movies|series y películas]] [[for a podcast|para un pódcast]]. [[Today|Hoy]] [[I want to talk about|quiero hablar de]] [[a new series|una nueva serie]] [[which has just been released|que acaba de estrenarse]] [[on a major streaming platform|en una plataforma de streaming importante]]. [[The series|La serie]], [[set|ambientada]] [[in the music industry|en la industria musical]], [[follows|sigue]] [[a group of young artists|a un grupo de jóvenes artistas]] [[who are trying|que intentan]] [[to find|encontrar]] [[their place|su lugar]] [[in a world|en un mundo]] [[that is both exciting and brutal|que es a la vez emocionante y brutal]]. [[One of the main characters|Uno de los personajes principales]], [[whose story|cuya historia]] [[is based loosely on real events|se basa vagamente en hechos reales]], [[has to choose|tiene que elegir]] [[between|entre]] [[fame|la fama]] [[and|y]] [[loyalty to their friends|la lealtad a sus amigos]]. [[The episodes|Los episodios]] [[are fast-paced|tienen un ritmo rápido]] [[and full of dialogues|y están llenos de diálogos]] [[which sound very natural|que suenan muy naturales]]. [[The soundtrack|La banda sonora]], [[featuring songs|que incluye canciones]] [[written by independent musicians|escritas por músicos independientes]], [[is one of the reasons|es una de las razones]] [[why the series stands out|por las que la serie destaca]]. [[Some scenes|Algunas escenas]] [[that were filmed in real concert venues|que se rodaron en salas de conciertos reales]] [[make you feel|te hacen sentir]] [[as if you were in the audience|como si estuvieras entre el público]]. [[If you like|Si te gusta]] [[stories|las historias]] [[that explore|que exploran]] [[the price of success|el precio del éxito]] [[and|y]] [[the friendships|las amistades]] [[that are tested by fame|que la fama pone a prueba]], [[this is a series|esta es una serie]] [[which you shouldn\'t miss|que no deberías perderte]].`;
+const LISTENING_TRANSCRIPT = `[[I'm|Soy]] [[Sarah|Sarah]], [[a producer|una productora]] [[who|que]] [[works|trabaja]] [[on|en]] [[documentaries|documentales]] [[for|para]] [[a major TV channel|un canal de TV importante]]. [[The projects|Los proyectos]] [[that|que]] [[we choose|elegimos]] [[must|deben]] [[tell|contar]] [[stories|historias]] [[which|que]] [[connect with audiences|conecten con el público]]. [[Last year|El año pasado]], [[we made|hicimos]] [[a series|una serie]] [[filmed|rodada]] [[in the Amazon|en el Amazonas]], [[showing|mostrando]] [[indigenous communities|comunidades indígenas]] [[whose way of life|cuya forma de vida]] [[is threatened|está amenazada]] [[by deforestation|por la deforestación]]. [[The episodes|Los episodios]], [[which|que]] [[were released|se estrenaron]] [[in the autumn|en otoño]], [[received|recibieron]] [[critical acclaim|aclamación de la crítica]]. [[The director|El director]], [[whose previous work|cuyo trabajo anterior]] [[had won awards|había ganado premios]], [[insisted|insistió]] [[on|en]] [[using|usar]] [[local crew|equipo local]] [[who|que]] [[understood|entendían]] [[the culture|la cultura]]. [[Viewers|Los espectadores]] [[who|que]] [[contacted us|nos contactaron]] [[said|dijeron]] [[that|que]] [[the series|la serie]] [[had changed|había cambiado]] [[their perspective|su perspectiva]] [[on|sobre]] [[environmental issues|temas medioambientales]].`;
 
-const INSTRUCTIONS = 'Escucha el audio o lee la transcripción. Después responde las preguntas.';
+const INSTRUCTIONS = 'Escucha el audio (o lee la transcripción). Después responde las preguntas.';
 
 const QUESTIONS = [
-  {
-    question: '[[Who is speaking in the audio|Quién habla en el audio]]?',
-    options: [
-      '[[Leo, a film critic who reviews series and movies for a podcast|Leo, un crítico de cine que reseña series y películas para un pódcast]]',
-      '[[A musician promoting a concert|Un músico que promociona un concierto]]',
-      '[[A director explaining how to make a film|Un director explicando cómo hacer una película]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El hablante se presenta como "Leo, a film critic who reviews series and movies for a podcast".',
-  },
-  {
-    question:
-      '[[What|Cuál]] [[is the main topic|es el tema principal]] [[of the listening|de la escucha]]?',
-    options: [
-      '[[A new series about the music industry released on a streaming platform|Una nueva serie sobre la industria musical estrenada en una plataforma de streaming]]',
-      '[[A classic film from the 1980s|Una película clásica de los años 80]]',
-      '[[News about cinema closures|Noticias sobre cierres de cines]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Leo habla todo el tiempo de una nueva serie ambientada en la industria musical.',
-  },
-  {
-    question:
-      '[[Where is the series set|Dónde está ambientada la serie]]?',
-    options: [
-      '[[In the music industry|En la industria musical]]',
-      '[[In a hospital|En un hospital]]',
-      '[[In a law firm|En un bufete de abogados]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Dice explícitamente que la serie está ambientada "in the music industry".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[difficult choice|elección difícil]] [[does one of the main characters face|debe tomar uno de los personajes principales]]?',
-    options: [
-      '[[Choosing between fame and loyalty to their friends|Elegir entre la fama y la lealtad a sus amigos]]',
-      '[[Choosing between two jobs in different cities|Elegir entre dos trabajos en distintas ciudades]]',
-      '[[Choosing between studying and working|Elegir entre estudiar y trabajar]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Leo explica que el personaje debe elegir entre la fama y la lealtad a sus amigos.',
-  },
-  {
-    question:
-      '[[How are the episodes described|Cómo se describen los episodios]]?',
-    options: [
-      '[[Fast-paced and full of natural-sounding dialogues|De ritmo rápido y llenos de diálogos naturales]]',
-      '[[Very slow and almost without dialogue|Muy lentos y casi sin diálogo]]',
-      '[[Only focused on concerts without any storyline|Solo centrados en conciertos sin trama]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El crítico menciona que los episodios son "fast-paced and full of dialogues which sound very natural".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[is special about the soundtrack|tiene de especial la banda sonora]]?',
-    options: [
-      '[[It features songs written by independent musicians|Incluye canciones escritas por músicos independientes]]',
-      '[[It only uses classical music|Solo usa música clásica]]',
-      '[[It has no original music|No tiene música original]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Leo destaca que la banda sonora incluye canciones de músicos independientes.',
-  },
-  {
-    question:
-      '[[What effect|Qué efecto]] [[do the scenes filmed in real concert venues have|producen las escenas rodadas en salas de conciertos reales]]?',
-    options: [
-      '[[They make you feel as if you were in the audience|Te hacen sentir como si estuvieras entre el público]]',
-      '[[They make the series slower|Hacen la serie más lenta]]',
-      '[[They make it hard to hear the actors|Dificultan oír a los actores]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Dice que esas escenas "make you feel as if you were in the audience".',
-  },
-  {
-    question:
-      '[[According to Leo|Según Leo]], [[who|quién]] [[might enjoy this series|podría disfrutar esta serie]]?',
-    options: [
-      '[[People who like stories that explore the price of success and friendships tested by fame|Gente a la que le gustan historias sobre el precio del éxito y amistades puestas a prueba por la fama]]',
-      '[[Only people who hate music|Solo personas a las que no les gusta la música]]',
-      '[[Viewers who only watch documentaries about history|Espectadores que solo ven documentales de historia]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Leo recomienda la serie a quienes disfrutan de historias sobre el precio del éxito y amistades bajo presión.',
-  },
-  {
-    question:
-      '[[The listening|La escucha]] [[states|afirma]] [[that|que]] [[the series shouldn\'t be missed if you like this type of story|no deberías perderte la serie si te gustan este tipo de historias]].',
-    options: ['[[True|Verdadero]]', '[[False|Falso]]'],
-    correctAnswer: 'True',
-    explanation:
-      'Termina diciendo que es una serie "which you shouldn’t miss".',
-  },
-  {
-    question:
-      '[[The critic|El crítico]] [[says|dice]] [[that the series is based entirely on real events|que la serie se basa totalmente en hechos reales]].',
-    options: ['[[True|Verdadero]]', '[[False|Falso]]'],
-    correctAnswer: 'False',
-    explanation:
-      'Aclara que la historia de uno de los personajes "is based loosely on real events", no totalmente.',
-  },
-  {
-    question:
-      '[[Which relative clause|Qué oración de relativo]] [[gives extra, non-essential information about the soundtrack|da información extra, no esencial sobre la banda sonora]]?',
-    options: [
-      '[[The soundtrack, featuring songs written by independent musicians, is one of the reasons why the series stands out.|"The soundtrack, featuring songs written by independent musicians, is one of the reasons why the series stands out."]]',
-      '[[The episodes are fast-paced and full of dialogues which sound very natural.|"The episodes are fast-paced and full of dialogues which sound very natural."]]',
-      '[[This is a series which you shouldn’t miss.|"This is a series which you shouldn’t miss."]]',
-    ],
-    correctAnswer:
-      'The soundtrack, featuring songs written by independent musicians, is one of the reasons why the series stands out.',
-    explanation:
-      'La información entre comas sobre la banda sonora es una non-defining relative/reduced clause.',
-  },
-  {
-    question:
-      '[[What|Qué]] [[vocabulary|vocabulario]] [[is central|es central]] [[in this listening|en esta escucha]]?',
-    options: [
-      '[[film critic, streaming platform, series, soundtrack, concert venues|film critic, streaming platform, series, soundtrack, concert venues]]',
-      '[[airport, boarding pass, luggage, gate|airport, boarding pass, luggage, gate]]',
-      '[[deadline, CV, promotion, overtime|deadline, CV, promotion, overtime]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El campo semántico pertenece claramente a entretenimiento audiovisual.',
-  },
+  { question: '[[Who is speaking|Quién habla]]?', options: ['[[Sarah, a documentary producer|Sarah, productora de documentales]]', '[[A TV presenter|Una presentadora de TV]]', '[[A film director|Una directora de cine]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[I\'m Sarah, a producer who works on documentaries|Soy Sarah, una productora que trabaja en documentales]]".' },
+  { question: '[[What|Qué]] [[must the projects do|deben hacer los proyectos]]?', options: ['[[Tell stories that connect with audiences|Contar historias que conecten con el público]]', '[[Make a lot of money|Ganar mucho dinero]]', '[[Use famous actors|Usar actores famosos]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[must tell stories which connect with audiences|deben contar historias que conecten con el público]]".' },
+  { question: '[[Where|Dónde]] [[was the series filmed|se rodó la serie]]?', options: ['[[In the Amazon|En el Amazonas]]', '[[In the Arctic|En el Ártico]]', '[[In Africa|En África]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[a series filmed in the Amazon|una serie rodada en el Amazonas]]".' },
+  { question: '[[What|Qué]] [[does the series show|muestra la serie]]?', options: ['[[Indigenous communities whose way of life is threatened|Comunidades indígenas cuya forma de vida está amenazada]]', '[[City life in big capitals|Vida urbana en grandes capitales]]', '[[Sports events|Eventos deportivos]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[showing indigenous communities whose way of life is threatened by deforestation|mostrando comunidades indígenas cuya forma de vida está amenazada por la deforestación]]".' },
+  { question: '[[When|Cuándo]] [[were the episodes released|se estrenaron los episodios]]?', options: ['[[In the autumn|En otoño]]', '[[In the spring|En primavera]]', '[[In the summer|En verano]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[The episodes, which were released in the autumn|Los episodios, que se estrenaron en otoño]]".' },
+  { question: '[[What|Qué]] [[did the director insist on|insistió el director en]]?', options: ['[[Using local crew who understood the culture|Usar equipo local que entendía la cultura]]', '[[Using famous actors|Usar actores famosos]]', '[[Filming in a studio|Rodar en un estudio]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[insisted on using local crew who understood the culture|insistió en usar equipo local que entendía la cultura]]".' },
+  { question: '[[What|Qué]] [[did viewers say|dijeron los espectadores]]?', options: ['[[The series had changed their perspective on environmental issues|La serie había cambiado su perspectiva sobre temas medioambientales]]', '[[The series was too short|La serie era demasiado corta]]', '[[The series was boring|La serie era aburrida]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[the series had changed their perspective on environmental issues|la serie había cambiado su perspectiva sobre temas medioambientales]]".' },
+  { question: '[[The director|El director]] [[had never won awards before|nunca había ganado premios antes]].', options: ['[[True|Verdadero]]', '[[False|Falso]]'], correctAnswer: 'False', explanation: '[[False|Falso]]. [[The speaker says|El hablante dice]] "[[whose previous work had won awards|cuyo trabajo anterior había ganado premios]]".' },
+  { question: '[[What|Cuál]] [[is|es]] [[the main idea|la idea principal]] [[of the listening|de la escucha]]?', options: ['[[Documentaries can raise awareness and change perspectives|Los documentales pueden concienciar y cambiar perspectivas]]', '[[TV channels only want profit|Los canales de TV solo quieren beneficios]]', '[[The Amazon is dangerous|El Amazonas es peligroso]]'], correctAnswer: 0, explanation: '[[The speaker|El hablante]] [[describes|describe]] [[how documentaries impact viewers|cómo los documentales impactan a los espectadores]].' },
+  { question: '[[Which reduced relative clause|Qué cláusula de relativo reducida]] [[appears in the transcript|aparece en la transcripción]]?', options: ['[[filmed in the Amazon|rodada en el Amazonas]]', '[[which were released|que se estrenaron]]', '[[whose way of life|cuya forma de vida]]'], correctAnswer: 0, explanation: '[[Reduced form|Forma reducida]] [[of "which was filmed"|de "which was filmed"]].' },
+  { question: '[[What|Qué]] [[vocabulary|vocabulario]] [[is central|es central]] [[in this listening|en esta escucha]]?', options: ['[[documentaries|documentales]], [[producer|productora]], [[episodes|episodios]], [[audiences|público]]', '[[salary|salario]], [[budget|presupuesto]]', '[[airport|aeropuerto]], [[flight|vuelo]]'], correctAnswer: 0, explanation: '[[The listening|La escucha]] [[focuses on|se centra en]] [[entertainment vocabulary|vocabulario de entretenimiento]].' },
+  { question: '[[What|Qué]] [[can we infer|podemos inferir]] [[about|sobre]] [[Sarah|Sarah]]?', options: ['[[She cares about meaningful content|Le importa el contenido con significado]]', '[[She only works for money|Solo trabaja por dinero]]', '[[She prefers fiction|Prefiere la ficción]]'], correctAnswer: 0, explanation: '[[Her work on documentaries|Su trabajo en documentales]] [[about indigenous communities|sobre comunidades indígenas]] [[suggests|sugiere]] [[care for meaningful content|preocupación por contenido significativo]].' },
+  { question: '[[Which defining relative clause|Qué oración de relativo explicativa]] [[identifies|identifica]] [[which projects|qué proyectos]]?', options: ['[[that we choose|que elegimos]]', '[[which were released|que se estrenaron]]', '[[whose previous work|cuyo trabajo anterior]]'], correctAnswer: 0, explanation: '[[Defining|Explicativa]] [[specifies which projects|especifica qué proyectos]].' },
 ];
 
 export const UNIT_12_LESSON_4_LISTENING: Exercise[] = QUESTIONS.map((q, i) => ({

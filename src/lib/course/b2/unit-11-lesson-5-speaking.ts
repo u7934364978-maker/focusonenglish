@@ -1,6 +1,6 @@
 /**
  * Unidad 11 B2 — Lección 5: Expresión oral (Culture)
- * 18 ejercicios (B2: más vocabulario y complejidad que B1)
+ * 18 ejercicios (B2: recreado con casos distintos)
  */
 
 import { Exercise } from '@/lib/exercise-generator';
@@ -8,266 +8,22 @@ import { Exercise } from '@/lib/exercise-generator';
 const LESSON_TITLE = '[[Speaking|Expresión oral]]';
 
 export const UNIT_11_LESSON_5_SPEAKING: Exercise[] = [
-  {
-    id: 'b2-u11-l5-s1',
-    type: 'pronunciation',
-    level: 'B2',
-    topic: 'Culture',
-    difficulty: 'medium',
-    content: {
-      title: LESSON_TITLE,
-      instructions: 'Escucha la frase y repítela en voz alta.',
-      targetText:
-        '[[Our town festival|El festival de nuestro pueblo]], [[which has been held for over a century|que se celebra desde hace más de un siglo]], [[is part of our cultural heritage|forma parte de nuestro patrimonio cultural]].',
-      expectedResponse:
-        'Our town festival, which has been held for over a century, is part of our cultural heritage.',
-    },
-    topicName: 'Speaking',
-  },
-  {
-    id: 'b2-u11-l5-s2',
-    type: 'pronunciation',
-    level: 'B2',
-    topic: 'Culture',
-    difficulty: 'medium',
-    content: {
-      title: LESSON_TITLE,
-      instructions: 'Escucha y repite en voz alta.',
-      targetText:
-        '[[The people|La gente]] [[who volunteer at the festival|que se ofrece voluntaria en el festival]] [[are mostly young students|son principalmente estudiantes jóvenes]].',
-      expectedResponse:
-        'The people who volunteer at the festival are mostly young students.',
-    },
-    topicName: 'Speaking',
-  },
-  {
-    id: 'b2-u11-l5-s3',
-    type: 'pronunciation',
-    level: 'B2',
-    topic: 'Culture',
-    difficulty: 'medium',
-    content: {
-      title: LESSON_TITLE,
-      instructions: 'Escucha y repite en voz alta.',
-      targetText:
-        '[[Many traditions|Muchas tradiciones]] [[that we follow today|que seguimos hoy]] [[were created by our grandparents|fueron creadas por nuestros abuelos]].',
-      expectedResponse:
-        'Many traditions that we follow today were created by our grandparents.',
-    },
-    topicName: 'Speaking',
-  },
-  {
-    id: 'b2-u11-l5-s4',
-    type: 'pronunciation',
-    level: 'B2',
-    topic: 'Culture',
-    difficulty: 'medium',
-    content: {
-      title: LESSON_TITLE,
-      instructions: 'Escucha y repite en voz alta.',
-      targetText:
-        '[[The square|La plaza]] [[where the main parade takes place|donde tiene lugar el desfile principal]] [[is always crowded|siempre está llena de gente]].',
-      expectedResponse:
-        'The square where the main parade takes place is always crowded.',
-    },
-    topicName: 'Speaking',
-  },
-  {
-    id: 'b2-u11-l5-s5',
-    type: 'pronunciation',
-    level: 'B2',
-    topic: 'Culture',
-    difficulty: 'medium',
-    content: {
-      title: LESSON_TITLE,
-      instructions: 'Escucha y repite en voz alta.',
-      targetText:
-        '[[Visitors|Los visitantes]] [[who come to our festival|que vienen a nuestro festival]] [[often say|a menudo dicen]] [[that the atmosphere is unique|que el ambiente es único]].',
-      expectedResponse:
-        'Visitors who come to our festival often say that the atmosphere is unique.',
-    },
-    topicName: 'Speaking',
-  },
-  {
-    id: 'b2-u11-l5-s6',
-    type: 'pronunciation',
-    level: 'B2',
-    topic: 'Culture',
-    difficulty: 'medium',
-    content: {
-      title: LESSON_TITLE,
-      instructions: 'Escucha y repite en voz alta.',
-      targetText:
-        '[[Our traditional costume|Nuestro traje tradicional]], [[which is handmade|que está hecho a mano]], [[is passed down from generation to generation|se pasa de generación en generación]].',
-      expectedResponse:
-        'Our traditional costume, which is handmade, is passed down from generation to generation.',
-    },
-    topicName: 'Speaking',
-  },
-  {
-    id: 'b2-u11-l5-s7',
-    type: 'pronunciation',
-    level: 'B2',
-    topic: 'Culture',
-    difficulty: 'medium',
-    content: {
-      title: LESSON_TITLE,
-      instructions: 'Escucha y repite en voz alta.',
-      targetText:
-        '[[The dishes|Los platos]] [[that you can try at the food market|que puedes probar en el mercado de comida]] [[are only cooked during the festival|solo se cocinan durante el festival]].',
-      expectedResponse:
-        'The dishes that you can try at the food market are only cooked during the festival.',
-    },
-    topicName: 'Speaking',
-  },
-  {
-    id: 'b2-u11-l5-s8',
-    type: 'pronunciation',
-    level: 'B2',
-    topic: 'Culture',
-    difficulty: 'medium',
-    content: {
-      title: LESSON_TITLE,
-      instructions: 'Escucha y repite en voz alta.',
-      targetText:
-        '[[Our grandparents|Nuestros abuelos]], [[who started this celebration|que empezaron esta celebración]], [[wanted|querían]] [[to preserve our cultural identity|preservar nuestra identidad cultural]].',
-      expectedResponse:
-        'Our grandparents, who started this celebration, wanted to preserve our cultural identity.',
-    },
-    topicName: 'Speaking',
-  },
-  {
-    id: 'b2-u11-l5-s9',
-    type: 'pronunciation',
-    level: 'B2',
-    topic: 'Culture',
-    difficulty: 'medium',
-    content: {
-      title: LESSON_TITLE,
-      instructions: 'Lee en voz alta y céntrate en la entonación.',
-      targetText:
-        '[[What I love most about this festival|Lo que más me gusta de este festival]] [[is the way it brings generations together|es la forma en que une a las generaciones]].',
-      expectedResponse:
-        'What I love most about this festival is the way it brings generations together.',
-    },
-    topicName: 'Speaking',
-  },
-  {
-    id: 'b2-u11-l5-s10',
-    type: 'pronunciation',
-    level: 'B2',
-    topic: 'Culture',
-    difficulty: 'medium',
-    content: {
-      title: LESSON_TITLE,
-      instructions: 'Lee en voz alta y usa énfasis en las palabras clave.',
-      targetText:
-        '[[It is our cultural heritage|Es nuestro patrimonio cultural]] [[that we are trying to protect|lo que intentamos proteger]].',
-      expectedResponse:
-        'It is our cultural heritage that we are trying to protect.',
-    },
-    topicName: 'Speaking',
-  },
-  {
-    id: 'b2-u11-l5-s11',
-    type: 'speaking',
-    level: 'B2',
-    topic: 'Culture',
-    difficulty: 'medium',
-    content: {
-      title: LESSON_TITLE,
-      instructions:
-        'Habla durante 1–2 minutos: describe una celebración o festival de tu país usando al menos 3 oraciones de relativo (who, which, where, whose).',
-      prompt:
-        '[[Describe a local celebration from your country. Include:|Describe una celebración local de tu país. Incluye:]]\n[[- what it is called and when it takes place|- cómo se llama y cuándo tiene lugar]]\n[[- who takes part and what they wear|- quién participa y qué llevan puesto]]\n[[- where the main events happen|- dónde tienen lugar los eventos principales]]\n[[- why it is important for your community|- por qué es importante para tu comunidad]]',
-      targetLevel: 'B2',
-      writingType: 'description',
-    },
-    topicName: 'Speaking',
-  },
-  {
-    id: 'b2-u11-l5-s12',
-    type: 'speaking',
-    level: 'B2',
-    topic: 'Culture',
-    difficulty: 'medium',
-    content: {
-      title: LESSON_TITLE,
-      instructions:
-        'Habla durante 1–2 minutos: compara dos tradiciones (de tu cultura y de otra) usando oraciones de relativo.',
-      prompt:
-        '[[Compare a tradition from your culture with a tradition from another culture you know.|Compara una tradición de tu cultura con una de otra cultura que conozcas.]]\n[[Use relative clauses to explain:|Usa oraciones de relativo para explicar:]]\n[[- people who take part|- personas que participan]]\n[[- places where they happen|- lugares donde tienen lugar]]\n[[- objects which are important|- objetos que son importantes]]\n[[- reasons why they are similar or different|- razones por las que son similares o diferentes]]',
-      targetLevel: 'B2',
-      writingType: 'description',
-    },
-    topicName: 'Speaking',
-  },
-  {
-    id: 'b2-u11-l5-s13',
-    type: 'speaking',
-    level: 'B2',
-    topic: 'Culture',
-    difficulty: 'medium',
-    content: {
-      title: LESSON_TITLE,
-      instructions:
-        'Responde en voz alta: da tu opinión sobre la globalización cultural.',
-      prompt:
-        '[[Do you think cultural festivals which attract tourists are good or bad for local traditions? Give reasons and examples.|¿Crees que los festivales culturales que atraen turistas son buenos o malos para las tradiciones locales? Da razones y ejemplos.]]',
-      targetLevel: 'B2',
-      writingType: 'essay',
-    },
-    topicName: 'Speaking',
-  },
-  {
-    id: 'b2-u11-l5-s14',
-    type: 'speaking',
-    level: 'B2',
-    topic: 'Culture',
-    difficulty: 'medium',
-    content: {
-      title: LESSON_TITLE,
-      instructions:
-        'Habla en voz alta: explica una experiencia de choque cultural que tuviste o podrías tener.',
-      prompt:
-        '[[Describe a situation where you felt culture shock or imagine one. Explain:|Describe una situación en la que sentiste choque cultural o imagina una. Explica:]]\n[[- what surprised you|- qué te sorprendió]]\n[[- how people behaved|- cómo se comportaba la gente]]\n[[- what you learned from the experience|- qué aprendiste de la experiencia]]',
-      targetLevel: 'B2',
-      writingType: 'story',
-    },
-    topicName: 'Speaking',
-  },
-  {
-    id: 'b2-u11-l5-s15',
-    type: 'speaking',
-    level: 'B2',
-    topic: 'Culture',
-    difficulty: 'medium',
-    content: {
-      title: LESSON_TITLE,
-      instructions:
-        'Practica expresiones útiles para hablar de cultura. Di en voz alta 3–4 frases con cada una.',
-      prompt:
-        '[[Use these expressions in your own sentences:|Usa estas expresiones en tus propias oraciones:]]\n[[- cultural heritage|- patrimonio cultural]]\n[[- local traditions|- tradiciones locales]]\n[[- respect cultural differences|- respetar las diferencias culturales]]\n[[- embrace a new culture|- abrazar una nueva cultura]]',
-      targetLevel: 'B2',
-      writingType: 'description',
-    },
-    topicName: 'Speaking',
-  },
-  {
-    id: 'b2-u11-l5-s16',
-    type: 'speaking',
-    level: 'B2',
-    topic: 'Culture',
-    difficulty: 'medium',
-    content: {
-      title: LESSON_TITLE,
-      instructions:
-        'Habla en voz alta: convence a un amigo de visitar un festival cultural contigo.',
-      prompt:
-        '[[Persuade a friend to visit a cultural festival in your country. Mention:|Convence a un amigo de visitar un festival cultural en tu país. Menciona:]]\n[[- what they will see and do|- qué verán y harán]]\n[[- people who they will meet|- personas que conocerán]]\n[[- food which they should try|- comida que deberían probar]]\n[[- reasons why this experience will be unforgettable|- razones por las que esta experiencia será inolvidable]]',
-      targetLevel: 'B2',
-      writingType: 'article',
-    },
-    topicName: 'Speaking',
-  },
+  { id: 'b2-u11-l5-s1', type: 'pronunciation', level: 'B2', topic: 'Culture', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha la frase y repítela en voz alta.', targetText: '[[The artist|El artista]] [[whose paintings|cuya pinturas]] [[we admired|que admiramos]] [[is from Italy|es de Italia]].', expectedResponse: 'The artist whose paintings we admired is from Italy.' }, topicName: 'Speaking' },
+  { id: 'b2-u11-l5-s2', type: 'pronunciation', level: 'B2', topic: 'Culture', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[The temple|El templo]] [[which was built|que fue construido]] [[centuries ago|hace siglos]] [[still attracts pilgrims|sigue atrayendo peregrinos]].', expectedResponse: 'The temple which was built centuries ago still attracts pilgrims.' }, topicName: 'Speaking' },
+  { id: 'b2-u11-l5-s3', type: 'pronunciation', level: 'B2', topic: 'Culture', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[This is the square|Esta es la plaza]] [[where the annual carnival|donde el carnaval anual]] [[takes place|tiene lugar]].', expectedResponse: 'This is the square where the annual carnival takes place.' }, topicName: 'Speaking' },
+  { id: 'b2-u11-l5-s4', type: 'pronunciation', level: 'B2', topic: 'Culture', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[My cousin|Mi prima]], [[who lives in Tokyo|que vive en Tokio]], [[speaks fluent Japanese|habla japonés con fluidez]].', expectedResponse: 'My cousin, who lives in Tokyo, speaks fluent Japanese.' }, topicName: 'Speaking' },
+  { id: 'b2-u11-l5-s5', type: 'pronunciation', level: 'B2', topic: 'Culture', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[The ceremony|La ceremonia]] [[that we attended|a la que asistimos]] [[last year|el año pasado]] [[was unforgettable|fue inolvidable]].', expectedResponse: 'The ceremony that we attended last year was unforgettable.' }, topicName: 'Speaking' },
+  { id: 'b2-u11-l5-s6', type: 'pronunciation', level: 'B2', topic: 'Culture', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[People|La gente]] [[who respect local customs|que respeta las costumbres locales]] [[usually have|suele tener]] [[a better experience|una mejor experiencia]].', expectedResponse: 'People who respect local customs usually have a better experience.' }, topicName: 'Speaking' },
+  { id: 'b2-u11-l5-s7', type: 'pronunciation', level: 'B2', topic: 'Culture', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[The museum|El museo]], [[which opened in 1998|que abrió en 1998]], [[houses a unique collection|alberga una colección única]].', expectedResponse: 'The museum, which opened in 1998, houses a unique collection.' }, topicName: 'Speaking' },
+  { id: 'b2-u11-l5-s8', type: 'pronunciation', level: 'B2', topic: 'Culture', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Escucha y repite en voz alta.', targetText: '[[The village|El pueblo]] [[where I spent my childhood|donde pasé mi infancia]] [[has changed a lot|ha cambiado mucho]].', expectedResponse: 'The village where I spent my childhood has changed a lot.' }, topicName: 'Speaking' },
+  { id: 'b2-u11-l5-s9', type: 'pronunciation', level: 'B2', topic: 'Culture', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Lee en voz alta y céntrate en la entonación.', targetText: '[[The composer|El compositor]] [[whose music inspired the ballet|cuya música inspiró el ballet]] [[is world-famous|es mundialmente famoso]].', expectedResponse: 'The composer whose music inspired the ballet is world-famous.' }, topicName: 'Speaking' },
+  { id: 'b2-u11-l5-s10', type: 'pronunciation', level: 'B2', topic: 'Culture', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Lee en voz alta y usa énfasis en las palabras clave.', targetText: '[[The recipe|La receta]] [[that my grandmother taught me|que mi abuela me enseñó]] [[has been passed down|se ha transmitido]] [[for generations|durante generaciones]].', expectedResponse: 'The recipe that my grandmother taught me has been passed down for generations.' }, topicName: 'Speaking' },
+  { id: 'b2-u11-l5-s11', type: 'speaking', level: 'B2', topic: 'Culture', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Habla durante 1–2 minutos: describe un festival cultural usando al menos 3 oraciones de relativo.', prompt: '[[Describe a cultural festival from your country. Include:|Describe un festival cultural de tu país. Incluye:]]\n[[- what it is called and when it takes place|- cómo se llama y cuándo tiene lugar]]\n[[- who takes part|- quién participa]]\n[[- where the main events happen|- dónde tienen lugar los eventos principales]]\n[[- why it is important|- por qué es importante]]', targetLevel: 'B2', writingType: 'description' }, topicName: 'Speaking' },
+  { id: 'b2-u11-l5-s12', type: 'speaking', level: 'B2', topic: 'Culture', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Habla durante 1–2 minutos: compara dos tradiciones usando oraciones de relativo.', prompt: '[[Compare a tradition from your culture with one from another culture.|Compara una tradición de tu cultura con una de otra cultura.]]\n[[Use relative clauses to explain:|Usa oraciones de relativo para explicar:]]\n[[- people who take part|- personas que participan]]\n[[- places where they happen|- lugares donde tienen lugar]]\n[[- things which are important|- cosas que son importantes]]', targetLevel: 'B2', writingType: 'description' }, topicName: 'Speaking' },
+  { id: 'b2-u11-l5-s13', type: 'speaking', level: 'B2', topic: 'Culture', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Responde en voz alta: da tu opinión sobre la preservación del patrimonio cultural.', prompt: '[[Do you think cultural heritage should be preserved? Give reasons and examples.|¿Crees que el patrimonio cultural debería preservarse? Da razones y ejemplos.]]', targetLevel: 'B2', writingType: 'essay' }, topicName: 'Speaking' },
+  { id: 'b2-u11-l5-s14', type: 'speaking', level: 'B2', topic: 'Culture', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Habla en voz alta: explica una experiencia de choque cultural.', prompt: '[[Describe a situation where you felt culture shock or imagine one. Explain:|Describe una situación en la que sentiste choque cultural o imagina una. Explica:]]\n[[- what surprised you|- qué te sorprendió]]\n[[- how people behaved|- cómo se comportaba la gente]]\n[[- what you learned|- qué aprendiste]]', targetLevel: 'B2', writingType: 'story' }, topicName: 'Speaking' },
+  { id: 'b2-u11-l5-s15', type: 'speaking', level: 'B2', topic: 'Culture', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Practica expresiones. Di en voz alta 3–4 frases con cada una.', prompt: '[[Use these expressions in your own sentences:|Usa estas expresiones en tus propias oraciones:]]\n[[- cultural heritage|- patrimonio cultural]]\n[[- local traditions|- tradiciones locales]]\n[[- respect cultural differences|- respetar las diferencias culturales]]\n[[- embrace a new culture|- abrazar una nueva cultura]]', targetLevel: 'B2', writingType: 'description' }, topicName: 'Speaking' },
+  { id: 'b2-u11-l5-s16', type: 'speaking', level: 'B2', topic: 'Culture', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Habla en voz alta: convence a un amigo de visitar un museo cultural contigo.', prompt: '[[Persuade a friend to visit a cultural museum. Mention:|Convence a un amigo de visitar un museo cultural. Menciona:]]\n[[- what they will see|- qué verán]]\n[[- why it is interesting|- por qué es interesante]]\n[[- what they will learn|- qué aprenderán]]', targetLevel: 'B2', writingType: 'article' }, topicName: 'Speaking' },
+  { id: 'b2-u11-l5-s17', type: 'speaking', level: 'B2', topic: 'Culture', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Habla durante 1 minuto: describe un lugar emblemático de tu ciudad usando oraciones de relativo.', prompt: '[[Describe a cultural landmark in your city.|Describe un lugar emblemático cultural de tu ciudad.]]\n[[Use who, which, where or whose at least twice.|Usa who, which, where o whose al menos dos veces.]]', targetLevel: 'B2', writingType: 'description' }, topicName: 'Speaking' },
+  { id: 'b2-u11-l5-s18', type: 'speaking', level: 'B2', topic: 'Culture', difficulty: 'medium', content: { title: LESSON_TITLE, instructions: 'Responde en voz alta: ¿qué tradición de tu país te gustaría que los extranjeros conocieran?', prompt: '[[What tradition from your country would you like foreigners to know about? Explain why and use relative clauses.|¿Qué tradición de tu país te gustaría que los extranjeros conocieran? Explica por qué y usa oraciones de relativo.]]', targetLevel: 'B2', writingType: 'essay' }, topicName: 'Speaking' },
 ];
