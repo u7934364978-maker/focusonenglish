@@ -147,7 +147,7 @@ export const UNIT_12_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla durante 1–2 minutos: recomienda una serie que te haya gustado usando oraciones de relativo.',
       prompt:
-        'Recommend a series which you really enjoyed. Explain:\n- what it is about\n- who the main characters are\n- what makes it different from other series you have seen',
+        '[[Recommend a series which you really enjoyed. Explain:|Recomienda una serie que te haya gustado mucho. Explica:]]\n[[- what it is about|- de qué trata]]\n[[- who the main characters are|- quiénes son los personajes principales]]\n[[- what makes it different from other series you have seen|- qué la hace diferente de otras series que has visto]]',
       targetLevel: 'B2',
       writingType: 'review',
     },
@@ -164,7 +164,7 @@ export const UNIT_12_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Compara dos plataformas de streaming que conozcas usando vocabulario de entretenimiento.',
       prompt:
-        'Compare two streaming platforms you know. Mention:\n- the kind of series and films they offer\n- features which you like or dislike\n- reasons why you use one more than the other',
+        '[[Compare two streaming platforms you know. Mention:|Compara dos plataformas de streaming que conozcas. Menciona:]]\n[[- the kind of series and films they offer|- el tipo de series y películas que ofrecen]]\n[[- features which you like or dislike|- funciones que te gustan o disgustan]]\n[[- reasons why you use one more than the other|- razones por las que usas una más que la otra]]',
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -181,7 +181,7 @@ export const UNIT_12_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Da tu opinión sobre el binge-watching (ver muchos episodios seguidos).',
       prompt:
-        'Do you think binge-watching series is a good way to relax or a bad habit which wastes time? Give reasons and examples.',
+        '[[Do you think binge-watching series is a good way to relax or a bad habit which wastes time? Give reasons and examples.|¿Crees que ver muchas series seguidas es una buena forma de relajarse o un mal hábito que desperdicia tiempo? Da razones y ejemplos.]]',
       targetLevel: 'B2',
       writingType: 'essay',
     },
@@ -198,7 +198,7 @@ export const UNIT_12_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Describe tu noche de entretenimiento ideal usando vocabulario de la unidad.',
       prompt:
-        'Describe your ideal entertainment night: where you would go, what you would watch or do, and who you would invite.',
+        '[[Describe your ideal entertainment night: where you would go, what you would watch or do, and who you would invite.|Describe tu noche de entretenimiento ideal: dónde irías, qué verías o harías, y a quién invitarías.]]',
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -215,7 +215,7 @@ export const UNIT_12_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Practica expresiones útiles para opinar sobre películas y series.',
       prompt:
-        'Use these expressions in full sentences: "gripping plot", "predictable ending", "thought-provoking documentary", "light-hearted comedy".',
+        '[[Use these expressions in full sentences:|Usa estas expresiones en oraciones completas:]] [[gripping plot|trama absorbente]], [[predictable ending|final predecible]], [[thought-provoking documentary|documental que invita a reflexionar]], [[light-hearted comedy|comedia ligera]].',
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -232,7 +232,7 @@ export const UNIT_12_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Responde en voz alta a preguntas de tipo entrevista sobre tus hábitos de ocio.',
       prompt:
-        'Answer these questions:\n- How often do you go to the cinema?\n- What kind of films do you usually watch?\n- Is there a series which you would recommend to everyone? Why?',
+        '[[Answer these questions:|Responde a estas preguntas:]]\n[[- How often do you go to the cinema?|- ¿Con qué frecuencia vas al cine?]]\n[[- What kind of films do you usually watch?|- ¿Qué tipo de películas sueles ver?]]\n[[- Is there a series which you would recommend to everyone? Why?|- ¿Hay alguna serie que recomendarías a todo el mundo? ¿Por qué?]]',
       targetLevel: 'B2',
       writingType: 'interview',
     },
@@ -249,7 +249,7 @@ export const UNIT_12_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Role-play: convence a un amigo para ver una película o serie que te encanta.',
       prompt:
-        'Persuade a friend to watch a film or series you love. Mention:\n- its main strengths (acting, plot, soundtrack)\n- awards which it has received\n- situations where you think they would enjoy it',
+        '[[Persuade a friend to watch a film or series you love. Mention:|Convence a un amigo de ver una película o serie que te encanta. Menciona:]]\n[[- its main strengths (acting, plot, soundtrack)|- sus principales puntos fuertes (actuación, trama, banda sonora)]]\n[[- awards which it has received|- premios que ha recibido]]\n[[- situations where you think they would enjoy it|- situaciones en las que crees que la disfrutarían]]',
       targetLevel: 'B2',
       writingType: 'roleplay',
     },
@@ -266,7 +266,7 @@ export const UNIT_12_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Describe una película o serie reciente usando al menos 3 oraciones de relativo.',
       prompt:
-        'Describe a recent film or series:\n- a character who impressed you\n- scenes which you remember clearly\n- a moment where the story surprised you',
+        '[[Describe a recent film or series:|Describe una película o serie reciente:]]\n[[- a character who impressed you|- un personaje que te impresionó]]\n[[- scenes which you remember clearly|- escenas que recuerdas claramente]]\n[[- a moment where the story surprised you|- un momento en el que la historia te sorprendió]]',
       targetLevel: 'B2',
       writingType: 'review',
     },
@@ -283,7 +283,7 @@ export const UNIT_12_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla de un documental que te haya hecho reflexionar.',
       prompt:
-        'Talk about a documentary which changed the way you think about something. Explain what it was about and why it was thought-provoking.',
+        '[[Talk about a documentary which changed the way you think about something. Explain what it was about and why it was thought-provoking.|Habla de un documental que cambió tu forma de pensar sobre algo. Explica de qué trataba y por qué te hizo reflexionar.]]',
       targetLevel: 'B2',
       writingType: 'review',
     },
@@ -300,7 +300,7 @@ export const UNIT_12_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Da tu opinión sobre si el cine tradicional desaparecerá por culpa del streaming.',
       prompt:
-        'Do you think cinemas, which used to be much more popular, will disappear because of streaming platforms? Give arguments for and against.',
+        '[[Do you think cinemas, which used to be much more popular, will disappear because of streaming platforms? Give arguments for and against.|¿Crees que los cines, que solían ser mucho más populares, desaparecerán por las plataformas de streaming? Da argumentos a favor y en contra.]]',
       targetLevel: 'B2',
       writingType: 'essay',
     },

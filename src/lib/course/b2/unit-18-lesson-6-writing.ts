@@ -19,7 +19,7 @@ export const UNIT_18_LESSON_6_WRITING: Exercise[] = [
       instructions:
         'Escribe 3–4 frases describiendo una experiencia en un restaurante usando so, such, too y enough.',
       prompt:
-        'Describe a restaurant experience. Use so, such, too and enough (e.g. "The food was so good that...", "The portion was big enough to...").',
+        '[[Describe a restaurant experience|Describe una experiencia en un restaurante]]. [[Use so, such, too and enough|Usa tan, tal, demasiado y suficiente]] ([[e.g.|e.g.]] "[[The food was so good that|La comida era tan buena que]]...", "[[The portion was big enough to|La porción era lo bastante grande para]]...").',
       targetLevel: 'B2',
       writingType: 'description',
       targetLength: '3-4 frases',
@@ -39,10 +39,10 @@ export const UNIT_18_LESSON_6_WRITING: Exercise[] = [
       questions: [
         {
           question:
-            'The pasta was ____ delicious that I had a second helping.',
-          options: ['so', 'such', 'too'],
-          correctAnswer: 'so',
-          acceptableAnswers: ['so'],
+            '[[The pasta|La pasta]] [[was|era]] ____ [[delicious|deliciosa]] [[that|que]] [[I had a second helping|pedí una segunda ración]].',
+          options: ['[[so|tan]]', '[[such|tal]]', '[[too|demasiado]]'],
+          correctAnswer: '[[so|tan]]',
+          acceptableAnswers: ['[[so|tan]]'],
           explanation:
             'So + adjective: "so delicious" = tan delicioso. Se usa "that" para la consecuencia.',
         },
@@ -61,8 +61,8 @@ export const UNIT_18_LESSON_6_WRITING: Exercise[] = [
       instructions:
         'Reescribe la frase usando such: "The meal was very good. We stayed for dessert."',
       prompt:
-        'Combine into one sentence using "such a... that"',
-      expressionHint: 'It was such a good meal that we stayed for dessert.',
+        '[[Combine into one sentence using|Combina en una frase usando]] "[[such a... that|tan buena... que]]"',
+      expressionHint: '[[It was such a good meal that we stayed for dessert|Fue tan buena comida que nos quedamos para el postre]].',
       targetLength: '1 frase',
     },
     topicName: 'Writing',
@@ -78,7 +78,7 @@ export const UNIT_18_LESSON_6_WRITING: Exercise[] = [
       instructions:
         'Escribe 2 frases: una con "too + adjective" y otra con "adjective + enough".',
       prompt:
-        'Write two sentences about food using:\n- too + adjective (e.g. too salty)\n- adjective + enough (e.g. sweet enough)',
+        '[[Write two sentences about food using|Escribe dos frases sobre comida usando]]:\n- [[too + adjective|demasiado + adjetivo]] ([[e.g.|e.g.]] [[too salty|demasiado salado]])\n- [[adjective + enough|adjetivo + suficiente]] ([[e.g.|e.g.]] [[sweet enough|lo bastante dulce]])',
       targetLength: '2 frases',
     },
     topicName: 'Writing',
@@ -95,10 +95,10 @@ export const UNIT_18_LESSON_6_WRITING: Exercise[] = [
       questions: [
         {
           question:
-            'The soup was ____ hot to eat. I had to wait for it to cool down.',
-          options: ['too', 'so', 'such'],
-          correctAnswer: 'too',
-          acceptableAnswers: ['too'],
+            '[[The soup|La sopa]] [[was|estaba]] ____ [[hot|caliente]] [[to eat|para comer]]. [[I had to wait for it to cool down|Tuve que esperar a que se enfriara]].',
+          options: ['[[too|demasiado]]', '[[so|tan]]', '[[such|tal]]'],
+          correctAnswer: '[[too|demasiado]]',
+          acceptableAnswers: ['[[too|demasiado]]'],
           explanation:
             'Too + adjective: "too hot" = demasiado caliente. Implica que no se pudo comer.',
         },
@@ -117,7 +117,7 @@ export const UNIT_18_LESSON_6_WRITING: Exercise[] = [
       instructions:
         'Escribe un breve párrafo (3–4 frases) sobre tu restaurante favorito. Incluye al menos una estructura con so, such, too o enough.',
       prompt:
-        'Describe your favourite restaurant. Use vocabulary: menu, portion, starter, main course, dessert.',
+        '[[Describe your favourite restaurant|Describe tu restaurante favorito]]. [[Use vocabulary|Usa vocabulario]]: [[menu|menú]], [[portion|porción]], [[starter|entrante]], [[main course|plato principal]], [[dessert|postre]].',
       targetLength: '3-4 frases',
     },
     topicName: 'Writing',
@@ -133,7 +133,7 @@ export const UNIT_18_LESSON_6_WRITING: Exercise[] = [
       instructions:
         'Completa las frases con ideas propias usando so, such, too o enough.',
       prompt:
-        'Finish these sentences:\n1. The restaurant had so many...\n2. The coffee was too...\n3. The portion wasn\'t big enough to...',
+        "[[Finish these sentences|Completa estas frases]]:\n1. [[The restaurant had so many|El restaurante tenía tantos]]...\n2. [[The coffee was too|El café era demasiado]]...\n3. [[The portion wasn't big enough to|La porción no era lo bastante grande para]]...",
       targetLength: '3-4 frases',
     },
     topicName: 'Writing',
@@ -151,10 +151,10 @@ export const UNIT_18_LESSON_6_WRITING: Exercise[] = [
       questions: [
         {
           question:
-            'The cake wasn\'t sweet ____ for my taste. I prefer more sugar.',
-          options: ['enough', 'too', 'so'],
-          correctAnswer: 'enough',
-          acceptableAnswers: ['enough'],
+            "[[The cake|La tarta]] [[wasn't|no era]] [[sweet|dulce]] ____ [[for my taste|para mi gusto]]. [[I prefer more sugar|Prefiero más azúcar]].",
+          options: ['[[enough|suficiente]]', '[[too|demasiado]]', '[[so|tan]]'],
+          correctAnswer: '[[enough|suficiente]]',
+          acceptableAnswers: ['[[enough|suficiente]]'],
           explanation:
             'Adjective + enough: "wasn\'t sweet enough" = no era lo bastante dulce.',
         },
@@ -173,7 +173,7 @@ export const UNIT_18_LESSON_6_WRITING: Exercise[] = [
       instructions:
         'Escribe la introducción de un artículo (40–60 palabras) sobre la dieta mediterránea.',
       prompt:
-        'Write an introduction to an article about the Mediterranean diet. Use vocabulary: fresh, vegetables, olive oil, healthy.',
+        '[[Write an introduction to an article about the Mediterranean diet|Escribe la introducción de un artículo sobre la dieta mediterránea]]. [[Use vocabulary|Usa vocabulario]]: [[fresh|fresco]], [[vegetables|verduras]], [[olive oil|aceite de oliva]], [[healthy|saludable]].',
       writingType: 'article',
       targetLength: '40-60 palabras',
     },
@@ -190,7 +190,7 @@ export const UNIT_18_LESSON_6_WRITING: Exercise[] = [
       instructions:
         'Escribe 2–3 frases explicando por qué es importante leer el menú antes de pedir.',
       prompt:
-        'Explain why it\'s important to read the menu carefully before ordering. Consider allergens, portions, and prices.',
+        "[[Explain why it's important to read the menu carefully before ordering|Explica por qué es importante leer el menú con cuidado antes de pedir]]. [[Consider|Considera]]: [[allergens|alérgenos]], [[portions|porciones]], [[and prices|y precios]].",
       targetLength: '2-3 frases',
     },
     topicName: 'Writing',
@@ -207,10 +207,10 @@ export const UNIT_18_LESSON_6_WRITING: Exercise[] = [
       questions: [
         {
           question:
-            'There were ____ many choices on the menu that I couldn\'t decide.',
-          options: ['so', 'such', 'too'],
-          correctAnswer: 'so',
-          acceptableAnswers: ['so'],
+            "[[There were|Había]] ____ [[many choices|muchas opciones]] [[on the menu|en el menú]] [[that|que]] [[I couldn't decide|no pude decidir]].",
+          options: ['[[so|tan]]', '[[such|tal]]', '[[too|demasiado]]'],
+          correctAnswer: '[[so|tan]]',
+          acceptableAnswers: ['[[so|tan]]'],
           explanation:
             'So many + plural: "so many choices" = tantas opciones.',
         },
@@ -229,8 +229,8 @@ export const UNIT_18_LESSON_6_WRITING: Exercise[] = [
       instructions:
         'Transforma la frase usando too: "The coffee was very strong. I couldn\'t drink it without milk."',
       prompt:
-        'Use "too... to"',
-      expressionHint: 'The coffee was too strong to drink without milk.',
+        '[[Use|Usa]] "[[too... to|demasiado... para]]"',
+      expressionHint: '[[The coffee was too strong to drink without milk|El café era demasiado fuerte para beber sin leche]].',
       targetLength: '1 frase',
     },
     topicName: 'Writing',
@@ -246,7 +246,7 @@ export const UNIT_18_LESSON_6_WRITING: Exercise[] = [
       instructions:
         'Escribe 3 frases: una con so, otra con such y otra con enough.',
       prompt:
-        'Write three sentences about food or restaurants using:\n- so + adjective (e.g. so delicious)\n- such a + noun (e.g. such a good meal)\n- enough (e.g. big enough to share)',
+        '[[Write three sentences about food or restaurants using|Escribe tres frases sobre comida o restaurantes usando]]:\n- [[so + adjective|tan + adjetivo]] ([[e.g.|e.g.]] [[so delicious|tan delicioso]])\n- [[such a + noun|tal + sustantivo]] ([[e.g.|e.g.]] [[such a good meal|tan buena comida]])\n- [[enough|suficiente]] ([[e.g.|e.g.]] [[big enough to share|lo bastante grande para compartir]])',
       targetLength: '3 frases',
     },
     topicName: 'Writing',
@@ -263,10 +263,10 @@ export const UNIT_18_LESSON_6_WRITING: Exercise[] = [
       questions: [
         {
           question:
-            'It was ____ expensive restaurant that we could only afford to go once a year.',
-          options: ['such an', 'so an', 'too an'],
-          correctAnswer: 'such an',
-          acceptableAnswers: ['such an'],
+            '[[It was|Era]] ____ [[expensive restaurant|restaurante caro]] [[that|que]] [[we could only afford to go once a year|solo podíamos permitirnos ir una vez al año]].',
+          options: ['[[such an|tan]]', '[[so an|tan un]]', '[[too an|demasiado un]]'],
+          correctAnswer: '[[such an|tan]]',
+          acceptableAnswers: ['[[such an|tan]]'],
           explanation:
             'Such a/an + adjective + noun: "such an expensive restaurant" = un restaurante tan caro.',
         },
@@ -285,7 +285,7 @@ export const UNIT_18_LESSON_6_WRITING: Exercise[] = [
       instructions:
         'Escribe un breve texto (aprox. 60–80 palabras) sobre las ventajas de cocinar en casa.',
       prompt:
-        'Explain the advantages of cooking at home. Use vocabulary: recipe, ingredients, portion, healthy.',
+        '[[Explain the advantages of cooking at home|Explica las ventajas de cocinar en casa]]. [[Use vocabulary|Usa vocabulario]]: [[recipe|receta]], [[ingredients|ingredientes]], [[portion|porción]], [[healthy|saludable]].',
       targetLength: '60-80 palabras',
     },
     topicName: 'Writing',
@@ -301,7 +301,7 @@ export const UNIT_18_LESSON_6_WRITING: Exercise[] = [
       instructions:
         'Escribe 2–3 frases dando consejos a alguien que va a un restaurante por primera vez.',
       prompt:
-        'Give advice to someone eating at a restaurant for the first time. Use: place an order, book a table, tip.',
+        '[[Give advice to someone eating at a restaurant for the first time|Da consejos a alguien que come en un restaurante por primera vez]]. [[Use|Usa]]: [[place an order|hacer un pedido]], [[book a table|reservar una mesa]], [[tip|propina]].',
       targetLength: '2-3 frases',
     },
     topicName: 'Writing',
@@ -318,10 +318,10 @@ export const UNIT_18_LESSON_6_WRITING: Exercise[] = [
       questions: [
         {
           question:
-            'We didn\'t have ____ time to order dessert. The restaurant was closing.',
-          options: ['enough', 'too', 'so'],
-          correctAnswer: 'enough',
-          acceptableAnswers: ['enough'],
+            "[[We didn't have|No tuvimos]] ____ [[time|tiempo]] [[to order dessert|para pedir postre]]. [[The restaurant was closing|El restaurante estaba cerrando]].",
+          options: ['[[enough|suficiente]]', '[[too|demasiado]]', '[[so|tan]]'],
+          correctAnswer: '[[enough|suficiente]]',
+          acceptableAnswers: ['[[enough|suficiente]]'],
           explanation:
             'Enough + noun: "enough time" = suficiente tiempo.',
         },
@@ -340,7 +340,7 @@ export const UNIT_18_LESSON_6_WRITING: Exercise[] = [
       instructions:
         'Redacta la conclusión de un artículo (40–60 palabras) sobre por qué la comida local es mejor que la cadena de restaurantes.',
       prompt:
-        'Write a short conclusion explaining why local food is better than chain restaurants. Use so, such, too or enough where appropriate.',
+        '[[Write a short conclusion explaining why local food is better than chain restaurants|Escribe una breve conclusión explicando por qué la comida local es mejor que las cadenas de restaurantes]]. [[Use so, such, too or enough where appropriate|Usa tan, tal, demasiado o suficiente donde sea apropiado]].',
       targetLength: '40-60 palabras',
     },
     topicName: 'Writing',

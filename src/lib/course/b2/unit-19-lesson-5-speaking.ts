@@ -179,7 +179,7 @@ export const UNIT_19_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla durante 1–2 minutos: compara dos deportes usando comparativos y superlativos avanzados.',
       prompt:
-        'Compare two sports (e.g. football vs basketball, swimming vs running). Use:\n- the more... the more\n- far/much + comparative\n- as... as\n- one of the most',
+        '[[Compare two sports|Compara dos deportes]] ([[e.g.|e.g.]] [[football vs basketball|fútbol vs baloncesto]], [[swimming vs running|natación vs running]]). [[Use:|Usa:]]\n- [[the more... the more|cuanto más... más]]\n- [[far/much + comparative|mucho + comparativo]]\n- [[as... as|tan... como]]\n- [[one of the most|uno de los más]]',
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -196,7 +196,7 @@ export const UNIT_19_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla durante 1–2 minutos: da tu opinión sobre qué hace que un atleta tenga éxito.',
       prompt:
-        'What do you think makes an athlete successful? Consider:\n- training\n- talent\n- motivation\n- teamwork',
+        '[[What do you think makes an athlete successful?|¿Qué crees que hace que un atleta tenga éxito?]] [[Consider:|Considera:]]\n- [[training|entrenamiento]]\n- [[talent|talento]]\n- [[motivation|motivación]]\n- [[teamwork|trabajo en equipo]]',
       targetLevel: 'B2',
       writingType: 'essay',
     },
@@ -213,7 +213,7 @@ export const UNIT_19_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Responde en voz alta: describe el mejor partido o competición que hayas visto.',
       prompt:
-        'Describe the best match or competition you have ever watched. Use "the best... I have ever" and comparatives.',
+        '[[Describe the best match or competition you have ever watched|Describe el mejor partido o competición que hayas visto]]. [[Use "the best... I have ever" and comparatives|Usa "el mejor... que he visto jamás" y comparativos]].',
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -230,7 +230,7 @@ export const UNIT_19_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla en voz alta: explica las ventajas y desventajas de los deportes de equipo vs individuales.',
       prompt:
-        'Discuss the pros and cons of team sports versus individual sports. Use comparatives (more/less, as... as).',
+        '[[Discuss the pros and cons of team sports versus individual sports|Discute las ventajas y desventajas de los deportes de equipo vs individuales]]. [[Use comparatives|Usa comparativos]] ([[more/less|más/menos]], [[as... as|tan... como]]).',
       targetLevel: 'B2',
       writingType: 'essay',
     },
@@ -247,7 +247,7 @@ export const UNIT_19_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Practica expresiones útiles para hablar de deporte. Di en voz alta 3–4 frases con cada una.',
       prompt:
-        'Use these expressions in your own sentences:\n- break a record\n- qualify for\n- warm up\n- by far the best',
+        '[[Use these expressions in your own sentences|Usa estas expresiones en tus propias frases]]:\n- [[break a record|batir un récord]]\n- [[qualify for|clasificarse para]]\n- [[warm up|calentar]]\n- [[by far the best|con diferencia el mejor]]',
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -264,7 +264,7 @@ export const UNIT_19_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla en voz alta: convence a alguien de que el deporte que practicas es el mejor.',
       prompt:
-        'Convince someone that your favourite sport is the best. Use "by far the best", "the most...", "far more... than".',
+        '[[Convince someone that your favourite sport is the best|Convence a alguien de que tu deporte favorito es el mejor]]. [[Use|Usa]] "[[by far the best|con diferencia el mejor]]", "[[the most...|el más...]]", "[[far more... than|mucho más... que]]".',
       targetLevel: 'B2',
       writingType: 'article',
     },
@@ -281,7 +281,7 @@ export const UNIT_19_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla durante 1–2 minutos: compara los deportes extremos y los deportes tradicionales.',
       prompt:
-        'Compare extreme sports and traditional sports. Consider:\n- risk\n- popularity\n- accessibility\n- excitement',
+        '[[Compare extreme sports and traditional sports|Compara los deportes extremos y los tradicionales]]. [[Consider:|Considera:]]\n- [[risk|riesgo]]\n- [[popularity|popularidad]]\n- [[accessibility|accesibilidad]]\n- [[excitement|emoción]]',
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -298,7 +298,7 @@ export const UNIT_19_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Responde en voz alta: ¿qué consejo darías a alguien que quiere mejorar en un deporte? Usa comparativos.',
       prompt:
-        'What advice would you give to someone who wants to improve in a sport? Use "the more... the more", "as... as", "nothing more important than".',
+        '[[What advice would you give to someone who wants to improve in a sport?|¿Qué consejo darías a alguien que quiere mejorar en un deporte?]] [[Use|Usa]] "[[the more... the more|cuanto más... más]]", "[[as... as|tan... como]]", "[[nothing more important than|nada más importante que]]".',
       targetLevel: 'B2',
       writingType: 'essay',
     },

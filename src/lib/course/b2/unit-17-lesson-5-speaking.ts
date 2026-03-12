@@ -179,7 +179,7 @@ export const UNIT_17_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla durante 1–2 minutos: describe un experimento o avance científico usando modal passive y have something done.',
       prompt:
-        'Describe a scientific experiment or breakthrough. Use:\n- modal passive (must be done, should have been done)\n- have something done (e.g. have equipment calibrated)',
+        '[[Describe a scientific experiment or breakthrough|Describe un experimento o avance científico]]. [[Use:|Usa:]]\n- [[modal passive|pasiva modal]] ([[must be done|debe hacerse]], [[should have been done|debería haberse hecho]])\n- [[have something done|tener algo hecho]] ([[e.g.|e.g.]] [[have equipment calibrated|hacer calibrar el equipo]])',
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -196,7 +196,7 @@ export const UNIT_17_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla durante 1–2 minutos: da tu opinión sobre por qué la investigación científica es importante.',
       prompt:
-        'Why do you think scientific research is important? Consider:\n- medical advances\n- technology\n- the environment',
+        '[[Why do you think scientific research is important?|¿Por qué crees que la investigación científica es importante?]] [[Consider:|Considera:]]\n- [[medical advances|avances médicos]]\n- [[technology|tecnología]]\n- [[the environment|el medio ambiente]]',
       targetLevel: 'B2',
       writingType: 'essay',
     },
@@ -213,7 +213,7 @@ export const UNIT_17_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Responde en voz alta: ¿qué cosas deben hacerse en un laboratorio para garantizar resultados fiables?',
       prompt:
-        'What must be done in a laboratory to ensure reliable results? Use modal passive (must be tested, should be calibrated, etc.).',
+        '[[What must be done in a laboratory to ensure reliable results?|¿Qué debe hacerse en un laboratorio para garantizar resultados fiables?]] [[Use modal passive|Usa pasiva modal]] ([[must be tested|deben ser probadas]], [[should be calibrated|debería calibrarse]], etc.).',
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -230,7 +230,7 @@ export const UNIT_17_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla en voz alta: explica las ventajas y desventajas de la revisión por pares en ciencia.',
       prompt:
-        'Discuss the pros and cons of peer review in science. Consider:\n- quality control\n- delays in publication\n- bias',
+        '[[Discuss the pros and cons of peer review in science|Discute las ventajas y desventajas de la revisión por pares en ciencia]]. [[Consider:|Considera:]]\n- [[quality control|control de calidad]]\n- [[delays in publication|retrasos en la publicación]]\n- [[bias|sesgo]]',
       targetLevel: 'B2',
       writingType: 'essay',
     },
@@ -247,7 +247,7 @@ export const UNIT_17_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Practica expresiones útiles para hablar de ciencia. Di en voz alta 3–4 frases con cada una.',
       prompt:
-        'Use these expressions in your own sentences:\n- conduct an experiment\n- publish findings\n- peer-reviewed\n- breakthrough',
+        '[[Use these expressions in your own sentences|Usa estas expresiones en tus propias frases]]:\n- [[conduct an experiment|realizar un experimento]]\n- [[publish findings|publicar hallazgos]]\n- [[peer-reviewed|revisado por pares]]\n- [[breakthrough|avance]]',
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -264,7 +264,7 @@ export const UNIT_17_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla en voz alta: describe algo que hayas hecho revisar o reparar por alguien (have something done).',
       prompt:
-        'Describe something you had done by someone else (e.g. had your car serviced, had your hair cut). Use "have something done" in at least 2–3 sentences.',
+        '[[Describe something you had done by someone else|Describe algo que hayas hecho hacer por alguien]] ([[e.g.|e.g.]] [[had your car serviced|hacer revisar tu coche]], [[had your hair cut|hacerte cortar el pelo]]). [[Use "have something done" in at least 2–3 sentences|Usa "tener algo hecho" en al menos 2–3 frases]].',
       targetLevel: 'B2',
       writingType: 'article',
     },
@@ -281,7 +281,7 @@ export const UNIT_17_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla durante 1–2 minutos: compara la ciencia básica y la ciencia aplicada.',
       prompt:
-        'Compare basic science (research for knowledge) versus applied science (research for practical use). Consider:\n- funding\n- time to results\n- impact on society',
+        '[[Compare basic science versus applied science|Compara la ciencia básica (investigación para el conocimiento) versus la ciencia aplicada (investigación para uso práctico)]]. [[Consider:|Considera:]]\n- [[funding|financiación]]\n- [[time to results|tiempo hasta resultados]]\n- [[impact on society|impacto en la sociedad]]',
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -298,7 +298,7 @@ export const UNIT_17_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Responde en voz alta: ¿qué avance científico reciente te parece más importante y por qué?',
       prompt:
-        'What recent scientific breakthrough do you find most important and why? Use modal passive where appropriate (e.g. "This discovery must be considered...").',
+        '[[What recent scientific breakthrough do you find most important and why?|¿Qué avance científico reciente te parece más importante y por qué?]] [[Use modal passive where appropriate|Usa pasiva modal donde sea apropiado]] ([[e.g.|e.g.]] "[[This discovery must be considered...|Este descubrimiento debe considerarse...]]").',
       targetLevel: 'B2',
       writingType: 'essay',
     },

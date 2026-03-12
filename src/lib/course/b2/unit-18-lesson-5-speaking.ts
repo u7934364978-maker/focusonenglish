@@ -179,7 +179,7 @@ export const UNIT_18_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla durante 1–2 minutos: describe una experiencia en un restaurante usando so, such, too y enough.',
       prompt:
-        'Describe a restaurant experience. Use:\n- so + adjective (e.g. so delicious)\n- such a + noun (e.g. such a good meal)\n- too + adjective (e.g. too salty)\n- enough (e.g. big enough to share)',
+        '[[Describe a restaurant experience|Describe una experiencia en un restaurante]]. [[Use:|Usa:]]\n- [[so + adjective|tan + adjetivo]] ([[e.g.|e.g.]] [[so delicious|tan delicioso]])\n- [[such a + noun|tal + sustantivo]] ([[e.g.|e.g.]] [[such a good meal|tan buena comida]])\n- [[too + adjective|demasiado + adjetivo]] ([[e.g.|e.g.]] [[too salty|demasiado salado]])\n- [[enough|suficiente]] ([[e.g.|e.g.]] [[big enough to share|lo bastante grande para compartir]])',
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -196,7 +196,7 @@ export const UNIT_18_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla durante 1–2 minutos: da tu opinión sobre la comida saludable vs la comida rápida.',
       prompt:
-        'What do you think about healthy eating versus fast food? Consider:\n- taste and convenience\n- cost\n- health effects',
+        '[[What do you think about healthy eating versus fast food?|¿Qué opinas de la comida saludable versus la comida rápida?]] [[Consider:|Considera:]]\n- [[taste and convenience|sabor y conveniencia]]\n- [[cost|coste]]\n- [[health effects|efectos en la salud]]',
       targetLevel: 'B2',
       writingType: 'essay',
     },
@@ -213,7 +213,7 @@ export const UNIT_18_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Responde en voz alta: describe tu plato favorito usando so, such o enough.',
       prompt:
-        'Describe your favourite dish. Use at least two of: so + adjective, such a + noun, or enough.',
+        '[[Describe your favourite dish|Describe tu plato favorito]]. [[Use at least two of|Usa al menos dos de]]: [[so + adjective|tan + adjetivo]], [[such a + noun|tal + sustantivo]], [[or enough|o suficiente]].',
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -230,7 +230,7 @@ export const UNIT_18_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla en voz alta: explica las ventajas y desventajas de comer en restaurantes vs cocinar en casa.',
       prompt:
-        'Discuss the pros and cons of eating out versus cooking at home. Consider:\n- cost\n- time\n- quality and variety',
+        '[[Discuss the pros and cons of eating out versus cooking at home|Discute las ventajas y desventajas de comer fuera versus cocinar en casa]]. [[Consider:|Considera:]]\n- [[cost|coste]]\n- [[time|tiempo]]\n- [[quality and variety|calidad y variedad]]',
       targetLevel: 'B2',
       writingType: 'essay',
     },
@@ -247,7 +247,7 @@ export const UNIT_18_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Practica expresiones útiles para hablar de comida. Di en voz alta 3–4 frases con cada una.',
       prompt:
-        'Use these expressions in your own sentences:\n- place an order\n- book a table\n- have a sweet tooth\n- portion size',
+        '[[Use these expressions in your own sentences|Usa estas expresiones en tus propias frases]]:\n- [[place an order|hacer un pedido]]\n- [[book a table|reservar una mesa]]\n- [[have a sweet tooth|ser goloso]]\n- [[portion size|tamaño de la ración]]',
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -264,7 +264,7 @@ export const UNIT_18_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla en voz alta: recomienda un restaurante a un amigo que visita tu ciudad.',
       prompt:
-        'Recommend a restaurant to a friend. Mention:\n- what type of food it serves\n- why you like it (use so/such)\n- any drawbacks (use too/enough if relevant)',
+        '[[Recommend a restaurant to a friend|Recomienda un restaurante a un amigo]]. [[Mention:|Menciona:]]\n- [[what type of food it serves|qué tipo de comida sirve]]\n- [[why you like it|por qué te gusta]] ([[use so/such|usa tan/tal]])\n- [[any drawbacks|algún inconveniente]] ([[use too/enough if relevant|usa demasiado/suficiente si es relevante]])',
       targetLevel: 'B2',
       writingType: 'article',
     },
@@ -281,7 +281,7 @@ export const UNIT_18_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla durante 1–2 minutos: compara la cocina de tu país con la de otro país.',
       prompt:
-        'Compare the cuisine of your country with that of another country. Use so, such, too and enough where appropriate.',
+        '[[Compare the cuisine of your country with that of another country|Compara la cocina de tu país con la de otro país]]. [[Use so, such, too and enough where appropriate|Usa tan, tal, demasiado y suficiente donde sea apropiado]].',
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -298,7 +298,7 @@ export const UNIT_18_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Responde en voz alta: ¿qué hace que una comida sea memorable para ti?',
       prompt:
-        'What makes a meal memorable for you? Use so, such, too or enough in your answer (e.g. "The service was so good that...").',
+        '[[What makes a meal memorable for you?|¿Qué hace que una comida sea memorable para ti?]] [[Use so, such, too or enough in your answer|Usa tan, tal, demasiado o suficiente en tu respuesta]] ([[e.g.|e.g.]] "[[The service was so good that...|El servicio era tan bueno que...]]").',
       targetLevel: 'B2',
       writingType: 'essay',
     },

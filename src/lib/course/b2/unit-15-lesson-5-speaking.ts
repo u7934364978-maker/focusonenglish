@@ -179,7 +179,7 @@ export const UNIT_15_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla durante 1–2 minutos: describe un festival o evento cultural usando oraciones de relativo (who, which, where, whose).',
       prompt:
-        'Describe a cultural festival or event you have attended or would like to attend. Use relative clauses to explain:\n- what it is and when it takes place\n- who organises it or attends it\n- where it happens\n- why it is special',
+        '[[Describe a cultural festival or event you have attended or would like to attend. Use relative clauses to explain:|Describe un festival o evento cultural al que has asistido o te gustaría asistir. Usa oraciones de relativo para explicar:]]\n[[- what it is and when it takes place|- qué es y cuándo tiene lugar]]\n[[- who organises it or attends it|- quién lo organiza o asiste]]\n[[- where it happens|- dónde tiene lugar]]\n[[- why it is special|- por qué es especial]]',
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -196,7 +196,7 @@ export const UNIT_15_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla durante 1–2 minutos: describe una situación empresarial o financiera usando modales de deducción.',
       prompt:
-        'Describe a business or financial situation (e.g. a successful deal, a failed project). Use must have, might have, and can\'t have to speculate about what happened.',
+        "[[Describe a business or financial situation (e.g. a successful deal, a failed project). Use must have, might have, and can't have to speculate about what happened.|Describe una situación empresarial o financiera (ej. un acuerdo exitoso, un proyecto fallido). Usa must have, might have y can't have para especular sobre qué pasó.]]",
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -213,7 +213,7 @@ export const UNIT_15_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Responde en voz alta: da tu opinión sobre la relación entre cultura y dinero.',
       prompt:
-        'Do you think people should spend money on cultural experiences (festivals, concerts, travel) even when they have a limited budget? Give reasons and examples.',
+        '[[Do you think people should spend money on cultural experiences (festivals, concerts, travel) even when they have a limited budget? Give reasons and examples.|¿Crees que la gente debería gastar dinero en experiencias culturales (festivales, conciertos, viajes) incluso cuando tienen un presupuesto limitado? Da razones y ejemplos.]]',
       targetLevel: 'B2',
       writingType: 'essay',
     },
@@ -230,7 +230,7 @@ export const UNIT_15_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla en voz alta: explica qué obligaciones tienes (o no) en tu vida usando must, have to, need to, needn\'t.',
       prompt:
-        'Talk about obligations in your life:\n- what you must have to do\n- what you needn\'t do\n- what you had to do in the past',
+        "[[Talk about obligations in your life:|Habla de obligaciones en tu vida:]]\n[[- what you must have to do|- qué debes/tienes que hacer]]\n[[- what you needn't do|- qué no necesitas hacer]]\n[[- what you had to do in the past|- qué tuviste que hacer en el pasado]]",
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -247,7 +247,7 @@ export const UNIT_15_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Practica expresiones útiles. Di en voz alta 3–4 frases con cada una.',
       prompt:
-        'Use these expressions in your own sentences:\n- cultural heritage\n- reach a deal\n- market share\n- needn\'t have worried',
+        "[[Use these expressions in your own sentences:|Usa estas expresiones en tus propias oraciones:]]\n[[- cultural heritage|- patrimonio cultural]]\n[[- reach a deal|- llegar a un acuerdo]]\n[[- market share|- cuota de mercado]]\n[[- needn't have worried|- no necesitabas haberte preocupado]]",
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -264,7 +264,7 @@ export const UNIT_15_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla en voz alta: compara dos experiencias (una cultural y una relacionada con dinero o negocios).',
       prompt:
-        'Compare two experiences: one cultural (e.g. a festival) and one related to money or business (e.g. saving for something, a negotiation). Use relative clauses and modals where appropriate.',
+        '[[Compare two experiences: one cultural (e.g. a festival) and one related to money or business (e.g. saving for something, a negotiation). Use relative clauses and modals where appropriate.|Compara dos experiencias: una cultural (ej. un festival) y otra relacionada con dinero o negocios (ej. ahorrar para algo, una negociación). Usa oraciones de relativo y modales cuando sea apropiado.]]',
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -281,7 +281,7 @@ export const UNIT_15_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla durante 1–2 minutos: especula sobre por qué una empresa o evento tuvo éxito o fracasó.',
       prompt:
-        'Think of a company or event that succeeded or failed. Use modal verbs of deduction to speculate:\n- What must have happened?\n- What might have gone wrong or right?\n- What can\'t have been the case?',
+        "[[Think of a company or event that succeeded or failed. Use modal verbs of deduction to speculate:|Piensa en una empresa o evento que tuvo éxito o fracasó. Usa modales de deducción para especular:]]\n[[- What must have happened?|- ¿Qué debe haber pasado?]]\n[[- What might have gone wrong or right?|- ¿Qué podría haber salido mal o bien?]]\n[[- What can't have been the case?|- ¿Qué no puede haber sido el caso?]]",
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -298,7 +298,7 @@ export const UNIT_15_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Responde en voz alta: ¿qué tradiciones o eventos culturales de tu país son importantes para ti y por qué?',
       prompt:
-        'What cultural traditions or events from your country are important to you? Use relative clauses (who, which, where, whose) to describe them and explain why they matter.',
+        '[[What cultural traditions or events from your country are important to you? Use relative clauses (who, which, where, whose) to describe them and explain why they matter.|¿Qué tradiciones o eventos culturales de tu país son importantes para ti? Usa oraciones de relativo (who, which, where, whose) para describirlos y explicar por qué importan.]]',
       targetLevel: 'B2',
       writingType: 'essay',
     },

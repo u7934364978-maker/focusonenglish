@@ -176,7 +176,7 @@ export const UNIT_16_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla durante 1–2 minutos: describe cómo se usa la tecnología en tu vida diaria usando pasivas.',
       prompt:
-        'Describe how technology is used in your daily life. Use passive structures:\n- what is done automatically\n- what was invented or developed\n- what has been changed by technology',
+        '[[Describe how technology is used in your daily life. Use passive structures:|Describe cómo se usa la tecnología en tu vida diaria. Usa estructuras pasivas:]]\n[[- what is done automatically|- qué se hace automáticamente]]\n[[- what was invented or developed|- qué fue inventado o desarrollado]]\n[[- what has been changed by technology|- qué ha sido cambiado por la tecnología]]',
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -193,7 +193,7 @@ export const UNIT_16_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla durante 1–2 minutos: da tu opinión sobre los beneficios y riesgos de la tecnología.',
       prompt:
-        'What are the benefits and risks of technology? Consider:\n- communication and access to information\n- cybersecurity and privacy\n- automation and jobs',
+        '[[What are the benefits and risks of technology? Consider:|¿Cuáles son los beneficios y riesgos de la tecnología? Considera:]]\n[[- communication and access to information|- comunicación y acceso a la información]]\n[[- cybersecurity and privacy|- ciberseguridad y privacidad]]\n[[- automation and jobs|- automatización y empleo]]',
       targetLevel: 'B2',
       writingType: 'essay',
     },
@@ -210,7 +210,7 @@ export const UNIT_16_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Responde en voz alta: describe un invento tecnológico importante y su impacto.',
       prompt:
-        'Describe an important technological invention (e.g. smartphone, internet, AI). Use passive voice to explain:\n- when it was created\n- how it is used today\n- what has been changed by it',
+        '[[Describe an important technological invention (e.g. smartphone, internet, AI). Use passive voice to explain:|Describe un invento tecnológico importante (ej. smartphone, internet, IA). Usa voz pasiva para explicar:]]\n[[- when it was created|- cuándo fue creado]]\n[[- how it is used today|- cómo se usa hoy]]\n[[- what has been changed by it|- qué ha sido cambiado por él]]',
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -227,7 +227,7 @@ export const UNIT_16_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla en voz alta: explica cómo debería protegerse la información personal online.',
       prompt:
-        'How should personal information be protected online? Consider:\n- passwords and encryption\n- what users should do\n- what companies should do',
+        '[[How should personal information be protected online? Consider:|¿Cómo debería protegerse la información personal online? Considera:]]\n[[- passwords and encryption|- contraseñas y cifrado]]\n[[- what users should do|- qué deberían hacer los usuarios]]\n[[- what companies should do|- qué deberían hacer las empresas]]',
       targetLevel: 'B2',
       writingType: 'essay',
     },
@@ -244,7 +244,7 @@ export const UNIT_16_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Practica expresiones útiles. Di en voz alta 3–4 frases con cada una.',
       prompt:
-        'Use these expressions in your own sentences:\n- install an update\n- backup your data\n- cybersecurity\n- cloud storage',
+        '[[Use these expressions in your own sentences:|Usa estas expresiones en tus propias oraciones:]]\n[[- install an update|- instalar una actualización]]\n[[- backup your data|- hacer copia de seguridad de tus datos]]\n[[- cybersecurity|- ciberseguridad]]\n[[- cloud storage|- almacenamiento en la nube]]',
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -261,7 +261,7 @@ export const UNIT_16_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla en voz alta: compara la tecnología de hace 20 años con la actual.',
       prompt:
-        'Compare technology from 20 years ago with today. Use passive voice:\n- what was used then vs now\n- what has been changed\n- what will be possible in the future',
+        '[[Compare technology from 20 years ago with today. Use passive voice:|Compara la tecnología de hace 20 años con la actual. Usa voz pasiva:]]\n[[- what was used then vs now|- qué se usaba entonces vs ahora]]\n[[- what has been changed|- qué ha sido cambiado]]\n[[- what will be possible in the future|- qué será posible en el futuro]]',
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -278,7 +278,7 @@ export const UNIT_16_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla durante 1–2 minutos: ¿qué invento tecnológico te gustaría que se creara?',
       prompt:
-        'What technological invention would you like to see created? Explain:\n- what problem it would solve\n- how it would be used\n- who would benefit from it',
+        '[[What technological invention would you like to see created? Explain:|¿Qué invento tecnológico te gustaría que se creara? Explica:]]\n[[- what problem it would solve|- qué problema resolvería]]\n[[- how it would be used|- cómo se usaría]]\n[[- who would benefit from it|- quién se beneficiaría]]',
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -295,7 +295,7 @@ export const UNIT_16_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Responde en voz alta: ¿qué normas deberían aplicarse a las empresas tecnológicas?',
       prompt:
-        'What rules should be applied to technology companies? Consider:\n- data protection\n- user privacy\n- what should be regulated',
+        '[[What rules should be applied to technology companies? Consider:|¿Qué normas deberían aplicarse a las empresas tecnológicas? Considera:]]\n[[- data protection|- protección de datos]]\n[[- user privacy|- privacidad del usuario]]\n[[- what should be regulated|- qué debería regularse]]',
       targetLevel: 'B2',
       writingType: 'essay',
     },

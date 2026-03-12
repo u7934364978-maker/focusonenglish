@@ -179,7 +179,7 @@ export const UNIT_13_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla durante 1–2 minutos: describe cómo gestionas tu dinero usando must, have to, need to o needn\'t.',
       prompt:
-        'Describe how you manage your money. Include:\n- what you must/have to pay regularly\n- what you need to do to save\n- what you needn\'t spend money on\n- one tip you would give to someone who struggles with money',
+        "[[Describe how you manage your money. Include:|Describe cómo gestionas tu dinero. Incluye:]]\n[[- what you must/have to pay regularly|- qué debes/tienes que pagar regularmente]]\n[[- what you need to do to save|- qué necesitas hacer para ahorrar]]\n[[- what you needn't spend money on|- en qué no necesitas gastar dinero]]\n[[- one tip you would give to someone who struggles with money|- un consejo que darías a alguien que tiene problemas con el dinero]]",
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -196,7 +196,7 @@ export const UNIT_13_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla durante 1–2 minutos: da consejos sobre ahorrar dinero usando modales.',
       prompt:
-        'Give advice to someone who wants to save money. Use must, have to, need to and needn\'t to explain:\n- what they must do first\n- what they needn\'t give up\n- what they have to avoid\n- one habit they need to develop',
+        "[[Give advice to someone who wants to save money. Use must, have to, need to and needn't to explain:|Da consejos a alguien que quiere ahorrar dinero. Usa must, have to, need to y needn't para explicar:]]\n[[- what they must do first|- qué deben hacer primero]]\n[[- what they needn't give up|- qué no necesitan renunciar]]\n[[- what they have to avoid|- qué tienen que evitar]]\n[[- one habit they need to develop|- un hábito que necesitan desarrollar]]",
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -213,7 +213,7 @@ export const UNIT_13_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Responde en voz alta: da tu opinión sobre la obligación de ahorrar.',
       prompt:
-        'Do you think people must save money, or is it something they needn\'t worry about when they are young? Give reasons and examples.',
+        "[[Do you think people must save money, or is it something they needn't worry about when they are young? Give reasons and examples.|¿Crees que la gente debe ahorrar dinero, o es algo de lo que no necesitan preocuparse cuando son jóvenes? Da razones y ejemplos.]]",
       targetLevel: 'B2',
       writingType: 'essay',
     },
@@ -230,7 +230,7 @@ export const UNIT_13_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla en voz alta: explica una situación en la que tuviste que o no tuviste que gastar dinero.',
       prompt:
-        'Describe a situation where you had to spend money (or where you needn\'t have spent it). Explain what happened and what you learned.',
+        "[[Describe a situation where you had to spend money (or where you needn't have spent it). Explain what happened and what you learned.|Describe una situación en la que tuviste que gastar dinero (o en la que no necesitabas haberlo gastado). Explica qué pasó y qué aprendiste.]]",
       targetLevel: 'B2',
       writingType: 'story',
     },
@@ -247,7 +247,7 @@ export const UNIT_13_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Practica expresiones útiles sobre dinero. Di en voz alta 3–4 frases con cada una.',
       prompt:
-        'Use these expressions in your own sentences:\n- stick to a budget\n- make ends meet\n- save for a rainy day\n- pay off a debt',
+        '[[Use these expressions in your own sentences:|Usa estas expresiones en tus propias oraciones:]]\n[[- stick to a budget|- respetar un presupuesto]]\n[[- make ends meet|- llegar a fin de mes]]\n[[- save for a rainy day|- ahorrar para tiempos difíciles]]\n[[- pay off a debt|- pagar una deuda]]',
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -264,7 +264,7 @@ export const UNIT_13_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla en voz alta: convence a un amigo de que debe empezar a ahorrar.',
       prompt:
-        'Persuade a friend to start saving. Mention:\n- why they must/have to save\n- what they needn\'t give up\n- what they need to do first\n- one simple step they can take today',
+        "[[Persuade a friend to start saving. Mention:|Convence a un amigo de empezar a ahorrar. Menciona:]]\n[[- why they must/have to save|- por qué deben/tienen que ahorrar]]\n[[- what they needn't give up|- qué no necesitan renunciar]]\n[[- what they need to do first|- qué necesitan hacer primero]]\n[[- one simple step they can take today|- un paso sencillo que pueden dar hoy]]",
       targetLevel: 'B2',
       writingType: 'article',
     },
@@ -281,7 +281,7 @@ export const UNIT_13_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Compara dos formas de gestionar el dinero usando modales.',
       prompt:
-        'Compare two approaches: someone who saves regularly vs someone who spends everything. Use must, have to, need to, needn\'t to explain the differences.',
+        "[[Compare two approaches: someone who saves regularly vs someone who spends everything. Use must, have to, need to, needn't to explain the differences.|Compara dos enfoques: alguien que ahorra regularmente vs alguien que gasta todo. Usa must, have to, need to, needn't para explicar las diferencias.]]",
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -298,7 +298,7 @@ export const UNIT_13_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla en voz alta: explica las reglas de un banco o institución financiera.',
       prompt:
-        'Imagine you work for a bank. Explain to a new customer what they must do, what they have to provide, and what they needn\'t worry about when opening an account.',
+        "[[Imagine you work for a bank. Explain to a new customer what they must do, what they have to provide, and what they needn't worry about when opening an account.|Imagina que trabajas en un banco. Explica a un nuevo cliente qué deben hacer, qué tienen que proporcionar y de qué no necesitan preocuparse al abrir una cuenta.]]",
       targetLevel: 'B2',
       writingType: 'description',
     },

@@ -179,7 +179,7 @@ export const UNIT_14_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla durante 1–2 minutos: describe una situación empresarial usando deducciones (must have, might have, can\'t have).',
       prompt:
-        'Describe a business situation where something went wrong or right. Use modal verbs of deduction to speculate:\n- What must have happened?\n- What might have caused it?\n- What can\'t have been the case?',
+        "[[Describe a business situation where something went wrong or right. Use modal verbs of deduction to speculate:|Describe una situación empresarial en la que algo salió mal o bien. Usa modales de deducción para especular:]]\n[[- What must have happened?|- ¿Qué debe haber pasado?]]\n[[- What might have caused it?|- ¿Qué podría haberlo causado?]]\n[[- What can't have been the case?|- ¿Qué no puede haber sido el caso?]]",
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -196,7 +196,7 @@ export const UNIT_14_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla durante 1–2 minutos: da tu opinión sobre qué hace que una empresa tenga éxito.',
       prompt:
-        'What do you think makes a business successful? Consider:\n- strategy and planning\n- market research\n- funding and investors\n- competition',
+        '[[What do you think makes a business successful? Consider:|¿Qué crees que hace que un negocio tenga éxito? Considera:]]\n[[- strategy and planning|- estrategia y planificación]]\n[[- market research|- investigación de mercado]]\n[[- funding and investors|- financiación e inversores]]\n[[- competition|- competencia]]',
       targetLevel: 'B2',
       writingType: 'essay',
     },
@@ -213,7 +213,7 @@ export const UNIT_14_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Responde en voz alta: especula sobre por qué una empresa conocida fracasó o tuvo problemas.',
       prompt:
-        'Think of a well-known company that failed or had serious problems. Use modal verbs of deduction to speculate: What must have gone wrong? What might they have done differently?',
+        '[[Think of a well-known company that failed or had serious problems. Use modal verbs of deduction to speculate: What must have gone wrong? What might they have done differently?|Piensa en una empresa conocida que fracasó o tuvo problemas serios. Usa modales de deducción para especular: ¿Qué debe haber salido mal? ¿Qué podrían haber hecho diferente?]]',
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -230,7 +230,7 @@ export const UNIT_14_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla en voz alta: explica las ventajas y desventajas de una fusión empresarial.',
       prompt:
-        'Discuss the pros and cons of a merger between two companies. Consider:\n- market share and competition\n- job security for employees\n- funding and expansion',
+        '[[Discuss the pros and cons of a merger between two companies. Consider:|Discute los pros y contras de una fusión entre dos empresas. Considera:]]\n[[- market share and competition|- cuota de mercado y competencia]]\n[[- job security for employees|- seguridad laboral para empleados]]\n[[- funding and expansion|- financiación y expansión]]',
       targetLevel: 'B2',
       writingType: 'essay',
     },
@@ -247,7 +247,7 @@ export const UNIT_14_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Practica expresiones útiles para hablar de negocios. Di en voz alta 3–4 frases con cada una.',
       prompt:
-        'Use these expressions in your own sentences:\n- reach a deal\n- meet targets\n- market share\n- conduct market research',
+        '[[Use these expressions in your own sentences:|Usa estas expresiones en tus propias oraciones:]]\n[[- reach a deal|- llegar a un acuerdo]]\n[[- meet targets|- cumplir objetivos]]\n[[- market share|- cuota de mercado]]\n[[- conduct market research|- realizar investigación de mercado]]',
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -264,7 +264,7 @@ export const UNIT_14_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla en voz alta: convence a un inversor de apoyar tu idea de negocio.',
       prompt:
-        'Pitch a business idea to an imaginary investor. Mention:\n- what your product or service is\n- why it will succeed\n- what funding you need\n- what the investor will gain',
+        '[[Pitch a business idea to an imaginary investor. Mention:|Presenta una idea de negocio a un inversor imaginario. Menciona:]]\n[[- what your product or service is|- qué es tu producto o servicio]]\n[[- why it will succeed|- por qué tendrá éxito]]\n[[- what funding you need|- qué financiación necesitas]]\n[[- what the investor will gain|- qué ganará el inversor]]',
       targetLevel: 'B2',
       writingType: 'article',
     },
@@ -281,7 +281,7 @@ export const UNIT_14_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla durante 1–2 minutos: compara trabajar en una startup vs una gran empresa.',
       prompt:
-        'Compare working for a startup versus a large corporation. Consider:\n- job security\n- opportunities for growth\n- work environment\n- salary and benefits',
+        '[[Compare working for a startup versus a large corporation. Consider:|Compara trabajar en una startup versus una gran empresa. Considera:]]\n[[- job security|- seguridad laboral]]\n[[- opportunities for growth|- oportunidades de crecimiento]]\n[[- work environment|- ambiente de trabajo]]\n[[- salary and benefits|- salario y beneficios]]',
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -298,7 +298,7 @@ export const UNIT_14_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Responde en voz alta: ¿qué harías si fueras CEO de una empresa en crisis?',
       prompt:
-        'If you were the CEO of a company in crisis, what would you do? Use modal verbs of deduction to speculate about what might have caused the problems and what must be done to fix them.',
+        '[[If you were the CEO of a company in crisis, what would you do? Use modal verbs of deduction to speculate about what might have caused the problems and what must be done to fix them.|Si fueras el CEO de una empresa en crisis, ¿qué harías? Usa modales de deducción para especular sobre qué podría haber causado los problemas y qué debe hacerse para solucionarlos.]]',
       targetLevel: 'B2',
       writingType: 'essay',
     },

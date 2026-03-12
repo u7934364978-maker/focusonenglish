@@ -179,7 +179,7 @@ export const UNIT_20_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla durante 1–2 minutos: describe cómo la tecnología, la ciencia, la comida o el deporte afectan tu vida. Usa pasiva, modal passive, so/such/too/enough o comparativos.',
       prompt:
-        'Describe how technology, science, food or sport affect your life. Use at least 2 of: passive, modal passive, so/such/too/enough, comparatives.',
+        '[[Describe how technology, science, food or sport affect your life|Describe cómo la tecnología, la ciencia, la comida o el deporte afectan tu vida]]. [[Use at least 2 of|Usa al menos 2 de]]: [[passive|pasiva]], [[modal passive|pasiva modal]], [[so/such/too/enough|tan/tal/demasiado/suficiente]], [[comparatives|comparativos]].',
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -196,7 +196,7 @@ export const UNIT_20_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla durante 1–2 minutos: da tu opinión sobre qué es más importante: la tecnología, la ciencia, la comida o el deporte.',
       prompt:
-        'What do you think is most important for a healthy life: technology, science, food or sport? Use comparatives (more/less, as... as, the most).',
+        '[[What do you think is most important for a healthy life: technology, science, food or sport?|¿Qué crees que es más importante para una vida saludable: tecnología, ciencia, comida o deporte?]] [[Use comparatives|Usa comparativos]] ([[more/less|más/menos]], [[as... as|tan... como]], [[the most|el más]]).',
       targetLevel: 'B2',
       writingType: 'essay',
     },
@@ -213,7 +213,7 @@ export const UNIT_20_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Responde en voz alta: describe algo que hayas hecho hacer por alguien (have something done) y algo que debe hacerse (must be done).',
       prompt:
-        'Describe something you had done by someone else and something that must be done in your job or studies. Use "had something done" and "must be + past participle".',
+        '[[Describe something you had done by someone else and something that must be done in your job or studies|Describe algo que hayas hecho hacer por alguien y algo que debe hacerse en tu trabajo o estudios]]. [[Use|Usa]] "[[had something done|tener algo hecho]]" y "[[must be + past participle|debe ser + participio pasado]]".',
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -230,7 +230,7 @@ export const UNIT_20_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla en voz alta: compara una comida o restaurante usando so, such, too y enough.',
       prompt:
-        'Compare two meals or restaurants. Use so/such/too/enough (e.g. "The first was so good that...", "The second had too much...", "It wasn\'t fresh enough...").',
+        '[[Compare two meals or restaurants|Compara dos comidas o restaurantes]]. [[Use so/such/too/enough|Usa tan/tal/demasiado/suficiente]] ([[e.g.|e.g.]] "[[The first was so good that...|El primero era tan bueno que...]]", "[[The second had too much...|El segundo tenía demasiado...]]", "[[It wasn't fresh enough...|No estaba lo bastante fresco...]]").',
       targetLevel: 'B2',
       writingType: 'essay',
     },
@@ -247,7 +247,7 @@ export const UNIT_20_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Practica expresiones de las unidades 16–19. Di en voz alta 3–4 frases con cada una.',
       prompt:
-        'Use these expressions in your own sentences:\n- must be tested\n- so... that\n- the more... the more\n- have something done',
+        '[[Use these expressions in your own sentences|Usa estas expresiones en tus propias frases]]:\n- [[must be tested|deben ser probadas]]\n- [[so... that|tan... que]]\n- [[the more... the more|cuanto más... más]]\n- [[have something done|tener algo hecho]]',
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -264,7 +264,7 @@ export const UNIT_20_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla en voz alta: explica qué cosas deben hacerse en un laboratorio, en un restaurante o en un equipo deportivo.',
       prompt:
-        'Explain what must be done in a laboratory, restaurant or sports team. Use modal passive (must be, should be, have to be) and vocabulary from units 16–19.',
+        '[[Explain what must be done in a laboratory, restaurant or sports team|Explica qué debe hacerse en un laboratorio, restaurante o equipo deportivo]]. [[Use modal passive|Usa pasiva modal]] ([[must be|debe ser]], [[should be|debería ser]], [[have to be|tiene que ser]]) y [[vocabulary from units 16–19|vocabulario de las unidades 16–19]].',
       targetLevel: 'B2',
       writingType: 'article',
     },
@@ -281,7 +281,7 @@ export const UNIT_20_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla durante 1–2 minutos: compara la vida con y sin tecnología. Usa comparativos.',
       prompt:
-        'Compare life with and without technology. Use: the more... the more, far more, as... as, one of the most.',
+        '[[Compare life with and without technology|Compara la vida con y sin tecnología]]. [[Use|Usa]]: [[the more... the more|cuanto más... más]], [[far more|mucho más]], [[as... as|tan... como]], [[one of the most|uno de los más]].',
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -298,7 +298,7 @@ export const UNIT_20_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Responde en voz alta: ¿qué consejo darías a alguien que quiere mejorar su inglés? Usa estructuras de las unidades 16–19.',
       prompt:
-        'What advice would you give to someone who wants to improve their English? Use: must be done, so... that, the more... the more, or have something done.',
+        '[[What advice would you give to someone who wants to improve their English?|¿Qué consejo darías a alguien que quiere mejorar su inglés?]] [[Use|Usa]]: [[must be done|debe hacerse]], [[so... that|tan... que]], [[the more... the more|cuanto más... más]], [[or have something done|o tener algo hecho]].',
       targetLevel: 'B2',
       writingType: 'essay',
     },

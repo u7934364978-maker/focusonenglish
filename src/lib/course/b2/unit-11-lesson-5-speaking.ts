@@ -179,7 +179,7 @@ export const UNIT_11_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla durante 1–2 minutos: describe una celebración o festival de tu país usando al menos 3 oraciones de relativo (who, which, where, whose).',
       prompt:
-        'Describe a local celebration from your country. Include:\n- what it is called and when it takes place\n- who takes part and what they wear\n- where the main events happen\n- why it is important for your community',
+        '[[Describe a local celebration from your country. Include:|Describe una celebración local de tu país. Incluye:]]\n[[- what it is called and when it takes place|- cómo se llama y cuándo tiene lugar]]\n[[- who takes part and what they wear|- quién participa y qué llevan puesto]]\n[[- where the main events happen|- dónde tienen lugar los eventos principales]]\n[[- why it is important for your community|- por qué es importante para tu comunidad]]',
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -196,7 +196,7 @@ export const UNIT_11_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla durante 1–2 minutos: compara dos tradiciones (de tu cultura y de otra) usando oraciones de relativo.',
       prompt:
-        'Compare a tradition from your culture with a tradition from another culture you know.\nUse relative clauses to explain:\n- people who take part\n- places where they happen\n- objects which are important\n- reasons why they are similar or different',
+        '[[Compare a tradition from your culture with a tradition from another culture you know.|Compara una tradición de tu cultura con una de otra cultura que conozcas.]]\n[[Use relative clauses to explain:|Usa oraciones de relativo para explicar:]]\n[[- people who take part|- personas que participan]]\n[[- places where they happen|- lugares donde tienen lugar]]\n[[- objects which are important|- objetos que son importantes]]\n[[- reasons why they are similar or different|- razones por las que son similares o diferentes]]',
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -213,7 +213,7 @@ export const UNIT_11_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Responde en voz alta: da tu opinión sobre la globalización cultural.',
       prompt:
-        'Do you think cultural festivals which attract tourists are good or bad for local traditions? Give reasons and examples.',
+        '[[Do you think cultural festivals which attract tourists are good or bad for local traditions? Give reasons and examples.|¿Crees que los festivales culturales que atraen turistas son buenos o malos para las tradiciones locales? Da razones y ejemplos.]]',
       targetLevel: 'B2',
       writingType: 'essay',
     },
@@ -230,7 +230,7 @@ export const UNIT_11_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla en voz alta: explica una experiencia de choque cultural que tuviste o podrías tener.',
       prompt:
-        'Describe a situation where you felt culture shock or imagine one. Explain:\n- what surprised you\n- how people behaved\n- what you learned from the experience',
+        '[[Describe a situation where you felt culture shock or imagine one. Explain:|Describe una situación en la que sentiste choque cultural o imagina una. Explica:]]\n[[- what surprised you|- qué te sorprendió]]\n[[- how people behaved|- cómo se comportaba la gente]]\n[[- what you learned from the experience|- qué aprendiste de la experiencia]]',
       targetLevel: 'B2',
       writingType: 'story',
     },
@@ -247,7 +247,7 @@ export const UNIT_11_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Practica expresiones útiles para hablar de cultura. Di en voz alta 3–4 frases con cada una.',
       prompt:
-        'Use these expressions in your own sentences:\n- cultural heritage\n- local traditions\n- respect cultural differences\n- embrace a new culture',
+        '[[Use these expressions in your own sentences:|Usa estas expresiones en tus propias oraciones:]]\n[[- cultural heritage|- patrimonio cultural]]\n[[- local traditions|- tradiciones locales]]\n[[- respect cultural differences|- respetar las diferencias culturales]]\n[[- embrace a new culture|- abrazar una nueva cultura]]',
       targetLevel: 'B2',
       writingType: 'description',
     },
@@ -264,7 +264,7 @@ export const UNIT_11_LESSON_5_SPEAKING: Exercise[] = [
       instructions:
         'Habla en voz alta: convence a un amigo de visitar un festival cultural contigo.',
       prompt:
-        'Persuade a friend to visit a cultural festival in your country. Mention:\n- what they will see and do\n- people who they will meet\n- food which they should try\n- reasons why this experience will be unforgettable',
+        '[[Persuade a friend to visit a cultural festival in your country. Mention:|Convence a un amigo de visitar un festival cultural en tu país. Menciona:]]\n[[- what they will see and do|- qué verán y harán]]\n[[- people who they will meet|- personas que conocerán]]\n[[- food which they should try|- comida que deberían probar]]\n[[- reasons why this experience will be unforgettable|- razones por las que esta experiencia será inolvidable]]',
       targetLevel: 'B2',
       writingType: 'article',
     },
