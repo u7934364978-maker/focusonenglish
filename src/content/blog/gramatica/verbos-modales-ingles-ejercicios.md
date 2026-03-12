@@ -31,7 +31,9 @@ faqs:
 
 ---
 
-Dominar los **verbos modales en inglés** requiere práctica sistemática. En esta guía de ejercicios, trabajaremos desde los usos más básicos hasta las construcciones avanzadas con Modales Perfectos, algo imprescindible para superar exámenes como el Cambridge B2 First o el C1 Advanced.
+Dominar los **verbos modales en inglés** requiere práctica sistemática. En esta guía de ejercicios, trabajaremos desde los usos más básicos hasta las construcciones avanzadas con Modales Perfectos.
+
+Si primero quieres repasar los conceptos teóricos, la guía [Verbos Modales en Inglés](/hubs/verbos-modales-ingles) tiene todos los usos explicados con ejemplos.
 
 ---
 

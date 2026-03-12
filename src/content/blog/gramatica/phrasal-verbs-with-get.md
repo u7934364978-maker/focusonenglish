@@ -1,264 +1,208 @@
 ---
-title: 'Phrasal Verbs con GET: Lista Completa con Significados y Ejemplos'
+title: 'Phrasal Verbs con GET: Lista Completa con Significados y Ejemplos Reales'
+date: '2026-02-06'
+updatedDate: '2026-02-06'
+author: sara-mendez
 description: >-
-  Aprende todos los phrasal verbs con GET en inglés. Más de 40 combinaciones
-  esenciales con significado, traducción y ejemplos reales para nivel B1-C1.
-readTime: 8 min
-excerpt: >-
-  GET es el verbo más versátil del inglés. Descubre todos sus phrasal verbs
-  —get up, get on, get over, get away y muchos más— con ejemplos claros y
-  explicaciones para no confundirte.
-keywords:
-  - phrasal verbs with get
-  - get phrasal verbs lista
-  - phrasal verbs get ingles
-  - get up get on get over
-  - verbos frasales con get
-  - get phrasal verbs ejemplos
-  - get away get by get off ingles
-  - phrasal verbs ingles
-  - phrasal verbs
-author: david-torres
-date: '2026-03-06'
-updatedDate: '2026-03-10'
-image: 'https://images.pexels.com/photos/1552617/pexels-photo-1552617.jpeg'
-alt: 'Lista de phrasal verbs con GET en inglés con ejemplos'
+  Domina los phrasal verbs con GET en inglés: get up, get on, get out, get away, get over y más de 30 combinaciones esenciales con ejemplos reales y explicaciones claras.
 category: gramatica
-canonical: 'https://www.focus-on-english.com/blog/gramatica/phrasal-verbs-with-get'
+image: >-
+  https://images.pexels.com/photos/4145354/pexels-photo-4145354.jpeg?auto=compress&cs=tinysrgb&w=1200
+alt: Cuaderno con lista de phrasal verbs con GET en inglés
+readTime: 8 min
+keywords:
+  - phrasal verbs con get
+  - phrasal verbs with get
+  - get up get on get out ingles
+  - get over get through significado
+  - verbos frasales con get
+  - get phrasal verbs lista completa
+excerpt: >-
+  GET es probablemente el verbo más productivo del inglés cuando se combina con partículas. Sus combinaciones cubren desde levantarse por la mañana hasta superar una ruptura. Si dominas los phrasal verbs con GET, tienes una buena parte del inglés cotidiano cubierta.
 faqs:
-  - question: '¿La Lógica de GET?'
-    answer: 'Antes de ver la lista, conviene entender los significados base de GET:'
-  - question: '¿GET + UP (Movimiento hacia arriba / inicio del día)?'
-    answer: 'Nota: Get up to en sentido informal puede implicar cosas que no deberías hacer: - What are the kids getting up to in there? (¿Qué travesuras están haciendo los niños?)'
-  - question: '¿GET + OVER (Superar, recuperarse)?'
-    answer: 'Truco: Get over it es una expresión muy habitual en inglés informal para decirle a alguien que supere algo y siga adelante.'
-  - question: '¿GET + ALONG (Relación, progreso)?'
-    answer: 'Nota: Get along y get on son prácticamente sinónimos en el sentido de "llevarse bien con alguien". Los americanos prefieren get along; los británicos, get on.'
+  - question: ¿Cuántos phrasal verbs con GET existen?
+    answer: >-
+      Depende de cómo se cuenten los registros y dialectos, pero en inglés general hay entre 40 y 60 combinaciones con GET documentadas. En la práctica, con dominar los 25-30 más frecuentes tienes cubierto el 95% de los usos que vas a encontrar en conversación y textos reales.
+  - question: ¿"Get" y "become" son intercambiables?
+    answer: >-
+      En muchos contextos sí, pero GET suena más natural en el inglés hablado y cotidiano. "I'm getting tired" es más común en conversación que "I'm becoming tired". Become es más formal y suele aparecer en textos escritos.
+  - question: ¿Cuál es la diferencia entre "get on" y "get along"?
+    answer: >-
+      Son casi sinónimos cuando se refieren a llevarse bien con alguien. "Get on with someone" es más común en inglés británico; "get along with someone" es más habitual en inglés americano. Ambos son correctos y se entienden en los dos lados del Atlántico.
+---
+
+Si tuvieras que elegir un solo verbo para dominar todos sus phrasal verbs primero, ese verbo sería GET. No porque sea el más fácil, sino porque sus combinaciones aparecen constantemente en el inglés real: en conversaciones, en series, en emails informales, en canciones. Evitarlos porque "son difíciles" significa hablar un inglés artificialmente limitado.
+
+La buena noticia es que GET tiene cierta lógica interna. Muchas de sus combinaciones tienen que ver con movimiento (físico o metafórico), cambio de estado o logro de algo. Una vez que ves esos patrones, los phrasal verbs con GET dejan de parecer aleatorios.
+
+Para un panorama completo de cómo funcionan los phrasal verbs en general, la [guía de phrasal verbs](/hubs/phrasal-verbs) te da la base que necesitas.
 
 ---
 
-El verbo **GET** es, sin exageración, el más productivo del inglés. Tiene decenas de significados por sí solo (obtener, llegar, volverse, entender...) y con partículas forma una cantidad enorme de phrasal verbs, cada uno con su propio matiz.
+## GET + partículas de movimiento
 
-La buena noticia: una vez que entiendes la lógica de cada partícula con GET, los significados dejan de parecer arbitrarios. Esta guía cubre **más de 40 phrasal verbs con GET**, organizados por sentido y con ejemplos reales.
+Estos son los más intuitivos porque el significado tiene que ver con movimiento físico real.
 
----
+### Get up
+Levantarse (de la cama o de un asiento).
+- *I usually get up at seven, but on weekends I sleep in.* 
+- *Get up! You're going to be late.*
 
-## La Lógica de GET: ¿Cómo Funciona?
+También significa levantarse después de una caída: *She fell but got up immediately.*
 
-Antes de ver la lista, conviene entender los significados base de GET:
+### Get on / Get off
+Subir y bajar de un transporte público (autobús, tren, avión, bicicleta).
+- *Get on the bus at stop 12.*
+- *We need to get off at the next station.*
 
-1. **Obtener / Conseguir**: *Get a job, get the answer*
-2. **Llegar / Ir a un lugar**: *Get home, get to the airport*
-3. **Volverse / Convertirse**: *Get tired, get angry*
-4. **Entender**: *I don't get it*
-5. **Hacer que algo suceda**: *Get the car fixed*
+Atención: con coches y taxis se usa GET IN / GET OUT, no get on/off.
 
-Con cada partícula, estos significados se modulan y combinan de formas específicas. Vamos a verlas.
+### Get in / Get out (of)
+Entrar y salir de un coche, taxi o espacio reducido.
+- *Get in the car, it's raining.*
+- *She got out of the taxi and ran to the door.*
 
----
+### Get away
+Escaparse, alejarse de un lugar o situación.
+- *I need to get away from the city for a few days.*
+- *The thief got away before the police arrived.*
 
-## GET + UP (Movimiento hacia arriba / inicio del día)
+### Get back
+Volver a un lugar; también recuperar algo.
+- *What time did you get back last night?*
+- *I got my money back after the refund.*
 
-| Phrasal Verb | Significado | Ejemplo |
-|---|---|---|
-| **Get up** | Levantarse de la cama | *I get up at 6 every weekday.* |
-| **Get up** | Levantarse de una silla | *Please get up and give her your seat.* |
-| **Get up to** | Dedicarse a / travesuras | *What have you been getting up to lately?* |
-
-**Nota:** *Get up to* en sentido informal puede implicar cosas que no deberías hacer:
-- *What are the kids getting up to in there?* (¿Qué travesuras están haciendo los niños?)
-
----
-
-## GET + ON (Progreso, relación, subir)
-
-| Phrasal Verb | Significado | Ejemplo |
-|---|---|---|
-| **Get on** | Subir (transporte) | *Get on the bus at stop 7.* |
-| **Get on (with)** | Llevarse bien con | *Do you get on with your colleagues?* |
-| **Get on with** | Continuar haciendo algo | *Let's get on with the meeting.* |
-| **Get on** | Progresar / avanzar | *How are you getting on with the project?* |
-| **Get onto** | Contactar con / tratar un tema | *I'll get onto the IT department today.* |
+### Get around / Get about
+Desplazarse, moverse por un lugar.
+- *It's easy to get around the city by bike.*
+- *She gets about despite her injury.*
 
 ---
 
-## GET + OFF (Bajarse, escapar, empezar)
+## GET + estados: cambio y proceso
 
-| Phrasal Verb | Significado | Ejemplo |
-|---|---|---|
-| **Get off** | Bajarse (transporte) | *Get off the train at Central Station.* |
-| **Get off** | Terminar el trabajo / salir | *What time do you get off work?* |
-| **Get off** | Escapar de una sanción | *He got off with just a warning.* |
-| **Get off to a good/bad start** | Empezar bien/mal | *We got off to a great start this year.* |
+GET también expresa cambios de estado, y aquí es donde muchos estudiantes descubren que puede reemplazar a "become" en casi todos los contextos informales.
 
----
+### Get tired / get bored / get angry
+GET + adjetivo para expresar que algo está cambiando.
+- *I get tired easily when I don't sleep well.*
+- *The kids are getting bored — we need to do something.*
+- *Don't get angry with me, I was just asking.*
 
-## GET + OUT (Salir, escapar, sacar)
+Este patrón es enorme. GET + cualquier adjetivo = empezar a estar en ese estado.
 
-| Phrasal Verb | Significado | Ejemplo |
-|---|---|---|
-| **Get out** | Salir / irse | *Get out of the car here.* |
-| **Get out of** | Librarse de una obligación | *How can I get out of this meeting?* |
-| **Get out** | Difundirse (noticia) | *The news got out before the announcement.* |
-| **Get out of** | Sacar provecho de | *What do you get out of learning English?* |
+### Get used to
+Acostumbrarse a algo. Importante: siempre seguido de sustantivo o gerundio, nunca de infinitivo.
+- *I'm getting used to the cold weather.*
+- *You'll get used to waking up early.* ✓
+- ~~You'll get used to wake up early.~~ ✗
 
----
+### Get ready
+Prepararse.
+- *Get ready — we're leaving in ten minutes.*
+- *She spent an hour getting ready for the interview.*
 
-## GET + OVER (Superar, recuperarse)
-
-| Phrasal Verb | Significado | Ejemplo |
-|---|---|---|
-| **Get over** | Recuperarse (enfermedad) | *She's getting over a bad cold.* |
-| **Get over** | Superar emocionalmente | *I can't get over the breakup.* |
-| **Get over** | Superar un obstáculo | *We need to get over this obstacle.* |
-| **Get over with** | Terminar algo desagradable pronto | *Let's get this meeting over with.* |
-| **Get over to** | Hacer que alguien entienda | *I couldn't get my point over to him.* |
-
-**Truco:** *Get over it* es una expresión muy habitual en inglés informal para decirle a alguien que supere algo y siga adelante.
+### Get better / get worse
+Mejorar o empeorar.
+- *Your English is getting better every week.*
+- *The traffic gets worse every year.*
 
 ---
 
-## GET + AWAY (Escapar, vacaciones)
+## GET + relaciones y comunicación
 
-| Phrasal Verb | Significado | Ejemplo |
-|---|---|---|
-| **Get away** | Escapar / irse de vacaciones | *We're hoping to get away this weekend.* |
-| **Get away with** | Salirse con la suya | *He got away with cheating on the exam.* |
-| **Get away from** | Alejarse de | *I need to get away from the city.* |
-| **Getaway** | Huida / escapada (sustantivo) | *They made their getaway by car.* |
+### Get on (with someone)
+Llevarse bien con alguien.
+- *Do you get on with your flatmates?*
+- *She doesn't get on with her manager.*
 
----
+### Get along (with)
+Sinónimo de get on, más común en inglés americano.
+- *We get along really well — we have a lot in common.*
 
-## GET + ALONG (Relación, progreso)
+### Get together
+Quedar, reunirse.
+- *We should get together sometime this week.*
+- *The whole team got together after the project finished.*
 
-| Phrasal Verb | Significado | Ejemplo |
-|---|---|---|
-| **Get along (with)** | Llevarse bien con | *I get along really well with my boss.* |
-| **Get along** | Apañárselas / progresar | *How are you getting along with the new job?* |
+### Get through (to someone)
+Conectar con alguien; también lograr que alguien te entienda.
+- *I've been trying to get through to him all morning but the line is busy.*
+- *I tried to explain it three times but I couldn't get through to her.*
 
-**Nota:** *Get along* y *get on* son prácticamente sinónimos en el sentido de "llevarse bien con alguien". Los americanos prefieren *get along*; los británicos, *get on*.
-
----
-
-## GET + BY (Sobrevivir, pasar)
-
-| Phrasal Verb | Significado | Ejemplo |
-|---|---|---|
-| **Get by** | Apañárselas / sobrevivir | *My Spanish is basic, but I can get by.* |
-| **Get by** | Pasar junto a | *The corridor is so narrow I can hardly get by.* |
-| **Get by on** | Sobrevivir con poco | *How does she get by on minimum wage?* |
+### Get rid of
+Deshacerse de algo o alguien.
+- *It's time to get rid of those old clothes.*
+- *I can't get rid of this headache.*
 
 ---
 
-## GET + AROUND / ROUND (Evitar, moverse)
+## GET + logro y superación
 
-| Phrasal Verb | Significado | Ejemplo |
-|---|---|---|
-| **Get around / round** | Esquivar / evitar | *There's no way to get around the problem.* |
-| **Get around** | Moverse / desplazarse | *It's easy to get around London by tube.* |
-| **Get around to** | Encontrar tiempo para | *I finally got around to fixing the tap.* |
-| **Get round to** | (British English) | *I'll get round to it eventually.* |
+### Get over
+Superar algo difícil: una ruptura, una enfermedad, un disgusto.
+- *It took her months to get over the break-up.*
+- *Have you got over your cold yet?*
 
----
+### Get through
+Superar una situación difícil; también terminar algo.
+- *I don't know how I got through that first year.*
+- *We need to get through this agenda before lunch.*
 
-## GET + INTO (Interés, acceso, meterse)
+### Get away with
+Salirse con la suya, hacer algo sin consecuencias.
+- *He always gets away with being late.*
+- *You can't get away with copying in this class.*
 
-| Phrasal Verb | Significado | Ejemplo |
-|---|---|---|
-| **Get into** | Entrar (en coche) | *Get into the car.* |
-| **Get into** | Aficionarse a algo | *I've really got into yoga lately.* |
-| **Get into** | Ser aceptado en | *She got into Oxford University.* |
-| **Get into trouble** | Meterse en problemas | *He's always getting into trouble.* |
+### Get out of
+Evitar hacer algo, escaquearse.
+- *She managed to get out of the meeting.*
+- *I can't get out of this — I already said yes.*
 
----
-
-## GET + THROUGH (Terminar, comunicar, sobrevivir)
-
-| Phrasal Verb | Significado | Ejemplo |
-|---|---|---|
-| **Get through** | Terminar / completar | *I need to get through this report today.* |
-| **Get through** | Superar algo difícil | *We'll get through this together.* |
-| **Get through to** | Contactar con (teléfono) | *I couldn't get through to customer service.* |
-| **Get through to** | Lograr que alguien entienda | *I can't seem to get through to him.* |
+### Get ahead
+Avanzar, progresar en la vida o en el trabajo.
+- *Hard work doesn't always help you get ahead.*
+- *She's ambitious and determined to get ahead in her career.*
 
 ---
 
-## GET + BACK (Volver, recuperar)
+## GET + información y comprensión
 
-| Phrasal Verb | Significado | Ejemplo |
-|---|---|---|
-| **Get back** | Volver / regresar | *When are you getting back from Paris?* |
-| **Get back to** | Responder / volver a contactar | *I'll get back to you with the details.* |
-| **Get back** | Recuperar algo | *I need to get my money back.* |
-| **Get back at** | Vengarse de | *She wants to get back at him for lying.* |
+### Get the point / Get it
+Entender algo.
+- *I don't get the point of this exercise.*
+- *Wait, I think I get it now.*
 
----
+### Find out ≠ Get to know
+Matiz importante: *find out* es descubrir un dato concreto; *get to know* es llegar a conocer a alguien con el tiempo.
+- *I found out she lives in Madrid.* (dato)
+- *I'm getting to know my new colleagues.* (proceso gradual)
 
-## Phrasal Verbs con GET: Los 10 Más Importantes
-
-Si tuvieras que priorizar, estos 10 son los más frecuentes y útiles:
-
-1. **Get up** – Levantarse
-2. **Get on with** – Llevarse bien con / continuar
-3. **Get over** – Superar / recuperarse
-4. **Get away** – Escapar / irse de vacaciones
-5. **Get out of** – Librarse de algo
-6. **Get back to** – Responder / volver a contactar
-7. **Get through** – Superar / terminar
-8. **Get around to** – Encontrar tiempo para
-9. **Get by** – Apañárselas
-10. **Get into** – Aficionarse a / entrar en
+### Get hold of
+Contactar con alguien; también conseguir algo.
+- *I've been trying to get hold of the manager all day.*
+- *It's hard to get hold of that book — it's out of print.*
 
 ---
 
-## Diferencias que Confunden: GET ON vs GET ALONG vs GET BY
+## Los 5 errores más frecuentes con phrasal verbs de GET
 
-Estas tres expresiones tienen significados distintos pero se confunden con frecuencia:
+**1. Get on vs get in para coches**
+❌ *Get on the car.* ✓ *Get in the car.*
+Solo se usa get on con transportes donde te subes sin cerrar nada alrededor: bici, moto, autobús, tren.
 
-- **Get on (with someone)** = llevarse bien → *I get on really well with Sarah.*
-- **Get along (with someone)** = llevarse bien (sinónimo, más americano) → *They don't get along at all.*
-- **Get by** = sobrevivir / apañárselas con lo mínimo → *My English is enough to get by.*
+**2. Get used to + infinitivo**
+❌ *I got used to work late.*
+✓ *I got used to working late.*
 
----
+**3. Confundir get over y get through**
+Get over es superar algo emocionalmente. Get through es sobrevivir a una situación difícil o terminar una tarea.
+- *She got over the break-up.* (superó emocionalmente)
+- *She got through the break-up.* (sobrevivió al período)
 
-## GET en el Examen Cambridge (B2/C1)
+**4. Get away vs get away with**
+Get away es escaparse. Get away with es salirse con la suya haciendo algo que no debería hacerse.
 
-En el *Use of English* del FCE y el CAE, los phrasal verbs con GET aparecen con frecuencia en:
-- **Key Word Transformation**: *"She recovered from the illness."* → *"She got over the illness."*
-- **Open Cloze**: *"I finally got ______ to replying to his email."* → *around*
-- **Word Formation**: Conocer el sustantivo *getaway* o adjetivo *outgoing*
-
-Los examinadores valoran el uso preciso de phrasal verbs como evidencia de **competencia lingüística avanzada**. Usarlos correctamente en el Speaking también suma puntos en el criterio de *lexical resource*.
-
----
-
-## Ejercicios
-
-### Ejercicio 1: Completa con la partícula correcta
-
-*(up / over / out of / through / away / on)*
-
-1. I can't get ________ my fear of flying.
-2. He managed to get ________ the exam with minimal study.
-3. She got ________ the meeting by pretending to be sick.
-4. We need to get ________ with the presentation.
-5. I hope to get ________ this weekend for a short break.
-
-**Soluciones:** 1. over / 2. through / 3. out of / 4. on / 5. away
-
-### Ejercicio 2: Une el phrasal verb con su definición
-
-1. Get by → a) recover from
-2. Get over → b) manage with little
-3. Get around to → c) finally find time for
-4. Get back at → d) take revenge on
-
-**Soluciones:** 1-b, 2-a, 3-c, 4-d
-
----
-
-## Conclusión
-
-Los **phrasal verbs con GET** son inevitables en inglés. Su versatilidad los hace aparecer en casi cualquier conversación o texto. La clave para dominarlos es aprender cada combinación en contexto real, no de forma aislada. Intenta usar hoy mismo al menos tres de los que has visto en esta guía —en un email, en un mensaje, o simplemente pensando en inglés en tu día a día.
-
-Sigue explorando el cluster de phrasal verbs de **Focus English** para convertirte en un experto en estas estructuras tan características del inglés real.
+**5. Olvidar el pronombre en el lugar correcto**
+Con phrasal verbs separables de GET, el pronombre va en medio:
+✓ *Get it out.* ❌ *Get out it.*

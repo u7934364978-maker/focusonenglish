@@ -32,9 +32,11 @@ faqs:
 
 ---
 
-Los **verbos modales** son piezas angulares de la fluidez en inglés. Como profesor de Cambridge, a menudo veo que los alumnos dominan el significado básico pero fallan en los matices de cortesía o en las deducciones lógicas.
+Los **verbos modales** son piezas angulares de la fluidez en inglés. A menudo los alumnos dominan el significado básico pero fallan en los matices de cortesía o en las deducciones lógicas.
 
 En esta guía exhaustiva, no solo repasaremos el **esquema de verbos modales en inglés**, sino que profundizaremos en los **Modales Perfectos** y las estructuras avanzadas para niveles B2 y C1.
+
+Para una visión completa del sistema modal, la guía [Verbos Modales en Inglés](/hubs/verbos-modales-ingles) te muestra todos los usos agrupados.
 
 ---
 
