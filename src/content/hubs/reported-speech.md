@@ -119,6 +119,19 @@ Para dominar el estilo indirecto, te recomendamos practicar con situaciones real
 
 ## Conclusión
 
-El Reported Speech es una herramienta poderosa que te permite narrar historias, transmitir información y sonar más profesional en inglés. Aunque las reglas de los cambios verbales y temporales pueden parecer abrumadoras al principio, con la práctica se vuelven automáticas.
+El Reported Speech es una herramienta que te permite narrar historias, transmitir información y sonar más profesional en inglés. Aunque las reglas de los cambios verbales y temporales pueden parecer complejas al principio, con la práctica se vuelven automáticas.
 
-En **Focus English**, nuestro objetivo es que no solo aprendas la gramática, sino que sepas aplicarla en contextos reales de trabajo y viajes. Sigue explorando nuestros hubs de gramática para convertirte en un experto del idioma.
+---
+
+## 📚 Profundiza más
+
+- [Backshift en Reported Speech: Cuándo Cambiar el Verbo y Cuándo No](/blog/gramatica/reported-speech-backshift-excepciones)
+- [Say vs Tell en Inglés: La Diferencia que Todo el Mundo Confunde](/blog/gramatica/say-vs-tell-ingles)
+- [Expresiones de Tiempo en Reported Speech: Cómo Cambiarlas Correctamente](/blog/gramatica/reported-speech-expresiones-tiempo)
+- [Reported Speech: Guía Completa del Estilo Indirecto en Inglés](/blog/gramatica/reported-speech-guia-uso)
+- [Guía Maestra de Reported Speech y Reporting Verbs: De B2 a C2](/blog/gramatica/guia-maestra-reported-speech)
+- [Reported Speech: Preguntas, Órdenes y Peticiones](/blog/gramatica/reported-speech-questions-commands)
+- [Reporting Verbs Patterns: Lista Completa y Guía de Uso](/blog/gramatica/reporting-verbs-patterns-list)
+- [Passive Reporting Verbs: Estructuras Avanzadas (C1-C2)](/blog/gramatica/passive-reporting-verbs-guia-avanzada)
+- [Reported Speech Ejercicios: Practica con Ejemplos Resueltos](/blog/gramatica/reported-speech-ejercicios-pdf)
+- [Reported Speech en Exámenes Cambridge: Guía de Rephrasing (B2-C2)](/blog/examenes/reported-speech-cambridge-exams)

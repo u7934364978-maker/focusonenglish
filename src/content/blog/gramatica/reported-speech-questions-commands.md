@@ -34,9 +34,9 @@ faqs:
 
 ## Reported Speech: Preguntas, Órdenes y Peticiones
 
-Dominar el **Reported Speech** (estilo indirecto) es un paso fundamental para alcanzar un nivel intermedio-avanzado de inglés. Si bien reportar afirmaciones es relativamente sencillo, reportar **preguntas, órdenes y peticiones** requiere cambios estructurales específicos que suelen confundir a los estudiantes.
+Reportar afirmaciones en inglés ya es desafiante, pero reportar **preguntas, órdenes y peticiones** requiere cambios estructurales adicionales que suelen confundir a los estudiantes.
 
-En este artículo, desglosaremos paso a paso cómo transformar oraciones interrogativas e imperativas al estilo indirecto, asegurando que tu comunicación sea fluida y gramaticalmente impecable.
+En este artículo, desglosaremos paso a paso cómo transformar oraciones interrogativas e imperativas al estilo indirecto. Para el sistema completo del reported speech, la guía [Reported Speech en Inglés](/hubs/reported-speech) te da el contexto general antes de entrar en estos casos específicos.
 
 ## 1. Reported Questions (Preguntas Indirectas)
 

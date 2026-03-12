@@ -33,9 +33,9 @@ faqs:
 
 ## Passive Reporting Verbs: Estructuras Avanzadas (C1-C2)
 
-Las **estructuras pasivas de reporte** son esenciales en el lenguaje académico y formal, muy comunes en la prensa y en los niveles C1/C2 de inglés. Se utilizan para reportar información sin atribuirla a una fuente específica, lo que aporta un tono de objetividad y profesionalismo necesario en exámenes como el Cambridge C1 Advanced o C2 Proficiency.
+Las **estructuras pasivas de reporte** son esenciales en el lenguaje académico y formal, muy comunes en la prensa y en los niveles avanzados de inglés. Se utilizan para reportar información sin atribuirla a una fuente específica, lo que aporta un tono de objetividad y profesionalismo.
 
-En este artículo, desglosaremos cómo funcionan los **passive reporting verbs**, las diferencias entre sus estructuras y cómo utilizarlos correctamente para elevar tu nivel de inglés.
+En este artículo, desglosaremos cómo funcionan los **passive reporting verbs** y cómo utilizarlos correctamente. Si quieres el contexto general del reported speech primero, la guía [Reported Speech en Inglés](/hubs/reported-speech) cubre todas las estructuras básicas.
 
 ## ¿Por qué usamos la pasiva con verbos de reporte?
 

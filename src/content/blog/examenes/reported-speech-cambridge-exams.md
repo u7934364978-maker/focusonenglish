@@ -32,9 +32,9 @@ faqs:
 
 ## Reported Speech Cambridge Exams: Guía de Rephrasing (B2-C2)
 
-En los exámenes de Cambridge (B2 First, C1 Advanced y C2 Proficiency), el **Reported Speech** no solo se evalúa como una regla gramatical aislada, sino como una herramienta fundamental de comunicación. Es un tema recurrente, especialmente en la parte 4 del Use of English: **Key Word Transformation** (rephrasing).
+En los exámenes de Cambridge (B2 First, C1 Advanced y C2 Proficiency), el **Reported Speech** es un tema recurrente, especialmente en la parte 4 del Use of English: **Key Word Transformation** (rephrasing).
 
-Dominar el estilo indirecto es la diferencia entre un aprobado raso y una nota sobresaliente. En esta guía, exploraremos cómo enfrentarte a estos ejercicios con éxito, analizando las estructuras que los examinadores esperan ver en cada nivel.
+Dominar el estilo indirecto puede marcar la diferencia en la nota final. En esta guía, exploraremos cómo enfrentarte a estos ejercicios con éxito. Si antes necesitas repasar las reglas, la guía [Reported Speech en Inglés](/hubs/reported-speech) cubre todo el sistema con ejemplos claros.
 
 ## El Reto del Rephrasing en Cambridge
 
