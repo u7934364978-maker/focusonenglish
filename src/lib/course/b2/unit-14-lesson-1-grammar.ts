@@ -81,7 +81,7 @@ export const UNIT_14_LESSON_1_GRAMMAR: Exercise[] = [
           type: 'fill-blank',
           question:
             "[[The deal ____ fallen through. They haven't responded to our emails for a week.|El acuerdo ____ podría haberse roto. No han respondido a nuestros correos desde hace una semana.]]",
-          options: ['[[might have|podría haber]]', '[[must have|debe haber]]', "[[can't have|no puede haber]]"],
+          options: [`[[might have|podría haber]]`, `[[must have|debe haber]]`, `[[can't have|no puede haber]]`],
           correctAnswer: '[[might have|podría haber]]',
           acceptableAnswers: ['[[might have|podría haber]]', '[[may have|puede haber]]'],
           explanation:
@@ -108,7 +108,7 @@ export const UNIT_14_LESSON_1_GRAMMAR: Exercise[] = [
           type: 'multiple-choice',
           question:
             "[[The company's profits have doubled this quarter. They ____ made some excellent investment decisions.|Los beneficios de la empresa se han duplicado este trimestre. ____ deben haber tomado excelentes decisiones de inversión.]]",
-          options: ['[[must have|deben haber]]', '[[might have|podrían haber]]', "[[can't have|no pueden haber]]"],
+          options: [`[[must have|deben haber]]`, `[[might have|podrían haber]]`, `[[can't have|no pueden haber]]`],
           correctAnswer: '[[must have|deben haber]]',
           explanation:
             'Certeza lógica: si los beneficios se han duplicado, es muy probable que hayan tomado buenas decisiones.',
@@ -161,7 +161,7 @@ export const UNIT_14_LESSON_1_GRAMMAR: Exercise[] = [
           type: 'fill-blank',
           question:
             '[[The client ____ changed their mind. They were very positive last week.|El cliente ____ podría haber cambiado de opinión. Estaban muy positivos la semana pasada.]]',
-          options: ['[[might have|podría haber]]', '[[must have|debe haber]]', "[[can't have|no puede haber]]"],
+          options: [`[[might have|podría haber]]`, `[[must have|debe haber]]`, `[[can't have|no puede haber]]`],
           correctAnswer: '[[might have|podría haber]]',
           acceptableAnswers: ['[[might have|podría haber]]', '[[may have|puede haber]]'],
           explanation:
@@ -215,7 +215,7 @@ export const UNIT_14_LESSON_1_GRAMMAR: Exercise[] = [
           type: 'multiple-choice',
           question:
             "[[The merger ____ been delayed. We haven't received any official confirmation yet.|La fusión ____ puede haberse retrasado. No hemos recibido confirmación oficial aún.]]",
-          options: ['[[may have|puede haber]]', '[[must have|debe haber]]', "[[can't have|no puede haber]]"],
+          options: [`[[may have|puede haber]]`, `[[must have|debe haber]]`, `[[can't have|no puede haber]]`],
           correctAnswer: '[[may have|puede haber]]',
           explanation:
             'Posibilidad: no hay confirmación, así que es posible que se haya retrasado.',
@@ -295,7 +295,7 @@ export const UNIT_14_LESSON_1_GRAMMAR: Exercise[] = [
           type: 'multiple-choice',
           question:
             "[[The budget ____ been approved. I'm not sure if the board has met yet.|El presupuesto ____ podría haber sido aprobado. No estoy seguro de si la junta se ha reunido aún.]]",
-          options: ['[[might have|podría haber]]', '[[must have|debe haber]]', "[[can't have|no puede haber]]"],
+          options: [`[[might have|podría haber]]`, `[[must have|debe haber]]`, `[[can't have|no puede haber]]`],
           correctAnswer: '[[might have|podría haber]]',
           explanation:
             'Posibilidad: no hay certeza sobre si la junta se ha reunido.',
@@ -375,7 +375,7 @@ export const UNIT_14_LESSON_1_GRAMMAR: Exercise[] = [
           type: 'multiple-choice',
           question:
             '[[The shipment ____ arrived at the warehouse. The tracking system is down.|El envío ____ podría haber llegado al almacén. El sistema de seguimiento no funciona.]]',
-          options: ['[[might have|podría haber]]', '[[must have|debe haber]]', "[[can't have|no puede haber]]"],
+          options: [`[[might have|podría haber]]`, `[[must have|debe haber]]`, `[[can't have|no puede haber]]`],
           correctAnswer: '[[might have|podría haber]]',
           explanation:
             'Posibilidad: no podemos verificar el seguimiento, así que es posible que haya llegado.',
@@ -428,7 +428,7 @@ export const UNIT_14_LESSON_1_GRAMMAR: Exercise[] = [
           type: 'fill-blank',
           question:
             "[[The investors ____ been impressed. They've decided to increase their funding.|Los inversores ____ deben haberse quedado impresionados. Han decidido aumentar su financiación.]]",
-          options: ['[[must have|deben haber]]', '[[might have|podrían haber]]', "[[can't have|no pueden haber]]"],
+          options: [`[[must have|deben haber]]`, `[[might have|podrían haber]]`, `[[can't have|no pueden haber]]`],
           correctAnswer: '[[must have|deben haber]]',
           acceptableAnswers: ['[[must have|deben haber]]'],
           explanation:
@@ -455,7 +455,7 @@ export const UNIT_14_LESSON_1_GRAMMAR: Exercise[] = [
           type: 'multiple-choice',
           question:
             '[[The negotiations ____ broken down. Neither side has made any comment.|Las negociaciones ____ podrían haberse roto. Ninguna de las partes ha hecho comentarios.]]',
-          options: ['[[might have|podrían haber]]', '[[must have|deben haber]]', "[[can't have|no pueden haber]]"],
+          options: [`[[might have|podrían haber]]`, `[[must have|deben haber]]`, `[[can't have|no pueden haber]]`],
           correctAnswer: '[[might have|podrían haber]]',
           explanation:
             'Posibilidad: la falta de comentarios sugiere que podrían haberse roto.',
