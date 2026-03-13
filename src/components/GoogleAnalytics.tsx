@@ -37,10 +37,10 @@ export default function GoogleAnalytics() {
     <>
       <Script
         src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
-        strategy="afterInteractive"
+        strategy="lazyOnload"
         data-cookieconsent="statistics"
       />
-      <Script id="google-analytics" strategy="afterInteractive" data-cookieconsent="statistics">
+      <Script id="google-analytics" strategy="lazyOnload" data-cookieconsent="statistics">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}

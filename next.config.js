@@ -3,6 +3,16 @@ const path = require('path');
 
 const nextConfig = {
   compress: true,
+  // Reduce unused JS: tree-shake large packages (framer-motion, radix, etc.)
+  experimental: {
+    optimizePackageImports: [
+      'framer-motion',
+      '@radix-ui/react-avatar',
+      '@radix-ui/react-progress',
+      '@radix-ui/react-tabs',
+      'lucide-react',
+    ],
+  },
   // Fix Vercel build: use project root for file tracing (avoids multi-lockfile inference)
   outputFileTracingRoot: path.join(__dirname),
   // Vercel deployment - native Next.js support

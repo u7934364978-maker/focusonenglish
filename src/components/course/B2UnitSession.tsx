@@ -25,7 +25,6 @@ import { Progress } from '@/components/ui/progress';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import { useGamification } from '@/lib/hooks/use-gamification';
-import confetti from 'canvas-confetti';
 
 interface B2UnitSessionProps {
   unit: Lesson;
@@ -66,9 +65,9 @@ export default function B2UnitSession({ unit, backUrl = "/planes" }: B2UnitSessi
     // Reward points for completing a block
     completeExercise(`b2-block-${unit.id}-${currentBlockIndex}`, blockScore, xpGained);
 
-    // Block completion celebration
+    // Block completion celebration (lazy load confetti)
     if (blockScore >= 80) {
-      confetti({
+      import('canvas-confetti').then(({ default: confetti }) => confetti({
         particleCount: 100,
         spread: 70,
         origin: { y: 0.6 },
@@ -81,9 +80,9 @@ export default function B2UnitSession({ unit, backUrl = "/planes" }: B2UnitSessi
       const totalScore = Object.values({ ...blockScores, [currentBlockIndex]: blockScore }).reduce((a, b) => a + b, 0) / totalBlocks;
       setScore(totalScore);
       
-      // Unit completion celebration
+      // Unit completion celebration (lazy load confetti)
       setTimeout(() => {
-        confetti({
+        import('canvas-confetti').then(({ default: confetti }) => confetti({
           particleCount: 200,
           spread: 160,
           origin: { y: 0.6 },

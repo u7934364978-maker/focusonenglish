@@ -1,6 +1,5 @@
 'use client';
 import React, { createContext, useContext, useReducer, ReactNode, useEffect } from 'react';
-import confetti from 'canvas-confetti';
 
 interface MissionState {
   xp: number;
@@ -92,15 +91,17 @@ const MissionContext = createContext<{
 export function MissionProvider({ children }: { children: ReactNode }) {
   const [state, dispatch] = useReducer(missionReducer, initialState);
 
-  // Efecto para celebraciones de nivel
+  // Efecto para celebraciones de nivel (lazy load confetti)
   useEffect(() => {
     if (state.level > 1) {
-      confetti({
-        particleCount: 150,
-        spread: 70,
-        origin: { y: 0.6 },
-        colors: ['#F43F5E', '#FB923C', '#FACC15']
-      });
+      import('canvas-confetti').then(({ default: confetti }) =>
+        confetti({
+          particleCount: 150,
+          spread: 70,
+          origin: { y: 0.6 },
+          colors: ['#F43F5E', '#FB923C', '#FACC15']
+        })
+      );
     }
   }, [state.level]);
 
