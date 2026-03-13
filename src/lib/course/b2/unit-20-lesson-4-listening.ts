@@ -1,224 +1,29 @@
 /**
- * Unidad 20 B2 — Lección 4: Comprensión auditiva (Repaso 16–19)
- * 18 actividades (B2: mixed topics)
+ * Unidad 20 B2 — Lección 4: Comprensión auditiva (Repaso 16-19)
+ * 13 preguntas (B2: recreado con transcripción y preguntas distintos)
  */
 
 import { Exercise } from '@/lib/exercise-generator';
 
 const LESSON_TITLE = '[[Listening|Comprensión auditiva]]';
-const LISTENING_TRANSCRIPT = `[[Hi|Hola]], [[I'm|soy]] [[Dr Emma Collins|la Dra Emma Collins]], [[and|y]] [[today|hoy]] [[I want to share|quiero compartir]] [[some thoughts|algunas reflexiones]] [[on|sobre]] [[how| cómo]] [[technology|la tecnología]], [[science|la ciencia]], [[food|la comida]] [[and|y]] [[sport|el deporte]] [[are connected|están conectados]] [[in our daily lives|en nuestra vida diaria]]. [[First|Primero]], [[our phones|nuestros teléfonos]] [[are used|son usados]] [[for everything|para todo]] [[from|desde]] [[ordering food|pedir comida]] [[to|hasta]] [[tracking our runs|registrar nuestras carreras]]. [[Apps|Las aplicaciones]] [[that|que]] [[help us|nos ayudan]] [[to eat healthily|a comer saludablemente]] [[must be designed|deben ser diseñadas]] [[with|con]] [[careful research|investigación cuidadosa]]. [[The Mediterranean diet|La dieta mediterránea]] [[is|es]] [[such a healthy option|una opción tan saludable]] [[that|que]] [[many doctors|muchos médicos]] [[recommend it|la recomiendan]]. [[However|Sin embargo]], [[some people|algunas personas]] [[don't have|no tienen]] [[enough time|suficiente tiempo]] [[to cook|para cocinar]] [[fresh meals|comidas frescas]]. [[In sport|En el deporte]], [[the more you train|cuanto más entrenas]], [[the better|mejor]] [[you perform|rindes]], [[but|pero]] [[rest|el descanso]] [[is|es]] [[just as important|igual de importante]] [[as|como]] [[practice|la práctica]]. [[We|Nosotros]] [[had|hicimos]] [[our lab equipment|nuestro equipo de laboratorio]] [[calibrated|calibrar]] [[last week|la semana pasada]] [[to ensure|para asegurar]] [[accurate results|resultados precisos]]. [[That was|Esa fue]] [[one of the most useful|una de las más útiles]] [[investments|inversiones]] [[we've made|que hemos hecho]].`;
+const LISTENING_TRANSCRIPT = `[[Hi|Hola]], [[I\'m Dr. Sarah Chen|soy la Dra. Sarah Chen]], [[a researcher|investigadora]] [[who has been studying|que ha estado estudiando]] [[how technology|cómo la tecnología]] [[is being used|está siendo usada]] [[in science|en la ciencia]] [[for over a decade|desde hace más de una década]]. [[The data|Los datos]] [[that|que]] [[were collected|fueron recogidos]] [[last year|el año pasado]] [[have been analysed|han sido analizados]] [[and|y]] [[the results|los resultados]] [[will be published|serán publicados]] [[next month|el próximo mes]]. [[The new equipment|El nuevo equipo]] [[had to be|tuvo que ser]] [[calibrated|calibrado]] [[before|antes de]] [[the experiment|el experimento]] [[could be conducted|pudiera ser realizado]]. [[Some of the samples|Algunas de las muestras]] [[were|eran]] [[too contaminated|demasiado contaminadas]] [[to use|para usar]]; [[others|otras]] [[were|eran]] [[clean enough|suficientemente limpias]] [[to proceed|para proceder]]. [[The more|Cuanto más]] [[we learn|aprendemos]], [[the more|más]] [[we realise|nos damos cuenta]] [[how much|cuánto]] [[we don\'t know|no sabemos]]. [[This|Esto]] [[is|es]] [[by far|con diferencia]] [[the most challenging|lo más desafiante]] [[part|parte]] [[of our work|de nuestro trabajo]].`;
 
-const INSTRUCTIONS =
-  'Escucha el audio (o lee la transcripción). Después responde las preguntas de comprensión.';
+const INSTRUCTIONS = 'Escucha el audio (o lee la transcripción). Después responde las preguntas.';
 
 const QUESTIONS = [
-  {
-    question: '[[Who is speaking in the audio|Quién habla en el audio]]?',
-    options: [
-      '[[Dr Emma Collins, sharing thoughts on technology, science, food and sport|La Dra Emma Collins, compartiendo reflexiones sobre tecnología, ciencia, comida y deporte]]',
-      '[[A chef|Una chef]]',
-      '[[A sports coach|Un entrenador deportivo]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El hablante se presenta como "Dr Emma Collins" y quiere compartir "some thoughts on how technology, science, food and sport are connected".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[does the speaker want to share|quiere compartir el hablante]]?',
-    options: [
-      '[[Thoughts on how technology, science, food and sport are connected|Reflexiones sobre cómo tecnología, ciencia, comida y deporte están conectados]]',
-      '[[A new recipe|Una nueva receta]]',
-      '[[Sports results|Resultados deportivos]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Quiere compartir "some thoughts on how technology, science, food and sport are connected in our daily lives".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[are phones used for|para qué se usan los teléfonos]]?',
-    options: [
-      '[[For everything from ordering food to tracking runs|Para todo desde pedir comida hasta registrar carreras]]',
-      '[[Only for calls|Solo para llamadas]]',
-      '[[Only for sport|Solo para deporte]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Dice que "our phones are used for everything from ordering food to tracking our runs".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[must apps that help us eat healthily be designed with|con qué deben diseñarse las apps que nos ayudan a comer saludablemente]]?',
-    options: [
-      '[[Careful research|Investigación cuidadosa]]',
-      '[[More money|Más dinero]]',
-      '[[Fewer features|Menos funciones]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Dice que "must be designed with careful research".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[does the speaker say about the Mediterranean diet|dice el hablante sobre la dieta mediterránea]]?',
-    options: [
-      '[[It is such a healthy option that many doctors recommend it|Es una opción tan saludable que muchos médicos la recomiendan]]',
-      '[[It is too expensive|Es demasiado cara]]',
-      '[[It is not healthy|No es saludable]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Dice que "The Mediterranean diet is such a healthy option that many doctors recommend it".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[problem do some people have|problema tienen algunas personas]]?',
-    options: [
-      '[[They don\'t have enough time to cook fresh meals|No tienen suficiente tiempo para cocinar comidas frescas]]',
-      '[[They eat too much|Comen demasiado]]',
-      '[[They don\'t like Mediterranean food|No les gusta la comida mediterránea]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Menciona que "some people don\'t have enough time to cook fresh meals".',
-  },
-  {
-    question:
-      '[[According to the speaker|Según el hablante]], [[how|qué]] [[does rest compare to practice in sport|se compara el descanso con la práctica en el deporte]]?',
-    options: [
-      '[[Rest is just as important as practice|El descanso es igual de importante que la práctica]]',
-      '[[Rest is less important|El descanso es menos importante]]',
-      '[[Rest is not necessary|El descanso no es necesario]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Dice que "rest is just as important as practice".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[did they have done to their lab equipment|hicieron hacer con su equipo de laboratorio]]?',
-    options: [
-      '[[They had it calibrated last week|Lo hicieron calibrar la semana pasada]]',
-      '[[They had it replaced|Lo hicieron reemplazar]]',
-      '[[They had it sold|Lo hicieron vender]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Dice que "we had our lab equipment calibrated last week".',
-  },
-  {
-    question:
-      '[[The speaker suggests|El hablante sugiere]] [[that|que]] [[the more you train, the better you perform|cuanto más entrenas, mejor rindes]].',
-    options: ['[[True|Verdadero]]', '[[False|Falso]]'],
-    correctAnswer: 'True',
-    explanation:
-      'Verdadero: "The more you train, the better you perform".',
-  },
-  {
-    question:
-      '[[The audio implies|El audio implica]] [[that|que]] [[calibrating lab equipment was a good investment|calibrar el equipo del laboratorio fue una buena inversión]].',
-    options: ['[[True|Verdadero]]', '[[False|Falso]]'],
-    correctAnswer: 'True',
-    explanation:
-      'Verdadero: "That was one of the most useful investments we\'ve made".',
-  },
-  {
-    question:
-      '[[What|Cuál]] [[is|es]] [[the main idea|la idea principal]] [[of the listening|de la escucha]]?',
-    options: [
-      '[[Technology, science, food and sport are connected; apps, diet, training and lab work are discussed|Tecnología, ciencia, comida y deporte están conectados; se discuten apps, dieta, entrenamiento y trabajo de laboratorio]]',
-      '[[Phones are the most important|Los teléfonos son lo más importante]]',
-      '[[Everyone should eat Mediterranean food|Todos deberían comer comida mediterránea]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'La idea central es la conexión entre tecnología, ciencia, comida y deporte.',
-  },
-  {
-    question:
-      '[[Which grammar structure|Qué estructura gramatical]] [[does the speaker use|usa el hablante]] [[when saying|al decir]] "must be designed"?',
-    options: [
-      '[[Modal passive (must be + past participle)|Pasiva modal (must be + participio)]]',
-      '[[So + adjective + that|So + adjetivo + that]]',
-      '[[Have something done|Have something done]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Es modal passive: must be designed = deben ser diseñadas.',
-  },
-  {
-    question:
-      '[[Which phrase|Qué frase]] [[expresses|expresa]] [[have something done|have something done]] [[in the transcript|en la transcripción]]?',
-    options: [
-      '[[had our lab equipment calibrated|hicimos calibrar nuestro equipo de laboratorio]]',
-      '[[must be designed|deben ser diseñadas]]',
-      '[[such a healthy option|una opción tan saludable]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      '"Had our lab equipment calibrated" = have something done.',
-  },
-  {
-    question:
-      '[[What|Qué]] [[vocabulary set|conjunto de vocabulario]] [[is central|es central]] [[in this listening|en esta escucha]]?',
-    options: [
-      '[[technology, apps, diet, train, rest, calibrated|technology, apps, diet, train, rest, calibrated]]',
-      '[[business, merger, profit|business, merger, profit]]',
-      '[[culture, tradition, heritage|culture, tradition, heritage]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Todo el audio mezcla vocabulario de tecnología, ciencia, comida y deporte.',
-  },
-  {
-    question:
-      '[[According to the speaker|Según el hablante]], [[why|por qué]] [[did they have the lab equipment calibrated|hicieron calibrar el equipo del laboratorio]]?',
-    options: [
-      '[[To ensure accurate results|Para asegurar resultados precisos]]',
-      '[[Because it was broken|Porque estaba roto]]',
-      '[[To save money|Para ahorrar dinero]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Dice que "to ensure accurate results".',
-  },
-  {
-    question:
-      '[[The phrase|La frase]] [["such a healthy option"|"such a healthy option"]] [[expresses|expresa]] ____.',
-    options: [
-      '[[Emphasis on the noun (una opción tan saludable)|Énfasis en el sustantivo (una opción tan saludable)]]',
-      '[[Excess (demasiado)|Exceso (demasiado)]]',
-      '[[Passive (es recomendada)|Pasiva (es recomendada)]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      '"Such a healthy option" = una opción tan saludable (such + a/an + adjective + noun).',
-  },
-  {
-    question:
-      '[[What|Qué]] [[detail|detalle]] [[supports|apoya]] [[the idea that technology connects different areas|la idea de que la tecnología conecta diferentes áreas]]?',
-    options: [
-      '[[Phones are used for ordering food and tracking runs|Los teléfonos se usan para pedir comida y registrar carreras]]',
-      '[[Rest is important|El descanso es importante]]',
-      '[[They had equipment calibrated|Hicieron calibrar el equipo]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El uso del teléfono para comida y deporte muestra la conexión.',
-  },
-  {
-    question:
-      '[[The structure|La estructura]] [["one of the most useful"|"one of the most useful"]] [[expresses|expresa]] ____.',
-    options: [
-      '[[Superlative (una de las más útiles)|Superlativo (una de las más útiles)]]',
-      '[[Comparative (más que)|Comparativo (más que)]]',
-      '[[Equality (tan... como)|Igualdad (tan... como)]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      '"One of the most useful" = una de las más útiles (superlativo).',
-  },
+  { question: '[[Who is speaking|Quién habla]]?', options: ['[[Dr. Sarah Chen, a researcher who has studied how technology is used in science for over a decade|Dra. Sarah Chen, investigadora que ha estudiado cómo se usa la tecnología en ciencia más de una década]]', '[[A sports coach|Un entrenador deportivo]]', '[[A chef|Un chef]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[I\'m Dr. Sarah Chen, a researcher who has been studying how technology is being used in science for over a decade|soy la Dra. Sarah Chen, investigadora que ha estado estudiando cómo la tecnología está siendo usada en la ciencia desde hace más de una década]]".' },
+  { question: '[[What|Qué]] [[has happened to the data collected last year|ha pasado con los datos recogidos el año pasado]]?', options: ['[[They have been analysed and results will be published next month|Han sido analizados y los resultados serán publicados el próximo mes]]', '[[They were lost|Se perdieron]]', '[[They are being collected now|Se están recogiendo ahora]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[the data that were collected last year have been analysed and the results will be published next month|los datos que fueron recogidos el año pasado han sido analizados y los resultados serán publicados el próximo mes]]".' },
+  { question: '[[What|Qué]] [[had to be done to the new equipment|tuvo que hacerse con el nuevo equipo]]?', options: ['[[It had to be calibrated before the experiment could be conducted|Tuvo que ser calibrado antes de que el experimento pudiera realizarse]]', '[[It was replaced|Fue reemplazado]]', '[[It was thrown away|Fue tirado]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[The new equipment had to be calibrated before the experiment could be conducted|El nuevo equipo tuvo que ser calibrado antes de que el experimento pudiera ser realizado]]".' },
+  { question: '[[What|Qué]] [[were some samples like|cómo eran algunas muestras]]?', options: ['[[Too contaminated to use|Demasiado contaminadas para usar]]', '[[Clean enough for everything|Suficientemente limpias para todo]]', '[[Perfect|Perfectas]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[Some of the samples were too contaminated to use|Algunas de las muestras eran demasiado contaminadas para usar]]".' },
+  { question: '[[What|Qué]] [[were other samples like|cómo eran otras muestras]]?', options: ['[[Clean enough to proceed|Suficientemente limpias para proceder]]', '[[Too dirty|Demasiado sucias]]', '[[Useless|Inútiles]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[others were clean enough to proceed|otras eran suficientemente limpias para proceder]]".' },
+  { question: '[[What|Qué]] [[does the speaker say about learning|dice el hablante sobre aprender]]?', options: ['[[The more we learn, the more we realise how much we don\'t know|Cuanto más aprendemos, más nos damos cuenta de cuánto no sabemos]]', '[[We know everything|Lo sabemos todo]]', '[[Learning is easy|Aprender es fácil]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[The more we learn, the more we realise how much we don\'t know|Cuanto más aprendemos, más nos damos cuenta de cuánto no sabemos]]".' },
+  { question: '[[What|Qué]] [[is by far the most challenging part of their work|es con diferencia la parte más desafiante de su trabajo]]?', options: ['[[Realising how much we don\'t know|Darse cuenta de cuánto no sabemos]]', '[[Calibrating equipment|Calibrar equipo]]', '[[Collecting samples|Recoger muestras]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[This is by far the most challenging part of our work|Esto es con diferencia la parte más desafiante de nuestro trabajo]]" [[referring to|refiriéndose a]] "[[how much we don\'t know|cuánto no sabemos]]".' },
+  { question: '[[The speaker|El hablante]] [[says|dice]] [[that|que]] [[all samples were clean enough to use|todas las muestras eran suficientemente limpias para usar]].', options: ['[[True|Verdadero]]', '[[False|Falso]]'], correctAnswer: 1, explanation: '[[False|Falso]]. [[The speaker says|El hablante dice]] "[[Some of the samples were too contaminated to use|Algunas de las muestras eran demasiado contaminadas para usar]]".' },
+  { question: '[[According to the speaker|Según el hablante]], [[the results have already been published|los resultados ya han sido publicados]].', options: ['[[True|Verdadero]]', '[[False|Falso]]'], correctAnswer: 1, explanation: '[[False|Falso]]. [[The speaker says|El hablante dice]] "[[the results will be published next month|los resultados serán publicados el próximo mes]]".' },
+  { question: '[[What|Cuál]] [[is the main idea|es la idea principal]] [[of the listening|de la escucha]]?', options: ['[[Research involves passive structures, too/enough, and the more... the more; challenges remain|La investigación implica pasiva, too/enough y the more... the more; quedan retos]]', '[[Technology is useless|La tecnología es inútil]]', '[[All experiments succeed|Todos los experimentos tienen éxito]]'], correctAnswer: 0, explanation: '[[The listening|La escucha]] [[covers|abarca]] [[passive|pasiva]], [[too/enough|too/enough]] [[and|y]] [[the more... the more|the more... the more]].' },
+  { question: '[[Which structure|Qué estructura]] [[uses passive voice|usa voz pasiva]] [[in the transcript|en la transcripción]]?', options: ['[[The data were collected / have been analysed / will be published|Los datos fueron recogidos / han sido analizados / serán publicados]]', '[[We learn|Aprendemos]]', '[[Samples were contaminated|Las muestras estaban contaminadas]]'], correctAnswer: 0, explanation: '[[Multiple passive forms|Múltiples formas pasivas]].' },
+  { question: '[[What|Qué]] [[vocabulary|vocabulario]] [[is central|es central]] [[in this listening|en esta escucha]]?', options: ['[[data|datos]], [[samples|muestras]], [[experiment|experimento]], [[calibrated|calibrado]], [[contaminated|contaminado]]', '[[profit|beneficio]], [[debt|deuda]], [[budget|presupuesto]]', '[[museum|museo]], [[theatre|teatro]], [[concert|concierto]]'], correctAnswer: 0, explanation: '[[The listening|La escucha]] [[focuses on|se centra en]] [[science and research vocabulary|vocabulario de ciencia e investigación]].' },
+  { question: '[[What|Qué]] [[does "calibrated" mean|significa "calibrated"]] [[in this context|en este contexto]]?', options: ['[[Adjusted or set to work correctly|Ajustado o configurado para funcionar correctamente]]', '[[Broken|Roto]]', '[[Replaced|Reemplazado]]'], correctAnswer: 0, explanation: '[[Calibrate|Calibrar]] [[means to adjust equipment|significa ajustar equipo]] [[for accuracy|para precisión]].' },
 ];
 
 export const UNIT_20_LESSON_4_LISTENING: Exercise[] = QUESTIONS.map((q, i) => ({

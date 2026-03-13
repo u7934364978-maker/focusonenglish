@@ -1,233 +1,29 @@
 /**
  * Unidad 16 B2 — Lección 3: Comprensión lectora (Technology)
- * 18 actividades (B2: más vocabulario y complejidad que B1)
+ * 13 preguntas (B2: recreado con texto y preguntas distintos)
  */
 
 import { Exercise } from '@/lib/exercise-generator';
 
 const LESSON_TITLE = '[[Reading|Comprensión lectora]]';
-const READING_TRANSCRIPT = `[[The internet|Internet]] [[was developed|fue desarrollado]] [[in the 1960s|en los años 60]] [[by researchers|por investigadores]] [[who|que]] [[were working|estaban trabajando]] [[for the US military|para el ejército estadounidense]]. [[Originally|Originalmente]], [[it|él]] [[was designed|fue diseñado]] [[to share information|para compartir información]] [[between|entre]] [[different computers|diferentes ordenadores]] [[in case|por si]] [[a nuclear attack|un ataque nuclear]] [[destroyed|destruía]] [[one of them|uno de ellos]]. [[Today|Hoy]], [[billions of emails|miles de millones de correos]] [[are sent|se envían]] [[every day|cada día]], [[and|y]] [[new applications|nuevas aplicaciones]] [[are being created|están siendo creadas]] [[constantly|constantemente]]. [[The first smartphone|El primer smartphone]] [[was released|fue lanzado]] [[in 2007|en 2007]], [[and|y]] [[since then|desde entonces]] [[the way we communicate|la forma en que nos comunicamos]] [[has been transformed|ha sido transformada]]. [[Personal data|Los datos personales]] [[is now stored|ahora se almacena]] [[in the cloud|en la nube]], [[which|que]] [[means|significa]] [[that|que]] [[we can access|podemos acceder]] [[our information|a nuestra información]] [[from anywhere|desde cualquier lugar]]. [[However|Sin embargo]], [[cybersecurity|la ciberseguridad]] [[has become|se ha convertido]] [[a major concern|en una gran preocupación]] [[because|porque]] [[hackers|los hackers]] [[are constantly trying|intentan constantemente]] [[to access|acceder]] [[to systems|a sistemas]] [[that|que]] [[should be protected|deberían estar protegidos]].`;
+const READING_TRANSCRIPT = `[[Artificial intelligence|La inteligencia artificial]] [[is being used|está siendo usada]] [[in more industries|en más industrias]] [[every year|cada año]]. [[Tasks|Tareas]] [[that|que]] [[were once done|que antes se hacían]] [[by humans|por humanos]] [[are now|ahora]] [[being automated|están siendo automatizadas]] [[by algorithms|por algoritmos]]. [[Data|Los datos]] [[that|que]] [[is collected|se recogen]] [[from users|de usuarios]] [[must be protected|deben ser protegidos]] [[under strict regulations|bajo regulaciones estrictas]]. [[The software|El software]] [[which was developed|que fue desarrollado]] [[last decade|la década pasada]] [[has been updated|ha sido actualizado]] [[several times|varias veces]] [[to fix|para corregir]] [[security vulnerabilities|vulnerabilidades de seguridad]]. [[New features|Nuevas funciones]] [[are being added|están siendo añadidas]] [[constantly|constantemente]] [[to meet|para satisfacer]] [[user demand|la demanda del usuario]]. [[Companies|Las empresas]] [[that fail to protect|que no protegen]] [[customer data|los datos de clientes]] [[can be fined|pueden ser multadas]] [[heavily|severamente]]. [[The internet|Internet]] [[was invented|fue inventado]] [[decades ago|hace décadas]], [[but|pero]] [[it is still|sigue]] [[being transformed|siendo transformado]] [[by new technologies|por nuevas tecnologías]].`;
 
-const INSTRUCTIONS =
-  'Lee el texto sobre la historia y el estado actual de la tecnología. Después responde las preguntas.';
+const INSTRUCTIONS = 'Lee el texto sobre tecnología e inteligencia artificial. Después responde las preguntas.';
 
 const QUESTIONS = [
-  {
-    question:
-      '[[When|Cuándo]] [[was the internet developed|fue desarrollado internet]]?',
-    options: [
-      '[[In the 1960s|En los años 60]]',
-      '[[In the 1990s|En los 90]]',
-      '[[In the 2000s|En los 2000]]',
-    ],
-    correctAnswer: 0,
-    explanation: 'El texto dice que "was developed in the 1960s".',
-  },
-  {
-    question:
-      '[[Who|Quiénes]] [[developed the internet|desarrollaron internet]]?',
-    options: [
-      '[[Researchers working for the US military|Investigadores que trabajaban para el ejército estadounidense]]',
-      '[[University students|Estudiantes universitarios]]',
-      '[[Private companies|Empresas privadas]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Se menciona que "was developed by researchers who were working for the US military".',
-  },
-  {
-    question:
-      '[[What|Para qué]] [[was the internet originally designed|fue diseñado originalmente internet]]?',
-    options: [
-      '[[To share information between computers in case of a nuclear attack|Para compartir información entre ordenadores por si un ataque nuclear destruía uno]]',
-      '[[For entertainment|Para entretenimiento]]',
-      '[[For online shopping|Para compras online]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El texto indica que "was designed to share information between different computers in case a nuclear attack destroyed one of them".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[happens to billions of emails every day|pasa con miles de millones de correos cada día]]?',
-    options: [
-      '[[They are sent|Se envían]]',
-      '[[They are deleted|Se eliminan]]',
-      '[[They are stored|Se almacenan]]',
-    ],
-    correctAnswer: 0,
-    explanation: 'Se dice que "billions of emails are sent every day".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[is constantly happening to new applications|pasa constantemente con las nuevas aplicaciones]]?',
-    options: [
-      '[[They are being created|Están siendo creadas]]',
-      '[[They are being deleted|Están siendo eliminadas]]',
-      '[[They are being sold|Están siendo vendidas]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El texto dice que "new applications are being created constantly".',
-  },
-  {
-    question:
-      '[[When|Cuándo]] [[was the first smartphone released|fue lanzado el primer smartphone]]?',
-    options: [
-      '[[In 2007|En 2007]]',
-      '[[In 2000|En 2000]]',
-      '[[In 2010|En 2010]]',
-    ],
-    correctAnswer: 0,
-    explanation: 'Se indica que "The first smartphone was released in 2007".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[has been transformed since the first smartphone|ha sido transformado desde el primer smartphone]]?',
-    options: [
-      '[[The way we communicate|La forma en que nos comunicamos]]',
-      '[[The way we eat|La forma en que comemos]]',
-      '[[The way we travel|La forma en que viajamos]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El texto dice que "the way we communicate has been transformed".',
-  },
-  {
-    question:
-      '[[Where|Dónde]] [[is personal data now stored|se almacenan ahora los datos personales]]?',
-    options: [
-      '[[In the cloud|En la nube]]',
-      '[[Only on our devices|Solo en nuestros dispositivos]]',
-      '[[In paper files|En archivos de papel]]',
-    ],
-    correctAnswer: 0,
-    explanation: 'Se dice que "Personal data is now stored in the cloud".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[advantage does cloud storage give us|ventaja nos da el almacenamiento en la nube]]?',
-    options: [
-      '[[We can access our information from anywhere|Podemos acceder a nuestra información desde cualquier lugar]]',
-      '[[It is cheaper|Es más barato]]',
-      '[[It is faster|Es más rápido]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El texto indica que "we can access our information from anywhere".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[has become a major concern|se ha convertido en una gran preocupación]]?',
-    options: [
-      '[[Cybersecurity|La ciberseguridad]]',
-      '[[The cost of devices|El coste de los dispositivos]]',
-      '[[The speed of the internet|La velocidad de internet]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Se menciona que "cybersecurity has become a major concern".',
-  },
-  {
-    question:
-      '[[The text states|El texto afirma]] [[that|que]] [[the internet was created for entertainment|internet fue creado para entretenimiento]].',
-    options: ['[[True|Verdadero]]', '[[False|Falso]]'],
-    correctAnswer: 'False',
-    explanation:
-      'Es falso: fue diseñado para compartir información entre ordenadores por si un ataque nuclear.',
-  },
-  {
-    question:
-      '[[The text implies|El texto implica]] [[that|que]] [[hackers are a threat to security|los hackers son una amenaza para la seguridad]].',
-    options: ['[[True|Verdadero]]', '[[False|Falso]]'],
-    correctAnswer: 'True',
-    explanation:
-      'Verdadero: se dice que "hackers are constantly trying to access systems that should be protected".',
-  },
-  {
-    question:
-      '[[What|Cuál]] [[is|es]] [[the main idea|la idea principal]] [[of the text|del texto]]?',
-    options: [
-      '[[The internet has evolved from military use to everyday life, with benefits and security concerns|Internet ha evolucionado del uso militar a la vida cotidiana, con beneficios y preocupaciones de seguridad]]',
-      '[[Smartphones are the most important invention|Los smartphones son el invento más importante]]',
-      '[[Cloud storage is unsafe|El almacenamiento en la nube es inseguro]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El texto describe la evolución de internet y las preocupaciones actuales.',
-  },
-  {
-    question:
-      '[[Which passive structure|Qué estructura pasiva]] [[is used|se usa]] [[in|en]] "new applications are being created constantly"?',
-    options: [
-      '[[Present continuous passive|Pasiva de presente continuo]]',
-      '[[Present simple passive|Pasiva de presente simple]]',
-      '[[Past simple passive|Pasiva de pasado simple]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Are + being + past participle = present continuous passive.',
-  },
-  {
-    question:
-      '[[Which passive structure|Qué estructura pasiva]] [[describes|describe]] [[a completed past action|una acción pasada completada]]?',
-    options: [
-      '[[The first smartphone was released in 2007|The first smartphone was released in 2007]]',
-      '[[Billions of emails are sent every day|Billions of emails are sent every day]]',
-      '[[New applications are being created|New applications are being created]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      '"Was released" es past simple passive (acción completada en el pasado).',
-  },
-  {
-    question:
-      '[[What|Qué]] [[vocabulary|vocabulario]] [[is key|es clave]] [[in this text|en este texto]]?',
-    options: [
-      '[[internet, developed, applications, cloud, cybersecurity, hackers|internet, developed, applications, cloud, cybersecurity, hackers]]',
-      '[[festival, tradition, culture|festival, tradition, culture]]',
-      '[[recipe, ingredients, cooking|recipe, ingredients, cooking]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El campo semántico es tecnológico.',
-  },
-  {
-    question:
-      '[[What|Qué]] [[detail|detalle]] [[supports|apoya]] [[the idea that technology has changed|la idea de que la tecnología ha cambiado]]?',
-    options: [
-      '[[The way we communicate has been transformed since 2007|La forma en que nos comunicamos ha sido transformada desde 2007]]',
-      '[[The internet was developed in the 1960s|Internet fue desarrollado en los 60]]',
-      '[[Hackers are a threat|Los hackers son una amenaza]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'La transformación de la comunicación desde el smartphone demuestra el cambio.',
-  },
-  {
-    question:
-      '[[The phrase|La frase]] [["in case"|"in case"]] [[in this context means|en este contexto significa]] ____.',
-    options: [
-      '[[in the event that / if|por si / en caso de que]]',
-      '[[inside a box|dentro de una caja]]',
-      '[[for example|por ejemplo]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      '"In case" significa "por si" o "en caso de que".',
-  },
-  {
-    question:
-      '[[Who|Quiénes]] [[are trying to access protected systems|intentan acceder a sistemas protegidos]]?',
-    options: [
-      '[[Hackers|Los hackers]]',
-      '[[Researchers|Los investigadores]]',
-      '[[The military|El ejército]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El texto dice que "hackers are constantly trying to access systems that should be protected".',
-  },
+  { question: '[[What|Qué]] [[is being used|está siendo usada]] [[in more industries|en más industrias]]?', options: ['[[Artificial intelligence|La inteligencia artificial]]', '[[Manual labour|El trabajo manual]]', '[[Paper records|Registros en papel]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[Artificial intelligence is being used in more industries|La inteligencia artificial está siendo usada en más industrias]]".' },
+  { question: '[[What|Qué]] [[are now being automated|están siendo automatizadas ahora]]?', options: ['[[Tasks that were once done by humans|Tareas que antes hacían humanos]]', '[[Only factory work|Solo trabajo de fábrica]]', '[[Nothing|Nada]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[Tasks that were once done by humans are now being automated|Tareas que antes hacían humanos ahora están siendo automatizadas]]".' },
+  { question: '[[What|Qué]] [[must data be|deben ser los datos]]?', options: ['[[Protected under strict regulations|Protegidos bajo regulaciones estrictas]]', '[[Shared publicly|Compartidos públicamente]]', '[[Deleted immediately|Borrados inmediatamente]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[Data must be protected under strict regulations|Los datos deben ser protegidos bajo regulaciones estrictas]]".' },
+  { question: '[[What|Qué]] [[has the software been|ha sido el software]]?', options: ['[[Updated several times to fix security vulnerabilities|Actualizado varias veces para corregir vulnerabilidades]]', '[[Never changed|Nunca cambiado]]', '[[Removed|Eliminado]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[has been updated several times to fix security vulnerabilities|ha sido actualizado varias veces para corregir vulnerabilidades de seguridad]]".' },
+  { question: '[[What|Qué]] [[are being added constantly|están siendo añadidas constantemente]]?', options: ['[[New features|Nuevas funciones]]', '[[Old bugs|Errores antiguos]]', '[[User data|Datos de usuario]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[New features are being added constantly|Nuevas funciones están siendo añadidas constantemente]]".' },
+  { question: '[[What|Qué]] [[can happen to companies|puede pasarle a las empresas]] [[that fail to protect data|que no protegen los datos]]?', options: ['[[They can be fined heavily|Pueden ser multadas severamente]]', '[[They get rewards|Reciben recompensas]]', '[[Nothing|Nada]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[can be fined heavily|pueden ser multadas severamente]]".' },
+  { question: '[[What|Qué]] [[was invented decades ago|fue inventado hace décadas]]?', options: ['[[The internet|Internet]]', '[[Artificial intelligence|La inteligencia artificial]]', '[[Smartphones|Los smartphones]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[The internet was invented decades ago|Internet fue inventado hace décadas]]".' },
+  { question: '[[The text|El texto]] [[states|afirma]] [[that|que]] [[AI is being used less|la IA está siendo usada menos]].', options: ['[[True|Verdadero]]', '[[False|Falso]]'], correctAnswer: 1, explanation: '[[False|Falso]]. [[The text says|El texto dice]] "[[is being used in more industries every year|está siendo usada en más industrias cada año]]".' },
+  { question: '[[According to the text|Según el texto]], [[the internet is no longer changing|internet ya no está cambiando]].', options: ['[[True|Verdadero]]', '[[False|Falso]]'], correctAnswer: 1, explanation: '[[False|Falso]]. [[The text says|El texto dice]] "[[it is still being transformed by new technologies|sigue siendo transformado por nuevas tecnologías]]".' },
+  { question: '[[What|Cuál]] [[is the main idea|es la idea principal]] [[of the text|del texto]]?', options: ['[[AI and automation are growing; data must be protected; technology keeps evolving|La IA y la automatización crecen; los datos deben protegerse; la tecnología sigue evolucionando]]', '[[Technology is disappearing|La tecnología está desapareciendo]]', '[[Humans do everything|Los humanos hacen todo]]'], correctAnswer: 0, explanation: '[[The text|El texto]] [[covers|abarca]] [[AI usage|uso de IA]], [[data protection|protección de datos]] [[and|y]] [[transformation|transformación]].' },
+  { question: '[[Which passive form|Qué forma pasiva]] [[is used for ongoing action|se usa para acción en curso]] [[in the text|en el texto]]?', options: ['[[is being used|está siendo usada]]', '[[was invented|fue inventado]]', '[[has been updated|ha sido actualizado]]'], correctAnswer: 0, explanation: '[[Present continuous passive|Pasiva presente continuo]] [[for ongoing action|para acción en curso]].' },
+  { question: '[[What|Qué]] [[vocabulary|vocabulario]] [[is key|es clave]] [[in this text|en este texto]]?', options: ['[[artificial intelligence|IA]], [[data|datos]], [[software|software]], [[vulnerabilities|vulnerabilidades]]', '[[festival|festival]], [[heritage|patrimonio]], [[tradition|tradición]]', '[[profit|beneficio]], [[debt|deuda]], [[budget|presupuesto]]'], correctAnswer: 0, explanation: '[[The text|El texto]] [[focuses on|se centra en]] [[technology vocabulary|vocabulario tecnológico]].' },
+  { question: '[[What|Qué]] [[can we infer|podemos inferir]] [[about|sobre]] [[the future of work|el futuro del trabajo]]?', options: ['[[More tasks may be automated|Más tareas pueden automatizarse]]', '[[All jobs will disappear|Todos los trabajos desaparecerán]]', '[[Technology will stop|La tecnología se detendrá]]'], correctAnswer: 0, explanation: '[[The text|El texto]] [[suggests|sugiere]] [[ongoing automation|automatización continua]].' },
 ];
 
 export const UNIT_16_LESSON_3_READING: Exercise[] = QUESTIONS.map((q, i) => ({

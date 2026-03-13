@@ -1,224 +1,29 @@
 /**
  * Unidad 13 B2 — Lección 3: Comprensión lectora (Money)
- * 18 actividades (B2: más vocabulario y complejidad que B1)
+ * 13 preguntas (B2: recreado con texto y preguntas distintos)
  */
 
 import { Exercise } from '@/lib/exercise-generator';
 
 const LESSON_TITLE = '[[Reading|Comprensión lectora]]';
-const READING_TRANSCRIPT = `[[Managing your money|Gestionar tu dinero]] [[effectively|eficazmente]] [[is one of the most important skills|es una de las habilidades más importantes]] [[you can develop|que puedes desarrollar]] [[as an adult|como adulto]]. [[Whether you earn a little or a lot|Tanto si ganas poco como mucho]], [[you must learn|debes aprender]] [[to budget|a hacer un presupuesto]] [[and|y]] [[to save|y ahorrar]] [[for the future|para el futuro]]. [[Many people|Mucha gente]] [[who struggle financially|que tiene dificultades económicas]] [[don\'t have to be in that situation|no tiene por qué estar en esa situación]]; [[often|a menudo]] [[they simply need to|simplemente necesitan]] [[change their spending habits|cambiar sus hábitos de gasto]]. [[The first step|El primer paso]] [[is to track|es registrar]] [[all your expenses|todos tus gastos]] [[for a month|durante un mes]]. [[You needn\'t use|No necesitas usar]] [[complicated apps|aplicaciones complicadas]]; [[a simple spreadsheet|una simple hoja de cálculo]] [[or even a notebook|o incluso un cuaderno]] [[will do|sirve]]. [[Once you see|Una vez que ves]] [[where your money goes|a dónde va tu dinero]], [[you can identify|puedes identificar]] [[areas where you must cut back|áreas en las que debes recortar]]. [[Saving|Ahorrar]] [[doesn\'t have to mean|no tiene por qué significar]] [[giving up everything you enjoy|renunciar a todo lo que disfrutas]]; [[you just need to|solo necesitas]] [[prioritise|priorizar]] [[what matters most|lo que más importa]]. [[Experts say|Los expertos dicen]] [[that you should|que deberías]] [[aim to save|intentar ahorrar]] [[at least 20% of your income|al menos el 20% de tus ingresos]], [[but|pero]] [[if that seems impossible|si eso parece imposible]], [[start with 5%|empieza con el 5%]]. [[The key|La clave]] [[is to make saving|es hacer del ahorro]] [[a habit|un hábito]] [[that you don\'t have to think about|sobre el que no tengas que pensar]].`;
+const READING_TRANSCRIPT = `[[Digital banking|La banca digital]] [[has transformed|ha transformado]] [[how we manage our money|cómo gestionamos nuestro dinero]]. [[Today|Hoy]], [[you needn't visit|no necesitas visitar]] [[a branch|una sucursal]] [[to open an account|para abrir una cuenta]] [[or transfer funds|o transferir fondos]]; [[everything|todo]] [[can be done|puede hacerse]] [[from your smartphone|desde tu smartphone]]. [[However|Sin embargo]], [[customers must|los clientes deben]] [[verify their identity|verificar su identidad]] [[when signing up|al registrarse]], [[and|y]] [[you have to|tienes que]] [[use strong passwords|usar contraseñas seguras]] [[to protect your data|para proteger tus datos]]. [[Many people|Mucha gente]] [[who were sceptical|que era escéptica]] [[about online banking|sobre la banca online]] [[have discovered|ha descubierto]] [[that they needn't worry|que no necesita preocuparse]] [[about security|por la seguridad]] [[if they follow|si siguen]] [[basic precautions|precauciones básicas]]. [[Banks must|Los bancos deben]] [[comply with|cumplir con]] [[strict regulations|regulaciones estrictas]] [[to keep your money safe|para mantener tu dinero seguro]]. [[You need to|Necesitas]] [[check your statements|revisar tus extractos]] [[regularly|regularmente]] [[to spot|para detectar]] [[any unusual activity|cualquier actividad inusual]]. [[If something looks wrong|Si algo parece mal]], [[you must|debes]] [[report it immediately|reportarlo inmediatamente]]. [[The convenience|La comodidad]] [[of digital banking|de la banca digital]] [[means|significa]] [[that you don't have to|que no tienes que]] [[queue for hours|hacer cola durante horas]] [[or rush|o apresurarte]] [[before closing time|antes de la hora de cierre]].`;
 
-const INSTRUCTIONS = 'Lee el texto sobre gestión del dinero. Después responde las preguntas.';
+const INSTRUCTIONS = 'Lee el texto sobre banca digital. Después responde las preguntas.';
 
 const QUESTIONS = [
-  {
-    question:
-      '[[What|Qué]] [[does the text say|dice el texto]] [[about managing money|sobre gestionar el dinero]]?',
-    options: [
-      '[[It is one of the most important skills you can develop as an adult|Es una de las habilidades más importantes que puedes desarrollar como adulto]]',
-      '[[It is only important if you earn a lot|Solo es importante si ganas mucho]]',
-      '[[It is something you learn at school|Es algo que aprendes en el colegio]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El texto afirma que gestionar el dinero eficazmente es una de las habilidades más importantes que puedes desarrollar como adulto.',
-  },
-  {
-    question:
-      '[[According to the text|Según el texto]], [[what|qué]] [[must people learn|deben aprender las personas]]?',
-    options: [
-      '[[To budget and save for the future|A hacer presupuesto y ahorrar para el futuro]]',
-      '[[To invest in risky ventures|A invertir en proyectos arriesgados]]',
-      '[[To spend all their income|A gastar todos sus ingresos]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Se dice que las personas deben aprender a hacer presupuesto y ahorrar para el futuro.',
-  },
-  {
-    question:
-      '[[What|Qué]] [[does the text suggest|sugiere el texto]] [[about people who struggle financially|sobre quienes tienen dificultades económicas]]?',
-    options: [
-      '[[They don\'t have to be in that situation; they often need to change spending habits|No tienen por qué estar en esa situación; a menudo necesitan cambiar hábitos de gasto]]',
-      '[[They will never improve|Nunca mejorarán]]',
-      '[[They need to earn more money|Necesitan ganar más dinero]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El texto indica que muchas personas que tienen dificultades no tienen por qué estar así; a menudo solo necesitan cambiar sus hábitos de gasto.',
-  },
-  {
-    question:
-      '[[What|Cuál]] [[is the first step|es el primer paso]] [[recommended in the text|recomendado en el texto]]?',
-    options: [
-      '[[Track all your expenses for a month|Registrar todos tus gastos durante un mes]]',
-      '[[Open a savings account|Abrir una cuenta de ahorros]]',
-      '[[Stop spending completely|Dejar de gastar por completo]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El primer paso es registrar todos los gastos durante un mes.',
-  },
-  {
-    question:
-      '[[What|Qué]] [[does the text say|dice el texto]] [[about apps for tracking expenses|sobre apps para registrar gastos]]?',
-    options: [
-      '[[You needn\'t use complicated apps; a simple spreadsheet or notebook will do|No necesitas usar apps complicadas; una hoja de cálculo o cuaderno sirve]]',
-      '[[You must use expensive apps|Debes usar apps caras]]',
-      '[[Apps are not useful|Las apps no son útiles]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Se dice que no necesitas usar aplicaciones complicadas; una hoja de cálculo o cuaderno sirve.',
-  },
-  {
-    question:
-      '[[What|Qué]] [[can you identify|puedes identificar]] [[once you see where your money goes|una vez que ves a dónde va tu dinero]]?',
-    options: [
-      '[[Areas where you must cut back|Áreas en las que debes recortar]]',
-      '[[New ways to earn money|Nuevas formas de ganar dinero]]',
-      '[[Banks with better rates|Bancos con mejores tipos]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Una vez que ves a dónde va tu dinero, puedes identificar áreas en las que debes recortar.',
-  },
-  {
-    question:
-      '[[According to the text|Según el texto]], [[does saving mean giving up everything you enjoy|ahorrar significa renunciar a todo lo que disfrutas]]?',
-    options: [
-      '[[No; you just need to prioritise what matters most|No; solo necesitas priorizar lo que más importa]]',
-      '[[Yes; you must give up all pleasures|Sí; debes renunciar a todos los placeres]]',
-      '[[It depends on your income|Depende de tus ingresos]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El texto dice que ahorrar no tiene por qué significar renunciar a todo; solo necesitas priorizar lo que más importa.',
-  },
-  {
-    question:
-      '[[What|Qué]] [[percentage|porcentaje]] [[do experts recommend saving|recomiendan ahorrar los expertos]]?',
-    options: [
-      '[[At least 20%, but start with 5% if 20% seems impossible|Al menos 20%, pero empieza con 5% si el 20% parece imposible]]',
-      '[[Exactly 50% of your income|Exactamente el 50% de tus ingresos]]',
-      '[[Only 1%|Solo el 1%]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Los expertos recomiendan intentar ahorrar al menos 20%, pero si parece imposible, empezar con 5%.',
-  },
-  {
-    question:
-      '[[What|Cuál]] [[is the key|es la clave]] [[according to the text|según el texto]]?',
-    options: [
-      '[[To make saving a habit you don\'t have to think about|Hacer del ahorro un hábito sobre el que no tengas que pensar]]',
-      '[[To save only when you have extra money|Ahorrar solo cuando tengas dinero extra]]',
-      '[[To avoid all expenses|Evitar todos los gastos]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'La clave es hacer del ahorro un hábito que no requiera pensar.',
-  },
-  {
-    question:
-      '[[The text|El texto]] [[states|afirma]] [[that|que]] [[budgeting is only for people who earn a lot|hacer presupuesto es solo para quienes ganan mucho]].',
-    options: ['[[True|Verdadero]]', '[[False|Falso]]'],
-    correctAnswer: 'False',
-    explanation:
-      'Es falso: el texto dice que tanto si ganas poco como mucho, debes aprender a hacer presupuesto.',
-  },
-  {
-    question:
-      '[[The text|El texto]] [[implies|implica]] [[that|que]] [[you need expensive tools to track expenses|necesitas herramientas caras para registrar gastos]].',
-    options: ['[[True|Verdadero]]', '[[False|Falso]]'],
-    correctAnswer: 'False',
-    explanation:
-      'Es falso: dice que no necesitas apps complicadas; una hoja de cálculo o cuaderno sirve.',
-  },
-  {
-    question:
-      '[[What|Cuál]] [[is the main idea|es la idea principal]] [[of the text|del texto]]?',
-    options: [
-      '[[Managing money well involves budgeting, tracking expenses, and making saving a habit|Gestionar bien el dinero implica presupuestar, registrar gastos y hacer del ahorro un hábito]]',
-      '[[You should never spend money|Nunca debes gastar dinero]]',
-      '[[Only experts can manage money|Solo los expertos pueden gestionar el dinero]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El texto se centra en presupuestar, registrar gastos y convertir el ahorro en hábito.',
-  },
-  {
-    question:
-      '[[Which modal|Qué modal]] [[from the text|del texto]] [[expresses absence of necessity|expresa ausencia de necesidad]]?',
-    options: [
-      '[[needn\'t (You needn\'t use complicated apps)|needn\'t (No necesitas usar apps complicadas)]]',
-      '[[must (you must learn)|must (debes aprender)]]',
-      '[[have to (you don\'t have to think)|have to (no tienes que pensar)]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      '"Needn\'t" expresa que no es necesario usar apps complicadas.',
-  },
-  {
-    question:
-      '[[Which phrase|Qué frase]] [[in the text|en el texto]] [[uses "must" for obligation|usa "must" para obligación]]?',
-    options: [
-      '[[you must learn to budget|debes aprender a hacer presupuesto]]',
-      '[[you needn\'t use complicated apps|no necesitas usar apps complicadas]]',
-      '[[you don\'t have to think about|no tienes que pensar en]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      '"You must learn to budget" expresa obligación.',
-  },
-  {
-    question:
-      '[[What|Qué]] [[vocabulary|vocabulario]] [[is key|es clave]] [[in this text|en este texto]]?',
-    options: [
-      '[[budget, save, expenses, income, habit|budget, save, expenses, income, habit]]',
-      '[[festival, heritage, tradition|culture terms]]',
-      '[[series, streaming, cast|entertainment terms]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El campo semántico es financiero: budget, save, expenses, income, habit.',
-  },
-  {
-    question:
-      '[[According to the text|Según el texto]], [[what|qué]] [[should you do if 20% seems impossible|deberías hacer si el 20% parece imposible]]?',
-    options: [
-      '[[Start with 5%|Empezar con el 5%]]',
-      '[[Give up saving|Dejar de ahorrar]]',
-      '[[Borrow money|Pedir dinero prestado]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El texto dice que si el 20% parece imposible, empieza con el 5%.',
-  },
-  {
-    question:
-      '[[The phrase|La frase]] [["don\'t have to"|"don\'t have to"]] [[in "saving doesn\'t have to mean giving up"|en "ahorrar no tiene por qué significar renunciar"]] [[expresses|expresa]]:',
-    options: [
-      '[[Absence of obligation|Ausencia de obligación]]',
-      '[[Strong obligation|Obligación fuerte]]',
-      '[[Prohibition|Prohibición]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      '"Doesn\'t have to" indica que no es obligatorio que ahorrar signifique renunciar a todo.',
-  },
-  {
-    question:
-      '[[What|Qué]] [[does "track" mean|significa "track"]] [[in this context|en este contexto]]?',
-    options: [
-      '[[Record or monitor|Registrar o monitorizar]]',
-      '[[Avoid|Evitar]]',
-      '[[Spend|Gastar]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      '"Track" aquí significa registrar o monitorizar los gastos.',
-  },
+  { question: '[[What|Qué]] [[does the text say|dice el texto]] [[about visiting a branch|sobre visitar una sucursal]]?', options: ['[[You needn\'t visit one to open an account or transfer funds|No necesitas visitar una para abrir cuenta o transferir fondos]]', '[[You must always visit in person|Debes visitar siempre en persona]]', '[[Branches are closing everywhere|Las sucursales cierran en todas partes]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[you needn\'t visit a branch to open an account or transfer funds|no necesitas visitar una sucursal para abrir una cuenta o transferir fondos]]".' },
+  { question: '[[What|Qué]] [[must customers do|deben hacer los clientes]] [[when signing up|al registrarse]]?', options: ['[[Verify their identity|Verificar su identidad]]', '[[Visit a branch|Visitar una sucursal]]', '[[Pay a fee|Pagar una tarifa]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[customers must verify their identity when signing up|los clientes deben verificar su identidad al registrarse]]".' },
+  { question: '[[What|Qué]] [[do sceptical people often discover|descubren a menudo los escépticos]]?', options: ['[[They needn\'t worry about security if they follow basic precautions|No necesitan preocuparse por la seguridad si siguen precauciones básicas]]', '[[Online banking is always unsafe|La banca online siempre es insegura]]', '[[They must use cash only|Deben usar solo efectivo]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[they needn\'t worry about security if they follow basic precautions|no necesitan preocuparse por la seguridad si siguen precauciones básicas]]".' },
+  { question: '[[What|Qué]] [[must banks do|deben hacer los bancos]]?', options: ['[[Comply with strict regulations to keep money safe|Cumplir regulaciones estrictas para mantener el dinero seguro]]', '[[Close all branches|Cerrar todas las sucursales]]', '[[Charge higher fees|Cobrar tarifas más altas]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[Banks must comply with strict regulations to keep your money safe|Los bancos deben cumplir con regulaciones estrictas para mantener tu dinero seguro]]".' },
+  { question: '[[What|Qué]] [[do you need to do regularly|necesitas hacer regularmente]]?', options: ['[[Check your statements to spot unusual activity|Revisar tus extractos para detectar actividad inusual]]', '[[Visit the branch|Visitar la sucursal]]', '[[Change your password daily|Cambiar tu contraseña diariamente]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[You need to check your statements regularly to spot any unusual activity|Necesitas revisar tus extractos regularmente para detectar cualquier actividad inusual]]".' },
+  { question: '[[What|Qué]] [[must you do|debes hacer]] [[if something looks wrong|si algo parece mal]]?', options: ['[[Report it immediately|Reportarlo inmediatamente]]', '[[Ignore it|Ignorarlo]]', '[[Close your account|Cerrar tu cuenta]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[you must report it immediately|debes reportarlo inmediatamente]]".' },
+  { question: '[[The text|El texto]] [[states|afirma]] [[that|que]] [[you have to queue for hours with digital banking|tienes que hacer cola horas con la banca digital]].', options: ['[[True|Verdadero]]', '[[False|Falso]]'], correctAnswer: 1, explanation: '[[False|Falso]]. [[The text says|El texto dice]] "[[you don\'t have to queue for hours|no tienes que hacer cola durante horas]]".' },
+  { question: '[[According to the text|Según el texto]], [[you must use weak passwords|debes usar contraseñas débiles]].', options: ['[[True|Verdadero]]', '[[False|Falso]]'], correctAnswer: 1, explanation: '[[False|Falso]]. [[The text says|El texto dice]] "[[you have to use strong passwords|tienes que usar contraseñas seguras]]".' },
+  { question: '[[What|Cuál]] [[is the main idea|es la idea principal]] [[of the text|del texto]]?', options: ['[[Digital banking is convenient but requires identity verification, strong passwords and regular monitoring|La banca digital es cómoda pero requiere verificación de identidad, contraseñas fuertes y supervisión regular]]', '[[Banks are closing|Los bancos están cerrando]]', '[[Cash is better than digital|El efectivo es mejor que lo digital]]'], correctAnswer: 0, explanation: '[[The text|El texto]] [[covers|abarca]] [[convenience|comodidad]], [[security requirements|requisitos de seguridad]] [[and|y]] [[monitoring|supervisión]].' },
+  { question: '[[Which modal|Qué modal]] [[expresses absence of necessity|expresa ausencia de necesidad]] [[in the text|en el texto]]?', options: ['[[needn\'t (you needn\'t visit)|needn\'t (no necesitas visitar)]]', '[[must (customers must)|must (los clientes deben)]]', '[[have to (you have to)|have to (tienes que)]]'], correctAnswer: 0, explanation: '[[Needn\'t|Needn\'t]] [[indicates no necessity|indica que no es necesario]].' },
+  { question: '[[What|Qué]] [[vocabulary|vocabulario]] [[is key|es clave]] [[in this text|en este texto]]?', options: ['[[digital banking|banca digital]], [[identity|identidad]], [[passwords|contraseñas]], [[statements|extractos]]', '[[festival|festival]], [[heritage|patrimonio]], [[tradition|tradición]]', '[[series|serie]], [[streaming|streaming]], [[cast|reparto]]'], correctAnswer: 0, explanation: '[[The text|El texto]] [[focuses on|se centra en]] [[banking vocabulary|vocabulario bancario]].' },
+  { question: '[[What|Qué]] [[can we infer|podemos inferir]] [[about|sobre]] [[digital banking security|la seguridad de la banca digital]]?', options: ['[[It is reliable if users follow precautions|Es fiable si los usuarios siguen precauciones]]', '[[It is always unsafe|Siempre es insegura]]', '[[Banks do not protect data|Los bancos no protegen los datos]]'], correctAnswer: 0, explanation: '[[The text|El texto]] [[suggests|sugiere]] [[that following precautions makes it safe|que seguir precauciones la hace segura]].' },
+  { question: '[[The phrase|La frase]] [["don\'t have to"|"don\'t have to"]] [[in "you don\'t have to queue"|en "no tienes que hacer cola"]] [[expresses|expresa]]:', options: ['[[Absence of obligation|Ausencia de obligación]]', '[[Strong obligation|Obligación fuerte]]', '[[Prohibition|Prohibición]]'], correctAnswer: 0, explanation: '[[Don\'t have to|Don\'t have to]] [[means no obligation|significa que no es obligatorio]].' },
 ];
 
 export const UNIT_13_LESSON_3_READING: Exercise[] = QUESTIONS.map((q, i) => ({

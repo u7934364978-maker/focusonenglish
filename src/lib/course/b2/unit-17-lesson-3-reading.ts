@@ -1,225 +1,29 @@
 /**
  * Unidad 17 B2 — Lección 3: Comprensión lectora (Science)
- * 18 actividades (B2: más vocabulario y complejidad que B1)
+ * 13 preguntas (B2: recreado con texto y preguntas distintos)
  */
 
 import { Exercise } from '@/lib/exercise-generator';
 
 const LESSON_TITLE = '[[Reading|Comprensión lectora]]';
-const READING_TRANSCRIPT = `[[Last year|El año pasado]], [[a team of researchers|un equipo de investigadores]] [[at the University of Cambridge|de la Universidad de Cambridge]] [[announced|anunció]] [[a major breakthrough|un gran avance]] [[in the field of|en el campo de]] [[renewable energy|energía renovable]]. [[The experiment|El experimento]], [[which|que]] [[had been conducted|había sido llevado a cabo]] [[over five years|durante cinco años]], [[showed|mostró]] [[that|que]] [[solar cells|las células solares]] [[could be made|podían fabricarse]] [[more efficient|más eficientes]] [[using|usando]] [[a new type of|un nuevo tipo de]] [[material|material]]. [[All samples|Todas las muestras]] [[must be tested|deben ser probadas]] [[before|antes de]] [[they can be used|poder usarse]] [[in commercial products|en productos comerciales]] [[according to|según]] [[safety protocols|los protocolos de seguridad]]. [[The findings|Los hallazgos]] [[should have been published|deberían haberse publicado]] [[earlier|antes]] [[according to|según]] [[some critics|algunos críticos]], [[who|que]] [[argued|argumentaron]] [[that|que]] [[the delay|el retraso]] [[had cost|había costado]] [[the industry|a la industria]] [[valuable time|tiempo valioso]]. [[The laboratory|El laboratorio]] [[has|había]] [[its equipment|su equipo]] [[calibrated|calibrado]] [[regularly|regularmente]] [[to ensure|para asegurar]] [[accurate results|resultados precisos]]. [[The hypothesis|La hipótesis]] [[that|que]] [[had been proposed|había sido propuesta]] [[by|por]] [[the lead scientist|el científico principal]] [[could have been verified|podría haberse verificado]] [[years ago|hace años]] [[if|si]] [[funding|la financiación]] [[had been available|hubiera estado disponible]]. [[Peer-reviewed research|La investigación revisada por pares]] [[remains|sigue siendo]] [[essential|esencial]] [[for|para]] [[scientific progress|el progreso científico]].`;
+const READING_TRANSCRIPT = `[[Clinical trials|Los ensayos clínicos]] [[must be conducted|deben ser conducidos]] [[under strict regulations|bajo regulaciones estrictas]] [[to protect|para proteger]] [[participants|participantes]]. [[Samples|Las muestras]] [[that|que]] [[are collected|son recogidas]] [[from patients|de pacientes]] [[have to be|tienen que ser]] [[stored|almacenadas]] [[in secure facilities|en instalaciones seguras]]. [[The data|Los datos]] [[which was gathered|que fue recogido]] [[during the study|durante el estudio]] [[should have been|debería haber sido]] [[analyzed|analizado]] [[more thoroughly|más a fondo]] [[before|antes de]] [[the report was published|se publicara el informe]]; [[some critics|algunos críticos]] [[argue|argumentan]] [[that|que]] [[conclusions|conclusiones]] [[were drawn|fueron sacadas]] [[too early|demasiado pronto]]. [[Researchers|Los investigadores]] [[who|que]] [[lead|dirigen]] [[these trials|estos ensayos]] [[often have|a menudo tienen]] [[their work|su trabajo]] [[reviewed|revisado]] [[by peers|por pares]] [[before|antes de]] [[it can be published|pueda ser publicado]]. [[The equipment|El equipo]] [[used in labs|usado en laboratorios]] [[needs to be|necesita ser]] [[calibrated|calibrado]] [[regularly|regularmente]] [[to ensure|para garantizar]] [[accurate results|resultados precisos]].`;
 
-const INSTRUCTIONS =
-  'Lee el texto sobre un avance científico. Después responde las preguntas.';
+const INSTRUCTIONS = 'Lee el texto sobre ensayos clínicos y ciencia. Después responde las preguntas.';
 
 const QUESTIONS = [
-  {
-    question:
-      '[[What|Qué]] [[did the Cambridge team announce|anunció el equipo de Cambridge]]?',
-    options: [
-      '[[A major breakthrough in renewable energy|Un gran avance en energía renovable]]',
-      '[[A new type of battery|Un nuevo tipo de batería]]',
-      '[[A new laboratory|Un nuevo laboratorio]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El texto dice que anunciaron "a major breakthrough in the field of renewable energy".',
-  },
-  {
-    question:
-      '[[How long|Cuánto tiempo]] [[had the experiment been conducted|había durado el experimento]]?',
-    options: [
-      '[[Over five years|Durante más de cinco años]]',
-      '[[Two years|Dos años]]',
-      '[[One year|Un año]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Se menciona que el experimento "had been conducted over five years".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[did the experiment show|mostró el experimento]]?',
-    options: [
-      '[[Solar cells could be made more efficient using a new material|Las células solares podían hacerse más eficientes con un nuevo material]]',
-      '[[Solar cells are too expensive|Las células solares son más caras]]',
-      '[[Solar energy is obsolete|La energía solar está obsoleta]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El texto indica que "solar cells could be made more efficient using a new type of material".',
-  },
-  {
-    question:
-      '[[According to the text|Según el texto]], [[what|qué]] [[must happen to samples|debe pasar con las muestras]] [[before they can be used|antes de poder usarse]]?',
-    options: [
-      '[[They must be tested|Deben ser probadas]]',
-      '[[They must be published|Deben ser publicadas]]',
-      '[[They must be sold|Deben ser vendidas]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El texto dice que "All samples must be tested before they can be used in commercial products".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[did some critics say|dijeron algunos críticos]]?',
-    options: [
-      '[[The findings should have been published earlier|Los hallazgos deberían haberse publicado antes]]',
-      '[[The research was too expensive|La investigación era demasiado cara]]',
-      '[[The team was wrong|El equipo estaba equivocado]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Los críticos "argued that the findings should have been published earlier".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[does the laboratory do regularly|hace el laboratorio regularmente]]?',
-    options: [
-      '[[Has its equipment calibrated|Hace calibrar su equipo]]',
-      '[[Publishes results|Publica resultados]]',
-      '[[Hires new scientists|Contrata nuevos científicos]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El texto dice que "The laboratory has its equipment calibrated regularly".',
-  },
-  {
-    question:
-      '[[The text states|El texto afirma]] [[that|que]] [[the hypothesis could have been verified years ago if funding had been available|la hipótesis podría haberse verificado hace años si hubiera habido financiación]].',
-    options: ['[[True|Verdadero]]', '[[False|Falso]]'],
-    correctAnswer: 'True',
-    explanation:
-      'Verdadero: se dice que "could have been verified years ago if funding had been available".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[grammar structure|estructura gramatical]] [[is used|se usa]] [[in|en]] "All samples must be tested"?',
-    options: [
-      '[[Modal passive (must be + past participle)|Pasiva modal (must be + participio)]]',
-      '[[Have something done|Have something done]]',
-      '[[Past perfect|Pasado perfecto]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Es modal passive: "must be tested" = deben ser probadas.',
-  },
-  {
-    question:
-      '[[Which grammar structure|Qué estructura gramatical]] [[appears|aparece]] [[in|en]] "The findings should have been published earlier"?',
-    options: [
-      '[[Modal passive in past (should have been + past participle)|Pasiva modal en pasado (should have been + participio)]]',
-      '[[Present simple passive|Pasiva simple presente]]',
-      '[[Have something done|Have something done]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Modal passive en pasado: crítica sobre algo que debió hacerse antes.',
-  },
-  {
-    question:
-      '[[What|Cuál]] [[is|es]] [[the main idea|la idea principal]] [[of the text|del texto]]?',
-    options: [
-      '[[A scientific breakthrough in solar energy was announced; protocols and peer review are essential|Se anunció un avance científico en energía solar; los protocolos y la revisión por pares son esenciales]]',
-      '[[Cambridge is the best university|Cambridge es la mejor universidad]]',
-      '[[Solar energy is dangerous|La energía solar es peligrosa]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El texto describe un avance y enfatiza protocolos y revisión por pares.',
-  },
-  {
-    question:
-      '[[Which phrase|Qué frase]] [[expresses|expresa]] [[have something done|have something done]]?',
-    options: [
-      '[[has its equipment calibrated|hace calibrar su equipo]]',
-      '[[must be tested|deben ser probadas]]',
-      '[[had been conducted|había sido llevado a cabo]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      '"Has its equipment calibrated" = hace que alguien calibre su equipo.',
-  },
-  {
-    question:
-      '[[The text implies|El texto implica]] [[that|que]] [[peer-reviewed research is essential for scientific progress|la investigación revisada por pares es esencial para el progreso científico]].',
-    options: ['[[True|Verdadero]]', '[[False|Falso]]'],
-    correctAnswer: 'True',
-    explanation:
-      'Verdadero: se dice que "Peer-reviewed research remains essential for scientific progress".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[vocabulary|vocabulario]] [[is key|es clave]] [[in this text|en este texto]]?',
-    options: [
-      '[[breakthrough, hypothesis, samples, calibrated, peer-reviewed|breakthrough, hypothesis, samples, calibrated, peer-reviewed]]',
-      '[[business, merger, profit|business, merger, profit]]',
-      '[[food, recipe, ingredients|food, recipe, ingredients]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El campo semántico es científico: breakthrough, hypothesis, samples, etc.',
-  },
-  {
-    question:
-      '[[What|Qué]] [[detail|detalle]] [[supports|apoya]] [[the idea that the research was rigorous|la idea de que la investigación fue rigurosa]]?',
-    options: [
-      '[[Equipment calibrated regularly, samples must be tested, peer-reviewed research|Equipo calibrado regularmente, muestras deben probarse, investigación revisada por pares]]',
-      '[[The team was large|El equipo era grande]]',
-      '[[It took five years|Duró cinco años]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Varios detalles apoyan el rigor: calibración, pruebas obligatorias, revisión por pares.',
-  },
-  {
-    question:
-      '[[The delay in publishing|El retraso en publicar]] [[according to critics|según los críticos]] ____.',
-    options: [
-      '[[Had cost the industry valuable time|Había costado a la industria tiempo valioso]]',
-      '[[Was necessary|Era necesario]]',
-      '[[Improved the results|Mejoró los resultados]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Los críticos "argued that the delay had cost the industry valuable time".',
-  },
-  {
-    question:
-      '[[How|Cómo]] [[can the hypothesis|puede la hipótesis]] [[be verified|ser verificada]] [[according to the text|según el texto]]?',
-    options: [
-      '[[With funding and research|Con financiación e investigación]]',
-      '[[By publishing quickly|Publicando rápido]]',
-      '[[By ignoring critics|Ignorando a los críticos]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El texto sugiere que "could have been verified years ago if funding had been available".',
-  },
-  {
-    question:
-      '[[The text mentions|El texto menciona]] [[that|que]] [[solar cells|las células solares]] ____.',
-    options: [
-      '[[Could be made more efficient|Podían hacerse más eficientes]]',
-      '[[Are already perfect|Ya son perfectas]]',
-      '[[Will never improve|Nunca mejorarán]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El experimento mostró que "solar cells could be made more efficient".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[purpose|propósito]] [[does the text serve|sirve el texto]]?',
-    options: [
-      '[[To inform about a scientific breakthrough and its context|Informar sobre un avance científico y su contexto]]',
-      '[[To advertise a product|Anunciar un producto]]',
-      '[[To criticise scientists|Criticar a los científicos]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El texto informa sobre el avance y su contexto (protocolos, críticas, revisión).',
-  },
+  { question: '[[What|Qué]] [[must clinical trials be|deben ser los ensayos clínicos]]?', options: ['[[Conducted under strict regulations to protect participants|Conducidos bajo regulaciones estrictas para proteger participantes]]', '[[Done without any rules|Hechos sin reglas]]', '[[Kept secret|Mantenidos en secreto]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[must be conducted under strict regulations to protect participants|deben ser conducidos bajo regulaciones estrictas para proteger participantes]]".' },
+  { question: '[[What|Qué]] [[have samples to be|tienen que ser las muestras]]?', options: ['[[Stored in secure facilities|Almacenadas en instalaciones seguras]]', '[[Thrown away|Tiradas]]', '[[Shared publicly|Compartidas públicamente]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[have to be stored in secure facilities|tienen que ser almacenadas en instalaciones seguras]]".' },
+  { question: '[[What|Qué]] [[should have been done|debería haber sido hecho]] [[with the data|con los datos]]?', options: ['[[Analyzed more thoroughly before the report was published|Analizado más a fondo antes de publicar el informe]]', '[[Deleted|Borrado]]', '[[Ignored|Ignorado]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[should have been analyzed more thoroughly before the report was published|debería haber sido analizado más a fondo antes de que se publicara el informe]]".' },
+  { question: '[[What|Qué]] [[do critics argue|argumentan los críticos]]?', options: ['[[That conclusions were drawn too early|Que las conclusiones se sacaron demasiado pronto]]', '[[That the study was perfect|Que el estudio era perfecto]]', '[[That no data was collected|Que no se recogieron datos]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[that conclusions were drawn too early|que las conclusiones fueron sacadas demasiado pronto]]".' },
+  { question: '[[What|Qué]] [[do researchers often have|tienen a menudo los investigadores]]?', options: ['[[Their work reviewed by peers before publication|Su trabajo revisado por pares antes de publicar]]', '[[No supervision|Sin supervisión]]', '[[Immediate publication|Publicación inmediata]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[often have their work reviewed by peers before it can be published|a menudo tienen su trabajo revisado por pares antes de que pueda ser publicado]]".' },
+  { question: '[[What|Qué]] [[does equipment need to be|necesita ser el equipo]]?', options: ['[[Calibrated regularly to ensure accurate results|Calibrado regularmente para garantizar resultados precisos]]', '[[Replaced every day|Reemplazado cada día]]', '[[Ignored|Ignorado]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[needs to be calibrated regularly to ensure accurate results|necesita ser calibrado regularmente para garantizar resultados precisos]]".' },
+  { question: '[[The text|El texto]] [[states|afirma]] [[that|que]] [[samples can be stored anywhere|las muestras pueden almacenarse en cualquier sitio]].', options: ['[[True|Verdadero]]', '[[False|Falso]]'], correctAnswer: 1, explanation: '[[False|Falso]]. [[The text says|El texto dice]] "[[have to be stored in secure facilities|tienen que ser almacenadas en instalaciones seguras]]".' },
+  { question: '[[According to the text|Según el texto]], [[researchers never have their work reviewed|los investigadores nunca tienen su trabajo revisado]].', options: ['[[True|Verdadero]]', '[[False|Falso]]'], correctAnswer: 1, explanation: '[[False|Falso]]. [[The text says|El texto dice]] "[[often have their work reviewed by peers|a menudo tienen su trabajo revisado por pares]]".' },
+  { question: '[[What|Cuál]] [[is the main idea|es la idea principal]] [[of the text|del texto]]?', options: ['[[Clinical trials require strict protocols; data and samples must be handled properly; peer review is important|Los ensayos clínicos requieren protocolos estrictos; datos y muestras deben manejarse correctamente; la revisión por pares es importante]]', '[[Science is easy|La ciencia es fácil]]', '[[No rules are needed|No se necesitan reglas]]'], correctAnswer: 0, explanation: '[[The text|El texto]] [[covers|abarca]] [[regulations|regulaciones]], [[storage|almacenamiento]], [[analysis|análisis]] [[and|y]] [[peer review|revisión por pares]].' },
+  { question: '[[Which structure|Qué estructura]] [[expresses "have something done"|expresa "tener algo hecho"]] [[in the text|en el texto]]?', options: ['[[have their work reviewed|tener su trabajo revisado]]', '[[must be conducted|deben ser conducidos]]', '[[should have been analyzed|debería haber sido analizado]]'], correctAnswer: 0, explanation: '[[Have + object + past participle|Have + objeto + participio pasado]].' },
+  { question: '[[What|Qué]] [[vocabulary|vocabulario]] [[is key|es clave]] [[in this text|en este texto]]?', options: ['[[clinical trials|ensayos clínicos]], [[samples|muestras]], [[data|datos]], [[calibrated|calibrado]]', '[[festival|festival]], [[heritage|patrimonio]], [[tradition|tradición]]', '[[profit|beneficio]], [[debt|deuda]], [[budget|presupuesto]]'], correctAnswer: 0, explanation: '[[The text|El texto]] [[focuses on|se centra en]] [[science vocabulary|vocabulario científico]].' },
+  { question: '[[What|Qué]] [[can we infer|podemos inferir]] [[about|sobre]] [[scientific research|la investigación científica]]?', options: ['[[It requires careful procedures and oversight|Requiere procedimientos cuidadosos y supervisión]]', '[[It has no rules|No tiene reglas]]', '[[It is always perfect|Siempre es perfecta]]'], correctAnswer: 0, explanation: '[[The text|El texto]] [[emphasizes|enfatiza]] [[regulations|regulaciones]], [[storage|almacenamiento]] [[and|y]] [[review|revisión]].' },
+  { question: '[[Which modal passive|Qué pasiva modal]] [[expresses criticism about the past|expresa crítica sobre el pasado]]?', options: ['[[should have been analyzed|debería haber sido analizado]]', '[[must be conducted|debe ser conducido]]', '[[needs to be calibrated|necesita ser calibrado]]'], correctAnswer: 0, explanation: '[[Should have been + past participle|Should have been + participio pasado]] [[expresses regret/criticism|expresa arrepentimiento/crítica]].' },
 ];
 
 export const UNIT_17_LESSON_3_READING: Exercise[] = QUESTIONS.map((q, i) => ({

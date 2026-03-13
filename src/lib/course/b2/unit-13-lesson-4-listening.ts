@@ -1,224 +1,29 @@
 /**
  * Unidad 13 B2 — Lección 4: Comprensión auditiva (Money)
- * 18 actividades (B2: más vocabulario y complejidad que B1)
+ * 13 preguntas (B2: recreado con transcripción y preguntas distintos)
  */
 
 import { Exercise } from '@/lib/exercise-generator';
 
 const LESSON_TITLE = '[[Listening|Comprensión auditiva]]';
-const LISTENING_TRANSCRIPT = `[[Hi|Hola]], [[I\'m David|soy David]], [[a financial advisor|un asesor financiero]] [[who has been helping people|que ha estado ayudando a la gente]] [[manage their money|a gestionar su dinero]] [[for over fifteen years|desde hace más de quince años]]. [[One of the most common questions|Una de las preguntas más frecuentes]] [[I get|que recibo]] [[is|es]]: [["Do I really have to save?"|"¿De verdad tengo que ahorrar?"]] [[And my answer|Y mi respuesta]] [[is always|siempre es]]: [[yes|sí]], [[you must|debes]] [[if you want|si quieres]] [[financial security in the future|seguridad financiera en el futuro]]. [[But here\'s the good news|Pero aquí está la buena noticia]]: [[you needn\'t save huge amounts|no necesitas ahorrar cantidades enormes]] [[to make a difference|para marcar la diferencia]]. [[Even small amounts|Incluso cantidades pequeñas]], [[if you save them regularly|si las ahorras con regularidad]], [[add up over time|se acumulan con el tiempo]]. [[Many of my clients|Muchos de mis clientes]] [[who thought they couldn\'t afford to save|que pensaban que no podían permitirse ahorrar]] [[discovered|descubrieron]] [[that they didn\'t have to give up|que no tenían que renunciar]] [[their favourite things|a sus cosas favoritas]]; [[they just needed to|solo necesitaban]] [[cut back on|reducir]] [[unnecessary spending|gastos innecesarios]]. [[For example|Por ejemplo]], [[you must|debes]] [[pay your rent and bills|pagar el alquiler y las facturas]], [[but|pero]] [[you needn\'t|no necesitas]] [[buy coffee every day|comprar café todos los días]] [[if you can make it at home|si puedes hacerlo en casa]]. [[The key|La clave]] [[is to prioritise|es priorizar]] [[what you really need|lo que realmente necesitas]] [[versus|frente a]] [[what you simply want|lo que simplemente quieres]]. [[If you\'re in debt|Si tienes deudas]], [[you have to|tienes que]] [[tackle that first|abordar eso primero]] [[before|antes de]] [[you can start saving|poder empezar a ahorrar]]. [[But once you\'re free of debt|Pero una vez libre de deudas]], [[you need to|necesitas]] [[make saving automatic|hacer que el ahorro sea automático]] [[so that|para que]] [[you don\'t have to think about it|no tengas que pensar en ello]].`;
+const LISTENING_TRANSCRIPT = `[[Hello|Hola]], [[I'm Sarah|soy Sarah]], [[and I work|y trabajo]] [[as a tax consultant|como asesora fiscal]] [[for a firm|para una empresa]] [[that helps small businesses|que ayuda a pequeñas empresas]] [[with their finances|con sus finanzas]]. [[One question|Una pregunta]] [[I hear constantly|que escucho constantemente]] [[is|es]]: [["Do I really have to file a tax return?"|"¿De verdad tengo que presentar la declaración de impuestos?"]] [[And the answer|Y la respuesta]] [[depends|depende]] [[on your income|de tus ingresos]], [[but|pero]] [[in most cases|en la mayoría de los casos]] [[you must|debes]] [[submit it by the deadline|presentarla antes del plazo]] [[or face penalties|o enfrentar sanciones]]. [[The good news|La buena noticia]] [[is|es]] [[that you needn't|que no necesitas]] [[do it alone|hacerlo solo]]; [[there are|hay]] [[free tools|herramientas gratuitas]] [[and|y]] [[low-cost advisors|asesores de bajo coste]] [[who can help|que pueden ayudar]]. [[If you're self-employed|Si eres autónomo]], [[you have to|tienes que]] [[keep records|mantener registros]] [[of all your income and expenses|de todos tus ingresos y gastos]]. [[You need to|Necesitas]] [[set aside|reservar]] [[money for tax|dinero para impuestos]] [[throughout the year|durante todo el año]], [[not just|no solo]] [[when the deadline approaches|cuando se acerca el plazo]]. [[Many clients|Muchos clientes]] [[who thought they couldn't afford an advisor|que pensaban que no podían permitirse un asesor]] [[found|encontraron]] [[that they didn't have to pay much|que no tenían que pagar mucho]]; [[the cost|el coste]] [[of getting it wrong|de equivocarse]] [[is usually higher|suele ser mayor]] [[than the cost of help|que el coste de la ayuda]].`;
 
-const INSTRUCTIONS =
-  'Escucha el audio (o lee la transcripción). Después responde las preguntas de comprensión.';
+const INSTRUCTIONS = 'Escucha el audio (o lee la transcripción). Después responde las preguntas.';
 
 const QUESTIONS = [
-  {
-    question: '[[Who is speaking in the audio|Quién habla en el audio]]?',
-    options: [
-      '[[David, a financial advisor who has been helping people for over fifteen years|David, un asesor financiero que lleva más de quince años ayudando a la gente]]',
-      '[[A bank manager|Un director de banco]]',
-      '[[A university professor|Un profesor universitario]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El hablante se presenta como David, asesor financiero con más de quince años de experiencia.',
-  },
-  {
-    question:
-      '[[What|Cuál]] [[is one of the most common questions|es una de las preguntas más frecuentes]] [[David gets|que recibe David]]?',
-    options: [
-      '[["Do I really have to save?"|"¿De verdad tengo que ahorrar?"]]',
-      '[["How do I invest?"|"¿Cómo invierto?"]]',
-      '[["What is a mortgage?"|"¿Qué es una hipoteca?"]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'David dice que una de las preguntas más frecuentes es "Do I really have to save?"',
-  },
-  {
-    question:
-      '[[What|Cuál]] [[is David\'s answer|es la respuesta de David]] [[about saving|sobre ahorrar]]?',
-    options: [
-      '[[Yes, you must save if you want financial security|Sí, debes ahorrar si quieres seguridad financiera]]',
-      '[[No, saving is not necessary|No, ahorrar no es necesario]]',
-      '[[Only rich people need to save|Solo los ricos necesitan ahorrar]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Su respuesta es siempre sí: debes ahorrar si quieres seguridad financiera.',
-  },
-  {
-    question:
-      '[[What|Qué]] [[does David say|dice David]] [[about the amount you need to save|sobre la cantidad que necesitas ahorrar]]?',
-    options: [
-      '[[You needn\'t save huge amounts; even small amounts add up over time|No necesitas ahorrar cantidades enormes; incluso cantidades pequeñas se acumulan con el tiempo]]',
-      '[[You must save at least 50% of your income|Debes ahorrar al menos el 50% de tus ingresos]]',
-      '[[Saving small amounts is useless|Ahorrar cantidades pequeñas es inútil]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Dice que no necesitas ahorrar cantidades enormes; incluso cantidades pequeñas se acumulan.',
-  },
-  {
-    question:
-      '[[What|Qué]] [[did many clients discover|descubrieron muchos clientes]] [[about giving up their favourite things|sobre renunciar a sus cosas favoritas]]?',
-    options: [
-      '[[They didn\'t have to give them up; they just needed to cut back on unnecessary spending|No tenían que renunciar; solo necesitaban reducir gastos innecesarios]]',
-      '[[They had to give up everything|Tenían que renunciar a todo]]',
-      '[[They could not save at all|No podían ahorrar nada]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Descubrieron que no tenían que renunciar a sus cosas favoritas; solo reducir gastos innecesarios.',
-  },
-  {
-    question:
-      '[[What example|Qué ejemplo]] [[does David give|da David]] [[about unnecessary spending|sobre gastos innecesarios]]?',
-    options: [
-      '[[Buying coffee every day when you can make it at home|Comprar café todos los días cuando puedes hacerlo en casa]]',
-      '[[Paying rent|Pagar el alquiler]]',
-      '[[Paying bills|Pagar facturas]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Dice que debes pagar alquiler y facturas, pero no necesitas comprar café todos los días si puedes hacerlo en casa.',
-  },
-  {
-    question:
-      '[[What|Cuál]] [[is the key|es la clave]] [[according to David|según David]]?',
-    options: [
-      '[[To prioritise what you really need versus what you simply want|Priorizar lo que realmente necesitas frente a lo que simplemente quieres]]',
-      '[[To never spend money|Nunca gastar dinero]]',
-      '[[To earn more money|Ganar más dinero]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'La clave es priorizar lo que realmente necesitas frente a lo que simplemente quieres.',
-  },
-  {
-    question:
-      '[[What|Qué]] [[must you do first|debes hacer primero]] [[if you\'re in debt|si tienes deudas]]?',
-    options: [
-      '[[Tackle the debt before you can start saving|Abordar la deuda antes de poder empezar a ahorrar]]',
-      '[[Start saving immediately|Empezar a ahorrar de inmediato]]',
-      '[[Ignore the debt|Ignorar la deuda]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Si tienes deudas, tienes que abordarlas primero antes de poder empezar a ahorrar.',
-  },
-  {
-    question:
-      '[[What|Qué]] [[should you do|deberías hacer]] [[once you\'re free of debt|una vez libre de deudas]]?',
-    options: [
-      '[[Make saving automatic so you don\'t have to think about it|Hacer que el ahorro sea automático para no tener que pensar en ello]]',
-      '[[Stop saving|Dejar de ahorrar]]',
-      '[[Spend all your money|Gastar todo tu dinero]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Una vez libre de deudas, necesitas hacer que el ahorro sea automático.',
-  },
-  {
-    question:
-      '[[The audio suggests|El audio sugiere]] [[that|que]] [[you must give up all pleasures to save|debes renunciar a todos los placeres para ahorrar]].',
-    options: ['[[True|Verdadero]]', '[[False|Falso]]'],
-    correctAnswer: 'False',
-    explanation:
-      'Es falso: David dice que no tienes que renunciar a tus cosas favoritas; solo reducir gastos innecesarios.',
-  },
-  {
-    question:
-      '[[According to David|Según David]], [[you needn\'t pay your rent and bills|no necesitas pagar alquiler y facturas]].',
-    options: ['[[True|Verdadero]]', '[[False|Falso]]'],
-    correctAnswer: 'False',
-    explanation:
-      'Es falso: David dice que debes pagar el alquiler y las facturas.',
-  },
-  {
-    question:
-      '[[What|Cuál]] [[is the main idea|es la idea principal]] [[of the listening|de la escucha]]?',
-    options: [
-      '[[You must save for financial security, but you needn\'t save huge amounts; prioritise and make saving automatic|Debes ahorrar para seguridad financiera, pero no necesitas ahorrar cantidades enormes; prioriza y haz el ahorro automático]]',
-      '[[Saving is impossible for most people|Ahorrar es imposible para la mayoría]]',
-      '[[You should never spend money|Nunca deberías gastar dinero]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'La idea principal combina obligación de ahorrar, ausencia de necesidad de ahorrar mucho, priorizar y automatizar.',
-  },
-  {
-    question:
-      '[[Which modal|Qué modal]] [[from the transcript|de la transcripción]] [[expresses that something is not necessary|expresa que algo no es necesario]]?',
-    options: [
-      '[[needn\'t (You needn\'t save huge amounts)|needn\'t (No necesitas ahorrar cantidades enormes)]]',
-      '[[must (you must pay)|must (debes pagar)]]',
-      '[[have to (you have to tackle)|have to (tienes que abordar)]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      '"Needn\'t" indica que no es necesario ahorrar cantidades enormes.',
-  },
-  {
-    question:
-      '[[What vocabulary set|Qué conjunto de vocabulario]] [[is central|es central]] [[in this listening|en esta escucha]]?',
-    options: [
-      '[[save, debt, prioritise, spending, financial security|save, debt, prioritise, spending, financial security]]',
-      '[[festival, culture, tradition|festival, culture, tradition]]',
-      '[[series, streaming, cast|series, streaming, cast]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Todo el audio gira en torno a ahorro, deuda, priorizar y seguridad financiera.',
-  },
-  {
-    question:
-      '[[What|Qué]] [[does "tackle" mean|significa "tackle"]] [[in this context|en este contexto]]?',
-    options: [
-      '[[Deal with or address|Abordar o enfrentar]]',
-      '[[Ignore|Ignorar]]',
-      '[[Avoid|Evitar]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      '"Tackle" aquí significa abordar o enfrentar la deuda.',
-  },
-  {
-    question:
-      '[[According to the speaker|Según el hablante]], [[why|por qué]] [[should saving be automatic|debería el ahorro ser automático]]?',
-    options: [
-      '[[So you don\'t have to think about it|Para que no tengas que pensar en ello]]',
-      '[[To make it more difficult|Para hacerlo más difícil]]',
-      '[[To spend less|Para gastar menos]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Hacer el ahorro automático significa que no tienes que pensar en ello.',
-  },
-  {
-    question:
-      '[[The phrase|La frase]] [["don\'t have to"|"don\'t have to"]] [[in "you don\'t have to think about it"|en "no tienes que pensar en ello"]] [[means|significa]]:',
-    options: [
-      '[[It is not necessary|No es necesario]]',
-      '[[It is forbidden|Está prohibido]]',
-      '[[It is obligatory|Es obligatorio]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      '"Don\'t have to" indica ausencia de obligación o necesidad.',
-  },
-  {
-    question:
-      '[[How long|Cuánto tiempo]] [[has David been helping people|lleva David ayudando a la gente]] [[manage their money|a gestionar su dinero]]?',
-    options: [
-      '[[For over fifteen years|Desde hace más de quince años]]',
-      '[[For five years|Desde hace cinco años]]',
-      '[[For one year|Desde hace un año]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'David dice que lleva más de quince años ayudando a la gente.',
-  },
+  { question: '[[Who is speaking|Quién habla]]?', options: ['[[Sarah, a tax consultant for small businesses|Sarah, asesora fiscal para pequeñas empresas]]', '[[A bank manager|Un director de banco]]', '[[A university professor|Un profesor universitario]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[I\'m Sarah, and I work as a tax consultant for a firm that helps small businesses|soy Sarah y trabajo como asesora fiscal para una empresa que ayuda a pequeñas empresas]]".' },
+  { question: '[[What|Cuál]] [[is a common question|es una pregunta común]] [[she hears|que escucha]]?', options: ['[["Do I really have to file a tax return?"|"¿De verdad tengo que presentar la declaración?"]]', '[["How do I invest?"|"¿Cómo invierto?"]]', '[["What is a mortgage?"|"¿Qué es una hipoteca?"]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[One question I hear constantly is: Do I really have to file a tax return?|Una pregunta que escucho constantemente es: ¿De verdad tengo que presentar la declaración?]]".' },
+  { question: '[[What|Qué]] [[must most people do|deben hacer la mayoría]] [[regarding tax returns|respecto a la declaración de impuestos]]?', options: ['[[Submit it by the deadline or face penalties|Presentarla antes del plazo o enfrentar sanciones]]', '[[Ignore it completely|Ignorarla completamente]]', '[[Only file if they earn a lot|Solo presentar si ganan mucho]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[in most cases you must submit it by the deadline or face penalties|en la mayoría de los casos debes presentarla antes del plazo o enfrentar sanciones]]".' },
+  { question: '[[What|Qué]] [[does Sarah say|dice Sarah]] [[about doing it alone|sobre hacerlo solo]]?', options: ['[[You needn\'t do it alone; there are free tools and low-cost advisors|No necesitas hacerlo solo; hay herramientas gratuitas y asesores de bajo coste]]', '[[You must always do it alone|Debes hacerlo siempre solo]]', '[[Advisors are too expensive|Los asesores son muy caros]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[you needn\'t do it alone; there are free tools and low-cost advisors|no necesitas hacerlo solo; hay herramientas gratuitas y asesores de bajo coste]]".' },
+  { question: '[[What|Qué]] [[do self-employed people have to do|tienen que hacer los autónomos]]?', options: ['[[Keep records of all income and expenses|Mantener registros de todos los ingresos y gastos]]', '[[Close their business|Cerrar su negocio]]', '[[Never pay tax|Nunca pagar impuestos]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[If you\'re self-employed, you have to keep records of all your income and expenses|Si eres autónomo, tienes que mantener registros de todos tus ingresos y gastos]]".' },
+  { question: '[[What|Qué]] [[do you need to do|necesitas hacer]] [[throughout the year|durante todo el año]]?', options: ['[[Set aside money for tax|Reservar dinero para impuestos]]', '[[Spend everything|Gastar todo]]', '[[Ignore tax until the deadline|Ignorar impuestos hasta el plazo]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[You need to set aside money for tax throughout the year|Necesitas reservar dinero para impuestos durante todo el año]]".' },
+  { question: '[[What|Qué]] [[did many clients discover|descubrieron muchos clientes]] [[about advisors|sobre los asesores]]?', options: ['[[They didn\'t have to pay much; the cost of getting it wrong is usually higher|No tenían que pagar mucho; el coste de equivocarse suele ser mayor]]', '[[Advisors are useless|Los asesores son inútiles]]', '[[They must pay a fortune|Deben pagar una fortuna]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[they didn\'t have to pay much; the cost of getting it wrong is usually higher than the cost of help|no tenían que pagar mucho; el coste de equivocarse suele ser mayor que el coste de la ayuda]]".' },
+  { question: '[[The audio suggests|El audio sugiere]] [[that|que]] [[you must always hire an expensive advisor|debes contratar siempre un asesor caro]].', options: ['[[True|Verdadero]]', '[[False|Falso]]'], correctAnswer: 1, explanation: '[[False|Falso]]. [[The speaker mentions|El hablante menciona]] [[free tools and low-cost advisors|herramientas gratuitas y asesores de bajo coste]].' },
+  { question: '[[According to Sarah|Según Sarah]], [[self-employed people needn\'t keep records|los autónomos no necesitan mantener registros]].', options: ['[[True|Verdadero]]', '[[False|Falso]]'], correctAnswer: 1, explanation: '[[False|Falso]]. [[The speaker says|El hablante dice]] "[[you have to keep records|tienes que mantener registros]]".' },
+  { question: '[[What|Cuál]] [[is the main idea|es la idea principal]] [[of the listening|de la escucha]]?', options: ['[[You must file tax returns on time but needn\'t do it alone; plan and get help if needed|Debes presentar la declaración a tiempo pero no necesitas hacerlo solo; planifica y busca ayuda si hace falta]]', '[[Tax is optional|Los impuestos son opcionales]]', '[[Never pay for advice|Nunca pagues por consejos]]'], correctAnswer: 0, explanation: '[[The speaker|El hablante]] [[combines|combina]] [[obligation|obligación]], [[no necessity to do alone|no necesidad de hacerlo solo]] [[and|y]] [[planning|planificación]].' },
+  { question: '[[Which modal|Qué modal]] [[expresses absence of necessity|expresa ausencia de necesidad]] [[in the transcript|en la transcripción]]?', options: ['[[needn\'t (You needn\'t do it alone)|needn\'t (No necesitas hacerlo solo)]]', '[[must (you must submit)|must (debes presentar)]]', '[[have to (you have to keep)|have to (tienes que mantener)]]'], correctAnswer: 0, explanation: '[[Needn\'t|Needn\'t]] [[indicates no necessity|indica que no es necesario]].' },
+  { question: '[[What|Qué]] [[vocabulary|vocabulario]] [[is central|es central]] [[in this listening|en esta escucha]]?', options: ['[[tax return|declaración]], [[deadline|plazo]], [[records|registros]], [[self-employed|autónomo]]', '[[festival|festival]], [[culture| cultura]], [[tradition|tradición]]', '[[series|serie]], [[streaming|streaming]], [[cast|reparto]]'], correctAnswer: 0, explanation: '[[The listening|La escucha]] [[focuses on|se centra en]] [[tax vocabulary|vocabulario fiscal]].' },
+  { question: '[[What|Qué]] [[does "set aside" mean|significa "set aside"]] [[in this context|en este contexto]]?', options: ['[[Reserve or save for later use|Reservar o guardar para uso posterior]]', '[[Spend immediately|Gastar inmediatamente]]', '[[Ignore completely|Ignorar completamente]]'], correctAnswer: 0, explanation: '[[Set aside|Set aside]] [[means reserve money|significa reservar dinero]] [[for tax|para impuestos]].' },
 ];
 
 export const UNIT_13_LESSON_4_LISTENING: Exercise[] = QUESTIONS.map((q, i) => ({

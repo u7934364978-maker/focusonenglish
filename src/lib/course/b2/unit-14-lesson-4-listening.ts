@@ -1,224 +1,29 @@
 /**
  * Unidad 14 B2 — Lección 4: Comprensión auditiva (Business)
- * 18 actividades (B2: más vocabulario y complejidad que B1)
+ * 13 preguntas (B2: recreado con transcripción y preguntas distintos)
  */
 
 import { Exercise } from '@/lib/exercise-generator';
 
 const LESSON_TITLE = '[[Listening|Comprensión auditiva]]';
-const LISTENING_TRANSCRIPT = `[[Hi|Hola]], [[I'm|soy]] [[James|James]], [[a business consultant|un consultor empresarial]] [[who|que]] [[has been working|ha estado trabajando]] [[with startups|con startups]] [[for the past decade|durante la última década]]. [[Today|Hoy]] [[I want to share|quiero compartir]] [[some observations|algunas observaciones]] [[about|sobre]] [[why companies|por qué las empresas]] [[that|que]] [[we thought would succeed|pensábamos que tendrían éxito]] [[sometimes fail|a veces fracasan]]. [[Often|A menudo]] [[the founders|los fundadores]] [[must have been|deben haber estado]] [[overconfident|demasiado seguros]] [[because|porque]] [[they ignored|ignoraron]] [[market research|el estudio de mercado]] [[that|que]] [[warned|advirtió]] [[of low demand|de la baja demanda]]. [[Other times|Otras veces]] [[they might have misunderstood|podrían haber malinterpretado]] [[their competitors|a sus competidores]], [[who|que]] [[were developing|estaban desarrollando]] [[similar products|productos similares]] [[at the same time|al mismo tiempo]]. [[Investors|Los inversores]] [[who|que]] [[pulled out|retiraron su apoyo]] [[at the last minute|en el último momento]] [[can't have known|no pueden haber sabido]] [[how close|lo cerca]] [[the company was|que estaba la empresa]] [[to profitability|de la rentabilidad]]. [[The key lesson|La lección clave]] [[is|es]] [[that|que]] [[success in business|el éxito en los negocios]] [[requires|requiere]] [[not just a good idea|no solo una buena idea]] [[but|sino]] [[careful planning|una planificación cuidadosa]], [[which|que]] [[many startups|muchas startups]] [[overlook|pasan por alto]].`;
+const LISTENING_TRANSCRIPT = `[[Hi|Hola]], [[I'm Marcus|soy Marcus]], [[and I run|y dirijo]] [[a consulting firm|una empresa de consultoría]] [[that helps startups|que ayuda a startups]] [[scale their operations|a escalar sus operaciones]]. [[Last quarter|El trimestre pasado]], [[we lost|perdimos]] [[a key client|un cliente clave]] [[without warning|sin aviso]]. [[They must have been unhappy|Deben haber estado descontentos]] [[with our service|con nuestro servicio]] [[for some time|desde hace tiempo]], [[but|pero]] [[they never said anything|nunca dijeron nada]]. [[We might have missed|Podríamos haber pasado por alto]] [[the signs|las señales]] [[that they were looking elsewhere|de que buscaban en otro sitio]]. [[The team|El equipo]] [[can't have seen|no puede haber visto]] [[it coming|que venía]] [[because we were all shocked|porque todos nos quedamos impactados]] [[when they cancelled|cuando cancelaron]]. [[Since then|Desde entonces]], [[we've introduced|hemos introducido]] [[weekly check-ins|reuniones semanales]] [[with every client|con cada cliente]] [[to catch problems early|para detectar problemas pronto]]. [[The feedback|El feedback]] [[we get now|que recibimos ahora]] [[must have improved|debe haber mejorado]] [[our retention|nuestra retención]] [[because we haven't lost|porque no hemos perdido]] [[another account|otra cuenta]] [[since|desde entonces]].`;
 
-const INSTRUCTIONS =
-  'Escucha el audio (o lee la transcripción). Después responde las preguntas de comprensión.';
+const INSTRUCTIONS = 'Escucha el audio (o lee la transcripción). Después responde las preguntas.';
 
 const QUESTIONS = [
-  {
-    question: '[[Who is speaking in the audio|Quién habla en el audio]]?',
-    options: [
-      '[[James, a business consultant who works with startups|James, un consultor empresarial que trabaja con startups]]',
-      '[[A startup founder|Un fundador de startup]]',
-      '[[An investor|Un inversor]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El hablante se presenta como "James, a business consultant who has been working with startups".',
-  },
-  {
-    question:
-      '[[How long|Cuánto tiempo]] [[has James been working with startups|lleva James trabajando con startups]]?',
-    options: [
-      '[[For the past decade|Durante la última década]]',
-      '[[For two years|Durante dos años]]',
-      '[[For six months|Durante seis meses]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Dice que "has been working with startups for the past decade".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[does James want to share|quiere compartir James]]?',
-    options: [
-      '[[Observations about why some companies that seemed promising fail|Observaciones sobre por qué algunas empresas prometedoras fracasan]]',
-      '[[Success stories of startups|Historias de éxito de startups]]',
-      '[[Investment strategies|Estrategias de inversión]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Quiere compartir "some observations about why companies that we thought would succeed sometimes fail".',
-  },
-  {
-    question:
-      '[[According to James|Según James]], [[why|por qué]] [[might founders have been overconfident|los fundadores podrían haber estado demasiado seguros]]?',
-    options: [
-      '[[Because they ignored market research that warned of low demand|Porque ignoraron el estudio de mercado que advertía de baja demanda]]',
-      '[[Because they had too much funding|Porque tenían demasiada financiación]]',
-      '[[Because they had no competitors|Porque no tenían competidores]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Menciona que "they ignored market research that warned of low demand".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[might founders have misunderstood|podrían haber malinterpretado los fundadores]]?',
-    options: [
-      '[[Their competitors who were developing similar products|A sus competidores que desarrollaban productos similares]]',
-      '[[Their employees|A sus empleados]]',
-      '[[Government regulations|Las regulaciones gubernamentales]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Dice que "they might have misunderstood their competitors, who were developing similar products".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[does James say about investors who pulled out|dice James sobre los inversores que retiraron su apoyo]]?',
-    options: [
-      '[[They can\'t have known how close the company was to profitability|No pueden haber sabido lo cerca que estaba la empresa de la rentabilidad]]',
-      '[[They were right to leave|Tenían razón en irse]]',
-      '[[They will regret their decision|Se arrepentirán de su decisión]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Afirma que "Investors who pulled out... can\'t have known how close the company was to profitability".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[is the key lesson|es la lección clave]] [[according to James|según James]]?',
-    options: [
-      '[[Success requires not just a good idea but careful planning|El éxito requiere no solo una buena idea sino planificación cuidadosa]]',
-      '[[Startups need more funding|Las startups necesitan más financiación]]',
-      '[[Competitors are always a threat|Los competidores son siempre una amenaza]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Dice que "success in business requires not just a good idea but careful planning".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[do many startups overlook|pasan por alto muchas startups]]?',
-    options: [
-      '[[Careful planning|La planificación cuidadosa]]',
-      '[[Marketing|El marketing]]',
-      '[[Hiring staff|Contratar personal]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Menciona que "careful planning... many startups overlook".',
-  },
-  {
-    question:
-      '[[The speaker suggests|El hablante sugiere]] [[that|que]] [[ignoring market research always leads to failure|ignorar el estudio de mercado siempre lleva al fracaso]].',
-    options: ['[[True|Verdadero]]', '[[False|Falso]]'],
-    correctAnswer: 'False',
-    explanation:
-      'No dice "siempre"; da varias razones por las que las empresas fracasan.',
-  },
-  {
-    question:
-      '[[The audio implies|El audio implica]] [[that|que]] [[investors sometimes make wrong decisions|los inversores a veces toman decisiones equivocadas]].',
-    options: ['[[True|Verdadero]]', '[[False|Falso]]'],
-    correctAnswer: 'True',
-    explanation:
-      'Sí: dice que los inversores que retiraron su apoyo "can\'t have known" lo cerca que estaba la empresa de la rentabilidad.',
-  },
-  {
-    question:
-      '[[What|Cuál]] [[is|es]] [[the main idea|la idea principal]] [[of the listening|de la escucha]]?',
-    options: [
-      '[[Business success requires good ideas and careful planning; startups often fail when they overlook these|El éxito empresarial requiere buenas ideas y planificación; las startups fracasan cuando las pasan por alto]]',
-      '[[Investors are always wrong|Los inversores siempre se equivocan]]',
-      '[[Market research is useless|El estudio de mercado es inútil]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'La idea central es que el éxito requiere planificación y que muchas startups la pasan por alto.',
-  },
-  {
-    question:
-      '[[Which modal of deduction|Qué modal de deducción]] [[does James use|usa James]] [[when talking about founders|al hablar de los fundadores]]?',
-    options: [
-      '[[must have been overconfident|must have been overconfident]]',
-      '[[can\'t have known|can\'t have known]]',
-      '[[might have misunderstood|might have misunderstood]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Dice "the founders must have been overconfident" como deducción lógica.',
-  },
-  {
-    question:
-      '[[Which modal|Qué modal]] [[expresses impossibility|expresa imposibilidad]] [[in the transcript|en la transcripción]]?',
-    options: [
-      '[[can\'t have known|can\'t have known]]',
-      '[[must have been|must have been]]',
-      '[[might have misunderstood|might have misunderstood]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      '"Can\'t have known" expresa que es imposible que supieran lo cerca que estaba la empresa de la rentabilidad.',
-  },
-  {
-    question:
-      '[[What|Qué]] [[vocabulary set|conjunto de vocabulario]] [[is central|es central]] [[in this listening|en esta escucha]]?',
-    options: [
-      '[[startups, market research, competitors, investors, profitability|startups, market research, competitors, investors, profitability]]',
-      '[[festival, tradition, culture, heritage|festival, tradition, culture, heritage]]',
-      '[[airport, boarding pass, luggage|airport, boarding pass, luggage]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Todo el audio gira en torno a vocabulario empresarial y de startups.',
-  },
-  {
-    question:
-      '[[According to the speaker|Según el hablante]], [[what|qué]] [[do startups need besides a good idea|necesitan las startups además de una buena idea]]?',
-    options: [
-      '[[Careful planning|Planificación cuidadosa]]',
-      '[[More investors|Más inversores]]',
-      '[[Fewer competitors|Menos competidores]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Dice que el éxito "requires not just a good idea but careful planning".',
-  },
-  {
-    question:
-      '[[The phrase|La frase]] [["pulled out"|"pulled out"]] [[means|significa]] ____.',
-    options: [
-      '[[Withdrew their support or investment|Retiraron su apoyo o inversión]]',
-      '[[Joined the company|Se unieron a la empresa]]',
-      '[[Increased funding|Aumentaron la financiación]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      '"Pulled out" en contexto empresarial significa retirar el apoyo o la inversión.',
-  },
-  {
-    question:
-      '[[What|Qué]] [[detail|detalle]] [[supports|apoya]] [[the idea that timing matters for investors|la idea de que el momento importa para los inversores]]?',
-    options: [
-      '[[Investors who pulled out at the last minute can\'t have known how close the company was to profitability|Los inversores que retiraron su apoyo en el último momento no pueden haber sabido lo cerca que estaba la empresa de la rentabilidad]]',
-      '[[James has worked with startups for a decade|James ha trabajado con startups durante una década]]',
-      '[[Founders ignored market research|Los fundadores ignoraron el estudio de mercado]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Este detalle muestra que retirarse "at the last minute" puede ser un error si la empresa estaba cerca del éxito.',
-  },
-  {
-    question:
-      '[[The relative clause|La oración de relativo]] [["who were developing similar products"|"who were developing similar products"]] [[refers to|se refiere a]] ____.',
-    options: [
-      '[[The competitors|Los competidores]]',
-      '[[The founders|Los fundadores]]',
-      '[[The investors|Los inversores]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'La cláusula "who were developing similar products" modifica a "their competitors".',
-  },
+  { question: '[[Who is speaking|Quién habla]]?', options: ['[[Marcus, who runs a consulting firm for startups|Marcus, que dirige una empresa de consultoría para startups]]', '[[A bank manager|Un director de banco]]', '[[A university professor|Un profesor universitario]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[I\'m Marcus, and I run a consulting firm that helps startups|soy Marcus y dirijo una empresa de consultoría que ayuda a startups]]".' },
+  { question: '[[What|Qué]] [[happened last quarter|pasó el trimestre pasado]]?', options: ['[[They lost a key client without warning|Perdieron un cliente clave sin aviso]]', '[[They gained ten new clients|Ganaron diez clientes nuevos]]', '[[They opened a new office|Abrieron una nueva oficina]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[we lost a key client without warning|perdimos un cliente clave sin aviso]]".' },
+  { question: '[[What|Qué]] [[must the client have been|debe haber estado el cliente]]?', options: ['[[Unhappy with the service for some time|Descontento con el servicio desde hace tiempo]]', '[[Very satisfied|Muy satisfecho]]', '[[Neutral|Neutral]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[They must have been unhappy with our service for some time|Deben haber estado descontentos con nuestro servicio desde hace tiempo]]".' },
+  { question: '[[What|Qué]] [[might they have missed|podrían haber pasado por alto]]?', options: ['[[The signs that the client was looking elsewhere|Las señales de que el cliente buscaba en otro sitio]]', '[[A payment|Un pago]]', '[[A meeting|Una reunión]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[We might have missed the signs that they were looking elsewhere|Podríamos haber pasado por alto las señales de que buscaban en otro sitio]]".' },
+  { question: '[[What|Qué]] [[can\'t the team have seen|no puede haber visto el equipo]]?', options: ['[[That it was coming|Que venía]]', '[[The contract|El contrato]]', '[[The invoice|La factura]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[The team can\'t have seen it coming because we were all shocked|El equipo no puede haber visto que venía porque todos nos quedamos impactados]]".' },
+  { question: '[[What|Qué]] [[have they introduced since then|han introducido desde entonces]]?', options: ['[[Weekly check-ins with every client|Reuniones semanales con cada cliente]]', '[[New products|Productos nuevos]]', '[[Price cuts|Recortes de precios]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[we\'ve introduced weekly check-ins with every client|hemos introducido reuniones semanales con cada cliente]]".' },
+  { question: '[[What|Qué]] [[must have improved|debe haber mejorado]] [[according to the speaker|según el hablante]]?', options: ['[[The feedback they get now has improved their retention|El feedback que reciben ahora ha mejorado su retención]]', '[[Their profits|Sus beneficios]]', '[[Their office|Su oficina]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[The feedback we get now must have improved our retention because we haven\'t lost another account|El feedback que recibimos ahora debe haber mejorado nuestra retención porque no hemos perdido otra cuenta]]".' },
+  { question: '[[The speaker|El hablante]] [[says|dice]] [[that|que]] [[the client warned them before leaving|el cliente les avisó antes de irse]].', options: ['[[True|Verdadero]]', '[[False|Falso]]'], correctAnswer: 1, explanation: '[[False|Falso]]. [[The speaker says|El hablante dice]] "[[they never said anything|nunca dijeron nada]]".' },
+  { question: '[[According to Marcus|Según Marcus]], [[they have lost more clients since then|han perdido más clientes desde entonces]].', options: ['[[True|Verdadero]]', '[[False|Falso]]'], correctAnswer: 1, explanation: '[[False|Falso]]. [[The speaker says|El hablante dice]] "[[we haven\'t lost another account since|no hemos perdido otra cuenta desde entonces]]".' },
+  { question: '[[What|Cuál]] [[is the main idea|es la idea principal]] [[of the listening|de la escucha]]?', options: ['[[Losing a client led to better communication and retention practices|Perder un cliente llevó a mejores prácticas de comunicación y retención]]', '[[Consulting is easy|La consultoría es fácil]]', '[[Clients always complain|Los clientes siempre se quejan]]'], correctAnswer: 0, explanation: '[[The speaker|El hablante]] [[describes|describe]] [[learning from loss|aprender de la pérdida]] [[and|y]] [[improving|mejorar]].' },
+  { question: '[[Which modal deduction|Qué deducción modal]] [[expresses impossibility|expresa imposibilidad]] [[in the transcript|en la transcripción]]?', options: ['[[can\'t have seen|no puede haber visto]]', '[[must have been|debe haber estado]]', '[[might have missed|podría haber pasado por alto]]'], correctAnswer: 0, explanation: '[[Can\'t have|Can\'t have]] [[expresses impossibility|expresa imposibilidad]].' },
+  { question: '[[What|Qué]] [[vocabulary|vocabulario]] [[is central|es central]] [[in this listening|en esta escucha]]?', options: ['[[client|cliente]], [[retention|retención]], [[feedback|feedback]], [[check-in|reunión de seguimiento]]', '[[festival|festival]], [[culture|cultura]], [[tradition|tradición]]', '[[budget|presupuesto]], [[savings|ahorros]], [[debt|deuda]]'], correctAnswer: 0, explanation: '[[The listening|La escucha]] [[focuses on|se centra en]] [[business and client vocabulary|vocabulario de negocios y clientes]].' },
+  { question: '[[What|Qué]] [[does "scale" mean|significa "scale"]] [[in this context|en este contexto]]?', options: ['[[Grow or expand operations|Crecer o expandir operaciones]]', '[[Reduce costs|Reducir costes]]', '[[Close the business|Cerrar el negocio]]'], correctAnswer: 0, explanation: '[[Scale|Scale]] [[means grow|significa crecer]] [[in business context|en contexto empresarial]].' },
 ];
 
 export const UNIT_14_LESSON_4_LISTENING: Exercise[] = QUESTIONS.map((q, i) => ({

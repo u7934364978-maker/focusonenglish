@@ -1,225 +1,29 @@
 /**
  * Unidad 19 B2 — Lección 3: Comprensión lectora (Sport)
- * 18 actividades (B2: más vocabulario y complejidad que B1)
+ * 13 preguntas (B2: recreado con texto y preguntas distintos)
  */
 
 import { Exercise } from '@/lib/exercise-generator';
 
 const LESSON_TITLE = '[[Reading|Comprensión lectora]]';
-const READING_TRANSCRIPT = `[[Last summer|El verano pasado]], [[the Olympic Games|los Juegos Olímpicos]] [[were held|se celebraron]] [[in Paris|en París]], [[and|y]] [[athletes|atletas]] [[from over 200 countries|de más de 200 países]] [[competed|compitieron]] [[for medals|por medallas]]. [[The more you train|Cuanto más entrenas]], [[the fitter you become|más en forma te vuelves]] [[according to|según]] [[sports scientists|científicos del deporte]], [[who|que]] [[have studied|han estudiado]] [[the link between|el vínculo entre]] [[practice|práctica]] [[and|y]] [[performance|rendimiento]]. [[Swimming|La natación]] [[is|es]] [[one of the most popular|uno de los más populares]] [[Olympic sports|deportes olímpicos]], [[and|y]] [[the 100-metre freestyle|los 100 metros libres]] [[is|es]] [[by far the most watched|con diferencia el más visto]] [[event|prueba]] [[on television|en televisión]]. [[Some athletes|Algunos atletas]] [[run|corren]] [[far faster|mucho más rápido]] [[than they did|que antes]] [[a few years ago|hace unos años]], [[thanks to|gracias a]] [[improved training methods|métodos de entrenamiento mejorados]] [[and|y]] [[better equipment|mejor equipo]]. [[Team sports|Los deportes de equipo]] [[like football|como el fútbol]] [[are|son]] [[not as individual|no tan individuales]] [[as|como]] [[athletics|el atletismo]], [[but|pero]] [[teamwork|el trabajo en equipo]] [[is|es]] [[no less important|no menos importante]] [[than|que]] [[individual skill|la habilidad individual]]. [[That was|Esa fue]] [[the best match|el mejor partido]] [[I have ever watched|que he visto jamás]], [[said|dijo]] [[one spectator|un espectador]] [[after|después de]] [[the final|la final]].`;
+const READING_TRANSCRIPT = `[[The more|Cuanto más]] [[you train|entrenas]], [[the fitter|más en forma]] [[you become|te vuelves]]; [[this|esto]] [[is|es]] [[one of the most basic|una de las más básicas]] [[principles|principios]] [[in sport|en el deporte]]. [[Athletes|Los atletas]] [[who|que]] [[compete at the highest level|compiten al más alto nivel]] [[are often|son a menudo]] [[by far|con diferencia]] [[the most dedicated|los más dedicados]] [[people|personas]] [[you will meet|que conocerás]]. [[The marathon|El maratón]] [[is|es]] [[much harder|mucho más duro]] [[than|que]] [[a half-marathon|un medio maratón]]; [[the extra distance|la distancia extra]] [[makes|hace]] [[it|lo]] [[significantly more demanding|significativamente más exigente]]. [[Endurance|La resistencia]] [[is|es]] [[slightly more important|ligeramente más importante]] [[than|que]] [[speed|la velocidad]] [[for long-distance runners|para corredores de larga distancia]]. [[The best|Los mejores]] [[coaches|entrenadores]] [[understand|entienden]] [[that|que]] [[the earlier|cuanto antes]] [[you start preparing|empieces a prepararte]], [[the better|mejor]] [[your chances|tus posibilidades]] [[of success|de éxito]]. [[Recovery|La recuperación]] [[is|es]] [[just as important|tan importante]] [[as|como]] [[training itself|el entrenamiento en sí]]; [[without|sin]] [[enough rest|suficiente descanso]], [[performance|el rendimiento]] [[declines|disminuye]].`;
 
-const INSTRUCTIONS =
-  'Lee el texto sobre los Juegos Olímpicos y el deporte. Después responde las preguntas.';
+const INSTRUCTIONS = 'Lee el texto sobre deporte y entrenamiento. Después responde las preguntas.';
 
 const QUESTIONS = [
-  {
-    question:
-      '[[Where|Dónde]] [[were the Olympic Games held last summer|se celebraron los Juegos Olímpicos el verano pasado]]?',
-    options: [
-      '[[In Paris|En París]]',
-      '[[In Tokyo|En Tokio]]',
-      '[[In London|En Londres]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El texto dice que "the Olympic Games were held in Paris".',
-  },
-  {
-    question:
-      '[[How many|Cuántos]] [[countries|países]] [[did athletes come from|de cuántos países vinieron los atletas]]?',
-    options: [
-      '[[Over 200|Más de 200]]',
-      '[[About 100|Unos 100]]',
-      '[[Exactly 50|Exactamente 50]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Se menciona que "athletes from over 200 countries competed".',
-  },
-  {
-    question:
-      '[[According to sports scientists|Según los científicos del deporte]], [[what|qué]] [[is the link between training and fitness|es el vínculo entre entrenamiento y forma física]]?',
-    options: [
-      '[[The more you train, the fitter you become|Cuanto más entrenas, más en forma te vuelves]]',
-      '[[Training has no effect|El entrenamiento no tiene efecto]]',
-      '[[Less training is better|Menos entrenamiento es mejor]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El texto indica que "The more you train, the fitter you become according to sports scientists".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[is described as "by far the most watched" event|se describe como "con diferencia el más visto"]]?',
-    options: [
-      '[[The 100-metre freestyle|Los 100 metros libres]]',
-      '[[The marathon|El maratón]]',
-      '[[Football|El fútbol]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Se dice que "the 100-metre freestyle is by far the most watched event on television".',
-  },
-  {
-    question:
-      '[[Why|Por qué]] [[do some athletes run far faster than before|algunos atletas corren mucho más rápido que antes]]?',
-    options: [
-      '[[Thanks to improved training methods and better equipment|Gracias a métodos de entrenamiento mejorados y mejor equipo]]',
-      '[[Because they eat less|Porque comen menos]]',
-      '[[Because the tracks are shorter|Porque las pistas son más cortas]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El texto dice "thanks to improved training methods and better equipment".',
-  },
-  {
-    question:
-      '[[According to the text|Según el texto]], [[how|qué]] [[does teamwork compare to individual skill in team sports|se compara el trabajo en equipo con la habilidad individual en deportes de equipo]]?',
-    options: [
-      '[[Teamwork is no less important than individual skill|El trabajo en equipo no es menos importante que la habilidad individual]]',
-      '[[Individual skill is more important|La habilidad individual es más importante]]',
-      '[[Teamwork is less important|El trabajo en equipo es menos importante]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Se dice que "teamwork is no less important than individual skill".',
-  },
-  {
-    question:
-      '[[The text states|El texto afirma]] [[that|que]] [[swimming is one of the most popular Olympic sports|la natación es uno de los deportes olímpicos más populares]].',
-    options: ['[[True|Verdadero]]', '[[False|Falso]]'],
-    correctAnswer: 'True',
-    explanation:
-      'Verdadero: "Swimming is one of the most popular Olympic sports".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[grammar structure|estructura gramatical]] [[is used|se usa]] [[in|en]] "The more you train, the fitter you become"?',
-    options: [
-      '[[The + comparative... the + comparative (correlation)|The + comparativo... the + comparativo (correlación)]]',
-      '[[Superlative|Superlativo]]',
-      '[[As... as|As... as]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Es el doble comparativo: the more... the fitter = cuanto más... más.',
-  },
-  {
-    question:
-      '[[Which grammar structure|Qué estructura gramatical]] [[appears|aparece]] [[in|en]] "far faster than they did"?',
-    options: [
-      '[[far + comparative (emphasis)|far + comparativo (énfasis)]]',
-      '[[superlative + ever|superlativo + ever]]',
-      '[[the least + adjective|the least + adjetivo]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      '"Far faster" = mucho más rápido. Far/much enfatizan el comparativo.',
-  },
-  {
-    question:
-      '[[What|Cuál]] [[is|es]] [[the main idea|la idea principal]] [[of the text|del texto]]?',
-    options: [
-      '[[The Olympics, training, performance and the importance of teamwork in sport|Los Juegos Olímpicos, entrenamiento, rendimiento e importancia del trabajo en equipo]]',
-      '[[Paris is the best city|París es la mejor ciudad]]',
-      '[[Swimming is the only important sport|La natación es el único deporte importante]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El texto trata de los Juegos Olímpicos, entrenamiento, rendimiento y trabajo en equipo.',
-  },
-  {
-    question:
-      '[[Which phrase|Qué frase]] [[expresses|expresa]] [[superlative with emphasis|superlativo con énfasis]] [[in the text|en el texto]]?',
-    options: [
-      '[[by far the most watched|con diferencia el más visto]]',
-      '[[far faster|mucho más rápido]]',
-      '[[the more you train|cuanto más entrenas]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      '"By far the most watched" = con diferencia el más visto (énfasis en el superlativo).',
-  },
-  {
-    question:
-      '[[The text implies|El texto implica]] [[that|que]] [[team sports require both teamwork and individual skill|los deportes de equipo requieren tanto trabajo en equipo como habilidad individual]].',
-    options: ['[[True|Verdadero]]', '[[False|Falso]]'],
-    correctAnswer: 'True',
-    explanation:
-      'Verdadero: "teamwork is no less important than individual skill".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[vocabulary|vocabulario]] [[is key|es clave]] [[in this text|en este texto]]?',
-    options: [
-      '[[athletes, compete, train, performance, teamwork|athletes, compete, train, performance, teamwork]]',
-      '[[food, recipe, ingredients|food, recipe, ingredients]]',
-      '[[technology, software, app|technology, software, app]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El campo semántico es deporte: athletes, compete, train, performance, teamwork.',
-  },
-  {
-    question:
-      '[[What|Qué]] [[did one spectator say|dijo un espectador]]?',
-    options: [
-      '[[That was the best match I have ever watched|Ese fue el mejor partido que he visto jamás]]',
-      '[[The Olympics were boring|Los Juegos Olímpicos fueron aburridos]]',
-      '[[Swimming is overrated|La natación está sobrevalorada]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El espectador dijo "That was the best match I have ever watched".',
-  },
-  {
-    question:
-      '[[According to the text|Según el texto]], [[team sports|los deportes de equipo]] ____ [[individual sports|los deportes individuales]].',
-    options: [
-      '[[are not as individual as|no son tan individuales como]]',
-      '[[are more individual than|son más individuales que]]',
-      '[[are the same as|son iguales que]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Se dice que "Team sports... are not as individual as athletics".',
-  },
-  {
-    question:
-      '[[How|Cómo]] [[does the text describe|describe el texto]] [[the 100-metre freestyle|los 100 metros libres]]?',
-    options: [
-      '[[By far the most watched event on television|Con diferencia el evento más visto en televisión]]',
-      '[[The least popular event|El evento menos popular]]',
-      '[[The longest event|El evento más largo]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El texto dice que "the 100-metre freestyle is by far the most watched event on television".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[purpose|propósito]] [[does the text serve|sirve el texto]]?',
-    options: [
-      '[[To inform about the Olympics and aspects of sport|Informar sobre los Juegos Olímpicos y aspectos del deporte]]',
-      '[[To advertise the Olympics|Anunciar los Juegos Olímpicos]]',
-      '[[To criticise athletes|Criticar a los atletas]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El texto informa sobre los Juegos Olímpicos, entrenamiento, rendimiento y trabajo en equipo.',
-  },
-  {
-    question:
-      '[[The phrase|La frase]] [["no less important than"|"no less important than"]] [[means|significa]] ____.',
-    options: [
-      '[[Equally important (no menos importante que)|Igual de importante (no menos importante que)]]',
-      '[[Less important|Menos importante]]',
-      '[[More important|Más importante]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      '"No less important than" = no menos importante que = igual de importante.',
-  },
+  { question: '[[What|Qué]] [[is one of the most basic principles|es uno de los principios más básicos]] [[in sport|en el deporte]]?', options: ['[[The more you train, the fitter you become|Cuanto más entrenas, más en forma te vuelves]]', '[[Rest is unnecessary|El descanso es innecesario]]', '[[Speed is everything|La velocidad es todo]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[The more you train, the fitter you become|Cuanto más entrenas, más en forma te vuelves]]".' },
+  { question: '[[What|Qué]] [[are athletes who compete at the highest level|son los atletas que compiten al más alto nivel]]?', options: ['[[By far the most dedicated people you will meet|Con diferencia las personas más dedicadas que conocerás]]', '[[Lazy|Perezosos]]', '[[Untalented|Sin talento]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[are often by far the most dedicated people|son a menudo con diferencia las personas más dedicadas]]".' },
+  { question: '[[What|Qué]] [[is the marathon compared to a half-marathon|es el maratón comparado con un medio maratón]]?', options: ['[[Much harder|Mucho más duro]]', '[[Easier|Más fácil]]', '[[The same|Igual]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[is much harder than a half-marathon|es mucho más duro que un medio maratón]]".' },
+  { question: '[[What|Qué]] [[is slightly more important than speed|es ligeramente más importante que la velocidad]] [[for long-distance runners|para corredores de larga distancia]]?', options: ['[[Endurance|La resistencia]]', '[[Strength|La fuerza]]', '[[Agility|La agilidad]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[Endurance is slightly more important than speed|La resistencia es ligeramente más importante que la velocidad]]".' },
+  { question: '[[What|Qué]] [[do the best coaches understand|entienden los mejores entrenadores]]?', options: ['[[The earlier you start preparing, the better your chances of success|Cuanto antes empieces a prepararte, mejores tus posibilidades de éxito]]', '[[You should never prepare|Nunca debes prepararte]]', '[[Only speed matters|Solo importa la velocidad]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[the earlier you start preparing, the better your chances of success|cuanto antes empieces a prepararte, mejores tus posibilidades de éxito]]".' },
+  { question: '[[What|Qué]] [[is just as important as training|es tan importante como el entrenamiento]]?', options: ['[[Recovery|La recuperación]]', '[[Winning|Ganar]]', '[[Diet|La dieta]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[Recovery is just as important as training itself|La recuperación es tan importante como el entrenamiento en sí]]".' },
+  { question: '[[What|Qué]] [[happens without enough rest|qué pasa sin suficiente descanso]]?', options: ['[[Performance declines|El rendimiento disminuye]]', '[[Performance improves|El rendimiento mejora]]', '[[Nothing changes|Nada cambia]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[without enough rest, performance declines|sin suficiente descanso, el rendimiento disminuye]]".' },
+  { question: '[[The text|El texto]] [[states|afirma]] [[that|que]] [[speed is more important than endurance for long-distance runners|la velocidad es más importante que la resistencia para corredores de larga distancia]].', options: ['[[True|Verdadero]]', '[[False|Falso]]'], correctAnswer: 1, explanation: '[[False|Falso]]. [[The text says|El texto dice]] "[[Endurance is slightly more important than speed|La resistencia es ligeramente más importante que la velocidad]]".' },
+  { question: '[[According to the text|Según el texto]], [[recovery is less important than training|la recuperación es menos importante que el entrenamiento]].', options: ['[[True|Verdadero]]', '[[False|Falso]]'], correctAnswer: 1, explanation: '[[False|Falso]]. [[The text says|El texto dice]] "[[Recovery is just as important as training|La recuperación es tan importante como el entrenamiento]]".' },
+  { question: '[[What|Cuál]] [[is the main idea|es la idea principal]] [[of the text|del texto]]?', options: ['[[Training, dedication, and recovery are key; the more you prepare, the better; balance matters|Entrenamiento, dedicación y recuperación son clave; cuanto más te preparas, mejor; el equilibrio importa]]', '[[Only marathon runners matter|Solo importan los maratonianos]]', '[[Rest is unnecessary|El descanso es innecesario]]'], correctAnswer: 0, explanation: '[[The text|El texto]] [[covers|abarca]] [[training|entrenamiento]], [[dedication|dedicación]], [[comparisons|comparaciones]] [[and|y]] [[recovery|recuperación]].' },
+  { question: '[[Which structure|Qué estructura]] [[uses "the more... the more"|usa "the more... the more"]] [[in the text|en el texto]]?', options: ['[[The more you train, the fitter you become|Cuanto más entrenas, más en forma te vuelves]]', '[[By far the most dedicated|Con diferencia los más dedicados]]', '[[Much harder than|Mucho más duro que]]'], correctAnswer: 0, explanation: '[[The more... the more|Cuanto más... más]].' },
+  { question: '[[What|Qué]] [[vocabulary|vocabulario]] [[is key|es clave]] [[in this text|en este texto]]?', options: ['[[train|entrenar]], [[endurance|resistencia]], [[recovery|recuperación]], [[performance|rendimiento]]', '[[computer|ordenador]], [[software|software]], [[internet|internet]]', '[[profit|beneficio]], [[debt|deuda]], [[budget|presupuesto]]'], correctAnswer: 0, explanation: '[[The text|El texto]] [[focuses on|se centra en]] [[sport vocabulary|vocabulario deportivo]].' },
+  { question: '[[What|Qué]] [[can we infer|podemos inferir]] [[about|sobre]] [[success in sport|el éxito en el deporte]]?', options: ['[[It requires training, dedication, and balanced recovery|Requiere entrenamiento, dedicación y recuperación equilibrada]]', '[[Only talent matters|Solo importa el talento]]', '[[Rest is harmful|El descanso es perjudicial]]'], correctAnswer: 0, explanation: '[[The text|El texto]] [[emphasizes|enfatiza]] [[training|entrenamiento]], [[dedication|dedicación]] [[and|y]] [[recovery|recuperación]].' },
 ];
 
 export const UNIT_19_LESSON_3_READING: Exercise[] = QUESTIONS.map((q, i) => ({

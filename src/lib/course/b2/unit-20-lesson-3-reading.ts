@@ -1,225 +1,29 @@
 /**
- * Unidad 20 B2 — Lección 3: Comprensión lectora (Repaso 16–19)
- * 18 actividades (B2: mixed topics)
+ * Unidad 20 B2 — Lección 3: Comprensión lectora (Repaso 16-19)
+ * 13 preguntas (B2: recreado con texto y preguntas distintos)
  */
 
 import { Exercise } from '@/lib/exercise-generator';
 
 const LESSON_TITLE = '[[Reading|Comprensión lectora]]';
-const READING_TRANSCRIPT = `[[Technology|La tecnología]] [[and|y]] [[science|la ciencia]] [[have transformed|han transformado]] [[the way we live|la forma en que vivimos]], [[and|y]] [[new apps|nuevas aplicaciones]] [[are being developed|están siendo desarrolladas]] [[every day|cada día]] [[to make|para hacer]] [[our lives easier|nuestras vidas más fáciles]]. [[In the laboratory|En el laboratorio]], [[all samples|todas las muestras]] [[must be tested|deben ser probadas]] [[before|antes de]] [[they can be used|poder usarse]] [[in commercial products|en productos comerciales]]. [[The Mediterranean diet|La dieta mediterránea]] [[is|es]] [[so healthy|tan saludable]] [[that|que]] [[many nutritionists|muchos nutricionistas]] [[recommend it|la recomiendan]] [[for|para]] [[long-term wellbeing|el bienestar a largo plazo]]. [[The portions|Las porciones]] [[in Southern Europe|en el sur de Europa]] [[are often|suelen ser]] [[large enough|lo bastante grandes]] [[to share|para compartir]], [[unlike|a diferencia de]] [[smaller servings|raciones más pequeñas]] [[elsewhere|en otros lugares]]. [[In sport|En el deporte]], [[the more you train|cuanto más entrenas]], [[the fitter you become|más en forma te vuelves]] [[according to|según]] [[coaches|entrenadores]] [[who|que]] [[work with|trabajan con]] [[professional athletes|atletas profesionales]]. [[Some athletes|Algunos atletas]] [[run|corren]] [[far faster|mucho más rápido]] [[than they did|que antes]] [[a few years ago|hace unos años]]. [[Data|Los datos]] [[is|son]] [[often|a menudo]] [[stored|almacenados]] [[in the cloud|en la nube]] [[so that|para que]] [[it can be accessed|pueda accederse]] [[from anywhere|desde cualquier lugar]].`;
+const READING_TRANSCRIPT = `[[Technology|La tecnología]] [[is|es]] [[being used|está siendo usada]] [[more and more|más y más]] [[in sport|en el deporte]]; [[data|los datos]] [[are|son]] [[collected|recogidos]] [[and|y]] [[analysed|analizados]] [[to improve performance|para mejorar el rendimiento]]. [[Experiments|Los experimentos]] [[must be|deben ser]] [[conducted|realizados]] [[under controlled conditions|bajo condiciones controladas]] [[so that|para que]] [[results|los resultados]] [[can be|puedan ser]] [[replicated|replicados]]. [[The more|Cuanto más]] [[scientists|los científicos]] [[understand|entienden]], [[the more|más]] [[questions|preguntas]] [[arise|surgen]]; [[this|esto]] [[is|es]] [[by far|con diferencia]] [[the most exciting|lo más emocionante]] [[aspect|aspecto]] [[of research|de la investigación]]. [[Some dishes|Algunos platos]] [[are|son]] [[so spicy|tan picantes]] [[that|que]] [[they|ellos]] [[can\'t be eaten|no pueden ser comidos]] [[by everyone|por todos]]; [[others|otros]] [[are|son]] [[too bland|demasiado sosos]] [[to enjoy|para disfrutar]]. [[The software|El software]] [[that|que]] [[was developed|fue desarrollado]] [[last year|el año pasado]] [[is|es]] [[much faster|mucho más rápido]] [[than|que]] [[the previous version|la versión anterior]].`;
 
-const INSTRUCTIONS =
-  'Lee el texto sobre tecnología, ciencia, comida y deporte. Después responde las preguntas.';
+const INSTRUCTIONS = 'Lee el texto sobre tecnología, ciencia, comida y deporte. Después responde las preguntas.';
 
 const QUESTIONS = [
-  {
-    question:
-      '[[What|Qué]] [[have technology and science transformed|han transformado la tecnología y la ciencia]]?',
-    options: [
-      '[[The way we live|La forma en que vivimos]]',
-      '[[The weather|El tiempo]]',
-      '[[Transport only|Solo el transporte]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El texto dice que "have transformed the way we live".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[is happening to new apps|está pasando con las nuevas aplicaciones]]?',
-    options: [
-      '[[They are being developed every day|Están siendo desarrolladas cada día]]',
-      '[[They are being deleted|Están siendo eliminadas]]',
-      '[[They are too expensive|Son demasiado caras]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Se dice que "new apps are being developed every day".',
-  },
-  {
-    question:
-      '[[According to the text|Según el texto]], [[what|qué]] [[must happen to samples in a laboratory|debe pasar con las muestras en un laboratorio]]?',
-    options: [
-      '[[They must be tested before they can be used|Deben ser probadas antes de poder usarse]]',
-      '[[They must be sold|Deben ser vendidas]]',
-      '[[They must be thrown away|Deben ser tiradas]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El texto indica que "all samples must be tested before they can be used in commercial products".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[do many nutritionists say about the Mediterranean diet|dicen muchos nutricionistas sobre la dieta mediterránea]]?',
-    options: [
-      '[[It is so healthy that they recommend it for long-term wellbeing|Es tan saludable que la recomiendan para el bienestar a largo plazo]]',
-      '[[It is too expensive|Es demasiado cara]]',
-      '[[It is not healthy enough|No es lo bastante saludable]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Se dice que "many nutritionists recommend it for long-term wellbeing".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[grammar structure|estructura gramatical]] [[is used|se usa]] [[in|en]] "all samples must be tested"?',
-    options: [
-      '[[Modal passive (must be + past participle)|Pasiva modal (must be + participio)]]',
-      '[[So + adjective + that|So + adjetivo + that]]',
-      '[[Comparative|Comparativo]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Es modal passive: must be tested = deben ser probadas.',
-  },
-  {
-    question:
-      '[[Which grammar structure|Qué estructura gramatical]] [[appears|aparece]] [[in|en]] "large enough to share"?',
-    options: [
-      '[[adjective + enough + to infinitive|adjetivo + enough + infinitivo]]',
-      '[[Passive voice|Voz pasiva]]',
-      '[[The more... the more|The more... the more]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Es "adjective + enough + to": large enough to share.',
-  },
-  {
-    question:
-      '[[The text states|El texto afirma]] [[that|que]] [[the more you train, the fitter you become|cuanto más entrenas, más en forma te vuelves]].',
-    options: ['[[True|Verdadero]]', '[[False|Falso]]'],
-    correctAnswer: 'True',
-    explanation:
-      'Verdadero: "The more you train, the fitter you become according to coaches".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[do some athletes do compared to a few years ago|hacen algunos atletas comparado con hace unos años]]?',
-    options: [
-      '[[They run far faster|Corren mucho más rápido]]',
-      '[[They train less|Entrenan menos]]',
-      '[[They retire earlier|Se retiran antes]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El texto dice que "Some athletes run far faster than they did a few years ago".',
-  },
-  {
-    question:
-      '[[What|Cuál]] [[is|es]] [[the main idea|la idea principal]] [[of the text|del texto]]?',
-    options: [
-      '[[Technology, science, diet and sport: various aspects of modern life|Tecnología, ciencia, dieta y deporte: varios aspectos de la vida moderna]]',
-      '[[Apps are the most important|Las apps son lo más importante]]',
-      '[[Europe has the best food|Europa tiene la mejor comida]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El texto trata varios temas: tecnología, ciencia, dieta mediterránea y deporte.',
-  },
-  {
-    question:
-      '[[Where|Dónde]] [[is data often stored|se almacena a menudo los datos]]?',
-    options: [
-      '[[In the cloud|En la nube]]',
-      '[[On paper|En papel]]',
-      '[[In laboratories|En laboratorios]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El texto dice que "Data is often stored in the cloud".',
-  },
-  {
-    question:
-      '[[The text implies|El texto implica]] [[that|que]] [[portions in Southern Europe are generous|las porciones en el sur de Europa son generosas]].',
-    options: ['[[True|Verdadero]]', '[[False|Falso]]'],
-    correctAnswer: 'True',
-    explanation:
-      'Verdadero: "are often large enough to share" indica porciones generosas.',
-  },
-  {
-    question:
-      '[[What|Qué]] [[vocabulary|vocabulario]] [[is key|es clave]] [[in this text|en este texto]]?',
-    options: [
-      '[[technology, samples, diet, portions, train, data|technology, samples, diet, portions, train, data]]',
-      '[[business, merger, profit|business, merger, profit]]',
-      '[[culture, tradition, heritage|culture, tradition, heritage]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El texto mezcla vocabulario de tecnología, ciencia, comida y deporte.',
-  },
-  {
-    question:
-      '[[Which phrase|Qué frase]] [[expresses|expresa]] [[passive voice|voz pasiva]] [[in the text|en el texto]]?',
-    options: [
-      '[[are being developed|están siendo desarrolladas]]',
-      '[[so healthy|tan saludable]]',
-      '[[far faster|mucho más rápido]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      '"Are being developed" = present continuous passive.',
-  },
-  {
-    question:
-      '[[According to the text|Según el texto]], [[why|por qué]] [[is data stored in the cloud|se almacenan los datos en la nube]]?',
-    options: [
-      '[[So that it can be accessed from anywhere|Para que pueda accederse desde cualquier lugar]]',
-      '[[Because it is cheaper|Porque es más barato]]',
-      '[[Because it is safer|Porque es más seguro]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El texto dice "so that it can be accessed from anywhere".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[detail|detalle]] [[supports|apoya]] [[the idea that training improves performance|la idea de que el entrenamiento mejora el rendimiento]]?',
-    options: [
-      '[[The more you train, the fitter you become; some athletes run far faster than before|Cuanto más entrenas, más en forma; algunos atletas corren mucho más rápido que antes]]',
-      '[[Data is stored in the cloud|Los datos se almacenan en la nube]]',
-      '[[Portions are large in Southern Europe|Las porciones son grandes en el sur de Europa]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Las frases sobre entrenamiento y mejora apoyan esta idea.',
-  },
-  {
-    question:
-      '[[The structure|La estructura]] [["so healthy that"|"so healthy that"]] [[expresses|expresa]] ____.',
-    options: [
-      '[[Consequence (tan saludable que)|Consecuencia (tan saludable que)]]',
-      '[[Excess (demasiado)|Exceso (demasiado)]]',
-      '[[Passive (es probada)|Pasiva (es probada)]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      '"So healthy that" = tan saludable que (consecuencia).',
-  },
-  {
-    question:
-      '[[What|Qué]] [[purpose|propósito]] [[does the text serve|sirve el texto]]?',
-    options: [
-      '[[To inform about technology, science, diet and sport|Informar sobre tecnología, ciencia, dieta y deporte]]',
-      '[[To advertise apps|Anunciar aplicaciones]]',
-      '[[To criticise modern life|Criticar la vida moderna]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El texto informa sobre varios aspectos de la vida moderna.',
-  },
-  {
-    question:
-      '[[The phrase|La frase]] [["far faster"|"far faster"]] [[means|significa]] ____.',
-    options: [
-      '[[Much faster (mucho más rápido)|Mucho más rápido]]',
-      '[[A little faster|Un poco más rápido]]',
-      '[[The fastest|El más rápido]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      '"Far faster" = mucho más rápido (far + comparative).',
-  },
+  { question: '[[What|Qué]] [[is being used more and more in sport|está siendo usado más y más en el deporte]]?', options: ['[[Technology|La tecnología]]', '[[Traditional methods|Métodos tradicionales]]', '[[Manual training|Entrenamiento manual]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[Technology is being used more and more in sport|La tecnología está siendo usada más y más en el deporte]]".' },
+  { question: '[[What|Qué]] [[are collected and analysed|son recogidos y analizados]] [[to improve performance|para mejorar el rendimiento]]?', options: ['[[Data|Los datos]]', '[[Trophies|Trofeos]]', '[[Medals|Medallas]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[data are collected and analysed to improve performance|los datos son recogidos y analizados para mejorar el rendimiento]]".' },
+  { question: '[[What|Qué]] [[must experiments be conducted under|bajo qué deben realizarse los experimentos]]?', options: ['[[Controlled conditions|Condiciones controladas]]', '[[Any conditions|Cualquier condición]]', '[[Natural conditions|Condiciones naturales]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[Experiments must be conducted under controlled conditions|Los experimentos deben ser realizados bajo condiciones controladas]]".' },
+  { question: '[[What|Qué]] [[is by far the most exciting aspect of research|es con diferencia el aspecto más emocionante de la investigación]]?', options: ['[[The more scientists understand, the more questions arise|Cuanto más entienden los científicos, más preguntas surgen]]', '[[Finishing experiments|Terminar experimentos]]', '[[Writing reports|Escribir informes]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[the more scientists understand, the more questions arise; this is by far the most exciting aspect|cuanto más entienden, más preguntas surgen; esto es con diferencia lo más emocionante]]".' },
+  { question: '[[What|Qué]] [[are some dishes so spicy that|algunos platos son tan picantes que]]?', options: ['[[They can\'t be eaten by everyone|No pueden ser comidos por todos]]', '[[Everyone loves them|Todos los aman]]', '[[They are too bland|Son demasiado sosos]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[Some dishes are so spicy that they can\'t be eaten by everyone|Algunos platos son tan picantes que no pueden ser comidos por todos]]".' },
+  { question: '[[What|Qué]] [[is the software developed last year like compared to the previous version|cómo es el software desarrollado el año pasado comparado con la versión anterior]]?', options: ['[[Much faster|Mucho más rápido]]', '[[Slower|Más lento]]', '[[The same|Igual]]'], correctAnswer: 0, explanation: '[[The text says|El texto dice]] "[[is much faster than the previous version|es mucho más rápido que la versión anterior]]".' },
+  { question: '[[What|Qué]] [[structure|estructura]] [[uses passive voice|usa voz pasiva]] [[in the text|en el texto]]?', options: ['[[Technology is being used|La tecnología está siendo usada]]', '[[Scientists understand|Los científicos entienden]]', '[[Dishes are spicy|Los platos son picantes]]'], correctAnswer: 0, explanation: '[[Passive present continuous|Pasiva presente continuo]].' },
+  { question: '[[The text|El texto]] [[states|afirma]] [[that|que]] [[all dishes can be eaten by everyone|todos los platos pueden ser comidos por todos]].', options: ['[[True|Verdadero]]', '[[False|Falso]]'], correctAnswer: 1, explanation: '[[False|Falso]]. [[The text says|El texto dice]] "[[some dishes are so spicy that they can\'t be eaten by everyone|algunos platos son tan picantes que no pueden ser comidos por todos]]".' },
+  { question: '[[According to the text|Según el texto]], [[the previous software was faster than the new one|el software anterior era más rápido que el nuevo]].', options: ['[[True|Verdadero]]', '[[False|Falso]]'], correctAnswer: 1, explanation: '[[False|Falso]]. [[The text says|El texto dice]] "[[the new software is much faster than the previous version|el nuevo software es mucho más rápido que la versión anterior]]".' },
+  { question: '[[What|Cuál]] [[is the main idea|es la idea principal]] [[of the text|del texto]]?', options: ['[[Technology, science, food and sport are connected; passive voice and comparatives appear|Tecnología, ciencia, comida y deporte conectados; aparecen pasiva y comparativos]]', '[[Only sport matters|Solo importa el deporte]]', '[[Food is unimportant|La comida no es importante]]'], correctAnswer: 0, explanation: '[[The text|El texto]] [[covers|abarca]] [[technology|tecnología]], [[science|ciencia]], [[food|comida]] [[and|y]] [[sport|deporte]].' },
+  { question: '[[Which structure|Qué estructura]] [[uses "so... that"|usa "so... that"]] [[in the text|en el texto]]?', options: ['[[Some dishes are so spicy that they can\'t be eaten|Algunos platos son tan picantes que no pueden ser comidos]]', '[[Technology is being used|La tecnología está siendo usada]]', '[[The more scientists understand|Cuanto más entienden los científicos]]'], correctAnswer: 0, explanation: '[[So + adj + that|So + adj + that]].' },
+  { question: '[[What|Qué]] [[vocabulary|vocabulario]] [[is key|es clave]] [[in this text|en este texto]]?', options: ['[[technology|tecnología]], [[experiments|experimentos]], [[data|datos]], [[software|software]], [[spicy|picante]]', '[[profit|beneficio]], [[debt|deuda]], [[budget|presupuesto]]', '[[museum|museo]], [[theatre|teatro]], [[concert|concierto]]'], correctAnswer: 0, explanation: '[[The text|El texto]] [[focuses on|se centra en]] [[mixed topics|temas mixtos]] [[from units 16-19|de las unidades 16-19]].' },
+  { question: '[[What|Qué]] [[can we infer|podemos inferir]] [[about|sobre]] [[research|la investigación]]?', options: ['[[It raises more questions as understanding grows; controlled conditions are important|Surgen más preguntas conforme crece el entendimiento; las condiciones controladas son importantes]]', '[[It always gives final answers|Siempre da respuestas finales]]', '[[It is boring|Es aburrida]]'], correctAnswer: 0, explanation: '[[The text|El texto]] [[emphasizes|enfatiza]] "[[the more scientists understand, the more questions arise|cuanto más entienden, más preguntas surgen]]".' },
 ];
 
 export const UNIT_20_LESSON_3_READING: Exercise[] = QUESTIONS.map((q, i) => ({

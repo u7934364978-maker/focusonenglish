@@ -1,231 +1,36 @@
 /**
  * Unidad 15 B2 — Lección 4: Comprensión auditiva (Repaso 11–14)
- * 18 actividades (B2: más vocabulario y complejidad que B1)
+ * 13 preguntas (B2: recreado con transcripción y preguntas distintos)
  */
 
 import { Exercise } from '@/lib/exercise-generator';
 
 const LESSON_TITLE = '[[Listening|Comprensión auditiva]]';
-const LISTENING_TRANSCRIPT = `[[Hi|Hola]], [[I'm|soy]] [[Sarah|Sarah]], [[a financial advisor|una asesora financiera]] [[who|que]] [[has been helping|ha estado ayudando]] [[people|a personas]] [[manage their money|a gestionar su dinero]] [[for fifteen years|desde hace quince años]]. [[Today|Hoy]] [[I want to talk about|quiero hablar de]] [[something|algo]] [[that|que]] [[many of my clients|muchos de mis clientes]] [[worry about|se preocupan por]]: [[saving for cultural experiences|ahorrar para experiencias culturales]] [[like|como]] [[festivals|festivales]] [[and|y]] [[concerts|conciertos]]. [[You|Tú]] [[don't have to|no tienes que]] [[give up|renunciar a]] [[these experiences|estas experiencias]] [[just because|solo porque]] [[you're on a budget|tienes un presupuesto limitado]]. [[There are strategies|Hay estrategias]] [[which|que]] [[can help|pueden ayudar]] [[you save|a ahorrar]] [[without|sin]] [[sacrificing|sacrificar]] [[the things|las cosas]] [[that|que]] [[you love|te gustan]]. [[For example|Por ejemplo]], [[I had a client|tuve un cliente]] [[whose|cuya]] [[goal|objetivo]] [[was to attend|era asistir a]] [[a music festival abroad|un festival de música en el extranjero]]. [[He|Él]] [[must have been determined|debe haber estado muy decidido]] [[because|porque]] [[he saved|ahorró]] [[enough in six months|suficiente en seis meses]]. [[Another client|Otro cliente]] [[might have thought|podría haber pensado]] [[it was impossible|que era imposible]], [[but|pero]] [[with a plan|con un plan]] [[she reached her target|alcanzó su objetivo]]. [[The key|La clave]] [[is|es]] [[that|que]] [[you need to prioritise|necesitas priorizar]] [[what matters most|lo que más importa]] [[to you|para ti]].`;
+const LISTENING_TRANSCRIPT = `[[My name|Mi nombre]] [[is|es]] [[Elena|Elena]] [[and I work|y trabajo]] [[at a bank|en un banco]] [[which|que]] [[specialises in|se especializa en]] [[small business loans|préstamos para pequeñas empresas]]. [[The entrepreneurs|Los emprendedores]] [[who|que]] [[come to us|vienen a nosotros]] [[often need to|a menudo necesitan]] [[provide collateral|proporcionar garantías]] [[before|antes de]] [[we can approve|podamos aprobar]] [[their application|su solicitud]]. [[Last month|El mes pasado]] [[we had a client|tuvimos un cliente]] [[whose|cuya]] [[business plan|plan de negocio]] [[was so strong|era tan sólido]] [[that|que]] [[we must have approved it|debemos haberlo aprobado]] [[within a week|en una semana]]. [[He might have been surprised|Podría haberse sorprendido]] [[by the speed|por la rapidez]]; [[most applications|la mayoría de solicitudes]] [[take longer|tardan más]]. [[Clients|Los clientes]] [[who|que]] [[have a good credit history|tienen buen historial crediticio]] [[needn\'t worry|no necesitan preocuparse]] [[about long delays|por largas demoras]]. [[The branch|La sucursal]] [[where|donde]] [[I work|trabajo]] [[is in the city centre|está en el centro]] [[and|y]] [[we have to|tenemos que]] [[see customers|atender clientes]] [[by appointment|con cita]] [[now|ahora]] [[because|porque]] [[demand has grown|la demanda ha crecido]] [[so much|tanto]].`;
 
-const INSTRUCTIONS =
-  'Escucha el audio (o lee la transcripción). Después responde las preguntas de comprensión.';
+const INSTRUCTIONS = 'Escucha el audio (o lee la transcripción). Después responde las preguntas.';
 
 const QUESTIONS = [
-  {
-    question: '[[Who is speaking in the audio|Quién habla en el audio]]?',
-    options: [
-      '[[Sarah, a financial advisor who helps people manage their money|Sarah, una asesora financiera que ayuda a la gente a gestionar su dinero]]',
-      '[[A festival organiser|Una organizadora de festivales]]',
-      '[[A music teacher|Una profesora de música]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'La hablante se presenta como "Sarah, a financial advisor who has been helping people manage their money".',
-  },
-  {
-    question:
-      '[[How long|Cuánto tiempo]] [[has Sarah been helping people with their finances|lleva Sarah ayudando a la gente con sus finanzas]]?',
-    options: [
-      '[[For fifteen years|Desde hace quince años]]',
-      '[[For five years|Desde hace cinco años]]',
-      '[[For twenty years|Desde hace veinte años]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Dice que "has been helping people manage their money for fifteen years".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[do many of Sarah\'s clients worry about|preocupa a muchos clientes de Sarah]]?',
-    options: [
-      '[[Saving for cultural experiences like festivals and concerts|Ahorrar para experiencias culturales como festivales y conciertos]]',
-      '[[Paying off their mortgage|Pagar la hipoteca]]',
-      '[[Investing in stocks|Invertir en acciones]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Menciona "something that many of my clients worry about: saving for cultural experiences like festivals and concerts".',
-  },
-  {
-    question:
-      '[[According to Sarah|Según Sarah]], [[do you have to give up cultural experiences if you\'re on a budget|tienes que renunciar a experiencias culturales si tienes un presupuesto limitado]]?',
-    options: [
-      '[[No, you don\'t have to|No, no tienes que]]',
-      '[[Yes, you must|Sí, debes]]',
-      '[[It depends on the event|Depende del evento]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Dice "You don\'t have to give up these experiences just because you\'re on a budget".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[can help people save|puede ayudar a la gente a ahorrar]]?',
-    options: [
-      '[[Strategies which can help you save without sacrificing what you love|Estrategias que pueden ayudar a ahorrar sin sacrificar lo que te gusta]]',
-      '[[Working more hours|Trabajar más horas]]',
-      '[[Avoiding all entertainment|Evitar todo el entretenimiento]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Menciona "There are strategies which can help you save without sacrificing the things that you love".',
-  },
-  {
-    question:
-      '[[What|Cuál]] [[was the goal of one of Sarah\'s clients|era el objetivo de uno de los clientes de Sarah]]?',
-    options: [
-      '[[To attend a music festival abroad|Asistir a un festival de música en el extranjero]]',
-      '[[To buy a new car|Comprar un coche nuevo]]',
-      '[[To pay off all debts|Pagar todas las deudas]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Dice que tuvo "a client whose goal was to attend a music festival abroad".',
-  },
-  {
-    question:
-      '[[How long|Cuánto tiempo]] [[did it take that client to save enough|tardó ese cliente en ahorrar suficiente]]?',
-    options: [
-      '[[Six months|Seis meses]]',
-      '[[One year|Un año]]',
-      '[[Two years|Dos años]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Se dice que "he saved enough in six months".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[does Sarah say about another client|dice Sarah sobre otro cliente]]?',
-    options: [
-      '[[She might have thought it was impossible but reached her target with a plan|Podría haber pensado que era imposible pero alcanzó su objetivo con un plan]]',
-      '[[She gave up on her goal|Renunció a su objetivo]]',
-      '[[She needed to borrow money|Necesitó pedir dinero prestado]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Dice "Another client might have thought it was impossible, but with a plan she reached her target".',
-  },
-  {
-    question:
-      '[[What|Cuál]] [[is the key according to Sarah|es la clave según Sarah]]?',
-    options: [
-      '[[You need to prioritise what matters most to you|Necesitas priorizar lo que más te importa]]',
-      '[[You must save every penny|Debes ahorrar cada céntimo]]',
-      '[[You should avoid all expenses|Deberías evitar todos los gastos]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Dice "The key is that you need to prioritise what matters most to you".',
-  },
-  {
-    question:
-      '[[The speaker suggests|El hablante sugiere]] [[that|que]] [[people on a budget cannot enjoy culture|las personas con presupuesto limitado no pueden disfrutar de la cultura]].',
-    options: ['[[True|Verdadero]]', '[[False|Falso]]'],
-    correctAnswer: 'False',
-    explanation:
-      'Es falso: dice que "you don\'t have to give up these experiences" con un presupuesto limitado.',
-  },
-  {
-    question:
-      '[[The audio implies|El audio implica]] [[that|que]] [[planning helps achieve financial goals|la planificación ayuda a alcanzar objetivos financieros]].',
-    options: ['[[True|Verdadero]]', '[[False|Falso]]'],
-    correctAnswer: 'True',
-    explanation:
-      'Verdadero: el cliente que "might have thought it was impossible" lo logró "with a plan".',
-  },
-  {
-    question:
-      '[[What|Cuál]] [[is|es]] [[the main idea|la idea principal]] [[of the listening|de la escucha]]?',
-    options: [
-      '[[You can save for cultural experiences with the right strategies and prioritisation|Puedes ahorrar para experiencias culturales con las estrategias y priorización adecuadas]]',
-      '[[Financial advisors are essential|Los asesores financieros son esenciales]]',
-      '[[Festivals are too expensive|Los festivales son demasiado caros]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'La idea central es que con estrategias y priorización se puede ahorrar para experiencias culturales.',
-  },
-  {
-    question:
-      '[[Which grammar structure|Qué estructura gramatical]] [[is used|se usa]] [[in|en]] "a financial advisor who has been helping people"?',
-    options: [
-      '[[Defining relative clause with "who"|Oración de relativo explicativa con "who"]]',
-      '[[Non-defining relative clause|Oración de relativo no explicativa]]',
-      '[[Modal of deduction|Modal de deducción]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'La cláusula "who has been helping people" define qué tipo de asesora es.',
-  },
-  {
-    question:
-      '[[Which modal|Qué modal]] [[expresses that Sarah is not imposing an obligation|expresa que Sarah no impone una obligación]]?',
-    options: [
-      '[[don\'t have to|don\'t have to]]',
-      '[[must have been|must have been]]',
-      '[[need to|need to]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      '"Don\'t have to" indica ausencia de obligación (no tienes que renunciar).',
-  },
-  {
-    question:
-      '[[What|Qué]] [[vocabulary set|conjunto de vocabulario]] [[is central|es central]] [[in this listening|en esta escucha]]?',
-    options: [
-      '[[financial advisor, save, budget, strategies, target, prioritise|financial advisor, save, budget, strategies, target, prioritise]]',
-      '[[airport, boarding pass, luggage|airport, boarding pass, luggage]]',
-      '[[recipe, ingredients, cooking|recipe, ingredients, cooking]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El audio mezcla vocabulario de dinero/finanzas y cultura/experiencias.',
-  },
-  {
-    question:
-      '[[The relative clause|La oración de relativo]] [["whose goal was to attend a music festival"|"whose goal was to attend a music festival"]] [[refers to|se refiere a]] ____.',
-    options: [
-      '[[A client|Un cliente]]',
-      '[[Sarah|Sarah]]',
-      '[[The festival|El festival]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      '"Whose" indica posesión: el objetivo del cliente era asistir al festival.',
-  },
-  {
-    question:
-      '[[What|Qué]] [[detail|detalle]] [[supports|apoya]] [[the idea that determination helps|la idea de que la determinación ayuda]]?',
-    options: [
-      '[[The client must have been determined because he saved enough in six months|El cliente debe haber estado muy decidido porque ahorró suficiente en seis meses]]',
-      '[[Sarah has been an advisor for fifteen years|Sarah lleva quince años como asesora]]',
-      '[[Strategies can help you save|Las estrategias pueden ayudar a ahorrar]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Sarah deduce que el cliente "must have been determined" por haber ahorrado en seis meses.',
-  },
-  {
-    question:
-      '[[The phrase|La frase]] [["reach her target"|"reach her target"]] [[means|significa]] ____.',
-    options: [
-      '[[Achieve her goal|Alcanzar su objetivo]]',
-      '[[Miss her goal|No alcanzar su objetivo]]',
-      '[[Change her goal|Cambiar su objetivo]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      '"Reach her target" significa lograr/alcanzar su objetivo.',
-  },
+  { question: '[[Who is speaking|Quién habla]]?', options: ['[[Elena, who works at a bank specialising in small business loans|Elena, que trabaja en un banco especializado en préstamos para pequeñas empresas]]', '[[A museum curator|Un conservador de museo]]', '[[A film director|Un director de cine]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[My name is Elena and I work at a bank which specialises in small business loans|Mi nombre es Elena y trabajo en un banco que se especializa en préstamos para pequeñas empresas]]".' },
+  { question: '[[What|Qué]] [[do entrepreneurs often need to do|necesitan hacer a menudo los emprendedores]]?', options: ['[[Provide collateral before approval|Proporcionar garantías antes de la aprobación]]', '[[Pay in cash only|Pagar solo en efectivo]]', '[[Wait for years|Esperar años]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[often need to provide collateral before we can approve their application|a menudo necesitan proporcionar garantías antes de que podamos aprobar su solicitud]]".' },
+  { question: '[[What|Qué]] [[must have happened with last month\'s client|debe haber pasado con el cliente del mes pasado]]?', options: ['[[We must have approved it within a week|Debemos haberlo aprobado en una semana]]', '[[We rejected the application|Rechazamos la solicitud]]', '[[We never responded|Nunca respondimos]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[we must have approved it within a week|debemos haberlo aprobado en una semana]]".' },
+  { question: '[[What|Qué]] [[might the client have been|podría haber estado el cliente]]?', options: ['[[Surprised by the speed|Sorprendido por la rapidez]]', '[[Angry|Enfadado]]', '[[Bored|Aburrido]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[He might have been surprised by the speed|Podría haberse sorprendido por la rapidez]]".' },
+  { question: '[[What|Qué]] [[needn\'t clients with good credit worry about|no necesitan preocuparse los clientes con buen crédito]]?', options: ['[[Long delays|Largas demoras]]', '[[High interest rates|Tipos de interés altos]]', '[[Rejection|Rechazo]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[needn\'t worry about long delays|no necesitan preocuparse por largas demoras]]".' },
+  { question: '[[What|Qué]] [[do they have to do now|tienen que hacer ahora]]?', options: ['[[See customers by appointment|Atender clientes con cita]]', '[[Close the branch|Cerrar la sucursal]]', '[[Refuse all applications|Rechazar todas las solicitudes]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[we have to see customers by appointment now|tenemos que atender clientes con cita ahora]]".' },
+  { question: '[[Why|Por qué]] [[do they have to use appointments|tienen que usar citas]]?', options: ['[[Because demand has grown so much|Porque la demanda ha crecido tanto]]', '[[Because the building is small|Porque el edificio es pequeño]]', '[[Because they want to|Porque quieren]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[because demand has grown so much|porque la demanda ha crecido tanto]]".' },
+  { question: '[[The speaker|El hablante]] [[says|dice]] [[that|que]] [[all applications are approved instantly|todas las solicitudes se aprueban al instante]].', options: ['[[True|Verdadero]]', '[[False|Falso]]'], correctAnswer: 1, explanation: '[[False|Falso]]. [[The speaker says|El hablante dice]] "[[most applications take longer|la mayoría de solicitudes tardan más]]".' },
+  { question: '[[According to Elena|Según Elena]], [[the branch is outside the city|la sucursal está fuera de la ciudad]].', options: ['[[True|Verdadero]]', '[[False|Falso]]'], correctAnswer: 1, explanation: '[[False|Falso]]. [[The speaker says|El hablante dice]] "[[The branch where I work is in the city centre|La sucursal donde trabajo está en el centro]]".' },
+  { question: '[[What|Cuál]] [[is the main idea|es la idea principal]] [[of the listening|de la escucha]]?', options: ['[[A bank specialist explains loan process, approval speed and appointment system|Una especialista bancaria explica el proceso de préstamos, la rapidez de aprobación y el sistema de citas]]', '[[Banks are closing|Los bancos están cerrando]]', '[[Nobody gets loans|Nadie obtiene préstamos]]'], correctAnswer: 0, explanation: '[[The speaker|El hablante]] [[describes|describe]] [[her work|su trabajo]], [[process|proceso]] [[and|y]] [[changes|cambios]].' },
+  { question: '[[Which relative clause|Qué oración de relativo]] [[identifies which branch|identifica qué sucursal]]?', options: ['[[where I work|donde trabajo]]', '[[which specialises in|que se especializa en]]', '[[who come to us|que vienen a nosotros]]'], correctAnswer: 0, explanation: '[[Where|Where]] [[identifies the place|identifica el lugar]].' },
+  { question: '[[What|Qué]] [[vocabulary|vocabulario]] [[is central|es central]] [[in this listening|en esta escucha]]?', options: ['[[loan|préstamo]], [[collateral|garantía]], [[credit history|historial crediticio]], [[appointment|cita]]', '[[festival|festival]], [[heritage|patrimonio]], [[tradition|tradición]]', '[[series|serie]], [[streaming|streaming]], [[cast|reparto]]'], correctAnswer: 0, explanation: '[[The listening|La escucha]] [[focuses on|se centra en]] [[banking and business vocabulary|vocabulario bancario y empresarial]].' },
+  { question: '[[What|Qué]] [[does "collateral" mean|significa "collateral"]] [[in this context|en este contexto]]?', options: ['[[Something offered as security for a loan|Algo ofrecido como garantía para un préstamo]]', '[[A type of coffee|Un tipo de café]]', '[[A meeting|Una reunión]]'], correctAnswer: 0, explanation: '[[Collateral|Collateral]] [[is security for a loan|es garantía para un préstamo]].' },
 ];
 
 export const UNIT_15_LESSON_4_LISTENING: Exercise[] = QUESTIONS.map((q, i) => ({
   id: `b2-u15-l4-l${i + 1}`,
   type: 'listening',
   level: 'B2',
-  topic: 'Review',
+  topic: 'Repaso 11–14',
   difficulty: 'medium',
   transcript: LISTENING_TRANSCRIPT,
   content: { title: LESSON_TITLE, instructions: INSTRUCTIONS, questions: [q] },

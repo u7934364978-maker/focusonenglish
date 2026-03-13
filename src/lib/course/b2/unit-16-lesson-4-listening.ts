@@ -1,224 +1,29 @@
 /**
  * Unidad 16 B2 — Lección 4: Comprensión auditiva (Technology)
- * 18 actividades (B2: más vocabulario y complejidad que B1)
+ * 13 preguntas (B2: recreado con transcripción y preguntas distintos)
  */
 
 import { Exercise } from '@/lib/exercise-generator';
 
 const LESSON_TITLE = '[[Listening|Comprensión auditiva]]';
-const LISTENING_TRANSCRIPT = `[[Hi|Hola]], [[I'm|soy]] [[David|David]], [[a software engineer|un ingeniero de software]] [[who|que]] [[has been working|ha estado trabajando]] [[in tech|en tecnología]] [[for over a decade|desde hace más de una década]]. [[Today|Hoy]] [[I want to explain|quiero explicar]] [[how|como]] [[our new app|nuestra nueva app]] [[was developed|fue desarrollada]] [[and|y]] [[what|qué]] [[users can expect|los usuarios pueden esperar]]. [[The project|El proyecto]] [[was started|fue iniciado]] [[two years ago|hace dos años]] [[when|cuando]] [[our team|nuestro equipo]] [[was asked|fue solicitado]] [[to create|crear]] [[a tool|una herramienta]] [[that|que]] [[could|podía]] [[help people|ayudar a la gente]] [[manage their time better|gestionar mejor su tiempo]]. [[The first version|La primera versión]] [[was released|fue lanzada]] [[last year|el año pasado]], [[but|pero]] [[many bugs|muchos errores]] [[were found|fueron encontrados]] [[by users|por los usuarios]]. [[Since then|Desde entonces]], [[the app|la app]] [[has been improved|ha sido mejorada]] [[significantly|significativamente]], [[and|y]] [[a new update|una nueva actualización]] [[will be released|será lanzada]] [[next month|el mes que viene]]. [[All data|Todos los datos]] [[is stored|se almacena]] [[securely|de forma segura]] [[in the cloud|en la nube]], [[which|que]] [[means|significa]] [[that|que]] [[your information|tu información]] [[can be accessed|puede ser accedida]] [[from any device|desde cualquier dispositivo]].`;
+const LISTENING_TRANSCRIPT = `[[Hi|Hola]], [[I'm Tom|soy Tom]], [[a software engineer|ingeniero de software]] [[who has been working|que ha estado trabajando]] [[in tech|en tecnología]] [[for over ten years|desde hace más de diez años]]. [[The systems|Los sistemas]] [[that|que]] [[we build|construimos]] [[are used|son usados]] [[by millions of people|por millones de personas]] [[every day|cada día]]. [[Last year|El año pasado]] [[our platform|nuestra plataforma]] [[was hacked|fue hackeada]] [[and|y]] [[user data|los datos de usuario]] [[was being accessed|estaban siendo accedidos]] [[by unauthorized parties|por partes no autorizadas]] [[before|antes de]] [[we detected it|lo detectamos]]. [[The vulnerability|La vulnerabilidad]] [[had been discovered|había sido descubierta]] [[by our security team|por nuestro equipo de seguridad]] [[during a routine audit|durante una auditoría rutinaria]], [[but|pero]] [[the patch|el parche]] [[hadn't been applied|no había sido aplicado]] [[in time|a tiempo]]. [[Since then|Desde entonces]], [[all updates|todas las actualizaciones]] [[must be|deben ser]] [[tested|probadas]] [[and|y]] [[approved|aprobadas]] [[before|antes de]] [[they are released|sean lanzadas]]. [[New encryption|Nueva encriptación]] [[is being implemented|está siendo implementada]] [[across|en]] [[all our services|todos nuestros servicios]] [[to prevent|para prevenir]] [[future breaches|futuras brechas]].`;
 
-const INSTRUCTIONS =
-  'Escucha el audio (o lee la transcripción). Después responde las preguntas de comprensión.';
+const INSTRUCTIONS = 'Escucha el audio (o lee la transcripción). Después responde las preguntas.';
 
 const QUESTIONS = [
-  {
-    question: '[[Who is speaking in the audio|Quién habla en el audio]]?',
-    options: [
-      '[[David, a software engineer who has worked in tech for over a decade|David, un ingeniero de software que lleva más de una década en tecnología]]',
-      '[[A user of the app|Un usuario de la app]]',
-      '[[A marketing manager|Un director de marketing]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El hablante se presenta como "David, a software engineer who has been working in tech for over a decade".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[does David want to explain|quiere explicar David]]?',
-    options: [
-      '[[How the new app was developed and what users can expect|Cómo fue desarrollada la nueva app y qué pueden esperar los usuarios]]',
-      '[[How to fix bugs|Cómo arreglar errores]]',
-      '[[How to download the app|Cómo descargar la app]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Dice que quiere explicar "how our new app was developed and what users can expect".',
-  },
-  {
-    question:
-      '[[When|Cuándo]] [[was the project started|fue iniciado el proyecto]]?',
-    options: [
-      '[[Two years ago|Hace dos años]]',
-      '[[Last year|El año pasado]]',
-      '[[Five years ago|Hace cinco años]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Se dice que "The project was started two years ago".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[was the team asked to create|se pidió al equipo crear]]?',
-    options: [
-      '[[A tool that could help people manage their time better|Una herramienta que pudiera ayudar a la gente a gestionar mejor su tiempo]]',
-      '[[A social media app|Una app de redes sociales]]',
-      '[[A game|Un juego]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El equipo "was asked to create a tool that could help people manage their time better".',
-  },
-  {
-    question:
-      '[[When|Cuándo]] [[was the first version released|fue lanzada la primera versión]]?',
-    options: [
-      '[[Last year|El año pasado]]',
-      '[[Two years ago|Hace dos años]]',
-      '[[Next month|El mes que viene]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Se menciona que "The first version was released last year".',
-  },
-  {
-    question:
-      '[[Where|Dónde]] [[were many bugs found|fueron encontrados muchos errores]]?',
-    options: [
-      '[[By users|Por los usuarios]]',
-      '[[By the development team|Por el equipo de desarrollo]]',
-      '[[By the marketing team|Por el equipo de marketing]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El texto dice que "many bugs were found by users".',
-  },
-  {
-    question:
-      '[[What|Qué]] [[has happened to the app since then|ha pasado con la app desde entonces]]?',
-    options: [
-      '[[It has been improved significantly|Ha sido mejorada significativamente]]',
-      '[[It was deleted|Fue eliminada]]',
-      '[[It was sold|Fue vendida]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Se dice que "the app has been improved significantly".',
-  },
-  {
-    question:
-      '[[When|Cuándo]] [[will the new update be released|será lanzada la nueva actualización]]?',
-    options: [
-      '[[Next month|El mes que viene]]',
-      '[[Last year|El año pasado]]',
-      '[[In two years|En dos años]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Se menciona que "a new update will be released next month".',
-  },
-  {
-    question:
-      '[[Where|Dónde]] [[is all data stored|se almacenan todos los datos]]?',
-    options: [
-      '[[Securely in the cloud|De forma segura en la nube]]',
-      '[[Only on the user\'s device|Solo en el dispositivo del usuario]]',
-      '[[On paper|En papel]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El texto dice que "All data is stored securely in the cloud".',
-  },
-  {
-    question:
-      '[[The speaker suggests|El hablante sugiere]] [[that|que]] [[the first version had no problems|la primera versión no tuvo problemas]].',
-    options: ['[[True|Verdadero]]', '[[False|Falso]]'],
-    correctAnswer: 'False',
-    explanation:
-      'Es falso: se dice que "many bugs were found by users".',
-  },
-  {
-    question:
-      '[[The audio implies|El audio implica]] [[that|que]] [[users can access their data from different devices|los usuarios pueden acceder a sus datos desde diferentes dispositivos]].',
-    options: ['[[True|Verdadero]]', '[[False|Falso]]'],
-    correctAnswer: 'True',
-    explanation:
-      'Verdadero: se dice que "your information can be accessed from any device".',
-  },
-  {
-    question:
-      '[[What|Cuál]] [[is|es]] [[the main idea|la idea principal]] [[of the listening|de la escucha]]?',
-    options: [
-      '[[A time-management app was developed, improved after user feedback, and will be updated soon|Una app de gestión del tiempo fue desarrollada, mejorada tras feedback de usuarios, y será actualizada pronto]]',
-      '[[David is a great engineer|David es un gran ingeniero]]',
-      '[[Cloud storage is unsafe|El almacenamiento en la nube es inseguro]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'La idea central es el desarrollo, mejora y futura actualización de la app.',
-  },
-  {
-    question:
-      '[[Which passive structure|Qué estructura pasiva]] [[is used|se usa]] [[in|en]] "a new update will be released next month"?',
-    options: [
-      '[[Future passive|Pasiva de futuro]]',
-      '[[Present perfect passive|Pasiva de presente perfecto]]',
-      '[[Past simple passive|Pasiva de pasado simple]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'Will + be + past participle = future passive.',
-  },
-  {
-    question:
-      '[[Which passive structure|Qué estructura pasiva]] [[describes|describe]] [[an ongoing improvement|una mejora en curso]]?',
-    options: [
-      '[[The app has been improved significantly|The app has been improved significantly]]',
-      '[[The project was started two years ago|The project was started two years ago]]',
-      '[[A new update will be released|A new update will be released]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      '"Has been improved" es present perfect passive (resultado de una acción completada).',
-  },
-  {
-    question:
-      '[[What|Qué]] [[vocabulary set|conjunto de vocabulario]] [[is central|es central]] [[in this listening|en esta escucha]]?',
-    options: [
-      '[[app, developed, released, bugs, update, cloud, data|app, developed, released, bugs, update, cloud, data]]',
-      '[[festival, tradition, culture|festival, tradition, culture]]',
-      '[[recipe, ingredients, cooking|recipe, ingredients, cooking]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El audio gira en torno a vocabulario tecnológico y de desarrollo de software.',
-  },
-  {
-    question:
-      '[[What|Qué]] [[detail|detalle]] [[supports|apoya]] [[the idea that the team listens to users|la idea de que el equipo escucha a los usuarios]]?',
-    options: [
-      '[[Many bugs were found by users and the app has been improved since then|Muchos errores fueron encontrados por usuarios y la app ha sido mejorada desde entonces]]',
-      '[[The project was started two years ago|El proyecto fue iniciado hace dos años]]',
-      '[[Data is stored in the cloud|Los datos se almacenan en la nube]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El equipo mejoró la app tras el feedback de los usuarios sobre los bugs.',
-  },
-  {
-    question:
-      '[[The phrase|La frase]] [["manage their time"|"manage their time"]] [[means|significa]] ____.',
-    options: [
-      '[[Organise and use their time effectively|Organizar y usar su tiempo de forma efectiva]]',
-      '[[Waste their time|Perder su tiempo]]',
-      '[[Save time|Ahorrar tiempo]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      '"Manage their time" significa gestionar u organizar su tiempo.',
-  },
-  {
-    question:
-      '[[What|Qué]] [[advantage|ventaja]] [[does cloud storage give|da el almacenamiento en la nube]]?',
-    options: [
-      '[[Information can be accessed from any device|La información puede ser accedida desde cualquier dispositivo]]',
-      '[[It is free|Es gratis]]',
-      '[[It is faster|Es más rápido]]',
-    ],
-    correctAnswer: 0,
-    explanation:
-      'El texto dice que "your information can be accessed from any device".',
-  },
+  { question: '[[Who is speaking|Quién habla]]?', options: ['[[Tom, a software engineer with over ten years in tech|Tom, ingeniero de software con más de diez años en tecnología]]', '[[A museum curator|Un conservador de museo]]', '[[A bank manager|Un director de banco]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[I\'m Tom, a software engineer who has been working in tech for over ten years|soy Tom, ingeniero de software que ha estado trabajando en tecnología desde hace más de diez años]]".' },
+  { question: '[[What|Qué]] [[are the systems built by his team|son los sistemas que construye su equipo]]?', options: ['[[Used by millions of people every day|Usados por millones de personas cada día]]', '[[Only used internally|Solo usados internamente]]', '[[Never used|Nunca usados]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[are used by millions of people every day|son usados por millones de personas cada día]]".' },
+  { question: '[[What|Qué]] [[happened last year|pasó el año pasado]]?', options: ['[[The platform was hacked and user data was being accessed|La plataforma fue hackeada y los datos de usuario estaban siendo accedidos]]', '[[They won an award|Ganaron un premio]]', '[[They launched a new product|Lanzaron un nuevo producto]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[our platform was hacked and user data was being accessed|nuestra plataforma fue hackeada y los datos de usuario estaban siendo accedidos]]".' },
+  { question: '[[What|Qué]] [[had been discovered by the security team|había sido descubierto por el equipo de seguridad]]?', options: ['[[The vulnerability during a routine audit|La vulnerabilidad durante una auditoría rutinaria]]', '[[A new feature|Una nueva función]]', '[[A bug in the code|Un error en el código]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[The vulnerability had been discovered by our security team during a routine audit|La vulnerabilidad había sido descubierta por nuestro equipo de seguridad durante una auditoría rutinaria]]".' },
+  { question: '[[What|Qué]] [[hadn\'t been applied in time|no había sido aplicado a tiempo]]?', options: ['[[The patch|El parche]]', '[[The encryption|La encriptación]]', '[[The update|La actualización]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[the patch hadn\'t been applied in time|el parche no había sido aplicado a tiempo]]".' },
+  { question: '[[What|Qué]] [[must all updates be|deben ser todas las actualizaciones]]?', options: ['[[Tested and approved before release|Probadas y aprobadas antes del lanzamiento]]', '[[Released immediately|Lanzadas inmediatamente]]', '[[Ignored|Ignoradas]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[all updates must be tested and approved before they are released|todas las actualizaciones deben ser probadas y aprobadas antes de ser lanzadas]]".' },
+  { question: '[[What|Qué]] [[is being implemented|está siendo implementada]]?', options: ['[[New encryption across all services|Nueva encriptación en todos los servicios]]', '[[Old software|Software antiguo]]', '[[Manual processes|Procesos manuales]]'], correctAnswer: 0, explanation: '[[The speaker says|El hablante dice]] "[[New encryption is being implemented across all our services|Nueva encriptación está siendo implementada en todos nuestros servicios]]".' },
+  { question: '[[The speaker|El hablante]] [[says|dice]] [[that|que]] [[the hack was never detected|el hack nunca fue detectado]].', options: ['[[True|Verdadero]]', '[[False|Falso]]'], correctAnswer: 1, explanation: '[[False|Falso]]. [[The speaker says|El hablante dice]] "[[before we detected it|antes de que lo detectamos]]".' },
+  { question: '[[According to Tom|Según Tom]], [[updates can be released without testing|las actualizaciones pueden lanzarse sin pruebas]].', options: ['[[True|Verdadero]]', '[[False|Falso]]'], correctAnswer: 1, explanation: '[[False|Falso]]. [[The speaker says|El hablante dice]] "[[must be tested and approved before they are released|deben ser probadas y aprobadas antes de ser lanzadas]]".' },
+  { question: '[[What|Cuál]] [[is the main idea|es la idea principal]] [[of the listening|de la escucha]]?', options: ['[[A security breach led to stricter processes and new encryption|Una brecha de seguridad llevó a procesos más estrictos y nueva encriptación]]', '[[Tech is easy|La tecnología es fácil]]', '[[Nothing changed|Nada cambió]]'], correctAnswer: 0, explanation: '[[The speaker|El hablante]] [[describes|describe]] [[breach|brecha]], [[response|respuesta]] [[and|y]] [[prevention|prevención]].' },
+  { question: '[[Which passive form|Qué forma pasiva]] [[is used for past completed action|se usa para acción pasada completada]]?', options: ['[[had been discovered|había sido descubierta]]', '[[is being implemented|está siendo implementada]]', '[[must be tested|debe ser probada]]'], correctAnswer: 0, explanation: '[[Past perfect passive|Pasiva pasado perfecto]].' },
+  { question: '[[What|Qué]] [[vocabulary|vocabulario]] [[is central|es central]] [[in this listening|en esta escucha]]?', options: ['[[vulnerability|vulnerabilidad]], [[patch|parche]], [[encryption|encriptación]], [[breach|brecha]]', '[[festival|festival]], [[heritage|patrimonio]], [[tradition|tradición]]', '[[profit|beneficio]], [[debt|deuda]], [[budget|presupuesto]]'], correctAnswer: 0, explanation: '[[The listening|La escucha]] [[focuses on|se centra en]] [[security and tech vocabulary|vocabulario de seguridad y tecnología]].' },
+  { question: '[[What|Qué]] [[does "breach" mean|significa "breach"]] [[in this context|en este contexto]]?', options: ['[[Security violation or unauthorized access|Violación de seguridad o acceso no autorizado]]', '[[A type of software|Un tipo de software]]', '[[A repair|Una reparación]]'], correctAnswer: 0, explanation: '[[Breach|Breach]] [[means security violation|significa violación de seguridad]].' },
 ];
 
 export const UNIT_16_LESSON_4_LISTENING: Exercise[] = QUESTIONS.map((q, i) => ({
