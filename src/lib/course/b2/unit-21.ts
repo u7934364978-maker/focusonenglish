@@ -1,7 +1,7 @@
 /**
  * Unidad 21 B2 — Linkers Contrast
  * Gramática: Linkers: contrast (although, despite, whereas)
- * Vocabulario: Health and fitness
+ * Vocabulario: Personal Development
  */
 
 import { UNIT_21_ALL_EXERCISES } from './unit-21-lessons-index';

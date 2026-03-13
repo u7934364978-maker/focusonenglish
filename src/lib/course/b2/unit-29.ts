@@ -1,7 +1,7 @@
 /**
  * Unidad 29 B2 — Collocations Adj+Noun
  * Gramática: Collocations (adjective + noun)
- * Vocabulario: Mixed topics
+ * Vocabulario: Psychology & Mind
  */
 
 import { UNIT_29_ALL_EXERCISES } from './unit-29-lessons-index';

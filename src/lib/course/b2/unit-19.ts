@@ -1,7 +1,7 @@
 /**
  * Unidad 19 B2 — Comparative & Superlative
  * Gramática: Comparative & superlative (advanced)
- * Vocabulario: Sport
+ * Vocabulario: Literature & Books
  */
 
 import { UNIT_19_ALL_EXERCISES } from './unit-19-lessons-index';

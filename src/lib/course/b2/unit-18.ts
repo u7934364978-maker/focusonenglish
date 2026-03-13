@@ -1,7 +1,7 @@
 /**
  * Unidad 18 B2 — So Such Too Enough
  * Gramática: So, such, too, enough
- * Vocabulario: Food and drink
+ * Vocabulario: Cooking & Recipes
  */
 
 import { UNIT_18_ALL_EXERCISES } from './unit-18-lessons-index';

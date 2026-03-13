@@ -1,7 +1,7 @@
 /**
  * Unidad 23 B2 — Phrasal Verbs 1
  * Gramática: Phrasal verbs 1 (BE, BREAK, BRING)
- * Vocabulario: Communication
+ * Vocabulario: Home & Living
  */
 
 import { UNIT_23_ALL_EXERCISES } from './unit-23-lessons-index';

@@ -1,12 +1,12 @@
 /**
- * Unidad 17 B2 — Modal Passive & Science
+ * Unidad 17 B2 — Modal Passive & Adventure & Extreme Sports
  * Gramática: Modal passive, have something done
- * Vocabulario: Science
+ * Vocabulario: Adventure & Extreme Sports
  */
 
 import { UNIT_17_ALL_EXERCISES } from './unit-17-lessons-index';
 
-export const UNIT_TITLE = 'Modal Passive & Science';
+export const UNIT_TITLE = 'Modal Passive & Adventure & Extreme Sports';
 
 /** Todos los ejercicios de la Unidad 17 (6 lecciones). */
 export const UNIT_17_EXERCISES = UNIT_17_ALL_EXERCISES;

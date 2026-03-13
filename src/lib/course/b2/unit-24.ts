@@ -1,7 +1,7 @@
 /**
  * Unidad 24 B2 — Phrasal Verbs 2
  * Gramática: Phrasal verbs 2 (CALL, CARRY, COME)
- * Vocabulario: Places
+ * Vocabulario: Social Media & Networking
  */
 
 import { UNIT_24_ALL_EXERCISES } from './unit-24-lessons-index';

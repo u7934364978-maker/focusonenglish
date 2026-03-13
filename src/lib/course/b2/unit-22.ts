@@ -1,7 +1,7 @@
 /**
  * Unidad 22 B2 — Linkers Reason Purpose
  * Gramática: Linkers: reason, purpose, result
- * Vocabulario: Animals
+ * Vocabulario: Photography & Media
  */
 
 import { UNIT_22_ALL_EXERCISES } from './unit-22-lessons-index';
