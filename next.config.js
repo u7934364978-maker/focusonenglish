@@ -5,6 +5,8 @@ const nextConfig = {
   compress: true,
   // Reduce unused JS: tree-shake large packages (framer-motion, radix, etc.)
   experimental: {
+    // Inline critical CSS para reducir cadena de solicitudes (elimina waterfall HTML→CSS)
+    inlineCss: true,
     optimizePackageImports: [
       'framer-motion',
       '@radix-ui/react-avatar',
@@ -646,6 +648,7 @@ const nextConfig = {
   // Cabeceras de seguridad y compresión
   async headers() {
     return [
+      // Recursos estáticos (CSS, JS chunks): caché 1 año
       {
         source: '/_next/static/(.*)',
         headers: [
