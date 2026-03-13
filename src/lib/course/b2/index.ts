@@ -56,9 +56,9 @@ export const B2_COURSE = {
     { id: 23, title: 'Phrasal Verbs 1 & Home & Living', exercises: UNIT_23_EXERCISES },
     { id: 24, title: 'Phrasal Verbs 2 & Social Media & Networking', exercises: UNIT_24_EXERCISES },
     { id: 25, title: 'Repaso 21–24', exercises: UNIT_25_EXERCISES },
-    { id: 26, title: 'Phrasal Verbs 3', exercises: UNIT_26_EXERCISES },
-    { id: 27, title: 'Phrasal Verbs 4 & Cars & Transport', exercises: UNIT_27_EXERCISES },
-    { id: 28, title: 'Collocations Verb+Noun & Weather & Climate', exercises: UNIT_28_EXERCISES },
+    { id: 26, title: 'Phrasal Verbs 3 & Sustainability & Eco-living', exercises: UNIT_26_EXERCISES },
+    { id: 27, title: 'Phrasal Verbs 4 & Music & Entertainment', exercises: UNIT_27_EXERCISES },
+    { id: 28, title: 'Collocations Verb+Noun & Food & Gastronomy', exercises: UNIT_28_EXERCISES },
     { id: 29, title: 'Collocations Adj+Noun & Psychology & Mind', exercises: UNIT_29_EXERCISES },
     { id: 30, title: 'Repaso 26–29', exercises: UNIT_30_EXERCISES },
   ]

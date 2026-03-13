@@ -1,7 +1,7 @@
 /**
  * Unidad 27 B2 — Phrasal Verbs 4
  * Gramática: Phrasal verbs 4 (LOOK, MAKE, PUT)
- * Vocabulario: Cars & Transport
+ * Vocabulario: Music & Entertainment
  */
 
 import { UNIT_27_ALL_EXERCISES } from './unit-27-lessons-index';

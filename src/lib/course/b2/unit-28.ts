@@ -1,7 +1,7 @@
 /**
  * Unidad 28 B2 — Collocations Verb+Noun
  * Gramática: Collocations (verb + noun)
- * Vocabulario: Weather & Climate
+ * Vocabulario: Food & Gastronomy
  */
 
 import { UNIT_28_ALL_EXERCISES } from './unit-28-lessons-index';

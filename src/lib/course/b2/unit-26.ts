@@ -1,7 +1,7 @@
 /**
  * Unidad 26 B2 — Phrasal Verbs 3
- * Gramática: Phrasal verbs 3 (GIVE, GO, KEEP)
- * Vocabulario: Work (extended)
+ * Gramática: Phrasal verbs 3 (GET, GIVE, GO)
+ * Vocabulario: Sustainability & Eco-living
  */
 
 import { UNIT_26_ALL_EXERCISES } from './unit-26-lessons-index';
