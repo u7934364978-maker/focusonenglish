@@ -28,6 +28,16 @@ import { UNIT_27_EXERCISES } from './unit-27';
 import { UNIT_28_EXERCISES } from './unit-28';
 import { UNIT_29_EXERCISES } from './unit-29';
 import { UNIT_30_EXERCISES } from './unit-30';
+import { UNIT_31_EXERCISES } from './unit-31';
+import { UNIT_32_EXERCISES } from './unit-32';
+import { UNIT_33_EXERCISES } from './unit-33';
+import { UNIT_34_EXERCISES } from './unit-34';
+import { UNIT_35_EXERCISES } from './unit-35';
+import { UNIT_36_EXERCISES } from './unit-36';
+import { UNIT_37_EXERCISES } from './unit-37';
+import { UNIT_38_EXERCISES } from './unit-38';
+import { UNIT_39_EXERCISES } from './unit-39';
+import { UNIT_40_EXERCISES } from './unit-40';
 
 export const B2_COURSE = {
   units: [
@@ -61,5 +71,15 @@ export const B2_COURSE = {
     { id: 28, title: 'Collocations Verb+Noun & Food & Gastronomy', exercises: UNIT_28_EXERCISES },
     { id: 29, title: 'Collocations Adj+Noun & Psychology & Mind', exercises: UNIT_29_EXERCISES },
     { id: 30, title: 'Repaso 26–29', exercises: UNIT_30_EXERCISES },
+    { id: 31, title: 'Articles (advanced) & Education', exercises: UNIT_31_EXERCISES },
+    { id: 32, title: 'Quantifiers & Environment', exercises: UNIT_32_EXERCISES },
+    { id: 33, title: 'Regret, remember, forget & Feelings', exercises: UNIT_33_EXERCISES },
+    { id: 34, title: 'State verbs & Technology', exercises: UNIT_34_EXERCISES },
+    { id: 35, title: 'Repaso 31–34', exercises: UNIT_35_EXERCISES },
+    { id: 36, title: 'Used to, would & Culture', exercises: UNIT_36_EXERCISES },
+    { id: 37, title: 'Auxiliaries & Business', exercises: UNIT_37_EXERCISES },
+    { id: 38, title: 'Phrasal Verbs 5 (RUN, SET, TAKE) & Leisure', exercises: UNIT_38_EXERCISES },
+    { id: 39, title: 'Phrasal Verbs 6 (TURN, WORK, others) & Sport', exercises: UNIT_39_EXERCISES },
+    { id: 40, title: 'Repaso 36–39', exercises: UNIT_40_EXERCISES },
   ]
 };
