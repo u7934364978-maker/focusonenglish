@@ -1,6 +1,6 @@
 /**
  * Unidad 24 B2 — Phrasal Verbs 2
- * Gramática: Phrasal verbs 2 (CARRY, COME, GET)
+ * Gramática: Phrasal verbs 2 (CALL, CARRY, COME)
  * Vocabulario: Places
  */
 
