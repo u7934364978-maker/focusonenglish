@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "next dev -p 5436",
     "build": "next build",
+    "build:turbo": "next build --turbopack",
     "start": "next start -p ${PORT:-3000}",
     "lint": "next lint",
     "type-check": "tsc --noEmit",
@@ -67,6 +68,7 @@
     "react-dom": "19.0.0",
     "react-markdown": "^10.1.0",
     "remark-gfm": "^4.0.1",
+    "@emotion/react": "^11.13.5",
     "resend": "^6.7.0",
     "stripe": "^20.1.2",
     "tailwind-merge": "^3.4.0",

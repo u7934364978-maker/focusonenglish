@@ -3,6 +3,13 @@ const path = require('path');
 
 const nextConfig = {
   compress: true,
+  transpilePackages: ['next'],
+  turbopack: {
+    // Alias: framer-motion pide @emotion/react/jsx-runtime; React 19 usa react/jsx-runtime
+    resolveAlias: {
+      '@emotion/react/jsx-runtime': 'react/jsx-runtime',
+    },
+  },
   // Reduce unused JS: tree-shake large packages (framer-motion, radix, etc.)
   experimental: {
     // Inline critical CSS para reducir cadena de solicitudes (elimina waterfall HTML→CSS)
