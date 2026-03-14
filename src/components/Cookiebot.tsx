@@ -10,17 +10,7 @@ export default function Cookiebot() {
   useEffect(() => {
     const authorizedDomains = ['focus-on-english.com', 'www.focus-on-english.com', 'localhost'];
     const isAuthorized = authorizedDomains.some((d) => window.location.hostname.includes(d));
-    if (!isAuthorized) return;
-
-    const loadAfterPageLoad = () => {
-      if (typeof requestIdleCallback !== 'undefined') {
-        requestIdleCallback(() => setShouldLoad(true), { timeout: 2500 });
-      } else {
-        setTimeout(() => setShouldLoad(true), 100);
-      }
-    };
-    if (document.readyState === 'complete') loadAfterPageLoad();
-    else window.addEventListener('load', loadAfterPageLoad, { once: true });
+    setShouldLoad(isAuthorized);
   }, []);
 
   if (!shouldLoad) return null;

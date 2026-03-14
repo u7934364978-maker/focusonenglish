@@ -103,9 +103,13 @@ export default function RootLayout({
   return (
     <html lang="es" className={`scroll-smooth ${nunito.variable} ${jakarta.variable}`} suppressHydrationWarning>
       <head>
-        {/* Solo preconnect crítico para LCP (imágenes blog); Cookiebot/GA cargan post-load */}
+        {/* Preconnect críticos: imágenes, Supabase (auth), Cookiebot */}
         <link rel="preconnect" href="https://images.pexels.com" />
         <link rel="dns-prefetch" href="https://images.pexels.com" />
+        <link rel="preconnect" href="https://nprqtjljoekoirlrjxlh.supabase.co" />
+        <link rel="dns-prefetch" href="https://nprqtjljoekoirlrjxlh.supabase.co" />
+        <link rel="preconnect" href="https://consent.cookiebot.com" />
+        <link rel="dns-prefetch" href="https://consent.cookiebot.com" />
         {/* Schema.org structured data */}
         <OrganizationSchema />
         <WebsiteSchema />

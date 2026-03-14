@@ -3,12 +3,11 @@
 // ============================================
 // PÁGINA DE ACCESO PARA ALUMNOS
 // Ruta: /cuenta/login
-// Server action para login (evita problemas de cookies en cliente)
+// Cliente Supabase (restaurado: server action tenía problemas)
 // ============================================
 
-import { useState, useEffect, useTransition } from 'react';
-import { getUser } from '@/lib/auth-helpers';
-import { signInAction } from '@/app/actions/auth';
+import { useState, useEffect } from 'react';
+import { signIn, getUser } from '@/lib/auth-helpers';
 import Link from 'next/link';
 
 function SignInForm() {
@@ -31,7 +30,7 @@ function SignInForm() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
-  const [isPending, startTransition] = useTransition();
+  const [loading, setLoading] = useState(false);
   const [isAlreadyLoggedIn, setIsAlreadyLoggedIn] = useState(false);
 
   useEffect(() => {
@@ -45,26 +44,46 @@ function SignInForm() {
     checkUser();
   }, []);
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setError('');
-    const form = e.currentTarget;
-    const formData = new FormData(form);
+    setLoading(true);
 
-    startTransition(async () => {
-      try {
-        const result = await signInAction(
-          formData.get('email') as string,
-          formData.get('password') as string,
-          callbackUrl
-        );
-        if (!result.success) {
-          setError(result.error || 'Email o contraseña incorrectos');
+    try {
+      const { user, error: authError } = await signIn(email, password);
+
+      if (authError || !user) {
+        setError('Email o contraseña incorrectos');
+      } else {
+        try {
+          const { supabase } = await import('@/lib/supabase-client');
+          const { data: profile } = await supabase
+            .from('user_profiles')
+            .select('subscription_status')
+            .eq('user_id', user.id)
+            .single();
+
+          if (!profile) {
+            await supabase.from('user_profiles').insert({
+              user_id: user.id,
+              email: user.email,
+              name: user.user_metadata?.full_name || user.user_metadata?.name || '',
+              subscription_status: 'inactive',
+              subscription_plan: 'free',
+            });
+          }
+        } catch {
+          // Continuar aunque falle el perfil
         }
-      } catch (err) {
-        setError('Error al iniciar sesión. Intenta nuevamente.');
+
+        await new Promise((r) => setTimeout(r, 200));
+        window.location.href = callbackUrl;
       }
-    });
+    } catch (err) {
+      setError('Error al iniciar sesión. Intenta nuevamente.');
+    } finally {
+      setLoading(false);
+    }
   };
 
   const handleLogout = async () => {
@@ -143,7 +162,7 @@ function SignInForm() {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     required
-                    disabled={isPending}
+                    disabled={loading}
                     className="w-full px-4 py-3 border-2 border-slate-200 rounded-xl focus:border-coral-500 focus:ring-4 focus:ring-coral-100 outline-none transition-all disabled:bg-slate-100 disabled:cursor-not-allowed text-slate-900 placeholder-slate-400"
                     placeholder="tu@email.com"
                   />
@@ -159,7 +178,7 @@ function SignInForm() {
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                     required
-                    disabled={isPending}
+                    disabled={loading}
                     className="w-full px-4 py-3 border-2 border-slate-200 rounded-xl focus:border-coral-500 focus:ring-4 focus:ring-coral-100 outline-none transition-all disabled:bg-slate-100 disabled:cursor-not-allowed text-slate-900"
                     placeholder="••••••••"
                   />
@@ -186,10 +205,10 @@ function SignInForm() {
 
                 <button
                   type="submit"
-                  disabled={isPending}
+                  disabled={loading}
                   className="w-full bg-gradient-to-r from-coral-500 to-peach-500 text-white font-bold py-4 px-6 rounded-xl hover:shadow-xl hover:scale-[1.02] transition-all disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100"
                 >
-                  {isPending ? (
+                  {loading ? (
                     <span className="flex items-center justify-center gap-2">
                       <svg className="animate-spin h-5 w-5" viewBox="0 0 24 24">
                         <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" />
