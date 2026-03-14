@@ -55,9 +55,9 @@ export function CourseLaunchBanner() {
               <span className="animate-pulse">🚀</span>
               Próximamente
             </div>
-            <h3 className="text-2xl sm:text-3xl font-black text-slate-900 mb-2">
+            <h2 className="text-2xl sm:text-3xl font-black text-slate-900 mb-2">
               ¡Gracias por visitar Focus English!
-            </h3>
+            </h2>
             <p className="text-slate-700 text-lg mb-2">
               Próximamente lanzaremos nuestros primeros cursos especializados.
             </p>

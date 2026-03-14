@@ -139,7 +139,7 @@ export default function RootLayout({
               bottom: '10px',
               right: '10px',
               fontSize: '10px',
-              color: 'rgba(0,0,0,0.45)',
+              color: 'rgba(0,0,0,0.55)',
               pointerEvents: 'none',
               zIndex: 9999,
               userSelect: 'none'

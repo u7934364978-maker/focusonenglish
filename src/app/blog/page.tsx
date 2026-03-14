@@ -180,6 +180,8 @@ export default function BlogPage() {
                           src={featuredArticle.image}
                           alt={featuredArticle.alt || featuredArticle.title}
                           fill
+                          quality={70}
+                          sizes="(max-width: 1024px) 100vw, 50vw"
                           className="object-cover mix-blend-overlay opacity-60"
                           priority
                         />
@@ -242,6 +244,8 @@ export default function BlogPage() {
                                   src={article.image}
                                   alt={article.alt || article.title}
                                   fill
+                                  quality={70}
+                                  sizes="(max-width: 768px) 100vw, 33vw"
                                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                                 />
                               </div>

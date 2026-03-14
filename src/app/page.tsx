@@ -221,7 +221,7 @@ export default function HomePage() {
               </div>
               <Link 
                 href="/blog"
-                className="inline-flex items-center gap-2 text-coral-700 font-bold hover:text-coral-800 transition-colors"
+                className="inline-flex items-center gap-2 text-coral-800 font-bold hover:text-coral-900 transition-colors"
               >
                 <span>Explorar todo el blog</span>
                 <span>→</span>
@@ -241,6 +241,8 @@ export default function HomePage() {
                         src={article.image}
                         alt={article.title}
                         fill
+                        sizes="(max-width: 768px) 100vw, 33vw"
+                        quality={70}
                         className="object-cover group-hover:scale-105 transition-transform duration-500"
                       />
                     </div>
@@ -258,7 +260,7 @@ export default function HomePage() {
                     <p className="text-slate-600 text-sm line-clamp-2 mb-4 flex-1">
                       {article.excerpt}
                     </p>
-                    <div className="flex items-center gap-2 text-coral-700 font-bold text-sm">
+                    <div className="flex items-center gap-2 text-coral-800 font-bold text-sm">
                       <span>Leer más</span>
                       <span className="group-hover:translate-x-1 transition-transform">→</span>
                     </div>
