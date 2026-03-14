@@ -6,10 +6,10 @@ import Cookiebot from "@/components/Cookiebot";
 import { Nunito, Plus_Jakarta_Sans } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 
-// Fuentes optimizadas: menos pesos = menos requests, optional = FCP más rápido
+// Fuentes mínimas: 3 pesos total para LCP <2.5s
 const nunito = Nunito({
   subsets: ["latin"],
-  weight: ["400", "600", "700"],
+  weight: ["400", "700"],
   variable: "--font-nunito",
   display: "optional",
   preload: true,
@@ -17,7 +17,7 @@ const nunito = Nunito({
 
 const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
-  weight: ["700", "800"],
+  weight: ["700"],
   variable: "--font-jakarta",
   display: "optional",
   preload: true,
@@ -103,13 +103,7 @@ export default function RootLayout({
   return (
     <html lang="es" className={`scroll-smooth ${nunito.variable} ${jakarta.variable}`} suppressHydrationWarning>
       <head>
-        {/* Preconnect a orígenes externos críticos (Cookiebot, GA, Cloudflare) */}
-        <link rel="preconnect" href="https://consent.cookiebot.com" />
-        <link rel="dns-prefetch" href="https://consent.cookiebot.com" />
-        <link rel="preconnect" href="https://www.googletagmanager.com" />
-        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
-        <link rel="preconnect" href="https://static.cloudflareinsights.com" />
-        <link rel="dns-prefetch" href="https://static.cloudflareinsights.com" />
+        {/* Solo preconnect crítico para LCP (imágenes blog); Cookiebot/GA cargan post-load */}
         <link rel="preconnect" href="https://images.pexels.com" />
         <link rel="dns-prefetch" href="https://images.pexels.com" />
         {/* Schema.org structured data */}

@@ -2,55 +2,40 @@
 
 import Script from 'next/script';
 import { usePathname } from 'next/navigation';
-import { useMemo } from 'react';
+import { useMemo, useEffect, useState } from 'react';
+
+const excludedRoutes = ['/curso/ingles-a1', '/curso/ingles-b1', '/curso/ingles-c1', '/curso/ingles-c2', '/dashboard', '/profile', '/settings', '/leccion', '/certificados', '/practica'];
 
 export default function GoogleAnalytics() {
   const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
   const pathname = usePathname();
+  const [deferLoad, setDeferLoad] = useState(false);
 
-  // Rutas EXCLUIDAS de Google Analytics (contenido de pago y áreas privadas)
-  const excludedRoutes = [
-    '/curso/ingles-a1',
-    '/curso/ingles-b1',
-    '/curso/ingles-c1',
-    '/curso/ingles-c2',
-    '/dashboard',
-    '/profile',
-    '/settings',
-    '/leccion',
-    '/certificados',
-    '/practica', // Área de práctica con ejercicios interactivos
-  ];
-
-  // Verificar si la ruta actual debe ser excluida
   const shouldTrack = useMemo(() => {
-    if (!pathname) return true; // Si no hay pathname, cargar GA por defecto
-    return !excludedRoutes.some(route => pathname.startsWith(route));
+    if (!pathname) return true;
+    return !excludedRoutes.some((r) => pathname.startsWith(r));
   }, [pathname]);
 
-  // No cargar GA si no hay ID o si está en ruta excluida
-  if (!GA_MEASUREMENT_ID || !shouldTrack) {
-    return null;
-  }
+  useEffect(() => {
+    if (!GA_MEASUREMENT_ID || !shouldTrack) return;
+    const loadAfterPageLoad = () => {
+      if (typeof requestIdleCallback !== 'undefined') {
+        requestIdleCallback(() => setDeferLoad(true), { timeout: 3000 });
+      } else {
+        setTimeout(() => setDeferLoad(true), 200);
+      }
+    };
+    if (document.readyState === 'complete') loadAfterPageLoad();
+    else window.addEventListener('load', loadAfterPageLoad, { once: true });
+  }, [GA_MEASUREMENT_ID, shouldTrack]);
+
+  if (!GA_MEASUREMENT_ID || !shouldTrack || !deferLoad) return null;
 
   return (
     <>
-      <Script
-        src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
-        strategy="lazyOnload"
-        data-cookieconsent="statistics"
-      />
+      <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`} strategy="lazyOnload" data-cookieconsent="statistics" />
       <Script id="google-analytics" strategy="lazyOnload" data-cookieconsent="statistics">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', '${GA_MEASUREMENT_ID}', {
-            page_path: window.location.pathname,
-            anonymize_ip: true,
-            cookie_flags: 'SameSite=None;Secure'
-          });
-        `}
+        {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${GA_MEASUREMENT_ID}',{page_path:window.location.pathname,anonymize_ip:true,cookie_flags:'SameSite=None;Secure'});`}
       </Script>
     </>
   );
