@@ -3,15 +3,15 @@
 // ============================================
 // PÁGINA DE ACCESO PARA ALUMNOS
 // Ruta: /cuenta/login
-// Página dedicada para alumnos que ya tienen acceso
+// Server action para login (evita problemas de cookies en cliente)
 // ============================================
 
-import { useState, useEffect } from 'react';
-import { signIn, getUser } from '@/lib/auth-helpers';
+import { useState, useEffect, useTransition } from 'react';
+import { getUser } from '@/lib/auth-helpers';
+import { signInAction } from '@/app/actions/auth';
 import Link from 'next/link';
 
 function SignInForm() {
-  // callbackUrl desde URL (sin useSearchParams para evitar Suspense infinito en prod)
   const [callbackUrl, setCallbackUrl] = useState('/curso-a1/outline');
   useEffect(() => {
     if (typeof window === 'undefined') return;
@@ -31,10 +31,9 @@ function SignInForm() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
-  const [loading, setLoading] = useState(false);
+  const [isPending, startTransition] = useTransition();
   const [isAlreadyLoggedIn, setIsAlreadyLoggedIn] = useState(false);
 
-  // Si ya hay sesión, mostrar mensaje en lugar de redirigir automáticamente para evitar bucles si no tiene suscripción
   useEffect(() => {
     async function checkUser() {
       const { user } = await getUser();
@@ -46,53 +45,26 @@ function SignInForm() {
     checkUser();
   }, []);
 
-  // Login con credenciales
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setError('');
-    setLoading(true);
+    const form = e.currentTarget;
+    const formData = new FormData(form);
 
-    try {
-      console.log('Login attempt with:', email);
-      const { user, error: authError } = await signIn(email, password);
-      
-      if (authError || !user) {
-        console.error('Auth error:', authError);
-        setError('Email o contraseña incorrectos');
-      } else {
-        console.log('Login success, ensuring profile exists...');
-        
-        try {
-          const { supabase } = await import('@/lib/supabase-client');
-          const { data: profile } = await supabase
-            .from('user_profiles')
-            .select('subscription_status')
-            .eq('user_id', user.id)
-            .single();
-          
-          if (!profile) {
-            await supabase.from('user_profiles').insert({
-              user_id: user.id,
-              email: user.email,
-              name: user.user_metadata?.full_name || user.user_metadata?.name || '',
-              subscription_status: 'inactive',
-              subscription_plan: 'free'
-            });
-          }
-        } catch (profileErr) {
-          console.warn('Profile check/insert failed:', profileErr);
-          // Continuar con redirect aunque falle el perfil
+    startTransition(async () => {
+      try {
+        const result = await signInAction(
+          formData.get('email') as string,
+          formData.get('password') as string,
+          callbackUrl
+        );
+        if (!result.success) {
+          setError(result.error || 'Email o contraseña incorrectos');
         }
-
-        // Pequeña espera para que cookies de sesión se persistan antes del redirect
-        await new Promise((r) => setTimeout(r, 150));
-        window.location.href = callbackUrl;
+      } catch (err) {
+        setError('Error al iniciar sesión. Intenta nuevamente.');
       }
-    } catch (err) {
-      setError('Error al iniciar sesión. Intenta nuevamente.');
-    } finally {
-      setLoading(false);
-    }
+    });
   };
 
   const handleLogout = async () => {
@@ -171,7 +143,7 @@ function SignInForm() {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     required
-                    disabled={loading}
+                    disabled={isPending}
                     className="w-full px-4 py-3 border-2 border-slate-200 rounded-xl focus:border-coral-500 focus:ring-4 focus:ring-coral-100 outline-none transition-all disabled:bg-slate-100 disabled:cursor-not-allowed text-slate-900 placeholder-slate-400"
                     placeholder="tu@email.com"
                   />
@@ -187,7 +159,7 @@ function SignInForm() {
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                     required
-                    disabled={loading}
+                    disabled={isPending}
                     className="w-full px-4 py-3 border-2 border-slate-200 rounded-xl focus:border-coral-500 focus:ring-4 focus:ring-coral-100 outline-none transition-all disabled:bg-slate-100 disabled:cursor-not-allowed text-slate-900"
                     placeholder="••••••••"
                   />
@@ -214,10 +186,10 @@ function SignInForm() {
 
                 <button
                   type="submit"
-                  disabled={loading}
+                  disabled={isPending}
                   className="w-full bg-gradient-to-r from-coral-500 to-peach-500 text-white font-bold py-4 px-6 rounded-xl hover:shadow-xl hover:scale-[1.02] transition-all disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100"
                 >
-                  {loading ? (
+                  {isPending ? (
                     <span className="flex items-center justify-center gap-2">
                       <svg className="animate-spin h-5 w-5" viewBox="0 0 24 24">
                         <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" />
