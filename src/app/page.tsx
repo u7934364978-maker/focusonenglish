@@ -28,18 +28,14 @@ export default function HomePage() {
     <>
       <Navigation />
       
-      {/* Course Launch Banner */}
-      <CourseLaunchBanner />
-      
       <main className="min-h-screen">
-        
-        {/* Hero Section - Coral/Peach Gradient */}
+        {/* Hero Section - PRIMERO para LCP (h1 debe pintarse antes que el banner) */}
         <section className="hero-gradient relative pt-32 pb-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
-          {/* Animated background elements */}
-          <div className="absolute inset-0 opacity-10">
-            <div className="absolute top-20 right-20 w-96 h-96 bg-[#FF6B6B] rounded-full mix-blend-multiply filter blur-3xl animate-blob"></div>
-            <div className="absolute bottom-20 left-20 w-96 h-96 bg-[#FFA06B] rounded-full mix-blend-multiply filter blur-3xl animate-blob animation-delay-2000"></div>
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-[#FFBE98] rounded-full mix-blend-multiply filter blur-3xl animate-blob animation-delay-4000"></div>
+          {/* Animated background - contain:strict aísla layout para reducir reflows */}
+          <div className="absolute inset-0 opacity-10 [contain:layout] pointer-events-none">
+            <div className="absolute top-20 right-20 w-96 h-96 bg-[#FF6B6B] rounded-full mix-blend-multiply filter blur-3xl animate-blob [will-change:transform]"></div>
+            <div className="absolute bottom-20 left-20 w-96 h-96 bg-[#FFA06B] rounded-full mix-blend-multiply filter blur-3xl animate-blob animation-delay-2000 [will-change:transform]"></div>
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-[#FFBE98] rounded-full mix-blend-multiply filter blur-3xl animate-blob animation-delay-4000 [will-change:transform]"></div>
           </div>
 
           <div className="relative max-w-7xl mx-auto">
@@ -113,6 +109,9 @@ export default function HomePage() {
             </div>
           </div>
         </section>
+
+        {/* Course Launch Banner - después del hero para no bloquear LCP */}
+        <CourseLaunchBanner />
 
         {/* Courses Section */}
         <section id="cursos" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-50 to-white">
