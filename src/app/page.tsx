@@ -1,7 +1,15 @@
+import dynamic from "next/dynamic";
 import { Navigation } from "@/components/sections/Navigation";
-import { Footer } from "@/components/sections/Footer";
-import { CourseLaunchBanner } from "@/components/CourseLaunchBanner";
 import Link from "next/link";
+
+const Footer = dynamic(() => import("@/components/sections/Footer").then((m) => ({ default: m.Footer })), {
+  ssr: true,
+  loading: () => <footer className="h-64 bg-slate-900 animate-pulse" aria-hidden="true" />,
+});
+
+const CourseLaunchBanner = dynamic(() => import("@/components/CourseLaunchBanner").then((m) => ({ default: m.CourseLaunchBanner })), {
+  loading: () => <div className="h-24 bg-gradient-to-r from-coral-50 to-peach-50 animate-pulse" aria-hidden="true" />,
+});
 import Image from "next/image";
 import { Metadata } from "next";
 import { getBlogArticles } from "@/lib/blog";
@@ -113,8 +121,8 @@ export default function HomePage() {
         {/* Course Launch Banner - después del hero para no bloquear LCP */}
         <CourseLaunchBanner />
 
-        {/* Courses Section */}
-        <section id="cursos" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-50 to-white">
+        {/* Courses Section - content-visibility acelera render inicial */}
+        <section id="cursos" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-50 to-white" style={{ contentVisibility: 'auto' } as React.CSSProperties}>
           <div className="max-w-7xl mx-auto">
             
             {/* Section Header */}
@@ -173,8 +181,8 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* Blog Preview Section */}
-        <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50">
+        {/* Blog Preview Section - content-visibility acelera render inicial */}
+        <section className="py-20 px-4 sm:px-6 lg:px-8 bg-slate-50" style={{ contentVisibility: 'auto' } as React.CSSProperties}>
           <div className="max-w-7xl mx-auto">
             <div className="flex flex-col md:flex-row md:items-center justify-between mb-12 gap-6">
               <div>
@@ -280,8 +288,8 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* CTA Section */}
-        <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-coral-600 via-peach-600 to-melon-700 text-white">
+        {/* CTA Section - content-visibility acelera render inicial */}
+        <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-coral-600 via-peach-600 to-melon-700 text-white" style={{ contentVisibility: 'auto' } as React.CSSProperties}>
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="font-display text-4xl sm:text-5xl font-black mb-6 tracking-tight">
               ¿Listo para Empezar?

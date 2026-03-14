@@ -6,18 +6,21 @@ import Cookiebot from "@/components/Cookiebot";
 import { Nunito, Plus_Jakarta_Sans } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 
+// Fuentes optimizadas: menos pesos = menos requests, optional = FCP más rápido
 const nunito = Nunito({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800", "900"],
+  weight: ["400", "600", "700"],
   variable: "--font-nunito",
-  display: "swap",
+  display: "optional",
+  preload: true,
 });
 
 const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
-  weight: ["600", "700", "800"],
+  weight: ["700", "800"],
   variable: "--font-jakarta",
-  display: "swap",
+  display: "optional",
+  preload: true,
 });
 
 export const metadata: Metadata = {
@@ -126,12 +129,10 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          {/* Cookiebot Consent Management */}
+          {children}
+          {/* Scripts deferidos: no bloquean first paint */}
           <Cookiebot />
-          
-          {/* Google Analytics */}
           <GoogleAnalytics />
-          
           {/* Copyright watermark - contraste 4.5:1 (WCAG AA) */}
           <div
             style={{
@@ -148,7 +149,6 @@ export default function RootLayout({
           >
             © 2026 Focus English
           </div>
-          {children}
         </ThemeProvider>
       </body>
     </html>
