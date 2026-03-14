@@ -704,7 +704,32 @@ const nextConfig = {
     emotion: false,
   },
   // Paquetes externos que deben ejecutarse en el servidor
-  serverExternalPackages: ['@google-cloud/text-to-speech', 'elevenlabs-node', 'resend'],
+  serverExternalPackages: ['resend'],
+
+  // Webpack: aislar framer-motion/radix en chunks separados (solo cargan en rutas que los usan)
+  webpack: (config, { dev, isServer }) => {
+    if (!isServer && !dev) {
+      config.optimization.splitChunks = {
+        ...config.optimization.splitChunks,
+        cacheGroups: {
+          ...config.optimization.splitChunks?.cacheGroups,
+          framerMotion: {
+            test: /[\\/]node_modules[\\/]framer-motion[\\/]/,
+            name: 'framer-motion',
+            chunks: 'all',
+            enforce: true,
+          },
+          radix: {
+            test: /[\\/]node_modules[\\/]@radix-ui[\\/]/,
+            name: 'radix-ui',
+            chunks: 'all',
+            enforce: true,
+          },
+        },
+      };
+    }
+    return config;
+  },
 }
 
 module.exports = withBundleAnalyzer(nextConfig)
