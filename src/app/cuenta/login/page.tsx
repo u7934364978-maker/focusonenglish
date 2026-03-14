@@ -62,28 +62,31 @@ function SignInForm() {
       } else {
         console.log('Login success, ensuring profile exists...');
         
-        // Asegurar que existe un perfil para evitar redirecciones infinitas si el webhook falló
-        const { supabase } = await import('@/lib/supabase-client');
-        const { data: profile } = await supabase
-          .from('user_profiles')
-          .select('subscription_status')
-          .eq('user_id', user.id)
-          .single();
-        
-        if (!profile) {
-          console.log('Profile missing, creating default inactive profile...');
-          await supabase.from('user_profiles').insert({
-            user_id: user.id,
-            email: user.email,
-            name: user.user_metadata?.full_name || user.user_metadata?.name || '',
-            subscription_status: 'inactive',
-            subscription_plan: 'free'
-          });
+        try {
+          const { supabase } = await import('@/lib/supabase-client');
+          const { data: profile } = await supabase
+            .from('user_profiles')
+            .select('subscription_status')
+            .eq('user_id', user.id)
+            .single();
+          
+          if (!profile) {
+            await supabase.from('user_profiles').insert({
+              user_id: user.id,
+              email: user.email,
+              name: user.user_metadata?.full_name || user.user_metadata?.name || '',
+              subscription_status: 'inactive',
+              subscription_plan: 'free'
+            });
+          }
+        } catch (profileErr) {
+          console.warn('Profile check/insert failed:', profileErr);
+          // Continuar con redirect aunque falle el perfil
         }
 
-        console.log('Redirecting to:', callbackUrl);
-        // Forzar redirección nativa del navegador para asegurar limpieza de cookies
-        window.location.replace(callbackUrl);
+        // Pequeña espera para que cookies de sesión se persistan antes del redirect
+        await new Promise((r) => setTimeout(r, 150));
+        window.location.href = callbackUrl;
       }
     } catch (err) {
       setError('Error al iniciar sesión. Intenta nuevamente.');

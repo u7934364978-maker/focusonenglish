@@ -210,12 +210,13 @@ export async function middleware(request: NextRequest) {
       return NextResponse.redirect(url);
     }
 
-    // Si está autenticado, verificar que tenga una suscripción activa o sea admin
+    // Si está autenticado, verificar suscripción (excepto outline que sí es "página de cursos")
     const isPaid = profile?.subscription_status === "active" || profile?.subscription_status === "trialing";
     const isAdmin = profile?.role === "admin";
     const isToeflExempt = pathname.startsWith("/curso/toefl-");
+    const isOutlineOnly = pathname === "/curso-a1/outline" || pathname === "/curso-a2/outline" || pathname === "/curso-b1/outline" || pathname === "/curso-b2/outline";
 
-    if (!isPaid && !isAdmin && !isToeflExempt) {
+    if (!isPaid && !isAdmin && !isToeflExempt && !isOutlineOnly) {
       const url = request.nextUrl.clone();
       url.pathname = "/planes";
       url.searchParams.set("reason", "premium_required");
