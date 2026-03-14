@@ -50,16 +50,37 @@ export async function middleware(request: NextRequest) {
   const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
 
+  // Si Supabase no está configurado, permitir rutas públicas sin auth
+  const isPublicRoute =
+    PUBLIC_ROUTES.has(pathname) ||
+    isBlogRoute(pathname) ||
+    isPublicSEORoute(pathname);
   if (!supabaseUrl || !supabaseKey) {
-    if (pathname.startsWith("/misiones") && process.env.NODE_ENV === "development") {
-      return NextResponse.next();
+    if (isPublicRoute || pathname.startsWith("/misiones")) {
+      return response;
     }
+    // Para rutas protegidas sin Supabase, redirigir a login
+    if (
+      pathname.startsWith("/curso-a1") ||
+      pathname.startsWith("/curso-a2") ||
+      pathname.startsWith("/curso-b1") ||
+      pathname.startsWith("/curso-b2") ||
+      pathname.startsWith("/admin") ||
+      pathname.startsWith("/misiones") ||
+      pathname.startsWith("/onboarding")
+    ) {
+      const url = request.nextUrl.clone();
+      url.pathname = "/cuenta/login";
+      url.searchParams.set("next", pathname);
+      return NextResponse.redirect(url);
+    }
+    return response;
   }
 
-  const supabase = createServerClient(
-    supabaseUrl || "http://localhost:54321",
-    supabaseKey || "dummy",
-    {
+  let user = null;
+  let profile = null;
+  try {
+    const supabase = createServerClient(supabaseUrl, supabaseKey, {
       cookies: {
         getAll() {
           return request.cookies.getAll();
@@ -79,21 +100,37 @@ export async function middleware(request: NextRequest) {
           });
         },
       },
-    }
-  );
+    });
 
-  const { data: { user } } = await supabase.auth.getUser();
+    const { data: { user: authUser } } = await supabase.auth.getUser();
+    user = authUser;
 
-  // Obtener perfil si el usuario está logueado para decisiones de redirección
-  let profile = null;
-  if (user) {
+    if (user) {
     const { data } = await supabase
       .from("user_profiles")
       .select("subscription_status, role")
       .eq("user_id", user.id)
       .single();
     profile = data;
-    console.log(`[Middleware] User: ${user.email}, Status: ${profile?.subscription_status}, Role: ${profile?.role}`);
+    }
+  } catch (err) {
+    console.error("[Middleware] Auth error:", err);
+    if (isPublicRoute) return response;
+    if (
+      pathname.startsWith("/curso-a1") ||
+      pathname.startsWith("/curso-a2") ||
+      pathname.startsWith("/curso-b1") ||
+      pathname.startsWith("/curso-b2") ||
+      pathname.startsWith("/admin") ||
+      pathname.startsWith("/misiones") ||
+      pathname.startsWith("/onboarding")
+    ) {
+      const url = request.nextUrl.clone();
+      url.pathname = "/cuenta/login";
+      url.searchParams.set("next", pathname);
+      return NextResponse.redirect(url);
+    }
+    return response;
   }
 
   // Redirección para rutas eliminadas
