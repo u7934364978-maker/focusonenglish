@@ -31,8 +31,8 @@ export default function HomePage() {
       <main className="min-h-screen">
         {/* Hero Section - PRIMERO para LCP (h1 debe pintarse antes que el banner) */}
         <section className="hero-gradient relative pt-32 pb-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
-          {/* Animated background - contain:strict aísla layout para reducir reflows */}
-          <div className="absolute inset-0 opacity-10 [contain:layout] pointer-events-none">
+          {/* Animated background - decorativo, sin texto (aria-hidden para a11y) */}
+          <div className="absolute inset-0 opacity-10 [contain:layout] pointer-events-none" aria-hidden="true">
             <div className="absolute top-20 right-20 w-96 h-96 bg-[#FF6B6B] rounded-full mix-blend-multiply filter blur-3xl animate-blob [will-change:transform]"></div>
             <div className="absolute bottom-20 left-20 w-96 h-96 bg-[#FFA06B] rounded-full mix-blend-multiply filter blur-3xl animate-blob animation-delay-2000 [will-change:transform]"></div>
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-[#FFBE98] rounded-full mix-blend-multiply filter blur-3xl animate-blob animation-delay-4000 [will-change:transform]"></div>
@@ -77,7 +77,7 @@ export default function HomePage() {
                 
                 <Link
                   href="/cuenta/login"
-                  className="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-white text-coral-600 font-black text-lg hover:shadow-lg hover:scale-105 transition-all border-2 border-coral-100"
+                  className="inline-flex items-center gap-2 px-8 py-4 rounded-xl bg-white text-coral-700 font-black text-lg hover:shadow-lg hover:scale-105 transition-all border-2 border-coral-100"
                 >
                   🔑 Iniciar Sesión
                 </Link>
@@ -183,37 +183,37 @@ export default function HomePage() {
                 <div className="mt-4 flex flex-wrap gap-3">
                   <Link 
                     href="/blog/trabajo"
-                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-coral-50 text-coral-600 text-sm font-bold hover:bg-coral-100 transition-colors"
+                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-coral-50 text-coral-800 text-sm font-bold hover:bg-coral-100 transition-colors"
                   >
                     💼 Trabajo
                   </Link>
                   <Link 
                     href="/blog/viajes"
-                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-orange-50 text-orange-600 text-sm font-bold hover:bg-orange-100 transition-colors"
+                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-orange-50 text-orange-800 text-sm font-bold hover:bg-orange-100 transition-colors"
                   >
                     ✈️ Viajes
                   </Link>
                   <Link 
                     href="/blog/examenes"
-                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-50 text-amber-600 text-sm font-bold hover:bg-amber-100 transition-colors"
+                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-50 text-amber-800 text-sm font-bold hover:bg-amber-100 transition-colors"
                   >
                     📝 Exámenes
                   </Link>
                   <Link 
                     href="/blog/metodos"
-                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-coral-50 text-coral-600 text-sm font-bold hover:bg-coral-100 transition-colors"
+                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-coral-50 text-coral-800 text-sm font-bold hover:bg-coral-100 transition-colors"
                   >
                     🎯 Métodos
                   </Link>
                   <Link 
                     href="/blog/gramatica"
-                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-50 text-blue-600 text-sm font-bold hover:bg-blue-100 transition-colors"
+                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-50 text-blue-700 text-sm font-bold hover:bg-blue-100 transition-colors"
                   >
                     📚 Gramática
                   </Link>
                   <Link 
                     href="/blog/vocabulario"
-                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-50 text-amber-600 text-sm font-bold hover:bg-amber-100 transition-colors"
+                    className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-50 text-amber-800 text-sm font-bold hover:bg-amber-100 transition-colors"
                   >
                     🗣️ Vocabulario
                   </Link>
@@ -221,7 +221,7 @@ export default function HomePage() {
               </div>
               <Link 
                 href="/blog"
-                className="inline-flex items-center gap-2 text-coral-600 font-bold hover:text-coral-700 transition-colors"
+                className="inline-flex items-center gap-2 text-coral-700 font-bold hover:text-coral-800 transition-colors"
               >
                 <span>Explorar todo el blog</span>
                 <span>→</span>
@@ -247,7 +247,7 @@ export default function HomePage() {
                   )}
                   <div className="p-6 flex flex-col flex-1">
                     <div className="flex items-center gap-2 mb-3">
-                      <span className="px-3 py-1 rounded-full bg-coral-100 text-coral-700 text-[10px] font-bold uppercase tracking-wider">
+                      <span className="px-3 py-1 rounded-full bg-coral-100 text-coral-800 text-[10px] font-bold uppercase tracking-wider">
                         {article.category}
                       </span>
                       <span className="text-xs text-slate-500">{article.readTime}</span>
@@ -258,7 +258,7 @@ export default function HomePage() {
                     <p className="text-slate-600 text-sm line-clamp-2 mb-4 flex-1">
                       {article.excerpt}
                     </p>
-                    <div className="flex items-center gap-2 text-coral-600 font-bold text-sm">
+                    <div className="flex items-center gap-2 text-coral-700 font-bold text-sm">
                       <span>Leer más</span>
                       <span className="group-hover:translate-x-1 transition-transform">→</span>
                     </div>
@@ -290,7 +290,7 @@ export default function HomePage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 href="/test-nivel"
-                className="bg-white text-coral-600 px-10 py-5 rounded-xl font-black text-lg hover:shadow-2xl hover:scale-105 transition-all shadow-md"
+                className="bg-white text-coral-700 px-10 py-5 rounded-xl font-black text-lg hover:shadow-2xl hover:scale-105 transition-all shadow-md"
               >
                 🎯 Hacer Test de Nivel
               </Link>
@@ -302,7 +302,7 @@ export default function HomePage() {
               </Link>
               <Link
                 href="/blog"
-                className="bg-coral-700 text-white px-10 py-5 rounded-xl font-black text-lg hover:bg-coral-800 transition-all border-2 border-white/20"
+                className="bg-coral-800 text-white px-10 py-5 rounded-xl font-black text-lg hover:bg-coral-900 transition-all border-2 border-white/20"
               >
                 📚 Explorar Blog
               </Link>

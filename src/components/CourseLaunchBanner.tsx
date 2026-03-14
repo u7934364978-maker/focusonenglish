@@ -51,7 +51,7 @@ export function CourseLaunchBanner() {
           
           {/* Message Section */}
           <div className="flex-1 text-center lg:text-left">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-coral-100 text-coral-700 text-sm font-bold mb-3">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-coral-100 text-coral-800 text-sm font-bold mb-3">
               <span className="animate-pulse">🚀</span>
               Próximamente
             </div>
@@ -65,7 +65,7 @@ export function CourseLaunchBanner() {
               Mientras tanto, puedes explorar nuestro{' '}
               <Link 
                 href="/blog" 
-                className="text-coral-600 font-bold hover:text-coral-700 underline decoration-2 underline-offset-2"
+                className="text-coral-700 font-bold hover:text-coral-800 underline decoration-2 underline-offset-2"
               >
                 blog con guías y recursos gratuitos
               </Link>

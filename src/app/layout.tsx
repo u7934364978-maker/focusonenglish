@@ -132,17 +132,20 @@ export default function RootLayout({
           {/* Google Analytics */}
           <GoogleAnalytics />
           
-          {/* Copyright watermark */}
-          <div style={{
-            position: 'fixed',
-            bottom: '10px',
-            right: '10px',
-            fontSize: '10px',
-            color: 'rgba(0,0,0,0.1)',
-            pointerEvents: 'none',
-            zIndex: 9999,
-            userSelect: 'none'
-          }}>
+          {/* Copyright watermark - contraste 4.5:1 (WCAG AA) */}
+          <div
+            style={{
+              position: 'fixed',
+              bottom: '10px',
+              right: '10px',
+              fontSize: '10px',
+              color: 'rgba(0,0,0,0.45)',
+              pointerEvents: 'none',
+              zIndex: 9999,
+              userSelect: 'none'
+            }}
+            aria-hidden="true"
+          >
             © 2026 Focus English
           </div>
           {children}

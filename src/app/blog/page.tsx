@@ -137,7 +137,7 @@ export default function BlogPage() {
                 <div className="grid lg:grid-cols-2 gap-0">
                   <div className="p-8 lg:p-12">
                     <div className="flex items-center gap-3 mb-4">
-                      <span className="px-3 py-1 rounded-full bg-coral-100 text-coral-700 text-xs font-bold uppercase tracking-wide">
+                      <span className="px-3 py-1 rounded-full bg-coral-100 text-coral-800 text-xs font-bold uppercase tracking-wide">
                         {featuredArticle.category}
                       </span>
                       <span className="text-slate-500 text-sm">
@@ -155,11 +155,11 @@ export default function BlogPage() {
 
                     <div className="flex gap-6 mb-8 pb-8 border-b border-slate-200">
                       <div>
-                        <div className="text-2xl font-black text-amber-600">{featuredArticle.readTime}</div>
+                        <div className="text-2xl font-black text-amber-700">{featuredArticle.readTime}</div>
                         <div className="text-xs text-slate-500 uppercase tracking-wide">Lectura</div>
                       </div>
                       <div>
-                        <div className="text-2xl font-black text-coral-600">{featuredArticle.author}</div>
+                        <div className="text-2xl font-black text-coral-700">{featuredArticle.author}</div>
                         <div className="text-xs text-slate-500 uppercase tracking-wide">Autor</div>
                       </div>
                     </div>
