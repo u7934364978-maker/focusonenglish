@@ -6,25 +6,27 @@
 // Página dedicada para alumnos que ya tienen acceso
 // ============================================
 
-import { useState, Suspense, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { signIn, getUser } from '@/lib/auth-helpers';
-import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 
 function SignInForm() {
-  const router = useRouter();
-  const searchParams = useSearchParams();
-  
-  // Obtener la ruta de destino y asegurar que sea relativa
-  let callbackUrl = searchParams.get('next') || searchParams.get('callbackUrl') || '/curso-a1/outline';
-  if (callbackUrl.startsWith('http')) {
-    try {
-      const url = new URL(callbackUrl);
-      callbackUrl = url.pathname + url.search;
-    } catch (e) {
-      callbackUrl = '/curso-a1/outline';
+  // callbackUrl desde URL (sin useSearchParams para evitar Suspense infinito en prod)
+  const [callbackUrl, setCallbackUrl] = useState('/curso-a1/outline');
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    const params = new URLSearchParams(window.location.search);
+    let next = params.get('next') || params.get('callbackUrl') || '/curso-a1/outline';
+    if (next.startsWith('http')) {
+      try {
+        const url = new URL(next);
+        next = url.pathname + url.search;
+      } catch {
+        next = '/curso-a1/outline';
+      }
     }
-  }
+    setCallbackUrl(next);
+  }, []);
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -283,9 +285,5 @@ function SignInForm() {
 }
 
 export default function SignInPage() {
-  return (
-    <Suspense fallback={<div className="min-h-screen bg-gradient-to-br from-coral-500 via-peach-400 to-coral-600 flex items-center justify-center"><div className="text-white text-xl">Cargando...</div></div>}>
-      <SignInForm />
-    </Suspense>
-  );
+  return <SignInForm />;
 }
