@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const path = require('path');
+const withBundleAnalyzer = require('@next/bundle-analyzer')({
+  enabled: process.env.ANALYZE === 'true',
+});
 
 const nextConfig = {
   compress: true,
@@ -12,7 +15,6 @@ const nextConfig = {
   },
   // Reduce unused JS: tree-shake large packages (framer-motion, radix, etc.)
   experimental: {
-    // Inline critical CSS para reducir cadena de solicitudes (elimina waterfall HTML→CSS)
     inlineCss: true,
     optimizePackageImports: [
       'framer-motion',
@@ -705,4 +707,4 @@ const nextConfig = {
   serverExternalPackages: ['@google-cloud/text-to-speech', 'elevenlabs-node', 'resend'],
 }
 
-module.exports = nextConfig
+module.exports = withBundleAnalyzer(nextConfig)

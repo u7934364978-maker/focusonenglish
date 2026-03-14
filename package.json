@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "next dev -p 5436",
     "build": "next build",
+    "build:analyze": "ANALYZE=true next build",
     "build:turbo": "next build --turbopack",
     "start": "next start -p ${PORT:-3000}",
     "lint": "next lint",
@@ -42,6 +43,7 @@
     "audit-seo": "node scripts/audit-blog-seo.mjs"
   },
   "dependencies": {
+    "@emotion/react": "^11.13.5",
     "@google-cloud/text-to-speech": "^6.4.0",
     "@radix-ui/react-avatar": "^1.1.11",
     "@radix-ui/react-progress": "^1.1.8",
@@ -68,13 +70,13 @@
     "react-dom": "19.0.0",
     "react-markdown": "^10.1.0",
     "remark-gfm": "^4.0.1",
-    "@emotion/react": "^11.13.5",
     "resend": "^6.7.0",
     "stripe": "^20.1.2",
     "tailwind-merge": "^3.4.0",
     "zod": "^4.3.5"
   },
   "devDependencies": {
+    "@next/bundle-analyzer": "^16.1.6",
     "@playwright/test": "^1.57.0",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
