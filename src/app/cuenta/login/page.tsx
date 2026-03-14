@@ -7,14 +7,21 @@
 // ============================================
 
 import { useState, useEffect } from 'react';
-import { signIn, getUser } from '@/lib/auth-helpers';
+import { getUser } from '@/lib/auth-helpers';
 import Link from 'next/link';
 
 function SignInForm() {
   const [callbackUrl, setCallbackUrl] = useState('/curso-a1/outline');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [error, setError] = useState('');
+
   useEffect(() => {
     if (typeof window === 'undefined') return;
     const params = new URLSearchParams(window.location.search);
+    const err = params.get('error');
+    if (err === 'auth' || err === 'missing') setError('Email o contraseña incorrectos');
+    else if (err === 'server') setError('Error al iniciar sesión. Intenta nuevamente.');
     let next = params.get('next') || params.get('callbackUrl') || '/curso-a1/outline';
     if (next.startsWith('http')) {
       try {
@@ -26,10 +33,6 @@ function SignInForm() {
     }
     setCallbackUrl(next);
   }, []);
-
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-  const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
   const [isAlreadyLoggedIn, setIsAlreadyLoggedIn] = useState(false);
 
@@ -44,46 +47,11 @@ function SignInForm() {
     checkUser();
   }, []);
 
-  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
+  // Formulario POST a API route - funciona sin JS, evita problemas de cliente
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     setError('');
     setLoading(true);
-
-    try {
-      const { user, error: authError } = await signIn(email, password);
-
-      if (authError || !user) {
-        setError('Email o contraseña incorrectos');
-      } else {
-        try {
-          const { supabase } = await import('@/lib/supabase-client');
-          const { data: profile } = await supabase
-            .from('user_profiles')
-            .select('subscription_status')
-            .eq('user_id', user.id)
-            .single();
-
-          if (!profile) {
-            await supabase.from('user_profiles').insert({
-              user_id: user.id,
-              email: user.email,
-              name: user.user_metadata?.full_name || user.user_metadata?.name || '',
-              subscription_status: 'inactive',
-              subscription_plan: 'free',
-            });
-          }
-        } catch {
-          // Continuar aunque falle el perfil
-        }
-
-        await new Promise((r) => setTimeout(r, 200));
-        window.location.href = callbackUrl;
-      }
-    } catch (err) {
-      setError('Error al iniciar sesión. Intenta nuevamente.');
-    } finally {
-      setLoading(false);
-    }
+    // El form hace POST nativo a /api/auth/login
   };
 
   const handleLogout = async () => {
@@ -150,14 +118,21 @@ function SignInForm() {
                 </div>
               )}
 
-              {/* Login Form */}
-              <form onSubmit={handleSubmit} className="space-y-5">
+              {/* Login Form - POST a API route (funciona sin JS) */}
+              <form
+                action="/api/auth/login"
+                method="POST"
+                onSubmit={handleSubmit}
+                className="space-y-5"
+              >
+                <input type="hidden" name="callbackUrl" value={callbackUrl} />
                 <div>
                   <label htmlFor="email" className="block text-sm font-bold text-slate-700 mb-2">
                     Email
                   </label>
                   <input
                     id="email"
+                    name="email"
                     type="email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
@@ -174,6 +149,7 @@ function SignInForm() {
                   </label>
                   <input
                     id="password"
+                    name="password"
                     type="password"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
