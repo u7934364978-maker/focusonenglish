@@ -9,7 +9,21 @@ import { WelcomeWrapper } from './WelcomeWrapper';
 export const dynamic = 'force-dynamic';
 
 async function A1PreviewContent() {
-  const courseMetadata = await premiumCourseServerService.getA1UnitsWithMetadata();
+  let courseMetadata;
+  try {
+    courseMetadata = await premiumCourseServerService.getA1UnitsWithMetadata();
+  } catch (err) {
+    console.error('[curso-a1] Error loading course metadata:', err);
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-[#FEF9F5] p-6">
+        <div className="max-w-md text-center">
+          <p className="text-lg font-semibold text-slate-800 mb-2">Error al cargar el curso</p>
+          <p className="text-slate-600 mb-4">No se pudieron cargar los datos. Intenta recargar la página.</p>
+          <a href="/curso-a1" className="text-coral-600 font-bold hover:underline">Recargar</a>
+        </div>
+      </div>
+    );
+  }
   const totalExercises = courseMetadata.units.reduce((sum, unit) => sum + unit.exerciseCount, 0);
   const totalHours = Math.round(courseMetadata.totalDuration / 60);
 

@@ -26,6 +26,15 @@ const nextConfig = {
   },
   // Fix Vercel build: use project root for file tracing (avoids multi-lockfile inference)
   outputFileTracingRoot: path.join(__dirname),
+  // Incluir contenido de cursos en el bundle (fs.readFileSync no se traza automáticamente)
+  outputFileTracingIncludes: {
+    '/curso-a1': ['src/content/cursos/ingles-a1/**/*.json'],
+    '/curso-a1/outline': ['src/content/cursos/ingles-a1/**/*.json'],
+    '/curso-a2': ['src/content/cursos/ingles-a2/**/*.json'],
+    '/curso-a2/outline': ['src/content/cursos/ingles-a2/**/*.json'],
+    '/curso-b1': ['src/content/cursos/ingles-b1/**/*.json'],
+    '/curso-b1/outline': ['src/content/cursos/ingles-b1/**/*.json'],
+  },
   // Vercel deployment - native Next.js support
   typescript: {
     ignoreBuildErrors: true,
