@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { createClient } from '@/lib/supabase/server';
+import { createServerClient } from '@supabase/ssr';
+import { cookies } from 'next/headers';
 
 export async function POST(request: NextRequest) {
   try {
@@ -22,7 +23,31 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const supabase = await createClient();
+    const cookieStore = await cookies();
+    const cookiesToSet: { name: string; value: string; options?: Record<string, unknown> }[] = [];
+
+    const supabase = createServerClient(
+      process.env.NEXT_PUBLIC_SUPABASE_URL!,
+      process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!,
+      {
+        cookies: {
+          getAll() {
+            return cookieStore.getAll();
+          },
+          setAll(cookies: { name: string; value: string; options?: Record<string, unknown> }[]) {
+            cookiesToSet.push(...cookies);
+            cookies.forEach(({ name, value, options }) => {
+              try {
+                cookieStore.set(name, value, options ?? {});
+              } catch {
+                // Ignorar en Server Components
+              }
+            });
+          },
+        },
+      }
+    );
+
     const { data, error } = await supabase.auth.signInWithPassword({ email, password });
 
     if (error) {
@@ -59,7 +84,12 @@ export async function POST(request: NextRequest) {
     }
 
     const url = new URL(callbackUrl, request.url);
-    return NextResponse.redirect(url);
+    const response = NextResponse.redirect(url);
+    // Asegurar que las cookies de sesión se envían en el redirect (fix: contenido no cargaba)
+    cookiesToSet.forEach(({ name, value, options }) => {
+      response.cookies.set(name, value, options ?? {});
+    });
+    return response;
   } catch (err) {
     console.error('[auth/login]', err);
     return NextResponse.redirect(
