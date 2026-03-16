@@ -714,18 +714,8 @@ const nextConfig = {
   // Paquetes externos que deben ejecutarse en el servidor
   serverExternalPackages: ['resend'],
 
-  // Webpack: forzar React singleton solo en cliente (evitar createContext undefined)
-  // No aplicar en servidor/edge: rompe "react-server" condition de RSC
-  webpack: (config, { isServer }) => {
-    if (!isServer) {
-      config.resolve.alias = {
-        ...config.resolve.alias,
-        react: path.resolve(__dirname, 'node_modules/react'),
-        'react-dom': path.resolve(__dirname, 'node_modules/react-dom'),
-      };
-    }
-    return config;
-  },
+  // Webpack: sin alias React - causaba hydration mismatch (#418) y appendChild/removeChild
+  webpack: (config) => config,
 }
 
 module.exports = withBundleAnalyzer(nextConfig)
