@@ -120,7 +120,7 @@ export default function RootLayout({
         
 
       </head>
-      <body className="antialiased bg-white text-slate-900 font-sans dark:bg-slate-950 dark:text-slate-50">
+      <body className="antialiased bg-white text-slate-900 font-sans dark:bg-slate-950 dark:text-slate-50" suppressHydrationWarning>
         <ThemeProvider
           attribute="class"
           defaultTheme="light"

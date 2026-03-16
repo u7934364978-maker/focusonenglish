@@ -714,8 +714,18 @@ const nextConfig = {
   // Paquetes externos que deben ejecutarse en el servidor
   serverExternalPackages: ['resend'],
 
-  // Webpack: sin alias React - causaba hydration mismatch (#418) y appendChild/removeChild
-  webpack: (config) => config,
+  // Webpack: forzar React singleton en cliente para framer-motion (createContext undefined)
+  // Solo cliente: evita romper react-server en edge
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      config.resolve.alias = {
+        ...config.resolve.alias,
+        react: path.resolve(__dirname, 'node_modules/react'),
+        'react-dom': path.resolve(__dirname, 'node_modules/react-dom'),
+      };
+    }
+    return config;
+  },
 }
 
 module.exports = withBundleAnalyzer(nextConfig)
