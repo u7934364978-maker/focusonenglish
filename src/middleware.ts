@@ -147,8 +147,10 @@ export async function middleware(request: NextRequest) {
   }
 
   // Rutas públicas que NO deben redirigir al dashboard si está logueado (ej. recursos estáticos, webhooks, etc.)
+  // API de cursos: pasar sin auth (la página ya está protegida; la API valida cookies internamente)
   if (
     pathname.startsWith("/api/webhooks") ||
+    pathname.startsWith("/api/course/") ||
     pathname.startsWith("/audio/") ||
     pathname.includes('.') // Archivos estáticos
   ) {

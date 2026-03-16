@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { createClient } from '@/lib/supabase/server';
 import { B1_COURSE } from '@/lib/course/b1';
 import { FINAL_TEST_B1_EXERCISES, FINAL_TEST_B1_TITLE } from '@/lib/course/b1/final-test-b1';
 
@@ -8,12 +7,7 @@ export async function GET(
   { params }: { params: Promise<{ unitId: string }> }
 ) {
   try {
-    const supabase = await createClient();
-    const { data: { user } } = await supabase.auth.getUser();
-    if (!user) {
-      return NextResponse.json({ error: 'No autenticado' }, { status: 401 });
-    }
-
+    // Auth: la página /curso-b1/* ya está protegida por middleware
     const { unitId } = await params;
 
     if (unitId === 'test-final') {
