@@ -1,6 +1,5 @@
 'use client';
 
-import { useParams } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import ExerciseRenderer from '@/components/ExerciseRenderer';
 import { ArrowLeft, ArrowRight, Home, CheckCircle, Sparkles } from 'lucide-react';
@@ -10,22 +9,51 @@ import { trackUnitTimeSpent, trackExerciseCompletion, trackUnitCompletion } from
 const CHUNK_SIZE = 15;
 
 interface Props {
-  exercises: any[];
-  unitTitle: string;
+  unitId: string;
   initialIndex?: number;
 }
 
-export default function B1UnitClient({ exercises, unitTitle, initialIndex = 0 }: Props) {
-  const params = useParams();
-  const unitId = params.unitId as string;
-  const safeIndex = Math.max(0, Math.min(initialIndex, Math.max(0, exercises.length - 1)));
-  const [currentIndex, setCurrentIndex] = useState(safeIndex);
+export default function B1UnitClient({ unitId, initialIndex = 0 }: Props) {
+  const [exercises, setExercises] = useState<any[]>([]);
+  const [unitTitle, setUnitTitle] = useState('');
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+  const [currentIndex, setCurrentIndex] = useState(0);
   const [showLessonComplete, setShowLessonComplete] = useState(false);
   const [showUnitSummary, setShowUnitSummary] = useState(false);
   const [startTime] = useState(Date.now());
   const [failedIndexes, setFailedIndexes] = useState<number[]>([]);
 
   const isFinalTest = unitId === 'test-final';
+
+  useEffect(() => {
+    let cancelled = false;
+    async function load() {
+      try {
+        const res = await fetch(`/api/course/b1/${encodeURIComponent(unitId)}`);
+        if (!res.ok) {
+          const data = await res.json().catch(() => ({}));
+          throw new Error(data.error || `Error ${res.status}`);
+        }
+        const data = await res.json();
+        if (!cancelled) {
+          setExercises(Array.isArray(data.exercises) ? data.exercises : []);
+          setUnitTitle(data.title || `Unidad ${unitId.replace('unit-', '')}`);
+          const idx = Number.isFinite(initialIndex) ? Math.max(0, Math.min(initialIndex, (data.exercises?.length ?? 1) - 1)) : 0;
+          setCurrentIndex(idx);
+        }
+      } catch (err) {
+        if (!cancelled) {
+          setError(err instanceof Error ? err.message : 'Error al cargar');
+          setExercises([]);
+        }
+      } finally {
+        if (!cancelled) setLoading(false);
+      }
+    }
+    load();
+    return () => { cancelled = true; };
+  }, [unitId, initialIndex]);
 
   useEffect(() => {
     return () => {
@@ -42,6 +70,37 @@ export default function B1UnitClient({ exercises, unitTitle, initialIndex = 0 }:
       trackUnitCompletion(unitId, exercises.length, durationMinutes);
     }
   }, [showUnitSummary]);
+
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-slate-50">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-emerald-500 mx-auto mb-4"></div>
+          <p className="text-slate-600 font-medium">Cargando Unidad {unitId}...</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-slate-50">
+        <div className="max-w-md w-full p-8 bg-white rounded-2xl shadow-xl text-center">
+          <div className="w-16 h-16 bg-red-100 text-red-600 rounded-full flex items-center justify-center mx-auto mb-4">
+            <Home className="w-8 h-8" />
+          </div>
+          <h2 className="text-2xl font-black text-slate-800 mb-2">Error de Carga</h2>
+          <p className="text-slate-600 mb-6">{error}</p>
+          <Link
+            href="/curso-b1"
+            className="inline-block bg-slate-800 text-white px-8 py-3 rounded-xl font-bold hover:bg-slate-900 transition-all"
+          >
+            Volver al Curso B1
+          </Link>
+        </div>
+      </div>
+    );
+  }
 
   if (exercises.length === 0) {
     return (
@@ -205,25 +264,27 @@ export default function B1UnitClient({ exercises, unitTitle, initialIndex = 0 }:
           />
         </div>
 
-        <ExerciseRenderer
-          key={currentExercise.id}
-          exercise={currentExercise}
-          onComplete={(result?: { success: boolean; score: number }) => {
-            trackExerciseCompletion(unitId, currentIndex, exercises.length);
-            if (isFinalTest && result?.success === false) {
-              setFailedIndexes((prev) =>
-                prev.includes(currentIndex) ? prev : [...prev, currentIndex]
-              );
-            }
-            if (currentIndex === exercises.length - 1) {
-              setShowUnitSummary(true);
-            } else if (!isFinalTest && (currentIndex + 1) % CHUNK_SIZE === 0) {
-              setShowLessonComplete(true);
-            } else {
-              setCurrentIndex((prev) => prev + 1);
-            }
-          }}
-        />
+        {currentExercise && (
+          <ExerciseRenderer
+            key={currentExercise.id}
+            exercise={currentExercise}
+            onComplete={(result?: { success: boolean; score: number }) => {
+              trackExerciseCompletion(unitId, currentIndex, exercises.length);
+              if (isFinalTest && result?.success === false) {
+                setFailedIndexes((prev) =>
+                  prev.includes(currentIndex) ? prev : [...prev, currentIndex]
+                );
+              }
+              if (currentIndex === exercises.length - 1) {
+                setShowUnitSummary(true);
+              } else if (!isFinalTest && (currentIndex + 1) % CHUNK_SIZE === 0) {
+                setShowLessonComplete(true);
+              } else {
+                setCurrentIndex((prev) => prev + 1);
+              }
+            }}
+          />
+        )}
       </main>
     </div>
   );
