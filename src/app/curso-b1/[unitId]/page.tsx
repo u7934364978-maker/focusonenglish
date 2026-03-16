@@ -13,6 +13,7 @@ function UnitPreviewContent() {
   const params = useParams();
   const searchParams = useSearchParams();
   const unitId = params.unitId as string;
+  const indexParam = searchParams.get('index');
   const [exercises, setExercises] = useState<any[]>([]);
   const [unitTitle, setUnitTitle] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -54,7 +55,6 @@ function UnitPreviewContent() {
             setExercises([]);
           } else {
             setExercises(unitExercises);
-            const indexParam = searchParams.get('index');
             if (indexParam) {
               const idx = parseInt(indexParam);
               if (!isNaN(idx) && idx >= 0 && idx < unitExercises.length) setCurrentIndex(idx);
@@ -77,7 +77,6 @@ function UnitPreviewContent() {
           } else {
             setUnitTitle(unitModule.UNIT_TITLE || unitModule.title || `Unidad ${unitNumber}`);
             setExercises(unitExercises);
-            const indexParam = searchParams.get('index');
             if (indexParam) {
               const idx = parseInt(indexParam);
               if (!isNaN(idx) && idx >= 0 && idx < unitExercises.length) setCurrentIndex(idx);
@@ -91,7 +90,7 @@ function UnitPreviewContent() {
       }
     }
     loadUnit();
-  }, [unitId, searchParams, isFinalTest]);
+  }, [unitId, indexParam, isFinalTest]);
 
   if (loading) return (
     <div className="min-h-screen flex items-center justify-center bg-slate-50">
