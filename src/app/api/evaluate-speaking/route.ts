@@ -1,5 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 
+export const maxDuration = 60;
+
 export interface SpeakingEvaluationRequest {
   audioBase64: string;
   prompt: string;

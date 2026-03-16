@@ -1,5 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 
+export const maxDuration = 30;
+
 const GREETINGS: Record<string, Record<string, string>> = {
   emma: {
     general: "Hi there! I'm Emma, your English tutor. I'm so glad you're here to practice today! What would you like to talk about?",

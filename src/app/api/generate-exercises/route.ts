@@ -1,5 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 
+export const runtime = 'edge';
+export const maxDuration = 60;
+
 const LEVEL_CONTEXT: Record<string, string> = {
   A1: 'absolute beginner. Uses present simple, basic vocabulary (greetings, numbers, colors, family, everyday objects). Short sentences.',
   A2: 'elementary. Uses past simple, present continuous, common adjectives, everyday routines. Can describe simple situations.',
