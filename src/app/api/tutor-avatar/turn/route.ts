@@ -127,11 +127,28 @@ export async function POST(request: NextRequest) {
 
     const audioBuffer = Buffer.from(audioBase64, 'base64');
 
-    const transcription = await transcribeAudio(audioBuffer, accountId, apiToken);
-
-    if (!transcription) {
-      return NextResponse.json({ error: 'Could not understand audio. Please try again.' }, { status: 422 });
+    if (audioBuffer.byteLength < 3000) {
+      return NextResponse.json({ noSpeechDetected: true }, { status: 200 });
     }
+
+    const rawTranscription = await transcribeAudio(audioBuffer, accountId, apiToken);
+
+    const WHISPER_HALLUCINATIONS = new Set([
+      '', ' ', '.', '..', '...', 'you', 'you.', 'You.', 'You',
+      'Thank you.', 'Thank you', 'thank you', 'thanks', 'Thanks',
+      'Bye.', 'bye', 'Bye', 'goodbye', 'Goodbye',
+      'Hmm.', 'Hmm', 'hmm', 'Uh', 'uh', 'Um', 'um',
+      'music', 'Music', '[music]', '[Music]', '[MUSIC]',
+      '[Applause]', '[applause]', '[BLANK_AUDIO]',
+    ]);
+
+    const isHallucination = WHISPER_HALLUCINATIONS.has(rawTranscription) || rawTranscription.length < 3;
+
+    if (!rawTranscription || isHallucination) {
+      return NextResponse.json({ noSpeechDetected: true }, { status: 200 });
+    }
+
+    const transcription = rawTranscription;
 
     const systemPrompt = buildSystemPrompt(tutorId, level, topic);
     const messages = [

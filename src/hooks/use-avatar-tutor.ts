@@ -139,7 +139,15 @@ export function useAvatarTutor(config: UseTutorConfig) {
           });
 
           if (!res.ok) throw new Error('Turn failed');
-          const { transcription, reply, feedback: fb, audioBase64: replyAudio } = await res.json();
+          const data = await res.json();
+
+          if (data.noSpeechDetected) {
+            setError('No te escuché. Mantén pulsado el micrófono mientras hablas e inténtalo de nuevo.');
+            setOrbState('idle');
+            return;
+          }
+
+          const { transcription, reply, feedback: fb, audioBase64: replyAudio } = data;
 
           const userId = crypto.randomUUID();
           const tutorId2 = crypto.randomUUID();
