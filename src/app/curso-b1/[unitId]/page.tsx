@@ -4,14 +4,10 @@ export const dynamic = 'force-dynamic';
 
 interface Props {
   params: Promise<{ unitId: string }>;
-  searchParams: Promise<{ index?: string }>;
 }
 
-export default async function B1UnitPage({ params, searchParams }: Props) {
+export default async function B1UnitPage({ params }: Props) {
   const { unitId } = await params;
-  const { index } = await searchParams;
-  const initialIndex = index ? parseInt(index, 10) : 0;
-
   const unitNumber = unitId.replace('unit-', '');
   const unitNum = parseInt(unitNumber, 10);
   const isValidUnit =
@@ -34,10 +30,5 @@ export default async function B1UnitPage({ params, searchParams }: Props) {
     );
   }
 
-  return (
-    <B1UnitClient
-      unitId={unitId}
-      initialIndex={Number.isFinite(initialIndex) && initialIndex >= 0 ? initialIndex : 0}
-    />
-  );
+  return <B1UnitClient />;
 }
