@@ -13,16 +13,12 @@ const nextConfig = {
       '@emotion/react/jsx-runtime': 'react/jsx-runtime',
     },
   },
-  // Reduce unused JS: tree-shake large packages
-  // framer-motion deshabilitado - optimizePackageImports causaba "createContext is undefined" en curso-b1
+  // optimizePackageImports deshabilitado - causaba "createContext is undefined" con framer-motion/radix
   experimental: {
     inlineCss: true,
     optimizePackageImports: [
-      // 'framer-motion', // deshabilitado: createContext undefined en producción
-      '@radix-ui/react-avatar',
-      '@radix-ui/react-progress',
-      '@radix-ui/react-tabs',
-      // 'lucide-react', // deshabilitado: rompe renderizado en curso-b1
+      // Todos deshabilitados: createContext undefined en curso-b1 con React 19
+      // 'framer-motion', '@radix-ui/react-avatar', '@radix-ui/react-progress', '@radix-ui/react-tabs', 'lucide-react'
     ],
   },
   // Fix Vercel build: use project root for file tracing (avoids multi-lockfile inference)
@@ -718,9 +714,13 @@ const nextConfig = {
   // Paquetes externos que deben ejecutarse en el servidor
   serverExternalPackages: ['resend'],
 
-  // Webpack: splitChunks de framer-motion/radix deshabilitado - causaba "createContext is undefined"
-  // al aislar chunks que no recibían correctamente la instancia de React
+  // Webpack: forzar React como singleton para evitar "createContext is undefined"
   webpack: (config) => {
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      react: path.resolve(__dirname, 'node_modules/react'),
+      'react-dom': path.resolve(__dirname, 'node_modules/react-dom'),
+    };
     return config;
   },
 }
