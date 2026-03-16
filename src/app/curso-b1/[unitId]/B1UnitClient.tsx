@@ -6,6 +6,8 @@ import ExerciseRenderer from '@/components/ExerciseRenderer';
 import { ArrowLeft, ArrowRight, Home, CheckCircle, Sparkles } from 'lucide-react';
 import Link from 'next/link';
 import { trackUnitTimeSpent, trackExerciseCompletion, trackUnitCompletion } from '@/lib/analytics';
+import AIExercisePractice from '@/components/course/AIExercisePractice';
+import { useSpacedRepetition } from '@/hooks/use-spaced-repetition';
 
 const CHUNK_SIZE = 15;
 
@@ -31,7 +33,16 @@ function B1UnitContent() {
   const [startTime] = useState(Date.now());
   const [failedIndexes, setFailedIndexes] = useState<number[]>([]);
 
+  const { recordResult } = useSpacedRepetition('B1');
   const isFinalTest = unitId === 'test-final';
+
+  const handleAIPracticeReady = (aiExercises: any[]) => {
+    setExercises(aiExercises);
+    setCurrentIndex(0);
+    setFailedIndexes([]);
+    setShowUnitSummary(false);
+    setShowLessonComplete(false);
+  };
 
   useEffect(() => {
     return () => {
@@ -154,7 +165,13 @@ function B1UnitContent() {
             <div className="bg-slate-50 p-6 rounded-3xl"><p className="text-slate-400 text-sm font-bold uppercase mb-1">Ejercicios</p><p className="text-3xl font-black text-slate-800">{exercises.length}</p></div>
             <div className="bg-slate-50 p-6 rounded-3xl"><p className="text-slate-400 text-sm font-bold uppercase mb-1">Tiempo</p><p className="text-3xl font-black text-slate-800">{durationMinutes} min</p></div>
           </div>
-          <Link href="/curso-b1" className="w-full bg-slate-900 text-white py-6 rounded-2xl font-black text-xl hover:bg-slate-800 transition-all flex items-center justify-center gap-3">
+          <AIExercisePractice
+            courseLevel="B1"
+            mainTopic={unitTitle || 'General English'}
+            onExercisesReady={handleAIPracticeReady}
+          />
+
+          <Link href="/curso-b1" className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-xl hover:bg-slate-800 transition-all flex items-center justify-center gap-3">
             Volver al listado
           </Link>
         </div>
@@ -211,6 +228,11 @@ function B1UnitContent() {
           exercise={currentExercise}
           onComplete={(result?: { success: boolean; score: number }) => {
             trackExerciseCompletion(unitId, currentIndex, exercises.length);
+            const ex = exercises[currentIndex];
+            if (ex) {
+              const topic = ex.topicName || ex.topic || unitTitle || 'General';
+              recordResult(ex.id ?? `b1-${unitId}-${currentIndex}`, topic, result?.success ?? true, result?.score ?? 100);
+            }
             if (isFinalTest && result?.success === false) setFailedIndexes((prev) => prev.includes(currentIndex) ? prev : [...prev, currentIndex]);
             if (currentIndex === exercises.length - 1) setShowUnitSummary(true);
             else if (!isFinalTest && (currentIndex + 1) % CHUNK_SIZE === 0) setShowLessonComplete(true);

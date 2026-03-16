@@ -6,6 +6,8 @@ import ExerciseRenderer from '@/components/ExerciseRenderer';
 import { ArrowLeft, ArrowRight, Home, CheckCircle, Sparkles } from 'lucide-react';
 import Link from 'next/link';
 import { trackUnitTimeSpent, trackExerciseCompletion, trackUnitCompletion } from '@/lib/analytics';
+import AIExercisePractice from '@/components/course/AIExercisePractice';
+import { useSpacedRepetition } from '@/hooks/use-spaced-repetition';
 
 const CHUNK_SIZE = 18; // B2: 18 ejercicios por lección (vs 15 en B1)
 
@@ -22,6 +24,16 @@ function B2UnitContentInner() {
   const [showUnitSummary, setShowUnitSummary] = useState(false);
   const [startTime] = useState(Date.now());
   const [failedIndexes, setFailedIndexes] = useState<number[]>([]);
+
+  const { recordResult } = useSpacedRepetition('B2');
+
+  const handleAIPracticeReady = (aiExercises: any[]) => {
+    setExercises(aiExercises);
+    setCurrentIndex(0);
+    setFailedIndexes([]);
+    setShowUnitSummary(false);
+    setShowLessonComplete(false);
+  };
 
   useEffect(() => {
     return () => {
@@ -134,7 +146,13 @@ function B2UnitContentInner() {
               <p className="text-3xl font-black text-slate-800">{durationMinutes} min</p>
             </div>
           </div>
-          <Link href="/curso-b2" className="w-full bg-slate-900 text-white py-6 rounded-2xl font-black text-xl hover:bg-slate-800 transition-all shadow-xl flex items-center justify-center gap-3 transform hover:scale-[1.02] active:scale-95">
+          <AIExercisePractice
+            courseLevel="B2"
+            mainTopic={unitTitle || 'General English'}
+            onExercisesReady={handleAIPracticeReady}
+          />
+
+          <Link href="/curso-b2" className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-xl hover:bg-slate-800 transition-all shadow-xl flex items-center justify-center gap-3 transform hover:scale-[1.02] active:scale-95">
             Volver al listado de unidades
           </Link>
         </div>
@@ -199,8 +217,13 @@ function B2UnitContentInner() {
         <ExerciseRenderer
           key={currentExercise.id}
           exercise={currentExercise}
-          onComplete={() => {
+          onComplete={(result?: { success: boolean; score: number }) => {
             trackExerciseCompletion(unitId, currentIndex, exercises.length);
+            const ex = exercises[currentIndex];
+            if (ex) {
+              const topic = ex.topicName || ex.topic || unitTitle || 'General';
+              recordResult(ex.id ?? `b2-${unitId}-${currentIndex}`, topic, result?.success ?? true, result?.score ?? 100);
+            }
             if (currentIndex === exercises.length - 1) {
               setShowUnitSummary(true);
             } else if ((currentIndex + 1) % CHUNK_SIZE === 0) {

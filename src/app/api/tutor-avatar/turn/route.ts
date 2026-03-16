@@ -1,5 +1,39 @@
 import { NextRequest, NextResponse } from 'next/server';
 
+async function analyzeImageWithVision(
+  imageBase64: string,
+  accountId: string,
+  apiToken: string
+): Promise<string> {
+  const imageBytes = Array.from(Buffer.from(imageBase64, 'base64'));
+  const res = await fetch(
+    `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/@cf/meta/llama-3.2-11b-vision-instruct`,
+    {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${apiToken}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        messages: [
+          {
+            role: 'user',
+            content: 'Describe what you see in this image in detail, in English. Focus on objects, people, actions, setting, and any text visible. Be concise but thorough.',
+          },
+        ],
+        image: imageBytes,
+        max_tokens: 300,
+      }),
+    }
+  );
+  if (!res.ok) {
+    const err = await res.text();
+    throw new Error(`Vision failed: ${err}`);
+  }
+  const data = await res.json() as { result?: { response?: string } };
+  return data.result?.response?.trim() || 'An image was shared.';
+}
+
 const TUTOR_SYSTEM_PROMPTS: Record<string, string> = {
   emma: `You are Emma, a warm and professional English tutor from New York. Speak naturally, like a real teacher having a conversation. Be encouraging but correct mistakes gently.`,
   james: `You are James, a friendly and patient English tutor from London. Use natural British English. Be relaxed, casual, and very encouraging. Make the student feel comfortable.`,
@@ -38,7 +72,7 @@ OR if there is a mistake to correct:
 
 async function transcribeAudio(audioBuffer: Buffer, accountId: string, apiToken: string): Promise<string> {
   const res = await fetch(
-    `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/@cf/openai/whisper`,
+    `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/@cf/openai/whisper-large-v3-turbo`,
     {
       method: 'POST',
       headers: {
@@ -62,7 +96,7 @@ async function chatWithLlama(
   apiToken: string
 ): Promise<{ reply: string; feedback: null | { original: string; correction: string; explanation: string } }> {
   const res = await fetch(
-    `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/@cf/meta/llama-3.1-8b-instruct`,
+    `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/@cf/meta/llama-3.3-70b-instruct-fp8-fast`,
     {
       method: 'POST',
       headers: {
@@ -92,7 +126,7 @@ async function chatWithLlama(
 async function textToSpeech(text: string, gender: string, accountId: string, apiToken: string): Promise<Buffer> {
   const speaker = gender === 'female' ? 'luna' : 'orion';
   const res = await fetch(
-    `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/@cf/deepgram/aura-1`,
+    `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/@cf/deepgram/aura-2-en`,
     {
       method: 'POST',
       headers: {
@@ -112,7 +146,7 @@ async function textToSpeech(text: string, gender: string, accountId: string, api
 
 export async function POST(request: NextRequest) {
   try {
-    const { audioBase64, history = [], tutorId = 'emma', tutorGender = 'female', level = 'B1', topic = 'General conversation' } = await request.json();
+    const { audioBase64, imageBase64 = null, history = [], tutorId = 'emma', tutorGender = 'female', level = 'B1', topic = 'General conversation' } = await request.json();
 
     if (!audioBase64) {
       return NextResponse.json({ error: 'audioBase64 is required' }, { status: 400 });
@@ -150,11 +184,24 @@ export async function POST(request: NextRequest) {
 
     const transcription = rawTranscription;
 
+    let imageDescription = '';
+    if (imageBase64) {
+      try {
+        imageDescription = await analyzeImageWithVision(imageBase64, accountId, apiToken);
+      } catch (e) {
+        console.error('Vision analysis failed, continuing without image:', e);
+      }
+    }
+
     const systemPrompt = buildSystemPrompt(tutorId, level, topic);
+    const userContent = imageDescription
+      ? `[The student shared an image. Image description: ${imageDescription}]\n\nStudent said: ${transcription}`
+      : transcription;
+
     const messages = [
       { role: 'system', content: systemPrompt },
       ...history,
-      { role: 'user', content: transcription },
+      { role: 'user', content: userContent },
     ];
 
     const { reply, feedback } = await chatWithLlama(messages, accountId, apiToken);

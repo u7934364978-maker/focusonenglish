@@ -61,7 +61,7 @@ export async function POST(request: NextRequest) {
     }
 
     const whisperResponse = await fetch(
-      `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/@cf/openai/whisper`,
+      `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/@cf/openai/whisper-large-v3-turbo`,
       {
         method: 'POST',
         headers: {
@@ -125,7 +125,7 @@ Devuelve este JSON exacto:
 }`;
 
     const llamaResponse = await fetch(
-      `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/@cf/meta/llama-3.1-8b-instruct`,
+      `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/@cf/meta/llama-3.3-70b-instruct-fp8-fast`,
       {
         method: 'POST',
         headers: {

@@ -14,6 +14,8 @@ const FEEDBACK_CORRECT_HEADLINES = ['¡Correcto!', '¡Muy bien!', '¡Perfecto!',
 const FEEDBACK_INCORRECT_HEADLINES = ['Casi lo tienes', 'Otra oportunidad', 'Sigue intentando', 'Repasa y vuelve'];
 const FEEDBACK_INCORRECT_SUBTEXTS = ['Cada intento te acerca más. Sigue practicando.', 'Repasa el contenido y vuelve a intentarlo.', 'La constancia es la clave del progreso.'];
 import Link from 'next/link';
+import AIExercisePractice from '@/components/course/AIExercisePractice';
+import { useSpacedRepetition } from '@/hooks/use-spaced-repetition';
 
 const CHUNK_SIZE = 15;
 const STREAK_THRESHOLDS = [3, 5, 10];
@@ -101,6 +103,7 @@ function UnitPreviewContent() {
   const unitId = params.unitId as string;
   const { xp, completeExercise: saveXP, recordActivity } = useGamification();
   const { recordExercise } = useA1ProgressTracking();
+  const { recordResult } = useSpacedRepetition('A1');
 
   const [exercises, setExercises] = useState<any[]>([]);
   const [unitTitle, setUnitTitle] = useState<string>('');
@@ -218,9 +221,29 @@ function UnitPreviewContent() {
     }, 350);
   };
 
+  const handleAIPracticeReady = (aiExercises: any[]) => {
+    setExercises(aiExercises);
+    setCurrentIndex(0);
+    setFailedIndexes([]);
+    setFailCount(0);
+    setConsecutiveCorrect(0);
+    setSessionScore(0);
+    setLives(3);
+    setFeedback('idle');
+    setShowUnitSummary(false);
+    setShowLessonComplete(false);
+  };
+
   const handleExerciseComplete = (result?: { success: boolean; score: number }) => {
     const success = result?.success ?? true;
     const pts = result?.score ?? 100;
+
+    const ex = exercises[currentIndex];
+    if (ex) {
+      const topic = ex.topicName || ex.topic || unitTitle || 'General';
+      const exerciseId = ex.id ?? `a1-${unitId}-${currentIndex}`;
+      recordResult(exerciseId, topic, success, pts);
+    }
 
     // Registrar en BD para control de avances (unit_id 0 = Test final A1)
     const progressUnitId = isFinalTest ? 0 : parseInt(unitId.replace('unit-', ''), 10);
@@ -389,9 +412,15 @@ function UnitPreviewContent() {
             </div>
           )}
 
+          <AIExercisePractice
+            courseLevel="A1"
+            mainTopic={unitTitle || 'General English'}
+            onExercisesReady={handleAIPracticeReady}
+          />
+
           <Link
             href="/curso-a1"
-            className="block w-full bg-white text-[#FF6B6B] py-5 rounded-2xl font-bold text-base shadow-xl hover:-translate-y-0.5 transition-all text-center"
+            className="block w-full bg-white/20 border border-white/30 text-white py-4 rounded-2xl font-bold text-base hover:-translate-y-0.5 transition-all text-center"
           >
             {isFinalTest ? 'Volver al curso' : 'Continuar al curso'}
           </Link>

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useRef, useCallback } from 'react';
+import { useState, useRef, useCallback, useEffect } from 'react';
 import type { OrbState } from '@/components/tutor/AvatarOrb';
 
 export interface TutorMessage {
@@ -28,6 +28,8 @@ export function useAvatarTutor(config: UseTutorConfig) {
   const [feedback, setFeedback] = useState<TutorFeedback | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [isActive, setIsActive] = useState(false);
+
+  const [pendingImage, setPendingImage] = useState<string | null>(null);
 
   const mediaRecorderRef = useRef<MediaRecorder | null>(null);
   const audioChunksRef = useRef<Blob[]>([]);
@@ -65,10 +67,19 @@ export function useAvatarTutor(config: UseTutorConfig) {
     });
   }, []);
 
+  const attachImage = useCallback((base64: string) => {
+    setPendingImage(base64);
+  }, []);
+
+  const clearImage = useCallback(() => {
+    setPendingImage(null);
+  }, []);
+
   const start = useCallback(async () => {
     setError(null);
     setMessages([]);
     setFeedback(null);
+    setPendingImage(null);
     historyRef.current = [];
     setOrbState('thinking');
 
@@ -125,11 +136,15 @@ export function useAvatarTutor(config: UseTutorConfig) {
             reader.readAsDataURL(blob);
           });
 
+          const imageToSend = pendingImage;
+          if (imageToSend) setPendingImage(null);
+
           const res = await fetch('/api/tutor-avatar/turn', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
               audioBase64: base64,
+              imageBase64: imageToSend,
               history: historyRef.current,
               tutorId: config.tutorId,
               tutorGender: config.tutorGender,
@@ -204,10 +219,13 @@ export function useAvatarTutor(config: UseTutorConfig) {
     feedback,
     error,
     isActive,
+    pendingImage,
     start,
     startListening,
     stopListening,
     stop,
     unlockAudio,
+    attachImage,
+    clearImage,
   };
 }

@@ -6,6 +6,8 @@ import ExerciseRenderer from '@/components/ExerciseRenderer';
 import { ArrowLeft, ArrowRight, Home, CheckCircle, Sparkles } from 'lucide-react';
 import Link from 'next/link';
 import { trackUnitTimeSpent, trackExerciseCompletion, trackUnitCompletion } from '@/lib/analytics';
+import AIExercisePractice from '@/components/course/AIExercisePractice';
+import { useSpacedRepetition } from '@/hooks/use-spaced-repetition';
 
 const CHUNK_SIZE = 15;
 
@@ -23,7 +25,16 @@ function UnitPreviewContent() {
   const [startTime] = useState(Date.now());
   const [failedIndexes, setFailedIndexes] = useState<number[]>([]);
 
+  const { recordResult } = useSpacedRepetition('A2');
   const isFinalTest = unitId === 'test-final';
+
+  const handleAIPracticeReady = (aiExercises: any[]) => {
+    setExercises(aiExercises);
+    setCurrentIndex(0);
+    setFailedIndexes([]);
+    setShowUnitSummary(false);
+    setShowLessonComplete(false);
+  };
 
   useEffect(() => {
     return () => {
@@ -180,9 +191,15 @@ function UnitPreviewContent() {
             </div>
           )}
 
+          <AIExercisePractice
+            courseLevel="A2"
+            mainTopic={unitTitle || 'General English'}
+            onExercisesReady={handleAIPracticeReady}
+          />
+
           <Link 
             href="/curso-a2"
-            className="w-full bg-slate-900 text-white py-6 rounded-2xl font-black text-xl hover:bg-slate-800 transition-all shadow-xl flex items-center justify-center gap-3 transform hover:scale-[1.02] active:scale-95"
+            className="w-full bg-slate-900 text-white py-5 rounded-2xl font-black text-lg hover:bg-slate-800 transition-all shadow-xl flex items-center justify-center gap-3 transform hover:scale-[1.02] active:scale-95"
           >
             Volver al listado de unidades
           </Link>
@@ -269,6 +286,12 @@ function UnitPreviewContent() {
           exercise={currentExercise}
           onComplete={(result?: { success: boolean; score: number }) => {
             trackExerciseCompletion(unitId, currentIndex, exercises.length);
+            const ex = exercises[currentIndex];
+            if (ex) {
+              const topic = ex.topicName || ex.topic || unitTitle || 'General';
+              const exerciseId = ex.id ?? `a2-${unitId}-${currentIndex}`;
+              recordResult(exerciseId, topic, result?.success ?? true, result?.score ?? 100);
+            }
             if (isFinalTest && result?.success === false) {
               setFailedIndexes(prev => (prev.includes(currentIndex) ? prev : [...prev, currentIndex]));
             }

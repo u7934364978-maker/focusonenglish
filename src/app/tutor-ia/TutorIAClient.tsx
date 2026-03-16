@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useRef, useEffect } from 'react';
-import { Mic, MicOff, Power, RotateCcw, ArrowLeft, AlertCircle, CheckCircle } from 'lucide-react';
+import { Mic, MicOff, Power, RotateCcw, ArrowLeft, AlertCircle, CheckCircle, Camera, X } from 'lucide-react';
 import { useAvatarTutor } from '@/hooks/use-avatar-tutor';
 import AvatarOrb from '@/components/tutor/AvatarOrb';
 import { Navigation } from '@/components/sections/Navigation';
@@ -68,6 +68,7 @@ export default function TutorIAClient() {
   const [selectedLevel, setSelectedLevel] = useState('B1');
   const [selectedTopic, setSelectedTopic] = useState('general');
   const messagesEndRef = useRef<HTMLDivElement>(null);
+  const imageInputRef = useRef<HTMLInputElement>(null);
 
   const {
     orbState,
@@ -75,10 +76,13 @@ export default function TutorIAClient() {
     feedback,
     error,
     isActive,
+    pendingImage,
     start,
     startListening,
     stopListening,
     stop,
+    attachImage,
+    clearImage,
   } = useAvatarTutor({
     tutorId: selectedTutor.id,
     tutorGender: selectedTutor.gender,
@@ -259,6 +263,44 @@ export default function TutorIAClient() {
                     <Mic className={`w-8 h-8 ${canListen ? 'text-slate-900' : 'text-slate-400'}`} />
                   )}
                 </button>
+
+                <div className="flex items-center gap-2 mt-1">
+                  <input
+                    ref={imageInputRef}
+                    type="file"
+                    accept="image/*"
+                    className="hidden"
+                    onChange={(e) => {
+                      const file = e.target.files?.[0];
+                      if (!file) return;
+                      const reader = new FileReader();
+                      reader.onloadend = () => {
+                        const base64 = (reader.result as string).split(',')[1];
+                        attachImage(base64);
+                      };
+                      reader.readAsDataURL(file);
+                      e.target.value = '';
+                    }}
+                  />
+                  {pendingImage ? (
+                    <div className="flex items-center gap-1.5 bg-emerald-900/40 border border-emerald-500/30 rounded-xl px-3 py-1.5">
+                      <span className="text-emerald-400 text-xs font-semibold">📷 Imagen lista</span>
+                      <button onClick={clearImage} className="text-slate-400 hover:text-white transition-colors ml-1">
+                        <X className="w-3.5 h-3.5" />
+                      </button>
+                    </div>
+                  ) : (
+                    <button
+                      onClick={() => imageInputRef.current?.click()}
+                      disabled={!canListen}
+                      title="Compartir imagen con el tutor"
+                      className="flex items-center gap-1.5 text-slate-500 hover:text-slate-300 disabled:opacity-30 disabled:cursor-not-allowed transition-colors text-xs"
+                    >
+                      <Camera className="w-4 h-4" />
+                      Compartir imagen
+                    </button>
+                  )}
+                </div>
               </div>
 
               <button

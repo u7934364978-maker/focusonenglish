@@ -30,7 +30,7 @@ const GREETINGS: Record<string, Record<string, string>> = {
 async function textToSpeech(text: string, gender: string, accountId: string, apiToken: string): Promise<Buffer> {
   const speaker = gender === 'female' ? 'luna' : 'orion';
   const res = await fetch(
-    `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/@cf/deepgram/aura-1`,
+    `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/@cf/deepgram/aura-2-en`,
     {
       method: 'POST',
       headers: {
