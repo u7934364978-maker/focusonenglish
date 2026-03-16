@@ -1,21 +1,11 @@
 import { NextRequest, NextResponse } from 'next/server';
-import OpenAI from 'openai';
-
-
-export const runtime = 'edge';
-// Lazy initialization to avoid build-time errors when OPENAI_API_KEY is not set
-function getOpenAI() {
-  return new OpenAI({
-    apiKey: process.env.OPENAI_API_KEY || 'sk-dummy-key-for-build-only',
-  });
-}
 
 export interface SpeakingEvaluationRequest {
   audioBase64: string;
   prompt: string;
   expectedResponse?: string;
   targetWords?: string[];
-  level?: 'A1' | 'A2' | 'B1' | 'B2' | 'C1' | 'C2';
+  level?: string;
 }
 
 export interface SpeakingEvaluationResponse {
@@ -32,27 +22,18 @@ export interface SpeakingEvaluationResponse {
   missedWords: string[];
 }
 
-/**
- * API Route: Evaluate Speaking Exercise
- * POST /api/evaluate-speaking
- * 
- * Evaluates student's speaking recording using:
- * 1. OpenAI Whisper for transcription (Speech-to-Text)
- * 2. GPT-4 for pronunciation, fluency, grammar, vocabulary analysis
- */
 export async function POST(request: NextRequest) {
   try {
     const body: SpeakingEvaluationRequest = await request.json();
-    
+
     const {
       audioBase64,
       prompt,
       expectedResponse,
       targetWords = [],
-      level = 'B2'
+      level = 'A1',
     } = body;
 
-    // Validate required fields
     if (!audioBase64 || !prompt) {
       return NextResponse.json(
         { error: 'Missing required fields: audioBase64 and prompt' },
@@ -60,125 +41,118 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Step 1: Convert base64 to buffer
+    const accountId = process.env.CLOUDFLARE_ACCOUNT_ID;
+    const apiToken = process.env.CLOUDFLARE_API_TOKEN;
+
+    if (!accountId || !apiToken) {
+      return NextResponse.json(
+        { error: 'Cloudflare credentials not configured' },
+        { status: 500 }
+      );
+    }
+
     const audioBuffer = Buffer.from(audioBase64, 'base64');
 
-    // Step 2: Transcribe audio using Whisper
-    console.log('🎤 Transcribing audio with Whisper...');
-    
-    // Create a File-like object for OpenAI
-    const audioFile = new File([audioBuffer], 'recording.webm', { type: 'audio/webm' });
-    
-    const openai = getOpenAI();
+    const whisperResponse = await fetch(
+      `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/@cf/openai/whisper`,
+      {
+        method: 'POST',
+        headers: {
+          Authorization: `Bearer ${apiToken}`,
+          'Content-Type': 'application/octet-stream',
+        },
+        body: audioBuffer,
+      }
+    );
 
-    
-    const transcription = await openai.audio.transcriptions.create({
-      file: audioFile,
-      model: 'whisper-1',
-      language: 'en', // English
-      response_format: 'text'
-    });
+    if (!whisperResponse.ok) {
+      const err = await whisperResponse.text();
+      console.error('Whisper error:', err);
+      return NextResponse.json({ error: 'Transcription failed' }, { status: 500 });
+    }
 
-    console.log('✅ Transcription:', transcription);
+    const whisperResult = await whisperResponse.json() as { result?: { text?: string } };
+    const transcription: string = whisperResult.result?.text?.trim() || '';
 
-    // Step 3: Evaluate with GPT-4
-    console.log('🤖 Evaluating with GPT-4...');
-    
-    const evaluationPrompt = `Eres un profesor experto de inglés evaluando el desempeño oral de un estudiante.
+    const systemPrompt = `Eres un profesor de inglés que evalúa la pronunciación y expresión oral de estudiantes de nivel ${level}. Devuelve ÚNICAMENTE un JSON válido sin texto adicional.`;
 
-NIVEL: ${level}
-INSTRUCCIÓN DADA AL ESTUDIANTE: "${prompt}"
-${expectedResponse ? `RESPUESTA ESPERADA: "${expectedResponse}"` : ''}
-${targetWords.length > 0 ? `PALABRAS OBJETIVO A USAR: ${targetWords.join(', ')}` : ''}
+    const userPrompt = `Evalúa esta respuesta oral de un estudiante de nivel ${level}.
 
-RESPUESTA TRANSCRITA DEL ESTUDIANTE: "${transcription}"
+Instrucción dada: "${prompt}"
+${expectedResponse ? `Respuesta esperada: "${expectedResponse}"` : ''}
+${targetWords.length > 0 ? `Palabras clave: ${targetWords.join(', ')}` : ''}
+Transcripción del alumno: "${transcription}"
 
-Evalúa el desempeño oral del estudiante y proporciona puntuaciones (0-100) para:
-1. Pronunciación - claridad y corrección de los sonidos
-2. Fluidez - suavidad, ritmo natural, vacilaciones
-3. Gramática - corrección de estructuras de oraciones y tiempos verbales
-4. Vocabulario - adecuación y variedad de palabras utilizadas
-
-También proporciona:
-- Retroalimentación general (2-3 oraciones en español)
-- 2-3 fortalezas específicas
-- 2-3 áreas de mejora
-- Lista de palabras objetivo que usaron correctamente
-- Lista de palabras objetivo que omitieron (si aplica)
-
-Considera los estándares del nivel MCER ${level} al calificar.
-
-Responde en formato JSON:
+Devuelve este JSON exacto:
 {
-  "pronunciationScore": number,
-  "fluencyScore": number,
-  "grammarScore": number,
-  "vocabularyScore": number,
-  "overallScore": number,
-  "feedback": "Retroalimentación alentadora en español",
-  "strengths": ["fortaleza 1", "fortaleza 2"],
-  "improvements": ["mejora 1", "mejora 2"],
-  "detectedWords": ["palabra1", "palabra2"],
-  "missedWords": ["palabra3", "palabra4"]
+  "pronunciationScore": <0-100>,
+  "fluencyScore": <0-100>,
+  "grammarScore": <0-100>,
+  "vocabularyScore": <0-100>,
+  "overallScore": <0-100>,
+  "feedback": "<2-3 frases de retroalimentación constructiva en español>",
+  "strengths": ["<fortaleza 1>", "<fortaleza 2>"],
+  "improvements": ["<mejora 1>", "<mejora 2>"],
+  "detectedWords": [<palabras clave que usó>],
+  "missedWords": [<palabras clave que omitió>]
 }`;
 
-    const completion = await openai.chat.completions.create({
-      model: 'gpt-4o-mini',
-      messages: [
-        {
-          role: 'system',
-          content: `Eres un profesor alentador de inglés que proporciona retroalimentación constructiva para estudiantes de nivel ${level}. Sé comprensivo pero honesto sobre las áreas de mejora. Proporciona todas las respuestas en español.`
+    const llamaResponse = await fetch(
+      `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/@cf/meta/llama-3.1-8b-instruct`,
+      {
+        method: 'POST',
+        headers: {
+          Authorization: `Bearer ${apiToken}`,
+          'Content-Type': 'application/json',
         },
-        {
-          role: 'user',
-          content: evaluationPrompt
-        }
-      ],
-      response_format: { type: 'json_object' },
-      temperature: 0.3
-    });
+        body: JSON.stringify({
+          messages: [
+            { role: 'system', content: systemPrompt },
+            { role: 'user', content: userPrompt },
+          ],
+          max_tokens: 600,
+        }),
+      }
+    );
 
-    const evaluation = JSON.parse(completion.choices[0].message.content || '{}');
+    if (!llamaResponse.ok) {
+      const err = await llamaResponse.text();
+      console.error('Llama error:', err);
+      return NextResponse.json({ error: 'Evaluation failed' }, { status: 500 });
+    }
 
-    console.log('✅ Evaluation complete:', evaluation);
+    const llamaResult = await llamaResponse.json() as { result?: { response?: string } };
+    const rawText = llamaResult.result?.response || '';
 
-    // Combine results
+    let evaluation: Partial<SpeakingEvaluationResponse> = {};
+    try {
+      const jsonMatch = rawText.match(/\{[\s\S]*\}/);
+      if (jsonMatch) {
+        evaluation = JSON.parse(jsonMatch[0]);
+      }
+    } catch {
+      console.error('Failed to parse Llama JSON:', rawText);
+    }
+
     const response: SpeakingEvaluationResponse = {
       transcription,
-      pronunciationScore: evaluation.pronunciationScore || 70,
-      fluencyScore: evaluation.fluencyScore || 70,
-      grammarScore: evaluation.grammarScore || 70,
-      vocabularyScore: evaluation.vocabularyScore || 70,
-      overallScore: evaluation.overallScore || 70,
+      pronunciationScore: Number(evaluation.pronunciationScore) || 70,
+      fluencyScore: Number(evaluation.fluencyScore) || 70,
+      grammarScore: Number(evaluation.grammarScore) || 70,
+      vocabularyScore: Number(evaluation.vocabularyScore) || 70,
+      overallScore: Number(evaluation.overallScore) || 70,
       feedback: evaluation.feedback || '¡Buen esfuerzo! Sigue practicando.',
       strengths: evaluation.strengths || [],
       improvements: evaluation.improvements || [],
       detectedWords: evaluation.detectedWords || [],
-      missedWords: evaluation.missedWords || []
+      missedWords: evaluation.missedWords || [],
     };
 
     return NextResponse.json(response);
-
   } catch (error: any) {
-    console.error('❌ Error evaluating speaking:', error);
-    
-    // Provide helpful error messages
-    let errorMessage = 'Error al evaluar el ejercicio de expresión oral.';
-    
-    if (error.message?.includes('API key')) {
-      errorMessage = 'La clave API de OpenAI no está configurada o es inválida.';
-    } else if (error.message?.includes('audio')) {
-      errorMessage = 'Error al procesar el audio. Por favor, intenta grabar nuevamente.';
-    } else if (error.message?.includes('rate limit')) {
-      errorMessage = 'Límite de tasa excedido. Por favor, intenta nuevamente en un momento.';
-    }
-    
+    console.error('Error evaluating speaking:', error);
     return NextResponse.json(
-      { 
-        error: errorMessage,
-        details: error.message,
-        transcription: 'No se pudo transcribir el audio. Por favor, intenta nuevamente.'
-      },
+      { error: error.message || 'Error al evaluar el ejercicio de expresión oral.' },
       { status: 500 }
     );
   }
@@ -188,13 +162,10 @@ export async function GET() {
   return NextResponse.json({
     status: 'healthy',
     service: 'evaluacion-expresion-oral',
-    version: '1.0.0',
+    version: '2.0.0',
     features: [
-      'Conversión de voz a texto (Whisper)',
-      'Análisis de pronunciación',
-      'Evaluación de fluidez',
-      'Evaluación de gramática',
-      'Análisis de vocabulario'
-    ]
+      'Transcripción con Cloudflare Whisper',
+      'Evaluación con Cloudflare Llama 3.1',
+    ],
   });
 }
