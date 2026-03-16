@@ -62,6 +62,7 @@ export default function EnhancedSpeakingExercise({ question, onComplete, level }
   const [isPlayingModel, setIsPlayingModel] = useState(false);
   const [isEvaluating, setIsEvaluating] = useState(false);
   const [evaluation, setEvaluation] = useState<SpeakingEvaluation | null>(null);
+  const [evalError, setEvalError] = useState<string | null>(null);
   const [recordingTime, setRecordingTime] = useState(0);
   const [hasRecorded, setHasRecorded] = useState(false);
   const [micError, setMicError] = useState<MicrophoneError | null>(null);
@@ -288,6 +289,7 @@ export default function EnhancedSpeakingExercise({ question, onComplete, level }
     }
     setAudioUrl(null);
     setEvaluation(null);
+    setEvalError(null);
     setRecordingTime(0);
     setHasRecorded(false);
     setLiveTranscript('');
@@ -320,6 +322,7 @@ export default function EnhancedSpeakingExercise({ question, onComplete, level }
     if (!audioBlob) return;
 
     setIsEvaluating(true);
+    setEvalError(null);
 
     try {
       const reader = new FileReader();
@@ -349,13 +352,19 @@ export default function EnhancedSpeakingExercise({ question, onComplete, level }
         throw new Error('Failed to evaluate recording');
       }
 
-      const result: SpeakingEvaluation = await response.json();
+      const result = await response.json() as SpeakingEvaluation & { noSpeechDetected?: boolean };
+
+      if (result.noSpeechDetected) {
+        setEvalError(result.feedback || 'No se detectó voz. Habla claramente cerca del micrófono e inténtalo de nuevo.');
+        return;
+      }
+
       setEvaluation(result);
       onComplete(result);
 
     } catch (error) {
       console.error('Error evaluating recording:', error);
-      alert('No se pudo evaluar tu grabación. Inténtalo de nuevo.');
+      setEvalError('No se pudo evaluar tu grabación. Inténtalo de nuevo.');
     } finally {
       setIsEvaluating(false);
     }
@@ -673,6 +682,24 @@ export default function EnhancedSpeakingExercise({ question, onComplete, level }
           </div>
         </div>
       </div>
+
+      {/* No-speech error */}
+      {evalError && !evaluation && (
+        <div className="bg-amber-50 border-2 border-amber-300 rounded-2xl p-6 flex items-start gap-4">
+          <AlertCircle className="w-6 h-6 text-amber-500 flex-shrink-0 mt-0.5" />
+          <div className="flex-1">
+            <p className="font-semibold text-amber-800 mb-1">No se detectó audio</p>
+            <p className="text-amber-700 text-sm">{evalError}</p>
+          </div>
+          <button
+            onClick={resetRecording}
+            className="flex items-center gap-2 px-4 py-2 bg-amber-500 hover:bg-amber-600 text-white rounded-lg text-sm font-medium transition-colors"
+          >
+            <RotateCcw className="w-4 h-4" />
+            Grabar de nuevo
+          </button>
+        </div>
+      )}
 
       {/* Evaluation Results */}
       {evaluation && (

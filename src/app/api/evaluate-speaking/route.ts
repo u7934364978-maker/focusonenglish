@@ -53,6 +53,13 @@ export async function POST(request: NextRequest) {
 
     const audioBuffer = Buffer.from(audioBase64, 'base64');
 
+    if (audioBuffer.byteLength < 3000) {
+      return NextResponse.json(
+        { noSpeechDetected: true, transcription: '', overallScore: 0, feedback: 'No se detectó audio. Asegúrate de hablar cerca del micrófono e inténtalo de nuevo.' },
+        { status: 200 }
+      );
+    }
+
     const whisperResponse = await fetch(
       `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/@cf/openai/whisper`,
       {
@@ -72,7 +79,27 @@ export async function POST(request: NextRequest) {
     }
 
     const whisperResult = await whisperResponse.json() as { result?: { text?: string } };
-    const transcription: string = whisperResult.result?.text?.trim() || '';
+    const rawTranscription: string = whisperResult.result?.text?.trim() || '';
+
+    const WHISPER_HALLUCINATIONS = new Set([
+      '', ' ', '.', '..', '...', 'you', 'you.', 'You.', 'You',
+      'Thank you.', 'Thank you', 'thank you', 'thanks', 'Thanks',
+      'Bye.', 'bye', 'Bye', 'goodbye', 'Goodbye',
+      'Hmm.', 'Hmm', 'hmm', 'Uh', 'uh', 'Um', 'um',
+      'music', 'Music', '[music]', '[Music]', '[MUSIC]',
+      '[Applause]', '[applause]', '[BLANK_AUDIO]',
+    ]);
+
+    const isHallucination = WHISPER_HALLUCINATIONS.has(rawTranscription) || rawTranscription.length < 3;
+
+    if (isHallucination) {
+      return NextResponse.json(
+        { noSpeechDetected: true, transcription: '', overallScore: 0, feedback: 'No se detectó voz. Habla claramente cerca del micrófono e inténtalo de nuevo.' },
+        { status: 200 }
+      );
+    }
+
+    const transcription = rawTranscription;
 
     const systemPrompt = `Eres un profesor de inglés que evalúa la pronunciación y expresión oral de estudiantes de nivel ${level}. Devuelve ÚNICAMENTE un JSON válido sin texto adicional.`;
 
@@ -136,11 +163,11 @@ Devuelve este JSON exacto:
 
     const response: SpeakingEvaluationResponse = {
       transcription,
-      pronunciationScore: Number(evaluation.pronunciationScore) || 70,
-      fluencyScore: Number(evaluation.fluencyScore) || 70,
-      grammarScore: Number(evaluation.grammarScore) || 70,
-      vocabularyScore: Number(evaluation.vocabularyScore) || 70,
-      overallScore: Number(evaluation.overallScore) || 70,
+      pronunciationScore: Number(evaluation.pronunciationScore) || 0,
+      fluencyScore: Number(evaluation.fluencyScore) || 0,
+      grammarScore: Number(evaluation.grammarScore) || 0,
+      vocabularyScore: Number(evaluation.vocabularyScore) || 0,
+      overallScore: Number(evaluation.overallScore) || 0,
       feedback: evaluation.feedback || '¡Buen esfuerzo! Sigue practicando.',
       strengths: evaluation.strengths || [],
       improvements: evaluation.improvements || [],
