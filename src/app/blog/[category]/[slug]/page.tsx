@@ -8,7 +8,6 @@ import { BlogEnhancements } from "@/components/blog/BlogEnhancements";
 import { TableOfContents } from "@/components/blog/TableOfContents";
 import { SEOInterlinking } from "@/components/blog/SEOInterlinking";
 import { TopicClusterLinks } from "@/components/blog/TopicClusterLinks";
-import { CourseConversionCard } from "@/components/blog/CourseConversionCard";
 import { getBlogArticles, getArticleBySlug, getRelatedArticles, getRelatedByKeywords, normalizeCategory, slugify } from "@/lib/blog";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { optimizeSEOTitle } from "@/utils/seo-utils";
@@ -371,9 +370,6 @@ export default async function BlogArticle({ params }: { params: Promise<{ catego
 
                     {/* SEO Interlinking Block */}
                     <SEOInterlinking category={normalizedCategory} />
-                    
-                    {/* Course Conversion Widget (CTA) */}
-                    <CourseConversionCard category={normalizedCategory} />
                     
                     {/* Dynamic Topic Cluster */}
                     <TopicClusterLinks articles={clusterArticles} mainKeyword={mainKeyword} />
