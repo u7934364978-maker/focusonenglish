@@ -91,6 +91,13 @@ export default function TutorIAClient() {
   }, [messages]);
 
   const handleStart = async () => {
+    // Unlock browser autoplay policy immediately on user gesture
+    try {
+      const ctx = new AudioContext();
+      await ctx.resume();
+      ctx.close();
+    } catch { /* ignore */ }
+
     setStep('session');
     await start();
   };

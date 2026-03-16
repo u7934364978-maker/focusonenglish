@@ -34,6 +34,14 @@ export function useAvatarTutor(config: UseTutorConfig) {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const historyRef = useRef<{ role: string; content: string }[]>([]);
 
+  const unlockAudio = useCallback(async () => {
+    try {
+      const ctx = new AudioContext();
+      await ctx.resume();
+      ctx.close();
+    } catch { /* ignore */ }
+  }, []);
+
   const playAudioBase64 = useCallback((base64: string): Promise<void> => {
     return new Promise((resolve) => {
       if (audioRef.current) {
@@ -92,6 +100,7 @@ export function useAvatarTutor(config: UseTutorConfig) {
   const startListening = useCallback(async () => {
     if (orbState !== 'idle') return;
     setError(null);
+    await unlockAudio();
 
     try {
       const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
@@ -191,5 +200,6 @@ export function useAvatarTutor(config: UseTutorConfig) {
     startListening,
     stopListening,
     stop,
+    unlockAudio,
   };
 }
