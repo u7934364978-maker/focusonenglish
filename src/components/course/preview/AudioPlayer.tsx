@@ -1,17 +1,22 @@
 'use client';
 
 import { useState, useRef, useEffect, useCallback } from 'react';
-import { Play, Pause, Volume2, VolumeX, FileText } from 'lucide-react';
+import { Play, Pause, Volume2, VolumeX, FileText, Loader2 } from 'lucide-react';
 import { trackAudioPlayback } from '@/lib/analytics';
 
+function stripMarkup(text: string): string {
+  return text.replace(/\[\[([^\|]+)\|[^\]]+\]\]/g, '$1');
+}
+
 interface AudioPlayerProps {
-  audioUrl: string;
+  audioUrl?: string;
+  ttsText?: string;
   transcript?: string;
   className?: string;
   unitId?: string;
 }
 
-export function AudioPlayer({ audioUrl, transcript, className = '', unitId }: AudioPlayerProps) {
+export function AudioPlayer({ audioUrl, ttsText, transcript, className = '', unitId }: AudioPlayerProps) {
   const audioRef = useRef<HTMLAudioElement>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTime, setCurrentTime] = useState(0);
@@ -20,9 +25,44 @@ export function AudioPlayer({ audioUrl, transcript, className = '', unitId }: Au
   const [volume, setVolume] = useState(1);
   const [isMuted, setIsMuted] = useState(false);
   const [showTranscript, setShowTranscript] = useState(false);
+  const [blobUrl, setBlobUrl] = useState<string | null>(null);
+  const [isGenerating, setIsGenerating] = useState(false);
+  const [ttsError, setTtsError] = useState(false);
 
-  const togglePlayPause = useCallback(() => {
+  useEffect(() => {
+    return () => {
+      if (blobUrl) URL.revokeObjectURL(blobUrl);
+    };
+  }, [blobUrl]);
+
+  const togglePlayPause = useCallback(async () => {
     if (!audioRef.current) return;
+
+    if (!audioUrl && ttsText && !blobUrl && !isGenerating) {
+      setIsGenerating(true);
+      setTtsError(false);
+      try {
+        const res = await fetch('/api/tts', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ text: ttsText }),
+        });
+        if (!res.ok) throw new Error('TTS failed');
+        const blob = await res.blob();
+        const url = URL.createObjectURL(blob);
+        setBlobUrl(url);
+        audioRef.current.src = url;
+        await audioRef.current.load();
+        await audioRef.current.play();
+        setIsPlaying(true);
+        trackAudioPlayback('play', unitId);
+      } catch {
+        setTtsError(true);
+      } finally {
+        setIsGenerating(false);
+      }
+      return;
+    }
 
     if (isPlaying) {
       audioRef.current.pause();
@@ -32,7 +72,7 @@ export function AudioPlayer({ audioUrl, transcript, className = '', unitId }: Au
       trackAudioPlayback('play', unitId);
     }
     setIsPlaying(!isPlaying);
-  }, [isPlaying, unitId]);
+  }, [isPlaying, unitId, audioUrl, ttsText, blobUrl, isGenerating]);
 
   const handleSeek = (e: React.MouseEvent<HTMLDivElement>) => {
     if (!audioRef.current) return;
@@ -131,7 +171,7 @@ export function AudioPlayer({ audioUrl, transcript, className = '', unitId }: Au
 
   return (
     <div className={`bg-white rounded-2xl p-4 border border-slate-100 shadow-sm ${className}`}>
-      <audio ref={audioRef} src={audioUrl} preload="metadata" />
+      <audio ref={audioRef} src={blobUrl || audioUrl || ''} preload="metadata" />
 
       <div className="flex flex-col gap-4">
         {/* Progress Bar */}
@@ -169,10 +209,13 @@ export function AudioPlayer({ audioUrl, transcript, className = '', unitId }: Au
           {/* Play/Pause Button */}
           <button
             onClick={togglePlayPause}
-            aria-label={isPlaying ? 'Pause' : 'Play'}
-            className="flex items-center justify-center w-12 h-12 bg-[#FF6B6B] hover:bg-[#ff5252] text-white rounded-full transition-colors shadow-lg hover:shadow-xl"
+            disabled={isGenerating}
+            aria-label={isGenerating ? 'Generando audio...' : isPlaying ? 'Pause' : 'Play'}
+            className="flex items-center justify-center w-12 h-12 bg-[#FF6B6B] hover:bg-[#ff5252] disabled:opacity-70 text-white rounded-full transition-colors shadow-lg hover:shadow-xl"
           >
-            {isPlaying ? (
+            {isGenerating ? (
+              <Loader2 className="w-5 h-5 animate-spin" />
+            ) : isPlaying ? (
               <Pause className="w-6 h-6" fill="currentColor" />
             ) : (
               <Play className="w-6 h-6 ml-0.5" fill="currentColor" />
@@ -239,11 +282,18 @@ export function AudioPlayer({ audioUrl, transcript, className = '', unitId }: Au
           )}
         </div>
 
+        {/* TTS error */}
+        {ttsError && (
+          <p className="text-xs text-red-500 text-center">
+            No se pudo generar el audio. Inténtalo de nuevo.
+          </p>
+        )}
+
         {/* Transcript */}
         {transcript && showTranscript && (
           <div className="p-4 bg-slate-50 rounded-lg border border-slate-100">
             <h4 className="text-sm font-bold text-slate-700 mb-2">Transcripción</h4>
-            <p className="text-sm text-slate-600 leading-relaxed">{transcript}</p>
+            <p className="text-sm text-slate-600 leading-relaxed">{stripMarkup(transcript)}</p>
           </div>
         )}
       </div>
