@@ -573,16 +573,12 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
             />
           )}
 
-          {/* Listening sin audio: mostrar transcript como fallback para poder responder */}
+          {/* Listening sin audioUrl estático: reproducir con TTS bajo demanda */}
           {exercise.type === 'listening' && !exercise.audioUrl && exercise.transcript && (
-            <div className="rounded-xl bg-teal-50 border border-teal-200 p-4 md:p-5">
-              <p className="text-sm font-medium text-teal-800 mb-2">
-                Texto del audio (léelo para responder las preguntas)
-              </p>
-              <div className="text-slate-800 text-base leading-relaxed">
-                <TranslatedText text={exercise.transcript} />
-              </div>
-            </div>
+            <AudioPlayer
+              ttsText={exercise.transcript}
+              transcript={exercise.transcript}
+            />
           )}
 
           {/* Reading text: mejor contraste y tipografía */}
