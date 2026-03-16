@@ -1,7 +1,7 @@
 'use client';
 
-import { useParams, useSearchParams } from 'next/navigation';
-import { useEffect, useState, Suspense } from 'react';
+import { useParams } from 'next/navigation';
+import { useEffect, useState } from 'react';
 import ExerciseRenderer from '@/components/ExerciseRenderer';
 import { ArrowLeft, ArrowRight, Home, CheckCircle, Sparkles } from 'lucide-react';
 import Link from 'next/link';
@@ -11,9 +11,7 @@ const CHUNK_SIZE = 15;
 
 function UnitPreviewContent() {
   const params = useParams();
-  const searchParams = useSearchParams();
   const unitId = params.unitId as string;
-  const indexParam = searchParams.get('index');
   const [exercises, setExercises] = useState<any[]>([]);
   const [unitTitle, setUnitTitle] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -55,10 +53,6 @@ function UnitPreviewContent() {
             setExercises([]);
           } else {
             setExercises(unitExercises);
-            if (indexParam) {
-              const idx = parseInt(indexParam);
-              if (!isNaN(idx) && idx >= 0 && idx < unitExercises.length) setCurrentIndex(idx);
-            }
           }
         } else {
           const unitNumber = unitId.replace('unit-', '');
@@ -77,10 +71,6 @@ function UnitPreviewContent() {
           } else {
             setUnitTitle(unitModule.UNIT_TITLE || unitModule.title || `Unidad ${unitNumber}`);
             setExercises(unitExercises);
-            if (indexParam) {
-              const idx = parseInt(indexParam);
-              if (!isNaN(idx) && idx >= 0 && idx < unitExercises.length) setCurrentIndex(idx);
-            }
           }
         }
       } catch (err: any) {
@@ -90,7 +80,20 @@ function UnitPreviewContent() {
       }
     }
     loadUnit();
-  }, [unitId, indexParam, isFinalTest]);
+  }, [unitId, isFinalTest]);
+
+  // Sincronizar índice desde ?index=N (sin useSearchParams para evitar suspend)
+  useEffect(() => {
+    if (typeof window === 'undefined' || exercises.length === 0) return;
+    const params = new URLSearchParams(window.location.search);
+    const indexParam = params.get('index');
+    if (indexParam) {
+      const idx = parseInt(indexParam, 10);
+      if (!isNaN(idx) && idx >= 0 && idx < exercises.length) {
+        setCurrentIndex(idx);
+      }
+    }
+  }, [exercises.length]);
 
   if (loading) return (
     <div className="min-h-screen flex items-center justify-center bg-slate-50">
@@ -286,9 +289,5 @@ function UnitPreviewContent() {
 }
 
 export default function UnitPreviewPage() {
-  return (
-    <Suspense fallback={<div className="p-8 text-center">Cargando vista previa...</div>}>
-      <UnitPreviewContent />
-    </Suspense>
-  );
+  return <UnitPreviewContent />;
 }
