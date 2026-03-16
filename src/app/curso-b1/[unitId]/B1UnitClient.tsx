@@ -30,9 +30,13 @@ export default function B1UnitClient({ unitId, initialIndex = 0 }: Props) {
     let cancelled = false;
     async function load() {
       try {
+        const controller = new AbortController();
+        const timeout = setTimeout(() => controller.abort(), 15000);
         const res = await fetch(`/api/course/b1/${encodeURIComponent(unitId)}`, {
           credentials: 'include',
+          signal: controller.signal,
         });
+        clearTimeout(timeout);
         if (!res.ok) {
           const data = await res.json().catch(() => ({}));
           if (res.status === 401) {
@@ -49,7 +53,8 @@ export default function B1UnitClient({ unitId, initialIndex = 0 }: Props) {
         }
       } catch (err) {
         if (!cancelled) {
-          setError(err instanceof Error ? err.message : 'Error al cargar');
+          const msg = err instanceof Error ? err.message : 'Error al cargar';
+          setError(err instanceof Error && err.name === 'AbortError' ? 'La carga tardó demasiado. Intenta de nuevo.' : msg);
           setExercises([]);
         }
       } finally {

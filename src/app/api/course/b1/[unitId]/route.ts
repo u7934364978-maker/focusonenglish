@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { createClient } from '@/lib/supabase/server';
-import { getB1UnitData, getB1FinalTestData } from '@/lib/course/b1/loader';
+import { B1_COURSE } from '@/lib/course/b1';
+import { FINAL_TEST_B1_EXERCISES, FINAL_TEST_B1_TITLE } from '@/lib/course/b1/final-test-b1';
 
 export async function GET(
   request: NextRequest,
@@ -16,7 +17,8 @@ export async function GET(
     const { unitId } = await params;
 
     if (unitId === 'test-final') {
-      const { exercises, title } = await getB1FinalTestData();
+      const exercises = Array.isArray(FINAL_TEST_B1_EXERCISES) ? FINAL_TEST_B1_EXERCISES : [];
+      const title = FINAL_TEST_B1_TITLE ?? 'Test final B1';
       return NextResponse.json({ exercises, title });
     }
 
@@ -26,7 +28,13 @@ export async function GET(
       return NextResponse.json({ error: 'Unidad no encontrada' }, { status: 404 });
     }
 
-    const { exercises, title } = await getB1UnitData(unitNumber);
+    const unit = B1_COURSE.units.find((u) => u.id === unitNum);
+    if (!unit) {
+      return NextResponse.json({ error: 'Unidad no encontrada' }, { status: 404 });
+    }
+
+    const exercises = Array.isArray(unit.exercises) ? unit.exercises : [];
+    const title = unit.title ?? `Unidad ${unitNum}`;
     return NextResponse.json({ exercises, title });
   } catch (err) {
     console.error('[API course/b1]', err);
