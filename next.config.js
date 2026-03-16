@@ -714,13 +714,16 @@ const nextConfig = {
   // Paquetes externos que deben ejecutarse en el servidor
   serverExternalPackages: ['resend'],
 
-  // Webpack: forzar React como singleton para evitar "createContext is undefined"
-  webpack: (config) => {
-    config.resolve.alias = {
-      ...config.resolve.alias,
-      react: path.resolve(__dirname, 'node_modules/react'),
-      'react-dom': path.resolve(__dirname, 'node_modules/react-dom'),
-    };
+  // Webpack: forzar React singleton solo en cliente (evitar createContext undefined)
+  // No aplicar en servidor/edge: rompe "react-server" condition de RSC
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      config.resolve.alias = {
+        ...config.resolve.alias,
+        react: path.resolve(__dirname, 'node_modules/react'),
+        'react-dom': path.resolve(__dirname, 'node_modules/react-dom'),
+      };
+    }
     return config;
   },
 }
