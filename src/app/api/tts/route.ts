@@ -22,7 +22,7 @@ export async function POST(request: NextRequest) {
     const cleanText = stripMarkup(text);
 
     const response = await fetch(
-      `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/@cf/deepgram/aura-2-en`,
+      `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/@cf/deepgram/aura-1`,
       {
         method: 'POST',
         headers: {
