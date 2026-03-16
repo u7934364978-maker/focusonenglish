@@ -79,7 +79,6 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
     feedback: string;
   } | null>(null);
 
-  const [mounted, setMounted] = useState(false);
   const [exerciseCompleted, setExerciseCompleted] = useState(false);
   const autoAdvanceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
@@ -103,7 +102,6 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
   ) && (!!exercise.transcript || !!exerciseContent.text);
 
   useEffect(() => {
-    setMounted(true);
     setUserAnswer(null);
     setSubmitted(false);
     setIsCorrect(false);
@@ -471,8 +469,6 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
     );
   };
 
-  if (!mounted) return null;
-
   // Dedicated Renderers
   if (exercise.type === 'speaking-analysis' && questions.length > 0) {
     return (
@@ -556,7 +552,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
   return (
     <motion.div
       initial={{ opacity: 0, y: 16 }}
-      animate={{ opacity: isAnimating ? 0 : 1, y: isAnimating ? 16 : 0 }}
+      animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.3, ease: 'easeOut' }}
     >
       <div className="bg-white rounded-2xl shadow-lg shadow-slate-200/60 border border-slate-100 overflow-visible">
