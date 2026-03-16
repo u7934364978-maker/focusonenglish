@@ -13,12 +13,12 @@ const nextConfig = {
       '@emotion/react/jsx-runtime': 'react/jsx-runtime',
     },
   },
-  // Reduce unused JS: tree-shake large packages (framer-motion, radix, etc.)
-  // Nota: lucide-react deshabilitado - puede causar que ExerciseRenderer no renderice en cursos
+  // Reduce unused JS: tree-shake large packages
+  // framer-motion deshabilitado - optimizePackageImports causaba "createContext is undefined" en curso-b1
   experimental: {
     inlineCss: true,
     optimizePackageImports: [
-      'framer-motion',
+      // 'framer-motion', // deshabilitado: createContext undefined en producción
       '@radix-ui/react-avatar',
       '@radix-ui/react-progress',
       '@radix-ui/react-tabs',
@@ -718,28 +718,9 @@ const nextConfig = {
   // Paquetes externos que deben ejecutarse en el servidor
   serverExternalPackages: ['resend'],
 
-  // Webpack: aislar framer-motion/radix en chunks separados (solo cargan en rutas que los usan)
-  webpack: (config, { dev, isServer }) => {
-    if (!isServer && !dev) {
-      config.optimization.splitChunks = {
-        ...config.optimization.splitChunks,
-        cacheGroups: {
-          ...config.optimization.splitChunks?.cacheGroups,
-          framerMotion: {
-            test: /[\\/]node_modules[\\/]framer-motion[\\/]/,
-            name: 'framer-motion',
-            chunks: 'all',
-            enforce: true,
-          },
-          radix: {
-            test: /[\\/]node_modules[\\/]@radix-ui[\\/]/,
-            name: 'radix-ui',
-            chunks: 'all',
-            enforce: true,
-          },
-        },
-      };
-    }
+  // Webpack: splitChunks de framer-motion/radix deshabilitado - causaba "createContext is undefined"
+  // al aislar chunks que no recibían correctamente la instancia de React
+  webpack: (config) => {
     return config;
   },
 }
