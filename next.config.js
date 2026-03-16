@@ -3,6 +3,7 @@ const path = require('path');
 
 const nextConfig = {
   compress: true,
+  transpilePackages: ['framer-motion'],
   // Fix Vercel build: use project root for file tracing (avoids multi-lockfile inference)
   outputFileTracingRoot: path.join(__dirname),
   // Vercel deployment - native Next.js support
