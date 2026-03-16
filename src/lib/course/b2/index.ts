@@ -48,6 +48,16 @@ import { UNIT_47_EXERCISES } from './unit-47';
 import { UNIT_48_EXERCISES } from './unit-48';
 import { UNIT_49_EXERCISES } from './unit-49';
 import { UNIT_50_EXERCISES } from './unit-50';
+import { UNIT_51_EXERCISES } from './unit-51';
+import { UNIT_52_EXERCISES } from './unit-52';
+import { UNIT_53_EXERCISES } from './unit-53';
+import { UNIT_54_EXERCISES } from './unit-54';
+import { UNIT_55_EXERCISES } from './unit-55';
+import { UNIT_56_EXERCISES } from './unit-56';
+import { UNIT_57_EXERCISES } from './unit-57';
+import { UNIT_58_EXERCISES } from './unit-58';
+import { UNIT_59_EXERCISES } from './unit-59';
+import { UNIT_60_EXERCISES } from './unit-60';
 
 export const B2_COURSE = {
   units: [
@@ -101,5 +111,15 @@ export const B2_COURSE = {
     { id: 48, title: 'Innovation in Teaching', exercises: UNIT_48_EXERCISES },
     { id: 49, title: 'Sociology & Cultural Shifts', exercises: UNIT_49_EXERCISES },
     { id: 50, title: 'Repaso 41-49', exercises: UNIT_50_EXERCISES },
+    { id: 51, title: 'Global Economic Crisis', exercises: UNIT_51_EXERCISES },
+    { id: 52, title: 'Human Migration & Society', exercises: UNIT_52_EXERCISES },
+    { id: 53, title: 'The Future of Work', exercises: UNIT_53_EXERCISES },
+    { id: 54, title: 'Urban Planning & Sustainable Cities', exercises: UNIT_54_EXERCISES },
+    { id: 55, title: 'Cultural Heritage & Identity', exercises: UNIT_55_EXERCISES },
+    { id: 56, title: 'Digital Rights & Online Ethics', exercises: UNIT_56_EXERCISES },
+    { id: 57, title: 'Media Literacy & Critical Thinking', exercises: UNIT_57_EXERCISES },
+    { id: 58, title: 'Review: Advanced Conditionals', exercises: UNIT_58_EXERCISES },
+    { id: 59, title: 'Review: Modal Deduction & Speculation', exercises: UNIT_59_EXERCISES },
+    { id: 60, title: 'Final Course Review & Evaluation', exercises: UNIT_60_EXERCISES },
   ]
 };
