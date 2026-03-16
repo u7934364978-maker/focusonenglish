@@ -188,6 +188,8 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
                           src={article.image}
                           alt={article.alt || article.title}
                           fill
+                          quality={70}
+                          sizes="(max-width: 768px) 100vw, 33vw"
                           className="object-cover group-hover:scale-105 transition-transform duration-500"
                         />
                       </div>

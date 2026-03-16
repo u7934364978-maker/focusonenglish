@@ -34,9 +34,9 @@ faqs:
 
 ## Guía Maestra de Reported Speech y Reporting Verbs: De B2 a C2
 
-El **Reported Speech** (estilo indirecto) y los **Reporting Verbs** son pilares fundamentales de la gramática inglesa avanzada. Si estás preparando un examen de Cambridge (FCE, CAE o CPE), dominar estas estructuras no es solo una opción, sino una necesidad absoluta para obtener una puntuación alta en las secciones de **Use of English**, **Writing** y **Speaking**.
+El **Reported Speech** (estilo indirecto) y los **Reporting Verbs** son pilares fundamentales de la gramática inglesa avanzada. Dominar estas estructuras es imprescindible tanto para exámenes de nivel como para la comunicación profesional escrita y oral.
 
-En esta guía maestra, exploraremos en profundidad desde los conceptos básicos de transformación hasta las estructuras más complejas de los verbos de reporte, proporcionándote las herramientas necesarias para comunicarte con la precisión de un hablante nativo.
+En esta guía exploraremos en profundidad desde los conceptos básicos de transformación hasta las estructuras más complejas de los verbos de reporte. Si buscas el panorama general antes de entrar en los detalles, la guía [Reported Speech en Inglés](/hubs/reported-speech) es el punto de partida ideal.
 
 ## ¿Qué es el Reported Speech?
 

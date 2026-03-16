@@ -120,4 +120,17 @@ Usa modales como **could, would, might** y frases como **"if possible"** para ma
 
 Escribir un email profesional en inglés no tiene por qué ser una tarea estresante. Al seguir una estructura clara y utilizar las fórmulas de cortesía adecuadas, te asegurarás de que tu mensaje sea bien recibido y de proyectar una imagen de competencia y respeto.
 
-En **Focus English**, incorporamos la redacción comercial en todos nuestros programas para empresas. Sabemos que un email efectivo puede ser la llave para cerrar un trato o resolver un conflicto de manera constructiva. Sigue practicando y no dudes en consultar nuestros recursos sobre "vocabulario empresarial ingles" para seguir mejorando.
+## 📚 Profundiza más
+
+- [Cómo Estructurar un Email Formal en Inglés: Guía Paso a Paso](/blog/trabajo/email-formal-ingles-estructura)
+- [60 Frases para Emails Profesionales en Inglés que Suenan de Verdad](/blog/trabajo/frases-email-profesional-ingles)
+- [Cómo Escribir un Email de Queja en Inglés: Guía con Ejemplos](/blog/trabajo/email-queja-reclamacion-ingles)
+- [Follow-Up Email en Inglés: Cómo Hacer Seguimiento Sin Molestar](/blog/trabajo/follow-up-email-ingles)
+- [Cómo Disculparse por Email en Inglés: Apology Emails Profesionales](/blog/trabajo/email-disculpa-ingles)
+- [Emails de Negociación en Inglés: Cómo Proponer, Contraoferta y Cerrar](/blog/trabajo/email-negociacion-ingles)
+- [Email de Solicitud de Empleo en Inglés: Cover Letter y Primeros Contactos](/blog/trabajo/email-solicitud-empleo-ingles)
+- [Emails para Reuniones en Inglés: Convoca, Confirma y Cancela](/blog/trabajo/email-confirmacion-reunion-ingles)
+- [Emails de Actualización de Proyecto en Inglés: Progress Updates que Funcionan](/blog/trabajo/email-actualizacion-proyecto-ingles)
+- [Netiqueta en Emails en Inglés: Lo Que No Te Enseñan en el Libro de Texto](/blog/trabajo/netiqueta-email-ingles)
+- [Errores en Emails de Trabajo en Inglés que Debes Evitar](/blog/trabajo/ingles-emails-trabajo-errores-comunes)
+- [Plantillas de Emails Profesionales en Inglés para Cada Situación](/blog/trabajo/plantillas-emails-profesionales-ingles)

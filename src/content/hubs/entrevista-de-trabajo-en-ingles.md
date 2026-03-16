@@ -98,6 +98,22 @@ Después de la entrevista, envía un **Thank You Note** (por email) en las prime
 
 Dominar una entrevista de trabajo en inglés es una habilidad que se entrena. No se trata de tener una gramática perfecta, sino de ser capaz de comunicar tu valor de forma clara y profesional.
 
-En **Focus English**, nos especializamos en ayudar a profesionales a superar esta barrera. A través de nuestros simulacros de entrevista y sesiones de coaching, preparamos a nuestros alumnos para que consigan el puesto de sus sueños en empresas como Google, Amazon o startups tecnológicas líderes.
+En **Focus English**, te damos los recursos y el vocabulario para que puedas comunicar tu valor con claridad y confianza, independientemente de tu nivel actual.
 
-**¿Estás listo para el siguiente paso?** Explora nuestros recursos sobre "business english phrases" y "cv en inglés ejemplos" para completar tu preparación.
+**¿Listo para el siguiente paso?** Explora nuestros cursos y recursos para completar tu preparación.
+
+---
+
+## 📚 Profundiza más
+
+- [Cómo preparar una entrevista de trabajo en inglés paso a paso](/blog/trabajo/preparar-entrevista-trabajo-ingles)
+- [Preguntas difíciles en entrevistas en inglés y cómo responderlas](/blog/trabajo/preguntas-dificiles-entrevista-trabajo-ingles)
+- [Job Interview English: técnicas avanzadas para candidatos B2-C1](/blog/trabajo/job-interview-english-consejos-avanzados)
+- [Preguntas frecuentes en entrevistas de trabajo en inglés](/blog/trabajo/entrevista-trabajo-ingles-preguntas)
+- [La Técnica STAR en Inglés: Cómo Responder Preguntas de Comportamiento](/blog/trabajo/tecnica-star-entrevista-ingles)
+- [Vocabulario para Entrevistas de Trabajo en Inglés: Las Palabras que Marcan la Diferencia](/blog/trabajo/vocabulario-entrevista-trabajo-ingles)
+- [Entrevista Virtual en Inglés: Cómo Prepararte para una Videollamada Profesional](/blog/trabajo/entrevista-virtual-ingles)
+- [Cómo Negociar el Salario en Inglés: Frases y Estrategia para No Dejarlo Pasar](/blog/trabajo/negociar-salario-ingles)
+- [Preguntas para Hacer al Entrevistador en Inglés: Las que Realmente Funcionan](/blog/trabajo/preguntas-hacer-entrevistador-ingles)
+- [Errores en Entrevistas de Trabajo en Inglés: Lo que Hace que Pierdas el Puesto](/blog/trabajo/errores-entrevista-trabajo-ingles)
+- [Entrevista de Trabajo en Inglés sin Experiencia: Cómo Destacar cuando Empiezas](/blog/trabajo/entrevista-ingles-sin-experiencia)

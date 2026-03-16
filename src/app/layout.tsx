@@ -6,18 +6,21 @@ import Cookiebot from "@/components/Cookiebot";
 import { Nunito, Plus_Jakarta_Sans } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 
+// Fuentes mínimas: 3 pesos total para LCP <2.5s
 const nunito = Nunito({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800", "900"],
+  weight: ["400", "700"],
   variable: "--font-nunito",
-  display: "swap",
+  display: "optional",
+  preload: true,
 });
 
 const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
-  weight: ["600", "700", "800"],
+  weight: ["700"],
   variable: "--font-jakarta",
-  display: "swap",
+  display: "optional",
+  preload: true,
 });
 
 export const metadata: Metadata = {
@@ -100,6 +103,13 @@ export default function RootLayout({
   return (
     <html lang="es" className={`scroll-smooth ${nunito.variable} ${jakarta.variable}`} suppressHydrationWarning>
       <head>
+        {/* Preconnect críticos: imágenes, Supabase (auth), Cookiebot */}
+        <link rel="preconnect" href="https://images.pexels.com" />
+        <link rel="dns-prefetch" href="https://images.pexels.com" />
+        <link rel="preconnect" href="https://nprqtjljoekoirlrjxlh.supabase.co" />
+        <link rel="dns-prefetch" href="https://nprqtjljoekoirlrjxlh.supabase.co" />
+        <link rel="preconnect" href="https://consent.cookiebot.com" />
+        <link rel="dns-prefetch" href="https://consent.cookiebot.com" />
         {/* Schema.org structured data */}
         <OrganizationSchema />
         <WebsiteSchema />
@@ -110,33 +120,33 @@ export default function RootLayout({
         
 
       </head>
-      <body className="antialiased bg-white text-slate-900 font-sans dark:bg-slate-950 dark:text-slate-50">
+      <body className="antialiased bg-white text-slate-900 font-sans dark:bg-slate-950 dark:text-slate-50" suppressHydrationWarning>
         <ThemeProvider
           attribute="class"
           defaultTheme="light"
           enableSystem
           disableTransitionOnChange
         >
-          {/* Cookiebot Consent Management */}
+          {children}
+          {/* Scripts deferidos: no bloquean first paint */}
           <Cookiebot />
-          
-          {/* Google Analytics */}
           <GoogleAnalytics />
-          
-          {/* Copyright watermark */}
-          <div style={{
-            position: 'fixed',
-            bottom: '10px',
-            right: '10px',
-            fontSize: '10px',
-            color: 'rgba(0,0,0,0.1)',
-            pointerEvents: 'none',
-            zIndex: 9999,
-            userSelect: 'none'
-          }}>
+          {/* Copyright watermark - contraste 4.5:1 (WCAG AA) */}
+          <div
+            style={{
+              position: 'fixed',
+              bottom: '10px',
+              right: '10px',
+              fontSize: '10px',
+              color: 'rgba(0,0,0,0.55)',
+              pointerEvents: 'none',
+              zIndex: 9999,
+              userSelect: 'none'
+            }}
+            aria-hidden="true"
+          >
             © 2026 Focus English
           </div>
-          {children}
         </ThemeProvider>
       </body>
     </html>

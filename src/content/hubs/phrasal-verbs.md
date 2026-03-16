@@ -156,21 +156,21 @@ Para contextos laborales, algunos phrasal verbs son imprescindibles:
 
 ---
 
-## Recursos de Esta Guía
-
-En Focus English hemos creado artículos especializados para cada contexto y nivel. Explora nuestro cluster completo de phrasal verbs:
-
-- **Phrasal verbs para principiantes (A1-A2):** Los más básicos con ejemplos cotidianos
-- **Phrasal verbs para el trabajo:** Vocabulario profesional y de negocios
-- **Phrasal verbs con GET:** Todos los usos del verbo más versátil del inglés
-- **Phrasal verbs con PUT:** Domina todas las combinaciones esenciales
-- **Phrasal verbs B2 (FCE):** Lista definitiva de 150+ para el First Certificate
-- **Phrasal verbs C1 avanzados:** Registro formal para el CAE y uso profesional
-
----
-
 ## Conclusión
 
 Los phrasal verbs no son un obstáculo insalvable; son una **llave maestra** al inglés natural. Con el método adecuado —aprender por contexto, por lógica de partícula y con exposición real al idioma— puedes dominar los más frecuentes en cuestión de semanas.
 
-En **Focus English**, nuestro enfoque siempre combina la teoría con la práctica real. Sigue explorando nuestras guías especializadas para convertir los phrasal verbs en una de tus fortalezas en inglés.
+---
+
+## 📚 Profundiza más
+
+- [Phrasal Verbs para Principiantes: Lista Básica A1-A2 con Ejemplos](/blog/gramatica/phrasal-verbs-principiantes)
+- [Phrasal Verbs de Trabajo: 60 Verbos Esenciales para el Inglés Profesional](/blog/gramatica/phrasal-verbs-trabajo)
+- [Phrasal Verbs con GET: Lista Completa con Significados y Ejemplos Reales](/blog/gramatica/phrasal-verbs-with-get)
+- [Phrasal Verbs con MAKE: Lista con Significados, Ejemplos y Errores a Evitar](/blog/gramatica/phrasal-verbs-with-make)
+- [Phrasal Verbs con TAKE: Guía Completa con Significados y Ejemplos](/blog/gramatica/phrasal-verbs-with-take)
+- [Phrasal Verbs con GO: Lista Completa con Significados y Ejemplos](/blog/gramatica/phrasal-verbs-with-go)
+- [Phrasal Verbs con PUT: Lista Completa con Significados y Ejemplos](/blog/gramatica/phrasal-verbs-with-put)
+- [Phrasal Verbs para el B2 (FCE): Lista de los Más Importantes con Ejemplos](/blog/gramatica/phrasal-verbs-b2-fce)
+- [Phrasal Verbs C1 Avanzados: Los Más Usados en Registro Formal y Profesional](/blog/gramatica/phrasal-verbs-c1-avanzados)
+- [Phrasal Verbs en Conversación: Los Más Usados en el Inglés Cotidiano](/blog/gramatica/phrasal-verbs-conversacion-cotidiana)

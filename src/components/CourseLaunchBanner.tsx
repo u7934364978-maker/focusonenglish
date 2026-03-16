@@ -51,13 +51,13 @@ export function CourseLaunchBanner() {
           
           {/* Message Section */}
           <div className="flex-1 text-center lg:text-left">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-coral-100 text-coral-700 text-sm font-bold mb-3">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-coral-100 text-coral-800 text-sm font-bold mb-3">
               <span className="animate-pulse">🚀</span>
               Próximamente
             </div>
-            <h3 className="text-2xl sm:text-3xl font-black text-slate-900 mb-2">
+            <h2 className="text-2xl sm:text-3xl font-black text-slate-900 mb-2">
               ¡Gracias por visitar Focus English!
-            </h3>
+            </h2>
             <p className="text-slate-700 text-lg mb-2">
               Próximamente lanzaremos nuestros primeros cursos especializados.
             </p>
@@ -65,7 +65,7 @@ export function CourseLaunchBanner() {
               Mientras tanto, puedes explorar nuestro{' '}
               <Link 
                 href="/blog" 
-                className="text-coral-600 font-bold hover:text-coral-700 underline decoration-2 underline-offset-2"
+                className="text-coral-700 font-bold hover:text-coral-800 underline decoration-2 underline-offset-2"
               >
                 blog con guías y recursos gratuitos
               </Link>

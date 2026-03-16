@@ -50,16 +50,37 @@ export async function middleware(request: NextRequest) {
   const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
 
+  // Si Supabase no está configurado, permitir rutas públicas sin auth
+  const isPublicRoute =
+    PUBLIC_ROUTES.has(pathname) ||
+    isBlogRoute(pathname) ||
+    isPublicSEORoute(pathname);
   if (!supabaseUrl || !supabaseKey) {
-    if (pathname.startsWith("/misiones") && process.env.NODE_ENV === "development") {
-      return NextResponse.next();
+    if (isPublicRoute || pathname.startsWith("/misiones")) {
+      return response;
     }
+    // Para rutas protegidas sin Supabase, redirigir a login
+    if (
+      pathname.startsWith("/curso-a1") ||
+      pathname.startsWith("/curso-a2") ||
+      pathname.startsWith("/curso-b1") ||
+      pathname.startsWith("/curso-b2") ||
+      pathname.startsWith("/admin") ||
+      pathname.startsWith("/misiones") ||
+      pathname.startsWith("/onboarding")
+    ) {
+      const url = request.nextUrl.clone();
+      url.pathname = "/cuenta/login";
+      url.searchParams.set("next", pathname);
+      return NextResponse.redirect(url);
+    }
+    return response;
   }
 
-  const supabase = createServerClient(
-    supabaseUrl || "http://localhost:54321",
-    supabaseKey || "dummy",
-    {
+  let user = null;
+  let profile = null;
+  try {
+    const supabase = createServerClient(supabaseUrl, supabaseKey, {
       cookies: {
         getAll() {
           return request.cookies.getAll();
@@ -79,21 +100,37 @@ export async function middleware(request: NextRequest) {
           });
         },
       },
-    }
-  );
+    });
 
-  const { data: { user } } = await supabase.auth.getUser();
+    const { data: { user: authUser } } = await supabase.auth.getUser();
+    user = authUser;
 
-  // Obtener perfil si el usuario está logueado para decisiones de redirección
-  let profile = null;
-  if (user) {
+    if (user) {
     const { data } = await supabase
       .from("user_profiles")
       .select("subscription_status, role")
       .eq("user_id", user.id)
       .single();
     profile = data;
-    console.log(`[Middleware] User: ${user.email}, Status: ${profile?.subscription_status}, Role: ${profile?.role}`);
+    }
+  } catch (err) {
+    console.error("[Middleware] Auth error:", err);
+    if (isPublicRoute) return response;
+    if (
+      pathname.startsWith("/curso-a1") ||
+      pathname.startsWith("/curso-a2") ||
+      pathname.startsWith("/curso-b1") ||
+      pathname.startsWith("/curso-b2") ||
+      pathname.startsWith("/admin") ||
+      pathname.startsWith("/misiones") ||
+      pathname.startsWith("/onboarding")
+    ) {
+      const url = request.nextUrl.clone();
+      url.pathname = "/cuenta/login";
+      url.searchParams.set("next", pathname);
+      return NextResponse.redirect(url);
+    }
+    return response;
   }
 
   // Redirección para rutas eliminadas
@@ -110,8 +147,10 @@ export async function middleware(request: NextRequest) {
   }
 
   // Rutas públicas que NO deben redirigir al dashboard si está logueado (ej. recursos estáticos, webhooks, etc.)
+  // API de cursos: pasar sin auth (la página ya está protegida; la API valida cookies internamente)
   if (
     pathname.startsWith("/api/webhooks") ||
+    pathname.startsWith("/api/course/") ||
     pathname.startsWith("/audio/") ||
     pathname.includes('.') // Archivos estáticos
   ) {
@@ -155,11 +194,12 @@ export async function middleware(request: NextRequest) {
     return response;
   }
 
-  // Protección para la zona /curso-a1, /curso-a2, /curso-b1, /admin y /misiones
+  // Protección para la zona /curso-a1, /curso-a2, /curso-b1, /curso-b2, /admin y /misiones
   const isProtectedArea = 
     pathname.startsWith("/curso-a1") ||
     pathname.startsWith("/curso-a2") ||
     pathname.startsWith("/curso-b1") ||
+    pathname.startsWith("/curso-b2") ||
     pathname.startsWith("/admin") ||
     pathname.startsWith("/misiones") ||
     pathname.startsWith("/onboarding");
@@ -172,12 +212,13 @@ export async function middleware(request: NextRequest) {
       return NextResponse.redirect(url);
     }
 
-    // Si está autenticado, verificar que tenga una suscripción activa o sea admin
+    // Si está autenticado, verificar suscripción (excepto outline que sí es "página de cursos")
     const isPaid = profile?.subscription_status === "active" || profile?.subscription_status === "trialing";
     const isAdmin = profile?.role === "admin";
     const isToeflExempt = pathname.startsWith("/curso/toefl-");
+    const isOutlineOnly = pathname === "/curso-a1/outline" || pathname === "/curso-a2/outline" || pathname === "/curso-b1/outline" || pathname === "/curso-b2/outline";
 
-    if (!isPaid && !isAdmin && !isToeflExempt) {
+    if (!isPaid && !isAdmin && !isToeflExempt && !isOutlineOnly) {
       const url = request.nextUrl.clone();
       url.pathname = "/planes";
       url.searchParams.set("reason", "premium_required");

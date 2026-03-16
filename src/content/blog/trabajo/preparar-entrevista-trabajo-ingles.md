@@ -150,3 +150,5 @@ Saber qué decir no es suficiente; necesitas practicar decirlo en voz alta, en i
 La diferencia entre un candidato que consigue el puesto y uno que no lo consigue suele ser la preparación. Con el método adecuado y práctica consistente, una entrevista de trabajo en inglés puede convertirse en tu mayor ventaja competitiva.
 
 [👉 Prepara tu próxima entrevista con nuestros coaches de inglés profesional. ¡Primeras clases con descuento!](/cuenta/registro?plan=work)
+
+Para una visión completa del tema, consulta nuestra [guía de entrevistas de trabajo en inglés](/hubs/entrevista-de-trabajo-en-ingles).

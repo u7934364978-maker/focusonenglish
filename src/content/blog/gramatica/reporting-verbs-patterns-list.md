@@ -34,7 +34,7 @@ faqs:
 
 Si quieres que tu inglés suene natural y profesional, no puedes depender eternamente de los verbos *say* y *tell*. Aunque son correctos, su uso excesivo hace que tu discurso sea plano y poco preciso. Aquí es donde entran los **reporting verbs**.
 
-A diferencia de los verbos básicos, la mayoría de los reporting verbs tienen patrones gramaticales específicos. Dominar estos patrones no solo mejorará tu fluidez, sino que es un requisito indispensable para aprobar exámenes de nivel B2 First, C1 Advanced y C2 Proficiency de Cambridge.
+A diferencia de los verbos básicos, la mayoría de los reporting verbs tienen patrones gramaticales específicos. Dominar estos patrones mejora mucho la fluidez. Para el marco general del estilo indirecto, la guía [Reported Speech en Inglés](/hubs/reported-speech) cubre todo el sistema.
 
 En esta guía, exploraremos la lista definitiva de **reporting verb patterns** y cómo usarlos correctamente.
 

@@ -7,7 +7,21 @@ import Link from 'next/link';
 export const dynamic = 'force-dynamic';
 
 async function A2PreviewContent() {
-  const courseMetadata = await premiumCourseServerService.getA2UnitsWithMetadata();
+  let courseMetadata;
+  try {
+    courseMetadata = await premiumCourseServerService.getA2UnitsWithMetadata();
+  } catch (err) {
+    console.error('[curso-a2] Error loading course metadata:', err);
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-slate-50 p-6">
+        <div className="max-w-md text-center">
+          <p className="text-lg font-semibold text-slate-800 mb-2">Error al cargar el curso</p>
+          <p className="text-slate-600 mb-4">No se pudieron cargar los datos. Intenta recargar la página.</p>
+          <a href="/curso-a2" className="text-blue-600 font-bold hover:underline">Recargar</a>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-slate-50">

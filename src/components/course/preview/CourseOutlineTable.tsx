@@ -107,7 +107,7 @@ export function CourseOutlineTable({ units, coursePath = '/curso-a1' }: CourseOu
   return (
     <div className="space-y-4">
       {/* Search and Filters */}
-      <div className="bg-white rounded-lg border border-slate-200 p-4 print:hidden">
+      <div className="bg-white rounded-lg border border-slate-200 p-4 print-hidden">
         <div className="flex flex-col md:flex-row gap-4">
           <div className="flex-1 relative">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
@@ -151,69 +151,69 @@ export function CourseOutlineTable({ units, coursePath = '/curso-a1' }: CourseOu
       </div>
 
       {/* Desktop Table View */}
-      <div className="hidden md:block bg-white rounded-lg border border-slate-200 overflow-hidden print:block print:border-0">
+      <div className="hidden md:block bg-white rounded-lg border border-slate-200 overflow-hidden print-block print-border-0">
         <div className="overflow-x-auto">
           <table className="w-full">
-            <thead className="bg-slate-50 border-b border-slate-200 print:bg-white">
+            <thead className="bg-slate-50 border-b border-slate-200 print-bg-white">
               <tr>
-                <th className="px-4 py-3 text-left print:py-2">
+                <th className="px-4 py-3 text-left print-py-2">
                   <button
                     onClick={() => handleSort('unitNumber')}
-                    className="flex items-center gap-2 font-bold text-sm text-slate-700 hover:text-slate-900 uppercase tracking-wider print:cursor-default"
+                    className="flex items-center gap-2 font-bold text-sm text-slate-700 hover:text-slate-900 uppercase tracking-wider print-cursor-default"
                   >
                     <Hash className="w-4 h-4" />
                     Unit
-                    <span className="print:hidden">{getSortIcon('unitNumber')}</span>
+                    <span className="print-hidden">{getSortIcon('unitNumber')}</span>
                   </button>
                 </th>
-                <th className="px-4 py-3 text-left print:py-2">
+                <th className="px-4 py-3 text-left print-py-2">
                   <button
                     onClick={() => handleSort('title')}
-                    className="flex items-center gap-2 font-bold text-sm text-slate-700 hover:text-slate-900 uppercase tracking-wider print:cursor-default"
+                    className="flex items-center gap-2 font-bold text-sm text-slate-700 hover:text-slate-900 uppercase tracking-wider print-cursor-default"
                   >
                     Title
-                    <span className="print:hidden">{getSortIcon('title')}</span>
+                    <span className="print-hidden">{getSortIcon('title')}</span>
                   </button>
                 </th>
-                <th className="px-4 py-3 text-left print:py-2">
+                <th className="px-4 py-3 text-left print-py-2">
                   <button
                     onClick={() => handleSort('topics')}
-                    className="flex items-center gap-2 font-bold text-sm text-slate-700 hover:text-slate-900 uppercase tracking-wider print:cursor-default"
+                    className="flex items-center gap-2 font-bold text-sm text-slate-700 hover:text-slate-900 uppercase tracking-wider print-cursor-default"
                   >
                     Topics
-                    <span className="print:hidden">{getSortIcon('topics')}</span>
+                    <span className="print-hidden">{getSortIcon('topics')}</span>
                   </button>
                 </th>
-                <th className="px-4 py-3 text-left print:py-2">
+                <th className="px-4 py-3 text-left print-py-2">
                   <button
                     onClick={() => handleSort('exerciseCount')}
-                    className="flex items-center gap-2 font-bold text-sm text-slate-700 hover:text-slate-900 uppercase tracking-wider print:cursor-default"
+                    className="flex items-center gap-2 font-bold text-sm text-slate-700 hover:text-slate-900 uppercase tracking-wider print-cursor-default"
                   >
                     <BookOpen className="w-4 h-4" />
                     Exercises
-                    <span className="print:hidden">{getSortIcon('exerciseCount')}</span>
+                    <span className="print-hidden">{getSortIcon('exerciseCount')}</span>
                   </button>
                 </th>
-                <th className="px-4 py-3 text-left print:py-2">
+                <th className="px-4 py-3 text-left print-py-2">
                   <button
                     onClick={() => handleSort('estimatedDuration')}
-                    className="flex items-center gap-2 font-bold text-sm text-slate-700 hover:text-slate-900 uppercase tracking-wider print:cursor-default"
+                    className="flex items-center gap-2 font-bold text-sm text-slate-700 hover:text-slate-900 uppercase tracking-wider print-cursor-default"
                   >
                     <Clock className="w-4 h-4" />
                     Duration
-                    <span className="print:hidden">{getSortIcon('estimatedDuration')}</span>
+                    <span className="print-hidden">{getSortIcon('estimatedDuration')}</span>
                   </button>
                 </th>
-                <th className="px-4 py-3 text-left print:py-2">
+                <th className="px-4 py-3 text-left print-py-2">
                   <button
                     onClick={() => handleSort('difficulty')}
-                    className="flex items-center gap-2 font-bold text-sm text-slate-700 hover:text-slate-900 uppercase tracking-wider print:cursor-default"
+                    className="flex items-center gap-2 font-bold text-sm text-slate-700 hover:text-slate-900 uppercase tracking-wider print-cursor-default"
                   >
                     Difficulty
-                    <span className="print:hidden">{getSortIcon('difficulty')}</span>
+                    <span className="print-hidden">{getSortIcon('difficulty')}</span>
                   </button>
                 </th>
-                <th className="px-4 py-3 text-left print:hidden">
+                <th className="px-4 py-3 text-left print-hidden">
                   <span className="font-bold text-sm text-slate-700 uppercase tracking-wider">
                     Action
                   </span>
@@ -222,23 +222,23 @@ export function CourseOutlineTable({ units, coursePath = '/curso-a1' }: CourseOu
             </thead>
             <tbody className="divide-y divide-slate-200">
               {filteredAndSortedUnits.map((unit) => (
-                <tr key={unit.unitId} className="hover:bg-slate-50 transition-colors print:hover:bg-white">
-                  <td className="px-4 py-4 print:py-2">
+                <tr key={unit.unitId} className="hover:bg-slate-50 transition-colors print-hover-bg-white">
+                  <td className="px-4 py-4 print-py-2">
                     <span className="font-black text-slate-900 text-sm">
                       {unit.unitNumber}
                     </span>
                   </td>
-                  <td className="px-4 py-4 print:py-2">
+                  <td className="px-4 py-4 print-py-2">
                     <span className="font-medium text-slate-900 text-sm">
                       {unit.title}
                     </span>
                   </td>
-                  <td className="px-4 py-4 print:py-2">
+                  <td className="px-4 py-4 print-py-2">
                     <div className="flex flex-wrap gap-1">
                       {unit.topics.slice(0, 3).map((topic, idx) => (
                         <span
                           key={idx}
-                          className="inline-flex px-2 py-0.5 bg-slate-100 text-slate-700 rounded text-xs font-medium print:border print:border-slate-300"
+                          className="inline-flex px-2 py-0.5 bg-slate-100 text-slate-700 rounded text-xs font-medium print-border print-border-slate-300"
                         >
                           {topic}
                         </span>
@@ -250,20 +250,20 @@ export function CourseOutlineTable({ units, coursePath = '/curso-a1' }: CourseOu
                       )}
                     </div>
                   </td>
-                  <td className="px-4 py-4 print:py-2">
+                  <td className="px-4 py-4 print-py-2">
                     <span className="font-bold text-slate-900 text-sm">
                       {unit.exerciseCount}
                     </span>
                   </td>
-                  <td className="px-4 py-4 print:py-2">
+                  <td className="px-4 py-4 print-py-2">
                     <span className="font-medium text-slate-600 text-sm">
                       {unit.estimatedDuration} min
                     </span>
                   </td>
-                  <td className="px-4 py-4 print:py-2">
+                  <td className="px-4 py-4 print-py-2">
                     {renderStars(unit.difficulty)}
                   </td>
-                  <td className="px-4 py-4 print:hidden">
+                  <td className="px-4 py-4 print-hidden">
                     <Link
                       href={`${coursePath}/${unit.unitId}`}
                       className="inline-flex items-center px-3 py-1.5 bg-coral-600 text-white rounded-lg text-xs font-bold hover:bg-coral-700 transition-colors"
@@ -279,7 +279,7 @@ export function CourseOutlineTable({ units, coursePath = '/curso-a1' }: CourseOu
       </div>
 
       {/* Mobile Card View */}
-      <div className="md:hidden space-y-3 print:hidden">
+      <div className="md:hidden space-y-3 print-hidden">
         {filteredAndSortedUnits.map((unit) => (
           <div key={unit.unitId} className="bg-white rounded-lg border border-slate-200 p-4">
             <div className="flex items-start justify-between mb-3">
@@ -329,7 +329,7 @@ export function CourseOutlineTable({ units, coursePath = '/curso-a1' }: CourseOu
 
       {/* Empty State */}
       {filteredAndSortedUnits.length === 0 && (
-        <div className="bg-white rounded-lg border border-slate-200 p-12 text-center print:hidden">
+        <div className="bg-white rounded-lg border border-slate-200 p-12 text-center print-hidden">
           <BookOpen className="w-12 h-12 text-slate-300 mx-auto mb-4" />
           <h3 className="text-lg font-bold text-slate-900 mb-2">No units found</h3>
           <p className="text-slate-600 mb-4">

@@ -36,9 +36,11 @@ faqs:
 
 ---
 
-El **Reported Speech** (o estilo indirecto) es una de las herramientas más potentes y, a la vez, desafiantes de la gramática inglesa. Se utiliza fundamentalmente cuando queremos transmitir lo que otra persona ha dicho, pero sin repetir sus palabras exactas (lo que se conoce como *Direct Speech*). 
+El **Reported Speech** (o estilo indirecto) es una de las herramientas más potentes y, a la vez, desafiantes de la gramática inglesa. Se utiliza fundamentalmente cuando queremos transmitir lo que otra persona ha dicho, pero sin repetir sus palabras exactas (lo que se conoce como *Direct Speech*).
 
-Ya sea que estés redactando un informe profesional, narrando una noticia o simplemente contando un chisme a un amigo, dominar esta estructura es vital para sonar natural y preciso. En esta guía definitiva, desglosaremos todo lo que necesitas saber para dominar el Reported Speech, desde las reglas básicas de **Backshift** hasta los matices de los verbos comunicativos.
+Ya sea que estés redactando un informe profesional, narrando una noticia o simplemente contando un chisme a un amigo, dominar esta estructura es vital para sonar natural y preciso. En esta guía desglosaremos todo lo que necesitas saber, desde las reglas básicas de **Backshift** hasta los matices de los verbos comunicativos.
+
+Para una visión completa del sistema, la guía [Reported Speech en Inglés](/hubs/reported-speech) te muestra todos los usos en perspectiva.
 
 ---
 

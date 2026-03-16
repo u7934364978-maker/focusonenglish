@@ -3,36 +3,39 @@
 // ============================================
 // PÁGINA DE ACCESO PARA ALUMNOS
 // Ruta: /cuenta/login
-// Página dedicada para alumnos que ya tienen acceso
+// Cliente Supabase (restaurado: server action tenía problemas)
 // ============================================
 
-import { useState, Suspense, useEffect } from 'react';
-import { signIn, getUser } from '@/lib/auth-helpers';
-import { useRouter, useSearchParams } from 'next/navigation';
+import { useState, useEffect } from 'react';
+import { getUser } from '@/lib/auth-helpers';
 import Link from 'next/link';
 
 function SignInForm() {
-  const router = useRouter();
-  const searchParams = useSearchParams();
-  
-  // Obtener la ruta de destino y asegurar que sea relativa
-  let callbackUrl = searchParams.get('next') || searchParams.get('callbackUrl') || '/curso-a1/outline';
-  if (callbackUrl.startsWith('http')) {
-    try {
-      const url = new URL(callbackUrl);
-      callbackUrl = url.pathname + url.search;
-    } catch (e) {
-      callbackUrl = '/curso-a1/outline';
-    }
-  }
-
+  const [callbackUrl, setCallbackUrl] = useState('/curso-a1/outline');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
+
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    const params = new URLSearchParams(window.location.search);
+    const err = params.get('error');
+    if (err === 'auth' || err === 'missing') setError('Email o contraseña incorrectos');
+    else if (err === 'server') setError('Error al iniciar sesión. Intenta nuevamente.');
+    let next = params.get('next') || params.get('callbackUrl') || '/curso-a1/outline';
+    if (next.startsWith('http')) {
+      try {
+        const url = new URL(next);
+        next = url.pathname + url.search;
+      } catch {
+        next = '/curso-a1/outline';
+      }
+    }
+    setCallbackUrl(next);
+  }, []);
   const [loading, setLoading] = useState(false);
   const [isAlreadyLoggedIn, setIsAlreadyLoggedIn] = useState(false);
 
-  // Si ya hay sesión, mostrar mensaje en lugar de redirigir automáticamente para evitar bucles si no tiene suscripción
   useEffect(() => {
     async function checkUser() {
       const { user } = await getUser();
@@ -44,50 +47,11 @@ function SignInForm() {
     checkUser();
   }, []);
 
-  // Login con credenciales
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
+  // Formulario POST a API route - funciona sin JS, evita problemas de cliente
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     setError('');
     setLoading(true);
-
-    try {
-      console.log('Login attempt with:', email);
-      const { user, error: authError } = await signIn(email, password);
-      
-      if (authError || !user) {
-        console.error('Auth error:', authError);
-        setError('Email o contraseña incorrectos');
-      } else {
-        console.log('Login success, ensuring profile exists...');
-        
-        // Asegurar que existe un perfil para evitar redirecciones infinitas si el webhook falló
-        const { supabase } = await import('@/lib/supabase-client');
-        const { data: profile } = await supabase
-          .from('user_profiles')
-          .select('subscription_status')
-          .eq('user_id', user.id)
-          .single();
-        
-        if (!profile) {
-          console.log('Profile missing, creating default inactive profile...');
-          await supabase.from('user_profiles').insert({
-            user_id: user.id,
-            email: user.email,
-            name: user.user_metadata?.full_name || user.user_metadata?.name || '',
-            subscription_status: 'inactive',
-            subscription_plan: 'free'
-          });
-        }
-
-        console.log('Redirecting to:', callbackUrl);
-        // Forzar redirección nativa del navegador para asegurar limpieza de cookies
-        window.location.replace(callbackUrl);
-      }
-    } catch (err) {
-      setError('Error al iniciar sesión. Intenta nuevamente.');
-    } finally {
-      setLoading(false);
-    }
+    // El form hace POST nativo a /api/auth/login
   };
 
   const handleLogout = async () => {
@@ -154,14 +118,21 @@ function SignInForm() {
                 </div>
               )}
 
-              {/* Login Form */}
-              <form onSubmit={handleSubmit} className="space-y-5">
+              {/* Login Form - POST a API route (funciona sin JS) */}
+              <form
+                action="/api/auth/login"
+                method="POST"
+                onSubmit={handleSubmit}
+                className="space-y-5"
+              >
+                <input type="hidden" name="callbackUrl" value={callbackUrl} />
                 <div>
                   <label htmlFor="email" className="block text-sm font-bold text-slate-700 mb-2">
                     Email
                   </label>
                   <input
                     id="email"
+                    name="email"
                     type="email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
@@ -178,6 +149,7 @@ function SignInForm() {
                   </label>
                   <input
                     id="password"
+                    name="password"
                     type="password"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
@@ -283,9 +255,5 @@ function SignInForm() {
 }
 
 export default function SignInPage() {
-  return (
-    <Suspense fallback={<div className="min-h-screen bg-gradient-to-br from-coral-500 via-peach-400 to-coral-600 flex items-center justify-center"><div className="text-white text-xl">Cargando...</div></div>}>
-      <SignInForm />
-    </Suspense>
-  );
+  return <SignInForm />;
 }

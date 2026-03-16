@@ -5,6 +5,7 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/lib/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   future: {
     hoverOnlyWhenSupported: true,
@@ -39,6 +40,18 @@ module.exports = {
           700: '#F57D3E',
           800: '#E06629',
           900: '#B34F1E',
+        },
+        melon: {
+          50: '#FFF5F0',
+          100: '#FFE8DC',
+          200: '#FFD4C0',
+          300: '#FFB896',
+          400: '#FF9B6B',
+          500: '#FF7F40',
+          600: '#F26B2E',
+          700: '#E0551A',
+          800: '#B84414',
+          900: '#8B3310',
         },
         cream: {
           50: '#FEFCFA',

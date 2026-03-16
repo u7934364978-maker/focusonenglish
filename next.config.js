@@ -1,11 +1,34 @@
 /** @type {import('next').NextConfig} */
 const path = require('path');
+const withBundleAnalyzer = require('@next/bundle-analyzer')({
+  enabled: process.env.ANALYZE === 'true',
+});
 
 const nextConfig = {
   compress: true,
   transpilePackages: ['framer-motion'],
+  turbopack: {
+    resolveAlias: {
+      '@emotion/react/jsx-runtime': 'react/jsx-runtime',
+    },
+  },
+  experimental: {
+    inlineCss: true,
+    optimizePackageImports: [],
+  },
   // Fix Vercel build: use project root for file tracing (avoids multi-lockfile inference)
   outputFileTracingRoot: path.join(__dirname),
+  // Incluir contenido de cursos en el bundle (fs.readFileSync no se traza automáticamente)
+  outputFileTracingIncludes: {
+    '/curso-a1': ['src/content/cursos/ingles-a1/**/*.json'],
+    '/curso-a1/outline': ['src/content/cursos/ingles-a1/**/*.json'],
+    '/curso-a2': ['src/content/cursos/ingles-a2/**/*.json'],
+    '/curso-a2/outline': ['src/content/cursos/ingles-a2/**/*.json'],
+    '/curso-b1': ['src/content/cursos/ingles-b1/**/*.json', 'src/lib/course/b1/**/*.ts'],
+    '/curso-b1/outline': ['src/content/cursos/ingles-b1/**/*.json'],
+    // API B1: módulos TypeScript para dynamic import en loader
+    '/api/course/b1/[unitId]': ['src/lib/course/b1/**/*.ts'],
+  },
   // Vercel deployment - native Next.js support
   typescript: {
     ignoreBuildErrors: true,
@@ -622,6 +645,9 @@ const nextConfig = {
   
   images: {
     domains: ['images.pexels.com', 'placehold.co'],
+    formats: ['image/avif', 'image/webp'],
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256],
     remotePatterns: [
       {
         protocol: 'https',
@@ -637,6 +663,7 @@ const nextConfig = {
   // Cabeceras de seguridad y compresión
   async headers() {
     return [
+      // Recursos estáticos (CSS, JS chunks): caché 1 año
       {
         source: '/_next/static/(.*)',
         headers: [
@@ -680,7 +707,10 @@ const nextConfig = {
     emotion: false,
   },
   // Paquetes externos que deben ejecutarse en el servidor
-  serverExternalPackages: ['@google-cloud/text-to-speech', 'elevenlabs-node', 'resend'],
+  serverExternalPackages: ['resend'],
+
+  // Webpack: sin alias React - ExerciseRenderer ya no usa framer-motion en ruta crítica
+  webpack: (config) => config,
 }
 
-module.exports = nextConfig
+module.exports = withBundleAnalyzer(nextConfig)

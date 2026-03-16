@@ -32,7 +32,9 @@ faqs:
 
 ---
 
-Si ya conoces **can**, **must** y **should**, es hora de profundizar en los aspectos que realmente separan a un hablante de nivel B2 de uno de nivel C1. Los **verbos modales avanzados** en inglés incluyen matices sutiles de probabilidad, crítica, especulación y distanciamiento formal que son imprescindibles tanto en el examen **Cambridge C1 Advanced** como en la comunicación profesional.
+Si ya conoces **can**, **must** y **should**, es hora de profundizar en los aspectos que realmente separan a un hablante de nivel B2 de uno de nivel C1. Los **verbos modales avanzados** en inglés incluyen matices sutiles de probabilidad, crítica, especulación y distanciamiento formal que son imprescindibles en la comunicación profesional y en exámenes de nivel.
+
+Si quieres repasar los fundamentos antes de entrar en los matices avanzados, la guía [Verbos Modales en Inglés](/hubs/verbos-modales-ingles) cubre todos los usos desde el principio.
 
 ---
 

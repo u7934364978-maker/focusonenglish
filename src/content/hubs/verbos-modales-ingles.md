@@ -101,9 +101,9 @@ Cuando queremos usar verbos modales para hablar de situaciones pasadas (especial
 
 ---
 
-## Importancia SEO y Consejos de Estudio
+## Consejos de Estudio
 
-Si buscas "verbos modales ingles esquema" o "verbos modales en ingles pdf", estás en el lugar correcto. Dominar estas palabras es lo que te permite matizar tus frases. Sin modales, el inglés es muy rígido; con ellos, puedes ser sutil, educado y preciso.
+Dominar los modales es lo que te permite matizar tus frases. Sin ellos, el inglés es muy rígido; con ellos, puedes ser sutil, educado y preciso.
 
 **Práctica recomendada:**
 *   Crea frases sobre tu trabajo usando *have to* y *don't have to*.
@@ -114,4 +114,17 @@ Si buscas "verbos modales ingles esquema" o "verbos modales en ingles pdf", est�
 
 Los verbos modales son piezas fundamentales del rompecabezas del inglés. Aunque al principio puede ser confuso elegir entre *may* y *might* o *must* y *have to*, la clave está en entender la **intención** detrás de cada palabra.
 
-En **Focus English**, integramos el uso de modales en todos nuestros cursos de inglés profesional, ya que son vitales para negociaciones, presentaciones y la gestión de equipos internacionales. Sigue practicando y verás cómo tu fluidez mejora notablemente.
+---
+
+## 📚 Profundiza más
+
+- [Can y Could en Inglés: Todos los Usos con Ejemplos Reales](/blog/gramatica/can-could-ingles)
+- [Must vs Have To: La Diferencia que Cambia el Significado de tus Frases](/blog/gramatica/must-have-to-diferencia)
+- [May y Might en Inglés: Cómo Expresar Posibilidad e Incertidumbre](/blog/gramatica/may-might-ingles)
+- [Should y Would en Inglés: Usos, Diferencias y Cuándo Usar Cada Uno](/blog/gramatica/should-would-ingles)
+- [Will vs Would en Inglés: Cuándo Usar Cada Uno y Por Qué No Son lo Mismo](/blog/gramatica/will-would-diferencia)
+- [Modales Perfectos en Inglés: Especular, Deducir y Hablar del Pasado](/blog/gramatica/modales-perfectos-ingles)
+- [Semi-modales en Inglés: Used To, Need To, Be Able To y Otros](/blog/gramatica/semi-modales-ingles)
+- [Verbos Modales en Inglés: Guía y Esquema de Uso](/blog/gramatica/verbos-modales-ingles-guia)
+- [Verbos Modales Avanzados: Matices, Modales Perfectos y Estilo C1](/blog/gramatica/verbos-modales-ingles-avanzados)
+- [Ejercicios de Verbos Modales en Inglés: Práctica para Niveles B1-C1](/blog/gramatica/verbos-modales-ingles-ejercicios)

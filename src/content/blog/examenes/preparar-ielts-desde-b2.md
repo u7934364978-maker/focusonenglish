@@ -15,12 +15,13 @@ canonical: >-
   https://www.focus-on-english.com/blog/examenes/preparar-ielts-desde-b2
 readTime: 6 min
 keywords:
-  - ielts vs toefl 2026
   - preparar ielts 2026
+  - como preparar ielts desde cero
   - como sacar band 7 ielts
   - ielts guia preparacion
   - ielts speaking writing estrategias
   - ielts academic general training
+  - plan estudio ielts 12 semanas
 faqs:
   - question: ¿Cuántas veces puedo presentarme al IELTS?
     answer: >-
@@ -198,4 +199,4 @@ Si todavía no has decidido entre IELTS y TOEFL, estas son las preguntas clave:
 
 Para una comparativa detallada, consulta **[IELTS vs TOEFL 2026](/blog/examenes/ielts-vs-toefl-diferencias-cual-elegir)**.
 
-[👉 Prepárate para el IELTS con nuestros profesores especializados y un plan personalizado a tu nivel](/cuenta/registro?plan=cambridge)
+[👉 Mejora tu inglés con nuestros cursos y llega al IELTS con la base que necesitas](/cuenta/registro?plan=cambridge)

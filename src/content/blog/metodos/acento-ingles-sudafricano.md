@@ -21,7 +21,7 @@ keywords:
 author: david-torres
 date: '2026-02-21'
 updatedDate: '2026-02-21'
-image: 'https://images.pexels.com/photos/259447/pexels-photo-259447.jpeg'
+image: 'https://images.pexels.com/photos/259447/pexels-photo-259447.jpeg?auto=compress&cs=tinysrgb&w=1200'
 category: metodos
 faqs:
   - question: '¿El inglés sudafricano es difícil de entender?'
@@ -29,7 +29,7 @@ faqs:
   - question: '¿Hay un solo acento inglés en Sudáfrica?'
     answer: 'No, hay un continuum de variedades bien diferenciadas. El "Cultivated SAE" es el más próximo al Received Pronunciation británico. El "General SAE" es la variedad de referencia. El "Broad SAE" tiene los rasgos más marcados y mayor influencia del afrikáans. El "Black South African English" (BSAE) tiene sus propias características fonéticas, muchas influidas por las lenguas bantúes nativas de los hablantes. El "Cape Coloured English" de la población mestizia de Ciudad del Cabo tiene rasgos propios también. Son variedades que coexisten y se influyen mutuamente.'
   - question: '¿Qué palabras del afrikáans se usan en el inglés sudafricano?'
-    answer: 'Bastantes, y algunas han pasado al inglés general. "Braai" (barbacoa) es la más conocida internacionalmente. "Veld" (pradera abierta) se usa en ecología. "Apartheid" es, trágicamente, la palabra sudafricana más exportada al mundo. En el habla cotidiana: "lekker" (agradable, bueno), "bru" o "boet" (hermano, amigo), "now-now" (ahora mismo, en un momento), "just now" (en un rato, no necesariamente ahora). Esta última causa confusión constante: para un sudafricano, "I'll do it just now" no significa que lo vaya a hacer inmediatamente.'
+    answer: 'Bastantes, y algunas han pasado al inglés general. "Braai" (barbacoa) es la más conocida internacionalmente. "Veld" (pradera abierta) se usa en ecología. "Apartheid" es, trágicamente, la palabra sudafricana más exportada al mundo. En el habla cotidiana: "lekker" (agradable, bueno), "bru" o "boet" (hermano, amigo), "now-now" (ahora mismo, en un momento), "just now" (en un rato, no necesariamente ahora). Esta última causa confusión constante: para un sudafricano, "I will do it just now" no significa que lo vaya a hacer de inmediato.'
   - question: '¿El inglés sudafricano es no-rótico como el británico?'
     answer: 'Generalmente sí. El South African English estándar es no-rótico: la /r/ al final de sílaba o después de vocal no se pronuncia. "Car" es /kɑː/, "water" es /ˈwɔːtə/. Esto lo acerca al inglés británico en ese aspecto concreto. Sin embargo, en algunas variedades del Black South African English y en hablantes cuya primera lengua tiene /r/ fuerte, puede aparecer cierta roticidad. Los acentos del afrikáans también tienden a la roticidad, y algunos hablantes bilingües afrikáans-inglés transfieren esa /r/ al inglés.'
 ---

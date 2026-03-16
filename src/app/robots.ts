@@ -32,6 +32,7 @@ export default function robots(): MetadataRoute.Robots {
           "/curso-a1/",
           "/curso-a2/",
           "/curso-b1/",
+          "/curso-b2/",
           "/demo-course/",
           "/privacidad",
           "/terminos",
