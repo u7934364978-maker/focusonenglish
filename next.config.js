@@ -714,18 +714,8 @@ const nextConfig = {
   // Paquetes externos que deben ejecutarse en el servidor
   serverExternalPackages: ['resend'],
 
-  // Webpack: forzar React singleton en cliente para framer-motion (createContext undefined)
-  // Solo cliente: evita romper react-server en edge
-  webpack: (config, { isServer }) => {
-    if (!isServer) {
-      config.resolve.alias = {
-        ...config.resolve.alias,
-        react: path.resolve(__dirname, 'node_modules/react'),
-        'react-dom': path.resolve(__dirname, 'node_modules/react-dom'),
-      };
-    }
-    return config;
-  },
+  // Webpack: sin alias React - ExerciseRenderer ya no usa framer-motion en ruta crítica
+  webpack: (config) => config,
 }
 
 module.exports = withBundleAnalyzer(nextConfig)

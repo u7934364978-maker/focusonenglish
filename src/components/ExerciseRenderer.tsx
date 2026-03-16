@@ -1,17 +1,18 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import dynamic from 'next/dynamic';
 import { CheckCircle, XCircle, ArrowRight, Zap, BookOpen, AlignLeft, ToggleLeft, List, Edit3, Info } from 'lucide-react';
 import type { Exercise } from '@/lib/exercise-generator';
 import SpeakingExercise from './SpeakingExercise';
 import EnhancedSpeakingExercise from './EnhancedSpeakingExercise';
 import WordSearchExercise from './exercises/WordSearchExercise';
 import CrosswordExercise from './exercises/CrosswordExercise';
-import FlashcardExercise from './exercises/FlashcardExercise';
-import DragDropExercise from './exercises/DragDropExercise';
-import MatchingExercise from './exercises/MatchingExercise';
 import InteractiveDialogueExercise from './exercises/InteractiveDialogueExercise';
+// Lazy: framer-motion en estos componentes causaba createContext/hydration en curso-b1
+const FlashcardExercise = dynamic(() => import('./exercises/FlashcardExercise').then((m) => m.default), { ssr: false, loading: () => <div className="animate-pulse h-48 rounded-2xl bg-slate-100" /> });
+const DragDropExercise = dynamic(() => import('./exercises/DragDropExercise').then((m) => m.default), { ssr: false, loading: () => <div className="animate-pulse h-48 rounded-2xl bg-slate-100" /> });
+const MatchingExercise = dynamic(() => import('./exercises/MatchingExercise').then((m) => m.default), { ssr: false, loading: () => <div className="animate-pulse h-48 rounded-2xl bg-slate-100" /> });
 import Markdown from './course/Markdown';
 import { TranslatedText, TRANSLATION_TOOLTIP_SPACING } from './course/exercises/TranslatedText';
 import { AudioPlayer } from './course/preview/AudioPlayer';
@@ -317,14 +318,11 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                 const letter = OPTION_LETTERS[optIndex] ?? String(optIndex + 1);
 
                 return (
-                  <motion.button
+                  <button
                     key={optIndex}
                     onClick={() => !submitted && setUserAnswer(optIndex)}
                     disabled={submitted}
-                    whileTap={!submitted ? { scale: 0.97 } : {}}
-                    animate={isUserAnswer && !submitted ? { scale: [1, 1.03, 1] } : { scale: 1 }}
-                    transition={{ duration: 0.18 }}
-                    className={`relative w-full text-left p-4 pb-6 rounded-2xl border-2 transition-colors duration-200 group focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B6B] focus-visible:ring-offset-2 overflow-visible min-h-[4rem] ${
+                    className={`relative w-full text-left p-4 pb-6 rounded-2xl border-2 transition-all duration-200 group focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B6B] focus-visible:ring-offset-2 overflow-visible min-h-[4rem] active:scale-[0.98] ${
                       showAsCorrect
                         ? 'border-green-400 bg-green-50 shadow-sm'
                         : showAsIncorrect
@@ -352,7 +350,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                         <TranslatedText text={typeof option === 'string' ? option : option.text} />
                       </span>
                     </div>
-                  </motion.button>
+                  </button>
                 );
               })}
             </div>
@@ -406,14 +404,9 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
         {submitted && !exerciseCompleted && <div className="h-40" />}
 
         {/* Fixed bottom feedback panel (Duolingo style) */}
-        <AnimatePresence>
         {submitted && !exerciseCompleted && evaluation && (
-          <motion.div
-            className="fixed bottom-0 left-0 right-0 z-50"
-            initial={{ y: '100%' }}
-            animate={{ y: 0 }}
-            exit={{ y: '100%' }}
-            transition={{ type: 'spring', stiffness: 380, damping: 32 }}
+          <div
+            className="fixed bottom-0 left-0 right-0 z-50 animate-in slide-in-from-bottom-4 duration-300"
           >
             <div className={`border-t-4 bg-white shadow-2xl ${evaluation.isCorrect ? 'border-green-400' : 'border-red-400'}`}>
               <div className="max-w-2xl mx-auto px-5 pt-4 pb-5">
@@ -462,9 +455,8 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                 </button>
               </div>
             </div>
-          </motion.div>
+          </div>
         )}
-        </AnimatePresence>
       </div>
     );
   };
@@ -550,11 +542,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
   const TypeIcon = typeInfo.icon;
 
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 16 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.3, ease: 'easeOut' }}
-    >
+    <div className="animate-in fade-in slide-in-from-bottom-4 duration-300">
       <div className="bg-white rounded-2xl shadow-lg shadow-slate-200/60 border border-slate-100 overflow-visible">
         <div className="p-4 md:p-6 space-y-4">
           <div className="pb-4 overflow-visible">
@@ -688,6 +676,6 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
           )}
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 }
