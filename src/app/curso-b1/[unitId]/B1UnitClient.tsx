@@ -30,9 +30,14 @@ export default function B1UnitClient({ unitId, initialIndex = 0 }: Props) {
     let cancelled = false;
     async function load() {
       try {
-        const res = await fetch(`/api/course/b1/${encodeURIComponent(unitId)}`);
+        const res = await fetch(`/api/course/b1/${encodeURIComponent(unitId)}`, {
+          credentials: 'include',
+        });
         if (!res.ok) {
           const data = await res.json().catch(() => ({}));
+          if (res.status === 401) {
+            throw new Error('Sesión expirada. Por favor, inicia sesión de nuevo.');
+          }
           throw new Error(data.error || `Error ${res.status}`);
         }
         const data = await res.json();

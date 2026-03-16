@@ -14,6 +14,7 @@ const nextConfig = {
     },
   },
   // Reduce unused JS: tree-shake large packages (framer-motion, radix, etc.)
+  // Nota: lucide-react deshabilitado - puede causar que ExerciseRenderer no renderice en cursos
   experimental: {
     inlineCss: true,
     optimizePackageImports: [
@@ -21,7 +22,7 @@ const nextConfig = {
       '@radix-ui/react-avatar',
       '@radix-ui/react-progress',
       '@radix-ui/react-tabs',
-      'lucide-react',
+      // 'lucide-react', // deshabilitado: rompe renderizado en curso-b1
     ],
   },
   // Fix Vercel build: use project root for file tracing (avoids multi-lockfile inference)
@@ -32,8 +33,10 @@ const nextConfig = {
     '/curso-a1/outline': ['src/content/cursos/ingles-a1/**/*.json'],
     '/curso-a2': ['src/content/cursos/ingles-a2/**/*.json'],
     '/curso-a2/outline': ['src/content/cursos/ingles-a2/**/*.json'],
-    '/curso-b1': ['src/content/cursos/ingles-b1/**/*.json'],
+    '/curso-b1': ['src/content/cursos/ingles-b1/**/*.json', 'src/lib/course/b1/**/*.ts'],
     '/curso-b1/outline': ['src/content/cursos/ingles-b1/**/*.json'],
+    // API B1: módulos TypeScript para dynamic import en loader
+    '/api/course/b1/[unitId]': ['src/lib/course/b1/**/*.ts'],
   },
   // Vercel deployment - native Next.js support
   typescript: {
