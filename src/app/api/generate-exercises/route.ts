@@ -3,6 +3,16 @@ import { NextRequest, NextResponse } from 'next/server';
 export const runtime = 'edge';
 export const maxDuration = 60;
 
+function coerceCloudflareResponseToText(value: unknown): string {
+  if (typeof value === 'string') return value;
+  if (value == null) return '';
+  try {
+    return JSON.stringify(value);
+  } catch {
+    return String(value);
+  }
+}
+
 const LEVEL_CONTEXT: Record<string, string> = {
   A1: 'absolute beginner. Uses present simple, basic vocabulary (greetings, numbers, colors, family, everyday objects). Short sentences.',
   A2: 'elementary. Uses past simple, present continuous, common adjectives, everyday routines. Can describe simple situations.',
@@ -114,8 +124,8 @@ Return ONLY the JSON array, nothing else.`;
       return NextResponse.json({ error: 'AI generation failed' }, { status: 500 });
     }
 
-    const data = await res.json() as { result?: { response?: string } };
-    const raw = data.result?.response || '';
+    const data = await res.json() as { result?: { response?: unknown } };
+    const raw = coerceCloudflareResponseToText(data.result?.response);
 
     const jsonMatch = raw.match(/\[[\s\S]*\]/);
     if (!jsonMatch) {
