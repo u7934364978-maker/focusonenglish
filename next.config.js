@@ -388,6 +388,33 @@ const nextConfig = {
         destination: '/certificaciones-ingles-oficiales',
         statusCode: 301,
       },
+      // /blog/seo/ → /blog/examenes/
+      { source: '/blog/seo/precios-examenes-cambridge', destination: '/blog/examenes/precios-examenes-cambridge', statusCode: 301 },
+      { source: '/blog/seo/cambridge-b2-first-guia', destination: '/blog/examenes/cambridge-b2-first-estrategias-aprobar', statusCode: 301 },
+      { source: '/blog/seo/cambridge-c1-advanced-guia', destination: '/blog/examenes/cambridge-c1-advanced-guia', statusCode: 301 },
+      { source: '/blog/seo/cambridge-c2-proficiency-guia', destination: '/blog/examenes/cambridge-c2-proficiency-guia', statusCode: 301 },
+      { source: '/blog/seo/guia-examen-aptis', destination: '/certificaciones-ingles-oficiales', statusCode: 301 },
+      { source: '/blog/seo/ielts-vs-toefl-diferencias', destination: '/certificaciones-ingles-oficiales', statusCode: 301 },
+      { source: '/blog/seo/linguaskill-cambridge-guia', destination: '/blog/examenes/guia-linguaskill-cambridge', statusCode: 301 },
+      { source: '/blog/seo/mejores-certificados-ingles-2026', destination: '/blog/examenes/mejores-certificados-ingles-2026', statusCode: 301 },
+      { source: '/blog/seo/preparacion-examen-b1-cambridge', destination: '/blog/examenes/preparacion-examen-b1-cambridge', statusCode: 301 },
+      { source: '/blog/seo/reported-speech-cambridge-exams', destination: '/blog/examenes/reported-speech-cambridge-exams', statusCode: 301 },
+      // /blog/seo/ → /blog/trabajo/
+      { source: '/blog/seo/business-english-emails', destination: '/blog/trabajo/plantillas-emails-profesionales-ingles', statusCode: 301 },
+      { source: '/blog/seo/entrevistas-trabajo-ingles-guia', destination: '/blog/trabajo/preparar-entrevista-trabajo-ingles', statusCode: 301 },
+      { source: '/blog/seo/ingles-derecho-legal-guia', destination: '/blog/trabajo/ingles-para-trabajo', statusCode: 301 },
+      { source: '/blog/seo/ingles-finanzas-economia-guia', destination: '/blog/trabajo/ingles-para-trabajo', statusCode: 301 },
+      { source: '/blog/seo/ingles-marketing-ventas-guia', destination: '/blog/trabajo/ingles-para-trabajo', statusCode: 301 },
+      { source: '/blog/seo/ingles-para-atencion-al-cliente', destination: '/blog/trabajo/ingles-para-atencion-al-cliente', statusCode: 301 },
+      { source: '/blog/seo/ingles-para-hosteleria', destination: '/blog/trabajo/ingles-para-camareros-y-hosteleria', statusCode: 301 },
+      { source: '/blog/seo/ingles-para-ingenieros', destination: '/blog/trabajo/ingles-para-ingenieros', statusCode: 301 },
+      { source: '/blog/seo/ingles-para-salud', destination: '/blog/trabajo/ingles-para-salud', statusCode: 301 },
+      { source: '/blog/seo/ingles-trabajar-extranjero-guia', destination: '/blog/trabajo/ingles-para-trabajo', statusCode: 301 },
+      { source: '/blog/seo/vocabulario-b1-ingles-trabajo', destination: '/blog/trabajo/vocabulario-b1-ingles-trabajo', statusCode: 301 },
+      // /blog/seo/ → /blog/viajes/
+      { source: '/blog/seo/ingles-emergencias-viaje', destination: '/blog/viajes/frases-ingles-emergencias-viajes', statusCode: 301 },
+      { source: '/blog/seo/ingles-nomadas-digitales-mochileros', destination: '/blog/viajes/ingles-para-viajar', statusCode: 301 },
+      // wildcard: resto de /blog/seo/ → /blog/metodos/
       {
         source: '/blog/seo/:slug*',
         destination: '/blog/metodos/:slug*',
