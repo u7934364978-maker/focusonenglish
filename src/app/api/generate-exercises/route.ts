@@ -13,6 +13,105 @@ function coerceCloudflareResponseToText(value: unknown): string {
   }
 }
 
+function buildFallbackExercises(params: {
+  level: string;
+  topic: string;
+  count: number;
+  exerciseTypes: string[];
+}) {
+  const { level, topic, count, exerciseTypes } = params;
+
+  const tfOptions = ['True', 'False'];
+
+  const bank = [
+    {
+      question: '[[What is your name?|¿Cómo te llamas?]]',
+      options: ['I am John', 'My name is John', 'I name John', 'My is John'],
+      correctAnswer: 1,
+      explanation: '[[We say \"My name is...\" to introduce ourselves.|Decimos \"My name is...\" para presentarnos.]]',
+    },
+    {
+      question: '[[Choose the correct verb: I ___ a student.|Elige el verbo correcto: I ___ a student.]]',
+      options: ['am', 'is', 'are', 'be'],
+      correctAnswer: 0,
+      explanation: '[[With \"I\", we use \"am\".|Con \"I\", usamos \"am\".]]',
+    },
+    {
+      question: '[[Choose the correct article: ___ apple.|Elige el artículo correcto: ___ apple.]]',
+      options: ['a', 'an', 'the', '—'],
+      correctAnswer: 1,
+      explanation: '[[We use \"an\" before vowel sounds (a,e,i,o,u).|Usamos \"an\" antes de sonido vocal.]]',
+    },
+    {
+      question: '[[Choose the correct word: This is my ___. (mother)|Elige la palabra correcta: This is my ___. (mother)]]',
+      options: ['mother', 'brother', 'teacher', 'name'],
+      correctAnswer: 0,
+      explanation: '[[\"Mother\" means \"madre\".|\"Mother\" significa \"madre\".]]',
+    },
+    {
+      question: '[[Translate: \"Hola\"|Traduce: \"Hola\"]]',
+      correctAnswer: 'Hello',
+      explanation: '[[\"Hola\" translates as \"Hello\".|\"Hola\" se traduce como \"Hello\".]]',
+    },
+    {
+      question: '[[Complete: I ___ from Spain.|Completa: I ___ from Spain.]]',
+      correctAnswer: 'am',
+      explanation: '[[With \"I\", we use \"am\".|Con \"I\", usamos \"am\".]]',
+    },
+  ];
+
+  const pick = (i: number) => bank[i % bank.length];
+
+  return Array.from({ length: count }, (_, i) => {
+    const type = exerciseTypes[i % exerciseTypes.length] || 'multiple-choice';
+    const base = pick(i);
+
+    const normalized = {
+      id: `gen-${level.toLowerCase()}-${Date.now()}-${i}`,
+      type,
+      level,
+      topic,
+      difficulty: 'easy',
+      topicName: topic,
+      isAIGenerated: false,
+      content: {
+        title: 'Práctica personalizada',
+        instructions: 'Responde la pregunta.',
+        questions: [
+          {
+            question: base.question,
+            options:
+              type === 'true-false'
+                ? tfOptions
+                : Array.isArray(base.options)
+                  ? base.options
+                  : [],
+            correctAnswer:
+              type === 'translation'
+                ? base.correctAnswer
+                : type === 'fill-blank'
+                  ? (typeof base.correctAnswer === 'string' ? base.correctAnswer : '')
+                  : type === 'true-false'
+                    ? 'True'
+                    : base.correctAnswer,
+            explanation: base.explanation,
+            type,
+          },
+        ],
+      },
+    };
+
+    // Ensure multiple-choice always has 4 options.
+    if (type === 'multiple-choice' && normalized.content.questions[0].options.length !== 4) {
+      normalized.content.questions[0].options = ['A', 'B', 'C', 'D'];
+      normalized.content.questions[0].correctAnswer = 0;
+      normalized.content.questions[0].explanation = '[[Ejercicio de reserva por timeout.|Fallback por timeout.]]';
+    }
+
+    return normalized;
+  });
+}
+
 const LEVEL_CONTEXT: Record<string, string> = {
   A1: 'absolute beginner. Uses present simple, basic vocabulary (greetings, numbers, colors, family, everyday objects). Short sentences.',
   A2: 'elementary. Uses past simple, present continuous, common adjectives, everyday routines. Can describe simple situations.',
@@ -49,6 +148,8 @@ export async function POST(request: NextRequest) {
       focusOn = '',
     } = body;
 
+    const safeCount = Math.max(1, Math.min(8, Number(count) || 5));
+
     const accountId = process.env.CLOUDFLARE_ACCOUNT_ID;
     const apiToken = process.env.CLOUDFLARE_API_TOKEN;
 
@@ -69,14 +170,14 @@ export async function POST(request: NextRequest) {
 
     const systemPrompt = `You are an expert English language teacher creating exercises for students. Return ONLY valid JSON, no other text.`;
 
-    const userPrompt = `Create exactly ${count} English practice exercises for a ${level} level student (${levelCtx}).
+    const userPrompt = `Create exactly ${safeCount} English practice exercises for a ${level} level student (${levelCtx}).
 
 Topic area: ${topic}${weakFocus}${extraFocus}
 
 Exercise types to use (rotate through them):
 ${typeDescriptions}
 
-Return a JSON array of exactly ${count} exercise objects. Each object must have:
+Return a JSON array of exactly ${safeCount} exercise objects. Each object must have:
 - "id": unique string like "gen-${level.toLowerCase()}-1"
 - "type": one of [${exerciseTypes.map(t => `"${t}"`).join(', ')}]
 - "level": "${level}"
@@ -100,10 +201,16 @@ IMPORTANT:
 
 Return ONLY the JSON array, nothing else.`;
 
+    const controller = new AbortController();
+    // Cloudflare often times out around ~30s at the edge; keep a buffer.
+    const timeoutMs = 25000;
+    const timeout = setTimeout(() => controller.abort(), timeoutMs);
+
     const res = await fetch(
       `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/@cf/meta/llama-3.3-70b-instruct-fp8-fast`,
       {
         method: 'POST',
+        signal: controller.signal,
         headers: {
           Authorization: `Bearer ${apiToken}`,
           'Content-Type': 'application/json',
@@ -113,15 +220,17 @@ Return ONLY the JSON array, nothing else.`;
             { role: 'system', content: systemPrompt },
             { role: 'user', content: userPrompt },
           ],
-          max_tokens: 3000,
+          // Reduce token budget to lower latency; UI only needs short exercises.
+          max_tokens: 1400,
         }),
       }
-    );
+    ).finally(() => clearTimeout(timeout));
 
     if (!res.ok) {
       const err = await res.text();
       console.error('Llama exercise gen error:', err);
-      return NextResponse.json({ error: 'AI generation failed' }, { status: 500 });
+      const fallback = buildFallbackExercises({ level, topic, count: safeCount, exerciseTypes });
+      return NextResponse.json({ exercises: fallback, warning: 'AI generation failed; returned fallback exercises' });
     }
 
     const data = await res.json() as { result?: { response?: unknown } };
@@ -130,7 +239,8 @@ Return ONLY the JSON array, nothing else.`;
     const jsonMatch = raw.match(/\[[\s\S]*\]/);
     if (!jsonMatch) {
       console.error('No JSON array found in response:', raw.slice(0, 300));
-      return NextResponse.json({ error: 'Invalid AI response format' }, { status: 500 });
+      const fallback = buildFallbackExercises({ level, topic, count: safeCount, exerciseTypes });
+      return NextResponse.json({ exercises: fallback, warning: 'Invalid AI response; returned fallback exercises' });
     }
 
     let exercises: any[];
@@ -138,7 +248,8 @@ Return ONLY the JSON array, nothing else.`;
       exercises = JSON.parse(jsonMatch[0]);
     } catch (e) {
       console.error('Failed to parse exercises JSON:', e);
-      return NextResponse.json({ error: 'Failed to parse generated exercises' }, { status: 500 });
+      const fallback = buildFallbackExercises({ level, topic, count: safeCount, exerciseTypes });
+      return NextResponse.json({ exercises: fallback, warning: 'Parse error; returned fallback exercises' });
     }
 
     const normalizeToQuestionsShape = (ex: any) => {
@@ -188,6 +299,20 @@ Return ONLY the JSON array, nothing else.`;
 
     return NextResponse.json({ exercises: validated });
   } catch (error: any) {
+    if (error?.name === 'AbortError') {
+      // Timeout talking to Cloudflare AI: return fallback exercises quickly.
+      try {
+        const body: GenerateRequest = await request.json().catch(() => ({} as any));
+        const level = body.level || 'A1';
+        const topic = body.topic || 'General';
+        const count = Math.max(1, Math.min(8, Number(body.count) || 5));
+        const exerciseTypes = body.exerciseTypes || ['multiple-choice', 'fill-blank', 'true-false'];
+        const fallback = buildFallbackExercises({ level, topic, count, exerciseTypes });
+        return NextResponse.json({ exercises: fallback, warning: 'AI timeout; returned fallback exercises' });
+      } catch {
+        return NextResponse.json({ error: 'AI timeout' }, { status: 504 });
+      }
+    }
     console.error('Generate exercises error:', error);
     return NextResponse.json({ error: error.message || 'Internal error' }, { status: 500 });
   }
