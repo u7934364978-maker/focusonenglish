@@ -201,40 +201,62 @@ IMPORTANT:
 
 Return ONLY the JSON array, nothing else.`;
 
-    const controller = new AbortController();
-    // Cloudflare often times out around ~30s at the edge; keep a buffer.
-    const timeoutMs = 25000;
-    const timeout = setTimeout(() => controller.abort(), timeoutMs);
+    // Hard timeout to avoid Cloudflare 504s in front of Vercel.
+    // We don't rely on AbortController (not always respected); instead we race.
+    const timeoutMs = 20000;
 
-    const res = await fetch(
-      `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/@cf/meta/llama-3.3-70b-instruct-fp8-fast`,
-      {
-        method: 'POST',
-        signal: controller.signal,
-        headers: {
-          Authorization: `Bearer ${apiToken}`,
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          messages: [
-            { role: 'system', content: systemPrompt },
-            { role: 'user', content: userPrompt },
-          ],
-          // Reduce token budget to lower latency; UI only needs short exercises.
-          max_tokens: 1400,
-        }),
-      }
-    ).finally(() => clearTimeout(timeout));
+    const cloudflareCall = async () => {
+      const res = await fetch(
+        `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/@cf/meta/llama-3.3-70b-instruct-fp8-fast`,
+        {
+          method: 'POST',
+          headers: {
+            Authorization: `Bearer ${apiToken}`,
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            messages: [
+              { role: 'system', content: systemPrompt },
+              { role: 'user', content: userPrompt },
+            ],
+            // Reduce token budget to lower latency; UI only needs short exercises.
+            max_tokens: 1000,
+          }),
+        }
+      );
 
-    if (!res.ok) {
-      const err = await res.text();
-      console.error('Llama exercise gen error:', err);
+      const text = await res.text();
+      return { ok: res.ok, status: res.status, text };
+    };
+
+    const raced = await Promise.race([
+      cloudflareCall(),
+      new Promise<{ timeout: true }>((resolve) => setTimeout(() => resolve({ timeout: true }), timeoutMs)),
+    ]);
+
+    if ('timeout' in raced) {
+      const fallback = buildFallbackExercises({ level, topic, count: safeCount, exerciseTypes });
+      return NextResponse.json({ exercises: fallback, warning: 'AI timeout; returned fallback exercises' });
+    }
+
+    const resOk = raced.ok;
+    const resText = raced.text;
+
+    if (!resOk) {
+      console.error('Llama exercise gen error:', resText.slice(0, 500));
       const fallback = buildFallbackExercises({ level, topic, count: safeCount, exerciseTypes });
       return NextResponse.json({ exercises: fallback, warning: 'AI generation failed; returned fallback exercises' });
     }
 
-    const data = await res.json() as { result?: { response?: unknown } };
-    const raw = coerceCloudflareResponseToText(data.result?.response);
+    let data: any;
+    try {
+      data = JSON.parse(resText);
+    } catch {
+      // Some providers might return plain text; handle defensively.
+      data = { result: { response: resText } };
+    }
+
+    const raw = coerceCloudflareResponseToText(data?.result?.response ?? data);
 
     const jsonMatch = raw.match(/\[[\s\S]*\]/);
     if (!jsonMatch) {
@@ -299,20 +321,6 @@ Return ONLY the JSON array, nothing else.`;
 
     return NextResponse.json({ exercises: validated });
   } catch (error: any) {
-    if (error?.name === 'AbortError') {
-      // Timeout talking to Cloudflare AI: return fallback exercises quickly.
-      try {
-        const body: GenerateRequest = await request.json().catch(() => ({} as any));
-        const level = body.level || 'A1';
-        const topic = body.topic || 'General';
-        const count = Math.max(1, Math.min(8, Number(body.count) || 5));
-        const exerciseTypes = body.exerciseTypes || ['multiple-choice', 'fill-blank', 'true-false'];
-        const fallback = buildFallbackExercises({ level, topic, count, exerciseTypes });
-        return NextResponse.json({ exercises: fallback, warning: 'AI timeout; returned fallback exercises' });
-      } catch {
-        return NextResponse.json({ error: 'AI timeout' }, { status: 504 });
-      }
-    }
     console.error('Generate exercises error:', error);
     return NextResponse.json({ error: error.message || 'Internal error' }, { status: 500 });
   }
