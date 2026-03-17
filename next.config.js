@@ -43,6 +43,23 @@ const nextConfig = {
   trailingSlash: false,
   async redirects() {
     return [
+      // Fix: Redirects metodos→gramatica (commit 54bf002e movió 15 artículos, 9941f816 eliminó redirects sin añadir los inversos)
+      { source: '/blog/metodos/condicionales-ingles-guia-completa', destination: '/blog/gramatica/condicionales-ingles-guia-completa', permanent: true },
+      { source: '/blog/metodos/gramatica-ingles-b1-guia', destination: '/blog/gramatica/gramatica-ingles-b1-guia', permanent: true },
+      { source: '/blog/metodos/guia-maestra-reported-speech', destination: '/blog/gramatica/guia-maestra-reported-speech', permanent: true },
+      { source: '/blog/metodos/passive-reporting-verbs-guia-avanzada', destination: '/blog/gramatica/passive-reporting-verbs-guia-avanzada', permanent: true },
+      { source: '/blog/metodos/phrasal-verbs-guia-b2', destination: '/blog/gramatica/phrasal-verbs-guia-b2', permanent: true },
+      { source: '/blog/metodos/preposiciones-movimiento-ingles', destination: '/blog/gramatica/preposiciones-movimiento-ingles', permanent: true },
+      { source: '/blog/metodos/present-perfect-vs-past-simple', destination: '/blog/gramatica/present-perfect-vs-past-simple', permanent: true },
+      { source: '/blog/metodos/relative-clauses-guia-definitiva', destination: '/blog/gramatica/relative-clauses-guia-definitiva', permanent: true },
+      { source: '/blog/metodos/reported-speech-ejercicios-pdf', destination: '/blog/gramatica/reported-speech-ejercicios-pdf', permanent: true },
+      { source: '/blog/metodos/reported-speech-guia-uso', destination: '/blog/gramatica/reported-speech-guia-uso', permanent: true },
+      { source: '/blog/metodos/reported-speech-questions-commands', destination: '/blog/gramatica/reported-speech-questions-commands', permanent: true },
+      { source: '/blog/metodos/reporting-verbs-patterns-list', destination: '/blog/gramatica/reporting-verbs-patterns-list', permanent: true },
+      { source: '/blog/metodos/verbos-modales-ingles-guia', destination: '/blog/gramatica/verbos-modales-ingles-guia', permanent: true },
+      { source: '/blog/metodos/voz-pasiva-avanzada-guia', destination: '/blog/gramatica/voz-pasiva-avanzada-guia', permanent: true },
+      { source: '/blog/metodos/voz-pasiva-ingles-guia', destination: '/blog/gramatica/voz-pasiva-ingles-guia', permanent: true },
+
       // SEO - Redirecciones de Cluster a Blog
       {
         source: '/precios',
@@ -151,7 +168,7 @@ const nextConfig = {
       },
       {
         source: '/curso-ingles-gramatica-ingles-b1-guia',
-        destination: '/blog/metodos/gramatica-ingles-b1-guia',
+        destination: '/blog/gramatica/gramatica-ingles-b1-guia',
         statusCode: 301,
       },
       {
@@ -293,7 +310,7 @@ const nextConfig = {
       },
       {
         source: '/blog/trabajo/cv-ingles-guia',
-        destination: '/blog/trabajo/ingles-para-trabajo',
+        destination: '/blog/trabajo/cv-ingles',
         statusCode: 301,
       },
       {
