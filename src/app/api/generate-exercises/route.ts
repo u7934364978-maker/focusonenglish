@@ -282,7 +282,7 @@ Return ONLY the JSON array, nothing else.`;
       const explanation = content.explanation || '';
 
       // Many UI components expect `content.questions: [{...}]` even for single-question exercises.
-      return {
+      const normalized = {
         ...ex,
         content: {
           ...content,
@@ -295,10 +295,28 @@ Return ONLY the JSON array, nothing else.`;
                   correctAnswer,
                   explanation,
                   type: ex?.type,
-                },
+                } as any,
               ],
         },
       };
+
+      // For multiple-choice, ExerciseRenderer works best with numeric correctAnswer (0-based index).
+      if (normalized.type === 'multiple-choice' && Array.isArray(normalized.content.questions)) {
+        const q = normalized.content.questions[0];
+        if (q && typeof q.correctAnswer !== 'number' && Array.isArray(q.options) && q.options.length > 0) {
+          const norm = (s: string) =>
+            s
+              .toLowerCase()
+              .trim()
+              .replace(/\s+/g, ' ');
+          const answerText = String(q.correctAnswer || '').trim();
+          let idx = q.options.findIndex((opt: any) => norm(String(opt)) === norm(answerText));
+          if (idx < 0) idx = 0;
+          q.correctAnswer = idx;
+        }
+      }
+
+      return normalized;
     };
 
     const validated = exercises.map((ex: any, i: number) => ({
