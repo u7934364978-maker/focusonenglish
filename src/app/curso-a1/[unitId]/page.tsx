@@ -418,12 +418,12 @@ function UnitPreviewContent() {
             onExercisesReady={handleAIPracticeReady}
           />
 
-          <Link
+          <a
             href="/curso-a1"
             className="block w-full bg-white/20 border border-white/30 text-white py-4 rounded-2xl font-bold text-base hover:-translate-y-0.5 transition-all text-center"
           >
             {isFinalTest ? 'Volver al curso' : 'Continuar al curso'}
-          </Link>
+          </a>
         </div>
       </div>
     );

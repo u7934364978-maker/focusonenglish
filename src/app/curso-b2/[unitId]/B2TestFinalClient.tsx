@@ -135,9 +135,9 @@ function B2TestFinalContent() {
             </p>
             <p className="text-slate-600 text-sm mt-1">Aciertos: {correctCount}/{exercises.length}. Se requiere ≥70% para aprobar.</p>
           </div>
-          <Link href="/curso-b2" className="w-full bg-slate-900 text-white py-6 rounded-2xl font-black text-xl hover:bg-slate-800 transition-all shadow-xl flex items-center justify-center gap-3 transform hover:scale-[1.02] active:scale-95">
+          <a href="/curso-b2" className="w-full bg-slate-900 text-white py-6 rounded-2xl font-black text-xl hover:bg-slate-800 transition-all shadow-xl flex items-center justify-center gap-3 transform hover:scale-[1.02] active:scale-95">
             Volver al listado de unidades
-          </Link>
+          </a>
         </div>
       </div>
     );
