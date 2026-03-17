@@ -58,6 +58,8 @@ import { UNIT_57_EXERCISES } from './unit-57';
 import { UNIT_58_EXERCISES } from './unit-58';
 import { UNIT_59_EXERCISES } from './unit-59';
 import { UNIT_60_EXERCISES } from './unit-60';
+import { UNIT_61_EXERCISES } from './unit-61';
+import { UNIT_62_EXERCISES } from './unit-62';
 
 export const B2_COURSE = {
   units: [
@@ -121,5 +123,7 @@ export const B2_COURSE = {
     { id: 58, title: 'Review: Advanced Conditionals', exercises: UNIT_58_EXERCISES },
     { id: 59, title: 'Review: Modal Deduction & Speculation', exercises: UNIT_59_EXERCISES },
     { id: 60, title: 'Final Course Review & Evaluation', exercises: UNIT_60_EXERCISES },
+    { id: 61, title: 'Grammar Boost B2+: Modal Deduction & Advanced Conditionals', exercises: UNIT_61_EXERCISES },
+    { id: 62, title: 'Vocabulary Power B2+: Phrasal Verbs & Collocations', exercises: UNIT_62_EXERCISES },
   ]
 };
