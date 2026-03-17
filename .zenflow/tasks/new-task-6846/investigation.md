@@ -209,3 +209,14 @@ Actualmente, cuando existe hub content, `/blog/temas/[keyword]` es noindex y el 
 ### Fix 4: Las URLs de contenido nuevo (sin impresiones por ser nuevas)
 
 No requieren acción de código — Google las indexará con el siguiente crawl.
+
+---
+
+## Implementation Notes
+
+**Fixes already applied before this session (in `next.config.js`):**
+- Fix 1: Los 15 redirects `metodos→gramatica` ya estaban implementados (líneas 47-61).
+- Fix 1 (curso): `/curso-ingles-gramatica-ingles-b1-guia` ya apuntaba a `/blog/gramatica/gramatica-ingles-b1-guia`.
+
+**Fix applied in this session:**
+- Fix 2: Corregido redirect `/blog/trabajo/cv-ingles-guia` → `/blog/trabajo/cv-ingles` (antes apuntaba a `/blog/trabajo/ingles-para-trabajo`, que es demasiado genérico). El artículo `/src/content/blog/trabajo/cv-ingles.md` existe y es el destino correcto.
