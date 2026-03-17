@@ -141,6 +141,33 @@ Return ONLY the JSON array, nothing else.`;
       return NextResponse.json({ error: 'Failed to parse generated exercises' }, { status: 500 });
     }
 
+    const normalizeToQuestionsShape = (ex: any) => {
+      const content = ex?.content ?? {};
+      const questionText = content.question ?? content.text ?? content.prompt ?? '';
+      const options = Array.isArray(content.options) ? content.options : [];
+      const correctAnswer = content.correctAnswer ?? '';
+      const explanation = content.explanation || '';
+
+      // Many UI components expect `content.questions: [{...}]` even for single-question exercises.
+      return {
+        ...ex,
+        content: {
+          ...content,
+          questions: Array.isArray(content.questions) && content.questions.length > 0
+            ? content.questions
+            : [
+                {
+                  question: questionText,
+                  options,
+                  correctAnswer,
+                  explanation,
+                  type: ex?.type,
+                },
+              ],
+        },
+      };
+    };
+
     const validated = exercises.map((ex: any, i: number) => ({
       id: ex.id || `gen-${level.toLowerCase()}-${Date.now()}-${i}`,
       type: ex.type || exerciseTypes[i % exerciseTypes.length],
@@ -157,7 +184,7 @@ Return ONLY the JSON array, nothing else.`;
       },
       topicName: ex.topicName || topic,
       isAIGenerated: true,
-    }));
+    })).map(normalizeToQuestionsShape);
 
     return NextResponse.json({ exercises: validated });
   } catch (error: any) {
