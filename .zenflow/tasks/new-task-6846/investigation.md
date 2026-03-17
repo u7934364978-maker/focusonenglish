@@ -46,16 +46,29 @@ Estos redirects están correctamente configurados en `next.config.js`. No hay bu
 
 ---
 
-### Causa 2: URLs que devuelven 404 — Faltan redirecciones 301
+### Causa 2: 15 URLs devuelven 404 — Faltan redirecciones 301 (CAUSA PRINCIPAL)
 
-Estas URLs tienen 404 porque el archivo de contenido está en una categoría diferente y **no existe un redirect en `next.config.js`**:
+El commit `54bf002e` (Mar 2, 19:02) cambió el frontmatter `category: metodos` → `category: gramatica` en **15 artículos** del directorio `src/content/blog/gramatica/`. El commit `9941f816` (Mar 2, 19:28) eliminó los redirects `gramatica→metodos` sin añadir los inversos `metodos→gramatica`. Resultado: **15 URLs indexadas por Google devuelven ahora 404 permanente** sin redirect.
 
-| URL (404) | Archivo real existente | Categoría URL | Categoría Archivo |
-|-----------|----------------------|---------------|-------------------|
-| `/blog/metodos/verbos-modales-ingles-guia` | `gramatica/verbos-modales-ingles-guia.md` | `metodos` | `gramatica` |
-| `/blog/metodos/reporting-verbs-patterns-list` | `gramatica/reporting-verbs-patterns-list.md` | `metodos` | `gramatica` |
+| URL (404 permanente) | Archivo real | 
+|----------------------|--------------|
+| `/blog/metodos/condicionales-ingles-guia-completa` | `gramatica/condicionales-ingles-guia-completa.md` |
+| `/blog/metodos/gramatica-ingles-b1-guia` | `gramatica/gramatica-ingles-b1-guia.md` |
+| `/blog/metodos/guia-maestra-reported-speech` | `gramatica/guia-maestra-reported-speech.md` |
+| `/blog/metodos/passive-reporting-verbs-guia-avanzada` | `gramatica/passive-reporting-verbs-guia-avanzada.md` |
+| `/blog/metodos/phrasal-verbs-guia-b2` | `gramatica/phrasal-verbs-guia-b2.md` |
+| `/blog/metodos/preposiciones-movimiento-ingles` | `gramatica/preposiciones-movimiento-ingles.md` |
+| `/blog/metodos/present-perfect-vs-past-simple` | `gramatica/present-perfect-vs-past-simple.md` |
+| `/blog/metodos/relative-clauses-guia-definitiva` | `gramatica/relative-clauses-guia-definitiva.md` |
+| `/blog/metodos/reported-speech-ejercicios-pdf` | `gramatica/reported-speech-ejercicios-pdf.md` |
+| `/blog/metodos/reported-speech-guia-uso` | `gramatica/reported-speech-guia-uso.md` |
+| `/blog/metodos/reported-speech-questions-commands` | `gramatica/reported-speech-questions-commands.md` |
+| `/blog/metodos/reporting-verbs-patterns-list` | `gramatica/reporting-verbs-patterns-list.md` |
+| `/blog/metodos/verbos-modales-ingles-guia` | `gramatica/verbos-modales-ingles-guia.md` |
+| `/blog/metodos/voz-pasiva-avanzada-guia` | `gramatica/voz-pasiva-avanzada-guia.md` |
+| `/blog/metodos/voz-pasiva-ingles-guia` | `gramatica/voz-pasiva-ingles-guia.md` |
 
-**Causa**: Estos artículos fueron creados en la categoría `gramatica` (commit `1a64edd0`, `8a4e503c`) pero las URLs indexadas por Google los esperan en `metodos/`.
+**Bug adicional**: El redirect existente `/curso-ingles-gramatica-ingles-b1-guia` → `/blog/metodos/gramatica-ingles-b1-guia` apunta a una URL que ahora es 404. Hay que actualizar su destino a `/blog/gramatica/gramatica-ingles-b1-guia`.
 
 **Otro problema encontrado**: También hay URLs que tienen redirects en `next.config.js` pero **el destino es incorrecto o genérico** (redirigen a una categoría en vez del artículo específico):
 
@@ -149,20 +162,33 @@ Para estas URLs con 0 impresiones el 1-2 de marzo, la causa probable es que son 
 
 ## Proposed Solution
 
-### Fix 1: Añadir redirects faltantes para URLs con categoría incorrecta
+### Fix 1: Añadir 15 redirects faltantes metodos→gramatica + corregir redirect de curso
 
-En `next.config.js`, añadir:
+En `next.config.js`, añadir los 15 redirects:
 ```js
-{
-  source: '/blog/metodos/verbos-modales-ingles-guia',
-  destination: '/blog/gramatica/verbos-modales-ingles-guia',
-  statusCode: 301,
-},
-{
-  source: '/blog/metodos/reporting-verbs-patterns-list',
-  destination: '/blog/gramatica/reporting-verbs-patterns-list',
-  statusCode: 301,
-},
+{ source: '/blog/metodos/condicionales-ingles-guia-completa', destination: '/blog/gramatica/condicionales-ingles-guia-completa', statusCode: 301 },
+{ source: '/blog/metodos/gramatica-ingles-b1-guia', destination: '/blog/gramatica/gramatica-ingles-b1-guia', statusCode: 301 },
+{ source: '/blog/metodos/guia-maestra-reported-speech', destination: '/blog/gramatica/guia-maestra-reported-speech', statusCode: 301 },
+{ source: '/blog/metodos/passive-reporting-verbs-guia-avanzada', destination: '/blog/gramatica/passive-reporting-verbs-guia-avanzada', statusCode: 301 },
+{ source: '/blog/metodos/phrasal-verbs-guia-b2', destination: '/blog/gramatica/phrasal-verbs-guia-b2', statusCode: 301 },
+{ source: '/blog/metodos/preposiciones-movimiento-ingles', destination: '/blog/gramatica/preposiciones-movimiento-ingles', statusCode: 301 },
+{ source: '/blog/metodos/present-perfect-vs-past-simple', destination: '/blog/gramatica/present-perfect-vs-past-simple', statusCode: 301 },
+{ source: '/blog/metodos/relative-clauses-guia-definitiva', destination: '/blog/gramatica/relative-clauses-guia-definitiva', statusCode: 301 },
+{ source: '/blog/metodos/reported-speech-ejercicios-pdf', destination: '/blog/gramatica/reported-speech-ejercicios-pdf', statusCode: 301 },
+{ source: '/blog/metodos/reported-speech-guia-uso', destination: '/blog/gramatica/reported-speech-guia-uso', statusCode: 301 },
+{ source: '/blog/metodos/reported-speech-questions-commands', destination: '/blog/gramatica/reported-speech-questions-commands', statusCode: 301 },
+{ source: '/blog/metodos/reporting-verbs-patterns-list', destination: '/blog/gramatica/reporting-verbs-patterns-list', statusCode: 301 },
+{ source: '/blog/metodos/verbos-modales-ingles-guia', destination: '/blog/gramatica/verbos-modales-ingles-guia', statusCode: 301 },
+{ source: '/blog/metodos/voz-pasiva-avanzada-guia', destination: '/blog/gramatica/voz-pasiva-avanzada-guia', statusCode: 301 },
+{ source: '/blog/metodos/voz-pasiva-ingles-guia', destination: '/blog/gramatica/voz-pasiva-ingles-guia', statusCode: 301 },
+```
+
+Y corregir el redirect existente del curso que apunta a una URL 404:
+```js
+// ANTES (apunta a 404):
+{ source: '/curso-ingles-gramatica-ingles-b1-guia', destination: '/blog/metodos/gramatica-ingles-b1-guia', statusCode: 301 }
+// DESPUÉS:
+{ source: '/curso-ingles-gramatica-ingles-b1-guia', destination: '/blog/gramatica/gramatica-ingles-b1-guia', statusCode: 301 }
 ```
 
 ### Fix 2: Corregir redirect de cv-ingles-guia
