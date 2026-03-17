@@ -2,7 +2,25 @@
 
 ## Bug Summary
 
-Las URLs en Google Search Console muestran 0 impresiones el 1 o 2 de marzo. Tras analizar el código, se identificaron **4 causas raíz** distintas que afectan a grupos diferentes de URLs.
+Las URLs en Google Search Console tenían cientos/miles de impresiones antes y empezaron a caer **a partir del 27 de febrero**, llegando a 0 el 1-2 de marzo. Tras analizar el histórico de commits, se identificaron **causas raíz** distintas que explican la caída gradual (Feb 27) y la caída total (Mar 1-2).
+
+---
+
+## Cronología de la caída
+
+### Feb 27: Inicio de la caída gradual
+**Causa probable**: Inestabilidad de deploys acumulada desde el 23 de febrero.
+
+- **Feb 23 `ca87e6f7`** — "platform simplification": Se eliminaron muchas páginas (`/dashboard`, `/practica-ia`, `/practica-inteligente`, `/profile`, etc.). Google empieza a procesar estos cambios 2-4 días después → **aprox. Feb 27**.
+- **Feb 28 `77df45c8`** — "Fix: remove .bak file causing Vercel build failure": Un archivo `.bak` roto causó que el **build de Vercel fallara**. Esto significa que el sitio podría haber estado sirviendo una versión antigua o dando errores durante horas.
+- **Feb 28-Mar 1**: Múltiples deploys de mejoras visuales (Duolingo-style) con muchos commits seguidos, indicando inestabilidad general.
+
+### Mar 2: Caída total a 0 impresiones en TODAS las URLs
+**Causa confirmada**: Inestabilidad masiva de deploy + cambios críticos en categorías/redirects.
+
+- Mínimo 7 commits de "fix deploy" entre 09:31-15:43: el sitio estuvo **inaccesible o con errores** durante horas.
+- A las 19:02 (`54bf002e`): Cambio de frontmatter `category: metodos` → `category: gramatica` en 15 artículos → las URLs indexadas en `/blog/metodos/[slug]` devuelven **404**.
+- A las 19:28 (`9941f816`): Eliminados los redirects de `gramatica→metodos` **sin añadir los inversos** (`metodos→gramatica`) → 404 permanentes en URLs indexadas por Google.
 
 ---
 
