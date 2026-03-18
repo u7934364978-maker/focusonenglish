@@ -1,0 +1,568 @@
+# Module 4 — The Natural World
+> **Units 19–24 · CEFR C1 · Consolidation Phase**
+
+**Grammar focus:** Advanced relative clauses · Absolute constructions · Emphasis structures (do/does/did + fronting) · Hedging language · Comment clauses  
+**Vocabulary areas:** Climate change, biodiversity, natural disasters, sustainability, ecology, philosophy of nature  
+**Reading types:** Scientific reports, conservation proposals, news articles, philosophical essays  
+**Writing products:** Data report with recommendations, conservation proposal, news article, reflective essay
+
+---
+
+## Unit 19 — Climate Change
+
+### Learning Objectives
+- [ ] Understand and critically evaluate a climate report with data and statistics
+- [ ] Follow a documentary on climate change cause-and-effect
+- [ ] Use advanced relative clauses (reduced, non-defining with prepositions, *whereby/wherein*)
+- [ ] Discuss climate science and policy using precise environmental vocabulary
+- [ ] Write a formal report presenting findings and making recommendations
+
+---
+
+### L1 — Reading
+
+**Text type:** Adapted scientific report (550–650 words)  
+**Topic:** *The State of the Climate: Key Findings and What They Mean for the Future*
+
+**Comprehension tasks:**
+1. **Data interpretation** — What do 4 key statistics in the report tell us about climate trends?
+2. **True/False/Not Given** × 6
+3. **Vocabulary in context** × 7
+4. **Critical reading** — Does the report present a balanced view, or is it advocacy?
+
+**Vocabulary from text:**
+| Word/Phrase | Collocation |
+|---|---|
+| carbon footprint | *reduce / measure / offset one's carbon footprint* |
+| greenhouse gas emissions | *cut / cap / report emissions* |
+| feedback loop | *positive / negative / reinforce a feedback loop* |
+| tipping point | *reach / pass / approach a tipping point* |
+| mitigation | *climate / risk mitigation* |
+| resilience | *build / strengthen / test resilience* |
+| attribution science | *advance / apply attribution science* |
+
+---
+
+### L2 — Listening
+
+**Audio type:** Documentary excerpt (4–5 min)  
+**Topic:** *Our Burning Planet — The Science of Climate Change*
+
+**Comprehension tasks:**
+1. **Cause and effect** — Map 4 climate cause → consequence chains described
+2. **Multiple choice** × 4
+3. **Expert language** — Identify 3 examples of hedging used by scientists in the documentary
+
+---
+
+### L3 — Grammar: Advanced Relative Clauses
+
+**Form:**
+
+| Type | Structure | Example |
+|---|---|---|
+| Non-defining (formal) | *noun, which/who/whom + clause* | *The report, which was published last year, contradicts earlier findings.* |
+| Reduced relative | *noun + -ing/-ed (no relative pronoun)* | *Scientists working on this project… / Data collected over 50 years…* |
+| Preposition + *which* | *preposition + which* | *The conditions under which these changes occur…* |
+| *Whereby* | Expressing a method or means | *A mechanism whereby carbon is stored underground…* |
+| *Wherein* | Formal: in which | *A scenario wherein temperatures rise by 3°C…* |
+| *Whichever/Whatever* | Free relative | *Whichever policy is adopted, the key is consistency.* |
+
+**Exercises:**
+1. Reduce 6 relative clauses to participial phrases
+2. Replace 6 *in which / of which* with the appropriate preposition + *which*
+3. Combine 8 sentence pairs using the most appropriate relative clause type
+
+---
+
+### L4 — Vocabulary: Climate and Environment
+
+| Category | Words and Expressions |
+|---|---|
+| **Climate science** | *carbon cycle, methane, permafrost, sea-level rise, Arctic amplification, acidification* |
+| **Policy** | *Paris Agreement, net zero, carbon tax, cap-and-trade, climate pledge, decarbonisation* |
+| **Consequences** | *drought, flooding, extreme weather, displacement, food insecurity, extinction* |
+| **Solutions** | *renewable energy, reforestation, carbon capture, solar geoengineering* |
+| **Collocations** | *take decisive action / meet emissions targets / accelerate the transition to / phase out* |
+
+---
+
+### L5 — Writing: Formal Report with Data
+
+**Task:** Write a formal report (250–290 words):  
+*A local government has asked for a report on the impact of climate change on your region. Present findings and make 3 recommendations.*
+
+**Structure:** Introduction → Findings (2–3 points) → Recommendations → Conclusion
+
+**Language focus:** Passive voice, formal reporting language, hedging (*it would appear that… / the data suggests…*), relative clauses
+
+---
+
+### L6 — Speaking + Review
+
+**Speaking task:** *"Is it too late to prevent catastrophic climate change?"*  
+Structured debate: 2 teams · 2-minute position statements · 5-minute discussion · closing summary
+
+**Unit review checklist:**
+- [ ] I can use non-defining, reduced and prepositional relative clauses accurately
+- [ ] I can discuss climate change using precise scientific and policy vocabulary
+- [ ] I can write a formal data report with recommendations
+
+---
+
+## Unit 20 — Biodiversity and Conservation
+
+### Learning Objectives
+- [ ] Read and discuss an article on species extinction and biodiversity loss
+- [ ] Understand a conservationist's proposals and arguments
+- [ ] Use absolute constructions in formal writing and speech
+- [ ] Discuss ecology and conservation with precise vocabulary
+- [ ] Write a formal conservation proposal
+
+---
+
+### L1 — Reading
+
+**Text type:** Science article (500–600 words)  
+**Topic:** *The Sixth Mass Extinction: What Biodiversity Loss Means for the Planet and for Us*
+
+**Comprehension tasks:**
+1. **Summary completion** × 6 gaps
+2. **Author's argument** — What does the author claim about the relationship between biodiversity and human wellbeing?
+3. **Vocabulary in context** × 6
+4. **Evaluation** — Is the tone alarmist or measured? Find evidence.
+
+---
+
+### L2 — Listening
+
+**Audio type:** Expert interview (4 min)  
+**Topic:** *On the Front Line of Conservation — A Wildlife Biologist on What Can Still Be Done*
+
+**Comprehension tasks:**
+1. **Solutions** — List 4 conservation strategies the expert recommends
+2. **Multiple choice** × 3 — expert's opinions
+3. **Inference** — How optimistic is the expert overall?
+
+---
+
+### L3 — Grammar: Absolute Constructions
+
+**Form and use:**
+
+| Type | Structure | Example |
+|---|---|---|
+| Nominative absolute | *noun phrase + participle* | *The project completed, the team moved on to the next challenge.* |
+| Weather/condition | *fixed expressions* | *Weather permitting, the survey will begin on Monday.* |
+| *All things considered* | Fixed | *All things considered, the outcome was positive.* |
+| *That said / This done* | Fixed | *That said, there remain serious challenges.* |
+| With-absolute | *With + noun + participle* | *With funding secured, the project can proceed.* |
+
+**Use notes:** Absolute constructions are formal and literary; they condense background information. The noun in the absolute construction is different from the main clause subject.
+
+**Exercises:**
+1. Combine 8 sentence pairs using absolute constructions
+2. Identify and classify 5 absolute constructions in a formal text
+3. Write 3 original sentences using absolute constructions in an environmental context
+
+---
+
+### L4 — Vocabulary: Ecology and Conservation
+
+| Category | Words and Expressions |
+|---|---|
+| **Ecology** | *ecosystem, habitat, biodiversity, food chain, keystone species, apex predator* |
+| **Threats** | *deforestation, habitat loss, poaching, invasive species, pollution, overexploitation* |
+| **Conservation** | *wildlife corridor, marine reserve, rewilding, captive breeding, conservation status* |
+| **IUCN categories** | *critically endangered, endangered, vulnerable, threatened, extinct in the wild* |
+| **Metaphors** | *the web of life, the balance of nature, nature's resilience, ecological footprint* |
+| **Collocations** | *protect biodiversity / restore habitats / monitor species / enforce legislation* |
+
+---
+
+### L5 — Writing: Conservation Proposal
+
+**Task:** Write a proposal (240–280 words) to protect an endangered ecosystem:  
+*A wetland area near a city is threatened by urban development. Write a proposal to a local council arguing for its protection.*
+
+**Required elements:** Purpose · Background · Benefits of conservation · Specific recommendations · Conclusion
+
+---
+
+### L6 — Speaking + Review
+
+**Speaking task:** Presentation (2 minutes)  
+*Choose one endangered species or threatened ecosystem and present: what it is, why it matters, and what should be done.*
+
+**Unit review checklist:**
+- [ ] I can use absolute constructions accurately in formal contexts
+- [ ] I can write a formal proposal with persuasive reasoning and correct structure
+- [ ] I can discuss conservation and biodiversity with precise vocabulary
+
+---
+
+## Unit 21 — Natural Disasters
+
+### Learning Objectives
+- [ ] Analyse a journalistic report on a natural disaster for narrative structure
+- [ ] Follow live-style news coverage for fast-paced comprehension
+- [ ] Use emphasis structures (*do/does/did*) and fronting effectively
+- [ ] Discuss disasters and humanitarian response with precise vocabulary
+- [ ] Write a journalistic article using inverted pyramid structure
+
+---
+
+### L1 — Reading
+
+**Text type:** Feature news report (500–600 words)  
+**Topic:** *After the Earthquake: How Communities Rebuild and What We Can Learn*
+
+**Comprehension tasks:**
+1. **Narrative structure** — Identify: scene-setting → crisis → response → reflection
+2. **Detail questions** × 4
+3. **Language of journalism** — Find 5 examples of journalistic techniques (vivid description, eyewitness quotes, statistics)
+4. **Vocabulary in context** × 5
+
+---
+
+### L2 — Listening
+
+**Audio type:** Simulated live news broadcast (4–5 min)  
+**Topic:** *Breaking news coverage of a major natural disaster*
+
+**Comprehension tasks:**
+1. **Fast comprehension** — Note 5 key facts from the broadcast in real time
+2. **Register** — How does the language of live news differ from written journalism?
+3. **Critical** — What is missing from the broadcast that a full report would include?
+
+---
+
+### L3 — Grammar: Emphasis — Auxiliary *do* and Fronting
+
+**Forms:**
+
+| Structure | Use | Example |
+|---|---|---|
+| *do/does/did* for emphasis | Stress that something is true | *Scientists do believe this was preventable.* |
+| Fronting (adverbial) | Move adverbial to front for focus | *Rarely has a disaster of this scale been seen.* |
+| Fronting (object) | Move object to front for contrast | *The economic damage, nobody can fully calculate.* |
+| Fronting (complement) | Move adjective/complement | *Extraordinary was the speed of the emergency response.* |
+| Existential *there* | Introduce new information | *There exists a clear need for better early warning systems.* |
+
+**Exercises:**
+1. Add emphasis with *do/does/did* to 6 sentences
+2. Front the underlined element in 6 sentences
+3. Rewrite a paragraph using 3 different emphasis strategies for effect
+
+---
+
+### L4 — Vocabulary: Disasters and Humanitarian Response
+
+| Category | Words and Expressions |
+|---|---|
+| **Disaster types** | *earthquake, tsunami, hurricane, wildfire, landslide, volcanic eruption, flood* |
+| **Impact** | *casualties, fatalities, displaced persons, infrastructure damage, aftermath* |
+| **Response** | *emergency services, evacuation, relief efforts, aid workers, triage, search and rescue* |
+| **Recovery** | *reconstruction, resilience, rehabilitation, trauma, rebuilding communities* |
+| **Journalism** | *eyewitness account, breaking news, unconfirmed reports, official statement, toll* |
+| **Collocations** | *declare a state of emergency / mobilise resources / coordinate relief efforts* |
+
+---
+
+### L5 — Writing: News Article (Inverted Pyramid)
+
+**Task:** Write a news article (230–270 words) on a fictional natural disaster:  
+*A major earthquake has struck a coastal city. Write the article using the inverted pyramid structure.*
+
+**Inverted pyramid:**
+1. **Lead** — most important facts (who, what, where, when, why/how) in 1–2 sentences
+2. **Body** — supporting details, quotes, context
+3. **Tail** — background, less critical information
+
+---
+
+### L6 — Speaking + Review
+
+**Speaking task:** Role-play — Press conference  
+*You are a government spokesperson after a major natural disaster. Face questions from "journalists" (classmates).*
+
+**Unit review checklist:**
+- [ ] I can use *do/does/did* for emphasis and fronting correctly
+- [ ] I can write a news article using inverted pyramid structure
+- [ ] I can use disaster and humanitarian vocabulary precisely in context
+
+---
+
+## Unit 22 — Sustainable Living
+
+### Learning Objectives
+- [ ] Read and evaluate a text on circular economy and urban sustainability
+- [ ] Follow a podcast on sustainable habits and responsible consumption
+- [ ] Use hedging language precisely and appropriately in writing and discussion
+- [ ] Discuss sustainability, consumption and lifestyle using advanced vocabulary
+- [ ] Write a blog post or popular article on a sustainability topic
+
+---
+
+### L1 — Reading
+
+**Text type:** Feature article (500–600 words)  
+**Topic:** *The Circular Economy: Can We Design a World Without Waste?*
+
+**Comprehension tasks:**
+1. **Key concepts** — Explain the difference between linear economy and circular economy
+2. **Author's position** × 4 multiple choice
+3. **Vocabulary in context** × 6
+4. **Critical thinking** — What obstacles to a circular economy does the author underestimate?
+
+---
+
+### L2 — Listening
+
+**Audio type:** Podcast (4–5 min)  
+**Topic:** *Small Changes, Big Impact? The Truth About Individual Action on Climate*
+
+**Comprehension tasks:**
+1. **Main argument** — Does the podcast argue that individual action matters, or that systemic change is needed?
+2. **Multiple choice** × 4
+3. **Hedging** — Identify 5 examples of hedging in the podcast. Why does the speaker hedge these claims?
+
+---
+
+### L3 — Grammar: Hedging Language
+
+**Purpose:** Hedging is used to soften claims, acknowledge uncertainty and show academic caution.
+
+**Forms:**
+
+| Type | Examples |
+|---|---|
+| **Modal verbs** | *may, might, could, would* |
+| **Adverbs** | *arguably, apparently, seemingly, possibly, presumably, conceivably* |
+| **Verbs** | *tend to, appear to, seem to, suggest, indicate, imply* |
+| **Adjectives** | *possible, likely, probable, uncertain, debatable* |
+| **Distancing clauses** | *it could be argued that… / it would appear that… / there is reason to believe that…* |
+| **Approximators** | *approximately, roughly, around, in the region of, up to* |
+
+**Contrast — Boosting (for confident claims):**  
+*clearly, undoubtedly, certainly, it is evident that, there is no doubt that*
+
+**Exercises:**
+1. Add appropriate hedging to 8 over-confident claims
+2. Identify 6 hedging devices in an academic paragraph and explain the purpose of each
+3. Write a hedged paragraph (100 words) on the impact of individual lifestyle choices on climate
+
+---
+
+### L4 — Vocabulary: Sustainability and Consumption
+
+| Category | Words and Expressions |
+|---|---|
+| **Economy models** | *circular economy, linear economy, cradle-to-grave, cradle-to-cradle, zero waste* |
+| **Lifestyle** | *minimalism, slow living, conscious consumption, carbon neutral, off-grid* |
+| **Green language** | *eco-friendly, sustainable, biodegradable, renewable, compostable, upcycling* |
+| **Policy** | *extended producer responsibility, lifecycle assessment, green procurement* |
+| **Collocations** | *reduce one's footprint / adopt a sustainable lifestyle / minimise waste / opt for* |
+
+---
+
+### L5 — Writing: Blog Post / Divulgative Article
+
+**Task:** Write a blog post or popular article (230–270 words):  
+*"Living sustainably doesn't have to mean living uncomfortably — here's why."*
+
+**Focus:** Semi-formal, engaging register; use hedging where claims are not absolute; concrete examples; call to action in closing
+
+---
+
+### L6 — Speaking + Review
+
+**Speaking task:** Debate  
+*"Individual lifestyle changes are pointless without systemic change. Do you agree?"*
+
+**Unit review checklist:**
+- [ ] I can use hedging language appropriately in both writing and discussion
+- [ ] I can distinguish between hedging and boosting and use both deliberately
+- [ ] I can write a divulgative article in an engaging, semi-formal register
+- [ ] I can discuss sustainability and environmental policy with advanced vocabulary
+
+---
+
+## Unit 23 — The Human-Nature Relationship
+
+### Learning Objectives
+- [ ] Read and discuss a philosophical essay on humanity's place in nature
+- [ ] Follow an interview on ecopsychology and nature-based wellbeing
+- [ ] Use comment clauses to add register and nuance to writing and speech
+- [ ] Express philosophical and reflective ideas with precise vocabulary
+- [ ] Write a reflective essay on a personal or philosophical theme
+
+---
+
+### L1 — Reading
+
+**Text type:** Philosophical essay (550–650 words)  
+**Topic:** *Nature and the Human Soul: Why Our Disconnection from the Natural World Matters*
+
+**Comprehension tasks:**
+1. **Philosophical argument** — What is the author's central thesis about the human-nature relationship?
+2. **Multiple choice** × 4
+3. **Figurative language** — Find 4 metaphors or images used. What effect do they create?
+4. **Personal response** — Do you agree that modern humans are disconnected from nature? Explain.
+
+---
+
+### L2 — Listening
+
+**Audio type:** Specialist interview (4 min)  
+**Topic:** *Ecopsychology and the Healing Power of Nature — A Conversation with a Researcher*
+
+**Comprehension tasks:**
+1. **Key claims** × 4 detail questions
+2. **Expert evidence** — What research does the expert cite to support their claims?
+3. **Inference** — What does the expert imply about modern urban lifestyles?
+
+---
+
+### L3 — Grammar: Comment Clauses
+
+**Form and use:**  
+Comment clauses are parenthetical phrases that add the speaker's attitude, evaluation or emphasis.
+
+| Type | Examples |
+|---|---|
+| **Evaluative** | *which is surprising / which is unfortunate / what is remarkable* |
+| **Attitudinal** | *as I see it / if you ask me / to my mind / in my view* |
+| **Epistemic** | *as far as I know / to the best of my knowledge / it has to be said* |
+| **Additive** | *what's more / what is more / not to mention* |
+| **Concessive** | *it must be admitted / I have to say / I'll grant you that* |
+
+**Examples in sentences:**
+- *The data, which is particularly striking, shows a 40% decline in insect populations.*
+- *As I see it, we have fundamentally misunderstood our relationship with the natural world.*
+- *Rewilding, it has to be said, is not without its critics.*
+
+**Exercises:**
+1. Insert an appropriate comment clause in 8 sentences
+2. Identify and classify 6 comment clauses in a text
+3. Rewrite 4 flat, neutral sentences to add a comment clause that reveals the writer's attitude
+
+---
+
+### L4 — Vocabulary: Nature, Philosophy and Wellbeing
+
+| Category | Words and Expressions |
+|---|---|
+| **Nature concepts** | *wilderness, biodiversity, ecosystem, biosphere, rewilding, coexistence* |
+| **Philosophy** | *stewardship, interconnectedness, intrinsic value, anthropocentrism, ecocentrism* |
+| **Wellbeing** | *restorative, contemplative, grounding, awe, transcendence, mindfulness* |
+| **Poetic/literary** | *the sublime, solitude, the natural order, harmony, reverence* |
+| **Collocations** | *foster a connection with / restore the balance of / marvel at the beauty of* |
+
+---
+
+### L5 — Writing: Reflective Essay
+
+**Task:** Write a reflective essay (350–400 words):  
+*"What does nature mean to you, and what do you think humanity owes to the natural world?"*
+
+**Reflective essay features:**
+- First person is appropriate
+- Mix of personal experience and broader argument
+- Use of philosophical vocabulary and figurative language
+- Comment clauses to add nuance and personal voice
+- No rigid structure — but must be coherent and developed
+
+---
+
+### L6 — Speaking + Review
+
+**Speaking task:** Extended monologue (2–3 minutes)  
+*Describe a place in nature that has had an impact on you, and reflect on what that experience revealed about the human-nature relationship.*
+
+**Unit review checklist:**
+- [ ] I can use comment clauses to add personal voice and nuance to my writing
+- [ ] I can write a reflective essay with philosophical depth and personal engagement
+- [ ] I can discuss the human-nature relationship using philosophical and literary vocabulary
+
+---
+
+## Unit 24 — Module 4 Review: The Natural World
+
+### Learning Objectives
+- [ ] Read a long, complex text on environment with full critical comprehension
+- [ ] Follow a documentary with varied accents and technical language
+- [ ] Demonstrate control of all five Module 4 grammar structures
+- [ ] Write a complete report or proposal on an environmental topic
+- [ ] Perform at C1 level in a speaking assessment on Module 4 themes
+
+---
+
+### L1 — Reading
+
+**Text type:** Long academic/journalistic text (700+ words)  
+**Topic:** *After Nature: Can Technology Save What Human Progress Has Destroyed?*
+
+**Comprehension tasks:**
+1. **Argument** — Map the essay's 3 main arguments with supporting evidence
+2. **Inference** × 4 multiple choice
+3. **Vocabulary** — Define 8 advanced words from context
+4. **Critical response** — What is the strongest and weakest point in the article? (80 words)
+
+---
+
+### L2 — Listening
+
+**Audio type:** Documentary (5 min) — varied accents, technical language  
+**Topic:** *Rewilding Europe: Restoring Ecosystems at Scale*
+
+**Comprehension tasks:**
+1. **Speaker identification** — Match 4 statements to the correct speaker
+2. **Main argument** — What is the documentary's central message?
+3. **Synthesis** — How do the different speakers' views relate to each other?
+
+---
+
+### L3 — Grammar: Module 4 Consolidation
+
+**Review:** Advanced relative clauses · Absolute constructions · Emphasis (*do* + fronting) · Hedging language · Comment clauses
+
+**Exercises:**
+1. **Mixed gap fill** — 25 items covering all 5 structures
+2. **Text improvement** — Rewrite a flat B2 paragraph using all 5 C1 structures
+3. **Error correction** — 10 errors in a formal environmental report
+4. **Transformation** × 8 — rewrite using the structure indicated
+
+---
+
+### L4 — Vocabulary: Module 4 Review
+
+1. **Thematic map** — Create a vocabulary map: "Environment and Human Impact" using 30+ items from Module 4
+2. **Collocation test** — 10 items: choose the correct collocate
+3. **Register lift** — Rewrite 5 informal sentences using formal environmental/academic vocabulary
+
+---
+
+### L5 — Writing: Full Report or Proposal
+
+**Task:** Write a complete report or proposal (430–500 words) on ONE of:
+- *Report on the state of biodiversity in your region, with recommendations*
+- *Proposal to introduce a rewilding programme in an urban or peri-urban area*
+
+**Requirements:** All 5 Module 4 grammar structures · Formal register · Advanced vocabulary from Module 4
+
+---
+
+### L6 — Speaking: Module Assessment
+
+**Format:** 12–15 minutes individual assessment
+
+**Part 1 — Monologue (3–4 min):** Present your view on one: climate change and responsibility / rewilding / sustainable living  
+**Part 2 — Discussion (5–6 min):** Follow-up questions on Module 4 themes  
+**Part 3 — Stimulus response (2–3 min):** React to a short environmental quotation spontaneously
+
+**Module 4 completion checklist:**
+- [ ] All five grammar structures from Units 19–23 used accurately
+- [ ] 60+ new vocabulary items from Module 4 actively used
+- [ ] Full written task completed and assessed
+- [ ] Oral assessment at C1 level completed
