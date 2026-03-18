@@ -302,9 +302,9 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           question: 'Choose the best sentence to open an opinion article about the influence of social media on language.',
           options: [
-            '[[Social media has changed language a lot.|Las redes sociales han cambiado mucho el lenguaje.]]',
+            '[[Social media has fundamentally transformed the way people communicate, introducing new vocabulary, abbreviations and modes of expression that are increasingly infiltrating formal language. This article examines the extent to which these changes represent a threat to linguistic standards or, alternatively, a natural stage in language evolution.|Las redes sociales han transformado fundamentalmente la forma en que las personas se comunican, introduciendo nuevo vocabulario y abreviaciones que se infiltran cada vez más en el lenguaje formal. Este artículo examina hasta qué punto estos cambios representan una amenaza o una etapa natural de la evolución lingüística.]]',
             '[[Never before have the forces shaping language evolved so rapidly as in the era of social media.|Nunca antes las fuerzas que moldean el lenguaje habían evolucionado tan rápidamente como en la era de las redes sociales.]]',
-            '[[I think social media is bad for language.|Creo que las redes sociales son malas para el lenguaje.]]',
+            '[[It cannot be denied that social media has had a considerable impact on English, particularly among younger speakers. The question that this article will seek to answer, however, is whether this impact should ultimately be viewed as an enrichment of the language or as a symptom of its deterioration.|No puede negarse que las redes sociales han tenido un impacto considerable en el inglés, especialmente entre los hablantes más jóvenes. La pregunta que este artículo intentará responder es si este impacto debe verse como un enriquecimiento del lenguaje o como un síntoma de su deterioro.]]',
           ],
           correctAnswer: 1,
           explanation: 'Option B uses inversion (Never before have...) for emphasis, appropriate register, and a compelling opening hook.',
@@ -326,9 +326,9 @@ export const UNIT_2_EXERCISES: Exercise[] = [
         {
           question: 'You want to add a point that qualifies what you just said. Which expression is most appropriate at C1 level?',
           options: [
-            '[[Also,|También,]]',
+            '[[That being said, it is also worth bearing in mind that|Dicho esto, también vale la pena tener en cuenta que]]',
             '[[Notwithstanding this, it should be noted that|No obstante, cabe señalar que]]',
-            '[[But|Pero]]',
+            '[[On the other hand, we should not forget that|Por otro lado, no debemos olvidar que]]',
           ],
           correctAnswer: 1,
           explanation: '"Notwithstanding this" is a sophisticated C1 discourse marker used to qualify or add nuance.',

@@ -298,9 +298,9 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           question: 'Choose the best sentence to recommend an action in a formal proposal about AI regulation.',
           options: [
-            '[[We should make rules for AI.|Deberíamos hacer reglas para la IA.]]',
+            '[[The development and deployment of AI must be regulated without delay. Regulators should act swiftly to introduce comprehensive rules that prevent misuse, ensure accountability and guarantee that AI innovation serves the public interest rather than narrow commercial or political interests.|El desarrollo y la implementación de la IA debe regularse sin demora. Los reguladores deben actuar rápidamente para introducir normas exhaustivas que prevengan el mal uso, garanticen la responsabilidad y aseguren que la innovación de IA sirva al interés público.]]',
             '[[It is strongly recommended that a cross-sector regulatory framework be established to govern the development and deployment of AI systems.|Se recomienda encarecidamente que se establezca un marco regulatorio intersectorial para regular el desarrollo y la implementación de sistemas de IA.]]',
-            '[[AI needs to be controlled because it is dangerous.|La IA necesita ser controlada porque es peligrosa.]]',
+            '[[In light of the evidence presented in this report, it is our recommendation that relevant stakeholders begin discussions regarding the possible formation of an oversight committee. We propose that a working group be convened within the next six months to explore regulatory options.|A la luz de la evidencia presentada en este informe, nuestra recomendación es que las partes interesadas comiencen a discutir la posible formación de un comité de supervisión. Proponemos que se convoque un grupo de trabajo en los próximos seis meses.]]',
           ],
           correctAnswer: 1,
           explanation: 'Formal proposals use impersonal passive + subjunctive: "it is recommended that... be established".',
@@ -322,9 +322,9 @@ export const UNIT_3_EXERCISES: Exercise[] = [
         {
           question: 'You want to speculate about whether AI will replace human jobs. Which is the most academically appropriate expression?',
           options: [
-            '[[Maybe AI will take all our jobs.|Quizás la IA tomará todos nuestros trabajos.]]',
+            '[[It seems highly probable that AI will lead to widespread disruption in the labour market, and there are reasonable grounds for believing that a significant proportion of professional roles will be substantially redefined, though the precise timeline and scope of this transformation remain difficult to predict.|Parece muy probable que la IA conduzca a una amplia disrupción en el mercado laboral, y hay razones razonables para creer que una proporción significativa de los roles profesionales será sustancialmente redefinida, aunque el calendario y alcance precisos siguen siendo difíciles de predecir.]]',
             '[[One might reasonably posit that AI will transform rather than eliminate many professional roles.|Uno podría razonablemente postular que la IA transformará más que eliminará muchos roles profesionales.]]',
-            '[[I think AI is going to be very important.|Creo que la IA va a ser muy importante.]]',
+            '[[Looking ahead, we can anticipate that AI will have far-reaching implications for the world of work, potentially rendering certain roles obsolete while simultaneously generating new opportunities that are currently impossible to foresee with any degree of certainty or specificity.|Mirando hacia el futuro, podemos anticipar que la IA tendrá implicaciones de gran alcance para el mundo laboral, potencialmente haciendo obsoletos ciertos roles mientras genera simultáneamente nuevas oportunidades que actualmente son imposibles de prever con ningún grado de certeza.]]',
           ],
           correctAnswer: 1,
           explanation: '"One might reasonably posit" = sophisticated C1 hedging and speculation language.',

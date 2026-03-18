@@ -302,9 +302,9 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           question: 'Which sentence best hedges a claim about the effectiveness of carbon taxes?',
           options: [
-            '[[Carbon taxes work.|Los impuestos al carbono funcionan.]]',
+            '[[Research consistently demonstrates that carbon taxes are an effective policy tool for reducing greenhouse gas emissions, as evidenced by successful implementations in Nordic countries and Canada, which have achieved measurable reductions without significant economic harm to households or industries.|La investigación demuestra consistentemente que los impuestos al carbono son una herramienta política efectiva para reducir las emisiones de gases de efecto invernadero, como lo evidencian las implementaciones exitosas en los países nórdicos y Canadá.]]',
             '[[The evidence would appear to suggest that carbon pricing mechanisms tend to reduce emissions, albeit with varying degrees of effectiveness across different economic contexts.|La evidencia parecería sugerir que los mecanismos de fijación de precios del carbono tienden a reducir las emisiones, aunque con grados variables de efectividad.]]',
-            '[[Maybe carbon taxes help a bit.|Quizás los impuestos al carbono ayudan un poco.]]',
+            '[[Carbon taxes seem to work reasonably well in some contexts, and there is reason to think that pricing carbon emissions is a sensible approach in developed economies, although more comprehensive research across a wider range of economic settings would be needed before any firm conclusions could be drawn.|Los impuestos al carbono parecen funcionar razonablemente bien en algunos contextos, y hay razones para pensar que fijar el precio de las emisiones de carbono es un enfoque sensato en las economías desarrolladas, aunque se necesitaría más investigación antes de sacar conclusiones firmes.]]',
           ],
           correctAnswer: 1,
           explanation: 'Option B uses "would appear to suggest", "tend to", and "albeit" — all C1 hedging structures.',
@@ -326,9 +326,9 @@ export const UNIT_4_EXERCISES: Exercise[] = [
         {
           question: 'How would you best express concern about habitat loss in an academic discussion?',
           options: [
-            '[[It\'s really bad that animals are losing their homes.|Es muy malo que los animales estén perdiendo sus hogares.]]',
+            '[[The loss of natural habitats represents one of the most pressing environmental challenges of our era. Current rates of deforestation and land conversion are, by most scientific accounts, unsustainable and are already producing measurable impacts on global biodiversity that will take generations to reverse, if reversal is indeed possible.|La pérdida de hábitats naturales representa uno de los desafíos medioambientales más urgentes de nuestra era. Las tasas actuales de deforestación son, según la mayoría de los relatos científicos, insostenibles y ya están produciendo impactos mensurables en la biodiversidad global.]]',
             '[[What is particularly alarming is the pace at which critical habitats are being lost — a rate that many ecologists consider unprecedented in human history.|Lo que resulta especialmente alarmante es el ritmo al que se están perdiendo los hábitats críticos.]]',
-            '[[We need to protect animals.|Necesitamos proteger a los animales.]]',
+            '[[There is a substantial body of evidence suggesting that habitat destruction is accelerating at an unprecedented rate, with potentially catastrophic consequences for global biodiversity. Many leading ecologists have argued that if current trends continue unchecked, we may be witnessing the early stages of a sixth mass extinction event.|Existe un corpus sustancial de evidencia que sugiere que la destrucción de hábitats se está acelerando a un ritmo sin precedentes, con consecuencias potencialmente catastróficas para la biodiversidad global. Muchos ecólogos destacados han argumentado que si las tendencias actuales continúan, podríamos estar presenciando las primeras etapas de un sexto evento de extinción masiva.]]',
           ],
           correctAnswer: 1,
           explanation: '"What is particularly alarming is..." = cleft sentence for emphasis + sophisticated vocabulary and hedging.',
