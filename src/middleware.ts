@@ -6,6 +6,7 @@ const PUBLIC_ROUTES = new Set([
   "/contacto",
   "/planes",
   "/cuenta/login",
+  "/cuenta/login-admin",
   "/cuenta/registro",
   "/cuenta/recuperar",
   "/reset-password",
@@ -76,7 +77,7 @@ export async function middleware(request: NextRequest) {
       pathname.startsWith("/onboarding")
     ) {
       const url = request.nextUrl.clone();
-      url.pathname = "/cuenta/login";
+      url.pathname = pathname.startsWith("/admin") ? "/cuenta/login-admin" : "/cuenta/login";
       url.searchParams.set("next", pathname);
       return NextResponse.redirect(url, 303);
     }
@@ -132,9 +133,9 @@ export async function middleware(request: NextRequest) {
       pathname.startsWith("/onboarding")
     ) {
       const url = request.nextUrl.clone();
-      url.pathname = "/cuenta/login";
+      url.pathname = pathname.startsWith("/admin") ? "/cuenta/login-admin" : "/cuenta/login";
       url.searchParams.set("next", pathname);
-      return NextResponse.redirect(url);
+      return NextResponse.redirect(url, 303);
     }
     return response;
   }
@@ -214,16 +215,26 @@ export async function middleware(request: NextRequest) {
   if (isProtectedArea) {
     if (!user) {
       const url = request.nextUrl.clone();
-      url.pathname = "/cuenta/login";
+      url.pathname = pathname.startsWith("/admin") ? "/cuenta/login-admin" : "/cuenta/login";
       url.searchParams.set("next", pathname);
-      return NextResponse.redirect(url);
+      return NextResponse.redirect(url, 303);
     }
 
     // Si está autenticado, verificar suscripción (excepto outline que sí es "página de cursos")
     const isPaid = profile?.subscription_status === "active" || profile?.subscription_status === "trialing";
     const isAdmin = profile?.role === "admin";
+    const isAdminArea = pathname.startsWith("/admin");
     const isToeflExempt = pathname.startsWith("/curso/toefl-");
     const isOutlineOnly = pathname === "/curso-a1/outline" || pathname === "/curso-a2/outline" || pathname === "/curso-b1/outline" || pathname === "/curso-b2/outline";
+
+    // Admin: si el usuario autenticado no es admin, enviarlo al login de admin (no al de alumno)
+    if (isAdminArea && !isAdmin) {
+      const url = request.nextUrl.clone();
+      url.pathname = "/cuenta/login-admin";
+      url.searchParams.set("error", "forbidden");
+      url.searchParams.set("next", pathname);
+      return NextResponse.redirect(url, 303);
+    }
 
     if (!isPaid && !isAdmin && !isToeflExempt && !isOutlineOnly) {
       const url = request.nextUrl.clone();
