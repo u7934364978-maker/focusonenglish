@@ -51,7 +51,7 @@ Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 
 Save to `{@artifacts_path}/plan.md`.
 
-### [ ] Step: Create course root files
+### [x] Step: Create course root files
 Create the top-level course files:
 - `course-c1-english/README.md` – Course index with overview, unit list, CEFR alignment, exam compatibility, and how to use the course
 - `course-c1-english/syllabus.md` – Official syllabus with CEFR C1 can-do descriptors per skill, full unit overview table, grammar scope & sequence summary, vocabulary progression, and assessment breakdown
