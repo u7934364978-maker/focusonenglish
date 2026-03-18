@@ -58,7 +58,7 @@ Create the top-level course files:
 
 Verify: Both files cover all 10 units, reference CEFR C1 descriptors, and follow Markdown formatting.
 
-### [ ] Step: Create unit files 1–3 (Activation phase)
+### [x] Step: Create unit files 1–3 (Activation phase)
 Create detailed unit files for the first three units (activation & expansion B2→C1):
 - `course-c1-english/units/unit-01-identity-society.md`
 - `course-c1-english/units/unit-02-language-communication.md`
