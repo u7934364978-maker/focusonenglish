@@ -19,7 +19,8 @@ export async function POST(request: NextRequest) {
 
     if (!email || !password) {
       return NextResponse.redirect(
-        new URL(`/cuenta/login?error=missing&next=${encodeURIComponent(callbackUrl)}`, request.url)
+        new URL(`/cuenta/login?error=missing&next=${encodeURIComponent(callbackUrl)}`, request.url),
+        303
       );
     }
 
@@ -52,13 +53,15 @@ export async function POST(request: NextRequest) {
 
     if (error) {
       return NextResponse.redirect(
-        new URL(`/cuenta/login?error=auth&next=${encodeURIComponent(callbackUrl)}`, request.url)
+        new URL(`/cuenta/login?error=auth&next=${encodeURIComponent(callbackUrl)}`, request.url),
+        303
       );
     }
 
     if (!data.user) {
       return NextResponse.redirect(
-        new URL(`/cuenta/login?error=auth&next=${encodeURIComponent(callbackUrl)}`, request.url)
+        new URL(`/cuenta/login?error=auth&next=${encodeURIComponent(callbackUrl)}`, request.url),
+        303
       );
     }
 
@@ -93,7 +96,8 @@ export async function POST(request: NextRequest) {
   } catch (err) {
     console.error('[auth/login]', err);
     return NextResponse.redirect(
-      new URL('/cuenta/login?error=server', request.url)
+      new URL('/cuenta/login?error=server', request.url),
+      303
     );
   }
 }

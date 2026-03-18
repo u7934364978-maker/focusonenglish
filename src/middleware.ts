@@ -78,7 +78,7 @@ export async function middleware(request: NextRequest) {
       const url = request.nextUrl.clone();
       url.pathname = "/cuenta/login";
       url.searchParams.set("next", pathname);
-      return NextResponse.redirect(url);
+      return NextResponse.redirect(url, 303);
     }
     return response;
   }
@@ -230,7 +230,7 @@ export async function middleware(request: NextRequest) {
       url.pathname = "/planes";
       url.searchParams.set("reason", "premium_required");
       url.searchParams.set("next", pathname);
-      return NextResponse.redirect(url);
+      return NextResponse.redirect(url, 303);
     }
   }
 
