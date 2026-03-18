@@ -13,7 +13,7 @@ keywords:
   - app para aprender ingles adultos
   - focus english app
   - comparativa apps ingles
-date: '2024-02-03'
+date: '2026-02-03'
 updatedDate: '2026-03-07'
 category: metodos
 author: sara-mendez
