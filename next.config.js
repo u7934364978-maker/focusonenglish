@@ -584,11 +584,13 @@ const nextConfig = {
         source: '/blog/Trabajo',
         destination: '/blog/trabajo',
         statusCode: 301,
+        caseSensitive: true,
       },
       {
         source: '/blog/Trabajo/:slug*',
         destination: '/blog/trabajo/:slug*',
         statusCode: 301,
+        caseSensitive: true,
       },
       {
         source: '/blog/ingles-profesional-sectores',
