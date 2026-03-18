@@ -580,18 +580,7 @@ const nextConfig = {
         destination: '/blog/metodos/:slug*',
         statusCode: 301,
       },
-      {
-        source: '/blog/Trabajo',
-        destination: '/blog/trabajo',
-        statusCode: 301,
-        caseSensitive: true,
-      },
-      {
-        source: '/blog/Trabajo/:slug*',
-        destination: '/blog/trabajo/:slug*',
-        statusCode: 301,
-        caseSensitive: true,
-      },
+
       {
         source: '/blog/ingles-profesional-sectores',
         destination: '/blog/trabajo/ingles-para-trabajo',

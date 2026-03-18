@@ -35,6 +35,12 @@ function isPublicSEORoute(pathname: string) {
 export async function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
 
+  if (pathname === "/blog/Trabajo" || pathname.startsWith("/blog/Trabajo/")) {
+    const url = request.nextUrl.clone();
+    url.pathname = pathname.replace("/blog/Trabajo", "/blog/trabajo");
+    return NextResponse.redirect(url, { status: 301 });
+  }
+
   if (pathname === "/blog") {
     const category = request.nextUrl.searchParams.get("category");
     if (category) {
