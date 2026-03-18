@@ -40,7 +40,8 @@ Save to `{@artifacts_path}/spec.md` with:
 - Delivery phases (incremental, testable milestones)
 - Verification approach using project lint/test commands
 
-### [ ] Step: Planning
+### [x] Step: Planning
+<!-- chat-id: 88963c57-98b2-4792-9be2-a9febdbdd8b2 -->
 
 Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 
@@ -48,16 +49,57 @@ Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 2. Each task should reference relevant contracts and include verification steps
 3. Replace the Implementation step below with the planned tasks
 
-Rule of thumb for step size: each step should represent a coherent unit of work (e.g., implement a component, add an API endpoint). Avoid steps that are too granular (single function) or too broad (entire feature).
-
-Important: unit tests must be part of each implementation task, not separate tasks. Each task should implement the code and its tests together, if relevant.
-
-If the feature is trivial and doesn't warrant full specification, update this workflow to remove unnecessary steps and explain the reasoning to the user.
-
 Save to `{@artifacts_path}/plan.md`.
 
-### [ ] Step: Implementation
+### [ ] Step: Create course root files
+Create the top-level course files:
+- `course-c1-english/README.md` – Course index with overview, unit list, CEFR alignment, exam compatibility, and how to use the course
+- `course-c1-english/syllabus.md` – Official syllabus with CEFR C1 can-do descriptors per skill, full unit overview table, grammar scope & sequence summary, vocabulary progression, and assessment breakdown
 
-This step should be replaced with detailed implementation tasks from the Planning step.
+Verify: Both files cover all 10 units, reference CEFR C1 descriptors, and follow Markdown formatting.
 
-If Planning didn't replace this step, execute the tasks in `{@artifacts_path}/plan.md`, updating checkboxes as you go. Run planned tests/lint and record results in plan.md.
+### [ ] Step: Create unit files 1–3 (Activation phase)
+Create detailed unit files for the first three units (activation & expansion B2→C1):
+- `course-c1-english/units/unit-01-identity-society.md`
+- `course-c1-english/units/unit-02-language-communication.md`
+- `course-c1-english/units/unit-03-science-technology.md`
+
+Each file must include all 7 pedagogical phases, grammar focus with form/use/examples, ~30-40 key vocabulary items with collocations, text types for reading and writing, suggested activities per skill (R/W/L/S), and a unit evaluation checklist with can-do statements.
+
+Verify against quality checklist in spec.md: CEFR alignment, completeness (7 phases), skill variety, thematic coherence.
+
+### [ ] Step: Create unit files 4–6 (Consolidation phase)
+Create detailed unit files for the consolidation phase:
+- `course-c1-english/units/unit-04-natural-world.md`
+- `course-c1-english/units/unit-05-arts-culture.md`
+- `course-c1-english/units/unit-06-work-economy.md`
+
+Same structure requirements as units 1–3. Grammar structures: advanced relative clauses & noun phrases (U4), cleft sentences & inversion (U5), advanced future forms & wish/if only (U6).
+
+Verify against quality checklist in spec.md.
+
+### [ ] Step: Create unit files 7–9 (Refinement phase)
+Create detailed unit files for the refinement phase:
+- `course-c1-english/units/unit-07-health-mind.md`
+- `course-c1-english/units/unit-08-global-issues.md`
+- `course-c1-english/units/unit-09-media-information.md`
+
+Same structure requirements. Grammar: nominal/comment clauses & subjunctive (U7), participle clauses & ellipsis (U8), hedging language & discourse markers (U9). Increased Academic Word List integration.
+
+Verify against quality checklist in spec.md.
+
+### [ ] Step: Create unit file 10 (Synthesis phase)
+Create the final unit file:
+- `course-c1-english/units/unit-10-future-beyond.md`
+
+This unit synthesises all previous grammar structures and vocabulary. Includes extended speaking (spontaneous monologue), creative/reflective writing, philosophical reading texts, and a full-course review component. Must reference consolidation of all C1 structures from units 1–9.
+
+Verify against quality checklist in spec.md.
+
+### [ ] Step: Create reference and assessment files
+Create the supporting reference documents:
+- `course-c1-english/reference/grammar-scope-sequence.md` – Full table of grammar structures by unit with progression rationale, example sentences, and links to unit files
+- `course-c1-english/reference/vocabulary-framework.md` – Academic Word List integration plan, thematic word lists per unit (~30-40 items each), collocations bank, phrasal verbs list, word formation guide
+- `course-c1-english/assessment/evaluation-criteria.md` – CEFR C1 rubrics for each skill (Reading, Writing, Listening, Speaking, Grammar & Vocabulary), assessment weighting table, sample descriptors per band
+
+Verify: rubrics reference CEFR C1 descriptors, grammar sequence matches unit plan, vocabulary framework covers all 10 units.
