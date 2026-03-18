@@ -1,5 +1,6 @@
 import { Suspense } from 'react';
 import { A1CourseSelector } from '@/components/course/preview/A1CourseSelector';
+import { UnifiedCourseProgressSidebar } from '@/components/course/UnifiedCourseProgressSidebar';
 import { premiumCourseServerService } from '@/lib/services/premium-course-service.server';
 import { BookOpen, Clock, Award, FileText } from 'lucide-react';
 import Link from 'next/link';
@@ -94,22 +95,38 @@ async function B2PreviewContent() {
 
       {/* Course Selector */}
       <div className="max-w-7xl mx-auto px-4 py-12">
-        {/* Test final B2 */}
-        <Link
-          href="/curso-b2/test-final"
-          className="mb-8 flex items-center gap-4 rounded-2xl border-2 border-amber-200 bg-amber-50/80 p-4 transition-all hover:border-amber-300 hover:bg-amber-50"
-        >
-          <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-amber-100 text-2xl">
-            📋
-          </div>
-          <div className="min-w-0 flex-1">
-            <p className="font-bold text-slate-900">Test final B2</p>
-            <p className="text-sm text-slate-600">30+ preguntas de gramática, vocabulario, phrasal verbs, lectura, escucha, expresión escrita y oral. Aprobado con ≥70%.</p>
-          </div>
-          <span className="shrink-0 text-sm font-semibold text-amber-700">Hacer test →</span>
-        </Link>
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
+          <div className="lg:col-span-8">
+            {/* Test final B2 */}
+            <Link
+              href="/curso-b2/test-final"
+              className="mb-8 flex items-center gap-4 rounded-2xl border-2 border-amber-200 bg-amber-50/80 p-4 transition-all hover:border-amber-300 hover:bg-amber-50"
+            >
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-amber-100 text-2xl">
+                📋
+              </div>
+              <div className="min-w-0 flex-1">
+                <p className="font-bold text-slate-900">Test final B2</p>
+                <p className="text-sm text-slate-600">30+ preguntas de gramática, vocabulario, phrasal verbs, lectura, escucha, expresión escrita y oral. Aprobado con ≥70%.</p>
+              </div>
+              <span className="shrink-0 text-sm font-semibold text-amber-700">Hacer test →</span>
+            </Link>
 
-        <A1CourseSelector units={courseMetadata.units} courseId="ingles-b2" />
+            <A1CourseSelector units={courseMetadata.units} courseId="ingles-b2" />
+          </div>
+
+          <aside className="lg:col-span-4">
+            <div className="sticky top-6 bg-white rounded-2xl border border-slate-100 shadow-sm overflow-hidden">
+              <div className="px-5 pt-5 pb-4 border-b border-slate-100">
+                <p className="text-xs font-bold tracking-wider text-slate-500 uppercase mb-1">Tu avance</p>
+                <h3 className="text-base font-extrabold text-slate-900 tracking-tight">Progreso del curso</h3>
+              </div>
+              <div className="p-5">
+                <UnifiedCourseProgressSidebar units={courseMetadata.units} courseId="ingles-b2" coursePath="/curso-b2" />
+              </div>
+            </div>
+          </aside>
+        </div>
       </div>
     </div>
   );

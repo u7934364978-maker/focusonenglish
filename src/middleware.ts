@@ -208,7 +208,8 @@ export async function middleware(request: NextRequest) {
     pathname.startsWith("/curso-b2") ||
     pathname.startsWith("/admin") ||
     pathname.startsWith("/misiones") ||
-    pathname.startsWith("/onboarding");
+    pathname.startsWith("/onboarding") ||
+    pathname.startsWith("/support/ticket");
 
   if (isProtectedArea) {
     if (!user) {

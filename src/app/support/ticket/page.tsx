@@ -1,7 +1,8 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
+import { useSearchParams } from "next/navigation";
 
 export default function SupportTicketPage() {
   const [goal, setGoal] = useState("emailing");
@@ -9,6 +10,9 @@ export default function SupportTicketPage() {
   const [weekId, setWeekId] = useState("semana-01");
   const [type, setType] = useState<"practice" | "exam">("practice");
   const [notes, setNotes] = useState("");
+  const [submitting, setSubmitting] = useState(false);
+  const [ticketId, setTicketId] = useState<string | null>(null);
+  const searchParams = useSearchParams();
 
   const ticketText = useMemo(() => {
     return [
@@ -36,6 +40,46 @@ export default function SupportTicketPage() {
     }
   }
 
+  async function submitTicket() {
+    if (submitting) return;
+    setSubmitting(true);
+    setTicketId(null);
+    try {
+      const subject = `Support ticket - ${type} - ${goal} - ${level}`;
+      const res = await fetch("/api/support/ticket", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ subject, content: ticketText }),
+      });
+
+      if (!res.ok) {
+        const err = await res.json().catch(() => ({}));
+        alert(err?.error || "No se pudo enviar el ticket.");
+        return;
+      }
+
+      const data = await res.json();
+      setTicketId(data?.ticketId ?? null);
+    } catch {
+      alert("Error al enviar el ticket.");
+    } finally {
+      setSubmitting(false);
+    }
+  }
+
+  // Populate form fields from query params (so the student button can prefill it).
+  useEffect(() => {
+    const t = searchParams.get("type");
+    const g = searchParams.get("goal");
+    const l = searchParams.get("level");
+    const w = searchParams.get("week");
+
+    if (t === "practice" || t === "exam") setType(t);
+    if (g) setGoal(g);
+    if (l) setLevel(l);
+    if (w) setWeekId(w);
+  }, [searchParams]);
+
   return (
     <main className="mx-auto max-w-3xl px-6 py-14">
       <nav className="text-[12px] font-extrabold text-slate-500">
@@ -43,7 +87,7 @@ export default function SupportTicketPage() {
           Home
         </Link>{" "}
         /{" "}
-        <Link className="hover:text-slate-700" href="/app/cursos">
+        <Link className="hover:text-slate-700" href="/planes">
           Cursos
         </Link>{" "}
         / <span className="text-slate-700">Support ticket</span>
@@ -116,14 +160,28 @@ export default function SupportTicketPage() {
           >
             Copiar ticket
           </button>
+          <button
+            type="button"
+            onClick={submitTicket}
+            disabled={submitting}
+            className="inline-flex h-11 items-center justify-center rounded-xl bg-coral-600 px-5 text-sm font-black text-white hover:bg-coral-700 disabled:opacity-60"
+          >
+            {submitting ? "Enviando..." : "Enviar ticket real"}
+          </button>
 
           <Link
-            href="/app/cursos"
+            href="/planes"
             className="inline-flex h-11 items-center justify-center rounded-xl border border-slate-200 bg-white px-5 text-sm font-black text-slate-900 hover:bg-slate-50"
           >
             Volver a cursos
           </Link>
         </div>
+
+        {ticketId && (
+          <p className="mt-4 rounded-xl border border-emerald-200 bg-emerald-50 p-3 text-sm font-bold text-emerald-800">
+            Ticket enviado correctamente. ID: {ticketId}
+          </p>
+        )}
 
         <pre className="whitespace-pre-wrap rounded-2xl border border-slate-200 bg-slate-50 p-4 text-xs text-slate-800">
 {ticketText}

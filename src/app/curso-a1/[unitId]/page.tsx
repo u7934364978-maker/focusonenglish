@@ -45,6 +45,16 @@ function getExerciseType(type: string) {
   return EXERCISE_TYPES[type] ?? EXERCISE_TYPES['default'];
 }
 
+function lessonSkillFromType(t: string) {
+  const type = (t || '').toLowerCase();
+  if (type.includes('speaking') || type === 'pronunciation') return 'speaking';
+  if (type.includes('listening')) return 'listening';
+  if (type.includes('reading')) return 'reading';
+  if (type.includes('writing')) return 'writing';
+  if (type.includes('vocab')) return 'vocabulary';
+  return 'grammar';
+}
+
 // ── CONFETTI ───────────────────────────────────────────────────────────────
 const CONFETTI_PIECES = Array.from({ length: 24 }, (_, i) => ({
   left: ((i * 37 + 11) % 100),
@@ -106,6 +116,7 @@ function UnitPreviewContent() {
   const { recordResult } = useSpacedRepetition('A1');
 
   const [exercises, setExercises] = useState<any[]>([]);
+  const [lessonKeyCounts, setLessonKeyCounts] = useState<Record<string, number>>({});
   const [unitTitle, setUnitTitle] = useState<string>('');
   const [currentIndex, setCurrentIndex] = useState(0);
   const [loading, setLoading] = useState(true);
@@ -206,6 +217,25 @@ function UnitPreviewContent() {
     return () => { if (advanceTimer.current) clearTimeout(advanceTimer.current); };
   }, [unitId, searchParams, isFinalTest]);
 
+  // Precompute how many exercises belong to each lessonKey inside this unit.
+  // This allows the backend to know `exercises_total` and only mark `completed` when the block is finished.
+  useEffect(() => {
+    if (!exercises?.length) {
+      setLessonKeyCounts({});
+      return;
+    }
+
+    const counts: Record<string, number> = {};
+    for (let i = 0; i < exercises.length; i++) {
+      const ex = exercises[i];
+      const lessonNumber = Math.floor(i / CHUNK_SIZE) + 1;
+      const skill = lessonSkillFromType((ex?.type as string) ?? 'unknown');
+      const key = `lesson-${lessonNumber}-${skill}`;
+      counts[key] = (counts[key] ?? 0) + 1;
+    }
+    setLessonKeyCounts(counts);
+  }, [exercises]);
+
   const advanceExercise = (idx: number, total: number) => {
     setSlideDir('out-left');
     setTimeout(() => {
@@ -249,8 +279,16 @@ function UnitPreviewContent() {
     const progressUnitId = isFinalTest ? 0 : parseInt(unitId.replace('unit-', ''), 10);
     if (!Number.isNaN(progressUnitId) && recordExercise && exercises[currentIndex]) {
       const ex = exercises[currentIndex];
+
+      const lessonNumber = Math.floor(currentIndex / CHUNK_SIZE) + 1;
+      const lessonSkill = lessonSkillFromType((ex?.type as string) ?? 'unknown');
+      const lessonKey = `lesson-${lessonNumber}-${lessonSkill}`;
+      const expectedExercisesTotal = lessonKeyCounts[lessonKey] ?? 0;
+
       recordExercise({
         unitId: progressUnitId,
+        lessonKey,
+        expectedExercisesTotal,
         exerciseId: ex.id ?? `${unitId}-${currentIndex}`,
         exerciseType: (ex.type as string) ?? 'unknown',
         isCorrect: success,

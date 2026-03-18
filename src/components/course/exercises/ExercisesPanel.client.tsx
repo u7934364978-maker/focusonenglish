@@ -361,7 +361,7 @@ export default function ExercisesPanel({ data }: { data: ExercisesFile }) {
 
             {gate.locked ? (
               <Link
-                href={`/app/support/ticket?type=practice&goal=${encodeURIComponent(goal)}&level=${encodeURIComponent(level)}&week=${encodeURIComponent(weekId)}`}
+                href={`/support/ticket?type=practice&goal=${encodeURIComponent(goal)}&level=${encodeURIComponent(level)}&week=${encodeURIComponent(weekId)}`}
                 className="inline-flex h-11 items-center justify-center rounded-xl bg-rose-600 px-5 text-sm font-black text-white hover:bg-rose-700 transition"
               >
                 🎫 Solicitar reset

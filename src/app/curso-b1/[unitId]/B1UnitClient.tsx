@@ -11,6 +11,16 @@ import { useSpacedRepetition } from '@/hooks/use-spaced-repetition';
 
 const CHUNK_SIZE = 15;
 
+function lessonSkillFromType(t: string) {
+  const type = (t || '').toLowerCase();
+  if (type.includes('speaking') || type === 'pronunciation') return 'speaking';
+  if (type.includes('listening')) return 'listening';
+  if (type.includes('reading')) return 'reading';
+  if (type.includes('writing')) return 'writing';
+  if (type.includes('vocab')) return 'vocabulary';
+  return 'grammar';
+}
+
 function getIndexFromUrl(): number | null {
   if (typeof window === 'undefined') return null;
   const params = new URLSearchParams(window.location.search);
@@ -24,6 +34,7 @@ function B1UnitContent() {
   const params = useParams();
   const unitId = params.unitId as string;
   const [exercises, setExercises] = useState<any[]>([]);
+  const [lessonKeyCounts, setLessonKeyCounts] = useState<Record<string, number>>({});
   const [unitTitle, setUnitTitle] = useState('');
   const [currentIndex, setCurrentIndex] = useState(0);
   const [loading, setLoading] = useState(true);
@@ -102,6 +113,23 @@ function B1UnitContent() {
     }
     loadUnit();
   }, [unitId, isFinalTest]);
+
+  // Precompute exercises_total per lessonKey (for unified progress completion).
+  useEffect(() => {
+    if (!exercises?.length) {
+      setLessonKeyCounts({});
+      return;
+    }
+    const counts: Record<string, number> = {};
+    for (let i = 0; i < exercises.length; i++) {
+      const ex = exercises[i];
+      const lessonNumber = Math.floor(i / CHUNK_SIZE) + 1;
+      const skill = lessonSkillFromType((ex?.type as string) ?? 'unknown');
+      const key = `lesson-${lessonNumber}-${skill}`;
+      counts[key] = (counts[key] ?? 0) + 1;
+    }
+    setLessonKeyCounts(counts);
+  }, [exercises]);
 
   if (loading) {
     return (
@@ -232,6 +260,29 @@ function B1UnitContent() {
             if (ex) {
               const topic = ex.topicName || ex.topic || unitTitle || 'General';
               recordResult(ex.id ?? `b1-${unitId}-${currentIndex}`, topic, result?.success ?? true, result?.score ?? 100);
+
+              // Unified academic progress (best-effort).
+              try {
+                const progressUnitId = isFinalTest ? 0 : parseInt(unitId.replace('unit-', ''), 10);
+                const lessonNumber = Math.floor(currentIndex / CHUNK_SIZE) + 1;
+                const lessonSkill = lessonSkillFromType((ex?.type as string) ?? 'unknown');
+                const lessonKey = `lesson-${lessonNumber}-${lessonSkill}`;
+                const expectedExercisesTotal = lessonKeyCounts[lessonKey] ?? 0;
+
+                fetch('/api/progress/record', {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/json' },
+                  body: JSON.stringify({
+                    courseId: 'ingles-b1',
+                    unitId: progressUnitId,
+                    lessonKey,
+                    exerciseId: ex.id ?? `b1-${unitId}-${currentIndex}`,
+                    exerciseType: (ex?.type as string) ?? 'unknown',
+                    isCorrect: result?.success ?? true,
+                    expectedExercisesTotal,
+                  }),
+                }).catch(() => {});
+              } catch {}
             }
             if (isFinalTest && result?.success === false) setFailedIndexes((prev) => prev.includes(currentIndex) ? prev : [...prev, currentIndex]);
             if (currentIndex === exercises.length - 1) setShowUnitSummary(true);

@@ -7,11 +7,24 @@ import { ArrowLeft, ArrowRight, Home, CheckCircle, Sparkles } from 'lucide-react
 import Link from 'next/link';
 import { trackUnitTimeSpent, trackExerciseCompletion, trackUnitCompletion } from '@/lib/analytics';
 
+const CHUNK_SIZE = 18; // keep consistent with B2 unit lessons
+
+function lessonSkillFromType(t: string) {
+  const type = (t || '').toLowerCase();
+  if (type.includes('speaking') || type === 'pronunciation') return 'speaking';
+  if (type.includes('listening')) return 'listening';
+  if (type.includes('reading')) return 'reading';
+  if (type.includes('writing')) return 'writing';
+  if (type.includes('vocab')) return 'vocabulary';
+  return 'grammar';
+}
+
 function B2TestFinalContent() {
   const params = useParams();
   const searchParams = useSearchParams();
   const unitId = params.unitId as string;
   const [exercises, setExercises] = useState<any[]>([]);
+  const [lessonKeyCounts, setLessonKeyCounts] = useState<Record<string, number>>({});
   const [unitTitle, setUnitTitle] = useState('Test final B2');
   const [currentIndex, setCurrentIndex] = useState(0);
   const [loading, setLoading] = useState(true);
@@ -35,6 +48,23 @@ function B2TestFinalContent() {
       trackUnitCompletion(unitId, exercises.length, durationMinutes);
     }
   }, [showUnitSummary]);
+
+  // Precompute exercises_total per lessonKey (for unified progress completion).
+  useEffect(() => {
+    if (!exercises?.length) {
+      setLessonKeyCounts({});
+      return;
+    }
+    const counts: Record<string, number> = {};
+    for (let i = 0; i < exercises.length; i++) {
+      const ex = exercises[i];
+      const lessonNumber = Math.floor(i / CHUNK_SIZE) + 1;
+      const skill = lessonSkillFromType((ex?.type as string) ?? 'unknown');
+      const key = `lesson-${lessonNumber}-${skill}`;
+      counts[key] = (counts[key] ?? 0) + 1;
+    }
+    setLessonKeyCounts(counts);
+  }, [exercises]);
 
   useEffect(() => {
     async function loadTest() {
@@ -186,6 +216,32 @@ function B2TestFinalContent() {
           exercise={currentExercise}
           onComplete={(result?: { success: boolean; score: number }) => {
             trackExerciseCompletion(unitId, currentIndex, exercises.length);
+
+            // Unified academic progress (best-effort).
+            try {
+              const ex = exercises[currentIndex];
+              if (ex) {
+                const lessonNumber = Math.floor(currentIndex / CHUNK_SIZE) + 1;
+                const lessonSkill = lessonSkillFromType((ex?.type as string) ?? 'unknown');
+                const lessonKey = `lesson-${lessonNumber}-${lessonSkill}`;
+                const expectedExercisesTotal = lessonKeyCounts[lessonKey] ?? 0;
+
+                fetch('/api/progress/record', {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/json' },
+                  body: JSON.stringify({
+                    courseId: 'ingles-b2',
+                    unitId: 0,
+                    lessonKey,
+                    exerciseId: ex.id ?? `b2-test-${currentIndex}`,
+                    exerciseType: (ex?.type as string) ?? 'unknown',
+                    isCorrect: result?.success ?? true,
+                    expectedExercisesTotal,
+                  }),
+                }).catch(() => {});
+              }
+            } catch {}
+
             if (result?.success === false) {
               setFailedIndexes(prev => (prev.includes(currentIndex) ? prev : [...prev, currentIndex]));
             }

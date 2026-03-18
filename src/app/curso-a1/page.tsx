@@ -1,7 +1,7 @@
 import { Suspense } from 'react';
 import Link from 'next/link';
 import { A1CourseSelector } from '@/components/course/preview/A1CourseSelector';
-import { A1ProgressSidebar } from '@/components/course/A1ProgressSidebar';
+import { UnifiedCourseProgressSidebar } from '@/components/course/UnifiedCourseProgressSidebar';
 import { premiumCourseServerService } from '@/lib/services/premium-course-service.server';
 import { BookOpen, Clock, Award, Zap, CheckCircle, Target } from 'lucide-react';
 import { WelcomeWrapper } from './WelcomeWrapper';
@@ -181,7 +181,7 @@ async function A1PreviewContent() {
                 <h3 className="text-base font-extrabold text-slate-900 tracking-tight">Progreso del curso</h3>
               </div>
               <div className="p-5">
-                <A1ProgressSidebar units={courseMetadata.units} />
+                <UnifiedCourseProgressSidebar units={courseMetadata.units} courseId="ingles-a1" coursePath="/curso-a1" />
               </div>
             </div>
           </aside>

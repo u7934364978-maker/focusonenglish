@@ -7,6 +7,8 @@ interface RecordExerciseParams {
   exerciseType: string;
   isCorrect: boolean;
   timeSpentSeconds?: number;
+  lessonKey?: string;
+  expectedExercisesTotal?: number;
 }
 
 export function useA1ProgressTracking() {
