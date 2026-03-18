@@ -68,7 +68,7 @@ Each file must include all 7 pedagogical phases, grammar focus with form/use/exa
 
 Verify against quality checklist in spec.md: CEFR alignment, completeness (7 phases), skill variety, thematic coherence.
 
-### [ ] Step: Create unit files 4–6 (Consolidation phase)
+### [x] Step: Create unit files 4–6 (Consolidation phase)
 Create detailed unit files for the consolidation phase:
 - `course-c1-english/units/unit-04-natural-world.md`
 - `course-c1-english/units/unit-05-arts-culture.md`
@@ -78,7 +78,7 @@ Same structure requirements as units 1–3. Grammar structures: advanced relativ
 
 Verify against quality checklist in spec.md.
 
-### [ ] Step: Create unit files 7–9 (Refinement phase)
+### [x] Step: Create unit files 7–9 (Refinement phase)
 Create detailed unit files for the refinement phase:
 - `course-c1-english/units/unit-07-health-mind.md`
 - `course-c1-english/units/unit-08-global-issues.md`
@@ -88,7 +88,7 @@ Same structure requirements. Grammar: nominal/comment clauses & subjunctive (U7)
 
 Verify against quality checklist in spec.md.
 
-### [ ] Step: Create unit file 10 (Synthesis phase)
+### [x] Step: Create unit file 10 (Synthesis phase)
 Create the final unit file:
 - `course-c1-english/units/unit-10-future-beyond.md`
 
@@ -96,7 +96,7 @@ This unit synthesises all previous grammar structures and vocabulary. Includes e
 
 Verify against quality checklist in spec.md.
 
-### [ ] Step: Create reference and assessment files
+### [x] Step: Create reference and assessment files
 Create the supporting reference documents:
 - `course-c1-english/reference/grammar-scope-sequence.md` – Full table of grammar structures by unit with progression rationale, example sentences, and links to unit files
 - `course-c1-english/reference/vocabulary-framework.md` – Academic Word List integration plan, thematic word lists per unit (~30-40 items each), collocations bank, phrasal verbs list, word formation guide
