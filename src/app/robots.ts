@@ -18,6 +18,8 @@ export default function robots(): MetadataRoute.Robots {
           "/test-nivel",
           "/contacto",
           "/herramientas/",
+          "/_next/image",
+          "/_next/static/",
         ],
         disallow: [
           "/cuenta/",
