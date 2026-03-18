@@ -18,6 +18,16 @@ import { UNIT_17_EXERCISES } from './unit-17';
 import { UNIT_18_EXERCISES } from './unit-18';
 import { UNIT_19_EXERCISES } from './unit-19';
 import { UNIT_20_EXERCISES } from './unit-20';
+import { UNIT_21_EXERCISES } from './unit-21';
+import { UNIT_22_EXERCISES } from './unit-22';
+import { UNIT_23_EXERCISES } from './unit-23';
+import { UNIT_24_EXERCISES } from './unit-24';
+import { UNIT_25_EXERCISES } from './unit-25';
+import { UNIT_26_EXERCISES } from './unit-26';
+import { UNIT_27_EXERCISES } from './unit-27';
+import { UNIT_28_EXERCISES } from './unit-28';
+import { UNIT_29_EXERCISES } from './unit-29';
+import { UNIT_30_EXERCISES } from './unit-30';
 
 export const C1_COURSE = {
   units: [
@@ -41,5 +51,15 @@ export const C1_COURSE = {
     { id: 18, title: 'Fashion, Identity and Society',          exercises: UNIT_18_EXERCISES },
     { id: 19, title: 'Crime, Justice and Society',             exercises: UNIT_19_EXERCISES },
     { id: 20, title: 'Economics and Globalisation',            exercises: UNIT_20_EXERCISES },
+    { id: 21, title: 'The Environment and Climate Change',     exercises: UNIT_21_EXERCISES },
+    { id: 22, title: 'Biodiversity and Conservation',          exercises: UNIT_22_EXERCISES },
+    { id: 23, title: 'Natural Disasters and Risk',             exercises: UNIT_23_EXERCISES },
+    { id: 24, title: 'Oceans and Marine Life',                 exercises: UNIT_24_EXERCISES },
+    { id: 25, title: 'Cinema and Film',                        exercises: UNIT_25_EXERCISES },
+    { id: 26, title: 'Visual Arts and Aesthetics',             exercises: UNIT_26_EXERCISES },
+    { id: 27, title: 'Theatre and Performance',                exercises: UNIT_27_EXERCISES },
+    { id: 28, title: 'Dance and Choreography',                 exercises: UNIT_28_EXERCISES },
+    { id: 29, title: 'Photography and Visual Storytelling',    exercises: UNIT_29_EXERCISES },
+    { id: 30, title: 'Cultural Heritage and Preservation',     exercises: UNIT_30_EXERCISES },
   ],
 };
