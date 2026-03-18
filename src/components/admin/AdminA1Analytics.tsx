@@ -33,6 +33,7 @@ export default function AdminA1Analytics() {
   const [progressData, setProgressData] = useState<ProgressData[]>([]);
   const [summary, setSummary] = useState<Summary | null>(null);
   const [loading, setLoading] = useState(true);
+  const [studentsError, setStudentsError] = useState<string | null>(null);
   const [studentLoading, setStudentLoading] = useState(false);
   const [exporting, setExporting] = useState(false);
   const [globalSummary, setGlobalSummary] = useState<{ total: number; withProgress: number } | null>(null);
@@ -43,6 +44,7 @@ export default function AdminA1Analytics() {
 
   async function loadStudents() {
     try {
+      setStudentsError(null);
       const response = await fetch('/api/admin/students');
       if (!response.ok) throw new Error('Failed to fetch students');
       const data = await response.json();
@@ -65,6 +67,9 @@ export default function AdminA1Analytics() {
         .catch(() => {});
     } catch (error) {
       console.error('Error loading students:', error);
+      setStudentsError(
+        error instanceof Error ? error.message : 'No se pudieron cargar los alumnos'
+      );
     } finally {
       setLoading(false);
     }
@@ -199,6 +204,22 @@ export default function AdminA1Analytics() {
             {exporting ? 'Exportando…' : 'Exportar CSV'}
           </button>
         </div>
+
+        <div className="mb-4">
+          {selectedStudentData ? (
+            <div className="text-sm text-slate-700">
+              Mostrando:{" "}
+              <span className="font-bold">{selectedStudentData.name}</span>{" "}
+              <span className="text-slate-500">({selectedStudentData.email})</span>
+            </div>
+          ) : studentsError ? (
+            <div className="text-sm font-medium text-red-700 bg-red-50 border border-red-200 rounded-xl px-4 py-3">
+              {studentsError}
+            </div>
+          ) : (
+            <div className="text-sm text-slate-600">Selecciona un alumno para ver su progreso.</div>
+          )}
+        </div>
         
         <select
           value={selectedStudent || ''}
@@ -211,6 +232,35 @@ export default function AdminA1Analytics() {
             </option>
           ))}
         </select>
+
+        {students.length > 0 && (
+          <div className="mt-4">
+            <p className="text-xs font-bold text-slate-500 uppercase mb-2">Lista de alumnos</p>
+            <div className="max-h-56 overflow-y-auto pr-1 space-y-2">
+              {students.map(student => {
+                const isSelected = student.id === selectedStudent;
+                return (
+                  <button
+                    key={student.id}
+                    type="button"
+                    onClick={() => setSelectedStudent(student.id)}
+                    className={[
+                      "w-full text-left px-3 py-2 rounded-lg border transition",
+                      isSelected
+                        ? "bg-coral-50 border-coral-300"
+                        : "bg-white border-slate-200 hover:bg-slate-50",
+                    ].join(" ")}
+                  >
+                    <div className="flex items-baseline justify-between gap-3">
+                      <span className="font-semibold text-slate-800">{student.name}</span>
+                      <span className="text-xs text-slate-500 truncate">{student.email}</span>
+                    </div>
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        )}
       </div>
 
       {/* Summary Cards */}
