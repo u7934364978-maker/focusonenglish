@@ -100,7 +100,7 @@ Run the updated generation script to produce all 60 `src/lib/c2-units/unit-{1..6
 - Each unit must export `C2_UNIT_N` (Lesson) with exactly 6 exercise blocks, each block with 10 questions
 - Verify: `node scripts/validate-c2-structure.mjs` passes; `ALL_C2_UNITS` length is 60; `C2_MODULES` has 10 entries each with 6 units
 
-### [x] Step: Final verification
+### [x] Step: Final verification (+ C2 app route created)
 <!-- chat-id: 9222cb91-90d6-4616-81c9-1046daa3a057 -->
 
 Run full verification suite to confirm correctness.
