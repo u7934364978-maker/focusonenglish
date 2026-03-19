@@ -48,7 +48,8 @@ Save to `{@artifacts_path}/spec.md` with:
 
 Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
 
-### [ ] Step: Rewrite curriculum mapping
+### [x] Step: Rewrite curriculum mapping
+<!-- chat-id: 2096c59c-02e6-4734-b63f-7938bc323ec6 -->
 
 Rewrite `src/lib/c2-units/curriculum.ts` with the new 10-module × 60-unit thematic structure.
 
