@@ -34,13 +34,6 @@ function isPublicSEORoute(pathname: string) {
 }
 
 export async function middleware(request: NextRequest) {
-  const host = request.headers.get('host') || '';
-  if (host === 'focus-on-english.com') {
-    const url = request.nextUrl.clone();
-    url.host = 'www.focus-on-english.com';
-    return NextResponse.redirect(url, { status: 301 });
-  }
-
   const pathname = request.nextUrl.pathname;
 
   if (pathname === "/blog/Trabajo" || pathname.startsWith("/blog/Trabajo/")) {
