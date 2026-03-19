@@ -1,15 +1,14 @@
 /**
- * Unidad 98 B2 — Extension (provisional)
- *
- * Reutiliza ejercicios de la unidad 65 pero con IDs ajustados
- * para evitar colisiones en tracking/export.
+ * Unidad 98 B2 — Real content (reinforcement)
+ * Copia funcional del temario existente de la unidad 46
+ * (IDs remapeados para que el tracking sea independiente).
  */
 
-import { UNIT_65_EXERCISES } from './unit-65';
+import { UNIT_46_EXERCISES } from './unit-46';
 
-export const UNIT_TITLE = 'B2 Extension Unit 98';
+export const UNIT_TITLE = 'Psychology & Human Behavior';
 
-export const UNIT_98_EXERCISES = UNIT_65_EXERCISES.map((ex) => ({
+export const UNIT_98_EXERCISES = UNIT_46_EXERCISES.map((ex) => ({
   ...ex,
-  id: typeof ex.id === 'string' ? ex.id.replace(/^b2-u65-/, 'b2-u98-') : ex.id,
+  id: typeof ex.id === 'string' ? ex.id.replace(/^b2-u46-/, 'b2-u98-') : ex.id,
 }));

@@ -1,15 +1,14 @@
 /**
- * Unidad 80 B2 — Extension (provisional)
- *
- * Reutiliza ejercicios de la unidad 65 pero con IDs ajustados
- * para evitar colisiones en tracking/export.
+ * Unidad 80 B2 — Real content (reinforcement)
+ * Copia funcional del temario existente de la unidad 60
+ * (IDs remapeados para que el tracking sea independiente).
  */
 
-import { UNIT_65_EXERCISES } from './unit-65';
+import { UNIT_60_EXERCISES } from './unit-60';
 
-export const UNIT_TITLE = 'B2 Extension Unit 80';
+export const UNIT_TITLE = 'Final Course Review & Evaluation';
 
-export const UNIT_80_EXERCISES = UNIT_65_EXERCISES.map((ex) => ({
+export const UNIT_80_EXERCISES = UNIT_60_EXERCISES.map((ex) => ({
   ...ex,
-  id: typeof ex.id === 'string' ? ex.id.replace(/^b2-u65-/, 'b2-u80-') : ex.id,
+  id: typeof ex.id === 'string' ? ex.id.replace(/^b2-u60-/, 'b2-u80-') : ex.id,
 }));

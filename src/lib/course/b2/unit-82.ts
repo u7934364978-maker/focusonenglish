@@ -1,15 +1,14 @@
 /**
- * Unidad 82 B2 — Extension (provisional)
- *
- * Reutiliza ejercicios de la unidad 65 pero con IDs ajustados
- * para evitar colisiones en tracking/export.
+ * Unidad 82 B2 — Real content (reinforcement)
+ * Copia funcional del temario existente de la unidad 58
+ * (IDs remapeados para que el tracking sea independiente).
  */
 
-import { UNIT_65_EXERCISES } from './unit-65';
+import { UNIT_58_EXERCISES } from './unit-58';
 
-export const UNIT_TITLE = 'B2 Extension Unit 82';
+export const UNIT_TITLE = 'Review: Advanced Conditionals';
 
-export const UNIT_82_EXERCISES = UNIT_65_EXERCISES.map((ex) => ({
+export const UNIT_82_EXERCISES = UNIT_58_EXERCISES.map((ex) => ({
   ...ex,
-  id: typeof ex.id === 'string' ? ex.id.replace(/^b2-u65-/, 'b2-u82-') : ex.id,
+  id: typeof ex.id === 'string' ? ex.id.replace(/^b2-u58-/, 'b2-u82-') : ex.id,
 }));

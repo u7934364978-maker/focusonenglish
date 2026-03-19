@@ -65,11 +65,145 @@ import { UNIT_64_EXERCISES } from './unit-64';
 import { UNIT_65_EXERCISES } from './unit-65';
 
 // Unidades adicionales para llegar hasta 100.
-// Nota: en este repo ya existen 63–65; 66–100 se crean para mantener el curso funcional
-// reutilizando ejercicios del unit-65 hasta que sustituyamos por contenido real.
+// Nota: en este repo ya existen 63–65; 66–100 usan contenido real (unidades 1–60) con IDs remapeados.
+//
+// Para 66–100: contenido real (unidades existentes 1–60), IDs remapeados para tracking.
+const B2_EXTENSION_REAL_MAP: Record<number, { sourceUnit: number; title: string }> = {
+  66: { sourceUnit: 16, title: 'Passive & Technology' },
+  67: { sourceUnit: 17, title: 'Modal Passive & Adventure & Extreme Sports' },
+  68: { sourceUnit: 56, title: 'Digital Rights & Online Ethics' },
+  69: { sourceUnit: 19, title: 'Comparative & Superlative' },
+  70: { sourceUnit: 21, title: 'Linkers Contrast' },
+  71: { sourceUnit: 22, title: 'Linkers Reason Purpose' },
+  72: { sourceUnit: 23, title: 'Phrasal Verbs 1' },
+  73: { sourceUnit: 24, title: 'Phrasal Verbs 2' },
+  74: { sourceUnit: 28, title: 'Collocations Verb+Noun' },
+  75: { sourceUnit: 29, title: 'Collocations Adj+Noun' },
+  76: { sourceUnit: 31, title: 'Articles (advanced) & Education' },
+  77: { sourceUnit: 32, title: 'Quantifiers & Environment' },
+  78: { sourceUnit: 47, title: 'Academic Writing & Reports' },
+  79: { sourceUnit: 57, title: 'Media Literacy & Critical Thinking' },
+  80: { sourceUnit: 60, title: 'Final Course Review & Evaluation' },
+  81: { sourceUnit: 18, title: 'So Such Too Enough' },
+  82: { sourceUnit: 58, title: 'Review: Advanced Conditionals' },
+  83: { sourceUnit: 59, title: 'Review: Modal Deduction & Speculation' },
+  84: { sourceUnit: 8, title: 'Mixed Conditionals & Travel' },
+  85: { sourceUnit: 9, title: 'Participle Clauses & Environment' },
+  86: { sourceUnit: 11, title: 'Relative Clauses & Culture' },
+  87: { sourceUnit: 12, title: 'Relative Clauses Reduction' },
+  88: { sourceUnit: 13, title: 'Modals & Money' },
+  89: { sourceUnit: 14, title: 'Modal Deduction & Business' },
+  90: { sourceUnit: 26, title: 'Phrasal Verbs 3' },
+  91: { sourceUnit: 27, title: 'Phrasal Verbs 4' },
+  92: { sourceUnit: 38, title: 'Phrasal Verbs 5 (RUN, SET, TAKE) & Leisure' },
+  93: { sourceUnit: 39, title: 'Phrasal Verbs 6 (TURN, WORK, others) & Sport' },
+  94: { sourceUnit: 33, title: 'Regret, remember, forget & Feelings' },
+  95: { sourceUnit: 34, title: 'State verbs & Technology' },
+  96: { sourceUnit: 36, title: 'Used to, would & Culture' },
+  97: { sourceUnit: 42, title: 'Scientific Discoveries' },
+  98: { sourceUnit: 46, title: 'Psychology & Human Behavior' },
+  99: { sourceUnit: 55, title: 'Cultural Heritage & Identity' },
+  100: { sourceUnit: 50, title: 'Repaso 41-49' },
+};
+
+function getExtensionSourceExercises(sourceUnit: number) {
+  switch (sourceUnit) {
+    case 8:
+      return UNIT_8_EXERCISES;
+    case 9:
+      return UNIT_9_EXERCISES;
+    case 11:
+      return UNIT_11_EXERCISES;
+    case 12:
+      return UNIT_12_EXERCISES;
+    case 13:
+      return UNIT_13_EXERCISES;
+    case 14:
+      return UNIT_14_EXERCISES;
+    case 16:
+      return UNIT_16_EXERCISES;
+    case 17:
+      return UNIT_17_EXERCISES;
+    case 18:
+      return UNIT_18_EXERCISES;
+    case 19:
+      return UNIT_19_EXERCISES;
+    case 21:
+      return UNIT_21_EXERCISES;
+    case 22:
+      return UNIT_22_EXERCISES;
+    case 23:
+      return UNIT_23_EXERCISES;
+    case 24:
+      return UNIT_24_EXERCISES;
+    case 26:
+      return UNIT_26_EXERCISES;
+    case 27:
+      return UNIT_27_EXERCISES;
+    case 28:
+      return UNIT_28_EXERCISES;
+    case 29:
+      return UNIT_29_EXERCISES;
+    case 31:
+      return UNIT_31_EXERCISES;
+    case 32:
+      return UNIT_32_EXERCISES;
+    case 33:
+      return UNIT_33_EXERCISES;
+    case 34:
+      return UNIT_34_EXERCISES;
+    case 36:
+      return UNIT_36_EXERCISES;
+    case 38:
+      return UNIT_38_EXERCISES;
+    case 39:
+      return UNIT_39_EXERCISES;
+    case 42:
+      return UNIT_42_EXERCISES;
+    case 46:
+      return UNIT_46_EXERCISES;
+    case 47:
+      return UNIT_47_EXERCISES;
+    case 50:
+      return UNIT_50_EXERCISES;
+    case 55:
+      return UNIT_55_EXERCISES;
+    case 56:
+      return UNIT_56_EXERCISES;
+    case 57:
+      return UNIT_57_EXERCISES;
+    case 58:
+      return UNIT_58_EXERCISES;
+    case 59:
+      return UNIT_59_EXERCISES;
+    case 60:
+      return UNIT_60_EXERCISES;
+    default:
+      return UNIT_65_EXERCISES;
+  }
+}
+
+function remapExerciseIdsForUnit(exercises: any[], fromUnit: number, toUnit: number) {
+  const fromPrefix = `^b2-u${fromUnit}-`;
+  const toPrefix = `b2-u${toUnit}-`;
+  return exercises.map((ex) => ({
+    ...ex,
+    id: typeof ex.id === 'string' ? ex.id.replace(new RegExp(fromPrefix), toPrefix) : ex.id,
+  }));
+}
+
 const B2_EXTENSION_UNITS = Array.from({ length: 35 }, (_, idx) => {
   const id = 66 + idx;
-  return { id, title: `B2 Extension Unit ${id}`, exercises: UNIT_65_EXERCISES };
+  const real = B2_EXTENSION_REAL_MAP[id];
+  if (!real) {
+    return { id, title: `B2 Extension Unit ${id}`, exercises: UNIT_65_EXERCISES };
+  }
+  const sourceExercises = getExtensionSourceExercises(real.sourceUnit);
+  return {
+    id,
+    title: real.title,
+    exercises: remapExerciseIdsForUnit(sourceExercises, real.sourceUnit, id),
+  };
 });
 
 export const B2_COURSE = {

@@ -1,15 +1,14 @@
 /**
- * Unidad 96 B2 — Extension (provisional)
- *
- * Reutiliza ejercicios de la unidad 65 pero con IDs ajustados
- * para evitar colisiones en tracking/export.
+ * Unidad 96 B2 — Real content (reinforcement)
+ * Copia funcional del temario existente de la unidad 36
+ * (IDs remapeados para que el tracking sea independiente).
  */
 
-import { UNIT_65_EXERCISES } from './unit-65';
+import { UNIT_36_EXERCISES } from './unit-36';
 
-export const UNIT_TITLE = 'B2 Extension Unit 96';
+export const UNIT_TITLE = 'Used to, would & Culture';
 
-export const UNIT_96_EXERCISES = UNIT_65_EXERCISES.map((ex) => ({
+export const UNIT_96_EXERCISES = UNIT_36_EXERCISES.map((ex) => ({
   ...ex,
-  id: typeof ex.id === 'string' ? ex.id.replace(/^b2-u65-/, 'b2-u96-') : ex.id,
+  id: typeof ex.id === 'string' ? ex.id.replace(/^b2-u36-/, 'b2-u96-') : ex.id,
 }));
