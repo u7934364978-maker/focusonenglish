@@ -28,6 +28,16 @@ import { UNIT_27_EXERCISES } from './unit-27';
 import { UNIT_28_EXERCISES } from './unit-28';
 import { UNIT_29_EXERCISES } from './unit-29';
 import { UNIT_30_EXERCISES } from './unit-30';
+import { UNIT_31_EXERCISES } from './unit-31';
+import { UNIT_32_EXERCISES } from './unit-32';
+import { UNIT_33_EXERCISES } from './unit-33';
+import { UNIT_34_EXERCISES } from './unit-34';
+import { UNIT_35_EXERCISES } from './unit-35';
+import { UNIT_36_EXERCISES } from './unit-36';
+import { UNIT_37_EXERCISES } from './unit-37';
+import { UNIT_38_EXERCISES } from './unit-38';
+import { UNIT_39_EXERCISES } from './unit-39';
+import { UNIT_40_EXERCISES } from './unit-40';
 
 export const C1_COURSE = {
   units: [
@@ -61,5 +71,15 @@ export const C1_COURSE = {
     { id: 28, title: 'Dance and Choreography',                 exercises: UNIT_28_EXERCISES },
     { id: 29, title: 'Photography and Visual Storytelling',    exercises: UNIT_29_EXERCISES },
     { id: 30, title: 'Cultural Heritage and Preservation',     exercises: UNIT_30_EXERCISES },
+    { id: 31, title: 'The World of Work: Careers and Ambition', exercises: UNIT_31_EXERCISES },
+    { id: 32, title: 'Business and Economic Trends',            exercises: UNIT_32_EXERCISES },
+    { id: 33, title: 'Entrepreneurship and Innovation',         exercises: UNIT_33_EXERCISES },
+    { id: 34, title: 'Leadership and Management',               exercises: UNIT_34_EXERCISES },
+    { id: 35, title: 'Work Ethics and Corporate Responsibility', exercises: UNIT_35_EXERCISES },
+    { id: 36, title: 'The Economy and Society',                 exercises: UNIT_36_EXERCISES },
+    { id: 37, title: 'Mental Health and Wellbeing',             exercises: UNIT_37_EXERCISES },
+    { id: 38, title: 'The Science of the Brain',                exercises: UNIT_38_EXERCISES },
+    { id: 39, title: 'Nutrition and Lifestyle Medicine',        exercises: UNIT_39_EXERCISES },
+    { id: 40, title: 'Ageing and Longevity',                    exercises: UNIT_40_EXERCISES },
   ],
 };
