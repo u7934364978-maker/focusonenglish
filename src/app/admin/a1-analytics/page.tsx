@@ -2,7 +2,13 @@ import AdminA1Analytics from '@/components/admin/AdminA1Analytics';
 import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
 
-export default function AdminA1AnalyticsPage() {
+export default async function AdminA1AnalyticsPage({
+  searchParams,
+}: {
+  searchParams?: Promise<{ userId?: string }>;
+}) {
+  const params = (await searchParams) ?? {};
+
   return (
     <div className="min-h-screen bg-slate-50 py-8">
       <div className="max-w-6xl mx-auto px-4">
@@ -20,7 +26,7 @@ export default function AdminA1AnalyticsPage() {
         </div>
 
         {/* Analytics Dashboard */}
-        <AdminA1Analytics />
+        <AdminA1Analytics initialStudentId={params.userId} />
       </div>
     </div>
   );

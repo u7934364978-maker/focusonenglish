@@ -10,23 +10,24 @@ export async function GET() {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
-    // Check if user is admin
-    const { data: adminUser } = await supabase
-      .from('auth.users')
-      .select('raw_user_meta_data')
-      .eq('id', user.id)
+    // Check if user is admin (use user_profiles.role, consistent with middleware/login-admin)
+    const { data: profile } = await supabase
+      .from('user_profiles')
+      .select('role')
+      .eq('user_id', user.id)
       .single();
 
-    const isAdmin = adminUser?.raw_user_meta_data?.role === 'admin';
+    const isAdmin = profile?.role === 'admin';
     if (!isAdmin) {
       return NextResponse.json({ error: 'Forbidden' }, { status: 403 });
     }
 
-    // Get all users (future students)
+    // Get all students from user_profiles
+    // NOTE: we select '*' to avoid tight coupling with the exact schema columns.
     const { data: students, error } = await supabase
-      .from('auth.users')
-      .select('id,email,raw_user_meta_data')
-      .neq('raw_user_meta_data->>role', 'admin');
+      .from('user_profiles')
+      .select('*')
+      .neq('role', 'admin');
 
     if (error) {
       console.error('Database error:', error);
@@ -34,11 +35,14 @@ export async function GET() {
     }
 
     return NextResponse.json({
-      students: students?.map(s => ({
-        id: s.id,
+      students: (students ?? []).map((s: any) => ({
+        id: s.user_id,
         email: s.email,
-        name: s.raw_user_meta_data?.name || 'Unknown',
-      })) || [],
+        name: s.name ?? s.full_name ?? s.email ?? 'Unknown',
+        role: s.role,
+        subscription_status: s.subscription_status,
+        language_level: s.language_level,
+      })),
     });
   } catch (error) {
     console.error('API error:', error);

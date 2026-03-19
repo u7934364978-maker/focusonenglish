@@ -15,33 +15,102 @@ export async function GET(
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
-    const isAdmin = (adminUser.user_metadata?.role === 'admin') || (adminUser.app_metadata?.role === 'admin');
+    // Validación de admin consistente con login de admin / middleware
+    const { data: profile } = await supabase
+      .from('user_profiles')
+      .select('role')
+      .eq('user_id', adminUser.id)
+      .single();
+    const isAdmin = profile?.role === 'admin';
     if (!isAdmin) {
       return NextResponse.json({ error: 'Forbidden' }, { status: 403 });
     }
 
-    // Usar service role para leer progreso de cualquier alumno (RLS solo permite el propio)
+    // Admin usa servicio role si existe (para leer progreso de cualquier alumno)
     const client = supabaseAdmin ?? supabase;
-    const { data: progressData, error } = await client
-      .from('a1_progress')
-      .select('*')
+
+    // courseId opcional; por defecto mantenemos A1 analytics
+    const courseId = request.nextUrl.searchParams.get('courseId')?.toString() || 'ingles-a1';
+
+    const { data: rows, error } = await client
+      .from('user_lesson_progress')
+      .select(
+        'unit_id, exercises_completed, exercises_total, attempts, correct_count, accuracy_percent, last_activity_at'
+      )
       .eq('user_id', userId)
-      .order('unit_id', { ascending: true });
+      .eq('course_id', courseId);
 
     if (error) {
       console.error('Database error:', error);
       return NextResponse.json({ error: 'Failed to fetch progress' }, { status: 500 });
     }
 
+    // Agregar por unit_id (cada unit puede tener múltiples lesson_key)
+    const byUnit = new Map<number, any>();
+    for (const r of rows ?? []) {
+      const unitIdNum = Number(r.unit_id);
+      if (!Number.isFinite(unitIdNum)) continue;
+
+      if (!byUnit.has(unitIdNum)) {
+        byUnit.set(unitIdNum, {
+          unit_id: unitIdNum,
+          exercises_completed: 0,
+          exercises_total: 0,
+          attempts: 0,
+          correct_count: 0,
+          last_activity_at: r.last_activity_at ?? null,
+        });
+      }
+
+      const agg = byUnit.get(unitIdNum)!;
+      agg.exercises_completed += r.exercises_completed ?? 0;
+      agg.exercises_total += r.exercises_total ?? 0;
+      agg.attempts += r.attempts ?? 0;
+      agg.correct_count += r.correct_count ?? 0;
+
+      if (r.last_activity_at) {
+        const prev = agg.last_activity_at ? new Date(agg.last_activity_at).getTime() : 0;
+        const next = new Date(r.last_activity_at).getTime();
+        if (next > prev) agg.last_activity_at = r.last_activity_at;
+      }
+    }
+
+    const progress = Array.from(byUnit.values()).map((agg) => {
+      const completed =
+        (agg.exercises_total ?? 0) > 0 && (agg.exercises_completed ?? 0) >= (agg.exercises_total ?? 0);
+      const inProgress = (agg.exercises_completed ?? 0) > 0;
+      const status = completed ? 'completed' : (inProgress ? 'in_progress' : 'not_started');
+
+      const accuracy_percent =
+        agg.attempts > 0 ? Math.round(((agg.correct_count / agg.attempts) * 100) * 100) / 100 : 0;
+
+      return {
+        unit_id: agg.unit_id,
+        status,
+        exercises_completed: agg.exercises_completed,
+        exercises_total: agg.exercises_total,
+        accuracy_percentage: accuracy_percent,
+      };
+    });
+
+    progress.sort((a, b) => a.unit_id - b.unit_id);
+
+    const startedUnits = progress.filter((u) => (u.exercises_total ?? 0) > 0 && (u.exercises_completed ?? 0) > 0);
+    const totalUnitsStarted = startedUnits.length;
+    const totalUnitsCompleted = progress.filter((u) => u.status === 'completed').length;
+    const averageAccuracy = startedUnits.length > 0
+      ? (
+          startedUnits.reduce((sum, u) => sum + (u.accuracy_percentage ?? 0), 0) / startedUnits.length
+        ).toFixed(2)
+      : '0';
+
     return NextResponse.json({
       userId,
-      progress: progressData || [],
+      progress,
       summary: {
-        totalUnitsStarted: progressData?.length || 0,
-        totalUnitsCompleted: progressData?.filter(u => u.status === 'completed').length || 0,
-        averageAccuracy: progressData && progressData.length > 0
-          ? (progressData.reduce((sum, u) => sum + (u.accuracy_percentage || 0), 0) / progressData.length).toFixed(2)
-          : 0,
+        totalUnitsStarted,
+        totalUnitsCompleted,
+        averageAccuracy,
       },
     });
   } catch (error) {

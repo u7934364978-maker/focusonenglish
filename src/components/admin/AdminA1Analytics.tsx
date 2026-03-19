@@ -27,9 +27,15 @@ function unitLabel(unitId: number): string {
   return unitId === 0 ? 'Test final A1' : `Unidad ${unitId}`;
 }
 
-export default function AdminA1Analytics() {
+export default function AdminA1Analytics({
+  initialStudentId,
+}: {
+  initialStudentId?: string;
+}) {
   const [students, setStudents] = useState<Student[]>([]);
-  const [selectedStudent, setSelectedStudent] = useState<string | null>(null);
+  const [selectedStudent, setSelectedStudent] = useState<string | null>(
+    initialStudentId ?? null
+  );
   const [progressData, setProgressData] = useState<ProgressData[]>([]);
   const [summary, setSummary] = useState<Summary | null>(null);
   const [loading, setLoading] = useState(true);
