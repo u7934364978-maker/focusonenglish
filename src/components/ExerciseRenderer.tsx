@@ -356,8 +356,8 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
             </div>
           )}
 
-          {/* Fill Blank (only if no options and not true-false) */}
-          {(q.type === 'fill-blank' || exercise.type === 'fill-blank') && exercise.type !== 'true-false' && (!q.options || !Array.isArray(q.options)) && (
+          {/* Fill Blank / Open Cloze (only if no options and not true-false) */}
+          {(q.type === 'fill-blank' || exercise.type === 'fill-blank' || exercise.type === 'open-cloze') && exercise.type !== 'true-false' && exercise.type !== 'key-word-transformation' && (!q.options || !Array.isArray(q.options)) && (
             <div className="space-y-1.5">
               <label className="text-sm font-medium text-slate-500 pl-1">
                 Escribe tu respuesta
@@ -383,6 +383,51 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                   {isCorrect ? <CheckCircle className="w-6 h-6 text-green-500" /> : <XCircle className="w-6 h-6 text-red-500" />}
                 </div>
               )}
+              </div>
+            </div>
+          )}
+
+          {/* Key-Word Transformation */}
+          {exercise.type === 'key-word-transformation' && (
+            <div className="space-y-3">
+              {q.keyWord && (
+                <div className="flex items-center gap-2">
+                  <span className="text-xs font-semibold text-slate-500 uppercase tracking-wide">Palabra clave:</span>
+                  <span className="px-3 py-1 bg-violet-100 text-violet-800 rounded-lg font-bold text-sm tracking-widest">{q.keyWord}</span>
+                </div>
+              )}
+              {q.startOfAnswer && (
+                <div className="p-3 bg-slate-50 rounded-xl border border-slate-200 text-sm text-slate-600 font-medium">
+                  <span className="text-slate-400 text-xs block mb-1">Inicio de la frase:</span>
+                  {q.startOfAnswer}&nbsp;…
+                </div>
+              )}
+              <div className="space-y-1.5">
+                <label className="text-sm font-medium text-slate-500 pl-1">
+                  Completa la transformación
+                </label>
+                <div className="relative">
+                  <input
+                    type="text"
+                    value={userAnswer || ''}
+                    onChange={(e) => setUserAnswer(e.target.value)}
+                    onKeyDown={(e) => e.key === 'Enter' && userAnswer && !submitted && handleSubmit()}
+                    disabled={submitted}
+                    placeholder="Escribe la frase transformada completa…"
+                    className={`w-full p-5 border-2 rounded-2xl focus:outline-none focus-visible:ring-2 focus-visible:ring-violet-400 focus-visible:ring-offset-2 text-lg font-medium text-slate-800 transition-colors ${
+                      submitted
+                        ? isCorrect
+                          ? 'border-green-400 bg-green-50 text-green-800'
+                          : 'border-red-400 bg-red-50 text-red-800'
+                        : 'border-violet-200 focus:border-violet-400 bg-white'
+                    }`}
+                  />
+                  {submitted && (
+                    <div className="absolute right-4 top-1/2 -translate-y-1/2">
+                      {isCorrect ? <CheckCircle className="w-6 h-6 text-green-500" /> : <XCircle className="w-6 h-6 text-red-500" />}
+                    </div>
+                  )}
+                </div>
               </div>
             </div>
           )}
