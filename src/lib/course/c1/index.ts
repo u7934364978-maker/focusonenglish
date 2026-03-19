@@ -38,6 +38,16 @@ import { UNIT_37_EXERCISES } from './unit-37';
 import { UNIT_38_EXERCISES } from './unit-38';
 import { UNIT_39_EXERCISES } from './unit-39';
 import { UNIT_40_EXERCISES } from './unit-40';
+import { UNIT_41_EXERCISES } from './unit-41';
+import { UNIT_42_EXERCISES } from './unit-42';
+import { UNIT_43_EXERCISES } from './unit-43';
+import { UNIT_44_EXERCISES } from './unit-44';
+import { UNIT_45_EXERCISES } from './unit-45';
+import { UNIT_46_EXERCISES } from './unit-46';
+import { UNIT_47_EXERCISES } from './unit-47';
+import { UNIT_48_EXERCISES } from './unit-48';
+import { UNIT_49_EXERCISES } from './unit-49';
+import { UNIT_50_EXERCISES } from './unit-50';
 
 export const C1_COURSE = {
   units: [
@@ -81,5 +91,15 @@ export const C1_COURSE = {
     { id: 38, title: 'The Science of the Brain',                exercises: UNIT_38_EXERCISES },
     { id: 39, title: 'Nutrition and Lifestyle Medicine',        exercises: UNIT_39_EXERCISES },
     { id: 40, title: 'Ageing and Longevity',                    exercises: UNIT_40_EXERCISES },
+    { id: 41, title: 'Alternative Medicine and Treatment',      exercises: UNIT_41_EXERCISES },
+    { id: 42, title: 'Health and Mind: Module Consolidation',   exercises: UNIT_42_EXERCISES },
+    { id: 43, title: 'Human Rights and International Law',      exercises: UNIT_43_EXERCISES },
+    { id: 44, title: 'Migration and Displacement',              exercises: UNIT_44_EXERCISES },
+    { id: 45, title: 'Development and Global Inequality',       exercises: UNIT_45_EXERCISES },
+    { id: 46, title: 'War, Conflict and Peacekeeping',          exercises: UNIT_46_EXERCISES },
+    { id: 47, title: 'Climate Diplomacy and International Cooperation', exercises: UNIT_47_EXERCISES },
+    { id: 48, title: 'Global Issues: Module Consolidation',     exercises: UNIT_48_EXERCISES },
+    { id: 49, title: 'Traditional vs Digital Media',            exercises: UNIT_49_EXERCISES },
+    { id: 50, title: 'Fake News and Disinformation',            exercises: UNIT_50_EXERCISES },
   ],
 };
