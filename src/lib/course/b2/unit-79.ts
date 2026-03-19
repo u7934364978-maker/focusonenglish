@@ -1,15 +1,14 @@
 /**
- * Unidad 79 B2 — Extension (provisional)
- *
- * Reutiliza ejercicios de la unidad 65 pero con IDs ajustados
- * para evitar colisiones en tracking/export.
+ * Unidad 79 B2 — Real content (reinforcement)
+ * Copia funcional del temario existente de la unidad 57
+ * (IDs remapeados para que el tracking sea independiente).
  */
 
-import { UNIT_65_EXERCISES } from './unit-65';
+import { UNIT_57_EXERCISES } from './unit-57';
 
-export const UNIT_TITLE = 'B2 Extension Unit 79';
+export const UNIT_TITLE = 'Media Literacy & Critical Thinking';
 
-export const UNIT_79_EXERCISES = UNIT_65_EXERCISES.map((ex) => ({
+export const UNIT_79_EXERCISES = UNIT_57_EXERCISES.map((ex) => ({
   ...ex,
-  id: typeof ex.id === 'string' ? ex.id.replace(/^b2-u65-/, 'b2-u79-') : ex.id,
+  id: typeof ex.id === 'string' ? ex.id.replace(/^b2-u57-/, 'b2-u79-') : ex.id,
 }));

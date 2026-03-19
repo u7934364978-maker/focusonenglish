@@ -72,7 +72,7 @@ export default function B2UnitSession({ unit, backUrl = "/planes" }: B2UnitSessi
         spread: 70,
         origin: { y: 0.6 },
         colors: ['#4F46E5', '#10B981', '#F59E0B']
-      });
+      }));
     }
 
     if (newCompletedBlocks.size === totalBlocks) {
@@ -87,7 +87,7 @@ export default function B2UnitSession({ unit, backUrl = "/planes" }: B2UnitSessi
           spread: 160,
           origin: { y: 0.6 },
           colors: ['#4F46E5', '#10B981', '#F59E0B', '#EF4444']
-        });
+        }));
         setIsUnitComplete(true);
       }, 500);
     } else if (currentBlockIndex < totalBlocks - 1) {

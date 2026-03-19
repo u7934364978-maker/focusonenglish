@@ -1,15 +1,14 @@
 /**
- * Unidad 72 B2 — Extension (provisional)
- *
- * Reutiliza ejercicios de la unidad 65 pero con IDs ajustados
- * para evitar colisiones en tracking/export.
+ * Unidad 72 B2 — Real content (reinforcement)
+ * Copia funcional del temario existente de la unidad 23
+ * (IDs remapeados para que el tracking sea independiente).
  */
 
-import { UNIT_65_EXERCISES } from './unit-65';
+import { UNIT_23_EXERCISES } from './unit-23';
 
-export const UNIT_TITLE = 'B2 Extension Unit 72';
+export const UNIT_TITLE = 'Phrasal Verbs 1';
 
-export const UNIT_72_EXERCISES = UNIT_65_EXERCISES.map((ex) => ({
+export const UNIT_72_EXERCISES = UNIT_23_EXERCISES.map((ex) => ({
   ...ex,
-  id: typeof ex.id === 'string' ? ex.id.replace(/^b2-u65-/, 'b2-u72-') : ex.id,
+  id: typeof ex.id === 'string' ? ex.id.replace(/^b2-u23-/, 'b2-u72-') : ex.id,
 }));

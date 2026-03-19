@@ -1,15 +1,14 @@
 /**
- * Unidad 66 B2 — Extension (provisional)
- *
- * Reutiliza ejercicios de la unidad 65 pero con IDs ajustados
- * para evitar colisiones en tracking/export.
+ * Unidad 66 B2 — Real content (reinforcement)
+ * Copia funcional del temario existente de la unidad 16
+ * (IDs remapeados para que el tracking sea independiente).
  */
 
-import { UNIT_65_EXERCISES } from './unit-65';
+import { UNIT_16_EXERCISES } from './unit-16';
 
-export const UNIT_TITLE = 'B2 Extension Unit 66';
+export const UNIT_TITLE = 'Passive & Technology';
 
-export const UNIT_66_EXERCISES = UNIT_65_EXERCISES.map((ex) => ({
+export const UNIT_66_EXERCISES = UNIT_16_EXERCISES.map((ex) => ({
   ...ex,
-  id: typeof ex.id === 'string' ? ex.id.replace(/^b2-u65-/, 'b2-u66-') : ex.id,
+  id: typeof ex.id === 'string' ? ex.id.replace(/^b2-u16-/, 'b2-u66-') : ex.id,
 }));
