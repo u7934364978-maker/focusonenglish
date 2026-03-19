@@ -48,6 +48,16 @@ import { UNIT_47_EXERCISES } from './unit-47';
 import { UNIT_48_EXERCISES } from './unit-48';
 import { UNIT_49_EXERCISES } from './unit-49';
 import { UNIT_50_EXERCISES } from './unit-50';
+import { UNIT_51_EXERCISES } from './unit-51';
+import { UNIT_52_EXERCISES } from './unit-52';
+import { UNIT_53_EXERCISES } from './unit-53';
+import { UNIT_54_EXERCISES } from './unit-54';
+import { UNIT_55_EXERCISES } from './unit-55';
+import { UNIT_56_EXERCISES } from './unit-56';
+import { UNIT_57_EXERCISES } from './unit-57';
+import { UNIT_58_EXERCISES } from './unit-58';
+import { UNIT_59_EXERCISES } from './unit-59';
+import { UNIT_60_EXERCISES } from './unit-60';
 
 export const C1_COURSE = {
   units: [
@@ -101,5 +111,15 @@ export const C1_COURSE = {
     { id: 48, title: 'Global Issues: Module Consolidation',     exercises: UNIT_48_EXERCISES },
     { id: 49, title: 'Traditional vs Digital Media',            exercises: UNIT_49_EXERCISES },
     { id: 50, title: 'Fake News and Disinformation',            exercises: UNIT_50_EXERCISES },
+    { id: 51, title: 'Privacy, Surveillance and Digital Rights', exercises: UNIT_51_EXERCISES },
+    { id: 52, title: 'Artificial Intelligence and Society',      exercises: UNIT_52_EXERCISES },
+    { id: 53, title: 'Journalism Ethics and Press Freedom',      exercises: UNIT_53_EXERCISES },
+    { id: 54, title: 'Media and Information: Module Consolidation', exercises: UNIT_54_EXERCISES },
+    { id: 55, title: 'Free Will and Determinism',                exercises: UNIT_55_EXERCISES },
+    { id: 56, title: 'Philosophy of Mind',                       exercises: UNIT_56_EXERCISES },
+    { id: 57, title: 'Ethics and Moral Philosophy',              exercises: UNIT_57_EXERCISES },
+    { id: 58, title: 'The Future of Humanity',                   exercises: UNIT_58_EXERCISES },
+    { id: 59, title: 'Full Grammar Consolidation',               exercises: UNIT_59_EXERCISES },
+    { id: 60, title: 'Exam Preparation: CAE, IELTS and TOEFL',  exercises: UNIT_60_EXERCISES },
   ],
 };
