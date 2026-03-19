@@ -79,7 +79,8 @@ Update `src/lib/course-data-c2.ts` to replace the 6-module CPE-exam slice struct
 - Update `C2_FULL_COURSE.title` to `'Inglés C2 Mastery / Proficiency'`
 - Verify: `npx tsc --noEmit` passes on the file
 
-### [ ] Step: Update generate-c2-course.ts script
+### [x] Step: Update generate-c2-course.ts script
+<!-- chat-id: 06c97bab-d067-4b6e-bde4-469a6a882ba7 -->
 
 Update `scripts/generate-c2-course.ts` to generate 6 blocks per unit (instead of 10) with lesson-type-aware prompts.
 
@@ -90,6 +91,7 @@ Update `scripts/generate-c2-course.ts` to generate 6 blocks per unit (instead of
 - Verify: `npx tsc --noEmit` passes on the script
 
 ### [ ] Step: Regenerate all 60 unit files
+<!-- chat-id: a6f76739-23cc-490d-9474-876257c7a539 -->
 
 Run the updated generation script to produce all 60 `src/lib/c2-units/unit-{1..60}.ts` files with the new curriculum.
 
