@@ -69,7 +69,8 @@ Update `src/lib/c2-units/utils.ts` to document and expose the 6-lesson-per-unit 
 - Keep `createC2Unit()` and `genC2Id()` signatures unchanged (backward-compatible)
 - Verify: `npx tsc --noEmit` passes on the file
 
-### [ ] Step: Update course-data-c2.ts with 10 modules
+### [x] Step: Update course-data-c2.ts with 10 modules
+<!-- chat-id: 303f86fc-c90d-4e40-8b8e-0dec27b8912e -->
 
 Update `src/lib/course-data-c2.ts` to replace the 6-module CPE-exam slice structure with 10 thematic modules × 6 units each.
 
