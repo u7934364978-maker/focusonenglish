@@ -3,6 +3,7 @@ import "./globals.css";
 import { OrganizationSchema, WebsiteSchema } from "./schema";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import Cookiebot from "@/components/Cookiebot";
+import { Analytics } from "@vercel/analytics/next";
 import { Nunito, Plus_Jakarta_Sans } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 
@@ -131,6 +132,7 @@ export default function RootLayout({
           {/* Scripts deferidos: no bloquean first paint */}
           <Cookiebot />
           <GoogleAnalytics />
+          <Analytics />
           {/* Copyright watermark - contraste 4.5:1 (WCAG AA) */}
           <div
             style={{
