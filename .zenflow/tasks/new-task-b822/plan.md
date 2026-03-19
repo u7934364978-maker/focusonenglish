@@ -90,7 +90,7 @@ Update `scripts/generate-c2-course.ts` to generate 6 blocks per unit (instead of
 - Update block `type` field to use the lesson type name instead of `'grammar'`/`'vocabulary'` alternation
 - Verify: `npx tsc --noEmit` passes on the script
 
-### [ ] Step: Regenerate all 60 unit files
+### [x] Step: Regenerate all 60 unit files
 <!-- chat-id: a6f76739-23cc-490d-9474-876257c7a539 -->
 
 Run the updated generation script to produce all 60 `src/lib/c2-units/unit-{1..60}.ts` files with the new curriculum.
@@ -101,6 +101,7 @@ Run the updated generation script to produce all 60 `src/lib/c2-units/unit-{1..6
 - Verify: `node scripts/validate-c2-structure.mjs` passes; `ALL_C2_UNITS` length is 60; `C2_MODULES` has 10 entries each with 6 units
 
 ### [ ] Step: Final verification
+<!-- chat-id: 9222cb91-90d6-4616-81c9-1046daa3a057 -->
 
 Run full verification suite to confirm correctness.
 

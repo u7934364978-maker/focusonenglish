@@ -1,200 +1,209 @@
-
 import { Exercise } from '../exercise-types';
 import { createC2Unit } from './utils';
 
 export const C2_U7_BLOCK1: Exercise = {
   "id": "c2-u7-b1",
-  "type": "vocabulary",
-  "title": "Part 1: Philosophy & Logic - Block 1",
-  "explanation": "Complete the text about specialized aspects of philosophy & logic.",
+  "type": "grammar",
+  "title": "Block 1: Grammar Input & Presentation",
+  "explanation": "Grammar Input & Presentation practice for \"What is Literature?\" — narrative-tenses-mastery",
   "questions": [
     {
       "id": "c2-u7-b1-q1",
-      "type": "multiple-choice",
-      "question": "He was (1) ________ by the sheer complexity of the task.",
-      "options": ["daunted","intimidated","cowed","appalled"],
-      "correctAnswer": "daunted",
-      "explanation": "'Daunted' means feeling slightly frightened or worried about your ability to achieve something.",
-      "points": 1
+      "type": "key-word-transformation",
+      "question": "Nobody expected the proposal to be accepted so quickly.",
+      "sentence": "Nobody expected the proposal to be accepted so quickly.",
+      "keyWord": "SURPRISE",
+      "startOfAnswer": "It came as a surprise",
+      "correctAnswer": "It came as a surprise that the proposal was accepted so quickly.",
+      "explanation": "La construcción \"it came as a surprise that\" expresa sorpresa de forma impersonal.",
+      "points": 2
     },
     {
       "id": "c2-u7-b1-q2",
-      "type": "multiple-choice",
-      "question": "The company has (2) ________ a reputation for excellence.",
-      "options": ["garnered","reaped","gleaned","harvested"],
-      "correctAnswer": "garnered",
-      "explanation": "'Garnered' is often used for collecting or gathering something like a reputation.",
-      "points": 1
+      "type": "key-word-transformation",
+      "question": "The government should have acted sooner to prevent the crisis.",
+      "sentence": "The government should have acted sooner to prevent the crisis.",
+      "keyWord": "EARLIER",
+      "startOfAnswer": "Had the government acted",
+      "correctAnswer": "Had the government acted earlier, the crisis could have been prevented.",
+      "explanation": "La inversión en condicionales tipo 3: \"Had + sujeto + participio\".",
+      "points": 2
     },
     {
       "id": "c2-u7-b1-q3",
-      "type": "multiple-choice",
-      "question": "Such a move would be (3) ________ with significant risk.",
-      "options": ["fraught","laden","burdened","weighed"],
-      "correctAnswer": "fraught",
-      "explanation": "'Fraught with' is a standard collocation for something filled with something unpleasant.",
-      "points": 1
+      "type": "key-word-transformation",
+      "question": "She is considered one of the most influential thinkers of her generation.",
+      "sentence": "She is considered one of the most influential thinkers of her generation.",
+      "keyWord": "WIDELY",
+      "startOfAnswer": "She is widely",
+      "correctAnswer": "She is widely regarded as one of the most influential thinkers of her generation.",
+      "explanation": "\"Widely regarded as\" es una colocación formal para expresar reconocimiento general.",
+      "points": 2
     },
     {
       "id": "c2-u7-b1-q4",
-      "type": "multiple-choice",
-      "question": "The results (4) ________ our initial expectations.",
-      "options": ["surpassed","outstripped","exceeded","transcended"],
-      "correctAnswer": "surpassed",
-      "explanation": "'Surpassed' is common for going beyond expectations.",
-      "points": 1
+      "type": "key-word-transformation",
+      "question": "The experiment was so complex that only specialists could replicate it.",
+      "sentence": "The experiment was so complex that only specialists could replicate it.",
+      "keyWord": "SUCH",
+      "startOfAnswer": "Such was the complexity",
+      "correctAnswer": "Such was the complexity of the experiment that only specialists could replicate it.",
+      "explanation": "La inversión con \"Such was...\" enfatiza el grado de la cualidad.",
+      "points": 2
     },
     {
       "id": "c2-u7-b1-q5",
-      "type": "multiple-choice",
-      "question": "She has an (5) ________ ability to spot talent.",
-      "options": ["uncanny","eerie","weird","strange"],
-      "correctAnswer": "uncanny",
-      "explanation": "'Uncanny' refers to something strange or mysterious, especially in an unsettling way.",
-      "points": 1
+      "type": "key-word-transformation",
+      "question": "The lawyers argued that the contract was invalid.",
+      "sentence": "The lawyers argued that the contract was invalid.",
+      "keyWord": "GROUNDS",
+      "startOfAnswer": "The lawyers challenged the contract on",
+      "correctAnswer": "The lawyers challenged the contract on the grounds that it was invalid.",
+      "explanation": "\"On the grounds that\" es una expresión formal para introducir una razón legal.",
+      "points": 2
     },
     {
       "id": "c2-u7-b1-q6",
-      "type": "multiple-choice",
-      "question": "The policy was (6) ________ with controversy from the start.",
-      "options": ["dogged","hounded","pursued","followed"],
-      "correctAnswer": "dogged",
-      "explanation": "'Dogged by controversy' is a common expression.",
-      "points": 1
+      "type": "key-word-transformation",
+      "question": "They rarely achieve such consistent results in laboratory conditions.",
+      "sentence": "They rarely achieve such consistent results in laboratory conditions.",
+      "keyWord": "SELDOM",
+      "startOfAnswer": "Seldom do they",
+      "correctAnswer": "Seldom do they achieve such consistent results in laboratory conditions.",
+      "explanation": "Con adverbios negativos como \"seldom\" se invierte sujeto y auxiliar.",
+      "points": 2
     },
     {
       "id": "c2-u7-b1-q7",
-      "type": "multiple-choice",
-      "question": "It is (7) ________ important that we act now.",
-      "options": ["paramount","pivotal","vital","crucial"],
-      "correctAnswer": "paramount",
-      "explanation": "'Paramount importance' is a strong C2 collocation.",
-      "points": 1
+      "type": "key-word-transformation",
+      "question": "The author finished writing the novel over a period of ten years.",
+      "sentence": "The author finished writing the novel over a period of ten years.",
+      "keyWord": "TOOK",
+      "startOfAnswer": "It took the author",
+      "correctAnswer": "It took the author ten years to finish writing the novel.",
+      "explanation": "\"It took + person + time + to-infinitive\" indica duración de una actividad.",
+      "points": 2
     },
     {
       "id": "c2-u7-b1-q8",
-      "type": "multiple-choice",
-      "question": "The (8) ________ of the situation became clear only later.",
-      "options": ["gravity","severity","seriousness","intensity"],
-      "correctAnswer": "gravity",
-      "explanation": "'Gravity' is used for the extreme importance or seriousness of a situation.",
-      "points": 1
+      "type": "key-word-transformation",
+      "question": "It was only after the meeting that she understood the full implications.",
+      "sentence": "It was only after the meeting that she understood the full implications.",
+      "keyWord": "UNTIL",
+      "startOfAnswer": "She did not understand the full implications",
+      "correctAnswer": "She did not understand the full implications until after the meeting.",
+      "explanation": "Se usa \"until\" para indicar el límite temporal de una acción negativa.",
+      "points": 2
     },
     {
       "id": "c2-u7-b1-q9",
-      "type": "multiple-choice",
-      "question": "His success is a (9) ________ to his hard work.",
-      "options": ["testament","witness","evidence","proof"],
-      "correctAnswer": "testament",
-      "explanation": "'Testament to' is a very common idiom.",
-      "points": 1
+      "type": "key-word-transformation",
+      "question": "The researcher claims that the results are conclusive.",
+      "sentence": "The researcher claims that the results are conclusive.",
+      "keyWord": "ACCORDING",
+      "startOfAnswer": "According to",
+      "correctAnswer": "According to the researcher, the results are conclusive.",
+      "explanation": "\"According to\" se usa para atribuir una afirmación a alguien.",
+      "points": 2
     },
     {
       "id": "c2-u7-b1-q10",
-      "type": "multiple-choice",
-      "question": "The (10) ________ of the discovery was felt worldwide.",
-      "options": ["magnitude","impact","extent","scope"],
-      "correctAnswer": "magnitude",
-      "explanation": "'Magnitude' is used for the great size or importance of something.",
-      "points": 1
+      "type": "key-word-transformation",
+      "question": "Despite the difficulties, they managed to complete the project.",
+      "sentence": "Despite the difficulties, they managed to complete the project.",
+      "keyWord": "NOTWITHSTANDING",
+      "startOfAnswer": "Notwithstanding the difficulties,",
+      "correctAnswer": "Notwithstanding the difficulties, they managed to complete the project.",
+      "explanation": "\"Notwithstanding\" es un conector formal equivalente a \"despite\".",
+      "points": 2
     }
   ]
 };
 
 export const C2_U7_BLOCK2: Exercise = {
   "id": "c2-u7-b2",
-  "type": "vocabulary",
-  "title": "Part 1: Philosophy & Logic - Block 2",
-  "explanation": "Complete the text about specialized aspects of philosophy & logic.",
+  "type": "grammar-context",
+  "title": "Block 2: Grammar in Context / Collocations",
+  "explanation": "Grammar in Context / Collocations practice for \"What is Literature?\" — narrative-tenses-mastery",
   "questions": [
     {
       "id": "c2-u7-b2-q1",
-      "type": "multiple-choice",
-      "question": "The company has (1) ________ a reputation for excellence.",
-      "options": ["garnered","reaped","gleaned","harvested"],
-      "correctAnswer": "garnered",
-      "explanation": "'Garnered' is often used for collecting or gathering something like a reputation.",
+      "type": "open-cloze",
+      "question": "The government was called _____ to justify its decision.",
+      "correctAnswer": "upon",
+      "explanation": "\"Called upon to\" significa pedido/invitado formalmente a.",
       "points": 1
     },
     {
       "id": "c2-u7-b2-q2",
-      "type": "multiple-choice",
-      "question": "Such a move would be (2) ________ with significant risk.",
-      "options": ["fraught","laden","burdened","weighed"],
-      "correctAnswer": "fraught",
-      "explanation": "'Fraught with' is a standard collocation for something filled with something unpleasant.",
+      "type": "open-cloze",
+      "question": "The treaty was drawn _____ after months of negotiations.",
+      "correctAnswer": "up",
+      "explanation": "\"Draw up\" significa redactar un documento oficial.",
       "points": 1
     },
     {
       "id": "c2-u7-b2-q3",
-      "type": "multiple-choice",
-      "question": "The results (3) ________ our initial expectations.",
-      "options": ["surpassed","outstripped","exceeded","transcended"],
-      "correctAnswer": "surpassed",
-      "explanation": "'Surpassed' is common for going beyond expectations.",
+      "type": "open-cloze",
+      "question": "The argument falls _____ upon closer examination.",
+      "correctAnswer": "apart",
+      "explanation": "\"Fall apart\" en contexto argumentativo significa desmoronarse bajo análisis.",
       "points": 1
     },
     {
       "id": "c2-u7-b2-q4",
-      "type": "multiple-choice",
-      "question": "She has an (4) ________ ability to spot talent.",
-      "options": ["uncanny","eerie","weird","strange"],
-      "correctAnswer": "uncanny",
-      "explanation": "'Uncanny' refers to something strange or mysterious, especially in an unsettling way.",
+      "type": "open-cloze",
+      "question": "The policy has come _____ considerable criticism from opposition parties.",
+      "correctAnswer": "under",
+      "explanation": "\"Come under criticism\" es una colocación fija: recibir críticas.",
       "points": 1
     },
     {
       "id": "c2-u7-b2-q5",
-      "type": "multiple-choice",
-      "question": "The policy was (5) ________ with controversy from the start.",
-      "options": ["dogged","hounded","pursued","followed"],
-      "correctAnswer": "dogged",
-      "explanation": "'Dogged by controversy' is a common expression.",
+      "type": "open-cloze",
+      "question": "It is _____ no means certain that the proposal will be approved.",
+      "correctAnswer": "by",
+      "explanation": "\"By no means\" es una locución formal que significa \"en absoluto\".",
       "points": 1
     },
     {
       "id": "c2-u7-b2-q6",
-      "type": "multiple-choice",
-      "question": "It is (6) ________ important that we act now.",
-      "options": ["paramount","pivotal","vital","crucial"],
-      "correctAnswer": "paramount",
-      "explanation": "'Paramount importance' is a strong C2 collocation.",
+      "type": "open-cloze",
+      "question": "The findings shed light _____ the long-debated question of consciousness.",
+      "correctAnswer": "on",
+      "explanation": "\"Shed light on\" significa arrojar luz sobre algo, aclarar.",
       "points": 1
     },
     {
       "id": "c2-u7-b2-q7",
-      "type": "multiple-choice",
-      "question": "The (7) ________ of the situation became clear only later.",
-      "options": ["gravity","severity","seriousness","intensity"],
-      "correctAnswer": "gravity",
-      "explanation": "'Gravity' is used for the extreme importance or seriousness of a situation.",
+      "type": "open-cloze",
+      "question": "She was at a _____ to explain the unexpected results.",
+      "correctAnswer": "loss",
+      "explanation": "\"At a loss\" significa sin saber qué decir o hacer.",
       "points": 1
     },
     {
       "id": "c2-u7-b2-q8",
-      "type": "multiple-choice",
-      "question": "His success is a (8) ________ to his hard work.",
-      "options": ["testament","witness","evidence","proof"],
-      "correctAnswer": "testament",
-      "explanation": "'Testament to' is a very common idiom.",
+      "type": "open-cloze",
+      "question": "The committee took _____ account the concerns raised by local residents.",
+      "correctAnswer": "into",
+      "explanation": "\"Take into account\" significa tener en cuenta.",
       "points": 1
     },
     {
       "id": "c2-u7-b2-q9",
-      "type": "multiple-choice",
-      "question": "The (9) ________ of the discovery was felt worldwide.",
-      "options": ["magnitude","impact","extent","scope"],
-      "correctAnswer": "magnitude",
-      "explanation": "'Magnitude' is used for the great size or importance of something.",
+      "type": "open-cloze",
+      "question": "The research was carried _____ over a period of three years.",
+      "correctAnswer": "out",
+      "explanation": "\"Carry out\" significa realizar, ejecutar.",
       "points": 1
     },
     {
       "id": "c2-u7-b2-q10",
-      "type": "multiple-choice",
-      "question": "He was (10) ________ by the sheer complexity of the task.",
-      "options": ["daunted","intimidated","cowed","appalled"],
-      "correctAnswer": "daunted",
-      "explanation": "'Daunted' means feeling slightly frightened or worried about your ability to achieve something.",
+      "type": "open-cloze",
+      "question": "In _____ of the recent developments, a review of policy is necessary.",
+      "correctAnswer": "light",
+      "explanation": "\"In light of\" significa a la luz de, teniendo en cuenta.",
       "points": 1
     }
   ]
@@ -202,98 +211,148 @@ export const C2_U7_BLOCK2: Exercise = {
 
 export const C2_U7_BLOCK3: Exercise = {
   "id": "c2-u7-b3",
-  "type": "vocabulary",
-  "title": "Part 1: Philosophy & Logic - Block 3",
-  "explanation": "Complete the text about specialized aspects of philosophy & logic.",
+  "type": "reading",
+  "title": "Block 3: Reading Comprehension (C2 Text)",
+  "explanation": "Reading Comprehension (C2 Text) practice for \"What is Literature?\" — narrative-tenses-mastery",
   "questions": [
     {
       "id": "c2-u7-b3-q1",
       "type": "multiple-choice",
-      "question": "Such a move would be (1) ________ with significant risk.",
-      "options": ["fraught","laden","burdened","weighed"],
-      "correctAnswer": "fraught",
-      "explanation": "'Fraught with' is a standard collocation for something filled with something unpleasant.",
+      "question": "In the context of literature, choose the most appropriate word: \"So complex is the relationship between language and thought that researchers continue to debate its nature...\"",
+      "options": [
+        "ostensibly",
+        "apparently",
+        "seemingly",
+        "purportedly"
+      ],
+      "correctAnswer": "ostensibly",
+      "explanation": "La opción correcta es \"ostensibly\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u7-b3-q2",
       "type": "multiple-choice",
-      "question": "The results (2) ________ our initial expectations.",
-      "options": ["surpassed","outstripped","exceeded","transcended"],
-      "correctAnswer": "surpassed",
-      "explanation": "'Surpassed' is common for going beyond expectations.",
+      "question": "In the context of literature, choose the most appropriate word: \"The committee decided to postpone the meeting until further notice...\"",
+      "options": [
+        "profoundly",
+        "utterly",
+        "considerably",
+        "remarkably"
+      ],
+      "correctAnswer": "considerably",
+      "explanation": "La opción correcta es \"considerably\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u7-b3-q3",
       "type": "multiple-choice",
-      "question": "She has an (3) ________ ability to spot talent.",
-      "options": ["uncanny","eerie","weird","strange"],
-      "correctAnswer": "uncanny",
-      "explanation": "'Uncanny' refers to something strange or mysterious, especially in an unsettling way.",
+      "question": "In the context of literature, choose the most appropriate word: \"It is widely believed that language shapes our perception of reality...\"",
+      "options": [
+        "however",
+        "nevertheless",
+        "despite",
+        "although"
+      ],
+      "correctAnswer": "nevertheless",
+      "explanation": "La opción correcta es \"nevertheless\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u7-b3-q4",
       "type": "multiple-choice",
-      "question": "The policy was (4) ________ with controversy from the start.",
-      "options": ["dogged","hounded","pursued","followed"],
-      "correctAnswer": "dogged",
-      "explanation": "'Dogged by controversy' is a common expression.",
+      "question": "In the context of literature, choose the most appropriate word: \"Not only did the author challenge conventional views, but she also proposed radical alternatives...\"",
+      "options": [
+        "scrutinise",
+        "examine",
+        "verify",
+        "investigate"
+      ],
+      "correctAnswer": "scrutinise",
+      "explanation": "La opción correcta es \"scrutinise\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u7-b3-q5",
       "type": "multiple-choice",
-      "question": "It is (5) ________ important that we act now.",
-      "options": ["paramount","pivotal","vital","crucial"],
-      "correctAnswer": "paramount",
-      "explanation": "'Paramount importance' is a strong C2 collocation.",
+      "question": "In the context of literature, choose the most appropriate word: \"The government has been accused of failing to address the underlying causes of the crisis...\"",
+      "options": [
+        "endorsed",
+        "advocated",
+        "upheld",
+        "championed"
+      ],
+      "correctAnswer": "upheld",
+      "explanation": "La opción correcta es \"upheld\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u7-b3-q6",
       "type": "multiple-choice",
-      "question": "The (6) ________ of the situation became clear only later.",
-      "options": ["gravity","severity","seriousness","intensity"],
-      "correctAnswer": "gravity",
-      "explanation": "'Gravity' is used for the extreme importance or seriousness of a situation.",
+      "question": "In the context of literature, choose the most appropriate word: \"Had the delegates arrived on time, the negotiations would have proceeded smoothly...\"",
+      "options": [
+        "mitigate",
+        "alleviate",
+        "diminish",
+        "reduce"
+      ],
+      "correctAnswer": "mitigate",
+      "explanation": "La opción correcta es \"mitigate\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u7-b3-q7",
       "type": "multiple-choice",
-      "question": "His success is a (7) ________ to his hard work.",
-      "options": ["testament","witness","evidence","proof"],
-      "correctAnswer": "testament",
-      "explanation": "'Testament to' is a very common idiom.",
+      "question": "In the context of literature, choose the most appropriate word: \"There is a growing body of evidence suggesting that bilingualism enhances cognitive flexibility...\"",
+      "options": [
+        "pervasive",
+        "widespread",
+        "rampant",
+        "endemic"
+      ],
+      "correctAnswer": "pervasive",
+      "explanation": "La opción correcta es \"pervasive\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u7-b3-q8",
       "type": "multiple-choice",
-      "question": "The (8) ________ of the discovery was felt worldwide.",
-      "options": ["magnitude","impact","extent","scope"],
-      "correctAnswer": "magnitude",
-      "explanation": "'Magnitude' is used for the great size or importance of something.",
+      "question": "In the context of literature, choose the most appropriate word: \"The report highlights the extent to which economic inequality perpetuates social immobility...\"",
+      "options": [
+        "ambiguous",
+        "equivocal",
+        "vague",
+        "opaque"
+      ],
+      "correctAnswer": "equivocal",
+      "explanation": "La opción correcta es \"equivocal\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u7-b3-q9",
       "type": "multiple-choice",
-      "question": "He was (9) ________ by the sheer complexity of the task.",
-      "options": ["daunted","intimidated","cowed","appalled"],
-      "correctAnswer": "daunted",
-      "explanation": "'Daunted' means feeling slightly frightened or worried about your ability to achieve something.",
+      "question": "In the context of literature, choose the most appropriate word: \"Rarely has such a comprehensive analysis been published in a single volume...\"",
+      "options": [
+        "undermine",
+        "erode",
+        "diminish",
+        "weaken"
+      ],
+      "correctAnswer": "undermine",
+      "explanation": "La opción correcta es \"undermine\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u7-b3-q10",
       "type": "multiple-choice",
-      "question": "The company has (10) ________ a reputation for excellence.",
-      "options": ["garnered","reaped","gleaned","harvested"],
-      "correctAnswer": "garnered",
-      "explanation": "'Garnered' is often used for collecting or gathering something like a reputation.",
+      "question": "In the context of literature, choose the most appropriate word: \"It remains to be seen whether the proposed reforms will have the desired effect...\"",
+      "options": [
+        "contentious",
+        "controversial",
+        "debatable",
+        "disputed"
+      ],
+      "correctAnswer": "contentious",
+      "explanation": "La opción correcta es \"contentious\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     }
   ]
@@ -301,98 +360,148 @@ export const C2_U7_BLOCK3: Exercise = {
 
 export const C2_U7_BLOCK4: Exercise = {
   "id": "c2-u7-b4",
-  "type": "vocabulary",
-  "title": "Part 1: Philosophy & Logic - Block 4",
-  "explanation": "Complete the text about specialized aspects of philosophy & logic.",
+  "type": "listening",
+  "title": "Block 4: Listening / Discourse Management",
+  "explanation": "Listening / Discourse Management practice for \"What is Literature?\" — narrative-tenses-mastery",
   "questions": [
     {
       "id": "c2-u7-b4-q1",
       "type": "multiple-choice",
-      "question": "The results (1) ________ our initial expectations.",
-      "options": ["surpassed","outstripped","exceeded","transcended"],
-      "correctAnswer": "surpassed",
-      "explanation": "'Surpassed' is common for going beyond expectations.",
+      "question": "In the context of literature, choose the most appropriate word: \"Not only did the author challenge conventional views, but she also proposed radical alternatives...\"",
+      "options": [
+        "profoundly",
+        "utterly",
+        "considerably",
+        "remarkably"
+      ],
+      "correctAnswer": "considerably",
+      "explanation": "La opción correcta es \"considerably\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u7-b4-q2",
       "type": "multiple-choice",
-      "question": "She has an (2) ________ ability to spot talent.",
-      "options": ["uncanny","eerie","weird","strange"],
-      "correctAnswer": "uncanny",
-      "explanation": "'Uncanny' refers to something strange or mysterious, especially in an unsettling way.",
+      "question": "In the context of literature, choose the most appropriate word: \"The government has been accused of failing to address the underlying causes of the crisis...\"",
+      "options": [
+        "however",
+        "nevertheless",
+        "despite",
+        "although"
+      ],
+      "correctAnswer": "nevertheless",
+      "explanation": "La opción correcta es \"nevertheless\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u7-b4-q3",
       "type": "multiple-choice",
-      "question": "The policy was (3) ________ with controversy from the start.",
-      "options": ["dogged","hounded","pursued","followed"],
-      "correctAnswer": "dogged",
-      "explanation": "'Dogged by controversy' is a common expression.",
+      "question": "In the context of literature, choose the most appropriate word: \"Had the delegates arrived on time, the negotiations would have proceeded smoothly...\"",
+      "options": [
+        "scrutinise",
+        "examine",
+        "verify",
+        "investigate"
+      ],
+      "correctAnswer": "scrutinise",
+      "explanation": "La opción correcta es \"scrutinise\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u7-b4-q4",
       "type": "multiple-choice",
-      "question": "It is (4) ________ important that we act now.",
-      "options": ["paramount","pivotal","vital","crucial"],
-      "correctAnswer": "paramount",
-      "explanation": "'Paramount importance' is a strong C2 collocation.",
+      "question": "In the context of literature, choose the most appropriate word: \"There is a growing body of evidence suggesting that bilingualism enhances cognitive flexibility...\"",
+      "options": [
+        "endorsed",
+        "advocated",
+        "upheld",
+        "championed"
+      ],
+      "correctAnswer": "upheld",
+      "explanation": "La opción correcta es \"upheld\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u7-b4-q5",
       "type": "multiple-choice",
-      "question": "The (5) ________ of the situation became clear only later.",
-      "options": ["gravity","severity","seriousness","intensity"],
-      "correctAnswer": "gravity",
-      "explanation": "'Gravity' is used for the extreme importance or seriousness of a situation.",
+      "question": "In the context of literature, choose the most appropriate word: \"The report highlights the extent to which economic inequality perpetuates social immobility...\"",
+      "options": [
+        "mitigate",
+        "alleviate",
+        "diminish",
+        "reduce"
+      ],
+      "correctAnswer": "mitigate",
+      "explanation": "La opción correcta es \"mitigate\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u7-b4-q6",
       "type": "multiple-choice",
-      "question": "His success is a (6) ________ to his hard work.",
-      "options": ["testament","witness","evidence","proof"],
-      "correctAnswer": "testament",
-      "explanation": "'Testament to' is a very common idiom.",
+      "question": "In the context of literature, choose the most appropriate word: \"Rarely has such a comprehensive analysis been published in a single volume...\"",
+      "options": [
+        "pervasive",
+        "widespread",
+        "rampant",
+        "endemic"
+      ],
+      "correctAnswer": "pervasive",
+      "explanation": "La opción correcta es \"pervasive\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u7-b4-q7",
       "type": "multiple-choice",
-      "question": "The (7) ________ of the discovery was felt worldwide.",
-      "options": ["magnitude","impact","extent","scope"],
-      "correctAnswer": "magnitude",
-      "explanation": "'Magnitude' is used for the great size or importance of something.",
+      "question": "In the context of literature, choose the most appropriate word: \"It remains to be seen whether the proposed reforms will have the desired effect...\"",
+      "options": [
+        "ambiguous",
+        "equivocal",
+        "vague",
+        "opaque"
+      ],
+      "correctAnswer": "equivocal",
+      "explanation": "La opción correcta es \"equivocal\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u7-b4-q8",
       "type": "multiple-choice",
-      "question": "He was (8) ________ by the sheer complexity of the task.",
-      "options": ["daunted","intimidated","cowed","appalled"],
-      "correctAnswer": "daunted",
-      "explanation": "'Daunted' means feeling slightly frightened or worried about your ability to achieve something.",
+      "question": "In the context of literature, choose the most appropriate word: \"So complex is the relationship between language and thought that researchers continue to debate its nature...\"",
+      "options": [
+        "undermine",
+        "erode",
+        "diminish",
+        "weaken"
+      ],
+      "correctAnswer": "undermine",
+      "explanation": "La opción correcta es \"undermine\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u7-b4-q9",
       "type": "multiple-choice",
-      "question": "The company has (9) ________ a reputation for excellence.",
-      "options": ["garnered","reaped","gleaned","harvested"],
-      "correctAnswer": "garnered",
-      "explanation": "'Garnered' is often used for collecting or gathering something like a reputation.",
+      "question": "In the context of literature, choose the most appropriate word: \"The committee decided to postpone the meeting until further notice...\"",
+      "options": [
+        "contentious",
+        "controversial",
+        "debatable",
+        "disputed"
+      ],
+      "correctAnswer": "contentious",
+      "explanation": "La opción correcta es \"contentious\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u7-b4-q10",
       "type": "multiple-choice",
-      "question": "Such a move would be (10) ________ with significant risk.",
-      "options": ["fraught","laden","burdened","weighed"],
-      "correctAnswer": "fraught",
-      "explanation": "'Fraught with' is a standard collocation for something filled with something unpleasant.",
+      "question": "In the context of literature, choose the most appropriate word: \"It is widely believed that language shapes our perception of reality...\"",
+      "options": [
+        "ostensibly",
+        "apparently",
+        "seemingly",
+        "purportedly"
+      ],
+      "correctAnswer": "ostensibly",
+      "explanation": "La opción correcta es \"ostensibly\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     }
   ]
@@ -400,98 +509,148 @@ export const C2_U7_BLOCK4: Exercise = {
 
 export const C2_U7_BLOCK5: Exercise = {
   "id": "c2-u7-b5",
-  "type": "vocabulary",
-  "title": "Part 1: Philosophy & Logic - Block 5",
-  "explanation": "Complete the text about specialized aspects of philosophy & logic.",
+  "type": "writing",
+  "title": "Block 5: Writing Practice (Genre-specific)",
+  "explanation": "Writing Practice (Genre-specific) practice for \"What is Literature?\" — narrative-tenses-mastery",
   "questions": [
     {
       "id": "c2-u7-b5-q1",
       "type": "multiple-choice",
-      "question": "She has an (1) ________ ability to spot talent.",
-      "options": ["uncanny","eerie","weird","strange"],
-      "correctAnswer": "uncanny",
-      "explanation": "'Uncanny' refers to something strange or mysterious, especially in an unsettling way.",
+      "question": "In the context of literature, choose the most appropriate word: \"There is a growing body of evidence suggesting that bilingualism enhances cognitive flexibility...\"",
+      "options": [
+        "however",
+        "nevertheless",
+        "despite",
+        "although"
+      ],
+      "correctAnswer": "nevertheless",
+      "explanation": "La opción correcta es \"nevertheless\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u7-b5-q2",
       "type": "multiple-choice",
-      "question": "The policy was (2) ________ with controversy from the start.",
-      "options": ["dogged","hounded","pursued","followed"],
-      "correctAnswer": "dogged",
-      "explanation": "'Dogged by controversy' is a common expression.",
+      "question": "In the context of literature, choose the most appropriate word: \"The report highlights the extent to which economic inequality perpetuates social immobility...\"",
+      "options": [
+        "scrutinise",
+        "examine",
+        "verify",
+        "investigate"
+      ],
+      "correctAnswer": "scrutinise",
+      "explanation": "La opción correcta es \"scrutinise\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u7-b5-q3",
       "type": "multiple-choice",
-      "question": "It is (3) ________ important that we act now.",
-      "options": ["paramount","pivotal","vital","crucial"],
-      "correctAnswer": "paramount",
-      "explanation": "'Paramount importance' is a strong C2 collocation.",
+      "question": "In the context of literature, choose the most appropriate word: \"Rarely has such a comprehensive analysis been published in a single volume...\"",
+      "options": [
+        "endorsed",
+        "advocated",
+        "upheld",
+        "championed"
+      ],
+      "correctAnswer": "upheld",
+      "explanation": "La opción correcta es \"upheld\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u7-b5-q4",
       "type": "multiple-choice",
-      "question": "The (4) ________ of the situation became clear only later.",
-      "options": ["gravity","severity","seriousness","intensity"],
-      "correctAnswer": "gravity",
-      "explanation": "'Gravity' is used for the extreme importance or seriousness of a situation.",
+      "question": "In the context of literature, choose the most appropriate word: \"It remains to be seen whether the proposed reforms will have the desired effect...\"",
+      "options": [
+        "mitigate",
+        "alleviate",
+        "diminish",
+        "reduce"
+      ],
+      "correctAnswer": "mitigate",
+      "explanation": "La opción correcta es \"mitigate\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u7-b5-q5",
       "type": "multiple-choice",
-      "question": "His success is a (5) ________ to his hard work.",
-      "options": ["testament","witness","evidence","proof"],
-      "correctAnswer": "testament",
-      "explanation": "'Testament to' is a very common idiom.",
+      "question": "In the context of literature, choose the most appropriate word: \"So complex is the relationship between language and thought that researchers continue to debate its nature...\"",
+      "options": [
+        "pervasive",
+        "widespread",
+        "rampant",
+        "endemic"
+      ],
+      "correctAnswer": "pervasive",
+      "explanation": "La opción correcta es \"pervasive\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u7-b5-q6",
       "type": "multiple-choice",
-      "question": "The (6) ________ of the discovery was felt worldwide.",
-      "options": ["magnitude","impact","extent","scope"],
-      "correctAnswer": "magnitude",
-      "explanation": "'Magnitude' is used for the great size or importance of something.",
+      "question": "In the context of literature, choose the most appropriate word: \"The committee decided to postpone the meeting until further notice...\"",
+      "options": [
+        "ambiguous",
+        "equivocal",
+        "vague",
+        "opaque"
+      ],
+      "correctAnswer": "equivocal",
+      "explanation": "La opción correcta es \"equivocal\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u7-b5-q7",
       "type": "multiple-choice",
-      "question": "He was (7) ________ by the sheer complexity of the task.",
-      "options": ["daunted","intimidated","cowed","appalled"],
-      "correctAnswer": "daunted",
-      "explanation": "'Daunted' means feeling slightly frightened or worried about your ability to achieve something.",
+      "question": "In the context of literature, choose the most appropriate word: \"It is widely believed that language shapes our perception of reality...\"",
+      "options": [
+        "undermine",
+        "erode",
+        "diminish",
+        "weaken"
+      ],
+      "correctAnswer": "undermine",
+      "explanation": "La opción correcta es \"undermine\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u7-b5-q8",
       "type": "multiple-choice",
-      "question": "The company has (8) ________ a reputation for excellence.",
-      "options": ["garnered","reaped","gleaned","harvested"],
-      "correctAnswer": "garnered",
-      "explanation": "'Garnered' is often used for collecting or gathering something like a reputation.",
+      "question": "In the context of literature, choose the most appropriate word: \"Not only did the author challenge conventional views, but she also proposed radical alternatives...\"",
+      "options": [
+        "contentious",
+        "controversial",
+        "debatable",
+        "disputed"
+      ],
+      "correctAnswer": "contentious",
+      "explanation": "La opción correcta es \"contentious\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u7-b5-q9",
       "type": "multiple-choice",
-      "question": "Such a move would be (9) ________ with significant risk.",
-      "options": ["fraught","laden","burdened","weighed"],
-      "correctAnswer": "fraught",
-      "explanation": "'Fraught with' is a standard collocation for something filled with something unpleasant.",
+      "question": "In the context of literature, choose the most appropriate word: \"The government has been accused of failing to address the underlying causes of the crisis...\"",
+      "options": [
+        "ostensibly",
+        "apparently",
+        "seemingly",
+        "purportedly"
+      ],
+      "correctAnswer": "ostensibly",
+      "explanation": "La opción correcta es \"ostensibly\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u7-b5-q10",
       "type": "multiple-choice",
-      "question": "The results (10) ________ our initial expectations.",
-      "options": ["surpassed","outstripped","exceeded","transcended"],
-      "correctAnswer": "surpassed",
-      "explanation": "'Surpassed' is common for going beyond expectations.",
+      "question": "In the context of literature, choose the most appropriate word: \"Had the delegates arrived on time, the negotiations would have proceeded smoothly...\"",
+      "options": [
+        "profoundly",
+        "utterly",
+        "considerably",
+        "remarkably"
+      ],
+      "correctAnswer": "considerably",
+      "explanation": "La opción correcta es \"considerably\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     }
   ]
@@ -499,494 +658,148 @@ export const C2_U7_BLOCK5: Exercise = {
 
 export const C2_U7_BLOCK6: Exercise = {
   "id": "c2-u7-b6",
-  "type": "vocabulary",
-  "title": "Part 1: Philosophy & Logic - Block 6",
-  "explanation": "Complete the text about specialized aspects of philosophy & logic.",
+  "type": "speaking",
+  "title": "Block 6: Speaking / Review / Integration",
+  "explanation": "Speaking / Review / Integration practice for \"What is Literature?\" — narrative-tenses-mastery",
   "questions": [
     {
       "id": "c2-u7-b6-q1",
       "type": "multiple-choice",
-      "question": "The policy was (1) ________ with controversy from the start.",
-      "options": ["dogged","hounded","pursued","followed"],
-      "correctAnswer": "dogged",
-      "explanation": "'Dogged by controversy' is a common expression.",
+      "question": "In the context of literature, choose the most appropriate word: \"It remains to be seen whether the proposed reforms will have the desired effect...\"",
+      "options": [
+        "scrutinise",
+        "examine",
+        "verify",
+        "investigate"
+      ],
+      "correctAnswer": "scrutinise",
+      "explanation": "La opción correcta es \"scrutinise\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u7-b6-q2",
       "type": "multiple-choice",
-      "question": "It is (2) ________ important that we act now.",
-      "options": ["paramount","pivotal","vital","crucial"],
-      "correctAnswer": "paramount",
-      "explanation": "'Paramount importance' is a strong C2 collocation.",
+      "question": "In the context of literature, choose the most appropriate word: \"So complex is the relationship between language and thought that researchers continue to debate its nature...\"",
+      "options": [
+        "endorsed",
+        "advocated",
+        "upheld",
+        "championed"
+      ],
+      "correctAnswer": "upheld",
+      "explanation": "La opción correcta es \"upheld\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u7-b6-q3",
       "type": "multiple-choice",
-      "question": "The (3) ________ of the situation became clear only later.",
-      "options": ["gravity","severity","seriousness","intensity"],
-      "correctAnswer": "gravity",
-      "explanation": "'Gravity' is used for the extreme importance or seriousness of a situation.",
+      "question": "In the context of literature, choose the most appropriate word: \"The committee decided to postpone the meeting until further notice...\"",
+      "options": [
+        "mitigate",
+        "alleviate",
+        "diminish",
+        "reduce"
+      ],
+      "correctAnswer": "mitigate",
+      "explanation": "La opción correcta es \"mitigate\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u7-b6-q4",
       "type": "multiple-choice",
-      "question": "His success is a (4) ________ to his hard work.",
-      "options": ["testament","witness","evidence","proof"],
-      "correctAnswer": "testament",
-      "explanation": "'Testament to' is a very common idiom.",
+      "question": "In the context of literature, choose the most appropriate word: \"It is widely believed that language shapes our perception of reality...\"",
+      "options": [
+        "pervasive",
+        "widespread",
+        "rampant",
+        "endemic"
+      ],
+      "correctAnswer": "pervasive",
+      "explanation": "La opción correcta es \"pervasive\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u7-b6-q5",
       "type": "multiple-choice",
-      "question": "The (5) ________ of the discovery was felt worldwide.",
-      "options": ["magnitude","impact","extent","scope"],
-      "correctAnswer": "magnitude",
-      "explanation": "'Magnitude' is used for the great size or importance of something.",
+      "question": "In the context of literature, choose the most appropriate word: \"Not only did the author challenge conventional views, but she also proposed radical alternatives...\"",
+      "options": [
+        "ambiguous",
+        "equivocal",
+        "vague",
+        "opaque"
+      ],
+      "correctAnswer": "equivocal",
+      "explanation": "La opción correcta es \"equivocal\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u7-b6-q6",
       "type": "multiple-choice",
-      "question": "He was (6) ________ by the sheer complexity of the task.",
-      "options": ["daunted","intimidated","cowed","appalled"],
-      "correctAnswer": "daunted",
-      "explanation": "'Daunted' means feeling slightly frightened or worried about your ability to achieve something.",
+      "question": "In the context of literature, choose the most appropriate word: \"The government has been accused of failing to address the underlying causes of the crisis...\"",
+      "options": [
+        "undermine",
+        "erode",
+        "diminish",
+        "weaken"
+      ],
+      "correctAnswer": "undermine",
+      "explanation": "La opción correcta es \"undermine\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u7-b6-q7",
       "type": "multiple-choice",
-      "question": "The company has (7) ________ a reputation for excellence.",
-      "options": ["garnered","reaped","gleaned","harvested"],
-      "correctAnswer": "garnered",
-      "explanation": "'Garnered' is often used for collecting or gathering something like a reputation.",
+      "question": "In the context of literature, choose the most appropriate word: \"Had the delegates arrived on time, the negotiations would have proceeded smoothly...\"",
+      "options": [
+        "contentious",
+        "controversial",
+        "debatable",
+        "disputed"
+      ],
+      "correctAnswer": "contentious",
+      "explanation": "La opción correcta es \"contentious\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u7-b6-q8",
       "type": "multiple-choice",
-      "question": "Such a move would be (8) ________ with significant risk.",
-      "options": ["fraught","laden","burdened","weighed"],
-      "correctAnswer": "fraught",
-      "explanation": "'Fraught with' is a standard collocation for something filled with something unpleasant.",
+      "question": "In the context of literature, choose the most appropriate word: \"There is a growing body of evidence suggesting that bilingualism enhances cognitive flexibility...\"",
+      "options": [
+        "ostensibly",
+        "apparently",
+        "seemingly",
+        "purportedly"
+      ],
+      "correctAnswer": "ostensibly",
+      "explanation": "La opción correcta es \"ostensibly\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u7-b6-q9",
       "type": "multiple-choice",
-      "question": "The results (9) ________ our initial expectations.",
-      "options": ["surpassed","outstripped","exceeded","transcended"],
-      "correctAnswer": "surpassed",
-      "explanation": "'Surpassed' is common for going beyond expectations.",
+      "question": "In the context of literature, choose the most appropriate word: \"The report highlights the extent to which economic inequality perpetuates social immobility...\"",
+      "options": [
+        "profoundly",
+        "utterly",
+        "considerably",
+        "remarkably"
+      ],
+      "correctAnswer": "considerably",
+      "explanation": "La opción correcta es \"considerably\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u7-b6-q10",
       "type": "multiple-choice",
-      "question": "She has an (10) ________ ability to spot talent.",
-      "options": ["uncanny","eerie","weird","strange"],
-      "correctAnswer": "uncanny",
-      "explanation": "'Uncanny' refers to something strange or mysterious, especially in an unsettling way.",
-      "points": 1
-    }
-  ]
-};
-
-export const C2_U7_BLOCK7: Exercise = {
-  "id": "c2-u7-b7",
-  "type": "vocabulary",
-  "title": "Part 1: Philosophy & Logic - Block 7",
-  "explanation": "Complete the text about specialized aspects of philosophy & logic.",
-  "questions": [
-    {
-      "id": "c2-u7-b7-q1",
-      "type": "multiple-choice",
-      "question": "It is (1) ________ important that we act now.",
-      "options": ["paramount","pivotal","vital","crucial"],
-      "correctAnswer": "paramount",
-      "explanation": "'Paramount importance' is a strong C2 collocation.",
-      "points": 1
-    },
-    {
-      "id": "c2-u7-b7-q2",
-      "type": "multiple-choice",
-      "question": "The (2) ________ of the situation became clear only later.",
-      "options": ["gravity","severity","seriousness","intensity"],
-      "correctAnswer": "gravity",
-      "explanation": "'Gravity' is used for the extreme importance or seriousness of a situation.",
-      "points": 1
-    },
-    {
-      "id": "c2-u7-b7-q3",
-      "type": "multiple-choice",
-      "question": "His success is a (3) ________ to his hard work.",
-      "options": ["testament","witness","evidence","proof"],
-      "correctAnswer": "testament",
-      "explanation": "'Testament to' is a very common idiom.",
-      "points": 1
-    },
-    {
-      "id": "c2-u7-b7-q4",
-      "type": "multiple-choice",
-      "question": "The (4) ________ of the discovery was felt worldwide.",
-      "options": ["magnitude","impact","extent","scope"],
-      "correctAnswer": "magnitude",
-      "explanation": "'Magnitude' is used for the great size or importance of something.",
-      "points": 1
-    },
-    {
-      "id": "c2-u7-b7-q5",
-      "type": "multiple-choice",
-      "question": "He was (5) ________ by the sheer complexity of the task.",
-      "options": ["daunted","intimidated","cowed","appalled"],
-      "correctAnswer": "daunted",
-      "explanation": "'Daunted' means feeling slightly frightened or worried about your ability to achieve something.",
-      "points": 1
-    },
-    {
-      "id": "c2-u7-b7-q6",
-      "type": "multiple-choice",
-      "question": "The company has (6) ________ a reputation for excellence.",
-      "options": ["garnered","reaped","gleaned","harvested"],
-      "correctAnswer": "garnered",
-      "explanation": "'Garnered' is often used for collecting or gathering something like a reputation.",
-      "points": 1
-    },
-    {
-      "id": "c2-u7-b7-q7",
-      "type": "multiple-choice",
-      "question": "Such a move would be (7) ________ with significant risk.",
-      "options": ["fraught","laden","burdened","weighed"],
-      "correctAnswer": "fraught",
-      "explanation": "'Fraught with' is a standard collocation for something filled with something unpleasant.",
-      "points": 1
-    },
-    {
-      "id": "c2-u7-b7-q8",
-      "type": "multiple-choice",
-      "question": "The results (8) ________ our initial expectations.",
-      "options": ["surpassed","outstripped","exceeded","transcended"],
-      "correctAnswer": "surpassed",
-      "explanation": "'Surpassed' is common for going beyond expectations.",
-      "points": 1
-    },
-    {
-      "id": "c2-u7-b7-q9",
-      "type": "multiple-choice",
-      "question": "She has an (9) ________ ability to spot talent.",
-      "options": ["uncanny","eerie","weird","strange"],
-      "correctAnswer": "uncanny",
-      "explanation": "'Uncanny' refers to something strange or mysterious, especially in an unsettling way.",
-      "points": 1
-    },
-    {
-      "id": "c2-u7-b7-q10",
-      "type": "multiple-choice",
-      "question": "The policy was (10) ________ with controversy from the start.",
-      "options": ["dogged","hounded","pursued","followed"],
-      "correctAnswer": "dogged",
-      "explanation": "'Dogged by controversy' is a common expression.",
-      "points": 1
-    }
-  ]
-};
-
-export const C2_U7_BLOCK8: Exercise = {
-  "id": "c2-u7-b8",
-  "type": "vocabulary",
-  "title": "Part 1: Philosophy & Logic - Block 8",
-  "explanation": "Complete the text about specialized aspects of philosophy & logic.",
-  "questions": [
-    {
-      "id": "c2-u7-b8-q1",
-      "type": "multiple-choice",
-      "question": "The (1) ________ of the situation became clear only later.",
-      "options": ["gravity","severity","seriousness","intensity"],
-      "correctAnswer": "gravity",
-      "explanation": "'Gravity' is used for the extreme importance or seriousness of a situation.",
-      "points": 1
-    },
-    {
-      "id": "c2-u7-b8-q2",
-      "type": "multiple-choice",
-      "question": "His success is a (2) ________ to his hard work.",
-      "options": ["testament","witness","evidence","proof"],
-      "correctAnswer": "testament",
-      "explanation": "'Testament to' is a very common idiom.",
-      "points": 1
-    },
-    {
-      "id": "c2-u7-b8-q3",
-      "type": "multiple-choice",
-      "question": "The (3) ________ of the discovery was felt worldwide.",
-      "options": ["magnitude","impact","extent","scope"],
-      "correctAnswer": "magnitude",
-      "explanation": "'Magnitude' is used for the great size or importance of something.",
-      "points": 1
-    },
-    {
-      "id": "c2-u7-b8-q4",
-      "type": "multiple-choice",
-      "question": "He was (4) ________ by the sheer complexity of the task.",
-      "options": ["daunted","intimidated","cowed","appalled"],
-      "correctAnswer": "daunted",
-      "explanation": "'Daunted' means feeling slightly frightened or worried about your ability to achieve something.",
-      "points": 1
-    },
-    {
-      "id": "c2-u7-b8-q5",
-      "type": "multiple-choice",
-      "question": "The company has (5) ________ a reputation for excellence.",
-      "options": ["garnered","reaped","gleaned","harvested"],
-      "correctAnswer": "garnered",
-      "explanation": "'Garnered' is often used for collecting or gathering something like a reputation.",
-      "points": 1
-    },
-    {
-      "id": "c2-u7-b8-q6",
-      "type": "multiple-choice",
-      "question": "Such a move would be (6) ________ with significant risk.",
-      "options": ["fraught","laden","burdened","weighed"],
-      "correctAnswer": "fraught",
-      "explanation": "'Fraught with' is a standard collocation for something filled with something unpleasant.",
-      "points": 1
-    },
-    {
-      "id": "c2-u7-b8-q7",
-      "type": "multiple-choice",
-      "question": "The results (7) ________ our initial expectations.",
-      "options": ["surpassed","outstripped","exceeded","transcended"],
-      "correctAnswer": "surpassed",
-      "explanation": "'Surpassed' is common for going beyond expectations.",
-      "points": 1
-    },
-    {
-      "id": "c2-u7-b8-q8",
-      "type": "multiple-choice",
-      "question": "She has an (8) ________ ability to spot talent.",
-      "options": ["uncanny","eerie","weird","strange"],
-      "correctAnswer": "uncanny",
-      "explanation": "'Uncanny' refers to something strange or mysterious, especially in an unsettling way.",
-      "points": 1
-    },
-    {
-      "id": "c2-u7-b8-q9",
-      "type": "multiple-choice",
-      "question": "The policy was (9) ________ with controversy from the start.",
-      "options": ["dogged","hounded","pursued","followed"],
-      "correctAnswer": "dogged",
-      "explanation": "'Dogged by controversy' is a common expression.",
-      "points": 1
-    },
-    {
-      "id": "c2-u7-b8-q10",
-      "type": "multiple-choice",
-      "question": "It is (10) ________ important that we act now.",
-      "options": ["paramount","pivotal","vital","crucial"],
-      "correctAnswer": "paramount",
-      "explanation": "'Paramount importance' is a strong C2 collocation.",
-      "points": 1
-    }
-  ]
-};
-
-export const C2_U7_BLOCK9: Exercise = {
-  "id": "c2-u7-b9",
-  "type": "vocabulary",
-  "title": "Part 1: Philosophy & Logic - Block 9",
-  "explanation": "Complete the text about specialized aspects of philosophy & logic.",
-  "questions": [
-    {
-      "id": "c2-u7-b9-q1",
-      "type": "multiple-choice",
-      "question": "His success is a (1) ________ to his hard work.",
-      "options": ["testament","witness","evidence","proof"],
-      "correctAnswer": "testament",
-      "explanation": "'Testament to' is a very common idiom.",
-      "points": 1
-    },
-    {
-      "id": "c2-u7-b9-q2",
-      "type": "multiple-choice",
-      "question": "The (2) ________ of the discovery was felt worldwide.",
-      "options": ["magnitude","impact","extent","scope"],
-      "correctAnswer": "magnitude",
-      "explanation": "'Magnitude' is used for the great size or importance of something.",
-      "points": 1
-    },
-    {
-      "id": "c2-u7-b9-q3",
-      "type": "multiple-choice",
-      "question": "He was (3) ________ by the sheer complexity of the task.",
-      "options": ["daunted","intimidated","cowed","appalled"],
-      "correctAnswer": "daunted",
-      "explanation": "'Daunted' means feeling slightly frightened or worried about your ability to achieve something.",
-      "points": 1
-    },
-    {
-      "id": "c2-u7-b9-q4",
-      "type": "multiple-choice",
-      "question": "The company has (4) ________ a reputation for excellence.",
-      "options": ["garnered","reaped","gleaned","harvested"],
-      "correctAnswer": "garnered",
-      "explanation": "'Garnered' is often used for collecting or gathering something like a reputation.",
-      "points": 1
-    },
-    {
-      "id": "c2-u7-b9-q5",
-      "type": "multiple-choice",
-      "question": "Such a move would be (5) ________ with significant risk.",
-      "options": ["fraught","laden","burdened","weighed"],
-      "correctAnswer": "fraught",
-      "explanation": "'Fraught with' is a standard collocation for something filled with something unpleasant.",
-      "points": 1
-    },
-    {
-      "id": "c2-u7-b9-q6",
-      "type": "multiple-choice",
-      "question": "The results (6) ________ our initial expectations.",
-      "options": ["surpassed","outstripped","exceeded","transcended"],
-      "correctAnswer": "surpassed",
-      "explanation": "'Surpassed' is common for going beyond expectations.",
-      "points": 1
-    },
-    {
-      "id": "c2-u7-b9-q7",
-      "type": "multiple-choice",
-      "question": "She has an (7) ________ ability to spot talent.",
-      "options": ["uncanny","eerie","weird","strange"],
-      "correctAnswer": "uncanny",
-      "explanation": "'Uncanny' refers to something strange or mysterious, especially in an unsettling way.",
-      "points": 1
-    },
-    {
-      "id": "c2-u7-b9-q8",
-      "type": "multiple-choice",
-      "question": "The policy was (8) ________ with controversy from the start.",
-      "options": ["dogged","hounded","pursued","followed"],
-      "correctAnswer": "dogged",
-      "explanation": "'Dogged by controversy' is a common expression.",
-      "points": 1
-    },
-    {
-      "id": "c2-u7-b9-q9",
-      "type": "multiple-choice",
-      "question": "It is (9) ________ important that we act now.",
-      "options": ["paramount","pivotal","vital","crucial"],
-      "correctAnswer": "paramount",
-      "explanation": "'Paramount importance' is a strong C2 collocation.",
-      "points": 1
-    },
-    {
-      "id": "c2-u7-b9-q10",
-      "type": "multiple-choice",
-      "question": "The (10) ________ of the situation became clear only later.",
-      "options": ["gravity","severity","seriousness","intensity"],
-      "correctAnswer": "gravity",
-      "explanation": "'Gravity' is used for the extreme importance or seriousness of a situation.",
-      "points": 1
-    }
-  ]
-};
-
-export const C2_U7_BLOCK10: Exercise = {
-  "id": "c2-u7-b10",
-  "type": "vocabulary",
-  "title": "Part 1: Philosophy & Logic - Block 10",
-  "explanation": "Complete the text about specialized aspects of philosophy & logic.",
-  "questions": [
-    {
-      "id": "c2-u7-b10-q1",
-      "type": "multiple-choice",
-      "question": "The (1) ________ of the discovery was felt worldwide.",
-      "options": ["magnitude","impact","extent","scope"],
-      "correctAnswer": "magnitude",
-      "explanation": "'Magnitude' is used for the great size or importance of something.",
-      "points": 1
-    },
-    {
-      "id": "c2-u7-b10-q2",
-      "type": "multiple-choice",
-      "question": "He was (2) ________ by the sheer complexity of the task.",
-      "options": ["daunted","intimidated","cowed","appalled"],
-      "correctAnswer": "daunted",
-      "explanation": "'Daunted' means feeling slightly frightened or worried about your ability to achieve something.",
-      "points": 1
-    },
-    {
-      "id": "c2-u7-b10-q3",
-      "type": "multiple-choice",
-      "question": "The company has (3) ________ a reputation for excellence.",
-      "options": ["garnered","reaped","gleaned","harvested"],
-      "correctAnswer": "garnered",
-      "explanation": "'Garnered' is often used for collecting or gathering something like a reputation.",
-      "points": 1
-    },
-    {
-      "id": "c2-u7-b10-q4",
-      "type": "multiple-choice",
-      "question": "Such a move would be (4) ________ with significant risk.",
-      "options": ["fraught","laden","burdened","weighed"],
-      "correctAnswer": "fraught",
-      "explanation": "'Fraught with' is a standard collocation for something filled with something unpleasant.",
-      "points": 1
-    },
-    {
-      "id": "c2-u7-b10-q5",
-      "type": "multiple-choice",
-      "question": "The results (5) ________ our initial expectations.",
-      "options": ["surpassed","outstripped","exceeded","transcended"],
-      "correctAnswer": "surpassed",
-      "explanation": "'Surpassed' is common for going beyond expectations.",
-      "points": 1
-    },
-    {
-      "id": "c2-u7-b10-q6",
-      "type": "multiple-choice",
-      "question": "She has an (6) ________ ability to spot talent.",
-      "options": ["uncanny","eerie","weird","strange"],
-      "correctAnswer": "uncanny",
-      "explanation": "'Uncanny' refers to something strange or mysterious, especially in an unsettling way.",
-      "points": 1
-    },
-    {
-      "id": "c2-u7-b10-q7",
-      "type": "multiple-choice",
-      "question": "The policy was (7) ________ with controversy from the start.",
-      "options": ["dogged","hounded","pursued","followed"],
-      "correctAnswer": "dogged",
-      "explanation": "'Dogged by controversy' is a common expression.",
-      "points": 1
-    },
-    {
-      "id": "c2-u7-b10-q8",
-      "type": "multiple-choice",
-      "question": "It is (8) ________ important that we act now.",
-      "options": ["paramount","pivotal","vital","crucial"],
-      "correctAnswer": "paramount",
-      "explanation": "'Paramount importance' is a strong C2 collocation.",
-      "points": 1
-    },
-    {
-      "id": "c2-u7-b10-q9",
-      "type": "multiple-choice",
-      "question": "The (9) ________ of the situation became clear only later.",
-      "options": ["gravity","severity","seriousness","intensity"],
-      "correctAnswer": "gravity",
-      "explanation": "'Gravity' is used for the extreme importance or seriousness of a situation.",
-      "points": 1
-    },
-    {
-      "id": "c2-u7-b10-q10",
-      "type": "multiple-choice",
-      "question": "His success is a (10) ________ to his hard work.",
-      "options": ["testament","witness","evidence","proof"],
-      "correctAnswer": "testament",
-      "explanation": "'Testament to' is a very common idiom.",
+      "question": "In the context of literature, choose the most appropriate word: \"Rarely has such a comprehensive analysis been published in a single volume...\"",
+      "options": [
+        "however",
+        "nevertheless",
+        "despite",
+        "although"
+      ],
+      "correctAnswer": "nevertheless",
+      "explanation": "La opción correcta es \"nevertheless\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     }
   ]
@@ -994,10 +807,15 @@ export const C2_U7_BLOCK10: Exercise = {
 
 export const C2_UNIT_7 = createC2Unit(
   'c2-u7',
-  'Reading & Use of English Part 1: Multiple-choice Cloze',
-  'Focus on Reading & Use of English Part 1: Multiple-choice Cloze.',
-  ["Master advanced collocations","Identify subtle lexical nuances","Practice fixed expressions"],
+  'What is Literature?',
+  'Advanced C2 level practice on literature.',
+  ["grammar","reading","listening","writing","speaking","vocabulary"],
   [
-    C2_U7_BLOCK1, C2_U7_BLOCK2, C2_U7_BLOCK3, C2_U7_BLOCK4, C2_U7_BLOCK5, C2_U7_BLOCK6, C2_U7_BLOCK7, C2_U7_BLOCK8, C2_U7_BLOCK9, C2_U7_BLOCK10
+    C2_U7_BLOCK1,
+    C2_U7_BLOCK2,
+    C2_U7_BLOCK3,
+    C2_U7_BLOCK4,
+    C2_U7_BLOCK5,
+    C2_U7_BLOCK6
   ]
 );
