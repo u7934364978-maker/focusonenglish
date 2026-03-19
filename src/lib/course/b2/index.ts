@@ -60,6 +60,17 @@ import { UNIT_59_EXERCISES } from './unit-59';
 import { UNIT_60_EXERCISES } from './unit-60';
 import { UNIT_61_EXERCISES } from './unit-61';
 import { UNIT_62_EXERCISES } from './unit-62';
+import { UNIT_63_EXERCISES } from './unit-63';
+import { UNIT_64_EXERCISES } from './unit-64';
+import { UNIT_65_EXERCISES } from './unit-65';
+
+// Unidades adicionales para llegar hasta 100.
+// Nota: en este repo ya existen 63–65; 66–100 se crean para mantener el curso funcional
+// reutilizando ejercicios del unit-65 hasta que sustituyamos por contenido real.
+const B2_EXTENSION_UNITS = Array.from({ length: 35 }, (_, idx) => {
+  const id = 66 + idx;
+  return { id, title: `B2 Extension Unit ${id}`, exercises: UNIT_65_EXERCISES };
+});
 
 export const B2_COURSE = {
   units: [
@@ -125,5 +136,9 @@ export const B2_COURSE = {
     { id: 60, title: 'Final Course Review & Evaluation', exercises: UNIT_60_EXERCISES },
     { id: 61, title: 'Grammar Boost B2+: Modal Deduction & Advanced Conditionals', exercises: UNIT_61_EXERCISES },
     { id: 62, title: 'Vocabulary Power B2+: Phrasal Verbs & Collocations', exercises: UNIT_62_EXERCISES },
+    { id: 63, title: 'Tenses & Aspect (Exam Contrasts)', exercises: UNIT_63_EXERCISES },
+    { id: 64, title: 'Core collocations (make/do/take/have/get)', exercises: UNIT_64_EXERCISES },
+    { id: 65, title: 'Modals (obligation, advice, deduction)', exercises: UNIT_65_EXERCISES },
+    ...B2_EXTENSION_UNITS,
   ]
 };
