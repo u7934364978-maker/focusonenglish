@@ -1,12 +1,15 @@
 /**
  * Unidad 100 B2 — Extension (provisional)
  *
- * Para mantener el curso funcional hasta el 100, esta unidad reutiliza ejercicios del unit-65.
- * Sustitúyela por contenido real cuando tengas los ejercicios para 100.
+ * Reutiliza ejercicios de la unidad 65 pero con IDs ajustados
+ * para evitar colisiones en tracking/export.
  */
 
 import { UNIT_65_EXERCISES } from './unit-65';
 
 export const UNIT_TITLE = 'B2 Extension Unit 100';
 
-export const UNIT_100_EXERCISES = UNIT_65_EXERCISES;
+export const UNIT_100_EXERCISES = UNIT_65_EXERCISES.map((ex) => ({
+  ...ex,
+  id: typeof ex.id === 'string' ? ex.id.replace(/^b2-u65-/, 'b2-u100-') : ex.id,
+}));
