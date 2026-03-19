@@ -1,200 +1,209 @@
-
 import { Exercise } from '../exercise-types';
 import { createC2Unit } from './utils';
 
 export const C2_U58_BLOCK1: Exercise = {
   "id": "c2-u58-b1",
-  "type": "vocabulary",
-  "title": "Speaking & Review: Grammar Review - Advanced Structures - Block 1",
-  "explanation": "Practice the functional language and strategies required for the C2 Speaking paper and final review.",
+  "type": "grammar",
+  "title": "Block 1: Grammar Input & Presentation",
+  "explanation": "Grammar Input & Presentation practice for \"CPE Exam Practice: Reading & Use of English\" — cpe-use-of-english",
   "questions": [
     {
       "id": "c2-u58-b1-q1",
-      "type": "fill-blank",
-      "question": "In Speaking Part 2, when looking at pictures, you should ________ about what might be happening.",
-      
-      "correctAnswer": "speculate",
-      "explanation": "Speculation is a key skill in Part 2.",
-      "points": 1
+      "type": "key-word-transformation",
+      "question": "The experiment was so complex that only specialists could replicate it.",
+      "sentence": "The experiment was so complex that only specialists could replicate it.",
+      "keyWord": "SUCH",
+      "startOfAnswer": "Such was the complexity",
+      "correctAnswer": "Such was the complexity of the experiment that only specialists could replicate it.",
+      "explanation": "La inversión con \"Such was...\" enfatiza el grado de la cualidad.",
+      "points": 2
     },
     {
       "id": "c2-u58-b1-q2",
-      "type": "multiple-choice",
-      "question": "Which phrase is best for reaching a decision in Part 2?",
-      "options": ["I don't care","Let's go for this one, then","It's all the same to me","Whatever"],
-      "correctAnswer": "Let's go for this one, then",
-      "explanation": "This is a natural way to conclude a negotiation.",
-      "points": 1
+      "type": "key-word-transformation",
+      "question": "The lawyers argued that the contract was invalid.",
+      "sentence": "The lawyers argued that the contract was invalid.",
+      "keyWord": "GROUNDS",
+      "startOfAnswer": "The lawyers challenged the contract on",
+      "correctAnswer": "The lawyers challenged the contract on the grounds that it was invalid.",
+      "explanation": "\"On the grounds that\" es una expresión formal para introducir una razón legal.",
+      "points": 2
     },
     {
       "id": "c2-u58-b1-q3",
-      "type": "fill-blank",
-      "question": "In Speaking Part 3, you are given a ________ with three points to discuss.",
-      
-      "correctAnswer": "card",
-      "explanation": "Part 3 involves a long turn based on a prompt card.",
-      "points": 1
+      "type": "key-word-transformation",
+      "question": "They rarely achieve such consistent results in laboratory conditions.",
+      "sentence": "They rarely achieve such consistent results in laboratory conditions.",
+      "keyWord": "SELDOM",
+      "startOfAnswer": "Seldom do they",
+      "correctAnswer": "Seldom do they achieve such consistent results in laboratory conditions.",
+      "explanation": "Con adverbios negativos como \"seldom\" se invierte sujeto y auxiliar.",
+      "points": 2
     },
     {
       "id": "c2-u58-b1-q4",
-      "type": "multiple-choice",
-      "question": "What is the best way to organize a long turn?",
-      "options": ["Start with the hardest point","Jump between points randomly","Use discourse markers like 'firstly', 'moreover', 'consequently'","Speak as fast as possible"],
-      "correctAnswer": "Use discourse markers like 'firstly', 'moreover', 'consequently'",
-      "explanation": "Discourse markers provide structure and coherence.",
-      "points": 1
+      "type": "key-word-transformation",
+      "question": "The author finished writing the novel over a period of ten years.",
+      "sentence": "The author finished writing the novel over a period of ten years.",
+      "keyWord": "TOOK",
+      "startOfAnswer": "It took the author",
+      "correctAnswer": "It took the author ten years to finish writing the novel.",
+      "explanation": "\"It took + person + time + to-infinitive\" indica duración de una actividad.",
+      "points": 2
     },
     {
       "id": "c2-u58-b1-q5",
-      "type": "fill-blank",
-      "question": "After your long turn, the other candidate will be asked a ________-up question.",
-      
-      "correctAnswer": "follow",
-      "explanation": "Candidates must comment on each other's long turns.",
-      "points": 1
+      "type": "key-word-transformation",
+      "question": "It was only after the meeting that she understood the full implications.",
+      "sentence": "It was only after the meeting that she understood the full implications.",
+      "keyWord": "UNTIL",
+      "startOfAnswer": "She did not understand the full implications",
+      "correctAnswer": "She did not understand the full implications until after the meeting.",
+      "explanation": "Se usa \"until\" para indicar el límite temporal de una acción negativa.",
+      "points": 2
     },
     {
       "id": "c2-u58-b1-q6",
-      "type": "multiple-choice",
-      "question": "Which of these is an idiomatic way to say you are very busy?",
-      "options": ["I am busy","I am snowed under","I have things to do","I am working"],
-      "correctAnswer": "I am snowed under",
-      "explanation": "'Snowed under' is a common C2-level idiom.",
-      "points": 1
+      "type": "key-word-transformation",
+      "question": "The researcher claims that the results are conclusive.",
+      "sentence": "The researcher claims that the results are conclusive.",
+      "keyWord": "ACCORDING",
+      "startOfAnswer": "According to",
+      "correctAnswer": "According to the researcher, the results are conclusive.",
+      "explanation": "\"According to\" se usa para atribuir una afirmación a alguien.",
+      "points": 2
     },
     {
       "id": "c2-u58-b1-q7",
-      "type": "fill-blank",
-      "question": "The term 'lingua ________' refers to a language used as a common means of communication.",
-      
-      "correctAnswer": "franca",
-      "explanation": "Lingua franca is a term often used in discussions about English.",
-      "points": 1
+      "type": "key-word-transformation",
+      "question": "Despite the difficulties, they managed to complete the project.",
+      "sentence": "Despite the difficulties, they managed to complete the project.",
+      "keyWord": "NOTWITHSTANDING",
+      "startOfAnswer": "Notwithstanding the difficulties,",
+      "correctAnswer": "Notwithstanding the difficulties, they managed to complete the project.",
+      "explanation": "\"Notwithstanding\" es un conector formal equivalente a \"despite\".",
+      "points": 2
     },
     {
       "id": "c2-u58-b1-q8",
-      "type": "multiple-choice",
-      "question": "What should you do if you make a mistake while speaking?",
-      "options": ["Stop speaking immediately","Correct yourself if you can, otherwise continue naturally","Cry","Apologize for five minutes"],
-      "correctAnswer": "Correct yourself if you can, otherwise continue naturally",
-      "explanation": "Self-correction is part of fluency, but don't let it derail you.",
-      "points": 1
+      "type": "key-word-transformation",
+      "question": "Nobody expected the proposal to be accepted so quickly.",
+      "sentence": "Nobody expected the proposal to be accepted so quickly.",
+      "keyWord": "SURPRISE",
+      "startOfAnswer": "It came as a surprise",
+      "correctAnswer": "It came as a surprise that the proposal was accepted so quickly.",
+      "explanation": "La construcción \"it came as a surprise that\" expresa sorpresa de forma impersonal.",
+      "points": 2
     },
     {
       "id": "c2-u58-b1-q9",
-      "type": "fill-blank",
-      "question": "In the final review, it's important to ________ key collocations and idioms.",
-      
-      "correctAnswer": "consolidate",
-      "explanation": "Consolidation is key for long-term retention.",
-      "points": 1
+      "type": "key-word-transformation",
+      "question": "The government should have acted sooner to prevent the crisis.",
+      "sentence": "The government should have acted sooner to prevent the crisis.",
+      "keyWord": "EARLIER",
+      "startOfAnswer": "Had the government acted",
+      "correctAnswer": "Had the government acted earlier, the crisis could have been prevented.",
+      "explanation": "La inversión en condicionales tipo 3: \"Had + sujeto + participio\".",
+      "points": 2
     },
     {
       "id": "c2-u58-b1-q10",
-      "type": "multiple-choice",
-      "question": "In Speaking Part 1, how should you answer personal questions?",
-      "options": ["With one-word answers","With short, simple sentences","With extended, complex responses","By staying silent"],
-      "correctAnswer": "With extended, complex responses",
-      "explanation": "At C2 level, you must demonstrate range and complexity even in Part 1.",
-      "points": 1
+      "type": "key-word-transformation",
+      "question": "She is considered one of the most influential thinkers of her generation.",
+      "sentence": "She is considered one of the most influential thinkers of her generation.",
+      "keyWord": "WIDELY",
+      "startOfAnswer": "She is widely",
+      "correctAnswer": "She is widely regarded as one of the most influential thinkers of her generation.",
+      "explanation": "\"Widely regarded as\" es una colocación formal para expresar reconocimiento general.",
+      "points": 2
     }
   ]
 };
 
 export const C2_U58_BLOCK2: Exercise = {
   "id": "c2-u58-b2",
-  "type": "vocabulary",
-  "title": "Speaking & Review: Grammar Review - Advanced Structures - Block 2",
-  "explanation": "Practice the functional language and strategies required for the C2 Speaking paper and final review.",
+  "type": "grammar-context",
+  "title": "Block 2: Grammar in Context / Collocations",
+  "explanation": "Grammar in Context / Collocations practice for \"CPE Exam Practice: Reading & Use of English\" — cpe-use-of-english",
   "questions": [
     {
       "id": "c2-u58-b2-q1",
-      "type": "multiple-choice",
-      "question": "Which phrase is best for reaching a decision in Part 2?",
-      "options": ["I don't care","Let's go for this one, then","It's all the same to me","Whatever"],
-      "correctAnswer": "Let's go for this one, then",
-      "explanation": "This is a natural way to conclude a negotiation.",
+      "type": "open-cloze",
+      "question": "The argument falls _____ upon closer examination.",
+      "correctAnswer": "apart",
+      "explanation": "\"Fall apart\" en contexto argumentativo significa desmoronarse bajo análisis.",
       "points": 1
     },
     {
       "id": "c2-u58-b2-q2",
-      "type": "fill-blank",
-      "question": "In Speaking Part 3, you are given a ________ with three points to discuss.",
-      
-      "correctAnswer": "card",
-      "explanation": "Part 3 involves a long turn based on a prompt card.",
+      "type": "open-cloze",
+      "question": "The policy has come _____ considerable criticism from opposition parties.",
+      "correctAnswer": "under",
+      "explanation": "\"Come under criticism\" es una colocación fija: recibir críticas.",
       "points": 1
     },
     {
       "id": "c2-u58-b2-q3",
-      "type": "multiple-choice",
-      "question": "What is the best way to organize a long turn?",
-      "options": ["Start with the hardest point","Jump between points randomly","Use discourse markers like 'firstly', 'moreover', 'consequently'","Speak as fast as possible"],
-      "correctAnswer": "Use discourse markers like 'firstly', 'moreover', 'consequently'",
-      "explanation": "Discourse markers provide structure and coherence.",
+      "type": "open-cloze",
+      "question": "It is _____ no means certain that the proposal will be approved.",
+      "correctAnswer": "by",
+      "explanation": "\"By no means\" es una locución formal que significa \"en absoluto\".",
       "points": 1
     },
     {
       "id": "c2-u58-b2-q4",
-      "type": "fill-blank",
-      "question": "After your long turn, the other candidate will be asked a ________-up question.",
-      
-      "correctAnswer": "follow",
-      "explanation": "Candidates must comment on each other's long turns.",
+      "type": "open-cloze",
+      "question": "The findings shed light _____ the long-debated question of consciousness.",
+      "correctAnswer": "on",
+      "explanation": "\"Shed light on\" significa arrojar luz sobre algo, aclarar.",
       "points": 1
     },
     {
       "id": "c2-u58-b2-q5",
-      "type": "multiple-choice",
-      "question": "Which of these is an idiomatic way to say you are very busy?",
-      "options": ["I am busy","I am snowed under","I have things to do","I am working"],
-      "correctAnswer": "I am snowed under",
-      "explanation": "'Snowed under' is a common C2-level idiom.",
+      "type": "open-cloze",
+      "question": "She was at a _____ to explain the unexpected results.",
+      "correctAnswer": "loss",
+      "explanation": "\"At a loss\" significa sin saber qué decir o hacer.",
       "points": 1
     },
     {
       "id": "c2-u58-b2-q6",
-      "type": "fill-blank",
-      "question": "The term 'lingua ________' refers to a language used as a common means of communication.",
-      
-      "correctAnswer": "franca",
-      "explanation": "Lingua franca is a term often used in discussions about English.",
+      "type": "open-cloze",
+      "question": "The committee took _____ account the concerns raised by local residents.",
+      "correctAnswer": "into",
+      "explanation": "\"Take into account\" significa tener en cuenta.",
       "points": 1
     },
     {
       "id": "c2-u58-b2-q7",
-      "type": "multiple-choice",
-      "question": "What should you do if you make a mistake while speaking?",
-      "options": ["Stop speaking immediately","Correct yourself if you can, otherwise continue naturally","Cry","Apologize for five minutes"],
-      "correctAnswer": "Correct yourself if you can, otherwise continue naturally",
-      "explanation": "Self-correction is part of fluency, but don't let it derail you.",
+      "type": "open-cloze",
+      "question": "The research was carried _____ over a period of three years.",
+      "correctAnswer": "out",
+      "explanation": "\"Carry out\" significa realizar, ejecutar.",
       "points": 1
     },
     {
       "id": "c2-u58-b2-q8",
-      "type": "fill-blank",
-      "question": "In the final review, it's important to ________ key collocations and idioms.",
-      
-      "correctAnswer": "consolidate",
-      "explanation": "Consolidation is key for long-term retention.",
+      "type": "open-cloze",
+      "question": "In _____ of the recent developments, a review of policy is necessary.",
+      "correctAnswer": "light",
+      "explanation": "\"In light of\" significa a la luz de, teniendo en cuenta.",
       "points": 1
     },
     {
       "id": "c2-u58-b2-q9",
-      "type": "multiple-choice",
-      "question": "In Speaking Part 1, how should you answer personal questions?",
-      "options": ["With one-word answers","With short, simple sentences","With extended, complex responses","By staying silent"],
-      "correctAnswer": "With extended, complex responses",
-      "explanation": "At C2 level, you must demonstrate range and complexity even in Part 1.",
+      "type": "open-cloze",
+      "question": "The government was called _____ to justify its decision.",
+      "correctAnswer": "upon",
+      "explanation": "\"Called upon to\" significa pedido/invitado formalmente a.",
       "points": 1
     },
     {
       "id": "c2-u58-b2-q10",
-      "type": "fill-blank",
-      "question": "In Speaking Part 2, when looking at pictures, you should ________ about what might be happening.",
-      
-      "correctAnswer": "speculate",
-      "explanation": "Speculation is a key skill in Part 2.",
+      "type": "open-cloze",
+      "question": "The treaty was drawn _____ after months of negotiations.",
+      "correctAnswer": "up",
+      "explanation": "\"Draw up\" significa redactar un documento oficial.",
       "points": 1
     }
   ]
@@ -202,98 +211,148 @@ export const C2_U58_BLOCK2: Exercise = {
 
 export const C2_U58_BLOCK3: Exercise = {
   "id": "c2-u58-b3",
-  "type": "vocabulary",
-  "title": "Speaking & Review: Grammar Review - Advanced Structures - Block 3",
-  "explanation": "Practice the functional language and strategies required for the C2 Speaking paper and final review.",
+  "type": "reading",
+  "title": "Block 3: Reading Comprehension (C2 Text)",
+  "explanation": "Reading Comprehension (C2 Text) practice for \"CPE Exam Practice: Reading & Use of English\" — cpe-use-of-english",
   "questions": [
     {
       "id": "c2-u58-b3-q1",
-      "type": "fill-blank",
-      "question": "In Speaking Part 3, you are given a ________ with three points to discuss.",
-      
-      "correctAnswer": "card",
-      "explanation": "Part 3 involves a long turn based on a prompt card.",
+      "type": "multiple-choice",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"The report highlights the extent to which economic inequality perpetuates social immobility...\"",
+      "options": [
+        "mitigate",
+        "alleviate",
+        "diminish",
+        "reduce"
+      ],
+      "correctAnswer": "mitigate",
+      "explanation": "La opción correcta es \"mitigate\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u58-b3-q2",
       "type": "multiple-choice",
-      "question": "What is the best way to organize a long turn?",
-      "options": ["Start with the hardest point","Jump between points randomly","Use discourse markers like 'firstly', 'moreover', 'consequently'","Speak as fast as possible"],
-      "correctAnswer": "Use discourse markers like 'firstly', 'moreover', 'consequently'",
-      "explanation": "Discourse markers provide structure and coherence.",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"Rarely has such a comprehensive analysis been published in a single volume...\"",
+      "options": [
+        "pervasive",
+        "widespread",
+        "rampant",
+        "endemic"
+      ],
+      "correctAnswer": "pervasive",
+      "explanation": "La opción correcta es \"pervasive\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u58-b3-q3",
-      "type": "fill-blank",
-      "question": "After your long turn, the other candidate will be asked a ________-up question.",
-      
-      "correctAnswer": "follow",
-      "explanation": "Candidates must comment on each other's long turns.",
+      "type": "multiple-choice",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"It remains to be seen whether the proposed reforms will have the desired effect...\"",
+      "options": [
+        "ambiguous",
+        "equivocal",
+        "vague",
+        "opaque"
+      ],
+      "correctAnswer": "equivocal",
+      "explanation": "La opción correcta es \"equivocal\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u58-b3-q4",
       "type": "multiple-choice",
-      "question": "Which of these is an idiomatic way to say you are very busy?",
-      "options": ["I am busy","I am snowed under","I have things to do","I am working"],
-      "correctAnswer": "I am snowed under",
-      "explanation": "'Snowed under' is a common C2-level idiom.",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"So complex is the relationship between language and thought that researchers continue to debate its nature...\"",
+      "options": [
+        "undermine",
+        "erode",
+        "diminish",
+        "weaken"
+      ],
+      "correctAnswer": "undermine",
+      "explanation": "La opción correcta es \"undermine\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u58-b3-q5",
-      "type": "fill-blank",
-      "question": "The term 'lingua ________' refers to a language used as a common means of communication.",
-      
-      "correctAnswer": "franca",
-      "explanation": "Lingua franca is a term often used in discussions about English.",
+      "type": "multiple-choice",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"The committee decided to postpone the meeting until further notice...\"",
+      "options": [
+        "contentious",
+        "controversial",
+        "debatable",
+        "disputed"
+      ],
+      "correctAnswer": "contentious",
+      "explanation": "La opción correcta es \"contentious\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u58-b3-q6",
       "type": "multiple-choice",
-      "question": "What should you do if you make a mistake while speaking?",
-      "options": ["Stop speaking immediately","Correct yourself if you can, otherwise continue naturally","Cry","Apologize for five minutes"],
-      "correctAnswer": "Correct yourself if you can, otherwise continue naturally",
-      "explanation": "Self-correction is part of fluency, but don't let it derail you.",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"It is widely believed that language shapes our perception of reality...\"",
+      "options": [
+        "ostensibly",
+        "apparently",
+        "seemingly",
+        "purportedly"
+      ],
+      "correctAnswer": "ostensibly",
+      "explanation": "La opción correcta es \"ostensibly\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u58-b3-q7",
-      "type": "fill-blank",
-      "question": "In the final review, it's important to ________ key collocations and idioms.",
-      
-      "correctAnswer": "consolidate",
-      "explanation": "Consolidation is key for long-term retention.",
+      "type": "multiple-choice",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"Not only did the author challenge conventional views, but she also proposed radical alternatives...\"",
+      "options": [
+        "profoundly",
+        "utterly",
+        "considerably",
+        "remarkably"
+      ],
+      "correctAnswer": "considerably",
+      "explanation": "La opción correcta es \"considerably\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u58-b3-q8",
       "type": "multiple-choice",
-      "question": "In Speaking Part 1, how should you answer personal questions?",
-      "options": ["With one-word answers","With short, simple sentences","With extended, complex responses","By staying silent"],
-      "correctAnswer": "With extended, complex responses",
-      "explanation": "At C2 level, you must demonstrate range and complexity even in Part 1.",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"The government has been accused of failing to address the underlying causes of the crisis...\"",
+      "options": [
+        "however",
+        "nevertheless",
+        "despite",
+        "although"
+      ],
+      "correctAnswer": "nevertheless",
+      "explanation": "La opción correcta es \"nevertheless\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u58-b3-q9",
-      "type": "fill-blank",
-      "question": "In Speaking Part 2, when looking at pictures, you should ________ about what might be happening.",
-      
-      "correctAnswer": "speculate",
-      "explanation": "Speculation is a key skill in Part 2.",
+      "type": "multiple-choice",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"Had the delegates arrived on time, the negotiations would have proceeded smoothly...\"",
+      "options": [
+        "scrutinise",
+        "examine",
+        "verify",
+        "investigate"
+      ],
+      "correctAnswer": "scrutinise",
+      "explanation": "La opción correcta es \"scrutinise\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u58-b3-q10",
       "type": "multiple-choice",
-      "question": "Which phrase is best for reaching a decision in Part 2?",
-      "options": ["I don't care","Let's go for this one, then","It's all the same to me","Whatever"],
-      "correctAnswer": "Let's go for this one, then",
-      "explanation": "This is a natural way to conclude a negotiation.",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"There is a growing body of evidence suggesting that bilingualism enhances cognitive flexibility...\"",
+      "options": [
+        "endorsed",
+        "advocated",
+        "upheld",
+        "championed"
+      ],
+      "correctAnswer": "upheld",
+      "explanation": "La opción correcta es \"upheld\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     }
   ]
@@ -301,98 +360,148 @@ export const C2_U58_BLOCK3: Exercise = {
 
 export const C2_U58_BLOCK4: Exercise = {
   "id": "c2-u58-b4",
-  "type": "vocabulary",
-  "title": "Speaking & Review: Grammar Review - Advanced Structures - Block 4",
-  "explanation": "Practice the functional language and strategies required for the C2 Speaking paper and final review.",
+  "type": "listening",
+  "title": "Block 4: Listening / Discourse Management",
+  "explanation": "Listening / Discourse Management practice for \"CPE Exam Practice: Reading & Use of English\" — cpe-use-of-english",
   "questions": [
     {
       "id": "c2-u58-b4-q1",
       "type": "multiple-choice",
-      "question": "What is the best way to organize a long turn?",
-      "options": ["Start with the hardest point","Jump between points randomly","Use discourse markers like 'firstly', 'moreover', 'consequently'","Speak as fast as possible"],
-      "correctAnswer": "Use discourse markers like 'firstly', 'moreover', 'consequently'",
-      "explanation": "Discourse markers provide structure and coherence.",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"So complex is the relationship between language and thought that researchers continue to debate its nature...\"",
+      "options": [
+        "pervasive",
+        "widespread",
+        "rampant",
+        "endemic"
+      ],
+      "correctAnswer": "pervasive",
+      "explanation": "La opción correcta es \"pervasive\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u58-b4-q2",
-      "type": "fill-blank",
-      "question": "After your long turn, the other candidate will be asked a ________-up question.",
-      
-      "correctAnswer": "follow",
-      "explanation": "Candidates must comment on each other's long turns.",
+      "type": "multiple-choice",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"The committee decided to postpone the meeting until further notice...\"",
+      "options": [
+        "ambiguous",
+        "equivocal",
+        "vague",
+        "opaque"
+      ],
+      "correctAnswer": "equivocal",
+      "explanation": "La opción correcta es \"equivocal\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u58-b4-q3",
       "type": "multiple-choice",
-      "question": "Which of these is an idiomatic way to say you are very busy?",
-      "options": ["I am busy","I am snowed under","I have things to do","I am working"],
-      "correctAnswer": "I am snowed under",
-      "explanation": "'Snowed under' is a common C2-level idiom.",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"It is widely believed that language shapes our perception of reality...\"",
+      "options": [
+        "undermine",
+        "erode",
+        "diminish",
+        "weaken"
+      ],
+      "correctAnswer": "undermine",
+      "explanation": "La opción correcta es \"undermine\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u58-b4-q4",
-      "type": "fill-blank",
-      "question": "The term 'lingua ________' refers to a language used as a common means of communication.",
-      
-      "correctAnswer": "franca",
-      "explanation": "Lingua franca is a term often used in discussions about English.",
+      "type": "multiple-choice",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"Not only did the author challenge conventional views, but she also proposed radical alternatives...\"",
+      "options": [
+        "contentious",
+        "controversial",
+        "debatable",
+        "disputed"
+      ],
+      "correctAnswer": "contentious",
+      "explanation": "La opción correcta es \"contentious\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u58-b4-q5",
       "type": "multiple-choice",
-      "question": "What should you do if you make a mistake while speaking?",
-      "options": ["Stop speaking immediately","Correct yourself if you can, otherwise continue naturally","Cry","Apologize for five minutes"],
-      "correctAnswer": "Correct yourself if you can, otherwise continue naturally",
-      "explanation": "Self-correction is part of fluency, but don't let it derail you.",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"The government has been accused of failing to address the underlying causes of the crisis...\"",
+      "options": [
+        "ostensibly",
+        "apparently",
+        "seemingly",
+        "purportedly"
+      ],
+      "correctAnswer": "ostensibly",
+      "explanation": "La opción correcta es \"ostensibly\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u58-b4-q6",
-      "type": "fill-blank",
-      "question": "In the final review, it's important to ________ key collocations and idioms.",
-      
-      "correctAnswer": "consolidate",
-      "explanation": "Consolidation is key for long-term retention.",
+      "type": "multiple-choice",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"Had the delegates arrived on time, the negotiations would have proceeded smoothly...\"",
+      "options": [
+        "profoundly",
+        "utterly",
+        "considerably",
+        "remarkably"
+      ],
+      "correctAnswer": "considerably",
+      "explanation": "La opción correcta es \"considerably\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u58-b4-q7",
       "type": "multiple-choice",
-      "question": "In Speaking Part 1, how should you answer personal questions?",
-      "options": ["With one-word answers","With short, simple sentences","With extended, complex responses","By staying silent"],
-      "correctAnswer": "With extended, complex responses",
-      "explanation": "At C2 level, you must demonstrate range and complexity even in Part 1.",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"There is a growing body of evidence suggesting that bilingualism enhances cognitive flexibility...\"",
+      "options": [
+        "however",
+        "nevertheless",
+        "despite",
+        "although"
+      ],
+      "correctAnswer": "nevertheless",
+      "explanation": "La opción correcta es \"nevertheless\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u58-b4-q8",
-      "type": "fill-blank",
-      "question": "In Speaking Part 2, when looking at pictures, you should ________ about what might be happening.",
-      
-      "correctAnswer": "speculate",
-      "explanation": "Speculation is a key skill in Part 2.",
+      "type": "multiple-choice",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"The report highlights the extent to which economic inequality perpetuates social immobility...\"",
+      "options": [
+        "scrutinise",
+        "examine",
+        "verify",
+        "investigate"
+      ],
+      "correctAnswer": "scrutinise",
+      "explanation": "La opción correcta es \"scrutinise\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u58-b4-q9",
       "type": "multiple-choice",
-      "question": "Which phrase is best for reaching a decision in Part 2?",
-      "options": ["I don't care","Let's go for this one, then","It's all the same to me","Whatever"],
-      "correctAnswer": "Let's go for this one, then",
-      "explanation": "This is a natural way to conclude a negotiation.",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"Rarely has such a comprehensive analysis been published in a single volume...\"",
+      "options": [
+        "endorsed",
+        "advocated",
+        "upheld",
+        "championed"
+      ],
+      "correctAnswer": "upheld",
+      "explanation": "La opción correcta es \"upheld\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u58-b4-q10",
-      "type": "fill-blank",
-      "question": "In Speaking Part 3, you are given a ________ with three points to discuss.",
-      
-      "correctAnswer": "card",
-      "explanation": "Part 3 involves a long turn based on a prompt card.",
+      "type": "multiple-choice",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"It remains to be seen whether the proposed reforms will have the desired effect...\"",
+      "options": [
+        "mitigate",
+        "alleviate",
+        "diminish",
+        "reduce"
+      ],
+      "correctAnswer": "mitigate",
+      "explanation": "La opción correcta es \"mitigate\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     }
   ]
@@ -400,98 +509,148 @@ export const C2_U58_BLOCK4: Exercise = {
 
 export const C2_U58_BLOCK5: Exercise = {
   "id": "c2-u58-b5",
-  "type": "vocabulary",
-  "title": "Speaking & Review: Grammar Review - Advanced Structures - Block 5",
-  "explanation": "Practice the functional language and strategies required for the C2 Speaking paper and final review.",
+  "type": "writing",
+  "title": "Block 5: Writing Practice (Genre-specific)",
+  "explanation": "Writing Practice (Genre-specific) practice for \"CPE Exam Practice: Reading & Use of English\" — cpe-use-of-english",
   "questions": [
     {
       "id": "c2-u58-b5-q1",
-      "type": "fill-blank",
-      "question": "After your long turn, the other candidate will be asked a ________-up question.",
-      
-      "correctAnswer": "follow",
-      "explanation": "Candidates must comment on each other's long turns.",
+      "type": "multiple-choice",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"Not only did the author challenge conventional views, but she also proposed radical alternatives...\"",
+      "options": [
+        "ambiguous",
+        "equivocal",
+        "vague",
+        "opaque"
+      ],
+      "correctAnswer": "equivocal",
+      "explanation": "La opción correcta es \"equivocal\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u58-b5-q2",
       "type": "multiple-choice",
-      "question": "Which of these is an idiomatic way to say you are very busy?",
-      "options": ["I am busy","I am snowed under","I have things to do","I am working"],
-      "correctAnswer": "I am snowed under",
-      "explanation": "'Snowed under' is a common C2-level idiom.",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"The government has been accused of failing to address the underlying causes of the crisis...\"",
+      "options": [
+        "undermine",
+        "erode",
+        "diminish",
+        "weaken"
+      ],
+      "correctAnswer": "undermine",
+      "explanation": "La opción correcta es \"undermine\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u58-b5-q3",
-      "type": "fill-blank",
-      "question": "The term 'lingua ________' refers to a language used as a common means of communication.",
-      
-      "correctAnswer": "franca",
-      "explanation": "Lingua franca is a term often used in discussions about English.",
+      "type": "multiple-choice",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"Had the delegates arrived on time, the negotiations would have proceeded smoothly...\"",
+      "options": [
+        "contentious",
+        "controversial",
+        "debatable",
+        "disputed"
+      ],
+      "correctAnswer": "contentious",
+      "explanation": "La opción correcta es \"contentious\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u58-b5-q4",
       "type": "multiple-choice",
-      "question": "What should you do if you make a mistake while speaking?",
-      "options": ["Stop speaking immediately","Correct yourself if you can, otherwise continue naturally","Cry","Apologize for five minutes"],
-      "correctAnswer": "Correct yourself if you can, otherwise continue naturally",
-      "explanation": "Self-correction is part of fluency, but don't let it derail you.",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"There is a growing body of evidence suggesting that bilingualism enhances cognitive flexibility...\"",
+      "options": [
+        "ostensibly",
+        "apparently",
+        "seemingly",
+        "purportedly"
+      ],
+      "correctAnswer": "ostensibly",
+      "explanation": "La opción correcta es \"ostensibly\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u58-b5-q5",
-      "type": "fill-blank",
-      "question": "In the final review, it's important to ________ key collocations and idioms.",
-      
-      "correctAnswer": "consolidate",
-      "explanation": "Consolidation is key for long-term retention.",
+      "type": "multiple-choice",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"The report highlights the extent to which economic inequality perpetuates social immobility...\"",
+      "options": [
+        "profoundly",
+        "utterly",
+        "considerably",
+        "remarkably"
+      ],
+      "correctAnswer": "considerably",
+      "explanation": "La opción correcta es \"considerably\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u58-b5-q6",
       "type": "multiple-choice",
-      "question": "In Speaking Part 1, how should you answer personal questions?",
-      "options": ["With one-word answers","With short, simple sentences","With extended, complex responses","By staying silent"],
-      "correctAnswer": "With extended, complex responses",
-      "explanation": "At C2 level, you must demonstrate range and complexity even in Part 1.",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"Rarely has such a comprehensive analysis been published in a single volume...\"",
+      "options": [
+        "however",
+        "nevertheless",
+        "despite",
+        "although"
+      ],
+      "correctAnswer": "nevertheless",
+      "explanation": "La opción correcta es \"nevertheless\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u58-b5-q7",
-      "type": "fill-blank",
-      "question": "In Speaking Part 2, when looking at pictures, you should ________ about what might be happening.",
-      
-      "correctAnswer": "speculate",
-      "explanation": "Speculation is a key skill in Part 2.",
+      "type": "multiple-choice",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"It remains to be seen whether the proposed reforms will have the desired effect...\"",
+      "options": [
+        "scrutinise",
+        "examine",
+        "verify",
+        "investigate"
+      ],
+      "correctAnswer": "scrutinise",
+      "explanation": "La opción correcta es \"scrutinise\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u58-b5-q8",
       "type": "multiple-choice",
-      "question": "Which phrase is best for reaching a decision in Part 2?",
-      "options": ["I don't care","Let's go for this one, then","It's all the same to me","Whatever"],
-      "correctAnswer": "Let's go for this one, then",
-      "explanation": "This is a natural way to conclude a negotiation.",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"So complex is the relationship between language and thought that researchers continue to debate its nature...\"",
+      "options": [
+        "endorsed",
+        "advocated",
+        "upheld",
+        "championed"
+      ],
+      "correctAnswer": "upheld",
+      "explanation": "La opción correcta es \"upheld\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u58-b5-q9",
-      "type": "fill-blank",
-      "question": "In Speaking Part 3, you are given a ________ with three points to discuss.",
-      
-      "correctAnswer": "card",
-      "explanation": "Part 3 involves a long turn based on a prompt card.",
+      "type": "multiple-choice",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"The committee decided to postpone the meeting until further notice...\"",
+      "options": [
+        "mitigate",
+        "alleviate",
+        "diminish",
+        "reduce"
+      ],
+      "correctAnswer": "mitigate",
+      "explanation": "La opción correcta es \"mitigate\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u58-b5-q10",
       "type": "multiple-choice",
-      "question": "What is the best way to organize a long turn?",
-      "options": ["Start with the hardest point","Jump between points randomly","Use discourse markers like 'firstly', 'moreover', 'consequently'","Speak as fast as possible"],
-      "correctAnswer": "Use discourse markers like 'firstly', 'moreover', 'consequently'",
-      "explanation": "Discourse markers provide structure and coherence.",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"It is widely believed that language shapes our perception of reality...\"",
+      "options": [
+        "pervasive",
+        "widespread",
+        "rampant",
+        "endemic"
+      ],
+      "correctAnswer": "pervasive",
+      "explanation": "La opción correcta es \"pervasive\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     }
   ]
@@ -499,494 +658,148 @@ export const C2_U58_BLOCK5: Exercise = {
 
 export const C2_U58_BLOCK6: Exercise = {
   "id": "c2-u58-b6",
-  "type": "vocabulary",
-  "title": "Speaking & Review: Grammar Review - Advanced Structures - Block 6",
-  "explanation": "Practice the functional language and strategies required for the C2 Speaking paper and final review.",
+  "type": "speaking",
+  "title": "Block 6: Speaking / Review / Integration",
+  "explanation": "Speaking / Review / Integration practice for \"CPE Exam Practice: Reading & Use of English\" — cpe-use-of-english",
   "questions": [
     {
       "id": "c2-u58-b6-q1",
       "type": "multiple-choice",
-      "question": "Which of these is an idiomatic way to say you are very busy?",
-      "options": ["I am busy","I am snowed under","I have things to do","I am working"],
-      "correctAnswer": "I am snowed under",
-      "explanation": "'Snowed under' is a common C2-level idiom.",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"There is a growing body of evidence suggesting that bilingualism enhances cognitive flexibility...\"",
+      "options": [
+        "undermine",
+        "erode",
+        "diminish",
+        "weaken"
+      ],
+      "correctAnswer": "undermine",
+      "explanation": "La opción correcta es \"undermine\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u58-b6-q2",
-      "type": "fill-blank",
-      "question": "The term 'lingua ________' refers to a language used as a common means of communication.",
-      
-      "correctAnswer": "franca",
-      "explanation": "Lingua franca is a term often used in discussions about English.",
+      "type": "multiple-choice",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"The report highlights the extent to which economic inequality perpetuates social immobility...\"",
+      "options": [
+        "contentious",
+        "controversial",
+        "debatable",
+        "disputed"
+      ],
+      "correctAnswer": "contentious",
+      "explanation": "La opción correcta es \"contentious\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u58-b6-q3",
       "type": "multiple-choice",
-      "question": "What should you do if you make a mistake while speaking?",
-      "options": ["Stop speaking immediately","Correct yourself if you can, otherwise continue naturally","Cry","Apologize for five minutes"],
-      "correctAnswer": "Correct yourself if you can, otherwise continue naturally",
-      "explanation": "Self-correction is part of fluency, but don't let it derail you.",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"Rarely has such a comprehensive analysis been published in a single volume...\"",
+      "options": [
+        "ostensibly",
+        "apparently",
+        "seemingly",
+        "purportedly"
+      ],
+      "correctAnswer": "ostensibly",
+      "explanation": "La opción correcta es \"ostensibly\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u58-b6-q4",
-      "type": "fill-blank",
-      "question": "In the final review, it's important to ________ key collocations and idioms.",
-      
-      "correctAnswer": "consolidate",
-      "explanation": "Consolidation is key for long-term retention.",
+      "type": "multiple-choice",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"It remains to be seen whether the proposed reforms will have the desired effect...\"",
+      "options": [
+        "profoundly",
+        "utterly",
+        "considerably",
+        "remarkably"
+      ],
+      "correctAnswer": "considerably",
+      "explanation": "La opción correcta es \"considerably\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u58-b6-q5",
       "type": "multiple-choice",
-      "question": "In Speaking Part 1, how should you answer personal questions?",
-      "options": ["With one-word answers","With short, simple sentences","With extended, complex responses","By staying silent"],
-      "correctAnswer": "With extended, complex responses",
-      "explanation": "At C2 level, you must demonstrate range and complexity even in Part 1.",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"So complex is the relationship between language and thought that researchers continue to debate its nature...\"",
+      "options": [
+        "however",
+        "nevertheless",
+        "despite",
+        "although"
+      ],
+      "correctAnswer": "nevertheless",
+      "explanation": "La opción correcta es \"nevertheless\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u58-b6-q6",
-      "type": "fill-blank",
-      "question": "In Speaking Part 2, when looking at pictures, you should ________ about what might be happening.",
-      
-      "correctAnswer": "speculate",
-      "explanation": "Speculation is a key skill in Part 2.",
+      "type": "multiple-choice",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"The committee decided to postpone the meeting until further notice...\"",
+      "options": [
+        "scrutinise",
+        "examine",
+        "verify",
+        "investigate"
+      ],
+      "correctAnswer": "scrutinise",
+      "explanation": "La opción correcta es \"scrutinise\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u58-b6-q7",
       "type": "multiple-choice",
-      "question": "Which phrase is best for reaching a decision in Part 2?",
-      "options": ["I don't care","Let's go for this one, then","It's all the same to me","Whatever"],
-      "correctAnswer": "Let's go for this one, then",
-      "explanation": "This is a natural way to conclude a negotiation.",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"It is widely believed that language shapes our perception of reality...\"",
+      "options": [
+        "endorsed",
+        "advocated",
+        "upheld",
+        "championed"
+      ],
+      "correctAnswer": "upheld",
+      "explanation": "La opción correcta es \"upheld\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u58-b6-q8",
-      "type": "fill-blank",
-      "question": "In Speaking Part 3, you are given a ________ with three points to discuss.",
-      
-      "correctAnswer": "card",
-      "explanation": "Part 3 involves a long turn based on a prompt card.",
+      "type": "multiple-choice",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"Not only did the author challenge conventional views, but she also proposed radical alternatives...\"",
+      "options": [
+        "mitigate",
+        "alleviate",
+        "diminish",
+        "reduce"
+      ],
+      "correctAnswer": "mitigate",
+      "explanation": "La opción correcta es \"mitigate\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u58-b6-q9",
       "type": "multiple-choice",
-      "question": "What is the best way to organize a long turn?",
-      "options": ["Start with the hardest point","Jump between points randomly","Use discourse markers like 'firstly', 'moreover', 'consequently'","Speak as fast as possible"],
-      "correctAnswer": "Use discourse markers like 'firstly', 'moreover', 'consequently'",
-      "explanation": "Discourse markers provide structure and coherence.",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"The government has been accused of failing to address the underlying causes of the crisis...\"",
+      "options": [
+        "pervasive",
+        "widespread",
+        "rampant",
+        "endemic"
+      ],
+      "correctAnswer": "pervasive",
+      "explanation": "La opción correcta es \"pervasive\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     },
     {
       "id": "c2-u58-b6-q10",
-      "type": "fill-blank",
-      "question": "After your long turn, the other candidate will be asked a ________-up question.",
-      
-      "correctAnswer": "follow",
-      "explanation": "Candidates must comment on each other's long turns.",
-      "points": 1
-    }
-  ]
-};
-
-export const C2_U58_BLOCK7: Exercise = {
-  "id": "c2-u58-b7",
-  "type": "vocabulary",
-  "title": "Speaking & Review: Grammar Review - Advanced Structures - Block 7",
-  "explanation": "Practice the functional language and strategies required for the C2 Speaking paper and final review.",
-  "questions": [
-    {
-      "id": "c2-u58-b7-q1",
-      "type": "fill-blank",
-      "question": "The term 'lingua ________' refers to a language used as a common means of communication.",
-      
-      "correctAnswer": "franca",
-      "explanation": "Lingua franca is a term often used in discussions about English.",
-      "points": 1
-    },
-    {
-      "id": "c2-u58-b7-q2",
       "type": "multiple-choice",
-      "question": "What should you do if you make a mistake while speaking?",
-      "options": ["Stop speaking immediately","Correct yourself if you can, otherwise continue naturally","Cry","Apologize for five minutes"],
-      "correctAnswer": "Correct yourself if you can, otherwise continue naturally",
-      "explanation": "Self-correction is part of fluency, but don't let it derail you.",
-      "points": 1
-    },
-    {
-      "id": "c2-u58-b7-q3",
-      "type": "fill-blank",
-      "question": "In the final review, it's important to ________ key collocations and idioms.",
-      
-      "correctAnswer": "consolidate",
-      "explanation": "Consolidation is key for long-term retention.",
-      "points": 1
-    },
-    {
-      "id": "c2-u58-b7-q4",
-      "type": "multiple-choice",
-      "question": "In Speaking Part 1, how should you answer personal questions?",
-      "options": ["With one-word answers","With short, simple sentences","With extended, complex responses","By staying silent"],
-      "correctAnswer": "With extended, complex responses",
-      "explanation": "At C2 level, you must demonstrate range and complexity even in Part 1.",
-      "points": 1
-    },
-    {
-      "id": "c2-u58-b7-q5",
-      "type": "fill-blank",
-      "question": "In Speaking Part 2, when looking at pictures, you should ________ about what might be happening.",
-      
-      "correctAnswer": "speculate",
-      "explanation": "Speculation is a key skill in Part 2.",
-      "points": 1
-    },
-    {
-      "id": "c2-u58-b7-q6",
-      "type": "multiple-choice",
-      "question": "Which phrase is best for reaching a decision in Part 2?",
-      "options": ["I don't care","Let's go for this one, then","It's all the same to me","Whatever"],
-      "correctAnswer": "Let's go for this one, then",
-      "explanation": "This is a natural way to conclude a negotiation.",
-      "points": 1
-    },
-    {
-      "id": "c2-u58-b7-q7",
-      "type": "fill-blank",
-      "question": "In Speaking Part 3, you are given a ________ with three points to discuss.",
-      
-      "correctAnswer": "card",
-      "explanation": "Part 3 involves a long turn based on a prompt card.",
-      "points": 1
-    },
-    {
-      "id": "c2-u58-b7-q8",
-      "type": "multiple-choice",
-      "question": "What is the best way to organize a long turn?",
-      "options": ["Start with the hardest point","Jump between points randomly","Use discourse markers like 'firstly', 'moreover', 'consequently'","Speak as fast as possible"],
-      "correctAnswer": "Use discourse markers like 'firstly', 'moreover', 'consequently'",
-      "explanation": "Discourse markers provide structure and coherence.",
-      "points": 1
-    },
-    {
-      "id": "c2-u58-b7-q9",
-      "type": "fill-blank",
-      "question": "After your long turn, the other candidate will be asked a ________-up question.",
-      
-      "correctAnswer": "follow",
-      "explanation": "Candidates must comment on each other's long turns.",
-      "points": 1
-    },
-    {
-      "id": "c2-u58-b7-q10",
-      "type": "multiple-choice",
-      "question": "Which of these is an idiomatic way to say you are very busy?",
-      "options": ["I am busy","I am snowed under","I have things to do","I am working"],
-      "correctAnswer": "I am snowed under",
-      "explanation": "'Snowed under' is a common C2-level idiom.",
-      "points": 1
-    }
-  ]
-};
-
-export const C2_U58_BLOCK8: Exercise = {
-  "id": "c2-u58-b8",
-  "type": "vocabulary",
-  "title": "Speaking & Review: Grammar Review - Advanced Structures - Block 8",
-  "explanation": "Practice the functional language and strategies required for the C2 Speaking paper and final review.",
-  "questions": [
-    {
-      "id": "c2-u58-b8-q1",
-      "type": "multiple-choice",
-      "question": "What should you do if you make a mistake while speaking?",
-      "options": ["Stop speaking immediately","Correct yourself if you can, otherwise continue naturally","Cry","Apologize for five minutes"],
-      "correctAnswer": "Correct yourself if you can, otherwise continue naturally",
-      "explanation": "Self-correction is part of fluency, but don't let it derail you.",
-      "points": 1
-    },
-    {
-      "id": "c2-u58-b8-q2",
-      "type": "fill-blank",
-      "question": "In the final review, it's important to ________ key collocations and idioms.",
-      
-      "correctAnswer": "consolidate",
-      "explanation": "Consolidation is key for long-term retention.",
-      "points": 1
-    },
-    {
-      "id": "c2-u58-b8-q3",
-      "type": "multiple-choice",
-      "question": "In Speaking Part 1, how should you answer personal questions?",
-      "options": ["With one-word answers","With short, simple sentences","With extended, complex responses","By staying silent"],
-      "correctAnswer": "With extended, complex responses",
-      "explanation": "At C2 level, you must demonstrate range and complexity even in Part 1.",
-      "points": 1
-    },
-    {
-      "id": "c2-u58-b8-q4",
-      "type": "fill-blank",
-      "question": "In Speaking Part 2, when looking at pictures, you should ________ about what might be happening.",
-      
-      "correctAnswer": "speculate",
-      "explanation": "Speculation is a key skill in Part 2.",
-      "points": 1
-    },
-    {
-      "id": "c2-u58-b8-q5",
-      "type": "multiple-choice",
-      "question": "Which phrase is best for reaching a decision in Part 2?",
-      "options": ["I don't care","Let's go for this one, then","It's all the same to me","Whatever"],
-      "correctAnswer": "Let's go for this one, then",
-      "explanation": "This is a natural way to conclude a negotiation.",
-      "points": 1
-    },
-    {
-      "id": "c2-u58-b8-q6",
-      "type": "fill-blank",
-      "question": "In Speaking Part 3, you are given a ________ with three points to discuss.",
-      
-      "correctAnswer": "card",
-      "explanation": "Part 3 involves a long turn based on a prompt card.",
-      "points": 1
-    },
-    {
-      "id": "c2-u58-b8-q7",
-      "type": "multiple-choice",
-      "question": "What is the best way to organize a long turn?",
-      "options": ["Start with the hardest point","Jump between points randomly","Use discourse markers like 'firstly', 'moreover', 'consequently'","Speak as fast as possible"],
-      "correctAnswer": "Use discourse markers like 'firstly', 'moreover', 'consequently'",
-      "explanation": "Discourse markers provide structure and coherence.",
-      "points": 1
-    },
-    {
-      "id": "c2-u58-b8-q8",
-      "type": "fill-blank",
-      "question": "After your long turn, the other candidate will be asked a ________-up question.",
-      
-      "correctAnswer": "follow",
-      "explanation": "Candidates must comment on each other's long turns.",
-      "points": 1
-    },
-    {
-      "id": "c2-u58-b8-q9",
-      "type": "multiple-choice",
-      "question": "Which of these is an idiomatic way to say you are very busy?",
-      "options": ["I am busy","I am snowed under","I have things to do","I am working"],
-      "correctAnswer": "I am snowed under",
-      "explanation": "'Snowed under' is a common C2-level idiom.",
-      "points": 1
-    },
-    {
-      "id": "c2-u58-b8-q10",
-      "type": "fill-blank",
-      "question": "The term 'lingua ________' refers to a language used as a common means of communication.",
-      
-      "correctAnswer": "franca",
-      "explanation": "Lingua franca is a term often used in discussions about English.",
-      "points": 1
-    }
-  ]
-};
-
-export const C2_U58_BLOCK9: Exercise = {
-  "id": "c2-u58-b9",
-  "type": "vocabulary",
-  "title": "Speaking & Review: Grammar Review - Advanced Structures - Block 9",
-  "explanation": "Practice the functional language and strategies required for the C2 Speaking paper and final review.",
-  "questions": [
-    {
-      "id": "c2-u58-b9-q1",
-      "type": "fill-blank",
-      "question": "In the final review, it's important to ________ key collocations and idioms.",
-      
-      "correctAnswer": "consolidate",
-      "explanation": "Consolidation is key for long-term retention.",
-      "points": 1
-    },
-    {
-      "id": "c2-u58-b9-q2",
-      "type": "multiple-choice",
-      "question": "In Speaking Part 1, how should you answer personal questions?",
-      "options": ["With one-word answers","With short, simple sentences","With extended, complex responses","By staying silent"],
-      "correctAnswer": "With extended, complex responses",
-      "explanation": "At C2 level, you must demonstrate range and complexity even in Part 1.",
-      "points": 1
-    },
-    {
-      "id": "c2-u58-b9-q3",
-      "type": "fill-blank",
-      "question": "In Speaking Part 2, when looking at pictures, you should ________ about what might be happening.",
-      
-      "correctAnswer": "speculate",
-      "explanation": "Speculation is a key skill in Part 2.",
-      "points": 1
-    },
-    {
-      "id": "c2-u58-b9-q4",
-      "type": "multiple-choice",
-      "question": "Which phrase is best for reaching a decision in Part 2?",
-      "options": ["I don't care","Let's go for this one, then","It's all the same to me","Whatever"],
-      "correctAnswer": "Let's go for this one, then",
-      "explanation": "This is a natural way to conclude a negotiation.",
-      "points": 1
-    },
-    {
-      "id": "c2-u58-b9-q5",
-      "type": "fill-blank",
-      "question": "In Speaking Part 3, you are given a ________ with three points to discuss.",
-      
-      "correctAnswer": "card",
-      "explanation": "Part 3 involves a long turn based on a prompt card.",
-      "points": 1
-    },
-    {
-      "id": "c2-u58-b9-q6",
-      "type": "multiple-choice",
-      "question": "What is the best way to organize a long turn?",
-      "options": ["Start with the hardest point","Jump between points randomly","Use discourse markers like 'firstly', 'moreover', 'consequently'","Speak as fast as possible"],
-      "correctAnswer": "Use discourse markers like 'firstly', 'moreover', 'consequently'",
-      "explanation": "Discourse markers provide structure and coherence.",
-      "points": 1
-    },
-    {
-      "id": "c2-u58-b9-q7",
-      "type": "fill-blank",
-      "question": "After your long turn, the other candidate will be asked a ________-up question.",
-      
-      "correctAnswer": "follow",
-      "explanation": "Candidates must comment on each other's long turns.",
-      "points": 1
-    },
-    {
-      "id": "c2-u58-b9-q8",
-      "type": "multiple-choice",
-      "question": "Which of these is an idiomatic way to say you are very busy?",
-      "options": ["I am busy","I am snowed under","I have things to do","I am working"],
-      "correctAnswer": "I am snowed under",
-      "explanation": "'Snowed under' is a common C2-level idiom.",
-      "points": 1
-    },
-    {
-      "id": "c2-u58-b9-q9",
-      "type": "fill-blank",
-      "question": "The term 'lingua ________' refers to a language used as a common means of communication.",
-      
-      "correctAnswer": "franca",
-      "explanation": "Lingua franca is a term often used in discussions about English.",
-      "points": 1
-    },
-    {
-      "id": "c2-u58-b9-q10",
-      "type": "multiple-choice",
-      "question": "What should you do if you make a mistake while speaking?",
-      "options": ["Stop speaking immediately","Correct yourself if you can, otherwise continue naturally","Cry","Apologize for five minutes"],
-      "correctAnswer": "Correct yourself if you can, otherwise continue naturally",
-      "explanation": "Self-correction is part of fluency, but don't let it derail you.",
-      "points": 1
-    }
-  ]
-};
-
-export const C2_U58_BLOCK10: Exercise = {
-  "id": "c2-u58-b10",
-  "type": "vocabulary",
-  "title": "Speaking & Review: Grammar Review - Advanced Structures - Block 10",
-  "explanation": "Practice the functional language and strategies required for the C2 Speaking paper and final review.",
-  "questions": [
-    {
-      "id": "c2-u58-b10-q1",
-      "type": "multiple-choice",
-      "question": "In Speaking Part 1, how should you answer personal questions?",
-      "options": ["With one-word answers","With short, simple sentences","With extended, complex responses","By staying silent"],
-      "correctAnswer": "With extended, complex responses",
-      "explanation": "At C2 level, you must demonstrate range and complexity even in Part 1.",
-      "points": 1
-    },
-    {
-      "id": "c2-u58-b10-q2",
-      "type": "fill-blank",
-      "question": "In Speaking Part 2, when looking at pictures, you should ________ about what might be happening.",
-      
-      "correctAnswer": "speculate",
-      "explanation": "Speculation is a key skill in Part 2.",
-      "points": 1
-    },
-    {
-      "id": "c2-u58-b10-q3",
-      "type": "multiple-choice",
-      "question": "Which phrase is best for reaching a decision in Part 2?",
-      "options": ["I don't care","Let's go for this one, then","It's all the same to me","Whatever"],
-      "correctAnswer": "Let's go for this one, then",
-      "explanation": "This is a natural way to conclude a negotiation.",
-      "points": 1
-    },
-    {
-      "id": "c2-u58-b10-q4",
-      "type": "fill-blank",
-      "question": "In Speaking Part 3, you are given a ________ with three points to discuss.",
-      
-      "correctAnswer": "card",
-      "explanation": "Part 3 involves a long turn based on a prompt card.",
-      "points": 1
-    },
-    {
-      "id": "c2-u58-b10-q5",
-      "type": "multiple-choice",
-      "question": "What is the best way to organize a long turn?",
-      "options": ["Start with the hardest point","Jump between points randomly","Use discourse markers like 'firstly', 'moreover', 'consequently'","Speak as fast as possible"],
-      "correctAnswer": "Use discourse markers like 'firstly', 'moreover', 'consequently'",
-      "explanation": "Discourse markers provide structure and coherence.",
-      "points": 1
-    },
-    {
-      "id": "c2-u58-b10-q6",
-      "type": "fill-blank",
-      "question": "After your long turn, the other candidate will be asked a ________-up question.",
-      
-      "correctAnswer": "follow",
-      "explanation": "Candidates must comment on each other's long turns.",
-      "points": 1
-    },
-    {
-      "id": "c2-u58-b10-q7",
-      "type": "multiple-choice",
-      "question": "Which of these is an idiomatic way to say you are very busy?",
-      "options": ["I am busy","I am snowed under","I have things to do","I am working"],
-      "correctAnswer": "I am snowed under",
-      "explanation": "'Snowed under' is a common C2-level idiom.",
-      "points": 1
-    },
-    {
-      "id": "c2-u58-b10-q8",
-      "type": "fill-blank",
-      "question": "The term 'lingua ________' refers to a language used as a common means of communication.",
-      
-      "correctAnswer": "franca",
-      "explanation": "Lingua franca is a term often used in discussions about English.",
-      "points": 1
-    },
-    {
-      "id": "c2-u58-b10-q9",
-      "type": "multiple-choice",
-      "question": "What should you do if you make a mistake while speaking?",
-      "options": ["Stop speaking immediately","Correct yourself if you can, otherwise continue naturally","Cry","Apologize for five minutes"],
-      "correctAnswer": "Correct yourself if you can, otherwise continue naturally",
-      "explanation": "Self-correction is part of fluency, but don't let it derail you.",
-      "points": 1
-    },
-    {
-      "id": "c2-u58-b10-q10",
-      "type": "fill-blank",
-      "question": "In the final review, it's important to ________ key collocations and idioms.",
-      
-      "correctAnswer": "consolidate",
-      "explanation": "Consolidation is key for long-term retention.",
+      "question": "In the context of exam-practice, choose the most appropriate word: \"Had the delegates arrived on time, the negotiations would have proceeded smoothly...\"",
+      "options": [
+        "ambiguous",
+        "equivocal",
+        "vague",
+        "opaque"
+      ],
+      "correctAnswer": "equivocal",
+      "explanation": "La opción correcta es \"equivocal\" ya que se ajusta mejor al registro y significado C2 requerido en este contexto.",
       "points": 1
     }
   ]
@@ -994,10 +807,15 @@ export const C2_U58_BLOCK10: Exercise = {
 
 export const C2_UNIT_58 = createC2Unit(
   'c2-u58',
-  'Speaking Skills & Final Review',
-  'Focus on C2 Speaking skills and final exam review.',
-  ["Master functional language for interaction","Practice long-turn structuring","Consolidate advanced vocabulary"],
+  'CPE Exam Practice: Reading & Use of English',
+  'Advanced C2 level practice on exam-practice.',
+  ["grammar","reading","listening","writing","speaking","vocabulary"],
   [
-    C2_U58_BLOCK1, C2_U58_BLOCK2, C2_U58_BLOCK3, C2_U58_BLOCK4, C2_U58_BLOCK5, C2_U58_BLOCK6, C2_U58_BLOCK7, C2_U58_BLOCK8, C2_U58_BLOCK9, C2_U58_BLOCK10
+    C2_U58_BLOCK1,
+    C2_U58_BLOCK2,
+    C2_U58_BLOCK3,
+    C2_U58_BLOCK4,
+    C2_U58_BLOCK5,
+    C2_U58_BLOCK6
   ]
 );

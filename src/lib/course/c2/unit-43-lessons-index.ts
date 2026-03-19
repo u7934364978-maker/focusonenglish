@@ -1,0 +1,31 @@
+/**
+ * Índice de las 6 lecciones de la Unidad 43 (C2).
+ */
+
+import { Exercise } from '@/lib/exercise-generator';
+import { UNIT_43_LESSON_1_GRAMMAR } from './unit-43-lesson-1-grammar';
+import { UNIT_43_LESSON_2_GRAMMAR_CONTEXT } from './unit-43-lesson-2-grammar-context';
+import { UNIT_43_LESSON_3_READING } from './unit-43-lesson-3-reading';
+import { UNIT_43_LESSON_4_LISTENING } from './unit-43-lesson-4-listening';
+import { UNIT_43_LESSON_5_WRITING } from './unit-43-lesson-5-writing';
+import { UNIT_43_LESSON_6_SPEAKING } from './unit-43-lesson-6-speaking';
+
+export const UNIT_43_LESSONS = {
+  grammar: UNIT_43_LESSON_1_GRAMMAR,
+  grammar_context: UNIT_43_LESSON_2_GRAMMAR_CONTEXT,
+  reading: UNIT_43_LESSON_3_READING,
+  listening: UNIT_43_LESSON_4_LISTENING,
+  writing: UNIT_43_LESSON_5_WRITING,
+  speaking: UNIT_43_LESSON_6_SPEAKING,
+} as const;
+
+export const UNIT_43_ALL_LESSONS: Exercise[][] = [
+  UNIT_43_LESSON_1_GRAMMAR,
+  UNIT_43_LESSON_2_GRAMMAR_CONTEXT,
+  UNIT_43_LESSON_3_READING,
+  UNIT_43_LESSON_4_LISTENING,
+  UNIT_43_LESSON_5_WRITING,
+  UNIT_43_LESSON_6_SPEAKING,
+];
+
+export const UNIT_43_ALL_EXERCISES: Exercise[] = UNIT_43_ALL_LESSONS.flat();

@@ -1,0 +1,31 @@
+/**
+ * Índice de las 6 lecciones de la Unidad 41 (C2).
+ */
+
+import { Exercise } from '@/lib/exercise-generator';
+import { UNIT_41_LESSON_1_GRAMMAR } from './unit-41-lesson-1-grammar';
+import { UNIT_41_LESSON_2_GRAMMAR_CONTEXT } from './unit-41-lesson-2-grammar-context';
+import { UNIT_41_LESSON_3_READING } from './unit-41-lesson-3-reading';
+import { UNIT_41_LESSON_4_LISTENING } from './unit-41-lesson-4-listening';
+import { UNIT_41_LESSON_5_WRITING } from './unit-41-lesson-5-writing';
+import { UNIT_41_LESSON_6_SPEAKING } from './unit-41-lesson-6-speaking';
+
+export const UNIT_41_LESSONS = {
+  grammar: UNIT_41_LESSON_1_GRAMMAR,
+  grammar_context: UNIT_41_LESSON_2_GRAMMAR_CONTEXT,
+  reading: UNIT_41_LESSON_3_READING,
+  listening: UNIT_41_LESSON_4_LISTENING,
+  writing: UNIT_41_LESSON_5_WRITING,
+  speaking: UNIT_41_LESSON_6_SPEAKING,
+} as const;
+
+export const UNIT_41_ALL_LESSONS: Exercise[][] = [
+  UNIT_41_LESSON_1_GRAMMAR,
+  UNIT_41_LESSON_2_GRAMMAR_CONTEXT,
+  UNIT_41_LESSON_3_READING,
+  UNIT_41_LESSON_4_LISTENING,
+  UNIT_41_LESSON_5_WRITING,
+  UNIT_41_LESSON_6_SPEAKING,
+];
+
+export const UNIT_41_ALL_EXERCISES: Exercise[] = UNIT_41_ALL_LESSONS.flat();

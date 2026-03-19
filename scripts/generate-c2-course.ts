@@ -7,33 +7,74 @@ const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY,
 });
 
-async function generateBlock(unitId: number, blockNum: number, topic: string, grammar: string, skill: string) {
+const LESSON_TYPE_MAP: Record<number, { type: string; title: string; exerciseTypes: string; instructions: string }> = {
+  1: {
+    type: 'grammar',
+    title: 'Grammar Input & Presentation',
+    exerciseTypes: '"key-word-transformation" | "fill-blank" | "error-identification"',
+    instructions: 'Focus on key-word transformations, fill-in-the-blank with complex structures, and error identification. Use sophisticated C2 grammar structures.',
+  },
+  2: {
+    type: 'grammar-context',
+    title: 'Grammar in Context / Collocations',
+    exerciseTypes: '"open-cloze" | "multiple-choice-cloze" | "fill-blank"',
+    instructions: 'Focus on open-cloze, sentence completion with collocations, and grammar in authentic context. Test lexical-grammatical awareness at C2 level.',
+  },
+  3: {
+    type: 'reading',
+    title: 'Reading Comprehension (C2 Text)',
+    exerciseTypes: '"gapped-text" | "multiple-matching" | "multiple-choice-cloze"',
+    instructions: 'Focus on gapped-text insertion, multiple-matching, and reading-based multiple choice. Use sophisticated, authentic text at C2 level.',
+  },
+  4: {
+    type: 'listening',
+    title: 'Listening / Discourse Management',
+    exerciseTypes: '"multiple-choice" | "fill-blank" | "multiple-matching"',
+    instructions: 'Simulate listening-based exercises: gap-fill from a transcript, multiple-choice comprehension, and matching speakers to opinions. Reflect authentic C2 listening discourse.',
+  },
+  5: {
+    type: 'writing',
+    title: 'Writing Practice (Genre-specific)',
+    exerciseTypes: '"writing-analysis" | "paraphrasing" | "fill-blank"',
+    instructions: 'Focus on writing-analysis (identifying good/weak writing), paraphrasing complex sentences, and summary-writing tasks. All at C2 sophistication.',
+  },
+  6: {
+    type: 'speaking',
+    title: 'Speaking / Review / Integration',
+    exerciseTypes: '"speaking-analysis" | "multiple-choice" | "key-word-transformation"',
+    instructions: 'Focus on speaking-analysis prompts, review multiple-choice consolidation, and transformation mix. Integrate all skills practiced in the unit.',
+  },
+};
+
+async function generateBlock(unitId: number, blockNum: number, topic: string, grammar: string, lessonType: typeof LESSON_TYPE_MAP[number]) {
   const prompt = `
     You are an expert English teacher specializing in Cambridge C2 Proficiency (CPE).
     Generate 10 high-quality C2-level exercises/questions for Unit ${unitId}, Block ${blockNum}.
     Topic: ${topic}
     Grammar Focus: ${grammar}
-    Primary Skill: ${skill}
+    Lesson Type: ${lessonType.title}
 
-    The exercises must be strictly C2 level (sophisticated vocabulary, complex structures).
+    ${lessonType.instructions}
     
     Return ONLY a JSON object with a "questions" key containing an array of 10 question objects.
     Each object must follow this structure:
     {
       "id": "c2-u${unitId}-b${blockNum}-q[1-10]",
-      "type": "multiple-choice" | "fill-blank" | "key-word-transformation",
+      "type": ${lessonType.exerciseTypes},
       "question": "The question text",
-      "options": ["Option A", "Option B", "Option C", "Option D"], // Only for multiple-choice
+      "options": ["Option A", "Option B", "Option C", "Option D"], // Only for multiple-choice and multiple-choice-cloze
       "correctAnswer": "The correct answer string",
       "explanation": "Brief explanation in Spanish",
       "points": 1,
-      "sentence": "Original sentence", // Only for key-word-transformation
+      "sentence": "Original sentence", // Only for key-word-transformation and paraphrasing
       "keyWord": "KEY WORD", // Only for key-word-transformation
       "startOfAnswer": "Start of..." // Only for key-word-transformation
     }
 
-    Vary the types within the block. 
+    Use the allowed exercise types for this lesson block.
+    Vary the types within the block.
     Ensure you return exactly 10 questions in the array.
+    All content must be strictly C2 level (sophisticated vocabulary, complex structures, authentic register).
   `;
 
   let attempts = 0;
@@ -79,15 +120,16 @@ async function generateUnit(unitId: number) {
   console.log(`Generating Unit ${unitId}: ${mapping.title}...`);
   
   const blocks = [];
-  for (let b = 1; b <= 10; b++) {
-    console.log(`  - Block ${b}/10...`);
-    const questions = await generateBlock(unitId, b, mapping.topic, mapping.grammar.join(', '), mapping.skills[b % mapping.skills.length]);
+  for (let b = 1; b <= 6; b++) {
+    const lessonType = LESSON_TYPE_MAP[b];
+    console.log(`  - Block ${b}/6 (${lessonType.type})...`);
+    const questions = await generateBlock(unitId, b, mapping.topic, mapping.grammar.join(', '), lessonType);
     
     const block = {
       id: `c2-u${unitId}-b${b}`,
-      type: b % 2 === 0 ? 'grammar' : 'vocabulary',
-      title: `Block ${b}: ${mapping.title} - Part ${b}`,
-      explanation: `Advanced practice for ${mapping.title}`,
+      type: lessonType.type,
+      title: `Block ${b}: ${lessonType.title}`,
+      explanation: `${lessonType.title} practice for ${mapping.title}`,
       questions: questions
     };
     blocks.push(block);
