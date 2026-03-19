@@ -59,7 +59,8 @@ Rewrite `src/lib/c2-units/curriculum.ts` with the new 10-module × 60-unit thema
 - Each entry must have the grammar slug(s) and topic slug from the spec
 - Verify: `npx tsc --noEmit` passes on the file
 
-### [ ] Step: Update utils.ts with 6-lesson structure
+### [x] Step: Update utils.ts with 6-lesson structure
+<!-- chat-id: 4fdb8be6-1021-4abf-8d7c-caf123df9504 -->
 
 Update `src/lib/c2-units/utils.ts` to document and expose the 6-lesson-per-unit pattern.
 
