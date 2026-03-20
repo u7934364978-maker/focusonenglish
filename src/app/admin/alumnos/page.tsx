@@ -27,6 +27,7 @@ export default function AdminAlumnosPage() {
   const [moveCourseId, setMoveCourseId] = useState('ingles-a1');
   const [moveUnitId, setMoveUnitId] = useState('1');
   const [moveLessonKey, setMoveLessonKey] = useState('');
+  const [lastCredentials, setLastCredentials] = useState<{ email?: string; password: string } | null>(null);
 
   useEffect(() => {
     loadStudents();
@@ -68,7 +69,10 @@ export default function AdminAlumnosPage() {
       setNewEmail('');
       setNewName('');
       await loadStudents();
-      alert(data?.mailSent ? 'Alumno creado y email enviado.' : 'Alumno creado (email no enviado).');
+      if (data?.tempPassword) {
+        setLastCredentials({ email: newEmail, password: data.tempPassword });
+      }
+      alert(data?.mailSent ? 'Alumno creado y email enviado.' : 'Alumno creado. Copia la contraseña mostrada.');
     } catch (e) {
       setError(e instanceof Error ? e.message : 'Error desconocido');
     }
@@ -85,7 +89,11 @@ export default function AdminAlumnosPage() {
       });
       const data = await res.json().catch(() => ({}));
       if (!res.ok) throw new Error(data?.error ?? 'No se pudo resetear contraseña');
-      alert(data?.mailSent ? 'Contraseña reseteada y enviada por email.' : 'Contraseña reseteada (email no enviado).');
+      if (data?.tempPassword) {
+        const student = students.find((s) => s.id === userId);
+        setLastCredentials({ email: student?.email, password: data.tempPassword });
+      }
+      alert(data?.mailSent ? 'Contraseña reseteada y enviada por email.' : 'Contraseña reseteada. Copia la nueva contraseña mostrada.');
     } catch (e) {
       setError(e instanceof Error ? e.message : 'Error desconocido');
     } finally {
@@ -177,6 +185,23 @@ export default function AdminAlumnosPage() {
         </div>
       )}
 
+      {lastCredentials && (
+        <div className="bg-emerald-50 border border-emerald-200 rounded-2xl p-4">
+          <p className="text-xs font-bold uppercase tracking-wider text-emerald-700 mb-1">
+            Credenciales temporales
+          </p>
+          <p className="text-sm text-emerald-900">
+            {lastCredentials.email ? `Usuario: ${lastCredentials.email}` : 'Usuario actualizado'}
+          </p>
+          <p className="text-sm text-emerald-900 mt-1">
+            Contraseña: <span className="font-mono font-bold">{lastCredentials.password}</span>
+          </p>
+          <p className="text-xs text-emerald-700 mt-2">
+            Copia esta contraseña ahora. Por seguridad solo se muestra en este panel.
+          </p>
+        </div>
+      )}
+
       {!loading && !error && (
         <div className="bg-white border border-slate-200 rounded-2xl overflow-hidden">
           <div className="overflow-x-auto">
@@ -219,6 +244,8 @@ export default function AdminAlumnosPage() {
                           <option value="ingles-a2">ingles-a2</option>
                           <option value="ingles-b1">ingles-b1</option>
                           <option value="ingles-b2">ingles-b2</option>
+                          <option value="ingles-c1">ingles-c1</option>
+                          <option value="ingles-c2">ingles-c2</option>
                         </select>
                         <input
                           value={moveUnitId}

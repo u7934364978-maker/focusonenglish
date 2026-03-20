@@ -32,6 +32,8 @@ function normalizeCoursePath(courseId: string, unitId: number): string {
     'ingles-a2': '/curso-a2',
     'ingles-b1': '/curso-b1',
     'ingles-b2': '/curso-b2',
+    'ingles-c1': '/curso-c1',
+    'ingles-c2': '/curso-c2',
   };
   const base = map[courseId] ?? '/curso-a1';
   return `${base}/unit-${unitId}`;
@@ -129,7 +131,7 @@ export async function POST(request: NextRequest) {
         tempPassword,
       });
 
-      return NextResponse.json({ ok: true, userId, mailSent });
+      return NextResponse.json({ ok: true, userId, mailSent, tempPassword });
     }
 
     if (body.action === 'reset-password') {
@@ -159,7 +161,7 @@ export async function POST(request: NextRequest) {
         });
       }
 
-      return NextResponse.json({ ok: true, userId, mailSent });
+      return NextResponse.json({ ok: true, userId, mailSent, tempPassword });
     }
 
     if (body.action === 'move-position') {
