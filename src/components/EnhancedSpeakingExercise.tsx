@@ -370,28 +370,6 @@ export default function EnhancedSpeakingExercise({ question, onComplete, level }
       }
     };
 
-    // If we have a local model MP3, try it first. If it fails (missing/404),
-    // we transparently fall back to Cloudflare TTS.
-    if (question.modelAudioUrl && modelAudioRef.current) {
-      try {
-        const playPromise = modelAudioRef.current.play();
-        const anyPlayPromise = playPromise as any;
-        if (anyPlayPromise && typeof anyPlayPromise.catch === 'function') {
-          anyPlayPromise
-            .then(() => setIsPlayingModel(true))
-            .catch(() => playWithCloudflareTTS());
-        } else {
-          setIsPlayingModel(true);
-        }
-        return;
-      } catch {
-        // If play throws synchronously, fallback.
-        playWithCloudflareTTS();
-        return;
-      }
-    }
-
-    // No local MP3 (or no element), generate via Cloudflare.
     playWithCloudflareTTS();
   };
 
@@ -479,19 +457,6 @@ export default function EnhancedSpeakingExercise({ question, onComplete, level }
           
           {(question.modelAudioUrl || question.expectedResponse) && (
             <div className="flex items-center gap-3">
-              {question.modelAudioUrl && (
-                <audio
-                  ref={modelAudioRef}
-                  src={question.modelAudioUrl}
-                  onPlay={() => {
-                    setIsPlayingModel(true);
-                  }}
-                  onPause={() => setIsPlayingModel(false)}
-                  onEnded={() => setIsPlayingModel(false)}
-                  onError={() => setIsPlayingModel(false)}
-                  preload="metadata"
-                />
-              )}
               <button
                 onClick={playModelAudio}
                 disabled={isGeneratingModelAudio}

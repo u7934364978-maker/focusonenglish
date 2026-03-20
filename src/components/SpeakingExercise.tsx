@@ -193,12 +193,6 @@ export default function SpeakingExercise({ question, vocabulary, onComplete, lev
     const cleanText = stripMarkup(ttsText);
     if (!cleanText) return;
 
-    if (question.modelAudio) {
-      const audio = new Audio(question.modelAudio);
-      audio.play().catch((err) => console.error('Error playing model audio:', err));
-      return;
-    }
-
     if (isGeneratingModelAudio) return;
 
     setIsGeneratingModelAudio(true);
