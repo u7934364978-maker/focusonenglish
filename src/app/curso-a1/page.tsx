@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { A1CourseSelector } from '@/components/course/preview/A1CourseSelector';
 import { UnifiedCourseProgressSidebar } from '@/components/course/UnifiedCourseProgressSidebar';
 import { premiumCourseServerService } from '@/lib/services/premium-course-service.server';
-import { BookOpen, Clock, Award, FileText } from 'lucide-react';
+import { BookOpen, Clock, Award } from 'lucide-react';
 
 export const dynamic = 'force-dynamic';
 
@@ -34,13 +34,6 @@ async function A1PreviewContent() {
                 <Award className="w-4 h-4" />
                 <span>A1 Nivel · Principiante</span>
               </div>
-              <Link
-                href="/curso-a1/outline"
-                className="inline-flex items-center gap-2 px-4 py-2 bg-slate-100 text-slate-700 rounded-full font-bold text-sm border border-slate-200 hover:bg-slate-200 transition-colors"
-              >
-                <FileText className="w-4 h-4" />
-                <span>Ver programa</span>
-              </Link>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-slate-900 mb-4 tracking-tight">
               Vista previa del curso A1
