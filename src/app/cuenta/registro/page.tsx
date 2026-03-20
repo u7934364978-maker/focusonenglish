@@ -29,7 +29,8 @@ const getStripe = async () => {
 let stripePromise: Promise<any> | null = null;
 
 export default function SignupPage() {
-  const plans = getAllPlans();
+  // No mostrar el plan piloto de viajes en el flujo de registro.
+  const plans = getAllPlans().filter((plan) => plan.id !== 'travel-pilot');
   const [selectedPlan, setSelectedPlan] = useState<string>("");
   const [formData, setFormData] = useState({
     firstName: "",
