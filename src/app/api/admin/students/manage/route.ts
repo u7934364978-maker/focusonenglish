@@ -26,6 +26,23 @@ type MovePositionBody = {
   lessonKey?: string;
 };
 
+function mapSubscriptionPlanToAllowedValue(input: string): 'free' | 'basic' | 'premium' {
+  const v = (input ?? '').trim().toLowerCase();
+  if (!v) return 'free';
+  if (v === 'free') return 'free';
+  if (v.startsWith('basic')) return 'basic';
+  if (v.startsWith('premium')) return 'premium';
+  // Fallback seguro.
+  return 'free';
+}
+
+function normalizeSubscriptionStatus(input: string): 'active' | 'trialing' | 'inactive' {
+  const v = (input ?? '').trim().toLowerCase();
+  if (v === 'active') return 'active';
+  if (v === 'trialing') return 'trialing';
+  return 'inactive';
+}
+
 function normalizeCoursePath(courseId: string, unitId: number): string {
   const map: Record<string, string> = {
     'ingles-a1': '/curso-a1',
@@ -80,8 +97,8 @@ export async function POST(request: NextRequest) {
       const email = body.email?.trim().toLowerCase();
       const name = (body.name ?? '').trim();
       const languageLevel = (body.languageLevel ?? 'A1').toUpperCase();
-      const subscriptionStatus = body.subscriptionStatus ?? 'inactive';
-      const subscriptionPlan = body.subscriptionPlan ?? 'free';
+      const subscriptionStatus = normalizeSubscriptionStatus(body.subscriptionStatus ?? 'inactive');
+      const subscriptionPlan = mapSubscriptionPlanToAllowedValue(body.subscriptionPlan ?? 'free');
 
       if (!email) {
         return NextResponse.json({ error: 'Email is required' }, { status: 400 });
@@ -101,28 +118,45 @@ export async function POST(request: NextRequest) {
 
       const userId = created.user.id;
 
-      await Promise.all([
-        supabaseAdmin.from('users').upsert({
-          id: userId,
-          email,
-          name: name || email,
-          language_level: languageLevel,
-          updated_at: new Date().toISOString(),
-        }),
-        supabaseAdmin.from('user_profiles').upsert({
-          user_id: userId,
-          email,
-          name: name || email,
-          role: 'student',
-          language_level: languageLevel,
-          subscription_status: subscriptionStatus,
-          subscription_plan: subscriptionPlan,
-          subscription_start_date: subscriptionStatus === 'active' ? new Date().toISOString() : null,
-        }),
-        supabaseAdmin.from('user_stats').upsert({ user_id: userId, level: 1 }),
-        supabaseAdmin.from('user_xp').upsert({ user_id: userId, total_xp: 0, level: 1, xp_to_next_level: 100 }),
-        supabaseAdmin.from('user_streaks').upsert({ user_id: userId, current_streak: 0, longest_streak: 0 }),
-      ]);
+      const usersRes = await supabaseAdmin.from('users').upsert({
+        id: userId,
+        email,
+        name: name || email,
+        language_level: languageLevel,
+        updated_at: new Date().toISOString(),
+      });
+      if (usersRes.error) {
+        return NextResponse.json({ error: `Failed saving users: ${usersRes.error.message}` }, { status: 400 });
+      }
+
+      const profileRes = await supabaseAdmin.from('user_profiles').upsert({
+        user_id: userId,
+        email,
+        name: name || email,
+        role: 'student',
+        language_level: languageLevel,
+        subscription_status: subscriptionStatus,
+        subscription_plan: subscriptionPlan,
+        subscription_start_date: subscriptionStatus === 'active' || subscriptionStatus === 'trialing' ? new Date().toISOString() : null,
+      });
+      if (profileRes.error) {
+        return NextResponse.json({ error: `Failed saving user_profiles: ${profileRes.error.message}` }, { status: 400 });
+      }
+
+      const statsRes = await supabaseAdmin.from('user_stats').upsert({ user_id: userId, level: 1 });
+      if (statsRes.error) {
+        return NextResponse.json({ error: `Failed saving user_stats: ${statsRes.error.message}` }, { status: 400 });
+      }
+
+      const xpRes = await supabaseAdmin.from('user_xp').upsert({ user_id: userId, total_xp: 0, level: 1, xp_to_next_level: 100 });
+      if (xpRes.error) {
+        return NextResponse.json({ error: `Failed saving user_xp: ${xpRes.error.message}` }, { status: 400 });
+      }
+
+      const streakRes = await supabaseAdmin.from('user_streaks').upsert({ user_id: userId, current_streak: 0, longest_streak: 0 });
+      if (streakRes.error) {
+        return NextResponse.json({ error: `Failed saving user_streaks: ${streakRes.error.message}` }, { status: 400 });
+      }
 
       const mailSent = await sendWelcomeEmail({
         email,
