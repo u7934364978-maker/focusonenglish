@@ -21,7 +21,7 @@ keywords:
 author: david-torres
 date: '2026-03-02'
 updatedDate: '2026-03-10'
-image: 'https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg'
+image: 'https://images.pexels.com/photos/5699456/pexels-photo-5699456.jpeg?auto=compress&cs=tinysrgb&w=1200'
 alt: 'Lista definitiva de phrasal verbs B2 para el First Certificate FCE'
 category: gramatica
 canonical: 'https://www.focus-on-english.com/blog/gramatica/phrasal-verbs-guia-b2'

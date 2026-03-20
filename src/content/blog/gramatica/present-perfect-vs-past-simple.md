@@ -22,7 +22,7 @@ date: '2026-03-02'
 updatedDate: '2026-03-10'
 category: gramatica
 author: david-torres
-image: 'https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg'
+image: 'https://images.pexels.com/photos/3255440/pexels-photo-3255440.jpeg?auto=compress&cs=tinysrgb&w=1200'
 faqs:
   - question: ¿Cuál es la diferencia principal entre Present Perfect y Past Simple?
     answer: >-

@@ -530,6 +530,17 @@ export default async function BlogArticle({ params }: { params: Promise<{ catego
                             Comenzar ahora
                           </Link>
                         </>
+                      ) : normalizedCategory === 'gramatica' ? (
+                        <>
+                          <h3 className="font-display text-2xl font-bold mb-4">¿Preparas Cambridge o B2?</h3>
+                          <p className="text-slate-400 mb-6">Practica gramática avanzada con ejercicios adaptados a tu nivel y corrección instantánea con IA.</p>
+                          <Link
+                            href="/cuenta/registro?plan=grammar"
+                            className="block w-full bg-coral-600 text-white text-center py-4 rounded-xl font-bold hover:bg-coral-700 transition-all"
+                          >
+                            Practicar gramática gratis
+                          </Link>
+                        </>
                       ) : normalizedCategory === 'viajes' ? (
                         <>
                           <h3 className="font-display text-2xl font-bold mb-4">¿Viajas pronto?</h3>
