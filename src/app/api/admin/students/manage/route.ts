@@ -122,7 +122,13 @@ export async function POST(request: NextRequest) {
         id: userId,
         email,
         name: name || email,
+        // Compatibilidad con entornos donde public.users exige password_hash NOT NULL.
+        password_hash: 'managed-by-supabase-auth',
+        email_verified: new Date().toISOString(),
         language_level: languageLevel,
+        course_goal: null,
+        image: null,
+        created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
       });
       if (usersRes.error) {
@@ -133,7 +139,8 @@ export async function POST(request: NextRequest) {
         user_id: userId,
         email,
         name: name || email,
-        role: 'student',
+        // En producción el check permitido es user|admin|moderator.
+        role: 'user',
         language_level: languageLevel,
         subscription_status: subscriptionStatus,
         subscription_plan: subscriptionPlan,
