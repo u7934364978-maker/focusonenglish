@@ -17,11 +17,11 @@ readTime: 6 min
 keywords:
   - preparar ielts 2026
   - como preparar ielts desde cero
-  - como sacar band 7 ielts
   - ielts guia preparacion
-  - ielts speaking writing estrategias
-  - ielts academic general training
   - plan estudio ielts 12 semanas
+  - ielts plan de estudio
+  - guia completa ielts 2026
+  - ielts desde b2
 faqs:
   - question: ¿Cuántas veces puedo presentarme al IELTS?
     answer: >-

@@ -16,6 +16,7 @@ keywords:
   - ielts general vs academic
   - ielts australia canada
   - preparar ielts general training
+  - ielts academic general training
 excerpt: >-
   El IELTS General Training es el formato para inmigración, visas de trabajo y programas de formación no universitaria. No es más fácil que el Academic, pero tiene sus propias reglas y sus propios tipos de tarea.
 faqs:

@@ -11,12 +11,12 @@ excerpt: >-
   impulsará tu carrera global.
 keywords:
   - ielts vs toefl para trabajar
-  - diferencias ielts toefl
   - examen ingles para visado
   - ielts o toefl profesional
   - mejor examen ingles trabajo
   - clb levels canada
   - puntos migración australia
+  - ielts toefl carrera profesional
 date: '2026-02-05'
 updatedDate: '2026-03-10'
 category: trabajo
