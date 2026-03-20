@@ -60,7 +60,8 @@ If the feature is trivial and doesn't warrant full specification, update this wo
 
 Save to `{@artifacts_path}/plan.md`.
 
-### [ ] Step 1: Create hub file curso-ingles.md
+### [x] Step 1: Create hub file curso-ingles.md
+<!-- chat-id: a81d0444-5e3f-451d-816d-f570062c3c8b -->
 
 Create `src/content/hubs/curso-ingles.md` with:
 - Frontmatter: `title` and `description` optimized for SEO (as specified in spec.md)
