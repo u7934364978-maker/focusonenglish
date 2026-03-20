@@ -60,6 +60,7 @@ export default function EnhancedSpeakingExercise({ question, onComplete, level }
   const [audioUrl, setAudioUrl] = useState<string | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [isPlayingModel, setIsPlayingModel] = useState(false);
+  const [speechFallbackMode, setSpeechFallbackMode] = useState(false);
   const [isEvaluating, setIsEvaluating] = useState(false);
   const [evaluation, setEvaluation] = useState<SpeakingEvaluation | null>(null);
   const [evalError, setEvalError] = useState<string | null>(null);
@@ -308,13 +309,66 @@ export default function EnhancedSpeakingExercise({ question, onComplete, level }
   };
 
   const playModelAudio = () => {
+    const text = question.expectedResponse || question.prompt;
+
+    // Fallback to browser TTS if we detected audio failure or if no model audio is available.
+    if (speechFallbackMode || !question.modelAudioUrl || !text) {
+      if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
+
+      if (isPlayingModel) {
+        window.speechSynthesis.cancel();
+        setIsPlayingModel(false);
+        return;
+      }
+
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = 'en-US';
+      utterance.onstart = () => setIsPlayingModel(true);
+      utterance.onend = () => {
+        setIsPlayingModel(false);
+      };
+      utterance.onerror = () => {
+        setIsPlayingModel(false);
+      };
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.speak(utterance);
+      return;
+    }
+
+    // Audio file mode.
     if (modelAudioRef.current) {
       if (isPlayingModel) {
         modelAudioRef.current.pause();
+        setIsPlayingModel(false);
+        return;
       } else {
-        modelAudioRef.current.play();
+        const playPromise = modelAudioRef.current.play();
+        const anyPlayPromise = playPromise as any;
+
+        if (anyPlayPromise && typeof anyPlayPromise.catch === 'function') {
+          anyPlayPromise
+            .then(() => {
+              setIsPlayingModel(true);
+            })
+            .catch(() => {
+              // MP3 couldn't be played (missing/404/etc). Fallback to browser TTS.
+              setSpeechFallbackMode(true);
+              setIsPlayingModel(false);
+
+              if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.lang = 'en-US';
+                utterance.onstart = () => setIsPlayingModel(true);
+                utterance.onend = () => setIsPlayingModel(false);
+                utterance.onerror = () => setIsPlayingModel(false);
+                window.speechSynthesis.cancel();
+                window.speechSynthesis.speak(utterance);
+              }
+            });
+        } else {
+          setIsPlayingModel(true);
+        }
       }
-      setIsPlayingModel(!isPlayingModel);
     }
   };
 
@@ -400,16 +454,25 @@ export default function EnhancedSpeakingExercise({ question, onComplete, level }
             </div>
           </div>
           
-          {question.modelAudioUrl && (
+          {(question.modelAudioUrl || question.expectedResponse) && (
             <div className="flex items-center gap-3">
-              <audio
-                ref={modelAudioRef}
-                src={question.modelAudioUrl}
-                onPlay={() => setIsPlayingModel(true)}
-                onPause={() => setIsPlayingModel(false)}
-                onEnded={() => setIsPlayingModel(false)}
-                preload="metadata"
-              />
+              {question.modelAudioUrl && (
+                <audio
+                  ref={modelAudioRef}
+                  src={question.modelAudioUrl}
+                  onPlay={() => {
+                    setIsPlayingModel(true);
+                    setSpeechFallbackMode(false);
+                  }}
+                  onPause={() => setIsPlayingModel(false)}
+                  onEnded={() => setIsPlayingModel(false)}
+                  onError={() => {
+                    setIsPlayingModel(false);
+                    setSpeechFallbackMode(true);
+                  }}
+                  preload="metadata"
+                />
+              )}
               <button
                 onClick={playModelAudio}
                 className="flex items-center gap-2 bg-white/20 hover:bg-white/30 backdrop-blur px-6 py-3 rounded-xl transition-all font-semibold"

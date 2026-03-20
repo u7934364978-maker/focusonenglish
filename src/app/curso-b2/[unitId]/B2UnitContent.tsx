@@ -94,7 +94,18 @@ function B2UnitContentInner() {
           setExercises([]);
         } else {
           setUnitTitle(unitModule.UNIT_TITLE || unitModule.title || `Unidad ${unitNumber}`);
-          setExercises(unitExercises);
+          // Add inferred model audio for B2 pronunciation exercises.
+          // The TTS generator writes MP3s to: public/audio/b2-speaking/<exercise.id>.mp3
+          const normalizedExercises = unitExercises.map((ex: any) => {
+            if (ex?.type === 'pronunciation' && !ex?.audioUrl && ex?.id) {
+              return {
+                ...ex,
+                audioUrl: `/audio/b2-speaking/${ex.id}.mp3`,
+              };
+            }
+            return ex;
+          });
+          setExercises(normalizedExercises);
           const indexParam = searchParams.get('index');
           if (indexParam) {
             const idx = parseInt(indexParam);
