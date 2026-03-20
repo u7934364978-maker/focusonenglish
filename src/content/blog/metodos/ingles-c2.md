@@ -17,6 +17,7 @@ keywords:
   - focus english c2
   - nivel c2 ingles que es
   - diferencia c1 y c2 ingles
+  - curso ingles
 canonical: 'https://www.focus-on-english.com/blog/metodos/ingles-c2'
 related_routes:
   - ingles-c1

@@ -73,7 +73,8 @@ Create `src/content/hubs/curso-ingles.md` with:
   - H2: Gratis vs. pago (links to `curso-ingles-gratis` and `curso-ingles-online`)
   - H2: CTA — Focus English online course
 
-### [ ] Step 2: Add keyword "curso ingles" to 8 existing articles
+### [x] Step 2: Add keyword "curso ingles" to 8 existing articles
+<!-- chat-id: 777e965d-93df-4e24-96ea-b940947addc2 -->
 
 Edit the `keywords` frontmatter array in each of the following files to append `- curso ingles`:
 - `src/content/blog/metodos/ingles-a1.md`

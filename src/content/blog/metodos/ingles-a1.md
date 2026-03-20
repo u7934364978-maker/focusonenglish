@@ -19,6 +19,7 @@ keywords:
   - niveles ingles mcer
   - aprender ingles rapido
   - mejorar ingles
+  - curso ingles
 canonical: 'https://www.focus-on-english.com/blog/metodos/ingles-a1'
 related_routes:
   - ingles-a2

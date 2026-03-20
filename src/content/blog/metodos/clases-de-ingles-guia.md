@@ -19,6 +19,7 @@ keywords:
   - clases de ingles para adultos
   - mejores clases de ingles
   - metodos para aprender ingles
+  - curso ingles
 faqs:
   - question: ¿Cuál es la mejor forma de recibir clases de inglés hoy?
     answer: >-
