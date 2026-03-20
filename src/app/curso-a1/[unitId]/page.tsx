@@ -329,7 +329,7 @@ function UnitPreviewContent() {
 
   // ── LOADING ────────────────────────────────────────────────────────
   if (!unitId || loading) return (
-    <div className="min-h-screen flex items-center justify-center bg-[#FEF9F5]">
+    <div className="min-h-screen flex items-center justify-center bg-slate-50">
       <div className="text-center space-y-5">
         <div className="w-14 h-14 rounded-full border-4 border-[#FF6B6B] border-t-transparent animate-spin mx-auto" />
         <p className="text-sm font-semibold text-slate-500">Preparando tu lección</p>
@@ -340,7 +340,7 @@ function UnitPreviewContent() {
 
   // ── ERROR ──────────────────────────────────────────────────────────
   if (error) return (
-    <div className="min-h-screen flex items-center justify-center bg-[#FEF9F5] p-4">
+    <div className="min-h-screen flex items-center justify-center bg-slate-50 p-4">
       <div className="max-w-md w-full bg-white rounded-3xl shadow-xl p-10 text-center">
         <p className="text-5xl mb-5" aria-hidden>😕</p>
         <p className="text-xs font-bold tracking-wider text-slate-500 uppercase mb-2">No se pudo cargar</p>
@@ -355,7 +355,7 @@ function UnitPreviewContent() {
   );
 
   if (exercises.length === 0) return (
-    <div className="min-h-screen flex items-center justify-center bg-[#FEF9F5] p-4">
+    <div className="min-h-screen flex items-center justify-center bg-slate-50 p-4">
       <div className="text-center max-w-sm">
         <p className="text-sm font-semibold text-slate-600 mb-1">Esta unidad no tiene actividades todavía</p>
         <p className="text-xs text-slate-500 mb-6">Vuelve más tarde o elige otra unidad.</p>
@@ -510,7 +510,7 @@ function UnitPreviewContent() {
         ? 'bg-red-50/30'
         : isOnStreak
         ? 'bg-amber-50/50'
-        : 'bg-[#FEF9F5]'
+        : 'bg-slate-50'
     }`}>
       {/* Streak glow behind everything */}
       <StreakGlow count={consecutiveCorrect} />
@@ -772,7 +772,7 @@ function UnitPreviewContent() {
 export default function UnitPreviewPage() {
   return (
     <Suspense fallback={
-      <div className="min-h-screen flex items-center justify-center bg-[#FEF9F5]">
+      <div className="min-h-screen flex items-center justify-center bg-slate-50">
         <div className="w-12 h-12 rounded-full border-4 border-[#FF6B6B] border-t-transparent animate-spin" />
       </div>
     }>
