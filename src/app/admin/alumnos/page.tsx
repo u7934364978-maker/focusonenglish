@@ -16,9 +16,23 @@ export default function AdminAlumnosPage() {
   const [students, setStudents] = useState<Student[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [busyUserId, setBusyUserId] = useState<string | null>(null);
+
+  const [newEmail, setNewEmail] = useState('');
+  const [newName, setNewName] = useState('');
+  const [newLevel, setNewLevel] = useState('A1');
+  const [newPlan, setNewPlan] = useState('free');
+  const [newStatus, setNewStatus] = useState('inactive');
+
+  const [moveCourseId, setMoveCourseId] = useState('ingles-a1');
+  const [moveUnitId, setMoveUnitId] = useState('1');
+  const [moveLessonKey, setMoveLessonKey] = useState('');
 
   useEffect(() => {
-    async function load() {
+    loadStudents();
+  }, []);
+
+  async function loadStudents() {
       try {
         setError(null);
         setLoading(true);
@@ -31,9 +45,78 @@ export default function AdminAlumnosPage() {
       } finally {
         setLoading(false);
       }
+  }
+
+  async function handleCreateStudent(e: React.FormEvent) {
+    e.preventDefault();
+    try {
+      setError(null);
+      const res = await fetch('/api/admin/students/manage', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          action: 'create',
+          email: newEmail,
+          name: newName,
+          languageLevel: newLevel,
+          subscriptionPlan: newPlan,
+          subscriptionStatus: newStatus,
+        }),
+      });
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok) throw new Error(data?.error ?? 'No se pudo crear el alumno');
+      setNewEmail('');
+      setNewName('');
+      await loadStudents();
+      alert(data?.mailSent ? 'Alumno creado y email enviado.' : 'Alumno creado (email no enviado).');
+    } catch (e) {
+      setError(e instanceof Error ? e.message : 'Error desconocido');
     }
-    load();
-  }, []);
+  }
+
+  async function handleResetPassword(userId: string) {
+    try {
+      setBusyUserId(userId);
+      setError(null);
+      const res = await fetch('/api/admin/students/manage', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'reset-password', userId }),
+      });
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok) throw new Error(data?.error ?? 'No se pudo resetear contraseña');
+      alert(data?.mailSent ? 'Contraseña reseteada y enviada por email.' : 'Contraseña reseteada (email no enviado).');
+    } catch (e) {
+      setError(e instanceof Error ? e.message : 'Error desconocido');
+    } finally {
+      setBusyUserId(null);
+    }
+  }
+
+  async function handleMovePosition(userId: string) {
+    try {
+      setBusyUserId(userId);
+      setError(null);
+      const res = await fetch('/api/admin/students/manage', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          action: 'move-position',
+          userId,
+          courseId: moveCourseId,
+          unitId: Number(moveUnitId),
+          lessonKey: moveLessonKey || undefined,
+        }),
+      });
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok) throw new Error(data?.error ?? 'No se pudo mover al alumno');
+      alert('Posicion de curso actualizada correctamente.');
+    } catch (e) {
+      setError(e instanceof Error ? e.message : 'Error desconocido');
+    } finally {
+      setBusyUserId(null);
+    }
+  }
 
   return (
     <div className="space-y-6">
@@ -41,6 +124,51 @@ export default function AdminAlumnosPage() {
         <h1 className="text-3xl font-black text-slate-900">Alumnos</h1>
         <p className="text-slate-600 mt-1">Listado de estudiantes y su nivel.</p>
       </div>
+
+      <form onSubmit={handleCreateStudent} className="bg-white border border-slate-200 rounded-2xl p-4 md:p-5">
+        <h2 className="text-lg font-black text-slate-900">Crear nuevo alumno</h2>
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-3 mt-3">
+          <input
+            value={newName}
+            onChange={(e) => setNewName(e.target.value)}
+            placeholder="Nombre"
+            className="rounded-lg border border-slate-300 px-3 py-2 text-sm"
+          />
+          <input
+            type="email"
+            required
+            value={newEmail}
+            onChange={(e) => setNewEmail(e.target.value)}
+            placeholder="Email"
+            className="rounded-lg border border-slate-300 px-3 py-2 text-sm"
+          />
+          <select value={newLevel} onChange={(e) => setNewLevel(e.target.value)} className="rounded-lg border border-slate-300 px-3 py-2 text-sm">
+            <option value="A1">A1</option>
+            <option value="A2">A2</option>
+            <option value="B1">B1</option>
+            <option value="B2">B2</option>
+            <option value="C1">C1</option>
+            <option value="C2">C2</option>
+          </select>
+          <select value={newPlan} onChange={(e) => setNewPlan(e.target.value)} className="rounded-lg border border-slate-300 px-3 py-2 text-sm">
+            <option value="free">free</option>
+            <option value="basic-monthly">basic-monthly</option>
+            <option value="basic-yearly">basic-yearly</option>
+            <option value="premium-monthly">premium-monthly</option>
+            <option value="premium-yearly">premium-yearly</option>
+          </select>
+          <div className="flex gap-2">
+            <select value={newStatus} onChange={(e) => setNewStatus(e.target.value)} className="rounded-lg border border-slate-300 px-3 py-2 text-sm flex-1">
+              <option value="inactive">inactive</option>
+              <option value="active">active</option>
+              <option value="trialing">trialing</option>
+            </select>
+            <button type="submit" className="px-4 py-2 rounded-lg bg-slate-900 text-white text-sm font-semibold hover:bg-slate-800 transition">
+              Crear
+            </button>
+          </div>
+        </div>
+      </form>
 
       {loading && <div className="text-slate-600">Cargando...</div>}
       {error && (
@@ -70,12 +198,48 @@ export default function AdminAlumnosPage() {
                     <td className="px-4 py-3">{(s.language_level ?? '—').toString()}</td>
                     <td className="px-4 py-3 text-slate-600">{(s.subscription_status ?? '—').toString()}</td>
                     <td className="px-4 py-3">
-                      <Link
-                        href={`/admin/a1-analytics?userId=${encodeURIComponent(s.id)}`}
-                        className="inline-flex items-center px-3 py-2 rounded-lg bg-slate-900 text-white hover:bg-slate-800 transition"
-                      >
-                        Ver progreso
-                      </Link>
+                      <div className="flex flex-wrap items-center gap-2">
+                        <Link
+                          href={`/admin/a1-analytics?userId=${encodeURIComponent(s.id)}`}
+                          className="inline-flex items-center px-3 py-2 rounded-lg bg-slate-900 text-white hover:bg-slate-800 transition"
+                        >
+                          Ver progreso
+                        </Link>
+                        <button
+                          onClick={() => handleResetPassword(s.id)}
+                          disabled={busyUserId === s.id}
+                          className="inline-flex items-center px-3 py-2 rounded-lg bg-orange-100 text-orange-800 hover:bg-orange-200 transition disabled:opacity-60"
+                        >
+                          Reset pass
+                        </button>
+                      </div>
+                      <div className="mt-2 grid grid-cols-1 md:grid-cols-4 gap-2">
+                        <select value={moveCourseId} onChange={(e) => setMoveCourseId(e.target.value)} className="rounded-lg border border-slate-300 px-2 py-1 text-xs">
+                          <option value="ingles-a1">ingles-a1</option>
+                          <option value="ingles-a2">ingles-a2</option>
+                          <option value="ingles-b1">ingles-b1</option>
+                          <option value="ingles-b2">ingles-b2</option>
+                        </select>
+                        <input
+                          value={moveUnitId}
+                          onChange={(e) => setMoveUnitId(e.target.value)}
+                          placeholder="Unidad"
+                          className="rounded-lg border border-slate-300 px-2 py-1 text-xs"
+                        />
+                        <input
+                          value={moveLessonKey}
+                          onChange={(e) => setMoveLessonKey(e.target.value)}
+                          placeholder="lessonKey (opcional)"
+                          className="rounded-lg border border-slate-300 px-2 py-1 text-xs"
+                        />
+                        <button
+                          onClick={() => handleMovePosition(s.id)}
+                          disabled={busyUserId === s.id}
+                          className="inline-flex items-center justify-center px-2 py-1 rounded-lg bg-blue-100 text-blue-800 hover:bg-blue-200 transition text-xs font-semibold disabled:opacity-60"
+                        >
+                          Mover posicion
+                        </button>
+                      </div>
                     </td>
                   </tr>
                 ))}
