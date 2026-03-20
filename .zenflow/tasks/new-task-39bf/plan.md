@@ -120,7 +120,8 @@ Create `src/content/blog/metodos/curso-ingles-online.md` with:
   - Internal links to hub `/hubs/curso-ingles` and to `curso-ingles-gratis`
   - CTA to Focus English
 
-### [ ] Step 5: Verify build and lint
+### [x] Step 5: Verify build and lint
+<!-- chat-id: 81f1a386-f0fb-472d-9274-dd1625d09bf2 -->
 
 Run verification to ensure all new content is valid:
 - `npm run build` — confirm no build errors (valid frontmatter in all new/modified .md files)
