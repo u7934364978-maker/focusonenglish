@@ -30,6 +30,7 @@ faqs:
   - question: '¿Qué es third conditional y cómo se usa?'
     answer: 'Se usa para hablar de situaciones que no ocurrieron en el pasado y sus consecuencias imaginarias. Es el condicional de los arrepentimientos.'
 
+canonical: 'https://www.focus-on-english.com/blog/gramatica/condicionales-ingles-guia-completa'
 ---
 
 Los **condicionales en inglés** son estructuras que utilizamos para hablar de situaciones reales o imaginarias y sus consecuencias. En el nivel académico (B1 a C1), dominar estas formas es crucial para expresar hipótesis, arrepentimientos o verdades universales.

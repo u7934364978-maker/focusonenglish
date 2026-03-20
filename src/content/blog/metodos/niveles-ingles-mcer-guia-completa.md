@@ -32,6 +32,7 @@ faqs:
   - question: '¿Nivel B1 — Umbral?'
     answer: 'El nivel B1 es el primero de los "independientes". Es el nivel mínimo para trabajar en entornos internacionales básicos.'
 
+canonical: 'https://www.focus-on-english.com/blog/metodos/niveles-ingles-mcer-guia-completa'
 ---
 
 El **Marco Común Europeo de Referencia para las Lenguas** (MCER, o CEFR en inglés) es el sistema estándar internacional para describir y medir las habilidades lingüísticas. Si alguna vez te has preguntado qué significa exactamente tener un B2 de inglés, o cuánto tiempo necesitas para pasar de B1 a C1, esta guía te da todas las respuestas.

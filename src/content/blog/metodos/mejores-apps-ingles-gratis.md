@@ -27,6 +27,7 @@ faqs:
   - question: ¿Duolingo es bueno para aprender inglés desde cero?
     answer: >-
       Duolingo es una buena opción para comenzar desde cero por su interfaz gamificada y su curva de aprendizaje suave. Sin embargo, su enfoque en frases cortas y traducción directa puede crear malos hábitos. Úsalo para vocabulario y como motivación, pero complementa con otras fuentes desde el principio.
+canonical: 'https://www.focus-on-english.com/blog/metodos/mejores-apps-ingles-gratis'
 ---
 
 ## Las Mejores Apps para Aprender Inglés Gratis: Guía 2026

@@ -32,6 +32,7 @@ faqs:
   - question: '¿Practicar el schwa mejora la comprensión auditiva?'
     answer: 'Muchísimo. Cuando entiendes que los hablantes nativos reducen vocales constantemente, dejas de esperar escuchar sílabas claras donde no las hay. Eso elimina uno de los mayores obstáculos para entender el inglés rápido.'
 
+canonical: 'https://www.focus-on-english.com/blog/gramatica/schwa-ingles-sonido-clave'
 ---
 
 Si llevas tiempo estudiando inglés y sientes que tu pronunciación aún suena un poco rígida, hay una posibilidad muy alta de que el problema no sea tu acento, sino un único sonido que probablemente nadie te ha explicado bien: el **schwa**.

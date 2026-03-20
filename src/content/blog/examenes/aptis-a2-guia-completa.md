@@ -35,6 +35,7 @@ faqs:
     answer: >-
       No, el examen Aptis se realiza presencialmente en un centro autorizado,
       aunque se haga íntegramente por ordenador.
+canonical: 'https://www.focus-on-english.com/blog/examenes/aptis-a2-guia-completa'
 ---
 
 ## Consigue tu Certificado Aptis A2

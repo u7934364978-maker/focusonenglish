@@ -43,6 +43,7 @@ faqs:
       informales como "Hey!" para contactos formales, o traducciones literales del
       español como "I send you a greeting" (incorrecto). También evita el exceso
       de signos de exclamación, que restan profesionalidad.
+canonical: 'https://www.focus-on-english.com/blog/trabajo/frases-email-profesional-ingles'
 ---
 
 Cuando alguien lleva años escribiendo emails en inglés, lo que diferencia sus correos no es un vocabulario excepcional: es el dominio de un repertorio de frases que usa de forma natural según la situación. Este es ese repertorio, organizado por funciones, para que lo tengas siempre a mano.

@@ -32,6 +32,7 @@ faqs:
   - question: '¿Cómo practico la diferencia entre vocales cortas y largas en casa?'
     answer: 'La forma más efectiva es trabajar con pares mínimos: palabras que solo se diferencian en la cantidad vocálica, como bit/beat, full/fool o hot/heart. Busca las pronunciaciones en Forvo o el Cambridge Dictionary, escúchalas en bucle y grábate imitándolas. Después compara.'
 
+canonical: 'https://www.focus-on-english.com/blog/gramatica/vocales-cortas-largas-ingles'
 ---
 
 Una de las primeras frustraciones al estudiar inglés es darse cuenta de que la ortografía no te dice casi nada sobre cómo suena una vocal. La palabra *read* puede pronunciarse /riːd/ o /red/ dependiendo del tiempo verbal. La palabra *live* puede ser /lɪv/ (verbo) o /laɪv/ (adjetivo). Y si confundes *ship* con *sheep*, la conversación puede tomar un giro inesperado.

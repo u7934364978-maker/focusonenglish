@@ -33,6 +33,7 @@ faqs:
   - question: '¿Hay herramientas para saber cuántas sílabas tiene una palabra en inglés?'
     answer: 'Sí. El diccionario de Merriam-Webster marca los puntos de división silábica con puntos medios (por ejemplo, com·put·er). El Cambridge Dictionary también los incluye. Herramientas como HowManySyllables.com son útiles para verificar rápidamente. Y el IPA en cualquier diccionario de referencia te dice cuántas sílabas tiene una palabra con total precisión.'
 
+canonical: 'https://www.focus-on-english.com/blog/gramatica/silabas-ingles-division'
 ---
 
 Una sílaba en inglés es más que una unidad métrica para contar ritmo en poesía. Determina si una vocal se pronuncia larga o corta, dónde cae el acento de la palabra y cómo se agrupan los sonidos cuando hablas rápido. Hay palabras que los estudiantes llevan meses pronunciando mal no porque no sepan el sonido individual, sino porque no tienen claro dónde empieza y termina cada sílaba.

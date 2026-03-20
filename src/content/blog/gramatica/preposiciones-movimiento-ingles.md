@@ -30,6 +30,7 @@ faqs:
   - question: '¿¿Se puede usar "In" en lugar de "Into"??'
     answer: 'En inglés coloquial, a veces verás Go in the house. Sin embargo, en un examen académico o escrito, Into es la única forma correcta para indicar movimiento hacia el interior.'
 
+canonical: 'https://www.focus-on-english.com/blog/gramatica/preposiciones-movimiento-ingles'
 ---
 
 Las **preposiciones de movimiento** (Prepositions of Movement) son fundamentales para dar dinamismo a tu inglés. Mientras que las preposiciones de lugar describen dónde está algo, las de movimiento describen **hacia dónde va**.

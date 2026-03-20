@@ -29,6 +29,7 @@ faqs:
   - question: '¿El Tono en la Comunicación?'
     answer: 'No escribes igual un contrato legal que un mensaje por Slack. Entender el registro es clave para la atención al cliente internacional.'
 
+canonical: 'https://www.focus-on-english.com/blog/trabajo/vocabulario-negocios-ingles-profesional'
 ---
 
 En el mundo globalizado de hoy, el inglés no es solo un idioma, es la herramienta de trabajo más potente que puedes tener. Dominar el **vocabulario de negocios en inglés** (Business English) te abrirá puertas a mejores puestos, negociaciones internacionales y una comunicación más fluida con colegas de todo el mundo.

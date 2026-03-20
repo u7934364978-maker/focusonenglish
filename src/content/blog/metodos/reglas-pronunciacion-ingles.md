@@ -32,6 +32,7 @@ faqs:
   - question: '¿� Lista de Práctica de Pronunciación (Versión Imprimible)?'
     answer: 'Aquí tienes 20 palabras "trampa" que todo estudiante de inglés debe dominar:'
 
+canonical: 'https://www.focus-on-english.com/blog/metodos/reglas-pronunciacion-ingles'
 ---
 
 La pronunciación es la "cara" de tu inglés. Como profesor de Cambridge, he comprobado que muchos alumnos tienen una gramática excelente pero no logran comunicarse con eficacia debido a la falta de claridad fonética. El inglés no es un idioma fonético (no se lee como se escribe), pero sí es un idioma de **patrones**.

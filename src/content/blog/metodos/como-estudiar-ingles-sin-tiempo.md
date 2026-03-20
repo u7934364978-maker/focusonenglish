@@ -28,6 +28,7 @@ faqs:
   - question: '¿Inmersión Pasiva y el Método "Shadowing"?'
     answer: 'Si puedes escuchar música o un podcast mientras realizas tareas mecánicas (conducir, limpiar la casa, caminar al trabajo), tienes tiempo para estudiar inglés.'
 
+canonical: 'https://www.focus-on-english.com/blog/metodos/como-estudiar-ingles-sin-tiempo'
 ---
 
 ## Cómo Estudiar Inglés si no tienes Tiempo: Guía para Agendas Ocupadas

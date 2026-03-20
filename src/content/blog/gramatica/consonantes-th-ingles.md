@@ -32,6 +32,7 @@ faqs:
   - question: '¿Cuánto tiempo lleva dominar la TH?'
     answer: 'La articulación correcta puedes aprenderla en una sesión de práctica consciente de 20-30 minutos. Lo que lleva más tiempo es automatizarla para que salga sola en conversación sin tener que pensar en ella. Eso suele llevar varias semanas de práctica regular, especialmente si llevas años pronunciándola mal.'
 
+canonical: 'https://www.focus-on-english.com/blog/gramatica/consonantes-th-ingles'
 ---
 
 Hay dos consonantes del inglés que los hispanohablantes pronunciamos mal de forma casi universal. No porque sean difíciles en el sentido técnico —la posición de la lengua es simple— sino porque en español no existen y nunca hemos tenido que producirlas.
