@@ -109,9 +109,6 @@ export function UnitCard({ unit }: UnitCardProps) {
 
   return (
     <motion.div
-      initial={{ opacity: 0, y: 24 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.25, delay: (unit.unitNumber % 6) * 0.04 }}
       whileHover={{ y: -4, transition: { duration: 0.2 } }}
       className={`group bg-white rounded-3xl border-2 border-slate-100 shadow-md hover:shadow-xl hover:shadow-slate-200/80 ${theme.glow} transition-all duration-300 relative overflow-hidden focus-within:ring-2 focus-within:ring-offset-2 flex flex-col`}
     >
