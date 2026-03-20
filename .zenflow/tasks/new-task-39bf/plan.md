@@ -88,7 +88,8 @@ Edit the `keywords` frontmatter array in each of the following files to append `
 
 No body content changes — only frontmatter keyword addition.
 
-### [ ] Step 3: Create new article curso-ingles-gratis.md
+### [x] Step 3: Create new article curso-ingles-gratis.md
+<!-- chat-id: 402462d5-3fcd-43f6-a2eb-a1482ecb8f5a -->
 
 Create `src/content/blog/metodos/curso-ingles-gratis.md` with:
 - Full frontmatter as specified in spec.md (title, date, author: sara-mendez, excerpt, description, category: metodos, readTime: 9 min, image, alt, keywords including "curso ingles", faqs with 4 answered questions, canonical)
