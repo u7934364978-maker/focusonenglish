@@ -104,7 +104,8 @@ Create `src/content/blog/metodos/curso-ingles-gratis.md` with:
   - Internal link to hub `/hubs/curso-ingles`
   - CTA to Focus English
 
-### [ ] Step 4: Create new article curso-ingles-online.md
+### [x] Step 4: Create new article curso-ingles-online.md
+<!-- chat-id: f8572133-b796-4fd6-af9d-f83606ac1dfb -->
 
 Create `src/content/blog/metodos/curso-ingles-online.md` with:
 - Full frontmatter as specified in spec.md (title, date, author: sara-mendez, excerpt, description, category: metodos, readTime: 10 min, image, alt, keywords including "curso ingles", faqs with 4 answered questions, canonical)
