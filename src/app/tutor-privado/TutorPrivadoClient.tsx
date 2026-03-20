@@ -55,7 +55,7 @@ export default function TutorPrivadoClient() {
 
   const handleFinish = async () => {
     await completeSession('Clase finalizada por el usuario.');
-    router.push('/dashboard');
+    router.push('/mi-panel');
   };
 
   return (

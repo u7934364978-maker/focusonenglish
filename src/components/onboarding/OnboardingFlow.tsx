@@ -66,7 +66,7 @@ export default function OnboardingFlow() {
         learning_goals: ['general'],
         // Additional metadata could be stored in a separate table or JSON field if needed
       });
-      router.push('/dashboard');
+      router.push('/mi-panel');
     } catch (error) {
       console.error('Error saving onboarding data:', error);
     } finally {

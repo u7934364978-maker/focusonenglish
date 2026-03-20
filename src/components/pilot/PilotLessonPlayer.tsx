@@ -110,10 +110,10 @@ export default function PilotLessonPlayer({ unit, userId, initialProgress }: Pil
           Has completado la unidad "{unit.title}". Estás listo para tu viaje.
         </p>
         <button 
-          onClick={() => window.location.href = '/dashboard'}
+          onClick={() => window.location.href = '/mi-panel'}
           className="px-12 py-5 bg-slate-900 dark:bg-white text-white dark:text-slate-900 rounded-2xl font-black text-xl shadow-2xl hover:scale-105 transition-all"
         >
-          Volver al Dashboard
+          Volver al panel
         </button>
       </div>
     );

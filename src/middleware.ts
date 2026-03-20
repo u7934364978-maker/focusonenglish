@@ -149,7 +149,7 @@ export async function middleware(request: NextRequest) {
     pathname === "/aula" || pathname.startsWith("/aula/")
   ) {
     const url = request.nextUrl.clone();
-    url.pathname = "/curso-a1/outline";
+      url.pathname = "/mi-panel";
     return NextResponse.redirect(url);
   }
 
@@ -164,28 +164,28 @@ export async function middleware(request: NextRequest) {
     return response;
   }
 
-  // Si está autenticado y va a login, al curso-a1/outline (solo si es premium)
+  // Si está autenticado y va a login, enviarlo al panel alumno/admin.
   if (user && pathname === "/cuenta/login") {
     const isPaid = profile?.subscription_status === "active" || profile?.subscription_status === "trialing";
     const isAdmin = profile?.role === "admin";
     
     if (isPaid || isAdmin) {
       const url = request.nextUrl.clone();
-      url.pathname = "/curso-a1/outline";
+      url.pathname = isAdmin ? "/admin" : "/mi-panel";
       url.searchParams.delete("next");
       return NextResponse.redirect(url);
     }
     // Si no es premium, permitimos que se quede en /cuenta/login para que vea el mensaje de sesión activa o pueda cerrar sesión
   }
 
-  // Si está autenticado y va a registro, solo redirigir si YA TIENE suscripción activa
+  // Si está autenticado y va a registro, redirigir a panel si ya tiene acceso.
   if (user && pathname === "/cuenta/registro") {
     const isPaid = profile?.subscription_status === "active" || profile?.subscription_status === "trialing";
     const isAdmin = profile?.role === "admin";
     
     if (isPaid || isAdmin) {
       const url = request.nextUrl.clone();
-      url.pathname = "/curso-a1/outline";
+      url.pathname = isAdmin ? "/admin" : "/mi-panel";
       url.searchParams.delete("next");
       return NextResponse.redirect(url);
     }
@@ -210,7 +210,8 @@ export async function middleware(request: NextRequest) {
     pathname.startsWith("/admin") ||
     pathname.startsWith("/misiones") ||
     pathname.startsWith("/onboarding") ||
-    pathname.startsWith("/support/ticket");
+    pathname.startsWith("/support/ticket") ||
+    pathname.startsWith("/mi-panel");
 
   if (isProtectedArea) {
     if (!user) {
@@ -226,6 +227,7 @@ export async function middleware(request: NextRequest) {
     const isAdminArea = pathname.startsWith("/admin");
     const isToeflExempt = pathname.startsWith("/curso/toefl-");
     const isOutlineOnly = pathname === "/curso-a1/outline" || pathname === "/curso-a2/outline" || pathname === "/curso-b1/outline" || pathname === "/curso-b2/outline";
+    const isStudentPanel = pathname.startsWith("/mi-panel");
 
     // Admin: si el usuario autenticado no es admin, enviarlo al login de admin (no al de alumno)
     if (isAdminArea && !isAdmin) {
@@ -236,7 +238,7 @@ export async function middleware(request: NextRequest) {
       return NextResponse.redirect(url, 303);
     }
 
-    if (!isPaid && !isAdmin && !isToeflExempt && !isOutlineOnly) {
+    if (!isPaid && !isAdmin && !isToeflExempt && !isOutlineOnly && !isStudentPanel) {
       const url = request.nextUrl.clone();
       url.pathname = "/planes";
       url.searchParams.set("reason", "premium_required");
