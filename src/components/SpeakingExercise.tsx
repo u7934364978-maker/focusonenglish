@@ -46,6 +46,7 @@ export default function SpeakingExercise({ question, vocabulary, onComplete, lev
   const [audioBlob, setAudioBlob] = useState<Blob | null>(null);
   const [audioUrl, setAudioUrl] = useState<string | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
+  const [isGeneratingModelAudio, setIsGeneratingModelAudio] = useState(false);
   const [isEvaluating, setIsEvaluating] = useState(false);
   const [evaluation, setEvaluation] = useState<SpeakingEvaluation | null>(null);
   const [recordingTime, setRecordingTime] = useState(0);
@@ -181,10 +182,45 @@ export default function SpeakingExercise({ question, vocabulary, onComplete, lev
   };
 
   const playModelAudio = () => {
+    const ttsText = question.expectedResponse || question.prompt;
+
+    const stripMarkup = (s: string) => {
+      let out = s.replace(/\[\[([^|\]]+)\|[^\]]+\]\]/g, '$1');
+      out = out.replace(/\[\[([^|\]]+)\]\]/g, '$1');
+      return out.trim();
+    };
+
+    const cleanText = stripMarkup(ttsText);
+    if (!cleanText) return;
+
     if (question.modelAudio) {
       const audio = new Audio(question.modelAudio);
-      audio.play().catch(err => console.error('Error playing model audio:', err));
+      audio.play().catch((err) => console.error('Error playing model audio:', err));
+      return;
     }
+
+    if (isGeneratingModelAudio) return;
+
+    setIsGeneratingModelAudio(true);
+    fetch('/api/tts', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ text: cleanText }),
+    })
+      .then(async (res) => {
+        if (!res.ok) throw new Error('Cloudflare TTS failed');
+        const blob = await res.blob();
+        const blobUrl = URL.createObjectURL(blob);
+        const audio = new Audio(blobUrl);
+        audio.onended = () => URL.revokeObjectURL(blobUrl);
+        await audio.play();
+      })
+      .catch((err) => {
+        console.error('Error playing cloudflare model audio:', err);
+      })
+      .finally(() => {
+        setIsGeneratingModelAudio(false);
+      });
   };
 
   const evaluateRecording = async () => {
@@ -255,14 +291,15 @@ export default function SpeakingExercise({ question, vocabulary, onComplete, lev
             </div>
           )}
 
-          {question.modelAudio && (
+          {(question.modelAudio || question.expectedResponse) && (
             <div className="flex justify-center mb-4">
               <button
                 onClick={playModelAudio}
-                className="flex items-center gap-2 bg-orange-100 text-orange-700 px-4 py-2 rounded-full font-bold hover:bg-orange-200 transition-all transform hover:scale-105 active:scale-95 shadow-sm border border-orange-200"
+                disabled={isGeneratingModelAudio}
+                className="flex items-center gap-2 bg-orange-100 text-orange-700 px-4 py-2 rounded-full font-bold hover:bg-orange-200 transition-all transform hover:scale-105 active:scale-95 shadow-sm border border-orange-200 disabled:opacity-60 disabled:cursor-not-allowed"
               >
                 <Volume2 className="w-5 h-5" />
-                Escuchar modelo
+                {isGeneratingModelAudio ? 'Generando…' : 'Escuchar modelo'}
               </button>
             </div>
           )}

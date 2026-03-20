@@ -60,7 +60,9 @@ export default function EnhancedSpeakingExercise({ question, onComplete, level }
   const [audioUrl, setAudioUrl] = useState<string | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [isPlayingModel, setIsPlayingModel] = useState(false);
-  const [speechFallbackMode, setSpeechFallbackMode] = useState(false);
+  const [isGeneratingModelAudio, setIsGeneratingModelAudio] = useState(false);
+  const modelCloudflareAudioRef = useRef<HTMLAudioElement | null>(null);
+  const [modelCloudflareBlobUrl, setModelCloudflareBlobUrl] = useState<string | null>(null);
   const [isEvaluating, setIsEvaluating] = useState(false);
   const [evaluation, setEvaluation] = useState<SpeakingEvaluation | null>(null);
   const [evalError, setEvalError] = useState<string | null>(null);
@@ -131,6 +133,15 @@ export default function EnhancedSpeakingExercise({ question, onComplete, level }
       if (audioContextRef.current) audioContextRef.current.close();
     };
   }, [audioUrl]);
+
+  useEffect(() => {
+    return () => {
+      if (modelCloudflareBlobUrl) URL.revokeObjectURL(modelCloudflareBlobUrl);
+      if (modelCloudflareAudioRef.current) {
+        modelCloudflareAudioRef.current.pause();
+      }
+    };
+  }, [modelCloudflareBlobUrl]);
 
   const visualizeAudio = (stream: MediaStream) => {
     audioContextRef.current = new AudioContext();
@@ -311,65 +322,77 @@ export default function EnhancedSpeakingExercise({ question, onComplete, level }
   const playModelAudio = () => {
     const text = question.expectedResponse || question.prompt;
 
-    // Fallback to browser TTS if we detected audio failure or if no model audio is available.
-    if (speechFallbackMode || !question.modelAudioUrl || !text) {
-      if (typeof window === 'undefined' || !('speechSynthesis' in window)) return;
-
-      if (isPlayingModel) {
-        window.speechSynthesis.cancel();
-        setIsPlayingModel(false);
-        return;
-      }
-
-      const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = 'en-US';
-      utterance.onstart = () => setIsPlayingModel(true);
-      utterance.onend = () => {
-        setIsPlayingModel(false);
-      };
-      utterance.onerror = () => {
-        setIsPlayingModel(false);
-      };
-      window.speechSynthesis.cancel();
-      window.speechSynthesis.speak(utterance);
-      return;
-    }
-
-    // Audio file mode.
-    if (modelAudioRef.current) {
-      if (isPlayingModel) {
+    // Pause model audio if currently playing.
+    if (isPlayingModel) {
+      if (modelAudioRef.current) {
         modelAudioRef.current.pause();
         setIsPlayingModel(false);
         return;
-      } else {
+      }
+      if (modelCloudflareAudioRef.current) {
+        modelCloudflareAudioRef.current.pause();
+        setIsPlayingModel(false);
+        return;
+      }
+    }
+
+    if (!text) return;
+
+    const playWithCloudflareTTS = async () => {
+      if (isGeneratingModelAudio) return;
+      setIsGeneratingModelAudio(true);
+      try {
+        const res = await fetch('/api/tts', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ text }),
+        });
+
+        if (!res.ok) throw new Error('Cloudflare TTS failed');
+        const blob = await res.blob();
+        const blobUrl = URL.createObjectURL(blob);
+
+        if (modelCloudflareBlobUrl) URL.revokeObjectURL(modelCloudflareBlobUrl);
+        setModelCloudflareBlobUrl(blobUrl);
+
+        const audio = new Audio(blobUrl);
+        modelCloudflareAudioRef.current = audio;
+        audio.onended = () => {
+          setIsPlayingModel(false);
+          setIsGeneratingModelAudio(false);
+        };
+        await audio.play();
+        setIsPlayingModel(true);
+      } catch (e) {
+        console.error('Error generating model audio via Cloudflare TTS:', e);
+        setIsPlayingModel(false);
+        setIsGeneratingModelAudio(false);
+      }
+    };
+
+    // If we have a local model MP3, try it first. If it fails (missing/404),
+    // we transparently fall back to Cloudflare TTS.
+    if (question.modelAudioUrl && modelAudioRef.current) {
+      try {
         const playPromise = modelAudioRef.current.play();
         const anyPlayPromise = playPromise as any;
-
         if (anyPlayPromise && typeof anyPlayPromise.catch === 'function') {
           anyPlayPromise
-            .then(() => {
-              setIsPlayingModel(true);
-            })
-            .catch(() => {
-              // MP3 couldn't be played (missing/404/etc). Fallback to browser TTS.
-              setSpeechFallbackMode(true);
-              setIsPlayingModel(false);
-
-              if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
-                const utterance = new SpeechSynthesisUtterance(text);
-                utterance.lang = 'en-US';
-                utterance.onstart = () => setIsPlayingModel(true);
-                utterance.onend = () => setIsPlayingModel(false);
-                utterance.onerror = () => setIsPlayingModel(false);
-                window.speechSynthesis.cancel();
-                window.speechSynthesis.speak(utterance);
-              }
-            });
+            .then(() => setIsPlayingModel(true))
+            .catch(() => playWithCloudflareTTS());
         } else {
           setIsPlayingModel(true);
         }
+        return;
+      } catch {
+        // If play throws synchronously, fallback.
+        playWithCloudflareTTS();
+        return;
       }
     }
+
+    // No local MP3 (or no element), generate via Cloudflare.
+    playWithCloudflareTTS();
   };
 
   const evaluateRecording = async () => {
@@ -462,22 +485,24 @@ export default function EnhancedSpeakingExercise({ question, onComplete, level }
                   src={question.modelAudioUrl}
                   onPlay={() => {
                     setIsPlayingModel(true);
-                    setSpeechFallbackMode(false);
                   }}
                   onPause={() => setIsPlayingModel(false)}
                   onEnded={() => setIsPlayingModel(false)}
-                  onError={() => {
-                    setIsPlayingModel(false);
-                    setSpeechFallbackMode(true);
-                  }}
+                  onError={() => setIsPlayingModel(false)}
                   preload="metadata"
                 />
               )}
               <button
                 onClick={playModelAudio}
-                className="flex items-center gap-2 bg-white/20 hover:bg-white/30 backdrop-blur px-6 py-3 rounded-xl transition-all font-semibold"
+                disabled={isGeneratingModelAudio}
+                className="flex items-center gap-2 bg-white/20 hover:bg-white/30 backdrop-blur px-6 py-3 rounded-xl transition-all font-semibold disabled:opacity-70 disabled:cursor-not-allowed"
               >
-                {isPlayingModel ? (
+                {isGeneratingModelAudio ? (
+                  <>
+                    <Loader2 className="w-5 h-5 animate-spin" />
+                    <span>Generando…</span>
+                  </>
+                ) : isPlayingModel ? (
                   <>
                     <Pause className="w-5 h-5" />
                     <span>Pausar Modelo</span>
