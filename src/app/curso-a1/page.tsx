@@ -3,8 +3,7 @@ import Link from 'next/link';
 import { A1CourseSelector } from '@/components/course/preview/A1CourseSelector';
 import { UnifiedCourseProgressSidebar } from '@/components/course/UnifiedCourseProgressSidebar';
 import { premiumCourseServerService } from '@/lib/services/premium-course-service.server';
-import { BookOpen, Clock, Award, Zap, CheckCircle, Target } from 'lucide-react';
-import { WelcomeWrapper } from './WelcomeWrapper';
+import { BookOpen, Clock, Award, FileText } from 'lucide-react';
 
 export const dynamic = 'force-dynamic';
 
@@ -15,167 +14,94 @@ async function A1PreviewContent() {
   } catch (err) {
     console.error('[curso-a1] Error loading course metadata:', err);
     return (
-      <div className="min-h-screen flex items-center justify-center bg-[#FEF9F5] p-6">
+      <div className="min-h-screen flex items-center justify-center bg-slate-50 p-6">
         <div className="max-w-md text-center">
           <p className="text-lg font-semibold text-slate-800 mb-2">Error al cargar el curso</p>
           <p className="text-slate-600 mb-4">No se pudieron cargar los datos. Intenta recargar la página.</p>
-          <a href="/curso-a1" className="text-coral-600 font-bold hover:underline">Recargar</a>
+          <a href="/curso-a1" className="text-blue-600 font-bold hover:underline">Recargar</a>
         </div>
       </div>
     );
   }
-  const totalExercises = courseMetadata.units.reduce((sum, unit) => sum + unit.exerciseCount, 0);
-  const totalHours = Math.round(courseMetadata.totalDuration / 60);
 
   return (
-    <div className="min-h-screen bg-[#FEF9F5]">
-      <WelcomeWrapper totalUnits={courseMetadata.totalUnits} />
-
-      {/* ── HERO ─────────────────────────────────────────────────────────── */}
-      <header className="relative overflow-hidden bg-gradient-to-br from-[#FF6B6B] via-[#FF8E53] to-[#FFA06B]">
-        {/* Dot pattern */}
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width=%2260%22 height=%2260%22 viewBox=%220 0 60 60%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg fill=%22none%22 fill-rule=%22evenodd%22%3E%3Cg fill=%22%23ffffff%22 fill-opacity=%220.05%22%3E%3Ccircle cx=%2230%22 cy=%2230%22 r=%222%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')]" />
-        {/* Radial light bloom */}
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_30%_40%,rgba(255,255,255,0.18),transparent_65%)]" />
-
-        {/* Floating emoji decorations */}
-        <span className="absolute top-8 right-12 text-5xl opacity-20 select-none rotate-12 hidden md:block" aria-hidden>🇬🇧</span>
-        <span className="absolute top-20 right-[20%] text-3xl opacity-15 select-none -rotate-6 hidden lg:block" aria-hidden>💬</span>
-        <span className="absolute bottom-16 right-8 text-4xl opacity-15 select-none rotate-3 hidden md:block" aria-hidden>🎯</span>
-        <span className="absolute top-12 left-[55%] text-2xl opacity-10 select-none rotate-12 hidden xl:block" aria-hidden>✨</span>
-
-        <div className="relative max-w-7xl mx-auto px-6 pt-16 pb-20 md:pt-20 md:pb-24">
-          <div className="max-w-3xl">
-            {/* Eyebrow label */}
-            <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm border border-white/30 text-white px-4 py-2 rounded-full mb-6">
-              <Award className="w-4 h-4 text-yellow-200" />
-              <span className="text-xs font-black tracking-widest uppercase">Nivel A1 · Principiante</span>
+    <div className="min-h-screen bg-slate-50">
+      <div className="bg-white border-b border-slate-200">
+        <div className="max-w-7xl mx-auto px-4 py-12 md:py-16">
+          <div className="text-center mb-8">
+            <div className="flex items-center justify-center gap-3 mb-4">
+              <div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-50 text-blue-600 rounded-full font-bold text-sm border border-blue-100">
+                <Award className="w-4 h-4" />
+                <span>A1 Nivel · Principiante</span>
+              </div>
+              <Link
+                href="/curso-a1/outline"
+                className="inline-flex items-center gap-2 px-4 py-2 bg-slate-100 text-slate-700 rounded-full font-bold text-sm border border-slate-200 hover:bg-slate-200 transition-colors"
+              >
+                <FileText className="w-4 h-4" />
+                <span>Ver programa</span>
+              </Link>
             </div>
-
-            {/* Display title */}
-            <h1 className="text-5xl sm:text-6xl md:text-7xl font-black tracking-tighter text-white leading-none mb-5">
-              Curso de<br />
-              <span className="text-yellow-100">Inglés A1</span>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-slate-900 mb-4 tracking-tight">
+              Vista previa del curso A1
             </h1>
-
-            {/* Subtitle */}
-            <p className="text-lg md:text-xl font-medium text-white/85 max-w-xl leading-relaxed mb-6">
-              De cero a conversacional en 90 días. {courseMetadata.totalUnits} unidades progresivas diseñadas para hablantes de español.
+            <p className="text-xl text-slate-600 max-w-3xl mx-auto font-medium">
+              Explora las {courseMetadata.totalUnits} unidades del curso A1 y empieza desde cero con una ruta clara de progreso.
             </p>
+          </div>
 
-            {/* Primary actions */}
-            <div className="flex flex-wrap items-center gap-3 mb-4">
-              <Link
-                href="/curso-a1/practica-inteligente"
-                className="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-2xl bg-white text-[#FF6B6B] font-black text-sm uppercase tracking-widest shadow-lg shadow-black/20 hover:-translate-y-0.5 hover:shadow-xl transition-all"
-              >
-                <span>Práctica inteligente A1</span>
-              </Link>
-              <Link
-                href="/juego-ingles"
-                className="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-2xl bg-white/20 border-2 border-white/40 text-white font-bold text-sm hover:bg-white/30 transition-all"
-              >
-                <Zap className="w-4 h-4" />
-                <span>Juego (10 lecciones)</span>
-              </Link>
-              <Link
-                href="/juego-ingles/escena/1"
-                className="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-2xl bg-white/20 border border-white/40 text-white font-medium text-sm hover:bg-white/30 transition-all"
-              >
-                <span>Escena 1: El gato busca comida</span>
-              </Link>
-              <Link
-                href="/juego-ingles/demo"
-                className="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-2xl bg-white/10 border border-white/30 text-white/90 font-medium text-sm hover:bg-white/20 transition-all"
-              >
-                <span>Demo: gato (Leonardo + Runway)</span>
-              </Link>
-              <span className="text-xs text-white/80 font-medium">
-                Sesión adaptativa con ejercicios seleccionados automáticamente para ti.
-              </span>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+            <div className="bg-slate-50 rounded-2xl p-6 border border-slate-100 text-center">
+              <div className="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center mx-auto mb-3">
+                <BookOpen className="w-6 h-6" />
+              </div>
+              <p className="text-3xl font-black text-slate-900 mb-1">{courseMetadata.totalUnits}</p>
+              <p className="text-sm font-bold text-slate-500 uppercase tracking-wider">Unidades</p>
             </div>
-
-            {/* Learning outcomes */}
-            <ul className="space-y-2.5">
-              {[
-                { text: 'Vocabulario esencial para el trabajo y el viaje', emoji: '💼' },
-                { text: 'Gramática básica explicada en español',            emoji: '📝' },
-                { text: 'Pronunciación y comprensión auditiva real',        emoji: '🎧' },
-              ].map(({ text, emoji }) => (
-                <li key={text} className="flex items-center gap-3 text-white/90">
-                  <span className="text-lg leading-none" aria-hidden>{emoji}</span>
-                  <span className="text-sm font-semibold leading-snug">{text}</span>
-                </li>
-              ))}
-            </ul>
+            <div className="bg-slate-50 rounded-2xl p-6 border border-slate-100 text-center">
+              <div className="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center mx-auto mb-3">
+                <Clock className="w-6 h-6" />
+              </div>
+              <p className="text-3xl font-black text-slate-900 mb-1">{Math.round(courseMetadata.totalDuration / 60)}h</p>
+              <p className="text-sm font-bold text-slate-500 uppercase tracking-wider">Duración</p>
+            </div>
+            <div className="bg-slate-50 rounded-2xl p-6 border border-slate-100 text-center">
+              <div className="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center mx-auto mb-3">
+                <Award className="w-6 h-6" />
+              </div>
+              <p className="text-3xl font-black text-slate-900 mb-1">
+                {courseMetadata.units.reduce((sum, unit) => sum + unit.exerciseCount, 0)}
+              </p>
+              <p className="text-sm font-bold text-slate-500 uppercase tracking-wider">Ejercicios</p>
+            </div>
           </div>
         </div>
+      </div>
 
-        {/* Decorative arc */}
-        <div className="absolute bottom-0 left-0 right-0 h-10 bg-[#FEF9F5] rounded-t-[60%]" />
-      </header>
-
-      {/* ── STATS BAR ────────────────────────────────────────────────────── */}
-      <section className="max-w-4xl mx-auto px-6 -mt-2 mb-12">
-        <div className="grid grid-cols-3 gap-4">
-          {[
-            { icon: BookOpen, value: courseMetadata.totalUnits, label: 'Unidades', color: 'text-coral-600', bg: 'bg-coral-50 border-coral-100' },
-            { icon: Clock,    value: `${totalHours}h`,         label: 'Duración',  color: 'text-peach-600',  bg: 'bg-peach-50  border-peach-100'  },
-            { icon: Zap,      value: totalExercises,            label: 'Ejercicios', color: 'text-amber-600', bg: 'bg-amber-50  border-amber-100'  },
-          ].map(({ icon: Icon, value, label, color, bg }) => (
-            <div key={label} className={`${bg} border rounded-2xl p-5 text-center shadow-sm`}>
-              <div className={`${color} flex justify-center mb-2`}>
-                <Icon className="w-5 h-5" />
-              </div>
-              <p className={`font-display text-3xl font-extrabold tracking-tight ${color} leading-none mb-1`}>{value}</p>
-              <p className="text-xs font-bold text-slate-500 uppercase tracking-widest">{label}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* ── MAIN CONTENT ─────────────────────────────────────────────────── */}
-      <main className="max-w-7xl mx-auto px-6 pb-20">
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-10">
-
-          {/* Units grid */}
-          <div className="lg:col-span-3">
-            {/* Section header */}
-            <div className="mb-6">
-              <div className="flex items-center gap-2 mb-1">
-                <Target className="w-4 h-4 text-coral-500" aria-hidden />
-                <p className="text-xs font-bold tracking-wider text-coral-600 uppercase">Contenido del curso</p>
-              </div>
-              <h2 className="text-2xl font-extrabold tracking-tight text-slate-900">
-                Elige por dónde continuar
-              </h2>
-              <p className="text-sm font-medium text-slate-600 mt-1 leading-relaxed">
-                Cada unidad incluye vocabulario, gramática, actividades prácticas y audio con pronunciación nativa.
-              </p>
-            </div>
-
-            {/* Test final A1 */}
+      <div className="max-w-7xl mx-auto px-4 py-12">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
+          <div className="lg:col-span-8">
             <Link
               href="/curso-a1/test-final"
-              className="mb-6 flex items-center gap-4 rounded-2xl border-2 border-amber-200 bg-amber-50/80 p-4 transition-all hover:border-amber-300 hover:bg-amber-50"
+              className="mb-8 flex items-center gap-4 rounded-2xl border-2 border-amber-200 bg-amber-50/80 p-4 transition-all hover:border-amber-300 hover:bg-amber-50"
             >
               <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-amber-100 text-2xl">
                 📋
               </div>
               <div className="min-w-0 flex-1">
                 <p className="font-bold text-slate-900">Test final A1</p>
-                <p className="text-sm text-slate-600">28 preguntas de gramática, vocabulario, lectura, escucha y escritura. Aprobado con ≥70%.</p>
+                <p className="text-sm text-slate-600">
+                  28 preguntas de gramática, vocabulario, lectura, escucha y escritura. Aprobado con ≥70%.
+                </p>
               </div>
               <span className="shrink-0 text-sm font-semibold text-amber-700">Hacer test →</span>
             </Link>
 
-            <A1CourseSelector units={courseMetadata.units} />
+            <A1CourseSelector units={courseMetadata.units} courseId="ingles-a1" />
           </div>
 
-          {/* Progress sidebar */}
-          <aside className="lg:col-span-1">
+          <aside className="lg:col-span-4">
             <div className="sticky top-6 bg-white rounded-2xl border border-slate-100 shadow-sm overflow-hidden">
-              {/* Sidebar header */}
               <div className="px-5 pt-5 pb-4 border-b border-slate-100">
                 <p className="text-xs font-bold tracking-wider text-slate-500 uppercase mb-1">Tu avance</p>
                 <h3 className="text-base font-extrabold text-slate-900 tracking-tight">Progreso del curso</h3>
@@ -186,17 +112,17 @@ async function A1PreviewContent() {
             </div>
           </aside>
         </div>
-      </main>
+      </div>
     </div>
   );
 }
 
 function LoadingState() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-[#FEF9F5]">
+    <div className="min-h-screen flex items-center justify-center bg-slate-50">
       <div className="text-center">
-        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-coral-500 mx-auto mb-4" />
-        <p className="text-sm font-semibold text-slate-500">Preparando el curso…</p>
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500 mx-auto mb-4"></div>
+        <p className="text-slate-600 font-medium">Cargando curso A1…</p>
       </div>
     </div>
   );
