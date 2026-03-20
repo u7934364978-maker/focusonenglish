@@ -7,7 +7,7 @@ import RepairModeBanner from '@/components/course/RepairModeBanner';
 import StreakBurst from '@/components/gamification/StreakBurst';
 import { useGamification } from '@/lib/hooks/use-gamification';
 import { useA1ProgressTracking } from '@/hooks/useA1ProgressTracking';
-import { X, Heart, Zap, Trophy, Flame, ChevronLeft, ChevronRight, CheckCircle, XCircle, Target } from 'lucide-react';
+import { X, Heart, Zap, Trophy, Flame, ArrowLeft, ArrowRight, Home, CheckCircle, XCircle } from 'lucide-react';
 
 // Copy de alta calidad: tono profesional, claro y alentador
 const FEEDBACK_CORRECT_HEADLINES = ['¡Correcto!', '¡Muy bien!', '¡Perfecto!', '¡Excelente!', '¡Lo tienes!'];
@@ -503,15 +503,7 @@ function UnitPreviewContent() {
 
   // ── EXERCISE PLAYER ────────────────────────────────────────────────
   return (
-    <div className={`min-h-screen flex flex-col transition-colors duration-700 relative ${
-      feedback === 'correct'
-        ? 'bg-green-50/40'
-        : feedback === 'incorrect'
-        ? 'bg-red-50/30'
-        : isOnStreak
-        ? 'bg-amber-50/50'
-        : 'bg-slate-50'
-    }`}>
+    <div className="min-h-screen flex flex-col relative bg-slate-50">
       {/* Streak glow behind everything */}
       <StreakGlow count={consecutiveCorrect} />
 
@@ -521,138 +513,40 @@ function UnitPreviewContent() {
       {isRepairMode && <RepairModeBanner remainingCount={repairRemaining} />}
 
       {/* ── HEADER ────────────────────────────────────────────────── */}
-      <header className="sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-slate-100 px-4 py-2 shadow-sm">
-        <div className="max-w-2xl mx-auto flex items-center gap-3">
-
-          <Link
-            href="/curso-a1"
-            className="p-2 rounded-xl text-slate-400 hover:text-slate-700 hover:bg-slate-100 transition-all flex-shrink-0"
-            aria-label="Salir"
-          >
-            <X className="w-5 h-5" />
+      <nav className="bg-white border-b p-4 flex justify-between items-center sticky top-0 z-50">
+        <div className="flex items-center gap-4">
+          <Link href="/curso-a1" className="p-2 hover:bg-slate-100 rounded-full transition-colors">
+            <Home className="w-6 h-6 text-slate-600" />
           </Link>
-
-          <div className="flex-1 min-w-0">
-            <p className="text-[11px] font-semibold text-slate-500 truncate leading-none mb-1">
-              {unitTitle ? `${unitTitle}` : `Unidad ${unitNumber}`}
-              {!isFinalTest && totalLessons > 1 ? ` · Bloque ${lessonNumber}/${totalLessons}` : ''}
-              {' · '}Actividad {currentIndex + 1} de {exercises.length}
-            </p>
-
-            <div className="relative h-2.5 bg-slate-100 rounded-full overflow-hidden" role="progressbar" aria-valuenow={currentIndex + 1} aria-valuemin={1} aria-valuemax={exercises.length} aria-label={`Actividad ${currentIndex + 1} de ${exercises.length}`}>
-              <div
-                className={`h-full rounded-full transition-all duration-700 ease-out relative overflow-hidden ${
-                  isRepairMode
-                    ? 'bg-gradient-to-r from-amber-400 to-amber-500'
-                    : isOnStreak
-                    ? 'bg-gradient-to-r from-amber-400 to-orange-500'
-                    : 'bg-gradient-to-r from-[#FF6B6B] to-[#FF8E53]'
-                }`}
-                style={{ width: `${Math.max(((currentIndex + 1) / exercises.length) * 100, 4)}%` }}
-              >
-                <span className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent animate-[shimmer_2s_ease-in-out_infinite]" />
-              </div>
-            </div>
-
-            {showDots && (
-              <div className="flex gap-1 mt-1.5" aria-hidden>
-                {Array.from({ length: exercises.length }).map((_, i) => (
-                  <div
-                    key={i}
-                    className={`h-1 flex-1 rounded-full transition-all duration-300 ${
-                      i < currentIndex
-                        ? isOnStreak ? 'bg-amber-400' : 'bg-[#FF6B6B]'
-                        : i === currentIndex
-                        ? isOnStreak ? 'bg-amber-400/50' : 'bg-[#FF6B6B]/50'
-                        : 'bg-slate-200'
-                    }`}
-                  />
-                ))}
-              </div>
-            )}
-          </div>
-
-          <div className="flex items-center gap-3 flex-shrink-0">
-            <div className="relative flex items-center gap-1">
-              <Zap className="w-4 h-4 text-yellow-500 fill-yellow-400" />
-              <span className="font-medium text-slate-700 text-sm tabular-nums">{displayXp}</span>
-              {showXpPop && (
-                <span className="absolute -top-8 left-1/2 -translate-x-1/2 text-emerald-600 font-semibold text-sm pointer-events-none whitespace-nowrap animate-[xp-fly_0.8s_ease-out_forwards]">
-                  +{xpGained} XP
-                </span>
-              )}
-            </div>
-
-            <div className="flex gap-0.5">
-              {Array.from({ length: 3 }).map((_, i) => (
-                <Heart
-                  key={i}
-                  className={`w-5 h-5 transition-all duration-300 ${
-                    i < lives ? 'text-red-500 fill-red-500 scale-100' : 'text-slate-200 fill-slate-200 scale-90'
-                  } ${lostLifeAt !== null && i === lostLifeAt ? 'animate-[heart-lost_0.5s_ease-out]' : ''}`}
-                />
-              ))}
-            </div>
-
-            <div className="flex gap-1 border-l border-slate-100 pl-3 ml-1">
-              <button
-                onClick={() => setCurrentIndex(prev => Math.max(0, prev - 1))}
-                disabled={currentIndex === 0}
-                className="p-1.5 rounded-lg text-slate-400 hover:text-slate-700 hover:bg-slate-100 transition-all disabled:opacity-20 disabled:cursor-not-allowed focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B6B] focus-visible:ring-offset-2"
-                aria-label="Actividad anterior"
-              >
-                <ChevronLeft className="w-4 h-4" />
-              </button>
-              <button
-                onClick={() => setCurrentIndex(prev => Math.min(exercises.length - 1, prev + 1))}
-                disabled={currentIndex === exercises.length - 1}
-                className="p-1.5 rounded-lg text-slate-400 hover:text-slate-700 hover:bg-slate-100 transition-all disabled:opacity-20 disabled:cursor-not-allowed focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B6B] focus-visible:ring-offset-2"
-                aria-label="Siguiente actividad"
-              >
-                <ChevronRight className="w-4 h-4" />
-              </button>
-            </div>
-          </div>
-        </div>
-      </header>
-
-      {/* ── SUB-HEADER: STREAK + COUNTER ──────────────────────────── */}
-      <div className="relative z-10 max-w-2xl mx-auto w-full px-4 pt-1 pb-0">
-        <div className="flex items-center justify-end gap-2">
-
-          {/* Streak badge — visible only when on streak */}
-          {isOnStreak && (
-            <div className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border shadow-sm transition-all duration-500 ${
-              consecutiveCorrect >= 10
-                ? 'bg-red-50 border-red-200 shadow-red-100'
-                : consecutiveCorrect >= 5
-                ? 'bg-orange-50 border-orange-200 shadow-orange-100'
-                : 'bg-amber-50 border-amber-200 shadow-amber-100'
-            }`}>
-              <Flame className={`w-4 h-4 fill-current ${
-                consecutiveCorrect >= 10 ? 'text-red-500' : consecutiveCorrect >= 5 ? 'text-orange-500' : 'text-amber-500'
-              }`} />
-              <span className={`text-xs font-semibold ${
-                consecutiveCorrect >= 10 ? 'text-red-600' : consecutiveCorrect >= 5 ? 'text-orange-600' : 'text-amber-600'
-              }`}>
-                {consecutiveCorrect >= 10 ? '🔥 EN LLAMAS' : consecutiveCorrect >= 5 ? '¡Racha épica!' : `Racha ×${consecutiveCorrect}`}
-              </span>
-            </div>
-          )}
-
-          {/* Exercise counter — unified: "X de N" in unit */}
-          <div className="inline-flex items-center gap-1.5 bg-white border border-slate-100 shadow-sm px-3 py-1.5 rounded-full" aria-label={`Actividad ${currentIndex + 1} de ${exercises.length}`}>
-            <Target className="w-3.5 h-3.5 text-[#FF6B6B]" aria-hidden />
-            <span className="text-sm font-medium text-slate-600">
-              {currentIndex + 1} de {exercises.length} actividades
+          <h1 className="font-black text-xl text-slate-800 uppercase tracking-tight">
+            A1: {isFinalTest ? unitTitle : `Unidad ${unitNumber}`}
+            <span className="ml-4 text-slate-400 font-medium text-sm">
+              {!isFinalTest && totalLessons > 1 ? `Lección ${lessonNumber} de ${totalLessons} • ` : ''}Ejercicio {exerciseInLesson} de {exercisesInThisLesson}
             </span>
-          </div>
+          </h1>
         </div>
-      </div>
+
+        <div className="flex gap-2">
+          <button
+            onClick={() => setCurrentIndex(prev => Math.max(0, prev - 1))}
+            disabled={currentIndex === 0}
+            className="p-2 bg-slate-100 rounded-xl disabled:opacity-30 hover:bg-slate-200 transition-all"
+          >
+            <ArrowLeft className="w-5 h-5" />
+          </button>
+          <button
+            onClick={() => setCurrentIndex(prev => Math.min(exercises.length - 1, prev + 1))}
+            disabled={currentIndex === exercises.length - 1}
+            className="p-2 bg-slate-100 rounded-xl disabled:opacity-30 hover:bg-slate-200 transition-all"
+          >
+            <ArrowRight className="w-5 h-5" />
+          </button>
+        </div>
+      </nav>
 
       {/* ── MAIN EXERCISE (gestos: swipe izq/der en móvil) ─────────── */}
       <main
-        className="relative z-10 flex-1 max-w-2xl mx-auto w-full px-4 py-2 pb-52 touch-pan-y"
+        className="relative z-10 flex-1 max-w-4xl mx-auto w-full px-4 py-2 pb-52 touch-pan-y"
         onTouchStart={(e) => { touchStartX.current = e.touches[0].clientX; }}
         onTouchEnd={(e) => {
           const dx = e.changedTouches[0].clientX - touchStartX.current;
@@ -661,6 +555,12 @@ function UnitPreviewContent() {
           if (dx < -minSwipe && currentIndex < exercises.length - 1) setCurrentIndex((p) => p + 1);
         }}
       >
+        <div className="mb-8 h-2 bg-slate-200 rounded-full overflow-hidden">
+          <div
+            className="h-full bg-blue-500 transition-all duration-500 ease-out"
+            style={{ width: `${(exerciseInLesson / exercisesInThisLesson) * 100}%` }}
+          />
+        </div>
         <div
           key={currentIndex}
           className={`${
