@@ -29,11 +29,7 @@ async function loadExerciseById(exerciseId: string): Promise<any | null> {
   if (!unitNum) return null;
   try {
     let unitModule: any;
-    try {
-      unitModule = await import(`@/lib/course/a1/unit-${unitNum}`);
-    } catch {
-      unitModule = await import(`../../../../lib/course/a1/unit-${unitNum}`);
-    }
+    unitModule = await import(`@/lib/course/a1/unit-${unitNum}`);
     const exportName = `UNIT_${unitNum}_EXERCISES`;
     const exercises: any[] = unitModule[exportName] ?? unitModule.default ?? [];
     return exercises.find((ex: any) => ex.id === exerciseId) ?? null;
