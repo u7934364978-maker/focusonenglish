@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { Users, TrendingUp, CheckCircle, BookOpen, Download, BarChart3 } from 'lucide-react';
+import { Users, TrendingUp, CheckCircle, BookOpen, Download, BarChart3, RotateCcw, AlertTriangle } from 'lucide-react';
 
 interface Student {
   id: string;
@@ -23,8 +23,35 @@ interface Summary {
   averageAccuracy: number;
 }
 
+interface SRSTopicStat {
+  topic: string;
+  avgQuality: number;
+  count: number;
+  dueCount: number;
+}
+
+interface SRSStats {
+  totalCards: number;
+  dueCount: number;
+  avgEaseFactor: number | null;
+  topicStats: SRSTopicStat[];
+  weakTopics: SRSTopicStat[];
+}
+
 function unitLabel(unitId: number): string {
   return unitId === 0 ? 'Test final A1' : `Unidad ${unitId}`;
+}
+
+function qualityColor(avg: number): string {
+  if (avg >= 4) return 'text-emerald-600';
+  if (avg >= 3) return 'text-yellow-600';
+  return 'text-red-600';
+}
+
+function qualityBar(avg: number): string {
+  if (avg >= 4) return 'bg-emerald-500';
+  if (avg >= 3) return 'bg-yellow-400';
+  return 'bg-red-500';
 }
 
 export default function AdminA1Analytics({
@@ -44,6 +71,9 @@ export default function AdminA1Analytics({
   const [studentLoading, setStudentLoading] = useState(false);
   const [exporting, setExporting] = useState(false);
   const [globalSummary, setGlobalSummary] = useState<{ total: number; withProgress: number } | null>(null);
+  const [activeTab, setActiveTab] = useState<'progress' | 'srs'>('progress');
+  const [srsStats, setSrsStats] = useState<SRSStats | null>(null);
+  const [srsLoading, setSrsLoading] = useState(false);
 
   useEffect(() => {
     loadStudents();
@@ -61,7 +91,6 @@ export default function AdminA1Analytics({
         setSelectedStudent((prev) => prev || list[0].id);
       }
       setLoading(false);
-      // Resumen global (con progreso) en segundo plano
       fetch('/api/admin/export-progress')
         .then((res) => res.ok ? res.json() : null)
         .then((exp) => {
@@ -85,8 +114,17 @@ export default function AdminA1Analytics({
   useEffect(() => {
     if (selectedStudent) {
       loadStudentProgress();
+      if (activeTab === 'srs') {
+        loadSRSStats();
+      }
     }
   }, [selectedStudent]);
+
+  useEffect(() => {
+    if (activeTab === 'srs' && selectedStudent && !srsStats) {
+      loadSRSStats();
+    }
+  }, [activeTab]);
 
   async function loadStudentProgress() {
     if (!selectedStudent) return;
@@ -102,6 +140,22 @@ export default function AdminA1Analytics({
       console.error('Error loading progress:', error);
     } finally {
       setStudentLoading(false);
+    }
+  }
+
+  async function loadSRSStats() {
+    if (!selectedStudent) return;
+    setSrsLoading(true);
+    setSrsStats(null);
+    try {
+      const res = await fetch(`/api/admin/a1-srs/${selectedStudent}`);
+      if (!res.ok) throw new Error('Failed to fetch SRS stats');
+      const data = await res.json();
+      setSrsStats(data);
+    } catch (error) {
+      console.error('Error loading SRS stats:', error);
+    } finally {
+      setSrsLoading(false);
     }
   }
 
@@ -231,7 +285,10 @@ export default function AdminA1Analytics({
         
         <select
           value={selectedStudent || ''}
-          onChange={(e) => setSelectedStudent(e.target.value)}
+          onChange={(e) => {
+            setSelectedStudent(e.target.value);
+            setSrsStats(null);
+          }}
           className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-coral-500 focus:ring-2 focus:ring-coral-100 outline-none transition"
         >
           {students.map(student => (
@@ -251,7 +308,10 @@ export default function AdminA1Analytics({
                   <button
                     key={student.id}
                     type="button"
-                    onClick={() => setSelectedStudent(student.id)}
+                    onClick={() => {
+                      setSelectedStudent(student.id);
+                      setSrsStats(null);
+                    }}
                     className={[
                       "w-full text-left px-3 py-2 rounded-lg border transition",
                       isSelected
@@ -271,108 +331,249 @@ export default function AdminA1Analytics({
         )}
       </div>
 
-      {/* Summary Cards */}
-      {summary && !studentLoading && (
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div className="bg-white rounded-xl p-6 border border-slate-200 shadow-sm">
-          <p className="text-xs font-bold text-slate-500 uppercase mb-3">Curso: {courseIdUsed}</p>
-            <div className="flex items-center gap-3 mb-2">
-              <BookOpen className="w-5 h-5 text-coral-500" />
-              <span className="text-sm font-bold text-slate-600 uppercase">Units Started</span>
-            </div>
-            <p className="text-3xl font-black text-slate-800">{summary.totalUnitsStarted}</p>
-          </div>
+      {/* Tabs */}
+      <div className="flex gap-2 border-b border-slate-200">
+        <button
+          type="button"
+          onClick={() => setActiveTab('progress')}
+          className={`px-4 py-2.5 text-sm font-bold border-b-2 transition-colors ${
+            activeTab === 'progress'
+              ? 'border-coral-500 text-coral-600'
+              : 'border-transparent text-slate-500 hover:text-slate-700'
+          }`}
+        >
+          Progreso por unidad
+        </button>
+        <button
+          type="button"
+          onClick={() => setActiveTab('srs')}
+          className={`px-4 py-2.5 text-sm font-bold border-b-2 transition-colors flex items-center gap-2 ${
+            activeTab === 'srs'
+              ? 'border-blue-500 text-blue-600'
+              : 'border-transparent text-slate-500 hover:text-slate-700'
+          }`}
+        >
+          <RotateCcw className="w-3.5 h-3.5" />
+          Repetición Espaciada
+        </button>
+      </div>
 
-          <div className="bg-white rounded-xl p-6 border border-slate-200 shadow-sm">
-            <div className="flex items-center gap-3 mb-2">
-              <CheckCircle className="w-5 h-5 text-green-500" />
-              <span className="text-sm font-bold text-slate-600 uppercase">Completed</span>
-            </div>
-            <p className="text-3xl font-black text-slate-800">{summary.totalUnitsCompleted}</p>
-          </div>
-
-          <div className="bg-white rounded-xl p-6 border border-slate-200 shadow-sm">
-            <div className="flex items-center gap-3 mb-2">
-              <TrendingUp className="w-5 h-5 text-blue-500" />
-              <span className="text-sm font-bold text-slate-600 uppercase">Avg Accuracy</span>
-            </div>
-            <p className="text-3xl font-black text-slate-800">{summary.averageAccuracy}%</p>
-          </div>
-        </div>
-      )}
-
-      {studentLoading && (
-        <div className="text-center py-8">
-          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-coral-500 mx-auto mb-3"></div>
-          <p className="text-slate-600">Loading progress...</p>
-        </div>
-      )}
-
-      {/* Progress Grid (Test final 0 + Unidades 1–60) */}
-      {!studentLoading && (
-        <div>
-          <h3 className="font-black text-xl text-slate-800 mb-4">Progreso por unidad</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {Array.from({ length: 61 }, (_, i) => {
-              const unitNum = i; // 0 = Test final, 1–60 = Unidades
-              const unitProgress = progressData.find(u => u.unit_id === unitNum);
-              const label = unitLabel(unitNum);
-              
-              return (
-                <div
-                  key={unitNum}
-                  className={`rounded-xl p-4 border-2 transition-all ${
-                    unitProgress?.status === 'completed'
-                      ? 'bg-green-50 border-green-300'
-                      : unitProgress?.status === 'in_progress'
-                      ? 'bg-blue-50 border-blue-300'
-                      : 'bg-white border-slate-200'
-                  }`}
-                >
-                  <div className="flex justify-between items-start mb-3">
-                    <div>
-                      <h4 className="font-black text-slate-800">{label}</h4>
-                      <p className="text-sm text-slate-600 capitalize">
-                        {unitProgress?.status || 'No empezado'}
-                      </p>
-                    </div>
-                    {unitProgress?.status === 'completed' && (
-                      <CheckCircle className="w-5 h-5 text-green-500" />
-                    )}
-                  </div>
-
-                  {unitProgress && (
-                    <>
-                      <div className="mb-2">
-                        <div className="flex justify-between text-xs text-slate-600 mb-1">
-                          <span>Progreso</span>
-                          <span>
-                            {unitProgress.exercises_completed}/{unitProgress.exercises_total}
-                          </span>
-                        </div>
-                        <div className="w-full h-2 bg-slate-200 rounded-full overflow-hidden">
-                          <div
-                            className="h-full bg-coral-500 transition-all"
-                            style={{
-                              width: `${
-                                (unitProgress.exercises_total ?? 0) > 0
-                                  ? ((unitProgress.exercises_completed ?? 0) / (unitProgress.exercises_total ?? 1)) * 100
-                                  : 0
-                              }%`,
-                            }}
-                          />
-                        </div>
-                      </div>
-
-                      <div className="text-xs text-slate-600">
-                        Precisión: {(unitProgress.accuracy_percentage ?? 0).toFixed(1)}%
-                      </div>
-                    </>
-                  )}
+      {/* TAB: Progreso */}
+      {activeTab === 'progress' && (
+        <>
+          {summary && !studentLoading && (
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div className="bg-white rounded-xl p-6 border border-slate-200 shadow-sm">
+                <p className="text-xs font-bold text-slate-500 uppercase mb-3">Curso: {courseIdUsed}</p>
+                <div className="flex items-center gap-3 mb-2">
+                  <BookOpen className="w-5 h-5 text-coral-500" />
+                  <span className="text-sm font-bold text-slate-600 uppercase">Units Started</span>
                 </div>
-              );
-            })}
-          </div>
+                <p className="text-3xl font-black text-slate-800">{summary.totalUnitsStarted}</p>
+              </div>
+
+              <div className="bg-white rounded-xl p-6 border border-slate-200 shadow-sm">
+                <div className="flex items-center gap-3 mb-2">
+                  <CheckCircle className="w-5 h-5 text-green-500" />
+                  <span className="text-sm font-bold text-slate-600 uppercase">Completed</span>
+                </div>
+                <p className="text-3xl font-black text-slate-800">{summary.totalUnitsCompleted}</p>
+              </div>
+
+              <div className="bg-white rounded-xl p-6 border border-slate-200 shadow-sm">
+                <div className="flex items-center gap-3 mb-2">
+                  <TrendingUp className="w-5 h-5 text-blue-500" />
+                  <span className="text-sm font-bold text-slate-600 uppercase">Avg Accuracy</span>
+                </div>
+                <p className="text-3xl font-black text-slate-800">{summary.averageAccuracy}%</p>
+              </div>
+            </div>
+          )}
+
+          {studentLoading && (
+            <div className="text-center py-8">
+              <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-coral-500 mx-auto mb-3"></div>
+              <p className="text-slate-600">Loading progress...</p>
+            </div>
+          )}
+
+          {!studentLoading && (
+            <div>
+              <h3 className="font-black text-xl text-slate-800 mb-4">Progreso por unidad</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {Array.from({ length: 61 }, (_, i) => {
+                  const unitNum = i;
+                  const unitProgress = progressData.find(u => u.unit_id === unitNum);
+                  const label = unitLabel(unitNum);
+                  
+                  return (
+                    <div
+                      key={unitNum}
+                      className={`rounded-xl p-4 border-2 transition-all ${
+                        unitProgress?.status === 'completed'
+                          ? 'bg-green-50 border-green-300'
+                          : unitProgress?.status === 'in_progress'
+                          ? 'bg-blue-50 border-blue-300'
+                          : 'bg-white border-slate-200'
+                      }`}
+                    >
+                      <div className="flex justify-between items-start mb-3">
+                        <div>
+                          <h4 className="font-black text-slate-800">{label}</h4>
+                          <p className="text-sm text-slate-600 capitalize">
+                            {unitProgress?.status || 'No empezado'}
+                          </p>
+                        </div>
+                        {unitProgress?.status === 'completed' && (
+                          <CheckCircle className="w-5 h-5 text-green-500" />
+                        )}
+                      </div>
+
+                      {unitProgress && (
+                        <>
+                          <div className="mb-2">
+                            <div className="flex justify-between text-xs text-slate-600 mb-1">
+                              <span>Progreso</span>
+                              <span>
+                                {unitProgress.exercises_completed}/{unitProgress.exercises_total}
+                              </span>
+                            </div>
+                            <div className="w-full h-2 bg-slate-200 rounded-full overflow-hidden">
+                              <div
+                                className="h-full bg-coral-500 transition-all"
+                                style={{
+                                  width: `${
+                                    (unitProgress.exercises_total ?? 0) > 0
+                                      ? ((unitProgress.exercises_completed ?? 0) / (unitProgress.exercises_total ?? 1)) * 100
+                                      : 0
+                                  }%`,
+                                }}
+                              />
+                            </div>
+                          </div>
+
+                          <div className="text-xs text-slate-600">
+                            Precisión: {(unitProgress.accuracy_percentage ?? 0).toFixed(1)}%
+                          </div>
+                        </>
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+        </>
+      )}
+
+      {/* TAB: SRS */}
+      {activeTab === 'srs' && (
+        <div className="space-y-6">
+          {srsLoading && (
+            <div className="text-center py-10">
+              <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-500 mx-auto mb-3"></div>
+              <p className="text-slate-600">Cargando datos de repetición espaciada…</p>
+            </div>
+          )}
+
+          {!srsLoading && !srsStats && (
+            <div className="text-center py-10 text-slate-500">
+              <RotateCcw className="w-8 h-8 mx-auto mb-2 opacity-30" />
+              <p>Selecciona un alumno para ver sus estadísticas de SRS.</p>
+            </div>
+          )}
+
+          {!srsLoading && srsStats && (
+            <>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div className="bg-white rounded-xl p-5 border border-slate-200 shadow-sm">
+                  <p className="text-xs font-bold text-slate-500 uppercase mb-1">Tarjetas totales</p>
+                  <p className="text-3xl font-black text-slate-800">{srsStats.totalCards}</p>
+                </div>
+                <div className={`rounded-xl p-5 border shadow-sm ${srsStats.dueCount > 0 ? 'bg-amber-50 border-amber-300' : 'bg-white border-slate-200'}`}>
+                  <p className="text-xs font-bold text-slate-500 uppercase mb-1">Pendientes hoy</p>
+                  <p className={`text-3xl font-black ${srsStats.dueCount > 0 ? 'text-amber-700' : 'text-slate-800'}`}>
+                    {srsStats.dueCount}
+                  </p>
+                </div>
+                <div className="bg-white rounded-xl p-5 border border-slate-200 shadow-sm">
+                  <p className="text-xs font-bold text-slate-500 uppercase mb-1">Ease Factor medio</p>
+                  <p className="text-3xl font-black text-slate-800">
+                    {srsStats.avgEaseFactor !== null ? srsStats.avgEaseFactor.toFixed(2) : '—'}
+                  </p>
+                </div>
+                <div className={`rounded-xl p-5 border shadow-sm ${srsStats.weakTopics.length > 0 ? 'bg-red-50 border-red-200' : 'bg-emerald-50 border-emerald-200'}`}>
+                  <p className="text-xs font-bold text-slate-500 uppercase mb-1">Temas débiles</p>
+                  <p className={`text-3xl font-black ${srsStats.weakTopics.length > 0 ? 'text-red-700' : 'text-emerald-700'}`}>
+                    {srsStats.weakTopics.length}
+                  </p>
+                </div>
+              </div>
+
+              {srsStats.weakTopics.length > 0 && (
+                <div className="bg-red-50 border border-red-200 rounded-xl p-5">
+                  <div className="flex items-center gap-2 mb-3">
+                    <AlertTriangle className="w-4 h-4 text-red-500" />
+                    <h4 className="font-black text-red-800 text-sm uppercase">Temas a reforzar</h4>
+                  </div>
+                  <div className="flex flex-wrap gap-2">
+                    {srsStats.weakTopics.map(t => (
+                      <div key={t.topic} className="flex items-center gap-2 px-3 py-1.5 bg-white border border-red-200 rounded-lg text-sm">
+                        <span className="font-semibold text-slate-700">{t.topic || 'General'}</span>
+                        <span className={`font-black text-xs ${qualityColor(t.avgQuality)}`}>
+                          {t.avgQuality.toFixed(1)}/5
+                        </span>
+                        {t.dueCount > 0 && (
+                          <span className="text-xs text-amber-600 font-bold">{t.dueCount} pendientes</span>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {srsStats.topicStats.length > 0 && (
+                <div className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
+                  <div className="px-5 py-4 border-b border-slate-100">
+                    <h4 className="font-black text-slate-800">Estadísticas por tema</h4>
+                  </div>
+                  <div className="divide-y divide-slate-100">
+                    {srsStats.topicStats.map(t => (
+                      <div key={t.topic} className="px-5 py-3 flex items-center gap-4">
+                        <div className="flex-1 min-w-0">
+                          <p className="font-semibold text-slate-800 truncate">{t.topic || 'General'}</p>
+                          <div className="mt-1 flex items-center gap-2">
+                            <div className="flex-1 h-1.5 bg-slate-100 rounded-full overflow-hidden">
+                              <div
+                                className={`h-full ${qualityBar(t.avgQuality)} transition-all`}
+                                style={{ width: `${(t.avgQuality / 5) * 100}%` }}
+                              />
+                            </div>
+                            <span className={`text-xs font-black ${qualityColor(t.avgQuality)}`}>
+                              {t.avgQuality.toFixed(1)}/5
+                            </span>
+                          </div>
+                        </div>
+                        <div className="text-right text-xs text-slate-500 shrink-0">
+                          <p>{t.count} tarjetas</p>
+                          {t.dueCount > 0 && (
+                            <p className="text-amber-600 font-bold">{t.dueCount} pendientes</p>
+                          )}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {srsStats.totalCards === 0 && (
+                <div className="text-center py-8 text-slate-400">
+                  <RotateCcw className="w-8 h-8 mx-auto mb-2 opacity-30" />
+                  <p>Este alumno aún no tiene tarjetas SRS registradas.</p>
+                </div>
+              )}
+            </>
+          )}
         </div>
       )}
     </div>

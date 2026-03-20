@@ -40,16 +40,47 @@ export async function GET() {
       return NextResponse.json({ error: 'Failed to fetch students' }, { status: 500 });
     }
 
-    return NextResponse.json({
-      students: (students ?? []).map((s: any) => ({
-        id: s.user_id,
-        email: s.email,
-        name: s.name ?? s.full_name ?? s.email ?? 'Unknown',
-        role: s.role,
-        subscription_status: s.subscription_status,
-        language_level: s.language_level,
-      })),
-    });
+    const profileStudents = (students ?? []).map((s: any) => ({
+      id: s.user_id,
+      email: s.email,
+      name: s.name ?? s.full_name ?? s.email ?? 'Unknown',
+      role: s.role ?? 'student',
+      subscription_status: s.subscription_status ?? 'inactive',
+      language_level: s.language_level ?? 'A1',
+    }));
+
+    // Fallback: include auth users that don't yet have a row in user_profiles.
+    // This avoids "missing students" in admin list when profile creation failed.
+    if (!supabaseAdmin) {
+      return NextResponse.json({ students: profileStudents });
+    }
+
+    const { data: authUsersData, error: authUsersError } = await supabaseAdmin.auth.admin.listUsers();
+    if (authUsersError) {
+      console.error('Auth users error:', authUsersError);
+      return NextResponse.json({ students: profileStudents });
+    }
+
+    const profileByUserId = new Map(profileStudents.map((s) => [s.id, s]));
+    const merged = [...profileStudents];
+
+    for (const u of authUsersData.users ?? []) {
+      if (profileByUserId.has(u.id)) continue;
+      const email = u.email ?? null;
+      // Skip likely admin/system accounts by email heuristic if there is no profile row.
+      if (email && email.toLowerCase().includes('admin')) continue;
+
+      merged.push({
+        id: u.id,
+        email,
+        name: (u.user_metadata?.full_name as string | undefined) ?? email ?? 'Unknown',
+        role: 'student',
+        subscription_status: 'inactive',
+        language_level: 'A1',
+      });
+    }
+
+    return NextResponse.json({ students: merged });
   } catch (error) {
     console.error('API error:', error);
     return NextResponse.json({ error: 'Internal server error' }, { status: 500 });

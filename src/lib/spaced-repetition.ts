@@ -97,3 +97,26 @@ export function getTopicStats(level: string): Record<string, { avg: number; coun
 export function getDueCount(level: string): number {
   return getDueCards(level).length;
 }
+
+/**
+ * Merge server-side SRS cards into localStorage.
+ * Server wins when it has a more recent nextReview (higher interval = server is ahead).
+ */
+export function mergeServerCards(level: string, serverCards: SRSCard[]): void {
+  if (typeof window === 'undefined') return;
+  const local = getStoredCards(level);
+  const merged = [...local];
+
+  for (const serverCard of serverCards) {
+    const idx = merged.findIndex(c => c.exerciseId === serverCard.exerciseId);
+    if (idx >= 0) {
+      if (serverCard.repetitions >= merged[idx].repetitions) {
+        merged[idx] = { ...serverCard, level };
+      }
+    } else {
+      merged.push({ ...serverCard, level });
+    }
+  }
+
+  localStorage.setItem(storageKey(level), JSON.stringify(merged));
+}

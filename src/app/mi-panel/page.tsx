@@ -46,6 +46,14 @@ export default async function MiPanelPage() {
     .select('course_id, unit_id, status, exercises_completed, exercises_total')
     .eq('user_id', user.id);
 
+  const now = new Date().toISOString();
+  const { data: srsDueCards } = await supabase
+    .from('a1_srs_cards')
+    .select('id')
+    .eq('user_id', user.id)
+    .lte('next_review_at', now);
+  const srsA1DueCount = srsDueCards?.length ?? 0;
+
   const byCourse = new Map<string, CourseSummary>();
   for (const row of lessonProgress ?? []) {
     const courseId = String(row.course_id ?? '').trim();
@@ -98,6 +106,28 @@ export default async function MiPanelPage() {
               Aqui tienes tu centro de control: cursos, progreso, suscripcion, pagos y soporte.
             </p>
           </section>
+
+          {srsA1DueCount > 0 && (
+            <section className="bg-blue-50 border border-blue-200 rounded-2xl p-5 flex items-center justify-between gap-4">
+              <div>
+                <div className="flex items-center gap-2">
+                  <span className="inline-flex items-center justify-center w-7 h-7 rounded-full bg-blue-600 text-white text-xs font-black">
+                    {srsA1DueCount}
+                  </span>
+                  <span className="text-lg font-black text-blue-900">Repasos pendientes A1</span>
+                </div>
+                <p className="text-sm text-blue-700 mt-1">
+                  Tienes {srsA1DueCount} {srsA1DueCount === 1 ? 'ejercicio que repasa' : 'ejercicios que repasan'} hoy segun tu sistema de repeticion espaciada.
+                </p>
+              </div>
+              <Link
+                href="/curso-a1/practica-inteligente?mode=srs"
+                className="flex-shrink-0 px-4 py-2 rounded-xl bg-blue-600 text-white text-sm font-bold hover:bg-blue-700 transition"
+              >
+                Repasar ahora
+              </Link>
+            </section>
+          )}
 
           <section className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
             <Link href="/curso-a1/outline" className="bg-white border border-slate-200 rounded-2xl p-5 hover:shadow-md transition">
