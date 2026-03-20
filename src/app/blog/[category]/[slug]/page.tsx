@@ -44,7 +44,7 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
   const ogImage = article.image || "/blog/og-image.jpg";
 
   return {
-    title: `${seoTitle} | Blog`,
+    title: seoTitle,
     description: article.excerpt,
     keywords: article.keywords || [],
     authors: [{ name: article.author }],
@@ -505,22 +505,55 @@ export default async function BlogArticle({ params }: { params: Promise<{ catego
               {/* Sidebar */}
               <aside className="lg:col-span-4 space-y-8">
                 <div className="sticky top-32">
-                  <div className="bg-white rounded-3xl border border-slate-100 p-8 shadow-sm mb-8">
-                    <TableOfContents />
-                  </div>
-
+                  <TableOfContents />
                   <div className="bg-slate-900 rounded-3xl p-8 text-white relative overflow-hidden">
                     <div className="relative z-10">
-                      <h3 className="font-display text-2xl font-bold mb-4">¿Viajas pronto?</h3>
-                      <p className="text-slate-400 mb-6">Prepárate para tu próximo destino con nuestro curso acelerado de supervivencia.</p>
-                      <Link 
-                        href="/cuenta/registro?plan=survival"
-                        className="block w-full bg-coral-600 text-white text-center py-4 rounded-xl font-bold hover:bg-coral-700 transition-all"
-                      >
-                        Comenzar ahora
-                      </Link>
+                      {normalizedCategory === 'examenes' ? (
+                        <>
+                          <h3 className="font-display text-2xl font-bold mb-4">¿Preparas un examen oficial?</h3>
+                          <p className="text-slate-400 mb-6">Practica Speaking con IA, corrige tu Writing y simula exámenes reales de Cambridge, IELTS y TOEFL.</p>
+                          <Link
+                            href="/cuenta/registro?plan=cambridge"
+                            className="block w-full bg-coral-600 text-white text-center py-4 rounded-xl font-bold hover:bg-coral-700 transition-all"
+                          >
+                            Empezar preparación
+                          </Link>
+                        </>
+                      ) : normalizedCategory === 'trabajo' ? (
+                        <>
+                          <h3 className="font-display text-2xl font-bold mb-4">¿Inglés para tu carrera?</h3>
+                          <p className="text-slate-400 mb-6">Domina el inglés profesional con nuestro plan especializado para entrevistas, reuniones y emails.</p>
+                          <Link
+                            href="/cuenta/registro?plan=professional"
+                            className="block w-full bg-coral-600 text-white text-center py-4 rounded-xl font-bold hover:bg-coral-700 transition-all"
+                          >
+                            Comenzar ahora
+                          </Link>
+                        </>
+                      ) : normalizedCategory === 'viajes' ? (
+                        <>
+                          <h3 className="font-display text-2xl font-bold mb-4">¿Viajas pronto?</h3>
+                          <p className="text-slate-400 mb-6">Prepárate para tu próximo destino con nuestro curso acelerado de inglés para viajeros.</p>
+                          <Link
+                            href="/cuenta/registro?plan=survival"
+                            className="block w-full bg-coral-600 text-white text-center py-4 rounded-xl font-bold hover:bg-coral-700 transition-all"
+                          >
+                            Comenzar ahora
+                          </Link>
+                        </>
+                      ) : (
+                        <>
+                          <h3 className="font-display text-2xl font-bold mb-4">¿Quieres mejorar tu inglés?</h3>
+                          <p className="text-slate-400 mb-6">Accede a nuestros cursos personalizados con IA y alcanza el nivel que necesitas.</p>
+                          <Link
+                            href="/cuenta/registro"
+                            className="block w-full bg-coral-600 text-white text-center py-4 rounded-xl font-bold hover:bg-coral-700 transition-all"
+                          >
+                            Probar gratis 7 días
+                          </Link>
+                        </>
+                      )}
                     </div>
-                    {/* Decorative elements */}
                     <div className="absolute -bottom-10 -right-10 w-40 h-40 bg-coral-600/20 rounded-full blur-3xl" />
                     <div className="absolute -top-10 -left-10 w-40 h-40 bg-blue-600/10 rounded-full blur-3xl" />
                   </div>

@@ -38,7 +38,7 @@ export function TopicClusterLinks({ articles, mainKeyword }: TopicClusterLinksPr
         </Link>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className={`grid grid-cols-1 gap-8 ${articles.length === 1 ? 'md:grid-cols-1 max-w-sm' : articles.length === 2 ? 'md:grid-cols-2' : 'md:grid-cols-3'}`}>
         {articles.map((article) => (
           <Link 
             key={article.slug}

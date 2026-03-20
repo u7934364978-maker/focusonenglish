@@ -8,7 +8,7 @@ excerpt: >-
 category: examenes
 readTime: 16 min
 image: >-
-  https://images.pexels.com/photos/4144923/pexels-photo-4144923.jpeg?auto=compress&cs=tinysrgb&w=1200
+  https://images.pexels.com/photos/4778664/pexels-photo-4778664.jpeg?auto=compress&cs=tinysrgb&w=1200
 alt: Persona escribiendo una solicitud de beca frente a un ordenador portátil
 keywords:
   - becas solicitudes ingles

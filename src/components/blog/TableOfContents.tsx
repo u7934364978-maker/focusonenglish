@@ -59,7 +59,7 @@ export function TableOfContents() {
   }
 
   return (
-    <nav className="sticky top-24 bg-white rounded-2xl border-2 border-slate-100 p-6 shadow-sm xl:block hidden" aria-label="Tabla de contenidos">
+    <nav className="bg-white rounded-2xl border-2 border-slate-100 p-6 shadow-sm mb-8" aria-label="Tabla de contenidos">
       <h3 className="font-display font-black text-slate-900 mb-4 flex items-center gap-2">
         <span className="text-xl">📚</span> 
         CONTENIDO
