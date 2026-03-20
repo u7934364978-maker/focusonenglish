@@ -38,6 +38,7 @@ export default function AdminA1Analytics({
   );
   const [progressData, setProgressData] = useState<ProgressData[]>([]);
   const [summary, setSummary] = useState<Summary | null>(null);
+  const [courseIdUsed, setCourseIdUsed] = useState<string>('ingles-a1');
   const [loading, setLoading] = useState(true);
   const [studentsError, setStudentsError] = useState<string | null>(null);
   const [studentLoading, setStudentLoading] = useState(false);
@@ -96,6 +97,7 @@ export default function AdminA1Analytics({
       const data = await response.json();
       setProgressData(data.progress || []);
       setSummary(data.summary);
+      setCourseIdUsed(data.courseId || 'ingles-a1');
     } catch (error) {
       console.error('Error loading progress:', error);
     } finally {
@@ -273,6 +275,7 @@ export default function AdminA1Analytics({
       {summary && !studentLoading && (
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <div className="bg-white rounded-xl p-6 border border-slate-200 shadow-sm">
+          <p className="text-xs font-bold text-slate-500 uppercase mb-3">Curso: {courseIdUsed}</p>
             <div className="flex items-center gap-3 mb-2">
               <BookOpen className="w-5 h-5 text-coral-500" />
               <span className="text-sm font-bold text-slate-600 uppercase">Units Started</span>

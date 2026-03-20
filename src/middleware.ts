@@ -166,16 +166,11 @@ export async function middleware(request: NextRequest) {
 
   // Si está autenticado y va a login, enviarlo al panel alumno/admin.
   if (user && pathname === "/cuenta/login") {
-    const isPaid = profile?.subscription_status === "active" || profile?.subscription_status === "trialing";
     const isAdmin = profile?.role === "admin";
-    
-    if (isPaid || isAdmin) {
-      const url = request.nextUrl.clone();
-      url.pathname = isAdmin ? "/admin" : "/mi-panel";
-      url.searchParams.delete("next");
-      return NextResponse.redirect(url);
-    }
-    // Si no es premium, permitimos que se quede en /cuenta/login para que vea el mensaje de sesión activa o pueda cerrar sesión
+    const url = request.nextUrl.clone();
+    url.pathname = isAdmin ? "/admin" : "/mi-panel";
+    url.searchParams.delete("next");
+    return NextResponse.redirect(url);
   }
 
   // Si está autenticado y va a registro, redirigir a panel si ya tiene acceso.

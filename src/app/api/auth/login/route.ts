@@ -7,15 +7,8 @@ export async function POST(request: NextRequest) {
     const formData = await request.formData();
     const email = formData.get('email') as string;
     const password = formData.get('password') as string;
-    let callbackUrl = (formData.get('callbackUrl') as string) || '/mi-panel';
-    if (callbackUrl.startsWith('http')) {
-      try {
-        const u = new URL(callbackUrl);
-        callbackUrl = u.pathname + u.search;
-      } catch {
-        callbackUrl = '/mi-panel';
-      }
-    }
+    // Student login should always land on "Mi Panel".
+    const callbackUrl = '/mi-panel';
 
     if (!email || !password) {
       return NextResponse.redirect(

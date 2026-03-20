@@ -29,8 +29,8 @@ export async function GET(
     // Admin usa servicio role si existe (para leer progreso de cualquier alumno)
     const client = supabaseAdmin ?? supabase;
 
-    // courseId opcional; por defecto mantenemos A1 analytics
-    const courseId = request.nextUrl.searchParams.get('courseId')?.toString() || 'ingles-a1';
+    // courseId opcional; por defecto intentamos A1 y, si no hay datos, usamos el curso con más actividad.
+    let courseId = request.nextUrl.searchParams.get('courseId')?.toString() || 'ingles-a1';
 
     const { data: rows, error } = await client
       .from('user_lesson_progress')
@@ -45,9 +45,37 @@ export async function GET(
       return NextResponse.json({ error: 'Failed to fetch progress' }, { status: 500 });
     }
 
+    let finalRows = rows ?? [];
+    if (!request.nextUrl.searchParams.get('courseId') && finalRows.length === 0) {
+      const { data: anyRows, error: anyErr } = await client
+        .from('user_lesson_progress')
+        .select(
+          'course_id, unit_id, exercises_completed, exercises_total, attempts, correct_count, accuracy_percent, last_activity_at'
+        )
+        .eq('user_id', userId);
+
+      if (anyErr) {
+        console.error('Database error (fallback):', anyErr);
+        return NextResponse.json({ error: 'Failed to fetch progress' }, { status: 500 });
+      }
+
+      const byCourseCount = new Map<string, number>();
+      for (const r of anyRows ?? []) {
+        const cid = String((r as any).course_id ?? '');
+        if (!cid) continue;
+        byCourseCount.set(cid, (byCourseCount.get(cid) ?? 0) + 1);
+      }
+
+      const topCourse = Array.from(byCourseCount.entries()).sort((a, b) => b[1] - a[1])[0]?.[0];
+      if (topCourse) {
+        courseId = topCourse;
+        finalRows = (anyRows ?? []).filter((r: any) => String(r.course_id) === courseId);
+      }
+    }
+
     // Agregar por unit_id (cada unit puede tener múltiples lesson_key)
     const byUnit = new Map<number, any>();
-    for (const r of rows ?? []) {
+    for (const r of finalRows) {
       const unitIdNum = Number(r.unit_id);
       if (!Number.isFinite(unitIdNum)) continue;
 
@@ -106,6 +134,7 @@ export async function GET(
 
     return NextResponse.json({
       userId,
+      courseId,
       progress,
       summary: {
         totalUnitsStarted,

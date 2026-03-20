@@ -15,11 +15,11 @@ export default async function AdminA1AnalyticsPage({
         {/* Header */}
         <div className="mb-8">
           <Link
-            href="/dashboard"
+            href="/admin"
             className="inline-flex items-center gap-2 text-coral-500 hover:text-coral-600 font-bold mb-4"
           >
             <ArrowLeft className="w-4 h-4" />
-            Back to Dashboard
+            Volver al panel admin
           </Link>
           <h1 className="text-4xl font-black text-slate-900 mb-2">A1 Course Analytics</h1>
           <p className="text-slate-600">Track student progress across all A1 units</p>

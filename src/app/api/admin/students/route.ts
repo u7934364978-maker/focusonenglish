@@ -1,5 +1,6 @@
 import { createClient } from '@/lib/supabase/server';
 import { NextResponse } from 'next/server';
+import { supabaseAdmin } from '@/lib/supabase/client';
 
 export async function GET() {
   try {
@@ -22,12 +23,17 @@ export async function GET() {
       return NextResponse.json({ error: 'Forbidden' }, { status: 403 });
     }
 
-    // Get all students from user_profiles
+    // Get all students from user_profiles.
+    // Use service role when available to avoid RLS restrictions in admin panel.
+    const client = supabaseAdmin ?? supabase;
+
     // NOTE: we select '*' to avoid tight coupling with the exact schema columns.
-    const { data: students, error } = await supabase
+    const { data: students, error } = await client
       .from('user_profiles')
       .select('*')
-      .neq('role', 'admin');
+      // Include students with role NULL and exclude explicit admin rows.
+      .or('role.is.null,role.neq.admin')
+      .order('created_at', { ascending: false });
 
     if (error) {
       console.error('Database error:', error);
