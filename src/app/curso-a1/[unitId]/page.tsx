@@ -140,8 +140,15 @@ function UnitPreviewContent() {
   const [showUnitSummary, setShowUnitSummary] = useState(false);
   const [showLessonComplete, setShowLessonComplete] = useState(false);
 
+  const [inRepairRound, setInRepairRound] = useState(false);
+  const [repairedOriginalIndexes, setRepairedOriginalIndexes] = useState<Set<number>>(new Set());
+
   const advanceTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const touchStartX = useRef<number>(0);
+  const failedIndexesRef = useRef<number[]>([]);
+  const repairedOriginalIndexesRef = useRef<Set<number>>(new Set());
+  const inRepairRoundRef = useRef(false);
+  const exercisesRef = useRef<typeof exercises>([]);
 
   // Atajos de teclado: flecha izq/der para anterior/siguiente ejercicio
   useEffect(() => {
@@ -161,6 +168,9 @@ function UnitPreviewContent() {
     window.addEventListener('keydown', onKeyDown);
     return () => window.removeEventListener('keydown', onKeyDown);
   }, [exercises.length, showUnitSummary, showLessonComplete]);
+
+  useEffect(() => { failedIndexesRef.current = failedIndexes; }, [failedIndexes]);
+  useEffect(() => { exercisesRef.current = exercises; }, [exercises]);
 
   const isFinalTest = unitId === 'test-final';
 
@@ -239,9 +249,34 @@ function UnitPreviewContent() {
   const advanceExercise = (idx: number, total: number) => {
     setSlideDir('out-left');
     setTimeout(() => {
-      if (idx === total - 1) {
+      const isLast = idx === total - 1;
+      const isLessonEnd = !isFinalTest && (idx + 1) % CHUNK_SIZE === 0;
+
+      if ((isLast || isLessonEnd) && !inRepairRoundRef.current) {
+        const unrepaired = failedIndexesRef.current.filter(
+          i => !repairedOriginalIndexesRef.current.has(i)
+        );
+        if (unrepaired.length > 0) {
+          const failedExs = unrepaired.map(i => exercisesRef.current[i]).filter(Boolean);
+          setExercises(prev => [...prev, ...failedExs]);
+          const nextRepaired = new Set(repairedOriginalIndexesRef.current);
+          unrepaired.forEach(i => nextRepaired.add(i));
+          repairedOriginalIndexesRef.current = nextRepaired;
+          setRepairedOriginalIndexes(nextRepaired);
+          inRepairRoundRef.current = true;
+          setInRepairRound(true);
+          setCurrentIndex(idx + 1);
+          setFeedback('idle');
+          setSlideDir('in');
+          return;
+        }
+      }
+
+      if (isLast) {
         setShowUnitSummary(true);
-      } else if (!isFinalTest && (idx + 1) % CHUNK_SIZE === 0) {
+        inRepairRoundRef.current = false;
+        setInRepairRound(false);
+      } else if (isLessonEnd && !inRepairRoundRef.current) {
         setShowLessonComplete(true);
       } else {
         setCurrentIndex(prev => prev + 1);
@@ -262,6 +297,10 @@ function UnitPreviewContent() {
     setFeedback('idle');
     setShowUnitSummary(false);
     setShowLessonComplete(false);
+    setInRepairRound(false);
+    setRepairedOriginalIndexes(new Set());
+    inRepairRoundRef.current = false;
+    repairedOriginalIndexesRef.current = new Set();
   };
 
   const handleExerciseComplete = (result?: { success: boolean; score: number }) => {
@@ -372,8 +411,8 @@ function UnitPreviewContent() {
   const exerciseInLesson = (currentIndex % CHUNK_SIZE) + 1;
   const exercisesInThisLesson = Math.min(CHUNK_SIZE, exercises.length - (lessonNumber - 1) * CHUNK_SIZE);
   const progressPct = (exerciseInLesson - 1) / exercisesInThisLesson * 100;
-  const isRepairMode = failCount >= 2 && failedIndexes.length > 0;
-  const repairRemaining = failedIndexes.filter(i => i >= currentIndex).length;
+  const isRepairMode = inRepairRound;
+  const repairRemaining = inRepairRound ? exercises.length - currentIndex : 0;
   const displayXp = xp + sessionScore;
   const showDots = exercises.length <= MAX_DOTS;
   const isOnStreak = consecutiveCorrect >= 3;

@@ -6,7 +6,8 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 
 export default function PlanesPage() {
-  const allPlans = getAllPlans();
+  // El plan piloto de viajes no debe mostrarse en la pagina de planes.
+  const allPlans = getAllPlans().filter((plan) => plan.id !== 'travel-pilot');
   const [isLoading, setIsLoading] = useState<string | null>(null);
   const [billingCycle, setBillingCycle] = useState<'month' | 'year'>('year'); // Mostrar anual por defecto
   const [showPremiumRequired, setShowPremiumRequired] = useState(false);
