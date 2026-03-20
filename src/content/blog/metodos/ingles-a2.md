@@ -16,6 +16,7 @@ keywords:
   - conversación básica inglés
   - gramática nivel a2
   - estudiar inglés elemental
+  - curso ingles
 canonical: 'https://www.focus-on-english.com/blog/metodos/ingles-a2'
 related_routes:
   - ingles-a1

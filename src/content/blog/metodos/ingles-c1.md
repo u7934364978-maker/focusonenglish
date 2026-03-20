@@ -14,6 +14,7 @@ keywords:
   - como llegar a c1 ingles
   - diferencia b2 y c1 ingles
   - focus english c1
+  - curso ingles
 canonical: 'https://www.focus-on-english.com/blog/metodos/ingles-c1'
 related_routes:
   - ingles-b2

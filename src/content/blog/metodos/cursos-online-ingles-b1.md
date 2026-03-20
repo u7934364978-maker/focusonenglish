@@ -19,6 +19,7 @@ keywords:
   - tiempos verbales b1
   - condicionales ingles b1
   - ejercicios gramatica b1
+  - curso ingles
 canonical: 'https://www.focus-on-english.com/blog/metodos/cursos-online-ingles-b1'
 related_routes:
   - preparacion-examen-b1-cambridge

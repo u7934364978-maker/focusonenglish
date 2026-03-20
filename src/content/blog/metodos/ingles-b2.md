@@ -15,6 +15,7 @@ keywords:
   - fluidez inglés avanzado
   - como llegar al nivel b2 ingles
   - diferencia b1 y b2 ingles
+  - curso ingles
 canonical: 'https://www.focus-on-english.com/blog/metodos/ingles-b2'
 related_routes:
   - ingles-b1
