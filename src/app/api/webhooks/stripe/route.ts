@@ -58,11 +58,11 @@ export async function POST(request: NextRequest) {
 
       if (supabaseAdmin) {
         try {
-          const tempPassword = crypto.randomBytes(12).toString('hex') + '!';
+          const generatedPassword = crypto.randomBytes(12).toString('hex') + '!';
           
           const { data: authData, error: authError } = await supabaseAdmin.auth.admin.createUser({
             email: customerEmail,
-            password: tempPassword,
+            password: generatedPassword,
             email_confirm: true,
             user_metadata: {
               full_name: `${firstName} ${lastName}`.trim(),
@@ -72,7 +72,6 @@ export async function POST(request: NextRequest) {
           });
 
           let userId: string | undefined;
-          let generatedPassword = crypto.randomBytes(12).toString('hex') + '!';
 
           if (authError) {
             const errorMsg = authError.message.toLowerCase();

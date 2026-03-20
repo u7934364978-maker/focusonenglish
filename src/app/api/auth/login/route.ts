@@ -87,7 +87,7 @@ export async function POST(request: NextRequest) {
     }
 
     const url = new URL(callbackUrl, request.url);
-    const response = NextResponse.redirect(url);
+    const response = NextResponse.redirect(url, 303);
     // Asegurar que las cookies de sesión se envían en el redirect (fix: contenido no cargaba)
     cookiesToSet.forEach(({ name, value, options }) => {
       response.cookies.set(name, value, options ?? {});
