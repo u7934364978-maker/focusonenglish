@@ -17,6 +17,7 @@ import Markdown from './course/Markdown';
 import { TranslatedText, TRANSLATION_TOOLTIP_SPACING } from './course/exercises/TranslatedText';
 import { AudioPlayer } from './course/preview/AudioPlayer';
 import { useGamification } from '@/lib/hooks/use-gamification';
+import SpeakButton from './SpeakButton';
 
 interface ExerciseRendererProps {
   exercise: Exercise;
@@ -130,6 +131,35 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
 
   const stripTags = (s: string) => s.replace(/\[\[(.*?)\|(.*?)\]\]/g, '$1');
 
+  const buildFallbackExplanation = (q: any, ex: typeof exercise): string => {
+    const correct = q.correctAnswer ?? q.answer;
+    const type = q.type ?? ex.type;
+    const topic = ex.topic ?? ex.topicName ?? '';
+
+    if (type === 'true-false') {
+      const answer = String(correct).toLowerCase();
+      const isTrue = answer === 'true';
+      return `[[The correct answer is|La respuesta correcta es]] **[[${isTrue ? 'True' : 'False'}|${isTrue ? 'Verdadero' : 'Falso'}]]**.`;
+    }
+
+    if (type === 'multiple-choice' && q.options && Array.isArray(q.options)) {
+      const idx = typeof correct === 'number' ? correct : -1;
+      if (idx >= 0 && q.options[idx]) {
+        const opt = q.options[idx];
+        const text = typeof opt === 'string' ? opt : opt.text ?? String(opt);
+        return `[[The correct answer is|La respuesta correcta es]]: **${stripTags(text)}**.`;
+      }
+    }
+
+    if (correct !== undefined && correct !== null && correct !== '') {
+      const display = Array.isArray(correct) ? correct[0] : correct;
+      const cleaned = stripTags(String(display));
+      return `[[The correct answer is|La respuesta correcta es]]: **${cleaned}**${topic ? ` ([[${topic}|${topic}]])` : ''}.`;
+    }
+
+    return '';
+  };
+
   const normalize = (s: string): string => stripTags(s)
     .toLowerCase()
     .trim()
@@ -165,6 +195,17 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
 
   const handleSubmit = () => {
     setSubmitted(true);
+
+    if (exercise.type === 'open-answer') {
+      setIsCorrect(true);
+      setEvaluation({
+        isCorrect: true,
+        score: 100,
+        feedback: '[[Great! Compare your answer with the example.|¡Bien! Compara tu respuesta con el ejemplo.]]',
+      });
+      setShowConfetti(true);
+      return;
+    }
 
     if (questions && questions.length > 0) {
       const q = questions[currentQuestionIdx];
@@ -255,7 +296,10 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
         )}
 
         <div className={`relative pl-4 border-l-4 border-slate-300 rounded-r-sm mt-1 overflow-visible ${TRANSLATION_TOOLTIP_SPACING.blockWithTranslations}`}>
-          <p className="text-sm font-medium text-slate-500 mb-1">Responde</p>
+          <div className="flex items-start justify-between gap-2 mb-1">
+            <p className="text-sm font-medium text-slate-500">Responde</p>
+            <SpeakButton text={q.question || q.text || q.prompt || ''} size="sm" />
+          </div>
           <div className="text-lg md:text-xl text-slate-800 font-medium leading-snug">
             <TranslatedText text={q.question || q.text || q.prompt} />
           </div>
@@ -349,6 +393,7 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                       }`}>
                         <TranslatedText text={typeof option === 'string' ? option : option.text} />
                       </span>
+                      <SpeakButton text={typeof option === 'string' ? option : option.text} size="sm" className="opacity-50 hover:opacity-100" />
                     </div>
                   </button>
                 );
@@ -384,6 +429,37 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                 </div>
               )}
               </div>
+            </div>
+          )}
+
+          {/* Open Answer (free production — no auto-check, self-evaluate) */}
+          {exercise.type === 'open-answer' && (
+            <div className="space-y-3">
+              {q.exampleAnswer && (
+                <div className="p-3 bg-amber-50 rounded-xl border border-amber-100 text-sm text-amber-800 font-medium">
+                  <span className="text-amber-500 text-xs block mb-1 font-semibold uppercase tracking-wide">Ejemplo de respuesta</span>
+                  {q.exampleAnswer}
+                </div>
+              )}
+              <div className="space-y-1.5">
+                <label className="text-sm font-medium text-slate-500 pl-1">Escribe tu respuesta libremente</label>
+                <textarea
+                  rows={4}
+                  value={userAnswer || ''}
+                  onChange={(e) => setUserAnswer(e.target.value)}
+                  disabled={submitted}
+                  placeholder="Escribe tu respuesta en inglés…"
+                  className={`w-full p-5 border-2 rounded-2xl focus:outline-none focus-visible:ring-2 focus-visible:ring-[#FF6B6B] focus-visible:ring-offset-2 text-base font-medium text-slate-800 transition-colors resize-none ${
+                    submitted ? 'border-blue-300 bg-blue-50 text-blue-900' : 'border-slate-200 focus:border-[#FF6B6B] bg-white'
+                  }`}
+                />
+              </div>
+              {submitted && q.exampleAnswer && (
+                <div className="p-3 bg-slate-50 rounded-xl border border-slate-200 text-sm text-slate-700">
+                  <span className="text-slate-400 text-xs block mb-1 font-semibold uppercase tracking-wide">Compara con el ejemplo</span>
+                  {q.exampleAnswer}
+                </div>
+              )}
             </div>
           )}
 
@@ -472,16 +548,22 @@ export default function ExerciseRenderer({ exercise, vocabulary, onComplete }: E
                   </div>
                 </div>
 
-                {q.explanation && (
-                  <div className="bg-slate-50 rounded-2xl px-4 py-3 mb-3 border border-slate-100">
-                    <p className="text-sm font-medium text-slate-500 mb-1">
-                      Por qué
-                    </p>
-                    <div className="text-sm font-normal text-slate-700 leading-relaxed">
-                      <Markdown content={q.explanation} vocabulary={vocabulary} />
+                {(() => {
+                  const hasRichExplanation = q.explanation && (q.explanation.length > 20 || q.explanation.includes('[['));
+                  const explanationText = hasRichExplanation
+                    ? q.explanation
+                    : buildFallbackExplanation(q, exercise);
+                  return explanationText ? (
+                    <div className="bg-slate-50 rounded-2xl px-4 py-3 mb-3 border border-slate-100">
+                      <p className="text-sm font-medium text-slate-500 mb-1">
+                        Por qué
+                      </p>
+                      <div className="text-sm font-normal text-slate-700 leading-relaxed">
+                        <Markdown content={explanationText} vocabulary={vocabulary} />
+                      </div>
                     </div>
-                  </div>
-                )}
+                  ) : null;
+                })()}
 
                 <button
                   onClick={handleNextQuestion}
