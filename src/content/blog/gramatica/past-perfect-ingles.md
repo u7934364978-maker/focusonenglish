@@ -30,6 +30,7 @@ faqs:
   - question: ¿Cuál es la diferencia entre "I had eaten" y "I ate"?
     answer: >-
       "I ate" es un evento en el pasado. "I had eaten" sitúa ese evento antes de otro evento pasado: "By the time she arrived, I had already eaten." Lo que importa del past perfect es siempre la relación con otro momento o evento en el pasado.
+canonical: 'https://www.focus-on-english.com/blog/gramatica/past-perfect-ingles'
 ---
 
 El past perfect resuelve un problema concreto: cuando estás hablando del pasado y necesitas referirte a algo que ocurrió todavía antes. Es el pasado del pasado.

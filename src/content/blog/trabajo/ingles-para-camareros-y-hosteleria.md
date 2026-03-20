@@ -27,6 +27,7 @@ faqs:
   - question: ¿Se propina mucho en UK e Irlanda?
     answer: >-
       En UK e Irlanda la propina (tip) es voluntaria y típicamente del 10-15% en restaurantes. Muchos restaurantes añaden automáticamente un "service charge" del 12.5% a la factura. En pubs rara vez se propina al pedir en la barra. Es muy diferente a EE.UU., donde la propina es prácticamente obligatoria (15-20%) y parte fundamental del salario del camarero.
+canonical: 'https://www.focus-on-english.com/blog/trabajo/ingles-para-camareros-y-hosteleria'
 ---
 
 ## Inglés para Hostelería: La Guía Definitiva

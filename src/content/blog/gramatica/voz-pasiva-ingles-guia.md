@@ -36,6 +36,7 @@ faqs:
   - question: '¿A. La Pasiva de Doble Objeto?'
     answer: 'Verbos como give, send, show, lend, offer o tell suelen llevar un objeto directo (la cosa) y uno indirecto (la persona). En inglés, es mucho más común y natural empezar la pasiva con la persona.'
 
+canonical: 'https://www.focus-on-english.com/blog/gramatica/voz-pasiva-ingles-guia'
 ---
 
 La **voz pasiva (The Passive Voice)** es una de las estructuras que marca la frontera entre un nivel básico y un nivel intermedio-avanzado en inglés. Mientras que en el nivel A2 nos centramos en quién hace qué (Voz Activa), a partir del nivel B1 y especialmente en el B2 (First) y C1 (Advanced), empezamos a dar prioridad a la **acción** o al **objeto** que la recibe.

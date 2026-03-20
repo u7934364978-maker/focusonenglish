@@ -30,6 +30,7 @@ faqs:
   - question: '¿En el Pasado (Modales Perfectos)?'
     answer: 'Se forman con Modal + Have + Participio.'
 
+canonical: 'https://www.focus-on-english.com/blog/gramatica/verbos-modales-ingles-guia'
 ---
 
 Los **verbos modales** son piezas angulares de la fluidez en inglés. A menudo los alumnos dominan el significado básico pero fallan en los matices de cortesía o en las deducciones lógicas.

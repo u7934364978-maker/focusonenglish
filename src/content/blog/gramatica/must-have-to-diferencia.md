@@ -33,6 +33,7 @@ faqs:
   - question: ¿Have got to es lo mismo que have to?
     answer: >-
       Sí, en la práctica tienen el mismo significado. "Have got to" es más informal y más frecuente en el inglés británico. "I've got to go" = "I have to go". En inglés americano se usa más "have to" en el habla cotidiana.
+canonical: 'https://www.focus-on-english.com/blog/gramatica/must-have-to-diferencia'
 ---
 
 Poca gente nota la diferencia entre *must* y *have to* la primera vez que los estudia. Los dos se traducen como "tener que" o "deber" al español, y en muchos casos sí son intercambiables. Pero en otros, la diferencia importa — y en negativo, la diferencia es enorme.

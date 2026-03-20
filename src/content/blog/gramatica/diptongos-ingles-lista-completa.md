@@ -33,6 +33,7 @@ faqs:
   - question: '¿Necesito aprender los símbolos IPA para dominar los diptongos?'
     answer: 'No es imprescindible memorizarlos todos de golpe, pero conocerlos te da una ventaja enorme. Con los símbolos IPA puedes consultar cualquier diccionario y saber exactamente cómo suena una palabra sin necesidad de escucharla. Para los diptongos especialmente, donde la ortografía inglesa es muy poco fiable, el IPA es tu mejor aliado.'
 
+canonical: 'https://www.focus-on-english.com/blog/gramatica/diptongos-ingles-lista-completa'
 ---
 
 Cuando empiezas a estudiar la pronunciación del inglés en serio, llega un momento en que las vocales sueltas ya no son suficientes para entender lo que escuchas. Los diptongos son esa pieza que falta: sonidos que empiezan en un punto y se deslizan hacia otro sin separarse en dos sílabas distintas.

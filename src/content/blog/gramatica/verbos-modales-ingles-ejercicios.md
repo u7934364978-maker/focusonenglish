@@ -29,6 +29,7 @@ faqs:
   - question: '¿Bloque 5 — Ejercicios de Estilo Formal?'
     answer: 'En exámenes Cambridge, los modales también aparecen en transformaciones de frase (Part 4 de Use of English).'
 
+canonical: 'https://www.focus-on-english.com/blog/gramatica/verbos-modales-ingles-ejercicios'
 ---
 
 Dominar los **verbos modales en inglés** requiere práctica sistemática. En esta guía de ejercicios, trabajaremos desde los usos más básicos hasta las construcciones avanzadas con Modales Perfectos.

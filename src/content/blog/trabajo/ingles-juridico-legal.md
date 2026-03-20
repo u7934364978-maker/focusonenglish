@@ -39,6 +39,7 @@ faqs:
       DEBE hacer algo), mientras que "may" expresa permiso o discrecionalidad
       (la parte PUEDE hacer algo si lo desea). Esta distinción es fundamental en
       la redacción de contratos.
+canonical: 'https://www.focus-on-english.com/blog/trabajo/ingles-juridico-legal'
 ---
 
 ## Inglés Jurídico y Legal: Por Qué es un Lenguaje Propio

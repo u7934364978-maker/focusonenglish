@@ -29,6 +29,7 @@ faqs:
   - question: '¿Cuáles son las estrategias clave?'
     answer: 'Si sientes que te has estancado en las presentaciones básicas, aquí tienes el camino estratégico para avanzar:'
 
+canonical: 'https://www.focus-on-english.com/blog/metodos/ingles-a1-vs-a2'
 ---
 
 ## Inglés A1 vs A2: ¿Cuál es tu Nivel Real y cómo Seguir Progresando?

@@ -45,6 +45,7 @@ faqs:
     answer: >-
       Lo ideal es la exposición a diversos acentos. El inglés es la lengua franca global, 
       y en tus viajes hablarás tanto con nativos como con personas de todo el mundo.
+canonical: 'https://www.focus-on-english.com/blog/viajes/guia-maestra-curso-ingles-viajeros'
 ---
 
 ## El Mundo se Abre cuando Tienes las Palabras

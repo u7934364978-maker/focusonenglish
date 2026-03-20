@@ -30,6 +30,7 @@ faqs:
   - question: '¿Participle Clauses?'
     answer: 'Para condensar información y sonar más académico y fluido:'
 
+canonical: 'https://www.focus-on-english.com/blog/examenes/cambridge-c1-advanced-guia'
 ---
 
 El **C1 Advanced (CAE)** de Cambridge es el examen que marca la diferencia entre un usuario competente y un usuario experto. A diferencia del B2 (First), donde la corrección gramatical es el objetivo principal, en el nivel C1 se espera que demuestres **sofisticación, matices y flexibilidad lingüística**. Es el título que abre las puertas a las mejores universidades del mundo y a puestos de alta dirección en multinacionales.

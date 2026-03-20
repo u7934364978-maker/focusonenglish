@@ -43,6 +43,7 @@ faqs:
       o encarga que eso ocurra: "I had the car repaired" implica que yo
       lo llevé al taller. La diferencia es el rol activo del sujeto en
       organizar el evento.
+canonical: 'https://www.focus-on-english.com/blog/gramatica/have-something-done-ingles'
 ---
 
 *"I had my hair cut last week."* Si tradujeras esto literalmente como "Tuve mi pelo cortado", suena raro. Pero en inglés es perfectamente natural y tiene un significado muy concreto: fui a la peluquería y otra persona me cortó el pelo. Eso es exactamente lo que expresa la estructura *have something done*, y una vez que entiendes la lógica, la reconocerás y usarás sin problema.

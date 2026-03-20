@@ -28,6 +28,7 @@ faqs:
   - question: ¿Se redondea la nota global del IELTS?
     answer: >-
       Sí, pero con una fórmula específica. La media de las cuatro partes se redondea al 0,5 más cercano. Por ejemplo, una media de 6,125 se convierte en 6,0; una de 6,25 se convierte en 6,5.
+canonical: 'https://www.focus-on-english.com/blog/examenes/ielts-band-scores-guia'
 ---
 
 El IELTS puntúa de 0 a 9 en cada parte del examen (Listening, Reading, Writing, Speaking) y da una nota global (Overall Band Score) que es la media de las cuatro partes, redondeada al 0,5 más cercano.

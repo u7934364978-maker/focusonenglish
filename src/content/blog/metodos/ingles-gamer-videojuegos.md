@@ -32,6 +32,7 @@ faqs:
   - question: 'Cómo Mejorar tu Inglés Jugando?'
     answer: 'Los videojuegos son una herramienta de aprendizaje infrautilizada. Estrategias para aprender inglés jugando:'
 
+canonical: 'https://www.focus-on-english.com/blog/metodos/ingles-gamer-videojuegos'
 ---
 
 La comunidad gaming es mayoritariamente angloparlante. Si juegas a cualquier juego online — desde *Fortnite* hasta *League of Legends* o *CS2* — entender el **inglés gamer** no es opcional: es una ventaja competitiva real.

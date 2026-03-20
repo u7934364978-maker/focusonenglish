@@ -38,6 +38,7 @@ faqs:
       No. En el Reino Unido, EE.UU., Canadá y Australia está desaconsejado
       incluir foto, fecha de nacimiento o estado civil para evitar sesgos.
       Hacerlo puede incluso resultar contraproducente.
+canonical: 'https://www.focus-on-english.com/blog/trabajo/cv-ingles'
 ---
 
 ## Tu CV en Inglés: la Llave al Mercado Laboral Internacional

@@ -36,6 +36,7 @@ faqs:
       No. Hablar a un ritmo controlado y articular bien las palabras transmite
       mucho más profesionalismo que hablar rápido y cometer errores. Los
       reclutadores valoran la claridad y la seguridad, no la velocidad.
+canonical: 'https://www.focus-on-english.com/blog/trabajo/entrevista-trabajo-ingles-preguntas'
 ---
 
 ## Prepara tu Entrevista de Trabajo en Inglés como un Profesional
