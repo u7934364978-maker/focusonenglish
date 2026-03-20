@@ -15,6 +15,7 @@ keywords:
   - it is believed ingles
   - passive reporting verbs
   - pasiva impersonal ejemplos
+  - passive voice practice ejercicios
 author: sara-mendez
 date: '2026-02-11'
 updatedDate: '2026-03-10'

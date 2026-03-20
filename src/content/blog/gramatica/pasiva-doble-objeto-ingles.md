@@ -16,6 +16,7 @@ keywords:
   - I was given ingles
   - pasiva objeto indirecto ingles
   - double object passive english
+  - passive voice practice ejercicios
 author: david-torres
 date: '2026-02-26'
 updatedDate: '2026-03-10'

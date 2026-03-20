@@ -15,6 +15,7 @@ keywords:
   - active passive voice ingles
   - voz pasiva ingles cuándo
   - diferencia voz activa pasiva
+  - passive voice practice ejercicios
 author: david-torres
 date: '2026-02-20'
 updatedDate: '2026-03-10'

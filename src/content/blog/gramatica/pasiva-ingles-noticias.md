@@ -16,6 +16,7 @@ keywords:
   - titulares pasivos ingles
   - leer noticias ingles comprension
   - inglés periodístico pasiva
+  - passive voice practice ejercicios
 author: sara-mendez
 date: '2026-03-07'
 updatedDate: '2026-03-10'

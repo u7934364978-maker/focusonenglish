@@ -15,6 +15,7 @@ keywords:
   - pasiva presente simple ingles
   - voz pasiva ingles ejemplos
   - passive voice ejercicios
+  - passive voice practice ejercicios
 author: sara-mendez
 date: '2026-02-05'
 updatedDate: '2026-03-10'

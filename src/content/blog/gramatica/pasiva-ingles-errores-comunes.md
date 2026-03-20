@@ -16,6 +16,7 @@ keywords:
   - errores verbos intransitivos pasiva
   - participio pasado errores ingles
   - passive voice mistakes
+  - passive voice practice ejercicios
 author: sara-mendez
 date: '2026-03-01'
 updatedDate: '2026-03-10'
