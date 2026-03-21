@@ -22,7 +22,7 @@ alt: Ejercicios de reported speech en formato PDF
 faqs:
   - question: '¿Qué es reported speech ejercicios pdf y cómo se usa?'
     answer: 'Dominar el Reported Speech (o estilo indirecto) es uno de los mayores hitos en el aprendizaje del inglés. No basta con conocer las reglas teóricas sobre el cambio de tiempos verbales; la clave reside en la automatización de esas reglas a través de la práctica constante. En el estilo indirecto en...'
-  - question: '¿¿Por qué practicar con ejercicios en PDF??'
+  - question: '¿Por qué practicar con ejercicios en PDF?'
     answer: 'Hoy en día tenemos multitud de aplicaciones y herramientas interactivas, pero el formato PDF sigue siendo el preferido por estudiantes y profesores por varias razones:'
   - question: '¿Nivel Intermedio (B1 - B2 First)?'
     answer: 'En este nivel, el objetivo es consolidar el backshift (el salto atrás de los tiempos verbales) y los cambios en las referencias temporales y de lugar.'

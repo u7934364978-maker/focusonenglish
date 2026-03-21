@@ -21,11 +21,11 @@ category: gramatica
 faqs:
   - question: '¿Defining vs Non-Defining Relative Clauses: cuál es mejor?'
     answer: 'Esta es la distinción más importante para aprobar los exámenes de nivel B2 y C1.'
-  - question: '¿¿Cuándo se puede omitir el pronombre??'
+  - question: '¿Cuándo se puede omitir el pronombre?'
     answer: 'En las Defining Relative Clauses, podemos omitir el pronombre (who, which, that) SOLO si funciona como objeto de la oración (es decir, si hay otro sujeto después del pronombre).'
   - question: '¿� Lista de Ejemplos para Práctica (Versión Imprimible)?'
     answer: 'Aquí tienes 15 ejemplos que cubren todos los casos importantes:'
-  - question: '¿¿Cuándo debo usar ''Whom''??'
+  - question: '¿Cuándo debo usar ''Whom''?'
     answer: '''Whom'' se usa cuando el pronombre de relativo es el objeto de una preposición en contextos muy formales (The person with whom I was speaking). En el inglés hablado, preferimos poner la preposición al final y usar ''who'' o nada (The person I was speaking with).'
 
 canonical: 'https://www.focus-on-english.com/blog/gramatica/relative-clauses-guia-definitiva'

@@ -23,7 +23,7 @@ updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/672532/pexels-photo-672532.jpeg'
 category: metodos
 faqs:
-  - question: '¿¿Por Qué Aprender Slang Británico??'
+  - question: '¿Por Qué Aprender Slang Británico?'
     answer: '- Para entender series, películas y podcasts británicos sin perderte constantemente - Para comunicarte con naturalidad con hablantes del Reino Unido - Para sonar más auténtico y fluido en lugar de como un libro de texto - Para evitar malentendidos (algunas expresiones tienen significados muy...'
   - question: '¿Expresiones para el Pub (Imprescindibles en el Reino Unido)?'
     answer: 'El pub es el centro social de la cultura británica. Estas expresiones son vitales:'

@@ -27,7 +27,7 @@ faqs:
     answer: 'Estas preposiciones suelen ir acompañadas de verbos específicos. Aprenderlos en parejas (colocaciones) te ayudará a memorizarlos:'
   - question: '¿� Lista de Ejemplos para Práctica (Versión Imprimible)?'
     answer: 'Copia estas frases para practicar tu traducción y comprensión:'
-  - question: '¿¿Se puede usar "In" en lugar de "Into"??'
+  - question: '¿Se puede usar "In" en lugar de "Into"?'
     answer: 'En inglés coloquial, a veces verás Go in the house. Sin embargo, en un examen académico o escrito, Into es la única forma correcta para indicar movimiento hacia el interior.'
 
 canonical: 'https://www.focus-on-english.com/blog/gramatica/preposiciones-movimiento-ingles'

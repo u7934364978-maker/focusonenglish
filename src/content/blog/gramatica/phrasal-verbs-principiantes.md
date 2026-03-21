@@ -26,7 +26,7 @@ alt: 'Estudiante principiante aprendiendo phrasal verbs básicos en inglés'
 category: gramatica
 canonical: 'https://www.focus-on-english.com/blog/gramatica/phrasal-verbs-principiantes'
 faqs:
-  - question: '¿¿Qué es un Phrasal Verb? (Explicación Simple)?'
+  - question: '¿Qué es un Phrasal Verb? (Explicación Simple)?'
     answer: 'Un phrasal verb es la combinación de un verbo más una pequeña palabra (llamada "partícula"), que puede ser una preposición (in, on, at) o un adverbio (up, down, out).'
   - question: '¿Rutinas Diarias?'
     answer: 'Empezamos con los phrasal verbs que usas (o usarías) todos los días:'

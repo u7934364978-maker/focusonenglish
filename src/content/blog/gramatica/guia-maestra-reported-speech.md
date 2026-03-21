@@ -23,7 +23,7 @@ alt: Guía maestra sobre estilo indirecto en inglés
 faqs:
   - question: '¿Guía Maestra de Reported Speech y Reporting Verbs?'
     answer: 'El Reported Speech (estilo indirecto) y los Reporting Verbs son pilares fundamentales de la gramática inglesa avanzada. Si estás preparando un examen de Cambridge (FCE, CAE o CPE), dominar estas estructuras no es solo una opción, sino una necesidad absoluta para obtener una puntuación alta en las...'
-  - question: '¿¿Qué es el Reported Speech??'
+  - question: '¿Qué es el Reported Speech?'
     answer: 'El Reported Speech se utiliza para comunicar lo que otra persona ha dicho sin repetir sus palabras exactas entre comillas. A diferencia del Direct Speech (estilo directo), el estilo indirecto requiere una serie de adaptaciones gramaticales para que el mensaje sea coherente con el momento y el lugar...'
   - question: '¿Cambios de Tiempos Verbales (Backshift)?'
     answer: 'Cuando el verbo principal que introduce el reporte (el reporting verb) está en pasado (ej. said, told, explained), el tiempo del mensaje original debe realizar un "retroceder" gramatical. Este fenómeno se conoce en inglés como backshift.'

@@ -26,7 +26,7 @@ related_routes:
 image: 'https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg'
 alt: Aprendiendo inglés nivel maestría C2
 faqs:
-  - question: '¿¿Qué significa realmente tener un Nivel C2??'
+  - question: '¿Qué significa realmente tener un Nivel C2?'
     answer: 'El nivel C2 es el techo del aprendizaje de idiomas. Un usuario C2 es capaz de comprender con facilidad prácticamente todo lo que oye o lee, independientemente de la complejidad del tema o del acento del interlocutor. Pero la verdadera maestría se demuestra en la producción: la capacidad de...'
   - question: '¿Cuáles son las diferencias clave?'
     answer: 'Muchos estudiantes se preguntan: "¿Vale la pena el esfuerzo de pasar del C1 al C2?". La respuesta corta es sí, especialmente si trabajas en entornos de alto nivel.'

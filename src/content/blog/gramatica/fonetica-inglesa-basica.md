@@ -23,7 +23,7 @@ updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/267669/pexels-photo-267669.jpeg'
 category: gramatica
 faqs:
-  - question: '¿¿Qué es un Fonema??'
+  - question: '¿Qué es un Fonema?'
     answer: 'Un fonema es la unidad mínima de sonido que distingue el significado de una palabra. El inglés tiene 44 fonemas a pesar de tener solo 26 letras, lo que explica la aparente irregularidad entre escritura y pronunciación.'
   - question: '¿Vocales Cortas (Short Vowels)?'
     answer: 'Son vocales breves y relajadas. Son las que más dificultan a los hispanohablantes porque no tienen equivalente exacto en español.'

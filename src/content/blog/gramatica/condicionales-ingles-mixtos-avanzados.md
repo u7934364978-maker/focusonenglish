@@ -21,7 +21,7 @@ updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/3060654/pexels-photo-3060654.jpeg'
 category: gramatica
 faqs:
-  - question: '¿¿Qué son los Mixed Conditionals??'
+  - question: '¿Qué son los Mixed Conditionals?'
     answer: 'Los Mixed Conditionals combinan elementos de dos tipos de condicionales para hablar de:'
   - question: '¿Mixed Type A?'
     answer: 'Usamos este tipo cuando queremos decir: "Si algo hubiera pasado en el pasado (pero no pasó), las cosas serían diferentes ahora."'

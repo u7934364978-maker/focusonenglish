@@ -25,7 +25,7 @@ image: 'https://images.pexels.com/photos/301920/pexels-photo-301920.jpeg'
 category: gramatica
 canonical: 'https://www.focus-on-english.com/blog/gramatica/reported-speech-guia-uso'
 faqs:
-  - question: '¿¿Qué es exactamente el Reported Speech??'
+  - question: '¿Qué es exactamente el Reported Speech?'
     answer: 'En inglés, tenemos dos formas de reportar lo que alguien dijo: 1.  Direct Speech: "I am tired," said John. (Repetimos las palabras exactas entre comillas). 2.  Reported Speech: John said that he was tired. (Adaptamos el mensaje a nuestro momento y perspectiva actual).'
   - question: '¿La Regla de Oro?'
     answer: 'Cuando el verbo que introduce el reporte (llamado reporting verb, como say o tell) está en pasado, el tiempo verbal del mensaje original debe retroceder un paso en el tiempo. A esto le llamamos Backshift.'

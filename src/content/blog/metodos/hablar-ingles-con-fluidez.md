@@ -22,7 +22,7 @@ updatedDate: '2026-03-10'
 image: 'https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg'
 category: metodos
 faqs:
-  - question: '¿¿Qué es realmente la fluidez??'
+  - question: '¿Qué es realmente la fluidez?'
     answer: 'La fluidez no significa hablar perfecto ni sin errores. Un hablante fluido es aquel que:'
   - question: '¿Shadowing?'
     answer: 'El shadowing consiste en imitar a un hablante nativo en tiempo real: escuchas una frase y la repites inmediatamente, copiando la entonación, el ritmo y el acento.'

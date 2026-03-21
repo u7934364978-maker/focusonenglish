@@ -25,7 +25,7 @@ related_routes:
 faqs:
   - question: '¿C2 Proficiency (CPE)?'
     answer: 'El C2 Proficiency de Cambridge, anteriormente conocido como CPE (Certificate of Proficiency in English), representa el nivel más alto que puedes alcanzar en la escala de Cambridge y en el Marco Común Europeo de Referencia (MCER). Certifica que posees un dominio excepcional del inglés, equiparable al...'
-  - question: '¿¿Qué evalúa realmente el Proficiency??'
+  - question: '¿Qué evalúa realmente el Proficiency?'
     answer: 'A este nivel, la gramática ya no es el centro del estudio, sino el contexto y la intención. Los examinadores no evalúan si conoces el Past Perfect, sino tu capacidad para usarlo para dar un matiz irónico a una frase, captar sutilezas culturales en un texto literario o manejar textos técnicos...'
   - question: '¿Estructura Detallada del Examen?'
     answer: 'El examen se divide en cuatro pruebas principales, diseñadas para poner al límite tus capacidades lingüísticas:'
