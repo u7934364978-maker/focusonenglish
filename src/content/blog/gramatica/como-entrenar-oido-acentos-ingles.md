@@ -3,6 +3,8 @@ title: 'Cómo Entrenar el Oído para Entender Cualquier Acento del Inglés'
 date: '2026-03-11'
 updatedDate: '2026-03-11'
 author: david-torres
+description: >-
+  Cómo entrenar el oído para entender cualquier acento en inglés: escocés, australiano, indio y más. Técnicas y recursos para mejorar tu comprensión oral en 2026.
 excerpt: >-
   Entender a un escocés, un australiano o un hablante de inglés de la India requiere un entrenamiento específico del oído, diferente al que se necesita para mejorar el vocabulario o la gramática. Aquí está la metodología que funciona.
 category: gramatica

@@ -3,6 +3,8 @@ title: 'Clases de Inglés: Guía para elegir la mejor opción'
 date: '2026-01-30'
 updatedDate: '2026-03-10'
 author: sara-mendez
+description: >-
+  Guía para elegir las mejores clases de inglés: academias, profesores particulares, clases online e IA. Compara opciones, costes y métodos para encontrar la que realmente funciona para ti.
 excerpt: >-
   ¿Buscas clases de inglés que realmente funcionen? Descubre los diferentes
   métodos, desde clases particulares hasta la revolución de la IA, y elige la

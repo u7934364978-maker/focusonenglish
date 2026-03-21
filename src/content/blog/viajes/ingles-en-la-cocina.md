@@ -3,6 +3,8 @@ title: 'Inglés en la Cocina: Vocabulario y Técnicas Culinarias en Inglés'
 date: '2026-02-26'
 updatedDate: '2026-03-10'
 author: sara-mendez
+description: >-
+  Vocabulario culinario en inglés: utensilios, técnicas de cocina, ingredientes y cómo leer recetas anglosajonas. Imprescindible para trabajar en hostelería o cocinar en inglés.
 excerpt: >-
   Aprende el vocabulario culinario en inglés: utensilios, técnicas de cocina, ingredientes y cómo leer recetas en inglés. Ideal para trabajar en hostelería o simplemente cocinar con recetas anglosajonas.
 category: viajes

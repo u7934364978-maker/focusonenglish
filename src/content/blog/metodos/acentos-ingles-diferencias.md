@@ -3,6 +3,8 @@ title: 'Acentos del Inglés: Guía de las Principales Diferencias por País y Re
 date: '2026-03-06'
 updatedDate: '2026-03-10'
 author: sara-mendez
+description: >-
+  Guía de acentos del inglés: diferencias entre el británico (RP, Cockney), americano (General American, Southern), australiano, irlandés y más. Con ejemplos de pronunciación para hispanohablantes.
 excerpt: >-
   Descubre las diferencias entre los principales acentos del inglés: británico (RP, Cockney, Scouse), americano (General American, Southern, New York), australiano, irlandés y más. Con ejemplos de pronunciación.
 category: metodos

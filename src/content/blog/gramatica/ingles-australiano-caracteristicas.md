@@ -3,6 +3,8 @@ title: 'Inglés Australiano: Por Qué Suena Tan Diferente y Cómo Aprender a Ent
 date: '2026-03-11'
 updatedDate: '2026-03-11'
 author: david-torres
+description: >-
+  El inglés australiano explicado: sistema de vocales único, vocabulario propio y características que lo hacen inconfundible. Guía práctica para entenderlo mejor.
 excerpt: >-
   El inglés australiano es no rótico como el británico, pero tiene un sistema de vocales único que lo hace inconfundible. Si te ha costado entender a los australianos, aquí están las claves fonéticas que necesitas para sintonizar tu oído con ese acento.
 category: gramatica

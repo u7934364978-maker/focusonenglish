@@ -40,6 +40,8 @@ faqs:
     answer: >-
       Sí, publicar en inglés demuestra tu fluidez y te posiciona como un experto
       en tu sector a nivel internacional, más allá de lo que diga tu CV.
+description: >
+  Cómo optimizar tu perfil de LinkedIn en inglés para atraer reclutadores internacionales. Titular de impacto, extracto convincente, experiencia y networking efectivo en 2026.
 ---
 
 ## LinkedIn en Inglés: Tu Escaparate Profesional al Mundo

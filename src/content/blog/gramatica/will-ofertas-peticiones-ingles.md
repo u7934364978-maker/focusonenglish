@@ -3,6 +3,8 @@ title: 'Will para Ofrecimientos y Peticiones en Inglés: Guía Práctica'
 date: '2026-03-21'
 updatedDate: '2026-03-21'
 author: sara-mendez
+description: >-
+  Will para ofrecimientos y peticiones en inglés: estructuras, ejemplos y diferencias con otros auxiliares. Guía práctica para hablar de forma natural en situaciones cotidianas.
 category: gramatica
 image: >-
   https://images.pexels.com/photos/3790778/pexels-photo-3790778.jpeg?auto=compress&cs=tinysrgb&w=1200

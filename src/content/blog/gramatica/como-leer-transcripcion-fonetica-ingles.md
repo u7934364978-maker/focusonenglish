@@ -3,6 +3,8 @@ title: 'Cómo Leer la Transcripción Fonética en Inglés: Guía Práctica del I
 date: '2026-03-11'
 updatedDate: '2026-03-11'
 author: david-torres
+description: >-
+  Cómo leer la transcripción fonética en inglés: guía práctica del IPA para entender símbolos como /ˈkʌmftəbl/. Aprende a usar el diccionario fonético con total seguridad.
 excerpt: >-
   Abres el Cambridge Dictionary y ves /ˈkʌmftəbl/ para "comfortable". ¿Qué significa eso exactamente? Esta guía te enseña a descifrar la transcripción fonética del inglés de forma práctica, sin memorizar tablas interminables.
 category: gramatica

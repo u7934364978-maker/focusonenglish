@@ -3,6 +3,8 @@ title: 'Diptongos en Inglés: Los 8 Sonidos que Dan Musicalidad al Idioma'
 date: '2026-03-11'
 updatedDate: '2026-03-11'
 author: david-torres
+description: >-
+  Los 8 diptongos del inglés: qué son, cómo pronunciarlos y por qué dan al idioma su sonido característico. Guía con lista completa y ejemplos prácticos para hispanohablantes.
 excerpt: >-
   Los diptongos son esas vocales que se "deslizan" y dan al inglés parte de su sonido característico. Hay 8 en el inglés estándar y muchos hispanohablantes los pronuncian sin darse cuenta de que son dos sonidos en uno. Aquí los vemos todos con ejemplos y ejercicios.
 category: gramatica

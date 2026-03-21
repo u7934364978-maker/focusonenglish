@@ -3,6 +3,8 @@ title: 'Vocales del Inglés Americano: Por Qué Son tan Difíciles (y Cómo Domi
 date: '2026-03-11'
 updatedDate: '2026-03-11'
 author: david-torres
+description: >-
+  Vocales del inglés americano: por qué son tan difíciles para hispanohablantes y cómo dominarlas. Guía con los 15 sonidos vocálicos del GA y ejercicios para entrenar el oído.
 excerpt: >-
   El inglés americano tiene hasta 15 vocales distintas en algunas variedades. El español tiene 5. Esa diferencia explica buena parte de los problemas de pronunciación que tienen los hispanohablantes. Aquí te cuento cuáles son las más problemáticas y cómo trabajarlas.
 category: gramatica

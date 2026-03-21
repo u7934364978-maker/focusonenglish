@@ -3,6 +3,8 @@ title: 'Apps para Aprender Inglés sin Internet: Las Mejores Opciones Offline en
 date: '2026-03-11'
 updatedDate: '2026-03-11'
 author: sara-mendez
+description: >-
+  Las mejores apps para aprender inglés sin internet en 2026: cuáles funcionan offline de verdad, cuáles engañan y cómo configurarlas para estudiar en el metro, avión o sin cobertura.
 excerpt: >-
   ¿Estudias inglés en el metro, en un avión o en zonas sin cobertura? Descubre qué apps funcionan sin internet, cuáles tienen modo offline real y cuáles te engañan, cómo configurarlas para aprovechar al máximo el modo sin conexión, y las mejores opciones para aprender inglés sin gastar datos.
 category: metodos

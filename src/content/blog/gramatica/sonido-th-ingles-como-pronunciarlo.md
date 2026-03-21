@@ -3,6 +3,8 @@ title: 'El Sonido TH en Inglés: Cómo Pronunciar /θ/ y /ð/ sin Morir en el In
 date: '2026-03-11'
 updatedDate: '2026-03-11'
 author: david-torres
+description: >-
+  Cómo pronunciar el sonido TH en inglés (/θ/ y /ð/): técnica, posición de la lengua y ejercicios progresivos. El sonido más difícil para hispanohablantes, explicado con claridad.
 excerpt: >-
   El TH es el sonido que más avergüenza a los hispanohablantes en inglés. No es tan difícil como parece si entiendes bien la diferencia entre el /θ/ sordo y el /ð/ sonoro y practicas con los ejercicios correctos.
 category: gramatica

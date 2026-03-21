@@ -3,6 +3,8 @@ title: 'Verbos Irregulares en Inglés: Lista Completa para el Past Simple'
 date: '2026-02-19'
 updatedDate: '2026-03-20'
 author: david-torres
+description: >-
+  Verbos irregulares en inglés para el Past Simple: lista completa con patrones y ejercicios. Aprende a identificar grupos de irregulares para memorizarlos de forma más eficaz.
 category: gramatica
 image: >-
   https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=1200

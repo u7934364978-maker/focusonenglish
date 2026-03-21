@@ -3,6 +3,8 @@ title: 'Inglés para Ligar y Citas: Frases y Expresiones para Conocer Gente en I
 date: '2026-03-08'
 updatedDate: '2026-03-10'
 author: sara-mendez
+description: >-
+  Inglés para ligar, citas y conocer gente: frases naturales para flirtear, hacer planes y hablar en apps de citas. Vocabulario auténtico que los nativos usan de verdad.
 excerpt: >-
   Aprende el inglés para ligar, hacer planes con alguien que te gusta y tener conversaciones de citas. Desde el flirteo casual hasta las aplicaciones de citas, vocabulario auténtico y frases naturales.
 category: metodos

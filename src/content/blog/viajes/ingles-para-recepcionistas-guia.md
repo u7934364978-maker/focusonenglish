@@ -5,6 +5,8 @@ title: >-
 date: '2026-02-06'
 updatedDate: '2026-03-10'
 author: sara-mendez
+description: >-
+  Inglés profesional para recepcionistas de hotel: reservas, check-in, reclamaciones y peticiones de huéspedes en inglés. Todo lo que necesitas para dar una atención de 5 estrellas.
 excerpt: >-
   Domina el inglés para recepcionistas de hotel. Aprende a gestionar reservas,
   check-ins, reclamaciones y peticiones de huéspedes con elegancia y

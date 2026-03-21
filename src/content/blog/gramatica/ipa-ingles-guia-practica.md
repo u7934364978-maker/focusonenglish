@@ -3,6 +3,8 @@ title: 'IPA para Inglés: Cómo Usarlo en el Día a Día sin Volverte Loco'
 date: '2026-03-11'
 updatedDate: '2026-03-11'
 author: david-torres
+description: >-
+  Cómo usar el IPA (Alfabeto Fonético Internacional) para aprender inglés en el día a día: guía práctica para leer transcripciones fonéticas y mejorar tu pronunciación.
 excerpt: >-
   El Alfabeto Fonético Internacional no es solo para lingüistas. Saber usar el IPA en tu rutina de estudio puede ahorrarte años de pronunciación incorrecta. Aquí te explico qué aprender primero, qué herramientas usar y cómo integrarlo en tu estudio sin que sea un dolor de cabeza.
 category: gramatica

@@ -3,6 +3,8 @@ title: 'Inglés Escocés: Por Qué Suena Tan Diferente y Cómo Entenderlo'
 date: '2026-03-11'
 updatedDate: '2026-03-11'
 author: david-torres
+description: >-
+  El inglés escocés: sus características fonéticas únicas, vocabulario propio y por qué suena tan diferente. Guía práctica para entender el acento escocés en conversaciones reales.
 excerpt: >-
   El inglés de Escocia tiene características fonéticas únicas que lo distinguen del inglés estándar de forma muy marcada. Desde la pronunciación de la /r/ hasta el sistema vocálico propio, entender el acento escocés requiere conocer sus reglas particulares.
 category: gramatica

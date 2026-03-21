@@ -3,6 +3,8 @@ title: 'Inglés Universitario y Académico: Guía Completa para Estudiantes 2026
 date: '2026-02-28'
 updatedDate: '2026-03-10'
 author: david-torres
+description: >-
+  Domina el inglés académico universitario: escritura de ensayos, lectura de artículos científicos, participación en seminarios y comunicación con profesores. Guía completa para hispanohablantes en 2026.
 excerpt: >-
   Todo sobre el inglés académico universitario: cómo escribir ensayos, participar en seminarios, leer artículos científicos y comunicarte con profesores. Guía esencial para estudiantes hispanohablantes.
 category: examenes

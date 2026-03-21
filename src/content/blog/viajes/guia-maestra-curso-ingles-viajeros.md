@@ -3,6 +3,8 @@ title: 'Inglés para Viajar: Tu Pasaporte a Experiencias Auténticas'
 date: '2026-01-30'
 updatedDate: '2026-03-10'
 author: lidia
+description: >-
+  Guía completa de inglés para viajeros: habla con confianza en aeropuertos, hoteles, restaurantes y excursiones. Transforma tus viajes con el idioma como herramienta de conexión real.
 excerpt: >-
   Viajar es descubrir, y el idioma es la llave. En esta guía exploramos cómo
   dominar el inglés de forma práctica puede transformar tus vacaciones en

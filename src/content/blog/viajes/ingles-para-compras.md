@@ -3,6 +3,8 @@ title: 'Inglés para Ir de Compras: Frases y Vocabulario Esencial 2026'
 date: '2026-02-20'
 updatedDate: '2026-03-10'
 author: sara-mendez
+description: >-
+  Todo el inglés para ir de compras: preguntar precios, tallas, descuentos, cambios y devoluciones en inglés. Frases reales para tiendas, mercados y outlets en países angloparlantes.
 excerpt: >-
   Aprende el inglés que necesitas para ir de compras en países angloparlantes: preguntar precios, tu talla, cambios y devoluciones, regatear y mucho más. Incluye diálogos reales.
 category: viajes

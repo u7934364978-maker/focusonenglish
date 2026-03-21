@@ -37,6 +37,8 @@ faqs:
     answer: >-
       Usa frases de cierre natural como: 'It was a pleasure meeting you. I'm
       going to circulate a bit more, but let's connect on LinkedIn'.
+description: >
+  Guía práctica para hacer networking en inglés en eventos internacionales. Cómo presentarte, iniciar conversaciones, intercambiar contactos y dar seguimiento sin resultar forzado.
 ---
 
 ## Conecta y Crece Profesionalmente: El Poder del Networking

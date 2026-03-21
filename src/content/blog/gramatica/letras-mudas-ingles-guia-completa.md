@@ -3,6 +3,8 @@ title: 'Letras Mudas en Inglés: La Guía Completa con Patrones y Excepciones'
 date: '2026-03-11'
 updatedDate: '2026-03-11'
 author: david-torres
+description: >-
+  Letras mudas en inglés: guía completa con patrones y excepciones. Aprende por qué knife, Wednesday o psychology tienen letras silenciosas y cómo reconocerlas para mejorar tu pronunciación.
 excerpt: >-
   "Knife", "Wednesday", "psychology", "island"... el inglés está lleno de letras que se escriben pero no se pronuncian. No es aleatório: hay patrones históricos y reglas que explican la mayoría de los casos. Aquí los tienes todos.
 category: gramatica

@@ -28,6 +28,8 @@ faqs:
     answer: >-
       En UK e Irlanda la propina (tip) es voluntaria y típicamente del 10-15% en restaurantes. Muchos restaurantes añaden automáticamente un "service charge" del 12.5% a la factura. En pubs rara vez se propina al pedir en la barra. Es muy diferente a EE.UU., donde la propina es prácticamente obligatoria (15-20%) y parte fundamental del salario del camarero.
 canonical: 'https://www.focus-on-english.com/blog/trabajo/ingles-para-camareros-y-hosteleria'
+description: >
+  Todo el inglés necesario para trabajar en hostelería en UK, Irlanda o Australia: atender mesas, tomar pedidos, gestionar quejas, hablar de la carta y comunicarse en cocina.
 ---
 
 ## Inglés para Hostelería: La Guía Definitiva

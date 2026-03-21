@@ -3,6 +3,8 @@ title: 'Inglés como Lengua Franca (ELF): Por Qué el Inglés "Perfecto" No Es S
 date: '2026-03-11'
 updatedDate: '2026-03-11'
 author: david-torres
+description: >-
+  El inglés como lengua franca (ELF): por qué el inglés perfecto no siempre es el objetivo y qué implica esto para tu aprendizaje en un mundo globalizado.
 excerpt: >-
   En la mayoría de las conversaciones en inglés del mundo, ninguno de los participantes es nativo. Este es el inglés como lengua franca: una realidad que cambia qué errores importan, qué pronunciación es funcional y qué significa "hablar bien" en el siglo XXI.
 category: gramatica

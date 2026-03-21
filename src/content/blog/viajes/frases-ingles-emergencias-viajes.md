@@ -3,6 +3,8 @@ title: 'Frases de Emergencia en Inglés: Guía de Supervivencia para Viajeros'
 date: '2026-01-30'
 updatedDate: '2026-03-10'
 author: sara-mendez
+description: >-
+  Las frases de inglés que necesitas en emergencias al viajar: accidentes, robos, problemas médicos y extravíos. Guía de supervivencia para viajeros hispanohablantes.
 excerpt: >-
   Estar preparado para lo inesperado es vital al viajar. Aprende las frases
   clave para emergencias médicas, robos y extravíos, y viaja con total

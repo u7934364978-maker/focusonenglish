@@ -3,6 +3,8 @@ title: 'Inglés de Nueva Zelanda: Características, Maorí y Cómo Entenderlo'
 date: '2026-03-11'
 updatedDate: '2026-03-11'
 author: david-torres
+description: >-
+  El inglés de Nueva Zelanda: sus características fonéticas únicas, influencia del maorí y diferencias con el australiano y británico. Guía práctica para entender el kiwi English.
 excerpt: >-
   El inglés de Nueva Zelanda es uno de los más jóvenes del mundo y uno de los más llamativos fonéticamente. La "i" que suena como "u", el "fish and chips" que se escucha como "fush and chups" y la influencia del maorí hacen de este acento un caso fascinante.
 category: gramatica

@@ -3,6 +3,8 @@ title: 'Will vs Would en Inglés: Cuándo Usar Cada Uno y Por Qué No Son lo Mis
 date: '2026-02-16'
 updatedDate: '2026-03-20'
 author: sara-mendez
+description: >-
+  Will vs would en inglés: la diferencia real y cuándo usar cada uno. No son solo presente y pasado — aprende a distinguirlos en condicionales, peticiones formales y más.
 category: gramatica
 image: >-
   https://images.pexels.com/photos/4778611/pexels-photo-4778611.jpeg?auto=compress&cs=tinysrgb&w=1200

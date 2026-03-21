@@ -3,6 +3,8 @@ title: 'El Inglés del Sur de Estados Unidos: Características del Southern Amer
 date: '2026-03-11'
 updatedDate: '2026-03-11'
 author: david-torres
+description: >-
+  El inglés del sur de Estados Unidos: características del Southern American English, vocales largas, expresiones propias y cómo entender este acento en series y películas.
 excerpt: >-
   El inglés del sur de Estados Unidos es una de las variedades regionales más reconocibles y más malentendidas del inglés americano. Desde el "Southern Vowel Shift" hasta las expresiones propias de Dixie, aquí están las claves para entenderlo.
 category: gramatica

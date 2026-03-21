@@ -3,6 +3,8 @@ title: 'Will vs Shall en Inglés: Cuándo Se Usa Cada Uno'
 date: '2026-03-21'
 updatedDate: '2026-03-21'
 author: sara-mendez
+description: >-
+  Will vs shall en inglés: cuándo se usa cada uno, por qué shall es más formal y en qué contextos los nativos lo utilizan hoy. Guía práctica con ejemplos reales.
 category: gramatica
 image: >-
   https://images.pexels.com/photos/4778667/pexels-photo-4778667.jpeg?auto=compress&cs=tinysrgb&w=1200

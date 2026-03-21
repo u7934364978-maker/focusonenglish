@@ -3,6 +3,8 @@ title: 'Past Perfect en Inglés: Cuándo Usarlo y por Qué lo Necesitas'
 date: '2026-02-28'
 updatedDate: '2026-03-20'
 author: sara-mendez
+description: >-
+  Past Perfect en inglés: cuándo usarlo y por qué lo necesitas. Aprende a expresar lo que ocurrió antes de otro evento pasado con ejemplos prácticos y ejercicios para B2-C1.
 category: gramatica
 image: >-
   https://images.pexels.com/photos/4144923/pexels-photo-4144923.jpeg?auto=compress&cs=tinysrgb&w=1200

@@ -3,6 +3,8 @@ title: 'Present Perfect Continuous: Cuándo Usarlo y en Qué Se Diferencia del S
 date: '2026-02-22'
 updatedDate: '2026-03-20'
 author: sara-mendez
+description: >-
+  Present Perfect Continuous en inglés: cuándo usarlo y en qué se diferencia del Present Perfect Simple. Guía con ejemplos claros, errores frecuentes y ejercicios resueltos.
 category: gramatica
 image: >-
   https://images.pexels.com/photos/5212703/pexels-photo-5212703.jpeg?auto=compress&cs=tinysrgb&w=1200

@@ -3,6 +3,8 @@ title: 'Ejercicios de Will en Inglés con Soluciones: Practica Todos los Usos'
 date: '2026-03-21'
 updatedDate: '2026-03-21'
 author: sara-mendez
+description: >-
+  Ejercicios de will en inglés con soluciones: practica todos sus usos (futuro, predicciones, promesas, decisiones, ofrecimientos) con correcciones detalladas. Ideal para B1-B2.
 category: gramatica
 image: >-
   https://images.pexels.com/photos/4145153/pexels-photo-4145153.jpeg?auto=compress&cs=tinysrgb&w=1200

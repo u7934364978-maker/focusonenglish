@@ -3,6 +3,8 @@ title: 'Shadowing para Mejorar la Pronunciación en Inglés: La Técnica que Usa
 date: '2026-03-11'
 updatedDate: '2026-03-11'
 author: david-torres
+description: >-
+  Shadowing para mejorar la pronunciación en inglés: la técnica que usan los políglotas para sonar natural. Cómo practicarlo paso a paso y qué audios usar según tu nivel.
 excerpt: >-
   El shadowing es repetir lo que escuchas casi al mismo tiempo que lo escuchas, imitando no solo las palabras sino el ritmo, la entonación y la velocidad. Los políglotas lo usan. Los actores de doblaje lo usan. Funciona. Aquí te explico cómo hacerlo bien.
 category: gramatica

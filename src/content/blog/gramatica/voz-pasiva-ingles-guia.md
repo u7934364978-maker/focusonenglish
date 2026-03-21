@@ -22,6 +22,8 @@ date: '2026-03-02'
 updatedDate: '2026-03-21'
 category: gramatica
 author: david-torres
+description: >-
+  La voz pasiva en inglés: guía completa con todos los tiempos verbales, transformaciones de activa a pasiva, pasivas impersonales y causativas. Incluye ejemplos para exámenes oficiales.
 image: 'https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg'
 alt: Estudiante estudiando la voz pasiva en inglés con libros de gramática
 faqs:

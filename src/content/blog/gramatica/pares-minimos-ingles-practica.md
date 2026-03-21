@@ -3,6 +3,8 @@ title: 'Pares Mínimos en Inglés: La Técnica Más Efectiva para Afinar el Oíd
 date: '2026-03-11'
 updatedDate: '2026-03-11'
 author: david-torres
+description: >-
+  Pares mínimos en inglés: la técnica más efectiva para afinar el oído y mejorar la pronunciación. Lista de pares clave para hispanohablantes con ejercicios de discriminación auditiva.
 excerpt: >-
   Los pares mínimos son dos palabras que solo se diferencian en un sonido. Practicarlos es la forma más directa de entrenar tanto la percepción como la producción de los fonemas que más te cuestan. Aquí tienes más de 80 pares organizados por sonido.
 category: gramatica

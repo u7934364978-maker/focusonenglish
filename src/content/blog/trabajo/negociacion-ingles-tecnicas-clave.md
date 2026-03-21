@@ -38,6 +38,8 @@ faqs:
       Usa la técnica del 'Sandwich': algo positivo, el rechazo suavizado y una
       alternativa. 'I appreciate your offer, however, it's above our budget;
       perhaps we could adjust the delivery terms instead?'.
+description: >
+  Estrategias y frases clave para negociar en inglés con éxito: cómo hacer propuestas, gestionar objeciones, cerrar acuerdos y mantener la posición sin perder la relación comercial.
 ---
 
 ## El Arte de la Negociación en un Mundo Globalizado

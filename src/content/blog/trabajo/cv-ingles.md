@@ -39,6 +39,8 @@ faqs:
       incluir foto, fecha de nacimiento o estado civil para evitar sesgos.
       Hacerlo puede incluso resultar contraproducente.
 canonical: 'https://www.focus-on-english.com/blog/trabajo/cv-ingles'
+description: >
+  Guía completa para hacer un CV en inglés en 2026: estructura, formato, palabras clave para ATS y errores que debes evitar. Con plantillas y ejemplos reales para diferentes sectores.
 ---
 
 ## Tu CV en Inglés: la Llave al Mercado Laboral Internacional

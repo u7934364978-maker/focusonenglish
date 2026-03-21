@@ -3,6 +3,8 @@ title: 'Lingopie Review 2026: Aprende Inglés con Series y Películas de Verdad'
 date: '2026-03-11'
 updatedDate: '2026-03-11'
 author: sara-mendez
+description: >-
+  Lingopie review 2026: aprende inglés con series y películas reales usando subtítulos interactivos. Analizamos contenido, precios y las mejores alternativas gratuitas como Language Reactor.
 excerpt: >-
   Lingopie te permite aprender inglés viendo series y películas reales con subtítulos interactivos. Analizamos qué contenido en inglés tiene, cómo funciona su sistema de vocabulario, la versión gratis vs pago y las mejores alternativas gratuitas como Language Reactor.
 category: metodos

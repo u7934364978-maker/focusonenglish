@@ -3,6 +3,8 @@ title: 'Will vs Going To en Inglés: La Diferencia Real con Ejemplos'
 date: '2026-03-21'
 updatedDate: '2026-03-21'
 author: sara-mendez
+description: >-
+  Will vs going to en inglés: la diferencia real con ejemplos claros. Aprende cuándo usar cada uno según el tipo de futuro, decisión o plan, y evita los errores más comunes.
 category: gramatica
 image: >-
   https://images.pexels.com/photos/4778545/pexels-photo-4778545.jpeg?auto=compress&cs=tinysrgb&w=1200

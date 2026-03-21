@@ -41,6 +41,8 @@ faqs:
       Decision (decisión) y Retention (retención). También se usa el acrónimo
       TOFU (Top of Funnel), MOFU (Middle of Funnel) y BOFU (Bottom of Funnel).
 canonical: 'https://www.focus-on-english.com/blog/trabajo/ingles-para-marketing'
+description: >
+  Vocabulario, términos y frases esenciales del inglés para marketing en 2026. SEO, copywriting, social media, briefings y presentaciones de campaña en entornos profesionales internacionales.
 ---
 
 ## Inglés para Marketing: El Idioma del Marketing Digital Global

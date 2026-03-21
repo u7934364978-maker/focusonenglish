@@ -3,6 +3,8 @@ title: 'Repetición Espaciada para Aprender Inglés: Qué es el SRS y Cómo Usar
 date: '2026-03-11'
 updatedDate: '2026-03-11'
 author: sara-mendez
+description: >-
+  La repetición espaciada (SRS) es el método más eficaz para memorizar vocabulario en inglés. Aprende qué es la curva del olvido, cómo funciona el algoritmo SM-2 y qué apps lo usan mejor en 2026.
 excerpt: >-
   Descubre qué es la repetición espaciada (SRS) y por qué es el método más eficaz para memorizar vocabulario en inglés. Curva del olvido de Ebbinghaus, algoritmo SM-2, apps que lo usan y guía práctica para empezar hoy.
 category: metodos

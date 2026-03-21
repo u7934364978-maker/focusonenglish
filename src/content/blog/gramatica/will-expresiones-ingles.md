@@ -3,6 +3,8 @@ title: 'Expresiones con Will en Inglés: Frases Hechas y Usos Avanzados'
 date: '2026-03-21'
 updatedDate: '2026-03-21'
 author: sara-mendez
+description: >-
+  Expresiones fijas y frases idiomáticas con will en inglés: usos avanzados que van más allá de las reglas básicas. Aprende a hablar como un nativo con estas construcciones reales.
 category: gramatica
 image: >-
   https://images.pexels.com/photos/4778611/pexels-photo-4778611.jpeg?auto=compress&cs=tinysrgb&w=1200

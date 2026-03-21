@@ -3,6 +3,8 @@ title: 'Consonantes Difíciles del Inglés para Hispanohablantes: /v/, /w/, /ŋ/
 date: '2026-03-11'
 updatedDate: '2026-03-11'
 author: david-torres
+description: >-
+  Consonantes difíciles del inglés para hispanohablantes: /v/, /w/, /ŋ/ y más. Por qué no existen en español y cómo aprenderlas con ejercicios prácticos de pronunciación.
 excerpt: >-
   El español y el inglés comparten muchas consonantes, pero hay varias que simplemente no existen en español. La /v/, la /w/, la /ŋ/ nasal, la /ʒ/, la /r/ retrofleja... estas son las que realmente marcan la diferencia entre un acento fuerte y uno neutralizado.
 category: gramatica
