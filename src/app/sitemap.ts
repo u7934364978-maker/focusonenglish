@@ -113,21 +113,23 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const keywords = getAllKeywords();
   urls.push(
-    ...keywords.map((keyword) => {
-      const keywordArticles = articles.filter(a =>
-        a.keywords?.some(k => slugify(k) === slugify(keyword))
-      );
-      const latestDate = keywordArticles.length > 0
-        ? new Date(keywordArticles[0].date)
-        : SITE_LAUNCH_DATE;
-
-      return {
-        url: `${baseUrl}/blog/temas/${slugify(keyword)}`,
-        lastModified: latestDate,
-        changeFrequency: "weekly" as const,
-        priority: 0.5,
-      };
-    })
+    ...keywords
+      .map((keyword) => {
+        const keywordArticles = articles.filter(a =>
+          a.keywords?.some(k => slugify(k) === slugify(keyword))
+        );
+        return { keyword, keywordArticles };
+      })
+      .filter(({ keywordArticles }) => keywordArticles.length >= 3)
+      .map(({ keyword, keywordArticles }) => {
+        const latestDate = new Date(keywordArticles[0].date);
+        return {
+          url: `${baseUrl}/blog/temas/${slugify(keyword)}`,
+          lastModified: latestDate,
+          changeFrequency: "weekly" as const,
+          priority: 0.5,
+        };
+      })
   );
 
   urls.push({
