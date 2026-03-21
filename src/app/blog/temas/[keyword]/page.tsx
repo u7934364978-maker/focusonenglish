@@ -201,17 +201,47 @@ export default async function KeywordHubPage({ params }: { params: Promise<{ key
         {/* Intro text (when no hub file — adds indexable body text) */}
         {!hubContent && (
           <section className="py-12 px-4 sm:px-6 lg:px-8 bg-white border-b border-slate-200">
-            <div className="max-w-4xl mx-auto space-y-4">
+            <div className="max-w-4xl mx-auto space-y-5">
               <p className="text-lg text-slate-700 leading-relaxed">
-                En esta página encontrarás todos nuestros recursos sobre <strong>{originalKeyword}</strong>: guías paso a paso, ejercicios prácticos con soluciones, consejos de expertos y materiales gratuitos diseñados para hispanohablantes que quieren mejorar su inglés de forma eficaz.
+                En esta página encontrarás todos nuestros recursos sobre <strong>{originalKeyword}</strong>: guías detalladas paso a paso, ejercicios prácticos con soluciones, tablas de referencia y materiales gratuitos diseñados específicamente para hispanohablantes que quieren mejorar su inglés de forma eficaz y estructurada. Cada recurso está pensado para que puedas aprender sin dar rodeos, con explicaciones en español que van directamente al grano.
               </p>
+
               {articles.length >= 3 && (
                 <p className="text-base text-slate-600 leading-relaxed">
-                  Hemos reunido <strong>{articles.length} {articles.length === 1 ? "guía" : "guías"}</strong> sobre este tema, cubriendo desde los conceptos fundamentales hasta los usos avanzados que aparecen en exámenes oficiales como Cambridge, IELTS o APTIS. Cada artículo incluye ejemplos reales, tablas de referencia y ejercicios resueltos para que puedas practicar y consolidar lo aprendido.
+                  Hemos reunido <strong>{articles.length} {articles.length === 1 ? "guía" : "guías"}</strong> sobre este tema, organizadas para que puedas avanzar desde los fundamentos hasta los usos más avanzados. No importa en qué punto estés: si acabas de encontrarte con este concepto por primera vez o si ya tienes una base y quieres afinar los detalles, encontrarás el nivel de profundidad que necesitas. El contenido cubre tanto la teoría esencial como los errores más frecuentes que cometen los estudiantes de habla hispana, con explicaciones contrastadas entre el español y el inglés para que la diferencia quede clara desde el primer momento.
                 </p>
               )}
+
+              {articles.length >= 3 && (
+                <div className="bg-slate-50 rounded-2xl p-5 border border-slate-200">
+                  <p className="text-sm font-bold text-slate-700 uppercase tracking-wide mb-3">Temas que encontrarás en esta sección</p>
+                  <ul className="space-y-1.5">
+                    {articles.slice(0, 6).map((a) => (
+                      <li key={a.slug} className="flex items-start gap-2 text-sm text-slate-600">
+                        <span className="text-indigo-500 mt-0.5 flex-shrink-0">→</span>
+                        <span>{a.title}</span>
+                      </li>
+                    ))}
+                    {articles.length > 6 && (
+                      <li className="flex items-start gap-2 text-sm text-slate-500 italic">
+                        <span className="mt-0.5 flex-shrink-0">···</span>
+                        <span>y {articles.length - 6} guías más sobre {originalKeyword}</span>
+                      </li>
+                    )}
+                  </ul>
+                </div>
+              )}
+
               <p className="text-base text-slate-600 leading-relaxed">
-                Todo el contenido está escrito en español, pensado para estudiantes de nivel B1 en adelante que buscan una explicación clara, sin tecnicismos innecesarios y con ejemplos aplicables desde el primer día. Si estás preparando un examen oficial, trabajando en un entorno internacional o simplemente quieres hablar con más confianza en inglés, estas guías son tu punto de partida.
+                Cada guía sigue la misma estructura pensada para el aprendizaje real: primero la explicación del concepto con ejemplos claros, luego los casos de uso más comunes en contextos cotidianos y formales, y finalmente ejercicios resueltos para que puedas comprobar tu comprensión antes de seguir. No se trata de memorizar reglas, sino de entender cuándo y por qué se usan las estructuras, algo que marca la diferencia entre un nivel intermedio y un nivel avanzado.
+              </p>
+
+              <p className="text-base text-slate-600 leading-relaxed">
+                El contenido está orientado a estudiantes de nivel B1 en adelante, aunque muchas guías incluyen secciones específicas para B2 y C1, incluyendo los patrones que aparecen en exámenes oficiales como <strong>Cambridge (B2 First, C1 Advanced)</strong>, <strong>IELTS</strong>, <strong>TOEFL</strong> y <strong>APTIS</strong>. Si tu objetivo es obtener una certificación, trabajar en un entorno internacional o simplemente hablar con más confianza y precisión en inglés, estas guías son tu punto de partida.
+              </p>
+
+              <p className="text-base text-slate-600 leading-relaxed">
+                Nuestra recomendación es que empieces por la guía principal del tema —la que aparece primero en la lista— y avances en orden. Una vez que hayas leído la explicación, haz los ejercicios de práctica antes de consultar las soluciones. El aprendizaje activo, intentando resolver antes de mirar la respuesta, consolida el conocimiento de forma mucho más efectiva que la lectura pasiva. Si tienes dudas específicas, revisa las preguntas frecuentes al final de esta página: probablemente ya están respondidas.
               </p>
             </div>
           </section>
