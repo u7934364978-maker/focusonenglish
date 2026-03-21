@@ -1,10 +1,8 @@
 ---
 title: 'Will vs Would en Inglés: Cuándo Usar Cada Uno y Por Qué No Son lo Mismo'
 date: '2026-02-16'
-updatedDate: '2026-02-16'
+updatedDate: '2026-03-20'
 author: sara-mendez
-description: >-
-  Will y would no son simplemente presente y pasado. Aprende todos sus usos: predicciones, decisiones espontáneas, condicionales, peticiones y hábitos del pasado, con ejemplos reales.
 category: gramatica
 image: >-
   https://images.pexels.com/photos/4778611/pexels-photo-4778611.jpeg?auto=compress&cs=tinysrgb&w=1200

@@ -42,9 +42,15 @@ export async function generateMetadata({ params }: { params: Promise<{ keyword: 
     ? `https://www.focus-on-english.com/hubs/${keyword}`
     : `https://www.focus-on-english.com/blog/temas/${keyword}`;
 
+  const pageKeywords = [
+    originalKeyword,
+    ...articles.flatMap(a => a.keywords || []),
+  ].filter((v, i, arr) => arr.indexOf(v) === i).slice(0, 10);
+
   return {
     title: pageTitle,
     description: pageDescription,
+    keywords: pageKeywords,
     alternates: {
       canonical: canonicalUrl,
     },
