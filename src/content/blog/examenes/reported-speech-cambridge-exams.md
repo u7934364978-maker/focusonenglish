@@ -1,7 +1,7 @@
 ---
 category: examenes
 date: '2026-03-02'
-updatedDate: '2026-03-10'
+updatedDate: '2026-03-21'
 author: david-torres
 title: 'Reported Speech Cambridge Exams: Guía de Rephrasing (B2-C2)'
 description: >-
@@ -19,14 +19,14 @@ canonical: 'https://www.focus-on-english.com/blog/examenes/reported-speech-cambr
 image: 'https://images.pexels.com/photos/3184311/pexels-photo-3184311.jpeg'
 alt: Personas hablando representando el reported speech
 faqs:
-  - question: '¿Qué es reported speech cambridge exams y cómo se usa?'
-    answer: 'En los exámenes de Cambridge (B2 First, C1 Advanced y C2 Proficiency), el Reported Speech no solo se evalúa como una regla gramatical aislada, sino como una herramienta fundamental de comunicación. Es un tema recurrente, especialmente en la parte 4 del Use of English: Key Word Transformation...'
-  - question: '¿El Reto del Rephrasing en Cambridge?'
-    answer: 'En los ejercicios de Key Word Transformation, debes reescribir una oración para que signifique exactamente lo mismo que la original, utilizando una palabra clave obligatoria y manteniendo un límite de entre 2 y 5 palabras (B2) o de 3 a 6 palabras (C1 y C2).'
-  - question: '¿Dominando los Patrones Verbales (Verb Patterns)?'
-    answer: 'A medida que subes de nivel (de B2 a C1/C2), los verbos simples como say o tell desaparecen de los exámenes. Los examinadores prefieren verbos con patrones más complejos.'
-  - question: '¿Verbos seguidos de infinitivo (to + verb)?'
-    answer: '- Offer: "I''ll help you" -> He offered to help me. - Promise: "I''ll call you" -> She promised to call me. - Refuse: "No, I won''t go" -> He refused to go.'
+  - question: '¿Cómo se evalúa el Reported Speech en los exámenes Cambridge?'
+    answer: 'En los exámenes de Cambridge (B2 First, C1 Advanced y C2 Proficiency), el Reported Speech se evalúa principalmente en la parte 4 del Use of English: Key Word Transformation. No se trata solo del backshift de tiempos verbales, sino de usar el reporting verb preciso con el patrón correcto: infinitivo, gerundio o preposición + gerundio.'
+  - question: '¿Qué es el Key Word Transformation y cómo funciona en Cambridge?'
+    answer: 'Es un ejercicio donde debes reescribir una oración para que signifique exactamente lo mismo que la original, usando una palabra clave obligatoria y entre 2-5 palabras en B2, o 3-6 palabras en C1/C2. El reto está en combinar el estilo indirecto con el patrón verbal exacto del reporting verb (por ejemplo, "apologise for" + gerundio).'
+  - question: '¿Qué verbos de reporting son los más difíciles para Cambridge C1?'
+    answer: 'En C1 y C2, los examinadores evitan "say" y "tell" y usan patrones complejos: "accuse someone of" + gerundio, "insist on" + gerundio, "advise someone to" + infinitivo, "congratulate someone on" + gerundio, y "suggest" + gerundio. Memorizar estos patrones es esencial para la parte 4.'
+  - question: '¿Cuáles son los errores más frecuentes con el Reported Speech en Cambridge?'
+    answer: 'Los más penalizados son: usar "that" con verbos de infinitivo ("He offered that he would help" es incorrecto; lo correcto es "He offered to help"), olvidar cambiar los pronombres (I → he/she, my → his/her), y confundir "say" y "tell" (tell siempre necesita objeto indirecto: "He told me that...").'
 
 ---
 

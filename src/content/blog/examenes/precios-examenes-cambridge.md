@@ -1,7 +1,7 @@
 ---
 category: examenes
 date: '2026-03-02'
-updatedDate: '2026-03-10'
+updatedDate: '2026-03-21'
 author: david-torres
 title: 'Precios Exámenes Cambridge 2026: Tasas, Gastos Extra y Comparativa'
 description: >-
@@ -25,14 +25,14 @@ related_routes:
 image: 'https://images.pexels.com/photos/4386339/pexels-photo-4386339.jpeg'
 alt: Calculadora y dinero representando los precios de exámenes
 faqs:
-  - question: '¿Precios Exámenes Cambridge 2026?'
-    answer: 'Si has decidido certificar tu nivel de inglés, una de las primeras y más importantes preguntas que te harás es: ¿cuánto cuesta el examen de Cambridge?. Obtener una certificación oficial no es solo un reto académico, sino también una inversión económica significativa que requiere planificación.'
-  - question: '¿Desglose de Precios Estimados por Niveles (2026)?'
-    answer: 'Los precios que mostramos a continuación son una media de los centros examinadores más importantes. Recuerda que cada centro puede aplicar ligeras variaciones.'
-  - question: '¿¿Cuánto cuesta el examen First (FCE) en 2026??'
-    answer: 'El precio del examen First es el más demandado. En 2026, la tasa estándar en la mayoría de centros es de 225€. Este precio suele incluir los derechos de examen y la emisión del certificado físico.'
-  - question: '¿Gastos Extra?'
-    answer: 'El precio de la matrícula no es siempre el coste final. Existen varios conceptos que pueden encarecer tu certificación:'
+  - question: '¿Cuánto cuesta el examen B2 First (FCE) en 2026?'
+    answer: 'El precio del examen First (FCE) en 2026 oscila entre 215€ y 235€ en la mayoría de centros examinadores. Este importe incluye los derechos de examen y la emisión del certificado físico. Para el C1 Advanced (CAE) el rango es de 235€ a 255€, y para el C2 Proficiency (CPE) de 255€ a 280€.'
+  - question: '¿Varía el precio según el nivel del examen Cambridge?'
+    answer: 'Sí. El A2 Key (KET) cuesta entre 115€ y 125€; el B1 Preliminary (PET) entre 130€ y 150€; el B2 First (FCE) entre 215€ y 235€; el C1 Advanced (CAE) entre 235€ y 255€; y el C2 Proficiency (CPE) entre 255€ y 280€. Son precios medios: cada centro examinador puede aplicar pequeñas variaciones.'
+  - question: '¿Qué gastos extra puede haber al matricularse en un examen Cambridge?'
+    answer: 'Además de la tasa principal, pueden sumarse: recargo por matrícula fuera de plazo (30€-60€), revisión de nota (25€-120€, reembolsable si la nota cambia), duplicado de certificado en caso de pérdida (~60€) y envío del título a domicilio (~10€-15€).'
+  - question: '¿Son los exámenes Cambridge más caros que el IELTS o el TOEFL?'
+    answer: 'Los precios son similares: IELTS y TOEFL cuestan entre 235€ y 250€, igual que el FCE o el CAE. La ventaja de Cambridge es que su certificado no caduca nunca, mientras que el IELTS y el TOEFL caducan a los 2 años. A largo plazo, Cambridge resulta la inversión más rentable.'
 
 ---
 

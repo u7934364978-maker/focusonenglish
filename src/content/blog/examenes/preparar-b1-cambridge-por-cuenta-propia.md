@@ -15,21 +15,21 @@ keywords:
   - practicar speaking b1 solo
   - focus english b1 preparation
 date: '2025-02-05'
-updatedDate: '2026-03-10'
+updatedDate: '2026-03-21'
 category: examenes
 author: david-torres
 image: 'https://images.pexels.com/photos/5905709/pexels-photo-5905709.jpeg'
 canonical: >-
   https://www.focus-on-english.com/blog/examenes/preparar-b1-cambridge-por-cuenta-propia
 faqs:
-  - question: '¿Preparar el B1 de Cambridge por tu cuenta?'
-    answer: 'La respuesta corta es: Sí, es totalmente posible. El nivel B1 Preliminary (PET) de Cambridge certifica que tienes las bases necesarias para comunicarte en situaciones cotidianas, tanto de forma oral como escrita. Es un título clave para estudiantes universitarios, profesionales que buscan su primer...'
-  - question: '¿Conoce la Estructura del Examen (PET)?'
-    answer: 'No basta con "saber inglés"; tienes que ser un experto en el formato del examen. El B1 de Cambridge se divide en cuatro bloques que evalúan habilidades distintas y tienen pesos específicos en tu nota final:'
-  - question: '¿Crea un Calendario de 12 Semanas?'
-    answer: 'La organización es la diferencia entre el éxito y el abandono. No intentes aprenderlo todo en una noche. Divide tu preparación en fases:'
-  - question: '¿Conclusión?'
-    answer: 'Preparar el B1 por tu cuenta requiere compromiso, pero con herramientas como las que ofrecemos en Focus English, el camino es mucho más sencillo y efectivo. No solo aprobarás el examen, sino que realmente desarrollarás la capacidad de hablar el idioma en tu día a día profesional y personal.'
+  - question: '¿Es posible preparar el B1 de Cambridge sin academia?'
+    answer: 'Sí, es totalmente posible. El nivel B1 Preliminary (PET) certifica comunicación cotidiana, y con los materiales adecuados puedes prepararlo solo. Cambridge ofrece exámenes de muestra gratuitos en su web oficial, y plataformas con rutas curriculares específicas para el examen facilitan mucho el autoestudio sin profesor.'
+  - question: '¿Cuánto tiempo se necesita para preparar el B1 PET?'
+    answer: 'Si ya tienes una base sólida de nivel A2, unas 10 a 12 semanas de estudio constante (aproximadamente una hora al día) suelen ser suficientes para afrontar el examen con garantías. La clave es dividir la preparación en fases: gramática y vocabulario primero, ejercicios de examen después, y simulacros completos las últimas semanas.'
+  - question: '¿Es mejor hacer el examen B1 en papel o por ordenador?'
+    answer: 'La mayoría de los candidatos prefiere el examen computer-based porque los resultados llegan en 2-3 semanas (frente a 6-9 semanas del papel) y es más sencillo editar los textos en el Writing. El precio suele ser idéntico en ambas modalidades.'
+  - question: '¿Cómo puedo mejorar el Writing del B1 rápidamente?'
+    answer: 'La clave es usar conectores (however, furthermore, despite) y variedad de tiempos verbales. No te limites al presente; incorpora el Past Perfect o el Present Perfect para demostrar dominio del nivel. Escribe un email o una historia corta al día durante la fase de preparación y revisa los criterios de corrección de Cambridge.'
 
 ---
 

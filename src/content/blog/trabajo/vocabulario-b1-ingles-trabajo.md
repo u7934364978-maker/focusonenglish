@@ -1,7 +1,7 @@
 ---
 category: trabajo
 date: '2026-03-02'
-updatedDate: '2026-03-10'
+updatedDate: '2026-03-21'
 author: sara-mendez
 title: 'Vocabulario Inglés B1: Trabajo, Viajes y Vida Cotidiana'
 description: >-
@@ -19,14 +19,14 @@ related_routes:
 image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg'
 alt: Vocabulario de trabajo para nivel B1
 faqs:
-  - question: '¿Vocabulario Esencial Inglés B1?'
-    answer: 'El nivel B1 (Intermedio) marca un antes y un después en el aprendizaje del inglés. Es el nivel en el que dejas de ser un "superviviente" lingüístico para convertirte en un comunicador independiente. Según el Marco Común Europeo de Referencia (MCER), en este nivel debes ser capaz de desenvolverte en...'
-  - question: '¿Temas Clave de Vocabulario B1?'
-    answer: 'En nuestro curso online de inglés B1, priorizamos el vocabulario que realmente vas a usar en situaciones de la vida real. No se trata de memorizar diccionarios, sino de adquirir herramientas comunicativas.'
-  - question: '¿El Mundo del Trabajo y las Profesiones?'
-    answer: 'En el nivel B1, se espera que no solo nombres tu profesión, sino que describas tus responsabilidades diarias, tu horario y tus ambiciones.'
-  - question: '¿Viajes, Turismo y Transporte?'
-    answer: 'Esta es quizás el área donde más se nota el salto del A2 al B1. Ahora debes ser capaz de resolver problemas, como una pérdida de equipaje o una reserva cancelada.'
+  - question: '¿Cuántas palabras necesito saber para el nivel B1 de inglés?'
+    answer: 'Se estima que un estudiante de nivel B1 debe dominar de forma activa entre 2.000 y 2.500 palabras. Sin embargo, tu vocabulario pasivo (lo que entiendes al leer o escuchar) suele ser casi el doble de esa cifra. No se trata de memorizar listas, sino de aprender palabras en contexto y en colocaciones reales.'
+  - question: '¿Cuál es la diferencia entre el vocabulario B1 y el B2?'
+    answer: 'En el nivel B1, el vocabulario es concreto y cotidiano: trabajo, viajes, salud y tecnología. En el B2, empiezas a usar términos más abstractos, modismos complejos y un lenguaje más formal para expresar matices de opinión. La diferencia más visible es la precisión léxica y el uso de colocaciones avanzadas.'
+  - question: '¿Qué phrasal verbs son imprescindibles para el nivel B1?'
+    answer: 'Los más importantes son: "get on with" (llevarse bien con alguien), "look for" (buscar), "put off" (posponer), "pick up" (recoger) y "take off" (despegar). Son frecuentes en exámenes Cambridge, Aptis y EOI, y usarlos correctamente demuestra que has superado el nivel A2.'
+  - question: '¿Es malo usar palabras simples en un examen de nivel B1?'
+    answer: 'No es un error, pero para obtener una buena nota debes demostrar variedad léxica. En lugar de usar siempre "good", prueba con "great", "amazing", "fantastic" o "excellent". Colocaciones como "meet a deadline" o "run a business" también suman puntos frente a traducciones literales del español.'
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 category: examenes
 date: '2026-02-07'
-updatedDate: '2026-03-10'
+updatedDate: '2026-03-21'
 author: david-torres
 image: "https://images.pexels.com/photos/1454360/pexels-photo-1454360.jpeg?auto=compress&cs=tinysrgb&w=1200"
 alt: "Estudiante de nivel avanzado preparando su examen C1 Advanced"
@@ -21,14 +21,14 @@ keywords:
   - voz pasiva avanzada ingles
   - use of english c1 tips
 faqs:
-  - question: '¿El Use of English?'
-    answer: 'Esta parte del examen evalúa tu control sobre el sistema de la lengua. Ya no basta con saber que un verbo va seguido de gerundio; debes entender las colocaciones y los idioms.'
-  - question: '¿Estructuras Avanzadas?'
-    answer: 'Para obtener una nota alta (Grade A o B), debes demostrar que conoces estructuras que aporten énfasis y elegancia a tu discurso.'
-  - question: '¿Cleft Sentences (Frases Hendidas)?'
-    answer: 'Perfectas para dirigir la atención del lector hacia un punto específico:'
-  - question: '¿Participle Clauses?'
-    answer: 'Para condensar información y sonar más académico y fluido:'
+  - question: '¿Qué diferencia al C1 Advanced (CAE) del B2 First en términos de exigencia?'
+    answer: 'En el B2, el objetivo principal es la corrección gramatical. En el C1, se espera sofisticación, matices y flexibilidad lingüística. Los examinadores buscan estructuras de énfasis como inversiones, cleft sentences y participle clauses, además de vocabulario preciso e idioms avanzados en lugar de palabras genéricas como "good" o "bad".'
+  - question: '¿Qué es el Key Word Transformation del CAE y por qué es tan difícil?'
+    answer: 'Es la parte 4 del Use of English: debes transformar una frase usando una palabra clave sin cambiar el significado, con entre 3 y 6 palabras. En C1, las transformaciones combinan inversiones ("No sooner had I arrived than..."), condicionales mixtos, modales de deducción y phrasal verbs avanzados, todo a la vez.'
+  - question: '¿Qué estructuras avanzadas marcan la diferencia en el Writing del CAE?'
+    answer: 'Las inversiones ("Not only did the project succeed, but it also exceeded all expectations"), las cleft sentences ("It was the lack of communication that led to the collapse") y las participle clauses ("Having analyzed the data, it becomes clear that...") elevan la nota de un Grade C a un Grade A o B.'
+  - question: '¿Qué vocabulario es obligatorio para el nivel C1 Advanced?'
+    answer: 'Un candidato C1 debe abandonar palabras genéricas y usar sinónimos precisos: en lugar de "good" usa "beneficial", "outstanding" o "superb"; en lugar de "bad" usa "detrimental", "appalling" o "dire". También son esenciales phrasal verbs formales como "account for", "give rise to", "draw on" y "fall short of".'
 
 canonical: 'https://www.focus-on-english.com/blog/examenes/cambridge-c1-advanced-guia'
 ---
