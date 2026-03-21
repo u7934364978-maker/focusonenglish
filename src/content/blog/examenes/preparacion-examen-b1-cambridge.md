@@ -11,6 +11,10 @@ description: >-
   Cambridge PET, Aptis y Linguaskill con estrategias de estudio, recursos
   gratuitos y consejos de examinadores.
 readTime: 4 min
+excerpt: >-
+  El B1 es el primer título internacional de inglés y el que más empresas
+  piden. Tanto si vas al Cambridge PET, al Aptis o al Linguaskill, aquí tienes
+  el plan de estudio, los recursos gratuitos y los consejos que marcan la diferencia.
 keywords:
   - preparacion examen b1 ingles
   - cambridge pet b1

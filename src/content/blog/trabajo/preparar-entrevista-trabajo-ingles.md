@@ -14,6 +14,10 @@ alt: Candidato preparándose para una entrevista de trabajo en inglés con un re
 canonical: >-
   https://www.focus-on-english.com/blog/trabajo/preparar-entrevista-trabajo-ingles
 readTime: 5 min
+excerpt: >-
+  Una entrevista en inglés no falla por el nivel de idioma sino por falta de
+  preparación. Con las respuestas preparadas, el vocabulario adecuado y la
+  técnica STAR dominada, la entrevista se convierte en una conversación que puedes controlar.
 keywords:
   - entrevista de trabajo en ingles
   - preparar entrevista trabajo ingles

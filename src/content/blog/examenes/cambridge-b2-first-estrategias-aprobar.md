@@ -14,6 +14,10 @@ alt: Estudiante estudiando para el Cambridge B2 First con libros y apuntes
 canonical: >-
   https://www.focus-on-english.com/blog/examenes/cambridge-b2-first-estrategias-aprobar
 readTime: 6 min
+excerpt: >-
+  Muchos candidatos al FCE estudian durante meses y aun así suspenden porque
+  no saben cómo funciona la corrección. Aquí están las estrategias parte por
+  parte, los errores más frecuentes y un plan de 8 semanas para llegar preparado.
 keywords:
   - cambridge english 2026
   - cambridge b2 first

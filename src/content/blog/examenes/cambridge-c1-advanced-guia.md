@@ -11,6 +11,10 @@ description: >-
   estructuras avanzadas para el Writing, consejos para el Speaking y vocabulario
   de nivel experto.
 readTime: 4 min
+excerpt: >-
+  El CAE no es simplemente un B2 más difícil: exige sofisticación lingüística
+  que muy pocos candidatos saben demostrar. Aquí tienes las estructuras avanzadas,
+  los trucos para el Use of English y el vocabulario que separa el Grade C del Grade A.
 keywords:
   - preparacion cae cambridge
   - cae cambridge estructura examen

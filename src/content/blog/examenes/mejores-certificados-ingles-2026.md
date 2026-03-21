@@ -1,7 +1,7 @@
 ---
 category: examenes
 date: '2026-02-07'
-updatedDate: '2026-03-10'
+updatedDate: '2026-03-21'
 author: focus-english-team
 title: 'Certificados de Inglés 2026: Guía Estratégica para Elegir con Éxito'
 description: >-
@@ -9,6 +9,10 @@ description: >-
   para 2026, sus novedades digitales y cuál se adapta mejor a tus metas 
   profesionales o académicas.
 readTime: 4 min
+excerpt: >-
+  Elegir mal la certificación puede costarte tiempo, dinero y una admisión.
+  IELTS, Cambridge, TOEFL, Duolingo: te explicamos qué acepta cada institución,
+  cuánto tardan los resultados y cuál te conviene según tu objetivo real.
 keywords:
   - mejores certificados de inglés 2026
   - certificaciones de inglés oficiales
@@ -26,14 +30,14 @@ related_routes:
 image: 'https://images.pexels.com/photos/5905709/pexels-photo-5905709.jpeg'
 alt: Estudiante revisando opciones de certificados de inglés oficiales
 faqs:
-  - question: '¿Tu Título de Inglés en 2026?'
-    answer: 'Elegir una certificación de inglés en 2026 ya no se trata solo de "aprobar un examen", sino de entender qué ecosistema digital y qué validez se alinean con tu próximo gran paso. Ya sea que busques emigrar a Australia, entrar en una Ivy League o escalar a una posición directiva, existe un examen...'
-  - question: '¿El Trío de Oro?'
-    answer: 'Siguen dominando el mercado, pero sus formatos han evolucionado drásticamente para adaptarse a la demanda de resultados rápidos y flexibilidad.'
-  - question: '¿Cambridge English (B2, C1, C2)?'
-    answer: '- Enfoque: Evaluación profunda de la competencia lingüística real. - Novedad 2026: La transición al formato Cambridge English Digital es casi total. Ofrece una experiencia de examen más fluida (especialmente en Writing) y resultados en un tiempo récord de menos de una semana.'
-  - question: '¿IELTS (Academic & General Training)?'
-    answer: '- Enfoque: Inglés práctico para contextos académicos y migratorios. - Dato Clave: Sigue siendo el requisito indispensable para visados en el Reino Unido, Canadá y Australia. La versión IELTS on Computer permite elegir fechas casi a diario.'
+  - question: '¿Cuál es la diferencia principal entre Cambridge, IELTS y TOEFL en 2026?'
+    answer: 'Cambridge evalúa competencia lingüística profunda y su certificado no caduca nunca. IELTS es el estándar para visados de UK, Canadá y Australia, con formato muy práctico y resultados en 3-5 días. TOEFL está orientado a universidades norteamericanas y entornos tecnológicos. Los tres tienen versión digital o computer-based disponible en 2026.'
+  - question: '¿Los certificados Cambridge caducan?'
+    answer: 'No. Los títulos Cambridge (B2 First, C1 Advanced, C2 Proficiency) son permanentes y no tienen fecha de expiración. En cambio, el IELTS y el TOEFL caducan a los 2 años. Si vas a usar el certificado a largo plazo para un currículum o acceso a universidades, Cambridge es la inversión más rentable.'
+  - question: '¿Qué certificado de inglés piden las empresas españolas?'
+    answer: 'La mayoría de empresas españolas e internacionales aceptan Cambridge (B2 o C1), IELTS o TOEFL. Para puestos públicos o administrativos en España suele pedirse específicamente Cambridge o EOI. Para empresas tecnológicas o multinacionales, cualquiera de los tres es válido. El Duolingo English Test gana aceptación pero aún no está tan extendido en el mercado laboral español.'
+  - question: '¿Cuánto tiempo tardan en llegar los resultados de cada examen?'
+    answer: 'Cambridge Digital: menos de una semana. IELTS on Computer: 3-5 días. TOEFL iBT: 4-8 días. Duolingo English Test: 2 días. LanguageCert: 3 días. El examen Cambridge en papel puede tardar hasta 6-8 semanas, por lo que el formato digital es claramente más recomendable en 2026.'
 
 ---
 

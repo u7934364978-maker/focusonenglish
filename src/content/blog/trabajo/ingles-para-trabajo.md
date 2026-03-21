@@ -9,6 +9,10 @@ description: >-
   Aprende a liderar reuniones, negociar con éxito y comunicar tus ideas 
   con impacto en entornos internacionales.
 readTime: 4 min
+excerpt: >-
+  Saber inglés no es suficiente si no sabes cómo usarlo en una reunión, una
+  negociación o una presentación internacional. Aquí tienes el vocabulario,
+  las frases y las estrategias que realmente usa un profesional en entornos globales.
 keywords:
   - inglés para el trabajo
   - inglés profesional

@@ -9,6 +9,10 @@ description: >-
   del First (FCE), Advanced (CAE) y PET. Descubre cuánto cuesta certificarse hoy
   mismo.
 readTime: 4 min
+excerpt: >-
+  El FCE cuesta entre 215€ y 235€, el CAE entre 235€ y 255€. Pero además de
+  la tasa principal hay recargos que muy pocos anticipan. Aquí tienes los
+  precios reales, los gastos extra y cómo compararlos con IELTS y TOEFL.
 keywords:
   - precios examenes cambridge
   - precio certificacion cambridge
