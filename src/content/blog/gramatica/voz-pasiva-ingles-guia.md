@@ -1,9 +1,5 @@
 ---
 title: 'La Voz Pasiva en Inglés: Guía Completa, Tiempos y Uso Académico'
-description: >-
-  Domina la voz pasiva en inglés de forma definitiva. Incluye fórmulas para
-  todos los tiempos, pasivas con doble objeto, estructuras causativas, la pasiva
-  impersonal y ejemplos prácticos para niveles B1 a C1.
 readTime: 6 min
 excerpt: >-
   ¿Te cuesta entender cuándo y cómo usar la voz pasiva en inglés? En esta guía
@@ -23,20 +19,20 @@ keywords:
   - impersonal passive english
   - voz pasiva ingles
 date: '2026-03-02'
-updatedDate: '2026-03-10'
+updatedDate: '2026-03-21'
 category: gramatica
 author: david-torres
 image: 'https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg'
+alt: Estudiante estudiando la voz pasiva en inglés con libros de gramática
 faqs:
-  - question: '¿¿Por qué usamos la Voz Pasiva??'
-    answer: 'Muchos estudiantes cometen el error de pensar que la pasiva es simplemente una forma "difícil" de decir lo mismo que en activa. Sin embargo, su uso responde a intenciones comunicativas muy claras:'
-  - question: '¿La Estructura Fundamental?'
-    answer: 'Para transformar cualquier oración de activa a pasiva, el verbo ''to be'' actúa como un espejo temporal: debe estar en el mismo tiempo que el verbo principal de la activa.'
-  - question: '¿Estructuras Avanzadas (Nivel B2-C1)?'
-    answer: 'Si aspiras a un nivel superior, debes dominar estas tres variantes:'
-  - question: '¿A. La Pasiva de Doble Objeto?'
-    answer: 'Verbos como give, send, show, lend, offer o tell suelen llevar un objeto directo (la cosa) y uno indirecto (la persona). En inglés, es mucho más común y natural empezar la pasiva con la persona.'
-
+  - question: '¿Es la pasiva más común en inglés que en español?'
+    answer: 'Sí, mucho más. En español solemos usar la "pasiva refleja" (Se vende casa), mientras que en inglés la estructura pasiva estándar es la opción natural en la mayoría de contextos formales, académicos y periodísticos.'
+  - question: '¿Cuál es la diferencia entre ''have something done'' y ''get something done''?'
+    answer: 'Ambas estructuras causativas significan lo mismo: hacer que otra persona realice una acción por ti. La diferencia es de registro: have something done es más formal ("I had my car repaired"), mientras que get something done es más informal y coloquial ("I got my hair cut").'
+  - question: '¿Se puede usar la pasiva en tiempos continuos?'
+    answer: 'Sí, aunque suena algo pesado. El presente y pasado continuo pasivo (is being / was being) son comunes: "The bridge is being repaired." Los tiempos perfectos continuos pasivos (has been being) casi nunca se usan por su complejidad.'
+  - question: '¿Cuándo se incluye el agente con "by" en la voz pasiva?'
+    answer: 'Solo cuando la información de quién realizó la acción es relevante y aporta valor: "The painting was created by Picasso." Si el agente es obvio o irrelevante, se omite: "The letter was delivered" (no es necesario decir "by the postman").'
 canonical: 'https://www.focus-on-english.com/blog/gramatica/voz-pasiva-ingles-guia'
 ---
 
