@@ -1,15 +1,12 @@
 ---
 title: 'Present Perfect en Inglés: Los 4 Usos que Necesitas Dominar'
 date: '2026-02-04'
-updatedDate: '2026-02-04'
+updatedDate: '2026-03-20'
 author: sara-mendez
-description: >-
-  Los 4 usos del Present Perfect en inglés explicados con claridad: experiencias de vida, resultados presentes, acciones recientes y situaciones que continúan. Con ejemplos reales.
 category: gramatica
-image: >-
-  https://images.pexels.com/photos/4144923/pexels-photo-4144923.jpeg?auto=compress&cs=tinysrgb&w=1200
+image: 'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=1200'
 alt: Estudiante aprendiendo los usos del Present Perfect en inglés
-readTime: 7 min
+readTime: 6 min
 keywords:
   - present perfect usos
   - cuando usar present perfect ingles

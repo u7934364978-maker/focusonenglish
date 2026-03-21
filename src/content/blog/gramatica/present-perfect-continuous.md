@@ -1,15 +1,13 @@
 ---
 title: 'Present Perfect Continuous: Cuándo Usarlo y en Qué Se Diferencia del Simple'
 date: '2026-02-22'
-updatedDate: '2026-02-22'
+updatedDate: '2026-03-20'
 author: sara-mendez
-description: >-
-  Aprende a usar el Present Perfect Continuous en inglés: cuándo elegirlo frente al Present Perfect Simple, cómo formarlo y los errores más habituales con ejemplos reales.
 category: gramatica
 image: >-
   https://images.pexels.com/photos/5212703/pexels-photo-5212703.jpeg?auto=compress&cs=tinysrgb&w=1200
 alt: Persona estudiando la diferencia entre present perfect simple y continuous
-readTime: 7 min
+readTime: 6 min
 keywords:
   - present perfect continuous ingles
   - present perfect continuous vs simple

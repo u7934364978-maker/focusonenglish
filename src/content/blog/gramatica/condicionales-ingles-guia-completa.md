@@ -1,9 +1,6 @@
 ---
 title: 'Condicionales en Inglés: Guía Zero, 1st, 2nd y 3rd'
-description: >-
-  Domina todos los tipos de condicionales en inglés. Guía definitiva con reglas,
-  ejemplos claros y lista imprimible para exámenes Cambridge.
-readTime: 12 min
+readTime: 14 min
 excerpt: >-
   ¿Te lían los condicionales? Aprende cuándo usar Zero, First, Second y Third
   Conditional con esta guía académica paso a paso y más de 50 ejemplos.

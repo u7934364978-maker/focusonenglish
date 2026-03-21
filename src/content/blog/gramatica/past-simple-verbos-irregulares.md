@@ -1,10 +1,8 @@
 ---
 title: 'Verbos Irregulares en Inglés: Lista Completa para el Past Simple'
 date: '2026-02-19'
-updatedDate: '2026-02-19'
+updatedDate: '2026-03-20'
 author: david-torres
-description: >-
-  Lista completa de los verbos irregulares más importantes en inglés para el past simple y participio, organizados por grupos para aprenderlos más fácilmente.
 category: gramatica
 image: >-
   https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=1200
