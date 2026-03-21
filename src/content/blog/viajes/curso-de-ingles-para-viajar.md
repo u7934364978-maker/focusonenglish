@@ -125,3 +125,7 @@ Si tu vuelo sale mañana, memoriza estas estructuras:
 No dejes que el idioma sea una barrera entre tú y el mundo. Un **curso de inglés para viajar** diseñado para 2026 te da la libertad de explorar, descubrir y conectar sin miedos.
 
 En **Focus English**, hemos ayudado a miles de viajeros a convertir su "inglés de instituto" en una herramienta de supervivencia y disfrute real. Nuestras rutas son cortas, prácticas y 100% enfocadas en lo que verás al bajar del avión.
+
+---
+
+Para prepararte con todo el vocabulario y frases esenciales, consulta [Inglés para Viajar: Guía Completa](/blog/viajes/ingles-para-viajar).

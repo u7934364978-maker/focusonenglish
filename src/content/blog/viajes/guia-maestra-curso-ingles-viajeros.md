@@ -138,3 +138,7 @@ En **Focus English**, no solo enseñamos palabras; te damos la libertad de explo
 
 **¿Listo para tu próxima aventura?**
 [👉 Empieza tu preparación hoy mismo](/cuenta/registro?plan=travel)
+
+---
+
+Para prepararte con todo el vocabulario y frases esenciales, consulta [Inglés para Viajar: Guía Completa](/blog/viajes/ingles-para-viajar).

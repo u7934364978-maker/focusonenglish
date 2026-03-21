@@ -204,3 +204,7 @@ Cuando escribas a administraciones, bancos o propietarios:
 - [ ] Conseguir tarjeta de transporte público
 
 Con este vocabulario y estas frases tendrás todo lo que necesitas para afrontar los trámites más comunes de vivir en un país angloparlante.
+
+---
+
+Para prepararte con todo el vocabulario y frases esenciales, consulta [Inglés para Viajar: Guía Completa](/blog/viajes/ingles-para-viajar).

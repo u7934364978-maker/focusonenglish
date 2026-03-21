@@ -106,3 +106,7 @@ En este módulo:
 Viajar es una de las experiencias más enriquecedoras de la vida. No permitas que el miedo a no saber qué decir en una emergencia te detenga. Con la preparación adecuada, estarás listo para enfrentar cualquier desafío con calma y seguridad.
 
 [👉 Viaja seguro. Prepárate para cualquier imprevisto con nuestras clases de inglés para viajeros](/cuenta/registro?plan=travel)
+
+---
+
+Para prepararte con todo el vocabulario y frases esenciales, consulta [Inglés para Viajar: Guía Completa](/blog/viajes/ingles-para-viajar).

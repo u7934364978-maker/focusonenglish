@@ -246,3 +246,7 @@ Ver programas de cocina es una forma excelente de aprender vocabulario culinario
 - **Chef's Table** (Netflix) — Inglés más literario y poético sobre chefs de élite
 - **Salt Fat Acid Heat** — Cocina global con inglés accesible
 - **Jamie Oliver** en YouTube — Inglés informal británico, recetas caseras
+
+---
+
+Para prepararte con todo el vocabulario y frases esenciales, consulta [Inglés para Viajar: Guía Completa](/blog/viajes/ingles-para-viajar).

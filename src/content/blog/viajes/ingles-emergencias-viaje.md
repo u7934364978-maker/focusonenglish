@@ -125,3 +125,7 @@ En **Focus English**, creemos que el inglés es tu mejor herramienta de segurida
 *   **Guía de Números de Emergencia Mundial**: Un directorio interactivo dentro de nuestra app para que nunca dudes a quién llamar.
 
 [**Regístrate en Focus English y viaja con un seguro de idiomas en tu bolsillo. Tu seguridad no tiene precio.**](/cuenta/registro)
+
+---
+
+Para prepararte con todo el vocabulario y frases esenciales, consulta [Inglés para Viajar: Guía Completa](/blog/viajes/ingles-para-viajar).

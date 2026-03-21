@@ -97,3 +97,7 @@ En **Focus English**, hemos diseñado un ecosistema de aprendizaje pensado para 
 4.  **Contenido Offline**: ¿Te vas a una zona sin Wi-Fi? Descarga nuestras lecciones y glosarios para seguir aprendiendo inglés para viajes largos incluso en el lugar más remoto.
 
 [**No permitas que el idioma sea la frontera de tu vida. Regístrate en Focus English y vuela alto con tu inglés.**](/cuenta/registro)
+
+---
+
+Para prepararte con todo el vocabulario y frases esenciales, consulta [Inglés para Viajar: Guía Completa](/blog/viajes/ingles-para-viajar).

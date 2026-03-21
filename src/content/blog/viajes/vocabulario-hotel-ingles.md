@@ -217,3 +217,7 @@ En caso de emergencia:
 **Tú**: *"Perfect. Thanks!"*
 
 Con este vocabulario de **inglés para hoteles**, tendrás total confianza en cualquier alojamiento de habla inglesa — desde un hostal económico en Londres hasta un hotel de lujo en Nueva York.
+
+---
+
+Para prepararte con todo el vocabulario y frases esenciales, consulta [Inglés para Viajar: Guía Completa](/blog/viajes/ingles-para-viajar).

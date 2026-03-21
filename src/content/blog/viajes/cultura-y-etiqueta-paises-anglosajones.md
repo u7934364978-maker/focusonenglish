@@ -106,3 +106,7 @@ Para evitar el "choque cultural", usa estas herramientas que habrás practicado 
 En **Focus English**, no nos limitamos a corregir tu gramática. Nuestras sesiones de **[inglés para viajar](/blog/viajes/curso-de-ingles-para-viajar)** están diseñadas para que comprendas la psicología detrás del idioma. Queremos que no solo te entiendan, sino que conectes de verdad con las personas que conozcas en tus viajes.
 
 [**👉 Prepárate para el mundo real. Inscríbete en Focus English y viaja con total confianza.**](/cuenta/registro)
+
+---
+
+Para el vocabulario y frases esenciales de viaje, consulta [Inglés para Viajar: Guía Completa](/blog/viajes/ingles-para-viajar).

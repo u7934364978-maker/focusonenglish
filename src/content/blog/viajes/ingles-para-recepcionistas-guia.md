@@ -158,3 +158,7 @@ El check-out es la última oportunidad para causar una buena impresión y pedir 
 
 
 [👉 Regístrate ahora y transforma tu carrera profesional](/cuenta/registro?plan=viajes)
+
+---
+
+Para prepararte con todo el vocabulario y frases esenciales, consulta [Inglés para Viajar: Guía Completa](/blog/viajes/ingles-para-viajar).

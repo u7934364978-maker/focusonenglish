@@ -199,3 +199,7 @@ En mercados de segunda mano o bazares puedes intentar negociar el precio:
 8. *"Could I have a receipt?"* — ¿Me da un recibo?
 9. *"I'd like to return this"* — Quiero devolverlo
 10. *"Is that your best price?"* — ¿Es su mejor precio?
+
+---
+
+Para prepararte con todo el vocabulario y frases esenciales, consulta [Inglés para Viajar: Guía Completa](/blog/viajes/ingles-para-viajar).
