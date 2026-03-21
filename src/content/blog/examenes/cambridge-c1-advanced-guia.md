@@ -37,7 +37,7 @@ faqs:
 canonical: 'https://www.focus-on-english.com/blog/examenes/cambridge-c1-advanced-guia'
 ---
 
-El **C1 Advanced (CAE)** de Cambridge es el examen que marca la diferencia entre un usuario competente y un usuario experto. A diferencia del B2 (First), donde la corrección gramatical es el objetivo principal, en el nivel C1 se espera que demuestres **sofisticación, matices y flexibilidad lingüística**. Es el título que abre las puertas a las mejores universidades del mundo y a puestos de alta dirección en multinacionales.
+El **C1 Advanced (CAE)** de Cambridge es el examen que marca la diferencia entre un usuario competente y un usuario experto. A diferencia del [B2 First](/blog/examenes/cambridge-b2-first-estrategias-aprobar), donde la corrección gramatical es el objetivo principal, en el nivel C1 se espera que demuestres **sofisticación, matices y flexibilidad lingüística**. Es el título que abre las puertas a las mejores universidades del mundo y a puestos de alta dirección en multinacionales.
 
 Aprobar el C1 no es cuestión de "suerte"; es cuestión de dominar el registro, las estructuras de énfasis y la precisión léxica. En esta guía maestra, desglosamos las estrategias necesarias para conquistar cada parte del examen, con especial atención a los **trucos para el Use of English y el Writing**.
 
@@ -86,7 +86,7 @@ Un usuario C1 deja atrás palabras genéricas como *good, bad* o *big*.
 
 ## Conclusión: El Camino a la Maestría con Focus English
 
-El C1 Advanced es un reto psicológico tanto como lingüístico. Requiere resistencia y una exposición real al inglés culto. Además de nuestros niveles A1-C2, ofrecemos cursos especializados en Hostelería, Administración, Logística y Viajes, con miles de ejercicios prácticos de gramática, vocabulario y comprensión lectora.
+El C1 Advanced es un reto psicológico tanto como lingüístico. Si aún estás decidiendo entre presentarte al FCE o al CAE, consulta los [precios actualizados de los exámenes Cambridge](/blog/examenes/precios-examenes-cambridge) para planificar tu inversión. Requiere resistencia y una exposición real al inglés culto. Además de nuestros niveles A1-C2, ofrecemos cursos especializados en Hostelería, Administración, Logística y Viajes, con miles de ejercicios prácticos de gramática, vocabulario y comprensión lectora.
 
 En **Focus English**, hemos diseñado un programa específico para llevarte al C1:
 

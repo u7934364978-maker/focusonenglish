@@ -186,6 +186,8 @@ Escucharás una grabación larga y deberás completar frases. La respuesta suele
 - [ ] Hacer un simulacro completo cronometrado
 - [ ] Repasar las estructuras de Key Word Transformations más difíciles
 - [ ] Revisar el formato de cada parte una última vez
+
+Si sacas un Grade A (180+ puntos), tu certificado equivale casi a nivel C1. Descubre qué te espera en la [guía del C1 Advanced (CAE)](/blog/examenes/cambridge-c1-advanced-guia). Y si aún no has revisado cuánto cuesta presentarse, consulta los [precios actualizados del FCE y el CAE](/blog/examenes/precios-examenes-cambridge) antes de matricularte.
 - [ ] Dormir bien y desayunar bien el día del examen
 
 [👉 Prepárate para el Cambridge B2 First con clases específicas de examen y simulacros personalizados](/cuenta/registro?plan=cambridge)

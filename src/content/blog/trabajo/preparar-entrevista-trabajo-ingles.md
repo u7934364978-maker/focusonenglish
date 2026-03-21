@@ -83,7 +83,7 @@ Crea una tabla de dos columnas: "Lo que piden" vs. "Mi experiencia relevante". E
 
 ## 🛠️ Fase 2: Preparar tus Respuestas con la Técnica STAR
 
-La técnica STAR es el estándar de oro para responder preguntas conductuales (*behavioral questions*) en entrevistas en inglés. Su estructura es:
+La [técnica STAR](/blog/trabajo/tecnica-star-entrevista-ingles) es el estándar de oro para responder preguntas conductuales (*behavioral questions*) en entrevistas en inglés. Su estructura es:
 
 - **S**ituation — Describe el contexto brevemente
 - **T**ask — Explica cuál era tu responsabilidad o reto

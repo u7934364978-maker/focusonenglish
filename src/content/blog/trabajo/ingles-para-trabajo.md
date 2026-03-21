@@ -109,7 +109,7 @@ En 2026, lo que importa es la **claridad**. El mundo de los negocios valora la i
 
 Nuestra metodología está diseñada para profesionales con ambición que necesitan resultados tangibles:
 
-- **Escenarios Reales:** Practica entrevistas de trabajo, negociaciones de salario y presentaciones de producto en un entorno seguro y constructivo.
+- **Escenarios Reales:** Practica [entrevistas de trabajo en inglés](/blog/trabajo/preparar-entrevista-trabajo-ingles), [negociaciones de salario](/blog/trabajo/negociar-salario-ingles) y presentaciones de producto en un entorno seguro y constructivo.
 - **Feedback Predictivo:** Analizamos tu comunicación para detectar muletillas, mejorar tu entonación y ampliar tu léxico profesional.
 - **Comunidad Global:** Conecta con otros profesionales que, como tú, están escalando sus carreras usando el inglés como palanca de crecimiento.
 

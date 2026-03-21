@@ -61,7 +61,7 @@ Los precios que mostramos a continuación son una media de los centros examinado
 | **C2 Proficiency (CPE)** | C2 | 255€ - 280€ |
 
 ### ¿Cuánto cuesta el examen First (FCE) en 2026?
-El **precio del examen First** es el más demandado. En 2026, la tasa estándar en la mayoría de centros es de **225€**. Este precio suele incluir los derechos de examen y la emisión del certificado físico.
+El **precio del examen First** es el más demandado. En 2026, la tasa estándar en la mayoría de centros es de **225€**. Este precio suele incluir los derechos de examen y la emisión del certificado físico. Si vas a presentarte al FCE, consulta antes nuestra [guía de estrategias para aprobar el B2 First](/blog/examenes/cambridge-b2-first-estrategias-aprobar) y no dejes la preparación al azar.
 
 ## 2. Gastos Extra: Lo que nadie te cuenta
 
@@ -76,7 +76,7 @@ El precio de la matrícula no es siempre el coste final. Existen varios concepto
 
 A la hora de elegir, el factor económico es clave. Aquí tienes una comparativa rápida de precios aproximados para niveles B2/C1:
 
-1.  **Cambridge (FCE/CAE)**: ~225€ - 245€. (Ventaja: No caduca).
+1.  **[Cambridge (FCE/CAE)](/blog/examenes/cambridge-c1-advanced-guia)**: ~225€ - 245€. (Ventaja: No caduca).
 2.  **IELTS Academic**: ~235€ - 250€. (Inconveniente: Caduca a los 2 años).
 3.  **TOEFL iBT**: ~245€. (Inconveniente: Caduca a los 2 años).
 4.  **Aptis General / Advanced**: ~95€ - 110€. (Ventaja: Muy económico y rápido).
