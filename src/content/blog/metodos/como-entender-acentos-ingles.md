@@ -182,3 +182,7 @@ Pide que repitan más despacio ("Could you say that more slowly?"). Si sigues si
 ### ¿Los subtítulos ayudan o perjudican para entrenar el oído?
 
 Ayudan si los usas bien: empezar con subtítulos para familiarizarte, luego desactivarlos para escuchar activamente, y volver a activarlos para verificar. Perjudican si siempre están activos, porque el oído aprende a depender de ellos y deja de esforzarse. El modo "subtítulos para verificar" es más útil que el modo "subtítulos siempre".
+
+---
+
+Para una visión completa de todos los acentos del inglés y cómo entenderlos, consulta [Acentos del Inglés: Diferencias y Guía Completa](/blog/metodos/acentos-ingles-diferencias).

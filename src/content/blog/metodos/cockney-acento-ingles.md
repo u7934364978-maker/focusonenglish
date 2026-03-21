@@ -169,3 +169,7 @@ EastEnders es la fuente más accesible. La película *Snatch* tiene Cockney muy 
 ### ¿El Cockney está desapareciendo?
 
 El Cockney puro del East End histórico está cambiando por la gentrificación del área, que ha desplazado a las comunidades trabajadoras. Pero sus rasgos no desaparecen: el glotal stop y el th-fronting se han extendido enormemente, y el Multicultural London English ha absorbido y transformado muchas características del Cockney. Muta más que desaparece.
+
+---
+
+Para una visión completa de todos los acentos del inglés y cómo entenderlos, consulta [Acentos del Inglés: Diferencias y Guía Completa](/blog/metodos/acentos-ingles-diferencias).

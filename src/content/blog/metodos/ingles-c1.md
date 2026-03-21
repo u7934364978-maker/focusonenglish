@@ -98,3 +98,7 @@ En el nivel avanzado, la personalización y la corrección de matices son fundam
 4.  **Speaking de Alta Dirección**: Sesiones individuales o en grupos reducidos donde se simulan juntas directivas, negociaciones internacionales y conferencias de prensa.
 
 [**No te conformes con hablar inglés. Domina el arte de la comunicación global con Focus English.**](/cuenta/registro)
+
+---
+
+Para el mapa completo de niveles de inglés, consulta [Niveles de Inglés MCER: Guía Completa de A1 a C2](/blog/metodos/niveles-ingles-mcer-guia-completa).

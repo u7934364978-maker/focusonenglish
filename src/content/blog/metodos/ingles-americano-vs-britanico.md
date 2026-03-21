@@ -247,3 +247,7 @@ Sí, en un 95% de las situaciones. Los malentendidos más frecuentes son de voca
 Sí. IELTS acepta cualquier variante estándar (británica, americana, australiana) siempre que seas consistente a lo largo del examen. No se penaliza ninguna variante.
 
 ---
+
+---
+
+Para una visión completa de todos los acentos del inglés y cómo entenderlos, consulta [Acentos del Inglés: Diferencias y Guía Completa](/blog/metodos/acentos-ingles-diferencias).

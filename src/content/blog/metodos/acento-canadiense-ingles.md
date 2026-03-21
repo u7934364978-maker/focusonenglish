@@ -166,3 +166,7 @@ Es un marcador discursivo que funciona como confirmación ("nice day, eh?" = ¿v
 ### ¿El inglés canadiense toma palabras del francés?
 
 Algunos préstamos del francés aparecen, especialmente en Quebec y en regiones bilingües: "dépanneur" (tienda de conveniencia), "poutine", "toque", "serviette". En Ontario y el oeste, el vocabulario francés es menos frecuente en el habla cotidiana, aunque la presencia institucional del francés se nota en topónimos y terminología oficial.
+
+---
+
+Para una visión completa de todos los acentos del inglés y cómo entenderlos, consulta [Acentos del Inglés: Diferencias y Guía Completa](/blog/metodos/acentos-ingles-diferencias).

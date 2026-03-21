@@ -153,3 +153,7 @@ A veces, sí. Los hablantes nativos que no ajustan su habla al contexto —veloc
 ### ¿Qué acentos son los más fáciles de entender en contextos internacionales?
 
 Los estudios de inteligibilidad en ELF sugieren que lo que hace comprensible un acento no es que sea "nativo", sino que las consonantes estén claramente articuladas, el acento tónico de las palabras respete los patrones estándar y la velocidad sea moderada. El acento de origen importa menos que la claridad articulatoria y la regularidad de los patrones de énfasis.
+
+---
+
+Para una visión completa de todos los acentos del inglés y cómo entenderlos, consulta [Acentos del Inglés: Diferencias y Guía Completa](/blog/metodos/acentos-ingles-diferencias).

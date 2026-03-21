@@ -119,3 +119,7 @@ No intentes aprenderte todo el diccionario. El 80% de la comunicación diaria en
 Aprender inglés es una inversión, no un gasto de tiempo. Aunque las horas necesarias están marcadas por la ciencia, tu actitud y las herramientas que elijas pueden hacer que el camino sea mucho más corto y agradable. No te enfoques solo en la meta; disfruta del proceso de poder entender una canción, una serie o cerrar un trato internacional.
 
 [**¿Quieres saber exactamente cuánto tiempo te falta para tu meta? Haz nuestra prueba de nivel en Focus English y obtén tu roadmap personalizado hoy.**](/cuenta/registro)
+
+---
+
+Para el mapa completo de niveles de inglés, consulta [Niveles de Inglés MCER: Guía Completa de A1 a C2](/blog/metodos/niveles-ingles-mcer-guia-completa).

@@ -113,3 +113,7 @@ No, los certificados de Cambridge no tienen fecha de caducidad, aunque algunas i
 
 ### 3. ¿Es el C2 necesario para todos?
 No. El C1 es suficiente para el 95% de los puestos profesionales. El C2 es para aquellos que buscan la excelencia en traducción, docencia, diplomacia o alta dirección.
+
+---
+
+Para el mapa completo de niveles de inglés, consulta [Niveles de Inglés MCER: Guía Completa de A1 a C2](/blog/metodos/niveles-ingles-mcer-guia-completa).

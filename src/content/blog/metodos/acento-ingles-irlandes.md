@@ -139,3 +139,7 @@ Sí. El Hiberno-English tiene estructuras que reflejan la gramática del gaélic
 ### ¿Es cierto que "craic" es una palabra irlandesa?
 
 *Craic* es una de las palabras más asociadas con Irlanda, y tiene una historia curiosa. La palabra en gaélico *craic* fue tomada prestada del inglés escocés *crack* (conversación animada) hace relativamente poco tiempo; los irlandeses la adoptaron y luego la exportaron al mundo. Hoy es usada en inglés internacional con el significado de "ambiente" o "diversión", y muchos usuarios no saben que tiene origen en el inglés, no en el gaélico antiguo.
+
+---
+
+Para una visión completa de todos los acentos del inglés y cómo entenderlos, consulta [Acentos del Inglés: Diferencias y Guía Completa](/blog/metodos/acentos-ingles-diferencias).

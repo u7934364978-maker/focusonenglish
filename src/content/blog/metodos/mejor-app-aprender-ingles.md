@@ -96,3 +96,18 @@ Generalmente sí. Las versiones gratuitas suelen interrumpir el flujo de aprendi
 La consistencia es más importante que la intensidad. 15-20 minutos diarios de práctica concentrada superan ampliamente a un "atracón" de 3 horas un solo día a la semana.
 
 [**Prueba la Focus English app gratis hoy y experimenta una forma diferente de aprender, diseñada para el éxito real.**](/cuenta/registro)
+
+---
+
+## Explora apps y métodos en detalle
+
+- [Las mejores apps para aprender inglés gratis en 2026](/blog/metodos/mejores-apps-ingles-gratis)
+- [Cómo combinar apps para aprender inglés: rutina por niveles](/blog/metodos/rutina-apps-ingles-como-combinarlas)
+- [Anki para aprender inglés: guía completa de uso](/blog/metodos/anki-para-aprender-ingles-guia)
+- [Duolingo inglés: review honesto 2026](/blog/metodos/duolingo-ingles-review)
+- [ELSA Speak review: mejora tu pronunciación con IA](/blog/metodos/elsa-speak-review-pronunciacion-ingles)
+- [BBC Learning English: guía completa](/blog/metodos/bbc-learning-english-guia-completa)
+- [Apps para aprender inglés sin internet](/blog/metodos/apps-ingles-sin-internet-offline)
+- [Apps gratuitas vs de pago para inglés: comparativa](/blog/metodos/apps-ingles-gratuitas-vs-pago)
+- [Aprender inglés con ChatGPT: cómo usarlo bien](/blog/metodos/aprender-ingles-con-chatgpt)
+- [Curso de inglés online: cómo elegir el mejor](/blog/metodos/curso-ingles-online)

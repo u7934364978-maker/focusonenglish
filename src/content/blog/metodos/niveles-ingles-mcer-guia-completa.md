@@ -180,3 +180,16 @@ Las opciones más fiables son:
 - **C2**: Traducción, interpretación, docencia en inglés
 
 El **MCER** es tu hoja de ruta. Saber exactamente en qué nivel estás y qué necesitas para subir al siguiente es el primer paso para aprender inglés de forma estratégica y eficiente.
+
+---
+
+## Guías por nivel de inglés
+
+- [Inglés A1: qué saber y cómo empezar](/blog/metodos/ingles-a1)
+- [Inglés A2: nivel, contenido y objetivos](/blog/metodos/ingles-a2)
+- [A1 vs A2 en inglés: diferencias clave](/blog/metodos/ingles-a1-vs-a2)
+- [Inglés B2: qué significa y cómo llegar](/blog/metodos/ingles-b2)
+- [Inglés C1: nivel, usos y cómo alcanzarlo](/blog/metodos/ingles-c1)
+- [Inglés C2: el nivel más alto y qué implica](/blog/metodos/ingles-c2)
+- [Cuánto se tarda en aprender inglés según tu nivel](/blog/metodos/cuanto-se-tarda-en-aprender-ingles)
+- [Los mejores cursos online de inglés B1](/blog/metodos/cursos-online-ingles-b1)

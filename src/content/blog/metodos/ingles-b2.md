@@ -99,3 +99,7 @@ A este nivel, la clave es la exposición constante y el feedback de alta calidad
 4.  **Feedback Personalizado en Tiempo Real**: Nuestra tecnología detecta los errores "fósiles" (aquellos que arrastras de niveles anteriores) y te propone ejercicios específicos para eliminarlos.
 
 [**No te detengas en la superficie del idioma. Sumérgete en la fluidez profesional con Focus English.**](/cuenta/registro)
+
+---
+
+Para el mapa completo de niveles de inglés, consulta [Niveles de Inglés MCER: Guía Completa de A1 a C2](/blog/metodos/niveles-ingles-mcer-guia-completa).

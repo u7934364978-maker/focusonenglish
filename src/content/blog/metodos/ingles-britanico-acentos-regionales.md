@@ -183,3 +183,7 @@ El Estuary English es el acento que ha ido surgiendo en el sureste de Inglaterra
 ### ¿Es el acento escocés un dialecto diferente al inglés?
 
 Técnicamente hay que distinguir entre el Scots (una lengua propia, relacionada con el inglés pero con gramática y vocabulario muy distintivos) y el Scottish English (inglés con acento e influencias del Scots). La mayoría de los escoceses hablan Scottish English en contextos formales y utilizan más rasgos del Scots en contextos informales. Lo que solemos llamar "acento escocés" es el Scottish English, que es perfectamente comprensible aunque tenga características muy marcadas.
+
+---
+
+Para una visión completa de todos los acentos del inglés y cómo entenderlos, consulta [Acentos del Inglés: Diferencias y Guía Completa](/blog/metodos/acentos-ingles-diferencias).

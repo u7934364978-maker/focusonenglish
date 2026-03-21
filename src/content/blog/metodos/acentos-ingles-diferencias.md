@@ -217,3 +217,22 @@ En el mundo actual, la mayor parte de las conversaciones en inglés no ocurren e
 5. **YouTube**: Busca entrevistas y vídeos de personas de la región cuyo acento quieres trabajar
 
 La variedad de acentos del inglés es uno de los aspectos más fascinantes del idioma. Acostumbrarte a escuchar diferentes acentos no solo mejora tu comprensión, sino que también enriquece enormemente tu experiencia cultural con el inglés.
+
+---
+
+## Profundiza en los acentos del inglés
+
+Cada acento tiene sus propias reglas de pronunciación y expresiones características:
+
+- [Cómo entender los acentos del inglés: guía práctica](/blog/metodos/como-entender-acentos-ingles)
+- [Cómo mejorar tu acento en inglés](/blog/metodos/como-mejorar-acento-ingles)
+- [El acento canadiense en inglés: características y diferencias](/blog/metodos/acento-canadiense-ingles)
+- [El acento australiano en inglés: pronunciación y slang](/blog/metodos/acento-ingles-australiano)
+- [El acento irlandés en inglés: características principales](/blog/metodos/acento-ingles-irlandes)
+- [El acento sudafricano en inglés](/blog/metodos/acento-ingles-sudafricano)
+- [El acento Cockney: el inglés de Londres popular](/blog/metodos/cockney-acento-ingles)
+- [El acento escocés en inglés: características](/blog/metodos/ingles-escoces-caracteristicas)
+- [General American: el acento neutro americano](/blog/metodos/general-american-acento)
+- [Acentos regionales del inglés británico](/blog/metodos/ingles-britanico-acentos-regionales)
+- [El inglés como lingua franca: acentos globales](/blog/metodos/ingles-lingua-franca-acentos)
+- [Inglés americano vs inglés británico: diferencias clave](/blog/metodos/ingles-americano-vs-britanico)

@@ -142,3 +142,7 @@ El Glaswegian es más marcado y más difícil de entender para hablantes de otra
 ### ¿Los escoceses entienden sin problema el inglés americano o el australiano?
 
 En general sí. El inglés americano es el más extendido en el entretenimiento global y cualquier escocés con acceso a medios tiene gran exposición a él. En la dirección contraria, los americanos suelen tener más dificultades para entender el Glaswegian marcado que los propios escoceses para entender otros acentos, simplemente por falta de exposición previa.
+
+---
+
+Para una visión completa de todos los acentos del inglés y cómo entenderlos, consulta [Acentos del Inglés: Diferencias y Guía Completa](/blog/metodos/acentos-ingles-diferencias).

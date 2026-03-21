@@ -112,3 +112,7 @@ En el nivel elemental, el mayor reto es la fluidez y el "oído". Por eso, el mé
 4.  **Vocabulario para el Trabajo**: Módulos específicos para aprender los términos que necesitas en la oficina, desde material de escritorio hasta términos de reuniones básicas.
 
 [**No te conformes con lo básico. Da el salto al siguiente nivel con Focus English.**](/cuenta/registro)
+
+---
+
+Para el mapa completo de niveles de inglés, consulta [Niveles de Inglés MCER: Guía Completa de A1 a C2](/blog/metodos/niveles-ingles-mcer-guia-completa).

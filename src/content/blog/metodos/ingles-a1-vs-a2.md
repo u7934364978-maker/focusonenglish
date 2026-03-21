@@ -97,3 +97,7 @@ Depende de tu dedicación, pero la media está entre 80 y 100 horas de estudio a
 
 **3. ¿Qué es lo más difícil de pasar al nivel A2?**
 Generalmente, es el uso del pasado. El inglés tiene muchos verbos irregulares y la pronunciación del pasado regular suele costar al principio, pero con práctica constante se vuelve instintivo.
+
+---
+
+Para el mapa completo de niveles de inglés, consulta [Niveles de Inglés MCER: Guía Completa de A1 a C2](/blog/metodos/niveles-ingles-mcer-guia-completa).

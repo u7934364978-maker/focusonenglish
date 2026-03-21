@@ -169,3 +169,7 @@ Hay tres elementos que delatan el acento español más que cualquier fonema conc
 Depende de tu nivel de partida y de tus objetivos. Si tu pronunciación ya es razonablemente inteligible y quieres mejorar la naturalidad, los recursos gratuitos (shadowing con material auténtico, pares mínimos, grabarte y comparar) son perfectamente suficientes si los usas de forma sistemática. Si tienes errores muy arraigados en sonidos específicos o el ritmo, unas pocas sesiones con un fonólogo o un profesor especializado en pronunciación pueden ser muy eficientes: te identifican los problemas concretos y te dan ejercicios dirigidos, lo que ahorra mucho tiempo de prueba y error.
 
 ---
+
+---
+
+Para una visión completa de todos los acentos del inglés y cómo entenderlos, consulta [Acentos del Inglés: Diferencias y Guía Completa](/blog/metodos/acentos-ingles-diferencias).

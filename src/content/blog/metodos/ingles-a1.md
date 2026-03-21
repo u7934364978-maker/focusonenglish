@@ -103,3 +103,7 @@ Sabemos que los primeros pasos son los más difíciles. Por eso, hemos creado un
 - **Enfoque Práctico:** Cada regla gramatical que aprendes tiene una aplicación inmediata en tu vida real.
 
 [**El mundo te está esperando. Crea tu cuenta gratuita y empieza a hablar inglés hoy mismo.**](/cuenta/registro)
+
+---
+
+Para el mapa completo de niveles de inglés, consulta [Niveles de Inglés MCER: Guía Completa de A1 a C2](/blog/metodos/niveles-ingles-mcer-guia-completa).

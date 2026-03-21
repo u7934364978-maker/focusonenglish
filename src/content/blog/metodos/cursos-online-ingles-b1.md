@@ -82,3 +82,7 @@ En **Focus English**, no solo aprendes inglés, te enseñamos **cómo certificar
 4.  **Tracking de Progreso Inteligente**: Nuestra plataforma detecta tus puntos débiles gramaticales y te propone ejercicios personalizados para reforzarlos antes del examen.
 
 [**Consigue tu título B1 y abre las puertas de tu futuro profesional con Focus English.**](/cuenta/registro)
+
+---
+
+Para el mapa completo de niveles de inglés, consulta [Niveles de Inglés MCER: Guía Completa de A1 a C2](/blog/metodos/niveles-ingles-mcer-guia-completa).

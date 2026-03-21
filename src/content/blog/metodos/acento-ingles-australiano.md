@@ -184,3 +184,7 @@ No de todas, pero hay un fenómeno real llamado High Rising Terminal (HRT) que c
 ### ¿Es el inglés australiano muy diferente del neozelandés?
 
 Son más parecidos entre sí que cualquiera de los dos al americano o al británico estándar, pero tienen diferencias claras. La más reconocible es la vocal de *kit*: en neozelandés, la /ɪ/ se ha centralizado mucho, casi hacia /ə/, lo que hace que "fish and chips" suene como "fush and chups" para un oyente australiano. El australiano no tiene esa centralización. Los propios australianos y neozelandeses se distinguen fácilmente entre sí, aunque para un oído hispanohablante al principio puedan sonar similares.
+
+---
+
+Para una visión completa de todos los acentos del inglés y cómo entenderlos, consulta [Acentos del Inglés: Diferencias y Guía Completa](/blog/metodos/acentos-ingles-diferencias).

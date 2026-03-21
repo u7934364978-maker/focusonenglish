@@ -158,3 +158,7 @@ Bastantes. "Braai" (barbacoa), "lekker" (bueno, agradable), "eish" (exclamación
 ### ¿El inglés sudafricano es no-rótico como el británico?
 
 Sí, el SAE estándar es no-rótico: la /r/ no se pronuncia después de vocal o al final de sílaba. En el Black South African English y en hablantes bilingües afrikáans-inglés puede aparecer cierta roticidad, porque tanto las lenguas bantúes como el afrikáans tienen /r/ fuerte.
+
+---
+
+Para una visión completa de todos los acentos del inglés y cómo entenderlos, consulta [Acentos del Inglés: Diferencias y Guía Completa](/blog/metodos/acentos-ingles-diferencias).
