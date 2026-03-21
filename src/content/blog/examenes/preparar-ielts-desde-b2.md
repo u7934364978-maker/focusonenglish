@@ -1,12 +1,16 @@
 ---
 title: 'Cómo Preparar el IELTS desde Cero (o desde B2) para 2026: Plan Completo'
 date: '2026-03-05'
-updatedDate: '2026-03-10'
+updatedDate: '2026-03-21'
 author: david-torres
 description: >-
   Guía completa para preparar el IELTS en 2026. Plan de estudio de 12 semanas,
   estrategias por parte del examen, banda de puntuación necesaria para emigrar
   o estudiar en el extranjero, y recursos gratuitos.
+excerpt: >-
+  ¿Quieres sacar un 6.5 o 7.0 en el IELTS? Esta guía completa te da el plan de
+  12 semanas, las estrategias clave para cada parte del examen y las bandas
+  necesarias para emigrar o estudiar en el extranjero en 2026.
 category: examenes
 image: >-
   https://images.pexels.com/photos/5905445/pexels-photo-5905445.jpeg?auto=compress&cs=tinysrgb&w=1200
@@ -42,6 +46,14 @@ faqs:
       (frente a 13 días para el papel). El Speaking siempre es presencial con un
       examinador humano en ambos formatos. Si escribes más rápido con teclado,
       elige el Computer.
+  - question: ¿Qué banda IELTS necesito para emigrar a Canadá o Australia?
+    answer: >-
+      Para Canadá Express Entry (residencia permanente) generalmente se requiere
+      una banda global de 6.0, con algunas provincias y profesiones que exigen 6.5
+      o más en habilidades específicas. Para Australia, los programas de visado de
+      habilidades (SkillSelect) suelen pedir entre 6.0 y 7.0 dependiendo del
+      estado y la ocupación. Lo ideal es consultar el portal oficial del programa
+      específico antes de registrarte para el examen.
 ---
 
 ## El IELTS en 2026: Lo Que Necesitas Saber Antes de Empezar
@@ -63,7 +75,7 @@ El IELTS usa una escala de 0 a 9 (en incrementos de 0.5). La mayoría de los des
 | Canadá Express Entry (PR) | 6.0 general |
 | UK Skilled Worker Visa | 4.0 (mínimo, depende del trabajo) |
 | Universidades top (Russell Group, Ivy League) | 7.0 - 7.5 |
-| Programas de medicina/derecho | 7.0 con no less de 7.0 en cada parte |
+| Programas de medicina/derecho | 7.0 con no less than 7.0 en cada parte |
 
 **Importante:** Muchas instituciones piden una banda mínima en cada habilidad individual, no solo en la nota global.
 
