@@ -1,11 +1,15 @@
 ---
-title: 'Aptis A2: Guía Completa para Superar el Nivel Básico'
+title: 'Aptis A2: Guía Completa del Examen, Estructura y Cómo Aprobarlo'
 date: '2026-02-06'
-updatedDate: '2026-03-10'
+updatedDate: '2026-03-21'
 author: david-torres
+description: >-
+  Guía completa del examen Aptis A2: estructura de las 4 destrezas, puntuación,
+  precio y consejos prácticos para aprobarlo. Actualizada 2026.
 excerpt: >-
-  Todo lo que necesitas saber sobre el examen Aptis A2. Estructura, puntuación y
-  consejos para obtener tu certificado de forma rápida y económica.
+  El Aptis A2 tiene 4 partes (Listening, Reading, Speaking, Writing) y se puede
+  aprobar con preparación específica de 4-6 semanas. Aquí tienes la estructura
+  completa, la puntuación mínima y los mejores consejos para el día del examen.
 category: examenes
 readTime: 12 min
 image: >-

@@ -43,6 +43,13 @@ const nextConfig = {
   trailingSlash: false,
   async redirects() {
     return [
+      // Fix: categorías con mayúsculas/acentos indexadas por Google - redirigir a URL canónica en minúsculas
+      // 348 impresiones perdidas en top 10 con CTR 0% por URLs encoded (%C3%A1) visibles en SERPs
+      // Versión Unicode (á literal) - el percent-encoded ya está cubierto más abajo en este archivo
+      { source: '/blog/Gram\u00E1tica/:slug*', destination: '/blog/gramatica/:slug*', permanent: true },
+      { source: '/blog/Trabajo', destination: '/blog/trabajo', permanent: true },
+      { source: '/blog/Trabajo/:slug*', destination: '/blog/trabajo/:slug*', permanent: true },
+
       // Fix: URL rota de apps que apuntaba a página general del blog
       { source: '/blog/temas/aplicaciones-para-aprender-ingles-efectivas', destination: '/aplicaciones-para-aprender-ingles', permanent: true },
 

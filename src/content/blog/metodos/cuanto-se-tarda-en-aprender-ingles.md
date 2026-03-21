@@ -1,14 +1,13 @@
 ---
 title: ¿Cuánto se tarda en aprender inglés realmente? La Guía Definitiva
 description: >-
-  Descubre el tiempo real que necesitas para aprender inglés según tu nivel
-  actual, objetivos y dedicación semanal. Roadmap claro para alcanzar la
-  fluidez.
+  ¿Cuántas horas necesitas para pasar de A1 a B2? Datos reales del FSI,
+  tablas por nivel y plan de estudio semanal para hispanohablantes.
 readTime: 5 min
 excerpt: >-
-  ¿Quieres saber cuánto se tarda en aprender inglés? Desglosamos las horas
-  necesarias por nivel (A1-C1) y te damos las claves científicas para acelerar
-  tu fluidez.
+  De A1 a B2 se necesitan entre 600 y 750 horas de exposición real, según el
+  FSI. Con 1 hora diaria, son unos 2 años. Pero hay factores que lo aceleran
+  mucho: te damos el desglose por nivel y el plan de estudio más eficiente.
 keywords:
   - cuanto se tarda en aprender ingles
   - tiempo para aprender ingles
