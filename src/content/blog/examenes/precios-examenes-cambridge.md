@@ -106,3 +106,7 @@ Un examen de Cambridge de nivel B2 o C1 cuesta más de 200€. No querrás tener
 *   **Garantía de Aprobado**: Si completas nuestro plan de estudios y no apruebas tu examen de Cambridge, te devolvemos la última cuota de tu suscripción o te damos acceso gratuito hasta tu próxima convocatoria.
 
 [**No malgastes tu dinero. Prepárate con Focus English y ve al examen de Cambridge con la seguridad de que vas a aprobar.**](/cuenta/registro)
+
+---
+
+Para comparar todos los certificados oficiales, consulta [Los Mejores Certificados de Inglés en 2026](/blog/examenes/mejores-certificados-ingles-2026).

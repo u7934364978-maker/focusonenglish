@@ -161,3 +161,7 @@ Una rutina que funciona mejor:
 4. Reescribe tu párrafo de detalles incorporando ese vocabulario.
 
 Cuatro semanas de esto y notarás la diferencia.
+
+---
+
+Para una preparación completa del IELTS desde B2, consulta [Cómo Preparar el IELTS desde B2](/blog/examenes/preparar-ielts-desde-b2).

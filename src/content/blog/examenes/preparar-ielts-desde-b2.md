@@ -212,3 +212,19 @@ Si todavía no has decidido entre IELTS y TOEFL, estas son las preguntas clave:
 Para una comparativa detallada, consulta **[IELTS vs TOEFL 2026](/blog/examenes/ielts-vs-toefl-diferencias-cual-elegir)**.
 
 [👉 Mejora tu inglés con nuestros cursos y llega al IELTS con la base que necesitas](/cuenta/registro?plan=cambridge)
+
+---
+
+## Guías por sección del IELTS
+
+- [IELTS Listening: estrategias y trucos](/blog/examenes/ielts-listening-estrategias)
+- [IELTS Reading: trucos y técnicas](/blog/examenes/ielts-reading-trucos)
+- [IELTS Speaking: estrategias para el examen](/blog/examenes/ielts-speaking-estrategias)
+- [IELTS Writing Task 1: cómo describir gráficos](/blog/examenes/ielts-writing-task-1-graficos)
+- [IELTS Writing Task 2: guía del essay](/blog/examenes/ielts-writing-task-2-essay)
+- [IELTS Band Scores: qué significan y cómo subirlos](/blog/examenes/ielts-band-scores-guia)
+- [IELTS en papel vs ordenador: diferencias](/blog/examenes/ielts-computer-vs-papel)
+- [IELTS General Training: todo lo que necesitas saber](/blog/examenes/ielts-general-training-guia)
+- [Vocabulario académico para el IELTS](/blog/examenes/ielts-vocabulario-academico)
+- [El día del examen IELTS: qué esperar](/blog/examenes/ielts-dia-del-examen)
+- [IELTS vs TOEFL: diferencias y cuál elegir](/blog/examenes/ielts-vs-toefl-diferencias-cual-elegir)

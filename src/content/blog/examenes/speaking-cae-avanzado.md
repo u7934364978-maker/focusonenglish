@@ -123,3 +123,7 @@ Hablar inglés en voz alta es imprescindible. No hay atajo. Puedes practicar sol
 También ayuda mucho hacer intercambios de conversación con hablantes nativos o con otros candidatos que estén preparando el CAE. Plataformas como iTalki, Tandem o grupos de preparación en línea te dan acceso a práctica real.
 
 Para los demás aspectos del examen, el [hub C1 Advanced (CAE)](/hubs/cae-c1-advanced-cambridge) tiene guías específicas para el Reading, el Listening y el Writing.
+
+---
+
+Para la preparación completa del CAE, consulta [Cambridge C1 Advanced (CAE): Guía Completa](/blog/examenes/cambridge-c1-advanced-guia).

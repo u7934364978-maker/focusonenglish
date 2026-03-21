@@ -92,3 +92,7 @@ La mayoría de los candidatos prefiere hoy el examen *computer-based* porque los
 
 **3. ¿Cómo puedo mejorar mi Writing rápidamente?**
 La clave es usar conectores (*however, furthermore, despite*) y variedad de tiempos verbales. No te limites al presente; usa el *Past Perfect* o el *Present Perfect* para demostrar que dominas el nivel.
+
+---
+
+Para dar el siguiente paso, consulta [Cambridge B2 First: Estrategias para Aprobar](/blog/examenes/cambridge-b2-first-estrategias-aprobar).

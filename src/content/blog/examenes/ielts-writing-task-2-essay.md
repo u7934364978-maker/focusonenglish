@@ -166,3 +166,7 @@ El IELTS tiene temas recurrentes que se pueden preparar con antelación:
 - **Globalización**: culturas locales, trabajo y migración, economía global
 
 No puedes predecir el tema exacto, pero sí puedes tener argumentos y vocabulario preparados para estas áreas. Eso te ahorra tiempo de pensamiento el día del examen.
+
+---
+
+Para una preparación completa del IELTS desde B2, consulta [Cómo Preparar el IELTS desde B2](/blog/examenes/preparar-ielts-desde-b2).

@@ -109,3 +109,22 @@ En **Focus English**, no solo te enseñamos inglés; te entrenamos para vencer a
 - **Análisis de Errores:** Nuestra tecnología identifica tus patrones de fallo y te propone ejercicios específicos para corregirlos antes del día D.
 
 [**No te la juegues. Asegura tu certificado con el método de preparación más avanzado de 2026.**](/cuenta/registro)
+
+---
+
+## Guías completas por examen
+
+**Cambridge:**
+- [Cambridge B2 First: estrategias para aprobar](/blog/examenes/cambridge-b2-first-estrategias-aprobar)
+- [Cambridge C1 Advanced (CAE): guía completa](/blog/examenes/cambridge-c1-advanced-guia)
+- [Cambridge C2 Proficiency: guía de preparación](/blog/examenes/cambridge-c2-proficiency-guia-preparacion)
+- [Precios de los exámenes Cambridge actualizados](/blog/examenes/precios-examenes-cambridge)
+
+**IELTS:**
+- [Cómo preparar el IELTS desde B2](/blog/examenes/preparar-ielts-desde-b2)
+- [IELTS vs TOEFL: diferencias y cuál elegir](/blog/examenes/ielts-vs-toefl-diferencias-cual-elegir)
+- [IELTS Academic vs General Training](/blog/examenes/ielts-general-training-guia)
+
+**APTIS:**
+- [APTIS A2: guía completa](/blog/examenes/aptis-a2-guia-completa)
+- [APTIS Advanced C1: guía completa](/blog/examenes/aptis-advanced-c1-guia)

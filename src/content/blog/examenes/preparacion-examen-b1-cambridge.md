@@ -108,3 +108,7 @@ En **Focus English**, hemos diseñado una plataforma que te permite:
 *   **Enfoque en Vocabulario Práctico**: Listas y actividades enfocadas en los temas que realmente aparecen en el examen.
 
 [**¡Consigue tu título B1 este mes! Empieza tu preparación con Focus English hoy.**](/cuenta/registro)
+
+---
+
+Para dar el siguiente paso, consulta [Cambridge B2 First: Estrategias para Aprobar](/blog/examenes/cambridge-b2-first-estrategias-aprobar).

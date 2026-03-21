@@ -191,3 +191,12 @@ Si sacas un Grade A (180+ puntos), tu certificado equivale casi a nivel C1. Desc
 - [ ] Dormir bien y desayunar bien el día del examen
 
 [👉 Prepárate para el Cambridge B2 First con clases específicas de examen y simulacros personalizados](/cuenta/registro?plan=cambridge)
+
+---
+
+## Artículos relacionados con Cambridge B1 y B2
+
+- [Preparación del examen B1 Cambridge](/blog/examenes/preparacion-examen-b1-cambridge)
+- [Cómo preparar el B1 Cambridge por cuenta propia](/blog/examenes/preparar-b1-cambridge-por-cuenta-propia)
+- [Precios de los exámenes Cambridge actualizados](/blog/examenes/precios-examenes-cambridge)
+- [Cambridge C1 Advanced (CAE): el siguiente paso](/blog/examenes/cambridge-c1-advanced-guia)

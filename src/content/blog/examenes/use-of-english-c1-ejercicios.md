@@ -141,3 +141,7 @@ Los candidatos que sacan Grade A en el CAE no son necesariamente más inteligent
 Combina los dos: practica ejercicios del formato exacto del CAE, pero también lee en inglés de manera amplia. El vocabulario y las colocaciones que necesitas para el Use of English se aprenden, sobre todo, en contexto real.
 
 Si quieres un recorrido completo por todas las partes del examen, el [hub C1 Advanced (CAE)](/hubs/cae-c1-advanced-cambridge) tiene todos los recursos organizados por destrezas.
+
+---
+
+Para la preparación completa del CAE, consulta [Cambridge C1 Advanced (CAE): Guía Completa](/blog/examenes/cambridge-c1-advanced-guia).

@@ -151,3 +151,7 @@ Muchos candidatos memorizan respuestas largas y las recitan en el examen. El exa
 Memorizar respuestas también penaliza porque si el examinador cambia ligeramente la pregunta, te quedas sin guion.
 
 Lo que sí puedes memorizar: vocabulario temático, frases de transición, estructuras gramaticales complejas. Lo que no: respuestas completas palabra por palabra.
+
+---
+
+Para una preparación completa del IELTS desde B2, consulta [Cómo Preparar el IELTS desde B2](/blog/examenes/preparar-ielts-desde-b2).

@@ -157,3 +157,7 @@ El IELTS pide variedad de vocabulario, lo cual hace que muchos candidatos busque
 El problema: los sinónimos en inglés no son intercambiables en todos los contextos. *"Large"* y *"substantial"* son casi sinónimos, pero *"a substantial increase"* es natural y *"a large increase"* también. Sin embargo, hay contextos donde uno funciona y el otro no.
 
 Si no estás seguro de si un sinónimo es apropiado en ese contexto específico, es más seguro usar la palabra que sí conoces bien. Un error de uso de vocabulario penaliza más que la repetición ocasional de una palabra.
+
+---
+
+Para una preparación completa del IELTS desde B2, consulta [Cómo Preparar el IELTS desde B2](/blog/examenes/preparar-ielts-desde-b2).

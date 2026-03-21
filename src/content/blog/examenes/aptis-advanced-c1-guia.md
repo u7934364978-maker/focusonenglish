@@ -190,3 +190,7 @@ El Aptis Advanced usa una escala de 0-50 por parte. La puntuación global se pon
 **Cuándo elegir Cambridge CAE:** Si necesitas reconocimiento permanente e internacional, para universidades fuera de España o para el CV a largo plazo.
 
 [👉 Prepárate para el Aptis Advanced con nuestros profesores especializados en exámenes del British Council](/cuenta/registro?plan=cambridge)
+
+---
+
+Para la base del APTIS, consulta [APTIS A2: Guía Completa](/blog/examenes/aptis-a2-guia-completa).

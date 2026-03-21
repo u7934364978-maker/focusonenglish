@@ -95,3 +95,20 @@ En **Focus English**, hemos diseñado un programa específico para llevarte al C
 *   **Simulacros de Use of English**: Entrenamiento intensivo en transformaciones y word formation con explicaciones paso a paso.
 
 [**Lleva tu inglés al nivel de un profesional global. Regístrate en Focus English y asegura tu título C1 Advanced hoy mismo.**](/cuenta/registro)
+
+---
+
+## Guías por sección del CAE
+
+- [Key Word Transformations CAE: guía y ejercicios](/blog/examenes/key-word-transformations-cae)
+- [Listening CAE: consejos para superar el examen](/blog/examenes/listening-cae-consejos)
+- [Reading CAE: estrategias clave](/blog/examenes/reading-cae-estrategias)
+- [Speaking CAE avanzado: cómo brillar](/blog/examenes/speaking-cae-avanzado)
+- [Trucos para el Writing C1 Advanced](/blog/examenes/trucos-writing-c1-advanced)
+- [Use of English C1: ejercicios y técnicas](/blog/examenes/use-of-english-c1-ejercicios)
+- [Vocabulario C1 avanzado para el CAE](/blog/examenes/vocabulario-c1-avanzado)
+- [Word Formation CAE: guía completa](/blog/examenes/word-formation-cae)
+- [Writing Essay CAE: estructura y ejemplos](/blog/examenes/writing-essay-cae)
+- [Collocations inglés C1: las más importantes](/blog/examenes/collocations-ingles-c1)
+- [Reported Speech en exámenes Cambridge](/blog/examenes/reported-speech-cambridge-exams)
+- [Inversiones en inglés C1: estructuras avanzadas](/blog/examenes/inversiones-ingles-c1)

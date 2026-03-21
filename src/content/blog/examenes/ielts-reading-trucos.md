@@ -142,3 +142,7 @@ Los Cambridge Official Tests (IELTS Academic del 1 al 19 en papel o digital) son
 Al revisar, no te limites a ver si la respuesta es correcta o no. Localiza exactamente en el texto por qué la respuesta correcta es esa. Eso te enseña a leer con la mentalidad del examinador.
 
 Para el T/F/NG específicamente: practica con al menos 5 textos dedicados a ese tipo antes del examen. Es la habilidad que más tarda en automatizarse.
+
+---
+
+Para una preparación completa del IELTS desde B2, consulta [Cómo Preparar el IELTS desde B2](/blog/examenes/preparar-ielts-desde-b2).

@@ -187,3 +187,7 @@ Antes de cada respuesta de Speaking:
 - [ ] ¿Voy a usar conectores para estructurar mi respuesta?
 
 [👉 Practica el Writing y Speaking del Aptis con nuestros profesores especializados y obtén feedback real](/cuenta/registro?plan=cambridge)
+
+---
+
+Para la base del APTIS, consulta [APTIS A2: Guía Completa](/blog/examenes/aptis-a2-guia-completa).

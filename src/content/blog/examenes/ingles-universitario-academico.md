@@ -234,3 +234,7 @@ Kind regards,
 - **Google Scholar** — Lee artículos en tu campo para familiarizarte con el estilo
 - **Grammarly** (versión premium) — Corrección automática especializada en inglés académico
 - **Cambridge Academic Content Dictionary** — Diccionario enfocado en vocabulario académico
+
+---
+
+Para comparar todos los certificados oficiales, consulta [Los Mejores Certificados de Inglés en 2026](/blog/examenes/mejores-certificados-ingles-2026).

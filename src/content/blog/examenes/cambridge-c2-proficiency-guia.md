@@ -86,3 +86,7 @@ Si buscas la máxima calidad en tu formación, nuestro **curso ingles c2** está
 - **Enfoque en Precisión**: Herramientas para pulir tu gramática y vocabulario hasta el nivel de un experto global.
 
 [**Llega a la cima de tu aprendizaje con Focus English y certifica tu maestría.**](/cuenta/registro)
+
+---
+
+Para comparar todos los certificados oficiales, consulta [Los Mejores Certificados de Inglés en 2026](/blog/examenes/mejores-certificados-ingles-2026).

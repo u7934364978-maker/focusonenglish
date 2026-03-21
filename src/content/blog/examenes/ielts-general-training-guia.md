@@ -162,3 +162,7 @@ El tono tiene que ser consistente de principio a fin. Si la carta es formal, *"D
 Si la carta es informal, *"Hi [nombre]"* al principio, *"Best wishes"* o *"Take care"* al final, contracciones, expresiones más naturales.
 
 Esta consistencia es parte del criterio de Task Achievement y afecta también al Lexical Resource. El examinador nota inmediatamente cuando el registro es inconsistente.
+
+---
+
+Para una preparación completa del IELTS desde B2, consulta [Cómo Preparar el IELTS desde B2](/blog/examenes/preparar-ielts-desde-b2).

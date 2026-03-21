@@ -135,3 +135,7 @@ La sección 4 es la que más penaliza a candidatos con Band 5-6 porque el monól
 En el Listening, las respuestas incorrectas por ortografía son más comunes de lo que parece. Palabras que el español pronuncia diferente al inglés (*science*, *psychology*, *February*, *address*) dan lugar a errores frecuentes.
 
 Para palabras técnicas o nombres propios, el audio casi siempre los deletrea. Cuando escuches el deletreo, escríbelo letra a letra sin intentar deducir la palabra hasta el final. Es más seguro que reconstruirla mentalmente mientras sigues escuchando.
+
+---
+
+Para una preparación completa del IELTS desde B2, consulta [Cómo Preparar el IELTS desde B2](/blog/examenes/preparar-ielts-desde-b2).

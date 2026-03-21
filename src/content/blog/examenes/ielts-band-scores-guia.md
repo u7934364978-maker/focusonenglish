@@ -141,3 +141,7 @@ Si tu nota no llega al requisito, tiene sentido repetir si:
 - Han pasado al menos 4-6 semanas de preparación focalizada
 
 No tiene sentido repetir de inmediato sin haber cambiado el enfoque de preparación. El examen es el mismo, el nivel es el mismo: lo que cambia tiene que ser tu preparación.
+
+---
+
+Para una preparación completa del IELTS desde B2, consulta [Cómo Preparar el IELTS desde B2](/blog/examenes/preparar-ielts-desde-b2).

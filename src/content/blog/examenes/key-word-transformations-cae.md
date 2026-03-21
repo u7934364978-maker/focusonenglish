@@ -150,3 +150,7 @@ La mejor manera de preparar esta parte es por **bloques temáticos**: dedica una
 Los libros de preparación oficial de Cambridge incluyen transformaciones de práctica con explicaciones. Complementa con ejercicios del [Use of English C1](/blog/examenes/use-of-english-c1-ejercicios) y con los patrones de [inversiones en inglés C1](/blog/examenes/inversiones-ingles-c1).
 
 Para una visión completa del examen, el [hub C1 Advanced (CAE)](/hubs/cae-c1-advanced-cambridge) tiene todo organizado por destrezas.
+
+---
+
+Para la preparación completa del CAE, consulta [Cambridge C1 Advanced (CAE): Guía Completa](/blog/examenes/cambridge-c1-advanced-guia).

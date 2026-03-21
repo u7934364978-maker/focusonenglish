@@ -139,3 +139,7 @@ Las instituciones y organismos de inmigración suelen verificar los resultados d
 Los resultados son válidos durante 2 años. Si necesitas mejorar, espera al menos un mes antes de presentarte de nuevo. Ese mes no es para repasar lo mismo que ya has repasado: es para identificar específicamente qué partes te limitaron y trabajar esas áreas con un enfoque diferente.
 
 La diferencia entre un 6.0 y un 6.5 en Writing, por ejemplo, puede resolverse entendiendo mejor los criterios de Task Achievement y Lexical Resource. No hace falta empezar de cero; hace falta saber exactamente qué ajustar.
+
+---
+
+Para una preparación completa del IELTS desde B2, consulta [Cómo Preparar el IELTS desde B2](/blog/examenes/preparar-ielts-desde-b2).

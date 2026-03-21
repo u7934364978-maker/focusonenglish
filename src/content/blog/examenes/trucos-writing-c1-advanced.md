@@ -134,3 +134,7 @@ Antes de entregar, revisa estos 4 puntos. Si fallas en uno, ¡bajarás al nivel 
 
 
 [**Prepara tu C1 Advanced con nosotros y asegura tu aprobado.**](/blog/metodos/ingles-c1)
+
+---
+
+Para la preparación completa del CAE, consulta [Cambridge C1 Advanced (CAE): Guía Completa](/blog/examenes/cambridge-c1-advanced-guia).

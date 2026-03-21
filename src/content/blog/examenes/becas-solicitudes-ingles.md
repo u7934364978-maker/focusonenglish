@@ -225,3 +225,7 @@ Si pasas a la fase de entrevista, prepara estas preguntas habituales:
 - [ ] Preparar la entrevista con simulacros de preguntas
 
 Una beca internacional no se consigue en el último momento. La planificación, la personalización de cada solicitud y la calidad de tu escritura académica en inglés son los factores decisivos.
+
+---
+
+Para comparar todos los certificados oficiales, consulta [Los Mejores Certificados de Inglés en 2026](/blog/examenes/mejores-certificados-ingles-2026).

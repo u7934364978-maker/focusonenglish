@@ -134,3 +134,7 @@ En España los centros principales son British Council y IDP. Puedes consultar d
 El IELTS por ordenador tiene la misma duración que el en papel. No es más corto porque se haga en pantalla. El tiempo del Listening y el Reading es el mismo; el Writing también. Lo que cambia es cómo interactúas con el material, no cuánto tiempo tienes.
 
 Algunos candidatos asumen que "por ordenador" implica una experiencia más rápida o más cómoda de forma automática. La comodidad depende completamente de tu perfil y de cuánto hayas practicado en ese formato.
+
+---
+
+Para una preparación completa del IELTS desde B2, consulta [Cómo Preparar el IELTS desde B2](/blog/examenes/preparar-ielts-desde-b2).

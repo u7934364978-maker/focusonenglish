@@ -84,3 +84,7 @@ Independientemente de tu elección, ambos exámenes requieren una estrategia só
 *Si aún tienes dudas, puedes consultar nuestra [guía completa de certificaciones de inglés oficiales](/certificaciones-ingles-oficiales) donde comparamos estos exámenes con Cambridge, Aptis y Duolingo.*
 
 [**Prepárate para tu examen con Focus English y asegura tu futuro internacional.**](/cuenta/registro)
+
+---
+
+Para una preparación completa del IELTS desde B2, consulta [Cómo Preparar el IELTS desde B2](/blog/examenes/preparar-ielts-desde-b2).
