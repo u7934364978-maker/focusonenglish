@@ -30,7 +30,8 @@ faqs:
     answer: 'Si te sientes mal, has tenido un accidente o estás presenciando uno, los paramédicos te harán preguntas rápidas. Poder dar información precisa sobre tu estado o el de otra persona es vital.'
   - question: '¿Pérdidas y Robos?'
     answer: 'Ser víctima de un delito en el extranjero es estresante. Para realizar la denuncia correctamente y proteger tu seguridad en viajes inglés, usa estas estructuras:'
-
+excerpt: >
+  Las frases más importantes en inglés para emergencias de viaje: pedir ayuda médica, hablar con la policía, perder el pasaporte y accidentes en el extranjero.
 ---
 
 ## Emergencias en Inglés: Guía de Supervivencia y Seguridad

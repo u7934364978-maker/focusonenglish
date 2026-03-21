@@ -27,7 +27,8 @@ faqs:
     answer: 'Los más importantes son: "get on with" (llevarse bien con alguien), "look for" (buscar), "put off" (posponer), "pick up" (recoger) y "take off" (despegar). Son frecuentes en exámenes Cambridge, Aptis y EOI, y usarlos correctamente demuestra que has superado el nivel A2.'
   - question: '¿Es malo usar palabras simples en un examen de nivel B1?'
     answer: 'No es un error, pero para obtener una buena nota debes demostrar variedad léxica. En lugar de usar siempre "good", prueba con "great", "amazing", "fantastic" o "excellent". Colocaciones como "meet a deadline" o "run a business" también suman puntos frente a traducciones literales del español.'
-
+excerpt: >
+  Las palabras y expresiones B1 que más necesitas para el trabajo, los viajes y la vida cotidiana en inglés. Lista práctica con ejemplos reales.
 ---
 
 ## Vocabulario Esencial Inglés B1: Domina la Comunicación

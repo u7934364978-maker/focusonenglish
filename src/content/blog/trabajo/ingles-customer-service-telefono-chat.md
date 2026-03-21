@@ -42,6 +42,8 @@ faqs:
       conversacional y cercano. Lee el tono del cliente y adáptate: si escribe
       de forma informal, puedes responder igual. Si es muy formal, síguele el
       ritmo.
+excerpt: >
+  Inglés para atención al cliente por teléfono, chat y email. Frases para cada canal, cómo manejar clientes difíciles y plantillas listas para usar.
 ---
 
 ## La Atención al Cliente en Inglés: Más que Traducir Palabras

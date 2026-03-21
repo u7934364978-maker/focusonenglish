@@ -40,6 +40,8 @@ faqs:
       Responde con un rango: "Based on my research and experience, I was looking
       at a range of [X] to [Y]. However, I'm open to discussing the full
       compensation package." Nunca des un número sin investigación previa.
+excerpt: >
+  Cómo responder con confianza las preguntas más complicadas en entrevistas en inglés. Ejemplos reales de respuestas para nivel B2-C1.
 ---
 
 ## Las Preguntas que más Miedo Dan... y Cómo Dominarlas

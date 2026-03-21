@@ -43,6 +43,8 @@ faqs:
       formular tus propias oraciones básicas.
 image: 'https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg'
 alt: Persona motivada empezando su camino con el inglés desde cero
+excerpt: >
+  Cómo empezar a aprender inglés desde cero con el nivel A1. Qué temas cubrir primero, cuánto tiempo necesitas y los errores más comunes al empezar.
 ---
 
 ## Tu Viaje con el Inglés Comienza Aquí

@@ -31,7 +31,8 @@ faqs:
     answer: 'El examen se divide en cuatro pruebas principales, diseñadas para poner al límite tus capacidades lingüísticas:'
   - question: '¿Reading and Use of English (1 hora 30 minutos)?'
     answer: 'Esta es la prueba más temida y exigente. Consta de 7 partes que mezclan la comprensión lectora con el uso avanzado de la gramática y el vocabulario. Debes demostrar un control absoluto sobre: - Idioms y Collocations: El inglés real está lleno de frases hechas.'
-
+excerpt: >
+  Todo sobre el examen C2 Proficiency de Cambridge: partes, puntuación y cómo prepararlo. El nivel más alto del inglés certificado explicado paso a paso.
 ---
 
 ## C2 Proficiency (CPE): La Maestría Total del Inglés

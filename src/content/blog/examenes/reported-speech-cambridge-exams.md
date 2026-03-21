@@ -27,7 +27,8 @@ faqs:
     answer: 'En C1 y C2, los examinadores evitan "say" y "tell" y usan patrones complejos: "accuse someone of" + gerundio, "insist on" + gerundio, "advise someone to" + infinitivo, "congratulate someone on" + gerundio, y "suggest" + gerundio. Memorizar estos patrones es esencial para la parte 4.'
   - question: '¿Cuáles son los errores más frecuentes con el Reported Speech en Cambridge?'
     answer: 'Los más penalizados son: usar "that" con verbos de infinitivo ("He offered that he would help" es incorrecto; lo correcto es "He offered to help"), olvidar cambiar los pronombres (I → he/she, my → his/her), y confundir "say" y "tell" (tell siempre necesita objeto indirecto: "He told me that...").'
-
+excerpt: >
+  Cómo resolver ejercicios de Reported Speech y rephrasing en Cambridge B2, C1 y C2. Con los verbos más frecuentes y transformaciones de examen resueltas.
 ---
 
 ## Reported Speech Cambridge Exams: Guía de Rephrasing (B2-C2)

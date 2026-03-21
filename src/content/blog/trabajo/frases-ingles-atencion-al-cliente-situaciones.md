@@ -42,6 +42,8 @@ faqs:
       continuada (abogados, consultores, agencias). En el ámbito del customer
       service, "customer" es más frecuente, aunque "client" se usa en servicios
       profesionales B2B.
+excerpt: >
+  Las 50 frases más usadas en atención al cliente en inglés, organizadas por situación: bienvenida, quejas, soluciones y despedida profesional.
 ---
 
 ## El Banco de Frases que Todo Profesional de Customer Service Necesita

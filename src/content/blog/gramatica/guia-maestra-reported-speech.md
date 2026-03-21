@@ -29,7 +29,8 @@ faqs:
     answer: 'Cuando el verbo principal que introduce el reporte (el reporting verb) está en pasado (ej. said, told, explained), el tiempo del mensaje original debe realizar un "retroceder" gramatical. Este fenómeno se conoce en inglés como backshift.'
   - question: '¿Cambios en Expresiones de Tiempo y Lugar?'
     answer: 'El contexto cambia cuando reportamos algo. Si alguien dijo "hoy" ayer, hoy ese "hoy" es "ayer". Parece un trabalenguas, pero es lógica pura.'
-
+excerpt: >
+  La guía definitiva de Reported Speech y Reporting Verbs de B2 a C2. Reglas, backshift, reporting questions y los verbos más valorados en exámenes Cambridge.
 ---
 
 ## Guía Maestra de Reported Speech y Reporting Verbs: De B2 a C2

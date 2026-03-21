@@ -43,6 +43,8 @@ faqs:
       demostrado para siempre. Sin embargo, algunas instituciones o empresas
       pueden pedir certificados obtenidos en los últimos 2-5 años si llevas
       mucho tiempo sin usarlo activamente.
+excerpt: >
+  Cómo preparar el Cambridge C2 Proficiency (CPE) en 2026. Estructura del examen, las partes más difíciles y el plan de estudio que funciona desde C1.
 ---
 
 ## El Pico del Sistema Cambridge English

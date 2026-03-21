@@ -33,7 +33,8 @@ faqs:
     answer: 'Un ingeniero debe ser capaz de narrar las tendencias de un informe técnico:'
   - question: '¿Vocabulario Especializado por Ramas de Ingeniería?'
     answer: 'Aunque el inglés técnico es universal, cada especialidad tiene su propio "dialecto".'
-
+excerpt: >
+  Vocabulario técnico, frases para reuniones y comunicación en proyectos internacionales de ingeniería. La guía práctica para ingenieros hispanohablantes.
 ---
 
 ## Curso de Inglés para Ingenieros: Tu Herramienta para Proyectos Globales

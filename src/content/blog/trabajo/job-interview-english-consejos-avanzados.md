@@ -41,6 +41,8 @@ faqs:
       estratégico esperar a tener una oferta o a que la empresa confirme su
       interés. Si te preguntan directamente, sé honesto pero flexible con un
       rango.
+excerpt: >
+  Técnicas avanzadas para entrevistas en inglés a nivel B2-C1: storytelling con el método STAR, salary negotiation y cómo proyectar presencia ejecutiva.
 ---
 
 ## Más Allá de "Tell Me About Yourself"

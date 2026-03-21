@@ -34,7 +34,8 @@ faqs:
     answer: 'A nivel C2, el objetivo es eliminar cualquier rastro de "extranjerismo". Esto se logra a través de:'
   - question: '¿Preparación para el Cambridge C2 Proficiency (CPE)?'
     answer: 'El examen C2 Proficiency (CPE) es el título más prestigioso de Cambridge. Su obtención certifica ante universidades y empresas de todo el mundo que has alcanzado el nivel de maestría.'
-
+excerpt: >
+  Qué significa el nivel C2 de inglés, qué exámenes lo certifican (CPE) y cómo alcanzar la maestría total del idioma. Guía honesta para hispanohablantes.
 ---
 
 El **Nivel C2 (Mastery)** representa la cumbre de la competencia lingüística según el Marco Común Europeo de Referencia (MCER). En 2026, poseer un certificado C2 no es simplemente "saber mucho inglés"; es demostrar que puedes usar el idioma con la misma precisión, riqueza y agilidad que un hablante nativo con una formación académica superior. 

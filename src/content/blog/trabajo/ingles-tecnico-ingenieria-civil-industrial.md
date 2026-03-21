@@ -43,6 +43,8 @@ faqs:
       MS Project, Procore (construcción), SAP Plant Maintenance (industrial), y
       BIM 360 / Autodesk Construction Cloud. Todos tienen su interfaz y
       documentación principalmente en inglés.
+excerpt: >
+  Vocabulario de construcción, gestión de proyectos y seguridad en obra para ingenieros civiles e industriales que trabajan en entornos internacionales.
 ---
 
 ## El Inglés en la Ingeniería Civil e Industrial Global

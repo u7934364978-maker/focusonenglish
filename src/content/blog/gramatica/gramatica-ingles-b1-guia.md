@@ -40,6 +40,8 @@ faqs:
   - question: ¿La gramática B1 es suficiente para el First Certificate?
     answer: >-
       El B2 First exige un nivel superior (estructuras más complejas, phrasal verbs ampliados y precisión en registro formal). El B1 es la base; después hay que subir a B2.
+excerpt: >
+  Todos los temas de gramática que necesitas dominar para el nivel B1: tiempos verbales, condicionales, voz pasiva, modales y más, con ejercicios resueltos.
 ---
 
 El nivel **B1 (Intermediate)** es el "ecuador" del aprendizaje del inglés. Es el momento en el que dejas de ser un principiante que sobrevive con frases hechas para convertirte en un usuario independiente. Según el Marco Común Europeo de Referencia (MCER), en este nivel ya debes ser capaz de describir experiencias, acontecimientos, deseos y aspiraciones, así como justificar brevemente tus opiniones.

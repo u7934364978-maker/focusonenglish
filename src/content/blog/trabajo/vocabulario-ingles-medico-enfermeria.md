@@ -42,6 +42,8 @@ faqs:
       enfermería con casos clínicos y situaciones de rol reales del sector
       sanitario. Es el examen preferido por los organismos reguladores de salud
       en Australia, Nueva Zelanda, Reino Unido, Irlanda y otros países.
+excerpt: >
+  Vocabulario clínico esencial para enfermeras: términos de diagnóstico, cuidados y comunicación con pacientes y médicos en inglés.
 ---
 
 ## El Inglés como Herramienta de Cuidado

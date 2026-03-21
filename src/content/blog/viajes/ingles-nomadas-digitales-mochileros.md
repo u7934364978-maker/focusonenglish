@@ -32,7 +32,8 @@ faqs:
     answer: 'Si usas plataformas como Workaway o Worldpackers, necesitarás explicar tus habilidades:'
   - question: '¿Logística y Supervivencia en Viajes Largos?'
     answer: 'La preparación idiomas viaje para estancias prolongadas incluye manejar burocracia, salud y finanzas en inglés.'
-
+excerpt: >
+  Inglés para trabajar y vivir en el extranjero como nómada digital o mochilero: vocabulario de alojamiento, coworking, visados y situaciones cotidianas reales.
 ---
 
 ## Inglés para Nómadas Digitales: Vive y Trabaja por el Mundo sin Límites

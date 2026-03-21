@@ -43,6 +43,8 @@ faqs:
       Escuela Oficial de Idiomas.
 image: 'https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg'
 alt: Curso online de inglés nivel B1
+excerpt: >
+  Los mejores cursos online de inglés B1 con simulacros de examen y temario completo. Compara opciones gratuitas y de pago para conseguir tu título oficial.
 ---
 
 ## Cursos Online de Inglés B1: Domina el Nivel Intermedio

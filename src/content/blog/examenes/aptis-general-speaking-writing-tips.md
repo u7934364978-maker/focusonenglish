@@ -42,6 +42,8 @@ faqs:
       automáticamente. Algunos centros permiten escuchar la pregunta una segunda
       vez, pero depende de la configuración del examen. No puedes pedir a nadie
       que te repita nada.
+excerpt: >
+  Los mejores consejos para el Speaking y Writing del APTIS General. Errores frecuentes, ejemplos de respuestas y estrategias para subir tu puntuación.
 ---
 
 ## Por Qué el Speaking y el Writing son Clave en el Aptis

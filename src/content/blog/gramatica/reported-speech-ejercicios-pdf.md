@@ -28,7 +28,8 @@ faqs:
     answer: 'En este nivel, el objetivo es consolidar el backshift (el salto atrás de los tiempos verbales) y los cambios en las referencias temporales y de lugar.'
   - question: '¿Nivel Avanzado y Maestría (C1 - C2 Proficiency)?'
     answer: 'Aquí la dificultad aumenta significativamente. Ya no se trata solo de cambiar el verbo, sino de elegir el reporting verb más preciso y la estructura gramatical que le sigue.'
-
+excerpt: >
+  Ejercicios de Reported Speech para niveles B1, B2, C1 y C2 con soluciones detalladas. Practica transformaciones, preguntas y órdenes en estilo indirecto.
 ---
 
 ## Reported Speech Ejercicios PDF: Practica y Descarga

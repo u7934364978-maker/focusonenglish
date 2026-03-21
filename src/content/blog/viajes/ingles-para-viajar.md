@@ -35,6 +35,8 @@ faqs:
   - question: ¿Cómo pido en un restaurante si tengo alergias o dieta especial?
     answer: >-
       Usa I am allergic to nuts/shellfish. Does this dish contain any? o Is this dish vegetarian/vegan/gluten-free? para que te indiquen opciones seguras.
+excerpt: >
+  Todo el inglés que necesitas para viajar con confianza: aeropuertos, hoteles, restaurantes, transporte y emergencias. Frases esenciales con pronunciación.
 ---
 
 ¿Alguna vez has evitado preguntar algo en un aeropuerto extranjero por miedo a no entender la respuesta? ¿O has terminado comiendo algo que no querías porque no supiste descifrar el menú? El **inglés para viajar** no se trata de dominar reglas gramaticales complejas, sino de lograr una **comunicación efectiva**.

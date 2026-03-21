@@ -39,6 +39,8 @@ faqs:
       puntuación.
 image: 'https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg'
 alt: Aprendiendo inglés nivel intermedio-alto B2
+excerpt: >
+  Qué significa tener nivel B2, qué puedes hacer con él y cómo conseguirlo. Con plan de estudio, exámenes recomendados y tiempo medio de preparación.
 ---
 
 ## Curso de Inglés B2: El Salto a la Fluidez Profesional

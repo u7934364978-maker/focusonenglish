@@ -41,6 +41,8 @@ faqs:
       en vídeo para evaluar tu postura, contacto visual y velocidad. Aprende de
       memoria la apertura y el cierre. Prepara respuestas para las 5-6 preguntas
       más probables sobre tu investigación.
+excerpt: >
+  Inglés médico avanzado para especialistas: historias clínicas, comunicación en congresos, redacción científica y conversación con pacientes internacionales.
 ---
 
 ## El Inglés en la Medicina: Una Competencia Crítica

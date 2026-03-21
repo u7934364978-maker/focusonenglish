@@ -38,6 +38,8 @@ faqs:
       nuestros alumnos completan el nivel A2 en 3 o 4 meses.
 image: 'https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg'
 alt: Aprendiendo inglés nivel elemental A2
+excerpt: >
+  Qué aprenderás en el nivel A2, cuánto tarda alcanzarlo desde A1 y cómo estructurar tus clases. El nivel elemental explicado de forma clara y práctica.
 ---
 
 ## Curso de Inglés A2: De las Frases Sueltas a las Conversaciones Reales

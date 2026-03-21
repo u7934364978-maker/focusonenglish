@@ -41,6 +41,8 @@ faqs:
       contracciones son aceptables en emails semiformales. Para comunicaciones
       muy formales (contratos, quejas formales), es mejor evitarlas y usar "I
       am", "I have", etc.
+excerpt: >
+  20 plantillas de emails profesionales en inglés listas para usar: reuniones, seguimiento, solicitudes, disculpas y más. Copia, adapta y envía.
 ---
 
 ## Por qué las Plantillas son tu Aliado Estratégico

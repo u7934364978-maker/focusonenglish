@@ -39,6 +39,8 @@ faqs:
       necesario. En la cultura anglosajona se valora muchísimo la brevedad.
       Apunta a 5-8 líneas para emails informativos y no más de 15-20 líneas para
       los más complejos.
+excerpt: >
+  Los 10 errores más comunes en emails de trabajo en inglés y cómo corregirlos. Guía práctica para escribir correos profesionales sin perder credibilidad.
 ---
 
 ## La Reputación Profesional se Construye Palabra a Palabra

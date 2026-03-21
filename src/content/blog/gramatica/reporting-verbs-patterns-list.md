@@ -27,7 +27,8 @@ faqs:
     answer: 'He dividido los verbos de reporte en los cinco patrones más frecuentes que encontrarás en contextos académicos y profesionales.'
   - question: '¿Verbo + To + Infinitivo (Verb + To-Infinitive)?'
     answer: 'Este patrón se utiliza cuando el hablante se compromete o decide realizar una acción. - Agree: He agreed to help with the project. - Offer: She offered to carry the heavy bags. - Promise: They promised to arrive on time for the meeting.'
-
+excerpt: >
+  Lista completa de reporting verbs con sus patrones gramaticales: gerundio, infinitivo o cláusula that. Ejemplos para cada verbo y ejercicios de uso.
 ---
 
 ## Reporting Verbs Patterns: Lista Completa y Guía de Uso

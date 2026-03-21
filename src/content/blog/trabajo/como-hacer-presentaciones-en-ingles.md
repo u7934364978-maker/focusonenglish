@@ -40,6 +40,8 @@ faqs:
       Si lees, perdes el contacto visual con la audiencia y proyectas falta de
       preparación. Usa notas personales si las necesitas, pero nunca leas la
       pantalla.
+excerpt: >
+  Estructura, frases de transición y técnicas reales para presentaciones en inglés que impactan. Con guión de apertura, cierre y gestión de preguntas.
 ---
 
 ## La Presentación como Herramienta de Liderazgo

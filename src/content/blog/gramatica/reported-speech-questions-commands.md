@@ -29,7 +29,8 @@ faqs:
     answer: 'Cuando la pregunta original no tiene una partícula interrogativa (como what, where, when), usamos los conectores if o whether (si).'
   - question: '¿Wh- Questions (Usamos el pronombre interrogativo)?'
     answer: 'Si la pregunta empieza con Who, What, Where, When, Why o How, mantenemos esa palabra como conector.'
-
+excerpt: >
+  Cómo reportar preguntas, órdenes y peticiones en inglés: uso de if/whether, verbos de mandato y las transformaciones más frecuentes en exámenes oficiales.
 ---
 
 ## Reported Speech: Preguntas, Órdenes y Peticiones

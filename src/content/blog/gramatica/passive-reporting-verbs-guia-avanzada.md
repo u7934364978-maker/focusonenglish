@@ -28,7 +28,8 @@ faqs:
     answer: 'Existen dos formas fundamentales de transformar una oración activa con un verbo de reporte (ej. People believe...) a pasiva. Dominar ambas es un requisito indispensable para los niveles de inglés más avanzados.'
   - question: '¿La Estructura Impersonal (It + Pasiva + That)?'
     answer: 'Esta estructura es la más sencilla de formar y es muy común al comienzo de artículos de noticias. Se construye utilizando el pronombre impersonal "It", seguido del verbo de reporte en voz pasiva y una cláusula introducida por "that".'
-
+excerpt: >
+  Estructuras avanzadas de voz pasiva con verbos de reporte para C1-C2: 'It is said that', 'He is believed to be' y similares. Con ejercicios de Cambridge.
 ---
 
 ## Passive Reporting Verbs: Estructuras Avanzadas (C1-C2)

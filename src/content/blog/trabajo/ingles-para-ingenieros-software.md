@@ -43,6 +43,8 @@ faqs:
       expresar desacuerdo técnico de forma diplomática, dar y recibir feedback
       en code reviews, facilitar discusiones de diseño, y comunicar retrasos o
       problemas a stakeholders no técnicos.
+excerpt: >
+  Vocabulario de programación, comunicación en standups, code reviews y documentación técnica. Inglés real para equipos de software globales.
 ---
 
 ## El Inglés que los Ingenieros de Software Realmente Necesitan

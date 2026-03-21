@@ -41,6 +41,8 @@ faqs:
       El certificado Aptis tiene una validez de 2 años desde la fecha de
       obtención. Después de ese período, muchas instituciones ya no lo consideran
       vigente. Esto lo diferencia de Cambridge, cuyo certificado no caduca.
+excerpt: >
+  Guía completa del APTIS Advanced del British Council para obtener el certificado C1. Estructura, puntuación, diferencias con el APTIS General y consejos para aprobar.
 ---
 
 ## Aptis Advanced: El Camino Rápido al Nivel C1

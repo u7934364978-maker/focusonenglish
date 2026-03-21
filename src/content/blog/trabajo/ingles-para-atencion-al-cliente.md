@@ -33,7 +33,8 @@ faqs:
     answer: 'Cuando un cliente tiene un problema, lo primero que busca es ser escuchado y comprendido. Usa estas frases de atención al cliente inglés para validar sus sentimientos y reducir la tensión:'
   - question: '¿Resolución de Problemas?'
     answer: 'En el soporte escrito, la claridad es más importante que la gramática perfecta. Los clientes suelen escanear los correos en lugar de leerlos palabra por palabra.'
-
+excerpt: >
+  Frases, vocabulario y estrategias para gestionar llamadas, reclamaciones y soporte al cliente en inglés con profesionalidad.
 ---
 
 ## Curso de Inglés para Atención al Cliente: Excelencia en el Servicio Global
