@@ -1,12 +1,12 @@
 ---
-title: 'Cambridge B2 First 2026: Estrategias Definitivas para Aprobar el FCE'
+title: 'Cambridge B2 First (FCE) 2026: Cómo Aprobar Cada Parte — Reading, Writing, Listening y Speaking'
 date: '2026-03-02'
-updatedDate: '2026-03-10'
+updatedDate: '2026-03-21'
 author: david-torres
 description: >-
-  Estrategias probadas para aprobar el Cambridge B2 First (FCE) en 2026.
-  Trucos por parte del examen, errores más frecuentes, plan de estudio de
-  8 semanas y recursos gratuitos.
+  Guía de preparación para el FCE 2026: trucos específicos para el Reading
+  & Use of English, Writing con plantillas, Listening sin perder el hilo y
+  Speaking con criterios reales de puntuación. Plan de 8 semanas incluido.
 category: examenes
 image: >-
   https://images.pexels.com/photos/4145153/pexels-photo-4145153.jpeg?auto=compress&cs=tinysrgb&w=1200
