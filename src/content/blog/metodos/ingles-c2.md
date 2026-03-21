@@ -1,13 +1,13 @@
 ---
 category: metodos
 date: '2026-03-02'
-updatedDate: '2026-03-10'
+updatedDate: '2026-03-21'
 author: sara-mendez
-title: 'Nivel de Inglés C2: La Guía Maestra para alcanzar la Excelencia Total'
+title: 'Nivel C2 de Inglés: Qué Es, Cuánto Cuesta el CPE y Cómo Llegar desde C1'
 description: >-
-  Alcanza la maestría total del idioma inglés (CPE). Descubre qué significa el
-  nivel C2, cómo prepararte para el Proficiency de Cambridge y cómo dominar el
-  registro culto y profesional.
+  El C2 (Proficiency) es la cumbre del MCER. Te explicamos qué lo diferencia
+  del C1, cuántas horas necesitas (200-300h), qué mide el CPE de Cambridge
+  (255€, sin caducidad) y en qué casos realmente merece la pena intentarlo.
 readTime: 5 min
 keywords:
   - curso ingles c2

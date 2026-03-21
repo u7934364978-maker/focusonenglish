@@ -1,12 +1,13 @@
 ---
 category: metodos
 date: '2026-02-07'
-updatedDate: '2026-03-10'
+updatedDate: '2026-03-21'
 author: sara-mendez
-title: 'Curso de Inglés C1: Prepárate para el Nivel Avanzado CAE'
+title: 'Nivel C1 de Inglés: Qué Significa, Cómo Alcanzarlo y Qué Exámenes lo Certifican'
 description: >-
-  Domina el inglés avanzado a nivel profesional y académico. Prepárate para el
-  Certificate in Advanced English (CAE) de Cambridge con nuestro método online.
+  El C1 es el nivel que piden multinacionales, universidades y la función
+  pública. Te explicamos qué estructuras domina un C1, cuánto tiempo se tarda
+  desde B2 (200-300h) y qué exámenes lo certifican: CAE, IELTS 7.0 o APTIS C.
 readTime: 5 min
 keywords:
   - curso ingles c1

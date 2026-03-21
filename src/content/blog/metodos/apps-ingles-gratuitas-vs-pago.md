@@ -1,9 +1,9 @@
 ---
 title: 'Apps de Inglés Gratis vs. de Pago 2026: ¿Vale la Pena Pagar?'
 description: >-
-  ¿Merece la pena pagar por una app de inglés en 2026? Comparamos Duolingo
-  Premium, Babbel y Rosetta Stone con las opciones gratuitas. Análisis honesto
-  de qué consigues realmente con cada opción.
+  Duolingo gratis llega hasta B1 pero no más. Babbel mejora el speaking,
+  Busuu tiene correcciones reales. ¿Cuándo compensa pagar? Te damos el
+  veredicto claro por nivel: para A1-B1 gratis basta, para B2+ necesitas más.
 readTime: 5 min
 excerpt: >-
   Duolingo gratis llega hasta cierto punto. Pero, ¿cuándo compensa pagar?
@@ -16,7 +16,7 @@ keywords:
   - mejor inversion aprender ingles
   - duolingo plus merece la pena
 date: '2026-03-02'
-updatedDate: '2026-03-10'
+updatedDate: '2026-03-21'
 category: metodos
 author: sara-mendez
 image: 'https://images.pexels.com/photos/4050315/pexels-photo-4050315.jpeg'
