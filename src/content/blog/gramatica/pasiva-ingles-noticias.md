@@ -158,3 +158,7 @@ Lee estos fragmentos e identifica cada pasiva, su tiempo y si el agente aparece 
 Con práctica, empezarás a procesar estas estructuras automáticamente. Y eso significa que puedes leer noticias en inglés a una velocidad mucho mayor, sin tener que detenerte en cada frase para analizar quién hace qué.
 
 Dedicar 15 minutos diarios a leer un artículo de un periódico en inglés y subrayar todas las pasivas que encuentres es uno de los ejercicios más efectivos para asentar esta estructura de manera definitiva.
+
+---
+
+Para el marco completo de la voz pasiva — cómo se forma, cuándo se usa y qué estructuras avanzadas existen — consulta la [Guía Completa de la Voz Pasiva en Inglés](/blog/gramatica/voz-pasiva-ingles-guia).

@@ -179,3 +179,7 @@ A veces se usan otros modales para compromisos, según el matiz:
 | *I must do it.* | Obligación fuerte |
 
 Para una promesa o compromiso claro, *will* es siempre la opción más directa y natural.
+
+---
+
+Para ver todos los usos de *will* — predicciones, certeza, probabilidad — consulta la guía completa [Will para el Futuro en Inglés](/blog/gramatica/will-futuro-ingles). Y si quieres practicar con ejercicios resueltos, visita [Ejercicios de Will en Inglés](/blog/gramatica/will-ejercicios-ingles).

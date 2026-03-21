@@ -175,3 +175,7 @@ Respuestas:
 3. *We were shown the new office space.* / *The new office space was shown to us.*
 
 Dominar esta construcción te da una flexibilidad enorme para el writing formal y los exámenes Cambridge. Es una de esas estructuras que, una vez que la internalizas, empieza a aparecer en todas partes.
+
+---
+
+Para el contexto completo de la voz pasiva — tiempos, modales, estructuras impersonales — consulta la [Guía Completa de la Voz Pasiva en Inglés](/blog/gramatica/voz-pasiva-ingles-guia).

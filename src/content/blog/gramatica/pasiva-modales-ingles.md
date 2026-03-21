@@ -168,3 +168,7 @@ Completa con la forma correcta del modal + pasiva:
 5. The contract \_\_\_ (might / sign) this week. → *might be signed*
 
 Dominar los modales en pasiva no solo mejora tu gramática, también te da acceso a un registro formal en inglés que es imprescindible para el trabajo, los exámenes y los textos técnicos.
+
+---
+
+Para el panorama completo de la voz pasiva — todos los tiempos, estructuras impersonales y usos académicos — consulta la [Guía Completa de la Voz Pasiva en Inglés](/blog/gramatica/voz-pasiva-ingles-guia).

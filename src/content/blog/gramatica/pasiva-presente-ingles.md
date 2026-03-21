@@ -166,3 +166,7 @@ El siguiente paso natural es trabajar el pasado pasivo, donde la lógica es exac
 ---
 
 *Practica transformando textos que leas en inglés: toma una frase activa y conviértela a pasiva. Ese ejercicio, repetido con constancia, es lo que realmente fija la estructura.*
+
+---
+
+Para el contexto completo de la voz pasiva — todos sus tiempos, usos académicos y errores frecuentes — consulta la [Guía Completa de la Voz Pasiva en Inglés](/blog/gramatica/voz-pasiva-ingles-guia).

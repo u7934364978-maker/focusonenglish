@@ -178,3 +178,7 @@ La pasiva en inglés se asienta mejor si la practicas en contexto real, no solo 
 - Practica transformaciones con los subtítulos en inglés de cualquier documental o serie.
 
 Con constancia, en pocas semanas empezarás a reconocer y producir la pasiva de forma automática, que es exactamente el objetivo.
+
+---
+
+¿Necesitas repasar las reglas antes de practicar? Consulta la [Guía Completa de la Voz Pasiva en Inglés](/blog/gramatica/voz-pasiva-ingles-guia) para tener todos los tiempos y estructuras claros.

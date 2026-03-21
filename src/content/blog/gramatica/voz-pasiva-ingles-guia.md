@@ -162,3 +162,20 @@ Ambas significan lo mismo, pero **'get'** es más informal y suele usarse en el 
 
 ### 3. ¿Se puede usar la pasiva en tiempos continuos?
 Sí, pero suena algo pesado. El presente y pasado continuo pasivo (*is being / was being*) son comunes, pero los tiempos perfectos continuos pasivos (*has been being*) casi nunca se utilizan por su complejidad fonética.
+
+---
+
+## Profundiza en la voz pasiva en inglés
+
+Esta guía cubre los fundamentos. Para dominar cada aspecto en detalle:
+
+- [Voz Pasiva en Presente en Inglés: Estructura y Usos Reales](/blog/gramatica/pasiva-presente-ingles)
+- [Voz Pasiva en Pasado en Inglés: Was/Were y Had Been](/blog/gramatica/pasiva-pasado-ingles)
+- [Pasiva con Verbos Modales: Must, Should, Can y Más](/blog/gramatica/pasiva-modales-ingles)
+- [Pasiva Impersonal: It Is Said, It Is Known y Similares](/blog/gramatica/pasiva-impersonal-ingles)
+- [Pasiva con Doble Objeto: Give, Send, Show y Más](/blog/gramatica/pasiva-doble-objeto-ingles)
+- [Voz Activa vs Voz Pasiva: Cuándo Usar Cada Una](/blog/gramatica/activa-vs-pasiva-ingles)
+- [Errores Comunes con la Voz Pasiva y Cómo Evitarlos](/blog/gramatica/pasiva-ingles-errores-comunes)
+- [La Voz Pasiva en Noticias y Prensa en Inglés](/blog/gramatica/pasiva-ingles-noticias)
+- [La Voz Pasiva en Textos Académicos](/blog/gramatica/pasiva-ingles-textos-academicos)
+- [Ejercicios de Voz Pasiva en Inglés con Soluciones](/blog/gramatica/ejercicios-voz-pasiva-ingles)

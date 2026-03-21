@@ -151,3 +151,7 @@ Respuestas:
 Aunque la pasiva en pasado es muy útil, hay que saber cuándo no usarla. En conversaciones informales, la voz activa suele sonar más natural. Pero en textos académicos, informes, artículos periodísticos y narraciones formales, la pasiva es la opción correcta la mayor parte del tiempo.
 
 Si estás preparando Cambridge B2 o C1, ten claro que las transformaciones de frase con pasiva en pasado son frecuentes en el Use of English. Dominar esta estructura suma puntos directamente.
+
+---
+
+Para el contexto completo de la voz pasiva en todos sus tiempos y registros, consulta la [Guía Completa de la Voz Pasiva en Inglés](/blog/gramatica/voz-pasiva-ingles-guia).

@@ -159,3 +159,7 @@ Respuestas posibles:
 4. *It is thought that she left the company voluntarily.* / *She is thought to have left the company voluntarily.*
 
 Si puedes hacer estas transformaciones con soltura, tienes esta estructura dominada. Y eso, en un examen Cambridge o en un texto académico, se nota.
+
+---
+
+Para ver cómo encaja la pasiva impersonal dentro del sistema completo de la voz pasiva en inglés, consulta la [Guía Completa de la Voz Pasiva en Inglés](/blog/gramatica/voz-pasiva-ingles-guia).

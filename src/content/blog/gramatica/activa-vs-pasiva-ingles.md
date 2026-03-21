@@ -164,3 +164,7 @@ En un artículo periodístico, ambas son válidas. La pasiva es ligeramente más
 En un correo informal a un compañero, la activa es más natural. La pasiva suena demasiado corporativa para ese contexto.
 
 La elección no es automática ni mecánica. Requiere preguntarte: ¿qué es más importante aquí, quién actúa o lo que ocurre? ¿Cuál es el registro de este texto? ¿Necesito objetividad o claridad directa? Con esas preguntas en mente, la decisión se vuelve mucho más intuitiva.
+
+---
+
+Para dominar la voz pasiva en todos sus tiempos y registros, consulta la [Guía Completa de la Voz Pasiva en Inglés](/blog/gramatica/voz-pasiva-ingles-guia).

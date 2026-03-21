@@ -192,3 +192,7 @@ Algo que cambia con *would* es el grado de distancia o incertidumbre. *Will* es 
 - *That would be great.* (entusiasmo pero más formal/cortés)
 
 Ese matiz de *would* — más suave, más considerado, más hipotético — es lo que lo hace tan útil en inglés formal y profesional.
+
+---
+
+Para entender el contexto completo de *will* — sus usos para el futuro, promesas y predicciones — consulta la guía [Will para el Futuro en Inglés](/blog/gramatica/will-futuro-ingles). Y para practicar ambos modales con ejercicios, visita [Ejercicios de Will en Inglés](/blog/gramatica/will-ejercicios-ingles).

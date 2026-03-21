@@ -164,3 +164,7 @@ A veces sí es importante especificar quién hizo algo:
 Todo en pasiva. Todo objetivo. Todo en el tono que se espera de un texto científico en inglés.
 
 Si estás escribiendo un TFG, un TFM o cualquier tipo de trabajo académico en inglés, interiorizar estas estructuras te dará una ventaja enorme. No es solo gramática: es el lenguaje que los evaluadores esperan ver.
+
+---
+
+Para repasar todas las estructuras pasivas que necesitas — tiempos, modales, impersonales — consulta la [Guía Completa de la Voz Pasiva en Inglés](/blog/gramatica/voz-pasiva-ingles-guia).

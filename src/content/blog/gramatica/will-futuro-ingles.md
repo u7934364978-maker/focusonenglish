@@ -196,3 +196,20 @@ No uses *will* cuando:
 - Ya tenías el plan antes de hablar → *going to*
 - La predicción viene de evidencia directa visible → *going to*
 - La cláusula va después de *when, if, as soon as, before, after* → presente simple
+
+---
+
+## Profundiza en el uso de will en inglés
+
+Una vez dominado el uso básico de *will* para el futuro, estos artículos te ayudarán a completar el cuadro:
+
+- [Will vs. Going To: cuándo usar cada uno y por qué](/blog/gramatica/will-going-to-diferencia)
+- [Will vs. Would: diferencias clave con ejemplos](/blog/gramatica/will-would-diferencia)
+- [Will para promesas y decisiones espontáneas](/blog/gramatica/will-promesas-decisiones-ingles)
+- [Will para probabilidad y certeza en inglés](/blog/gramatica/will-probabilidad-certeza-ingles)
+- [Preguntas con will en inglés: estructura y usos](/blog/gramatica/will-preguntas-ingles)
+- [Will para ofertas y peticiones en inglés](/blog/gramatica/will-ofertas-peticiones-ingles)
+- [Will vs. Shall: cuándo se usa shall en inglés](/blog/gramatica/will-shall-ingles)
+- [Expresiones fijas con will en inglés](/blog/gramatica/will-expresiones-ingles)
+- [Should vs. Would: diferencias y usos](/blog/gramatica/should-would-ingles)
+- [Ejercicios de will en inglés con soluciones](/blog/gramatica/will-ejercicios-ingles)

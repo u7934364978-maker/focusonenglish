@@ -184,3 +184,7 @@ Antes de entregar un texto en inglés con pasiva, comprueba:
 - [ ] ¿Coincide el tiempo con el marcador temporal?
 
 Con estos puntos revisados, los errores más frecuentes quedan cubiertos. La pasiva es una estructura que vale la pena dominar bien, no solo para los exámenes, sino porque abre el acceso a un registro formal en inglés que resulta imprescindible en muchos contextos profesionales y académicos.
+
+---
+
+Para repasar las bases y el sistema completo de la voz pasiva en inglés, consulta la [Guía Completa de la Voz Pasiva en Inglés](/blog/gramatica/voz-pasiva-ingles-guia).
