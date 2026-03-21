@@ -1,7 +1,5 @@
 ---
-title: >-
-  LinkedIn en Inglés: Guía Definitiva para Optimizar tu Perfil y Atraer
-  Reclutadores
+title: 'LinkedIn en Inglés 2026: Cómo Optimizar tu Perfil y Atraer Reclutadores Internacionales'
 date: '2026-01-30'
 updatedDate: '2026-03-10'
 author: sara-mendez

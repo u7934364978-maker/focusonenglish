@@ -1,5 +1,5 @@
 ---
-title: 'Reglas de Pronunciación en Inglés: Guía de Estudio'
+title: 'Reglas de Pronunciación en Inglés: Magic-E, Silent Letters, -ED y -S Explicados'
 description: >-
   Domina la fonética inglesa con nuestras reglas de pronunciación en inglés.
   Incluye Magic E, Silent Letters, terminaciones -ED y lista imprimible.
