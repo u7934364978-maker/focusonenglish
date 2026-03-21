@@ -201,9 +201,17 @@ export default async function KeywordHubPage({ params }: { params: Promise<{ key
         {/* Intro text (when no hub file — adds indexable body text) */}
         {!hubContent && (
           <section className="py-12 px-4 sm:px-6 lg:px-8 bg-white border-b border-slate-200">
-            <div className="max-w-4xl mx-auto">
+            <div className="max-w-4xl mx-auto space-y-4">
               <p className="text-lg text-slate-700 leading-relaxed">
-                En esta página encontrarás todos nuestros recursos sobre <strong>{originalKeyword}</strong>: guías paso a paso, ejercicios prácticos con soluciones, consejos de expertos y materiales gratuitos diseñados para hispanohablantes que quieren mejorar su inglés de forma eficaz. Todo el contenido está pensado para ser directo, práctico y aplicable desde el primer día de estudio.
+                En esta página encontrarás todos nuestros recursos sobre <strong>{originalKeyword}</strong>: guías paso a paso, ejercicios prácticos con soluciones, consejos de expertos y materiales gratuitos diseñados para hispanohablantes que quieren mejorar su inglés de forma eficaz.
+              </p>
+              {articles.length >= 3 && (
+                <p className="text-base text-slate-600 leading-relaxed">
+                  Hemos reunido <strong>{articles.length} {articles.length === 1 ? "guía" : "guías"}</strong> sobre este tema, cubriendo desde los conceptos fundamentales hasta los usos avanzados que aparecen en exámenes oficiales como Cambridge, IELTS o APTIS. Cada artículo incluye ejemplos reales, tablas de referencia y ejercicios resueltos para que puedas practicar y consolidar lo aprendido.
+                </p>
+              )}
+              <p className="text-base text-slate-600 leading-relaxed">
+                Todo el contenido está escrito en español, pensado para estudiantes de nivel B1 en adelante que buscan una explicación clara, sin tecnicismos innecesarios y con ejemplos aplicables desde el primer día. Si estás preparando un examen oficial, trabajando en un entorno internacional o simplemente quieres hablar con más confianza en inglés, estas guías son tu punto de partida.
               </p>
             </div>
           </section>
