@@ -176,3 +176,7 @@ La sesión de preguntas es donde muchos presentadores pierden los puntos ganados
 En **Focus English**, nuestros profesores especializados en inglés de negocios pueden ser tu audiencia de práctica, darte feedback profesional y ayudarte a pulir esa presentación en inglés hasta que se sienta completamente natural.
 
 [👉 ¡Haz que tu próxima presentación en inglés sea tu mejor argumento de venta. Comienza con Focus English!](/cuenta/registro?plan=work)
+
+---
+
+Para ampliar tu vocabulario de negocios en inglés, consulta [Vocabulario de Negocios en Inglés](/blog/trabajo/vocabulario-negocios-ingles-profesional). Y para el contexto completo del inglés profesional, visita [Inglés para el Trabajo](/blog/trabajo/ingles-para-trabajo).

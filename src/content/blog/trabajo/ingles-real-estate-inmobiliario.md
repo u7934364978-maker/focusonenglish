@@ -247,3 +247,7 @@ Kind regards,
 - *"Let me arrange a viewing for you"* — Le organizo una visita
 - *"This won't last long at this price"* — A este precio no durará mucho
 - *"I have several interested parties"* — Tengo varios interesados
+
+---
+
+Para ampliar tu vocabulario en contextos de negocios, consulta [Vocabulario de Negocios en Inglés](/blog/trabajo/vocabulario-negocios-ingles-profesional). Y para el marco completo del inglés profesional, visita [Inglés para el Trabajo](/blog/trabajo/ingles-para-trabajo).

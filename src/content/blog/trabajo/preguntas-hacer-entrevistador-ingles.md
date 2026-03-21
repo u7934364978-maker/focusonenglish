@@ -131,3 +131,7 @@ No lances las preguntas de forma abrupta. Conéctalas con lo que se ha hablado:
 - *"Based on what you've described, it sounds like collaboration with the product team is key. How does that relationship typically work in practice?"*
 
 Este tipo de conexión muestra que has estado escuchando activamente durante toda la entrevista, que es exactamente lo que quieres demostrar.
+
+---
+
+Para una preparación completa de tu entrevista de trabajo en inglés, consulta la [Guía Completa para Preparar tu Entrevista de Trabajo en Inglés](/blog/trabajo/preparar-entrevista-trabajo-ingles).

@@ -156,3 +156,22 @@ La diferencia entre un candidato que consigue el puesto y uno que no lo consigue
 [👉 Prepara tu próxima entrevista con nuestros coaches de inglés profesional. ¡Primeras clases con descuento!](/cuenta/registro?plan=work)
 
 Para una visión completa del tema, consulta nuestra [guía de entrevistas de trabajo en inglés](/hubs/entrevista-de-trabajo-en-ingles).
+
+---
+
+## Profundiza en las entrevistas de trabajo en inglés
+
+Una vez preparada la estructura general, estos artículos te ayudan a dominar cada parte:
+
+- [Preguntas frecuentes en entrevistas de trabajo en inglés](/blog/trabajo/entrevista-trabajo-ingles-preguntas)
+- [Preguntas difíciles en entrevistas de trabajo en inglés](/blog/trabajo/preguntas-dificiles-entrevista-trabajo-ingles)
+- [Qué preguntar al entrevistador en inglés](/blog/trabajo/preguntas-hacer-entrevistador-ingles)
+- [La técnica STAR en inglés: cómo estructurar tus respuestas](/blog/trabajo/tecnica-star-entrevista-ingles)
+- [Vocabulario clave para entrevistas de trabajo en inglés](/blog/trabajo/vocabulario-entrevista-trabajo-ingles)
+- [Errores comunes en entrevistas de trabajo en inglés](/blog/trabajo/errores-entrevista-trabajo-ingles)
+- [Entrevista de trabajo en inglés sin experiencia](/blog/trabajo/entrevista-ingles-sin-experiencia)
+- [Entrevista virtual en inglés: cómo prepararse](/blog/trabajo/entrevista-virtual-ingles)
+- [Consejos avanzados para entrevistas en inglés](/blog/trabajo/job-interview-english-consejos-avanzados)
+- [Cómo negociar el salario en inglés](/blog/trabajo/negociar-salario-ingles)
+- [CV en inglés: estructura y vocabulario](/blog/trabajo/cv-ingles)
+- [LinkedIn en inglés: guía completa](/blog/trabajo/linkedin-ingles-guia)

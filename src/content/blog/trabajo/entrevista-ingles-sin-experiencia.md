@@ -129,3 +129,7 @@ En el hub [Entrevista de Trabajo en Inglés](/hubs/entrevista-de-trabajo-en-ingl
 **Subestimar lo que tienes.** Gestionar un proyecto universitario complejo, coordinar voluntarios en un evento, mantener un trabajo a tiempo parcial mientras estudiabas a tiempo completo: esas son habilidades reales que demuestran capacidad real.
 
 La falta de experiencia es temporal. La capacidad de articular tu potencial de forma clara y con ejemplos concretos es lo que da ventaja en las primeras entrevistas de tu carrera.
+
+---
+
+Para una preparación completa de tu entrevista de trabajo en inglés, consulta la [Guía Completa para Preparar tu Entrevista de Trabajo en Inglés](/blog/trabajo/preparar-entrevista-trabajo-ingles).

@@ -186,3 +186,7 @@ Technical: [Herramientas relevantes para tu sector]
 Tu CV en inglés es el primer paso. El siguiente es la entrevista. En **Focus English** te preparamos para ambos con formadores especializados en Business English.
 
 [**👉 Descubre nuestro plan de Inglés Profesional y empieza hoy**](/cuenta/registro?plan=work)
+
+---
+
+Para una preparación completa de tu entrevista de trabajo en inglés, consulta la [Guía Completa para Preparar tu Entrevista de Trabajo en Inglés](/blog/trabajo/preparar-entrevista-trabajo-ingles).

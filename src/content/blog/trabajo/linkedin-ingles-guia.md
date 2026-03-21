@@ -108,3 +108,7 @@ En **Focus English**, no solo te enseñamos gramática; te ayudamos a construir 
 *   **Simulacros de Entrevista**: Prepárate para cuando ese perfil optimizado empiece a generar llamadas.
 
 [**👉 ¿Listo para que te encuentren las mejores empresas? Optimiza tu perfil con Focus English**](/cuenta/registro?plan=work)
+
+---
+
+Para una preparación completa de tu entrevista de trabajo en inglés, consulta la [Guía Completa para Preparar tu Entrevista de Trabajo en Inglés](/blog/trabajo/preparar-entrevista-trabajo-ingles).

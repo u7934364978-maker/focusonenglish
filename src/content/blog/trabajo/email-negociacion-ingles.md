@@ -145,3 +145,7 @@ Cuando ambas partes están de acuerdo, es importante confirmarlo por escrito de 
 Este email reconoce el valor de la propuesta, explica la restricción con honestidad, ofrece una solución alternativa y abre la puerta al diálogo sin presionar. Es el equilibrio correcto.
 
 La negociación por email en inglés se aprende con práctica, pero una vez que interiorizas estas estructuras, descubrirás que el inglés profesional tiene convenciones muy claras que hacen que el proceso sea más predecible de lo que parece.
+
+---
+
+Para dominar la estructura base de cualquier email profesional en inglés, consulta la [Guía de Emails Formales en Inglés: Estructura y Ejemplos](/blog/trabajo/email-formal-ingles-estructura).

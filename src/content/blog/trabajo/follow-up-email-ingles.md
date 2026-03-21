@@ -148,3 +148,7 @@ Si ya has hecho dos follow-ups sin respuesta, el tercero debe ser corto y sin pr
 Este tono transmite profesionalidad y no quema el puente. A veces la respuesta llega semanas después, cuando el timing cambia.
 
 La clave de un buen follow-up es que facilite la respuesta del otro, no que la exija. Cuanto más fácil pones que te digan algo, más probable es que lo hagan.
+
+---
+
+Para dominar la estructura base de cualquier email profesional en inglés, consulta la [Guía de Emails Formales en Inglés: Estructura y Ejemplos](/blog/trabajo/email-formal-ingles-estructura).

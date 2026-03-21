@@ -197,3 +197,7 @@ Una entrevista es bidireccional. Siempre prepara 3-5 preguntas:
 El conocimiento no es suficiente: necesitas práctica real. En **Focus English** realizamos **simulacros de entrevista en inglés** con feedback personalizado por formadores con experiencia en RRHH internacional.
 
 [**👉 Reserva tu simulacro de entrevista y llega con confianza al día clave**](/cuenta/registro?plan=work)
+
+---
+
+Para una preparación completa de tu entrevista de trabajo en inglés, consulta la [Guía Completa para Preparar tu Entrevista de Trabajo en Inglés](/blog/trabajo/preparar-entrevista-trabajo-ingles).

@@ -120,3 +120,7 @@ En este formato:
 Los consejos son los mismos que para una entrevista en directo, pero con un matiz: como no hay retroalimentación inmediata, tienes que asegurarte de que tus respuestas son completas y no dejas puntos en el aire. Usa la estructura STAR igualmente y termina cada respuesta con una frase de cierre clara.
 
 Una entrevista virtual bien ejecutada demuestra que eres capaz de comunicarte con eficacia en un entorno de trabajo remoto, que ya de por sí es una competencia valorada en equipos internacionales.
+
+---
+
+Para una preparación completa de tu entrevista de trabajo en inglés, consulta la [Guía Completa para Preparar tu Entrevista de Trabajo en Inglés](/blog/trabajo/preparar-entrevista-trabajo-ingles).

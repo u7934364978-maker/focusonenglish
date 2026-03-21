@@ -130,3 +130,10 @@ En **Focus English**, no te enseñamos gramática de libro; te preparamos para e
 4.  **Certificación de Competencia**: Obtén un diploma que acredite tu capacidad para trabajar en entornos de atención al cliente internacional.
 
 [**Conviértete en el profesional que las grandes empresas tecnológicas están buscando. Regístrate en Focus English y perfecciona tu soporte hoy mismo.**](/cuenta/registro)
+
+---
+
+## Profundiza en el inglés para atención al cliente
+
+- [Inglés para atención al cliente por teléfono y chat](/blog/trabajo/ingles-customer-service-telefono-chat)
+- [Frases en inglés para situaciones de atención al cliente](/blog/trabajo/frases-ingles-atencion-al-cliente-situaciones)

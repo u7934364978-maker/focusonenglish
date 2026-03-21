@@ -131,3 +131,10 @@ En **Focus English**, entendemos que en medicina no hay margen para el error. Po
 *   **Glosarios Interactivos**: Acceso a miles de términos con audios de pronunciación real (nada de voces robóticas) para que suenes profesional.
 
 [**Lleva tu carrera sanitaria al siguiente nivel global. Regístrate en Focus English y accede a la mejor formación en inglés médico online.**](/cuenta/registro)
+
+---
+
+## Profundiza en el inglés médico y sanitario
+
+- [Inglés médico para médicos especialistas](/blog/trabajo/ingles-medico-para-medicos-especialistas)
+- [Vocabulario de inglés médico para enfermería](/blog/trabajo/vocabulario-ingles-medico-enfermeria)

@@ -111,3 +111,7 @@ Sea cual sea tu elección, en **Focus English** hemos diseñado una ruta especí
 2.  **Vocabulario Corporativo**: Te enseñamos el vocabulario que te servirá tanto para aprobar el examen como para destacar en tu primer día de trabajo en el extranjero.
 
 [**👉 ¿IELTS o TOEFL? Deja de dudar y empieza a prepararte con Focus English. Tu carrera global empieza aquí.**](/blog/trabajo/ingles-para-trabajo)
+
+---
+
+Para el contexto completo del inglés en el entorno laboral, consulta [Inglés para el Trabajo](/blog/trabajo/ingles-para-trabajo).

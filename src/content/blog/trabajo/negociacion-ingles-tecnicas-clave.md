@@ -118,3 +118,7 @@ En **Focus English**, no nos limitamos a enseñarte verbos. Nuestras **[clases d
 No permitas que una barrera lingüística te haga aceptar términos desfavorables. Toma el control de tus acuerdos internacionales.
 
 [👉 ¡Cierra acuerdos con confianza! Empieza hoy tus clases de inglés para negociación](/cuenta/registro?plan=work)
+
+---
+
+Para el vocabulario esencial en contextos de negocio, consulta [Vocabulario de Negocios en Inglés](/blog/trabajo/vocabulario-negocios-ingles-profesional). Y para el marco completo del inglés profesional, visita [Inglés para el Trabajo](/blog/trabajo/ingles-para-trabajo).

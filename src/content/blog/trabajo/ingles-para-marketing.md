@@ -240,3 +240,7 @@ Esta guía te da el vocabulario, las expresiones y las frases que necesitas para
 El vocabulario es el primer paso. Para comunicarte con confianza en reuniones, presentaciones y negociaciones con clientes internacionales, necesitas práctica real. En **Focus English** te ayudamos a desarrollar el inglés profesional específico para tu sector.
 
 [**👉 Empieza tu plan de inglés para marketing y trabaja sin barreras**](/cuenta/registro?plan=work)
+
+---
+
+Para ampliar tu vocabulario profesional en inglés, consulta [Vocabulario de Negocios en Inglés](/blog/trabajo/vocabulario-negocios-ingles-profesional). Y para el marco completo del inglés laboral, visita [Inglés para el Trabajo](/blog/trabajo/ingles-para-trabajo).

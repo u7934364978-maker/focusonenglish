@@ -176,3 +176,7 @@ Una de las habilidades más valoradas en ingenieros senior es la capacidad de tr
 > *"Right now, when we want to update the payment system, we have to update and redeploy the entire application. This means longer downtimes and more risk. If we restructure the system, each part can be updated independently, reducing downtime from hours to minutes and significantly lowering the risk of each release."*
 
 [👉 Comunícate con confianza en tu equipo tech internacional. ¡Empieza hoy con Focus English!](/cuenta/registro?plan=work)
+
+---
+
+Para el marco completo del inglés técnico en ingeniería, consulta [Inglés para Ingenieros](/blog/trabajo/ingles-para-ingenieros).

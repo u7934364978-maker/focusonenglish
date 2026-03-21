@@ -199,3 +199,7 @@ En un equipo de customer service internacional, estas métricas son parte del vo
 | Ticket abierto/cerrado | Open/Closed ticket |
 
 [👉 Domina el inglés para customer service y convierte cada contacto en una oportunidad de fidelización](/cuenta/registro?plan=work)
+
+---
+
+Para el marco completo del inglés en atención al cliente — vocabulario, frases y situaciones — consulta [Inglés para Atención al Cliente](/blog/trabajo/ingles-para-atencion-al-cliente).

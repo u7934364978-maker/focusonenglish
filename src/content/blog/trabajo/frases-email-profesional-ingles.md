@@ -178,3 +178,7 @@ Algunas expresiones suenan pasivo-agresivas o anticuadas en inglés profesional 
 - ❌ *Hoping to hear from you* → incompleto, mejor *I look forward to hearing from you*
 
 Con este repertorio cubierto, lo que necesitas es practicar usándolo en situaciones reales. Guarda este artículo como referencia y consúltalo antes de redactar correos importantes hasta que las frases fluyan de forma automática.
+
+---
+
+Para dominar la estructura base de cualquier email profesional en inglés, consulta la [Guía de Emails Formales en Inglés: Estructura y Ejemplos](/blog/trabajo/email-formal-ingles-estructura).

@@ -185,3 +185,7 @@ Para estrategias más profundas de comunicación en inglés para customer servic
 Conocer las frases es el primer paso. El segundo es usarlas con fluidez y naturalidad en situaciones de presión. En **Focus English**, simulamos conversaciones reales de customer service en inglés con role-plays personalizados y feedback inmediato de profesores especializados en comunicación profesional.
 
 [👉 Habla con confianza con cualquier cliente en inglés. ¡Prueba nuestras clases especializadas!](/cuenta/registro?plan=work)
+
+---
+
+Para el contexto completo del inglés en atención al cliente, consulta [Inglés para Atención al Cliente](/blog/trabajo/ingles-para-atencion-al-cliente).

@@ -161,3 +161,7 @@ Evita estas frases que restan profesionalidad:
 > Carmen Rodríguez
 
 Este ejemplo tiene todos los elementos: contexto claro, datos concretos, impacto explicado, solución pedida y plazo. Ese es el estándar al que hay que aspirar.
+
+---
+
+Para dominar la estructura base de cualquier email profesional en inglés, consulta la [Guía de Emails Formales en Inglés: Estructura y Ejemplos](/blog/trabajo/email-formal-ingles-estructura).

@@ -149,3 +149,7 @@ Practica con un compañero, grábate en vídeo o contacta con nuestros profesore
 [👉 Transforma tu inglés en tu mayor ventaja competitiva. ¡Reserva tu primera clase de prueba!](/cuenta/registro?plan=work)
 
 Descubre más recursos en nuestra [guía completa de entrevistas de trabajo en inglés](/hubs/entrevista-de-trabajo-en-ingles).
+
+---
+
+Para una preparación completa de tu entrevista de trabajo en inglés, consulta la [Guía Completa para Preparar tu Entrevista de Trabajo en Inglés](/blog/trabajo/preparar-entrevista-trabajo-ingles).

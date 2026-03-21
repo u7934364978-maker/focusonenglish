@@ -155,3 +155,7 @@ Esta pregunta demuestra confianza, apertura al feedback y te da la oportunidad d
 [👉 Prepara tu próxima entrevista internacional con nuestros coaches de inglés profesional especializado](/cuenta/registro?plan=work)
 
 Si aún estás construyendo tu base, empieza por nuestra [guía de entrevistas de trabajo en inglés](/hubs/entrevista-de-trabajo-en-ingles).
+
+---
+
+Para los fundamentos de preparación antes de llegar a estrategias avanzadas, consulta la [Guía Completa para Preparar tu Entrevista de Trabajo en Inglés](/blog/trabajo/preparar-entrevista-trabajo-ingles).

@@ -207,3 +207,7 @@ Para tu CV de hostelería en inglés:
 - *"Team player"* — Trabajo en equipo
 - *"Customer-focused"* — Orientado al cliente
 - *"Flexible availability including evenings and weekends"* — Disponibilidad flexible incluyendo tardes/noches y fines de semana
+
+---
+
+Para el contexto completo del inglés en el mundo laboral, consulta [Inglés para el Trabajo](/blog/trabajo/ingles-para-trabajo).

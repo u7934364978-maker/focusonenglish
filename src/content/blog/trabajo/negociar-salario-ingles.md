@@ -123,3 +123,7 @@ Si el salario tiene poco margen, estas otras variables pueden ser el lugar donde
 **Negociar en caliente.** Si la oferta te sorprende por cualquier motivo, pide tiempo. Tomarte 24-48 horas para responder es señal de que tomas las decisiones con cuidado, no de que no estás interesado.
 
 La negociación salarial no es una confrontación: es una conversación de negocios. El peor escenario habitual es que te digan que no tienen más margen. En ese caso, sigues exactamente donde estabas antes de preguntar.
+
+---
+
+Para el contexto completo de la entrevista — preparación, preguntas difíciles, técnica STAR — consulta la [Guía Completa para Preparar tu Entrevista de Trabajo en Inglés](/blog/trabajo/preparar-entrevista-trabajo-ingles).

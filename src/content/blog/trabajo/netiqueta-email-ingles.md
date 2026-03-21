@@ -130,3 +130,7 @@ Lo que no debe estar:
 - Logos de 5 MB que ralentizan la carga del email
 
 La netiqueta del email en inglés no es una lista de reglas arbitrarias: es el resultado de décadas de cultura corporativa anglosajona que ha definido lo que se percibe como profesional, eficiente y respetuoso. Internalizarla no es solo una cuestión de idioma, sino de adaptación cultural que abre puertas en entornos internacionales.
+
+---
+
+Para dominar la estructura base de cualquier email profesional en inglés, consulta la [Guía de Emails Formales en Inglés: Estructura y Ejemplos](/blog/trabajo/email-formal-ingles-estructura).

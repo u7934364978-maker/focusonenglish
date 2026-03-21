@@ -126,3 +126,10 @@ En **Focus English**, entendemos que tu tiempo es limitado y tus necesidades muy
 *   **Simulacros de Entrevistas Técnicas**: Prepárate para las preguntas de "system design" y "coding challenges" con nuestro entrenamiento especializado.
 
 [**Construye tu carrera sin límites geográficos y conviértete en un ingeniero global. Regístrate en Focus English hoy mismo.**](/cuenta/registro)
+
+---
+
+## Profundiza en el inglés para ingenieros
+
+- [Inglés para ingenieros de software](/blog/trabajo/ingles-para-ingenieros-software)
+- [Inglés técnico para ingeniería civil e industrial](/blog/trabajo/ingles-tecnico-ingenieria-civil-industrial)

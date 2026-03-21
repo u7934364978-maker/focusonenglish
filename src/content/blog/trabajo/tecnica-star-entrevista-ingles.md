@@ -151,3 +151,7 @@ En el hub [Entrevista de Trabajo en Inglés](/hubs/entrevista-de-trabajo-en-ingl
 **Usar un ejemplo demasiado antiguo o irrelevante.** Prioriza ejemplos de los últimos 3-5 años y que sean relevantes para el tipo de puesto al que optas.
 
 Practica tus 5-6 historias STAR en voz alta, en inglés, y cronométrate. Esa preparación es lo que convierte la técnica en algo natural durante la entrevista real.
+
+---
+
+Para una preparación completa de tu entrevista de trabajo en inglés, consulta la [Guía Completa para Preparar tu Entrevista de Trabajo en Inglés](/blog/trabajo/preparar-entrevista-trabajo-ingles).

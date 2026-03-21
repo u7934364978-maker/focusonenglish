@@ -158,3 +158,7 @@ Tono: formal, con reconocimiento claro del impacto y plan de acción.
 Nota cómo el correo asume responsabilidad sin excusas excesivas, explica el problema, entrega la solución inmediata (el informe adjunto) y ofrece garantías para el futuro. Ese es el estándar.
 
 La disculpa bien hecha no solo resuelve el problema inmediato: refuerza la confianza en tu profesionalidad. Una mala gestión de un error puede dañar una relación; una buena gestión puede incluso fortalecerla.
+
+---
+
+Para dominar la estructura base de cualquier email profesional en inglés, consulta la [Guía de Emails Formales en Inglés: Estructura y Ejemplos](/blog/trabajo/email-formal-ingles-estructura).

@@ -173,3 +173,7 @@ Si tu objetivo es trabajar en el Reino Unido, Australia o Nueva Zelanda, el **OE
 **En Focus English**, ofrecemos preparación específica para el OET de enfermería con materiales actualizados y simulacros con feedback de evaluadores certificados.
 
 [👉 ¿Quieres trabajar como enfermero/a en el extranjero? Prepárate con nosotros para el OET y el IELTS](/cuenta/registro?plan=work)
+
+---
+
+Para el contexto completo del inglés sanitario — desde la consulta hasta los informes — consulta [Inglés para Profesionales de la Salud](/blog/trabajo/ingles-para-salud).

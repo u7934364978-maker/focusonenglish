@@ -179,3 +179,7 @@ La comunicación escrita varía enormemente según la cultura. Aprende en nuestr
 Conocer los errores es el primer paso. El segundo es practicar con corrección real. En **Focus English**, nuestros profesores revisan tus emails reales de trabajo y te dan feedback personalizado para que mejores rápidamente.
 
 [👉 ¡Escribe emails que proyecten confianza y autoridad! Únete a nuestro programa de inglés profesional](/cuenta/registro?plan=work)
+
+---
+
+Para dominar la estructura base de cualquier email profesional en inglés, consulta la [Guía de Emails Formales en Inglés: Estructura y Ejemplos](/blog/trabajo/email-formal-ingles-estructura).

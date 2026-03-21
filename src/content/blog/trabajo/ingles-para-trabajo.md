@@ -114,3 +114,26 @@ Nuestra metodología está diseñada para profesionales con ambición que necesi
 - **Comunidad Global:** Conecta con otros profesionales que, como tú, están escalando sus carreras usando el inglés como palanca de crecimiento.
 
 [**¿Listo para el siguiente paso en tu carrera? Únete a Focus English y empieza a hablar el idioma del éxito.**](/cuenta/registro)
+
+---
+
+## Inglés profesional por sector y habilidad
+
+### Emails y comunicación escrita
+- [Estructura del email formal en inglés](/blog/trabajo/email-formal-ingles-estructura)
+- [Presentaciones en inglés: cómo hacerlas](/blog/trabajo/como-hacer-presentaciones-en-ingles)
+- [Negociación en inglés: técnicas clave](/blog/trabajo/negociacion-ingles-tecnicas-clave)
+- [Networking en eventos internacionales en inglés](/blog/trabajo/ingles-networking-eventos-internacionales)
+
+### Por sector profesional
+- [Inglés para marketing](/blog/trabajo/ingles-para-marketing)
+- [Inglés para camareros y hostelería](/blog/trabajo/ingles-para-camareros-y-hosteleria)
+- [Inglés jurídico y legal](/blog/trabajo/ingles-juridico-legal)
+- [Inglés para inmobiliaria (real estate)](/blog/trabajo/ingles-real-estate-inmobiliario)
+- [Inglés para ingenieros](/blog/trabajo/ingles-para-ingenieros)
+- [Inglés para profesionales de la salud](/blog/trabajo/ingles-para-salud)
+- [Inglés para atención al cliente](/blog/trabajo/ingles-para-atencion-al-cliente)
+
+### Recursos y herramientas
+- [Mejores apps para aprender inglés para el trabajo](/blog/trabajo/mejores-apps-ingles-trabajo)
+- [IELTS vs TOEFL para el trabajo](/blog/trabajo/ielts-vs-toefl-trabajo)

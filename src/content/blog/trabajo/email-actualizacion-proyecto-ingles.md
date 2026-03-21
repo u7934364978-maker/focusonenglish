@@ -150,3 +150,7 @@ Puedes consultar más recursos en el hub [Emails Profesionales en Inglés](/hubs
 Este formato es fácil de leer, transparente sobre los problemas y concreto sobre los próximos pasos. Los stakeholders tienen todo lo que necesitan para tomar decisiones sin necesidad de pedir más información.
 
 La clave de un buen update no es solo reportar lo positivo: es dar a quien lo lee la visibilidad suficiente para confiar en que el proyecto está siendo gestionado. Esa confianza se construye con regularidad, honestidad y claridad, en ese orden.
+
+---
+
+Para dominar la estructura base de cualquier email profesional en inglés, consulta la [Guía de Emails Formales en Inglés: Estructura y Ejemplos](/blog/trabajo/email-formal-ingles-estructura).

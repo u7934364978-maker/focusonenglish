@@ -163,3 +163,21 @@ Después va tu nombre, cargo y datos de contacto en la firma.
 > carlos.herrera@focussolutions.com
 
 Este ejemplo sigue la estructura al completo: asunto informativo, saludo apropiado, apertura breve, cuerpo claro con petición concreta y cierre profesional. Toma este esquema como base y adáptalo a cada situación.
+
+---
+
+## Profundiza en los emails profesionales en inglés
+
+Con la estructura clara, estos artículos te ayudan a dominar cada tipo de email:
+
+- [Frases para emails profesionales en inglés](/blog/trabajo/frases-email-profesional-ingles)
+- [Plantillas de emails profesionales en inglés](/blog/trabajo/plantillas-emails-profesionales-ingles)
+- [Errores comunes en emails de trabajo en inglés](/blog/trabajo/ingles-emails-trabajo-errores-comunes)
+- [Netiqueta en emails profesionales en inglés](/blog/trabajo/netiqueta-email-ingles)
+- [Email de solicitud de empleo en inglés](/blog/trabajo/email-solicitud-empleo-ingles)
+- [Email de seguimiento en inglés (follow-up)](/blog/trabajo/follow-up-email-ingles)
+- [Email de confirmación de reunión en inglés](/blog/trabajo/email-confirmacion-reunion-ingles)
+- [Email de actualización de proyecto en inglés](/blog/trabajo/email-actualizacion-proyecto-ingles)
+- [Email de disculpa profesional en inglés](/blog/trabajo/email-disculpa-ingles)
+- [Email de queja o reclamación en inglés](/blog/trabajo/email-queja-reclamacion-ingles)
+- [Email de negociación en inglés](/blog/trabajo/email-negociacion-ingles)

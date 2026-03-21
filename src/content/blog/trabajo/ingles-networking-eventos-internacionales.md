@@ -86,3 +86,7 @@ En **Focus English**, sabemos que la "timidez lingüística" es el mayor freno p
 No dejes que tu nivel de inglés limite tu red de contactos. Cada persona que conoces es una oportunidad potencial de aprendizaje o negocio.
 
 [👉 ¡Empieza a construir tu red global! Inscríbete en nuestras clases de inglés profesional](/cuenta/registro?plan=work)
+
+---
+
+Para el vocabulario que necesitas en contextos de negocios internacionales, consulta [Vocabulario de Negocios en Inglés](/blog/trabajo/vocabulario-negocios-ingles-profesional). Y para técnicas de negociación en inglés, visita [Negociación en Inglés: Técnicas Clave](/blog/trabajo/negociacion-ingles-tecnicas-clave).

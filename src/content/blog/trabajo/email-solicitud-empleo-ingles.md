@@ -143,3 +143,7 @@ Comprueba siempre que los archivos están adjuntos antes de enviar. Un email de 
 > Lucía Herrera
 
 Este email es breve, específico, orientado a resultados y demuestra conocimiento real de la empresa. Es el tipo de candidatura que consigue que el reclutador abra el CV.
+
+---
+
+Para dominar la estructura base de cualquier email profesional en inglés, consulta la [Guía de Emails Formales en Inglés: Estructura y Ejemplos](/blog/trabajo/email-formal-ingles-estructura).

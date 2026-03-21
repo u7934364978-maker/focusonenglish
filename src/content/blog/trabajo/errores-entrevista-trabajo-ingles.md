@@ -101,3 +101,7 @@ En el hub [Entrevista de Trabajo en Inglés](/hubs/entrevista-de-trabajo-en-ingl
 **No testear el equipo antes.** Llegar 5 minutos tarde porque el audio no funcionaba es un error evitable que deja una primera impresión muy negativa.
 
 La mayor parte de los errores en entrevistas tienen una cosa en común: son evitables con preparación. No hace falta ser perfecto, pero sí preparado. Esa diferencia la nota cualquier entrevistador con experiencia.
+
+---
+
+Para una preparación completa de tu entrevista de trabajo en inglés, consulta la [Guía Completa para Preparar tu Entrevista de Trabajo en Inglés](/blog/trabajo/preparar-entrevista-trabajo-ingles).

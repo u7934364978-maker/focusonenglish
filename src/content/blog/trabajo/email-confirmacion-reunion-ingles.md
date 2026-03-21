@@ -152,3 +152,7 @@ Cuando no recibes respuesta:
 - *I wanted to check in on the meeting invitation I sent on [fecha]. Please let me know if you need a different time slot.*
 
 Gestionar reuniones con claridad en inglés evita malentendidos, ahorra tiempo y proyecta profesionalidad. Unas pocas fórmulas memorizadas cubren el 80% de las situaciones que te vas a encontrar.
+
+---
+
+Para dominar la estructura base de cualquier email profesional en inglés, consulta la [Guía de Emails Formales en Inglés: Estructura y Ejemplos](/blog/trabajo/email-formal-ingles-estructura).

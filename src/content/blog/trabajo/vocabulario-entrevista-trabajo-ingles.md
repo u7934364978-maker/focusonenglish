@@ -190,3 +190,7 @@ Puedes encontrar más recursos en el hub [Entrevista de Trabajo en Inglés](/hub
 **"Responsible for"** en exceso: en lugar de *"I was responsible for managing the team"*, di directamente *"I managed the team"*. Es más directo y más potente.
 
 El vocabulario no es magia, pero sí es la herramienta que convierte una respuesta correcta en una respuesta memorable. Practica estas palabras en tus respuestas STAR y verás la diferencia que hace en cómo te perciben.
+
+---
+
+Para una preparación completa de tu entrevista de trabajo en inglés, consulta la [Guía Completa para Preparar tu Entrevista de Trabajo en Inglés](/blog/trabajo/preparar-entrevista-trabajo-ingles).

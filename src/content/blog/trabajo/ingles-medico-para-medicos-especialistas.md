@@ -185,3 +185,7 @@ En situaciones difíciles, el protocolo SPIKES es el estándar en medicina angl�
 - **Preparación OET/IELTS para médicos:** Clases especializadas en Focus English
 
 [👉 Comunícate con excelencia en cualquier entorno médico internacional. Programa tu clase de inglés médico](/cuenta/registro?plan=work)
+
+---
+
+Para el marco completo del inglés en el sector sanitario, consulta [Inglés para Profesionales de la Salud](/blog/trabajo/ingles-para-salud).

@@ -204,3 +204,7 @@ Los grandes proyectos internacionales reúnen a profesionales de decenas de paí
 5. **Respeta las jerarquías:** En muchas culturas (asiática, árabe), criticar a alguien en público delante de sus superiores es gravemente ofensivo.
 
 [👉 Domina el inglés técnico y lidera proyectos internacionales con confianza. Únete a Focus English](/cuenta/registro?plan=work)
+
+---
+
+Para el contexto completo del inglés en el mundo de la ingeniería, consulta [Inglés para Ingenieros](/blog/trabajo/ingles-para-ingenieros).

@@ -250,3 +250,7 @@ El sistema jurídico anglosajón tiene conceptos sin equivalente directo en el d
 El Legal English es un campo especializado que requiere formación específica. En **Focus English** disponemos de recursos y formadores con experiencia en inglés jurídico para ayudarte a comunicarte con total precisión en contextos legales internacionales.
 
 [**👉 Accede a nuestros recursos de Business English Especializado**](/cuenta/registro?plan=work)
+
+---
+
+Para ampliar tu vocabulario profesional en inglés, consulta [Vocabulario de Negocios en Inglés](/blog/trabajo/vocabulario-negocios-ingles-profesional). Y para el contexto del inglés en el mundo laboral, visita [Inglés para el Trabajo](/blog/trabajo/ingles-para-trabajo).
