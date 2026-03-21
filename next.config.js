@@ -53,6 +53,9 @@ const nextConfig = {
       // Fix: URL rota de apps que apuntaba a página general del blog
       { source: '/blog/temas/aplicaciones-para-aprender-ingles-efectivas', destination: '/aplicaciones-para-aprender-ingles', permanent: true },
 
+      // Fix: metodos→examenes (artículo indexado por Google en categoría incorrecta)
+      { source: '/blog/metodos/mejores-certificados-ingles-2026', destination: '/blog/examenes/mejores-certificados-ingles-2026', permanent: true },
+
       // Fix: Redirects metodos→gramatica (commit 54bf002e movió 15 artículos, 9941f816 eliminó redirects sin añadir los inversos)
       { source: '/blog/metodos/condicionales-ingles-guia-completa', destination: '/blog/gramatica/condicionales-ingles-guia-completa', permanent: true },
       { source: '/blog/metodos/gramatica-ingles-b1-guia', destination: '/blog/gramatica/gramatica-ingles-b1-guia', permanent: true },
