@@ -1,6 +1,7 @@
 import { Navigation } from "@/components/sections/Navigation";
 import { CourseLaunchBanner } from "@/components/CourseLaunchBanner";
 import LevelTestInteractive from "@/components/test/LevelTestInteractive";
+import { createClient } from "@/lib/supabase/server";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -12,7 +13,19 @@ export const metadata: Metadata = {
   },
 };
 
-export default function DiagnosticoPage() {
+export default async function DiagnosticoPage() {
+  const supabase = await createClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
+  const authUser = user
+    ? {
+        email: user.email ?? "",
+        fullName: (user.user_metadata?.full_name as string | undefined) ?? "",
+      }
+    : null;
+
   return (
     <>
       <Navigation />
@@ -56,7 +69,7 @@ export default function DiagnosticoPage() {
             </div>
 
             {/* Test Component */}
-            <LevelTestInteractive />
+            <LevelTestInteractive authUser={authUser} />
           </div>
         </section>
 

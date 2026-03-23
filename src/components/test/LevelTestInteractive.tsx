@@ -6,7 +6,16 @@ import { CheckCircle2, XCircle, ArrowRight, ArrowLeft, BarChart3, Clock, Award }
 import Link from 'next/link';
 import { useUser } from '@/hooks/useAuth';
 
-export default function LevelTestInteractive() {
+type AuthUserSnapshot = {
+  email: string;
+  fullName: string;
+} | null;
+
+type LevelTestInteractiveProps = {
+  authUser?: AuthUserSnapshot;
+};
+
+export default function LevelTestInteractive({ authUser = null }: LevelTestInteractiveProps) {
   const { user } = useUser();
   const [hasStarted, setHasStarted] = useState(false);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
@@ -17,6 +26,9 @@ export default function LevelTestInteractive() {
   const [showLeadForm, setShowLeadForm] = useState(false);
   const [leadData, setLeadData] = useState({ firstName: '', email: '' });
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const isAuthenticated = Boolean(authUser || user);
+  const resolvedUserEmail = authUser?.email || user?.email || '';
+  const resolvedUserName = authUser?.fullName || (user?.user_metadata?.full_name as string | undefined) || '';
   const finalizeTest = async (leadOverride?: { firstName?: string; email?: string }) => {
     setIsSubmitting(true);
 
@@ -53,7 +65,7 @@ export default function LevelTestInteractive() {
       }
     }
 
-    if (user) {
+    if (isAuthenticated) {
       try {
         await fetch('/api/placement/complete', {
           method: 'POST',
@@ -89,10 +101,10 @@ export default function LevelTestInteractive() {
 
   const handleNext = () => {
     if (isLastQuestion) {
-      if (user) {
+      if (isAuthenticated) {
         void finalizeTest({
-          firstName: (user.user_metadata?.full_name as string | undefined) ?? '',
-          email: user.email ?? '',
+          firstName: resolvedUserName,
+          email: resolvedUserEmail,
         });
       } else {
         setShowLeadForm(true);
@@ -361,10 +373,10 @@ export default function LevelTestInteractive() {
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
-                href={user ? '/mi-panel' : result.courseUrl}
+                href={isAuthenticated ? '/mi-panel' : result.courseUrl}
                 className="flex-1 bg-gradient-to-r from-coral-600 to-peach-600 text-white px-8 py-4 rounded-xl font-bold text-center hover:from-coral-700 hover:to-peach-700 transition-all shadow-lg hover:shadow-xl"
               >
-                {user ? 'Ir a mi ruta personalizada →' : 'Ver Curso Recomendado →'}
+                {isAuthenticated ? 'Ir a mi ruta personalizada →' : 'Ver Curso Recomendado →'}
               </Link>
               <button
                 onClick={handleRestart}
