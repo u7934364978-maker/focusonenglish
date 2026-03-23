@@ -25,8 +25,11 @@ export function resolveEntitlements(params: {
   subscriptionStatus?: string | null;
   subscriptionPlan?: string | null;
 }): UserEntitlements {
-  const status = String(params.subscriptionStatus || "").toLowerCase();
-  const isPaid = status === "active" || status === "trialing";
+  const status = String(params.subscriptionStatus || "").toLowerCase().trim();
+  const isPaid =
+    status === "active" ||
+    status === "trialing" ||
+    status === "paid";
   const tier = getPlanTier(params.subscriptionPlan, isPaid);
 
   return {

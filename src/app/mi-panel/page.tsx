@@ -4,6 +4,7 @@ import { createClient } from '@/lib/supabase/server';
 import { Navigation } from '@/components/sections/Navigation';
 import LearningGoalSelector from '@/components/panel/LearningGoalSelector';
 import { resolveEntitlements } from '@/lib/access/entitlements';
+import { getUserProfileByAuthId } from '@/lib/access/user-profile';
 
 export const dynamic = 'force-dynamic';
 
@@ -57,11 +58,7 @@ export default async function MiPanelPage() {
     redirect('/cuenta/login?next=/mi-panel');
   }
 
-  const { data: profile } = await supabase
-    .from('user_profiles')
-    .select('*')
-    .eq('user_id', user.id)
-    .maybeSingle();
+  const profile = await getUserProfileByAuthId<any>(supabase, user.id, '*');
 
   const { data: lessonProgress } = await supabase
     .from('user_lesson_progress')

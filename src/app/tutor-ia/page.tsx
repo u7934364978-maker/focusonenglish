@@ -3,6 +3,7 @@ import dynamic from 'next/dynamic';
 import { redirect } from 'next/navigation';
 import { createClient } from '@/lib/supabase/server';
 import { resolveEntitlements } from '@/lib/access/entitlements';
+import { getUserProfileByAuthId } from '@/lib/access/user-profile';
 
 const TutorIAClient = dynamic(() => import('./TutorIAClient'));
 
@@ -21,11 +22,10 @@ export default async function TutorIAPage() {
     redirect('/cuenta/login?next=/tutor-ia');
   }
 
-  const { data: profile } = await supabase
-    .from('user_profiles')
-    .select('subscription_status, subscription_plan')
-    .eq('user_id', user.id)
-    .maybeSingle();
+  const profile = await getUserProfileByAuthId<{
+    subscription_status?: string;
+    subscription_plan?: string;
+  }>(supabase, user.id, 'subscription_status, subscription_plan');
 
   const entitlements = resolveEntitlements({
     subscriptionStatus: profile?.subscription_status,

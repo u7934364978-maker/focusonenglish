@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { createClient } from '@/lib/supabase/server';
 import { resolveEntitlements } from '@/lib/access/entitlements';
+import { getUserProfileByAuthId } from '@/lib/access/user-profile';
 
 export const maxDuration = 60;
 
@@ -36,11 +37,10 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
-    const { data: profile } = await supabase
-      .from('user_profiles')
-      .select('subscription_status, subscription_plan')
-      .eq('user_id', user.id)
-      .maybeSingle();
+    const profile = await getUserProfileByAuthId<{
+      subscription_status?: string;
+      subscription_plan?: string;
+    }>(supabase, user.id, 'subscription_status, subscription_plan');
 
     const entitlements = resolveEntitlements({
       subscriptionStatus: profile?.subscription_status,

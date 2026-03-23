@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import OpenAI from 'openai';
 import { createClient } from '@/lib/supabase/server';
 import { resolveEntitlements } from '@/lib/access/entitlements';
+import { getUserProfileByAuthId } from '@/lib/access/user-profile';
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY || '',
@@ -21,11 +22,10 @@ export async function POST(req: Request) {
       return NextResponse.json({ success: false, error: 'Unauthorized' }, { status: 401 });
     }
 
-    const { data: profile } = await supabase
-      .from('user_profiles')
-      .select('subscription_status, subscription_plan')
-      .eq('user_id', user.id)
-      .maybeSingle();
+    const profile = await getUserProfileByAuthId<{
+      subscription_status?: string;
+      subscription_plan?: string;
+    }>(supabase, user.id, 'subscription_status, subscription_plan');
 
     const entitlements = resolveEntitlements({
       subscriptionStatus: profile?.subscription_status,
