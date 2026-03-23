@@ -35,6 +35,11 @@ faqs:
 canonical: 'https://www.focus-on-english.com/blog/metodos/reglas-pronunciacion-ingles'
 ---
 
+## Fuentes
+
+- International Phonetic Association (IPA): https://www.internationalphoneticassociation.org/
+- Cambridge Dictionary (pronunciation): https://dictionary.cambridge.org/
+- British Council LearnEnglish (pronunciation): https://www.britishcouncil.org/learnenglish
 La pronunciación es la "cara" de tu inglés. Como profesor de Cambridge, he comprobado que muchos alumnos tienen una gramática excelente pero no logran comunicarse con eficacia debido a la falta de claridad fonética. El inglés no es un idioma fonético (no se lee como se escribe), pero sí es un idioma de **patrones**.
 
 En esta guía, desglosamos las **reglas de pronunciación en inglés** que te permitirán predecir el sonido de palabras desconocidas y mejorar tu *fluency* de forma inmediata.

@@ -96,3 +96,9 @@ La clave es usar conectores (*however, furthermore, despite*) y variedad de tiem
 ---
 
 Para dar el siguiente paso, consulta [Cambridge B2 First: Estrategias para Aprobar](/blog/examenes/cambridge-b2-first-estrategias-aprobar).
+
+## Fuentes
+
+- Cambridge English B1 Preliminary: https://www.cambridgeenglish.org/exams-and-tests/preliminary/
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages
+- British Council exams: https://www.britishcouncil.org/exam

@@ -261,3 +261,9 @@ Directamente, sí. Si esperas escuchar una K en *knife* o una W en *wrong*, tu c
 En general sí, aunque hay algunas diferencias menores. La H inicial de palabras como *herb* es muda en inglés americano (/ɜːrb/) pero se pronuncia en inglés británico (/hɜːb/). Son excepciones concretas, no un sistema diferente.
 
 ---
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

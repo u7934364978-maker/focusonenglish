@@ -123,3 +123,9 @@ En inglés coloquial, a veces verás *Go in the house*. Sin embargo, en un exame
 ---
 
 ¿Quieres practicar estas preposiciones con situaciones reales? En **Focus English** disponemos de simuladores interactivos que te retan a dar direcciones y describir trayectos usando estas reglas. [**Regístrate gratis y mejora tu fluidez.**](/cuenta/registro)
+
+## Fuentes
+
+- Cambridge Dictionary (prepositions): https://dictionary.cambridge.org/grammar/british-grammar/prepositions
+- British Council LearnEnglish (prepositions): https://learnenglish.britishcouncil.org/grammar
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

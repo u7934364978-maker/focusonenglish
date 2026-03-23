@@ -201,3 +201,9 @@ La estructura silábica es la misma, pero la pronunciación de las vocales puede
 Sí. El diccionario de Merriam-Webster marca los puntos de división silábica con puntos medios (por ejemplo, com·put·er). El Cambridge Dictionary también los incluye. Herramientas como HowManySyllables.com son útiles para verificar rápidamente. Y el IPA en cualquier diccionario de referencia te dice cuántas sílabas tiene una palabra con total precisión.
 
 ---
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

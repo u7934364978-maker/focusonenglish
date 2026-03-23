@@ -173,3 +173,9 @@ Saber responder bien a un ofrecimiento es tan importante como saber hacerlo:
 
 Para ver más usos de *will* en contextos comunicativos, consulta [Preguntas con Will en Inglés](/blog/gramatica/will-preguntas-ingles) y la guía completa de [Verbos Modales en Inglés](/hubs/verbos-modales-ingles).
  Y para el contexto completo de cuándo usar *will* — predicciones, promesas, futuro — consulta [Will para el Futuro en Inglés](/blog/gramatica/will-futuro-ingles).
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

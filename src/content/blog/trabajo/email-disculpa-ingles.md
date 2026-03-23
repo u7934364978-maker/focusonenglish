@@ -162,3 +162,9 @@ La disculpa bien hecha no solo resuelve el problema inmediato: refuerza la confi
 ---
 
 Para dominar la estructura base de cualquier email profesional en inglés, consulta la [Guía de Emails Formales en Inglés: Estructura y Ejemplos](/blog/trabajo/email-formal-ingles-estructura).
+
+## Fuentes
+
+- British Council LearnEnglish (writing): https://www.britishcouncil.org/learnenglish
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

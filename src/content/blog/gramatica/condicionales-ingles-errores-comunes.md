@@ -172,3 +172,9 @@ Encuentra y corrige los errores en estas frases:
 5. If he had **gone** to the interview, he would have got the job.
 
 Para practicar con más ejercicios y consolidar todos los tipos de condicionales, visita nuestra [guía completa de condicionales en inglés](/hubs/ejercicios-condicionales-ingles).
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- Merriam-Webster Dictionary: https://www.merriam-webster.com/

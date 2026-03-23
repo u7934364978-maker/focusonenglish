@@ -106,3 +106,9 @@ Las claves para superarlo son consistentes: gramática avanzada consolidada, agi
 - [Collocations inglés C1: las más importantes](/blog/examenes/collocations-ingles-c1)
 - [Reported Speech en exámenes Cambridge](/blog/examenes/reported-speech-cambridge-exams)
 - [Inversiones en inglés C1: estructuras avanzadas](/blog/examenes/inversiones-ingles-c1)
+
+## Fuentes
+
+- Cambridge English C1 Advanced: https://www.cambridgeenglish.org/exams-and-tests/advanced/
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages
+- Cambridge English scale: https://www.cambridgeenglish.org/exams-and-tests/cambridge-english-scale/

@@ -127,3 +127,9 @@ Para los demás aspectos del examen, el [hub C1 Advanced (CAE)](/hubs/cae-c1-adv
 ---
 
 Para la preparación completa del CAE, consulta [Cambridge C1 Advanced (CAE): Guía Completa](/blog/examenes/cambridge-c1-advanced-guia).
+
+## Fuentes
+
+- Cambridge English C1 Advanced: https://www.cambridgeenglish.org/exams-and-tests/advanced/
+- Cambridge speaking assessment scales: https://www.cambridgeenglish.org/images/167791-cambridge-english-speaking-assessment-scales.pdf
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

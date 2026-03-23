@@ -148,3 +148,9 @@ El slang solo funciona cuando surge de forma natural. Consejos:
 5. **Sé consciente de la edad** — usar slang Gen Z con una audiencia mayor puede parecer raro
 
 El **slang americano** es la forma en que el idioma vive y respira. Dominarlo no solo te hace más fluido — te conecta con la cultura, el humor y la realidad cotidiana de millones de hablantes de inglés en todo el mundo.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

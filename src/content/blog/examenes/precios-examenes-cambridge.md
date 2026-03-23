@@ -110,3 +110,9 @@ Un examen de Cambridge de nivel B2 o C1 cuesta más de 200€. No querrás tener
 ---
 
 Para comparar todos los certificados oficiales, consulta [Los Mejores Certificados de Inglés en 2026](/blog/examenes/mejores-certificados-ingles-2026).
+
+## Fuentes
+
+- Cambridge English (exam finder): https://www.cambridgeenglish.org/exams-and-tests/
+- British Council exams: https://www.britishcouncil.org/exam
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

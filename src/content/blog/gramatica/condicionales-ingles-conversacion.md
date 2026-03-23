@@ -158,3 +158,9 @@ Memoriza estas y tendrás el 80% de los usos conversacionales cubiertos:
 - *As if!* (¡Como si fuera así! → ironía o incredulidad).
 
 Para profundizar en la gramática completa de todos los tipos de condicionales, consulta nuestra [guía de ejercicios de condicionales en inglés](/hubs/ejercicios-condicionales-ingles).
+
+## Fuentes
+
+- Cambridge Dictionary (conditionals): https://dictionary.cambridge.org/grammar/british-grammar/conditionals-if
+- British Council LearnEnglish (conditionals): https://learnenglish.britishcouncil.org/grammar
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

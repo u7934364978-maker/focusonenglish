@@ -206,3 +206,9 @@ No existe una regla que funcione en el cien por cien de los casos: el inglés ti
 Algunos sufijos atraen el acento hacia ellos mismos o hacia la sílaba que los precede. Por ejemplo, *-tion* y *-sion* siempre llevan el acento en la sílaba anterior: *na-TION*, *edu-CA-tion*, *te-LE-vi-sion*. Los sufijos *-ic*, *-ical* e *-ity* también desplazan el acento: *PHO-to* pero *pho-TOG-ra-phy*; *E-co-no-my* pero *e-co-NOM-ic*.
 
 ---
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

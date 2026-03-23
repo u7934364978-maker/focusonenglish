@@ -308,3 +308,9 @@ Si llevas tiempo estudiando inglés sin ver el progreso que esperas en vocabular
 Empieza hoy: descarga Anki, importa un mazo de vocabulario básico en inglés y dedica 15 minutos diarios durante un mes. Los resultados te sorprenderán.
 
 Para ver cómo funciona Anki en detalle y sacarle el máximo partido, no te pierdas nuestra [guía completa de Anki para aprender inglés](/blog/metodos/anki-para-aprender-ingles-guia).
+
+## Fuentes
+
+- Ebbinghaus forgetting curve: https://en.wikipedia.org/wiki/Forgetting_curve
+- SuperMemo (spaced repetition background): https://www.supermemo.com/
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

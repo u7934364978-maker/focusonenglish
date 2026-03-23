@@ -130,3 +130,9 @@ Dominar los **passive reporting verbs** te permitirá expresarte con una sofisti
 [**Volver a la Guía Maestra de Reported Speech**](/blog/gramatica/guia-maestra-reported-speech)
 
 ---
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

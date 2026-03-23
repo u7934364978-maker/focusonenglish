@@ -158,3 +158,9 @@ Los videojuegos son una herramienta de aprendizaje infrautilizada. Estrategias p
 - *"I messed that up, my bad guys."* → La cagué, perdón tíos.
 
 El **inglés gamer** es una puerta de entrada natural al idioma para millones de personas. Si ya juegas en inglés, estás aprendiendo vocabulario real, gramática en contexto y comprensión oral sin darte cuenta. Con esta guía, lo único que tienes que hacer es ser consciente de lo que ya estás absorbiendo.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

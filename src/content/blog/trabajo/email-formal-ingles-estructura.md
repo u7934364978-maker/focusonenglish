@@ -181,3 +181,9 @@ Con la estructura clara, estos artículos te ayudan a dominar cada tipo de email
 - [Email de disculpa profesional en inglés](/blog/trabajo/email-disculpa-ingles)
 - [Email de queja o reclamación en inglés](/blog/trabajo/email-queja-reclamacion-ingles)
 - [Email de negociación en inglés](/blog/trabajo/email-negociacion-ingles)
+
+## Fuentes
+
+- British Council LearnEnglish (writing): https://www.britishcouncil.org/learnenglish
+- Cambridge Dictionary (formal writing usage): https://dictionary.cambridge.org/
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

@@ -19,14 +19,27 @@ category: metodos
 author: sara-mendez
 image: 'https://images.pexels.com/photos/5699475/pexels-photo-5699475.jpeg'
 faqs:
-  - question: 'Cómo Estudiar Inglés si no tienes Tiempo?'
-    answer: '"Me encantaría aprender inglés, pero no tengo tiempo". Esta es la excusa número uno que escuchamos en el mundo del aprendizaje de idiomas. Y es comprensible: entre el trabajo, la familia, el gimnasio y la necesidad de descanso, encontrar una hora libre para ir a una academia tradicional parece una...'
-  - question: '¿La Regla de los 15 Minutos y los Hábitos Atómicos?'
-    answer: 'La neurociencia demuestra que el cerebro humano tiene un límite de atención máxima. Intentar estudiar dos horas seguidas el domingo es ineficiente debido a la "Curva del Olvido"; para el martes, habrás olvidado el 70% de lo aprendido.'
-  - question: '¿Convierte tus Tiempos Muertos en Tiempos Activos?'
-    answer: 'Todos tenemos momentos de espera inevitables: en el transporte público, haciendo cola en el supermercado o esperando a que empiece una reunión. Pasamos una media de 45 minutos al día en estos "tiempos muertos", que suelen perderse en un scroll infinito en redes sociales.'
-  - question: '¿Inmersión Pasiva y el Método "Shadowing"?'
-    answer: 'Si puedes escuchar música o un podcast mientras realizas tareas mecánicas (conducir, limpiar la casa, caminar al trabajo), tienes tiempo para estudiar inglés.'
+  - question: '¿Cómo estudiar inglés si no tengo tiempo?'
+    answer: >-
+      La estrategia más realista es usar micro-sesiones diarias de 10-20
+      minutos y aprovechar tiempos muertos (transporte, esperas, tareas
+      repetitivas). La constancia diaria suele ser más efectiva que sesiones
+      largas e irregulares.
+  - question: '¿Sirven de verdad 15 minutos al día?'
+    answer: >-
+      Sí, si esos 15 minutos son activos (escuchar, repetir, producir frases
+      y repasar vocabulario). El aprendizaje espaciado mejora la retención a
+      largo plazo frente al estudio intensivo de fin de semana.
+  - question: '¿Qué hago los días en que estoy muy cansado?'
+    answer: >-
+      Reduce la exigencia, pero no rompas la cadena: 5 minutos de audio,
+      lectura corta o revisión de flashcards son suficientes para mantener el
+      hábito y evitar retrocesos.
+  - question: '¿Qué estudiar primero si tengo poco tiempo?'
+    answer: >-
+      Prioriza lo que más usas: vocabulario de tu sector, estructuras para
+      reuniones/mensajes y comprensión auditiva práctica. Mejor poco contenido
+      útil que mucho contenido genérico.
 
 canonical: 'https://www.focus-on-english.com/blog/metodos/como-estudiar-ingles-sin-tiempo'
 ---
@@ -73,7 +86,13 @@ Aprender inglés sin tiempo requiere que dejes de tratar el idioma como una asig
 ---
 
 
-Antiguamente, practicar el *speaking* requería quedar con un profesor o un compañero, lo que implicaba una logística complicada. La tecnología ha eliminado esa barrera.
+## 5. Speaking exprés: 5 minutos que sí cuentan
+
+Antiguamente, practicar el *speaking* requería coordinar horarios con otra persona. Hoy puedes hacerlo en micro-sesiones:
+
+*   **Mini-diálogo diario**: Graba 4-6 frases sobre tu día y escucha tu propia pronunciación.
+*   **Shadowing guiado**: Repite en voz alta frases cortas de un podcast.
+*   **Corrección inmediata**: Usa herramientas de feedback para detectar errores repetidos.
 
 
 ## La Rutina Bilingüe: Un Ejemplo Práctico
@@ -102,3 +121,9 @@ Incluso 5 minutos cuentan. Lo importante es no romper la cadena del hábito. Esc
 
 **3. ¿Cómo sé qué contenido estudiar si tengo poco tiempo?**
 Prioriza el vocabulario de tu sector profesional y las estructuras que más necesitas en tu día a día. Si trabajas en finanzas, enfócate en inglés financiero; si viajas, en situaciones cotidianas y viajes. La especialización hace que el tiempo que inviertes sea 100% útil.
+
+## Fuentes
+
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages
+- British Council LearnEnglish (study tips): https://www.britishcouncil.org/learnenglish
+- Ebbinghaus forgetting curve (overview): https://en.wikipedia.org/wiki/Forgetting_curve

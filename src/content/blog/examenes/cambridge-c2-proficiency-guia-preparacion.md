@@ -171,3 +171,9 @@ La diferencia: vocabulario preciso (*exacting a toll, engendered, estranged*), c
 ---
 
 Para comparar todos los certificados oficiales, consulta [Los Mejores Certificados de Inglés en 2026](/blog/examenes/mejores-certificados-ingles-2026).
+
+## Fuentes
+
+- Cambridge English C2 Proficiency: https://www.cambridgeenglish.org/exams-and-tests/proficiency/
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages
+- Cambridge English scale: https://www.cambridgeenglish.org/exams-and-tests/cambridge-english-scale/

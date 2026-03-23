@@ -20,14 +20,24 @@ category: metodos
 author: sara-mendez
 image: 'https://images.pexels.com/photos/5905711/pexels-photo-5905711.jpeg'
 faqs:
-  - question: '¿Inglés A1 vs A2: cuál es mejor?'
-    answer: 'Cuando empezamos a estudiar inglés, a menudo nos sentimos abrumados por las etiquetas de los niveles. El Marco Común Europeo de Referencia para las lenguas (MCER) es el estándar internacional que define la competencia lingüística, y divide el nivel básico en dos etapas críticas: A1 (Acceso) y A2...'
-  - question: '¿Nivel A1?'
-    answer: 'El nivel A1 es para quienes están teniendo su primer contacto serio con el idioma. En este punto, el inglés se siente como un rompecabezas de piezas sueltas. El objetivo principal es la supervivencia inmediata en situaciones muy predecibles.'
-  - question: '¿Nivel A2?'
-    answer: 'El nivel A2 es donde el inglés empieza a ser verdaderamente "usable". Aquí ya no solo sobrevives, sino que empiezas a compartir tu mundo y tu pasado. Es el nivel de la comunicación funcional.'
-  - question: '¿Cuáles son las estrategias clave?'
-    answer: 'Si sientes que te has estancado en las presentaciones básicas, aquí tienes el camino estratégico para avanzar:'
+  - question: '¿Cuál es la diferencia real entre A1 y A2?'
+    answer: >-
+      En A1 sobrevives con frases muy básicas (presentarte, pedir algo,
+      preguntar direcciones simples). En A2 empiezas a narrar pasado, hablar
+      de planes y conectar ideas con más naturalidad.
+  - question: '¿Cuánto se tarda en pasar de A1 a A2?'
+    answer: >-
+      De forma orientativa, entre 80 y 120 horas de estudio activo, según
+      tu constancia y exposición real al idioma.
+  - question: '¿Es suficiente A2 para viajar?'
+    answer: >-
+      Sí, para viajes turísticos suele ser suficiente: hoteles, restaurantes,
+      transporte y situaciones cotidianas. Para trabajo internacional, lo
+      recomendable es seguir hacia B1-B2.
+  - question: '¿Qué debo practicar para subir de A1 a A2?'
+    answer: >-
+      Prioriza pasado simple, conectores básicos, verbos frecuentes y escucha
+      diaria de contenido adaptado al nivel.
 
 canonical: 'https://www.focus-on-english.com/blog/metodos/ingles-a1-vs-a2'
 ---
@@ -95,3 +105,8 @@ Generalmente, es el uso del pasado. El inglés tiene muchos verbos irregulares y
 ---
 
 Para el mapa completo de niveles de inglés, consulta [Niveles de Inglés MCER: Guía Completa de A1 a C2](/blog/metodos/niveles-ingles-mcer-guia-completa).
+
+## Fuentes
+
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages
+- British Council LearnEnglish (niveles y práctica): https://www.britishcouncil.org/learnenglish

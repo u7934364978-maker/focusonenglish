@@ -170,3 +170,9 @@ Transforma estas frases a pasiva en futuro:
 → *Your proposal will be reviewed by the committee.*
 
 La pasiva en futuro es especialmente útil cuando escribes correos formales, informes o comunicados donde quieres centrar el foco en lo que ocurrirá, no en quién lo hará. Una vez que la incorporas a tu escritura, el nivel sube de forma visible.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

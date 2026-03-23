@@ -115,3 +115,9 @@ Sea cual sea tu elección, en **Focus English** hemos diseñado una ruta especí
 ---
 
 Para el contexto completo del inglés en el entorno laboral, consulta [Inglés para el Trabajo](/blog/trabajo/ingles-para-trabajo).
+
+## Fuentes
+
+- IELTS official: https://www.ielts.org/
+- TOEFL official (ETS): https://www.ets.org/toefl.html
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

@@ -240,3 +240,9 @@ Kind regards,
 ---
 
 Para comparar todos los certificados oficiales, consulta [Los Mejores Certificados de Inglés en 2026](/blog/examenes/mejores-certificados-ingles-2026).
+
+## Fuentes
+
+- British Council (Study UK): https://study-uk.britishcouncil.org/
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages
+- Cambridge Academic Content Dictionary: https://dictionary.cambridge.org/

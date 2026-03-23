@@ -224,3 +224,9 @@ Ver deportes en versión original es una estrategia de inmersión excelente porq
 4. Puedes seguir el contenido **aunque no entiendas todo** gracias a las imágenes
 
 **Recomendación**: Empieza viendo tu deporte favorito en inglés con subtítulos en inglés. En pocas semanas, el vocabulario específico de ese deporte se volverá automático.
+
+## Fuentes
+
+- BBC Sport: https://www.bbc.com/sport
+- ESPN: https://www.espn.com/
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

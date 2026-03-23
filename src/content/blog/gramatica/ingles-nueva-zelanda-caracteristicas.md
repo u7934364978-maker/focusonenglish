@@ -140,3 +140,9 @@ Para australianos con experiencia, sí, aunque con esfuerzo a veces. Para britan
 ### ¿Hay dialectos dentro del inglés de Nueva Zelanda?
 
 La variación dialectal dentro de Nueva Zelanda es relativamente menor comparada con otros países anglófonos. Hay diferencias entre el norte (Auckland) y el sur (Christchurch, Dunedin), y el inglés de comunidades maoríes tiene características propias (Māori English). Pero en general, el inglés neozelandés es bastante homogéneo en comparación con, por ejemplo, el inglés del Reino Unido o el de Estados Unidos.
+
+## Fuentes
+
+- New Zealand Government: https://www.govt.nz/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

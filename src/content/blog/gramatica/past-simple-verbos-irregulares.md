@@ -182,3 +182,9 @@ El participio de **get** es uno de los pocos casos donde hay diferencia entre el
   - *Have you gotten the results yet?*
 
 En los exámenes de Cambridge, *got* es la forma estándar. En inglés americano, ambas se usan dependiendo del significado.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

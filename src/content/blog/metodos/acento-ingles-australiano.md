@@ -188,3 +188,9 @@ Son más parecidos entre sí que cualquiera de los dos al americano o al britán
 ---
 
 Para una visión completa de todos los acentos del inglés y cómo entenderlos, consulta [Acentos del Inglés: Diferencias y Guía Completa](/blog/metodos/acentos-ingles-diferencias).
+
+## Fuentes
+
+- Australian Government: https://www.australia.gov.au/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

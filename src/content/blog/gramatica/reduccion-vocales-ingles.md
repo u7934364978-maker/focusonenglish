@@ -158,3 +158,9 @@ No. El schwa existe en muchas lenguas, incluidas algunas variedades del español
 Hay ligeras variaciones según la posición y los sonidos vecinos, pero para efectos prácticos de aprendizaje puedes tratarlo como un sonido unitario. La variante más frecuente es la schwa central /ə/, que es el sonido de la "a" en inglés en palabras como "about" o "sofa". En posición final, especialmente en inglés americano, a veces puede aparecer la variante rótica /ər/ (como en "butter", "teacher"), que es técnicamente distinta pero pertenece a la misma familia de vocales reducidas.
 
 ---
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

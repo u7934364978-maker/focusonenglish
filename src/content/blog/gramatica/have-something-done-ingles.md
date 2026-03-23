@@ -355,3 +355,9 @@ Reescribe usando *have something done*:
 7. **Confusión principal**: no es lo mismo que *I had repaired* (present perfect activo)
 
 Para profundizar en cómo los verbos modales interactúan con la pasiva — incluyendo *must be done*, *should be repaired*, *can be fixed* — el artículo [Verbos Modales en Inglés: Guía Completa](/blog/gramatica/verbos-modales-ingles-guia) es el siguiente paso lógico.
+
+## Fuentes
+
+- Cambridge Dictionary (causative have): https://dictionary.cambridge.org/grammar/british-grammar/have-something-done
+- British Council LearnEnglish (causatives): https://learnenglish.britishcouncil.org/grammar
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

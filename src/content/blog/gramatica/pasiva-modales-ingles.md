@@ -172,3 +172,9 @@ Dominar los modales en pasiva no solo mejora tu gramática, también te da acces
 ---
 
 Para el panorama completo de la voz pasiva — todos los tiempos, estructuras impersonales y usos académicos — consulta la [Guía Completa de la Voz Pasiva en Inglés](/blog/gramatica/voz-pasiva-ingles-guia).
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

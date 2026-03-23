@@ -245,3 +245,9 @@ Completa las oraciones con la forma correcta del verbo entre paréntesis en past
 8. had lived
 
 Si quieres más práctica con ejercicios corregidos, el artículo [Ejercicios de condicionales B1–B2](/blog/gramatica/ejercicios-condicionales-ingles-b1-b2) incluye muchas oraciones con past perfect en el tercer condicional.
+
+## Fuentes
+
+- Cambridge Dictionary (Past Perfect): https://dictionary.cambridge.org/grammar/british-grammar/past-perfect-simple-i-had-worked
+- British Council LearnEnglish (Past Perfect): https://learnenglish.britishcouncil.org/grammar
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

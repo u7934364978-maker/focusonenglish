@@ -133,3 +133,9 @@ Evita usar demasiados "suavizadores" como *"maybe"*, *"I think"* o *"I'm not sur
 ---
 
 ¿Quieres practicar estas frases en simulacros de reuniones y entrevistas de trabajo reales? En **Focus English** disponemos de cursos especializados en **Inglés Comercial** con feedback inmediato de nuestra IA. [**Empieza gratis hoy mismo.**](/cuenta/registro)
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages
+- British Council LearnEnglish (Business English): https://www.britishcouncil.org/learnenglish

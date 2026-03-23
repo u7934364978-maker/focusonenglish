@@ -204,3 +204,9 @@ El sistema es universal en el sentido de que usa los mismos símbolos, pero cada
 ### ¿Necesito el IPA para hablar bien?
 
 No es estrictamente necesario, pero ayuda mucho. Hay estudiantes que alcanzan un nivel C1 sin haber aprendido el IPA formalmente, simplemente por exposición extensiva al inglés hablado. Pero conocer el IPA acelera el proceso y da independencia: puedes aprender la pronunciación de cualquier palabra sin necesitar a nadie que te la enseñe, solo con un diccionario.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- Merriam-Webster Dictionary: https://www.merriam-webster.com/

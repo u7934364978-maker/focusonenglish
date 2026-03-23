@@ -208,3 +208,9 @@ Las apps de citas como Tinder, Bumble o Hinge tienen su propio vocabulario:
 ### En general
 - El consentimiento explícito y verbal es muy valorado en la cultura anglosajona contemporánea
 - *"Is this okay?"* / *"Are you comfortable?"* son preguntas normales y apreciadas
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

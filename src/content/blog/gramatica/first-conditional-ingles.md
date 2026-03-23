@@ -356,3 +356,9 @@ Para condiciones que afectan al presente o futuro desde el pasado, cambia al thi
 ---
 
 Para ver todos los condicionales en conjunto y cómo se relacionan entre sí, consulta nuestra [guía de ejercicios de condicionales en inglés](/blog/gramatica/ejercicios-condicionales-ingles-b1-b2).
+
+## Fuentes
+
+- Cambridge Dictionary (conditionals): https://dictionary.cambridge.org/grammar/british-grammar/conditionals-if
+- British Council LearnEnglish (conditionals): https://learnenglish.britishcouncil.org/grammar
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

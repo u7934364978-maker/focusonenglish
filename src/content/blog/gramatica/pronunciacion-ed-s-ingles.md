@@ -173,3 +173,9 @@ Algunas palabras admiten tanto la forma regular (learned) como la irregular (lea
 ### ¿Hay excepciones a estas reglas?
 
 Muy pocas, y casi todas son arcaicas o dialectales. La regla es sorprendentemente sistemática. La única zona de variación significativa es el habla muy rápida, donde las consonantes finales pueden asimilarse al sonido siguiente (por ejemplo, "stopped by" puede sonar como "stopp'd by" con la /d/ asimilándose a la /b/ de "by"). Pero eso es connected speech encima de estas reglas, no una excepción a ellas.
+
+## Fuentes
+
+- Cambridge Dictionary (pronunciation): https://dictionary.cambridge.org/
+- International Phonetic Association (IPA): https://www.internationalphoneticassociation.org/
+- British Council LearnEnglish (pronunciation): https://www.britishcouncil.org/learnenglish

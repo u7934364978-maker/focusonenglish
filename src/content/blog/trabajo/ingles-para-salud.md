@@ -139,3 +139,9 @@ En **Focus English**, entendemos que en medicina no hay margen para el error. Po
 
 - [Inglés médico para médicos especialistas](/blog/trabajo/ingles-medico-para-medicos-especialistas)
 - [Vocabulario de inglés médico para enfermería](/blog/trabajo/vocabulario-ingles-medico-enfermeria)
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

@@ -137,3 +137,9 @@ Este es el error nº 1. **Mustn't** significa prohibición (*No lo hagas*). **Do
 ---
 
 ¿Quieres dominar estos matices y sonar como un nativo? En **Focus English** utilizamos tecnología de reconocimiento de voz para ayudarte a pronunciar y usar los modales correctamente. [**Regístrate gratis y empieza ahora.**](/cuenta/registro)
+
+## Fuentes
+
+- Cambridge Dictionary (modals): https://dictionary.cambridge.org/grammar/british-grammar/modality-forms
+- British Council LearnEnglish (modals): https://learnenglish.britishcouncil.org/grammar
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

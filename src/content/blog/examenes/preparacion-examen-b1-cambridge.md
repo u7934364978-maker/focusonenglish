@@ -105,3 +105,9 @@ Aprobar el B1 no depende solo de tu nivel de inglés, sino de conocer el formato
 ---
 
 Para dar el siguiente paso, consulta [Cambridge B2 First: Estrategias para Aprobar](/blog/examenes/cambridge-b2-first-estrategias-aprobar).
+
+## Fuentes
+
+- Cambridge English B1 Preliminary: https://www.cambridgeenglish.org/exams-and-tests/preliminary/
+- Cambridge English scale: https://www.cambridgeenglish.org/exams-and-tests/cambridge-english-scale/
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

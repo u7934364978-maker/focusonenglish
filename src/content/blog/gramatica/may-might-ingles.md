@@ -188,3 +188,9 @@ En condicionales pasados (tercer condicional), solo *might have* o *could have* 
 ---
 
 Tanto *may* como *might* son señales de honestidad intelectual en inglés: reconoces que no tienes certeza absoluta, pero compartes tu valoración de la situación. Los hablantes que solo usan *will* y *is* para todo suenan seguros pero poco matizados. Los que dominan *may*, *might* y *could* suenan precisos y naturales.
+
+## Fuentes
+
+- Cambridge Dictionary (may/might): https://dictionary.cambridge.org/grammar/british-grammar/may
+- British Council LearnEnglish (modals): https://learnenglish.britishcouncil.org/grammar
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

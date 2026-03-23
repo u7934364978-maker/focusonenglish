@@ -183,3 +183,9 @@ En el IELTS y Cambridge, la pronunciación incluye el word stress como criterio.
 ### ¿Tengo que aprender el acento de cada palabra individualmente?
 
 En parte, sí, pero las reglas de sufijos y los patrones de sustantivo/verbo cubren una gran cantidad de casos. Con esas reglas internalizadas, solo necesitas memorizar individualmente las palabras que son excepciones o que no siguen ningún patrón claro.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

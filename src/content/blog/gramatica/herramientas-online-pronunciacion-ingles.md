@@ -155,3 +155,9 @@ La mayoría están entrenadas con inglés como segunda lengua y tienen modelos p
 ### ¿Tiene sentido pagar por herramientas premium para pronunciación?
 
 Depende de tu presupuesto y tu nivel de seriedad. Las versiones gratuitas de ELSA y Cambridge Dictionary son genuinamente útiles y suficientes para mucha gente. La versión premium de ELSA añade un plan de estudio estructurado que tiene valor si no sabes por dónde empezar. Italki y Speechling con feedback humano tienen un coste monetario pero también el mayor impacto comprobable en la pronunciación real. Si puedes permitirte una sesión semanal con un tutor especializado en pronunciación, es probablemente la mejor inversión.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

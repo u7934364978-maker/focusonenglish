@@ -145,3 +145,9 @@ No tiene sentido repetir de inmediato sin haber cambiado el enfoque de preparaci
 ---
 
 Para una preparación completa del IELTS desde B2, consulta [Cómo Preparar el IELTS desde B2](/blog/examenes/preparar-ielts-desde-b2).
+
+## Fuentes
+
+- IELTS official (band scores): https://www.ielts.org/
+- British Council IELTS: https://takeielts.britishcouncil.org/
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

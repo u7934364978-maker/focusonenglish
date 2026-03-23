@@ -215,3 +215,9 @@ Una vez dominado el uso básico de *will* para el futuro, estos artículos te ay
 - [Expresiones fijas con will en inglés](/blog/gramatica/will-expresiones-ingles)
 - [Should vs. Would: diferencias y usos](/blog/gramatica/should-would-ingles)
 - [Ejercicios de will en inglés con soluciones](/blog/gramatica/will-ejercicios-ingles)
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

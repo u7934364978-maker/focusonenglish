@@ -89,3 +89,9 @@ Para que estos ejercicios de Reported Speech realmente surtan efecto, te recomen
 ### ¿Buscas una práctica más dinámica?
 
 Aunque los PDFs son excelentes, a veces necesitas feedback instantáneo para progresar más rápido. Practicar el reported speech con ejercicios interactivos que se adaptan a tu nivel y comparar tus respuestas con explicaciones detalladas acelera mucho el proceso de aprendizaje.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

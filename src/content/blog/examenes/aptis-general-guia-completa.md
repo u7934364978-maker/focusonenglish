@@ -196,3 +196,9 @@ Si tu objetivo es una **oposición o habilitación docente en España**, el Apti
 - **Listening diario**: BBC Learning English, podcast *6 Minute English*
 - **Writing**: practica con las plantillas de correo formal e informe del Aptis
 - **Speaking**: grábate respondiendo a preguntas de descripción de imagen y debate de opinión
+
+## Fuentes
+
+- Aptis official (British Council): https://www.britishcouncil.org/exam/aptis
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages
+- Cambridge B2 First (comparativa): https://www.cambridgeenglish.org/exams-and-tests/first/

@@ -182,3 +182,9 @@ Sí, especialmente los tres últimos (/ɪə/, /eə/, /ʊə/). En General America
 ### ¿Los diptongos afectan al word stress?
 
 Una sílaba con diptongo tiende a ser pesada y a atraer el acento. Esto es especialmente relevante en palabras donde el acento puede cambiar según el número de sílabas pesadas. Pero en general, el word stress en inglés depende de muchos factores y no solo de si hay diptongos.
+
+## Fuentes
+
+- International Phonetic Association (IPA chart): https://www.internationalphoneticassociation.org/IPAcharts/IPA_chart_orig/IPA_charts_E.html
+- Cambridge Dictionary (pronunciation): https://dictionary.cambridge.org/
+- Oxford Learner's Dictionaries: https://www.oxfordlearnersdictionaries.com/

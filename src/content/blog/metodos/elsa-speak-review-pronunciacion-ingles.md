@@ -238,3 +238,9 @@ Si la pronunciación es tu principal punto débil y puedes permitirte el plan an
 ---
 
 Para una comparativa completa de apps, consulta [La Mejor App para Aprender Inglés en 2026](/blog/metodos/mejor-app-aprender-ingles).
+
+## Fuentes
+
+- ELSA Speak official: https://elsaspeak.com/
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages
+- British Council LearnEnglish (pronunciation): https://www.britishcouncil.org/learnenglish

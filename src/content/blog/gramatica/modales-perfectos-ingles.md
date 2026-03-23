@@ -213,3 +213,9 @@ De ahí que en inglés informal escrito a veces aparezca *must've*, *could've*, 
 ---
 
 Dominar los modales perfectos te permite hablar del pasado con una precisión que el español a menudo no tiene de forma tan sistemática. Son una de las estructuras más valoradas en exámenes de Cambridge y también en la comunicación profesional en inglés.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

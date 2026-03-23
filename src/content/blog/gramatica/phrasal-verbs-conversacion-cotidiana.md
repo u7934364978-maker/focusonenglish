@@ -212,3 +212,9 @@ Estos los escucharás en series y entre amigos, pero no los uses en un email for
 
 **Crack up**: reírse muchísimo
 - *She cracks me up every time.*
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

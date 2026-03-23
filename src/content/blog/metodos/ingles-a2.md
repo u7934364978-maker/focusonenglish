@@ -30,7 +30,7 @@ faqs:
       forma sencilla.
   - question: ¿Es suficiente el nivel A2 para viajar?
     answer: >-
-      Sí, el nivel A2 te da the autonomía necesaria para desenvolverte en
+      Sí, el nivel A2 te da la autonomía necesaria para desenvolverte en
       situaciones turísticas básicas como hoteles, restaurantes y transporte.
   - question: ¿Cuánto se tarda en pasar de A1 a A2?
     answer: >-
@@ -50,9 +50,9 @@ Si ya conoces los saludos básicos y puedes decir tu nombre y profesión, el **N
 
 Al terminar este curso, habrás alcanzado los siguientes hitos comunicativos según el Marco Común Europeo de Referencia (MCER):
 
-*   **Narrar en el Pasado**: Aprenderás a contar qué hiciste el fin de semana, describir tus últimas vacaciones o relatar eventos de tu infancia. Domina los tiempos verbales en nuestro **[hub de gramática](/blog/metodos)**.
+*   **Narrar en el Pasado**: Aprenderás a contar qué hiciste el fin de semana, describir tus últimas vacaciones o relatar eventos de tu infancia. Domina los tiempos verbales en nuestra **[guía de gramática](/blog/gramatica/gramatica-ingles-b1-guia)**.
 *   **Expresar Planes y Ambiciones**: Serás capaz de hablar de tus próximos proyectos, citas programadas o lo que te gustaría hacer en el futuro con seguridad.
-*   **Vocabulario del Día a Día**: Amplía tu léxico sobre el trabajo, la familia, las compras y el entorno local en nuestro **[hub de vocabulario](/blog/metodos)**.
+*   **Vocabulario del Día a Día**: Amplía tu léxico sobre trabajo, familia, compras y entorno local con nuestra guía de **[vocabulario en inglés](/blog/metodos/vocabulario-ingles-redes-sociales)**.
 *   **Autonomía en el Extranjero**: Tendrás la capacidad de resolver situaciones habituales en tiendas, bancos, oficinas de correos y transporte público.
 *   **Descripción de Entornos**: Podrás describir tu casa, tu barrio y tu lugar de trabajo con detalle, comparando diferentes opciones.
 
@@ -104,3 +104,8 @@ El salto del nivel elemental al intermedio requiere constancia y una estrategia 
 ---
 
 Para el mapa completo de niveles de inglés, consulta [Niveles de Inglés MCER: Guía Completa de A1 a C2](/blog/metodos/niveles-ingles-mcer-guia-completa).
+
+## Fuentes
+
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish

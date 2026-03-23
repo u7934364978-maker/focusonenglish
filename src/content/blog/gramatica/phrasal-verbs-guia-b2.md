@@ -215,3 +215,9 @@ Existen miles, pero para un nivel B2, dominar entre **150 y 200** de los más co
 En el nivel B2, se recomienda usar phrasal verbs más formales en el Writing (*carry out*, *point out*, *look into*) y dejar los más coloquiales (*hang out*, *chill out*) para el Speaking o el Informal Letter/Email.
 
 ### ¿Cómo puedo practicar estos verbos gratis?
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

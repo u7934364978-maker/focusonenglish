@@ -141,3 +141,9 @@ Es un código de vestimenta intermedio. No es un traje formal, pero tampoco son 
 ---
 
 Para seguir practicando vocabulario de ropa en contexto, consulta nuestra [guía de inglés para viajar](/blog/viajes/ingles-para-viajar) con situaciones reales de compras en el extranjero.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

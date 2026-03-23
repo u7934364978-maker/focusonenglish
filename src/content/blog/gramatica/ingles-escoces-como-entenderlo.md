@@ -135,3 +135,9 @@ No. La mayoría de los escoceses en contextos formales e internacionales hablan 
 ### ¿Los escoceses se molestan si no les entienes?
 
 En general, no. Los escoceses están acostumbrados a interactuar con personas de fuera y muchos moderan su acento de forma natural cuando están con interlocutores externos. La actitud hacia los no angloparlantes en Escocia es generalmente amable y comprensiva.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

@@ -293,3 +293,9 @@ La diferencia entre los que aprenden inglés y los que llevan años intentándol
 ---
 
 Para comparar cursos con apps y otros métodos, consulta [La Mejor App para Aprender Inglés en 2026](/blog/metodos/mejor-app-aprender-ingles).
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

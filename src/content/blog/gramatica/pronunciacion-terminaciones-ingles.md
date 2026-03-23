@@ -206,3 +206,9 @@ Depende de qué terminación y en qué contexto. Pronunciar la -ed como una síl
 Sí, las reglas de pronunciación de -ed y de -s/-es son idénticas en ambas variedades. Las diferencias entre el inglés americano y el británico afectan a otros aspectos (la R, algunas vocales, ciertos préstamos léxicos) pero no a estas terminaciones gramaticales.
 
 ---
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

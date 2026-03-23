@@ -185,3 +185,9 @@ El rephrasing con reported speech es una de las partes más difíciles del Use o
 4. **Revisa errores** — la gramática se interioriza corrigiendo, no memorizando
 
 La gramática no se aprende de golpe: se construye capa a capa. Cada estructura que dominas libera capacidad mental para concentrarte en el vocabulario y la fluidez.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

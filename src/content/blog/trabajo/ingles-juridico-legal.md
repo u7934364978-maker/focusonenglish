@@ -256,3 +256,9 @@ El Legal English es un campo especializado que requiere formación específica. 
 ---
 
 Para ampliar tu vocabulario profesional en inglés, consulta [Vocabulario de Negocios en Inglés](/blog/trabajo/vocabulario-negocios-ingles-profesional). Y para el contexto del inglés en el mundo laboral, visita [Inglés para el Trabajo](/blog/trabajo/ingles-para-trabajo).
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

@@ -170,3 +170,9 @@ No puedes predecir el tema exacto, pero sí puedes tener argumentos y vocabulari
 ---
 
 Para una preparación completa del IELTS desde B2, consulta [Cómo Preparar el IELTS desde B2](/blog/examenes/preparar-ielts-desde-b2).
+
+## Fuentes
+
+- IELTS official (Writing Task 2): https://www.ielts.org/
+- British Council IELTS prep: https://takeielts.britishcouncil.org/
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

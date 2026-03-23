@@ -180,3 +180,9 @@ La razón de ser del backshift no es una regla gramatical arbitraria — es lóg
 Si lo que se dijo sigue siendo relevante o verdadero ahora, el presente es válido. Si lo que se dijo es claramente pasado y no conectado con el presente, el pasado es más apropiado.
 
 Los hablantes nativos toman estas decisiones de forma intuitiva. Lo que hace un buen estudiante avanzado no es memorizar "siempre backshift", sino entender cuándo el cambio aporta precisión y cuándo es innecesario.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

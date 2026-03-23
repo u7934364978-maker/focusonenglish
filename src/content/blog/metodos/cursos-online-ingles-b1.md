@@ -8,7 +8,7 @@ description: >-
   Prepara tu examen B1 de inglés con nuestro curso online. Temario completo de
   gramática, vocabulario y simulacros de examen para Cambridge, Aptis y Oxford
   con IA.
-readTime: 3 min
+readTime: 6 min
 keywords:
   - cursos online ingles b1
   - preparacion examen b1 ingles
@@ -49,8 +49,7 @@ excerpt: >
 
 ## Cursos Online de Inglés B1: Domina el Nivel Intermedio
 
-
-Si buscas **cursos online de inglés B1** con **ejercicios de inglés B1** prácticos y resultados garantizados, has llegado al lugar indicado.
+Si buscas **cursos online de inglés B1** con una ruta clara, la clave es combinar gramática funcional, práctica activa y simulacros de examen. El nivel B1 no consiste solo en "saber reglas": consiste en comunicarte con autonomía en situaciones reales.
 
 ## 1. Gramática B1: Las Estructuras que te darán Libertad
 
@@ -65,6 +64,26 @@ El **nivel intermedio de inglés** requiere el dominio de estructuras que permit
 Muchos estudiantes buscan los **cursos online de inglés B1** para obtener una certificación. Estas son las estrategias para los exámenes más populares:
 *   **Cambridge B1 Preliminary (PET)**: El foco está en el *Reading* y el *Writing* de tipo informal (emails) y descriptivo (artículos). Las transformaciones gramaticales son clave en este examen.
 
+## 3. Vocabulario B1 para trabajo y vida diaria
+
+En B1 necesitas vocabulario útil, no solo listas largas. Prioriza:
+
+*   **Trabajo**: reuniones, tareas, fechas límite, feedback.
+*   **Viajes**: transporte, reservas, incidencias y direcciones.
+*   **Rutina**: salud, compras, planes y ocio.
+
+Para reforzar este bloque, revisa [Vocabulario B1 para el trabajo](/blog/trabajo/vocabulario-b1-ingles-trabajo).
+
+## 4. Plan semanal recomendado (45-60 min/día)
+
+Una estructura simple que suele funcionar:
+
+1.  **Lunes y martes**: gramática + ejercicios cortos.
+2.  **Miércoles**: listening y shadowing.
+3.  **Jueves**: writing (email o texto breve).
+4.  **Viernes**: speaking guiado y revisión de errores.
+5.  **Fin de semana**: simulacro corto o repaso de vocabulario.
+
 ## 5. Hoja de Ruta de 3 Meses para Alcanzar el Nivel B2 (Avanzado)
 
 Si tu meta final es el nivel B2, el B1 es la base donde debes construir cimientos sólidos:
@@ -75,3 +94,9 @@ Si tu meta final es el nivel B2, el B1 es la base donde debes construir cimiento
 ---
 
 Para el mapa completo de niveles de inglés, consulta [Niveles de Inglés MCER: Guía Completa de A1 a C2](/blog/metodos/niveles-ingles-mcer-guia-completa).
+
+## Fuentes
+
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages
+- Cambridge B1 Preliminary: https://www.cambridgeenglish.org/exams-and-tests/preliminary/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish

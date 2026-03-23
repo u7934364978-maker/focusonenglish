@@ -154,3 +154,9 @@ El past continuous es esencial para crear atmósfera en textos narrativos. Compa
 *She arrived at the party. Everyone was talking and laughing. Music was playing softly in the background. A man was standing near the door — he walked towards her the moment she came in.*
 
 La segunda versión crea un escenario más rico. El past continuous pinta el ambiente; el past simple avanza la acción.
+
+## Fuentes
+
+- Cambridge Dictionary (Past continuous and simple): https://dictionary.cambridge.org/grammar/british-grammar/past-continuous-i-was-working
+- British Council LearnEnglish (past tenses): https://learnenglish.britishcouncil.org/grammar
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

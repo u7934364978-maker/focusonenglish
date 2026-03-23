@@ -129,3 +129,9 @@ Aprender el inglés de los libros de texto es el primer paso, pero dominar el **
 ## Conclusión
 
 El lenguaje es un organismo vivo que cambia cada segundo. Términos como el **tbt significado** abrieron la puerta a una nueva forma de comunicarnos que hoy es más compleja y rica que nunca. Dominar el slang digital no solo te ayuda a entender las redes sociales, sino a conectar de verdad con la cultura del idioma.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

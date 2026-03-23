@@ -160,3 +160,9 @@ Si estás preparando un Cambridge, IELTS o APTIS, el zero conditional aparece pr
 El evaluador no está buscando que uses el zero conditional de forma forzada. Lo que valora es que lo integres naturalmente donde corresponde.
 
 Para profundizar en todos los tipos de condicionales y ver cómo se relacionan entre sí, puedes consultar nuestra [guía completa de condicionales en inglés](/hubs/ejercicios-condicionales-ingles).
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

@@ -61,7 +61,7 @@ Incluye nombre completo, ciudad (no dirección completa), teléfono con prefijo 
 ```
 Jane García
 Madrid, Spain | +34 612 345 678
-jane.garcia@email.com | linkedin.com/in/jane-garcia
+jane.garcia@email.com | /in/jane-garcia
 ```
 
 ### 2. Professional Summary o Objective (Resumen Profesional)
@@ -192,3 +192,9 @@ Tu CV en inglés es el primer paso. El siguiente es la entrevista. En **Focus En
 ---
 
 Para una preparación completa de tu entrevista de trabajo en inglés, consulta la [Guía Completa para Preparar tu Entrevista de Trabajo en Inglés](/blog/trabajo/preparar-entrevista-trabajo-ingles).
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

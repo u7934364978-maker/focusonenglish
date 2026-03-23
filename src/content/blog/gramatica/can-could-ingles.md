@@ -208,3 +208,9 @@ Es más suave que **should** — ofreces una posibilidad, no das un consejo.
 ---
 
 La clave para dominar **can** y **could** no es memorizar reglas, sino escucharlos en contexto real: series, podcasts, conversaciones. Con el tiempo, empiezas a sentir cuál encaja en cada situación sin tener que pensarlo demasiado.
+
+## Fuentes
+
+- Cambridge Dictionary (can/could): https://dictionary.cambridge.org/grammar/british-grammar/can-could
+- British Council LearnEnglish (modals): https://learnenglish.britishcouncil.org/grammar
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

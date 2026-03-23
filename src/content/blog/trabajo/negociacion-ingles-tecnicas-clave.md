@@ -114,3 +114,9 @@ Este paso no solo demuestra profesionalismo, sino que también sirve como una pr
 ---
 
 Para el vocabulario esencial en contextos de negocio, consulta [Vocabulario de Negocios en Inglés](/blog/trabajo/vocabulario-negocios-ingles-profesional). Y para el marco completo del inglés profesional, visita [Inglés para el Trabajo](/blog/trabajo/ingles-para-trabajo).
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

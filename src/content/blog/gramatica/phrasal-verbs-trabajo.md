@@ -224,3 +224,9 @@ Técnicamente sí, pero sonarás rígido y artificial, especialmente en conversa
 Los **phrasal verbs de trabajo** son una inversión con retorno garantizado. Dominar los 60 de esta lista te permitirá desenvolverte con seguridad en reuniones, escribir emails más naturales y ganar confianza en negociaciones. La clave está en practicarlos en contexto real: el siguiente email que escribas en inglés, intenta incluir al menos uno de los que has aprendido hoy.
 
 En **Focus English**, combinamos gramática con uso profesional real. Explora nuestras otras guías de phrasal verbs para seguir construyendo tu vocabulario laboral en inglés.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

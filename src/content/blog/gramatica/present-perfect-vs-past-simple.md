@@ -136,3 +136,9 @@ Copia o imprime esta tabla para repasar antes de tus exámenes.
 
 Dominar la **difference between present perfect and past simple** requiere práctica constante. Recuerda: si el tiempo está "muerto" (terminado), usa Past Simple. Si el tiempo está "vivo" (sigue teniendo efecto), usa Present Perfect.
 
+## Fuentes
+
+- Cambridge Dictionary (Present Perfect vs Past Simple): https://dictionary.cambridge.org/grammar/british-grammar/present-perfect-simple-or-past-simple
+- British Council LearnEnglish (past and present perfect): https://learnenglish.britishcouncil.org/grammar
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages
+

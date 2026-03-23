@@ -335,3 +335,9 @@ El Second Conditional con "If I were you...":
 *   *If I were in your position, I wouldn't accept that offer.*
 
 ---
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- Merriam-Webster Dictionary: https://www.merriam-webster.com/

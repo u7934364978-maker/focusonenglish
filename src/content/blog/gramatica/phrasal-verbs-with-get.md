@@ -207,3 +207,9 @@ Get away es escaparse. Get away with es salirse con la suya haciendo algo que no
 **5. Olvidar el pronombre en el lugar correcto**
 Con phrasal verbs separables de GET, el pronombre va en medio:
 ✓ *Get it out.* ❌ *Get out it.*
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

@@ -178,3 +178,9 @@ En inglés americano es más común *Should I...?* o *Do you want me to...?*
 | Indirecta | ...when/if + suj + will | *Do you know when he will arrive?* |
 
 Para el contexto completo de los auxiliares modales, consulta la guía [Verbos Modales en Inglés](/hubs/verbos-modales-ingles).
+
+## Fuentes
+
+- Cambridge Dictionary (questions with will): https://dictionary.cambridge.org/grammar/british-grammar/questions-forms
+- British Council LearnEnglish (future forms): https://learnenglish.britishcouncil.org/grammar
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

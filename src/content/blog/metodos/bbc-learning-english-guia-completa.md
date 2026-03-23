@@ -300,3 +300,9 @@ La inversión que requiere no es dinero —es ninguno— sino atención genuina.
 ---
 
 Para una comparativa completa de apps, consulta [La Mejor App para Aprender Inglés en 2026](/blog/metodos/mejor-app-aprender-ingles).
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

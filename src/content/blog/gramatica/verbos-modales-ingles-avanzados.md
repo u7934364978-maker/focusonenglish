@@ -162,3 +162,9 @@ Reescribe estas frases usando los modales indicados:
 Los **verbos modales avanzados** son el corazón de la gramática inglesa de alto nivel. La clave no está solo en conocer las reglas, sino en internalizar los matices: cuándo usar *might* en lugar de *may*, por qué *needn't have* y *didn't need to* no son equivalentes, y cómo el **would** de distanciamiento eleva tu inglés escrito. Practica estos patrones en contextos reales y verás cómo tu nivel avanza de forma natural.
 
 ¿Preparas el Cambridge Advanced? En nuestra [guía de preparación CAE](/hubs/cambridge-english-2026) encontrarás estructura del examen, estrategias y recursos específicos para cada parte.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

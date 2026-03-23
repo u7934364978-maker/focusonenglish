@@ -21,8 +21,7 @@ export const authors: Record<string, Author> = {
     image: "https://images.pexels.com/photos/3184325/pexels-photo-3184325.jpeg",
     expertise: ["Metodologías de aprendizaje", "Inglés para Negocios", "Aprendizaje con IA", "Inglés B2-C1"],
     social: {
-      linkedin: "https://linkedin.com/company/focusonenglish",
-      instagram: "https://instagram.com/focusonenglish"
+      // LinkedIn/Instagram desactivados por solicitud del sitio.
     }
   },
   "david-torres": {
@@ -33,7 +32,7 @@ export const authors: Record<string, Author> = {
     image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg",
     expertise: ["Gramática Avanzada", "Cambridge B2/C1/C2", "Reported Speech", "Exámenes Oficiales"],
     social: {
-      linkedin: "https://linkedin.com/company/focusonenglish"
+      // LinkedIn desactivado por solicitud del sitio.
     }
   },
   "focus-english-team": {
@@ -44,7 +43,7 @@ export const authors: Record<string, Author> = {
     image: "/logo.png",
     expertise: ["Gramática Inglesa", "Certificaciones Oficiales", "Inglés para Viajar"],
     social: {
-      instagram: "https://instagram.com/focusonenglish"
+      // Instagram desactivado por solicitud del sitio.
     }
   }
 };

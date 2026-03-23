@@ -133,3 +133,9 @@ Considerablemente. El "General American" es una construcción descriptiva más q
 ### ¿Puedo mejorar mis vocales sin un profesor?
 
 Sí, pero requiere herramientas adecuadas. Las apps con análisis de voz (ELSA Speak), el uso sistemático de pares mínimos, el shadowing con material auténtico y la escucha intensiva pueden llevar a mejoras significativas en la pronunciación vocálica sin necesidad de un profesor. La ventaja de un buen profesor de pronunciación es que puede identificar el patrón de tu error específico (¿estás fallando en la calidad de la vocal, en la duración, en la tensión muscular?) y darte ejercicios adaptados.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

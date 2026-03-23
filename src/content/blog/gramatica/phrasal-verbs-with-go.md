@@ -221,3 +221,9 @@ Para alarmas, se usan indistintamente. Para explosiones, también. Para salir de
 **Go through vs go over**
 
 Go through es más exhaustivo y también se usa para experiencias difíciles. Go over es un repaso. No son intercambiables en todos los contextos.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

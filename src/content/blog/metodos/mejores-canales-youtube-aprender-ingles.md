@@ -263,3 +263,9 @@ YouTube ofrece miles de horas de contenido gratuito para aprender inglés a cual
 Para principiantes, empieza con **BBC Learning English** y **EnglishClass101**. Para intermedios, **English with Lucy**, **mmmEnglish** y **JamieSharpe**. Para avanzados, **TED Talks**, **Crash Course** y creadores nativos sobre los temas que te interesan.
 
 Y recuerda: YouTube es una herramienta de input (lo que entra en tu cabeza). Para que el idioma salga — hablar con fluidez — necesitas complementarlo con práctica activa de speaking. Te explicamos cómo integrar todo en una rutina coherente en nuestra guía sobre [cómo combinar apps de inglés según tu nivel](/blog/metodos/rutina-apps-ingles-como-combinarlas).
+
+## Fuentes
+
+- YouTube Help (captions/subtitles): https://support.google.com/youtube/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

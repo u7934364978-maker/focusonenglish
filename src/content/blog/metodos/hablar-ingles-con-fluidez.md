@@ -202,3 +202,9 @@ Para pasar de un nivel B1 a hablar con **fluidez avanzada** (C1), la estimación
 La clave no es el tiempo que dedicas, sino la **consistencia y el tipo de práctica**. 20 minutos diarios de práctica oral activa son más valiosos que 3 horas de estudio pasivo los fines de semana.
 
 La **fluidez en inglés avanzado** no es un talento especial — es el resultado predecible de práctica oral sistemática y exposición masiva al idioma real.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

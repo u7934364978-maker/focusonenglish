@@ -176,3 +176,9 @@ No directamente, porque es siempre una sílaba átona. Lo que cambia es el ritmo
 ### ¿Cuánto tiempo lleva automatizarlo?
 
 Varía mucho según la persona y la cantidad de exposición al inglés hablado real. Con práctica activa —shadowing, transcripciones, listening atento— muchos estudiantes notan cambios en pocas semanas. Automatizarlo completamente, es decir, producirlo de forma espontánea sin pensar, lleva meses. Es un proceso gradual.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

@@ -208,3 +208,9 @@ Cuando reportas lo que alguien dijo, tienes opciones:
 Estos verbos son los que marcan la diferencia entre un nivel B1 y un B2+ — aportan el matiz que *say* y *tell* no pueden dar solos.
 
 La clave para no confundir *say* y *tell* es muy simple: si mencionas a quién le dices algo, usa *tell*. Si no lo mencionas, usa *say*. Esa regla cubre el 90% de los casos.
+
+## Fuentes
+
+- Cambridge Dictionary (say/tell): https://dictionary.cambridge.org/grammar/british-grammar/say-or-tell
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

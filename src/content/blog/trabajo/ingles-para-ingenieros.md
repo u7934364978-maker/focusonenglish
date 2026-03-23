@@ -134,3 +134,9 @@ En **Focus English**, entendemos que tu tiempo es limitado y tus necesidades muy
 
 - [Inglés para ingenieros de software](/blog/trabajo/ingles-para-ingenieros-software)
 - [Inglés técnico para ingeniería civil e industrial](/blog/trabajo/ingles-tecnico-ingenieria-civil-industrial)
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

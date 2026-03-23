@@ -198,3 +198,9 @@ Ese matiz de *would* — más suave, más considerado, más hipotético — es l
 ---
 
 Para entender el contexto completo de *will* — sus usos para el futuro, promesas y predicciones — consulta la guía [Will para el Futuro en Inglés](/blog/gramatica/will-futuro-ingles). Y para practicar ambos modales con ejercicios, visita [Ejercicios de Will en Inglés](/blog/gramatica/will-ejercicios-ingles).
+
+## Fuentes
+
+- Cambridge Dictionary (will and would): https://dictionary.cambridge.org/grammar/british-grammar/will-or-would
+- British Council LearnEnglish (modals): https://learnenglish.britishcouncil.org/grammar
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

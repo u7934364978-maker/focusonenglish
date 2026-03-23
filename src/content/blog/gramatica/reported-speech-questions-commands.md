@@ -131,3 +131,9 @@ El éxito en el **Reported Speech** de preguntas y órdenes radica en la prácti
 
 ---
 ¿Quieres poner a prueba lo aprendido? En [**Focus English**](/cuenta/registro) tenemos cientos de ejercicios interactivos y PDFs descargables con soluciones para que domines el estilo indirecto de una vez por todas. ¡Únete a nuestra comunidad!
+
+## Fuentes
+
+- Cambridge Dictionary (reported speech): https://dictionary.cambridge.org/grammar/british-grammar/reported-speech
+- British Council LearnEnglish (reported speech): https://learnenglish.britishcouncil.org/grammar
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

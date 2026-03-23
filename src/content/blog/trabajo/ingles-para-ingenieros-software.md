@@ -182,3 +182,9 @@ Una de las habilidades más valoradas en ingenieros senior es la capacidad de tr
 ---
 
 Para el marco completo del inglés técnico en ingeniería, consulta [Inglés para Ingenieros](/blog/trabajo/ingles-para-ingenieros).
+
+## Fuentes
+
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages
+- GitHub Docs (technical writing): https://docs.github.com/
+- Cambridge Dictionary: https://dictionary.cambridge.org/

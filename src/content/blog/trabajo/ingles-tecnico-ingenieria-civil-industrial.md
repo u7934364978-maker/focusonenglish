@@ -210,3 +210,9 @@ Los grandes proyectos internacionales reúnen a profesionales de decenas de paí
 ---
 
 Para el contexto completo del inglés en el mundo de la ingeniería, consulta [Inglés para Ingenieros](/blog/trabajo/ingles-para-ingenieros).
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

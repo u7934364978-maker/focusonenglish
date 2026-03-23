@@ -196,3 +196,9 @@ BE (was/were) no usa did en negativo ni interrogativo. Funciona como auxiliar de
 Ahora que dominas las reglas, el siguiente reto es distinguir cuándo usar past simple y cuándo usar present perfect. Es la confusión más frecuente en niveles B1-B2. La guía [Present Perfect vs Past Simple](/hubs/present-perfect-vs-past-simple) cubre todos los casos con ejemplos comparativos.
 
 Para practicar la pronunciación del **-ed** final (que cambia entre /t/, /d/ e /ɪd/), te recomendamos hacer los ejercicios en voz alta — es el único modo de interiorizar el patrón.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

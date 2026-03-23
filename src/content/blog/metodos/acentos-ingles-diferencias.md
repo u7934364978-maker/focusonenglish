@@ -238,3 +238,9 @@ Cada acento tiene sus propias reglas de pronunciación y expresiones caracterís
 - [Acentos regionales del inglés británico](/blog/metodos/ingles-britanico-acentos-regionales)
 - [El inglés como lingua franca: acentos globales](/blog/metodos/ingles-lingua-franca-acentos)
 - [Inglés americano vs inglés británico: diferencias clave](/blog/metodos/ingles-americano-vs-britanico)
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

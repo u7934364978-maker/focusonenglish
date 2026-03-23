@@ -165,3 +165,9 @@ Este ejemplo tiene todos los elementos: contexto claro, datos concretos, impacto
 ---
 
 Para dominar la estructura base de cualquier email profesional en inglés, consulta la [Guía de Emails Formales en Inglés: Estructura y Ejemplos](/blog/trabajo/email-formal-ingles-estructura).
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

@@ -93,7 +93,7 @@ El networking efectivo en LinkedIn requiere personalización. Nunca envíes una 
 ## 💡 Estrategias Avanzadas para el Éxito
 
 2.  **Publicaciones en Inglés:** No necesitas escribir artículos de 2000 palabras. Comparte una noticia de tu sector y añade un comentario breve en inglés: *"Interesting take on the future of [Topic]. I especially agree with the point about..."*. Esto demuestra que no solo hablas inglés, sino que piensas en inglés.
-3.  **URL Personalizada:** Limpia tu URL de LinkedIn (ej. linkedin.com/in/tu-nombre) para que se vea profesional en tu firma de email y CV.
+3.  **URL Personalizada:** Limpia tu URL de LinkedIn (ej. `/in/tu-nombre`) para que se vea profesional en tu firma de email y CV.
 
 ### El valor de las Recomendaciones en Inglés
 No subestimes el poder de la prueba social. Tener al menos 3-5 recomendaciones escritas en inglés por supervisores o clientes internacionales valida todo lo que has escrito en tu perfil. Al solicitarlas, orienta a la persona sobre qué habilidades destacar (ej. liderazgo, gestión de crisis o comunicación intercultural) para que la recomendación sea estratégica y no solo un elogio genérico.
@@ -105,3 +105,9 @@ Optimizar tu LinkedIn en inglés es la inversión con mayor retorno que puedes h
 ---
 
 Para una preparación completa de tu entrevista de trabajo en inglés, consulta la [Guía Completa para Preparar tu Entrevista de Trabajo en Inglés](/blog/trabajo/preparar-entrevista-trabajo-ingles).
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

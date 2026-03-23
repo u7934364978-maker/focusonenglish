@@ -168,3 +168,9 @@ Si estás escribiendo un TFG, un TFM o cualquier tipo de trabajo académico en i
 ---
 
 Para repasar todas las estructuras pasivas que necesitas — tiempos, modales, impersonales — consulta la [Guía Completa de la Voz Pasiva en Inglés](/blog/gramatica/voz-pasiva-ingles-guia).
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

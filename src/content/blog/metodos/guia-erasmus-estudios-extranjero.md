@@ -215,3 +215,9 @@ Las primeras semanas son cruciales para establecer rutinas y hacer amistades:
 - [ ] Contactar a otros estudiantes Erasmus a través de Erasmus Student Network (ESN)
 
 ¡El Erasmus es una de las experiencias más transformadoras de la vida universitaria. Con la preparación adecuada y el inglés necesario, lo aprovecharás al máximo!
+
+## Fuentes
+
+- Erasmus+ official: https://erasmus-plus.ec.europa.eu/
+- Erasmus Student Network (ESN): https://www.esn.org/
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

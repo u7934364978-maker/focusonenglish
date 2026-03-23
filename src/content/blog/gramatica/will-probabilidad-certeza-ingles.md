@@ -167,3 +167,9 @@ En muchos de estos casos, *won't* refleja conocimiento del carácter o comportam
 ---
 
 Para ver cómo *will* se relaciona con otros modales de probabilidad, consulta la guía [Verbos Modales en Inglés](/hubs/verbos-modales-ingles). Y para entender cuándo *will* comparte espacio con *going to* en predicciones, visita [Will vs Going To](/blog/gramatica/will-going-to-diferencia).
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

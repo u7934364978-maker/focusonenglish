@@ -273,3 +273,9 @@ En 2026, Duolingo ofrece cursos en más de 40 idiomas. El de inglés para hispan
 ---
 
 Para una comparativa completa de apps, consulta [La Mejor App para Aprender Inglés en 2026](/blog/metodos/mejor-app-aprender-ingles).
+
+## Fuentes
+
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages
+- Duolingo Help Center: https://support.duolingo.com/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish

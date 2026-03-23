@@ -237,3 +237,9 @@ ChatGPT es la herramienta más versátil y personalizable que existe hoy para ap
 ---
 
 Para comparar con otras herramientas y apps de aprendizaje, consulta [La Mejor App para Aprender Inglés en 2026](/blog/metodos/mejor-app-aprender-ingles).
+
+## Fuentes
+
+- OpenAI (ChatGPT): https://openai.com/
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish

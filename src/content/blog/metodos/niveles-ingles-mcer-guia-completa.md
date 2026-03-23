@@ -193,3 +193,9 @@ El **MCER** es tu hoja de ruta. Saber exactamente en qué nivel estás y qué ne
 - [Inglés C2: el nivel más alto y qué implica](/blog/metodos/ingles-c2)
 - [Cuánto se tarda en aprender inglés según tu nivel](/blog/metodos/cuanto-se-tarda-en-aprender-ingles)
 - [Los mejores cursos online de inglés B1](/blog/metodos/cursos-online-ingles-b1)
+
+## Fuentes
+
+- CEFR/MCER official (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages
+- Cambridge English Qualifications: https://www.cambridgeenglish.org/exams-and-tests/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish

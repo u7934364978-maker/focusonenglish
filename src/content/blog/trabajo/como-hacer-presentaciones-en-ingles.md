@@ -50,7 +50,7 @@ Hacer **presentaciones en inglés** con eficacia es una de las habilidades profe
 
 Los líderes más efectivos de las empresas internacionales no son necesariamente los más técnicos o los más inteligentes; son los que saben comunicar sus ideas con claridad y confianza. En este artículo, te damos las herramientas concretas para que tus presentaciones en inglés pasen de "correctas" a "memorables".
 
-Complementa esta guía con nuestros recursos de **[vocabulario de negocios en inglés](/blog/trabajo/vocabulario-negocios-ingles-profesional)** y nuestro artículo sobre **[presentaciones de alto impacto en inglés](/blog/trabajo/ingles-presentaciones-impacto)**.
+Complementa esta guía con nuestros recursos de **[vocabulario de negocios en inglés](/blog/trabajo/vocabulario-negocios-ingles-profesional)** y con la guía marco de **[inglés para el trabajo](/blog/trabajo/ingles-para-trabajo)**.
 
 ---
 
@@ -182,3 +182,9 @@ En **Focus English**, nuestros profesores especializados en inglés de negocios 
 ---
 
 Para ampliar tu vocabulario de negocios en inglés, consulta [Vocabulario de Negocios en Inglés](/blog/trabajo/vocabulario-negocios-ingles-profesional). Y para el contexto completo del inglés profesional, visita [Inglés para el Trabajo](/blog/trabajo/ingles-para-trabajo).
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

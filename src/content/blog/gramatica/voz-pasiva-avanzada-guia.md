@@ -126,3 +126,9 @@ Sirve para **distanciarse** de la información. Es muy común en el periodismo s
 ---
 
 ¿Quieres practicar la transformación de frases con estos contenidos? Si te estás preparando para el Cambridge Advanced, en nuestra [guía de preparación CAE](/hubs/cambridge-english-2026) encontrarás todos los recursos que necesitas.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

@@ -133,3 +133,9 @@ La falta de experiencia es temporal. La capacidad de articular tu potencial de f
 ---
 
 Para una preparación completa de tu entrevista de trabajo en inglés, consulta la [Guía Completa para Preparar tu Entrevista de Trabajo en Inglés](/blog/trabajo/preparar-entrevista-trabajo-ingles).
+
+## Fuentes
+
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages
+- British Council LearnEnglish (job interviews): https://www.britishcouncil.org/learnenglish
+- Cambridge Dictionary: https://dictionary.cambridge.org/

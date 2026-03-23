@@ -151,3 +151,9 @@ Sí. Acento y error son cosas distintas. Puedes tener un acento claramente espa�
 ### ¿Qué herramientas puedo usar para identificar mis errores específicos?
 
 ELSA Speak es la más directa: te graba y te dice qué fonemas están fallando. Speechling ofrece feedback humano, más cualitativo. Grabarte y escucharte (incómodo pero efectivo) es gratis y muy revelador. Para un análisis más sistemático, una sesión con un profesor especializado en pronunciación puede identificar tus patrones de error con precisión.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

@@ -229,3 +229,9 @@ Para quien quiere combinar Lingopie con otras herramientas y maximizar el tiempo
 ---
 
 *¿Usas Lingopie o Language Reactor para aprender inglés? ¿Qué series o películas recomendarías para diferentes niveles? Comparte tu experiencia en los comentarios.*
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

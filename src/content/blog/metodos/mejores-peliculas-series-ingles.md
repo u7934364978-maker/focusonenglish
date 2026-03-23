@@ -153,3 +153,9 @@ Depende de tus objetivos:
 Las series y películas son una herramienta poderosa, pero la clave es **el método, no el contenido**. Cualquier serie que te guste puede convertirse en material de estudio si la ves de forma activa.
 
 Empieza con el nivel que te permita entender el 70% del contenido, usa subtítulos en inglés (no en español), anota expresiones reales y practica reproduciéndolas en voz alta. En seis meses notarás un cambio radical en tu comprensión oral.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

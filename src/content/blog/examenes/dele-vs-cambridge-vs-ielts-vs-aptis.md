@@ -205,3 +205,9 @@ El **DELE** (Diplomas de Español como Lengua Extranjera) es el certificado ofic
 | Estudiante de máster en Europa | Cambridge C1 Advanced o IELTS Academic 6.5 |
 | Estudiante en EE.UU. | TOEFL iBT |
 | Presupuesto muy ajustado | EOI (si solo necesita reconocimiento en España) |
+
+## Fuentes
+
+- Cambridge English Qualifications: https://www.cambridgeenglish.org/exams-and-tests/
+- IELTS official: https://www.ielts.org/
+- Aptis (British Council): https://www.britishcouncil.org/exam/aptis

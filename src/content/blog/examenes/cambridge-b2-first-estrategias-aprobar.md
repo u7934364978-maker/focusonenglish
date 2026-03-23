@@ -198,3 +198,9 @@ Si sacas un Grade A (180+ puntos), tu certificado equivale casi a nivel C1. Desc
 - [Cómo preparar el B1 Cambridge por cuenta propia](/blog/examenes/preparar-b1-cambridge-por-cuenta-propia)
 - [Precios de los exámenes Cambridge actualizados](/blog/examenes/precios-examenes-cambridge)
 - [Cambridge C1 Advanced (CAE): el siguiente paso](/blog/examenes/cambridge-c1-advanced-guia)
+
+## Fuentes
+
+- Cambridge English B2 First: https://www.cambridgeenglish.org/exams-and-tests/first/
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages
+- Cambridge English scale: https://www.cambridgeenglish.org/exams-and-tests/cambridge-english-scale/

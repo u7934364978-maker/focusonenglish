@@ -213,3 +213,9 @@ Para tu CV de hostelería en inglés:
 ---
 
 Para el contexto completo del inglés en el mundo laboral, consulta [Inglés para el Trabajo](/blog/trabajo/ingles-para-trabajo).
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

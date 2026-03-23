@@ -205,3 +205,9 @@ En mercados de segunda mano o bazares puedes intentar negociar el precio:
 ---
 
 Para prepararte con todo el vocabulario y frases esenciales, consulta [Inglés para Viajar: Guía Completa](/blog/viajes/ingles-para-viajar).
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

@@ -207,3 +207,9 @@ Puedes hacerte entender en la mayoría de contextos, porque los hablantes nativo
 La articulación correcta puedes aprenderla en una sesión de práctica consciente de 20-30 minutos. Lo que lleva más tiempo es automatizarla para que salga sola en conversación sin tener que pensar en ella. Eso suele llevar varias semanas de práctica regular, especialmente si llevas años pronunciándola mal.
 
 ---
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- Merriam-Webster Dictionary: https://www.merriam-webster.com/

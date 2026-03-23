@@ -167,3 +167,9 @@ La distinción *will / going to* se vuelve automática con práctica contextual,
 4. ¿Es una opinión o predicción general? → will (o going to, son equivalentes)
 
 Con el tiempo, esta distinción deja de ser consciente y se convierte en instinto. El punto de partida es entender que *no son intercambiables en todos los casos*, aunque en muchos contextos suenan ambas bien.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

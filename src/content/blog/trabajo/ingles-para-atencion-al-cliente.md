@@ -125,3 +125,9 @@ Crea tu propio repositorio de "Canned Responses" (respuestas predefinidas) para 
 
 - [Inglés para atención al cliente por teléfono y chat](/blog/trabajo/ingles-customer-service-telefono-chat)
 - [Frases en inglés para situaciones de atención al cliente](/blog/trabajo/frases-ingles-atencion-al-cliente-situaciones)
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

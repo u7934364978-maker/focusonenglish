@@ -184,3 +184,9 @@ Sí, en el estilo indirecto, la conjunción *that* es opcional en la mayoría de
 
 ### 4. ¿Cómo se reportan las sugerencias?
 Lo más común es usar **suggest + -ing** o **suggest + that + subject + (should) + verb**. Por ejemplo: "He suggested buying a new car."
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

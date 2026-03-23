@@ -241,3 +241,9 @@ Son una herramienta muy eficaz para trabajar contrastes fonémicos específicos,
 ### ¿Qué pasa si en mi variedad regional de español no distingo algunos sonidos?
 
 Si por ejemplo eres de una variedad del español donde /s/ y /z/ no se distinguen, o donde la /ll/ y la /y/ suenan igual (yeísmo), es posible que tengas transferencias específicas diferentes a las de otros hispanohablantes. Identifica qué distinciones te resultan más difíciles y prioriza esas. La variedad regional del español que habes afecta qué transferencias son más probables.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

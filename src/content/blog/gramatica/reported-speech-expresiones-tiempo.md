@@ -189,3 +189,9 @@ En periodismo:
 ---
 
 Dominar estos cambios es lo que da coherencia al reported speech. El error de dejarlos sin cambiar hace que la frase resulte confusa — el oyente no sabe si "hoy" era el hoy de quien habló o el hoy de quien reporta. Esa claridad es exactamente lo que buscan los cambios de referencia en el estilo indirecto.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

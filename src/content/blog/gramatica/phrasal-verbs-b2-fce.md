@@ -206,3 +206,9 @@ El Part 4 del Use of English pide transformar una frase con una palabra clave. L
 2. **Transformar un phrasal verb en verbo formal o viceversa**:
    - *They cancelled the match.* → **CALLED** → *The match was called off.*
    - *I discovered the solution by accident.* → **CAME** → *I came across the solution by accident.*
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

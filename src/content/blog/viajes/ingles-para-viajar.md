@@ -164,3 +164,9 @@ Viajar con inglés es como viajar con un seguro de confianza. No se trata de no 
 - [Inglés para nómadas digitales y mochileros](/blog/viajes/ingles-nomadas-digitales-mochileros)
 - [Mudarse al extranjero: guía de inglés práctico](/blog/viajes/mudarse-al-extranjero-guia-ingles)
 - [Inglés para recepcionistas: guía profesional](/blog/viajes/ingles-para-recepcionistas-guia)
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

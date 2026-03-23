@@ -184,3 +184,9 @@ En inglés hablado moderno, *dare* como semi-modal es raro. El uso más natural 
 ---
 
 Los semi-modales llenan los huecos que los modales puros no pueden cubrir. Si solo usas *can, must y should*, tu inglés tiene limitaciones importantes: no puedes hablar de habilidad en el pasado con precisión, no puedes conjugar la necesidad en el futuro, no puedes expresar hábitos pasados que ya no existen. Con los semi-modales, el sistema completo encaja.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

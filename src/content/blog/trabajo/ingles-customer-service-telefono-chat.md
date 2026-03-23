@@ -205,3 +205,9 @@ En un equipo de customer service internacional, estas métricas son parte del vo
 ---
 
 Para el marco completo del inglés en atención al cliente — vocabulario, frases y situaciones — consulta [Inglés para Atención al Cliente](/blog/trabajo/ingles-para-atencion-al-cliente).
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

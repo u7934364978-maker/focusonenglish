@@ -128,3 +128,9 @@ En **Focus English**, no solo te enseñamos inglés; te entrenamos para vencer a
 **APTIS:**
 - [APTIS A2: guía completa](/blog/examenes/aptis-a2-guia-completa)
 - [APTIS Advanced C1: guía completa](/blog/examenes/aptis-advanced-c1-guia)
+
+## Fuentes
+
+- Cambridge English Qualifications: https://www.cambridgeenglish.org/exams-and-tests/
+- IELTS official: https://www.ielts.org/
+- Aptis official (British Council): https://www.britishcouncil.org/exam/aptis

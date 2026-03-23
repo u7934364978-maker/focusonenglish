@@ -226,3 +226,9 @@ Para una comparativa detallada, consulta **[IELTS vs TOEFL 2026](/blog/examenes/
 - [Vocabulario académico para el IELTS](/blog/examenes/ielts-vocabulario-academico)
 - [El día del examen IELTS: qué esperar](/blog/examenes/ielts-dia-del-examen)
 - [IELTS vs TOEFL: diferencias y cuál elegir](/blog/examenes/ielts-vs-toefl-diferencias-cual-elegir)
+
+## Fuentes
+
+- IELTS official: https://www.ielts.org/
+- British Council IELTS: https://takeielts.britishcouncil.org/
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

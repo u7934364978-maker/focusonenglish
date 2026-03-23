@@ -163,3 +163,9 @@ El vocabulario de nivel B1 es el puente hacia la fluidez. Dominar estos término
 Si estás listo para dar el salto, regístrate en **Focus English**. Nuestra plataforma está diseñada para ayudarte a adquirir este vocabulario de forma natural a través de ejercicios interactivos, audios de nativos y seguimiento personalizado con IA.
 
 [Ir al Curso Online de Inglés B1](/blog/metodos/cursos-online-ingles-b1)
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

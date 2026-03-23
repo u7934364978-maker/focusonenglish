@@ -184,3 +184,9 @@ Como visitante o extranjero, esto rara vez te afectará directamente, pero te ay
 - *"I'll leave you to it"* — Te dejo tranquilo/a
 
 Comprender la **cultura anglosajona** británica es tan importante como dominar el idioma. Los británicos aprecian enormemente a los extranjeros que hacen el esfuerzo de entender y respetar sus costumbres — y te lo recompensarán con una calidez que, una vez conseguida, es genuina y duradera.
+
+## Fuentes
+
+- UK Government (living in the UK): https://www.gov.uk/browse/visas-immigration
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

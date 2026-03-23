@@ -163,3 +163,9 @@ Los hashtags tienen sus propias convenciones en inglés:
 4. El algoritmo está priorizando el contenido de vídeo corto este año.
 
 El **inglés moderno de internet** es el inglés del siglo XXI. Tanto si eres creador, como si trabajas en marketing o simplemente navegas a diario, este vocabulario te dará un dominio real del idioma digital.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- Oxford Learner's Dictionaries: https://www.oxfordlearnersdictionaries.com/
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

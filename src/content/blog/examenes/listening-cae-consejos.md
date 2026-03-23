@@ -118,3 +118,9 @@ Si quieres completar tu preparación con el resto del examen, el [hub C1 Advance
 ---
 
 Para la preparación completa del CAE, consulta [Cambridge C1 Advanced (CAE): Guía Completa](/blog/examenes/cambridge-c1-advanced-guia).
+
+## Fuentes
+
+- Cambridge English C1 Advanced: https://www.cambridgeenglish.org/exams-and-tests/advanced/
+- British Council LearnEnglish (listening): https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

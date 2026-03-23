@@ -175,3 +175,9 @@ Depende mucho de la frecuencia de exposición y práctica. Para la /v/, muchos e
 ### ¿Afectan estos errores al nivel en el IELTS?
 
 El criterio de pronunciación en el IELTS Speaking evalúa si los errores fonéticos dificultan la comprensión y el rango de rasgos fonológicos que el candidato maneja. Errores sistemáticos en /v/, /r/ o /ŋ/ no suelen impedir la comprensión, pero sí afectan a la banda de pronunciación, especialmente en niveles 7+.
+
+## Fuentes
+
+- International Phonetic Association (IPA): https://www.internationalphoneticassociation.org/
+- IELTS official: https://www.ielts.org/
+- British Council LearnEnglish (pronunciation): https://www.britishcouncil.org/learnenglish

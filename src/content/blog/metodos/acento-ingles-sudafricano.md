@@ -162,3 +162,9 @@ Sí, el SAE estándar es no-rótico: la /r/ no se pronuncia después de vocal o 
 ---
 
 Para una visión completa de todos los acentos del inglés y cómo entenderlos, consulta [Acentos del Inglés: Diferencias y Guía Completa](/blog/metodos/acentos-ingles-diferencias).
+
+## Fuentes
+
+- South African Government: https://www.gov.za/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

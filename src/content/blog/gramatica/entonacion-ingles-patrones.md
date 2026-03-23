@@ -171,3 +171,9 @@ Sí. Este es un riesgo real, especialmente en las preguntas y peticiones. En ing
 ### ¿Cómo practico la entonación de forma efectiva?
 
 El shadowing es la técnica más efectiva. Elige vídeos o podcasts de nativos hablando de forma natural (no guionada) y repite exactamente lo que oyes, con la misma melodía. Al principio, exagera los movimientos tonales. Con el tiempo, la entonación se vuelve más automática.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- Merriam-Webster Dictionary: https://www.merriam-webster.com/

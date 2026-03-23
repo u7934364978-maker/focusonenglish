@@ -169,3 +169,9 @@ El **slang británico** varía enormemente según la región:
 4. **YouTube**: Canales como *Anglophenia* o *English with Lucy*
 
 Incorporar el **slang inglés británico** no significa que debas usarlo constantemente — sino que lo entiendas cuando lo escuchas y puedas usarlo con naturalidad cuando el contexto lo permita.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

@@ -90,3 +90,9 @@ No dejes que tu nivel de inglés limite tu red de contactos. Cada persona que co
 ---
 
 Para el vocabulario que necesitas en contextos de negocios internacionales, consulta [Vocabulario de Negocios en Inglés](/blog/trabajo/vocabulario-negocios-ingles-profesional). Y para técnicas de negociación en inglés, visita [Negociación en Inglés: Técnicas Clave](/blog/trabajo/negociacion-ingles-tecnicas-clave).
+
+## Fuentes
+
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages
+- British Council LearnEnglish (Business English): https://www.britishcouncil.org/learnenglish
+- Cambridge Dictionary: https://dictionary.cambridge.org/

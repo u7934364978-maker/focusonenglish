@@ -124,3 +124,9 @@ No siempre. Muchos actores irlandeses tienen entrenamiento vocal para neutraliza
 ### ¿Se dice "Hiberno-English" o "Irish English"?
 
 Los dos términos coexisten. "Irish English" es el más común en el uso general. "Hiberno-English" es el término lingüístico más preciso, referido específicamente al inglés hablado en la República de Irlanda (Hibernia era el nombre romano de la isla). El inglés de Irlanda del Norte tiene su propio nombre: "Ulster English" o "Northern Irish English".
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

@@ -1,4 +1,10 @@
 ---
+
+## Fuentes
+
+- International Phonetic Association (IPA chart): https://www.internationalphoneticassociation.org/IPAcharts/IPA_chart_orig/IPA_charts_E.html
+- Cambridge Dictionary (pronunciation): https://dictionary.cambridge.org/
+- Oxford Learner's Dictionaries: https://www.oxfordlearnersdictionaries.com/
 title: 'Diptongos en Inglés: Guía Completa con Pronunciación y Ejemplos'
 description: >-
   Aprende todos los diptongos del inglés con sus símbolos IPA, ejemplos prácticos

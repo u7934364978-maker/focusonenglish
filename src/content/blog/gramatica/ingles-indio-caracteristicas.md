@@ -126,3 +126,9 @@ En el inglés informal o en contextos donde el cambio de código (code-switching
 ### ¿Hay diferencias de clase social en el Indian English?
 
 Muy marcadas. El "educated Indian English" (el de las universidades de élite, las empresas multinacionales, los medios nacionales) es bastante diferente del inglés con influencia regional fuerte que se habla en contextos más populares. El acceso al inglés en la India es históricamente una cuestión de clase y privilegio, lo que hace que la variación sociolingüística sea especialmente pronunciada.
+
+## Fuentes
+
+- Government of India: https://www.india.gov.in/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

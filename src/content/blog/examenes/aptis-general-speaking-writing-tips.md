@@ -52,7 +52,7 @@ El **Aptis General** evalúa cuatro habilidades: Reading, Listening, Writing y S
 
 Esta guía te da los trucos y estrategias específicas para el Speaking y Writing del **Aptis General** que te ayudarán a maximizar tu puntuación, tanto si apuntas a un B1 como a un B2.
 
-Para una visión completa del examen, consulta nuestra **[guía de preparación del Aptis General](/blog/examenes/preparacion-examen-b1-cambridge)**.
+Para una visión completa del examen, consulta nuestra **[guía de Aptis General](/blog/examenes/aptis-general-guia-completa)**.
 
 ---
 
@@ -193,3 +193,9 @@ Antes de cada respuesta de Speaking:
 ---
 
 Para la base del APTIS, consulta [APTIS A2: Guía Completa](/blog/examenes/aptis-a2-guia-completa).
+
+## Fuentes
+
+- Aptis official (British Council): https://www.britishcouncil.org/exam/aptis
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages
+- British Council LearnEnglish (writing/speaking): https://www.britishcouncil.org/learnenglish

@@ -170,3 +170,9 @@ La relación cultural es de ida y vuelta. Los americanos suelen admirar de los h
 - *"That's on me"* → Yo me encargo / Pago yo
 
 Entender la **cultura anglosajona americana** no significa renunciar a la tuya — significa sumar una capa de comprensión intercultural que te hará infinitamente más efectivo en cualquier entorno donde el inglés y la cultura americana sean la norma.
+
+## Fuentes
+
+- U.S. Department of State (cultural exchange): https://www.state.gov/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

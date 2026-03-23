@@ -231,3 +231,9 @@ Una beca internacional no se consigue en el último momento. La planificación, 
 ---
 
 Para comparar todos los certificados oficiales, consulta [Los Mejores Certificados de Inglés en 2026](/blog/examenes/mejores-certificados-ingles-2026).
+
+## Fuentes
+
+- British Council (scholarships and study): https://study-uk.britishcouncil.org/
+- IELTS official: https://www.ielts.org/
+- TOEFL official (ETS): https://www.ets.org/toefl.html

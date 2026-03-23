@@ -182,3 +182,9 @@ La no ficción tiene la ventaja de que trata temas que te interesan y usa vocabu
 3. **C1+**: *Practical English Usage* y lectura extensiva de no ficción que te apasione
 
 La clave no es qué libro eliges, sino **leer con regularidad**. 20 páginas al día durante un año equivale a más de 40 libros y una transformación radical de tu inglés.
+
+## Fuentes
+
+- Cambridge University Press (Grammar in Use): https://www.cambridge.org/
+- Oxford University Press (Practical English Usage): https://elt.oup.com/
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

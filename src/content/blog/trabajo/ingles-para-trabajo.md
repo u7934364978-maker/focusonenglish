@@ -2,7 +2,7 @@
 category: trabajo
 date: '2026-02-07'
 updatedDate: '2026-03-07'
-author: lidia
+author: sara-mendez
 title: 'Inglés para el Trabajo: Cómo Destacar en un Entorno Global'
 description: >-
   Domina el inglés de negocios y proyecta una imagen profesional sólida. 
@@ -105,8 +105,6 @@ En 2026, lo que importa es la **claridad**. El mundo de los negocios valora la i
 
 ---
 
----
-
 ## Inglés profesional por sector y habilidad
 
 ### Emails y comunicación escrita
@@ -127,3 +125,9 @@ En 2026, lo que importa es la **claridad**. El mundo de los negocios valora la i
 ### Recursos y herramientas
 - [Mejores apps para aprender inglés para el trabajo](/blog/trabajo/mejores-apps-ingles-trabajo)
 - [IELTS vs TOEFL para el trabajo](/blog/trabajo/ielts-vs-toefl-trabajo)
+
+## Fuentes
+
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages
+- Cambridge English Qualifications: https://www.cambridgeenglish.org/exams-and-tests/
+- British Council LearnEnglish (Business English): https://www.britishcouncil.org/learnenglish

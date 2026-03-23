@@ -146,3 +146,9 @@ Aprende *shall* cuando:
 - Quieras sonar especialmente educado al ofrecer algo
 
 Para profundizar en los usos de *will*, consulta [Will para el Futuro en Inglés](/blog/gramatica/will-futuro-ingles) y [Preguntas con Will en Inglés](/blog/gramatica/will-preguntas-ingles).
+
+## Fuentes
+
+- Cambridge Dictionary (shall): https://dictionary.cambridge.org/grammar/british-grammar/shall
+- British Council LearnEnglish (future forms): https://learnenglish.britishcouncil.org/grammar
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

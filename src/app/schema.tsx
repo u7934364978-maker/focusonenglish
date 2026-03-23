@@ -19,7 +19,6 @@ export function OrganizationSchema() {
       "availableLanguage": ["Spanish", "English"]
     },
     "sameAs": [
-      "https://www.instagram.com/focusonenglish",
       "https://www.tiktok.com/@focusonenglish",
       "https://www.youtube.com/@focusonenglish"
     ],

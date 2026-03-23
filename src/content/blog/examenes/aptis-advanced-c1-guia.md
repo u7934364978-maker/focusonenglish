@@ -194,3 +194,9 @@ El Aptis Advanced usa una escala de 0-50 por parte. La puntuación global se pon
 ---
 
 Para la base del APTIS, consulta [APTIS A2: Guía Completa](/blog/examenes/aptis-a2-guia-completa).
+
+## Fuentes
+
+- Aptis official (British Council): https://www.britishcouncil.org/exam/aptis
+- Cambridge English C1 Advanced: https://www.cambridgeenglish.org/exams-and-tests/advanced/
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

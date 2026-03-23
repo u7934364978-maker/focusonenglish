@@ -206,3 +206,9 @@ La forma **would have + participio** aparece en el tercer condicional — situac
 Dominar *should* y *would* te permite dar consejos con tacto, hacer peticiones con cortesía y hablar de situaciones hipotéticas con precisión. Son dos modales que aparecen constantemente en inglés real — en conversaciones, correos, reuniones y textos formales.
 
 Para ver el contexto de *will* — el hermano más directo de *would* — y entender las diferencias en el sistema modal del inglés, consulta [Will para el Futuro en Inglés](/blog/gramatica/will-futuro-ingles) y [Will vs. Would: Diferencias Clave](/blog/gramatica/will-would-diferencia).
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

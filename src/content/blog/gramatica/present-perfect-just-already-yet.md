@@ -160,3 +160,9 @@ Imagina que llegas a casa y tu compañero te pregunta varias cosas:
 
 *"Have you seen the news already? Something big has happened."*
 → *"No, I've just got home. What happened?"*
+
+## Fuentes
+
+- Cambridge Dictionary (just/already/yet): https://dictionary.cambridge.org/grammar/british-grammar/already-still-or-yet
+- British Council LearnEnglish (present perfect): https://learnenglish.britishcouncil.org/grammar
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

@@ -122,3 +122,9 @@ Sí, como todos los acentos. En los grandes centros urbanos, la globalización y
 ### ¿Vale la pena estudiar específicamente el inglés canadiense?
 
 Para la comunicación internacional general, no es necesario estudiarlo específicamente: la exposición al americano da una base muy sólida para entender el canadiense. Si tienes relaciones de trabajo o personales con Canadá específicamente, unos pocos elementos de vocabulario y el Canadian Raising son lo más útil de aprender.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

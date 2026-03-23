@@ -153,3 +153,9 @@ Más tiempo del que la mayoría espera, porque el ritmo es uno de los aspectos m
 Sí, todos los dialectos nativos del inglés comparten esta característica básica. Hay variaciones en el grado y en cómo se manifiesta en cada variedad, pero el principio de organización rítmica alrededor del acento es universal en el inglés nativo. Donde puede haber diferencias más marcadas es en el inglés hablado por no nativos cuya lengua materna tiene ritmo silábico (como el español, el francés o el italiano): tienden a transferir su propio patrón rítmico al inglés.
 
 ---
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

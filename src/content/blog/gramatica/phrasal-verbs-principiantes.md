@@ -224,3 +224,9 @@ Depende del phrasal verb. *Carry out*, *look into* o *hand in* son perfectamente
 Los phrasal verbs para principiantes no tienen por qué ser un calvario. Empieza con los de tu día a día —levantarte, encender, salir, recoger cosas— y tendrás una base natural sobre la que ir añadiendo los más complejos. La clave está en el **contexto**: aprende cada phrasal verb con su ejemplo y úsalo en frases propias para fijarlo en la memoria.
 
 En **Focus English**, creemos que la gramática se aprende mejor cuando tiene sentido práctico. Sigue explorando nuestras guías de phrasal verbs para ir avanzando nivel a nivel.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

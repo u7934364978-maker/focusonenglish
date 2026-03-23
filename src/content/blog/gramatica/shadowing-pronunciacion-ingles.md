@@ -158,3 +158,9 @@ Una sesión con el mismo fragmento durante una semana (con días de descanso ent
 ### ¿El shadowing mejora también el listening o solo la pronunciación?
 
 Los dos. Varios estudios en adquisición de segundas lenguas muestran que el shadowing mejora tanto la producción como la percepción del habla. Esto tiene sentido: al intentar reproducir algo en tiempo real, el oído está enormemente activo procesando el input con una atención que el listening pasivo no requiere.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

@@ -182,3 +182,9 @@ Con constancia, en pocas semanas empezarás a reconocer y producir la pasiva de 
 ---
 
 ¿Necesitas repasar las reglas antes de practicar? Consulta la [Guía Completa de la Voz Pasiva en Inglés](/blog/gramatica/voz-pasiva-ingles-guia) para tener todos los tiempos y estructuras claros.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- Merriam-Webster Dictionary: https://www.merriam-webster.com/

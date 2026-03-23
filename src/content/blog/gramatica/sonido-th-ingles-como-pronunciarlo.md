@@ -195,3 +195,9 @@ El más útil es este: si la palabra es una palabra funcional muy común (the, t
 ### ¿Me afecta en los exámenes Cambridge?
 
 Sí. El criterio de pronunciación en Cambridge (tanto en el B2 First como en el C1 Advanced) evalúa si los errores de pronunciación interfieren con la comprensión. El TH incorrecto no suele interferir con la comprensión, pero sí puntúa en el apartado de "fonología". Un examinador experimentado lo nota, aunque no cause que falles el examen por sí solo.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

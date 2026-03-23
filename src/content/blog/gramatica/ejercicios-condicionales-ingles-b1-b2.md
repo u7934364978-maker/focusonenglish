@@ -189,3 +189,9 @@ En el **Part 4 de Use of English** (Key Word Transformation), los condicionales 
 - *He's not brave enough to try.* → *If he* **WERE** *braver, he would try.*
 
 Con práctica constante de estos **ejercicios de condicionales en inglés**, estarás preparado para cualquier prueba Cambridge y para expresar hipótesis con precisión en inglés real.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- Merriam-Webster Dictionary: https://www.merriam-webster.com/

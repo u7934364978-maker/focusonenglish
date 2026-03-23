@@ -78,7 +78,7 @@ Un estudiante de nivel B2 no solo entiende las palabras, sino el tono y la inten
 
 El examen Cambridge First (FCE) y la vida profesional exigen que seas capaz de escribir diferentes tipos de textos con registros adecuados:
 *   **Essays and Reports**: Cómo estructurar una introducción potente, desarrollar párrafos con coherencia y llegar a una conclusión lógica basada en evidencias.
-*   **Formal and Informal Emails**: Dominar la diferencia entre escribirle a un CEO o a un compañero de equipo. Consulta nuestra **[guía de emails profesionales](/blog/trabajo/redaccion-emails-profesionales-ingles)**.
+*   **Formal and Informal Emails**: Dominar la diferencia entre escribirle a un CEO o a un compañero de equipo. Consulta nuestra **[guía de email formal en inglés](/blog/trabajo/email-formal-ingles-estructura)**.
 *   **Reviews and Articles**: Aprende a usar un lenguaje descriptivo y evaluativo para influir en la opinión de los demás sobre productos, servicios o experiencias.
 
 ## 6. Hoja de Ruta de 3 Meses para Nivel C1 (Advanced)
@@ -91,3 +91,9 @@ Pasar del B2 al C1 es el reto más grande para muchos estudiantes. Requiere un c
 ---
 
 Para el mapa completo de niveles de inglés, consulta [Niveles de Inglés MCER: Guía Completa de A1 a C2](/blog/metodos/niveles-ingles-mcer-guia-completa).
+
+## Fuentes
+
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages
+- Cambridge B2 First (FCE): https://www.cambridgeenglish.org/exams-and-tests/first/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish

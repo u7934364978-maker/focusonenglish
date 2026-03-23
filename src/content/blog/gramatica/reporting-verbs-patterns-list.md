@@ -112,3 +112,9 @@ El uso de **reporting verbs** variados es una de las formas más rápidas de sub
 
 ---
 ¿Quieres una lista en PDF con más de 50 reporting verbs y ejercicios de autoevaluación? Regístrate en [**Focus English**](/cuenta/registro) y accede a nuestro material exclusivo para estudiantes de nivel avanzado. ¡Domina el inglés profesional hoy!
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

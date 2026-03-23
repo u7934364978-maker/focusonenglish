@@ -255,3 +255,9 @@ Es el mismo examen. Cambridge renombró el "Certificate in Advanced English (CAE
 ---
 
 Para entender el mapa completo de niveles, consulta [Niveles de Inglés MCER: Guía Completa de A1 a C2](/blog/metodos/niveles-ingles-mcer-guia-completa). Si ya tienes el C1 y piensas en el siguiente paso, lee [Nivel C2 de Inglés: Qué Es y Cómo Llegar desde C1](/blog/metodos/ingles-c2).
+
+## Fuentes
+
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages
+- Cambridge English C1 Advanced: https://www.cambridgeenglish.org/exams-and-tests/advanced/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish

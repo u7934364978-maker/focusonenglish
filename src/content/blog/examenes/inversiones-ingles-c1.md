@@ -162,3 +162,9 @@ El [hub C1 Advanced (CAE)](/hubs/cae-c1-advanced-cambridge) tiene todo lo demás
 ---
 
 Para la preparación completa del CAE, consulta [Cambridge C1 Advanced (CAE): Guía Completa](/blog/examenes/cambridge-c1-advanced-guia).
+
+## Fuentes
+
+- Cambridge English C1 Advanced (CAE): https://www.cambridgeenglish.org/exams-and-tests/advanced/
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages
+- Cambridge Dictionary (inversion structures): https://dictionary.cambridge.org/grammar/

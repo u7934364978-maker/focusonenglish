@@ -147,3 +147,9 @@ En conversación, los nativos casi siempre contraen:
 | Resultado presente | *I've lost my wallet* | consecuencia visible ahora |
 | Acción reciente | *She's just called* | just, recently, lately |
 | Situación continua | *He's worked here for years* | since, for |
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

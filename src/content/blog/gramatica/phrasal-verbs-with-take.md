@@ -202,3 +202,9 @@ Take on implica asumir algo adicional. Take over implica reemplazar o controlar 
 **Take it out on vs take out**
 
 *Take out* es sacar o salir con alguien. *Take it out on* es descargar emociones negativas en alguien. Son distintos.
+
+## Fuentes
+
+- Cambridge Dictionary (phrasal verbs): https://dictionary.cambridge.org/dictionary/english/
+- Oxford Learner's Dictionaries (take phrasal verbs): https://www.oxfordlearnersdictionaries.com/
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

@@ -149,3 +149,9 @@ Sí. La producción y la percepción están íntimamente ligadas: intentar produ
 ### ¿Hay acentos que es mejor aprender antes que otros?
 
 Para un hispanohablante que empieza, el General American y el RP son las referencias más útiles por la cantidad de material disponible. De ahí, el orden depende de las necesidades. Si trabajas con empresas australianas, el australiano es prioridad. Si tu empresa tiene muchos colegas de la India, el Indian English es más urgente que el escocés. Sigue las necesidades, no un orden abstracto.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- Merriam-Webster Dictionary: https://www.merriam-webster.com/

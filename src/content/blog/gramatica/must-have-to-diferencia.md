@@ -333,3 +333,9 @@ Cuando dudes entre los dos, hazte estas preguntas:
 Con estas seis preguntas tienes cubierta la gran mayoría de situaciones donde *must* y *have to* generan dudas.
 
 Si quieres seguir con otros modales que expresan posibilidad e incertidumbre, el artículo sobre [may y might en inglés](/blog/gramatica/may-might-ingles) es el siguiente paso lógico.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

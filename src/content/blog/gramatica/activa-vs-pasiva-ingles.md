@@ -168,3 +168,9 @@ La elección no es automática ni mecánica. Requiere preguntarte: ¿qué es má
 ---
 
 Para dominar la voz pasiva en todos sus tiempos y registros, consulta la [Guía Completa de la Voz Pasiva en Inglés](/blog/gramatica/voz-pasiva-ingles-guia).
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- Merriam-Webster Dictionary: https://www.merriam-webster.com/

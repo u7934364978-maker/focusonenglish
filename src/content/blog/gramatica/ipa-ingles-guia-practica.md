@@ -186,3 +186,9 @@ Los símbolos son los mismos, pero algunas palabras tienen transcripciones difer
 ### ¿Cuándo dejé de necesitar mirar el IPA?
 
 Nunca del todo, pero sí se hace menos frecuente. Una vez que has internalizado los patrones de pronunciación y tienes un buen nivel de exposición al inglés hablado, el IPA pasa de ser una herramienta de trabajo constante a una referencia ocasional para palabras realmente difíciles o desconocidas. Es como el diccionario: siempre útil, pero cada vez lo necesitas menos.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

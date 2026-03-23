@@ -198,3 +198,9 @@ Cuando reportas lo que alguien dijo, *will* se convierte en *would*:
 | *Where there's a will...* | Querer es poder |
 
 Para ver el contexto completo de los modales y auxiliares en inglés, consulta la guía [Verbos Modales en Inglés](/hubs/verbos-modales-ingles). Y para practicar todos los usos de *will* con ejercicios resueltos, visita [Ejercicios de Will en Inglés](/blog/gramatica/will-ejercicios-ingles).
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

@@ -191,3 +191,9 @@ En un contexto académico o formal, *make out* significa entender o distinguir. 
 *Make do* es apañarse. *Make it* es conseguir llegar o tener éxito.
 - *We made do with one car.* (nos apañamos)
 - *Did you make it to the airport on time?* (conseguiste llegar)
+
+## Fuentes
+
+- Cambridge Dictionary (phrasal verbs): https://dictionary.cambridge.org/dictionary/english/
+- Oxford Learner's Dictionaries (phrasal verbs): https://www.oxfordlearnersdictionaries.com/
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

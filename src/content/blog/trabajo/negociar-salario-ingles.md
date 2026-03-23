@@ -127,3 +127,9 @@ La negociación salarial no es una confrontación: es una conversación de negoc
 ---
 
 Para el contexto completo de la entrevista — preparación, preguntas difíciles, técnica STAR — consulta la [Guía Completa para Preparar tu Entrevista de Trabajo en Inglés](/blog/trabajo/preparar-entrevista-trabajo-ingles).
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

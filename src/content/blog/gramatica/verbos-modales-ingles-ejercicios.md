@@ -179,3 +179,9 @@ Como profesor de Cambridge, estos son los errores que veo con más frecuencia:
 - **May vs Might**: *Might* implica menor probabilidad que *may* en contextos formales.
 
 Con práctica constante con estos ejercicios de **verbos modales en inglés**, estarás listo para cualquier examen o situación profesional que requiera expresar matices con precisión.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

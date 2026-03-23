@@ -240,3 +240,9 @@ Si decides que ha llegado el momento de invertir, consulta nuestra [guía comple
 No necesitas pagar para empezar a aprender inglés. Pero sí necesitas empezar. Elige uno de los recursos de esta guía, bloquea 30 minutos en tu agenda de mañana y da el primer paso.
 
 El mejor momento para empezar fue hace un año. El segundo mejor momento es ahora.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

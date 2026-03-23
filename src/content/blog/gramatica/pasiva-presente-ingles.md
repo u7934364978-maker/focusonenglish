@@ -170,3 +170,9 @@ El siguiente paso natural es trabajar el pasado pasivo, donde la lógica es exac
 ---
 
 Para el contexto completo de la voz pasiva — todos sus tiempos, usos académicos y errores frecuentes — consulta la [Guía Completa de la Voz Pasiva en Inglés](/blog/gramatica/voz-pasiva-ingles-guia).
+
+## Fuentes
+
+- Cambridge Dictionary (passive forms): https://dictionary.cambridge.org/grammar/british-grammar/passive-forms
+- British Council LearnEnglish (passives): https://learnenglish.britishcouncil.org/grammar
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

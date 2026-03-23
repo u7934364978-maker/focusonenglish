@@ -177,3 +177,9 @@ Si te quedan pocos días para el examen:
 4. **En writing**, asegúrate de incluir al menos un second conditional y uno first conditional en cada ensayo.
 
 Para repasar todos los condicionales desde la base antes del examen, consulta nuestra [guía completa de condicionales en inglés](/hubs/ejercicios-condicionales-ingles).
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- Merriam-Webster Dictionary: https://www.merriam-webster.com/

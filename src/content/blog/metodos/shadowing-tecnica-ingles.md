@@ -140,3 +140,9 @@ Eso depende del modelo que hayas elegido como referencia. Lo importante es ser c
 Las canciones son útiles pero tienen limitaciones importantes. El ritmo de la música distorsiona el ritmo natural del habla inglesa, que es lo que más necesitas interiorizar. Una canción puede tener sílabas estiradas o comprimidas por razones musicales que no tienen nada que ver con cómo funciona el inglés hablado. Para trabajar pronunciación y ritmo, los podcasts, discursos y conversaciones auténticas son mejores materiales. Las canciones están bien como complemento o para motivarte, no como técnica principal.
 
 ---
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

@@ -178,3 +178,9 @@ Es una de las herramientas más valiosas y más infrautilizadas. La mayoría de 
 La referencia más fiable es la comparación directa con un nativo. Busca la palabra o frase en un diccionario en línea con audio (Cambridge, Merriam-Webster, Forvo) y compara lo que produces tú con lo que escuchas. También puedes usar herramientas de reconocimiento de voz: si Google o Siri entienden lo que dices, tu pronunciación es suficientemente clara. Para retroalimentación más detallada, las apps como ELSA Speak analizan fonema a fonema y señalan exactamente dónde hay diferencias con la pronunciación nativa.
 
 ---
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

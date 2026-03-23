@@ -253,3 +253,9 @@ Kind regards,
 ---
 
 Para ampliar tu vocabulario en contextos de negocios, consulta [Vocabulario de Negocios en Inglés](/blog/trabajo/vocabulario-negocios-ingles-profesional). Y para el marco completo del inglés profesional, visita [Inglés para el Trabajo](/blog/trabajo/ingles-para-trabajo).
+
+## Fuentes
+
+- Cambridge Dictionary (real estate terms): https://dictionary.cambridge.org/
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish

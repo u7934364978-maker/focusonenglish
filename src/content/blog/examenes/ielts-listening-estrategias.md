@@ -139,3 +139,9 @@ Para palabras técnicas o nombres propios, el audio casi siempre los deletrea. C
 ---
 
 Para una preparación completa del IELTS desde B2, consulta [Cómo Preparar el IELTS desde B2](/blog/examenes/preparar-ielts-desde-b2).
+
+## Fuentes
+
+- IELTS official (Listening): https://www.ielts.org/
+- British Council IELTS prep: https://takeielts.britishcouncil.org/
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

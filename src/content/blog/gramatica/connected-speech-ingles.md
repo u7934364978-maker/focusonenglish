@@ -188,3 +188,9 @@ El shadowing es una de las mejores técnicas: escucha un fragmento corto de audi
 Los audios de libros de texto están grabados con una pronunciación deliberadamente clara y lenta, sin los fenómenos del connected speech que aparecen en el habla espontánea. Es útil para aprender vocabulario y estructuras, pero crea una expectativa que no se cumple en conversaciones reales. Los nativos no hablan mal: simplemente hablan de forma natural, y eso implica todos los fenómenos que explico en este artículo.
 
 ---
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- Merriam-Webster Dictionary: https://www.merriam-webster.com/

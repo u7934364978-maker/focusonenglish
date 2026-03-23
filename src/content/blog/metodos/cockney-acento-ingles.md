@@ -173,3 +173,9 @@ El Cockney puro del East End histórico está cambiando por la gentrificación d
 ---
 
 Para una visión completa de todos los acentos del inglés y cómo entenderlos, consulta [Acentos del Inglés: Diferencias y Guía Completa](/blog/metodos/acentos-ingles-diferencias).
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

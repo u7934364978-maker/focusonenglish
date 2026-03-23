@@ -272,3 +272,9 @@ Los **phrasal verbs con PUT** son especialmente complejos porque un mismo verbo 
 Empieza por los más frecuentes: *put off*, *put up with*, *put on* y *put down*. Con esos cuatro ya puedes comunicarte en una gran variedad de situaciones. Después, ve añadiendo el resto de forma progresiva.
 
 En **Focus English**, continuamos ampliando el cluster de phrasal verbs para que tengas recursos específicos en cada área del idioma.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

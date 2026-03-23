@@ -13,7 +13,7 @@ import { JsonLd } from "@/components/seo/JsonLd";
 import { optimizeSEOTitle } from "@/utils/seo-utils";
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { Linkedin, Twitter, Instagram, Award } from "lucide-react";
+import { Twitter, Award } from "lucide-react";
 
 export async function generateStaticParams() {
   const articles = getBlogArticles();
@@ -417,11 +417,6 @@ export default async function BlogArticle({ params }: { params: Promise<{ catego
                               </Link>
                               
                               <div className="flex items-center gap-3">
-                                {article.authorData.social?.linkedin && (
-                                  <a href={article.authorData.social.linkedin} target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-blue-600 transition-colors">
-                                    <Linkedin className="w-5 h-5" />
-                                  </a>
-                                )}
                                 {article.authorData.social?.twitter && (
                                   <a href={article.authorData.social.twitter} target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-sky-500 transition-colors">
                                     <Twitter className="w-5 h-5" />

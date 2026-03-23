@@ -124,3 +124,9 @@ A veces usamos 'which' después de una coma para comentar todo lo que se ha dich
 ---
 
 ¿Quieres practicar las oraciones de relativo con ejercicios de 'Sentence Transformation'? En **Focus English** tenemos una sección dedicada a la gramática avanzada para que no falles ni una coma. [**Regístrate gratis ahora.**](/cuenta/registro)
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

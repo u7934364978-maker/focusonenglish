@@ -185,3 +185,9 @@ Para una promesa o compromiso claro, *will* es siempre la opción más directa y
 ---
 
 Para ver todos los usos de *will* — predicciones, certeza, probabilidad — consulta la guía completa [Will para el Futuro en Inglés](/blog/gramatica/will-futuro-ingles). Y si quieres practicar con ejercicios resueltos, visita [Ejercicios de Will en Inglés](/blog/gramatica/will-ejercicios-ingles).
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

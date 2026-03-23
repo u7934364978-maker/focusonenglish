@@ -155,3 +155,9 @@ Para practicar en contexto con el resto de partes del Use of English, el artícu
 ---
 
 Para la preparación completa del CAE, consulta [Cambridge C1 Advanced (CAE): Guía Completa](/blog/examenes/cambridge-c1-advanced-guia).
+
+## Fuentes
+
+- Cambridge English C1 Advanced: https://www.cambridgeenglish.org/exams-and-tests/advanced/
+- Cambridge Dictionary (word formation): https://dictionary.cambridge.org/grammar/
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

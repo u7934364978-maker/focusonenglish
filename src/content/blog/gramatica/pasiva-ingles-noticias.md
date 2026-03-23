@@ -162,3 +162,9 @@ Dedicar 15 minutos diarios a leer un artículo de un periódico en inglés y sub
 ---
 
 Para el marco completo de la voz pasiva — cómo se forma, cuándo se usa y qué estructuras avanzadas existen — consulta la [Guía Completa de la Voz Pasiva en Inglés](/blog/gramatica/voz-pasiva-ingles-guia).
+
+## Fuentes
+
+- Cambridge Dictionary (passive forms): https://dictionary.cambridge.org/grammar/british-grammar/passive-forms
+- BBC News: https://www.bbc.com/news
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

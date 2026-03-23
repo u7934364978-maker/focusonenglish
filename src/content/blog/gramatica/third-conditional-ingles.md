@@ -150,3 +150,9 @@ El tercer condicional es fundamental en Cambridge B2 First y C1 Advanced:
 El dominio real de este condicional llegará cuando lo uses espontáneamente, no solo cuando te pregunten explícitamente. El objetivo es que when something goes wrong, tu primera reacción sea pensar en inglés: *"If we had..."*.
 
 Consulta nuestra [guía completa de condicionales en inglés](/hubs/ejercicios-condicionales-ingles) para ver cómo el third conditional encaja dentro del sistema completo y practicar todos los tipos juntos.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

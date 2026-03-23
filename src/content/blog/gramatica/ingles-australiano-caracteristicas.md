@@ -131,3 +131,9 @@ Bastante diferente, aunque compartan el sistema no rótico y algunos patrones de
 ### ¿Con qué acento inglés es más fácil comunicarse a nivel internacional?
 
 El General Australian (el acento australiano estándar) es altamente inteligible a nivel internacional. Australia tiene una importante presencia en los negocios, la academia y la cultura internacionales, y el australiano estándar se entiende bien en todo el mundo angloparlante. El Broad Australian (el más marcado) puede presentar más dificultades para oyentes no acostumbrados.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

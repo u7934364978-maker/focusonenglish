@@ -147,3 +147,9 @@ Este email es breve, específico, orientado a resultados y demuestra conocimient
 ---
 
 Para dominar la estructura base de cualquier email profesional en inglés, consulta la [Guía de Emails Formales en Inglés: Estructura y Ejemplos](/blog/trabajo/email-formal-ingles-estructura).
+
+## Fuentes
+
+- British Council LearnEnglish (job applications): https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages
+- Cambridge Dictionary: https://dictionary.cambridge.org/

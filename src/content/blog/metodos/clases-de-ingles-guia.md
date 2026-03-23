@@ -73,7 +73,7 @@ Uno de los mayores obstáculos al recibir **clases de inglés** es la "parálisi
 - **Entornos sin juicio:** Puedes equivocarte mil veces sin sentir vergüenza.
 - **Feedback instantáneo:** Corrección precisa de pronunciación y gramática al momento.
 
-> 💡 **Tip Focus:** El aprendizaje híbrido (clase con profesor + práctica diaria con IA) ha demostrado ser un 300% más rápido que el método tradicional.
+> 💡 **Tip Focus:** El aprendizaje híbrido (clase con profesor + práctica diaria con IA) suele acelerar el progreso porque reduce tiempos muertos entre práctica y corrección.
 
 ---
 
@@ -81,13 +81,14 @@ Uno de los mayores obstáculos al recibir **clases de inglés** es la "parálisi
 
 Si eres un profesional, tu tiempo es oro. Asegúrate de que tus clases cumplan con estos tres pilares:
 
+### 1. Objetivo claro y medible
+Define para qué estudias inglés (trabajo, examen, viajes) y mide avance cada 2-4 semanas con indicadores concretos: comprensión auditiva, fluidez y precisión.
+
 ### 2. Contenido relevante
 Si trabajas en marketing, no necesitas pasar tres semanas aprendiendo los nombres de los animales de la granja. Necesitas **inglés para negocios**, presentaciones y reuniones.
 
 ### 3. Seguimiento basado en datos
 En lugar de un examen trimestral, busca plataformas que midan tu progreso diario: vocabulario adquirido, precisión en la pronunciación y nivel de fluidez.
-
----
 
 ---
 
@@ -103,3 +104,9 @@ Para que tus **clases de inglés** den frutos, sigue estos pasos:
 ## Conclusión
 
 La clave para sacar partido a cualquier clase de inglés es combinar el método correcto con constancia. Tanto si optas por clases presenciales, online con tutor o plataformas de estudio estructurado, lo importante es que el formato encaje con tu ritmo de vida y te permita practicar con regularidad.
+
+## Fuentes
+
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- Cambridge English Qualifications: https://www.cambridgeenglish.org/exams-and-tests/

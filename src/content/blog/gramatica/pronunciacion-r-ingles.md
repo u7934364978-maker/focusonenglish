@@ -192,3 +192,9 @@ Sí, hay uno que ayuda a mucha gente: intenta decir la palabra "butter" en ingl�
 Depende del contexto. En muchas situaciones cotidianas, la R española en inglés no impide la comprensión y los hablantes nativos la entienden perfectamente bien. Pero hay pares mínimos donde la R puede causar confusión: "rice" vs "lice", "red" vs "led", "right" vs "light". Y para quienes trabajan en entornos donde la claridad de pronunciación es importante (locución, enseñanza, atención al cliente internacional), vale la pena trabajarla. Para el resto, es una mejora interesante pero no urgente.
 
 ---
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

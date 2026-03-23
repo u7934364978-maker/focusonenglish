@@ -191,3 +191,9 @@ Practica describir imágenes en voz alta durante 2 minutos. Busca frases para da
 - **Vocabulario por temas**: *Vocabulary in Use Upper-Intermediate* (Cambridge)
 - **Listening**: BBC Learning English, podcast *6 Minute English* (gratuito)
 - **Writing**: practica con los modelos de carta, email e informe que aparecen en exámenes anteriores de la EOI
+
+## Fuentes
+
+- Escuelas Oficiales de Idiomas (EOI): https://www.educacionyfp.gob.es/
+- CEFR/MCER official: https://www.coe.int/en/web/common-european-framework-reference-languages
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish

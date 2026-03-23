@@ -179,3 +179,9 @@ Si tu objetivo es trabajar en el Reino Unido, Australia o Nueva Zelanda, el **OE
 ---
 
 Para el contexto completo del inglés sanitario — desde la consulta hasta los informes — consulta [Inglés para Profesionales de la Salud](/blog/trabajo/ingles-para-salud).
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

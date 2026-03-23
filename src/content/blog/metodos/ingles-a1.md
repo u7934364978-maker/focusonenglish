@@ -97,3 +97,8 @@ Con práctica constante, este es el progreso que puedes esperar:
 ---
 
 Para el mapa completo de niveles de inglés, consulta [Niveles de Inglés MCER: Guía Completa de A1 a C2](/blog/metodos/niveles-ingles-mcer-guia-completa).
+
+## Fuentes
+
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages
+- British Council LearnEnglish (niveles iniciales): https://www.britishcouncil.org/learnenglish

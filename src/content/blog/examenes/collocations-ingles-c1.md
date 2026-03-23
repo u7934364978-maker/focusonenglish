@@ -144,3 +144,9 @@ Para complementar con el vocabulario más amplio que necesitas para el CAE, el a
 ---
 
 Para la preparación completa del CAE, consulta [Cambridge C1 Advanced (CAE): Guía Completa](/blog/examenes/cambridge-c1-advanced-guia).
+
+## Fuentes
+
+- Cambridge English C1 Advanced: https://www.cambridgeenglish.org/exams-and-tests/advanced/
+- Oxford Collocations Dictionary (resource info): https://www.oxfordlearnersdictionaries.com/
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

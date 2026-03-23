@@ -161,3 +161,9 @@ Si no estás seguro de si un sinónimo es apropiado en ese contexto específico,
 ---
 
 Para una preparación completa del IELTS desde B2, consulta [Cómo Preparar el IELTS desde B2](/blog/examenes/preparar-ielts-desde-b2).
+
+## Fuentes
+
+- IELTS official: https://www.ielts.org/
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

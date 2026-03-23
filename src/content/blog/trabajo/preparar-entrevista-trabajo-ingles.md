@@ -175,3 +175,9 @@ Una vez preparada la estructura general, estos artículos te ayudan a dominar ca
 - [Cómo negociar el salario en inglés](/blog/trabajo/negociar-salario-ingles)
 - [CV en inglés: estructura y vocabulario](/blog/trabajo/cv-ingles)
 - [LinkedIn en inglés: guía completa](/blog/trabajo/linkedin-ingles-guia)
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

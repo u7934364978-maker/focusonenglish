@@ -206,3 +206,9 @@ El cuadro fonético del British Council (disponible online y como app) te permit
 Las barras /.../ indican transcripción fonológica: representan los fonemas del idioma, las unidades de sonido que distinguen significados. Los corchetes [...] indican transcripción fonética más precisa, con variantes que no cambian el significado pero que sí varían según el hablante o el contexto. Para aprender pronunciación, las barras son lo que necesitas; los corchetes son para análisis lingüístico más técnico.
 
 ---
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

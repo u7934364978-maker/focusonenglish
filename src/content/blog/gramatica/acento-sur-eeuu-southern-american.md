@@ -151,3 +151,9 @@ La velocidad media del habla sureña puede ser algo más lenta que el acento del
 ### ¿El acento sureño tiene variantes entre razas?
 
 Sí, hay variación. El "African American Vernacular English" (AAVE) y el inglés sureño blanco comparten algunos rasgos (especialmente el "pen-pin merger") pero difieren en otros. El AAVE tiene su propio sistema gramatical y fonológico con características que van más allá del sur. Son variedades en contacto con influencia mutua pero no idénticas.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- Merriam-Webster Dictionary: https://www.merriam-webster.com/

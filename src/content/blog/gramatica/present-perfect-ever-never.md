@@ -145,3 +145,9 @@ Algunas preguntas y frases con ever/never que son muy frecuentes en conversació
 - *I've never understood why people don't like Mondays.*
 - *She's never been the kind of person who gives up easily.*
 - *We've never regretted moving here.*
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

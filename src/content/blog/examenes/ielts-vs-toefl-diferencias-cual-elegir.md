@@ -85,3 +85,9 @@ Independientemente de tu elección, ambos exámenes requieren una estrategia só
 ---
 
 Para una preparación completa del IELTS desde B2, consulta [Cómo Preparar el IELTS desde B2](/blog/examenes/preparar-ielts-desde-b2).
+
+## Fuentes
+
+- IELTS official: https://www.ielts.org/
+- TOEFL official (ETS): https://www.ets.org/toefl.html
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

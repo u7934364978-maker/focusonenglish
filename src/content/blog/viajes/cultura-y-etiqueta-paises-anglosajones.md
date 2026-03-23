@@ -110,3 +110,9 @@ La etiqueta cultural va más allá de la gramática: entender la psicología det
 ---
 
 Para el vocabulario y frases esenciales de viaje, consulta [Inglés para Viajar: Guía Completa](/blog/viajes/ingles-para-viajar).
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

@@ -146,3 +146,9 @@ Para el T/F/NG específicamente: practica con al menos 5 textos dedicados a ese 
 ---
 
 Para una preparación completa del IELTS desde B2, consulta [Cómo Preparar el IELTS desde B2](/blog/examenes/preparar-ielts-desde-b2).
+
+## Fuentes
+
+- IELTS official (Reading): https://www.ielts.org/
+- British Council IELTS prep: https://takeielts.britishcouncil.org/
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

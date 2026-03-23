@@ -151,3 +151,9 @@ Hay algo que muchos estudiantes ignoran: el idioma se asienta durante el sueño.
 | 4 | Consolidación | 1 conversación "desafiante" (reunión, clase, llamada) |
 
 El **bloqueo mental en inglés** no desaparece solo con más vocabulario o más gramática. Se supera con práctica oral deliberada, gestión emocional y un cambio gradual en la relación que tienes con los errores. La **fluidez avanzada** espera al otro lado de ese miedo.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

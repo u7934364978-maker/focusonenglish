@@ -170,6 +170,10 @@ Depende de tu nivel de partida y de tus objetivos. Si tu pronunciación ya es ra
 
 ---
 
----
-
 Para una visión completa de todos los acentos del inglés y cómo entenderlos, consulta [Acentos del Inglés: Diferencias y Guía Completa](/blog/metodos/acentos-ingles-diferencias).
+
+## Fuentes
+
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages
+- International Phonetic Association (IPA): https://www.internationalphoneticassociation.org/
+- British Council LearnEnglish (pronunciation): https://www.britishcouncil.org/learnenglish

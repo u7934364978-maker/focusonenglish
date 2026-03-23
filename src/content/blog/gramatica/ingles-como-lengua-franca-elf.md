@@ -124,3 +124,9 @@ Es el presente en términos de número de hablantes y frecuencia de uso. En tér
 ### ¿Debo decirle a mi profesor que mi objetivo es el ELF?
 
 Puede ser una conversación útil. Explicar que tu objetivo principal es la comunicación efectiva en un equipo internacional (y no necesariamente sonar como un nativo) puede ayudar a un buen profesor a priorizar los objetivos de forma más relevante para ti. La alineación entre objetivos del estudiante y enfoque del profesor siempre mejora la efectividad del aprendizaje.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

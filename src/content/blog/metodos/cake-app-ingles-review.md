@@ -241,3 +241,9 @@ Su mayor fortaleza es exponer al estudiante al **inglés real y coloquial** desd
 Sus limitaciones son claras: no tiene un currículo gramatical sistemático, no es la mejor para pronunciación profunda, y no es adecuada para preparar exámenes oficiales. Pero como **complemento** a otras herramientas —especialmente para el rango A2-B2 y para quien quiere sonar más natural y coloquial en inglés— es una opción excelente y con un plan gratuito más que suficiente para empezar.
 
 **Veredicto:** Descárgala, haz el test de nivel, activa el shadowing y dale 2 semanas de uso constante. Si tu objetivo es el inglés cotidiano real, notarás la diferencia.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

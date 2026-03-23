@@ -191,3 +191,9 @@ En situaciones difíciles, el protocolo SPIKES es el estándar en medicina angl�
 ---
 
 Para el marco completo del inglés en el sector sanitario, consulta [Inglés para Profesionales de la Salud](/blog/trabajo/ingles-para-salud).
+
+## Fuentes
+
+- BMJ: https://www.bmj.com/
+- The Lancet: https://www.thelancet.com/
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

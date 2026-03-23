@@ -138,3 +138,9 @@ Algunos candidatos asumen que "por ordenador" implica una experiencia más rápi
 ---
 
 Para una preparación completa del IELTS desde B2, consulta [Cómo Preparar el IELTS desde B2](/blog/examenes/preparar-ielts-desde-b2).
+
+## Fuentes
+
+- IELTS official: https://www.ielts.org/
+- British Council IELTS: https://takeielts.britishcouncil.org/
+- IDP IELTS: https://ielts.idp.com/

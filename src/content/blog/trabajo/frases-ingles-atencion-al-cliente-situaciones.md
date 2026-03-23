@@ -191,3 +191,9 @@ Conocer las frases es el primer paso. El segundo es usarlas con fluidez y natura
 ---
 
 Para el contexto completo del inglés en atención al cliente, consulta [Inglés para Atención al Cliente](/blog/trabajo/ingles-para-atencion-al-cliente).
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

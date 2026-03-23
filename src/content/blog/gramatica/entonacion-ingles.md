@@ -179,3 +179,9 @@ Sí, especialmente en la entonación de afirmaciones. El inglés británico tien
 El tono nuclear —el punto de mayor movimiento tonal en la frase— suele caer sobre la palabra que contiene la información más nueva o más importante para el hablante. En una respuesta a una pregunta, el tono nuclear va sobre la información que responde directamente a esa pregunta. En una afirmación, suele ir sobre el último elemento significativo. Con el tiempo y la exposición lo reconoces de forma intuitiva, pero al principio es útil escuchar con atención dónde los nativos "aterrizan" con la voz.
 
 ---
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- Merriam-Webster Dictionary: https://www.merriam-webster.com/

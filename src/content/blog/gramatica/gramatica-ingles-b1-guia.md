@@ -159,3 +159,9 @@ En **Focus English**, hemos desarrollado una metodología única para que domine
 3.  **Clases de Conversación Enfocadas**: Oblígate a usar el *Second Conditional* o la *Voz Pasiva* en situaciones de rol en vivo.
 
 [**¿Estás listo para dar el salto al nivel B2? Empieza hoy mismo tu curso de inglés B1 con Focus English.**](/cuenta/registro)
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

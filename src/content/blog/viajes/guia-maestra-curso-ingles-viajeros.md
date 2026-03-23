@@ -2,7 +2,7 @@
 title: 'Inglés para Viajar: Tu Pasaporte a Experiencias Auténticas'
 date: '2026-01-30'
 updatedDate: '2026-03-10'
-author: lidia
+author: sara-mendez
 description: >-
   Guía completa de inglés para viajeros: habla con confianza en aeropuertos, hoteles, restaurantes y excursiones. Transforma tus viajes con el idioma como herramienta de conexión real.
 excerpt: >-
@@ -139,3 +139,9 @@ Los monumentos son impresionantes, pero los retos superados y las conexiones hum
 ---
 
 Para prepararte con todo el vocabulario y frases esenciales, consulta [Inglés para Viajar: Guía Completa](/blog/viajes/ingles-para-viajar).
+
+## Fuentes
+
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- World Tourism Organization (UN Tourism): https://www.unwto.org/

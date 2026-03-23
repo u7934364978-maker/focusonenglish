@@ -161,3 +161,9 @@ Si aún estás construyendo tu base, empieza por nuestra [guía de entrevistas d
 ---
 
 Para los fundamentos de preparación antes de llegar a estrategias avanzadas, consulta la [Guía Completa para Preparar tu Entrevista de Trabajo en Inglés](/blog/trabajo/preparar-entrevista-trabajo-ingles).
+
+## Fuentes
+
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages
+- British Council LearnEnglish (job interviews): https://www.britishcouncil.org/learnenglish
+- Cambridge Dictionary: https://dictionary.cambridge.org/

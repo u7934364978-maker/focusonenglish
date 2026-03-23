@@ -171,3 +171,9 @@ La guía [Present Perfect vs Past Simple](/hubs/present-perfect-vs-past-simple) 
 | for + duración (situación presente) | Present Perfect |
 | while + acción larga | Past Continuous |
 | before / after (aclarar orden) | Past Perfect (o Past Simple) |
+
+## Fuentes
+
+- Cambridge Dictionary (past tenses): https://dictionary.cambridge.org/grammar/british-grammar/past
+- British Council LearnEnglish (past tenses): https://learnenglish.britishcouncil.org/grammar
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

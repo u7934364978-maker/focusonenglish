@@ -151,3 +151,9 @@ La pregunta *"How long have you…?"* es la forma natural de preguntar por la du
 | Qué le sigue | Fecha / hora / evento | Período de tiempo |
 | Ejemplo | since 2018 / since Monday | for five years / for ages |
 | En español | desde (fecha) | desde hace (tiempo) |
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

@@ -175,3 +175,9 @@ La forma más fiable es consultar el IPA en el Cambridge Dictionary. Si la letra
 ### ¿Las letras mudas afectan al uso del artículo "a" o "an"?
 
 Sí, porque el artículo depende del sonido inicial, no de la letra inicial. *An hour* (no "a hour") porque *hour* empieza con sonido vocálico /aʊ/, aunque se escriba con H. *A university* (no "an university") porque empieza con sonido consonántico /j/, aunque empiece con vocal escrita.
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

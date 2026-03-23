@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import { authors } from "@/lib/authors";
 import { getArticlesByAuthor } from "@/lib/blog";
 import { Metadata } from "next";
-import { Linkedin, Twitter, Instagram, BookOpen, Award, CheckCircle } from "lucide-react";
+import { Twitter, BookOpen, Award, CheckCircle } from "lucide-react";
 import { generateBreadcrumbSchema } from "@/lib/schemas";
 import { JsonLd } from "@/components/seo/JsonLd";
 
@@ -115,19 +115,9 @@ export default async function AuthorPage({ params }: { params: Promise<{ slug: s
                 </p>
                 
                 <div className="flex flex-wrap justify-center lg:justify-start gap-4">
-                  {author.social?.linkedin && (
-                    <a href={author.social.linkedin} target="_blank" rel="noopener noreferrer" className="p-3 bg-slate-50 rounded-xl text-slate-400 hover:text-blue-600 hover:bg-blue-50 transition-all">
-                      <Linkedin className="w-6 h-6" />
-                    </a>
-                  )}
                   {author.social?.twitter && (
                     <a href={author.social.twitter} target="_blank" rel="noopener noreferrer" className="p-3 bg-slate-50 rounded-xl text-slate-400 hover:text-sky-500 hover:bg-sky-50 transition-all">
                       <Twitter className="w-6 h-6" />
-                    </a>
-                  )}
-                  {author.social?.instagram && (
-                    <a href={author.social.instagram} target="_blank" rel="noopener noreferrer" className="p-3 bg-slate-50 rounded-xl text-slate-400 hover:text-pink-600 hover:bg-pink-50 transition-all">
-                      <Instagram className="w-6 h-6" />
                     </a>
                   )}
                 </div>

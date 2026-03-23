@@ -194,3 +194,9 @@ Muchos phrasal verbs son separables cuando el objeto es un pronombre:
 ### Key Word Transformations con phrasal verbs de tres partes
 En el Part 4 del CAE, pueden pedirte transformaciones con verbos de tres partes:
 - *Despite working hard, the team failed to achieve the goal.* → COME → *Despite working hard, the team didn't come up to expectations.*
+
+## Fuentes
+
+- Cambridge English C1 Advanced (CAE): https://www.cambridgeenglish.org/exams-and-tests/advanced/
+- Cambridge Dictionary (phrasal verbs): https://dictionary.cambridge.org/dictionary/english/
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

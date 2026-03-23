@@ -170,3 +170,9 @@ Algunos préstamos del francés aparecen, especialmente en Quebec y en regiones 
 ---
 
 Para una visión completa de todos los acentos del inglés y cómo entenderlos, consulta [Acentos del Inglés: Diferencias y Guía Completa](/blog/metodos/acentos-ingles-diferencias).
+
+## Fuentes
+
+- Government of Canada (languages): https://www.canada.ca/en/canadian-heritage/services/official-languages-bilingualism.html
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish

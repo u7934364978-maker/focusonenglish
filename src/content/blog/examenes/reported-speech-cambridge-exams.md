@@ -119,3 +119,9 @@ El **Reported Speech** en los exámenes de Cambridge es una oportunidad de oro p
 ---
 
 Para la preparación completa del CAE, consulta [Cambridge C1 Advanced (CAE): Guía Completa](/blog/examenes/cambridge-c1-advanced-guia).
+
+## Fuentes
+
+- Cambridge English C1 Advanced: https://www.cambridgeenglish.org/exams-and-tests/advanced/
+- Cambridge Grammar reference: https://dictionary.cambridge.org/grammar/british-grammar/
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

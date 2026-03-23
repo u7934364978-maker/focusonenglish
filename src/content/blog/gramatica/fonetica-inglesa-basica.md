@@ -210,3 +210,9 @@ Los símbolos IPA son los mismos, pero algunos fonemas difieren. El cambio más 
 Con estudio activo de 10-15 minutos diarios, los fonemas básicos se pueden asimilar en 4-8 semanas. La automatización en el habla espontánea lleva más tiempo: entre 3 y 6 meses de práctica regular.
 
 ---
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

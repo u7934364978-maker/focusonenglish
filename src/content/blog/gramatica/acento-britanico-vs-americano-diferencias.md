@@ -132,3 +132,9 @@ Con algo de esfuerzo inicial, sí. Las diferencias más notables son la /r/ post
 ### ¿El inglés americano es más "fácil" para los hispanohablantes?
 
 No necesariamente. Es más familiar por la exposición a través del cine y la música, pero no más sencillo fonológicamente. La /r/ retroflexa americana puede ser difícil de producir para hispanohablantes. El RP no tiene /r/ postvocálica, lo que lo hace más fácil en ese aspecto específico.
+
+## Fuentes
+
+- Oxford Learner's Dictionaries (differences): https://www.oxfordlearnersdictionaries.com/
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish

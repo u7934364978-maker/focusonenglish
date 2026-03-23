@@ -216,3 +216,9 @@ Entre cinco y diez pares centrados en un único contraste fonémico es suficient
 Sí, de forma directa. Cuando entrenas tu oído para distinguir /ʃɪp/ de /ʃiːp/, esos dos patrones se vuelven categorías claras en tu mente. Después, cuando escuchas esas palabras en conversación real y rápida, las reconoces sin esfuerzo. El entrenamiento con pares mínimos mejora tanto la producción como la percepción auditiva.
 
 ---
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages

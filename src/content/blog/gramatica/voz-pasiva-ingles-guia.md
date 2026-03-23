@@ -181,3 +181,9 @@ Esta guía cubre los fundamentos. Para dominar cada aspecto en detalle:
 - [La Voz Pasiva en Noticias y Prensa en Inglés](/blog/gramatica/pasiva-ingles-noticias)
 - [La Voz Pasiva en Textos Académicos](/blog/gramatica/pasiva-ingles-textos-academicos)
 - [Ejercicios de Voz Pasiva en Inglés con Soluciones](/blog/gramatica/ejercicios-voz-pasiva-ingles)
+
+## Fuentes
+
+- Cambridge Dictionary: https://dictionary.cambridge.org/
+- British Council LearnEnglish: https://www.britishcouncil.org/learnenglish
+- CEFR/MCER (Council of Europe): https://www.coe.int/en/web/common-european-framework-reference-languages
