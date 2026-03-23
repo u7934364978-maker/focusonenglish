@@ -627,6 +627,21 @@ const nextConfig = {
 
       // ANTI-CANIBALIZACIÓN - Artículos duplicados fusionados
       {
+        source: '/blog/examenes/cambridge-c2-proficiency-guia-preparacion',
+        destination: '/blog/examenes/cambridge-c2-proficiency-guia',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/gramatica/diptongos-ingles-lista-guia',
+        destination: '/blog/gramatica/diptongos-ingles-lista-completa',
+        statusCode: 301,
+      },
+      {
+        source: '/blog/gramatica/schwa-ingles-sonido-clave',
+        destination: '/blog/gramatica/schwa-ingles-el-sonido-mas-importante',
+        statusCode: 301,
+      },
+      {
         source: '/blog/trabajo/ingles-presentaciones-impacto',
         destination: '/blog/trabajo/como-hacer-presentaciones-en-ingles',
         statusCode: 301,

@@ -110,7 +110,7 @@ La fonética no es aburrida; es liberadora. Te da el poder de pronunciar cualqui
 Si quieres seguir trabajando los fundamentos de la fonética inglesa, estos artículos van al detalle en los aspectos que más importan:
 
 - [Fonética Inglesa Básica: todos los sonidos del sistema](/blog/gramatica/fonetica-inglesa-basica)
-- [El Schwa en Inglés: el sonido más frecuente del idioma](/blog/gramatica/schwa-ingles-sonido-clave)
+- [El Schwa en Inglés: el sonido más frecuente del idioma](/blog/gramatica/schwa-ingles-el-sonido-mas-importante)
 - [Vocales Cortas y Largas en Inglés: cómo distinguirlas](/blog/gramatica/vocales-cortas-largas-ingles)
 - [Las Consonantes TH en Inglés: /θ/ y /ð/ paso a paso](/blog/gramatica/consonantes-th-ingles)
 - [Diptongos en Inglés: lista completa con IPA y ejemplos](/blog/gramatica/diptongos-ingles-lista-completa)

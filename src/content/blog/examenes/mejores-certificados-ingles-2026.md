@@ -117,7 +117,7 @@ En **Focus English**, no solo te enseñamos inglés; te entrenamos para vencer a
 **Cambridge:**
 - [Cambridge B2 First: estrategias para aprobar](/blog/examenes/cambridge-b2-first-estrategias-aprobar)
 - [Cambridge C1 Advanced (CAE): guía completa](/blog/examenes/cambridge-c1-advanced-guia)
-- [Cambridge C2 Proficiency: guía de preparación](/blog/examenes/cambridge-c2-proficiency-guia-preparacion)
+- [Cambridge C2 Proficiency: guía de preparación](/blog/examenes/cambridge-c2-proficiency-guia)
 - [Precios de los exámenes Cambridge actualizados](/blog/examenes/precios-examenes-cambridge)
 
 **IELTS:**
