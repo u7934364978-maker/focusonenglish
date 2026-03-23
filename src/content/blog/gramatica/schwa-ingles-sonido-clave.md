@@ -144,7 +144,7 @@ El schwa no existe de forma aislada. Está conectado directamente con el hecho d
 
 Para mantener ese ritmo, las sílabas átonas se comprimen y sus vocales se reducen. El schwa es, en parte, una consecuencia de esa compresión. Si quieres sonar natural en inglés, no puedes pronunciar cada sílaba con el mismo peso: tienes que dejar que las sílabas átonas se "desvanezcan" un poco.
 
-Si te interesa entender más sobre el ritmo del inglés y cómo afecta a la pronunciación, en [Focus English](/hubs/fonetica-inglesa-basica) encontrarás recursos sobre fonética que complementan lo que hemos visto aquí.
+Si te interesa entender más sobre el ritmo del inglés y cómo afecta a la pronunciación, los recursos sobre fonética básica complementan bien lo que hemos visto aquí.
 
 ---
 

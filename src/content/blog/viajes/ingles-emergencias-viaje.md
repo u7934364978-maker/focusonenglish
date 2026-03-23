@@ -117,15 +117,13 @@ Para terminar, aquí tienes un pequeño diccionario de términos que podrías ve
 
 ---
 
-### Siéntete seguro en cualquier lugar con Focus English
+### Siéntete seguro en cualquier lugar
 
-En **Focus English**, creemos que el inglés es tu mejor herramienta de seguridad. Por eso, nuestra plataforma incluye funciones diseñadas específicamente para viajeros:
+El inglés es tu mejor herramienta de seguridad cuando viajas. Algunas prácticas que marcan la diferencia:
 
-*   **Modo Supervivencia**: Lecciones rápidas enfocadas exclusivamente en situaciones críticas y cómo resolverlas.
-*   **IA de Reconocimiento de Voz**: Practica gritar frases de auxilio para asegurarte de que tu pronunciación sea clara y entendible incluso bajo niveles altos de estrés.
-*   **Guía de Números de Emergencia Mundial**: Un directorio interactivo dentro de nuestra app para que nunca dudes a quién llamar.
-
-[**Regístrate en Focus English y viaja con un seguro de idiomas en tu bolsillo. Tu seguridad no tiene precio.**](/cuenta/registro)
+*   **Modo supervivencia**: Practica lecciones rápidas enfocadas en situaciones críticas antes de viajar.
+*   **Pronunciación bajo presión**: Asegúrate de que tus frases de emergencia sean claras incluso cuando estás nervioso.
+*   **Números de emergencia**: Guarda en tu móvil los números esenciales del país de destino (policía, ambulancia, bomberos).
 
 ---
 

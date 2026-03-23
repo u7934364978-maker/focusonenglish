@@ -168,8 +168,6 @@ La diferencia: vocabulario preciso (*exacting a toll, engendered, estranged*), c
 - **Docencia del inglés:** En muchos países, tener un C2 Cambridge es requisito para enseñar inglés en centros privados de calidad
 - **Reconocimiento de por vida:** Al contrario del IELTS o TOEFL, el CPE no caduca
 
-[👉 Prepárate para el Cambridge C2 Proficiency con los mejores especialistas en exámenes de Cambridge](/cuenta/registro?plan=cambridge)
-
 ---
 
 Para comparar todos los certificados oficiales, consulta [Los Mejores Certificados de Inglés en 2026](/blog/examenes/mejores-certificados-ingles-2026).

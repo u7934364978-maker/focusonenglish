@@ -79,18 +79,12 @@ Si sientes que te has estancado en las presentaciones básicas, aquí tienes el 
 3.  **La Regla de los Conectores**: Prohíbete usar frases de tres palabras. Intenta que cada pensamiento tenga al menos un conector (*because, so, but*). Esto obliga a tu cerebro a estructurar pensamientos más complejos y naturales.
 4.  **Aumenta tu Comprensión Auditiva**: Escucha audios diseñados específicamente para el nivel elemental. No te preocupes si no entiendes cada palabra; el objetivo es captar la idea general de una descripción o una narración breve.
 
-## 4. El Papel de Focus English en tu Progreso
-
-
-
-[**¿Quieres saber en qué punto estás realmente? Regístrate en Focus English, realiza nuestro test de nivel y empieza tu camino hacia la fluidez hoy mismo.**](/cuenta/registro)
-
 ---
 
 ## FAQ: Preguntas Frecuentes
 
 **1. ¿Cuánto tiempo se tarda en pasar de A1 a A2?**
-Depende de tu dedicación, pero la media está entre 80 y 100 horas de estudio activo. Con nuestro método de 15 minutos diarios, podrías lograrlo en unos 8-10 meses de forma constante.
+Depende de tu dedicación, pero la media está entre 80 y 100 horas de estudio activo. Con 15-30 minutos diarios constantes, puedes lograrlo en unos 6-10 meses.
 
 **2. ¿Es el nivel A2 suficiente para viajar al extranjero?**
 ¡Sí! Con un A2 sólido puedes desenvolverte con éxito en la mayoría de situaciones turísticas: hoteles, restaurantes, aeropuertos y tiendas. Podrás pedir ayuda y entender las indicaciones básicas.

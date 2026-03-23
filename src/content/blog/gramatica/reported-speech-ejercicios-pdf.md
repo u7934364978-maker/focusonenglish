@@ -86,11 +86,6 @@ Para que estos ejercicios de Reported Speech realmente surtan efecto, te recomen
 
 ---
 
-### ¿Buscas una práctica más dinámica? Prueba Focus English
+### ¿Buscas una práctica más dinámica?
 
-Aunque los PDFs son excelentes, a veces necesitas un feedback instantáneo para progresar más rápido. En **Focus English**, hemos desarrollado la herramienta definitiva para dominar la gramática:
-
-*   **Exámenes Interactivos de Nivel**: Pon a prueba tus conocimientos con tests que se adaptan a tu nivel y te preparan para las certificaciones oficiales.
-*   **Comunidad de Estudiantes**: Comparte tus dudas y aprende de los errores más comunes de otros estudiantes en nuestros foros especializados.
-
-[**No dejes que la gramática te frene. Regístrate gratis en Focus English y domina el Reported Speech de una vez por todas.**](/cuenta/registro)
+Aunque los PDFs son excelentes, a veces necesitas feedback instantáneo para progresar más rápido. Practicar el reported speech con ejercicios interactivos que se adaptan a tu nivel y comparar tus respuestas con explicaciones detalladas acelera mucho el proceso de aprendizaje.

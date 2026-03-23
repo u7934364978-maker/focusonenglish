@@ -46,8 +46,6 @@ excerpt: >
 
 Si ya conoces los saludos básicos y puedes decir tu nombre y profesión, el **Nivel A2** (Plataforma) es donde ocurre la verdadera transformación. Es el momento en el que dejas de "sobrevivir" con el idioma y empiezas a **comunicar tus experiencias**. En el **nivel elemental de inglés**, el objetivo es ganar la confianza suficiente para moverte por el mundo con independencia.
 
-En **Focus English**, te ayudamos a conectar los conocimientos básicos para que dejes de hablar de forma robótica y empieces a expresarte con fluidez elemental.
-
 ## 1. ¿Qué habilidades dominarás en el Nivel A2?
 
 Al terminar este curso, habrás alcanzado los siguientes hitos comunicativos según el Marco Común Europeo de Referencia (MCER):
@@ -61,7 +59,7 @@ Al terminar este curso, habrás alcanzado los siguientes hitos comunicativos seg
 ## 2. Narrativa y Tiempos Pasados: Tu Historia Cuenta
 
 En el nivel A2, el **Past Simple** es el rey. Es la herramienta que te permite dejar de hablar solo del "ahora" para empezar a compartir tu historia personal. Para sonar natural, aprenderás a combinarlo de forma efectiva:
-*   **Irregular Verbs**: No más listas interminables y aburridas. En Focus English, aprendes los verbos que realmente usas en la vida real (*went, saw, bought, had, told*) a través de contextos prácticos y juegos de memoria.
+*   **Irregular Verbs**: No más listas interminables y aburridas. Aprende los verbos que realmente usas en la vida real (*went, saw, bought, had, told*) a través de contextos prácticos y repetición espaciada.
 *   **Present Perfect vs Past Simple**: Introducimos la diferencia fundamental entre hablar de una experiencia general sin fecha específica (*"I have been to London"*) y un momento concreto en el tiempo (*"I went to London last summer"*).
 *   **Narrative Linkers**: El secreto de la fluidez elemental está en los conectores. Usa palabras como *then, after that, suddenly* y *finally* para que tus historias no parezcan una lista de frases sueltas, sino un relato con ritmo.
 
@@ -102,18 +100,6 @@ El salto del nivel elemental al intermedio requiere constancia y una estrategia 
 1.  **Mes 1**: Afianza el Past Simple y los verbos irregulares. Empieza a escuchar podcasts diseñados para estudiantes de nivel A2 para acostumbrar el oído.
 2.  **Mes 2**: Domina el futuro (*will* vs *going to*) y las preposiciones de lugar y tiempo (*in, on, at*). Empieza a escribir un diario sencillo de 5 líneas cada noche.
 3.  **Mes 3**: Empieza a familiarizarte con la voz pasiva básica y los verbos modales de posibilidad y permiso (*can, could, may, might*). Intenta ver series cortas con subtítulos en inglés.
-
----
-
-### Desbloquea tu fluidez con el Método Focus English A2
-
-En el nivel elemental, el mayor reto es la fluidez y el "oído". Por eso, el método Focus English para el Nivel A2 incluye:
-
-2.  **Entrenamiento Auditivo Multipropósito**: Lecciones con diferentes acentos (británico, americano, australiano) y velocidades para que tu oído se acostumbre a la diversidad del mundo real.
-3.  **Speaking Clubs Elemental**: Únete a grupos reducidos con otros estudiantes de nivel A2 para practicar la conversación sin presión y con la guía de un tutor.
-4.  **Vocabulario para el Trabajo**: Módulos específicos para aprender los términos que necesitas en la oficina, desde material de escritorio hasta términos de reuniones básicas.
-
-[**No te conformes con lo básico. Da el salto al siguiente nivel con Focus English.**](/cuenta/registro)
 
 ---
 

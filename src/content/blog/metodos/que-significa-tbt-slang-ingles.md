@@ -128,6 +128,4 @@ Aprender el inglés de los libros de texto es el primer paso, pero dominar el **
 
 ## Conclusión
 
-El lenguaje es un organismo vivo que cambia cada segundo. Términos como el **tbt significado** abrieron la puerta a una nueva forma de comunicarnos que hoy es más compleja y rica que nunca. En **Focus English**, no solo te enseñamos la gramática de los exámenes, sino también el inglés que se habla en las calles digitales de Nueva York, Londres o Sídney.
-
-[**¿Quieres dominar el inglés real y sonar como un nativo? Únete a Focus English y descubre nuestro método basado en la comunicación actual.**](/cuenta/registro)
+El lenguaje es un organismo vivo que cambia cada segundo. Términos como el **tbt significado** abrieron la puerta a una nueva forma de comunicarnos que hoy es más compleja y rica que nunca. Dominar el slang digital no solo te ayuda a entender las redes sociales, sino a conectar de verdad con la cultura del idioma.

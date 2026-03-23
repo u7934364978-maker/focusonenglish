@@ -137,9 +137,9 @@ Los podcasts son uno de los recursos más infravalorados para mejorar la compren
 
 ---
 
-### El plan gratuito de Focus English
+### Prueba de nivel online
 
-Focus English ofrece acceso gratuito a una selección de sus materiales: lecciones de introducción por nivel, ejercicios de pronunciación y una prueba de nivel detallada. Es un buen punto de partida para entender en qué nivel estás y qué habilidades necesitas trabajar antes de estructurar tu plan de estudio.
+Antes de empezar, conviene hacer una prueba de nivel para saber exactamente dónde estás. Muchas plataformas ofrecen tests gratuitos que miden tu comprensión lectora y auditiva, y te orientan sobre qué habilidades necesitas trabajar antes de estructurar tu plan de estudio.
 
 ---
 
@@ -235,9 +235,7 @@ Si decides que ha llegado el momento de invertir, consulta nuestra [guía comple
 
 ---
 
-## Empieza hoy con Focus English
-
-Si quieres combinar lo mejor de los recursos gratuitos con la estructura de un método probado, **Focus English** ofrece un acceso gratuito inicial para que compruebes el método antes de comprometerte. Con lecciones diseñadas por profesores nativos, adaptadas a tu nivel y con feedback real, es el complemento ideal para todo lo que has aprendido en esta guía.
+## Empieza hoy
 
 No necesitas pagar para empezar a aprender inglés. Pero sí necesitas empezar. Elige uno de los recursos de esta guía, bloquea 30 minutos en tu agenda de mañana y da el primer paso.
 

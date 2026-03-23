@@ -47,8 +47,6 @@ excerpt: >
 
 El **Nivel B2** (Usuario Independiente) es el estándar de oro para el mundo laboral y académico internacional en 2026. Es el nivel donde dejas de traducir mentalmente y empiezas a **pensar en inglés**. En el **nivel intermedio-alto de inglés**, la comunicación deja de ser funcional para convertirse en estratégica.
 
-En **Focus English**, hemos diseñado este curso para llevarte más allá de la gramática básica y darte las herramientas para expresarte con precisión, matices y seguridad.
-
 ## 1. Gramática de Precisión para el Nivel B2
 
 A este nivel, la gramática deja de ser una barrera para convertirse en una herramienta de precisión que te permite expresar ideas abstractas y complejas con total claridad.
@@ -59,7 +57,7 @@ A este nivel, la gramática deja de ser una barrera para convertirse en una herr
 
 ## 2. Comunicación en Escenarios Profesionales de Alta Presión
 
-El **inglés avanzado B2** en Focus English te prepara para liderar situaciones donde la comunicación es estratégica:
+El **inglés avanzado B2** te prepara para liderar situaciones donde la comunicación es estratégica:
 *   **Negotiating and Persuading**: Aprende el arte de la diplomacia lingüística. Te enseñamos a usar el *hedging* (lenguaje mitigador) para suavizar críticas y a usar conectores de contraste para defender tu punto de vista con firmeza pero con respeto.
 *   **Crisis Management and Problem Solving**: Vocabulario y estructuras específicas para comunicar contratiempos, calmar a los clientes y proponer planes de contingencia inmediatos.
 
@@ -89,18 +87,6 @@ Pasar del B2 al C1 es el reto más grande para muchos estudiantes. Requiere un c
 1.  **Mes 1**: Inmersión total. Cambia todos tus dispositivos a inglés y empieza a consumir 1 hora de contenido en inglés diario sobre temas que NO domines para forzar tu vocabulario.
 2.  **Mes 2**: Producción activa. Empieza a escribir reseñas en inglés sobre los libros que lees o las películas que ves. Busca un compañero de intercambio de idiomas para debates complejos.
 3.  **Mes 3**: Perfeccionamiento gramatical. Enfócate en las estructuras de inversión, oraciones de relativo complejas y en el uso de los *reporting verbs* avanzados para dar variedad a tu discurso.
-
----
-
-### Certifica tu fluidez con el Método Focus English B2
-
-A este nivel, la clave es la exposición constante y el feedback de alta calidad. El método Focus English para el Nivel B2 te ofrece:
-
-2.  **Módulos de Preparación para Cambridge B2 First (FCE)**: Estrategias específicas para cada parte del examen, con simulacros cronometrados y corrección instantánea de Writing.
-3.  **Speaking Clubs de Alto Rendimiento**: Sesiones moderadas por expertos donde se debaten temas de actualidad, forzándote a usar estructuras complejas y vocabulario variado.
-4.  **Feedback Personalizado en Tiempo Real**: Nuestra tecnología detecta los errores "fósiles" (aquellos que arrastras de niveles anteriores) y te propone ejercicios específicos para eliminarlos.
-
-[**No te detengas en la superficie del idioma. Sumérgete en la fluidez profesional con Focus English.**](/cuenta/registro)
 
 ---
 

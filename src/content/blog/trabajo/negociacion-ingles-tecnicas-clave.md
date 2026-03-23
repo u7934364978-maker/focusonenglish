@@ -111,16 +111,6 @@ Una vez alcanzado el acuerdo verbal, el trabajo no termina. En la cultura de neg
 
 Este paso no solo demuestra profesionalismo, sino que también sirve como una prueba documental de lo negociado, protegiendo tus intereses y los de tu empresa.
 
-## 🚀 Focus English: Tu Socio en la Mesa de Negociación
-
-En **Focus English**, no nos limitamos a enseñarte verbos. Nuestras **[clases de inglés de negocios](/blog/trabajo/vocabulario-negocios-ingles-profesional)** son laboratorios de persuasión.
-- Realizamos juegos de rol (Role-playing) basados en situaciones reales de tu industria.
-- Trabajamos en tu entonación para que tus propuestas suenen convincentes, no dubitativas.
-
-No permitas que una barrera lingüística te haga aceptar términos desfavorables. Toma el control de tus acuerdos internacionales.
-
-[👉 ¡Cierra acuerdos con confianza! Empieza hoy tus clases de inglés para negociación](/cuenta/registro?plan=work)
-
 ---
 
 Para el vocabulario esencial en contextos de negocio, consulta [Vocabulario de Negocios en Inglés](/blog/trabajo/vocabulario-negocios-ingles-profesional). Y para el marco completo del inglés profesional, visita [Inglés para el Trabajo](/blog/trabajo/ingles-para-trabajo).

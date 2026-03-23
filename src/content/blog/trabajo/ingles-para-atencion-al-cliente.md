@@ -121,19 +121,6 @@ Crea tu propio repositorio de "Canned Responses" (respuestas predefinidas) para 
 
 ---
 
-### ¿Por qué elegir el programa de Customer Service de Focus English?
-
-En **Focus English**, no te enseñamos gramática de libro; te preparamos para el mundo real de las multinacionales:
-
-1.  **Simulaciones de Chat y Voz con IA**: Practica con nuestra IA, que asume roles de clientes con diferentes personalidades (desde el cliente amable hasta el cliente enfadado) para que aprendas a mantener la calma y el control.
-2.  **Módulos de 'Soft Skills'**: Aprende a modular tu tono de voz, a usar el lenguaje corporal en videollamadas y a escribir correos que suenen profesionales pero cercanos.
-3.  **Vocabulario de Nicho**: Ofrecemos formación específica para soporte en SaaS, E-commerce, Finanzas y Turismo.
-4.  **Certificación de Competencia**: Obtén un diploma que acredite tu capacidad para trabajar en entornos de atención al cliente internacional.
-
-[**Conviértete en el profesional que las grandes empresas tecnológicas están buscando. Regístrate en Focus English y perfecciona tu soporte hoy mismo.**](/cuenta/registro)
-
----
-
 ## Profundiza en el inglés para atención al cliente
 
 - [Inglés para atención al cliente por teléfono y chat](/blog/trabajo/ingles-customer-service-telefono-chat)

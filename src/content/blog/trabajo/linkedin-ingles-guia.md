@@ -82,7 +82,7 @@ Un error común es listar responsabilidades en lugar de logros. Para sonar como 
 
 ## 🤝 Networking Inteligente: Plantillas para Conectar
 
-El networking efectivo en LinkedIn requiere personalización. Nunca envíes una invitación sin una nota, especialmente si es en inglés. Aquí tienes algunas estructuras que enseñamos en Focus English:
+El networking efectivo en LinkedIn requiere personalización. Nunca envíes una invitación sin una nota, especialmente si es en inglés. Aquí tienes algunas estructuras útiles:
 
 ### Para conectar con un reclutador (Recruiter)
 *"Hi [Name], I've been following [Company] for some time and I'm very impressed by your recent work in [Project]. As a [Your Position], I'd love to connect and stay updated on future opportunities within your team."*
@@ -100,14 +100,7 @@ No subestimes el poder de la prueba social. Tener al menos 3-5 recomendaciones e
 
 ## 🎓 Conclusión: Tu marca no tiene fronteras
 
-Optimizar tu LinkedIn en inglés es la inversión con mayor retorno de inversión (ROI) que puedes hacer por tu carrera en 2026. Te permite competir no solo en tu ciudad, sino en el mercado global.
-
-En **Focus English**, no solo te enseñamos gramática; te ayudamos a construir tu identidad profesional internacional. Nuestros servicios incluyen:
-*   **Revisión de Perfil**: Ajustamos tu vocabulario para que suene nativo.
-*   **Networking Scripts**: Plantillas personalizadas para tu sector.
-*   **Simulacros de Entrevista**: Prepárate para cuando ese perfil optimizado empiece a generar llamadas.
-
-[**👉 ¿Listo para que te encuentren las mejores empresas? Optimiza tu perfil con Focus English**](/cuenta/registro?plan=work)
+Optimizar tu LinkedIn en inglés es la inversión con mayor retorno que puedes hacer por tu carrera en 2026. Te permite competir no solo en tu ciudad, sino en el mercado global. Revisa tu vocabulario, usa las plantillas de esta guía y actualiza tu perfil regularmente para que las oportunidades lleguen a ti.
 
 ---
 

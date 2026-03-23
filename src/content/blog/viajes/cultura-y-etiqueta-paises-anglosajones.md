@@ -103,11 +103,9 @@ Para evitar el "choque cultural", usa estas herramientas que habrás practicado 
 *   **Pregunta siempre:** Ante la duda, la humildad es tu mejor arma. *"I'm not sure how this works here, could you help me?"*.
 *   **Observa y mimetiza:** Mira cómo se comportan los locales en una cafetería o en una reunión.
 
-## 🎓 Aprende con Contexto Real en Focus English
+## 🎓 Aprende con contexto real
 
-En **Focus English**, no nos limitamos a corregir tu gramática. Nuestras sesiones de **[inglés para viajar](/blog/viajes/curso-de-ingles-para-viajar)** están diseñadas para que comprendas la psicología detrás del idioma. Queremos que no solo te entiendan, sino que conectes de verdad con las personas que conozcas en tus viajes.
-
-[**👉 Prepárate para el mundo real. Inscríbete en Focus English y viaja con total confianza.**](/cuenta/registro)
+La etiqueta cultural va más allá de la gramática: entender la psicología detrás del idioma es lo que te permite no solo que te entiendan, sino conectar de verdad con las personas que conozcas en tus viajes. El inglés para viajar, cuando se practica en situaciones reales, desarrolla esa competencia cultural de forma natural. Consulta la guía de **[inglés para viajar](/blog/viajes/curso-de-ingles-para-viajar)** para el vocabulario y frases esenciales.
 
 ---
 

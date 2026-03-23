@@ -53,7 +53,7 @@ Si te encuentras en una situación de peligro inminente, la brevedad es tu mejor
 *   **En caso de fuego:** *"Fire! Get out!"* (¡Fuego! ¡Salgan!)
 *   **Accidentes de tráfico:** *"There has been a car crash. We need an ambulance and the police at [Location]."*
 
-**Consejo de Focus English:** Al dar tu ubicación, intenta deletrear los nombres de las calles si no estás seguro de la pronunciación. El alfabeto fonético que enseñamos en nuestras clases de inglés es una herramienta poderosa en estos casos.
+**Consejo:** Al dar tu ubicación, intenta deletrear los nombres de las calles si no estás seguro de la pronunciación. El alfabeto fonético es una herramienta muy útil en estos casos.
 
 ## 🏥 Emergencias Médicas: Describiendo Síntomas y Dolencias
 
@@ -96,18 +96,14 @@ Incluso con el vocabulario adecuado, los nervios pueden jugarte una mala pasada.
 2.  **Usa gestos:** No tengas miedo de señalar dónde te duele o de imitar una acción si no encuentras la palabra. La comunicación no verbal es parte de nuestras **[clases de inglés](/blog/metodos/clases-de-ingles-guia)**.
 3.  **Lleva información escrita:** Ten siempre a mano (en papel, por si te quedas sin batería o te roban el móvil) la dirección de tu hotel, el número de tu seguro de viaje y cualquier alergia importante escrita en inglés.
 
-## 🎓 Cómo Focus English te prepara para lo inesperado
+## 🎓 Practica antes de necesitarlo
 
-En **Focus English**, creemos que el aprendizaje de idiomas debe ser útil para la vida real, no solo para aprobar exámenes. Por eso, nuestros cursos para viajeros incluyen el módulo **"Survival English"**.
+La clave para manejar una emergencia en inglés es haber practicado antes. Algunos ejercicios útiles:
+- Simular llamadas de emergencia para practicar dar datos precisos por teléfono.
+- Juegos de rol donde describes síntomas médicos a un médico o enfermero.
+- Practicar cómo describir objetos perdidos o personas con detalle.
 
-En este módulo:
-- Simulamos llamadas al 911 (o 112) para que practiques dar datos precisos por teléfono.
-- Hacemos juegos de rol donde debes explicar una emergencia médica a un "doctor" de IA.
-- Practicamos cómo describir objetos perdidos o personas con detalle.
-
-Viajar es una de las experiencias más enriquecedoras de la vida. No permitas que el miedo a no saber qué decir en una emergencia te detenga. Con la preparación adecuada, estarás listo para enfrentar cualquier desafío con calma y seguridad.
-
-[👉 Viaja seguro. Prepárate para cualquier imprevisto con nuestras clases de inglés para viajeros](/cuenta/registro?plan=travel)
+Viajar es una de las experiencias más enriquecedoras de la vida. Con la preparación adecuada, estarás listo para enfrentar cualquier imprevisto con calma y seguridad.
 
 ---
 

@@ -114,8 +114,4 @@ Para aprobar el A2, debes dominar estos temas básicos:
 
 ---
 
-## 🚀 Prepárate con Focus English
 
-Aprender inglés no tiene por qué ser aburrido ni eterno. En Focus English hemos diseñado una metodología específica para que pases de no saber nada a dominar el **A2 en tiempo récord**.
-
-[👉 Descubre nuestro método y certifícate](/cuenta/registro)

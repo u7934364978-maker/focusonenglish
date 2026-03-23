@@ -244,9 +244,7 @@ Incorpora estas frases a tus plantillas para sonar más natural y profesional:
 
 ## 🎓 Siguiente Nivel: De Plantillas a Redacción Autónoma
 
-Las plantillas son un punto de partida. El objetivo final es que puedas adaptar y crear tus propios correos con fluidez. En nuestro programa de **[inglés profesional](/blog/trabajo)**, trabajamos la escritura de negocios con ejercicios prácticos y feedback personalizado para que en pocas semanas no necesites plantillas: redactarás con confianza.
-
-[👉 Mejora tu inglés escrito y destaca en el mercado laboral internacional. ¡Comienza hoy!](/cuenta/registro?plan=work)
+Las plantillas son un punto de partida. El objetivo final es que puedas adaptar y crear tus propios correos con fluidez. Practicar la escritura de negocios con ejercicios reales es la forma más rápida de dejar de depender de modelos y redactar con confianza.
 
 ---
 

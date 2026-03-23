@@ -117,8 +117,5 @@ El **Reported Speech** en los exámenes de Cambridge es una oportunidad de oro p
 [**Volver a la Guía Maestra de Reported Speech**](/blog/gramatica/guia-maestra-reported-speech)
 
 ---
-¿Necesitas más práctica con ejercicios reales de Cambridge? En [**Focus English**](/cuenta/registro) disponemos de simuladores de Use of English diseñados para niveles B2, C1 y C2. ¡Empieza tu preparación hoy mismo!
-
----
 
 Para la preparación completa del CAE, consulta [Cambridge C1 Advanced (CAE): Guía Completa](/blog/examenes/cambridge-c1-advanced-guia).

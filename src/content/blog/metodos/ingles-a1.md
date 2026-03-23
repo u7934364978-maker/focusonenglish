@@ -51,7 +51,7 @@ excerpt: >
 
 El **Nivel A1** es el peldaño más emocionante de tu aprendizaje: es el momento en el que dejas de ser un espectador para convertirte en un comunicador. Si alguna vez has sentido que el inglés "no es para ti", esta guía te demostrará que solo necesitabas el enfoque correcto.
 
-En **Focus English**, hemos simplificado la base del idioma para que construyas cimientos sólidos sin agobiarte con reglas teóricas innecesarias.
+La clave es construir cimientos sólidos sin agobiarte con reglas teóricas innecesarias desde el principio.
 
 ---
 
@@ -88,23 +88,11 @@ No intentes ver una película de Shakespeare en versión original todavía. En e
 
 ## 4. Hoja de Ruta: De Cero a la Autonomía
 
-Si empiezas hoy con Focus English, este es el progreso que puedes esperar:
+Con práctica constante, este es el progreso que puedes esperar:
 
 - **Semana 1-2:** Saludas, te presentas y deletreas tu nombre con confianza.
 - **Mes 1:** Puedes pedir café, comprar ropa y hablar de tu familia de forma sencilla.
 - **Mes 3:** Entiendes las ideas principales de textos cortos y estás listo para dar el salto al nivel A2.
-
----
-
-## ¿Por qué elegir Focus English para tu Nivel A1?
-
-Sabemos que los primeros pasos son los más difíciles. Por eso, hemos creado un entorno diseñado para la confianza:
-
-- **Plataforma sin Frustraciones:** Lecciones cortas, visuales y directas al grano.
-- **Gamificación Real:** Aprender se siente como un juego, lo que mantiene tu motivación alta incluso en los días difíciles.
-- **Enfoque Práctico:** Cada regla gramatical que aprendes tiene una aplicación inmediata en tu vida real.
-
-[**El mundo te está esperando. Crea tu cuenta gratuita y empieza a hablar inglés hoy mismo.**](/cuenta/registro)
 
 ---
 

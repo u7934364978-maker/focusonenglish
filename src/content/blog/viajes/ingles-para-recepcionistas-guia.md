@@ -100,7 +100,7 @@ Durante su estancia, el huésped te verá como su guía local. Debes estar prepa
 
 ## ⚠️ 3. Gestión de Reclamaciones: El Método LEAD
 
-Resolver un problema con éxito puede convertir a un cliente insatisfecho en un embajador de tu marca. En Focus English enseñamos el método **LEAD**:
+Resolver un problema con éxito puede convertir a un cliente insatisfecho en un embajador de tu marca. Una técnica muy utilizada en hostelería internacional es el método **LEAD**:
 
 1.  **L (Listen):** Escucha sin interrumpir.
     - *"I understand your concern, sir/madam. Please tell me exactly what happened."*
@@ -153,11 +153,6 @@ El check-out es la última oportunidad para causar una buena impresión y pedir 
 - **Complimentary:** Algo que es gratuito (cortesía del hotel).
 - **Incidental charges:** Gastos extra (minibar, lavandería, etc.).
 - **Wake-up call:** Llamada de despertador.
-
-## Especialízate en Focus English
-
-
-[👉 Regístrate ahora y transforma tu carrera profesional](/cuenta/registro?plan=viajes)
 
 ---
 

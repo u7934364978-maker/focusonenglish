@@ -77,16 +77,9 @@ Para superar el C2, tu preparación debe ir más allá de los libros de texto:
 
 ---
 
-### Alcanza la Excelencia con Focus English
+### Conclusión: el reto definitivo del C2
 
-El C2 Proficiency es el reto definitivo. Además de nuestros niveles A1-C2, ofrecemos cursos especializados en Hostelería, Administración, Logística y Viajes, con miles de ejercicios prácticos de gramática, vocabulario y comprensión lectora para asegurar que dominas cada matiz del idioma.
-
-Si buscas la máxima calidad en tu formación, nuestro **curso ingles c2** está diseñado para llevarte de la mano hasta la maestría total:
-
-- **Contenido de Nivel Maestro**: Acceso a textos y ejercicios de nivel nativo académico para perfeccionar tu comprensión.
-- **Enfoque en Precisión**: Herramientas para pulir tu gramática y vocabulario hasta el nivel de un experto global.
-
-[**Llega a la cima de tu aprendizaje con Focus English y certifica tu maestría.**](/cuenta/registro)
+El C2 Proficiency es el nivel más exigente del sistema Cambridge. Para superarlo necesitas textos académicos reales, precisión gramatical al más alto nivel y un vocabulario que va más allá de lo funcional. La clave es la exposición constante a inglés nativo en contextos formales.
 
 ---
 

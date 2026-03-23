@@ -147,14 +147,7 @@ Esperamos que no las necesites, pero estas frases pueden salvarte de un gran apu
 
 ## Conclusión: Tu Pasaporte a la Libertad
 
-Viajar con inglés es como viajar con un seguro de confianza. No se trata de no cometer errores; se trata de que los errores no arruinen tu experiencia. En **Focus English**, entendemos que el viajero necesita soluciones rápidas.
-
-Nuestro **Curso de Inglés para Viajeros** se aleja de la teoría aburrida y se centra en:
-1.  **Simulacros con IA**: Practica cómo pedir indicaciones o quejarte de una habitación de hotel con nuestro tutor virtual.
-2.  **Entrenamiento Auditivo**: Aprende a entender diferentes acentos (no solo el británico perfecto).
-3.  **Guías de Bolsillo**: Material descargable para que lo lleves en tu móvil y lo consultes sin conexión.
-
-[**¿Planeas tu próximo viaje? No dejes que el idioma sea una barrera. ¡Únete gratis a Focus English hoy!**](/cuenta/registro)
+Viajar con inglés es como viajar con un seguro de confianza. No se trata de no cometer errores; se trata de que los errores no arruinen tu experiencia. Lo que necesitas es inglés práctico orientado a situaciones reales: pedir indicaciones, quejarte de una habitación de hotel, entender acentos diferentes al británico estándar.
 
 ---
 

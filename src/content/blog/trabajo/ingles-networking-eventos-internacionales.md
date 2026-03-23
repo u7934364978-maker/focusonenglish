@@ -81,13 +81,11 @@ En un evento internacional, el inglés es solo una parte de la ecuación. La int
 
 ---
 
-## 🎓 Entrena tu Networking con Focus English
+## Conclusión: practica el networking antes de necesitarlo
 
-En **Focus English**, sabemos que la "timidez lingüística" es el mayor freno para el éxito. Por eso, nuestras sesiones no son solo gramática; son simulacros de networking. Practicamos cómo entrar en un grupo de personas que ya están hablando, cómo presentar a dos conocidos entre sí y cómo retirarse de una conversación de forma elegante cuando necesitas ir a otra sesión.
+La "timidez lingüística" es uno de los mayores frenos al networking internacional. La solución es practicar antes: ensaya cómo entrar en un grupo de personas que ya están hablando, cómo presentar a dos conocidos entre sí y cómo retirarte de una conversación de forma elegante.
 
 No dejes que tu nivel de inglés limite tu red de contactos. Cada persona que conoces es una oportunidad potencial de aprendizaje o negocio.
-
-[👉 ¡Empieza a construir tu red global! Inscríbete en nuestras clases de inglés profesional](/cuenta/registro?plan=work)
 
 ---
 

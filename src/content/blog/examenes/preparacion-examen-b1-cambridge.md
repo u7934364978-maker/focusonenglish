@@ -98,16 +98,9 @@ No necesitas comprar libros caros para aprobar. Aquí tienes los mejores **recur
 
 ---
 
-## Conclusión: Tu Certificado B1 con Focus English
+## Conclusión: aprobar el B1 es cuestión de técnica y constancia
 
-Aprobar el B1 es una cuestión de técnica de examen y constancia. Además de nuestros niveles A1-C2, ofrecemos cursos especializados en Hostelería, Administración, Logística y Viajes, con miles de ejercicios prácticos de gramática, vocabulario y comprensión lectora para asegurar tu éxito.
-
-En **Focus English**, hemos diseñado una plataforma que te permite:
-
-*   **Rutas de Aprendizaje**: Ejercicios de refuerzo adaptados para que domines cada punto gramatical necesario para el B1.
-*   **Enfoque en Vocabulario Práctico**: Listas y actividades enfocadas en los temas que realmente aparecen en el examen.
-
-[**¡Consigue tu título B1 este mes! Empieza tu preparación con Focus English hoy.**](/cuenta/registro)
+Aprobar el B1 no depende solo de tu nivel de inglés, sino de conocer el formato del examen y practicar sistemáticamente cada sección. Los puntos clave son la gramática esencial bien asentada, vocabulario temático de los temas recurrentes y práctica específica de listening y writing con el formato real del PET.
 
 ---
 

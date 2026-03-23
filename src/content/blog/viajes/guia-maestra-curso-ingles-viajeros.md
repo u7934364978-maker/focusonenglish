@@ -77,7 +77,7 @@ Las mejores experiencias no suelen estar en las guías masificadas. Están en la
 ¿Qué debes buscar hoy en día? Olvida las listas interminables de gramática teórica; prioriza situaciones reales.
 
 ### Escenarios Reales
-En **Focus English**, priorizamos que seas el protagonista. Practicamos situaciones como:
+El aprendizaje efectivo prioriza que seas el protagonista. Las situaciones clave que debes practicar son:
 - **Gestión de Alojamiento:** Más allá de la llave, cómo reportar una incidencia o pedir un servicio específico.
 - **Experiencias Gastronómicas:** Entender ingredientes locales, manejar alérgenos y comprender la cultura de las propinas en cada país.
 - **Logística y Transporte:** Navegar por sistemas complejos de transporte o gestionar el alquiler de un vehículo con confianza.
@@ -134,12 +134,7 @@ Si viajas mientras trabajas, tu necesidad de comunicación es híbrida:
 
 ## 🎓 Conclusión: El Souvenir que se Queda Contigo
 
-Los monumentos son impresionantes, pero los retos superados y las conexiones humanas son lo que realmente perdura. Prepararte con el idioma es decidir ser el protagonista de tu aventura, en lugar de un espectador limitado por una pantalla de traducción.
-
-En **Focus English**, no solo enseñamos palabras; te damos la libertad de explorar el mundo con confianza. Porque el planeta es demasiado interesante para verlo en silencio.
-
-**¿Listo para tu próxima aventura?**
-[👉 Empieza tu preparación hoy mismo](/cuenta/registro?plan=travel)
+Los monumentos son impresionantes, pero los retos superados y las conexiones humanas son lo que realmente perdura. Prepararte con el idioma antes de viajar es lo que marca la diferencia entre sobrevivir en el extranjero y disfrutarlo de verdad. El planeta es demasiado interesante para verlo en silencio.
 
 ---
 

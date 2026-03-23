@@ -62,28 +62,15 @@ El **nivel intermedio de inglés** requiere el dominio de estructuras que permit
 
 ## 2. Preparación Específica para Exámenes Oficiales (B1)
 
-En Focus English sabemos que muchos alumnos buscan los **cursos online de inglés B1** para obtener una certificación. Por eso, desglosamos las estrategias para los exámenes más populares:
-*   **Cambridge B1 Preliminary (PET)**: Nos enfocamos en el *Reading* y el *Writing* de tipo informal (emails) y descriptivo (artículos). Practicamos las transformaciones gramaticales típicas de este examen.
+Muchos estudiantes buscan los **cursos online de inglés B1** para obtener una certificación. Estas son las estrategias para los exámenes más populares:
+*   **Cambridge B1 Preliminary (PET)**: El foco está en el *Reading* y el *Writing* de tipo informal (emails) y descriptivo (artículos). Las transformaciones gramaticales son clave en este examen.
 
 ## 5. Hoja de Ruta de 3 Meses para Alcanzar el Nivel B2 (Avanzado)
 
 Si tu meta final es el nivel B2, el B1 es la base donde debes construir cimientos sólidos:
 1.  **Mes 1**: Afianza toda la gramática del B1 y empieza a consumir contenido en inglés a diario (15-20 min). Prueba con noticias de la BBC en su sección "Learning English".
 2.  **Mes 2**: Empieza a ver series en versión original con subtítulos en inglés. El objetivo es que tu cerebro deje de traducir y empiece a procesar los sonidos directamente.
-3.  **Mes 3**: Practica el Writing de tipo ensayo y carta formal intensivamente. Únete a nuestros simulacros de examen cronometrados para medir tu nivel real antes de presentarte a la convocatoria oficial.
-
----
-
-### Por qué elegir el Método Focus English para tu B1
-
-En **Focus English**, no solo aprendes inglés, te enseñamos **cómo certificarlo**. Nuestra plataforma incluye:
-
-1.  **Simulacros de Examen Reales**: Practica con exámenes actualizados de Cambridge (PET), Aptis General, Oxford Test of English y EOI.
-2.  **IA de Evaluación de Writing y Speaking**: Recibe una nota estimada y consejos de mejora instantáneos basados en los criterios oficiales de los examinadores.
-3.  **Speaking Clubs por Niveles**: Únete a sesiones en vivo con otros estudiantes B1 para perder el miedo a hablar y ganar fluidez.
-4.  **Tracking de Progreso Inteligente**: Nuestra plataforma detecta tus puntos débiles gramaticales y te propone ejercicios personalizados para reforzarlos antes del examen.
-
-[**Consigue tu título B1 y abre las puertas de tu futuro profesional con Focus English.**](/cuenta/registro)
+3.  **Mes 3**: Practica el Writing de tipo ensayo y carta formal intensivamente. Usa simulacros de examen cronometrados para medir tu nivel real antes de presentarte a la convocatoria oficial.
 
 ---
 

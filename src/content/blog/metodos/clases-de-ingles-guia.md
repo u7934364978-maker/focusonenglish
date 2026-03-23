@@ -89,16 +89,6 @@ En lugar de un examen trimestral, busca plataformas que midan tu progreso diario
 
 ---
 
-## 💎 Focus English: Redefiniendo las clases de inglés
-
-En **Focus English**, hemos analizado los fallos de las clases convencionales para crear un ecosistema de aprendizaje diseñado para el siglo XXI.
-
-- **Rutas Personalizadas:** Ya sea para [Trabajo](/blog/trabajo), [Viajes](/blog/viajes) o Exámenes, tenemos el contenido que necesitas.
-- **Aprendizaje Activo:** Olvídate de las clases pasivas. Aquí tú eres el protagonista.
-
-### ¿Por qué elegirnos?
-Nuestra metodología se basa en la **inmersión técnica**. No solo aprendes inglés, aprendes a usarlo en tu contexto profesional y personal de forma inmediata.
-
 ---
 
 ## 💡 Consejos para maximizar tu inversión en inglés
@@ -110,10 +100,6 @@ Para que tus **clases de inglés** den frutos, sigue estos pasos:
 
 ---
 
-## 🎓 Conclusión: Tu futuro empieza con una decisión
+## Conclusión
 
-
-**¿Quieres experimentar el futuro del aprendizaje de idiomas?**
-[👉 Regístrate ahora y obtén tu primera semana de acceso total gratis](/cuenta/registro)
-
-Únete a los miles de profesionales que ya están transformando su carrera con el método más eficiente de 2026. 🚀🌍
+La clave para sacar partido a cualquier clase de inglés es combinar el método correcto con constancia. Tanto si optas por clases presenciales, online con tutor o plataformas de estudio estructurado, lo importante es que el formato encaje con tu ritmo de vida y te permita practicar con regularidad.

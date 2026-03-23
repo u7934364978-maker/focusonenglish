@@ -84,17 +84,11 @@ Un usuario C1 deja atrás palabras genéricas como *good, bad* o *big*.
 
 ---
 
-## Conclusión: El Camino a la Maestría con Focus English
+## Conclusión: El camino al C1 Advanced
 
-El C1 Advanced es un reto psicológico tanto como lingüístico. Si aún estás decidiendo entre presentarte al FCE o al CAE, consulta los [precios actualizados de los exámenes Cambridge](/blog/examenes/precios-examenes-cambridge) para planificar tu inversión. Requiere resistencia y una exposición real al inglés culto. Además de nuestros niveles A1-C2, ofrecemos cursos especializados en Hostelería, Administración, Logística y Viajes, con miles de ejercicios prácticos de gramática, vocabulario y comprensión lectora.
+El C1 Advanced es un reto psicológico tanto como lingüístico. Requiere resistencia y una exposición real al inglés culto. Si aún estás decidiendo entre presentarte al FCE o al CAE, consulta los [precios actualizados de los exámenes Cambridge](/blog/examenes/precios-examenes-cambridge) para planificar tu inversión.
 
-En **Focus English**, hemos diseñado un programa específico para llevarte al C1:
-
-*   **Enfoque en Gramática Avanzada**: Domina las estructuras complejas que los examinadores esperan ver.
-*   **Entrenamiento en Comprensión Lectora**: Desarrolla la agilidad necesaria para textos de nivel experto.
-*   **Simulacros de Use of English**: Entrenamiento intensivo en transformaciones y word formation con explicaciones paso a paso.
-
-[**Lleva tu inglés al nivel de un profesional global. Regístrate en Focus English y asegura tu título C1 Advanced hoy mismo.**](/cuenta/registro)
+Las claves para superarlo son consistentes: gramática avanzada consolidada, agilidad en comprensión lectora y entrenamiento intensivo en las transformaciones y word formation del Use of English.
 
 ---
 

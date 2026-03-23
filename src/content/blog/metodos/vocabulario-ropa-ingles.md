@@ -140,4 +140,4 @@ Es un código de vestimenta intermedio. No es un traje formal, pero tampoco son 
 
 ---
 
-¿Quieres practicar este vocabulario en un entorno de compras simulado por IA? En **Focus English** hemos diseñado lecciones interactivas para que aprendas a desenvolverte en tiendas de Londres o Nueva York. [**Regístrate gratis y vístete de fluidez.**](/cuenta/registro)
+Para seguir practicando vocabulario de ropa en contexto, consulta nuestra [guía de inglés para viajar](/blog/viajes/ingles-para-viajar) con situaciones reales de compras en el extranjero.

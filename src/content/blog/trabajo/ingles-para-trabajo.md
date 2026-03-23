@@ -53,7 +53,7 @@ faqs:
 
 En el mercado laboral de 2026, el inglés ha dejado de ser un "extra" en el currículum para convertirse en el idioma oficial de la innovación y los negocios globales. Ya no basta con entender un correo; la diferencia entre un perfil estancado y uno que progresa es la capacidad de **comunicar con autoridad, empatía y precisión**.
 
-En **Focus English**, entendemos que tu tiempo es oro. Por eso, nuestro enfoque en inglés profesional se aleja de la teoría académica para centrarse en lo que realmente sucede en una oficina moderna, una startup tecnológica o una multinacional.
+Mejorar el inglés profesional implica alejarse de la teoría académica para centrarse en lo que realmente sucede en una oficina moderna, una startup tecnológica o una multinacional.
 
 ---
 
@@ -104,16 +104,6 @@ Más que un "título", se necesita un **B2 funcional**. Esto significa ser capaz
 En 2026, lo que importa es la **claridad**. El mundo de los negocios valora la inteligibilidad por encima de sonar como un nativo de Londres o Nueva York. Un acento propio, siempre que sea claro y use la entonación correcta, transmite autenticidad y experiencia internacional.
 
 ---
-
-## Transforma tu Futuro Profesional con Focus English
-
-Nuestra metodología está diseñada para profesionales con ambición que necesitan resultados tangibles:
-
-- **Escenarios Reales:** Practica [entrevistas de trabajo en inglés](/blog/trabajo/preparar-entrevista-trabajo-ingles), [negociaciones de salario](/blog/trabajo/negociar-salario-ingles) y presentaciones de producto en un entorno seguro y constructivo.
-- **Feedback Predictivo:** Analizamos tu comunicación para detectar muletillas, mejorar tu entonación y ampliar tu léxico profesional.
-- **Comunidad Global:** Conecta con otros profesionales que, como tú, están escalando sus carreras usando el inglés como palanca de crecimiento.
-
-[**¿Listo para el siguiente paso en tu carrera? Únete a Focus English y empieza a hablar el idioma del éxito.**](/cuenta/registro)
 
 ---
 
