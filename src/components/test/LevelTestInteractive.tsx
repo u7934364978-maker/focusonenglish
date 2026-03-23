@@ -4,8 +4,10 @@ import { useState } from 'react';
 import { LEVEL_TEST_QUESTIONS, calculateLevel, TOTAL_POINTS, type Question, type LevelResult } from '@/lib/level-test-data';
 import { CheckCircle2, XCircle, ArrowRight, ArrowLeft, BarChart3, Clock, Award } from 'lucide-react';
 import Link from 'next/link';
+import { useUser } from '@/hooks/useAuth';
 
 export default function LevelTestInteractive() {
+  const { user } = useUser();
   const [hasStarted, setHasStarted] = useState(false);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [answers, setAnswers] = useState<{ [questionId: string]: number }>({});
@@ -69,6 +71,19 @@ export default function LevelTestInteractive() {
       });
     } catch (error) {
       console.error('Error syncing with CRM:', error);
+    }
+
+    // Si el alumno está autenticado, guardar nivel y marcar placement completado
+    if (user) {
+      try {
+        await fetch('/api/placement/complete', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ level: levelResult.level }),
+        });
+      } catch (error) {
+        console.error('Error saving authenticated placement result:', error);
+      }
     }
 
     setIsSubmitting(false);
@@ -330,10 +345,10 @@ export default function LevelTestInteractive() {
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
-                href={result.courseUrl}
+                href={user ? '/mi-panel' : result.courseUrl}
                 className="flex-1 bg-gradient-to-r from-coral-600 to-peach-600 text-white px-8 py-4 rounded-xl font-bold text-center hover:from-coral-700 hover:to-peach-700 transition-all shadow-lg hover:shadow-xl"
               >
-                Ver Curso Recomendado →
+                {user ? 'Ir a mi ruta personalizada →' : 'Ver Curso Recomendado →'}
               </Link>
               <button
                 onClick={handleRestart}

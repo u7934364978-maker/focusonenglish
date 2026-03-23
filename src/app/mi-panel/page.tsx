@@ -2,6 +2,8 @@ import Link from 'next/link';
 import { redirect } from 'next/navigation';
 import { createClient } from '@/lib/supabase/server';
 import { Navigation } from '@/components/sections/Navigation';
+import LearningGoalSelector from '@/components/panel/LearningGoalSelector';
+import { resolveEntitlements } from '@/lib/access/entitlements';
 
 export const dynamic = 'force-dynamic';
 
@@ -18,7 +20,27 @@ const COURSE_LABELS: Record<string, { label: string; href: string }> = {
   'ingles-a2': { label: 'Ingles A2', href: '/curso-a2/outline' },
   'ingles-b1': { label: 'Ingles B1', href: '/curso-b1/outline' },
   'ingles-b2': { label: 'Ingles B2', href: '/curso-b2/outline' },
+  'ingles-c1': { label: 'Ingles C1', href: '/curso-c1' },
+  'ingles-c2': { label: 'Ingles C2', href: '/curso-c2' },
 };
+
+const OFFICIAL_COURSE_BY_LEVEL: Record<string, Array<{ label: string; href: string }>> = {
+  A1: [{ label: 'Curso oficial A1', href: '/curso-a1/outline' }],
+  A2: [{ label: 'Curso oficial A2', href: '/curso-a2/outline' }],
+  B1: [{ label: 'Curso oficial B1', href: '/curso-b1/outline' }],
+  B2: [{ label: 'Curso oficial B2', href: '/curso-b2/outline' }],
+  C1: [{ label: 'Curso oficial C1', href: '/curso-c1' }],
+  C2: [{ label: 'Curso oficial C2', href: '/curso-c2' }],
+};
+
+type Goal = 'general' | 'travel' | 'professional';
+type AccessState = 'included' | 'limited' | 'blocked';
+
+function accessLabel(state: AccessState): string {
+  if (state === 'included') return 'Incluido';
+  if (state === 'limited') return 'Limitado';
+  return 'Bloqueado';
+}
 
 function normalizeStatus(status: string | null | undefined): string {
   if (!status) return 'not_started';
@@ -92,7 +114,31 @@ export default async function MiPanelPage() {
     (user.email ?? 'Alumno');
   const subscriptionStatus = (profile?.subscription_status as string | undefined) ?? 'inactive';
   const subscriptionPlan = (profile?.subscription_plan as string | undefined) ?? 'free';
-  const languageLevel = (profile?.language_level as string | undefined) ?? 'A1';
+  const entitlements = resolveEntitlements({
+    subscriptionStatus,
+    subscriptionPlan,
+  });
+  const languageLevel = ((profile?.language_level as string | undefined) ?? 'A1').toUpperCase();
+  const learningGoals = Array.isArray(profile?.learning_goals) ? (profile?.learning_goals as string[]) : [];
+  const hasPlacementCompleted = learningGoals.includes('placement_completed');
+  const selectedGoal = (learningGoals.find((goal) => goal === 'travel' || goal === 'professional' || goal === 'general') ?? 'general') as Goal;
+  const recommendedOfficialCourses = OFFICIAL_COURSE_BY_LEVEL[languageLevel] ?? OFFICIAL_COURSE_BY_LEVEL.A1;
+
+  const blockAccess = {
+    officialCourses: (entitlements.officialCourses ? 'included' : 'blocked') as AccessState,
+    travelTrack: (entitlements.travelTrack ? 'included' : 'blocked') as AccessState,
+    professionalTrack: (entitlements.professionalTrack ? 'included' : 'blocked') as AccessState,
+    aiSpeaking: (entitlements.aiSpeakingFull ? 'included' : entitlements.aiSpeakingLimited ? 'limited' : 'blocked') as AccessState,
+    podcasts: (entitlements.podcasts ? 'included' : 'blocked') as AccessState,
+    readings: (entitlements.readings ? 'included' : 'blocked') as AccessState,
+    vocabulary: (entitlements.vocabulary ? 'included' : 'blocked') as AccessState,
+  };
+
+  const goalTitle = selectedGoal === 'travel'
+    ? 'Ruta: Inglés para viajar'
+    : selectedGoal === 'professional'
+      ? 'Ruta: Inglés profesional'
+      : 'Ruta: General y exámenes oficiales';
 
   return (
     <>
@@ -105,6 +151,12 @@ export default async function MiPanelPage() {
             <p className="text-slate-600 mt-2">
               Aqui tienes tu centro de control: cursos, progreso, suscripcion, pagos y soporte.
             </p>
+            {hasPlacementCompleted && (
+              <div className="mt-4">
+                <p className="text-xs font-bold uppercase tracking-wide text-slate-500">Objetivo principal</p>
+                <LearningGoalSelector initialGoal={selectedGoal} />
+              </div>
+            )}
           </section>
 
           {srsA1DueCount > 0 && (
@@ -130,9 +182,13 @@ export default async function MiPanelPage() {
           )}
 
           <section className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4">
-            <Link href="/curso-a1/outline" className="bg-white border border-slate-200 rounded-2xl p-5 hover:shadow-md transition">
+            <Link href={hasPlacementCompleted ? "/curso-a1/outline" : "/test-nivel?source=panel&next=/mi-panel"} className="bg-white border border-slate-200 rounded-2xl p-5 hover:shadow-md transition">
               <div className="text-lg font-black text-slate-900">Mis cursos</div>
-              <div className="text-sm text-slate-600 mt-1">Entrar al contenido y continuar clases.</div>
+              <div className="text-sm text-slate-600 mt-1">
+                {hasPlacementCompleted
+                  ? 'Entrar al contenido y continuar clases.'
+                  : 'Completa el test para desbloquear cursos por nivel.'}
+              </div>
             </Link>
             <Link href="/support/ticket" className="bg-white border border-slate-200 rounded-2xl p-5 hover:shadow-md transition">
               <div className="text-lg font-black text-slate-900">Soporte y tickets</div>
@@ -147,6 +203,178 @@ export default async function MiPanelPage() {
               <div className="text-sm text-slate-600 mt-1">Repetir test para ajustar tu ruta de aprendizaje.</div>
             </Link>
           </section>
+
+          {!hasPlacementCompleted && (
+            <section className="bg-amber-50 border border-amber-200 rounded-2xl p-6">
+              <h2 className="text-xl font-black text-amber-900">Paso obligatorio: test de nivel</h2>
+              <p className="text-amber-800 mt-2">
+                Para mostrarte cursos adecuados y activar tu ruta personalizada, primero debes completar el test de nivel.
+              </p>
+              <div className="mt-4">
+                <Link
+                  href="/test-nivel?source=post-pago&next=/mi-panel"
+                  className="inline-flex px-4 py-2 rounded-lg bg-amber-600 text-white text-sm font-bold hover:bg-amber-700 transition"
+                >
+                  Hacer test ahora
+                </Link>
+              </div>
+            </section>
+          )}
+
+          {hasPlacementCompleted && (
+            <section className="bg-white border border-slate-200 rounded-2xl p-5">
+              <h2 className="text-xl font-black text-slate-900">{goalTitle}</h2>
+              <p className="text-sm text-slate-600 mt-1">
+                Nivel detectado: <span className="font-bold text-slate-900">{languageLevel}</span>. Estas son tus opciones desbloqueadas por plan.
+              </p>
+
+              <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="border border-slate-200 rounded-xl p-4">
+                  <div className="flex items-center justify-between gap-2">
+                    <h3 className="font-black text-slate-900">Cursos oficiales por nivel</h3>
+                    <span className={`text-xs font-bold px-2 py-1 rounded ${
+                      blockAccess.officialCourses === 'included' ? 'bg-emerald-100 text-emerald-700' : 'bg-red-100 text-red-700'
+                    }`}>
+                      {accessLabel(blockAccess.officialCourses)}
+                    </span>
+                  </div>
+                  <div className="mt-3 space-y-2">
+                    {blockAccess.officialCourses === 'included' ? (
+                      recommendedOfficialCourses.map((course) => (
+                        <Link key={course.href} href={course.href} className="block text-sm font-semibold text-coral-700 hover:text-coral-800">
+                          {course.label}
+                        </Link>
+                      ))
+                    ) : (
+                      <p className="text-sm text-slate-600">Activa una suscripción para acceder a cursos oficiales.</p>
+                    )}
+                  </div>
+                </div>
+
+                <div className="border border-slate-200 rounded-xl p-4">
+                  <div className="flex items-center justify-between gap-2">
+                    <h3 className="font-black text-slate-900">Speaking con IA</h3>
+                    <span className={`text-xs font-bold px-2 py-1 rounded ${
+                      blockAccess.aiSpeaking === 'included'
+                        ? 'bg-emerald-100 text-emerald-700'
+                        : blockAccess.aiSpeaking === 'limited'
+                          ? 'bg-amber-100 text-amber-700'
+                          : 'bg-red-100 text-red-700'
+                    }`}>
+                      {accessLabel(blockAccess.aiSpeaking)}
+                    </span>
+                  </div>
+                  <div className="mt-3 space-y-2">
+                    {blockAccess.aiSpeaking !== 'blocked' ? (
+                      <>
+                        <Link href="/tutor-ia" className="block text-sm font-semibold text-coral-700 hover:text-coral-800">
+                          Practicar speaking con IA
+                        </Link>
+                        {blockAccess.aiSpeaking === 'limited' && (
+                          <p className="text-xs text-amber-700">Plan básico: práctica de IA en modalidad limitada.</p>
+                        )}
+                      </>
+                    ) : (
+                      <p className="text-sm text-slate-600">Disponible en planes con suscripción activa.</p>
+                    )}
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="border border-dashed border-slate-300 rounded-xl p-4 bg-slate-50">
+                  <div className="flex items-center justify-between gap-2">
+                    <h3 className="font-black text-slate-900">Cursos de inglés para viajar</h3>
+                    <span className={`text-xs font-bold px-2 py-1 rounded ${
+                      blockAccess.travelTrack === 'included' ? 'bg-emerald-100 text-emerald-700' : 'bg-red-100 text-red-700'
+                    }`}>
+                      {accessLabel(blockAccess.travelTrack)}
+                    </span>
+                  </div>
+                  <p className="text-sm text-slate-600 mt-1">
+                    {blockAccess.travelTrack === 'included'
+                      ? 'Incluido en premium. Ruta de viaje disponible en esta fase como contenido curado.'
+                      : 'Disponible en plan premium.'}
+                  </p>
+                  <Link href="/mi-panel/ruta-viaje" className="inline-flex mt-2 text-sm font-semibold text-coral-700 hover:text-coral-800">
+                    Ver ruta de viaje
+                  </Link>
+                </div>
+                <div className="border border-dashed border-slate-300 rounded-xl p-4 bg-slate-50">
+                  <div className="flex items-center justify-between gap-2">
+                    <h3 className="font-black text-slate-900">Cursos por sector profesional</h3>
+                    <span className={`text-xs font-bold px-2 py-1 rounded ${
+                      blockAccess.professionalTrack === 'included' ? 'bg-emerald-100 text-emerald-700' : 'bg-red-100 text-red-700'
+                    }`}>
+                      {accessLabel(blockAccess.professionalTrack)}
+                    </span>
+                  </div>
+                  <p className="text-sm text-slate-600 mt-1">
+                    {blockAccess.professionalTrack === 'included'
+                      ? 'Incluido en premium. Puedes empezar por una ruta profesional específica.'
+                      : 'Disponible en plan premium.'}
+                  </p>
+                  <Link href="/mi-panel/ruta-profesional" className="inline-flex mt-2 text-sm font-semibold text-coral-700 hover:text-coral-800">
+                    Ver ruta profesional
+                  </Link>
+                </div>
+              </div>
+
+              <div className="mt-4 grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div className="border border-slate-200 rounded-xl p-4">
+                  <div className="flex items-center justify-between gap-2">
+                    <h3 className="font-black text-slate-900">Podcasts</h3>
+                    <span className={`text-xs font-bold px-2 py-1 rounded ${
+                      blockAccess.podcasts === 'included' ? 'bg-emerald-100 text-emerald-700' : 'bg-red-100 text-red-700'
+                    }`}>
+                      {accessLabel(blockAccess.podcasts)}
+                    </span>
+                  </div>
+                  {blockAccess.podcasts === 'included' ? (
+                    <Link href="/mi-panel/podcasts" className="inline-flex mt-2 text-sm font-semibold text-coral-700 hover:text-coral-800">
+                      Abrir podcasts
+                    </Link>
+                  ) : (
+                    <p className="text-sm text-slate-600 mt-2">Activa tu plan para desbloquear esta sección.</p>
+                  )}
+                </div>
+                <div className="border border-slate-200 rounded-xl p-4">
+                  <div className="flex items-center justify-between gap-2">
+                    <h3 className="font-black text-slate-900">Lecturas</h3>
+                    <span className={`text-xs font-bold px-2 py-1 rounded ${
+                      blockAccess.readings === 'included' ? 'bg-emerald-100 text-emerald-700' : 'bg-red-100 text-red-700'
+                    }`}>
+                      {accessLabel(blockAccess.readings)}
+                    </span>
+                  </div>
+                  {blockAccess.readings === 'included' ? (
+                    <Link href="/mi-panel/lecturas" className="inline-flex mt-2 text-sm font-semibold text-coral-700 hover:text-coral-800">
+                      Abrir lecturas
+                    </Link>
+                  ) : (
+                    <p className="text-sm text-slate-600 mt-2">Activa tu plan para desbloquear esta sección.</p>
+                  )}
+                </div>
+                <div className="border border-slate-200 rounded-xl p-4">
+                  <div className="flex items-center justify-between gap-2">
+                    <h3 className="font-black text-slate-900">Vocabulario</h3>
+                    <span className={`text-xs font-bold px-2 py-1 rounded ${
+                      blockAccess.vocabulary === 'included' ? 'bg-emerald-100 text-emerald-700' : 'bg-red-100 text-red-700'
+                    }`}>
+                      {accessLabel(blockAccess.vocabulary)}
+                    </span>
+                  </div>
+                  {blockAccess.vocabulary === 'included' ? (
+                    <Link href="/mi-panel/vocabulario" className="inline-flex mt-2 text-sm font-semibold text-coral-700 hover:text-coral-800">
+                      Abrir vocabulario
+                    </Link>
+                  ) : (
+                    <p className="text-sm text-slate-600 mt-2">Activa tu plan para desbloquear esta sección.</p>
+                  )}
+                </div>
+              </div>
+            </section>
+          )}
 
           <section className="grid grid-cols-1 lg:grid-cols-3 gap-4">
             <div className="lg:col-span-1 bg-white border border-slate-200 rounded-2xl p-5">
@@ -178,7 +406,11 @@ export default async function MiPanelPage() {
 
             <div className="lg:col-span-2 bg-white border border-slate-200 rounded-2xl p-5">
               <h2 className="text-xl font-black text-slate-900">Mi progreso academico</h2>
-              {summaries.length === 0 ? (
+              {!hasPlacementCompleted ? (
+                <p className="text-slate-600 mt-3 text-sm">
+                  Completa el test de nivel para activar tu ruta y empezar a registrar progreso.
+                </p>
+              ) : summaries.length === 0 ? (
                 <p className="text-slate-600 mt-3 text-sm">
                   Aun no hay progreso registrado. Empieza por tu curso para ver avance por unidades.
                 </p>

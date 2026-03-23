@@ -56,10 +56,10 @@ function SuccessContent() {
 
       <div className="flex flex-col sm:flex-row gap-4 justify-center">
         <Link
-          href="/curso-a1/outline"
+          href="/onboarding"
           className="inline-flex items-center justify-center bg-amber-600 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-amber-700 transition-colors"
         >
-          Ir a mi Curso A1
+          Empezar mi ruta personalizada
         </Link>
         <Link
           href="/"

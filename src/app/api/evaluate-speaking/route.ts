@@ -1,4 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { createClient } from '@/lib/supabase/server';
+import { resolveEntitlements } from '@/lib/access/entitlements';
 
 export const maxDuration = 60;
 
@@ -26,6 +28,33 @@ export interface SpeakingEvaluationResponse {
 
 export async function POST(request: NextRequest) {
   try {
+    const supabase = await createClient();
+    const {
+      data: { user },
+    } = await supabase.auth.getUser();
+    if (!user) {
+      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+    }
+
+    const { data: profile } = await supabase
+      .from('user_profiles')
+      .select('subscription_status, subscription_plan')
+      .eq('user_id', user.id)
+      .maybeSingle();
+
+    const entitlements = resolveEntitlements({
+      subscriptionStatus: profile?.subscription_status,
+      subscriptionPlan: profile?.subscription_plan,
+    });
+
+    // Premium: acceso completo. Basic: acceso limitado (este endpoint). Free/inactive: bloqueado.
+    if (!entitlements.aiSpeakingFull && !entitlements.aiSpeakingLimited) {
+      return NextResponse.json(
+        { error: 'Speaking con IA requiere una suscripción activa.' },
+        { status: 402 }
+      );
+    }
+
     const body: SpeakingEvaluationRequest = await request.json();
 
     const {

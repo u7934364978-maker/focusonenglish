@@ -1,6 +1,8 @@
 import { NextResponse } from 'next/server';
 import OpenAI from 'openai';
 import { TUTOR_PROMPTS, GLOBAL_TUTOR_INSTRUCTIONS } from '@/lib/ai/tutor-prompts';
+import { createClient } from '@/lib/supabase/server';
+import { resolveEntitlements } from '@/lib/access/entitlements';
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY || '',
@@ -12,6 +14,37 @@ export async function POST(req: Request) {
   }
 
   try {
+    const supabase = await createClient();
+    const {
+      data: { user },
+    } = await supabase.auth.getUser();
+    if (!user) {
+      return NextResponse.json({ success: false, error: 'Unauthorized' }, { status: 401 });
+    }
+
+    const { data: profile } = await supabase
+      .from('user_profiles')
+      .select('subscription_status, subscription_plan')
+      .eq('user_id', user.id)
+      .maybeSingle();
+
+    const entitlements = resolveEntitlements({
+      subscriptionStatus: profile?.subscription_status,
+      subscriptionPlan: profile?.subscription_plan,
+    });
+
+    // El chat completo del tutor IA queda para premium.
+    if (!entitlements.aiSpeakingFull) {
+      return NextResponse.json(
+        {
+          success: false,
+          error: 'Este bloque requiere plan premium.',
+          upgradeRequired: true,
+        },
+        { status: 402 }
+      );
+    }
+
     const { tutorId, messages, level, scenario } = await req.json();
 
     const tutorPrompt = TUTOR_PROMPTS[tutorId] || TUTOR_PROMPTS.tutor1;

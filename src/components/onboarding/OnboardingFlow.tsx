@@ -2,17 +2,15 @@
 
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { 
-  Target, 
-  Trophy, 
-  Clock, 
-  ChevronRight, 
-  ChevronLeft, 
+import {
+  Target,
+  Trophy,
+  Clock,
+  ChevronLeft,
   Sparkles,
   CheckCircle2
 } from 'lucide-react';
 import { useRouter } from 'next/navigation';
-import { updateUserProfile } from '@/lib/services/profile-service';
 import { useUser } from '@/hooks/useAuth';
 
 const STEPS = [
@@ -58,20 +56,7 @@ export default function OnboardingFlow() {
       router.push('/cuenta/login');
       return;
     }
-
-    setIsSubmitting(true);
-    try {
-      await updateUserProfile(user.id, {
-        language_level: selections.level,
-        learning_goals: ['general'],
-        // Additional metadata could be stored in a separate table or JSON field if needed
-      });
-      router.push('/mi-panel');
-    } catch (error) {
-      console.error('Error saving onboarding data:', error);
-    } finally {
-      setIsSubmitting(false);
-    }
+    router.push('/test-nivel?source=post-pago&next=/mi-panel');
   };
 
   const step = STEPS[currentStep];
@@ -176,11 +161,9 @@ export default function OnboardingFlow() {
                   disabled={isSubmitting}
                   className="bg-gradient-to-r from-[#FF6B6B] to-[#FF8E53] text-white px-8 py-4 rounded-2xl font-black shadow-lg shadow-orange-200 hover:scale-105 active:scale-95 transition-all flex items-center gap-2 disabled:opacity-50 disabled:scale-100"
                 >
-                  {isSubmitting ? (
-                    'Guardando...'
-                  ) : (
+                  {isSubmitting ? 'Guardando...' : (
                     <>
-                      ¡Empezar ahora!
+                      Hacer test de nivel
                       <Sparkles className="w-5 h-5" />
                     </>
                   )}
