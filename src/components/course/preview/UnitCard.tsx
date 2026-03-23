@@ -99,7 +99,7 @@ function getUnitEmoji(unit: UnitMetadata): string {
   return defaults[(unit.unitNumber - 1) % defaults.length];
 }
 
-export function UnitCard({ unit }: UnitCardProps) {
+export function UnitCard({ unit, coursePath = '/curso-a1' }: UnitCardProps) {
   const theme = getTheme(unit.unitNumber);
   const emoji = getUnitEmoji(unit);
 

@@ -56,11 +56,14 @@ export function useGamification() {
         .eq('user_id', user.id);
 
       // Load streak data
-      const { data: streakData } = await supabase
+      const { data: streakData, error: streakError } = await supabase
         .from('user_streaks')
         .select('*')
         .eq('user_id', user.id)
         .single();
+
+      // Si la tabla de rachas no existe en este entorno, continuamos sin bloquear.
+      const missingStreakTable = streakError?.code === 'PGRST205';
 
       setData({
         xp: xpData?.total_xp || 0,
@@ -68,9 +71,11 @@ export function useGamification() {
         xpToNextLevel: xpData?.xp_to_next_level || 100,
         badges: badgesData || [],
         streak: {
-          currentStreak: streakData?.current_streak || 0,
-          longestStreak: streakData?.longest_streak || 0,
-          lastActivityDate: streakData?.last_activity_date || new Date().toISOString().split('T')[0],
+          currentStreak: missingStreakTable ? 0 : (streakData?.current_streak || 0),
+          longestStreak: missingStreakTable ? 0 : (streakData?.longest_streak || 0),
+          lastActivityDate: missingStreakTable
+            ? new Date().toISOString().split('T')[0]
+            : (streakData?.last_activity_date || new Date().toISOString().split('T')[0]),
         },
         isLoading: false,
       });
