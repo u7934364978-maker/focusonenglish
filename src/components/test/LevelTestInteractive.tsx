@@ -372,8 +372,12 @@ export default function LevelTestInteractive({ authUser = null }: LevelTestInter
 
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4">
+              {/*
+                Incluimos nivel en query para que el panel pueda persistir
+                en servidor incluso si falla la llamada cliente.
+              */}
               <Link
-                href={isAuthenticated ? '/mi-panel' : result.courseUrl}
+                href={isAuthenticated ? `/mi-panel?placement=1&level=${encodeURIComponent(result.level)}` : result.courseUrl}
                 className="flex-1 bg-gradient-to-r from-coral-600 to-peach-600 text-white px-8 py-4 rounded-xl font-bold text-center hover:from-coral-700 hover:to-peach-700 transition-all shadow-lg hover:shadow-xl"
               >
                 {isAuthenticated ? 'Ir a mi ruta personalizada →' : 'Ver Curso Recomendado →'}

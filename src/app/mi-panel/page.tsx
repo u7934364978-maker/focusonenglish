@@ -36,6 +36,7 @@ const OFFICIAL_COURSE_BY_LEVEL: Record<string, Array<{ label: string; href: stri
 
 type Goal = 'general' | 'travel' | 'professional';
 type AccessState = 'included' | 'limited' | 'blocked';
+const VALID_LEVELS = new Set(['A1', 'A2', 'B1', 'B2', 'C1', 'C2']);
 
 function accessLabel(state: AccessState): string {
   if (state === 'included') return 'Incluido';
@@ -48,7 +49,17 @@ function normalizeStatus(status: string | null | undefined): string {
   return status;
 }
 
-export default async function MiPanelPage() {
+function normalizeLevel(level: string | null | undefined): string | null {
+  if (!level) return null;
+  const normalized = level.toUpperCase().trim();
+  return VALID_LEVELS.has(normalized) ? normalized : null;
+}
+
+export default async function MiPanelPage({
+  searchParams,
+}: {
+  searchParams?: Promise<Record<string, string | string[] | undefined>>;
+}) {
   const supabase = await createClient();
   const {
     data: { user },
@@ -56,6 +67,47 @@ export default async function MiPanelPage() {
 
   if (!user) {
     redirect('/cuenta/login?next=/mi-panel');
+  }
+
+  const resolvedSearchParams = (await searchParams) ?? {};
+  const rawPlacement = resolvedSearchParams.placement;
+  const rawLevel = resolvedSearchParams.level;
+  const placementFromQuery = Array.isArray(rawPlacement) ? rawPlacement[0] : rawPlacement;
+  const levelFromQueryRaw = Array.isArray(rawLevel) ? rawLevel[0] : rawLevel;
+  const levelFromQuery = normalizeLevel(levelFromQueryRaw);
+  const shouldPersistFromQuery = placementFromQuery === '1' && Boolean(levelFromQuery);
+
+  if (shouldPersistFromQuery && levelFromQuery) {
+    const nowIso = new Date().toISOString();
+
+    const { data: currentProfile } = await supabase
+      .from('user_profiles')
+      .select('learning_goals')
+      .eq('user_id', user.id)
+      .maybeSingle();
+
+    const currentGoals = Array.isArray(currentProfile?.learning_goals)
+      ? (currentProfile.learning_goals as string[])
+      : [];
+    const mergedGoals = Array.from(new Set([...currentGoals, 'placement_completed']));
+
+    await supabase
+      .from('user_profiles')
+      .upsert(
+        {
+          user_id: user.id,
+          language_level: levelFromQuery,
+          learning_goals: mergedGoals,
+          updated_at: nowIso,
+        },
+        { onConflict: 'user_id' }
+      );
+
+    // No bloqueamos render del panel si esta tabla no existe para este usuario.
+    await supabase
+      .from('users')
+      .update({ language_level: levelFromQuery, updated_at: nowIso })
+      .eq('id', user.id);
   }
 
   const profile = await getUserProfileByAuthId<any>(supabase, user.id, '*');
@@ -115,9 +167,9 @@ export default async function MiPanelPage() {
     subscriptionStatus,
     subscriptionPlan,
   });
-  const languageLevel = ((profile?.language_level as string | undefined) ?? 'A1').toUpperCase();
+  const languageLevel = (levelFromQuery ?? ((profile?.language_level as string | undefined) ?? 'A1')).toUpperCase();
   const learningGoals = Array.isArray(profile?.learning_goals) ? (profile?.learning_goals as string[]) : [];
-  const hasPlacementCompleted = learningGoals.includes('placement_completed');
+  const hasPlacementCompleted = learningGoals.includes('placement_completed') || shouldPersistFromQuery;
   const selectedGoal = (learningGoals.find((goal) => goal === 'travel' || goal === 'professional' || goal === 'general') ?? 'general') as Goal;
   const recommendedOfficialCourses = OFFICIAL_COURSE_BY_LEVEL[languageLevel] ?? OFFICIAL_COURSE_BY_LEVEL.A1;
 

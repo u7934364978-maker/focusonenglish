@@ -92,7 +92,8 @@ export async function POST(request: NextRequest) {
       .eq("id", user.id);
 
     if (userError) {
-      return NextResponse.json({ success: false, error: userError.message }, { status: 500 });
+      // No bloqueamos el flujo si falla esta tabla secundaria.
+      console.warn("Placement saved in user_profiles but users update failed:", userError.message);
     }
 
     return NextResponse.json({ success: true, level });
