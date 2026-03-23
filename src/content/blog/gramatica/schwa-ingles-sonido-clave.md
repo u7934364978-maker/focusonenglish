@@ -1,10 +1,4 @@
 ---
-
-## Fuentes
-
-- International Phonetic Association (IPA): https://www.internationalphoneticassociation.org/
-- Cambridge Dictionary (pronunciation): https://dictionary.cambridge.org/
-- British Council LearnEnglish (pronunciation): https://www.britishcouncil.org/learnenglish
 title: 'El Schwa en Inglés: El Sonido que Nadie te Enseña pero Cambia Todo'
 description: >-
   Descubre el schwa /ə/, el sonido más frecuente del inglés. Aprende dónde
@@ -191,3 +185,9 @@ La regla principal: si una sílaba no lleva acento, la vocal casi siempre se red
 Muchísimo. Cuando entiendes que los hablantes nativos reducen vocales constantemente, dejas de esperar escuchar sílabas claras donde no las hay. Eso elimina uno de los mayores obstáculos para entender el inglés rápido.
 
 ---
+
+## Fuentes
+
+- International Phonetic Association (IPA): https://www.internationalphoneticassociation.org/
+- Cambridge Dictionary (pronunciation): https://dictionary.cambridge.org/
+- British Council LearnEnglish (pronunciation): https://www.britishcouncil.org/learnenglish

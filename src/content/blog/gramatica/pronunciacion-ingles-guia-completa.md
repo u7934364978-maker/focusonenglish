@@ -1,10 +1,4 @@
 ---
-
-## Fuentes
-
-- International Phonetic Association (IPA chart): https://www.internationalphoneticassociation.org/IPAcharts/IPA_chart_orig/IPA_charts_E.html
-- Cambridge Dictionary (pronunciation): https://dictionary.cambridge.org/
-- British Council LearnEnglish (pronunciation): https://learnenglish.britishcouncil.org/skills/listening
 title: 'Pronunciación en Inglés: Guía Completa Paso a Paso'
 description: >-
   Aprende la pronunciación en inglés desde cero con esta guía completa. Fonemas,
@@ -220,3 +214,9 @@ Ambas son igualmente válidas. Lo más importante es ser consistente. Si estudia
 No es obligatorio, pero conocer los símbolos básicos (schwa /ə/, /θ/, /ð/, /æ/) te hará mucho más eficiente al consultar diccionarios y entender guías de pronunciación.
 
 ---
+
+## Fuentes
+
+- International Phonetic Association (IPA chart): https://www.internationalphoneticassociation.org/IPAcharts/IPA_chart_orig/IPA_charts_E.html
+- Cambridge Dictionary (pronunciation): https://dictionary.cambridge.org/
+- British Council LearnEnglish (pronunciation): https://learnenglish.britishcouncil.org/skills/listening
