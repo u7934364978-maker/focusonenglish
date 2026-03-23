@@ -17,6 +17,59 @@ export default function LevelTestInteractive() {
   const [showLeadForm, setShowLeadForm] = useState(false);
   const [leadData, setLeadData] = useState({ firstName: '', email: '' });
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const finalizeTest = async (leadOverride?: { firstName?: string; email?: string }) => {
+    setIsSubmitting(true);
+
+    let totalScore = 0;
+    LEVEL_TEST_QUESTIONS.forEach(question => {
+      if (answers[question.id] === question.correctAnswer) {
+        totalScore += question.points;
+      }
+    });
+
+    const levelResult = calculateLevel(totalScore, TOTAL_POINTS);
+    setResult(levelResult);
+
+    const leadPayload = {
+      firstName: leadOverride?.firstName ?? leadData.firstName,
+      email: leadOverride?.email ?? leadData.email,
+    };
+
+    // Para usuarios autenticados no bloqueamos por formulario de lead.
+    if (leadPayload.firstName && leadPayload.email) {
+      try {
+        await fetch('/api/level-test/submit', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            ...leadPayload,
+            score: Math.round(levelResult.percentage),
+            level: levelResult.level,
+            answers
+          })
+        });
+      } catch (error) {
+        console.error('Error syncing with CRM:', error);
+      }
+    }
+
+    if (user) {
+      try {
+        await fetch('/api/placement/complete', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ level: levelResult.level }),
+        });
+      } catch (error) {
+        console.error('Error saving authenticated placement result:', error);
+      }
+    }
+
+    setIsSubmitting(false);
+    setShowLeadForm(false);
+    setShowResults(true);
+  };
+
 
   const currentQuestion = LEVEL_TEST_QUESTIONS[currentQuestionIndex];
   const progress = ((currentQuestionIndex + 1) / LEVEL_TEST_QUESTIONS.length) * 100;
@@ -36,7 +89,14 @@ export default function LevelTestInteractive() {
 
   const handleNext = () => {
     if (isLastQuestion) {
-      setShowLeadForm(true);
+      if (user) {
+        void finalizeTest({
+          firstName: (user.user_metadata?.full_name as string | undefined) ?? '',
+          email: user.email ?? '',
+        });
+      } else {
+        setShowLeadForm(true);
+      }
     } else {
       setCurrentQuestionIndex(prev => prev + 1);
     }
@@ -44,51 +104,7 @@ export default function LevelTestInteractive() {
 
   const handleSubmitLead = async (e: React.FormEvent) => {
     e.preventDefault();
-    setIsSubmitting(true);
-
-    // Calculate results
-    let totalScore = 0;
-    LEVEL_TEST_QUESTIONS.forEach(question => {
-      if (answers[question.id] === question.correctAnswer) {
-        totalScore += question.points;
-      }
-    });
-    
-    const levelResult = calculateLevel(totalScore, TOTAL_POINTS);
-    setResult(levelResult);
-
-    // Sync with CRM
-    try {
-      await fetch('/api/level-test/submit', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          ...leadData,
-          score: Math.round(levelResult.percentage),
-          level: levelResult.level,
-          answers
-        })
-      });
-    } catch (error) {
-      console.error('Error syncing with CRM:', error);
-    }
-
-    // Si el alumno está autenticado, guardar nivel y marcar placement completado
-    if (user) {
-      try {
-        await fetch('/api/placement/complete', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ level: levelResult.level }),
-        });
-      } catch (error) {
-        console.error('Error saving authenticated placement result:', error);
-      }
-    }
-
-    setIsSubmitting(false);
-    setShowLeadForm(false);
-    setShowResults(true);
+    await finalizeTest();
   };
 
   const handlePrevious = () => {
@@ -471,14 +487,14 @@ export default function LevelTestInteractive() {
 
         <button
           onClick={handleNext}
-          disabled={!hasAnswered}
+          disabled={!hasAnswered || isSubmitting}
           className={`flex-1 flex items-center justify-center gap-2 px-8 py-4 rounded-xl font-bold text-lg transition-all ${
-            hasAnswered
+            hasAnswered && !isSubmitting
               ? 'bg-gradient-to-r from-coral-600 to-peach-600 text-white hover:from-coral-700 hover:to-peach-700 shadow-lg hover:shadow-xl'
               : 'bg-slate-200 text-slate-400 cursor-not-allowed'
           }`}
         >
-          {isLastQuestion ? 'Ver Resultados' : 'Siguiente'}
+          {isSubmitting ? 'Procesando...' : isLastQuestion ? 'Ver Resultados' : 'Siguiente'}
           <ArrowRight className="w-5 h-5" />
         </button>
       </div>

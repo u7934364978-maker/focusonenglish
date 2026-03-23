@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
+import { getUserProfileByAuthId } from "@/lib/access/user-profile";
 
 type PlacementPayload = {
   level?: string;
@@ -30,11 +31,11 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ success: false, error: "Invalid level" }, { status: 400 });
     }
 
-    const { data: profile } = await supabase
-      .from("user_profiles")
-      .select("learning_goals")
-      .eq("user_id", user.id)
-      .maybeSingle();
+    const profile = await getUserProfileByAuthId<{ id?: string; user_id?: string; learning_goals?: string[] }>(
+      supabase,
+      user.id,
+      "id, user_id, learning_goals"
+    );
 
     const existingGoals = Array.isArray(profile?.learning_goals)
       ? (profile?.learning_goals as string[])
@@ -42,17 +43,35 @@ export async function POST(request: NextRequest) {
 
     const mergedGoals = Array.from(new Set([...existingGoals, "placement_completed"]));
 
-    const { error: profileError } = await supabase
-      .from("user_profiles")
-      .upsert(
-        {
+    const payload = {
+      language_level: level,
+      learning_goals: mergedGoals,
+      updated_at: new Date().toISOString(),
+    };
+    let profileError: { message: string } | null = null;
+
+    if (profile?.user_id) {
+      const { error } = await supabase
+        .from("user_profiles")
+        .update(payload)
+        .eq("user_id", profile.user_id);
+      profileError = error;
+    } else if (profile?.id) {
+      const { error } = await supabase
+        .from("user_profiles")
+        .update({ ...payload, user_id: user.id })
+        .eq("id", profile.id);
+      profileError = error;
+    } else {
+      const { error } = await supabase
+        .from("user_profiles")
+        .insert({
+          id: user.id,
           user_id: user.id,
-          language_level: level,
-          learning_goals: mergedGoals,
-          updated_at: new Date().toISOString(),
-        },
-        { onConflict: "user_id" }
-      );
+          ...payload,
+        });
+      profileError = error;
+    }
 
     if (profileError) {
       return NextResponse.json(
