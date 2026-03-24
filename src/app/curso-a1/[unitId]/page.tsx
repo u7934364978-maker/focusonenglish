@@ -265,7 +265,12 @@ function UnitPreviewContent() {
 
       if ((isLast || isLessonEnd) && !inRepairRoundRef.current) {
         const lessonNumberAtBoundary = Math.floor(idx / CHUNK_SIZE) + 1;
-        const failedExs = failedExercisesByLessonRef.current[lessonNumberAtBoundary] ?? [];
+        const queueFailed = failedExercisesByLessonRef.current[lessonNumberAtBoundary] ?? [];
+        const fallbackFailed = failedIndexesRef.current
+          .filter((failedIdx) => Math.floor(failedIdx / CHUNK_SIZE) + 1 === lessonNumberAtBoundary)
+          .map((failedIdx) => exercisesRef.current[failedIdx])
+          .filter(Boolean);
+        const failedExs = queueFailed.length > 0 ? queueFailed : fallbackFailed;
 
         if (failedExs.length > 0) {
           setExercises(prev => {

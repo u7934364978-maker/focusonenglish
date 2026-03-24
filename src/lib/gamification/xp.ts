@@ -1,6 +1,10 @@
 import { UserLevel, XPEvent, XPSource } from './types';
 import { supabase } from '@/lib/supabase-client';
 
+function isMissingTableError(error: any): boolean {
+  return error?.code === 'PGRST205' || error?.code === '42P01';
+}
+
 /**
  * XP REWARDS CONFIGURATION
  * Cantidad de XP otorgada por cada acción
@@ -121,7 +125,10 @@ export async function awardXP(
         description
       });
 
-    if (txError) throw txError;
+    if (txError) {
+      if (isMissingTableError(txError)) return null;
+      throw txError;
+    }
 
     // 2. Get current XP
     const { data: currentXPData, error: fetchError } = await supabase
@@ -130,7 +137,10 @@ export async function awardXP(
       .eq('user_id', userId)
       .single();
 
-    if (fetchError && fetchError.code !== 'PGRST116') throw fetchError;
+    if (fetchError && fetchError.code !== 'PGRST116') {
+      if (isMissingTableError(fetchError)) return null;
+      throw fetchError;
+    }
 
     const newTotalXP = (currentXPData?.total_xp || 0) + amount;
 
@@ -145,7 +155,10 @@ export async function awardXP(
       .select()
       .single();
 
-    if (updateError) throw updateError;
+    if (updateError) {
+      if (isMissingTableError(updateError)) return null;
+      throw updateError;
+    }
 
     return {
       totalXP: updatedData.total_xp,
@@ -153,7 +166,9 @@ export async function awardXP(
       xpToNextLevel: updatedData.xp_to_next_level
     };
   } catch (error) {
-    console.error('Error in awardXP:', error);
+    if (!isMissingTableError(error)) {
+      console.error('Error in awardXP:', error);
+    }
     return null;
   }
 }
