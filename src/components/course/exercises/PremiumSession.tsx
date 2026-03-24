@@ -411,13 +411,37 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
     let isAnswerCorrect = false;
 
     if (interaction.type === 'reorder_words') {
-      const selectedText = (optionId as string[]).map(id => 
-        (interaction.options || []).find((o: any) => o.id === id)?.text
-      ).join(' ').toLowerCase().trim();
-      const correctText = (interaction.correct_answer as string[]).map((id: string) => 
-        (interaction.options || []).find((o: any) => o.id === id)?.text
-      ).join(' ').toLowerCase().trim();
-      isAnswerCorrect = selectedText === correctText;
+      const normalizeSentence = (value: unknown) =>
+        String(value || '')
+          .toLowerCase()
+          .replace(/[.,!?;:]/g, '')
+          .replace(/\s+/g, ' ')
+          .trim();
+
+      const selectedIds = Array.isArray(optionId) ? optionId : [];
+      const selectedTokens = selectedIds
+        .map((id: unknown) =>
+          (interaction.options || []).find((o: any) => String(o?.id) === String(id))?.text ?? String(id)
+        )
+        .filter(Boolean);
+      const selectedText = normalizeSentence(selectedTokens.join(' '));
+
+      const candidates = new Set<string>();
+      const correctAnswer = interaction.correct_answer;
+      if (Array.isArray(correctAnswer)) {
+        const byIdOrText = correctAnswer
+          .map((idOrText: unknown) =>
+            (interaction.options || []).find((o: any) => String(o?.id) === String(idOrText))?.text ?? String(idOrText)
+          )
+          .join(' ');
+        candidates.add(normalizeSentence(byIdOrText));
+      } else if (typeof correctAnswer === 'string') {
+        candidates.add(normalizeSentence(correctAnswer));
+      }
+      if (interaction.correctSentence) candidates.add(normalizeSentence(interaction.correctSentence));
+      if (interaction.correct_sentence_en) candidates.add(normalizeSentence(interaction.correct_sentence_en));
+
+      isAnswerCorrect = Array.from(candidates).some((candidate) => candidate.length > 0 && candidate === selectedText);
     } else if (['true_false', 'odd_one_out', 'multiple_choice', 'role_play', 'listening_image_mc', 'fill_blanks', 'fill_blank', 'fill-blank', 'reading-comprehension', 'writing-analysis'].includes(interaction.type)) {
       // Robust comparison for boolean and string values
       const normalizedOption = String(optionId).toLowerCase().trim();
