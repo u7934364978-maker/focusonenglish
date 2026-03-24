@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
+import { getUserProfileByAuthId } from "@/lib/access/user-profile";
 
 const ALLOWED_GOALS = new Set(["general", "travel", "professional"]);
 
@@ -20,11 +21,7 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ success: false, error: "Invalid goal" }, { status: 400 });
     }
 
-    const { data: profile } = await supabase
-      .from("user_profiles")
-      .select("learning_goals")
-      .eq("user_id", user.id)
-      .maybeSingle();
+    const profile = await getUserProfileByAuthId<any>(supabase, user.id, "id,user_id,learning_goals");
 
     const currentGoals = Array.isArray(profile?.learning_goals)
       ? (profile?.learning_goals as string[])
@@ -36,19 +33,32 @@ export async function POST(request: NextRequest) {
 
     const nextGoals = [...nonGoalValues, goal];
 
-    const { error } = await supabase
+    const payload = {
+      user_id: user.id,
+      learning_goals: nextGoals,
+      updated_at: new Date().toISOString(),
+    };
+
+    const { error: upsertByUserIdError } = await supabase
       .from("user_profiles")
       .upsert(
-        {
-          user_id: user.id,
-          learning_goals: nextGoals,
-          updated_at: new Date().toISOString(),
-        },
+        payload,
         { onConflict: "user_id" }
       );
 
-    if (error) {
-      return NextResponse.json({ success: false, error: error.message }, { status: 500 });
+    if (upsertByUserIdError) {
+      const { error: upsertByIdError } = await supabase
+        .from("user_profiles")
+        .upsert(
+          {
+            id: user.id,
+            ...payload,
+          },
+          { onConflict: "id" }
+        );
+      if (upsertByIdError) {
+        return NextResponse.json({ success: false, error: upsertByIdError.message }, { status: 500 });
+      }
     }
 
     return NextResponse.json({ success: true, goal });

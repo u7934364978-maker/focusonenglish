@@ -79,29 +79,32 @@ export default async function MiPanelPage({
 
   if (shouldPersistFromQuery && levelFromQuery) {
     const nowIso = new Date().toISOString();
-
-    const { data: currentProfile } = await supabase
-      .from('user_profiles')
-      .select('learning_goals')
-      .eq('user_id', user.id)
-      .maybeSingle();
+    const currentProfile = await getUserProfileByAuthId<any>(supabase, user.id, 'id,user_id,learning_goals');
 
     const currentGoals = Array.isArray(currentProfile?.learning_goals)
       ? (currentProfile.learning_goals as string[])
       : [];
     const mergedGoals = Array.from(new Set([...currentGoals, 'placement_completed']));
-
-    await supabase
+    const basePayload = {
+      user_id: user.id,
+      language_level: levelFromQuery,
+      learning_goals: mergedGoals,
+      updated_at: nowIso,
+    };
+    const { error: upsertByUserIdError } = await supabase
       .from('user_profiles')
-      .upsert(
-        {
-          user_id: user.id,
-          language_level: levelFromQuery,
-          learning_goals: mergedGoals,
-          updated_at: nowIso,
-        },
-        { onConflict: 'user_id' }
-      );
+      .upsert(basePayload, { onConflict: 'user_id' });
+    if (upsertByUserIdError) {
+      await supabase
+        .from('user_profiles')
+        .upsert(
+          {
+            id: user.id,
+            ...basePayload,
+          },
+          { onConflict: 'id' }
+        );
+    }
 
     // No bloqueamos render del panel si esta tabla no existe para este usuario.
     await supabase
@@ -169,7 +172,11 @@ export default async function MiPanelPage({
   });
   const languageLevel = (levelFromQuery ?? ((profile?.language_level as string | undefined) ?? 'A1')).toUpperCase();
   const learningGoals = Array.isArray(profile?.learning_goals) ? (profile?.learning_goals as string[]) : [];
-  const hasPlacementCompleted = learningGoals.includes('placement_completed') || shouldPersistFromQuery;
+  const hasPlacementCompleted =
+    Boolean(profile?.placement_completed) ||
+    learningGoals.includes('placement_completed') ||
+    Boolean(normalizeLevel(profile?.language_level as string | undefined)) ||
+    shouldPersistFromQuery;
   const selectedGoal = (learningGoals.find((goal) => goal === 'travel' || goal === 'professional' || goal === 'general') ?? 'general') as Goal;
   const recommendedOfficialCourses = OFFICIAL_COURSE_BY_LEVEL[languageLevel] ?? OFFICIAL_COURSE_BY_LEVEL.A1;
 
