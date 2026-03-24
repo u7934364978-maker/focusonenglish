@@ -1,124 +1,111 @@
-# PRD: A1 Podcast Library - First Listenable Episodes
+# PRD: A1 Podcast Library — Biblioteca de Podcasts nivel A1
 
-## Overview
+## Resumen
 
-The podcast section at `/mi-panel/podcasts` currently exists as a gated placeholder. Paid users can access the page but see only a "coming soon" message. This feature delivers the first set of listenable A1-level podcast episodes so that users can actually consume audio content today.
+Construir una biblioteca completa de podcasts de inglés nivel A1 accesible para suscriptores de pago en `/mi-panel/podcasts`. Los podcasts cubren la totalidad del temario A1 del curso existente, organizados por pista temática y duración. El audio se pre-genera con Cloudflare Workers AI (dos voces en diálogo) y se sirve como archivos MP3 estáticos.
 
-## Problem Statement
+---
 
-The podcasts entitlement is already granted to all paid subscribers and the navigation links are in place, but there is no content or listening experience. A paid user who clicks "Abrir podcasts" reaches a dead-end page with no playable episodes. This breaks the promise of the subscription.
+## Contexto actual
 
-## Goals
+- La ruta `/mi-panel/podcasts` existe y está correctamente bloqueada por suscripción (`entitlements.podcasts: isPaid`).
+- La página actual muestra un mensaje de "próximamente" — sin episodios ni reproductor.
+- El dashboard de `mi-panel` ya enlaza a esta sección.
+- La API TTS de Cloudflare (`@cf/deepgram/aura-1`) ya está integrada en `/api/tts` con voces `luna` (femenina) y `orion` (masculina).
+- `ffmpeg` está disponible para concatenar fragmentos de audio.
 
-1. Deliver a minimum viable podcast experience: at least 3–5 A1-level episodes that a subscriber can click and listen to right now.
-2. Provide the key supporting elements that make the listening useful: a transcript (for reference), a short list of key vocabulary per episode, and a set of comprehension questions after listening.
-3. Track basic listen progress (started / completed) per user so the library can show what has been consumed.
+---
 
-## Non-Goals (out of scope for this iteration)
+## Temario A1 cubierto (fuente: `curriculum-data.ts`)
 
-- Podcast episodes for levels above A1.
-- AI-generated or real-time TTS podcast audio — audio files will be pre-recorded/pre-generated static MP3s.
-- Social features (comments, ratings).
-- Offline download.
-- A separate mobile-app podcast feed.
+### Módulo 1 — Presentaciones y Vida Cotidiana
+Saludos y presentaciones · Información personal · Familia y amigos · Casa y habitaciones · Rutinas diarias · Días y meses · Números 1-100 · Colores · Profesiones · Verb to be · Pronombres personales · Adjetivos posesivos · Present Simple · Artículos · Singular/plural · Demostrativos
 
-## User Stories
+### Módulo 2 — Actividades y Tiempo Libre
+Hobbies y deportes · Comida y bebida · Tiendas y compras · El tiempo atmosférico · Animales y mascotas · Frecuencia (always/never) · Can/can't · Question words · Preposiciones de tiempo y lugar · There is/are
 
-### Core listening experience
+### Módulo 3 — Lugares y Viajes
+Transporte · Direcciones · Escuela y trabajo · Países y nacionalidades · Vacaciones básicas · Present Continuous · Imperativo · Object pronouns · Ropa básica
 
-**US-1** As a paid subscriber at A1 level, I want to see a list of available A1 podcast episodes so I can choose what to listen to.
+---
 
-**US-2** As a listener, I want to press play on an episode and hear the audio so I can practise my English listening comprehension.
+## Pistas (tracks) de podcasts
 
-**US-3** As a listener, I want to pause, resume, and see how far through the episode I am, so I can manage my listening session.
+| Track | Descripción | Ejemplos de contexto |
+|-------|-------------|----------------------|
+| **general** | Temas cotidianos genéricos | Conversaciones del día a día, familia, rutinas |
+| **professional** | Contexto laboral y de negocios básico | Presentarse en el trabajo, reuniones simples, emails |
+| **travel** | Contexto de viajes e internacional | Aeropuerto, hotel, restaurante, turismo |
 
-**US-4** As a listener, I want to read the episode transcript while listening (or after) so I can check words I didn't catch.
+---
 
-**US-5** As a listener, I want to see the key vocabulary highlighted for the episode so I can focus on the most important words.
+## Duraciones y volumen de episodios
 
-**US-6** As a listener, I want to answer a few comprehension questions after listening so I can check my understanding.
+| Duración | General | Profesional | Viajes | Total |
+|----------|---------|-------------|--------|-------|
+| 2 min | 6 | 4 | 4 | 14 |
+| 5 min | 6 | 4 | 4 | 14 |
+| 10 min | 6 | 4 | 4 | 14 |
+| 20 min | 3 | 2 | 2 | 7 |
+| 30 min | 2 | 1 | 1 | 4 |
+| **Total** | **23** | **15** | **15** | **53** |
 
-**US-7** As a listener, I want the system to remember which episodes I have completed so I don't lose my place.
+Cada episodio trata un tema concreto del temario. La suma de episodios cubre el vocabulario y contenido completo del nivel A1.
 
-### Access & navigation
+---
 
-**US-8** As a non-paid user, I should be redirected to the plans page when I try to access podcasts — this already works and must be preserved.
+## Formato del audio
 
-**US-9** As a paid user, I should be able to navigate from the mi-panel dashboard into the podcast library and into individual episodes.
+- **Diálogo entre dos hablantes**: voz `orion` (Speaker A, masculina) y `luna` (Speaker B, femenina).
+- El script de cada episodio se divide en turnos (`DialogueTurn[]`).
+- Cada turno se genera por separado vía Cloudflare TTS y se concatena con `ffmpeg`.
+- El MP3 resultante se guarda en `/public/audio/podcasts/a1/{episodeId}.mp3`.
+- Velocidad de habla: lenta y clara (apropiada para A1).
 
-## Content Requirements (A1 Episodes)
+---
 
-### Episode specifications
+## Estructura de cada episodio
 
-Each episode must conform to the A1 CEFR level:
-- Simple, everyday vocabulary (greetings, numbers, family, food, colours, time, weather, shopping, jobs).
-- Short sentences, slow and clear speech.
-- Duration: 3–5 minutes per episode.
-- Two speakers (dialogue format) or one narrator — whichever is available as a pre-generated MP3.
+Cada episodio incluye obligatoriamente:
 
-### Minimum initial content set (5 episodes)
+1. **Metadatos**: id, nivel, track, duración, título, descripción (en español), tema, módulo del curso
+2. **Audio**: URL al MP3 pre-generado
+3. **Transcripción**: lista de turnos con hablante y texto
+4. **Vocabulario clave**: 5–10 palabras/frases con traducción al español y frase de ejemplo
+5. **Preguntas de comprensión**: 3–5 preguntas de opción múltiple con explicación
 
-| # | Title | Topic | Duration target |
-|---|-------|-------|-----------------|
-| 1 | Meeting New People | Greetings & introductions | ~3 min |
-| 2 | My Family | Family vocabulary | ~3 min |
-| 3 | At the Café | Ordering food and drinks | ~4 min |
-| 4 | What Time Is It? | Telling the time, daily routine | ~3 min |
-| 5 | The Weather Today | Weather vocabulary, small talk | ~3 min |
+---
 
-### Per-episode content requirements
+## Experiencia de usuario
 
-Each episode data record must include:
-- **title** – short episode title (English)
-- **description** – 1–2 sentence summary in Spanish (for the user's comprehension)
-- **level** – `"A1"`
-- **topic** – thematic tag (e.g. `"greetings"`, `"family"`)
-- **durationSeconds** – approximate length
-- **audioUrl** – path to static MP3 (e.g. `/audio/podcasts/a1/ep-01-meeting-new-people.mp3`)
-- **transcript** – full text of the episode
-- **vocabulary** – array of 5–8 key words/phrases: `{ word, translation, example }`
-- **comprehensionQuestions** – array of 3–5 multiple-choice questions: `{ question, options[], correctIndex, explanation }`
+### Biblioteca (`/mi-panel/podcasts`)
+- Lista/grid de episodios con filtros por: **track** (general/profesional/viajes) y **duración** (2/5/10/20/30 min).
+- Cada tarjeta muestra: título, track, duración, tema, badge de nivel y estado de progreso (nuevo / en progreso / completado).
 
-## UX / Feature Requirements
+### Reproductor (`/mi-panel/podcasts/[episodeId]`)
+- Play/pausa, barra de progreso (seek), tiempo actual / duración total, selector de velocidad (0.75×, 1×, 1.25×).
+- Pestaña **Transcripción**: texto completo por turnos.
+- Pestaña **Vocabulario**: lista con traducción y ejemplo.
+- **Preguntas**: aparecen al superar el 80% del episodio (o se pueden abrir manualmente). Formato opción múltiple con feedback por pregunta.
+- Enlace de vuelta a la biblioteca.
 
-### Episode library page (`/mi-panel/podcasts`)
+### Seguimiento de progreso
+- Al iniciar la reproducción: marcar episodio como "en progreso".
+- Al superar el 80%: marcar como "completado".
+- El progreso se guarda por usuario en base de datos.
+- La biblioteca refleja el estado de cada episodio en la siguiente carga.
 
-- Replace the current placeholder with a grid/list of episode cards.
-- Each card shows: episode number, title, topic tag, duration, level badge ("A1"), and a listen progress indicator (not started / in progress / completed).
-- Clicking a card navigates to the episode player page.
+---
 
-### Episode player page (`/mi-panel/podcasts/[episodeId]`)
+## Criterios de aceptación
 
-- Displays: episode title, level badge, description.
-- **Audio player**: play/pause button, seek bar (progress), current time / total duration, playback speed selector (0.75×, 1×, 1.25×).
-- **Transcript tab**: full episode text, readable alongside or after listening.
-- **Vocabulary tab**: list of key words with translation and example sentence.
-- **Questions section**: shown after the user has listened to at least 80% of the episode (or can be manually opened). Multiple-choice format. Shows correct/incorrect feedback per question.
-- A "back to podcast library" link.
-
-### Progress tracking
-
-- When a user starts playing an episode, record a "started" event.
-- When a user reaches ≥80% of the episode, mark it as "completed".
-- The library view uses this data to show the progress badge per episode.
-- Progress is stored per user (requires a database table or use of existing progress infrastructure).
-
-## Assumptions
-
-1. Audio files for the 5 initial episodes will be pre-generated (static MP3s placed in `/public/audio/podcasts/a1/`) before or during implementation. If no real recordings are available, the generation script can use the existing OpenAI TTS pipeline already present in the codebase (`/src/lib/text-to-speech.ts`).
-2. Podcast progress does not need to integrate with the existing course XP/streak system in this iteration — a simple "completed" flag per episode is sufficient.
-3. The comprehension questions UI can reuse the existing exercise rendering patterns from the course system rather than a brand-new component.
-4. The entitlement check (`podcasts: isPaid`) is correct and must not be changed.
-
-## Acceptance Criteria
-
-- [ ] A paid subscriber navigating to `/mi-panel/podcasts` sees a list of at least 5 A1 episodes (not the placeholder message).
-- [ ] Each episode card shows title, duration, topic, and a progress state (new / in progress / completed).
-- [ ] Clicking an episode opens a player page at `/mi-panel/podcasts/[episodeId]`.
-- [ ] The audio player plays the episode MP3 and shows real-time progress.
-- [ ] The transcript is accessible on the episode page.
-- [ ] Key vocabulary (≥5 items with translations) is shown per episode.
-- [ ] After reaching ≥80% playback, 3–5 comprehension questions become available.
-- [ ] Completing an episode marks it as "completed" in the user's profile; the library view reflects this on next load.
-- [ ] Non-paid users are still redirected to `/planes` — no regression.
-- [ ] The feature works on mobile (responsive layout).
+- [ ] Un suscriptor de pago ve la biblioteca con ≥53 episodios A1 organizados por track y duración.
+- [ ] Los filtros de track y duración funcionan correctamente.
+- [ ] Cada episodio tiene su MP3 pre-generado y reproducible.
+- [ ] El reproductor muestra barra de progreso, tiempo y control de velocidad.
+- [ ] La transcripción completa está visible en la pestaña correspondiente.
+- [ ] El vocabulario (≥5 ítems con traducción) está disponible por episodio.
+- [ ] Las preguntas de comprensión se muestran al superar el 80% de reproducción.
+- [ ] El progreso (iniciado / completado) se persiste por usuario y se refleja en la biblioteca.
+- [ ] Usuarios sin suscripción siguen siendo redirigidos a `/planes` — sin regresión.
+- [ ] El diseño es responsive (móvil y escritorio).
