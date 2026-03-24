@@ -1,5 +1,9 @@
 import { supabase } from '@/lib/supabase/client';
 
+function isMissingTableError(error: any): boolean {
+  return error?.code === 'PGRST205' || error?.code === '42P01';
+}
+
 export interface SpecializationStatus {
   goal: string;
   level: string;
@@ -57,7 +61,9 @@ export const certificationService = {
       .in('interaction_id', exerciseIds);
 
     if (progressError) {
-      console.error('Error fetching user progress:', progressError);
+      if (!isMissingTableError(progressError)) {
+        console.error('Error fetching user progress:', progressError);
+      }
       return { goal, level, totalExercises, completedExercises: 0, isComplete: false, percentage: 0 };
     }
 

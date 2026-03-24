@@ -2,6 +2,10 @@ import { Badge, BadgeCategory } from './types';
 import { supabase } from '@/lib/supabase-client';
 import { certificationService } from '@/lib/services/certification-service';
 
+function isMissingTableError(error: any): boolean {
+  return error?.code === 'PGRST205' || error?.code === '42P01';
+}
+
 /**
  * BADGE DEFINITIONS
  * Todos los badges disponibles en el sistema
@@ -335,10 +339,14 @@ export async function checkAndAwardBadges(userId: string): Promise<Badge[]> {
       .single();
 
     // Fetch Completed Interactions count
-    const { count: interactionsCount } = await supabase
+    const { count: interactionsCount, error: interactionsError } = await supabase
       .from('user_interaction_progress')
       .select('*', { count: 'exact', head: true })
       .eq('user_id', userId);
+
+    if (interactionsError && !isMissingTableError(interactionsError)) {
+      console.error('Error fetching interaction progress count:', interactionsError);
+    }
 
     const newlyAwarded: Badge[] = [];
 
@@ -366,6 +374,9 @@ export async function checkAndAwardBadges(userId: string): Promise<Badge[]> {
 
         case 'specialization-complete':
           if (requirement.goal) {
+            if (interactionsError && isMissingTableError(interactionsError)) {
+              break;
+            }
             // Check for each level if any level is complete for this goal
             const levels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
             for (const level of levels) {
