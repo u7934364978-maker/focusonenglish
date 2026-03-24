@@ -465,10 +465,20 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
         isAnswerCorrect = Object.entries(interaction.correct_answer as Record<string, string>).every(([k, v]) => matchingPairs[k] === v);
       }
     } else if (['gapped_text', 'multiple_choice_cloze'].includes(interaction.type)) {
-      const allCorrect = Object.entries(interaction.correct_answer as Record<string, string>).every(([gapId, correctVal]) => {
-        const inputVal = String(inputValues[gapId as any] || "").toLowerCase().trim();
-        const correctValStr = String(correctVal).toLowerCase().trim();
-        return inputVal === correctValStr;
+      const correctMap = (interaction.correct_answer || {}) as Record<string, string>;
+      const allCorrect = Object.entries(correctMap).every(([gapId, correctVal]) => {
+        const inputVal = String(inputValues[gapId as any] || '').toLowerCase().trim();
+        const correctValStr = String(correctVal || '').toLowerCase().trim();
+        if (!inputVal || !correctValStr) return false;
+
+        // Accept both ID and visible text to tolerate API/content variants.
+        const gap = interaction.gaps?.find((g: any) => String(g?.id) === String(gapId));
+        const matchedOption = gap?.options?.find(
+          (opt: any) => String(opt?.id).toLowerCase().trim() === inputVal
+        );
+        const inputText = String(matchedOption?.text || '').toLowerCase().trim();
+
+        return inputVal === correctValStr || inputText === correctValStr;
       });
       isAnswerCorrect = allCorrect;
     } else if (interaction.type === 'categorization') {

@@ -95,36 +95,57 @@ export default function A1SmartPracticeClient() {
   const [srsDueCount, setSrsDueCount] = useState(0);
 
   const fetchAdaptiveExercises = useCallback(async (count = 8, topics?: string[]) => {
-    const exercises: AdaptiveExercise[] = [];
+    const byId = new Map<string, AdaptiveExercise>();
     let attempts = 0;
     const maxAttempts = count * 4;
+    const parallelBatchSize = 4;
 
-    while (exercises.length < count && attempts < maxAttempts) {
-      attempts += 1;
+    const fetchOne = async (): Promise<AdaptiveExercise | null> => {
+      let timeout: ReturnType<typeof setTimeout> | null = null;
       try {
+        const controller = new AbortController();
+        timeout = setTimeout(() => controller.abort(), 4500);
         const res = await fetch('/api/adaptive/next', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ level: 'A1', ...(topics?.length ? { topics } : {}) }),
+          signal: controller.signal,
         });
-        if (!res.ok) continue;
+        if (!res.ok) return null;
         const data = await res.json();
-        if (data?.success && data.exercise) {
-          const exercise = data.exercise as AdaptiveExercise;
-          const normalizedType = normalizeInteractionType(exercise.type);
-          if (!SUPPORTED_INTERACTION_TYPES.has(normalizedType)) {
-            continue;
-          }
-          exercises.push({
-            ...exercise,
-            type: normalizedType,
-          });
-        }
+        if (!data?.success || !data.exercise) return null;
+
+        const exercise = data.exercise as AdaptiveExercise;
+        const normalizedType = normalizeInteractionType(exercise.type);
+        if (!SUPPORTED_INTERACTION_TYPES.has(normalizedType)) return null;
+
+        return {
+          ...exercise,
+          type: normalizedType,
+        };
       } catch {
-        // Silenciar errores individuales
+        return null;
+      } finally {
+        if (timeout) clearTimeout(timeout);
+      }
+    };
+
+    while (byId.size < count && attempts < maxAttempts) {
+      const remaining = maxAttempts - attempts;
+      const batchSize = Math.min(parallelBatchSize, remaining);
+      attempts += batchSize;
+
+      const batch = await Promise.all(Array.from({ length: batchSize }, () => fetchOne()));
+      for (const exercise of batch) {
+        if (!exercise) continue;
+        const id = String(exercise.interaction_id || '');
+        if (!id || byId.has(id)) continue;
+        byId.set(id, exercise);
+        if (byId.size >= count) break;
       }
     }
-    return exercises;
+
+    return Array.from(byId.values());
   }, []);
 
   const fetchSRSExercises = useCallback(async () => {
