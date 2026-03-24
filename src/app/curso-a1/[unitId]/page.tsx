@@ -147,6 +147,7 @@ function UnitPreviewContent() {
   const advanceTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const touchStartX = useRef<number>(0);
   const failedIndexesRef = useRef<number[]>([]);
+  const failedExercisesByLessonRef = useRef<Record<number, any[]>>({});
   const repairedOriginalIndexesRef = useRef<Set<number>>(new Set());
   const inRepairRoundRef = useRef(false);
   const repairEndIndexRef = useRef<number | null>(null);
@@ -263,25 +264,16 @@ function UnitPreviewContent() {
       const isLessonEnd = !isFinalTest && (idx + 1) % CHUNK_SIZE === 0;
 
       if ((isLast || isLessonEnd) && !inRepairRoundRef.current) {
-        const lessonStart = Math.floor(idx / CHUNK_SIZE) * CHUNK_SIZE;
-        const lessonEnd = Math.min(lessonStart + CHUNK_SIZE - 1, total - 1);
-        const unrepaired = failedIndexesRef.current.filter(
-          i =>
-            i >= lessonStart &&
-            i <= lessonEnd &&
-            !repairedOriginalIndexesRef.current.has(i)
-        );
-        if (unrepaired.length > 0) {
-          const failedExs = unrepaired.map(i => exercisesRef.current[i]).filter(Boolean);
+        const lessonNumberAtBoundary = Math.floor(idx / CHUNK_SIZE) + 1;
+        const failedExs = failedExercisesByLessonRef.current[lessonNumberAtBoundary] ?? [];
+
+        if (failedExs.length > 0) {
           setExercises(prev => {
             const next = [...prev];
             next.splice(idx + 1, 0, ...failedExs);
             return next;
           });
-          const nextRepaired = new Set(repairedOriginalIndexesRef.current);
-          unrepaired.forEach(i => nextRepaired.add(i));
-          repairedOriginalIndexesRef.current = nextRepaired;
-          setRepairedOriginalIndexes(nextRepaired);
+          failedExercisesByLessonRef.current[lessonNumberAtBoundary] = [];
           inRepairRoundRef.current = true;
           repairEndIndexRef.current = idx + failedExs.length;
           setInRepairRound(true);
@@ -321,6 +313,7 @@ function UnitPreviewContent() {
     setInRepairRound(false);
     setRepairEndIndex(null);
     setRepairedOriginalIndexes(new Set());
+    failedExercisesByLessonRef.current = {};
     inRepairRoundRef.current = false;
     repairEndIndexRef.current = null;
     repairedOriginalIndexesRef.current = new Set();
@@ -376,6 +369,13 @@ function UnitPreviewContent() {
       setConsecutiveCorrect(0);
       setFailCount(prev => prev + 1);
       setFailedIndexes(prev => [...prev, currentIndex]);
+
+      if (!inRepairRoundRef.current && exercises[currentIndex]) {
+        const failedLessonNumber = Math.floor(currentIndex / CHUNK_SIZE) + 1;
+        const currentFailed = failedExercisesByLessonRef.current[failedLessonNumber] ?? [];
+        failedExercisesByLessonRef.current[failedLessonNumber] = [...currentFailed, exercises[currentIndex]];
+      }
+
       if (lives > 1) {
         const newLives = lives - 1;
         setLives(newLives);
