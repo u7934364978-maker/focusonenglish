@@ -678,7 +678,22 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       const expected = gaps.length || 1;
       const answers: string[] = [];
       for (let j = 0; j < expected; j++) answers.push(String(inputValues[j] || '').trim());
-      ready = answers.filter(Boolean).length === expected;
+
+      // Keep autocheck for text inputs, but avoid firing on the first keystroke:
+      // require each answer to be at least as long as the expected solution token.
+      const normalizedCorrect = String(
+        interaction.correct_answer || interaction.correctAnswer || ''
+      )
+        .toLowerCase()
+        .trim()
+        .split(/\s+/)
+        .filter(Boolean);
+      const expectedTokens = normalizedCorrect.length > 0 ? normalizedCorrect : Array.from({ length: expected }, () => '');
+
+      ready = answers.length === expected && answers.every((ans, idx) => {
+        const minLen = Math.max(1, String(expectedTokens[idx] || '').length);
+        return ans.length >= minLen;
+      });
       payload = answers.join(' ').trim();
     }
 
