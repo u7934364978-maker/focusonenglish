@@ -75,16 +75,16 @@ async function A1PreviewContent() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
           <div className="lg:col-span-8">
             <Link
-              href="/curso-a1/repaso"
+              href="/curso-a1/practica-inteligente?mode=srs"
               className="mb-4 flex items-center gap-4 rounded-2xl border-2 border-blue-200 bg-blue-50/80 p-4 transition-all hover:border-blue-300 hover:bg-blue-50"
             >
               <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-blue-100 text-2xl">
                 <RotateCcw className="w-6 h-6 text-blue-600" />
               </div>
               <div className="min-w-0 flex-1">
-                <p className="font-bold text-slate-900">Repaso diario</p>
+                <p className="font-bold text-slate-900">Repaso inteligente</p>
                 <p className="text-sm text-slate-600">
-                  Revisa los ejercicios que el sistema de repetición espaciada ha marcado para hoy.
+                  Practica variantes de los temas que más fallas (sin repetir el mismo ejercicio literal).
                 </p>
               </div>
               <span className="shrink-0 text-sm font-semibold text-blue-700">Repasar →</span>

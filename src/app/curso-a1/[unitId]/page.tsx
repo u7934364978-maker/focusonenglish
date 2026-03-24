@@ -3,7 +3,6 @@
 import { useParams, useSearchParams } from 'next/navigation';
 import { useEffect, useState, useRef, Suspense } from 'react';
 import ExerciseRenderer from '@/components/ExerciseRenderer';
-import RepairModeBanner from '@/components/course/RepairModeBanner';
 import StreakBurst from '@/components/gamification/StreakBurst';
 import { useGamification } from '@/lib/hooks/use-gamification';
 import { useA1ProgressTracking } from '@/hooks/useA1ProgressTracking';
@@ -140,18 +139,8 @@ function UnitPreviewContent() {
   const [showUnitSummary, setShowUnitSummary] = useState(false);
   const [showLessonComplete, setShowLessonComplete] = useState(false);
 
-  const [inRepairRound, setInRepairRound] = useState(false);
-  const [repairEndIndex, setRepairEndIndex] = useState<number | null>(null);
-  const [repairedOriginalIndexes, setRepairedOriginalIndexes] = useState<Set<number>>(new Set());
-
   const advanceTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const touchStartX = useRef<number>(0);
-  const failedIndexesRef = useRef<number[]>([]);
-  const failedExercisesByLessonRef = useRef<Record<number, any[]>>({});
-  const repairedOriginalIndexesRef = useRef<Set<number>>(new Set());
-  const inRepairRoundRef = useRef(false);
-  const repairEndIndexRef = useRef<number | null>(null);
-  const exercisesRef = useRef<typeof exercises>([]);
 
   // Atajos de teclado: flecha izq/der para anterior/siguiente ejercicio
   useEffect(() => {
@@ -171,9 +160,6 @@ function UnitPreviewContent() {
     window.addEventListener('keydown', onKeyDown);
     return () => window.removeEventListener('keydown', onKeyDown);
   }, [exercises.length, showUnitSummary, showLessonComplete]);
-
-  useEffect(() => { failedIndexesRef.current = failedIndexes; }, [failedIndexes]);
-  useEffect(() => { exercisesRef.current = exercises; }, [exercises]);
 
   const isFinalTest = unitId === 'test-final';
 
@@ -252,49 +238,12 @@ function UnitPreviewContent() {
   const advanceExercise = (idx: number, total: number) => {
     setSlideDir('out-left');
     setTimeout(() => {
-      // Si acabamos de terminar el bloque de repaso insertado, salimos de ese modo.
-      if (inRepairRoundRef.current && repairEndIndexRef.current !== null && idx >= repairEndIndexRef.current) {
-        inRepairRoundRef.current = false;
-        repairEndIndexRef.current = null;
-        setInRepairRound(false);
-        setRepairEndIndex(null);
-      }
-
       const isLast = idx === total - 1;
       const isLessonEnd = !isFinalTest && (idx + 1) % CHUNK_SIZE === 0;
 
-      if ((isLast || isLessonEnd) && !inRepairRoundRef.current) {
-        const lessonNumberAtBoundary = Math.floor(idx / CHUNK_SIZE) + 1;
-        const queueFailed = failedExercisesByLessonRef.current[lessonNumberAtBoundary] ?? [];
-        const fallbackFailed = failedIndexesRef.current
-          .filter((failedIdx) => Math.floor(failedIdx / CHUNK_SIZE) + 1 === lessonNumberAtBoundary)
-          .map((failedIdx) => exercisesRef.current[failedIdx])
-          .filter(Boolean);
-        const failedExs = queueFailed.length > 0 ? queueFailed : fallbackFailed;
-
-        if (failedExs.length > 0) {
-          setExercises(prev => {
-            const next = [...prev];
-            next.splice(idx + 1, 0, ...failedExs);
-            return next;
-          });
-          failedExercisesByLessonRef.current[lessonNumberAtBoundary] = [];
-          inRepairRoundRef.current = true;
-          repairEndIndexRef.current = idx + failedExs.length;
-          setInRepairRound(true);
-          setRepairEndIndex(idx + failedExs.length);
-          setCurrentIndex(idx + 1);
-          setFeedback('idle');
-          setSlideDir('in');
-          return;
-        }
-      }
-
       if (isLast) {
         setShowUnitSummary(true);
-        inRepairRoundRef.current = false;
-        setInRepairRound(false);
-      } else if (isLessonEnd && !inRepairRoundRef.current) {
+      } else if (isLessonEnd) {
         setShowLessonComplete(true);
       } else {
         setCurrentIndex(prev => prev + 1);
@@ -315,13 +264,6 @@ function UnitPreviewContent() {
     setFeedback('idle');
     setShowUnitSummary(false);
     setShowLessonComplete(false);
-    setInRepairRound(false);
-    setRepairEndIndex(null);
-    setRepairedOriginalIndexes(new Set());
-    failedExercisesByLessonRef.current = {};
-    inRepairRoundRef.current = false;
-    repairEndIndexRef.current = null;
-    repairedOriginalIndexesRef.current = new Set();
   };
 
   const handleExerciseComplete = (result?: { success: boolean; score: number }) => {
@@ -374,13 +316,6 @@ function UnitPreviewContent() {
       setConsecutiveCorrect(0);
       setFailCount(prev => prev + 1);
       setFailedIndexes(prev => [...prev, currentIndex]);
-
-      if (!inRepairRoundRef.current && exercises[currentIndex]) {
-        const failedLessonNumber = Math.floor(currentIndex / CHUNK_SIZE) + 1;
-        const currentFailed = failedExercisesByLessonRef.current[failedLessonNumber] ?? [];
-        failedExercisesByLessonRef.current[failedLessonNumber] = [...currentFailed, exercises[currentIndex]];
-      }
-
       if (lives > 1) {
         const newLives = lives - 1;
         setLives(newLives);
@@ -439,11 +374,6 @@ function UnitPreviewContent() {
   const exerciseInLesson = (currentIndex % CHUNK_SIZE) + 1;
   const exercisesInThisLesson = Math.min(CHUNK_SIZE, exercises.length - (lessonNumber - 1) * CHUNK_SIZE);
   const progressPct = (exerciseInLesson - 1) / exercisesInThisLesson * 100;
-  const isRepairMode = inRepairRound;
-  const repairRemaining =
-    inRepairRound && repairEndIndex !== null
-      ? Math.max(0, repairEndIndex - currentIndex + 1)
-      : 0;
   const displayXp = xp + sessionScore;
   const showDots = exercises.length <= MAX_DOTS;
   const isOnStreak = consecutiveCorrect >= 3;
@@ -560,6 +490,13 @@ function UnitPreviewContent() {
               <p className="text-xl font-extrabold text-white">+{sessionScore} XP</p>
             </div>
           </div>
+          <Link
+            href="/curso-a1/practica-inteligente?mode=srs"
+            className="w-full inline-flex items-center justify-center gap-2 rounded-2xl border border-blue-300/40 bg-blue-500/20 px-4 py-3 text-sm font-bold text-blue-100 hover:bg-blue-500/30 transition"
+          >
+            <RotateCcw className="w-4 h-4" />
+            Repaso inteligente (variantes)
+          </Link>
           <button
             onClick={() => { setCurrentIndex(prev => prev + 1); setShowLessonComplete(false); setFeedback('idle'); }}
             className="w-full bg-gradient-to-r from-[#FF6B6B] to-[#FF8E53] text-white py-5 rounded-2xl font-bold text-base shadow-xl shadow-orange-500/30 hover:-translate-y-0.5 transition-all"
@@ -579,8 +516,6 @@ function UnitPreviewContent() {
 
       {/* Incorrect screen flash */}
       <IncorrectFlash visible={showIncorrectFlash} />
-
-      {isRepairMode && <RepairModeBanner remainingCount={repairRemaining} />}
 
       {/* ── HEADER ────────────────────────────────────────────────── */}
       <nav className="bg-white border-b p-4 flex justify-between items-center sticky top-0 z-50">
