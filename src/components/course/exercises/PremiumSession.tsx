@@ -61,6 +61,8 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
   
   const currentAudioRef = useRef<HTMLAudioElement | null>(null);
   const prefetchingRef = useRef<Set<string>>(new Set());
+  const autoSubmitRef = useRef<string>('');
+  const autoContinueTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   // Flatten and normalize all blocks into a single exercise queue
   const queue = useMemo(() => {
@@ -588,8 +590,80 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
       setFeedback(null);
       setSelectedOption(null);
       setIsCorrect(null);
+      autoSubmitRef.current = '';
     }
   };
+
+  useEffect(() => {
+    return () => {
+      if (autoContinueTimerRef.current) clearTimeout(autoContinueTimerRef.current);
+    };
+  }, []);
+
+  // Auto-continue after feedback to keep flow smooth.
+  useEffect(() => {
+    if (!feedback) return;
+    if (autoContinueTimerRef.current) clearTimeout(autoContinueTimerRef.current);
+
+    autoContinueTimerRef.current = setTimeout(() => {
+      handleFeedbackContinue();
+    }, feedback.correct ? 900 : 1200);
+  }, [feedback]);
+
+  // Auto-check objective interactions once a valid answer is available.
+  useEffect(() => {
+    if (feedback || showSummary) return;
+    const interaction = isVideoMode ? currentItem?.video?.interactions?.[interactionIndex] : currentItem;
+    if (!interaction) return;
+
+    const interactionKey = `${isVideoMode ? 'v' : 'n'}:${currentIndex}:${interactionIndex}:${interaction.type}`;
+    if (autoSubmitRef.current === interactionKey) return;
+
+    let ready = false;
+    let payload: any = null;
+
+    if (['multiple_choice', 'true_false', 'odd_one_out', 'listening_image_mc', 'reading-comprehension', 'writing-analysis', 'role_play'].includes(interaction.type)) {
+      ready = selectedOption !== null;
+      payload = selectedOption;
+    } else if (['matching', 'multiple_matching', 'vocabulary-match'].includes(interaction.type)) {
+      const pairs = interaction.content?.pairs || interaction.pairs || [];
+      ready = Object.keys(matchingPairs).length === pairs.length && pairs.length > 0;
+      payload = matchingPairs;
+    } else if (interaction.type === 'categorization') {
+      const items = interaction.categories?.flatMap((cat: any) => cat.items) || [];
+      ready = Object.keys(categorizedItems).length === items.length && items.length > 0;
+      payload = Object.keys(categorizedItems);
+    } else if (['gapped_text', 'multiple_choice_cloze'].includes(interaction.type)) {
+      const gaps = interaction.gaps || [];
+      const filledCount = Object.values(inputValues).filter(v => v && v.toString().trim().length > 0).length;
+      ready = filledCount === gaps.length && gaps.length > 0;
+      payload = inputValues;
+    } else if (['transformation', 'fill_blanks', 'fill_blank', 'fill-blank', 'fill-blanks-mc'].includes(interaction.type)) {
+      const stim = interaction.stimulus_en || '';
+      const gaps = stim.match(/_{2,}/g) || [];
+      const expected = gaps.length || 1;
+      const answers: string[] = [];
+      for (let j = 0; j < expected; j++) answers.push(String(inputValues[j] || '').trim());
+      ready = answers.filter(Boolean).length === expected;
+      payload = answers.join(' ').trim();
+    }
+
+    if (ready) {
+      autoSubmitRef.current = interactionKey;
+      handleCheckAnswer(payload);
+    }
+  }, [
+    feedback,
+    showSummary,
+    isVideoMode,
+    currentItem,
+    currentIndex,
+    interactionIndex,
+    selectedOption,
+    matchingPairs,
+    categorizedItems,
+    inputValues,
+  ]);
 
   if (showSummary) {
     const accuracy = exerciseResults.total > 0 

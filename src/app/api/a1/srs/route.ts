@@ -3,6 +3,10 @@ import { NextRequest, NextResponse } from 'next/server';
 
 export const dynamic = 'force-dynamic';
 
+function isMissingTableError(error: any): boolean {
+  return error?.code === 'PGRST205' || error?.code === '42P01';
+}
+
 /**
  * GET /api/a1/srs
  * ?due=true  → only cards where next_review_at <= now
@@ -29,6 +33,9 @@ export async function GET(request: NextRequest) {
 
     const { data, error } = await query;
     if (error) {
+      if (isMissingTableError(error)) {
+        return NextResponse.json({ cards: [], dueCount: 0, skipped: true });
+      }
       console.error('[api/a1/srs GET]', error);
       return NextResponse.json({ error: 'DB error' }, { status: 500 });
     }
@@ -76,6 +83,9 @@ export async function POST(request: NextRequest) {
       }, { onConflict: 'user_id,exercise_id' });
 
     if (error) {
+      if (isMissingTableError(error)) {
+        return NextResponse.json({ ok: true, skipped: true });
+      }
       console.error('[api/a1/srs POST]', error);
       return NextResponse.json({ error: 'DB error' }, { status: 500 });
     }

@@ -14,6 +14,52 @@ interface AdaptiveExercise {
   [key: string]: unknown;
 }
 
+const SUPPORTED_INTERACTION_TYPES = new Set([
+  'pronunciation',
+  'audio_player',
+  'reading-comprehension',
+  'writing-analysis',
+  'vocabulary-match',
+  'ai-mission',
+  'flashcard',
+  'listening_image_mc',
+  'writing_task',
+  'speaking_task',
+  'reorder_words',
+  'word-search',
+  'crossword',
+  'multiple_matching',
+  'gapped_text',
+  'multiple_choice_cloze',
+  'matching',
+  'multiple_choice',
+  'odd_one_out',
+  'role_play',
+  'transformation',
+  'fill_blanks',
+  'fill_blank',
+  'fill-blank',
+  'fill-blanks-mc',
+  'categorization',
+  'true_false',
+  'short_writing',
+  'dictation_guided',
+  'listening_dictation',
+]);
+
+function normalizeInteractionType(type?: string): string {
+  if (!type) return '';
+  const raw = String(type).trim();
+  const typeMap: Record<string, string> = {
+    multipleChoice: 'multiple_choice',
+    'multiple-choice': 'multiple_choice',
+    fillBlanks: 'fill_blanks',
+    'drag-drop': 'reorder_words',
+    'audio-player': 'audio_player',
+  };
+  return typeMap[raw] ?? raw;
+}
+
 function buildUnitData(interactions: AdaptiveExercise[], isSRS = false): UnitData {
   return {
     course: {
@@ -50,7 +96,11 @@ export default function A1SmartPracticeClient() {
 
   const fetchAdaptiveExercises = useCallback(async (count = 8, topics?: string[]) => {
     const exercises: AdaptiveExercise[] = [];
-    for (let i = 0; i < count; i++) {
+    let attempts = 0;
+    const maxAttempts = count * 4;
+
+    while (exercises.length < count && attempts < maxAttempts) {
+      attempts += 1;
       try {
         const res = await fetch('/api/adaptive/next', {
           method: 'POST',
@@ -60,7 +110,15 @@ export default function A1SmartPracticeClient() {
         if (!res.ok) continue;
         const data = await res.json();
         if (data?.success && data.exercise) {
-          exercises.push(data.exercise as AdaptiveExercise);
+          const exercise = data.exercise as AdaptiveExercise;
+          const normalizedType = normalizeInteractionType(exercise.type);
+          if (!SUPPORTED_INTERACTION_TYPES.has(normalizedType)) {
+            continue;
+          }
+          exercises.push({
+            ...exercise,
+            type: normalizedType,
+          });
         }
       } catch {
         // Silenciar errores individuales
