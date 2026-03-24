@@ -16,6 +16,7 @@ import {
   Sparkles
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 import { UnitData, PremiumBlock, PremiumContent } from "@/types/premium-course";
 import { getSolutionText, isLikelyEnglish, getEncouragingMessage } from "@/lib/premium-utils";
 import { calculateStarRating } from "@/lib/progress";
@@ -2218,6 +2219,12 @@ export default function PremiumCourseSession({ unitData, onComplete, onExit, onI
         <button onClick={onExit} className="p-3 text-slate-300 hover:text-slate-600 transition-colors">
           <X className="w-8 h-8" />
         </button>
+        <Link
+          href="/mi-panel"
+          className="inline-flex items-center justify-center px-4 py-2 rounded-xl bg-slate-100 text-slate-700 text-xs font-black uppercase tracking-wide hover:bg-slate-200 transition-colors"
+        >
+          Mi panel
+        </Link>
         <div className="flex-1 space-y-2">
           <div className="h-4 bg-slate-100 rounded-full overflow-hidden shadow-inner relative">
             <motion.div 

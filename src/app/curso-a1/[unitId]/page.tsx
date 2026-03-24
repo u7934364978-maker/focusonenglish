@@ -531,7 +531,13 @@ function UnitPreviewContent() {
           </h1>
         </div>
 
-        <div className="flex gap-2">
+        <div className="flex items-center gap-2">
+          <Link
+            href="/mi-panel"
+            className="px-3 py-2 bg-slate-100 rounded-xl text-xs font-black uppercase tracking-wide text-slate-700 hover:bg-slate-200 transition-colors"
+          >
+            Mi panel
+          </Link>
           <button
             onClick={() => setCurrentIndex(prev => Math.max(0, prev - 1))}
             disabled={currentIndex === 0}

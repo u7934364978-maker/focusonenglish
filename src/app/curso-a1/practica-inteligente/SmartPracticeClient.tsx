@@ -47,6 +47,10 @@ const SUPPORTED_INTERACTION_TYPES = new Set([
   'listening_dictation',
 ]);
 
+const REMEDIAL_BLOCKED_TYPES = new Set([
+  'transformation',
+]);
+
 function normalizeInteractionType(type?: string): string {
   if (!type) return '';
   const raw = String(type).trim();
@@ -58,6 +62,74 @@ function normalizeInteractionType(type?: string): string {
     'audio-player': 'audio_player',
   };
   return typeMap[raw] ?? raw;
+}
+
+function normalizeText(value: unknown): string {
+  return String(value || '')
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function looksLikeTranslationExercise(exercise: AdaptiveExercise): boolean {
+  const content = (exercise.content || {}) as Record<string, unknown>;
+  const options = Array.isArray(exercise.options) ? exercise.options : [];
+  const textBlob = [
+    exercise.prompt_es,
+    exercise.instructions,
+    exercise.stimulus_en,
+    content.instructions,
+    content.title,
+    content.prompt_es,
+    ...options.map((opt: any) => opt?.text),
+  ]
+    .map((v) => normalizeText(v))
+    .join(' ');
+
+  return /(traduccion|traducir|translate|translation)/i.test(textBlob);
+}
+
+function sanitizeMatchingExercise(exercise: AdaptiveExercise): AdaptiveExercise | null {
+  const isMatching = exercise.type === 'matching' || exercise.type === 'vocabulary-match';
+  if (!isMatching) return exercise;
+
+  const content = (exercise.content || {}) as Record<string, unknown>;
+  const rawPairs = ((exercise.type === 'vocabulary-match' ? (content.pairs || exercise.pairs) : exercise.pairs) || []) as any[];
+  if (!Array.isArray(rawPairs) || rawPairs.length === 0) return null;
+
+  const seenLeft = new Set<string>();
+  const seenRight = new Set<string>();
+  const dedupedPairs: any[] = [];
+
+  for (const pair of rawPairs) {
+    const left = normalizeText(pair?.left ?? pair?.word ?? '');
+    const right = normalizeText(pair?.right ?? pair?.correctMatch ?? '');
+    if (!left || !right) continue;
+    if (seenLeft.has(left) || seenRight.has(right)) continue;
+    seenLeft.add(left);
+    seenRight.add(right);
+    dedupedPairs.push(pair);
+  }
+
+  // If too few unique pairs remain, discard this exercise.
+  if (dedupedPairs.length < 3) return null;
+
+  if (exercise.type === 'vocabulary-match') {
+    return {
+      ...exercise,
+      content: {
+        ...content,
+        pairs: dedupedPairs,
+      },
+    };
+  }
+
+  return {
+    ...exercise,
+    pairs: dedupedPairs,
+  };
 }
 
 function buildUnitData(interactions: AdaptiveExercise[], isSRS = false): UnitData {
@@ -118,11 +190,15 @@ export default function A1SmartPracticeClient() {
         const exercise = data.exercise as AdaptiveExercise;
         const normalizedType = normalizeInteractionType(exercise.type);
         if (!SUPPORTED_INTERACTION_TYPES.has(normalizedType)) return null;
+        if (REMEDIAL_BLOCKED_TYPES.has(normalizedType)) return null;
 
-        return {
+        const normalizedExercise = {
           ...exercise,
           type: normalizedType,
         };
+        if (looksLikeTranslationExercise(normalizedExercise)) return null;
+
+        return sanitizeMatchingExercise(normalizedExercise);
       } catch {
         return null;
       } finally {
