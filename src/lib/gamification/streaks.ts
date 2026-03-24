@@ -69,11 +69,7 @@ export async function updateStreak(userId: string): Promise<StreakData | null> {
       .eq('user_id', userId)
       .single();
 
-    if (fetchError && fetchError.code !== 'PGRST116') {
-      // En algunos entornos legacy no existe la tabla user_streaks.
-      if (fetchError.code === 'PGRST205') return null;
-      throw fetchError;
-    }
+    if (fetchError && fetchError.code !== 'PGRST116') throw fetchError;
 
     let currentStreak = currentData?.current_streak || 0;
     let longestStreak = currentData?.longest_streak || 0;
@@ -115,10 +111,7 @@ export async function updateStreak(userId: string): Promise<StreakData | null> {
         updated_at: new Date().toISOString()
       });
 
-    if (updateError) {
-      if (updateError.code === 'PGRST205') return null;
-      throw updateError;
-    }
+    if (updateError) throw updateError;
 
     return {
       currentStreak,

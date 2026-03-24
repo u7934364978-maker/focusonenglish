@@ -7,10 +7,6 @@ import { checkAndAwardBadges } from '@/lib/gamification/badges';
 import { type Badge, type EarnedBadge } from '@/lib/gamification/types';
 import { updateStreak, type StreakData } from '@/lib/gamification/streaks';
 
-function isMissingTableError(error: any): boolean {
-  return error?.code === 'PGRST205' || error?.code === '42P01';
-}
-
 export interface UserGamificationData {
   xp: number;
   level: number;
@@ -47,14 +43,14 @@ export function useGamification() {
       }
 
       // Load XP data
-      const { data: xpData, error: xpError } = await supabase
+      const { data: xpData } = await supabase
         .from('user_xp')
         .select('*')
         .eq('user_id', user.id)
         .single();
 
       // Load badges
-      const { data: badgesData, error: badgesError } = await supabase
+      const { data: badgesData } = await supabase
         .from('user_badges')
         .select('*')
         .eq('user_id', user.id);
@@ -67,15 +63,13 @@ export function useGamification() {
         .single();
 
       // Si la tabla de rachas no existe en este entorno, continuamos sin bloquear.
-      const missingStreakTable = isMissingTableError(streakError);
-      const missingXpTable = isMissingTableError(xpError);
-      const missingBadgesTable = isMissingTableError(badgesError);
+      const missingStreakTable = streakError?.code === 'PGRST205';
 
       setData({
-        xp: missingXpTable ? 0 : (xpData?.total_xp || 0),
-        level: missingXpTable ? 1 : (xpData?.level || 1),
-        xpToNextLevel: missingXpTable ? 100 : (xpData?.xp_to_next_level || 100),
-        badges: missingBadgesTable ? [] : (badgesData || []),
+        xp: xpData?.total_xp || 0,
+        level: xpData?.level || 1,
+        xpToNextLevel: xpData?.xp_to_next_level || 100,
+        badges: badgesData || [],
         streak: {
           currentStreak: missingStreakTable ? 0 : (streakData?.current_streak || 0),
           longestStreak: missingStreakTable ? 0 : (streakData?.longest_streak || 0),

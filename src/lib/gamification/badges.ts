@@ -2,10 +2,6 @@ import { Badge, BadgeCategory } from './types';
 import { supabase } from '@/lib/supabase-client';
 import { certificationService } from '@/lib/services/certification-service';
 
-function isMissingTableError(error: any): boolean {
-  return error?.code === 'PGRST205' || error?.code === '42P01';
-}
-
 /**
  * BADGE DEFINITIONS
  * Todos los badges disponibles en el sistema
@@ -320,10 +316,7 @@ export async function checkAndAwardBadges(userId: string): Promise<Badge[]> {
       .select('badge_id')
       .eq('user_id', userId);
 
-    if (badgesError) {
-      if (isMissingTableError(badgesError)) return [];
-      throw badgesError;
-    }
+    if (badgesError) throw badgesError;
     const earnedBadgeIds = new Set(earnedBadges.map(b => b.badge_id));
 
     // 2. Fetch user stats for requirement checking
@@ -414,9 +407,7 @@ export async function checkAndAwardBadges(userId: string): Promise<Badge[]> {
 
     return newlyAwarded;
   } catch (error) {
-    if (!isMissingTableError(error)) {
-      console.error('Error in checkAndAwardBadges:', error);
-    }
+    console.error('Error in checkAndAwardBadges:', error);
     return [];
   }
 }
