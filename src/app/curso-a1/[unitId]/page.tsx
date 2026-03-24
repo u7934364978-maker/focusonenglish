@@ -495,7 +495,7 @@ function UnitPreviewContent() {
             className="w-full inline-flex items-center justify-center gap-2 rounded-2xl border border-blue-300/40 bg-blue-500/20 px-4 py-3 text-sm font-bold text-blue-100 hover:bg-blue-500/30 transition"
           >
             <RotateCcw className="w-4 h-4" />
-            Repaso inteligente (variantes)
+            Repaso personalizado (variantes)
           </Link>
           <button
             onClick={() => { setCurrentIndex(prev => prev + 1); setShowLessonComplete(false); setFeedback('idle'); }}

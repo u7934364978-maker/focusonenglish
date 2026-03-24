@@ -82,7 +82,7 @@ async function A1PreviewContent() {
                 <RotateCcw className="w-6 h-6 text-blue-600" />
               </div>
               <div className="min-w-0 flex-1">
-                <p className="font-bold text-slate-900">Repaso inteligente</p>
+                <p className="font-bold text-slate-900">Repaso personalizado</p>
                 <p className="text-sm text-slate-600">
                   Practica variantes de los temas que más fallas (sin repetir el mismo ejercicio literal).
                 </p>

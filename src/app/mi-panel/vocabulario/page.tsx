@@ -38,7 +38,7 @@ export default async function MiPanelVocabularioPage() {
             </p>
             <ul className="mt-4 text-sm text-slate-700 space-y-2">
               <li>• Listas por nivel y contexto (trabajo, viajes, vida diaria)</li>
-              <li>• Repaso inteligente con repetición espaciada</li>
+              <li>• Repaso personalizado con repetición espaciada</li>
               <li>• Integración con speaking y writing</li>
             </ul>
             <Link href="/mi-panel" className="inline-flex mt-6 px-4 py-2 rounded-lg bg-slate-900 text-white text-sm font-semibold hover:bg-slate-800 transition">
