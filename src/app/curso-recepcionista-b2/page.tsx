@@ -8,8 +8,8 @@ import { extractUnitMetadataFromLibCourse } from '@/lib/utils/course-metadata';
 export const dynamic = 'force-dynamic';
 
 async function CourseContent() {
-  const units = RECEPCIONISTA_B2_COURSE.units.map((u: any) =>
-    extractUnitMetadataFromLibCourse(u.id, u.title, u.exercises)
+  const units = RECEPCIONISTA_B2_COURSE.units.map((u: any, i: number) =>
+    extractUnitMetadataFromLibCourse(i + 1, u.title, u.exercises)
   );
   const totalExercises = units.reduce((s: number, u: any) => s + u.exerciseCount, 0);
   const totalHours = Math.round(units.reduce((s: number, u: any) => s + u.estimatedDuration, 0) / 60);
@@ -62,8 +62,8 @@ async function CourseContent() {
         <div className="space-y-3">
           {units.map((unit: any, i: number) => (
             <Link
-              key={unit.id}
-              href={`/curso-recepcionista-b2/${unit.id}`}
+              key={unit.unitId}
+              href={`/curso-recepcionista-b2/${unit.unitId}`}
               className="flex items-center gap-4 bg-white rounded-2xl border border-slate-100 shadow-sm p-5 hover:border-slate-300 hover:shadow-md transition-all group"
             >
               <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-slate-100 text-lg font-black text-slate-600 group-hover:bg-slate-200 transition-colors">
