@@ -370,9 +370,14 @@ export default async function MiPanelPage({
                       ? 'Incluido en premium. Puedes empezar por una ruta profesional específica.'
                       : 'Disponible en plan premium.'}
                   </p>
-                  <Link href="/mi-panel/ruta-profesional" className="inline-flex mt-2 text-sm font-semibold text-coral-700 hover:text-coral-800">
-                    Ver ruta profesional
-                  </Link>
+                  <div className="mt-2 space-y-1">
+                    <Link href="/curso-recepcionista-b2" className="block text-sm font-semibold text-coral-700 hover:text-coral-800">
+                      → Inglés para Recepcionista (B2)
+                    </Link>
+                    <Link href="/mi-panel/ruta-profesional" className="block text-sm font-semibold text-coral-700 hover:text-coral-800">
+                      Ver ruta profesional
+                    </Link>
+                  </div>
                 </div>
               </div>
 
