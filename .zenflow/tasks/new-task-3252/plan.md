@@ -115,7 +115,7 @@ Crear `scripts/generate-podcast-audio.mjs`:
 
 Verificación: ejecutar con `--episode a1-gen-02m-001` y confirmar que el MP3 existe y es reproducible.
 
-### [ ] Step 7: Componentes de podcasts
+### [x] Step 7: Componentes de podcasts
 
 Crear los 5 componentes en `src/components/podcasts/`:
 
@@ -147,7 +147,7 @@ Crear los 5 componentes en `src/components/podcasts/`:
 
 Verificación: `npm run lint` y `npm run typecheck` sin errores.
 
-### [ ] Step 8: Páginas de la sección podcasts
+### [x] Step 8: Páginas de la sección podcasts
 
 **Actualizar `src/app/mi-panel/podcasts/page.tsx`**:
 - Mantener auth + entitlements check (sin cambios)
