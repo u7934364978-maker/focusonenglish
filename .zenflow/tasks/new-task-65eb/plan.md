@@ -43,24 +43,24 @@ Save to `{@artifacts_path}/spec.md` with:
 - Data model / API / interface changes
 - Verification approach using project lint/test commands
 
-### [ ] Step: Planning
+### [x] Step: Planning
+<!-- chat-id: c41d069c-f2d6-47a9-836c-44dd55ce8b44 -->
 
-Create a detailed implementation plan based on `{@artifacts_path}/spec.md`.
+Esta tarea es de tipo **consulta/investigación** — no requiere implementación de software.
 
-1. Break down the work into concrete tasks
-2. Each task should reference relevant contracts and include verification steps
-3. Replace the Implementation step below with the planned tasks
+La especificación técnica ya recoge la respuesta completa en `spec.md`:
 
-Rule of thumb for step size: each step should represent a coherent unit of work (e.g., implement a component, add an API endpoint). Avoid steps that are too granular (single function) or too broad (entire feature).
+El curso **Recepcionista B2** tiene **4 unidades** ya creadas:
 
-Important: unit tests must be part of each implementation task, not separate tasks. Each task should implement the code and its tests together, if relevant.
+| # | Título                  |
+|---|-------------------------|
+| 1 | Gestión hotelera        |
+| 2 | Clientes corporativos   |
+| 3 | Gestión de crisis       |
+| 4 | Formación del personal  |
 
-If the feature is trivial and doesn't warrant full specification, update this workflow to remove unnecessary steps and explain the reasoning to the user.
+Cada unidad incluye 6 lecciones: grammar, vocabulary, reading, listening, speaking, writing.
 
-Save to `{@artifacts_path}/plan.md`.
+**Nota**: Se detectó un bug en `src/app/curso-recepcionista-b2/page.tsx` con variables de plantilla `{level_label}` y `{route}` sin sustituir.
 
-### [ ] Step: Implementation
-
-This step should be replaced with detailed implementation tasks from the Planning step.
-
-If Planning didn't replace this step, execute the tasks in `{@artifacts_path}/plan.md`, updating checkboxes as you go. Run planned tests/lint and record results in plan.md.
+**Conclusión**: No hay pasos de implementación necesarios. El paso de Implementación se omite.
