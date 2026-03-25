@@ -18,7 +18,8 @@ Do not make assumptions on important decisions — get clarification first.
 
 ## Workflow Steps
 
-### [ ] Step: Implementation
+### [x] Step: Implementation
+<!-- chat-id: 6285af8c-c9a1-4ff3-94e7-3ea2896ab14d -->
 
 **Debug requests, questions, and investigations:** answer or investigate first. Do not create a plan upfront — the user needs an answer, not a plan. A plan may become relevant later once the investigation reveals what needs to change.
 

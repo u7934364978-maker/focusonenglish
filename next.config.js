@@ -725,6 +725,37 @@ const nextConfig = {
   reactStrictMode: true,
   // Cabeceras de seguridad y compresión
   async headers() {
+    const supabaseHost = (process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://nprqtjljoekoirlrjxlh.supabase.co').replace(/^https?:\/\//, '');
+    const csp = [
+      "default-src 'self'",
+      [
+        "script-src 'self' 'unsafe-inline'",
+        "https://static.cloudflareinsights.com",
+        "https://consent.cookiebot.com",
+        "https://consentcdn.cookiebot.com",
+        "https://www.googletagmanager.com",
+        "https://www.google-analytics.com",
+      ].join(' '),
+      [
+        "connect-src 'self'",
+        `https://${supabaseHost}`,
+        `wss://${supabaseHost}`,
+        "https://consentcdn.cookiebot.com",
+        "https://consent.cookiebot.com",
+        "https://www.google-analytics.com",
+        "https://www.googletagmanager.com",
+        "https://vitals.vercel-insights.com",
+        "https://static.cloudflareinsights.com",
+      ].join(' '),
+      "img-src 'self' data: blob: https://images.pexels.com https://placehold.co https://www.google-analytics.com https://www.googletagmanager.com",
+      "style-src 'self' 'unsafe-inline'",
+      "font-src 'self' data: https://fonts.gstatic.com",
+      "frame-src https://consentcdn.cookiebot.com",
+      "media-src 'self' blob:",
+      "worker-src 'self' blob:",
+      "upgrade-insecure-requests",
+    ].join('; ');
+
     return [
       // Recursos estáticos (CSS, JS chunks): caché 1 año
       {
@@ -757,7 +788,7 @@ const nextConfig = {
           },
           {
             key: 'Content-Security-Policy',
-            value: "upgrade-insecure-requests",
+            value: csp,
           },
         ],
       },

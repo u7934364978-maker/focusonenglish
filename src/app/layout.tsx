@@ -117,7 +117,6 @@ export default function RootLayout({
         
         {/* Anti-piracy protection */}
         <meta name="robots" content="max-image-preview:large" />
-        <meta httpEquiv="Content-Security-Policy" content="upgrade-insecure-requests" />
         
 
       </head>
