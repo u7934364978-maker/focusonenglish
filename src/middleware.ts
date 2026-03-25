@@ -155,11 +155,14 @@ export async function middleware(request: NextRequest) {
 
   // Rutas públicas que NO deben redirigir al dashboard si está logueado (ej. recursos estáticos, webhooks, etc.)
   // API de cursos: pasar sin auth (la página ya está protegida; la API valida cookies internamente)
+  // RSC requests: Next.js no puede seguir redirects 307 en modo RSC → no redirigir
+  const isRSCRequest = request.headers.get('RSC') === '1' || request.nextUrl.searchParams.has('_rsc');
   if (
     pathname.startsWith("/api/webhooks") ||
     pathname.startsWith("/api/course/") ||
     pathname.startsWith("/audio/") ||
-    pathname.includes('.') // Archivos estáticos
+    pathname.includes('.') || // Archivos estáticos
+    isRSCRequest // React Server Components prefetch
   ) {
     return response;
   }
