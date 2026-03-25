@@ -32,7 +32,7 @@ Plan detallado de implementación basado en `spec.md`. Tareas definidas abajo.
 
 ## Implementación
 
-### [ ] Step 1: Tipos y estructura de datos base
+### [x] Step 1: Tipos y estructura de datos base
 
 Crear `src/lib/podcasts/types.ts` con todos los tipos TypeScript definidos en `spec.md`:
 - `PodcastLevel`, `PodcastTrack`, `PodcastDuration`, `PodcastVoice`
@@ -41,7 +41,7 @@ Crear `src/lib/podcasts/types.ts` con todos los tipos TypeScript definidos en `s
 
 Verificación: `npm run typecheck` sin errores en el archivo nuevo.
 
-### [ ] Step 2: Catálogo de episodios A1 — Módulo 1 (Presentaciones y Vida Cotidiana)
+### [x] Step 2: Catálogo de episodios A1 — Módulo 1 (Presentaciones y Vida Cotidiana)
 
 Crear `src/lib/podcasts/a1-episodes-m1.ts` con los episodios del Módulo 1:
 - Temas: saludos, presentaciones, información personal, familia, casa, rutinas, días/meses, números, colores, profesiones
@@ -60,7 +60,7 @@ Aproximación de palabras por duración:
 
 Verificación: `npm run typecheck` — el array exportado debe ser `PodcastEpisode[]` sin errores.
 
-### [ ] Step 3: Catálogo de episodios A1 — Módulo 2 (Actividades y Tiempo Libre)
+### [x] Step 3: Catálogo de episodios A1 — Módulo 2 (Actividades y Tiempo Libre)
 
 Crear `src/lib/podcasts/a1-episodes-m2.ts` con los episodios del Módulo 2:
 - Temas: hobbies, deportes, comida y bebida, tiendas, clima, animales, can/can't, there is/are, preposiciones
@@ -69,7 +69,7 @@ Crear `src/lib/podcasts/a1-episodes-m2.ts` con los episodios del Módulo 2:
 
 Verificación: `npm run typecheck` sin errores.
 
-### [ ] Step 4: Catálogo de episodios A1 — Módulo 3 (Lugares y Viajes)
+### [x] Step 4: Catálogo de episodios A1 — Módulo 3 (Lugares y Viajes)
 
 Crear `src/lib/podcasts/a1-episodes-m3.ts` con los episodios del Módulo 3:
 - Temas: transporte, direcciones, trabajo, países, vacaciones, Present Continuous, ropa
