@@ -63,13 +63,6 @@ function extractEpisodes(filePath) {
     .replace(/^import\s+.*?from\s+['"][^'"]+['"];?\s*$/gm, '')
     .replace(/^export\s+const\s+/gm, 'const ')
     .replace(/:\s*PodcastEpisode\[\]/g, '')
-    .replace(/:\s*PodcastVoice/g, '')
-    .replace(/:\s*'A'\s*\|/g, '')
-    .replace(/:\s*'[AB]'/g, '')
-    .replace(/:\s*PodcastLevel/g, '')
-    .replace(/:\s*PodcastTrack/g, '')
-    .replace(/:\s*PodcastDuration/g, '')
-    .replace(/:\s*\d+\s*\|\s*\d+\s*\|\s*\d+/g, '')
     .replace(/\bas\s+const\b/g, '');
 
   try {
