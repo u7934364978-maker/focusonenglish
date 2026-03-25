@@ -12,7 +12,7 @@ const nunito = Nunito({
   subsets: ["latin"],
   weight: ["400", "700"],
   variable: "--font-nunito",
-  display: "optional",
+  display: "swap",
   preload: true,
 });
 
@@ -20,7 +20,7 @@ const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
   weight: ["700"],
   variable: "--font-jakarta",
-  display: "optional",
+  display: "swap",
   preload: true,
 });
 
