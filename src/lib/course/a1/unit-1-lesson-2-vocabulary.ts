@@ -30,7 +30,12 @@ export const UNIT_1_LESSON_2_VOCABULARY: Exercise[] = [
         {
           question:
             '[[What is the English word for “nombre”?|¿Cómo se dice «nombre» en inglés?]]',
-          options: ['age', 'name', 'city', 'country'],
+          options: [
+            '[[age|edad]]',
+            '[[name|nombre]]',
+            '[[city|ciudad]]',
+            '[[country|país]]',
+          ],
           correctAnswer: 1,
           explanation:
             '[[**Name** = nombre (what you are called).|**Name** = nombre (cómo te llamas).]]',
@@ -52,7 +57,12 @@ export const UNIT_1_LESSON_2_VOCABULARY: Exercise[] = [
         {
           question:
             '[[In Spanish you say “Tengo treinta años”. In English: I am thirty ____ .|En español dices «Tengo treinta años». En inglés: I am thirty ____ .]]',
-          options: ['year', 'years', 'years old', 'age'],
+          options: [
+            '[[year|año]]',
+            '[[years|años]]',
+            '[[years old|años (de edad)]]',
+            '[[age|edad]]',
+          ],
           correctAnswer: 2,
           explanation:
             '[[Use **years old** after the age: *I am thirty years old*.|**years old** va después de la edad: *I am thirty years old*.]]',
@@ -74,7 +84,12 @@ export const UNIT_1_LESSON_2_VOCABULARY: Exercise[] = [
         {
           question:
             '[[Which word means “from” (origin) in English?|¿Qué palabra en inglés significa «de» (origen)?]]',
-          options: ['to', 'from', 'in', 'at'],
+          options: [
+            '[[to|a]]',
+            '[[from|de (origen)]]',
+            '[[in|en]]',
+            '[[at|en]]',
+          ],
           correctAnswer: 1,
           explanation:
             '[[**From** + place: *I am from Madrid*.|**From** + lugar: *I am from Madrid*.]]',
@@ -123,7 +138,12 @@ export const UNIT_1_LESSON_2_VOCABULARY: Exercise[] = [
         {
           question:
             '[[Which word means “job” or “work” (what you do)?|¿Qué palabra significa «trabajo» o «empleo»?]]',
-          options: ['name', 'age', 'job', 'city'],
+          options: [
+            '[[name|nombre]]',
+            '[[age|edad]]',
+            '[[job|trabajo]]',
+            '[[city|ciudad]]',
+          ],
           correctAnswer: 2,
           explanation:
             '[[**Job** = the work you do (also *work* as a noun in many contexts).|**Job** = el trabajo que haces.]]',
@@ -249,7 +269,7 @@ export const UNIT_1_LESSON_2_VOCABULARY: Exercise[] = [
       questions: [
         {
           question: '[[My ____ is Ana.|Mi ____ es Ana.]]',
-          options: ['name', 'age', 'city'],
+          options: ['[[name|nombre]]', '[[age|edad]]', '[[city|ciudad]]'],
           correctAnswer: 'name',
           explanation:
             '[[**My name is** + name.|**My name is** + nombre.]]',
@@ -270,7 +290,7 @@ export const UNIT_1_LESSON_2_VOCABULARY: Exercise[] = [
       questions: [
         {
           question: '[[I am ____ Madrid.|Soy ____ Madrid.]]',
-          options: ['from', 'in', 'at'],
+          options: ['[[from|de (origen)]]', '[[in|en]]', '[[at|en]]'],
           correctAnswer: 'from',
           explanation:
             '[[**I am from** + city or country.|**I am from** + ciudad o país.]]',
@@ -292,7 +312,11 @@ export const UNIT_1_LESSON_2_VOCABULARY: Exercise[] = [
         {
           question:
             '[[Context: You teach English at a school. Complete: I am a ____ .|Contexto: enseñas inglés en una escuela. Completa: I am a ____ .]]',
-          options: ['teacher', 'student', 'doctor'],
+          options: [
+            '[[teacher|profesor/a]]',
+            '[[student|estudiante]]',
+            '[[doctor|médico/a]]',
+          ],
           correctAnswer: 'teacher',
           explanation:
             '[[If you teach, you are a **teacher**.|Si enseñas, eres **teacher** (profesor/a).]]',

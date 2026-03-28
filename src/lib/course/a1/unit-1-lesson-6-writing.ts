@@ -5,7 +5,7 @@
 
 import { Exercise } from '@/lib/exercise-generator';
 
-const LESSON_TITLE = 'Expresión escrita';
+const LESSON_TITLE = '[[Writing practice|Expresión escrita]]';
 
 export const UNIT_1_LESSON_6_WRITING: Exercise[] = [
   // ─── 1–5: Completar frases (por escrito) ──────────────────────────────────
@@ -17,13 +17,15 @@ export const UNIT_1_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Complete|Completa]] [[the|la]] [[sentence|frase]] [[with|con]] [[the|la]] [[correct|correcta]] [[word|palabra]]. [[Write|Escribe]] [[your|tu]] [[answer|respuesta]].',
+      instructions:
+        '[[Complete the sentence with one word. Write your answer in the box.|Completa la frase con una palabra. Escribe tu respuesta.]]',
       questions: [
         {
-          question: '[[My|Mi]] ____ [[is|es]] [[Ana|Ana]].',
+          question: '[[My ____ is Ana.|Mi ____ es Ana.]]',
           correctAnswer: 'name',
           acceptableAnswers: ['name'],
-          explanation: '[[We|Nosotros]] [[say|decimos]] "[[My name is|Mi nombre es]]" + [[name|nombre]].',
+          explanation:
+            '[[**My name is** + name.|**My name is** + nombre.]]',
         },
       ],
     },
@@ -37,13 +39,15 @@ export const UNIT_1_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Write|Escribe]] [[the|la]] [[word|palabra]] [[that|que]] [[completes|complete]] [[the|la]] [[sentence|frase]].',
+      instructions:
+        '[[Write the missing word to complete the sentence.|Escribe la palabra que falta.]]',
       questions: [
         {
-          question: '[[I|Yo]] ____ [[from|de]] [[Madrid|Madrid]].',
+          question: '[[I ____ from Madrid.|Soy de Madrid.]]',
           correctAnswer: 'am',
           acceptableAnswers: ['am'],
-          explanation: '[[I|Yo]] + [[am|soy]] + [[from|de]] + [[place|lugar]].',
+          explanation:
+            '[[**I am from** + place.|**I am from** + lugar.]]',
         },
       ],
     },
@@ -57,13 +61,15 @@ export const UNIT_1_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Complete|Completa]] [[with|con]] [[one|una]] [[word|palabra]].',
+      instructions:
+        '[[Complete with one word.|Completa con una palabra.]]',
       questions: [
         {
-          question: '[[You|Tú]] ____ [[my|mi]] [[friend|amigo]].',
+          question: '[[You ____ my friend.|Tú ____ mi amigo o amiga.]]',
           correctAnswer: 'are',
           acceptableAnswers: ['are'],
-          explanation: '[[You|Tú]] + [[are|eres]] + [[complement|complemento]].',
+          explanation:
+            '[[**You are** + complement.|**You are** + complemento.]]',
         },
       ],
     },
@@ -77,13 +83,15 @@ export const UNIT_1_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Write|Escribe]] [[the|la]] [[missing|faltante]] [[word|palabra]].',
+      instructions:
+        '[[Write the missing word.|Escribe la palabra que falta.]]',
       questions: [
         {
-          question: '[[I|Yo]] [[am|tengo]] [[twenty|veinte]] ____ [[old|de edad]].',
+          question: '[[I am twenty ____ old.|Equivale a «Tengo veinte años».]]',
           correctAnswer: 'years',
           acceptableAnswers: ['years'],
-          explanation: '[[We|Nosotros]] [[say|decimos]] "[[years old|años (de edad)]]" [[for|para]] [[age|edad]].',
+          explanation:
+            '[[**I am** + age + **years old**. In Spanish: *Tengo X años*.|**I am** + edad + **years old**. En español: *Tengo X años*.]]',
         },
       ],
     },
@@ -97,13 +105,15 @@ export const UNIT_1_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Complete|Completa]] [[the|la]] [[sentence|frase]].',
+      instructions:
+        '[[Complete the sentence.|Completa la frase.]]',
       questions: [
         {
-          question: '[[I|Yo]] [[am|soy]] ____ [[a|un]] [[student|estudiante]].',
+          question: '[[I am ____ a student.|Soy ____ estudiante.]]',
           correctAnswer: 'a',
           acceptableAnswers: ['a'],
-          explanation: '[[I am a student|Soy un estudiante]]: [[article|artículo]] "[[a|un]]" [[before|antes]] [[profession|profesión]]/[[role|rol]].',
+          explanation:
+            '[[**I am a** + job/role. Use **a** before the noun.|**I am a** + profesión. Va **a** antes del sustantivo.]]',
         },
       ],
     },
@@ -119,8 +129,9 @@ export const UNIT_1_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Order|Ordena]] [[the|las]] [[words|palabras]] and [[write|escribe]] [[the|la]] [[sentence|frase]] [[in|en]] [[the|el]] [[box|recuadro]] [[below|abajo]] [[or|o]] [[check|comprueba]] [[your|tu]] [[order|orden]].',
-      correctSentence: '[[My|Mi]] [[name|nombre]] [[is|es]] [[Carlos|Carlos]].',
+      instructions:
+        '[[Put the words in order, then write the full sentence (or check your order).|Ordena las palabras y escribe la frase completa.]]',
+      correctSentence: '[[My name is Carlos.|Mi nombre es Carlos.]]',
       words: ['[[is|es]]', '[[My|Mi]]', '[[name|nombre]]', '[[Carlos|Carlos]].'],
     },
     topicName: 'Writing',
@@ -133,8 +144,9 @@ export const UNIT_1_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Order|Ordena]] [[the|las]] [[words|palabras]] [[to|para]] [[form|formar]] [[a|una]] [[correct|correcta]] [[sentence|frase]].',
-      correctSentence: '[[I|Yo]] [[am|soy]] [[from|de]] [[Barcelona|Barcelona]].',
+      instructions:
+        '[[Put the words in order to make a correct sentence.|Ordena las palabras para formar una frase correcta.]]',
+      correctSentence: '[[I am from Barcelona.|Soy de Barcelona.]]',
       words: ['[[am|soy]]', '[[I|Yo]]', '[[from|de]]', '[[Barcelona|Barcelona]].'],
     },
     topicName: 'Writing',
@@ -147,8 +159,9 @@ export const UNIT_1_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Order|Ordena]] [[the|las]] [[words|palabras]].',
-      correctSentence: '[[You|Tú]] [[are|eres]] [[a|un]] [[teacher|profesor]].',
+      instructions:
+        '[[Put the words in order.|Ordena las palabras.]]',
+      correctSentence: '[[You are a teacher.|Eres profesor o profesora.]]',
       words: ['[[are|eres]]', '[[You|Tú]]', '[[a|un]]', '[[teacher|profesor]].'],
     },
     topicName: 'Writing',
@@ -163,8 +176,10 @@ export const UNIT_1_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Write|Escribe]] [[your|tu]] [[name|nombre]] and [[age|edad]]. [[Model|Modelo]]: "[[My name is|Mi nombre es]] ... [[I am|Tengo]] ... [[years old|años]]." [[Write|Escribe]] [[1|una]] [[or|o]] [[2|dos]] [[sentences|frases]].',
-      prompt: '[[My name is|Mi nombre es]] ____. [[I am|Tengo]] ____ [[years old|años]].',
+      instructions:
+        '[[Write your name and age. Example: My name is … I am … years old. Write 1–2 sentences.|Escribe tu nombre y edad. Modelo: My name is … I am … years old. Una o dos frases.]]',
+      prompt:
+        '[[My name is …. I am … years old.|Mi nombre es …. En inglés para la edad: I am … years old.]]',
       minWords: 5,
       maxWords: 15,
     },
@@ -178,8 +193,9 @@ export const UNIT_1_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Write|Escribe]] [[where|dónde]] [[you|tú]] [[are|eres]] [[from|de]] [[(city|(ciudad]] [[or|o]] [[country|país)]]. [[Model|Modelo]]: "[[I am from|Soy de]] ...". [[One|Una]] [[sentence|frase]].',
-      prompt: '[[I am from|Soy de]] ____.',
+      instructions:
+        '[[Write where you are from (city or country). Example: I am from Madrid. One sentence.|Escribe de dónde eres (ciudad o país). Ejemplo: I am from Madrid. Una frase.]]',
+      prompt: '[[I am from _____.|Soy de _____.]]',
       minWords: 3,
       maxWords: 10,
     },
@@ -193,8 +209,9 @@ export const UNIT_1_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Write|Escribe]] [[if|si]] [[you|tú]] [[are|eres]] [[a|un/una]] [[student|estudiante]] [[or|o]] [[teacher|profesor]] [[(or|(o]] [[another|otra]] [[job|profesión)]]. [[Model|Modelo]]: "[[I am a student|Soy estudiante]]" [[or|o]] "[[I am a teacher|Soy profesor]]".',
-      prompt: '[[I am a|Soy]] ____.',
+      instructions:
+        '[[Write if you are a student or a teacher (or another job). Examples: I am a student. / I am a teacher.|Escribe si eres estudiante o profesor (u otro empleo). Ejemplos: I am a student. / I am a teacher.]]',
+      prompt: '[[I am a _____.|Soy _____.]]',
       minWords: 3,
       maxWords: 8,
     },
@@ -208,8 +225,10 @@ export const UNIT_1_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Write|Escribe]] [[a|una]] [[short|breve]] [[greeting|saludo]] and [[introduction|presentación]]: [[say|di]] [[hello|hola]], [[your|tu]] [[name|nombre]] and "[[Nice to meet you|Encantado de conocerte]]". [[2|Dos]] [[or|o]] [[3|tres]] [[sentences|frases]].',
-      prompt: '[[Hello|Hola]] / [[Hi|Hola]]. [[My name is|Mi nombre es]] ____. [[Nice to meet you|Encantado de conocerte]].',
+      instructions:
+        '[[Write a short greeting and introduction: hello, your name, and Nice to meet you. (2–3 sentences)|Escribe saludo y presentación: hola, tu nombre y Nice to meet you. (2–3 frases).]]',
+      prompt:
+        '[[Hello / Hi. My name is …. Nice to meet you.|Hola. Mi nombre es …. Nice to meet you.]]',
       minWords: 8,
       maxWords: 20,
     },
@@ -225,8 +244,10 @@ export const UNIT_1_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Write|Escribe]] [[a|una]] [[short|breve]] [[paragraph|párrafo]] [[about|sobre]] [[yourself|ti mismo]]. [[Include|Incluye]]: [[name|nombre]], [[age|edad]], [[city|ciudad]] [[or|o]] [[country|país]], [[job|trabajo]] [[or|o]] [[student|estudiante]]. [[Use|Usa]] [[4|cuatro]] [[to|a]] [[6|seis]] [[sentences|frases]]. [[Model|Modelo]]: "[[My name is|Mi nombre es]] ... [[I am|Tengo]] ... [[years old|años]]. [[I am from|Soy de]] ... [[I am a|Soy]] ...".',
-      prompt: '[[Write about yourself|Escribe sobre ti mismo]]: [[name|nombre]], [[age|edad]], [[where you are from|de dónde eres]], [[job or student|trabajo o estudiante]].',
+      instructions:
+        '[[Write a short paragraph about yourself: name, age, city or country, job or studies. Use 4–6 sentences.|Escribe un párrafo sobre ti: nombre, edad, ciudad o país, trabajo o estudios. Usa 4–6 frases.]]',
+      prompt:
+        '[[Write about yourself: name, age, where you are from, job or studies.|Escribe sobre ti: nombre, edad, origen, trabajo o estudios.]]',
       minWords: 25,
       maxWords: 60,
     },
@@ -240,8 +261,10 @@ export const UNIT_1_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Imagine|Imagina]] [[you|tú]] [[meet|conoces]] [[a|un]] [[new|nuevo]] [[friend|amigo]]. [[Write|Escribe]] [[what|qué]] [[you|tú]] [[would|dirías]] [[say|decir]]: [[greeting|saludo]], [[your name|tu nombre]], [[age|edad]], [[where you are from|de dónde eres]]. [[4|Cuatro]] [[to|a]] [[6|seis]] [[sentences|frases]].',
-      prompt: '[[Introduce yourself to a new friend|Preséntate a un amigo nuevo]].',
+      instructions:
+        '[[Imagine you meet a new friend. Write what you would say: greeting, name, age, where you are from. (4–6 sentences)|Imagina que conoces a un amigo nuevo. Escribe qué dirías: saludo, nombre, edad, origen. (4–6 frases).]]',
+      prompt:
+        '[[Introduce yourself to a new friend.|Preséntate a un amigo nuevo.]]',
       minWords: 25,
       maxWords: 60,
     },
@@ -255,8 +278,10 @@ export const UNIT_1_LESSON_6_WRITING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: '[[Write|Escribe]] [[your|tu]] [[personal|personal]] [[profile|perfil]] [[as|como]] [[if|si]] [[for|para]] [[a|una]] [[course|curso]] [[or|o]] [[forum|foro]]. [[Include|Incluye]]: [[name|nombre]], [[age|edad]], [[city|ciudad]]/[[country|país]], [[job|trabajo]]/[[student|estudiante]], and [[one|una]] [[sentence|frase]] [[about|sobre]] [[you|ti]] ([[e.g.|ej.]] "[[I am happy to be here|Estoy feliz de estar aquí]]"). [[4|Cuatro]] [[to|a]] [[6|seis]] [[sentences|frases]].',
-      prompt: '[[Short personal profile|Perfil personal breve]] [[for a course or forum|para un curso o foro]].',
+      instructions:
+        '[[Write a short profile for a course or forum: name, age, city/country, job or student, plus one sentence about you (e.g. I am happy to be here). 4–6 sentences.|Escribe un perfil breve: nombre, edad, ciudad/país, trabajo o estudiante, y una frase sobre ti. 4–6 frases.]]',
+      prompt:
+        '[[Short personal profile for a course or forum.|Perfil personal breve para un curso o foro.]]',
       minWords: 30,
       maxWords: 70,
     },

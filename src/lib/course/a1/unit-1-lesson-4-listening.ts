@@ -5,101 +5,131 @@
 
 import { Exercise } from '@/lib/exercise-generator';
 
-const LESSON_TITLE = 'Comprensión auditiva';
-const LISTENING_TRANSCRIPT = `[[Hi|Hola]]! [[My|Mi]] [[name|nombre]] [[is|es]] [[Carlos|Carlos]]. [[I|Yo]] [[am|soy]] [[from|de]] [[Barcelona|Barcelona]], [[Spain|España]]. [[I am twenty-five years old.|Tengo veinticinco años.]] [[I|Yo]] [[am|soy]] [[a|un]] [[student|estudiante]]. [[I|Yo]] [[study|estudio]] [[at|en]] [[the|la]] [[university|universidad]]. [[I|Yo]] [[am|estoy]] [[happy|feliz]] [[to|de]] [[be|estar]] [[here|aquí]]. [[Nice|Encantado]] [[to|de]] [[meet|conocerte]] [[you|a ti]]!`;
+const LESSON_TITLE = '[[Listening comprehension|Comprensión auditiva]]';
+/** Transcripción alineada con el audio/TTS: frases completas en [[EN|ES]]. */
+const LISTENING_TRANSCRIPT = `[[Hi!|¡Hola!]] [[My name is Carlos.|Mi nombre es Carlos.]] [[I am from Barcelona, Spain.|Soy de Barcelona, España.]] [[I am twenty-five years old.|Tengo veinticinco años.]] [[I am a student.|Soy estudiante.]] [[I study at the university.|Estudio en la universidad.]] [[I am happy to be here.|Estoy feliz de estar aquí.]] [[Nice to meet you!|¡Encantado de conocerte!]]`;
 
-const INSTRUCTIONS = '[[Listen|Escucha]] [[the|el]] [[audio|audio]] [[below|abajo]]. [[You can|Puedes]] [[read|leer]] [[the|la]] [[transcript|transcripción]] [[after|después]] [[listening|escuchar]]. [[Then|Después]] [[answer|responde]] [[the|las]] [[questions|preguntas]].';
+const INSTRUCTIONS =
+  '[[Listen to the audio below. You can read the transcript after listening. Then answer each question.|Escucha el audio de abajo. Puedes leer la transcripción después. Luego responde a cada pregunta.]]';
 
 const QUESTIONS = [
   {
-    question: '[[What|Cuál]] [[is|es]] [[his|su]] [[name|nombre]]?',
+    question: '[[What is his name?|¿Cuál es su nombre?]]',
     options: ['[[Pedro|Pedro]]', '[[Carlos|Carlos]]', '[[Pablo|Pablo]]', '[[Antonio|Antonio]]'],
     correctAnswer: 1,
-    explanation: '[[He|Él]] [[says|dice]]: "[[My name is Carlos|Mi nombre es Carlos]]".',
+    explanation: '[[He says *My name is Carlos*.|Dice *My name is Carlos*.]]',
   },
   {
-    question: '[[Where|De dónde]] [[is|es]] [[Carlos|Carlos]] [[from|de]]?',
+    question: '[[Where is Carlos from?|¿De dónde es Carlos?]]',
     options: ['[[Madrid|Madrid]]', '[[Valencia|Valencia]]', '[[Barcelona|Barcelona]]', '[[Seville|Sevilla]]'],
     correctAnswer: 2,
-    explanation: '[[He|Él]] [[says|dice]] "[[I am from Barcelona, Spain|Soy de Barcelona, España]]".',
+    explanation: '[[He is from **Barcelona**, Spain.|Es de **Barcelona**, España.]]',
   },
   {
     question: '[[How old is Carlos?|¿Cuántos años tiene Carlos?]]',
     options: ['[[twenty|veinte]]', '[[twenty-three|veintitrés]]', '[[twenty-five|veinticinco]]', '[[thirty|treinta]]'],
     correctAnswer: 2,
-    explanation: '[[The|El]] [[speaker|hablante]] [[says|dice]] "[[twenty-five years old|veinticinco años]]".',
+    explanation: '[[He is **twenty-five** years old.|Tiene **veinticinco** años.]]',
   },
   {
-    question: '[[What|Qué]] [[is|es]] [[Carlos|Carlos]]? ([[job|trabajo]] / [[role|rol]])',
-    options: ['[[teacher|profesor]]', '[[doctor|médico]]', '[[student|estudiante]]', '[[engineer|ingeniero]]'],
+    question: '[[What is Carlos? (job / role)|¿Qué es Carlos? (trabajo / rol)]]',
+    options: [
+      '[[teacher|profesor]]',
+      '[[doctor|médico]]',
+      '[[student|estudiante]]',
+      '[[engineer|ingeniero]]',
+    ],
     correctAnswer: 2,
-    explanation: '[[He|Él]] [[says|dice]] "[[I am a student|Soy estudiante]]".',
+    explanation: '[[He says *I am a student*.|Dice *I am a student* (soy estudiante).]]',
   },
   {
-    question: '[[Where does he study?|¿Dónde estudia él?]]',
-    options: ['[[at|en]] [[school|el colegio]]', '[[at|en]] [[the|la]] [[university|universidad]]', '[[at|en]] [[home|casa]]', '[[in|en]] [[a|una]] [[library|biblioteca]]'],
+    question: '[[Where does he study?|¿Dónde estudia?]]',
+    options: [
+      '[[At school.|En el colegio.]]',
+      '[[At the university.|En la universidad.]]',
+      '[[At home.|En casa.]]',
+      '[[In a library.|En una biblioteca.]]',
+    ],
     correctAnswer: 1,
-    explanation: '[[He|Él]] [[says|dice]] "[[I study at the university|Estudio en la universidad]]".',
+    explanation: '[[He studies **at the university**.|**Estudia en la universidad**.]]',
   },
   {
     question: '[[How does Carlos feel?|¿Cómo se siente Carlos?]]',
     options: ['[[tired|cansado]]', '[[sad|triste]]', '[[happy|feliz]]', '[[angry|enfadado]]'],
     correctAnswer: 2,
-    explanation: '[[He|Él]] [[says|dice]] "[[I am happy to be here|Estoy feliz de estar aquí]]".',
+    explanation: '[[He says *I am happy to be here*.|Dice *I am happy to be here*.]]',
   },
   {
-    question: '[[What country does he mention?|¿Qué país menciona él?]]',
+    question: '[[What country does he mention?|¿Qué país menciona?]]',
     options: ['[[Italy|Italia]]', '[[France|Francia]]', '[[Spain|España]]', '[[Portugal|Portugal]]'],
     correctAnswer: 2,
-    explanation: '[[He|Él]] [[says|dice]] "[[from Barcelona, Spain|de Barcelona, España]]".',
+    explanation: '[[He mentions **Spain** (*Barcelona, Spain*).|**España** (*Barcelona, Spain*).]]',
   },
   {
     question: '[[What phrase does Carlos use at the end?|¿Qué frase usa Carlos al final?]]',
-    options: ['[[Goodbye|Adiós]]', '[[Thank you|Gracias]]', '[[Nice to meet you|Encantado de conocerte]]', '[[How are you?|¿Cómo estás?]]'],
+    options: [
+      '[[Goodbye|Adiós]]',
+      '[[Thank you|Gracias]]',
+      '[[Nice to meet you|Encantado de conocerte]]',
+      '[[How are you?|¿Cómo estás?]]',
+    ],
     correctAnswer: 2,
-    explanation: '[[He|Él]] [[ends|termina]] [[with|con]] "[[Nice to meet you|Encantado de conocerte]]".',
+    explanation: '[[He ends with *Nice to meet you!*|Termina con *Nice to meet you!*]]',
   },
   {
-    question: '[[Carlos|Carlos]] [[is|es]] [[from|de]] [[Madrid|Madrid]].',
+    question: '[[Carlos is from Madrid.|Carlos es de Madrid.]]',
     options: ['[[True|Verdadero]]', '[[False|Falso]]'],
     correctAnswer: 'False',
-    explanation: '[[False|Falso]]. [[He|Él]] [[is|es]] [[from|de]] [[Barcelona|Barcelona]], [[not|no]] [[Madrid|Madrid]].',
+    explanation:
+      '[[False. He is from Barcelona, not Madrid.|Falso. Es de Barcelona, no de Madrid.]]',
   },
   {
-    question: '[[Carlos|Carlos]] [[is|es]] [[a|un]] [[teacher|profesor]].',
+    question: '[[Carlos is a teacher.|Carlos es profesor.]]',
     options: ['[[True|Verdadero]]', '[[False|Falso]]'],
     correctAnswer: 'False',
-    explanation: '[[False|Falso]]. [[He|Él]] [[is|es]] [[a|un]] [[student|estudiante]].',
+    explanation: '[[False. He is a student.|Falso. Es estudiante.]]',
   },
   {
-    question: '[[Carlos|Carlos]] [[studies|estudia]] [[at|en]] [[the|la]] [[university|universidad]].',
+    question: '[[Carlos studies at the university.|Carlos estudia en la universidad.]]',
     options: ['[[True|Verdadero]]', '[[False|Falso]]'],
     correctAnswer: 'True',
-    explanation: '[[True|Verdadero]]. [[He|Él]] [[says|dice]] "[[I study at the university|Estudio en la universidad]]".',
+    explanation: '[[True. He says *I study at the university*.|Verdadero. Dice *I study at the university*.]]',
   },
   {
-    question: '[[Carlos|Carlos]] [[is|es]] [[thirty|treinta]] [[years old|años]].',
+    question: '[[Carlos is thirty years old.|Carlos tiene treinta años.]]',
     options: ['[[True|Verdadero]]', '[[False|Falso]]'],
     correctAnswer: 'False',
-    explanation: '[[False|Falso]]. [[He is twenty-five years old.|Tiene veinticinco años.]]',
+    explanation: '[[False. He is twenty-five.|Falso. Tiene veinticinco años.]]',
   },
   {
-    question: '[[What|Cuál]] [[is|es]] [[the|el]] [[main|principal]] [[topic|tema]] [[of|del]] [[this|este]] [[audio|audio]]?',
-    options: ['[[A|Una]] [[lesson|clase]] [[at|en]] [[university|la universidad]]', '[[A|Una]] [[person|persona]] [[introducing|presentándose]] [[himself|a sí mismo]]', '[[A|Un]] [[trip|viaje]] [[to|a]] [[Barcelona|Barcelona]]', '[[A|Una]] [[job|trabajo]] [[interview|entrevista]]'],
+    question: '[[What is the main topic of this audio?|¿Cuál es el tema principal del audio?]]',
+    options: [
+      '[[A class at university.|Una clase en la universidad.]]',
+      '[[A person introducing himself.|Una persona que se presenta.]]',
+      '[[A trip to Barcelona.|Un viaje a Barcelona.]]',
+      '[[A job interview.|Una entrevista de trabajo.]]',
+    ],
     correctAnswer: 1,
-    explanation: '[[The|El]] [[audio|audio]] [[is|es]] [[about|sobre]] [[Carlos|Carlos]] [[introducing|presentándose]]: [[name|nombre]], [[age|edad]], [[city|ciudad]], [[student|estudiante]].',
+    explanation:
+      '[[Carlos introduces himself: name, age, city, studies.|Carlos se presenta: nombre, edad, ciudad, estudios.]]',
   },
   {
-    question: '[[Who|Quién]] [[is|es]] [[speaking|habla]] [[in|en]] [[the|el]] [[audio|audio]]?',
-    options: ['[[A|Un]] [[teacher|profesor]]', '[[Carlos|Carlos]] [[himself|él mismo]]', '[[A|Un]] [[friend|amigo]] [[of|de]] [[Carlos|Carlos]]', '[[A|Un]] [[student|estudiante]] [[from|de]] [[another|otra]] [[country|país]]'],
+    question: '[[Who is speaking in the audio?|¿Quién habla en el audio?]]',
+    options: [
+      '[[A teacher.|Un profesor.]]',
+      '[[Carlos himself.|Carlos mismo.]]',
+      '[[A friend of Carlos.|Un amigo de Carlos.]]',
+      '[[A student from another country.|Un estudiante de otro país.]]',
+    ],
     correctAnswer: 1,
-    explanation: '[[Carlos|Carlos]] [[speaks|habla]] [[about|sobre]] [[himself|sí mismo]] ("[[My name is|Mi nombre es]]", "[[I am|Yo soy]]").',
+    explanation:
+      '[[Carlos speaks in the first person (*My name is…*, *I am…*).|Carlos habla en primera persona.]]',
   },
   {
-    question: '[[Does|¿]] [[Carlos|Carlos]] [[say|dice]] [[he|él]] [[is|está]] [[happy|feliz]]?',
+    question: '[[Does Carlos say he is happy?|¿Dice Carlos que está feliz?]]',
     options: ['[[True|Verdadero]]', '[[False|Falso]]'],
     correctAnswer: 'True',
-    explanation: '[[True|Verdadero]]. [[He|Él]] [[says|dice]] "[[I am happy to be here|Estoy feliz de estar aquí]]".',
+    explanation: '[[True. He says *I am happy to be here*.|Verdadero. Dice *I am happy to be here*.]]',
   },
 ];
 

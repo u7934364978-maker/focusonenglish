@@ -1,12 +1,12 @@
 /**
  * Unidad 1 — Lección 5: Expresión oral
- * 15 ejercicios: 4 repetir, 3 leer en voz alta, 4 responder oralmente, 4 describir/producir frase
- * Descripción de la tarea en castellano, sin traducción.
+ * 15 ejercicios: repetir, leer en voz alta, responder oralmente, producir frase guiada.
+ * Instrucciones y targetText: [[EN|ES]]; expectedResponse en inglés plano (TTS / evaluación).
  */
 
 import { Exercise } from '@/lib/exercise-generator';
 
-const LESSON_TITLE = 'Expresión oral';
+const LESSON_TITLE = '[[Speaking practice|Expresión oral]]';
 
 export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
   // ─── 1–4: Repetir (pronunciación) ─────────────────────────────────────────
@@ -18,8 +18,9 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Escucha la frase y repítela en voz alta.',
-      targetText: '[[Hello|Hola]]. [[My|Mi]] [[name|nombre]] [[is|es]] [[Maria|María]].',
+      instructions:
+        '[[Listen to the phrase and repeat it aloud.|Escucha la frase y repítela en voz alta.]]',
+      targetText: '[[Hello. My name is María.|Hola. Mi nombre es María.]]',
       expectedResponse: 'Hello. My name is Maria.',
     },
     topicName: 'Speaking',
@@ -32,8 +33,9 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Escucha y repite en voz alta.',
-      targetText: '[[I|Yo]] [[am|soy]] [[from|de]] [[Madrid|Madrid]].',
+      instructions:
+        '[[Listen and repeat aloud.|Escucha y repite en voz alta.]]',
+      targetText: '[[I am from Madrid.|Soy de Madrid.]]',
       expectedResponse: 'I am from Madrid.',
     },
     topicName: 'Speaking',
@@ -46,7 +48,8 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Escucha y repite en voz alta.',
+      instructions:
+        '[[Listen and repeat aloud.|Escucha y repite en voz alta.]]',
       targetText: '[[I am twenty-five years old.|Tengo veinticinco años.]]',
       expectedResponse: 'I am twenty-five years old.',
     },
@@ -60,8 +63,9 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Escucha y repite en voz alta.',
-      targetText: '[[Nice|Encantado]] [[to|de]] [[meet|conocer]] [[you|a ti]].',
+      instructions:
+        '[[Listen and repeat aloud.|Escucha y repite en voz alta.]]',
+      targetText: '[[Nice to meet you!|¡Encantado de conocerte!]]',
       expectedResponse: 'Nice to meet you.',
     },
     topicName: 'Speaking',
@@ -76,8 +80,9 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Lee la frase de abajo en voz alta.',
-      targetText: '[[Good morning|Buenos días]]. [[I|Yo]] [[am|soy]] [[a|un]] [[student|estudiante]].',
+      instructions:
+        '[[Read the sentence below aloud.|Lee la frase de abajo en voz alta.]]',
+      targetText: '[[Good morning. I am a student.|Buenos días. Soy estudiante.]]',
       expectedResponse: 'Good morning. I am a student.',
     },
     topicName: 'Speaking',
@@ -90,8 +95,9 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Lee la frase en voz alta.',
-      targetText: '[[You|Tú]] [[are|eres]] [[my|mi]] [[friend|amigo]].',
+      instructions:
+        '[[Read the sentence aloud.|Lee la frase en voz alta.]]',
+      targetText: '[[You are my friend.|Tú eres mi amigo o amiga.]]',
       expectedResponse: 'You are my friend.',
     },
     topicName: 'Speaking',
@@ -104,8 +110,9 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Lee la frase en voz alta.',
-      targetText: '[[I|Yo]] [[am|soy]] [[from|de]] [[Barcelona|Barcelona]], [[Spain|España]].',
+      instructions:
+        '[[Read the sentence aloud.|Lee la frase en voz alta.]]',
+      targetText: '[[I am from Barcelona, Spain.|Soy de Barcelona, España.]]',
       expectedResponse: 'I am from Barcelona, Spain.',
     },
     topicName: 'Speaking',
@@ -120,8 +127,9 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Responde la pregunta en voz alta. Ejemplo: "[[Yes|Sí]], [[I|yo]] [[am|soy]]." o "[[No|No]], [[I|yo]] [[am|no soy]] [[not|no]]."',
-      targetText: '[[Are|Eres]] [[you|tú]] [[a|un]] [[student|estudiante]]?',
+      instructions:
+        '[[Answer the question aloud. You can say *Yes, I am.* or *No, I am not.*|Responde en voz alta. Puedes decir *Yes, I am.* o *No, I am not.*]]',
+      targetText: '[[Are you a student?|¿Eres estudiante?]]',
       expectedResponse: 'Yes, I am. / No, I am not.',
     },
     topicName: 'Speaking',
@@ -134,8 +142,9 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Responde la pregunta en voz alta.',
-      targetText: '[[Are|Eres]] [[you|tú]] [[from|de]] [[Spain|España]]?',
+      instructions:
+        '[[Answer aloud with *Yes, I am.* or *No, I am not.*|Responde con *Yes, I am.* o *No, I am not.*]]',
+      targetText: '[[Are you from Spain?|¿Eres de España?]]',
       expectedResponse: 'Yes, I am. / No, I am not.',
     },
     topicName: 'Speaking',
@@ -148,8 +157,9 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Responde la pregunta en voz alta.',
-      targetText: '[[Is|Es]] [[your|tu]] [[name|nombre]] [[Maria|María]]?',
+      instructions:
+        '[[Answer aloud with *Yes, it is.* or *No, it is not.*|Responde con *Yes, it is.* o *No, it is not.*]]',
+      targetText: '[[Is your name María?|¿Tu nombre es María?]]',
       expectedResponse: 'Yes, it is. / No, it is not.',
     },
     topicName: 'Speaking',
@@ -162,7 +172,8 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Responde la pregunta en voz alta.',
+      instructions:
+        '[[Answer aloud with *Yes, I am.* or *No, I am not.*|Responde con *Yes, I am.* o *No, I am not.*]]',
       targetText: '[[Are you twenty years old?|¿Tienes veinte años?]]',
       expectedResponse: 'Yes, I am. / No, I am not.',
     },
@@ -178,8 +189,9 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Di en voz alta tu nombre y de dónde eres. Modelo: "[[My|Mi]] [[name|nombre]] [[is|es]] … [[I|Yo]] [[am|soy]] [[from|de]] …"',
-      targetText: '[[My name is|Mi nombre es]] ____. [[I am from|Soy de]] ____.',
+      instructions:
+        '[[Say your name and where you are from. Pattern: *My name is … I am from …*|Di tu nombre y de dónde eres. Modelo: *My name is … I am from …*]]',
+      targetText: '[[My name is …. I am from….|Mi nombre es …. Soy de….]]',
       expectedResponse: 'My name is [your name]. I am from [your city/country].',
     },
     topicName: 'Speaking',
@@ -192,7 +204,8 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Di en voz alta cuántos años tienes. Modelo en inglés: **I am** + número + **years old** (equivalente a *Tengo … años*).',
+      instructions:
+        '[[Say how old you are. Pattern: *I am* + number + *years old* (like *Tengo … años*).|Di cuántos años tienes. Patrón: *I am* + número + *years old*.]]',
       targetText: '[[I am ____ years old.|Tengo ____ años.]]',
       expectedResponse: 'I am [number] years old.',
     },
@@ -206,8 +219,9 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Di en voz alta si eres estudiante o profesor. Modelo: "[[I am a|Soy]] [[student|estudiante]]." o "[[I am a|Soy]] [[teacher|profesor]]."',
-      targetText: '[[I am a|Soy]] ____. ([[student|estudiante]] / [[teacher|profesor]])',
+      instructions:
+        '[[Say if you are a student or a teacher. Examples: *I am a student.* / *I am a teacher.*|Di si eres estudiante o profesor. Ejemplos: *I am a student.* / *I am a teacher.*]]',
+      targetText: '[[I am a student. / I am a teacher.|Soy estudiante. / Soy profesor o profesora.]]',
       expectedResponse: 'I am a student. / I am a teacher.',
     },
     topicName: 'Speaking',
@@ -220,8 +234,10 @@ export const UNIT_1_LESSON_5_SPEAKING: Exercise[] = [
     difficulty: 'easy',
     content: {
       title: LESSON_TITLE,
-      instructions: 'Haz una breve presentación en 3 o 4 frases. Incluye: nombre, edad, ciudad o país y profesión o estudiante.',
-      targetText: '[[My name is … I am … years old. I am from … I am a …|Me llamo… Tengo… años. Soy de… Soy…]]',
+      instructions:
+        '[[Give a short introduction in 3–4 sentences: name, age, city/country, job or student.|Haz una presentación breve: nombre, edad, ciudad o país, trabajo o estudiante.]]',
+      targetText:
+        '[[My name is …. I am … years old. I am from …. I am a …. |Me llamo…. Tengo … años. Soy de…. Soy….]]',
       expectedResponse: 'My name is [X]. I am [N] years old. I am from [place]. I am a [student/teacher/...].',
     },
     topicName: 'Speaking',
