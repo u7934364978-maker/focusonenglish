@@ -38,6 +38,61 @@ function isLikelyMp3(buffer: ArrayBuffer): boolean {
   return false;
 }
 
+/** Decodifica base64 → ArrayBuffer (Edge-compatible). */
+function base64ToArrayBuffer(b64: string): ArrayBuffer {
+  const clean = b64.replace(/\s/g, '');
+  const binary = atob(clean);
+  const len = binary.length;
+  const bytes = new Uint8Array(len);
+  for (let i = 0; i < len; i++) bytes[i] = binary.charCodeAt(i);
+  return bytes.buffer;
+}
+
+/**
+ * La API REST `.../ai/run/@cf/deepgram/aura-1` devuelve JSON `{ result: { audio: "<base64>" } }`.
+ * Un worker con `returnRawResponse: true` puede devolver MP3 en bruto.
+ */
+function decodeTtsResponseBody(buf: ArrayBuffer): { ok: true; mp3: ArrayBuffer } | { ok: false; reason: string } {
+  if (isLikelyMp3(buf)) {
+    return { ok: true, mp3: buf };
+  }
+
+  const txt = new TextDecoder().decode(buf);
+  try {
+    const data = JSON.parse(txt) as {
+      success?: boolean;
+      errors?: unknown[];
+      messages?: unknown[];
+      result?: { audio?: string } | string;
+    };
+
+    if (data.success === false) {
+      const errMsg = JSON.stringify(data.errors ?? data.messages ?? 'unknown');
+      return { ok: false, reason: `Cloudflare success=false: ${errMsg.slice(0, 400)}` };
+    }
+
+    const r = data.result;
+    let b64: string | undefined;
+    if (typeof r === 'string' && r.length > 0) {
+      b64 = r;
+    } else if (r && typeof r === 'object' && typeof r.audio === 'string') {
+      b64 = r.audio;
+    }
+
+    if (!b64) {
+      return { ok: false, reason: `JSON sin result.audio (preview): ${txt.slice(0, 200)}` };
+    }
+
+    const mp3 = base64ToArrayBuffer(b64);
+    if (!isLikelyMp3(mp3)) {
+      return { ok: false, reason: 'Base64 decodificado no es MP3 válido' };
+    }
+    return { ok: true, mp3 };
+  } catch {
+    return { ok: false, reason: `No es MP3 ni JSON válido: ${txt.slice(0, 200)}` };
+  }
+}
+
 function sleep(ms: number): Promise<void> {
   return new Promise((r) => setTimeout(r, ms));
 }
@@ -117,10 +172,35 @@ async function callCloudflareTts(
           Authorization: `Bearer ${apiToken}`,
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ text: cleanText, speaker }),
+        body: JSON.stringify({ text: cleanText, speaker, encoding: 'mp3' }),
         signal: controller.signal,
       }
     );
+  } finally {
+    clearTimeout(t);
+  }
+}
+
+/** Worker propio (ej. `returnRawResponse: true`) o proxy TTS. */
+async function callCustomTtsWorker(
+  url: string,
+  cleanText: string,
+  speaker: string,
+  bearerSecret?: string
+): Promise<Response> {
+  const controller = new AbortController();
+  const t = setTimeout(() => controller.abort(), CF_TIMEOUT_MS);
+  const headers: Record<string, string> = { 'Content-Type': 'application/json' };
+  if (bearerSecret) {
+    headers.Authorization = `Bearer ${bearerSecret}`;
+  }
+  try {
+    return await fetch(url, {
+      method: 'POST',
+      headers,
+      body: JSON.stringify({ text: cleanText, speaker }),
+      signal: controller.signal,
+    });
   } finally {
     clearTimeout(t);
   }
@@ -141,13 +221,21 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: normalized.error }, { status: 400 });
     }
 
+    const workerUrl = process.env.CLOUDFLARE_TTS_WORKER_URL?.trim();
+    const workerSecret = process.env.CLOUDFLARE_TTS_WORKER_SECRET;
     const accountId = process.env.CLOUDFLARE_ACCOUNT_ID;
     const apiToken = process.env.CLOUDFLARE_API_TOKEN;
 
-    if (!accountId || !apiToken) {
-      console.error('TTS: CLOUDFLARE_ACCOUNT_ID o CLOUDFLARE_API_TOKEN no configurados');
+    const useRestApi = Boolean(accountId && apiToken);
+    if (!workerUrl && !useRestApi) {
+      console.error(
+        'TTS: define CLOUDFLARE_TTS_WORKER_URL o bien CLOUDFLARE_ACCOUNT_ID + CLOUDFLARE_API_TOKEN'
+      );
       return NextResponse.json(
-        { error: 'Cloudflare credentials not configured on server' },
+        {
+          error: 'TTS not configured',
+          hint: 'CLOUDFLARE_TTS_WORKER_URL or CLOUDFLARE_ACCOUNT_ID + CLOUDFLARE_API_TOKEN',
+        },
         { status: 500 }
       );
     }
@@ -166,7 +254,9 @@ export async function POST(request: NextRequest) {
 
       let response: Response;
       try {
-        response = await callCloudflareTts(accountId, apiToken, cleanText, speaker);
+        response = workerUrl
+          ? await callCustomTtsWorker(workerUrl, cleanText, speaker, workerSecret)
+          : await callCloudflareTts(accountId!, apiToken!, cleanText, speaker);
       } catch (e: unknown) {
         const name = e instanceof Error ? e.name : '';
         const msg = e instanceof Error ? e.message : String(e);
@@ -183,16 +273,16 @@ export async function POST(request: NextRequest) {
       lastStatus = response.status;
 
       if (response.ok) {
-        const audioBuffer = await response.arrayBuffer();
-        if (!isLikelyMp3(audioBuffer)) {
-          const asText = new TextDecoder().decode(audioBuffer.slice(0, 500));
-          console.error('TTS: respuesta no parece MP3:', asText);
+        const rawBuf = await response.arrayBuffer();
+        const decoded = decodeTtsResponseBody(rawBuf);
+        if (!decoded.ok) {
+          console.error('TTS: no se pudo obtener MP3:', decoded.reason);
           return NextResponse.json(
-            { error: 'TTS returned invalid audio payload' },
+            { error: 'TTS returned invalid audio payload', detail: decoded.reason },
             { status: 502 }
           );
         }
-        return new NextResponse(audioBuffer, {
+        return new NextResponse(decoded.mp3, {
           headers: {
             'Content-Type': 'audio/mpeg',
             'Cache-Control': 'public, max-age=3600',

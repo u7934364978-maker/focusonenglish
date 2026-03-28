@@ -32,13 +32,19 @@ if (fs.existsSync(envPath)) {
 
 const ACCOUNT_ID = process.env.CLOUDFLARE_ACCOUNT_ID;
 const API_TOKEN = process.env.CLOUDFLARE_API_TOKEN;
+const WORKER_TTS_URL = process.env.CLOUDFLARE_TTS_WORKER_URL?.trim();
+const WORKER_SECRET = process.env.CLOUDFLARE_TTS_WORKER_SECRET;
 
-if (!ACCOUNT_ID || !API_TOKEN) {
-  console.error('❌  Missing CLOUDFLARE_ACCOUNT_ID or CLOUDFLARE_API_TOKEN in .env.local');
+if (!WORKER_TTS_URL && (!ACCOUNT_ID || !API_TOKEN)) {
+  console.error(
+    '❌  Set CLOUDFLARE_TTS_WORKER_URL or CLOUDFLARE_ACCOUNT_ID + CLOUDFLARE_API_TOKEN in .env.local'
+  );
   process.exit(1);
 }
 
-const TTS_URL = `https://api.cloudflare.com/client/v4/accounts/${ACCOUNT_ID}/ai/run/@cf/deepgram/aura-1`;
+const TTS_URL =
+  WORKER_TTS_URL ||
+  `https://api.cloudflare.com/client/v4/accounts/${ACCOUNT_ID}/ai/run/@cf/deepgram/aura-1`;
 const OUT_DIR = path.join(ROOT, 'public', 'audio', 'podcasts', 'a1');
 const TMP_BASE = path.join('/tmp', 'podcast-gen');
 const MAX_RETRIES = 3;
@@ -96,16 +102,47 @@ console.log(`🎙️   Generating audio for ${episodes.length} episode(s)...\n`)
 fs.mkdirSync(OUT_DIR, { recursive: true });
 fs.mkdirSync(TMP_BASE, { recursive: true });
 
+function isLikelyMp3(buf) {
+  if (buf.length < 32) return false;
+  if (buf[0] === 0xff && (buf[1] & 0xe0) === 0xe0) return true;
+  if (buf[0] === 0x49 && buf[1] === 0x44 && buf[2] === 0x33) return true;
+  return false;
+}
+
+/** REST Workers AI devuelve JSON `{ result: { audio: "<base64>" } }`. */
+function bufferFromTtsResponse(buf) {
+  if (isLikelyMp3(buf)) return buf;
+  const txt = buf.toString('utf8');
+  const data = JSON.parse(txt);
+  if (data.success === false) {
+    throw new Error(`Cloudflare success=false: ${JSON.stringify(data.errors || data)}`);
+  }
+  const r = data.result;
+  const b64 = typeof r === 'string' ? r : r?.audio;
+  if (!b64) throw new Error('No result.audio in TTS JSON');
+  const out = Buffer.from(String(b64).replace(/\s/g, ''), 'base64');
+  if (!isLikelyMp3(out)) throw new Error('Decoded TTS payload is not MP3');
+  return out;
+}
+
 async function ttsWithRetry(text, speaker, retries = MAX_RETRIES) {
   for (let attempt = 1; attempt <= retries; attempt++) {
     try {
+      const headers = { 'Content-Type': 'application/json' };
+      if (WORKER_TTS_URL) {
+        if (WORKER_SECRET) headers.Authorization = `Bearer ${WORKER_SECRET}`;
+      } else {
+        headers.Authorization = `Bearer ${API_TOKEN}`;
+      }
+
+      const body = WORKER_TTS_URL
+        ? JSON.stringify({ text, speaker })
+        : JSON.stringify({ text, speaker, encoding: 'mp3' });
+
       const res = await fetch(TTS_URL, {
         method: 'POST',
-        headers: {
-          Authorization: `Bearer ${API_TOKEN}`,
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ text, speaker }),
+        headers,
+        body,
       });
 
       if (!res.ok) {
@@ -113,7 +150,8 @@ async function ttsWithRetry(text, speaker, retries = MAX_RETRIES) {
         throw new Error(`HTTP ${res.status}: ${err}`);
       }
 
-      return Buffer.from(await res.arrayBuffer());
+      const raw = Buffer.from(await res.arrayBuffer());
+      return bufferFromTtsResponse(raw);
     } catch (err) {
       if (attempt === retries) throw err;
       console.warn(`    ⚠️  Attempt ${attempt} failed: ${err.message}. Retrying...`);
