@@ -1,25 +1,47 @@
 'use client';
 
-import { useParams, useSearchParams } from 'next/navigation';
+import { useParams, useSearchParams, useRouter } from 'next/navigation';
 import { useEffect, useState, Suspense } from 'react';
 import ExerciseRenderer from '@/components/ExerciseRenderer';
 import Link from 'next/link';
 import AIExercisePractice from '@/components/course/AIExercisePractice';
 import { useSpacedRepetition } from '@/hooks/use-spaced-repetition';
 
-const CHUNK_SIZE = 15;
+const LESSON_KEYS = ['grammar', 'vocabulary', 'reading', 'listening', 'speaking', 'writing'] as const;
+type LessonKey = typeof LESSON_KEYS[number];
+
+const LESSON_LABELS: Record<LessonKey, string> = {
+  grammar: 'Gramática',
+  vocabulary: 'Vocabulario',
+  reading: 'Lectura',
+  listening: 'Escucha',
+  speaking: 'Expresión oral',
+  writing: 'Escritura',
+};
+
+const LESSON_ICONS: Record<LessonKey, string> = {
+  grammar: '📖',
+  vocabulary: '🔤',
+  reading: '📄',
+  listening: '🎧',
+  speaking: '🗣️',
+  writing: '✍️',
+};
 
 function UnitContent() {
   const params = useParams();
   const searchParams = useSearchParams();
+  const router = useRouter();
   const unitId = params.unitId as string;
-  const [exercises, setExercises] = useState<any[]>([]);
+
+  const [lessons, setLessons] = useState<Record<string, any[]> | null>(null);
   const [unitTitle, setUnitTitle] = useState('');
+  const [selectedLesson, setSelectedLesson] = useState<LessonKey>('grammar');
+  const [exercises, setExercises] = useState<any[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [showUnitSummary, setShowUnitSummary] = useState(false);
-  const [showLessonComplete, setShowLessonComplete] = useState(false);
+  const [showLessonSummary, setShowLessonSummary] = useState(false);
   const [sessionScore, setSessionScore] = useState(0);
   const [failedIndexes, setFailedIndexes] = useState<number[]>([]);
   const { recordResult } = useSpacedRepetition('REC_B2');
@@ -28,8 +50,7 @@ function UnitContent() {
     setExercises(aiExercises);
     setCurrentIndex(0);
     setFailedIndexes([]);
-    setShowUnitSummary(false);
-    setShowLessonComplete(false);
+    setShowLessonSummary(false);
   };
 
   useEffect(() => {
@@ -43,15 +64,25 @@ function UnitContent() {
         } catch {
           unitModule = await import('../../../lib/course/recepcionista-b2/unit-' + unitNumber);
         }
-        const exportName = 'UNIT_' + unitNumber.toUpperCase() + '_EXERCISES';
-        const unitExercises = unitModule[exportName] || unitModule['UNIT_' + unitNumber + '_EXERCISES'] || unitModule.default;
         setUnitTitle(unitModule.UNIT_TITLE || 'Unidad ' + unitNumber);
-        if (!unitExercises || !Array.isArray(unitExercises)) {
-          setError('No se encontraron ejercicios');
+
+        if (unitModule.UNIT_LESSONS) {
+          setLessons(unitModule.UNIT_LESSONS);
+          const lessonParam = searchParams.get('lesson') as LessonKey | null;
+          const initialLesson: LessonKey = (lessonParam && LESSON_KEYS.includes(lessonParam as LessonKey))
+            ? lessonParam as LessonKey
+            : 'grammar';
+          setSelectedLesson(initialLesson);
+          const lessonExercises = unitModule.UNIT_LESSONS[initialLesson] || [];
+          setExercises(lessonExercises);
         } else {
-          setExercises(unitExercises);
-          const idx = parseInt(searchParams.get('index') || '0');
-          if (!isNaN(idx) && idx >= 0 && idx < unitExercises.length) setCurrentIndex(idx);
+          const exportName = 'UNIT_' + unitNumber.toUpperCase() + '_EXERCISES';
+          const unitExercises = unitModule[exportName] || unitModule['UNIT_' + unitNumber + '_EXERCISES'] || unitModule.default;
+          if (!unitExercises || !Array.isArray(unitExercises)) {
+            setError('No se encontraron ejercicios');
+          } else {
+            setExercises(unitExercises);
+          }
         }
       } catch (err: any) {
         setError(err.message);
@@ -60,14 +91,22 @@ function UnitContent() {
       }
     }
     loadUnit();
-  }, [unitId, searchParams]);
+  }, [unitId]);
+
+  const switchLesson = (key: LessonKey) => {
+    if (!lessons) return;
+    setSelectedLesson(key);
+    setExercises(lessons[key] || []);
+    setCurrentIndex(0);
+    setSessionScore(0);
+    setFailedIndexes([]);
+    setShowLessonSummary(false);
+  };
 
   const advanceExercise = (idx: number, total: number) => {
     setTimeout(() => {
       if (idx === total - 1) {
-        setShowUnitSummary(true);
-      } else if ((idx + 1) % CHUNK_SIZE === 0) {
-        setShowLessonComplete(true);
+        setShowLessonSummary(true);
       } else {
         setCurrentIndex(idx + 1);
       }
@@ -79,7 +118,7 @@ function UnitContent() {
     const pts = result?.score ?? 100;
     const ex = exercises[currentIndex];
     if (ex) {
-      recordResult(ex.id ?? `recepcionista-{unitId}-${currentIndex}`, ex.topicName || ex.topic || 'General', success, pts);
+      recordResult(ex.id ?? `recepcionista-${unitId}-${currentIndex}`, ex.topicName || ex.topic || 'General', success, pts);
     }
     if (success) setSessionScore(s => s + pts);
     else setFailedIndexes(prev => [...prev, currentIndex]);
@@ -104,83 +143,104 @@ function UnitContent() {
     </div>
   );
 
-  if (showUnitSummary) return (
-    <div className="min-h-screen flex items-center justify-center bg-slate-50 p-4">
-      <div className="max-w-md w-full bg-white rounded-3xl shadow-xl p-10 text-center">
-        <p className="text-5xl mb-4">🎉</p>
-        <h2 className="text-2xl font-extrabold text-slate-900 mb-2">¡Unidad completada!</h2>
-        <p className="text-slate-600 mb-2">{unitTitle}</p>
-        <p className="text-lg font-bold text-blue-600 mb-8">Puntuación: {sessionScore}</p>
-        <AIExercisePractice
-          level="B2"
-          topic={exercises[0]?.topic || 'Professional English'}
-          onExercisesReady={handleAIPracticeReady}
-        />
-        <Link href="/curso-recepcionista-b2" className="mt-4 block text-slate-500 hover:text-slate-700 font-semibold text-sm">
-          ← Volver al curso
-        </Link>
+  if (showLessonSummary) {
+    const currentIdx = LESSON_KEYS.indexOf(selectedLesson);
+    const nextLesson = LESSON_KEYS[currentIdx + 1] as LessonKey | undefined;
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-slate-50 p-4">
+        <div className="max-w-md w-full bg-white rounded-3xl shadow-xl p-10 text-center">
+          <p className="text-5xl mb-4">✅</p>
+          <h2 className="text-2xl font-extrabold text-slate-900 mb-2">¡Lección completada!</h2>
+          <p className="text-slate-600 mb-1">{LESSON_ICONS[selectedLesson]} {LESSON_LABELS[selectedLesson]}</p>
+          <p className="text-lg font-bold text-blue-600 mb-8">Puntuación: {sessionScore}</p>
+          {nextLesson ? (
+            <button
+              onClick={() => switchLesson(nextLesson)}
+              className="w-full bg-slate-900 text-white py-4 rounded-2xl font-bold hover:bg-slate-800 transition-colors mb-3"
+            >
+              Siguiente: {LESSON_ICONS[nextLesson]} {LESSON_LABELS[nextLesson]} →
+            </button>
+          ) : (
+            <>
+              <p className="text-slate-600 mb-4 font-semibold">¡Has completado todas las lecciones de esta unidad!</p>
+              <AIExercisePractice
+                level="B2"
+                topic={exercises[0]?.topic || 'Professional English'}
+                onExercisesReady={handleAIPracticeReady}
+              />
+            </>
+          )}
+          <Link href="/curso-recepcionista-b2" className="mt-4 block text-slate-500 hover:text-slate-700 font-semibold text-sm">
+            ← Volver al curso
+          </Link>
+        </div>
       </div>
-    </div>
-  );
-
-  if (showLessonComplete) return (
-    <div className="min-h-screen flex items-center justify-center bg-slate-50 p-4">
-      <div className="max-w-md w-full bg-white rounded-3xl shadow-xl p-10 text-center">
-        <p className="text-5xl mb-4">✅</p>
-        <h2 className="text-2xl font-extrabold text-slate-900 mb-2">¡Lección completada!</h2>
-        <p className="text-slate-600 mb-8">Continúa con la siguiente lección.</p>
-        <button
-          onClick={() => { setShowLessonComplete(false); setCurrentIndex(prev => prev + 1); }}
-          className="w-full bg-slate-900 text-white py-4 rounded-2xl font-bold hover:bg-slate-800 transition-colors"
-        >
-          Siguiente lección →
-        </button>
-        <Link href="/curso-recepcionista-b2" className="mt-4 block text-slate-500 hover:text-slate-700 font-semibold text-sm">
-          ← Volver al curso
-        </Link>
-      </div>
-    </div>
-  );
+    );
+  }
 
   if (!exercises.length) return (
     <div className="min-h-screen flex items-center justify-center bg-slate-50">
       <div className="text-center">
-        <p className="text-slate-500 mb-4">Esta unidad no tiene ejercicios todavía.</p>
+        <p className="text-slate-500 mb-4">Esta lección no tiene ejercicios todavía.</p>
         <Link href="/curso-recepcionista-b2" className="text-blue-600 font-bold hover:underline">Volver</Link>
       </div>
     </div>
   );
 
   const ex = exercises[currentIndex];
-  const lessonNum = Math.floor(currentIndex / CHUNK_SIZE) + 1;
-  const totalLessons = Math.ceil(exercises.length / CHUNK_SIZE);
-  const exInLesson = (currentIndex % CHUNK_SIZE) + 1;
-  const progress = ((exInLesson - 1) / Math.min(CHUNK_SIZE, exercises.length - (lessonNum - 1) * CHUNK_SIZE)) * 100;
+  const progress = (currentIndex / exercises.length) * 100;
 
   return (
     <div className="min-h-screen bg-slate-50">
       <nav className="sticky top-0 z-20 bg-white border-b border-slate-200 shadow-sm">
         <div className="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between gap-4">
-          <Link href="/curso-recepcionista-b2" className="flex items-center gap-2 text-slate-600 hover:text-slate-900 font-semibold text-sm">
+          <Link href="/curso-recepcionista-b2" className="flex items-center gap-2 text-slate-600 hover:text-slate-900 font-semibold text-sm shrink-0">
             ← Curso
           </Link>
-          <div className="flex-1 max-w-xs">
-            <div className="flex items-center justify-between text-xs text-slate-500 mb-1">
-              <span>Lección {lessonNum}/{totalLessons}</span>
-              <span>{exInLesson}/{Math.min(CHUNK_SIZE, exercises.length - (lessonNum - 1) * CHUNK_SIZE)}</span>
-            </div>
-            <div className="h-1.5 bg-slate-200 rounded-full overflow-hidden">
-              <div className="h-full bg-blue-500 rounded-full transition-all" style={{ width: `${progress}%` }} />
+          <div className="flex-1 min-w-0">
+            <p className="text-xs font-bold text-slate-400 uppercase truncate mb-1">{unitTitle}</p>
+            <div className="flex items-center gap-2">
+              <div className="h-1.5 flex-1 bg-slate-200 rounded-full overflow-hidden">
+                <div className="h-full bg-blue-500 rounded-full transition-all" style={{ width: `${progress}%` }} />
+              </div>
+              <span className="text-xs text-slate-500 shrink-0">{currentIndex + 1}/{exercises.length}</span>
             </div>
           </div>
-          <span className="text-xs font-bold text-slate-500">{sessionScore} pts</span>
+          <span className="text-xs font-bold text-slate-500 shrink-0">{sessionScore} pts</span>
         </div>
       </nav>
 
+      {lessons && (
+        <div className="bg-white border-b border-slate-100">
+          <div className="max-w-4xl mx-auto px-4">
+            <div className="flex gap-1 overflow-x-auto py-2 scrollbar-hide">
+              {LESSON_KEYS.map((key) => (
+                <button
+                  key={key}
+                  onClick={() => switchLesson(key)}
+                  className={`flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-semibold whitespace-nowrap transition-colors ${
+                    selectedLesson === key
+                      ? 'bg-slate-900 text-white'
+                      : 'text-slate-600 hover:bg-slate-100'
+                  }`}
+                >
+                  <span>{LESSON_ICONS[key]}</span>
+                  <span>{LESSON_LABELS[key]}</span>
+                </button>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
+
       <main className="max-w-2xl mx-auto px-4 py-8">
-        <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">{unitTitle}</p>
+        {lessons && (
+          <p className="text-sm font-bold text-slate-500 mb-4">
+            {LESSON_ICONS[selectedLesson]} {LESSON_LABELS[selectedLesson]}
+          </p>
+        )}
         <ExerciseRenderer
-          key={currentIndex}
+          key={`${unitId}-${selectedLesson}-${currentIndex}`}
           exercise={ex}
           onComplete={handleExerciseComplete}
         />
